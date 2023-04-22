@@ -1,13 +1,13 @@
 l_german:
  #NOTE: follows the order of dynasties in the \common\dynasties\ files
  ### PREFIXES ###
- dynnp_of_the:0 "of the "
- dynnp_the:0 "the "
+ dynnp_of_the:0 "von " # orignal "of the ", wegen beschissener dt. Grammatik nur "von"
+ dynnp_the:0 "der " # orignal "the ", gerne andere Ideen oder falls mal eine Unstimmung auffällt, ändern
  
  ### PATRONYMS — PREFIXES AND SUFFIXES ###
  
- dynnpat_pre_son_of:0 "Son of"
- dynnpat_pre_daughter_of:0 "Daughter of"
+ dynnpat_pre_son_of:0 "Sohn von"
+ dynnpat_pre_daughter_of:0 "Tochter von"   # falls sich herausstellt, dass AUSNAHMSLOS Väter im Bezug stehen und nie die Mutter, kann man es zu "Sohn/Tochter des" ändern
  
  ### DOTHRAKI DYNASTIES/CADET BRANCHES ###
  #Dothraki
