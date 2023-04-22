@@ -1,4 +1,4 @@
-﻿l_english:
+l_german:
  DECISION_ON_COOLDOWN:0 "@warning_icon!#X $DECISION_NAME$ unavailable until [DATE.GetStringLong]#!"
  ALREADY_PLANNING_ACTIVITY:0 "You are already planning another [activity|E]"
  start_hunt_decision:0 "Call Hunt"
@@ -293,13 +293,13 @@
  restore_the_danelaw_decision_tooltip:0 "Reform the Kingdom of the Danelaw"
  restore_the_danelaw_decision_confirm:0 "Restore the Danelaw"
 
- embrace_english_culture_decision:0 "Embrace English Culture"
- embrace_english_culture_decision_tooltip:1 "You will give up your [ROOT.Char.GetCulture.GetName] culture"
- embrace_english_culture_decision_desc:0 "My vassals, my family, and I have lived side by side with Saxons and Celts, and as our language and customs have mixed with theirs, it is time to embrace the fact that we have become one."
- embrace_english_culture_decision_get_innovations:0 "#D English Culture gets a lot of Norman innovations#!"
- embrace_english_culture_decision_vassals_custom:0 "All vassals in Britannia"
- embrace_english_culture_decision_confirm:0 "Embrace English Culture"
- decision_embrace_english_culture_get_innovations:1 "The English [culture|E] gains all Norman and Anglo-Saxon [innovations|E]"
+ embrace_german_culture_decision:0 "Embrace English Culture"
+ embrace_german_culture_decision_tooltip:1 "You will give up your [ROOT.Char.GetCulture.GetName] culture"
+ embrace_german_culture_decision_desc:0 "My vassals, my family, and I have lived side by side with Saxons and Celts, and as our language and customs have mixed with theirs, it is time to embrace the fact that we have become one."
+ embrace_german_culture_decision_get_innovations:0 "#D English Culture gets a lot of Norman innovations#!"
+ embrace_german_culture_decision_vassals_custom:0 "All vassals in Britannia"
+ embrace_german_culture_decision_confirm:0 "Embrace English Culture"
+ decision_embrace_german_culture_get_innovations:1 "The English [culture|E] gains all Norman and Anglo-Saxon [innovations|E]"
  MY_CAPITAL_IS_IN_ENGLAND:1 "Your [realm_capital|E] is in England"
 
  restore_dumnonia_decision:0 "Restore the Kingdom of Cornwall"
@@ -591,8 +591,8 @@
  england_request_laudabiliter_decision_confirm:0 "Petition the Papacy"
  england_request_laudabiliter_decision_effects_tooltip:0 "The Papal Bull gives the [house|E] [THIS.Char.GetHouse.GetName] a [casus_belli|E] for all [counties|E] in Ireland"
  laudabiliter_decision_effects_tooltip:0 "$england_request_laudabiliter_decision_effects_tooltip$"
- embrace_english_culture_vassals_custom:1 "Every $norman$ or $french$ [vassal|E] in de jure England"
- embrace_english_culture_counties_custom:1 "Every $anglo_saxon$ [county|e] in de jure England"
+ embrace_german_culture_vassals_custom:1 "Every $norman$ or $french$ [vassal|E] in de jure England"
+ embrace_german_culture_counties_custom:1 "Every $anglo_saxon$ [county|e] in de jure England"
 
  promote_gothic_innovations_decision:0 "Inspire Opus Francigenum"
  promote_gothic_innovations_decision_desc:0 "A new age of art and discovery awaits us to drag [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] out of these dark times and make our homeland the pulsating heart of European culture."
