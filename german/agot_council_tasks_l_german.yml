@@ -1,6 +1,6 @@
 l_german:
 #Personal Steward
- personal_steward_task_diplomacy_good_skilled_notification_tooltip:0 "Die Diplomatiefähigkeit [councillor.Custom('diplomacy_skill_level')] eures persönlichen Verwalters führte zu diesem Glücksfall."
+ personal_steward_task_diplomacy_good_skilled_notification_tooltip:0 "Die Diplomatiefähigkeit [councillor.Custom('diplomacy_skill_level')] eures persönlichen Verwalters führte zu diesem Glücksfall.
  personal_steward_task_diplomacy_good_unskilled_notification_tooltip:0 "Dies geschah trotz der Diplomatiefähigkeit [councillor.Custom('diplomacy_skill_level')] eures persönlichen Verwalters."
  personal_steward_task_martial_good_unskilled_notification_tooltip:0 "Dies geschah trotz der Kriegskunstfähigkeiten [councillor.Custom('martial_skill_level')] eures persönlichen Verwalters."
  personal_steward_task_martial_good_skilled_notification_tooltip:0 "Die Kriegskunstfähigkeiten eures persönlichen Verwalters [councillor.Custom('martial_skill_level')] führten zu diesem Glücksfall."
@@ -45,41 +45,39 @@ l_german:
 
 
  #Castellan Tasks 
- task_castellan_default_1:0 "Reich beaufsichtigen" #martial 
- task_castellan_default_effect_desc_1:0 "[councillor.GetShortUINameNoTooltip]s Erfahrung in Kriegsangelegenheiten wird eure Macht über dieses Land festigen. \n\n[councillor.GetHerHis|U] Unterstützung gibt euch:\n[councillor.GetModifierDescForTask('task_castellan_default_1')]"
+ task_castellan_default_1:0 "Mit Eiserner Faust regieren" #martial 
+ task_castellan_default_effect_desc_1:0 "Die Kriegserfahrung von [councillor.GetShortUINameNoTooltip] wird eure Herrschaft über das Reich festigen. \n\nDurch [councillor.GetHerHis|U]e Unterstützung erhaltet Ihr:\n[councillor.GetModifierDescForTask('task_castellan_default_1')]"
 
- task_castellan_default_2:0 "Reich beaufsichtigen" #learning 
- task_castellan_default_effect_desc_2:0 "Mit dem Rat von [councillor.GetShortUINameNoTooltip]s weisem und gelehrtem Geist werdet Ihr weise regieren. \n\n[councillor.GetHerHis|U] Unterstützung gibt euch:\n[councillor.GetModifierDescForTask('task_castellan_default_2')]"
+ task_castellan_default_2:0 "Als Ratgeber beistehen" #learning 
+ task_castellan_default_effect_desc_2:0 "Durch den weisen Rat von [councillor.GetShortUINameNoTooltip] sollt Ihr das Reich ebenso weise führen. \n\nDurch [councillor.GetHerHis|U]e Unterstützung erhaltet Ihr:\n[councillor.GetModifierDescForTask('task_castellan_default_2')]"
 
- task_castellan_default_3:0 "Reich beaufsichtigen" #intrigue 
- task_castellan_default_effect_desc_3:0 "[councillor.GetShortUINameNoTooltip] bewegt sich in Kreisen, die für die meisten unsichtbar sind, und verschafft euch einen Vorteil in den Schatten eures Reiches. \n\n[councillor.GetHerHis|U] Unterstützung gibt euch:\n[councillor.GetModifierDescForTask('task_castellan_default_3')]"
+ task_castellan_default_3:0 "Dem Gezwitscher der Vögel lauschen" #intrigue 
+ task_castellan_default_effect_desc_3:0 "[councillor.GetShortUINameNoTooltip] bewegt sich in Kreisen, die für die Meisten unsichtbar sind, wodurch Ihr das Reich auch aus den Schatte regieren könnt. \n\n Durch [councillor.GetHerHis|U]e Unterstützung erhaltet Ihr:\n[councillor.GetModifierDescForTask('task_castellan_default_3')]"
 
- task_castellan_default_4:0 "Reich beaufsichtigen" #stewardship 
- task_castellan_default_effect_desc_4:0 "[councillor.GetShortUINameNoTooltip] nutzt die Verwaltungsfähigkeiten, um euch bei der Verwaltung eurer Domänen zu unterstützen. \n\n[councillor.GetHerHis|U] Unterstützung gibt euch:\n[councillor.GetModifierDescForTask('task_castellan_default_4')]"
+ task_castellan_default_4:0 "Die Buchhaltung beaufsichtigen" #stewardship 
+ task_castellan_default_effect_desc_4:0 "[councillor.GetShortUINameNoTooltip] nutzt die Verwaltungsfähigkeiten, um euch bei der Verwaltung eurer Domänen zu unterstützen. \n\n Durch [councillor.GetHerHis|U]e Unterstützung erhaltet Ihr:\n[councillor.GetModifierDescForTask('task_castellan_default_4')]"
 
- task_castellan_default_5:0 "Reich beaufsichtigen" #diplomacy
- task_castellan_default_effect_desc_5:0 "[councillor.GetShortUINameNoTooltip] ist ein fähiger Berater, und eine ruhige Hand in der Staatskunst ist beim Regieren unerlässlich. \n\n[councillor.GetHerHis|U] Unterstützung gibt euch:\n[councillor.GetModifierDescForTask('task_castellan_default_5')]"
+ task_castellan_default_5:0 "Bei der Regentschaft helfen" #diplomacy
+ task_castellan_default_effect_desc_5:0 "[councillor.GetShortUINameNoTooltip] ist ein fähiger Berater und hat eine ruhige Hand in der Staatskunst, welche beim Regieren unerlässlich ist. \n\n Durch [councillor.GetHerHis|U]e Unterstützung erhaltet Ihr:\n[councillor.GetModifierDescForTask('task_castellan_default_5')]"
 
 
  task_castellan_default_hodor:0 "Ihr Bestes tun"
- task_castellan_default_hodor_effect_desc:0 "[councillor.GetShortUINameNoTooltip] ist sich nicht sicher, wie sie hier gelandet sind, aber sie tun ihr Bestes."
+ task_castellan_default_hodor_effect_desc:0 "[councillor.GetShortUINameNoTooltip] fehlen sämtliche Kenntnisse, die für eine effektive Reichsführung benötigt werden."
 
  task_castellan_court:0 "Den Vorsitz im Rat führen"
  task_castellan_court_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_court')]"
 
  task_castellan_fortify:0 "Verteidigungsanlagen verstärken"
- task_castellan_fortify:0 "Fortify Defenses"
  task_castellan_fortify_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_fortify')]"
 
  castellan_fortify_province_modifier:0 "$task_castellan_fortify$"
 
  castellan_fortify_county_modifier:0 "Verteidigungsanlagen verstärken"
- castellan_fortify_county_modifier:0 "Fortifying Defenses"
  
- castellan_court_opinion_modifier:0 "Der Kastellan führt den Vorsitz im Rat"
+ castellan_court_opinion_modifier:0 "Den Vorsitz im Rat fühhren"
 
- task_train_commanders_maa_effect_desc:0 "Placeholder"
- task_train_commanders_maa_erudition_bonus_desc:0 "Placeholder"
+ task_train_commanders_maa_effect_desc:0 "Platzhalter"
+ task_train_commanders_maa_erudition_bonus_desc:0 "Platzhalter"
 
  task_castellan_organise:0 "Mit Vasallen verhandeln"
  task_castellan_organise_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_organise')]"
@@ -108,9 +106,9 @@ l_german:
 
  task_admiral_raid:0 "Plünderer ermutigen"
 
- cannot_raid:0 "#X Ihr könnt plünndern!#!"
+ cannot_raid:0 "#X Ihr könnt plündern!#!"
 
- NOT_cannot_raid:0 "#X Ihr könnt plünndern!#!"
+ NOT_cannot_raid:0 "#X Ihr könnt nicht plündern!#!"
 
  task_admiral_raid_modifier:0 "Rat $councillor_admiral$"
 
