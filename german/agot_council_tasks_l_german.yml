@@ -68,11 +68,13 @@ l_german:
  task_castellan_court_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_court')]"
 
  task_castellan_fortify:0 "Verteidigungsanlagen verstärken"
+ task_castellan_fortify:0 "Fortify Defenses"
  task_castellan_fortify_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_fortify')]"
 
  castellan_fortify_province_modifier:0 "$task_castellan_fortify$"
 
  castellan_fortify_county_modifier:0 "Verteidigungsanlagen verstärken"
+ castellan_fortify_county_modifier:0 "Fortifying Defenses"
  
  castellan_court_opinion_modifier:0 "Der Kastellan führt den Vorsitz im Rat"
 
@@ -100,7 +102,7 @@ l_german:
 
  task_admiral_fleet_effect_desc:0 "[embark|E] Cost: #P -[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P -[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P -[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#! \n [fleet|E] Movement Speed: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!"
 
- task_admiral_fleet_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!/n"
+ task_admiral_fleet_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
 
  task_admiral_fleet_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
 
@@ -115,7 +117,7 @@ l_german:
 
  task_admiral_raid_effect_desc:0 "[raid|E] Speed: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#! \n [raid_loot|E] Capacity: #P -[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P -[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P -[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!  \n Movement Speed: #P -[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P -[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P -[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#!"
 
- task_admiral_raid_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!/n"
+ task_admiral_raid_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
 
  task_admiral_raid_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
 
@@ -127,6 +129,6 @@ l_german:
 
  task_admiral_maritime_effect_desc:0 "[domain|E] Tax: #P +[SCOPE.ScriptValue('task_admiral_maritime_tax_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')]%#!\n$TAB$Councillor's [stewardship_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_tax_base')]%#! \n [supply|E] Capacity: #P +[SCOPE.ScriptValue('task_admiral_maritime_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')]%#!\n$TAB$Councillor's [stewardship_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_base')]%#!"
 
- task_admiral_maritime_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!/n"
+ task_admiral_maritime_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
 
  task_admiral_maritime_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
