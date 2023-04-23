@@ -3,26 +3,26 @@ l_german:
 #General names:
  baron:0 "Lord"
  baron_female:0 "Lady"
- barony:0 "Province"
+ barony:0 "Province" ###
  count:0 "Lord"
  count_female:0 "Lady"
- county:0 "Lordship"
+ county:0 "Lordschaft"
  duke:0 "Lord"
  duke_female:0 "Lady"
- duchy:0 "High Lordship"
- king:0 "King"
- king_female:0 "Queen"
- kingdom:0 "Kingdom"
- emperor:0 "King"
- emperor_female:0 "Queen"
- empire:0 "Kingdom"
+ duchy:0 "Lordschaft"
+ king:0 "König"
+ king_female:0 "Königin"
+ kingdom:0 "Königreich"
+ emperor:0 "König"
+ emperor_female:0 "Königin"
+ empire:0 "Königreich"
  
  baron_plural:0 "Lords"
  count_plural:0 "Lords"
  duke_plural:0 "Lords"
- king_plural:0 "Kings"
- emperor_plural:0 "Kings"
- unlanded_plural:0 "Unlanded"
+ king_plural:0 "Könige"
+ emperor_plural:0 "Könige"
+ unlanded_plural:0 "Landlose"
  
  realm_priest_male:0 "[CHARACTER.GetCouncilTitle]"
  realm_priest_female:0 "[CHARACTER.GetCouncilTitle]"
@@ -47,73 +47,73 @@ l_german:
  #Default Feudal tiers 
  baron_feudal_male:0 "Lord"
  baron_feudal_female:0 "Lady"
- barony_feudal:0 "Lordship"
+ barony_feudal:0 "Lordschaft"
  count_feudal_male:0 "Lord"
  count_feudal_female:0 "Lady"
- county_feudal:0 "Lordship"
+ county_feudal:0 "Lordschaft"
  duke_feudal_male:0 "Lord"
  duke_feudal_female:0 "Lady"
- duchy_feudal:0 "High Lordship"
+ duchy_feudal:0 "Lordschaft"
  duke_feudal_independent:0 "Lord"
  duke_feudal_independent_female:0 "Lady"
- duchy_feudal_independent:0 "High Lordship"
- king_feudal_male:0 "King"
- king_feudal_female:0 "Queen"
- kingdom_feudal:0 "Kingdom"
- emperor_feudal_male:0 "King"
- emperor_feudal_female:0 "Queen"
- empire_feudal:0 "Kingdom"
+ duchy_feudal_independent:0 "Lordschaft"
+ king_feudal_male:0 "König"
+ king_feudal_female:0 "Königin"
+ kingdom_feudal:0 "Königreich"
+ emperor_feudal_male:0 "König"
+ emperor_feudal_female:0 "Königin"
+ empire_feudal:0 "Königreich"
 
 
  #Default LP Feudal tiers
  baron_lp_feudal_male:0 "Lord"
  baron_lp_feudal_female:0 "Lady"
- barony_lp_feudal:0 "Lordship"
+ barony_lp_feudal:0 "Lordschaft"
 
  count_lp_feudal_male:0 "Lord"
  count_lp_feudal_female:0 "Lady"
- county_lp_feudal:0 "Lordship"
+ county_lp_feudal:0 "Lordschaft"
 
  duke_lp_feudal_male:0 "Lord"
  duke_lp_feudal_female:0 "Lady"
- duchy_lp_feudal:0 "High Lordship"
+ duchy_lp_feudal:0 "Lordschaft"
  duke_lp_feudal_independent:0 "Lord"
  duke_lp_feudal_independent_female:0 "Lady"
- duchy_lp_feudal_independent:0 "High Lordship"
+ duchy_lp_feudal_independent:0 "Lordschaft"
 
  kingdom_lp_feudal:0 "[CHARACTER.Custom('LP_FEUDAL_TITLE')]" 
- kingdom_lp_feudal_default:0 "Lord Paramountcy"
+ kingdom_lp_feudal_default:0 "Lordschaft"
 
  king_lp_feudal_male:0 "[CHARACTER.Custom('LP_FEUDAL_MALE')]"
  king_lp_feudal_female:0 "[CHARACTER.Custom('LP_FEUDAL_FEMALE')]"
- king_lp_feudal_male_default:0 "Lord Paramount"
- king_lp_feudal_female_default:0 "Lady Paramount"
+ king_lp_feudal_male_default:0 "Lord"
+ king_lp_feudal_female_default:0 "Lady"
 
- empire_lp_feudal:0 "Kingdom"
- empire_iron_throne:0 "Seven Kingdoms" 
- empire_lp_feudal_default:0 "Kingdom"
+ empire_lp_feudal:0 "Königreich"
+ empire_iron_throne:0 "Königslande" 
+ empire_lp_feudal_default:0 "Königreich"
 
  emperor_lp_feudal_male:0 "[CHARACTER.Custom('LP_FEUDAL_EMPIRE_MALE')]"
  emperor_lp_feudal_female:0 "[CHARACTER.Custom('LP_FEUDAL_EMPIRE_FEMALE')]"
- emperor_lp_feudal_male_default:0 "King"
- emperor_lp_feudal_female_default:0 "Queen"
+ emperor_lp_feudal_male_default:0 "König"
+ emperor_lp_feudal_female_default:0 "Königin"
 
 
- principality_lp_feudal:0 "Principality"
- principality_lp_feudal_male:0 "Prince" 
- principality_lp_feudal_female:0 "Princess" 
+ principality_lp_feudal:0 "Fürstentum"
+ principality_lp_feudal_male:0 "Fürst" 
+ principality_lp_feudal_female:0 "Fürstin" 
 
  prince_lp_kingdom_male:0 "Lord"
  prince_lp_kingdom_female:0 "Lady"
- prince_lp_feudal_male_dorne:0 "Prince" 
- prince_lp_feudal_female_dorne:0 "Princess" 
+ prince_lp_feudal_male_dorne:0 "Fürst" 
+ prince_lp_feudal_female_dorne:0 "Fürstin" 
 
- prince_lp_empire_male:0 "Prince"
- prince_lp_empire_female:0 "Princess"
+ prince_lp_empire_male:0 "Fürst" #poll
+ prince_lp_empire_female:0 "Fürstentum"
 
  #Wolfswood Clansman Master Title
- wolfswood_clansman_master_male:0 "Master"
- wolfswood_clansman_master_female:0 "Mistress"
+ wolfswood_clansman_master_male:0 "Master" ###
+ wolfswood_clansman_master_female:0 "Mistress" ###
 
  #Riverlands 
 
