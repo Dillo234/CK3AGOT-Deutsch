@@ -1,91 +1,91 @@
-l_german:
+﻿l_german:
 #Personal Steward
- personal_steward_task_diplomacy_good_skilled_notification_tooltip:0 "Your personal steward's [councillor.Custom('diplomacy_skill_level')] diplomacy skill led to this windfall."
- personal_steward_task_diplomacy_good_unskilled_notification_tooltip:0 "This happened despite your personal steward's [councillor.Custom('diplomacy_skill_level')] diplomacy skill."
- personal_steward_task_martial_good_unskilled_notification_tooltip:0 "This happened despite your personal steward's [councillor.Custom('martial_skill_level')] martial skill."
- personal_steward_task_martial_good_skilled_notification_tooltip:0 "Your personal steward's [councillor.Custom('martial_skill_level')] martial skill led to this windfall."
- personal_steward_task_stewardship_good_skilled_notification_tooltip:0 "Your personal steward's [councillor.Custom('stewardship_skill_level')] stewardship skill led to this windfall."
- personal_steward_task_stewardship_good_unskilled_notification_tooltip:0 "This happened despite your personal steward's [councillor.Custom('stewardship_skill_level')] stewardship skill."
- personal_steward_task_intrigue_good_unskilled_notification_tooltip:0 "This happened despite your personal steward's [councillor.Custom('intrigue_skill_level')] intrigue skill."
- personal_steward_task_intrigue_good_skilled_notification_tooltip:0 "Your personal steward's [councillor.Custom('intrigue_skill_level')] intrigue skill led to this windfall."
- personal_steward_task_learning_good_unskilled_notification_tooltip:0 "This happened despite your personal steward's [councillor.Custom('learning_skill_level')] learning skill."
- personal_steward_task_learning_good_skilled_notification_tooltip:1 "Your personal steward's [councillor.Custom('learning_skill_level')] learning skill led to this windfall."
+ personal_steward_task_diplomacy_good_skilled_notification_tooltip:0 "Die Diplomatiefähigkeit [councillor.Custom('diplomacy_skill_level')] eures persönlichen Verwalters führte zu diesem Glücksfall.
+ personal_steward_task_diplomacy_good_unskilled_notification_tooltip:0 "Dies geschah trotz der Diplomatiefähigkeit [councillor.Custom('diplomacy_skill_level')] eures persönlichen Verwalters."
+ personal_steward_task_martial_good_unskilled_notification_tooltip:0 "Dies geschah trotz der Kriegskunstfähigkeiten [councillor.Custom('martial_skill_level')] eures persönlichen Verwalters."
+ personal_steward_task_martial_good_skilled_notification_tooltip:0 "Die Kriegskunstfähigkeiten eures persönlichen Verwalters [councillor.Custom('martial_skill_level')] führten zu diesem Glücksfall."
+ personal_steward_task_stewardship_good_skilled_notification_tooltip:0 "Die Verwaltungsfähigkeit [councillor.Custom('stewardship_skill_level')] eures persönlichen Verwalters hat zu diesem Glücksfall geführt."
+ personal_steward_task_stewardship_good_unskilled_notification_tooltip:0 "Dies geschah trotz der Verwaltungsfähigkeit [councillor.Custom('stewardship_skill_level')] eures persönlichen Verwalters."
+ personal_steward_task_intrigue_good_unskilled_notification_tooltip:0 "Dies geschah trotz der Intrigenfertigkeit [councillor.Custom('intrigue_skill_level')] eures persönlichen Verwalters."
+ personal_steward_task_intrigue_good_skilled_notification_tooltip:0 "Die Intrigenfertigkeit [councillor.Custom('intrigue_skill_level')] eures persönlichen Verwalters führte zu diesem Glücksfall."
+ personal_steward_task_learning_good_unskilled_notification_tooltip:0 "Dies geschah trotz der Bildung [councillor.Custom('learning_skill_level')] eures persönlichen Verwalters."
+ personal_steward_task_learning_good_skilled_notification_tooltip:1 "Die Bildung [councillor.Custom('learning_skill_level')] eures persönlichen Verwalters führte zu diesem Glücksfall."
 
  #Personal Steward Tasks 
- task_personal_steward_default:0 "Assist Lord Commander"
- task_personal_steward_default_effect_desc:0 "[councillor.GetShortUINameNoTooltip] helps you run the Watch in general\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_default')]"
- task_personal_steward_court_politics:0 "Watch Politics"
- task_personal_steward_court_politics_effect_desc:1 "[councillor.GetShortUINameNoTooltip] focuses on your court and those closest to you\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_court_politics')]"
- task_personal_steward_chivalry:0 "Chivalry"
- task_personal_steward_chivalry_effect_desc:1 "[councillor.GetShortUINameNoTooltip] focuses on your soldiers and your commanders\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_chivalry')]"
- task_personal_steward_court_intrigue:0 "Watch Intrigue"
- task_personal_steward_court_intrigue_effect_desc:0 "[councillor.GetShortUINameNoTooltip] focuses on rumors and whispers at court\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_court_intrigue')]"
- task_personal_steward_manage_domain:0 "Manage Gift"
- task_personal_steward_manage_domain_effect_desc:1 "[councillor.GetShortUINameNoTooltip] focuses on the Gift and the Watch's holdings\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_manage_domain')]"
- task_personal_steward_patronage:0 "Patronage"
- task_personal_steward_patronage_effect_desc:0 "[councillor.GetShortUINameNoTooltip] focuses on matters of culture, religion and education\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_patronage')]"
- councillor_personal_steward_background.0001.diplomacy_notification:0 "With experience, [councillor.GetShortUINamePossessive] skill at diplomacy has increased."
- councillor_personal_steward_background.0001.martial_notification:0 "With experience, [councillor.GetShortUINamePossessive] understanding of warfare has increased."
- councillor_personal_steward_background.0001.stewardship_notification:0 "With experience, [councillor.GetShortUINamePossessive] administrative abilities have increased."
- councillor_personal_steward_background.0001.intrigue_notification:0 "With experience, [councillor.GetShortUINamePossessive] intrigue skills have increased."
- councillor_personal_steward_background.0001.learning_notification:0 "With experience, [councillor.GetShortUINamePossessive] scholarly understanding has increased."
+ task_personal_steward_default:0 "Lord Kommandant unterstützen"
+ task_personal_steward_default_effect_desc:0 "[councillor.GetShortUINameNoTooltip] hilft euch, die Wache zu organisieren\n\n[councillor.GetHerHis|U] Unterstützung gibt euch:\n[councillor.GetModifierDescForTask('task_personal_steward_default')]"
+ task_personal_steward_court_politics:0 "Politik überwachen"
+ task_personal_steward_court_politics_effect_desc:1 "[councillor.GetShortUINameNoTooltip] konzentriert sich auf euren Hof und die euch nahestehenden Personen\n\n[councillor.GetHerHis|U] Unterstützung gibt euch:\n[councillor.GetModifierDescForTask('task_personal_steward_court_politics')]"
+ task_personal_steward_chivalry:0 "Rittertum"
+ task_personal_steward_chivalry_effect_desc:1 "[councillor.GetShortUINameNoTooltip] konzentriert sich auf eure Soldaten und eure Befehlsgeber\n\n[councillor.GetHerHis|U] Unterstützung gibt euch:\n[councillor.GetModifierDescForTask('task_personal_steward_chivalry')]"
+ task_personal_steward_court_intrigue:0 "Intrigen unterstützen"
+ task_personal_steward_court_intrigue_effect_desc:0 "[councillor.GetShortUINameNoTooltip] konzentriert sich auf Gerüchte und Geflüster am Hof\n\n[councillor.GetHerHis|U] Unterstützung gibt euch:\n[councillor.GetModifierDescForTask('task_personal_steward_court_intrigue')]"
+ task_personal_steward_manage_domain:0 "Domänenverwaltung"
+ task_personal_steward_manage_domain_effect_desc:1 "[councillor.GetShortUINameNoTooltip] konzentriert sich auf Eure Domäne und persönlichen Besitztümer\n\n[councillor.GetHerHis|U]e Unterstützung gibt euch:\n[councillor.GetModifierDescForTask('task_personal_steward_manage_domain')]"
+ task_personal_steward_patronage:0 "Patronat"
+ task_personal_steward_patronage_effect_desc:0 "[councillor.GetShortUINameNoTooltip] konzentriert sich auf Angelegenheiten von Kultur, Religion und Erziehung\n\n[councillor.GetHerHis|U] Unterstützung gibt euch:\n[councillor.GetModifierDescForTask('task_personal_steward_patronage')]"
+ councillor_personal_steward_background.0001.diplomacy_notification:0 "Mit der Erfahrung hat sich [councillor.GetShortUINamePossessive] Geschicklichkeit in der Diplomatie verbessert."
+ councillor_personal_steward_background.0001.martial_notification:0 "Dank der gewonnenen Erfahrung verbessern sich die diplomatischen Fähigkeiten von  [councillor.GetShortUINamePossessive]."
+ councillor_personal_steward_background.0001.stewardship_notification:0 "Dank der gewonnenen Erfahrung verbessern sich die administrativen Fähigkeiten von [councillor.GetShortUINamePossessive]."
+ councillor_personal_steward_background.0001.intrigue_notification:0 "Dank der gewonnenen Erfahrung verbessert sich der Ränkespielwert von [councillor.GetShortUINamePossessive]."
+ councillor_personal_steward_background.0001.learning_notification:0 "Dank der gewonnenen Erfahrung verbessert sich das wissenschaftliche Verständnis von [councillor.GetShortUINamePossessive]."
 
- councillor_personal_steward_background.0001.title:0 "Personal Steward's Skills"
+ councillor_personal_steward_background.0001.title:0 "Persönliche Fähigkeiten des Kastellans"
 
- task_promote_culture_effect_desc_wv_override:1 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to [councillor_liege.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]"
- task_promote_culture_effect_desc_ev_override:1 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to [councillor_liege.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]"
- task_promote_culture_effect_desc_ironborn_override_coastal:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures: \n#S $TAB$ 80%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 20%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]"
- task_promote_culture_effect_desc_ironborn_override_coastal_county_duchy:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures: \n#S $TAB$ 60%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 40%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]"
- task_promote_culture_effect_desc_ironborn_override_inland:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures: \n#S $TAB$ 20%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 80%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]"
- task_promote_culture_effect_desc_ironborn_override_smt_broke:0 "#R #L(AGOT ERROR)#!#!: Something Broke with ironborn culture conversion, Report to Typical"
- task_promote_culture_effect_desc_greenborn_override_coastal:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures: \n#S $TAB$ 80%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 20%#! [councillor_liege.GetCulture.GetName]"
- task_promote_culture_effect_desc_greenborn_override_coastal_county_duchy:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures:: \n#S $TAB$ 60%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 40%#! [councillor_liege.GetCulture.GetName]"
- task_promote_culture_effect_desc_greenborn_override_inland:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures: \n#S $TAB$ 20%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 80%#! [councillor_liege.GetCulture.GetName]"
- task_promote_culture_effect_desc_greenborn_override_smt_broke:0 "#R #L(AGOT ERROR)#!#!: Something Broke with greenborn culture conversion, Report to Typical"
+ task_promote_culture_effect_desc_wv_override:1 "#S At #V 100%#!#!:\n$TAB$ [county|E] ändert [culture|E] zu [councillor_liege.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]"
+ task_promote_culture_effect_desc_ev_override:1 "#S At #V 100%#!#!:\n$TAB$ [county|E] ändert [culture|E] zu [councillor_liege.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]"
+ task_promote_culture_effect_desc_ironborn_override_coastal:0 "#S At #V 100%#!#!:\n$TAB$[county|E] ändert [culture|E] zu einem der folgenden\n$TAB$Kulturen: \n#S $TAB$ 80%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 20%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]"
+ task_promote_culture_effect_desc_ironborn_override_coastal_county_duchy:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] ändert [culture|E] zu einem der folgenden\n$TAB$Kulturen: \n#S $TAB$ 60%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 40%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]"
+ task_promote_culture_effect_desc_ironborn_override_inland:0 "#S At #V 100%#!#!:\n$TAB$[county|E] ändert [culture|E] zu einem der folgenden\n$TAB$Kulturen: \n#S $TAB$ 20%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 80%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]"
+ task_promote_culture_effect_desc_ironborn_override_smt_broke:0 "#R #L(AGOT ERROR)#!#!: Etwas ist mit der Konvertierung der Eisenmänner Kultur kaputt gegangen, Bericht an Typisch"
+ task_promote_culture_effect_desc_greenborn_override_coastal:0 "#S At #V 100%#!#!:\n$TAB$[county|E] ändert [culture|E] zu einem der folgenden\n$TAB$Kulturen: \n#S $TAB$ 80%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 20%#! [councillor_liege.GetCulture.GetName]"
+ task_promote_culture_effect_desc_greenborn_override_coastal_county_duchy:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] ändert [culture|E] zu einem der folgenden\n$TAB$Kulturen:: \n#S $TAB$ 60%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 40%#! [councillor_liege.GetCulture.GetName]"
+ task_promote_culture_effect_desc_greenborn_override_inland:0 "#S At #V 100%#!#!:\n$TAB$[county|E] ändert [culture|E] zu einem der folgenden\n$TAB$Kulturen: \n#S $TAB$ 20%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 80%#! [councillor_liege.GetCulture.GetName]"
+ task_promote_culture_effect_desc_greenborn_override_smt_broke:0 "#R #L(AGOT ERROR)#!#!: Etwas ist mit der Konvertierung der Grünländer Kultur kaputt gegangen, Bericht an Typisch"
 
 
  #Castellan Tasks 
- task_castellan_default_1:0 "Oversee Realm" #martial 
- task_castellan_default_effect_desc_1:0 "[councillor.GetShortUINameNoTooltip]'s experience in matters of war will tighten your grip on this land. \n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_castellan_default_1')]"
+ task_castellan_default_1:0 "Mit Eiserner Faust regieren" #martial 
+ task_castellan_default_effect_desc_1:0 "Die Kriegserfahrung von [councillor.GetShortUINameNoTooltip] wird eure Herrschaft über das Reich festigen. \n\nDurch [councillor.GetHerHis|U]e Unterstützung erhaltet Ihr:\n[councillor.GetModifierDescForTask('task_castellan_default_1')]"
 
- task_castellan_default_2:0 "Oversee Realm" #learning 
- task_castellan_default_effect_desc_2:0 "With the advice of [councillor.GetShortUINameNoTooltip]'s sage and learned mind you shall rule wisely. \n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_castellan_default_2')]"
+ task_castellan_default_2:0 "Als Ratgeber beistehen" #learning 
+ task_castellan_default_effect_desc_2:0 "Durch den weisen Rat von [councillor.GetShortUINameNoTooltip] sollt Ihr das Reich ebenso weise führen. \n\nDurch [councillor.GetHerHis|U]e Unterstützung erhaltet Ihr:\n[councillor.GetModifierDescForTask('task_castellan_default_2')]"
 
- task_castellan_default_3:0 "Oversee Realm" #intrigue 
- task_castellan_default_effect_desc_3:0 "[councillor.GetShortUINameNoTooltip] moves in circles invisible to most, giving you an edge in the shadows of your realm. \n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_castellan_default_3')]"
+ task_castellan_default_3:0 "Dem Gezwitscher der Vögel lauschen" #intrigue 
+ task_castellan_default_effect_desc_3:0 "[councillor.GetShortUINameNoTooltip] bewegt sich in Kreisen, die für die Meisten unsichtbar sind, wodurch Ihr das Reich auch aus den Schatte regieren könnt. \n\n Durch [councillor.GetHerHis|U]e Unterstützung erhaltet Ihr:\n[councillor.GetModifierDescForTask('task_castellan_default_3')]"
 
- task_castellan_default_4:0 "Oversee Realm" #stewardship 
- task_castellan_default_effect_desc_4:0 "[councillor.GetShortUINameNoTooltip] will make use of their administrative skills to assist in the management of your domain. \n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_castellan_default_4')]"
+ task_castellan_default_4:0 "Die Buchhaltung beaufsichtigen" #stewardship 
+ task_castellan_default_effect_desc_4:0 "[councillor.GetShortUINameNoTooltip] nutzt die Verwaltungsfähigkeiten, um euch bei der Verwaltung eurer Domänen zu unterstützen. \n\n Durch [councillor.GetHerHis|U]e Unterstützung erhaltet Ihr:\n[councillor.GetModifierDescForTask('task_castellan_default_4')]"
 
- task_castellan_default_5:0 "Oversee Realm" #diplomacy
- task_castellan_default_effect_desc_5:0 "[councillor.GetShortUINameNoTooltip] is a capable politician, and a steady hand in statecraft is essential in ruling. \n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_castellan_default_5')]"
+ task_castellan_default_5:0 "Bei der Regentschaft helfen" #diplomacy
+ task_castellan_default_effect_desc_5:0 "[councillor.GetShortUINameNoTooltip] ist ein fähiger Berater und hat eine ruhige Hand in der Staatskunst, welche beim Regieren unerlässlich ist. \n\n Durch [councillor.GetHerHis|U]e Unterstützung erhaltet Ihr:\n[councillor.GetModifierDescForTask('task_castellan_default_5')]"
 
 
- task_castellan_default_hodor:0 "Do their best"
- task_castellan_default_hodor_effect_desc:0 "[councillor.GetShortUINameNoTooltip] isn't sure how they wound up here, but they're doing their best."
+ task_castellan_default_hodor:0 "Ihr Bestes tun"
+ task_castellan_default_hodor_effect_desc:0 "[councillor.GetShortUINameNoTooltip] fehlen sämtliche Kenntnisse, die für eine effektive Reichsführung benötigt werden."
 
- task_castellan_court:0 "Preside over the council"
+ task_castellan_court:0 "Den Vorsitz im Rat führen"
  task_castellan_court_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_court')]"
 
- task_castellan_fortify:0 "Fortify Defenses"
+ task_castellan_fortify:0 "Verteidigungsanlagen verstärken"
  task_castellan_fortify_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_fortify')]"
 
  castellan_fortify_province_modifier:0 "$task_castellan_fortify$"
 
- castellan_fortify_county_modifier:0 "Fortifying Defenses"
+ castellan_fortify_county_modifier:0 "Verteidigungsanlagen verstärken"
  
- castellan_court_opinion_modifier:0 "Castellan presides over the council"
+ castellan_court_opinion_modifier:0 "Den Vorsitz im Rat führen"
 
- task_train_commanders_maa_effect_desc:0 "Placeholder"
- task_train_commanders_maa_erudition_bonus_desc:0 "Placeholder"
+ task_train_commanders_maa_effect_desc:0 "Platzhalter"
+ task_train_commanders_maa_erudition_bonus_desc:0 "Platzhalter"
 
- task_castellan_organise:0 "Negotiate with vassals"
+ task_castellan_organise:0 "Mit Vasallen verhandeln"
  task_castellan_organise_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_organise')]"
 
- task_castellan_scheme:0 "Organize schemes"
+ task_castellan_scheme:0 "Pläne ausarbeiten"
  task_castellan_scheme_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_scheme')]"
 
- task_castellan_clergy:0 "Convene Clergy" 
+ task_castellan_clergy:0 "Klerus einberufen" 
  task_castellan_clergy_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_clergy')]"
 
 
@@ -94,23 +94,23 @@ l_german:
 
  #Admiral 
 
- task_admiral_fleet:0 "Scatter Fleets"
+ task_admiral_fleet:0 "Flotten zerstreuen"
 
- task_admiral_fleet_modifier:0 "Council $councillor_admiral$"
+ task_admiral_fleet_modifier:0 "Rat $councillor_admiral$"
 
- task_admiral_fleet_effect_desc:0 "[supply|E] Duration: #P -[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P -[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P -[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#! \n [fleet|E] Movement Speed: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!"
+ task_admiral_fleet_effect_desc:0 "[supply|E] Dauer: #P -[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P -[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P -[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#! \n [fleet|E] Movement Speed: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!"
 
  task_admiral_fleet_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
 
  task_admiral_fleet_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
 
- task_admiral_raid:0 "Embolden Raiders"
+ task_admiral_raid:0 "Plünderer ermutigen"
 
- cannot_raid:0 "#X You can raid!#!"
+ cannot_raid:0 "#X Ihr könnt plündern!#!"
 
- NOT_cannot_raid:0 "#X You cannot raid!#!"
+ NOT_cannot_raid:0 "#X Ihr könnt nicht plündern!#!"
 
- task_admiral_raid_modifier:0 "Council $councillor_admiral$"
+ task_admiral_raid_modifier:0 "Rat $councillor_admiral$"
 
 
  task_admiral_raid_effect_desc:0 "[raid|E] Speed: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#! \n [raid_loot|E] Capacity: #P -[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P -[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P -[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!  \n Movement Speed: #P -[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P -[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P -[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#!"
@@ -119,11 +119,11 @@ l_german:
 
  task_admiral_raid_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
 
- task_admiral_maritime:0 "Protect Trade"
+ task_admiral_maritime:0 "Handel beschützen"
 
- task_admiral_maritime_modifier:0 "Council $councillor_admiral$"
+ task_admiral_maritime_modifier:0 "Rat $councillor_admiral$"
  
- task_admiral_maritime_tax_modifier:0 "Council $councillor_admiral$" 
+ task_admiral_maritime_tax_modifier:0 "Rat $councillor_admiral$" 
 
  task_admiral_maritime_effect_desc:0 "[domain|E] Tax: #P +[SCOPE.ScriptValue('task_admiral_maritime_tax_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')]%#!\n$TAB$Councillor's [stewardship_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_tax_base')]%#! \n [supply|E] Capacity: #P +[SCOPE.ScriptValue('task_admiral_maritime_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')]%#!\n$TAB$Councillor's [stewardship_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_base')]%#!"
 
