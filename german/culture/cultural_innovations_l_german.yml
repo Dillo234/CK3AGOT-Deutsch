@@ -38,6 +38,9 @@ l_german:
  unlock_fortification_rights_contract:0 "Schaltet die [feudal_contract|E] #high $fortification_rights$#! frei"
  unlock_coinage_rights_contract:0 "Schaltet die [feudal_contract|E] #high $coinage_rights$#! frei"
 
+ outriders:0 "Vorreiter"
+ outriders_flavor:0 "Als Mittelweg zwischen leichter und schwerer Kavallerie sind sie seit der Ankunft der Ersten Menschen in Westeros eine wichtige Kraft."
+
 ##############
 # Tribal Era #
 ##############
@@ -85,6 +88,9 @@ l_german:
 
  innovation_ledger:0 "Hauptbuch"
  innovation_ledger_desc:0 "Da unsere Lande wachsen, brauchen wir einen besseren Weg, um unseren Besitz im Blick zu behalten. Das Führen eines Hauptbuchs mit unseren Besitztümern wird dafür sorgen, dass wir stets wissen, welche Ressourcen wir zur Verfügung haben."
+
+ innovation_outriders:0 "Vorreiter"
+ innovation_outriders_desc:0 "Als Mittelweg zwischen leichter und schwerer Kavallerie sind sie seit der Ankunft der Ersten Menschen in Westeros eine wichtige Kraft."
 
  #Regional
  innovation_viking_tradition:0 "Wikingfahrten"
@@ -139,6 +145,9 @@ l_german:
  innovation_arched_saddle:0 "Kriegssattel"
  innovation_arched_saddle_desc:0 "Leichte Reiterei ist nicht zu unterschätzen, aber sie schöpft das Potenzial des Schlachtrosses nicht wirklich voll aus. Kriegssättel erlauben es uns, schwer gepanzerte Krieger mit angelegten Lanzen ins Feld zu führen, die bei ihrem Ansturm gegen die feindlichen Linien ihre volle Wucht zum Einsatz bringen können."
 
+ innovation_knighthood:0 "Ritterstand"
+ innovation_knighthood_desc:0 "Indem wir unsere besten Kämpfer in den Ritterstand erheben und sie nicht nur mit bloßen Münzen, sondern auch mit Ländereien entlohnen, können wir ihnen die Ehre zuteilwerden lassen, die sie verdienen, und uns ihre Treue sichern."
+
  #Civic
  innovation_hereditary_rule:0 "Erbherrschaft"
  innovation_hereditary_rule_desc:0 "Das Reich gleichmäßig unter allen erbberechtigten Nachkommen aufzuteilen, zersplittert die Einheit unseres Volkes. Anstatt unser Reich bei jeder Nachfolge auseinanderzureißen, können wir dafür sorgen, dass wir über ein stabiles und reiches Kernland verfügen, wenn wir ein Verfahren zur Erbherrschaft einführen."
@@ -166,14 +175,17 @@ l_german:
 
  #Regional
 
- innovation_reconquista:0 "Spiritueller Expansionismus" # [LocEditor:AwaitingBatchUpdate]
- innovation_reconquista_desc:0 "Wegen unserer eigenen Zwiste untereinander haben wir die Anwesenheit von Ungläubigen in Hispanien viel zu lange geduldet. Die Zeit ist gekommen, um unsere Truppen um uns zu scharen und die Ungläubigen ein für alle Mal aus diesem Land zu vertreiben!"
+ innovation_primogeniture_westeros:0 "Primogenitur"
+ innovation_primogeniture_westeros_desc:0 "Die männliche Bevorzugung der Primogenitur ist unter den Westerosi-Adligen üblich, aber nicht bindend. Ein Königreich, ein Erbe, wobei es gewisse Ausnahmen und Interpretationen gibt."
 
  innovation_stem_duchies:0 "Stammesherzogtum"
  innovation_stem_duchies_desc:0 "Obgleich wir aus verschiedenen Stämmen kommen, erkennen wir dennoch die Bedeutung der Einigkeit und der gemeinschaftlichen Zusammenarbeit an. Unabhängigkeit wird überbewertet, wo es doch Stabilität ist, die Sicherheit und Wohlstand bringt. "
 
  innovation_ghilman:0 "Ghilman"
  innovation_ghilman_desc:0 "Ghilman sind im Krieg gefangen genommene Sklavensoldaten, die leidenschaftliche Kämpfer und uns noch dazu treuer ergeben sind als gewöhnliche Söldner. Billiger sind sie noch dazu."
+
+ innovation_maesters:0 "Maester"
+ innovation_maesters_desc:0 "Ausgebildet in der Zitadelle in allen Bereichen des Wissens, sind die Maester für die Lords von Westeros unerlässlich für die Stabilität ihrer Herrschaft und ihre Gesundheit."
 
 #####################
 # High Medieval Era #
@@ -191,9 +203,6 @@ l_german:
  
  innovation_men-at-arms:0 "Kriegsvolk"
  innovation_men-at-arms_desc:0 "Die Nachfrage nach Menschen, die mit Pferd und Lanze umgehen können, ist stets recht hoch, aber sie sind nicht immer verfügbar. Das Bereithalten von Gruppen aus Kriegsvolk auf Abruf wird dafür sorgen, dass es uns nicht an erfahrenen Kämpfern mangelt, sobald der nächste Krieg ausbricht – was er unausweichlich tun wird."
-
- innovation_knighthood:0 "Ritterstand"
- innovation_knighthood_desc:0 "Indem wir unsere besten Kämpfer in den Ritterstand erheben und sie nicht nur mit bloßen Münzen, sondern auch mit Ländereien entlohnen, können wir ihnen die Ehre zuteilwerden lassen, die sie verdienen, und uns ihre Treue sichern."
 
  innovation_advanced_bowmaking:0 "Fortgeschrittenes Bogenbauen"
  innovation_advanced_bowmaking_desc:0 "Wo Bogenschützen ihre Waffen traditionell selbst bauten und instand hielten, haben nun Handwerker damit begonnen, neue Arten von Bögen herzustellen, die stärker und in ihrem Aufbau komplexer sind als jemals zuvor. Indem wir diese neuen Entwürfe fördern, können wir diese meisterhaften Bogenbauer zu einem militärischen Vorteil von unschätzbarem Wert machen."
