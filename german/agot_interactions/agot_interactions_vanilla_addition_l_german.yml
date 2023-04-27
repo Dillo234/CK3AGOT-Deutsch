@@ -1,18 +1,21 @@
 ﻿l_german:
- MEGA_WAR_SWITCH_SIDES:0 "Force to switch side"
- SWITCH_SIDES_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] is reluctant to switch sides: $VALUE|=+0$"
- SWITCH_SIDES_HEIR_IMPRISONED:0 "[recipient.GetHerHis|U] heir is taken prisoner: $VALUE|=+0$"
- SWITCH_SIDES_LOYAL:0 "[recipient.GetSheHe|U] is loyal: $VALUE|=+0$"
- SWITCH_SIDES_DISLOYAL:0 "[recipient.GetSheHe|U] is disloyal: $VALUE|=+0$"
- SWITCH_SIDES_CONTROLS_CAPITAL:0 "[recipient.GetSheHe|U] does not control [recipient.GetHerHis] capital: $VALUE|=+0$"
- SWITCH_SIDES_LOSING_WAR:0 "[recipient.GetHerHis|U] side is losing the war: $VALUE|=+0$"
+ #Übersetzt durch Lys
+ MEGA_WAR_SWITCH_SIDES:0 "Zwingen die Seite zu wechseln"
+ SWITCH_SIDES_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] sträubt sich die Seite zu wechseln: $VALUE|=+0$"
+ SWITCH_SIDES_HEIR_IMPRISONED:0 "[recipient.GetHerHis|U] Erbe ist gefangen genommen: $VALUE|=+0$"
+ SWITCH_SIDES_LOYAL:0 "[recipient.GetSheHe|U] ist treu: $VALUE|=+0$"
+ SWITCH_SIDES_DISLOYAL:0 "[recipient.GetSheHe|U] ist untreu: $VALUE|=+0$"
+ SWITCH_SIDES_CONTROLS_CAPITAL:0 "[recipient.GetSheHe|U] kontrolliert nicht [recipient.GetHerHis]n Hauptsitz: $VALUE|=+0$"
+ SWITCH_SIDES_LOSING_WAR:0 "[recipient.GetHerHis|U] Seite verliert den Krieg: $VALUE|=+0$"
 
- DESIGNATE_HEIR_HAS_CHILD:0 "You already have an heir!"
+ DESIGNATE_HEIR_HAS_CHILD:0 "Ihr habt bereits einen Erben!"
 
- EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_WV:0 "Attempt to convert [secondary_recipient.GetShortUIName] to ([secondary_actor.GetCulture.MakeScope.Var('wv_culture').Culture.GetName])."
- EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_WV:0 "Attempt to convert [secondary_actor.GetShortUIName] to ([secondary_recipient.GetCulture.MakeScope.Var('wv_culture').Culture.GetName])."
- EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_EV:0 "Attempt to convert [secondary_recipient.GetShortUIName] to ([secondary_actor.GetCulture.MakeScope.Var('ev_culture').Culture.GetName])."
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_WV:0 "Versuchen, [secondary_recipient.GetShortUIName] zur ([secondary_actor.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]) zu bekehren."
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_WV:0 "Versucht, [secondary_actor.GetShortUIName] zur ([secondary_recipient.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]) zu bekehren."
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_EV:0 "Versucht, [secondary_recipient.GetShortUIName] zur ([secondary_actor.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]) zu bekehren."
  EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_EV:0 "Attempt to convert [secondary_actor.GetShortUIName] to ([secondary_recipient.GetCulture.MakeScope.Var('ev_culture').Culture.GetName])."
+
+### Pause ###
 
  childhood_education.1011.wv.desc:0 "[guardian.GetTitledFirstName] has taught me so much about the ways of [guardian.GetHerHis] people— of #EMP our#! people, for not only do I profess to the [guardian.GetFaith.GetAdjective] faith, I see myself as [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]."
  childhood_education.1011.ev.desc:0 "[guardian.GetTitledFirstName] has taught me so much about the ways of [guardian.GetHerHis] people— of #EMP our#! people, for not only do I profess to the [guardian.GetFaith.GetAdjective] faith, I see myself as [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]."
