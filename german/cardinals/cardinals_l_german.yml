@@ -1,32 +1,32 @@
 ﻿l_german:
 
- cardinals_pope: "High Septon"
+ cardinals_pope: "Hoher Septon"
  cardinals_preferatus: "[papabile]"
- cardinals_cardinal: "Devout Septon [Character.GetFirstNameNoTooltip]"
- cardinals_electors: "The Most Devoted"
+ cardinals_cardinal: "Ergebener Septon [Character.GetFirstNameNoTooltip]"
+ cardinals_electors: "Die Ergebensten"
  cardinals_college: "[collegeofcardinals]"
- cardinals_cardinal2: "Devout Septon of [Character.GetPrimaryTitle.GetNameNoTier]"
- cardinals_cardinal3: "Devout Septon of [Character.GetLiege.GetPrimaryTitle.GetNameNoTier]" 
- cardinals_candidacy: "Most Devoted Candidacy"
+ cardinals_cardinal2: "Ergebenster Septon von [Character.GetPrimaryTitle.GetNameNoTier]"
+ cardinals_cardinal3: "Ergebenster Septon von [Character.GetLiege.GetPrimaryTitle.GetNameNoTier]" 
+ cardinals_candidacy: "Nächster der Ergebensten"
  cardinals_predictus: "[praedictus]"
- cardinals_my_candidate: "My Candidate"
- VIEW_CARDINAL_WINDOW_TITLE:0 "The Most Devout"
+ cardinals_my_candidate: "Euer Kandidat"
+ VIEW_CARDINAL_WINDOW_TITLE:0 "Konzil der Ergebensten" # Ist es als Titel vor dem Namen gemeint? Ergebenster Jakob? # Anm. v. Dillo: Glaube, der Titel des Fensters, wo man alle sieht
  cardinals_college_title:0 "[collegeofcardinals|E]"
- VIEW_CARDINAL_WINDOW_TITLE_TOOLTIP:0 "#T $cardinals_college_title$#!\nView the Most Devout and his Devouted Septons, This organisation is a core [core_tenets|E] of the Faith of the Seven [faith|E]."
+ VIEW_CARDINAL_WINDOW_TITLE_TOOLTIP:0 "#T $cardinals_college_title$#!\nView Das Konzil der Ergebensten und seine Ergebensten Septone sind die zentrale Institution [core_tenets|E] des Glaubens an die Sieben [faith|E]." # Stimmt das in bezug auf [core_tenets|E]???
 
 #Window Candidate
-  candiatesoon: "                                            A Candidate Will Appear Soon"
-  candiatesoonpope: "The Most Devout Cannot Have Candidates."
+  candiatesoon: "Ein Nächster der Ergebensten wird bald erscheinen"
+  candiatesoonpope: "Die Ergebensten können keine Kandidaten haben"
 
 #Invest 
-  window_cardinals_divest_tooltip:0 "Withdraw Investment! Returns half initial investment."
-  window_cardinals_invest_tooltip:0 "Invest in Candidate! Costs 50 Gold, Removing Investment later returns only Half initial investment!" 
+  window_cardinals_divest_tooltip:0 "Investition zurückziehen! Ihr erhaltet die Hälfte Eurer ursprünglichen Investition zurück."
+  window_cardinals_invest_tooltip:0 "In Kandidat investieren! Kostet 50 Golddrachen, durch eine Rücknahme der Investition erhaltet Ihr nur noch die Hälfte zurück!" 
 
- close_tooltip: "Close"
+ close_tooltip: "Schließen" # Ich bin mir ab hier mega unsicher
  # Pope score breakdown
- cardinals_score_papal: "@icon_popinion!High Septon Score:"
- cardinals_score_cardinal: "@icon_popinion!Septon Score:"
- cardinals_score_popinion: "Popinion:"
+ cardinals_score_papal: "@icon_popinion!Punktestand bei der Wahl zum Hohen Septon:"
+ cardinals_score_cardinal: "@icon_popinion!Punktestand bei der Ernennung zum Nächsten Ergebensten:"
+ cardinals_score_popinion: "Volksmeinung:"
  cardinals_score_culture: "[culture|E]:"
  cardinal_piety_bonus: "[piety_i][piety|E] ([Character.GetPiety|+0])" 
  cardinal_prestige_bonus: "[prestige_i][prestige|E] ([Character.GetPrestige|+0])" 
@@ -38,12 +38,12 @@
  cardinal_culture_bonus: "[culture|E] ([Character.GetCulture.GetName])" 
  cardinal_virtue_bonus: "[virtues|E] ([TopScope.ScriptValue('cardinal_virtue_count')|+0])" 
 #  cardinal_sin_penalty: "[sins|E] ([TopScope.ScriptValue('cardinal_sin_count')|-0])" 
- cardinal_popinion_bonus: "High Septon Opinion"
- cardinal_money_bonus: "[gold_i]Campaign Funding ([Character.MakeScope.Var('cardinal_campaign_contribution').GetValue|0V])"
- cardinal_secular_power_bonus: "Secular Power"
- cardinal_theocratic_power_bonus: "Theocratic Power"
- cardinal_event_bonus: "Event Bonus"
- cardinal_too_old: "Too Old"
- cardinal_already_cardinal: "Already Septon"
+ cardinal_popinion_bonus: "Meinung des Hohen Septon"
+ cardinal_money_bonus: "[gold_i]Kampagnenfinanzierung ([Character.MakeScope.Var('cardinal_campaign_contribution').GetValue|0V])"
+ cardinal_secular_power_bonus: "Weltliche Macht"
+ cardinal_theocratic_power_bonus: "Geistliche Macht"
+ cardinal_event_bonus: "Event-Bonus"
+ cardinal_too_old: "Zu Alt"
+ cardinal_already_cardinal: "Bereits Septon"
 
  collegeofcardinals: "[collegeofcardinals]"
