@@ -332,8 +332,10 @@
  tormented_me_during_childhood_desc_1:1 "[tormentor.GetFirstName] verbrannte mein liebstes Spielzeug ([owner.Custom('child_favorite_toy')]), als ich noch klein war"
 
  tormented_me_during_childhood_desc_second_perspective_1:0 "[tormentor.GetFirstName] verbrannte Euer liebstes Spielzeug ([ROOT.Char.Custom('child_favorite_toy')]), als Ihr noch klein wart"
+ 
  tormented_me_during_childhood_desc_third_perspective_1:0 "[tormentor.GetFirstName] verbrannte das liebste Spielzeug von [owner.GetName] ([ROOT.Char.Custom('child_favorite_toy')]), als [Select_CString(owner.IsFemale, 'diese', 'dieser')] noch klein war"
  war_lost_desc_1:1 "Ich verlor einen Krieg gegen [winner.GetFullName]"
+
  war_lost_desc_second_perspective_1:1 "Ihr verlort einen Krieg gegen [winner.GetFullName]"
  war_lost_desc_third_perspective_1:1 "[owner.GetName] verlor einen Krieg gegen [winner.GetFullName]"
  war_won_desc_1:1 "Ich gewann einen Krieg gegen [loser.GetFullName]"
