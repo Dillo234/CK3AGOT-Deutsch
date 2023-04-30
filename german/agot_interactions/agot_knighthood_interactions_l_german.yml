@@ -32,33 +32,31 @@
  EDUCATE_SELECT_YOUR_KNIGHT:0 "#Ich wähle einen [agot_knight|E] von Eurem [court|E]#!"
  EDUCATE_SELECT_YOUR_SQUIRE:0 "#Ich wähle einen [squire|E]n von Eurem [court|E]#!"
 
-### Pause ###
-
- SQUIRE_ACTOR_CHILD_PERSONALLY_REQUEST:0 "It would please me greatly if you could personally take [secondary_actor.GetShortUIName] as your squire."
- SQUIRE_ACTOR_PERSONALLY_REQUEST:0 "It would be an honor if you could personally take me on as your squire."
+ SQUIRE_ACTOR_CHILD_PERSONALLY_REQUEST:0 "Es würde mich zutiefst erfreuen, wenn Ihr [secondary_actor.GetShortUIName] zu Eurem Knappen nehmen könntet."
+ SQUIRE_ACTOR_PERSONALLY_REQUEST:0 "Es wäre mir eine Ehre, wenn Ihr mich zu Eurem Knappen nehmen könntet."
  SQUIRE_ACTOR_CHILD_REQUEST:0 "It would please me greatly if you would allow [secondary_actor.GetShortUIName] to become your [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive] squire."
  SQUIRE_ACTOR_REQUEST:0 "It would please me greatly if you would allow your [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive] squire."
 
- EDUCATE_RECIPIENT_SQUIRE_PERSONALLY_REQUEST:0 "I would like to become your [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive] knight personally, if that sounds reasonable to you."
- EDUCATE_SQUIRE_PERSONALLY_REQUEST:0 "In order to ensure that you receive the best squire training as possible possible, I would see to your training personally — if you will let me."
- EDUCATE_RECIPIENT_SQUIRE_REQUEST:0 "I would like for your [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] to become the squire of [secondary_actor.GetShortUIName] — a most skillful knight!"
- EDUCATE_SQUIRE_REQUEST:0 "In order to ensure that you become a knight one day, I would like for you to become a squire to [secondary_actor.GetShortUIName] — a most skillful knight!"
- educate_squire_interaction_notification:0 "Educate Squire"
+ EDUCATE_RECIPIENT_SQUIRE_PERSONALLY_REQUEST:0 "Ich würde gerne Euer [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive] Ritter werden, falls es Euch genehm ist."
+ EDUCATE_SQUIRE_PERSONALLY_REQUEST:0 "Ich würde persönlich dafür sorgen, dass Ihr die beste Knappenausbildung erhaltet — Wenn ihr es so wollt."
+ EDUCATE_RECIPIENT_SQUIRE_REQUEST:0 "Ich hätte gerne, dass Euer [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] der Knappe von [secondary_actor.GetShortUIName] wird  — einem höchst geschickter Ritter!"
+ EDUCATE_SQUIRE_REQUEST:0 "Um sicherzugehen, dass Ihr eines Tages ein Ritter werdet, hätte ich es gerne, dass Ihr der Knappe von [secondary_actor.GetShortUIName] werdet — einem höchst geschickter Ritter!"
+ educate_squire_interaction_notification:0 "Knappen ausbilden"
 
- offer_of_squirehood:0 "Offer of Squirehood"
- OFFER_SQUIREHOOD_NOTIFICATION:0 "The road to knighthood begins with squirehood. Become my squire and I will ensure that, should you be a worthy student, you will one day become a knight by my hand!" #AGOT TODO  please rewrite this
+ offer_of_squirehood:0 "Knappenschaft anbieten"
+ OFFER_SQUIREHOOD_NOTIFICATION:0 "Der Weg zum Ritter beginnt als Knappe. Werdet mein Knappe und ich werde dafür sorgen, dass ich eines Tages Euch, wenn ihr Euch für würdig erweist, zum Ritter schlage!" #AGOT TODO  please rewrite this
 
- agot_remove_my_squire_interaction:0 "Remove Squire"
- agot_remove_my_squire_interaction_desc:0 "[recipient.GetFirstNameNicknamedNoTooltipRegnal] is your squire, but with a few words, you can remove them from that position."
+ agot_remove_my_squire_interaction:0 "Knappe entlassen"
+ agot_remove_my_squire_interaction_desc:0 "[recipient.GetFirstNameNicknamedNoTooltipRegnal] ist Euer Knappe, jedoch kann dies kurzerhand auch wieder rückgängig gemacht werden."
 
- squirehood_removal:0 "Removed from Squirehood"
- REMOVAL_OF_SQUIREHOOD_NOTIFICATION:0 "In my eyes, you are no longer worthy of being a squire! You will need to find a different knight to continue your knightly training!"
+ squirehood_removal:0 "Aus Knapenschaft entlassen"
+ REMOVAL_OF_SQUIREHOOD_NOTIFICATION:0 "In meinen Augen, seid Ihr nicht länger würdig, mein Knappe zu sein! Ihr werdet einen anderen Ritter finden müssen, um Eure Ausbildung fortführen zu können!"
 
- agot_train_squire_interaction:0 "Train Squire"
- agot_train_squire_interaction_desc:0 "Train [recipient.GetFirstNameNicknamedNoTooltipRegnal] in the ways of knighthood."
+ agot_train_squire_interaction:0 "Knappenübung"
+ agot_train_squire_interaction_desc:0 "[recipient.GetFirstNameNicknamedNoTooltipRegnal] in der Kunst des Rittertums unterweisen."
 
- squire_training:0 "Train Squire"
- KNIGHT_TRAINS_SQUIRE_NOTIFICATION:0 "Squire! Once again, it is time we train in the ways of knighthood. Prepare yourself, for on the morrow we shall train like never before." #AGOT TODO  please rewrite this
+ squire_training:0 "Knappenübung"
+ KNIGHT_TRAINS_SQUIRE_NOTIFICATION:0 "Knappe! Es ist wieder an der Zeit, dass ich euch in der Kunst des Rittertums unterweise. Macht Euch bereit, da wir am morgigen Tag üben, wie nie zuvor." #AGOT TODO  please rewrite this
 
  agot_train_squire_actor.tt:0 "Will be prompted to select what type of training [recipient.GetName] will recieve."
  agot_train_squire_recipient.tt:0 "Will recieve training based on the selection of [actor.GetName]."
