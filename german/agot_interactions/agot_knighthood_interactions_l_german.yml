@@ -97,13 +97,13 @@ OFFER_EDUCATE_SQUIRE:0 "Knappentum anbieten"
 
 ##
 
-ACTOR_IS_MY_AGOT_KNIGHT_REASON:0 "[recipient.GetShortUIName|U] ist  der Knappe von [actor.GetShortUIName]:\ $VALUE|=+0$"
+ACTOR_IS_MY_AGOT_KNIGHT_REASON:0 "[recipient.GetShortUIName|U] ist  der Knappe von [actor.GetShortUIName]: $VALUE|=+0$"
 
-LOWBORN_DESIRES_KNIGHTHOOD_REASON:0 "Als eine [lowborn|E] bin ich eher geneigt, eine Erhöhung meines Sozialen Status zu akzeptieren:\ $VALUE|=+0$"
+LOWBORN_DESIRES_KNIGHTHOOD_REASON:0 "Als eine [lowborn|E] bin ich eher geneigt, eine Erhöhung meines Sozialen Status zu akzeptieren: $VALUE|=+0$"
 
-HIGHBORN_DISLIKES_LOWBORN_KNIGHT_OFFER:0 "Der Ritterschlag durch eine [lowborn|E] wäre für mich unangemessen:\ $VALUE|=+0$"
+HIGHBORN_DISLIKES_LOWBORN_KNIGHT_OFFER:0 "Der Ritterschlag durch eine [lowborn|E] wäre für mich unangemessen: $VALUE|=+0$"
 
-HIGHBORN_IS_HUMBLE:0 "Dass [actor.GetShortUIName|U] eine [lowborn|E] ist, stört mich nicht, da ich demütig bin :\ $VALUE|=+0$"
+HIGHBORN_IS_HUMBLE:0 "Dass [actor.GetShortUIName|U] eine [lowborn|E] ist, stört mich nicht, da ich demütig bin : $VALUE|=+0$"
 
 #### NEW SHIT
 
@@ -125,52 +125,52 @@ KNIGHTHOOD_LOW_SOCIABILITY:0 "[personality|E] —#italic Ich bin den anderen üb
 
 ## EDUCATION REASONS
 
-KNIGHTHOOD_EDUCATION_MARTIAL_REASON:0 "[education|E]:\ Ich habe eine Kriegsführungs-Ausbildung:\ $VALUE|=+0$"
+KNIGHTHOOD_EDUCATION_MARTIAL_REASON:0 "[education|E]: Ich habe eine Kriegsführungs-Ausbildung:\ $VALUE|=+0$"
 
-KNIGHTHOOD_EDUCATION_LEARNING_REASON:0 "[education|E]:\ Ich bin von kluger, nicht von kriegerischer Natur!:\ $VALUE|=+0$"
+KNIGHTHOOD_EDUCATION_LEARNING_REASON:0 "[education|E]: Ich bin von kluger, nicht von kriegerischer Natur!:\ $VALUE|=+0$"
 
-KNIGHTHOOD_EDUCATION_NON_MARTIAL_REASON:0 "[education|E]:\ Ich habe eine andere Ausbildung als der Kriegsführung:\ $VALUE|+=0$"
+KNIGHTHOOD_EDUCATION_NON_MARTIAL_REASON:0 "[education|E]: Ich habe eine andere Ausbildung als der Kriegsführung:\ $VALUE|+=0$"
 
-KNIGHTHOOD_I_AM_A_WARRIOR_REASON:0 "[education|E]:\ Ich bin ein geübter Krieger, jedoch noch kein  Ritter:\ $VALUE|+=0$"
+KNIGHTHOOD_I_AM_A_WARRIOR_REASON:0 "[education|E]: Ich bin ein geübter Krieger, jedoch noch kein  Ritter:\ $VALUE|+=0$"
 
-KNIGHTHOOD_MY_FAITH_DOES_NOT_CARE:0 "[faith|E]:\ [recipient.GetShortUINamePossessiveNoTooltip|U] Glaube schätzt das Rittertum nicht:\ $VALUE|+=0$"
+KNIGHTHOOD_MY_FAITH_DOES_NOT_CARE:0 "[faith|E]: [recipient.GetShortUINamePossessiveNoTooltip|U] Glaube schätzt das Rittertum nicht:\ $VALUE|+=0$"
 
-KNIGHTHOOD_HAS_KNIGHTHOOD_TENET_REASON:0 "[faith|e]:\ [recipient.GetShortUINamePossessiveNoTooltip|U] Glaube schätzt das Rittertum:\ $VALUE|=+0$"
+KNIGHTHOOD_HAS_KNIGHTHOOD_TENET_REASON:0 "[faith|e]: [recipient.GetShortUINamePossessiveNoTooltip|U] Glaube schätzt das Rittertum:\ $VALUE|=+0$"
 
 ## LANDED TITLES
 
-OUR_HOUSES_ARE_FEUDING_REASON:0 "Unsere Häuser sind verfeindet:\ $VALUE|=+0$"
+OUR_HOUSES_ARE_FEUDING_REASON:0 "Unsere Häuser sind verfeindet: $VALUE|=+0$"
 
-WE_COME_FROM_NEIGHBORING_COUNTIES:0 "[recipient.GetShortUINameNoTooltip|U] und [actor.GetShortUINameNoTooltip] kommen von benachbarten Ländereien:\ $VALUE|=+0$"
+WE_COME_FROM_NEIGHBORING_COUNTIES:0 "[recipient.GetShortUINameNoTooltip|U] und [actor.GetShortUINameNoTooltip] kommen von benachbarten Ländereien: $VALUE|=+0$"
 
-KNIGHTING_THEY_ARE_MORE_POWERFUL_REASON:0 "[actor.GetShortUINameNoTooltip|U] ist mächtiger als [recipient.GetShortUINameNoTooltip]:\ $VALUE|=+0$"
+KNIGHTING_THEY_ARE_MORE_POWERFUL_REASON:0 "[actor.GetShortUINameNoTooltip|U] ist mächtiger als [recipient.GetShortUINameNoTooltip]: $VALUE|=+0$"
 
 ## PRESTIGE
 
-KNIGHTHOOD_THEY_HAVE_A_BAD_REPUTATION:0 "[actor.GetShortUINamePossessive|U] [prestige_level|E] ist entehrt oder [prestige|E] ist negativ:\ $VALUE|=+0$"
+KNIGHTHOOD_THEY_HAVE_A_BAD_REPUTATION:0 "[actor.GetShortUINamePossessive|U] [prestige_level|E] ist entehrt oder [prestige|E] ist negativ: $VALUE|=+0$"
 
-KNIGHTHOOD_THEY_HAVE_LOW_PRESTIGE:0 "[actor.GetShortUINamePossessive|U] [prestige_level|E] ist belanglos:\ $VALUE|=+0$"
+KNIGHTHOOD_THEY_HAVE_LOW_PRESTIGE:0 "[actor.GetShortUINamePossessive|U] [prestige_level|E] ist belanglos: $VALUE|=+0$"
 
-KNIGHTHOOD_I_AM_MORE_FAMOUS_THAN_YOU:0 "[actor.GetShortUINamePossessive|U] [prestige_level|E] ist niedriger als meine:\ $VALUE|=+0$"
+KNIGHTHOOD_I_AM_MORE_FAMOUS_THAN_YOU:0 "[actor.GetShortUINamePossessive|U] [prestige_level|E] ist niedriger als meine: $VALUE|=+0$"
 
 ## OTHER
 
-FAVORS_BEING_A_SQUIRE_REASON:0 "Ich bevorzuge es Knappe zu sein:\ $VALUE|=+0$"
+FAVORS_BEING_A_SQUIRE_REASON:0 "Ich bevorzuge es Knappe zu sein: $VALUE|=+0$"
 
 ### SQUIRE REASONS
 
-SQUIREHOOD_I_AM_A_RULER_ALREADY:0 "[secondary_actor.GetShortUIName|U] ist ein volljähriger Herrscher:\ $VALUE|=+0$"
+SQUIREHOOD_I_AM_A_RULER_ALREADY:0 "[secondary_actor.GetShortUIName|U] ist ein volljähriger Herrscher: $VALUE|=+0$"
 
 SQUIREHOOD_SQUIRE_CANDIDATE_IS_LOWBORN:0 "Der vorgeschlagene Knappe ist eine [lowborn|E]: $VALUE|=+0$"
 
-SQUIREHOOD_SQUIRE_CANDIDATE_DOES_NOT_HAVE_KNIGHTHOOD_TENET:0 "[faith|E]:\ Der Glaube des vorgeschlagenen Knappen schätzt das Ritter- und Knappentum nicht:\ $VALUE|=+0$"
+SQUIREHOOD_SQUIRE_CANDIDATE_DOES_NOT_HAVE_KNIGHTHOOD_TENET:0 "[faith|E]:\ Der Glaube des vorgeschlagenen Knappen schätzt das Ritter- und Knappentum nicht: $VALUE|=+0$"
 
-SQUIREHOOD_I_AM_OLD_ENOUGH_TO_BE_A_KNIGHT:0 "Der vorgeschlagene Knappe ist alt genug um zum Ritter geschlagen zu werden:\ $VALUE|=+0$"
+SQUIREHOOD_I_AM_OLD_ENOUGH_TO_BE_A_KNIGHT:0 "Der vorgeschlagene Knappe ist alt genug um zum Ritter geschlagen zu werden: $VALUE|=+0$"
 
-SQUIREHOOD_SQUIRE_CANDIDATE_IS_NOT_RIGHT_IN_THE_HEAD:0 "Der vorgeschlagene Knappe hat einen Schatten:\ $VALUE|=+0$"
+SQUIREHOOD_SQUIRE_CANDIDATE_IS_NOT_RIGHT_IN_THE_HEAD:0 "Der vorgeschlagene Knappe hat einen Schatten: $VALUE|=+0$"
 
-KNIGHTING_AI_GUARDIAN_SKILL_MARTIAL:0 "[martial|E]s-Fähigkeit des Ritters:\ $VALUE|=+0$" # nach Bindestrich ist eigentlich falsch, aber ist nach CK3 Norm
-KNIGHTING_AI_GUARDIAN_SKILL_PROWESS:0 "[prowess|E]s-Fähigkeit des Ritters:\ $VALUE|=+0$"
+KNIGHTING_AI_GUARDIAN_SKILL_MARTIAL:0 "[martial|E]s-Fähigkeit des Ritters: $VALUE|=+0$" # nach Bindestrich ist eigentlich falsch, aber ist nach CK3 Norm
+KNIGHTING_AI_GUARDIAN_SKILL_PROWESS:0 "[prowess|E]s-Fähigkeit des Ritters: $VALUE|=+0$"
 
 educate_squire_interaction_notification:0 "Knappen ausbilden"
 
