@@ -169,16 +169,22 @@
  FIND_VASSAL_BUTTON_TOOLTIP:2 "#T $FIND_VASSAL_HEADER$#!\nWählt jemanden aus, an den dieser [title|E] vergeben werden soll.\n\n$FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT$"
  FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT:0 "Ihr könnt [titles|E] an einen Eurer [vassals|E] oder einen Eurer [guests|E] oder an beliebige [courtiers|E] in Eurem [realm|E] vergeben."
  
- GRANT_TO_SAME_CULTURE_NOBLE_HEADER:0 "Ein Adliger der [GetPlayer.Custom('same_culture_noble_header')]en Kultur"
- 
- GRANT_TO_SAME_CULTURE_NOBLE_INFO:0 "Den Titel an einen Adligen #V Eurer Kultur#! und [GetPlayer.GetFaith.GetAdjective|l]es Glaubens vergeben"
- GRANT_TO_SAME_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_TOOLTIP:0 "#T An einen Adligen der [GetPlayer.GetCulture.GetName|l]en Kultur vergeben#!\nEine [county|E], die von einem [ruler|E] gehalten wird, der nicht die örtliche [culture|E] hat, wird eine verringerte [county_opinion|E] haben.\n\n[vassals|E] derselben [culture|E] haben eine höhere [opinion|E] von ihrem [Concept('liege', 'Lehnsherrn')|E].\n\n#I Klicken, um zu vergeben#!"
- GRANT_TO_LOCAL_CULTURE_NOBLE_HEADER:0 "Ein örtlicher [FindVassalListWindow.GetTitle.GetProvince.GetCulture.GetNameNoTooltip|l]er Adliger"
- GRANT_TO_LOCAL_CULTURE_NOBLE_INFO:0 "Den Titel an einen Adligen der #V örtlichen Kultur#! und des [GetPlayer.GetFaith.GetAdjective|l]en Glaubens vergeben"
- GRANT_TO_LOCAL_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_BASE_TOOLTIP:0 "#T An einen Adligen der örtlichen [FindVassalListWindow.GetTitle.GetProvince.GetCulture.GetName|l]en Kultur vergeben#!\nEine [county|E], die von einem [ruler|E] der örtlichen [culture|E] gehalten wird, hat keine verringerte [county_opinion|E].\n\n[vassals|E] der örtlichen [culture|E] werden die [cultural_acceptance|E] erhöhen."
- GRANT_TO_LOCAL_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_BARONY_TOOLTIP:0 "$GRANT_TO_LOCAL_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_BASE_TOOLTIP$\n\n#I Zum Vergeben klicken#!"
- GRANT_TO_LOCAL_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_COUNTY_TOOLTIP:0 "$GRANT_TO_LOCAL_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_BASE_TOOLTIP$\n\n#S Auswirkungen#! \n[FindVassalListWindow.GetTitle.GetAutoGrantCountyToLocalRulerEffectDesc(GetPlayer)]\n\n#I Zum Vergeben klicken#!"
- GRANT_TO_LOCAL_CULTURE_NOBLE_ACCEPTANCE:0 "Dies erhöht die Akzeptanz"
- TITLE_VIEW_FACTION:0 "[Faction.GetName]-[faction|E]"
- CREATE_TITLE_MIN_COST:0 "Minimalkosten"
- grant_title_info_text:0 "Oder wählt einen Charakter in Eurem Reich …"
+ GRANT_TO_SAME_CULTURE_NOBLE_HEADER:0 "A Noble of the [GetPlayer.Custom('same_culture_noble_header')] Culture"
+
+ SAME_CULTURE_NOBLE:0 "[GetPlayer.GetCulture.GetNameNoTooltip]" #AGOT ADDED 
+ SAME_CULTURE_NOBLE_VALYRIAN:0 "Westerosi Valyrian" #AGOT ADDED
+
+ GRANT_TO_SAME_CULTURE_NOBLE_INFO:0 "Grant the title to a noble of #V your Culture#! and the [GetPlayer.GetFaith.GetAdjectiveNoTooltip] Faith"
+ GRANT_TO_SAME_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_TOOLTIP:0 "#T Grant to a Noble of the [GetPlayer.GetCulture.GetName] Culture#!\nA [county|E] held by a [ruler|E] that is not of the local [culture|E] will have reduced [county_opinion|E].\n\nSame-[culture|E] [vassals|E] have a higher [opinion|E] of their [liege|E].\n\n#I Click to grant#!"
+
+
+
+ GRANT_TO_LOCAL_CULTURE_NOBLE_HEADER:0 "A Local [FindVassalListWindow.GetTitle.GetProvince.GetCulture.GetNameNoTooltip] Noble"
+ GRANT_TO_LOCAL_CULTURE_NOBLE_INFO:0 "Grant the title to a noble of the #V Local Culture#! and the [GetPlayer.GetFaith.GetAdjectiveNoTooltip] Faith"
+ GRANT_TO_LOCAL_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_BASE_TOOLTIP:0 "#T Grant to a Noble of the Local [FindVassalListWindow.GetTitle.GetProvince.GetCulture.GetName] Culture#!\nA [county|E] held by a [ruler|E] of the local [culture|E] will not have reduced [county_opinion|E].\n\nLocal-[culture|E] [vassals|E] will increase [cultural_acceptance|E]."
+ GRANT_TO_LOCAL_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_BARONY_TOOLTIP:0 "$GRANT_TO_LOCAL_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_BASE_TOOLTIP$\n\n#I Click to grant#!"
+ GRANT_TO_LOCAL_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_COUNTY_TOOLTIP:0 "$GRANT_TO_LOCAL_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_BASE_TOOLTIP$\n\n#S Effects#! \n[FindVassalListWindow.GetTitle.GetAutoGrantCountyToLocalRulerEffectDesc(GetPlayer)]\n\n#I Click to grant#!"
+ GRANT_TO_LOCAL_CULTURE_NOBLE_ACCEPTANCE:0 "This increases Acceptance"
+ TITLE_VIEW_FACTION:0 "[Faction.GetName] [faction|E]"
+ CREATE_TITLE_MIN_COST:0 "Minimum cost"
+ grant_title_info_text:0 "Or choose a Character in your Realm..."
