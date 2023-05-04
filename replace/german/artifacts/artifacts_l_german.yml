@@ -642,16 +642,16 @@
  create_artifact_brooch_tooltip:0 "[inspiration_owner.GetShortUIName] erschuf eine [SCOPE.Custom('ArtifactArticleWealth')|l]e Brosche von [SCOPE.Custom('ArtifactQuality')]er Machart"
 
  ## fund_inspiration.6001-6006 trinkets from your adventurer
- morin_khuur_ornament_name:0 "Morin-Khuur-Pferde-Ornament"
- morin_khuur_ornament_description:1 "Ein Pferdekopf, der aus einem Pferdeknochen geschnitzt wurde und meist den Griff einer Morin-Khurr-Geige schmückt. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
+ morin_khuur_ornament_name:0 "Khalasar-Pferde-Ornament" #AGOT Changed
+ morin_khuur_ornament_description:1 "Ein Pferdekopf, der aus einem Pferdeknochen geschnitzt wurde und meist den Griff einer Morin-Khurr-Geige schmückt. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer." #AGOT Changed
  animal_ring_name:0 "Tigerprunkring"
  animal_ring_description:1 "Ein mit viel zu bunten Juwelen besetzter Ring, der Eure Höflinge wohl eher blenden wird, anstatt sie mit Eurem Geschmack zu beeindrucken. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
  ostrich_shell_necklace_name:0 "Halskette aus Straußenschalenperlen"
  ostrich_shell_necklace_description:1 "Ein filigranes Schmuckstück in strahlendem Weiß. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
- pilgrimage_figurine_name:0 "Schulpstatuette des Heiligen Vardan"
- pilgrimage_figurine_description:1 "Eine Figurine von Wardan Mamikonjan, einem armenischen General, der den Armeniern in der Schlacht von Avarayr 451 das Recht sicherte, das Christentum zu praktizieren. Der Helm ist mit bronzenen Details verzieht. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
- saint_margaret_fingernails_name:0 "Fingernagel der Heiligen Margareta"
- saint_margaret_fingernails_description:1 "Die Heilige Margareta von Antiochia war berühmt dafür, einen Drachen nur mit dem Absatz ihres Schuhs getötet zu haben. Angeblich sollen diese ekligen alten Fingernägel ihr gehört haben. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
+ pilgrimage_figurine_name:0 "Schulpstatuette" #AGOT Changed
+ pilgrimage_figurine_description:1 "Die Figur eines antiken Ghiscari-Kriegers. Der Helm ist mit bronzenen Details verzieht. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer." #AGOT Changed 
+ saint_margaret_fingernails_name:0 "Fingernagel des Mustermachers" #AGOT Changed
+ saint_margaret_fingernails_description:1 "Das Labyrinth des Mustermachers ist ein Labyrinth in Braavos, das durchschritten werden muss, um Weisheit zu erlangen. Angeblich sollen diese ekligen alten Fingernägel dem genialen Kopf dahinter gehört haben. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer." #AGOT Changed
  seahorse_brooch_name:0 "Goldene Seepferdchenbrosche"
  seahorse_brooch_description:1 "Eine Brosche mit feinen Quasten an einem Pferd, das sowohl Flügel als auch einen Flossenschwanz hat. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
 
@@ -659,10 +659,10 @@
  #fund_inspiration.6500- trinkets from your adventurer
  leopard_hat_name:0 "Leopardenhelm"
  leopard_hat_description:0 "Ein Helm aus dem Kopf eines Leoparden, erschlagen von [inspiration_owner.GetTitledFirstName]."
- kurgan_ornament_name:0 "Skythische Pantherfigurine"
- kurgan_ornament_description:0 "Eine Steinfigurine, die [inspiration_owner.GetTitledFirstName] aus einem alten Kurgan-Grabhügel der Skythen geplündert hat."
- kurgan_saddle_name:0 "Sattel aus einem Kurgan"
- kurgan_saddle_description:1 "Ein Sattel, den [inspiration_owner.GetTitledFirstName] aus einem skythischen Grabhügel hat mitgehen lassen. Auch wenn er mehr als tausend Jahre alt ist, scheint ihn die Luft im Grabmal inmitten von einem Dutzend einbalsamierter Pferdeleichen konserviert zu haben. Vielleicht können wir durch ihn etwas aus der Lebensart der alten Sattelkrieger lernen."
+ kurgan_ornament_name:0 "Skythische Pantherfigurine" #AGOT Changed
+ kurgan_ornament_description:0 "Eine Steinfigurine, die [inspiration_owner.GetTitledFirstName] aus einem alten Kurgan-Grabhügel der Skythen geplündert hat." #AGOT Changed
+ kurgan_saddle_name:0 "Sattel aus einem Grabhügel"
+ kurgan_saddle_description:1 "Ein Sattel, den [inspiration_owner.GetTitledFirstName] aus einem antiken Grabhügel hat mitgehen lassen. Auch wenn er mehr als tausend Jahre alt ist, scheint ihn die Luft im Grabmal inmitten von einem Dutzend einbalsamierter Pferdeleichen konserviert zu haben. Vielleicht können wir durch ihn etwas aus der Lebensart der alten Sattelkrieger lernen." #AGOT Changed
  naked_tapestry_name:0 "Akt-Wandteppich"
  naked_tapestry_description:0 "Eine nackte Darstellung von [inspiration_owner.GetTitledFirstName] an einem Oasenstrand. [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')|U] fächelt sich mit einem Blatt Luft zu, und kristallklare Tröpfchen funkeln auf [inspiration_owner.Char.Custom('DE_PRO_POS_S_3P')]er Haut."
 
