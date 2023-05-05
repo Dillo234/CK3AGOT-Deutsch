@@ -1,21 +1,22 @@
 ﻿l_german:
-small_councillor: "Small Councillor"
-invite_to_small_council: "Invite to the Small Council"
-invite_to_small_council_prompt: "I hereby request that you release your [recipient.Custom2('RelationToMe',SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetName], to serve on my Small Council. As a temporary peer vassal, they will of course remain bound to you as an ally."
-recipient_secondary_invite_to_small_council: "Small Councillor"
-invite_to_small_council_accepted:0 "[secondary_recipient.GetShortUIName|U] will become your direct vassal in order to join your council."
-invite_to_small_council_declined:0 "[secondary_recipient.GetShortUIName|U] does not join your council."
+ #Übersetzt von Gilian Torhammer
+small_councillor: "Kleiner Rat"
+invite_to_small_council: "Einladung zum Kleinen Rat"
+invite_to_small_council_prompt: "Ich bitte Euch hiermit, euren [recipient.Custom2('RelationToMe',SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetName], als Mitglied in meinen Kleinen Rat aufzunehmen. Als vorübergehender gleichrangiger Vasall bleibt er natürlich als Verbündeter an euch gebunden."
+recipient_secondary_invite_to_small_council: "Kleiner Rat"
+invite_to_small_council_accepted:0 "[secondary_recipient.GetShortUIName|U] wird euer direkter Vasall werden, um eurem Rat beizutreten."
+invite_to_small_council_declined:0 "[secondary_recipient.GetShortUIName|U] tritt eurem Rat nicht bei."
 
-small_council_vassal_retained_desc:0 "You are already employing one of [TARGET_CHARACTER.GetShortUIName] Vassals."
-
-
-demanded_my_vassal_opinion:0 "Demanded My Vassal"
-refused_vassal_appointment_opinion:0 "Refused to relinquish Vassal"
+small_council_vassal_retained_desc:0 "Ihr arbeitet bereits mit einem der [TARGET_CHARACTER.GetShortUIName] Vasallen."
 
 
-SMALL_COUNCIL_ON_THE_COUNCIL:0 "[secondary_recipient.GetShortUIName] is my Councillor: $VALUE|=+0$"
-SMALL_COUNCIL_MY_KNIGHT:0 "[secondary_recipient.GetShortUIName] is serving as my [recipient.GetLiege.Custom('KnightCulture')]: $VALUE|=+0$"
-SMALL_COUNCIL_THEIR_RELATIVE:0 "[secondary_recipient.GetShortUIName] is my Relative: $VALUE|=+0$"
+demanded_my_vassal_opinion:0 "Verlangen meines Vasallen"
+refused_vassal_appointment_opinion:0 "Verweigerte die Abtretung eines Vasallen"
+
+
+SMALL_COUNCIL_ON_THE_COUNCIL:0 "[secondary_recipient.GetShortUIName] ist mein Ratsmitglied: $VALUE|=+0$"
+SMALL_COUNCIL_MY_KNIGHT:0 "[secondary_recipient.GetShortUIName] dient als mein [recipient.GetLiege.Custom('KnightCulture')]: $VALUE|=+0$"
+SMALL_COUNCIL_THEIR_RELATIVE:0 "[secondary_recipient.GetShortUIName] ist mein Verwandter: $VALUE|=+0$"
 
 small_councillor_custom:0 "[CHARACTER.Custom('small_councillor_custom')]"
 small_councillor_custom_input:0 "[ROOT.Char.GetLocalizedText('small_council_title')]"
@@ -24,7 +25,7 @@ small_councillor_custom_input:0 "[ROOT.Char.GetLocalizedText('small_council_titl
 
 # small_council_vassal_normal_tax_normal_levies_modifier:0 "$small_council_vassal_repatriation$"
 
-small_council_vassal_repatriation:0 "Vassal Repatriation"
-small_council_vassal_repatriation_desc:0 "One of this character's vassals is serving on their liege's council, but continues to send them levies and tax."
+small_council_vassal_repatriation:0 "Rückführung von Vasallen"
+small_council_vassal_repatriation_desc:0 "Einer der Vasallen dieses Charakters sitzt im Rat seines Lehnsherrn, schickt ihm aber weiterhin Abgaben und Steuern."
 
-set_relation_small_councillor: "[TARGET_CHARACTER.GetTitledFirstName|V] starts serving on your small council." 
+set_relation_small_councillor: "[TARGET_CHARACTER.GetTitledFirstName|V] beginnt, in eurem kleinen Rat zu dienen." 
