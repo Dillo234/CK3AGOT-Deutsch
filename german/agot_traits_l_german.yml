@@ -119,7 +119,7 @@
  
  trait_squire:0 "Knappe"
  trait_squire_desc:0 "Ein Knappe ist ein [agot_knight|E] in der Ausbildung. Er dient als Begleiter des Ritters und dient ihm bei all seinen Pflichten."
- trait_squire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is serving as a knight's attendant, with the hope of one day becoming a knight on [ROOT.GetCharacter.GetHerHis] own."
+ trait_squire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] dient als Begleiter eines Ritters, in der Hoffnung, eines Tages selbst ein Ritter zu werden."
  trait_squire_no_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein Ritter in der Ausbildung; doch sein Ritter ist #N gestorben, wodurch sein Fortschritt zum Stillstand kam#!."
  trait_prefers_being_a_squire_desc:0 "Anstatt den Ritterschlag anzustreben, hat [ROOT.GetCharacter.GetFirstNameNoTooltip] erklärt, dass er auf unbestimmte Zeit als Knappe dienen will."
  trait_squire_unique_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein Ritter in der Ausbildung; doch sein Ritter ist #N gestorben, wodurch sein Fortschritt zum Stillstand kam#!."
@@ -178,7 +178,7 @@
  #Others
  trait_white_walker:0 "Weißer Wanderer"
  trait_white_walker_desc:0 "Dieser Charakter ist ein furchtloser Weißer Wanderer aus den Legenden."
- trait_white_walker_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]  ist ein furchtloser Weißer Wanderer aus den Legenden."
+ trait_white_walker_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein furchtloser Weißer Wanderer aus den Legenden."
  
  trait_undead:0 "Untoter"
  trait_undead_desc:0 "Dieser Charakter wurde von den Toten zurückgebracht und wandelt nun wieder unter den Lebenden."
@@ -194,9 +194,9 @@
  trait_is_missing_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist verschwunden und sein Verbleib ist ein Rätsel."
  
 #Genetic traits
- trait_the_mark:0 "The Mark"
- trait_the_mark_desc:0 "This character bears the Mark, their hands webbed like that of a frog."
- trait_the_mark_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] bears the Mark, [ROOT.GetCharacter.GetHerHis] hands webbed like that of a frog."
+ trait_the_mark:0 "Das Mal"
+ trait_the_mark_desc:0 "Dieser Charakter trägt das Mal, seine Hände sind mit Schwimmhäuten versehen wie die eines Frosches."
+ trait_the_mark_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]  trägt das Mal, [ROOT.GetCharacter.GetHerHis] e Hände sind mit Schwimmhäuten versehen wie die eines Frosches."
   
 #Slave traits
  trait_slave:0 "Sklave"
@@ -244,8 +244,8 @@
  trait_green_dreams_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat prophetische 'grüne Träume', die ihm hat prophetische 'grüne Träume', die [ROOT.GetCharacter.GetHerHim] einen Blick in die Zukunft erlauben, ob im Guten oder im Schlechten."
  
  trait_dragon_dreams:0 "Drachenträume" ## Unsicher - Maester Dillo
- trait_dragon_dreams_desc:0 "This character is haunted by premonitions and visions of possible futures."
- trait_dragon_dreams_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is haunted by premonitions and visions of possible futures."
+ trait_dragon_dreams_desc:0 "Dieser Charakter wird von Vorahnungen und Visionen einer möglichen Zukunft heimgesucht."
+ trait_dragon_dreams_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wird von Vorahnungen und Visionen einer möglichen Zukunft heimgesucht."
  
  #Negative physical condition traits
  trait_one_handed:0 "Einhändig"
@@ -276,7 +276,7 @@
  trait_greyscale_2.desc:0 "Dieser Charakter leidet an Grauschuppen. Rissige, schuppige und steinartige Haut bedeckt einen großen Teil seines Körpers."
  trait_greyscale_2_character.desc:0 "Es ist nun unbestreitbar, dass [ROOT.GetCharacter.GetFirstNameNoTooltip] an Grauschuppen leidet. Rissige, schuppige und steinartige Haut bedeckt einen großen Teil [ROOT.GetCharacter.GetHerHis]es Körpers."
 
- trait_greyscale_3:0 "Grauer Wahnsinn"
+ trait_greyscale_3:0 "Grauer Wahn"
  trait_greyscale_3_desc:0 "Es ist zu spät, diesen Charakter zu retten. Die Grauschuppen haben ihn zerfressen, und der Verstand hat ihn verlassen. Er ist zu einer Gefahr für sich selbst und alle, die ihn umgeben, geworden."
  trait_greyscale_3_character_desc:0 "Es ist zu spät, [ROOT.GetCharacter.GetFirstNameNoTooltip] zu retten. Die Grauschuppen haben [ROOT.GetCharacter.GetHerHim] zerfressen, und der Verstand hat ihn verlassen. [ROOT.GetCharacter.GetSheHe] ist zu einer Gefahr für sich selbst und alle, die [ROOT.GetCharacter.GetFirstNameNoTooltip] umgeben, geworden."\
  
@@ -358,36 +358,36 @@
  trait_one_eyed_sapphire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has replaced [ROOT.GetCharacter.GetHerHis] missing eye with a gleaming sapphire."
 
  trait_one_eyed_red:0 "Rubinauge"
- trait_one_eyed_red_desc:0 "This character has replaced their missing eye with a burning ruby."
- trait_one_eyed_red_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has replaced [ROOT.GetCharacter.GetHerHis] missing eye with a burning ruby."
+ trait_one_eyed_red_desc:0 "TDieser Charakter hat sein fehlendes Auge durch einen glühenden Rubin ersetzt."
+ trait_one_eyed_red_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat [ROOT.GetCharacter.GetHerHis] fehlendes Auge mit einem glühenden Rubin ersetzt."
 
  trait_one_eyed_white:0 "Weißauge"
- trait_one_eyed_white_desc:0 "This character has replaced their missing eye with a glittering diamond."
- trait_one_eyed_white_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has replaced [ROOT.GetCharacter.GetHerHis] missing eye with a glittering diamond."
+ trait_one_eyed_white_desc:0 "Dieser Charakter hat sein fehlendes Auge durch einen funkelnden Diamanten ersetzt."
+ trait_one_eyed_white_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat [ROOT.GetCharacter.GetHerHis] fehlendes Auge durch einen funkelnden Diamanten ersetzt."
 
  trait_one_eyed_green:0 "Smaragdauge"
- trait_one_eyed_green_desc:0 "This character has replaced their missing eye with a rich emerald."
- trait_one_eyed_green_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has replaced [ROOT.GetCharacter.GetHerHis] missing eye with a rich emerald."
+ trait_one_eyed_green_desc:0 "Dieser Charakter hat sein fehlendes Auge durch einen üppigen Smaragd ersetzt."
+ trait_one_eyed_green_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat [ROOT.GetCharacter.GetHerHis] fehlendes Auge durch einen üppigen Smaragd ersetzt"
 
  trait_one_eyed_black:0 "Drachenglasauge"
  trait_one_eyed_black_desc:0 "A chunk of dragonglass sits where this character's eye used to be."
- trait_one_eyed_black_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has replaced [ROOT.GetCharacter.GetHerHis] missing eye with a chunk of dragonglass."
+ trait_one_eyed_black_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat [ROOT.GetCharacter.GetHerHis] missing eye with a chunk of dragonglass."
 
  trait_one_eyed_yellow:0 "Topasauge"
- trait_one_eyed_yellow_desc:0 "This character has replaced their missing eye with a golden topaz."
- trait_one_eyed_yellow_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has replaced [ROOT.GetCharacter.GetHerHis] missing eye with a golden topaz."
+ trait_one_eyed_yellow_desc:0 "Dieser Charakter hat sein fehlendes Auge durch einen güldenen Topas ersetzt."
+ trait_one_eyed_yellow_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat [ROOT.GetCharacter.GetHerHis] fehlendes Auge durch einen güldenen Topas ersetzt."
 
  trait_one_eyed_orange:0 "Bernsteinauge"
- trait_one_eyed_orange_desc:0 "This character has replaced their missing eye with shimmering amber."
- trait_one_eyed_orange_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has replaced [ROOT.GetCharacter.GetHerHis] missing eye with a honeyed amber."
+ trait_one_eyed_orange_desc:0 "Dieser Charakter hat sein fehlendes Auge durch einen honigfarbenen Bernstein ersetzt."
+ trait_one_eyed_orange_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat [ROOT.GetCharacter.GetHerHis] fehlendes Auge durch einen honigfarbenen Bernstein ersetzt."
 
  trait_one_eyed_blue:0 "Lapisauge"
- trait_one_eyed_blue_desc:0 "This character has replaced their missing eye with a starry lapis."
- trait_one_eyed_blue_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has replaced [ROOT.GetCharacter.GetHerHis] missing eye with a starry lapis."
+ trait_one_eyed_blue_desc:0 "Dieser Charakter hat sein fehlendes Auge durch einen sternförmigen Lapislazuli ersetzt."
+ trait_one_eyed_blue_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat [ROOT.GetCharacter.GetHerHis] fehlendes Auge durch einen sternförmigen Lapislazuli ersetzt."
 
  trait_one_eyed_purple:0 "Amethystauge"
- trait_one_eyed_purple_desc:0 "This character has replaced their missing eye with a dark amethyst."
- trait_one_eyed_purple_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has replaced [ROOT.GetCharacter.GetHerHis] missing eye with a dark amethyst."
+ trait_one_eyed_purple_desc:0 "Dieser Charakter hat sein fehlendes Auge durch einen dunklen Ametyhst ersetzt."
+ trait_one_eyed_purple_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat [ROOT.GetCharacter.GetHerHis] fehlendes Auge durch einen dunklen Amethyst ersetzt."
 
  trait_paramour:0 "Konkubine"
  trait_paramour_desc:0 "Dieser Charakter war die Geliebte eines dornischen Adligen."
