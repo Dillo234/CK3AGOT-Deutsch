@@ -2,16 +2,16 @@
  #Übersetzt von Gilian Torhammer
 small_councillor: "Kleiner Rat"
 invite_to_small_council: "Einladung zum Kleinen Rat"
-invite_to_small_council_prompt: "Ich bitte Euch hiermit, euren [recipient.Custom2('RelationToMe',SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetName], als Mitglied in meinen Kleinen Rat aufzunehmen. Als vorübergehender gleichrangiger Vasall bleibt er natürlich als Verbündeter an euch gebunden."
+invite_to_small_council_prompt: "Ich bitte Euch hiermit, Euren [recipient.Custom2('RelationToMe',SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetName], freizustellen, damit er in meinem Kleinen Rat dienen kann. Als zeitweiliger gleichrangiger Vasall bleibt er Euch natürlich als Verbündeter verpflichtet."
 recipient_secondary_invite_to_small_council: "Kleiner Rat"
 invite_to_small_council_accepted:0 "[secondary_recipient.GetShortUIName|U] wird euer direkter Vasall werden, um eurem Rat beizutreten."
 invite_to_small_council_declined:0 "[secondary_recipient.GetShortUIName|U] tritt eurem Rat nicht bei."
 
-small_council_vassal_retained_desc:0 "Ihr arbeitet bereits mit einem der [TARGET_CHARACTER.GetShortUIName] Vasallen."
+small_council_vassal_retained_desc:0 "Ihr beschäftigt bereits einen von [TARGET_CHARACTER.GetShortUIName] Vasallen."
 
 
-demanded_my_vassal_opinion:0 "Verlangen meines Vasallen"
-refused_vassal_appointment_opinion:0 "Verweigerte die Abtretung eines Vasallen"
+demanded_my_vassal_opinion:0 "Verlangten Vasall freigeben"
+refused_vassal_appointment_opinion:0 "Die Abtretung eines Vasallen verweigern"
 
 
 SMALL_COUNCIL_ON_THE_COUNCIL:0 "[secondary_recipient.GetShortUIName] ist mein Ratsmitglied: $VALUE|=+0$"
