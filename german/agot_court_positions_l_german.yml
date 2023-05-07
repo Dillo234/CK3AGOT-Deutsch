@@ -34,28 +34,28 @@
 
  maester_court_position:0 "Maester" #[CharacterWindow.GetCourtOwner.Custom('MaesterCourtPosition')]
  maester_tradition_bonus:0 "Von [culture_tradition|E]"
- maester_court_position_desc:1 "Der $maester_court_position$ ist für die Gesundheit und das Wohlergehen des [court|E], in dem er sich befindet, verantwortlich. Sie behandeln Krankheiten und nähen Wunden nach bestem Wissen und Gewissen."
- maester_employer_custom_effect_description:1 "Führt  [medical_treatments|E]#!\nVerbessert [education|E] \nSchaltet die #V $make_child_learn_language_interaction$#! [interaction|E] frei\n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen euch#!"
+ maester_court_position_desc:1 "Der $maester_court_position$ ist für die Gesundheit und das Wohlergehen des [court|E], in dem er sich befindet, verantwortlich. Er behandelt bestmöglich Krankheiten und Wunden."
+ maester_employer_custom_effect_description:1 "Führt [medical_treatments|E]#! aus\nVerbessert [education|E] \nSchaltet die #V $make_child_learn_language_interaction$#! [interaction|E] frei\n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen Euch#!"
 
  household_guard_court_position:0 "Hauptmann der Hausgarde"
  household_guard_tradition_bonus:0 "von [culture_tradition|E]"
  household_guard_court_position_desc:0 "Der $household_guard_court_position$ ist verantwortlich für die Organisation des Schutzes des [house|E], dem sie dienen."
- household_guard_employer_custom_effect_description:2 "Verringert das Risiko, in Schlachten zu sterben oder gefangen genommen zu werden, in denen ihr beide kämpft #!\n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen euch#!"
+ household_guard_employer_custom_effect_description:2 "Verringert das Risiko, in Schlachten zu sterben oder gefangen genommen zu werden, in denen ihr beide kämpft #!\n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen Euch#!"
 
  septon_court_position:0 "Septon"
  speton_tradition_bonus:0 "Von [culture_tradition|E]"
- septon_court_position_desc:1 "Der $septon_court_position$ bietet religiöse Dienste für die Mitglieder eures [court|E] , die dem Glauben der Sieben angehören."
+ septon_court_position_desc:1 "Der $septon_court_position$ bietet religiöse Dienste für die Mitglieder Eures [court|E] , die dem Glauben der Sieben angehören."
 
  septa_court_position:0 "Septa"
  speta_tradition_bonus:0 "Von [culture_tradition|E]"
- septa_court_position_desc:1 "Die $septa_court_position$ ist für die Erziehung Ihrer weiblichen [children|E] zuständig, die keinen [guardian|E] haben."
+ septa_court_position_desc:1 "Die $septa_court_position$ ist für die Erziehung Eurer weiblichen [children|E] zuständig, die keinen [guardian|E] haben."
 
- gaoler_court_position:0 "Hüter der Zellen"
- gaoler_court_position_desc:1 "In den feuchten Tiefen des Schlosses erstrecken sich die Kerker; wo die Gefangenen wimmern, und das $gaoler_court_position$  es."
+ gaoler_court_position:0 "Hüter der Zellen" #Hüter statt Wächter weil https://eisundfeuer.fandom.com/de/wiki/H%C3%BCter_des_Schl%C3%BCssels
+ gaoler_court_position_desc:1 "In den feuchten Tiefen der Burg erstrecken sich die Kerker, wo die Gefangenen jammern und der $gaoler_court_position$ sie bewacht."
 
  harbormaster_court_position:0 "Hafenmeister"
  harbormaster_tradition_bonus:0 "von [culture_tradition|E]"
- harbormaster_court_position_desc:0 "Der $harbormaster_court_position$ ist der Amtsträger, der den Seehandel regelt und den Zoll in Ihren Häfen überwacht."
+ harbormaster_court_position_desc:0 "Der $harbormaster_court_position$ ist der Beauftragte, der den Seehandel regelt und den Zoll in Euren Häfen überwacht."
 
  warden_of_the_north_court_position:0 "Wächter des Nordens"
  warden_of_the_north_court_position_desc:1 "Der Wächter des Nordens ist mit der Verteidigung des Nordens im Falle einer Bedrohung oder Invasion von außen beauftragt."
@@ -66,10 +66,10 @@
  warden_of_the_south_court_position:0 "Wächter des Südens"
  warden_of_the_south_court_position_desc:1 "Der Wächter des Südens ist mit der Verteidigung des Südens im Falle einer Bedrohung oder Invasion von außen beauftragt."
  
- goldcloaks_court_position:0 "Kommandant der Goldmäntel"
+ goldcloaks_court_position:0 "Kommandant der Goldröcke"
  goldcloaks_tradition_bonus:0 "von [culture_tradition|E]"
  goldcloaks_court_position_desc:0 "Der $goldcloaks_court_position$ ist der Kommandant der Stadtwache von Königsmund, eine Position von großem Prestige und Bedeutung."
- goldcloaks_employer_custom_effect_description:2 "#!\n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen euch#!"
+ goldcloaks_employer_custom_effect_description:2 "#!\n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen Euch#!"
 
 
 
@@ -136,6 +136,18 @@
  b_rimegate_keeper:0 "Kommandant vom Reiftor"
  b_rimegate_keeper_employer_custom_effect_description:0 "Bewahrt und schützt das Reiftor"
  b_rimegate_keeper_desc:0 "Bewahrt und schützt das Reiftor"
+
+ b_long_barrow_keeper:0 "Kommandant vom Langhügel"
+ b_long_barrow_keeper_employer_custom_effect_description:0 "Bewahrt und schützt den Langhügel"
+ b_long_barrow_keeper_desc:0 "Bewahrt und schützt den Langhügel"
+
+ b_the_torches_keeper:0 "Kommandant der Fackeln"
+ b_the_torches_keeper_employer_custom_effect_description:0 "Bewahrt und schützt die Fackeln"
+ b_the_torches_keeper_desc:0 "Bewahrt und schützt die Fackeln"
+
+ b_greenguard_keeper:0 "Kommandant der Grünwacht"
+ b_greenguard_keeper_employer_custom_effect_description:0 "Bewahrt und schützt die Grünwacht"
+ b_greenguard_keeper_desc:0 "Bewahrt und schützt die Grünwacht"
 
  b_long_barrow_keeper:0 "Kommandant vom Langhügel"
  b_long_barrow_keeper_employer_custom_effect_description:0 "Bewahrt und schützt den Langhügel"
