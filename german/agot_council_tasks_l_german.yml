@@ -98,11 +98,11 @@
 
  task_admiral_fleet_modifier:0 "Rat $councillor_admiral$"
 
- task_admiral_fleet_effect_desc:0 "[supply|E] Dauer: #P -[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P -[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P -[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#! \n [fleet|E] Movement Speed: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!"
+ task_admiral_fleet_effect_desc:0 "[supply|E] Dauer: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#! \n [fleet|E] Movement Speed: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!"
 
  task_admiral_fleet_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
 
- task_admiral_fleet_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
+ task_admiral_fleet_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
 
  task_admiral_raid:0 "Plünderer ermutigen"
 
@@ -113,11 +113,11 @@
  task_admiral_raid_modifier:0 "Rat $councillor_admiral$"
 
 
- task_admiral_raid_effect_desc:0 "[raid|E] Speed: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#! \n [raid_loot|E] Capacity: #P -[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P -[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P -[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!  \n Movement Speed: #P -[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P -[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P -[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#!"
+ task_admiral_raid_effect_desc:0 "[raid|E] Speed: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#! \n [raid_loot|E] Capacity: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P -[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!  \n Movement Speed: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#!"
 
  task_admiral_raid_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
 
- task_admiral_raid_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
+ task_admiral_raid_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
 
  task_admiral_maritime:0 "Handel beschützen"
 
@@ -129,7 +129,7 @@
 
  task_admiral_maritime_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
 
- task_admiral_maritime_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
+ task_admiral_maritime_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
 
   # Hofprediger
  COURT_CHAPLAIN_SHATTERED_WORLD:0 "Startbonus für die zerrüttete Welt"
