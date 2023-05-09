@@ -43,9 +43,10 @@
  metal_wrought_iron:0 "Schmiedeeisen"
  metal_folded_iron:0 "Falteisen"
  metal_steel:0 "Stahl"
- metal_wootz_steel:0 "Wootz-Stahl"
- metal_bulat_steel:0 "Bulat-Stahl"
- metal_damascus_steel:0 "Damaskus-Stahl"
+ metal_wootz_steel:0 "YiTischer Stahl" #AGOT Changed
+ metal_bulat_steel:0 "Qohorikischer Stahl" #AGOT Changed
+ metal_damascus_steel:0 "Valyrischer Stahl" #AGOT Changed
+
 
  # Metal Feature Derivatives 
  feature_blade_metal_wrought_iron:0 "$metal_wrought_iron$"
@@ -83,9 +84,9 @@
  # Gilded (gold-leafed) silver. More common in Europe but could be found in East Asia.
  metal_silver_gilt:0 "Silbervergoldung"
  # Extremely rare bronze alloy from antiquity. Manufacturing process unknomwn, statues made from it were more valuable than gold.
- metal_corinthian_bronze:0 "Korinthenbronze"
+ metal_corinthian_bronze:0 "Runenbronze" #AGOT Changed
  # Alloy of gold, silver, copper, zinc, and iron. Sacred in Hinduism, used for making jewelery and decorating statues.
- metal_panchaloha:0 "Panchaloha"
+ metal_panchaloha:0 "Qaathi-Metall" #AGOT Changed
  # High-purity iron collected from meteorites. Auspicious in Tibetan culture, where it was known as 'thokcha'.
  metal_meteoric_iron:0 "Meteoreisen"
 
@@ -130,7 +131,7 @@
  # Widespread Regional - Subsaharan Africa
  wood_fleroya:0 "Fleroyaholz"
  wood_sycomore:0 "Sykomorenholz"
- wood_padauk:0 "Padaukholz"
+ wood_padauk:0 "Goldkernholz" #AGOT Changed
 
  # Widespread Regional - India
  wood_sal:0 "Salbaumholz"
@@ -383,7 +384,7 @@
  feature_decoration_pattern_shield:0 "dem Wappen von [Artifact.GetOwner.GetHouse.GetBaseName]"
  feature_decoration_pattern_dynasty_shield:0 "$feature_decoration_pattern_shield$"
  feature_decoration_pattern_dynasty_motifs:0 "Motiven von Motto und Wappen von Haus [Artifact.GetOwner.GetHouse.GetNameNoTooltip]"
- feature_decoration_pattern_beasts:0 "Fabeltieren"
+ feature_decoration_pattern_beasts:0 "Urtiere"
  feature_decoration_pattern_religion:0 "religiösen Symbolen"
  feature_decoration_pattern_quotes:0 "inspirierenden Zitaten"
  feature_decoration_pattern_eschatology:0 "endzeitlichen Szenen"
@@ -574,11 +575,11 @@
  feature_armor_helmet_great_helmet:0 "Zu diesem Satz gehört ein Topfhelm samt Kettenhaube, der mit [Artifact.GetFeatureText('generic_material_cloth')] gefüttert wurde"
  feature_armor_helmet_great_helmet_bascinet:0 "Zu diesem Satz gehören ein Topfhelm und eine Beckenhaube, die man darunter trägt"
  feature_armor_helmet_great_helmet_cervelliere:0 "Zu diesem Satz gehören ein Topfhelm und eine Hirnhaube, die man darunter trägt"
- feature_armor_helmet_turban_helmet:0 "Zu diesem Satz gehören ein Turbanhelm und eine Helmbrünne"
- feature_armor_helmet_lamellar:0 "Zu diesem Satz gehören ein Lamellenhelm mit dekorativem Busch und eine Helmbrünne"
+ feature_armor_helmet_turban_helmet:0 "Zu diesem Satz gehören ein Qaathi-Helm und eine Helmbrünne" #AGOT Changed
+ feature_armor_helmet_lamellar:0 "Zu diesem Satz gehören ein Sarnori-Helm mit dekorativem Busch und eine Helmbrünne" #AGOT Changed
  feature_armor_helmet_kettle:0 "Zu diesem Satz gehört ein Eisenhut mit breiter Krempe"
  feature_armor_helmet_cervelliere:0 "Zu diesem Satz gehört eine eng anliegende, halbkugelförmige Hirnhaube samt Kettenhaube, die mit [Artifact.GetFeatureText('generic_material_cloth')] gefüttert wurde"
- feature_armor_helmet_kulah_khud:0 "Zu diesem Satz gehören ein Khula-Khud-Helm und eine Helmbrünne"
+ feature_armor_helmet_kulah_khud:0 "Zu diesem Satz gehören ein Rhoynischer Helm und eine Helmbrünne" #AGOT Changed
 
  feature_armor_decoration_etched_pattern:0 "In die ganze Rüstung wurde das sich wiederholende Bild von [Artifact.GetFeatureText('decoration_pattern')] geätzt"
  feature_armor_decoration_inlay_pattern:0 "In die ganze Rüstung wurde [Artifact.GetFeatureText('decoration_material_inlay')] eingelassen, das ein sich wiederholendes Bild von [Artifact.GetFeatureText('decoration_pattern')] zeigt"
@@ -642,16 +643,16 @@
  create_artifact_brooch_tooltip:0 "[inspiration_owner.GetShortUIName] erschuf eine [SCOPE.Custom('ArtifactArticleWealth')|l]e Brosche von [SCOPE.Custom('ArtifactQuality')]er Machart"
 
  ## fund_inspiration.6001-6006 trinkets from your adventurer
- morin_khuur_ornament_name:0 "Morin-Khuur-Pferde-Ornament"
- morin_khuur_ornament_description:1 "Ein Pferdekopf, der aus einem Pferdeknochen geschnitzt wurde und meist den Griff einer Morin-Khurr-Geige schmückt. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
+ morin_khuur_ornament_name:0 "Khalasar-Pferde-Ornament" #AGOT Changed
+ morin_khuur_ornament_description:1 "Ein Pferdekopf, der aus einem Pferdeknochen geschnitzt wurde und meist den Griff einer Morin-Khurr-Geige schmückt. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer." #AGOT Changed
  animal_ring_name:0 "Tigerprunkring"
  animal_ring_description:1 "Ein mit viel zu bunten Juwelen besetzter Ring, der Eure Höflinge wohl eher blenden wird, anstatt sie mit Eurem Geschmack zu beeindrucken. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
  ostrich_shell_necklace_name:0 "Halskette aus Straußenschalenperlen"
  ostrich_shell_necklace_description:1 "Ein filigranes Schmuckstück in strahlendem Weiß. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
- pilgrimage_figurine_name:0 "Schulpstatuette des Heiligen Vardan"
- pilgrimage_figurine_description:1 "Eine Figurine von Wardan Mamikonjan, einem armenischen General, der den Armeniern in der Schlacht von Avarayr 451 das Recht sicherte, das Christentum zu praktizieren. Der Helm ist mit bronzenen Details verzieht. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
- saint_margaret_fingernails_name:0 "Fingernagel der Heiligen Margareta"
- saint_margaret_fingernails_description:1 "Die Heilige Margareta von Antiochia war berühmt dafür, einen Drachen nur mit dem Absatz ihres Schuhs getötet zu haben. Angeblich sollen diese ekligen alten Fingernägel ihr gehört haben. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
+ pilgrimage_figurine_name:0 "Schulpstatuette" #AGOT Changed
+ pilgrimage_figurine_description:1 "Die Figur eines antiken Ghiscari-Kriegers. Der Helm ist mit bronzenen Details verzieht. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer." #AGOT Changed 
+ saint_margaret_fingernails_name:0 "Fingernagel des Mustermachers" #AGOT Changed
+ saint_margaret_fingernails_description:1 "Das Labyrinth des Mustermachers ist ein Labyrinth in Braavos, das durchschritten werden muss, um Weisheit zu erlangen. Angeblich sollen diese ekligen alten Fingernägel dem genialen Kopf dahinter gehört haben. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer." #AGOT Changed
  seahorse_brooch_name:0 "Goldene Seepferdchenbrosche"
  seahorse_brooch_description:1 "Eine Brosche mit feinen Quasten an einem Pferd, das sowohl Flügel als auch einen Flossenschwanz hat. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
 
@@ -659,10 +660,10 @@
  #fund_inspiration.6500- trinkets from your adventurer
  leopard_hat_name:0 "Leopardenhelm"
  leopard_hat_description:0 "Ein Helm aus dem Kopf eines Leoparden, erschlagen von [inspiration_owner.GetTitledFirstName]."
- kurgan_ornament_name:0 "Skythische Pantherfigurine"
- kurgan_ornament_description:0 "Eine Steinfigurine, die [inspiration_owner.GetTitledFirstName] aus einem alten Kurgan-Grabhügel der Skythen geplündert hat."
- kurgan_saddle_name:0 "Sattel aus einem Kurgan"
- kurgan_saddle_description:1 "Ein Sattel, den [inspiration_owner.GetTitledFirstName] aus einem skythischen Grabhügel hat mitgehen lassen. Auch wenn er mehr als tausend Jahre alt ist, scheint ihn die Luft im Grabmal inmitten von einem Dutzend einbalsamierter Pferdeleichen konserviert zu haben. Vielleicht können wir durch ihn etwas aus der Lebensart der alten Sattelkrieger lernen."
+ kurgan_ornament_name:0 "Skythische Pantherfigurine" #AGOT Changed
+ kurgan_ornament_description:0 "Eine Steinfigurine, die [inspiration_owner.GetTitledFirstName] aus einem alten Kurgan-Grabhügel der Skythen geplündert hat." #AGOT Changed
+ kurgan_saddle_name:0 "Sattel aus einem Grabhügel"
+ kurgan_saddle_description:1 "Ein Sattel, den [inspiration_owner.GetTitledFirstName] aus einem antiken Grabhügel hat mitgehen lassen. Auch wenn er mehr als tausend Jahre alt ist, scheint ihn die Luft im Grabmal inmitten von einem Dutzend einbalsamierter Pferdeleichen konserviert zu haben. Vielleicht können wir durch ihn etwas aus der Lebensart der alten Sattelkrieger lernen." #AGOT Changed
  naked_tapestry_name:0 "Akt-Wandteppich"
  naked_tapestry_description:0 "Eine nackte Darstellung von [inspiration_owner.GetTitledFirstName] an einem Oasenstrand. [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')|U] fächelt sich mit einem Blatt Luft zu, und kristallklare Tröpfchen funkeln auf [inspiration_owner.Char.Custom('DE_PRO_POS_S_3P')]er Haut."
 
@@ -779,9 +780,9 @@
  feature_blade_wrought_iron:0 "Schmiedeeisen"
  feature_blade_folded_iron:0 "Falteisen"
  feature_blade_steel:0 "Stahl"
- feature_blade_wootz_steel:0 "Wootz-Stahl"
- feature_blade_bulat_steel:0 "Bulat-Stahl"
- feature_blade_damascus_steel:0 "Damaskus-Stahl"
+ feature_blade_wootz_steel:0 "YiTischer Stahl"
+ feature_blade_bulat_steel:0 "Qohorikischer Stahl"
+ feature_blade_damascus_steel:0 "Valyrischer Stahl"
 
  ## Character Modifiers made to artifacts ##
 
@@ -809,7 +810,7 @@
 
 ## christian_saint_bone pilgrim reward
  christian_saint_bone_name:0 "[saint_bone_owner.Custom('RandomSaintBone')] von [saint_bone_owner.Custom('RandomSaintName')]"
- christian_saint_bone_description:0 "Die angeblichen Überreste eines [saint_bone_owner.GetFaith.GetReligion.GetAdjectiveNoTooltip|l]en Heiligen, beschafft von [saint_bone_owner.GetNameNoTooltip] während [saint_bone_owner.GetOwner.Custom('DE_PRO_POS_S_3P')]er Pilgerreise nach [destination_title.GetNameNoTierNoTooltip]. [saint_bone_owner.GetFaith.GetAdherentNamePluralNoTooltip|U] verehren die Reliquie als Glücksbringer und Zeichen der Frömmigkeit."
+ christian_saint_bone_description:0 "Die angeblichen Überreste eines [saint_bone_owner.GetFaith.GetReligion.GetAdjectiveNoTooltip|l]en Vorfahren, beschafft von [saint_bone_owner.GetNameNoTooltip] während [saint_bone_owner.GetOwner.Custom('DE_PRO_POS_S_3P')]er auf dem Weg nach [destination_title.GetNameNoTierNoTooltip]. [saint_bone_owner.GetFaith.GetAdherentNamePluralNoTooltip|U] verehren die Reliquie als Glücksbringer und Zeichen der Frömmigkeit."
 # bones
  bone_type_knuckle:0 "Fingerknöchel"
  bone_type_shin:0 "Schienbein"
@@ -841,7 +842,7 @@
  translated_arabic_book_thucydides_desc:0 "Eine Ausgabe von Thukydides’ antikem Bericht über den Peloponnesischen Krieg zwischen Athen und Sparta, $translated_arabic_book_shared_desc$"
  translated_arabic_book_plutarch_name:0 "#italic Plutarchs Biografien#!"
  translated_arabic_book_plutarch_desc:0 "Eine Ausgabe von Plutarchs komparativen Biografien bekannter Gestalten der Antike und ihres moralischen Wesens, $translated_arabic_book_shared_desc$"
- translated_arabic_book_shared_desc:0 "für [ROOT.Char.GetTitledFirstNameNoTooltipRegnal] übersetzt aus dem griechischen Original ins Arabische."
+ translated_arabic_book_shared_desc:0 "für [ROOT.Char.GetTitledFirstNameNoTooltipRegnal] übersetzt in die Gemeine Zunge."
  
  # hold_court.4300
  dress_me_artifact_desc:0 "Ein exquisites Gewand, das die besten Schneider angefertigt haben, bestellt von [ROOT.Char.GetTitledFirstNameNoTooltipRegnal], um [ROOT.Char.Custom('DE_PRO_POS_S_3P')]en Hof mit dessen Pracht zu beeindrucken."
@@ -996,10 +997,10 @@
  artifact_dragvandil_description:0 "Ein Schwert, das einst Egil Skallagrimsson gehört haben soll, dem aus Egils Saga bekannten Bauern, Dichter und Krieger."
  artifact_szczerbiec_name:0 "Szczerbiec"
  artifact_szczerbiec_description:1 "König Boleslaw der Tapfere soll dieses Schwert von einem Engel erhalten und damit das Goldene Tor von Kyiv zerschlagen haben. Es hat eine ungeheure symbolische Bedeutung."
- artifact_chinese_caligraphy_name:1 "Chinesische Kalligrafie"
- artifact_chinese_caligraphy_description:0 "Diese feine Stück Papier ist voller seltsamer und doch wunderschöner und sehr präziser Symbole. Man sagt, es stammt aus den Landen von China im Fernen Osten."
- artifact_ruyi_name:0 "Ruyi"
- artifact_ruyi_description:0 "Dieses kleine Jadezepter ist mit chinesischen Symbolen und Verzierungen bedeckt."
+ artifact_chinese_caligraphy_name:1 "YiTische Kalligrafie" #AGOT Changed
+ artifact_chinese_caligraphy_description:0 "Diese feine Stück Papier ist voller seltsamer und doch wunderschöner und sehr präziser Symbole. Man sagt, es stammt aus den Landen von Yi Ti im Fernen Osten." #AGOT Changed
+ artifact_ruyi_name:0 "Jade-Zepter" #AGOT Changed
+ artifact_ruyi_description:0 "Dieses kleine Jadezepter ist mit YiTischen Symbolen und Verzierungen bedeckt." #AGOT Changed
  turquoise_throne_name:0 "Türkisthron"
  turquoise_throne_description:0 "Dieser juwelenbedeckte Königsthron ist dem legendären Thron der persischen Könige aus dem Schahname nachempfunden. Sein Ebenholzrahmen ist mit zahllosen Türkisen geschmückt sowie mit Platten aus reinem Gold beschlagen worden, das einen Türkisschimmer hat. Seine atemberaubende Schönheit kann nur das Werk der besten Kunsthandwerker ihres Felds sein."
  peacock_throne_name:0 "Pfauenthron"
@@ -1031,7 +1032,7 @@
  xylospongium:0 "Schwamm am Stiel"
  xylospongium.desc:1 "Ursprung oder Zweck bleiben unklar – doch er verströmt einen schwachen, unangenehmen Geruch."
  #Common
- st_davids_morsel:1 "Happen des Heiligen David"
+ st_davids_morsel:1 "Happen von Baelor der Selige" #AGOT Changed
  st_davids_morsel.desc:0 "Es scheint ein Stück Trockenfleisch zu sein. Sein Alter und Ursprung sind unklar."
  platypus_figurine:0 "Tierfigurine"
  platypus_figurine.desc:0 "Dieses winzige Tierchen hat einen breiten Schnabel, glänzendes Fell und Flossen. Wie wunderlich."
@@ -1042,17 +1043,17 @@
  stewardship_general.2001.artifact.potsherd_holy.desc:0 "Ein uraltes Tongefäß. Es soll angeblich von der Heiligen Stätte von [trinket_holy_site.GetNameNoTierNoTooltip] stammen."
  small_bell_beaker:0 "Kleiner Glockenbecher"
  small_bell_beaker.desc:0 "Ein kleiner Glockenbecher mit kunstvollen Mustern."
- serpentine_budai:0 "Schlangenhafter Budai"
- serpentine_budai.desc:0 "Die winzige Gestalt eines untersetzen, lachenden Manns mit Glatze."
+ serpentine_budai:0 "Jade Löwe"
+ serpentine_budai.desc:0 "Die winzige Gestalt eines wilden, knurrenden, östlichen Löwen." #AGOT Changed
  #Uncommon
  mythical_creature_horn:0 "Horn einer Sagengestalt ([ROOT.Char.Custom('HornedMythicalCreature')|U])"
  mythical_creature_horn.desc:0 "Ein fragwürdig geformtes Hornstück, das angeblich einer Sagengestalt ([ROOT.Char.Custom('HornedMythicalCreature')]) gehörte."
  mythical_creature_figurine:0 "[ROOT.Char.Custom('TrinketLookAdjective')|U]e Figurine einer Sagengestalt ([ROOT.Char.Custom('RegionalMythicalCreature')])"
  mythical_creature_figurine.desc:1 "Diese Figurine stellt eine [new_trinket.Custom('ArtifactAnimalAdjective')|l]e Sagengestalt ([SCOPE.Custom('RegionalMythicalCreatureLower')]) dar und scheint [ROOT.Char.Custom('TrinketLookAdverbFollowup')|l] mit kleinen, glänzenden Edelsteinen [ROOT.Char.Custom('TrinketLookAdjective')|l] zu sein, wie man sie in [target_location.GetNameNoTooltip] findet."
- st_davids_taper:1 "Wachskerze des Heiligen David"
+ st_davids_taper:1 "Die Kerze des alten Weibes"
  st_davids_taper.desc:1 "Offenbar hat jemand versucht, sie an beiden Enden anzuzünden."
- jira_stick:0 "Marmorzepter von J’Ira"
- jira_stick.desc:0 "Auch wenn es schon viel ins Feld geführt wurde, ist die Spitze immer noch durchschlagsfähig."
+ jira_stick:0 "Marmorzepter von Lyber" #AGOT Changed
+ jira_stick.desc:0 "Ein antikes Zepter, das eine Spinne und eine Schlange im Krieg zeigt." #AGOT Changed
  lucky_coin:0 "[ROOT.Char.GetCulture.GetNameNoTooltip|U]e Glücksmünze"
  lucky_coin.desc:1 "Eine [ROOT.Char.GetCulture.GetNameNoTooltip|l]e Münze, die aus [target_location.GetNameNoTooltip] stammt.\n\nDie einst geprägte Oberfläche ist durch das ständige Reiben und Polieren inzwischen ganz glatt und abgewetzt."
  lavender_jade_pendant:0 "Lavendelfarbener Jadeanhänger"
@@ -1068,14 +1069,14 @@
  easteregg_artifact_elisabeth_plush_description:0 "Elisabeths ausgestopfter Fuchs ist ein heiß geliebtes Spielzeug und hat sie den Großteil ihres Lebens begleitet. Oft sah man Elisabeth, wie sie mit ihm sprach, während sie die schmuckvollen Chiffren für ihre Arbeitgeber wob. Es ist beruhigend und ermutigt den Besitzer, es dem schlauen Fuchs gleich zu tun."
  easteregg_artifact_nicks_weapon:0 "Freundschaft"
  easteregg_artifact_nicks_weapon_description:0 "Eine wahrhaft prächtige Waffe, ob deren Gegenwart Fürsten und Fürstinnen gleichermaßen ins Schwärmen geraten. Eine kleine Inschrift im Heft lautet: „Falls Feinsinnigkeit versagt.“"
- easteregg_artifact_chad_book:0 "Die kommentierte Aeneis"
- easteregg_artifact_chad_book_description:0 "Eine oft gelesene und illuminierte Ausgabe der Aeneis von Virgil mit zahlreichen Randnotizen – manche albern, andere einsichtsreich."
+ easteregg_artifact_chad_book:0 "Das kommentierte Der Rand der Welt" #AGOT Changed
+ easteregg_artifact_chad_book_description:0 "Eine oft gelesene und illuminierte Ausgabe des Maester Balders Der Rand der Welt mit zahlreichen Randnotizen – manche albern, andere einsichtsreich." #AGOT Changed
  easteregg_artifact_chad_dagger:0 "Der Dolch"
  easteregg_artifact_chad_dagger_description:0 "Sein Glanz ist ob der Flecken aus getrockenetem Blut abgestumpft, doch er dürstet dennoch für mehr."
  easteregg_artifact_veronica_book:0 "Die Ringe des Herrn"
- easteregg_artifact_veronica_book_description:0 "Eine nur notdürftig verschleierte Referenz in Buchform. In bestem Portugiesisch verfasst."
+ easteregg_artifact_veronica_book_description:0 "Eine nur notdürftig verschleierte Referenz in Buchform. Geschrieben in einer Sprache, die jenseits des Meeres längst verloren gegangen ist." #AGOT Changed
 
- easteregg_artifact_jason_sword:0 "Das Schwert des Heiligen Martin"
+ easteregg_artifact_jason_sword:0 "Das Schwert der Maus"
  easteregg_artifact_jason_sword_description:0 "Entlang der Blutrille der Klinge hat jemand unsauber die Buchstaben „IAMTHATIS“."
 
  child_toy_template_tt:0 "Muss ein [child|E] sein, um Ausrüstung als [inventory_artifact|E] verwenden zu können."

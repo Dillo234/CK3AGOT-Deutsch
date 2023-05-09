@@ -17,10 +17,10 @@ LEGACY_DYNASTY_SEND_TO_NIGHTSWATCH:0 "[dynast_interaction|E]: #V Zur Nachtwache 
 reachman_legacy_track_name: "Männer der Weite"
 reachman_legacy_track_desc: "Blumen der Ritterlichkeit"
 reachman_legacy_1_name: "Grünes und wohltuendes Land"
-reachman_legacy_2_name: "Orden der Grünen Hand"
+reachman_legacy_2_name: "Saat des Gärtners"
 reachman_legacy_3_name: "Die Bürde des Wissens"
 reachman_legacy_4_name: "Fruchtbare Felder"
-reachman_legacy_5_name: "Saat des Gärtners"
+reachman_legacy_5_name: "Orden der Grünen Hand"
 
 #Generic Ironborn
 
@@ -80,6 +80,12 @@ dornish_legacy_5_name: "Das Vipernnest"
 
 LEGACY_DORNISH_SIEGE_EVASION:0 "Mitglieder von [dynasty|E] entkommen eher aus der [imprison|E]schaft nach einer [siege|E] oder einem [raid|E]"
 
+dayne_legacy_track_name: "Dayn"
+dayne_legacy_track_desc: "Dämmerung bringt das Licht!"
+dayne_legacy_1_name: "Wettlauf um den Morgen"
+
+LEGACY_DAYNE_PROWESS:0 "In den Hallen von Sternfall wetteifern die Ritter des Hauses Dayn darum, derjenige zu sein, der den Mantel des nächsten Schwert des Morgens tragen und das sagenumwobene Schwert Dämmerung schwingen darf. \nDiese Rivalität, die ihnen von Geburt an eingeimpft wurde, hat dazu geführt, dass das Haus Dayn einige der größten Ritter hervorgebracht hat, die Westeros je gekannt hat, und führt dazu, dass die Mitglieder dieser [dynasty|E] bessere $trait_education_martial_prowess$ [trait|E]s erhalten."
+
 #Generic Stormlanders 
 
 stormlander_legacy_track_name: "Sturmländer"
@@ -103,8 +109,6 @@ stark_legacy_track_desc: "Der Winter naht"
 stark_legacy_1_name: "Winterkönige"
 stark_legacy_2_name: "Wolfsblut"
 stark_legacy_3_name: "Erbauerblut"
-stark_legacy_4_name: "Aw ye"
-stark_legacy_5_name: "Big Baller"
 
 # Umber Legacy  -  Warfare / Blood Mix 
 
@@ -135,3 +139,10 @@ sarsfield_legacy_1_name: "Geboren für den Bogen, ausgebildet für den Sattel"
 SARSFIELD_UNLOCK_DESCRIPTION:0 "Kann [GetMaA('sarsfield_horse_archers').GetName] als [men_at_arms|E] rekrutieren"
 SARSFIELD_DESCRIPTION:1 "#weak Es kann nur ein Regiment Sarsfeld-Bogenschützen rekrutiert werden (bis zu Größe 5)#!"
 
+#Valeman Legacies 
+
+borrell_legacy_track_name: "Borrell"
+borrell_legacy_track_desc: "Bestimmt für Größeres"
+borrell_legacy_1_name: "Söhne der Schwestern"
+
+BORRELL_GENETIC_TRAIT_FOR_BLOODLINE_NO_BULLETTAB:0 "Die Borrells von Süßeschwester tragen seit fünftausend Jahren den Segen der Herrin der Wellen in ihren Händen. Von ihrer Gnade gezeichnet, werden diese einstigen Piratenkönige von ihren Schwestermännern zu Recht respektiert und gefürchtet."

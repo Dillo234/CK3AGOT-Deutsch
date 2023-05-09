@@ -1,4 +1,5 @@
 ﻿l_german:
+#Überarbeitet von Gilian Torhammer
 #Personal Steward
  personal_steward_task_diplomacy_good_skilled_notification_tooltip:0 "Die Diplomatiefähigkeit [councillor.Custom('diplomacy_skill_level')] eures persönlichen Verwalters führte zu diesem Glücksfall.
  personal_steward_task_diplomacy_good_unskilled_notification_tooltip:0 "Dies geschah trotz der Diplomatiefähigkeit [councillor.Custom('diplomacy_skill_level')] eures persönlichen Verwalters."
@@ -35,11 +36,11 @@
  task_promote_culture_effect_desc_wv_override:1 "#S At #V 100%#!#!:\n$TAB$ [county|E] ändert [culture|E] zu [councillor_liege.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]"
  task_promote_culture_effect_desc_ev_override:1 "#S At #V 100%#!#!:\n$TAB$ [county|E] ändert [culture|E] zu [councillor_liege.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]"
  task_promote_culture_effect_desc_ironborn_override_coastal:0 "#S At #V 100%#!#!:\n$TAB$[county|E] ändert [culture|E] zu einem der folgenden\n$TAB$Kulturen: \n#S $TAB$ 80%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 20%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]"
- task_promote_culture_effect_desc_ironborn_override_coastal_county_duchy:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] ändert [culture|E] zu einem der folgenden\n$TAB$Kulturen: \n#S $TAB$ 60%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 40%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]"
+ task_promote_culture_effect_desc_ironborn_override_coastal_county_duchy:0 "#S At #V 100%#!#!:\n$TAB$[county|E] ändert [culture|E] zu einem der folgenden\n$TAB$Kulturen: \n#S $TAB$ 60%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 40%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]"
  task_promote_culture_effect_desc_ironborn_override_inland:0 "#S At #V 100%#!#!:\n$TAB$[county|E] ändert [culture|E] zu einem der folgenden\n$TAB$Kulturen: \n#S $TAB$ 20%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 80%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]"
  task_promote_culture_effect_desc_ironborn_override_smt_broke:0 "#R #L(AGOT ERROR)#!#!: Etwas ist mit der Konvertierung der Eisenmänner Kultur kaputt gegangen, Bericht an Typisch"
  task_promote_culture_effect_desc_greenborn_override_coastal:0 "#S At #V 100%#!#!:\n$TAB$[county|E] ändert [culture|E] zu einem der folgenden\n$TAB$Kulturen: \n#S $TAB$ 80%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 20%#! [councillor_liege.GetCulture.GetName]"
- task_promote_culture_effect_desc_greenborn_override_coastal_county_duchy:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] ändert [culture|E] zu einem der folgenden\n$TAB$Kulturen:: \n#S $TAB$ 60%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 40%#! [councillor_liege.GetCulture.GetName]"
+ task_promote_culture_effect_desc_greenborn_override_coastal_county_duchy:0 "#S At #V 100%#!#!:\n$TAB$[county|E] ändert [culture|E] zu einem der folgenden\n$TAB$Kulturen:: \n#S $TAB$ 60%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 40%#! [councillor_liege.GetCulture.GetName]"
  task_promote_culture_effect_desc_greenborn_override_inland:0 "#S At #V 100%#!#!:\n$TAB$[county|E] ändert [culture|E] zu einem der folgenden\n$TAB$Kulturen: \n#S $TAB$ 20%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 80%#! [councillor_liege.GetCulture.GetName]"
  task_promote_culture_effect_desc_greenborn_override_smt_broke:0 "#R #L(AGOT ERROR)#!#!: Etwas ist mit der Konvertierung der Grünländer Kultur kaputt gegangen, Bericht an Typisch"
 
@@ -98,11 +99,12 @@
 
  task_admiral_fleet_modifier:0 "Rat $councillor_admiral$"
 
- task_admiral_fleet_effect_desc:0 "[supply|E] Dauer: #P -[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P -[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P -[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#! \n [fleet|E] Movement Speed: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!"
+ task_admiral_fleet_effect_desc:0 "[supply|E] Dauer: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Basis: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#! \n [fleet|E] Bewegungsgeschwindigkeit: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Basis: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!"
+
 
  task_admiral_fleet_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
 
- task_admiral_fleet_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
+ task_admiral_fleet_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
 
  task_admiral_raid:0 "Plünderer ermutigen"
 
@@ -113,11 +115,12 @@
  task_admiral_raid_modifier:0 "Rat $councillor_admiral$"
 
 
- task_admiral_raid_effect_desc:0 "[raid|E] Speed: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#! \n [raid_loot|E] Capacity: #P -[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P -[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P -[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!  \n Movement Speed: #P -[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P -[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P -[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#!"
+ task_admiral_raid_effect_desc:0 "[raid|E] Geschwindigkeit: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Basis: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#! \n [raid_loot|E] Kapazität: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Basis: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P -[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!  \n Bewegungsgeschwindigkeit: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Basis: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#!"
+
 
  task_admiral_raid_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
 
- task_admiral_raid_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
+ task_admiral_raid_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
 
  task_admiral_maritime:0 "Handel beschützen"
 
@@ -125,8 +128,11 @@
  
  task_admiral_maritime_tax_modifier:0 "Rat $councillor_admiral$" 
 
- task_admiral_maritime_effect_desc:0 "[domain|E] Tax: #P +[SCOPE.ScriptValue('task_admiral_maritime_tax_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')]%#!\n$TAB$Councillor's [stewardship_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_tax_base')]%#! \n [supply|E] Capacity: #P +[SCOPE.ScriptValue('task_admiral_maritime_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')]%#!\n$TAB$Councillor's [stewardship_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_base')]%#!"
+ task_admiral_maritime_effect_desc:0 "[domain|E] Steuer: #P +[SCOPE.ScriptValue('task_admiral_maritime_tax_modifier_value')]%#!\n$TAB$Basis: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')]%#!\n$TAB$[stewardship_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_tax_base')]%#! \n [supply|E] Kapazität: #P +[SCOPE.ScriptValue('task_admiral_maritime_modifier_value')]%#!\n$TAB$Basis: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')]%#!\n$TAB$[stewardship_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_base')]%#!"
 
  task_admiral_maritime_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
 
- task_admiral_maritime_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
+ task_admiral_maritime_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
+
+  # Hofprediger
+ COURT_CHAPLAIN_SHATTERED_WORLD:0 "Startbonus für die zerrüttete Welt"

@@ -39,6 +39,9 @@
  training_for_kingsguard:0 "Training to Join the Kingsguard"
  training_for_kingsguard_desc:0 "This character is training to join the Kingsguard."
 
+ kingsguard_oathbreaker:0 "Kingsguard Oathbreaker"
+ kingsguard_oathbreaker_desc:0 "This character has sullied their sacred oath and forsaken the Kingsguard."
+
  kingsguard_protection: "[councillor.GetModifierDescForTask('kingsguard_default_1')]"
  kingsguard_bodyguard: "Bodyguard"
  kingsguard_bodyguard_desc: "This character is being guarded by a member of the Kingsguard"
@@ -66,6 +69,8 @@
  kingsguard_default_4: "Protection"
  kingsguard_default_5: "Protection"
  kingsguard_default_6: "Protection"
+
+ task_protection_modifier:1 "Kingsguard Protection"
 
  you_agot_kingsguard_can_fire:0 "Kingsguards may be fired or reassigned if certain requirements are met."
  you_dont_agot_kingsguard_can_fire:0 "A kingsguard serves for life, unless you break with that tradition."
