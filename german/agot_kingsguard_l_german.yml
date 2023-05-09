@@ -1,11 +1,12 @@
 ﻿l_german:
- kingsguard_lord_commander_flavor: "Lord Commander"
- kingsguard_lord_commander_flavors: "Lord Commander"
- kingsguard_lord_commander: "Lord Commander of the Kingsguard"
+ #Übersetzt von Gilian Torhammer, durchgesehen und überarbeitet von Dillo
+ kingsguard_lord_commander_flavor: "Lord Kommandant"
+ kingsguard_lord_commander_flavors: "Lord Kommandant"
+ kingsguard_lord_commander: "Lord Kommandant der Königsgarde"
  kingsguard_lord_commander_name: "$kingsguard_lord_commander$"
  kingsguard_lord_commander_tooltip: "$kingsguard_lord_commander$"
 
- queensguard_lord_commander_name:0 "Lord Commander of the Queensguard"
+ queensguard_lord_commander_name:0 "Lord Kommandant der Königinnengarde"
 
  
  KINGSGUARD:1 "[CHARACTER.Custom('KingsguardName')]"
@@ -13,14 +14,14 @@
  
  Kingsguard_possesive:0 "[CHARACTER.Custom('KingsguardName')]'s"
 
- kingsguard: "Kingsguard"
- Kingsguard_possesive: "Kingsguard's"
- kingsguard_1: "Kingsguard" # $KINGSGUARD$
- kingsguard_2: "Kingsguard"
- kingsguard_3: "Kingsguard"
- kingsguard_4: "Kingsguard"
- kingsguard_5: "Kingsguard"
- kingsguard_6: "Kingsguard"
+ kingsguard: "Königsgarde"
+ Kingsguard_possesive: "Königsgarde"
+ kingsguard_1: "Königsgardist" # $KINGSGUARD$
+ kingsguard_2: "Königsgardist"
+ kingsguard_3: "Königsgardist"
+ kingsguard_4: "Königsgardist"
+ kingsguard_5: "Königsgardist"
+ kingsguard_6: "Königsgardist"
  kingsguard_1_possessive: "$Kingsguard_possesive$"
  kingsguard_2_possessive: "$Kingsguard_possesive$"
  kingsguard_3_possessive: "$Kingsguard_possesive$"
@@ -29,22 +30,26 @@
  kingsguard_6_possessive: "$Kingsguard_possesive$"
 
  #Naming
- kingsguard_name:0 "Kingsguard"
- queensguard_name:0 "Queensguard"
+ kingsguard_name:0 "Königsgarde"
+ queensguard_name:0 "Königinnengarde"
 
  # Modifiers
- kingsguard_lord_commander_modifier:0 "Liege's Lord Commander"
- kingsguard_modifier:0 "Liege's Kingsguard"
+ kingsguard_lord_commander_modifier:0 "Lord Kommandant des Lehnsherren" #unsicher
+ kingsguard_modifier:0 "Königsgardist des Lehnsherren" #unsicher
 
- training_for_kingsguard:0 "Training to Join the Kingsguard"
- training_for_kingsguard_desc:0 "This character is training to join the Kingsguard."
+ training_for_kingsguard:0 "Ausbildung für die Königsgarde"
+ training_for_kingsguard_desc:0 "Dieser Charakter übt, um der Königsgarde beizutreten."
+ 
+ kingsguard_oathbreaker:0 "Eidbrecher der Königsgarde"
+ kingsguard_oathbreaker_desc:0 "Dieser Charakter hat den heiligen Eid gebrochen und die Königsgarde verraten."
+
 
  kingsguard_oathbreaker:0 "Kingsguard Oathbreaker"
  kingsguard_oathbreaker_desc:0 "This character has sullied their sacred oath and forsaken the Kingsguard."
 
  kingsguard_protection: "[councillor.GetModifierDescForTask('kingsguard_default_1')]"
- kingsguard_bodyguard: "Bodyguard"
- kingsguard_bodyguard_desc: "This character is being guarded by a member of the Kingsguard"
+ kingsguard_bodyguard: "Leibwächter"
+ kingsguard_bodyguard_desc: "Dieser Charakter wird von einem Mitglied der Königsgarde bewacht"
 
 
 
@@ -59,20 +64,20 @@
  kingsguard_bodyguard_5: "$kingsguard_bodyguard$"
  kingsguard_bodyguard_6: "$kingsguard_bodyguard$"
 
- knight_hero: "Knight"
- knight_hero_possessive: "Knight's"
+ knight_hero: "Ritter"
+ knight_hero_possessive: "Ritter"
  
- kingsguard_lord_commander_default: "Protection"
- kingsguard_default_1: "Protection"
- kingsguard_default_2: "Protection"
- kingsguard_default_3: "Protection"
- kingsguard_default_4: "Protection"
- kingsguard_default_5: "Protection"
- kingsguard_default_6: "Protection"
+ kingsguard_lord_commander_default: "Schutz"
+ kingsguard_default_1: "Schutz"
+ kingsguard_default_2: "Schutz"
+ kingsguard_default_3: "Schutz"
+ kingsguard_default_4: "Schutz"
+ kingsguard_default_5: "Schutz"
+ kingsguard_default_6: "Schutz"
 
- task_protection_modifier:1 "Kingsguard Protection"
+ task_protection_modifier:1 "Schutz der Königsgarde"
 
- you_agot_kingsguard_can_fire:0 "Kingsguards may be fired or reassigned if certain requirements are met."
- you_dont_agot_kingsguard_can_fire:0 "A kingsguard serves for life, unless you break with that tradition."
+ you_agot_kingsguard_can_fire:0 "Königsgardisten können entlassen oder abkommandiert werden, wenn bestimmte Voraussetzungen erfüllt sind."
+ you_dont_agot_kingsguard_can_fire:0 "Ein Königsgardist dient bis zum Tode, es sei denn, Ihr brecht mit dieser Tradition."
  you_agot_kingsguard_fire_requirements:0 "PLACEHOLDER"
  you_dont_agot_kingsguard_fire_requirements:0 "PLACEHOLDER does not fit requirements"
