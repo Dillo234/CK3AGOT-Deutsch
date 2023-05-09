@@ -101,6 +101,7 @@
 
  task_admiral_fleet_effect_desc:0 "[supply|E] Dauer: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Basis: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#! \n [fleet|E] Bewegungsgeschwindigkeit: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Basis: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!"
 
+
  task_admiral_fleet_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
 
  task_admiral_fleet_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
@@ -115,6 +116,7 @@
 
 
  task_admiral_raid_effect_desc:0 "[raid|E] Geschwindigkeit: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Basis: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#! \n [raid_loot|E] Kapazität: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Basis: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P -[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!  \n Bewegungsgeschwindigkeit: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Basis: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#!"
+
 
  task_admiral_raid_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
 
