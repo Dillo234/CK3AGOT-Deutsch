@@ -644,8 +644,8 @@
  game_concept_activities:0 "Aktivitäten"
  game_concept_activity_desc:0 "$game_concept_activities$ sind eine Art von [decision|E], die an einem bestimmten Ort zu einer bestimmten Zeit stattfindet.\n\nMeist werden auch andere Charaktere eingeladen, an derselben Aktivität teilzunehmen (hierzu zählen zum Beispiel Festmahle und Jagden)."
 
- activity_kinguard_bodyguard_name: "Leibwächter-Pflichten" #Selbst geschrieben/abgetippt
- activity_kinguard_bodyguard: "Leibwächter-Pflichten" #Selbst geschrieben/abgetippt
+ activity_kinguard_bodyguard_name: "Leibgarde-Pflichten" #Selbst geschrieben/abgetippt
+ activity_kinguard_bodyguard: "Leibgarde-Pflichten" #Selbst geschrieben/abgetippt
 
  activity_location_set: "Reisen" #Selbst geschrieben/abgetippt
  activity_location_set_name: "Reisen" #Selbst geschrieben/abgetippt
@@ -1210,8 +1210,8 @@
  game_concept_hungarian_invasion_casus_belli:0 "„$HUNGARIAN_INVASION_CB_NAME$“-Kriegsgrund"
  game_concept_hungarian_invasion:0 "$HUNGARIAN_INVASION_CB_NAME$"
  game_concept_hungarian_invasion_casus_belli_desc:0 "Ein mächtiger [casus_belli|E], der insgesamt pro Kampagne eingesetzt werden kann, um sämtliche Territorien zu erobern, die vom Ziel innerhalb von Pannonien gehalten werden.\n\nIm Falle eines Sieges begeben sich sämtliche $mogyer_collective_noun$ im [realm|E] des Angreifers mit ihm nach Pannonien, [counties|E] #EMP und#! [vassals|E], um $avar$e $game_concept_counties$ zu verdrängen. Andere Vasallen außerhalb von Pannonien werden aufgegeben, während $game_concept_counties$, die zuvor von $mogyer_collective_noun$ besetzt oder gehalten wurden, kleineren Kriegsfürsten vor Ort und rivalisierenden Steppenstämmen überlassen werden."
- game_concept_knight:0 "Kommandant"  #AGOT Changed#Selbst geschrieben/abgetippt
- game_concept_knights:0 "Kommandanten"  #AGOT Changed#Selbst geschrieben/abgetippt
+ game_concept_knight:0 "Hauptmann"  #AGOT Changed#Selbst geschrieben/abgetippt
+ game_concept_knights:0 "Hauptmänner"  #AGOT Changed#Selbst geschrieben/abgetippt
  game_concept_knight_i:0 "@knight_icon!"
  game_concept_knight_desc:3 "Ein $game_concept_knight$ ist ein [vassal|E] oder [courtier|E], der direkt in Eurer [army|E] kämpft.\n\nIn [battles|E] greifen $game_concept_knights$ auf ihren [prowess_skill|E] zurück, um effektiver zu kämpfen. Ein hohes $game_concept_prowess$ heißt, dass sie dem Gegner mehr Schaden zufügen können und sehr viel wahrscheinlicher überleben und unbeschadet aus der $game_concept_battle$ hervorgehen.\n\nEin Charakter kann nicht zeitgleich [commander|E] und $game_concept_knight$ sein.\n\n#weak Diese Streiter haben unterschiedliche Namen je nach [culture|E] oder [Concept('faith', 'Glauben')|E] (zum Beispiel einfach Hauptmann, $knight_champion_no_tooltip_plural$, $knight_faris_no_tooltip_plural$ oder $knight_baghatur_no_tooltip_plural$).\n\nHauptmänner stellen sowohl den Charakter als auch sein Gefolge an Truppen dar.#!" #Selbst geschrieben/abgetippt
  game_concept_knight_effectiveness:0 "Hauptmann-Effektivität"  #AGOT Changed#Selbst geschrieben/abgetippt
