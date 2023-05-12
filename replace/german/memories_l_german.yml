@@ -242,7 +242,7 @@
  met_a_nice_witch_memory_desc:0 "Ich begegnete einer freundlichen Hexe namens [witch.GetName]"
  met_a_nice_witch_memory_desc_second_perspective:0 "Ihr begegnetet einer freundlichen Hexe namens [witch.GetName]"
  met_a_nice_witch_memory_desc_third_perspective:0 "[owner.GetName] begegnete einer freundlichen Hexe namens [witch.GetName]"
- 
+
  nemesis_died_desc:3 "[Select_CString(dead_relation.IsFemale, 'meine verhasste Erzfeindin', 'meinen verhassten Erzfeind')] [dead_relation.GetFullName] ereilte [dead_relation.Custom('DE_PRO_POS_S_3P')]e angemessene Strafe – [dead_relation.Custom('DE_PRO_PER_S_3P_N')] [dead_relation.GetDeathReasonHideKiller]"
  nemesis_died_desc_second_perspective:3 "[Select_CString(dead_relation.IsFemale, 'Eure verhasste Erzfeindin', 'Euren verhassten Erzfeind')] [dead_relation.GetFullName] ereilte [dead_relation.Custom('DE_PRO_POS_S_3P')]e angemessene Strafe – [dead_relation.Custom('DE_PRO_PER_S_3P_N')] [dead_relation.GetDeathReasonHideKiller]"
  nemesis_died_desc_third_perspective:3 "[dead_relation.GetFullName], [Select_CString(dead_relation.IsFemale, 'die verhasste Erzfeindin', 'den verhassten Erzfeind')] von [owner.GetFirstName], ereilte [dead_relation.Custom('DE_PRO_POS_S_3P')]e angemessene Strafe – [dead_relation.Custom('DE_PRO_PER_S_3P_N')] [dead_relation.GetDeathReasonHideKiller]"
@@ -332,7 +332,7 @@
  tormented_me_during_childhood_desc_1:1 "[tormentor.GetFirstName] verbrannte mein liebstes Spielzeug ([owner.Custom('child_favorite_toy')]), als ich noch klein war"
 
  tormented_me_during_childhood_desc_second_perspective_1:0 "[tormentor.GetFirstName] verbrannte Euer liebstes Spielzeug ([ROOT.Char.Custom('child_favorite_toy')]), als Ihr noch klein wart"
- 
+
  tormented_me_during_childhood_desc_third_perspective_1:0 "[tormentor.GetFirstName] verbrannte das liebste Spielzeug von [owner.GetName] ([ROOT.Char.Custom('child_favorite_toy')]), als [Select_CString(owner.IsFemale, 'diese', 'dieser')] noch klein war"
  war_lost_desc_1:1 "Ich verlor einen Krieg gegen [winner.GetFullName]"
 
@@ -341,41 +341,41 @@
  war_won_desc_1:1 "Ich gewann einen Krieg gegen [loser.GetFullName]"
  war_won_desc_second_perspective_1:1 "Ihr gewannt einen Krieg gegen [loser.GetFullName]"
  war_won_desc_third_perspective_1:1 "[owner.GetName] gewann einen Krieg gegen [loser.GetFullName]"
- 
+
  married_desc:0 "Ich heiratete [spouse.GetTitledFirstName]"
  married_desc_second_perspective:0 "Ihr heiratetet [spouse.GetTitledFirstName]"
  married_desc_third_perspective:0 "[owner.GetFirstName] heiratete [spouse.GetTitledFirstName]"
- 
+
  spouse_died:0 "Ehepartner starb"
  spouse_died_desc:0 "Mein Ehepartner [dead_relative.GetFirstName] [dead_relative.GetDeathReasonHideKiller]"
  spouse_died_desc_second_perspective:0 "Euer Ehepartner [dead_relative.GetFirstName] [dead_relative.GetDeathReasonHideKiller]"
  spouse_died_desc_third_perspective:0 "[dead_relative.GetFirstName], Ehepartner von [owner.GetFirstName], [dead_relative.GetDeathReasonHideKiller]"
- 
+
  offensive_war:0 "Angriffskrieg"
  offensive_war_desc:0 "Ich begann einen Krieg gegen [other_party.GetFullName]"
  offensive_war_desc_second_perspective:0 "Ihr begannt einen Krieg gegen [other_party.GetFullName]"
  offensive_war_desc_third_perspective:0 "[owner.GetFirstName] begann einen Krieg gegen [other_party.GetFullName]"
- 
+
  joined_allys_war:0 "schloss sich dem Krieg eines Verbündeten an"
  joined_allys_war_desc:0 "Ich schloss mich dem Krieg von [ally.GetFullName] gegen [enemy.GetFullName] an"
  joined_allys_war_desc_second_perspective:0 "Ihr schlosst Euch dem Krieg von [ally.GetFullName] gegen [enemy.GetFullName] an"
  joined_allys_war_desc_third_perspective:0 "[owner.GetFirstName] schloss sich dem Krieg von [ally.GetFullName] gegen [enemy.GetFullName] an"
- 
+
  defensive_war:0 "Verteidigungskrieg"
  defensive_war_desc:0 "[other_party.GetFullName] erklärte mir den Krieg"
  defensive_war_desc_second_perspective:0 "[other_party.GetFullName] erklärte Euch den Krieg"
  defensive_war_desc_third_perspective:0 "[other_party.GetFullName] erklärte [owner.GetFirstName] den Krieg"
- 
+
  released_from_prison_memory:0 "aus dem Kerker entlassen"
  released_from_prison_desc:0 "Ich wurde aus dem Kerker von [imprisoner.GetName] entlassen"
  released_from_prison_desc_second_perspective:0 "Ihr wurdet aus dem Kerker von [imprisoner.GetName] entlassen"
  released_from_prison_desc_third_perspective:0 "[owner.GetName|U] wurde aus dem Kerker von [imprisoner.GetName] entlassen"
- 
+
  stopped_being_friends:0 "sind nicht mehr befreundet"
  stopped_being_friends_desc:0 "Ich und [old_friend.GetName] haben uns entfremdet"
  stopped_being_friends_desc_second_perspective:0 "Ihr und [old_friend.GetName] habt Euch entfremdet"
  stopped_being_friends_desc_third_perspective:0 "[owner.GetName] und [old_friend.GetName] haben sich entfremdet"
- 
+
  stopped_being_rivals:0 "sind keine Rivalen mehr"
  stopped_being_rivals_desc:0 "Ich und [old_rival.GetName] ließen alten Groll los und sind keine Rivalen mehr"
  stopped_being_rivals_desc_second_perspective:0 "Ihr und [old_rival.GetName] ließt alten Groll los und seid keine Rivalen mehr"
