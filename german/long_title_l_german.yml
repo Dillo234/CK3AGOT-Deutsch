@@ -33,7 +33,7 @@ long_title.tier.nonexistent: "[ROOT.Title.GetTierAsNameNoTooltip]"
 long_title.tier.ruler: "Herrscher"
 
 long_title.council_position.start: "$long_title.character.start$, [ROOT.Char.GetCouncilTitle] von [ROOT.Char.GetLiege.GetFullNameNoTooltip]"
-long_title.relation_and_council_position.start: "$long_title.character.start$, [ROOT.Char.GetLiege.Custom2('RelationToMe',ROOT.Char)|U] und [ROOT.Char.GetCouncilTitle] zu [ROOT.Char.GetLiege.GetFullNameNoTooltip]"
+long_title.relation_and_council_position.start: "$long_title.character.start$, [ROOT.Char.GetLiege.Custom2('RelationToMe',ROOT.Char)|U] und [ROOT.Char.GetCouncilTitle] von [ROOT.Char.GetLiege.GetFullNameNoTooltip]"
 long_title.liege.start: "[ROOT.Char.GetLiege.Custom2('RelationToMe',ROOT.Char)|U] von [ROOT.Char.GetLiege.GetFullNameNoTooltip], $long_title.character.start$"
 long_title.courtier.start: "[ROOT.Char.GetLiege.Custom2('RelationToMe',ROOT.Char)|U] von [ROOT.Char.GetLiege.GetTitledFirstNameNicknamedNoTooltip], $long_title.character.fallback$[ROOT.Char.Custom('LongTitleEnding')]"
 
