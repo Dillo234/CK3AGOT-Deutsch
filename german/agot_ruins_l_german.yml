@@ -11,7 +11,7 @@
  building_small_ruin_01_desc:0 "Eine kleine Ruine, die ihrem Schicksal in der Wildnis überlassen wurde."
  building_small_ruin_02:0 "Gerettete kleine Ruine"
  building_small_ruin_02_desc:0 "Eine kleine Ruine, bei der der Wiederaufbau begonnen hat, um die alte Pracht wiederherzustellen."
- building_small_ruin_03:0 "Wiederhergestellte kleine Ruine"
+ building_small_ruin_03:0 "Bewohnbare kleine Ruine" # Recovering bedeutet sowas wie "noch im Aufau"; da ich kein besseres Wort gefunden habe, würde ich "bewohnbar" als Zwischenstufe von gerettet zu wiederaufgebaut/wiederhergestellt nehmen - Lys
  building_small_ruin_03_desc:0 "Eine kleine Ruine, deren Pracht durch den Wiederaufbau größtenteils wiederhergestellt wurde."
  building_small_ruin_04:0 "Wiederaufgebaute kleine Ruine"
  building_small_ruin_04_desc:0 "Einst eine kleine Ruine, die in den Annalen der Geschichte verschwunden war. Nun ist sie wieder aufgebaut und übertrifft vielleicht sogar das, was sie ursprünglich war."
@@ -21,7 +21,7 @@
  building_medium_ruin_01_desc:0 "Eine mittelgroße Ruine, die ihrem Schicksal in der Wildnis überlassen wurde."
  building_medium_ruin_02:0 "Gerettete mittelgroße Ruine"
  building_medium_ruin_02_desc:0 "Eine mittelgroße Ruine, bei der der Wiederaufbau begonnen hat, um die alte Pracht wiederherzustellen."
- building_medium_ruin_03:0 "Wiederhergestellte mittelgroße Ruine"
+ building_medium_ruin_03:0 "Bewohnbare mittelgroße Ruine"
  building_medium_ruin_03_desc:0 "Eine mittelgroße Ruine, deren Pracht durch den Wiederaufbau größtenteils wiederhergestellt wurde."
  building_medium_ruin_04:0 "Wiederaufgebaute mittelgroße Ruine"
  building_medium_ruin_04_desc:0 "Einst eine mittelgroße Ruine, die in den Annalen der Geschichte verschwunden war. Nun ist sie wieder aufgebaut und übertrifft vielleicht sogar das, was sie ursprünglich war."
@@ -31,7 +31,7 @@
  building_large_ruin_01_desc:0 "Eine große Ruine, die ihrem Schicksal in der Wildnis überlassen wurde."
  building_large_ruin_02:0 "Gerettete große Ruine"
  building_large_ruin_02_desc:0 "Eine große Ruine, bei der der Wiederaufbau begonnen hat, um die alte Pracht wiederherzustellen."
- building_large_ruin_03:0 "Wiederhergestellte großer Ruine"
+ building_large_ruin_03:0 "Bewohnbare großer Ruine"
  building_large_ruin_03_desc:0 "Eine große Ruine, deren Pracht durch den Wiederaufbau größtenteils wiederhergestellt wurde."
  building_large_ruin_04:0 "Wiederaufgebaute große Ruine"
  building_large_ruin_04_desc:0 "Einst eine große Ruine, die in den Annalen der Geschichte verschwunden war. Nun ist sie wieder aufgebaut und übertrifft vielleicht sogar das, was sie ursprünglich war."
@@ -64,20 +64,20 @@
  # Infamous
  building_type_ruin_infamous_01:0 "Berüchtigte Ruine"
  building_ruin_infamous_01:0 "Berüchtigte Ruine"
- building_ruin_infamous_01_desc:0 "Die Ruinen, die dieses Land zieren, gelten als mit Flüchen und Unheil behaftet. Die Menschen scheuen den Wiederaufbau und die Ruinen selbst, weil sie Angst davor haben, was aus ihnen werden könnte."
+ building_ruin_infamous_01_desc:0 "Gerüchten zufolge ist die Ruine, die dieses Land plagt, verflucht und birgt nichts als Unheil. Die Menschen fürchten die Ruine und scheuen ihren Wiederaufbau."
  
  # Wildfire Outbreak
  building_type_ruin_wildfire_01:0 "Seefeuer"
  building_ruin_wildfire_01:0 "Brennende Ruine"
- building_ruin_wildfire_01_desc:0 "Seefeuer brennt durch die Ruinen und fügt jedem, der nicht geschickt genug ist, mit den grünen Flammen umzugehen, tödlichen Schaden zu."
+ building_ruin_wildfire_01_desc:0 "Seefeuer brennt durch die Ruine und fügt jedem, der nicht geschickt mit den Flammen umgehen kann, tödlichen Schaden zu."
  building_ruin_wildfire_02:0 "Glühende Ruine"
- building_ruin_wildfire_02_desc:0 "Die Eindämmung des Seefeuers erleichtert den Wiederaufbau, da die ständige Gefahr des Feuerausbruchs nicht mehr so groß ist. Jedoch muss die Verwüstung der Ländereien der Ruine und das Leid ihrer Menschen erst noch verheilen."
+ building_ruin_wildfire_02_desc:0 "Durch die Eindämmung des Seefeuers ist ein weiterer Ausbruch unwahrscheinlich, was den Wiederaufbau erleichter. Jedoch sind das Land und die Ruine verwüstet und das Leid der Bewohner ist groß."
 
  # Interaction
- agot_ruin_begin_reconstruction:0 "Ruine wiederherstellen"
+ agot_ruin_begin_reconstruction:0 "Ruine wiedererrichten"
  agot_ruin_begin_reconstruction_desc:0 "Übernehmt die Kontrolle über den Wiederaufbau, um dem Gebiet wieder zu altem Glanz zu verhelfen."
  agot_ruin_reconstruction:0 "Ruine im Wiederaufbau"
- agot_ruin_reconstruction_desc:0 "Diese Ruine wird nun wieder aufgebaut."
+ agot_ruin_reconstruction_desc:0 "Dieser Ruine wird zu ihrer alten Pracht verholfen"
  RUIN_MUST_BEGIN_CONSTRUCTION:0 "Ihr müsst zuerst mit dem [reconstruction_effort|E] beginnen."
 
  # GUI
