@@ -12,32 +12,32 @@
  artifact_type_book:0 "Buch"
  artifact_type_pedestal:0 "$artifact_type_sculpture$"
  artifact_type_elixir:0 "Elixier"
-
+ 
 # These are used for when we generate the title at the same time as we create the artifact
  artifact_name_prefix:1 "[SCOPE.Custom('ArtifactPrefixGeneric')|U]"
  artifact_name_prefix_owner_name:0 "von [owner.GetTitledFirstNameNoTooltip]"
- artifact_name_prefix_inspiration_owner_name:0 "von [inspiration_owner.GetTitledFirstNameNoTooltip]"
- artifact_name_prefix_owner_culture:0 "der [owner.GetCulture.GetNameNoTooltip]en Kultur"
- artifact_name_prefix_location_culture:0 "[owner.MakeScope.Var('adventure_artifact_location').Title.GetHolder.GetCulture.GetNameNoTooltip]"
+ artifact_name_prefix_inspiration_owner_name:0 "[inspiration_owner.GetTitledFirstNameNoTooltip]"
+ artifact_name_prefix_owner_culture:0 "der [owner.GetCulture.GetNameNoTooltip|l]en Kultur"
+ artifact_name_prefix_location_culture:1 "der [owner.MakeScope.Var('adventure_artifact_location').Province.GetHolder.GetCulture.GetNameNoTooltip|l]en Kultur"
  artifact_name_prefix_owner_dynasty:0 "der [owner.GetDynasty.GetBaseName]en Dynastie"
  artifact_name_prefix_descriptor_high_quality:0 "von prächtiger Qualität"
  artifact_name_prefix_descriptor_medium_quality:0 "von stabiler Qualität"
- artifact_name_prefix_descriptor_medium_alt_version_quality:0 "hervorragend"
- artifact_name_prefix_descriptor_low_quality:1 "gut"
-
+ artifact_name_prefix_descriptor_medium_alt_version_quality:0 "von hervorragender Qualität"
+ artifact_name_prefix_descriptor_low_quality:1 "von guter Qualität"
+ 
 # These are used for when we generate the title after the artifact is already created since we have to use different scopes then
  artifact_name_prefix_artifact_scope:0 "[Artifact.GetOwner.Custom('ArtifactPrefixGenericAfterCreation')|U]"
- artifact_name_prefix_artifact_scope_owner_name:0 "[Artifact.GetOwner.GetTitledFirstNamePossessiveNoTooltip]"
+ artifact_name_prefix_artifact_scope_owner_name:0 "von [Artifact.GetOwner.GetTitledFirstNameNoTooltip]"
  artifact_name_prefix_artifact_scope_owner_culture:0 "[Artifact.GetOwner.GetCulture.GetNameNoTooltip]"
  artifact_name_prefix_artifact_scope_owner_dynasty:1 "[Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip]"
-
+ 
  placeholder:0 "$holderplace$"
  holder_place:0 "#D Trägerplatz#!"
-
+ 
  ##########
  # Metals #
  ##########
-
+ 
  # Irons and steels for use in arms and armor. All steels are just regional names for wootz steel, which is only known to have been manufactured in Southern India (but ingots of it traveled the silk road).
  metal_iron:0 "Eisen"
  metal_wrought_iron:0 "Schmiedeeisen"
@@ -46,27 +46,27 @@
  metal_wootz_steel:0 "YiTischer Stahl" #AGOT Changed
  metal_bulat_steel:0 "Qohorikischer Stahl" #AGOT Changed
  metal_damascus_steel:0 "Valyrischer Stahl" #AGOT Changed
-
-
+ 
+ 
  # Metal Feature Derivatives 
  feature_blade_metal_wrought_iron:0 "$metal_wrought_iron$"
  feature_blade_metal_folded_iron:0 "$metal_folded_iron$"
  feature_blade_metal_wootz_steel:0 "$metal_wootz_steel$"
  feature_blade_metal_damascus_steel:1 "$metal_damascus_steel$"
  feature_blade_metal_bulat_steel:1 "$metal_bulat_steel$"
-
+ 
  feature_head_metal_wrought_iron:0 "$metal_wrought_iron$"
  feature_head_metal_folded_iron:0 "$metal_folded_iron$"
  feature_head_metal_wootz_steel:0 "$metal_wootz_steel$"
  feature_head_metal_damascus_steel:1 "$metal_damascus_steel$"
  feature_head_metal_bulat_steel:1 "$metal_bulat_steel$"
-
+ 
  feature_handle_metal_wrought_iron:0 "$metal_wrought_iron$"
  feature_handle_metal_folded_iron:0 "$metal_folded_iron$"
  feature_handle_metal_wootz_steel:0 "$metal_wootz_steel$"
  feature_handle_metal_damascus_steel:1 "$metal_damascus_steel$"
  feature_handle_metal_bulat_steel:1 "$metal_bulat_steel$"
-
+ 
  # Precious/decorative metals and metal-based compounds
  metal_gold:0 "Gold"
  metal_electrum:0 "Elektron"
@@ -76,7 +76,7 @@
  metal_copper:0 "Kupfer"
  metal_pewter:0 "Zinn"
  metal_latten:0 "Sondermessing"
-
+ 
  # Pure black 'alloy' of sulfur, copper, silver, and lead. Commonly used as an inlay in engraved or etched metals, or sometimes as a background in reliefs.
  metal_niello:0 "Niello"
  # Golden (gold-leafed) bronze. More common in East Asia but could be found in Europe.
@@ -89,14 +89,14 @@
  metal_panchaloha:0 "Qaathi-Metall" #AGOT Changed
  # High-purity iron collected from meteorites. Auspicious in Tibetan culture, where it was known as 'thokcha'.
  metal_meteoric_iron:0 "Meteoreisen"
-
+ 
  feature_decoration_material_inlay_gold:0 "$metal_gold$"
  feature_decoration_material_inlay_electrum:0 "$metal_electrum$"
  feature_decoration_material_inlay_silver:0 "$metal_silver$"
  feature_decoration_material_inlay_copper:0 "$metal_copper$"
  feature_decoration_material_inlay_pewter:0 "$metal_pewter$"
  feature_decoration_material_inlay_niello:0 "$metal_niello$"
-
+ 
  feature_decoration_material_wire_gold:0 "$metal_gold$"
  feature_decoration_material_wire_electrum:0 "$metal_electrum$"
  feature_decoration_material_wire_silver:0 "$metal_silver$"
@@ -105,50 +105,50 @@
  feature_decoration_material_wire_copper:0 "$metal_copper$"
  feature_decoration_material_wire_pewter:0 "$metal_pewter$"
  feature_decoration_material_wire_latten:0 "$metal_latten$"
-
+ 
  #########
  # Woods #
  #########
  wood:0 "Holz"
-
+ 
  # Found Everywhere
  wood_ash:0 "Eschenholz"
  wood_oak:0 "Eichenholz"
-
+ 
  # Widespread Regional - Elm (Found all over Europe except southern Spain, Italy, and Greece)
  wood_elm:0 "Ulmenholz"
-
+ 
  # Widespread Regional - Walnut (found all over Europe excluding Scotland and Scandinavia, but including Northern Anatolia/Persia)
  wood_walnut:0 "Walnussholz"
-
+ 
  # Widespread Regional - Maple (found all over Europe excluding Scotland and northern Scandinavia, as well as northern Morocco/Tunisia/Persia and all of Anatolia)
  wood_maple:0 "Ahornholz"
-
+ 
  # Widespread Regional - Pines and Firs (found all over Europe except northern France/Germany and the Balkans, but spreads East through Anatolia, Scandinavia, Russia, China, and Tibet)
  wood_pine:0 "Kiefernholz"
  wood_fir:0 "Tannenholz"
-
+ 
  # Widespread Regional - Subsaharan Africa
  wood_fleroya:0 "Fleroyaholz"
  wood_sycomore:0 "Sykomorenholz"
  wood_padauk:0 "Goldkernholz" #AGOT Changed
-
+ 
  # Widespread Regional - India
  wood_sal:0 "Salbaumholz"
  wood_teak:0 "Teakholz"
  wood_rosewood:0 "Palisanderholz"
  wood_satinwood:0 "Satinholz"
-
+ 
  # Regional - France, England, Wales, Ireland
  wood_yew:0 "Eibenholz"
-
+ 
  # Regional - Mediterranean
  wood_olivewood:0 "Olivenholz"
-
+ 
  # Regional - Sri Lanka
  wood_coromandel:0 "Kalamanderholz"
  wood_ebony:0 "Ebenholz"
-
+ 
  # Wood Feature Derivatives 
  feature_generic_material_wood_ash:0 "$wood_ash$"
  feature_generic_material_wood_oak:0 "$wood_oak$"
@@ -168,7 +168,7 @@
  feature_generic_material_wood_olivewood:0 "$wood_olivewood$"
  feature_generic_material_wood_coromandel:0 "$wood_coromandel$"
  feature_generic_material_wood_ebony:0 "$wood_ebony$"
-
+ 
  feature_shaft_wood_ash:0 "$wood_ash$"
  feature_shaft_wood_oak:0 "$wood_oak$"
  feature_shaft_wood_elm:0 "$wood_elm$"
@@ -187,53 +187,53 @@
  feature_shaft_wood_olivewood:0 "$wood_olivewood$"
  feature_shaft_wood_coromandel:0 "$wood_coromandel$"
  feature_shaft_wood_ebony:0 "$wood_ebony$"
-
+ 
  ##########
  # Cloths #
  ##########
-
+ 
  # Simple wool fabric, can vary wildly in quality and appearance depending on the yarn used to wave it as well as the weaver's skill. 
  cloth_wool:0 "Wolle"
-
+ 
  # Wool from the very first shearing of a sheep. Soft, elastic, and slippery, used in high-grade textiles.
  cloth_lambswool:0 "Lammwolle"
-
+ 
  # A fine, dense wool yarn or fabric. Originated in 12th century England, considered to be one of the highest quality wools. Suits are made from it today.
  cloth_worsted_wool:0 "Kammwolle"
-
+ 
  # Generic plain weave cotton
  cloth_cotton:0 "Baumwolle"
-
+ 
  # cotton plain weave from Bangladesh, but common as far out as Iraq. Can be either coarse or very fine.
  cloth_muslin:0 "Musselin"
-
+ 
  # twill cotton-linen blend. As it a mixed fabric, practicing Jews are forbidden to wear it.
  cloth_fustian:0 "Barchent"
-
+ 
  # plain weave flax fibers. Consistently average in quality and price, saw widespread use throughout the medieval era.
  cloth_linen:0 "Leinen"
-
+ 
  # Plain(?) silk weave.
  cloth_silk:0 "Seide"
-
+ 
  # satin weave, most commonly made of silk, becoming famous in 12th century Europe after the Crusades. 
  cloth_satin:0 "Satin"
-
+ 
  # piled silk weave popular in the Middle East. Must be woven on a special loom. Due to its difficulty of manufacture, it is associated with nobility. Arrived in western Europe after the Crusades.
  cloth_velvet:0 "Samt"
-
+ 
  # twill silk weave popular in Byzantium, which originated in Sassanid Persia. Commonly restricted to royalty or clergy.
  cloth_samite:0 "Samit"
-
+ 
  # cloth woven from silk wrapped in silver. Similar to the cloth-of-gold below, but less expensive.
  cloth_of_silver:0 "Silbertuch"
-
+ 
  # cloth woven from silk wrapped in gold. In addition to being expensive, it was almost always outlawed for any non-royalty or non-clergy to wear.
  cloth_of_gold:0 "Goldtuch"
-
+ 
  # sturdy fabric
  cloth_canvas:0 "Zelttuch"
-
+ 
  feature_generic_material_cloth_wool:0 "$cloth_wool$"
  feature_generic_material_cloth_lambswool:0 "$cloth_lambswool$"
  feature_generic_material_cloth_worsted_wool:0 "$cloth_worsted_wool$"
@@ -244,23 +244,23 @@
  feature_generic_material_cloth_satin:0 "$cloth_satin$"
  feature_generic_material_cloth_velvet:0 "$cloth_velvet$"
  feature_generic_material_cloth_samite:0 "$cloth_samite$"
-
+ 
  feature_generic_material_cordage_wool:0 "$cloth_wool$"
  feature_generic_material_cordage_cotton:0 "$cloth_cotton$"
  feature_generic_material_cordage_linen:0 "$cloth_linen$"
  feature_generic_material_cordage_silk:0 "$cloth_silk$"
-
+ 
  feature_decoration_material_embroidery_wool:0 "$cloth_wool$"
  feature_decoration_material_embroidery_linen:0 "$cloth_linen$"
  feature_decoration_material_embroidery_cotton:0 "$cloth_cotton$"
  feature_decoration_material_embroidery_silk:0 "$cloth_silk$"
  feature_decoration_material_embroidery_silver_thread:0 "$metal_silver$"
  feature_decoration_material_embroidery_gold_thread:0 "$metal_gold$"
-
+ 
  ########
  # Gems #
  ########
-
+ 
  # Common Everywhere
  gem_rock_crystal:0 "Bergkristall"
  gem_rock_crystal_plural:0 "Bergkristalle"
@@ -270,7 +270,7 @@
  gem_agate_plural:0 "Agate"
  gem_onyx:0 "Onyx"
  gem_onyx_plural:0 "Onyxe"
-
+ 
  # Uncommon Everywhere
  gem_garnet:0 "Granat"
  gem_garnet_plural:0 "Granate"
@@ -278,7 +278,7 @@
  gem_jasper_plural:0 "Jaspise"
  gem_zircon:0 "Zirkon"
  gem_zircon_plural:0 "Zirkone"
-
+ 
  # Common Regional/Uncommon Elsewhere
  gem_turquoise:0 "Türkis"
  gem_turquoise_plural:0 "Türkise"
@@ -294,7 +294,7 @@
  gem_amethyst_plural:0 "Amethyste"
  gem_carnelian:0 "Karneol"
  gem_carnelian_plural:0 "Karneole"
-
+ 
  # Uncommon Regional/Rare Elsewhere
  gem_spinel:0 "Spinell"
  gem_spinel_plural:0 "Spinelle"
@@ -306,7 +306,7 @@
  gem_peridot_plural:0 "Peridote"
  gem_jade:0 "Jade"
  gem_jade_plural:0 "Jaden"
-
+ 
  # Rare
  gem_sapphire:0 "Saphir"
  gem_sapphire_plural:0 "Saphire"
@@ -314,7 +314,7 @@
  gem_ruby_plural:0 "Rubine"
  gem_emerald:0 "Smaragd"
  gem_emerald_plural:0 "Smaragde"
-
+ 
  feature_decoration_material_gem_rock_crystal:0 "$gem_rock_crystal$"
  feature_decoration_material_gem_jet:0 "$gem_jet$"
  feature_decoration_material_gem_agate:0 "$gem_agate$"
@@ -337,11 +337,11 @@
  feature_decoration_material_gem_sapphire:0 "$gem_sapphire$"
  feature_decoration_material_gem_ruby:0 "$gem_ruby$"
  feature_decoration_material_gem_emerald:0 "$gem_emerald$"
-
+ 
  ############################
  # Horns, Shells, and Bones #
  ############################
-
+ 
  hsb_ivory:0 "Elfenbein"
  hsb_mother_of_pearl:0 "Perlmutt"
  hsb_tortoiseshell:0 "Schildpatt"
@@ -357,7 +357,7 @@
  feature_decoration_material_inlay_HSB_tortoiseshell:0 "$hsb_tortoiseshell$"
  feature_decoration_material_inlay_HSB_mother_of_pearl:0 "$hsb_mother_of_pearl$"
  feature_decoration_material_inlay_HSB_ivory:0 "$hsb_ivory$"
-
+ 
  #Other
  material_bone:0 "Knochen"
  material_horn:0 "Horn"
@@ -365,16 +365,16 @@
  material_glass:0 "Glas"
  material_leather:0 "Leder"
  material_hardened_leather:0 "Hartleder"
-
+ 
  ############
  # Patterns #
  ############
-
+ 
  feature_decoration_pattern_roses:0 "Rosenblüten"
  feature_decoration_pattern_floral:0 "Blumenmotiven"
  feature_decoration_pattern_geometric:0 "geometrischen Formen"
  feature_decoration_pattern_wolf:0 "einem Wolfskopf"
- feature_decoration_pattern_local_animal:0 "einem detaillierten [Artifact.GetOwner.Custom('LocalAnimal_DE_1')]"
+ feature_decoration_pattern_local_animal:0 "einem detaillierten [Artifact.GetOwner.Custom('GetAnimalType_DE_1')]"
  feature_decoration_pattern_war_god:0 "Symbolen und Phrasen zur Widmung an [Artifact.GetOwner.GetFaith.WarGodName]"
  feature_decoration_pattern_religious_symbol:0 "den religiösen Symbolen"
  feature_decoration_pattern_gibberish:0 "Symbolen, deren Bedeutung niemand außer dem Schöpfer kennt,"
@@ -391,22 +391,22 @@
  feature_decoration_pattern_knots:0 "verschlungenen Knoten"
  feature_decoration_pattern_animals:0 "einer Tierdarstellung"
  feature_decoration_pattern_bird:0 "einem majestätischen Vogel"
-
+ 
  feature_decoration_material_inlay_HSB_placeholder:0 "#D PLATZHALTER#!"
-
+ 
  ###########
  # Quality and wealth #
  ###########
-
+ 
  quality_fine:0 "gut"
  quality_very_fine:0 "sehr gut"
  quality_excellent:0 "ausgezeichnet"
  quality_masterful:0 "meisterhaft"
-
+ 
  adverb_quality_masterful:0 "meisterhaft"
  adverb_quality_excellent:0 "ausgezeichnet"
  adverb_quality_fine:0 "fein"
-
+ 
  wealth_extravagant:0 "extravagant"
  wealth_opulent:0 "opulent"
  wealth_beautiful:0 "wunderschön"
@@ -414,7 +414,7 @@
  wealth_ornate:0 "kunstvoll"
  wealth_fancy:0 "schick"
  wealth_plain:0 "schlicht"
-
+ 
  article_wealth_plain:0 "einfach"
  article_wealth_fancy:0 "schick"
  article_wealth_ornate:0 "kunstvoll"
@@ -422,7 +422,7 @@
  article_wealth_beautiful:0 "wunderschön"
  article_wealth_opulent:0 "opulent"
  article_wealth_extravagant:0 "extravagant"
-
+ 
  adverb_wealth_extravagant:0 "extravagant"
  adverb_wealth_masterful:0 "meisterhaft"
  adverb_wealth_opulent:0 "opulent"
@@ -434,7 +434,7 @@
  adverb_wealth_ornate:0 "kunstvoll"
  adverb_wealth_fancy:0 "schick"
  adverb_wealth_plain:0 "schlicht"
-
+ 
  ############################
  # Weapon Descriptions 		#
  ############################
@@ -450,16 +450,16 @@
  feature_blade_decoration_etched_pattern:0 "die Klinge ist so geätzt, dass sie ein Relief in Form von [Artifact.GetFeatureText('decoration_pattern')] zeigt"
  feature_blade_decoration_etched_motto:0 "auf der Klinge ist der Schriftzug „[Artifact.GetOwner.GetHouse.GetMotto]“ eingraviert"
  feature_blade_decoration_etched_owner:1 "auf der Klinge befindet sich die Inschrift „Im Besitz von [Artifact.GetOwner.GetTitledFirstName] aus [Artifact.GetOwner.GetPrimaryTitle.GetNameNoTierNoTooltip]“"
-
+ 
  # Swords
- artifact_sword_name:0 "Schwert von $artifact_name_prefix$"
+ artifact_sword_name:0 "Schwert $artifact_name_prefix$"
  artifact_sword_description:3 "Ein [newly_created_artifact.GetFeatureText('blade_metal')]-Schwert von [SCOPE.Custom('ArtifactQuality')]er Machart. [newly_created_artifact.Custom('ArtifactSwordDecoration')]"
  sword_decoration_hilt_and_blade:1 "[ROOT.Artifact.GetFeatureText('hilt_decoration')|U] und [ROOT.Artifact.GetFeatureText('blade_decoration')]."
  sword_decoration_hilt:1 "[ROOT.Artifact.GetFeatureText('hilt_decoration')|U]."
  sword_decoration_blade:1 "[ROOT.Artifact.GetFeatureText('blade_decoration')]."
  sword_decoration_none:0 "Es ist schlicht und hat keinerlei Verzierungen, aber dennoch ein auffallendes Erscheinungsbild."
  sword_decoration_none_alt:0 "Alles an seiner Machart dient einem Zweck, und der Mangel an opulenten Verzierungen verleiht dem Besitzer die Aura eines Menschen, der strikt auf den freien Nutzen von Dingen achtet."
-
+ 
  # Daggers
  artifact_dagger_name:0 "Dolch von [owner.GetTitledFirstNameNoTooltip]"
  artifact_dagger_description:1 "Ein [newly_created_artifact.GetFeatureText('blade_metal')]-Dolch von [SCOPE.Custom('ArtifactQuality')]er Handwerkskunst. [newly_created_artifact.Custom('ArtifactDaggerDecoration')]"
@@ -467,10 +467,10 @@
  dagger_decoration_hilt:0 "$sword_decoration_hilt$"
  dagger_decoration_blade:0 "$sword_decoration_blade$"
  dagger_decoration_none:0 "$sword_decoration_none$"
-
+ 
  # Axe, Spear, Hammer, and Mace components (Heads, Shafts/Hafts)
  feature_head_decoration_etched_pattern:0 "so geätzt wurde, dass er ein Relief in Form von [Artifact.GetFeatureText('decoration_pattern')] zeigt"
- feature_head_decoration_religious_motifs:0 "so geätzt wurde, dass er verschiedene [Artifact.GetOwner.GetFaith.GetAdjective]e Motive zeigt"
+ feature_head_decoration_religious_motifs:0 "so geätzt wurde, dass er verschiedene [Artifact.GetOwner.GetFaith.GetAdjective|l]e Motive zeigt"
  feature_shaft_decoration_painted_pattern:0 "mit dem sich wiederholenden Bild von [Artifact.GetFeatureText('decoration_pattern')] bemalt wurde"
  feature_shaft_decoration_inlay:0 "mit Intarsien in Form von [Artifact.GetFeatureText('decoration_material_inlay_HSB')] versehen wurde"
  feature_shaft_decoration_varnish:0 "lackiert wurde, um ihm einen satten, dunklen Glanz zu verleihen"
@@ -479,9 +479,9 @@
  feature_shaft_decoration_lines:0 "mit dünnen linienförmigen Einkerbungen versehen wurde, um das Aussehen des Materials zu verbessern und gleichzeitig einen strukturierten und angenehmen Griff zu bieten"
  feature_metal_handle_decoration_inlay:0 "mit Intarsien in Form von [Artifact.GetFeatureText('decoration_material_inlay')]"
  feature_metal_handle_decoration_etched_pattern:0 "mit dem sich wiederholenden Bild von [Artifact.GetFeatureText('decoration_pattern')] geätzt"
-
+ 
  # Axes
- artifact_axe_name:0 "Streitaxt von $artifact_name_prefix$"
+ artifact_axe_name:0 "Streitaxt $artifact_name_prefix$"
  artifact_axe_description:2 "Eine Streitaxt von [SCOPE.Custom('ArtifactQuality')]er Qualität. [newly_created_artifact.Custom('ArtifactAxeHeadDescription')] [newly_created_artifact.Custom('ArtifactAxeHaftDescription')]"
  artifact_axe_head_undecorated:1 "Der [ROOT.Artifact.GetFeatureText('head_metal')]-Kopf ist auf"
  artifact_axe_head_decorated:1 "Der [ROOT.Artifact.GetFeatureText('head_metal')]-Kopf, der [ROOT.Artifact.GetFeatureText('head_decoration')], ist auf"
@@ -489,15 +489,15 @@
  artifact_axe_haft_decorated:1 "einem eleganten Schaft aus [ROOT.Artifact.GetFeatureText('shaft_wood')] befestigt, der [ROOT.Artifact.GetFeatureText('shaft_decoration')]."
  
  # Hammers
- artifact_hammer_name:1 "Kriegshammer ($artifact_name_prefix$)"
+ artifact_hammer_name:1 "Kriegshammer $artifact_name_prefix$"
  artifact_hammer_description:3 "Ein Kriegshammer von [SCOPE.Custom('ArtifactQuality')|l]er Qualität. [newly_created_artifact.Custom('ArtifactHammerHeadDescription')] [newly_created_artifact.Custom('ArtifactHammerShaftDescription')]"
  artifact_hammer_head_undecorated:0 "$artifact_axe_head_undecorated$"
  artifact_hammer_head_decorated:0 "$artifact_axe_head_decorated$"
  artifact_hammer_shaft_undecorated:1 "einem robusten Schaft aus [ROOT.Artifact.GetFeatureText('shaft_wood')] befestigt."
  artifact_hammer_shaft_decorated:1 "einem eleganten Schaft aus [ROOT.Artifact.GetFeatureText('shaft_wood')] befestigt, der [ROOT.Artifact.GetFeatureText('shaft_decoration')]."
-
+ 
  # Spears
- artifact_spear_name:0 "Speer von $artifact_name_prefix$"
+ artifact_spear_name:0 "Speer $artifact_name_prefix$"
  artifact_spear_description:2 "Ein Speer von [SCOPE.Custom('ArtifactQuality')]er Qualität. [newly_created_artifact.Custom('ArtifactSpearHeadDescription')] [newly_created_artifact.Custom('ArtifactSpearShaftDescription')]"
  artifact_spear_head_undecorated:0 "$artifact_axe_head_undecorated$"
  artifact_spear_head_decorated:0 "$artifact_axe_head_decorated$"
@@ -505,26 +505,26 @@
  artifact_spear_shaft_undecorated:1 "einem robusten Schaft aus [ROOT.Artifact.GetFeatureText('shaft_wood')] befestigt."
  artifact_spear_shaft_undecorated_alt:2 "einem Schaft aus [ROOT.Artifact.GetFeatureText('shaft_wood')] befestigt. Dies ist eine Waffe, die ebenso elegant wie tödlich ist."
  artifact_spear_shaft_decorated:1 "einem eleganten Schaft aus [ROOT.Artifact.GetFeatureText('shaft_wood')] befestigt, der [ROOT.Artifact.GetFeatureText('shaft_decoration')]."
-
+ 
  # Maces
- artifact_mace_name:0 "Streitkolben von $artifact_name_prefix$"
+ artifact_mace_name:0 "Streitkolben $artifact_name_prefix$"
  artifact_mace_description:2 "Ein geflanschter Streitkolben von [SCOPE.Custom('ArtifactQuality')]er Qualität. [newly_created_artifact.Custom('ArtifactMaceHeadDescription')] [newly_created_artifact.Custom('ArtifactMaceHandleDescription')]"
  artifact_mace_head_undecorated:0 "$artifact_axe_head_undecorated$"
  artifact_mace_head_decorated:0 "$artifact_axe_head_decorated$"
  artifact_mace_handle_undecorated:1 "einem soliden Schaft aus [ROOT.Artifact.GetFeatureText('handle_metal')] befestigt."
  artifact_mace_handle_decorated:2 "einem eleganten Schaft aus [ROOT.Artifact.GetFeatureText('handle_metal')] befestigt, der [ROOT.Artifact.GetFeatureText('metal_handle_decoration')]."
-
+ 
  ############################
  # Wearable Descriptions	#
  ############################
-
+ 
  # Armor
  artifact_armor_name:0 "[SCOPE.Custom('ArtifactArmorArtifactName')]"
- artifact_armor_name_basic:1 "[SCOPE.Custom('ArtifactArmorTypeUppercase')|U] von [newly_created_artifact.GetFeatureText('armor_property')|l]er Machart ($artifact_name_prefix$)"
+ artifact_armor_name_basic:1 "[SCOPE.Custom('ArtifactArmorTypeUppercase')|U] [newly_created_artifact.GetFeatureText('armor_property')|l]er Machart $artifact_name_prefix$"
  artifact_armor_name_culture:0 "[SCOPE.Custom('ArtifactArmorTypeUppercase')|U] in [ROOT.Char.GetCulture.GetNameNoTooltip]er Machart"
  artifact_armor_name_dynasty:1 "[SCOPE.Custom('ArtifactArmorTypeUppercase')|U] der [ROOT.Char.GetDynasty.GetBaseNameNoTooltip]-Dynastie"
  artifact_armor_name_descriptor:1 "[SCOPE.Custom('ArtifactArmorTypeUppercase')|U] von [newly_created_artifact.GetFeatureText('armor_property')|l]er Machart"
-
+ 
  artifact_armor_mail_lowercase:0 "Kettenhemd"
  artifact_armor_mail_uppercase:0 "Ketten"
  artifact_armor_plate_lowercase:0 "Plattenpanzer"
@@ -539,7 +539,7 @@
  artifact_armor_brigandine_uppercase:1 "Spangenpanzer"
  artifact_armor_shield_lowercase:0 "ein Schild"
  artifact_armor_shield_uppercase:0 "ein Schild"
-
+ 
  artifact_armor_descriptor_shiny:0 "glänzend"
  artifact_armor_descriptor_flexible:0 "biegsam"
  artifact_armor_descriptor_powerful:0 "mächtig"
@@ -557,7 +557,7 @@
  feature_artifact_armor_descriptor_armor_gold_decorated:0 "Goldgeschmückt"
  feature_artifact_armor_descriptor_armor_silver_decorated:0 "Silberverziert"
  feature_artifact_armor_descriptor_armor_copper_decorated:0 "Kupferverziert"
-
+ 
  feature_armor_material_iron:0 "$metal_iron$"
  feature_armor_material_steel:0 "$metal_steel$"
  feature_armor_material_gold:0 "$metal_gold$"
@@ -567,7 +567,7 @@
  feature_armor_material_pangolin_scales:0 "$material_pangolin_scales$"
  feature_armor_material_leather:0 "$material_leather$"
  feature_armor_material_hardened_leather:0 "$material_hardened_leather$"
-
+ 
  feature_armor_helmet_spangenhelm:0 "Zu diesem Satz gehören ein Spangenhelm und eine Helmbrünne"
  feature_armor_helmet_crested:0 "Zu diesem Satz gehört ein Buschhelm mit dekorativem Augenbrauenstück"
  feature_armor_helmet_nasal:0 "Zu diesem Satz gehört ein Nasalhelm samt Kettenhaube, der mit [Artifact.GetFeatureText('generic_material_cloth')] gefüttert wurde"
@@ -580,7 +580,7 @@
  feature_armor_helmet_kettle:0 "Zu diesem Satz gehört ein Eisenhut mit breiter Krempe"
  feature_armor_helmet_cervelliere:0 "Zu diesem Satz gehört eine eng anliegende, halbkugelförmige Hirnhaube samt Kettenhaube, die mit [Artifact.GetFeatureText('generic_material_cloth')] gefüttert wurde"
  feature_armor_helmet_kulah_khud:0 "Zu diesem Satz gehören ein Rhoynischer Helm und eine Helmbrünne" #AGOT Changed
-
+ 
  feature_armor_decoration_etched_pattern:0 "In die ganze Rüstung wurde das sich wiederholende Bild von [Artifact.GetFeatureText('decoration_pattern')] geätzt"
  feature_armor_decoration_inlay_pattern:0 "In die ganze Rüstung wurde [Artifact.GetFeatureText('decoration_material_inlay')] eingelassen, das ein sich wiederholendes Bild von [Artifact.GetFeatureText('decoration_pattern')] zeigt"
  feature_armor_decoration_painted_pattern:0 "Auf die ganze Rüstung wurde das sich wiederholende Bild von [Artifact.GetFeatureText('decoration_pattern')] gemalt"
@@ -589,7 +589,7 @@
  feature_armor_decoration_lining:0 "Die unteren Glieder bestehen aus dekorativem [Artifact.GetFeatureText('decoration_material_wire')] als Schmuck für die ganze Rüstung"
  feature_armor_decoration_embossed:0 "Auf die [Artifact.GetFeatureText('decoration_material_wire')]-Nieten, die Platten und Stoff verbinden, wurden dekorative Muster geprägt"
  feature_armor_decoration_grouped_rivets:0 "Die [Artifact.GetFeatureText('decoration_material_wire')]-Nieten, die Platten und Stoff verbinden, wurden in dekorativen Mustern angebracht"
-
+ 
  artifact_armor_description:0 "[SCOPE.Custom('ArtifactArmorDesc')]. [newly_created_artifact.GetFeatureText('armor_helmet')]. [newly_created_artifact.GetFeatureText('armor_decoration')]."
  
  artifact_armor_mail_description:2 "Obwohl die Kettenglieder keinen Platz für Schmuck bieten, unterscheidet sich dieses Stück doch durch die [SCOPE.Custom('ArtifactQuality')]e Arbeit bei der Vernietung von gewöhnlichen Vertretern seiner Art"
@@ -599,38 +599,38 @@
  artifact_armor_laminar_description:2 "Die Rüstung besteht aus horizontal überlappenden [newly_created_artifact.GetFeatureText('armor_material')]-Bändern, die [SCOPE.Custom('ArtifactAdverbQuality')] durch Schnüre aus [newly_created_artifact.GetFeatureText('generic_material_cordage')] verschnürt wurden, während man Futter und Verzierungen aus feinem [newly_created_artifact.GetFeatureText('generic_material_cloth')] schneiderte"
  artifact_armor_brigandine_description:2 "Als Material kommt [newly_created_artifact.GetFeatureText('armor_material')] bei dieser Rüstung zum Einsatz, und im Innern ist sie mit länglichen [SCOPE.Custom('ArtifactAdverbQuality')]en Stahlplatten gefüttert, die mit [newly_created_artifact.GetFeatureText('generic_material_cloth')] bedeckt wurden"
  artifact_armor_fallback_description:2 "[SCOPE.Custom('ArtifactDecorationArmor')]."
-
+ 
  create_artifact_armor_tooltip:1 "[inspiration_owner.GetShortUIName] erschuf Folgendes: [SCOPE.Custom('ArtifactArmorTypeUppercase')] von [SCOPE.Custom('ArtifactQuality')|l]er Machart"
-
+ 
  # Regalia
- artifact_regalia_name:0 "Insignien von $artifact_name_prefix$"
+ artifact_regalia_name:0 "Insignien $artifact_name_prefix$"
  artifact_regalia_description:1 "Ein [SCOPE.Custom('ArtifactArticleWealth')]er Insigniensatz von [SCOPE.Custom('ArtifactQuality')]er Qualität. Er besteht aus [newly_created_artifact.GetFeatureText('regalia_scepter')], [newly_created_artifact.GetFeatureText('regalia_clothes')] und [newly_created_artifact.GetFeatureText('regalia_accessory')]."
-
+ 
  feature_regalia_scepter_gemstone:0 "einem [Artifact.GetFeatureText('decoration_material_wire')]-Zepter, das mit kleinen [Artifact.GetFeatureText('decoration_material_gem')]-Stücken verziert wurde"
  feature_regalia_accessory_orb:0 "einer [Artifact.GetFeatureText('decoration_material_wire')]-Kugel mit Kreuz"
  feature_regalia_accessory_necklace:0 "einer großen [Artifact.GetFeatureText('decoration_material_gem')]-Cabochon-Halskette"
  feature_regalia_clothes_robe:0 "einer edlen [Artifact.GetFeatureText('generic_material_cloth')]-Robe, die mit Garn aus [Artifact.GetFeatureText('decoration_material_embroidery')] bestickt wurde"
  feature_regalia_clothes_cloak:0 "einem [Artifact.GetFeatureText('generic_material_cloth')]-Umhang, der mit Garn aus [Artifact.GetFeatureText('decoration_material_embroidery')] bestickt wurde"
-
+ 
  create_artifact_regalia_tooltip:1 "[inspiration_owner.GetShortUIName] erschuf einen Insigniensatz von [SCOPE.Custom('ArtifactQuality')]er Machart"
-
-
+ 
+ 
  # Crowns
- artifact_crown_name:0 "Krone von $artifact_name_prefix$"
+ artifact_crown_name:0 "Krone $artifact_name_prefix$"
  artifact_crown_description:1 "Eine [SCOPE.Custom('ArtifactArticleWealth')]e Krone von [SCOPE.Custom('ArtifactQuality')]er Qualität. Die Krone wurde aus [newly_created_artifact.GetFeatureText('decoration_material_wire')] gefertigt und [newly_created_artifact.GetFeatureText('crown_decoration')]."
-
+ 
  feature_crown_decoration_gems:1 "mit kleinen [Artifact.GetFeatureText('decoration_material_gem')]-Stücken besetzt"
  feature_crown_decoration_filigree:0 "mit filigranen Verzierungen versehen"
  feature_crown_decoration_filigree_and_gem:0 "mit filigranen Verzierungen versehen, die einen großen [Artifact.GetFeatureText('decoration_material_gem')] in ihrer Mitte umringen"
-
+ 
  create_artifact_crown_tooltip:1 "[inspiration_owner.GetShortUIName] erschuf eine Krone von [SCOPE.Custom('ArtifactQuality')]er Machart"
-
-
+ 
+ 
  # Brooches
  artifact_brooch:0 "Brosche"
- artifact_brooch_name:0 "Brosche von $artifact_name_prefix$"
+ artifact_brooch_name:0 "Brosche $artifact_name_prefix$"
  artifact_brooch_description:1 "Eine [SCOPE.Custom('ArtifactArticleWealth')]e Brosche von [SCOPE.Custom('ArtifactQuality')]er Qualität. [newly_created_artifact.GetFeatureText('brooch_decoration')]."
-
+ 
  feature_brooch_decoration_centerpiece_and_adornment:0 "Sie besteht aus [Artifact.GetFeatureText('brooch_centerpiece')], die [Artifact.GetFeatureText('brooch_adornment')]"
  feature_brooch_decoration_centerpiece:0 "Sie besteht aus [Artifact.GetFeatureText('brooch_centerpiece')] auf einer Schließe aus [Artifact.GetFeatureText('decoration_material_wire')]"
  feature_brooch_decoration_adornment:0 "Sie besteht aus [Artifact.GetFeatureText('decoration_material_wire')] und einer Schließe, die [Artifact.GetFeatureText('brooch_adornment')]"
@@ -641,36 +641,36 @@
  feature_brooch_adornment_gems:0 "mit kleinen [Artifact.GetFeatureText('decoration_material_gem')]-Stücken verziert ist"
  feature_brooch_adornment_runes:0 "von einem geprägten Ring aus [Artifact.GetFeatureText('decoration_material_wire')] eingefasst wird, der mit Runen versehen wurde"
  create_artifact_brooch_tooltip:0 "[inspiration_owner.GetShortUIName] erschuf eine [SCOPE.Custom('ArtifactArticleWealth')|l]e Brosche von [SCOPE.Custom('ArtifactQuality')]er Machart"
-
+ 
  ## fund_inspiration.6001-6006 trinkets from your adventurer
  morin_khuur_ornament_name:0 "Khalasar-Pferde-Ornament" #AGOT Changed
- morin_khuur_ornament_description:1 "Ein Pferdekopf, der aus einem Pferdeknochen geschnitzt wurde und meist den Griff einer Morin-Khurr-Geige schmückt. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer." #AGOT Changed
+ morin_khuur_ornament_description:1 "Ein Pferdekopf, der aus einem Pferdeknochen geschnitzt wurde und meist den Griff einer Geige schmückt. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."  #AGOT Changed #Selbst geschrieben/abgetippt
  animal_ring_name:0 "Tigerprunkring"
  animal_ring_description:1 "Ein mit viel zu bunten Juwelen besetzter Ring, der Eure Höflinge wohl eher blenden wird, anstatt sie mit Eurem Geschmack zu beeindrucken. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
  ostrich_shell_necklace_name:0 "Halskette aus Straußenschalenperlen"
  ostrich_shell_necklace_description:1 "Ein filigranes Schmuckstück in strahlendem Weiß. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
  pilgrimage_figurine_name:0 "Schulpstatuette" #AGOT Changed
- pilgrimage_figurine_description:1 "Die Figur eines antiken Ghiscari-Kriegers. Der Helm ist mit bronzenen Details verzieht. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer." #AGOT Changed 
+ pilgrimage_figurine_description:1 "Eine Figurine eines antiken Ghiscari-Kriegers. Der Helm ist mit bronzenen Details verziehrt. Gechickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."  #AGOT Changed  #Selbst geschrieben/abgetippt
  saint_margaret_fingernails_name:0 "Fingernagel des Mustermachers" #AGOT Changed
  saint_margaret_fingernails_description:1 "Das Labyrinth des Mustermachers ist ein Labyrinth in Braavos, das durchschritten werden muss, um Weisheit zu erlangen. Angeblich sollen diese ekligen alten Fingernägel dem genialen Kopf dahinter gehört haben. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer." #AGOT Changed
  seahorse_brooch_name:0 "Goldene Seepferdchenbrosche"
  seahorse_brooch_description:1 "Eine Brosche mit feinen Quasten an einem Pferd, das sowohl Flügel als auch einen Flossenschwanz hat. Geschickt an [owner.GetTitledFirstNameNoTooltip] von [inspiration_owner.GetTitledFirstNameNoTooltip] während [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Abenteuer."
-
-
+ 
+ 
  #fund_inspiration.6500- trinkets from your adventurer
  leopard_hat_name:0 "Leopardenhelm"
  leopard_hat_description:0 "Ein Helm aus dem Kopf eines Leoparden, erschlagen von [inspiration_owner.GetTitledFirstName]."
- kurgan_ornament_name:0 "Skythische Pantherfigurine" #AGOT Changed
- kurgan_ornament_description:0 "Eine Steinfigurine, die [inspiration_owner.GetTitledFirstName] aus einem alten Kurgan-Grabhügel der Skythen geplündert hat." #AGOT Changed
+ kurgan_ornament_name:0 "Pantherfigurine"  #AGOT Changed #Selbst geschrieben/abgetippt
+ kurgan_ornament_description:0 "Eine Steinfigurine, die [inspiration_owner.GetTitledFirstName] aus einem alten Grabhügel geplündert hat."  #AGOT Changed #Selbst geschrieben/abgetippt
  kurgan_saddle_name:0 "Sattel aus einem Grabhügel"
  kurgan_saddle_description:1 "Ein Sattel, den [inspiration_owner.GetTitledFirstName] aus einem antiken Grabhügel hat mitgehen lassen. Auch wenn er mehr als tausend Jahre alt ist, scheint ihn die Luft im Grabmal inmitten von einem Dutzend einbalsamierter Pferdeleichen konserviert zu haben. Vielleicht können wir durch ihn etwas aus der Lebensart der alten Sattelkrieger lernen." #AGOT Changed
  naked_tapestry_name:0 "Akt-Wandteppich"
- naked_tapestry_description:0 "Eine nackte Darstellung von [inspiration_owner.GetTitledFirstName] an einem Oasenstrand. [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')|U] fächelt sich mit einem Blatt Luft zu, und kristallklare Tröpfchen funkeln auf [inspiration_owner.Char.Custom('DE_PRO_POS_S_3P')]er Haut."
-
+ naked_tapestry_description:0 "Eine nackte Darstellung von [inspiration_owner.GetTitledFirstName] an einem Oasenstrand. [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')|U] fächelt sich mit einem Blatt Luft zu, und kristallklare Tröpfchen funkeln auf [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Haut."
+ 
  frogspawn_jar_name:0 "Ein Krug mit Froschbrut"
  frogspawn_jar_description:0 "Ein Krug voll frisch geschlüpfter Kaulquappen. Geschickt von [ROOT.Char.GetTitledFirstNameNoTooltip] an [inspiration_owner.GetTitledFirstName] als Hinweis, welche Schrecken einen in der Welt draußen so erwarten.\n\nZappel, zappel!"
  beaver_book_name:1 "Paläste der Biber"
- beaver_book_description:0 "Ein Buch über Biberarchitektur und Bautechniken, verfasst mit Skizzen von [inspiration_owner.GetTitledFirstName] von [inspiration_owner.Char.Custom('DE_PRO_POS_S_3P')]en Reisen."
+ beaver_book_description:0 "Ein Buch über Biberarchitektur und Bautechniken, verfasst mit Skizzen von [inspiration_owner.GetTitledFirstName] von [inspiration_owner.Custom('DE_PRO_POS_S_3P')]en Reisen."
  crocodile_tapestry_name:0 "Krokodil-Wandteppich"
  crocodile_tapestry_description:0 "Ein Wandteppich mit dem bestmöglichen Krokodil, das [inspiration_owner.GetTitledFirstName] zustande gebracht hat. Die Kreatur ist knallrot, hat mehrere Reihen von Fangzähnen, giftige Pusteln und einen Stachelschwanz. Sie ruht auf einem Nest voller Eier in einer Höhle hinter einem Wasserfall."
  mountain_rock_name:0 "Bergfels"
@@ -701,12 +701,12 @@
  sutta_pitaka_description:1 "Ein Text des Theravada-Buddhismus, der auf dem ersten buddhistischen Konzil nach dem Tode Buddhas beruht. Darin befinden sich Gedichte und Predigten, die Buddha und seinen Schülern zugeschrieben werden. Teil des Pali-Kanons."
  abhidhamma_pitaka_name:0 "Abhidhammapitaka"
  abhidhamma_pitaka_description:0 "Ein detailliertes Werk der Gelehrsamkeit, das Buddhas Lehren analysiert. Teil des Pali-Kanons."
-
-
-
-
+ 
+ 
+ 
+ 
  # Brooches
-
+ 
  brooch_decoration_centerpiece_and_adornment:0 "Sie besteht aus [SCOPE.Custom('BroochDecorationCenterpiece')], [SCOPE.Custom('BroochDecorationAdornment')]"
  brooch_decoration_centerpiece:0 "Sie besteht aus [SCOPE.Custom('BroochDecorationCenterpiece')] auf einem [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('fastener_metal'))]-Verschluss"
  brooch_decoration_adornment:0 "Sie besteht aus einem [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('fastener_metal'))]-Verschluss, [SCOPE.Custom('BroochDecorationAdornment')]"
@@ -717,7 +717,7 @@
  brooch_adornment_filigree_secondary:0 "das mit filigranen Verzierungen aus [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('adornment_filigree_metal'))] versehen ist"
  brooch_adornment_gems:0 "das mit [ROOT.Char.Custom2_Flag('ArtifactGemType_Plural', SCOPE.GetFlagName('adornment_gem'))] verziert ist"
  brooch_adornment_runes:0 "das in einen aus [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('adornment_runed_ring_metal'))] geprägten und mit Runen versehenen Ring eingefasst ist"
-
+ 
  tiny_sculpture_trinket_name:0 "Miniatur"
  tiny_sculpture_trinket_description:1 "Eine winzige Skulptur von [statue_owner.GetTitledFirstNameNoTooltip]. Taschengroß und bereit zum Herrschen. Geschaffen von [inspiration_owner.GetTitledFirstNameNoTooltip]."
  tiny_box_trinket_name:0 "Miniaturschatulle"
@@ -728,19 +728,19 @@
  tiny_cabinet_trinket_description:0 "Ein Schrank, der so klein ist, dass man ihn wohl in einem anderen Schrank verwahren sollte, damit niemand auf ihn tritt. Geschaffen von [inspiration_owner.GetTitledFirstNameNoTooltip]."
  tiny_throne_trinket_name:0 "Miniaturthron"
  tiny_throne_trinket_description:0 "Ein Thron, auf dem eine Maus oder ein anderes Nagetier herrschen könnte. Geschaffen von [inspiration_owner.GetTitledFirstNameNoTooltip]."
-
-
+ 
+ 
 #fund_inspiration.6301 same sex love poems
  prince_archivist_love_poem_name:0 "Ich der Mond, du die Sonne"
  prince_archivist_love_poem_description:0 "Eine Ballade von zwei verliebten Männern: einem Fürsten und einem Archivar, die zusammen an der Spitze eines Turms fern von neugierigen Blicken zu den Sternen hinaufblicken. Gerüchteweise soll der Archivar an die Erinnerungen des Autors [inspiration_owner.GetTitledFirstNameNoTooltip] angelehnt sein."
  witch_queen_love_poem_name:0 "Ein entzaubertes Herz"
  witch_queen_love_poem_description:0 "Ein Gedicht über zwei verliebte Frauen: eine Hexe und eine Königin, die sich zu einer Hütte mitten im Wald verlaufen haben. Beide genießen diesen Augenblick fernab der Gesellschaft. Man munkelt, die Hexe sei eine Selbstkarikatur der Verfasserin [inspiration_owner.GetTitledFirstNameNoTooltip]."
-
+ 
  #Books
  book_artifact_title_desc:0 "Das in Leder gebundene Buch beschreibt all die Opfer und die mühsame Arbeit, die von seinem Verfasser in ein ganz besonderes Feld investiert wurden ([SCOPE.Custom('ArtifactBookSubject')]."
  book_artifact_no_topic_desc:0 "Das in Leder gebundene Buch geht sehr ausführlich auf [SCOPE.Custom('ArtifactBookSubject_DE_ART_DEF_S_N')][SCOPE.Custom('ArtifactBookSubject')] ein und enthält detaillierte Abbildungen und dekorative Vermerke."
  book_artifact_other_desc:0 "Das in Leder gebundene Buch vermittelt ein [SCOPE.Custom('ArtifactArticleBookContentQuality')|l]es Verständnis für [SCOPE.Custom('ArtifactBookSubject_DE_ART_DEF_S_N')][SCOPE.Custom('ArtifactBookSubject')], da es auch [SCOPE.Custom('ArtifactBookTopic')] behandelt."
-
+ 
  book_artifact_martial:0 "Kriegskunst"
  book_artifact_diplomacy:0 "Diplomatie"
  book_artifact_learning:0 "wissenschaftliche Themen"
@@ -762,20 +762,20 @@
  book_artifact_unification:0 "Vereinigung"
  book_artifact_creation:0 "Erschaffung"
  book_artifact_restoration:0 "Wiederherstellung"
-
+ 
  book_artifact_topic_herbs_the_art_of_lovemaking:0 "die Kunst der körperlichen Liebe"
  book_artifact_topic_medicine:0 "die Anwendung verschiedener Tränke und Salben"
  book_artifact_topic_herbs:0 "die vielfältigen Verwendungsmöglichkeiten für eine Handvoll seltener Kräuter und Pflanzen"
  book_artifact_topic_witch:0 "Tränke, Salben, Kräuter und alternative Methoden der Anbetung"
-
+ 
  book_content_quality_excellent:0 "hervorragend"
  book_content_quality_deep:0 "tief"
  book_content_quality_good:0 "gut"
  book_content_quality_modest:0 "moderat"
  create_artifact_book_tooltip:0 "[inspiration_owner.GetShortUIName] erschuf ein [SCOPE.Custom('ArtifactArticleWealth')|l]es Buch in [SCOPE.Custom('ArtifactQuality')|l]er Machart"
-
+ 
  create_artifact_artisan_tooltip:0 "[inspiration_owner.GetShortUIName] erschuf Folgendes: [inspiration_owner.Custom('InspirationArtisanType')] von [SCOPE.Custom('ArtifactQuality')]er Machart"
-
+ 
  create_artifact_smith_tooltip:0 "[inspiration_owner.GetShortUIName] erschuf Folgendes: [inspiration_owner.Custom('InspirationSmithType')] von [SCOPE.Custom('ArtifactQuality')]er Machart"
  feature_blade_wrought_iron:0 "Schmiedeeisen"
  feature_blade_folded_iron:0 "Falteisen"
@@ -783,31 +783,31 @@
  feature_blade_wootz_steel:0 "YiTischer Stahl"
  feature_blade_bulat_steel:0 "Qohorikischer Stahl"
  feature_blade_damascus_steel:0 "Valyrischer Stahl"
-
+ 
  ## Character Modifiers made to artifacts ##
-
+ 
  # From court_ongoing_1021
  artifact_necklace:1 "Schmuckstück"
  artifact_necklace_name:1 "[newly_created_artifact.GetFeatureText('decoration_material_gem')|U]-Halskette aus [newly_created_artifact.GetFeatureText('decoration_material_wire')]"
  artifact_necklace_description:1 "Eine [SCOPE.Custom('ArtifactArticleWealth')|l]e und doch filigrane Halskette von [SCOPE.Custom('ArtifactQuality')|l]er Qualität. Die Halskette wurde aus [newly_created_artifact.GetFeatureText('decoration_material_wire')] gefertigt und hat einen herrlichen Anhänger aus [newly_created_artifact.GetFeatureText('decoration_material_gem')]."
  artifact_pressed_flower_name:1 "Gepresste [SCOPE.Custom('ArtifactFlowerSpecies')]"
- artifact_pressed_flower_description:0 "Diese wunderschöne Blume ([SCOPE.Custom('ArtifactFlowerSpecies')]) wurde gepresst und getrocknet, um ihre Schönheit zu bewahren."
-
+ artifact_pressed_flower_description:1 "Eine wunderschöne Blume ([SCOPE.Custom('ArtifactFlowerSpecies')]), die gepresst und getrocknet wurde, um ihre Schönheit zu bewahren."
+ 
  # From stewardship_wealth.1061
  stewardship_old_ledger_name:0 "Altes Hauptbuch"
  stewardship_old_ledger_description:0 "Ein staubiges altes Hauptbuch voller Gekritzel und Notizen zur Buchführung. Es ist nicht wirklich nützlich, außer um zu erfahren, wie ein Hauptbuch aussieht."
  feature_book_title_stewardship_old_ledger:0 "$stewardship_old_ledger_name$"
  feature_book_topic_stewardship_old_ledger:0 "$stewardship_old_ledger_description$"
-
+ 
  # From lover.3219
  lover_keepsake_hair_name:0 "Locke von [original_lover.GetFirstNameNoTooltip]"
- lover_keepsake_hair_description:1 "Ein Andenken von [original_lover.GetTitledFirstName] für [original_lover.GetOwner.Custom('DE_PRO_POS_S_3P')]e ferne Liebschaft [lover.GetTitledFirstName], damit [lover.Custom('DE_PRO_PER_S_3P_N')] immer einen Teil von [original_lover.Custom('DE_PRO_PER_S_3P_D')] bei sich tragen kann."
+ lover_keepsake_hair_description:1 "Ein Andenken von [original_lover.GetTitledFirstName] für [original_lover.Custom('DE_PRO_POS_S_3P')]e ferne Liebschaft [lover.GetTitledFirstName], damit [lover.Custom('DE_PRO_PER_S_3P_N')] immer einen Teil von [original_lover.Custom('DE_PRO_PER_S_3P_D')] bei sich tragen kann."
  lover_keepsake_clothes_male_name:0 "Bruoch von [original_lover.GetFirstNameNoTooltip]"
  lover_keepsake_clothes_female_name:0 "Hemdgewand von [original_lover.GetFirstNameNoTooltip]"
- lover_keepsake_clothes_description:1 "Ein intimes Kleidungsstück von [original_lover.GetTitledFirstName], das [original_lover.Custom('DE_PRO_PER_S_3P_N')] [original_lover.GetOwner.Custom('DE_PRO_POS_S_3P')]er fernen Liebschaft [lover.GetTitledFirstName] übersandte, um das Feuer ihrer Begegnungen im Schlafgemach lebendig zu halten."
+ lover_keepsake_clothes_description:1 "Ein intimes Kleidungsstück von [original_lover.GetTitledFirstName], das [original_lover.Custom('DE_PRO_PER_S_3P_N')] [original_lover.Custom('DE_PRO_POS_S_3P')]er fernen Liebschaft [lover.GetTitledFirstName] übersandte, um das Feuer ihrer Begegnungen im Schlafgemach lebendig zu halten."
  lover_keepsake_shell_name:0 "Muschel von [target.GetFirstNameNoTooltip] "
- lover_keepsake_shell_description:1 "Ein Andenken, das von [original_lover.GetTitledFirstName] an [original_lover.GetOwner.Custom('DE_PRO_POS_S_3P')]e ferne Liebschaft [lover.GetTitledFirstName] geschickt wurde. Es soll [lover.Custom('DE_PRO_PER_S_3P_A')] an ihre erste Liebesnacht erinnern."
-
+ lover_keepsake_shell_description:1 "Ein Andenken, das von [original_lover.GetTitledFirstName] an [original_lover.Custom('DE_PRO_POS_S_3P')]e ferne Liebschaft [lover.GetTitledFirstName] geschickt wurde. Es soll [lover.Custom('DE_PRO_PER_S_3P_A')] an ihre erste Liebesnacht erinnern."
+ 
 ## christian_saint_bone pilgrim reward
  christian_saint_bone_name:0 "[saint_bone_owner.Custom('RandomSaintBone')] von [saint_bone_owner.Custom('RandomSaintName')]"
  christian_saint_bone_description:0 "Die angeblichen Überreste eines [saint_bone_owner.GetFaith.GetReligion.GetAdjectiveNoTooltip|l]en Vorfahren, beschafft von [saint_bone_owner.GetNameNoTooltip] während [saint_bone_owner.GetOwner.Custom('DE_PRO_POS_S_3P')]er auf dem Weg nach [destination_title.GetNameNoTierNoTooltip]. [saint_bone_owner.GetFaith.GetAdherentNamePluralNoTooltip|U] verehren die Reliquie als Glücksbringer und Zeichen der Frömmigkeit."
@@ -828,7 +828,7 @@
  bone_type_humerus:0 "Oberarmknochen"
  bone_type_tibia:0 "Unterschenkel"
  bone_type_ankle:0 "Knöchel"
-
+ 
  # yearly.4081
  translated_arabic_book_de_materia_medica_name:0 "#italic De materia medica#!"
  translated_arabic_book_de_materia_medica_desc:0 "Eine illustrierte Ausgabe von Dioskurides’ fünfbändigem Arzneibuch über die medizinische Verwendung verschiedener Pflanzen, verfasst im antiken Alexandria und $translated_arabic_book_shared_desc$"
@@ -846,19 +846,19 @@
  
  # hold_court.4300
  dress_me_artifact_desc:0 "Ein exquisites Gewand, das die besten Schneider angefertigt haben, bestellt von [ROOT.Char.GetTitledFirstNameNoTooltipRegnal], um [ROOT.Char.Custom('DE_PRO_POS_S_3P')]en Hof mit dessen Pracht zu beeindrucken."
-
+ 
  # martial_authority.4000-5
  improvised_halberd_desc:0 "Diese behelfsmäßige Hellebarde wird von einer Hippe gekrönt, sodass es im schlimmsten Fall sehr praktisch sein kann, sie dabeizuhaben."
  improvised_dagger_desc:0 "Dieser zusammengebastelte Dolch entstand durch den Umbau eines Werkzeugs aus der Landwirtschaft. Er ist immer noch praktisch und scharf."
  improvised_billhook_desc:0 "Diese einhändige Hippe wird zum Schneiden von Ästen aus Sträuchern verwendet. Auch wenn ihr Äußeres sich kaum für einen König ziemt, ist die gebogene Klinge erstaunlich gut dazu geeignet, Schwachstellen in Rüstungen zu finden."
-
+ 
  # yearly_event.7010-50
  football_cup_desc:0 "Dieser Pokal wurde in Auftrag gegeben, um den Sieg bei einem Fußballspiel zu feiern."
  participation_trophy_desc:0 "Dieser Pokal wurde in Auftrag gegeben, um den „Sieg“ bei einem Fußballspiel zu feiern."
-
+ 
  #bp1_yearly.7200
  perfume_bottle_description:0 "[ROOT.Char.GetFirstNameNoTooltip] sammelte die Zutaten für diesen Duft."
-
+ 
  #Artifact Titles
  artifact_title_valor:0 "des Heldenmuts"
  artifact_title_virtue:0 "der Tugend"
@@ -1075,13 +1075,13 @@
  easteregg_artifact_chad_dagger_description:0 "Sein Glanz ist ob der Flecken aus getrockenetem Blut abgestumpft, doch er dürstet dennoch für mehr."
  easteregg_artifact_veronica_book:0 "Die Ringe des Herrn"
  easteregg_artifact_veronica_book_description:0 "Eine nur notdürftig verschleierte Referenz in Buchform. Geschrieben in einer Sprache, die jenseits des Meeres längst verloren gegangen ist." #AGOT Changed
-
+ 
  easteregg_artifact_jason_sword:0 "Das Schwert der Maus"
  easteregg_artifact_jason_sword_description:0 "Entlang der Blutrille der Klinge hat jemand unsauber die Buchstaben „IAMTHATIS“."
-
+ 
  child_toy_template_tt:0 "Muss ein [child|E] sein, um Ausrüstung als [inventory_artifact|E] verwenden zu können."
-
+ 
  # Blessed Junk
  fp2_blessed_junk:0 "[ROOT.Char.Custom('TrinketLookAdjective')|U]e Figurine ($blessed_artifact_modifier$)"
  fp2_blessed_junk_desc:0 "Ein [ROOT.Char.Custom('TrinketLookAdverbFollowup')] [ROOT.Char.Custom('TrinketLookAdjective')|l]es, aber ansonsten nutzloses Artefakt. $blessed_artifact_modifier_desc$."
-
+ 
