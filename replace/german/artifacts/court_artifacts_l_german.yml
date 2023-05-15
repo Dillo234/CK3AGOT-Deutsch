@@ -167,13 +167,23 @@
  feature_animal_hide_type_dragon:0 "eines Drachen"
  feature_animal_hide_type_lynx:0 "eines Luchses"
  
- artifact_small_hide_name:2 "Fell eines [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] aus [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]"  #Selbst geschrieben/abgetippt
- artifact_small_hide_description:2 "Die gegerbte Tierhaut eines [newly_created_artifact.GetFeatureText( 'animal_hide_type' )], [newly_created_artifact.Custom('ArtifactSmallHideAcquisitionMethod')]. Die Tierhaut ist [SCOPE.Custom('ArtifactQuality')]"  #Selbst geschrieben/abgetippt
- artifact_small_hide_acquisition_pet:3 "bewahrt von [ROOT.Artifact.GetOwner.GetTitleFirstNameNoTooltip], um einen geschätzten Freund und Gefährten zu ehren"
- artifact_small_hide_acquisition_hunt:0 "erjagt in [ROOT.Artifact.GetOwner.MakeScope.Var('adventure_artifact_location').Title.Custom('TerrainTypeCountyScope')] von [ROOT.Artifact.GetOwner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTier]"  #Selbst geschrieben/abgetippt
- create_artifact_small_hide_tooltip:2 "[inspiration_owner.GetShortUIName] jagte und gerbte die Tierhaut mit einem [SCOPE.Custom('ArtifactQuality')]en Ergebnis"  #Selbst geschrieben/abgetippt
+ artifact_small_hide_name:2 "Fell [newly_created_artifact.Custom('ArtifactAnimalType')] aus [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]. Das Tier soll besonders [newly_created_artifact.Custom('ArtifactAnimalAdjective')] gewesen sein."
+ artifact_small_hide_description:2 "Das gegerbte Fell [newly_created_artifact.GetFeatureText('animal_hide_type')], [SCOPE.Custom('ArtifactSmallHideAcquisitionMethod')]. Das Fell ist von [SCOPE.Custom('ArtifactQuality')]er Güte."
+ artifact_small_hide_acquisition_pet:1 "bewahrt um einen lieben Freund und Gefährten von [ROOT.Artifact.GetOwner.GetTitleAsNameNoTooltip] auch nach dem Tode um sich zu haben"
+ artifact_small_hide_acquisition_hunt:0 "erjagt in [ROOT.Artifact.GetOwner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTier]"
+ create_artifact_small_hide_tooltip:2 "[inspiration_owner.GetShortUIName] jagte und gerbte das Fell mit einem [SCOPE.Custom('ArtifactQuality')]en Ergebnis"
+
+ artifact_animal_hide_medium_name:3 "Fell [newly_created_artifact.Custom('ArtifactAnimalType')] aus [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]. Das Tier soll besonders [newly_created_artifact.Custom('ArtifactAnimalAdjective')] gewesen sein."
+ artifact_animal_hide_medium_description:2 "Das gegerbte Fell [newly_created_artifact.GetFeatureText('animal_hide_type')], erjagt in [location.GetName]. Das Fell ist von [SCOPE.Custom('ArtifactQuality')]er Güte."
+ create_artifact_medium_hide_tooltip:1 "[inspiration_owner.GetShortUIName] jagte und gerbte das Fell mit einem [SCOPE.Custom('ArtifactQuality')]en Ergebnis"
+
+ artifact_animal_hide_big_name:3 "Fell [newly_created_artifact.Custom('ArtifactAnimalType')] aus [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]. Das Tier soll besonders [newly_created_artifact.Custom('ArtifactAnimalAdjective')] gewesen sein."
+ artifact_animal_hide_big_description:2 "Das gegerbte Fell [newly_created_artifact.GetFeatureText('animal_hide_type')], erjagt in [location.GetName]. Das Fell ist von gewaltiger Größe und [SCOPE.Custom('ArtifactQuality')]er Güte."
+ create_artifact_big_hide_tooltip:2 "[inspiration_owner.GetShortUIName] jagte und gerbte das gewaltige Fell [SCOPE.Custom('ArtifactSmallHideType')] mit einem [SCOPE.Custom('ArtifactQuality')]en Ergebnis"
  
- artifact_animal_hide_medium_name:3 "Hide of the [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] of [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]"
+
+ 
+ artifact_animal_hide_medium_name:3 "Das Fell eines [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] aus [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]"
  artifact_animal_hide_medium_description:2 "The tanned hide of [newly_created_artifact.GetFeatureText( 'animal_hide_type' )], hunted in the [location.GetName]. The hide is of [SCOPE.Custom('ArtifactQuality')] quality."
  create_artifact_medium_hide_tooltip:1 "[inspiration_owner.GetShortUIName] hunted and tanned the hide with [SCOPE.Custom('ArtifactQuality')] result"
  
