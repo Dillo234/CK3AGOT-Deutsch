@@ -1,6 +1,6 @@
 ﻿l_german:
  # Übersetzung von Lys
-WAR_ORDER_NUMBER:0 "$NUM|O$"
+ WAR_ORDER_NUMBER:0 "$NUM|O$"
  WAR_SCORE_BATTLES_GAIN:0 "Gewonnene [battles|E]: $VALUE|=+0%/$"
  WAR_SCORE_OCCUPATION_GAIN:0 "#S Besetzte Grafschaften: $VALUE|=+0%/$ (Max.: $CAP|=+0%/$)#!"
  WAR_SCORE_CAPITAL_GAIN:0 "Besetzter feindlicher Hauptsitz: $VALUE|=+0%/$"
@@ -66,7 +66,7 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  peasant_war_victory_desc:0 "Alle aufständischen [counties|E] verlieren [SCOPE.ScriptValue('peasant_war_victory_county_control_loss')|N0] [control|E]."
  peasant_war_white_peace_desc:0 "Die [peasant_faction|E] wird aufgelöst."
  peasant_war_defeat_desc:0 "Die [peasant_faction|E] wird aufgelöst und [attacker.GetShortUIName|U] eingekerkert. In allen aufständischen [counties|E] wird zwangsweise die [county_opinion|E] erhöht."
-
+ 
  POPULIST_WAR_NAME:0 "[ATTACKER.GetFaith.GetAdjectiveNoTooltip]er [ATTACKER.GetCulture.GetCollectiveNounNoTooltip]-Aufstand"
  CLAIMANT_WAR_NAME:2 "Krieg um den Anspruch von [CLAIMANT.GetTitledFirstName] auf [TITLE.GetBaseName]"
  depose_war:0 "Absetzen"
@@ -80,7 +80,7 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  claim_cb_defeat_desc_attacker_claimant:1 "[defender.GetShortUIName|U] behält den umkämpften [title|E]. Ihr verliert Euren [claim|E],"
  claim_cb_defeat_desc_attacker:1 "[defender.GetShortUIName|U] behält den umkämpften [title|E]. [claimant.GetShortUIName|U] verliert [claimant.Custom('DE_PRO_POS_S_3P')]en [claim|E]."
  claim_cb_defeat_desc:1 "[defender.GetShortUIName|U] behält den umkämpften [title|E]. [attacker.GetShortUIName|U] verliert [attacker.Custom('DE_PRO_POS_S_3P')]en [claim|E]."
-
+ 
  CB_CLAIM_COST_TARGET_TITLES:0 "Beanspruchte Titel"
  CB_CLAIM_COST_GENDER_PREFERENCES:0 "Geschlechtsvorzug"
  CB_CLAIM_COST_CLAIMANT_DIFFERENT_DYNASTY:0 "Anspruchsteller aus einer anderen Dynastie"
@@ -115,7 +115,7 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  CB_ATTACKER_CULTURE:0 "[culture|E]"
  CB_STRUGGLE_PHASE_DISCOUNT:0 "[struggle_phase|E]"
  CB_STRUGGLE_PHASE_SURCHARGE:0 "[struggle_phase|E]"
-
+ 
  independence_faction_war:0 "Unabhängigkeitsfraktion"
  independence_war_victory_desc_local_player_attacker_alone:0 "[attacker.GetShortUIName|U] wird unabhängig von [defender.GetShortUIName]."
  independence_war_victory_desc_local_player_defender_attacker_alone:0 "[attacker.GetShortUIName|U] wird unabhängig von [defender.GetShortUIName]."
@@ -130,9 +130,9 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  independence_war_white_peace_attacker_desc:0 "Ihr und all die anderen Aufständischen bleiben Vasallen von [defender.GetShortUIName]"
  independence_war_white_peace_desc:0 "Alle Aufständischen bleiben Vasallen von [defender.GetShortUIName]"
  independence_war_white_peace_end_desc:1 "Die [independence_faction|E] wird aufgelöst und alle Mitglieder können sich [SCOPE.ScriptValue('faction_war_white_peace_cooldown')|0] Jahre lang keiner Fraktion anschließen."
- player_independence_defeat_defender_desc:0 "Ihr [Concept('imprison', 'Kerkert')|E] [attacker.GetShortUIName|U] ein und erhaltet einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E]."
- player_independence_defeat_attacker_desc:0 "[defender.GetShortUIName|U] [Concept('imprison', 'Kerkert')|E] Euch ein und erhält einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E]."
- player_independence_war_defeat_desc:0 "[defender.GetShortUIName|U] [Concept('imprison', 'Kerkert')|E] [attacker.GetShortUIName|U] ein und erhält einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E]."
+ player_independence_defeat_defender_desc:0 "Ihr [Concept('imprison', 'kerkert')|E] [attacker.GetShortUIName|U] ein und erhaltet einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E]."
+ player_independence_defeat_attacker_desc:0 "[defender.GetShortUIName|U] [Concept('imprison', 'kerkert')|E] Euch ein und erhält einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E]."
+ player_independence_war_defeat_desc:0 "[defender.GetShortUIName|U] [Concept('imprison', 'kerkert')|E] [attacker.GetShortUIName|U] ein und erhält einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E]."
  independence_defeat_defender_desc:0 "[defender.GetShortUIName|U] kerkert alle aufständischen Vasallen ein und erhält einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E] gegen jeden von ihnen."
  independence_defeat_attacker_desc:0 "[defender.GetShortUIName|U] kerkert Euch und alle aufständischen Vasallen ein und erhält einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E] gegen alle Aufständischen."
  independence_defeat_end_desc:1 "Die [independence_faction|E] wird aufgelöst und alle Mitglieder können sich [SCOPE.ScriptValue('faction_war_defeat_cooldown')|0] Jahre lang keiner Fraktion anschließen."
@@ -165,7 +165,7 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  individual_county_de_jure_cb_defeat_desc_defender:0 "Ihr behaltet die umkämpfte [county|E]. [attacker.GetShortUIName|U] muss Reparationen zahlen."
  individual_county_de_jure_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] behält die umkämpfte [county|E]. Ihr müsst [defender.Custom('DE_PRO_PER_S_3P_D')] Reparationen zahlen."
  individual_county_de_jure_cb_defeat_desc:0 "[defender.GetShortUIName|U] behält die umkämpfte [county|E]. [attacker.GetShortUIName] muss [defender.Custom('DE_PRO_PER_S_3P_D')] Reparationen zahlen."
-
+ 
  minor_religious_war:0 "Kleiner [holy_war|E]"
  religious_war:1 "[holy_war|E]"
  major_religious_war:0 "Großer [holy_war|E]"
@@ -175,7 +175,7 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  EXCOMMUNICATION_WAR_NAME:0 "Exkommunikationskrieg gegen [DEFENDER.GetShortUINameNotMe]"
  GREAT_HOLY_WAR_WAR_NAME:0 "[ATTACKER.GetFaith.Custom('GHWName')] für [TITLE.GetName]"
  GREAT_HOLY_WAR_WAR_CB_NAME:0 "[ATTACKER.GetFaith.Custom('GHWName')] um [kingdom|E]"
-
+ 
  populist_war:0 "Aufstand"
  populist_war_victory_desc:0 "Aufständische [counties|E] werden ein unabhängiges Reich mit [attacker.GetShortUIName] als Herrscher."
  populist_war_white_peace_desc:1 "Aufständische [counties|E] und [vassals|E] bleiben Teil des Reichs."
@@ -193,9 +193,9 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  refused_liege_demand_war_victory_desc:0 "[defender.GetShortUIName|U] wird [deposed|E]."
  refused_liege_demand_war_white_peace_desc_defender:0 "Ihr habt einen Waffenstillstand mit [attacker.GetShortUIName] und erhaltet einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E] gegen [defender.Custom('DE_PRO_PER_S_3P_A')]."
  refused_liege_demand_war_white_peace_desc:0 "[attacker.GetShortUIName|U] und [defender.GetShortUIName] haben einen Waffenstillstand. [defender.GetShortUIName|U] erhält einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E] gegen [attacker.GetShortUIName]."
- refused_liege_demand_war_defeat_desc_defender:0 "Ihr [Concept('imprison', 'Sperrt')|E] [attacker.GetShortUIName] ein."
- refused_liege_demand_war_defeat_desc:0 "[defender.GetShortUIName|U] [Concept('imprisons', 'Sperrt')|E] [attacker.GetShortUIName] ein."
-
+ refused_liege_demand_war_defeat_desc_defender:0 "Ihr [Concept('imprison', 'sperrt')|E] [attacker.GetShortUIName] ein."
+ refused_liege_demand_war_defeat_desc:0 "[defender.GetShortUIName|U] [Concept('imprisons', 'sperrt')|E] [attacker.GetShortUIName] ein."
+ 
  imperial_reconquest_cb:0 "Kaiserliche Rückeroberung"
  IMPERIAL_RECONQUEST_NAME:0 "Alle kaiserlichen Provinzen erobern"
  IMPERIAL_RECONQUEST_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective]e Reichsrückeroberung"
@@ -203,7 +203,7 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  IMPERIAL_RECONQUEST_SPECIFIC_NAME:0 "Kaiserliche Provinz [TITLE.GetNameNoTier] wiederherstellen"
  IMPERIAL_RECONQUEST_WAR_SPECIFIC_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective]e Reichsrückeroberung"
  IMPERIAL_RECONQUEST_WAR_SPECIFIC_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective]-[DEFENDER.GetPrimaryTitle.GetName]"
-
+ 
  dismantle_holy_pretender_cb:0 "Anwärter zerschlagen"
  DISMANTLE_EMPIRE_NAME:0 "Alle [de_jure|E] verlagern"
  DISMANTLE_EMPIRE_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective]er Kaiserlicher Legitimitätskrieg"
@@ -214,11 +214,11 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  DISMANTLE_EMPIRE_WAR_SPECIFIC_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective]-[DEFENDER.GetPrimaryTitle.GetName]"
  dismantle_holy_pretender_cb_victory_desc:1 "Das $e_hre$ wird vernichtet. Alle [de_jure|E]-$e_hre_adj$-Vasallen-Titel werden stattdessen ein Teil des $e_roman_empire$s."
  dismantle_holy_pretender_cb_defeat_desc:1 "Das $e_hre$ bleibt bestehen. Das $e_roman_empire$ muss Reparationen zahlen."
-
+ 
  dismantle_byz_pretender_cb:0 "Anwärter zerschlagen"
  dismantle_byz_pretender_cb_victory_desc:1 "Das $e_byzantium$ wird vernichtet. Alle [de_jure|E]-$e_byzantium_adj$-Vasallen-Titel werden stattdessen ein Teil des $e_roman_empire$s."
  dismantle_byz_pretender_cb_defeat_desc:1 "Das $e_byzantium$ bleibt bestehen. Das $e_roman_empire$ muss Reparationen zahlen."
-
+ 
  all_vassals_of_defender:0 "Alle Vasallen von [defender.GetShortUIName]"
  
  vassalization_cb:0 "Vasallisierung"
@@ -232,11 +232,11 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  vassalization_cb_white_peace_desc_defender:0 "Ihr werdet unabhängig."
  vassalization_cb_white_peace_desc:0 "[defender.GetShortUIName|U] bleibt unabhängig."
  vassalization_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] bleibt unabhängig. Alle [factions|E] gegen Euch erhöhen ihre [discontent|E]."
-
+ 
  
  CONQUEST_CB_TITLE:3 "Ihr werdet sämtliche Territorien innerhalb des [Concept('realm', 'Reichs')|E] von [defender.GetShortUIName] erobern, die Teil von [THIS.GetLandedTitle.GetBaseName] sind"
- duchy_conquest_cb:0 "Herzogtumseroberung"
- county_conquest_cb:0 "Grafschaftseroberung"
+ duchy_conquest_cb:0 "Hochlordschaftseroberung"
+ county_conquest_cb:0 "Lordschaftseroberung"
  county_conquest_cb_victory_desc_attacker:2 "Ihr erhaltet die umkämpften [titles|E]."
  county_conquest_cb_victory_desc:1 "[attacker.GetShortUIName|U] erhält den umkämpften [title|E]."
  county_conquest_cb_white_peace_desc_defender:1 "Ihr behaltet den umkämpften [title|E]."
@@ -251,7 +251,7 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  ducal_conquest_cb_defeat_desc_defender:1 "Ihr behaltet die umkämpften [titles|E]."
  ducal_conquest_cb_defeat_desc_attacker:1 "[defender.GetShortUIName|U] behält den umkämpften Titel. Alle [factions|E] gegen Euch erhöhen ihre [discontent|E]."
  ducal_conquest_cb_defeat_desc:1 "[defender.GetShortUIName|U] behält die umkämpften [titles|E]."
-
+ 
  CONQUEST_COUNTY_CB_NAME:1 "[county|E] erobern"
  CONQUEST_DUCHY_CB_NAME:1 "[duchy|E] erobern"
  CONQUEST_CB_SPECIFIC_NAME:1 "Erobert [TITLE.GetBaseName]"
@@ -259,10 +259,10 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  CONQUEST_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective]e Eroberung von [TITLE.GetBaseName]"
  CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective]-[DEFENDER.GetPrimaryTitle.GetName]"
  
- ducal_conquest_cb:0 "Herzogseroberung"
+ ducal_conquest_cb:0 "Hochlordschaftliche Eroberung"
  DUCAL_CONQUEST_CB_NAME:1 "[ducal_conquest|E] von [county|E]"
- DUCAL_CONQUEST_CB_SPECIFIC_NAME:1 "Herzogseroberung von [TITLE.GetBaseName]"
- DUCAL_CONQUEST_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip]e Herzogliche Eroberung von [TITLE.GetBaseNameNoTooltip]"
+ DUCAL_CONQUEST_CB_SPECIFIC_NAME:1 "Hochlordseroberung von [TITLE.GetBaseName]"
+ DUCAL_CONQUEST_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip]e Hochlordschaftliche Eroberung von [TITLE.GetBaseNameNoTooltip]"
  DUCAL_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective]-[DEFENDER.GetPrimaryTitle.GetName]"
  
  tribal_subjugation_cb:0 "Unterwerfung"
@@ -272,11 +272,11 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  SUBJUGATION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective]-[DEFENDER.GetPrimaryTitle.GetName]"
  tribal_subjugation_cb_victory_desc_equal_tier_attacker:0 "Ihr nehmt [defender.GetShortUIName] den [primary_title|E] und macht [defender.Custom('DE_PRO_PER_S_3P_A')] zu Eurem [Concept('vassal', 'Vasallen')|E]."
  tribal_subjugation_cb_victory_desc_equal_tier_defender:0 "[attacker.GetShortUIName|U] nimmt Euch den [primary_title|E] und macht Euch zu einem [Concept('vassal', 'Vasallen')|E]."
- tribal_subjugation_cb_victory_desc_equal_tier:0 "[attacker.GetShortUIName|U] nimmt [defender.GetShortUIName] den [primary_title|E] und macht [defender.Custom('DE_PRO_PER_S_3P_A')] zu einem [Concept('vasall', 'Vasallen')|E]."
+ tribal_subjugation_cb_victory_desc_equal_tier:0 "[attacker.GetShortUIName|U] nimmt [defender.GetShortUIName] den [primary_title|E] und macht [defender.Custom('DE_PRO_PER_S_3P_A')] zu einem [Concept('vassal', 'Vasallen')|E]."  #Selbst geschrieben/abgetippt
  tribal_subjugation_cb_white_peace_desc_defender:0 "Ihr behaltet all Eure [titles|E] und bleibt unabhängig."
  tribal_subjugation_cb_white_peace_desc:0 "[defender.GetShortUIName|U] behält alle Titel und bleibt unabhängig."
  tribal_subjugation_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] bleibt unabhängig. Alle [factions|E] gegen Euch erhöhen ihre [discontent|E]."
-
+ 
  ireland_laudabiliter_conquest_cb:0 "Laudabiliter-Eroberung"
  LAUDABILITER_CONQUEST_CB_NAME:1 "[county|E] per Laudabiliter erobern"
  LAUDABILITER_CONQUEST_CB_SPECIFIC_NAME:1 "Erobert [TITLE.GetBaseName]"
@@ -290,7 +290,7 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  ireland_laudabiliter_conquest_cb_defeat_desc_defender:0 "Ihr behaltet alle umkämpften Titel."
  ireland_laudabiliter_conquest_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] behält alle umkämpften Titel. Alle [factions|E] gegen Euch erhöhen ihre [discontent|E]."
  ireland_laudabiliter_conquest_cb_defeat_desc:0 "[defender.GetShortUIName|U] behält alle umkämpften Titel."
-
+ 
  invasion_war:0 "Invasion"
  clan_invasion_war:0 "Claninvasion"
  INVASION_CB_NAME:1 "In [kingdom|E] einfallen"
@@ -325,7 +325,7 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  launch_hungarian_migration_scripted_effect.tt.territory_outside_pannonia.non_mogyer_vassals:0 "Nicht-magyarische [vassals|E], die nicht aus dem $k_hungary$ stammen, werden [independent|E]"
  launch_hungarian_migration_scripted_effect.tt.territory_outside_pannonia.mogyer_vassals:0 "Magyarische [vassals|E], die nicht aus dem $k_hungary$ stammen, erhalten [titles|E] aus den verbliebenen eroberten $game_concept_titles$n, die im $k_hungary$ liegen"
  launch_hungarian_migration_scripted_effect.tt.territory_outside_pannonia.former_territories:0 "Ländereien, über die magyarische [vassals|E] herrschen und die nicht im $k_hungary$ liegen, werden an örtliche Kriegsfürsten abgetreten"
-
+ 
  tribal_raid_cb:0 "Überfall"
  TRIBAL_RAID_CB_NAME:0 "[DEFENDER.GetPrimaryTitle.GetNameNoTier] überfallen"
  TRIBAL_RAID_CB_SPECIFIC_NAME:0 "[DEFENDER.GetPrimaryTitle.GetNameNoTier] überfallen"
@@ -339,13 +339,13 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  FLOWERY_WAR_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective]-[DEFENDER.GetPrimaryTitle.GetName]"
  flowery_war_cb_prisoners.tt_attacker:1 "Zwischen drei und fünf der [courtiers|E] von [defender.GetShortUIName] werden gefangen genommen, je nach [defender.Custom('DE_PRO_POS_S_3P')]em Rang."
  flowery_war_cb_prisoners.tt_defender:1 "Zwischen drei und fünf der [courtiers|E] von [attacker.GetShortUIName] werden gefangen genommen, je nach [attacker.Custom('DE_PRO_POS_S_3P')]em Rang."
-
+ 
  CASUS_BELLI_CLAIM_NO_CLAIMS_TO_PUSH:1 "Keine durchzusetzenden [claims|E]"
  CASUS_BELLI_CLAIM_NO_VALID_TITLE_TARGETS:0 "Keine gültigen Titel als Ziel"
-
+ 
  tst_generic_war_lost_message.t:1 "Ihr habt einen Krieg verloren"
  tst_generic_war_lost_message.tt:1 "[attacker.GetShortUINameNoTooltip] hat Euch in einem Krieg geschlagen ([current_war.GetName])."
-
+ 
  norman_conquest_cb:0 "Invasion"
  norman_conquest_cb_defeat_desc:0 "[defender.GetShortUIName|U] behält das Königreich von England. [attacker.GetShortUIName] verliert [attacker.Custom('DE_PRO_POS_S_3P')]en [claim|E] darauf."
  norman_conquest_cb_defeat_desc_defender:0 "Ihr behaltet das Königreich von England. [attacker.GetShortUIName|U] verliert [attacker.Custom('DE_PRO_POS_S_3P')]en [claim|E] darauf."
@@ -356,7 +356,7 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  norman_conquest_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] übernimmt das Königreich von England, alle von Euch gehaltenen Titel und alle Vasallen in Südengland."
  norman_conquest_cb_victory_desc_attacker:0 "Ihr übernehmt das Königreich von England und alle persönlich gehaltenen Titel in Südengland."
  norman_conquest_cb_victory_desc:0 "[attacker.GetShortUIName|U] übernimmt das Königreich von England und alle persönlich gehaltenen Titel in Südengland."
-
+ 
  norwegian_invasion_cb:0 "Invasion"
  norwegian_invasion_cb_defeat_desc:0 "[defender.GetShortUIName|U] behält das Königreich von England. [attacker.GetShortUIName] verliert [attacker.Custom('DE_PRO_POS_S_3P')]en [claim|E] darauf."
  norwegian_invasion_cb_defeat_desc_defender:0 "Ihr behaltet das Königreich von England. [attacker.GetShortUIName|U] verliert [attacker.Custom('DE_PRO_POS_S_3P')]en [claim|E] darauf."
@@ -368,7 +368,7 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  norwegian_invasion_cb_victory_desc_attacker:0 "Ihr übernehmt das Königreich von England und alle persönlich gehaltenen Titel in Nordengland."
  norwegian_invasion_cb_victory_desc:0 "[attacker.GetShortUIName|U] übernimmt das Königreich von England und alle persönlich gehaltenen Titel in Nordengland."
  norwegian_invasion_cb_victory_with_tostig_desc:0 "Wenn [tostig.GetShortUIName] am Hof von [attacker.GetShortUIName] ist, wird ihm der [northumberland.GetName], der [york.GetName] und der [lancaster.GetName] verliehen."
-
+ 
  sons_of_lothbrok_invasion_cb:0 "Invasion"
  sons_of_lothbrok_invasion_cb_victory_desc_attacker:0 "Ihr übernehmt alle von [defender.GetShortUIName] gehaltenen Titel im Zielkönigreich."
  sons_of_lothbrok_invasion_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] übernimmt alle Eure Titel im Zielkönigreich."
@@ -384,7 +384,7 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  religious_war_white_peace_desc:1 "Keine [titles|E] wechseln den Träger."
  religious_war_defeat_desc:2 "Keine [titles|E] wechseln den Träger."
  major_religious_war_warning_desc:1 "\n\n#X Ihr könnt nur einmal im Leben einen Invasions-[holy_war|E] gegen einen [title|E] mit dem Rang eines [Concept('kingdom', 'Königreichs')|E] erklären#!"
-
+ 
  excommunication_war_victory_desc_defender:0 "Ihr werdet [deposed|E]."
  excommunication_war_victory_desc:0 "[defender.GetShortUIName|U] wird [deposed|E]."
  excommunication_war_white_peace_desc:0 "[defender.GetShortUIName|U] behält [defender.Custom('DE_PRO_POS_S_3P')]e Titel."
@@ -392,36 +392,36 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  excommunication_war_defeat_desc_attacker:0 "[defender.GetShortUIName|U] behält [defender.Custom('DE_PRO_POS_S_3P')]e Titel. Ihr verliert [piety|E] und Meinung bei Eurem [head_of_faith|E]."
  excommunication_war_defeat_desc_defender:0 "Ihr behaltet Eure Titel und erhaltet [piety|E]."
  excommunication_war_defeat_desc:0 "[defender.GetShortUIName|U] behält [defender.Custom('DE_PRO_POS_S_3P')]e Titel und erhält [piety|E]."
-
+ 
  flowery_war_cb_victory_desc:0 "Charaktere und Gemeindebewohner des Reichs von [defender.GetShortUIName] werden von [attacker.GetShortUIName] geopfert."
  flowery_war_cb_white_peace_desc:0 "Es wird kein Opfer gebracht."
  flowery_war_cb_defeat_desc:0 "Es wird kein Opfer gebracht."
-
+ 
  directed_great_holy_war:0 "Großer Religionskrieg"
  undirected_great_holy_war:0 "Großer Religionskrieg"
  
  great_holy_war_directed_victory_desc:0 "Wer den größten Beitrag geleistet hat, erhält das Zielkönigreich. [titles|E] im Zielkönigreich werden an die Begünstigten vergeben."
  great_holy_war_victory_desc:0 "[titles|E] im Zielkönigreich werden an die Begünstigten vergeben. [gold|E] und [piety|E] werden unter den Teilnehmern verteilt."
  great_holy_war_defeat_desc:0 "Keine Titel wechseln den Träger. Die Verteidiger teilen die gewonnene [piety|E] unter sich auf."
-
+ 
  debug_war_victory_desc:0 "Angreifer übernimmt die Zieltitel."
  debug_war_white_peace_desc:0 "Verteidiger übernimmt die Zieltitel."
  
  hungarian_migration_cb:0 "$HUNGARIAN_INVASION_CB_NAME$"
-
+ 
  religious_war_victory_desc_doctrine_pluralism:0 "Innerhalb des Ziel-[Concept('title', 'Titels')|E] werden alle von Herrschern gehaltenen Titel zu Vasallen von [attacker.GetShortUIName]."
-
+ 
  enemy_gained_new_ally:1 "[this_character.GetShortUIName] hat neues Bündnis geschlossen"
  enemy_gained_new_ally_tt:1 "[other_character.GetShortUIName] könnte sich dem Krieg ([this_war.GetName]) als Gegner anschließen"
  PREVIOUS_VARANGIAN_ADVENTURES_COST:0 "Vorherige Abenteuer"
-
+ 
  debug_artifact_war_victory_desc:0 "Der Angreifer nimmt sich alle Artefakte, die dem Verteidiger gehören."
  debug_artifact_war_white_peace_desc:0 "Der Angreifer nimmt sich nichts."
  debug_artifact_war_defeat_desc:0 "$debug_artifact_war_white_peace_desc$"
  debug_artifact_war_invalidated_desc:0 "$DEBUG_ARTIFACT_WAR_NAME$ annulliert!"
  DEBUG_ARTIFACT_WAR_NAME:0 "#D (DEBUG)#! Debug für Artefaktkriege"
  DEBUG_ARTIFACT_WAR_NAME_FALLBACK:0 "$DEBUG_ARTIFACT_WAR_NAME$"
-
+ 
  artifact_war_victory_desc:0 "Ihr nehmt alle [artifacts|E] in Besitz, auf die Ihr einen Anspruch habt und die [defender.GetShortUIName|U] und [defender.Custom('DE_PRO_POS_S_3P')]en Vasallen gehören."
  artifact_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] nimmt alle [artifacts|E] in Besitz, auf die [attacker.Custom('DE_PRO_PER_S_3P_N')] einen Anspruch hat und die Euch oder Euren [vassals|E] gehören."
  artifact_war_white_peace_desc:0 "Keine [artifacts|E] wechseln den Besitzer."
@@ -434,9 +434,9 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  conquest_title_destroyed_tt:0 "@warning_icon!#X [de_jure_target.GetName] wird durch den Krieg zerstört werden.#!"
  conquest_title_usurp_tt:0 "@warning_icon!#X [de_jure_target.GetHolder.GetTitledFirstName], der derzeitige Träger, wird [de_jure_target.GetName] nach dem Krieg behalten.#!"
  conquest_title_create_tt:0 "@warning_icon!#X [de_jure_target.GetName] wird durch diesen Krieg nicht erschaffen werden.#!"
-
- reclaim_relic_artifact_war_victory_desc:0 "Ihr nehmt alle [attacker.GetFaith.GetReligion.GetAdjective|l]en [artifacts|E] in Besitz, die von [defender.GetShortUIName|U] und ihren nicht-[attacker.GetFaith.GetReligion.GetAdjective|l]en [vassals|e] gehalten werden."
- reclaim_relic_artifact_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] nimmt alle [attacker.GetFaith.GetReligion.GetAdjective]en [artifacts|E] in Besitz, die von Euch und Euren nicht-[attacker.GetFaith.GetReligion.GetAdjective|l]en [vassals|e] gehalten werden."
+ 
+ reclaim_relic_artifact_war_victory_desc:0 "Ihr nehmt alle [attacker.GetFaith.GetReligion.GetAdjective|l]en [artifacts|E] in Besitz, die von [defender.GetShortUIName|U] und ihren nicht-[attacker.GetFaith.GetReligion.GetAdjective|l]en [vassals|E] gehalten werden."
+ reclaim_relic_artifact_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] nimmt alle [attacker.GetFaith.GetReligion.GetAdjective|l]en [artifacts|E] in Besitz, die von Euch und Euren nicht-[attacker.GetFaith.GetReligion.GetAdjective|l]en [vassals|E] gehalten werden."  #Selbst geschrieben/abgetippt
  reclaim_relic_artifact_war_white_peace_desc:0 "$artifact_war_white_peace_desc$"
  reclaim_relic_artifact_war_defeat_desc:0 "$artifact_war_white_peace_desc$"
  reclaim_relic_artifact_war_invalidated_desc:0 "$reclaim_relic_artifact_war_NAME$ annulliert!"
@@ -458,9 +458,9 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  nation_fracturing_faction_war_white_peace_attacker_desc:1 "Ihr und alle anderen Aufständischen bleibt Vasallen von [defender.GetShortUIName]"
  nation_fracturing_faction_war_white_peace_desc:0 "Alle Aufständischen bleiben Vasallen von [defender.GetShortUIName]"
  nation_fracturing_faction_war_white_peace_end_desc:0 "Die [nation_fracturing_faction|E] wird aufgelöst und alle Mitglieder können sich [SCOPE.ScriptValue('faction_war_white_peace_cooldown')|0] Jahre lang keiner Fraktion anschließen."
- player_nation_fracturing_defeat_defender_desc:0 "Ihr [Concept('imprison', 'Kerkert')|E] [attacker.GetShortUIName|U] ein und erhaltet einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E]."
- player_nation_fracturing_defeat_attacker_desc:0 "[defender.GetShortUIName|U] [Concept('imprison', 'Kerkert')|E] Euch ein und erhält einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E]."
- player_nation_fracturing_faction_war_defeat_desc:0 "[defender.GetShortUIName|U] [Concept('imprison', 'Kerkert')|E] [attacker.GetShortUIName|U] ein und erhält einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E]."
+ player_nation_fracturing_defeat_defender_desc:0 "Ihr [Concept('imprison', 'kerkert')|E] [attacker.GetShortUIName|U] ein und erhaltet einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E]."
+ player_nation_fracturing_defeat_attacker_desc:0 "[defender.GetShortUIName|U] [Concept('imprison', 'kerkert')|E] Euch ein und erhält einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E]."
+ player_nation_fracturing_faction_war_defeat_desc:0 "[defender.GetShortUIName|U] [Concept('imprison', 'kerkert')|E] [attacker.GetShortUIName|U] ein und erhält einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E]."
  nation_fracturing_faction_war_defeat_defender_desc:0 "[defender.GetShortUIName|U] kerkert alle aufständischen Vasallen ein und erhält einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E] gegen jeden von ihnen."
  nation_fracturing_defeat_attacker_desc:0 "[defender.GetShortUIName|U] kerkert Euch und alle aufständischen Vasallen ein und erhält einen [Concept('revoke_title_reason', 'Titelaberkennungsgrund')|E] gegen alle Aufständischen."
  nation_fracturing_defeat_end_desc:0 "Die [nation_fracturing_faction|E] wird aufgelöst und alle Mitglieder können sich [SCOPE.ScriptValue('faction_war_defeat_cooldown')|0] Jahre lang keiner Fraktion anschließen."
@@ -470,8 +470,8 @@ WAR_ORDER_NUMBER:0 "$NUM|O$"
  STRUGGLE_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective]-[DEFENDER.GetPrimaryTitle.GetAdjective]"
  STRUGGLE_COUNTY_CB_NAME:1 "[struggle_conquest|E]"
  county_struggle_cb:0 "[struggle_conquest|E]"
- county_struggle_cb_victory_desc_opm_attacker:0 "Ihr [Concept(vassalize','Vassalisiert')|E] den umkämpften [title|E] und vernichtet so alle [titles|E] im Besitz des Halters, die einen gleichwertigen oder höheren [title_tier|E] als Eure haben."
- county_struggle_cb_victory_desc_opm:0 "Der [holder|E] des umkämpften [Concept(title','Titels')|E] wird von [attacker.GetShortUIName] [Concept(vassalize','Vasallisiert')|E]."
+ county_struggle_cb_victory_desc_opm_attacker:0 "Ihr [Concept('vassalize', 'Vassalisiert')|E] den umkämpften [title|E] und vernichtet so alle [titles|E] im Besitz des Halters, die einen gleichwertigen oder höheren [title_tier|E] als Eure haben."  #Selbst geschrieben/abgetippt
+ county_struggle_cb_victory_desc_opm:0 "Der [holder|E] des umkämpften [Concept('title','Titels')|E] wird von [attacker.GetShortUIName] [Concept('vassalize','Vasallisiert')|E]."
  county_struggle_cb_victory_desc_attacker:0 "$county_conquest_cb_victory_desc_attacker$"
  county_struggle_cb_victory_desc:0 "$county_conquest_cb_victory_desc$"
  county_struggle_cb_white_peace_desc_defender:0 "$county_conquest_cb_white_peace_desc_defender$"
