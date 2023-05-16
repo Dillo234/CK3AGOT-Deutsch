@@ -1,6 +1,6 @@
 ﻿l_german:
  building_type_castle_01:0 "Burgbesitztum"
- building_type_castle_01_desc:1 "Der aktuelle Stand des Besitzes, der von einem kleinen Bergfried bis zu einer riesigen Festung reicht".
+ building_type_castle_01_desc:1 "Der aktuelle Stand des Besitzes, der von einem kleinen Bergfried bis zu einer großen Burg reicht." .#Selbst geschrieben/abgetippt
  building_castle_01:1 "Kleiner Bergfried"
  building_castle_01_desc:1 "Ein kleiner Bergfried"
  building_castle_02:1 "Großer Bergfried"
@@ -13,7 +13,7 @@
  building_castle_05_desc:1 "Eine große Burg"
 
  building_type_temple_01:0 "Tempelbesitztum"
-building_type_temple_01_desc:1 "Eine Verehrungsstätte, über die der Klerus gebietet und an die eine Siedlung voller gläubiger Bauern angrenzt."
+ building_type_temple_01_desc:1 "Eine Verehrungsstätte, über die der Klerus gebietet und an die eine Siedlung voller gläubiger Bauern angrenzt."
  building_temple_01:1 "Schrein"
  building_temple_01_desc:0 "$building_type_temple_01_desc$"
  building_temple_02:1 "Tempelanlage"
@@ -25,7 +25,7 @@ building_type_temple_01_desc:1 "Eine Verehrungsstätte, über die der Klerus geb
 
  building_type_city_01:0 "Stadt"
  building_type_city_01_desc:1 "Eine bevölkerungsreiche Siedlung, die das Zuhause einer großen Zahl von Bürgern, Kaufleuten und hart arbeitenden Menschen ist."
- building_city_01:1 "Dorf"
+ building_city_01:1 "Kleines Dorf" #Selbst geschrieben/abgetippt
  building_city_01_desc:0 "Ein kleines Dorf"
  building_city_02:1 "Dorf"
  building_city_02_desc:1 "Ein Dorf"
@@ -40,14 +40,14 @@ building_type_temple_01_desc:1 "Eine Verehrungsstätte, über die der Klerus geb
  building_type_monastery_01_desc:1 "Ein Gebäudekomplex, in dem diejenigen untergebracht sind, die spirituelle Gelehrsamkeit und Erleuchtung ersuchen."
  building_monastery_01:1 "Religiöse Gemeinschaft"
  building_monastery_01_desc:0 ""
- building_monastery_02:1 "Kapelle"
+ building_monastery_02:1 "Einsiedelei" #Selbst geschrieben/abgetippt
  building_monastery_02_desc:1 ""
  building_monastery_03:1 "Konvent"
  building_monastery_03_desc:1 ""
  building_monastery_04:1 "Kloster"
  building_monastery_04_desc:1 ""
 
-building_type_common_tradeport_01:0 "Handelshafen"
+ building_type_common_tradeport_01:0 "Handelshafen"
  building_type_common_tradeport_01_desc:1 "Handelsschiffe ver- und entladen ihre Güter in diesem Hafen."
  building_common_tradeport_01:1 "Kleiner Hafen"
  building_common_tradeport_01_desc:1 "Ein bescheidener Hafen liegt an diesem Ufer, sodass Schiffe ohne allzu viel Mühe be- und entladen werden können."
@@ -81,9 +81,9 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_type_special_sicilian_parliament_01_desc:0 "$building_special_sicilian_parliament_01_desc$"
  building_special_sicilian_parliament_01:0 "Parlament"
  building_special_sicilian_parliament_01_desc:1 "Vertreter der drei Stände treffen sich regelmäßig in diesem Gebäude, um sich über die Angelegenheiten im Reich auszutauschen und um den derzeitigen Herrscher zu beraten."
- building_special_greenhouse_01:0 "Gewächshaus"
+ building_special_greenhouse_01:0 "Glashaus" #Selbst geschrieben/abgetippt
  building_special_greenhouse_01_desc:0 "Dieses Gebäude eignet sich offenbar ausgezeichnet für den Anbau von Gemüse."
- building_type_special_greenhouse_01:0 "Gewächshaus"
+ building_type_special_greenhouse_01:0 "Glashaus" #Selbst geschrieben/abgetippt
  building_type_special_greenhouse_01_desc:1 "Dieses Gebäude eignet sich offenbar ausgezeichnet für den Anbau von Gemüse."
  building_type_university_01:0 "Universität"
  building_type_university_01_desc:1 "Ein Ort der höheren Bildung für all jene, die ausreichend Einfluss und Gold besitzen, um Zugang zu ihm zu erlangen."
@@ -99,7 +99,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_university_05_desc:0 "$building_type_university_01_desc$"
  building_university_06:0 "Universität VI"
  building_university_06_desc:0 "$building_type_university_01_desc$"
- 
+
  building_type_pastures_01:2 "Grünendes Land"
  building_type_pastures_01_desc:1 "Ein beträchtlicher Anteil dieser Provinz wird für die Viehzucht und die Weidewirtschaft genutzt."
  building_pastures_01:0 "Weideland"
@@ -118,7 +118,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_pastures_07_desc:1 "Die großzügig angelegten Gehege machen das Halten von Pferden und ähnlichen Nutztieren einfach."
  building_pastures_08:1 "Viehhöfe"
  building_pastures_08_desc:1 "Viehhöfe sind ideal für die Unterbringung großer Viehherden, da sie ausreichend Weidemöglichkeiten und Bewegungsfreiraum bieten."
- 
+
  building_type_orchards_01:0 "Obstgärten"
  building_type_orchards_01_desc:1 "Dank der einzigartigen Eigenschaften des Mutterbodens bringen diese Obstgärten besonders süße und köstliche Früchte und Beeren hervor."
  building_orchards_01:1 "Fruchtgärten"
@@ -137,7 +137,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_orchards_07_desc:1 "So weit das Auge reicht, erstreckt sich Spalier um Spalier obsttragender Bäume."
  building_orchards_08:1 "Veredelte Bäume"
  building_orchards_08_desc:1 "Indem bestimmte Bäume per Pfropfen veredelt werden, wird die Ausbreitung langsam wachsender Obst- und Nusssorten stark beschleunigt."
- 
+
  building_type_farm_estates_01:1 "Herrenhäuser"
  building_type_farm_estates_01_desc:1 "Die hohen Herren und Damen der Herrensitze geben Hunderten von Bauern Arbeit, die ihre Felder bestellen und sich um ihr Vieh kümmern. Je mehr Macht sie besitzen, auf desto mehr Land können ihre Untertanen arbeiten und – der wichtigste Punkt – desto mehr Steuern bringen sie ein!"
  building_farm_estates_01:1 "Anwesen"
@@ -156,7 +156,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_farm_estates_07_desc:1 "Mehrere verschiedene Herrengüter, die wie eines geleitet werden: Indem wir es den tüchtigsten Familien erlauben, den weniger tüchtigen die Zügel aus der Hand zu nehmen, gewährleisten wir ausgezeichnete Ergebnisse."
  building_farm_estates_08:1 "Großgüter"
  building_farm_estates_08_desc:1 "Bei diesen gewaltigen Gütern von nur selten gesehenen Ausmaßen geht die Kopfstärke eines einzelnen Haushalts in die Tausende."
- 
+
  building_type_regimental_grounds_01:0 "Übungslager"
  building_type_regimental_grounds_01_desc:1 "Zu einem Übungslager gehören nicht nur mehrere Gebäude zur Unterbringung größerer Truppenaufgebote, sondern auch ein größeres Areal, auf dem diese in der Kriegsführung ertüchtigt werden."
  building_regimental_grounds_01:1 "Lagerrodungen"
@@ -175,7 +175,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_regimental_grounds_07_desc:1 "Die Offiziersstuben erfüllen höhere Ansprüche als die regulären Kasernen: Immerhin sollte jeder Soldat danach streben, Offizier zu werden."
  building_regimental_grounds_08:1 "Erweiterte Anlagen"
  building_regimental_grounds_08_desc:0 "$building_type_regimental_grounds_01_desc$"
- 
+
  building_type_curtain_walls_01:1 "Wälle & Türme"
  building_type_curtain_walls_01_desc:1 "Steinwälle und einschüchternde Bollwerke samt Türmen bieten einen ausgezeichneten Schutz sowohl vor Überfällen als auch vor Belagerungen. Je mehr Befestigungen gebaut werden, desto uneinnehmbarer wird die Burg, zu deren Schutz man sie errichtet."
  building_curtain_walls_01:1 "Bollwerke & Schutzmauern"
@@ -194,7 +194,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_curtain_walls_07_desc:1 "Die altitalienische Manier als Ausgangspunkt des Bastionärsystems ist eine Form von Verteidigungsbauwerk, das selbst dem unablässigen Beschuss von Kanonen standhalten kann. Nun, zwar nicht sehr lange, aber doch zumindest lange genug, um eine sichere Flucht durch die Geheimgänge zu ermöglichen …"
  building_curtain_walls_08:1 "Ravelins & Kavaliere"
  building_curtain_walls_08_desc:1 "Der Kavalier ist eine erhöhte Plattform, die es unseren Soldaten erlaubt, über den Hauptwall hinweg direkt auf den Feind zu feuern! Leider bedeutet dies zugleich, dass die Feinde umgekehrt genau wissen, wohin sie mit ihren Schüssen zu zielen haben … Truppen, die man auf den Ravelins positioniert, bei denen es sich um dreieckige Vorwerke zur Aufspaltung belagernder Gegner handelt, können jedoch ihr Bestes geben, um dies zu verhindern."
- 
+
  building_type_cereal_fields_01:1 "Höfe & Felder"
  building_type_cereal_fields_01_desc:1 "Höfe und Felder sind die Hauptstütze einer jeden Wirtschaft. Man kann die Bedeutung des einfachen Korns gar nicht genug betonen: Es treibt Mensch, Tier, Armee und Festmähler an."
  building_cereal_fields_01:1 "Getreideäcker"
@@ -213,7 +213,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_cereal_fields_07_desc:1 "Indem wir unsere dankbaren Bauernuntertanen dazu „anhalten“, mehr und größere Felder zu bestellen, die näher an ihren jeweiligen Äckern liegen, erzielen wir mit Sicherheit höhere Erträge. Dieses enge Zusammenrücken könnte natürlich auch zu Spannungen zwischen den Bauern führen: ein Opfer, das wir zu bringen bereit sind!"
  building_cereal_fields_08:1 "Kornspeicher"
  building_cereal_fields_08_desc:1 "Diese massiven Speicher sind darauf ausgerichtet, das ganze Jahr über Korn in gewaltigen Mengen einzulagern. Es gibt so viel davon, dass keine Armee sie je ganz leeren könnte. Vorausgesetzt natürlich, dass die Speicher nicht von Ratten befallen werden …"
- 
+
  building_type_barracks_01:0 "Kasernen"
  building_type_barracks_01_desc:1 "Kasernen sind robuste Gebäude, die einzig und allein dem Zweck dienen, örtliche Truppenaufgebote zu beherbergen und auf den Krieg vorzubereiten."
  building_barracks_01:1 "Holzkasernen"
@@ -232,7 +232,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_barracks_07_desc:1 "Indem wir eigens zu diesem Zweck gedachte Musterungsstellen in allen Dörfern in der Umgebung einrichten, sorgen wir dafür, dass unsere Reihen mit einem steten Zustrom von zwielichtigen, betrunkenen Unruhestiftern aufgefüllt werden."
  building_barracks_08:1 "Dauerhafte Kasernen"
  building_barracks_08_desc:1 "Auch wenn wir unsere Aufgebote oft sehr kurzfristig verlegen müssen, versorgt uns der Bau dauerhafter und gut gestalteter Kasernen mit einem Ort, an dem wir unsere besseren Soldaten und Offiziere unterbringen können. Falls denn mal zufällig welche vorbeischauen sollten."
- 
+
  building_type_camel_farms_01:1 "Kamelgestüte"
  building_type_camel_farms_01_desc:1 "Diese Höfe haben sich der Zucht von Kamelen verschrieben, die sowohl das Militär als auch die Bauern vor Ort in ihrer täglichen Arbeit nutzen können. Kamele sind anpassungsfähige und robuste Reittiere, die ideal für ein raues Wüstenklima sind."
  building_camel_farms_01:1 "Kamelzüchter"
@@ -251,7 +251,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_camel_farms_07_desc:1 "Rüstungen für Kamele herzustellen, ist keine leichte Aufgabe, doch dafür lohnt es umso mehr. Ein Ansturm von voll gerüsteten Kamelen kann jede Armee in die Flucht schlagen, die nur auf Pferde setzt."
  building_camel_farms_08:1 "Fortschrittliche Züchter"
  building_camel_farms_08_desc:1 "Wissenschaftler von überallher haben sich hier versammelt und versuchen, die zähesten und intelligentesten Arten von Kamelen zu züchten, die man sich vorstellen kann. Mit richtigen Amtsstuben und einer große Herde haben sie eindrucksvolle Tiere für die Schlacht erschaffen!"
- 
+
  building_type_logging_camps_01:1 "Forstwirtschaft"
  building_type_logging_camps_01_desc:1 "In diesen Wäldern werden große Mengen an Holz, Harz, Kohle und anderen Ressourcen gewonnen, und sie liefern so ausgezeichnetes Baumaterial für die umliegenden Siedlungen."
  building_logging_camps_01:1 "Holzfällerlager"
@@ -270,7 +270,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_logging_camps_07_desc:1 "Wälder sind ideale Orte für die Arbeit der Glasbläser. Sie haben hier leichten Zugriff auf die meisten Materialien, die sie brauchen, sodass hier wertvolles Glas hergestellt und gehandelt wird."
  building_logging_camps_08:1 "Sägemühlen"
  building_logging_camps_08_desc:1 "Auch wenn Äxte und einfache Sägen uns gut gedient haben, kann eine Sägemühle fast schon Übermenschliches vollbringen. Wälder werden in Windeseile klein gehauen, und das wertvolle Holz strömt in unsere Städte und Siedlungen."
- 
+
  building_type_peat_quarries_01:1 "Feuchtgebietshöfe"
  building_type_peat_quarries_01_desc:1 "Auch wenn Feuchtgebiete sich nie so gut für den Anbau von Feldfrüchten eignen wie Ebenen kann man doch durch die große Menge an Bewuchs Tiere halten. Auch Torf und Salz kann man hier meist gewinnen."
  building_peat_quarries_01:1 "Viehweiden"
@@ -289,7 +289,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_peat_quarries_07_desc:1 "Hier wird mehr und mehr Torf abgebaut, wobei der Großteil als Dünger exportiert wird."
  building_peat_quarries_08:1 "Großer Feuchtgebietsweidehof"
  building_peat_quarries_08_desc:1 "Große Viehherden schlagen sich an dem überbordenden Pflanzenwuchs der Feuchtgebiete die Bäuche voll, sodass sie dick und rund werden."
- 
+
  building_type_hill_farms_01:0 "Hügelhöfe"
  building_type_hill_farms_01_desc:1 "Die sanften Hügel dieser Provinz sind von Feldern überzogen. Auch wenn der Ackerbau am Hang bei der Wasserversorgung der Saat hilft, bedeutet der eingeschränkte Platz auch geringere Erträge."
  building_hill_farms_01:1 "Hangfelder"
@@ -308,7 +308,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_hill_farms_07_desc:1 "Während der kargen Monate des Jahres hat das Vieh nicht viel zu fressen. Dies wird durch die Winterspeicher behoben."
  building_hill_farms_08:1 "Apfelhaine"
  building_hill_farms_08_desc:1 "Die sanften Hügel sind die ideale Umgebung für Obstgärten, insbesondere jene, in denen Apfelbäume stehen."
- 
+
  building_type_hill_forts_01:0 "Hügelfestungen"
  building_type_hill_forts_01_desc:1 "Um diese massiven Befestigungsanlagen an einem steilen Hang oder einer Klippe zu überwinden, müsste eine Belagerungsarmee schon fliegen können!"
  building_hill_forts_01:1 "Kleine Hügelfestung"
@@ -327,7 +327,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_hill_forts_07_desc:1 "Die zentrale Festung wurde ausgebaut und deutlich verbessert: Sie erhebt sich jetzt äußerst beeindruckend hoch in den Himmel."
  building_hill_forts_08:1 "Komplizierte Erdwälle"
  building_hill_forts_08_desc:1 "Die Erdwälle um die Hügelfestung herum sind so kompliziert und verwirrend, dass feindliche Armeen kaum wissen, welchen Zugang sie erstürmen sollen. Dies werden wir natürlich zu unserem Vorteil zu nutzen wissen: insbesondere wenn die eine Hälfte der Zugänge zu tödlichen Fallen führt …"
- 
+
  building_type_plantations_01:1 "Wüstenackerbau"
  building_type_plantations_01_desc:1 "Diese Plantagen widmen sich dem Anbau von Obst und Gemüse, das robust genug ist, um dem rauen Klima zu widerstehen."
  building_plantations_01:1 "Kleine Plantagen"
@@ -346,7 +346,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_plantations_07_desc:1 "Indem wir Felder mit Wasser aus den Brunnen fluten, können sie mehr als nur reine Bedarfswirtschaft betreiben. Es wird allerdings eine große Herausforderung werden, die Wüste wieder erblühen zu lassen."
  building_plantations_08:1 "Große Plantagen"
  building_plantations_08_desc:1 "Diese Plantagen produzieren einen deutlichen Überschuss, den man handeln oder mit Profit verkaufen kann."
- 
+
  building_type_outposts_01:0 "Außenposten"
  building_type_outposts_01_desc:1 "In dieser Provinz sind alle bedeutenden Siedlungen von einer Reihe von Außenposten umringt, die einen bei Überfällen oder Angriffen durch Tiere rechtzeitig warnen."
  building_outposts_01:1 "Spähtürme"
@@ -365,7 +365,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_outposts_07_desc:1 "Um sicherzustellen, dass unsere Späher gut genährt sind und nur leichtes Gepäck haben, wurde eine Reihe von Spähstationen strategisch verteilt errichtet. Sie sind gut vor den neugierigen Blicken des Feindes verborgen und erlauben es uns während einer Invasion, genaue Informationen einzuholen."
  building_outposts_08:1 "Befestigte Außenposten"
  building_outposts_08_desc:1 "Eindrucksvolle Außenposten aus behauenem Stein erheben sich in den Himmel und machen klar, dass im Innern Soldaten und Karawanenwachen lauern."
- 
+
  building_type_watchtowers_01:0 "Wachtürme"
  building_type_watchtowers_01_desc:1 "Mehrere große Wachtürme ragen über die arbeitenden Bauern auf und bieten Bogenschützen ausgezeichnete Aussichtspunkte."
  building_watchtowers_01:1 "Lehmziegeltürme"
@@ -384,7 +384,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_watchtowers_07_desc:1 "Diese kleinen Turmhäuser sind eindrucksvoll befestigt und zeigen das Ansehen ihres Besitzers. Bei Überfällen kann man ganze Viehherden hineinbringen und durch die Türme schützen."
  building_watchtowers_08:1 "Kuppeltürme"
  building_watchtowers_08_desc:1 "Diese eindrucksvollen Türme bestehen ganz aus Stein und haben ein Kuppeldach. Die verwendeten Bautechniken machen sie nahezu unangreifbar für Räuber."
- 
+
  building_type_quarries_01:1 "Grubenarbeiten"
  building_type_quarries_01_desc:1 "Die Berge dieser Provinz versorgen die örtlichen Bauvorhaben mit einem ausgezeichneten Nachschub an Baumaterial."
  building_quarries_01:1 "Einfache Steinbrüche"
@@ -403,7 +403,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_quarries_07_desc:1 "Mit dem Einzug neuer Techniken können die Arbeiter aus immer größeren Tiefen Metall an die Oberfläche holen. Das Wichtigste dabei ist es, neue Wege zu finden, um die gefluteten Schächte leer zu pumpen."
  building_quarries_08:1 "Hochöfen"
  building_quarries_08_desc:1 "Hochöfen sind rund um die Uhr glühend heiß. Hier werden Eisen, Blei und Kupfer eingeschmolzen. Die Qualität des produzierten Metalls ist herausragend."
- 
+
  building_type_military_camps_01:0 "Armeelager"
  building_type_military_camps_01_desc:1 "Ein einfacher Übungsplatz, auf dem örtliche Bauern auf den Krieg vorbereitet werden."
  building_military_camps_01:1 "Lederzelte"
@@ -422,7 +422,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_military_camps_07_desc:1 "Jede Siedlung hat nun eine Milizkaserne, wo Waffen gelagert werden, bis man sie braucht. Die Kasernen fungieren auch als Sammelplätze für die Offiziere, die für die Musterung verantwortlich sind."
  building_military_camps_08:1 "Aufmarschplätze"
  building_military_camps_08_desc:1 "Die größeren Aufmarschplätze bieten nicht nur einen Platz, wo sich Truppen sammeln können, sondern hier können sie auch für kommende Schlachten üben."
- 
+
  building_type_ramparts_01:1 "Waldfesten"
  building_type_ramparts_01_desc:1 "Diese Befestigungen sind so angelegt, dass sie Teil des Waldes sind, den sie schützen sollen. Vorrückende Armeen werden nicht nur durch diese Anlagen behindert, sondern verstricken sich auch im Unterholz."
  building_ramparts_01:1 "Pfahlfestungen"
@@ -441,7 +441,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_ramparts_07_desc:1 "Wenn wir die Festungsmauern mit Zinnen versehen, haben wir bei Belagerungen einen klaren Vorteil, denn unsere Soldaten können sich verhältnismäßig sicher bewegen und gegen jeden Ansturm wehren."
  building_ramparts_08:1 "Waldfestungen"
  building_ramparts_08_desc:1 "Diese großen Steinfestungen ragen wie Berge aus dem Wald hervor und schützen weite Landstriche."
- 
+
  building_type_elephant_pens_01:1 "Elefantenzuchten"
  building_type_elephant_pens_01_desc:1 "Hier werden Elefanten gehalten und abgerichtet. Sie sind hervorragende Nutztiere sowohl bei der Arbeit als auch im Krieg."
  building_elephant_pens_01:1 "Elefantenstallungen"
@@ -460,7 +460,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_elephant_pens_07_desc:1 "Wenn wir große Teile des Dschungels zu Zufluchten für die Elefanten machen, können wir sicherstellen, dass weniger Tiere Wilderern zum Opfer fallen und das Vorkommen gesund bleibt."
  building_elephant_pens_08:1 "Elefantenzüchter"
  building_elephant_pens_08_desc:1 "Diese Elefantenzüchter stellen sicher, dass es neue Kälber gibt und dass nur die besten und gesündesten Tiere aufgezogen werden."
- 
+
  building_type_guild_halls_01:1 "Zünfte"
  building_type_guild_halls_01_desc:1 "Die Stadt versorgt alle größeren Zünfte und Bürgerfamilien mit ausreichend Platz, um ihr Handwerk auszuüben und sich mit anderen Mitgliedern ihrer Zunft auszutauschen."
  building_guild_halls_01:0 "Zunfthäuser"
@@ -477,9 +477,9 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_guild_halls_06_desc:1 "Schneider führen Nadel, Faden und Stoff als ihre „Waffen“ der Wahl. Mit unvergleichlichem Geschick stellen sie wunderschöne Gewandungen für den Adel her."
  building_guild_halls_07:1 "Glasmacherzunft"
  building_guild_halls_07_desc:1 "Die Glasmacher stellen faszinierende Dinge aus Glas her, angefangen bei Kelchen bis hin zu Fensterscheiben. Dinge aus Glas zu besitzen, ist sehr prestigeträchtig, sodass die Dienste dieser Zunft äußerst gesucht sind."
- building_guild_halls_08:1 "Kunsthandwerkerzunft"
+ building_guild_halls_08:1 "Kunsthandwerkerzünfte" #Selbst geschrieben/abgetippt
  building_guild_halls_08_desc:1 "Die Kunsthandwerker arbeiten mit ihren Rohmaterialien nicht nur, um Kunstwerke herzustellen, sondern auch um ganz neue Innovationen zu schaffen. Ihr Einfallsreichtum und ihre feinen Fähigkeiten erwecken allerorten die Aufmerksamkeit des Adels."
- 
+
  building_type_monastic_schools_01:1 "Klöster"
  building_type_monastic_schools_01_desc:1 "Diese Schule unterrichtet viele Fächer und ist ein seltenes Zentrum höherer Bildung, doch die Schüler, die hier eingeschrieben sind, studieren hauptsächlich, um sich auf ihre zukünftige Karriere im Klerus vorzubereiten."
  building_monastic_schools_01:1 "Gebetshallen"
@@ -521,7 +521,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_type_great_megalith_01_desc:0 "Eine äußerst ehrgeizige Fassung einer Steinsetzung: Im Zuge des Großmegalithen-Vorhabens wird der ganze Landstrich mit vielen kleinen Steinsetzungen gesäumt, die eine gigantische umringen."
  building_great_megalith_01:0 "Großmegalithen"
  building_great_megalith_01_desc:0 "Die Großmegalithen sind eine ausgedehnte und atemberaubende Steinsetzung, die zahllose kleinere Ausleger in der ganzen Gegend hat. Sie stehen allen offen, sodass Pilger und Gläubiger aus der ganzen Welt herbeiströmen, um dem Göttlichen nahezukommen."
- 
+
  building_type_hunting_grounds_01:0 "Jagdreviere"
  building_type_hunting_grounds_01_desc:1 "Über diese Lande sind einige größere Hütten verstreut, in denen sich Jagdgesellschaften treffen und ihre Jagdzüge planen können."
  building_hunting_grounds_01:1 "Jagdhütten"
@@ -540,255 +540,255 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_hunting_grounds_07_desc:1 "Weite Landstriche werden als Reserven deklariert, in denen nur Jäger mit der entsprechenden Befugnis auf die Pirsch gehen dürfen. So gibt es reichlich Beute für die offiziellen Jagdgesellschaften, auch wenn einmal ein paar Wilderer durchrutschen …"
  building_hunting_grounds_08:1 "Försterhütten"
  building_hunting_grounds_08_desc:1 "Die Förster sind verantwortlich für das Wohlergehen des Landes und der Tiere darauf. Immer wenn Adlige entscheiden, auf die Jagd zu gehen, weiß der Förster, wohin er sie schicken muss, damit sie Beute machen können."
- 
+
  building_type_theodosian_walls_01:0 "Die Theodosianische Mauer"
  building_type_theodosian_walls_01_desc:1 "Die Theodosianische Mauer wurde während der Regentschaft von Kaiser Theodosius II. im frühen 5. Jahrhundert erbaut, doch sie zählt weiterhin zu den beeindruckendsten Befestigungsanlagen, die je von Menschenhand errichtet wurden."
  building_theodosian_walls_01:0 "Theodosianische Mauer"
  building_theodosian_walls_01_desc:0 "$building_type_theodosian_walls_01_desc$"
- 
+
  building_type_aurelian_walls_01:0 "Die Aurelianische Mauer"
  building_type_aurelian_walls_01_desc:1 "Die Aurelianische Mauer wurde während der Herrschaft der römischen Kaiser Aurelian und Probus errichtet. Bis zum heutigen Tag umschließt sie vollständig die sieben Hügel Roms und stellt somit eine ausgezeichnete Verteidigungsanlage dar."
  building_aurelian_walls_01:0 "Aurelianische Mauer"
  building_aurelian_walls_01_desc:0 "$building_type_aurelian_walls_01_desc$"
- 
+
  building_type_the_colosseum_01:0 "Das Kolosseum"
  building_type_the_colosseum_01_desc:0 "Das Kolosseum ist eines der größten Amphitheater, das je gebaut wurde, und war der Schauplatz zahlloser Spektakel wie etwa Gladiatorenkämpfen, Tierhetzen und sogar nachgestellten Seeschlachten. Sein Bau wurde im Jahr 72 vom römischen Kaiser Vespasian begonnen und im Jahr 80 unter dessen Nachfolger Titus abgeschlossen.\n\nTrotz seiner lebhaften Geschichte wird es heute in erster Linie nur noch als Quelle von Marmor und Bronze für die Verwendung andernorts genutzt."
  building_the_colosseum_01:0 "$building_type_the_colosseum_01$"
  building_the_colosseum_01_desc:0 "$building_type_the_colosseum_01_desc$"
- 
+
  building_type_hadrians_wall_01:0 "Hadrianswall"
  building_type_hadrians_wall_01_desc:0 "Der Hadrianswall wurde zur Römerzeit gebaut, um die Pikten im Norden aus der Provinz Britannia herauszuhalten. Heutzutage erfüllt er keinen Verteidigungszweck mehr, doch seine Steine stellen eine billige und bequeme Versorgungsquelle für Baumaterial dar!"
  building_hadrians_wall_01:0 "$building_type_hadrians_wall_01$"
  building_hadrians_wall_01_desc:0 "$building_type_hadrians_wall_01_desc$"
- 
+
  building_type_offas_dyke_01:0 "Offa’s Dyke"
  building_type_offas_dyke_01_desc:0 "Offa’s Dyke, bei dem es sich um einen langen Graben handelt, der von einem Erdwall flankiert wird, wurde vom angelsächsischen König von Mercien angelegt, um die Grenze nach Wales zu schützen. Der Erdwall bietet allen, die auf ihm stehen, einen Vorteil, da sich etwaige Angreifer erst aus dem Graben nach oben kämpfen müssen."
  building_offas_dyke_01:0 "$building_type_offas_dyke_01$"
  building_offas_dyke_01_desc:0 "$building_type_offas_dyke_01_desc$"
- 
+
  building_type_buddhas_of_bamian_01:1 "Buddhas von Bamiyan"
  building_type_buddhas_of_bamian_01_desc:0 "Die gewaltigen Buddhas von Bamiyan, die in eine Bergflanke hineingehauen wurden, überragen jeden ihrer Besucher. Auch wenn das sie umgebende Gebiet nicht länger jenes blühende Zentrum buddhistischer Lehren ist, das es früher einmal war, gibt es nach wie vor zahlreiche buddhistische Pilger und Gelehrte, die den Statuen ihre Aufwartung machen. Ein kluger $rf_eastern$er Herrscher könnte sogar einen Gewinn aus den Pilgern schlagen, zusätzlich zu einigen persönlichen Einsichten, zu denen er womöglich gelangt."
  building_buddhas_of_bamian_01:0 "$building_type_buddhas_of_bamian_01$"
  building_buddhas_of_bamian_01_desc:0 "$building_type_buddhas_of_bamian_01_desc$"
  NOT_BUDDHAS_OF_BAMIAN_ENABLED:1 "Der [holder|E] muss der $rf_eastern$ [religious_family|E] angehören"
- 
+
  building_type_petra_01:0 "Petra"
  building_type_petra_01_desc:0 "Die Stadt Petra ist ein wahres Weltwunder der Antike. Sie ist direkt in natürlich vorkommendes Gestein mit einer leicht rötlichen Färbung hineingehauen und bleibt somit ein Kuriosum, das selbst den mächtigsten Sultan in seinen Bann zu schlagen weiß."
  building_petra_01:0 "$building_type_petra_01$"
  building_petra_01_desc:0 "$building_type_petra_01_desc$"
- 
+
  building_type_house_of_wisdom_01:0 "Haus der Weisheit"
  building_type_house_of_wisdom_01_desc:0 "Das Haus der Weisheit birgt eine gewaltige Sammlung von Büchern, und die Schreiber in seinem Innern arbeiten unermüdlich Tag und Nacht daran, sogar noch mehr große Werke zu übersetzen. Die Quellen reichen dabei von griechischen Schriften bis zu persischen, indischen und noch vielen anderen Texten: Das Haus beherbergt tatsächlich das Wissen der gesamten Welt! Ein leuchtendes Beispiel für den menschlichen Drang hin zur Erkenntnis! Und schön weit weg von den Reitervölkern der Steppe, die des Lesens nicht mächtig sind …"
  building_house_of_wisdom_01:0 "$building_type_house_of_wisdom_01$"
  building_house_of_wisdom_01_desc:0 "$building_type_house_of_wisdom_01_desc$"
- 
+
  building_type_palace_of_aachen_01:1 "$building_palace_of_aachen_01$"
  building_type_palace_of_aachen_01_desc:0 "Die Aachener Königspfalz wurde von Karl dem Großen als Zentrum der Macht des Karolingerreichs auserkoren. Sie diente sowohl einem politischen als auch einem religiösen Zweck, und sie ist immer noch ein ausgezeichneter Ort, um wichtige Zusammenkünfte abzuhalten."
  building_palace_of_aachen_01:0 "Aachener Königspfalz"
  building_palace_of_aachen_01_desc:0 "$building_type_palace_of_aachen_01_desc$"
- 
+
  building_type_notre_dame_01:1 "$building_notre_dame_01$"
  building_type_notre_dame_01_desc:0 "Diese prächtige „Kathedrale unserer lieben Dame zu Paris“ ist der Jungfrau Maria geweiht. Im gotischen Stil errichtet beeindruckt sie mit ihren zahlreichen Statuen und riesigen bunten Rosettenfenstern.\n\nAußen ist die Kathedrale mit Skulpturen überzogen, die sehr bildhaft biblische Geschichten nacherzählen, was es selbst dem ungebildetsten Bauern erlaubt, die Herrlichkeit Gottes zu begreifen!"
  building_notre_dame_01:0 "Notre-Dame"
  building_notre_dame_01_desc:0 "$building_type_notre_dame_01_desc$"
- 
+
  building_type_hagia_sophia_01:1 "Hagia Sophia"
  building_type_hagia_sophia_01_desc:0 "Die Hagia Sophia ist ein wahres Wunderwerk der Baukunst mit einer gewaltigen Kuppel als imposantestem Element. Sie wurde im Jahr 537 von Kaiser Justinian I. fertiggestellt, beherbergt nun den Ökumenischen Patriarchen und ist ein Denkmal an das Christentum selbst.\n\nUnd genau dies wird sie auch für alle Ewigkeit bleiben, denn gewiss wird niemals etwas die Macht Roms je ernsthaft gefährden können."
  building_hagia_sophia_01:0 "Sophienkirche"
  building_hagia_sophia_01_desc:0 "$building_type_hagia_sophia_01_desc$"
  building_hagia_sophia_02:0 "Hagia Sophia"
  building_hagia_sophia_02_desc:0 "Die Hagia Sophia ist ein wahres Wunderwerk der Baukunst mit einer gewaltigen Kuppel und vier beeindruckenden Minaretten als imposantesten Elementen. Ihr Bau begann im Jahr 537 unter Kaiser Justinian I., und sie wurde inzwischen zu einer ehrfurchtgebietenden Moschee umgestaltet.\n\nUnd genau dies wird sie auch für alle Ewigkeit bleiben, denn gewiss wird niemals etwas die Macht der Rhomäer je ernsthaft gefährden können."
- 
+
  building_type_dome_of_the_rock_01:0 "Der Tempel von Jerusalem"
  building_type_dome_of_the_rock_01_desc:0 "Der Felsendom steht in der Mitte des Tempelbergs, an jenem Ort, an dem einst der Tempel Salomos und der Zweite Tempel der Juden standen. An diesem Ort erschuf Gott angeblich einst die Welt und Adam, den ersten Menschen. Der Felsendom und die nahe gelegene Grabeskirche ziehen abrahamische Pilger aus aller Welt an."
  building_dome_of_the_rock_01:0 "Der Felsendom"
  building_dome_of_the_rock_01_desc:0 "$building_type_dome_of_the_rock_01_desc$"
  building_temple_in_jerusalem_01:0 "Der Dritte Tempel"
  building_temple_in_jerusalem_01_desc:0 "Jahrhunderte nach der Zerstörung des Zweiten Tempels ist nun endlich die Zeit gekommen, den Tempel in Jerusalem wiederaufzubauen! Der Dritte Tempel wird die Zeit überdauern und mit Adleraugen bewacht werden vor allen, die ihn zerstören wollen."
- 
+
  building_type_stonehenge_01:0 "Stonehenge"
  building_type_stonehenge_01_desc:0 "Stonehenge ist ein uraltes, mystisches Bauwerk, das schon so manchem Gelehrten als große Inspiration gereichte. Selbst heute in diesen erleuchteten Zeiten strömen belesene Männer aus ganz Britannien in Scharen herbei, um es zu studieren. Welchem Zweck dient es wirklich?"
  building_stonehenge_01:0 "$building_type_stonehenge_01$"
  building_stonehenge_01_desc:0 "$building_type_stonehenge_01_desc$"
- 
+
  building_type_iron_pillar_of_dhar_01:0 "Eisensäule von Dhar"
  building_type_iron_pillar_of_dhar_01_desc:0 "Die Eisensäule von Dhar ist aus den eingeschmolzenen Waffen einer ganzen Armee gemacht. Die Handwerkskunst ist wahrlich erstaunlich und bringt der Dynastie, die die Säule in ihrem Besitz weiß, viel Ruhm ein."
  building_iron_pillar_of_dhar_01:0 "$building_type_iron_pillar_of_dhar_01$"
  building_iron_pillar_of_dhar_01_desc:0 "$building_type_iron_pillar_of_dhar_01_desc$"
- 
+
  building_type_iron_pillar_of_delhi_01:0 "Eisensäule von Delhi"
  building_type_iron_pillar_of_delhi_01_desc:0 "Die mächtige Eisensäule von Delhi steht als Symbol für die Herrlichkeit von König Chandragupta II., obschon auch Herrscher, die auf ihn folgten, ihren Namen in die Säule einritzten. Trotz der langen Zeit seit ihrer Herstellung hat sie keinerlei Rost angesetzt: ein Zeugnis für das große Können indischer Schmiede!"
  building_iron_pillar_of_delhi_01:0 "$building_type_iron_pillar_of_delhi_01$"
  building_iron_pillar_of_delhi_01_desc:0 "$building_type_iron_pillar_of_delhi_01_desc$"
- 
+
  building_type_the_pyramids_01:0 "Die Pyramiden"
  building_type_the_pyramids_01_desc:0 "Die Pyramiden, allen voran jene von Cheops, stellen Weltwunder der Antike dar. Unermesslich groß und beeindruckend, wie sie sind, mehren sie das Ansehen jedes Herrschers, der über das Land gebietet, auf dem sie sich erheben."
  building_the_pyramids_01:0 "$building_type_the_pyramids_01$"
  building_the_pyramids_01_desc:0 "$building_type_the_pyramids_01_desc$"
- 
+
  building_type_alhambra_01:0 "Alhambra"
  building_type_alhambra_01_desc:0 "Die Alhambra ist eine Festung, die auf den Überresten einer römischen Verteidigungsanlage errichtet wurde. Zwar ist sie zu letzterem Zweck noch immer nutzbar, doch mit dem richtigen Einsatz ließe sie sich in etwas noch wesentlich Größeres verwandeln …"
  building_alhambra_01:0 "Alhambra-Festungsruinen"
  building_alhambra_01_desc:0 "$building_type_alhambra_01_desc$"
  building_alhambra_02:0 "Alhambra-Königspalast"
  building_alhambra_02_desc:1 "Seit ihren Tagen als einfache römische Ruine wurde die Alhambra zu einem Palast aufgewertet, der eines Kaisers würdig wäre! Als leuchtendes Beispiel für die örtliche Architektur verleitete die Farbe der Gebäude im Zusammenspiel mit den umliegenden Wäldern Poeten zu der Beschreibung, sie wäre „eine Perle inmitten von Smaragden“."
- 
+
  building_type_shwedagon_pagoda_01:0 "Shwedagon"
  building_type_shwedagon_pagoda_01_desc:0 "Der Shwedagon ist ein heiliger buddhistischer Stupa, der um das Jahr 500 von den Mon erbaut wurde. Er beherbergt zahlreiche berühmte Reliquien wie den Stab Kakusandhas, den Wasserfilter Koṇāgamanas, ein Stück der Robe Kassapas und acht Haarsträhnen vom Haupt Gautamas."
  building_shwedagon_pagoda_01:0 "Shwedagon"
  building_shwedagon_pagoda_01_desc:0 "$building_type_shwedagon_pagoda_01_desc$"
- 
+
  building_type_khajuraho_01:0 "Tempelbezirk"
  building_type_khajuraho_01_desc:0 "Die Tempel von Khajuraho sind der Koexistenz zwischen Hindus und Jainas gewidmet, und hier feiern sie ihre verschiedenen religiösen Ansichten. Die Tempelmauern sind bedeckt mit wertvoller Kunst und beeindruckenden Skulpturen, und es ist kein Wunder, dass dieser prächtige Ort so beliebt bei Pilgern und Gelehrten ist."
  building_khajuraho_01:0 "Khajuraho"
  building_khajuraho_01_desc:0 "$building_type_khajuraho_01_desc$"
- 
+
  building_type_the_tower_of_london_01:0 "Der Tower von London"
  building_type_the_tower_of_london_01_desc:0 "Der Tower von London ist eine Burg, die sowohl als wichtige Festung als auch als Gefängnis dient. Der zentrale Turm, genannt „White Tower“, beherbergt die herrschende Klasse. Die Lage des Towers von London macht ihn für die Verteidigung der gesamten Grafschaft unersetzlich."
  building_the_tower_of_london_01:0 "Der Tower von London"
  building_the_tower_of_london_01_desc:0 "$building_type_the_tower_of_london_01_desc$"
- 
+
  building_type_citadel_of_aleppo_01:1 "$building_citadel_of_aleppo_01$"
  building_type_citadel_of_aleppo_01_desc:0 "Die Zitadelle von Aleppo ist eine uralte Festungsanlage, die seit ihrer Errichtung von zahlreichen Mächten genutzt wurde. Die Zitadelle fungiert als königliche Residenz, befestigter Rückzugsort, Tempel und Gefängnis."
  building_citadel_of_aleppo_01:0 "Zitadelle von Aleppo"
  building_citadel_of_aleppo_01_desc:0 "$building_type_citadel_of_aleppo_01_desc$"
  building_citadel_of_aleppo_02:0 "Wiederaufgebaute Zitadelle von Aleppo"
  building_citadel_of_aleppo_02_desc:0 "Im Zuge eines größeren Umbaus wurde die Zitadelle von Aleppo erheblich stärker befestigt und in eine richtige Palaststadt verwandelt!"
- 
+
  building_type_holy_site_cathedral_01:1 "Großkathedrale"
  building_type_holy_site_cathedral_01_desc:1 "Die [holy_site|E] in dieser Gegend zieht christliche Pilger aus der gesamten bekannten Welt an. Die Großkathedrale ist nicht nur ein prächtiges Wunderwerk der Baukunst, sondern auch ein sicherer Zufluchtsort für Reisende und ihrem Spender ein prestigeträchtiges Denkmal."
  building_holy_site_cathedral_01:1 "Großkathedrale"
  building_holy_site_cathedral_01_desc:1 "$building_type_holy_site_cathedral_01_desc$"
- 
+
  building_type_holy_site_mosque_01:0 "Großmoschee"
  building_type_holy_site_mosque_01_desc:0 "Die [holy_site|E] in dieser Gegend ist ein beliebter Wallfahrtsort für fromme Pilger, die in der Großmoschee einen Ort finden, an dem sie beten, rasten und ihrem Gott huldigen können. Die wunderschönen Kuppeln und die gewaltigen, kunstfertigen Turmspitzen zeigen allen, wie großartig dieser Gott ist."
  building_holy_site_mosque_01:0 "Großmoschee"
  building_holy_site_mosque_01_desc:0 "$building_type_holy_site_mosque_01_desc$"
- 
+
  building_type_holy_site_pagan_grand_temple_01:0 "Großtempel"
  building_type_holy_site_pagan_grand_temple_01_desc:0 "Die [holy_site|E] in dieser Gegend zieht die Gläubigen in Scharen an. Der Großtempel ist verziert mit kunstfertigen Reliefs, die heroische Taten von Göttern und Halbgöttern zeigen. Gewaltige Feuer schicken Rauchschwaden nach oben zu den Göttern, und heilige Männer segnen jeden, der den Geistern Ehre erweist."
  building_holy_site_pagan_grand_temple_01:0 "Großtempel"
  building_holy_site_pagan_grand_temple_01_desc:0 "$building_type_holy_site_pagan_grand_temple_01_desc$"
- 
+
  building_type_holy_site_indian_grand_temple_01:0 "Großtempel"
  building_type_holy_site_indian_grand_temple_01_desc:0 "Die [holy_site|E] in dieser Gegend zieht scharenweise demütige Pilger an, die ihre Seele läutern wollen. Der Großtempel ist von Grundstein bis Spitze bedeckt mit Statuen und Idolen der Götter, die von uralten Legenden und dem Leben hehrer Propheten erzählen."
  building_holy_site_indian_grand_temple_01:0 "Großtempel"
  building_holy_site_indian_grand_temple_01_desc:0 "$building_type_holy_site_indian_grand_temple_01_desc$"
- 
+
  building_type_holy_site_other_grand_temple_01:0 "Großtempel"
  building_type_holy_site_other_grand_temple_01_desc:0 "Die [holy_site|E] in dieser Gegend ist ein Treffpunkt für die Frommen und Hingebungsvollen. Der Großtempel ist ein edler Tribut an die höheren Mächte, und die Wände und Kuppeln sind glatt poliert und bemalt in prächtigen Farben, die das Göttliche ehren."
  building_holy_site_other_grand_temple_01:0 "Großtempel"
  building_holy_site_other_grand_temple_01_desc:0 "$building_type_holy_site_other_grand_temple_01_desc$"
- 
+
  HOLY_SITE_BUILDING_ENABLED:1 "Der [faith|E] des Besitzers betrachtet dies als [holy_site|E]"
  NOT_HOLY_SITE_BUILDING_ENABLED:1 "Der [faith|E] des Besitzers muss dies als [holy_site|E] betrachten"
- 
+
  NOT_holy_site_muslim_or_holy_site_trigger:0 "Der Träger muss Moslem sein oder dies als [holy_site|E] betrachten"
  NOT_holy_site_christian_or_holy_site_trigger:0 "Der Träger muss Christ sein oder dies als [holy_site|E] betrachten"
  NOT_holy_site_muslim_christian_or_holy_site_trigger:0 "Der Träger muss Moslem oder Christ sein oder dies als [holy_site|E] betrachten"
  NOT_holy_site_muslim_or_zoroastrian_or_holy_site_trigger:0 "Der Träger muss Moslem oder Zoroastrier sein oder dies als [holy_site|E] betrachten"
  NOT_holy_site_jewish_or_holy_site_trigger:0 "Der Träger muss Jude sein oder dies als [holy_site|E] betrachten"
- 
+
  building_type_holy_site_imam_ali_mosque_01:0 "Imam-Ali-Moschee"
  building_type_holy_site_imam_ali_mosque_01_desc:0 "In der Imam-Ali-Moschee findet man das Grabmal von Ali, dem Vetter Mohammeds und erstem Imam der Schiiten nach ihm. Der Ort wird jährlich von Tausenden von Pilgern besucht, die von der prächtigen grünen Kuppel der Moschee begrüßt werden."
  building_holy_site_imam_ali_mosque_01:0 "$building_type_holy_site_imam_ali_mosque_01$"
  building_holy_site_imam_ali_mosque_01_desc:0 "$building_type_holy_site_imam_ali_mosque_01_desc$"
- 
+
  building_type_holy_site_great_mosque_of_mecca_01:0 "Große Moschee von Mekka"
  building_type_holy_site_great_mosque_of_mecca_01_desc:0 "Die Große Moschee von Mekka ist ein gewaltiges und uraltes Gebäude, dessen Wände die heilige Kaaba umgeben. Viele große Sultane haben seit dem ursprünglichen Bau die Moschee und ihre Umgebung erweitert. Jeder Muslim soll auf der Hadsch diese Stätte besuchen."
  building_holy_site_great_mosque_of_mecca_01:0 "$building_type_holy_site_great_mosque_of_mecca_01$"
  building_holy_site_great_mosque_of_mecca_01_desc:0 "$building_type_holy_site_great_mosque_of_mecca_01_desc$"
- 
+
  building_type_holy_site_cologne_cathedral_01:0 "Kölner Dom"
  building_type_holy_site_cologne_cathedral_01_desc:0 "Im Kölner Dom befindet sich der Dreikönigenschrein, der von Pilgern aus der gesamten christlichen Welt aufgesucht wird. Der Dom ist im gotischen Stil gehalten und reich mit Turmspitzen und grandiosen Details verziert."
  building_holy_site_cologne_cathedral_01:0 "$building_type_holy_site_cologne_cathedral_01$"
  building_holy_site_cologne_cathedral_01_desc:0 "$building_type_holy_site_cologne_cathedral_01_desc$"
- 
+
  building_type_holy_site_canterbury_cathedral_01:0 "Kathedrale von Canterbury"
  building_type_holy_site_canterbury_cathedral_01_desc:1 "Augustinus, ein römischer Missionar und späterer Erzbischof, ließ die Kathedrale von Canterbury erbauen, nachdem er die Stadt als Bischofssitz von Kent ausgewählt hatte. Die Kathedrale verhalf der Stadt zu neuem Ruhm, da von hier aus die Kirche Englands geleitet wird."
  building_holy_site_canterbury_cathedral_01:0 "$building_type_holy_site_canterbury_cathedral_01$"
  building_holy_site_canterbury_cathedral_01_desc:0 "$building_type_holy_site_canterbury_cathedral_01_desc$"
- 
+
  building_type_doges_palace_01:0 "Dogenpalast"
  building_type_doges_palace_01_desc:0 "Der Dogenpalast ist die Residenz der Regierung der Republik Venedig. Das beeindruckende Gebäude beherbergt mehrere Kammern für den Rat, den Senat, die Verwaltung und die Justiz."
  building_doges_palace_01:0 "$building_type_doges_palace_01$"
  building_doges_palace_01_desc:0 "$building_type_doges_palace_01_desc$"
- 
+
  building_type_visby_ringmur_01:0 "Stadtbefestigung Visby"
  building_type_visby_ringmur_01_desc:0 "Die Stadtmauer von Visby beschützt die Stadt vor Gefahren wie Plünderern oder Dänen. Sie hält außerdem Steuereintreiber ab, die das Thing von Gotland schickt! Wer an die Reichtümer im Inneren gelangen möchte, muss zuerst an den zahllosen Türmen voller Bogenschützen vorbei."
  building_visby_ringmur_01:0 "$building_type_visby_ringmur_01$"
  building_visby_ringmur_01_desc:0 "$building_type_visby_ringmur_01_desc$"
- 
+
  building_type_walls_of_benin_01:0 "Mauern von Benin"
  building_type_walls_of_benin_01_desc:0 "Die Mauern von Benin sind eine beeindruckende Reihe von Erdwällen #low („Iya“ in der Sprache der Edo)#!, die Benin völlig umschließen. Die Mauern sind eine Graben- und Dammstruktur, wobei die Gräben innen und die Schutzmauern außen liegen."
  building_walls_of_benin_01:0 "$building_type_walls_of_benin_01$"
  building_walls_of_benin_01_desc:0 "$building_type_walls_of_benin_01_desc$"
- 
+
  building_type_the_friday_mosque_01:0 "Die Freitagsmoschee"
  building_type_the_friday_mosque_01_desc:0 "Die Freitagsmoschee, auch genannt Jamee-Mosche von Isfahan, wurde unter der Dynastie der Umayyaden erbaut. Angeblich hat der Kalif persönlich eine der Säulen in der Moschee errichtet. Bevor der Ort zur Moschee wurde, diente er wohl den Zoroastriern als Gotteshaus."
  building_the_friday_mosque_01:0 "$building_type_the_friday_mosque_01$"
  building_the_friday_mosque_01_desc:0 "$building_type_the_friday_mosque_01_desc$"
- 
+
  building_type_brihadeeswarar_temple_01:0 "Brihadishvara-Tempel"
  building_type_brihadeeswarar_temple_01_desc:0 "Der Brihadishvara-Tempel ist der hinduistischen Gottheit Shiva geweiht und einer der größten Tempel Südindiens, die im kunstfertigen Dravida-Stil erbaut wurden. Der Name des Tempels ist ein Sanskrit-Kompositum, das grob übersetzt „Tempel des großen Herren Shiva“ bedeutet."
  building_brihadeeswarar_temple_01:0 "$building_type_brihadeeswarar_temple_01$"
  building_brihadeeswarar_temple_01_desc:0 "$building_type_brihadeeswarar_temple_01_desc$"
- 
+
  building_type_holy_site_mahabodhi_temple_01:0 "Mahabodhi-Tempel"
  building_type_holy_site_mahabodhi_temple_01_desc:0 "Der Mahabodhi-Tempel steht an jenem Ort, an dem der Buddha angeblich die Erleuchtung fand, und ist eine wichtige Pilgerstätte für Buddhisten und Hindus. Der Bau des Tempels begann ungefähr im Jahr 200 unter dem Ersten König Ashoka, und seitdem wurde er viele Male verbessert und restauriert."
  building_holy_site_mahabodhi_temple_01:0 "$building_type_holy_site_mahabodhi_temple_01$"
  building_holy_site_mahabodhi_temple_01_desc:0 "$building_type_holy_site_mahabodhi_temple_01_desc$"
- 
+
  building_type_holy_site_great_mosque_of_cordoba_01:0 "Große Moschee von Cordoba"
  building_type_holy_site_great_mosque_of_cordoba_01_desc:0 "Die Großmoschee von Cordoba wurde nach der Eroberung des Westgotenreichs durch den Islam auf dem Fundament einer christlichen Kirche errichtet. Zu Beginn wurde der Ort gemeinsam von Muslimen und Christen genutzt, doch die christliche Hälfte wurde schließlich gekauft und abgerissen, um Platz für die Großmoschee zu schaffen."
  building_holy_site_great_mosque_of_cordoba_01:0 "$building_type_holy_site_great_mosque_of_cordoba_01$"
  building_holy_site_great_mosque_of_cordoba_01_desc:0 "$building_type_holy_site_great_mosque_of_cordoba_01_desc$"
- 
+
  building_type_walls_of_genoa_01:0 "Mauern von Genua"
  building_type_walls_of_genoa_01_desc:0 "Die Mauern von Genua wurden im 9. Jahrhundert errichtet, nachdem die Stadt eine erhebliche Autonomie erhalten hatte. Dank der Mauern und der schützenden Küste konnte das Gebiet sich gut entwickeln und gedeihen."
  building_walls_of_genoa_01:0 "$building_type_walls_of_genoa_01$"
  building_walls_of_genoa_01_desc:0 "$building_type_walls_of_genoa_01_desc$"
- 
+
  building_type_holy_site_great_mosque_of_djenne_01:0 "Große Moschee von Djenné"
  building_type_holy_site_great_mosque_of_djenne_01_desc:0 "Die Große Moschee von Djenné steht am Ufer des Bani. Sie besteht vollständig aus Lehmziegeln und benötigt eine aufwendige Pflege, die die Gläubigen nur zu gern übernehmen. Jedes Jahr sammeln sich Scharen von Menschen, um Instandsetzungs- und Verbesserungsarbeiten an der Moschee vorzunehmen."
  building_holy_site_great_mosque_of_djenne_01:0 "$building_type_holy_site_great_mosque_of_djenne_01$"
  building_holy_site_great_mosque_of_djenne_01_desc:0 "$building_type_holy_site_great_mosque_of_djenne_01_desc$"
- 
+
  building_type_holy_site_great_mosque_of_samarra_01:0 "Große Moschee von Samarra"
  building_type_holy_site_great_mosque_of_samarra_01_desc:0 "Die Große Moschee von Samarra wurde im Jahr 851 vom abbasidischen Kalifen Al-Mutawakkil fertiggestellt, der in Samarra herrschte. Sie ist berühmt für die Malywia, ein prächtiges Spiralminarett, das beeindruckend weit in den Himmel ragt."
  building_holy_site_great_mosque_of_samarra_01:0 "$building_type_holy_site_great_mosque_of_samarra_01$"
  building_holy_site_great_mosque_of_samarra_01_desc:0 "$building_type_holy_site_great_mosque_of_samarra_01_desc$"
- 
+
  building_type_holy_site_prophetic_mosque_01:0 "Die Prophetenmoschee"
  building_type_holy_site_prophetic_mosque_01_desc:0 "Die Prophetenmoschee, auch Al-Masjid an-Nabawi, ist eine offen angelegte Moschee, die vom Propheten Mohammed persönlich erbaut wurde. Sie ist eine der ersten Moscheen, die er errichtete, und die Stätte befand sich in der Nähe seiner Residenz."
  building_holy_site_prophetic_mosque_01:0 "$building_type_holy_site_prophetic_mosque_01$"
  building_holy_site_prophetic_mosque_01_desc:0 "$building_type_holy_site_prophetic_mosque_01_desc$"
- 
+
  building_type_generic_university:0 "Universität"
  building_type_generic_university_desc:0 "Eine Universität ist ein Ort der höheren Bildung, der jenen vorbehalten ist, die angesehen und reich genug sind und sich als würdig erweisen. Sie zieht Gelehrte und Wissenschaftler an, die in ihren Mauern Wissen debattieren, studieren, niederschreiben und zusammenbringen."
  building_generic_university:0 "$building_type_generic_university$"
  building_generic_university_desc:0 "$building_type_generic_university_desc$"
- 
+
  building_type_al_azhar_university:0 "Azhar-Universität"
  building_type_al_azhar_university_desc:0 "$building_type_generic_university_desc$\n\nDie Azhar-Universität wurde zu Ehren von Fatimah benannt, der Tochter Mohammeds, die oft „al-Zahra“ (die Strahlende) genannt wurde."
  building_al_azhar_university:0 "$building_type_al_azhar_university$"
  building_al_azhar_university_desc:0 "$building_type_al_azhar_university_desc$"
- 
+
  building_type_sankore_university:0 "Die Universität von Sankoré"
  building_type_sankore_university_desc:0 "$building_type_generic_university_desc$\n\nDie Universität von Sankoré, die ursprünglich eine Moschee war, wurde zu einem Ort des Lernens umgewidmet, nachdem man Unmengen von Büchern von reisenden Kaufleuten erhalten hatte."
  building_sankore_university:0 "$building_type_sankore_university$"
  building_sankore_university_desc:0 "$building_type_sankore_university_desc$"
- 
+
  building_type_siena_university:0 "Universität Siena"
  building_type_siena_university_desc:0 "$building_type_generic_university_desc$\n\nDie Universität Siena und die Maestri, die in ihr dienen, werden vollständig durch die Steuereinnahmen Sienas finanziert, genauer gesagt durch eine Steuer, die all jene entrichten müssen, die Zimmer an ihre Studenten vermieten."
  building_siena_university:0 "$building_type_siena_university$"
  building_siena_university_desc:0 "$building_type_siena_university_desc$"
- 
+
  building_type_nalanda_university:0 "Universität von Nalanda"
  building_type_nalanda_university_desc:0 "$building_type_generic_university_desc$\n\nDie Universität von Nalanda ist ein sehr bedeutender Sitz der vedischen Gelehrten, und sie zieht sogar Studenten aus fernen Ländern wie Tibet und China an."
  building_nalanda_university:0 "$building_type_nalanda_university$"
  building_nalanda_university_desc:0 "$building_type_nalanda_university_desc$"
- 
+
  building_type_rammelsberg_mines_01:0 "Das Erzbergwerk Rammelsberg"
  building_type_rammelsberg_mines_01_desc:1 "Am Fuß des Rammelsbergs befindet sich eine profitable und stets begehrte Silbermine."
  building_rammelsberg_mines_01:1 "Rammelsberg-Bergbausiedlung"
@@ -845,7 +845,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  #building_kutna_hora_mines_07_desc:0 "$building_type_kutna_hora_mines_01_desc$"
  #building_kutna_hora_mines_08:0 "Kutná Hora Mines VIII"
  #building_kutna_hora_mines_08_desc:0 "$building_type_kutna_hora_mines_01_desc$"
- 
+
  building_type_schwaz_mines_01:0 "Schwazer Silberbergwerk"
  building_type_schwaz_mines_01_desc:0 "Das Schwazer Silberbergwerk liegt am Fuß der Berge Kellerjoch und Eiblschrofen inmitten eines Tales. Die Möglichkeit, hier Bergbau zu betreiben, lockt eine Menge Menschen in die Region."
  building_schwaz_mines_01:0 "Schwaz-Bergbausiedlung"
@@ -856,7 +856,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_schwaz_mines_03_desc:0 "$building_rammelsberg_mines_03_desc$"
  building_schwaz_mines_04:0 "Schwaz-Bergbauanlage"
  building_schwaz_mines_04_desc:0 "$building_rammelsberg_mines_04_desc$"
- 
+
  building_type_argentiera_mines_01:0 "Argentiera-Bergwerk"
  building_type_argentiera_mines_01_desc:0 "In der Argentaria del Sigerro gibt es unter der Erde zahlreiche Silberadern. Mit ausreichend Anreiz und Entwicklung könnte man gewaltige Mengen kostbares Silbererz dort herausholen."
  building_argentiera_mines_01:0 "Argentiera-Bergbausiedlung"
@@ -867,7 +867,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_argentiera_mines_03_desc:0 "$building_rammelsberg_mines_03_desc$"
  building_argentiera_mines_04:0 "Argentiera-Bergbauanlage"
  building_argentiera_mines_04_desc:0 "$building_rammelsberg_mines_04_desc$"
- 
+
  building_type_siderokausia_mines_01:0 "Siderokausia-Minen"
  building_type_siderokausia_mines_01_desc:0 "Die Siderokausia-Minen sind reich an Silber und Gold und werden von zwölf unterschiedlichen Dörfern betrieben, die jeweils für einen Teil der Minen zuständig sind."
  building_siderokausia_mines_01:0 "Siderokausia-Bergbausiedlung"
@@ -878,7 +878,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_siderokausia_mines_03_desc:0 "$building_rammelsberg_mines_03_desc$"
  building_siderokausia_mines_04:0 "Siderokausia-Bergbauanlage"
  building_siderokausia_mines_04_desc:0 "$building_rammelsberg_mines_04_desc$"
- 
+
  building_type_mali_mines_01:0 "Goldminen von Mali"
  building_type_mali_mines_01_desc:0 "Die Minen von Mali quellen wirklich über von Gold. Ein endloser Strom des Reichtums kommt aus ihren Tiefen und fließt in die Schatzkammern der örtlichen Machthaber, die sich auch selbst mit dem kostbaren Metall schmücken."
  building_mali_mines_01:0 "Goldbergbausiedlung"
@@ -889,7 +889,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_mali_mines_03_desc:0 "$building_rammelsberg_mines_03_desc$"
  building_mali_mines_04:0 "Goldbergbauanlage"
  building_mali_mines_04_desc:0 "$building_rammelsberg_mines_04_desc$"
- 
+
  building_type_kremnica_mines_01:0 "Kremnitz-Minen"
  building_type_kremnica_mines_01_desc:0 "Die Kremnitzer Berge sind voller Gold. Mit Blut, Schweiß und der Hilfe Hunderter erfahrener Bergleute aus Deutschland kann das Gold in Windeseile in Florentiner geprägt werden."
  building_kremnica_mines_01:0 "Kremnitzer Bergbausiedlung"
@@ -900,7 +900,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_kremnica_mines_03_desc:0 "$building_rammelsberg_mines_03_desc$"
  building_kremnica_mines_04:0 "Kremnitzer Bergbauanlage"
  building_kremnica_mines_04_desc:0 "$building_rammelsberg_mines_04_desc$"
- 
+
  building_type_kollur_mines_01:0 "Die Minen von Kollur"
  building_type_kollur_mines_01_desc:0 "Die Minen von Kollur beuten die größte Diamantader auf dem gesamten indischen Subkontinent aus. Die Arbeit ist ungeheuer gefährlich, doch der Reichtum ist unverstellbar."
  building_kollur_mines_01:0 "Kollur-Tagebaugrube"
@@ -911,42 +911,42 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_kollur_mines_03_desc:0 "Ein ganzes Dorf ist um die vielen Bergbaugruben entstanden, und die Arbeiter finden regelmäßig riesige Diamanten."
  building_kollur_mines_04:0 "Kollur-Bergbauanlage"
  building_kollur_mines_04_desc:0 "Der Abbau von Diamanten hat fast schon industrielle Ausmaße angenommen. Die Zahl der Arbeiter reicht nun in die Tausende. Endloser Reichtum scheint aus der Mine zu strömen."
- 
+
  building_type_tribe_01:1 "Stammesfeste"
  building_type_tribe_01_desc:1 "Eine kleine, aber effektive Stammesfeste, die über ein Stammesdorf wacht."
  building_tribe_01:1 "Stammesfeste"
  building_tribe_01_desc:1 "Diese aus Holzstämmen und grob behauenem Stein errichtete Feste ist trotzt ihrer geringen Größe imposant."
  building_tribe_02:1 "Ausgebaute Stammesfeste"
  building_tribe_02_desc:1 "Die ausgebaute Stammesfeste nimmt sich feudale Burgen zum Vorbild und fügt dem Vorgänger viele neue Verteidigungselemente hinzu."
- 
+
  building_type_longhouses_01:1 "Versammlungshallen"
  building_type_longhouses_01_desc:1 "Stammesoberhäupter, Älteste und Kriegsfürsten finden sich alle im Langhaus ein, wenn es Entscheidungen zu treffen gilt. Die mächtigen Hallen bringen demjenigen Prestige, der die Versammlung ausrichtet."
  building_longhouses_01:1 "Langhäuser"
  building_longhouses_01_desc:1 "Langhäuser sind groß genug, um wichtigen Treffen zwischen den Ältesten bequem Platz zu bieten, und in ihnen wird über Gesetze und politische Maßnahmen entschieden."
  building_longhouses_02:1 "Große Hallen"
  building_longhouses_02_desc:1 "Große Hallen verfügen über eine zentrale Bühne, von der aus ein Häuptling oder Kriegsfürst begeisternde Reden halten kann."
- 
+
  building_type_war_camps_01:0 "Kriegslager"
  building_type_war_camps_01_desc:1 "Wilde Stammeskrieger versammeln sich in den Kriegslagern, wenn das Horn sie in die Schlacht ruft. Selbst in Friedenszeiten findet man sie dort bei Übungskämpfen, mit denen sie sich auf die unausweichlich kommenden Streitigkeiten vorbereiten."
  building_war_camps_01:1 "Übungskampfbahnen"
  building_war_camps_01_desc:1 "Ausrüstung für die Ausbildung von Streitern, Arenen und Holzwälle prägen die Erscheinung der Übungskampfbahnen. Hierher kommen Krieger, um ihr Können zu verfeinern."
  building_war_camps_02:1 "Kriegerhütten"
  building_war_camps_02_desc:1 "Nur die größten Kämpfer erhalten Zutritt zu einer Kriegerhütte. Ihre bloße Anwesenheit wirkt bereits beflügelnd."
- 
+
  building_type_palisades_01:0 "Palisaden"
  building_type_palisades_01_desc:1 "Reihen hölzerner Palisaden beschützen die verstreuten Stammessiedlungen und schirmen sie vor einfachen Bedrohungen wie wilden Tieren oder kleinen Überfällen ab."
  building_palisades_01:1 "Einfache Palisade"
  building_palisades_01_desc:1 "Einfache Palisaden bieten nur begrenzten Schutz: In Scharmützeln mögen sie effektiv sein, aber im Fall größerer Gegnergruppen sind sie weniger verlässlich."
  building_palisades_02:1 "Wälle & Gräben"
  building_palisades_02_desc:1 "Außengräben im Zusammenspiel mit steinverstärkten Palisadenwällen bieten einen ordentlichen Schutz vor Belagerungen."
- 
+
  building_type_market_villages_01:1 "Märkte"
  building_type_market_villages_01_desc:1 "In jenen Gegenden dieser Lande, die stärker bereist werden, ist eine Schar kleiner Marktdörfer aus dem Boden geschossen. Hier kommen die Stammesmitglieder hin, um mit fahrenden Händlern (Tausch-)Handel zu treiben."
  building_market_villages_01:1 "Handelsaußenposten"
  building_market_villages_01_desc:1 "Handelsaußenposten bieten Stammesangehörigen und Händlern die Gelegenheit, sich zu treffen und Tauschhandel zu betreiben."
  building_market_villages_02:1 "Marktdörfer"
  building_market_villages_02_desc:1 "Indem sie Händler in ihre Dörfer lassen, sind die dort ansässigen Stammesangehörigen in der Lage, gewinnbringende Geschäfte einzufädeln."
- 
+
  building_type_military_academy_01:0 "Militärakademien"
  building_type_military_academy_01_desc:0 "Einrichtungen, die auf die Ausbildung von Offizieren und Rittern ausgelegt sind und deren Effektivität im Kampf erhöhen."
  building_military_academy_01:0 "Militärschulen"
@@ -955,7 +955,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_military_academy_02_desc:0 "Sergeanten, die die Akademie durchlaufen, haben ein besseres Verständnis für die Vorgänge auf dem Schlachtfeld oder wissen zumindest, wie man richtig vor seinen Vorgesetzten buckelt."
  building_military_academy_03:0 "Große Militärakademien"
  building_military_academy_03_desc:0 "Dieses Herzogtum beherbergt eine große Militärakademie, wo die örtlichen Armeeoffiziere eine rigorose Ausbildung durchlaufen."
- 
+
  building_type_march_01:0 "Marken"
  building_type_march_01_desc:0 "Die Herren der Marken schützen Grenzen durch Befestigungsanlagen und örtliche Garnisonen."
  building_march_01:0 "Strategische Marken"
@@ -964,7 +964,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_march_02_desc:0 "Das System der Herren der Marken wird entlang der gesamten Grenze ausgeweitet, was zusätzliche Verteidigungsmöglichkeiten schafft."
  building_march_03:0 "Großmarken"
  building_march_03_desc:0 "Große Markenfesten werden überall im Herzogtum errichtet, was jede angreifende Streitmacht erheblich behindert."
- 
+
  building_type_siege_works_01:0 "Belagerungswerke"
  building_type_siege_works_01_desc:0 "Eigens errichtete Belagerungswerke erlauben es dem Herrscher, Belagerungswaffen von überlegener Qualität ins Feld zu führen und instand zu halten."
  building_siege_works_01:0 "Belagerungswerkstätten"
@@ -973,7 +973,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_siege_works_02_desc:0 "Ein engagierter Trupp von Ingenieuren arbeitet unermüdlich, um dafür Sorge zu tragen, dass unsere Bliden Steingeschosse von 90 Kilogramm über 300 Meter hinweg schleudern können."
  building_siege_works_03:0 "Kanonengießereien"
  building_siege_works_03_desc:0 "Die Belagerungsgießereien erlauben ein rasches Herstellen und Bereitmachen von Kanonen."
- 
+
  building_type_royal_armory_01:0 "Königliche Rüstkammern"
  building_type_royal_armory_01_desc:0 "Indem die Krone ihren Soldaten Waffen und Rüstungen stellt, können sich mehr Bauern „freiwillig“ für die Aufgebote melden."
  building_royal_armory_01:0 "Waffenlager"
@@ -982,7 +982,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_royal_armory_02_desc:0 "Arsenale, die von der Krone unterhalten werden, sammeln und pflegen Waffen und Rüstungen für den Kriegsgebrauch. Diese Teile sind von anständiger Qualität und können aus jedem betrunkenen Faulpelz zumindest auf den ersten Blick ruckzuck einen tüchtigen Soldaten machen!"
  building_royal_armory_03:0 "Königliches Arsenal"
  building_royal_armory_03_desc:0 "Das Königliche Arsenal enthält nicht nur eine beeindruckende Zahl an Waffen, sondern beherbergt auch Schmieden, die neue Ausrüstung herstellen. Auch wenn es Verschwendung sein mag, einfache Bauern mit diesem Kriegsgerät auszurüsten, so zieht es doch auch örtliche Abenteurer an, die nichts lieber täten, als für uns zu kämpfen und zu sterben, solange sie nur eines dieser Schwerter bekommen …"
- 
+
  building_type_jousting_lists_01:0 "Turnierplätze"
  building_type_jousting_lists_01_desc:0 "Indem wir eigens Anlagen für Turniere schaffen, werden mehr Reiter und Ritter dazu ermuntert, sich für den Kampf zu ertüchtigen und sich um unsere Banner zu scharen."
  building_jousting_lists_01:0 "Turnierfelder"
@@ -991,7 +991,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_jousting_lists_02_desc:0 "Mit Tilten fürs Lanzenstechen und Tribünen für das Publikum ziehen diese Turnieranlagen eine gewaltige Zahl an Wettstreitern an."
  building_jousting_lists_03:0 "Königliche Turnierarenen"
  building_jousting_lists_03_desc:0 "Diese Turnierarena, die mit Sitzen für königliche Gäste und einer größeren Festwiese aufgewertet wurde, ist wahrlich beeindruckend."
- 
+
  building_type_blacksmiths_01:0 "Schmieden"
  building_type_blacksmiths_01_desc:0 "Von der Krone angestellte Schmiede fertigen Waffen und Rüstungen für die königliche Garde und sorgen für eine zuverlässige Versorgung mit überlegenem Kriegsgerät."
  building_blacksmiths_01:0 "Kronschmieden"
@@ -1000,7 +1000,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_blacksmiths_02_desc:0 "Dank der Zusammenarbeit verschiedenster Zünfte können große Mengen an Ausrüstung preisgünstig auf Bestellung angefertigt werden."
  building_blacksmiths_03:0 "Königliche Schmieden"
  building_blacksmiths_03_desc:0 "Große Schmieden werden zu dem alleinigen Zweck errichtet, die Krone mit Waffen zu versorgen. Nur die besten Schmiede werden für die Arbeit dort angestellt."
- 
+
  building_type_archery_ranges_01:0 "Schießgelände"
  building_type_archery_ranges_01_desc:0 "Eigens angelegte Bogenschießstände erlauben es dem einfachen Volk, mit Bogen zu üben, während erfahrene Schützen ihr Geschick hier noch weiter verfeinern können."
  building_archery_ranges_01:0 "Bogenschießstände"
@@ -1009,7 +1009,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_archery_ranges_02_desc:1 "Die besten Bogenbauer werden von der Krone angestellt und in eigens dafür errichteten Einrichtungen darauf angesetzt, die hochwertigsten Bögen anzufertigen, die sie herstellen können."
  building_archery_ranges_03:0 "Scharfschützenstände"
  building_archery_ranges_03_desc:0 "Um die Bauern zu beflügeln und unseren Schützen ausreichend Herausforderungen zu bieten, sind diese besonderen Schützenstände so angelegt, dass unsere Truppen sich in genauen Schüssen über große Entfernungen hinweg üben."
- 
+
  building_type_tax_assessor_01:0 "Steuer-Amtsstuben"
  building_type_tax_assessor_01_desc:0 "Das Einsammeln von Geld bei den Bauern erfordert einiges an „Steuerung“. Indem wir einer Kohorte von steuereintreibenden Beamten eigene Amtsstuben zuweisen, werden wir schon bekommen, was uns zusteht!"
  building_tax_assessor_01:0 "Steuerassessoren"
@@ -1018,7 +1018,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_tax_assessor_02_desc:0 "Ein ausgezeichneter Weg, um zu gewährleisten, dass die Bauern ihre Steuern bezahlen, ist die Androhung, sie in den Kerker werfen zu lassen, falls sie dies nicht tun. Das ist die Aufgabe des Landvogts, der #emphasis stets#! auf unserer Seite ist!"
  building_tax_assessor_03:0 "Magistratshof"
  building_tax_assessor_03_desc:0 "Während Bauern leicht zu besteuern sein mögen, sind die wohlhabenderen Landbesitzer schon schwieriger zu ihrem Glück zu zwingen. Indem wir ein komplexes Verwaltungsnetz aufbauen, das von loyalen Magistraten aufrechterhalten wird, können wir dafür sorgen, dass sogar unsere reichsten Untertanen das zahlen, was sie zu entrichten haben."
- 
+
  building_type_leisure_palace_01:0 "Lustschlösser"
  building_type_leisure_palace_01_desc:0 "Es mag schön und gut sein, sich in nur einem verschwenderisch prunkvollen Schloss aufzuhalten, doch gleich die Auswahl unter mehreren von ihnen zu haben, kann nie schaden."
  building_leisure_palace_01:0 "Chateau"
@@ -1027,7 +1027,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_leisure_palace_02_desc:0 "Der Sommerpalast liegt in einem malerischen Teil des Herzogtums, weit weg vom beschwerlichen Leben unserer hart schuftenden Untertanen. Es gibt wahrlich keinen besseren Weg, um adlige Macht und Prestige zur Schau zu stellen, als die einfache Tatsache, dass wir nun einmal tatsächlich #emphasis besser#! sind."
  building_leisure_palace_03:0 "Winterpalast"
  building_leisure_palace_03_desc:0 "Der Winterpalast ist darauf ausgelegt, die königliche Familie während der raueren Monate des Jahres zu beherbergen. Mit einer gut gefüllten Vorratskammer und einer leicht zu verteidigenden Lage ragt er über allen zitternden Untertanen auf, die das Privileg genießen, in seiner Nähe arbeiten zu dürfen."
- 
+
  building_type_royal_forest_01:0 "Königliche Reservate"
  building_type_royal_forest_01_desc:0 "Ein königlicher Wald ist eine kostbare Ressource, was die Schaffung von Reichtümern anbelangt. Er erlaubt es einem, sich in einer Provinz über die geltenden Gesetze hinwegzusetzen, indem man den Einheimischen ihre Rechte erst nimmt, um sie danach wieder an sie zurück zu verkaufen. Selbstverständlich lässt sich dort auch exzellent jagen."
  building_royal_forest_01:0 "Königliche Wälder"
@@ -1036,7 +1036,7 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_royal_forest_02_desc:0 "Ganze Städte liegen nun innerhalb dieses königlichen Waldes, und auch weitere Siedlungen in der Nähe müssen oft feststellen, dass die Männer des Monarchen Karten „entdeckt“ haben, auf denen sie ohne jeden Zweifel innerhalb des örtlichen Kronwalds zu finden sind."
  building_royal_forest_03:0 "Kronwald-Gerichte"
  building_royal_forest_03_desc:0 "Ein Gesetz ist immer nur so gut wie das System, das hinter ihm steht, und dieser königliche Wald hat nun ein ganzes System aus Gerichtshöfen, Aufsehern und Beamten, die von gut ausgebildeten Magistraten unterstützt werden. Sie alle sind bereit, den Diktaten der Krone zur Durchsetzung zu verhelfen."
- 
+
  building_type_royal_garden_01:0 "Königsgärten"
  building_type_royal_garden_01_desc:0 "An wenigen Orten können Menschen sich so gut entspannen und plaudern wie in wunderschönen Gärten. Den meisten muss ein kleiner, persönlicher Garten genügen, doch für die Reichen und Mächtigen sind nur die eindrucksvollsten Schöpfungen gut genug!"
  building_royal_garden_01:0 "Ummauerter Garten"
@@ -1045,41 +1045,41 @@ building_type_common_tradeport_01:0 "Handelshafen"
  building_royal_garden_02_desc:0 "Ein ausgedehnter und eindrucksvoller Garten mit Blumen, Kräutern, Obstbäumen und allem dazwischen. Eine große Zahl an Gärtnern kümmert sich sorgsam um die Anlage."
  building_royal_garden_03:0 "Königspark"
  building_royal_garden_03_desc:0 "Der Königspark ist eine weite und atemberaubende Anlage, die mit großer Sorgfalt in die umgebende Landschaft und Architektur eingefügt wurde. Sie steht allen offen und lässt Besucher aus nah und fern voller Ehrfurcht zurück."
- 
+
  building_type_ananda_temple_01:0 "Ananda-Tempel"
  building_type_ananda_temple_01_desc:0 "Obgleich es in der Stadt Bagan und auf der umliegenden Ebene Tausende von Pagoden, Tempeln und Schreinen gibt, ist der Ananda-Tempel das Schmuckstück unter ihnen. Das perfekt dimensionierte Gebäude enthält zahlreiche einzigartige Tafeln und Steinbildnisse. An diesem Ort des Glaubens und des Lernens werden die Menschen im religiösen Ethos ausgebildet."
  building_ananda_temple_01:0 "$building_type_ananda_temple_01$"
  building_ananda_temple_01_desc:0 "$building_type_ananda_temple_01_desc$"
- 
+
  building_type_hotin_fort_01:0 "Befestigung von Hotin"
  building_type_hotin_fort_01_desc:0 "Die Feste Hotin ist eine kleine Burg am Ufer des Dnister. Ihre Lage erlaubt es ihr, die örtlichen Handelsrouten zu schützen, und verleiht ihrem Besitzer die Kontrolle über den Fluss."
  building_hotin_fort_01:0 "Feste Hotin"
  building_hotin_fort_01_desc:0 "$building_type_hotin_fort_01_desc$"
  building_hotin_fort_02:0 "Festung Hotin"
  building_hotin_fort_02_desc:0 "Eine beeindruckende Festung, gegen die die alte Feste im Vergleich geradezu verblasst. Die Befestigungen wurden über die Jahrhunderte hinweg ausgeweitet und umfassen nun hohe Steinmauern, einen breiten Wassergraben und mehrere wuchtige Türme. Diese Verteidigungsanlagen werden die meisten Belagerer mühelos im Zaum halten."
- 
+
  building_type_golden_gate_of_kiev_01:1 "Goldenes Tor von Kyiv"
  building_type_golden_gate_of_kiev_01_desc:1 "Das Goldene Tor von Kyiv ist einem Tor in Konstantinopel nachempfunden und auch nach diesem benannt. Es dient sowohl als Eingang in die Stadt als auch als Triumphbogen. Die goldene Kuppel einer Kirche unweit des Tors ist von Weitem zu sehen und macht das Tor zu einem berühmten Symbol von ganz Kyiv."
  building_golden_gate_of_kiev_01:0 "$building_type_golden_gate_of_kiev_01$"
  building_golden_gate_of_kiev_01_desc:0 "$building_type_golden_gate_of_kiev_01_desc$"
- 
+
  building_type_heddal_stave_church_01:0 "Stabkirche Hedal"
  building_type_heddal_stave_church_01_desc:0 "Die Stabkirche Hedal ist die größte Stabkirche in Norwegen und verfügt über ein wunderschönes Holzinterieur. Der Legende nach wurde die Kirche von einem Bergtroll in nur drei Tagen gebaut."
  building_heddal_stave_church_01:0 "$building_type_heddal_stave_church_01$"
  building_heddal_stave_church_01_desc:0 "$building_type_heddal_stave_church_01_desc$"
- 
+
  building_type_temple_of_uppsala_01:0 "Tempel von Uppsala"
  building_type_temple_of_uppsala_01_desc:0 "Der Tempel in Uppsala dient für weite Teile Skandinaviens als religiöses Zentrum. Unweit des Tempels steht neben einem Brunnen ein heiliger Baum, der dem legendären Yggdrasil ähnelt."
  building_temple_of_uppsala_01:0 "$building_type_temple_of_uppsala_01$"
  building_temple_of_uppsala_01_desc:0 "$building_type_temple_of_uppsala_01_desc$"
  building_temple_of_uppsala_02:0 "Dom zu Uppsala"
  building_temple_of_uppsala_02_desc:0 "Der Dom zu Uppsala ist eine hoch aufragende Kathedrale, die an die prächtigsten Bauwerke des südlichen Europas heranreicht. Sie dient als letzte Ruhestätte für einige der berühmtesten Monarchen Schwedens und beherbergt auch einige Reliquien von Heiligen."
- 
+
  building_type_lund_cathedral_01:0 "Dom zu Lund"
  building_type_lund_cathedral_01_desc:0 "Der Dom zu Lund ist eine prächtige Kirche, die reich mit steinernen Skulpturen verziert ist. Dank romanischer Einflüsse weist sie einige Ähnlichkeiten mit Kirchen in Deutschland auf. Das Bauwerk ist dem Heiligen Laurentius geweiht, dem Schutzheiligen der Stadt Lund."
  building_lund_cathedral_01:0 "$building_type_lund_cathedral_01$"
  building_lund_cathedral_01_desc:0 "$building_type_lund_cathedral_01_desc$"
- 
+
  building_type_danevirke_01:0 "Danewerk"
  building_type_danevirke_01_desc:1 "Das Danewerk ist eine groß angelegte Befestigung aus Erdwällen, die errichtet wurde, um Überfälle aus Richtung des Kontinents auf dänische Territorien zu verhindern. Seit ihrer ursprünglichen Errichtung wurde sie mehrfach erweitert."
  building_danevirke_01:0 "$building_type_danevirke_01$"
