@@ -1,105 +1,105 @@
 ﻿l_german:
- game_concept_struggle:1 "Struggle"
- game_concept_struggle_struggles:0 "Struggles"
- game_concept_struggle_desc:2 "$game_concept_struggle_struggles$ are long-term conflicts involving large [struggle_region_regions|E] with many [faiths|E] and [cultures|E]. Within the boundaries of a $game_concept_struggle$, peculiar special rules and [modifiers|E] may take effect, changing over time. Since they last decades to centuries, not all [characters|E] in a $game_concept_struggle$ are at [war|E] with each other all of the time.\n\nEach $game_concept_struggle$ consists of multiple [struggle_phase_phases|E]. As $game_concept_characters$ within the [struggle_region|E] act (e.g., declaring $game_concept_war$, or [marrying|E]), they may activate [struggle_catalyst_catalysts|E] that progress them between the different $game_concept_struggle_phase_phases$.\n\nDepending on the degree to which they're seen to be a part of the $game_concept_struggle$ by other participants, $game_concept_characters$ with [land|E] in the area may be seen as [struggle_involved|E], [struggle_interloper_interlopers|E], or [struggle_uninvolved|E]."
-
- game_concept_btw_struggle:1 "Struggle Beyond the Wall"
- game_concept_btw_struggle_desc:2 "The $game_concept_btw_struggle$ depicts the millenia of fractious relationships beyond the wall. Though born of the construction of the Wall eight thousand of years ago at the end of the Long Night, the [struggle|E] shifts between [struggle_phase_phases|E] of hate-fueled violence, wary truces, and pragmatic cooperation. There are few permanent allies in such a situation, and [rulers|E] should be wary of relying purely on a shared [faith|E] or [culture|E]."
- game_concept_struggle_phase:1 "Struggle Phase"
+ game_concept_struggle:1 "Ringen"
+ game_concept_struggle_struggles:0 "Ringen"
+ game_concept_struggle_desc:2 "Ein $game_concept_struggle_struggles$ ist ein langfristiger Konflikt, an dem große [struggle_region_regions|E] mit vielen [faiths|E] und [cultures|E] beteiligt sind. Innerhalb der Grenzen des $game_concept_struggle$s gelten besondere Regeln und [modifiers|E], die sich im Lauf der Zeit ändern. Da sie Jahrzehnte oder gar Jahrhunderte andauern können, befinden sich nicht alle am $game_concept_struggle$ beteiligten [characters|E] ständig im [war|E] miteinander.\n\nWenn $game_concept_characters$ in der [struggle_region|E] handeln (beispielsweise jemandem den $game_concept_war$ erklären oder eine [Concept('marrying', 'Ehe')|E] eingehen), kann das [struggle_catalyst_catalysts|E] aktivieren, durch die das Ringen verschiedene $game_concept_struggle_phase_phases$ durchmacht.\n\nAbhängig davon, wie sehr sie von anderen Beteiligten als Teil des $game_concept_struggle$s betrachtet werden, gelten $game_concept_characters$ mit Landbesitz in der Gegend als [struggle_involved|E], [struggle_interloper|E] oder [struggle_uninvolved|E]."
+ 
+ game_concept_btw_struggle:1 "Konflikt jenseits der Mauer"  #Selbst geschrieben/abgetippt
+ game_concept_btw_struggle_desc:2 "Das $game_concept_btw_struggle$ stellt die seit Jahrtausenden zerrissenen Beziehungen jenseits der Mauer dar. Geboren durch den Bau der Mauer vor achttausend Jahren am Ende der Langen Nacht, wechselt der [struggle|E] zwischen [struggle_phase_phases|E] von hasserfüllter Gewalt, vorsichtigen Waffenstillständen und pragmatischer Kooperation. In einer solchen Situation gibt es nur wenige dauerhafte Verbündete. [rulers|E] sollten darauf bedacht sein, sich nur auf einen gemeinsamen [faith|E] oder eine gemeinsame [culture|E] zu verlassen."  #Selbst geschrieben/abgetippt
+ game_concept_struggle_phase:1 "Ringen-Phase"
  game_concept_struggle_phase_phase:1 "Phase"
- game_concept_struggle_phase_phases:0 "Phases"
- game_concept_struggle_phase_desc:1 "A $game_concept_struggle_phase_phase$ is a general mood common to [struggle_involved|E] [characters|E] and [counties|E] within a [struggle_region|E]. It represents short-term societal trends and mores temporarily dominating the dialogue of the [struggle|E].\n\n#weak Example: in one $game_concept_struggle_phase_phase$, the people of a $game_concept_struggle_region_region$ may think that religious tolerance is paramount even if the rest of their faith disagrees.#!"
-
- game_concept_struggle_catalyst:1 "Struggle Catalyst"
- game_concept_struggle_catalyst_catalyst:1 "Catalyst"
- game_concept_struggle_catalyst_catalysts:0 "Catalysts"
- game_concept_struggle_catalyst_desc:2 "[struggle_struggles|E] transition between [struggle_phase_phases|E] when certain notable actions are taken, building their [struggle_region|E]'s consensus towards a particular mood. A list of which actions are important in which $game_concept_struggle_phase_phase$ can be found in the $game_concept_struggle$ window.\n\n#weak Example: the [struggle_phase_btw_opportunity|E] of the [btw_struggle|E] can transition into either the [struggle_phase_btw_hostility|E] or the [struggle_phase_btw_conciliation|E]. Murdering an important [character|E] might work towards the former, whilst forming a [marriage|E] [alliance|E] with someone of a different [faith|E] would build towards the latter."
-
- game_concept_struggle_involved:1 "Involved"
- game_concept_struggle_involved_desc:2 "When a [character|E] or a [county|E] is $game_concept_struggle_involved$, it means they're considered a natural and integral part of a [struggle|E] by the people of a particular [struggle_region|E]. They benefit fully from the fluid advantages of [struggle_phase_phases|E], and are the primary activators of [struggle_catalyst_catalysts|E].\n\n[cultures|E] and [faiths|E] that are considered $game_concept_struggle_involved$ are those that have or had significant presence in the $game_concept_struggle_region_region$.\n\n#weak To be $game_concept_struggle_involved$, a $game_concept_character$ must have both their $game_concept_culture$ and $game_concept_faith$ be $game_concept_struggle_involved$ #EMP and#! have their [capital|E] within the $game_concept_struggle_region$.#!"
-
- game_concept_struggle_interloper:1 "Interloper"
- game_concept_struggle_interloper_interlopers:0 "Interlopers"
- game_concept_struggle_interloper_desc:2 "When a [character|E] is tangled up in a specific [struggle|E] but not yet considered fully [struggle_involved|E], they're an $game_concept_struggle_interloper$.\n\n$game_concept_struggle_interloper_interlopers$ have their [capital|E]s within the [struggle_region|E], but do not have both an $game_concept_struggle_involved$ [faith|E] and an $game_concept_struggle_involved$ [culture|E].\n\nFully $game_concept_struggle_involved$ $game_concept_characters$ think of them as nosy, troublesome outlanders who don't understand where they're not wanted. $game_concept_struggle_interloper$ [rulers|E] thus generally take some penalties in [counties|E] they hold inside a $game_concept_struggle_region$."
-
- game_concept_struggle_uninvolved:1 "Uninvolved"
- game_concept_struggle_uninvolved_desc:2 "For a [character|E] to be considered $game_concept_struggle_uninvolved$ in a particular [struggle|E], they need only have their [capital|E] outside the [struggle_region|E].\n\nThis means they're considered an outsider, someone who not only doesn't have a serious stake in the ongoing [struggle_phase_phases|E], but who #EMP shouldn't#!, because they clearly couldn't understand the local nuances.\n\nAs one of the only things people inside a $game_concept_struggle$ can agree on is that $game_concept_struggle_uninvolved$ $game_concept_characters$ have no business in #EMP their#! lands, $game_concept_struggle_uninvolved$ [rulers|E] generally take harsh penalties in any [counties|E] they hold within a $game_concept_struggle_region$."
-
- game_concept_struggle_large_conquest:1 "Struggle Large Conquest"
- game_concept_struggle_large_conquest_desc:1 "Some $game_concept_struggle_catalyst_catalysts$ involve the successful completion of a major [war|E] by the attacker.\n\nThe follow [casus_bellis|E] are counted for this:\n$EFFECT_LIST_BULLET$ $duchy_conquest_cb$ \n$EFFECT_LIST_BULLET$ $individual_duchy_de_jure_cb$ \n$EFFECT_LIST_BULLET$ $imperial_reconquest_cb$ \n$EFFECT_LIST_BULLET$ $invasion_war$ \n$EFFECT_LIST_BULLET$ $clan_invasion_war$ \n$EFFECT_LIST_BULLET$ $mongol_invasion_war$ \n$EFFECT_LIST_BULLET$ $major_religious_war$ $game_concept_war$ \n$EFFECT_LIST_BULLET$ Both [great_holy_war_directed|E] & [great_holy_war_undirected|E] $undirected_great_holy_war$s \n$EFFECT_LIST_BULLET$ $tribal_subjugation_cb$"
-
- game_concept_struggle_region:1 "Struggle Region"
+ game_concept_struggle_phase_phases:0 "Phasen"
+ game_concept_struggle_phase_desc:1 "Eine $game_concept_struggle_phase_phase$ ist eine allgemeine Stimmung, die die am [Concept('struggle_involved', 'Ringen beteiligten')|E] [characters|E] und [counties|E] in der [struggle_region|E] gemeinsam haben. Phasen stehen für kurzfristige gesellschaftliche Neigungen und Haltungen, die zeitweise den Dialog innerhalb des [Concept('struggle', 'Ringens')|E] dominieren.\n\n#weak Beispiel: In einer $game_concept_struggle_phase_phase$ könnten die Bewohner einer $game_concept_struggle_region_region$ denken, religiöse Toleranz sei entscheidend, selbst wenn der Rest des Glaubens anderer Meinung ist.#!"
+ 
+ game_concept_struggle_catalyst:1 "Ringen-Auslöser"
+ game_concept_struggle_catalyst_catalyst:1 "Auslöser"
+ game_concept_struggle_catalyst_catalysts:0 "Auslöser"
+ game_concept_struggle_catalyst_desc:2 "Ein [struggle_struggles|E] durchläuft [struggle_phase_phases|E], wenn gewisse bemerkenswerte Taten unternommen werden, die in ihrer [struggle_region|E] für einen Konsens hinsichtlich einer bestimmten Stimmung sorgen. Eine Liste der Taten und in welcher $game_concept_struggle_phase_phase$ sie wichtig sind, findet sich im $game_concept_struggle$-Fenster.\n\n#weak Beispiel: Die [struggle_phase_btw_opportunity|E] des [btw_struggle|E] kann in [struggle_phase_btw_hostility|E] oder [struggle_phase_btw_conciliation|E] übergehen. Wird ein wichtiger [character|E] ermordet, geht die Tendenz zu Ersterem, wohingegen ein [alliance|E] durch eine [marriage|E] mit jemandem eines anderen [Concept('faith', 'Glaubens')|E] auf Letzteres hinwirkt."  #Selbst geschrieben/abgetippt
+ 
+ game_concept_struggle_involved:1 "Beteiligt"
+ game_concept_struggle_involved_desc:2 "Wenn ein [character|E] oder eine [county|E] $game_concept_struggle_involved$ ist, heißt das, sie werden von den Bewohnern einer bestimmten [struggle_region|E] als natürliche und integrale Teile eines [Concept('struggle', 'Ringens')|E] betrachtet. Sie profitieren in der Gänze von den schwankenden Vorzügen der [struggle_phase_phases|E] und sind die Hauptantreiber für [struggle_catalyst_catalysts|E].\n\n[cultures|E] und [faiths|E] werden als $game_concept_struggle_involved$ betrachtet, wenn sie eine nennenswerte Präsenz in der $game_concept_struggle_region_region$ hatten oder haben.\n\n#weak Um $game_concept_struggle_involved$ zu sein, müssen sowohl $game_concept_culture$ als auch $game_concept_faith$ eines $game_concept_character$s $game_concept_struggle_involved$ sein #EMP und#! er muss seinen [capital|E] innerhalb der $game_concept_struggle_region$ haben.#!"
+ 
+ game_concept_struggle_interloper:1 "Einmischend"
+ game_concept_struggle_interloper_interlopers:0 "Einmischend"
+ game_concept_struggle_interloper_desc:2 "Wenn ein [character|E] in ein [struggle|E] verstrickt wird, aber noch nicht als voll [struggle_involved|E] gilt, gilt er als $game_concept_struggle_interloper$.\n\nEinmischende Charaktere haben ihre [Concept('capital', 'Hauptsitze')|E] in der [struggle_region|E], aber haben nicht sowohl einen $game_concept_struggle_involved$en [Concept('faith', 'Glauben')|E] als auch eine $game_concept_struggle_involved$e [culture|E].\n\nVoll $game_concept_struggle_involved$e $game_concept_characters$ halten sie für unruhestiftende Außenseiter, die ihre Nase in Sachen stecken, die sie nichts angehen. $game_concept_struggle_interloper$e [rulers|E] erleiden daher meist einige Mali in [counties|E], die sie in der $game_concept_struggle_region$ halten."
+ 
+ game_concept_struggle_uninvolved:1 "Unbeteiligt"
+ game_concept_struggle_uninvolved_desc:2 "Damit ein [character|E] als $game_concept_struggle_uninvolved$ an einem bestimmten [struggle|E] gilt, braucht er nur seinen [capital|E] außerhalb der [struggle_region|E] zu haben.\n\nDas heißt, dass er als Außenseiter gilt – als jemand, der nicht nur keinen großen Anteil an den laufenden [struggle_phase_phases|E] hat, sondern diesen auch nicht #EMP haben sollte#!, da er die örtlichen Feinheiten einfach nicht begreift.\n\nEine der wenigen Sachen, auf die sich alle Teilnehmer an einem $game_concept_struggle$ einigen können, ist der Umstand, dass $game_concept_struggle_uninvolved$e $game_concept_characters$ nichts auf #EMP ihrem#! Land zu suchen haben. $game_concept_struggle_uninvolved$e [rulers|E] erleiden daher große Mali in allen [counties|E], die sie innerhalb der $game_concept_struggle_region$ halten."
+ 
+ game_concept_struggle_large_conquest:1 "Ringen-Großeroberung"
+ game_concept_struggle_large_conquest_desc:1 "Einige $game_concept_struggle_catalyst_catalysts$ drehen sich um den erfolgreichen Abschluss eines größeren [Concept('war', 'Kriegs')|E] durch den Angreifer.\n\nDazu zählen die folgenden [casus_bellis|E]:\n$EFFECT_LIST_BULLET$ $duchy_conquest_cb$ \n$EFFECT_LIST_BULLET$ $individual_duchy_de_jure_cb$ \n$EFFECT_LIST_BULLET$ $imperial_reconquest_cb$ \n$EFFECT_LIST_BULLET$ $invasion_war$ \n$EFFECT_LIST_BULLET$ $clan_invasion_war$ \n$EFFECT_LIST_BULLET$ $mongol_invasion_war$ \n$EFFECT_LIST_BULLET$ $major_religious_war$ $game_concept_war$ \n$EFFECT_LIST_BULLET$ Sowohl [Concept('great_holy_war_directed', 'Gezielte')|E] als auch [Concept('great_holy_war_undirected', 'Ungezielte')|E] $undirected_great_holy_war$e \n$EFFECT_LIST_BULLET$ $tribal_subjugation_cb$"
+ 
+ game_concept_struggle_region:1 "Ringen-Region"
  game_concept_struggle_region_region:1 "Region"
- game_concept_struggle_region_regions:0 "Regions"
- game_concept_struggle_region_desc:2 "Each [struggle|E] is tied to a [region|E] on the map. A [character_possessive|E] location within this $game_concept_region$ (as well as their [culture|E] and [faith|E]) determines whether they are classified as [struggle_involved|E], an [struggle_interloper|E], or [struggle_uninvolved|E].\n\n[counties|E] within a $game_concept_struggle_region$ are generally subject to different [county_modifiers|E] depending on the current [struggle_phase_phase]."
-
- game_concept_struggle_conquest:1 "Struggle Clash"
- game_concept_struggle_conquest_conquest:1 "Clash"
- game_concept_struggle_conquest_conquests:0 "Clashes"
- game_concept_struggle_conquest_desc:2 "It's not uncommon for [rulers|E] involved in a [struggle|E] to get into border disputes and petty quarrels, changing with the nature of the current [struggle_phase|E]. The ready availability of niche local disputes allows $game_concept_rulers$ to conduct small-scale land grabs, conquering or vassalizing their targets.\n\nSince $game_concept_struggle_conquest_conquests$ depend on the environment of their $game_concept_struggle$, their [prestige|E] cost scales with the current $game_concept_struggle_phase$."
-
- game_concept_struggle_phase_btw_opportunity:1 "Opportunity Phase"
- game_concept_struggle_phase_btw_opportunity_desc:2 "After a long period of relatively peaceful coexistence during the [struggle_phase_btw_conciliation|E], complacency begins to set in. Peasantry and nobility alike are comfortable that things just #EMP work#!, allowing more shrewd [characters|E] to take advantage of their naivety.\n\nEventually, fresh abuses will either cause an escalation into the [struggle_phase_btw_hostility|E], or else savvy politicking reaches an uneasy equilibrium through the [struggle_phase_btw_conciliation|E]."
-
- game_concept_struggle_phase_btw_hostility:1 "Hostility Phase"
- game_concept_struggle_phase_btw_hostility_desc:2 "Tensions flare and tempers fray in this $game_concept_struggle_phase_phase$. Repeated acts of malice and escalated misunderstandings during  the [struggle_phase_btw_opportunity|E] have lead to rising hatred of [characters|E] with differing [cultures|E], [faiths|E], or #EMP worse#!: both.\n\nSuch bloodshed cannot persist forever, though. Eventually, either cooler heads or simple exhaustion bring the peninsula to the [struggle_phase_btw_compromise|E]."
-
- game_concept_struggle_phase_btw_compromise:1 "Compromise Phase"
- game_concept_struggle_phase_btw_compromise_desc:2 "Whether through sickness with the strife of the [struggle_phase_btw_hostility|E] or deft escalation during the [struggle_phase_btw_conciliation|E], the $game_concept_struggle_phase_btw_compromise$ represents a growing accommodation between the wildlings. Differences fall by the wayside and shared history and heritage binds former foes together.\n\nThe peninsula stands at a cross-roads: if conflicts reappear, then the [struggle_phase_btw_opportunity|E] awaits."
-
- game_concept_struggle_phase_btw_conciliation:1 "Conciliation Phase"
- game_concept_struggle_phase_btw_conciliation_desc:1 "The product of a notable [struggle_phase_btw_compromise|E], during this $game_concept_struggle_phase_phase$, relations between the wildlings grow so cordial that outsiders find their permissiveness difficult to parse. Inter-[faith|E] [marriages|E] are particularly common.\n\nThis can't last forever, though, and abuses of trust will eventually bring the [btw_struggle|E] back around to the [struggle_phase_btw_compromise|E]."
-
- game_concept_struggle_involved_faith:0 "Involved Faith"
- game_concept_struggle_involved_faiths:0 "Involved Faiths"
- game_concept_struggle_involved_faith_desc:0 "Some [faiths|E] start already [struggle_involved|E] in the [struggle|E]. Others may become involved due to changing circumstances."
-
- game_concept_struggle_involved_culture:0 "Involved Culture"
- game_concept_struggle_involved_cultures:0 "Involved Cultures"
- game_concept_struggle_involved_culture_desc:0 "Some [cultures|E] start already [struggle_involved|E] in the [struggle|E]. Others may become involved due to changing circumstances."
-
- game_concept_dissolution_faction:0 "Dissolution Faction"
- game_concept_dissolution_factions:0 "Dissolution Factions"
- game_concept_faction_dissolution:0 "Dissolution"
- game_concept_dissolution_faction_desc:0 "The [dissolution_faction|E] seeks to destroy the [realm|E] of their [liege|E]. If they are successful, all the vassals in the realm become [independent|E], and their liege loses their [primary_title|E]."
-
+ game_concept_struggle_region_regions:0 "Regionen"
+ game_concept_struggle_region_desc:2 "Jedes [struggle|E] ist an eine [region|E] auf der Karte gebunden. Der Standort eines [Concept('character','Charakters')|E] innerhalb der $game_concept_region$ (sowie seine [culture|E] und sein [faith|E]) bestimmen, ob er als [struggle_involved|E], [struggle_interloper|E] oder [struggle_uninvolved|E] gilt.\n\n[counties|E] in einer $game_concept_struggle_region$ sind allgemein verschiedenen [county_modifiers|E] unterworfen, die von der jeweiligen [struggle_phase_phase] abhängen."
  
- game_concept_improve_city_province_decision:0 "$improve_city_province_decision_name$ Decision"
- game_concept_improve_city_province_decision_desc:0 "A [decision|E] that enables you to increase the number of [buildings|E] available in a [city_holding|E]."
-
- game_concept_border_raid:0 "Border Raid"
- game_concept_border_raids:0 "Border Raids"
- game_concept_border_raiding:0 "Border Raiding"
- game_concept_border_raid_desc:3 "This is a special type of [war|E] available between [struggle_involved|E] [rulers|E] of the [struggle|E] Beyond the Wall, where the attacker aims to [siege|E] a specific enemy [county|E] bordering their [realm|E].\n\nThe [war_leader|E] gains [gold|E] for capturing the [war_target|E], which will lose [development|E] and [control|E]. [buildings|E] may also be destroyed, yielding more [gold|E], the chance increasing with [development|E] and [siege|E] [army|E] size.\n\n[war_score|E] will be gained rapidly by the attacker upon [occupying|E] the [war_target|E]."
-
- game_concept_bargain_fealty:0 "Bargain Fealty"
- game_concept_bargained_fealty:0 "Bargained Fealty"
- game_concept_bargain_fealty_desc:3 "This special [interaction|E] is available to [struggle_involved|E] [rulers|E] who are in a defensive [war|E].\n\nThe [war_leader|E] asks a neighboring higher-[rank|E] [ruler|E] to join their war in exchange for becoming their [vassal|E]."
-
- game_concept_contract_assistance:0 "Contract Assistance"
- game_concept_contracting_assistance:0 "Contracting Assistance"
- game_concept_contract_assistance_desc:2 "This is a special type of [interaction|E] available to [struggle_involved|E] [rulers|E] of the [struggle|E] Beyond the Wall, allowing them to join other [struggle_involved|E] [rulerpossessive|E] [wars|E] in exchange for [gold|E].\n\nPayment is made on conclusion of the [war|E], whatever the outcome, as long as the contractor made a [war_contribution|E] of at least 100."
+ game_concept_struggle_conquest:1 "Ringen-Konflikt"
+ game_concept_struggle_conquest_conquest:1 "Konflikt"
+ game_concept_struggle_conquest_conquests:0 "Konflikte"
+ game_concept_struggle_conquest_desc:2 "Es ist nicht ungewöhnlich, dass [rulers|E], die an einem [struggle|E] beteiligt sind, Grenzstreitigkeiten und kleinere Querelen haben, die das Wesen der laufenden [struggle_phase|E] verändern können. Das häufige Vorkommen von nebensächlichen örtlichen Streitigkeiten erlaubt es $game_concept_rulers$n, kleinere Landnahmen durchzuführen und dabei ihre Ziele zu erobern oder zu Vasallen zu machen.\n\nDa $game_concept_struggle_conquest_conquests$ von der Umgebung ihres $game_concept_struggle$s abhängen, verändern sich ihre [prestige|E]-Kosten mit der jeweils laufenden $game_concept_struggle_phase$."
  
- game_concept_btw_reclamation:0 "Beyond the Wall Reclamation"
- game_concept_btw_reclaiming:0 "Beyond the Wall Reclaiming"
- game_concept_btw_reclamations:0 "Beyond the Wall Reclamations"
- game_concept_btw_reclamation_desc:2 "This is a special type of [war|E] available to [struggle_involved|E] [rulers|E] of the [btw_struggle|E].\n\nThe attacker aims to conquer a [duchy|E] which contains any [struggle_involved|E] [counties|E] held by an [struggle_interloper|E] or [struggle_uninvolved|E] [ruler|E], or [vassalize|E] them if they hold no land outside that Duchy."
-
- game_concept_enforce_truce:0 "Enforce Truce"
- game_concept_enforced_truce:0 "Enforced Truce"
- game_concept_enforce_truce_desc:2 "This is a special type of [interaction|E] available to [struggle_involved|E] [rulers|E] which ends a [war|E] in a [white_peace|E] and establishes [truces|E].\n\nIt may only be used to end wars between other [struggle_involved|E] [rulers|E] of lower [rank|E] in which at least one side is [independent|E] or part of the same [realm|E]."
-
- game_concept_incite_revolts_interaction:1 "Foment Revolt"
- game_concept_incite_revolts_interaction_desc:1 "Allows to invest [gold_i][gold|E] in order to motivate the [peasant_faction|E] in another [realm|E], if they have [counties|E] with negative [county_opinion|E]."
-
+ game_concept_struggle_phase_btw_opportunity:1 "Gelegenheitsphase"  #Selbst geschrieben/abgetippt
+ game_concept_struggle_phase_btw_opportunity_desc:2 "Nach einer langen Ära der relativ friedlichen Koexistenz während der [struggle_phase_btw_conciliation|E] setzt allmählich Selbstzufriedenheit ein. Die Bauern und der Adel fühlen sich wohl, dass die Dinge einfach #EMP funktionieren#! und erlauben es gewitzteren [characters|E], ihre Blauäugigkeit auszunutzen. Letztendlich werden neue Missbräuche entweder zu einer Eskalation in der [struggle_phase_btw_hostility|E] führen, oder aber geschickte Politik erreicht ein unruhiges Gleichgewicht durch die [struggle_phase_btw_conciliation|E]."  #Selbst geschrieben/abgetippt
+ 
+ game_concept_struggle_phase_btw_hostility:1 "Feindseligkeitsphase"  #Selbst geschrieben/abgetippt
+ game_concept_struggle_phase_btw_hostility_desc:2 "In dieser $game_concept_struggle_phase_phase$ flammen Spannungen auf und die Gemüter erhitzen sich. Wiederholte böswillige Handlungen und eskalierte Missverständnisse während der [struggle_phase_btw_opportunity|E] haben zu wachsendem Hass auf [characters|E] mit unterschiedlichen [cultures|E], [faiths|E] oder #EMP schlimmer#!: beidem geführt.\n\nSolches Blutvergießen kann jedoch nicht ewig andauern. Irgendwann bringen entweder kühlere Köpfe oder schlichte Erschöpfung die Region zum [struggle_phase_btw_compromise|E]."  #Selbst geschrieben/abgetippt
+ 
+ game_concept_struggle_phase_btw_compromise:1 "Kompromissphase"  #Selbst geschrieben/abgetippt
+ game_concept_struggle_phase_btw_compromise_desc:2 "Ob durch das Leiden an den Zwistigkeiten der [struggle_phase_btw_hostility|E] oder die geschickte Eskalation während der [struggle_phase_btw_conciliation|E], das $game_concept_struggle_phase_btw_compromise$ steht für eine wachsende Annäherung zwischen den Wildlingen. Differenzen bleiben auf der Strecke und die gemeinsame Geschichte und das gemeinsame Erbe verbinden ehemalige Feinde miteinander.\n\nDie Region steht am Scheideweg: Wenn Konflikte wieder auftauchen, dann wartet die [struggle_phase_btw_opportunity|E]."  #Selbst geschrieben/abgetippt
+ 
+ game_concept_struggle_phase_btw_conciliation:1 "Schlichtungsphase"  #Selbst geschrieben/abgetippt
+ game_concept_struggle_phase_btw_conciliation_desc:1 "Das Produkt einer bemerkenswerten [struggle_phase_btw_compromise|E], während dieser $game_concept_struggle_phase_phase$, Beziehungen zwischen den Wildlingen wachsen so herzlich, dass Außenstehende ihre Freizügigkeit schwer zu analysieren finden. Inter[faith|E] [marriages|E] treten besonders häufig auf. Allerdings hält das nicht ewig an, und Vertrauensmissbrauch wird die [btw_struggle|E] schließlich wieder in die [struggle_phase_btw_compromise|E] zurückführen."  #Selbst geschrieben/abgetippt
+ 
+ game_concept_struggle_involved_faith:0 "Beteiligter Glaube"
+ game_concept_struggle_involved_faiths:0 "Beteiligte Glauben"
+ game_concept_struggle_involved_faith_desc:0 "Manche [faiths|E] beginnen bereits als [struggle_involved|E] an einem [struggle|E]. Andere werden vielleicht aufgrund sich verändernder Umstände beteiligt."
+ 
+ game_concept_struggle_involved_culture:0 "Beteiligte Kultur"
+ game_concept_struggle_involved_cultures:0 "Beteiligte Kulturen"
+ game_concept_struggle_involved_culture_desc:0 "Manche [cultures|E] beginnen bereits als [struggle_involved|E] an einem [struggle|E]. Andere werden vielleicht aufgrund sich verändernder Umstände beteiligt."
+ 
+ game_concept_dissolution_faction:0 "Auflösungsfraktion"
+ game_concept_dissolution_factions:0 "Auflösungsfraktionen"
+ game_concept_faction_dissolution:0 "Auflösung"
+ game_concept_dissolution_faction_desc:0 "Die [dissolution_faction|E] will das [realm|E] ihres [Concept('liege', 'Lehnsherrn')|E] vernichten. Ist sie erfolgreich, werden alle Vasallen im Reich [independent|E] und ihr Lehnsherr verliert seinen [primary_title|E]."
+ 
+ 
+ game_concept_improve_city_province_decision:0 "„$improve_city_province_decision_name$“-Entscheidung"
+ game_concept_improve_city_province_decision_desc:0 "Eine [decision|E], die es Euch erlaubt, die Zahl der [buildings|E], die in einem [city_holding|E] verfügbar sind, zu erhöhen."
+ 
+ game_concept_border_raid:0 "Grenzüberfall"
+ game_concept_border_raids:0 "Grenzüberfälle"
+ game_concept_border_raiding:0 "Grenzüberfallend"
+ game_concept_border_raid_desc:3 "[Concept('struggle_involved', 'Beteiligten')|EU] [Concept('rulers','Herrschern')|E] des $game_concept_btw_struggle$ steht diese besondere Form des [Concept('war','Kriegs')|E] zur Verfügung. Der Angreifer will dabei eine bestimmte gegnerische [county|E], die an sein [realm|E] angrenzt, mit einer [Concept('siege','Belagerung')|E] konfrontieren.\n\nDer [war_leader|E] erhält [gold|E] für die Einnahme des [Concept('war_target','Kriegsziels')|E], das [development|E] und [control|E] verlieren wird. Auch [buildings|E] können vernichtet werden und zusätzliches [gold|E] gewähren; die Chance dafür erhöht sich mit anwachsender [development|E] und der Größe der [army|E], die die [siege|E] durchführt.\n\n[war_score|E] erhält der Angreifer rasch durch [occupy|E] des [Concept('war_target','Kriegsziels')|E]."  #Selbst geschrieben/abgetippt
+ 
+ game_concept_bargain_fealty:0 "Treue verhandeln"
+ game_concept_bargained_fealty:0 "Treue verhandelt"
+ game_concept_bargain_fealty_desc:3 "Diese besondere [interaction|E] steht [Concept('struggle_involved', 'Beteiligten')|E] [Concept('rulers','Herrschern')|E] zur Verfügung, die in einen defensiven [war|E] verwickelt sind.\n\nDer [war_leader|E] bittet einen benachbarten, höherrangigen [ruler|E], sich dem Krieg anzuschließen, wofür man sein [vassal|E] wird."
+ 
+ game_concept_contract_assistance:0 "Bezahlte Unterstützung"
+ game_concept_contracting_assistance:0 "Bezahlt Unterstützung"
+ game_concept_contract_assistance_desc:2 "Dies ist eine besondere [interaction|E], die [Concept('struggle_involved', 'Beteiligten')|E] [rulers|E] des $game_concept_btw_struggle$ zur Verfügung steht - sie erlaubt es ihnen, sich den [Concept('wars','Kriegen')|E] von [Concept('struggle_involved', 'Beteiligten')|E] [Concept('rulers','Herrschern')|E] für [gold|E] anzuschließen.\n\nDie Bezahlung erfolgt beim Abschluss des Krieges, ungeachtet dessen, wie er ausgeht, sofern der zu Bezahlende eine [war_contribution|E] von mindestens 100 aufweist."  #Selbst geschrieben/abgetippt
+ 
+ game_concept_btw_reclamation:0 "Rückgewinnung der Region jenseits der Mauer"  #Selbst geschrieben/abgetippt
+ game_concept_btw_reclaiming:0 "Rückgewinnung der Region jenseits der Mauer"  #Selbst geschrieben/abgetippt
+ game_concept_btw_reclamations:0 "Rückgewinnungen der Region jenseits der Mauer"  #Selbst geschrieben/abgetippt
+ game_concept_btw_reclamation_desc:2 "Dies ist eine besondere Art von [war|E], die den [struggle_involved|E] [rulers|E] des [btw_struggle|E] zur Verfügung steht.\n\nDer Angreifer strebt die Eroberung eines [duchy|E] an, das alle [struggle_involved|E] [counties|E] enthält, die von einem [struggle_interloper|E] oder [struggle_uninvolved|E] [ruler|E] gehalten werden, oder [vassalize|E] sie, wenn sie kein Land außerhalb dieses Gebietes halten."  #Selbst geschrieben/abgetippt
+ 
+ game_concept_enforce_truce:0 "Waffenstillstand erzwingen"
+ game_concept_enforced_truce:0 "Erzwingt Waffenstillstand"
+ game_concept_enforce_truce_desc:2 "Dies ist eine besondere [interaction|E], die [Concept('struggle_involved', 'Beteiligten')|E] [Concept('rulers','Herrschern')|E] zur Verfügung steht und einen [war|E] mit einem [Concept('white_peace', 'Weißen Frieden')|E] beendet und [truces|E] etabliert.\n\nMan kann sie nur einsetzen, um Kriege zwischen anderen [Concept('struggle_involved', 'Beteiligten')|E] [Concept('rulers','Herrschern')|E] von niedrigerem [rank|E] zu beenden, bei denen mindestens eine Seite [independent|E] oder Teil desselben [Concept('realm', 'Reichs')|E] ist."
+ 
+ game_concept_incite_revolts_interaction:1 "Revolte anfachen"
+ game_concept_incite_revolts_interaction_desc:1 "Erlaubt es, [gold_i][gold|E] zu investieren, um die [peasant_faction|E] in einem anderen [realm|E] anzustacheln, wenn es [counties|E] mit negativer [county_opinion|E] hat."
+ 
  game_concept_secure_btw_foothold_decision:0 "$secure_btw_foothold_decision_title$"
- game_concept_secure_btw_foothold_decision_desc:1 "A [decision|E] that allows a non-[struggle_involved|E] [ruler|E] to end the [btw_struggle|E]."
-
+ game_concept_secure_btw_foothold_decision_desc:1 "Eine [decision|E], die es einem nicht [struggle_involved|E] [ruler|E] ermöglicht, den [btw_struggle|E] zu beenden."  #Selbst geschrieben/abgetippt
+ 
 #  game_concept_golden_age_jewish_science_in_btw_decision:0 "$golden_age_jewish_science_in_btw_decision$"
 #  game_concept_golden_age_jewish_science_in_btw_decision_desc:1 "A [decision|E] where you sponsor local Jewish scholars and reap the benefits."
-
+ 
 #  game_concept_build_holy_pilgrim_roads_decision:0 "$build_holy_pilgrim_roads_decision$"
 #  game_concept_build_holy_pilgrim_roads_decision_desc:1 "A [decision|E] where you build roads to make life easier for pilgrims."
-
+ 
  game_concept_purchase_truce_interaction:0 "$purchase_truce_interaction$"
- game_concept_purchase_truce_interaction_desc:1 "An [interaction|E] that allows [truces|E] to be bought preemptively in exchange for [gold_i][gold|E]."
+ game_concept_purchase_truce_interaction_desc:1 "Eine [interaction|E], die es erlaubt, [truces|E] vorzeitig im Austausch für [gold_i][gold|E] zu kaufen."
