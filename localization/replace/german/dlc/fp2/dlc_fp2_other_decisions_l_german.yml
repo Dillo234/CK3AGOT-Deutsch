@@ -1,56 +1,56 @@
 ﻿l_german:
  improve_city_province_decision:1 "$improve_city_province_decision_name$"
- improve_city_province_decision_name:0 "Expand Cities"
- improve_city_province_decision_desc:1 "Pay for extravagant new quarters to be built in your city"
- improve_city_province_decision_confirm:0 "Start the expansion"
- improve_city_province_decision_tooltip:0 "Invest money in order to obtain new [building|E] slots in your [cities|E]"
- improve_city_province_decision_decision_no_effect:1 "No [city|E] is eligible"
- improve_city_province_decision_at_least_one_city_tt:0 "At least one city has less than 5 building slots"
-
+ improve_city_province_decision_name:0 "Städte erweitern"
+ improve_city_province_decision_desc:1 "Für den Bau extravaganter neuer Quartiere in Euren Städten bezahlen"
+ improve_city_province_decision_confirm:0 "Erweiterung beginnen"
+ improve_city_province_decision_tooltip:0 "Geld investieren, um neue [building|E]-Plätze in Euren [Concept('cities', 'Städten')|E] zu erhalten"
+ improve_city_province_decision_decision_no_effect:1 "Keine zulässige [city|E]"
+ improve_city_province_decision_at_least_one_city_tt:0 "Mindestens eine Stadt hat weniger als 5 Gebäudeplätze"
+ 
 #  fp2_secure_mediterranean.t:0 "Secure the Mediterranean"
 #  fp2_secure_mediterranean.desc:0 "With key islands across the Mediterranean secured and acting as watchtowers of the sea, it is time for us to claim ownership over the waves."
 #  fp2_secure_mediterranean.tip:0 "Claim ownership over the Mediterranean"
-
- secure_btw_foothold_decision_title:0 "Beyond the Wall Foothold"
- secure_btw_foothold_decision_desc:0 "The weakened warring wildling tribes of the far north opened the regions's doors to outsides. If one could declare themselves the new [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] leader of the region, or simply a glorious invader, much could be gained."
- secure_btw_foothold_decision_tooltip:0 "Integrate part of the lands beyond the wall"
- secure_btw_foothold_decision_confirm:0 "To the strongest."
- fp2_struggle_uninvolved_or_external_tt:0 "Your [capital|E] is outside the [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [region|E]"
- fp2_struggle_secure_btw_foothold_empire_tt:0 "You [hold|E] an [empire|E] [title|E] that is not [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"
-
- fp2_struggle_phase_hostility_or_opportunity_tt:1 "The Beyond the Wall [struggle_phase|E] is [struggle_phase_btw_hostility|E] or [struggle_phase_btw_opportunity|E] (Current: [GetStruggle('btw_struggle').GetCurrentPhase.GetName])"
- fp2_struggle_secure_btw_foothold_kingdom_btw_tt:0 "You [hold|E] and [completely_control|E] a [de_jure|E] [kingdom|E] of [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"
-
- fp2_struggle_secure_btw_foothold_kingdom_faith_tt:0 "At least #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_faith_target_percent_value')|0]%#! of this [titlepossessive|E] [de_jure|E] [counties|E] are [THIS.Char.GetFaith.GetAdjective]"
- fp2_struggle_secure_btw_foothold_kingdom_border_tt:0 "This [title|E] borders held [de_jure|E] land of an [empire|E] you [hold|E] which is not [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"
- fp2_struggle_secure_btw_foothold_kingdom_held_tt:0 "You have held this [title|E] for at least [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_years_value')|0Z] years"
-
- fp2_struggle_secure_btw_foothold_religion_tt:0 "You [hold|E] at least #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_religion_target_percent_value')|0]%#! of [THIS.Char.GetFaith.GetReligion.GetAdjective] [faith|E] [counties|E] in the [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [region|E] (Current: [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_religion_percent_value')|1]%)\n"
- fp2_struggle_secure_btw_foothold_outsider_tt:0 "You [hold|E] at least #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_outsider_target_percent_value')|0]%#! of [counties|E] in the [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [region|E] (Current: [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_outsider_percent_value')|0]%)\n"
-
- fp2_struggle_secure_btw_foothold_empire_held_effect_tt:0 "Every [de_jure|E] [kingdom|E] of [GetTitleByKey('e_beyond_the_wall').GetNameNoTier] which which satisfies the below conditions will become [de_jure|E] part of [THIS.Char.GetPrimaryTitle.GetNameNoTier]"
- fp2_struggle_secure_btw_foothold_empire_dejure_effect_tt:0 "Every [de_jure|E] [kingdom|E] of [GetTitleByKey('e_beyond_the_wall').GetNameNoTier] which satisfies the below conditions will become [de_jure|E] part of the [empire|E] of [THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier]"
-
- fp2_struggle_secure_btw_foothold_ends_the_struggle_tt:0 "The [btw_struggle|E] ends"
-  
+ 
+ secure_btw_foothold_decision_title:0 "Fußfassen jenseits der Mauer"  #Selbst geschrieben/abgetippt
+ secure_btw_foothold_decision_desc:0 "Die geschwächten kriegerischen Wildlingsstämme des hohen Nordens öffneten die Tore der Region für Außenstehende. Wenn jemand sich zum neuen [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] Anführer der Region oder einfach zu einem glorreichen Eroberer erklären könnte, wäre viel zu holen."  #Selbst geschrieben/abgetippt
+ secure_btw_foothold_decision_tooltip:0 "Einen Teil der Regionen jenseits der Mauer erobern."  #Selbst geschrieben/abgetippt
+ secure_btw_foothold_decision_confirm:0 "Zu den Stärksten."  #Selbst geschrieben/abgetippt
+ fp2_struggle_uninvolved_or_external_tt:0 "Euer [capital|E] liegt außerhalb der [region|E] "[GetGeographicalRegion('world_westeros_beyond_the_wall').GetName]""  #Selbst geschrieben/abgetippt
+ fp2_struggle_secure_btw_foothold_empire_tt:0 "Ihr [hold|E] an [empire|E] [title|E] das nicht [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"  #Selbst geschrieben/abgetippt
+ 
+ fp2_struggle_phase_hostility_or_opportunity_tt:1 "Die [struggle_phase|E] jenseits der Mauer ist [struggle_phase_btw_hostility|E] oder [struggle_phase_btw_opportunity|E] (derzeit: [GetStruggle('btw_struggle').GetCurrentPhase.GetName])"  #Selbst geschrieben/abgetippt
+ fp2_struggle_secure_btw_foothold_kingdom_btw_tt:0 "Ihr  [hold|E] und [completely_control|E] ein [de_jure|E] [kingdom|E] von [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"  #Selbst geschrieben/abgetippt
+ 
+ fp2_struggle_secure_btw_foothold_kingdom_faith_tt:0 "Mindestens #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_faith_target_percent_value')|0]%#! dieser [titlepossessive|E] [de_jure|E] [counties|E] sind [THIS.Char.GetFaith.GetAdjective]"  #Selbst geschrieben/abgetippt
+ fp2_struggle_secure_btw_foothold_kingdom_border_tt:0 "Dieser [title|E] grenzt an [de_jure|E] Land eines [empire|E], das Sie [hold|E], das nicht [GetTitleByKey('e_beyond_the_wall').GetNameNoTier] ist."  #Selbst geschrieben/abgetippt
+ fp2_struggle_secure_btw_foothold_kingdom_held_tt:0 "Sie haben diesen [title|E] seit mindestens [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_years_value')|0Z] Jahren inne"  #Selbst geschrieben/abgetippt
+ 
+ fp2_struggle_secure_btw_foothold_religion_tt:0 "Sie [hold|E] mindestens #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_religion_target_percent_value')|0]%#! von [THIS.Char.GetFaith.GetReligion. GetAdjective] [faith|E] [counties|E] in der [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [region|E] (derzeit: [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_religion_percent_value')|1]%)\n"  #Selbst geschrieben/abgetippt
+ fp2_struggle_secure_btw_foothold_outsider_tt:0 "Sie [hold|E] mindestens #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_outsider_target_percent_value')|0]%#! von [counties|E] in der [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [region|E] (derzeit: [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_outsider_percent_value')|0]%)\n"  #Selbst geschrieben/abgetippt
+ 
+ fp2_struggle_secure_btw_foothold_empire_held_effect_tt:0 "Jedes [de_jure|E] [kingdom|E] von [GetTitleByKey('e_beyond_the_wall').GetNameNoTier], das die folgenden Bedingungen erfüllt, wird [de_jure|E] Teil von [THIS.Char.GetPrimaryTitle.GetNameNoTier]"  #Selbst geschrieben/abgetippt
+ fp2_struggle_secure_btw_foothold_empire_dejure_effect_tt:0 "Jedes [de_jure|E] [kingdom|E] von [GetTitleByKey('e_beyond_the_wall').GetNameNoTier], das die folgenden Bedingungen erfüllt, wird [de_jure|E] Teil des [empire|E] von [THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier]"  #Selbst geschrieben/abgetippt
+ 
+ fp2_struggle_secure_btw_foothold_ends_the_struggle_tt:0 "Der [btw_struggle|E] endet"  #Selbst geschrieben/abgetippt
+ 
  btw_footholder_transfer_tt:0 "[THIS] [THIS.Title.GetName] [THIS.GetName]"
-
- fp2_other_decisions.1000.t:0 "$secure_btw_foothold_decision_title$: [btw_footholder.GetPrimaryTitle.GetAdjectiveNoTooltip] Consolidation"
- fp2_other_decisions.1000.involved_religion:0 "The wars of the fractious tribes of the lands beyond the wall almost brought the [ROOT.Char.GetFaith.GetReligion.GetAdjective] realms of the region to their knees.\n\nWithout our intervention, [ROOT.Char.GetFaith.HighGodNamePossessive] faithful would have eventually been driven from the lands beyond the wall by the imperious infidels.\n\n"
- fp2_other_decisions.1000.desc:0 "The divided wildling tribes have given us a grand opportunity, too busy fighting each other to oppose the [ROOT.Char.GetFaith.GetReligion.GetAdjective] invasion of the north."
- fp2_other_decisions.1000.involved_faith:0 "We are the legitimate defenders of the [ROOT.Char.GetFaith.GetAdherentNamePlural] of the west, now safe under the protection of [ROOT.Char.GetPrimaryTitle.GetDefinitiveName]."
- fp2_other_decisions.1000.uninvolved_faith:0 "It fell to us to bring the light of [ROOT.Char.GetFaith.GetName]; as part of [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] these lands will once more be prosperous and peaceful."
- fp2_other_decisions.1000.closing:0 "\n\nIn time they will see that the time of their false gods has ended, and rejoice that [ROOT.Char.GetFaith.HighGodName] led [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] to the region's salvation."
- fp2_other_decisions.1000.a:0 "New blood was needed beyond the wall."
-
- fp2_other_decisions.1001.involved_religion:0 "After centuries of war between ancient faiths, our struggle has now been exploited by the imperious [btw_footholder.GetPrimaryTitle.GetAdjective] interlopers.\n\n"
- fp2_other_decisions.1001.desc:0 "Through distraction, envy, and negligence, we Beyond the Walls have allowed the [btw_footholder.GetPrimaryTitle.GetAdjective] interlopers to exploit the division of our homeland and invade the historic tribes of the north."
- fp2_other_decisions.1001.involved_faith:0 "[btw_footholder.GetTitledFirstName] has declared [btw_footholder.GetHerselfHimself] the legitimate [btw_footholder.GetFaith.GetAdjectiveNoTooltip] leader of the north, using [btw_footholder.GetHerHis] victories as proof of [btw_footholder.GetHerHis] legitimacy over the ailing [btw_footholder.GetFaith.GetReligion.GetAdjective] tribes of wildlings."
- fp2_other_decisions.1001.same_uninvolved_faith:0 "They claim our failures were [ROOT.Char.GetFaith.HighGodNamePossessive] punishment for straying from the righteous path of [btw_footholder.GetFaith.GetName], and that [btw_footholder.GetTitledFirstName] is the legitimate leader of [ROOT.Char.GetFaith.GetReligion.GetAdjective] the wildlings..."
- fp2_other_decisions.1001.uninvolved_faith:0 "With [btw_footholder.GetHerHis] victories as evidence, [btw_footholder.GetTitledFirstName] has declared [btw_footholder.GetHerHis] [btw_footholder.GetFaith.GetAdjective] faith to be the true [btw_footholder.GetFaith.GetReligion.GetAdjective] path; one that will unite the all the wildling tribes under [btw_footholder.GetFaith.HighGodName]."
- fp2_other_decisions.1001.closing:0 "\n\nAs [btw_footholder.GetTitledFirstName] consolidates [btw_footholder.GetHerHis] holdings, the past differences of ancient faiths seem to pale in comparison to this [btw_footholder.GetFaith.GetAdjective] occupation..."
- fp2_other_decisions.1001.a:0 "Damned interlopers."
-
+ 
+ fp2_other_decisions.1000.t:0 "$secure_btw_foothold_decision_title$: [btw_footholder.GetPrimaryTitle.GetAdjectiveNoTooltip] Festigung"  #Selbst geschrieben/abgetippt
+ fp2_other_decisions.1000.involved_religion:0 "Die Kriege der zerrissenen Stämme in den Ländern jenseits der Mauer hätten die [ROOT.Char.GetFaith.GetReligion.GetAdjective|l]en Reiche der Region fast in die Knie gezwungen.\n\nOhne unser Eingreifen werden die Gläubigen von [ROOT.Char.GetFaith.HighGodName] irgendwann von den herrschsüchtigen Ungläubigen aus den Regionen jenseits der Mauer vertrieben werden.\n\n"  #Selbst geschrieben/abgetippt
+ fp2_other_decisions.1000.desc:0 "Die zerrissenen Stämme der Wildlinge bieten uns eine großartige Gelegenheit, da sie zu sehr damit beschäftigt sind, sich gegenseitig zu bekämpfen, um sich der [ROOT.Char.GetFaith.GetReligion.GetAdjective|l]e Invasion des Nordens entgegenzustellen."  #Selbst geschrieben/abgetippt
+ fp2_other_decisions.1000.involved_faith:0 "Wir sind die legitimen Verteidiger der [ROOT.Char.GetFaith.GetAdherentNamePlural] des Westens, die nun unter dem Schutz von [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] sicher sind."
+ fp2_other_decisions.1000.uninvolved_faith:0 "Es obliegt uns, das Licht unseres Glaubens ([ROOT.Char.GetFaith.GetName]) zu verbreiten. Als Teil von [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] wird in diesen Landen wieder Wohlstand und Frieden herrschen."
+ fp2_other_decisions.1000.closing:0 "\n\nEs ist nur eine Frage der Zeit, bis ihre falschen Götter ausgetrieben sind und wir frohlocken, weil [ROOT.Char.GetFaith.HighGodName] [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] zur Rettung dieser Region geführt hat."
+ fp2_other_decisions.1000.a:0 "Es wurde neues Blut jenseits der Mauer benötigt."  #Selbst geschrieben/abgetippt
+ 
+ fp2_other_decisions.1001.involved_religion:0 "Nach Jahrhunderten des Krieges zwischen den alten Religionen wird unser Konflikt nun von herrischen [btw_footholder.GetPrimaryTitle.GetAdjective|l]en Eindringlingen ausgenutzt.\n\n"  #Selbst geschrieben/abgetippt
+ fp2_other_decisions.1001.desc:0 "Durch Ablenkung, Neid und Vernachlässigung ließen wir jenseits der Mauer zu, dass die [btw_footholder.GetPrimaryTitle.GetAdjective|l]en Eindringlinge die Spaltung unseres Territoriums ausnutzen und in die alten Stämme des Nordens einfallen."  #Selbst geschrieben/abgetippt
+ fp2_other_decisions.1001.involved_faith:0 "[btw_footholder.GetTitledFirstName] hat sich zum legitimen [btw_footholder.GetFaith.GetAdjectiveNoTooltip|l]en Anführer des Nordens erklärt und nutzt [btw_footholder.Custom('DE_PRO_POS_S_3P')]e Siege als Beweis für [btw_footholder.Custom('DE_PRO_POS_S_3P')]e Legitimität gegenüber den schwächelnden [btw_footholder.GetFaith.GetReligion.GetAdjective|l]en Stämmen der Wildlinge."  #Selbst geschrieben/abgetippt
+ fp2_other_decisions.1001.same_uninvolved_faith:0 "Man behauptet, unser Versagen sei die Strafe für [ROOT.Char.GetFaith.HighGodNamePossessive] dafür, dass wir vom rechten Pfad ([btw_footholder.GetFaith.GetName]) abgekommen sind, und dass [btw_footholder.GetTitledFirstName] der legitime Anführer von den [ROOT.Char.GetFaith.GetReligion.GetAdjective|l] Wildlingen, sei..."  #Selbst geschrieben/abgetippt
+ fp2_other_decisions.1001.uninvolved_faith:0 "Mit [btw_footholder.Custom('DE_PRO_POS_S_3P')]en Siegen als Beleg hat [btw_footholder.GetTitledFirstName] [btw_footholder.Custom('DE_PRO_POS_S_3P')]en Glauben zum wahren [btw_footholder.GetFaith.GetReligion.GetAdjective|l]en Pfad erklärt: einem Pfad, der alle Stämme unter [btw_footholder.GetFaith.HighGodName] einen wird."  #Selbst geschrieben/abgetippt
+ fp2_other_decisions.1001.closing:0 "\n\nWährend [btw_footholder.GetTitledFirstName] [btw_footholder.Custom('DE_PRO_POS_S_3P')]e Besitztümer konsolidiert, scheinen die Differenzen zwischen den alten Glaubensgemeinschaften angesichts der [btw_footholder.GetFaith.GetAdjective|l]en Besetzung zu verblassen..."  #Selbst geschrieben/abgetippt
+ fp2_other_decisions.1001.a:0 "Diese verdammte Einmischung."
+ 
  ### Council of Toledo Decision
 #  council_of_toledo_decision_title:0 "Convene Council of Toledo"
 #  council_of_toledo_decision_desc_count:0 "A time will come to convene the [SCOPE.ScriptValue('council_of_toledo_counter_value')][ROOT.Char.Custom('get_council_of_toledo_count_suffix')] Council of [GetTitleByKey('c_toledo').GetNameNoTier], and settle the religious questions of the [ROOT.Char.GetFaith.GetAdherentNamePlural] once more."
@@ -163,7 +163,7 @@
 #  # Other
 #  fervor_gain_council_toledo:0 "$fp2_small_council_modifier$"
 #  fp2_council_toledo_culture_acceptance_desc:0 "$fp2_small_council_modifier$"
-
+ 
 #  found_kingdom_toledo_decision_title:0 "Establish Kingdom of Toledo"
 #  found_kingdom_toledo_decision_desc:0 "Since the fall of the Visigothic kingdom to the Moors, [GetTitleByKey('c_toledo').GetNameNoTier] has been relegated. As the capital of a new [ROOT.Char.GetFaith.GetAdjective] realm, it will once more be a seat of kings."
 #  found_kingdom_toledo_decision_confirm:0 "Toledo is the heart of Iberia!"
@@ -172,11 +172,11 @@
 #  found_kingdom_toledo_faith_tt:0 "Your [faith|E] is [GetFaithByKey('mozarabic_church').GetName], or was created from it"
 #  found_kingdom_toledo_duchy_tt:0 "You [hold|E] and [completely_control|E] any [duchy|E] which [de_jure|E] borders the [GetTitleByKey('d_toledo').GetName], and which is part of a [kingdom|E] with more than two [de_jure|E] [duchies|E]"
 #  found_kingdom_toledo_capital_tt:0 "[GetTitleByKey('c_toledo').GetNameNoTier] is your [realm_capital|E]"
-
+ 
 #  fp2_other_decisions.1100.t:0 "The Kingdom of Toledo"
 #  fp2_other_decisions.1100.desc:0 "With the strength of my position now beyond all doubt, the coronation in [GetTitleByKey('c_toledo').GetNameNoTier] has at last gone ahead as planned.\n\nIt is high time we [ROOT.Char.GetFaith.GetAdherentNamePlural] carved out our own domain, distinct from the petty taifas and the dominions of the north; a realm to rival the Visigothic kingdom of old!"
 #  fp2_other_decisions.1100.a:0 "Long may our kingdom prosper."
-
+ 
 #  fp2_other_decisions.1101.desc:0 "Going from strength to strength, [toledo_former.GetTitledFirstName] has had [toledo_former.GetHerselfHimself] formally crowned in [GetTitleByKey('c_toledo').GetNameNoTier].\n\nThe strength of this new [toledo_former.GetFaith.GetAdjective] kingdom, incorporating the lands of the old dominions of Iberia, is now beyond doubt.\n\n"
 #  fp2_other_decisions.1101.stolen:1 "These vexatious upstarts will have to be dealt with sooner rather than later!"
 #  fp2_other_decisions.1101.mozarab:0 "Though this bodes well for our faith, it may be a double-edged sword..."
