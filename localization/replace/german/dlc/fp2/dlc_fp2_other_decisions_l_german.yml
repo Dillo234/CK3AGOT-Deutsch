@@ -12,14 +12,14 @@
 #  fp2_secure_mediterranean.tip:0 "Claim ownership over the Mediterranean"
  
  secure_btw_foothold_decision_title:0 "Fußfassen jenseits der Mauer"  #Selbst geschrieben/abgetippt
- secure_btw_foothold_decision_desc:0 "Die geschwächten kriegerischen Wildlingsstämme des hohen Nordens öffneten die Tore der Region für Außenstehende. Wenn jemand sich zum neuen [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] Anführer der Region oder einfach zu einem glorreichen Eroberer erklären könnte, wäre viel zu holen."  #Selbst geschrieben/abgetippt
+ secure_btw_foothold_decision_desc:0 "Die geschwächten kriegerischen Wildlingsstämme des hohen Nordens öffneten die Tore der Region für Außenstehende. Wenn jemand sich zum neuen [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip]en Anführer der Region oder einfach zu einem glorreichen Eroberer erklären könnte, wäre viel zu holen."  #Selbst geschrieben/abgetippt
  secure_btw_foothold_decision_tooltip:0 "Einen Teil der Regionen jenseits der Mauer erobern."  #Selbst geschrieben/abgetippt
  secure_btw_foothold_decision_confirm:0 "Zu den Stärksten."  #Selbst geschrieben/abgetippt
- fp2_struggle_uninvolved_or_external_tt:0 "Euer [capital|E] liegt außerhalb der [region|E] "[GetGeographicalRegion('world_westeros_beyond_the_wall').GetName]""  #Selbst geschrieben/abgetippt
- fp2_struggle_secure_btw_foothold_empire_tt:0 "Ihr [hold|E] an [empire|E] [title|E] das nicht [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"  #Selbst geschrieben/abgetippt
+ fp2_struggle_uninvolved_or_external_tt:0 "Euer [capital|E] liegt außerhalb der [region|E] [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName]"  #Selbst geschrieben/abgetippt
+ fp2_struggle_secure_btw_foothold_empire_tt:0 "Ihr haltet einen [empire|E]-[title|E], der nicht [GetTitleByKey('e_beyond_the_wall').GetNameNoTier] ist"  #Selbst geschrieben/abgetippt
  
  fp2_struggle_phase_hostility_or_opportunity_tt:1 "Die [struggle_phase|E] jenseits der Mauer ist [struggle_phase_btw_hostility|E] oder [struggle_phase_btw_opportunity|E] (derzeit: [GetStruggle('btw_struggle').GetCurrentPhase.GetName])"  #Selbst geschrieben/abgetippt
- fp2_struggle_secure_btw_foothold_kingdom_btw_tt:0 "Ihr  [hold|E] und [completely_control|E] ein [de_jure|E] [kingdom|E] von [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"  #Selbst geschrieben/abgetippt
+ fp2_struggle_secure_btw_foothold_kingdom_btw_tt:0 "Ihr [Concept('hold', 'haltet')|E] und [completely_controls|E] ein [de_jure|E]-[kingdom|E] [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"  #Selbst geschrieben/abgetippt
  
  fp2_struggle_secure_btw_foothold_kingdom_faith_tt:0 "Mindestens #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_faith_target_percent_value')|0]%#! dieser [titlepossessive|E] [de_jure|E] [counties|E] sind [THIS.Char.GetFaith.GetAdjective]"  #Selbst geschrieben/abgetippt
  fp2_struggle_secure_btw_foothold_kingdom_border_tt:0 "Dieser [title|E] grenzt an [de_jure|E] Land eines [empire|E], das Sie [hold|E], das nicht [GetTitleByKey('e_beyond_the_wall').GetNameNoTier] ist."  #Selbst geschrieben/abgetippt
