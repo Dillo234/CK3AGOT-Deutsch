@@ -5,12 +5,12 @@
  
  game_concept_btw_struggle:1 "Konflikt jenseits der Mauer"  #Selbst geschrieben/abgetippt
  game_concept_btw_struggle_desc:2 "Der $game_concept_btw_struggle$ stellt die seit Jahrtausenden von zerrütteten Beziehungen jenseits der Mauer dar. Auch wenn es durch den Bau der Mauer vor achttausend Jahren am Ende der Langen Nacht geboren wurde, durchlief das [struggle|E] [struggle_phase_phases|E] der hasserfüllten Gewalt, der misstrauischen Waffenstillstände und der pragmatischen Zusammenarbeit.  In solchen Situationen gibt es nur wenige dauerhafte Verbündete, und [rulers|E] sollten sich davor hüten, sich nur auf einen gemeinsamen [Concept('faith', 'Glauben')|E] oder eine geteilte [culture|E] zu verlassen."  #Selbst geschrieben/abgetippt
- game_concept_struggle_phase:1 "Konflikt-Phase"
+ game_concept_struggle_phase:1 "Konfliktphase"
  game_concept_struggle_phase_phase:1 "Phase"
  game_concept_struggle_phase_phases:0 "Phasen"
  game_concept_struggle_phase_desc:1 "Eine $game_concept_struggle_phase_phase$ ist eine allgemeine Stimmung, die die am [Concept('struggle_involved', 'Konflikt beteiligten')|E] [characters|E] und [counties|E] in der [struggle_region|E] gemeinsam haben. Phasen stehen für kurzfristige gesellschaftliche Neigungen und Haltungen, die zeitweise den Dialog innerhalb des [Concept('struggle', 'Konflikts')|E] dominieren.\n\n#weak Beispiel: In einer $game_concept_struggle_phase_phase$ könnten die Bewohner einer $game_concept_struggle_region_region$ denken, religiöse Toleranz sei entscheidend, selbst wenn der Rest des Glaubens anderer Meinung ist.#!"
  
- game_concept_struggle_catalyst:1 "Konflikt-Auslöser"
+ game_concept_struggle_catalyst:1 "Konfliktauslöser"
  game_concept_struggle_catalyst_catalyst:1 "Auslöser"
  game_concept_struggle_catalyst_catalysts:0 "Auslöser"
  game_concept_struggle_catalyst_desc:2 "Ein [struggle_struggles|E] durchläuft [struggle_phase_phases|E], wenn gewisse bemerkenswerte Taten unternommen werden, die in ihrer [struggle_region|E] für einen Konsens hinsichtlich einer bestimmten Stimmung sorgen. Eine Liste der Taten und in welcher $game_concept_struggle_phase_phase$ sie wichtig sind, findet sich im $game_concept_struggle$-Fenster.\n\n#weak Beispiel: Die [struggle_phase_btw_opportunity|E] des [Concept('btw_struggle', 'Konflikts jenseits der Mauer')|E] kann in der [struggle_phase_btw_hostility|E] oder der [struggle_phase_btw_conciliation|E] übergehen. Wird ein wichtiger [character|E] ermordet, geht die Tendenz zu Ersterem, wohingegen ein [alliance|E] durch eine [marriage|E] mit jemandem eines anderen [Concept('faith', 'Glaubens')|E] auf Letzteres hinwirkt."  #Selbst geschrieben/abgetippt
@@ -28,7 +28,7 @@
  game_concept_struggle_large_conquest:1 "Konflikt-Großeroberung"
  game_concept_struggle_large_conquest_desc:1 "Einige $game_concept_struggle_catalyst_catalysts$ drehen sich um den erfolgreichen Abschluss eines größeren [Concept('war', 'Kriegs')|E] durch den Angreifer.\n\nDazu zählen die folgenden [casus_bellis|E]:\n$EFFECT_LIST_BULLET$ $duchy_conquest_cb$ \n$EFFECT_LIST_BULLET$ $individual_duchy_de_jure_cb$ \n$EFFECT_LIST_BULLET$ $imperial_reconquest_cb$ \n$EFFECT_LIST_BULLET$ $invasion_war$ \n$EFFECT_LIST_BULLET$ $clan_invasion_war$ \n$EFFECT_LIST_BULLET$ $mongol_invasion_war$ \n$EFFECT_LIST_BULLET$ $major_religious_war$ $game_concept_war$ \n$EFFECT_LIST_BULLET$ Sowohl [Concept('great_holy_war_directed', 'Gezielte')|E] als auch [Concept('great_holy_war_undirected', 'Ungezielte')|E] $undirected_great_holy_war$e \n$EFFECT_LIST_BULLET$ $tribal_subjugation_cb$"
  
- game_concept_struggle_region:1 "Konflikt-Region"
+ game_concept_struggle_region:1 "Konfliktregion"
  game_concept_struggle_region_region:1 "Region"
  game_concept_struggle_region_regions:0 "Regionen"
  game_concept_struggle_region_desc:2 "Jedes [struggle|E] ist an eine [region|E] auf der Karte gebunden. Der Standort eines [Concept('character','Charakters')|E] innerhalb der $game_concept_region$ (sowie seine [culture|E] und sein [faith|E]) bestimmen, ob er als [struggle_involved|E], [struggle_interloper|E] oder [struggle_uninvolved|E] gilt.\n\n[counties|E] in einer $game_concept_struggle_region$ sind allgemein verschiedenen [county_modifiers|E] unterworfen, die von der jeweiligen [struggle_phase_phase] abhängen."
