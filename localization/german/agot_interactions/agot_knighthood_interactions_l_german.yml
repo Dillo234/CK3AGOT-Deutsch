@@ -4,7 +4,7 @@
  agot_offer_knighthood_interaction_desc:0 "[recipient.GetFirstNameNicknamedNoTooltipRegnal] ist noch kein Ritter, kann jedoch einer werden. Als Ritter der Königslande, steht es mir zu, andere in den Ritterstand zu erheben."
 
  offer_of_knighthood:0 "Der Ritterschlag"
- OFFER_KNIGHTHOOD_NOTIFICATION:0 "Die Ritter der Königslande haben das Privileg andere zum Ritter zu schlagen. Mir blieb nicht unbemerkt, dass ihr noch kein Ritter seid. Es wäre mir eine Freude, dies zu ändern."
+ OFFER_KNIGHTHOOD_NOTIFICATION:0 "Die Ritter der Königslande haben das Privileg, andere zum Ritter zu schlagen. Mir blieb nicht unbemerkt, dass ihr noch kein Ritter seid. Es wäre mir eine Freude, dies zu ändern."
 
  agot_offer_squirehood_interaction:0 "Knappen ausbilden"
  agot_offer_squirehood_interaction_desc:0 "Unterweist einen [squire|E]n einem [agot_knight|E] an Eurem [court|E]"
@@ -39,13 +39,13 @@
  SQUIRE_ACTOR_REQUEST:0 "Es wäre mir eine große Freude, wenn Ihr genehmigen würdet, dass [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))]s [secondary_recipient.GetShortUIName] zum Knappen nähmet."
 
  EDUCATE_RECIPIENT_SQUIRE_PERSONALLY_REQUEST:0 "Ich würde gerne der Ritter Eures [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))]s [secondary_recipient.GetShortUIName] werden, falls es Euch genehm ist."
- EDUCATE_SQUIRE_PERSONALLY_REQUEST:0 "Ich würde persönlich dafür sorgen, dass Ihr die beste Knappenausbildung erhaltet — Wenn ihr wünscht."
+ EDUCATE_SQUIRE_PERSONALLY_REQUEST:0 "Ich würde persönlich dafür sorgen, dass Ihr die beste Knappenausbildung erhaltet — Wenn ihr dies wünscht."
  EDUCATE_RECIPIENT_SQUIRE_REQUEST:0 "Ich hätte gerne, dass Euer [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] der Knappe von [secondary_actor.GetShortUIName] wird  — einem höchst geschickten Ritter!"
  EDUCATE_SQUIRE_REQUEST:0 "Um sicherzugehen, dass Ihr eines Tages ein Ritter werdet, hätte ich es gerne, dass Ihr der Knappe von [secondary_actor.GetShortUIName] werdet — einem höchst geschickten Ritter!"
  educate_squire_interaction_notification:0 "Knappen ausbilden"
 
  offer_of_squirehood:0 "Knappentum anbieten"
- OFFER_SQUIREHOOD_NOTIFICATION:0 "Der Weg zum Ritter beginnt als Knappe. Werdet mein Knappe und wenn Ihr Euch für würdig erweist, werde ich Euch eines Tages zum Ritter schlagen!" #AGOT TODO  please rewrite this
+ OFFER_SQUIREHOOD_NOTIFICATION:0 "Der Weg zum Ritter beginnt als Knappe. Werdet mein Knappe und wenn Ihr Euch als würdig erweist, werde ich Euch eines Tages zum Ritter schlagen!" #AGOT TODO  please rewrite this
 
  agot_remove_my_squire_interaction:0 "Knappe entlassen"
  agot_remove_my_squire_interaction_desc:0 "[recipient.GetFirstNameNicknamedNoTooltipRegnal] ist Euer Knappe, jedoch kann dies kurzerhand auch wieder rückgängig gemacht werden."
@@ -57,7 +57,7 @@
  agot_train_squire_interaction_desc:0 "[recipient.GetFirstNameNicknamedNoTooltipRegnal] in den Fertigkeiten des Rittertums unterweisen."
 
  squire_training:0 "Knappenübung"
- KNIGHT_TRAINS_SQUIRE_NOTIFICATION:0 "Knappe! Es ist wieder an der Zeit, dass ich Euch in den Fertigkeiten des Rittertums unterweise. Macht Euch bereit, da wir am morgigen Tag üben, wie nie zuvor." #AGOT TODO  please rewrite this
+ KNIGHT_TRAINS_SQUIRE_NOTIFICATION:0 "Knappe! Es ist wieder an der Zeit, dass ich Euch in den Fertigkeiten des Rittertums unterweise. Macht Euch bereit, am morgigen Tag üben wir wie nie zuvor." #AGOT TODO  please rewrite this
 
  agot_train_squire_actor.tt:0 "Wird entscheiden, auf welchem Gebiet [recipient.GetName] unterwiesen werden soll."
  agot_train_squire_recipient.tt:0 "Wird eine von [actor.GetName] ausgewählte Unterweisung erhalten."
