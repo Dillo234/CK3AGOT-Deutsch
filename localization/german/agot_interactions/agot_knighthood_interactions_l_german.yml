@@ -1,10 +1,10 @@
 ﻿l_german:
  # übersetzt von Lys
  agot_offer_knighthood_interaction:0 "Ritterwürde anbieten"
- agot_offer_knighthood_interaction_desc:0 "[recipient.GetFirstNameNicknamedNoTooltipRegnal] ist noch kein Ritter, kann jedoch einer werden. Da ich ein Ritter der Königslande bin, steht mir das Recht zu andere zum Ritter zuschlagen."
+ agot_offer_knighthood_interaction_desc:0 "[recipient.GetFirstNameNicknamedNoTooltipRegnal] ist noch kein Ritter, kann jedoch einer werden. Als Ritter der Königslande, steht es mir zu, andere in den Ritterstand zu erheben."
 
  offer_of_knighthood:0 "Der Ritterschlag"
- OFFER_KNIGHTHOOD_NOTIFICATION:0 "Die Ritter der Königslande haben das Privileg andere zum Ritter zuschlagen. Mir blieb nicht unbemerkt, dass ihr noch kein Ritter seid. Es wäre mir eine Freude, diese Angelegenheit zu ändern."
+ OFFER_KNIGHTHOOD_NOTIFICATION:0 "Die Ritter der Königslande haben das Privileg andere zum Ritter zu schlagen. Mir blieb nicht unbemerkt, dass ihr noch kein Ritter seid. Es wäre mir eine Freude, dies zu ändern."
 
  agot_offer_squirehood_interaction:0 "Knappen ausbilden"
  agot_offer_squirehood_interaction_desc:0 "Unterweist einen [squire|E]n einem [agot_knight|E] an Eurem [court|E]"
@@ -14,8 +14,8 @@
  agot_offer_squirehood_interaction_notification:0 "Knappen anbieten"
 
  agot_offer_squire_interaction:0 "Knappen anbieten"
- agot_offer_squire_interaction_desc:0 "[recipient.GetShortUIName] einen [squire|E] anbieten, was [recipient.GetHerHim] oder jemand anderen an [recipient.GetHerHis]em [court|E], zu dem [agot_knight|E] des Knappen macht."
- agot_offer_squire_interaction_extra_icon:0 "$hook_extra_icon$"
+ agot_offer_squire_interaction_desc:0 "[recipient.GetShortUIName] einen [Concept.('squire', 'Knappen')|E] anbieten, was [recipient.Custom('DE_PRO_PER_S_3P_A')] oder jemand anderen an [recipient.GetHerHis]em [court|E], zu dem [agot_knight|E] des Knappen macht."
+ agot_offer_squire_interaction_extra_icon:0 "$hook_extra_icon$" #Ab hier
 
  agot_offer_knight_education_interaction:0 "Knappenausbildung anbieten"
  agot_offer_knight_education_interaction_desc:0 "[recipient.GetShortUIName] einen [agot_knight|E] anbieten, dieser wird einen [squire|E]n von [recipient.GetHerHis]em [court|E] zugeteilt."
@@ -38,7 +38,7 @@
  SQUIRE_ACTOR_CHILD_REQUEST:0 "Es wäre mir eine große Freude, wenn Ihr es genehmigen würdet, dass [secondary_actor.GetShortUIName] der Knappe von Eurem [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName]."
  SQUIRE_ACTOR_REQUEST:0 "It would please me greatly if you would allow your [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive] squire." #tbf
 
- EDUCATE_RECIPIENT_SQUIRE_PERSONALLY_REQUEST:0 "Ich würde gerne Euer [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive] Ritter werden, falls es Euch genehm ist."
+ EDUCATE_RECIPIENT_SQUIRE_PERSONALLY_REQUEST:0 "Ich würde gerne der Ritter Eures [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))]s [secondary_recipient.GetShortUIName] werden, falls es Euch genehm ist."
  EDUCATE_SQUIRE_PERSONALLY_REQUEST:0 "Ich würde persönlich dafür sorgen, dass Ihr die beste Knappenausbildung erhaltet — Wenn ihr es so wollt."
  EDUCATE_RECIPIENT_SQUIRE_REQUEST:0 "Ich hätte gerne, dass Euer [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] der Knappe von [secondary_actor.GetShortUIName] wird  — einem höchst geschickter Ritter!"
  EDUCATE_SQUIRE_REQUEST:0 "Um sicherzugehen, dass Ihr eines Tages ein Ritter werdet, hätte ich es gerne, dass Ihr der Knappe von [secondary_actor.GetShortUIName] werdet — einem höchst geschickter Ritter!"
