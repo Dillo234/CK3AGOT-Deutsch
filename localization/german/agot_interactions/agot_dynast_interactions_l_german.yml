@@ -1,0 +1,12 @@
+﻿l_german:
+ # Übersetzt von Lysander
+ #Dynast Interactions
+
+ send_to_nightswatch_interaction:0 "Zur Nachtwache schicken #weak (Dynasty)#!"
+ send_to_nightswatch_interaction_desc:0 "$dynasty_interaction_header$Schickt [recipient.GetShortUINameNoTooltip] fort, damit er Bruder der Nachtwache wird und als Schild der Reiche der Menschen dient. Er wird sich keine Frau nehmen, kein Land besitzen, keine Kinder zeugen. Es ist eine ehrhafte Pflicht."
+ send_to_nightswatch_interaction_toast:1 "[recipient.GetShortUIName] hat seine Reise zur Mauer angetreten"
+ send_to_nightswatch_interaction_toast_desc:0 "Nun beginnt seine Wacht."
+
+ CHARACTER_INTERACTION_NOT_ALLOWED_IN_NIGHTSWATCH:0 "[recipient.GetSheHe] dürfen nicht als [knight|E] im Zielbereich [court|E] dienen" # Sehr seltsamer Satz
+
+ send_to_nightswatch_interaction_effect_desc:1 "#weak [CHARACTER.GetShortUIName] wird Euren Hof verlassen um der Nachtwache zu dienen. [CHARACTER.GetSheHe|U] wird auf alle Rechte und Ansprüche verzichten,um die Reiche der Menschen zu verteidigen.#!"

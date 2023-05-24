@@ -1,0 +1,34 @@
+﻿l_german:
+ ## Übersetzt von Großerzmaester Dillo das Große Erz
+  agot_weirwood_events.0001.t:0 "Der Herzbaum"
+  agot_weirwood_events.0001.desc:0 "Ungeachtet des Glaubens gibt es nur wenige Orte auf der Welt, die dem Herzen eines Götterhains hinsichtlich der Ruhe und der überweltlichen Abgeschiedenheit nahe kommen. Aber dies ist nicht nur ein Garten, in dem Sie entspannt spazieren gehen können - hier herrschen die Alten Götter.\n\nAls ich mich dem Herzbaum nähere, wünsche ich mir nichts sehnlicher als..."
+  agot_weirwood_events.0001.a:0 "...den Segen der Götter."
+  agot_weirwood_events.0001.b:0 "...Gesundheit."
+  agot_weirwood_events.0001.c:0 "...Ruhe."
+  agot_weirwood_events.0001.d:0 "...Weisungen der Götter."
+ 
+ ############
+ # TOOLTIPS #
+ ############
+ 
+ gain_piety_tooltip:0 "Meine Frömmigkeit bleibt nicht unbemerkt"
+ upgrade_education_tooltip:0 "Ihr verbessert Eure [education_trait|E]-Eigenschaft"  ## Nicht sicher
+ may_gain_animal_companion_tooltip:0 "Ihr erhaltet einen vierbeinigen Begleiter"
+ gain_fertility_bonus_tooltip:0 "Ihr erhaltet einen Bonus auf Eure [fertility|E]"
+ gain_minor_health_bonus_tooltip:0 "Ihr erhaltet einen kleinen Bonus auf Eure [health|E]"
+ gain_medium_health_bonus_tooltip:0 "Ihr erhaltet einen mittleren Bonus auf Eure [health|E]"
+ downgrade_wounds_tooltip:0 "Eure Wunden verheilen etwas"
+ wounds_turn_to_cripple_tooltip:0 "Eure Wunden heilen vollständig, aber Ihr werdet [GetTrait('crippled').GetName( GetNullCharacter )]"
+ may_improve_relationship_with_spouse_tooltip:0 "Ihr verbessert Eure Beziehung zu [spouse.GetName]"
+ may_improve_relationship_with_family_member_tooltip:0 "Ihr verbessert Eure Beziehung zu einem Familienmitglied"
+ may_remove_sins_tooltip:0 "Ihr könnt wählen, ob ihr eine der folgenden [sins|E] oder allgemein negative [traits|E] überwinden wollt:"
+ may_remove_specific_sin_tooltip:0 "[GetTrait(Localize(Scope.GetFlagName)).GetName(GetPlayer.Self)]"
+ may_gain_calm_tooltip:0 "Ihr könnt entschließen, die [trait|E] [GetTrait('calm').GetName(GetNullCharacter)] zu erhalten"
+ 
+ #############
+ # MODIFIERS #
+ #############
+ 
+ weirwood_fertility_bonus_modifier:0 "Fruchtbarkeitssegen des Wehrholzbaumes"
+ weirwood_minor_health_bonus_modifier:0 "Gesundheitssegen des Wehrholzbaumes (Klein)"
+ weirwood_medium_health_bonus_modifier:0 "Gesundheitssegen des Wehrholzbaumes (Mittel)"

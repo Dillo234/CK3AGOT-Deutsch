@@ -1,0 +1,19 @@
+﻿l_german:
+# übersetzt von Erllandur, durchgesehen und überarbeitet von Dillo
+ agot_go_on_reaving_decision:0 "Eine Große Ernte unternehmen" # Gibt mehrere Möglichkeiten, aber in https://eisundfeuer.fandom.com/de/wiki/Eisenm%C3%A4nner ist i.d.R. von'Plünderungszug' die Rede
+ agot_go_on_reaving_decision_opening_desc:0 "#F Zahlt den Eisernen Preis und bereitet einen Große Ernte vor, um die Länder jenseits der Meerenge zu plündern. Eisenmänner aus dem ganzen Reich werden sich Eurer Flotte anschließen, um die Länder von Safran und Seide zu verwüsten!#!"
+ reaving_effect_1:0 "Ihr werdet ein erntereifes Ziel wählen"
+ reaving_effect_2:0 "Je erfolgreicher Euere Ernte ist ist, desto mehr [piety|E] und [prestige|E] erhaltet Ihr"
+ reaving_effect_3:0 "Ihr könntet die [GetTrait('viking').GetName( GetNullCharacter )]-Eigenschaft erhalten"
+ agot_go_on_reaving_decision_tooltip:0 "Eine Große [reaving|E] wird ausgerufen."
+ agot_go_on_reaving_decision_confirm:0 "Die Grünländer werden die Eisenmänner fürchten!"
+
+
+
+ host_feast_decision_desc_vassals:1 "Die [opinion|E] Eurer Vasallen von Euch könnte steigen"
+ host_feast_decision_desc_shy:1 "#N Da Ihr [GetTrait('shy').GetName( GetPlayer )] seid, werdet Ihr keine [stress|E] verlieren#!" #bleibt stress, stress oder wird es Stress-Level? ggf. in "wird sich dein [stress|E] nicht verringern" ändern #Antwort v. Dillo: Es wird Anspannung (-sstufe) :)
+ host_feast_decision_desc_pensive:0 "#N Da Ihr [GetTrait('pensive').GetName( GetPlayer )] seid, werdet Ihr [stress|E] verlieren#!"
+ host_feast_decision_desc_stress_medium:1 "Eure [stress|E] wird sich verringern"
+ host_feast_decision_desc_stress:1 "Eure [stress|E] könnte sich verringern"
+ host_feast_decision_desc_liege_opinion:1 "Könnte die [opinion|E] Eures Lehnsherren von Euch verbessern"
+ host_feast_decision_confirm:0 "Ruft alle Eisenmänner!"

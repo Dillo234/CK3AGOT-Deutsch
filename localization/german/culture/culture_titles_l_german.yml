@@ -1,0 +1,240 @@
+﻿l_german:
+# Übersetzt von Lys
+
+#General names:
+ baron:0 "Lord"
+ baron_female:0 "Lady" 
+ barony:0 "Baronie" 
+ count:0 "Lord"
+ count_female:0 "Lady"
+ county:0 "Lordschaft"
+ duke:0 "Lord"
+ duke_female:0 "Lady"
+ duchy:0 "Hochlordschaft"
+ king:0 "König"
+ king_female:0 "Königin"
+ kingdom:0 "Königreich"
+ emperor:0 "König"
+ emperor_female:0 "Königin"
+ empire:0 "Königreich"
+ 
+ baron_plural:0 "Lords"
+ count_plural:0 "Lords"
+ duke_plural:0 "Lords"
+ king_plural:0 "Könige"
+ emperor_plural:0 "Könige"
+ unlanded_plural:0 "Landlose"
+ 
+ realm_priest_male:0 "[CHARACTER.GetCouncilTitle]"
+ realm_priest_female:0 "[CHARACTER.GetCouncilTitle]"
+ #head_of_faith_male:0 "[CHARACTER.GetFaith.ReligiousHeadName|U]"
+ head_of_faith_female:0 "[CHARACTER.GetFaith.ReligiousHeadName|U]"
+ 
+
+
+ #Default Feudal tiers 
+ #Default LP Feudal tiers
+ #Default Republic tiers
+ #Default Theocracy tiers
+ #Default Clan tiers
+ #Default Tribal tiers
+ #Default Imperial tiers
+ #Default Nomadic Clan tiers
+ #Default Mercenary tiers
+ #Default Holy Order tiers
+ #Default Viceroyalty tiers
+
+
+ #Default Feudal tiers 
+ baron_feudal_male:0 "Lord"
+ baron_feudal_female:0 "Lady"
+ barony_feudal:0 "Kleinlordschaft"
+ count_feudal_male:0 "Lord"
+ count_feudal_female:0 "Lady"
+ county_feudal:0 "Lordschaft"
+ duke_feudal_male:0 "Lord"
+ duke_feudal_female:0 "Lady"
+ duchy_feudal:0 "Hochlordschaft"
+ duke_feudal_independent:0 "Lord"
+ duke_feudal_independent_female:0 "Lady"
+ duchy_feudal_independent:0 "Hochlordschaft"
+ king_feudal_male:0 "König"
+ king_feudal_female:0 "Königin"
+ kingdom_feudal:0 "Königreich"
+ emperor_feudal_male:0 "König"
+ emperor_feudal_female:0 "Königin"
+ empire_feudal:0 "Königreich"
+
+
+ #Default LP Feudal tiers
+ baron_lp_feudal_male:0 "Lord"
+ baron_lp_feudal_female:0 "Lady"
+ barony_lp_feudal:0 "Baronie"
+
+ count_lp_feudal_male:0 "Lord"
+ count_lp_feudal_female:0 "Lady"
+ county_lp_feudal:0 "Lordschaft"
+
+ duke_lp_feudal_male:0 "Lord"
+ duke_lp_feudal_female:0 "Lady"
+ duchy_lp_feudal:0 "Hochlordschaft"
+ duke_lp_feudal_independent:0 "Lord"
+ duke_lp_feudal_independent_female:0 "Lady"
+ duchy_lp_feudal_independent:0 "Hohe Lordschaft"
+
+ kingdom_lp_feudal:0 "[CHARACTER.Custom('LP_FEUDAL_TITLE')]" 
+ kingdom_lp_feudal_default:0 "Oberste Lordschaft"
+ kingdom_lp_feudal_independent_default:0 "Königreich"
+ kingdom_lp_feudal_independent_rhoynish:0 "Fürstentum"
+
+ king_lp_feudal_male:0 "[CHARACTER.Custom('LP_FEUDAL_MALE')]"
+ king_lp_feudal_female:0 "[CHARACTER.Custom('LP_FEUDAL_FEMALE')]"
+ king_lp_feudal_male_default:0 "Lord"
+ king_lp_feudal_female_default:0 "Lady"
+ king_lp_feudal_independent_rhoynish:0 "Prinz"
+ queen_lp_feudal_independent_rhoynish:0 "Prinzessin"
+
+ empire_lp_feudal:0 "Königreich"
+ empire_iron_throne:0 "Königslande" 
+ empire_lp_feudal_default:0 "Königreich"
+
+ emperor_lp_feudal_male:0 "[CHARACTER.Custom('LP_FEUDAL_EMPIRE_MALE')]"
+ emperor_lp_feudal_female:0 "[CHARACTER.Custom('LP_FEUDAL_EMPIRE_FEMALE')]"
+ emperor_lp_feudal_male_default:0 "König"
+ emperor_lp_feudal_female_default:0 "Königin"
+
+
+ principality_lp_feudal:0 "Fürstentum"
+ principality_lp_feudal_male:0 "Fürst" 
+ principality_lp_feudal_female:0 "Fürstin" 
+
+ prince_lp_kingdom_male:0 "Lord"
+ prince_lp_kingdom_female:0 "Lady"
+ prince_lp_feudal_male_dorne:0 "Fürst" 
+ prince_lp_feudal_female_dorne:0 "Fürstin" 
+
+ prince_lp_empire_male:0 "Fürst"
+ prince_lp_empire_female:0 "Fürstentum"
+
+ #Wolfswood Clansman Master Title
+ wolfswood_clansman_master_male:0 "Oberhaupt"
+ wolfswood_clansman_master_female:0 "Oberhaupt"
+
+ #Riverlands 
+
+ e_the_riverlands_old:0 "Die Flüsse und Hügel"
+
+
+
+
+ #Default Republic tiers
+ baron_republic_male:0 "Vogt" 
+ baron_republic_female:0 "Vögtin"
+ barony_republic:0 "Stadt"
+ count_republic_male:0 "Bürgermeister"
+ count_republic_female:0 "Bürgermeisterin"
+ county_republic:0 "Stadt"
+ duke_republic_male:0 "Oberbürgermeister"
+ duke_republic_female:0 "Oberbürgermeisterin"
+ duchy_republic:0 "Großstadt" 
+ king_republic_male:0 "Magister" 
+ king_republic_female:0 "Magister"
+ kingdom_republic:0 "Freie Stadt"
+ emperor_republic_male:0 "Hoher Magister"
+ emperor_republic_female:0 "Hohe Magister"
+ empire_republic:0 "Freistaat" 
+
+ #Default Theocracy tiers
+ baron_theocracy_male:0 "Priester"
+ baron_theocracy_female:0 "Priesterin"
+ barony_theocracy:0 "Tempel"
+ count_theocracy_male:0 "Hohepriester"
+ count_theocracy_female:0 "Hohepriesterin" 
+ county_theocracy:0 "Großtempel"
+ duke_theocracy_male:0 "Erzpriester"
+ duke_theocracy_female:0 "Erzpriesterin"
+ duchy_theocracy:0 "Theokratie"
+ king_theocracy_male:0 "Großpriester"
+ king_theocracy_female:0 "Großpriesterin"
+ kingdom_theocracy:0 "Großtheokratie"
+ emperor_theocracy_male:0 "Gesegneter Herrscher"
+ emperor_theocracy_female:0 "Gesegnete Herrscherin"
+ empire_theocracy:0 "Gesegnetes Großreich"
+
+ #Default Clan tiers
+ baron_clan_male:0 "Sippenführer"
+ baron_clan_female:0 "Sippenführerin"
+ barony_clan:0 "Sippe"
+ count_clan_male:0 "Häuptling"
+ count_clan_female:0 "Häuptling"
+ county_clan:0 "Häuptlingstum"
+ duke_clan_male:0 "Clansführer"
+ duke_clan_female:0 "Clansführerin"
+ duchy_clan:0 "Clan"
+ king_clan_male:0 "Patriarch"
+ king_clan_female:0 "Matriarchin"
+ kingdom_clan:0 "Großclan"
+ emperor_clan_male:0 "Volkspatriarch"
+ emperor_clan_female:0 "Volksmatriarchin"
+ empire_clan:0 "Volksclan"
+
+ #Default Tribal tiers
+ baron_tribal_male:0 "Häuptling"
+ baron_tribal_female:0 "Häuptling"
+ barony_tribal:0 "Häuptlingstum"
+ count_tribal_male:0 "Oberhäuptling"
+ count_tribal_female:0 "Oberhäuptling"
+ county_tribal:0 "Oberhäuptlingstum"
+ duke_tribal_male:0 "Stammesführer"
+ duke_tribal_female:0 "Stammesführerin"
+ duchy_tribal:0 "Stamm"
+ king_tribal_male:0 "König"
+ king_tribal_female:0 "Königin"
+ kingdom_tribal:0 "Königtum"
+ emperor_tribal_male:0 "Hochkönig"
+ emperor_tribal_female:0 "Hochkönigin"
+ empire_tribal:0 "Hochkönigtum"
+
+ #Default Mercenary tiers
+ baron_mercenary_male:0 "Feldwebel"
+ baron_mercenary_female:0 "Feldwebel"
+ barony_mercenary:0 "Bande"
+ count_mercenary_male:0 "Leutnant"
+ count_mercenary_female:0 "Leutnant"
+ county_mercenary:0 "Kompanie"
+ duke_mercenary_male:0 "Hauptmann"
+ duke_mercenary_female:0 "Hauptmann"
+ duchy_mercenary:0 "Großkompanie"
+ king_mercenary_male:0 "General"
+ king_mercenary_female:0 "General"
+ kingdom_mercenary:0 "Armee"
+ emperor_mercenary_male:0 "Oberster Befehlshaber"
+ emperor_mercenary_female:0 "Oberste Befehlshaber"
+ empire_mercenary:0 "Heer"
+
+ #Default Holy Order tiers
+ baron_holy_order_male:0 "Truppenführer"
+ baron_holy_order_female:0 "Truppenführer"
+ barony_holy_order:0 "Trupp"
+ count_holy_order_male:0 "Meister"
+ count_holy_order_female:0 "Meister"
+ county_holy_order:0 "Schar"
+ duke_holy_order_male:0 "Ordensmeister"
+ duke_holy_order_female:0 "Ordenmeister"
+ duchy_holy_order:0 "Orden"
+ king_holy_order_male:0 "Großmeister"
+ king_holy_order_female:0 "Großmeister"
+ kingdom_holy_order:0 "Heiliger Orden"
+ emperor_holy_order_male:0 "Oberster Großmeister"
+ emperor_holy_order_female:0 "Oberste Großmeister"
+ empire_holy_order:0 "Hochheiliger Orden"
+
+# Default Faction Leader
+ faction_leader_male:0 "Anführer"
+ faction_leader_female:0 "Anführerin"
+ 
+##############################################
+#Theocracy titles, religious (group) localization.
+
+##############################################
+#Theocracy titles, religious (group) localization.

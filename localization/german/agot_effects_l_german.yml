@@ -1,0 +1,35 @@
+﻿l_german:
+ #Übersetzt von Rico
+
+ ###########
+ #KNIGHTING#
+ ###########
+
+ GET_AGOT_SQUIRE:0 "Erhält [TARGET_CHARACTER.GetShortUIName] als #V [squire|e]n #!"
+ I_GET_AGOT_SQUIRE:1 "[TARGET_CHARACTER.GetShortUIName|U] wird Euer #V [squire|e]#!"
+ I_GOT_AGOT_SQUIRE:1 "[TARGET_CHARACTER.GetShortUIName|U] wurde Euer #V [squire|e]#!"
+ THEY_GET_AGOT_SQUIRE:0 "[TARGET_CHARACTER.GetShortUIName|U] wird [CHARACTER.GetShortUINamePossessive] #V [squire|e]#!"
+ THEY_GOT_AGOT_SQUIRE:0 "[TARGET_CHARACTER.GetShortUIName|U] wurde [CHARACTER.GetShortUIName] #V [squire|e]#!"
+ LOSE_AGOT_SQUIRE:0 "Verliert [TARGET_CHARACTER.GetShortUIName] als Euren #V [squire|e]n#!"
+ I_LOSE_AGOT_SQUIRE:1 "[TARGET_CHARACTER.GetShortUIName|U] ist nicht länger Euer #V [squire|e]#!"
+ THEY_LOSE_AGOT_SQUIRE:0 "[TARGET_CHARACTER.GetShortUIName|U] ist nicht länger [CHARACTER.GetShortUINamePossessive] #V [squire|e]#!"
+
+
+ GET_AGOT_KNIGHT:0 "Erhält [TARGET_CHARACTER.GetShortUIName] als #V [agot_knight|e]#!"
+ I_GET_AGOT_KNIGHT:1 "[TARGET_CHARACTER.GetShortUIName|U] wird Euer #V [agot_knight|e]#!"
+ I_GOT_AGOT_KNIGHT:1 "[TARGET_CHARACTER.GetShortUIName|U] wurde Euer #V [agot_knight|e]#!"
+ THEY_GET_AGOT_KNIGHT:0 "[TARGET_CHARACTER.GetShortUIName|U] wird [CHARACTER.GetShortUINamePossessive] #V [agot_knight|e]#!"
+ THEY_GOT_AGOT_KNIGHT:0 "[TARGET_CHARACTER.GetShortUIName|U] wurde [CHARACTER.GetShortUIName] #V [agot_knight|e]#!"
+ LOSE_AGOT_KNIGHT:0 "Verliert [TARGET_CHARACTER.GetShortUIName] als Euren #V [agot_knight|e]#!"
+ I_LOSE_AGOT_KNIGHT:1 "[TARGET_CHARACTER.GetShortUIName|U] ist nicht länger Euer #V [agot_knight|e]#!"
+ THEY_LOSE_AGOT_KNIGHT:0 "[TARGET_CHARACTER.GetShortUIName|U] ist nicht länger [CHARACTER.GetShortUIName] #V [agot_knight|e]#!"
+
+#Paramours
+ GET_PARAMOUR:0 "Erhält [TARGET_CHARACTER.GetShortUIName] als Konkubine" 
+ I_GET_PARAMOUR:1 "[TARGET_CHARACTER.GetShortUIName|U] wird Eure Konkubine"
+ I_GOT_PARAMOUR:1 "[TARGET_CHARACTER.GetShortUIName|U] wurde Eure Konkubine"
+ THEY_GET_PARAMOUR:0 "[TARGET_CHARACTER.GetShortUIName|U] wird [CHARACTER.GetShortUINamePossessive] Konkubine"
+ THEY_GOT_PARAMOUR:0 "[TARGET_CHARACTER.GetShortUIName|U] wurde [CHARACTER.GetShortUINamePossessive] Konkubine"
+ LOSE_PARAMOUR:0 "Verliert [TARGET_CHARACTER.GetShortUIName] als Eure Konkubine"
+ I_LOSE_PARAMOUR:1 "[TARGET_CHARACTER.GetShortUIName|U] ist nicht länger Eure Konkubine"
+ THEY_LOSE_PARAMOUR:0 "[TARGET_CHARACTER.GetShortUIName|U] ist nicht länger [CHARACTER.GetShortUINamePossessive] Konkubine"
