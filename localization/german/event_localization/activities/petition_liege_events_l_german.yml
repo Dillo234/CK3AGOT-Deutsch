@@ -1,6 +1,6 @@
 ﻿l_german:
  # General Loc Strings
- petition_liege_header:0 "Petition:"
+ petition_liege_header:0 "Bittgesuch:"
 
  # Activity Start: Liege decides whether or not to hear petition
  petition_liege.0001.opening:1 "[petition_vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
@@ -172,7 +172,7 @@
  petition_liege.0201.desc.bridge:1 "\n\nAfter listening to the speech, [petition_liege.GetSheHe] smiles warmly at me and states "Absolutely, [petition_liege.Custom2('RelationToMeShort', petition_vassal)]! I shall dispatch my agents immediately to take care of this matter.""
  petition_liege.0201.desc.council_second_party:0 "I certainly can't do any worse than [second_party.GetFullName]..."
  petition_liege.0201.a:0 "Thank you my liege!"
- petition_liege_accept_tt:0 "Your Petition is accepted"
+ petition_liege_accept_tt:0 "Your Bittgesuch is accepted"
 # Liege asks for something in return
  petition_liege.0205.t:0 "$petition_liege_header$ Counter-Offer"
  petition_liege.0205.desc.intro:0 "$petition_liege.0201.desc.intro$"
