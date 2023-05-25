@@ -1,5 +1,5 @@
 ﻿l_german:
- # General Loc Strings
+ # General Loc Strings # Übersetzt von Lys
  petition_liege_header:0 "Bittgesuch:"
 
  # Activity Start: Liege decides whether or not to hear petition
@@ -41,7 +41,7 @@
  petition_liege.0101.desc.end_war:1 "\n\n[second_party.GetTitledFirstNameNoTooltip] führt Krieg gegen mich und Eure guten, treuen Untertanen in [petition_vassal.GetPrimaryTitle.GetName]! Gewiss schwächen diese inneren Zwiste uns alle nur und ihnen sollte sofort Einhalt geboten werden?“"
  petition_liege.0101.desc.faction_war:0 "[second_party.GetTitledFirstName] und [second_party.Custom('DE_PRO_POS_S_3P')]e [vassal_faction.GetNameNoTooltip|l] setzen mir zu!\n\nIhr müsst diese frechen Welpen in die Schranken weisen! Zum Wohl des Reichs!“"
  petition_liege.0101.desc.county_control:0 "[petition_county_example.GetNameNoTooltip] wird von Abweichlern geplagt, die es unmöglich machen, Steuern einzutreiben!\n\nBitte, mein[petition_liege.Custom('DE_END_PRO_S_N')] [petition_liege.GetLadyLord]. Unterstützt mich dabei, diese Nattern zu bändigen. Zum Wohl des Reichs.""
- petition_liege.0101.desc.county_convert:0 "Zahlreiche gottlose [petition_county_example.GetCountyData.GetFaith.GetAdherentNamePluralNoTooltip] bedrängen [petition_county_example.GetNameNoTooltip]!\n\nMeine Priester tun ihr Bestes, doch ich fürchte, sie werden Unterstützung brauchen, falls das Reich von diesem Übel befreit werden soll.“"
+ petition_liege.0101.desc.county_convert:0 "Zahlreiche gottlose [petition_county_example.GetCountyData.GetFaith.GetAdherentNamePluralNoTooltip] bedrängen [petition_county_example.GetNameNoTooltip]!\n\nMeine Priester tun ihr Bestes, doch ich fürchte, sie werden Unterstützung brauchen, falls das Reich von diesem Übel befreit werden soll.“" # Priester am besten so lassen; Aussicht auf "künftige" Religionen in Essos
  petition_liege.0101.desc.county_opinion:0 "Ein Siechtum der Unzufriedenheit hat sich in meinen Landen breitgemacht.\n\nMein[petition_liege.Custom('DE_END_PRO_S_N')] [petition_liege.GetLadyLord], ich bin mir sicher, dass der Besuch eines hochrangigen Würdenträgers die Stimmung unter den Menschen aufhellen und sie wieder auf den richtigen Kurs bringen könnte.“"
  petition_liege.0101.desc.fortify_border:0 "Meine Ländereien stehen zwischen [petition_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] und Euren Feinden!\n\n[petition_county_example.GetNameNoTooltip] ist eine der Marken des Reichs, und seine Verteidigung liegt ebenso in Eurer Verantwortung wie in meiner.“"
  petition_liege.0101.desc.title_liege:0 "Bei allem gebotenen Respekt, Eure Majestät, aber das Lehen ([petition_claim.GetName]) gehört rechtmäßig mir!\n\nIhr herrscht über ein mächtiges Reich, mein[petition_liege.Custom('DE_END_PRO_S_N')] [petition_liege.GetLadyLord]. Könnt Ihr mir da nicht einen einzigen, kleinen Titel verleihen, auf den ich einen ehrlichen Anspruch habe?“"
@@ -228,7 +228,7 @@
  # Second party request event
  petition_liege.0501.opening:0 "[second_party.Custom2('AppropriateGreeting',ROOT.Char)]"
  petition_liege.0501.desc:0 "Treu[second_party.Custom('DE_END_ADJ_IND_S_N')] [second_party.GetTitledFirstName], mit tiefem Bedauern bringe ich Euch in diese Lage.\n\nIch muss darum bitten, dass Ihr [petition_claim.GetName] an [petition_vassal.GetTitledFirstName] übertragt, da [petition_vassal.Custom('DE_PRO_PER_S_3P_N')] ebenfalls Anspruch auf diesen Titel erhebt. Ich vertraue darauf, dass Ihr meine Wünsche in dieser Angelegenheit respektiert."
- petition_liege.0501.a:0 "Welche Wahl habe ich denn …?"
+ petition_liege.0501.a:0 "Welche Wahl habe ich denn …?" 
  petition_liege.0501.b:0 "Das kann ich nicht hinnehmen!"
  petition_liege.0501.refuse_tt:0 "[second_party.GetTitledFirstName] weigerte sich, [petition_claim.GetName] abzugeben"
  # Invalidated event
@@ -260,26 +260,26 @@
 
  ### Modifiers ###
  # Control
- petition_liege_0101_county_control_effect_tt:0 "Alle gehaltenen Grafschaften mit weniger als 66 [control|E]"
+ petition_liege_0101_county_control_effect_tt:0 "Alle gehaltenen Lordschaften mit weniger als 66 [control|E]"
  petition_liege_county_control_modifier:0 "Königliche Landvögte"
- petition_liege_county_control_modifier_desc:0 "Der Träger dieser Grafschaft hat die Hilfe der Landvögte seines Lehnsherrn bei der Wiederherstellung der Ordnung erbeten."
- petition_liege_county_control_modifier_tt:0 "[Concept('convert_county', 'Die Kontrolle von Grafschaften')|E] wird in solchen mit diesem Modifikator schneller voranschreiten"
+ petition_liege_county_control_modifier_desc:0 "Der Träger dieser Lordschaft hat die Hilfe der Landvögte seines Lehnsherrn bei der Wiederherstellung der Ordnung erbeten."
+ petition_liege_county_control_modifier_tt:0 "[Concept('convert_county', 'Die Kontrolle von Lordschaften')|E] wird in solchen mit diesem Modifikator schneller voranschreiten"
  # Convert
  petition_liege_0101_county_convert_effect_tt:0 "Alle [holdings|E] von [petition_vassal.GetShortUIName] mit einem anderen [Concept('faith', 'Glauben')|E]"
  petition_liege_county_convert_modifier:0 "Finanzierte Bekehrer"
- petition_liege_county_convert_modifier_desc:0 "Der Träger dieser Grafschaft hat seinen Lehnsherrn darum gebeten, ihre Bekehrung zum wahren Glauben zu finanzieren."
- petition_liege_county_convert_modifier_tt:0 "[Concept('convert_county', 'Das Bekehren von Grafschaften')|E] wird in solchen mit diesem Modifikator schneller voranschreiten"
+ petition_liege_county_convert_modifier_desc:0 "Der Träger dieser Lordschaft hat seinen Lehnsherrn darum gebeten, ihre Bekehrung zum wahren Glauben zu finanzieren."
+ petition_liege_county_convert_modifier_tt:0 "[Concept('convert_county', 'Das Bekehren von Lordschaften')|E] wird in solchen mit diesem Modifikator schneller voranschreiten"
  # Opinion
  petition_liege_0101_county_opinion_effect_tt:1 "Alle [holdings|E] von [petition_vassal.GetShortUIName] mit einer [county_opinion|E] von #negative_value [SCOPE.ScriptValue('petition_county_opinion_value')]#! oder weniger"
- petition_liege_county_opinion_modifier:0 "Königlicher Besuch"
- petition_liege_county_opinion_modifier_desc:0 "Der Träger dieser Grafschaft hat seinen Herrn um einen Besuch und ein Spektakel für das Volk gebeten."
+ petition_liege_county_opinion_modifier:0 "Hoher Besuch"
+ petition_liege_county_opinion_modifier_desc:0 "Der Träger dieser Lordschaft hat seinen Herrn um einen Besuch und ein Spektakel für das Volk gebeten."
  # Fortify
  petition_liege_0101_fortify_border_effect_tt:0 "Alle [holdings|E] von [petition_vassal.GetShortUIName], die an andere Reiche angrenzen"
  petition_liege_fortify_border_modifier:0 "Markenbefestigungen"
- petition_liege_fortify_border_modifier_desc:0 "Der Träger dieser Grafschaft hat darum gebeten, dass sein Lehnsherr die Marken des Reichs befestigt."
+ petition_liege_fortify_border_modifier_desc:0 "Der Träger dieser Lordschaften hat darum gebeten, dass sein Lehnsherr die Marken des Reichs befestigt."
  # Development
  petition_liege_development_modifier:0 "Siedlerzustrom"
- petition_liege_development_modifier_desc:0 "Der Träger dieser Grafschaft hat um die Verlegung von Bevölkerung aus den Besitztümern seines Lehnsherrn gebeten."
+ petition_liege_development_modifier_desc:0 "Der Träger dieser Lordschaft hat um die Verlegung von Bevölkerung aus den Besitztümern seines Lehnsherrn gebeten."
 
  petition_liege_title_councillor:0 "[ROOT.Char.GetCouncilTitle]"
  petition_liege_title_position:0 "[ROOT.Char.GetHeldCourtAndCouncilPositionsString]"
