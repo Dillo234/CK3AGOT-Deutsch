@@ -1,12 +1,12 @@
 ﻿l_german:
 
  # Guest offers to share rumors from a nearby foreign realm.
- agot_hold_court.1001.t:0 "$hold_court_header$ Titelvergabe"
+ agot_hold_court.1001.t:0 "$hold_court_header$ Titelschenkung"
  agot_hold_court.1001.desc:0 "Mein Vasall [paramount_petitioner.GetTitledFirstName] nähert sich meinem Thron und verneigt sich tief.\n\n"Seid gegrüßt, Euer Gnaden. Der [title|E], [paramount_title.GetName], wird momentan von der Krone regiert. Ich möchte mich bewerben, Euch diese Last abzunehmen und in Eurem Namen diese Länderein zu verwalten.""
  agot_hold_court.1001.a:0 "Ihr sollt an meiner Stelle über den [title|E] [paramount_title.GetName]."
  agot_hold_court.1001.b:0 "Ihr? Regieren?! Ihr bekommt gar nichts! Schönen Tag noch!"
 
- agot_hold_court.1011.t:0 "$hold_court_header$ Gory Borders"
+ agot_hold_court.1011.t:0 "$hold_court_header$ Blutbefleckte Grenzen"
  agot_hold_court.1011.desc_paramount:0 "[aggressor_vassal.GetName] beschuldigt [defender_vassal.GetName], über Ländereien und deren Lords zu herrschen, die rechtmässig [aggressor_vassal.GetHerHim] zustehen. Am meisten erzürnt [aggressor_vassal.Custom('DE_PRO_PER_S_3P_A')], dass der [title|E] [vassal_claim.GetName], gehalten von [defender_vassal.GetNamePossessive] [Concept('vassal', 'Vasallen')], [defender_vassal_vassal.GetName], für ein Ungleichgewicht im Reich sorgt. Seiner Meinung nach sollte er sich um die Verwaltung der Ländereien künmmern.\n\n"
  agot_hold_court.1011.desc_direct:0 "[aggressor_vassal.GetName] behauptet, der [title|E] [vassal_claim.GetName], gehalten von [defender_vassal.GetName] und von Euch belehnt, sei Teil seines De Jure-Territoriums und dass es im Interesse des Reiches läge, wenn Ihr es ihm zurückgäbet.\n\n"
 
