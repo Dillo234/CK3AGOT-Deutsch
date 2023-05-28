@@ -1,36 +1,37 @@
 ﻿l_german:
+#Übersetzt von Lys, durchgesehen und überarbeitet von Dillo
 
- # Guest offers to share rumors from a nearby foreign realm.
- agot_hold_court.1001.t:0 "$hold_court_header$ Titelschenkung"
- agot_hold_court.1001.desc:0 "Mein Vasall [paramount_petitioner.GetTitledFirstName] nähert sich meinem Thron und verneigt sich tief.\n\n"Seid gegrüßt, Euer Gnaden. Der [title|E], [paramount_title.GetName], wird momentan von der Krone regiert. Ich möchte mich bewerben, Euch diese Last abzunehmen und in Eurem Namen diese Länderein zu verwalten.""
- agot_hold_court.1001.a:0 "Ihr sollt an meiner Stelle über den [title|E] [paramount_title.GetName]."
- agot_hold_court.1001.b:0 "Ihr? Regieren?! Ihr bekommt gar nichts! Schönen Tag noch!"
-
- agot_hold_court.1011.t:0 "$hold_court_header$ Blutbefleckte Grenzen"
- agot_hold_court.1011.desc_paramount:0 "[aggressor_vassal.GetName] beschuldigt [defender_vassal.GetName], über Ländereien und deren Lords zu herrschen, die rechtmässig [aggressor_vassal.GetHerHim] zustehen. Am meisten erzürnt [aggressor_vassal.Custom('DE_PRO_PER_S_3P_A')], dass der [title|E] [vassal_claim.GetName], gehalten von [defender_vassal.GetNamePossessive] [Concept('vassal', 'Vasallen')], [defender_vassal_vassal.GetName], für ein Ungleichgewicht im Reich sorgt. Seiner Meinung nach sollte er sich um die Verwaltung der Ländereien künmmern.\n\n"
- agot_hold_court.1011.desc_direct:0 "[aggressor_vassal.GetName] behauptet, der [title|E] [vassal_claim.GetName], gehalten von [defender_vassal.GetName] und von Euch belehnt, sei Teil seines De Jure-Territoriums und dass es im Interesse des Reiches läge, wenn Ihr es ihm zurückgäbet.\n\n"
-
- agot_hold_court.1011.desc_historic_claimant:0 "[aggressor_vassal.GetSheHe] fährt damit fort, dass [defender_vassal.GetTitledFirstName] nicht der rechtmässige Lord von [vassal_claim.GetName] sei. Stattdessen sei es Haus [dynasty.GetName], welches es für viele Jahre unter der Lehnherrschaft der Herren von [aggressor_vassal.GetPrimaryTitle.GetName]. Er schlägt die Rückgabe an [historic_claimant.GetName] vor, da diese Ländereien [historic_claimant.Custom('DE_PRO_PER_S_3P_G')] Familie entrissen wurden."
- agot_hold_court.1011.desc_historic_same:0 "Gewohnheitgemäss ist es Haus [dynasty.GetName], welches den [title|E] [vassal_claim.GetName] hält. Es liegt daher in [defender_vassal.GetNamePossessive] Recht, diese Ländereien zu regieren."
- agot_hold_court.1011.desc_default:0 "[vassal_claim.GetName] [dynasty.GetName]."
- agot_hold_court.1011.desc_paramount_titles:0 "Um die Sache noh komlizierter zu machen, hält [defender_vassal_vassal.GetTitledFirstName] Titel aus dem ganzen Reich."
- agot_hold_court.1011.desc_titles:0 "Um die Sache noh komlizierter zu machen, hält [defender_vassal.GetTitledFirstName] Titel aus dem ganzen Reich."
-
-
- agot_hold_court.1011.a.direct:0 "[defender_vassal.Custom('DE_ART_DEF_S_A')] [defender_vassal.GetTitleAsNameNoTooltip] wird Euch die Treue schwören."
- agot_hold_court.1011.a.indirect:0 "[defender_vassal_vassal.Custom('DE_ART_DEF_S_A')] [defender_vassal_vassal.GetTitleAsNameNoTooltip] wird Euch die Treue schwören."
- agot_hold_court.1011.b.direct:0 "[defender_vassal.GetFirstNamePossessive] Reich ist zu groß geworden und muss aufgeteilt werden."
- agot_hold_court.1011.b.indirect:0 "[defender_vassal_vassal.GetFirstNamePossessive] Reich ist zu groß geworden und muss aufgeteilt werden."
-
- agot_hold_court.1011.c:0 "Ich werde diese überschüssigen Titel übernehmen!"
- agot_hold_court.1011.d:0 "[vassal_claim.GetNameNoTier] ist, historisch betrachtet, der Sitz von Haus [historic_claimant.GetHouse.GetName], weshalb [historic_claimant.GetFirstName] ihn wieder haben soll!"
-
-  ##################################################
-  # Dispossessed Character asks for land return 
-  # Badger 
-  # 1021 - 29
-  ##################################################
-# Ich habe die folgenden Zeilen rausgenommen, aufgrund der Unseriösität; Wir sollten darüber entscheiden - Lys
- #agot_hold_court.1021.t:0 "[historic_claimant.GetName]" 
- #agot_hold_court.1021.desc:0 "Hey buddy you have the [claim_title.GetName] but House [dynasty.GetName] held it for ages and we have no land maybe you can gib to me uwu"
+  # Guest offers to share rumors from a nearby foreign realm.
+    agot_hold_court.1001.t:0 "$hold_court_header$ Titelschenkung"
+    agot_hold_court.1001.desc:0 "Mein Vasall [paramount_petitioner.GetTitledFirstName] nähert sich meinem Thron und verneigt sich tief.\n\n"Seid gegrüßt, Euer Gnaden. Der [title|E], [paramount_title.GetName], wird momentan von der Krone regiert. Ich möchte mich anbieten, Euch diese Last abzunehmen und in Eurem Namen diese Ländereien zu verwalten.""
+    agot_hold_court.1001.a:0 "Ihr sollt an meiner Statt über den [title|E] [paramount_title.GetName] wachen."
+    agot_hold_court.1001.b:0 "Ihr? Regieren?! Ihr bekommt gar nichts! Schönen Tag noch!"
+   
+    agot_hold_court.1011.t:0 "$hold_court_header$ Blutbefleckte Grenzen"
+    agot_hold_court.1011.desc_paramount:0 "[aggressor_vassal.GetName] beschuldigt [defender_vassal.GetName], über Ländereien und deren Lords zu herrschen, die rechtmäßig [aggressor_vassal.GetHerHim] zustehen. Am meisten erzürnt [aggressor_vassal.Custom('DE_PRO_PER_S_3P_A')] der Umstand, dass der [title|E] [vassal_claim.GetName] von [defender_vassal.GetNamePossessive] [Concept('vassal', 'Vasallen')], [defender_vassal_vassal.GetName] gehalten wird, für ein Ungleichgewicht im Reich sorgt. Seiner Meinung nach sollten diese Ländereien und deren Erträge ihm übertragen werden.\n\n"
+    agot_hold_court.1011.desc_direct:0 "[aggressor_vassal.GetName] behauptet, der [title|E] [vassal_claim.GetName], gehalten von [defender_vassal.GetName] und von Euch belehnt, sei Teil seines De Jure-Territoriums und dass es im Interesse des Reiches läge, wenn Ihr es ihm zurückgäbet.\n\n"
+   
+    agot_hold_court.1011.desc_historic_claimant:0 "[aggressor_vassal.GetSheHe] fährt damit fort, dass [defender_vassal.GetTitledFirstName] nicht einmal der rechtmäßige Lord von [vassal_claim.GetName] sei. Stattdessen sei es Haus [dynasty.GetName], welches es für viele Jahre unter der Regentschaft der Herren von [aggressor_vassal.GetPrimaryTitle.GetName] hielten. Er schlägt die Rückgabe an [historic_claimant.GetName] vor, da diese Ländereien [historic_claimant.Custom('DE_PRO_PER_S_3P_G')] Familie entrissen wurden."
+    agot_hold_court.1011.desc_historic_same:0 "Gewohnheitgemäß ist es Haus [dynasty.GetName], welches den [title|E] [vassal_claim.GetName] hält. Es ist daher [defender_vassal.GetNamePossessive] Recht, diese Ländereien zu regieren."
+    agot_hold_court.1011.desc_default:0 "[vassal_claim.GetName] [dynasty.GetName]."
+    agot_hold_court.1011.desc_paramount_titles:0 "Um die Sache noch komplizierter zu machen, hält [defender_vassal_vassal.GetTitledFirstName] Titel im ganzen Reich."
+    agot_hold_court.1011.desc_titles:0 "Um die Sache noch komplizierter zu machen, hält [defender_vassal.GetTitledFirstName] Titel im ganzen Reich."
+   
+   
+    agot_hold_court.1011.a.direct:0 "[defender_vassal.Custom('DE_ART_DEF_S_N')] [defender_vassal.GetTitleAsNameNoTooltip] wird Euch die Treue schwören."
+    agot_hold_court.1011.a.indirect:0 "[defender_vassal_vassal.Custom('DE_ART_DEF_S_N')] [defender_vassal_vassal.GetTitleAsNameNoTooltip] wird Euch die Treue schwören."
+    agot_hold_court.1011.b.direct:0 "[defender_vassal.GetFirstNamePossessive] Reich ist zu groß geworden und muss aufgeteilt werden."
+    agot_hold_court.1011.b.indirect:0 "[defender_vassal_vassal.GetFirstNamePossessive] Reich ist zu groß geworden und muss aufgeteilt werden."
+   
+    agot_hold_court.1011.c:0 "Ich werde diese überflüssigen Titel für Euch übernehmen!"
+    agot_hold_court.1011.d:0 "[vassal_claim.GetNameNoTier] ist, historisch betrachtet, der Sitz von Haus [historic_claimant.GetHouse.GetName], weshalb [historic_claimant.GetFirstName] ihn wieder haben soll!"
+   
+     ##################################################
+     # Dispossessed Character asks for land return 
+     # Badger 
+     # 1021 - 29
+     ##################################################
+   
+    agot_hold_court.1021.t:0 "[historic_claimant.GetName]" 
+    agot_hold_court.1021.desc:0 "He, Kumpel, Ihr habt die [claim_title.GetName], aber Haus [dynasty.GetName] hat sie seit Ewigkeiten gehalten und wir haben kein Land, gib?"
 
