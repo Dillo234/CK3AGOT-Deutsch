@@ -1,5 +1,7 @@
 ﻿l_german:
+
  # General Loc Strings # Übersetzt von Lys
+ # General Loc Strings
  petition_liege_header:0 "Bittgesuch:"
 
  # Activity Start: Liege decides whether or not to hear petition
@@ -173,6 +175,27 @@
  petition_liege.0201.desc.council_second_party:0 "Ich kann es sicherlich nicht schlechter machen als [second_party.GetFullName] …"
  petition_liege.0201.a:0 "Habt Dank, mein Lehnsherr!"
  petition_liege_accept_tt:0 "Eure Bitte ist angenommen"
+ petition_liege.0201.t:0 "$petition_liege_header$ Accepted"
+ petition_liege.0201.desc.intro:0 "I am escorted in to [petition_liege.GetTitledFirstNamePossessive] throne room, where [petition_liege.GetSheHe] beckons for me to approach and address [petition_liege.GetHerHim]."
+ petition_liege.0201.desc.council_seat:0 "\n\nI elucidate the abilities, proven and otherwise, that make me a suitable candidate to be the [petition_liege.GetTitleAsNamePossessiveNoTooltip] [petition_vassal.Custom('GetCouncilPositionRequest')], requesting the position as [petition_liege.GetHerHis] advisor."
+ petition_liege.0201.desc.war_aid:0 "\n\nI beseech my [petition_liege.GetLadyLord] to lend their might to my rightful cause, however [petition_liege.GetSheHe] can, lest a loyal vassal of the realm be defeated."
+ petition_liege.0201.desc.pay_debt:0 "\n\nI implore the [petition_liege.GetTitleAsNameNoTooltip] to understand the great challenges my fiefdom has faced, and which have left my coffers empty, beseeching [petition_liege.GetHerHim] to settle my debts..."
+ petition_liege.0201.desc.vassal_war:0 "\n\nI delineate the causes and events of my ongoing conflict with [second_party.GetTitledFirstName], and request the [petition_liege.GetTitleAsNameNoTooltip] enforce a peace to end the bloodshed within [petition_liege.GetHerHis] realm."
+ petition_liege.0201.desc.faction_war:0 "\n\nI summarize the events which have led to the open treachery of [second_party.GetTitledFirstName], and [second_party.GetHerHis] [vassal_faction.GetName|l], and request their forced surrender by the [petition_liege.GetTitleAsNameNoTooltip]."
+ petition_liege.0201.desc.county_control:0 "\n\nI carefully describe the problems my fiefdom faces, resistant to my authority and beset by vagabonds, and request assistance in restoring order."
+ petition_liege.0201.desc.county_convert:0 "\n\nI fervently explain the situation in my fiefdom, and the need for support in order to bring the sinful multitudes the light of [petition_liege.GetFaith.GetNameNoTooltip]."
+ petition_liege.0201.desc.county_opinion:0 "\n\nI explain the discontent in my realm, and the great buoyancy a simple visit from the [petition_liege.GetTitleAsNameNoTooltip] would give to the spirits of the common people."
+ petition_liege.0201.desc.fortify_border:0 "\n\nI coolly outline the threat posed by the realm's neighbors, drawing attention to [second_party.GetPrimaryTitle.GetName] and the risk posed to my lands."
+ petition_liege.0201.desc.title_liege:0 "\n\nI respectfully assert my legitimate claim to [petition_liege.GetHerHis] [petition_claim.GetName], providing the lengthy documents which assert it, and await the [petition_liege.GetTitleAsNamePossessiveNoTooltip] reply."
+ petition_liege.0201.desc.title_vassal:0 "\n\nI deftly present the evidence of my claim to the [petition_claim.GetName], and highlight its strength over that of [second_party.GetTitledFirstName]."
+ petition_liege.0201.desc.construct_city:0 "\n\nI lay out my arguments for the development of the settlement of [petition_construct.GetName] in the [petition_construct_county.GetName], listing the benefits just as rehearsed."
+ petition_liege.0201.desc.construct_temple:0 "\n\nI humbly present the case for a new [petition_liege.GetFaith.HouseOfWorship] in the [petition_construct_county.GetName], to be built at the settlement of [petition_construct.GetName]."
+ petition_liege.0201.desc.development:0 "\n\nI carefully explain the disparate situations of the [petition_county_example.GetName] and [petition_liege.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier], and what could be done to redress the balance."
+ petition_liege.0201.desc.bridge:1 "\n\nAfter listening to the speech, [petition_liege.GetSheHe] smiles warmly at me and states "Absolutely, [petition_liege.Custom2('RelationToMeShort', petition_vassal)]! I shall dispatch my agents immediately to take care of this matter.""
+ petition_liege.0201.desc.council_second_party:0 "I certainly can't do any worse than [second_party.GetFullName]..."
+ petition_liege.0201.a:0 "Thank you my liege!"
+ petition_liege_accept_tt:0 "Your Bittgesuch is accepted"
+ 
 # Liege asks for something in return
  petition_liege.0205.t:0 "$petition_liege_header$ Gegenangebot"
  petition_liege.0205.desc.intro:0 "$petition_liege.0201.desc.intro$"
