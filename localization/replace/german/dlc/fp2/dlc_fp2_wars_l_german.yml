@@ -23,10 +23,10 @@
  
  btw_reclamation_cb_victory_desc_attacker_vassalize:0 "Ihr macht [defender.GetShortUIName|U] zum Vasallen"  #Selbst geschrieben/abgetippt
  btw_reclamation_cb_victory_desc_defender_vassalize:0 "[attacker.GetShortUIName|U] macht Euch zum Vasallen"  #Selbst geschrieben/abgetippt
- btw_reclamation_cb_victory_desc_attacker_conquer_1:0 "$EFFECT_LIST_BULLET$Ihr werdet [liege|E] der am [Concept('struggle_involved', 'Konflikt beteiligten')|E] [vassals|E] von niederem [rank|E] von [defender.GetShortUIName] im Ziel-[duchy|E]"  #Selbst geschrieben/abgetippt
- btw_reclamation_cb_victory_desc_attacker_conquer_2:0 "$EFFECT_LIST_BULLET$Ihr erhaltet umkämpfte, von [Concept('struggle_uninvolved', 'Unbeteiligten')|E] gehaltene [counties|E] und jene von [Concept('holders', 'Trägern')|E] mit Ländereien außerhalb der [Concept('duchy', 'Hohen Lordschaft')|E]\n"  #Selbst geschrieben/abgetippt
- btw_reclamation_cb_victory_desc_defender_conquer_1:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] wird [liege|E] der am [Concept('struggle_involved', 'Konflikt beteiligten')|E] [vassals|E] von niedrigerem [rank|E] von [defender.GetShortUIName] im Ziel-[duchy|E]"  #Selbst geschrieben/abgetippt
- btw_reclamation_cb_victory_desc_defender_conquer_2:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] erhält umkämpfte, von [Concept('struggle_uninvolved', 'Unbeteiligten')|E] gehaltene [counties|E] und jene von [Concept('holders', 'Trägern')|E] mit Ländereien außerhalb der [Concept('duchy', 'Hohen Lordschaft')|E]\n"  #Selbst geschrieben/abgetippt
+ btw_reclamation_cb_victory_desc_attacker_conquer_1:0 "$EFFECT_LIST_BULLET$Ihr werdet [liege|E] der am [Concept('struggle_involved', 'Konflikt beteiligten')|E] [vassals|E] von niedrigerem [rank|E] von [defender.GetShortUIName] in der Ziel-[duchy|E]"  #Selbst geschrieben/abgetippt
+ btw_reclamation_cb_victory_desc_attacker_conquer_2:0 "$EFFECT_LIST_BULLET$Ihr erhaltet umkämpfte, von [Concept('struggle_uninvolved', 'Unbeteiligten')|E] gehaltene [counties|E] und jene von [Concept('holders', 'Trägern')|E] mit Ländereien außerhalb der [Concept('duchy', 'Hochlordschaft')|E]\n"  #Selbst geschrieben/abgetippt
+ btw_reclamation_cb_victory_desc_defender_conquer_1:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] wird [liege|E] der am [Concept('struggle_involved', 'Konflikt beteiligten')|E] [vassals|E] von niedrigerem [rank|E] von [defender.GetShortUIName] in der Ziel-[duchy|E]"  #Selbst geschrieben/abgetippt
+ btw_reclamation_cb_victory_desc_defender_conquer_2:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] erhält umkämpfte, von [Concept('struggle_uninvolved', 'Unbeteiligten')|E] gehaltene [counties|E] und jene von [Concept('holders', 'Trägern')|E] mit Ländereien außerhalb der [Concept('duchy', 'Hochlordschaft')|E]\n"  #Selbst geschrieben/abgetippt
  fp2_expel_interloper:0 "[btw_reclamation|E]"
  
  
@@ -43,11 +43,11 @@
  GREAT_RANGING_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  GREAT_RANGING_CB:0 "Großer Ausmarsch"  #Selbst geschrieben/abgetippt
  great_ranging_defeat_desc:0 "Die Wildlinge wissen nun, dass die Nachtwache nur noch ein Schatten ihrer selbst ist."  #Selbst geschrieben/abgetippt
- great_ranging_victory_desc:0 "Die Wildlinge werden sich weiterhin untereinander streiten und die Sicherheit der Menschenreiche ist gewährleistet."  #Selbst geschrieben/abgetippt
+ great_ranging_victory_desc:0 "Die Wildlinge werden sich weiterhin untereinander zanken, sodass sich die Reiche der Menschen in Sicherheit wähnen."  #Selbst geschrieben/abgetippt
  
  #AGOT TODO
- great_ranging_white_peace_desc:0 "Platzhalter Weißer Friedenstext"  #Selbst geschrieben/abgetippt
- great_ranging_invalidated_desc:0 "Platzhalter Ungültiger Text"  #Selbst geschrieben/abgetippt
+ great_ranging_white_peace_desc:0 "Platzhalter Weißer Frieden"  #Selbst geschrieben/abgetippt
+ great_ranging_invalidated_desc:0 "Platzhalter Ungültiger Kriegsgrund"  #Selbst geschrieben/abgetippt
  
  GENERIC_RANGING_WAR_NAME:0 "Ausmarsch jenseits der Mauer"  #Selbst geschrieben/abgetippt
  GENERIC_RANGING_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
@@ -57,9 +57,9 @@
  nw_generic_ranging_cb_desc_victory_defender:0 "[attacker.GetName] erhält [gold|E] entsprechend der [development|E] der Ziel-[county|E], die verringert wird.\n$border_raid_building_tt$\n$border_raid_warning_tt$"  #Selbst geschrieben/abgetippt
  nw_generic_ranging_cb_desc_white_peace_attacker:0 "Ihr beschließt, euren Expeditionsversuch abzubrechen."  #Selbst geschrieben/abgetippt
  nw_generic_ranging_cb_desc_white_peace_defender:0 "[attacker.GetName] gibt [attacker.Custom('DE_PRO_POS_S_3P')]en Ausmarsch auf."  #Selbst geschrieben/abgetippt
- nw_generic_ranging_cb_desc_defeat_attacker:0 "Ihr Ausmarsch schlägt katastrophal fehl und hinterlässt Waffen und Vorräte im Wert von [gold|E]."  #Selbst geschrieben/abgetippt
+ nw_generic_ranging_cb_desc_defeat_attacker:0 "Euer Ausmarsch schlägt katastrophal fehl und hinterlässt Waffen und Vorräte im Wert von etwas [gold|E]."  #Selbst geschrieben/abgetippt
  nw_generic_ranging_cb_desc_defeat_defender:1 "[attacker.GetName] lässt bei [attacker.Custom('DE_PRO_POS_S_3P')]em katastrophalen Aufmarsch, Waffen und Vorräte [gold|E] zurück."  #Selbst geschrieben/abgetippt
- #destroy_random_building_tt0:0 "Ein zufälliges [building|E] in [raid_county.GetName] wurde zerstört, was zusätzliches [gold_i] einbrachte."  #Selbst geschrieben/abgetippt
- #border_raid_building_tt0:0 "Ein [building|E] könnte zerstört werden."  #Selbst geschrieben/abgetippt
- #border_raid_warning_tt0:0 "@warning_icon! #X Keine [titles|E] wechseln den Träger.#!"  #Selbst geschrieben/abgetippt
+ destroy_random_building_tt0:0 "Ein zufälliges [building|E] in [raid_county.GetName] wurde zerstört, was zusätzliches [gold_i] einbrachte."  #Selbst geschrieben/abgetippt
+ border_raid_building_tt0:0 "Ein [building|E] könnte zerstört werden."  #Selbst geschrieben/abgetippt
+ border_raid_warning_tt0:0 "@warning_icon! #X Keine [titles|E] wechseln den Träger.#!"  #Selbst geschrieben/abgetippt
  nw_generic_ranging_message_title:0 "Ausmarsch der Nachtwache"  #Selbst geschrieben/abgetippt
