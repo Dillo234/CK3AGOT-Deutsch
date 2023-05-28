@@ -21,11 +21,11 @@
  FP2_EXPEL_INTERLOPER_WAR_NAME:0 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] [btw_reclamation|E] von [TITLE.GetBaseNameNoTier]"  #Selbst geschrieben/abgetippt
  FP2_EXPEL_INTERLOPER_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective]-[DEFENDER.GetPrimaryTitle.GetName]"
  
- btw_reclamation_cb_victory_desc_attacker_vassalize:0 "Ihr vasallisiert [defender.GetShortUIName|U]"  #Selbst geschrieben/abgetippt
+ btw_reclamation_cb_victory_desc_attacker_vassalize:0 "Ihr macht [defender.GetShortUIName|U] zum Vasallen"  #Selbst geschrieben/abgetippt
  btw_reclamation_cb_victory_desc_defender_vassalize:0 "[attacker.GetShortUIName|U] macht Euch zum Vasallen"  #Selbst geschrieben/abgetippt
  btw_reclamation_cb_victory_desc_attacker_conquer_1:0 "$EFFECT_LIST_BULLET$Ihr werdet [liege|E] der am [Concept('struggle_involved', 'Konflikt beteiligten')|E] [vassals|E] von niederem [rank|E] von [defender.GetShortUIName] im Ziel-[duchy|E]"  #Selbst geschrieben/abgetippt
  btw_reclamation_cb_victory_desc_attacker_conquer_2:0 "$EFFECT_LIST_BULLET$Ihr erhaltet umkämpfte, von [Concept('struggle_uninvolved', 'Unbeteiligten')|E] gehaltene [counties|E] und jene von [Concept('holders', 'Trägern')|E] mit Ländereien außerhalb der [Concept('duchy', 'Hohen Lordschaft')|E]\n"  #Selbst geschrieben/abgetippt
- btw_reclamation_cb_victory_desc_defender_conquer_1:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] wird [liege|E] der am [Concept('struggle_involved', 'Konflikt beteiligten')|E] [vassals|E] von niederem [rank|E] von [defender.GetShortUIName] im Ziel-[duchy|E]"  #Selbst geschrieben/abgetippt
+ btw_reclamation_cb_victory_desc_defender_conquer_1:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] wird [liege|E] der am [Concept('struggle_involved', 'Konflikt beteiligten')|E] [vassals|E] von niedrigerem [rank|E] von [defender.GetShortUIName] im Ziel-[duchy|E]"  #Selbst geschrieben/abgetippt
  btw_reclamation_cb_victory_desc_defender_conquer_2:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] erhält umkämpfte, von [Concept('struggle_uninvolved', 'Unbeteiligten')|E] gehaltene [counties|E] und jene von [Concept('holders', 'Trägern')|E] mit Ländereien außerhalb der [Concept('duchy', 'Hohen Lordschaft')|E]\n"  #Selbst geschrieben/abgetippt
  fp2_expel_interloper:0 "[btw_reclamation|E]"
  
