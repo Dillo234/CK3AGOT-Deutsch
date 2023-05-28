@@ -1,0 +1,41 @@
+﻿l_russian:
+ culture_notification.0010.t:0 "Традиция забыта"
+ culture_notification.0010.desc:1 "Традиция «[SCOPE.Custom('GetTraditionNameFromFlag')]» забыта [this_player.GetCulture.GetCollectiveNounNoTooltip|l]ой культурой"
+ culture_notification.0011.t:1 "Традиция принята"
+ culture_notification.0011.desc:1 "Традиция «[SCOPE.Custom('GetTraditionNameFromFlag')]» принята [this_player.GetCulture.GetCollectiveNounNoTooltip|l]ой культурой"
+
+
+ culture_notification.1001.t:0 "Формирование гибридной культуры"
+ culture_notification.1001.desc:0 "Из [parent_1.CollectiveNounNoTooltip|l]ой и [parent_2.CollectiveNounNoTooltip|l]ой культур [founder.GetTitledFirstName] создает новую [Concept( 'hybrid_culture', 'гибридную культуру' )|E] — [new_culture.GetCollectiveNounNoTooltip|l]ую."
+
+ culture_notification.1011.t:0 "[new_culture.GetCollectiveNounNoTooltip]ая гибридизация"
+ culture_notification.1011.intro:1 "За долгие годы хороших отношений и интенсивного культурного обмена [parent_1.GetName|l] и [parent_2.GetName|l] заметно сблизились. Сейчас их представители все чаще относят себя не к тому или другому сообществу, но сразу к обоим — это рождение новой, #L [new_culture.GetCollectiveNoun|l]ой#! культуры.\n\n"
+ culture_notification.1011.hybrid_primary_1:1 "[parent_1.GetCollectiveNounNoTooltip]ие традиции и ценности стали хребтом новой культуры, в то время как [parent_2.GetCollectiveNounNoTooltip|l]ие особенности прочно укрепились и адаптировались в новом обществе."
+ culture_notification.1011.hybrid_primary_2:1 "[parent_2.CollectiveNounNoTooltip]ие традиции и ценности стали хребтом новой культуры, в то время как [parent_1.CollectiveNounNoTooltip|l]ие особенности прочно укрепились и адаптировались в новом обществе."
+ culture_notification.1011.hybrid_no_primary:1 "[new_culture.GetCollectiveNounNoTooltip]ий народ в равной степени позаимствовал элементы обеих культур, создав истинно гибридную культуру, объединившую два мира."
+ culture_notification.1011.outro.other:0 "$culture_notification.1111.outro.other$"
+ culture_notification.1011.outro.founder:0 "$culture_notification.1111.outro.founder$"
+ culture_notification.1011.a.other:0 "$culture_notification.1111.a.other$"
+ culture_notification.1011.a.founder:0 "$culture_notification.1111.a.founder$"
+ culture_notification_hybrid_tooltip:0 "#L [new_culture.GetCollectiveNoun]ая#! [Concept( 'hybrid_culture', 'гибридная культура' )|E] возникла при смешении #L [parent_1.GetCollectiveNoun|l]ой#! и #L [parent_2.GetCollectiveNoun|l]ой#! [Concept( 'cultures', 'культур' )|E]."
+
+
+
+ culture_notification.1101.t:0 "Культура отделена"
+ culture_notification.1101.desc:0 "[founder.GetTitledFirstName] [Select_CString(founder.IsFemale, 'создала', 'создал' )] [new_culture.GetCollectiveNounNoTooltip|l]ую культуру, [Concept( 'divergent_culture', 'отделившуюся' )|E] от [parent_1.GetCollectiveNounNoTooltip|l]ой"
+
+ culture_notification.1111.t:0 "[new_culture.GetCollectiveNounNoTooltip]ие различия"
+ culture_notification.1111.intro:0 "Небольшие изменения диалекта, легкие различия традиций... Сначала это было едва заметно. Но со временем мелкие перемены привели к большим, и ныне [founder.GetPrimaryTitle.GetNameNoTierNoTooltip], где проживает немало выходцев из #L [parent_1.GetCollectiveNoun|l]ой#! культуры, наблюдает рождение нового сообщества, которое называет себя #L [new_culture.GetCollectiveNoun|l]им#!.\n\n"
+ culture_notification.1111.ethos.bellicose:0 "Опасности дикой природы и постоянное противостояние с соперниками сделало [new_culture.GetCollectiveNounNoTooltip|l]ий народ более воинственным — теперь они готовы защищать свой уклад с оружием в руках."
+ culture_notification.1111.ethos.bureaucratic:1 "Похоже, [new_culture.GetNameNoTooltip|l] начинают проявлять все больший интерес к многословным законам, длинным хроникам и запутанным договорам, наслаждаясь жизнью в обществе, основанном на разрастающихся формальных правилах."
+ culture_notification.1111.ethos.courtly:0 "[new_culture.GetCollectiveNounNoTooltip]ий народ отдает немало сил развитию этикета и манер для создания куртуазного общества, способного прийти к эпохе стабильности и процветания."
+ culture_notification.1111.ethos.communal:0 "Помогая соседям в беде и разделяя с ними радость побед, [new_culture.GetCollectiveNounNoTooltip|l]ий народ создает прочные узы общности взглядов и целей."
+ culture_notification.1111.ethos.stoic:0 "В опасном и непредсказуемом мире [new_culture.GetCollectiveNounNoTooltip|l]ий народ все больше уповает на твердость духа и целеустремленность."
+ culture_notification.1111.ethos.spiritual:0 "В поисках истины в своем отечестве и вне его [new_culture.GetCollectiveNounNoTooltip|l]ий народ становится все более одухотворенным и благочестивым."
+ culture_notification.1111.ethos.egalitatian:0 "Признав, что обстоятельства рождения далеко не всегда определяют способности и потенциал, [new_culture.GetCollectiveNounNoTooltip|l]ий народ пропагандирует равенство и становится все более открытым сообществом."
+ culture_notification.1111.ethos.unchanged:0 "[new_culture.GetNameNoTooltip] и [parent_1.GetNameNoTooltip|l] в целом смотрят на жизнь одинаково, поэтому их разногласия лежат скорее в политической плоскости — однако разделение традиций, правил и границ привело к расколу одного сообщества на два."
+ culture_notification.1111.outro.other:0 "\n\nНельзя с уверенностью сказать, чем [Select_CString(founder.IsFemale, 'руководствовалась', 'руководствовался' )] [founder.GetTitledFirstName] — тонким расчетом манипулятора или искренним желанием привести свой народ к новой эре, — когда [Select_CString(founder.IsFemale, 'провозгласила', 'провозгласил' )] себя новым лидером культурного возрождения."
+ culture_notification.1111.outro.founder:0 "\n\n[new_culture.GetCollectiveNounNoTooltip]ий народ видит во мне лидера, а значит, настало время заложить фундамент нашего общего будущего."
+ culture_notification.1111.a.other:0 "Посмотрим, как будет развиваться ситуация."
+ culture_notification.1111.a.founder:0 "В новый век, в новую эпоху, с новым народом!"
+ culture_notification_tooltip:0 "#L [new_culture.GetCollectiveNoun]ая#! [Concept( 'divergent_culture', 'отделившаяся культура' )|E] откололась от #L [parent_1.GetCollectiveNoun|l]ой#! [Concept( 'culture', 'культуры' )|E]."

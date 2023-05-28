@@ -1,0 +1,44 @@
+﻿l_russian:
+ reactive_advice_struggle:0 "Борьба"
+ action_reactive_advice_struggle:0 "Совет: Борьба"
+ action_reactive_advice_struggle_desc:1 "Вы можете принять участие в борьбе. Откройте, чтобы узнать, что это значит."
+ action_reactive_advice_struggle_click:0 "$click_to_open_lesson$"
+ 
+ lessons_struggle_introduction:0 "Борьба"
+ lessons_struggle_introduction_desc:0 "Вы участвуете в [Concept( 'struggle', 'борьбе' )|E]!\n\n[struggle_struggles|E] — это затяжные [Concept( 'region', 'региональные' )|E] конфликты, в ходе которых действия всех участников влияют на положение дел в области и запускают различные [struggle_phase_phases|El]. Изменения в области влияют на [Concept( 'war', 'войну' )|E], [Concept( 'faith', 'конфессию' )|E] и [Concept( 'culture', 'культуру' )|E].\n\nВ конечном счете все участники соревнуются за то, чтобы определить, чем завершится [struggle|El], и последствия этого скажутся на всех участников в области."
+
+ lessons_struggle_region_open:0 "Область борьбы"
+ lessons_struggle_region_open_desc:1 "[struggle_region|E] отмечается новой границей, подсвечивающейся при наведении на кнопку борьбы. Только персонажи, владеющие землями в этой области, могут участвовать в [Concept( 'struggle', 'борьбе' )|E].\n\n#TUT [characters|E] за пределами региона могут присоединиться к [Concept( 'struggle', 'борьбе' )|E], захватив земли в [Concept( 'struggle_region', 'области борьбы' )|E] и перенеся туда свою [Concept( 'capital', 'столицу' )|E].#!"
+
+ lessons_struggle_view_open:0 "Доступ к окну борьбы"
+ lessons_struggle_view_open_desc:0 "Здесь вы можете открыть окно [Concept( 'struggle', 'борьбы' )|E], в котором доступна вся информация, касающаяся [Concept( 'struggle', 'борьбы' )|E]."
+ lessons_struggle_view_open_prompt:0 "Открыть окно [Concept( 'struggle', 'борьбы' )|E]"
+
+ lessons_struggle_view:0 "Окно борьбы"
+ lessons_struggle_view_desc:1 "В окне борьбы можно узнать о текущей [Concept( 'struggle_phase', 'фазе' )|E] и ее эффектах. Здесь же можно увидеть возможные следующие фазы и [Concept( 'struggle_catalyst_catalysts', 'катализаторы' )|E], необходимые для перехода [Concept( 'struggle', 'борьбы' )|E] в новые фазы."
+
+
+ lessons_struggle_current_phases_and_effects:0 "Текущие фазы и эффекты"
+ lessons_struggle_current_phases_and_effects_desc:0 "Текущая [struggle_phase|El] влияет на всю [Concept( 'struggle_region', 'область борьбы' )|E], накладывая особые эффекты на всех [Concept( 'struggle_involved', 'вовлеченных' )|E], [Concept( 'struggle_interloper', 'вмешивающихся' )|E] и [Concept( 'struggle_uninvolved', 'невовлеченных' )|E].\n\nВ этом разделе вы можете ознакомиться с влиянием фазы на [Concept( 'war', 'войну' )|E], [Concept( 'faith', 'конфессию' )|E] и [Concept( 'culture', 'культуру' )|E], а также с другими эффектами."
+
+ lessons_next_struggle_phases:0 "Следующая фаза борьбы"
+ lessons_next_struggle_phases_desc:2 "Текущая [struggle_phase|El] завершится, когда прогресс одной из возможных следующих фаз достигнет [GetDefine('NStruggle', 'PHASE_TRANSITION_THRESHOLD')]. Чтобы увеличить прогресс, необходимо выполнить любой из [Concept( 'struggle_catalyst_catalysts', 'катализаторов' )|E], перечисленных под фазой.\n\n#TUT Изучите возможные следующие фазы и узнайте больше о них самих, их эффектах и недавних [Concept( 'struggle_catalyst', 'катализаторах' )|E] прогресса. Выбор одной из фаз откроет список [Concept( 'struggle_catalyst', 'катализаторов' )|E], которые вы или любой другой [Concept( 'struggle_involved', 'вовлеченный' )|E] в [Concept( 'struggle', 'борьбу' )|E] можете выполнять неограниченное число раз.#!"
+
+ lessons_ending_struggle_open:0 "Завершение борьбы"
+ lessons_ending_struggle_open_desc:1 "[struggle|E] будет переходить из фазы в фазу, пока один из участников не запустит одно из финальных решений и не закончит [Concept( 'struggle', 'борьбу' )|E]. Вы всегда можете свериться с финальными решениями и узнать требования и эффекты."
+ lessons_ending_struggle_open_prompt:0 "Открыть финальные решения"
+
+ lessons_ending_struggle:0 "Завершение борьбы"
+ lessons_ending_struggle_desc:1 "Здесь перечислены все финальные решения [Concept( 'struggle', 'борьбы' )|E].\n\nПомните, что все финальные решения привязаны к конкретным фазам. Вы получите уведомление, когда одно из них станет доступно."
+
+
+ lessons_explore_struggle_open:0 "Изучение борьбы"
+ lessons_explore_struggle_open_desc:0 "Теперь вы знакомы с основами и готовы к своей первой [Concept( 'struggle', 'борьбе' )|E].\n\nДля начала стоит изучить эффекты текущей фазы и возможные следующие фазы."
+ 
+ lessons_struggle_involvement_view_open:0 "Вовлеченность в борьбу"
+ lessons_struggle_involvement_view_open_desc:0 "Во время [Concept( 'struggle', 'борьбы' )|E] все [characters|El] области могут запускать [struggle_catalyst_catalysts|El]. Поэтому важно знать обо всех [Concept( 'struggle_involved', 'вовлеченных' )|E] и [Concept( 'struggle_interloper', 'вмешивающихся в борьбу' )|E]. Данная информация доступна в окне вовлеченных в [Concept( 'struggle', 'борьбу' )|E]."
+ lessons_struggle_involvement_view_open_prompt:1 "Открыть окно вовлеченных в борьбу"
+  
+ lessons_struggle_involvement_view:0 "Вовлеченность в борьбу"
+ lessons_struggle_involvement_view_desc:0 "Здесь вы найдете информацию о собственной вовлеченности, а также подробные сведения о том, как стать [Concept( 'struggle_involved', 'вовлеченным' )|E], [Concept( 'struggle_interloper', 'вмешивающимся' )|E] или [Concept( 'struggle_uninvolved', 'невовлеченным' )|E].\n\nПомимо вашей вовлеченности, здесь также указаны участники [Concept( 'struggle', 'борьбы' )|E] и их вовлеченность. Здесь же можно найти [struggle_involved_cultures|El] и [struggle_involved_faiths|El].\n\n#TUT Знание о вовлеченности других игроков играет важную роль при планировании следующего катализатора, поскольку катализатор может столкнуть вас с другим участником [Concept( 'struggle', 'борьбы' )|E], другой [Concept( 'faith', 'конфессией' )|E] или [Concept( 'culture', 'культурой' )|E].#!"
+

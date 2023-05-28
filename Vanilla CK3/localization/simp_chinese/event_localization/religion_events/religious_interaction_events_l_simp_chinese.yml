@@ -1,0 +1,171 @@
+﻿l_simp_chinese:
+ religious_interaction.1.opening:0 "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]"
+ religious_interaction.1.desc:0 "经过多次祈祷和深思熟虑，我决定批准你与你[secondary_recipient.GetWifeHusband]，[secondary_recipient.GetFirstNameNoTooltip]离婚的请求，"
+ religious_interaction.1.consanguinity:0 "基于血亲婚姻的理由。"
+ religious_interaction.1.fallback:0 "基于疑似通奸的理由。"
+ religious_interaction.1.adultery:0 "基于通奸的理由。"
+ religious_interaction.1.different_faith:0 "基于其不忠于正信的理由。"
+ religious_interaction.1.eunuch:0 "基于其不能人事的理由。"
+ religious_interaction.1.a:0 "对不起，[secondary_recipient.GetFirstNameNoTooltip]。"
+ 
+ religious_interaction.2.desc:0 "深思熟虑之后，我决定为了我们家族最大的利益，批准你与你[secondary_recipient.GetWifeHusband]，[secondary_recipient.GetFirstNameNoTooltip]离婚的请求，"
+ religious_interaction.2.infertility:0 "基于其拒绝圆房的理由。"
+ religious_interaction.2.adultery:0 "基于其与他人交媾，亵渎婚姻神圣性的理由。"
+ 
+ religious_interaction.3.desc:0 "我考虑到你的困境，决定批准你请求。"
+ religious_interaction.3.defensive_war:0 "愿这些资金帮助你守卫信仰，不受[war_target.GetTitledFirstName]和[war_target.GetHerHis]的[war_target.GetFaith.GetAdjective]大军入侵！"
+ religious_interaction.2.offensive_war:0 "愿这些资金为你针对[war_target.GetTitledFirstName]的战争带来胜利！"
+ religious_interaction.3.fallback:0 "愿这些资金帮助你在你的领土上传播正信！"
+ religious_interaction.3.a:0 "赞颂[ROOT.Char.GetFaith.WealthGodName]，退税到账了！"
+ religious_interaction.3.b:0 "这些资金会为我带来胜利！"
+ religious_interaction.3.c:0 "我会善用这笔财富。"
+ religious_interaction.3.d:0 "这些金钱能充实我枯竭的金库！"
+
+ religious_interaction.32.desc:0 "经过考虑之后，我决定拒绝你的请求。"
+ religious_interaction.32.a:0 "哦，不！"
+
+ religious_interaction.4.desc:0 "我已考虑你的请求，决定承认你对于[target.GetName]的宣称。"
+ religious_interaction.4.child:0 "因为[secondary_recipient.GetTitledFirstName]只是小孩，你有权介入。"
+ religious_interaction.4.they_are_female:0 "因为[secondary_recipient.GetTitledFirstName]是女人，你有权介入。"
+ religious_interaction.4.they_are_male:0 "因为[secondary_recipient.GetTitledFirstName]是男人，你有权介入。"
+ religious_interaction.4.fallback:0 "发现了无可辩驳的证据，你的祖先确实曾经在古时统治这片土地。"
+ religious_interaction.4.a:0 "我会证明我才是正当统治者！"
+
+ religious_interaction.42.desc:0 "经过考虑之后，我决定拒绝你对[target.GetName]宣称的请求。"
+ religious_interaction.42.a:0 "该死！"
+
+ religious_interaction.5.child:0 "因为你尚未成年，"
+ religious_interaction.5.they_are_female:0 "因为你的女性身份，"
+ religious_interaction.5.they_are_male:0 "因为你的男性身份，"
+ religious_interaction.5.fallback:0 "因为你明显缺乏虔诚，"
+ religious_interaction.5.outro:0 "让教会非常担忧，我已应[actor.GetName]的请求，授予[actor.GetHerHis][target.GetName]的宣称。"
+ religious_interaction.5.a:0 "这是歪曲！"
+
+ religious_interaction.6.opening:0 "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]"
+ religious_interaction.6.desc:0 "经过多次祈祷和考虑，我决定满足你的要求，允许[secondary_actor.GetFirstNameNoTooltip]与其[secondary_recipient.GetWifeHusband][secondary_recipient.GetFirstNameNoTooltip]离婚，"
+ religious_interaction.6.consanguinity:0 "基于血亲婚姻的理由。"
+ religious_interaction.6.fallback:0 "基于疑似通奸的理由。"
+ religious_interaction.6.adultery:0 "基于通奸的理由。"
+ religious_interaction.6.different_faith:0 "基于其不忠于正信的理由。"
+ religious_interaction.6.eunuch:0 "基于其不能人事的理由。"
+ religious_interaction.6.a:0 "对不起，[secondary_recipient.GetFirstNameNoTooltip]。"
+
+ religious_interaction.1001.t.fatwa:0 "签发法特瓦！"
+ religious_interaction.1001.t:0 "教法谴责！"
+ religious_interaction.1001.desc:1 "我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))][actor.GetTitledFirstName]在[actor.GetHerHis]的[actor.GetFaith.PriestNeuterPlural]发布的令状上看到了我的名字，我被判为罪人！\n\n这能作为法律依据，判定我不适合统治[recipient.GetFaith.GetAdjective]的土地。"
+ religious_interaction.1001.a:0 "如果[actor.GetSheHe]不是我的领主，我就会……"
+ religious_interaction.1001.a.revoke_tt:0 "[actor.GetTitledFirstName]可以[revoke|E]我的一个头衔"
+
+ # Religious Head of Faith Interactions
+ religious_interaction.1010:0 "你想要赎罪，这值得称道。我接受你的慷慨捐赠，作为回报，送给你我的祝福。"
+ religious_interaction.1011:0 "你的劣迹太过严重，远超金钱所能挽回的程度。如果你真的想要赎罪，你必须改弦更张，向我证明你真的想要获得原谅。那时我才会接受的你捐赠。"
+ religious_interaction.1020:0 "我从[actor.GetTitledFirstName]听到了关于我劣迹的忧虑消息。"
+ religious_interaction.1021:0 "你可以自称[actor.GetFaith.GetAdherentName]，但你的行为证明你并不真正走在[actor.GetFaith.HighGodName]的道路上。我无法容忍你在[actor.GetFaith.GetAdjective]公正面具背后的卑劣行为，我别无选择，只能绝罚你。愿[actor.GetFaith.HighGodName]垂怜你的灵魂。"
+ religious_interaction.1022:0 "我为你讲述的关于[secondary_recipient.GetTitledFirstNamePossessive]劣迹的事情而忧虑。如此做会我感到痛苦，但我同意，为了[actor.GetFaith.GetAdjective]信仰，必须绝罚[secondary_recipient.GetSheHe]。"
+ religious_interaction.1023:0 "你意图让[actor.GetFaith.GetAdherentName]同胞受绝罚，是想要做什么？[actor.GetFaith.GetAdjective]信仰不是用于获得政治利益的工具！你应该感到幸运，因为我没有因为这个请求而绝罚你。 "
+ religious_interaction.1024:0 "我观察到你确实为你的罪而悔改了，为了救赎你自己而做了许多努力。尽管你对于[actor.GetFaith.GetAdjective]信仰的过犯确实严重，你近来的行为使我相信你应该获得第二次机会。\n\n有鉴于此，我于兹免除你的绝罚，欢迎你回归[actor.GetFaith.GetAdjective]信仰。"
+ religious_interaction.1025:0 "你觉得我会轻易绝罚人吗？你觉得半真半假的歉意就足以弥补吗？你尽管请求；你不会被允许回到[actor.GetFaith.GetAdjective]信仰，直到你证明你改变了自己的卑劣行径。"
+ religious_interaction.1030:0 "深思熟虑之后，我得出结论，你的话语是真实而智慧的。我会加入隐修会，开始独自侍奉[actor.GetFaith.HighGodName]的新生活。"
+ religious_interaction.1031:0 "你让我抛弃所有生活，逃遁到与世隔绝的修道院，这个提议极其荒谬。我对于我在这里很满意，没有想要改变。"
+ religious_interaction.1000.positive:0 "我很高兴[recipient.GetFirstNameNoTooltip]能体会到我请求中的智慧。"
+ religious_interaction.1000.negative:0 "真不幸……"
+ religious_interaction.1000.strong_negative:0 "该死！"
+ religious_interaction.1024.positive:0 "[recipient.GetFirstNameNoTooltip]这次行事明智，我很欣慰。"
+
+ religious_interaction.2002.desc:0 "我已决定追随你加入光明，改宗[ROOT.Char.GetFaith.GetName]！"
+ religious_interaction.2002.a:0 "[ROOT.Char.GetFaith.HighGodName]应受赞颂！"
+
+ religious_interaction.2003.desc:0 "我有强大的信心，不会被你尘世的言语动摇。我更想要在[recipient.GetFaith.DivineRealm]中获得我的赏报。"
+ religious_interaction.2003.hooking_out:0 "\n\n我也想提醒你，你欠我这一次，最好不要仅仅因为我是真正的信徒就迫害我。"
+ religious_interaction.2003.a:0 "我只是为你的救赎着想。"
+ religious_interaction.2003.b:0 "好吧，你会在这个世界付出代价！"
+ religious_interaction.2003.c:0 "别以为我会让你逃掉这一次！"
+ religious_interaction.2003.d:0 "哦，我以为你会按我说的做。"
+
+ religious_interaction.2011.desc:0 "我很乐于与你同喜，但翻新[recipient.GetFaith.HouseOfWorshipPlural]和在我的农民中传教的大量成本……\n\n如果你帮助我支付这些花费，我会更乐意向你的[ROOT.Char.GetFaith.HighGodName]祈祷。"
+ religious_interaction.2011.a:0 "一切为了信仰。"
+ religious_interaction.2011.b:0 "我不会为了你的永恒救赎而付钱！"
+ religious_interaction.2011.c:0 "你会为了比金钱更有价值的东西而行动。"
+
+ religious_interaction.2012.desc:0 "我感受到你信仰的智慧，但我希望你明白从黑暗中进入光明需要经过怎样漫长而曲折的道路。\n\n也许如果你承诺在我有需求的任何方面支持我，这趟旅程会更加容易。"
+ religious_interaction.2012.a:0 "我接受，为了[ROOT.Char.GetFaith.GetNameNoTooltip]在各处的利益。"
+ religious_interaction.2012.b:0 "我不会为你的灵魂讨价还价！"
+ religious_interaction.2012.c:0 "首先，你还有其他债没还我。"
+
+ religious_interaction.2021.opening:0 "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"
+ religious_interaction.2021.desc:0 "[actor.Custom2('AppropriateGreeting', ROOT.Char)]\n你是时候与我一同加入光明了，我的[actor.Custom2('RelationToMe', SCOPE.sC('recipient'))]。考虑你欠我的东西，我要求你改信[actor.GetFaith.GetName]！"
+ religious_interaction.2021.a:0 "我……好吧，我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))]。"
+ 
+#######################################
+### Sun trial by Mathilda Bjarnehed ###
+#######################################
+
+#I have been left in the sun to die!
+ religious_interaction.2100.t:0 "[imprisoner.GetFaith.HighGodNamePossessive|U]的审判"
+ religious_interaction.2100.desc:0 "[ROOT.Char.GetFaith.HighGodName]才知道我在黑暗的监狱里待了多久，[capital.GetNameNoTitle]的刺目阳光都快把我照瞎了。押解我离开[imprisoner.Custom('FortifiedBuilding')]进入荒野的卫兵表现得出奇地郑重——甚至算得上礼仪了。\n\n当我注意到[imprisoner.GetTitledFirstName]，还有旁边的一打[imprisoner.Custom('DefaultPriestTitlePlural')]时，我们的目的地也明了了。\n\n“[ROOT.Char.GetFullNameNoTooltip]。你会被留在这，绑在这根桩子上，而[imprisoner.GetFaith.HighGodName]会决定你的命运。如果你无罪，你就能活下来，但如果你有罪，你会灭亡。”"
+ religious_interaction.2100.a.believer:0 "[imprisoner.GetFaith.HighGodName|U]会公正地审判我！"
+ religious_interaction.2100.a.unbeliever:0 "你要把我#EMP 留在#!这？！"
+ religious_interaction.2100.a.success:0 "你从审判中活了下来"
+ religious_interaction.2100.a.failure:0 "你死于烈日"
+
+#I have survived!
+ religious_interaction.2101.start.desc:0 "水，我需要水！我的喉咙，我的头，我的皮肤——都好像着火了！\n\n[ROOT.Char.GetFaith.DevilName]真的在这嘲笑我的不幸？[ROOT.Char.GetFaith.WaterGodName]给了我一瓶水？我喝了又喝，但渴依然没有消除。"
+ religious_interaction.2101.end.desc:0 "\n\n[imprisoner.GetTitledFirstName]回来了，并将水瓶压在我的嘴唇上，我的意识也清晰了不少。看到我没死，[imprisoner.GetTitleAsNameNoTooltip]似乎有点失望，但神明已经做出了裁决。"
+ religious_interaction.2101.a:0 "我无罪！"
+
+#They survived...
+ religious_interaction.2102.desc:0 "在[prisoner.GetTitledFirstNamePossessive]的审判的最后一夜，我们找到了[prisoner.GetHerHim]，虽然失去了意识，但是还在呼吸。\n\n“真是奇迹！”[ROOT.Char.Custom('DefaultPriestTitle')]双手举向天空宣告道，“[ROOT.Char.GetFaith.HighGodName|U]已经开口！这个[prisoner.GetWomanMan]无罪！”"
+ religious_interaction.2102.a:0 "这是[ROOT.Char.GetFaith.HighGodNamePossessive|U]的意志。"
+ religious_interaction.2102.b:0 "在我看来[prisoner.GetSheHe|U]已经是个死人了……"
+ religious_interaction.2102.b.tt:0 "[ROOT.Char.GetFaith.HighGodName|U]并不#EMP 总是#!正确！"
+ religious_interaction.2102.b.success:0 "你的干预没被发现"
+ religious_interaction.2102.b.failure:0 "你被揭露是个杀人犯"
+
+#I have died...
+ religious_interaction.2103.end.desc:0 "\n\n如果这是[ROOT.Char.GetFaith.HighGodHerHis|U]的意志，也许这是我应得的。也许我是……恶人。"
+ religious_interaction.2103.a:0 "我……我太累了……"
+
+#They died!
+ religious_interaction.2104.desc:0 "审判的最后一夜，我们找到了[prisoner.GetTitledFirstNamePossessive]，但是[prisoner.GetSheHe]没有任何反应。一个仆人将水瓶放到[prisoner.GetHerHis]干裂的嘴唇上，但是水只是顺着[prisoner.GetHerHis]的下巴流了下去。\n\n“[ROOT.Char.GetFaith.HighGodName|U]已然开口！”[ROOT.Char.Custom('DefaultPriestTitle')]双手举向天空宣告道，“这个[prisoner.GetWomanMan]有罪！”"
+
+##############################################
+### Literalist Debate by Ewan Cowhig Croft ###
+##############################################
+
+ religious_interaction.2400.t:0 "大辩论"
+ religious_interaction.2400.desc:0 "当侍从给我读[actor.GetTitledFirstNamePossessive]的信时，[recipient.GetSheHe]害怕得发抖，信中向我发起了关于我们共同信仰的善恶观的公开辩论，并质疑我对[recipient.GetFaith.GetNameNoTooltip]基本教义的遵守。\n\n我的仆人结结巴巴地读着，信的语气毫无疑问地透露出[actor.GetShortUINamePossessiveNoTooltip]对我虔诚的评断。"
+ religious_interaction.2400.a:0 "那个杂种！接受挑战！"
+ religious_interaction.2400.a.tt_success:0 "公开辩论羞辱了[actor.GetShortUINameNoTooltip]"
+ religious_interaction.2400.a.tt_fail:0 "[actor.GetShortUINameNoTooltip]成功质疑了我的信仰"
+ religious_interaction.2400.b:0 "我不会用这样的闹剧玷污[recipient.GetFaith.HighGodNamePossessive]的名字。"
+ religious_interaction.2400.b.tt:0 "[actor.GetShortUINameNoTooltip]将得到消息"
+ religious_interaction.2400.b_turned_down:0 "[recipient.GetShortUIName|U]拒绝了我的辩论挑战"
+
+ used_literalist_debate_modifier:0 "近期辩论"
+ used_literalist_debate_modifier_desc:0 "该角色近期就其信仰的基本要义发起了一场辩论。"
+ literally_debated_modifier:0 "近期辩论"
+ literally_debated_modifier_desc:0 "该角色近期参与了一场辩论，争论其信仰的基本要义。"
+
+ religious_interaction.2401.desc_intro:0 "我的对手和我在[debate_locale.GetNameNoTierNoTooltip]的一个大厅里碰面，我们相隔只有几尺，站在摇晃的桌子上，周围围着一群热切的旁观者。人群中鸦雀无声，所有人都在等待辩论开始。\n\n"
+ religious_interaction.2401.desc_won:0 "在一个小时内，我驳倒了[recipient.GetTitledFirstName]，攻击了[recipient.GetHerHis]的虔诚，[recipient.GetHerHis]的美德观，甚至质疑了[recipient.GetHerHis]对[actor.GetFaith.HighGodName]的忠诚。围观群众开始用臭鸡蛋和发霉的卷心菜丢[recipient.GetTitledFirstNameNoTooltip]，直到[recipient.GetSheHe]逃出大厅。"
+ religious_interaction.2401.desc_lost:0 "[recipient.GetTitledFirstNamePossessive]马上开始了语言攻击，几乎没给我留下反击的机会，没多久，人群就决定了胜利者。\n\n烂蔬菜如雨一般向我丢来，我坚持了几分钟，最后还是被迫撤退，因为有个农民朝我的头扔了一只活鸡。"
+ religious_interaction.2401.a_won:0 "看来[actor.GetFaith.HighGodName]不喜爱我？"
+ religious_interaction.2401.a_lost:0 "这些人根本不懂[actor.GetFaith.GetReligion.GetNameNoTooltip]！"
+
+ religious_interaction.2402.desc_won:0 "虽然[actor.GetTitledFirstNamePossessive]在挑战我辩论时自信满满，但在我尖刻的言辞和虔诚的指责形成的风暴前，[actor.GetHerHis]的信念很快融化了。没多久，人群就加入进来，烂蔬菜如雨般飞去，甚至还有一只特别好斗的公鸡，我的对手不得不撤退。"
+ religious_interaction.2402.desc_lost:0 "尽管我尽了最大的努力，但[actor.GetTitledFirstName]显然对[actor.GetHerHis]的论点研究地非常透彻，几乎立刻就让人群相信了[actor.GetHerHis]。[actor.GetSheHe|U]还不顾一切地继续训斥了我一个多小时，控告我犯下世间一切罪恶，甚至还含沙射影地暗示我对[recipient.GetFaith.HighGodName]的忠诚有问题。\n\n最后，我逃走了，身后还跟着围观群众丢来的一连串烂蔬菜。"
+
+ religious_interaction.2403.desc:0 "[victim.GetTitledFirstName]根本毫无机会。尽管[victim.GetSheHe]认为[victim.GetHerselfHimself]进行了充分准备，但我像拍苍蝇一样将[victim.GetHerHis]漏洞百出的论据轻松驳倒。每一次对位，[victim.GetFirstNameNoTooltip]都像遭受打击一样龇牙咧嘴。随着时间推移，[victim.GetSheHe]似乎完全无法为[victim.GetHerselfHimself]自己争辩了，甚至人群都陷入了沉默。\n\n“而这就是为什么，”我一边说一边举起了手，用谴责的手指指向房间的另一边，“你永远不会——”\n我停了下来，因为[victim.GetFirstNameNoTooltip]正喘着气，紧按着"
+ religious_interaction.2403.conclusion_either:0 "[victim.GetHerHis]的胸膛。"
+ religious_interaction.2403.conclusion_man:1 "[victim.GetHerHis]的手臂。"
+ religious_interaction.2403.conclusion_woman:1 "[victim.GetHerHis]的腹脏。"
+ religious_interaction.2403.a.low_compassion:0 "“懦夫的逃避方式，我懂的。”"
+ religious_interaction.2403.a.zealous:0 "“看来[ROOT.Char.GetFaith.PantheonTerm][ROOT.Char.GetFaith.PantheonTermHasHave]选出了胜者。”"
+ religious_interaction.2403.a.stubborn:0 "“哈，我还没结束呢！”"
+ religious_interaction.2403.a:0 "“你……你还好吗？”"
+ religious_interaction.2403.a.tt:0 "[victim.GetShortUIName]因心脏病发作而[character_death_dies|E]"
+
+ religious_interaction.2500.desc:0 "你回归了理性……这必是来自[ROOT.Char.GetFaith.HighGodNameAlternate]的圣迹！欢迎加入真正的信仰。"
+ religious_interaction.2500.a:0 "赞美[ROOT.Char.GetFaith.HighGodName]！"
+
+ religious_interaction.2501.desc:0 "你一定在开欢笑吧？你这种明目张胆的政治逃避，永远也逃不出[recipient.GetFaith.HighGodName]的义怒！"

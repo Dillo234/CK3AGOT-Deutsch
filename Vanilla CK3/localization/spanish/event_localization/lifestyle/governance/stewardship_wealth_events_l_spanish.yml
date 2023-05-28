@@ -1,0 +1,136 @@
+﻿l_spanish:
+ 
+ ###################
+ # Standard Events #
+ ###################
+
+ # Bankrupt, by Stephen Arthur and Sean Hughes
+ stewardship_wealth.1001.t:0 "¡Bancarrota!"
+ stewardship_wealth.1001.desc:0 "Mi tesoro está agotado y mi despensa, vacía. Hemos vendido hasta las ratas para pagar los gastos, ¡y aun así no consigo saldar todas las deudas que tengo!\n\n¿Cómo puedo salir de esta situación?"
+ stewardship_wealth.1001.a:0 "¡Examinad los libros de contabilidad para ver si hay algo que nos ayude!"
+ stewardship_wealth.1001.a.success:0 "Encuentro varias deudas pasadas por alto que se pueden reclamar"
+ stewardship_wealth.1001.a.failure:0 "No encuentro nada de ayuda"
+ stewardship_wealth.1001.b.havehook:0 "Reclamaré el favor que me debe [wealthy_vassal.GetTitledFirstNameNoTooltip]."
+ stewardship_wealth.1001.b.givehook:0 "Le deberé un favor a [wealthy_vassal.GetTitledFirstNameNoTooltip] si me ayuda."
+ stewardship_wealth.1001.c:0 "¡Exigiré tributo a mis vasallos!"
+ stewardship_wealth.1001.c.tt:0 "Todo vasallo:"
+ stewardship_wealth.1001.d:0 "Confiscar propiedades de la iglesia para conseguir fondos."
+ stewardship_wealth.1001.e:0 "Me apretaré el cinturón y ahorraré lo que pueda."
+ 
+ # Minting New Coins, bu Stephen Arthur and Sean Hughes
+ stewardship_wealth.1011.t:0 "Acuñar nuevas monedas"
+ stewardship_wealth.1011.desc:0 "Es mi derecho y responsabilidad decidir qué moneda se usa en todo el [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\nLa elección que haga decidirá cómo se verá mi moneda —y, por ende, mi señorío— en todo el mundo."
+ stewardship_wealth.1011.a:0 "Acuñar monedas de plata para facilitar el comercio."
+ stewardship_wealth.1011.b:0 "¡Acuñad monedas de oro con mi semblante!"
+ stewardship_wealth.1011.c:0 "Devaluar la moneda con níquel barato."
+ stewardship_wealth.1011.c.success:0 "Me ahorro una fortuna acuñando moneda devaluada"
+ stewardship_wealth.1011.c.failure:0 "Todo el mundo se entera de lo rebajadas que están las nuevas monedas"
+ stewardship_wealth.1011.custom:0 "Todo condado de [THIS.Char.GetPrimaryTitle.GetName]"
+
+ # War Taxes, by Sean Hughes
+ stewardship_wealth.1021.t:0 "Pagar por la guerra"
+ stewardship_wealth.1021.desc:0 "Las guerras son caras y con la rapidez que se vacía mi tesoro necesito pensar en cómo pagar para mantener a mis soldados en el campo de batalla."
+ stewardship_wealth.1021.a:0 "Recaudar impuestos adicionales a los campesinos."
+ stewardship_wealth.1021.a.custom:0 "Todo [county|lE] de mi [domain|lE]"
+ stewardship_wealth.1021.b:0 "Recortar en gastos militares no esenciales."
+ stewardship_wealth.1021.b.success:0 "Mejoro la eficiencia de mi presupuesto militar"
+ stewardship_wealth.1021.b.failure:0 "Recorté sin querer gastos militares cruciales"
+ stewardship_wealth.1021.c:1 "Las cosas se arreglarán al final. Siempre pasa."
+ stewardship_wealth.1021.c.tt:0 "La guerra creará muchas oportunidades…"
+
+ # War Profiteering, by Isabella Welch
+ stewardship_wealth.1022.t:0 "Saqueo de lo sagrado"
+ stewardship_wealth.1022.desc:0 "Mi [GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )], [church_burner.GetName] se me acerca feliz para informarme sobre su partida:\n\n«Mi [ROOT.Char.GetLadyLord], tras vuestra sensata decisión de dejar a nuestro criterio la financiación de la guerra, hemos realizado el saqueo más fructífero que jamás haya visto [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier]! ¡Hemos robado decenas de ovejas, hurtado cientos de alhajas e incluso quemado un/a [ROOT.Char.GetFaith.HouseOfWorship] con un millar de personas dentro!»."
+ stewardship_wealth.1022.a:0 "Nuestras arcas necesitaban tal premio… pero intentad no hacerlo de nuevo."
+ stewardship_wealth.1022.b:0 "¡Nadie me considerará un[ROOT.Char.Custom('ES_XA')] carnicer[ROOT.Char.Custom('ES_OA')]! Lo gastaremos en indemnizaciones."
+ stewardship_wealth.1022.c:0 "¡Buen trabajo! Seguiremos haciendo lo que nos plazca."
+ 
+ # Wealthy free farmer wants to buy land, by Sean Hughes
+ stewardship_wealth.1051.t:0 "La fortuna del hombre libre"
+ stewardship_wealth.1051.desc:0 "[freeman.GetFirstName], un[freeman.Custom('ES_XA')] arrendatari[freeman.Custom('ES_OA')] libre que ocupa algunas de mis tierras en [target_county.GetNameNoTier], ha conseguido una cosecha excepcional esta temporada gracias a su meticulosa planificación.\n\nAhora desea utilizar algunas de sus ganancias para comprar una porción de mi patrimonio de manera que pueda aprovechar su éxito para tener más cosechas el año que viene."
+ stewardship_wealth.1051.a:0 "Olvidad las cosechas, ¡un[freeman.Custom('ES_XA')] [freeman.GetWomanMan] como [freeman.GetSheHe] debe estar en mi corte!"
+ stewardship_wealth.1051.a.arrogant:0 "¿Un[freeman.Custom('ES_XA')] campesin[freeman.Custom('ES_OA')] cultivad[freeman.Custom('ES_OA')] ? ¡Qué novedoso! ¡#EMP Debéis#! uniros a mi corte!"
+ stewardship_wealth.1051.b:0 "Si me paga en moneda, la tierra es suya."
+ stewardship_wealth.1051.d:0 "¡La tierra en [target_county.GetNameNoTierNoTooltip] es mía y solo mía!"
+
+ # Pick a new thing to obtain, by Sean Hughes
+ stewardship_wealth.1061.t:0 "Nuevas adquisiciones"
+ stewardship_wealth.1061.desc:0 "Durante la gestión diaria de mi reino, he visto distintas oportunidades que puedo aprovechar.\n\nCada una de ellas tiene un gran potencial, pero, siendo realistas, solo puedo dedicarme a una. Debo decidir qué es lo que en última instancia me reportaría más valor."
+ stewardship_wealth.1061.a:0 "He oído rumores sobre el redescubrimiento de un libro perdido."
+ stewardship_wealth.1061.a.success:0 "El libro perdido contiene una gran riqueza de conocimientos"
+ stewardship_wealth.1061.a.success.good:0 "Ganas un [artifact|lE] de libro muy bueno."
+ stewardship_wealth.1061.a.failure:0 "El libro perdido solo era un viejo libro de cuentas"
+ stewardship_wealth.1061.a.success.bad:0 "Ganas un [artifact|lE] de libro poco interesante."
+ stewardship_wealth.1061.b:0 "A [vassal.GetTitledFirstNameNoTooltip] le vendría bien ayuda para administrar sus posesiones."
+ stewardship_wealth.1061.c:0 "Cerrar estos acuerdos comerciales llenará mi tesoro."
+
+ # Buy some cows, by Linnéa Thimrén
+ stewardship_wealth.5001.t:0 "Ganado brioso"
+ stewardship_wealth.5001.desc:0 "Como pago extra a un acuerdo reciente, he entrado en posesión de un gran rebaño de ganado.\n\nMe han asegurado que los animales son de la mejor calidad, pero sigue en el aire la cuestión de qué hacer con ellos."
+ stewardship_wealth.5001.a:0 "[capital.GetNameNoTierNoTooltip] prosperará con el rebaño."
+ stewardship_wealth.5001.b:0 "Es un rebaño hermoso, pero podría ser mayor…"
+ stewardship_wealth.5001.b.message_1:0 "Mi proyecto de cría tiene éxito"
+ stewardship_wealth.5001.b.message_2:0 "Mi proyecto de cría fracasa"
+ stewardship_wealth.5001.c:0 "Las pieles darán un bonito beneficio. ¡Traed el cuchillo!"
+
+ #Investment advice (wealth friend), by Mathilda Bjarnehed
+ stewardship_wealth.5002.t:0 "Un consejo"
+ stewardship_wealth.5002.start.desc:0 "Paseaba entre los puestos del mercado de [capital.GetNameNoTooltip], con una bolsa pesada colgando de mi cinto. ¿Cómo podrían servirme estas monedas?\n\nMientras admiro los productos de un "
+ stewardship_wealth.5002.safe_smithy.desc:0 "herrero local (buen acero),"
+ stewardship_wealth.5002.safe_mason.desc:0 "cantero local (geometría perfecta),"
+ stewardship_wealth.5002.safe_religious_sculptor.desc:0 "escultor local (imaginería [ROOT.Char.GetFaith.GetAdjectiveNoTooltip])"
+ stewardship_wealth.5002.safe_jeweler.desc:0 "joyero local (filigranas exquisitas),"
+ stewardship_wealth.5002.middle.desc:1 "una inversión razonable. [investor.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] aparece a mi lado.\n\n«¿Me permitís un consejo, [ROOT.Char.Custom2('RelationToMeAddress', investor)]? Visitad"
+ stewardship_wealth.5002.risky_smithy.desc:0 "la herrería"
+ stewardship_wealth.5002.risky_mason.desc:0 "el taller del cantero"
+ stewardship_wealth.5002.risky_religious_sculptor.desc:0 "el puesto del escultor"
+ stewardship_wealth.5002.risky_jeweler.desc:0 "el puesto del joyero"
+ stewardship_wealth.5002.end.desc:0 "de allí. Las obras son sencillas, pero su potencial, enorme»."
+
+ stewardship_wealth.5002.b.success:0 "[investor.GetFirstNameNoTooltip] y yo nos unimos mediante una gran inversión"
+ stewardship_wealth.5002.b.failure:0 "La inversión fracasa"
+ stewardship_wealth.5002.b.failure.tt:0 "Pierdes el dinero invertido."
+
+ stewardship_wealth.5002.a.smithy:0 "Invertir en una herrería."
+ stewardship_wealth.5002.a.tavern:0 "Invertir en una taberna."
+ stewardship_wealth.5002.a.mason:0 "Invertir en un taller de cantería."
+ stewardship_wealth.5002.a.religious_sculptor:0 "Invertir en un taller de escultura."
+ stewardship_wealth.5002.a.jeweler:0 "Invertir en un taller de orfebrería."
+ stewardship_wealth.5002.c:0 "Da ganancias rápidas con unas transacciones inteligentes."
+
+#Roadside Stall selling carvings by Daniel Moore
+ stewardship_wealth.6001.t:0 "Puesto en el camino"
+ stewardship_wealth.6001.desc:0 "Mientras viajo por el/la [stall_county.Custom('TerrainTypeCountyScope')] de [stall_county.GetName], encuentro un puesto de aspecto improvisado al lado del camino.\n\nCuando me detengo a echar un vistazo, un[stall_owner.Custom('ES_XA')] campesin[stall_owner.Custom('ES_OA')] llamad[stall_owner.Custom('ES_OA')] [stall_owner.GetFirstName] entra en acción, tratando de convencerme de que compre una de las pequeñas tallas de [stall_owner.GetFaith.ReligiousSymbol] que tiene a la venta.\n\n«Las hago a mano, mi [ROOT.Char.GetLadyLord], cada una me lleva horas de trabajo»."
+ stewardship_wealth.6001.a:0 "Compraré una."
+ stewardship_wealth.6001.a.tt_high:0 "Consigues una talla de alta calidad"
+ stewardship_wealth.6001.a.tt_low:0 "Consigues una talla de baja calidad"
+ stewardship_wealth.6001.b:0 "Dudo que este puesto pague impuestos, ¡desmontadlo!"
+ stewardship_wealth.6001.c:0 "Hablaré con [stall_owner.GetSheHe], para ver qué puedo aprender sobre ventas."
+
+ small_religious_carving:0 "Pequeña talla religiosa"
+ small_religious_carving_desc:0 "Es una talla pequeña, pero intricada, de estilo [stall_owner.GetFaith.GetAdherentNameNoTooltip] de un/a [stall_owner.GetFaith.ReligiousSymbol]."
+
+# Rogue Administration by Jason Cantalini
+ stewardship_wealth.7000.t:0 "Administración pícara"
+ stewardship_wealth.7000.desc:0 "Con mucha ceremonia autocomplaciente, mi $knight_culture_player_no_tooltip_lowercase$ [enforcer.GetTitledFirstName] tira de golpe un saco abultado delante de mí.\n\n«Mirad», solicita.\n\nVacío su contenido: metales preciosos, reliquias, alhajas.\n\n«He #EMP convencido#! a algunos de los plebeyos de [victim.GetTitledFirstName]», sonríe [enforcer.GetFirstNameNoTooltip], «sus impuestos estaban destinados a vos, mi [ROOT.Char.GetLadyLord]».\n\n¡Es una buena ganancia! Y, lo que es mejor, me imagino la expresión de ira en la cara de [victim.GetTitleAsNameNoTooltip]."
+
+ stewardship_wealth.7000.a:0 "¡[victim.GetFirstNameNoTooltip], vaya [victim.Custom('InsultAdjective')]!"
+ stewardship_wealth.7000.b:0 "Puedo justificar esta exacción."
+ stewardship_wealth.7000.b.tt:0 "Chivos expiatorios, enfangar la verdad, devoluciones leves… Lo que sea para mitigar las acusaciones de tiranía"
+ stewardship_wealth.7000.c:0 "Tomad esta fortuna. Traedme más."
+ stewardship_wealth.7000.c.tt:0 "¡En vuestro señorío y en el suyo, soltaréis a los mejores recaudadores que un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleAsNameNoTooltip] pueda conseguir!"
+ stewardship_wealth.7000.d:0 "Ay… Los bienes robados tendrán que ser devueltos."
+ stewardship_wealth.7000.d.tt:0 "La venganza está mal y todo eso…"
+
+# Beyond Boundaries by Jason Cantalini
+ stewardship_wealth.7001.t:0 "Cruzando los límites"
+ stewardship_wealth.7001.desc:0 "¡Maldit[thieving_rival.Custom('ES_OA')] sea [thieving_rival.GetTitledFirstName] y sus lacayos ladrones! Mi [messenger.GetCouncilTitle] tartamudea el mensaje de que, con descaro, ¡esos matones coaccionaron al pueblo llano de [ROOT.Char.GetCapitalLocation.GetName] para que entregaran las riquezas que debían ser para mí!\n\n[messenger.GetTitledFirstName] tiene a los funcionarios preparados para cobrar las tasas habituales… pero ya preveo viudas lamentándose, niños muriendo de hambre y familias pobres siendo expulsadas de sus hogares.\n\n¡Miles de maldiciones sobre el alma codiciosa de [thieving_rival.GetTitledFirstNameNoTooltip]!"
+
+ stewardship_wealth.7001.justification:0 "[thieving_rival.GetSheHe|U] difunde mentiras endebles sobre sus derechos como mi [thieving_rival.GetLadyLord], pero yo sé que lo que se ha llevado es mío…"
+ stewardship_wealth.7001.unleashed_knights:0 "[thieving_rival.GetSheHe|U] y sus secuaces, viles ladrones, se vuelven más aborrecibles con cada día que pasa…"
+
+ stewardship_wealth.7001.a:0 "Me atengo a mi derecho de que se me pague."
+ stewardship_wealth.7001.a.tt:0 "¡Mandad a los recaudadores a los pueblos!"
+ stewardship_wealth.7001.b:0 "Mis enemistades personales no son las de mi pueblo."
+ stewardship_wealth.7001.b.tt:0 "Eximir de impuestos a las víctimas de [thieving_rival.GetFirstNameNoTooltip]"
+

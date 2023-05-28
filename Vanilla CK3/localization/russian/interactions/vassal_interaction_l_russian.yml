@@ -1,0 +1,83 @@
+﻿l_russian:
+ grant_vassal_interaction:0 "Передать вассала"
+ grant_vassal_interaction_desc:0 "[recipient.GetShortUINameNoTooltip] получит от вас одного из ваших [Concept( 'vassals', 'вассалов' )|E]\n\nМожно передавать вассалов ниже [Concept( 'rank', 'рангом' )|E], чем [recipient.GetShortUINameNoTooltip]"
+ grant_vassal_interaction_notification:0 "Переданный вассал"
+ actor_secondary_grant_vassal_interaction:0 "[vassal|E]"
+ GRANT_VASSAL_SELECT_VASSAL_TO_TRANSFER:0 "Выберите [Concept( 'vassal', 'вассала' )|El] для передачи"
+ retract_vassal_interaction:0 "Отозвать вассала"
+ retract_vassal_interaction_desc:0 "Один из [Concept( 'vassals', 'вассалов' )|E], которыми владеет [recipient.GetShortUINameNoTooltip], станет вашим [Concept( 'direct_vassal', 'прямым вассалом' )|E]"
+ retract_vassal_interaction_extra_icon:0 "$hook_extra_icon$"
+ recipient_secondary_retract_vassal_interaction:0 "[vassal|E]"
+ RETRACT_VASSAL_SELECT_VASSAL_TO_RETRACT:0 "Выберите [Concept( 'vassal', 'вассала' )|El] для отзыва"
+ start_independence_faction_interaction:0 "Основать фракцию сепаратистов"
+ start_independence_faction_interaction_desc:0 "Основать [Concept( 'independence_faction', 'фракцию за независимость' )|E] от персонажа [recipient.GetShortUINameNoTooltip]"
+ start_independence_faction_interaction_notification:0 "Основание фракции сепаратистов"
+ join_independence_faction_interaction:0 "Присоединиться к фракции сепаратистов"
+ join_independence_faction_interaction_desc:0 "Присоединяется к происками [independence_faction|El] против персонажа [recipient.GetShortUINameNoTooltip]"
+ join_independence_faction_interaction_notification:0 "Присоединение к фракции сепаратистов"
+ create_claimant_faction_against_interaction:0 "Основать фракцию в поддержку претендента"
+ create_claimant_faction_against_interaction_desc:0 "Основать [Concept( 'claimant_faction', 'фракцию поддержки претендента' )|E] против персонажа [secondary_actor.GetShortUINameNoTooltip]"
+
+ general_rebellion_decline_summary:0 "[recipient.Custom2('RevokeTitleDeclineSummary', SCOPE.sC('actor'))]"
+ general_rebellion_decline_summary_warning:0 "@warning_icon!#X Если [ROOT.Char.GetShortUINameNoTooltip] откажется, [ROOT.Char.GetSheHe] и другие недовольные [vassals|El] поднимут мятеж!#!"
+ general_rebellion_decline_summary_auto_accept:0 "" #Supposed to be empty, we want no warning about them rising up in rebellion if they can't refuse and do so
+
+
+ stop_attacker_vassal_war_interaction:0 "Вмешаться в войну"
+ stop_defender_vassal_war_interaction:0 "Потребовать капитуляции в войне между вассалами"
+ STOP_VASSAL_WAR_ATTACKER:0 "Выберите, какую войну вы потребуете закончить"
+ STOP_VASSAL_WAR_DEFENDER:0 "Выберите, какую войну вы потребуете закончить"
+ stop_vassal_war_negotiation:2 "[recipient.GetShortUIName] может закончить войну, но попросить что-то взамен\n\nЖелание персонажа [recipient.GetShortUINamePossessive] зависит от:\n$BULLET_WITH_TAB$ Ваших навыков [Concept( 'diplomacy', 'дипломатии' )|E]\n$BULLET_WITH_TAB$ Состояния войны\n$BULLET_WITH_TAB$ [recipient.GetHerHis|U] [Concept( 'traits', 'свойств' )|E]\n$BULLET_WITH_TAB$ [recipient.GetHerHis|U] [Concept( 'opinion', 'мнения' )|E] о вас\n$BULLET_WITH_TAB$ Того, испытывает ли [recipient.GetSheHe] перед вами [Concept( 'intimidated', 'страх' )|E] или [Concept( 'cowed', 'ужас' )|E]"
+ stop_vassal_war_use_hook:1 "При необходимости вы сможете использовать [Concept( 'hook', 'влияние' )|E]"
+ force_join_faction_interaction:0 "Заставить присоединиться к фракции"
+ force_join_faction_interaction_desc:1 "Использовать [Concept( 'hook', 'влияние' )|E] на персонажа [recipient.GetShortUIName], чтобы заставить [Select_CString(recipient.IsFemale, 'ее', 'его' )] вступить в вашу нынешнюю [Concept( 'faction', 'фракцию' )|E]"
+ force_join_faction_interaction_notification:0 "Вынужденное присоединение к фракции"
+
+ stop_attacker_vassal_war_decline_summary:1 "[recipient.GetShortUINameNoTooltip] может попросить об ответной услуге"
+
+ IS_FIGHTING_AGAINST_ME:1 "Вы и [TARGET_CHARACTER.GetShortUIName] ведете войну"
+ I_HAVE_RECENTLY_ASKED_TO_STOP_WAR:1 "Вы недавно просили персонажа [TARGET_CHARACTER.GetShortUIName] закончить войну"
+ interfere_in_war:0 "Закончить войну между вассалами"
+
+ force_onto_council:0 "Потребовать место в совете"
+ force_onto_council_desc:0 "Использовать [Concept( 'hook', 'влияние' )|E], чтобы [recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'дала', 'дал' )] вам место в [Concept( 'council', 'совете' )|E] на ваш выбор"
+ force_onto_council_extra_icon:1 "@weak_hook_icon!Доступно, потому что у вас есть [Concept( 'hook', 'влияние' )|E]"
+ force_onto_council.notification.strong_hook:0 "На мой взгляд, я — лучший [council_task.GetPositionName], какой у вас только может быть. Поэтому в ваших интересах предоставить эту должность мне.\n\nПоследствия отказа вы прекрасно #EMP представляете#!."
+ force_onto_council.notification.fallback:0 "Полагаю, как мы и договаривались, теперь я — ваш [council_task.GetPositionName].\n\nНа мой взгляд, это вполне заглаживает ваш долг передо мной."
+ force_onto_council.desc.tt:0 "[Select_CString(actor.IsLocalPlayer,'You',actor.GetShortUIName)] теперь [councillor|El]"
+ force_onto_council.recipient.tt:0 "[actor.GetShortUIName] теперь ваш [council_task.GetPositionName|l]"
+ force_onto_council.recipient.tt.duration:2 "[actor.GetSheHe|U] не может лишиться должности еще [SCOPE.ScriptValue('council_position_locked_value')|0] лет"
+ force_onto_council.actor.tt:0 "Отныне вы — [council_task.GetPositionName] сюзерена"
+ force_onto_council.actor.tt.duration:2 "Вы не можете лишиться должности еще [SCOPE.ScriptValue('council_position_locked_value')|0] лет"
+
+ arrange_marriage_interaction_extra_icon:0 "@weak_hook_icon!Используйте ваше [Concept( 'hook', 'влияние' )|E], чтобы добиться согласия"
+
+ ask_for_pardon_interaction:0 "Просить о помиловании"
+ ask_for_pardon_interaction_desc:0 "Попросить своего [Concept( 'top_liege', 'верховного сюзерена' )|E] простить ваши [Concept( 'crimes', 'преступления' )|E], чтобы убрать все причины, по которым вас могут [Concept( 'imprisonment_reasons', 'заточить' )|E], [Concept( 'banish_reasons', 'изгнать' )|E], [Concept( 'revoke_title_reasons', 'лишить титулов' )|E] или [Concept( 'execute_reasons', 'казнить' )|E]"
+ ask_for_pardon_interaction_accept_toast:0 "Даровано помилование"
+ ask_for_pardon_interaction_decline_toast:0 "В помиловании отказано"
+ ask_for_pardon_interaction_accept_decline:0 "[recipient.GetShortUIName|U] [Select_CString(recipient.IsFemale, 'отклонила', 'отклонил' )] ваше прошение о помиловании"
+
+ vassal_claim_liege_title_interaction:0 "Заявить права на титул сюзерена"
+ vassal_claim_liege_title_interaction_desc:0 "Если вы контролируете большинство #weak (51%)#! [Concept( 'counties', 'графств' )|E], [Concept( 'de_jure', 'де-юре' )|E] входящих в один из [Concept( 'titles', 'титулов' )|E] вашего [Concept( 'liege', 'сюзерена' )|E], то можете потратить [Concept( 'prestige', 'престиж' )|E], чтобы получить на него [Concept( 'unpressed_claim', 'слабую претензию' )|E]!"
+ HAS_51_PERCENT_OF_A_DE_JURE_TITLE:0 "Если вы контролируете большинство #weak (51%)#! земель одного из [Concept( 'titles', 'титулов' )|E] вашего [Concept( 'liege', 'сюзерена' )|E], то можете потратить [Concept( 'prestige', 'престиж' )|E], чтобы получить на него [Concept( 'unpressed_claim', 'слабую претензию' )|E]!"
+ NOT_HAS_51_PERCENT_OF_A_DE_JURE_TITLE:0 "Вы НЕ контролируете хотя бы #V 51%#! [Concept( 'counties', 'графств' )|E], [Concept( 'de_jure', 'де-юре' )|E] входящих в этот [Concept( 'title', 'титул' )|E]"
+ higher_prestige_level_than_liege:0 "[prestige_level|E] выше, чем у [Concept( 'liege', 'сюзерена' )|E]"
+ lower_prestige_level_than_liege:0 "[prestige_level|E] ниже, чем у [Concept( 'liege', 'сюзерена' )|E]"
+
+ char_interaction.0240.desc:0 "Я требую уплату долга. Я ожидаю, что вы открыто откажетесь от права наказать меня и даруете мне прощение за мои преступления."
+ char_interaction.0240.a:0 "Как прикажете."
+
+ ASK_FOR_PARDON_NOTIFICATION:0 "Я смиренно прошу вас помиловать меня за мои преступления."
+ 
+ pardon_interaction:0 "Даровать прощение"
+ pardon_interaction_desc:1 "С вашей точки зрения [recipient.GetName] — [Concept( 'criminal', Select_CString(recipient.IsFemale, 'преступница' 'преступник' ))|E] ([recipient.GetImprisonmentReasons( actor.Self )]), что позволяет вам [Concept( 'imprison', 'арестовать' )|E] [Select_CString(recipient.IsFemale, 'ее', 'его' )] и не прослыть [Concept( 'tyranny', 'тираном' )|E].\n\nНо если вы предпочитаете сохранить [Select_CString(recipient.IsFemale, 'ей', 'ему' )] свободу, то можете даровать прощение. В таком случае все причины для [Concept( 'imprison', 'ареста' )|E] исчезнут, а [Select_CString(recipient.IsFemale, 'ее', 'его' )] [Concept( 'opinion', 'мнение' )|E] о вас улучшится."
+ pardon_interaction_toast:0 "Ваш благородный сюзерен [actor.GetFirstName] [Select_CString(actor.IsFemale, 'простила', 'простил' )] вам ваши преступления!"
+
+ county_must_have_city_tt:0 "Владение [CHARACTER.GetPrimaryTitle.GetNameNoTooltip] должно располагать хотя бы одним [Concept( 'city', 'городом' )|E] и иметь [Concept( 'development', 'развитие' )|E] выше 20."
+ county_must_have_culture_tt:0 "Владение [CHARACTER.GetPrimaryTitle.GetNameNoTooltip] должно принадлежать к [Concept( 'culture', 'культуре' )|E] с традицией «$tradition_republican_legacy_name$»."
+ too_many_republics_tt:0 "У вас уже есть [SCOPE.ScriptValue('republican_vassal_interaction_limit')|0] вассальных республик."
+ must_not_be_heir_to_any_title_tt:0 "[CHARACTER.GetNameNoTooltip] не может быть наследником титула"
+ must_not_have_landed_relatives_tt:0 "[CHARACTER.GetNameNoTooltip] не может иметь родственников-землевладельцев"
+ must_be_one_county_count_tt:0 "[CHARACTER.GetShortUINameNoTooltip] не может обладать другими графствами, кроме владения [CHARACTER.GetPrimaryTitle.GetNameNoTooltip]"
+ appoint_podesta_interaction_notification:0 "Назначение присматривать за республиками"

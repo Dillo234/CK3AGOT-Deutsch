@@ -1,0 +1,22 @@
+﻿l_simp_chinese:
+
+ ALL_LIVING_CHARACTERS:0 "所有在世角色："
+ ANY_LIVING_CHARACTER:0 "任一在世角色："
+
+ ALL_POOL_CHARACTERS:0 "所有在池内的角色："
+ ANY_POOL_CHARACTER:0 "任一在池内的角色："
+
+ ANY_OF_CHARACTERS_VASSALS:1 "[CHARACTER.GetShortUINamePossessive]的任一[vassals|E]："
+ ALL_OF_CHARACTERS_VASSALS:1 "[CHARACTER.GetShortUINamePossessive]的所有[vassals|E]："
+ ANY_OF_CHARACTERS_VASSALS_PERCENT:0 "[CHARACTER.GetShortUINamePossessive][vassals|E]中的$PARAMETERS$："
+ ANY_OF_CHARACTERS_VASSALS_COUNT:0 "[CHARACTER.GetShortUINamePossessive][vassals|E]中的$PARAMETERS$："
+ 
+ ANY_DYNASTY_MEMBER_COUNT:0 "[DYNASTY.GetBaseName][dynasty|E]中的$PARAMETERS$成员："
+
+ ANY_IN_DE_JURE_ALL_GLOBAL:0 "任何法理[titles|E]"
+ NOT_ANY_IN_DE_JURE_ALL_GLOBAL:0 "非法理[titles|E]"
+ ANY_IN_DE_JURE_ALL_THIRD:0 "[TITLE.GetName]的任何法理[titles|E]"
+ NOT_ANY_IN_DE_JURE_ALL_THIRD:0 "非[TITLE.GetName]法理的[titles|E]"
+
+ ANY_REALM_COUNTY:0 "任何[realm|E][county|E]："
+ ANY_REALM_COUNTY_COUNT:0 "$PARAMETERS$[realm|E][counties|E]："

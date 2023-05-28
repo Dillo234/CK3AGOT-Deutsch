@@ -1,0 +1,78 @@
+﻿l_simp_chinese:
+# Forming Outremer, by Flavio Verna
+ middle_east_decisions.0001.t:0 "天国王朝"
+ middle_east_decisions.0001.desc:0 "自穆罕默德的兴起，伊斯兰宗教就成为全东方不可忽视的力量，并成为基督崇拜者的紧迫威胁。然而，多亏了我保护圣地的努力，这不再是个问题。\n\n我将这些异教徒逐离了地中海海岸，并一路驱赶他们穿越灼热的阿拉伯沙漠。我把吾主的至圣十字架从此海树立至彼海，并在假先知的残破新月上打造了一个真正的天国皇朝。"
+ middle_east_decisions.0001.a:0 "望主垂怜他们，因为我不会。"
+ middle_east_decisions.0002.desc.christians:0 "自穆罕默德的兴起，伊斯兰宗教就成为全东方不可忽视的力量，并成为基督崇拜者的紧迫威胁。然而，多亏了[scoped_ruler.GetTitledFirstName]保护圣地的努力，这不再是个问题。\n\n蒙[scoped_ruler.GetFaith.HighGodName]的鸿福，[scoped_ruler.GetFirstName]将这些异教徒逐离了地中海海岸，并一路驱赶他们穿越灼热的阿拉伯沙漠。[scoped_ruler.GetSheHe|U]把吾主的至圣十字架从此海树立至彼海，并在假先知的残破新月上打造了一个真正的天国皇朝。"
+ middle_east_decisions.0002.desc.muslims:0 "[scoped_ruler.GetTitledFirstName]十字军的野蛮集团给[ROOT.Char.GetFaith.HighGodName]的信众带来了难以估量的毁灭！\n\n这些卑劣的偶像崇拜者占领了我们信仰崇拜的全部圣地。即便圣城麦加也落入了这些渎神猪猡的蹄下。如果先知的真正追随者不尽快光复阿拉伯，这有可能会是伊斯兰终结的开端。"
+ middle_east_decisions.0002.desc.others:0 "自穆罕默德的兴起，伊斯兰宗教就成为全东方不可忽视的力量，并成为基督崇拜者的紧迫威胁。然而，多亏了[scoped_ruler.GetTitledFirstName]保护圣地的努力，这不再是个问题。\n\n这个[scoped_ruler.GetFaith.GetAdjective][scoped_ruler.GetTitleTierName]将这些安拉的信从者逐离了地中海海岸，并一路驱赶他们穿越阿拉伯沙漠。[scoped_ruler.GetSheHe|U]把至圣十字架从此海树立至彼海，并在假先知的残破新月上打造了一个[scoped_ruler.GetSheHe]口中的天国皇朝。"
+ middle_east_decisions.0002.a:0 "赞美吾主！"
+ middle_east_decisions.0002.b:0 "让[scoped_ruler.GetHerHis]的家族承受万千诅咒！"
+ middle_east_decisions.0002.c:0 "我知道了……"
+
+# Restoring the Sunni Caliphate, by Flavio Verna
+ middle_east_decisions.0003.t:0 "新哈里发"
+ middle_east_decisions.0003.desc:0 "自异教徒占领圣地，先知的真正信从者就四散分离了，不再有领袖或意志起来重振神圣的斗争。\n\n今天这种情况结束了。由于[reformer.GetFaith.HighGodNamePossessive]的仁慈，我光复了麦加和麦地那，并阻止了涌入阿拉伯的异教徒。背靠几位受人敬仰的经书学者的支持，我获承认为[reformer.GetFaith.GetName]的新哈里发，我已经准备好领导我的追随者对抗那些仍在污染我们家园的邪恶偶像崇拜者！"
+ middle_east_decisions.0003.a:0 "安拉至大！"
+ middle_east_decisions.0004.desc.ashari:0 "自异教徒占领圣地，先知的真正信从者就四散分离了，不再有领导或意志起来重振神圣的斗争。\n\n今天这种情况结束了。由于[reformer.GetFaith.HighGodNamePossessive]的仁慈，[reformer.GetFirstName]光复了麦加和麦地那，并阻止了涌入阿拉伯的异教徒。备考几位受人敬仰的经书学者的支持，[reformer.GetSheHe]获承认为[reformer.GetFaith.GetName]的新哈里发，并已准备好领导[reformer.GetHerHis]的追随者对抗那些仍在污染我们家园的邪恶偶像崇拜者。"
+ middle_east_decisions.0004.desc.other:0 "自异教徒占领圣地，[reformer.GetFaith.GetName]的真正信从者就四散分离了，不再有领导或意志起来重振神圣的斗争。\n\n然而，在[reformer.GetFirstName]的智慧领导下，他们再次聚集在一起。在光复圣城麦加和麦地那，并合法化[reformer.GetHerHis]作为新哈里发的宣称后，[reformer.GetFirstName]已经准备好恢复针对异教徒的大圣战。"
+ middle_east_decisions.0004.a:0 "安拉至大！"
+ middle_east_decisions.0004.b:0 "熟悉的恶魔比未知的更好，大概……"
+
+# Creating Israel, by Flavio Verna
+ middle_east_decisions.0005.t:0 "应许之地"
+ middle_east_decisions.0005.desc:0 "耶路撒冷和应许之地现已处于犹太人的治下，建立一个全新统一的君主制国家的时机已经成熟，这个国家如同古代大卫和所罗门建立的伟大王国一样，名为以色列。\n\n历尽磨难的犹太民族终于再次掌握了自己的命运。圣地将不再被争斗不休的基督徒和穆斯林所拆散。愿这个新王国为这片区域开创一个和平繁荣的新纪元。"
+ middle_east_decisions.0005.a:0 "以色列万岁！"
+ middle_east_decisions.0006.desc.others:0 "在让耶路撒冷重回犹太人的控制之后，[scoped_ruler.GetTitledFirstName]决定宣布[scoped_ruler.GetHerselfHimself]自己为重建的以色列的[scoped_ruler.GetTitleTierName]。\n\n犹太民族的长期流徙或许终于结束了，他们团体中的大多数决定重返应许之地。"
+ middle_east_decisions.0006.a:0 "时候到了！"
+ middle_east_decisions.0006.b:0 "我知道了……"
+
+# Restore Jewish High Priesthood, by Flavio Verna
+ middle_east_decisions.0007.t:0 "[scoped_ruler.GetFaith.GetAdjective]的新司祭团"
+ middle_east_decisions.0007.desc:0 "自从罗马人在大约一千年前毁灭第二圣殿，就从未有过[new_priest.GetTitleTierName]——犹太教的大祭司。终于，这一职位不再空缺，大祭司职重设。\n\n如同古代的犹太祭司一样，首席大祭司传统上要求由摩西之兄亚伦的后代担任。由于缺乏合适的人选，这一要求已经免除，但新的大祭司仍然享有犹太教各宗教团体的敬意。"
+ middle_east_decisions.0007.a:0 "愿[new_priest.GetHerHis]的领导鼓舞我们！"
+ middle_east_decisions.0008.desc.others:0 "犹太人在耶路撒冷建立了不可忽视的存在，紧接着，[scoped_ruler.GetTitledFirstName]提出成立新的[new_priest.GetFaith.GetAdjective]大祭司职位以领导以色列人。\n\n人们期望由[new_priest.GetTitledFirstName]领导的这一会众能给不断增长的以色列群体带来统一和指引。"
+ middle_east_decisions.0008.a:0 "愿[new_priest.GetHerHis]的领导鼓舞我们！"
+ middle_east_decisions.0008.b:0 "我知道了……"
+
+# Restore Zoroastrian High Priesthood, by Flavio Verna
+ middle_east_decisions.0009.t:0 "[scoped_ruler.GetFaith.GetAdjective]的新司祭团"
+ middle_east_decisions.0009.desc:0 "经历了伴随阿拉伯征服而来的流亡和迫害后，祆教被波斯人民接受为通往公正的唯一正路。[scoped_ruler.GetTitledFirstName]已下令设立[new_priest.GetTitleTierName]，众祭司的祭司一职，以驾驭重建的神职圣统。\n\n[new_priest.GetTitleTierName]将作为[scoped_ruler.GetFaith.GetAdjective]世界的最高宗教权威，拥有大到祝福未来的军事远征，小到准许离婚的各种权力。"
+ middle_east_decisions.0009.a:0 "永恒之火重燃！"
+ middle_east_decisions.0010.desc.muslims:0 "[scoped_ruler.GetFaith.HighGodName]可咒诅的信从者已重夺了足够的土地和影响力，要在[scoped_ruler.GetTitledFirstName]的保护下重建亵渎的祭司职。\n\n若不赶快行动，这些崇拜恶魔的原始宗教徒恐怕要逆转伊斯兰在波斯扩张的潮流，用谎言和歪曲污染其不明真相的臣民。"
+ middle_east_decisions.0010.desc.others:0 "[scoped_ruler.GetFaith.HighGodName]古怪的拜火教徒已重夺了足够的波斯祖地，要重建正常运作的祭司职。\n\n若不被尽快阻止，他们可能会逆转伊斯兰扩张的潮流，使亚细亚回归古老诸神的保护。"
+ middle_east_decisions.0010.a:0 "荣耀归于[scoped_ruler.GetFaith.HighGodName]！"
+ middle_east_decisions.0010.b:0 "他们的魔鬼不能庇佑他们免于[ROOT.Char.GetFaith.HighGodName]的大能！"
+ middle_east_decisions.0010.c:0 "……拜火教？"
+
+# The Saoyshant appears, by Flavio Verna
+ middle_east_decisions.0011.t:0 "琐罗亚斯德的选择"
+ middle_east_decisions.0011.desc:0 "自从萨珊帝国屈服于阿拉伯入侵，波斯一直在承受追随穆罕默德的统治者们的重轭。古老祆教教团的最后残余北退入中亚的平原中，但现在，祆教对波斯的统治终于在长久之后恢复。\n\n这一奇迹光复只能归功于我的英明领导，神职者中的许多人已宣布我为萨奥希扬特——琐罗亚斯德本人数千年前谈及的救世主。接受这一角色后，我现在被各地的祆教徒尊奉为神圣的象征。"
+ middle_east_decisions.0011.a:0 "我将造福一切。"
+ all_held_counties:0 "所有异教徒伯爵领"
+ middle_east_decisions.0013.desc:0 "自从萨珊帝国屈服于阿拉伯入侵，波斯一直在承受追随穆罕默德的统治者们的重轭。古老祆教教团的最后残余北退入中亚的平原中，但现在，祆教对波斯的统治终于在长久之后恢复。\n\n这一奇迹光复只能归功于[scoped_ruler.GetFirstNamePossessive]的英明领导，神职者中的许多人已宣布[scoped_ruler.GetHerHim]为萨奥希扬特——琐罗亚斯德本人数千年前谈及的救世主。接受这一角色后，[scoped_ruler.GetTitledFirstNameNoTooltip]现在被各地的祆教徒尊奉为神圣的象征。"
+ middle_east_decisions.0013.desc.muslims:0 "尽管一度被贬为流亡的沙漠居民，可咒诅的亵渎者琐罗亚斯德的火焰祭司已重燃余烬，夺得波斯的宝座！\n\n他们的[scoped_ruler.GetTitleTierName]充满了精神错乱的狂傲，已决定宣布[scoped_ruler.GetHerselfHimself]自己为神明在世。"
+ middle_east_decisions.0013.desc.others:0 "自从萨珊帝国屈服于阿拉伯入侵，琐罗亚斯德的信从者一直在逃亡。他们的流亡最近结束，因为[scoped_ruler.GetFaith.GetAdjective]信徒已设法恢复了他们的古代帝国。\n\n这一未曾预料到的一系列转变主要归功于他们的[scoped_ruler.GetTitleTierName]，其已决定宣布[scoped_ruler.GetHerselfHimself]自己为萨奥希扬特，他们信仰中预言的救主。"
+ middle_east_decisions.0013.a:0 "愿[scoped_ruler.GetSheHe]造福我们所有人！"
+ middle_east_decisions.0013.b:0 "疯狂和妖术！"
+ middle_east_decisions.0013.c:0 "我知道了……"
+
+# Create Sultanate of Rum, by Flavio Verna
+ middle_east_decisions.0014.t:0 "新罗马"
+ middle_east_decisions.0014.desc:0 "在征服了富庶的小亚细亚之地后，我已积累了足够的力量来建立一个新的、一定能比罗马还伟大的苏丹国。\n\n尽管还有工作要做，但我毫不怀疑历史学家们会将此刻铭记为[scoped_ruler.GetFaith.HighGodName]的信徒征服欧罗巴的重要一步。"
+ middle_east_decisions.0014.a:0 "让西方颤抖吧！"
+ middle_east_decisions.0015.desc.liege:0 "在安纳托利亚取得一连串的胜利后，[scoped_ruler.GetTitledFirstName]决定加冕[scoped_ruler.GetHerselfHimself]自己为罗姆[scoped_ruler.GetTitleTierName]，宣称[scoped_ruler.GetSheHe]不再效忠于我，并将以[scoped_ruler.GetHerHis]自己的方式来继续与异教徒作战。"
+ middle_east_decisions.0015.desc.romans:0 "野蛮的军阀[scoped_ruler.GetTitledFirstName]在安纳托利亚开辟了[scoped_ruler.GetHerHis]的道路，并在此区域创建了一个新的苏丹国。\n\n好像这还不够侮辱人似的，在一场卑鄙狂妄的表演中，[scoped_ruler.GetSheHe]还决定为[scoped_ruler.GetHerselfHimself]自己宣称罗马[scoped_ruler.GetTitleTierName]的头衔。"
+ middle_east_decisions.0015.desc.others:0 "富庶的小亚细亚行省，曾经是基督教的壁垒，现在却已落入了[scoped_ruler.GetTitledFirstName]的统治下，其在这个区域建立了一个新的苏丹国。"
+ middle_east_decisions.0015.a:0 "[scoped_ruler.GetSheHe]怎么敢！"
+ middle_east_decisions.0015.b:0 "我知道了……"
+
+ # Revive the Armenian Empire, by Ewan Cowhig Croft
+ middle_east_decisions.1001.t:0 "新鹰振翅"
+ middle_east_decisions.1001.desc:0 "亚美尼亚上一次在黎凡特和高加索施展这个级别的支配地位已经是数个世纪之前了，东西方两大帝国在血雨腥风的年代中一次次打击我们。西方有时说拉丁语，有时说希腊语，东方有时说波斯语，有时说阿拉伯语，但这些帝国总是交战，而我们的故地总是战场。\n\n今天之后，不会再有。我已开辟出提格兰大帝当年的疆域，大亚美尼亚的鹰旗将再度升起！"
+ middle_east_decisions.1001.a:0 "我要继续追寻更伟大的事物！"
+ middle_east_decisions.1001.b:0 "重蹈覆辙算不上成就。"
+ middle_east_decisions.1002.desc:0 "高加索群山中的情势往奇怪的方向发展有一段时间了。[founder.GetFullNameNoTooltip]违反各种不可能的状况，成功开辟出一片相当大的领地，从东边的黑海延伸到西边的地中海岸。尽管并不完美，这已大致重建了提格兰大帝死去多年的帝国，[founder.GetFullNameNoTooltip]的信使迅速鼓吹这一点。\n\n大亚美尼亚的鹰旗再度升起，但能持续多久呢？"
+ middle_east_decisions.1002.a:0 "帝国威严需要不止是土地。"
+ middle_east_decisions.1002.b:0 "这一次，没人能分开我们。"
+ middle_east_decisions.1002.c:0 "就像其前任一样，成为注脚。"

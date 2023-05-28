@@ -1,0 +1,22 @@
+﻿l_spanish:
+
+ ALL_LIVING_CHARACTERS:0 "Todos los personajes vivos:"
+ ANY_LIVING_CHARACTER:0 "Cualquier personaje vivo:"
+
+ ALL_POOL_CHARACTERS:0 "Todos los personajes en reserva:"
+ ANY_POOL_CHARACTER:0 "Cualquier personaje en reserva:"
+
+ ANY_OF_CHARACTERS_VASSALS:1 "Cualquier [vassal|lE] de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+ ALL_OF_CHARACTERS_VASSALS:1 "Todos los [vassals|lE] de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+ ANY_OF_CHARACTERS_VASSALS_PERCENT:0 "$PARAMETERS$ de los [vassals|lE] de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]:"
+ ANY_OF_CHARACTERS_VASSALS_COUNT:0 "$PARAMETERS$ de los [vassals|lE] de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]:"
+ 
+ ANY_DYNASTY_MEMBER_COUNT:0 "$PARAMETERS$ miembros de la [dynasty|lE] [DYNASTY.GetBaseName]:"
+
+ ANY_IN_DE_JURE_ALL_GLOBAL:0 "Cualquier [title|lE] de iure"
+ NOT_ANY_IN_DE_JURE_ALL_GLOBAL:0 "Ningún [title|lE] de iure"
+ ANY_IN_DE_JURE_ALL_THIRD:0 "Cualquier [title|lE] de iure de [TITLE.GetName]"
+ NOT_ANY_IN_DE_JURE_ALL_THIRD:0 "Ningún [title|lE] de iure de [TITLE.GetName]"
+
+ ANY_REALM_COUNTY:0 "Cualquier [county|lE] del [realm|lE]:"
+ ANY_REALM_COUNTY_COUNT:0 "$PARAMETERS$ [counties|lE] del [realm|lE]:"

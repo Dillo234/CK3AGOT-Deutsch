@@ -1,0 +1,21 @@
+﻿l_simp_chinese:
+
+ GOVERNMENT_HAS_FLAG_TRIGGER:0 "[government|E]可以：$FLAG|V$"
+
+ GOVERNMENT_ALLOWS_TRIGGER:0 "[government|E]允许：$RULE|V$"
+ THEIR_GOVERNMENT_ALLOWS_TRIGGER:0 "[CHARACTER.GetShortUINamePossessive|V][government|E]允许：$RULE|V$"
+
+ GOVERNMENT_DISALLOWS_TRIGGER:0 "[government|E]不允许：$RULE|V$"
+
+ HAS_GOVERNMENT_TRIGGER_GLOBAL:0 "拥有$GOVERNMENT|V$政体"
+ NOT_HAS_GOVERNMENT_TRIGGER_GLOBAL:0 "#bold 没#!有$GOVERNMENT|V$政体"
+ HAS_GOVERNMENT_TRIGGER_FIRST:0 "你拥有$GOVERNMENT|V$政体"
+ NOT_HAS_GOVERNMENT_TRIGGER_FIRST:0 "你#bold 没#!有$GOVERNMENT|V$政体"
+ HAS_GOVERNMENT_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|V]拥有$GOVERNMENT|V$政体"
+ NOT_HAS_GOVERNMENT_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|V]#bold 没#!有$GOVERNMENT|V$政体"
+
+ HAS_SAME_GOVERNMENT_TRIGGER:0 "与[TARGET_CHARACTER.GetShortUIName]拥有相同政体"
+
+ MUST_HAVE_MALE_DOMINATED_OR_EQUAL:0 "[CHARACTER.GetFaith.GetName]没有[GetFaithDoctrine('doctrine_gender_equal').GetBaseName]教义或[GetFaithDoctrine('doctrine_gender_male_dominated').GetBaseName]教义"
+ MUST_HAVE_FEMALE_DOMINATED_OR_EQUAL:0 "[CHARACTER.GetFaith.GetName]没有[GetFaithDoctrine('doctrine_gender_equal').GetBaseName]教义或[GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]教义"
+ has_law_allowing_succession_law_change:0 "拥有至少[high|E][crown_authority|E]或[limited_tribal|E][tribal_authority|E]"

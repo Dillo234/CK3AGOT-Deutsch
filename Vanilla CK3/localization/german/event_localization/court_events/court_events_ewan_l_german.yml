@@ -1,0 +1,46 @@
+﻿l_german:
+ ##################################################
+ # #Misc
+
+ ##################################################
+ # PATRONAGE
+ court.2001.t:0 "Wetteifernde Speichellecker"
+ court.2001.desc:0 "Weder [crony_a.GetFirstName] noch [crony_b.GetFirstName] bemerken, wie ich mich ihrem lautstarken Gespräch auf dem Flur nähere.\n\n„Das Zurschaustellen #EMP körperlicher#! Unterwerfung ist der Schlüssel! Jeder blaue Fleck auf meinem Knie ist wie bare Münze in meinem Geldbeutel! Man macht einfach nichts falsch, wenn man sich brav zu Boden wirft.“\n\n„Unfug. Fügt [ROOT.Char.Custom('DE_PRO_POS_S_3P')]em Titel einfach weitere Beiwörter hinzu, und Ihr werdet reich sein bis an Euer Lebensende. Falls Ihr bei ‚[ROOT.Char.GetTitleAsNameNoTooltip]‘ noch Luft in der Lunge habt, macht Ihr es falsch.“\n\nIch räuspere mich und bringe die beschämten Speichellecker sofort zum Schweigen."
+ court.2001.a:0 "Ehrlich gesagt könntet Ihr Euch beide mehr Mühe damit geben."
+ court.2001.a.sadistic:0 "Wer sich am tiefsten verbeugt, bekommt diese #EMP glänzende#! Münze. Und los."
+ court.2001.a.sadistic.crony_a_wins:0 "[crony_a.GetFirstNameNoTooltip] verbeugt sich am tiefsten"
+ court.2001.a.sadistic.crony_b_wins:0 "[crony_b.GetFirstNameNoTooltip] verbeugt sich am tiefsten"
+ court.2001.b:0 "Ich durchschaue die Manipulationsversuche von Euch Lakaien!"
+ court.2001.c:0 "Ich glaube, Ihr überseht den offensichtlichsten Weg zu meinem Herzen …"
+ court.2001.d:0 "Das ist unter meiner Würde."
+
+ ##################################################
+ # MAJESTY
+ court.2201.t:0 "Ein Stück vom Kuchen"
+ court.2201.desc:0 "„… gehört mir! Es ergibt keinen Sinn, [ROOT.Char.GetPrimaryTitle.GetNameNoTier] unter verschiedenen Erben aufzuteilen!“, schreit [eldest_heir.GetFirstName], während [eldest_heir.Custom('DE_PRO_PER_S_3P_N')] und [younger_heir.Custom2('HerHisCharacterIntroduction', eldest_heir)] am anderen Ende des Raums lautstark zanken. „Wir verdammen das Reich zu Mord und Bürgerkrieg. [ROOT.Char.GetMotherFather|U] sollte #EMP mir#! alle [ROOT.Char.Custom('DE_PRO_POS_S_3P')]e Ländereien überlassen!“\n\n„Mord? Bürgerkrieg? Was #EMP genau#! habt Ihr geplant, wenn Ihr [ROOT.Char.GetTitleAsNameNoTooltip] seid?“, schnaubt [younger_heir.GetFirstNameNoTooltip]. „Ihr werdet ein absolutes Monstrum auf dem Thron sein, wenn Ihr so über [eldest_heir.Custom('DE_PRO_POS_P_2P')][younger_heir.Custom('DE_END_PRO_S_A')] eigen[younger_heir.Custom('DE_END_PRO_S_A')] [younger_heir.Custom('SisterBrother')] denkt, bevor die Krone auch nur überhaupt Euren hässlichen Schädel #EMP berührt#! hat.“\n\nMein Schädel hämmert. Sie streiten sich nur … und zwar schon den ganzen Morgen lang."
+ court.2201.a:0 "#EMP Mehr#! verdient, [eldest_heir.GetFirstNameNoTooltip]? Wie wäre es mit #EMP gar nichts#!!"
+ court.2201.b:0 "Tut mir leid, aber so sind die Regeln, [younger_heir.GetFirstNameNoTooltip] …"
+ court.2201.c:0 "Sie sind Geschwister. Sie werden sicher #EMP bestens#! ohne mich auskommen, richtig?"
+ court.2201.d:0 "Kinder, möchtet Ihr die wahre Bedeutung von Familie kennenlernen?"
+
+ ##################################################
+ # FOREIGN GUESTS
+ court.2401.t:0 "Prunk aus zweiter Hand"
+ court.2401.desc:1 "„Die feinsten Kleider im ganzen Land, [buyer.GetFirstName]. Vor allem deshalb, weil sie #EMP nicht#! aus diesem Land stammen“, gluckst [seller.GetFirstName], als ich an [seller.Custom('DE_PRO_POS_S_3P')]em offenem Gemach vorbeigehe. [seller.Custom('DE_PRO_POS_S_3P')|U]e Stimme versprüht Liebreiz, doch trotzdem wirkt mein anderer Höfling unsicher.\n\n„Fast neu, so gut wie neu und von den feinsten Herren und Damen am Hof getragen! Das sind die Kleider, die #EMP jeder#!, der etwas von sich hält, nächste Saison in [grander_ruler.GetPrimaryTitle.GetName] tragen wird.“\n\n"
+ court.2401.a:0 "Meine Güte! Die sehen ja #EMP wirklich#! verlockend aus …"
+ court.2401.b:0 "An meinem Hof ist kein Platz für diesen Unsinn!"
+ court.2401.c:0 "Wen schert schon, was die Leute tragen?"
+
+ court.2411.t:0 "Labyrinthartige Hallen"
+ court.2411.desc:1 "Mein Spaziergang führt mich durch einen ungenutzten Flügel des Palastes und einige geräumige, wenn auch staubige, Quartiere, die mein überarbeitetes Personal nur selten aufzusuchen scheint, als ich ein verheultes Schluchzen aus einem Nebengang höre.\n\n[lost_guest.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ist die Person, auf die ich stoße, als ich dem Geräusch nachgehe. [lost_guest.Custom('DE_PRO_PER_S_3P_N')|U] war offenbar vor Verzweiflung zusammengebrochen, springt jedoch auf, als [lost_guest.Custom('DE_PRO_PER_S_3P_N')] mich sieht, packt mich an der Schulter und fängt an, wie irre auf mich einzureden.\n\n„M[ROOT.Char.Custom('DE_ART_IND_N')] [ROOT.Char.GetTitleAsNameNoTooltip], ich habe mich vor #EMP drei Tagen#! in diesen Gängen verirrt! Ich kann den Ausgang nicht finden. Nur endlose Korridore und vermoderte Kammern, und kein einziger Diener in Sicht!“"
+ court.2411.a:1 "Oh, Ihr Ärmst[lost_guest.Custom('DE_END_ADJ_IND_S_N')]. Lasst mich Euch den Weg hinaus zeigen!"
+ court.2411.b:0 "Wie zum … Wie #EMP töricht#! kann man eigentlich sein?"
+ court.2411.c:1 "*Pfeifend* Was für ein Irrgarten an Gängen das hier aber auch ist …"
+
+ ##################################################
+ # RELATIONSHIPS
+
+
+ ##################################################
+ # PERSONAL
+

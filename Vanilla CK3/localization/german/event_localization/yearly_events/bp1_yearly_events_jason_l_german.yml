@@ -1,0 +1,85 @@
+﻿l_german:
+#Shelter from the Storm
+ bp1_yearly.0100.t:0 "Schutz vor dem Sturm"
+ bp1_yearly.0100.desc:0 "Der Himmel verheißt nichts Gutes, der Wind heult und meine Dienstboten zittern aus Angst vor dem kommenden Mahlstrom. Ein schrecklicher Tag, um durch die Wildnis zu reisen!"
+
+ bp1_yearly.0100.sedentary_traveller:0 "\n\nSchäbige Hütten beherrschen diese seltsame Ecke des Landes, schmutzig und winzig."
+ bp1_yearly.0100.nomadic_traveller:0 "\n\nEs bleibt keine Zeit, unser Lager aufzuschlagen, bevor der Sturm kommt."
+ bp1_yearly.0100.sedentary_host:0 "Wir sind auf ein halbwegs erträgliches Landhaus gestoßen … doch mein[relative.Custom('DE_END_PRO_S_N')] übl[relative.Custom('DE_END_ADJ_IND_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('host'))] [host.GetFirstName] ist sein[relative.Custom('DE_END_PRO_S_N')] Besitzer[relative.Custom('DE_END_NOU_S_GS_N')].\n\nDer stärker werdende Sturm peitscht auf mich ein."
+ bp1_yearly.0100.nomadic_host:0 "Wir sind auf ein ordentliches Lager gestoßen. Leider … sind die Leute darin das Stammesvolk, das mein[relative.Custom('DE_END_PRO_S_N')] übl[relative.Custom('DE_END_ADJ_IND_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('host'))] [host.GetFirstName] [relative.Custom('DE_PRO_POS_S_3P')] eigen nennt.\n\nDer stärker werdende Sturm peitscht auf mich ein."
+
+ bp1_yearly.0100.memories:0 "Doch ich spüre nur den alten Schmerz von damals: [rival_memory.GetDescription]."
+
+ bp1_yearly.0100.lover_welcome:0 "Vielleicht weilt [host.GetFirstNameNoTooltip] fern von hier? Vielleicht ist mir das Glück hold – und [host.Custom('DE_PRO_POS_S_3P')][lover.Custom('DE_END_PRO_S_N')] verführerisch[lover.Custom('DE_END_ADJ_IND_S_N')] [host.Custom2('RelationToMeShort', SCOPE.sC('lover'))] [lover.GetFirstName] wird hier sein, um mich willkommen zu heißen?"
+ bp1_yearly.0100.friend_welcome:0 "Vielleicht weilt [host.GetFirstNameNoTooltip] fern von hier? Vielleicht ist mir das Glück hold – und [host.Custom('DE_PRO_POS_S_3P')]e verführerische Affäre [lover.GetFirstName] ist hier, um mich willkommen zu heißen?"
+
+ bp1_yearly.0100.close:0 "So oder so … wird es eine lange Nacht werden."
+
+
+
+ bp1_yearly.0100.a:0 "Lächeln, Männer!"
+ bp1_yearly.0100.a.tt:0 "Erbärmliche Gastfreundschaft erwartet uns …"
+ bp1_yearly.0100.a_title:0 "Eine klägliche Nacht voller Misstrauen"
+ bp1_yearly.0100.a.success_chance:0 "Alle [schemes|E] von [HOST.GetShortUIName] haben eine um 15 % erhöhte [success_chance|E]"
+
+ bp1_yearly.0100.b:0 "Vielleicht leben hier ja auch Familiengeheimnisse …"
+ bp1_yearly.0100.b.tt:0 "Ihr findet Zuflucht … und die Gelegenheit, ein wenig herumzuschnüffeln"
+ bp1_yearly.0100.b.tt_success:0 "Die Nacht trägt Früchte"
+ bp1_yearly.0100.b.secrets:0 "Ein Familiengeheimnis von [host.GetFirstNameNoTooltip] gehört Euch"
+ bp1_yearly.0100.b.tt_failure:0 "Ihr findet keine Leichen im Keller"
+ bp1_yearly.0100.b.tt_crit_failure:0 "Ihr werdet an unerlaubten Orten erwischt"
+
+ bp1_yearly.0100.c:0 "Warum mit [befriend.GetFirstNameNoTooltip] verfehdet sein …?"
+ bp1_yearly.0100.c.tt:0 "Für [befriend.GetTitledFirstName] schafft Ihr es, gute Laune zu zeigen"
+ bp1_yearly.0100.c.tt_success:0 "[befriend.Custom('DE_ART_DEF_S_N')] [host.Custom2('RelationToMeShort', SCOPE.sC('befriend'))] Eures Feindes und Ihr knüpft ein enges Band"
+ bp1_yearly.0100.c.tt_failure:0 "Euer Charme ist willkommen"
+ bp1_yearly.0100.c.tt_crit_failure:0 "Ihr teilt eine schreckliche Nacht voller Zwiste"
+
+ bp1_yearly.0100.d:0 "Es gibt nichts Besseres als ein geheimes Stelldichein …"
+ bp1_yearly.0100.d.tt:0 "Die Affäre von [host.GetFirstNameNoTooltip] könnte drinnen sein und Euch nur allzu gern von Euren von der Reise beschmutzten Kleidern befreien …"
+ bp1_yearly.0100.d.tt.success:0 "[lover.Custom('DE_PRO_PER_S_3P_N')|U] erwartet Euch"
+ bp1_yearly.0100.d.tt.sex:0 "Ihr schlaft mit [lover.GetShortUINameNoTooltip]"
+ bp1_yearly.0100.d.tt_failure:0 "Eine einsame Nacht"
+ bp1_yearly.0100.d.tt_no_sex:0 "Es fehlt jede Spur von [lover.Custom('DE_ART_DEF_S_D')] faszinierenden [lover.GetShortUINameNoTooltip]"
+
+ bp1_yearly.0100.e:0 "Unsere Schwerter werden uns Unterschlupf verschaffen."
+ bp1_yearly.0100.e.tt:0 "Ein falsches Lächeln aufsetzen? Nein, Ihr würdet lieber Eure Gastgeber fesseln"
+ bp1_yearly.0100.e.wounded_chance:0 "Euer [prowess|E] bestimmt, ob Ihr verwundet werdet"
+ bp1_yearly.0100.e.tt_success:0 "Mit der Deckung des Sturms seid Ihr unaufhaltsam"
+ bp1_yearly.0100.e.tt_failure:0 "Ihr werdet wieder hinaus in die Elemente geworfen"
+
+ bp1_yearly.0100.f:0 "Ein Loch im Boden wäre wohl vorzuziehen."
+ bp1_yearly.0100.f.tt_success:0 "Ihr ertragt die Elemente … gerade so"
+ bp1_yearly.0100.f.sick:0 "Ihr werdet [GetTrait('ill').GetName(GetNullCharacter)]"
+ bp1_yearly.0100.f.tt_failure:0 "Die Nacht ist lang. Der Sturm ist grausam"
+ bp1_yearly.0100.f.very_sick:0 "Ihr könntet Euch die Eigenschaft „[GetTrait('pneumonic').GetName(GetNullCharacter)]“ zuziehen"
+
+ bp1_yearly.0101.t:0 "Sturm in der Wildnis"
+ bp1_yearly.0101.desc:0 "Wortlos danke ich [ROOT.Char.GetFaith.FertilityGodName], dass [Select_CString(host.IsFemale, 'die ekelhafte', 'der ekelhafte')] [lover.Custom2('RelationToMeShort', SCOPE.sC('host'))] von [lover.GetTitledFirstName] von diesem bescheidenen Ort ferngehalten wurde.\n\nWährend der Sturm sich über den Himmel kämpft und sein Zorn überall um uns erklingt,"
+
+ bp1_yearly.0101.gentle_flirt:0 "bebt [lover.GetFirstNameNoTooltip] immer mehr. Ist diese Angst nur gespielt? Etwas regt sich in [lover.Custom('DE_PRO_POS_S_3P')]en Augen, jenseits des förmlichen Lächelns. [lover.Custom('DE_PRO_POS_S_3P')|U]e Augen sagen … ja."
+ bp1_yearly.0101.protective_flirt:0 "[lover.GetFirstNameNoTooltip] tut selbstbewusst und abwehrend. Ich lächle [lover.Custom('DE_PRO_PER_S_3P_A')] dankbar an – ganz ergeben –, und schon bald … verfällt [lover.Custom('DE_PRO_PER_S_3P_N')] in andächtige Stille. [lover.Custom('DE_PRO_PER_S_3P_N')|U] ist mein."
+
+ bp1_yearly.0101.finish:0 "\n\nDie Ecke, in der wir einander erkennen, ist dunkel. Ziemlich dunkel. Und ob des Tumults der Natur hört niemand etwas von dem, was wir mit hungrigen Leibern und schlammverschmierten Gewändern dort treiben.\n\nDer einzige Laut, der über meine Lippen kommt, ist, wie ich den Namen von [lover.Custom('DE_PRO_POS_S_3P')][host.Custom('DE_END_PRO_S_D')] [lover.Custom2('RelationToMeShort', SCOPE.sC('host'))] verfluche. Und in diesem Augenblick ist mein Sieg vollkommen."
+
+ bp1_yearly.0101.a:0 "Doch von #EMP Euch#! träume ich, [lover.GetFirstNameNoTooltip]!"
+ bp1_yearly.0101.b:0 "Eine einzige, köstliche Beleidigung."
+
+ bp1_yearly.0102.opening:0 "[host.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ bp1_yearly.0102.desc:0 "Habt Ihr gut geschlafen? Hat Euch die Gastfreundschaft meiner Leute gefallen?"
+
+ bp1_yearly.0102.desc_weak:0 "Haben sich Eure ruhmreichen Füße erholt?"
+ bp1_yearly.0102.desc_powerful:0 "Habt Ihr davon geträumt, dass Ihr Ich sein könntet?"
+
+ bp1_yearly.0102.uneventful_night:0 "\n\nMir wurde gesagt, Ihr seid herausragend darin, ein uncharmant[ROOT.Char.Custom('DE_END_ADJ_IND_S_N')], aufdringlich[ROOT.Char.Custom('DE_END_ADJ_IND_S_N')] und mistverschmiert[ROOT.Char.Custom('DE_END_ADJ_IND_S_N')] Bettler[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] zu sein."
+ bp1_yearly.0102.failed_snoop:0 "\n\nEure Rechte als Lehnsherr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] haben Grenzen. Ich habe dafür gesorgt, dass alle davon erfahren, wie Ihr sie missachtet."
+ bp1_yearly.0102.warm_welcome:0 "\n\nWenn ich doch nur da gewesen wäre, um Euch abzuweisen. [befriend.GetTitledFirstName] hatte schon immer einen grässlichen Geschmack."
+ bp1_yearly.0102.cold_welcome:0 "\n\n[ROOT.Char.Custom('DE_PRO_POS_P_2P_N')] Gastgeber[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] [befriend.GetTitledFirstName] hat nun gelernt, Euch ebenso sehr zu hassen, wie ich es tue. Mein Herz quillt über vor Freude."
+ bp1_yearly.0102.erotic_welcome:0 "\n\nWenn ich zugegen gewesen wäre, hätte ich Euch Schlange beim ersten anrüchigen Wort hinausgeworfen, das mein[lover.Custom('DE_END_PRO_S_N')] [host.Custom2('RelationToMeShort', SCOPE.sC('lover'))] von Euch gehört hätte."
+ bp1_yearly.0102.attack_success:0 "\n\nIhr habt meine Leute angegriffen wie ein ängstliches Tier. Ihr greift ohne Ehre oder Höflichkeit an, wie es Eure Art ist."
+ bp1_yearly.0102.attack_fail:0 "\n\nNein? Ach, stimmt ja. Ihr habt #EMP versucht#!, uns anzugreifen, doch wurdet hinaus in die Wildnis geworfen wie die Bestie, die Ihr seid. Eure Bemühungen waren wirklich lächerlich."
+
+ bp1_yearly.0102.close:0 "\n\nMöge Euch der nächste Sturm vom Antlitz dieser Erde fegen."
+
+ bp1_yearly.0102.a:0 "Kauft mal weichere Betten, Ihr Flegel!"
+ bp1_yearly.0102.b:0 "Es ist nicht der Himmel, den Ihr fürchten solltet, [host.GetFirstNameNoTooltip] …"

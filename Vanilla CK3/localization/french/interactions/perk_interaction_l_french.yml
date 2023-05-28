@@ -1,0 +1,30 @@
+﻿l_french:
+ claim_throne_interaction:0 "Revendiquer le trône #weak (complot)#!"
+ claim_throne_interaction_message:0 "Trône revendiqué"
+
+ demand_payment_interaction:0 "Exiger un paiement"
+ demand_payment_interaction_desc:0 "Forcer [recipient.Custom('FR_le_Char_U_Pi')][recipient.GetShortUINameNoTooltip] à vous donner de l’or pour un [hook|El] que vous détenez"
+ demand_payment_interaction_message:0 "Dette payée"
+ RECIPIENT_HAS_TOO_LITTLE_GOLD:0 "[CHARACTER.Custom('FR_le_Char')|U][CHARACTER.GetName] n’a pas assez d’or"
+ demand_payment_too_little_gold_tt:1 "#N [recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUINameNoTooltip] n’a pas assez d’or pour payer#!\nJe recevrai moins que prévu #F ([SCOPE.ScriptValue('demand_payment_current_gold_value')|0]/[SCOPE.ScriptValue('demand_payment_gold_to_pay')|0][gold_i])#!"
+
+ buy_claim_interaction:0 "Acheter une revendication"
+ buy_claim_interaction_desc:0 "Dépenser de la [piety|El] pour obtenir une [claim|El] sur un des titres valides [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUINameNoTooltip] #weak ([buy_claim|El])#!"
+ buy_claim_interaction.message:0 "[target.GetName] : titre revendiqué"
+ BUY_CLAIM_ALREADY_HAS_A_CLAIM:1 "Vous avez déjà une [claim|El] sur ce [title|El]"
+ BUY_CLAIM_ALREADY_KING_OR_EMPEROR:1 "Vous ne pouvez pas acheter une [claim|El] sur un [kingdom|El] si vous êtes déjà un [king|El] ou un [emperor|El]"
+ BUY_CLAIM_ALREADY_EMPEROR:1 "Vous ne pouvez pas acheter une [claim|El] sur un [kingdom|El] si vous êtes déjà un [emperor|El]"
+ BUY_CLAIM_RELIGIOUS_TITLE:0 "Vous ne pouvez pas acheter une [claim|El] sur un titre religieux"
+
+ challenge_to_single_combat_interaction:0 "Défier le rival en duel"
+ challenge_to_single_combat_interaction_desc:0 "Défier votre [rival|El] à un [single_combat_duel|El], et lui infliger du [stress|El] si vous gagnez"
+ challenge_to_single_combat_interaction.enter_non_lethal_bout.tt:0 "Un [single_combat_fight|El] non létal va commencer"
+ challenge_to_single_combat_interaction.victor_gets.tt:0 "Le vainqueur perd du [stress|El]"
+ challenge_to_single_combat_interaction.loser_gets.tt:0 "Le perdant gagne du [stress|El]"
+ challenge_to_single_combat_interaction.challenge_rejected.t:1 "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUINameNoTooltip] refuse votre défi !"
+ challenge_to_single_combat_interaction.challenge_rejected.tt:0 "Le lâche a peur de votre lame"
+ UNLOCKS_ABILITY_TO_DUEL_RIVALS:0 "Peut défier des [rivals|El] en [single_combat_fight|El] et leur infliger du [stress|El] en cas de victoire"
+ CTSC_RELATIVE_PROWESS:0 "[prowess|E] relative: $VALUE|=+0$"
+
+ buy_artifact_claim_interaction:0 "Acheter une revendication d’artefact"
+ buy_artifact_claim_interaction_desc:0 "Dépenser de la [piety|El] ou du [prestige|El] pour obtenir une [Concept('personal_artifact_claim','revendication personnelle')|E] sur un [artifact|El] d’un autre personnage#weak ([buy_artifact_claim|El])#!"

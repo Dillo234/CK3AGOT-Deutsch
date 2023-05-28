@@ -1,0 +1,42 @@
+﻿l_russian:
+ 
+ pilgrimage.6001.t:0 "Чем больше, тем веселее"
+ pilgrimage.6001.desc:0 "Процессия паломников медленно движется вперед, но [destination_title.GetNameNoTierNoTooltip] не становится ближе. Я погружаюсь в приятные воспоминания о жизни в столице. Ох, [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]… как же мне хочется домой! Внезапно кто-то за спиной окликает меня по имени.\n\nЭто же [Select_CString(friend.IsFemale, 'моя старая подруга', 'мой добрый друг' )] [friend.GetFirstNameNoTooltip]! [friend.GetSheHe|U] радостно бросается ко мне: «[ROOT.Char.GetTitledFirstNameNoTooltip]! Какая удача, что мы в одно и то же время отправились в паломничество по священным местам! Я буду [Select_CString(friend.IsFemale, 'рада', 'рад' )] составить тебе компанию в пути, [Select_CString(ROOT.Char.IsFemale, 'милая подруга', 'друг мой' )]. [destination_title.GetNameNoTierNoTooltip] неблизко…»"
+ pilgrimage.6001.a:0 "Я всегда [Select_CString(ROOT.Char.IsFemale, 'рада', 'рад' )] обществу друзей."
+ pilgrimage.6001.b:0 "Я бы [Select_CString(ROOT.Char.IsFemale, 'хотела', 'хотел' )] побыть [Select_CString(ROOT.Char.IsFemale, 'одна', 'один' )]."
+ pilgrimage.6001.c:0 "Тебе не стыдно? Сейчас мы должны думать только о вере!"
+
+ pilgrimage.6002.desc:0 "[friend.GetFirstNameNoTooltip|U] и я болтаем до темноты, вспоминая сражения и интриги, врагов и возлюбленных, старых и новых друзей. Наша беседа как раз затрагивает такие вещи, как [ROOT.Char.Custom('subject_of_interest')|l], когда длинная колонна пилигримов, с которой мы шли, внезапно останавливается.\n\nИз головы колонны раздается усталый голос: «Встаем на ночлег!»\n\n[friend.GetFirstNameNoTooltip|U] улыбается и подмигивает: «Наконец-то! Слушай, как насчет небольшой прогулки перед сном? После целого дня пути страсть как хочется промочить горло…»"
+ pilgrimage.6002.a:0 "Твои слова — музыка для моих ушей!"
+ pilgrimage.6002.b:0 "#EMP Ух, ОТОРВЕМСЯ!#!"
+ pilgrimage.6002.c:0 "Иди, если хочешь…"
+ pilgrimage.6002.d:0 "Только безбожник пойдет в таверну во время паломничества!"
+
+ pilgrimage.6003.desc:0 "Таверна забита битком. Растолкав посетителей, [friend.GetFirstNameNoTooltip] добирается до стойки и делает заказ — [ROOT.Char.Custom('RegionalDrink')|l], две кружки. Усевшись в дальнем углу, мы пьем и беседуем о радостях и печалях жизни под музыку странствующего певца.\n\n[ROOT.Char.GetFaith.HighGodName], как же здорово отдохнуть после целого дня изнурительной ходьбы! Подняв кружку, я кричу: «Тост! Твое здоровье, [Select_CString(friend.IsFemale, 'моя славная', 'мой славный' )] [friend.GetFirstNameNoTooltip]! Чудесная была идея, отдохнуть здесь с дороги!»\n\nВсе посетители поднимают кружки и пьют, чествуя [Select_CString(friend.IsFemale, 'мою подругу', 'моего друга' )]."
+ pilgrimage.6003.a:0 "«Пейте, я всех угощаю!»"
+ pilgrimage.6003.b:0 "Надо вернуться в лагерь, пока нас не хватились."
+ pilgrimage.6003.b.tt:0 "Вы и [friend.GetFirstNameNoTooltip] покидаете таверну и возвращаетесь в лагерь паломников."
+
+ pilgrimage.6004.desc:0 "[ROOT.Char.Custom('RegionalDrink')|U] льется рекой. [friend.GetFirstNameNoTooltip] заводит песню за песней, и я от н[friend.GetHerHis|l] не отстаю. Другие посетители присоединяются к нам, отбивая ритм громким топотом.\n\nВнезапно пол под ногами подается, и мы с оглушительным #EMP грохотом#! проваливаемся прямо в винный погреб! Щепки летят во все стороны. Здесь явно давно не ступала нога человека…\n\nПрочие посетители смотрят на нас сверху вниз — кто-то с сочувствием, иные с насмешкой. Похоже, им не терпится узнать, что мы нашли."
+ pilgrimage.6004.a:0 "«[ROOT.Char.Custom('RegionalDrink')|U]! Здесь хватит на всех!»"
+ pilgrimage.6004.a.tt:0 "Вы откупориваете найденные бочки и щедро делитесь со всеми присутствующими."
+ pilgrimage.6004.b:0 "«Думаю, нам пора уходить…»"
+
+ pilgrimage.6005.desc:0 "Стараясь поменьше шуметь, мы возвращаемся в лагерь. Хоть бы все паломники уже спали! Подойдя к палаткам, мы видим, что костер еще горит, "
+ pilgrimage.6005.desc.bad:0 "а вокруг сидят наши спутники. Они сразу понимают, что мы едва стоим на ногах, и взгляды их полны неприязни.\n\nПилигримы спрашивают, где мы были. У нас не остается выбора, кроме как признаться во всем — [ROOT.Char.Custom('RegionalDrink')|l], песни, снова [ROOT.Char.Custom('RegionalDrink')|l], погром в таверне… Услышав о наших приключениях, паломники потребовали, чтобы мы оплатили трактирщику ущерб."
+ pilgrimage.6005.desc.good:0 "но рядом никого нет. Должно быть, кто-то перед сном подкинул в огонь побольше дров, чтобы мы спали в тепле."
+ pilgrimage.6005.a:0 "Какие у нас добрые и отзывчивые спутники!"
+ pilgrimage.6005.b:0 "«Мы обязаны за все заплатить!»"
+ pilgrimage.6005.c:0 "«Нет ничего дурного в том, чтобы хорошо провести время!»"
+
+ pilgrimage.6006.desc:0 "Вечереет. [friend.GetFirstName] едва переставляет ноги, да и мне приходится нелегко. К счастью, мы уже близко к тому месту, где паломники планировали остановиться сегодня на ночь. Внезапно кто-то впереди колонны кричит: «Эй, смотрите! Какой #EMP великолепный#! закат!»\n\nСобрав последние силы, все устремляются вперед, чтобы успеть застать прекрасное зрелище. «Нам дарована возможность увидеть редкостное чудо. Сейчас самое время предаться благочестивым размышлениям», — говорю я. Но [friend.GetFirstName] явно не в восторге от моей реакции…\n\n«Это просто закат!» — презрительно фыркает [friend.GetSheHe|l]. «[ROOT.Char.GetFaith.HighGodName] то, [ROOT.Char.GetFaith.HighGodName] это, сколько можно? Я всю дорогу слышу этот бред! Мне хотелось просто путешествовать, увидеть мир! Сомневаюсь, что [ROOT.Char.GetFaith.HighGodName] #EMP вообще#! существует!»"
+ pilgrimage.6006.a:0 "«Я не выдам тебя, дружище»."
+ pilgrimage.6006.b:0 "«Мне не нужны друзья, в которых нет веры»."
+ pilgrimage.6006.c:0 "«Вообще-то ты дело говоришь…»"
+
+ pilgrimage.6007.t:0 "Спасительная молитва"
+ pilgrimage.6007.desc:0 "[Select_CString(friend.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('friend'))|l] [friend.GetFirstName] с каждым днем страдает все сильнее, [friend.GetHerHim|l] уже не угнаться за другими паломниками. Я держусь рядом с [Select_CString(friend.IsFemale, 'ней', 'ним' )] и делаю все, чтобы ободрить [friend.GetHerHis|l]. Нас нагоняет странствующий [ROOT.Char.GetFaith.PriestNeuter|l], вскоре он замечает, как мучается [friend.GetFirstNameNoTooltip].\n\n«[ROOT.Char.GetFaith.HighGodName] не желает, чтобы ты [Select_CString(friend.IsFemale, 'страдала', 'страдал' )], бедное дитя. Особенно в паломничестве, когда [destination_title.GetNameNoTierNoTooltip] так близко», — говорит он. «[ROOT.Char.GetFaith.HealthGodName], дай мне силы исцелить [Select_CString(friend.IsFemale, 'эту женщину', 'этого человека' )]! Вы ведь позволите?»\n\n[Select_CString(friend.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('friend'))|l] поворачивается ко мне: «Что ты об этом думаешь, [ROOT.Char.GetFirstName]?»"
+ pilgrimage.6007.a:0 "[ROOT.Char.GetFaith.HighGodName] и правда благоволит нам!"
+ pilgrimage.6007.a.success:0 "[friend.GetFirstNameNoTooltip] исцеляется"
+ pilgrimage.6007.a.failure:0 "[friend.GetFirstNameNoTooltip] продолжает страдать, [friend.GetHerHis|l] состояние ухудшается"
+ pilgrimage.6007.b:0 "Этому человеку нельзя доверять."

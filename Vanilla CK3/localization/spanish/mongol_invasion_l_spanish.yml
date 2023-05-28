@@ -1,0 +1,71 @@
+﻿l_spanish:
+ submit_to_the_great_khan_decision:0 "Someterse al Gran Kan"
+ submit_to_the_great_khan_decision_confirm:0 "Jurar lealtad"
+ submit_to_the_great_khan_decision_opening_desc:0 "Es hora de reconocer que los mongoles gobiernan verdaderamente el mundo. En lugar de luchar contra ellos, me uniré a sus filas."
+ submit_to_the_great_khan_decision_tooltip:0 "Te conviertes en vasall[ROOT.Char.Custom('ES_OA')] del kagán mongol y te unes al Imperio mongol"
+ submit_to_the_great_khan_effect_tooltip:0 "Convertirse en vasall[ROOT.Char.Custom('ES_OA')] de [mongol_emperor.GetTitledFirstName]"
+
+ mongol_invasion.1001.title:0 "¡El kan ha muerto!"
+ mongol_invasion.1001.generic.desc:1 "¡Gracias a [ROOT.Char.GetFaith.HighGodName]! Aunque se ha proclamado un[new_khan.Custom('ES_XA')] nuev[new_khan.Custom('ES_OA')] gobernantes, [new_khan.GetTitledFirstName], seguro que no será tan horrible como [old_khan.GetFirstName].\n\n¿Podría significar el fin de la agresión mongola?"
+ mongol_invasion.1001.sympathetic.desc:0 "Nos ha dejado un[old_khan.Custom('ES_XA')] gran [old_khan.GetWomanMan]. ¡Con el fallecimiento de [old_khan.GetFirstName], se ha proclamado a [new_khan.GetFirstName] el/la nuev[new_khan.Custom('ES_OA')] [new_khan.GetTitleAsNameNoTooltip]!\n\nAhora que [old_khan.GetFirstNameNoTooltip] cabalga para siempre, el mundo queda mejor por sus esfuerzos."
+ mongol_invasion.1001.generic.oblivious.desc:0 "Recibimos informes aquí y allá sobre algún tipo de importante rey nómada que ha fallecido."
+ mongol_invasion.1001.a:0 "¡Buen viaje!"
+ mongol_invasion.1001.b:0 "¿Qué nos deparará el futuro?"
+ mongol_invasion.1001.c:0 "¿Gengis quién?"
+
+ mongol_invasion.1002.t:0 "El ascenso de los mongoles"
+ mongol_invasion.1002.desc.close:0 "Un[temujin.Custom('ES_XA')] nuev[temujin.Custom('ES_OA')] líder, [temujin.GetTitledFirstName], se alzando entre las dispersas tribus de"
+ mongol_invasion.1002.desc.close_mongolia:0 "Mongolia"
+ mongol_invasion.1002.desc.close_steppes:0 "las estepas"
+ mongol_invasion.1002.desc.close.end:0 "y se ha proclamado Gengis Kan, gobernante del universo.\n\nCon un inmenso ejército tribal, [temujin.GetTitledFirstName] ha declarado la guerra para conseguir la soberanía sobre toda la estepa, y después, ¡del mundo entero!"
+ mongol_invasion.1002.desc.far:0 "Me han llegado rumores de que se ha alzado un[temujin.Custom('ES_XA')] nuev[temujin.Custom('ES_OA')] líder entre las tribus bárbaras de las lejanas estepas. Est[temujin.Custom('ES_EA')], «[temujin.GetTitledFirstName]» se ha proclamado gobernante del universo —Gengis Kan— y ha jurado conquistar el mundo entero.\n\nNo es la primera persona en hacer tal amenaza, pero las historias añaden que [temujin.GetTitleAsNameNoTooltip] cabalga a la cabeza de una horda de jinetes invencibles que no se pueden matar."
+ mongol_invasion.1002.a:0 "¡Otro advenedizo al que derrotar!"
+ mongol_invasion.1002.b:0 "¿Conquistar el mundo? ¡Que lo intente!"
+ mongol_invasion.1002.c:0 "Dudo que llegue muy lejos."
+ mongol_invasion.1002.craven:0 "¡¿Y viene hacia aquí?!"
+ mongol_invasion.1002.genghis_khan_tt:0 "Cualquier [county|lE] ocupado por los mongoles perderá una gran parte de su [development|lE]"
+
+ mongol_invasion.1003.t:0 "Arde la Casa de la Sabiduría"
+ mongol_invasion.1003.desc:0 "La Casa de la Sabiduría, la gran institución de aprendizaje y conocimiento de Bagdad ha caído víctima del fuego y la destrucción durante el asedio mongol de la ciudad.\n\nSolo han quedado ruinas, como señalando el fin de la antigua sabiduría en el nuevo mundo de los mongoles."
+ mongol_invasion.1003.a:0 "Se ha perdido tanto…"
+ mongol_invasion.1003.b:0 "¡Solo son infieles recibiendo lo que se merecen!"
+ mongol_invasion.1003.c:0 "¡Los mongoles destruirán el mundo si no los detenemos!"
+
+ mongol_invasion.1004.t:0 "Colapso del imperio"
+ mongol_invasion.1004.desc:0 "Con el fallecimiento de [old_mongol_emperor.GetTitledFirstName], muchos sucesores han reclamado el puesto de Gran Kan. Como ninguno de ellos reconoce a los demás, estamos viendo por fin el fin de los mongoles como un imperio unificado.\n\nPuede que no sean débiles, pero ya no están unidos tras un solo «gobernante del universo»."
+ mongol_invasion.1004.a:0 "El imperio volverá a alzarse un día…"
+ mongol_invasion.1004.b:0 "¡Gracias, [ROOT.Char.GetFaith.HighGodName], por vuestra misericordia!"
+
+ mongol_invasion.1005.t:0 "El kan ha muerto"
+ mongol_invasion.1005.desc:0 "Con la transmisión del trono de [old_khan.GetTitledFirstName] a [new_khan.GetTitledFirstName], la diferencia más obvia es que [new_khan.GetFirstNameNoTooltip] no se hace llamar [new_khan.GetHerselfHimself] «gobernante del universo».\n\nAunque en el pasado las tribus de las estepas tuvieran la intención de dominar el mundo entero, parece que por fin han aceptado que eso está fuera de su alcance."
+ mongol_invasion.1005.a:0 "Ha terminado una era."
+ mongol_invasion.1005.a.tt:0 "A partir de ahora el Imperio mongol será menos agresivo"
+
+ mongol_invasion.2001.opening:0 "Futuro servidor,"
+ mongol_invasion.2001.desc:0 "Como gobernante del universo, es inevitable que os postréis ante mí. Mejor en un juramento de lealtad que con el hacha del verdugo sobre el cuello."
+ mongol_invasion.2001.a:0 "Me someto con honor, mi [mongol_emperor.GetTitleAsNameNoTooltip]."
+ mongol_invasion.2001.a.tt:0 "Te conviertes en vasall[ROOT.Char.Custom('ES_OA')] de [mongol_emperor.GetShortUIName]"
+ mongol_invasion.2001.b:0 "¡No sois una amenaza para mí, idiota arrogante!"
+ mongol_invasion.2001.b.tt:0 "[mongol_emperor.GetShortUIName] te declara la guerra"
+
+ mongol_invasion.2002.opening:0 "Honorable gobernante del universo,"
+ mongol_invasion.2002.desc:0 "Me someto a vuestra gracia legítima y benevolente. Estaré con vos contra cualquiera que se oponga a vuestro destino."
+ mongol_invasion.2002.a:0 "Una sabia decisión."
+
+ mongol_invasion.2003.opening:0 "Oh, [mongol_emperor.Custom('InsultAdjective')], sombra de [mongol_emperor.GetTitleAsNameNoTooltip],"
+ mongol_invasion.2003.desc:0 "¿creéis que podéis amenazarme para que me someta? ¡Os enseñaré lo que hace un[ROOT.Char.Custom('ES_XA')] soberan[ROOT.Char.Custom('ES_OA')] de verdad con esos «jinetes invencibles» vuestros!"
+ mongol_invasion.2003.a:0 "Sea pues guerra y muerte."
+
+ mongol_invasion.2101.desc:0 "Habéis sido un[ROOT.Char.Custom('ES_XA')] buen[ROOT.Char.Custom('ES_XA')] amig[ROOT.Char.Custom('ES_OA')] y servidor[ROOT.Char.Custom('ES_XA')] hasta ahora. Es momento de hacer oficial vuestro servicio, jurando lealtad [mongol_emperor.Custom('ES_AlAla')] gobernante del universo."
+ mongol_invasion.2101.a:0 "Por supuesto, mi [mongol_emperor.Custom('ES_SennorSennora')]."
+ mongol_invasion.2101.b:0 "¿Creéis que os sirvo? ¡Qué ridiculez!"
+ mongol_invasion.2101.b.tt:0 "@warning_icon! ¡Entonces, [mongol_emperor.GetShortUIName] rompe la alianza conmigo y podemos entrar en guerra!"
+
+ mongol_invasion.2103.a:0 "¡Te inclinarás ante mí ahora, de un modo u otro!"
+ mongol_invasion.2103.b:0 "Ya verás, alimaña insolente…"
+
+ mongol_invasion.2111.b:0 "¿Creéis que soy menos que vuestro igual? ¡Qué osadía!"
+ mongol_invasion.2111.b.tt:0 "@warning_icon! [mongol_emperor.GetShortUIName] rompe la alianza conmigo"
+
+ mongol_invasion.2112.desc:0 "¿De verdad creéis ser mi superior? ¡Ni siquiera sois mi igual! ¡Es obvio que la amistad que os ofrecí generosamente ha sido como echar margaritas a los cerdos."
+ mongol_invasion.2112.a:0 "Lamentaréis vuestras palabras y acciones, sí…"

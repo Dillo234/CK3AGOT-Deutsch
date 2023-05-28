@@ -1,0 +1,44 @@
+﻿l_spanish:
+ # Extort a Powerful Vassal, by Petter Vilberg
+ subject_extortion.0001.t:0 "Extorsionando súbditos: vasall[extortion_target.Custom('ES_OA')] poderos[extortion_target.Custom('ES_OA')]"
+ subject_extortion.0001.desc:0 "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extortion_target'))], [extortion_target.GetTitledFirstName]… bueno, es un[extortion_target.Custom('ES_XA')] [extortion_target.GetWomanMan] con recursos. Por la cara que pone, parece que también sabe para qué me acerco a [extortion_target.Custom('ES_ElElla')].\n\n«Soy leal, pago lo que se me pide», insiste. «¿Cómo podéis exigirme más?»"
+ subject_extortion.0001.a:0 "¡Consideradlo una prueba extra de lealtad, [extortion_target.GetFirstNameNoTooltip]!"
+ subject_extortion.0001.b:0 "No os preocupéis, haré pagar a #EMP todo el mundo#!…"
+ subject_extortion.0001.c:0 "Pero todavía estáis en deuda conmigo, ¿recordáis?"
+ subject_extortion.0001.d:0 "¡Solo estaba bromeando, [extortion_target.GetFirstNameNoTooltip]!"
+ subject_extortion.0001.d.flavor:0 "[extortion_target.Custom('ES_ElElla')|U] parece más disgustad[extortion_target.Custom('ES_OA')] de lo que esperaba."
+
+ # Extort a County, by Petter Vilberg
+ subject_extortion.0002.t:0 "Extorsionando súbditos: campesinos"
+ subject_extortion.0002.desc:0 "A los campesinos del [extortion_target.GetName] parece que les va mucho mejor de lo que uno esperaría por los impuestos que he recaudado ahí. Una contribución extra a mi tesoro no les hará daño.\n\nSí, se quejarán, pero ¿no se quejan siempre los campesinos? Lo superarán, estoy segur[ROOT.Char.Custom('ES_OA')]."
+ subject_extortion.0002.a:0 "Dejaré que hagan lo que quieran, siempre que obtenga mi oro."
+ subject_extortion.0002.b:0 "¿Por qué no son más agradecidos por lo que #EMP ya#! tienen?"
+ subject_extortion.0002.c:0 "Igual no vale la pena disgustarlos ahora mismo."
+
+ # Extort Theocratic Vassals, by Petter Vilberg
+ subject_extortion.0003.t:0 "Extorsionando súbditos: [ROOT.Char.GetFaith.AltPriestTermPlural]"
+ subject_extortion.0003.desc:0 "¿Acaso [ROOT.Char.GetFaith.WealthGodName] no quiere que prospere? ¿Y el mejor medio para eso no serían unas arcas bien rellenas?\n\nPor algún motivo, los [ROOT.Char.GetFaith.AltPriestTermPlural] parecen renuentes a admitirlo."
+ subject_extortion.0003.a:0 "¡Los [ROOT.Char.GetFaith.PriestNeuterPlural] deben contribuir tanto como los demás!"
+ subject_extortion.0003.b:0 "¿No me lo he ganado, por [ROOT.Char.GetFaith.HighGodName]?"
+ subject_extortion.0003.c:0 "Es una mala idea disgustar a los servidores de [ROOT.Char.GetFaith.HighGodNameAlternate]…"
+
+ # Extort all Vassals, by Petter Vilberg
+ subject_extortion.0004.t:0 "Extorsionando súbditos: vasallos"
+ subject_extortion.0004.desc:0 "El propósito de mis vasallos es apoyar mis esfuerzos. Aunque ya pagan impuestos por ese privilegio, no puedo evitar pensar cuánto más ganaría si todos contribuyeran un poco más…\n\n¡Gran riqueza para mí, sin apenas coste para ellos!"
+ subject_extortion.0004.a:0 "¡Qué solución más perfecta!"
+ subject_extortion.0004.b:0 "¿Por qué tomar un poco cuando puedo tomar #EMP mucho#!?"
+ subject_extortion.0004.c:0 "No, ya han cumplido sus obligaciones."
+
+ # Extort Courtiers, by Petter Vilberg
+ subject_extortion.0005.t:0 "Extorsionando súbditos: cortesanos"
+ subject_extortion.0005.desc:0 "Mis cortesanos prácticamente viven de mi generosidad. ¿No va siendo hora de que muestren su gratitud?\n\nHasta los nobles de menor rango deben entender lo que implica el honor y el deber."
+ subject_extortion.0005.a:0 "¡Saben muy bien que #EMP viven#! de mi clemencia!"
+ subject_extortion.0005.b:0 "No pediré nada, pero esperaré regalos."
+ subject_extortion.0005.c:0 "Oh, pero si ya tienen muy poco en el mundo…"
+
+ # Failed to find an extortion target, by Petter Vilberg
+ subject_extortion.9998.t:0 "Extorsionado súbditos"
+ subject_extortion.9998.desc.steward:0 "Mi [steward.GetCouncilTitle] parece haber fallado a la hora de encontrar nuevas fuentes de ingresos en mi señorío.\n\n«Me disculpo, mi [ROOT.Char.Custom('ES_SennorSennora')], pero no queda nada más que nos podamos llevar»."
+ subject_extortion.9998.desc:0 "A pesar de mi talante y personalidad honorable, parece que no puedo encontrar a nadie dispuesto a apoyarme más allá de lo que les obliga mi ley. Y tampoco ninguno de mis súbditos parece entusiasmado por apoyar mis ideas para nuevas leyes.\n\n¿Estoy condenad[ROOT.Char.Custom('ES_OA')] a sufrir miseria por culpa de la codicia y eogísmo de mis servidores?"
+ subject_extortion.9998.a:0 "¡Alto! ¿Qué repiquetea en tu bolsa?"
+ subject_extortion.9998.b:0 "Un momento, ¿qué hay bajo mi asiento?"

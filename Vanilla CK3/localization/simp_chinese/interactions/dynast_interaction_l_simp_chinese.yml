@@ -1,0 +1,44 @@
+﻿l_simp_chinese:
+ dynasty_interaction_header:1 "[dynast_interaction|E]\n"
+ disinherit_interaction:0 "剥夺继承权"
+ disinherit_interaction_desc:0 "$dynasty_interaction_header$从[line_of_succession|E]移除[recipient.GetShortUINameNoTooltip]"
+ disinherit_interaction_notification:0 "剥夺了宗族成员继承权"
+
+ restore_inheritance_interaction:0 "恢复继承权"
+ restore_inheritance_interaction_desc:0 "$dynasty_interaction_header$恢复[recipient.GetShortUINameNoTooltip]与生俱来的[line_of_succession|E]\n\n#weak 此项可用因为[recipient.GetSheHe]已被[disinherited|E]#!"
+ restore_inheritance_interaction_notification:0 "恢复继承权"
+
+ denounce_interaction:0 "谴责"
+ denounce_interaction_desc:0 "$dynasty_interaction_header$[denounce|E][recipient.GetShortUINameNoTooltip]\n\n#weak 这将会让我们[dynasty|E]的所有成员对[recipient.GetHerHim]拥有一个[imprisonment_reason|E]#!"
+ denounce_interaction_notification:0 "谴责了宗族成员"
+
+ forgive_interaction:0 "原谅"
+ denounced_change_to_forgiven:0 "#V $denounced_opinion$好感#!#weak （-50）#!改为#V $forgave_denounced_opinion$#!#weak （-25）#! （#P +25#! [opinion|E]）"
+ forgiven_changed_to_denounced:0 "#V $forgave_denounced_opinion$好感#!#weak （-25）#!改为#V $denounced_opinion$#!#weak （-50）#!（#N -25#![opinion|E]）"
+ forgive_interaction_desc:0 "$dynasty_interaction_header$撤回[recipient.GetShortUINameNoTooltip]的[denouncement|E]"
+ forgive_interaction_notification:0 "原谅了宗族成员"
+
+ call_dynasty_member_to_war_interaction:0 "召集宗族成员加入战争"
+ call_dynasty_member_to_war_interaction_desc:0 "召唤[recipient.GetShortUINameNoTooltip]，在战争中为[recipient.GetHerHis]的[dynasty|E]效力"
+ call_dynasty_member_to_war_interaction_extra_icon:0 "$hook_extra_icon$"
+
+ dynast_legitimize_bastard_interaction:1 "合法化私生子#weak （宗族）#!"
+ dynast_legitimize_bastard_interaction_desc:2 "$dynasty_interaction_header$宣布[recipient.GetShortUINameNoTooltip]为$game_concept_legitimized_bastard$\n\n#weak 此选项可用，因为[recipient.GetSheHe]是我的[dynasty|E]的一位[bastard|E]#!"
+ dynast_legitimize_bastard_interaction_notification:0 "合法化的私生子"
+
+ dynast_claim_title_interaction:0 "宣称头衔"
+ dynast_claim_title_interaction_desc:0 "$dynasty_interaction_header$为你自己[claim|EU][recipient.GetShortUINameNoTooltip]持有的一个[title|E]"
+ dynast_claim_title_interaction_notification:0 "宣称了头衔"
+ ALREADY_HAVE_CLAIM_ON_THIS_TITLE:0 "你已经拥有该头衔的宣称"
+ ALREADY_HAVE_CLAIMS_ON_ALL_TITLES:1 "你已经拥有[TARGET_CHARACTER.GetShortUINamePossessive]所有头衔的宣称"
+
+ dynast_end_dynasty_wars_interaction:0 "终止宗族内战"
+ dynast_end_dynasty_wars_interaction_desc:0 "$dynasty_interaction_header$要求[recipient.GetShortUINameNoTooltip]立即停止针对我们[dynasty|E]任何成员的进攻性战争"
+ dynast_end_dynasty_wars_interaction_notification:0 "终止了宗族战争"
+
+ recipient_secondary_legitimize_bastard_interaction:0 "私生子"
+
+ send_to_varangian_guard_interaction:0 "送去瓦兰吉卫队#weak （宗族）#!"
+ send_to_varangian_guard_interaction_desc:0 "$dynasty_interaction_header$将[recipient.GetShortUINameNoTooltip]送去瓦兰吉卫队获取荣耀与财富。这甚至有可能更好地塑造角色，谁知道呢！"
+ send_to_varangian_guard_interaction_toast:1 "[recipient.GetShortUIName]离开前往瓦兰吉卫队"
+ send_to_varangian_guard_interaction_toast_desc:0 "名望与荣耀在等待着！"

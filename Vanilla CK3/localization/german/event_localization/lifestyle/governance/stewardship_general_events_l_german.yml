@@ -1,0 +1,88 @@
+﻿l_german:
+
+ stewardship_lifestyle_rank_up_indication:1 "[perk|E] möglich: [stewardship_lifestyle|E]"
+ 
+ ###################
+ # Standard Events #
+ ###################
+
+ # Peasant mob brings someone before you, accusing them of witchcraft. By Sean Hughes 
+ stewardship_general.1054.t:0 "Verdacht von [witch.Custom('MagicPracticeTerm')|U]"
+ stewardship_general.1054.desc:0 "Blutverschmierte Gewänder … Rabenfedern … seltsam riechendes Gebräu. Dies wird mir von einer Gruppe Dorfbewohner aus [target_county.GetNameNoTier] vorgelegt als Beweis, dass [witch.GetFirstName] in [witch.Custom('DE_PRO_POS_S_3P')]er Hütte am Rand des Dorfes [witch.Custom('MagicPracticeTerm')] praktiziert.\n\nLaut den Dorfbewohnern sind [witch.Custom('DE_PRO_POS_S_3P')]e finsteren Praktiken schuld an bösen Ereignissen im Dorf, und sie fordern, dass [witch.Custom('DE_PRO_PER_S_3P_N')] hingerichtet wird."
+ stewardship_general.1054.a:0 "Dies sind reine Indizienbeweise. Lasst [witch.Custom('DE_PRO_PER_S_3P_A')] frei."
+ stewardship_general.1054.b:0 "[witch.Custom('DE_PRO_PER_S_3P_N')|U] muss brennen für [witch.Custom('DE_PRO_POS_S_3P')]e Verbrechen gegen [ROOT.Char.GetFaith.HighGodName]!"
+ stewardship_general.1054.c:0 "[witch.Custom('MagicUserTerm')] also, ja? Ich könnte einen neuen Berater gut gebrauchen."
+ stewardship_general.1054.d:0 "Bereitet alles vor für eine Hinrichtung mit allen Schikanen …"
+ stewardship_general.1054.d.flavor:0 "… aber schmuggelt [witch.Custom('DE_PRO_PER_S_3P_A')] in Wahrheit an meinen Hof!"
+
+ # Visited by a Trinket Peddler, by Filippa Gannholm
+ stewardship_general.2001.t:0 "Eine Nase für Schnäppchen"
+ stewardship_general.2001.desc_intro:0 "Während ich einen kleinen Spaziergang mache, sticht das Geschrei eines Händlers in all dem hektischen Treiben hervor.\n„Seid mir gegrüßt, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]! Ich habe eine vorzügliche Auswahl an Waren, sofern Ihr die nötigen Münzen habt …“"
+ stewardship_general.2001.desc:0 "\n\nDer Stand des Händlers quillt wahrlich über von Tand und Krimskrams."
+ stewardship_general.2001.desc_high_skill:0 "$stewardship_general.2001.desc$ Als geübt[ROOT.Char.Custom('DE_END_ADJ_IND_S_N')] Käufer[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] für edle Waren fallen mir ein paar echte Schmuckstücke in all dem Schnickschnack auf."
+ stewardship_general.2001.desc_steward:0 "\n\nWährend ich das Übermaß an Waren in dem Stand durchgehe, kann ich hören, wie [helpful_councillor.GetShortUIName] murmelt: „Die Gravuren an diesem Stück scheinen echt zu sein … und noch dazu recht wertvoll!“ [helpful_councillor.Custom('DE_PRO_PER_S_3P_N')|U] wirft mir einen triumphierenden Blick zu."
+ stewardship_general.2001.desc_chaplain:0 "\n\nMeine Begleitung [helpful_councillor.GetShortUIName] hält plötzlich inne, neigt den Kopf und starrt etwas im Stand des Händlers an. [helpful_councillor.Custom('DE_PRO_PER_S_3P_N')|U] beugt sich zu mir herüber und flüstert mir zu: „Dieser ‚Tand‘ da drüben sieht einem zeremoniellen Reliquiar zum Verwechseln ähnlich. Es wäre wohl klug, ihn zu erwerben.“"
+ stewardship_general_2001_success_msg.t:0 "Erfolgreiches Feilschen"
+ stewardship_general_2001_failure_msg.t:0 "Gescheitertes Feilschen"
+ stewardship_general_2001_free_msg.desc:0 "Euer Feilschen erweist sich als hervorragend"
+ stewardship_general_2001_tiny_msg.desc:0 "Euer Feilschen erweist sich als angemessen"
+ stewardship_general_2001_minor_msg.desc:0 "Euer Feilschen erweist sich als armselig"
+ stewardship_general_2001_expensive_msg.desc:0 "Ihr wurdet vom Händler überlistet"
+ stewardship_general.2001.free:0 "Ihr macht ein echtes Schnäppchen"
+ stewardship_general.2001.tiny_cost:0 "Ihr seid ein guter Verhandler"
+ stewardship_general.2001.minor_cost:0 "Das war kein gutes Geschäft"
+ stewardship_general.2001.expensive_cost:0 "Der Händler überlistet Euch"
+ stewardship_haggle_cheap_trinket_tt:0 "Ihr entscheidet Euch für das billige Schmuckstück"
+ stewardship_haggle_expensive_trinket_tt:0 "Ihr entscheidet Euch für das teure Schmuckstück"
+ stewardship_haggle_helpful_trinket_tt:0 "Ihr entscheidet Euch für das vorgeschlagene Schmuckstück"
+ stewardship_general.2001.a:0 "Ich versuche mein Glück!"
+ stewardship_general.2001.a.ignore_help:0 "Das wird ein richtiges Schnäppchen."
+ stewardship_general.2001.b:0 "Die Details dieses Schmuckstücks faszinieren mich."
+ stewardship_general.2001.b.ignore_help:0 "Ich glaube, dieses Stück ist die lohnenswertere Wahl."
+ stewardship_general.2001.c.steward:0 "Ich verlasse mich da auf Euren Sachverstand, [ROOT.GetCharacter.Custom2('RelationToMe',SCOPE.sC('helpful_councillor'))]."
+ stewardship_general.2001.c.chaplain:0 "Eure Worte erscheinen mir weise, [helpful_councillor.GetFirstNameNoTooltip]."
+ stewardship_general.2001.d:0 "Gehen wir weiter."
+ stewardship_general.2001.d.irritable:0 "Ich habe #EMP Nein#! gesagt. Nun verschwindet, #EMP bevor ich Euch verschwinden lasse.#!"
+ stewardship_general.2001.tt:0 "Schmuckstück erhalten"
+
+ stewardship_general.2002.t:1 "Imposante Ausstellung"
+ stewardship_general.2002.t_insulting:1 "Beleidigende Ausstellung"
+ stewardship_general.2002.desc.intro:0 "Wir gehen an den nächsten zwei Ständen vorbei. "
+ stewardship_general.2002.desc_impressed:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] strahlt mich an.\n\n„Ja, wirklich gut! Ich hätte es selbst kaum besser gekonnt.“\n\n[helpful_councillor.Custom('DE_PRO_PER_S_3P_N')|U] sieht sich unauffällig die Schmuckstücke am Stand neben uns an und wirft mir einen erwartungsvollen Blick zu."
+ stewardship_general.2002.desc_very_impressed:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] zupft vor Aufregung an meinem Ärmel.\n\n„Bei den höheren Mächten! Was für ein herrlicher Auftritt! Solche Eloquenz! Man konnte ja kaum Schritt halten mit den honigsüßen Worten bei diesem #EMP Tänzchen#!!“\n\n[helpful_councillor.Custom('DE_PRO_PER_S_3P_N')|U] sieht mich verwundert und bewundernd zugleich an."
+ stewardship_general.2002.desc_insulted:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] sieht mich abschätzig an.\n\n„Das war sicher ein … interessanter Auftritt. Ich bin mir nicht sicher, was Ihr da erreichen wolltet, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')], doch ich bin mir sicher, dass der Händler bekommen hat, was er wollte.“\n\n[helpful_councillor.Custom('DE_PRO_PER_S_3P_N')|U] spart sich jedes weitere Wort und spaziert lieber weiter."
+ stewardship_general.2002.desc_very_insulted:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] schnauft verächtlich.\n\n„Jeder von minderem Verstand würde behaupten, dass dieses Artefakt ([bought_trinket.GetName]) den Namen kaum verdient hat. Doch #EMP ich bin mir sicher#!, dass wir die richtige Entscheidung getroffen haben …“\n\n[helpful_councillor.Custom('DE_PRO_PER_S_3P_N')|U] ist eindeutig enttäuscht über meinen schlechten Auftritt vorhin."
+ stewardship_general.2002.a.high_stewardship:0 "Vielleicht könntet Ihr mir ja ein paar Strategien beibringen."
+ stewardship_general.2002.mentor_success:0 "Ihr tauscht Euch die ganze Nacht über die Eigenheiten des Feilschens aus"
+ stewardship_general.2002.mentor_failure:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] war nicht ganz überzeugt"
+ stewardship_general.2002.impressed:0 "Das war gut gefeilscht, nicht wahr?"
+ stewardship_general.2002.b.high_stewardship:0 "Das war nur ein Test. #EMP Ich#! habe, was ich wollte!"
+ stewardship_general.2002.convince_success:0 "Ah ja, dieses Artefakt ([bought_trinket.GetName]) ist eine sehr viel bessere Investition, weil … "
+ stewardship_general.2002.convince_failure:0 "$stewardship_general.2002.mentor_failure$"
+ stewardship_general.2002.t_success:0 "Erfolgreiches Überzeugen"
+ stewardship_general.2002.t_failure:0 "Gescheitertes Überzeugen"
+ stewardship_general.2002.insulted:0 "Was geschehen ist, ist geschehen."
+
+ # Build a fish pond, by Linnéa Thimrén
+ stewardship_general.5011.t:0 "Die Karpfen"
+ stewardship_general.5011.desc:0 "„Wenn Ihr an einem Karpfenteich interessiert seid, kann ich Euch einen hervorragenden bauen!“\n\nDer Baumeister vor mir hat gute Referenzen, und meine Höflinge scheinen sehr angetan von dem Gedanken …"
+ stewardship_general.5011.a:0 "Ihr bekommt alle Ressourcen, die Ihr benötigt!"
+ stewardship_general.5011.b:0 "Ist das #EMP wirklich#! das beste Angebot, das Ihr mir unterbreiten könnt?"
+ stewardship_general.5011.b.message_1:0 "Ihr macht ein großartiges Geschäft"
+ stewardship_general.5011.b.message_2:1 "Der Baumeister haut Euch übers Ohr"
+ stewardship_general.5011.c:0 "Hört auf, meine Zeit zu vergeuden!"
+ stewardship_general.5011.every_courtier:1 "Jeder [courtier|E]"
+
+ stewardship_general.5013.t:0 "Bestien der Tiefe"
+ stewardship_general.5013.desc:1 "Als ich durch den Garten flaniere, sehe ich, wie mein[carp_food.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('carp_food'))] [carp_food.GetTitledFirstName] auf einem Stein am Karpfenteich sitzt. [carp_food.Custom('DE_PRO_PER_S_3P_N')|U] lehnt sich über den Teich und streicht mit den Fingern durch das Wasser. Unter der Oberfläche regt sich ein Schatten …"
+ stewardship_general.5013.a:0 "Tretet zurück, [carp_food.GetFirstNameNoTooltip]! Vorsicht vor … NEEEIN!"
+
+ # Catch a servant stealing from me, by Linnéa Thimrén
+ stewardship_general.5041.t:0 "Abtrünniger Diener"
+ stewardship_general.5041.desc:0 "Ein gemeiner [ROOT.GetCharacter.Custom('lowly_servant_type')] hat meinen Haushalt bestohlen!"
+ stewardship_general.5041.desc_highgod:0 "[servant_character.Custom('DE_ART_DEF_S_N')] Täter[servant_character.Custom('DE_END_NOU_S_GS_N')] kniet vor mir und winselt etwas von hungrigen Kindern und Gnade im Namen von [ROOT.Char.GetFaith.HouseholdGodName]."
+ stewardship_general.5041.desc_other:0 "[servant_character.Custom('DE_ART_DEF_S_N')] Täter[servant_character.Custom('DE_END_NOU_S_GS_N')] kniet vor mir, winselt etwas von hungrigen Kindern und fleht um Gnade."
+ stewardship_general.5041.desc_ending:0 "\n\n„Bitte, ich flehe Euch an, ich tue alles, was Ihr wollt!“"
+ stewardship_general.5041.a:0 "Ich werde [servant_character.Custom('DE_PRO_PER_S_3P_D')] zeigen, wie sich wahrer Hunger anfühlt."
+ stewardship_general.5041.b:0 "Ich werfe [servant_character.Custom('DE_PRO_PER_S_3P_A')] in den Kerker."
+ stewardship_general.5041.c:0 "Ich zeige Gnade und gewinne [servant_character.Custom('DE_PRO_POS_S_3P')]e Loyalität."

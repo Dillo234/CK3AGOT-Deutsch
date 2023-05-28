@@ -1,0 +1,22 @@
+﻿l_russian:
+
+ ALL_LIVING_CHARACTERS:0 "Все живые персонажи:"
+ ANY_LIVING_CHARACTER:0 "Любой живой персонаж:"
+
+ ALL_POOL_CHARACTERS:0 "Все доступные персонажи:"
+ ANY_POOL_CHARACTER:0 "Любой доступный персонаж:"
+
+ ANY_OF_CHARACTERS_VASSALS:1 "Любой из [Concept( 'vassals', 'вассалов' )|E] [Select_CString(CHARACTER.IsPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'его персонажа', '' )]:"
+ ALL_OF_CHARACTERS_VASSALS:1 "Все [vassals|El] [Select_CString(CHARACTER.IsPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'его персонажа', '' )]:"
+ ANY_OF_CHARACTERS_VASSALS_PERCENT:0 "$PARAMETERS$ из [Concept( 'vassals', 'вассалов' )|E] персонажа [Select_CString(CHARACTER.IsPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'его персонажа', '' )]:"
+ ANY_OF_CHARACTERS_VASSALS_COUNT:0 "$PARAMETERS$ из [Concept( 'vassals', 'вассалов' )|E] персонажа [Select_CString(CHARACTER.IsPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'его персонажа', '' )]:"
+ 
+ ANY_DYNASTY_MEMBER_COUNT:0 "$PARAMETERS$ из членов [Concept( 'dynasty', 'династии' )|E] [DYNASTY.GetBaseName]:"
+
+ ANY_IN_DE_JURE_ALL_GLOBAL:0 "Любые де-юре [titles|El]"
+ NOT_ANY_IN_DE_JURE_ALL_GLOBAL:0 "Ни один из де-юре [Concept( 'titles|El', 'титулов' )|E]"
+ ANY_IN_DE_JURE_ALL_THIRD:0 "Любые де-юре [titles|El] державы [TITLE.GetName]"
+ NOT_ANY_IN_DE_JURE_ALL_THIRD:0 "Ни один из де-юре [Concept( 'titles|El', 'титулов' )|E] державы [TITLE.GetName]"
+
+ ANY_REALM_COUNTY:0 "Любое [Concept( 'county', 'графство' )|E] [Concept( 'realm', 'державы' )|E]:"
+ ANY_REALM_COUNTY_COUNT:0 "$PARAMETERS$ [Concept( 'counties', 'графств' )|E] [Concept( 'realm', 'державы' )|E]:"

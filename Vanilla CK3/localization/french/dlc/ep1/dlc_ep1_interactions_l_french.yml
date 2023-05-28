@@ -1,0 +1,15 @@
+﻿l_french:
+
+ # Fund Inspiration Loc
+ fund_inspiration_interaction:1 "Commanditer l’inspiration"
+ fund_inspiration_interaction_desc:2 "Commanditer l’[inspiration|El] [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUINameNoTooltip] pour lancer un [project|El] qui pourrait vous faire gagner un [artifact|El].\n\nLa qualité de l’artefact potentiel et le coût du financement varieront en fonction de ses aptitudes."
+ fund_inspiration_interaction_reqruit_family_tooltip:0 "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUIName] et sa famille"
+
+ # Indebt Guest Loc
+ indebt_guest_interaction:0 "Rendre redevable l’invité"
+ indebt_guest_interaction_desc:0 "Faites témoigner vos [Concept('court_amenities','serviteurs')|E] sur une litanie de dépenses causées par le séjour [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUIName] et proposez-lui une échappatoire..."
+ indebt_guest_interaction.tt.direct_indebted_guest:0 "Vous aurez l’occasion de demander [recipient.Custom('FR_au_Char_Pi')][recipient.GetTitledFirstName] d’aller quelque part"
+ indebt_guest_interaction.tt.failure:0 "[recipient.Custom('FR_le_Char_Pi')|U][recipient.GetTitledFirstName] ne se laisse pas mettre sous pression et s’enfuit"
+ INDEBT_GUEST_INTRIGUE_ACTOR:0 "[intrigue|E] [actor.Custom('FR_du_Char_U_Pi')][actor.GetShortUIName|U]: $VALUE|=+0$"
+ INDEBT_GUEST_INTRIGUE_RECIPIENT:0 "[intrigue|E] [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUIName|U]: $VALUE|=+0$"
+ INDEBT_GUEST_CURRENT_CGV_ABOVE_EXPECTED:0 "[court_grandeur|E] en excès [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUIName]: $VALUE|=+0$"

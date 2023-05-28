@@ -1,0 +1,136 @@
+﻿l_russian:
+ 
+ ###################
+ # Standard Events #
+ ###################
+
+ # Bankrupt, by Stephen Arthur and Sean Hughes
+ stewardship_wealth.1001.t:0 "Банкротство!"
+ stewardship_wealth.1001.desc:0 "Моя казна пуста, и в кладовой хоть шаром покати. Пришлось продать даже крыс, чтобы возместить мои расходы, но я все равно не могу расплатиться со всеми долгами!\n\nКак мне выбраться из этой ситуации?"
+ stewardship_wealth.1001.a:0 "Проштудировать учетные книги: вдруг там найдется что-нибудь полезное?"
+ stewardship_wealth.1001.a.success:0 "Я нахожу несколько забытых обязательств, которыми можно воспользоваться"
+ stewardship_wealth.1001.a.failure:0 "Мне не удалось найти ничего полезного"
+ stewardship_wealth.1001.b.havehook:0 "Я потребую, чтобы [wealthy_vassal.GetTitledFirstNameNoTooltip] [Select_CString(wealthy_vassal.IsFemale, 'вернула', 'вернул' )] мне долг."
+ stewardship_wealth.1001.b.givehook:0 "Если [wealthy_vassal.GetTitledFirstNameNoTooltip] поможет мне, я буду в долгу перед [Select_CString(wealthy_vassal.IsFemale, 'ней', 'ним' )]."
+ stewardship_wealth.1001.c:0 "Я потребую денег с моих вассалов!"
+ stewardship_wealth.1001.c.tt:0 "Все вассалы:"
+ stewardship_wealth.1001.d:0 "Конфисковать собственность церкви, чтобы пополнить казну."
+ stewardship_wealth.1001.e:0 "Я затяну пояс потуже и сэкономлю на всем, на чем можно."
+ 
+ # Minting New Coins, bu Stephen Arthur and Sean Hughes
+ stewardship_wealth.1011.t:0 "Чеканка новой монеты"
+ stewardship_wealth.1011.desc:0 "Мое право и обязанность — определять, какие монеты будут ходить в державе [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\nМой выбор определит положение моих монет в мире, а в месте с тем — и образ моей державы в глазах иноземцев."
+ stewardship_wealth.1011.a:0 "Чеканить серебряные монеты, чтобы поспособствовать торговле."
+ stewardship_wealth.1011.b:0 "Чеканить золотые монеты с моим портретом!"
+ stewardship_wealth.1011.c:0 "Провести порчу монет дешевой медью."
+ stewardship_wealth.1011.c.success:0 "Я немало сэкономлю, чеканя испорченные монеты"
+ stewardship_wealth.1011.c.failure:0 "Все узнают, сколько в действительности стоят новые монеты"
+ stewardship_wealth.1011.custom:0 "Все графства в державе [THIS.Char.GetPrimaryTitle.GetName]"
+
+ # War Taxes, by Sean Hughes
+ stewardship_wealth.1021.t:0 "Плата за войну"
+ stewardship_wealth.1021.desc:0 "Войны дороги. Учитывая, как быстро пустеет моя казна, мне пора задуматься, чем платить войскам на полях сражений."
+ stewardship_wealth.1021.a:0 "Увеличьте налоги с крестьян."
+ stewardship_wealth.1021.a.custom:0 "Каждое [county|El] в моем [Concept( 'domain', 'домене' )|E]"
+ stewardship_wealth.1021.b:0 "Сократите военные расходы не первостепенной важности."
+ stewardship_wealth.1021.b.success:0 "Мне удалось повысить эффективность военного бюджета"
+ stewardship_wealth.1021.b.failure:0 "Я случайно сокращаю важные военные расходы"
+ stewardship_wealth.1021.c:1 "Все как-нибудь устроится само собой. Обычно же устраивается."
+ stewardship_wealth.1021.c.tt:0 "Война создаст множество возможностей..."
+
+ # War Profiteering, by Isabella Welch
+ stewardship_wealth.1022.t:0 "Разграбление святынь"
+ stewardship_wealth.1022.desc:0 "Мой [GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )] [church_burner.GetName] подходит ко мне и радостно сообщает о действиях своего отряда:\n\n«[ROOT.Char.GetLadyLord], после вашего блестящего решения оставить вопросы военных затрат на наше усмотрение мы устроили величайший грабеж в истории державы [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier]! Мы угнали десятки овец, украли сотни ценных вещей и даже сожгли одно здание — [ROOT.Char.GetFaith.HouseOfWorship] — с тысячей человек внутри!»"
+ stewardship_wealth.1022.a:0 "Нашей казне не помешает подобный подарок... но постарайтесь больше этого не делать."
+ stewardship_wealth.1022.b:0 "Я не хочу, чтобы меня считали мясником! Мы потратим награбленное на возмещение ущерба."
+ stewardship_wealth.1022.c:0 "Отличная работа! Мы продолжим делать что захотим."
+ 
+ # Wealthy free farmer wants to buy land, by Sean Hughes
+ stewardship_wealth.1051.t:0 "Фермерская удача"
+ stewardship_wealth.1051.desc:0 "[freeman.GetFirstName], вольный землепашец, [Select_CString(freeman.IsFemale, 'арендующая', 'арендующий' )] часть моей земли во владении [target_county.GetNameNoTier], благодаря тщательному планированию [Select_CString(freeman.IsFemale, 'собрала', 'собрал' )] в этом сезоне обильный урожай.\n\n[freeman.GetSheHe|U] желает воспользоваться полученными деньгами и приобрести у меня часть поместья, чтобы упрочить свой успех и вырастить еще больше в следующем году."
+ stewardship_wealth.1051.a:0 "Забудьте про урожай, такой человек должен сидеть в моем совете!"
+ stewardship_wealth.1051.a.arrogant:0 "Образованный крестьянин? Как необычно! Вы #EMP должны#! присоединиться к моему двору!"
+ stewardship_wealth.1051.b:0 "Если [freeman.GetSheHe] может заплатить мне звонкой монетой, то земля [freeman.GetHersHis]."
+ stewardship_wealth.1051.d:0 "Земля во владении [target_county.GetNameNoTierNoTooltip] моя и только моя!"
+
+ # Pick a new thing to obtain, by Sean Hughes
+ stewardship_wealth.1061.t:0 "Новые приобретения"
+ stewardship_wealth.1061.desc:0 "Я постоянно занимаюсь насущными делами государства, и мне открылось два весьма полезных факта.\n\nКаждый сулит немалую пользу, но я могу воспользоваться лишь одним. Нужно решить, что принесет мне большую выгоду."
+ stewardship_wealth.1061.a:0 "До меня дошли слухи, что была обнаружена утраченная книга."
+ stewardship_wealth.1061.a.success:0 "В утраченной книге содержатся бесценные знания"
+ stewardship_wealth.1061.a.success.good:0 "Вы получаете очень хороший [Concept( 'artifact', 'артефакт' )|E]-книгу"
+ stewardship_wealth.1061.a.failure:0 "Это просто старая учетная книга"
+ stewardship_wealth.1061.a.success.bad:0 "Вы получаете интересный старинный [Concept( 'artifact', 'артефакт' )|E]-книгу"
+ stewardship_wealth.1061.b:0 "[vassal.GetTitledFirstNameNoTooltip] нуждается в помощи в управлении владениями."
+ stewardship_wealth.1061.c:0 "Успешное заключение этих торговых сделок пополнит мою казну."
+
+ # Buy some cows, by Linnéa Thimrén
+ stewardship_wealth.5001.t:0 "Шумное стадо"
+ stewardship_wealth.5001.desc:0 "В качестве дополнительной платы в ходе недавней сделки мне досталось большое стадо коров.\n\nМеня заверили, что это животные лучших кровей. Осталось решить, что с ними делать."
+ stewardship_wealth.5001.a:0 "[capital.GetNameNoTierNoTooltip] достигнет большего процветания благодаря стаду."
+ stewardship_wealth.5001.b:0 "Великолепное стадо, но коров могло бы быть и побольше..."
+ stewardship_wealth.5001.b.message_1:0 "Мой план по разведению увенчался успехом"
+ stewardship_wealth.5001.b.message_2:0 "Мой план по разведению провалился"
+ stewardship_wealth.5001.c:0 "Их шкуры можно выгодно продать. Приведите мясника!"
+
+ #Investment advice (wealth friend), by Mathilda Bjarnehed
+ stewardship_wealth.5002.t:0 "Совет"
+ stewardship_wealth.5002.start.desc:0 "Я прогуливаюсь между рыночными палатками во владении [capital.GetNameNoTooltip] с тяжелым кошелем на поясе. Как я воспользуюсь этими монетами?\n\nКогда я рассматриваю товары местного "
+ stewardship_wealth.5002.safe_smithy.desc:0 "кузнеца, — отличная сталь,"
+ stewardship_wealth.5002.safe_mason.desc:0 "каменщика, — идеальная геометрия,"
+ stewardship_wealth.5002.safe_religious_sculptor.desc:0 "скульптора, — [ROOT.Char.GetFaith.GetNameNoTooltip|l]ие образы,"
+ stewardship_wealth.5002.safe_jeweler.desc:0 "ювелира, — филигранная работа,"
+ stewardship_wealth.5002.middle.desc:1 "прекрасное вложение», — ко мне вдруг подходит [investor.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)].\n\n«Небольшой совет, если позволите, [ROOT.Char.Custom2('RelationToMeAddress', investor)]. Взгляните на"
+ stewardship_wealth.5002.risky_smithy.desc:0 "кузницу"
+ stewardship_wealth.5002.risky_mason.desc:0 "мастерскую каменщика"
+ stewardship_wealth.5002.risky_religious_sculptor.desc:0 "палатку скульптора"
+ stewardship_wealth.5002.risky_jeweler.desc:0 "палатку ювелира"
+ stewardship_wealth.5002.end.desc:0 "вон там. Возможно, товар незамысловат, но он откроет перед вами самые разные возможности»."
+
+ stewardship_wealth.5002.b.success:0 "[investor.GetFirstNameNoTooltip] и я делаем отличное вложение"
+ stewardship_wealth.5002.b.failure:0 "Мое вложение оказывается неудачным"
+ stewardship_wealth.5002.b.failure.tt:0 "Вы теряете вложенные деньги"
+
+ stewardship_wealth.5002.a.smithy:0 "Поддержать деньгами кузницу."
+ stewardship_wealth.5002.a.tavern:0 "Поддержать деньгами таверну."
+ stewardship_wealth.5002.a.mason:0 "Поддержать деньгами мастерскую каменщика."
+ stewardship_wealth.5002.a.religious_sculptor:0 "Поддержать деньгами мастерскую скульптора."
+ stewardship_wealth.5002.a.jeweler:0 "Поддержать деньгами мастерскую ювелира."
+ stewardship_wealth.5002.c:0 "Сделать легкие деньги на нескольких умных сделках."
+
+#Roadside Stall selling carvings by Daniel Moore
+ stewardship_wealth.6001.t:0 "Придорожная лавка"
+ stewardship_wealth.6001.desc:0 "[stall_county.Custom('TerrainTypeCountyScope')|U] графства [stall_county.GetName] ведет нас вперед, и вот у дороги я замечаю самодельный прилавок.\n\nСтоит мне остановиться, как [Select_CString(stall_owner.IsFemale, 'крестьянка', 'крестьянин' )] по имени [stall_owner.GetFirstName] ураганом налетает на меня. «[stall_owner.GetFaith.ReligiousSymbol]! Купите [stall_owner.GetFaith.ReligiousSymbol]!» — [stall_owner.GetSheHe] оживленно указывает на резные символы на прилавке.\n\n«Я делаю их собственными руками, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetLadyLord], на каждый уходит много часов работы»."
+ stewardship_wealth.6001.a:0 "Пожалуй, куплю что-нибудь."
+ stewardship_wealth.6001.a.tt_high:0 "Вы получите резной символ высокого качества"
+ stewardship_wealth.6001.a.tt_low:0 "Вы получите резной символ низкого качества"
+ stewardship_wealth.6001.b:0 "Сомневаюсь я, что эта лавка платит налоги. Сломать ее!"
+ stewardship_wealth.6001.c:0 "Я поговорю с [Select_CString(stall_owner.IsFemale, 'ней', 'ним' )] и, возможно, смогу что-то узнать о торговле."
+
+ small_religious_carving:0 "Небольшой резной религиозный символ"
+ small_religious_carving_desc:0 "Маленький, но затейливый резной [stall_owner.GetFaith.GetReligion.GetNameNoTooltip]ий символ — [stall_owner.GetFaith.ReligiousSymbol]."
+
+# Rogue Administration by Jason Cantalini
+ stewardship_wealth.7000.t:0 "Вороватая администрация"
+ stewardship_wealth.7000.desc:0 "С очень горделивым видом [Select_CString(enforcer.IsFemale, 'моя', 'мой' )] $knight_culture_player_no_tooltip_lowercase$ [enforcer.GetTitledFirstName] водружает передо мной туго набитый мешок.\n\n«Смотрите», — заявляет [enforcer.GetSheHe].\n\nЯ высыпаю содержимое: вещицы из драгоценных металлов, семейные реликвии, безделушки.\n\n«[victim.GetTitledFirstName] славится доверчивыми простолюдинами. Вот мне и удалось #EMP убедить#! некоторых из них, — ухмыляется [enforcer.GetFirstNameNoTooltip], — что их налоги должны получать вы, сюзерен».\n\nВот так неожиданная удача! Достаточно только представить, как сузятся от злости глазенки на этой отвратительной физиономии! Жди вестей, [victim.GetTitleAsNamePossessiveNoTooltip]."
+
+ stewardship_wealth.7000.a:0 "[victim.Custom('InsultAdjective')|U][Select_CString(victim.IsFemale, 'ая', 'ый' )] [victim.GetFirstNameNoTooltip] ныне в печали!"
+ stewardship_wealth.7000.b:0 "Я одобряю эти поборы."
+ stewardship_wealth.7000.b.tt:0 "Поиски козлов отпущения, искажение правды, небольшие взятки: все, что угодно, лишь бы обвинения в тирании стали тише"
+ stewardship_wealth.7000.c:0 "Забери эту добычу. И неси еще."
+ stewardship_wealth.7000.c.tt:0 "И в вашей, и в [victim.GetHersHis] державе будут действовать лучшие бойцы, о которых [ROOT.Char.GetTitleAsNameNoTooltip] может мечтать!"
+ stewardship_wealth.7000.d:0 "Увы... краденое придется вернуть."
+ stewardship_wealth.7000.d.tt:0 "Месть — это неправильно и так далее..."
+
+# Beyond Boundaries by Jason Cantalini
+ stewardship_wealth.7001.t:0 "За пределами"
+ stewardship_wealth.7001.desc:0 "Будь [Select_CString(thieving_rival.IsFemale, 'проклята', 'проклят' )] [thieving_rival.GetTitledFirstName] и [thieving_rival.GetHerHis] вороватые прихвостни! [Select_CString(messenger.IsFemale, 'Моя', 'Мой' )] [messenger.GetCouncilTitle], запинаясь, докладывает, что эти мордовороты совершенно обнаглели и думают, будто [ROOT.Char.GetCapitalLocation.GetName] для них — бесплатная кормушка. Они заставляют простолюдинов отдавать ценности, которые предназначались мне!\n\n[messenger.GetTitledFirstName] отправляет сборщиков за положенными налогами... но я уже предвижу, как будут плакать вдовы, голодать дети и лишаться крова целые семьи бедняков.\n\nБудь тысячу раз [Select_CString(thieving_rival.IsFemale, 'проклята эта жадная', 'проклят этот жадный' )] [thieving_rival.GetTitledFirstNameNoTooltip]!"
+
+ stewardship_wealth.7001.justification:0 "[thieving_rival.GetSheHe|U] неубедительно заявляет, будто таково [thieving_rival.GetHerHis] право сюзерена, но я-то знаю, что [thieving_rival.GetSheHe] просто крадет то, что принадлежит мне..."
+ stewardship_wealth.7001.unleashed_knights:0 "[thieving_rival.GetSheHe|U] и [thieving_rival.GetHerHis] бандиты, мерзкий сброд, творят все больше бесчинств с каждым днем..."
+
+ stewardship_wealth.7001.a:0 "Я все равно буду получать свое."
+ stewardship_wealth.7001.a.tt:0 "Отправить сборщиков в деревни!"
+ stewardship_wealth.7001.b:0 "От моей личной вражды не должен страдать народ."
+ stewardship_wealth.7001.b.tt:0 "Те, кого [Select_CString(thieving_rival.IsFemale, 'ограбила', 'ограбил' )] [thieving_rival.GetFirstNameNoTooltip], освобождаются от налогов"
+

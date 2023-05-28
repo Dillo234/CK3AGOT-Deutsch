@@ -1,0 +1,85 @@
+﻿l_russian:
+#Shelter from the Storm
+ bp1_yearly.0100.t:0 "Укрытие от бури"
+ bp1_yearly.0100.desc:0 "Небо хмурится, ветер усиливается, и мои слуги опасаются надвигающейся бури. Не самый подходящий день для прогулок на природе!"
+
+ bp1_yearly.0100.sedentary_traveller:0 "\n\nВ этих странных землях преобладают убогие лачуги, грязные и крохотные."
+ bp1_yearly.0100.nomadic_traveller:0 "\n\nНа разбивку лагеря не остается времени, буря обрушится совсем скоро."
+ bp1_yearly.0100.sedentary_host:0 "Нам встретился более-менее приемлемый дом... но в нем уже [Select_CString(host.IsFemale, 'расположилась моя гнусная', 'расположился мой гнусный' )] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('host'))] [host.GetFirstName].\n\nМеня подгоняет надвигающаяся непогода."
+ bp1_yearly.0100.nomadic_host:0 "К счастью, нам встретился подходящий лагерь. К сожалению... его уже заняли представители местного племени и [Select_CString(host.IsFemale, 'моя гнусная', 'мой гнусный' )] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('host'))] [host.GetFirstName].\n\nМеня подгоняет надвигающаяся непогода."
+
+ bp1_yearly.0100.memories:0 "Но я все еще с болью вспоминаю тот случай, когда [rival_memory.GetDescription]."
+
+ bp1_yearly.0100.lover_welcome:0 "Возможно, [host.GetFirstNameNoTooltip] где-то далеко отсюда? Может быть, мне повезет, и меня встретит [host.GetHerHis] [Select_CString(lover.IsFemale, 'соблазнительная', 'соблазнительный' )] [host.Custom2('RelationToMeShort', SCOPE.sC('lover'))] [lover.GetFirstName]?"
+ bp1_yearly.0100.friend_welcome:0 "Возможно, [host.GetFirstNameNoTooltip] где-то далеко отсюда? Может быть мне повезет, и меня встретит [host.GetHerHis] [befriend.Custom('ComplimentAdjective')][Select_CString(befriend.IsFemale, 'ая', 'ый' )] [host.Custom2('RelationToMeShort', SCOPE.sC('befriend'))] [befriend.GetFirstName]?"
+
+ bp1_yearly.0100.close:0 "Так или иначе... ночь будет долгой."
+
+
+
+ bp1_yearly.0100.a:0 "Улыбаемся, парни!"
+ bp1_yearly.0100.a.tt:0 "Нас ждет премерзкое гостеприимство..."
+ bp1_yearly.0100.a_title:0 "Неприятная, параноидальная ночь"
+ bp1_yearly.0100.a.success_chance:0 "Любые [schemes|El], которые ведет против вас [host.GetShortUINameNoTooltip], увеличат [success_chance|El] на 15"
+
+ bp1_yearly.0100.b:0 "Возможно, именно здесь скрываются семейные тайны..."
+ bp1_yearly.0100.b.tt:0 "Вы находите убежище... и пользуетесь случаем узнать что-нибудь полезное"
+ bp1_yearly.0100.b.tt_success:0 "Ночь оказывается плодотворной"
+ bp1_yearly.0100.b.secrets:0 "Теперь вам известна семейная тайна, которую скрывает [host.GetFirstNameNoTooltip]"
+ bp1_yearly.0100.b.tt_failure:0 "Вы не находите скелеты в шкафу"
+ bp1_yearly.0100.b.tt_crit_failure:0 "Вас застукали за поисками"
+
+ bp1_yearly.0100.c:0 "Должны ли я и [befriend.GetFirstNameNoTooltip] враждовать?"
+ bp1_yearly.0100.c.tt:0 "[befriend.GetTitledFirstName] заслуживает поддержки с вашей стороны"
+ bp1_yearly.0100.c.tt_success:0 "Вы и [host.Custom2('RelationToMeShort', SCOPE.sC('befriend'))] вашего врага становитесь ближе"
+ bp1_yearly.0100.c.tt_failure:0 "Ваше очарование не осталось без внимания"
+ bp1_yearly.0100.c.tt_crit_failure:0 "Вы проводите всю ночь в склоках и препирательствах"
+
+ bp1_yearly.0100.d:0 "Ничто не сравнится с тайными свиданиями..."
+ bp1_yearly.0100.d.tt:0 "Возможно, внутри вас ждет [host.GetHerHis] [host.Custom2('RelationToMeShort', SCOPE.sC('lover'))], чтобы охотно избавить вас от одежды..."
+ bp1_yearly.0100.d.tt.success:0 "[lover.GetSheHe|U] ждет вас"
+ bp1_yearly.0100.d.tt.sex:0 "Вы и [lover.GetShortUINameNoTooltip] проводите ночь вместе"
+ bp1_yearly.0100.d.tt_failure:0 "Ночь в одиночестве"
+ bp1_yearly.0100.d.tt_no_sex:0 "Увы, [Select_CString(lover.IsFemale, 'очаровательной', 'очаровательного' )] [lover.GetShortUINameNoTooltip] здесь нет"
+
+ bp1_yearly.0100.e:0 "Наши мечи обеспечат нам пристанище."
+ bp1_yearly.0100.e.tt:0 "Изображать притворную улыбку? Я лучше свяжу местных обитателей"
+ bp1_yearly.0100.e.wounded_chance:0 "Ваша [prowess|El] определяет шанс получить ранение"
+ bp1_yearly.0100.e.tt_success:0 "Под прикрытием бури вас не остановить"
+ bp1_yearly.0100.e.tt_failure:0 "Вас вышвырнули наружу"
+
+ bp1_yearly.0100.f:0 "Дыра в земле и то будет лучше."
+ bp1_yearly.0100.f.tt_success:0 "Вы переживаете непогоду... с трудом"
+ bp1_yearly.0100.f.sick:0 "Вы можете получить [GetTrait('ill').GetName( GetNullCharacter )|l]"
+ bp1_yearly.0100.f.tt_failure:0 "Ночь долгая. Буря свирепая"
+ bp1_yearly.0100.f.very_sick:0 "У вас может развиться [GetTrait('pneumonic').GetName( GetNullCharacter )|l]"
+
+ bp1_yearly.0101.t:0 "Буря в глуши"
+ bp1_yearly.0101.desc:0 "Я шепотом благодарю [ROOT.Char.GetFaith.FertilityGodNamePossessive], что [lover.GetTitledFirstName] в этом скромном месте, пока [lover.GetHerHis] [Select_CString(host.IsFemale, 'мерзкая', 'мерзкий' )] [lover.Custom2('RelationToMeShort', SCOPE.sC('host'))] где-то далеко.\n\nБуря ведет войну с небесами, ее ярость заполняет все вокруг,"
+
+ bp1_yearly.0101.gentle_flirt:0 "а [lover.GetFirstNameNoTooltip] медленно подходит, скрывая дрожь. Что это, страх или просто игра? Несмотря на формальную улыбку, что-то в глубине [lover.GetHerHis] глаз подсказывает мне, что... да."
+ bp1_yearly.0101.protective_flirt:0 "[lover.GetFirstNameNoTooltip] ведет себя уверенно, покровительственно. Я улыбаюсь, благодарно и даже угодливо, и вот уже [lover.GetSheHe] смотрит на меня в немом восторге. [lover.GetSheHe|U] [Select_CString(lover.IsFemale, 'моя', 'мой' )]."
+
+ bp1_yearly.0101.finish:0 "\n\nМы уходим в темный, очень темный угол. И все, что я делаю с [lover.GetHerHis] жадным телом, скрывают звуки бури.\n\nМои губы издают лишь один звук, и с ним [lover.GetHerHis] [lover.Custom2('RelationToMeShort', SCOPE.sC('host'))] получает мое проклятье. И в этот момент моя победа становится окончательной."
+
+ bp1_yearly.0101.a:0 "Но я мечтаю о #EMP тебе#!, [lover.GetFirstNameNoTooltip]!"
+ bp1_yearly.0101.b:0 "Одно восхитительное оскорбление."
+
+ bp1_yearly.0102.opening:0 "[host.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ bp1_yearly.0102.desc:0 "Хорошо ли вам спалось? Наслаждались гостеприимством моих людей,"
+
+ bp1_yearly.0102.desc_weak:0 "давали роздых своим ногам?"
+ bp1_yearly.0102.desc_powerful:0 "мечтали стать мной?"
+
+ bp1_yearly.0102.uneventful_night:0 "\n\nГоворят, вам отлично дается роль неприглядного, назойливого, обмазанного дерьмом попрошайки."
+ bp1_yearly.0102.failed_snoop:0 "\n\nВаши права сюзерена не безграничны. И теперь все знают, что вы их игнорируете."
+ bp1_yearly.0102.warm_welcome:0 "\n\nЖаль, меня здесь не было, чтобы прогнать вас. [befriend.GetTitledFirstName] не умеет выбирать достойную компанию."
+ bp1_yearly.0102.cold_welcome:0 "\n\nТеперь [befriend.GetTitledFirstName] тоже ненавидит вас. И это радует мое сердце."
+ bp1_yearly.0102.erotic_welcome:0 "\n\nБудь я здесь, вас бы вышвырнули прочь сразу, как [Select_CString(lover.IsFemale, 'моя', 'мой' )] [host.Custom2('RelationToMeShort', SCOPE.sC('lover'))] [Select_CString(lover.IsFemale, 'услышала', 'услышал' )] хоть одно слово с вашего змеиного языка."
+ bp1_yearly.0102.attack_success:0 "\n\nВы напали на моих людей, словно напуганный зверь. Напали без чести и соблюдения приличий, как, впрочем, и всегда."
+ bp1_yearly.0102.attack_fail:0 "\n\nНет? Ах да. Вы же #EMP попытались#! напасть на нас, но вас прогнали прочь, словно дикого зверя, коим вы и являетесь. Ваши потуги были убоги."
+
+ bp1_yearly.0102.close:0 "\n\nНадеюсь, следующая буря смоет вас с лица земли."
+
+ bp1_yearly.0102.a:0 "Купи кровати помягче, дубина!"
+ bp1_yearly.0102.b:0 "Не неба вам стоит бояться, [host.GetFirstNameNoTooltip]..."

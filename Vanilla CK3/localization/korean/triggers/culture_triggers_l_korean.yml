@@ -1,0 +1,60 @@
+﻿l_korean:
+
+ HAS_INNOVATION_THIRD:0 "[CULTURE.GetName] 문화가 [INNOVATION.GetName] 혁신을 보유함"
+ NOT_HAS_INNOVATION_THIRD:0 "[CULTURE.GetName] 문화에서 [INNOVATION.GetName] 혁신이 이뤄지지 #bold 않음#!"
+
+ MUST_BE_UNLOCKED_BY_DECISION:0 "결단으로 잠금 해제해야 함"
+
+ HAS_CULTURAL_ERA_OR_LATER:0 "[CULTURE.GetName|U] 문화가 $ERA$ 시대에 도달함"
+ NOT_HAS_CULTURAL_ERA_OR_LATER:0 "[CULTURE.GetName|U] 문화가 $ERA$ 시대에 도달하지 #bold 못함#!"
+
+ DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "[TITLE.GetName](이)가 [TARGET_TITLE.GetName](으)로 규범 권역 이동 중임"
+ NOT_DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "[TITLE.GetName](이)가 [TARGET_TITLE.GetName](으)로 규범 권역 이동 중이지 #bold 않음#!"
+ DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "[TARGET_TITLE.GetName](으)로 규범 권역 이동 중임"
+ NOT_DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "[TARGET_TITLE.GetName](으)로 규범 권역 이동 중이지 #bold 않음#!"
+
+
+ DE_JURE_DRIFT_PROGRESS_TRIGGER:0 "[TITLE.GetName](이)가 [TARGET_TITLE.GetName](으)로 규범 권역 이동 중이며, 진행도가 $OPERATOR$ $VALUE|V0$임"
+
+ YOU_CAN_ONLY_CHANGE_CULTURE_ONCE:0 "평생 딱 한 번만 문화를 전향할 수 있음"
+ KNOWS_LANGUAGE_FIRST:1 "[CULTURE_PILLAR.GetName](을)을 앎"
+ KNOWS_LANGUAGE_FIRST_NOT:1 "[CULTURE_PILLAR.GetName](을)를 #bold 모름#!"
+ KNOWS_LANGUAGE_THIRD:1 "[CHARACTER.GetShortUIName|U](이)가 [CULTURE_PILLAR.GetName](을)를 앎"
+ KNOWS_LANGUAGE_THIRD_NOT:1 "[CHARACTER.GetShortUIName|U](이)가 [CULTURE_PILLAR.GetName](을)를 #bold 모름#!"
+ KNOWS_LANGUAGE_GLOBAL:1 "[CULTURE_PILLAR.GetName](을)을 앎"
+ KNOWS_LANGUAGE_GLOBAL_NOT:1 "[CULTURE_PILLAR.GetName](을)을 #bold 모름#!"
+
+ KNOWS_LANGUAGE_OF_CULTURE_FIRST:1 "[TARGET_CULTURE.GetLanguage.GetName] 언어를 앎"
+ KNOWS_LANGUAGE_OF_CULTURE_FIRST_NOT:1 "[TARGET_CULTURE.GetLanguage.GetName] 언어를 #bold 모름#!"
+ KNOWS_LANGUAGE_OF_CULTURE_THIRD:1 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CULTURE.GetLanguage.GetName] 언어를 앎"
+ KNOWS_LANGUAGE_OF_CULTURE_THIRD_NOT:1 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CULTURE.GetLanguage.GetName] 언어를 #bold 모름#!"
+ KNOWS_LANGUAGE_OF_CULTURE_GLOBAL:1 "[TARGET_CULTURE.GetLanguage.GetName] 언어를 앎"
+ KNOWS_LANGUAGE_OF_CULTURE_GLOBAL_NOT:1 "[TARGET_CULTURE.GetLanguage.GetName] 언어를 #bold 모름#!"
+
+ HAS_CULTURAL_TRADITION_FIRST:2 "[CULTURE.GetName|U] [culture|E]가 [CULTURE_TRADITION.GetName] [tradition|E]을 보유함"
+ HAS_CULTURAL_TRADITION_FIRST_NOT:2 "[CULTURE.GetName|U] [culture|E]가 [CULTURE_TRADITION.GetName] [tradition|E]을 보유하지 않음"
+ HAS_CULTURAL_TRADITION_THIRD:0 "$HAS_CULTURAL_TRADITION_FIRST$"
+ HAS_CULTURAL_TRADITION_THIRD_NOT:0 "$HAS_CULTURAL_TRADITION_FIRST_NOT$"
+
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_COASTAL_WARRIORS_NOT:0 "$tradition_fp1_coastal_warriors_name$ [tradition|E]과 양립할 수 없음"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_NORTHERN_STORIES_NOT:0 "$tradition_fp1_northern_stories_name$ [tradition|E]과 양립할 수 없음"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_TRIALS_BY_COMBAT_NOT:0 "$tradition_fp1_trials_by_combat_name$ [tradition|E]과 양립할 수 없음"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_THE_RIGHT_TO_PROVE_NOT:0 "$tradition_fp1_the_right_to_prove_name$ [tradition|E]과 양립할 수 없음"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_RUNESTONES_NOT:0 "$tradition_runestones_name$ [tradition|E]과 양립할 수 없음"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_PERFORMATIVE_HONOUR_NOT:0 "$tradition_fp1_performative_honour_name$ [tradition|E]과 양립할 수 없음"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_WARRIOR_CULTURE_NOT:0 "$tradition_warrior_culture_name$ [tradition|E]과 양립할 수 없음"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_SEAFARING_NOT:0 "$tradition_seafaring_name$ [tradition|E]과 양립할 수 없음"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_POETRY_NOT:0 "$tradition_poetry_name$ [tradition|E]과 양립할 수 없음"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_STORYTELLERS_NOT:0 "$tradition_storytellers_name$ [tradition|E]과 양립할 수 없음"
+ any_ancestor_culture_was_mystical:1 "최소한 한 개의 선조 문화가 $tradition_mystical_ancestors_name$ [tradition|E]을 보유해야 합니다."
+ mystical_ancestors_disinherit:0 "문화가 $tradition_mystical_ancestors_name$ [tradition|E]을 보유하고 있지 않습니다."
+
+ HAS_CULTURAL_PILLAR_FIRST:1 "[CULTURE.GetName|U] [culture|E]가 [CULTURE_PILLAR.GetName] [culture_pillar|E]를 보유함"
+ HAS_CULTURAL_PILLAR_FIRST_NOT:1 "[CULTURE.GetName|U] [culture|E]가 [CULTURE_PILLAR.GetName] [culture_pillar|E]를 보유하지 않음"
+ HAS_CULTURAL_PILLAR_THIRD:0 "$HAS_CULTURAL_PILLAR_FIRST$"
+ HAS_CULTURAL_PILLAR_THIRD_NOT:0 "$HAS_CULTURAL_PILLAR_FIRST_NOT$"
+
+ HAS_CULTURAL_PARAMETER_FIRST:0 "[CULTURE.GetName|U](이)가 필요한 [tradition|E]을 보유함 (#TODO_CD_EP1)"
+ HAS_CULTURAL_PARAMETER_FIRST_NOT:0 "[CULTURE.GetName|U](이)가 필요한 [tradition|E]을 보유하지 않음 (#TODO_CD_EP1)"
+ HAS_CULTURAL_PARAMETER_THIRD:0 "$HAS_CULTURAL_PARAMETER_FIRST$"
+ HAS_CULTURAL_PARAMETER_THIRD_NOT:0 "$HAS_CULTURAL_PARAMETER_FIRST_NOT$"

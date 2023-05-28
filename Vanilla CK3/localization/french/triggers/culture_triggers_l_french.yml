@@ -1,0 +1,60 @@
+﻿l_french:
+
+ HAS_INNOVATION_THIRD:0 "La culture [CULTURE.GetName] a l’innovation « [INNOVATION.GetName] »"
+ NOT_HAS_INNOVATION_THIRD:0 "La culture [CULTURE.GetName] n’a pas l’innovation « [INNOVATION.GetName] »"
+
+ MUST_BE_UNLOCKED_BY_DECISION:0 "Doit être débloquée par décision"
+
+ HAS_CULTURAL_ERA_OR_LATER:0 "La culture [CULTURE.GetName] a atteint l’ère $ERA$"
+ NOT_HAS_CULTURAL_ERA_OR_LATER:0 "La culture [CULTURE.GetName] n’a pas atteint l’ère $ERA$"
+
+ DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "Le [TITLE.GetName] glisse de jure vers le [TARGET_TITLE.GetName]"
+ NOT_DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "Le [TITLE.GetName] ne glisse pas de jure vers le [TARGET_TITLE.GetName]"
+ DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "Glisse de jure vers le [TARGET_TITLE.GetName]"
+ NOT_DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "Ne glisse pas de jure vers le [TARGET_TITLE.GetName]"
+
+
+ DE_JURE_DRIFT_PROGRESS_TRIGGER:0 "Le glissement de jure du [TITLE.GetName] vers le [TARGET_TITLE.GetName] est $OPERATOR$ $VALUE|V0$"
+
+ YOU_CAN_ONLY_CHANGE_CULTURE_ONCE:0 "Vous ne pouvez pas changer volontairement de culture plus d’une fois au cours d’une vie"
+ KNOWS_LANGUAGE_FIRST:1 "Vous parlez la langue [CULTURE_PILLAR.GetName|l]"
+ KNOWS_LANGUAGE_FIRST_NOT:1 "Vous ne parlez pas la langue [CULTURE_PILLAR.GetName|l]"
+ KNOWS_LANGUAGE_THIRD:1 "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] parle la langue [CULTURE_PILLAR.GetName|l]"
+ KNOWS_LANGUAGE_THIRD_NOT:1 "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] ne parle pas la langue [CULTURE_PILLAR.GetName|l]"
+ KNOWS_LANGUAGE_GLOBAL:1 "Parle la langue [CULTURE_PILLAR.GetName|l]"
+ KNOWS_LANGUAGE_GLOBAL_NOT:1 "Ne parle pas la langue [CULTURE_PILLAR.GetName|l]"
+
+ KNOWS_LANGUAGE_OF_CULTURE_FIRST:1 "Vous parlez la langue [TARGET_CULTURE.GetLanguage.GetName|l]"
+ KNOWS_LANGUAGE_OF_CULTURE_FIRST_NOT:1 "Vous ne parlez pas la langue [TARGET_CULTURE.GetLanguage.GetName|l]"
+ KNOWS_LANGUAGE_OF_CULTURE_THIRD:1 "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] parle la langue [TARGET_CULTURE.GetLanguage.GetName|l]"
+ KNOWS_LANGUAGE_OF_CULTURE_THIRD_NOT:1 "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] ne parle pas la langue [TARGET_CULTURE.GetLanguage.GetName|l]"
+ KNOWS_LANGUAGE_OF_CULTURE_GLOBAL:1 "Parle la langue [TARGET_CULTURE.GetLanguage.GetName|l]"
+ KNOWS_LANGUAGE_OF_CULTURE_GLOBAL_NOT:1 "Ne parle pas la langue [TARGET_CULTURE.GetLanguage.GetName|l]"
+
+ HAS_CULTURAL_TRADITION_FIRST:2 "La [culture|El] [CULTURE.GetName] a la [tradition|El] [CULTURE_TRADITION.GetName]"
+ HAS_CULTURAL_TRADITION_FIRST_NOT:2 "La [culture|El] [CULTURE.GetName] n’a pas la [tradition|El] [CULTURE_TRADITION.GetName]"
+ HAS_CULTURAL_TRADITION_THIRD:0 "$HAS_CULTURAL_TRADITION_FIRST$"
+ HAS_CULTURAL_TRADITION_THIRD_NOT:0 "$HAS_CULTURAL_TRADITION_FIRST_NOT$"
+
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_COASTAL_WARRIORS_NOT:0 "Incompatible avec la [tradition|El] $tradition_fp1_coastal_warriors_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_NORTHERN_STORIES_NOT:0 "Incompatible avec la [tradition|El] $tradition_fp1_northern_stories_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_TRIALS_BY_COMBAT_NOT:0 "Incompatible avec la [tradition|El] $tradition_fp1_trials_by_combat_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_THE_RIGHT_TO_PROVE_NOT:0 "Incompatible avec la [tradition|El] $tradition_fp1_the_right_to_prove_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_RUNESTONES_NOT:0 "Incompatible avec la [tradition|El] $tradition_runestones_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_PERFORMATIVE_HONOUR_NOT:0 "Incompatible avec la [tradition|El] $tradition_fp1_performative_honour_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_WARRIOR_CULTURE_NOT:0 "Incompatible avec la [tradition|El] $tradition_warrior_culture_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_SEAFARING_NOT:0 "Incompatible avec la [tradition|El] $tradition_seafaring_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_POETRY_NOT:0 "Incompatible avec la [tradition|El] $tradition_poetry_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_STORYTELLERS_NOT:0 "Incompatible avec la [tradition|El] $tradition_storytellers_name$"
+ any_ancestor_culture_was_mystical:1 "Au moins une culture ancestrale doit avoir la [tradition|El] $tradition_mystical_ancestors_name$."
+ mystical_ancestors_disinherit:0 "La culture n’a pas la [tradition|El] $tradition_mystical_ancestors_name$."
+
+ HAS_CULTURAL_PILLAR_FIRST:1 "La [culture|El] [CULTURE.GetName] a le [culture_pillar|El] [CULTURE_PILLAR.GetName]"
+ HAS_CULTURAL_PILLAR_FIRST_NOT:1 "La [culture|El] [CULTURE.GetName] n’a pas le [culture_pillar|El] [CULTURE_PILLAR.GetName]"
+ HAS_CULTURAL_PILLAR_THIRD:0 "$HAS_CULTURAL_PILLAR_FIRST$"
+ HAS_CULTURAL_PILLAR_THIRD_NOT:0 "$HAS_CULTURAL_PILLAR_FIRST_NOT$"
+
+ HAS_CULTURAL_PARAMETER_FIRST:0 "La culture [CULTURE.GetName] a la [tradition|El] nécessaire"
+ HAS_CULTURAL_PARAMETER_FIRST_NOT:0 "La culture [CULTURE.GetName] n’a pas la [tradition|El] nécessaire"
+ HAS_CULTURAL_PARAMETER_THIRD:0 "$HAS_CULTURAL_PARAMETER_FIRST$"
+ HAS_CULTURAL_PARAMETER_THIRD_NOT:0 "$HAS_CULTURAL_PARAMETER_FIRST_NOT$"

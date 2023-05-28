@@ -1,0 +1,60 @@
+﻿l_russian:
+
+ HAS_INNOVATION_THIRD:0 "#L [CULTURE.GetCollectiveNoun]ой#! культуре знакома инновация [INNOVATION.GetName]"
+ NOT_HAS_INNOVATION_THIRD:0 "#L [CULTURE.GetCollectiveNoun]ая#! культура #bold не#! знакома с инновацией [INNOVATION.GetName]"
+
+ MUST_BE_UNLOCKED_BY_DECISION:0 "Необходимо разблокировать решением"
+
+ HAS_CULTURAL_ERA_OR_LATER:0 "#L [CULTURE.GetCollectiveNoun|U]ая#! культура достигла эпохи $ERA$"
+ NOT_HAS_CULTURAL_ERA_OR_LATER:0 "#L [CULTURE.GetCollectiveNoun|U]ая#! культура #bold не#! достигла эпохи $ERA$"
+
+ DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "[TITLE.GetName] меняет де-юре статус в пользу титула [TARGET_TITLE.GetName]"
+ NOT_DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "[TITLE.GetName] #bold не#! меняет де-юре статус в пользу титула [TARGET_TITLE.GetName]"
+ DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "Меняет де-юре статус в пользу титула [TARGET_TITLE.GetName]"
+ NOT_DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "#bold Не#! меняет де-юре статус в пользу титула [TARGET_TITLE.GetName]"
+
+
+ DE_JURE_DRIFT_PROGRESS_TRIGGER:0 "Прогресс изменения де-юре статуса титула [TITLE.GetName] в пользу титула [TARGET_TITLE.GetName] $OPERATOR$ $VALUE|V0$"
+
+ YOU_CAN_ONLY_CHANGE_CULTURE_ONCE:0 "Вы можете сменить культуру по собственному желанию только один раз в жизни"
+ KNOWS_LANGUAGE_FIRST:1 "Я знаю [CULTURE_PILLAR.GetName|l]ий язык"
+ KNOWS_LANGUAGE_FIRST_NOT:1 "Я #bold не#! знаю [CULTURE_PILLAR.GetName|l]ий язык"
+ KNOWS_LANGUAGE_THIRD:1 "[CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsPlayer, ' персонаж', '' )] знает [CULTURE_PILLAR.GetName|l]ий язык"
+ KNOWS_LANGUAGE_THIRD_NOT:1 "[CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsPlayer, ' персонаж', '' )] #bold не#! знает [CULTURE_PILLAR.GetName|l]ий язык"
+ KNOWS_LANGUAGE_GLOBAL:1 "Знает [CULTURE_PILLAR.GetName|l]ий язык"
+ KNOWS_LANGUAGE_GLOBAL_NOT:1 "#bold Не#! знает [CULTURE_PILLAR.GetName|l]ий язык"
+
+ KNOWS_LANGUAGE_OF_CULTURE_FIRST:1 "Я знаю [TARGET_CULTURE.GetLanguage.GetName|l] язык"
+ KNOWS_LANGUAGE_OF_CULTURE_FIRST_NOT:1 "Я #bold не#! знаю [TARGET_CULTURE.GetLanguage.GetName|l] язык"
+ KNOWS_LANGUAGE_OF_CULTURE_THIRD:1 "[CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsPlayer, ' персонаж', '' )] знает [TARGET_CULTURE.GetLanguage.GetName|l] язык"
+ KNOWS_LANGUAGE_OF_CULTURE_THIRD_NOT:1 "[CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsPlayer, ' персонаж', '' )] #bold не#! знает [TARGET_CULTURE.GetLanguage.GetName|l] язык"
+ KNOWS_LANGUAGE_OF_CULTURE_GLOBAL:1 "Знает [TARGET_CULTURE.GetLanguage.GetName|l] язык"
+ KNOWS_LANGUAGE_OF_CULTURE_GLOBAL_NOT:1 "#bold Не#! знает [TARGET_CULTURE.GetLanguage.GetName|l] язык"
+
+ HAS_CULTURAL_TRADITION_FIRST:2 "[CULTURE.GetCollectiveNoun|U]ая [culture|El] имеет [Concept( 'tradition', 'традицию' )|E] «[CULTURE_TRADITION.GetName]»"
+ HAS_CULTURAL_TRADITION_FIRST_NOT:2 "[CULTURE.GetCollectiveNoun|U]ая [culture|El] не имеет [Concept( 'tradition', 'традиции' )|E] «[CULTURE_TRADITION.GetName]»"
+ HAS_CULTURAL_TRADITION_THIRD:0 "$HAS_CULTURAL_TRADITION_FIRST$"
+ HAS_CULTURAL_TRADITION_THIRD_NOT:0 "$HAS_CULTURAL_TRADITION_FIRST_NOT$"
+
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_COASTAL_WARRIORS_NOT:0 "Несовместимо с [Concept( 'tradition', 'традицией' )|E] $tradition_fp1_coastal_warriors_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_NORTHERN_STORIES_NOT:0 "Несовместимо с [Concept( 'tradition', 'традицией' )|E] $tradition_fp1_northern_stories_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_TRIALS_BY_COMBAT_NOT:0 "Несовместимо с [Concept( 'tradition', 'традицией' )|E] $tradition_fp1_trials_by_combat_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_THE_RIGHT_TO_PROVE_NOT:0 "Несовместимо с [Concept( 'tradition', 'традицией' )|E] $tradition_fp1_the_right_to_prove_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_RUNESTONES_NOT:0 "Несовместимо с [Concept( 'tradition', 'традицией' )|E] $tradition_runestones_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_PERFORMATIVE_HONOUR_NOT:0 "Несовместимо с [Concept( 'tradition', 'традицией' )|E] $tradition_fp1_performative_honour_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_WARRIOR_CULTURE_NOT:0 "Несовместимо с [Concept( 'tradition', 'традицией' )|E] $tradition_warrior_culture_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_SEAFARING_NOT:0 "Несовместимо с [Concept( 'tradition', 'традицией' )|E] $tradition_seafaring_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_POETRY_NOT:0 "Несовместимо с [Concept( 'tradition', 'традицией' )|E] $tradition_poetry_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_STORYTELLERS_NOT:0 "Несовместимо с [Concept( 'tradition', 'традицией' )|E] $tradition_storytellers_name$"
+ any_ancestor_culture_was_mystical:1 "Хотя бы одна из родительских культур должна обладать [Concept( 'tradition', 'традицией' )|E] $tradition_mystical_ancestors_name$"
+ mystical_ancestors_disinherit:0 "Не имеет [traditions|El] «$tradition_mystical_ancestors_name$»"
+
+ HAS_CULTURAL_PILLAR_FIRST:1 "[CULTURE.GetCollectiveNoun|U]ая [culture|El] имеет [Concept( 'culture_pillar', 'столп' )|E] «[CULTURE_PILLAR.GetName]»"
+ HAS_CULTURAL_PILLAR_FIRST_NOT:1 "[CULTURE.GetCollectiveNoun|U]ая [culture|El] не имеет [Concept( 'culture_pillar', 'столпа' )|E] «[CULTURE_PILLAR.GetName]»"
+ HAS_CULTURAL_PILLAR_THIRD:0 "$HAS_CULTURAL_PILLAR_FIRST$"
+ HAS_CULTURAL_PILLAR_THIRD_NOT:0 "$HAS_CULTURAL_PILLAR_FIRST_NOT$"
+
+ HAS_CULTURAL_PARAMETER_FIRST:0 "#L [CULTURE.GetCollectiveNoun|U]ая#! культура обладает необходимой [Concept( 'tradition', 'традицией' )|E] (#TODO_CD_EP1)"
+ HAS_CULTURAL_PARAMETER_FIRST_NOT:0 "#L [CULTURE.GetCollectiveNoun|U]ая#! культура не обладает необходимой [Concept( 'tradition', 'традицией' )|E] (#TODO_CD_EP1)"
+ HAS_CULTURAL_PARAMETER_THIRD:0 "$HAS_CULTURAL_PARAMETER_FIRST$"
+ HAS_CULTURAL_PARAMETER_THIRD_NOT:0 "$HAS_CULTURAL_PARAMETER_FIRST_NOT$"

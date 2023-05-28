@@ -1,0 +1,919 @@
+﻿l_simp_chinese:
+ PORTRAIT_MODIFIER_DEFAULT:0 "默认"
+ PORTRAIT_MODIFIER_capes:0 "披肩"
+ PORTRAIT_MODIFIER_custom_clothes:0 "服装"
+ PORTRAIT_MODIFIER_headgear:1 "冠冕"
+ PORTRAIT_MODIFIER_custom_headgear:0 "头饰"
+ PORTRAIT_MODIFIER_props:0 "道具"
+ PORTRAIT_MODIFIER_custom_special:0 "面部物品"
+ 
+ # PORTRAIT_MODIFIER_clothes_western_commoners: "Western commoner"
+ # PORTRAIT_MODIFIER_clothes_western_low_nobles: "Western low noble"
+ # PORTRAIT_MODIFIER_clothes_western_high_nobles: "Western high noble"
+ # PORTRAIT_MODIFIER_clothes_western_imperial: "Western emperor"
+ # PORTRAIT_MODIFIER_clothes_western_royalty: "Western royalty"
+ # PORTRAIT_MODIFIER_clothes_abrahamic_monk: "Abrahamic monk"
+ # PORTRAIT_MODIFIER_clothes_bishop: "Bishop"
+
+#########################################
+################ Clothes ################
+#########################################
+
+ PORTRAIT_MODIFIER_custom_clothes_no_clothes:0 "无服装"
+
+###############
+### Western ###
+###############
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_01_common:0 "西欧平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_02_common:0 "西欧平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_03_common:1 "西欧平民着装 3"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_01_common:0 "西欧平民着装 4"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_01_low:0 "西欧低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_02_low:0 "西欧低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_03_low:1 "西欧低等贵族着装 3"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_01_low:0 "西欧低等贵族着装 4"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_01_high:0 "西欧高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_02_high:0 "西欧高等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_03_high:1 "西欧高等贵族着装 3"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_01_high:0 "西欧高等贵族着装 4"
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_war_nobility_01_low:0 "西欧铠甲"
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_bedchamber_01_common:0 "睡衣"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_prison_01_common:0 "囚服"
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_01_common:0 "圣殿骑士"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_02_common:0 "医院骑士"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_03_common:0 "圣墓兄弟会骑士"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_04_common:0 "十字军战士"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_crusades_western_war_nobility_01:0 "十字军战士"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_crusades_western_war_nobility_01:0 "十字军战士"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_01_common:0 "西欧平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_02_common:0 "西欧平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_03_common:1 "西欧平民着装 3"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_01_common:0 "西欧平民着装 4"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_01_low:0 "西欧低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_02_low:0 "西欧低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_03_low:1 "西欧低等贵族着装 3"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_01_low:0 "西欧低等贵族着装 4"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_01_high:0 "西欧高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_02_high:0 "西欧高等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_03_high:1 "西欧高等贵族着装 3"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_01_high:0 "西欧高等贵族着装 4"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_war_nobility_01_low:0 "西欧铠甲"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_situational_western_bedchamber_01_common:0 "睡衣"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_situational_western_prison_01_common:0 "囚服"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_crusades_western_war_nobility_01_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_01_common$"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_crusades_western_war_nobility_02_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_02_common$"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_crusades_western_war_nobility_03_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_03_common$"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_crusades_western_war_nobility_04_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_04_common$"
+
+################
+### Northern ###
+################
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_nobility_01_common:0 "北欧平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_nobility_02_common:0 "北欧平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_nobility_01_low:0 "北欧低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_nobility_02_low:0 "北欧低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_nobility_01_high:0 "北欧高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_nobility_02_high:0 "北欧高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_nobility_01_common:0 "北欧铠甲"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_nobility_01_common:0 "北欧平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_nobility_02_common:0 "北欧平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_nobility_01_low:0 "北欧低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_nobility_02_low:0 "北欧低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_nobility_01_high:0 "北欧高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_nobility_02_high:0 "北欧高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_war_nobility_01_common:0 "北欧铠甲"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_war_nobility_01:0 "北欧铠甲"
+
+###############
+### Byzantine ###
+###############
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_nobility_01_common:0 "拜占庭平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_nobility_02_common:0 "拜占庭平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_nobility_01_low:0 "拜占庭低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_nobility_02_low:0 "拜占庭低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_nobility_01_high:0 "拜占庭高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_nobility_02_high:0 "拜占庭高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_war_nobility_01_low:0 "拜占庭铠甲"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_byzantine_nobility_01_common:0 "拜占庭平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_byzantine_nobility_02_common:0 "拜占庭平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_byzantine_nobility_01_low:0 "拜占庭低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_byzantine_nobility_02_low:0 "拜占庭低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_byzantine_nobility_01_high:0 "拜占庭高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_byzantine_nobility_02_high:0 "拜占庭高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_byzantine_war_nobility_01_low:0 "拜占庭铠甲"
+
+###############
+### MENA ###
+###############
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_nobility_01_common:0 "阿拉伯平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_nobility_02_common:0 "阿拉伯平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_01_common:0 "阿拉伯平民着装 3"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_nobility_01_low:0 "阿拉伯低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_nobility_02_low:0 "阿拉伯低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_01_low:0 "阿拉伯低等贵族着装 3"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_nobility_01_high:0 "阿拉伯高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_nobility_02_high:0 "阿拉伯高等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_01_high:0 "阿拉伯高等贵族着装 3"
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_war_nobility_01_low:0 "阿拉伯铠甲"
+
+ #PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_mena_bedchamber_01_common: "Arabic Bedchamber Clothing 1"
+ #PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_mena_prison_01_common: "Arabic Prisoner Clothing 1"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_nobility_01_common:0 "阿拉伯平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_nobility_02_common:0 "阿拉伯平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_01_common:0 "阿拉伯平民着装 3"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_nobility_01_low:0 "阿拉伯低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_nobility_02_low:0 "阿拉伯低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_01_low:0 "阿拉伯低等贵族着装 3"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_nobility_01_high:0 "阿拉伯高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_nobility_02_high:0 "阿拉伯高等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_01_high:0 "阿拉伯高等贵族着装 3"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_war_nobility_01_low:0 "阿拉伯铠甲"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_war_nobility_01:0 "阿拉伯铠甲"
+
+
+###############
+### Steppe ###
+###############
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_steppe_nobility_01_common:0 "草原平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_steppe_nobility_02_common:0 "草原平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_steppe_nobility_01_low:0 "草原低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_steppe_nobility_02_low:0 "草原低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_steppe_nobility_01_high:0 "草原高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_steppe_nobility_02_high:0 "草原高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_steppe_war_nobility_01_low:0 "草原铠甲"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_steppe_nobility_01_common:0 "草原平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_steppe_nobility_02_common:0 "草原平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_steppe_nobility_01_low:0 "草原低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_steppe_nobility_02_low:0 "草原低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_steppe_nobility_01_high:0 "草原高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_steppe_nobility_02_high:0 "草原高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_steppe_war_nobility_01_low:0 "草原铠甲"
+
+
+###############
+### Indian ###
+###############
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_indian_nobility_01_common:0 "印度平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_indian_nobility_02_common:0 "印度平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_indian_nobility_01_low:0 "印度低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_indian_nobility_02_low:0 "印度低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_indian_nobility_01_high:0 "印度高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_indian_nobility_02_high:0 "印度高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_indian_war_nobility_01_low:0 "印度铠甲"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_nobility_01_common:0 "印度平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_nobility_02_common:0 "印度平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_nobility_01_low:0 "印度低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_nobility_02_low:0 "印度低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_nobility_01_high:0 "印度高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_nobility_02_high:0 "印度高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_war_nobility_01_low:0 "印度铠甲"
+
+
+###################
+### Sub-Saharan ###
+###################
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_sub_saharan_nobility_01_common:0 "非洲平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_sub_saharan_nobility_02_common:0 "非洲平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_sub_saharan_nobility_01_low:0 "非洲低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_sub_saharan_nobility_02_low:0 "非洲低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_sub_saharan_nobility_01_high:0 "非洲高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_sub_saharan_nobility_02_high:0 "非洲高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_sub_saharan_war_nobility_01_low:0 "非洲铠甲"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_sub_saharan_nobility_01_common:0 "非洲平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_sub_saharan_nobility_02_common:0 "非洲平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_sub_saharan_nobility_01_low:0 "非洲低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_sub_saharan_nobility_02_low:0 "非洲低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_sub_saharan_nobility_01_high:0 "非洲高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_sub_saharan_nobility_02_high:0 "非洲高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_sub_saharan_war_nobility_01_low:0 "非洲铠甲"
+
+
+###################
+##### DDE HRE #####
+###################
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_02_common:0 "神圣罗马帝国平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_03_common:0 "神圣罗马帝国平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_02_low:0 "神圣罗马帝国低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_03_low:0 "神圣罗马帝国低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_02_high:0 "神圣罗马帝国高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_03_high:0 "神圣罗马帝国高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_war_nobility_01_low:0 "神圣罗马帝国铠甲"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_02_common:0 "神圣罗马帝国平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_03_common:0 "神圣罗马帝国平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_02_low:0 "神圣罗马帝国低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_03_low:0 "神圣罗马帝国低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_02_high:0 "神圣罗马帝国高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_03_high:0 "神圣罗马帝国高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_war_nobility_01_low:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_war_nobility_01_low$"
+
+
+###################
+### DDE Abbasid ###
+###################
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_02_common:0 "阿拔斯平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_03_common:0 "阿拔斯平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_02_low:0 "阿拔斯低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_03_low:0 "阿拔斯低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_02_high:0 "阿拔斯高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_03_high:0 "阿拔斯高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_war_nobility_01_low:0 "阿拔斯铠甲"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_02_common:0 "阿拔斯平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_03_common:0 "阿拔斯平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_02_low:0 "阿拔斯低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_03_low:0 "阿拔斯低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_02_high:0 "阿拔斯高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_03_high:0 "阿拔斯高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_war_nobility_01_low:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_war_nobility_01_low$"
+
+
+###########
+### FP1 ###
+###########
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_common_01:0 "北境群雄平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_common_02:0 "北境群雄平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_nobility_01_low:0 "北境群雄低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_nobility_02_low:0 "北境群雄低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_nobility_01_high:0 "北境群雄高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_nobility_02_high:0 "北境群雄高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_war_nobility_01:0 "北境群雄铠甲"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp1_common_01:0 "北境群雄平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp1_common_02:0 "北境群雄平民着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp1_nobility_01_low:0 "北境群雄低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp1_nobility_02_low:0 "北境群雄低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp1_nobility_01_high:0 "北境群雄高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp1_nobility_02_high:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_nobility_02_high$"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp1_war_nobility_01:0 "北境群雄铠甲"
+
+
+############################
+### FP2 - Fate of Iberia ###
+############################
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_common_01:1 "伊比利亚基督徒平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_common_01:1 "伊比利亚穆斯林平民着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_01_low:0 "伊比利亚基督徒低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_01_high:0 "伊比利亚基督徒高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_01_low:0 "伊比利亚穆斯林低等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_01_high:0 "伊比利亚穆斯林高等贵族着装 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_02_low:0 "伊比利亚基督徒低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_02_high:0 "伊比利亚基督徒高等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_02_low:0 "伊比利亚穆斯林低等贵族着装 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_02_high:0 "伊比利亚穆斯林高等贵族着装 2"
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_war_nobility_01:0 "伊比利亚穆斯林铠甲"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_war_nobility_01:0 "伊比利亚基督徒铠甲"
+
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_common_01:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_common_01$"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_muslim_common_01:1 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_common_01$"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_nobility_01_low:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_01_low$"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_nobility_01_high:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_01_high$"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_muslim_nobility_01_low:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_01_low$"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_muslim_nobility_01_high:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_01_high$"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_nobility_02_low:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_02_low$"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_nobility_02_high:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_02_high$"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_muslim_nobility_02_low:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_02_low$"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_muslim_nobility_02_high:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_02_high$"
+
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_muslim_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_war_nobility_01$"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_war_nobility_01$"
+
+
+####################################
+### SP2 - Elegance of the Empire ###
+####################################
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_sp2_western_imp_01:0 "皇帝束腰外服"
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_sp2_western_imp_01:0 "皇后礼服"
+
+
+##########################################
+################ Headgear ################
+##########################################
+
+
+###############
+### Western ###
+###############
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_no_headgear:1 "无头饰"
+ PORTRAIT_MODIFIER_custom_headgear_male_empty:0 "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
+ PORTRAIT_MODIFIER_custom_headgear_boy_empty:0 "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_common_01:0 "便帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_common_02:0 "兜帽"
+ # PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_nobility_01:0 "Noble Hood"
+ # PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_nobility_02:0 "Grand Cap"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_common_02:0 "贵族便帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_high_nobility_01:0 "头环"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_royalty_01:0 "百合花冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_royalty_02:0 "叶冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_royalty_03:0 "普沃茨克王冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_imperial_01:1 "帝国皇冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_imperial_01:0 "帝国冠冕"
+
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_nobility_01:0 "锁子甲头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_nobility_01$"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_female_empty:0 "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
+ PORTRAIT_MODIFIER_custom_headgear_girl_empty:0 "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_nobility_01:0 "修女式头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_nobility_01_2:0 "头巾与头布"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_nobility_02:0 "环绕式头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_nobility_03:0 "金边头巾与头布"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_common_02:0 "带面纱的头带和遮巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_high_nobility_01$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_royalty_01$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_royalty_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_royalty_02$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_royalty_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_royalty_03$"
+
+
+###############
+### Northern ###
+###############
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_common_01:0 "皮草镶边帽"
+
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nobility_01:1 "鼻盔"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nobility_01$"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_common_01:0 "裹头巾"
+
+
+###############
+### Byzantine ###
+###############
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_common_01:0 "弗里吉亚帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_nobility_01:0 "皮草镶边珠宝帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_high_nobility_01:0 "拜占庭头环"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_royalty_01:0 "康斯坦斯之冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_imperial_01:0 "拜占庭帝冠"
+
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_nobility_01:0 "拜占庭头盔"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_nobility_01$"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_common_01:0 "方头巾与头环"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_nobility_01:0 "皮草镶边珠宝帽"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_high_nobility_01:0 "珠宝头饰"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_royalty_01:0 "康斯坦斯之冠"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_imperial_01:0 "拜占庭帝冠"
+
+
+############
+### MENA ###
+############
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_common_01:0 "简易头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_common_02:0 "贝都因裹头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_nobility_01:0 "宽头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_high_nobility_01:0 "贵族头巾带刺绣"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_royalty_01:2 "宝石头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_imperial_01:0 "大头巾"
+
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_war_nobility_01:0 "阿拉伯头盔"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_crusades_mena_war_nobility_01:0 "锥形头盔及锁子甲护颈"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_war_nobility_01$"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_common_01:0 "方头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_common_02:0 "头巾及拧结头箍"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_common_01:0 "大方头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_nobility_01:0 "王家头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_royalty_01:0 "烫金方头巾附带修女式头巾"
+
+
+############
+### Steppe ###
+############
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_steppe_common_01:0 "衬毛皮帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_steppe_nobility_01:0 "锥形帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_steppe_royalty_01:0 "莲花冠"
+
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_steppe_war_nobility_01:0 "草原头盔"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_steppe_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_steppe_war_nobility_01$"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_steppe_common_01:0 "衬毛便帽"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_steppe_high_nobility_01:0 "姑姑冠"
+
+
+##############
+### Indian ###
+##############
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_high_nobility_01:0 "贵族头巾帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_royalty_01:0 "头巾帽附带头冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_imperial_01:0 "华丽皇冠"
+
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_war_nobility_01:0 "印度头盔"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_indian_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_war_nobility_01$"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_indian_common_01:0 "简易双缦"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_indian_nobility_02:0 "纹饰双缦"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_indian_royalty_01:0 "金头冠"
+
+
+###################
+### Sub Saharan ###
+###################
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_common_01:0 "头巾附带裹头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_high_nobility_01:0 "纹饰头巾附带裹头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_royalty_01:0 "王冠附带头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_01:0 "帝冠附带裹头巾"
+
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_sub_saharan_common_01:0 "高非洲头巾"
+
+
+###################
+##### DDE HRE #####
+###################
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_common_01:0 "无边便帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_high_nobility_02:0 "珍珠头环"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_royalty_02:0 "镶嵌宝石的冠冕"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_nobility_01:0 "日耳曼锥形头盔"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_common_01:0 "带发网的头带和遮巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_high_nobility_02$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_royalty_01:0 "点饰宝石王冠"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_nobility_01$"
+
+###################
+### DDE Abbasid ###
+###################
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_common_01:0 "谢赫裹头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_high_nobility_01:0 "埃米尔头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_royalty_01:0 "苏丹头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_imperial_01:0 "哈里发头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_war_nobility_01:0 "锥形头盔及护甲和披肩"
+
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_common_02:0 "谢哈裹头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_high_nobility_01:0 "埃米拉头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_royalty_01:0 "苏丹娜烫金裹头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_war_nobility_01$"
+ 
+###########
+### FP1 ###
+###########
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_common_01:0 "维京便帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_common_02:0 "暖帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_common_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_common_02$"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_nobility_01:0 "雅尔便帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_war_nobility_01:0 "鎏金耶蒙比头盔及锁子甲"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_war_nobility_02:0 "刻符耶蒙比头盔"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_royalty_01:0 "诺斯冠冕"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_imperial_01:0 "诺斯皇冠"
+
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_common_01:0 "诺斯方头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_common_02:0 "水手头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_nobility_01:0 "诺斯衬毛便帽"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_nobility_02:0 "女酋长裹头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_nobility_03:0 "商人头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_war_nobility_01$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_war_nobility_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_war_nobility_02$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_royalty_01:0 "诺斯头环"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_imperial_01:0 "瓦兰吉皇冠"
+
+###########
+### FP2 ###
+###########
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_common_01:1 "平民阔边帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_common_01_low:0 "库菲叶方头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_common_01_high:0 "贵族库菲叶方头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_nobility_01_low:0 "刺绣贴头帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_nobility_01_high:0 "丝织刺绣贴头帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_nobility_01:1 "安达卢西亚廷臣头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_high_nobility_01_low:0 "平民小帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_high_nobility_01_high:0 "贵族小帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_high_nobility_01:1 "摩尔人头巾附带红毡帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_royalty_01:1 "桑乔四世王冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_royalty_01:1 "赛义德冠冕"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_war_nobility_01:1 "无檐帽盔"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_war_nobility_01:1 "安达卢西亚饰盔"
+
+### Female ###
+ 
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_common_01:1 "楔形头饰"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_common_01:1 "安达卢西亚方头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_nobility_01_low:0 "带褶饰的头带"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_nobility_01_high:0 "带褶饰的贵族头带"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_nobility_01:1 "带宝石头箍的方头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_high_nobility_01:1 "高褶头饰"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_high_nobility_01_low:0 "带利萨姆面纱的安达卢西亚方头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_high_nobility_01_high:0 "带利萨姆面纱的安达卢西亚贵族方头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_royalty_01:1 "唐娜之冠"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_royalty_01:1 "赛义达王冠"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_war_nobility_01:1 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_war_nobility_01$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_war_nobility_01:1 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_war_nobility_01$"
+
+
+####################################
+### SP2 - Elegance of the Empire ###
+####################################
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp2_western_imp_01:0 "希尔德斯海姆皇冠"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp2_western_hi_nob_01:0 "珠宝帽"
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp2_western_imp_01:0 "库尼根德王冠"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp2_western_hi_nob_01:0 "镶有珍珠和宝石的头饰"
+
+
+###############
+### Special ###
+###############
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_spectacles_01:0 "眼镜"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_special_spectacles_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_spectacles_01$"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_eye_patch_01:0 "眼罩"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_blindfold_01:0 "蒙眼布"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_face_mask_01:0 "面具"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_head_bandage_01:0 "头绷带"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_special_female_headgear_special_spectacles_01:0 "眼镜"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_special_spectacles_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_spectacles_01$"
+ PORTRAIT_MODIFIER_custom_special_female_headgear_special_eye_patch_01:0 "眼罩"
+ PORTRAIT_MODIFIER_custom_special_female_headgear_special_blindfold_01:0 "蒙眼布"
+ PORTRAIT_MODIFIER_custom_special_female_headgear_special_face_mask_01:0 "面具"
+ PORTRAIT_MODIFIER_custom_special_female_headgear_special_head_bandage_01:0 "头绷带"
+
+######################################
+################ Hair ################
+######################################
+
+ PORTRAIT_MODIFIER_custom_hair:0 "发型"
+
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_hair_no_hair:0 "无发型"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_western_01:1 "锅盖头"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_western_02:1 "中短蓬乱"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_western_03:1 "极短"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_western_04:1 "渐变短"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_western_05:1 "中短飘逸"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_western_06:0 "凌乱"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_western_07:0 "长发飘逸"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_western_08:0 "中短波浪卷"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_western_09:0 "短发波浪卷"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_western_10:0 "圣彼得发式"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_byzantine_01:0 "卷发锅盖头"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_byzantine_02:0 "罗马渐变短发"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_mena_01:1 "卷发"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_mena_02:1 "中短卷发"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_mena_03:0 "大波浪"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_mena_04:0 "卷发发型"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_sub_saharan_01:1 "短爆炸头"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_sub_saharan_02:1 "中爆炸头"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_sub_saharan_03:0 "短辫"
+ PORTRAIT_MODIFIER_custom_hair_male_empty:0 "$PORTRAIT_MODIFIER_custom_hair_no_hair$"
+ PORTRAIT_MODIFIER_custom_hair_boy_empty:0 "$PORTRAIT_MODIFIER_custom_hair_no_hair$"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_indian_01:0 "背头"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_indian_02:0 "背头中短波浪卷"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_indian_03:0 "高髻"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_northern_01:0 "超长狂野发型"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_northern_02:0 "长狂野发型"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_northern_03:0 "劫掠者"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_steppe_01:0 "发环"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_steppe_02:0 "草原骑手"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_hair_female_hair_western_01:1 "皇冠编发"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_western_02:1 "极长波浪卷"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_western_03:1 "发髻"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_western_04:1 "极长双辫"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_western_05:0 "中短波浪卷"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_western_06:0 "大发髻"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_western_07:0 "鱼尾式"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_western_08:0 "双髻"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_western_09:0 "拧辫"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_western_10:0 "绑丝带发型"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_byzantine_01:2 "螺旋式绑丝带发型"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_byzantine_02:0 "冠型卷发"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_mena_01:0 "饰金发辫"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_mena_02:0 "长卷发"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_sub_saharan_01:2 "中爆炸头"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_sub_saharan_02:0 "中细辫"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_sub_saharan_03:0 "短细辫"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_indian_01:0 "戴宝石发髻"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_indian_02:0 "绕颈发辫"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_indian_03:0 "波浪卷偏分"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_northern_01:0 "后髻"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_northern_02:0 "单辫"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_northern_03:0 "长发及冠型发辫"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_steppe_01:0 "双发辫及绑带"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_steppe_02:0 "盘绕发辫"
+ PORTRAIT_MODIFIER_custom_hair_female_empty:0 "$PORTRAIT_MODIFIER_custom_hair_no_hair$"
+ PORTRAIT_MODIFIER_custom_hair_girl_empty:0 "$PORTRAIT_MODIFIER_custom_hair_no_hair$"
+
+### Male FP1 ###
+ PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_01:0 "邦迪发式"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_02:0 "马尾辫"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_03:0 "短偏分"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_04:0 "雅尔"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_05:0 "长波浪卷"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_06:0 "青年维格曼"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_07:0 "老狂战士"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_08:0 "长双辫"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_09:0 "大单辫"
+
+### Female FP1 ###
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_01:0 "偏分辫"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_02:0 "凌乱的辫子"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_03:0 "双马尾"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_04:0 "诺斯皇冠编发"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_05:0 "长发及绑带"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_06:0 "强盗之女"
+
+### Male FP2 Hair ###
+ PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_christian_01:1 "带刘海的中等卷发"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_muslim_01:1 "中短波浪卷"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_christian_02:1 "中短飘逸"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_muslim_02:1 "中分长卷发"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_christian_03:1 "低单辫"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_muslim_03:1 "长乱发"
+
+ ### Female FP2 Hair ###
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_christian_01:1 "少女卷发"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_01:2 "带耳环的有框架卷发"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_christian_02:1 "中分长直"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_02:1 "有头环的精致卷发"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_christian_03:1 "波浪齐肩长发"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_03:1 "戴珠宝的四股辫"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_01_common:0 "有框架卷发"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_02_common:0 "微卷发"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_03_common:0 "四股辫"
+
+ ### Male Special ###
+ PORTRAIT_MODIFIER_custom_hair_male_hair_special_01:0 "史诗脏辫"
+
+#######################################
+################ Beard ################
+#######################################
+
+ PORTRAIT_MODIFIER_custom_beards:0 "胡须"
+ PORTRAIT_MODIFIER_custom_beards_male_empty:0 "无胡须"
+ PORTRAIT_MODIFIER_custom_beards_female_empty:0 "$PORTRAIT_MODIFIER_custom_beards_male_empty$"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_01:0 "络腮胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_02:1 "山羊胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_03:1 "短胡须"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_04:1 "短山羊胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_05:1 "八字胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_06:0 "大浓密胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_07:0 "颏带胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_08:0 "长卷胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_09:0 "尖角胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_10:0 "下颔山羊胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_mena_01:0 "络腮卷胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_mena_02:0 "大波浪胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_mena_03:0 "大颏带胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_mena_04:0 "短时髦胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_northern_01:0 "大狂野胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_northern_02:0 "单辫胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_northern_03:0 "珠串胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_steppe_01:0 "直尖角胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_steppe_02:0 "直中短胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_sub_saharan_01:0 "微卷胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_sub_saharan_02:0 "微卷山羊胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_sub_saharan_03:0 "长卷胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_indian_01:0 "八字胡及连鬓胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_indian_02:0 "波浪尖角胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_indian_03:0 "长直粗犷胡"
+ PORTRAIT_MODIFIER_custom_beards_no_beard:0 "无胡须"
+ 
+ ### FP1 ###
+ PORTRAIT_MODIFIER_custom_beards_male_beard_fp1_01:0 "侍卫辫"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_fp1_02:0 "有抱负的维京人"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_fp1_03:0 "大八字胡及下巴胡须"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_fp1_04:0 "巨型发辫"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_fp1_05:0 "灰白瓦兰吉"
+
+ ### FP2 Beards ###
+ PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_01:1 "整洁短胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_muslim_01:1 "梳理好的浓密胡须"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_02:1 "伊比利亚山羊胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_muslim_02:1 "学者胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_03:1 "伊比利亚骑手胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_muslim_03:1 "叉形胡"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_04:0 "下垂八字胡"
+
+### SP2 Beards ###
+ PORTRAIT_MODIFIER_custom_beards_m_beard_sp2_western_01:0 "皇家小胡子"
+
+#######################################
+################ Cloak ################
+#######################################
+
+ PORTRAIT_MODIFIER_custom_cloaks:0 "斗篷"
+ PORTRAIT_MODIFIER_custom_cloaks_no_cloak:0 "无斗篷"
+ PORTRAIT_MODIFIER_custom_cloaks_male_empty:0 "$PORTRAIT_MODIFIER_custom_cloaks_no_cloak$"
+ PORTRAIT_MODIFIER_custom_cloaks_female_empty:0 "$PORTRAIT_MODIFIER_custom_cloaks_no_cloak$"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_royalty_01:1 "王家斗篷"
+ PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_western_royalty_01:0 "王家斗篷"
+ PORTRAIT_MODIFIER_custom_cloaks_male_capes_religious_catholic_head_01:0 "天主教领袖斗篷 1"
+ 
+ ### FP1 ###
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fp1_nobility_01:0 "冒险者斗篷"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fp1_nobility_02:0 "维格曼斗篷"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fp1_nobility_03:0 "诺斯披肩"
+ PORTRAIT_MODIFIER_custom_cloaks_male_furs_secular_fp1_nobility_01:0 "狐皮"
+ PORTRAIT_MODIFIER_custom_cloaks_male_furs_secular_fp1_nobility_02:0 "皮草披肩"
+ PORTRAIT_MODIFIER_custom_cloaks_male_furs_secular_fp1_nobility_03:0 "大皮草斗篷"
+ PORTRAIT_MODIFIER_custom_cloaks_female_furs_secular_fp1_nobility_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_furs_secular_fp1_nobility_01$"
+ PORTRAIT_MODIFIER_custom_cloaks_female_furs_secular_fp1_nobility_02:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_furs_secular_fp1_nobility_02$"
+ PORTRAIT_MODIFIER_custom_cloaks_female_furs_secular_fp1_nobility_03:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_furs_secular_fp1_nobility_03$"
+ PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_fp1_nobility_01:0 "盾女斗篷"
+ PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_fp1_nobility_02:0 "女酋长斗篷"
+ PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_fp1_nobility_03:0 "诺斯裹肩"
+
+### SP2 - Elegance of the Empire ###
+
+### Male ###
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_sp2_western_imp_01:0 "加冕披风"
+
+### Female ###
+ PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_sp2_western_imp_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_sp2_western_imp_01$"
+
+##################################################
+################ Monarchs Journey ################
+##################################################
+
+ PORTRAIT_MODIFIER_custom_hair_female_hair_rtt_01:0 "磨坊主"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_rtt_02:0 "贞德"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_rtt_02_milla:0 "挑染磨坊主"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_rtt_01:0 "鲻鱼头"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_rtt_02:0 "侍童头"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_rtt_01:0 "巫师胡"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_rtt_nobility_01_low:0 "夏普仑长管帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_rtt_nobility_01_high:1 "丝制夏普仑长管帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_rtt_jester_01_low:0 "弄臣帽"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_jester_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_rtt_jester_01_low$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_jester_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_rtt_jester_01_low$"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_rtt_jester_01_high:0 "弄臣帽"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_rtt_nobility_01_low:0 "埃南高顶帽"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_rtt_nobility_01_high:0 "埃南高顶帽"
+ 
+###########################################
+################ Religious ################
+###########################################
+
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_muslim_high_01:0 "伊玛目礼袍"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_dde_muslim_head_01_common:0 "哈里发礼袍"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_orthodox_high_01:0 "东正教礼袍 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_orthodox_head_01_common:0 "东正教礼袍 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_devoted_01:0 "修士礼袍 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_devoted_02:0 "修士礼袍 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_catholic_devoted_01_common:0 "修女礼袍"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_high_01:0 "主教礼袍 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_dde_catholic_high_01_common:0 "主教礼袍 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_head_01:0 "教宗礼袍"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_african_high_01_common:0 "非洲宗教着装"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_african_high_01_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_african_high_01_common$"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_northern_high_01:0 "诺斯宗教服饰"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_northern_high_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_northern_high_01$"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_hindu_devoted_01:0 "东方宗教礼袍 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_hindu_devoted_01:0 "东方宗教礼袍"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_buddhist_high_01:0 "东方宗教礼袍 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_zoroastrian_high_01:0 "祆祠礼袍"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_zoroastrian_high_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_zoroastrian_high_01$"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_jewish_head_01:0 "首席大祭司礼袍"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_jewish_high_01:0 "犹太宗教服饰"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_steppe_high_01_common:0 "草原宗教着装"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_steppe_high_01_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_steppe_high_01_common$"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_catholic_devoted_01:0 "修女服"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_catholic_high_01:0 "主教法冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_dde_catholic_high_01:0 "总主教法冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_catholic_head_01:0 "教宗三重冕"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_orthodox_high_01:0 "牧首头饰"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_orthodox_head_01:0 "普世牧首头饰"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_zorastrian_high_01:0 "祆祠裹头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_jewish_head_01:0 "首席大祭司头饰"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_muslim_high_01:0 "伊斯兰头巾"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_muslim_high_01:0 "伊玛目头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_dde_muslim_head_01:0 "学者头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_african_high_01:0 "非洲宗教头饰"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_african_high_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_african_high_01$"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_steppe_high_01:0 "草原宗教头饰"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_steppe_high_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_steppe_high_01$"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_northern_high_01:1 "诺斯头环"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_northern_high_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_northern_high_01$"
+ 
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ep1_jester_01:0 "弄臣装束"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ep1_jester_01:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ep1_jester_01$"
+ PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_ep1_adventurer_01:1 "探险者斗篷"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_western_royalty_01:0 "点饰宝石百合花王冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_mena_royalty_01:0 "矮莲花冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_indian_royalty_01:0 "金色天冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_mena_royalty_02:0 "金珍珠头巾"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_sub_saharan_royalty_01:0 "精美金冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_diamond_crown:0 "镶大钻石的金色天冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_crown_of_justinian:0 "查士丁尼的皇冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_crown_of_lombardy:0 "伦巴第铁王冠"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_sassanid_crown:0 "萨珊皇冠"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_western_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_western_royalty_01$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_mena_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_mena_royalty_01$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_indian_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_indian_royalty_01$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_mena_royalty_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_mena_royalty_02$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_sub_saharan_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_sub_saharan_royalty_01$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_diamond_crown:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_diamond_crown$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_crown_of_justinian:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_crown_of_justinian$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_crown_of_lombardy:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_crown_of_lombardy$"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_sassanid_crown:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_sassanid_crown$"

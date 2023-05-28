@@ -1,0 +1,21 @@
+﻿l_french:
+
+ GOVERNMENT_HAS_FLAG_TRIGGER:0 "Le [government|El] peut: $FLAG|V$"
+
+ GOVERNMENT_ALLOWS_TRIGGER:0 "Le [government|El] permet: $RULE|Vl$"
+ THEIR_GOVERNMENT_ALLOWS_TRIGGER:0 "Le [government|El] [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUIName|V] permet: $RULE|Vl$"
+
+ GOVERNMENT_DISALLOWS_TRIGGER:0 "Le [government|El] ne permet pas: $RULE|Vl$"
+
+ HAS_GOVERNMENT_TRIGGER_GLOBAL:0 "A $GOVERNMENT|Vl$ comme gouvernement"
+ NOT_HAS_GOVERNMENT_TRIGGER_GLOBAL:0 "N’a pas $GOVERNMENT|Vl$ comme gouvernement"
+ HAS_GOVERNMENT_TRIGGER_FIRST:0 "Vous avez $GOVERNMENT|Vl$ comme gouvernement"
+ NOT_HAS_GOVERNMENT_TRIGGER_FIRST:0 "Vous n’avez pas $GOVERNMENT|Vl$ comme gouvernement"
+ HAS_GOVERNMENT_TRIGGER_THIRD:0 "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName|V] a $GOVERNMENT|Vl$ comme gouvernement"
+ NOT_HAS_GOVERNMENT_TRIGGER_THIRD:0 "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName|V] n’a pas $GOVERNMENT|Vl$ comme gouvernement"
+
+ HAS_SAME_GOVERNMENT_TRIGGER:0 "A le même gouvernement que [TARGET_CHARACTER.Custom('FR_le_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName]"
+
+ MUST_HAVE_MALE_DOMINATED_OR_EQUAL:0 "[CHARACTER.GetFaith.GetName] n’a ni l’[GetFaithDoctrine('doctrine_gender_equal').GetBaseName|l] ni la [GetFaithDoctrine('doctrine_gender_male_dominated').GetBaseName|l] comme doctrine"
+ MUST_HAVE_FEMALE_DOMINATED_OR_EQUAL:0 "[CHARACTER.GetFaith.GetName] n’a ni l’[GetFaithDoctrine('doctrine_gender_equal').GetBaseName|l] ni la [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName|l] comme doctrine"
+ has_law_allowing_succession_law_change:0 "A au moins une [crown_authority|El] [high|El] ou une [tribal_authority|El] [limited_tribal|El]"

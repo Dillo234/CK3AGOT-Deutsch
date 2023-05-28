@@ -1,0 +1,68 @@
+﻿l_simp_chinese:
+ every_guest_scope_tt:0 "所有客人"
+
+ feast.0010.desc:0 "我不知道你为什么接受我的邀请却反而去参加[other_host.GetTitledFirstNamePossessive]的宴会，但我会记住这件事的。"
+ feast.0010.a:0 "真是不幸。"
+
+ feast.1501.opening:0 "[sender.Custom2('AppropriateGreeting', ROOT.Char)]"
+ feast.1501.opening_desc:0 "我特此邀请你参加我在[barony.GetNameNoTier]举办的宴会！"
+ feast.1501.host_likes_me:0 "我期待你的光临，你要是不来我会非常想你的。"
+ feast.1501.host_gets_along_with_me:0 "如果你这样一位显赫的[ROOT.Char.GetTitleTierName]能出席，会让我倍感荣幸。"
+ feast.1501.host_dislikes_me:0 "我期望所有有影响力的人都能出席，很不幸也包括你。"
+ feast.1501.a:0 "我当然会参加。"
+ feast.1501.b:0 "我就勉为其难参加一下吧。"
+ feast.1501.c:0 "很遗憾，我很忙。"
+ feast.1501.d:0 "不，我拒绝！"
+
+ feast.1502.desc:0 "我在此邀请你参加我在[barony.GetNameNoTier]举办的宴会！这将会是一场盛会，值得你光临。"
+ feast.1502.a:0 "这是我的荣幸。"
+ feast.1502.b:0 "我有更重要的事要处理。"
+
+ feast.1503.desc:0 "我在此邀请你参加我在[barony.GetNameNoTier]的宫廷举办的宴会！这将会是一场盛会，有令人愉快的食物和娱乐。"
+ feast.1503.a:0 "这是我的荣幸。"
+ feast.1503.b:0 "我有更重要的事要处理。"
+
+ feast.2001.t:0 "$feast_header$令人愉快的聚会"
+ feast.2001.t_murder:0 "$feast_header$卑鄙的聚会"
+ feast.2001.desc:0 "宾客们聚集在大厅，他们都是领地远近的贵族男女。\n\n情绪多么明亮，精神多么高涨，宴会开始了！"
+ feast.2001.desc_murder_feast:0 "当宾客鱼贯而入大厅，我一个接一个地观察他们。[enemy_1.GetTitledFirstName]、[enemy_2.GetTitledFirstName]……我的全部敌人——他们是国家的敌人！\n\n仆人们点燃大壁炉时，我突然有了领悟；要是他们存在的灾祸全都可以被一下子清除？"
+ feast.2001.a:0 "欢迎，朋友们！"
+ feast.2001.a.tt:0 "宴会开始了"
+ feast.2001.b:0 "他们都是我家里的客人。我不会伤害他们。"
+ feast.2001.c:0 "所有人都会受到我的#EMP 热情#!款待。"
+ feast.2001.c.tt:0 "宴会开始了，希望结局也会……照亮他人。"
+ feast.2001.d:0 "当然，那些依然和我关系亲密的人不会受到伤害。"
+ feast.2001.c.people_to_spare:0 "所有和我关系亲密的人会受到提醒"
+
+ feast.2002.t:0 "放弃责任"
+ feast.2002.desc:0 "这简直是灾难！\n\n在我做好一切准备后，我的客人却来到了一场没有东道主的宴会！\n他们已经回家了，而我也给他们留下了极其糟糕的印象。"
+ feast.2002.a:0 "我可能会后悔的。"
+ 
+ feast.2003.t:0 "惨淡的庆典"
+ feast.2003.desc:0 "真是不敢相信。尽管我发出邀请并做了准备，没有一个客人出现在我的宴会上。\n\n没关系！我将独自享受这些食物和美酒，而大厅里的回荡的脚步声是我仅需的同伴！"
+ feast.2003.a:0 "我真的就是这样的孤家寡人吗？"
+ feast.2003.b:0 "我感觉有些宽慰。"
+ 
+ feast.2501.t:0 "热烈欢迎"
+ feast.2501.likes_host:0 "所有客人都已到大厅集合，而我们彬彬有礼的东道主，[activity.GetOwner.GetTitledFirstName]，欢迎我们前来赴宴！"
+ feast.2501.dislikes_host:0 "所有客人都已到大厅集合，而我们[activity.GetOwner.Custom('InsultAdjective')]东道主[activity.GetOwner.GetTitledFirstName]，总算来欢迎我们了。"
+ feast.2501.a.gluttonous:0 "我在这就能闻到厨房里的香味！"
+ feast.2501.a.drunkard:0 "酒桶在哪！"
+ feast.2501.a.gregarious:0 "我等不及要和大家交谈了！"
+ feast.2501.a.shy:0 "这里有很多人……"
+ feast.2501.a:0 "我十分期待！"
+ feast.2501.b:0 "这最好值得我花时间。"
+ 
+ feast.2502.t:1 "$feast_header$缺席"
+ feast.2502.desc:0 "丑闻！[activity.GetOwner.GetTitledFirstName]居然没在[activity.GetOwner.GetHerHis]自己举办的宴会上现身！\n\n[activity.GetOwner.GetSheHe]是想要戏耍我们所有人吗？"
+ feast.2502.a:0 "真是浪费时间！"
+
+ feast.5003.t:0 "$feast_header$庆典结束"
+ feast.3601.desc:1 "随着[host.Custom2('MyCharacterIntroduction', ROOT.Char)]突然暴毙，[host.GetHerHis]的盛宴也告终。\n\n闷闷不乐的客人们渐渐离场，我默默祈祷，希望[ROOT.Char.GetFaith.HighGodNameAlternate]能像[host.GetFirstName]热情地欢迎我们来到[host.GetHerHis]的大厅那样，将[host.GetSheHe]迎入[ROOT.Char.GetFaith.PositiveAfterLife]。"
+ feast.3601.a:0 "这真是一场有趣的宴会！"
+ feast.3601.a.tt:1 "#F 你懂的……在[host.GetSheHe]死之前。#!"
+
+ feast.5004.desc:0 "由于我现在被扔进了铁牢，我筹划的盛大庆典也得取消了。哎，我花了那么多小时在准备工作上面……全泡汤了！"
+ feast.5002.a:1 "无主，不成宴。"
+
+ feast.5005.desc:0 "[host.Custom2('MyCharacterIntroduction', ROOT.Char)|U]被囚禁，[host.GetHerHis]的盛大宴会也被迫中止。真是时运不济啊！"

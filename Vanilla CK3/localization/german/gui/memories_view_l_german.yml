@@ -1,0 +1,10 @@
+﻿l_german:
+ MEMORIES_WINDOW_HEADING:0 "[Select_CString(MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINamePossessiveNoTooltip, 'Keine')|U] Erinnerungen"
+ MEMORIES_WINDOW_ENTRY:0 "[CharacterMemory.GetDescription|U]."
+ MEMORIES_WINDOW_COPY_ENTRY:0 "[CharacterMemory.GetCreationDate.GetString]\n[CharacterMemory.GetDescription|U].\n\n"
+ MEMORIES_WINDOW_COPY_TO_CLIPBOARD:0 "$COA_DESIGNER_COPY_TO_CLIPBOARD_BUTTON$"
+ CHARACTER_HAS_NO_MEMORIES:0 "[Select_CString(Character.IsAlive, 'Es ist noch nichts Bemerkenswertes geschehen …', 'Diese Erinnerungen schwanden im Lauf der Zeit …')]"
+ MEMORY_INFO:0 "Dies sind [Select_CString(MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINamePossessiveNoTooltip, 'verlorene')] bedeutende Erinnerungen. Das Gedächtnis ist etwas Wankelmütiges, Sprunghaftes – aber manches ist kostbar und unersetzlich. Doch wenn die Zeit nur lang genug ist, werden alle Erinnerungen im Vergessen verschwinden."
+ OPEN_MEMORIES_TOOLTIP:0 "#I Die Erinnerungen dieses Charakters ansehen#!"
+ MEMORIES_WINDOW_PIN_IT:0 "Dieses Fenster anpinnen, damit es nicht auf andere Charaktere wechselt"
+ MEMORY_SORT_ORDER_TOOLTIP:0 "#T Erinnerungssortierung ändern#!"

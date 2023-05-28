@@ -1,0 +1,1084 @@
+﻿l_korean:
+ artifact_type_helmet:0 "왕관"
+ artifact_type_primary_armament:0 "무기"
+ artifact_type_armor:0 "갑옷"
+ artifact_type_regalia:0 "표장"
+ artifact_type_trinket:0 "기념품"
+ artifact_type_wall_big:0 "걸이 장식"
+ artifact_type_wall_small:0 "$artifact_type_wall_big$"
+ artifact_type_throne:0 "왕좌"
+ artifact_type_sculpture:0 "진열품"
+ artifact_type_book:0 "서책"
+ artifact_type_pedestal:0 "$artifact_type_sculpture$"
+ artifact_type_elixir:0 "영약"
+
+# These are used for when we generate the title at the same time as we create the artifact
+ artifact_name_prefix:1 "[SCOPE.Custom('ArtifactPrefixGeneric')|U]"
+ artifact_name_prefix_owner_name:0 "[owner.GetTitledFirstNamePossessiveNoTooltip]"
+ artifact_name_prefix_inspiration_owner_name:0 "[inspiration_owner.GetTitledFirstNamePossessiveNoTooltip]"
+ artifact_name_prefix_owner_culture:0 "[owner.GetCulture.GetNameNoTooltip]"
+ artifact_name_prefix_location_culture:0 "[owner.MakeScope.Var('adventure_artifact_location').Title.GetHolder.GetCulture.GetNameNoTooltip]"
+ artifact_name_prefix_owner_dynasty:0 "[owner.GetDynasty.GetBaseName]"
+ artifact_name_prefix_descriptor_high_quality:0 "장엄한"
+ artifact_name_prefix_descriptor_medium_quality:0 "튼튼한"
+ artifact_name_prefix_descriptor_medium_alt_version_quality:0 "훌륭한"
+ artifact_name_prefix_descriptor_low_quality:1 "질 좋은"
+
+# These are used for when we generate the title after the artifact is already created since we have to use different scopes then
+ artifact_name_prefix_artifact_scope:0 "[Artifact.GetOwner.Custom('ArtifactPrefixGenericAfterCreation')|U]"
+ artifact_name_prefix_artifact_scope_owner_name:0 "[Artifact.GetOwner.GetTitledFirstNamePossessiveNoTooltip]"
+ artifact_name_prefix_artifact_scope_owner_culture:0 "[Artifact.GetOwner.GetCulture.GetNameNoTooltip]"
+ artifact_name_prefix_artifact_scope_owner_dynasty:1 "[Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip]"
+
+ placeholder:0 "$holderplace$"
+ holder_place:0 "#D Holderplace#!"
+
+ ##########
+ # Metals #
+ ##########
+
+ # Irons and steels for use in arms and armor. All steels are just regional names for wootz steel, which is only known to have been manufactured in Southern India (but ingots of it traveled the silk road).
+ metal_iron:0 "철"
+ metal_wrought_iron:0 "연철"
+ metal_folded_iron:0 "접쇠"
+ metal_steel:0 "강철"
+ metal_wootz_steel:0 "우츠강"
+ metal_bulat_steel:0 "불라트강"
+ metal_damascus_steel:0 "다마스쿠스강"
+
+ # Metal Feature Derivatives 
+ feature_blade_metal_wrought_iron:0 "$metal_wrought_iron$"
+ feature_blade_metal_folded_iron:0 "$metal_folded_iron$"
+ feature_blade_metal_wootz_steel:0 "$metal_wootz_steel$"
+ feature_blade_metal_damascus_steel:1 "$metal_damascus_steel$"
+ feature_blade_metal_bulat_steel:1 "$metal_bulat_steel$"
+
+ feature_head_metal_wrought_iron:0 "$metal_wrought_iron$"
+ feature_head_metal_folded_iron:0 "$metal_folded_iron$"
+ feature_head_metal_wootz_steel:0 "$metal_wootz_steel$"
+ feature_head_metal_damascus_steel:1 "$metal_damascus_steel$"
+ feature_head_metal_bulat_steel:1 "$metal_bulat_steel$"
+
+ feature_handle_metal_wrought_iron:0 "$metal_wrought_iron$"
+ feature_handle_metal_folded_iron:0 "$metal_folded_iron$"
+ feature_handle_metal_wootz_steel:0 "$metal_wootz_steel$"
+ feature_handle_metal_damascus_steel:1 "$metal_damascus_steel$"
+ feature_handle_metal_bulat_steel:1 "$metal_bulat_steel$"
+
+ # Precious/decorative metals and metal-based compounds
+ metal_gold:0 "황금"
+ metal_electrum:0 "호박금"
+ metal_silver:0 "은"
+ metal_brass:0 "황동"
+ metal_bronze:0 "청동"
+ metal_copper:0 "구리"
+ metal_pewter:0 "백랍"
+ metal_latten:0 "라탄"
+
+ # Pure black 'alloy' of sulfur, copper, silver, and lead. Commonly used as an inlay in engraved or etched metals, or sometimes as a background in reliefs.
+ metal_niello:0 "흑금"
+ # Golden (gold-leafed) bronze. More common in East Asia but could be found in Europe.
+ metal_gilt_bronze:0 "금동"
+ # Gilded (gold-leafed) silver. More common in Europe but could be found in East Asia.
+ metal_silver_gilt:0 "은도금"
+ # Extremely rare bronze alloy from antiquity. Manufacturing process unknomwn, statues made from it were more valuable than gold.
+ metal_corinthian_bronze:0 "코린트 청동"
+ # Alloy of gold, silver, copper, zinc, and iron. Sacred in Hinduism, used for making jewelery and decorating statues.
+ metal_panchaloha:0 "판칼로하"
+ # High-purity iron collected from meteorites. Auspicious in Tibetan culture, where it was known as 'thokcha'.
+ metal_meteoric_iron:0 "운철"
+
+ feature_decoration_material_inlay_gold:0 "$metal_gold$"
+ feature_decoration_material_inlay_electrum:0 "$metal_electrum$"
+ feature_decoration_material_inlay_silver:0 "$metal_silver$"
+ feature_decoration_material_inlay_copper:0 "$metal_copper$"
+ feature_decoration_material_inlay_pewter:0 "$metal_pewter$"
+ feature_decoration_material_inlay_niello:0 "$metal_niello$"
+
+ feature_decoration_material_wire_gold:0 "$metal_gold$"
+ feature_decoration_material_wire_electrum:0 "$metal_electrum$"
+ feature_decoration_material_wire_silver:0 "$metal_silver$"
+ feature_decoration_material_wire_brass:0 "$metal_brass$"
+ feature_decoration_material_wire_bronze:0 "$metal_bronze$"
+ feature_decoration_material_wire_copper:0 "$metal_copper$"
+ feature_decoration_material_wire_pewter:0 "$metal_pewter$"
+ feature_decoration_material_wire_latten:0 "$metal_latten$"
+
+ #########
+ # Woods #
+ #########
+ wood:0 "나무"
+
+ # Found Everywhere
+ wood_ash:0 "물푸레나무"
+ wood_oak:0 "떡갈나무"
+
+ # Widespread Regional - Elm (Found all over Europe except southern Spain, Italy, and Greece)
+ wood_elm:0 "느릅나무"
+
+ # Widespread Regional - Walnut (found all over Europe excluding Scotland and Scandinavia, but including Northern Anatolia/Persia)
+ wood_walnut:0 "호두나무"
+
+ # Widespread Regional - Maple (found all over Europe excluding Scotland and northern Scandinavia, as well as northern Morocco/Tunisia/Persia and all of Anatolia)
+ wood_maple:0 "단풍나무"
+
+ # Widespread Regional - Pines and Firs (found all over Europe except northern France/Germany and the Balkans, but spreads East through Anatolia, Scandinavia, Russia, China, and Tibet)
+ wood_pine:0 "소나무"
+ wood_fir:0 "전나무"
+
+ # Widespread Regional - Subsaharan Africa
+ wood_fleroya:0 "플레로야"
+ wood_sycomore:0 "무화과나무"
+ wood_padauk:0 "인도자단"
+
+ # Widespread Regional - India
+ wood_sal:0 "사라수"
+ wood_teak:0 "티크"
+ wood_rosewood:0 "자단"
+ wood_satinwood:0 "인도수자목"
+
+ # Regional - France, England, Wales, Ireland
+ wood_yew:0 "주목나무"
+
+ # Regional - Mediterranean
+ wood_olivewood:0 "올리브나무"
+
+ # Regional - Sri Lanka
+ wood_coromandel:0 "코로만델"
+ wood_ebony:0 "흑단"
+
+ # Wood Feature Derivatives 
+ feature_generic_material_wood_ash:0 "$wood_ash$"
+ feature_generic_material_wood_oak:0 "$wood_oak$"
+ feature_generic_material_wood_elm:0 "$wood_elm$"
+ feature_generic_material_wood_walnut:0 "$wood_walnut$"
+ feature_generic_material_wood_maple:0 "$wood_maple$"
+ feature_generic_material_wood_pine:0 "$wood_pine$"
+ feature_generic_material_wood_fir:0 "$wood_fir$"
+ feature_generic_material_wood_fleroya:0 "$wood_fleroya$"
+ feature_generic_material_wood_sycomore:0 "$wood_sycomore$"
+ feature_generic_material_wood_padauk:0 "$wood_padauk$"
+ feature_generic_material_wood_sal:0 "$wood_sal$"
+ feature_generic_material_wood_teak:0 "$wood_teak$"
+ feature_generic_material_wood_rosewood:0 "$wood_rosewood$"
+ feature_generic_material_wood_satinwood:0 "$wood_satinwood$"
+ feature_generic_material_wood_yew:0 "$wood_yew$"
+ feature_generic_material_wood_olivewood:0 "$wood_olivewood$"
+ feature_generic_material_wood_coromandel:0 "$wood_coromandel$"
+ feature_generic_material_wood_ebony:0 "$wood_ebony$"
+
+ feature_shaft_wood_ash:0 "$wood_ash$"
+ feature_shaft_wood_oak:0 "$wood_oak$"
+ feature_shaft_wood_elm:0 "$wood_elm$"
+ feature_shaft_wood_walnut:0 "$wood_walnut$"
+ feature_shaft_wood_maple:0 "$wood_maple$"
+ feature_shaft_wood_pine:0 "$wood_pine$"
+ feature_shaft_wood_fir:0 "$wood_fir$"
+ feature_shaft_wood_fleroya:0 "$wood_fleroya$"
+ feature_shaft_wood_sycomore:0 "$wood_sycomore$"
+ feature_shaft_wood_padauk:0 "$wood_padauk$"
+ feature_shaft_wood_sal:0 "$wood_sal$"
+ feature_shaft_wood_teak:0 "$wood_teak$"
+ feature_shaft_wood_rosewood:0 "$wood_rosewood$"
+ feature_shaft_wood_satinwood:0 "$wood_satinwood$"
+ feature_shaft_wood_yew:0 "$wood_yew$"
+ feature_shaft_wood_olivewood:0 "$wood_olivewood$"
+ feature_shaft_wood_coromandel:0 "$wood_coromandel$"
+ feature_shaft_wood_ebony:0 "$wood_ebony$"
+
+ ##########
+ # Cloths #
+ ##########
+
+ # Simple wool fabric, can vary wildly in quality and appearance depending on the yarn used to wave it as well as the weaver's skill. 
+ cloth_wool:0 "모직"
+
+ # Wool from the very first shearing of a sheep. Soft, elastic, and slippery, used in high-grade textiles.
+ cloth_lambswool:0 "양 모직"
+
+ # A fine, dense wool yarn or fabric. Originated in 12th century England, considered to be one of the highest quality wools. Suits are made from it today.
+ cloth_worsted_wool:0 "소모사 모직"
+
+ # Generic plain weave cotton
+ cloth_cotton:0 "면"
+
+ # cotton plain weave from Bangladesh, but common as far out as Iraq. Can be either coarse or very fine.
+ cloth_muslin:0 "모슬린"
+
+ # twill cotton-linen blend. As it a mixed fabric, practicing Jews are forbidden to wear it.
+ cloth_fustian:0 "퍼스티언"
+
+ # plain weave flax fibers. Consistently average in quality and price, saw widespread use throughout the medieval era.
+ cloth_linen:0 "리넨"
+
+ # Plain(?) silk weave.
+ cloth_silk:0 "비단"
+
+ # satin weave, most commonly made of silk, becoming famous in 12th century Europe after the Crusades. 
+ cloth_satin:0 "새틴"
+
+ # piled silk weave popular in the Middle East. Must be woven on a special loom. Due to its difficulty of manufacture, it is associated with nobility. Arrived in western Europe after the Crusades.
+ cloth_velvet:0 "벨벳"
+
+ # twill silk weave popular in Byzantium, which originated in Sassanid Persia. Commonly restricted to royalty or clergy.
+ cloth_samite:0 "새마이트"
+
+ # cloth woven from silk wrapped in silver. Similar to the cloth-of-gold below, but less expensive.
+ cloth_of_silver:0 "은란"
+
+ # cloth woven from silk wrapped in gold. In addition to being expensive, it was almost always outlawed for any non-royalty or non-clergy to wear.
+ cloth_of_gold:0 "금란"
+
+ # sturdy fabric
+ cloth_canvas:0 "캔버스"
+
+ feature_generic_material_cloth_wool:0 "$cloth_wool$"
+ feature_generic_material_cloth_lambswool:0 "$cloth_lambswool$"
+ feature_generic_material_cloth_worsted_wool:0 "$cloth_worsted_wool$"
+ feature_generic_material_cloth_cotton:0 "$cloth_cotton$"
+ feature_generic_material_cloth_fustian:0 "$cloth_fustian$"
+ feature_generic_material_cloth_linen:0 "$cloth_linen$"
+ feature_generic_material_cloth_silk:0 "$cloth_silk$"
+ feature_generic_material_cloth_satin:0 "$cloth_satin$"
+ feature_generic_material_cloth_velvet:0 "$cloth_velvet$"
+ feature_generic_material_cloth_samite:0 "$cloth_samite$"
+
+ feature_generic_material_cordage_wool:0 "$cloth_wool$"
+ feature_generic_material_cordage_cotton:0 "$cloth_cotton$"
+ feature_generic_material_cordage_linen:0 "$cloth_linen$"
+ feature_generic_material_cordage_silk:0 "$cloth_silk$"
+
+ feature_decoration_material_embroidery_wool:0 "$cloth_wool$"
+ feature_decoration_material_embroidery_linen:0 "$cloth_linen$"
+ feature_decoration_material_embroidery_cotton:0 "$cloth_cotton$"
+ feature_decoration_material_embroidery_silk:0 "$cloth_silk$"
+ feature_decoration_material_embroidery_silver_thread:0 "$metal_silver$"
+ feature_decoration_material_embroidery_gold_thread:0 "$metal_gold$"
+
+ ########
+ # Gems #
+ ########
+
+ # Common Everywhere
+ gem_rock_crystal:0 "수정"
+ gem_rock_crystal_plural:0 "수정"
+ gem_jet:0 "흑옥"
+ gem_jet_plural:0 "흑옥"
+ gem_agate:0 "마노"
+ gem_agate_plural:0 "마노"
+ gem_onyx:0 "줄마노"
+ gem_onyx_plural:0 "줄마노"
+
+ # Uncommon Everywhere
+ gem_garnet:0 "석류석"
+ gem_garnet_plural:0 "석류석"
+ gem_jasper:0 "벽옥"
+ gem_jasper_plural:0 "벽옥"
+ gem_zircon:0 "지르콘"
+ gem_zircon_plural:0 "지르콘"
+
+ # Common Regional/Uncommon Elsewhere
+ gem_turquoise:0 "터키석"
+ gem_turquoise_plural:0 "터키석"
+ gem_amber:0 "호박석"
+ gem_amber_plural:0 "호박석"
+ gem_moonstone:0 "월장석"
+ gem_moonstone_plural:0 "월장석"
+ gem_flourite:0 "형석"
+ gem_flourite_plural:0 "형석"
+ gem_adventurine:0 "사금석"
+ gem_adventurine_plural:0 "사금석"
+ gem_amethyst:0 "자수정"
+ gem_amethyst_plural:0 "자수정"
+ gem_carnelian:0 "홍옥수"
+ gem_carnelian_plural:0 "홍옥수"
+
+ # Uncommon Regional/Rare Elsewhere
+ gem_spinel:0 "첨정석"
+ gem_spinel_plural:0 "첨정석"
+ gem_opal:0 "단백석"
+ gem_opal_plural:0 "단백석"
+ gem_lapis_lazuli:0 "청금석"
+ gem_lapis_lazuli_plural:0 "청금석"
+ gem_peridot:0 "감람석"
+ gem_peridot_plural:0 "감람석"
+ gem_jade:0 "비취"
+ gem_jade_plural:0 "비취"
+
+ # Rare
+ gem_sapphire:0 "청옥"
+ gem_sapphire_plural:0 "청옥"
+ gem_ruby:0 "홍옥"
+ gem_ruby_plural:0 "홍옥"
+ gem_emerald:0 "에메랄드"
+ gem_emerald_plural:0 "에메랄드"
+
+ feature_decoration_material_gem_rock_crystal:0 "$gem_rock_crystal$"
+ feature_decoration_material_gem_jet:0 "$gem_jet$"
+ feature_decoration_material_gem_agate:0 "$gem_agate$"
+ feature_decoration_material_gem_onyx:0 "$gem_onyx$"
+ feature_decoration_material_gem_garnet:0 "$gem_garnet$"
+ feature_decoration_material_gem_jasper:0 "$gem_jasper$"
+ feature_decoration_material_gem_zircon:0 "$gem_zircon$"
+ feature_decoration_material_gem_turquoise:0 "$gem_turquoise$"
+ feature_decoration_material_gem_amber:0 "$gem_amber$"
+ feature_decoration_material_gem_moonstone:0 "$gem_moonstone$"
+ feature_decoration_material_gem_flourite:0 "$gem_flourite$"
+ feature_decoration_material_gem_adventurine:0 "$gem_adventurine$"
+ feature_decoration_material_gem_amethyst:0 "$gem_amethyst$"
+ feature_decoration_material_gem_carnelian:0 "$gem_carnelian$"
+ feature_decoration_material_gem_spinel:0 "$gem_spinel$"
+ feature_decoration_material_gem_opal:0 "$gem_opal$"
+ feature_decoration_material_gem_lapis_lazuli:0 "$gem_lapis_lazuli$"
+ feature_decoration_material_gem_peridot:0 "$gem_peridot$"
+ feature_decoration_material_gem_jade:0 "$gem_jade$"
+ feature_decoration_material_gem_sapphire:0 "$gem_sapphire$"
+ feature_decoration_material_gem_ruby:0 "$gem_ruby$"
+ feature_decoration_material_gem_emerald:0 "$gem_emerald$"
+
+ ############################
+ # Horns, Shells, and Bones #
+ ############################
+
+ hsb_ivory:0 "상아"
+ hsb_mother_of_pearl:0 "진주층"
+ hsb_tortoiseshell:0 "거북딱지"
+ hsb_seashell:0 "조개껍데기"
+ hsb_deer_antler:0 "사슴뿔"
+ hsb_boar_tusk:0 "멧돼지 엄니"
+ hsb_camel_bone:0 "낙타 뼈"
+ 
+ feature_decoration_material_inlay_HSB_camel_bone:0 "$hsb_camel_bone$"
+ feature_decoration_material_inlay_HSB_deer_antler:0 "$hsb_deer_antler$"
+ feature_decoration_material_inlay_HSB_boar_tusk:0 "$hsb_boar_tusk$"
+ feature_decoration_material_inlay_HSB_seashell:0 "$hsb_seashell$"
+ feature_decoration_material_inlay_HSB_tortoiseshell:0 "$hsb_tortoiseshell$"
+ feature_decoration_material_inlay_HSB_mother_of_pearl:0 "$hsb_mother_of_pearl$"
+ feature_decoration_material_inlay_HSB_ivory:0 "$hsb_ivory$"
+
+ #Other
+ material_bone:0 "뼈"
+ material_horn:0 "뿔"
+ material_pangolin_scales:0 "천산갑"
+ material_glass:0 "유리"
+ material_leather:0 "가죽"
+ material_hardened_leather:0 "경화 가죽"
+
+ ############
+ # Patterns #
+ ############
+
+ feature_decoration_pattern_roses:0 "장미꽃"
+ feature_decoration_pattern_floral:0 "꽃무늬"
+ feature_decoration_pattern_geometric:0 "기하학적 형상"
+ feature_decoration_pattern_wolf:0 "늑대 머리"
+ feature_decoration_pattern_local_animal:0 "세밀한 [Artifact.GetOwner.Custom('LocalAnimal')]"
+ feature_decoration_pattern_war_god:0 "[Artifact.GetOwner.GetFaith.WarGodName](을)를 향한 헌신을 나타내는 상징과 경구"
+ feature_decoration_pattern_religious_symbol:0 "[Artifact.GetOwner.GetFaith.ReligiousSymbol]"
+ feature_decoration_pattern_gibberish:0 "제작자를 제외한 그 누구도 모르는 상징"
+ feature_decoration_pattern_bodies:0 "몸부림치는 육신"
+ feature_decoration_pattern_culture_symbol:0 "[Artifact.GetOwner.GetCulture.GetNameNoTooltip] 문화와 관련된 상징"
+ feature_decoration_pattern_culture_style:0 "[Artifact.GetOwner.GetCulture.GetNameNoTooltip] 양식으로 알려진 무늬와 장식"
+ feature_decoration_pattern_shield:0 "[Artifact.GetOwner.GetHouse.GetBaseName] 문장"
+ feature_decoration_pattern_dynasty_shield:0 "$feature_decoration_pattern_shield$"
+ feature_decoration_pattern_dynasty_motifs:0 "[Artifact.GetOwner.GetHouse.GetBaseName]의 가훈과 문장을 바탕으로 한 무늬"
+ feature_decoration_pattern_beasts:0 "신화 속 야수"
+ feature_decoration_pattern_religion:0 "종교적 상징"
+ feature_decoration_pattern_quotes:0 "영감을 불어넣는 명언"
+ feature_decoration_pattern_eschatology:0 "종말론적 장면"
+ feature_decoration_pattern_knots:0 "엮인 매듭 무늬"
+ feature_decoration_pattern_animals:0 "동물을 본뜬 무늬"
+ feature_decoration_pattern_bird:0 "위엄 있는 새"
+
+ feature_decoration_material_inlay_HSB_placeholder:0 "#D PLACEHOLDER#!"
+
+ ###########
+ # Quality and wealth #
+ ###########
+
+ quality_fine:0 "질 좋은"
+ quality_very_fine:0 "매우 질 좋은"
+ quality_excellent:0 "훌륭한"
+ quality_masterful:0 "장인의 정성이 담긴"
+
+ adverb_quality_masterful:0 "장인의 정성이 담긴"
+ adverb_quality_excellent:0 "훌륭한"
+ adverb_quality_fine:0 "질 좋은"
+
+ wealth_extravagant:0 "호화찬란한"
+ wealth_opulent:0 "찬란한"
+ wealth_beautiful:0 "아름다운"
+ wealth_elegant:0 "유려한"
+ wealth_ornate:0 "화려한"
+ wealth_fancy:0 "멋진"
+ wealth_plain:0 "수수한"
+
+ article_wealth_plain:0 "수수한"
+ article_wealth_fancy:0 "멋진"
+ article_wealth_ornate:0 "화려한"
+ article_wealth_elegant:0 "유려한"
+ article_wealth_beautiful:0 "아름다운"
+ article_wealth_opulent:0 "찬란한"
+ article_wealth_extravagant:0 "호화찬란한"
+
+ adverb_wealth_extravagant:0 "호화찬란한"
+ adverb_wealth_masterful:0 "장인의 정성이 담긴"
+ adverb_wealth_opulent:0 "찬란한"
+ adverb_wealth_wonderful:0 "황홀한"
+ adverb_wealth_elegant:0 "유려한"
+ adverb_wealth_lavish:0 "현란한"
+ adverb_wealth_beautiful:0 "아름다운"
+ adverb_wealth_rich:0 "사치스러운"
+ adverb_wealth_ornate:0 "화려한"
+ adverb_wealth_fancy:0 "멋진"
+ adverb_wealth_plain:0 "수수한"
+
+ ############################
+ # Weapon Descriptions 		#
+ ############################
+ create_artifact_weapon_tooltip:0 "[inspiration_owner.GetShortUIName](이)가 [SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 [SCOPE.Custom('ArtifactWeaponType')](을)를 만듦"
+ # Sword and Dagger components (Blades, Hilts, and Pommels) 
+ feature_hilt_decoration_carved_pattern:0 "자루에는 간략화되긴 했지만 [Artifact.GetFeatureText( 'decoration_pattern' )](을)를 나타내는 각인이 새겨져 있습니다"
+ feature_hilt_decoration_inlay_pattern:0 "자루에는 [Artifact.GetFeatureText( 'decoration_pattern' )] 양식에 맞춰 만들어진 [Artifact.GetFeatureText( 'decoration_material_inlay' )] 상감 장식으로 꾸며져 있습니다"
+ feature_hilt_decoration_filigree:0 "자루에는 선조 세공으로 만들어진 [Artifact.GetFeatureText( 'decoration_material_wire' )] 장식으로 꾸며져 있습니다"
+ feature_hilt_decoration_rounded_pommels:0 "폼멜은 둥근 형상으로 되어 있고, [Artifact.GetFeatureText( 'decoration_material_inlay' )] 상감 장식으로 꾸며져 있습니다"
+ feature_hilt_decoration_wires:0 "손잡이에는 나선 형태의 [Artifact.GetFeatureText( 'decoration_material_wire' )] 상감이 새겨져 있습니다"
+ feature_hilt_decoration_circles:0 "손잡이에는 일련의 장식된 [Artifact.GetFeatureText( 'decoration_material_wire' )] 고리가 달려 있고, 균일한 간격에 맞춰 가죽끈으로 묶여 있습니다."
+ feature_hilt_decoration_twisting:0 "자루와 폼멜에는 섬세하게 왜곡된 형상을 이루는 [Artifact.GetFeatureText( 'decoration_material_inlay' )] 상감이 새겨져 있습니다"
+ feature_blade_decoration_etched_pattern:0 "칼날 부분에는 [Artifact.GetFeatureText( 'decoration_pattern' )](이)가 돋을새김으로 조각되어 있습니다"
+ feature_blade_decoration_etched_motto:0 "칼날 부분에는 "[Artifact.GetOwner.GetHouse.GetMotto]"이란 문구가 새겨져 있습니다"
+ feature_blade_decoration_etched_owner:1 "칼날 부분에는 "[Artifact.GetOwner.GetPrimaryTitle.GetNameNoTierNoTooltip]의 [Artifact.GetOwner.GetTitledFirstName]의 소유물"이란 글귀가 새겨져 있습니다."
+
+ # Swords
+ artifact_sword_name:0 "$artifact_name_prefix$ 장검"
+ artifact_sword_description:3 "[SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 [newly_created_artifact.GetFeatureText( 'blade_metal' )] 장검입니다. [newly_created_artifact.Custom('ArtifactSwordDecoration')]"
+ sword_decoration_hilt_and_blade:1 "[ROOT.Artifact.GetFeatureText( 'hilt_decoration' )|U]. 또한, [ROOT.Artifact.GetFeatureText( 'blade_decoration' )]."
+ sword_decoration_hilt:1 "[ROOT.Artifact.GetFeatureText( 'hilt_decoration' )|U]."
+ sword_decoration_blade:1 "[ROOT.Artifact.GetFeatureText( 'blade_decoration' )|U]."
+ sword_decoration_none:0 "수수하고 별다른 장식도 없지만, 매력적인 인상을 심어줍니다."
+ sword_decoration_none_alt:0 "전체적인 구조가 뚜렷한 목적을 염두에 두고 만들어졌음을 시사합니다. 또, 사치스러운 군더더기 장식이 없어 주인을 실용적인 성격으로 보이게 합니다."
+
+ # Daggers
+ artifact_dagger_name:0 "[owner.GetTitledFirstNamePossessiveNoTooltip] 단검"
+ artifact_dagger_description:1 "[SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 [newly_created_artifact.GetFeatureText( 'blade_metal' )] 단검입니다. [newly_created_artifact.Custom('ArtifactDaggerDecoration')]"
+ dagger_decoration_hilt_and_blade:0 "$sword_decoration_hilt_and_blade$"
+ dagger_decoration_hilt:0 "$sword_decoration_hilt$"
+ dagger_decoration_blade:0 "$sword_decoration_blade$"
+ dagger_decoration_none:0 "$sword_decoration_none$"
+
+ # Axe, Spear, Hammer, and Mace components (Heads, Shafts/Hafts)
+ feature_head_decoration_etched_pattern:0 "[Artifact.GetFeatureText( 'decoration_pattern' )](이)가 돋을새김으로 조각되어 있습니다."
+ feature_head_decoration_religious_motifs:0 "서로 다른 [Artifact.GetOwner.GetFaith.GetAdjective] 상징이 새겨져 있습니다."
+ feature_shaft_decoration_painted_pattern:0 "[Artifact.GetFeatureText( 'decoration_pattern' )] 그림이 그려져 있습니다."
+ feature_shaft_decoration_inlay:0 "[Artifact.GetFeatureText( 'decoration_material_inlay_HSB' )](으)로 상감 세공이 되어 있습니다."
+ feature_shaft_decoration_varnish:0 "광택제가 도포되어 있어 중후하고 짙은 광채를 발산합니다."
+ feature_shaft_decoration_grooves:0 "작은 홈이 파여 있어, 사용자가 편안하게 쥘 수 있습니다."
+ feature_shaft_decoration_wavelets:0 "잔물결 모양으로 섬세한 홈이 파여 있어 손에 쥐었을 때 미끄러짐을 방지합니다."
+ feature_shaft_decoration_lines:0 "가느다란 줄이 새겨져 있어 재질의 겉모습을 돋보이게 하는 한편, 좋은 질감과 편안한 사용감을 제공합니다."
+ feature_metal_handle_decoration_inlay:0 "[Artifact.GetFeatureText( 'decoration_material_inlay' )](으)로 상감 세공이 되어 있습니다."
+ feature_metal_handle_decoration_etched_pattern:0 "반복되는 [Artifact.GetFeatureText( 'decoration_pattern' )] 형상이 새겨져 있습니다."
+
+ # Axes
+ artifact_axe_name:0 "$artifact_name_prefix$ 전투 도끼"
+ artifact_axe_description:2 "[SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 전투 도끼입니다. [newly_created_artifact.Custom('ArtifactAxeHeadDescription')] [newly_created_artifact.Custom('ArtifactAxeHaftDescription')]"
+ artifact_axe_head_undecorated:1 "머리 부분은 [ROOT.Artifact.GetFeatureText( 'head_metal' )](으)로 만들어졌습니다."
+ artifact_axe_head_decorated:1 "머리 부분은 [ROOT.Artifact.GetFeatureText( 'head_metal' )](으)로 만들어졌으며, [ROOT.Artifact.GetFeatureText( 'head_decoration' )]."
+ artifact_axe_haft_undecorated:2 "자루는 튼튼한 [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] 소재로 되어 있습니다. 전문가의 손길이 닿은 덕택에 완벽한 균형을 자랑하며, 예리하고 휘두르기도 쉽습니다."
+ artifact_axe_haft_decorated:1 "자루는 세련된 [ROOT.Artifact.GetFeatureText( 'shaft_wood' )](으)로 만들어졌으며, [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )]."
+ 
+ # Hammers
+ artifact_hammer_name:1 "$artifact_name_prefix$ 전쟁 망치"
+ artifact_hammer_description:3 "[SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 전쟁 망치입니다. [newly_created_artifact.Custom('ArtifactHammerHeadDescription')] [newly_created_artifact.Custom('ArtifactHammerShaftDescription')]"
+ artifact_hammer_head_undecorated:0 "$artifact_axe_head_undecorated$"
+ artifact_hammer_head_decorated:0 "$artifact_axe_head_decorated$"
+ artifact_hammer_shaft_undecorated:1 "자루는 튼튼한 [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] 소재로 되어 있습니다."
+ artifact_hammer_shaft_decorated:1 "자루는 세련된 [ROOT.Artifact.GetFeatureText( 'shaft_wood' )](으)로 만들어졌으며, [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )]."
+
+ # Spears
+ artifact_spear_name:0 "$artifact_name_prefix$ 창"
+ artifact_spear_description:2 "[SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 장창입니다. [newly_created_artifact.Custom('ArtifactSpearHeadDescription')] [newly_created_artifact.Custom('ArtifactSpearShaftDescription')]"
+ artifact_spear_head_undecorated:0 "$artifact_axe_head_undecorated$"
+ artifact_spear_head_decorated:0 "$artifact_axe_head_decorated$"
+ artifact_spear_head_decorated_flanked:1 "양날로 된 칼날의 측면에는 길쭉한 가시가 뻗어 나와 창의 모습을 부각하면서도 치명적인 인상을 줍니다."
+ artifact_spear_shaft_undecorated:1 "자루는 튼튼한 [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] 소재로 되어 있습니다."
+ artifact_spear_shaft_undecorated_alt:2 "자루는 튼튼한 [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] 소재로 되어 있습니다. 실로 품격 있으면서도 치명적인 무기입니다."
+ artifact_spear_shaft_decorated:1 "자루는 세련된 [ROOT.Artifact.GetFeatureText( 'shaft_wood' )](으)로 만들어졌으며, [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )]."
+
+ # Maces
+ artifact_mace_name:0 "$artifact_name_prefix$ 철퇴"
+ artifact_mace_description:2 "[SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 접합 철퇴입니다. [newly_created_artifact.Custom('ArtifactMaceHeadDescription')] [newly_created_artifact.Custom('ArtifactMaceHandleDescription')]"
+ artifact_mace_head_undecorated:0 "$artifact_axe_head_undecorated$"
+ artifact_mace_head_decorated:0 "$artifact_axe_head_decorated$"
+ artifact_mace_handle_undecorated:1 "손잡이는 견고한 [ROOT.Artifact.GetFeatureText( 'handle_metal' )] 소재로 되어 있습니다."
+ artifact_mace_handle_decorated:2 "손잡이는 세련된 [ROOT.Artifact.GetFeatureText( 'handle_metal' )](으)로 만들어졌으며, [ROOT.Artifact.GetFeatureText( 'metal_handle_decoration' )]."
+
+ ############################
+ # Wearable Descriptions	#
+ ############################
+
+ # Armor
+ artifact_armor_name:0 "[SCOPE.Custom('ArtifactArmorArtifactName')]"
+ artifact_armor_name_basic:1 "$artifact_name_prefix$ [newly_created_artifact.GetFeatureText( 'armor_property' )|U] [SCOPE.Custom('ArtifactArmorTypeUppercase')|U]"
+ artifact_armor_name_culture:0 "[ROOT.Char.GetCulture.GetNameNoTooltip] [SCOPE.Custom('ArtifactArmorTypeUppercase')|U]"
+ artifact_armor_name_dynasty:1 "[ROOT.Char.GetDynasty.GetBaseNameNoTooltip] [SCOPE.Custom('ArtifactArmorTypeUppercase')|U]"
+ artifact_armor_name_descriptor:1 "[newly_created_artifact.GetFeatureText( 'armor_property' )|U] [SCOPE.Custom('ArtifactArmorTypeUppercase')|U]"
+
+ artifact_armor_mail_lowercase:0 "사슬갑옷"
+ artifact_armor_mail_uppercase:0 "사슬갑옷"
+ artifact_armor_plate_lowercase:0 "판금 갑옷"
+ artifact_armor_plate_uppercase:0 "판금 갑옷"
+ artifact_armor_scale_lowercase:0 "어린갑"
+ artifact_armor_scale_uppercase:0 "어린갑"
+ artifact_armor_lamellar_lowercase:0 "찰갑"
+ artifact_armor_lamellar_uppercase:0 "찰갑"
+ artifact_armor_laminar_lowercase:0 "판갑"
+ artifact_armor_laminar_uppercase:0 "판갑"
+ artifact_armor_brigandine_lowercase:1 "세그먼티드 갑옷"
+ artifact_armor_brigandine_uppercase:1 "세그먼티드 갑옷"
+ artifact_armor_shield_lowercase:0 "방패"
+ artifact_armor_shield_uppercase:0 "방패"
+
+ artifact_armor_descriptor_shiny:0 "빛나는"
+ artifact_armor_descriptor_flexible:0 "유연한"
+ artifact_armor_descriptor_powerful:0 "강력한"
+ 
+ feature_artifact_armor_descriptor_shiny:0 "$artifact_armor_descriptor_shiny$"
+ feature_artifact_armor_descriptor_lustrous:0 "광택이 흐르는"
+ feature_artifact_armor_descriptor_burnished:0 "반짝이는"
+ feature_artifact_armor_descriptor_flexible:0 "$artifact_armor_descriptor_flexible$"
+ feature_artifact_armor_descriptor_powerful:0 "$artifact_armor_descriptor_powerful$"
+ feature_artifact_armor_descriptor_silver_inlaid:0 "은"
+ feature_artifact_armor_descriptor_gold_inlaid:0 "황금"
+ feature_artifact_armor_descriptor_bronze_inlaid:0 "청동판"
+ feature_artifact_armor_descriptor_armor_material_hardened_leather:0 "강화된"
+ feature_artifact_armor_descriptor_armor_material_steel:0 "강철"
+ feature_artifact_armor_descriptor_armor_gold_decorated:0 "황금 장식"
+ feature_artifact_armor_descriptor_armor_silver_decorated:0 "은 안감을 덧댄"
+ feature_artifact_armor_descriptor_armor_copper_decorated:0 "구리 안감을 덧댄"
+
+ feature_armor_material_iron:0 "$metal_iron$"
+ feature_armor_material_steel:0 "$metal_steel$"
+ feature_armor_material_gold:0 "$metal_gold$"
+ feature_armor_material_bronze:0 "$metal_bronze$"
+ feature_armor_material_canvas:0 "$cloth_canvas$"
+ feature_armor_material_horn:0 "$material_horn$"
+ feature_armor_material_pangolin_scales:0 "$material_pangolin_scales$"
+ feature_armor_material_leather:0 "$material_leather$"
+ feature_armor_material_hardened_leather:0 "$material_hardened_leather$"
+
+ feature_armor_helmet_spangenhelm:0 "본 세트에는 스팡겐헬름과 아벤테일이 포함되어 있습니다"
+ feature_armor_helmet_crested:0 "본 세트에는 장식용 눈썹이 부착된 날개 투구가 포함되어 있습니다"
+ feature_armor_helmet_nasal:0 "본 세트에는 코받이 투구와 [Artifact.GetFeatureText( 'generic_material_cloth' )] 장식이 덧대어진 사슬 코이프가 포함되어 있습니다"
+ feature_armor_helmet_enclosed:0 "본 세트에는 밀폐형 투구와 [Artifact.GetFeatureText( 'generic_material_cloth' )] 장식이 덧대어진 사슬 코이프가 포함되어 있습니다"
+ feature_armor_helmet_great_helmet:0 "본 세트에는 그레이트 헬름과 [Artifact.GetFeatureText( 'generic_material_cloth' )] 장식이 덧대어진 사슬 코이프가 포함되어 있습니다"
+ feature_armor_helmet_great_helmet_bascinet:0 "본 세트에는 그레이트 헬름과 그 밑에 착용하는 바시넷이 포함되어 있습니다"
+ feature_armor_helmet_great_helmet_cervelliere:0 "본 세트에는 그레이트 헬름과 그 밑에 착용하는 세르블리에르가 포함되어 있습니다"
+ feature_armor_helmet_turban_helmet:0 "본 세트에는 터번 투구와 아벤테일이 포함되어 있습니다"
+ feature_armor_helmet_lamellar:0 "본 세트에는 찰갑 투구와 정수리를 장식하는 깃털 및 아벤테일이 포함되어 있습니다"
+ feature_armor_helmet_kettle:0 "본 세트에는 챙이 넓은 케틀 햇이 포함되어 있습니다"
+ feature_armor_helmet_cervelliere:0 "본 세트에는 반구형의 세르블리에르와 [Artifact.GetFeatureText( 'generic_material_cloth' )] 장식이 덧대어진 사슬 코이프가 포함되어 있습니다"
+ feature_armor_helmet_kulah_khud:0 "본 세트에는 쿨라 쿠드 투구와 아벤테일이 포함되어 있습니다"
+
+ feature_armor_decoration_etched_pattern:0 "갑옷 전체에 반복되는 [Artifact.GetFeatureText( 'decoration_pattern' )] 형상이 새겨져 있습니다"
+ feature_armor_decoration_inlay_pattern:0 "갑옷 전체에 [Artifact.GetFeatureText( 'decoration_material_inlay' )] 상감 장식이 들어가 있으며, [Artifact.GetFeatureText( 'decoration_pattern' )]의 형상이 반복적으로 나타납니다"
+ feature_armor_decoration_painted_pattern:0 "갑옷 전체에 [Artifact.GetFeatureText( 'decoration_pattern' )] 그림이 그려져 있습니다"
+ feature_armor_decoration_lines:0 "갑옷 전체에 가느다란 줄이 새겨져 있어 재질의 겉모습을 부각됩니다"
+ feature_armor_decoration_gold_plating:0 "갑옷 전체에 두꺼운 금도금이 되어 있습니다"
+ feature_armor_decoration_lining:0 "장식용 [Artifact.GetFeatureText( 'decoration_material_wire' )](으)로 만들어진 최하단부 연결고리"
+ feature_armor_decoration_embossed:0 "아름다운 양식의 철판 고정용 [Artifact.GetFeatureText( 'decoration_material_wire' )] 리벳"
+ feature_armor_decoration_grouped_rivets:0 "촘촘히 박힌 철판 고정용 [Artifact.GetFeatureText( 'decoration_material_wire' )] 리벳"
+
+ artifact_armor_description:0 "[SCOPE.Custom('ArtifactArmorDesc')]. [newly_created_artifact.GetFeatureText('armor_helmet')]. [newly_created_artifact.GetFeatureText('armor_decoration')]."
+ 
+ artifact_armor_mail_description:2 "사슬을 엮어 만든고로 장식을 덧댈 부분이 많지는 않지만, 리벳의 [SCOPE.Custom('ArtifactQuality')] 형태만 봐도 흔한 사슬갑옷과는 차원이 다른 물건임을 알 수 있습니다."
+ artifact_armor_plate_description:2 "[SCOPE.Custom('ArtifactAdverbQuality')] 수준으로 단조된 대형 [newly_created_artifact.GetFeatureText( 'armor_material' )] 철판으로 만들어진 갑옷입니다. 착용자를 완전히 뒤덮습니다."
+ artifact_armor_scale_description:2 "[SCOPE.Custom('ArtifactAdverbQuality')] 수준으로 가공된 [newly_created_artifact.GetFeatureText( 'armor_material' )] 비늘로 만든 갑옷입니다."
+ artifact_armor_lamellar_description:2 "[newly_created_artifact.GetFeatureText( 'generic_material_cordage' )] 끈으로 엮은 [SCOPE.Custom('ArtifactAdverbQuality')] [newly_created_artifact.GetFeatureText( 'armor_material' )] 판갑입니다. 장식과 안감은 잘라낸 [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )](으)로 만들어졌습니다."
+ artifact_armor_laminar_description:2 "[newly_created_artifact.GetFeatureText( 'armor_material' )] 끈을 수평으로 겹겹이 겹쳐서 만든 [SCOPE.Custom('ArtifactAdverbQuality')] 갑옷입니다. [newly_created_artifact.GetFeatureText( 'generic_material_cordage' )] 끈으로 엮여 있으며, 장식과 안감은 잘라낸 [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )](으)로 만들어졌습니다."
+ artifact_armor_brigandine_description:2 "갑옷의 [newly_created_artifact.GetFeatureText( 'armor_material' )](이)가 강판에 [SCOPE.Custom('ArtifactAdverbQuality')] 수준으로 접합되어 있으며, [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )](으)로 덮어 씌워져 있습니다."
+ artifact_armor_fallback_description:2 "[SCOPE.Custom('ArtifactDecorationArmor')]."
+
+ create_artifact_armor_tooltip:1 "[inspiration_owner.GetShortUIName](이)가 [SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 [SCOPE.Custom('ArtifactArmorTypeLowercase')](을)를 만듦"
+
+ # Regalia
+ artifact_regalia_name:0 "$artifact_name_prefix$ 표장"
+ artifact_regalia_description:1 "[SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 [SCOPE.Custom('ArtifactArticleWealth')] 표장입니다. [newly_created_artifact.GetFeatureText( 'regalia_scepter' )], [newly_created_artifact.GetFeatureText( 'regalia_clothes' )], [newly_created_artifact.GetFeatureText( 'regalia_accessory' )](으)로 구성되어 있습니다."
+
+ feature_regalia_scepter_gemstone:0 "[Artifact.GetFeatureText( 'decoration_material_gem' )] 장식이 여럿 부착된 [Artifact.GetFeatureText( 'decoration_material_wire' )] 왕홀"
+ feature_regalia_accessory_orb:0 "십자가가 새겨진 [Artifact.GetFeatureText( 'decoration_material_wire' )] 보주"
+ feature_regalia_accessory_necklace:0 "큼지막한 [Artifact.GetFeatureText( 'decoration_material_gem' )](을)를 둥글게 연마한 목걸이"
+ feature_regalia_clothes_robe:0 "[Artifact.GetFeatureText( 'decoration_material_embroidery' )] 실로 자수를 놓은 질 좋은 [Artifact.GetFeatureText( 'generic_material_cloth' )] 로브"
+ feature_regalia_clothes_cloak:0 "[Artifact.GetFeatureText( 'decoration_material_embroidery' )] 실로 자수를 놓은 [Artifact.GetFeatureText( 'generic_material_cloth' )] 망토"
+
+ create_artifact_regalia_tooltip:1 "[inspiration_owner.GetShortUIName](이)가 [SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 표장을 만듦"
+
+
+ # Crowns
+ artifact_crown_name:0 "$artifact_name_prefix$ 왕관"
+ artifact_crown_description:1 "[SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 [SCOPE.Custom('ArtifactArticleWealth')] 왕관입니다. 이 왕관은 [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )](으)로 만들어졌습니다. [newly_created_artifact.GetFeatureText( 'crown_decoration' )]."
+
+ feature_crown_decoration_gems:1 "작은 [Artifact.GetFeatureText( 'decoration_material_gem' )] 장식이 결합되어 있습니다."
+ feature_crown_decoration_filigree:0 "선조 세공으로 만들어진 장식으로 꾸며져 있습니다."
+ feature_crown_decoration_filigree_and_gem:0 "중앙에 커다란 [Artifact.GetFeatureText( 'decoration_material_gem' )](이)가 박힌 선조 세공 장식으로 꾸며져 있습니다."
+
+ create_artifact_crown_tooltip:1 "[inspiration_owner.GetShortUIName](이)가 [SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 왕관을 만듦"
+
+
+ # Brooches
+ artifact_brooch:0 "브로치"
+ artifact_brooch_name:0 "$artifact_name_prefix$ 브로치"
+ artifact_brooch_description:1 "[SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 [SCOPE.Custom('ArtifactArticleWealth')] 브로치입니다. [newly_created_artifact.GetFeatureText( 'brooch_decoration' )]."
+
+ feature_brooch_decoration_centerpiece_and_adornment:0 "[Artifact.GetFeatureText( 'brooch_adornment' )] [Artifact.GetFeatureText( 'brooch_centerpiece' )](으)로 구성되어 있습니다"
+ feature_brooch_decoration_centerpiece:0 "[Artifact.GetFeatureText( 'decoration_material_wire' )] 고정대에 결합된 [Artifact.GetFeatureText( 'brooch_centerpiece' )](으)로 구성되어 있습니다"
+ feature_brooch_decoration_adornment:0 "[Artifact.GetFeatureText( 'brooch_adornment' )] [Artifact.GetFeatureText( 'decoration_material_wire' )] 고정대로 구성되어 있습니다"
+ feature_brooch_centerpiece_cabochon:0 "둥글게 연마한 [Artifact.GetFeatureText( 'decoration_material_gem' )] 보석"
+ feature_brooch_centerpiece_cross:0 "[Artifact.GetFeatureText( 'decoration_material_wire' )] 십자가상"
+ feature_brooch_centerpiece_sword:0 "[Artifact.GetFeatureText( 'decoration_material_wire' )](으)로 만들어진 검 모형"
+ feature_brooch_adornment_filigree:0 "선조 세공으로 꾸며진"
+ feature_brooch_adornment_gems:0 "작은 [Artifact.GetFeatureText( 'decoration_material_gem' )] 조각으로 꾸며진"
+ feature_brooch_adornment_runes:0 "룬 문자가 찍힌 [Artifact.GetFeatureText( 'decoration_material_wire' )] 고리에 감싸인"
+ create_artifact_brooch_tooltip:0 "[inspiration_owner.GetShortUIName](이)가 [SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 [SCOPE.Custom('ArtifactArticleWealth')|l] 브로치를 만듦"
+
+ ## fund_inspiration.6001-6006 trinkets from your adventurer
+ morin_khuur_ornament_name:0 "모린 후르 말 장식"
+ morin_khuur_ornament_description:1 "말의 뼈를 깎아 만든 말 머리 장식입니다. 일반적으로 모린 후르 악기의 최상부에 장식으로 쓰입니다. 모험 중인 [inspiration_owner.GetTitledFirstNameNoTooltip](이)가 [owner.GetTitledFirstNameNoTooltip]에게 보낸 물건입니다."
+ animal_ring_name:0 "휘황찬란한 호랑이 반지"
+ animal_ring_description:1 "보석이 수놓아져 있고, 총천연색의 빛깔을 자랑하는 장신구입니다. 패션 감각으로 궁정 신하의 감탄을 얻기보단 눈 부신 빛으로 눈을 멀게 할 가능성이 더 큽니다. 모험 중인 [inspiration_owner.GetTitledFirstNameNoTooltip](이)가 [owner.GetTitledFirstNameNoTooltip]에게 보낸 물건입니다."
+ ostrich_shell_necklace_name:0 "타조알 껍질 구슬 목걸이"
+ ostrich_shell_necklace_description:1 "영롱한 하얀색 빛깔을 내뿜는 섬세한 장신구입니다. 모험 중인 [inspiration_owner.GetTitledFirstNameNoTooltip](이)가 [owner.GetTitledFirstNameNoTooltip]에게 보낸 물건입니다."
+ pilgrimage_figurine_name:0 "성자 바르단 오징어뼈 조각상"
+ pilgrimage_figurine_description:1 "451년 아바라이르 전투에서 승리를 거둬, 아르메니아인이 기독교를 숭배할 수 있도록 권리를 쟁취한 아르메니아 장군 바르단 마미코니안의 조각상입니다. 장군의 투구는 청동으로 세밀하게 표현되어 있습니다. 모험 중인 [inspiration_owner.GetTitledFirstNameNoTooltip](이)가 [owner.GetTitledFirstNameNoTooltip]에게 보낸 물건입니다."
+ saint_margaret_fingernails_name:0 "성녀 마르가레타의 손톱"
+ saint_margaret_fingernails_description:1 "안티오크의 성녀 마르가레타는 신발 굽만을 사용해 용을 처단한 것으로 유명한 인물입니다. 이 징그럽고 오래된 손톱 조각은 마르가레타의 것이라고 합니다. 모험 중인 [inspiration_owner.GetTitledFirstNameNoTooltip](이)가 [owner.GetTitledFirstNameNoTooltip]에게 보낸 물건입니다."
+ seahorse_brooch_name:0 "황금 해마 브로치"
+ seahorse_brooch_description:1 "날개와 꼬리지느러미를 가진 말에 세밀한 사슬 술이 달려 있는 브로치입니다. 모험 중인 [inspiration_owner.GetTitledFirstNameNoTooltip](이)가 [owner.GetTitledFirstNameNoTooltip]에게 보낸 물건입니다."
+
+
+ #fund_inspiration.6500- trinkets from your adventurer
+ leopard_hat_name:0 "표범 모자"
+ leopard_hat_description:0 "[inspiration_owner.GetTitledFirstName](이)가 잡은 표범의 머리로 만든 모자입니다."
+ kurgan_ornament_name:0 "스키타이 표범 모형"
+ kurgan_ornament_description:0 "[inspiration_owner.GetTitledFirstName](이)가 오래된 스키타이 쿠르간 봉분에서 입수한 돌 모형입니다."
+ kurgan_saddle_name:0 "쿠르간의 안장"
+ kurgan_saddle_description:1 "[inspiration_owner.GetTitledFirstName](이)가 스키타이 봉분에서 빼돌린 안장입니다. 천 년이 넘은 물건으로, 무덤의 밀폐된 환경에서 십수 마리의 방부 처리된 말들과 함께 보관되어 있었습니다. 어쩌면 고대 기마 전사들의 방식을 배울 수 있을지도 모릅니다."
+ naked_tapestry_name:0 "나체 태피스트리"
+ naked_tapestry_description:0 "해변 오아시스에 있는 [inspiration_owner.GetTitledFirstName]의 나체를 묘사한 작품입니다. 잎사귀로 부채질하는 그의 나체는 수정처럼 투명한 물방울로 번들거립니다."
+
+ frogspawn_jar_name:0 "개구리 알 단지"
+ frogspawn_jar_description:0 "웬 철벅이는 알이 가득 들어 있는 단지로, 이미 부화한 올챙이 몇 마리가 보입니다. 실외의 공포를 나타내는 상징으로서 [inspiration_owner.GetTitledFirstName](이)가 [ROOT.Char.GetTitledFirstNameNoTooltip]에게 보낸 것입니다.\n\n꿈틀꿈틀!"
+ beaver_book_name:1 "비버의 궁전"
+ beaver_book_description:0 "비버의 건축 및 제작 기법을 다룬 책으로, [inspiration_owner.GetTitledFirstName](이)가 여행을 다니면서 글을 쓰고 스케치를 채워 넣었습니다."
+ crocodile_tapestry_name:0 "악어 태피스트리"
+ crocodile_tapestry_description:0 "[inspiration_owner.GetTitledFirstNamePossessive] 역량이 완연하게 드러난 악어 태피스트리입니다. 태피스트리에 표현된 악어는 밝은 붉은색을 띠고 있으며, 여러 겹의 송곳니와 유독한 농포, 가시 돋친 꼬리를 갖고 있습니다. 또한, 폭포 뒤 동굴에 숨겨진 수많은 알로 둘러싸여 있습니다."
+ mountain_rock_name:0 "산의 바위"
+ mountain_rock_description:0 "[inspiration_owner.GetTitledFirstName](이)가 힘겹게 [mountain_location.GetName]에서 운반해온 거대한 바위입니다."
+ 
+ # Game start additional unique artifacts
+ reichskrone_name:0 "신성 제국관"
+ reichskrone_description:1 "신성 로마 제국 황제의 상징입니다. 공작이라면 백이면 백 눈길을 보낼 것입니다."
+ nikephoros_crown_name:0 "니키포로스 2세 포카스의 왕관"
+ nikephoros_crown_description:2 "황실 역사상 가장 우수했던 전략가의 왕관입니다. 제국의 서방에서는 전쟁을 승리로 이끄는 데 실패했지만, 동방에서는 정복자로 군림하였죠."
+ skull_cap_charlemagne_name:0 "카롤루스 대제의 두개관"
+ skull_cap_charlemagne_description:0 "바로 이 상자 안에 그 카롤루스 대제의 정수리가 들어 있습니다. 소유자에게 대제의 지혜가 깃들지도 모릅니다."
+ papal_tiara_name:0 "교황 티아라"
+ papal_tiara_description:1 "교황을 상징하는 황금 왕관으로, 보석 박힌 미트라가 포함됩니다. 어쨌든 당신이 쓸 때 가장 찬란하게 빛나지 않겠습니까?"
+ essen_crown_name:0 "킨더크로네"
+ essen_crown_description:1 "혹자는 에센에서 즉위한 오토 3세를 위해 만들어진 왕관이라고 말합니다. 한편으로는 본래 성모상을 꾸미기 위해 만들어진 물건이라는 얘기도 있습니다. 어쨌든 크기가 무척이나 작습니다. 어찌어찌 머리에 욱여넣을 수 있을지도 모르죠."
+ monomachus_crown_name:1 "모노마호스 왕관"
+ monomachus_crown_description:1 "황금 판에 콘스탄티노스 9세 모노마호스와 그의 아내 조이, 자매 테오도라, 우화적으로 표현된 춤추는 인물들이 묘사되어 있는 왕관입니다."
+ edmund_head_name:1 "성 에드먼드의 머리"
+ edmund_head_description:0 "에드먼드는 태어난 순간부터 본인을 성자에 봉할 것을 요구했습니다. 전설에 따르면 에드먼드는 이스트 앵글리아의 왕이었으며, 백성들을 학살당하게 두느니 자발적으로 자기 자신을 바이킹에게 제물로 바쳤다고 합니다."
+ dhammapada_name:0 "법구경"
+ dhammapada_description:1 "부처의 말씀을 한데 모은 서책입니다. 섬세한 종려 잎으로 엮었습니다."
+ excalibur_name:0 "엑스칼리버"
+ excalibur_description:0 "영국에서 자신이 진정한 엑스칼리버의 주인이라 주장하지 않는 영주는 사실상 없다고 봐도 무방합니다. 엑스칼리버를 팔아 전쟁 자금을 충당할 수도 있겠죠. 물론 다른 검을 전시했다는 사실을 문객이 눈치채지 않기를 빌어야겠지만."
+ vinaya_pitaka_name:0 "율장"
+ vinaya_pitaka_description:0 "팔리어 대장경을 이루는 세 불교 경전 중 하나입니다. 승려와 비구니가 따라야 하는 규율이 서술되어 있습니다."
+ sutta_pitaka_name:0 "경장"
+ sutta_pitaka_description:1 "부처의 입적 이후, 첫 불교 신자들이 모여 나눈 대담을 바탕으로 쓰인 소승 불교 경전입니다. 부처와 제자들이 나눈 수많은 시와 설교가 담겨 있습니다. 팔리어 대장경의 일부입니다."
+ abhidhamma_pitaka_name:0 "논장"
+ abhidhamma_pitaka_description:0 "부처의 가르침을 세밀하게 분석한 학문 작업물입니다. 팔리어 대장경의 일부입니다."
+
+
+
+
+ # Brooches
+
+ brooch_decoration_centerpiece_and_adornment:0 "[SCOPE.Custom('BroochDecorationAdornment')] [SCOPE.Custom('BroochDecorationCenterpiece')](으)로 구성되어 있습니다"
+ brooch_decoration_centerpiece:0 "[ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('fastener_metal'))] 고정대에 결합된 [SCOPE.Custom('BroochDecorationCenterpiece')](으)로 구성되어 있습니다"
+ brooch_decoration_adornment:0 "[SCOPE.Custom('BroochDecorationAdornment')] [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('fastener_metal'))] 고정대로 구성되어 있습니다"
+ brooch_centerpiece_cabochon:0 "둥글게 연마한 [ROOT.Char.Custom2_Flag('ArtifactGemType', SCOPE.GetFlagName('centerpiece_gem'))] 보석"
+ brooch_centerpiece_cross:0 "[ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('centerpiece_metal'))] 십자가상"
+ brooch_centerpiece_sword:0 "[ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('centerpiece_metal'))](으)로 만들어진 검 모형"
+ brooch_adornment_filigree_primary:0 "선조 세공으로 꾸며진"
+ brooch_adornment_filigree_secondary:0 "[ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('adornment_filigree_metal'))] 선조 세공으로 꾸며진"
+ brooch_adornment_gems:0 "작은 [ROOT.Char.Custom2_Flag('ArtifactGemType', SCOPE.GetFlagName('adornment_gem'))] 조각으로 꾸며진"
+ brooch_adornment_runes:0 "룬 문자가 찍힌 [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('adornment_runed_ring_metal'))] 고리에 감싸인"
+
+ tiny_sculpture_trinket_name:0 "작은 조각상 모형"
+ tiny_sculpture_trinket_description:1 "자그마한 [statue_owner.GetTitledFirstNameNoTooltip] 조각상입니다. 주머니에 넣을 수 있는 통치자라고나 할까요. [inspiration_owner.GetTitledFirstNameNoTooltip](이)가 제작했습니다."
+ tiny_box_trinket_name:0 "작은 상자 모형"
+ tiny_box_trinket_description:0 "자그마한 수수께끼 상자입니다. 열면 온 세상에 죄악을 퍼뜨릴지도 모를 일입니다. [inspiration_owner.GetTitledFirstNameNoTooltip](이)가 제작했습니다."
+ tiny_chest_trinket_name:0 "작은 보관함 모형"
+ tiny_chest_trinket_description:0 "엄지만 한 자그마한 보관함으로, 잠겨 있습니다. 흔들면 덜거덕거리는 소리가 나며 내용물이 들어 있음을 암시합니다. [inspiration_owner.GetTitledFirstNameNoTooltip](이)가 제작했습니다."
+ tiny_cabinet_trinket_name:0 "작은 진열장 모형"
+ tiny_cabinet_trinket_description:0 "괜히 밟는 불상사가 생기지 않게끔 다른 진열장에 보관하는 게 가능한 초소형 진열장입니다. [inspiration_owner.GetTitledFirstNameNoTooltip](이)가 제작했습니다."
+ tiny_throne_trinket_name:0 "작은 왕좌 모형"
+ tiny_throne_trinket_description:0 "쥐나 여타 설치류가 앉아 통치를 펼칠 만한 왕좌입니다. [inspiration_owner.GetTitledFirstNameNoTooltip](이)가 제작했습니다."
+
+
+#fund_inspiration.6301 same sex love poems
+ prince_archivist_love_poem_name:0 "나는 달이요, 그대는 태양이라"
+ prince_archivist_love_poem_description:0 "사랑에 빠진 두 사내를 다룬 연가입니다. 왕자와 기록관은 주변의 눈초리를 피해 탑 꼭대기에서 별을 감상하며, 은하수에 몸을 맡깁니다. 소문에 따르면 기록관은 [inspiration_owner.GetTitledFirstNamePossessiveNoTooltip] 경험을 토대로 만들어진 인물이라고 합니다."
+ witch_queen_love_poem_name:0 "풀려난 마음"
+ witch_queen_love_poem_description:0 "사랑에 빠진 두 여인을 다룬 시입니다. 마녀와 숲에 있는 마녀의 오두막 근처에서 길을 잃은 여왕을 다룹니다. 두 사람은 사회에서 떨어져 위안을 얻습니다. 풍문에 따르면 마녀가 작가 [inspiration_owner.GetTitledFirstNameNoTooltip] 본인을 표현한 인물이라고 합니다."
+
+ #Books
+ book_artifact_title_desc:0 "서책은 가죽으로 엮여 있으며, [SCOPE.Custom('ArtifactBookSubject')]에 들어간 [relevant_title.GetName]의 희생과 고된 노력이 세세히 담겨 있습니다."
+ book_artifact_no_topic_desc:0 "서책은 가죽으로 엮여 있으며, [SCOPE.Custom('ArtifactBookSubject')]에 관한 상세한 정보가 담겨 있습니다. 또한 세밀한 삽화와 주석이 눈에 띕니다."
+ book_artifact_other_desc:0 "서책은 가죽으로 엮여 있으며, [SCOPE.Custom('ArtifactBookTopic')](와)과 같은 화제를 다루면서도 [SCOPE.Custom('ArtifactBookSubject')]에 대한 [SCOPE.Custom('ArtifactArticleBookContentQuality')] 이해가 담겨 있습니다."
+
+ book_artifact_martial:0 "전투"
+ book_artifact_diplomacy:0 "외교"
+ book_artifact_learning:0 "학구적 문제"
+ book_artifact_stewardship:0 "관리"
+ book_artifact_intrigue:0 "계책"
+ book_artifact_medicine:0 "의학"
+ book_artifact_reveler:0 "향락"
+ book_artifact_blademaster:0 "결투"
+ book_artifact_hunter:0 "사냥"
+ book_artifact_mystic:0 "신비주의"
+ book_artifact_herbalist:0 "약초"
+ book_artifact_physician:0 "건강 관리"
+ book_artifact_torturer:0 "고문"
+ book_artifact_cannibal:0 "인육 섭취"
+ book_artifact_witch:0 "[ROOT.Char.GetFaith.WitchGodName](을)를 숭배하는 법"
+ book_artifact_witch_sponsor:0 "[ROOT.Char.GetLiege.GetFaith.WitchGodName](을)를 숭배하는 법"
+ book_artifact_deviant:0 "색다른 성적 욕망"
+ book_artifact_lunatic:0 "현실의 괴리"
+ book_artifact_unification:0 "결합"
+ book_artifact_creation:0 "만들기"
+ book_artifact_restoration:0 "복구"
+
+ book_artifact_topic_herbs_the_art_of_lovemaking:0 "사랑의 기술"
+ book_artifact_topic_medicine:0 "여러 물약과 연고를 사용하는 방법"
+ book_artifact_topic_herbs:0 "희귀 약초와 식물을 활용하는 수많은 방법"
+ book_artifact_topic_witch:0 "물약, 연고, 약초 사용법과 신앙을 근거로 한 대안 요법"
+
+ book_content_quality_excellent:0 "훌륭한"
+ book_content_quality_deep:0 "진중한"
+ book_content_quality_good:0 "양호한"
+ book_content_quality_modest:0 "평범한"
+ create_artifact_book_tooltip:0 "[inspiration_owner.GetShortUIName](이)가 [SCOPE.Custom('ArtifactQuality')] 글씨체로 쓰인 [SCOPE.Custom('ArtifactArticleWealth')|l] 서책을 만듦"
+
+ create_artifact_artisan_tooltip:0 "[inspiration_owner.GetShortUIName](이)가 [SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 [inspiration_owner.Custom('InspirationArtisanType')](을)를 만듦"
+
+ create_artifact_smith_tooltip:0 "[inspiration_owner.GetShortUIName](이)가 [SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 [inspiration_owner.Custom('InspirationSmithType')](을)를 만듦"
+ feature_blade_wrought_iron:0 "연철"
+ feature_blade_folded_iron:0 "접쇠"
+ feature_blade_steel:0 "강철"
+ feature_blade_wootz_steel:0 "우츠강"
+ feature_blade_bulat_steel:0 "불라트강"
+ feature_blade_damascus_steel:0 "다마스쿠스강"
+
+ ## Character Modifiers made to artifacts ##
+
+ # From court_ongoing_1021
+ artifact_necklace:1 "장신구"
+ artifact_necklace_name:1 "[newly_created_artifact.GetFeatureText( 'decoration_material_gem' )|U] [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )|U] 목걸이"
+ artifact_necklace_description:1 "[SCOPE.Custom('ArtifactQuality')] 만듦새가 돋보이는 [SCOPE.Custom('ArtifactArticleWealth')] 목걸이입니다. 이 목걸이는 [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )](으)로 만들어졌으며, 품위 있는 [newly_created_artifact.GetFeatureText( 'decoration_material_gem' )] 펜던트가 연결되어 있습니다."
+ artifact_pressed_flower_name:1 "압착한 [SCOPE.Custom('ArtifactFlowerSpecies')|U]"
+ artifact_pressed_flower_description:0 "압착하여 그 아름다움을 고스란히 보존한 [SCOPE.Custom('ArtifactFlowerSpecies')]입니다."
+
+ # From stewardship_wealth.1061
+ stewardship_old_ledger_name:0 "오래된 장부"
+ stewardship_old_ledger_description:0 "낡고 지저분한 장부입니다. 휘갈겨 쓴 낙서와 부기 사항으로 가득합니다. 장부가 어떻게 생겼는지 알 수 있다는 점을 제외하면 배울 만한 부분이 하나도 없습니다."
+ feature_book_title_stewardship_old_ledger:0 "$stewardship_old_ledger_name$"
+ feature_book_topic_stewardship_old_ledger:0 "$stewardship_old_ledger_description$"
+
+ # From lover.3219
+ lover_keepsake_hair_name:0 "[original_lover.GetFirstNamePossessiveNoTooltip] 앞머리"
+ lover_keepsake_hair_description:1 "멀리 떨어져 있는 연인인 [lover.GetTitledFirstName]에게 준 [original_lover.GetTitledFirstNamePossessive] 기념품입니다. 언제나 자신의 일부와 함께하라는 의미가 담겨 있습니다."
+ lover_keepsake_clothes_male_name:0 "[original_lover.GetFirstNamePossessiveNoTooltip] 브레"
+ lover_keepsake_clothes_female_name:0 "[original_lover.GetFirstNamePossessiveNoTooltip] 슈미즈"
+ lover_keepsake_clothes_description:1 "[original_lover.GetTitledFirstNamePossessive] 은밀한 의복으로, 멀리 떨어져 있는 연인인 [lover.GetTitledFirstNameNoTooltip]에게 보내준 것입니다. 침소에서 나누었던 뜨거운 열정의 불꽃을 간직하라는 의미가 담겨 있습니다."
+ lover_keepsake_shell_name:0 "[original_lover.GetFirstNamePossessiveNoTooltip] 껍데기"
+ lover_keepsake_shell_description:1 "멀리 떨어져 있는 연인인 [lover.GetTitledFirstNameNoTooltip]에게 준 [original_lover.GetTitledFirstNamePossessive] 기념품입니다. 두 사람이 처음 정사를 나누었던 장소를 떠올리게 해주는 물건이랍니다."
+
+## christian_saint_bone pilgrim reward
+ christian_saint_bone_name:0 "[saint_bone_owner.Custom('RandomSaintNamePossessive')] [saint_bone_owner.Custom('RandomSaintBone')]"
+ christian_saint_bone_description:0 "고명한 성자, [saint_bone_owner.GetFaith.GetReligion.GetAdjectiveNoTooltip]의 유해입니다. [destination_title.GetNameNoTierNoTooltip](으)로 순례 여행을 하던 [saint_bone_owner.GetNameNoTooltip](이)가 입수했습니다. [saint_bone_owner.GetFaith.GetAdherentNamePluralNoTooltip] 신자들 사이에서는 행운과 신앙의 상징으로 귀하게 여겨집니다."
+# bones
+ bone_type_knuckle:0 "손가락 관절"
+ bone_type_shin:0 "정강이"
+ bone_type_kneecap:0 "슬개골"
+ bone_type_femur:0 "대퇴골"
+ bone_type_clavicle:0 "쇄골"
+ bone_type_rib:0 "갈비뼈"
+ bone_type_vertebra:0 "등골뼈"
+ bone_type_jaw:0 "턱뼈"
+ bone_type_toe:0 "발가락"
+ bone_type_scapula:0 "어깨뼈"
+ bone_type_finger:0 "손가락"
+ bone_type_thumb:0 "엄지"
+ bone_type_hip:0 "엉덩이"
+ bone_type_humerus:0 "상완골"
+ bone_type_tibia:0 "정강이뼈"
+ bone_type_ankle:0 "발목"
+
+ # yearly.4081
+ translated_arabic_book_de_materia_medica_name:0 "#italic 약물지#!"
+ translated_arabic_book_de_materia_medica_desc:0 "총 다섯 권으로 구성된 디오스코리데스의 약전 사본으로, 삽화가 그려져 있으며 다양한 식물의 의학적 용도가 저술되어 있습니다. 고대 알렉산드리아에서 쓰였습니다. 또한, $translated_arabic_book_shared_desc$"
+ translated_arabic_book_on_ascensions_name:0 "#italic 승천론#!"
+ translated_arabic_book_on_ascensions_desc:0 "황도 12궁의 움직임에 대한 힙시클레스의 점성술 논문 사본으로, 고대 알렉산드리아에서 쓰였습니다. 또한, $translated_arabic_book_shared_desc$"
+ translated_arabic_book_elements_name:0 "#italic 원론#!"
+ translated_arabic_book_elements_desc:0 "총 13권으로 구성된 유클리드의 수학 논문 사본으로, 기하학과 논리학을 비롯한 여러 증명을 아우릅니다. 고대 알렉산드리아에서 쓰였습니다. 또한, $translated_arabic_book_shared_desc$"
+ translated_arabic_book_on_the_soul_name:0 "#italic 영혼론#!"
+ translated_arabic_book_on_the_soul_desc:0 "총 3권으로 구성된 아리스토텔레스의 심리학 논문 사본으로, 까마득한 옛날에 집필되었습니다. 영혼의 본질과 경향성을 주제로 다룹니다. 또한, $translated_arabic_book_shared_desc$"
+ translated_arabic_book_thucydides_name:0 "#italic 투키디데스의 역사#!"
+ translated_arabic_book_thucydides_desc:0 "먼 옛날 아테네와 스파르타 간의 펠로폰네소스 전쟁을 서술한 투키디데스의 저서 사본입니다. 또한, $translated_arabic_book_shared_desc$"
+ translated_arabic_book_plutarch_name:0 "#italic 플루타르코스 영웅전#!"
+ translated_arabic_book_plutarch_desc:0 "수많은 고대의 지도자와 그 품성을 다룬 플루타르코스의 방대한 인물 열전 사본입니다. 또한, $translated_arabic_book_shared_desc$"
+ translated_arabic_book_shared_desc:0 "[ROOT.Char.GetTitledFirstNameNoTooltipRegnal](을)를 위해 원전의 그리스어에서 아랍어로 번역되었습니다."
+ 
+ # hold_court.4300
+ dress_me_artifact_desc:0 "그 누구보다 우수한 재단사들이 만든 훌륭한 의복입니다. [ROOT.Char.GetTitledFirstNameNoTooltipRegnal](이)가 자신의 궁정 사람들에게 위엄을 과시하고자 주문하였습니다."
+
+ # martial_authority.4000-5
+ improvised_halberd_desc:0 "이 임시변통으로 급조한 변종 할버드는 머리 부분이 빌훅으로 대체되어 있습니다. 한 지점을 노리고 공격하는 데 특화된 급조 무기인 셈입니다."
+ improvised_dagger_desc:0 "이 임시변통으로 급조한 단검은 농기구를 개조하여 만들어졌습니다. 편리함과 절삭력은 그대로 남아 있습니다."
+ improvised_billhook_desc:0 "이 한손 빌훅은 관목에서 나뭇가지를 쳐낼 때 쓰입니다. 왕의 체통에 걸맞은 도구는 아니지만 특유의 곡선형 칼날 덕분에 갑옷 틈새를 놀랍도록 효과적으로 공격할 수 있습니다."
+
+ # yearly_event.7010-50
+ football_cup_desc:0 "축구 경기 승리를 기념하는 의미에서 만들어진 잔입니다."
+ participation_trophy_desc:0 "축구 경기 '승리'를 기념하는 의미에서 만들어진 잔입니다."
+
+ #bp1_yearly.7200
+ perfume_bottle_description:0 "[ROOT.Char.GetFirstNameNoTooltip](이)가 이 향수의 재료들을 모았습니다."
+
+ #Artifact Titles
+ artifact_title_valor:0 "용맹의"
+ artifact_title_virtue:0 "미덕의"
+ artifact_title_pain:0 "고통의"
+ artifact_title_judgement:0 "심판의"
+ artifact_title_merciless:0 "무자비한"
+ artifact_title_brutal:0 "잔혹한"
+ artifact_title_victorious:0 "승리의"
+ artifact_title_famed:0 "저명한"
+ artifact_title_lion:0 "사자의"
+ artifact_title_dragon:0 "용의"
+ artifact_title_raven:0 "까마귀의"
+ artifact_title_hero:0 "영웅의"
+ artifact_title_legendary:0 "전설의"
+ artifact_title_miraculous:0 "기적의"
+ artifact_title_mythical:0 "신화의"
+ artifact_title_fabled:0 "설화의"
+ artifact_title_impenetrable:0 "난공불락의"
+ artifact_title_secure:0 "안전한"
+ artifact_title_solid:0 "견고한"
+ artifact_title_shiny:0 "빛나는"
+ artifact_title_patience:0 "인내의"
+ artifact_title_grace:0 "품위의"
+ artifact_title_mercy:0 "자비의"
+ artifact_title_strength:0 "힘의"
+ artifact_title_invincible:0 "무적의"
+ artifact_title_glorious:0 "영광의"
+ artifact_title_sun:0 "태양의"
+ artifact_title_immortal:0 "불멸의"
+ artifact_title_brave:0 "용감한 자의"
+ artifact_title_quick:0 "영민한"
+ artifact_title_darting:0 "쏜살같은"
+ artifact_title_flashing:0 "섬광의"
+ artifact_title_flickering:0 "명멸하는"
+ artifact_title_shades:0 "암영의"
+ artifact_title_lightning:0 "번개의"
+ artifact_title_thunder:0 "천둥의"
+ artifact_title_stream:0 "강물의"
+ artifact_title_implacable:0 "준엄한"
+ artifact_title_heroic:0 "영웅적인"
+ artifact_title_amazing:0 "굉장한"
+ artifact_title_fearsome:0 "섬뜩한"
+ artifact_title_snakes:0 "뱀의"
+ artifact_title_themerciless:0 "자비 없는 자의"
+ artifact_title_glory:0 "영광스러운 자의"
+# Additional Historical Artifacts
+ artifact_pedestal_koh_i_noor_name:0 "빛의 산맥"
+ artifact_pedestal_koh_i_noor_description:0 "유례없을 정도로 크고 투명한 다이아몬드입니다. 인도 남동부 광산에서 발굴했다는 구전이 있지만, 정확한 기원은 드러나지 않은 듯합니다."
+ artifact_jewelled_danda_name:0 "보석 장식 단다"
+ artifact_jewelled_danda_description:0 "보석으로 장식된 인도의 홀입니다. 군주가 지닌 신하를 처벌할 자격, 그리고 왕권을 나타내는 최고의 상징입니다."
+ artifact_aruval_name:0 "고대 아루발"
+ artifact_aruval_description:0 "굉장히 오랜 역사를 지닌 길다란 아루발입니다. 한때 카푸루 사미가 직접 사용한 물건일 가능성이 있습니다."
+ artifact_khanda_name:0 "의례용 칸다"
+ artifact_khanda_description:0 "전투용이라기보단 의식을 염두에 두고 만들어진 칸다입니다. 무지의 장막을 베어낼 필요성에 관해 여러 세대에 걸쳐 일깨워주는 역할을 해왔습니다."
+ artifact_makarakundala_name:0 "마카라쿤달라"
+ artifact_makarakundala_description:0 "신들이 착용했다고 전해지는 귀걸이입니다. 특히 이 한 쌍은 신성한 존재의 소유물이었다는 이야기가 전해집니다."
+ artifact_cintamani_name:0 "친타마니 보주"
+ artifact_cintamani_hindu_description:0 "과거 하늘에서 떨어졌다고 전해지는 돌입니다. 일부 사람들은 이 돌이 한때 비슈누 혹은 나가 왕의 소유였으며, 주인에게 행운을 보장한다고 주장합니다."
+ artifact_cintamani_buddhist_description:0 "과거 하늘에서 떨어졌다고 전해지는 돌입니다. 일부 사람들은 이 돌이 한때 보리살타와 관세음보살, 지장보살의 소유였으며, 주인의 소원을 이루어준다고 주장합니다."
+ artifact_navaratna_name:0 "나바라트나"
+ artifact_navaratna_description:0 "아홉 개의 보석을 엮은 사슬입니다. 가운데에서는 커다란 루비가 빛나고 있습니다. 힌두교의 아홉 천신을 상징합니다."
+ artifact_shankha_conch_name:0 "샨카 콘치"
+ artifact_shankha_conch_description:0 "비슈누 신을 상징하는 고대 샨카 콘치입니다. 종교 의식에서 나팔로 사용되었으며 번영과 미덕을 상징한다고 전해집니다."
+ artifact_pedestal_great_diamond_name:0 "커다란 다이아몬드"
+ artifact_pedestal_great_diamond_description:0 "탐욕스러운 침입자 한 명에 의해 빼앗긴 거대한 보석입니다. 원래는 사원 조각상을 장식하고 있었다고 전해집니다."
+ al_taj_crown_name:0 "알 타즈 알 샤리프"
+ al_taj_crown_description:0 "명예로운 왕관', 혹은 '숭배의 껍질'로 불리는 왕관입니다. 전통적인 종교 행진에서 칼리프 파티마가 사용하던 물건으로, '알 야티마'라는 거대한 보석이 그 화려함을 더하고 있습니다."
+ qadib_al_mulk_name:0 "카디브 알 물크"
+ qadib_al_mulk_description:0 "칼리프국 파티마에서 사용하던 종교 행렬용 로드입니다. 금으로 겉을 뒤덮고 진주와 보석으로 장식했습니다."
+ al_sayf_al_khass_name:0 "알 사이프 알 카스"
+ al_sayf_al_khass_description:0 "벼락을 붙잡아 만들었다고 전해지는, 보석으로 장식된 검입니다. 금 세공 검집와 짝을 이루는데, 칼리프국 의식에서의 중요성으로 인해 남은 것이 많지 않습니다."
+ al_dawat_name:0 "알 다와트"
+ al_dawat_description:0 "금과 산호로 만들어진 잉크통입니다. 칼리프국의 각종 의식에서 오래 전부터 중요한 역할을 수행해 왔습니다."
+ al_hafir_name:0 "알 하피르"
+ al_hafir_description:0 "알 하피르 또는 '발굽'이라는 이름으로 알려진, 세상에서 보기 드문 품질의 붉은 루비입니다. 비단 조각에 뿌려져 있으며, 에메랄드 막대가 그 주위에서 원을 그리고 있습니다. 전통적으로 칼리프의 말 얼굴 장식에 사용되었다고 합니다."
+ artifact_wall_banner_thankfulness_name:0 "감사의 깃발"
+ artifact_wall_banner_thankfulness_description:0 "금빛 글자를 드러낸 채로 금빛 랜스를 감싸는 하얀색 비단 깃발입니다. 이 깃발과 랜스는 전통적으로 칼리프 종교 행렬에서 운반되었다고 합니다."
+ artifact_arms_of_alex_name:0 "알렉산더의 갑옷"
+ artifact_arms_of_alex_description:0 "리넨을 여럿 겹쳐 만들었으며, 알렉산더 대왕이 입었다고 전해지는 고대 갑옷입니다. 더 이상 실제로 착용할 수 있는 상태는 아니지만, 갑옷 자체만으로도 지중해에서 인도 부근까지 세력을 넓힌 위대한 정복자의 유산이라 할 수 있습니다."
+ artifact_pedestal_al_jabal_name:0 "알 자발"
+ artifact_pedestal_al_jabal_description:0 "알 자발, 혹은 '산맥'이라는 이름의 커다란 루비로 장식된 반지입니다. 견줄 데 없는 크기를 자랑하는 이 반지는 페르시아 사산 왕조의 황제들이 직접 착용했다고 전해집니다."
+ artifact_pedestal_al_yatima_name:0 "알 야티마"
+ artifact_pedestal_al_yatima_description:0 "야티마, 혹은 '고아'라는 이름의 거대한 진주입니다. 세상 어떤 진주와도 다르다는 소문이 전해집니다. 무수한 보석과 진주로 이루어진 가족 사이에서 홀로 고아인 셈입니다."
+ artifact_dagger_of_rostam_name:0 "로스탐의 단검"
+ artifact_dagger_of_rostam_description:0 "무늬가 화려한 단검입니다. 로스탐이 하얀 대바를 살해하기 위해 사용했다고 전해집니다."
+ artifact_spear_of_ascalon_name:0 "아슈켈론"
+ artifact_spear_of_ascalon_description:0 "낡고 부러진 창입니다. 성 조지가 베이루트의 용을 죽일 때 사용한 창의 파편이라는 소문이 전해집니다."
+ artifact_zomorrodnegar_name:0 "샴쉬르 에 조모로드네갈"
+ artifact_zomorrodnegar_description:0 "솔로몬 신화에 등장하는, 에메랄드가 박힌 검입니다. 악마 플라드-제레흐를 죽일 때 사용했다고 합니다."
+ artifact_muhammads_epistles_name:0 "무함마드의 서신"
+ artifact_muhammads_epistles_description:1 "선지자 모함마드와 [THIS.Custom('EpistleReciever')|U] 통치자들이 주고받은 서신의 일부입니다."
+ epistle_syria:0 "시리아"
+ epistle_arabia:0 "아라비아 부족"
+ epistle_persia:0 "페르시아"
+ epistle_byzantium:0 "동로마 제국"
+ epistle_bahrain:0 "바레인"
+ artifact_kaves_apron_name:0 "카베의 앞치마"
+ artifact_kaves_apron_description:0 "페르시아의 대장장이 카베가 자신의 앞치마로 만든 너덜너덜한 깃발입니다. 사악한 지배자에 대항하여 백성을 규합하고자 만들었다는 이야기가 전해집니다."
+ artifact_joyeuse_name:0 "쥬와유스"
+ artifact_joyeuse_description:1 "롱기누스 창을 담고자 만들어진 카롤루스의 검입니다. 기사다운 용맹과 카롤루스 제국의 황실 유산을 상징합니다."
+ artifact_durendal_name:0 "뒤랑달"
+ artifact_durendal_description:0 "전설 속의 뒤랑달이라고 전해지는 짧고 무거운 검입니다. 왕의 적에게 넘기지 않기 위하여 죽어가던 도중 숨겼다고 합니다."
+ artifact_curtana_name:0 "커타나"
+ artifact_curtana_description:0 "자비의 검, 커타나라고 전해지는 물건입니다. 트리스탄이 모홀트를 상대로 싸울 때 사용했으며, 사라진 칼 끝은 아일랜드 거인 모홀트의 두꺼운 두개골 속에 남아있다고 합니다."
+ artifact_ring_angelica_name:0 "안젤리카의 반지"
+ artifact_ring_angelica_description:0 "롤랑과 카롤루스의 이야기로 널리 알려진 안젤리카가 착용했던 반지입니다. 투명의 권능을 부여하지 않는 것으로 볼 때 힘은 사라진 것이 분명하지만, 그럼에도 이 반지는 먼 옛날 공주님을 나타내는 아름다운 상징입니다."
+ artifact_olifant_name:0 "올리판트"
+ artifact_olifant_description:0 "복잡한 조각으로 뒤덮힌 커다란 상아 뿔피리입니다. 일각에서는 롤랑이 론스보 전투에서 죽기 전 도움을 요청할 때 사용한 바로 그 뿔피리라고 주장합니다."
+ artifact_colada_name:0 "콜라다"
+ artifact_colada_description:0 "엘 시드가 소유했던 여러 칼 중 하나라는 소문의 주인공입니다. 그의 기사도를 동경하는 이라면 누구에게든 영감을 불러일으킵니다."
+ artifact_aram_name:0 "아람"
+ artifact_aram_description:0 "여러 세대에 걸쳐 사라졌다가 다시 나타나곤 했던 고대의 검은 창입니다. 장가르 이야기에 나오는 전설적인 창 아람이라는 소문을 수많은 사람이 믿을 정도로 심하게 낡았습니다."
+ artifact_ikenga_name:0 "이켄가"
+ artifact_ikenga_description:0 "뿔이 달린 작은 조각상입니다. 소유자에게 성공과 승리를 보장해 준다는 전승이 있습니다."
+ artifact_mmaagha_kamalu_name:0 "마아가 카말루"
+ artifact_mmaagha_kamalu_description:0 "오랜 세월을 품은, 화려한 의례용 검입니다. 이그보족 전쟁의 신 카말루가 지녔던 무기라는 전설이 내려옵니다."
+ artifact_bronze_head_name:0 "청동 머리"
+ artifact_bronze_head_description:0 "사망한 통치자의 긴 머리를 세밀하게 묘사한 자연주의적 청동 머리입니다. 틀에 부어 굳힌 것이라기보다는 조각에 가깝습니다. 머리를 장식하는 왕관을 통하여 군주라는 신분을 보여줍니다."
+ artifact_crystal_carving_name:0 "수정 조각"
+ artifact_crystal_carving_description:0 "직사각형 모양의 깨끗한 수정 원석으로, 완벽에 가까운 투명도를 자랑합니다. 복잡한 조각이 표면을 대부분 뒤덮고 있으며, 용도는 알 수 없지만 대단히 아름다운 유물임은 틀림없습니다."
+ artifact_ibeji_name:0 "이베지"
+ artifact_ibeji_description:0 "죽은 쌍둥이를 묘사한 작은 나무 조각입니다. 쌍둥이의 가족이 조각을 잘 보살피면 부와 재산이 따라온다는 믿음이 전해집니다. 정교하고 길쭉한 머리 장식이 특징입니다."
+ artifact_kantele_name:0 "고대 칸텔레"
+ artifact_kantele_description:0 "대대로 전해 내려오는 목조 현악기입니다. 그 기원은 배이내뫼이넨 시대까지 거슬러 올라가야 한다는 의견이 존재합니다."
+ artifact_sledovik_name:0 "슬레도비크"
+ artifact_sledovik_description:0 "바위 안으로 깊히 들어가는 발자국이 특징인 커다란 바위입니다. 오랜 세월 동안 제단으로 활용되었으며, 발자국은 그 지역의 성자들이 남긴 것이라고 합니다."
+ artifact_nagelring_name:0 "나겔링"
+ artifact_nagelring_description:0 "구전에 따르면 신화로 널리 알려진 디트리히 폰 베른과 관련이 있다고 전해지는 오래된 검입니다. 이런 연고로 인해 통상적으로는 다다를 수 없을 정도의 명성을 획득했습니다."
+ artifact_kladenets_name:0 "클라데네츠"
+ artifact_kladenets_description:1 "과거에는 스스로 움직였던, 신화 속 클라데네츠라는 전승을 품은 낡은 강철 검입니다. 현재는 휘두르는 것 자체가 쉽지 않은 상태가 되었지만, 그 존재만으로도 초자연적인 기원을 믿는 많은 사람의 존중을 받고 있습니다."
+ artifact_legbiter_name:0 "레그비터"
+ artifact_legbiter_description:0 "상아 칼자루를 지닌 극도로 예리한 검입니다. 한때 노르웨이의 망누스 올라프손 대왕이 지녔던 무기라고 전해집니다."
+ artifact_quernbiter_name:0 "퀘른-비터"
+ artifact_quernbiter_description:0 "노르웨이 왕 하콘이 직접 사용했던 검입니다. 당시에는 맷돌을 가를 정도로 날카로웠다고 합니다."
+ artifact_dragvandil_name:0 "드라그반딜"
+ artifact_dragvandil_description:0 "농부이자 시인, 그리고 전사였으며 에길의 사가를 통해 알려진 에길 스칼라그림손이 지녔다고 전해지는 검입니다."
+ artifact_szczerbiec_name:0 "슈체르비에크"
+ artifact_szczerbiec_description:1 "용감공 볼레스와프 왕이 천사에게 받았다는 전설을 지닌 검입니다. 키이우 황금문을 공격할 때 사용되었다고도 합니다. 막대한 상징성을 지니고 있습니다."
+ artifact_chinese_caligraphy_name:1 "중국 붓글씨"
+ artifact_chinese_caligraphy_description:0 "낯설지만 아름답고 정갈한 상징이 섬세한 종이를 뒤덮고 있습니다. 머나먼 극동의 중국에서 여기까지 흘러온 물건입니다."
+ artifact_ruyi_name:0 "루이"
+ artifact_ruyi_description:0 "옥으로 만든 작은 홀입니다. 중국의 상징과 장식으로 뒤덮여 있습니다."
+ turquoise_throne_name:0 "터키석 왕좌"
+ turquoise_throne_description:0 "샤나마에 등장하는 페르시아 왕들의 전설적인 옥좌를 현실에 구현한 보석 장식 왕좌입니다. 터키색을 입힌 순금뿐만 아니라 헤아릴 수도 없을 정도의 터키석이 흑단 뼈대를 장식합니다. 업계 최고의 장인만이 선보일 수 있는, 숨이 턱 막히는 아름다움을 보여줍니다."
+ peacock_throne_name:0 "공작 왕좌"
+ peacock_throne_description:0 "잠쉬드의 옥좌를 재현하려 만들어 낸 호화로운 왕좌입니다. 전 세계의 장인들이 한데 모여 지금 보고 계신 왕좌에 금은보석 수백 개를 받아 넣었다고 합니다."
+ artifact_banner_islam_name:0 "무함마드의 신성한 깃발"
+ artifact_banner_islam_description:0 "선지자 시절의 유물이자 무슬림 신앙의 상징인 무함마드의 신성한 깃발로 알려져 있습니다."
+ artifact_spear_of_the_prophet_name:0 "선지자의 창"
+ artifact_spear_of_the_prophet_description:0 "소문에 따르면 아비시니아 군주가 알 주바이르 빈 알 아왐에게 선물로 준 무함마드의 창이라고 합니다."
+ artifact_mantle_of_the_prophet_islam_name:0 "선지자의 망토"
+ artifact_mantle_of_the_prophet_description:0 "칼리프가 다음 칼리프로 넘겨주며 수백 년을 이어져 온 선지자의 망토입니다. 연회를 벌이는 모든 휴일에는 칼리프가 전통적으로 착용해야 하며, 압도적인 고요함과 품위를 착용자에게 제공합니다."
+ afarganyu_name:0 "아파르가뉴"
+ artifact_afarganyu_description:0 "다양한 조로아스터교 의식의 핵심인 성화를 밝히는 커다란 그릇입니다. 오래된 글귀를 통해 오래 전 누군가가 사제들에게 기증한 물건임을 알 수 있습니다."
+ siddhachakra_name:0 "싯다차크라"
+ artifact_siddhachakra_description:0 "자이나교 예배에 사용되는 신비한 도식입니다. 꽃잎 위에 앉은 신들이 중앙에 활짝 핀 연을 둘러싸고 있는데, 슈리팔라 왕과 마야나순다리 왕비의 전설에 관련된 상징이라고 합니다."
+ artifact_staff_kakusandha:0 "구류손불의 법장"
+ artifact_staff_kakusandha_desc:0 "현겁 칼파 중 첫 번째 붓다인 구류불손이 사용했던 지팡이입니다. 위험한 동물을 쫓아내고 작은 동물들에게 겁을 주는 용도였다고 합니다. 방랑 수사들이 짓밟지는 않았던 듯합니다."
+ water_filter_konagamana:1 "구나함모니불의 물그릇"
+ water_filter_konagamana_desc:0 "현겁 칼파 중 두 번째 부처인 구나함모니불이 들고 다녔던 물그릇입니다. 단순한 천 조각이지만 두 가지 목적을 동시에 수행합니다. 물을 마실 수 있게 걸러주면서, 그 과정에서 곤충들을 죽이지 않습니다."
+ robe_kassapa:2 "가섭불의 법의 조각"
+ robe_kassapa_desc:0 "현겁 칼파 중 세 번째 부처인 가섭불이 평소 입었던 법의입니다. 붓다의 의복으로 알려진 것 중 유일하게 지금까지 남아, 특별한 경의의 대상이 되고 있습니다."
+ ##Trinket Generation
+ #Bad/Trash
+ gilded_rats_tail:0 "도금된 쥐 꼬리"
+ gilded_rats_tail.desc:0 "가난한 자의 보석입니다."
+ quail_eggshell_gem:0 "메추라기 알껍데기 '보석'"
+ quail_eggshell_gem.desc:0 "형형색색의 알껍데기로, 보석으로 통용되곤 합니다."
+ stained_glass_shard:0 "얼룩투성이 '스테인드' 글라스 조각"
+ stained_glass_shard.desc:0 "독특한 핏빛 색깔로 물들어 있습니다..."
+ xylospongium:0 "해면을 꽂은 막대기"
+ xylospongium.desc:1 "기원과 용도는 불분명합니다. 다만 희미하게 불쾌한 악취가 뿜어져 나옵니다."
+ #Common
+ st_davids_morsel:1 "성 다윗의 고깃덩어리"
+ st_davids_morsel.desc:0 "겉만 보면 말라비틀어진 고기 같습니다. 얼마나 오래됐고 기원은 어떤지 밝혀진 바는 없습니다."
+ platypus_figurine:0 "동물 모형"
+ platypus_figurine.desc:0 "넓적한 부리와 빛나는 털, 물갈퀴를 가진 자그마한 동물입니다. 참 특이하네요."
+ terracotta_toy_fowl:0 "테라코타 장난감 가금류"
+ terracotta_toy_fowl.desc:0 "닳은 표면으로 보건대 한때 사랑받는 장난감이었음을 알 수 있습니다."
+ #This one uses a scope local to the stewardship_general.2001-event
+ stewardship_general.2001.artifact.potsherd_holy:0 "질그릇 조각"
+ stewardship_general.2001.artifact.potsherd_holy.desc:0 "고대의 질그릇 조각입니다. [trinket_holy_site.GetNameNoTierNoTooltip] 성지에서 출토되었다는 보고가 있습니다."
+ small_bell_beaker:0 "작은 종 모양 비커"
+ small_bell_beaker.desc:0 "세밀한 무늬가 새겨진 종 모양 비커입니다."
+ serpentine_budai:0 "사문석 부처"
+ serpentine_budai.desc:0 "포동포동하지만 웃고 있는 대머리 사내를 표현한 작은 모형입니다."
+ #Uncommon
+ mythical_creature_horn:0 "[ROOT.Char.Custom('HornedMythicalCreature')|U]의 뿔"
+ mythical_creature_horn.desc:0 "특이한 형상의 뿔입니다. 신화로 전해지는 [ROOT.Char.Custom('HornedMythicalCreature')]의 것이라는 소문이 돕니다."
+ mythical_creature_figurine:0 "[ROOT.Char.Custom('TrinketLookAdjective')|U] [ROOT.Char.Custom('RegionalMythicalCreature')] 모형"
+ mythical_creature_figurine.desc:1 "[new_trinket.Custom('ArtifactAnimalAdjective')] [SCOPE.Custom('RegionalMythicalCreatureLower')](을)를 묘사한 이 모형은 [ROOT.Char.Custom('TrinketLookAdverbFollowup')] [ROOT.Char.Custom('TrinketLookAdjective')](으)로, [target_location.GetNameNoTooltip]에서만 나는 작지만 빛나는 보석이 장식되어 있습니다."
+ st_davids_taper:1 "성 다윗의 양초"
+ st_davids_taper.desc:1 "누군가가 양쪽으로 피우려 한 흔적이 있습니다."
+ jira_stick:0 "즐라의 대리석 왕홀"
+ jira_stick.desc:0 "꽤 손때를 타긴 했지만, 여전히 뾰족한 부분은 강력합니다."
+ lucky_coin:0 "행운의 [ROOT.Char.GetCulture.GetNameNoTooltip] 동전"
+ lucky_coin.desc:1 "[target_location.GetNameNoTooltip]에서만 찾아볼 수 있는 [ROOT.Char.GetCulture.GetNameNoTooltip] 동전입니다.\n\n끊임없이 사람 손을 타다 보니 한때 각인이 새겨져 있던 표면은 매끈해진 지 오래입니다."
+ lavender_jade_pendant:0 "연보랏빛 비취 펜던트"
+ lavender_jade_pendant.desc:0 "농후한 보랏빛이 매우 매력적입니다."
+ #Rare
+ sekhmet_ring:0 "오래된 인장 반지"
+ sekhmet_ring.desc:0 "특이하게 생긴 투구를 쓴 인물이 새겨져 있는 황금 반지입니다."
+ scarab_brooch:0 "고대 풍뎅이 브로치"
+ scarab_brooch.desc:0 "풍뎅이 형상을 한 세밀한 브로치입니다. 에메랄드 상감이 되어 있는데, 건강에 좋다고 합니다."
+ 
+ # Easter eggs
+ easteregg_artifact_elisabeth_plush:0 "엘리자베스의 봉제 여우"
+ easteregg_artifact_elisabeth_plush_description:0 "엘리자베스의 봉제 여우는 큰 사랑을 받은 장난감으로, 엘리자베스의 일생 대부분을 함께했습니다. 엘리자베스가 고용되어 치밀한 암호를 만들 때 종종 이 봉제 인형과 대화를 나누는 모습이 목격되기도 했습니다. 무척이나 아늑하며, 소유자로 하여금 여우의 영민함을 흉내 내게 합니다."
+ easteregg_artifact_nicks_weapon:0 "친교"
+ easteregg_artifact_nicks_weapon_description:0 "진정으로 위엄 넘치는 무기입니다. 군주든, 여군주든 가릴 것 없이 이 무기 앞에서는 황홀감을 느끼게 됩니다. 힐트에는 "잠입으로 안 될 때"라는 문구가 새겨져 있습니다."
+ easteregg_artifact_chad_book:0 "아이네이스 주석본"
+ easteregg_artifact_chad_book_description:0 "숱한 사랑을 받은 베르길리우스의 아이네이스 채색 사본으로, 수많은 글귀가 휘갈겨져 있습니다. 무의미한 내용도 있지만 통찰이 느껴지는 글도 있습니다."
+ easteregg_artifact_chad_dagger:0 "그 단검"
+ easteregg_artifact_chad_dagger_description:0 "얼룩진 피가 말라붙어 광택이 사라졌지만, 그럼에도 검은 더 많은 피를 갈구하고 있습니다."
+ easteregg_artifact_veronica_book:0 "제왕의 반지"
+ easteregg_artifact_veronica_book_description:0 "책 형태로 엮은 얇은 책입니다. 수준 높은 포르투갈어로 쓰였습니다."
+
+ easteregg_artifact_jason_sword:0 "성 마틴의 검"
+ easteregg_artifact_jason_sword_description:0 "칼날의 홈을 따라 누군가가 "나는 나다"라는 문구를 지저분하게 새겨놓았습니다."
+
+ child_toy_template_tt:0 "[inventory_artifact|E]로 장착하려면 [child|E]여야 합니다."
+
+ # Blessed Junk
+ fp2_blessed_junk:0 "[ROOT.Char.Custom('TrinketLookAdjective')|U] $blessed_artifact_modifier$"
+ fp2_blessed_junk_desc:0 "[ROOT.Char.Custom('TrinketLookAdverbFollowup')] [ROOT.Char.Custom('TrinketLookAdjective')](으)로, 별다를 것 없는 무의미한 유물입니다. $blessed_artifact_modifier_desc$."

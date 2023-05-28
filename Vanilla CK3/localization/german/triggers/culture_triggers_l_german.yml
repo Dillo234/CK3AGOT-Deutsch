@@ -1,0 +1,60 @@
+﻿l_german:
+
+ HAS_INNOVATION_THIRD:0 "Die [CULTURE.GetName|l]e Kultur hat die Innovation [INNOVATION.GetName]"
+ NOT_HAS_INNOVATION_THIRD:0 "Die [CULTURE.GetName|l]e Kultur hat #bold nicht#! die Innovation [INNOVATION.GetName]"
+
+ MUST_BE_UNLOCKED_BY_DECISION:0 "Muss durch Entscheidung freigeschaltet werden"
+
+ HAS_CULTURAL_ERA_OR_LATER:0 "[CULTURE.GetName]e Kultur hat Epoche erreicht: $ERA$"
+ NOT_HAS_CULTURAL_ERA_OR_LATER:0 "[CULTURE.GetName|U]e Kultur hat Epoche noch #bold nicht#! erreicht: $ERA$"
+
+ DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "[TITLE.GetName] erfährt De-jure-Anpassung auf [TARGET_TITLE.GetName]"
+ NOT_DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "[TITLE.GetName] erfährt #bold keine#! De-jure-Anpassung auf [TARGET_TITLE.GetName]"
+ DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "Erfährt De-jure-Anpassung auf [TARGET_TITLE.GetName]"
+ NOT_DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "Erfährt #bold keine#! De-jure-Anpassung auf [TARGET_TITLE.GetName]"
+
+
+ DE_JURE_DRIFT_PROGRESS_TRIGGER:0 "De-jure-Anpassungsfortschritt von [TITLE.GetName] auf [TARGET_TITLE.GetName] ist $OPERATOR$ $VALUE|V0$"
+
+ YOU_CAN_ONLY_CHANGE_CULTURE_ONCE:0 "Man kann seine Kultur nur einmal im Leben willentlich ändern"
+ KNOWS_LANGUAGE_FIRST:1 "Ich spreche [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_FIRST_NOT:1 "Ich spreche #bold kein#! [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_THIRD:1 "[CHARACTER.GetShortUIName|U] spricht [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_THIRD_NOT:1 "[CHARACTER.GetShortUIName|U] spricht #bold kein#! [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_GLOBAL:1 "Spricht [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_GLOBAL_NOT:1 "Spricht #bold kein#! [CULTURE_PILLAR.GetName]"
+
+ KNOWS_LANGUAGE_OF_CULTURE_FIRST:1 "Ich spreche [TARGET_CULTURE.GetLanguage.GetName]"
+ KNOWS_LANGUAGE_OF_CULTURE_FIRST_NOT:1 "Ich spreche #bold kein#! [TARGET_CULTURE.GetLanguage.GetName]"
+ KNOWS_LANGUAGE_OF_CULTURE_THIRD:1 "[CHARACTER.GetShortUIName|U] spricht [TARGET_CULTURE.GetLanguage.GetName]"
+ KNOWS_LANGUAGE_OF_CULTURE_THIRD_NOT:1 "[CHARACTER.GetShortUIName|U] spricht #bold kein#! [TARGET_CULTURE.GetLanguage.GetName]"
+ KNOWS_LANGUAGE_OF_CULTURE_GLOBAL:1 "Spricht [TARGET_CULTURE.GetLanguage.GetName]"
+ KNOWS_LANGUAGE_OF_CULTURE_GLOBAL_NOT:1 "Spricht #bold kein#! [TARGET_CULTURE.GetLanguage.GetName]"
+
+ HAS_CULTURAL_TRADITION_FIRST:2 "[CULTURE.GetName|U]e [culture|E] hat die [tradition|E] [CULTURE_TRADITION.GetName]"
+ HAS_CULTURAL_TRADITION_FIRST_NOT:2 "[CULTURE.GetName|U]e [culture|E] hat nicht die [tradition|E] [CULTURE_TRADITION.GetName]"
+ HAS_CULTURAL_TRADITION_THIRD:0 "$HAS_CULTURAL_TRADITION_FIRST$"
+ HAS_CULTURAL_TRADITION_THIRD_NOT:0 "$HAS_CULTURAL_TRADITION_FIRST_NOT$"
+
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_COASTAL_WARRIORS_NOT:0 "Unvereinbar mit der [tradition|E] „$tradition_fp1_coastal_warriors_name$“"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_NORTHERN_STORIES_NOT:0 "Unvereinbar mit der [tradition|E] „$tradition_fp1_northern_stories_name$“"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_TRIALS_BY_COMBAT_NOT:0 "Unvereinbar mit der [tradition|E] „$tradition_fp1_trials_by_combat_name$“"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_THE_RIGHT_TO_PROVE_NOT:0 "Unvereinbar mit der [tradition|E] „$tradition_fp1_the_right_to_prove_name$“"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_RUNESTONES_NOT:0 "Unvereinbar mit der [tradition|E] „$tradition_runestones_name$“"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_PERFORMATIVE_HONOUR_NOT:0 "Unvereinbar mit der [tradition|E] „$tradition_fp1_performative_honour_name$“"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_WARRIOR_CULTURE_NOT:0 "Unvereinbar mit der [tradition|E] „$tradition_warrior_culture_name$“"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_SEAFARING_NOT:0 "Unvereinbar mit der [tradition|E] „$tradition_seafaring_name$“"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_POETRY_NOT:0 "Unvereinbar mit der [tradition|E] „$tradition_poetry_name$“"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_STORYTELLERS_NOT:0 "Unvereinbar mit der [tradition|E] „$tradition_storytellers_name$“"
+ any_ancestor_culture_was_mystical:1 "Mindestens eine Elternkultur muss die [tradition|E] $tradition_mystical_ancestors_name$ haben."
+ mystical_ancestors_disinherit:0 "Kultur hat nicht die [tradition|E] $tradition_mystical_ancestors_name$."
+
+ HAS_CULTURAL_PILLAR_FIRST:1 "[CULTURE.GetName|U]e [culture|E] hat den [culture_pillar|E] [CULTURE_PILLAR.GetName]"
+ HAS_CULTURAL_PILLAR_FIRST_NOT:1 "[CULTURE.GetName|U]e [culture|E] hat nicht den [culture_pillar|E] [CULTURE_PILLAR.GetName]"
+ HAS_CULTURAL_PILLAR_THIRD:0 "$HAS_CULTURAL_PILLAR_FIRST$"
+ HAS_CULTURAL_PILLAR_THIRD_NOT:0 "$HAS_CULTURAL_PILLAR_FIRST_NOT$"
+
+ HAS_CULTURAL_PARAMETER_FIRST:0 "[CULTURE.GetName|U] hat die erforderliche [tradition|E] (#TODO_CD_EP1)"
+ HAS_CULTURAL_PARAMETER_FIRST_NOT:0 "[CULTURE.GetName|U] hat nicht die erforderliche [tradition|E] (#TODO_CD_EP1)"
+ HAS_CULTURAL_PARAMETER_THIRD:0 "$HAS_CULTURAL_PARAMETER_FIRST$"
+ HAS_CULTURAL_PARAMETER_THIRD_NOT:0 "$HAS_CULTURAL_PARAMETER_FIRST_NOT$"

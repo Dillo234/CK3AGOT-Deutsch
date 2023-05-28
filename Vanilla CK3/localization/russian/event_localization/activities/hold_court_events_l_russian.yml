@@ -1,0 +1,63 @@
+﻿l_russian:
+ hold_court_placeholder_gain_cgv:0 "Вы получаете #P 10 ед.#! величия двора"
+ hold_court_placeholder_lose_cgv:0 "Вы теряете #N 10 ед.#! величия двора"
+ hold_court_start_activity:0 "Вы слушаете первого просителя"
+
+ hold_court_header:0 "Устроить прием:"
+
+ # Activity Start
+ hold_court.0001.t:0 "$hold_court_header$ начало"
+ hold_court.0001.desc:0 "Я сажусь на трон и жестом приказываю страже открыть двери зала. Поток людей просачивается внутрь, часть выстраивается у моего трона, остальные расходятся в стороны, чтобы наблюдать за приемом.\n\nЧерез несколько мгновений чертог замирает, и все лица выжидательно поворачиваются ко мне. Прямо передо мной стоят просители — кажется, [ROOT.Var('num_petitioners').GetValue|V0]. Они выстроились в ряд, прилежно ожидая вызова."
+ hold_court.0001.a:0 "Подозвать первого просителя в очереди."
+ hold_court.0001.b:0 "Хотя на улице такая хорошая погода..."
+ hold_court.0001.b.tooltip:0 "Прием окончен, и просители расходятся"
+
+ # Guest offers to share rumors from a nearby foreign realm.
+ hold_court.1001.t:0 "$hold_court_header$ неявный шпионаж"
+ hold_court.1001.desc:0 "[Select_CString(rumormonger.IsFemale, 'Моя гостья', 'Мой гость' )] [rumormonger.GetTitledFirstName] с усмешкой подходит к трону и низко кланяется.\n\n«Приветствую, ваше величество. Недавно мне довелось побывать в соседней державе. Оказалось, [neighboring_realm.GetName] — край весьма откровенных людей, которые не прочь поделиться #EMP удивительными#! байками о подданных местного правителя. А я, в свою очередь, с удовольствием поделюсь этими сведениями с вами — за разумную плату."
+ hold_court.1001.a:0 "Сумма немалая, но неведение обойдется мне куда дороже."
+ hold_court.1001.a.seducer:0 "Возможно, мы сможем договориться по-другому?"
+ hold_court.1001.a.success:0 "[rumormonger.GetTitledFirstName] снабжает меня ценным компроматом"
+ hold_court.1001.a.success.tt:0 "[rumormonger.GetTitledFirstName] раскрывает вам все важные [Concept( 'secret', 'тайны' )|E], какие только знает"
+ hold_court.1001.a.failure:0 "Все, что может предложить [rumormonger.GetTitledFirstName], — лишь жалкие сплетни"
+ hold_court.1001.a.failure.tt:0 "Выясняется, что [rumormonger.GetTitledFirstName] не знает никаких важных [Concept( 'secret', 'тайн' )|E]"
+ hold_court.1001.b:0 "Вымогать у меня деньги на глазах у всего двора? Стража, взять [rumormonger.GetHerHis]!"
+ hold_court.1001.c:0 "Прочь, [Select_CString(rumormonger.IsFemale, 'сплетница', 'сплетник' )]! Таким, как ты, не место при моем дворе!"
+
+ # Wandering claimant asks you to press their claim NOW!!
+ hold_court.1011.t:0 "$hold_court_header$ призыв к войне"
+ hold_court.1011.desc:0 "«О, [Select_CString(ROOT.Char.IsFemale, 'щедрейшая', 'щедрейший' )] [ROOT.Char.GetTitledFirstNameNoTooltip]! Я — [claimant_guest.GetFirstName], и я [Select_CString(claimant_guest.IsFemale, 'пришла', 'пришел' )] издалека, чтобы просить тебя о помощи в искоренении великой несправедливости!»\n\nПрежде чем продолжить, [claimant_guest.GetWomanMan] низко кланяется и возобновляет хорошо отрепетированную речь: «[target_character.Custom2('MyCharacterIntroduction', claimant_guest)|U] ныне правит землей, что зовется [target_title.GetNameNoTier], но так не может продолжаться. Ведь [Select_CString(claimant_guest.IsFemale, 'истинная правительница', 'истинный правитель' )] этого края — я!»\n\n«Если вы поможете мне заявить претензию, я присягну вам на верность и буду преданно служить до конца своих дней»."
+ hold_court.1011.a:0 "Хороший день, чтобы повоевать!"
+ hold_court.1011.b:0 "Прошу, уходите сейчас же — чего доброго, [target_character.GetTitleAsNameNoTooltip|l] узнает об этом и расстроится."
+ hold_court.1011.c:0 "Я не в силах вам помочь, но можете рассчитывать на мое гостеприимство."
+
+ # Peasant begs for relief after a drought/early frost/etc.
+ hold_court.1021.t:0 "$hold_court_header$ прах к праху"
+ hold_court.1021.desc:0 "[Select_CString(peasant.IsFemale, 'Тощая оборванная крестьянка', 'Тощий оборванный крестьянин' )] во все глаза таращится на роскошь тронного зала. Я окликаю [peasant.GetHerHis].\n\n«Ох, простите, ваш милсть. Я... это... ну, деревня моя, [county.GetNameNoTier], в этом году того... Поветрие у нас случилось. Не только урожай, семена померли. Ничего не осталось, без помощи сами ноги протянем!»\n\nВновь оглядев мой тронный зал, [SCOPE.sCharacter('peasant').GetSheHe] добавляет: «Поделитесь чем не жалко, а?»"
+ hold_court.1021.a:0 "Вы получите деньги на отстройку."
+ hold_court.1021.a.stewardship:0 "Нужно организовать систему общего урожая с соседними деревнями."
+ hold_court.1021.b:1 "Вы отработаете свой долг."
+ hold_court.1021.c:0 "Если поля опустели, беритесь за мечи."
+
+ # Courtier was discovered spying for neighboring realm.
+ hold_court.1031.t:0 "$hold_court_header$ предатель раскрыт"
+ hold_court.1031.desc:0 "Ко мне приближается стражник, за ним на цепи ковыляет [traitor.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n«[traitor.GetFirstNameNoTooltip] [Select_CString(traitor.IsFemale, 'попалась', 'попался' )] за передачей важной информации чужеземным шпионам. [foreign_realm.GetNameNoTier] не дремлет. Как вы желаете покарать [traitor.GetHerHis]?»"
+ hold_court.1031.a:0 "Голову долой!"
+ hold_court.1031.b:0 "Простим... на первый раз. Только попробуй предать меня снова."
+ hold_court.1031.c:0 "У меня на тебя другие планы..."
+
+ # Clergy wants to form their own Theocracy vassal-state in your realm.
+ hold_court.1041.t:0 "$hold_court_header$ край, где властвует [ROOT.Char.GetFaith.HighGodName]"
+ hold_court.1041.desc:0 "«Мой сюзерен, [ROOT.Char.GetFaith.AltPriestTermPlural] считают, что [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] может стать еще более прекрасным местом, где [ROOT.Char.GetFaith.HighGodName] будет получать должное внимание и восхваление, а вера будет лишь крепнуть и приумножаться. Однако для этого нам необходимы собственные владения в державе».\n\n«[selected_title.GetName] — прекрасное место для воплощения моего предложения в жизнь. Более того, я считаю, что [chosen_candidate.GetTitledFirstName] отлично подходит на роль лидера нового института, ибо не понаслышке знает, что такое [ROOT.Char.GetFaith.ReligiousText], и [ROOT.Char.GetFaith.BishopNeuter] из н[chosen_candidate.GetHerHis] получится [Select_CString(chosen_candidate.IsFemale, 'превосходная', 'превосходный' )]»."
+ hold_court.1041.a:0 "Да будет так. Славься, [ROOT.Char.GetFaith.HighGodName]."
+ hold_court.1041.b:0 "Я думаю, внеочередной десятины будет достаточно?"
+ hold_court.1041.c:0 "[ROOT.Char.GetFaith.DivineRealm|U] — владение [ROOT.Char.GetFaith.HighGodNamePossessive]. [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip|U], [ROOT.Char.GetFaith.HighGodNameSheHe] [ROOT.Char.GetFaith.HighGodNameIsFemale, 'доверила', 'доверил' )] власть только мне."
+
+ # Activity End
+ hold_court.0021.t:0 "$hold_court_header$ завершение"
+ hold_court.0021.desc:0 "Уходит последний проситель, следом вереницей, возвращаясь к оставленным делам, тянутся придворные. Некоторые остаются, чтобы обсудить прием.\n\nВскоре от формальностей не остается и следа, и тишину сменяет привычный гомон придворной жизни."
+ hold_court.0021.a:0 "Мои дела здесь закончены."
+ hold_court.0021.arrogant:0 "Приятно позволять подданным купаться в лучах моей славы."
+ hold_court.0021.shy:0 "Скорее бы вернуться в покои..."
+ hold_court.0021.gregarious:0 "Вот неплохая возможность ближе пообщаться с придворными."
+ hold_court.0021.every_guest_and_courtier:0 "Каждый гость и придворный:"

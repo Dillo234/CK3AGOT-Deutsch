@@ -1,0 +1,22 @@
+﻿l_french:
+
+ ALL_LIVING_CHARACTERS:0 "Tous les personnages vivants :"
+ ANY_LIVING_CHARACTER:0 "N’importe quel personnage vivant :"
+
+ ALL_POOL_CHARACTERS:0 "Tous les personnages vagabonds :"
+ ANY_POOL_CHARACTER:0 "N’importe quel personnage vagabond :"
+
+ ANY_OF_CHARACTERS_VASSALS:1 "N’importe lequel [CHARACTER.LocalPlayerString( 'de vos', 'des' )] [vassals|El][CHARACTER.LocalPlayerString( '', 'Loc_FR_du_GetShortUIName' )] :"
+ ALL_OF_CHARACTERS_VASSALS:1 "Tous [CHARACTER.LocalPlayerString( 'vos', 'les' )] [vassals|El][CHARACTER.LocalPlayerString( '', 'Loc_FR_du_GetShortUIName' )] :"
+ ANY_OF_CHARACTERS_VASSALS_PERCENT:0 "$PARAMETERS$ des [vassals|El] [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUIName] :"
+ ANY_OF_CHARACTERS_VASSALS_COUNT:0 "$PARAMETERS$ des [vassals|El] [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUIName] :"
+ 
+ ANY_DYNASTY_MEMBER_COUNT:0 "$PARAMETERS$ membres de la [dynasty|El] [DYNASTY.GetBaseName] :"
+
+ ANY_IN_DE_JURE_ALL_GLOBAL:0 "Tout [title|El] de jure"
+ NOT_ANY_IN_DE_JURE_ALL_GLOBAL:0 "Tout [title|El] non de jure"
+ ANY_IN_DE_JURE_ALL_THIRD:0 "Tout [title|El] de jure de [TITLE.GetName]"
+ NOT_ANY_IN_DE_JURE_ALL_THIRD:0 "Tout [title|El] non de jure de [TITLE.GetName]"
+
+ ANY_REALM_COUNTY:0 "Un [county|El] du [realm|El] :"
+ ANY_REALM_COUNTY_COUNT:0 "$PARAMETERS$ [counties|El] du [realm|El] :"

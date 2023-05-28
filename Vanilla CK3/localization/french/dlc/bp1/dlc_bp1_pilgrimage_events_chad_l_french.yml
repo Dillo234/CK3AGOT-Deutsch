@@ -1,0 +1,42 @@
+﻿l_french:
+ 
+ pilgrimage.6001.t:0 "Plus on est de fous, plus on rit"
+ pilgrimage.6001.desc:0 "J’avance péniblement dans cette lente procession vers [destination_title.GetNameNoTierNoTooltip] en repensant à tout le confort que j’ai abandonné en quittant [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], quand j’entends tout à coup quelqu’un qui m’appelle.\n\nMon ami[friend.Custom('FR_E')] [friend.GetFirstNameNoTooltip] se précipite vers moi et s’exclame : "[ROOT.Char.GetTitledFirstNameNoTooltip] ! Quelle chance que nous allions vers le même lieu saint ! Aimeriez-vous que je vous tienne compagnie pendant ce long voyage jusqu’à [destination_title.GetNameNoTierNoTooltip] ?""
+ pilgrimage.6001.a:0 "Je suis toujours là pour accueillir un[friend.Custom('FR_E')] ami[friend.Custom('FR_E')]."
+ pilgrimage.6001.b:0 "Je préfère rester seul[ROOT.Char.Custom('FR_E')], merci."
+ pilgrimage.6001.c:0 "Vous devriez avoir honte. Nous sommes ici pour nous concentrer sur notre foi !"
+
+ pilgrimage.6002.desc:0 "[friend.GetFirstNameNoTooltip] et moi passons le reste de la journée à bavarder de tout et de rien, des complots, des batailles, des soupirants, des amis, anciens ou nouveaux. Nous sommes au beau milieu d’une conversation passionnante à propos [ROOT.Char.Custom('subject_of_interest')] quand la procession s’arrête tout à coup.\n\nUn cri fatigué résonne depuis la tête de la colonne : « Nous allons installer notre campement ici ! »\n\n[friend.GetFirstNameNoTooltip|U] me regarde en souriant et me dit : « Enfin ! Mais que diriez-vous de faire un petit détour avant de nous installer ? Un si long voyage, ça donne soif... »"
+ pilgrimage.6002.a:0 "Un petit rafraîchissement me ferait le plus grand bien !"
+ pilgrimage.6002.b:0 "#EMP Faisons la fête#! !"
+ pilgrimage.6002.c:0 "Passez devant..."
+ pilgrimage.6002.d:0 "Quel genre de païe[friend.Custom('FR_NNne')] se rend à la taverne en plein pèlerinage ?"
+
+ pilgrimage.6003.desc:0 "Nous entrons dans la taverne bondée, et [friend.GetFirstNameNoTooltip] commande immédiatement deux verres [ROOT.Char.Custom('RegionalDrink')]. Nous prenons place et écoutons le conte d’un ménestrel, tout en buvant notre verre et en discutant par intermittence des malheurs et des triomphes de la vie.\n\nPar [ROOT.Char.GetFaith.HighGodName], quel bonheur après une longue journée passée à suer et à trimer sur la route ! Je lève mon verre et m’exclame : « Trinquons à la santé de mon ami[friend.Custom('FR_E')] [friend.GetFirstNameNoTooltip] pour m’avoir proposé un peu de répit après une journée aussi éreintante ! »\n\nTous les clients de la taverne lèvent leur verre en son honneur avant de boire goulûment."
+ pilgrimage.6003.a:0 "« La prochaine tournée est pour moi ! »"
+ pilgrimage.6003.b:0 "Nous devrions retourner au camp, au cas où quelqu’un nous cherche."
+ pilgrimage.6003.b.tt:0 "Vous et [friend.GetFirstNameNoTooltip] écourtez la soirée pour rentrer au campement."
+
+ pilgrimage.6004.desc:0 "Après peut-être quelques tournées [ROOT.Char.Custom('RegionalDrink')] de trop, [friend.GetFirstNameNoTooltip] et moi inspirons à nos compagnons de la taverne un refrain de chansons à boire, tout en frappant sur les tables en rythme.\n\nDans un énorme fracas et plus de tessons de verre que je n’oserais en compter, nous dégringolons jusqu’à la cave à vins, nous aventurant dans une pièce que rares sont les [ROOT.Char.GetWomenMen] à avoir fréquentée.\n\nTous nos compagnons d’infortune nous regardent depuis l’étage principal avec un mélange d’inquiétude et de joie. Ils attendent manifestement une réaction de notre part."
+ pilgrimage.6004.a:0 "« Des verres [ROOT.Char.Custom('RegionalDrink')] pour tout le monde ! »"
+ pilgrimage.6004.a.tt:0 "Vous ouvrez les fûts nouvellement découverts et partagez votre butin avec tout le monde."
+ pilgrimage.6004.b:0 "« Je crois que nous avons abusé de leur hospitalité... »"
+
+ pilgrimage.6005.desc:0 "Nous rentrons au campement, non sans bruit, en priant sincèrement pour que tous les autres soient déjà partis se coucher. En arrivant près de nos tentes, nous découvrons que le feu est toujours allumé, "
+ pilgrimage.6005.desc.bad:0 "et que tous les membres de notre pèlerinage ont les yeux rivés sur nous. Nous avons toutes les peines du monde à faire bonne impression, compte tenu de la grande quantité [ROOT.Char.Custom('RegionalDrink')] que nous avons bue.\n\nIls nous demandent sévèrement où nous étions et, entre deux hoquets, nous leur racontons nos mésaventures de la soirée. Ils insistent pour que nous payions les dégâts causés à la taverne."
+ pilgrimage.6005.desc.good:0 "mais rien ne bouge. Le feu de camp semble avoir été allumé dans le simple but de garder nos lits à l’abri du froid."
+ pilgrimage.6005.a:0 "Quelle chance d’avoir des compagnons de voyage aussi gentils et attentionnés !"
+ pilgrimage.6005.b:0 "« Nous devons payer pour nos mésaventures ! »"
+ pilgrimage.6005.c:0 "« C’est un crime de s’amuser ? »"
+
+ pilgrimage.6006.desc:0 "[friend.GetFirstName] et moi approchons de la fin de notre marche pour aujourd’hui. Nous avançons lentement vers le lieu choisi pour l’escale, quand quelqu’un s’écrie tout à coup : « Regardez ! Quel magnifique coucher de soleil ! »\n\nTout le monde rassemble les forces qu’il lui reste pour s’approcher et admirer ce superbe panorama. « C’est un privilège que de pouvoir assister à un tel spectacle pour nous, pauvres mortels ! C’est le moment idéal pour méditer sur notre foi », dis-je à [friend.GetFirstNameNoTooltip], mais [friend.Custom('FR_IlElle')] ne semble absolument pas impressionné[friend.Custom('FR_E')], laissant même transparaître une expression de dédain.\n\n« C’est rien de plus qu’un coucher de soleil ! », crie-t-[friend.Custom('FR_IlElle')]. « Alors, tout ce qu’on verra dans ce voyage devra forcément être l’œuvre [ROOT.Char.GetFaith.HighGodNamePossessive] ? Tout ce que je veux, c’est découvrir le monde, je ne suis même pas convaincu[friend.Custom('FR_E')] de l’existence [ROOT.Char.GetFaith.HighGodNamePossessive] ! »"
+ pilgrimage.6006.a:0 "« Votre secret est en sécurité avec moi. »"
+ pilgrimage.6006.b:0 "« Je ne peux pas tolérer d’avoir des amis non croyants. »"
+ pilgrimage.6006.c:0 "« Vous avez de bons arguments... »"
+
+ pilgrimage.6007.t:0 "Prière exaucée"
+ pilgrimage.6007.desc:0 "Mon ami[friend.Custom('FR_E')] [friend.GetFirstName], rongé[friend.Custom('FR_E')] par le mal qui l’affecte, a du mal à suivre le rythme du pèlerinage, alors je marche à ses côtés pour lui tenir compagnie. Un [ROOT.Char.GetFaith.PriestNeuter] itinérant voyage avec nous depuis quelque temps et remarque les difficultés de [friend.GetFirstNameNoTooltip].\n\n« Pauvre âme. Un enfant [ROOT.Char.GetFaith.HighGodNamePossessive] ne devrait pas souffrir autant sur la route le menant à [destination_title.GetNameNoTierNoTooltip] », dit-il. « Peut-être [ROOT.Char.GetFaith.HealthGodName] pourrait m’accorder le pouvoir de vous guérir de vos maux. Me permettez-vous d’essayer ? »\n\nMon ami[friend.Custom('FR_E')] se tourne vers moi. « Qu’en pensez-vous, [ROOT.Char.GetFirstName] ? »"
+ pilgrimage.6007.a:0 "Nous sommes vraiment protégés par [ROOT.Char.GetFaith.HighGodName]."
+ pilgrimage.6007.a.success:0 "[friend.GetFirstNameNoTooltip] est guéri[friend.Custom('FR_E')]"
+ pilgrimage.6007.a.failure:0 "L’état de [friend.GetFirstNameNoTooltip] empire"
+ pilgrimage.6007.b:0 "C[6007_healer.Custom('FR_EtEtte')] [6007_healer.GetWomanMan] n’est pas digne de notre confiance."

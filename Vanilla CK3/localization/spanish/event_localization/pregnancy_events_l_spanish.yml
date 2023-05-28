@@ -1,0 +1,173 @@
+﻿l_spanish:
+ pregnancy.1001.t:0 "¡Embarazo!"
+ pregnancy.1001.d:0 "Hay un niño creciendo en mi vientre. ¡Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], se sentirá orgullos[real_father.Custom('ES_OA')]!"
+ pregnancy.1001.a:0 "¡Bien!"
+
+ pregnancy.1002.t:0 "¡Embarazo!"
+ pregnancy.1002.d:0 "¡El destino me sonríe! ¡Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [SCOPE.sCharacter('mother').GetTitledFirstName], está embarazada de mí!"
+ pregnancy.1002.a:0 "¡Qué ganas tengo de tener a mi bebé en brazos!"
+
+ pregnancy.1101.t.dead:0 "La vida avanza"
+ pregnancy.1101.t.divorced:0 "Circunstancias excepcionales"
+ pregnancy.1101.desc.start:0 "Una criatura crece en mi vientre y no tengo duda de que su padre es"
+ pregnancy.1101.desc.dead:0 "mi difunto marido [ex_spouse.GetTitledFirstName]."
+ pregnancy.1101.desc.divorced:0 "mi exmarido [ex_spouse.GetTitledFirstName]."
+ pregnancy.1101.desc.end:0 "\n\nAunque las circunstancias que rodean este embarazo son tristes, al menos puedo alegrarme de que mi futuro hijo no será considerado bastardo."
+ pregnancy.1101.a.dead:0 "Ojalá [ex_spouse.GetFirstNameNoTooltip] estuviera aquí para verlo…"
+ pregnancy.1101.a.divorced:0 "Supongo que tendré que informar a [ex_spouse.GetFirstNameNoTooltip] enseguida."
+
+ pregnancy.1102.t:0 "$pregnancy.1101.t.divorced$"
+ pregnancy.1102.desc:0 "A estas alturas está claro que mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))] [mother.GetTitledFirstName] está embarazada aunque, por las fechas, no creo que sea mío.\n\nMuy probablemente, el verdadero padre sea su anterior marido, [ex_spouse.GetTitledFirstName]."
+ pregnancy.1102.a:0 "Ay."
+
+ pregnancy.1103.opening:0 "A mi exmarido [mother.Custom2('RelationDescriptor', ROOT.Char)]:"
+ pregnancy.1103.opening_concubine:0 "A mi ex[ROOT.Char.GetWomanMan] [mother.Custom2('RelationDescriptor', ROOT.Char)],"
+ pregnancy.1103.desc:0 "Te escribo para informarte de que estoy embarazada y con toda certeza es tuyo.\n\nComo estábamos casados cuando el niño fue concebido, no tendrá la mancha de la bastardía. Cuando el bebé nazca, se sabrá que es tu legítimo descendiente."
+ pregnancy.1103.desc_concubine:0 "Te escribo para informarte de que estoy embarazada y con toda certeza el bebé es tuyo.\n\nComo estábamos juntos cuando la criatura fue concebida, no tendrá la mancha de la bastardía. Cuando el bebé nazca, se sabrá que es un vástago tuyo."
+ pregnancy.1103.a:0 "Muy bien."
+
+ pregnancy_not_first_child_message:1 "Tu [spouse.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], está embarazada de ti"
+
+ pregnancy.2001.t:0 "Fuera del matrimonio"
+ pregnancy.2001.opening:0 "Las señales están claras y ya no puedo engañarme. ¡Estoy embarazada!"
+ pregnancy.2001.father_is_married:0 "\n\nNo cabe la menor duda de que [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)] es el padre, ¡pero está casad[real_father.Custom('ES_OA')] y seguramente nunca reconozca a mi hijo como suyo!"
+ pregnancy.2001.father_is_unmarried:0 "\n\nNo cabe la menor duda de que mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], es el padre. Sin los lazos del matrimonio, ¿qué dirá la gente de mi hijo?"
+ pregnancy.2001.a:0 "¡Le contaré a todos quién es el padre!"
+ pregnancy.2001.b:0 "[real_father.GetFirstNameNoTooltip] debe saberlo, ¡pero nadie más!"
+ pregnancy.2001.c:0 "No se lo puedo decir a #EMP nadie#!…"
+ pregnancy.2001.c.tt:0 "¡Esperas que nadie lo descubra!"
+ pregnancy.2001.d:0 "Necesito que una mujer sabia prepare un brebaje."
+
+ pregnancy.2002.t:0 "De otro hombre"
+ pregnancy.2002.desc:0 "Las señales están claras y ya no puedo engañarme. ¡Estoy embarazada!\n\nOjalá fuera una causa de alegría, ¡pero no hay duda de que el padre es [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)] en lugar de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))], [spouse.GetFirstName]!"
+ pregnancy.2002.desc.polyamorous:0 "He estado de los nervios, pero las señales están claras. ¡Estoy embarazada!\n\nNo hay duda de que el verdadero padre es [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)], en lugar de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] [spouse.GetFirstName]."
+ pregnancy.2002.a:0 "Debo confesar mi infidelidad."
+ pregnancy.2002.b:0 "Debo confiárselo a [real_father.GetFirstNameNoTooltip]."
+ pregnancy.2002.c:0 "Nadie lo sabrá jamás."
+ pregnancy.2002.c.tt:1 "#F Esperas que siga siendo un secreto#!"
+ reveal_illegitimate_pregnancy_to_real_father_tt:0 "El secreto se revela a [real_father.GetFirstName]"
+ pregnancy.2002.d:0 "Necesito que una mujer sabia prepare un brebaje."
+ search_for_real_father_tt:0 "#F ¡Lo buscaré!#!"
+
+ pregnancy_treatment_fails_tt:0 "El tratamiento falla"
+
+ pregnancy.2003.t:0 "La espera"
+ pregnancy.2003.desc_no_notice:0 "Al principio no estaba segura de que el brebaje de [ROOT.Char.Custom('Abortifacient')] hubiera funcionado, pero las pruebas pronto fueron claras.\n\nYa no estoy embarazada."
+ pregnancy.2003.desc_pain:0 "El brebaje de [ROOT.Char.Custom('Abortifacient')] me dio calambres y me hizo vomitar, pero mejor eso que no tener efecto.\n\nYa no estoy embarazada."
+ pregnancy.2003.a:0 "Hice lo que tenía que hacer."
+
+ pregnancy.2004.t:0 "Malestar"
+ pregnancy.2004.desc:0 "El brebaje de [ROOT.Char.Custom('Abortifacient')] ha puesto fin a mi embarazo, pero me ha dejado con vómitos y fiebre. La mujer sabia me advirtió de la fiebre, pero el dolor no se pasa a pesar de lo que me dijo."
+ pregnancy.2004.a:0 "Puedo superarlo."
+
+ pregnancy.2005.t:0 "La espera"
+ pregnancy.2005.desc:0 "Esperaba que el brebaje de [ROOT.Char.Custom('Abortifacient')] me librara de mis problemas, pero la mujer sabia me advirtió que podría no ocurrir.\n\nMe parece que sus temores estaban justificados, porque no me cabe duda de que el niño sigue creciendo en mi vientre."
+ pregnancy.2005.a:0 "No se puede hacer más."
+
+ pregnancy.2007.t:0 "Fallecimiento"
+ pregnancy.2007.desc:0 "Todo ha estado borroso desde que bebí el brebaje de [ROOT.Char.Custom('Abortifacient')]. Unas siluetas se mueven cerca de mi cama entre voces calladas. Las veo borrosas y grises, y desaparecen en los bordes oscuros de mi visión. Cuando sus susurros se vuelven más intensos, también crece la quemazón de mi pecho."
+ pregnancy.2007.a:0 "¿Quién me recibirá?"
+
+ pregnancy.2050.t:0 "De otro"
+ pregnancy.2050.desc.polyamorous:0 "Las señales están claras y ya no puedo engañarme. ¡Estoy embarazada!\n\nNo hay duda de que el verdadero padre es [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)]."
+ pregnancy.2050.desc:0 "Las señales están claras y ya no puedo engañarme. ¡Estoy embarazada!\n\nNo es una causa de alegría, porque ahora todos saben que le fui infiel a mi [spouse.Custom2('MyCharacterIntroduction', ROOT.Char)]. No hay duda de que el padre es [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)]…"
+
+ pregnancy.2101.t:0 "Prematuramente"
+ pregnancy.2101.desc_other_children:0 "A medida que mi vientre crece, también lo hace mi malestar. No es la primera vez que estoy encinta, pero esta sensación siniestra es nueva. Algo va mal.\n\nLos calambres llegan de noche y, cuando me levanto por la mañana, descubro que las sábanas están ensangrentadas."
+ pregnancy.2101.desc_pain:0 "A medida que mi vientre crece, también lo hace mi malestar. Es la primera vez que estoy encinta, pero esta sensación siniestra no puede ser buena. Algo va mal.\n\nLos calambres llegan de noche y, cuando me levanto por la mañana, descubro que las sábanas están ensangrentadas."
+ pregnancy.2101.desc:0 "Con el paso de los días, crece mi inquietud en lugar de mi vientre. ¿No debería notarse más a estas alturas? ¿No se habría dado a conocer ya el niño?\n\nAlgo debe de ir mal, porque no noto ninguna vida dentro de mí."
+ pregnancy.2101.a:0 "Ya no estoy embarazada."
+
+ pregnancy.2102.desc:0 "«No estaba destinado a nacer».\n\n[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] me asegura que la vida es así, pero su mano se detiene sobre su vientre."
+ pregnancy.2102.a:0 "Ya no está embarazada."
+
+ pregnancy.3001.t:0 "Indiscreciones"
+ pregnancy.3001.opening:0 "El vientre [mother.Custom('ES_DelDela')] [mother.GetTitledFirstName] crece y no puede haber dudas. ¡Está embarazada!"
+ pregnancy.3001.lovers_love:0 "[mother.GetSheHe|U] no ha dicho nada, pero ¿puede ser el resultado de nuestro amor?"
+ pregnancy.3001.lovers_not_love:0 "[mother.GetSheHe|U] no ha dicho nada, pero ¿puede ser el resultado de nuestras relaciones carnales?"
+ pregnancy.3001.not_lovers:0 "[mother.GetSheHe|U] no ha dicho nada, pero ¿puede ser el resultado de nuestros recientes escarceos?"
+ pregnancy.3001.a:0 "Tendré que preguntárselo."
+ pregnancy.3001.a.tt:1 "Preguntas a [mother.GetFirstNameNoTooltip] por el niño"
+ pregnancy.3001.b:0 "Puede que nunca lo sepa, pero siempre me lo preguntaré…"
+ pregnancy.3001.b.tt:0 "No actuarás por meras sospechas"
+
+ pregnancy.3002.t:0 "Indiscreciones"
+ pregnancy.3002.lovers:1 "Por supuesto que sospeché algo cuando mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('mother'))], [mother.GetTitledFirstName], empezó a mostrar señales de estar embarazada. Ahora, me ha hecho saber que el niño es mío."
+ pregnancy.3002.not_lovers:1 "[mother.GetTitledFirstName] está embarazada y me ha hecho saber que es el resultado de nuestros escarceos ilícitos."
+ pregnancy.3002.spouse_exists:0 "\n\n¡Por suerte, su [mother.Custom2('RelationToMe', SCOPE.sC('spouse'))], [spouse.GetTitledFirstName], cree que es suyo!"
+ pregnancy.3002.a:0 "Ay, [mother.GetFirstNameNoTooltip], ojalá estuviéramos solo nosotros y nuestro niño…"
+ pregnancy.3002.b.not_again:0 "¡¿Cómo he podido dejar que esto pase de nuevo?!"
+ pregnancy.3002.b:0 "¡Hay que mantenerlo en secreto!"
+ pregnancy.3002.a.tt:0 "El niño de [mother.GetShortUINameNoTooltip] nacerá sin que se sepa quién es el padre"
+ pregnancy.3002.c:0 "¡Daré a conocer la verdad!"
+
+
+ pregnancy.3003.t:0 "Un vientre hinchado"
+ pregnancy.3003.desc:1 "[mother.GetTitledFirstName] ha venido a buscarme e inmediatamente he sabido por qué. Está embarazada y tiene pocas dudas, al igual que yo , de quién es el padre. Un niño nacido fuera de los legítimos vínculos del matrimonio está destinado a tener una vida de bastardía. ¿Le deseo ese destino a un hijo mío?"
+ pregnancy.3003.desc_no_bastards:0 "[mother.GetTitledFirstName] viene a verme y los motivos están claros. Está encinta y no le cabe duda quién es el padre. Yo tampoco las tengo. ¿Qué futuro le espera a mi hijo, nacido fuera de los lazos del matrimonio?"
+ pregnancy.3003.a:0 "¡Esto debe ser un secreto!"
+ pregnancy.3003.a.tt:0 "El secreto queda oculto, por ahora"
+ pregnancy.3003.b:0 "Pero son noticias fabulosas"
+
+ pregnancy.3004.t:0 "Un vientre hinchado"
+ pregnancy.3004.desc:1 "[mother.GetTitledFirstName] viene a verme y los motivos están claros. Está encinta y no le cabe duda quién es el padre. Yo tampoco las tengo. Sin, embargo, mi matrimonio con [spouse.GetFirstName] me impide hacer poco más aparte de esperar que mi implicación siga siendo un secreto."
+ pregnancy.3004.a:0 "Nunca pensé que llegaría a esto."
+
+ pregnancy.5001.t:0 "«¡Necesito saberlo»"
+ pregnancy.5001.desc:0 "[real_father_inquirer.GetTitledFirstName] ha venido a buscarme. Pone una mano sobre mi vientre y me pregunta con cara de preocupación."
+ pregnancy.5001.real_father:0 "\n\n«Solo quiero oírlo. Sé que es mío»."
+ pregnancy.5001.not_father:0 "\n\n«Quiero sinceridad, por favor».\n\nMis ojos se clavan en el pasillo que está a su espalda. Temo que alguien nos vea juntos."
+ pregnancy.5001.a:0 "El hijo es tuyo, [real_father.GetFirstNameNoTooltip]."
+ pregnancy.5001.b:0 "No eres el padre de mi hijo."
+
+ pregnancy.5002.t:0 "Nuestra sangre"
+ pregnancy.5002.love:0 "«¡Por supuesto que es tuyo, [ROOT.Char.GetFirstNameNoTooltip]!»\n\nSe me olvida hasta pensar si alguien podrá oírnos. La alegría y la confusión se apoderan de mi cuerpo. Es como si todas mis oraciones hubieran sido escuchadas. Nuestra unión ha sido bendecida, aunque haya… complicaciones."
+ pregnancy.5002.not_love:0 "«¡Por supuesto que es tuyo, [ROOT.Char.GetFirstNameNoTooltip]!»\n\nMe preocupa que alguien lo haya oído, pero estamos solos y en silencio. Bien, porque de repente tengo mucho en lo que pensar."
+ pregnancy.5002.a:0 "Nosotros dos… Un hijo…"
+ pregnancy.5002.b:0 "¡Son noticias fabulosas que hay que compartir!"
+
+ pregnancy.5003.t:0 "La idea equivocada"
+ pregnancy.5003.desc:1 "Aunque sigo insistiendo en el asunto, [mother.GetTitledFirstName] permanece firme. «El hijo no es tuyo, [ROOT.Char.GetFirstNameNoTooltip]».\n\n¿Tanto me equivocado?"
+ pregnancy.5003.a:1 "¿Me está diciendo la verdad?"
+ pregnancy.5003.a.tt:0 "«Solo el tiempo dirá si tengo razón…»."
+
+ pregnancy_announcement_my_child_will_be_a_bastard:0 "Mi hijo nacerá [bastard|lE] y [real_father.GetTitledFirstNameNoTooltip] será su padre"
+ pregnancy_announcement_the_child_will_be_a_bastard_real_father:0 "El hijo de [mother.GetTitledFirstNameNoTooltip] nacerá [bastard|lE] y yo seré el padre conocido"
+ pregnancy_announcement_the_child_will_be_a_bastard:0 "El hijo de [mother.GetTitledFirstNameNoTooltip] nacerá como [bastard|lE] y [real_father.GetTitledFirstNameNoTooltip] será su padre"
+
+ pregnancy.6001.t:0 "No cabe duda alguna"
+ pregnancy.6001.desc:0 "Puede que el niño que llevo dentro sea ilegítimo, pero no crecerá creyendo que no tiene padre. Me da igual lo que diga [real_father.GetTitledFirstName]."
+ pregnancy.6001.a:0 "Siempre haré lo mejor para mi hijo."
+
+ pregnancy.6002.t:0 "No cabe duda alguna"
+ pregnancy.6002.desc:1 "¡[mother.GetTitledFirstName] me ha nombrado públicamente como padre de su hijo!"
+ pregnancy.6002.married:0 "\n\n«¿Cómo pudiste hacerlo?», me pregunta [spouse.GetFirstName] con [spouse.Custom('GeneralTemperament')]."
+ pregnancy.6002.unmarried_sympathetic:1 "\n\nAl nacer fuera de los vínculos del matrimonio, el niño tendrá una vida difícil, pero al menos sabrá la verdad."
+ pregnancy.6002.unmarried_unsympathetic:1 "\n\n¿No le basta con llevar esa carga? ¿Por qué quiere arrastrarme con ella también?"
+ pregnancy.6002.a:0 "¿Qué dirá la gente?"
+
+ pregnancy.6003.t:0 "No cabe duda alguna"
+ pregnancy.6003.desc:1 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], ha confesado no solo que su embarazo es el resultado de una unión ilícita, ¡sino que el verdadero padre no es otro que [real_father.GetTitledFirstName]!\n\n¡Qué deshonra ha traído a mi casa! ¿Cómo pudo hacerme esto a mí, a nosotros?"
+ pregnancy.6003.a:0 "¡¿[real_father.GetFirstNameNoTooltip]?!"
+
+ pregnancy.6004.t:0 "No cabe duda alguna"
+ pregnancy.6004.desc:1 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], ha hecho saber no solo que su embarazo es el resultado de una unión ilícita, sino que el padre no es otro que [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
+ pregnancy.6004.incest:0 "\n\n¿Qué será del niño, nacido de una unión tan impía?"
+ pregnancy.6004.mother_married:1 "\n\n¿Qué supone esto para su matrimonio con [spouse.GetTitledFirstName]?"
+ pregnancy.6004.mother_unmarried:1 "\n\n¿Qué será de su niño, ahora que todo el mundo lo sabe?"
+ pregnancy.6004.a:1 "¡[mother.GetSheHe|U] ha sumido esta casa en el caos!"
+
+ pregnancy.6005.t:0 "No cabe duda alguna"
+ pregnancy.6005.desc:0 "[mother.GetTitledFirstName] ha hecho saber al mundo entero quién es padre de su embarazo ilícito. Esperaba que no fuese cierto, pero en realidad lo sabía. ¡Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], es el verdadero padre de ese niño!"
+ pregnancy.6005.a:0 "¿Cómo pudiste, [real_father.GetFirstNameNoTooltip]?"
+
+ pregnancy.6006.t:0 "No cabe duda alguna"
+ pregnancy.6006.desc:1 "¡Se ha declarado a [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)|U] como verdadero padre del futuro hijo de [mother.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"
+ pregnancy.6006.real_father_married:1 "\n\n¿No ha pensado en la importancia de su matrimonio con [spouse.Custom2('HerHisCharacterIntroduction', SCOPE.sC('real_father'))]?"
+ pregnancy.6006.real_father_unmarried:1 "¿No ha pensado en el honor de su familia?"
+ pregnancy.6006.a:0 "¿Qué supondrá para nosotros este hijo bastardo?"
+ 
+ # For polyamorous faith reveal
+ pregnancy.6999.t:0 "De otro hombre"
+ pregnancy.6999.desc:1 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], me ha hecho saber que está embarazad[mother.Custom('ES_OA')] de [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)]. Aunque el niño no es mío, sigo siendo su [ROOT.Char.Custom('EsposoEsposa')], y mi deber es cuidar de [mother.Custom('ES_ElElla')] durante los próximos meses."
+ pregnancy.6999.a:1 "Un deber con el que cumpliré."

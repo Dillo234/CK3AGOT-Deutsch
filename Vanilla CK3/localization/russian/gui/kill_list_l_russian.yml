@@ -1,0 +1,8 @@
+﻿l_russian:
+ KILL_LIST:1 "Убийства: [KillListWindow.GetCharacter.LocalPlayerString( '', 'Персонажа ' )][KillListWindow.GetCharacter.GetNamePossessiveOrMy|U][KillListWindow.GetCharacter.LocalPlayerString( 'его персонажа', '' )]"
+ OPEN_KILL_LIST_TOOLTIP:4 "#T Просмотр убийств\n#!Просмотреть [Character.LocalPlayerString( '', 'всех известных вам' )] жертв [Select_CString(Character.IsPlayer, '', 'персонажа ' )][Character.GetNamePossessiveOrMy|l][Select_CString(Character.IsPlayer, 'его персонажа', '' )][Character.LocalPlayerString( ', чтобы вспомнить их лица...', '' )]"
+ ARTIFACT_KILL_LIST:0 "Убийства: [ArtifactKillListWindow.GetArtifact.GetName|U]"
+ OPEN_ARTIFACT_KILL_LIST_TOOLTIP:0 "#T Просмотр убийств\n#!Просмотреть всех убитых артефактом «[Artifact.GetName]»"
+ ARTIFACT_FORGOTTEN_SOLDIER_KILLS:0 "#S Забытые солдаты#!: [Artifact.GetForgottenSoldiersCount|V]"
+ DEATH_DATE:0 "Дата смерти"
+ DEATH_REASON:0 "Причина смерти"

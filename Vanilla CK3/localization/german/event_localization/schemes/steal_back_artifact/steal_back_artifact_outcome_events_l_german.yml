@@ -1,0 +1,13 @@
+﻿l_german:
+ steal_back_artifact_outcome.1001.t:0 "$steal_back_artifact_event_title$ Erfolg"
+ steal_back_artifact_outcome.1001.desc:1 "Ich habe das Gefühl, wirklich etwas geleistet zu haben, als mir das Artefakt überreicht wird, das ich zurückzufordern versucht habe ([artifact.GetName]) Dieser Schatz ist zu seinem rechtmäßigen Besitzer zurückgekehrt. Obwohl er ein wenig abgenutzt und schmutzig aussieht, bewundere ich ihn erneut in dem Wissen, dass meine Bemühungen Früchte getragen haben."
+ steal_back_artifact_outcome.1001.a:0 "Es ist an seinen rechtmäßigen Platz und in die richtigen Hände zurückgekehrt."
+
+ steal_back_artifact_outcome.1002.t:0 "$steal_back_artifact_event_title$ Artefakt gestohlen!"
+ steal_back_artifact_outcome.1002.desc:0 "Heute wäre ein guter Tag gewesen, um mein Artefakt „[artifact_to_steal.GetName]“ zu bewundern, doch zu meinem Entsetzen musste ich feststellen, dass es verschwunden ist!\n\nNach einer kurzen Untersuchung erzählt mir ein Diener, dass [owner.GetTitledFirstName] gesagt haben soll, es wäre in [owner.Custom('DE_PRO_POS_S_3P')]em Besitz besser aufgehoben."
+ steal_back_artifact_outcome.1002.a:0 "Verflucht sollt Ihr sein, [owner.GetTitledFirstNameNoTooltip]! Ekelhaft[owner.Custom('DE_END_ADJ_IND_S_N')] Dieb[owner.Custom('DE_END_NOU_S_GS_N')]!"
+
+ steal_back_artifact_outcome.2001.t:0 "$steal_back_artifact_event_title$ Fehlschlag"
+ steal_back_artifact_outcome.2001:0 "Das Einschleusen verlief wie geplant, doch es konnte kein Artefakt gefunden werden! Es muss entweder unverschämtes Pech gewesen sein oder aber ich habe nur inkompetente Lakaien in meinen Diensten, um einen solchen Misserfolg verursacht zu haben."
+ steal_back_artifact_outcome.2001.a:0 "Ich kann das einfach nicht glauben! Das ist inakzeptabel!"
+

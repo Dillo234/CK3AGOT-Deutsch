@@ -1,0 +1,10 @@
+﻿l_russian:
+ MEMORIES_WINDOW_HEADING:0 "[Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINameNoTooltip, 'Никто не')|U] помнит"
+ MEMORIES_WINDOW_ENTRY:0 "[CharacterMemory.GetDescription|U]."
+ MEMORIES_WINDOW_COPY_ENTRY:0 "[CharacterMemory.GetCreationDate.GetString]\n[CharacterMemory.GetDescription|U].\n\n"
+ MEMORIES_WINDOW_COPY_TO_CLIPBOARD:0 "$COA_DESIGNER_COPY_TO_CLIPBOARD_BUTTON$"
+ CHARACTER_HAS_NO_MEMORIES:0 "[Select_CString( Character.IsAlive, 'Ничего существенного еще не произошло...', 'Эти воспоминания стерлись со временем...')]"
+ MEMORY_INFO:0 "[Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINameNoTooltip, 'Никто не')] помнит эти важные воспоминания. Воспоминания недолговечны, но вместе с тем бесценны и незаменимы. Со временем все воспоминания канут безвозвратно."
+ OPEN_MEMORIES_TOOLTIP:0 "#I Посмотреть воспоминания этого персонажа#!"
+ MEMORIES_WINDOW_PIN_IT:0 "Закрепить это окно, чтобы оно не переключалось на других персонажей"
+ MEMORY_SORT_ORDER_TOOLTIP:0 "#T Изменить порядок сортировки воспоминаний#!"

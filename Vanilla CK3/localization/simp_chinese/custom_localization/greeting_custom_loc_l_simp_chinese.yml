@@ -1,0 +1,68 @@
+﻿l_simp_chinese:
+ greeting_lover_object:0 "[second.GetTitledFirstName|U]，我的[ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('second'))]，"
+ greeting_lover_fallback:0 "[second.GetTitledFirstName|U]，我亲爱的[second.Custom('LoverPetName')]，"
+
+ greeting_liege_positive:1 "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]"
+ greeting_liege_negative:1 "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]"
+ greeting_liege_liked:0 "敬启，我[second.Custom('ComplimentAdjective')]领主，"
+ greeting_liege_dislike:0 "致我的领主，"
+ greeting_liege_fallback:0 "敬启，我的领主，"
+
+ greeting_vassal_positive:1 "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]"
+ greeting_vassal_negative:1 "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]"
+ greeting_vassal_relative_liked:1 "[ROOT.Char.Custom2('GreetingToFamily', second)]"
+ greeting_vassal_liked:0 "敬启，我[second.Custom('ComplimentAdjective')]封臣，"
+ greeting_vassal_dislike:1 "致我[second.Custom('InsultAdjective')]封臣，"
+ greeting_vassal_fallback:0 "致我的封臣，"
+
+ greeting_family_positive:1 "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]"
+ greeting_family_negative:1 "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]"
+ greeting_family_liked:1 "我亲爱的[ROOT.Char.Custom2('RelationToMeShort', second)]，"
+ greeting_family_fallback:1 "敬启，[ROOT.Char.Custom2('RelationToMeShort', second)]，"
+  
+ greeting_foreign_ruler:1 "敬启，[second.GetNameNoTooltip]，"
+ greeting_foreign_ruler_negative:1 "致[second.Custom('InsultAdjective')][second.GetTitledFirstNameNoTooltip]，"
+ greeting_foreign_ruler_positive:1 "致[second.Custom('ComplimentAdjective')][second.GetNameNoTooltip]，"
+
+ greeting_generic:1 "敬启，[second.GetNameNoTooltip]，"
+ greeting_generic_negative:0 "致[second.Custom('InsultAdjective')][second.GetFirstNameNoTooltip]，"
+ greeting_generic_positive:0 "致[second.Custom('ComplimentAdjective')][second.GetFirstNameNoTooltip]，"
+
+ greeting_appropriate_positive_liege:1 "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]"
+ greeting_appropriate_positive_vassal:1 "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]"
+ greeting_appropriate_positive_family:1 "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]"
+ greeting_appropriate_positive_foreign_ruler:1 "[ROOT.Char.Custom2('GreetingToForeignRulerPositive', second)]"
+
+ greeting_appropriate_lover:1 "[ROOT.Char.Custom2('GreetingToLover', second)]"
+ greeting_appropriate_liege:1 "[ROOT.Char.Custom2('GreetingToLiege', second)]"
+ greeting_appropriate_vassal:1 "[ROOT.Char.Custom2('GreetingToVassal', second)]"
+ greeting_appropriate_family:1 "[ROOT.Char.Custom2('GreetingToFamily', second)]"
+ greeting_appropriate_foreign_ruler:1 "[ROOT.Char.Custom2('GreetingToForeignRuler', second)]"
+ greeting_appropriate_fallback:1 "[ROOT.Char.Custom2('GreetingToGeneric', second)]"
+ greeting_appropriate_positive_fallback:0 "[ROOT.Char.Custom2('GreetingToGenericPositive', second)]"
+ greeting_appropriate_negative_fallback:0 "[ROOT.Char.Custom2('GreetingToGenericNegative', second)]"
+
+ greeting_appropriate_negative_liege:1 "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]"
+ greeting_appropriate_negative_vassal:1 "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]"
+ greeting_appropriate_negative_family:1 "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]"
+ greeting_appropriate_negative_foreign_ruler:1 "[ROOT.Char.Custom2('GreetingToForeignRulerNegative', second)]"
+
+
+ greeting_supplimentary.negative:0 "[ROOT.Char.Custom2('NegativeSupplimentaryGreeting', second)]"
+ greeting_supplimentary.negative.tales:0 "你的恶行从爱尔兰到契丹无人不知，无人不晓。"
+ greeting_supplimentary.negative.greek:0 "你下贱的品行有如希腊戏剧的主角一般。"
+ greeting_supplimentary.negative.insult.1:0 "愿你的体液在躯体里朽烂。"
+ greeting_supplimentary.negative.insult.2:0 "愿你的一生短暂而不幸。"
+ greeting_supplimentary.negative.insult.3:0 "愿智慧永远弃你而去。"
+ greeting_supplimentary.negative.insult_muslim.1:0 "诅咒你的七代祖宗。"
+ greeting_supplimentary.negative.insult_muslim.2:0 "愿你活活被缝进死骆驼的肚子里。"
+ greeting_supplimentary.negative.insult_muslim.3:0 "愿安拉降灾于你全家。"
+ greeting_supplimentary.negative.insult_muslim.4:0 "你这条污秽的狗杂种。"
+
+ greeting_supplimentary.positive:0 "[ROOT.Char.Custom2('PositiveSupplimentaryGreeting', second)]"
+ greeting_supplimentary.positive.flattery.1:0 "祝你和你的家人平安。"
+ greeting_supplimentary.positive.flattery.2:0 "你的智慧与仁德广为传颂。"
+ greeting_supplimentary.positive.flattery.3:0 "祝你平安。"
+ greeting_supplimentary.positive.flattery.4:0 "祝你生活平静充实。"
+ greeting_supplimentary.positive.flattery.5:0 "你的冷酷令人羡慕。"
+ greeting_supplimentary.positive.flattery.6:0 "你的品味十分出色，享誉世界。"

@@ -1,0 +1,15 @@
+﻿l_simp_chinese:
+
+ KNIGHTS_VIEW_FORCE:0 "强制"
+ KNIGHTS_VIEW_ALLOW:0 "允许"
+ KNIGHTS_VIEW_FORBID:0 "禁止"
+ KNIGHTS_VIEW_TITLE:1 "$knight_culture_player_plural_no_tooltip$"
+ MAX_KNIGHT_COUNT:2 "$knight_culture_player_plural_no_tooltip$：#high [GetKnightCount( GetPlayer.Self )]/[GetKnightLimit( GetPlayer.Self )]#!"
+ MAX_KNIGHT_TOOLTIP:1 "#T $knight_culture_player_plural_no_tooltip$最大数量：[knight_i] [GetKnightLimit( GetPlayer.Self )|V]#!\n[GetKnightLimitBreakdown( GetPlayer.Self )]"
+ KNIGHT_EFFECTIVENESS:1 "$knight_culture_player_no_tooltip$战斗力：#high [GetPlayer.GetKnightEffectiveness|%0]#!"
+ KNIGHT_EFFECTIVENESS_TOOLTIP:2 "#T [knight_effectiveness|E]：[GetPlayer.GetKnightEffectiveness|V%0]#!\n基础：#V 100%#!\n[GetPlayer.GetKnightEffectivenessBreakdown]"
+ KNIGHTS_VIEW_TITLE_FORBID_TT:2 "#T 禁止[Character.GetShortUIName]成为$knight_culture_player$#!\n\n[Character.GetShortUIName]将#emphasis 永远不能#!作为$knight_culture_player_no_tooltip$加入你的[armies|E]。这将保证[Character.GetHerHim]的安全而不至于死于[battle|E]。"
+ KNIGHTS_VIEW_TITLE_BY_PROWESS_TT:2 "#T 允许[Character.GetShortUIName]成为$knight_culture_player$#!\n\n[Character.GetShortUIName]将作为$knight_culture_player_no_tooltip$加入你的[armies|E]，只要[Character.GetHerHis]是[realm|E]内[prowess|E]最高的人之一"
+ KNIGHTS_VIEW_TITLE_FORCE_TT:2 "#T 强制[Character.GetShortUIName]成为$knight_culture_player$#!\n\n[Character.GetShortUIName]#emphasis 必须#!作为$knight_culture_player_no_tooltip$加入你的[armies|E]，无论[Character.GetHerHis]的[prowess|E]是多少。[Character.GetSheHe|U]可能会取代一位拥有更高勇武的$knight_culture_player_no_tooltip$。"
+ KNIGHTS_CURRENT_MAX:0 "[GetKnightCount( GetPlayer.Self )|V]/[GetKnightLimit( GetPlayer.Self )|V]"
+ KNIGHTS_SUBHEADER:0 "符合条件的[courtiers|E]和[vassals|E]"

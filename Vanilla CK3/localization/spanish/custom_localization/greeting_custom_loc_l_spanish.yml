@@ -1,0 +1,68 @@
+﻿l_spanish:
+ greeting_lover_object:0 "[second.GetTitledFirstName|U], mi [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('second'))],"
+ greeting_lover_fallback:0 "[second.GetTitledFirstName|U], mi [second.Custom('LoverPetName')] del alma,"
+
+ greeting_liege_positive:1 "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]"
+ greeting_liege_negative:1 "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]"
+ greeting_liege_liked:0 "Saludos, mi [second.Custom('ComplimentAdjective')] [ROOT.Char.Custom('ES_SennorSennora')],"
+ greeting_liege_dislike:0 "A mi [ROOT.Char.Custom('ES_SennorSennora')],"
+ greeting_liege_fallback:0 "Saludos, mi [ROOT.Char.Custom('ES_SennorSennora')],"
+
+ greeting_vassal_positive:1 "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]"
+ greeting_vassal_negative:1 "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]"
+ greeting_vassal_relative_liked:1 "[ROOT.Char.Custom2('GreetingToFamily', second)]"
+ greeting_vassal_liked:0 "Saludos, mi [second.Custom('ComplimentAdjective')] vasall[ROOT.Char.Custom('ES_OA')],"
+ greeting_vassal_dislike:1 "A mi [Select_CString(second.IsFemale, 'vasallo', 'vasalla' )] [second.Custom('InsultAdjective')],"
+ greeting_vassal_fallback:0 "A mi vasall[ROOT.Char.Custom('ES_OA')],"
+
+ greeting_family_positive:1 "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]"
+ greeting_family_negative:1 "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]"
+ greeting_family_liked:1 "Mi querid[crush.Custom('ES_OA')] [ROOT.Char.Custom2('RelationToMeShort', second)],"
+ greeting_family_fallback:1 "Saludos, [ROOT.Char.Custom2('RelationToMeShort', second)]:"
+  
+ greeting_foreign_ruler:1 "Saludos, [second.GetNameNoTooltip]:"
+ greeting_foreign_ruler_negative:1 "[target.Custom('ES_AlAla')|U] [second.Custom('InsultAdjective')] [second.GetTitledFirstNameNoTooltip],"
+ greeting_foreign_ruler_positive:1 "[ROOT.Char.Custom('ES_AlAla')|U] [second.Custom('ComplimentAdjective')] de [second.GetNameNoTooltip],"
+
+ greeting_generic:1 "Saludos, [second.GetNameNoTooltip]:"
+ greeting_generic_negative:0 "A [second.GetFirstNameNoTooltip], muy [second.Custom('InsultAdjective')],"
+ greeting_generic_positive:0 "[ROOT.Char.Custom('ES_AlAla')|U] [second.Custom('ComplimentAdjective')] [second.GetFirstNameNoTooltip],"
+
+ greeting_appropriate_positive_liege:1 "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]"
+ greeting_appropriate_positive_vassal:1 "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]"
+ greeting_appropriate_positive_family:1 "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]"
+ greeting_appropriate_positive_foreign_ruler:1 "[ROOT.Char.Custom2('GreetingToForeignRulerPositive', second)]"
+
+ greeting_appropriate_lover:1 "[ROOT.Char.Custom2('GreetingToLover', second)]"
+ greeting_appropriate_liege:1 "[ROOT.Char.Custom2('GreetingToLiege', second)]"
+ greeting_appropriate_vassal:1 "[ROOT.Char.Custom2('GreetingToVassal', second)]"
+ greeting_appropriate_family:1 "[ROOT.Char.Custom2('GreetingToFamily', second)]"
+ greeting_appropriate_foreign_ruler:1 "[ROOT.Char.Custom2('GreetingToForeignRuler', second)]"
+ greeting_appropriate_fallback:1 "[ROOT.Char.Custom2('GreetingToGeneric', second)]"
+ greeting_appropriate_positive_fallback:0 "[ROOT.Char.Custom2('GreetingToGenericPositive', second)]"
+ greeting_appropriate_negative_fallback:0 "[ROOT.Char.Custom2('GreetingToGenericNegative', second)]"
+
+ greeting_appropriate_negative_liege:1 "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]"
+ greeting_appropriate_negative_vassal:1 "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]"
+ greeting_appropriate_negative_family:1 "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]"
+ greeting_appropriate_negative_foreign_ruler:1 "[ROOT.Char.Custom2('GreetingToForeignRulerNegative', second)]"
+
+
+ greeting_supplimentary.negative:0 "[ROOT.Char.Custom2('NegativeSupplimentaryGreeting', second)]"
+ greeting_supplimentary.negative.tales:0 "Las historias de tus fechorías son famosas de Irlanda a Catay."
+ greeting_supplimentary.negative.greek:0 "Tu baja calaña es el tema de obras de teatro griegas."
+ greeting_supplimentary.negative.insult.1:0 "Que los humores se te pudran en el cuerpo."
+ greeting_supplimentary.negative.insult.2:0 "Que tu vida sea corta y miserable."
+ greeting_supplimentary.negative.insult.3:0 "Que la sabiduría te esquive."
+ greeting_supplimentary.negative.insult_muslim.1:0 "Maldito sea tu séptimo abuelo."
+ greeting_supplimentary.negative.insult_muslim.2:0 "Así te cosan dentro del vientre de un camello muerto."
+ greeting_supplimentary.negative.insult_muslim.3:0 "Así Alá destruya tu casa."
+ greeting_supplimentary.negative.insult_muslim.4:0 "Hijo de un perro sarnoso."
+
+ greeting_supplimentary.positive:0 "[ROOT.Char.Custom2('PositiveSupplimentaryGreeting', second)]"
+ greeting_supplimentary.positive.flattery.1:0 "Bendiciones para ti y para tu casa."
+ greeting_supplimentary.positive.flattery.2:0 "Tu sabiduría y clemencia son legendarias."
+ greeting_supplimentary.positive.flattery.3:0 "La paz sea contigo."
+ greeting_supplimentary.positive.flattery.4:0 "Que vivas en armonía y satisfacción."
+ greeting_supplimentary.positive.flattery.5:0 "Tu implacabilidad es envidiable."
+ greeting_supplimentary.positive.flattery.6:0 "Tus grandes apetitos son célebres en todo el mundo."

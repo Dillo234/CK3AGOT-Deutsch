@@ -1,0 +1,53 @@
+﻿l_simp_chinese:
+ start_hunt_mystical_animal_story_cycle_effect.tt:0 "不找到它我绝不罢休！"
+
+ hunt_mystical_animal.1001.t:0 "白[ROOT.Char.Custom('LocalAnimal')|U]"
+ hunt_mystical_animal.1001.desc:0 "在梦中我所追猎的[ROOT.Char.Custom('LocalAnimalDesc')]白[ROOT.Char.Custom('LocalAnimal')]来了，它用深邃的眼睛打探我，不断炫耀着它那厚实的皮毛。\n\n我们站在[ROOT.Char.Custom('TerrainType')]上，万物寂寥，但无论我如何追逐都赶不上我的猎物。\n\n当我把自己惊醒时，我的决心更加坚定了。"
+ hunt_mystical_animal.1001.a:0 "它躲得过初一躲不过十五！"
+
+ hunt_mystical_animal.1002.desc:0 "我在[location.GetNameNoTierNoTooltip]带着我的扈从们，道路蜿蜒，把我们带进了[ROOT.Char.Custom('TerrainType')]。它就在那里，我再次看到了它，在太阳下熠熠生辉……白[ROOT.Char.Custom('LocalAnimal')]。\n\n我转身提醒他人，但当我再转回时，那只[ROOT.Char.Custom('LocalAnimal')]已经远去了。"
+ hunt_mystical_animal.1002.a:0 "它在羞辱我！"
+
+ hunt_mystical_animal.1003.desc:0 "自从我开始搜寻，领地里民众目击[ROOT.Char.Custom('LocalAnimalDesc')]白[ROOT.Char.Custom('LocalAnimal')]的报告雪片般飞来。\n\n从各式各样的流言蜚语中寻求真相是一个艰巨的任务，如果这些报告可靠一点就好了……"
+ hunt_mystical_animal.1003.a:0 "我会雇人来找它！"
+ hunt_mystical_animal.1003.b:0 "任务太艰巨了，我不干了。"
+ hunt_mystical_animal.1003.b.tt:1 "你会停止狩猎动物的活动。"
+ hunt_mystical_animal.1003.c:0 "我的[steward.GetCouncilTitle]会解决这件事。"
+ hunt_mystical_animal.1003.d:0 "我能做到。我#EMP 必须#!做到！"
+ hunt_mystical_animal.1003.e:0 "[m_hunt.GetTitledFirstName]，组织搜索队！"
+
+ hunt_mystical_animal.1004.desc:0 "“[ROOT.Char.GetLadyLord]！我们得到了民众在当地森林里目击那只白色[ROOT.Char.Custom('LocalAnimal')]的报告！他们大大小小的细节都报告了，似乎很确定确实是在那里。”\n\n它在那里吗？在[location.GetNameNoTier]？！"
+ hunt_mystical_animal.1004.a:0 "我们上！"
+ hunt_mystical_animal.1004.a.tt:0 "这次它插翅难飞。"
+ hunt_mystical_animal.1004.b:0 "我不会允许它这样玩弄我的感情。"
+
+ hunt_mystical_animal.1005.desc:0 "\n\n那只[ROOT.Char.Custom('LocalAnimal')]跳进了[ROOT.Char.Custom('TerrainType')]，如同它突然到来一样一下子消失不见。"
+ hunt_mystical_animal.1005.a:0 "操！我会抓到你的！"
+
+ hunt_mystical_animal.1006.desc:0 "我向窗外望去，那只白[ROOT.Char.Custom('LocalAnimal')]站在那里，在[ROOT.Char.Custom('TerrainType')]的角落，#EMP 嘲弄#!我。\n\n当我转身离开时，我面对的是我床单上的白色织物，当我试图摆脱它们时，我撞到了一个挂在墙上的[ROOT.Char.Custom('LocalAnimal')]的头。我闭上眼睛，还是它——那只白[ROOT.Char.Custom('LocalAnimal')]——在嘲笑我！"
+ hunt_mystical_animal.1006.a:0 "我—会—抓—住—你！"
+ hunt_mystical_animal.1006.b:0 "你！对对就是你，你现在是白[ROOT.Char.Custom('LocalAnimal')]了！给我过来！"
+
+ hunt_mystical_animal.1007.desc:0 "行踪不定的白[ROOT.Char.Custom('LocalAnimal')]被发现了！\n\n当我沿着它的足迹走进当地的森林，越来越深入绿野时，一切都开始改变形状。我看到[ROOT.Char.Custom('ResidenceBuilding')]那么大的蘑菇，树却小的像老鼠，还有和马一般大的毛毛虫。"
+ hunt_mystical_animal.1007.a:0 "无论你跳进哪个洞我也会找到你！"
+ hunt_mystical_animal.1007.b:0 "哦，这些蘑菇……看起来很美味。"
+ hunt_mystical_animal.1007.b.success:0 "真香！"
+ hunt_mystical_animal.1007.b.failure:0 "呃，我有点难受……"
+
+ hunt_mystical_animal.1008.desc:0 "日子一天天过去，我没有打听到一点白[ROOT.Char.Custom('LocalAnimal')]的消息，我感到焦躁不安。\n\n肯定有人看到它了吧？比如在[ROOT.Char.Custom('TerrainType')]倒垃圾的农民？也许我需要他们的协助……"
+ hunt_mystical_animal.1008.a:0 "发送公文！"
+ hunt_mystical_animal.1008.b:0 "我不会堕落如斯。"
+ hunt_mystical_animal.1008.c:0 "我会派遣[knight.GetFirstNameNoTooltip]。"
+
+ hunt_mystical_animal.1009.desc:0 "“[ROOT.Char.GetLadyLord]，为了区区一只畜生如此兴师动众……我得承认我心里有点担忧。”\n\n我正在阅览有关白[ROOT.Char.Custom('LocalAnimal')]现身的报告，此时[court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)|U]来到了我的身边。“很显然，要是有什么能引起如此大的关注，那么它很可能是[ROOT.Char.GetFaith.DevilName]派来的；因为它的存在显然和[ROOT.Char.GetFaith.HighGodNameAlternate][ROOT.Char.GetFaith.HighGodHerselfHimself]本身没有丝毫关系！”"
+ hunt_mystical_animal.1009.a:0 "[ROOT.Char.Custom('LocalAnimal')]可是[ROOT.Char.GetFaith.HighGodName]的信使。"
+ hunt_mystical_animal.1009.a.success:0 "“或许你是对的……”"
+ hunt_mystical_animal.1009.a.failure:0 "“你究竟在说什么啊？！”"
+ hunt_mystical_animal.1009.b:0 "跟你没关系。"
+ hunt_mystical_animal.1009.c:0 "你是对的，我脑子里在想什么？"
+
+ hunt_mystical_animal.9001.desc:0 "我跟随踪迹越来越深入[ROOT.Char.Custom('TerrainType')]，四周慢慢寂静无声。\n\n就像是凭空蹦出来一样，那只白[ROOT.Char.Custom('LocalAnimal')]突然出现在我面前，毛皮在阳光下熠熠生辉，眼睛深邃得像梦一样。我举起了我的弓……"
+ hunt_mystical_animal.9001.a:0 "……让箭再飞一会。"
+
+ hunt_mystical_animal.9002.desc:0 "“[ROOT.Char.GetLadyLord]！一个当地农民送给你一份礼物。[dummy_peasant_gender.GetSheHe|U]宣称这种白色是天然的，但我从未见过任何这样的东西！”\n\n我怀着越来越大的恐惧走近那捆东西——那里静静躺着的正是，我数年以来苦苦追猎的白[ROOT.Char.Custom('LocalAnimal')]。"
+ hunt_mystical_animal.9002.a:0 "这一定是个笑话……！"

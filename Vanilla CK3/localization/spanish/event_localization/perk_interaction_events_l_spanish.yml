@@ -1,0 +1,11 @@
+﻿l_spanish:
+ perk_interaction.0002.t:0 "¡Una reclamación sobre mis tierras!"
+ perk_interaction.0002.same_faith:0 "¡Por algún motivo impensable, los [actor.GetFaith.AltPriestTermPlural] han sancionado la reclamación totalmente infundada de [actor.GetTitledFirstName] sobre [target.GetName]!"
+ perk_interaction.0002.other_faith:0 "¡Esos charlatanes sacerdotes de la fe [actor.GetFaith.GetAdjective] han proclamado públicamente su apoyo a la reclamación totalmente infundada de [actor.GetTitledFirstName] sobre [target.GetName]!"
+ perk_interaction.0002.a:1 "Ya verá es[actor.Custom('ES_EA')] cuando llegue el momento…"
+
+ perk_interaction.0102.actor_toast.t:0 "Tu duelo contra [recipient.GetFirstNameNoTooltip] queda invalidado"
+ perk_interaction.0102.recipient_toast.t:0 "Tu duelo contra [actor.GetFirstNameNoTooltip] queda invalidado"
+ perk_interaction.0102.bout_invalidated.tt:0 "Un cambio de circunstancias te ha obligado a cancelar"
+ perk_interaction.0101.victor_toast.t:0 "Consigues la victoria contra [sc_loser.GetFirstNameNoTooltip]"
+ perk_interaction.0101.loser_toast.t:0 "Pierdes contra [sc_victor.GetFirstNameNoTooltip]"

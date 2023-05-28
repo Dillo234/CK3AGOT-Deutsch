@@ -1,0 +1,192 @@
+﻿l_russian:
+ bp1_yearly.7000.t:0 "Разговенье с другом"
+ bp1_yearly.7000.desc:1 "Утро. Меня ждет [ROOT.Char.GetFaith.HouseOfWorship|l], но по дороге мне встречается [distraction_friend.GetTitledFirstName] с небольшим мешком. Заговорщически оглядевшись по сторонам, [distraction_friend.GetSheHe] открывает его, демонстрируя разнообразную снедь и напитки.\n\n«Отличный денек, давай устроим небольшой утренний пикник», — говорит [distraction_friend.GetSheHe].\n\nЯ пытаюсь объяснить, что меня ждет [ROOT.Char.GetFaith.HouseOfWorship|l], но [distraction_friend.GetFirstNameNoTooltip] прерывает меня на полуслове: \n\n«'[ROOT.Char.GetFaith.HighGodName] никуда не денется, а вот [ROOT.Char.Custom('GetExpensiveDessert')] очень даже». "
+ bp1_yearly.7000.a:0 "[ROOT.Char.GetFaith.HighGodName] важнее завтрака."
+ bp1_yearly.7000.b:0 "Грех будет пропускать такое."
+ 
+ lovely_picnic_modifier:0 "Прекрасный пикник"
+ lovely_picnic_modifier_desc:0 "Отправились на прекрасный пикник."
+ 
+ bp1_yearly.7001.t:0 "Ушли на рыбалку"
+ bp1_yearly.7001.desc:1 "[ROOT.Char.Custom2('RelationToMeShort', fishing_friend)] [fishing_friend.GetFirstName] останавливает меня посреди коридора с улыбкой до ушей. В руках у н[fishing_friend.GetHerHis|l] две удочки.\n\n«Пойдем на рыбалку, дружище [fishing_friend.Custom2('RelationToMeShort', ROOT.Char)], обещаю, тебе понравится», — восклицает [fishing_friend.GetSheHe].\n\nДавненько мне не удавалось отдохнуть от суматохи, которой полнится [ROOT.Char.Custom('FortifiedBuilding')]..."
+ bp1_yearly.7001.a:0 "Я поймаю легендарного белого карпа!"
+ bp1_yearly.7001.b:0 "[ROOT.Char.GetTitleAsNameNoTooltip] не #EMP рыбачит#!."
+ 
+ bp1_yearly_7001.a.tt:1 "Вы отправляетесь на рыбалку"
+ 
+ bp1_yearly.7001.a.toast.good_time:1 "Вы отлично прогулялись"
+ bp1_yearly.7001.a.toast.bad_time:1 "Вы плохо провели время"
+ bp1_yearly.7001.a.toast.caught_fish:1 "Вы поймали огромную рыбу"
+ bp1_yearly.7001.a.toast.white_carp:1 "Вы поймали легендарного белого карпа"
+ 
+ 
+ bp1_yearly.7002.t:0 "Нечистотная борьба"
+ bp1_yearly.7002.desc:1 "Облегчившись, я неспешно подхожу к окну и любуюсь двором.\n\nМое настроение стремительно портится, когда я вижу, как по двору идет [Select_CString(chamberpot_rival.IsFemale, 'моя соперница', 'мой соперник' )] [chamberpot_rival.GetFirstName] с возмутительно веселым выражением на лице. Мне на глаза попадается полный ночной горшок, стоящий у кровати. Возможно, это веселье можно слегка подпортить..."
+ bp1_yearly.7002.a:0 "Поберегись, падаем!"
+ bp1_yearly.7002.b:0 "Я не буду опускаться до подобного ребячества."
+ 
+ bp1_yearly.7002.a.tt:0 "Вы пытаетесь выплеснуть ночной горшок на соперника"
+ 
+ drenched_in_excrement_opinion:0 "По уши в экскрементах"
+ threw_excrement_opinion:1 "Чуть не по уши в экскрементах"
+ 
+ bp1_yearly.7002.a.toast.perfect_hit:0 "Точно в цель!"
+ bp1_yearly.7002.a.toast.miss:0 "Мимо!"
+ bp1_yearly.7002.a.toast.chamberpot:0 "Вы уронили горшок!"
+ bp1_yearly.7002.a.toast.tripped:0 "Вы поскользнулись и измазались в экскрементах!"
+ 
+ 
+ 
+ 
+ bp1_yearly.7003.t:0 "Гобелен"
+ bp1_yearly.7003.desc:1 "Я ищу, где же [orgy_tapestry_maker.Custom2('MyCharacterIntroduction', ROOT.Char)], но [orgy_tapestry_maker.GetSheHe|l] как сквозь землю [Select_CString(orgy_tapestry_maker.IsFemale, 'провалилась', 'провалился' )]. В конечном счете я вхожу в [orgy_tapestry_maker.GetHerHis|l] покои, но #EMP [orgy_tapestry_maker.GetHerHis|l]#! и там нет... зато там есть кое-что интересное.\n\nПохоже, [orgy_tapestry_maker.GetSheHe|l] [Select_CString(orgy_tapestry_maker.IsFemale, 'работала', 'работал' )] над гобеленом, недвусмысленно изображающим оргию. Меня на этом полотне с двух сторон зажали [Select_CString(orgy_participant_1.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', orgy_participant_1)] [orgy_participant_1.GetFirstName] и [Select_CString(orgy_participant_2.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', orgy_participant_2)] [orgy_participant_2.GetFirstName]. В то же время [Select_CString(orgy_tapestry_maker.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', orgy_tapestry_maker)] [orgy_tapestry_maker.GetFirstNameNoTooltip] и [ROOT.Char.GetFaith.DevilName] тоже отлично проводят время. А в углу сидит [Select_CString(orgy_participant_3.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', orgy_participant_3)] [orgy_participant_3.GetFirstName] и улыбается в полном восторге.\n\nЯ же просто теряю дар речи."
+ bp1_yearly.7003.a:0 "Отвратительно!"
+ bp1_yearly.7003.b:0 "Это #EMP надо#! повесить на стену."
+ bp1_yearly.7003.c:0 "Ой, не та дверь."
+ 
+ bp1_orgy_tapestry:0 "Гобелен с оргией"
+ bp1_orgy_tapestry_desc:0 "Этот гобелен изображает оргию, в которой участвуют [orgy_participant_1.GetFirstName], [ROOT.Char.GetName], [orgy_participant_2.GetName], [orgy_participant_3.GetName] и [orgy_tapestry_maker.GetName]. [ROOT.Char.GetFaith.DevilName] тоже участвует."
+ 
+ 
+ bp1_yearly.7004.t:0 "Поддержка друга"
+ bp1_yearly.7004.desc:1 "[ROOT.Char.Custom2('RelationToMeShort', concerned_friend)] [concerned_friend.GetFirstName] подходит ко мне, когда я сижу у окна. «Ты ведешь себя иначе с тех пор как... с самого происшествия».\n\n[concerned_friend.GetSheHe|U] не произносит этого вслух, но я знаю, о чем речь. [bad_memory.GetDescription|l].\n\n«Возможно, тебе стоит с кем-нибудь об этом поговорить? Со мной, например?» — мягко продолжает [concerned_friend.GetSheHe|l]."
+ bp1_yearly.7004.a:0 "Звучит неплохо."
+ bp1_yearly.7004.b:0 "Мои проблемы касаются лишь меня."
+ 
+ bp1_yearly.7005.t:0 "Дружеская услуга"
+ bp1_yearly.7005.desc:0 "[Select_CString(borrowing_friend.IsFemale, 'Моя подруга', 'Мой друг' )] [borrowing_friend.GetName] подходит ко мне и явно хочет о чем-то попросить. Спустя какое-то время мне надоедают [borrowing_friend.GetHerHis|l] хождения вокруг да около, и я прямо требую сказать мне, что [borrowing_friend.GetHerHim|l] нужно.\n\n«Ну, понимаешь, [borrowed_artifact.GetName]... мне бы одолжить, всего на один вечер. Только не спрашивай, зачем...»\n\n[borrowing_friend.GetSheHe|U] явно стесняется своей просьбы. Зачем [borrowing_friend.GetHerHim|l] эта вещь?"
+ bp1_yearly.7005.a:0 "Почему бы и нет."
+ bp1_yearly.7005.b:0 "Ни за что."
+ 
+ bp1_yearly.7005.a.returned_artifact:0 "Одолженный артефакт возвращен."
+ 
+ bp1_yearly.7006.t:0 "$bp1_yearly.7005.t$"
+ bp1_yearly.7006.desc:0 "[borrowing_friend.GetName] подходит ко мне, опустив глаза. «Только не огорчайся».\n\n[borrowing_friend.GetSheHe|U] отводит меня туда, где стоит [borrowed_artifact.GetName]. Увы, артефакт сильно поврежден.\n\n«Мне жаль, что так получилось», — [borrowing_friend.GetFirstNameNoTooltip] выглядит крайне удрученно."
+ bp1_yearly.7006.a:0 "Ну ты и [borrowing_friend.Custom('InsultNoun')|l]."
+ bp1_yearly.7006.b:0 "Всякое случается."
+ 
+ bp1_yearly.7005.a.tt:0 "Ваш артефакт мог получить повреждения."
+ 
+ bp1_yearly.7007.t:0 "$bp1_yearly.7005.t$"
+ bp1_yearly.7007.desc:0 "[borrowing_friend.GetName] [Select_CString(borrowing_friend.IsFemale, 'вернула', 'вернул' )] мне одолженный предмет. Не знаю, то ли [borrowed_artifact.GetName] теперь чуть чище, то ли что-то действительно изменилось, но артефакт теперь выглядит лучше прежнего.\n\n«Надеюсь, тебе нравится. Я [Select_CString(borrowing_friend.IsFemale, 'трудилась', 'трудился' )] весь вечер», — говорит [borrowing_friend.GetSheHe|l], явно нервничая."
+ bp1_yearly.7007.a:0 "Замечательно!"
+ bp1_yearly.7007.b:0 "Ты [Select_CString(borrowing_friend.IsFemale, 'переделала', 'переделал' )] мою вещь?!"
+ 
+ didnt_trust_friend_opinion:0 "Не поверили мне."
+ trusted_friend_opinion:0 "Поверили мне."
+ forgave_me_opinion:0 "Простили меня."
+ improved_artifact_opinion:0 "Улучшили мой артефакт."
+ messed_with_artifact_opinion:0 "Испортили мой артефакт."
+ 
+ bp1_yearly.7010.t:1 "Проверка на верность"
+ bp1_yearly.7010.desc:2 "Никак не могу перестать думать, кому [Select_CString(tested_friend.IsFemale, 'предана', 'предан' )] [tested_friend.GetFirstName]. [Select_CString(tested_friend.IsFemale, 'Подруга она', 'Друг он' )] мне или просто приживала?\n\nВозможно, небольшое испытание успокоит мои тревоги...\n\nОдин из моих заговорщиков, ложный секрет и анонимный подарок. Что убедит [tested_friend.GetHerHis|l] предать мое доверие?"
+ bp1_yearly.7010.a:1 "Тридцать сребреников."
+ bp1_yearly.7010.b:1 "Прекрасные [tested_friend.Custom('AttractionWomanManMultiple')], #EMP три#!, готовые исполнить любое желание."
+ bp1_yearly.7010.c:1 "Обещание богатств, которые получит [tested_friend.GetHerHis|l] #EMP [Select_CString(friends_friend.IsFemale, 'другая', 'другой' )]#! [Select_CString(friends_friend.IsFemale, 'подруга', 'друг' )], [friends_friend.GetFirstNameNoTooltip]."
+ bp1_yearly.7010.d:0 "Это ниже моего достоинства."
+ 
+ bp1_yearly.7010.toast.betrayed:1 "[tested_friend.GetSheHe|U] предает вас"
+ 
+ bp1_yearly.7010.toast.not_betrayed:1 "[tested_friend.GetSheHe|U] доказывает свою верность"
+ 
+ bp1_yearly.7010.a.tt:1 "Вам кажется, что [tested_friend.GetTitledFirstName] любит золото"
+ bp1_yearly.7010.b.tt:1 "Вам кажется, что [tested_friend.GetTitledFirstName] ценит плотские удовольствия больше дружбы"
+ bp1_yearly.7010.c.tt:1 "Вам кажется, что [tested_friend.GetTitledFirstName] считает, будто [friends_friend.GetFirstName] важнее, чем вы"
+ 
+ 
+ bp1_yearly.7050.t:0 "Старые враги"
+ bp1_yearly.7050.desc:0 "Я вновь на поле боя, грязь чавкает под сапогами, в нос бьет резкий запах мертвечины, я вновь переживаю тот день, когда [war_memory.GetDescription].\n\nЯ просыпаюсь в холодом поту."
+ bp1_yearly.7050.desc.married:0 "[sleeping_spouse.GetFirstName] ворочается в кровати рядом со мной, но не просыпается, оставляя меня наедине с моими тревогами."
+ bp1_yearly.7050.desc.not_married:0 "В полном одиночестве своих покоев мне придется самостоятельно разбираться со своими тревогами."
+ bp1_yearly.7050.a:0 "Нужно попытаться забыть."
+ bp1_yearly.7050.b:0 "Я больше не проиграю!"
+ 
+ vengeance_obsessed_modifier:0 "Помешательство на мести"
+ 
+ bp1_yearly.7051.t:0 "[battle_area.GetAdjectiveNoTooltip]ое сражение "
+ bp1_yearly.7051.desc:1 "Я четко и ясно помню, как [battle_memory.GetDescription]. Место сражения и [battle_area.GetTerrain.GetNameNoTooltip] вокруг него стали для меня неприятным сюрпризом.\n\nС тех пор я раз за разом прокручиваю события в голове и считаю, что случись это сражение сегодня, мое руководство войсками будет куда увереннее."
+ bp1_yearly.7051.a:0 "Впредь я не допущу подобного."
+ bp1_yearly.7051.b:0 "Стоит поучиться гибкости."
+ 
+ bp1_yearly.7052.t:0 "История о..."
+ bp1_yearly.7052.desc:0 "Жарко горит очаг, наши бокалы пусты, и [story_friend.GetFirstName] предлагает мне рассказать историю.\n\nРазумеется, первым делом на ум приходит известное [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ое придание, бессмертная классика, всегда радующая слушателей.\n\nС другой стороны, почему бы не рассказать историю из своей жизни. Например, как [story_memory.GetDescription]."
+ bp1_yearly.7052.a:0 "Продолжим традицию."
+ bp1_yearly.7052.b:0 "Моя личная история!"
+ bp1_yearly.7052.c:0 "Почему бы не обе сразу!"
+ 
+ 
+ bp1_yearly.7053.t:0 "Напоминание о возмездии"
+ bp1_yearly.7053.desc:0 "Я иду по двору, и на меня вновь накатывает злость. В последнее время у меня в голове крутится одно и то же воспоминание — о том, как [bad_memory.GetDescription].\n\nНужно отомстить, [bad_memory_participant.GetFirstNameNoTooltip] [Select_CString(bad_memory_participant.IsFemale, 'должна', 'должен' )] за все ответить. Я смотрю на стоящую передо мной виселицу. Возможно, если я все сделаю правильно, скоро тут будет болтаться [bad_memory_participant.GetFirstNameNoTooltip]."
+ bp1_yearly.7053.a:0 "Я еще отомщу."
+ bp1_yearly.7053.b:0 "Нужно попытаться забыть."
+ 
+ murder_memory_modifier:0 "Напоминание о возмездии"
+ sex_memory_modifier:0 "Похотливые воспоминания"
+ 
+ bp1_yearly.7053.a.1:0 "Эти происки получат бонус к шансу успеха."
+ 
+ bp1_yearly.7054.t:0 "Забывчивость"
+ bp1_yearly.7054.desc:0 "«[forgotten_memory.GetDescription]?» — спрашиваю я в некотором замешательстве.\n\n[Select_CString(memory_child.IsFemale, 'Моя дочь', 'Мой сын' )] [memory_child.GetFirstName] с беспокойством смотрит на меня. «Конечно, мы же столько раз слышали эту историю, неужели ты не помнишь?»\n\nА ведь я и правда не помню. В последнее время мне с трудом удается вспомнить подробности, но, возможно, признаться в этом — значит проявить свою слабость."
+ bp1_yearly.7054.a:0 "Да, точно."
+ bp1_yearly.7054.b:0 "В последнее время я вечно все забываю."
+ 
+ bp1_yearly.7055.t:0 "Записанные воспоминания"
+ bp1_yearly.7055.desc.positive:0 "Некоторые моменты надо сохранять для истории. И тот случай, когда [recorded_memory.GetDescription], как раз из таких. Это воспоминание нужно сохранить навсегда."
+ bp1_yearly.7055.desc.negative:0 "Некоторые моменты надо сохранять для истории. И тот случай, когда [recorded_memory.GetDescription], как раз из таких. Воспоминание не из приятных, но кто-то должен передать его следующему поколению."
+ bp1_yearly.7055.desc.neutral:1 "Некоторые моменты надо сохранять для истории. И тот случай, когда [recorded_memory.GetDescription], как раз из таких."
+ bp1_yearly.7055.desc.alone_poor_skill:0 "Возможно, писатель из меня неважный, но терпение и труд помогут мне написать что-нибудь достойное.\n\n"
+ bp1_yearly.7055.desc.alone_good_skill:0 "[ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip|l] язык мне отлично знаком, что поможет мне без труда все записать.\n\n"
+ bp1_yearly.7055.desc.blind:0 "Увы, слепота мешает мне самостоятельно записать что-либо...\n\n"
+ bp1_yearly.7055.desc.poet:0 "[Select_CString(poet.IsFemale, 'Моя придворная поэтесса', 'Мой придворный поэт' )], [poet.GetFirstName], пригодится в этом деле. [poet.GetHerHis|U] умение писать прозу превратит обыденный текст в произведение искусства."
+ bp1_yearly.7055.desc.friend:0 "А ведь [Select_CString(friend.IsFemale, 'моя дорогая подруга', 'мой дорогой друг' )] [friend.GetFirstName] пишет куда лучше меня. Наверняка [friend.GetSheHe] согласится мне помочь."
+ 
+ bp1_yearly.7055.desc.ending:1 "Но составление и иллюстрирование полноценной книги могут обернуться значительными расходами..."
+ bp1_yearly.7055.poet:0 "[Select_CString(poet.IsFemale, 'Поэтесса', 'Поэт' )] [poet.GetFirstNameNoTooltip] все запишет!"
+ bp1_yearly.7055.friend:0 "[friend.GetFirstNameNoTooltip] — [Select_CString(friend.IsFemale, 'настоящая подруга', 'настоящий друг' )]."
+ bp1_yearly.7055.high_skill:0 "Я все запишу лично."
+ bp1_yearly.7055.a:1 "[ROOT.Char.GetFaith.HighGodName] даст, запишу все лично."
+ bp1_yearly.7055.b:1 "На это нет времени..."
+ 
+ recorded_memory_character:0 "Что [Select_CString(memory_participant.IsFemale, 'пережила', 'пережил' )] [memory_participant.GetTitledFirstNameNoTooltip]"
+ recorded_memory:1 "[ROOT.Char.GetTitledFirstNameNoTooltip] помнит"
+ recorded_memory_desc:1 "Эта книга повествует о временах, когда [recorded_memory.GetThirdPerspectiveDescription].\n\nАвтор — [ROOT.Char.GetFirstName]."
+ 
+ bp1_yearly.7056.t:0 "Тактика запугивания"
+ bp1_yearly.7056.desc:1 "Я и [intimidation_target.GetFirstName] спускаемся в подземелье, где я начинаю пересказывать [intimidation_target.GetHerHim|l] истории обо всех ужасах, что пришлось пережить людям, вставшим у меня на пути.\n\n«Наверняка вы слышали о том, как [intimidation_memory.GetDescription], — вкрадчиво произношу я. — И это было #EMP только начало#!».\n\nЯ смеюсь, а [intimidation_target.GetFirstNameNoTooltip] в ужасе смотрит на меня."
+ bp1_yearly.7056.a:1 "Не волнуйтесь, делайте, что я скажу, и все будет в порядке..."
+ bp1_yearly.7056.b:0 "Расскажите #EMP всем#! обо мне!"
+ 
+ bp1_yearly.7057.t:0 "Религиозный экстаз"
+ bp1_yearly.7057.desc:1 "[ROOT.Char.GetFaith.HouseOfWorship|U], я сижу и вместо того, чтобы слушать, что говорит [realm_priest.GetCouncilTitleFirstName], вспоминаю, как [sex_memory.GetDescription]. С тех пор и дня не проходит без мыслей о [Select_CString(sex_partner.IsFemale, 'ней', 'нем' )]."
+ 
+ bp1_yearly.7057.desc.male:1 "\n\nУвы, у этих воспоминаний есть один видимый побочный эффект. Возможно, если [ROOT.Char.GetFaith.ReligiousText] будет лежать как надо, я смогу скрыть эту растущую проблему, и никто не заметит..."
+ 
+ bp1_yearly.7057.desc.female:0 "\n\nУвы, у этих воспоминаний есть... проблемные недостатки."
+ bp1_yearly.7057.a:1 "[sex_partner.GetNameNoTooltip] #EMP [Select_CString(sex_partner.IsFemale, 'должна', 'должен' )]#! стать [Select_CString(sex_partner.IsFemale, 'моей', 'моим' )]..."
+ bp1_yearly.7057.b:1 "Нужно отринуть эти мысли!"
+ bp1_yearly.7057.c:0 "Ни одно другое место не снимает стресс так хорошо, как [ROOT.Char.GetFaith.HouseOfWorship]."
+ 
+ bp1_yearly.7057.a.tt:0 "Эти происки получат бонус к шансу успеха."
+ 
+ bp1_yearly.7058.t:0 "Продовольственная катастрофа"
+ bp1_yearly.7058.desc:1 "Я спускаюсь в подвал под утренний щебет птиц, рассвет уступает место темноте, в которой тускло горят лампы. Я зеваю и потягиваюсь, неторопливо ступая по дощатому полу.\n\nНо стоит глазам привыкнуть к полумраку, как моему взору открывается кулинарная трагедия: кожура яблок, разбросанные крошки, кости без единого следа мяса на них. В полном недоумении я осматриваю комнату, но нахожу лишь новые свидетельства разорения.\n\nНеожиданно из угла раздается громкая #EMP отрыжка#!..."
+ bp1_yearly.7058.glutton:0 "У меня еще осталась еда! Откроем #EMP тайную кладовую!#!"
+ bp1_yearly.7058.a:1 "Вы за это заплатите. С избытком, если сможете."
+ bp1_yearly.7058.b:0 "Раз вам нравится подвал, то от подземелья вы будете #EMP в восторге#!!"
+ bp1_yearly.7058.c:1 "#EMP *Вздох*#! Я угощаю... видимо..."
+ bp1_yearly.7030.t:0 "Плотское успокоение"
+ bp1_yearly.7030.desc:0 "[dead_friend_spouse.GetFirstName] [Select_CString(dead_friend_spouse.IsFemale, 'сама не своя', 'сам не свой' )] с тех пор, как [Select_CString(dead_friend.IsFemale, 'умерла', 'умер' )] [dead_friend_spouse.GetHerHis|l] [dead_friend.Custom('WifeHusband')|l] [dead_friend.GetFirstName]. Однажды вечером [dead_friend_spouse.GetSheHe|l] приходит ко мне.\n\n«Мне так одиноко», — говорит [dead_friend_spouse.GetSheHe|l], с тоской взирая на меня. Я напоминаю себе, что [dead_friend.GetFirstNameNoTooltip] [Select_CString(dead_friend.IsFemale, 'была моей хорошей подругой', 'был моим хорошим другом' )].\n\n«Вы всегда были рядом», — говорит [dead_friend_spouse.GetSheHe|l], прикусывая губу. [dead_friend.GetFirstNameNoTooltip] [Select_CString(dead_friend.IsFemale, 'была моей подругой', 'был моим другом' )].\n\n«Я просто хочу почувствовать хоть что-то», — шепчет [dead_friend_spouse.GetSheHe|l], ослабляя завязки на одежде. [dead_friend_spouse.Custom('GetUpperClothingArticle')] падает на пол. [dead_friend.GetFirstNameNoTooltip] #EMP [Select_CString(dead_friend.IsFemale, 'была', 'был' )]#! [Select_CString(dead_friend.IsFemale, 'моей подругой', 'моим другом' )]..."
+ bp1_yearly.7030.a:1 "Наверняка [dead_friend.GetFirstNameNoTooltip] бы [Select_CString(dead_friend.IsFemale, 'одобрила', 'одобрил' )]."
+ bp1_yearly.7030.b:1 "Приведите себя в порядок, [dead_friend_spouse.GetFirstNameNoTooltip]!"
+    
+ bp1_yearly.7100.t:0 "Ненависть до тошноты"
+ bp1_yearly.7100.desc:0 "Всего минуту назад светило солнце и было так хорошо, но вот я уже в дерьме и в грязи. Стоило стряхнуть с лица экскременты, как я без труда нахожу виновника.\n\n«[potential_nemesis.GetTitledFirstName] передает привет!» — кричит из окна крестьянин, а затем поспешно убегает.\n\nЯ безуспешно пытаюсь отмыть особо ценный мех в ближайшем ручье, но уже ясно, что спасению он не подлежит."
+ bp1_yearly.7100.a:0 "Ну все, теперь это #EMP личное...#!"
+ bp1_yearly.7100.b:0 "Я умоюсь [potential_nemesis.GetHerHis|l] кровью!"
+ bp1_yearly.7100.c:0 "Помяни мое слово, [potential_nemesis.GetFirstNameNoTooltip]: я найду себе новую меховую накидку."
+ bp1_yearly.7100.d:0 "Я выше мести..."
+ bp1_yearly.7100.c.tt:0 "Кошка, которую так ценит [potential_nemesis.GetFirstNameNoTooltip], как раз прогуливалась неподалеку..."
+ bp1_yearly.7100.e:0 "Я сохраню этот мех... на будущее."
+ focused_on_revenge_modifier:0 "Сосредоточенность на мести"
+ focused_on_revenge_modifier_desc:0 "Этот персонаж посвятил все время борьбе с соперниками, забросив многие из своих обязанностей."
+ vengeful_opinion:0 "Мстительность"

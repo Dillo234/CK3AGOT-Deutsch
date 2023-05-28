@@ -1,0 +1,29 @@
+﻿l_german:
+ fabricate_hook_ongoing.0001.t:0 "$fabricate_hook_header$ Familienkontakt"
+ fabricate_hook_ongoing.0001.desc:1 "[family_member.GetTitledFirstName], [family_member.Custom('DE_ART_DEF_S_N')] [target.Custom2('RelationToMe', SCOPE.sC('family_member'))] von [target.GetTitledFirstName], ist in letzter Zeit ungewohnt mitteilsam. Obschon [family_member.Custom('DE_PRO_PER_S_3P_N')] weiß, dass ich [target.GetFirstName] gegenüber nicht gänzlich hehre Absichten hege, ist [family_member.Custom('DE_PRO_PER_S_3P_N')] mehr als bereit, meine Fragen zu beantworten."
+ fabricate_hook_ongoing.0001.a:0 "„Hat [target.Custom('DE_PRO_PER_S_3P_N')] bestimmte Schwächen, von denen ich wissen sollte?“"
+ fabricate_hook_ongoing.0001.b:0 "„Was müsste man anstellen, um [target.Custom('DE_PRO_PER_S_3P_D')] näher zu kommen?“"
+
+ fabricate_hook_ongoing.0002.t:0 "$fabricate_hook_header$ Unangemessener Einfluss"
+ fabricate_hook_ongoing.0002.desc:0 "[target.GetTitledFirstName] scheint mir ungewöhnlich vorsichtig, wenn [target.Custom('DE_PRO_POS_S_3P')] [target.Custom2('RelationToMeShort', hooking_character )], [hooking_character.GetTitledFirstName], in der Nähe ist. Solcherlei Fügsamkeit kann nur eines bedeuten: [hooking_character.GetFirstNameNoTooltip] hat etwas gegen [target.Custom('DE_PRO_PER_S_3P_A')] in der Hand.\n\nVielleicht kann ich ja etwas in Erfahrung bringen?"
+ fabricate_hook_ongoing.0002.a:0 "Meine Spione suchen nach einer Erklärung für dieses Mysterium."
+ fabricate_hook_ongoing.0002.b:0 "Ich muss wissen, wozu [hooking_character.Custom('DE_PRO_PER_S_3P_N')] [target.Custom('DE_PRO_PER_S_3P_A')] zwingt!"
+
+ fabricate_hook_ongoing.0003.t:0 "$fabricate_hook_header$ Gerüchte"
+ fabricate_hook_ongoing.0003.desc_servant:0 "Meine Agenten haben Kontakt zu [servant.GetTitledFirstName] hergestellt, einem Dienstboten am Hof von [target.GetTitledFirstName]."
+ fabricate_hook_ongoing.0003.desc:0 "Meine Agenten haben Kontakt zu einem Mitglied der Dienstbotenschaft am Hof von [target.GetTitledFirstName] hergestellt."
+ fabricate_hook_ongoing.0003.desc_ending:0 "\n\nMit dem richtigen Anreiz wäre diese Person bereit, #EMP Gerüchte#! über [target.GetTitledFirstNameNoTooltip] zu verbreiten, dass [target.Custom('DE_PRO_PER_S_3P_N')] nicht so [target.Custom('FormalComplimentAdjective')], wie es scheint!"
+ fabricate_hook_ongoing.0003.a:0 "Wir werden [target.Custom('DE_PRO_POS_S_3P')]en Ruf ruinieren!"
+ fabricate_hook_ongoing.0003.a_gregarious:0 "Ihr #EMP wisst#!, dass es richtig ist, das zu tun."
+ fabricate_hook_ongoing.0003.b:0 "Ein offenes Ohr in [target.Custom('DE_PRO_POS_S_3P')]er Nähe reicht schon."
+ fabricate_hook_ongoing.0003.b_lustful:0 "Oder #EMP wir#! könnten hier etwas ganz anderes anfangen …"
+
+ fabricate_hook_ongoing.0004.t:0 "$fabricate_hook_header$ Eine Frage des Geschmacks"
+ fabricate_hook_ongoing.0004.desc:0 "[target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] ist ein komplizierter Mensch.\n\nIch muss [target.Custom('DE_PRO_PER_S_3P_A')] verstehen lernen, so gut es irgendwie geht, wenn ich die Leute überzeugen will, sich in kommenden … #EMP Streitigkeiten#! auf meine Seite zu schlagen."
+ fabricate_hook_ongoing.0004.a:0 "Bald werde ich die Wahrheit über [target.Custom('DE_PRO_PER_S_3P_A')] herausfinden."
+ fabricate_hook_ongoing.0004.b.success:0 "Ihr erfahrt mehr über [target.Custom('DE_PRO_PER_S_3P_A')]"
+ fabricate_hook_ongoing.0004.b.failure:0 "[target.Custom('DE_PRO_PER_S_3P_N')|U] kommt Euch auf die Schliche"
+ fabricate_hook_ongoing.0004.b:0 "Ich werde mir Zeit dabei lassen."
+
+ fabricate_hook_ongoing.0005.desc:0 "Die Leute beschreiben [target.GetTitledFirstName] sowohl als [target.Custom('ComplimentAdjective')] als auch als [target.Custom('InsultAdjective')], was mir mehr über ihre Beziehung zu [target.Custom('DE_PRO_PER_S_3P_D')] verrät als irgendetwas anderes.\n\nEine bemerkenswerte Zahl an Leuten erwähnt auch, wie oft [target.Custom('DE_PRO_PER_S_3P_N)] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('target'))] und über [target.Custom('herhis_subject_of_interest')] spricht."
+ fabricate_hook_ongoing.0005.a:0 "Ich bin mir sicher, dass dieses Wissen nützlich sein wird."

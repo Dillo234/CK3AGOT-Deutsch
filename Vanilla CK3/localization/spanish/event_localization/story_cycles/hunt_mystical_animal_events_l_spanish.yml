@@ -1,0 +1,53 @@
+﻿l_spanish:
+ start_hunt_mystical_animal_story_cycle_effect.tt:0 "¡No descansaré hasta que lo encuentre!"
+
+ hunt_mystical_animal.1001.t:0 "Ese animal blanco"
+ hunt_mystical_animal.1001.desc:0 "El ejemplar blanco [ROOT.Char.Custom('LocalAnimal')] [ROOT.Char.Custom('LocalAnimalDesc')] que estoy cazando se me aparece en sueños, juzgándome con profundos ojos y alardeando de su prístino pelaje.\n\nNos encontramos en un/a [ROOT.Char.Custom('TerrainType')], todo a nuestro alrededor está en silencio, y da igual cómo me mueva, no me acerco a mi presa.\n\nMientras lucho por despertar, siento que mi determinación sale reforzada."
+ hunt_mystical_animal.1001.a:0 "¡No se me escapará mucho más tiempo!"
+
+ hunt_mystical_animal.1002.desc:0 "Había partido con mi séquito en [location.GetNameNoTierNoTooltip] cuando los caminos serpentearon y nos llevaron cerca del/la [ROOT.Char.Custom('TerrainType')]. Es allí donde vuelvo a ver, reluciente al sol, al ejemplar blanco de [ROOT.Char.Custom('LocalAnimal')].\n\nMe giro para alertar a los demás, pero cuando vuelvo a girarme, el animal ya se ha ido."
+ hunt_mystical_animal.1002.a:0 "¡Se burla de mí!"
+
+ hunt_mystical_animal.1003.desc:0 "Desde que empecé la búsqueda, llegan informes de todos los rincones del señorío de gente que ve al ejemplar blanco de [ROOT.Char.Custom('LocalAnimal')] [ROOT.Char.Custom('LocalAnimalDesc')].\n\nRebuscar entre los informes y distinguir lo que es verdad de lo que es ficción es una tarea ingente. Si los informes fueran fiables…"
+ hunt_mystical_animal.1003.a:0 "¡Contrataré gente que lo busque!"
+ hunt_mystical_animal.1003.b:0 "Esta tarea es titánica. No haré nada."
+ hunt_mystical_animal.1003.b.tt:1 "Dejarás de cazar a ese animal."
+ hunt_mystical_animal.1003.c:0 "My [steward.GetCouncilTitle|l] se ocupará de esto."
+ hunt_mystical_animal.1003.d:0 "Puedo hacerlo. ¡#EMP Debo#! hacerlo!"
+ hunt_mystical_animal.1003.e:0 "¡[m_hunt.GetTitledFirstName], organiza una partida de búsqueda!"
+
+ hunt_mystical_animal.1004.desc:0 "«¡Mi [ROOT.Char.GetLadyLord]! ¡Hemos recibido informes de gente que ha visto al ejemplar blanco de [ROOT.Char.Custom('LocalAnimal')] en el bosque local! Afirman que a su paso deja tanto prosperidad como enfermedad, pero todos parecen bastante seguros de que está en la zona».\n\n¿Allí está? ¿En [location.GetNameNoTier]?"
+ hunt_mystical_animal.1004.a:0 "¡A los caballos!"
+ hunt_mystical_animal.1004.a.tt:0 "Esta vez no se me escapará."
+ hunt_mystical_animal.1004.b:0 "No permitiré que juegue así conmigo."
+
+ hunt_mystical_animal.1005.desc:0 "\n\nY el ejemplar de [ROOT.Char.Custom('LocalAnimal')] se aleja saltando al/a la [ROOT.Char.Custom('TerrainType')], se va tan rápido como apareció."
+ hunt_mystical_animal.1005.a:0 "¡Maldición! ¡Ya te atraparé!"
+
+ hunt_mystical_animal.1006.desc:0 "Cuando miro por la ventana, allí está el ejemplar blanco de [ROOT.Char.Custom('LocalAnimal')], al borde del/de la [ROOT.Char.Custom('TerrainType')], #EMP provocándome#!.\n\nCuando me doy la vuelta, me veo con la tela blanca de mis sábanas y, cuando intento apartarme de ellas, me encuentro con la cabeza de un [ROOT.Char.Custom('LocalAnimal')] colgada de la pared. Cierro los ojos y ahí está el ejemplar blanco de [ROOT.Char.Custom('LocalAnimal')], ¡riéndose de mí!"
+ hunt_mystical_animal.1006.a:0 "¡TE ATRAPARÉ!"
+ hunt_mystical_animal.1006.b:0 "¡Tú! ¡Tú eres ahora el ejemplar blanco de [ROOT.Char.Custom('LocalAnimal')]! ¡Vuelve aquí!"
+
+ hunt_mystical_animal.1007.desc:0 "¡Han localizado al escurridizo ejemplar blanco de [ROOT.Char.Custom('LocalAnimal')]!\n\nMientras sigo su rastro en un bosque local, cada vez más dentro de la vegetación, las cosas empiezan a cambiar de forma. Veo setas del tamaño de [ROOT.Char.Custom('ResidenceBuilding')]s, árboles más pequeños que un ratón y orugas grandes como caballos."
+ hunt_mystical_animal.1007.a:0 "No importa dónde te escondas, ¡te encontraré!"
+ hunt_mystical_animal.1007.b:0 "Oh, estas setas… Parecen sabrosas."
+ hunt_mystical_animal.1007.b.success:0 "¡Ñam!"
+ hunt_mystical_animal.1007.b.failure:0 "Agh, me siento un poco mal…"
+
+ hunt_mystical_animal.1008.desc:0 "Según pasan los días sin saber nada del ejemplar blanco de [ROOT.Char.Custom('LocalAnimal')], me voy inquietando cada vez más.\n\n¿No tendría que haberlo visto alguien ya? ¿Y qué hay de los campesinos que llenan su [ROOT.Char.Custom('TerrainType')]? A lo mejor debería pedirles ayuda…"
+ hunt_mystical_animal.1008.a:0 "¡Enviad una misiva!"
+ hunt_mystical_animal.1008.b:0 "No caeré tan bajo."
+ hunt_mystical_animal.1008.c:0 "Enviaré a [knight.GetFirstNameNoTooltip]"
+
+ hunt_mystical_animal.1009.desc:0 "«Mi [ROOT.Char.GetLadyLord], esta búsqueda de una mera bestia… Tengo que admitir que me preocupa».\n\n[court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se me acerca mientras hojeo informes de nuevos avistamientos del ejemplar blanco de [ROOT.Char.Custom('LocalAnimal')]. Evidentemente, todo lo que reclame tanta atención puede haber sido enviado por [ROOT.Char.GetFaith.DevilName]; ¡como si su existencia no fuera una señal de la mismísima divinidad de [ROOT.Char.GetFaith.HighGodNameAlternate]!"
+ hunt_mystical_animal.1009.a:0 "El animal es un mensajero de [ROOT.Char.GetFaith.HighGodName]."
+ hunt_mystical_animal.1009.a.success:0 "«Puede que tengas razón…»"
+ hunt_mystical_animal.1009.a.failure:0 "«¿Qué estás diciendo?»"
+ hunt_mystical_animal.1009.b:0 "No os concierne."
+ hunt_mystical_animal.1009.c:0 "Tienes razón, ¿en qué estaba pensando?"
+
+ hunt_mystical_animal.9001.desc:0 "Sigo el rastro más y más dentro del ejemplar blanco de [ROOT.Char.Custom('TerrainType')] y todo queda en silencio a mi alrededor.\n\nY como si saliese del aire, de repente el animal aparece ante mí, con su pelaje refulgiendo a la luz del sol y unos ojos profundos como sueños. Levanto el arco…"
+ hunt_mystical_animal.9001.a:0 "y dejo volar la flecha."
+
+ hunt_mystical_animal.9002.desc:0 "«¡Mi [ROOT.Char.GetLadyLord]! Un campesino local me ha hecho un regalo. ¡Afirma que el pelaje blanco es natural, pero que nunca había visto nada parecido!»\n\nCon una inquietud creciente me acerco al fardo… y ahí está, el ejemplar blanco de [ROOT.Char.Custom('LocalAnimal')] que llevaba años buscando."
+ hunt_mystical_animal.9002.a:0 "¡Será una broma…!"

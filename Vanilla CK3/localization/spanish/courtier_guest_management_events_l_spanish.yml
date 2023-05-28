@@ -1,0 +1,29 @@
+﻿l_spanish:
+ courtier_guest_management.0001.t:4 "Tu [SCOPE.sC('liege').Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetShortUINameNoTooltip] está a punto de dejar la corte"
+ courtier_guest_management.desc:0 "[child.GetTitledFirstName] no tiene motivos para quedarse en la corte y se irá pronto"
+
+ courtier_guest_management.0500.t:0 "Tu [SCOPE.sC('host').Custom2('RelationToMeShort', SCOPE.sC('guest'))] [guest.GetShortUINameNoTooltip] está a punto de dejar la corte"
+ courtier_guest_management.0500.desc:0 "[guest.GetTitledFirstName] no tiene motivos para quedarse en la corte y pronto se marchará con su familia"
+
+ courtier_guest_management.0102.t:0 "Mi última oportunidad"
+ courtier_guest_management.0102.desc:0 "[courtier.GetTitledFirstName] ha decidido que su tiempo en [capital.GetNameNoTierNoTooltip] ha terminado. Los sirvientes han hecho su baúl y ya se ha despedido.\n\nCon [courtier.Custom('ES_ElElla')] se van sus derechos sobre el [courtier_claim.GetName]. Si quiero reivindicarlos y convertir[courtier.Custom('ES_LoLa')] en vasall[courtier.Custom('ES_OA')], esta puede ser mi última oportunidad para que se quede."
+
+ courtier_guest_management.0102.a:0 "¡Dame un año y reivindicaré tus derechos!"
+ courtier_guest_management.0102.a.rl.desc:0 "Dentro de un año"
+ courtier_guest_management.0102.a.stay:0 "Si has reivindicado los derechos de [courtier.GetTitledFirstNameNoTooltip]"
+ courtier_guest_management.0102.a.stay.tt:0 "[courtier.GetShortUIName|U] se quedará en la corte"
+ courtier_guest_management.0102.a.leave:0 "Si #bold no#! has reivindicado los derechos de [courtier.GetTitledFirstNameNoTooltip]"
+ courtier_guest_management.0102.b:0 "Que tu viaje sea rápido y seguro."
+ courtier_guest_management.1001.t:0 "Ha llegado un invitado notable"
+ courtier_guest_management.1001.claimant.desc:0 "[exceptional_guest.GetShortUIName] tiene derechos sobre [guest_claim.GetName]"
+ courtier_guest_management.1001.marriage_start.desc:0 "[exceptional_guest.GetShortUIName] sería un[exceptional_guest.Custom('ES_XA')] buen[exceptional_guest.Custom('ES_XA')] [exceptional_guest.Custom('WifeHusband')] para"
+ courtier_guest_management.1001.marriage_me.desc:1 "mí"
+ courtier_guest_management.1001.marriage_my_children.desc:0 "uno de tus hijos"
+ courtier_guest_management.1001.marriage_my_sons.desc:1 "uno de mis hijos"
+ courtier_guest_management.1001.marriage_my_daughters.desc:1 "una de mis hijas"
+ courtier_guest_management.1001.marriage_my_child.desc:1 "mi [marriage_child.Custom('GetDaughterSon')], [marriage_child.GetShortUIName]"
+ courtier_guest_management.1001.vassal.desc:0 "[exceptional_guest.GetShortUIName] sería un[exceptional_guest.Custom('ES_XA')] vasall[exceptional_guest.Custom('ES_OA')] leal y talentos[exceptional_guest.Custom('ES_OA')]"
+ courtier_guest_management.1001.commander.desc:0 "[exceptional_guest.GetShortUIName] sería un[exceptional_guest.Custom('ES_XA')] gran comandante"
+ courtier_guest_management.1001.knight.desc:0 "[exceptional_guest.GetShortUIName] es un[exceptional_guest.Custom('ES_XA')] guerrer[exceptional_guest.Custom('ES_OA')] experimentad[exceptional_guest.Custom('ES_OA')]"
+ courtier_guest_management.1001.physician.desc:0 "[exceptional_guest.GetShortUIName] es un[exceptional_guest.Custom('ES_XA')] sanador[exceptional_guest.Custom('ES_XA')] preparad[exceptional_guest.Custom('ES_OA')]"
+

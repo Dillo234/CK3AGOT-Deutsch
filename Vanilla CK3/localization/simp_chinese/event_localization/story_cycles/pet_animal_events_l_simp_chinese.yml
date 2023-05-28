@@ -1,0 +1,276 @@
+﻿l_simp_chinese:
+##############
+## CAT
+##############
+ pet_animal.0001.t:0 "猫咪"
+ pet_animal.0001.desc:1 "当那只猫卧在我的膝盖上，发出舒适的呼噜声时，我思考着应该给[ROOT.Char.Custom('CatStoryHerHim')]取什么名字。历史一点的？能够暗指[ROOT.Char.Custom('CatStoryHerHis')]的[ROOT.Char.Custom('CatFurColor')]毛的名字？或者什么能够用来描述我为[ROOT.Char.Custom('CatStoryHerHim')]顺毛时体会到的安慰感的词语？\n\n哦，我知道了！我就叫[ROOT.Char.Custom('CatStoryHerHim')]……"
+ pet_animal.0001.a:1 "多好的名字！"
+
+ pet_animal.0101.t:0 "[ROOT.Char.Custom('CatStoryName')]：带来礼物"
+ pet_animal.0101.desc:0 "当我穿过走廊时，两只[ROOT.Char.Custom('CatEyeColor')]的眼睛一直看着我，[ROOT.Char.Custom('CatStoryName')]突然扑向我的脚踝，同时一阵低声的猫叫打破了宁静。"
+ pet_animal.0101.desc_old:0 "[ROOT.Char.Custom('CatStorySheHe')|U]年轻时威风凛凛，如今[ROOT.Char.Custom('CatHerHim')]也宝刀未老啊！"
+ pet_animal.0101.desc_young:0 "[ROOT.Char.Custom('CatStorySheHe')|U]尽管年幼，但[ROOT.Char.Custom('CatStorySheHe')]却已凶猛！"
+ pet_animal.0101.desc_middle:0 "正当[ROOT.Char.Custom('CatStoryHerHis')]盛年的猫，尽管如此[ROOT.Char.Custom('CatStorySheHe')]没有在我身上留下疤痕。"
+ pet_animal.0101.desc_ending:0 "\n\n[ROOT.Char.Custom('CatStorySheHe')]腾跃离开，我看到[ROOT.Char.Custom('CatStorySheHe')]给我留下了一个亮闪闪的礼物，就在[ROOT.Char.Custom('CatStorySheHe')]一直掩藏着的地方。"
+ pet_animal.0101.a_female:0 "感谢你，美丽的女士！"
+ pet_animal.0101.a_male:0 "感谢你，和善的先生！"
+
+ pet_animal.0103.t:0 "[ROOT.Char.Custom('CatStoryName')]：被迷住的封臣"
+ pet_animal.0103.desc:0 "当我走到外边，我看到我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))][vassal.GetTitledFirstName]正蹲在我的猫[ROOT.Char.Custom('CatStoryName')]旁边，温柔地抚摸[ROOT.Char.Custom('CatStoryHerHis')]的头。\n\n“您养的这只猫真可爱，[ROOT.Char.GetLadyLord]。”"
+ pet_animal.0103.a:0 "眼光不错啊！"
+
+ pet_animal.0104.t:0 "[ROOT.Char.Custom('CatStoryName')]：舒适的呼噜声"
+ pet_animal.0104.desc:0 "又是充满压力的一天，我瘫坐在房间的椅子上——这样的生活我还能坚持多久？\n\n突然我听到了轻柔的喵叫，我的猫[ROOT.Char.Custom('CatStoryName')]跳到我大腿上，开始发出呼噜声。我和[ROOT.Char.Custom('CatStoryHerHim')]一起坐了一会，只是倾听这让人平静的声音，同时轻抚[ROOT.Char.Custom('CatStoryHerHis')]的[ROOT.Char.Custom('CatFurColor')]毛。"
+ pet_animal.0104.a:0 "我想我还能再坚持一下。"
+
+ pet_animal.0105.t:0 "[ROOT.Char.Custom('CatStoryName')]：秘密暴露"
+ pet_animal.0105.desc_opening:0 "#EMP 喵呜！#!\n\n我低下头，看到我的小猫咪[ROOT.Char.Custom('CatStoryName')]把一个卷轴弄翻，掉在了我脚边——看蜡封的风格，明显是我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('person'))][person.GetTitledFirstNamePossessive]的。出于好奇，我打开卷轴开始阅读文本……\n\n"
+ pet_animal.0105.desc_murder:0 "“……我犯下的那起谋杀案压在我心头……”"
+ pet_animal.0105.desc_lover:0 "“……我对另一人抱持的爱意……”"
+ pet_animal.0105.desc_homosexual:0 "“……我感觉对同性有冲动……”"
+ pet_animal.0105.desc_deviant:0 "“……我进行的不正常性行为……”"
+ pet_animal.0105.desc_cannibal:0 "“……因为我品尝过人肉的香甜……”"
+ pet_animal.0105.desc_murder_attempt:0 "“……当我试图终结其他人的生命时……”"
+ pet_animal.0105.desc_non_believer:0 "“……因为我不信仰[person.GetFaith.HighGodName]……”"
+ pet_animal.0105.desc_incest:0 "“……我能感觉到我对自己的家人有这种冲动……”"
+ pet_animal.0105.desc_witch:0 "“……我的巫师会将要……”"
+ pet_animal.0105.desc_fallback:0 "“……保守这个秘密给我很大压力……”"
+ pet_animal.0105.a:0 "想想[person.GetSheHe]居然隐藏着这种事……！"
+ pet_animal.0105.b:0 "所有人都得知道。"
+
+ pet_animal.0106.t:0 "[ROOT.Char.Custom('CatStoryName')]：过敏"
+ pet_animal.0106.desc:0 "‘[ROOT.Char.GetFirstNameNoTooltip]，你必须把这只猫送走！’\n\n我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))][spouse.GetTitledFirstName]捏着[ROOT.Char.Custom('CatStoryName')]的后颈皮，将[ROOT.Char.Custom('CatStoryHerHis')]提了起来，眼睛通红还一直流鼻涕。“我再也受不了了，[ROOT.Char.Custom('CatStorySheHe')]在周围时，我几乎不能呼吸！”"
+ pet_animal.0106.a:0 "我会把[ROOT.Char.Custom('CatStoryHerHim')]送给[receiver_1.GetFirstNameNoTooltip]……"
+ pet_animal.0106.b:0 "[receiver_2.GetFirstNameNoTooltip]需要一个伴儿……"
+ pet_animal.0106.c:0 "[receiver_3.GetFirstNameNoTooltip]会照顾好[ROOT.Char.Custom('CatStoryHerHim')]……"
+ pet_animal.0106.d:0 "我不会把[ROOT.Char.Custom('CatStoryName')]送走！"
+ pet_animal.0106.e:0 "我……我想我必须丢掉[ROOT.Char.Custom('CatStoryHerHim')]……"
+
+ pet_animal.0107.t:0 "[ROOT.Char.Custom('CatStoryName')]：猫"
+ pet_animal.0107.desc:0 "“我的[giver.Custom2('RelationToMe', SCOPE.sC('spouse'))]无法忍受可怜的[ROOT.Char.Custom('CatStoryNamePossessive')]……我相信你会替我好好照顾[ROOT.Char.Custom('CatStoryHerHim')]。”\n\n我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('giver'))][giver.GetTitledFirstName]将一只[receiver.Custom('CatFurColor')]猫递给我，“[ROOT.Char.Custom('CatStoryName')]是个优秀的……优秀的伙伴。”"
+ pet_animal.0107.a:0 "谢谢，我会珍惜[ROOT.Char.Custom('CatStoryHerHim')]的！"
+ pet_animal.0107.b:0 "谢谢。我敢肯定[ROOT.Char.Custom('CatStorySheHe')]很值钱。"
+
+ pet_animal.0108.t:0 "[receiver.Custom('CatStoryName')]：没有你的日子里"
+ pet_animal.0108.t_dead:0 "没有你的日子里"
+ pet_animal.0108.desc_opening:0 "我拜访了我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))][receiver.GetTitledFirstName]，去看看小[receiver.Custom('CatStoryName')]在[receiver.GetHerHis]的照顾下过得怎么样。\n\n"
+ pet_animal.0108.desc_alive_landed:0 "[receiver.GetSheHe|U]和我在[receiver.GetHerHis]的[receiver.Custom('ResidenceBuilding')]外边会面，一只[receiver.Custom('CatFurColor')]猫趴在[receiver.GetHerHis]怀里。“[receiver.Custom('CatStorySheHe')|U]过得很好——"
+ pet_animal.0108.desc_alive:0 "[receiver.GetSheHe|U]和我在外边会面，一只[receiver.Custom('CatFurColor')]猫趴在[receiver.GetHerHis]怀里。“[receiver.Custom('CatStorySheHe')|U]过得很好——"
+ pet_animal.0108.desc_alive_1:0 "[receiver.Custom('CatStorySheHe')]喜欢捕猎当地的小鸟！”"
+ pet_animal.0108.desc_alive_2:0 "[receiver.Custom('CatStorySheHe')]喜欢给母鸡舔毛！”"
+ pet_animal.0108.desc_dead_opening:1 "我拜访了我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))][receiver.GetTitledFirstName]，去看看那只猫在[receiver.GetHerHis]的照顾下过得怎么样。\n\n"
+ pet_animal.0108.desc_dead_landed:0 "[receiver.GetSheHe|U]和我在[receiver.GetHerHis]的[receiver.Custom('ResidenceBuilding')]外会面，但是我没看到猫。"
+ pet_animal.0108.desc_dead:0 "[receiver.GetSheHe|U]与我在外边会面，但是我没看到猫。"
+ pet_animal.0108.desc_dead_ending:0 "“啊，它一定是去哪里玩了……”\n\n[receiver.GetSheHe|U]的眼睛左扫右扫，就是不敢看我。"
+ pet_animal.0108.a:0 "我放心了！"
+ pet_animal.0108.b:1 "我的猫呢？！"
+
+ pet_animal.0109.t:1 "[ROOT.Char.Custom('CatStoryName')]：老鼠杀手"
+ pet_animal.0109.desc:1 "当[ROOT.Char.Custom('CatStoryName')]又叼着一只死老鼠向我走来时，我只能赞美[ROOT.Char.Custom('CatStoryHerHim')]。[ROOT.Char.Custom('ResidenceBuilding')]终于从这些啮齿动物手中得到了自由！"
+ pet_animal.0109.a:0 "再接再厉！"
+
+ pet_animal.0110.t:1 "[ROOT.Char.Custom('CatStoryName')]：惹事精"
+ pet_animal.0110.desc:2 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U]向我走来，[vassal.GetHerHis]的双眼中满是怒火，手里还提着一只猫，那只猫被[vassal.GetHerHis]抓住了后颈皮，一动不动。当[vassal.GetSheHe]将猫拎到我面前时，我才发现这是我心爱的[ROOT.Char.Custom('CatStoryName')]！\n\n“我在我的东西里找到了这只小怪物——没被它撕碎的东西也被它尿上了尿！”"
+ pet_animal.0110.a:0 "我会赔偿的！"
+ pet_animal.0110.b:0 "[ROOT.Char.Custom('CatStorySheHe')|U]只是一只猫……"
+
+ pet_animal.0197.t:0 "[ROOT.Char.Custom('CatStoryName')]：去而不返"
+ pet_animal.0197.desc_court_5020:0 "自从我开始限制[ROOT.Char.Custom('CatStoryName')]的行动范围后，我能看见[ROOT.Char.Custom('CatStoryHerHim')]的次数就越来越少了。\n\n从上次看见[ROOT.Char.Custom('CatStoryHerHim')]已经过去了好几个星期，我担心[ROOT.Char.Custom('CatStorySheHe')]已经永远离开了我。\n\n住所里不再漂浮着毛发，我的廷臣们倒是挺开心的，但我的膝盖却感受着前所未有的空虚……"
+ pet_animal.0197.desc:0 "[ROOT.Char.Custom('CatStoryName')]最近离家跑的越来越远，离开的时间也越来越长了。\n\n从上次看见[ROOT.Char.Custom('CatStoryHerHim')]已经过去了好几个星期，我担心[ROOT.Char.Custom('CatStorySheHe')]已经永远离开了我。"
+ pet_animal.0197.a:0 "快回来吧，[ROOT.Char.Custom('CatStoryName')]！"
+
+#Cat dies :(
+ pet_animal.0199.t:0 "[ROOT.Char.Custom('CatStoryName')]：悲伤的日子"
+ pet_animal.0199.desc:0 "[ROOT.Char.Custom('CatStoryName')][ROOT.Char.Custom('CatStorySheHe')]已不复当年，当[ROOT.Char.Custom('CatStorySheHe')]爬上我的大腿，我可以感到[ROOT.Char.Custom('CatStoryHerHim')]的颤抖。\n\n我轻柔地抚摸[ROOT.Char.Custom('CatStoryHerHis')][ROOT.Char.Custom('CatFurColor')]的毛发，听到[ROOT.Char.Custom('CatStoryHerHim')]打着呼进入梦乡，但当寂静降临，我知道[ROOT.Char.Custom('CatStorySheHe')]不会再醒来。"
+ pet_animal.0199.a:0 "我会想你的，[ROOT.Char.Custom('CatStoryName')]！"
+ pet_animal.0199.b:0 "我不会再让你离开我身边了，永远！"
+ pet_animal.0199.b.tt:0 "你获得一件小型鞣制毛皮[court_artifact|E]"
+
+##############
+## DOG
+##############
+ dog_got_pregnant_tooltip:0 "她要生小狗了！"
+ pet_animal.1001.t:0 "狗狗"
+ pet_animal.1001.desc:0 "我抚摸着狗狗的脑袋，[ROOT.Char.Custom('DogStorySheHe')]高兴地摇着[ROOT.Char.Custom('DogStoryHerHis')]的尾巴。什么名字适合[ROOT.Char.Custom('DogStoryHerHim')]呢？历史一点的？能够暗指[ROOT.Char.Custom('DogStoryHerHis')][ROOT.Char.Custom('DogFurColor')]毛的名字？这是一个重要的决定，狗狗翻过身来让我摸[ROOT.Char.Custom('DogStoryHerHis')]的肚子时我才发现自己走神了一段时间。\n\n不过等等，我知道了！我要叫[ROOT.Char.Custom('DogStoryHerHim')]……"
+
+ pet_animal.1101.t:0 "[ROOT.Char.Custom('DogStoryName')]：足与爪"
+ pet_animal.1101.desc:0 "每天出去遛[ROOT.Char.Custom('DogStoryName')]已经成为我的习惯，我都不知道到底是我俩中的哪个更喜欢新鲜的空气和温暖的阳光！\n\n[ROOT.Char.Custom('DogStoryName')]在前面跳着，不时回头看着我汪汪叫，好像在说#EMP 快跟上#!！"
+ pet_animal.1101.a:0 "我们走！"
+
+ pet_animal.1102.t:0 "[ROOT.Char.Custom('DogStoryName')]：乱窜"
+ pet_animal.1102.desc:0 "当时我正骑着马，我的狗[ROOT.Char.Custom('DogStoryName')]跟在我旁边，突然[ROOT.Char.Custom('DogStorySheHe')]跑进了[ROOT.Char.Custom('TerrainType')]。\n\n我的随从向我保证[ROOT.Char.Custom('DogStorySheHe')]会回来的，但是如果[ROOT.Char.Custom('DogStorySheHe')]没回来呢？！"
+ pet_animal.1102.a:0 "靠过来！[ROOT.Char.Custom('DogStoryName')]，我说靠过来！等等我！"
+ pet_animal.1102.a.tt:0 "你试着追上[ROOT.Char.Custom('DogStoryHerHim')]"
+ pet_animal.1102.b:0 "我会保持耐心。"
+ pet_animal.1102.b.tt:0 "[ROOT.Char.Custom('DogStorySheHe')|U]会回来的……！"
+
+ pet_animal.1103.desc_followed:0 "找了几分钟后，我找到了[ROOT.Char.Custom('DogStoryName')]，高兴地摇着[ROOT.Char.Custom('DogStoryHerHis')]的尾巴，装得好像什么事都没发生过。"
+ pet_animal.1103.desc:0 "最终，[ROOT.Char.Custom('DogStoryName')]小跑着回来了，假装什么事都没发生。"
+ pet_animal.1103.desc_ending:0 "\n\n[ROOT.Char.Custom('DogStorySheHe')|U]嘴里好像叼着什么东西，等[ROOT.Char.Custom('DogStorySheHe')]轻轻地将它放在我面前时，我发现原来[ROOT.Char.Custom('DogStoryHerHis')]叼着的是几个金币。"
+ pet_animal.1103.a:0 "谢谢！"
+
+ pet_animal.1104.desc_followed:0 "我找了很长时间，但一直没找到[ROOT.Char.Custom('DogStoryName')]的踪迹。"
+ pet_animal.1104.desc:0 "不管我怎么等，[ROOT.Char.Custom('DogStoryName')]一直没回来。"
+ pet_animal.1104.desc_ending:0 "\n\n回家路上，我看着坐骑旁如今空无一狗的位置，心中一阵阵悲痛。"
+ pet_animal.1104.a:0 "[ROOT.Char.Custom('DogStoryName')]，为什么要离开我？"
+
+ pet_animal.1105.desc_ending:0 "\n\n正当我打算放弃时，我身边随侍的一个骑手带着令人不安的消息回来了——[dummy_gender.GetSheHe]发誓[dummy_gender.GetSheHe]看到[rival.Custom2('MyCharacterIntroduction', ROOT.Char)]在周围鬼鬼祟祟的！"
+ pet_animal.1105.a:1 "如果[rival.GetSheHe]和这件事有关……"
+
+ pet_animal.1106.desc_ending:0 "\n\n就当我打算离开时，[friend.Custom2('MyCharacterIntroduction', ROOT.Char)]不知从哪冒了出来，牵着[ROOT.Char.Custom('DogStoryName')]。\n\n“朋友，我想你丢了什么！”"
+ pet_animal.1106.a:0 "真是好运！太谢谢你了！"
+
+ pet_animal.1107.t:0 "[ROOT.Char.Custom('DogStoryName')]：被迷住的封臣"
+ pet_animal.1107.desc:0 "我偶然发现我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))][vassal.GetTitledFirstName]蹲在我的狗[ROOT.Char.Custom('DogStoryName')]旁边，兴奋地挠着[ROOT.Char.Custom('DogStoryHerHis')]的肚皮。\n\n“[ROOT.Char.GetLadyLord]，您的这只狗真是迷人！”"
+ pet_animal.1107.a_female:0 "她是个好丫头！"
+ pet_animal.1107.a_male:0 "他是个好小伙！"
+
+ pet_animal.1108.t:0 "[ROOT.Char.Custom('DogStoryName')]：毛茸茸的守护者"
+ pet_animal.1108.desc:0 "我正待在房间里，突然我的狗[ROOT.Char.Custom('DogStoryName')]开始冲着门吠叫。我听到门外传来一声惊叫，马上打开了房门，那是我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))][agent.GetFirstName]脚步凝固在半空。"
+ pet_animal.1108.a:0 "你在这儿干什么？说！"
+
+ pet_animal.1109.t:0 "[ROOT.Char.Custom('DogStoryName')]：会面"
+ pet_animal.1109.desc:0 "我出门去遛[ROOT.Char.Custom('DogStoryName')]，突然看到[other_owner.Custom2('MyCharacterIntroduction', ROOT.Char)]带着一只美丽的[other_owner.Custom('DogFurColor')]狗，正往这边走来。\n\n我们俩还没作出反应，[ROOT.Char.Custom('DogStoryName')]和另一只狗就一起跑掉了。"
+ pet_animal.1109.a:0 "我肯定它们会好好的。"
+ pet_animal.1109.a.tt:0 "我#EMP 希望#!它们没事"
+
+ pet_animal.1110.desc:0 "过了一会儿，[other_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U]和我找到这两只狗，它们正在做某种少儿不宜的事。\n\n"
+ pet_animal.1110.desc_your_dog:0 "“呃，[ROOT.Char.GetTitledFirstNameNoTooltip]……我想我们很快就要成亲戚了！”"
+ pet_animal.1110.desc_their_dog:0 "“[ROOT.Char.Custom('DogStoryName')]，你怎么能让那只串串……！”\n\n[other_owner.GetSheHe|U]的声音越来越低，但我能看到[other_owner.GetHerHis]眼中的怒火。"
+ pet_animal.1110.a:0 "呃……这只是天性。"
+
+ pet_animal.1111.desc:0 "过了一会儿，[other_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U]和我找到了这两只狗，它们正在打着玩。\n\n“真高兴看到[other_owner.Custom('DogStoryName')]如此开心！”"
+ pet_animal.1111.a:0 "我完全同意！"
+
+ pet_animal.1112.desc:0 "过了一会儿，[other_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U]和我找到了这两只狗，它们正在恶斗。\n\n“把你的串串弄走！”\n\n"
+ pet_animal.1112.desc_dead:0 "当我终于把[ROOT.Char.Custom('DogStoryName')]拉开时，[other_owner.GetFirstNamePossessiveNoTooltip]的狗已经开始变凉了。"
+ pet_animal.1112.desc_alive:0 "当我终于把[ROOT.Char.Custom('DogStoryName')]拉开时，[other_owner.GetTitledFirstNameNoTooltip]头也不回地走了。"
+ pet_animal.1112.a:0 "你还好吗，[ROOT.Char.Custom('DogStoryName')]？"
+
+ pet_animal.1113.t:0 "[ROOT.Char.Custom('DogStoryName')]：内阁会议"
+ pet_animal.1113.desc:1 "当我和我的内阁大臣们正准备会面的时候，我的小狗[ROOT.Char.Custom('DogStoryName')]跑了过来，双眼汪汪，尾巴摇摇。\n\n[ROOT.Char.Custom('DogStorySheHe')|U]不喜欢被落在一边，但这个会议很重要……"
+ pet_animal.1113.a:1 "[ROOT.Char.Custom('DogStorySheHe')|U]将与我作伴。"
+ pet_animal.1113.a_success:1 "[ROOT.Char.Custom('DogStoryName')]很听话"
+ pet_animal.1113.a_success.tt:0 "一切顺利"
+ every_councillor:0 "所有内阁成员"
+ pet_animal.1113.a_failure:1 "[ROOT.Char.Custom('DogStoryName')]挺好，只是"
+ pet_animal.1113.a_failure.tt:0 "发生了一些……不好的事情"
+ pet_animal.1113.b:1 "狗没资格出席内阁会议。"
+ pet_animal.1113.b.tt:0 "在狗狗可怜的目光下，你砰地关上了门"
+ pet_animal.1113.b_success:1 "[ROOT.Char.Custom('DogStoryName')]耐心等待"
+ pet_animal.1113.b_failure:1 "[ROOT.Char.Custom('DogStoryName')]决定冒险"
+ 
+ pet_animal.1114.desc:2 "“不好意思，[ROOT.Char.GetTitledFirstNameNoTooltip]，”我的[councillor.GetCouncilTitle][councillor.GetTitledFirstName]说道。“我不太同意你刚刚说的——”\n\n#EMP *呜*#!\n\n[ROOT.Char.Custom('DogStoryName')]发出一声低吼，而[councillor.GetTitledFirstNameNoTooltip]弹回了自己座位，看了看我，又看了看狗。\n\n“我又想了想，我觉得这个主意超赞！”"
+ pet_animal.1014.a_girl:0 "[ROOT.Char.Custom('DogStoryName')]，好姑娘！"
+ pet_animal.1014.a_boy:0 "[ROOT.Char.Custom('DogStoryName')]，棒小伙！"
+
+ pet_animal.1115.desc:2 "“下一个问题，”我的[councillor.GetCouncilTitle][councillor.GetTitledFirstName]懒懒地低语道。“这是最为重要的事——”\n\n#EMP *汪汪*#!\n\n会议室里的寂静被[ROOT.Char.Custom('DogStoryName')]欢快的吠叫声打破，[ROOT.Char.Custom('DogStoryHerHis')]干得不错。"
+ pet_animal.1115.a:0 "坏狗！"
+
+ pet_animal.1116.desc_opening:0 "我离开了会议室，因为我发现[ROOT.Char.Custom('DogStoryName')]已经走了。我翻遍高处低处，想找到[ROOT.Char.Custom('DogStoryHerHim')]在哪里；要是[ROOT.Char.Custom('DogStorySheHe')]走丢了，或者害怕了怎么办？\n\n"
+ pet_animal.1116.desc:1 "突然我撞见了[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)]，一只狗躺在大腿上，[courtier.GetHerHis]正兴致勃勃地挠它[ROOT.Char.Custom('DogFurColor')]色的肚子。这只狗看上去出奇地像[ROOT.Char.Custom('DogStoryName')]。\n\n“[ROOT.Char.GetTitledFirstNameNoTooltip]，你可真养了一只小可爱呢！”"
+ pet_animal.1116.a:0 "哈，没错，[ROOT.Char.Custom('DogStorySheHe')|U]真是太棒了……"
+
+ pet_animal.1117.desc:1 "突然我撞见了[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)]正在责骂一只小狗；这只小狗样子出奇地像[ROOT.Char.Custom('DogStoryName')]，[ROOT.Char.Custom('DogStoryHerHim')]的身边散落着七零八落的纸张和布料。\n\n“[ROOT.Char.GetTitledFirstNameNoTooltip]！这……这#EMP 畜生#!把我的房间弄得一团糟！所有东西都被搞得稀烂！”"
+ pet_animal.1117.a:0 "呃……噗。坏狗！"
+
+ pet_animal.1118.t:1 "[ROOT.Char.Custom('DogStoryName')]：惹事精"
+ pet_animal.1118.desc:2 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U]向我走来，[vassal.GetHerHis]的双眼中满是怒火，旁边还有一只狗，被[vassal.GetHerHis]拽着后颈皮拉了过来。当[vassal.GetSheHe]走到我面前时，我才发现[vassal.GetSheHe]抓着的是我心爱的[ROOT.Char.Custom('DogStoryName')]！\n\n“我在我的东西里发现了这只野兽——没被它撕碎的东西也全被狗屎覆盖了！”"
+ pet_animal.1118.a:0 "我会赔偿的！"
+ pet_animal.1118.b:0 "[ROOT.Char.Custom('DogStorySheHe')|U]只是一只狗……"
+
+ pet_animal.1190.t:0 "[ROOT.Char.Custom('DogStoryName')]：幼犬"
+ pet_animal.1190.desc:1 "[ROOT.Char.Custom('DogStoryName')]生下了一只可爱的小狗！虽然我很喜欢它——还有它摇摆的小尾巴——但我没办法同时照顾两只狗……"
+ pet_animal.1190.a:0 "我会把它送给[receiver_1.GetFirstNameNoTooltip]……"
+ pet_animal.1190.b:0 "[receiver_2.GetFirstNameNoTooltip]需要一个伴儿……"
+ pet_animal.1190.c:0 "[receiver_3.GetFirstNameNoTooltip]会照顾好它……"
+ pet_animal.1190.d:0 "我会在集市上卖掉它。"
+
+ pet_animal.1191.t:0 "小狗"
+ pet_animal.1191.desc:1 "[giver.Custom2('MyCharacterIntroduction', ROOT.Char)|U]向我走来，[giver.GetHerHis]怀里抱着一只小狗。\n\n“我没办法照顾它，但也许你能给它一个家？”"
+ pet_animal.1191.a:0 "没问题！交给我吧！"
+ pet_animal.1191.b:0 "我可以……#EMP 照顾好#!它。"
+
+ pet_animal.1192.t:0 "[receiver.Custom('DogStoryName')]：没有你的日子里"
+ pet_animal.1192.desc_opening:0 "我拜访了我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))][receiver.GetTitledFirstName]，去看看小[receiver.Custom('DogStoryName')]在[receiver.GetHerHis]的照顾下过得怎么样。\n\n"
+ pet_animal.1192.desc_alive_landed:0 "[receiver.GetSheHe|U]和我在[receiver.GetHerHis]的[receiver.Custom('ResidenceBuilding')]外会面，一只[receiver.Custom('DogFurColor')]狗站在[receiver.GetHerHim]旁边。“[receiver.Custom('DogStorySheHe')|U]过得很好——"
+ pet_animal.1192.desc_alive:0 "[receiver.GetSheHe|U]和我在外边会面，一只[receiver.Custom('DogFurColor')]狗站在[receiver.GetHerHim]旁边。“[receiver.Custom('DogStorySheHe')|U]过得很好——"
+ pet_animal.1192.desc_alive_1:0 "[receiver.Custom('DogStorySheHe')]喜欢追赶家鸡！”"
+ pet_animal.1192.desc_alive_2:0 "[receiver.Custom('DogStorySheHe')]喜欢跟着马跑！”"
+ pet_animal.1192.desc:0 "[receiver.GetSheHe|U]和我在[receiver.GetHerHis]的[receiver.Custom('ResidenceBuilding')]外会面，但是我没看到狗。“啊，[receiver.Custom('DogStorySheHe')]一定是去哪里玩了……”\n\n[receiver.GetSheHe|U]的眼睛左扫右扫，就是不敢看我。"
+ pet_animal.1192.a:0 "我放心了！"
+ pet_animal.1192.b:0 "[receiver.Custom('DogStoryName')]呢？！"
+
+#Dog dies :(
+ pet_animal.1199.t:0 "[ROOT.Char.Custom('DogStoryName')]：悲伤的日子"
+ pet_animal.1199.desc:1 "[ROOT.Char.Custom('DogStoryName')]陪伴在我身旁已经很多年了，时间的流逝对狗也不例外。当我跪在[ROOT.Char.Custom('DogStoryHerHim')]身边时，[ROOT.Char.Custom('DogStorySheHe')]开始缓慢地摇着[ROOT.Char.Custom('DogStoryHerHis')]的尾巴，但是[ROOT.Char.Custom('DogStorySheHe')]却无法抬起头来。\n\n我坐在[ROOT.Char.Custom('DogStoryHerHim')]身旁，抚摸着[ROOT.Char.Custom('DogStoryHerHis')][ROOT.Char.Custom('DogFurColor')]色的后背，直到深夜，直到[ROOT.Char.Custom('DogStoryHerHis')]尾巴停止摆动。"
+ pet_animal.1199.a:0 "我会想你的，[ROOT.Char.Custom('DogStoryName')]！"
+
+##############
+## CAT AND DOG
+##############
+ pet_animal.2001.t:0 "每晚的搂抱"
+ pet_animal.2001.desc:0 "夜幕降临，我回到我的房间，看到[ROOT.Char.Custom('CatStoryName')]和[ROOT.Char.Custom('DogStoryName')]搂在一起躺在地板上！[ROOT.Char.Custom('DogStoryNamePossessive')]的[ROOT.Char.Custom('DogFurColor')]毛闪闪发光——显然[ROOT.Char.Custom('CatStoryName')]已经为[ROOT.Char.Custom('DogStoryHerHim')]进行过清理工作。"
+ pet_animal.2001.a:0 "他们在一起好可爱！"
+
+ pet_animal.2002.t:0 "猫狗之争"
+ pet_animal.2002.desc:0 "[ROOT.Char.Custom('CatStoryName')]和[ROOT.Char.Custom('DogStoryName')]从相反的方向进来时，我正在穿过庭院。\n\n我甚至没时间反应——它们很快就开始互相攻击。一簇簇的[ROOT.Char.Custom('DogFurColor')]毛飞扬，我能听到它们的低吼。我必须终止它们的争斗！"
+ pet_animal.2002.a:0 "马上停下，[ROOT.Char.Custom('DogStoryName')]！"
+ pet_animal.2002.a.tt:0 "我试着控制住狗"
+ pet_animal.2002.b:0 "[ROOT.Char.Custom('CatStoryName')]，够了！"
+ pet_animal.2002.b.tt:0 "我试着控制住猫"
+ pet_animal.2002.c:0 "我可不想被夹在中间……"
+ pet_animal.2002.c.tt:0 "我相信它们会自己解决的"
+
+ pet_animal.2003.desc:0 "我开始在[ROOT.Char.Custom('ResidenceBuilding')]里寻找，[ROOT.Char.Custom('CatStoryName')]尾随着我，但是我到处都找遍了，还是找不到我的狗[ROOT.Char.Custom('DogStoryName')]！\n\n我停下来思考，弯下腰抚摸[ROOT.Char.Custom('CatStoryName')]，这时我看到[ROOT.Char.Custom('CatStoryHerHis')]牙齿上沾着一簇带血的[ROOT.Char.Custom('DogFurColor')]毛。当我把毛拽出来时，[ROOT.Char.Custom('CatStorySheHe')]发出阵阵嘶嘶声，跑去了院子的一个角落里——就在那，地上躺着什么[ROOT.Char.Custom('DogFurColor')]色的东西。"
+ pet_animal.2003.a:0 "噢，不！[ROOT.Char.Custom('CatStoryName')]，你不能……！"
+
+ pet_animal.2004.desc_opening:0 "就在我要离开[ROOT.Char.Custom('ResidenceBuilding')]时，[ROOT.Char.Custom('DogStoryName')]向我跑来，高兴地摇着[ROOT.Char.Custom('DogStoryHerHis')]的尾巴。\n\n"
+ pet_animal.2004.desc_female:0 "“嘿！谁是好女孩？没错，谁——”"
+ pet_animal.2004.desc_male:0 "“嘿！谁是好男孩？没错，谁——”"
+ pet_animal.2004.desc:0 "\n\n当[ROOT.Char.Custom('DogStorySheHe')]靠近时，我能看到[ROOT.Char.Custom('DogStoryHerHis')]的嘴正在往外滴血。我的心猛地一沉，马上向[ROOT.Char.Custom('DogStorySheHe')]过来的方向跑去，很快，我发现了我的猫[ROOT.Char.Custom('CatStoryName')]的尸体。"
+ pet_animal.2004.a:0 "噢，不……[ROOT.Char.Custom('DogStoryName')]，你怎么能？"
+
+ pet_animal.2005.desc_opening:0 "[ROOT.Char.Custom('CatStoryName')]和[ROOT.Char.Custom('DogStoryName')]都不见了。我搜遍整个[ROOT.Char.Custom('ResidenceBuilding')]及周边地区，但没人见过它们。\n\n"
+ pet_animal.2005.desc:0 "当我回来时，我看到地上有一小滩血，又一滩，又一滩……血迹将我引到一堆血淋淋的毛皮处——两具残破的尸体纠缠在一起，躺在地上，它们是谁不言而喻。"
+ pet_animal.2005.a:0 "你们为什么就是不能好好相处？！"
+
+ pet_animal.2006.desc:0 "当我回来时，我看到了它们——颓然地倒在地上。不！它们终于……但当我靠近时，[ROOT.Char.Custom('CatStoryNamePossessive')]抬起头用[ROOT.Char.Custom('CatStorySheHe')]疲惫的眼神望了望我，然后又继续睡觉。"
+ pet_animal.2006.a:0 "啊，它们……它们确实自己解决了！"
+
+##############
+## OTHER PEOPLE
+##############
+ pet_animal.5001.t:0 "仇敌之猫"
+ pet_animal.5001.desc:0 "当我因公事路过[rival_home.GetName]时，一只[rival.Custom('CatFurColor')]猫向我跑来。我在哪见过这只猫……？啊！这是我的[ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('rival'))][rival.GetTitledFirstNamePossessive]的猫[rival.Custom('CatStoryName')]！\n\n当它对我喵喵叫，还发出呼噜声时，我感到一丝邪恶的微笑在我脸上蔓延。"
+ pet_animal.5001.a:0 "#EMP 喵，喵#!——我不会伤害你……"
+ pet_animal.5001.a.tt:0 "是这把刀要伤害你"
+ pet_animal.5001.b:0 "我要好好撸一撸那个白痴的猫！"
+
+ pet_animal.5002.t:0 "仇敌之狗"
+ pet_animal.5002.desc:0 "当我因公事路过[rival_home.GetName]时，一只[rival.Custom('DogFurColor')]狗向我跑来。我在哪见过这只狗……？啊！这是我的[ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('rival'))][rival.GetTitledFirstNamePossessive]的狗[rival.Custom('DogStoryName')]！\n\n当它摇着尾巴高兴地对我汪汪叫时，我感到一丝邪恶的微笑在我脸上蔓延。"
+ pet_animal.5002.a:0 "过来，我不会伤害你……"
+ pet_animal.5002.b:0 "我要好好撸一撸那个白痴的狗！"
+
+
+##############
+## DECISION EVENTS
+##############
+ pet_animal.6001.t:0 "摸摸[ROOT.Char.Custom('DogStoryName')|U]"
+ pet_animal.6001.desc:0 "当我撸着[ROOT.Char.Custom('DogStoryNamePossessive')]的[ROOT.Char.Custom('DogFurColor')]毛时，我能感觉到心中的忧愁在逐渐消解。想想要让某个人对我毫不动摇地忠诚，要让他们一直站在我这一边……要是我周边的人都像你这样，那该多好啊，[ROOT.Char.Custom('DogStoryName')]！\n\n我们坐在一起打发了几分钟时光，[ROOT.Char.Custom('DogStoryHerHis')]的尾巴摇摇，我的肩膀松松。然后我又得回去面对那个残酷的世界。"
+ pet_animal.6001.a:0 "谢谢你，我的朋友！"
+
+ pet_animal.6002.desc:0 "我发现[ROOT.Char.Custom('DogStoryName')]在外边跟孩子们玩耍。[ROOT.Char.Custom('DogStorySheHe')]一看到我便快活地跳过来，摇起[ROOT.Char.Custom('DogStoryHerHis')]的尾巴，我蹲下身，熟练地把[ROOT.Char.Custom('DogStoryHerHis')]四脚朝天。\n\n我花了好几分钟抚摸[ROOT.Char.Custom('DogStoryHerHis')][ROOT.Char.Custom('DogFurColor')]色的肚子，我很久没这么放松了。"
+
+ pet_animal.6003.desc:0 "我正打算出门时，看见[ROOT.Char.Custom('DogStoryName')]向我冲过来，[ROOT.Char.Custom('DogStoryHerHis')]嘴里还叼着一根棒子。我琢磨着我还是有几分钟和[ROOT.Char.Custom('DogStoryHerHim')]耍弄耍弄的。嗯，那样一定很惬意。\n\n#EMP 等会，这是什么？#!\n\n我弯腰去拾那根棒子时，才发现那根本不是棒子，而是一张#EMP [target_county.GetName]的宣称书！#!见鬼了，[ROOT.Char.Custom('DogStoryName')]，你从哪里淘到这个宝贝玩意的？"
+ pet_animal.6003.a:0 "干得好，[ROOT.Char.Custom('DogStoryName')]。#EMP 干得漂亮！#!"
+ pet_animal.6003.b:0 "[neighboring_ruler.GetTitledFirstName]怕是巴不得想把这个要回去！"
+
+ pet_animal.6004.desc:0 "我发现[ROOT.Char.Custom('DogStoryName')]正在太阳下打盹。我弯下身子来到[ROOT.Char.Custom('DogStoryHerHim')]的身边，轻轻用手捋过[ROOT.Char.Custom('DogStoryHerHis')]的[ROOT.Char.Custom('DogFurColor')]毛，然后——\n\n我听见了一声低沉的怒吼，只见尖牙一闪，然后我就发现有什么在#EMP 撕扯#!我的手臂。我赶在[ROOT.Char.Custom('DogStorySheHe')]下一口咬到我之前迅速跳开了，但是可真是疼……！"
+ pet_animal.6004.a:0 "肯……肯定是哪里搞错了！"
+ pet_animal.6004.b:0 "你这#EMP 畜生#!！"
+
+ pet_animal.6051.t:0 "摸摸[ROOT.Char.Custom('CatStoryName')|U]"
+ pet_animal.6051.desc:0 "我发现[ROOT.Char.Custom('CatStoryName')]正在我的房间里熟睡，我坐在边上，[ROOT.Char.Custom('CatStoryHerHim')]轻轻地发出一声咂嘴声，声音里略带困扰。\n\n不过，当我的手指撸过[ROOT.Char.Custom('CatStoryHerHis')]的[ROOT.Char.Custom('CatFurColor')]毛之后，[ROOT.Char.Custom('CatStorySheHe')]立马满意地咕噜咕噜了起来，听声音似乎十分享受我这么做。"
+
+ pet_animal.6052.desc:0 "我发现[ROOT.Char.Custom('CatStoryName')]正在院子里踱来踱去。[ROOT.Char.Custom('CatStorySheHe')]一看到我，[ROOT.Char.Custom('CatStorySheHe')]立马喵喵叫唤跑过来，不住地蹭蹭我的腿。\n\n我花了好长一段时间，蹲在[ROOT.Char.Custom('CatStoryHerHis')]身边给[ROOT.Char.Custom('CatStoryHerHim')]撸毛，挠[ROOT.Char.Custom('CatStoryHerHim')]的下巴。当我重新站起身来时，我感觉心情好久没有这么轻快过了。"

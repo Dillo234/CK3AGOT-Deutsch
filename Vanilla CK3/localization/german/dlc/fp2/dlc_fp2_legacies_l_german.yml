@@ -1,0 +1,52 @@
+﻿l_german:
+ fp2_urbanism_legacy_track_name:1 "Metropolit"
+ fp2_urbanism_legacy_track_desc:1 "Städte spiegeln die Kultiviertheit ihrer Erbauer wider und ziehen Adlige aus der ganzen Welt an."
+ fp2_urbanism_legacy_1_name:1 "Einflussreiche Städte:"
+ fp2_urbanism_legacy_4_name:2 "Prestigeträchtige Entwicklung"
+ fp2_urbanism_legacy_3_name:0 "Engagierte Mitwirkende"
+ fp2_urbanism_legacy_2_name:1 "Republikanische Ausbildung"
+ fp2_urbanism_legacy_5_name:2 "Florierende Städte"
+ fp2_coterie_legacy_track_name:0 "Klüngel"
+ fp2_coterie_legacy_track_desc:1 "Die Stärke, die ein Haus zusammenhält"
+ fp2_coterie_legacy_1_name:0 "Innerer Zirkel"
+ fp2_coterie_legacy_2_name:0 "Verlässliches Haus"
+ fp2_coterie_legacy_3_name:0 "Einigkeit"
+ fp2_coterie_legacy_4_name:0 "Geteilte Informationen"
+ fp2_coterie_legacy_5_name:0 "Pragmatische Wurzeln"
+
+
+ cultural_acceptance_gain_gift_dynasty_perk:0 "durch [dynasty_perk|E] „$fp2_urbanism_legacy_2_name$“"
+
+ LEGACY_DYNASTY_UNLOCK_CITY_CELEBRATION_DECISION:1 "Schaltet „[improve_city_province_decision|E]“ frei"
+ LEGACY_DYNASTY_CITIES_INCREASE_DEVELOPMENT:1 "Alle [Concept('city', 'Städte')|E] erhöhen das monatliche [development_growth|E] ihrer [county|E] um #P +20 %#!"
+ LEGACY_DYNASTY_PRESTIGE_AND_GUEST_FROM_BUILDING_COMPLETION:1 "[prestige_i]#P [EmptyScope.ScriptValue('medium_prestige_gain')|0]#! [prestige|E] erhalten und mögliche [guests|E] anziehen, wenn ein [building|E] in einem [city_holding|E] fertiggestellt wird"
+ LEGACY_DYNASTY_BETTER_CONTRIBUTION_FROM_REPUBLICAN_VASSALS:0 "#P +15 %#! [taxes|E] von [republic_government|E]-[vassals|E]\n#P +15 %#! [levy|E] von [republic_government|E]-[vassals|E]"
+ LEGACY_DYNASTY_EXTRA_TRAITS_FROM_CITIES:1 "[dynasty|E]-Mitglieder können die [traits|E]-Reihe „[GetTrait('education_republican_knowledge_3').GetName(GetNullCharacter)]“ neben ihrer [education_trait|E] erhalten, wenn sie in einer Gemeinde mit hoher [development|E] unterwiesen werden"
+ LEGACY_DYNASTY_NO_SALARY_FREE_FIRING_COURT_POSITION_FROM_DYNASTY:1 "Mitglieder des [Concept('house', 'Hauses')|E] benötigen kein Salär, wenn sie ein [court_position|E] erhalten, und können ohne [prestige_i] [prestige|E]-Verlust entlassen werden"
+ LEGACY_DYNASTY_BETTER_SPOUSE_FROM_HOUSE_MEMBERS:1 "[skills|E] durch [spouse|E]-[councillor_tasks|E]: #p +10 %#! pro [councillor|E] aus Eurem [house|E]"
+ LEGACY_DYNASTY_MORE_PRESTIGE_FROM_WAR_SUPPORT_HOUSE_MEMBERS:1 "Mehr [prestige_i] [prestige|E], wenn man zum Krieg eines [Concept('house', 'Hausmitglieds')|E] beiträgt.\nSchaltet „#V $call_house_member_to_war_interaction$#!“ für alle Mitglieder des [Concept('house', 'Hauses')|E] frei"
+ LEGACY_DYNASTY_UNLOCK_SHARE_SECRETS:1 "Schaltet „#V $share_known_secrets_interaction$#!“ frei: Bekannte [secrets|E] können freimütig mit Mitgliedern Eures [Concept('house', 'Hauses')|E] getauscht werden"
+ LEGACY_DYNASTY_UNLOCK_DISINHERIT_CHILDREN:0 "[dynasty|E]-Mitglieder können ihre [children|E] für gewisse [prestige_i] [prestige|E]- und [tyranny|E]-Kosten [disinherit|E]"
+ LEGACY_DYNASTY_SUPPORT_FROM_COUNCILORS:2 "#P [EmptyScope.ScriptValue('council_reliable_house_percentage')|0]%#! des [Concept('skills','Hauptwerts')|E] der [councillors|E] erhalten, die zu Eurem [house|E] gehören."
+
+
+ inner_circle_salary_mod:0 "$fp2_coterie_legacy_1_name$"
+
+ share_known_secrets_interaction:0 "Geheimnis teilen"
+ share_known_secrets_interaction.tt.no_secrets_to_share:1 "Ihr meint, dass es keine passenden Geheimnisse zum Teilen gibt"
+ share_known_secrets_interaction_desc:0 "Tauscht [secrets|E] mit [recipient.GetShortUINameNoTooltip] aus: Offenbart Eures und erfahrt [recipient.Custom('DE_PRO_POS_S_3P')]es"
+ share_known_secrets_interaction_outcome_notif_title:0 "Geheimnisse ausgetauscht"
+ share_known_secrets_interaction_recipient_had_no_secrets:0 "[recipient.GetName] hat keine zu teilenden [secrets|E]!"
+ share_known_secrets_interaction_desc_intro:0 "Ihr tauscht Informationen mit [recipient.GetTitledFirstName] aus und erfahrt von folgenden [Concept('secrets', 'Geheimnissen')|E]:"
+ 
+ disinherit_children_interaction:0 "Kind enterben"
+ disinherit_children_interaction_desc:0 "[recipient.GetShortUINameNoTooltip] aus der [line_of_succession|E] entfernen"
+
+ many_secrets_exchanged:0 "#EMP Viele#! Geheimnisse erfahren"
+ several_secrets_exchanged:0 "#EMP Einige#! Geheimnisse erfahren"
+ few_secrets_exchanged:0 "#EMP Ein paar#! Geheimnisse erfahren"
+ reliable_house_modifier:0 "$fp2_coterie_legacy_2_name$"
+
+ prestige_gained_from_building_completion:0 "Prestige durch abgeschlossene Gebäude"
+ city_gained_building_slots:0 "Neue Gebäudeplätze"
+

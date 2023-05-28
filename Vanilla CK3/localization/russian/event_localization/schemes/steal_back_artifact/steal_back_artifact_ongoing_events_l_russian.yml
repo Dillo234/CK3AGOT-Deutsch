@@ -1,0 +1,23 @@
+﻿l_russian:
+ # TODO_CD ADD THE CHARACTER TO THE ANTIQUARIAN TITLE
+ steal_back_artifact_event_title:1 "Выкрасть утраченный артефакт:"
+ steal_back_artifact_ongoing.1001.t:0 "$steal_back_artifact_event_title$: хранитель древностей"
+ steal_back_artifact_ongoing.1001.desc:0 "Одно из главных препятствий на пути к артефакту — [antiquarian.GetTitledFirstName], [Select_CString(antiquarian.IsFemale, 'хранительница древностей, которую', 'хранитель древностей, которого' )] держит на службе [target.GetTitledFirstName].\n\nЕсть, конечно, несколько способов #EMP избавиться#! от человека, но, возможно, [antiquarian.GetFirstNameNoTooltip] сможет просто отвернуться в нужный момент, если я предложу достойную взятку?"
+ steal_back_artifact_ongoing.1001.a:0 "Золото — всеобщий язык подкупа."
+ steal_back_artifact_ongoing.1001.a.tt:0 "Вам кажется, что [antiquarian.GetTitledFirstName] ценит богатства..."
+ steal_back_artifact_ongoing.1001.b:0 "А если артефакт за артефакт?"
+ steal_back_artifact_ongoing.1001.b.tt:0 "[antiquarian.GetTitledFirstName] согласится на равный «обмен»."
+ steal_back_artifact_ongoing.1001.c:0 "Возможно, [random_beauty.GetTitledFirstName] сумеет добиться #EMP взаимопонимания#!, если представить их друг другу?"
+ steal_back_artifact_ongoing.1001.c.tt:0 "Вы ставите на то, что [antiquarian.GetTitledFirstName] променяет верность на телесную красоту."
+ steal_back_artifact_ongoing.1001.d:0 "Лучше я рассмотрю другие варианты."
+
+ steal_back_artifact_ongoing_notification.1001.success:0 "[antiquarian.GetTitledFirstName] принимает взятку"
+ steal_back_artifact_ongoing_notification.1001.failure:0 "[antiquarian.GetTitledFirstName] отказывается от взятки"
+
+ steal_back_artifact_ongoing.1002.t:0 "$steal_back_artifact_event_title$: слабое управление"
+ steal_back_artifact_ongoing.1002.desc:0 "По моему приказу [agent.Custom2('MyCharacterIntroduction', ROOT.Char)] следит за каждым шагом, который делает[target.GetTitledFirstName]: мы ждем идеального момента, когда сможем умыкнуть у н[target.GetHerHis] артефакт.\n\nОднако, дело продвигается куда медленнее, чем мне бы хотелось. Возможно, мне стоит дать [agent.GetHerHim] более конкретное поручение?"
+ steal_back_artifact_ongoing.1002.a:0 "Итак, [agent.GetFirstNameNoTooltip], нужно сделать вот что..."
+ steal_back_artifact_ongoing.1002.b:0 "Я не стану вмешиваться в [SCOPE.sC('agent').GetHerHis] работу."
+ steal_back_artifact_ongoing_notification.1002.success:0 "[agent.GetTitledFirstName] докладывает обстановку"
+ steal_back_artifact_ongoing_notification.1002.failure:0 "[antiquarian.GetTitledFirstName] ничего не [Select_CString(antiquarian.IsFemale, 'нашла', 'нашел' )]"
+

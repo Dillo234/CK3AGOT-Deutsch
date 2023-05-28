@@ -1,0 +1,30 @@
+﻿l_spanish:
+ claim_throne_interaction:0 "Reivindicación del trono #weak (conjura)#!"
+ claim_throne_interaction_message:0 "Trono reivindicado"
+
+ demand_payment_interaction:0 "Exigir pago"
+ demand_payment_interaction_desc:0 "Obligar a [recipient.GetShortUINameNoTooltip] a pagar oro por un [hook|lE] que tienes"
+ demand_payment_interaction_message:0 "Compromisos pagados"
+ RECIPIENT_HAS_TOO_LITTLE_GOLD:0 "[CHARACTER.GetName] no tiene suficiente oro"
+ demand_payment_too_little_gold_tt:1 "#N [recipient.GetShortUINameNoTooltip] no tiene bastante oro#!\nRecibiré menos de lo esperado #F ([SCOPE.ScriptValue('demand_payment_current_gold_value')|0][gold_i]/[SCOPE.ScriptValue('demand_payment_gold_to_pay”)|0] [gold_i])#!"
+
+ buy_claim_interaction:0 "Comprar derechos"
+ buy_claim_interaction_desc:0 "Pagas [piety|lE] para ganar un [claim|lE] sobre uno de los títulos válidos de [recipient.GetShortUINameNoTooltip] #weak ([buy_claim|E])#!"
+ buy_claim_interaction.message:0 "¡[target.GetName] reclamado!"
+ BUY_CLAIM_ALREADY_HAS_A_CLAIM:1 "Ya tienes un [claim|lE] sobre este [title|lE]"
+ BUY_CLAIM_ALREADY_KING_OR_EMPEROR:1 "No puedes comprar un [claim|lE] sobre un [kingdom|lE] si ya eres [king|lE] o [emperor|lE]"
+ BUY_CLAIM_ALREADY_EMPEROR:1 "No puedes comprar un [claim|lE] sobre un [kingdom|lE] si ya eres [emperor|lE]"
+ BUY_CLAIM_RELIGIOUS_TITLE:0 "No puedes comprar un [claim|lE] sobre un título religioso"
+
+ challenge_to_single_combat_interaction:0 "Desafiar a luchar a rival"
+ challenge_to_single_combat_interaction_desc:0 "Desafía a tu [rival|lE] a un [single_combat_duel|lE], infligiendo [stress|lE] si ganas"
+ challenge_to_single_combat_interaction.enter_non_lethal_bout.tt:0 "Comenzará inmediatamente un [single_combat_fight|lE] no mortal"
+ challenge_to_single_combat_interaction.victor_gets.tt:0 "El ganador pierde [stress|lE]"
+ challenge_to_single_combat_interaction.loser_gets.tt:0 "El perdedor gana [stress|lE]"
+ challenge_to_single_combat_interaction.challenge_rejected.t:1 "¡[recipient.GetShortUINameNoTooltip] rechaza tu desafío!"
+ challenge_to_single_combat_interaction.challenge_rejected.tt:0 "El/La cobarde teme tu acero"
+ UNLOCKS_ABILITY_TO_DUEL_RIVALS:0 "Puedes desafiar a [rivals|lE] a un [single_combat_fight|lE], infligiendo [stress|lE] si ganas"
+ CTSC_RELATIVE_PROWESS:0 "[prowess|E] relativa: $VALUE|=+0$"
+
+ buy_artifact_claim_interaction:0 "Comprar derechos sobre artefacto"
+ buy_artifact_claim_interaction_desc:0 "Gastar [piety|lE] o [prestige|lE] para ganar un [personal_artifact_claim|lE] sobre uno de los [artifacts|lE] de [recipient.GetShortUINameNoTooltip] #weak ([buy_artifact_claim|E])#!"
