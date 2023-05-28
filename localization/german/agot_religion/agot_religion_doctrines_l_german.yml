@@ -1,5 +1,6 @@
 ﻿l_german:
- doctrine_not_both_marriage_and_concubinage:0 "[faith|E] kann nicht zugleich Polygamie und Konkubinen haben" #Übersetzt von Erllandur #bei "The [characters|E] of this [faith|E] believe in..." fand ich wortwörtlich "die Charaktere dieses Glaubens glauben an..." irgendwie unschön klingend. Es wurde stattdessen mit "die Charaktere dieses Glaubens verehren..." übersetzt
+ #Übersetzt von Erllandur, durchgesehen und überarbeit von Big D
+ doctrine_not_both_marriage_and_concubinage:0 "[faith|E] kann nicht zugleich Polygamie und Konkubinen haben" 
  incompatible_doctrine_dualistic_ditheistic_trigger:0 "Der [faith|E] muss entweder ditheistischee Lehre oder transtheistische Lehre haben"
  incompatible_doctrine_chaos_into_world_polytheistic_trigger:0 "[faith|E] muss mehrere Götter haben"
  allowed_clergy_appointed_to_monks:0 "Mitglieder des [clergy|E] müssen Mönche oder Nonnen sein."
@@ -322,39 +323,39 @@ doctrine_clerical_asceticism_name:0 "Klerikale Askese"
  tenet_the_mark_name:0 "Das Mal" ##siehe Traits - Maester Dillo
  tenet_the_mark_desc:0 "Es heißt, dass diejenigen, die glücklich geboren werden, vom Göttlichen mit Schwimmhäuten an Händen und Füßen gekennzeichnet werden. Eindeutig bevorzugt, gelten diese Menschen als die besten unter ihnen."
  tenet_blinded_followers_name:0 "Geblendete Anhänger"
- tenet_blinded_followers_desc:0 "Nur in der Finsternis kann sich unser verborgenes Auge öffnen, dass es uns erlaubt die tieferen Wahrheiten der Schöpfung betrachten, die ansonsten hinter der Illusion der materiellen Welt verborgen sind. Eitelkeit ist der Weg in die Verdammnis, und das Augenlicht ist der Katalysator für alles".
- tenet_sacred_mines_name:0 "Heilige Minen"
- tenet_sacred_mines_desc:0 "I am dwarf and I'm digging a hole, diggy diggy hole, diggy diggy hole. Also, its hole-y." # AGOT TODO Localization  #Erllandur: easteregg - lass ich also so :D
+ tenet_blinded_followers_desc:0 "Nur in der Dunkelheit kann sich unser drittes Auge öffnen und uns die höheren Wahrheiten der Schöpfung erkennen lassen, die hinter den Trugbildern der materiellen Welt verborgen liegen. Eitelkeit ist der Weg in die Verdammnis, und das Augenlicht dient dabei als Wegbereiter."
+ tenet_sacred_mines_name:0 "Geheiligte Minen"
+ tenet_sacred_mines_desc:0 "'Ich bin umzingelt von Zwergen. Was wollen die hier?' - Bilbo Beutlin"
  tenet_the_mark_desc:0 "."
 
   tenet_weirwoods_name:0 "Wehrholzbäume"
- tenet_weirwoods_desc:0 "Es sind die Wehrholzbäume, die es den alten Göättern erlauben, ihre Gläubigen zu sehen. Wir sollten ihnen unser Vertrauen schenken und bei Zeiten der Not in ihren heiligen Hainen beten und meditieren."
- doctrine_parameter_can_visit_weirwood_groves:0 "[rulers|E] mit diesem Leitsatz können sich [decide|E] einen Götterhain zu besuchen, wo sie eine vielzahl an Erlebnissen erwartet."
+ tenet_weirwoods_desc:0 "Durch die Wehrholzbäume können die Alten Götter die Gläubigen sehen. Wir sollten unser Schicksal in ihre Hände legen und in Zeiten der Not in ihren heiligen Hainen beten und sinnieren."
+ doctrine_parameter_can_visit_weirwood_groves:0 "[rulers|E] mit diesem Grundsatz können sich [decide|E], einen Götterhain zu besuchen, wo sie eine Reihe von Ereignissen erleben können."
  tenet_greenseers_name:0 "Grünseher"
  tenet_greenseers_desc:0 "Grünseher"
  
  tenet_godswoods_name:0 "Götterhaine"
- tenet_godswoods_desc:0 "Als die Ersten Menschen die alten Götter von den Kindern des Waldes übernahmen, pflanzten sie die Götterhaine. Wälder innerhalb ihrer Burgen und Dörfer, in denen ein einzelner Wehrholzbaum - der 'Herzbaum' - gepflanzt und mit einem geschnitzten Gesicht versehen wurde, sodass die Alten Götter dort verehrt werden konnten."
+ tenet_godswoods_desc:0 "Als die Ersten Menschen die Alten Götter der Kinder des Waldes annahmen, errichteten sie Götterhaine, kleine Wäldchen innerhalb ihrer Burgen und Dörfer, in denen ein einzelner Wehrholzbaum gepflanzt wurde, der als 'Herzbaum' bezeichnet wurde und in den ein Gesicht geschnitzt war, so dass die Götter verehrt werden konnten."
  doctrine_parameter_can_build_godswoods:0 "[rulers|E] können Götterhaine errichten. Ein [building|E], dass [piety|E] und [prestige|E] in [castle|E] & [tribe|E] Besitztümern erwirtschaftet."
  
- tenet_monasticism_septries:0 "Septen"
- tenet_monasticism_septries_desc:0 "Septen"
+ tenet_monasticism_septries:0 "Septeien"
+ tenet_monasticism_septries_desc:0 "Septeien"
  tenet_the_most_devout_name:0 "Die Ergebensten"
- tenet_the_most_devout_desc:0 "[collegeofcardinals|e] sind ein Konzil der höchstrangigen Mitglieder des Glaubens an die Sieben. Ihnen steht der Hohe Septon vor, der auch von diesem Konzil gewählt wird. Es kann geschehen, dass Lords und Könnige die Ergebensten bestochen haben, den 'richtigen' Kandidaten zu erwählen."
+ tenet_the_most_devout_desc:0 "[collegeofcardinals|e] sind ein Rat der ranghöchsten Geistlichen des Glaubens an die Sieben. An ihrer Spitze steht der Hohe Septon, der von ihren Mitgliedern gewählt wird, wobei es vorkommt, dass Lords und Könige die Ergebensten beeinflussen, um ihren Kandidaten zu wählen."
  tenet_knighthood_name:0 "Geweihtes Rittertum"
- tenet_knighthood_desc:0 "Das Rittertum ist eine Tradition dieses Glaubens. Von [agot_knights|e] wird erwartet, dass sie die ritterlichen Tugenden - z.B. Mut, Gerechtigtekeit und Ehre - verkörpern."
- doctrine_parameter_can_grant_knighthood:0 "Charactere sind eher bereit, ritterschaftsbezogene [Interaktionen|E] zu akzeptieren."
- doctrine_parameter_knighthood_interactions_grant_piety:0 "Rittertum-Events und -Interaktionen können [piety|e] bringen."
+ tenet_knighthood_desc:0 "Das Rittertum ist eine Tradition dieses Glaubens. Von [agot_knights|e] wird erwartet, dass sie die ritterlichen Tugenden wie Tapferkeit, Gerechtigkeit und Ehre verkörpern."
+ doctrine_parameter_can_grant_knighthood:0 "Charactere sind eher bereit, rittertumsbezogene [Interaktionen|E] zu akzeptieren."
+ doctrine_parameter_knighthood_interactions_grant_piety:0 "Rittertum-Ereignisse und -Interaktionen können [piety|e] gewähren."
  
- tenet_salt_and_sea_name:0 "Salz und Meer"
- tenet_salt_and_sea_desc:0 "Dieser Glaube sieht Heiligkeit im Meerwasser und praktizieren Riten, in denen die Gläubigen an die Heilige See und jene Gottheiten die in ihr leben opfern."
+ tenet_salt_and_sea_name:0 "Salz und See"
+ tenet_salt_and_sea_desc:0 "Dieser Glaube betrachtet das Meerwasser als heilig und vollzieht Rituale, bei denen die Gläubigen der heiligen See und den darin weilenden Göttern Opfer darbringen."
 
  #Earl of Berkeley - adding missing localization
  tenet_westerosi_syncretism_name:0 "Westerosischer Synkretismus"
- tenet_westerosi_syncretism_desc:0 "Dieser Glaube erkennt einen Wert in den Religionen von Westeros. Den Alten Götter, den Sieben und sogar dem harten Ertrunkenen Gott. Statt die unterschiedlichen Lehren von Westeros zu meiden, tollerieren die Gelehrten dieses Glaubens die fremden Ideen und streben sogar danach, einige der Lehren und Praktiken zu integrieren."
+ tenet_westerosi_syncretism_desc:0 "Dieser Glaube erkennt einen Wert in den Religionen von Westeros. Den Alten Götter, den Sieben und sogar dem rauen Ertrunkenen Gott. Statt die unterschiedlichen Lehren von Westeros zu meiden, tolerieren die Gelehrten dieses Glaubens die fremden Ideen und streben sogar danach, einige der Lehren und Praktiken zu integrieren."
 
  tenet_the_iron_way_name:0 "Der Eiserne Weg"
- tenet_the_iron_way_desc:0 "Anhänger dieses Glaubens verstehen, dass der einzige Imperativ des Leben das Streben nach Macht ist und der einzige ehrenhafte Weg, Macht anzuhäufen, ist, den Eisernen Preis zu zahlen. Diplomatie ist für die Schwachen, Handel für die Feigen. Jene, die dem Eisernen Weg folgen, nehmen sich was sie begehren und zerstören, was ihnen im Wege steht."
+ tenet_the_iron_way_desc:0 "Die Anhänger dieses Glaubens wissen, dass das einzige Gebot im Leben das Streben nach Macht ist und dass der einzige ehrenhafte Weg, Macht zu erlangen, darin besteht, den Eisernen Preis zu zahlen. Diplomatie ist für die Schwachen, Handel für die Feiglinge. Diejenigen, die dem Eisernen Weg folgen, nehmen sich, was sie wollen und vernichten alles, was sich ihnen in den Weg stellt."
 
  faith_of_the_seven_hostility_doctrine_name:0 "Feindseligkeit des Glaubens an die Sieben"
  faith_of_the_seven_hostility_doctrine_desc:0 "Betrachten andere [faiths|E] in der eigenen Religionsfamilie als [faith_astray|L], die Götter des Winter als [faith_evil|L] und alle anderen Religion als [faith_hostile|L]."
@@ -365,11 +366,11 @@ doctrine_clerical_asceticism_name:0 "Klerikale Askese"
  western_essosi_hostility_doctrine_name:0 "Feindseligkeit der Essosi"
  western_essosi_hostility_doctrine_desc:0 "Betrachten alle anderen [faiths|E] als [faith_astray|L], außer die Götter des Winters, die als [faith_evil|L] betrachtet werden."
 
- gods_of_winter_hostility_doctrine_name:0 "Feindseligkeitder Götter des Winters"
+ gods_of_winter_hostility_doctrine_name:0 "Feindseligkeit der Götter des Winters"
  gods_of_winter_hostility_doctrine_desc:0 "Betrachten alle anderen [faiths|E] als [faith_evil|L]"
 
  beyond_the_wall_and_vale_old_gods_hostility_doctrine_name:0 "Feindseligkeit der Alten Götter der Wildlinge"
- beyond_the_wall_and_vale_old_gods_hostility_doctrine_desc:0 "Betrachten andere [faiths|E] in der eigenen Religionsfamilie als [faith_astray|L], die Götter des Winter als [faith_evil|L] und alle anderen Religion als [faith_hostile|L]."
+ beyond_the_wall_and_vale_old_gods_hostility_doctrine_desc:0 "Betrachten andere [faiths|E] in der eigenen Religionsfamilie als [faith_astray|L], die Götter des Winter als [faith_evil|L] und alle anderen Religionen als [faith_hostile|L]."
  
  special_doctrine_ecumenical_essosi_name:0 "Ökumenische Feindseligkeit der Essosi"
  special_doctrine_ecumenical_essosi_desc:0 "Betrachten alle anderen [faiths|E] als [faith_astray|L]."
@@ -381,17 +382,17 @@ doctrine_clerical_asceticism_name:0 "Klerikale Askese"
  special_doctrine_ecumenical_old_gods_desc:0 "Betrachten alle anderen [faiths|E] als [faith_astray|L]."
 
  special_doctrine_multi_ecumenical_old_gods_name:0 "Multi-ökumenische Feindseligkeit der Alten Götter"
- special_doctrine_multi_ecumenical_old_gods_desc:0 "Betrachten den Glauben an die Sieben und andere Rligionen der Alten Götter - außer den Thenn - als [faith_astray|L] statt [faith_hostile|L]. Allerdings betrachtete der Glauben an die Sieben allen Religionen der Alten Götter jenseits der Mauer als [faith_hostile|L]."
+ special_doctrine_multi_ecumenical_old_gods_desc:0 "Betrachten den Glauben an die Sieben und andere Religionen der Alten Götter, außer den Thenn, als [faith_astray|L] statt [faith_hostile|L]. Allerdings betrachtet der Glauben an die Sieben alle Religionen der Alten Götter jenseits der Mauer als [faith_hostile|L]."
 
  doctrine_voluntary_name:0 "Freiwillig"
- doctrine_voluntary_desc:0 "Gebete sind nicht zwingend um göttliche Gunst zu erhalten."
+ doctrine_voluntary_desc:0 "Gebete sind nicht notwendig, um göttliche Gunst zu erhalten."
 
- doctrine_consanguinity_agot_exceptionalism_name:0 "Doktrin des Außergewöhnlichen"
- doctrine_consanguinity_agot_exceptionalism_desc:0 "Der Glaube wurde in Andalos geboren, wo Inzest als Abscheulichkeit angesehen wurde. Hochvalyrer, wie die Targaryens, haben ihre Wurzeln jedoch in Valyria, wo andere Traditionen herrschten, nicht in Andalos. Die Valyrer wurden von den Göttern dazu erschaffen, Bruder mit Schwwester zu verheiraten, Daher wird der Glaube sie für ihre Praktiken nicht verurteilen."
+ doctrine_consanguinity_agot_exceptionalism_name:0 "Doktrin des Exzeptionalismus"
+ doctrine_consanguinity_agot_exceptionalism_desc:0 "Der Glaube stammt aus Andalos, wo Inzest als abscheulich gilt. Allerdings haben Hochvalyrer wie die Targaryen ihre Wurzeln in Valyria, wo andere Sitten herrschen. Die Valyrer wurden von den Göttern dazu bestimmt, Bruder und Schwester zu heiraten, und daher wird der Glaube sie für diese Tradition nicht verurteilen."
 
- agot_exceptionalism_doctrine_name:0 "Doktrin des Außergewöhnlichen"
- agot_exceptionalism_doctrine_desc:0 "Der Glaube wurde in Andalos geboren, wo Inzest als Abscheulichkeit angesehen wurde. Hochvalyrer, wie die Targaryens, haben ihre Wurzeln jedoch in Valyria, wo andere Traditionen herrschten, nicht in Andalos. Die Valyrer wurden von den Göttern dazu erschaffen, Bruder mit Schwwester zu verheiraten, Daher wird der Glaube sie für ihre Praktiken nicht verurteilen."
+ agot_exceptionalism_doctrine_name:0 "Doktrin des Exzeptionalismus"
+ agot_exceptionalism_doctrine_desc:0 "Der Glaube stammt aus Andalos, wo Inzest als abscheulich gilt. Allerdings haben Hochvalyrer wie die Targaryen ihre Wurzeln in Valyria, wo andere Sitten herrschen. Die Valyrer wurden von den Göttern dazu bestimmt, Bruder und Schwester zu heiraten, und daher wird der Glaube sie für diese Tradition nicht verurteilen."
  agot_exceptionalism_name:0 "$agot_exceptionalism_doctrine_name$"
 
- FAITH_DOCTRINES_BELIEF:0 "Lehrsätze des Glaubens"
- FAITH_DOCTRINES_PRACTICES:0 "Lehrsätze der Praktiken"
+ FAITH_DOCTRINES_BELIEF:0 "Doktrinen des Glaubens"
+ FAITH_DOCTRINES_PRACTICES:0 "Doktrinen der Praktiken"
