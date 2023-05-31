@@ -2,28 +2,28 @@
 # Von Lys
 # Liege hears petition, makes a decision 
 # Paramount Title
- petition_liege.0101.t.title_paramount:0 "$petition_liege_header$ Anspruchsteller"
+ petition_liege.0101.t.title_paramount:0 "$petition_liege_header$ Anspruch auf Oberste Lordschaft"
 
  # Desc
  petition_liege.0101.desc.title_paramount:0 ""Mit allem Respekt Euer Gnaden, der Titel [petition_paramount.GetName] steht mir zu, dem Recht nach!" \n\n"Ihr herrscht bereits über das mächtige Reich von [petition_liege.GetPrimaryTitle.GetTierAsNameNoTooltip]. Könntet Ihr da nicht das Recht, über das schmächtige [petition_claim.GetName] zu herrschen, dem übetragen, der es rechtmäßig fordert? My [petition_liege.GetLadyLord], Ihr versteht doch sicher, wie achtenswert die Ansprüche an unsere Lande sind.""
 
  # Accept
- petition_liege.0101.accept.title_paramount:0 "Nun gut, von heute an sollt Ihr [petition_paramount.GetTierAsNameNoTooltip|l] Euer nennen."
+ petition_liege.0101.accept.title_paramount:0 "Nun gut, von heute an soll die [petition_paramount.GetTierAsNameNoTooltip|l] Euer sein."
 
  # Bribe gold
- petition_liege.0101.bribe_gold.title_paramount:0 "Was bedeutet es Euch über [petition_vassal.GetFirstNameNoTooltip] zu herrschen?"
+ petition_liege.0101.bribe_gold.title_paramount:0 "Was ist Euch Macht wert, [petition_vassal.GetFirstNameNoTooltip]?"
 
  # Bribe favor
- petition_liege.0101.bribe_favor.title_paramount:0 "Ich werde diese Schuld nicht allzu bald vergessen."
+ petition_liege.0101.bribe_favor.title_paramount:0 "Ich würde nicht so schnell vergessen, was Ihr mir schuldig seid."
 
  # Bribe factions
- petition_liege.0101.bribe_factions.title_paramount:0 "Für diesen Titel fordere ich Eure niemals endende Treue."
+ petition_liege.0101.bribe_factions.title_paramount:0 "Für diesen Titel fordere ich Eure niemals endende Treue ein."
 
  # Bribe contract
- petition_liege.0101.bribe_contract.title_paramount:0 "Jedenfalls sind diese Lande mit höheren Gebühren verbunden."
+ petition_liege.0101.bribe_contract.title_paramount:0 "Solch große Ländereien bringen höhere Abgaben mit sich."
 
  # Refuse
- petition_liege.0101.refusal.title_paramount:0 "Allerdings, daher werdet Ihr doch sicher meinen Anspruch auf [petition_paramount.GetNameNoTierNoTooltip] achten?"
+ petition_liege.0101.refusal.title_paramount:0 "Allerdings verstehe ich dies, daher werdet Ihr freilich meinen eigenen Anspruch auf [petition_paramount.GetNameNoTierNoTooltip] achten, nicht wahr mein[petition_vassal.Custom('DE_END_PRO_S_N')] treu[petition_vassal.Custom('DE_END_ADJ_IND_S_N')] Vasall[petition_vassal.Custom('DE_END_NOU_S_GS_N')]?"
 
 # Liege grants petition
  petition_liege.0201.desc.title_paramount:0 "\n\nIch mache meinen Anspruch auf [petition_paramount.GetName] gegenüber [petition_liege.Custom('DE_PRO_PER_S_3P_G')] Gnaden geltend und lege ausführliche Dokumente vor, welche diesen bestätigen. Nun erwarte ich [petition_liege.GetTitleAsNamePossessiveNoTooltip] Antwort."
