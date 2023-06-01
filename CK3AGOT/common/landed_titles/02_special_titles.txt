@@ -1,0 +1,202 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+# special titles
+
+# d_kingsguard = {
+# 	color = { 255 249 198 }
+
+# 	definite_form = yes
+# 	ruler_uses_title_name = no
+# 	landless = yes
+# 	can_create = { always = no }
+# 	destroy_on_succession = yes 
+
+# 	capital = c_kings_landing 
+
+# 	ai_primary_priority = {
+# 		add = @always_primary_score
+# 	}
+
+# 	destroy_if_invalid_heir = yes
+# 	de_jure_drift_disabled = yes
+# }
+
+# d_dummy_kingsguard = { #dummy title that allows us to change kingsguard history
+# 	color={ 255 249 198 }
+# 	landless = yes
+# 	can_create = { always = no }
+# }
+
+k_the_most_devout = {
+	color = { 255 249 198 }
+
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+
+	capital = c_kings_landing #this needs to be able to dynamically change to c_kings_landing during Aegon's Conquest and for later bookmarks
+	# Amanes : Landless Actually must somehow have a capital
+
+	# title = "HSEPTON"
+	# title_female = "HSEPTON_female"
+	# foa = "HSEPTON_FOA"
+
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = {
+		HIGH_SEPTON_NAME
+	}
+}
+
+k_the_red_priesthood = {
+	color = { 255 249 198 }
+
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+
+	capital = c_storms_end # AGOT TODO, add ACTUAL capital once exists
+	# Amanes : Landless Actually must somehow have a capital
+
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	#destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+}
+
+d_the_citadel = {
+	color = { 155 149 148 }
+
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+
+	capital = c_oldtown
+	# Amanes : Landless Actually must somehow have a capital
+
+	# title = "GRAND_MAESTER"
+	# title_female = "GRAND_MAESTER_female"
+	# foa = "GRAND_MAESTER_FOA"
+
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+}
+
+d_wildling_army = { #for when wildlings breach the wall
+	color = { 94 83 70 }
+
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+
+	capital = c_castle_black
+
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = no
+	de_jure_drift_disabled = yes
+
+}
+
+# Historic Titular Kingdoms
+# Amanes : Made those titles to clean Error log as they're present in History
+k_fingersTK = {
+	landless = yes
+	capital = c_tammerlan
+	color = { 45 178 217 }
+	# Amanes : Landless Actually must somehow have a capital
+}
+
+k_gulltownTK = {
+	landless = yes
+	capital = c_gulltown
+	color = { 89 151 186 }
+	# Amanes : Landless Actually must somehow have a capital
+}
+
+# Independent Titular Kingdoms
+# Amanes : Made this titles to clean Error log as you can apparently declare independence with them
+k_the_sisters = {
+	landless = yes
+	capital = c_sunderland
+	color = { 151 198 255 }
+	# Amanes : Landless Actually must somehow have a capital
+}
+
+k_duskendale = {
+	landless = yes
+	capital = c_duskendale
+	color = { 45 31 54 }
+}
+
+k_the_dreadfort = {
+	landless = yes
+	capital = c_the_dreadfort
+	color = { 207 167 183 }
+}
+
+k_runestone = {
+	landless = yes
+	capital = c_runestone
+	color = { 166 106 38 }
+}
+
+k_the_neck = {
+	landless = yes
+	capital = c_greywater_watch
+	color = { 44 125 85 }
+}
+
+k_stone_and_sky = {
+	landless = yes
+	capital = c_skyreach
+	color = { 171 132 99 }
+}
+
+k_banefort = {
+	landless = yes
+	capital = c_banefort
+	color = { 117 41 32 }
+}
+
+k_the_marches = {
+	landless = yes
+	capital = c_nightsong
+	color = { 196 156 55}
+}
+
+k_the_claw = {
+	landless = yes
+	capital = c_dyre_den
+	color = { 143 125 109}
+}
+
+k_the_hook = {
+	landless = yes
+	capital = c_stonedance
+	color = { 177 139 199}
+}
