@@ -67,3 +67,22 @@ DE_ART_IND_A_Opp = {
 		trigger = { is_female = yes }
 	}
 }
+
+############################################
+###   Scripted Localization for AGOT     ###
+###           BY Maester Niklas          ###
+############################################
+
+DE_MylordMylady = { 
+	type = character
+	log_loc_errors = no
+	text = {
+		localization_key = CustomLoc_DE_Mylord
+		trigger = { is_female = no }
+	}
+	text = {
+		localization_key = CustomLoc_DE_Mylady
+		trigger = { is_female = yes }
+	}
+}
+
