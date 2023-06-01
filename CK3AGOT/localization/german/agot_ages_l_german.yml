@@ -10,7 +10,7 @@
 
  ### In-Game
  ## DATE Replacements
- # ERA
+ # ERAa
  ERA_SEL_IG:0 "[Select_CString( GreaterThan_int32(FixedPointToInt(EmptyScope.ScriptValue('era_4_year')), '(int32)1'), $ERA_4E_IG$, $ERA_3E_IG$)]"
  ERA_4E_IG:0 "Select_CString( GreaterThan_int32( '(int32)$YEAR$', FixedPointToInt(EmptyScope.ScriptValue('era_4_year'))), '4.Z.', $ERA_2E_IG$ )"
  ERA_3E_IG:0 "Select_CString( GreaterThan_int32( '(int32)$YEAR$', $ERA_DOOM_END$), 'n.A.E.', $ERA_2E_IG$ )"
