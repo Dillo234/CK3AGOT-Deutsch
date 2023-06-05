@@ -1,4 +1,5 @@
 ﻿l_german:
+ #Übersetzt von Lys, durchgesehen und überarbeitet von Dillo
  activity_rebuilding_castle:0 "Wiedererbauen"
  activity_rebuilding_castle_owner:0 "Lord Kommandant"
  activity_rebuilding_castle_name:0 "Eine Festung wiedererrichten"
@@ -7,9 +8,9 @@
 
  # Rebuilding Choice Events
  agot_nights_watch.1001.t:0 "Die Nachtwache restaurieren"
- agot_nights_watch.1001.desc:0 "Viel zu lange mussten die Brüder der Nachtwache dabei zusehen, wie die Festungen entlang der Mauer eine nach der anderen verwitterten und zerfielen.\n\nNun können wir dieses dunkle Kapitel hinter uns lassen. Unsere Kassen voll, die Rekruten zahlreich - Nun kann der Wiederaufbau und die Wiederbesetzung zerfallener Festungen vorgenommen werden. Es stellt sich die Frage, welche Festung wir uns zuerst vornehmen sollten?"
+ agot_nights_watch.1001.desc:0 "Viel zu lange mussten die Brüder der Nachtwache dabei zusehen, wie die Festungen entlang der Mauer eine nach der anderen verwitterten und zerfielen.\n\nNun können wir dieses dunkle Kapitel hinter uns lassen. Unsere Kassen voll, die Rekruten zahlreich - Nun kann der Wiederaufbau und die Wiederbemannung vorgenommen werden. Es stellt sich die Frage, welche Festung wir uns zuerst vornehmen sollten?"
  agot_nights_watch.1001.a:0 "Die Festung [nw_wall_castle_1.GetTitle.GetNameNoTierNoTooltip] soll es sein."
- agot_nights_watch.1001.b:0 "[nw_wall_castle_2.GetTitle.GetNameNoTierNoTooltip] scheint vielversprechend." #test
+ agot_nights_watch.1001.b:0 "[nw_wall_castle_2.GetTitle.GetNameNoTierNoTooltip] scheint vielversprechend." 
  agot_nights_watch.1001.c:0 "Errichtet die Ruine von [nw_wall_castle_3.GetTitle.GetNameNoTierNoTooltip]!"
  agot_nights_watch.1001.d:0 "[nw_wall_castle_4.GetTitle.GetNameNoTierNoTooltip] ist strategisch am wertvollsten."
  agot_nights_watch.1001.e:0 "Schickt die Baumeister nach [nw_wall_castle_5.GetTitle.GetNameNoTierNoTooltip]!"
@@ -34,7 +35,7 @@
  agot_nights_watch.1004.d:0 "[nw_wall_castle_19.GetTitle.GetNameNoTierNoTooltip] muss verteidigungsbereit sein."
 
  # Generic Start Events
- agot_rebuilding_castle.1000.desc:0 "Wir an der Mauer haben viele Pflichten, an [other_host.GetTitledFirstNamePossessive] Hof rumzutollen ist keine. Wir sind der Schild, der das Reich der Menschen schützt. Oder habt Ihr das vergessen?"
+ agot_rebuilding_castle.1000.desc:0 "Wir an der Mauer haben viele Pflichten, an [other_host.GetTitledFirstNamePossessive] Hof herumzutollen ist keine davon. Wir sind der Schild, der die Reiche der Menschen schützt. Oder habt Ihr das vergessen?"
  agot_rebuilding_castle.1000.a:0 "Ihr stellt Eure Eide auf die Probe..."
 
  # Invitations ; C+P Vanilla - Lys
@@ -62,8 +63,8 @@
 ###############################
 
 agot_rebuilding_castle.2001.t:0 "Die Holzkohlesammler"
-agot_rebuilding_castle.2001.desc:0 "Zunächst dachten wir, die Gegend um die alte Burg sei verlassen, doch bald stellten wir fest, dass sich dort in der Zwischenzeit ein Gemeine angesiedelt haben. Sie lebten von der Herstellung von Holzkohle lebte und sahen unsere Anwesenheit als Störung an.\n\nEinige meiner Männer berichteten, dass die Gemeinen sie mit Steinen bewarfen, bevor sie in die Wälder flüchteten. Andere erklärten, sie befürchteten, dass sie bald versuchen würden, die für den Wiederaufbau verwendete Ausrüstung zu sabotieren.\n\nEinige glauben, dass die Holzkohlesammler unserer Anwesenheit überdrüssig sind, weil das Land seit Jahren unbewirtschaftet ist - und sie fürchten, dass wir Steuern verlangen werden. Wieder andere haben darauf hingewiesen, dass sich die Gemeinen vor uns fürchteten, da die Nachtwache aus vielen Männern besteht, die zur Strafe für ihre Verbrechen hierher geschickt wurden.\n\nUngeachtet der Gründe, ich muss handeln..."
-agot_rebuilding_castle.2001.a:0 "Sie verhalten sich wie Wildlinge, also behandlen wir sie auch so!"
+agot_rebuilding_castle.2001.desc:0 "Zunächst dachten wir, die Gegend um die alte Burg sei verlassen, doch bald stellten wir fest, dass sich dort in der Zwischenzeit einige Gemeine angesiedelt haben. Sie lebten von der Herstellung von Holzkohle und sahen unsere Anwesenheit als Störung an.\n\nEinige meiner Männer berichteten, dass die Gemeinen sie mit Steinen bewarfen, bevor sie in die Wälder flüchteten. Andere erklärten, sie befürchteten, dass sie bald versuchen würden, die für den Wiederaufbau verwendete Ausrüstung zu sabotieren.\n\nEinige glauben, dass die Holzkohlesammler unserer Anwesenheit überdrüssig sind, weil das Land seit Jahren unbewirtschaftet ist - und sie fürchten, dass wir Steuern verlangen werden. Wieder andere haben darauf hingewiesen, dass sich die Gemeinen vor uns fürchteten, da die Nachtwache zum großen Teil aus Verbrechern bestünde, die als Strafe Dienst auf der Mauer verrichten.\n\nUngeachtet ihrer Gründe muss ich handeln..."
+agot_rebuilding_castle.2001.a:0 "Sie #italic verhalten#! sich wie Wildlinge, also #italic behandlen#! wir sie auch so!"
 agot_rebuilding_castle.2001.b:0 "Ich rede mit ihnen und stelle klar, dass wir keine Gefahr sind."
 agot_rebuilding_castle.2001.c:0 "Vielleicht wird ein Geschenk die Sache richten."
 
@@ -73,8 +74,8 @@ agot_rebuilding_castle.2001.c:0 "Vielleicht wird ein Geschenk die Sache richten.
 ###############################
 
 agot_rebuilding_castle.2002.t:0 "Dunkle Vergangenheit, dunkle Taten"
-agot_rebuilding_castle.2002.desc:0 "Beim Wiederaufbau der Burg will mir einer meiner Männer etwas zeigen - dem Aussehen des Burschen nach nichts Gutes. Er führt mich in einen kleinen Raum, von dem ich zuerst dachte, dass er einmal ein Gefängnis war, doch dann sehe ich die Haufen von Knochen.\n\nEinige Knochen waren noch angekettet, und an anderen konnte man sehen, wo sie gebrochen und neu verheilt sind - manche mehrmals. "Vielleicht waren es Wildlinge, die sie gefangen hielten? ... sind das Schnittspuren?" frage ich mehr zu mir selbst als zu dem Jungen, als ich mir die Markierungen auf einem der Knochen ansehe. "Ich hatte einen Hund... Er liebte Knochen... Sie sahen so aus, wenn er ein wenig darauf herumgekaut hatte... [ROOT.Char.GetLadyLord], Ich glaube, als die Burg verlassen wurde, hat man sie hier zurückgelassen... #italic lebend#" sagte der Junge mit zitternder Stimme"
-agot_rebuilding_castle.2002.a:0 "Ein dunkler Fleck der Nachtwache..."
+agot_rebuilding_castle.2002.desc:0 "Beim Wiederaufbau der Burg will mir einer meiner Männer etwas zeigen - dem Gesichtsausdruck des Burschen nach nichts Gutes. Er führt mich in einen kleinen Raum, von dem ich zuerst dachte, dass er einmal ein Gefängnis war, doch dann sehe ich die Knochenberge.\n\nEinige Gebeine waren noch angekettet, und anderen konnte man ansehen, wo sie gebrochen und neu verheilt sind - manche viele Male. "Vielleicht waren es Wildlinge, die sie gefangen hielten? ... sind das Schnittspuren?" frage ich mehr mich selbst selbst als den Jungen, als ich mir die Male auf einem der Knochen ansehe. "Ich hatte einen Hund... Er liebte Knochen... Sie sahen so aus, wenn er ein wenig darauf herumgekaut hatte... [ROOT.Char.DE_MylordMylady], Ich glaube, als die Burg verlassen wurde, hat man sie hier zurückgelassen... #italic lebend#!" sagte der Junge mit zitternder Stimme"
+agot_rebuilding_castle.2002.a:0 "Ein dunkler Fleck in der Geschichte der Nachtwache..."
 agot_rebuilding_castle.2002.b:0 "Ein Raum wie dieser hat seinen Nutzen..."
 
 ###############################
@@ -92,7 +93,7 @@ agot_rebuilding_castle.2003.a:0 "Dies wird sich als nützlich erweisen!"
 ###############################
 
 agot_rebuilding_castle.2004.t:0 "Wildlingsangriff!"
-agot_rebuilding_castle.2004.desc:0 "#bold Die Hurensöhne haben bis zur Stunde des Wolfes gewartet, um zuzuschlagen!#!\n\nEine Gruppe von Wildlingen hatte unsere Arbeit ausspioniert, als wir die alte Burg wieder aufbauten. Entweder aus reiner Selbstüberschätzung, weil sie glaubten, es mit uns aufnehmen zu können, oder vielleicht aus blosser Verzweiflung, weil die neue Burg eine stärkere Wache bedeutete, griffen sie uns an."
+agot_rebuilding_castle.2004.desc:0 "#bold Die Hurensöhne haben bis zur Stunde des Wolfes gewartet, um zuzuschlagen!#!\n\nEin Trupp Wildlinge hat unser Treiben beim Wiederaufbau der alten Burg erspäht. Entweder aus reiner Selbstüberschätzung oder weil sie glaubten, es mit uns aufnehmen zu können, oder vielleicht auch aus blosser Verzweiflung, weil die neue Burg die Wache stärken würde, griffen sie uns an."
 agot_rebuilding_castle.2004.a:0 "Ich befehle den Männern die Wildlinge zu bekämpfen!"
 agot_rebuilding_castle.2004.b:0 "Ich schließe mich den Kämpfen an!"
 agot_rebuilding_castle.2004.c:0 "Am Besten ziehen wir uns zurück..."
@@ -102,8 +103,8 @@ agot_rebuilding_castle.2004.c:0 "Am Besten ziehen wir uns zurück..."
 #     ZombieSchrodCat         #
 ###############################
 
-agot_rebuilding_castle.2005.t:0 "Eine schnelle Entscheidung"
-agot_rebuilding_castle.2005.desc:0 "Eine derartige Burg wiederaufzubauen ist keine einfache Aufgabe. Jahrelanger Verfall muss repariert und das einst stolze Mauerwerk wiederhergestellt werden.\n\nHeute, als einige meiner Männer Paletten mit Ziegeln in die höheren Bereiche der Burgruine hieven, bemerke ich, dass eines der Seile anfängt zu zerfasern. Ich sehe unten den völlig ahnungslosen [agot_rebuilding_block_head.GetTitledFirstName] - #italic ist noch genug Zeit [agot_rebuilding_block_head.Custom('DE_PRO_PER_S_3P_D')] zu helfen?#!"
+agot_rebuilding_castle.2005.t:0 "Blitzentscheidung"
+agot_rebuilding_castle.2005.desc:0 "Der Wiederaufbau einer Burg wie dieser ist keine einfache Aufgabe. Der jahrelange Verfall muss behoben und das einst stolze Mauerwerk erneuert werden.\n\nHeute, als einige meiner Männer palettenweise Ziegelsteine in die höher gelegenen Teile der Burgruine hieven, sehe ich, wie eines der Seile auszufransen beginnt. Ich sehe unten den völlig ahnungslosen [agot_rebuilding_block_head.GetTitledFirstName] - #italic ist noch genug Zeit, [agot_rebuilding_block_head.Custom('DE_PRO_PER_S_3P_D')] zu helfen?#!"
 agot_rebuilding_castle.2005.a:0 "Hoffentlich verletzt [agot_rebuilding_block_head.GetSheHe] sich nicht..."
 agot_rebuilding_castle.2005.a.tt:0 "Ihr versucht [agot_rebuilding_block_head.Custom('DE_PRO_PER_S_3P_A')] zu warnen."
 agot_rebuilding_castle.2005.b:0 "Ich könnte [agot_rebuilding_block_head.Custom('DE_ART_DEF_S_A')] [agot_rebuilding_block_head.GetWomanMan] erreichen und versuchen [agot_rebuilding_ruin_block_head.Custom('DE_PRO_PER_S_3P_A')] zu schützen!"
@@ -114,12 +115,12 @@ agot_rebuilding_castle.2005.b.tt:0 "Dadurch bringt Ihr Euch zwar in Gefahr, jedo
 #     ZombieSchrodCat         #
 ###############################
 
-agot_rebuilding_castle.2006.t:0 "Alte Gewohnheiten sterbe schwer"
-agot_rebuilding_castle.2006.desc:0 "Das Leben an der Mauer ist von wenig Veränderung geprägt, und so finden die meisten schwarzen Brüder einen Lebensrhythmus und vermeiden #italic größtenteils# Konflikte untereinander.\n\nDennoch können Veränderungen alte, tief verwurzelte Überzeugungen wieder aufleben lassen, die für die Menschen an der Mauer nicht mehr gelten. Zwei meiner Männer - der eine von niederer Geburt, der andere aus einer adligen Familie - sind zum Mittelpunkt einer Auseinandersetzung geworden."
+agot_rebuilding_castle.2006.t:0 "Alte Gewohnheiten sterben schwer"
+agot_rebuilding_castle.2006.desc:0 "Das Leben an der Mauer ist von wenig Veränderung geprägt, und so finden die meisten schwarzen Brüder einen festen Alltag und vermeiden #italic größtenteils#! Konflikte untereinander.\n\nDoch wenn es dann doch zu einem Wandel kommt, können alte, tief verwurzelte Gewohnheiten wieder aufflammen, die auf der Mauer keinen Platz mehr haben. Der Wiederaufbau war genau so ein Anlass. Zwei meiner Männer - der eine ist von niederer Geburt, der andere stammt aus einer adligen Familie - sind zum Mittelpunkt von Streitigkeiten geworden."
 agot_rebuilding_castle.2006.a:0 "Blut hat hier keinen Platz!"
-agot_rebuilding_castle.2006.b:0 "Die Meisten kamen als Kriminelle her..."
-agot_rebuilding_castle.2006.c:0 "Wir sind Brüder! Sie brauchen einfach eine Pause."
-agot_rebuilding_castle.2006.d:0 "Ich werde keine Kämpfe in meinen Reihen dulden!"
+agot_rebuilding_castle.2006.b:0 "Die meisten Gemeinen kamen als Kriminelle her..."
+agot_rebuilding_castle.2006.c:0 "Wir sind Brüder! Sie brauchen nur eine Auszeit."
+agot_rebuilding_castle.2006.d:0 "Ich werde keine Zankereien in meinen Reihen dulden!"
 
 ###############################
 #     Options set in Stone    #
@@ -136,12 +137,12 @@ agot_rebuilding_castle.2007.b:0 "Das Gold sparen wir lieber für etwas anderes."
 #     ZombieSchrodCat         #
 ###############################
 
-agot_rebuilding_castle.2008.t:0 "Der Teufel steckt im Detail"
+agot_rebuilding_castle.2008.t:0 "Die kleinen Dinge"
 agot_rebuilding_castle.2008.desc:0 "Der Wiederaufbau ist gut verlaufen, aber ich ertappe mich immer noch dabei, dass ich bis spät in die Nacht über den Bauplänen brüte. Manchmal nehme ich kleine Änderungen vor oder sehe winzige Möglichkeiten, die bereits umgesetzten Pläne zu verbessern.\n\nEinige meiner Männer haben gesagt, sie machen sich Sorgen, dass ich zu sehr in den Wiederaufbau vertieft bin..."
 agot_rebuilding_castle.2008.a:0 "Das ist sicherlich keine Besessenheit!"
 
 #No one showed up
 agot_rebuilding_castle.0999.t:0 "Die einsame Krähe"
 agot_rebuilding_castle.0999.desc:0 "Die Wiederaufbaubemühungen sind zum Stillstand gekommen. Trotz meiner besten Versuche war ich nicht in der Lage, die Arbeitskräfte zu sammeln, die ich für eine Aufgabe wie diese benötigt hätte.\n\nMich schaudert es, wenn ich an die schwache und vernachlässigte Mauerstelle denke, die ich zu stärken versucht hatte. Hoffentlich schlitzen uns die Wildlinge nicht die Kehlen auf, bevor ein weiterer Versuch des Wiederaufbaus unternommen werden kann..."
-agot_rebuilding_castle.0999.a:0 "Die Nacht bricht an und nun soll meine Wacht beginnen..."
+agot_rebuilding_castle.0999.a:0 "Die Nacht sinkt herab, und meine Wacht beginnt."
 
