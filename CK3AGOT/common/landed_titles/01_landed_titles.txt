@@ -1825,7 +1825,6 @@
 					color = { 111 65 49 }
 					definite_form = yes
 				}
-				definite_form = no
 				b_tornleg = {
 					province = 5597
 					color = { 143 86 62 }
@@ -4837,9 +4836,7 @@ e_dorne = {
 					province = 5335
 					color = { 152 174 36 }
 					definite_form = yes
-					definite_form = no
 				}
-				definite_form = no
 				b_dreardune = {
 					province = 5336
 					color = { 157 180 38 }
@@ -5066,8 +5063,7 @@ e_dorne = {
 				b_the_drift = {
 					province = 5132
 					color = { 225 192 43 }
-					definite_form = yes
-					definite_form = no
+					definite_form = yes	
 				}
 				b_blackgarden = {
 					province = 5133
@@ -14295,7 +14291,6 @@ e_the_north = {
 					color = { 191 200 211 }
 					definite_form = yes
 				}
-				definite_form = no
 				b_welton = {
 					province = 851
 					color = { 191 202 208 }
@@ -16435,8 +16430,7 @@ e_the_north = {
 				b_the_fist = {
 					province = 1235
 					color = { 170 157 147 }
-					definite_form = yes
-					definite_form = no
+					definite_form = yes	
 				}
 				b_breakstone_cave = {
 					province = 1236
@@ -16608,8 +16602,7 @@ e_the_north = {
 				b_the_ribs = {
 					province = 1267
 					color = { 179 166 146 }
-					definite_form = yes
-					definite_form = no
+					definite_form = yes	
 				}
 				b_wrinkle = {
 					province = 1268
@@ -17905,7 +17898,6 @@ e_the_north = {
 					color = { 176 198 163 }
 					definite_form = yes
 				}
-				definite_form = no
 				b_ravena = {
 					province = 1500
 					color = { 170 190 177 }
@@ -24725,12 +24717,10 @@ e_the_riverlands = {
 					color = { 44 74 126 }
 					definite_form 
 				}
-				definite_form = no
 				b_the_teats = {
 					province = 1722
 					color = { 91 106 116 }
-					definite_form = yes
-					definite_form = no
+					definite_form = yes	
 				}
 				b_pennytree = {
 					province = 1723
@@ -24993,9 +24983,7 @@ e_the_riverlands = {
 					province = 1764
 					color = { 110 162 255 }
 					definite_form = yes
-					definite_form = no
 				}
-				definite_form = no
 				b_woodmere = {
 					province = 1765
 					color = { 110 183 255 }
@@ -27970,7 +27958,6 @@ e_the_stormlands = {
 					color = { 225 189 62 }
 					definite_form = yes
 				}
-				definite_form = no
 				b_knifehandle = {
 					province = 4464
 					color = { 245 196 71 }
@@ -33783,13 +33770,11 @@ e_the_wall = {
 	color = { 40 40 40  }
 	definite_form = yes
 	capital = c_castle_black
-	definite_form = no
 	no_automatic_claims = yes
 	k_the_wall = {
 		color = { 40 40 40  }
 		definite_form = yes
 		capital = c_castle_black
-		definite_form = no
 		no_automatic_claims = yes
 		d_the_wall = {
 			color = { 40 40 40  }
@@ -33798,7 +33783,6 @@ e_the_wall = {
 			can_create = {
 				has_title = title:d_the_wall.title_capital_county
 			}
-			definite_form = no
 			no_automatic_claims = yes
 			c_castle_black = {
 				no_automatic_claims = yes
