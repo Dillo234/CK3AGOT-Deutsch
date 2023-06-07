@@ -3,9 +3,9 @@
  #übersetzt von Erllandur, durchgesehen und bearbeitet von Dillo
  #Common Rhllor Localization
  #The following 5 lines are currently not used but might be if the essosi_religion branch is split up
- rhllor_religion:0 "R'hllorismus"
- rhllor_religion_adj:0 "Glaube an R'hllor"
- rhllor_religion_adjerent:0 "Anhänger des Herrn des Lichts"
+ rhllor_religion:0 "Glaube an den Herrn des Lichts"
+ rhllor_religion_adj:0 "Lichtbringend"
+ rhllor_religion_adherent:0 "Anhänger des Herrn des Lichts"
  rhllor_religion_adherent_plural:0 "Anhänger des Herrn des Lichts"
  rhllor_religion_desc:0 "R'hllor, den Gott von Flamme und Schatten, anbetend, dreht sich der Glaube des Herrn des Lichts um ein dualistisches Weltenbild, in dessen Mittelpunkt sich der ewige Kampf zwischen R'hllor und dem Großen Anderen - eine Macht der Dunkelheit, der Kälte und des Todes - befindet."
  
@@ -17,12 +17,12 @@
  rhllor_good_god_flame_and_shadow:0 "Der Gott von Flamme und Schatten"
  rhllor_good_god_fiery_heart:0 "Das Brennende Herz"
  rhllor_good_god_red_god:0 "Der Rote Gott"
- rhllor_good_god_the_stars:0 "Die Sterne, die über uns wachen" #Gebet lautet wie folgt: "Wir danken dir für die Sterne, die über uns wachen."
+ rhllor_good_god_the_stars:0 "Die Sterne, die über uns wachen"
  rhllor_good_god_azor_ahai_1:0 "Azor Ahai"
- rhllor_good_god_azor_ahai_2:0 "Hyrkoon der Held" #alternativer Name von Azor Ahai, mit Wiki abgeglichen
- rhllor_good_god_azor_ahai_3:0 "Yin Tar" #alternativer Name von Azor Ahai, mit Wiki abgeglichen
- rhllor_good_god_azor_ahai_4:0 "Neferion" #alternativer Name von Azor Ahai, mit Wiki abgeglichen
- rhllor_good_god_azor_ahai_5:0 "Eldric Schattenjäger" #alternativer Name von Azor Ahai, mit Wiki abgeglichen
+ rhllor_good_god_azor_ahai_2:0 "Hyrkoon der Held"
+ rhllor_good_god_azor_ahai_3:0 "Yin Tar"
+ rhllor_good_god_azor_ahai_4:0 "Neferion"
+ rhllor_good_god_azor_ahai_5:0 "Eldric Schattenjäger"
  rhllor_good_god_azor_ahai_6:0 "Krieger des Lichts"
  rhllor_good_god_azor_ahai_7:0 "Sohn des Feuers"
  rhllor_good_god_azor_ahai_8:0 "Krieger des Feuers"
@@ -92,21 +92,21 @@
  rhllor_water_god_name_possessive:0 "$rhllor_high_god_name_possessive$"
 
  #Rhllor Faith
- rhllor:0 "Glaube an R'hllor"
- rhllor_adj:0 "R'hllorisch"
- rhllor_adherent:0 "Anhänger des Herrn des Lichts"
- rhllor_adherent_plural:0 "Anhänger des Herrn des Lichts"
+ rhllor:0 "R'hllor"
+ rhllor_adj:0 "Flammenverehrend"
+ rhllor_adherent:0 "Anhänger R'hllors"
+ rhllor_adherent_plural:0 "Anhänger R'hllors"
  rhllor_desc:0 "Jene, die den Lehren der Roten Priester und den alten Legenden von Asshai folgen, verehren Flamme, Schatten und Opfer und versuchen, diejenigen zu läutern, die R'hllors Licht nicht annehmen, bis die Zeit kommt, in der Azor Ahai inmitten von Rauch und Salz wiedergeboren wird, um Drachen aus Stein zu erwecken."
 
- red_god:0 "Roter Gott"
- red_god_adj:0 "Rotgläubig"
+ red_god:0 "Der Rote Gott"
+ red_god_adj:0 "Flammenfürchtig"
  red_god_adherent:0 "Anhänger des Roten Gottes"
  red_god_adherent_plural:0 "Anhänger des Roten Gottes"
  red_god_desc:0 "Jene, die den Lehren der Roten Priester und den alten Legenden von Asshai folgen, verehren Flamme, Schatten und Opfer und versuchen, diejenigen zu läutern, die R'hllors Licht nicht annehmen, bis die Zeit kommt, in der Azor Ahai inmitten von Rauch und Salz wiedergeboren wird, um Drachen aus Stein zu erwecken."
 
 #Currently unused. Might be used later on.
- rhllor_other:0 "Glaube an den Großen Anderen"
- rhllor_other_adj:0 "Anderengläubig" #nicht ideal aber das beste, dass mir einfällt.
+ rhllor_other:0 "Der Große Andere"
+ rhllor_other_adj:0 "Nachtfürchtig"
  rhllor_other_adherent:0 "Anhänger des Großen Anderen"
  rhllor_other_adherent_plural:0 "Anhänger des Großen Anderen"
  rhllor_other_desc:0 "Jene, welche die Lehren der roten Priester und R'hllors Licht ablehnen, folgen stattdessen seinem ewigen Feind - der Große Andere, Gott der Finsternis, der Kälte und des Todes."
@@ -137,7 +137,7 @@
  rhllor_other_evil_god_flame_and_shadow:0 "Der Gott von Flamme und Schatten"
  rhllor_other_evil_god_fiery_heart:0 "Das Feurige Herz"
  rhllor_other_evil_god_red_god:0 "Der Rote Gott"
- rhllor_other_evil_god_red_rahloo:0 "Roter Rahlu" ##kanon
+ rhllor_other_evil_god_red_rahloo:0 "Roter Rahlu"
  rhllor_other_evil_god_the_stars:0 "Die Sterne, die über uns wachen"
  rhllor_other_evil_god_azor_ahai_1:0 "Azor Ahai"
  rhllor_other_evil_god_azor_ahai_2:0 "Hyrkoon der Held"
