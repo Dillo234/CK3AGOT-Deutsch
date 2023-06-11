@@ -1,13 +1,14 @@
-﻿l_german:
-  agot_dragonstone.0002.t:0 "The [heir.Custom('GetPrincessPrince')] of Dragonstone"
-  agot_dragonstone.0002.desc:0 "Since the time of Aenys I, Dragonstone has been the seat of the heir of the Iron Throne. Now that [heir.GetFirstName] is of an age to manage Dragonstone on [heir.GetHerHis] own, it is time for me to either grant [heir.GetHerHim] the title of [heir.Custom('GetPrincessPrince')] of Dragonstone in recognition of [heir.GetHerHis] position in the realm, or to hold on to the title myself for future uses."
-  agot_dragonstone.0002.a:0 "The tradition must be upheld; I shall grant [heir.GetFirstNameNoTooltip] Dragonstone."
-  agot_dragonstone.0002.b:0 "The tradition has passed its time; I shall keep Dragonstone for myself."
-  agot_dragonstone.0003.t:0 "The [heir.Custom('GetPrincessPrince')] of Dragonstone"
-  agot_dragonstone.0003.desc:0 "Now that I sit upon the Iron Throne it is time my heir, [heir.GetFirstNameNoTooltip], take [heir.GetHerHim] place as [heir.Custom('GetPrincessPrince')] of Dragonstone, or I can keep the traditional seat of the Conqueror for myself as a royal refuge."
-  agot_dragonstone.0003.a:0 "The tradition must be upheld; I shall grant [heir.GetFirstNameNoTooltip] Dragonstone."
-  agot_dragonstone.0003.b:0 "The tradition has passed its time; I shall keep Dragonstone for myself."
-  agot_dragonstone.0007.t:0 "The [heir.Custom('GetPrincessPrince')] of Dragonstone"
-  agot_dragonstone.0007.desc:0 "With the death of [deceased_heir.GetFirstNameNoTooltip], [heir.GetFirstNameNoTooltip] is now rightfully the [heir.Custom('GetPrincessPrince')] of Dragonstone. I'm not sure I'm ready to name another heir so soon after the death of my [ROOT.Char.Custom2('RelationToMeShort', deceased_heir)]. Maybe I should just keep [heir.GetFirstNameNoTooltip] close for now..."
-  agot_dragonstone.0007.a:0 "The tradition must be upheld; I shall grant [heir.GetFirstNameNoTooltip] Dragonstone."
-  agot_dragonstone.0007.b:0 "I am not ready to grant [heir.GetFirstNameNoTooltip] Dragonstone yet."0
+﻿l_german: #Übersetzt von Dillo
+
+  agot_dragonstone.0002.t:0 "[heir.Custom('DE_ART_DEF_S_N')|U] [heir.Custom('GetPrincessPrince')] von Drachenstein"
+  agot_dragonstone.0002.desc:0 "Seit der Zeit von Aenys I. ist Drachenstein der Sitz des Erben des Eisernen Throns. Nun, da [heir.GetFirstName] das Alter erreicht hat, um Drachenstein alleine zu regieren, ist es für mich an der Zeit, zu entscheiden, ob ich [heir.Custom('DE_PRO_PER_S_3P_D')] in Würdigung [heir.Custom('DE_PRO_PER_S_3P_G')] Stellung im Reiches den Titel [heir.Custom('DE_ART_DEF_S_G')] [heir.Custom('GetPrincessPrince')] von Drachenstein verleihe, oder ob ich den Titel selbst für künftige Zwecke behalte."
+  agot_dragonstone.0002.a:0 "Die Tradition muss gewahrt bleiben. Ich werde [heir.GetFirstNameNoTooltip] Drachenstein verleihen."
+  agot_dragonstone.0002.b:0 "Der Brauch ist veraltet; ich werde Drachenstein für mich behalten."
+  agot_dragonstone.0003.t:0 "[heir.Custom('DE_ART_DEF_S_N')|U] [heir.Custom('GetPrincessPrince')] von Drachenstein"
+  agot_dragonstone.0003.desc:0 "Nun, da ich auf dem Eisernen Thron sitze, ist es an der Zeit, dass mein Erbe, [heir.GetFirstNameNoTooltip], [heir.Custom('DE_PRO_POS_S_3P')]en Platz als [heir.Custom('GetPrincessPrince')] von Drachenstein einnimmt, alternativ kann ich den angestammten Sitz des Eroberers als königliches Refugium für mich behalten."
+  agot_dragonstone.0003.a:0 "Die Tradition muss gewahrt bleiben. Ich werde [heir.GetFirstNameNoTooltip] Drachenstein verleihen."
+  agot_dragonstone.0003.b:0 "Der Brauch ist veraltet; ich werde Drachenstein für mich behalten."
+  agot_dragonstone.0007.t:0 "[heir.Custom('DE_ART_DEF_S_N')|U] [heir.Custom('GetPrincessPrince')] von Drachenstein"
+  agot_dragonstone.0007.desc:0 "Mit dem Tod von [deceased_heir.GetFirstNameNoTooltip] ist [heir.GetFirstNameNoTooltip] nun [heir.Custom('DE_ART_DEF_S_N')] rechtmäßige [heir.Custom('GetPrincessPrince')] von Drachenstein. Ich bin mir nicht sicher, ob ich bereit bin, so kurz nach dem Tod von mein[deceased_heir.Custom('DE_END_PRO_S_D')] [ROOT.Char.Custom2('RelationToMeShort', deceased_heir)] einen neuen Erben zu ernennen. Vielleicht sollte ich [heir.GetFirstNameNoTooltip] erst einmal an der kurzen Leine halten..."
+  agot_dragonstone.0007.a:0 "Die Tradition muss gewahrt bleiben. Ich werde [heir.GetFirstNameNoTooltip] Drachenstein verleihen."
+  agot_dragonstone.0007.b:0 "Ich bin noch nicht bereit, [heir.GetFirstNameNoTooltip] Drachenstein zu gewähren."0
