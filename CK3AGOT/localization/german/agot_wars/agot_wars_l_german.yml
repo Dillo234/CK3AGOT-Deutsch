@@ -1,27 +1,27 @@
 ﻿l_german:
 # AGOT REBELLION
- agot_independence_war:0 "Independence War"
- agot_independence_war_name:0 "Independence War"
+ agot_independence_war:0 "Unabhängigkeitskrieg"
+ agot_independence_war_name:0 "Unabhängigkeitskrieg"
 
  agot_rebellion_war:0 "Rebellion"
- agot_rebellion_war_name:0 "Rebellion against [DEFENDER.GetShortUINameNotMe]"
- agot_rebellion_war_victory_desc:0 "With the success of [attacker.GetHerHis] rebellion, [attacker.GetTitledFirstName] will decide who will rule the [defender.GetPrimaryTitle.GetName]."
- AGOT_Realm_will_rebuild:0 "\nWith the end of the war, the old order will be restored, but will it continue to hold?" # AGOT TODO why cant I rename this one?
- agot_rebellion_war_white_peace_desc_defender:0 "White peace defender - Invalid boss. Tell Gaytriarch if you see this."
- agot_rebellion_war_white_peace_desc:0 "White peace attacker - Invalid boss. Tell Gaytriarch if you see this."
- agot_rebellion_war_defeat_desc_defender:0 "[attacker.GetNamePossessive] rebellion for the [defender.GetPrimaryTitle.GetName] has failed. [defender.GetName] will decide the fate of the rebels."
- agot_rebellion_war_defeat_desc:0 "[attacker.GetNamePossessive] rebellion for the [defender.GetPrimaryTitle.GetName] has failed. [defender.GetName] will decide the fate of the rebels."
+ agot_rebellion_war_name:0 "Rebellion gegen [DEFENDER.GetShortUINameNotMe]"
+ agot_rebellion_war_victory_desc:0 "[attacker.GetTitledFirstName] wird darüber entscheiden, wer den Thron von [defender.GetPrimaryTitle.GetName] besteigt."
+ AGOT_Realm_will_rebuild:0 "\nMit dem Ende des Krieges wird die alte Ordnung wieder hergestellt. Jedoch stellt sich die Frage: Wird sie halten?" # AGOT TODO why cant I rename this one?
+ agot_rebellion_war_white_peace_desc_defender:0 "Weißer Friede Verteidiger - Ungültig, mein Lieber. Sag Gaytriarch auf dem AGOT-Discord Bescheid, wenn du das siehst."
+ agot_rebellion_war_white_peace_desc:0 "Weißer Freider Aggressor - Ungültig, mein Lieber. Sag Gaytriarch auf dem AGOT-Discord Bescheid, wenn du das siehst."
+ agot_rebellion_war_defeat_desc_defender:0 "[attacker.GetNamePossessive] Rebellion gegen [defender.GetName] endete in einer Niederlage. [defender.GetName] wird über das Schicksal der Rebellen richten."
+ agot_rebellion_war_defeat_desc:0 "[attacker.GetNamePossessive] Rebellion gegen [defender.GetName] endete in einer Niederlage. [defender.GetTitledFirstNameNoTooltip] wird über das Schicksal der Rebellen richten."
 
 # AGOT REVOLT
- agot_revolt_war:0 "Revolt"
+ agot_revolt_war:0 "Revolt" ###
  agot_revolt_war_name:0 "Revolt against [DEFENDER.GetShortUINameNotMe]"
  agot_revolt_war_victory_desc:0 "[attacker.GetName] and the rebels successfully avert punishment and undermine [defender.GetNamePossessive] authority."
  agot_revolt_war_white_peace_desc:0 "This is a revolt war, but they dont white peace. If you see this, tell Gaytriarch."
  agot_revolt_war_defeat_desc_defender:0 "[attacker.GetNamePossessive] revolt has failed, and the punishment they have attempted to avert will now come to pass."
  agot_revolt_war_defeat_desc:0 "[attacker.GetNamePossessive] revolt fails, resulting in the rebels' original sentence coming to pass."
 
- agot_independence_faction_war:0 "Independence War"
- agot_liberty_faction_war:0 "Liberty War"
+ agot_independence_faction_war:0 "Unabhängigkeitskrieg"
+ agot_liberty_faction_war:0 "Befreiungskrieg"
 
 
  wildling_raid_wars_victory_desc:0 "The wildlings have overpowered the Watch and will take all they can carry!"
