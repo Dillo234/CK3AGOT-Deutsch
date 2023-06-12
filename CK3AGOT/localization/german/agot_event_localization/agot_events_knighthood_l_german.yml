@@ -5,47 +5,47 @@
  #########################
 
  # Hedge knight wants to squire your heir
- agot_knighthood.0016.t:0 "The Hedge Knight"
- agot_knighthood.0016.desc:0 "A hedge knight has been sleeping in my halls for the past few nights. It seems my son, [potential_child_squire.GetName], has taken a liking to him. Likewise, the hedge knight has become fond of my son as well. My son became enamored with the hedge knight after hearing him recount his thrilling tales of knighthood and chivalry.\n\nOn [hedge_knight.GetHerHis] last day in my court, the hedge knight offers to stay in my court and let my son be his squire.\n\nThe man seems honorable enough, and it would make my son very, very happy. I have to think about this."
- agot_knighthood.0016.a:0 "Yes, you must stay and take him as a squire!"
- agot_knighthood.0016.a.tt:0 "[hedge_knight.GetName] will join your court and take your son as [hedge_knight.GetHerHis] [squire|e]."
- agot_knighthood.0016.b:0 "No, I don't think you're the right knight."
- agot_knighthood.0016.b.tt:0 "[hedge_knight.GetName] will leave your court."
+ agot_knighthood.0016.t:0 "Der Heckenritter: Was es heißt ein Ritter zu sein"
+ agot_knighthood.0016.desc:0 "Ein Heckenrichter verbrachte die letzten paar Nächte an meinem Hof. Offenbar hat mein Sohn [potential_child_squire.GetName] in ihm sein neues Vorbild gefunden. Ser [hedge_knight.GetName] erzählte viel von seinen Reisen und was es heißt ein Ritter zu sein. Diese Geschichten ließen bei meinem Sohn einen bleibenden Eindruck.\n\nScheinbar sieht Ser [hedge_knight.GetName] in meinem Sohn seinen Nachfolger, da er an seinem Abreisetag mir anbietet, am Hof zu bleiben um ihn als Knappen zu unterweisen.\n\nEr könnte der richtige Ausbilder für [potential_child_squire.GetName] sein. Ausserdem würde es meinen Sohn äußerst glücklich machen. Ich muss mich entscheiden."
+ agot_knighthood.0016.a:0 "Es wäre uns eine Ehre!"
+ agot_knighthood.0016.a.tt:0 "Ser [hedge_knight.GetName] wird sich Eurem Hof anschließen und Euren Sohn zu seinem [Concept('squire', 'Knappen')|E] machen."
+ agot_knighthood.0016.b:0 "Geschichten erzählen kann auch unser Maester."
+ agot_knighthood.0016.b.tt:0 "Ser [hedge_knight.GetName] wird Euren Hof verlassen."
 
  # Hedge knight wants to knight your non-heir son
- agot_knighthood.0700.t:0 "The Hedgeknight and the Spare"
- agot_knighthood.0700.desc:0 "A hedge knight by the name of [hedge_knight.GetName], has recently visited my court. A [hedge_knight.GetCulture.GetName] by birth, he has travelled across the realm to seek the service of a lord. I know little of this man, save for the fact that he allegedly comes from minor Westerland noble stock, and is, of course, a knight.\n\nI have not paid any attention to him, and as such, I expected him to be moving on soon. However, he came to me, in confidence, and offered to knight my son, [potential_child_knight.GetName], in exchange for being allowed to stay for as long as he pleases!"
- agot_knighthood.0700.a:0 "I suppose such an arrangement can be made."
- agot_knighthood.0700.b:0 "No, I will not agree to it."
+ agot_knighthood.0700.t:0 "Der Heckenritter: Eine Hand wischt die Andere"
+ agot_knighthood.0700.desc:0 "Ein Heckenritter namens [hedge_knight.GetName] ist seit kurzem an meinem Hof.[hedge_knight.GetCulture.GetName] von Geburt, reiste er viel umher, bis er bei mir eintraf. Ich weiß nichts über ihn, außer dass er angeblich aus dem niederen Adel kommt und ein Ritter ist.\n\nIch habe ihm keinerlei Aufmerksamkeit geschenkt, weshalb ich davon ausging, er würde den Hof demnächst verlassen. Anders als gedacht, kam er auf mich zu und bot mir an, meinen Sohn [potential_child_knight.GetName] zum Ritter zu schlagen! Als Gegenleistung will er jedoch solange an meinem Hof bleiben, wie es ihm gefiel."
+ agot_knighthood.0700.a:0 "Fühlt Euch wie zu Hause."
+ agot_knighthood.0700.b:0 "Verschwindet, Ihr Schmarotzer."
 
  # Hedge knight wants to knight you
- agot_knighthood.0701.t:0 "The Hedgeknight and the Lord"
- agot_knighthood.0701.desc:0 "A hedge knight by the name of [hedge_knight.GetName], has recently visited my court. A [hedge_knight.GetCulture.GetName] by birth, he is travelling across the realm for reasons unknown.\n\nWhile I have not paid an attenton to him, it seems he has paid attention to me. A crudely written note offering me knighthood, signed by none other than [hedge_knight.GetFirstNamePossessive], was delivered to one of my servants early this morning. For the right price, the note claims, I can be made a knight."
- agot_knighthood.0701.a:0 "I will accept this deal."
- agot_knighthood.0701.b:0 "No, I will not agree to it."
+ agot_knighthood.0701.t:0 "Der Heckenritter: Der erkaufte Ritterschlag"
+ agot_knighthood.0701.desc:0 "Ein Heckenritter namens [hedge_knight.GetName] ist seit kurzem an meinem Hof. [hedge_knight.GetCulture.GetName] von Geburt, reiste er viel umher, bis er bei mir eintraf.\n\nIch habe ihm keinerlei Aufmerksamkeit geschenkt, wie es scheint er jedoch#italic mir#!. Meine Diener überreichten mir eine an mich adressierte, krakelige Notiz.\n\n#italic "Ich werde Euch zum Ritter schlagen, wenn der Preis stimmt.\n\nGezeichnet, [hedge_knight.GetName]"#!"
+ agot_knighthood.0701.a:0 "Das ist es mir wert."
+ agot_knighthood.0701.b:0 "Ich bin schon Lord was will ich mehr."
 
  #####################
  # Dynasty Knighting #
  #####################
 
  #0017-19
- agot_knighthood.0017.t:0 "Dynastic Knighting"
- agot_knighthood.0017.desc:0 "My relative, [potential_squire.GetName], is not yet a squire. Perhaps by offering to make [potential_squire.GetHerHim] my squire, I could forge a better relationship between us?"
- agot_knighthood.0017.a:0 "Yes, offer [potential_squire.GetHerHim] squirehood."
- agot_knighthood.0017.a.tt:0 "You ask [potential_squire.GetName] to become your [squire|e]"
- agot_knighthood.0017.b:0 "No, it's a waste of time."
- agot_knighthood.0017.b.tt:0 "You do not ask [potential_squire.GetName] to become your squire."
+ agot_knighthood.0017.t:0 "Der verwandte Knapper"
+ agot_knighthood.0017.desc:0 "Mein Verwandter [potential_squire.GetName] ist noch kein Knappe. Vielleicht kann ich unsere Beziehung zueinander verbessern, indem ich ihm anbiete, mein Knappe zu werden?"
+ agot_knighthood.0017.a:0 "Das ist ein guter Einfall!"
+ agot_knighthood.0017.a.tt:0 "Ihr bietet [potential_squire.GetName] das [Concept('squire', 'Knappentum')|E] an."
+ agot_knighthood.0017.b:0 "Das ist reine Zeitverschwendung."
+ agot_knighthood.0017.b.tt:0 "Ihr bietet [potential_squire.GetName] nicht das [Concept('squire', 'Knappentum')|E] an."
 
- agot_knighthood.0018.opening:0 "To [potential_knight_for_child.GetName],"
- agot_knighthood.0018.desc:0 "I have taken notice that you are not yet a squire! Should you wish to rectify that, it is pertinent that you find yourself a willing knight soon...\n\nFortunately, fate has binded us through blood! If you so desire, I would make you my squire, and one day, should you earn it, I will grant you knighthood."
- agot_knighthood.0018.a:0 "Wow, I accept!"
- agot_knighthood.0018.b:0 "Sorry, but no."
- agot_knighthood.0018.b_toast:0 "[potential_squire.GetName] Responds"
- agot_knighthood.0018.b_toast_tt:0 "[potential_squire.GetName] has rejected your offer."
+ agot_knighthood.0018.opening:0 "An [potential_knight_for_child.GetName],"
+ agot_knighthood.0018.desc:0 "Mir ist aufgefallen, dass ihr noch kein Knappe seid. Falls ihr wünscht dies zu ändern, bräuchtet ihr erst einen Ritter...\n\nWie es der Zufall so will, fließt in unseren Adern das selbe Blut! Ich würde Euch gerne zu meinem Knappen machen und Euch eines Tages zum Ritter schlagen, sofern Ihr es Euch verdienen konntet!"
+ agot_knighthood.0018.a:0 "Unbedingt, Ich nehme an!"
+ agot_knighthood.0018.b:0 "Tut mir leid, ich muss passen."
+ agot_knighthood.0018.b_toast:0 "[potential_squire.GetName] hat geantwortet"
+ agot_knighthood.0018.b_toast_tt:0 "[potential_squire.GetName] hat Euer Angebot abgelehnt."
 
- agot_knighthood.0019.opening:0 "To [knight_offerer.GetName],"
- agot_knighthood.0019.desc:0 "I accept your proposal to become your squire. The same blood flows in our veins, so we should look to strengthen these bonds!"
- agot_knighthood.0019.a:0 "Fantastic!"
+ agot_knighthood.0019.opening:0 "An [knight_offerer.GetName],"
+ agot_knighthood.0019.desc:0 "Gerne nehme ich Euer Angebot an! Da wir beide vom selben Blut sind, sollten wir diese Bande stärken!"
+ agot_knighthood.0019.a:0 "Fantastisch!"
 
  ##############################
  # Squire Notification Events #
