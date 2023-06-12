@@ -7,18 +7,18 @@
  agot_rebellion_war_name:0 "Rebellion gegen [DEFENDER.GetShortUINameNotMe]"
  agot_rebellion_war_victory_desc:0 "[attacker.GetTitledFirstName] wird darüber entscheiden, wer den Thron von [defender.GetPrimaryTitle.GetName] besteigt."
  AGOT_Realm_will_rebuild:0 "\nMit dem Ende des Krieges wird die alte Ordnung wieder hergestellt. Jedoch stellt sich die Frage: Wird sie halten?" # AGOT TODO why cant I rename this one?
- agot_rebellion_war_white_peace_desc_defender:0 "Weißer Friede sollte hier nicht möglich sein. Sag Gaytriarch auf dem AGOT-Discord Bescheid, wenn du das siehst."
- agot_rebellion_war_white_peace_desc:0 "Weißer Friede sollte hier nicht möglich sein. Sag Gaytriarch auf dem AGOT-Discord Bescheid, wenn du das siehst."
- agot_rebellion_war_defeat_desc_defender:0 "Ihr werdet über das Schicksal der Rebellen richten."
- agot_rebellion_war_defeat_desc:0 "[defender.GetName] wird über das Schicksal der Rebellen richten."
+ agot_rebellion_war_white_peace_desc_defender:0 "Weißer Friede sollte hier nicht möglich sein. Sagt Gaytriarch auf dem AGOT-Discord Bescheid, wenn Ihr das seht."
+ agot_rebellion_war_white_peace_desc:0 "Weißer Friede sollte hier nicht möglich sein. Sagt Gaytriarch auf dem AGOT-Discord Bescheid, wenn Ihr das seht."
+ agot_rebellion_war_defeat_desc_defender:0 "Ihr werdet über die Rebellen richten."
+ agot_rebellion_war_defeat_desc:0 "[defender.GetName] wird über die Rebellen richten."
 
 # AGOT REVOLT
  agot_revolt_war:0 "Revolte"
  agot_revolt_war_name:0 "Revolte gegen [DEFENDER.GetShortUINameNotMe]"
  agot_revolt_war_victory_desc:0 "[attacker.GetName] und seine Rebellen entgehen erfolgreich ihrer Bestrafung und untergraben dabei [defender.GetNamePossessive] Autorität."
- agot_revolt_war_white_peace_desc:0 "Weißer Friede sollte hier nicht möglich sein. Sag Gaytriarch auf dem AGOT-Discord Bescheid, wenn du das siehst."
- agot_revolt_war_defeat_desc_defender:0 "[attacker.GetName] und seine Rebellen bekommen die Strafe, die sie versuchten zu entgehen."
- agot_revolt_war_defeat_desc:0 "[attacker.GetName] und seine Rebellen bekommen die Strafe, die sie versuchten zu entgehen."
+ agot_revolt_war_white_peace_desc:0 "Weißer Friede sollte hier nicht möglich sein. Sagt Gaytriarch auf dem AGOT-Discord Bescheid, wenn Ihr das seht."
+ agot_revolt_war_defeat_desc_defender:0 "[attacker.GetName] und seine Rebellen erhalten die Strafe, der sie zu entgehen versuchten."
+ agot_revolt_war_defeat_desc:0 "[attacker.GetName] und seine Rebellen erhalten die Strafe, der sie zu entgehen versuchten."
 
  agot_independence_faction_war:0 "Unabhängigkeitskrieg"
  agot_liberty_faction_war:0 "Befreiungskrieg"
@@ -32,7 +32,7 @@
  wildling_raid_wars_invalidated_desc:0 "Platzhalter Annuliert"
 
  WILDLING_RAID_WAR_NAME:0 "Wildlingsüberfall"
- WILDLING_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ WILDLING_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"  #Zu testen
  wildling_raid_cb:0 "Wildlingsüberfall"
  WILDLINGS:0 "Wildlings"
 
@@ -44,8 +44,8 @@
  de_reclaim_wall_defeat_desc:0 "Die Wildlinge behalten den umkämpften [title|E]."
 
  #AGOT ADDED
- reclaim_captives_war_victory_desc:0 "[attacker.GetShortUIName|U] befreit alle Gefangenen [defender.GetShortUINamePossessive|U] und [defender.Custom('DE_PRO_PER_S_3P_G')] [vassals|e]."
- reclaim_captives_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] befreit alle Gefangenen die Ihr und Eure [vassals|e] festhaltet."
+ reclaim_captives_war_victory_desc:0 "[attacker.GetShortUIName|U] befreit alle Gefangenen von [defender.GetShortUIName|U] und [defender.Custom('DE_PRO_PER_S_3P_D')] [vassals|e]."
+ reclaim_captives_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] befreit alle Gefangenen von Euch und Euren [vassals|e]."
  reclaim_captives_war_white_peace_desc:0 "Es werden keine Gefangenen befreit."
  reclaim_captives_war_defeat_desc:0 "Es werden keine Gefangenen befreit."
  reclaim_captives_war_invalidated_desc:0 "$RECLAIM_CAPTIVES_WAR_NAME$ annuliert!"
@@ -59,17 +59,17 @@
  agot_6th_blackfyre_rebellion_invalidated: "Die Sechste Schwarzfeuer-Rebellion wurde aufgrund des Todes von [attacker.GetFullNameRegnal|U] annuliert!"
  agot_6th_blackfyre_rebellion_defeat_desc_defender: "[attacker.GetFullNameRegnal|U] wird eingekerkert."
  agot_6th_blackfyre_rebellion_defeat_defeat_desc: "[defender.GetFullNameRegnal|U] wird eingekerkert."
- agot_rebellion_war_white_peace_desc: "Weißer Friede sollte hier nicht möglich sein. Sag Gaytriarch auf dem AGOT-Discord Bescheid, wenn du das siehst."
+ agot_rebellion_war_white_peace_desc: "Weißer Friede sollte hier nicht möglich sein. Sagt Gaytriarch auf dem AGOT-Discord Bescheid, wenn Ihr das seht."
  agot_6th_blackfyre_rebellion_victory_desc_attacker: "[defender.GetFullNameRegnal|U] wird [deposed|E] und Ihr erhaltet den umkämpften [title|E]."
  agot_6th_blackfyre_rebellion_victory_desc: "[attacker.GetFullNameRegnal|U] wird eingekerkert."
- agot_6th_blackfyre_realm_rebuild_loc: "Nach vielen gescheiterten Versuchen den Eisernen Thron zu erkämpfen, herrscht Haus Schwarzfeuer über die Königslande."
+ agot_6th_blackfyre_realm_rebuild_loc: "Nach vielen gescheiterten Versuchen, den Eisernen Thron zu erkämpfen, herrscht Haus Schwarzfeuer über die Königslande."
 
- agot_faegon_landing_war_name: "[ATTACKER.GetFullNameRegnalPossessive] Invasion" 
- agot_faegon_landing_war_invalidated: "[attacker.GetFullNameRegnalPossessive|U] Invasion wurde aufgrund des Todes von [attacker.GetFullNameRegnal|U] annuliert!"
- agot_faegon_landing_war_white_peace_desc: "Weißer Friede sollte hier nicht möglich sein. Sag Typical auf dem AGOT-Discord Bescheid, wenn du das siehst."
+ agot_faegon_landing_war_name: "[ATTACKER.GetFullNamePossessiveRegnal] Invasion" 
+ agot_faegon_landing_war_invalidated: "[attacker.GetFullNamePossessiveRegnal|U] Invasion wurde aufgrund des Todes von [attacker.GetFullNameRegnal|U] annuliert!"
+ agot_faegon_landing_war_white_peace_desc: "Weißer Friede sollte hier nicht möglich sein. Sagt Typical auf dem AGOT-Discord Bescheid, wenn Ihr das seht."
  agot_faegon_landing_defeat_desc_defender: "Ihr behaltet den umkämpften [title|E]."
  agot_faegon_landing_defeat_defeat_desc: "[attacker.GetFullNameRegnal|U] wird eingekerkert."
  agot_faegon_landing_war_victory_desc_attacker: "[defender.GetFullNameRegnal|U] wird [deposed|E] und Ihr erhaltet den umkämpften [title|E]."
  agot_faegon_landing_war_victory_desc: "[defender.GetFullNameRegnal|U] wird eingekerkert."
- agot_faegon_realm_rebuild_loc: "Nach vielen Jahren im Exil, sitzt Haus Tagaryen wieder auf dem Eisernen Thron und herrscht über die Königslande."
+ agot_faegon_realm_rebuild_loc: "Nach vielen Jahren im Exil sitzt Haus Tagaryen wieder auf dem Eisernen Thron und herrscht über die Königslande."
  #ü.v.Lys
