@@ -847,6 +847,19 @@ window = {
 									default_format = "#medium"
 									tooltip = "[Character.GetUINameNotMeNoTooltip]"
 								}
+								text_single = { #AGOT Changed - Box for Septons so they still get flavourization etc. 
+									name = "character_name_septon"
+									visible = "[GetScriptedGui('agot_septon').IsShown(GuiScope.SetRoot(Character.MakeScope).End)]"
+									#visible = "[Not( Character.HasLandedTitles )]"
+									raw_text = "[Character.Custom('DE_SeptonSepta')] [Character.GetTitledFirstNameNicknamedNoTooltip]" # [Character.GetDynasty.GetNameNoTooltip], 
+									margin_left = 2
+									max_width = 400
+									fontsize = 20
+									fontsize_min = 14
+									align = nobaseline
+									default_format = "#high"
+									tooltip = "[Character.GetUINameNotMeNoTooltip]"
+								}
 
 								text_single = {
 									name = "character_name_high_septon"
