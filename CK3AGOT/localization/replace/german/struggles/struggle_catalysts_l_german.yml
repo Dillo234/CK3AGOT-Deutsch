@@ -33,7 +33,7 @@
  catalyst_formed_interreligious_alliance_with_important_character:0 "[struggle_catalyst_catalyst|E] „Interreligiöses [alliance|E] gegründet“"
  catalyst_formed_interreligious_alliance_with_important_character_desc:5 "Ein Bündnis mit einem [Concept('struggle_involved', 'beteiligten')|E] [ruler|E] eines anderen [Concept('faith', 'Glaubens')|E] eingehen"
  catalyst_hybridise_or_diverge_regional_cultures:0 "[struggle_catalyst_catalyst|E] „[struggle|E]-[cultures|E] [Concept('diverge', 'abgezweigt')|E] oder [hybridized|E]“"
- catalyst_hybridise_or_diverge_regional_cultures_desc:1 "Zwei am [Concept('struggle_involved', 'Ringen beteiligte')|E] [cultures|E] [hybridize|E] oder eine [diverge|E]"
+ catalyst_hybridise_or_diverge_regional_cultures_desc:1 "Zwei am [Concept('struggle_involved', 'Konflikt beteiligte')|E] [cultures|E] [hybridize|E] oder eine [diverge|E]"
  catalyst_revoked_powerful_diff_faith_vassal_religious_protection:0 "[struggle_catalyst_catalyst|E] „Integrative [contract|E] widerrufen“"
  catalyst_revoked_powerful_diff_faith_vassal_religious_protection_desc:2 "Einem [Concept('powerful_vassal', 'Mächtigen Vasallen')|E] die [contract|E] „[GetVassalContractType('religious_rights').GetObligationName('religious_rights_protected')]“ entziehen"
  catalyst_broke_truce_against_important_character:0 "[struggle_catalyst_catalyst|E] „[truce|E] gebrochen“"
@@ -41,10 +41,10 @@
  catalyst_discovery_of_very_important_murder:1 "[struggle_catalyst_catalyst|E] „Sektierer-[GetScheme('murder').GetTypeName]“"
  catalyst_discovery_of_very_important_murder_desc:4 "Offenbaren, dass ein [Concept('struggle_involved', 'beteiligter')|E] König beziehungsweise höchster Lord oder ein ebensolches [head_of_faith|E] oder [culture_head|E] ermordet wurde"
  catalyst_fabricating_duchy_level_claims:0 "[struggle_catalyst_catalyst|E] „[claims|E] auf [duchy|E] fingiert“"
- catalyst_fabricating_duchy_level_claims_desc:3 "[fabricate_claim|E] auf einen [title|E] vom [Concept('title_tier', 'Rang einer hohen Lordschaft')|E] in der Ringen-Region"
+ catalyst_fabricating_duchy_level_claims_desc:3 "[fabricate_claim|E] auf einen [title|E] vom [Concept('title_tier', 'Rang einer hohen Lordschaft')|E] in der Konflikt-Region"
  
  catalyst_forming_alliance_with_major_uninvolved_power:0 "[struggle_catalyst_catalyst|E] „[allied|E] mit fremder Macht“"
- catalyst_forming_alliance_with_major_uninvolved_power_desc:2 "Ein [alliance|E] mit einem am [Concept('struggle_uninvolved', 'Ringen unbeteiligten')|E] [realm|E] eingehen, das mindestens [EmptyScope.ScriptValue('catalyst_forming_alliance_with_major_uninvolved_power_power_realm_size_value')|0] [realm_size|E] hat"
+ catalyst_forming_alliance_with_major_uninvolved_power_desc:2 "Ein [alliance|E] mit einem am [Concept('struggle_uninvolved', 'Konflikt unbeteiligten')|E] [realm|E] eingehen, das mindestens [EmptyScope.ScriptValue('catalyst_forming_alliance_with_major_uninvolved_power_power_realm_size_value')|0] [realm_size|E] hat"
  catalyst_accepted_independence_faction_demands:0 "[struggle_catalyst_catalyst|E] „$catalyst_accepted_demand_from_faction_requesting_culture_faith_conversion$“"
  catalyst_accepted_independence_faction_demands_desc:2 "Die Forderungen einer [peasant_faction|E] oder [popular_faction|E] annehmen"
  catalyst_conducted_border_raid:0 "[struggle_catalyst_catalyst|E] „Grenzüberfälle durchgeführt“"
@@ -65,9 +65,9 @@
  catalyst_imprison_important_desc:1 "Einen [duke|E] oder höherrangigen [character|E] einkerkern, einschließlich eines [Concept('head_of_faith', 'Glaubensoberhaupts')|E] oder [Concept('cultural_head', 'Kulturoberhaupts')|E]"
  
  catalyst_successfully_expelled_interloper:0 "[struggle_catalyst_catalyst|E] "[btw_reclamation|E] gewinnen""  #Selbst geschrieben/abgetippt
- catalyst_successfully_expelled_interloper_desc:0 "Eine [btw_reclamation|E] gegen einen am [Concept('struggle_uninvolved', 'Ringen unbeteiligten')|E] $game_concept_character$ gewinnen"  #Selbst geschrieben/abgetippt
+ catalyst_successfully_expelled_interloper_desc:0 "Eine [btw_reclamation|E] gegen einen am [Concept('struggle_uninvolved', 'Konflikt unbeteiligten')|E] $game_concept_character$ gewinnen"  #Selbst geschrieben/abgetippt
  catalyst_truce_was_enforced:0 "[struggle_catalyst_catalyst|E] „[enforced_truce|E]“"
- catalyst_truce_was_enforced_desc:0 "[enforced_truce|E] zwischen am [Concept('struggle_involved', 'Ringen beteiligten')|E] [Concept('ruler', 'Herrschern')|E]"
+ catalyst_truce_was_enforced_desc:0 "[enforced_truce|E] zwischen am [Concept('struggle_involved', 'Konflikt beteiligten')|E] [Concept('ruler', 'Herrschern')|E]"
  catalyst_execute_important:0 "[struggle_catalyst_catalyst|E] „Hohen Lord oder höherrangigen Herrscher hingerichtet“"
  catalyst_execute_important_desc:1 "Einen [duke|E] oder höherrangigen [character|E] hinrichten, einschließlich eines [Concept('head_of_faith', 'Glaubensoberhaupts')|E] oder [Concept('cultural_head', 'Kulturoberhaupts')|E]"
  catalyst_new_building_in_castle:1 "[struggle_catalyst_catalyst|E] „In einer Burg bauen“"
