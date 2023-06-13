@@ -73,9 +73,9 @@
  agot_knighthood.decrease_progtoknighthood_toast.tt:0 "Ihr verschlechtert Euch als Knappe."
 
  agot_knighthood.0021.a_toast:0 "Knappentum erlangt"
- agot_knighthood.0021.a_toast.tt:0 "Ihr seid nun Ser [potential_knight.GetNamePossessive] [squire|E]."
- agot_knighthood.0021.b_toast:0 "Antwort von Ser [nearby_knight.GetName]"
- agot_knighthood.0021.b_toast.tt:0 "Ser [nearby_knight.GetNameNoTooltip] hat Euer Angebot abgelehnt."
+ agot_knighthood.0021.a_toast.tt:0 "Ihr seid nun [potential_knight.GetNamePossessive] [squire|E]."
+ agot_knighthood.0021.b_toast:0 "Antwort von [nearby_knight.GetName]"
+ agot_knighthood.0021.b_toast.tt:0 "[nearby_knight.GetNameNoTooltip] hat Euer Angebot abgelehnt."
 
  ##Used in the Squire Interaction (Via char menu)
  agot_knighthood_squire_offer_accept_toast:0 "Kanppentumsangebot angenommen"
@@ -125,7 +125,7 @@
  agot_knighthood.0503.b.tt:0 "[winning_squire.GetNameNoTooltip] bleibt ein [squire|E]."
 
  agot_knighthood.0504.t:0 "Der Ritterschlag"
- agot_knighthood.0504.desc:0 "Während ich mich als Sieger von [host.GetNamePossessive] Turniers feiern lasse, kommt einer meiner Kontrahenten, Ser [potential_knight_maker.GetName] auf mich zu und fordert mich auf, vor ihm zu knien. Er verkündet, es sei nicht recht, dass ich das Turnier gewinne, ohne zum Ritter geschlagen zu werden - Genau das hat er nun vor!\n\nFeierlich zieht er sein Schwert und legt es auf meine rechte Schulter. Die Turnierfeierlichkeiten verstummen und alle Augen sind auf uns gerichtet. Er beginnt zu sprechen:\n\n #italic "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V], im Namen des Kriegers fordere ich Euch auf, mutig zu sein."#! Er legt das Schwert auf meine linke Schulter. #italic "Im Namen des Vaters fordere ich Euch auf, gerecht zu sein."#! Er legt das Schwert wieder auf meine rechte Schulter#italic "Im Namen der Mutter fordere ich Euch auf, die Unschuldigen zu beschützen."#!"
+ agot_knighthood.0504.desc:0 "Während ich mich als Sieger von [host.GetNamePossessive] Turniers feiern lasse, kommt einer meiner Kontrahenten, [potential_knight_maker.GetUIName] auf mich zu und fordert mich auf, vor ihm zu knien. Er verkündet, es sei nicht recht, dass ich das Turnier gewinne, ohne zum Ritter geschlagen zu werden - Genau das hat er nun vor!\n\nFeierlich zieht er sein Schwert und legt es auf meine rechte Schulter. Die Turnierfeierlichkeiten verstummen und alle Augen sind auf uns gerichtet. Er beginnt zu sprechen:\n\n #italic "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V], im Namen des Kriegers fordere ich Euch auf, mutig zu sein."#! Er legt das Schwert auf meine linke Schulter. #italic "Im Namen des Vaters fordere ich Euch auf, gerecht zu sein."#! Er legt das Schwert wieder auf meine rechte Schulter#italic "Im Namen der Mutter fordere ich Euch auf, die Unschuldigen zu beschützen."#!"
  agot_knighthood.0504.a:0 "Ich schwöre es!"
  agot_knighthood.0504.a.tt:0 "Ihr nehmt den Ritterschwur an."
 #  agot_knighthood.0504.b:0 "Nein, ich will nicht!"
@@ -153,7 +153,7 @@
  agot_knighthood.0511.a:0 "Ich schwöre es!"
  agot_knighthood.0511.a.tt:0 "Ihr nehmt den Ritterschwur an."
 
- agot_knighthood.0511.desc.participant_perspective:0 "Während ich mich als Sieger von [host.GetNamePossessive] Turniers feiern lasse, kommt einer meiner Kontrahenten, Ser [potential_knight_maker.GetName], auf mich zu und fordert mich auf vor ihm niederzuknien. Er verkündet, es sei nicht recht, dass ich das Turnier gewinne, ohne zum Ritter geschlagen zu werden - Genau das hat er nun vor!\n\nFeierlich zieht er sein Schwert und legt es auf meine rechte Schulter. Die Turnierfeierlichkeiten verstummen und alle Augen sind auf uns gerichtet. Er beginnt zu sprechen:\n\n#italic "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V]. Im Namen des Kriegers fordere ich Euch auf, mutig zu sein."#! Er legt das Schwert auf meine linke Schulter. #italic "Im Namen des Vaters fordere ich Euch auf, gerecht zu sein."#! Er legt das Schwert wieder auf meine rechte Schulter. #italic "Im Namen der Mutter fordere ich Euch auf, die Unschuldigen zu beschützen."#!"
+ agot_knighthood.0511.desc.participant_perspective:0 "Während ich mich als Sieger von [host.GetNamePossessive] Turniers feiern lasse, kommt einer meiner Kontrahenten, [potential_knight_maker.GetUIName], auf mich zu und fordert mich auf vor ihm niederzuknien. Er verkündet, es sei nicht recht, dass ich das Turnier gewinne, ohne zum Ritter geschlagen zu werden - Genau das hat er nun vor!\n\nFeierlich zieht er sein Schwert und legt es auf meine rechte Schulter. Die Turnierfeierlichkeiten verstummen und alle Augen sind auf uns gerichtet. Er beginnt zu sprechen:\n\n#italic "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V]. Im Namen des Kriegers fordere ich Euch auf, mutig zu sein."#! Er legt das Schwert auf meine linke Schulter. #italic "Im Namen des Vaters fordere ich Euch auf, gerecht zu sein."#! Er legt das Schwert wieder auf meine rechte Schulter. #italic "Im Namen der Mutter fordere ich Euch auf, die Unschuldigen zu beschützen."#!"
  agot_knighthood.0511.a:0 "Ich schwöre es!"
  agot_knighthood.0511.a.tt:0 "Ihr nehmt den Ritterschwur an."
 
