@@ -85,4 +85,15 @@ DE_MylordMylady = {
 		trigger = { is_female = yes }
 	}
 }
-
+DE_SeptonSepta = { 
+	type = character
+	log_loc_errors = no
+	text = {
+		localization_key = trait_septon_male
+		trigger = { is_female = no }
+	}
+	text = {
+		localization_key = trait_septon_female
+		trigger = { is_female = yes }
+	}
+}

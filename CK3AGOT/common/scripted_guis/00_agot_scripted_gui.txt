@@ -1,0 +1,271 @@
+﻿# Updates coa after editor
+
+agot_name = {
+	scope = character
+
+	is_shown = {
+		NOT = { #For High Speton Flavour
+			has_title = title:k_the_most_devout
+		}
+		NOT = { #For Bastard Flavour
+			AND = {
+				is_alive = yes
+				is_landed = no
+				has_trait = bastard
+				NOT = { any_spouse = { is_landed = yes } }
+				NOT = { has_council_position = kingsguard_lord_commander } #For when a bastard becomes Lord Commander 
+			}
+			has_trait = maester  #Maester Flavour
+		}
+		OR = {
+			NOT = { #Covering all other Flavour here
+				has_trait = knight
+				has_trait = maester
+				has_trait = bastard
+				has_trait = septon
+			}
+			is_landed = yes
+			has_council_position = kingsguard_lord_commander
+			any_spouse = { is_landed = yes }
+			is_alive = no
+			OR = {
+				AND = {
+					exists = father
+					father = {
+						primary_title.tier = tier_empire
+					}
+				}
+				AND = {
+					exists = mother
+					mother = {
+						primary_title.tier = tier_empire
+					}
+				}
+			}
+
+		}
+	}
+}
+
+agot_ser_knight = {
+	scope = character
+
+	is_shown = {
+		has_trait = knight
+		NOT = { has_trait = maester } #you shouldn't be able to knight maesters anyway but just in case
+		NOT = { has_council_position = kingsguard_lord_commander }
+		NOT = { any_spouse = { is_landed = yes } }
+		NOT = { has_trait = bastard }
+		is_landed = no
+		is_alive = yes
+		NOR = {
+			AND = {
+				exists = father
+				father = {
+					primary_title.tier = tier_empire
+				}
+			}
+			AND = {
+				exists = mother
+				mother = {
+					primary_title.tier = tier_empire
+				}
+			}
+		}
+	}
+}
+
+agot_name_bastard = {
+	scope = character
+
+	is_shown = {
+		is_alive = yes
+		has_trait = bastard
+		is_landed = no
+		NOT = { has_council_position = kingsguard_lord_commander}
+		NOT = { any_spouse = { is_landed = yes } }
+		NOT = {
+			has_trait = knight
+			has_trait = maester
+		}
+	}
+}
+
+agot_ser_knight_bastard = {
+	scope = character
+
+	is_shown = {
+		is_alive = yes
+		has_trait = bastard
+		has_trait = knight
+		NOT = { has_trait = maester } #you shouldn't be able to knight maesters anyway but just in case
+		NOT = { has_council_position = kingsguard_lord_commander}
+		NOT = { any_spouse = { is_landed = yes } }
+		is_landed = no
+	}
+}
+
+agot_maester = {
+	scope = character
+
+	is_shown = {
+		has_trait = maester
+		is_landed = no
+	}
+}
+
+agot_septon = {
+	scope = character
+
+	is_shown = {
+		has_trait = septon
+		is_landed = no
+		NOT {has_title = title:k_the_most_devout}
+	}
+}
+
+agot_high_septon = {
+	scope = character
+
+	is_shown = {
+		has_title = title:k_the_most_devout
+	}
+}
+
+agot_same_culture_noble = {
+	scope = title
+
+	is_shown = {
+		OR = {
+		    has_game_rule = agot_hv_conversion_unrestricted
+			NOT = { holder.culture = culture:high_valyrian }
+			AND = {
+			    title_province = { geographical_region = world_westeros }
+			    NOT = { has_game_rule = agot_hv_conversion_unrestricted }
+			    NAND = {
+					holder.culture = culture:high_valyrian
+					culture = culture:westerosi_valyrian
+			    }
+			}
+			AND = {
+				NOT = {
+					title_province = { geographical_region = world_westeros }
+				}
+				NOT = { has_game_rule = agot_hv_conversion_unrestricted }
+				NAND = {
+					holder.culture = culture:high_valyrian
+					culture = culture:essosi_valyrian
+				}
+			}
+		}
+	}
+}
+
+agot_gui_update_coa_house = {
+	scope = character
+
+	is_valid = {
+	}
+
+	effect = {
+		scope:edit_scope = {
+			every_house_member = {
+				limit = { is_landed = yes }
+				trigger_event = { id = agot_coa_events.1 days = 1 }
+			}
+		}
+	}
+}
+
+agot_activity_window = {
+	scope = character
+
+	#is_valid = {
+	#}
+
+	#effect = {
+	#}
+}
+
+agot_wall_fall = {
+	scope = character
+
+	is_valid = {
+	}
+
+	effect = {
+		title:b_castle_black.title_province = {
+			if = {
+				limit = {
+					has_variable = agot_wall_is_normal
+				}
+				set_variable = agot_wall_has_fallen_middle
+			}
+			remove_building = special_the_wall
+		}
+		title:b_castle_black.title_province = {
+			add_building = special_the_wall_damaged
+		}
+	}
+}
+
+agot_can_have_paramour = {
+	scope = character
+
+	is_shown = {
+		OR = {
+			agot_can_have_paramour = yes
+			has_trait = paramour
+		}
+	}
+}
+
+agot_can_have_knight = {
+	scope = character
+
+	is_shown = {
+		OR = {
+			AND = {
+				is_eligible_for_agot_squirehood_trigger = yes
+				NOT = {
+					culture = { agot_is_wildling_culture = yes }
+				}
+			}
+			has_trait = squire
+		}
+	}
+}
+
+agot_can_have_squire = {
+	scope = character
+
+	is_shown = {
+		has_trait = knight
+	}
+}
+
+agot_end_wildfire = {
+	scope = character
+
+	effect = {
+		title:b_hookmarket.title_province = {
+			if = {
+				limit = {
+					has_building = special_kings_landing_hoodmarket_destroyed
+				}
+				remove_building = special_kings_landing_hoodmarket_destroyed
+			}
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							has_building = special_kings_landing_hoodmarket
+							has_building = special_kings_landing_hoodmarket_destroyed
+						}
+					}
+				}
+				add_building = special_kings_landing_hoodmarket
+			}
+		}
+	}
+}
