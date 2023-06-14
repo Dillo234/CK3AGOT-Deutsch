@@ -93,7 +93,7 @@
  agot_mega_wars.0301.b.2:0 "Mir reicht's! Sollen sie bekommen, was sie fordern... [ROOT.Char.Custom('GetRebelsLoyalists')]"
  POST_REBEL_JOINS_TOOLTIP:0 "[post_rebel_scope.GetName] könnte sich Eurem Vorhaben anschließen."
 
- agot_mega_wars.0500.t:0 "Der leere Thron" ### Zeile 99-101 König[...] testen
+ agot_mega_wars.0500.t:0 "Der leere Thron"
  agot_mega_wars.0500.desc.a:0 "Nach dem langen Krieg mit dem unterdrückerischen Haus [defender_house_scope.GetName] sind meine Verbündeten und ich siegreich."
  agot_mega_wars.0500.desc.ba:0 "Meine Gefolgsmänner wollen #italic mich#! zu ihr[ROOT.Char.Custom('DE_END_PRO_S_D')] [ROOT.Char.Custom('GetQueenKing')]. Sie behaupten, dass sich mein Anspruch von meinem [ROOT.Char.Custom2('RelationToMe', claim_ancestor)] [claim_ancestor.GetFullName] ableitet..."
  agot_mega_wars.0500.desc.bb:0 "\n\nJedoch frage ich mich, ob ich wirklich König[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] sein will. [chosen_LP.GetFullName] ist doch besser geeignet, auf dem Thron zu sitzen und das Reich zu regieren... Nicht?"
@@ -116,13 +116,13 @@
  agot_mega_wars.0502.a:0 "Ich werde den Thron besteigen."
  agot_mega_wars.0502.b:0 "Ich habe leider Verpflichtungen, die mich abhalten."
  agot_mega_wars.0503.t:0 "Lang lebe [ROOT.Char.Custom('DE_ART_DEF_S_N')] König[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]!"
- agot_mega_wars.0503.desc.a:0 "Ich besteige den Thron und meine erste Tat wird sein, jemanden zu ernennen, der an meiner Stelle [old_demesne_main_title.GetName] regieren soll..."
- agot_mega_wars.0503.desc.ba:0 "\nMeine Brüder Stannis and Renly sind alt genug"
- agot_mega_wars.0503.desc.bb:0 "\nMeine Brüder [living_brother.GetFirstName] sind alt genug"
- agot_mega_wars.0503.desc.bc:0 "\nEs gibt noch [option_dynasty_member.GetName]"
- agot_mega_wars.0503.desc.c:0 "\nIch könnte mich auch auf meine Verwandten, den Estermonts, verlassen"
+ agot_mega_wars.0503.desc.a:0 "Ich besteige den Thron und meine erste Tat wird sein, jemanden zu ernennen, der an meiner Stelle [old_demesne_main_title.GetName] regieren soll."
+ agot_mega_wars.0503.desc.ba:0 "\nIch könnte einen meine Brüder ernennen, da mittlerweile sogar Renly alt genug ist."
+ agot_mega_wars.0503.desc.bb:0 "\nIch könnte meinen Bruder [living_brother.GetFirstName] ernennen."
+ agot_mega_wars.0503.desc.bc:0 "\nIch könnte mein[option_dynasty_member.Custom('DE_END_ADJ_DEF_S_A')] [ROOT.Char.Custom2('RelationToMe', option_dynasty_member)] [option_dynasty_member.GetName] ernennen." ##
+ agot_mega_wars.0503.desc.c:0 "\nAllenfall könnte ich mich auch auf meine Verwandten, den Estermonts, verlassen."
  agot_mega_wars.0503.desc.d:0 "\n[option_fallback.GetFirstName] wäre ein guter Nachfolger"
- agot_mega_wars.0503.desc.e:0 "."
+ agot_mega_wars.0503.desc.e:0 ""
  agot_mega_wars.0503.a:0 "Ich werde ein Familienmitglied aussuchen."
  agot_mega_wars.0503.b:0 "Jemand aus der Dynastie sollte genügen."
  agot_mega_wars.0503.c:0 "Ich übergebe es an einen meiner Vasallen."
