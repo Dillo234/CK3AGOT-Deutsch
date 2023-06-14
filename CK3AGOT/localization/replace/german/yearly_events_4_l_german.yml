@@ -66,7 +66,7 @@
  yearly.4071.b:0 "Verteilt sie unter meinen Höflingen."
  
  yearly.4081.t:0 "Übersetzungen"
- yearly.4081.desc:0 ""Ansässige Gelehrte benötigen Stipendien für ihre Übersetzungsarbeiten vom Valyrischen in die Gemeine Zunge, mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]; dies würde den gesamten Königslanden nutzen!"\n\n[councillor.Custom2('MyCharacterIntroduction', ROOT.Char)] bringt mir eine Liste von Gelehrten, die ich fördern könnte, und der Bücher, an denen sie derzeit arbeiten."  #Selbst geschrieben/abgetippt
+ yearly.4081.desc:0 ""Ansässige Gelehrte benötigen Unterstützung bei ihren Bemühungen, Schriften aus dem Valyrischen in die Gemeine Zunge zu übersetzen, [ROOT.Char.Custom('DE_MylordMylady')]; dies würde den gesamten Königslanden nutzen!"\n\n[councillor.Custom2('MyCharacterIntroduction', ROOT.Char)] bringt mir eine Liste von Gelehrten, die ich fördern könnte, und der Schriften, an denen sie derzeit arbeiten."  #Selbst geschrieben/abgetippt
  yearly.4081.a:0 "#EMP De materia medica#! … Klingt interessant!"
  yearly.4081.a.tt:0 "Ihr fördert die Übersetzung eines Buches über die Medizin"
  yearly.4081.b:0 "Oh, dieses hier! #EMP Über die Himmelskörper#!."
@@ -86,9 +86,9 @@
  
  yearly.4091.t:0 "Die Gelehrten von [capital.GetNameNoTooltip]"  #Selbst geschrieben/abgetippt
  yearly.4091.desc_opening:0 "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] und ich sind in [capital.GetNameNoTooltip] unterwegs, als wir"  #Selbst geschrieben/abgetippt
- yearly.4091.desc_house:0 "Novizen der Zitadelle."  #Selbst geschrieben/abgetippt
+ yearly.4091.desc_house:0 "Novizen der Zitadelle begegnen."  #Selbst geschrieben/abgetippt
  yearly.4091.desc_no_house:0 "einigen ansässigen Gelehrten begegnen."
- yearly.4091.desc:0 "\n\n"Seid gegrüßt, [ROOT.Char.GetLadyLord] [ROOT.Char.GetHouse.GetNameNoTooltip]. Seid gegrüßt, jung[ward.Custom('DE_END_ADJ_NUL_S_N')] [ward.GetLadyLord]. Unsere aktuelle Diskussion hätte noch einen Platz frei; möchte einer von Euch sich beteiligen?""  #Selbst geschrieben/abgetippt
+ yearly.4091.desc:0 "\n\n"Seid gegrüßt, [ROOT.Char.Custom('DE_MylordMylady')] [ROOT.Char.GetHouse.GetNameNoTooltip]. Und auch Ihr, jung[ward.Custom('DE_END_ADJ_NUL_S_N')] [ward.GetWomanMan]. Unsere aktuelle Diskussion hätte noch einen Platz frei; möchte einer von Euch sich beteiligen?""  #Selbst geschrieben/abgetippt
  yearly.4091.a:0 "Macht ruhig, [ward.GetFirstNameNoTooltip]."
  yearly.4091.a.tt:0 "Dies treibt die Ausbildung von [ward.GetFirstNameNoTooltip] voran"
  yearly.4091.b:0 "Ich würde mich gern beteiligen, ja."
