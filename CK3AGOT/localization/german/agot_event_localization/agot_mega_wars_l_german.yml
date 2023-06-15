@@ -1,6 +1,6 @@
 ﻿l_german:
  # Character Interactions
- interaction_category_agot_mega_wars:0 "Reichskrieg"
+ interaction_category_agot_mega_wars:0 "Reichskriege"
  agot_mw_join_loyalists:0 "KI: Für den König kämpfen"
  agot_mw_join_loyalists_desc:0 "KI: Auf der Seiten der Königstreuen in den Krieg ziehen."
  agot_mw_join_rebel:0 "KI: Für die Rebellen kämpfen"
@@ -9,41 +9,41 @@
  AGOT_CANNOT_SWEAR_FEALTY_TO_PRE_WAR_LIEGE:0 "Ihr könnt Euch nicht einer Seite anschließen, wenn ihr selbst einen Bürgerkrieg habt."
 
  # Classic Call the Banners event chain
- agot_mega_wars.0002.t:0 "Das Reich im Krieg"
- agot_mega_wars.0002.desc:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTier] befindet sich im Kriegszustand, wir sollten den mächtigsten Lords Raben schicken und sie zur Verteidigung von [mw_crown.GetName] sammeln."
+ agot_mega_wars.0002.t:0 "Ein Reich im Krieg"
+ agot_mega_wars.0002.desc:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTier] befindet sich im Krieg, wir sollten den mächtigsten Lords Raben schicken und sie zur Verteidigung von [mw_crown.GetName] sammeln."
  agot_mega_wars.0002.a:0 "Ruft die Banner!"
- agot_mega_wars.0002.b:0 "Wie funktioniert so ein Reichskrieg?"
+ agot_mega_wars.0002.b:0 "Wie funktionieren Reichskriege?"
 
- agot_mega_wars.0003.desc.a:0 "[mw_rebel_leader.GetFullName] hat sich gegen [mw_crown.GetFullName] aufgelehnt und damit [war.GetName] gestartet. Ich muss entscheiden, ob ich [mw_crown.GetName] Treu bleibe, [mw_rebel_leader.GetName] und [mw_rebel_leader.GetHerHis]e Rebellen unterstütze oder vorerst noch Neutral bleibe und zu einem späteren Zeitpunkt entscheide."
+ agot_mega_wars.0003.desc.a:0 "[mw_rebel_leader.GetFullName] hat sich gegen [mw_crown.GetFullName] aufgelehnt und damit [war.GetName] gestartet. Ich muss entscheiden, ob ich [mw_crown.GetName] Treu bleibe, [mw_rebel_leader.GetName] und [mw_rebel_leader.Custom('DE_PRO_POS_S_3P')]e Rebellen unterstütze oder vorerst noch unbeteiligt bleibe und zu einem späteren Zeitpunkt entscheide."
  agot_mega_wars.0003.desc.b:0 "Weil Ihr vor Kurzem [ROOT.Var('mw_is_loyal_to').Char.GetName] die Treue geschworen habt, wird von Euch erwartet, dass Ihr Euer Wort haltet..."
- agot_mega_wars.0003.a:0 "Die Rebellen werden mit Blut bezahlen."
+ agot_mega_wars.0003.a:0 "Die Rebellen werden mit ihrem Blut bezahlen."
  agot_mega_wars.0003.a.tt.1:0 "Ihr schließt Euch den Königstreuen an der Seite von [mw_crown.GetFullName] an."
- agot_mega_wars.0003.a.tt.2:0 "Ihr werdet [mw_rebel_leader.GetFullName] und [mw_rebel_leader.GetHerHis]er Anhänger auf dem Schlachfeld gegenübertreten."
+ agot_mega_wars.0003.a.tt.2:0 "Ihr verratet [mw_rebel_leader.GetFullName] und [mw_rebel_leader.Custom('DE_PRO_POS_S_3P')]e Mitverschwörer."
  agot_mega_wars.0003.b:0 "Dieser Krieg dient nicht unserem Zweck - #italic noch nicht#!."
  agot_mega_wars.0003.b.tt:0 "Ihr bleibt vorerst neutral."
  agot_mega_wars.0003.c.1:0 "Wir bestimmen fortan unser eigen Schicksal!"
  agot_mega_wars.0003.c.2:0 "Die Rebellion dient dem richtigen Zweck!"
  agot_mega_wars.0003.c.tt:0 "Ihr schließt Euch den Rebellen an der Seite von [mw_rebel_leader.GetName]."
  agot_mega_wars.0003.d:0 "Wir bestimmen fortan unser eigen Schicksal!"
- agot_mega_wars.0003.d.tt:0 "Ihr zieht als Dritte Fraktion in den Krieg und kämpft für Eure eigene Unabhängigkeit gegen [mw_crown.GetFullName]."
- agot_mega_wars.0003.tt.negative:0 "Da ich vor Kurzem [mw_is_loyal_to.GetName] meine Treue geschworen habe, wird mein Verrat als unehrenhaft betrachtet."
- MW_DEBUG_JOIN_LOYALISTS:0 "Joins loyalists"
- MW_DEBUG_STAY_NEUTRAL:0 "Stays neutral"
- MW_DEBUG_JOIN_REBELS:0 "Joins rebels"
+ agot_mega_wars.0003.d.tt:0 "Ihr zieht unter Eurem eigenem Banner gegen [mw_crown.GetFullName] in den Krieg und kämpft für Eure eigene Unabhängigkeit."
+ agot_mega_wars.0003.tt.negative:0 "Da ich vor Kurzem [mw_is_loyal_to.GetName] die Treue geschworen habe, wird mein Handeln als unehrenhaft betrachtet."
+ MW_DEBUG_JOIN_LOYALISTS:0 "Wird Königstreu"
+ MW_DEBUG_STAY_NEUTRAL:0 "Bleibt unbeteiligt"
+ MW_DEBUG_JOIN_REBELS:0 "Wird Rebell"
 
 
 
  agot_mega_wars.0005.desc_loyal:0 "\n\nEuer Lehnsherr [liege.GetFullName] unterstützt die Krone."
- agot_mega_wars.0005.desc_neutral:0 "\n\nEuer Lehnsherr [liege.GetFullName] bleibt Neutral."
+ agot_mega_wars.0005.desc_neutral:0 "\n\nEuer Lehnsherr [liege.GetFullName] bleibt unbeteiligt."
  agot_mega_wars.0005.desc_rebel:0 "\n\nEuer Lehnsherr [liege.GetFullName] hat sich den Rebellen angeschlossen." 
 
  # Event chain for independence declaration, no taxation without representation...
- agot_mega_wars.0010.t:0 "Aufbegehren von Haus [independence_rebel_leader.GetDynastyName]"
- agot_mega_wars.0010.desc:0 "Während [mw_crown.GetPrimaryTitle.GetNameNoTier] brennt und sich das Chaos aubreitet immer weiter aus, nutzt [independence_rebel_leader.GetFullName] die Gunst der Stunde und erklärt sich für unabhängig von [mw_crown.GetFullName]."
+ agot_mega_wars.0010.t:0 "Aufstand des Hauses [independence_rebel_leader.GetDynastyName]"
+ agot_mega_wars.0010.desc:0 "Während [mw_crown.GetPrimaryTitle.GetNameNoTier] brennt und sich das Chaos immer weiter aubreitet, nutzt [independence_rebel_leader.GetFullName] die Gunst der Stunde und erklärt sich für unabhängig vom Joch [independence_rebel_leader.Custom('DE_PRO_POS_S_3P')] Lehnsherren [mw_crown.GetFullName]."
  agot_mega_wars.0010.a:0 "Wir werden die Entwicklung beobachten..."
- agot_mega_wars.0011.t:0 "Aufbegehren vom Haus [independence_rebel_leader.GetDynastyName]"
- agot_mega_wars.0011.desc:0 "Während [mw_crown.GetPrimaryTitle.GetNameNoTier] brennt und sich das Chaos aubreitet immer weiter aus, nutzt [independence_rebel_leader.GetFullName] die Gunst der Stunde und erklärt sich für unabhängig von [mw_crown.GetFullName]."
- agot_mega_wars.0011.a:0 "[independence_rebel_leader.GetPrimaryTitle.GetNameNoTier] ist Teil des Reiches!"
+ agot_mega_wars.0011.t:0 "Aufstand des Hauses [independence_rebel_leader.GetDynastyName]"
+ agot_mega_wars.0011.desc:0 "Während [mw_crown.GetPrimaryTitle.GetNameNoTier] brennt und sich das Chaos immer weiter aubreitet, nutzt [independence_rebel_leader.GetFullName] die Gunst der Stunde und erklärt sich für unabhängig vom Joch [independence_rebel_leader.Custom('DE_PRO_POS_S_3P')] Lehnsherren [mw_crown.GetFullName]."
+ agot_mega_wars.0011.a:0 "[independence_rebel_leader.GetPrimaryTitle.GetNameNoTier] wird diesen Tag bereuen!"
  agot_mega_wars.0011.b:0 "Na schön. Ich brauche keine derart streitsüchtigen Vasallen!"
  agot_mega_wars.0012.opening:0 "[independence_rebel_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)],"
  agot_mega_wars.0012.desc.a:0 "[independence_rebel_leader.GetPrimaryTitle.GetNameNoTier] ist Teil des Reichs, dem Recht nach! Euer schändlicher Versuch, mich zu erpressen, ist fehlgeschlagen. Ganz gleich, wie viele verderbte Seelen ihr dazu verführen konntet, Euch bei Eurem Plan zu unterstützen: Ich werde nicht kampflos nachgeben. Lieber sterbe ich bei der Verteidigung dessen, was rechtmäßig mein ist!"
@@ -56,26 +56,26 @@
  agot_mega_wars.0200.desc:0 "Der Krieg ist vorbei und ich bin siegreich! Jetzt muss ich mich um die Verräter kümmern."
  agot_mega_wars.0200.a:0 "Die Strafe soll gütig sein." # Soft punishment
  agot_mega_wars.0200.b:0 "Die Strafe soll gerecht sein." # Medium punishment
- agot_mega_wars.0200.c:0 "Die Strafe soll grausam sein." # Hard punishment
- agot_mega_wars.0200.d:0 "Die Strafe soll der Tod sein." # REALLY Hard punishment
- agot_mega_wars.0200.e:0 "Die Strafe soll das Exil sein." # Wall
+ agot_mega_wars.0200.c:0 "Die Strafe soll hart sein." # Hard punishment
+ agot_mega_wars.0200.d:0 "Niemand soll sich #italic je#! wieder trauen, mich falsch anzusehen." # REALLY Hard punishment
+ agot_mega_wars.0200.e:0 "Sollen sie an die Mauer gebracht werden nützlich sein." # Wall
  agot_mega_wars.0200.f:0 "Sein Lehnsherr soll urteilen." # Let LP decide
 
  # Punishment event chain
- agot_mega_wars.0300.t:0 "Urteil des Königsgerichts"
- agot_mega_wars.0300.desc.a:0 "Das Urteil für Euer Verbrechen gegen die Krone, der Verrat an seiner Hoheit [ROOT.Var('crown_target').Char.GetName], lautet wie folgt:"
- agot_mega_wars.0300.desc.b:0 "\n[ROOT.Var('selected_hostage').Char.GetName] soll als Geisel an [ROOT.Var('crown_target').Char.GetTitledFirstName] übergeben werden und als Pfand für den Frieden dienen. [selected_hostage.GetSheHe] soll als Ehrengast und entsprechend [selected_hostage.GetHerHis]es Ranges behandelt werden."
+ agot_mega_wars.0300.t:0 "Urteil der Krone"
+ agot_mega_wars.0300.desc.a:0 "Das Urteil für Eure Verbrechen gegen die Krone, der Verrat an Seiner Gnaden [ROOT.Var('crown_target').Char.GetName], lautet wie folgt:"
+ agot_mega_wars.0300.desc.b:0 "\n[ROOT.Var('selected_hostage').Char.GetName] soll als Geisel an [ROOT.Var('crown_target').Char.GetTitledFirstName] übergeben werden und als Pfand für den Frieden dienen. [selected_hostage.GetSheHe] soll als Ehrengast und entsprechend [selected_hostage.Custom('DE_PRO_POS_S_3P')]es Ranges behandelt werden."
  agot_mega_wars.0300.desc.c:0 "\nEuch soll [selected_title.GetName] entzogen werden."
- agot_mega_wars.0300.desc.d:0 "\nEuch soll Euer Haupttitel und jeglicher Anspruch auf Herrschaft entzogen werden."
- agot_mega_wars.0300.desc.e:0 "\nEuch sollen Eure Nebentitel und jegliche Ansprüche auf Herrschaft entzogen werden."
- agot_mega_wars.0300.desc.f:0 "\nEuch und Eurem Haus sollen sämtliche Titel, Ländereien und Herrschaftsansprüche entzogen werden."
- agot_mega_wars.0300.desc.g:0 "\nEuch sollen sämtliche Titel und Herrschaftsansprüche entzogen werden, mit Ausnahme von Eurem aktuellen Sitz."
- agot_mega_wars.0300.desc.h:0 "\nEuch soll die Hälfte Eurer Ländereien und jeglicher Anspruch auf Herrschaft entzogen werden."
- agot_mega_wars.0300.desc.i:0 "\nDas Artefakt, [ROOT.Var('taken_artifact').GetName], welches sich in Eurem Besitz befindet, soll [ROOT.Var('crown_target').Char.GetName] überbracht werden."
- agot_mega_wars.0300.desc.j:0 "\nIhr sollt exekutiert werden."
- agot_mega_wars.0300.desc.k:0 "\nEure Familie soll exekutiert werden."
+ agot_mega_wars.0300.desc.d:0 "\nEuch soll Euer Haupttitel enzogen und jeglicher Herrschaftsanspruch aberkannt werden."
+ agot_mega_wars.0300.desc.e:0 "\nEuch sollen Eure Nebentitel entzogen und jegliche Herrschaftsansprüche aberkannt werden."
+ agot_mega_wars.0300.desc.f:0 "\nEuch und Eurem Haus sollen sämtliche Titel, Ländereien und Herrschaftsansprüche aberkannt werden."
+ agot_mega_wars.0300.desc.g:0 "\nEuch sollen sämtliche Titel und Herrschaftsansprüche aberkannt werden, mit Ausnahme von Eurem Familiensitz."
+ agot_mega_wars.0300.desc.h:0 "\nEuch soll die Hälfte Eurer Ländereien und jegliche Herrschaftsansprüche entzogen werden."
+ agot_mega_wars.0300.desc.i:0 "\n[ROOT.Var('taken_artifact').GetName] soll an [ROOT.Var('crown_target').Char.GetName] übergeben werden."
+ agot_mega_wars.0300.desc.j:0 "\nIhr sollt mit dem Tode bestraft werden."
+ agot_mega_wars.0300.desc.k:0 "\nEure Linie endet heute."
  agot_mega_wars.0300.desc.l:0 "\nEuer Haus soll ausgelöscht werden."
- agot_mega_wars.0300.desc.m:0 "\nIhr sollt zur Nachtwache geschickt werden und fortan im Exil leben."
+ agot_mega_wars.0300.desc.m:0 "\nIhr sollt zur Mauer geschickt werden und das Schwarz anlegen."
  agot_mega_wars.0300.desc.n:0 "\nIhr sollt aus aus dem Reich der [ROOT.Var('crown_target').Char.GetPrimaryTitle.GetNameNoTier] verbannt werden und fortan im Exil leben."
  agot_mega_wars.0300.desc.o:0 "\nEure Familie soll aus dem Reich der [ROOT.Var('crown_target').Char.GetPrimaryTitle.GetNameNoTier] verbannt werden und fortan im Exil leben."
  agot_mega_wars.0300.desc.p:0 "\nEuer Haus soll aus dem Reich der [ROOT.Var('crown_target').Char.GetPrimaryTitle.GetNameNoTier] verbannt werden und fortan im Exil leben."
