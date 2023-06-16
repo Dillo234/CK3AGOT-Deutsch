@@ -37,8 +37,8 @@
  maester_court_position_desc:1 Der $maester_court_position$ ist für die Gesundheit und das Wohlergehen des [court|E]es, dem er angehört, verantwortlich. Er wird Krankheiten behandeln und Wunden nach besten Kräften vernähen."
  maester_employer_custom_effect_description:1 "Führt [medical_treatments|E] durch#!\nVerbessert [education|E]-Ergebnisse \nSchaltet die #V [interaction|E] $make_child_learn_language_interaction$#! frei \n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen Euch#!"
 
- household_guard_court_position:0 "Hauptmann der Hausgarde"
- household_guard_tradition_bonus:0 "von [culture_tradition|E]"
+ household_guard_court_position:0 "Hauptmann der Leibgarde"
+ household_guard_tradition_bonus:0 "Von [culture_tradition|E]"
  household_guard_court_position_desc:0 "Der $household_guard_court_position$ ist verantwortlich für den Schutz des [house|E]es, dem er dient."
  household_guard_employer_custom_effect_description:2 "Verringert das Risiko, in Schlachten, an denen ihr beide teilnehmt, zu sterben oder gefangen genommen zu werden. #!\n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen Euch#!"
 
@@ -63,7 +63,7 @@
  warden_of_the_east_court_position_desc:1 "Dem Wächter des Ostens obliegt die Verteidigung des Ostens im Falle von fremden Bedrohungen oder Invasionen."
  warden_of_the_west_court_position:0 "Wächter des Westens"
  warden_of_the_west_court_position_desc:1 "Dem Wächter des Westens obliegt die Verteidigung des Westens im Falle von fremden Bedrohungen oder Invasionen."
- warden_of_the_south_court_position:0 "Waächter des Südens"
+ warden_of_the_south_court_position:0 "Wächter des Südens"
  warden_of_the_south_court_position_desc:1 "Dem Wächter des Südens obliegt die Verteidigung des Südens im Falle von fremden Bedrohungen oder Invasionen."
  
  goldcloaks_court_position:0 "Kommandant der Goldröcke"
@@ -76,10 +76,10 @@
 #NIGHTS WATCH
 
 
- COURT_POSITION_CATEGORY_CASTLE_KEEPER:0 "Burghüter"
+ COURT_POSITION_CATEGORY_CASTLE_KEEPER:0 "Festungkommandant"
  b_the_shadow_tower_keeper:0 "Kommandant des Schattenturms"
  b_the_shadow_tower_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt den Schattenturm"
- b_the_shadow_tower_keeper_desc:0 "Bewacht den Schattenturm und hält ihn instand"
+ b_the_shadow_tower_keeper_desc:0 "Beaufsichtigt und verteidigt den Schattenturm"
 
  b_eastwatch_by_the_sea_keeper:0 "Kommandant von Ostwacht" 
  b_eastwatch_by_the_sea_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Ostwacht an der See"
@@ -105,11 +105,11 @@
  b_oakenshield_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Eichenschild"
  b_oakenshield_keeper_desc:0 "Beaufsichtigt und verteidigt Eichenschild"
 
- b_woodswatch_by_the_pool_keeper:0 "Kommandant von Waldwacht am Teich"
+ b_woodswatch_by_the_pool_keeper:0 "Kommandant von Waldwacht"
  b_woodswatch_by_the_pool_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Waldwacht am Teich"
  b_woodswatch_by_the_pool_keeper_desc:0 "Beaufsichtigt und verteidigt Waldwacht am Teich"
 
- b_westwatch_by_the_bridge_keeper:0 "Kommandant von Westwacht an der Brücke"
+ b_westwatch_by_the_bridge_keeper:0 "Kommandant von Westwacht"
  b_westwatch_by_the_bridge_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Westwacht an der Brücke"
  b_westwatch_by_the_bridge_keeper_desc:0 "Beaufsichtigt und verteidigt Westwacht an der Brücke"
 
