@@ -1,7 +1,7 @@
 ﻿l_german:
  #Übersetzt von Gilian Torhammer, durchgesehen und überarbeitet von Dillo
 small_councillor: "Ratsmitglied" ##Steht im Diplomatischen Angebot unter dem Bild des betreffenden Charakters, ich glaube
-invite_to_small_council: "Einladung zum Kleinen Rat"
+invite_to_small_council: "Zum Kleinen Rat einladen"
 invite_to_small_council_prompt: "Ich bitte Euch hiermit, Euren [recipient.Custom2('RelationToMe',SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetName], freizustellen, damit er in meinem Kleinen Rat dienen kann. Als zeitweilig gleichrangiger Vasall bleibt er natürlich als Verbündeter an Euch gebunden."
 recipient_secondary_invite_to_small_council: "Ratsmitglied"
 invite_to_small_council_accepted:0 "[secondary_recipient.GetShortUIName|U] wird Euer direkter Vasall, um Eurem Rat beizutreten."
@@ -11,7 +11,7 @@ small_council_vassal_retained_desc:0 "Ihr beschäftigt bereits einen von [TARGET
 
 
 demanded_my_vassal_opinion:0 "Verlangte meinen Vasallen"
-refused_vassal_appointment_opinion:0 "Weigerte sich, Vassal abzutreten"
+refused_vassal_appointment_opinion:0 "Weigerte sich, Vasallen abzutreten"
 
 
 SMALL_COUNCIL_ON_THE_COUNCIL:0 "[secondary_recipient.GetShortUIName] ist mein Ratsmitglied: $VALUE|=+0$"
@@ -25,7 +25,7 @@ set_relation_small_councillor: "[TARGET_CHARACTER.GetTitledFirstName|V] beginnt,
 
 ### MODIFIERS ###
 
-small_council_vassal_repatriation:0 "Rückgabe von Vasallen" ##????
+small_council_vassal_repatriation:0 "Rückgabe von Vasallen"
 small_council_vassal_repatriation_desc:0 "Einer der Vasallen dieses Charakters sitzt im Rat seines Lehnsherrn, schickt ihm aber weiterhin Abgaben und Steuern."
 
 small_council_vassal_low_tax_low_levies_modifier:0 "$small_council_vassal_repatriation$"
