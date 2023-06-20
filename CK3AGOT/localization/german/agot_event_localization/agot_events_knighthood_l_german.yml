@@ -59,7 +59,7 @@
  agot_knighthood.0300.t:0 "Das Ende einer Reise"
  agot_knighthood.0300.desc:0 "[my_squire.GetName] hat sich bewiesen und ist nun bereit, zum Ritter geschlagen zu werden! Auf seinem Weg lagen viele Hindernisse, jedoch konnte er ihnen trotzen und ist nun zu einem wahren Krieger herangewachsen. Ich blicke voller Stolz auf die vergangene Zeit und mache mich wehmütig zum Abschied bereit."
  agot_knighthood.0300.a:0 "[my_squire.GetName] ist bereit, die Ritterwürde zu empfangen."
- agot_knighthood.0300.a.tt:0 "Ihr schlagt [my_squire.GetName] zum [knight|E]"
+ agot_knighthood.0300.a.tt:0 "Ihr schlagt [my_squire.GetName] zum [agot_knight|E]"
 
  agot_knighthood.0320.t:0 "Ein Ritter in der Verwandschaft!"
  agot_knighthood.0320.desc:0 "Mein[my_realtion.Custom('DE_END_PRO_S_N')] Verwandter[my_relation('DE_END_ADJ_NUL_S_N')] [my_relation.GetName] wurde zum Ritter geschlagen. [my_relation.GetSheHe] bringt Haus [ROOT.GetCharacter.GetHouse.GetName] Ehre und wird dessen Namen würdig!"
@@ -103,7 +103,7 @@
  agot_knighthood.0500.t:0 "Der Turniersieger: Mein Knappe"
  agot_knighthood.0500.desc:0 "Mein Knappe [winning_squire.GetName] hat ein Turnier gewonnen! Gegen zahlreiche Kontrahenten kämpfte er sich an die Spitze und gewann.\n\nDass ein bloßer #italic Knappe#! es mit Rittern und Kiegern des ganzen Reiches aufnehmen kann, ist mehr als nur erstaunlich.\n\nManche würden sagen, dass eine solche Errungenschaft genug sein könnte, um einen Mann zum Ritter zu schlagen..."
  agot_knighthood.0500.a:0 "[winning_squire.GetName] ist bereit die Ritterwürde zu empfangen!"
- agot_knighthood.0500.a.tt:0 "Ihr schlagt [winning_squire.GetName] zum [knight|E]"
+ agot_knighthood.0500.a.tt:0 "Ihr schlagt [winning_squire.GetName] zum [agot_knight|E]"
  agot_knighthood.0500.b:0 "Es war vermutlich nur Glück. Er muss noch warten."
  agot_knighthood.0500.b.tt:0 "[winning_squire.GetName] bleibt Euer [squire|E]"
 
@@ -115,12 +115,12 @@
  agot_knighthood.0502.t:0 "Ein Ritter der Königslande"
  agot_knighthood.0502.desc:0 "[my_knight.GetName] lächelt: #italic "Erhebt Euch,#V Ser#! [ROOT.GetCharacter.GetFirstNameNoTooltip|V], als Ritter der Königslande!"#!"
  agot_knighthood.0502.a:0 "Ich bin ein Ritter!"
- agot_knighthood.0502.a.tt:0 "Ihr wurdet zum [knight|E] geschlagen"
+ agot_knighthood.0502.a.tt:0 "Ihr wurdet zum [agot_knight|E] geschlagen"
 
  agot_knighthood.0503.t:0 "Der Turniersieger: Ein ritterloser Knapppe"
  agot_knighthood.0503.desc:0 "[host.GetNamePossessive] Turnier ist zu Ende. Ich hatt zwar meinen Spaß, jedoch geschah etwas unvorhersehbares: Ein ritterloser Knappe namens [winning_squire.GetName] gewann!\n\nZwar war [winning_squire.GetName] etwas vertraut mit den Bräuchen des Rittertums, jedoch ist er immernoch ein Knappe. Seine Fertigkeiten beeindruckten viele am Turnier. Hätte [winning_squire.GetName] einen ausbildenden Ritter, hätte ihn dieser sicherlich dafür zum Ritter geschlagen. Es wäre eine Schande, solches Talent zu vergeuden.\n\nWenn ich ihn jedoch zum Ritter schlage, könnte ich diese Ungerechtigkeit beheben. Und nach seiner Darbietung würde auch sicherlich niemand widersprochen."
  agot_knighthood.0503.a:0 "Ich werde [winning_squire.GetName] zum Ritter schlagen!"
- agot_knighthood.0503.a.tt:0 "Ihr schlagt [winning_squire.GetNameNoTooltip] zum [knight|E]"
+ agot_knighthood.0503.a.tt:0 "Ihr schlagt [winning_squire.GetNameNoTooltip] zum [agot_knight|E]"
  agot_knighthood.0503.b:0 "Es steht mir nicht zu."
  agot_knighthood.0503.b.tt:0 "[winning_squire.GetNameNoTooltip] bleibt ein [squire|E]"
 
@@ -134,7 +134,7 @@
  agot_knighthood.0505.t:0 "Ein Ritter der Königslande"
  agot_knighthood.0505.desc:0 "[potential_knight_maker.GetName] lächelt: #italic "Erhebt Euch, #V Ser#! [ROOT.GetCharacter.GetFirstNameNoTooltip|V], als Ritter der Königslande!"#!"
  agot_knighthood.0505.a:0 "Ich bin ein Ritter!"
- agot_knighthood.0505.a.tt:0 "Ihr wurdet zum [knight|E] geschlagen"
+ agot_knighthood.0505.a.tt:0 "Ihr wurdet zum [agot_knight|E] geschlagen"
 
  agot_knighthood.0510.t:0 "Der Turniersieger: Ein Knappe"
 
@@ -144,7 +144,7 @@
 
  agot_knighthood.0510.desc.fallback:0 "Fallback DESC: Meldet einen Bug im AGOT-Discord, wenn Ihr diese Benachrichtigung seht."
  agot_knighthood.0510.a:0 "Ich werde [winning_squire.GetName] zum Ritter schlagen!"
- agot_knighthood.0510.a.tt:0 "Ihr schlagt [winning_squire.GetNameNoTooltip] zum [knight|E]"
+ agot_knighthood.0510.a.tt:0 "Ihr schlagt [winning_squire.GetNameNoTooltip] zum [agot_knight|E]"
  agot_knighthood.0510.b:0 "Es steht mir nicht zu."
  agot_knighthood.0510.b.tt:0 "[winning_squire.GetNameNoTooltip] bleibt ein [squire|E]"
 
@@ -160,22 +160,22 @@
  agot_knighthood.0512.t:0 "Ein Ritter der Königslande"
  agot_knighthood.0512.desc:0 "[potential_knight_maker.GetName] lächelt: #italic "Erhebt Euch,#V Ser#! [ROOT.GetCharacter.GetFirstNameNoTooltip|V], als Ritter der Königslande!"#!"
  agot_knighthood.0512.a:0 "Ich bin ein Ritter!"
- agot_knighthood.0512.a.tt:0 "Ihr wurdet zum [knight|E] geschlagen"
+ agot_knighthood.0512.a.tt:0 "Ihr wurdet zum [agot_knight|E] geschlagen"
 
  #################################
  ## Battlefield Knighting Event ##
  #################################
 
  agot_knighthood.0601.t:0 "Ein Ritter, geformt von Blut und Schweiß"
- agot_knighthood.0601.desc:0 "Nach der Schlacht von [battle_province.GetName] reicht mir einer meiner Bediensteten eine Liste mit Namen derer, die sich besonders hervorgetan haben. [soldier_to_be_knighted.GetNamePossessive] Name sticht für mich besonders hervor.\n\nMein Bediensteter empfiehlt mir, die Krieger in einer schnellen Zeremonie auf dem Schlachtfeld zum Ritter zu schlagen. Er behauptet, dass die Erhebung von [soldier_to_be_knighted.GetFirstName] in den Ritterstand die Moral in unseren eigenen Reihen steigern könnte."
+ agot_knighthood.0601.desc:0 "Nach der Schlacht von [battle_province.GetName] reicht mir einer meiner Bediensteten eine Liste mit Namen derer, die sich besonders hervorgetan haben. [soldier_to_be_knighted.GetTitledFirstName] sticht für mich besonders hervor.\n\nMein Bediensteter empfiehlt mir, die Krieger in einer schnellen Zeremonie auf dem Schlachtfeld zum Ritter zu schlagen. Er behauptet, dass die Erhebung von [soldier_to_be_knighted.GetFirstName] in den Ritterstand die Moral in unseren eigenen Reihen steigern könnte."
  agot_knighthood.0601.a:0 "Ich werde [soldier_to_be_knighted.GetFirstName] zum Ritter schlagen!"
- agot_knighthood.0601.a.tt:0 "Ihr schlagt [soldier_to_be_knighted.GetName] zum [knight|E]"
+ agot_knighthood.0601.a.tt:0 "Ihr schlagt [soldier_to_be_knighted.GetName] zum [agot_knight|E]"
  agot_knighthood.0601.b:0 "Diese Rüpel sind dem Ritterstand nicht würdig."
 
  agot_knighthood.0602.t:0 "Ein Ritter der Königslande"
  agot_knighthood.0602.desc:0 "Nach der Schlacht von [battle_province.GetName] wurde eine Handvoll Männer, mich eingeschlossen, zum Befehlshaber [side_commander.GetName] beordert.\n\n[side_commander.GetSheHe] verkündete, [side_commander.GetSheHe] sei beeindruckt von unserem Wagemut auf dem Schlachtfeld und [side_commander.GetSheHe] wolle als Belohnung in den Ritterstand erheben."
  agot_knighthood.0602.a:0 "Ich bin ein Ritter!"
- agot_knighthood.0602.a.tt:0 "Ihr wurdet zu, [knight|E] geschlagen."
+ agot_knighthood.0602.a.tt:0 "Ihr wurdet zu, [agot_knight|E] geschlagen."
 
 ######################################
 ## Special Squire Assignment Events ##
