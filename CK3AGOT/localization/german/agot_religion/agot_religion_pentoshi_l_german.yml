@@ -1,18 +1,17 @@
-﻿l_german:
-
-#Übersetzt von Erllandur
+l_german:
+#Übersetzt von Erllandur, durchgesehen und überarbeitet von Dolli und SYL
 #Common Pentoshi Localization
- pentoshi_religion:0 "Pentosi"
- pentoshi_religion_adj:0 "Glaube der Pentosi"
- pentoshi_religion_adjerent:0 "Anhänger des Prinzen und der Götter"
- pentoshi_religion_adherent_plural:0 "Anhänger des Prinzen und der Götter"
- pentoshi_religion_desc:0 "Am ersten Tag des neuen Jahres muss der Prinz die Jungfrau der Felder und jene der Meere entjungfern. Gibt es jedoch die Befürchtung, dass die Götter den Pentosi zürnen - z.B. nach verlorenen Kriegen oder Missernten - wird dem Prinz die Kehle aufgeschlitzt, um die Götter wieder günstig zu stimmen. Danach wird aus den Vierzig Familien ein neuer Prinz gewählt." #AGOT TODO LOC
- 
+ pentoshi_religion:0 "Glaube der Pentosi"
+ pentoshi_religion_adj:0 "Pentosisch"
+ pentoshi_religion_adherent:0 "Pentosi"
+ pentoshi_religion_adherent_plural:0 "Pentosi"
+ pentoshi_religion_desc:0 "Am ersten Tag des neuen Jahres muss der Fürst die Maid der Meere und die Maid der Felder entjungfern. Dieses sehr alte Ritual, das auf vorvalyrische Zeiten zurückgehen könnte, soll den Wohlstand zu Lande und zu See sichern. Immer wenn eine Hungersnot ausbricht oder ein Krieg verloren geht, dient der Fürst jedoch als Opfergabe an die Götter. Um diese zu besänftigen, wird ihm die Kehle durchgeschnitten. Anschließend wird ein neuer Fürst gewählt, der der Stadt mehr Glück bringen soll." #AGOT TODO LOC
+
  princely_arbiter_high_god_name:0 "R'hllor"
  princely_arbiter_high_god_name_possessive:0 "R'hllors"
  princely_arbiter_high_god_name_alternate:0 "Der Herr des Lichts"
  princely_arbiter_high_god_name_al:0 "des Herrn des Lichts"
- princely_arbiter_good_god_heart_of_fire:0 "Das Herz des Feuers"
+ princely_arbiter_good_god_heart_of_fire:0  "Das Herz des Feuers"
  princely_arbiter_good_god_flame_and_shadow:0 "Der Gott von Flamme und Schatten"
  princely_arbiter_good_god_fiery_heart:0 "Das Brennende Herz"
  princely_arbiter_good_god_red_god:0 "Der Rote Gott"
@@ -27,17 +26,17 @@
  princely_arbiter_good_god_azor_ahai_8:0 "Krieger des Feuers"
  princely_arbiter_devil_name:0 "Der Große Andere"
  princely_arbiter_devil_name_possessive:0 "des Großen Anderen"
- princely_arbiter_evil_god_winter:0 "Winter"
+ princely_arbiter_evil_god_winter:0 "Der Winter"
  princely_arbiter_evil_god_long_night:0 "Die Lange Nacht"
- princely_arbiter_evil_god_white_shadows:0 "Die weißen Schatten"
+ princely_arbiter_evil_god_white_shadows:0 "Die Weißen Schatten"
  princely_arbiter_evil_god_white_walkers:0 "Die Weißen Wanderer"
  princely_arbiter_evil_god_cold_god:0 "Der Kalte Gott"
  princely_arbiter_evil_god_darkness:0 "Die Dunkelheit"
  princely_arbiter_evil_god_demons:0 "die Dämonen"
  princely_arbiter_evil_god_devils:0 "die Teufel"
  princely_arbiter_evil_god_monsters:0 "die Monster"
- princely_arbiter_evil_god_cold_winds:0 "Die kalten Wehen"
- princely_arbiter_evil_god_nameless:0 "Der, dessen Name nich ausgesprochen werden darf"
+ princely_arbiter_evil_god_cold_winds:0 "Die kalten Winde"
+ princely_arbiter_evil_god_nameless:0 "Der, dessen Name nicht ausgesprochen werden darf"
  princely_arbiter_death_deity_name:0 "Die Dunkelheit"
  princely_arbiter_death_deity_name_possessive:0 "der Dunkelheit"
  princely_arbiter_house_of_worship:0 "Roter Tempel"
@@ -67,12 +66,12 @@
  princely_arbiter_negative_afterlife:0 "Hölle"
  princely_arbiter_witchgodname_the_shadows:0 "die Schatten"
 
- princely_arbiter_creator_god_name:0 "$princely_arbiter_high_god_name$"
+  princely_arbiter_creator_god_name:0 "$princely_arbiter_high_god_name$"
  princely_arbiter_creator_god_name_possessive:0 "$princely_arbiter_high_god_name_possessive$"
  princely_arbiter_health_god_name:0 "$princely_arbiter_high_god_name$"
  princely_arbiter_health_god_name_possessive:0 "$princely_arbiter_high_god_name_possessive$"
  princely_arbiter_fertility_god_name:0 "Nissa Nissa"
- princely_arbiter_fertility_god_name_possessive:0 "der Nissa Nissa"
+ princely_arbiter_fertility_god_name_possessive:0 "Nissa Nissas"
  princely_arbiter_wealth_god_name:0 "$princely_arbiter_high_god_name$"
  princely_arbiter_wealth_god_name_possessive:0 "$princely_arbiter_high_god_name_possessive$"
  princely_arbiter_household_god_name:0 "das Heilige Feuer"
@@ -91,8 +90,8 @@
  princely_arbiter_water_god_name_possessive:0 "$princely_arbiter_high_god_name_possessive$"
 
  #Princely Arbiter Faith
- princely_arbiter:0 "Prinzenkult"
- princely_arbiter_adj:0 "Prinzenfürchtig"
- princely_arbiter_adherent:0 "Anhänger des Prinzenkults"
- princely_arbiter_adherent_plural:0 "Anhänger des Prinzenkults"
- princely_arbiter_desc:0 "Am ersten Tag des neuen Jahres muss der Prinz die Jungfrau der Felder und jene der Meere entjungfern. Gibt es jedoch die Befürchtung, dass die Götter den Pentosi zürnen - z.B. nach verlorenen Kriegen oder Missernten - wird dem Prinz die Kehle aufgeschlitzt, um die Götter wieder günstig zu stimmen. Danach wird aus den Vierzig Familien ein neuer Prinz gewählt." #AGOT TODO LOC
+ princely_arbiter:0 "Fürstenkult"
+ princely_arbiter_adj:0 "Pentosisch"
+ princely_arbiter_adherent:0 "Anhänger des Fürstenkults"
+ princely_arbiter_adherent_plural:0 "Anhänger des Fürstenkults"
+ princely_arbiter_desc:0 "Am ersten Tag des neuen Jahres muss der Fürst die Maid der Meere und die Maid der Felder entjungfern. Dieses sehr alte Ritual, das auf vorvalyrische Zeiten zurückgehen könnte, soll den Wohlstand zu Lande und zu See sichern. Immer wenn eine Hungersnot ausbricht oder ein Krieg verloren geht, dient der Fürst jedoch als Opfergabe an die Götter. Um diese zu besänftigen, wird ihm die Kehle durchgeschnitten. Anschließend wird ein neuer Fürst gewählt, der der Stadt mehr Glück bringen soll." #AGOT TODO LOC
