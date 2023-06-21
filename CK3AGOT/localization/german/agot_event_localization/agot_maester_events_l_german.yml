@@ -1,24 +1,24 @@
 ﻿l_german:
-
+#Übersetzt vom Dillo
  maester_title_localization:0 "Maester"
  maester_title_holder:0 "[CHARACTER.Custom('MaesterCheck')]"
  MaesterTitle:0 "Maester"
 
  ### Maester Decisions/Events ###
- decision_employ_maester:0 "Send for a Maester from The Citadel"
- decision_employ_maester_tooltip:0 "You will call for a [maester|E]."
- decision_employ_maester_desc:0 "Renowned throughout the known world as the center of Westerosi learning, The Citadel of Oldtown provides every keep in Westeros with a trained man of learning. Perhaps I should send for one."
- decision_employ_maester_confirm:0 "Send a raven to Oldtown." 
- tooltip_employ_maester:0 "Must not have any capable maesters in our court."
+ decision_employ_maester:0 "Einen Maester von der Zitadelle anfordern"
+ decision_employ_maester_tooltip:0 "Ihr werdet nach einem [maester|E] verlangen."
+ decision_employ_maester_desc:0 "Die Zitadelle von Altsass ist in der ganzen bekannten Welt als Zentrum des Wissens der Westerosi bekannt und versorgt jede Burg in Westeros mit einem ausgebildeten Gelehrten. Vielleicht sollte ich nach einem solchen Mann schicken."
+ decision_employ_maester_confirm:0 "Schickt einen Raben nach Altsass." 
+ tooltip_employ_maester:0 "Wir dürfen keine geeigneten Männer an unserem Hof haben."
 
 
-  agot_maester.0001.t:0 "The New Maester of [capital.GetNameNoTooltip]"
-  agot_maester.0001.desc:0 "The maester I sent for from the Citadel has arrived in [capital.GetNameNoTooltip], a [new_maester.GetCulture.GetName] by the name of [new_maester.GetFirstName]. Let us hope [new_maester.GetSheHe] will be loyal and wise."
-  agot_maester.0001.a:0 "Good."
-  agot_maester.0001.a.tt:0 "The maester will serve as both a councillor and your court physician."
-  agot_maester.0001.b:0 "I'm afraid we no longer have space in the accounts for your service."
+  agot_maester.0001.t:0 "Der neue Maester von [capital.GetNameNoTooltip]"
+  agot_maester.0001.desc:0 "Der Maester, den ich aus der Zitadelle kommen ließ, ist in [capital.GetNameNoTooltip] eingetroffen, ein [new_maester.GetCulture.GetName] mit dem Namen [new_maester.GetFirstName]. Hoffen wir, dass [new_maester.GetSheHe] loyal und weise sein wird."
+  agot_maester.0001.a:0 "Sauber."
+  agot_maester.0001.a.tt:0 "Der Maester wird sowohl als Ratsmitglied als auch als Ihr Hofarzt fungieren."
+  agot_maester.0001.b:0 "Ich fürchte, wir haben keine freien Mittel mehr für Euren Dienst."
 
-  agot_maester.0002.t:0 "Grand Maester of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
-  agot_maester.0002.desc:0 "In your capacity as [ROOT.Char.GetTitleTierName] of [ROOT.Char.GetPrimaryTitle.GetNameNoTier] you will now be assisted by the Grand Maester."
-  agot_maester.0002.a:0 "Good."
-  agot_maester.0002.a.tt:0 "The maester will serve as both a councillor and your court physician."
+  agot_maester.0002.t:0 "Der Großmaester von [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+  agot_maester.0002.desc:0 "In Eurer Eigenschaft als [ROOT.Char.GetTitleTierName] von [ROOT.Char.GetPrimaryTitle.GetNameNoTier] wird Euch nun der Großmaester zur Seite stehen."
+  agot_maester.0002.a:0 "Wunderbar."
+  agot_maester.0002.a.tt:0 "Der Maester wird sowohl als Ratsmitglied als auch als Ihr Hofarzt fungieren."
