@@ -34,17 +34,17 @@
 
  maester_court_position:0 "Maester" #[CharacterWindow.GetCourtOwner.Custom('MaesterCourtPosition')]
  maester_tradition_bonus:0 "Von [culture_tradition|E]"
- maester_court_position_desc:1 Der $maester_court_position$ ist für die Gesundheit und das Wohlergehen des [court|E]es, dem er angehört, verantwortlich. Er wird Krankheiten behandeln und Wunden nach besten Kräften vernähen."
+ maester_court_position_desc:1 Der $maester_court_position$ ist für die Gesundheit und das Wohlergehen des [Concept('court', 'Hofes')|E], dem er angehört, verantwortlich. Er wird Krankheiten behandeln und Wunden nach besten Kräften vernähen."
  maester_employer_custom_effect_description:1 "Führt [medical_treatments|E] durch#!\nVerbessert [education|E]-Ergebnisse \nSchaltet die #V [interaction|E] $make_child_learn_language_interaction$#! frei \n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen Euch#!"
 
  household_guard_court_position:0 "Hauptmann der Leibgarde"
  household_guard_tradition_bonus:0 "Von [culture_tradition|E]"
- household_guard_court_position_desc:0 "Der $household_guard_court_position$ ist verantwortlich für den Schutz des [house|E]es, dem er dient."
+ household_guard_court_position_desc:0 "Der $household_guard_court_position$ ist verantwortlich für den Schutz des [Concept('house', 'Hauses')|E], dem er dient."
  household_guard_employer_custom_effect_description:2 "Verringert das Risiko, in Schlachten, an denen ihr beide teilnehmt, zu sterben oder gefangen genommen zu werden. #!\n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen Euch#!"
 
  septon_court_position:0 "Septon"
  speton_tradition_bonus:0 "Von [culture_tradition|E]"
- septon_court_position_desc:1 "Der $septon_court_position$ bietet religiöse Betreuung für die Mitglieder Eures [court|E]es, die dem Glauben an die Sieben angehören."
+ septon_court_position_desc:1 "Der $septon_court_position$ bietet religiöse Betreuung für die Mitglieder Eures [Concept('court', 'Hofes')|E], die dem Glauben an die Sieben angehören."
 
  septa_court_position:0 "Septa"
  speta_tradition_bonus:0 "Von [culture_tradition|E]"
