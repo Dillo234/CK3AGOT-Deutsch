@@ -65,7 +65,7 @@
  # Punishment event chain
  agot_mega_wars.0300.t:0 "Urteil der Krone"
  agot_mega_wars.0300.desc.a:0 "Das Urteil für Eure Verbrechen gegen die Krone, der Verrat an Seiner Gnaden [ROOT.Var('crown_target').Char.GetName], lautet wie folgt:"
- agot_mega_wars.0300.desc.b:0 "\n[ROOT.Var('selected_hostage').Char.GetName] soll als Geisel an [ROOT.Var('crown_target').Char.GetTitledFirstName] übergeben werden und als Pfand für den Frieden dienen. [selected_hostage.GetSheHe] soll als Ehrengast und entsprechend [selected_hostage.Custom('DE_PRO_POS_S_3P')]es Ranges behandelt werden."
+ agot_mega_wars.0300.desc.b:0 "\n[ROOT.Var('selected_hostage').Char.GetName] soll als Geisel an [ROOT.Var('crown_target').Char.GetTitledFirstName] übergeben werden und als Pfand für den Frieden dienen. [selected_hostage.GetSheHe|U] soll als Ehrengast und entsprechend [selected_hostage.Custom('DE_PRO_POS_S_3P')]es Ranges behandelt werden."
  agot_mega_wars.0300.desc.c:0 "\nEuch soll [selected_title.GetName] entzogen werden."
  agot_mega_wars.0300.desc.d:0 "\nEuch soll Euer Haupttitel enzogen und jeglicher Herrschaftsanspruch aberkannt werden."
  agot_mega_wars.0300.desc.e:0 "\nEuch sollen Eure Nebentitel entzogen und jegliche Herrschaftsansprüche aberkannt werden."
