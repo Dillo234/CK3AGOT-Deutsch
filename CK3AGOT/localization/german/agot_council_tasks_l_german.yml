@@ -115,7 +115,7 @@
  task_admiral_raid_modifier:0 "$councillor_admiral$ konsultieren"
 
 
- task_admiral_raid_effect_desc:0 "[raid|E]-Geschwindigkeit: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_raid_base')] %#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')] %#! \n\n[raid_loot|E]-Kapazität: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_raid_base')] %#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P -[SCOPE.ScriptValue('task_admiral_fleet_skill_base')] %#! \n\n [Concept('fleet', 'Flotten')|E]-Bewegungstempo: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_raid_base')] %#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')] %#!"
+ task_admiral_raid_effect_desc:0 "[raid|E]-Geschwindigkeit: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_raid_base')] %#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')] %#! \n\n[raid_loot|E]-Kapazität: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_raid_base')] %#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P -[SCOPE.ScriptValue('task_admiral_fleet_skill_base')] %#! \n\n[Concept('fleet', 'Flotten')|E]-Bewegungstempo: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_raid_base')] %#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')] %#!"
 
 
  task_admiral_raid_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')] %#!\n"
@@ -128,7 +128,7 @@
  
  task_admiral_maritime_tax_modifier:0 "$councillor_admiral$ konsultieren" 
 
- task_admiral_maritime_effect_desc:0 "[Concept('domain', 'Domänen')|E]-Steuer: #P +[SCOPE.ScriptValue('task_admiral_maritime_tax_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')] %#!\n$TAB$[stewardship_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_tax_base')] %#! \n\n [Concept('supply', 'Versorgungs')E]-Kapazität: #P +[SCOPE.ScriptValue('task_admiral_maritime_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')] %#!\n$TAB$[stewardship_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_base')] %#!"
+ task_admiral_maritime_effect_desc:0 "[Concept('domain', 'Domänen')|E]-Steuer: #P +[SCOPE.ScriptValue('task_admiral_maritime_tax_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')] %#!\n$TAB$[stewardship_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_tax_base')] %#! \n\n[Concept('supply', 'Versorgungs')E]-Kapazität: #P +[SCOPE.ScriptValue('task_admiral_maritime_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')] %#!\n$TAB$[stewardship_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_base')] %#!"
 
  task_admiral_maritime_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')] %#!\n"
 
