@@ -282,7 +282,7 @@
  stewardship_domain_special.1397.a:0 "Ich kann es kaum erwarten, die Vorteile zu genießen!"
  stewardship_domain_special.1397.b:0 "[peasant_leader.GetTitledFirstNameNoTooltip]! Ich habe noch mehr Arbeit für Euch!"
 
- stewardship_domain_special.1398.desc:0 "Das Straßennetzwerk durch [project_county.GetNameNoTier] ist endlich vollendet.\n\n„Diese Straßen werden für die kommenden Generationen die Lebensader der Grafschaft sein!“, verkündet [project_leader.GetTitledFirstName] voller Stolz."
+ stewardship_domain_special.1398.desc:0 "Das Straßennetzwerk durch [project_county.GetNameNoTier] ist endlich vollendet.\n\n„Diese Straßen werden für die kommenden Generationen die Lebensader der Lordschaft sein!“, verkündet [project_leader.GetTitledFirstName] voller Stolz."
  stewardship_domain_special.1398.a:0 "Ich kann es kaum erwarten, die Vorteile zu genießen!"
  stewardship_domain_special.1398.b:0 "[peasant_leader.GetTitledFirstNameNoTooltip]! Ich habe noch mehr Arbeit für Euch!"
 
@@ -349,7 +349,7 @@
  stewardship_domain_special.1426.desc:0 "Es ist wenig feierlich, aber das Feuer tut, was getan werden muss. Ich sehe zu, wie die Flammen die längst verlassenen Häuser verschlingen, aber nicht lange. Ich bin fertig mit diesem Ort."
  stewardship_domain_special.1426.a:0 "Ich sollte nach Hause zurückkehren."
 
- stewardship_domain_special.1431.desc:0 "Nach tagelanger Reise finde ich das Dorf, das in meinen Aufzeichnungen fehlt. Nicht nur, dass es gedeiht, es in voller Blüte steht, nein, die Dorfbewohner beharren auch darauf, dass sie ihre Steuern #EMP sehr wohl#! bezahlten.\n\n[collector.GetTitledFirstName], [collector.Custom('DE_ART_DEF_S_N')] Steuereintreiber[collector.Custom('DE_END_NOU_S_GS_N')] der Baronie, war nicht ganz ehrlich gewesen."
+ stewardship_domain_special.1431.desc:0 "Nach tagelanger Reise finde ich das Dorf, das in meinen Aufzeichnungen fehlt. Nicht nur, dass es gedeiht, es in voller Blüte steht, nein, die Dorfbewohner beharren auch darauf, dass sie ihre Steuern #EMP sehr wohl#! bezahlten.\n\n[collector.GetTitledFirstName], [collector.Custom('DE_ART_DEF_S_N')] Steuereintreiber[collector.Custom('DE_END_NOU_S_GS_N')] der Kleinlordschaft, war nicht ganz ehrlich gewesen."
  stewardship_domain_special.1431.a:0 "[collector.GetFirstNameNoTooltip] muss mir einige Fragen beantworten …"
  stewardship_domain_special.1431.a.tt:0 "Ich werde [collector.GetFirstName] zur Rede stellen"
  stewardship_domain_special.1431.b:0 "Treibt die Dorfbewohner zusammen. Sie werden erneut bezahlen."
@@ -382,7 +382,7 @@
  stewardship_domain_special.1444.a:0 "Welch Desaster."
 
  stewardship_domain_special.1445.t:1 "$stewardship_domain_special.1401.t$: Einsam und verlassen"
- stewardship_domain_special.1445.end:0 "\n\nJetzt sind noch mehr Dörfer verschwunden, aber meine Eintreiber kennen den offensichtlichen Grund. Hohe Steuern haben dazu geführt, dass gutes Land aufgegeben wird, weil die Bauern entweder verhungern oder in andere Grafschaften fliehen."
+ stewardship_domain_special.1445.end:0 "\n\nJetzt sind noch mehr Dörfer verschwunden, aber meine Eintreiber kennen den offensichtlichen Grund. Hohe Steuern haben dazu geführt, dass gutes Land aufgegeben wird, weil die Bauern entweder verhungern oder in andere Lordschaften fliehen."
  stewardship_domain_special.1445.a:0 "Nun, wenn sie sich ihr Leben nicht leisten können …"
 
  stewardship_domain_special.1451.t:1 "$stewardship_domain_special.1401.t$: Ins Gedächtnis gebrannt"
@@ -409,7 +409,7 @@
 
  stewardship_domain_special.1501.desc:0 "Mein Ratsmarschall [domesday_marshal.GetTitledFirstName] befürchtet, dass meine Vermesser ein gefundenes Ziel für Banditen und Diebe sein könnten. Auch eine unvollständige Vermessung könnte Verbrechern wertvolle Informationen über mögliche Ziele bieten!\n\nUm meine Untertanen zu beschützen, empfiehlt [domesday_marshal.GetFirstNameNoTooltip], dass ich jeden Vermesser von einer bewaffneten Eskorte begleiten lasse."
  stewardship_domain_special.1501.a:0 "Mein Gesetz ist Schutz genug für meine Untertanen!"
- stewardship_domain_special.1501.a.tt:0 "In Grafschaften mit niedriger [control|E] könnten meine Vermesser angegriffen werden"
+ stewardship_domain_special.1501.a.tt:0 "In Lordschaften mit niedriger [control|E] könnten meine Vermesser angegriffen werden"
  stewardship_domain_special.1501.b:0 "Ich organisiere eine Miliz, die meine Vermesser beschützt."
  stewardship_domain_special.1501.b.success:0 "Meine Milizen beschützen meine Vermesser"
  stewardship_domain_special.1501.b.failure:0 "Meine Milizen sind nicht in der Lage, meine Vermesser zu beschützen"
@@ -437,14 +437,14 @@
  stewardship_domain_special.1520.c:0 "Versteckt [concerned_noble.Custom('DE_PRO_PER_S_3P_N')] da vielleicht etwas? Zieht meine Assessoren ab und schickt Spione!"
  stewardship_domain_special.1520.c.tt:0 "Ich entdecke eines der [secrets|E] von [concerned_noble.GetTitledFirstName]"
 
- stewardship_domain_special.1530.desc:0 "[city_mayor.GetTitledFirstName] kommt zu mir und berichtet, dass die Zimmermannszunft von [guild_town.GetNameNoTierNoTooltip] in [guild_county.GetNameNoTier] dagegen protestiert, in meine Vermessung aufgenommen zu werden.\n\nSie behauptet, dass die Vermessung gegen die ihnen zur Verwaltung ihrer eigenen Angelegenheiten verliehenen Privilegien verstößt, und sie fordern, dass meine Assessoren aus der Grafschaft abgezogen werden, sodass sie wieder ungehindert agieren können."
+ stewardship_domain_special.1530.desc:0 "[city_mayor.GetTitledFirstName] kommt zu mir und berichtet, dass die Zimmermannszunft von [guild_town.GetNameNoTierNoTooltip] in [guild_county.GetNameNoTier] dagegen protestiert, in meine Vermessung aufgenommen zu werden.\n\nSie behauptet, dass die Vermessung gegen die ihnen zur Verwaltung ihrer eigenen Angelegenheiten verliehenen Privilegien verstößt, und sie fordern, dass meine Assessoren aus der Lordschaft abgezogen werden, sodass sie wieder ungehindert agieren können."
  stewardship_domain_special.1530.a:0 "Die Gilden werden vermessen, Privilegien hin oder her!"
  stewardship_domain_special.1530.b:0 "Ich könnte sie davon ausnehmen im Tausch gegen ihre Dienste …"
  stewardship_domain_special.1530.c:0 "Sie widersetzen sich meiner Autorität?! Widerruft ihre Gründungsurkunde!"
 
  stewardship_domain_special.1540.desc.a:0 "Während meine Assessoren durch [domesday_robbed_county.GetNameNoTier] reisten, wurden sie von Banditen überfallen. Mehrere Assessoren kamen ums Leben, und außerdem gingen die Aufzeichnungen verloren, die sie mit sich führten."
  stewardship_domain_special.1540.desc.b:0 "Während meine Assessoren durch [domesday_robbed_county.GetNameNoTier] reisten, wurden sie von Banditen überfallen. Zum Glück konnten die Soldaten, die sie begleiteten, die Schurken in die Flucht schlagen."
- stewardship_domain_special.1540.a:0 "Ignoriert [domesday_robbed_county.GetNameNoTierNoTooltip]. Die Grafschaft ist nicht Teil der Vermessung."
+ stewardship_domain_special.1540.a:0 "Ignoriert [domesday_robbed_county.GetNameNoTierNoTooltip]. Die Lordschaft ist nicht Teil der Vermessung."
  stewardship_domain_special.1540.b:0 "Erhöht die Streifen entlang der Straßen dort und schickt weitere Assessoren!"
  stewardship_domain_special.1540.c:0 "Dies soll all jenen in [domesday_robbed_county.GetNameNoTierNoTooltip] eine Lektion sein, die es wagen, sich mir zu widersetzen!"
 
@@ -453,7 +453,7 @@
  stewardship_domain_special.1550.b:0 "Ich setze das Bestechungsgeld ein, um diese Besitztümer korrekt zu bewerten."
  stewardship_domain_special.1550.c:1 "Werft [domesday_steward.GetTitledFirstNameNoTooltip] in den Kerker. [domesday_steward.Custom('DE_PRO_POS_S_3P')|U]e Tage als [domesday_steward.GetCouncilTitle] sind vorbei."
 
- stewardship_domain_special.1560.desc:0 "[city_mayor.GetTitledFirstName] berichtet mir, dass fahrende Kaufleute sich über meine Assessoren in [trade_county.GetNameNoTier] beschwert haben.\n\nSie halten es offenbar für ungerecht, dass ihre Waren bewertet werden, da sie doch keine Einwohner von [ROOT.Char.GetPrimaryTitle.GetNameNoTier] seien. Mehrere von ihnen drohen, die Grafschaft zu verlassen und nie mehr wiederzukehren."
+ stewardship_domain_special.1560.desc:0 "[city_mayor.GetTitledFirstName] berichtet mir, dass fahrende Kaufleute sich über meine Assessoren in [trade_county.GetNameNoTier] beschwert haben.\n\nSie halten es offenbar für ungerecht, dass ihre Waren bewertet werden, da sie doch keine Einwohner von [ROOT.Char.GetPrimaryTitle.GetNameNoTier] seien. Mehrere von ihnen drohen, die Lordschaft zu verlassen und nie mehr wiederzukehren."
  stewardship_domain_special.1560.a:0 "Jeder wird bewertet, Einwohner hin oder her!"
  stewardship_domain_special.1560.b:0 "Wenn sie eine Gebühr an mich entrichten, werde ich eine Ausnahme machen."
  stewardship_domain_special.1560.c:0 "Da haben die Kaufleute durchaus recht."
@@ -469,8 +469,8 @@
  stewardship_domain_special.1590.poor:0 "Die Vermessung ist so ungenau, dass sie unbrauchbar ist"
  stewardship_domain_special.1590.poor.desc:0 "Leider war die Vermessung durch meine Assessoren so ungenau, dass sie zu nichts zu gebrauchen ist! Nun werden meine Steuereintreiber dieses Jahr keine Hilfe haben …"
  stewardship_domain_special.1590.none.desc:0 "\n\nVerblüffenderweise konnte sich jede einzelne Provinz meines Reiches irgendwie eine Ausnahme von der Vermessung erschleichen. Daher enthält die abschließende Auflistung buchstäblich keinerlei Informationen über die Besitztümer in meinem Reich."
- stewardship_domain_special.1590.every_county:0 "Alle Grafschaften in [THIS.Char.GetPrimaryTitle.GetName]"
- stewardship_domain_special.1590.every_nonexcluded_county:0 "Alle nicht ausgenommenen Grafschaften in [THIS.Char.GetPrimaryTitle.GetName]"
+ stewardship_domain_special.1590.every_county:0 "Alle Lordschaften in [THIS.Char.GetPrimaryTitle.GetName]"
+ stewardship_domain_special.1590.every_nonexcluded_county:0 "Alle nicht ausgenommenen Lordschaften in [THIS.Char.GetPrimaryTitle.GetName]"
  stewardship_domain_special.1590.high_quality.desc:1 "\n\nMit stolzgeschwellter Brust fragt mein [domesday_final_steward.GetCouncilTitle] [domesday_final_steward.GetFirstName] mich, wo wir die Aufzeichnungen aufbewahren sollen, jetzt, da die Auswertung abgeschlossen ist."
  stewardship_domain_special.1590.low_quality.desc:1 "\n\nMein [domesday_final_steward.GetCouncilTitle] [domesday_final_steward.GetFirstName] ist untröstlich: Dies sei nicht das Ergebnis, das [domesday_final_steward.Custom('DE_PRO_PER_S_3P_N')] sich vorgestellt hatte."
  stewardship_domain_special.1590.no_steward.desc:1 "\n\nWenn ich doch nur noch einen [ROOT.GetCouncillorPosition('councillor_steward').GetPositionName] hätte. Diese Vermessung hätte besser laufen können."
@@ -485,7 +485,7 @@
 
  # Visit displeased county, by Stephen Arthur
  stewardship_domain_special.3010.t:0 "Unruhen in [stewardship_domain_special_3010_county.GetNameNoTier]"
- stewardship_domain_special.3010.desc:0 "Die Bewohner von [stewardship_domain_special_3010_county.GetNameNoTier] sind offenbar unzufrieden mit meiner Herrschaft.\n\nWenn ich die Grafschaft persönlich besuchte, könnte ich den Menschen die … ähem, #EMP Notwendigkeit#! meiner Autorität vor Augen führen."
+ stewardship_domain_special.3010.desc:0 "Die Bewohner von [stewardship_domain_special_3010_county.GetNameNoTier] sind offenbar unzufrieden mit meiner Herrschaft.\n\nWenn ich die Lordschaft persönlich besuchte, könnte ich den Menschen die … ähem, #EMP Notwendigkeit#! meiner Autorität vor Augen führen."
  stewardship_domain_special.3010.a:0 "Ich werde ihnen zeigen, aus welchem Holz ich geschnitzt bin!"
  stewardship_domain_special.3010.b:0 "Meine Zeit ist mir zu wichtig, um sie an deren Meinung zu vergeuden."
 

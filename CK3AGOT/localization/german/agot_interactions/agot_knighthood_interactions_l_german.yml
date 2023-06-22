@@ -7,7 +7,7 @@
  OFFER_KNIGHTHOOD_NOTIFICATION:0 "Die Ritter der Königslande haben das Privileg, andere zum Ritter zu schlagen. Mir blieb nicht unbemerkt, dass ihr noch kein Ritter seid. Es wäre mir eine Freude, dies zu ändern."
 
  agot_offer_squirehood_interaction:0 "Knappen ausbilden"
- agot_offer_squirehood_interaction_desc:0 "Unterweist einen [squire|E]n einem [agot_knight|E] an Eurem [court|E]"
+ agot_offer_squirehood_interaction_desc:0 "Unterweist einen [Concept('squire', 'Knappen')|E] einem [agot_knight|E] an Eurem [court|E]"
  agot_offer_squirehood_interaction_extra_icon:0 "$hook_extra_icon$"
  actor_secondary_agot_offer_squirehood_interaction:0 "[agot_knight|E]"
  recipient_secondary_agot_offer_squirehood_interaction:0 "[squire|E]"
@@ -169,8 +169,8 @@ SQUIREHOOD_I_AM_OLD_ENOUGH_TO_BE_A_KNIGHT:0 "Der vorgeschlagene Knappe ist alt g
 
 SQUIREHOOD_SQUIRE_CANDIDATE_IS_NOT_RIGHT_IN_THE_HEAD:0 "Der vorgeschlagene Knappe hat einen Schatten: $VALUE|=+0$"
 
-KNIGHTING_AI_GUARDIAN_SKILL_MARTIAL:0 "[martial|E]s-Fähigkeit des Ritters: $VALUE|=+0$" # Bindestrich ist eigentlich falsch, aber ist nach CK3 Norm
-KNIGHTING_AI_GUARDIAN_SKILL_PROWESS:0 "[prowess|E]s-Fähigkeit des Ritters: $VALUE|=+0$"
+KNIGHTING_AI_GUARDIAN_SKILL_MARTIAL:0 "[Concept('martial', 'Kriegsführungs')|E]-Fähigkeit des Ritters: $VALUE|=+0$"
+KNIGHTING_AI_GUARDIAN_SKILL_PROWESS:0 "[Concept('prowess', 'Kampfgeschicks')|E]-Fähigkeit des Ritters: $VALUE|=+0$"
 
 educate_squire_interaction_notification:0 "Knappen ausbilden"
 
