@@ -1,4 +1,5 @@
 ﻿l_german:
+ #Übersetzt von Niklas, durchgesehen und überarbeitet vom netten Dillo
  ##################################################
  # #Misc
  fp2_struggle.0011.t:0 "fp2_struggle.0011.t"
@@ -80,47 +81,47 @@
  fp2_struggle.0051.c.refuses_to_engage:0 "fp2_struggle.0051.c.refuses_to_engage"
 
 ##### Intro #####
- fp2_btw_struggle.0501.t:1 "The $btw_struggle$"
- fp2_btw_struggle.0501.desc:1 "The disparate clans of free folk beyond the Wall are in turmoil, a conflict born of its storied past. The Night's Watch threatens these lands with its rangings while others flee south in hopes of warmth and peace. But those who live and die on its soil will ultimately determine its fate.\n\n"
- fp2_btw_struggle.0501.desc.involved:0 "I will not let slip my vision for my homeland. By [ROOT.Char.GetFaith.HighGodName], House [ROOT.Char.GetHouse.GetNameNoTooltip] will weather the storm and see my will fulfilled.\n\n"
- fp2_btw_struggle.0501.desc.interloper:0 "The wildlings north of the Wall have languished in conflict amongst themselves for thousands of years. They call themselves the \"free folk,\" but they are nothing more than savages.\n\nThe Night's Watch is the last hope against the hordes of wildlings beyond the Wall. I am the sword in the darkness. I am the watcher on the Wall. I am the shield that guards the realms of men.\n\n"
+ fp2_btw_struggle.0501.t:1 "Der $btw_struggle$"
+ fp2_btw_struggle.0501.desc:1 "Die ungleichen Stämme des Freien Volkes jenseits der Mauer befinden sich in Aufruhr, eine Spannung, geschaffen von ihrer geschichtsträchtigen Vergangenheit. Die Nachtwache bedroht diese Länder mit ihren Ausmärschen, während andere in der Hoffnung auf Wärme und Frieden gen Süden fliehen. Doch jene, die jenseits der Mauer leben und sterben, werden am Ende auch diejenigen sein, die über deren Schicksal entscheiden.\n\n"
+ fp2_btw_struggle.0501.desc.involved:0 "Ich werde nicht von meiner Vision für mein Heimatland lassen. Bei [ROOT.Char.GetFaith.HighGodName]! Haus [ROOT.Char.GetHouse.GetNameNoTooltip] wird den Sturm überdauern und meinen Willen in die Tat umgesetzt sehen.\n\n"
+ fp2_btw_struggle.0501.desc.interloper:0 "Die Wildlinge nördlich der Mauer liegen seit Tausenden von Jahren im Konflikt miteinander. Sie nennen sich selbst das „Freie Volk”, aber sie sind nichts weiter als Wilde.\n\nDie Nachtwache ist die letzte Hoffnung gegen die Horden der Wildlinge jenseits der Mauer. Ich bin das Schwert in der Dunkelheit. Ich bin der Wächter auf den Mauern. Ich bin der Schild, der die Reiche der Menschen schützt.\n\n"
  fp2_btw_struggle.0501.desc.mottocall:0 "[ROOT.Char.GetHouse.GetMotto]!"
- fp2_btw_struggle.0501.a:0 "Take hold of fate!"
+ fp2_btw_struggle.0501.a:0 "Ergreift Euer Schicksal!"
 
 ##### Hostility #####
 # Struggle Ender
  fp2_struggle.0900.t:0 "$struggle_btw_ending_hostility_decision$"
- fp2_struggle.0900.opening.basque:0 "We [ROOT.Char.GetCulture.GetNameNoTooltip] have endured centuries of encroachment: Andals, Crows, kneelers... but, with time, each of their strengths faltered. Today, the fate of the free folk is in #EMP our#! hands once more."
- fp2_struggle.0900.opening.andalusian:0 "The history of our people is as complex as we are diverse, and as fraught as we are strong. The future of the lands beyond the Wall will once again be decided by the heirs of the Umayyads."
- fp2_struggle.0900.opening.iberian:0 "For too long the free folk have suffered at the hands of the Night's Watch; today we will restore the hope that the descendants of the First Men lost millenia ago."
- fp2_struggle.0900.opening:0 "The chaos that the lands beyond the Wall suffered in the preceding centuries has left a stain in the hearts of all its inhabitants. Today begins this land's next chapter..."
- fp2_struggle.0900.desc:0 "\n\nThere is now no other realm that can truly contest [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] dominance in the lands beyond the Wall, or the priests and settlers who bring the word of [ROOT.Char.GetFaith.HighGodName] and [ROOT.Char.GetCulture.GetName] civilization to its villages.\n\nAll that remains is to declare this victory, having decided how to proceed with our rule."
- fp2_struggle.0900.a:0 "This shall be a land of [ROOT.Char.GetFaith.HighGodNameAlternate]!"
- fp2_struggle.0900.b:0 "The settlement of these frozen lands will be our focus."
- fp2_struggle.0900.c:1 "[ROOT.Char.GetFaith.HighGodName] has given the lands beyond the Wall to the [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]!"
+ fp2_struggle.0900.opening.basque:0 "Unsere [ROOT.Char.GetCulture.GetNameNoTooltip|l]e Kultur sah sich Jahrhunderten der Bedrängung ausgesetzt: Andalen, Krähen, Kniende … doch mit der Zeit ließen ihre Kräfte nach. Heute liegt das Schicksal des Freien Volkes wieder in #EMP unseren#! Händen."
+ fp2_struggle.0900.opening.andalusian:0 "Die Geschichte unseres Volkes ist so vielschichtig, wie wir vielfältig sind, und trotz aller Spannungen ist sie von unserer Stärke gekennzeichnet. Die Zukunft jenseits der Mauer wird nun wieder von den Erben der Ersten der Menschen entschieden werden."
+ fp2_struggle.0900.opening.iberian:0 "Viel zu lange litt das Freie Volk durch die Nachtwache: Heute werden wir jener Hoffnung neues Leben einhauchen, die die rechtmäßigen Erben der Ersten Menschen vor Jahrhunderten verloren."
+ fp2_struggle.0900.opening:0 "Das Chaos, unter dem die Völker jenseits der Mauer in den vorangegangenen Jahrhunderten litt, hat einen Makel in den Herzen all seiner Bewohner hinterlassen. Heute beginnt das nächste Kapitel in der Geschichte dieser Völker …"
+ fp2_struggle.0900.desc:0 "\n\nEs gibt nun kein anderes Reich mehr, das die [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l]e Vorherrschaft in den Ländern jenseits der Mauer ernsthaft anfechten oder es mit jenen Priestern und Siedlern aufnehmen könnte, die die Lehren von [ROOT.Char.GetFaith.HighGodName] und die [ROOT.Char.GetCulture.GetAdjective|l]e Zivilisation in die Dörfer unserer Heimat tragen.\n\nEs bleibt nur noch, diesen Triumph zu verkünden, nachdem wir beschlossen haben, wie wir mit unserer Herrschaft weiter verfahren sollen."
+ fp2_struggle.0900.a:0 "Dieses Land soll [ROOT.Char.GetFaith.HighGodNameAlternate] gehören!"
+ fp2_struggle.0900.b:0 "Wir werden uns ganz der Besiedlung dieser frostigen Länder widmen."
+ fp2_struggle.0900.c:1 "Die [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] haben die Länder jenseits der Mauer von [ROOT.Char.GetFaith.HighGodName] als Geschenk erhalten!"
 # Other Players
- fp2_struggle.0910.opening.involved:0 "Though it comes from another realm, deliverance from the uncertainty that has engulfed the region for centuries may now be at hand..."
- fp2_struggle.0910.opening:0 "Word of recent developments beyond the Wall has reached our court, promising an end to the conflicts that have plagued the wildling clans."
- fp2_struggle.0910.desc:0 "\n\n[struggle_ender.GetName], who now controls the majority of the lands beyond the Wall, has proclaimed [struggle_ender.GetHerselfHimself] the ultimate victor of the struggles set in motion long ago by the Andal invasion.\n\n"
- fp2_struggle.0910.closing.faith:0 "[struggle_ender.GetSheHe|U] has proclaimed the lands beyond the Wall to be a [struggle_ender.GetFaith.GetAdjective] land, and that, [struggle_ender.GetFaith.HighGodName] willing, all heretics and infidels will be driven from [struggle_ender.GetHerHis] domain."
- fp2_struggle.0910.closing.culture:0 "[struggle_ender.GetSheHe|U] has proclaimed the lands beyond the Wall belongs to the [struggle_ender.GetCulture.GetName], and that all foreign invaders and subjugated peoples accept this reality."
- fp2_struggle.0910.closing.combined:0 "[struggle_ender.GetSheHe|U] has proclaimed the lands beyond the Wall and [struggle_ender.GetPrimaryTitle.GetNameNoTier] to be one and the same, now delivered to the hands of the [struggle_ender.GetFaith.GetAdjective] [struggle_ender.GetCulture.GetName] by [struggle_ender.GetFaith.HighGodName]..."
- fp2_struggle.0910.a:0 "This is not over."
- fp2_struggle.0910.b:0 "Most interesting."
+ fp2_struggle.0910.opening.involved:0 "Auch wenn sie durch ein anderes Reich erfolgen mag, könnte uns die Erlösung aus einer Ungewissheit, die diese Region seit Jahrhunderten fest in ihrem Griff hatte, unmittelbar bevorstehen …"
+ fp2_struggle.0910.opening:0 "Die Kunde von den jüngsten Entwicklungen jenseits der Mauer hat unseren Hof erreicht. Sie verheißt ein Ende jener Spannungen, die die Region schon lange plagen."
+ fp2_struggle.0910.desc:0 "\n\n[struggle_ender.GetName] gebietet nun über den Großteil der Länder jenseits der Mauer und hat sich zum endgültigen Sieger in jenem Konflikt ausgerufen, das vor so langer Zeit durch die andalische Invasion begonnen wurde.\n\n"
+ fp2_struggle.0910.closing.faith:0 "[struggle_ender.Custom('DE_PRO_PER_S_3P_N')|U] ließ verlautbaren, dass die Länder jenseits der Mauer [struggle_ender.GetFaith.GetAdjective|l]e Länder sein sollen und – so [struggle_ender.GetFaith.HighGodName] will – alle Ketzer und Ungläubigen aus [struggle_ender.Custom('DE_PRO_POS_S_3P')]er Domäne vertrieben werden."
+ fp2_struggle.0910.closing.culture:0 "[struggle_ender.Custom('DE_PRO_PER_S_3P_N')|U] ließ verlautbaren, dass die Länder jenseits der Mauer Teil der [struggle_ender.GetCulture.GetAdjective|l]en Kultur sein sollen und dass alle fremden Invasoren und unterworfenen Völker diese Tatsache begreifen sollten."
+ fp2_struggle.0910.closing.combined:0 "[struggle_ender.Custom('DE_PRO_PER_S_3P_N')|U] ließ verlautbaren, dass die Länder jenseits der Mauer und [struggle_ender.GetPrimaryTitle.GetNameNoTier] ein und dasselbe sind und nun durch [struggle_ender.GetFaith.HighGodName] als Teil der [struggle_ender.GetCulture.GetAdjective|l]en Kultur in die Hände der [struggle_ender.GetFaith.GetAdjective|l]en Gläubigen gegeben wurde."
+ fp2_struggle.0910.a:0 "Das ist noch nicht vorbei."
+ fp2_struggle.0910.b:0 "Höchst interessant."
 ##### Compromise #####
 # Struggle Ender
  fp2_struggle.0901.t:0 "$struggle_btw_ending_compromise_decision$"
- fp2_struggle.0901.desc:1 "\n\nIt is now clear there will be no end to this cycle of bloodshed if things continue; the free folk will not unify.\n\nWe must be satisfied with [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], and leave the other potentates of the lands beyond the Wall to their own devices - for now..."
- fp2_struggle.0901.a:0 "This is for the best."
- fp2_struggle.0901.tt:0 "[THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier] has become a [de_jure|E] [empire|E]"
+ fp2_struggle.0901.desc:1 "\n\nEs ist nun klar, dass dieser Teufelskreis des Blutvergießens niemals ein Ende nehmen wird, wenn die Dinge so weitergehen. Die Freien Völker werden keine Vereinigung dulden.\n\nWir müssen mit [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] zufrieden sein und die anderen Potentaten jenseits der Mauer ihrem eigenen Treiben überlassen – fürs Erste …"
+ fp2_struggle.0901.a:0 "So ist es am besten."
+ fp2_struggle.0901.tt:0 "[THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier] ist [de_jure|E] ein [empire|E] geworden"
 # Other Players
- fp2_struggle.0911.desc:0 "\n\n[struggle_ender.GetTitledFirstName] has officialy renounced any intentions to unite the wildling clans under a common crown, and declared any who would that title illegitimate.\n\nThe disparate realms molded by millenia of isolation from the south and infighting are now too entrenched to be united."
- fp2_struggle.0911.a:0 "We will not forget the dream of a Kingdom Beyond the Wall..."
+ fp2_struggle.0911.desc:0 "\n\n[struggle_ender.GetTitledFirstName] hat offiziell sämtlichen Absichten abgeschworen, die Länder jenseits der Mauer unter einer gemeinsamen Krone zu vereinigen, und jeden als illegitim erklärt, der versuchen sollte, diesen Titel zu tragen.\n\nDie einzelnen Reiche, die durch die Jahrhunderte der Isolation zum Süden und der Machtkämpfe geformt wurden, sind nun zu fest verankert, als dass man sie noch vereinen könnte."
+ fp2_struggle.0911.a:0 "Wir werden den Traum von einem König jenseits der Mauer nicht aufgeben …"
 ##### Conciliation #####
 # Struggle Ender
  fp2_struggle.0902.t:0 "$struggle_btw_ending_conciliation_decision$"
- fp2_struggle.0902.desc:0 "\n\nA sworn guarantee of protection, which only I am now in a position to enforce, will ensure the diverse peoples of the region may live and worship freely.\n\n[ROOT.Char.GetFaith.HighGodName] willing, the wars of the past will remain there, and the other free chiefs will see the benefits of co-existence."
- fp2_struggle.0902.a:0 "Send the heralds."
+ fp2_struggle.0902.desc:0 "\n\nEin Schutzeid, den nun allein ich durchzusetzen vermag, wird dafür Sorge tragen, dass die verschiedenen Völker der Region ihrem täglichen Leben und ihrem Glauben frei nachgehen können.\n\nSo [ROOT.Char.GetFaith.HighGodName] will, liegen die Kriege der Vergangenheit nun endgültig hinter uns und die anderen Stammesanführer werden die Vorzüge der Koexistenz begreifen."
+  fp2_struggle.0902.a:0 "Sendet die Raben."
 # Other Players
- fp2_struggle.0912.desc:0 "\n\n[struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip] heralds have proclaimed guarantees of free passage and worship for all, enforced by [struggle_ender.GetTitledFirstName], to the wide acclamation of the free folk.\n\nMany have longed for an end to the bloodshed in the lands beyond the Wall; perhaps #EMP this#! peace will be a lasting one."
- fp2_struggle.0912.a:0 "A surprise, to be sure."
+ fp2_struggle.0912.desc:0 " \n\nUnter großer Zustimmung des Freien Volkes verkündeten [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip|l]e Herolde allgemeine Garantien für Freizügigkeit und freie Religionsausbündung, die [struggle_ender.GetTitledFirstName] durchzusetzen gedenkt.\n\nViele sehnten sich nach einem Ende des Blutvergießens jenseits der Mauer. Vielleicht wird #EMP dieser#! Friede nun von Dauer sein."
+ fp2_struggle.0912.a:0 "Das ist überraschend."
