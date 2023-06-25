@@ -1,11 +1,10 @@
 ﻿l_german:
- 
  #Übersetzt von Erllandur
- agot_sailing_at_sea.0001.t:0 "Auf See verschollen"
- agot_sailing_at_sea.0001.desc:0 "Eine Kathastrophe! Der Kapitän versicherte uns, dass es eine sanfte Fahrt durch [current_location.GetName] werden würde, doch wie um ihn für seine Arroganz und Anmaßung zu bestrafen, zeichnete sich am Horizont bald eine dunkle Wolkenfront ab. Unser Schiff begann zu ruckeln und zu schwanken, hin- und hergeworfen von wilden und wütenden Wellen. \n\nIm Chaos des tobenden Sturms sah ich, wie einer meiner Ritter, [KnightDisaster.GetTitledFirstName], mit einem markerschütternden Schrei über Bord gefegt wurde! Selbst inmitten des Getöses des Sturms kann ich seine verzweifelten Schreckensschreie hören, als der schäumende See ihn in ein wässriges Grab zu ziehen droht."
+ agot_sailing_at_sea.0001.t:0 "Auf Hoher See verschollen"
+ agot_sailing_at_sea.0001.desc:0 "Eine Kathastrophe! Der Kapitän versicherte uns, dass es eine sanfte Fahrt durch [current_location.GetName] werden würde, doch wie um ihn für seine Arroganz und Anmaßung zu bestrafen, zeichnet sich am Horizont bald eine dunkle Wolkenfront ab. Unser Schiff beginnt zu ruckeln und zu schwanken. Wild wird es von den Wellen umhergeworfen, als wäre es nur ein Stück Treibholz.\n\nIm Chaos des tobenden Sturms sehe ich, wie mein Ritter [KnightDisaster.GetTitledFirstName] mit einem markerschütternden Schrei über Bord gefegt wird! Selbst inmitten des Getöses kann ich seine verzweifelten Schreie hören, als die schäumende See ihn in ein wässriges Grab zu ziehen droht."
  agot_sailing_at_sea.0001.a:0 "So tu doch jemand etwas!"
- agot_sailing_at_sea.0001.a.toast1.t:0 "[KnightDisaster.GetTitledFirstName] ertrank!"
- agot_sailing_at_sea.0001.a.toast1.d:0 "Allen Rettungsversuchen zum Trotz, konnten wir nicht verhindern das [KnightDisaster.GetTitledFirstName] ertrank!"
+ agot_sailing_at_sea.0001.a.toast1.t:0 "[KnightDisaster.GetTitledFirstName] ist ertrunken"
+ agot_sailing_at_sea.0001.a.toast1.d:0 "Allen Rettungsversuchen zum Trotz, konnten wir den Tod von [KnightDisaster.GetTitledFirstName] nicht verhindern!"
  agot_sailing_at_sea.0001.b:0 "Arme Seele. Der Wille der Götter ist wahrlich unergründlich."
  #agot_sailing_at_sea.0001.b.tt:0 "PLATZHALTER"
  #agot_sailing_at_sea.0001.c:0 "PLATZHALTER"
@@ -14,22 +13,22 @@
  #agot_sailing_at_sea.0001.d.tt:0 "PLATZHALTER"
 
 agot_sailing_at_sea.0003.t:0 "Leben auf dem Meer"
-agot_sailing_at_sea.0003.desc:0 "Monate auf See zu verbringen verlangt von jedem Mann seinen Tribut. In den ersten Wochen aß ich nicht viel anders als daheim, doch als die Vorräte schwanden, aß ich bald dasselbe wie meine Männer. Eine Zeit lang hatten wir noch unsere Vorräte an Pökelfleisch. Diese Tage sind längst vergangen. Nun bleiben uns nur noch Zwieback und Hartkekse. \n\nDie Müdigkeit und die Schmerzen begannen zuerst, auch wenn sie noch leicht zu ignorieren waren. Doch die Schmerzen wurden schlimmer und nun fühlt es sich an, als würde die Hölle selbst in meinen Knien brennen, sobald ich aufstehe. Das schlimmste geschah heute morgen, als ich in einen Hartkeks biss und sich einer meiner Zähne aus dem geschwollenen, blutigen Zahnfleisch löste..."
-agot_sailing_at_sea.0003.a:0 "...vielleicht ist es an der Zeit umzukehren."
+agot_sailing_at_sea.0003.desc:0 "Monate auf See zu verbringen verlangt von jedem Mann seinen Tribut. In den ersten Wochen speiste so wie daheim, doch als die Vorräte schwanden, fing ich an wie meine Männer zu essen. Eine Zeit lang hatten wir noch unsere Vorräte an Pökelfleisch, jedoch sind deise Tage verstrichen. Nun bleiben uns nur noch Zwieback und Hartkekse. \n\nDie Müdigkeit und die Schmerzen begannen zuerst, auch wenn sie noch leicht zu ignorieren waren. Doch die Schmerzen wurden schlimmer und nun fühlt es sich an, als würde die Hölle selbst in meinen Knien brennen, sobald ich aufstehe. Das schlimmste geschah heute morgen, als ich in einen Hartkeks biss und sich einer meiner Zähne aus dem geschwollenen, blutigen Zahnfleisch löste."
+agot_sailing_at_sea.0003.a:0 "Vielleicht ist es an der Zeit umzukehren."
 
 #im Folgenden den "court physician" mit Maester übersetzte, da dieser in der Mod besagten Posten mit ausfüllt.
 agot_health.safe_treatment.2.desc:0 "Nachdem mich Maester [physician.GetTitledFirstName] untersuchte, wies er mir für die kommenden Wochen viel zu ruhen. Außerdem soll ich so viel Obst wie möglich essen - insbesondere Zitronen, Limonen und Orangen. Mir wurde versprochen, dass sich meine Symptome legen werden, sollte ich mich daran halten.\n"
-agot_sailing_at_sea.000444.end.desc:0 "\nWie es scheint hatte [physician.GetTitledFirstName] glücklicher Weise recht. Die Schmerzen sind verschwunden, ebenso wie die Blutergüsse und auch mein Zahnfleisch hat endlich aufgehört zu bluten. Es versteht sich von selbst, dass sollte ich je aufs Meer zurückkehren, einige Fässer getrockneter Zitronen im Lagerraum zu finden sein werden."
-agot_sailing_at_sea.00044.d:0 "Nachdem wir eilig in den Hafen eingelaufen waren, sprang ich von Bord und eilte zu Maester [physician.GetFirstName], da er womöglich das Heilmittel für meine Krankheit kennt. Kaum betrete ich sein Zimmer, um meine Symptome zu erläutern, unterbricht der Maerster mich bereits....."
+agot_sailing_at_sea.000444.end.desc:0 "\nWie es scheint hatte Maester [physician.GetTitledFirstName] glücklicher Weise recht. Die Schmerzen sind verschwunden, ebenso wie die Blutergüsse und auch mein Zahnfleisch hat endlich aufgehört zu bluten. Von nun an werde ich nie mehr ein Schiff betreten, ohne ein paar Fässer Zitronen mitzunehmen."
+agot_sailing_at_sea.00044.d:0 "Nachdem wir in den Hafen eingelaufen seind, spring ich von Bord und eile zu Maester [physician.GetFirstName], da er womöglich das Heilmittel für meine Krankheit kennt. Kaum betrete ich sein Zimmer, um meine Symptome zu erläutern, unterbricht der Maerster mich bereits..."
 agot_sailing_at_sea.00044.d.court_physician.desc:0 "\n\n"Mein [ROOT.Char.GetLadyLord], wie es scheint, seid Ihr an der Mundfäule erkrankt... ich habe da ein paar Ideen, wie Euch zu helfen ist"."
  
 agot_sailing_at_sea.000444.t:0 "Mundfäule: ein Hoffnungsschimmer"
 agot_sailing_at_sea.000444.a:0 "Die Welt erscheint ein wenig heller."
-agot_sailing_at_sea.000444.a.t:0 "Er... hallo Sonne?"
+agot_sailing_at_sea.000444.a.t:0 "Äh... Hallo Sonnenschein?"
 
 
 agot_sailing_at_sea.0007.t:0 "Fracht an Steuerbord!"
-agot_sailing_at_sea.0007.desc:0 "Während Ihr durch den Nebel von [current_location.GetName] segelt, beschleicht Euch in der dunklen Nacht eine Vorahnung. Plötzlich hallt die Stimme des Lademeisters durch das Schiff. "Kapitän, Trümmer an Steuerbord, Sir!". \n\nIhr und einige Eurer Crew eilen an die Reling und seid schockiert über das Bild der Verwüstung, dass sich Euch zeigt. Verbrannte Planken, zerbrochene Fässer und Kisten dümpeln auf den Wellen ... zusammen mit einer goldenen Truhe \n\nEs ist eindeutig, dass hier etwas schreckliches geschehen ist. [fellow_sailor.GetFirstName] schlägt vor, sich die Sache mit einem Ruderboot anzusehen, oder zumindest die Truhe zu bergen. Doch Ihr wisst: was auch immer die Zerstörung anrichtete, könnte immer noch in der Nähe sein."
+agot_sailing_at_sea.0007.desc:0 "Während Ihr durch den Nebel von [current_location.GetName] segelt, beschleicht Euch in der Dunkelheit der Nacht eine Vorahnung. Plötzlich hallt die Stimme des Lademeisters durch das Schiff. "Kapitän, Trümmer an Steuerbord, Sir!". \n\nIhr und einige Eurer Männer eilen an die Reling - Schockiert vom Anblick, der sich uns ergibt: Verbrannte Planken, zerbrochene Fässer und zertrmemrte Kisten dümpeln auf den Wellen. mit einer goldenen Truhe \n\nEs ist eindeutig, dass hier etwas schreckliches geschehen ist. [fellow_sailor.GetFirstName] schlägt vor, sich die Sache mit einem Ruderboot anzusehen, oder zumindest die Truhe zu bergen. Doch Ihr wisst: was auch immer die Zerstörung anrichtete, könnte immer noch in der Nähe sein."
 agot_sailing_at_sea.0007.a:0 "Lasst es uns untersuchen!"
 agot_sailing_at_sea.0007.b:0 "Wir haben keine Zeit dafür..."
 
