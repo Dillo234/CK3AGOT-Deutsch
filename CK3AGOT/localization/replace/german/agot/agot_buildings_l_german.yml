@@ -1,15 +1,39 @@
 ﻿l_german:
-#übersetzt von Dillo dem Bauer
+ #Vanilla Add-ons
+ building_castle_05:1 "Große Burg"
+ building_castle_05_desc:1 "Eine große Burg mit beeindruckenden Befestigungsanlagen, die fast jeden Feind abwehren und jeden Lord oder König schützen kann."
+
+ building_city_05:1 "Stadt"
+ building_city_05_desc:0 "Eine Stadt"
+
+ #AGOT New
+ building_type_monastery_01:0 "Monastery"
+ building_type_monastery_01_desc:1 "A complex of buildings housing those persuing spiritual scholarship and enlightenment."
+ building_monastery_01:1 "Religious Cooperative"
+ building_monastery_01_desc:0 ""
+ building_monastery_02:1 "Hermitage"
+ building_monastery_02_desc:1 ""
+ building_monastery_03:1 "Convent"
+ building_monastery_03_desc:1 ""
+ building_monastery_04:1 "Monastery"
+ building_monastery_04_desc:1 ""
+
+ #übersetzt von Dillo dem Bauer
  building_type_godswood_01:0 "Götterhain"
  building_type_godswood_01_desc:0 "Als die Ersten Menschen die alten Götter der Kinder des Waldes aufnahmen, schufen sie Götterhaine, Haine innerhalb ihrer Burgen und Dörfer, in denen ein einzelner Wehrholzbaum, der als "Herzbaum" bekannt ist und in den ein Gesicht geschnitzt wurde, gepflanzt wurde, damit die Götter verehrt werden konnten."
  building_godswood_01:0 "Kleiner Götterhain"
  building_godswood_01_desc:0 "Ein kleiner Götterhain mit mehreren Bäumen und einem Herzbaum in der Mitte. Dieser Götterhain ist ein schöner Ort für den Herrscher dieses Betriebs, um spazieren zu gehen und nachzudenken."
  building_godswood_02:0 "Götterhain"
- building_godswood_02_desc:0 "Ein mittelgroßer Götterhain mit Bäumen wie Eiche, Ulme und Birke und einem Herzbaum in der Mitte. Seine Größe und Pflege sind ein klares Zeichen für den Status und das Prestige des Lords, wobei die alten Traditionen beibehalten werden."
- building_godswood_03:0 "Großer Götterhain"
- building_godswood_03_desc:0 "Ein großer Götterhain mit Bäumen wie Wachtel, Eiche, Ulme, Birke und sogar einigen Eisenhölzern und in der Mitte ein hoch aufragender Herzbaum. Nur die reichsten Lords konnten es sich leisten, diesen privaten Wald innerhalb ihrer Burgen zu bauen und zu pflegen."
- building_godswood_04:0 "Mächtiger Götterhain"
- building_godswood_04_desc:0 "Dieser mächtige Götterhain ist unvergleichlich. Er erstreckt sich über mehrere Hektar und ist voll von Wächtern, Eichen, Ulmen, Birken, Eisenholz und vielem mehr. Und tief im Wald steht ein stolzer, großer Herzbaum."
+ building_godswood_02_desc:0 "Ein mittelgroßer Götterhain mit Bäumen wie Eiche, Ulme und Birke und einem Herzbaum in der Mitte."
+ #AGOT New
+ building_godswood_03:0 "Flourishing Godswood"
+ building_godswood_03_desc:0 "A flourishing godswood with trees of oak, elm, and birch; a few ironwood saplings have begun to grow as well. Still at the center lies the traditional heartwood."
+ building_godswood_04:0 "Großer Götterhain"
+ building_godswood_04_desc:0 "A large godswood with trees of sentinel, oak, elm, birch, and young ironwoods, and at the center a towering heart tree. Its size and maintenance are a clear statement about the lord’s status and prestige, while maintaining the ancient traditions."
+ building_godswood_05:0 "Mächtiger Götterhain"
+ building_godswood_05_desc:0 "A great godswood stretching an acre and full of sentinel, oak, elm, birch, and some ironwoods, centering around the heart tree. Only the wealthiest of lords could afford to build and maintain this private wood within their castle."
+ building_godswood_06:0 "Magnificent Godswood"
+ building_godswood_06_desc:0 "This godswood is beyond compare, stretching multiple acres and full of sentinel, oak, elm, birch, ironwood, and more; it is clear celebration of a houses ties to the First Men and the Pact. Deep within the forest lies a heart tree, proud and tall."
  
  building_building_moat_01:0 "Trockengraben"
  building_type_building_moat_01:0 "Erdbau" #https://de.wikipedia.org/wiki/Erdbau https://en.wikipedia.org/wiki/Earthworks_(engineering)
@@ -293,3 +317,13 @@
  building_type_agot_mines_01_desc:0 "Bronzeminen, die in der heutigen Zeit zwar nicht sehr lukrativ sind, haben für die Anhänger der Bronzegötter einen religiösen Wert."
  building_agot_mines_01:0 "Bronzeminen"
  building_agot_mines_01_desc:0 "$building_type_agot_mines_01_desc$"
+
+ building_special_kings_landing_hoodmarket_destroyed:0 "King's Landing"
+ building_special_kings_landing_hoodmarket_destroyed_desc:0 "The Many Ruined Streets of King's Landing."
+ building_special_kings_landing_hoodmarket:0 "King's Landing"
+ building_special_kings_landing_hoodmarket_desc:0 "The Many Streets of King's Landing"
+
+ building_type_holy_site_sept_01:0 "Grand Sept"
+
+#AGOT Effects
+ red_keep_effect_desc:0 "$feast_cost_discount_max_desc$"
