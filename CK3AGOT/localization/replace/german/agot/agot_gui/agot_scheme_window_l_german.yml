@@ -5,3 +5,5 @@
  OPEN_SPY_NETWORK_TAB:0 "Spitzel"                                ##Auf Spitzel statt Spion entschieden aufgrund Abstimmung (https://discord.com/channels/1097996818530447430/1102557321734930575/1103766381448671405) - Maester Dillo der Demokrat
 
  AGOT_SCHEME_AGENT_IS_MY_SPY:1 "Ist Euer Spitzel: $VALUE|+0=$"
+ SCHEME_AGENT_IS_HOUSEHOLD_GUARD:0 "[target.GetShortUINamePossessiveNoTooltip] $household_guard_court_position$: $VALUE|+0=$"
+ SCHEME_AGENT_IS_MAESTER:0 "[target.GetShortUINamePossessiveNoTooltip] $maester_court_position$: $VALUE|+0=$"
