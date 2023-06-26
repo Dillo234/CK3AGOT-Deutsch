@@ -46,8 +46,13 @@
  # Culture Clash, by Sean Hughes
  stewardship_domain.1073.t:0 "Culture Clash"
  #AGOT Modified
+ #stewardship_domain.1073.desc:0 "Most of the commoners living in [target_county.GetName] are of [target_ruler.GetCulture.GetName] descent. Proud of their traditions, it does not sit well with them that they must serve a foreigner like myself when my neighbor [target_ruler.GetTitledFirstName] shares their culture and history."
  stewardship_domain.1073.desc:0 "Most of the commoners living in [target_county.GetName] are of [new_culture.GetName] descent. Proud of their traditions, it does not sit well with them that they must serve a foreigner like myself when my neighbor [target_ruler.GetTitledFirstName] shares their culture and history."
+ #AGOT Modified
+ #stewardship_domain.1073.a:0 "Teach them the superiority of the [me.GetCulture.GetNameNoTooltip] culture!"
  stewardship_domain.1073.a:0 "Teach them the superiority of the [new_culture.GetNameNoTooltip] culture!"
+ #AGOT Modified
+ #stewardship_domain.1073.a.success:0 "The commoners adopt [me.GetCulture.GetNameNoTooltip] customs"
  stewardship_domain.1073.a.success:0 "The commoners adopt [new_culture.GetNameNoTooltip] customs"
  stewardship_domain.1073.a.failure:0 "The commoners refuse to be civilized"
  stewardship_domain.1073.c:0 "I do not care if they keep their weird traditions."

@@ -1,12 +1,12 @@
 ﻿l_english:
- cb_discount_prestige_10:0 "[casus_belli|E] [prestige|E] Cost: #P -10%#!"
- cb_discount_piety_10:0 "[casus_belli|E] [piety|E] Cost: #P -10%#!"
+ cb_discount_prestige_10:1 "[casus_belli|E] [prestige|E] Cost: [prestige_i]#P -10%#!"
+ cb_discount_piety_10:1 "[casus_belli|E] [piety|E] Cost: [piety_i]#P -10%#!"
  individual_county_de_jure_cb:0 "Individual [de_jure|E] [county|E]"
  individual_duchy_de_jure_cb:0 "Individual [de_jure|E] [duchy|E]"
  multiple_claim_wars:1 "Can press several of your [claims|E] in a single war"
  multiple_claim_wars_others:0 "Can press multiple [claims|E] for another character in a single war"
- fabricate_claim_speed:0 ""Fabricate Claim on County" [councillor_task|E] Speed: #P +50%#!"
- promote_culture_speed:0 ""Promote Culture" [councillor_task|E] Speed: #P +15%#!"
+ fabricate_claim_speed:1 "#V $task_fabricate_claim$#! [councillor_task|E] Speed: #P +50%#!"
+ promote_culture_speed:1 "#V $task_promote_culture$#! [councillor_task|E] Speed: #P +15%#!"
  same_culture_group_reduced_factionalism:1 "[vassals|E] whose [culture|E] has a shared [heritage|E] with yours are less likely to join [independence_factions|E]"
  reduce_develop_county_penalty_01:0 "Counties now reach the maximum [existing_development|E] penalty at 20 [development|E]"
  reduce_develop_county_penalty_02:0 "Counties now reach the maximum [existing_development|E] penalty at 35 [development|E]"
@@ -36,9 +36,6 @@
  unlock_palatinate_contract:0 "Unlocks the #high $special_contract_palatinate_short$#! [feudal_contract|E]"
  unlock_fortification_rights_contract:0 "Unlocks the #high $fortification_rights$#! [feudal_contract|E]"
  unlock_coinage_rights_contract:0 "Unlocks the #high $coinage_rights$#! [feudal_contract|E]"
- 
- outriders:0 "Outriders"
- outriders_flavor:0 "The midway between light and heavy calvary, they have been a vital force since the First-Men arrived in Westeros"
 
 ##############
 # Tribal Era #
@@ -57,8 +54,14 @@
  innovation_mustering_grounds:0 "Mustering Grounds"
  innovation_mustering_grounds_desc:0 "Simply having people willing to fight for us is not enough to win wars. Setting aside space for people to both train and muster for battle will allow us to support groups of more experienced fighters who can lead us to victory."
 
+ #AGOT Modified
+ #innovation_bannus:0 "Bannus"
  innovation_bannus:0 "Marcher Lords"
- innovation_bannus_desc:0 "Based on the authority to command men in battle, the Marcher Lords gives our rulers the power to compel free men to fight for them, forming a legal basis for the mustering of large armies."
+ #AGOT Modified
+ #innovation_bannus_desc:0 "Based on the authority to command men in battle, the bann gives our rulers the power to compel free men to fight for them, forming a legal basis for the mustering of large armies."
+ innovation_bannus_desc:0 "Based on the authority to command men in battle, the marcher lords give our rulers the power to compel free men to fight for them, forming a legal basis for the mustering of large armies."
+ eligible_accolade_vanguard_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('vanguard_attribute').GetName] [accolades|E]"
+ eligible_accolade_vanguard_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_vanguard_attribute_ACCOLADES_DLC')]"
 
  innovation_quilted_armor:0 "Quilted Armor"
  innovation_quilted_armor_desc:0 "Formed of a dozen or more layers of linen stitched together, these jackets can stop even heavy arrows and are an affordable way for us to armor an entire regiment for battle."
@@ -87,9 +90,6 @@
 
  innovation_ledger:0 "Ledger"
  innovation_ledger_desc:0 "As our lands grow, we need a better way to keep track of what we own. Maintaining a ledger of our possessions will ensure that we always know what resources we have at our disposal."
- 
- innovation_outriders:0 "Outriders"
- innovation_outriders_desc:0 "The midway between light and heavy calvary, they have been a vital force since the First-Men arrived in Westeros."
 
  #Regional
  innovation_viking_tradition:0 "Viking Tactics"
@@ -100,9 +100,13 @@
 
  innovation_war_camels:0 "War Camels"
  innovation_war_camels_desc:0 "Camels are naturally suited for living in desert terrain, but they aren't inherently creatures of battle. Our breeders and trainers can change this, giving us access to adaptive cavalry which will let us master the sands."
+ eligible_accolade_camelry_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('camelry_attribute').GetName] [accolades|E]"
+ eligible_accolade_camelry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_camelry_attribute_ACCOLADES_DLC')]"
 
  innovation_elephantry:0 "Elephantry"
  innovation_elephantry_desc:0 "Elephants are difficult to raise in captivity, so each mahout must capture their own wild elephants and train them. This means there is a delicate art to properly using these great creatures in battle, but it is an art we are dedicated to mastering."
+ eligible_accolade_elephantry_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('elephantry_attribute').GetName] [accolades|E]"
+ eligible_accolade_elephantry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_elephantry_attribute_ACCOLADES_DLC')]"
  
  innovation_wootz_steel:0 "Wootz Steel"
  innovation_wootz_steel_desc:0 "Also known as Hinduwani or Seric steel, this carbon-rich metal is excellent for making weapons. Wootz steel is widely traded and is deemed the finest steel in the world. Throughout most of history, it has drawn the attention of Arab, Egyptian, Chinese, and even Roman traders."
@@ -131,9 +135,15 @@
 
  innovation_mangonel:0 "Mangonels"
  innovation_mangonel_desc:0 "A significant improvement to our existing catapult designs, traction-powered mangonels are much faster to load and fire than torsion-powered machines."
+ eligible_accolade_besieger_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('besieger_attribute').GetName] [accolades|E]"
+ eligible_accolade_besieger_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_besieger_attribute_ACCOLADES_DLC')]"
 
+ #AGOT Modified
+ #innovation_burhs:0 "Burhs"
  innovation_burhs:0 "Fortified Settlements"
- innovation_burhs_desc:0 "Scattered across the countryside, fortified settlements are important settlements we can use both to muster troops and to serve as administrative centers."
+ #AGOT Modified
+ #innovation_burhs_desc:0 "Scattered across the countryside, burhs are important fortified settlements we can use both to muster troops and to serve as administrative centers."
+ innovation_burhs_desc:0 "Scattered across the countryside, fortified settlements are important locations we can use both to muster troops and to serve as administrative centers."
 
  innovation_house_soldiers:0 "Household Soldiers"
  innovation_house_soldiers_desc:0 "As our noble families grow in power, they need soldiers to enforce their will. Establishing an order of dedicated household soldiers will ensure that we have troops which are better trained and equipped than a standard levy."
@@ -143,9 +153,8 @@
 
  innovation_arched_saddle:0 "Arched Saddle"
  innovation_arched_saddle_desc:0 "Light cavalry are a force to be reckoned with, but they do not truly exploit the potential of the warhorse. Arched saddles allow us to field heavily armored warriors with couched lances, which lets them take full advantage of their momentum as they charge into enemy lines."
-
- innovation_knighthood:0 "Master-at-Arms"
- innovation_knighthood_desc:0 "It is the duty of the Master-at-Arms to school the lord's spawn in the brutal arts of combat. By ensuring every hold employs a man of martial repute, we can pass these skills onto our upper caste."
+ eligible_accolade_lancer_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('lancer_attribute').GetName] [accolades|E]"
+ eligible_accolade_lancer_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_lancer_attribute_ACCOLADES_DLC')]"
 
  #Civic
  innovation_hereditary_rule:0 "Hereditary Rule"
@@ -173,17 +182,15 @@
  innovation_currency_02_desc:0 "Unregulated currencies are difficult to control and lack stability. Minted coins, measured to specific weights and stamped with a royal seal, give new confidence to commercial transactions."
 
  #Regional
- innovation_primogeniture_westeros:0 "Primogeniture"
- innovation_primogeniture_westeros_desc:0 "Male-preference primogeniture is customary but not binding among Westerosi nobles. One kingdom, one heir, thought there are certain exceptions and interpretations"
+
+ innovation_reconquista:1 "Spiritual Expansionism"
+ innovation_reconquista_desc:0 "Distracted by infighting, we have tolerated the presence of infidels in Hispania for too long. The time has come for us to rally our forces to drive them from this land once and for all!"
 
  innovation_stem_duchies:0 "Stammesherzogtum"
  innovation_stem_duchies_desc:0 "Despite coming from different tribes, we recognize the importance of unity and cooperation. Independence is overvalued when stability is what leads to safety and prosperity. "
 
  innovation_ghilman:0 "Ghilman"
  innovation_ghilman_desc:0 "Slave-soldiers taken as prisoners of war, ghilman are dedicated fighters who are both more loyal to us and cheaper to pay than common mercenaries."
- 
- innovation_maesters:0 "Maesters"
- innovation_maesters_desc:0 "Trained at the Citadel in all manners of knowledge, the Lords of Westeros have found Maesters vital to the stability of their rule and health."
 
 #####################
 # High Medieval Era #
@@ -202,8 +209,17 @@
  innovation_men-at-arms:0 "Men-at-Arms"
  innovation_men-at-arms_desc:0 "Those skilled in the horse and the lance will always be in demand, but are not always available. Keeping groups of men-at-arms on retainer will ensure that we do not lack experienced fighters when war inevitably breaks out."
 
+ #AGOT Modified
+ #innovation_knighthood:0 "Knighthood"
+ innovation_knighthood:0 "Master-at-Arms"
+ #AGOT Modified
+ #innovation_knighthood_desc:0 "By bestowing knighthoods upon our best fighters and paying them with land holdings instead of mere coin, we can give them the honor they deserve as well as secure their loyalty to us."
+ innovation_knighthood_desc:0 "It is the duty of the master-at-arms to school the lord's spawn in the brutal arts of combat. By ensuring every hold employs a man of martial repute, we can pass these skills onto our upper caste."
+
  innovation_advanced_bowmaking:0 "Advanced Bowmaking"
  innovation_advanced_bowmaking_desc:0 "While archers have traditionally made and maintained their own bows, craftsmen have begun making new types of bows which are stronger and more complex than before. By embracing these new designs we can turn these master bowyers into an invaluable military asset."
+ eligible_accolade_crossbower_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('crossbowmen_attribute').GetName] [accolades|E]"
+ eligible_accolade_crossbower_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_crossbower_attribute_ACCOLADES_DLC')]"
 
  #Civic
 
@@ -226,6 +242,8 @@
  innovation_guilds_desc:0 "As our lands expand it becomes increasingly inefficient to directly manage all trade going on within our domain. By granting guild charters to organizations of merchants and craftsmen we can give them more autonomy over their businesses while still ensuring we profit from their ventures."
 
  innovation_development_03:0 "Urbanization"
+ #AGOT Modified
+ #innovation_development_03_desc:0 "The great cities of Rome, Byzantium, and Delhi have long stood out as relics of a great, unmatchable legacy. As our infrastructure and population grow, we finally have the means to develop new settlements which rival these ancient urban centers."
  innovation_development_03_desc:0 "The great cities of Essos have long stood out as relics of a great, unmatchable legacy. As our infrastructure and population grow, we finally have the means to develop new settlements which rival these ancient urban centers."
 
  innovation_currency_03:0 "Banking"
@@ -274,6 +292,8 @@
  innovation_primogeniture_desc:0 "One kingdom, one heir. While the younger children of our monarch may feel forsaken by being denied an inheritance, this is the best way to ensure we keep a stable realm which does not get torn apart by succession crises."
 
  innovation_cranes:0 "Cranes"
+ #AGOT Modified
+ #innovation_cranes_desc:0 "A forgotten marvel of engineering, the Romans used tread-wheel cranes to great effect when building their empire, and so too shall we."
  innovation_cranes_desc:0 "A forgotten marvel of engineering, the Valyrians used tread-wheel cranes to great effect when building their empire, and so too shall we."
 
  innovation_noblesse_oblige:0 "Noblesse Oblige"
@@ -305,4 +325,4 @@
  innovation_deccan_unity:0 "Deccan Unity"
  innovation_deccan_unity_desc:0 "The influx of new beliefs and religions into our society has made it clear that our past focus on regionalism has been a mistake. We should band together with others of our faith and ensure a strong and enduring state that can stand up to external pressures."
 
- students_of_knighthood:0 "Children completing their education with a [martial|E] [education_focus|E] gain a $trait_education_martial_prowess$ [trait|E]."
+ students_of_knighthood:1 "Children completing their [education|E] with a [martial|E] [education_focus|E] gain a $trait_education_martial_prowess$ [trait|E]"

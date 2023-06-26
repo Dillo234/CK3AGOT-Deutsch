@@ -41,7 +41,7 @@
  yearly.4031.tt:0 "An investigation is launched"
  yearly.4031.b:0 "Let's bury the body and forget this travesty."
  yearly.4031.b_every_courtier:0 "Every courtier"
- yearly.4031.c:0 "As my maester, you should study the bodies."
+ yearly.4031.c:0 "As my court physician, you should study the bodies."
 
  yearly.4061.t:0 "The Wise Fool"
  yearly.4061.desc_opening:0 ""My name is [hodja.GetTitledFirstName], my [ROOT.Char.GetLadyLord]. I have come before you to offer my wisdom."\n\n"
@@ -66,6 +66,8 @@
  yearly.4071.b:0 "Distribute them among my courtiers."
 
  yearly.4081.t:0 "Translations"
+ #AGOT Modified
+ # yearly.4081.desc:0 ""Local scholars require sponsorships in their efforts to translate books from Greek into Arabic, my [ROOT.Char.GetLadyLord] – efforts that benefit the whole Arabic world!"\n\n[councillor.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has brought me a list of scholars that I could sponsor, and the books they are currently working on."
  yearly.4081.desc:0 ""Local scholars require sponsorships in their efforts to translate books from Valyrian into Common, my [ROOT.Char.GetLadyLord] – efforts that benefit the whole of the Seven Kingdoms!"\n\n[councillor.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has brought me a list of scholars that I could sponsor, and the books they are currently working on."
  yearly.4081.a:0 "#EMP De materia Medica#!... Sounds interesting!"
  yearly.4081.a.tt:0 "You sponsor the translation of a book on medicine"
@@ -78,17 +80,27 @@
  yearly.4081.toast:0 "Book Translated"
  yearly.4081.e:0 "#EMP On the Soul#!? Fascinating..."
  yearly.4081.e.tt:0 "You sponsor the translation of a book on motivations"
+ #AGOT Modified
+ # yearly.4081.f:0 "What's this... #EMP Thucydides#!?"
  yearly.4081.f:0 "What's this... #EMP Fire Upon the Grass#!?"
  yearly.4081.f.tt:0 "You sponsor the translation of a book on military history"
+ #AGOT Modified
+ # yearly.4081.g:0 "This #EMP Plutarch#! intrigues me."
  yearly.4081.g:0 "#EMP The Life of the Triarch Belicho#! intrigues me."
- yearly.4081.g.tt:0 "You sponsor the translation of a book about Triarch Belicho"
+ yearly.4081.g.tt:0 "You sponsor the translation of a biographical book"
  yearly.4081.tt:0 "You will receive the book"
 
+ #AGOT Modified
+ # yearly.4091.t:0 "Scholars of Baghdad"
  yearly.4091.t:0 "The Scholars of [capital.GetNameNoTooltip]"
+ #AGOT Modified
+ # yearly.4091.desc_opening:0 "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and I are out walking in Baghdad when we come across"
  yearly.4091.desc_opening:0 "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and I are out walking in [capital.GetNameNoTooltip] when we come across"
+ #AGOT Modified
+ # yearly.4091.desc_house:0 "the House of Wisdom."
  yearly.4091.desc_house:0 "novices from the Citadel."
  yearly.4091.desc_no_house:0 "some local scholars."
- yearly.4091.desc:0 "\n\n"Greetings, [ROOT.Char.GetLadyLord] [ROOT.Char.GetHouse.GetNameNoTooltip]. Greetings, young one. There is an empty seat in an ongoing discussion, would either of you like to join?""
+ yearly.4091.desc:0 "\n\n"Greetings, [ROOT.Char.GetTitledFirstNameNoTooltip]. Greetings, young [ward.GetLadyLord]. There is an empty seat in an ongoing discussion, would either of you like to join?""
  yearly.4091.a:0 "Go ahead [ward.GetFirstNameNoTooltip]."
  yearly.4091.a.tt:0 "This will further [ward.GetFirstNamePossessiveNoTooltip] education"
  yearly.4091.b:0 "I would like to join, yes."

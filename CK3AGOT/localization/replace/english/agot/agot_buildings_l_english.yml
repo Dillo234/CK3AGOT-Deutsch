@@ -1,15 +1,38 @@
 ﻿l_english:
+ #Vanilla Add-ons
+ building_castle_05:1 "Large Castle"
+ building_castle_05_desc:1 "A large castle with impressive fortifications able to repel nearly any enemy, and protect any lord or king."
+
+ building_city_05:1 "City"
+ building_city_05_desc:0 "A City"
+
+ #AGOT New
+ building_type_monastery_01:0 "Monastery"
+ building_type_monastery_01_desc:1 "A complex of buildings housing those persuing spiritual scholarship and enlightenment."
+ building_monastery_01:1 "Religious Cooperative"
+ building_monastery_01_desc:0 ""
+ building_monastery_02:1 "Hermitage"
+ building_monastery_02_desc:1 ""
+ building_monastery_03:1 "Convent"
+ building_monastery_03_desc:1 ""
+ building_monastery_04:1 "Monastery"
+ building_monastery_04_desc:1 ""
+
  building_type_godswood_01:0 "Godswood"
  building_type_godswood_01_desc:0 "When the First Men took up the old gods of the children of the forest, they created godswoods, groves within their castles and villages where a single weirwood, known as a "heart tree" and carved with a face, was planted so the gods could be worshipped."
  building_godswood_01:0 "Small Godswood"
  building_godswood_01_desc:0 "A small godswood with several trees and a heart tree at the center, this godswood provides a fine place for the ruler of this holding to take a stroll and reflect."
  building_godswood_02:0 "Godswood"
- building_godswood_02_desc:0 "A moderate sized godswood with trees of oak, elm, and birch and a Heart Tree at the center. It’s size and maintenance are a clear statement about the lord’s status and prestige, while maintaining the ancient traditions."
- building_godswood_03:0 "Large Godswood"
- building_godswood_03_desc:0 "A large godswood with trees of sentinel, oak, elm, birch, and even some ironwoods, and at the center a towering Heart Tree. Only the wealthiest of lords could afford to build and maintain this private wood within their castle."
- building_godswood_04:0 "Great Godswood"
- building_godswood_04_desc:0 "This great godswood is beyond compare, stretching multiple acres and full of sentinel, oak, elm, birch, ironwood, and more, it is clear celebration of a houses ties to the First Men and the Pact. And, deep within the forest lies a Heart Tree, proud and tall."
- 
+ building_godswood_02_desc:0 "A moderate sized godswood with trees of oak, elm, and birch and a heart tree at the center.
+ building_godswood_03:0 "Flourishing Godswood"
+ building_godswood_03_desc:0 "A flourishing godswood with trees of oak, elm, and birch; a few ironwood saplings have begun to grow as well. Still at the center lies the traditional heartwood.""
+ building_godswood_04:0 "Large Godswood"
+ building_godswood_04_desc:0 "A large godswood with trees of sentinel, oak, elm, birch, and young ironwoods, and at the center a towering heart tree. Its size and maintenance are a clear statement about the lord’s status and prestige, while maintaining the ancient traditions."
+ building_godswood_05:0 "Great Godswood"
+ building_godswood_05_desc:0 "A great godswood stretching an acre and full of sentinel, oak, elm, birch, and some ironwoods, centering around the heart tree. Only the wealthiest of lords could afford to build and maintain this private wood within their castle."
+ building_godswood_06:0 "Magnificent Godswood"
+ building_godswood_06_desc:0 "This godswood is beyond compare, stretching multiple acres and full of sentinel, oak, elm, birch, ironwood, and more; it is clear celebration of a houses ties to the First Men and the Pact. Deep within the forest lies a heart tree, proud and tall."
+
  building_building_moat_01:0 "Dry Moat"
  building_type_building_moat_01:0 "Earthworks"
  building_building_moat_01_desc:0 "Little more than a ditch, a dry moat is still an effective way to fortify a holding."
@@ -292,3 +315,13 @@
  building_type_agot_mines_01_desc:0 "Bronze mines, which while not all that lucrative in the present era, hold a religious value to followers of the Bronze Gods."
  building_agot_mines_01:0 "Bronze Mines"
  building_agot_mines_01_desc:0 "$building_type_agot_mines_01_desc$"
+
+ building_special_kings_landing_hoodmarket_destroyed:0 "King's Landing"
+ building_special_kings_landing_hoodmarket_destroyed_desc:0 "The Many Ruined Streets of King's Landing."
+ building_special_kings_landing_hoodmarket:0 "King's Landing"
+ building_special_kings_landing_hoodmarket_desc:0 "The Many Streets of King's Landing"
+
+ building_type_holy_site_sept_01:0 "Grand Sept"
+
+#AGOT Effects
+ red_keep_effect_desc:0 "$feast_cost_discount_max_desc$"

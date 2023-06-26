@@ -7,8 +7,7 @@
  ethos_methodical_name:0 "Methodical"
  ethos_methodical_desc:0 "The steady step prevents the fall, and the people of this culture make no move without planning for all possible consequences."
 
-#Tradition Effects
-
+ # Tradition Effects
  culture_parameter_gluttonous_trait_bonuses:0 "The [GetTrait('gluttonous').GetName( GetNullCharacter )] [traits|E] have additional bonuses"
  culture_parameter_forder_trait_bonuses:0 "#italic From the Rivers#!: The [GetTrait('forder').GetName( GetNullCharacter )] [traits|E] have additional bonuses"
  culture_parameter_rough_terrain_trait_bonuses:0 "The [GetTrait('rough_terrain_expert').GetName( GetNullCharacter )] [traits|E] have additional bonuses"
@@ -129,3 +128,7 @@
  agot_tradition_thenn_desc:1 "Known as the more ‘sophisticated’ of the free folk by those south of the Wall, the Thenns consider themselves to be the last remaining First Men. The inhabitants of the mountain valley in the Frostfang peaks interact more with giants than they do other cultures, but have managed to learn the occasional word or sentence in Common Tongue, despite having never deviated from the Old Tongue they still speak today. Priding themselves in their belief in Magnar, the Thenn are somewhat more disciplined and organized than other free folk, and have managed to amass an impressive bronze armory. While those south of the Wall may consider the Thenn to be savage, they are more than capable, often coming to conflict with the Night’s Watch."
  agot_tradition_insular_marriage_name:0 "Insular Marriage"
  agot_tradition_insular_marriage_desc:1 "While not isolationist, this culture does still prefer to marry within their own people."
+
+  # Triggers
+ ibbenese_heritage_trigger:0 "The [culture|E] must be of Ibbenese [heritage|E]"
+ westerosi_heritage_trigger:0 "The [culture|E] must be of a Westerosi [heritage|E]"
