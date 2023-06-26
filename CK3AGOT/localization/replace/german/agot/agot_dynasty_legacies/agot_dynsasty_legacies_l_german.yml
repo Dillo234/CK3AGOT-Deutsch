@@ -1,0 +1,148 @@
+﻿l_german:
+
+#Generic North - Warfare / Law Mix 
+
+north_legacy_track_name: "Nordmänner"
+north_legacy_track_desc: "Der Norden vergisst nicht"
+north_legacy_1_name: "Winterpelze" 
+north_legacy_2_name: "Wächter an die Mauer" #Send to NW interaction 
+north_legacy_3_name: "Unbezwungen"
+north_legacy_4_name: "Erbauerblut"
+north_legacy_5_name: "Hungrige Wölfe"
+
+LEGACY_DYNASTY_SEND_TO_NIGHTSWATCH:0 "[dynast_interaction|E]: #V Zur Nachtwache schicken#!\n#weak Die [dynast] erhält die Möglichkeit [prestige] [prestige_i] zu zahlen, um erwachsene, landlose Mitglieder von [dynasty] in die Nachtwache zu entsenden.\nDie Wahrscheinlichkeit, zum Lord Kommandant der Nachtwache gewählt zu werden, steigt für die Mitglieder der Dynastie."
+
+#Generic Reachman
+
+reachman_legacy_track_name: "Männer der Weite"
+reachman_legacy_track_desc: "Blumen der Ritterlichkeit"
+reachman_legacy_1_name: "Grünes und wohltuendes Land"
+reachman_legacy_2_name: "Saat des Gärtners"
+reachman_legacy_3_name: "Die Bürde des Wissens"
+reachman_legacy_4_name: "Fruchtbare Felder"
+reachman_legacy_5_name: "Orden der Grünen Hand"
+
+#Generic Ironborn
+
+ironborn_legacy_track_name: "Eisenmänner"
+ironborn_legacy_track_desc: "Was tot ist, kann niemals sterben"
+ironborn_legacy_1_name: "Salzbeine"
+ironborn_legacy_2_name: "Der Eiserne Preis"
+ironborn_legacy_3_name: "Eiserne Flotte"
+ironborn_legacy_4_name: "Krakenschild"
+ironborn_legacy_5_name: "Schwarzes Blut"
+
+LEGACY_IRONBORN_CALL_GREAT_REAVING:0 "Schalte die Fähigkeit frei, einen großen Überfall zu machen"
+
+MORE_PRESTIGE_FROM_REAVING_LEGACY:0 "Mehr [piety|E] und [prestige|E] von [reaving|E]: [piety_i]#P +30 %#! [prestige_i]#P +30 %#!"
+
+#Generic Riverlander
+
+riverlander_legacy_track_name: "Flussländer"
+riverlander_legacy_track_desc: "Vom Götterauge bis zum Roten Arm"
+riverlander_legacy_1_name: "Gemeinschaftliches Leben"
+riverlander_legacy_2_name: "Flussboote"
+riverlander_legacy_3_name: "Engverbunden"
+riverlander_legacy_4_name: "Flussmenschen"
+riverlander_legacy_5_name: "Fluss 5"
+
+LEGACY_RIVERLANDER_SAIL_RIVER: "Schaltet die Fähigkeit frei, auf großen Flüssen zu segeln"
+
+#Generic Valeman
+
+valeman_legacy_track_name: "Männer des Tals"
+valeman_legacy_track_desc: "Den Himmel berühren"
+valeman_legacy_1_name: "Mondberge"
+valeman_legacy_2_name: "Ankunft der Andalen"
+valeman_legacy_3_name: "Falkenritter"
+valeman_legacy_4_name: "Stahlrösser"
+valeman_legacy_5_name: "Hugors Glaubenssatz"
+
+#Generic Westerman
+
+westerman_legacy_track_name: "Westländer"
+westerman_legacy_track_desc: "Alles, was glänzt, ist Gold"
+westerman_legacy_1_name: "Der goldene Hocker"
+westerman_legacy_2_name: "Armbrustsalven"
+westerman_legacy_3_name: "Silberne Zunge, goldene Taschen"
+westerman_legacy_4_name: "Ziegel und Mörtel"
+westerman_legacy_5_name: "West 5"
+
+#Generic Dorne 
+
+dornish_legacy_track_name: "Dornisch"
+dornish_legacy_track_desc: "Sandgebiete"
+dornish_legacy_1_name: "Wandernder Sand"
+dornish_legacy_2_name: "Trugbild"
+dornish_legacy_3_name: "Unbeugsame Speere"
+dornish_legacy_4_name: "Die Frau des Dornischen"
+dornish_legacy_5_name: "Das Vipernnest"
+
+LEGACY_DORNISH_SIEGE_EVASION:0 "Mitglieder von [dynasty|E] entkommen eher aus der [Concept('imprison', 'Gefangenschaft')|E] nach einer [siege|E] oder einem [raid|E]"
+
+dayne_legacy_track_name: "Dayn"
+dayne_legacy_track_desc: "Dämmerung bringt das Licht!"
+dayne_legacy_1_name: "Wettlauf um den Morgen"
+
+LEGACY_DAYNE_PROWESS:0 "In den Hallen von Sternfall wetteifern die Ritter des Hauses Dayn darum, derjenige zu sein, der den Mantel des nächsten Schwert des Morgens tragen und das sagenumwobene Schwert Dämmerung schwingen darf. \nDiese Rivalität, die ihnen von Geburt an eingeimpft wurde, hat dazu geführt, dass das Haus Dayn einige der größten Ritter hervorgebracht hat, die Westeros je gekannt hat, und führt dazu, dass die Mitglieder dieser [dynasty|E] bessere $trait_education_martial_prowess$-[Concept('trait', 'Eigenschaften')|E] erhalten."
+
+#Generic Stormlanders 
+
+stormlander_legacy_track_name: "Sturmländer"
+stormlander_legacy_track_desc: "Stürmische Küste"
+stormlander_legacy_1_name: "Dem Sturm trotzen"
+stormlander_legacy_2_name: "Einbrechen"
+stormlander_legacy_3_name: "Zorn des Donners"
+stormlander_legacy_4_name: "Stormlander 4"
+stormlander_legacy_5_name: "Trotz des Sturmgottes"
+
+#Generic Crownlanders 
+
+# Dynastic Specific 
+
+#Northern Dynasties 
+
+#Stark Legacy - 
+
+stark_legacy_track_name: "Stark"
+stark_legacy_track_desc: "Der Winter naht"
+stark_legacy_1_name: "Winterkönige"
+stark_legacy_2_name: "Wolfsblut"
+stark_legacy_3_name: "Erbauerblut"
+
+# Umber Legacy  -  Warfare / Blood Mix 
+
+umber_legacy_track_name: "Umber"
+umber_legacy_track_desc: "Gebunden durch Loyalität, losgelöst durch Zorn"
+umber_legacy_1_name: "Letzter Herd, Erste Bastion"
+umber_legacy_2_name: "Entfesselt"
+umber_legacy_3_name: "Riesensaat"
+umber_legacy_4_name: "Blut der ersten Menschen"
+umber_legacy_5_name: "In der Erzählung wachsend"
+
+
+ UMBER_GENETIC_TRAIT_FOR_BLOODLINE_NO_BULLETTAB:0 "Wild und groß wie ihre Schützlinge verkörpern die Umber den letzten Herd des Nordens und seine erste Verteidigungslinie. \nDas Blut der Ersten Menschen fließt in den Adern der Umber, und sie haben eine Veranlagung für große [congenital|E] Charakterzüge."
+
+
+# Forrester Legacy  
+
+forrester_legacy_track_name: "Förster"
+forrester_legacy_track_desc: "Eisen aus Eis"
+forrester_legacy_1_name: "Wächter der Eisenholzbäume"
+
+#Westerlands Dynasties 
+
+sarsfield_legacy_track_name: "Sarsfeld"
+sarsfield_legacy_track_desc: "Treu bis aufs Mark"
+sarsfield_legacy_1_name: "Geboren für den Bogen, ausgebildet für den Sattel"
+
+SARSFIELD_UNLOCK_DESCRIPTION:0 "Kann [GetMaA('sarsfield_horse_archers').GetName] als [men_at_arms|E] rekrutieren"
+SARSFIELD_DESCRIPTION:1 "#weak Es kann nur ein Regiment Sarsfeld-Bogenschützen rekrutiert werden (bis zu Größe 5)#!"
+
+#Valeman Legacies 
+
+borrell_legacy_track_name: "Borrell"
+borrell_legacy_track_desc: "Bestimmt für Größeres"
+borrell_legacy_1_name: "Söhne der Schwestern"
+
+BORRELL_GENETIC_TRAIT_FOR_BLOODLINE_NO_BULLETTAB:0 "Die Borrells von Süßeschwester tragen seit fünftausend Jahren den Segen der Herrin der Wellen in ihren Händen. Von ihrer Gnade gezeichnet, werden diese einstigen Piratenkönige von ihren Schwestermännern zu Recht respektiert und gefürchtet."

@@ -1,0 +1,179 @@
+﻿l_german:
+ # übersetzt von Lys, durchgesehen und überarbeitet von Dillo
+ agot_offer_knighthood_interaction:0 "Ritterwürde anbieten"
+ agot_offer_knighthood_interaction_desc:0 "[recipient.GetFirstNameNicknamedNoTooltipRegnal] ist noch kein Ritter, kann jedoch einer werden. Als Ritter der Königslande, steht es mir zu, andere in den Ritterstand zu erheben."
+
+ offer_of_knighthood:0 "Der Ritterschlag"
+ OFFER_KNIGHTHOOD_NOTIFICATION:0 "Die Ritter der Königslande haben das Privileg, andere zum Ritter zu schlagen. Mir blieb nicht unbemerkt, dass ihr noch kein Ritter seid. Es wäre mir eine Freude, dies zu ändern."
+
+ agot_offer_squirehood_interaction:0 "Knappen ausbilden"
+ agot_offer_squirehood_interaction_desc:0 "Unterweist einen [Concept('squire', 'Knappen')|E] einem [agot_knight|E] an Eurem [court|E]"
+ agot_offer_squirehood_interaction_extra_icon:0 "$hook_extra_icon$"
+ actor_secondary_agot_offer_squirehood_interaction:0 "[agot_knight|E]"
+ recipient_secondary_agot_offer_squirehood_interaction:0 "[squire|E]"
+ agot_offer_squirehood_interaction_notification:0 "Knappen anbieten"
+
+ agot_offer_squire_interaction:0 "Knappen anbieten"
+ agot_offer_squire_interaction_desc:0 "[recipient.GetShortUIName] einen [Concept('squire', 'Knappen')|E] anbieten, was [recipient.Custom('DE_PRO_PER_S_3P_A')] oder jemand anderen an [recipient.GetHerHis]em [court|E], zum verantwortlichen [agot_knight|E] des Knappen macht."
+ agot_offer_squire_interaction_extra_icon:0 "$hook_extra_icon$"
+
+ agot_offer_knight_education_interaction:0 "Knappenausbildung anbieten"
+ agot_offer_knight_education_interaction_desc:0 "[recipient.GetShortUIName] einen [agot_knight|E] anbieten, welcher einen [Concept('squire', 'Knappen')|E] [recipient.GetHerHis]es [Concept('court', 'Hofes')|E] aubilden wird."
+ agot_oagot_offer_knight_education_interaction_extra_icon:0 "$hook_extra_icon$"
+
+ actor_secondary_agot_offer_squire_interaction:0 "Knappe"
+ recipient_secondary_agot_offer_squire_interaction:0 "Ritter"
+
+ actor_secondary_agot_offer_knight_education_interaction:0 "Ritter"
+ recipient_secondary_agot_offer_knight_education_interaction:0 "Knappe"
+
+ EDUCATE_SELECT_YOUR_SQUIRE_OR_KNIGHT:0 "#I Wählt einen [Concept('squire', 'Knappen')|E] oder einen [agot_knight|E] von Eurem [court|E] aus#!"
+ EDUCATE_SELECT_THEIR_KNIGHT:0 "#I Wählt einen [agot_knight|E] von [recipient.GetHerHis]em [court|E] aus#!"
+ EDUCATE_SELECT_THEIR_SQUIRE:0 "#I Wählt einen [Concept('squire', 'Knappen')|E] von [recipient.GetHerHis]em [court|E] aus#!"
+ EDUCATE_SELECT_YOUR_KNIGHT:0 "#I Wählt einen [agot_knight|E] von Eurem [court|E] aus#!"
+ EDUCATE_SELECT_YOUR_SQUIRE:0 "#I Wählt einen [Concept('squire', 'Knappen')|E] von Eurem [court|E] aus#!"
+
+ SQUIRE_ACTOR_CHILD_PERSONALLY_REQUEST:0 "Es würde mich zutiefst erfreuen, wenn Ihr [secondary_actor.GetShortUIName] zu Eurem Knappen nehmen könntet."
+ SQUIRE_ACTOR_PERSONALLY_REQUEST:0 "Es wäre mir eine Ehre, wenn Ihr mich zu Eurem Knappen nehmen könntet."
+ SQUIRE_ACTOR_CHILD_REQUEST:0 "Es wäre mir eine große Freude, wenn Ihr genehmigen würdet, dass [secondary_actor.GetShortUIName] der Knappe von Eures [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] würde."
+ SQUIRE_ACTOR_REQUEST:0 "Es wäre mir eine große Freude, wenn Ihr genehmigen würdet, dass [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))]s [secondary_recipient.GetShortUIName] zum Knappen nähmet."
+
+ EDUCATE_RECIPIENT_SQUIRE_PERSONALLY_REQUEST:0 "Ich würde gerne der Ritter Eures [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))]s [secondary_recipient.GetShortUIName] werden, falls es Euch genehm ist."
+ EDUCATE_SQUIRE_PERSONALLY_REQUEST:0 "Ich würde persönlich dafür sorgen, dass Ihr die beste Knappenausbildung erhaltet — Wenn ihr dies wünscht."
+ EDUCATE_RECIPIENT_SQUIRE_REQUEST:0 "Ich hätte gerne, dass Euer [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] der Knappe von [secondary_actor.GetShortUIName] wird  — einem höchst geschickten Ritter!"
+ EDUCATE_SQUIRE_REQUEST:0 "Um sicherzugehen, dass Ihr eines Tages ein Ritter werdet, hätte ich es gerne, dass Ihr der Knappe von [secondary_actor.GetShortUIName] werdet — einem höchst geschickten Ritter!"
+ educate_squire_interaction_notification:0 "Knappen ausbilden"
+
+ offer_of_squirehood:0 "Knappentum anbieten"
+ OFFER_SQUIREHOOD_NOTIFICATION:0 "Der Weg zum Ritter beginnt als Knappe. Werdet mein Knappe und wenn Ihr Euch als würdig erweist, werde ich Euch eines Tages zum Ritter schlagen!" #AGOT TODO  please rewrite this
+
+ agot_remove_my_squire_interaction:0 "Knappe entlassen"
+ agot_remove_my_squire_interaction_desc:0 "[recipient.GetFirstNameNicknamedNoTooltipRegnal] ist Euer Knappe, jedoch kann dies kurzerhand auch wieder rückgängig gemacht werden."
+
+ squirehood_removal:0 "Aus Knappendienst entlassen"
+ REMOVAL_OF_SQUIREHOOD_NOTIFICATION:0 "In meinen Augen seid Ihr nicht länger würdig, mein Knappe zu sein! Ihr werdet einen anderen Ritter finden müssen, um Eure Ausbildung fortführen zu können!"
+
+ agot_train_squire_interaction:0 "Mit Knappen üben"
+ agot_train_squire_interaction_desc:0 "[recipient.GetFirstNameNicknamedNoTooltipRegnal] in den Fertigkeiten des Rittertums unterweisen."
+
+ squire_training:0 "Knappenertüchtigung"
+ KNIGHT_TRAINS_SQUIRE_NOTIFICATION:0 "Knappe! Es ist wieder an der Zeit, dass ich Euch in den Fertigkeiten des Rittertums unterweise. Macht Euch bereit, am morgigen Tag üben wir wie nie zuvor." #AGOT TODO  please rewrite this
+
+ agot_train_squire_actor.tt:0 "Wird entscheiden, auf welchem Gebiet [recipient.GetName] unterwiesen werden soll."
+ agot_train_squire_recipient.tt:0 "Wird eine von [actor.GetName] ausgewählte Unterweisung erhalten."
+
+ is_squire_or_prev_squire:0 "Ist momentan ein [squire|E] oder ein ritterloser Knappe."
+
+agot_can_become_a_knight_trigger_age_tt:0 "Hat noch nicht das 16. Lebensjahr abgeschlossen oder mit mindestens 12 Jahren ein überragend hohes [prowess|E]."
+
+ agot_char_interaction.0001.opening:1 "[recipient.Custom2('AppropriateGreeting', actor )]"
+ agot_char_interaction.0010.opening:0 "[recipient.Custom2('AppropriateGreetingPositive', actor )]"
+ agot_char_interaction.0080.desc:0 "Wir nehmen Euer Knappentumsangebot gerne an — eine edle Ausbildung für einen edlen Geist!"
+ agot_char_interaction.0081.desc:0 "Bedauerlicherweise entspricht Eure Knappentumsangebot nicht ganz unseren Ansprüchen."
+ agot_char_interaction.0081.a:0 "Welch Schande."
+
+agot_view_squire_progress_interaction:0 "Fortschritt Eures Knappen beobachten"
+agot_view_squire_progress_interaction_desc:0 "Beobachtet den Weg Eures Knappen zum Ritterschlag."
+
+view_progress_very_bad_ptk_tt:0 "Euer [squire|E] hat#N immense Schwierigkeiten#! sich ins Rittertum einzufinden. Ihre derzeitige Verfassung wird wohl niemanden inspirieren."
+
+view_progress_bad_ptk_tt:0 "Euer [squire|E] hat geringfügige Schwierigkeiten sich ins Rittertum einzufinden."
+
+view_progress_zero_ptk_tt:0 "Euer [squire|E] hat seine Ausbildung erst begonnen und noch keinen messbaren Fortschritt gemacht."
+
+view_progress_basic_good_ptk_tt:0 "Euer [squire|E] zeigt ein grundlegenes Verständnis für das Rittertum, hat jedoch noch sehr einen langen Weg vor sich."
+
+view_progress_decent_ptk_tt:0 "Euer [squire|E] zeigt ein vertieftes Verständnis für das Rittertum. Auch wenn er starke Fortschritte macht, hat er noch einiges vor sich."
+
+view_progress_good_ptk_tt:0 "Euer [squire|E] schlägt sich wacker und wird wohl bald zum [agot_knight|E] geschlagen werden!"
+
+view_progress_very_good_ptk_tt:0 "Euer [squire|E] ist fast fertig mit seiner Ausbildung. Noch ein paar letzte Schliffe in den nächsten Monaten und er sollte bereit für den Ritterschlag sein."
+
+view_progress_knight_this_char_now_ptk_tt:0 "Euer [squire|E] kan zum [agot_knight|E] geschlagen werden, sofern er das entsprechende Alter erreicht hat!"
+
+OFFER_SQUIRE:0 "Knappen anbieten"
+OFFER_KNIGHT_TUTELAGE:0 "Ritterunterweisung anbieten"
+OFFER_EDUCATE_SQUIRE:0 "Knappentum anbieten"
+
+##
+
+ACTOR_IS_MY_AGOT_KNIGHT_REASON:0 "[recipient.GetShortUIName|U] ist  der Knappe von [actor.GetShortUIName]: $VALUE|=+0$"
+
+LOWBORN_DESIRES_KNIGHTHOOD_REASON:0 "Als eine [lowborn|E] bin ich eher geneigt, eine Erhöhung meines Sozialen Status zu akzeptieren: $VALUE|=+0$"
+
+HIGHBORN_DISLIKES_LOWBORN_KNIGHT_OFFER:0 "Der Ritterschlag durch eine [lowborn|E] wäre für mich unangemessen: $VALUE|=+0$"
+
+HIGHBORN_IS_HUMBLE:0 "Dass [actor.GetShortUIName|U] eine [lowborn|E] ist, stört mich nicht, da ich demütig bin: $VALUE|=+0$"
+
+#### NEW SHIT
+
+## PERSONALITY REASONS
+
+KNIGHTHOOD_LOW_BOLDNESS_REASON:0 "[personality|E] —#italic Rittertum klingt gefährlich:#! $VALUE|=+0$"
+
+KNIGHTHOOD_HIGH_BOLDNESS_REASON:0 "[personality|E] —#italic Ich genieße die Chance, meinen Wert als Ritter zu beweisen!:#! $VALUE|=+0$"
+
+KNIGHTHOOD_FAITH_ZEALOUT_REASON:0 "[personality|E] —#italic Die Ritterwürde ist ein Zeichen meiner höhere Hingabe:#! $VALUE|=+0$"
+
+KNIGHTHOOD_GREED_REASON:0 "[personality|E] —#italic Ein Ritter zu werden, verbessert meinen sozialen Status:#! $VALUE|=+0$"
+
+KNIGHTHOOD_ENERGY_REASON:0 "[personality|E] —#italic Rittertum klingt nach einer Menge Aufwand:#! $VALUE|=+0$"
+
+KNIGHTHOOD_HONOR_REASON:0 "[personality|E] —#italic Es ist eine Ehre, die Ritterwürde anzunehmen:#! $VALUE|=+0$"
+
+KNIGHTHOOD_LOW_SOCIABILITY:0 "[personality|E] —#italic Ich bin den anderen überdrüssig:#! $VALUE|=+0$"
+
+## EDUCATION REASONS
+
+KNIGHTHOOD_EDUCATION_MARTIAL_REASON:0 "[education|E]: Ich habe eine Kriegsführungs-Ausbildung:\ $VALUE|=+0$"
+
+KNIGHTHOOD_EDUCATION_LEARNING_REASON:0 "[education|E]: Ich bin von kluger, nicht von kriegerischer Natur!:\ $VALUE|=+0$"
+
+KNIGHTHOOD_EDUCATION_NON_MARTIAL_REASON:0 "[education|E]: Ich habe eine andere Ausbildung als der Kriegsführung:\ $VALUE|+=0$"
+
+KNIGHTHOOD_I_AM_A_WARRIOR_REASON:0 "[education|E]: Ich bin ein geübter Krieger, jedoch noch kein Ritter:\ $VALUE|+=0$"
+
+KNIGHTHOOD_MY_FAITH_DOES_NOT_CARE:0 "[faith|E]: [recipient.GetShortUINamePossessiveNoTooltip|U] Glaube schätzt das Rittertum nicht:\ $VALUE|+=0$"
+
+KNIGHTHOOD_HAS_KNIGHTHOOD_TENET_REASON:0 "[faith|e]: [recipient.GetShortUINamePossessiveNoTooltip|U] Glaube schätzt das Rittertum:\ $VALUE|=+0$"
+
+## LANDED TITLES
+
+OUR_HOUSES_ARE_FEUDING_REASON:0 "Unsere Häuser sind verfeindet: $VALUE|=+0$"
+
+WE_COME_FROM_NEIGHBORING_COUNTIES:0 "[recipient.GetShortUINameNoTooltip|U] und [actor.GetShortUINameNoTooltip] kommen von benachbarten Ländereien: $VALUE|=+0$"
+
+KNIGHTING_THEY_ARE_MORE_POWERFUL_REASON:0 "[actor.GetShortUINameNoTooltip|U] ist mächtiger als [recipient.GetShortUINameNoTooltip]: $VALUE|=+0$"
+
+## PRESTIGE
+
+KNIGHTHOOD_THEY_HAVE_A_BAD_REPUTATION:0 "[actor.GetShortUINamePossessive|U] [prestige_level|E] ist entehrt oder [prestige|E] ist negativ: $VALUE|=+0$"
+
+KNIGHTHOOD_THEY_HAVE_LOW_PRESTIGE:0 "[actor.GetShortUINamePossessive|U] [prestige_level|E] ist belanglos: $VALUE|=+0$"
+
+KNIGHTHOOD_I_AM_MORE_FAMOUS_THAN_YOU:0 "[actor.GetShortUINamePossessive|U] [prestige_level|E] ist niedriger als meine: $VALUE|=+0$"
+
+## OTHER
+
+FAVORS_BEING_A_SQUIRE_REASON:0 "Ich bevorzuge es Knappe zu sein: $VALUE|=+0$"
+
+### SQUIRE REASONS
+
+SQUIREHOOD_I_AM_A_RULER_ALREADY:0 "[secondary_actor.GetShortUIName|U] ist ein volljähriger Herrscher: $VALUE|=+0$"
+
+SQUIREHOOD_SQUIRE_CANDIDATE_IS_LOWBORN:0 "Der vorgeschlagene Knappe ist eine [lowborn|E]: $VALUE|=+0$"
+
+SQUIREHOOD_SQUIRE_CANDIDATE_DOES_NOT_HAVE_KNIGHTHOOD_TENET:0 "[faith|E]: Der Glaube des vorgeschlagenen Knappen schätzt das Ritterdasein nicht: $VALUE|=+0$"
+
+SQUIREHOOD_I_AM_OLD_ENOUGH_TO_BE_A_KNIGHT:0 "Der vorgeschlagene Knappe ist alt genug um zum Ritter geschlagen zu werden: $VALUE|=+0$"
+
+SQUIREHOOD_SQUIRE_CANDIDATE_IS_NOT_RIGHT_IN_THE_HEAD:0 "Der vorgeschlagene Knappe hat einen Schatten: $VALUE|=+0$"
+
+KNIGHTING_AI_GUARDIAN_SKILL_MARTIAL:0 "[Concept('martial', 'Kriegsführungs')|E]-Fähigkeit des Ritters: $VALUE|=+0$"
+KNIGHTING_AI_GUARDIAN_SKILL_PROWESS:0 "[Concept('prowess', 'Kampfgeschicks')|E]-Fähigkeit des Ritters: $VALUE|=+0$"
+
+educate_squire_interaction_notification:0 "Knappen ausbilden"
+
+## OTHER STUFF
+
+THEY_ARE_MY_SQUIRE:0 "Er ist mein Knappe und er ist bereit zum Ritter geschlagen zu werden!"

@@ -1,0 +1,129 @@
+﻿l_german:
+ # Übersetzt von Lysander
+ # Decision Menu Localization
+ petition_liege_decision:0 "Bittgesuch an den Lehnsherrn"
+ petition_liege_decision_desc:1 "Ich kann ein Bittgesuch an meinen Lehnsherrn richten, damit er mir hilft, die Herausforderungen zu bewältigen, vor denen ich stehe. Ehrlichen Bitten, die zum Wohl des Reichs beitragen, wird öfter stattgegeben."
+ petition_liege_decision_tooltip:1 "Euren [Concept('liege', 'Lehnsherrn')|E] um [Concept('petition_liege', 'Hilfe')|E] bitten"
+ petition_liege_decision_effects:1 "Ihr reist an den Hof von [THIS.Char.GetLiege.GetTitledFirstName], um Euer Bittgesuch zu überbringen"
+ petition_liege_decision_confirm:1 "$petition_liege_decision$"
+ petition_liege_decision_second_tooltip:0 "$DESC$\n$petition_liege_grace_tt$\n\n$IS_VALID_BLOCKER$"
+ petition_liege_grace_tt:0 "#weak Bittgesuch an den Lehnsherrn wird 5 Jahre nicht verfügbar sein#!"
+ CHOOSE_PETITION_DECISION_NEXT_STEP_BUTTON:0 "Art des Bittgesuchs auswählen"
+ petition_liege_warning_effect:0 "#weak Persönlichkeit des [Concept('liege', 'Lehnsherrn')|E], Meinung und Art des [Concept('petition_liege', 'Bittgesuchs')|E] wirken sich auf die Annahmewahrscheinlichkeit aus#!"
+ # Council
+ petition_liege_decision_option_council_seat:0 "Ratsposten\n#low Gewährt einen Sitz im [council|E]#!"
+ petition_liege_council_seat_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, Euch einen Sitz in [ROOT.Char.GetLiege.Custom('DE_PRO_POS_S_3P')]em [council|E] zu gewähren"
+ petition_liege_council_seat_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_council_seat_me_tt:0 "#X Ihr sitzt bereits im [council|E] Eures [Concept('liege', 'Lehnsherrn')|E]#!"
+ petition_liege_council_seat_liege_tt:0 "#X Euer [liege|E] kann derzeit [ROOT.Char.GetLiege.Custom('DE_PRO_POS_S_3P')]en [council|E] nicht umgestalten#!"
+ council_appointment_toast_desc_liege:0 "[petition_vassal.GetTitledFirstNameNoTooltip] ist jetzt Euer [petition_vassal.GetCouncilTitle]"
+ council_appointment_toast_desc_vassal:0 "Ihr seid jetzt [petition_vassal.GetCouncilTitle] von [petition_liege.GetTitledFirstNameNoTooltip]"
+ council_appointment_toast_desc_replaced:0 "[petition_liege.GetTitledFirstNameNoTooltip] hat Euch in [petition_liege.Custom('DE_PRO_POS_S_3P')]em Rat durch [petition_vassal.GetTitledFirstNameNoTooltip] ersetzt"
+ petition_liege_decision_effects_council_seat:0 "[ROOT.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')] könnte Euch einen Sitz in [ROOT.Char.GetLiege.Custom('DE_PRO_POS_S_3P')]em [council|E] gewähren"
+ # Debt
+ petition_liege_decision_option_pay_debt:0 "Schuldenbegleichung\n#low Zahlt Eure [debt|E] ab#!"
+ petition_liege_pay_debt_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, Eure [debt|E] abzubezahlen"
+ petition_liege_pay_debt_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_pay_debt_me_tt:1 "#X Ihr habt nicht mindestens -100 Gold [debt|E]"
+ petition_liege_pay_debt_liege_tt:0 "#X Euer [liege|E] kann sich nicht leisten, Eure [debt|E] abzubezahlen#!"
+ petition_liege_decision_effects_pay_debt:0 "[THIS.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')|U] könnte Eure [debt|E] abbezahlen"
+
+ # War Aid
+ petition_liege_decision_option_war_aid:0 "Militärischer Beistand\n#low Unterstützung bei einem äußeren [war|E]#!"
+ petition_liege_war_aid_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, sich dem laufenden [war|E] mit einem anderen [realm|E] anzuschließen oder Euch Truppen zur Verfügung zu stellen"
+ petition_liege_war_aid_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_war_aid_tt:2 "#X Ihr seid nicht dabei, als [war_leader|E] in einem Nicht-[Concept('realm','Reichs')|E]-[war|E]#! mit mindestens -[EmptyScope.ScriptValue('petition_war_aid_score_value')|0] % [Concept('war_score', 'Kriegspunkten')|E] zu verlieren."
+ petition_liege_war_aid_liege_tt:1 "#X [liege|E] ist bereits an all Euren laufenden [Concept('wars','Kriegen')|E] beteiligt#!"
+ petition_liege_war_aid_levies_tt:1 "#X [liege|E] ist nicht stark genug, um es riskieren zu können, sich Eurem [war|E] anzuschließen#!"
+ petition_liege_decision_effects_war_aid:0 "[THIS.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')|U] könnte sich dem laufenden [war|E] anschließen oder Truppen zur Verfügung stellen"
+ petition_liege_war_aid_troops:0 "Lehnsherren-Aufgebote"
+ petition_liege_internal_war_aid_tt:0 "#X [liege|E] ist mit dem Kampf gegen [factions|E] beschäftigt#!"
+ petition_liege_external_war_aid_tt:0 "#X [liege|E] ist mit dem Kampf in externen [Concept('wars','Kriegen')|E] beschäftigt#!"
+
+ # Vassal War
+ petition_liege_decision_option_vassal_war:0 "Reichsfrieden\n#low Frieden zwischen [vassals|E] erzwingen#!"
+ petition_liege_vassal_war_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, Frieden in Euren [Concept('wars','Kriegen')|E] mit [ROOT.Char.GetLiege.Custom('DE_PRO_POS_S_3P')]en anderen [vassals|E] zu erzwingen"
+ petition_liege_vassal_war_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_vassal_war_tt:0 "#X Ihr seid nicht im [war|E] mit einem [Concept('vassal', 'Vasallen')|E] Eures [Concept('liege', 'Lehnsherrn')|E]#!"
+ petition_liege_decision_effects_vassal_war:0 "[THIS.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')|U] könnte Eure [wars|E] mit anderen [vassals|E] beenden"
+ vassal_war_toast_desc_second_party:0 "[petition_vassal.GetTitledFirstNameNoTooltip] hat darum ersucht, dass [petition_liege.GetTitledFirstNameNoTooltip] Euren Krieg beendet"
+
+ # Faction War
+ petition_liege_decision_option_faction_war:0 "Fraktionen auflösen\n#low Löst mächtige [faction|E] auf#!"
+ petition_liege_faction_war_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, dass er eine mächtige [faction|E] auflöst oder Euren Krieg mit ihr beendet."
+ petition_liege_faction_war_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_faction_war_tt:0 "#X Keine [claimant_faction|E] oder [liberty_faction|E] ist im Krieg mit Euch oder kann ihre Forderungen erzwingen#!"
+ petition_liege_decision_effects_faction_war:0 "[THIS.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')|U] könnte eine [faction|E], die sich Euch widersetzt, auflösen"
+
+ # Control
+ petition_liege_decision_option_county_control:0 "Landvögte entsenden\n#low Hilft, die [county|E]-[control|E] zu verbessern#!"
+ petition_liege_county_control_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, Euch zu helfen, die [control|E] in aufmüpfigen [counties|E] wiederherzustellen"
+ petition_liege_county_control_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_county_control_tt:0 "#X Keine Eurer [counties|E] haben eine niedrige [control|E]#!"
+ petition_liege_decision_effects_county_control:0 "[THIS.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')|U] könnte Euch helfen, Eure [counties|E] unter [control|E] zu bekommen"
+
+ # Convert
+ petition_liege_decision_option_county_convert:0 "Priesterförderung\n#low Hilfe beim Bekehren von [counties|E]#!"
+ petition_liege_county_convert_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, Euch bei der Bekehrung von [counties|E] zum wahren [Concept('faith', 'Glauben')|E] zu helfen"
+ petition_liege_county_convert_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_county_convert_tt:0 "#X Keine Eurer [counties|E] hat einen anderen [Concept('faith', 'Glauben')|E]#!"
+ petition_liege_decision_effects_county_convert:0 "[THIS.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')|U] könnte bei der Bekehrung Eurer [counties|E] helfen"
+
+ # Opinion
+ petition_liege_decision_option_county_opinion:0 "Königlicher Besuch\n#low Hebt [county_opinion|E] in [counties|E]"
+ petition_liege_county_opinion_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, eine Rundreise durch Eure [counties|E] zu machen, um so die [county_opinion|E] zu heben"
+ petition_liege_county_opinion_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_county_opinion_tt:0 "#X Keine Eurer [counties|E] hat eine niedrige [county_opinion|E]#!"
+ petition_liege_decision_effects_county_opinion:0 "[THIS.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')|U] könnte die [county_opinion|E] in Eurem [realm|E] steigern"
+
+ # Fortify
+ petition_liege_decision_option_fortify_border:0 "Grenzbefestigung\n#low Stärkt Eure Grenz-[counties|E]#!"
+ petition_liege_fortify_border_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, Euch bei der Befestigung Eurer [counties|E] an den Grenzen zu anderen [Concept('realms', 'Reichen')|E] zu helfen"
+ petition_liege_fortify_border_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_fortify_border_tt:0 "#X Keine Eurer [counties|E] grenzt an ein anderes [realm|E], das kein [alliance|E] mit Eurem [Concept('liege', 'Lehnsherrn')|E] hat#!"
+ petition_liege_decision_effects_fortify_border:0 "[THIS.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')|U] könnte Eure Grenz-[counties|E] befestigen"
+
+ # Title Liege
+ petition_liege_decision_option_title_liege:0 "Anspruch gewähren\n#low Gewährt [Concept('claimed', 'Beanspruchte')|E] [title|E]#!"
+ petition_liege_title_liege_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, Euch einen [Concept('claimed', 'Beanspruchten')|E] [title|E] aus dem eigenen Besitz zu übertragen"
+ petition_liege_title_liege_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_title_liege_tt:0 "#X Keiner Eurer [claims|E] wird von Eurem [Concept('liege', 'Lehnsherrn')|E] gehalten oder man kann es sich nicht leisten, den [title|E] aufzugeben#!"
+ petition_liege_decision_effects_title_liege:0 "[THIS.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')|U] könnte einen beanspruchten [title|E] auf Euch übertragen"
+
+ # Title Vassal
+ petition_liege_decision_option_title_vassal:0 "Anspruch übertragen\n#low Den [Concept('claimed', 'Beanspruchten')|E] [title|E] eines [Concept('vassal', 'Vasallen')|E] verleihen"
+ petition_liege_title_vassal_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, Euch einen [Concept('claimed', 'Beanspruchten')|E] [title|E] von einem anderen [Concept('vassal', 'Vasallen')|E] zu übertragen"
+ petition_liege_title_vassal_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_title_vassal_liege_tt:0 "#X Die [crown_authority|E] Eures [Concept('liege', 'Lehnsherrn')|E] erlaubte keine [revocation|E] von [titles|E]#!"
+ petition_liege_title_vassal_claim_tt:0 "#X Keiner Eurer [claims|E] wird von [vassals|E] Eures [Concept('liege', 'Lehnsherrn')|E] gehalten oder sie können oder wollen den [title|E] nicht aufgeben#!"
+ petition_liege_decision_effects_title_vassal:0 "[THIS.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')|U] könnte einen beanspruchten [title|E] eines anderen [Concept('vassal', 'Vasallen')|E] auf Euch übertragen"
+
+ # Construct City
+ petition_liege_decision_option_construct_city:0 "Gemeinde verstädtern\n#low [city|E]-[holding|E] finanzieren#!"
+ petition_liege_construct_city_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, ein [city|E]-[holding|E] in Euren [counties|E] zu finanzieren"
+ petition_liege_construct_city_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_construct_city_tt:0 "#X Keines Eurer [holdings|E] kann ein [city|E]-[holding|E] bekommen#!"
+ petition_liege_construct_city_liege_tt:0 "#X Euer [liege|E] kann sich nicht leisten, ein [holding|E] zu errichten#!"
+ petition_liege_decision_effects_construct_city:0 "[THIS.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')|U] könnte den Bau eines [city|E]-[Concept('holding', 'Besitztums')|E] in Eurem [realm|E] finanzieren"
+
+ # Construct Temple
+ petition_liege_decision_option_construct_temple:0 "Tempelschenkung\n#low [temple|E]-[holding|E] finanzieren#!"
+ petition_liege_construct_temple_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, ein [temple|E]-[holding|E] in Euren [counties|E] zu finanzieren"
+ petition_liege_construct_temple_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_construct_temple_tt:0 "#X Keines Eurer [holdings|E] kann ein [temple|E]-[holding|E] bekommen#!"
+ petition_liege_decision_effects_construct_temple:0 "[THIS.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')|U] könnte den Bau eines [temple|E]-[Concept('holding', 'Besitztums')|E] in Eurem [realm|E] finanzieren"
+
+ # Development
+ petition_liege_decision_option_development:0 "Untertanen umsiedeln\n#low Erhöht die [capital|E]-[development|E]#!"
+ petition_liege_development_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, einen Teil der Bevölkerung [ROOT.Char.GetLiege.Custom('DE_PRO_POS_S_3P')]es [Concept('capital', 'Hauptsitzes')|E] an Euch zu übertragen"
+ petition_liege_development_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_development_tt:0 "#X Euer [capital|E] hat bereits mehr als 66 % der [development|E] des Hauptsitzes Eures [Concept('liege', 'Lehnsherrn')|E]#!"
+ petition_liege_decision_effects_development:0 "[THIS.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')|U] könnte einen Teil der [development|E] [THIS.Char.GetLiege.Custom('DE_PRO_POS_S_3P')]es [Concept('capital', 'Hauptsitzes')|E] an Euch übertragen"
+
+ # Shared
+ petition_liege_faith_tt:0 "#X Ihr habt nicht denselben [Concept('faith', 'Glauben')|E] wie Euer [liege|E]#!"
+ petition_liege_holding_tt:0 "#X Euer [liege|E] kann sich nicht leisten, ein [holding|E] zu errichten#!"
+ 
+ petition_liege_debt_tt:0 "#X Euer [liege|E] hat [debt|E]#!"
+ petition_liege_council_no_petition_valid_tt:0 "#X Es gibt nichts, worum Ihr Euren Lehnsherrn bitten könntet#!"
+ petition_liege_city_planning_innovation_tt:0 "#X Sowohl Ihr als auch Euer [liege|E] müssen [cultures|E] mit der [innovation|E] „Stadtplanung“ angehören#!"

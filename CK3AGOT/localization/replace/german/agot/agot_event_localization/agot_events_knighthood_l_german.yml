@@ -1,0 +1,196 @@
+﻿l_german:
+#Übersetzt von Lys aus dem Hause Lys, durchgesehen und überarbeitet von Dillo dem Laktoseritter
+ #########################
+ ## Hedge Knight Events ##
+ #########################
+
+ # Hedge knight wants to squire your heir
+ agot_knighthood.0016.t:0 "Der Heckenritter: Was es heißt, ein Ritter zu sein"
+ agot_knighthood.0016.desc:0 "Ein Heckenritter verbrachte die letzten paar Nächte an meinem Hof. Offenbar hat mein Sohn [potential_child_squire.GetName] in ihm sein neues Vorbild gefunden. Ser [hedge_knight.GetName] erzählte viel von [hedge_knight.Custom('DE_PRO_POS_S_3P')]en Reisen und was es heißt ein Ritter zu sein. Diese Geschichten ließen bei meinem Sohn einen bleibenden Eindruck.\n\nScheinbar sieht Ser [hedge_knight.GetName] in meinem Sohn [hedge_knight.Custom('DE_PRO_POS_S_3P')]en Nachfolger, da er mir am Tag [hedge_knight.Custom('DE_PRO_PER_S_3P_G')] Abreise anbietet, bei Hofe zu bleiben um ihn als Knappen zu unterweisen.\n\n[hedge_knight.GetSheHe|U] könnte [hedge_knight.Custom('DE_ART_DEF_S_N')] richtige Mentor[hedge_knight.Custom('DE_END_NOU_S_GS_N')] für [potential_child_squire.GetName] sein. Ausserdem würde es meinen Sohn äußerst glücklich machen. Ich muss mich entscheiden."
+ agot_knighthood.0016.a:0 "Es wäre uns eine Ehre!"
+ agot_knighthood.0016.a.tt:0 "Ser [hedge_knight.GetName] schließt sich Eurem Hof an und macht Euren Sohn zu [hedge_knight.Custom('DE_PRO_POS_S_3P')]em [Concept('squire', 'Knappen')|E]"
+ agot_knighthood.0016.b:0 "Märchen erzählen kann auch unser Maester."
+ agot_knighthood.0016.b.tt:0 "Ser [hedge_knight.GetName] verlässt Euren Hof"
+
+ # Hedge knight wants to knight your non-heir son
+ agot_knighthood.0700.t:0 "Der Heckenritter: Eine Hand wäscht die Andere"
+ agot_knighthood.0700.desc:0 "Ein Heckenritter namens [hedge_knight.GetName] ist seit kurzem an meinem Hof. [hedge_knight.GetSheHe|U] ist von [hedge_knight.GetCulture.GetName]em Blut und reiste viel umher, bevor [hedge_knight.GetSheHe] bei mir eintraf. Ich weiß nichts über [hedge_knight.Custom('DE_PRO_PER_S_3P_A')], außer dass [hedge_knight.GetSheHe] angeblich ein Ritter adeliger Abstammung ist.\n\nIch habe [hedge_knight.Custom('DE_PRO_PER_S_3P_D')] keinerlei Aufmerksamkeit geschenkt, weshalb ich davon ausging, [hedge_knight.GetSheHe] würde den Hof demnächst verlassen. Anders als gedacht, kam [hedge_knight.GetSheHe] auf mich zu und bot mir an, meinen Sohn [potential_child_knight.GetName] zum Ritter zu schlagen! Als Gegenleistung will [hedge_knight.GetSheHe] jedoch so lange unter meinem Dach weilen, wie es [hedge_knight.Custom('DE_PRO_PER_S_3P_D')] gefällt."
+ agot_knighthood.0700.a:0 "Fühlt Euch wie zu Hause, #italic Ser#!."
+ agot_knighthood.0700.b:0 "Verschwindet, Ihr Zecke."
+
+ # Hedge knight wants to knight you
+ agot_knighthood.0701.t:0 "Der Heckenritter: Der erkaufte Ritterschlag"
+ agot_knighthood.0701.desc:0 "Ein Heckenritter namens [hedge_knight.GetName] ist seit kurzem an meinem Hof. [hedge_knight.GetSheHe|U] ist von [hedge_knight.GetCulture.GetName]em Blut und reiste viel umher, bevor [hedge_knight.GetSheHe] bei mir eintraf.\n\nIch habe mich nicht sonderlich um [hedge_knight.Custom('DE_PRO_PER_S_3P_A')] geschert, doch wie es scheint, [hedge_knight.GetSheHe] jedoch um #italic mich#!. Meine Diener überreichten mir eine an mich adressierte, krakelige Notiz.\n\n#italic "Ich werde Euch zum Ritter schlagen, wenn der Preis stimmt.\n\nGezeichnet, [hedge_knight.GetName]"#!"
+ agot_knighthood.0701.a:0 "Das ist es mir wert."
+ agot_knighthood.0701.b:0 "Ich bin schon [ROOT.Char.GetTitleAsNameNoTooltip], was will ich mehr?"
+
+ #####################
+ # Dynasty Knighting #
+ #####################
+
+ #0017-19
+ agot_knighthood.0017.t:0 "Blut des Ritters"
+ agot_knighthood.0017.desc:0 "Mein Verwandter [potential_squire.GetName] ist noch kein Knappe. Vielleicht kann ich unsere Beziehung zueinander verbessern, indem ich ihm anbiete, mein Knappe zu werden?"
+ agot_knighthood.0017.a:0 "Das ist ein guter Einfall!"
+ agot_knighthood.0017.a.tt:0 "Ihr bietet [potential_squire.GetName] das [Concept('squire', 'Knappentum')|E] an"
+ agot_knighthood.0017.b:0 "Das ist reine Zeitverschwendung."
+ agot_knighthood.0017.b.tt:0 "Ihr bietet [potential_squire.GetName] nicht das [Concept('squire', 'Knappentum')|E] an"
+
+ agot_knighthood.0018.opening:0 "An [potential_knight_for_child.GetName],"
+ agot_knighthood.0018.desc:0 "Mir ist nicht entgangen, dass ihr noch kein Knappe seid. Falls ihr dies zu ändern wünscht, bräuchtet ihr zuförderst einen Ritter...\n\nWie es der Zufall so will, lest ihr gerade eines solchen Mannes Handschrift. Da in unseren Adern das selbe Blut fließt, wäre es für mich ein freudiges Anliegen, Euch auszubilden und eines Tages zu einem Ritter der Königslande zu schlagen, sofern Ihr Euch dieser Bürde würdig erweist!"
+ agot_knighthood.0018.a:0 "Ich fühle mich geehrt!"
+ agot_knighthood.0018.b:0 "Tut mir leid, ich muss passen."
+ agot_knighthood.0018.b_toast:0 "Antwort von [potential_squire.GetName]"
+ agot_knighthood.0018.b_toast_tt:0 "[potential_squire.GetNameNoTooltip] hat Euer Angebot abgelehnt."
+
+ agot_knighthood.0019.opening:0 "An [knight_offerer.GetName],"
+ agot_knighthood.0019.desc:0 "Gerne nehme ich Euer Angebot an! Da wir beide vom selben Blut sind, sollten wir diese Bande stärken!"
+ agot_knighthood.0019.a:0 "Fantastisch!"
+
+ ##############################
+ # Squire Notification Events #
+ ##############################
+
+ #0199
+ agot_knighthood.0199.t:0 "Knappentum"
+ agot_knighthood.0199.desc:0 "[my_knight.GetName] hat mich zu [hedge_knight.Custom('DE_PRO_POS_S_3P')]em Knappen gemacht. Mein Weg zum Rittertum beginnt und ich bin gespannt, was mich erwartet!"
+ agot_knighthood.0199.a:0 "Nun beginnt das Abenteuer."
+
+ agot_knighthood.0300.t:0 "Das Ende einer Reise"
+ agot_knighthood.0300.desc:0 "[my_squire.GetName] hat sich bewiesen und ist nun bereit, zum Ritter geschlagen zu werden! Auf seinem Weg lagen viele Hindernisse, jedoch konnte er ihnen trotzen und ist nun zu einem wahren Krieger herangewachsen. Ich blicke voller Stolz auf die vergangene Zeit und mache mich wehmütig zum Abschied bereit."
+ agot_knighthood.0300.a:0 "[my_squire.GetName] ist bereit, die Ritterwürde zu empfangen."
+ agot_knighthood.0300.a.tt:0 "Ihr schlagt [my_squire.GetName] zum [agot_knight|E]"
+
+ agot_knighthood.0320.t:0 "Ein Ritter in der Verwandschaft!"
+ agot_knighthood.0320.desc:0 "Mein[my_realtion.Custom('DE_END_PRO_S_N')] Verwandter[my_relation('DE_END_ADJ_NUL_S_N')] [my_relation.GetName] wurde zum Ritter geschlagen. [my_relation.GetSheHe|U] bringt Haus [ROOT.GetCharacter.GetHouse.GetName] Ehre und wird dessen Namen würdig!"
+ agot_knighthood.0320.a:0 "Gut für [my_relation.Custom('DE_PRO_PER_S_3P_A')]!"
+
+ ##################
+ # Toast Tooltips #
+ ##################
+
+ agot_knighthood.increase_progtoknighthood_toast.tt:0 "Ihr verbessert Euch als Knappe"
+ agot_knighthood.decrease_progtoknighthood_toast.tt:0 "Ihr verschlechtert Euch als Knappe"
+
+ agot_knighthood.0021.a_toast:0 "Knappentum erlangt"
+ agot_knighthood.0021.a_toast.tt:0 "Ihr seid nun [potential_knight.GetNamePossessive] [squire|E]"
+ agot_knighthood.0021.b_toast:0 "Antwort von [nearby_knight.GetName]"
+ agot_knighthood.0021.b_toast.tt:0 "[nearby_knight.GetNameNoTooltip] hat Euer Angebot abgelehnt"
+
+ ##Used in the Squire Interaction (Via char menu)
+ agot_knighthood_squire_offer_accept_toast:0 "Knappentumsangebot angenommen"
+ agot_knighthood_squire_offer_accept_toast.tt:0 "Ihr habt einen [Concept('squire', 'Knappen')]"
+ agot_knighthood_squire_offer_reject_toast:0 "Knappentumsangebot abgelehnt"
+ agot_knighthood_squire_offer_reject_toast.tt:0 "Euer Angebot wurde #N abgelehnt#!"
+ 
+ ##Used In the Knighting Interactions (Via char menu)
+ agot_knighthood_made_a_knight_toast:0 "Ihr habt jemanden zum Ritter geschlagen!"
+ agot_knighthood_made_a_knight_toast.tt:0 "Ihr habt [recipient.GetNameNoTooltip] zum Ritter geschlagen!"
+
+ agot_knighthood_youve_been_made_a_knight_toast:0 "Ihr wurdet zum Ritter geschlagen!"
+ agot_knighthood_youve_been_made_a_knight_toast.tt:0 "Ihr wurdet zum Ritter geschlagen"
+ agot_knighthood_offer_rejected_toast:0 "Ritterschlag abgewiesen"
+ agot_knighthood_offer_rejected_toast.tt:0 "Euer Angebot wurde #N abgelehnt#!"
+
+ #Used in places outside the 'grant knighthood' interaction
+ agot_knighthood_made_a_knight_generic_toast:0 "Ihr habt jemanden zum Ritter geschlagen!"
+ agot_knighthood_made_a_knight_generic_toast.tt:0 "Ihr habt jemanden zum Ritter geschlagen"
+
+ ################################
+ # Tournament Events/Promotions #
+ ################################
+
+ agot_knighthood.0500.t:0 "Der Turniersieger: Mein Knappe"
+ agot_knighthood.0500.desc:0 "Mein Knappe [winning_squire.GetName] hat ein Turnier gewonnen! Gegen zahlreiche Kontrahenten kämpfte er sich an die Spitze und gewann.\n\nDass ein bloßer #italic Knappe#! es mit Rittern und Kiegern des ganzen Reiches aufnehmen kann, ist mehr als nur erstaunlich.\n\nManche würden sagen, dass eine solche Errungenschaft genug sein könnte, um einen Mann zum Ritter zu schlagen..."
+ agot_knighthood.0500.a:0 "[winning_squire.GetName] ist bereit die Ritterwürde zu empfangen!"
+ agot_knighthood.0500.a.tt:0 "Ihr schlagt [winning_squire.GetName] zum [agot_knight|E]"
+ agot_knighthood.0500.b:0 "Es war vermutlich nur Glück. Er muss noch warten."
+ agot_knighthood.0500.b.tt:0 "[winning_squire.GetName] bleibt Euer [squire|E]"
+
+ agot_knighthood.0501.t:0 "Der Turniersieger: Der Ritterschlag"
+ agot_knighthood.0501.desc:0 "Während ich mich als Sieger von [host.GetNamePossessive] Turniers feiern lasse, kommt [my_knight.GetName] auf mich zu und fordert mich auf, vor [my_knight.Custom('DE_PRO_PER_S_3P_D')] niederzuknien.\n\nFeierlich zieht [my_knight.GetSheHe] [my_knight.Custom('DE_PRO_POS_S_3P')] Schwert und legt es auf meine rechte Schulter. Die Turnierfeierlichkeiten verstummen und alle Augen sind auf uns gerichtet. [my_knight.GetSheHe|U] beginnt zu sprechen:\n\n#italic "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V]. Im Namen des Kriegers fordere ich Euch auf, mutig zu sein."#! [my_knight.GetSheHe|U] legt das Schwert auf meine linke Schulter. #italic "Im Namen des Vaters fordere ich Euch auf, gerecht zu sein."#! [my_knight.GetSheHe|U] legt das Schwert wieder auf meine rechte Schulter. #italic "Im Namen der Mutter fordere ich Euch auf, die Unschuldigen zu beschützen."#!"
+ agot_knighthood.0501.a:0 "Ich schwöre es!"
+ agot_knighthood.0501.a.tt:0 "Ihr nehmt den Ritterschwur an"
+
+ agot_knighthood.0502.t:0 "Ein Ritter der Königslande"
+ agot_knighthood.0502.desc:0 "[my_knight.GetName] lächelt: #italic "Erhebt Euch,#V Ser#! [ROOT.GetCharacter.GetFirstNameNoTooltip|V], als Ritter der Königslande!"#!"
+ agot_knighthood.0502.a:0 "Ich bin ein Ritter!"
+ agot_knighthood.0502.a.tt:0 "Ihr wurdet zum [agot_knight|E] geschlagen"
+
+ agot_knighthood.0503.t:0 "Der Turniersieger: Ein ritterloser Knapppe"
+ agot_knighthood.0503.desc:0 "[host.GetNamePossessive] Turnier ist zu Ende. Ich hatt zwar meinen Spaß, jedoch geschah etwas unvorhersehbares: Ein ritterloser Knappe namens [winning_squire.GetName] gewann!\n\nZwar war [winning_squire.GetName] etwas vertraut mit den Bräuchen des Rittertums, jedoch ist er immernoch ein Knappe. Seine Fertigkeiten beeindruckten viele am Turnier. Hätte [winning_squire.GetName] einen ausbildenden Ritter, hätte ihn dieser sicherlich dafür zum Ritter geschlagen. Es wäre eine Schande, solches Talent zu vergeuden.\n\nWenn ich ihn jedoch zum Ritter schlage, könnte ich diese Ungerechtigkeit beheben. Und nach seiner Darbietung würde auch sicherlich niemand widersprochen."
+ agot_knighthood.0503.a:0 "Ich werde [winning_squire.GetName] zum Ritter schlagen!"
+ agot_knighthood.0503.a.tt:0 "Ihr schlagt [winning_squire.GetNameNoTooltip] zum [agot_knight|E]"
+ agot_knighthood.0503.b:0 "Es steht mir nicht zu."
+ agot_knighthood.0503.b.tt:0 "[winning_squire.GetNameNoTooltip] bleibt ein [squire|E]"
+
+ agot_knighthood.0504.t:0 "Der Turniesieger: Der Ritterschlag"
+ agot_knighthood.0504.desc:0 "Während ich mich als Sieger von [host.GetNamePossessive] Turniers feiern lasse, kommt einer meiner Kontrahenten, [potential_knight_maker.GetUIName] auf mich zu und fordert mich auf, vor [potential_knight_maker.Custom('DE_PRO_PER_S_3P_D')] zu knien. [potential_knight_maker.GetSheHe|U] verkündet, es sei nicht recht, dass ich das Turnier gewinne, ohne zum Ritter geschlagen zu werden - Genau das hat [potential_knight_maker.GetSheHe] nun vor!\n\nFeierlich zieht [potential_knight_maker.GetSheHe] [potential_knight_maker.Custom('DE_PRO_POS_S_3P')] Schwert und legt es auf meine rechte Schulter. Die Turnierfeierlichkeiten verstummen und alle Augen sind auf uns gerichtet. Er beginnt zu sprechen:\n\n#italic "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V], im Namen des Kriegers fordere ich Euch auf, mutig zu sein."#! [potential_knight_maker.GetSheHe|U] legt das Schwert auf meine linke Schulter. #italic "Im Namen des Vaters fordere ich Euch auf, gerecht zu sein."#! [potential_knight_maker.GetSheHe|U] legt das Schwert wieder auf meine rechte Schulter. #italic "Im Namen der Mutter fordere ich Euch auf, die Unschuldigen zu beschützen."#!"
+ agot_knighthood.0504.a:0 "Ich schwöre es!"
+ agot_knighthood.0504.a.tt:0 "Ihr nehmt den Ritterschwur an"
+#  agot_knighthood.0504.b:0 "Nein, ich will nicht!"
+#  agot_knighthood.0504.b.tt:0 "Ihr lehnt das Angebot von [potential_knight_maker.GetName] ab"
+
+ agot_knighthood.0505.t:0 "Ein Ritter der Königslande"
+ agot_knighthood.0505.desc:0 "[potential_knight_maker.GetName] lächelt: #italic "Erhebt Euch, #V Ser#! [ROOT.GetCharacter.GetFirstNameNoTooltip|V], als Ritter der Königslande!"#!"
+ agot_knighthood.0505.a:0 "Ich bin ein Ritter!"
+ agot_knighthood.0505.a.tt:0 "Ihr wurdet zum [agot_knight|E] geschlagen"
+
+ agot_knighthood.0510.t:0 "Der Turniersieger: Ein Knappe"
+
+ agot_knighthood.0510.desc.host_perspective:0 "Das große Turnier, welches Ich verantstaltet habe, neigt sich dem Ende. Der letzte Kampf ist vorbei und als Sieger ist [winning_squire.GetName] hervorgegangen. Trotz seiner Knappenstellung konnte er sich gegen Ritter und Krieger aus dem ganzen Reich behaupten.\n\nAuch wenn Gold und Ruhm genügen sollten, konnte ich mich nicht vom Gedanken lossagen, dass [winning_squire.GetNamePossessive] beeindruckende Darbietung seiner kriegerischen Fertigkeiten zusätzlich belohnt werden sollte. Vielleicht ist der Ritterschlag eine passende Belohnung für solches Talent."
+
+ agot_knighthood.0510.desc.participant_perspective:0 "Das große Turnier, an welchem Ich teilnahm, neigt sich dem Ende. Der letzte Kampf ist als Sieger ist [winning_squire.GetName] hervorgegangen. Trotz seiner Knappenstellung konnte er sich gegen Ritter und Krieger aus dem ganzen Reich behaupten.\n\nAuch wenn Gold und Ruhm genügen sollten, konnte ich mich nicht vom Gedanken lossagen, dass [winning_squire.GetNamePossessive] beeindruckende Darbietung seiner kriegerischen Fertigkeiten zusätzlich belohnt werden sollte. Als Ritter könnte ich [winning_squire.GetName] zum Ritter schlagen, sodass sich viele an seine Feritgkeiten erinnern werden."
+
+ agot_knighthood.0510.desc.fallback:0 "Fallback DESC: Meldet einen Bug im AGOT-Discord, wenn Ihr diese Benachrichtigung seht."
+ agot_knighthood.0510.a:0 "Ich werde [winning_squire.GetName] zum Ritter schlagen!"
+ agot_knighthood.0510.a.tt:0 "Ihr schlagt [winning_squire.GetNameNoTooltip] zum [agot_knight|E]"
+ agot_knighthood.0510.b:0 "Es steht mir nicht zu."
+ agot_knighthood.0510.b.tt:0 "[winning_squire.GetNameNoTooltip] bleibt ein [squire|E]"
+
+ agot_knighthood.0511.t:0 "Der Turniersieger: Der Ritterschlag"
+ agot_knighthood.0511.desc.host_perspective:0 "Während ich mich als Sieger von [host.GetNamePossessive] Turniers feiern lasse, kommt diese[host.Custom('DE_END_PRO_S_N')] auf mich zu und fordert mich auf, vor [host.Custom('DE_PRO_PER_S_3P_D')] niederzuknien. [host.GetSheHe|U] verkündet, es sei nicht recht, dass ich das Turnier gewinne, ohne zum Ritter geschlagen zu werden - Genau das hat [host.GetSheHe] nun vor!\n\nFeierlich zieht er sein Schwert und legt es auf meine rechte Schulter. Die Turnierfeierlichkeiten verstummen und alle Augen sind auf uns gerichtet. [host.GetSheHe|U] beginnt zu sprechen:\n\n#italic "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V], im Namen des Kriegers fordere ich Euch auf, mutig zu sein."#! [host.GetSheHe|U] legt das Schwert auf meine linke Schulter. #italic "Im Namen des Vaters fordere ich Euch auf, gerecht zu sein."#! [host.GetSheHe|U] legt das Schwert wieder auf meine rechte Schulter. #italic "Im Namen der Mutter fordere ich Euch auf, die Unschuldigen zu beschützen."#!"
+ agot_knighthood.0511.a:0 "Ich schwöre es!"
+ agot_knighthood.0511.a.tt:0 "Ihr nehmt den Ritterschwur an."
+
+ agot_knighthood.0511.desc.participant_perspective:0 "Während ich mich als Sieger von [host.GetNamePossessive] Turniers feiern lasse, kommt einer meiner Kontrahenten, [potential_knight_maker.GetUIName], auf mich zu und fordert mich auf, vor ihm niederzuknien. Er verkündet, es sei nicht recht, dass ich das Turnier gewinne, ohne zum Ritter geschlagen zu werden - Genau das hat er nun vor!\n\nFeierlich zieht er sein Schwert und legt es auf meine rechte Schulter. Die Turnierfeierlichkeiten verstummen und alle Augen sind auf uns gerichtet. [potential_knight_maker.GetSheHe|U] beginnt zu sprechen:\n\n#italic "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V]. Im Namen des Kriegers fordere ich Euch auf, mutig zu sein."#! [potential_knight_maker.GetSheHe|U] legt das Schwert auf meine linke Schulter. #italic "Im Namen des Vaters fordere ich Euch auf, gerecht zu sein."#! [potential_knight_maker.GetSheHe|U] legt das Schwert wieder auf meine rechte Schulter. #italic "Im Namen der Mutter fordere ich Euch auf, die Unschuldigen zu beschützen."#!"
+ agot_knighthood.0511.a:0 "Ich schwöre es!"
+ agot_knighthood.0511.a.tt:0 "Ihr nehmt den Ritterschwur an." 
+
+ agot_knighthood.0512.t:0 "Ein Ritter der Königslande"
+ agot_knighthood.0512.desc:0 "[potential_knight_maker.GetName] lächelt: #italic "Erhebt Euch,#V Ser#! [ROOT.GetCharacter.GetFirstNameNoTooltip|V], als Ritter der Königslande!"#!"
+ agot_knighthood.0512.a:0 "Ich bin ein Ritter!"
+ agot_knighthood.0512.a.tt:0 "Ihr wurdet zum [agot_knight|E] geschlagen"
+
+ #################################
+ ## Battlefield Knighting Event ##
+ #################################
+
+ agot_knighthood.0601.t:0 "Ein Ritter, geformt von Blut und Schweiß"
+ agot_knighthood.0601.desc:0 "Nach der Schlacht von [battle_province.GetName] reicht mir einer meiner Bediensteten eine Liste mit Namen derer, die sich besonders hervorgetan haben. [soldier_to_be_knighted.GetTitledFirstName] sticht für mich besonders hervor.\n\nMein Bediensteter empfiehlt mir, die Krieger in einer schnellen Zeremonie auf dem Schlachtfeld zum Ritter zu schlagen. Er behauptet, dass die Erhebung von [soldier_to_be_knighted.GetFirstName] in den Ritterstand die Moral in unseren eigenen Reihen steigern könnte."
+ agot_knighthood.0601.a:0 "Ich werde [soldier_to_be_knighted.GetFirstName] zum Ritter schlagen!"
+ agot_knighthood.0601.a.tt:0 "Ihr schlagt [soldier_to_be_knighted.GetName] zum [agot_knight|E]"
+ agot_knighthood.0601.b:0 "Diese Rüpel sind dem Ritterstand nicht würdig."
+
+ agot_knighthood.0602.t:0 "Ein Ritter der Königslande"
+ agot_knighthood.0602.desc:0 "Nach der Schlacht von [battle_province.GetName] wurde eine Handvoll Männer, mich eingeschlossen, zum Befehlshaber [side_commander.GetName] beordert.\n\n[side_commander.GetSheHe] verkündete, [side_commander.GetSheHe] sei beeindruckt von unserem Wagemut auf dem Schlachtfeld und [side_commander.GetSheHe] wolle als Belohnung in den Ritterstand erheben."
+ agot_knighthood.0602.a:0 "Ich bin ein Ritter!"
+ agot_knighthood.0602.a.tt:0 "Ihr wurdet zu, [agot_knight|E] geschlagen."
+
+######################################
+## Special Squire Assignment Events ##
+######################################
+
+agot_knighthood.0800.t:0 "Das Kind zum Ritter erziehen"
+agot_knighthood.0800.desc:0 "Mein Kind [squire.GetName] ist alt genug, um Knappe zu sein. Vielleicht sollte ich ihm einem Ritter der Königsgarde zur Ausbildung geben? Ich denke, [knight.GetName] eignet sich als  Ausbilder."
+agot_knighthood.0800.a:0 "So soll es sein!"
+agot_knighthood.0800.b:0 "Lieber nicht."
+
+agot_knighthood.0801.t:0 "Das Kind zum Ritter erziehen"
+agot_knighthood.0801.desc:0 "Mein Kind [squire.GetName] ist alt genug um Knappe zu sein. Vielleicht sollte ich ihm einen meiner Vasallen zur Ausbildung geben? Ich denke [knight.GetName] eignet sich als Ausbilder"
+agot_knighthood.0801.a:0 "Jawohl!"
+agot_knighthood.0801.b:0 "Nein."
+
+agot_knighthood.0802.opening:0 "An meinen treuen Vasallen,"
+agot_knighthood.0802.desc:0 "Hiermit verpflichte ich Euch, [squire.GetName] zu Eurem Knappen zu machen! Ich erwarte von Euch, dass Ihr [squire.GetName] zeigt, was es heißt, ein Ritter zu sein!"
+agot_knighthood.0802.a:0 "Wie ihr befehlt."

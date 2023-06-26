@@ -1,0 +1,150 @@
+﻿l_german:
+#Übersetzt von Dillo
+#AGOT COURT POSITIONS 
+
+#King's Justice - Executioner re-flavour 
+#King's Counter/Sclaes?
+#Keeper of Keys?
+#Wardens of Mint?
+#Lord Confessor/Keeper of the Cells 
+#Gold Cloaks
+#Dragonmount Keeper / Dragon Pit Keeper? 
+
+
+## TRAITS ##
+
+ court_position_education_martial_1_trait:0 "[GetTrait('education_martial_1').GetName( ROOT.Char )]"
+ court_position_education_martial_2_trait:0 "[GetTrait('education_martial_2').GetName( ROOT.Char )]"
+ court_position_education_martial_3_trait:0 "[GetTrait('education_martial_3').GetName( ROOT.Char )]"
+ court_position_education_martial_4_trait:0 "[GetTrait('education_martial_4').GetName( ROOT.Char )]"
+ court_position_unyielding_defender_trait:0 "[GetTrait('unyielding_defender').GetName( ROOT.Char )]"
+ court_position_flexible_leader_trait:0 "[GetTrait('flexible_leader').GetName( ROOT.Char )]"
+ court_position_organizer_trait:0 "[GetTrait('organizer').GetName( ROOT.Char )]"
+ court_position_reckless_trait:0 "[GetTrait('reckless').GetName( ROOT.Char )]"
+ court_position_strong_trait:0 "[GetTrait('strong').GetName( ROOT.Char )]"
+
+ court_position_authoritative_trait:0 "[GetTrait('authoritative').GetName( ROOT.Char )]"
+ court_position_honorable_trait:0 "[GetTrait('honorable').GetName( ROOT.Char )]"
+ court_position_rude_trait:0 "[GetTrait('rude').GetName( ROOT.Char )]"
+ court_position_callous_trait:0 "[GetTrait('callous').GetName( ROOT.Char )]"
+
+
+
+#Positions 
+
+ maester_court_position:0 "Maester" #[CharacterWindow.GetCourtOwner.Custom('MaesterCourtPosition')]
+ maester_tradition_bonus:0 "Von [culture_tradition|E]"
+ maester_court_position_desc:1 Der $maester_court_position$ ist für die Gesundheit und das Wohlergehen des [Concept('court', 'Hofes')|E], dem er angehört, verantwortlich. Er wird Krankheiten behandeln und Wunden nach besten Kräften vernähen."
+ maester_employer_custom_effect_description:1 "Führt [medical_treatments|E] durch#!\nVerbessert [education|E]-Ergebnisse \nSchaltet die #V [interaction|E] $make_child_learn_language_interaction$#! frei \n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen Euch#!"
+
+ household_guard_court_position:0 "Hauptmann der Leibgarde"
+ household_guard_tradition_bonus:0 "Von [culture_tradition|E]"
+ household_guard_court_position_desc:0 "Der $household_guard_court_position$ ist verantwortlich für den Schutz des [Concept('house', 'Hauses')|E], dem er dient."
+ household_guard_employer_custom_effect_description:2 "Verringert das Risiko, in Schlachten, an denen ihr beide teilnehmt, zu sterben oder gefangen genommen zu werden. #!\n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen Euch#!"
+
+ septon_court_position:0 "Septon"
+ speton_tradition_bonus:0 "Von [culture_tradition|E]"
+ septon_court_position_desc:1 "Der $septon_court_position$ bietet religiöse Betreuung für die Mitglieder Eures [Concept('court', 'Hofes')|E], die dem Glauben an die Sieben angehören."
+
+ septa_court_position:0 "Septa"
+ speta_tradition_bonus:0 "Von [culture_tradition|E]"
+ septa_court_position_desc:1 "Die $septa_court_position$ ist verantwortlich für die Erziehung Eurer weiblichen [children|E], die keinen [guardian|E] haben."
+
+ gaoler_court_position:0 "Kerkermeister"
+ gaoler_court_position_desc:1 "In den klammen Tiefen der Burg erstrecken sich die Kerker, in denen die Gefangenen klagen, und der $gaoler_court_position$ waltet seiner Pflicht."
+
+ harbormaster_court_position:0 "Hafenmeister"
+ harbormaster_tradition_bonus:0 "Von [culture_tradition|E]"
+ harbormaster_court_position_desc:0 "Der $harbormaster_court_position$ organisiert den Seehandel und überwacht den Zoll in Euren Häfen."
+
+ warden_of_the_north_court_position:0 "Wächter des Nordens"
+ warden_of_the_north_court_position_desc:1 "Dem Wächter des Nordens obliegt die Verteidigung des Nordens im Falle von fremden Bedrohungen oder Invasionen."
+ warden_of_the_east_court_position:0 "Wächter des Ostens"
+ warden_of_the_east_court_position_desc:1 "Dem Wächter des Ostens obliegt die Verteidigung des Ostens im Falle von fremden Bedrohungen oder Invasionen."
+ warden_of_the_west_court_position:0 "Wächter des Westens"
+ warden_of_the_west_court_position_desc:1 "Dem Wächter des Westens obliegt die Verteidigung des Westens im Falle von fremden Bedrohungen oder Invasionen."
+ warden_of_the_south_court_position:0 "Wächter des Südens"
+ warden_of_the_south_court_position_desc:1 "Dem Wächter des Südens obliegt die Verteidigung des Südens im Falle von fremden Bedrohungen oder Invasionen."
+ 
+ goldcloaks_court_position:0 "Kommandant der Goldröcke"
+ goldcloaks_tradition_bonus:0 "Von [culture_tradition|E]"
+ goldcloaks_court_position_desc:0 "Der Kommandant der Goldröcke ist der Befehlshaber der Stadtwache von Königsmund, eine Position von beträchtlichem Ansehen und großer Bedeutung."
+ goldcloaks_employer_custom_effect_description:2 "#!\n@warning_icon!#X Mächtiger [agent|E] in [hostile_schemes|E] gegen Euch#!"
+
+
+
+#NIGHTS WATCH
+
+
+ COURT_POSITION_CATEGORY_CASTLE_KEEPER:0 "Festungkommandant"
+ b_the_shadow_tower_keeper:0 "Kommandant des Schattenturms"
+ b_the_shadow_tower_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt den Schattenturm"
+ b_the_shadow_tower_keeper_desc:0 "Beaufsichtigt und verteidigt den Schattenturm"
+
+ b_eastwatch_by_the_sea_keeper:0 "Kommandant von Ostwacht" 
+ b_eastwatch_by_the_sea_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Ostwacht an der See"
+ b_eastwatch_by_the_sea_keeper_desc:0 "Beaufsichtigt und verteidigt Ostwacht an der See"
+
+ b_the_nightfort_keeper:0 "Kommandant der Nachtfeste"
+ b_the_nightfort_keeper_employer_custom_effect_description:0 Beaufsichtigt und verteidigt die Nachtfeste"
+ b_the_nightfort_keeper_desc:0 "Beaufsichtigt und verteidigt die Nachtfeste"
+
+ b_icemark_keeper:0 "Kommandant von Eismark"
+ b_icemark_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Eismark"
+ b_icemark_keeper_desc:0 "Beaufsichtigt und verteidigt Eismark"
+
+ b_deep_lake_keeper:0 "Kommandant von Grundsee"
+ b_deep_lake_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Grundsee"
+ b_deep_lake_keeper_desc:0 "Beaufsichtigt und verteidigt Grundsee"
+
+ b_queensgate_keeper:0 "Kommandant von Königintor"
+ b_queensgate_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Königintor"
+ b_queensgate_keeper_desc:0 "Beaufsichtigt und verteidigt Königintor"
+
+ b_oakenshield_keeper:0 "Kommandant von Eichenschild"
+ b_oakenshield_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Eichenschild"
+ b_oakenshield_keeper_desc:0 "Beaufsichtigt und verteidigt Eichenschild"
+
+ b_woodswatch_by_the_pool_keeper:0 "Kommandant von Waldwacht"
+ b_woodswatch_by_the_pool_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Waldwacht am Teich"
+ b_woodswatch_by_the_pool_keeper_desc:0 "Beaufsichtigt und verteidigt Waldwacht am Teich"
+
+ b_westwatch_by_the_bridge_keeper:0 "Kommandant von Westwacht"
+ b_westwatch_by_the_bridge_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Westwacht an der Brücke"
+ b_westwatch_by_the_bridge_keeper_desc:0 "Beaufsichtigt und verteidigt Westwacht an der Brücke"
+
+ b_sentinel_stand_keeper:0 "Kommandant von Schildwacht"
+ b_sentinel_stand_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Schildwacht"
+ b_sentinel_stand_keeper_desc:0 "Beaufsichtigt und verteidigt Schildwacht"
+
+ b_greyguard_keeper:0 "Kommandant von Grauwacht"
+ b_greyguard_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Grauwacht"
+ b_greyguard_keeper_desc:0 "Beaufsichtigt und verteidigt Grauwacht"
+
+ b_stonedoor_keeper:0 "Kommandant von Steintor"
+ b_stonedoor_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Steintor"
+ b_stonedoor_keeper_desc:0 "Beaufsichtigt und verteidigt Steintor"
+
+ b_hoarfrost_hill_keeper:0 "Kommandant von Berg Raureif"
+ b_hoarfrost_hill_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Berg Raureif"
+ b_hoarfrost_hill_keeper_desc:0 "Beaufsichtigt und verteidigt Berg Raureif"
+
+ b_sable_hall_keeper:0 "Kommandant von Zobelhall"
+ b_sable_hall_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Zobelhall"
+ b_sable_hall_keeper_desc:0 "Beaufsichtigt und verteidigt Zobelhall"
+
+ b_rimegate_keeper:0 "Kommandant von Reiftor"
+ b_rimegate_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Reiftor"
+ b_rimegate_keeper_desc:0 "Beaufsichtigt und verteidigt Reiftor"
+
+ b_long_barrow_keeper:0 "Kommandant von Langhügel"
+ b_long_barrow_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Langhügel"
+ b_long_barrow_keeper_desc:0 "Beaufsichtigt und verteidigt Langhügel"
+
+ b_the_torches_keeper:0 "Kommandant von Fackeln"
+ b_the_torches_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Fackeln"
+ b_the_torches_keeper_desc:0 "Beaufsichtigt und verteidigt Fackeln"
+
+ b_greenguard_keeper:0 "Kommandant von Grünwacht"
+ b_greenguard_keeper_employer_custom_effect_description:0 "Beaufsichtigt und verteidigt Grünwacht"
+ b_greenguard_keeper_desc:0 "Beaufsichtigt und verteidigt Grünwacht"

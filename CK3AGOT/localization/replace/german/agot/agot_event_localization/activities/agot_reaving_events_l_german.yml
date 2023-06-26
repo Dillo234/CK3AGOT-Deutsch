@@ -1,0 +1,284 @@
+﻿l_german:
+ #Übersetzt von Lys und Dillo
+ activity_reaving:0 "Ernte"
+ activity_reaving_owner:0 "Eiserne Sense"
+ activity_reaving_name:0 "Die Große Ernte"
+ reaving_header:0 "[ROOT.Char.Custom('reavingHeader')]"
+ very_long_reaving_tt:0 "Dies ist eine #V außerordenlich lange#! Ernte"
+ long_reaving_tt:0 "Dies ist eine #V sehr lange#! Ernte"
+ medium_reaving_tt:0 "Dies ist eine #V lange#! Ernte"
+ short_reaving_tt:0 "Dies ist eine #V kurze#! Ernte"
+
+ reaving_return_home:0 "Ich kehre heim nach [start_location.GetNameNoTier]"
+
+ # Generic reaving Start Events
+
+ agot_reaving.0001.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]e Ernte"
+ agot_reaving.0001.desc:0 "Es ist an der Zeit, die Langschiffe bereit zu machen und eine große Ernte einzufahren, von der die Grünländer noch ihren Kindern flüstern werden. Doch von welchem Feld werden wir die Spreu ernten?"
+ agot_reaving.0001.a:0 "Die Umstrittenen Lande sind erntefreif."
+ agot_reaving.0001.b:0 "Die Nordküste Essos' soll leiden."
+ agot_reaving.0001.c:0 "Die Länder des Sommermeers sind schwach."
+ agot_reaving.0001.d:0 "In der Sklavenbucht findet sich reichlich Beute!"
+ agot_reaving.0001.e:0 "Ich habe mich umentschieden. Dies ist nicht der richtige Zeitpunkt."
+
+ agot_reaving.0010.desc:0 "Ich weiß zwar nicht, warum Ihr meine Einladung überhaupt erst annehmt, nur um dann doch lieber dem Festmahl von [other_host.GetTitledFirstName] beizuwohnen, doch was ich weiß, ist, dass ich das nicht vergessen werde." # C+P Vanilla - Lys
+ agot_reaving.0010.a:0 "Bedauerlich." # C+P Vanilla - Lys
+
+#Reaving Invitations ; C+P Vanilla (Ausnahme: Große Ernte) - Lys
+
+ agot_reaving.1002.opening:0 "[sender.Custom2('AppropriateGreeting', ROOT.Char)]"
+ agot_reaving.1002.opening_desc:0 "Ich lade Euch hiermit zu einem Festmahl an meinen Hof in [barony.GetNameNoTier] ein!"
+ agot_reaving.1002.host_likes_me:0 "Ich hoffe, Ihr werdet teilnehmen. Man würde Euch ansonsten sehr vermissen."
+ agot_reaving.1002.host_gets_along_with_me:0 "Ich würde mich natürlich sehr freuen, Euch als [ROOT.Char.GetTitleTierName] von Rang und Namen begrüßen zu dürfen."
+ agot_reaving.1002.host_dislikes_me:0 "Ich erwarte, dass jeder von Rang und Namen zugegen sein wird. Dies schließt leider Euch mit ein."
+ agot_reaving.1002.a:0 "Natürlich nehme ich teil."
+ agot_reaving.1002.b:0 "Ich werde teilnehmen. Widerwillig."
+ agot_reaving.1002.c:0 "Leider habe ich an diesem Tag zu tun."
+ agot_reaving.1002.d:0 "Nein, ich weigere mich!"
+
+ agot_reaving.1003.desc:0 "Ich lade Euch hiermit zur Großen Ernte an meinem Hof in [barony.GetNameNoTier] ein! Das wird eine grandiose Veranstaltung, die Eurer ehrbaren Gegenwart würdig ist."
+ agot_reaving.1003.a:0 "Es wird mir ein Vergnügen sein."
+ agot_reaving.1003.b:0 "Ich muss mich um wichtigere Dinge kümmern."
+
+ agot_reaving.1004.desc:0 "Ich lade Euch hiermit zur Großen Ernte an meinem Hof in [barony.GetNameNoTier] ein! Das wird eine grandiose Veranstaltung mit herrlichen Speisen und mannigfaltiger Unterhaltung."
+ agot_reaving.1004.a:0 "Es wird mir ein Vergnügen sein."
+ agot_reaving.1004.b:0 "Ich muss mich um wichtigere Dinge kümmern."
+
+
+ agot_reaving.1008.t:0 "Die Große Ernte: Auslaufen"
+ agot_reaving.1008.desc.opening:0 "Ein Dickicht aus Masten und Spieren drängt sich im Hafen von [ROOT.Char.GetCapitalLocation.GetName]. Diese robuste Flotte von Langschiffen wird von den kühnen Eisenmännern bemannt, die dem Ruf [ROOT.Char.GetFaith.GetHighGodNamePossessive] gefolgt sind. Sie sind begierig auf die Gelegenheit, durch die Schändung der grünen Ländereien jenseits der Meerenge das Salz in ihrem Blut zu beweisen.\n\nWährend unserer Vorbereitung für die [Concept('reaving', 'Große Ernte')|E] von [ROOT.Char.Custom('ReavingDestination')], offenbarte sich mir, dass [ROOT.Char.GetFaith.PantheonTerm] unsere Segel mit Wind füllen und unsere Schwerter mit Zorn führen wird."
+ agot_reaving.1008.desc.short:0 "\n\nWährend wir uns in Blut und Ruhm hüllen, gebe ich das Reich in die Hände meine Familie."
+ agot_reaving.1008.desc.medium:0 "\n\nWährend [ROOT.Char.GetFaith.HighGodNameAlternate] mich leitet, muss mein Reich, wie lange ich auch weg sein mag, auf mich warten."
+ agot_reaving.1008.desc.long:0 "\n\nMein Ziel liegt fern von der Heimat, jedoch muss selbst mein Reich warten, bis mir die [ROOT.Char.GetFaith.DivineRealm] offen stehen."
+ agot_reaving.1008.desc.very_long:0 "\n\nIch werde für eine lange Zeit fernab der Heimat sein. Ich bete, dass [ROOT.Char.GetFaith.HighGodNameAlternate] nicht nur über mich, sondern auch über mein Reich wacht."
+ agot_reaving.1008.a:0 "Wir bezahlen den Eisernen Preis."
+
+ agot_reaving.1009.t:0 "Eine herzliche Begrüßung" # C+P Vanilla - Lys
+ agot_reaving.1009.likes_host:0 "Alle Gäste versammeln sich in der großen Halle, und [activity.GetOwner.GetTitledFirstName] begrüßt uns alle zu dem Fest, zu dem wir so großzügig eingeladen wurden."
+ agot_reaving.1009.dislikes_host:0 "Alle Gäste versammeln sich in der großen Halle, und dies[activity.GetOwner.Custom('DE_END_ADJ_IND_S_N')]  [activity.GetOwner.Custom('InsultAdjective')] [activity.GetOwner.GetTitledFirstName] begrüßt uns alle zum Fest."
+ agot_reaving.1009.a.gluttonous:0 "Ich kann die Küche von hier aus riechen!"
+ agot_reaving.1009.a.drunkard:0 "Wo sind die Fässer?!"
+ agot_reaving.1009.a.gregarious:0 "Ich kann es kaum erwarten, mich mit allen zu unterhalten!"
+ agot_reaving.1009.a.shy:0 "Da sind so viele Leute..."
+ agot_reaving.1009.a:0 "Ich freue mich darauf!"
+ agot_reaving.1009.b:0 "Na hoffentlich lohnt sich das."
+
+ agot_reaving.2001.t:0 "Hoden"
+ agot_reaving.2001.desc:0 "Sack"
+
+###########################
+#   Crippled Ship:Cannibal#
+###########################
+ agot_reaving.2002.t:0 "Untüchtiges Schiff: Der Kannibale"
+ agot_reaving.2002.desc:0 "Die Besatzung entdeckte ein Schiff mit einem beschädigten Segel am Horizont. Der Geruch des Todes begrüßte uns, als wir uns dem Schiff näherten. Als ich an Deck ging, erkannte ich, was sich dort abgespielt hatte, und sah die abgeschlachteten Leichen. Verzweifelte Männer tun verzweifelte Dinge, und als das Schiff beschädigt wurde und die Vorräte zur Neige gingen, gingen die Männer aufeinander los. Meine Männer und ich begannen, das Blutbad nach Wertgegenständen zu durchsuchen, als wir einen Schrei hörten und einen ausgehungerten Verrückten sahen, der mit dem Schwert in der Hand auf uns zustürmte!"
+ agot_reaving.2002.a:0 "Wappnet euch!"
+ agot_reaving.2002.a.tt:0 "Zieht eure Klingen und lasst diesen Irren bluten!"
+ agot_reaving.2002.b:0 "Welch Schrecken! Zurück zum Schiff!"
+ agot_reaving.2002.b.tt:0 "Kein Gold der Welt ist das wert!"
+ agot_reaving.2002.a.success_title:0 "Den Kannibalen niedergestreckt."
+ agot_reaving.2002.a.failure_title:0 "Gezwungen zu fliehen!"
+
+################################
+# Crippled Ship:Captains Gamble#
+################################
+ agot_reaving.2003.t:0 "Untüchtiges Schiff: Das Spiel der Kapitäne"
+ agot_reaving.2003.desc:0 "Die Besatzung entdeckte ein Schiff mit einem beschädigten Segel am Horizont. Als wir uns dem Schiff näherten, sahen wir eine Gruppe von Männern auf uns warten. Sie machten keine Anstalten, uns daran zu hindern, das kaputte Schiff zu entern, sondern richteten ihre Augen auf einen Mann in ihrer Mitte. Ich erkannte schnell, dass dies ihr Kapitän war. Der Kapitän kam auf mich zu und sah mir in die Augen: "Ich weiß, dass ihr Eisenmänner seid und nicht hier seid, um uns zu retten oder mit uns Handel zu treiben. Stattdessen schlage ich ein Angebot vor." sagte er selbstsicher, als er zu zu zwei Männern gestikulierte, die eine große Truhe an die Reling des Schiffes hoben und drohten, sie über Bord zu werfen. "In dieser Truhe befinden sich all unsere Wertsachen auf dem Schiff. Ich schlage vor, wir spielen ein Würfelspiel, gewinnt Ihr, bekommt Ihr die Truhe, gewinne ich, bekomme ich neue Segel und Vorräte...""
+ agot_reaving.2003.a:0 "Ich zahle den Eisernen Preis! Ein Duell, Ihr gegen mich!"
+ agot_reaving.2003.a.tt:0 "Ihr fordert den Kapitän heraus, ein Krieger gegen den anderen, und der Stärkste soll den Schatz besitzen!"
+ agot_reaving.2003.b:0 "Ich werde Euer Spiel spielen..."
+ agot_reaving.2003.b.tt:0 "Ihr würfelt gegen den Kapitän. Alles oder Nichts!"
+ agot_reaving.2003.c:0 "Der Sturmgott ist der Feind aller Menschen!"
+ agot_reaving.2003.c.tt:0 "Der Sturmgott ist der Feind aller Menschen. Ist es nicht die Pflicht der Söhne des Ertrunkenen Gottes, seine Machenschaften zu verhindern? Ihr werdet ihnen die nötigen Vorräte geben, um dem Sturmgott zu trotzen!"
+ agot_reaving.2003.a.success_title:0 "Ihr tötet den Kapitän und gewinnt den Schatz!"
+ agot_reaving.2003.a.failure_title:0 "Ihr wurdet vom Kapitän in die Flucht geschlagen..."
+ agot_reaving.2003.b.success_title:0 "Die Würfel fielen zu Euren Gunsten!"
+ agot_reaving.2003.b.failure_title:0 "Die Würfel fielen nicht zu Euren Gunsten..."
+ 
+  ################################
+# Crippled Ship:IronBorn        #
+################################
+ agot_reaving.2004.t:0 "Untüchtiges Schiff: Eisenmänner in Sicht"
+ agot_reaving.2004.desc:0 "Die Besatzung entdeckte ein Schiff mit einem beschädigten Segel am Horizont. Uns wurde ganz mulmig, als wir sahen, dass es sich bei der Besatzung um Eisenmänner handelt! Meine Mannschaft besprach, Vorräte abzugeben und unseren Brüdern in Not zu helfen, indem wir Ihre Segel reparieren, sodass sie die nächste Küste erreichen."
+ agot_reaving.2004.a:0 "Ich werde Vorräte beisteuern!"
+ agot_reaving.2004.a.tt:0 "Ihr gebt einen Teil Eurer Vorräte ab um Euren Brüdern zu helfen."
+ agot_reaving.2004.b:0 "Sollen sie nach sich selbst schauen."
+ agot_reaving.2004.b.tt:0 "Warum sollte ich geben, was mir gehört! Da hätten sie sich besser vorbereiten müssen!"
+
+ 
+###########################
+#   Empty Village         #
+###########################
+
+ agot_reaving.2005.t:0 "Ein Geisterdorf"
+ agot_reaving.2005.desc:0 "Im Schutze der Nacht und mit gedämpften Ruderriemen legten wir im kleinen Küstendorf an. Wir freuten uns, dass unsere Landung unbemerkt geblieben war, bis uns der Grund dafür auffiel. Das Dorf war leer. Der Anblick des Dorfes mit unversehrten Kostbarkeiten verunsicherte einige meiner Männer, während andere ohne Bedenken loszogen und plünderten. Am Rande des Dorfes fand einer der Männer eine große Grube, in der sich die Leichen der Dorfbewohner mit vor Krankheit entstellten Fratzen anhäuften. Inmitten der Leichenberge lagen Säcke und Kästchen, offenbar das Hab und Gut der Toten."
+ agot_reaving.2005.a:0 "Gold ist nicht ansteckend.. oder?"
+ agot_reaving.2005.a.tt:0 "Wenn die Toten keinen Nutzen von ihren Dingen haben, wieso hier lassen?"
+ agot_reaving.2005.b:0 "Lasst alles stehen und liegen. Wir gehen."
+ agot_reaving.2005.b.tt:0 "Ihr lasst Euch nicht auf ein Glücksspiel gegen den Tod ein..."
+ 
+###########################
+#  Village: Sacrifice     #
+###########################
+
+ agot_reaving.2006.t:0 "Das Dorf: Rote Roben, Rote Opfer"
+ agot_reaving.2006.desc:0 "Im Schutze der Nacht und mit gedämpften Ruderriehmen legten wir im kleinen Küstendorf an. Unsere Ankunft blieb unbemerkt, da das Dorf gerade ein Ereignis feierte. Wir hörten Gelächter und Gesang und sahen das Licht mehrerer Scheiterhaufen brennen. Als wir Eisenmänner die Feierlichkeiten stürmten, sah ich, was es mit den Scheiterhaufen auf sich hatte. Drei brannten mit den verkohlten Überresten dessen, was einmal ein Mensch war, ein vierter war noch nicht entzündet, auf dem eine Frau an einen Baumstamm gefesselt war, mit Brennholz und wertvollen Opfergaben für den Feuergott zu ihren Füßen. Die meisten Festgäste versuchen zu fliehen, andere haben sich bewaffnet, vor allem jene, die Rote Roben tragen. Einer der Rotgewandeten scheint die Frau, die verbrannt werden sollte, zu bewachen..."
+ agot_reaving.2006.a:0 "Ich schnappe mir alles von Wert!"
+ agot_reaving.2006.a.tt:0 "Das Weib interessiert mich kein Stück! Das Gold hingegen..."
+ agot_reaving.2006.b:0 "Ich werde die Frau befreien!"
+ agot_reaving.2006.b.tt:0 "Ich werde die Frau befreien und sie zum Salzweib nehmen!"
+ agot_reaving.2006.a.success_title:0 "Ihr habt den Roten Priester getötet und den Eisernen Preis für das Gold gezahlt!"
+ agot_reaving.2006.a.failure_title:0 "Ihr wurdet vom Roten Priester in die Flucht geschlagen..."
+ agot_reaving.2006.b.success_title:0 "Ihr habt den Roten Priester getötet und den Eisernen Preis für das Weib gezahlt!"
+ agot_reaving.2006.b.failure_title:0 "Ihr wurdet vom Roten Priester in die Flucht geschlagen..."
+ 
+##################
+#The Leviathan   #
+##################
+ 
+ agot_reaving.2007.t:0 "Der Leviathan: Der Angriff"
+ agot_reaving.2007.desc:0 "Die Männer haben einen riesigen Wal gesichtet, der uns schon seit einigen Tagen folgt. Das Tier ist auf Distanz geblieben, aber die Männer sagen, sie hätten Narben an ihm gesehen, als er an die Oberfläche kam. Ich frage mich, ob der Wal die Angriffe der ibbenesischen Schiffe überlebt hat?  Der Gedanke ging mir noch nicht lange durch den Kopf, als die Bestie beschloss, anzugreifen. Die Männer und ich rüsten uns und versuchen, die Bestie zur Strecke zu bringen oder sie zu vertreiben, bevor sie unser Schiff versenken kann!"
+ agot_reaving.2007.a:0 "Verdammt seien diese ibbenesischen Walfänger!"
+ agot_reaving.2007.a.tt:0 "Die Bestie hält Eure Besatzung für Walfänger und hat beschlossen, dass sie keine Beute mehr sein will. Nun geht sie zum Angriff über!"
+
+ 
+###########################
+#  Pursuit: Ibbenese      #
+###########################
+
+ agot_reaving.2008.t:0 "Fremdes Schiff: Ibbenesen in Sicht"
+ agot_reaving.2008.desc:0 "Wir konnten das Schiff riechen, bevor wir es sahen. Ein ibbenesisches Walfangschiff war uns voraus. Die Männer waren uneins, ob wir es verfolgen sollten. Einige waren der Meinung, dass es sich nicht lohnen würde, es zu überfallen, andere schienen gelangweilt oder auf einen Kampf aus zu sein, schließlich wäre ein solches Schiff leicht zu kapern. Die Männer schauen zu mir auf, und warten auf meinen Befehl."
+ agot_reaving.2008.a:0 "An die Stationen, Männer! Wir werden sie einholen!"
+ agot_reaving.2008.a.tt:0 "Gold ist Gold und wir bezahlen den Eisernen Preis!"
+ agot_reaving.2008.b:0 "Die Sache stinkt mir zu sehr..."
+ agot_reaving.2008.b.tt:0 "Ein Gestank, der für eine längere Zeit an Euch und Eurer Mannschaft hängen wird...."
+
+###########################
+#   No Wind               #
+###########################
+
+ agot_reaving.2009.t:0 "Sei verflucht, Sturmgott!"
+ agot_reaving.2009.desc:0 "Der Wind wollte heute nicht so recht mitspielen und ließ uns kaum mehr als herumtreiben. Die Männer gehen an Deck umher und suchen nach Möglichkeiten, die Eintönigkeit des immersteten Wassers zu bekämpfen. Einige spielen den "Fingertanz", während andere Wetten beim Würfeln abschließen."
+ agot_reaving.2009.a:0 "Alle Mann an die Ruder! Der Sturmgott wird uns nicht davon abhalten, zu wüten!"
+ agot_reaving.2009.a.tt:0 "Auch ohne Wind gibt es noch genügend Küsten und Inseln zu plündern..."
+ agot_reaving.2009.b:0 "Den Fingertanz kann ich so gut wie jeder Andere"
+ agot_reaving.2009.b.tt:0 "Ein Spiel, bei dem sich zwei Spieler Äxte zu werfen. Der Erste wirft die Axt und der Zweite muss sie entweder fangen oder über sie hinwegspringen. Viele verlieren hier ihre Finger, manche sogar eine ganze Hand. Trotz seiner Gefährlichkeit ist es ein beliebtes Spiel auf den Eiseninseln."
+ agot_reaving.2009.c:0 "Vielleicht habe ich Glück mit den Würfeln"
+ agot_reaving.2009.c.tt:0 "Das Gold in einem simplen Glücksspiel einzusetzen könnte Euch einen Gewinn einbringen... oder auch nicht."
+ agot_reaving.2009.a.success_title:0 "Ihr habt den Fingertanz gewonnen!"
+ agot_reaving.2009.a.failure_title:0 "Die Axt ist Euch zwischen die Finger geraten..."
+ agot_reaving.2009.b.success_title:0 "Die Würfel sind gefallen!"
+ agot_reaving.2009.b.failure_title:0 "Ein unglücklicher Wurf..."
+
+###########################
+#  Pursuit: Pentoshi Ship #
+###########################
+
+ agot_reaving.2010.t:0 "Fremdes Schiff: Pentosi in Sicht"
+ agot_reaving.2010.desc:0 "Ein pentosisches Schiff wurde am Horizont gesichtet. Die Winde sind zu unseren Gunsten und es scheint langsam zu sein, da es voll beladen ist. Mir läuft das Wasser im Munde zusammen, wenn ich an die typisch pentosische Schiffsladung denke, den Käse und den hellen Bernsteinwein. Die Männer schauen zu mir auf und warten auf meinen Befehl."
+ agot_reaving.2010.a:0 "An die Stationen, Männer! Wir werden sie einholen!"
+ agot_reaving.2010.a.tt:0 "Nehmt die Jagd auf, Männer! Schliesslich seid ihr die Wölfe der See!"
+ agot_reaving.2010.b:0 "Nicht unserer Mühe wert."
+ agot_reaving.2010.b.tt:0 "Es gibt bessere Beute..."
+ agot_reaving.2010.a.success_title:0 "Das Schiff ist gekapert!"
+ agot_reaving.2010.a.failure_title:0 "Das Schiff ist entwischt..."
+
+
+
+###########################
+#  Pursuit: Lys Ship #
+###########################
+ agot_reaving.2011.t:0 "Fremdes Schiff: Lyseni in Sicht"
+ agot_reaving.2011.desc:0 "Ein lysenisches Schiff wurde am Horizont gesichtet. Die Winde sind zu unseren Gunsten und es scheint langsam zu sein, da es voll beladen ist. Ein solches Schiff könnte Schätze und vielleicht Sklaven für die Bordelle seiner Heimat transportieren. Die Männer schauen zu mir auf und warten auf meinen Befehl."
+ agot_reaving.2011.a:0 "Ich nehme mir ein Salzweib!"
+ agot_reaving.2011.a.tt:0 "Nehmt die Jagd auf, Männer! Schliesslich seid ihr die Wölfe der See!"
+ agot_reaving.2011.b:0 "An die Stationen, Männer! Unsere nächste Beute ist in Sicht!"
+ agot_reaving.2011.b.tt:0 "Nehmt die Jagd auf, Männer! Schliesslich seid ihr die Wölfe der See!"
+ agot_reaving.2011.c:0 "Nicht unserer Mühe wert."
+ agot_reaving.2011.c.tt:0 "Es gibt bessere Beute..."
+ agot_reaving.2011.a.success_title:0 "Das Schiff ist gekapert und ihr nahmt Euch ein Salzweib!"
+ agot_reaving.2011.a.failure_title:0 "Das Schiff ist entwischt..."
+ agot_reaving.2011.b.success_title:0 "Das Schiff ist gekapert!"
+ agot_reaving.2011.b.failure_title:0 "Das Schiff ist entwischt..."
+ 
+###########################
+#  Tyroshi War Gallon     #
+###########################
+ agot_reaving.2012.t:0 "Fremdes Schiff: Tyroshi in Sicht"
+ agot_reaving.2012.desc:0 "Eine Kriegsgallone aus Tyrosh wurde am Horizont gesichtet. Zweifelsohne darauf aus, irgendeinen Piratenfürsten von den Trittsteinen zu vertreiben, der auf den Handelsrouten Ärger gemacht hat. Die Männer schauen zu mir auf und warten auf meinen Befehl."
+ agot_reaving.2012.a:0 "Vielleicht nützen ihnen unsere Klingen?"
+ agot_reaving.2012.a.tt:0 "Wenn Ihr Euch den Tyroshi als Söldner anbietet, wird man zwar auf Euch herabsehen, aber dafür verdient Ihr Gold!"
+ agot_reaving.2012.b:0 "Am Besten bleiben wir ihnen fern..."
+ agot_reaving.2012.b.tt:0 "Ihren Weg zu kreuzen kann nicht Gutes bringen..."
+ agot_reaving.2012.a.success_title:0 "Ihr werdet angeheuert"
+ agot_reaving.2012.a.failure_title:0 "Angebot abgelehnt..."
+ 
+###########################
+#   Fishing Village       #
+###########################
+ agot_reaving.2013.t:0 "Das Fischerdorf"
+ agot_reaving.2013.desc:0 "Wir überfielen ein kleines Fischerdorf, es gab keinen Widerstand gegen uns, als wir an Land gingen. Die meisten versuchten zu fliehen und sich zu verstecken, einige wenige wehrten sich, doch sie waren nicht vorbereitet und fielen schnell. Die Ausbeute war gering."
+ agot_reaving.2013.a:0 "Wo ist das ganze Gold?"
+ agot_reaving.2013.a.tt:0 "Es muss sich noch was von Wert finden..."
+ agot_reaving.2013.b:0 "[TARGET_CHARACTER.GetShortUIName] ist bildhübsch."
+ agot_reaving.2013.b.tt:0 "Sie macht ein gutes Salzweib"
+ agot_reaving.2013.c:0 "[TARGET_CHARACTER.GetShortUIName] hat reizvolle Kurven."
+ agot_reaving.2013.c.tt:0 "Sie macht ein gutes Salzweib"
+ agot_reaving.2013.d:0 "[TARGET_CHARACTER.GetShortUIName] hat eine bezaubernde Stimme."
+ agot_reaving.2013.d.tt:0 "Sie macht ein gutes Salzweib"
+ 
+###########################
+#   Pirate Hide Out        #
+###########################
+ agot_reaving.2014.t:0 "Das Piratenversteck"
+ agot_reaving.2014.desc:0 "Wir sind auf den Trittsteinen auf den Unterschlupf eines kleinen Piratenfürsten gestoßen. Wir sind zwar besser gerüstet als sie, doch die Piraten haben sich in einer befestigten Grotte an der Küste verschanzt. Wir könnten einen Sturmangriff wagen, um die Stellungen zu durchbrechen. Vielleicht gelingt es uns auch, ein paar unserer Männer in ihr stinkendes Piratenloch zu schleusen, die uns einen Zugang suchen."
+ agot_reaving.2014.a:0 "Wir müssen uns den Weg hinein erkämpfen!"
+ agot_reaving.2014.a.tt:0 "Führt den Angriff gegen die befestigte Piratenhöhle an und versucht mit Euren Männern durchzubrechen!"
+ agot_reaving.2014.b:0 "Vielleicht wäre eine Infiltrierung besser..."
+ agot_reaving.2014.b.tt:0 "Es muss einen anderen Weg ins Innere geben..."
+ agot_reaving.2014.a.success_title:0 "Der Durchbruch ist gelungen!"
+ agot_reaving.2014.a.failure_title:0 "Der Angriff schlug fehl...Wir kommen wieder!"
+ agot_reaving.2014.b.success_title:0 "Es hat sich uns ein Weg geöffnet!"
+ agot_reaving.2014.b.failure_title:0 "Es gibt wohl keinen anderen Weg... Wir kommen wieder!"
+ 
+ ###########################
+#   A Meal for the Crabs   #
+###########################
+ agot_reaving.2015.t:0 "Ein Krabbenschmaus"
+ agot_reaving.2015.desc:0 "Die Hilferufe lenkten unsere Aufmerksamkeit auf die aus dem Meer ragende steinerne Masse, die der Gegend den Namen Speere des Merling-Königs eingebracht hatte. Ein Mann war auf einem dieser steinernen Speere gestrandet. Selbst aus der Entfernung konnte ich erkennen, dass die Krabben bereits versuchten, ihn zu umschwärmen. Mein erster Gedanke war, dass es sich um einen Schiffbrüchigen handeln musste, aber ein Besatzungsmitglied wies mich darauf hin, dass der Mann offenbar an den Stein gekettet war. Welches Verbrechen er auch immer begangen haben mochte, es muss ein schreckliches gewesen sein."
+ agot_reaving.2015.a:0 "Der Mann hat Recht, lasst den Toren büßen!"
+ agot_reaving.2015.a.tt:0 "Jemand hat sich die Mühe gemacht, diesem Mann einen grausamen Tod zu bereiten, und ich will nicht wissen, welche Art von Mann das verdient."
+ agot_reaving.2015.b:0 "Ich werde ihn retten!"
+ agot_reaving.2015.b.tt:0 "Ich bewahre den Mann vor dem grausamen Tod, lebendig von Krabben gefressen zu werden. Er wird mir sein Leben verdanken!"
+ 
+###########################
+#  A Ironborn in need     #
+###########################
+ agot_reaving.2016.t:0 "Eisenmann in Not"
+ agot_reaving.2016.desc:0 "Während wir ein Dorf durchkämmten, wurde einer unserer Männer von einem Speerkämpfer bedrängt und es sah nicht so aus, als würde die Situation gut ausgehen. Der Speerträger konzentriert sich voll und ganz auf den Eisenmann und achtet offenbar auf nichts anderes. Dies ist meine Gelegenheit, seine Unaufmerksamkeit auszunutzen und ihn auszuschalten."
+ agot_reaving.2016.a:0 "Nimm das!"
+ agot_reaving.2016.a.tt:0 "Ein schneller, aber sauberer Angriff sollte den Mann erledigen."
+
+###################################
+#    Shieldmaiden in Disguise     #
+#             Badger              #
+###################################
+ agot_reaving.2017.t:0 "Auf hoher See: [GetTrait('shieldmaiden').GetName(GetNullCharacter)]"
+ agot_reaving.2017.desc:0 "Es sind schon Tage vergangen seit den letzten Ereignissen auf offener See, als auf dem Hauptdeck ein Handgemenge ausbricht. Bis Ihr den Tumult unter Kontrolle gebracht habt, hat sich ein Kreis um den mutmaßlichen Unruhestifter gebildet.\n\n"[shieldmaiden.GetName] war die ganze Zeit ein [shieldmaiden.GetWomanMan], Kapitän!" Einer Eurer Mannschaftsmitglieder knurrt, während [shieldmaiden.GetWomanMan] eine Enteraxt um sich schwingt, um die Besatzung auf Abstand zu halten. Es ist klar, dass [shieldmaiden.GetSheHe] gekonnt mit der Waffe umgeht, mehr als Ihr von einem blinden Passagier erwarten würdet.\n\n"[ROOT.Char.GetTitledFirstName]," sagt [shieldmaiden.GetSheHe]. "Ich habe mein ganzes Leben lang dafür geübt, den Eisernen Preis zu zahlen und möchte einzig Euch dienen und mir die Gunst des Ertrunkenen Gottes verdienen. Bitte erlaubt mir, Euch bei diesem großen Unterfangen zu folgen!""
+ agot_reaving.2017.a:0 "Eine [GetTrait('shieldmaiden').GetName(GetNullCharacter)] wird uns beim nächsten Überfall hilfreich sein!"
+ agot_reaving.2017.b:0 "Für mich kämpfen keine Weiber."
+ agot_reaving.2017.c:0 "Ihr könnt dem Ertrunkenen Gott auch anders dienen." 
+ agot_reaving.2017.d:0 "Folgt mir in meine Kajüte... und behaltet die Rüstung an." 
+
+
+################################
+# Return Events
+# 9001-9999
+# by Badger 
+################################
+
+ agot_reaving.9002.t:0 "Eine großartige Rückkehr"
+ agot_reaving.9002.desc:0 "" 
+ agot_reaving.9002.a:0 "Wir sind wahre Eisenmänner!"
+
+
+

@@ -1,0 +1,28 @@
+﻿l_german:
+ #Übersetzt durch Lys
+ MEGA_WAR_SWITCH_SIDES:0 "Zwingen die Seite zu wechseln"
+ SWITCH_SIDES_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] sträubt sich die Seite zu wechseln: $VALUE|=+0$"
+ SWITCH_SIDES_HEIR_IMPRISONED:0 "[recipient.GetHerHis|U] Erbe ist gefangen genommen: $VALUE|=+0$"
+ SWITCH_SIDES_LOYAL:0 "[recipient.GetSheHe|U] ist treu: $VALUE|=+0$"
+ SWITCH_SIDES_DISLOYAL:0 "[recipient.GetSheHe|U] ist untreu: $VALUE|=+0$"
+ SWITCH_SIDES_CONTROLS_CAPITAL:0 "[recipient.GetSheHe|U] kontrolliert nicht [recipient.GetHerHis]n Hauptsitz: $VALUE|=+0$"
+ SWITCH_SIDES_LOSING_WAR:0 "[recipient.GetHerHis|U] Seite verliert den Krieg: $VALUE|=+0$"
+
+ DESIGNATE_HEIR_HAS_CHILD:0 "Ihr habt bereits einen Erben!"
+
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_WV:0 "Versuchen, [secondary_recipient.GetShortUIName] zur ([secondary_actor.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]) zu bekehren."
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_WV:0 "Versuchen, [secondary_actor.GetShortUIName] zur ([secondary_recipient.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]) zu bekehren."
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_EV:0 "Versuchen, [secondary_recipient.GetShortUIName] zur ([secondary_actor.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]) zu bekehren."
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_EV:0 "Versuchen, [secondary_actor.GetShortUIName] zur ([secondary_recipient.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]) zu bekehren."
+
+ childhood_education.1011.wv.desc:0 "[guardian.GetTitledFirstName] hat mir vieles über [guardian.GetHerHis] Volk —#EMP unser#! Volk beigebracht. Nicht nur folge ich dem [guardian.GetFaith.GetAdjective] Glauben, ich sehe mich auch voll als Teil der [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]en Kultur."
+ childhood_education.1011.ev.desc:0 "[guardian.GetTitledFirstName] hat mir vieles über [guardian.GetHerHis] Volk —#EMP unser#! Volk beigebracht. Nicht nur folge ich dem [guardian.GetFaith.GetAdjective] Glauben, ich sehe mich auch voll als Teil der [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]en Kultur."
+
+ childhood_education.1012.wv.desc:0 "Ich unterrichte [ward.GetTitledFirstName] weiterhin im Glauben und in den Sitten meines Volkes, und [ward.GetSheHe] hat mir mitgeteilt, dass [ward.GetSheHe] sich voll und ganz als Teil unserer Kultur fühlt. Ganz und gar [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]." 
+ childhood_education.1012.ev.desc:0 "Ich unterrichte [ward.GetTitledFirstName] weiterhin im Glauben und in den Sitten meines Volkes, und [ward.GetSheHe] hat mir mitgeteilt, dass [ward.GetSheHe] sich voll und ganz als Teil unserer Kultur fühlt. Ganz und gar [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]."  # Ich habe es so übersetzt, dass es der Vanilla-Übersetzung nah kommt; Dazu habe ich auch bewusst mit keywords gespielt.
+
+ childhood_education.1031.wv.desc:0 "Ich wurde zwar in die [ward.GetCulture.GetName] hineingeboren, doch ich muss mir eingestehen, dass ich mittlerweile gar nicht mehr weiß, was das bedeuten soll. Dank [guardian.GetTitledFirstNamePossessive] Anleitung, fühle ich mich inzwischen der  [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]en Kultur mit Leib und Seele angehörig."
+ childhood_education.1031.ev.desc:0 "Ich wurde zwar in die [ward.GetCulture.GetName] hineingeboren, doch ich muss mir eingestehen, dass ich mittlerweile gar nicht mehr weiß, was das bedeuten soll. Dank [guardian.GetTitledFirstNamePossessive] Anleitung, fühle ich mich inzwischen der  [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]en Kultur mit Leib und Seele angehörig."
+
+ childhood_education.1032.wv.desc:0 "Nachdem ich [ward.GetTitledFirstName] so lange unterrichtet hatte, freute es mich umso mehr, als [ward.GetSheHe] mir mitteilte, dass [ward.GetSheHe] sich der [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]en Kultur zugehörig fühlt!"
+ childhood_education.1032.ev.desc:0 "Nachdem ich [ward.GetTitledFirstName] so lange unterrichtet hatte, freute es mich umso mehr, als [ward.GetSheHe] mir mitteilte, dass [ward.GetSheHe] sich der [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]en Kultur zugehörig fühlt!"

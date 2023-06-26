@@ -1,0 +1,45 @@
+﻿l_german:
+#Übersetzt von Dillo
+ btw_struggle_reason_reason:0 "[recipient.GetSheHe|U] ist Teil des [Concept('btw_struggle', 'Konflikts jenseits der Mauer')|E] und Ihr nicht: $VALUE|=+0$"
+
+
+#Prisoner Interactions
+
+ mute_interaction:0 "Zunge herausschneiden"
+ mute_interaction_desc:0 "Macht [recipient.GetShortUINameNoTooltip] zu einem [GetTrait('mute').GetName( GetPlayer )]en [recipient.GetShortUINameNoTooltip]"
+
+
+
+#septa 
+ septa_child_language_rank_1:0 "Die [aptitude|E] von Eurem [GetCourtPositionType('septa_court_position').GetName()] gibt dem [scheme|E] #P 5#! zusätzliche [success_chance|E] und [scheme_power|E]"
+ septa_child_language_rank_2:0 "Die [aptitude|E] von Eurem [GetCourtPositionType('septa_court_position').GetName()] gibt dem [scheme|E] #P 10#! zusätzliche [success_chance|E] und [scheme_power|E]"
+ septa_child_language_rank_3:0 "Die [aptitude|E] von Eurem [GetCourtPositionType('septa_court_position').GetName()] gibt dem [scheme|E] #P 15#! zusätzliche [success_chance|E] und [scheme_power|E]"
+ septa_child_language_rank_4:0 "Die [aptitude|E] von Eurem [GetCourtPositionType('septa_court_position').GetName()] gibt dem [scheme|E] #P 20#! zusätzliche [success_chance|E] und [scheme_power|E]"
+ septa_child_language_rank_5:0 "Die [aptitude|E] von Eurem [GetCourtPositionType('septa_court_position').GetName()] gibt dem [scheme|E] #P 25#! zusätzliche [success_chance|E] und [scheme_power|E]"
+
+
+ maester_child_language_rank_1:0 "Die [aptitude|E] von Eurem [GetCourtPositionType('maester_court_position').GetName()] gibt dem [scheme|E] #P 5#! zusätzliche [success_chance|E] und [scheme_power|E]"
+ maester_child_language_rank_2:0 "Die [aptitude|E] von Eurem [GetCourtPositionType('maester_court_position').GetName()] gibt dem [scheme|E] #P 10#! zusätzliche [success_chance|E] und [scheme_power|E]"
+ maester_child_language_rank_3:0 "Die [aptitude|E] von Eurem [GetCourtPositionType('maester_court_position').GetName()] gibt dem [scheme|E] #P 15#! zusätzliche [success_chance|E] und [scheme_power|E]"
+ maester_child_language_rank_4:0 "Die [aptitude|E] von Eurem [GetCourtPositionType('maester_court_position').GetName()] gibt dem [scheme|E] #P 20#! zusätzliche [success_chance|E] und [scheme_power|E]"
+ maester_child_language_rank_5:0 "Die [aptitude|E] von Eurem [GetCourtPositionType('maester_court_position').GetName()] gibt dem [scheme|E] #P 25#! zusätzliche [success_chance|E] und [scheme_power|E]"
+
+# Nightswatch / Kingsguard Vows interaction Desc
+ ORDER_VOWS_MARRIED_OR_BETROTHED:0 "Ich bin [betrothed|E]: $VALUE|=+0$"
+ ORDER_VOWS_DIFFERENT_FAITH:0 "Ihr betet die falschen Götter an: $VALUE|=+0$"
+
+ ORDER_VOWS_AMBITION:0 "[TARGET_CHARACTER.GetShortUIName|U] hat [TARGET_CHARACTER.Custom('DE_PRO_POS_S_3P')] ganzes Leben darauf hingearbeitet."
+
+
+ ORDER_VOWS_LOWBORN:0 "Nehmt Ihr 'ne [lowborn|E], M'Lord?!: $VALUE|=+0$"
+ ORDER_VOWS_HEIR_1:0 "Ich bin der [primary_heir|E] eines Titels: $VALUE|=+0$"
+ ORDER_VOWS_HEIR_2:0 "Ich bin in einer Erbfolge: $VALUE|=+0$"
+ ORDER_VOWS_HEIR_3:0 "Ich bin in einer Erbfolge: $VALUE|=+0$"
+
+ ORDER_VOWS_ZEAL:0 "[personality|E] — #italic Sich einem höheren Zweck zu verschreiben, ist ein glorreiches Unterfangen.:#! $VALUE|=+0$"
+ ORDER_VOWS_SKEPTIC:0 "[personality|E] — #italic [recipient.GetSheHe|U] ist nicht an Dienst allein um des Dienstes willen interessiert.:#! $VALUE|=+0$"
+ ORDER_VOWS_HONOR:0 "[personality|E] — #italic In der Königsgarde zu dienen, ist eine große Ehre.:#! $VALUE|=+0$"
+ ORDER_VOWS_BOLD:0 "[personality|E] — #italic [recipient.GetSheHe|U] genießt die Gelegenheit zu kämpfen:#! $VALUE|=+0$"
+ ORDER_VOWS_CRAVEN:0 "[personality|E] — #italic [recipient.GetSheHe|U] hegt nicht den Wunsch, zu sterben.:#! $VALUE|=+0$"
+ ORDER_VOWS_HORNY:0 "[personality|E] — #italic Ein Leben in Keuschheit klingt wie ein Gefängnis.:#! $VALUE|=+0$"
+
