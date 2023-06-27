@@ -126,8 +126,8 @@
  animal_type_lynx:0 "Luchs"
  
  # Hides
- artifact_hide_type_cat:4 "der geliebten Katze [ROOT.Char.Custom('CatStoryName')] von [ROOT.Char.GetTitledFirstName]"
- artifact_hide_type_dog:4 "des geliebten Hundes [ROOT.Char.Custom('DogStoryName')] von [ROOT.Char.GetTitledFirstName]"
+ artifact_hide_type_cat:4 "der geliebten Katze [ROOT.Char.Custom('CatStoryName')] von [ROOT.Char.GetTitledFirstNamePossessive]"
+ artifact_hide_type_dog:4 "des geliebten Hundes [ROOT.Char.Custom('DogStoryName')] von [ROOT.Char.GetTitledFirstNamePossessive]"
  artifact_hide_type_fox:0 "eines wunderschönen Fuchses"
  artifact_hide_type_hare:0 "eines wunderschönen Hasen"
  artifact_hide_type_hart:0 "einer Hirschkuh"
@@ -153,47 +153,51 @@
  feature_animal_hide_type_cat:2 "der geliebten Katze von [Artifact.GetOwner.GetTitledFirstName], [Artifact.GetOwner.Custom('CatStoryName')],"
  feature_animal_hide_type_dog:2 "des geliebten Hundes von [Artifact.GetOwner.GetTitledFirstName], [Artifact.GetOwner.Custom('DogStoryName')],"
  feature_animal_hide_type_fox:1 "eines wunderschönen Fuchses"
- feature_animal_hide_type_hare:0 "eines wunderschönen Hasen"
- feature_animal_hide_type_hart:0 "eines Rothirschs"
+ feature_animal_hide_type_hare:1 "eines flinken Hasen"
+ feature_animal_hide_type_hart:1 "eines majestätischen Rothirsches"
  feature_animal_hide_type_rabbit:0 "eines Kaninchens"
- feature_animal_hide_type_stag:0 "eines majestätischen Hirschs"
- feature_animal_hide_type_boar:0 "einer Wildsau"
- feature_animal_hide_type_wolf:0 "eines Wolfs"
- feature_animal_hide_type_lion:0 "eines Löwen"
- feature_animal_hide_type_bear:0 "eines Bären"
- feature_animal_hide_type_tiger:0 "eines Tigers"
- feature_animal_hide_type_aurochs:0 "eines Auerochsen"
- feature_animal_hide_type_unicorn:0 "eines Einhorns"
- feature_animal_hide_type_dragon:0 "eines Drachen"
- feature_animal_hide_type_lynx:0 "eines Luchses"
+ feature_animal_hide_type_stag:0 "eines stolzen Hirschs"
+ feature_animal_hide_type_boar:0 "einer stämmigen Wildsau"
+ feature_animal_hide_type_wolf:0 "eines grimmigen Wolfes"
+ feature_animal_hide_type_lion:0 "eines gefährlichen Löwen"
+ feature_animal_hide_type_bear:0 "eines wilden Bären"
+ feature_animal_hide_type_tiger:0 "eines fürchterlichen Tigers"
+ feature_animal_hide_type_aurochs:0 "eines würdevollen Auerochsen"
+ feature_animal_hide_type_unicorn:0 "eines mystischen Einhorns"
+ feature_animal_hide_type_dragon:0 "eines bedrohlichen Drachen"
+ feature_animal_hide_type_lynx:0 "eines ehrwürdigen Luchses"
+ feature_animal_hide_type_gazelle:0 "a nimble gazelle"
+ feature_animal_hide_type_antelope:0 "a fleet antelope"
+ feature_animal_hide_type_leopard:0 "a heartless leopard"
+ feature_animal_hide_type_bison:0 "a stalwart bison"
+ feature_animal_hide_type_elk:0 "a mighty elk"
  
- artifact_small_hide_name:2 "Fell [newly_created_artifact.Custom('ArtifactAnimalType')] aus [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]. Das Tier soll besonders [newly_created_artifact.Custom('ArtifactAnimalAdjective')] gewesen sein."
- artifact_small_hide_description:2 "Das gegerbte Fell [newly_created_artifact.GetFeatureText('animal_hide_type')], [SCOPE.Custom('ArtifactSmallHideAcquisitionMethod')]. Das Fell ist von [SCOPE.Custom('ArtifactQuality')]er Güte."
- artifact_small_hide_acquisition_pet:1 "bewahrt um einen lieben Freund und Gefährten von [ROOT.Artifact.GetOwner.GetTitleAsNameNoTooltip] auch nach dem Tode um sich zu haben"
- artifact_small_hide_acquisition_hunt:0 "erjagt in [ROOT.Artifact.GetOwner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTier]"
- create_artifact_small_hide_tooltip:2 "[inspiration_owner.GetShortUIName] jagte und gerbte das Fell mit einem [SCOPE.Custom('ArtifactQuality')]en Ergebnis"
+ artifact_animal_hide_name_legendary:3 "Hide of the [newly_created_artifact.Custom('GetLegendaryColor')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] of [location.GetTitle.GetDeJureLiege.GetNameNoTierNoTooltip]"
+ artifact_animal_hide_name_adventurer:0 "Hide of the [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] of [location.GetBaronyNameExplicitlyNoTooltip]"
+ artifact_animal_hide_name_cat:0 "[owner.Custom('CatStoryNamePossessive')] Pelt"
+ artifact_animal_hide_name_dog:0 "[owner.Custom('DogStoryNamePossessive')] Pelt"
+ artifact_animal_hide_name_base:2 "[newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] Hide"
+ artifact_animal_hide_description:0 "The [SCOPE.Custom('ArtifactQuality')] tanned hide of [newly_created_artifact.GetFeatureText( 'animal_hide_type' )], [newly_created_artifact.Custom('ArtifactSmallHideAcquisitionMethod')]."
 
- artifact_animal_hide_medium_name:3 "Fell [newly_created_artifact.Custom('ArtifactAnimalType')] aus [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]. Das Tier soll besonders [newly_created_artifact.Custom('ArtifactAnimalAdjective')] gewesen sein."
- artifact_animal_hide_medium_description:2 "Das gegerbte Fell [newly_created_artifact.GetFeatureText('animal_hide_type')], erjagt in [location.GetName]. Das Fell ist von [SCOPE.Custom('ArtifactQuality')]er Güte."
- create_artifact_medium_hide_tooltip:1 "[inspiration_owner.GetShortUIName] jagte und gerbte das Fell mit einem [SCOPE.Custom('ArtifactQuality')]en Ergebnis"
+ artifact_small_hide_name:3 "$artifact_animal_hide_name_base$"
+ artifact_small_hide_description:4 "$artifact_animal_hide_description$"
+ artifact_small_hide_acquisition_pet:3 "preserved to honor [ROOT.Artifact.GetOwner.GetHerHis] dear friend and companion"
+ artifact_small_hide_acquisition_hunt:3 "hunted by [ROOT.Artifact.MakeScope.Var('adventure_artifact_hunter').Char.GetTitledFirstName] in [ROOT.Artifact.MakeScope.Var('adventure_artifact_location').Province.GetBaronyNameExplicitly]"
+ create_artifact_small_hide_tooltip:4 "[adventurer.GetShortUIName] hunted and tanned the hide with a [SCOPE.Custom('ArtifactQuality')] result"
 
- artifact_animal_hide_big_name:3 "Fell [newly_created_artifact.Custom('ArtifactAnimalType')] aus [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]. Das Tier soll besonders [newly_created_artifact.Custom('ArtifactAnimalAdjective')] gewesen sein."
- artifact_animal_hide_big_description:2 "Das gegerbte Fell [newly_created_artifact.GetFeatureText('animal_hide_type')], erjagt in [location.GetName]. Das Fell ist von gewaltiger Größe und [SCOPE.Custom('ArtifactQuality')]er Güte."
- create_artifact_big_hide_tooltip:2 "[inspiration_owner.GetShortUIName] jagte und gerbte das gewaltige Fell [SCOPE.Custom('ArtifactSmallHideType')] mit einem [SCOPE.Custom('ArtifactQuality')]en Ergebnis"
- 
+ artifact_animal_hide_medium_name:3 "$artifact_animal_hide_name_base$"
+ artifact_animal_hide_medium_description:4 "$artifact_animal_hide_description$"
+ create_artifact_medium_hide_tooltip:3 "$create_artifact_small_hide_tooltip$"
 
- 
- artifact_animal_hide_medium_name:3 "Das Fell eines [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] aus [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]"
- artifact_animal_hide_medium_description:2 "The tanned hide of [newly_created_artifact.GetFeatureText( 'animal_hide_type' )], hunted in the [location.GetName]. The hide is of [SCOPE.Custom('ArtifactQuality')] quality."
- create_artifact_medium_hide_tooltip:1 "[inspiration_owner.GetShortUIName] hunted and tanned the hide with [SCOPE.Custom('ArtifactQuality')] result"
- 
- artifact_animal_hide_big_name:3 "Hide of the [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] of [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]"
- artifact_animal_hide_big_description:2 "The tanned hide of [newly_created_artifact.GetFeatureText( 'animal_hide_type' )], hunted in the [location.GetName]. The hide is massive in size and of [SCOPE.Custom('ArtifactQuality')] quality."
- create_artifact_big_hide_tooltip:2 "[inspiration_owner.GetShortUIName] hunted and tanned the massive hide with [SCOPE.Custom('ArtifactQuality')] result"
+ artifact_animal_hide_big_name:3 "$artifact_animal_hide_name_base$"
+ artifact_animal_hide_big_description:4 "$artifact_animal_hide_description$"
+ create_artifact_big_hide_tooltip:4 "$create_artifact_small_hide_tooltip$"
  
  # Skull
- artifact_wall_skull_name:2 "Schädel eines [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] aus [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]"
- artifact_wall_skull_description:2 "Der eindrucksvolle Schädel [newly_created_artifact.GetFeatureText('animal_skull_type')], erjagt in [location.GetName]. Der Schädel ist [SCOPE.Custom('ArtifactAdverbQuality')] konserviert und an einem [SCOPE.Custom('ArtifactAdverbWealth')] geschmückten Trophäenschild aus [newly_created_artifact.GetFeatureText('generic_material_wood')] angebracht."
+  artifact_wall_skull_name_legendary:3 "Skull of the [newly_created_artifact.Custom('GetLegendaryColor')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] of [owner.MakeScope.Var('adventure_artifact_location').Province.GetTitle.GetDeJureLiege.GetNameNoTierNoTooltip]"
+ artifact_wall_skull_name_adventurer:1 "Skull of the [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] of [owner.MakeScope.Var('adventure_artifact_location').Province.GetBaronyNameExplicitlyNoTooltip]"
+ artifact_wall_skull_name:4 "Schädel eines [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] aus [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]"
+ artifact_wall_skull_description:4 "Der eindrucksvolle Schädel [newly_created_artifact.GetFeatureText('animal_skull_type')], erjagt in [location.GetName]. Der Schädel ist [SCOPE.Custom('ArtifactAdverbQuality')] konserviert und an einem [SCOPE.Custom('ArtifactAdverbWealth')] geschmückten Trophäenschild aus [newly_created_artifact.GetFeatureText('generic_material_wood')] angebracht."
  artfact_animal_adjective:0 "[newly_created_artifact.Custom('ArtifactAnimalAdjective')|U]"
  artifact_animal_great:0 "besonders groß"
  artifact_animal_man_eating:0 "ein Menschenfresser"
@@ -216,13 +220,20 @@
  feature_animal_skull_type_stag:0 "eines Hirschs mit beindruckend ausladendem Geweih"
  feature_animal_skull_type_lion:0 "eines großen Löwen, dem König der Tiere"
  feature_animal_skull_type_tiger:0 "eines tödlichen Tigers"
- feature_animal_skull_type_bear:0 "eines großen Bären"
+ feature_animal_skull_type_bear:1 "eines grimmigen Bären"
  feature_animal_skull_type_aurochs:0 "eines gewaltigen Auerochsen"
  feature_animal_skull_type_horse:0 "eines gewaltigen Pferds"
  feature_animal_skull_type_rabbit:0 "der schrecklichsten Kreatur der ganzen Welt: einem Kaninchen"
  feature_animal_skull_type_unicorn:0 "eines Einhorns"
+  feature_animal_skull_type_elk:0 "a mighty many-tined elk"
+ feature_animal_skull_type_leopard:0 "a ferocious leopard"
+ feature_animal_skull_type_roe:0 "a prancing roe"
+ feature_animal_skull_type_gazelle:0 "a swift gazelle"
+ feature_animal_skull_type_antelope:0 "a leaping antelope"
+ feature_animal_skull_type_hart:0 "a proud hart"
+ feature_animal_skull_type_bison:0 "an imposing bison bull"
  create_artifact_wall_animal_skull_tooltip:1 "[inspiration_owner.GetShortUIName] hat Euch den eindrucksvollen Schädel [newly_created_artifact.GetFeatureText('animal_skull_type')] mitgebracht"
- 
+  
  # Horn
  artifact_wall_narwhal_horn_name:0 "Horn des Einhorns"
  artifact_wall_narwhal_horn:1 "Ein langes, gerades Horn von schillerndem Weiß. Gerüchteweise soll es vom Leib eines erschlagenen Einhorns stammen. Das Horn ist [SCOPE.Custom('ArtifactAdverbQuality')] konserviert und an einem [SCOPE.Custom('ArtifactAdverbWealth')] geschmückten Trophäenschild aus [newly_created_artifact.GetFeatureText('generic_material_wood')] angebracht."
@@ -399,6 +410,14 @@
  feature_book_title_blademaster:0 "Waffen und Kampf ($artifact_name_prefix_artifact_scope$)"
  feature_book_title_hunter_one:0 "Führer zur Jagd ($artifact_name_prefix_artifact_scope$)"
  feature_book_title_hunter_two:0 "Zur Schönheit der Natur ($artifact_name_prefix_artifact_scope$)"
+  feature_book_title_hunter_three:0 "$artifact_name_prefix_artifact_scope$ Master of Game"
+ feature_book_title_hunter_four:0 "$artifact_name_prefix_artifact_scope$ Art of the Hunt"
+ feature_book_title_hunter_five:0 "$artifact_name_prefix_artifact_scope$ Book of Hunting"
+ feature_book_title_hunter_six:0 "$artifact_name_prefix_artifact_scope$ On Gentle and Wild Beasts"
+ feature_book_title_hunter_seven:0 "$artifact_name_prefix_artifact_scope$ Book of the Chase"
+ feature_book_title_hunter_eight:0 "$artifact_name_prefix_artifact_scope$ Birds of Prey"
+ feature_book_title_hunter_nine:0 "$artifact_name_prefix_artifact_scope$ Art of Hunting with Birds"
+ feature_book_title_hunter_ten:0 "$artifact_name_prefix_artifact_scope$ Nature and Care of Dogs"
  feature_book_title_mystic:0 "Führer zur Esoterik ($artifact_name_prefix_artifact_scope$)"
  feature_book_title_herbalist:0 "Kräuter und Pflanzen ($artifact_name_prefix_artifact_scope$)"
  feature_book_title_cannibal:0 "Kulinarische Genüsse ($artifact_name_prefix_artifact_scope$)"
@@ -532,7 +551,7 @@
  
 # mystical animal
  feature_book_title_mystical_animal:0 "[Artifact.GetOwner.Custom('GetAnimalType')|U] in Weiß"
- feature_book_topic_mystical_animal:1 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')|l]es Manuskript, das alle örtlichen Legenden über [Artifact.GetOwner.Custom('LocalAnimal_DE_ART_DEF_S_A')] [Artifact.GetOwner.Custom('LocalAnimalDesc')|l][Artifact.GetOwner.Custom('LocalAnimal_DE_4')] weiß[Artifact.GetOwner.Custom('LocalAnimal_DE_4')] [Artifact.GetOwner.Custom('LocalAnimal')] zusammenträgt, [Artifact.GetOwner.Custom('LocalAnimal_DE_ART_DEF_S_A')] [Artifact.GetOwner.GetTitledFirstName] erlegt hat. Die Schrift ist [Artifact.GetOwner.Custom('ArtifactBookContentQuality')|l], und die Kraft, über die [Artifact.GetOwner.Custom('DE_ART_DEF_S_N')] [Artifact.GetOwner.GetTitleAsNameNoTooltip] steht außer Frage."
+ feature_book_topic_mystical_animal:1 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')|l]es Manuskript, das alle örtlichen Legenden über [Artifact.GetOwner.Custom('LocalAnimal_DE_ART_DEF_S_A')] [Artifact.GetOwner.Custom('LocalAnimalDesc')|l][Artifact.GetOwner.Custom('LocalAnimal_DE_4')] weiß[Artifact.GetOwner.Custom('LocalAnimal_DE_4')] [Artifact.GetOwner.Custom('GetAnimalType')] zusammenträgt, [Artifact.GetOwner.Custom('LocalAnimal_DE_ART_DEF_S_A')] [Artifact.GetOwner.GetTitledFirstName] erlegt hat. Die Schrift ist [Artifact.GetOwner.Custom('ArtifactBookContentQuality')|l], und die Kraft, über die [Artifact.GetOwner.Custom('DE_ART_DEF_S_N')] [Artifact.GetOwner.GetTitleAsNameNoTooltip] steht außer Frage."
  
 # cannibal
  feature_book_title_cannibal_recipes:0 "Wenn man die Menschen satt hat"
@@ -736,3 +755,24 @@
  artifact_elixir_description:0 "Eine [SCOPE.Custom('ArtifactArticleWealth')]e Phiole, die etwas ganz Besonderes enthält: [newly_created_artifact.Custom('ArtifactElixirTypeDesc')]. [newly_created_artifact.GetFeatureText('glass_decoration')]."
  
  create_artifact_banner_tooltip:0 "[inspiration_owner.GetShortUIName] erschafft ein großes Banner von [SCOPE.Custom('ArtifactQuality')|l]er Machart"
+
+
+ artifact_bowl_name:0 "$artifact_name_prefix$ Bowl"
+ artifact_bowl_description:0 "An ornate bowl of [SCOPE.Custom('ArtifactQuality')] craftsmanship. It is made of [newly_created_artifact.GetFeatureText( 'generic_material_metal' )] and engraved with motifs of [newly_created_artifact.GetFeatureText( 'decoration_pattern' )]."
+
+ artifact_plate_name:0 "$artifact_name_prefix$ Plate"
+ artifact_plate_description:0 "A magnificent plate of [SCOPE.Custom('ArtifactQuality')] craftsmanship. It is cast from [newly_created_artifact.GetFeatureText( 'generic_material_metal' )] and etched with [newly_created_artifact.GetFeatureText( 'decoration_pattern' )]."
+
+ artifact_urn_name:0 "$artifact_name_prefix$ Urn"
+ artifact_urn_description:0 "An exquisite urn of [SCOPE.Custom('ArtifactQuality')] craftsmanship. It is made of [newly_created_artifact.GetFeatureText( 'generic_material_earthware' )] and encircled with depictions of [newly_created_artifact.GetFeatureText( 'decoration_pattern' )]."
+
+ artifact_statuette_name:0 "$artifact_name_prefix$ Statuette"
+ artifact_statuette_description:0 "An elegant miniature statue of [SCOPE.Custom('ArtifactQuality')] craftsmanship, depicting a mounted [host.Custom('MountedWarriorTerm')] at the tilt. It is cast of gold, and with impressive detail."
+
+ artifact_tun_barrel_name:0 "$artifact_name_prefix$ Wine Tun"
+ artifact_tun_barrel_description:0 "A huge [newly_created_artifact.GetFeatureText( 'generic_material_wood' )] vessel of [SCOPE.Custom('ArtifactQuality')] craftsmanship, capable of storing hundreds of gallons of wine."
+
+ artifact_scepter_name:0 "$artifact_name_prefix$ Scepter"
+ artifact_scepter_description:0 "A [SCOPE.Custom('ArtifactQuality')], ornate decorative scepter forged of gold — a true mark of distinction."
+
+ artifact_scepter_pedestal:0 "Scepter"

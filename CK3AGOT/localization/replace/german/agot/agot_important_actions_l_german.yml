@@ -1,5 +1,5 @@
 ﻿l_german:
- # Übersetzt von Lys
+ # Übersetzt von Lys un´ Dillo
  action_agot_squire_can_be_trained:0 "Euren Knappen drillen"
  action_agot_squire_can_be_trained_label:0 "Ihr könnt mit Eurem Knappen üben"
  action_agot_squire_can_be_trained_desc:2 "Euer Knappe [recipient.GetUIName] hat den Anspruch auf eine zielführende Ausbildung!\n\n#italic Als [agot_knight|E] wird von Euch erwartet, dass Ihr mit Eurem [Concept('squire', Knappen)|E] übt. Er lernt zwar auch ohne Euer zutun, alternativ könnt Ihr gelegentlich jedoch #V selbst#! mit ihm üben. Eine direkte Unterweisung Eurerseits hilft Eurem Knappen und kann in einer #P Zunahme#! oder #N Abnahme#! des Ausbildungsfortschritts führen."
@@ -9,3 +9,8 @@
  action_agot_squire_can_be_knighted_label:0 "Ihr könnt Euren Knappen zum Ritter schlagen"
  action_agot_squire_can_be_knighted_desc:2 "Euer Knappe [recipient.GetUIName] kann zum Ritter geschlagen werden!"
  action_agot_squire_can_be_knighted_click:0 "#I Klicken, um Euren Knappen die Ritterwürde aufzuerlegen#!"
+
+ action_can_hire_maester:0 "Einen Maester anheuern"
+ action_can_hire_maester_label:0 "Ihr könnt einen Maester anheuern"
+ action_can_hire_maester_desc:0 "Ihr beschäftigt keinen Maester als [court_position|E], Ihr solltet einen einstellen."
+ action_can_hire_maester_click:0 "#I Zum Anzeigen klicken#!"

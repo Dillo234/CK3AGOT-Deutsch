@@ -78,11 +78,11 @@
  bondi_tt:0 "#F Bondí sind widerstandsfähig und kämpfen am besten auf den Ebenen oder dem Ackerland fremder Ufer#!"
  
  fp1_yearly.2400.t:0 "Vorbereitungen auf die Jagd"
- fp1_yearly.2400.desc:0 "Die Wildnis ruft nach mir. Es ist schon zu lange her, dass ich das letzte Mal auf der Jagd war. Dort draußen in [hunting_province.GetName] gibt es viel verlockende Beute: [ROOT.Char.Custom('LocalAnimalMultiple')] sind die verlockendste. Solch ein Tier würde sich heute Abend als Braten auf meiner Tafel gut machen!\n\nMir fehlt allerdings noch etwas. Sind meine Jagdspeere zu alt und stumpf? Oder mangelt es mir an einem Gefährten?\n\nIch sollte mich unbedingt gut auf meine Jagd vorbereiten."  #Selbst geschrieben/abgetippt
+ fp1_yearly.2400.desc:0 "Die Wildnis ruft nach mir. Es ist schon zu lange her, dass ich das letzte Mal auf der Jagd war. Dort draußen in [hunting_province.GetName] gibt es viel verlockende Beute: [ROOT.Char.Custom('GetAnimalPlural')] sind die verlockendsten. Solch ein Tier würde sich heute Abend als Braten auf meiner Tafel gut machen!\n\nMir fehlt allerdings noch etwas. Sind meine Jagdspeere zu alt und stumpf? Oder mangelt es mir an einem Gefährten?\n\nIch sollte mich unbedingt gut auf meine Jagd vorbereiten."  #Selbst geschrieben/abgetippt
  fp1_yearly.2400.a:0 "Ein neuer Jagdhund ist das, was ich brauche."
  fp1_yearly.2400.b:0 "Neu gefertigte Speere und mit Rabenfedern gefiederte Pfeile."
  fp1_yearly.2400.c:0 "Was ich habe, ist genug. Ich brauche einfach nur mehr Zeit, um mich vorzubereiten."
- fp1_yearly.2400.free_hunt:1 "Eure nächste Jagd wird kein [gold|E] kosten"
+ fp1_yearly.2400.free_hunt:1 "Eure nächste [GetActivityType('activity_hunt').GetName] wird kein [gold|E] kosten"
  brand_new_hunting_tools:0 "Brandneues Jagdwerkzeug"
  brand_new_hunting_tools_desc:0 "Dieser Charakter hat eine beachtliche Menge Gold für neue Jagdausrüstung ausgegeben."
  

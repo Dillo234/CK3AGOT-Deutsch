@@ -1,13 +1,13 @@
 ﻿l_german:
 # Übersetzt von Lys
- cb_discount_prestige_10:0 "[casus_belli|E]-[prestige|E]-Kosten: #P -10 %#!"
- cb_discount_piety_10:0 "[casus_belli|E]-[piety|E]-Kosten: #P -10 %#!"
+ cb_discount_prestige_10:1 "[casus_belli|E]-[prestige|E]-Kosten: [prestige_i]#P -10 %#!"
+ cb_discount_piety_10:1 "[casus_belli|E]-[piety|E]-Kosten: [piety_i]#P -10 %#!"
  individual_county_de_jure_cb:0 "[de_jure|E] [county|E] (Individuell)"
  individual_duchy_de_jure_cb:0 "[de_jure|E] [duchy|E] (Individuell)"
  multiple_claim_wars:1 "Kann mehrere Eurer [claims|E] in einem einzigen Krieg durchsetzen"
  multiple_claim_wars_others:0 "Kann mehrere [claims|E] für einen anderen Charakter in einem einzigen Krieg durchsetzen"
- fabricate_claim_speed:0 "„Fingierter Anspruch auf Lordschaft“-[councillor_task|E]-Tempo: #P +50 %#!"
- promote_culture_speed:0 "„Förderung der Kultur“-[councillor_task|E]-Tempo: #P +15 %#!"
+ fabricate_claim_speed:1 "#V $task_fabricate_claim$#! [councillor_tasks|E]-Tempo: #P +50 %#!"
+ promote_culture_speed:1 "#V $task_fabricate_claim$#! [councillor_tasks|E]-Tempo: #P +15 %#!"
  same_culture_group_reduced_factionalism:1 "[vassals|E], deren [culture|E] eine gemeinsame [heritage|E] mit Eurer hat, schließen sich seltener [independence_factions|E] an."
  reduce_develop_county_penalty_01:0 "Gemeinden erreichen den maximalen Malus für [existing_development|E] nun bei 20 [development|E]"
  reduce_develop_county_penalty_02:0 "Gemeinden erreichen den maximalen Malus für [existing_development|E] nun bei 35 [development|E]"
@@ -35,9 +35,6 @@
  unlock_fortification_rights_contract:0 "Schaltet die [feudal_contract|E] #high $fortification_rights$#! frei"
  unlock_coinage_rights_contract:0 "Schaltet die [feudal_contract|E] #high $coinage_rights$#! frei"
 
- outriders:0 "Vorreiter"
- outriders_flavor:0 "Als Mittelweg zwischen leichter und schwerer Kavallerie sind sie seit der Ankunft der Ersten Menschen in Westeros eine wichtige Kraft."
-
 ##############
 # Tribal Era #
 ##############
@@ -57,6 +54,8 @@
 
  innovation_bannus:0 "Heerbann"
  innovation_bannus_desc:0 "Der Bann gründet sich auf der Autorität, Truppen in der Schlacht befehligen zu können, und verleiht unseren Herrschern die Macht, Freie dazu zu verpflichten, für sie zu kämpfen. So wird eine rechtliche Grundlage für das Ausheben großer Armeen geschaffen."
+ eligible_accolade_vanguard_attribute_ACCOLADES_DLC:0 "[knights|E] dieser [culture|E] können [GetAccoladeType('vanguard_attribute').GetName]-[accolades|E] erhalten"
+ eligible_accolade_vanguard_attribute:1 "[AddLocalizationIf(HasDlcFeature('accolades'), 'eligible_accolade_vanguard_attribute_ACCOLADES_DLC')]"
 
  innovation_quilted_armor:0 "Gambeson"
  innovation_quilted_armor_desc:0 "Diese Jacken aus einem Dutzend oder mehr Schichten aus Leinen, die miteinander vernäht wurden, halten sogar schwere Pfeile auf und sind ein bezahlbarer Weg für uns, ein ganzes Regiment für die Schlacht zu rüsten."
@@ -86,9 +85,6 @@
  innovation_ledger:0 "Hauptbuch"
  innovation_ledger_desc:0 "Da unsere Lande wachsen, brauchen wir einen besseren Weg, um unseren Besitz im Blick zu behalten. Das Führen eines Hauptbuchs mit unseren Besitztümern wird dafür sorgen, dass wir stets wissen, welche Ressourcen wir zur Verfügung haben."
 
- innovation_outriders:0 "Vorreiter"
- innovation_outriders_desc:0 "Als Mittelweg zwischen leichter und schwerer Kavallerie sind sie seit der Ankunft der Ersten Menschen in Westeros eine wichtige Kraft."
-
  #Regional
  innovation_viking_tradition:0 "Wikingfahrten"
  innovation_viking_tradition_desc:0 "Die Menschen des Nordens haben eine lange Tradition als Händler, aber auch als Piraten. Nur wenige sind bereit, gegen eine Bedrohung zu kämpfen, die urplötzlich am Flussufer erscheint – und die Krieger der Wikinger haben diese Form der Kriegsführung gemeistert."
@@ -98,9 +94,13 @@
 
  innovation_war_camels:0 "Kriegskamele"
  innovation_war_camels_desc:0 "Kamele sind von Natur aus an ein Leben in Wüstenregionen angepasst, aber sie sind an sich nicht für die Schlacht gemacht. Unsere Züchter und Abrichter können dies ändern, was uns den Zugriff auf eine anpassungsfähige Reiterei verleiht, die es uns ermöglicht, die Sande zu meistern."
+ eligible_accolade_camelry_attribute_ACCOLADES_DLC:0 "[knights|E] dieser [culture|E] können [GetAccoladeType('camelry_attribute').GetName]-[accolades|E] erhalten"
+ eligible_accolade_camelry_attribute:1 "[AddLocalizationIf(HasDlcFeature('accolades'), 'eligible_accolade_camelry_attribute_ACCOLADES_DLC')]"
 
  innovation_elephantry:0 "Kriegselefanten"
  innovation_elephantry_desc:0 "Elefanten sind in Gefangenschaft schwer zu züchten, weshalb jeder Mahut sich seine eigenen wilden Elefanten einfangen und abrichten muss. Dies bedeutet, dass es sich um eine feine Kunst handelt, diese gewaltigen Kreaturen in der Schlacht richtig einzusetzen, doch es ist eine Kunst, die wir unbedingt meistern wollen."
+ eligible_accolade_elephantry_attribute_ACCOLADES_DLC:0 "[knights|E] dieser [culture|E] können [GetAccoladeType('elephantry_attribute').GetName]-[accolades|E] erhalten"
+ eligible_accolade_elephantry_attribute:1 "[AddLocalizationIf(HasDlcFeature('accolades'), 'eligible_accolade_elephantry_attribute_ACCOLADES_DLC')]"
  
  innovation_wootz_steel:0 "Wootz-Stahl"
  innovation_wootz_steel_desc:0 "Diese kohlenstoffreiche Legierung, die auch als Wootzkuchen oder Wootzbarren bekannt ist, eignet sich ausgezeichnet für die Herstellung von Waffen. Wootz-Stahl wird viel gehandelt und gilt als der beste Stahl der Welt. Über weite Teile der menschlichen Geschichte hat er immer wieder die Aufmerksamkeit von arabischen, ägyptischen, chinesischen und sogar römischen Händlern auf sich gezogen."
@@ -129,6 +129,8 @@
 
  innovation_mangonel:0 "Mangonellen"
  innovation_mangonel_desc:0 "Als bedeutende Verbesserung unserer bereits existierenden Katapultentwürfe ist das Laden und Schießen mit den traktionsbetriebenen Mangonellen wesentlich schneller als bei torsionsbetriebenen Maschinen."
+ eligible_accolade_besieger_attribute_ACCOLADES_DLC:0 "[knights|E] dieser [culture|E] können [GetAccoladeType('besieger_attribute').GetName]-[accolades|E] erhalten"
+ eligible_accolade_besieger_attribute:1 "[AddLocalizationIf(HasDlcFeature('accolades'), 'eligible_accolade_besieger_attribute_ACCOLADES_DLC')]"
 
  innovation_burhs:0 "Burhs"
  innovation_burhs_desc:0 "Die über die Lande verstreuten Burhs sind wichtige befestigte Siedlungen, die wir sowohl für das Aufmarschieren von Truppen als auch als Verwaltungsknotenpunkte nutzen können."
@@ -142,8 +144,10 @@
  innovation_arched_saddle:0 "Kriegssattel"
  innovation_arched_saddle_desc:0 "Leichte Reiterei ist nicht zu unterschätzen, aber sie schöpft das Potenzial des Schlachtrosses nicht wirklich voll aus. Kriegssättel erlauben es uns, schwer gepanzerte Krieger mit angelegten Lanzen ins Feld zu führen, die bei ihrem Ansturm gegen die feindlichen Linien ihre volle Wucht zum Einsatz bringen können."
 
- innovation_knighthood:0 "Ritterstand"
- innovation_knighthood_desc:0 "Indem wir unsere besten Kämpfer in den Ritterstand erheben und sie nicht nur mit bloßen Münzen, sondern auch mit Ländereien entlohnen, können wir ihnen die Ehre zuteilwerden lassen, die sie verdienen, und uns ihre Treue sichern."
+ innovation_knighthood:0 "Waffenmeister"
+ innovation_knighthood_desc:0 "Es ist die Aufgabe des Waffenmeisters, die Brut des Lords in den brutalen Künsten des Kampfes zu schulen. Indem wir dafür sorgen, dass jeder Hof einen Mann von kriegerischem Ruf anheuert, können wir diese Fähigkeiten an unsere edle Schicht vermitteln."
+ eligible_accolade_lancer_attribute_ACCOLADES_DLC:0 "[knights|E] dieser [culture|E] können [GetAccoladeType('lancer_attribute').GetName]-[accolades|E] erhalten"
+ eligible_accolade_lancer_attribute:1 "[AddLocalizationIf(HasDlcFeature('accolades'), 'eligible_accolade_lancer_attribute_ACCOLADES_DLC')]"
 
  #Civic
  innovation_hereditary_rule:0 "Erbherrschaft"
@@ -172,8 +176,8 @@
 
  #Regional
 
- innovation_primogeniture_westeros:0 "Primogenitur"
- innovation_primogeniture_westeros_desc:0 "Die männliche Bevorzugung der Primogenitur ist unter den Westerosi-Adligen üblich, aber nicht bindend. Ein Königreich, ein Erbe, wobei es gewisse Ausnahmen und Interpretationen gibt."
+ innovation_reconquista:1 "Spiritueller Expansionismus"
+ innovation_reconquista_desc:0 "Wegen unserer eigenen Zwiste untereinander haben wir die Anwesenheit von Ungläubigen in Hispanien viel zu lange geduldet. Die Zeit ist gekommen, um unsere Truppen um uns zu scharen und die Ungläubigen ein für alle Mal aus diesem Land zu vertreiben!"
 
  innovation_stem_duchies:0 "Stammesherrschaft"
  innovation_stem_duchies_desc:0 "Obgleich wir aus verschiedenen Stämmen kommen, erkennen wir dennoch die Bedeutung der Einigkeit und der gemeinschaftlichen Zusammenarbeit an. Unabhängigkeit wird überbewertet, wo es doch Stabilität ist, die Sicherheit und Wohlstand bringt. "
@@ -181,8 +185,6 @@
  innovation_ghilman:0 "Ghilman"
  innovation_ghilman_desc:0 "Ghilman sind im Krieg gefangen genommene Sklavensoldaten, die leidenschaftliche Kämpfer und uns noch dazu treuer ergeben sind als gewöhnliche Söldner. Billiger sind sie noch dazu."
 
- innovation_maesters:0 "Maester"
- innovation_maesters_desc:0 "Ausgebildet in der Zitadelle in allen Bereichen des Wissens, sind die Maester für die Lords von Westeros unerlässlich für die Stabilität ihrer Herrschaft und ihre Gesundheit."
 
 #####################
 # High Medieval Era #
@@ -203,6 +205,8 @@
 
  innovation_advanced_bowmaking:0 "Fortgeschrittenes Bogenbauen"
  innovation_advanced_bowmaking_desc:0 "Wo Bogenschützen ihre Waffen traditionell selbst bauten und instand hielten, haben nun Handwerker damit begonnen, neue Arten von Bögen herzustellen, die stärker und in ihrem Aufbau komplexer sind als jemals zuvor. Indem wir diese neuen Entwürfe fördern, können wir diese meisterhaften Bogenbauer zu einem militärischen Vorteil von unschätzbarem Wert machen."
+ eligible_accolade_crossbower_attribute_ACCOLADES_DLC:0 "[knights|E] dieser [culture|E] können [GetAccoladeType('crossbowmen_attribute').GetName]-[accolades|E] erhalten"
+ eligible_accolade_crossbower_attribute:1 "[AddLocalizationIf(HasDlcFeature('accolades'), 'eligible_accolade_crossbower_attribute_ACCOLADES_DLC')]"
 
  #Civic
 
@@ -225,7 +229,7 @@
  innovation_guilds_desc:0 "Da unsere Lande sich ausdehnen, wird es zunehmend wirkungsärmer, sämtlichen Handel innerhalb unserer Domäne selbst abwickeln zu wollen. Indem wir Verbünde aus Kaufleuten und Handwerkern mit Zunftordnungen versehen, können wir ihnen mehr Eigenverantwortung über ihre Geschäfte übertragen und dabei dennoch weiter Gewinn aus ihren Unternehmungen ziehen."
 
  innovation_development_03:0 "Verstädterung"
- innovation_development_03_desc:0 "Großstädte wie Rom, Byzanz und Delhi ragten lange als einzelne Beispiele für unnachahmliche Überbleibsel einer vergangenen Zeit heraus. Durch das Wachstum unserer Infrastruktur und unserer Bevölkerung haben wir endlich die Möglichkeit, neue Siedlungen aufzubauen, die es mit diesen uralten urbanen Zentren aufnehmen können."
+ innovation_development_03_desc:0 "Die großen Städte von Essos haben sich lange Zeit als Relikte eines großen, unvergleichlichen Erbes hervorgetan. Mit dem Ausbau unserer Zivilisation und unserer Bevölkerung haben wir endlich die Mittel, um neue Siedlungen zu errichten, die es mit diesen alten städtischen Siedlungen aufnehmen können."
 
  innovation_currency_03:0 "Bankwesen"
  innovation_currency_03_desc:0 "Besonders große und teure Handelsabschlüsse erfordern oft unhandliche Mengen an schwerem Münzgeld. Solchen Reichtum in sicheren Schatzkammern unterzubringen und das Eigentum an ihnen zu übertragen, ohne sie körperlich bewegen zu müssen, macht es viel einfacher, auch größere Mengen an Waren zu handeln."
@@ -273,7 +277,7 @@
  innovation_primogeniture_desc:0 "Ein Königreich, ein Erbe. Auch wenn die jüngeren Kinder unseres Monarchen sich im Stich gelassen fühlen mögen, weil ihnen ein Erbe verweigert wird, stellt dies doch die beste Möglichkeit für uns dar, um für ein stabiles Reich zu sorgen, das nicht durch Erbfolgekrisen auseinandergerissen wird."
 
  innovation_cranes:0 "Kräne"
- innovation_cranes_desc:0 "Die Römer nutzten mit dem Laufradkran sehr wirkungsreich ein vergessenes Wunderwerk der Ingenieurskunst, um ihr Reich zu errichten, und wir werden es ihnen gleichtun."
+ innovation_cranes_desc:0 "Die Valyrer nutzten mit dem Laufradkran sehr wirkungsreich ein vergessenes Wunderwerk der Ingenieurskunst, um ihr Reich zu errichten, und wir werden es ihnen gleichtun."
 
  innovation_noblesse_oblige:0 "Adel verpflichtet"
  innovation_noblesse_oblige_desc:0 "Adlig sein umfasst mehr als nur Privilegien und Rechte: Es ist auch mit einer Verpflichtung gegenüber dem Reich verbunden, nämlich der, ein stets angemessenes und gerechtes Verhalten zu zeigen. Indem wir klar festlegen, was von unserer Elite erwartet wird, schaffen wir ein Ideal, nach dem es sich zu streben lohnt und das uns auf unserem gemeinsamen Weg dorthin zusammenbringt."
@@ -304,4 +308,4 @@
  innovation_deccan_unity:0 "Dekkan-Einheit"
  innovation_deccan_unity_desc:0 "Der Zustrom neuer Glaubensinhalte und Religionen in unsere Gesellschaft hat uns klar vor Augen geführt, dass unser früherer Fokus auf die Kleinstaaterei ein Fehler gewesen ist. Wir sollten uns mit anderen Anhängern unseres Glaubens zusammentun und für einen starken und robusten Staat sorgen, der Druck von außen standhalten kann."
 
- students_of_knighthood:0 "Kinder, die ihre Ausbildung mit einem [Concept('martial', 'Kriegsführungs)|E]-[education_focus|E] abschließen, erhalten eine $trait_education_martial_prowess$-[trait|E]."
+ students_of_knighthood:1 "Kinder, die ihre Ausbildung mit einem [Concept('martial', 'Kriegsführungs)|E]-[education_focus|E] abschließen, erhalten eine $trait_education_martial_prowess$-[trait|E]."
