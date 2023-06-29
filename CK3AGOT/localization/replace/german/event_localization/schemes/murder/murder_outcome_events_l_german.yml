@@ -3,6 +3,7 @@
  murder_child_really_tooltip:1 "Ein Kind ermorden. Möchtet Ihr das wirklich tun?"
  murder_outcome_murdered_rival_tt:1 "Weil Ihr Euren [Concept('rival', 'Rivalen')|E] überlebt habt:"
  murder_unknown_murder_against_you_was_successful:0 "#X Ihr wurdet von einem unbekannten Angreifer ermordet!#!"
+ murder_unknown_murder_against_you_was_successful_other:0 "#X [THIS.Char.GetShortUIName] was murdered by an unknown assailant!#!"
  
  murder_outcome.1001.t:0 "Meuchler!"
  murder_outcome.1001.d:0 "Die Zeit ist gekommen. Meine Agenten sind in Stellung. Einer von ihnen wird den Meuchler am Abend der Tat auszahlen. Ein weiterer sorgt dafür, dass die Mauer unbewacht ist. Ein dritter hinterlässt eine unauffällige Spur von Kerzen, die in [target.Custom('DE_PRO_POS_S_3P')] Gemach führen.\n\nAlles ist vorbereitet."
@@ -10,8 +11,10 @@
  murder_outcome.1001.b:0 "Wartet. Ich bin noch nicht bereit."
  
  murder_outcome.1002.t:0 "Behelligt"
- murder_outcome.1002.d:0 "Meine Agenten haben eine Reise für [target.GetTitledFirstName] geplant, die durch finstere Wälder führt. Fehlt nur noch eine Bande von Schlägern, die [target.Custom('DE_PRO_PER_S_3P_A')] auf tragische Weise während eines eskalierten Raubüberfalls erschlagen wird.\n\nIch sehe schon das Blut in den dunklen Boden sickern …"
- murder_outcome.1002.a:0 "O wie gefährlich die Wälder doch sein können."
+ murder_outcome.1002.d:0 "Meine Agenten haben eine Reise für [target.GetTitledFirstName] geplant, die durch finstere Wälder führt. $murder_outcome.1002.d$"
+ murder_outcome.1002.opening_travel:0 "My agents have learned that [target.GetTitledFirstName] is currently undertaking a journey to [province.GetName] which will take [target.GetHerHim] through several patches of wilderness.\n\n$murder_outcome.1002.d$"
+ murder_outcome.1002.d:1 "Fehlt nur noch eine Bande von Schlägern, die [target.Custom('DE_PRO_PER_S_3P_A')] auf tragische Weise während eines eskalierten Raubüberfalls erschlagen wird.\n\nIch sehe schon das Blut in den dunklen Boden sickern …"
+ murder_outcome.1002.a:0 "O wie gefährlich die Wildnis doch sein können."
  murder_outcome.1002.b:0 "Wartet. Das ist nicht der richtige Augenblick."
  
  murder_outcome.1003.t:0 "Ein Essen zum Sterben"
@@ -34,9 +37,11 @@
  murder_outcome.1006.a:0 "Das wird leicht!"
  
  murder_outcome.1007.t:0 "Aufgewühlte Wogen"
+ murder_outcome.1007.travel:0 "[target.GetTitledFirstName] is currently aboard a ship somewhere in the [province.GetName]."
  murder_outcome.1007.desc_not_inspection:0 "[target.GetTitledFirstName] wird ein Schiff besuchen, das im Lauf der Woche in einem der Häfen von [province.GetNameNoTier] anlegen wird."
  murder_outcome.1007.desc:0 "[target.GetTitledFirstName] wird ein Schiff inspizieren, das im Lauf der Woche in einem der Häfen von [province.GetNameNoTier] anlegen wird."
  murder_outcome.1007.desc_ending:0 "\n\nEs wäre ein Leichtes für einen meiner Agenten, das Ruderboot, mit dem [target.Custom('DE_PRO_PER_S_3P_N')] übergesetzt werden soll, mit brennbarer Flüssigkeit zu tränken. Dann wartet man ab, bis es mitten im Hafen ist, schießt einen brennenden Pfeil ab … und danach soll das Wasser [target.Custom('DE_PRO_PER_S_3P_A')] sich holen."
+ murder_outcome.1007.desc_ending_travel:0 "\n\nIt would be a tragedy if my agents were to drench the timbers in flammable liquid, escape on the only rowboat, and set the ship alight as they make their safe escape... thus ensuring [target.GetFirstNamePossessiveNoTooltip] death along with [target.GetHerHis] entourage."
  murder_outcome.1007.a:0 "Setzt den Plan in Gang."
  
  murder_outcome.1008.t:0 "Getränk des Lebens"
@@ -163,6 +168,7 @@
  murder_outcome.2007.scheme_unknown:0 "\n\n#EMP Leider#! wurde der Bogenschütze nie gefunden."
  murder_outcome.2007.a.discovered:0 "Ich … Ich dachte, [target.Custom('DE_PRO_PER_S_3P_N)] könnte schwimmen!"
  murder_outcome.2007.a:0 "Was für eine Tragödie!"
+ every_entourage_member:0 "Every member of [target.GetTitledFirstNamePossessiveNoTooltip] entourage:"
  
  murder_outcome.2008.desc_drunkard:0 "[target.GetTitledFirstName] ist tot, getötet von dem [target.Custom('RegionalAlcoholicDrink')], den [target.Custom('DE_PRO_PER_S_3P_N')] so sehr liebte!"
  murder_outcome.2008.desc_not_drunkard:0 "[target.GetTitledFirstName] ist tot, getötet von einem tiefen Schluck [target.Custom('RegionalDrink')]!"
@@ -239,7 +245,7 @@
  murder_outcome.4001.a:0 "Eines Tages werdet Ihr bezahlen, [target.GetFirstNameNoTooltip]!"
  murder_outcome.4001.b:0 "Wenn es beim ersten Mal nicht klappt …"
  
- murder_outcome.4002.desc:0 "\n\nMeine gedungenen Schläger konnten [target.Custom('DE_PRO_POS_S_3P')] Gefolge nicht überwältigen."
+ murder_outcome.4002.desc:1 "\n\nMeine gedungenen Schläger konnten [target.Custom('DE_PRO_POS_S_3P')] Gefolge nicht überwältigen."
  murder_outcome.4002.exposed_scheme:0 "Noch schlimmer: Einige von ihnen wurden lebend gefangen genommen und gaben preis, dass sie für den Angriff entlohnt wurden! Es dauerte nicht lange, diese Entlohnung zu mir zurückzuverfolgen."
  murder_outcome.4002.not_exposed_scheme:0 "Zumindest wurden sie allesamt abgeschlachtet. Da niemand mehr das Gegenteil beweisen kann, wird man sie weiterhin für gewöhnliche Wegelagerer halten."
  murder_outcome.4002.a:0 "Es kann aber auch gar nichts richtig machen, dieses gemeine Volk …"
@@ -255,7 +261,7 @@
  murder_outcome.4004.failure_declaration_1:0 "[target.GetTitledFirstName] hat den Anschlag mit der giftigen Kreatur überlebt!"
  murder_outcome.4004.failed_attempt_1:0 "Obwohl das Tier zuschlagen konnte, wurde eilig ein Arzt herbeigeholt, der verhinderte, dass das Gift sich ausbreitete."
  murder_outcome.4004.scheme_owner_known:0 "\n\nKatastrophalerweise wurde der Diener gefunden, der das giftige Tier platziert hatte, und kurz darauf wusste jeder, dass ich in die Sache verstrickt war!"
- murder_outcome.4004.scheme_known:0 "\n\n[SCOPE.Custom('VenomousCreaturePlural')] in Betten zu legen, ist nicht sonderlich unauffällig, aber zumindest weiß niemand, dass ich dahinterstecke."
+ murder_outcome.4004.scheme_known:1 "\n\n[SCOPE.Custom('VenomousCreaturePlural')] in Betten zu legen, ist nicht sonderlich unauffällig, aber zumindest weiß niemand, dass ich dahinterstecke."
  murder_outcome.4004.scheme_unknown:0 "\n\nZumindest wurde die Schuld an diesem Vorfall umherziehenden [SCOPE.Custom('VenomousCreatureTypePlural')] gegeben und nicht mir."
  murder_outcome.4004.a:0 "Irgendwann geht Euch das Glück aus, [target.GetFirstNameNoTooltip]!"
  
@@ -352,6 +358,7 @@
  murder_outcome.5001.riled_up_mob:0 "Ich reite gerade durch die Straßen von [home_province.GetNameNoTier], als sich urplötzlich ein Mob schreiender und brüllender Bauern auf mein Gefolge stürzt. Ehe mir klar wird, was geschieht, zerren mich die Gemeinen von meinem Ross und schlagen auf mich ein. Ich höre meine Wachen schreien, doch lange bevor sie mich erreichen, wird alles schwarz um mich herum."
  murder_outcome.5001.bricked:0 "Bei einer örtlichen Feier in [home_province.GetName] verbringe ich einen Abend trunken von Belustigungen und Wein.\n\nAls ich am nächsten Morgen erwache, finde ich mich in einem feuchten Keller wieder – mit einem gewaltigen Kater und einer frischen Mauer vor mir, die mir den Weg versperrt! Die Tage gehen im Anschluss einfach ineinander über, doch bald kann ich nicht mehr stehen, dann nicht mehr sitzen und schließlich nicht einmal mehr #EMP denken#! …"
  murder_outcome.5001.sunken_boat:0 "Ich bin mit einem Boot draußen in einem der Häfen von [province.GetNameNoTier], als plötzlich ein brennender Pfeil durch die Luft auf uns zurast!\n\nMit einem dumpfen #EMP Knall#! trifft er das Boot, und wenige Augenblicke später ist alles in grüne Flammen gehüllt und ich stürze mich ins kalte Meerwasser. Während meine schwere Kleidung mich nach unten zieht, versuche ich, zu schwimmen... Versuche, irgendetwas zu erreichen, an dem ich mich festklammern kann, irgendwie zu #EMP atmen#!..."   #AGOT Changed #Selbst geschrieben/abgetippt
+ murder_outcome.5001.sunken_boat_travel:0 "Ich bin mit einem Boot draußen in einem der Häfen von [province.GetName], als plötzlich ein brennender Pfeil durch die Luft auf uns zurast!\n\nMit einem dumpfen #EMP Knall#! trifft er das Boot, und wenige Augenblicke später ist alles in grüne Flammen gehüllt und ich stürze mich ins kalte Meerwasser. Während meine schwere Kleidung mich nach unten zieht, versuche ich, zu schwimmen... Versuche, irgendetwas zu erreichen, an dem ich mich festklammern kann, irgendwie zu #EMP atmen#!..."
  murder_outcome.5001.poisoned_drink_alcohol:0 "Während ich das Abendessen und einen vollen Becher [ROOT.Char.Custom('RegionalAlcoholicDrink')] genieße, habe ich plötzlich ein merkwürdiges Gefühl im Hals."
  murder_outcome.5001.poisoned_drink_no_alcohol:0 "Während ich das Abendessen und einen vollen Becher [ROOT.Char.Custom('RegionalDrink')] genieße, habe ich plötzlich ein merkwürdiges Gefühl im Hals."
  murder_outcome.5001.poisoned_drink:0 "Es dauert nicht lange, bis ich an meinem Hals #EMP kratze#! und versuche, zu atmen, zu schreien oder überhaupt Luft durch meine geschwollene und blutende Kehle zu bekommen. Als mein Bewusstsein schwindet, sehe ich noch Blut und Haut unter meinen Nägeln. Ich werde das abwaschen müssen. Wie unziemlich …"
