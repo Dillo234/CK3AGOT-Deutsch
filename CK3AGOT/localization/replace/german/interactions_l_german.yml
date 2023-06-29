@@ -6,6 +6,8 @@
  ANSWER_ACKNOWLEDGE:0 "Verwerfen"
  REPLY_ANSWER_YES:0 "Annehmen"
  REPLY_ANSWER_NO:0 "Ablehnen"
+ REPLY_ANSWER_ALLOW:0 "Allow"
+ REPLY_ANSWER_VETO:0 "Veto"
  ANSWER_MIGHT_SUCCEED:0 "#Z Könnte gelingen#!"
  ANSWER_CANT_SUCCEED:0 "#N Wird #bold nicht#! erfolgreich sein#!"
  ANSWER_WILL_SUCCEED:0 "#P Wird erfolgreich sein#!"
@@ -23,6 +25,12 @@
  ANSWER_WILL_NOT_ACCEPT:2 "#T @cross_icon![CHARACTER.Custom('DE_PRO_PER_S_3P_N')|U] wird nicht annehmen!#!"
  ANSWER_REASON_AUTO_ACCEPT:1 "Wird annehmen"
  ANSWER_REASON_AUTO_ACCEPT_ME:0 "Ich glaube, das ist eine gute Entscheidung"
+ ANSWER_TRILATERAL_INTERMEDIARY_LIEGE_YES:0 "#T Your [liege|E] will allow this: $VALUE|0/%$#!"
+ ANSWER_TRILATERAL_INTERMEDIARY_LIEGE_NO:0 "#T Your [liege|E] will #bold veto#! this: $VALUE|0/%$#!"
+ ANSWER_TRILATERAL_INTERMEDIARY_LIEGE_MAYBE:0 "#T Your [liege|E] #EMP might#! approve this: $VALUE|0/%$#!"
+ ANSWER_TRILATERAL_RECIPIENT_YES:0 "#T The recipient will accept: $VALUE|0/%$#!"
+ ANSWER_TRILATERAL_RECIPIENT_NO:0 "#T The recipient will #bold not#! accept: $VALUE|0/%$#!"
+ ANSWER_TRILATERAL_RECIPIENT_MAYBE:0 "#T The recipient might accept: $VALUE|0/%$#!"
  YESMEN_ANSWER_DESC:0 "Wird wegen des „yesmen“-Cheats angenommen"
  NOMEN_ANSWER_DESC:0 "Wird wegen des „nomen“-Cheats abgelehnt"
  BASE_RELUCTANCE:0 "Zurückhaltung: $VALUE|+0$"
@@ -43,6 +51,8 @@
  liege_modify_vassal_contract_interaction:0 "$modify_vassal_contract$"
  liege_modify_vassal_contract_interaction_desc:0 "[obligations|E] von [recipient.GetShortUINameNoTooltip] Euch gegenüber"
  liege_modify_vassal_contract_interaction_extra_icon:0 "$hook_extra_icon$"
+ CALL_IN_DIARCH_RIGHTS:0 "Use [diarch_powers|E]"
+ liege_modify_vassal_contract_interaction.tt.diarch_powers_used:0 "You use your status as [diarch|E] to countersign some of your own changes"
  modify_vassal_contract_interaction_notification:0 "Modifizierte Vasallenbande"
  vassal_modify_vassal_contract_interaction:0 "$modify_vassal_contract$"
  vassal_modify_vassal_contract_interaction_desc:0 "Eure [obligations|E] gegenüber [recipient.GetShortUINameNoTooltip] neu verhandeln"
@@ -165,6 +175,7 @@
  arrange_marriage_extra_icon:0 "$hook_extra_icon$"
  BETROTHAL_INTERACTION:0 "Verlöbnis arrangieren"
  break_betrothal_hook_used:0 "Ihr könnt ein Verlöbnis nicht lösen, das durch ein [hook|E] eingegangen wurde"
+ break_betrothal_gwedding_ongoing:0 "You cannot break the [grand_wedding_promised|E] [betrothal|E] for a [GetActivityType( 'activity_wedding' ).GetName] that is already ongoing"
  marry_off_interaction:0 "Ehepartner finden"
  marry_off_interaction_desc:0 "Einen Ehepartner für [secondary_actor.GetShortUINameNoTooltip] suchen"
  marry_off_send:0 "Heirat arrangieren"
@@ -188,6 +199,10 @@
  AI_GUARDIAN_SKILL_STEWARDSHIP:0 "[Concept('stewardship', 'Verwaltungs')|E]-Wert des Vormunds: $VALUE|=+0$"
  AI_GUARDIAN_SKILL_INTRIGUE:0 "[intrigue|E]-Wert des Vormunds: $VALUE|=+0$"
  AI_GUARDIAN_SKILL_LEARNING:0 "[Concept('learning', 'Bildungs')|E]-Wert des Vormunds: $VALUE|=+0$"
+ arrange_marriage_interaction.tt.non_loyal_regents_refuse_to_be_married_off.actor:0 "This [actor.GetDiarchTitle] is not [diarch_loyal|E] enough to consent to being married off"
+ arrange_marriage_interaction.tt.non_loyal_regents_refuse_to_be_married_off.recipient:0 "This [recipient.GetDiarchTitle] is not [diarch_loyal|E] enough to consent to being married off"
+ arrange_marriage_interaction.tt.non_loyal_regents_refuse_to_be_married_off.secondary_actor:0 "This [secondary_actor.GetDiarchTitle] is not [diarch_loyal|E] enough to consent to being married off"
+ arrange_marriage_interaction.tt.non_loyal_regents_refuse_to_be_married_off.secondary_recipient:0 "This [secondary_recipient.GetDiarchTitle] is not [diarch_loyal|E] enough to consent to being married off"
 
  educate_child_interaction:0 "Kind unterrichten"
  educate_child_interaction_desc:0 "Ein [ward|E] und einen [guardian|E] an Eurem [court|E] auswählen"
@@ -253,7 +268,7 @@
  ransom_interaction_desc:1 "Lösegeld in Form von [gold|E] oder [favor|E] für die Freilassung von [secondary_recipient.GetShortUINameNoTooltip] fordern"
  msg_ransom_prisoner:0 "Lösegeld akzeptiert"
  recipient_secondary_ransom_interaction:0 "[prisoner|E]"
- pay_ransom_interaction:0 "Auslösen"
+ pay_ransom_interaction:1 "Pay Ransom"
  pay_ransom_interaction_desc:0 "Die Zahlung eines Lösegelds für einen [Concept('imprisoned', 'Eingekerkerten')|E] [Concept('vassal', 'Vasallen')|E] oder [courtier|E] anbieten"
  recipient_secondary_pay_ransom_interaction:0 "[prisoner|E]"
  pay_ransom_interaction_extra_icon:0 "$hook_extra_icon$"
@@ -267,21 +282,27 @@
  public_execution_control_effect:0 "Alle [Concept('domain', 'Domänen')|E]-[counties|E] erhalten #P [actor.MakeScope.ScriptValue('executioner_control_value_tooltip')|0]#! [control|E]"
  public_execution_too_soon_tooltip:0 "@warning_icon!#X Den Bewohnern Eures [Concept('capital', 'Hauptsitzes')|E] wird das nicht gefallen: Die letzte öffentliche Hinrichtung ist noch nicht lange genug her#!"
  recipient_released_from_prison:0 "Gefangener freigelassen"
+ ransomed_by_someone:0 "Your [prisoner.Custom2('RelationToMeShort', SCOPE.sC('payer'))] [payer.GetShortUIName] Ransomed you!@prison_icon!"
+ ransomed_by_someone_third_party:0 "[prisoner_liege_scope.Custom2('RelationToMeShort', SCOPE.sC('prisoner'))|U] Ransomed!@prison_icon!"
+ ransomed_by_someone_third_party_desc:0 "[payer.GetShortUIName] Ransomed your [prisoner_liege_scope.Custom2('RelationToMeShort', SCOPE.sC('prisoner'))] [prisoner.GetShortUIName] from the dungeons of [imprisoner.GetShortUIName]!"
+ RANSOM_GOLD_PAY_OPTION:0 "Pay [gold_i]$RANSOM_COST|0$"
  RANSOM_GOLD_OPTION:0 "Für $RANSOM_COST|0$ [gold_i] Gold"
  ransom_cost_trigger:0 "Lösegeld berägt: $RANSOM_COST|0$"
+ RANSOM_CURRENT_PAY_GOLD_OPTION:0 "Pay [gold_i]$CURRENT_GOLD|0$ #weak (cannot afford full ransom of [gold_i]$RANSOM_COST|0$)#!"
  RANSOM_CURRENT_GOLD_OPTION:0 "Für [gold_i]$CURRENT_GOLD|0$ #weak (kann sich das Lösegeld von [gold_i]$RANSOM_COST|0$ nicht leisten)#!"
  RANSOM_EXTORTIONATE_GOLD_OPTION:0 "Für [gold_i]$EXTORTIONATE_RANSOM_COST|0$ und [prestige_i]$EXTORTIONATE_RANSOM_COST|0$"
  RANSOM_EXTORTIONATE_GOLD_IMPRISONED_PERSPECTIVE_OPTION:0 "Für $EXTORTIONATE_RANSOM_COST|0$ [gold_i] Gold"
  RANSOM_EXTORTIONATE_CURRENT_GOLD_OPTION:0 "Für [gold_i]$CURRENT_GOLD|0$ und [prestige_i]$CURRENT_GOLD|0$ #weak (kann sich volles Lösegeld von [gold_i]$EXTORTIONATE_RANSOM_COST|0$ nicht leisten)#!"
  RANSOM_EXTORTIONATE_CURRENT_GOLD_IMPRISONED_PERSPECTIVE_OPTION:0 "Für [gold_i]$CURRENT_GOLD|0$ #weak (kann sich volles Lösegeld von [gold_i]$EXTORTIONATE_RANSOM_COST|0$ nicht leisten)#!"
 
- RANSOM_FAVOR_OPTION:0 "Für einen Gefallen"
+ RANSOM_OWE_FAVOR_OPTION:0 "Owe a [hook_i][hook|E]"
+ RANSOM_FAVOR_OPTION:1 "For a [hook_i][hook|E]"
  ALREADY_SENT_GIFT_WARNING:0 "@warning_icon!#X Ihr habt [recipient.GetShortUIName] schon ein Geschenk geschickt; ein weiteres wird den vorhandenen [opinion|E]-Modifikator #underline überschreiben#!.#!"
  ALREADY_SENT_GIFT_CULTURAL_ACCEPTANCE_WARNING:0 "@warning_icon!#X Da Ihr erst unlängst ein Geschenk geschickt habt, werdet Ihr die Kulturakzeptanz nicht erhöhen"
  BANISH_TYRANNY_WARNING:0 "@warning_icon!#X Dies ist ein Akt der [tyranny|E], durch den Eure Untertanen #V [EmptyScope.ScriptValue('banishment_tyranny_gain')|0]#! [opinion|E] von Euch verlieren#!"
  REVOKE_TITLE_TYRANNY_WARNING:0 "@warning_icon!#X Dies ist ein Akt der [tyranny|E], durch den Eure Untertanen #V [EmptyScope.ScriptValue('revoke_title_tyranny_gain')|0]#! [opinion|E] von Euch verlieren werden#!"
  REVOKE_VASSAL_TYRANNY_WARNING:0 "@warning_icon!#X Dies ist ein Akt der [tyranny|E], durch den Eure Untertanen #V [EmptyScope.ScriptValue('revoke_vassal_tyranny_gain')|0]#! [opinion|E] von Euch verlieren#!"
- IS_ALLOWED_TO_IMPRISON_DESC:4 "[Select_CString(recipient.IsLocalPlayer, 'Ihr', recipient.GetShortUIName)|U] [Select_CString(recipient.IsLocalPlayer, 'seid', 'ist')] bekanntermaßen ein [criminal|E] #weak ([recipient.GetImprisonmentReasons(actor.Self)])#!, sodass [imprisoner.GetShortUIName] [Select_CString(recipient.IsLocalPlayer, 'Euch', recipient.GetShortUIName)] einkerkern kann, ohne als [tyrant|E] zu gelten"
+ IS_ALLOWED_TO_IMPRISON_DESC:4 "[Select_CString( recipient.IsLocalPlayer, 'You', recipient.GetShortUIName )] [Select_CString( recipient.IsLocalPlayer, 'are', 'is' )] a known [criminal|E] #weak ([recipient.GetImprisonmentReasons( actor.Self )])#!, allowing [imprisoner.GetShortUIName] to imprison [Select_CString( recipient.IsLocalPlayer, 'you', recipient.GetHerHim )] without being viewed as a [tyrant|E]"
  IS_ALLOWED_TO_EXECUTE_DESC:2 "[recipient.GetShortUIName|U] ist bekanntermaßen ein [criminal|E] #weak ([recipient.GetExecuteReasons(actor.Self)])#!, was es Euch erlaubt, [recipient.Custom('DE_PRO_PER_S_3P_A')] hinzurichten, ohne als [tyrant|E] gesehen zu werden"
  IS_ALLOWED_TO_EXECUTE_HOSTILE_RELIGION_DESC:2 "Der Glaube von [victim.GetShortUIName] ([victim.GetFaith.GetName]) wird von meinem Glauben als $hostility_hostile_tooltippable$ oder $hostility_evil_tooltippable$ betrachtet, was es mir erlaubt, [victim.Custom('DE_PRO_PER_S_3P_A')] hinzurichten, ohne als [tyrant|E] gesehen zu werden."
  IS_ALLOWED_TO_IMPRISON_NO_RECIPIENT_DESC:2 "#weak Da [Select_CString(imprisoner.IsLocalPlayer, 'ich', imprisoner.GetShortUIName)] einen guten Grund [Select_CString(imprisoner.IsLocalPlayer, 'habe', 'hat')], wird niemand [Select_CString(imprisoner.IsLocalPlayer, 'mich', imprisoner.GetShortUIName)] für einen [Concept('tyrant', 'Tyrannen')|E] halten#!"
@@ -302,6 +323,7 @@
  MOVE_PRISONER_TO_HOUSE_ARREST:0 "[recipient.GetShortUIName|U] wird unter [house_arrest|E] gestellt. Dadurch entfallen die negative Wirkung des Kerkers auf [recipient.Custom('DE_PRO_POS_S_3P')]e [health|E] sowie die Ablehnung [recipient.Custom('DE_PRO_POS_S_3P')]er [close_family|E]."
  RELEASE_DEMAND_CONVERSION:0 "Bekehrung verlangen"
  CANNOT_DEMAND_CONVERSION_FROM_RELIGIOUS_HEAD:1 "Ihr könnt von einem [head_of_faith|E] keine Bekehrung verlangen"
+ CANNOT_DEMAND_HOLY_ORDER_MASTER_CONVERSION:0 "Cannot Demand the Conversion of the Leader of a [holy_order|E]"
  CANNOT_DEMAND_CONVERSION_FROM_UNSUBORDINATE_LANDED_RULER:0 "Ihr könnt von einem [ruler|E] mit [landed|E], der nicht Euer [vassal|E] ist, keine Bekehrung verlangen"
  RELEASE_RENOUNCE_CLAIMS:0 "[claims|E] abschwören"
  RELEASE_RENOUNCE_CLAIMS_DESC:1 "[recipient.GetShortUIName] verliert alle [claims|E] auf Titel in Eurem Reich"
@@ -347,7 +369,9 @@
  EXECUTION_PUBLIC:0 "Öffentliche Hinrichtung"
  EXECUTION_SACRIFICE:0 "Opferung"
  MY_FAITH_HAS_THE_FIXED_APPOINTMENT_CLERGY_DOCTRINE:0 "Mein [faith|E] #weak ([Character.GetFaith.GetName])#! hat „Klerikal, auf Lebenszeit“ in der Doktrin Klerikale Ernennung"
- vassal_contract_forbids_revocation:2 "Einem [Concept('vassal', 'Vasallen')], der [feudal_contract|E] mit "#high $title_revocation_rights_protected$#!" könnt Ihr keine [titles|E] aberkennen"  #AGOT Changed, Jizya reference removed. #Selbst geschrieben/abgetippt
+ #AGOT Modified, removed jizya reference
+ # vassal_contract_forbids_revocation:2 "You cannot revoke [titles|E] from a [vassal|E] who has a [feudal_contract|E] with #high $title_revocation_rights_protected$#! or a [contract|E] with #high $jizya_special_rights_granted$#!"
+ vassal_contract_forbids_revocation:2 "You cannot revoke [titles|E] from a [vassal|E] who has a [feudal_contract|E] with #high $title_revocation_rights_protected$#!"
  I_CANNOT_IMPRISON_ALLY_WITHOUT_REASON:1 "Ihr könnt einen [Concept('ally', 'Verbündeten')|E] nicht ohne Grund einkerkern"
  TARGET_WAS_RECENTLY_RANSOMED:0 "[TARGET_CHARACTER.GetShortUIName|U] wurde unlängst ausgelöst"
  I_CANNOT_REVOKE_TITLE_FROM_ALLY_WITHOUT_REASON:2 "Ihr könnt einem [Concept('ally', 'Verbündeten')|E] keinen Titel ohne [revoke_title_reason|E] aberkennen"
@@ -403,6 +427,7 @@
  THEY_CAN_EDUCATE:0 "[TARGET_CHARACTER.GetShortUIName|U] kann [CHARACTER.GetShortUIName] unterweisen"
  NOT_I_HAVE_VALID_VASSAL_TO_TRANSFER:1 "Ihr habt keine zulässigen [Concept('vassal', 'Vasallen')|E], die Ihr [TARGET_CHARACTER.GetShortUIName] übertragen könntet"
  NOT_HAS_VASSAL_TO_RETRACT:2 "[CHARACTER.GetShortUIName|U] hat keine [vassals|E], die Ihr entziehen könntet"
+ CANNOT_GRANT_OWN_DIARCH_AS_VASSAL_THIRD:0 "You cannot grant away your [CHARACTER.GetDiarchTitle]"
  IS_AT_WAR_WITH_VASSAL_FIRST:1 "Ihr seid im Krieg mit [TARGET_CHARACTER.GetShortUIName]"
  IS_AT_WAR_WITH_VASSAL_THIRD:0 "[CHARACTER.GetShortUIName|U] ist im Krieg mit [TARGET_CHARACTER.GetShortUIName]"
  IS_AT_WAR_WITH_SUB_VASSAL_FIRST:1 "Ihr seid im Krieg mit einem Vasallen von [TARGET_CHARACTER.GetShortUIName]"
@@ -444,7 +469,6 @@
  NOT_DIPLOMATICALLY_AVAILABLE:0 "[CHARACTER.GetShortUIName|U] ist diplomatisch nicht verfügbar"
  YEARLY_1010_ABDUCTED:0 "[CHARACTER.GetShortUIName|U] ist entführt worden und [CHARACTER.Custom('DE_PRO_POS_S_3P')] Aufenthaltsort ist unbekannt"
  YEARLY_1010_ABDUCTOR:0 "[CHARACTER.GetShortUIName|U] ist auf eine Geheimmission aufgebrochen und [CHARACTER.Custom('DE_PRO_POS_S_3P')] Aufenthaltsort ist unbekannt"
- WHEREABOUTS_UNKNOWN:0 "[CHARACTER.GetShortUIName|U]s Aufenthaltsort ist unbekannt."  #Selbst geschrieben/abgetippt
 
 
  #Blackmail Interaction Descs
@@ -475,13 +499,13 @@
  BLACKMAIL_INTERACTION_PARANOID_ACCEPTANCE:0 "[recipient.Custom('DE_PRO_PER_S_3P_N')|U] ist Paranoid: $VALUE|=+0$"
 
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_CHILD_ACTOR:0 "\nIch weiß, dass [father.GetShortUIName] nicht der wahre Vater von [secret_target.GetShortUIName] ist, sondern dass ich es bin!"
- BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_CHILD_OTHER:0 "\nIch weiß, dass [father.GetShortUIName] nicht der wahre Vater von [secret_target.GetShortUIName] ist, sondern dass es [real_father.GetShortUIName|U] ist!"
+ BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_CHILD_OTHER:1 "\nIch weiß, dass [father.GetShortUIName] nicht der wahre Vater von [secret_target.GetShortUIName] ist, sondern dass es [secret_target.GetRealFather.GetShortUIName|U] ist!"
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_CHILD_TARGET_ACTOR:0 "\nIch weiß, dass Ihr nicht das Kind von [father.GetShortUIName] seid, sondern meines!"
- BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_CHILD_TARGET_OTHER:0 "\nIch weiß, dass [father.GetShortUIName] nicht Euer wahrer Vater ist, sondern dass [real_father.GetShortUIName] es ist!"
+ BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_CHILD_TARGET_OTHER:1 "\nIch weiß, dass [father.GetShortUIName] nicht Euer wahrer Vater ist, sondern dass [secret_target.GetRealFather.GetShortUIName] es ist!"
  BLACKMAIL_NOTIFICATION_SECRET_UNMARRIED_ILLEGITIMATE_CHILD_ACTOR:0 "\nIch weiß, dass ich der wahre Vater von [secret_target.GetShortUIName] bin."
- BLACKMAIL_NOTIFICATION_SECRET_UNMARRIED_ILLEGITIMATE_CHILD_OTHER:0 "\nIch weiß, dass [real_father.GetShortUIName] der wahre Vater von [secret_target.GetShortUIName] ist."
+ BLACKMAIL_NOTIFICATION_SECRET_UNMARRIED_ILLEGITIMATE_CHILD_OTHER:1 "\nIch weiß, dass [secret_target.GetRealFather.GetShortUIName] der wahre Vater von [secret_target.GetShortUIName] ist."
  BLACKMAIL_NOTIFICATION_SECRET_UNMARRIED_ILLEGITIMATE_CHILD_TARGET_ACTOR:0 "\nIch weiß, dass ich Euer wahrer Vater bin."
- BLACKMAIL_NOTIFICATION_SECRET_UNMARRIED_ILLEGITIMATE_CHILD_TARGET_OTHER:0 "\nIch kenne die Identität Eures wahren Vaters: [real_father.GetShortUIName]!"
+ BLACKMAIL_NOTIFICATION_SECRET_UNMARRIED_ILLEGITIMATE_CHILD_TARGET_OTHER:1 "\nIch kenne die Identität Eures wahren Vaters: [secret_target.GetRealFather.GetShortUIName]!"
 
  # Communion Rite interaction Descs
  seek_indulgences_interaction:0 "Ablässe erbitten"
@@ -492,7 +516,7 @@
  declaration_of_repentance_interaction_extra_icon:0 "$hook_extra_icon$"
  declaration_of_repentance_interaction_desc:0 "Zahlt [prestige|E] als Akt der Unterwerfung, um Eure [excommunication|E] aufheben zu lassen"
  declaration_of_repentance_interaction_desc_hook:0 "#weak (oder nutzt ein [hook|E] gegen [recipient.GetShortUIName] anstelle des Prestiges)#!"
- DECLARATION_OF_REPENTANCE_HOOK:0 "[hook|E] einsetzen"
+ DECLARATION_OF_REPENTANCE_HOOK:1 "[hook_i][hook|E] einsetzen"
  DECLARATION_OF_REPENTANCE_VIRTUES:0 "Ihr habt [Concept('virtuous', 'Tugendhafte')|E] [traits|E]: $VALUE|=+0$"
  DECLARATION_OF_REPENTANCE_SINS:0 "Ihr habt [Concept('sinful', 'Sündhafte')|E] [traits|E]: $VALUE|=+0$"
 
@@ -513,7 +537,7 @@
  request_excommunication_interaction_extra_icon:0 "$hook_extra_icon$"
  request_excommunication_interaction_desc:0 "Die scheußlichen Missetaten von [secondary_recipient.GetTitledFirstName] blieben viel zu lange ungesühnt. Ich werde [recipient.GetTitledFirstName] ersuchen, [secondary_recipient.Custom('DE_PRO_PER_S_3P_A')] zu [excommunicate|E]. So wird [secondary_recipient.GetTitledFirstName] aus dem [actor.GetFaith.GetAdjective|l]en [Concept('faith', 'Glauben')|E] ausgeschlossen und kommt hoffentlich zur Besinnung."
  request_excommunication_interaction_message:0 "[requesting_character.GetShortUIName|U] hat es irgendwie geschafft, [religious_head.GetShortUIName] davon zu überzeugen, mich zu [excommunicate|E]!"
- EXCOMMUNICATION_HOOK:0 "[hook|E] einsetzen"
+ EXCOMMUNICATION_HOOK:1 "[hook_i][hook|E] einsetzen"
  EXCOMMUNICATION_OPINION:0 "[recipient.GetShortUIName|U] hat eine positive Meinung von [secondary_recipient.GetShortUIName]: $VALUE|=+0$"
  EXCOMMUNICATION_VIRTUES:0 "[secondary_recipient.GetShortUIName|U] hat [Concept('virtuous', 'Tugendhafte')|E] [traits|E]: $VALUE|=+0$"
  EXCOMMUNICATION_SINS:0 "[secondary_recipient.GetShortUIName|U] hat [Concept('sinful', 'Sündhafte')|E] [traits|E]: $VALUE|=+0$"
@@ -530,7 +554,7 @@
  TAKE_THE_VOWS_TRUSTING:0 "[GetTrait('trusting').GetName(recipient.Self)]: $VALUE|=+0$"
  TAKE_THE_VOWS_RECLUSIVE:0 "[GetTrait('reclusive').GetName(recipient.Self)]: $VALUE|=+0$"
  TAKE_THE_VOWS_SCHOLAR:0 "[GetTrait('scholar').GetName(recipient.Self)]: $VALUE|=+0$"
- TAKE_THE_VOWS_MYSTIC:0 "[GetTrait('mystic_1').GetName(recipient.Self)]: $VALUE|=+0$"
+ TAKE_THE_VOWS_MYSTIC:1 "[GetTrait('lifestyle_mystic').GetName(recipient.Self)]: $VALUE|=+0$"
  TAKE_THE_VOWS_ROWDY:0 "[GetTrait('rowdy').GetName(recipient.Self)]: $VALUE|=+0$"
  TAKE_THE_VOWS_BOSSY:0 "[GetTrait('bossy').GetName(recipient.Self)]: $VALUE|=+0$"
  TAKE_THE_VOWS_PENSIVE:0 "[GetTrait('pensive').GetName(recipient.Self)]: $VALUE|=+0$"
@@ -679,8 +703,8 @@
  TEST_INTERACTION_NOT_IMPLEMENTED:0 "Testinteraktion – nicht implementiert (N/A)"
 
  #Offer Vassalization/Fealty
- offer_vassalization_shattered_world_tt:0 "Zerbrochene Welt - Gleichgewicht: $VALUE|=+0$"  #Selbst geschrieben/abgetippt
  offer_vassalization_true_ruler_perk_tt:0 "Ihr habt [GetPerk('true_ruler_perk').GetName(GetPlayer)]: $VALUE|=+0$"
+ offer_vassalization_emissary_accolade_tt:0 "You employ at least one politically gifted $knight_culture_player_no_tooltip_lowercase$"
  offer_vassalization_interaction_aibehavior_differentfaith_tt:0 "Ihr gehört einem anderen [Concept('faith', 'Glauben')|E] an: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_culture_tt:0 "Ihr gehört einer anderen [culture|E] an: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_culture_group_tt:2 "Ihr habt eine andere [heritage|E]: $VALUE|=+0$"
@@ -717,6 +741,7 @@
  speaks_same_language_interaction_reason:1 "Ihr sprecht die [recipient.GetCulture.GetLanguage.GetName|l]e [language|E]: $VALUE|=+0$"
  foreign_realm_court_language_non_spoken_interaction_reason:0 "Das Reich von [recipient.GetShortUIName] ist fremdländisch und teilt Eure [court_language|E] #weak (und Ihr persönlich beherrscht [actor.GetCourtLanguage.GetNameNoTooltip] nicht)#!: $VALUE|=+0$"
  foreign_realm_court_language_spoken_interaction_reason:0 "Das Reich von [recipient.GetShortUIName] ist fremdländisch und teilt Eure [court_language|E] #weak (und Ihr persönlich beherrscht [actor.GetCourtLanguage.GetNameNoTooltip])#!: $VALUE|=+0$"
+ just_widowed_interaction_reason:0 "[recipient.GetShortUIName] is suspicious of your previous spouse dying during your Grand Wedding: $VALUE|=+0$"
  offer_fealty_interaction_aibehavior_amkingtier_tt:0 "Ihr seid [actor.GetTitleTierName]: $VALUE|=+0$"
  IS_NEIGHBOR_OR_DEJURE_LIEGE:0 "[TARGET_CHARACTER.GetShortUINameNotMe] muss ein Nachbar oder der [de_jure|E]-Lehnsherr Eures Hauptsitzes sein"
  OFFER_VASSALIZATION_INTERACTION_NOTIFICATION:1 "Ich möchte Euch als neuer Lehnsherr unter meine Fittiche und meinen Schutz nehmen. Im Gegenzug verlange ich von Euch nur den Lehnseid …"
@@ -867,7 +892,7 @@
  char_interaction.0182.desc:0 "Ich werde meinen Glauben niemals ablegen und stattdessen lieber mein eigenes Haus gründen!"
  char_interaction.0182.a:0 "Wie enttäuschend …"
 
- #char_interaction.0190.desc:1 "Wohlan denn. Ich werde den [actor.GetFaith.GetAdjective|l]en Glauben annehmen, auch wenn es sich seltsam anfühlt, das Vertraute abzulegen."  #Selbst geschrieben/abgetippt
+ char_interaction.0190.desc:1 "Very well, I will embrace the [actor.GetFaith.GetAdjective] Faith though it will feel strange to abandon so much that is familiar."
  char_interaction.0191.desc:0 "Meine Glaube ist der Kern meines Wesens: Ich werde ihn niemals aufgeben."
 
  char_interaction.0200.desc:0 "Ich bin zu dem Schluss gekommen, dass Ihr nicht über ausreichend Würde und Verantwortungsbewusstsein für den Titel [landed_title.GetName] verfügt. Daher entziehe ich Euch hiermit diesen Titel zum Wohl des Reiches."
@@ -919,6 +944,7 @@
  marriage_interaction.0010.mid.f_desc:0 "\n\nGern soll [secondary_actor.Custom('DE_PRO_POS_P_2P_N')|U] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))] [secondary_actor.GetFirstName] den heiligen Bund der Ehe mit mir eingehen, wenn es an der Zeit ist."
  marriage_interaction.0010.mid.g_desc:0 "\n\n[secondary_actor.Custom('DE_PRO_POS_P_2P_N')|U] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))] [secondary_actor.GetFirstName] und ich werden das beste Paar #EMP überhaupt#! sein!"
  marriage_interaction.0010.mid.h_desc:0 "\n\nWir beide werden das beste Paar #EMP überhaupt#! sein!"
+ marriage_interaction.0010.gwedding.desc:0 "\n\nI also look forward to the promised [GetActivityType('activity_wedding').GetName]; try not to disappoint me."
 
 # Long life and many children
  marriage_interaction.0010.ending.a_desc:0 "\n\nMöge [recipient.GetFaith.HighGodName] ihnen ein langes Leben und viele Kinder schenken!"
@@ -1131,7 +1157,7 @@
  AI_MY_LIEGES_KNIGHT:3 "[recipient.GetShortUIName] ist [recipient.GetLiege.Custom('KnightCulture')] [recipient.Custom('DE_PRO_POS_S_3P')]es Lehnsherrn: $VALUE|=+0$"
  AI_MY_LIEGES_COMMANDER:2 "[recipient.GetShortUIName] ist Befehlshaber [recipient.Custom('DE_PRO_POS_S_3P')]es Lehnsherrn: $VALUE|=+0$"
  AI_ON_THE_COUNCIL:1 "[recipient.GetShortUIName] ist im Rat: $VALUE|=+0$"
- AI_COURT_PHYSICIAN:0 "[recipient.GetShortUIName] ist Maester [recipient.Custom('DE_PRO_POS_S_3P')]es Lehnsherrn: $VALUE|=+0$"  #Selbst geschrieben/abgetippt
+ AI_COURT_PHYSICIAN:0 "[recipient.GetShortUIName] ist Hofarzt [recipient.Custom('DE_PRO_POS_S_3P')]es Lehnsherrn: $VALUE|=+0$"  #Selbst geschrieben/abgetippt
  AI_LEAVING_MY_SPOUSE:1 "[recipient.GetShortUIName] würde den eigenen Ehepartner verlassen: $VALUE|=+0$"
  AI_LEAVING_MY_CHILD:1 "[recipient.GetShortUIName] würde das eigene Kind verlassen: $VALUE|=+0$"
  AI_MARRIED_MATRILINIALLY:1 "[recipient.GetShortUIName] ist in einer [Concept('matrilineal', 'Matrilinearen')|E] Ehe: $VALUE|=+0$"
@@ -1152,6 +1178,7 @@
  COVER_TRAVEL_EXPENSES:0 "Bezahlt für die Reisekosten"
  AI_INSPIRED:0 "[inspired|E]: $VALUE|=+0$"
  AI_SPONSORED_INSPIRATION:0 "Finanzierte [inspiration|E]: $VALUE|=+0$"
+ WASTREL_ACCOLADE_BONUS:0 "Your [acclaimed_knight|E] makes life at court look enticing: $VALUE|=+0$"
 
  #Send child to holy order
  take_vows_interaction:0 "Zu Gelübde auffordern"
@@ -1187,7 +1214,7 @@
  ALREADY_HAS_AN_ALLIANCE_DEAL:1 "Ihr könnt nur ein vorgeschlagenes [alliance|E] aktiv haben"
  NOT_ALREADY_HAS_AN_ALLIANCE_DEAL:0 "Ihr habt schon ein vorgeschlagenes [alliance|E] aktiv"
  negotiate_alliance_effect_tooltip:0 "[recipient.GetTitledFirstName] und ich sind ein wechselseitiges [alliance|E] eingegangen"
- negotiate_alliance_effect_recipient_tooltip:0 "Geht ein wechselseitiges [alliance|E] mit Euch ein"
+ negotiate_alliance_effect_recipient_tooltip:1 "Geht ein wechselseitiges [alliance|E] mit [actor.GetTitledFirstName] ein"
 
  char_interaction.0234.desc:0 "Ich fordere Euch auf, unsere ausstehende Vereinbarung zu ehren, und Euch mir formell als Verbündeter anzuschließen."
  char_interaction.0234.a:0 "Es scheint, dass mir keine Wahl bleibt …"
@@ -1267,10 +1294,12 @@
 
  character_interaction_on_cooldown:0 "$INTERACTION_NAME$ bis zum [DATE.GetStringLong] nicht verfügbar"
  character_interaction_against_on_cooldown:0 "$INTERACTION_NAME$ kann bis zum [DATE.GetStringLong] nicht mehr gegen [TARGET_CHARACTER.GetShortUIName] eingesetzt werden"
+ character_interaction_recipient_recieve_on_cooldown:0 "$character_interaction_against_on_cooldown$"
 
  NOT_offer_fealty_neighboring_condition:0 "[CHARACTER.GetShortUIName|U] ist weder Euer De-jure-Lehnsherr noch ein benachbarter Lehnsherr"
 
  NOT_character_interaction_within_diplomatic_range:0 "[TARGET_CHARACTER.GetUIName] ist zu weit von [CHARACTER.GetUIName] entfernt für Interaktionen"
+ NOT_character_can_not_target_self:1 "Cannot target yourself"
 
 
 
@@ -1360,6 +1389,10 @@
  INTERACTION_DECEITFUL:0 "[GetTrait('deceitful').GetName(recipient)]: $VALUE|=+0$"
  INTERACTION_ARROGANT:0 "[GetTrait('arrogant').GetName(recipient)]: $VALUE|=+0$"
  INTERACTION_STUBBORN:0 "[GetTrait('stubborn').GetName(recipient)]: $VALUE|=+0$"
+ INTERACTION_TRUSTING:0 "[GetTrait('trusting').GetName( recipient )]: $VALUE|=+0$"
+ INTERACTION_LOYAL:0 "[GetTrait('loyal').GetName( recipient )]: $VALUE|=+0$"
+ INTERACTION_DISLOYAL:0 "[GetTrait('disloyal').GetName( recipient )]: $VALUE|=+0$"
+ INTERACTION_INTRIGUE_EDUCATION:0 "[intrigue] [education_trait|E]: $VALUE|=+0$"
 
  gift_artifact_interaction:0 "Artefakt schenken"
  gift_artifact_interaction_desc:0 "[recipient.GetShortUINameNoTooltip] ein Artefakt geben, um [recipient.Custom('DE_PRO_POS_S_3P')]e Meinung von Euch zu verbessern"
@@ -1407,8 +1440,6 @@
  they_banned_from_combat_old_and_frail:0 "Sie sind alt und gebrechlich"
  i_banned_from_combat_old_and_frail:0 "Ich bin alt und gebrechlich"
 
- #reforge_artifact_durability_desc: "The artifact's durability is #TODO_CD"
- #reforge_artifact_rarity_desc: "The artifact's rarity is #TODO_CD"
  abandon_hook_interaction:0 "Druckmittel aufgeben"
  abandon_hook_interaction_desc:0 "Gibt ein Druckmittel auf, das Ihr gegen [recipient.GetShortUINameNoTooltip] habt, um etwas [stress|E] zu verlieren."
  need_non_house_head_hook:0 "Ihr könnt kein [hook|E] einsetzen, das Ihr aufgrund Eures Amts als [house_head|E] erhalten habt."
@@ -1446,6 +1477,7 @@
  divorce_character_dynast_request_rel_head_interaction_decline_notification:0 "Ehescheidung abgelehnt"
  divorce_character_dynast_request_interaction_title:0 "Scheidung durchgeführt"
  MATCH_OFFER_INBREEDING_WARNING:0 "@warning_icon!#X [MatchOffer.GetInbreedingDesc]#!"
+ MATCH_OFFER_NO_ALLIANCES:0 "This Marriage will not result in an [alliance|E]"
  FOREIGN_PRISONER_RECOVATION_TT:0 "[TARGET_CHARACTER.GetShortUIName] verweigert Eure Titel-Aberkennung, während er von jemand anderem eingekerkert ist."
  BARON_RECOVATION_TT:0 "[vassals|E] vom [barony|E]-[title_tier|E] können eine [revocation|E] nicht verweigern"
  PRISONER_RECOVATION_TT:0 "[prisoners|E] in Eurem [dungeon|E] können eine [revocation|E] nicht verweigern"
@@ -1536,4 +1568,70 @@
  artifact_gift_useless_banner_tt:0 "@warning_icon! #X [house|E]- oder [dynasty|E]-Banner ohne Verwandtschaft#!"
  artifact_gift_claimed_tt:0 "#positive_value [recipient.GetTitledFirstName] hat einen [artifact_claim|E] ([target.GetName])#!"
  can_be_granted_titles_interaction_tt:0 "[recipient.GetWomenMen|U] müssen in Eurem [Concept('faith', 'Glauben')|E] ([actor.GetFaith.GetName]) ein dominantes, gleichgestelltes oder klerikales Geschlecht sein"
+
+ diarch_imprison_reason_for_player.tt:1 "@portrait_punishment_icon! #weak Crime — You are allowed to rightfully imprison [recipient.GetShortUIName], if the opportunity presents itself#!"
+
+ char_interaction.0261.desc:0 "By the authority invested in me by [intermediary.GetTitledFirstName], I hereby strip you of your false rule of the [landed_title.GetName]. You are to relinquish the title to me in custody for the Crown, effective immediately."
+ char_interaction.0261.a:0 "An outrageous abuse of power!"
+
+ char_interaction.0262.desc:0 "[intermediary.GetTitledFirstName] will be hearing about this, but $char_interaction.0199.desc$ "
+ char_interaction.0262.a:0 "[intermediary.GetSheHe|U] already has."
+
+ char_interaction.0263.desc:0 "You are not the [intermediary.GetTitleAsNameNoTooltip] and I do not bow to your petty whims. If you want the [landed_title.GetName], you'll have to take it by force."
+ char_interaction.0263.result.criminal:0 "If [actor.GetShortUINameNoTooltip] [Select_CString(actor.IsLocalPlayer, 'back', 'backs' )] down"
+ char_interaction.0263.result.war:0 "If [actor.GetShortUINameNoTooltip] [Select_CString(actor.IsLocalPlayer, 'press', 'presses' )] the claim"
+ char_interaction.0263.a:0 "It's treason, then."
+ char_interaction.0263.a.tt:0 "Your crimes are reported to [intermediary.GetTitledFirstName]"
+ char_interaction.0263.b:0 "You think I'm bluffing? To war!"
+
+ char_interaction.0271.desc:0 "By the authority of the office granted to me by [intermediary.GetTitledFirstName], I am righting some trivial inconsistencies in the realm's borders.\n\nYou are commanded to surrender the vassalage of [intermediary.GetTitledFirstName] to [intermediary.GetHerHis] rightful liege. Me."
+ char_interaction.0271.a:0 "I cannot refuse, but if I #EMP could#!..."
+
+ char_interaction.0272.desc:0 "You overstep the bounds of your authority, but I cannot resist the office of my [intermediary.GetTitleAsName], even when it's only #EMP you#! exercising it.\n\nI accept your retraction of my vassal."
+ char_interaction.0272.a:0 "You never had a choice, [recipient.GetFirstNameNoTooltip]."
+
+ char_interaction.0273.desc:0 "I swore an oath to protect my vassals, and that includes from the depredations of the likes of #EMP you#!.\n\nYou can prize [intermediary.GetTitledFirstName] and [intermediary.GetHerHis] lands from me in battle or you can scarper back to whatever [recipient.GetFaith.random_GoodGodNames]-forsaken hole you lair in."
+ char_interaction.0273.result.criminal:0 "$char_interaction.0263.result.criminal$"
+ char_interaction.0273.result.war:0 "$char_interaction.0263.result.war$"
+ char_interaction.0273.a:0 "You'll regret this, [recipient.GetFirstNameNoTooltip]."
+ char_interaction.0273.a.tt:0 "$char_interaction.0263.a.tt$"
+ char_interaction.0273.b:0 "What a #EMP pleasant#! invitation!"
+
+
+ char_interaction.0281.desc:0 "By the authority of the office [intermediary.GetTitledFirstName] has granted me, I am placing you under arrest on suspicion of iniquitous activities.\n\nSurrender yourself to my soldiery or face sanction."
+ char_interaction.0281.a:0 "I have no choice."
+
+ char_interaction.0282.desc:0 "Unlike my actions, your demands are criminal.\n\nFor the good of the realm, I will comply, but know that I will not forget this slight."
+ char_interaction.0282.a:0 "Where did I give the impression I wanted you to #EMP forget#!?"
+
+ char_interaction.0283.desc:0 "Turn myself over to your mercy? I don't think so. If you want to toss me in a gaol, you can come and grab me personally.\n\nAlthough, if you insist, perhaps I #EMP can#! come to you... if you'll permit my bringing a few #EMP friends#!."
+ char_interaction.0283.a:0 "You'll regret this, eventually."
+ char_interaction.0283.a.tt:0 "$char_interaction.0263.a.tt$"
+ char_interaction.0283.b:0 "I don't think you understand. This was not a request."
+
+ char_interaction.0291.desc.positive:0 "Though I of course trust you to represent my interests, you have erred here. [recipient.GetTitledFirstName] is a loyal and valued subject, and you should direct your energies elsewhere."
+ char_interaction.0291.desc.negative:0 "Can't you do #EMP anything#! right? The land's slowest simpleton could see that [recipient.GetTitledFirstName] isn't what you should be focusing on. Stop bullying better vassals and do your job."
+ char_interaction.0291.desc.neutral:0 "It is not currently in my interests to allow this action. I trust you understand and will continue to rule with dignity in my stead otherwise."
+ char_interaction.0291.a:0 "I am sure my liege knows best."
+ char_interaction.0291.b:0 "Insolent whelp!"
+ char_interaction.0291.c:0 "Drooling fool!"
+ char_interaction.0291.d:0 "Doddering idiot!"
+ char_interaction.0291.e:0 "I. Hate. This. #EMP [intermediary.GetWomanMan|U].#!"
+ char_interaction.0291.f:0 "That #EMP bastard#!."
+ char_interaction.0291.g:0 "I hope you rot in your confinement!"
+ char_interaction.0291.h:0 "[intermediary.GetSheHe|U] surely won't stop me next time..."
+
+ msg_remove_regent_cb_invalidated_message:0 "[defender.GetShortUIName] is no longer [regent|E], rendering the war moot"
  AI_GUARDIAN_FEUD_HESITANCE:0 "Will Kind nicht an [house_feud|E]-[house|E] geben: $VALUE|=+0$"
+
+ DIARCH_SHOULD_EDUCATE_DIARCH_TO_LIEGE:0 "Appropriate for [regent|E]"
+ DIARCH_SHOULD_EDUCATE_LIEGE_TO_DIARCH:0 "Responsibility as [regent|E]"
+
+ destroy_artifact_interaction:2 "Destroy Artifact"
+ destroy_artifact_interaction_desc:0 "This artifact will be destroyed"
+
+ interactions_general.tt.must_select_one_option:0 "You must select at least one option"
+
+ find_suitable_accolade_successor_interaction:0 "Seek Worthy Accolade Successor"
+ find_suitable_accolade_successor_interaction_desc:0 "Call for an eligible [knight|e] to join your [court|e]"
+ find_suitable_accolade_successor_interaction.tt:0 "A [knight|e] who fulfills this [accolade|e]'s requirements will join your [court|e] within #high 6 months#!\n\n@alert_icon! #alert_trial Seek Worthy Accolade Successor will be unavailable for #high 2 years#!#!"
