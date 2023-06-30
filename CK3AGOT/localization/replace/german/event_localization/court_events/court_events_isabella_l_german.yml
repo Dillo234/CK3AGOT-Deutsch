@@ -1,5 +1,6 @@
 ﻿l_german:
  
+
  ##### A diplomat bleeds to death in your throne room by Isabella Welch
 
  court.4001.t:0 "Eine Fleischwunde"
@@ -12,17 +13,17 @@
  court.4001.toast:0 "[bleeding_diplomat.GetName] stirbt"
  court.4001.toast_desc:0 "[bleeding_diplomat.GetName] ist auf Eurem flauschigen Teppich verblutet."
  court.4001.cure_toast:0 "Arzt heilt Diplomat"
- 
+
 ##### All-male-choirs by Isabella Welch
- 
+
  court.4100.t:0 "Knappen für [GetPlayer.Custom('KnightCulturePluralNoTooltip')]"
  court.4100.desc:0 "Mein[court_musician.Custom('DE_END_NOU_S_GS_N')] Hofmusiker[court_musician.Custom('DE_PRO_PER_S_3P_N')] kommt in einem Rhythmus hüpfend, den scheinbar nur [court_musician.Custom('DE_PRO_PER_S_3P_N')] hören kann, auf mich zu.\n\n„M[ROOT.Char.Custom('DE_ART_IND_N')] [ROOT.Char.GetLadyLord], dürfte ich um Eure Aufmerksamkeit bitten? Ich habe einen unvergleichlichen Männerchor vorbereitet! Durch ein von mir neu entwickeltes Vorgehen singen sie nicht nur, sondern tragen auch Strumpfhosen und verzierte Schambergen über ihren schimmernden Lenden und tanzen vollkommen im Gleichtakt! Alles natürlich als Teil eines Lobliedes zu Ehren der höchsten Mächte. Ich bin mir sicher, dass diese Darstellung, solltet Ihr sie finanzieren, den Damen des Hofes sehr gefallen wird.“"
  court.4100.a:0 "Mir kommt die Galle hoch. Werft dieses perverse Geschöpf in den Kerker!"
  court.4100.b:0 "Die Strumpfhosen sind für die Damen sicher zu viel des Guten."
  court.4100.c:0 "Meine Münzen habt Ihr. Ich freue mich schon sehr auf die Vorstellung!"
- 
+
 ##### Sneaky passages by Isabella Welch ######
- 
+
  court.4200.t:0 "Mörder- und Priesterlöcher"
  court.4200.desc:0 "Ein blasses Individuum, das aussieht, als hätte es sein gesamtes Leben im Untergrund verbracht, lauert in der Ecke meines Thronsaals."
  court.4200.desc_middle:0 "\n\n„Ich habe gehört, Ihr möchtet einen Geheimgang bauen lassen. Ich kann jeden noch so verrückten Wunsch erfüllen, den Euer finsteres Herz für diesen Gang hegt."
@@ -36,9 +37,9 @@
  court.4200.e:0 "Ich gebe zu, dass ich #EMP schon#! gern splitternackt in einen Privatkerker geworfen werden möchte."
  court.4200.f:0 "Ein versteckter Folterraum, in dem ich mit allem davonkommen kann."
  court.4200.g:0 "Ich #EMP habe#! mir schon immer einen Raum gewünscht, in dem ich ungestört in Panik ausbrechen kann!"
- 
+
 ##### My Spire is Bigger than Yours! by Isabella Welch #####
- 
+
  court.4250.t:0 "Meine Turmspitze ist größer als Eure!"
  court.4250.desc:1 "„Erbärmliche Höflinge aus [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]“, brüllt [tower_challenger_rival.GetTitledFirstName], während [tower_challenger_rival.Custom('DE_PRO_PER_S_3P_N')] in den Thronsaal gestürmt kommt.\n\n„Während sich [ROOT.Char.GetTitledFirstNameNoTooltip] wie ein Schwein im Schlamm suhlt, habe ich in [tower_challenger_rival.GetCapitalLocation.GetTitle.GetNameNoTier] den höchsten Turm errichtet, den diese verdorbene Erde je gesehen hat. Von diesem aus gelingt es mir fast, die Sterne vom Himmel zu holen. Da frage ich Euch: Wo sind Eure Sterne, [ROOT.Char.GetTitledFirstNameNoTooltip]?“\n\nMein [concerned_steward.GetCouncilTitle] legt mir beruhigend die Hand auf die Schulter. „Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')], der Turm von [tower_challenger_rival.GetTitledFirstNameNoTooltip] besteht aus 400 Fuß eher wackeligem Ton und Kleister. Achtet nicht weiter auf [tower_challenger_rival.Custom('DE_PRO_PER_S_3P_A')] und [tower_challenger_rival.Custom('DE_PRO_POS_S_3P')]e Sticheleien und wartet einfach, bis das Ding auseinanderfällt!“"
  court.4250.a:0 "Schiebt Euch Eure Himmelsnadel dorthin, wo nie die Sonne scheint!"
@@ -50,9 +51,9 @@
  court.4250.c.failure_toast_title:0 "Euer Turm bricht in sich zusammen!"
  court.4250.c.accident.tt:0 "Ein schrecklicher Unfall ereignet sich"
  court.4250.c.accident.tt.flavour:0 "Wer vermag schon zu sagen, was da alles schiefgehen könnte …"
- 
+
 ### Spires part 2
- 
+
  court.4251.desc:0 "Als mir mitgeteilt wird, dass mein Turm endlich fertiggestellt ist, lade ich meinen gesamten Hofstaat zur Besichtigung nach draußen ein. Der Turm ragt in den Himmel, schwankt aber auch im Wind."
  court.4251.desc_child_accident:0 "\n\nAus der Menge der gaffenden Höflinge krabbelt mein Kind [crushed_child.GetName] neugierig auf das imposante Bauwerk zu und starrt es mit großen Augen an.\n\n[crushed_child.GetNameNoTooltip] hat nicht einmal Zeit zu schreien, als die Spitze des Turms abbricht, hinunterstürzt und [crushed_child.Custom('DE_PRO_PER_S_3P_A')] unter sich zermalmt."
  court.4251.desc_rival_accident:0 "\n\nIch lade [tower_challenger_rival.GetTitledFirstNameNoTooltip] ein, mit mir hinaufzusteigen. [tower_challenger_rival.Custom('DE_PRO_PER_S_3P_D')|U] verschlägt es ob des Ausblicks den Atem – oder vielleicht auch wegen der Treppe. Als wir die Spitze erreichen und ich meinen Höflingen unten zuwinke, lehnt [tower_challenger_rival.Custom('DE_PRO_PER_S_3P_N')] sich an das Geländer, das sofort nachgibt und [tower_challenger_rival.Custom('DE_PRO_PER_S_3P_A')] nach einem langen Fall direkt in den Himmel schickt."
@@ -60,9 +61,9 @@
  court.4251.a:0 "O [crushed_child.GetNameNoTooltip], Ihr wart so süß wie ein Pfannkuchen!"
  court.4251.b:0 "Endlich habt Ihr fliegen gelernt, [tower_challenger_rival.GetTitledFirstNameNoTooltip]."
  court.4251.c:0 "Wer suhlt sich jetzt im Schlamm, [tower_challenger_rival.GetTitledFirstNameNoTooltip]?"
- 
+
 ### Crusades Preaching Tours by Isabella Welch
- 
+
  court.4300.t:0 "Quantum Praedecessores"
  court.4300.preaching_tour_bernard_of_clairvaux_intro:0 "Bernhard von Clairvaux macht auch hier halt, während [right_portrait_character.Custom('DE_PRO_PER_S_3P_N')] auf dem ganzen Kontinent predigt, um das Feuer für den laufenden Religionskrieg zu schüren. Mein [bishop.GetCouncilTitle] setzt mich darüber in Kenntnis, dass unser Besuch eine zentrale Rolle bei der Ausarbeitung der Doktrinen für den ersten Heiligen Orden der Tempelritter spielte.\n\n"
  court.4300.preaching_tour_bernard_of_clairvaux_theology:0 "„Ich fühle mich geehrt, in Gegenwart einer anderen Person zu sein, die für ihr theistisches Verständnis renommiert ist. Ich arbeite derzeit an einer neuen Abhandlung über unsere militärischen Orden. Sie trägt den Titel: „Lobrede auf die Tempelritter“. Wenn Ihr einen Blick darauf werfen möchtet, kann ich eine Nachricht an [ghw_sponsor.GetTitledFirstName] schicken, dass [ghw_sponsor.Custom('DE_PRO_PER_S_3P_N')] eine Bulle zur Unterstützung Eures eigenen Ordens herausgeben soll.“"
@@ -78,7 +79,7 @@
  court.4300.f:0 "Unwürdig, mit [right_portrait_character.Custom('DE_ART_IND_D')] solchen [right_portrait_character.GetWomanMan] zu sprechen, verneige ich mich schweigend."
  court.4300.g:0 "[right_portrait_character.Custom('DE_PRO_POS_S_3P')|U] Kreuzabzeichen sieht ziemlich schäbig aus, oder?"
  court.4300.a.tt:0 "Die [piety|E]- und [gold|E]-Kosten für die Gründung eines Ritterordens sind stark reduziert"
- 
+
 ## Our Caravans are being attacked by Christian Nobles by Isabella Welch
  court.4350.t:0 "Safran in Flammen"
  court.4350.desc:0 "Mein [concerned_marshal.GetCouncilTitle] hat soeben ein Gespräch mit zwei verkohlt aussehenden Kaufleuten beendet, die in meinen Thronsaal humpelten. „Eine Handelskarawane, die Safran von [caravan_attacker_liege.GetCapitalLocation.GetTitle.GetNameNoTier] nach [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier] bringen sollte, wurde überfallen. Die Diebe waren keine Banditen, sondern ein Rudel christlicher Landadliger in voller Montur.“\n\n[concerned_marshal.Custom('DE_PRO_PER_S_3P_N')|U] seufzt tief. „Dummköpfe, die unser Volk massakrieren wollen, versuchen, uns vor der Nase ihres Lehnsherrn zum Krieg zu provozieren. Wenn wir Vergeltung üben, riskieren wir, die Vereinbarungen mit [caravan_attacker_liege.GetName] über die von unseren Höflingen so geliebten Luxusimporte zu gefährden.“"
@@ -86,9 +87,9 @@
  court.4350.b:0 "Lasst uns selbst ein paar Überfälle durchführen!"
  court.4350.c:0 "Wir werden schon sehen, wie sie jammern, wenn wir nicht mehr mit Zucker handeln!"
  court.4350.c.tt:0 "#F Ihr stellt den Handel mit [caravan_attacker_liege.GetNameNoTooltip] ein#!"
- 
+
 ## Our Nobles are attacking Islamic Caravans by Isabella Welch
- 
+
  court.4355.t:0 "Wer wagt einen Kampf gegen den Sarazenen?"
  court.4355.desc:0 "„Mein Lehnsherr“, ruft mein [reporting_marshal.GetCouncilTitle]. „Ich habe zufällig gehört, wie [caravan_attacker.GetTitledFirstName] damit prahlte, dass [caravan_attacker.Custom('DE_PRO_PER_S_3P_N')] und eine Schar von Adligen wie gemeine Briganten losgezogen sind und Karawanen mit Zucker aus [attacked_liege.GetCapitalLocation.GetTitle.GetNameNoTier] überfallen haben. Diese Hunde geifern nach einem Religionskrieg und versuchen, [attacked_liege.GetTitledFirstName] entsprechend zu provozieren. Ich bin jedoch der Ansicht, dass wir den Handel weit mehr brauchen als jede Schlacht …“\n\n„Wir brauchen keine Nahrung, sondern nur das Blut der Ungläubigen!“, brüllt [caravan_attacker.GetTitledFirstNameNoTooltip] vom anderen Ende des Thronsaals."
  court.4355.a:0 "Gute Arbeit! Das Ausrauben Ungläubiger ist ein heiliger Akt!"
@@ -96,7 +97,7 @@
  court.4355.b:0 "Wachen! Schlagt [caravan_attacker.Custom('DE_PRO_PER_S_3P_A')] mit einer Zuckerdose, bis [caravan_attacker.Custom('DE_PRO_PER_S_3P_N')] die Tat bereut."
  court.4355.c:0 "Wahrscheinlich wird [caravan_attacker.Custom('DE_PRO_PER_S_3P_N')] unabhängig von meinem Befehl weiter plündern."
  court.4355.c.tt:0 "#F Das wird [caravan_attacker.Custom('DE_PRO_PER_S_3P_N')]#!"
- 
+
 # Monks/Holy men chasing the decapitated head of their target of worship by Isabella Welch
 # better title please
  court.4400.t:0 "Kopfüber"
@@ -109,7 +110,7 @@
  court.4400.b.severed_head:0 "Der abgetrennte Kopf wird gefunden!"
  court.4400.c.backdown:0 "Der Kult ist eingeschüchtert"
  court.4400.c.refusal:0 "Der Kult wird zurückkommen"
- 
+
 #Rummaging through the castle
  court.4401.desc:0 "In meinen Gewölben befinden sich weit mehr nutzlose Schmuckstücke, als ich zugeben möchte."
  court.4401.desc_arbitrary:0 "Ich prahle vor [head_chasing_monk.GetName] mit meinen ausgeklügelten Sicherheitsvorkehrungen – wenn niemand außer mir versteht, wie alles organisiert ist, kann ich auch niemals ausgeraubt werden!"
@@ -120,9 +121,9 @@
  court.4401.b:0 "Seht nur, wie sauber der Schnitt ist! Das ist eindeutig mein Werk."
  court.4401.c:0 "„Würde es Euch Freude bereiten, von Berufs wegen in meinem Müll zu wühlen?“"
  court.4401.d:0 "Es ist ein bisschen dreckig hier unten – ich sollte das aufräumen lassen."
- 
+
 ## Being threatened by the cultist
- 
+
  court.4402.desc:0 "Eines Nachts wache ich auf und spüre, dass jemand auf mir sitzt. Das ist kein sinnlicher Traum: Der geistesgestörte Mönch, der in meinen Thronsaal eingebrochen ist, hält mir ein Skalpell an die Kehle!\n\n„Wenn Ihr uns daran hindert, den Kopf zu suchen, könnten wir uns auch mit dem Euren begnügen. Er ist so schön rund und wird mit Sicherheit gut rollen!“"
  court.4402.a:0 "Warum machen wir uns nicht gleich auf die Suche danach?"
  court.4402.a.tt:0 "Ihr geht mit [head_chasing_monk.Custom('DE_PRO_PER_S_3P_D')] in den Keller"
@@ -133,15 +134,21 @@
  court.4402.c:0 "Ich wette, Ihr könnt mich mit diesem mickrigen Ding nicht enthaupten!"
  court.4402.c2.tt:0 "Ihr werdet teilweise enthauptet"
  court.4402.c3.tt:0 "Ihr werdet vollständig enthauptet"
- 
- 
+
+
 ## A series of questionable artifacts are up for sale by Isabella Welch
+#AGOT Modified
+ # court.4500.t:0 "Finger-bones of a [ROOT.Char.GetTitleAsNameNoTooltip]"
  court.4500.t:0 "Ein Geschenk, das [ROOT.Char.Custom('DE_ART_IND_G')] [ROOT.Char.GetTitleAsNameNoTooltip][ROOT.Char.Custom('DE_END_NOU_S_G')] würdig ist"  #AGOT Changed #Selbst geschrieben/abgetippt
  court.4500.desc:0 "Ein Hausierer in einem Mantel, auf den allerlei Flitter und Schnickschnack aufgenäht sind, kommt auf mich zu.\n\n"
  court.4500.bleeder:0 "„Ich stelle Artefakte her, um reiche Narren um ihr Gold zu bringen. Mir ist zu Ohren gekommen, dass Ihr einen Überschuss an Blut habt, und ich bin mir sicher, Ihr habt auch einige Verehrer, die sich freuen würden, eine Brosche mit einer Glaskugel zu kaufen, die einen Tropfen Eures Blutes enthält.“\n\n[artifact_peddler.Custom('DE_PRO_PER_S_3P_N')|U] starrt auf die Adern an meinem Hals. „Ich zahle gut, und irgendein Trottel wird bestimmt denken, dass er auf diese Weise auch einen Hauch von königlicher Majestät erlangt.“"
  court.4500.psalter:0 "„Ich habe einen prächtigen Psalter – ein illuminiertes Manuskript mit einem geschnitzten Elfenbeineinband, verziert mit türkisfarbenen Perlen. Es enthält Geschichten über Menschen und ihre Liebschaften. Die Schnitzerei wird [cheating_character.GetTitledFirstNameNoTooltip] gewiss so sehr beeindrucken, dass [cheating_character.Custom('DE_PRO_PER_S_3P_N')] nie wieder auf die Idee kommen wird, das Bett mit jemand anderem zu teilen!“"
  court.4500.chastity_belt:0 "„Jeder weiß, dass Ihr von unersättlichen Begierden besessen seid, die die Kraft eines mit einem Trebuchet abgeschossenen Kataphrakten haben. Ich habe ein Artefakt, das diese Last von Euch nehmen wird.“\n\n[artifact_peddler.Custom('DE_PRO_PER_S_3P_N')|U] enthüllt einen Keuschheitsgürtel, der mit rostigen Stacheln verziert ist."
+#AGOT Modified
+ # court.4500.holy_needle:0 ""I have with me a precious weapon only worthy of your hands. The Holy Lance of Antioch, the Spear of Destiny itself! You shall utterly annihilate the infidel on the battlefield with this!"\n\n[artifact_peddler.GetSheHe|U] pulls out a tiny shard of metal which looks rather like a sewing needle."
  court.4500.holy_needle:0 ""Ich habe eine kostbare Waffe, derer nur Eure Hände würdig sind: Die Mächtige Lanze der Andalen, der Speer des Schmieds selbst! Mit diesem Speer werdet ihr alle Feinde auf dem Schlachtfeld vernichten!"\n\n[artifact_peddler.Custom('DE_PRO_PER_S_3P_N')|U] zieht einen winzigen Metallsplitter heraus, der eher wie eine Nähnadel aussieht."  #AGOT Changed #Selbst geschrieben/abgetippt
+#AGOT Modified
+ # court.4500.finger_bones:0 ""You strike me as a seasoned collector." [artifact_peddler.GetSheHe|U] pulls out and opens a battered chest brimming with bones from every limb imaginable.\n\n"I have some of the rarest saintly finger-bones, even some foiled in gold. They are sold as singles, but I will grant a special price for a full set of ten.""
  court.4500.finger_bones:0 ""Ihr macht den Anschein, als hättet Ihr Erfahrung beim Sammeln", sagt [artifact_peddler.Custom('DE_PRO_PER_S_3P_N')] und zieht eine ramponierte Truhe hervor, die voller Gebeine von allen erdenklichen Gliedmaßen ist.\n\n"Ich habe einige der seltensten Fingerknochen der Septone, manche davon sogar mit Gold überzogen. Sie werden als Einzelstücke verkauft, doch für einen vollständigen Zehnersatz würde ich Euch einen Preisnachlass gewähren.""  #Selbst geschrieben/abgetippt
  court.4500.dead_chicken:0 "„Ich habe hier ein wundersames Schmuckstück! Tragt es, und jeder Feind auf dem Schlachtfeld wird sofort denken, Ihr wärt bereits tot! Eure Sicherheit ist garantiert!“\n\nAus den Tiefen [artefakt_peddler.Custom('DE_PRO_POS_S_3P')]es Mantels zieht [artefakt_peddler.Custom('DE_PRO_PER_S_3P_N')] den Kadaver eines toten Huhns hervor."
  court.4500.worm:0 "„M[ROOT.GetCharacter.Custom('DE_ART_IND_N')] [ROOT.GetCharacter.GetLadyLord], ich besitze ein Artefakt, das grandiose Illusionen erzeugt und mithilfe dessen Ihr alle davon überzeugen könnt, dass Ihr über Zauberkräfte verfügt.“\n\n[artifact_peddler.Custom('DE_PRO_PER_S_3P_N')|U] wedelt mit einem bunten Stoffwurm, der an einer sehr dünnen Schnur befestigt ist. „Zunächst scheint er zu ruhen, doch durch die Manipulation des Fadens erzeugt man die Illusion, dass der Wurm zum Leben erwacht ist! Stellt Euch nur vor, wie beeindruckt die [dummy_gender.Custom('LadiesLords')] bei Hofe sein werden!“"
@@ -149,8 +156,12 @@
  court.4500.b:0 "Inzwischen würde ich alles einmal versuchen."
  court.4500.c:0 "$court.4500.b$"
  court.4500.d:0 "Es würde meine Lenden nur auf andere Weise zum Brennen bringen …"
+ #AGOT Modified
+ # court.4500.e:0 "The call of Destiny is sounding!"
  court.4500.e:0 "Der Schmied ruft mich!"  #AGOT Changed #Selbst geschrieben/abgetippt
  court.4500.f:0 "Verkauft Eure Lügen woanders!"
+ #AGOT Modified
+ # court.4500.g:0 "There is charm in using a relic of Christ to mend my socks..."
  court.4500.g:0 "Es hat einen gewissen Reiz, eine Reliquie aus dem Zeitalter der Helden zu benutzen, um meine Socken zu stopfen..."  #AGOT Changed #Selbst geschrieben/abgetippt
  court.4500.h:0 "#EMP Das#! ist also der Grund, warum so viele Bauern heutzutage neun Finger haben."
  court.4500.i:0 "Ich nehme einen ganzen Unterarm!"
@@ -159,8 +170,8 @@
  court.4500.l:0 "Ich werde nicht den Puppenspieler geben!"
  court.4500.m:0 "Mir gefällt ein bisschen Zappelei!"
  court.4500.n:0 "$court.4500.j$"
- 
- 
+
+
 ## Your cupbearer is drinking all your wine! By Isabella Welch
  court.4600.t:0 "Der feinste [ROOT.GetCharacter.Custom('RegionalAlcoholicDrink')|U], den die Menschheit kennt"
  court.4600.desc:1 "Ich sehe, wie mein Mundschenk [cupbearer.GetTitledFirstName] und [cupbearer_friend.GetTitledFirstName] leicht taumeln und sich aus einer meiner erlesensten Flaschen einschenken.\n\n„Es ist so eine Schande, dass [ROOT.GetCharacter.GetTitledFirstName] all diesen [ROOT.GetCharacter.Custom('RegionalAlcoholicDrink')] hortet wie ein Drache."
@@ -178,7 +189,7 @@
  court.4600.d.cure.t:0 "Gegengift mit anderem Getränk vermischt"
  court.4600.d.cure.tt:0 "Eure Gifte bleiben ein Geheimnis"
  court.4600.e:0 "Ich denke, ich sollte den Weinkeller für eine Weile sorgfältiger abschließen."
- 
+
 ## A special procedure to cure your ailments is suggested... by Isabella Welch
  court.4700.t:0 "Trepanation der Seele"
  court.4700.desc_native_trepanning:0 "Eine Gestalt in Arztgewandung erscheint mit einer Kiste voller Instrumente ihrer Zunft, doch mir kehrt sich der Magen um, als ein Hammer und ein Pickel darunter zum Vorschein kommen.\n\n„M[ROOT.GetCharacter.Custom('DE_ART_IND_N')] [ROOT.GetCharacter.GetLadyLord], ich bin ein gelernter Schädelöffner."
@@ -205,9 +216,9 @@
  court.4700.witch_power:0 "Die Trepanation verstärkt Eure Hexenkräfte"
  court.4700.mental_faculties:0 "Die Trepanation schadet Euren geistigen Fähigkeiten"
  court.4700.physical_faculties:0 "Die Trepanation schadet Eurem Körper"
- 
+
 ## The Trepanning!
- 
+
  court.4701.physician_study:0 "Ich werde in das Arbeitszimmer meines Arztes [court_physician.GetTitledFirstName] gebracht, von dem [trepanner.GetTitledFirstName] annimmt, dass er über die nötigen Talente verfügt, um uns bei unserem Vorhaben zu helfen. Während [trepanner.Custom('DE_PRO_PER_S_3P_N')] mich in einem Stuhl festbindet, wartet [court_physician.GetTitledFirstNameNoTooltip] hinter mir."
  court.4701.no_physician:0 "Ich werde in ein Hinterzimmer meiner [ROOT.Char.Custom('FortifiedBuilding')] gebracht. Während ich in einem Stuhl festgebunden werde, versichert mir [trepanner.GetTitledFirstNameNoTooltip], es würde nur Aufregung bei Hofe verursachen, wenn man meine Schreie hören könnte.\n\n"
  court.4701.physician_excited:0 "„Oh, wie ich eine gute Trepanation liebe!“\n\n"
@@ -237,37 +248,75 @@
  court.4701.g:0 "Das ist der Beweis, dass meine vermeintlichen „Laster“ kaum das Werk von Dämonen sind."
  court.4701.h:0 "Ich stehe in Eurer Schuld … sobald Ihr einen Korken für das Loch gefunden habt …"
  court.4701.i:0 "Meine geplagten Gedanken sind ein Feind, dem ich allein entgegentreten muss."
- 
- 
+
+
  court.4750.t:0 "Ich brauche einen Helden"
  court.4750.desc:0 "Ich bemerke, wie mein Poet im Thronsaal auf und ab geht. [poet.Custom('DE_PRO_PER_S_3P_N')|U] schreit jeden an, der ihm in die Quere kommt.\n\nAls ich mich nähere, sehe ich mit einer geradezu literarischen Wut konfrontiert: „Kreuzt nicht meinen Weg, es sei denn, Ihr seid eine Muse, die aus dem Himmel herabsteigt! Oh …“ Das Gesicht des Poeten strahlt vor Freude. „Habt Ihr vielleicht die Inspiration, nach der ich mich sehne, m[ROOT.GetCharacter.Custom('DE_ART_IND_N')] [ROOT.GetCharacter.GetLadyLord]? Ich suche ein Thema für mein nächstes Werk.\n\n„Könnt Ihr mir verraten, wer Euer Lieblingsheld ist?“"
+ #AGOT Modified
+ # court.4750.a:0 "Make up a story from the reign of Pope Joan!"
  court.4750.a:0 "Die Geschichte von Zhea, der furchterregenden Kriegsherrin von jenseits der Knochenberge!"  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # court.4750.b:0 "Lady Godiva! A ballad about her ride!"
  court.4750.b:0 "Jonquil die Jungfrau! Eine Ballade über ihr schicksalhaftes Bad!"  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # court.4750.c:0 "Sinbad is such a daring figure!"
  court.4750.c:0 "Lomas Longstrider ist ein wahrer Meister seines Fachs!"  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # court.4750.d:0 "Caligula was a man after my own heart."
  court.4750.d:0 "Tyrion II Lennister war ein Mann nach meinem Geschmack."  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # court.4750.e:0 "Nasreddin stories always bring a smile to my lips."
  court.4750.e:0 "Pilz, der Narr des Zeugnisses!"  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # court.4750.f:0 "Tell me of Valmiki, the harbinger-poet!"
  court.4750.f:0 "Erzählt mir von Bael dem Barden, dem König jenseits der Mauer!"  #AGOT Changed #Selbst geschrieben/abgetippt
  court.4750.g:0 "Na, das wäre natürlich ich selbst!"
  court.4750.h:0 "Warum bezahle Ich Euch, wenn Ihr nicht nach Bedarf komponieren könnt?"
- 
+
  court.4751.intro:0 "Auf meinen Wunsch hin trägt mir mein Dichter ein Werk vor, das von"
+ #AGOT Modified
+ # court.4751.topic.pope_joan:0 "Pope Joan,"
  court.4751.topic.pope_joan:0 "#italic Jhattar#! Zhea" #AGOT Changed
+ #AGOT Modified
+ # court.4751.topic.lady_godiva:0 "Lady Godiva,"
  court.4751.topic.lady_godiva:0 "der Schönheit Jonquil"  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # court.4751.topic.sinbad:0 "Sinbad,"
  court.4751.topic.sinbad:0 "Lomas Langschritt"  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # court.4751.topic.caligula:0 "Caligula,"
  court.4751.topic.caligula:0 "Tyrion II" #AGOT Changed
+ #AGOT Modified
+ # court.4751.topic.nasreddin:0 "Nasreddin,"
  court.4751.topic.nasreddin:0 "dem Hofnarren Pilz"  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # court.4751.topic.valmiki:0 "Valmiki,"
  court.4751.topic.valmiki:0 "Bael dem Barden"  #AGOT Changed #Selbst geschrieben/abgetippt
  court.4751.topic.ruler_hero:0 "meinem heroischen Leben"
  court.4751.topic.unexpected:0 "handelt, doch es ist nicht, wie ich es erwartet hatte."
  court.4751.ruler_character:0 "\n\nEin kurzer Blick in die illuminierten Manuskripte zeigt, dass ich neben dem Helden als Figur auftauche!\n\n"
+ #AGOT Modified
+ # court.4701.pope_joan_desc:0 "\n\nAs I glance at the illustrations, I realize the illuminations of Joan use my features for her face, as if it were my own!\n\n[poet.GetTitledFirstNameNoTooltip|U] leans towards me. "Your charms far exceed that of our Pope. As Joan's lover convinced her to dress as a man and undertake study in Athens, I grant you this text wishing the figure I am #EMP supposed#! to worship were you.""
  court.4701.pope_joan_desc:0 "\n\nAls ich einen Blick auf die Illustrationen werfe, stelle ich fest, dass die Illuminationen Zheas meine Gesichtszüge verwenden, als wäre es mein eigenes!\n\n[poet.GetTitledFirstNameNoTooltip|U] beugt sich zu mir. "Eure Reize übertreffen die der Geißel von Yi Ti bei Weitem. So wie Zheas Geliebter Zhea den Kopf des Kaisers gab, widme ich Euch diesen Text in der Hoffnung, dass Ihr jene Person seid, die ich verehren #EMP soll#!.""  #AGOT Changed #Selbst geschrieben/abgetippt
  court.4701.ruler_hero_desc:0 "\n\nDas Gedicht handelt von meiner Herrlichkeit, während ich auf meinem Thron sitze und rein gar nichts tue.\n\n„#EMP Wenn das königliche Hinterteil zu weit umherstreift, wohin sollen wir dann all jene schicken, die es küssen wollen?#!“"
+ #AGOT Modified
+ # court.4751.topic.lady_godiva_desc:0 "You are riding alongside Lady Godiva in this poem. Just as beautiful — but just as naked!"
  court.4751.topic.lady_godiva_desc:0 "In diesem Gedicht bade ich neben Jonquil und ihren Schwestern. So schön - und ebenso nackt!"  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # court.4751.topic.sinbad_desc:0 "I am a mysterious character Sinbad encounters time again in his adventures. I am the creature hatching from the colossal Roc egg. I am the Old Man of the Sea who clings to Sinbad's shoulders for years. I am a captive of the man-eating giant."
  court.4751.topic.sinbad_desc:0 "Ich bin eine geheimnisvolle Gestalt, der Lomas Langschritt in seinen Abenteuern immer wieder begegnet. Ich bin ein bärtiger Priester in Norvos. Ich bin der Wächter über die dreifachen Mauern von Qarth. Ich bin der alte Sommerinsel-Weise, den er befragte."  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # court.4751.topic.caligula_desc:0 "I am a character in the text, but I am but Caligula's weary advisor, not a friend and equal! The Emperor torments me with a whip, or forces me to dress up like Aphrodite and dance for him.\n\nAs I read further, there seem to be rather a lot of scenes where he whips me, indeed."
  court.4751.topic.caligula_desc:0 "Ich werde zwar im Text erwähnt, bin aber nur Tyrions müder Berater, weder Freund[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')] noch Gleichgestellt[ROOT.GetCharacter.Custom('DE_END_ADJ_IND_S_N')]! Der Kaiser quält mich mit der Peitsche oder zwingt mich, mich wie eine Jungfer zu verkleiden und für ihn zu tanzen.\n\nAls ich weiterlese, scheint es tatsächlich ziemlich viele Szenen zu geben, in denen er mich auspeitscht."  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # court.4751.topic.nasreddin_desc:0 "The tales show Nasreddin riding behind me as I go about my courtly duties, making snide remarks at my every action from atop his donkey.\n\nI made a speech full of platitudes at a feast, and he yells 'the interlocutor is but breaking wind as he states the obvious!', then jokes at the futility of gorging oneself on food."
  court.4751.topic.nasreddin_desc:0 "In den Geschichten watschelt Pilz hinter mir her, während ich meinen höfischen Pflichten nachgehe, und macht abfällige Bemerkungen über jede meiner Handlungen.\n\nWährend eines Festmahls halte ich eine Rede voller Plattitüden, woraufhin er schreit: "Es ist nicht als heiße Luft, wenn er das Offensichtliche ausspricht!" und macht anschließend Witze über die Sinnlosigkeit, sich mit Essen vollzustopfen."  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # court.4751.topic.valmiki_desc:0 "\n\nLike the legend, a hunter shoots a beautiful bird and I cannot help but spout out a couplet. I trip over a rock and exclaim a rhyme before hitting the ground.\n\nAs the harbinger-poet composed the first poem by accident, it shows me composing spontaneous verses whenever I am caught off-guard."
  court.4751.topic.valmiki_desc:0 "\n\nWie in der Legende erlegt ein Jäger einen wunderschönen Vogel, und ich kann nicht anders, als einen Zweizeiler hinauszuposaunen. Ich stolpere über einen Stein und rufe einen Reim aus, bevor ich auf dem Boden aufschlage.\n\nSo wie der Bardenkönig das erste Gedicht aus Versehen verfasste, zeigt mich das Geschehen so, dass ich spontan Verse verfasse, wann immer ich von etwas überrascht werde."  #AGOT Changed #Selbst geschrieben/abgetippt
  court.4751.a:0 "Irgendwie macht die Gottlosigkeit Eurer Bewunderung sie noch verlockender …"
+ #AGOT Modified
+ # court.4751.b:0 "Perhaps I should set my sights on the Papacy..."
  court.4751.b:0 "Vielleicht sollte ich meinen Blick nach Osten richten..."  #AGOT Changed #Selbst geschrieben/abgetippt
  court.4751.c:0 "Ich wäre ja wütend, doch damit gewinne ich sicher Bewunderer …"
  court.4751.c.tt:0 "Jene, die sich zu Euch hingezogen fühlen, werden es sicher bemerken …"
@@ -276,7 +325,7 @@
  court.4751.f:0 "Das ist amüsant. Ich bin mir sicher, der Hof wird es lieben."
  court.4751.g:0 "Wie undankbar!"
  court.4751.h:0 "Das sieht nach erstklassigem Zunder für mein nächstes Feuer aus."
- 
+
 #By Isabella Welch
  court.4800.t:0 "Spreizt die Flügel"
  court.4800.desc:0 "„Macht noch einmal so ein Geräusch und ich lasse Euch fallen!“ Als ich zufällig auf meinen Leibwächter [defenestrating_bodyguard.GetTitledFirstName] treffe, bemerke ich neben [defenestrating_bodyguard.Custom('DE_PRO_PER_S_3P_D')] das Hinterteil von [defenestrated_character.GetTitledFirstName], [defenestrated_character.Custom('DE_ART_DEF_S_A')] [defenestrating_bodyguard.Custom('DE_PRO_PER_S_3P_N')] gerade aus dem Fenster baumeln lässt.\n\n[defenestrating_bodyguard.GetTitledFirstNameNoTooltip] knirscht mit den Zähnen: „[defenestrated_character.Custom('DE_PRO_PER_S_3P_N')|U] hat sich darüber lustig gemacht, dass ich während dem Dienst keine Miene verziehe. [defenestrated_character.Custom('DE_PRO_PER_S_3P_N')|U] macht ständig Gänsegeräusche, um mich aus der Fassung zu bringen. Ich sage immer wieder, dass das eine Bedrohung für Eure Sicherheit ist.“\n\nTrotz der Gefahr und inmitten vergeblicher Versuche, sich frei zu winden, lässt [defenestrated_character.GetTitledFirstNameNoTooltip] ein Kichern hören. „#EMP Quack#!.“"
@@ -285,20 +334,20 @@
  court.4800.death_toast:0 "[defenestrated_character.GetTitledFirstName] ist nach dem Flug aus einem Fenster umgekommen"
  court.4800.b:0 "Jetzt übertreibt es nicht! Verpasst [defenestrated_character.Custom('DE_PRO_PER_S_3P_D')] eine höfliche Tracht Prügel."
  court.4800.c:0 "[defenestrated_character.GetTitledFirstNameNoTooltip] hat recht: Eine gute Wache lässt sich nie provozieren."
- 
+
 #By Isabella Welch
  court.4801.t:0 "Prall gefüllt"
  court.4801.desc:0 "Lange bevor ich [poopy_child.GetTitledFirstName] in meinem Thronsaal spielen sehe, nehme ich einen unverwechselbaren Geruch wahr.\n\n„Ooh, [ROOT.GetCharacter.Custom('GetMamaPapa')]!“ Als [poopy_child.Custom('DE_PRO_PER_S_3P_N')] herbeieilt, um mein Bein zu umarmen, spüre ich, wie das Gewicht [poopy_child.Custom('DE_PRO_POS_S_3P')]er randvollen Windel gegen meine Wade drückt.\n\nAls der Inhalt beginnt, auf meinen Knöchel zu laufen, frage ich mich, ob wir wirklich so wenig Bedienstete haben, dass ich mich selbst um die entwürdigende Aufgabe des Windelwechsels kümmern muss."
  court.4801.a:0 "„In meine Arme. Wir machen das sauber.“"
  court.4801.b:0 "Ich würde eher einen Krieg verlieren, als dieses Ekelpaket anzufassen."
- 
+
 #By Isabella Welch
  court.4802.t:0 "Bildung unter Zwang"
  court.4802.desc:0 "Am anderen Ende des Hofes erspähe ich meinen Hoftutor [court_tutor.GetTitledFirstName], eingekreist von einer Schar von Schülern.\n\n„Lehrer[court_tutor.Custom('DE_END_NOU_S_GS_N')], was ist ein Parallelogramm?“\n\n„Lehrer[court_tutor.Custom('DE_END_NOU_S_GS_N')], was bedeutet … ‚Liebe machen‘?“\n\n„Lehrer[court_tutor.Custom('DE_END_NOU_S_GS_N')], sollte ich meine Flöte etwas lauter oder #EMP viel#! lauter blasen?“\n\n[court_tutor.GetTitledFirstNameNoTooltip] blickt erschöpft zu mir. „M[ROOT.GetCharacter.Custom('DE_ART_IND_N')] [ROOT.GetCharacter.GetLadyLord], ich kann es nicht länger ertragen. Bitte enthebt mich meines Amtes.“"
  court.4802.a:0 "Oh, sind sie nicht reizend?"
  court.4802.b:1 "Ich kaufe Euch eine Trompete, [child_2.GetTitledFirstNameNoTooltip]. Die dürfte #EMP noch lauter#! sein!"
  court.4802.c:0 "Ich verstehe. Wir werden nach einem neuen Tutor suchen."
- 
+
 #By Isabella Welch
  court.4803.t:0 "Eine geisterhafte Feder"
  court.4803.desc:0 "Mein Poet rezitiert – so wie [court_poet.Custom('DE_PRO_PER_S_3P_N')] es immer tut, sobald ich in Reichweite bin – verschiedene Phrasen: „Oh, [ROOT.GetCharacter.Custom('PetName')]! Es muss hart sein, wenn die Musen einen verlassen haben.\n\nIhr befehligt Armeen, doch beherrscht Ihr nicht das geschriebene Wort. Hat die Menschheit je etwas Tragischeres erlebt?\n\nErlaubt mir, Euch zu helfen. Ich könnte einige Eurer Reden für Euch schreiben. Verratet mir den geplanten Inhalt und ich drücke ihn mit den schönsten Formulierungen aus.“"
@@ -310,14 +359,14 @@
  court.4803.c.realize.tt:0 "[lover.GetFirstNameNoTooltip] bemerkt, aus wessen Feder das Werk wirklich stammt"
  court.4803.c.fooled.tt:0 "[lover.GetFirstNameNoTooltip] fühlt sich von „Eurem“ Gedicht geschmeichelt"
  court.4803.d:0 "Meine Worte sind vielleicht nicht schön, doch sie kommen von Herzen."
- 
+
 #By Isabella Welch
  court.4804.t:0 "Schlechte Bettgenossen"
  court.4804.desc:0 "Ich bemerke, wie sich zwei Höflinge streiten, die sich eine Unterkunft teilen. Beide haben große dunkle Ringe unter den Augen.\n\n„M[ROOT.GetCharacter.Custom('DE_ART_IND_N')] [ROOT.GetCharacter.GetLadyLord], ich kann keine Nacht länger das Bett mit [roomate_2.GetTitledFirstName] teilen. [roomate_2.Custom('DE_PRO_PER_S_3P_N')|U] ist ein unersättliches Schwein, so wie [roomate_2.Custom('DE_PRO_PER_S_3P_N')] die Decke an sich reißt.“\n\n„In dieser Woche gab es noch keine Nacht, in der [roomate_1.GetTitledFirstName] nicht [ROOT.Char.Custom('RandomBadRoomate')]“, erwidert [roomate_2.GetTitledFirstName] und fügt hinzu: „Ich flehe Euch an: Gewährt uns eine bessere Unterkunft. Ich wünsche mir nichts mehr als ein kaltes, leeres Bett.“"
  court.4804.a:0 "Ich werde die Diener bitten, Euch neue Bettgenossen zu finden."
  court.4804.b:0 "Diese Gemächer sind [ROOT.GetCharacter.Custom('DE_ART_IND_G')] [ROOT.GetCharacter.GetTitleAsNameNoTooltip][ROOT.GetCharacter.Custom('DE_END_NOU_S_G')] #EMP nicht#! würdig."
  court.4804.c:0 "Wir haben einfach nicht den Platz, um jedem ein eigenes Zimmer gewähren zu können."
- 
+
 #By Isabella Welch
  court.4805.t:0 "An allen Ecken sparen"
  court.4805.desc:0 "Mein Architekt [royal_architect.GetTitledFirstName] schleppt einen riesigen Sack mit sich herum und grinst die ganze Zeit. Ich zucke zusammen, als er den Boden meines Thronsaals zerkratzt.\n\n„M[ROOT.GetCharacter.Custom('DE_ART_IND_N')] [ROOT.GetCharacter.GetLadyLord], ich habe etwas #EMP sehr#! Unanständiges getan, doch ich habe das Gefühl, dass es Euch erfreuen wird.“\n\nIch erwarte, Zeuge einer Obszönität zu werden, als [royal_architect.Custom('DE_PRO_PER_S_3P_N')] den Sack öffnet, aber im Innern sehe ich nichts als einen großen, rechteckigen Felsbrocken. „Dies ist ein Eckstein aus der [rival.Custom('FortifiedBuilding')] von Eurem Erzfeind [rival.GetTitledFirstName]. Nun ist die ganze Symbolik [rival.Custom('DE_PRO_PER_S_3P_D')]es Mauerwerks dahin!“"
@@ -325,9 +374,9 @@
  court.4805.b:0 "Ich möchte, dass er voller Stolz ausgestellt wird!"
  court.4805.c:0 "Ich bedauere meine Fehde mit [rival.Custom('DE_PRO_PER_S_3P_D')]. Bringt ihn zurück."
  court.4805.d:0 "Warum bringt Ihr mir diesen Schutt? Werft ihn weg!"
- 
+
 #By Isabella Welch
- 
+
  court.4806.t:0 "Aus Liebe zu den Oberen"
  court.4806.intro:0 "Ein Neuling wandert durch meinen Thronsaal und gerät gelegentlich ins Kichern und Hüpfen, sobald [adoring_fan.Custom('DE_PRO_PER_S_3P_N')] einen Blick auf ein Kunstwerk erhascht, das die [ROOT.Char.GetCulture.GetNameNoTooltip|l]en Sitten zum Inhalt hat."
  court.4806.hre_desc:0 "\n\n„Mein Herz! [ROOT.GetCharacter.GetPrimaryTitle.GetNameNoTierNoTooltip] ist [ROOT.GetCharacter.Custom('DE_ART_DEF_S_N')] Beste! Auch wenn ich in [adoring_fan_liege.GetCapitalLocation.GetTitle.GetNameNoTier] lebe, so glaube ich doch aufrichtig, dass mein Wesenskern [ROOT.Char.GetCulture.GetName|l] ist! Ich kann alle Fürstbischöfe aufzählen. Ich habe sogar das Gesicht von [ROOT.GetCharacter.GetTitledFirstNameNoTooltip] auf die Wade tätowiert.“\n\n[adoring_fan.Custom('DE_PRO_PER_S_3P_N')|U] greift in [adoring_fan.Custom('DE_PRO_POS_S_3P')] Bündel und zieht etwas daraus hervor, was wie eine billige Bronzereplik der Reichskrone aussieht. „Die trage ich an den meisten Tagen und raune den Leuten, an denen ich vorbeikomme, zu: ‚Ich hoffe, ich habe Eure Stimme, Kurfürst!‘“"
@@ -339,5 +388,4 @@
  court.4806.c.byz:0 "Aufgrund Eurer Vaterlandsliebe werde ich Euch das Tragen von Purpur gestatten."
  court.4806.d:0 "Nur [ROOT.Char.Custom('DE_ART_IND_N')] [ROOT.Char.GetTitleAsNameNoTooltip] darf Purpur tragen! Kerkert diese elende Kreatur ein!"
  court.4806.e:0 "Wie könnt Ihr es wagen, meine Waffe nachzubauen?! Nehmt sie [adoring_fan.Custom('DE_PRO_PER_S_3P_D')] ab!"
- 
 

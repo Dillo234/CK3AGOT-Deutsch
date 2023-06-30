@@ -200,3 +200,31 @@ k_the_hook = {
 	capital = c_stonedance
 	color = { 177 139 199}
 }
+
+e_ruins = {
+	color = { 159 122 112 }
+	capital = c_ruins
+	k_ruins = {
+		color = { 159 122 112 }
+		capital = c_ruins
+		d_ruins = {
+			color = { 159 122 112 }
+			capital = c_ruins
+			c_ruins = {
+				color = { 159 122 112 }
+				b_ruins = {
+					province = 7291
+					color = { 159 122 112 }
+				}
+				b_more_ruin = {
+					province = 7292
+					color = { 159 122 112 }
+				}
+				b_the_most_ruin = {
+					province = 7293
+					color = { 159 122 112 }
+				}
+			}
+		}
+	}
+}

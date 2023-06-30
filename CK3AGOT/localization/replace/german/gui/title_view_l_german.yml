@@ -163,22 +163,15 @@
  TITLE_VIEW_HO_NUMBER_OF_SOLDIERS:0 "[HolyOrder.GetCurrentSoldiers]-[soldiers|E]"
  TITLE_VIEW_MERCENARY_NUMBER_OF_SOLDIERS:0 "[MercenaryCompany.GetCurrentSoldiers]-[soldiers|E]"
  CHARACTER_SORT_BY:0 "#T Sortierreihenfolge: [Select_CString(CharacterSelectionList.GetSortOrder, 'Aufsteigend', 'Absteigend')]\n#!#I Zum Wechseln klicken#!"
- 
  FIND_VASSAL_HEADER:2 "Vergeben an …"
  FIND_VASSAL_RELEVANCE:0 "Relevanz"
  FIND_VASSAL_BUTTON_TOOLTIP:2 "#T $FIND_VASSAL_HEADER$#!\nWählt jemanden aus, an den dieser [title|E] vergeben werden soll.\n\n$FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT$"
  FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT:0 "Ihr könnt [titles|E] an einen Eurer [vassals|E] oder einen Eurer [guests|E] oder an beliebige [courtiers|E] in Eurem [realm|E] vergeben."
- 
+ #AGOT Modified, HV Conversion rules
+ # GRANT_TO_SAME_CULTURE_NOBLE_HEADER:0 "A Noble of the [GetPlayer.GetCulture.GetNameNoTooltip] Culture"
  GRANT_TO_SAME_CULTURE_NOBLE_HEADER:0 "Ein Adliger der [GetPlayer.Custom('same_culture_noble_header')]en Kultur"
- 
- SAME_CULTURE_NOBLE:0 "[GetPlayer.GetCulture.GetNameNoTooltip]" #AGOT ADDED 
- SAME_CULTURE_NOBLE_VALYRIAN:0 "Westerosi-Valyrisch" #AGOT ADDED
- 
  GRANT_TO_SAME_CULTURE_NOBLE_INFO:0 "Den Titel an einen Adligen #V Eurer Kultur#! und [GetPlayer.GetFaith.GetAdjective|l]es Glaubens vergeben"
  GRANT_TO_SAME_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_TOOLTIP:0 "#T An einen Adligen der [GetPlayer.GetCulture.GetName|l]en Kultur vergeben#!\nEine [county|E], die von einem [ruler|E] gehalten wird, der nicht die örtliche [culture|E] hat, wird eine verringerte [county_opinion|E] haben.\n\n[vassals|E] derselben [culture|E] haben eine höhere [opinion|E] von ihrem [Concept('liege', 'Lehnsherrn')|E].\n\n#I Klicken, um zu vergeben#!"
- 
- 
- 
  GRANT_TO_LOCAL_CULTURE_NOBLE_HEADER:0 "Ein örtlicher [FindVassalListWindow.GetTitle.GetProvince.GetCulture.GetNameNoTooltip|l]er Adliger"
  GRANT_TO_LOCAL_CULTURE_NOBLE_INFO:0 "Den Titel an einen Adligen der #V örtlichen Kultur#! und des [GetPlayer.GetFaith.GetAdjective|l]en Glaubens vergeben"
  GRANT_TO_LOCAL_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_BASE_TOOLTIP:0 "#T An einen Adligen der örtlichen [FindVassalListWindow.GetTitle.GetProvince.GetCulture.GetName|l]en Kultur vergeben#!\nEine [county|E], die von einem [ruler|E] der örtlichen [culture|E] gehalten wird, hat keine verringerte [county_opinion|E].\n\n[vassals|E] der örtlichen [culture|E] werden die [cultural_acceptance|E] erhöhen."

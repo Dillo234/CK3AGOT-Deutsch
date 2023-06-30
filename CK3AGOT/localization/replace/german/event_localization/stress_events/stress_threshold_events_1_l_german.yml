@@ -24,11 +24,13 @@
  stress_threshold.1701.h.confider.effect:0 "[friend.GetFirstNameNoTooltip] wird mich sicher unterstützen!"
  stress_threshold.1701.i.drunkard.gain:0 "Ein Humpen voll Glück löst die meisten Probleme …"
  stress_threshold.1701.i.drunkard.effect:0 "$stress_threshold.1701.i.drunkard.gain$"
+ #AGOT Modified
+ #stress_threshold.1701.j.hashishiyah.gain:0 "Hashish will sooth my troubled nerves..."
  stress_threshold.1701.j.hashishiyah.gain:0 "Mohnblumensaft wird meine geplagten Nerven beruhigen..."  #Selbst geschrieben/abgetippt
  stress_threshold.1701.j.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  #NOTE: Discuss w/ Sean?
  stress_threshold.1701.k:0 "Das ist nur hirnloses Geplapper und hat nichts mit mir zu tun."
- 
+
  stress_threshold.1711.t:0 "Geistiger Zusammenbruch: Zu beschäftigt"
  stress_threshold.1711.desc.intro:0 "Bei [ROOT.GetCharacter.GetFaith.FateGodName]! Die Bittsteller des Reichs stehen in letzter Zeit wirklich Schlange. Die Arbeit scheint mir schier #EMP endlos#!. Und da tritt auch schon der Nächste vor, offenbar ein notleidender Kaufmann oder dergleichen.\n\n"
  stress_threshold.1711.desc.greedy:0 "„Bringt Ihr mir Eure Steuern? Nein? Dann kümmert es mich nicht.“"
@@ -54,10 +56,12 @@
  stress_threshold.1711.f.athletic.effect:0 "$stress_threshold.1711.f.athletic.gain$"
  stress_threshold.1711.g.drunkard.gain:0 "Bringt mir Wein! Das ist zu viel für einen nüchternen Geist."
  stress_threshold.1711.g.drunkard.effect:0 "$stress_threshold.1711.g.drunkard.gain$"
+ #AGOT Modified
+ #stress_threshold.1711.h.hashishiyah.gain:0 "Hashish! This is too much for a sober mind."
  stress_threshold.1711.h.hashishiyah.gain:0 "Mohnblumensaft! Das ist zu viel für meinen Geist."  #Selbst geschrieben/abgetippt
  stress_threshold.1711.h.hashishiyah.effect:0 "$stress_threshold.1711.h.hashishiyah.gain$"
  stress_threshold.1711.i:0 "Ich bin [ROOT.GetCharacter.Custom('DE_ART_DEF_S_N')] [ROOT.GetCharacter.GetTitleAsNameNoTooltip]. Ich schaffe das!"
- 
+
  stress_threshold.1721.t:0 "Geistiger Zusammenbruch: Hochstapler!"
  stress_threshold.1721.desc.intro:1 "Seit Kurzem kommt es mir vor, als wäre ich meines Titels nicht mehr würdig. Zweifeln andere Herrscher ebenfalls so sehr an sich selbst?\n\nIch versuche, gut und "
  stress_threshold.1721.desc.chaste:0 "keusch zu sein, doch irgendwie rufen ständig die Verlockungen des Fleisches nach mir. Jemand meines Standes sollte derart unzüchtige Gelüste nicht verspüren."
@@ -104,7 +108,7 @@
  stress_threshold.1721.l.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.1721.m:0 "Ich bin genauso gut wie der Rest!"
  stress_threshold.1721.n:0 "Vielleicht sehne ich mich auch nur nach der seltensten Fleischsorte …"
- 
+
  stress_threshold.1731.t:0 "Geistiger Zusammenbruch: Keine Zeit für mich selbst"
  stress_threshold.1731.desc.intro:1 "Neuerdings erscheint mir das Herrschen so erschöpfend. Offenbar kann sich kein Untertan in [ROOT.GetCharacter.GetPrimaryTitle.GetNameNoTierNoTooltip] den Hintern abwischen, ohne dass ich ihm dabei zur Hand gehe!\n\nIch war gerade dabei, einen kleinen Ausflug zu planen"
  stress_threshold.1731.desc.lustful:0 "in ein örtliches Freudenhaus, wo ich bleiben werde, bis ich wund und erschöpft bin,"
@@ -131,10 +135,12 @@
  stress_threshold.1731.g.athletic.effect:0 "$stress_threshold.1731.g.athletic.gain$"
  stress_threshold.1731.h.drunkard.gain:0 "Dann werde ich mich wohl den gesamten Ritt über betrinken …"
  stress_threshold.1731.h.drunkard.effect:0 "$stress_threshold.1731.h.drunkard.gain$"
+ #AGOT Modified
+ #stress_threshold.1731.i.hashishiyah.gain:0 "Do we have hashish cakes for the ride?"
  stress_threshold.1731.i.hashishiyah.gain:0 "Haben wir etwas Mohnblumensaft, um die Reise zu erleichtern?"  #Selbst geschrieben/abgetippt
  stress_threshold.1731.i.hashishiyah.effect:1 "$stress_threshold.1731.i.hashishiyah.gain$"
  stress_threshold.1731.g:0 "#EMP Gut#!, dann wird eben nichts aus meinen Plänen."
- 
+
  stress_threshold.2301.t:0 "Geistiger Zusammenbruch: Wachsende Bedürfnisse"
  stress_threshold.2301.desc.intro:0 "Mir kommt es vor, als würde mir jeder Tag gnadenlos entgleiten angesichts des niemals enden wollenden Stroms an gierigen Bittstellern und schwierigen Entscheidungen. Mir wird klamm in der Brust, als der Nächste vor mich tritt. Meine Fingerspitzen kitzeln, meine Augen kommen mir zu klein vor für meinen Schädel.\n\nIch muss hier weg, und wenn auch nur kurz. Ich muss"
  stress_threshold.2301.desc.lustful:0 "die Wärme eines anderen Menschen in meinen Armen spüren, einfach nur um eine Verbindung zu fühlen."
@@ -154,7 +160,7 @@
  stress_threshold.2301.e.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2301.e.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2301.f:0 "Ich hasse das."
- 
+
  stress_threshold.2311.t:0 "Geistiger Zusammenbruch: Heimgesucht von der Vergangenheit"
  stress_threshold.2311.desc.intro:0 "Ich sitze grübelnd auf meinem Thron, die Erinnerung wiegt schwer auf meinem Herzen, und ich gehe Dinge durch, die ich vor vielen Jahren getan habe."
  stress_threshold.2311.desc.generous:0 "War ich wirklich gerecht als [ROOT.GetCharacter.GetTitleAsNameNoTooltip]? Habe ich den Menschen wirklich geholfen?"
@@ -190,7 +196,7 @@
  stress_threshold.2311.k.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2311.k.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2311.l:0 "Ich darf keine Fehler machen: Ich bin schließlich [ROOT.GetCharacter.GetTitleAsNameNoTooltip]."
- 
+
  stress_threshold.2321.t:0 "Geistiger Zusammenbruch: Überfordert vom Hof"
  stress_threshold.2321.desc.intro:0 "Was ich auch tue: Die Leute nutzen mich aus!"
  stress_threshold.2321.desc.impatient:0 "Mein Leben ist eine einzige Kette langer, ausschweifender Erklärungen, für die mir schlicht die Zeit fehlt!"
@@ -228,7 +234,7 @@
  stress_threshold.2321.h.drunkard.list:0 "[vassals|E] und [courtiers|E] ohne [GetTrait('gluttonous').GetName(GetNullCharacter)], [GetTrait('forgiving').GetName(GetNullCharacter)] oder [GetTrait('compassionate').GetName(GetNullCharacter)]"
  stress_threshold.2321.i.hashishiyah.list:0 "$stress_threshold.2321.h.drunkard.list$"
  stress_threshold.2321.j:0 "Ich beiße die Zähne zusammen und lächle gezwungen."
- 
+
  stress_threshold.2331.t:0 "Geistiger Zusammenbruch: Entfremdete Autorität"
  stress_threshold.2331.desc.intro:0 "In letzter Zeit gehen mir meine Höflinge nach Kräften aus dem Weg. Gerüchten zufolge "
  stress_threshold.2331.desc.calm:0 "empfinden sie mein ruhiges Verhalten als verstörend und emotionslos."
@@ -259,7 +265,7 @@
  stress_threshold.2331.i.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2331.i.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2331.j:0 "Ich brauche keine Liebe, nur Gehorsam."
- 
+
  stress_threshold.2341.t:0 "Geistiger Zusammenbruch: Geschwänzte Pflicht"
  stress_threshold.2341.desc.intro:0 "Verflucht, ich brauche auch mal Zeit für mich selbst! Dann bin ich eben einige Tage oder auch einen Monat nicht bei Hofe, na und? Die Herrschaft ist mein Vorrecht, und ich werde sie ausüben, wann es mir gefällt.\n\nIch bin [ROOT.GetCharacter.Custom('DE_ART_DEF_S_N')] [ROOT.GetCharacter.GetTitleAsNameNoTooltip],"
  stress_threshold.2341.desc.lazy:0 "und ich brauche meine Ruhe!"
@@ -286,7 +292,7 @@
  stress_threshold.2341.g.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2341.g.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2341.h:0 "Verflucht sei dieser launische Pöbel!"
- 
+
  stress_threshold.2351.t:0 "Geistiger Zusammenbruch: Ungebührliche Bemerkungen"
  stress_threshold.2351.desc.intro:0 "Ich sitze da und höre nur mit einem Ohr hin, als der Bauer seine Leidensgeschichte zu Ende bringt. Ehrlich gesagt ist mir kaum bewusst, worum es wirklich ging. Mir schwirrt der Kopf von meinen eigenen Beschwernissen.\n\n"
  stress_threshold.2351.desc.content:0 "„Könnt Ihr denn nicht einfach #EMP zufrieden#! sein mit dem, was Ihr noch habt?“,"
@@ -313,7 +319,7 @@
  stress_threshold.2351.h.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2351.h.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2351.i:0 "Entschuldigt. Und nun fahrt bitte fort …"
- 
+
  stress_threshold.3401.t:0 "Geistiger Zusammenbruch: Falsche Zeit, falscher Ort"
  stress_threshold.3401.desc.intro:0 "Mein Kopf fühlt sich an, als wäre ein Sturm in einer Eierschale gefangen. Ich winde mich auf meinem Thron im verzweifelten Versuch, halbwegs bequem zu sitzen, als ein Bote mir eine unwichtige Mitleidsgeschichte von Piraten oder Banditen oder Plünderern oder sonstigem Unfug auftischt, der die Gemeinen so plagt.\n\nDer Druck in meinem Schädel steigt, und irgendwie muss ich ihn abbauen. Daher öffne ich fast unabsichtlich den Mund."
  stress_threshold.3401.desc.vengeful:0 "„Habt Ihr nicht vor Jahren ein Ei auf mich geworfen?"
@@ -336,10 +342,12 @@
  stress_threshold.3401.d.confider.effect:0 "$stress_threshold.1701.h.confider.effect$"
  stress_threshold.3401.e.drunkard.gain:0 "Und bringt mir etwas zu trinken! Bringt mir viel!"
  stress_threshold.3401.e.drunkard.effect:0 "$stress_threshold.3401.e.drunkard.gain$"
+ #AGOT Modified
+ #stress_threshold.3401.f.hashishiyah.gain:0 "And bring out some hashish cakes!"
  stress_threshold.3401.f.hashishiyah.gain:0 "Und bringt mir etwas Mohnblumensaft!"  #Selbst geschrieben/abgetippt
  stress_threshold.3401.f.hashishiyah.effect:0 "$stress_threshold.3401.f.hashishiyah.gain$"
  stress_threshold.3401.g:0 "Und bringt mir den Kopf als Fußschemel!"
- 
+
  stress_threshold.3411.t:0 "Geistiger Zusammenbruch: Ich bin unwürdig!"
  stress_threshold.3411.desc.intro:0 "Ich kann das nicht. Ich kann das nicht. Ich kann keinen Augenblick länger [ROOT.GetCharacter.GetTitleAsNameNoTooltip|L] sein! Wie können die anderen diese pulsierende Masse von Widrigkeiten nur #EMP aushalten#!? Ganz gleich,"
  stress_threshold.3411.desc.generous:0 "wie viel ich gebe, ganz gleich, wie großzügig ich meinen Untertanen gegenüber bin: Irgendwie ist immer jemand arm, und irgendwie hasst mich immer jemand."
@@ -374,12 +382,14 @@
  stress_threshold.3411.i.athletic.effect:0 "$stress_threshold.3411.i.athletic.gain$"
  stress_threshold.3411.j.drunkard.gain:0 "Bringt mir ein Fass Wein, in dem ich meinen Kummer ertränken kann."
  stress_threshold.3411.j.drunkard.effect:0 "$stress_threshold.3411.j.drunkard.gain$"
- stress_threshold.3411.k.hashishiyah.gain:0 "Bringt mir Mohnblumensaft, damit ich diese Schande vergessen kann."  #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ #stress_threshold.3411.k.hashishiyah.gain:0 "I want enough hashish to obliterate this shame."
+ stress_threshold.3411.k.hashishiyah.gain:0 "Bringt mir genug Mohnblumensaft, damit ich diese Schande vergessen kann."  #Selbst geschrieben/abgetippt
  stress_threshold.3411.k.hashishiyah.effect:0 "$stress_threshold.3411.k.hashishiyah.gain$"
  stress_threshold.3411.l:0 "Das reicht! Ich danke ab!"
  stress_threshold.3411.l.list:0 "Jeder [vassal|E], der Euch nicht hasst"
  stress_threshold.3411.l.tt:0 "Alle [claims|E] gegen Eure [titles|E] werden [pressed|E]"
- 
+
  stress_threshold.3421.t:0 "Geistiger Zusammenbruch: Das Reich der Lust"
  stress_threshold.3421.desc.intro:0 "„Eure Hoheit“, fleht der Diener, „so tut doch etwas! [burning_holding.GetNameNoTier] brennt! Ihr müsst Hilfe schicken!“\n\n"
  stress_threshold.3421.desc.lustful:0 "Ich strecke mich, und beide Hände berühren mühelos wunderschönes junges Fleisch. Das Stöhnen aus zahlreichen Mündern hinter mir ist offenbar unbeeindruckt von unserem Besucher."
@@ -409,14 +419,16 @@
  stress_threshold.3421.f.comfort_eater.effect:0 "$stress_threshold.3421.f.comfort_eater.gain$"
  stress_threshold.3421.g.drunkard.gain:0 "Öffnet schon einmal ein Fass besten Weines. Ich komme bald."
  stress_threshold.3421.g.drunkard.effect:0 "$stress_threshold.3421.g.drunkard.gain$"
+ #AGOT Modified
+ #stress_threshold.3421.h.hashishiyah.gain:0 "Ready a platter of cakes, I'll emerge soon."
  stress_threshold.3421.h.hashishiyah.gain:0 "Bereitet einen Becher Mohnblumensaft vor. Ich komme bald."  #Selbst geschrieben/abgetippt
  stress_threshold.3421.h.hashishiyah.effect:0 "$stress_threshold.3421.h.hashishiyah.gain$"
  stress_threshold.3421.i:0 "Lasst sie alle #EMP brennen#!."
  stress_threshold.3421.b.reclusive.list:0 "Jeder [vassal|E] mit einem Herz"
- 
+
 #Other
  jealousy_at_court_effect.confider.list:0 "Alle [courtiers|E] werden [friend.GetFirstNameNoTooltip] als Speichellecker betrachten"
- 
+
 #Character Modifiers
  encouraged_city_burn_modifier:0 "Lasst sie alle brennen"
  encouraged_city_burn_modifier_desc:0 "Dieser Charakter hat ein ganzes Besitztum fast vollständig abbrennen lassen."
@@ -443,6 +455,8 @@
  bottom_of_a_bottle_modifier:0 "Der Boden der Flasche"
  bottom_of_a_bottle_modifier_desc:0 "Dieser Charakter ertränkt seine Vergangenheit im Alkohol."
  fogging_hard_memories_modifier:0 "Erinnerungen austreiben"
+ #AGOT Modified
+ #fogging_hard_memories_modifier_desc:0 "This character drowns out their past with legions of hashish cakes."
  fogging_hard_memories_modifier_desc:0 "Dieser Charakter vergisst seine Vergangenheit mithilfe von Mohnblumensaft."  #Selbst geschrieben/abgetippt
  high_blood_pressure_modifier:0 "Hoher Blutdruck"
  high_blood_pressure_modifier_desc:0 "Dieser Charakter ist in ungesundem Maße verärgert."
@@ -480,7 +494,7 @@
  tragic_stoner_modifier_desc:0 "$tragic_drunk_modifier_desc$"
  good_exercise_modifier:0 "Gute Übung"
  good_exercise_modifier_desc:0 "Dieser Charakter ist beim Ertüchtigen an seine Grenzen gegangen und fühlt sich dadurch stärker, auch wenn er gewaltig nach Schweiß stinkt …"
- 
+
 #Title Modifiers
  controlled_urban_fires_modifier:0 "Stadtbrände unter Kontrolle"
  controlled_urban_fires_modifier_desc:0 "In einem Besitztum dieser Grafschaft wurde ein gewaltiges Feuer in letzter Sekunde verhindert."

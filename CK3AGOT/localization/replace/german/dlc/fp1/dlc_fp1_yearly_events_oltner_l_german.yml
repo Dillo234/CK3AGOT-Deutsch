@@ -23,7 +23,7 @@
  fp1_yearly.2004.a:0 "Rotzfreches Ding …"
  fp1_yearly.2000.b.success:0 "[child_to_leave.GetFirstNameNoTooltip] gibt [child_to_leave.Custom('DE_PRO_POS_S_3P')]e Hoffnungen und Träume auf"
  fp1_yearly.2000.b.failure:0 "[child_to_leave.GetFirstNameNoTooltip] ist von Euren Argumenten nicht überzeugt"
- 
+
  fp1_yearly.2100.t:0 "Herzlicher Wettstreit"
  fp1_yearly.2100.desc:0 "„Ihr widerliches Hurending! Ihr grässliches Scheusal! Euch sollen die Lenden verfaulen, Ihr Pisspott!“, schreit [lover_1.GetFirstName] aus vollem Hals.\n\nOffenbar gehen sich Eure Affären gerade an die Gurgel.\n\n„Der Gestank Eures Schritts lässt [lover_quarrel_target.Custom('DE_PRO_PER_S_3P_A')] vor Ekel würgen, Ihr Dreckstück. [lover_quarrel_target.GetFirstNameNoTooltip] könnte eine garstige Kröte wie Euch nie lieben! #EMP [lover_quarrel_target.Custom('DE_PRO_PER_S_3P_N')|U] wird allein mir gehören!#!“, ruft [lover_2.GetFirstName] und zieht [lover_2.Custom('DE_PRO_POS_S_3P')][lover_2.Custom('DE_2_signature_weapon')] [lover_2.Custom('signature_weapon')] aus dem Gürtel …\n\nHier wird es gleich blutig zugehen."
  fp1_yearly.2100.a:0 "Wie #EMP aufregend!#! Ja! Kämpft um meine Liebe!"
@@ -42,7 +42,7 @@
  fp1_yearly.2100.c.success:0 "Ihr reißt die Streitenden auseinander"
  fp1_yearly.2100.c.failure:0 "Ihr schafft es nicht rechtzeitig"
  fp1_yearly.2100.c.tt:0 "Ihr haltet [lover_1.GetFirstName] und [lover_2.GetFirstName] vom Kämpfen ab."
- 
+
  fp1_yearly.2200.t:0 "Berserker-Langeweile"
  fp1_yearly.2200.desc:0 "„Seht her! Ich bin [new_berserker.GetFirstNameNoTooltip] [new_berserker.Custom('DE_ART_DEF_S_N')] Garstige: Bringt mir Humpen mit Bier, [new_berserker.Custom('AttractionWomanManMultiple')], und die süßeste Leckerei, die Ihr finden könnt! Es sei denn, Ihr wollt meinen Zorn heraufbeschwören?!“, brüllt dieser Mensch der versammelten Menge entgegen.\n\nGanz offenkundig langweilt sich [new_berserker.Custom('DE_PRO_DEM')][new_berserker.Custom('DE_END_PRO_S_N')] massige Krieger[new_berserker.Custom('DE_END_NOU_S_GS_N')] und ist auf Ärger aus. Vielleicht ließe all [new_berserker.Custom('DE_PRO_POS_S_3P')] Zorn sich in meinen Reihen besser nutzen?\n\n„Gibt es denn niemanden, der es wagt, mir die Stirn zu bieten? Feiglinge! Was würde ich nicht für eine ordentliche Rauferei geben …“"
  fp1_yearly.2200.a:0 "Niemand nennt mich einen Feigling, Ihr elende Kreatur!"
@@ -65,18 +65,24 @@
  fp1_yearly.2204.desc:0 "„Es tut mir leid“, sagt [new_berserker.GetFirstNameNoTooltip] in angegriffenem Tonfall. „Ich werde zornig, wenn ich hungrig bin.“\n\n[new_berserker.Custom('DE_ART_DEF_S_N')|U] massige [new_berserker.GetWomanMan] reicht mir die Hand, um mir aufzuhelfen. [new_berserker.Custom('DE_PRO_POS_S_3P')|U] Zorn scheint besänftigt zu sein … Fürs Erste.\n\n„Mir hat unser Kampf Spaß gemacht. Gern würde ich mich Euch anschließen“, sagt [new_berserker.Custom('DE_PRO_PER_S_3P_N')]."
  fp1_yearly.2204.a:0 "„Und ich nehme Euch nur allzu gern, mein[new_berserker.Custom('DE_END_PRO_S_N')] Freund[new_berserker.Custom('DE_END_NOU_S_GS_N')]!“"
  fp1_yearly.2204.b:0 "„Bitte geht einfach …“"
- 
+
  grizzled_veterans:0 "Angegraute Veteranen"
  glory_seekers:0 "Ruhmsucher"
  fp1_yearly.2300.t:0 "Ruhmsucher"
+ #AGOT Modified
+ #fp1_yearly.2300.desc:0 "The taverns of [tavern_location.GetNameNoTier] have seen an influx of glory-seeking warriors as of late.\n\nAmong them — a group of old and battle-hardened veterans, huscarls looking for a new [recruiting_character.Custom('MistressMaster')].\n\nThere is also a whole host of enthusiastic young men that talk non-stop about finding glory on foreign shores.\n\nPerhaps I should seek to employ some of them?"
  fp1_yearly.2300.desc:0 "Die Tavernen von [tavern_location.GetNameNoTier] haben unlängst einen regen Zulauf an ruhmsuchenden Kriegern erfahren.\n\nUnter ihnen ist eine Gruppe alter und schlachterprobter Veteranen: Plünderer, die nach einem neuen Herrn suchen.\n\nAußerdem gibt es eine ganze Schar begeisterter junger Männer, die ununterbrochen davon reden, Ruhm an fremden Ufern finden zu wollen.\n\nVielleicht sollte ich versuchen, einige von ihnen anzustellen?"  #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ #fp1_yearly.2300.a:0 "I'll bring the huscarls into my household."
  fp1_yearly.2300.a:0 "Ich bringe die Plünderer in meinen Haushalt."  #Selbst geschrieben/abgetippt
  fp1_yearly.2300.b:0 "Die jungen Männer sind unerfahren – aber ihre Zahl ist groß!"
  fp1_yearly.2300.c:0 "Zeit, den Bierpreis zu verdoppeln!"
  fp1_yearly.2300.d:0 "Schließt Euch mir an, tapfere Krieger! Ich führe Euch zum Sieg!"
+ #AGOT Modified
+ #huscarls_tt:0 "#F Huscarls are tough frontline fighters capable of inflicing a lot of damage to weaker troops#!"
  huscarls_tt:0 "#F Plünderer sind zähe Frontkämpfer, die schwächeren Truppen eine Menge Schaden beibringen können#!"  #Selbst geschrieben/abgetippt
  bondi_tt:0 "#F Bondí sind widerstandsfähig und kämpfen am besten auf den Ebenen oder dem Ackerland fremder Ufer#!"
- 
+
  fp1_yearly.2400.t:0 "Vorbereitungen auf die Jagd"
  fp1_yearly.2400.desc:0 "Die Wildnis ruft nach mir. Es ist schon zu lange her, dass ich das letzte Mal auf der Jagd war. Dort draußen in [hunting_province.GetName] gibt es viel verlockende Beute: [ROOT.Char.Custom('GetAnimalPlural')] sind die verlockendsten. Solch ein Tier würde sich heute Abend als Braten auf meiner Tafel gut machen!\n\nMir fehlt allerdings noch etwas. Sind meine Jagdspeere zu alt und stumpf? Oder mangelt es mir an einem Gefährten?\n\nIch sollte mich unbedingt gut auf meine Jagd vorbereiten."  #Selbst geschrieben/abgetippt
  fp1_yearly.2400.a:0 "Ein neuer Jagdhund ist das, was ich brauche."
@@ -85,10 +91,12 @@
  fp1_yearly.2400.free_hunt:1 "Eure nächste [GetActivityType('activity_hunt').GetName] wird kein [gold|E] kosten"
  brand_new_hunting_tools:0 "Brandneues Jagdwerkzeug"
  brand_new_hunting_tools_desc:0 "Dieser Charakter hat eine beachtliche Menge Gold für neue Jagdausrüstung ausgegeben."
- 
+
  fp1_yearly.2500.t:0 "Rolliger Runenstein"
  fp1_yearly.2500.desc:0 "Nach einem recht langen Weg durch die Wildnis von [runestone_location.GetNameNoTier] komme ich an jenem Ort an, wo der Runenstein meiner Familie steht. Doch anscheinend bin ich nicht allein: Mein Gast [deviant_guest.GetTitledFirstName] ist auch hier – wie hat [deviant_guest.Custom('DE_PRO_PER_S_3P_N')] diesen Ort nur gefunden?!\n\n„Es ist nicht das, wonach es aussieht, mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleTierName]!“, behauptet [deviant_guest.Custom('DE_PRO_PER_S_3P_N')].\n\nDer Umstand, dass [deviant_guest.Custom('DE_PRO_PER_S_3P_N')] halb nackt und gerade dabei ist, sich wild am #EMP Runenstein meiner Familie#! zu reiben, verrät mir allerdings, dass das hier aber ganz genau das ist, wonach es aussieht."
- 
+
+ #AGOT Modified
+ #fp1_yearly.2600.t:0 "Fury of the Northmen"
  fp1_yearly.2600.t:0 "Zorn der alten Götter"  #Selbst geschrieben/abgetippt
  fp1_yearly.2600.desc:0 "„[ROOT.GetCharacter.GetFirstNameNoTooltip], Ihr seid im Kampf erprobt, doch fürchten Euch Eure Feinde #EMP wirklich#!?“, sagt [berserker_teacher.GetFirstName].\n\nIch habe schon gesehen, wie [berserker_teacher.GetFirstNameNoTooltip] sich auf dem Schlachtfeld in eine unmenschliche Wut hineingesteigert hat, und ich habe zahllose Feinde vor [berserker_teacher.Custom('DE_PRO_POS_S_3P')]er heulenden Gestalt fliehen sehen. Zeuge von einem Berserkergang von [berserker_teacher.GetFirstNameNoTooltip] zu werden, ist, wie Zeuge des Zorns von [ROOT.GetCharacter.GetFaith.HighGodName] selbst zu werden.\n\n„Setzt Euch mit mir vors Feuer. Lasst uns unseren Zorn anrufen“, schlägt [berserker_teacher.Custom('DE_PRO_PER_S_3P_N')] vor."
  fp1_yearly.2600.a:0 "Lasst mich meinen Bärenpelz holen!"
@@ -104,4 +112,4 @@
  fp1_yearly.2601.a:0 "Ich kann die nächste Schlacht kaum erwarten!"
  fp1_yearly.2601.b:0 "Dies muss das Werk von [ROOT.Char.GetFaith.TricksterGodName] gewesen sein …"
  fp1_yearly.2601.c:0 "Ach nun! Zumindest fühle ich mich großartig!"
- 
+

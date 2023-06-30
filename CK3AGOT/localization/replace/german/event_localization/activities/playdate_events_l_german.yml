@@ -1,10 +1,13 @@
 ﻿l_german:
  ### PHASES
+
+ ### PHASES
  playdate_phase:0 "Treffen"
 
  ### OPTIONS
 
  ### INTENTS
+
  child_return_from_playdate_title:0 "Heimkehr eines Kindes"
  child_return_from_playdate_desc:0 "[child_scope.GetShortUIName] ist vom Spieltreffen mit Gleichgestellten am Hof von [host.GetShortUIName] zurückgekehrt"
 
@@ -39,7 +42,7 @@
  playdate.2003.t:1 "Eine armselige Feier"
  playdate.2003.desc:0 "Ich fasse es nicht. Trotz meiner Einladungen und Vorbereitungen tauchte kein einziger Gast bei meinem Spieltreffen auf.\n\nSei’s drum! Es kümmert mich nicht. Dann genieße ich all die Leckereien eben ganz allein. Und diese Spielzeuge. Und … Und … Warum ist denn niemand gekommen?"
  playdate.2003.a:0 "Warum ist denn niemand gekommen?"
- 
+
  playdate.2501.t:1 "Eine herzliche Begrüßung"
  playdate.2501.likes_host:0 "Alle haben sich in der großen Halle versammelt, und [host.GetTitledFirstNameNoTooltip] begrüßt uns alle beim Spieltreffen!"
  playdate.2501.dislikes_host:1 "Alle haben sich in der großen Halle versammelt, und [host.Custom('DE_ART_DEF_S_N')] [host.Custom('InsultAdjective')|l]e [host.GetTitledFirstNameNoTooltip] begrüßt uns alle beim Spieltreffen!"
@@ -161,6 +164,8 @@
  playdate.3013.a:0 "Ich will nur wissen, was für eine Pflanze Ihr da in der Hand habt."
  playdate.3013.a.success:0 "Ihr lernt viel über Kräuter und Pflanzen"
  playdate.3013.a.failure:0 "Ihr habt keine Ahnung, wovon [witch.Custom('DE_PRO_PER_S_3P_N')] da redet"
+ #AGOT Modified
+ #playdate.3013.b:0 "Yes, teach me everything you can!"
  playdate.3013.b:0 "Man sagt, Ihr könnt in die Zukunft sehen..?" #AGOT MODIFIED - ZOMBIESCHRODCAT
  playdate.3013.c:0 "Ihr … Ihr seid doch eine Hexe! Ihr seid ein böser Mensch!"
 

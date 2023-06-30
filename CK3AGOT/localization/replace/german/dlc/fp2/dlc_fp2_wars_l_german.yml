@@ -16,8 +16,14 @@
  border_raid_warning_tt:0 "@warning_icon! #X Keine [titles|E] wechseln den Träger.#!"
  border_raid_message_title:0 "Grenzgemeinde überfallen"
 
+ #AGOT Modified
+ #FP2_EXPEL_INTERLOPER_CB_NAME:0 "[iberian_reclamation|E] against [DEFENDER.GetPrimaryTitle.GetNameNoTier] "
  FP2_EXPEL_INTERLOPER_CB_NAME:0 "[btw_reclamation|E] gegen [DEFENDER.GetPrimaryTitle.GetNameNoTier]"  #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ #FP2_EXPEL_INTERLOPER_CB_SPECIFIC_NAME:0 "[iberian_reclamation|E] of [TITLE.GetBaseNameNoTier]"
  FP2_EXPEL_INTERLOPER_CB_SPECIFIC_NAME:0 "[btw_reclamation|E] von [TITLE.GetBaseNameNoTier]"  #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ #FP2_EXPEL_INTERLOPER_WAR_NAME:0 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] [iberian_reclamation|E] of [TITLE.GetBaseNameNoTier]"
  FP2_EXPEL_INTERLOPER_WAR_NAME:0 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] [btw_reclamation|E] von [TITLE.GetBaseNameNoTier]"  #Selbst geschrieben/abgetippt
  FP2_EXPEL_INTERLOPER_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective]-[DEFENDER.GetPrimaryTitle.GetName]"
 
@@ -27,8 +33,9 @@
  iberian_reclamation_cb_victory_desc_attacker_conquer_2:0 "$EFFECT_LIST_BULLET$Ihr erhaltet umkämpfte, von [Concept('struggle_uninvolved', 'Unbeteiligten')|E] gehaltene [counties|E] und jene von [Concept('holders', 'Trägern')|E] mit Ländereien außerhalb des [Concept('duchy', 'Herzogtums')|E]\n"
  iberian_reclamation_cb_victory_desc_defender_conquer_1:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] wird [liege|E] der am [Concept('struggle_involved', 'Ringen beteiligten')|E] [vassals|E] von niederem [rank|E] von [defender.GetShortUIName] im Ziel-[duchy|E]"
  iberian_reclamation_cb_victory_desc_defender_conquer_2:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] erhält umkämpfte, von [Concept('struggle_uninvolved', 'Unbeteiligten')|E] gehaltene [counties|E] und jene von [Concept('holders', 'Trägern')|E] mit Ländereien außerhalb des [Concept('duchy', 'Herzogtums')|E]\n"
+ #AGOT Modified
+ #fp2_expel_interloper:0 "[iberian_reclamation|E]"
  fp2_expel_interloper:0 "[iberian_reclamation|E]"
- fp2_expel_interloper:0 "[btw_reclamation|E]"
 
 
  iberian_reclamation_cb_white_peace_desc_vassalize:0 "[defender.GetShortUIName|U] bleibt [independent|E]"
@@ -37,4 +44,4 @@
  iberian_reclamation_cb_defeat_desc_conquer:0 "$iberian_reclamation_cb_white_peace_desc_conquer$"
  iberian_reclamation_cb_defeat_desc:0 "$iberian_reclamation_cb_white_peace_desc$"
 
- CB_COST_btw_reclamation:0 "Kostet [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] [prestige|E] pro [county|E]"  #Selbst geschrieben/abgetippt
+ CB_COST_IBERIAN_RECLAMATION:0 "Costs [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] [prestige|E] per-[county|E]"

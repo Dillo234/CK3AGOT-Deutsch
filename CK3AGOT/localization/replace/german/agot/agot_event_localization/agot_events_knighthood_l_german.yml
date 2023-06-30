@@ -1,5 +1,6 @@
 ﻿l_german:
 #Übersetzt von Lys aus dem Hause Lys, durchgesehen und überarbeitet von Dillo dem Laktoseritter
+
  #########################
  ## Hedge Knight Events ##
  #########################
@@ -82,7 +83,7 @@
  agot_knighthood_squire_offer_accept_toast.tt:0 "Ihr habt einen [Concept('squire', 'Knappen')]"
  agot_knighthood_squire_offer_reject_toast:0 "Knappentumsangebot abgelehnt"
  agot_knighthood_squire_offer_reject_toast.tt:0 "Euer Angebot wurde #N abgelehnt#!"
- 
+
  ##Used In the Knighting Interactions (Via char menu)
  agot_knighthood_made_a_knight_toast:0 "Ihr habt jemanden zum Ritter geschlagen!"
  agot_knighthood_made_a_knight_toast.tt:0 "Ihr habt [recipient.GetNameNoTooltip] zum Ritter geschlagen!"
@@ -128,8 +129,8 @@
  agot_knighthood.0504.desc:0 "Während ich mich als Sieger von [host.GetNamePossessive] Turniers feiern lasse, kommt einer meiner Kontrahenten, [potential_knight_maker.GetUIName] auf mich zu und fordert mich auf, vor [potential_knight_maker.Custom('DE_PRO_PER_S_3P_D')] zu knien. [potential_knight_maker.GetSheHe|U] verkündet, es sei nicht recht, dass ich das Turnier gewinne, ohne zum Ritter geschlagen zu werden - Genau das hat [potential_knight_maker.GetSheHe] nun vor!\n\nFeierlich zieht [potential_knight_maker.GetSheHe] [potential_knight_maker.Custom('DE_PRO_POS_S_3P')] Schwert und legt es auf meine rechte Schulter. Die Turnierfeierlichkeiten verstummen und alle Augen sind auf uns gerichtet. Er beginnt zu sprechen:\n\n#italic "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V], im Namen des Kriegers fordere ich Euch auf, mutig zu sein."#! [potential_knight_maker.GetSheHe|U] legt das Schwert auf meine linke Schulter. #italic "Im Namen des Vaters fordere ich Euch auf, gerecht zu sein."#! [potential_knight_maker.GetSheHe|U] legt das Schwert wieder auf meine rechte Schulter. #italic "Im Namen der Mutter fordere ich Euch auf, die Unschuldigen zu beschützen."#!"
  agot_knighthood.0504.a:0 "Ich schwöre es!"
  agot_knighthood.0504.a.tt:0 "Ihr nehmt den Ritterschwur an"
-#  agot_knighthood.0504.b:0 "Nein, ich will nicht!"
-#  agot_knighthood.0504.b.tt:0 "Ihr lehnt das Angebot von [potential_knight_maker.GetName] ab"
+#  agot_knighthood.0504.b:0 "On second thought, no I don't swear it."
+#  agot_knighthood.0504.b.tt:0 "You refuse to say the vows prompted by [potential_knight_maker.GetName]."
 
  agot_knighthood.0505.t:0 "Ein Ritter der Königslande"
  agot_knighthood.0505.desc:0 "[potential_knight_maker.GetName] lächelt: #italic "Erhebt Euch, #V Ser#! [ROOT.GetCharacter.GetFirstNameNoTooltip|V], als Ritter der Königslande!"#!"
@@ -154,8 +155,8 @@
  agot_knighthood.0511.a.tt:0 "Ihr nehmt den Ritterschwur an."
 
  agot_knighthood.0511.desc.participant_perspective:0 "Während ich mich als Sieger von [host.GetNamePossessive] Turniers feiern lasse, kommt einer meiner Kontrahenten, [potential_knight_maker.GetUIName], auf mich zu und fordert mich auf, vor ihm niederzuknien. Er verkündet, es sei nicht recht, dass ich das Turnier gewinne, ohne zum Ritter geschlagen zu werden - Genau das hat er nun vor!\n\nFeierlich zieht er sein Schwert und legt es auf meine rechte Schulter. Die Turnierfeierlichkeiten verstummen und alle Augen sind auf uns gerichtet. [potential_knight_maker.GetSheHe|U] beginnt zu sprechen:\n\n#italic "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V]. Im Namen des Kriegers fordere ich Euch auf, mutig zu sein."#! [potential_knight_maker.GetSheHe|U] legt das Schwert auf meine linke Schulter. #italic "Im Namen des Vaters fordere ich Euch auf, gerecht zu sein."#! [potential_knight_maker.GetSheHe|U] legt das Schwert wieder auf meine rechte Schulter. #italic "Im Namen der Mutter fordere ich Euch auf, die Unschuldigen zu beschützen."#!"
- agot_knighthood.0511.a:0 "Ich schwöre es!"
- agot_knighthood.0511.a.tt:0 "Ihr nehmt den Ritterschwur an." 
+ #agot_knighthood.0511.a0:0 "Ich schwöre es!"
+ #agot_knighthood.0511.a.tt0:0 "Ihr nehmt den Ritterschwur an." 
 
  agot_knighthood.0512.t:0 "Ein Ritter der Königslande"
  agot_knighthood.0512.desc:0 "[potential_knight_maker.GetName] lächelt: #italic "Erhebt Euch,#V Ser#! [ROOT.GetCharacter.GetFirstNameNoTooltip|V], als Ritter der Königslande!"#!"
@@ -181,16 +182,16 @@
 ## Special Squire Assignment Events ##
 ######################################
 
-agot_knighthood.0800.t:0 "Das Kind zum Ritter erziehen"
-agot_knighthood.0800.desc:0 "Mein Kind [squire.GetName] ist alt genug, um Knappe zu sein. Vielleicht sollte ich ihm einem Ritter der Königsgarde zur Ausbildung geben? Ich denke, [knight.GetName] eignet sich als  Ausbilder."
-agot_knighthood.0800.a:0 "So soll es sein!"
-agot_knighthood.0800.b:0 "Lieber nicht."
+ agot_knighthood.0800.t:0 "Das Kind zum Ritter erziehen"
+ agot_knighthood.0800.desc:0 "Mein Kind [squire.GetName] ist alt genug, um Knappe zu sein. Vielleicht sollte ich ihm einem Ritter der Königsgarde zur Ausbildung geben? Ich denke, [knight.GetName] eignet sich als  Ausbilder."
+ agot_knighthood.0800.a:0 "So soll es sein!"
+ agot_knighthood.0800.b:0 "Lieber nicht."
 
-agot_knighthood.0801.t:0 "Das Kind zum Ritter erziehen"
-agot_knighthood.0801.desc:0 "Mein Kind [squire.GetName] ist alt genug um Knappe zu sein. Vielleicht sollte ich ihm einen meiner Vasallen zur Ausbildung geben? Ich denke [knight.GetName] eignet sich als Ausbilder"
-agot_knighthood.0801.a:0 "Jawohl!"
-agot_knighthood.0801.b:0 "Nein."
+ agot_knighthood.0801.t:0 "Das Kind zum Ritter erziehen"
+ agot_knighthood.0801.desc:0 "Mein Kind [squire.GetName] ist alt genug um Knappe zu sein. Vielleicht sollte ich ihm einen meiner Vasallen zur Ausbildung geben? Ich denke [knight.GetName] eignet sich als Ausbilder"
+ agot_knighthood.0801.a:0 "Jawohl!"
+ agot_knighthood.0801.b:0 "Nein."
 
-agot_knighthood.0802.opening:0 "An meinen treuen Vasallen,"
-agot_knighthood.0802.desc:0 "Hiermit verpflichte ich Euch, [squire.GetName] zu Eurem Knappen zu machen! Ich erwarte von Euch, dass Ihr [squire.GetName] zeigt, was es heißt, ein Ritter zu sein!"
-agot_knighthood.0802.a:0 "Wie ihr befehlt."
+ agot_knighthood.0802.opening:0 "An meinen treuen Vasallen,"
+ agot_knighthood.0802.desc:0 "Hiermit verpflichte ich Euch, [squire.GetName] zu Eurem Knappen zu machen! Ich erwarte von Euch, dass Ihr [squire.GetName] zeigt, was es heißt, ein Ritter zu sein!"
+ agot_knighthood.0802.a:0 "Wie ihr befehlt."

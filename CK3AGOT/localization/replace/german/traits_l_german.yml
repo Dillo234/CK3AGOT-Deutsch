@@ -1,5 +1,15 @@
 ﻿l_german:
 #Reasons
+ TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE:0 "Requires [TraitLevelTrackEntry.GetXpRequired|V0]+ [trait_level_track_xp|E]\n[TraitLevelTrackEntry.GetModifierDescription( Character.Self )][AddLocalizationIf( GreaterThan_int32( TraitLevelTrackEntry.GetLevel, '(int32)1' ), 'MODIFIER_PREVIOUS_LEVELS_APPLY_NEWLINE' )]"
+ TRAIT_LEVEL_TRACK_ENTRY_DESC:2 "#V Level [TraitLevelTrackEntry.GetLevel]#!\n$TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE$"
+ TRAIT_LEVEL_TRACK_ENTRY_DESC_TT:0 "\n\n#S Level [TraitLevelTrackEntry.GetLevel]#!\n$TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE$"
+ TRAIT_LEVEL_TRACK_TT:2 "#T [TraitLevelTrack.GetName]#!\nCurrent Level: [Character.GetTraitTrackLevel( Trait.Self, TraitLevelTrack.Self )|V] #weak ([ComplexBar.GetCurrentValue] [trait_level_track_xp|E])#!\n#flavor [TraitLevelTrack.GetDescription]#![AddLocalizationIf( GreaterThan_int32( TraitLevelTrackEntry.GetLevel, '(int32)0' ), 'TRAIT_LEVEL_TRACK_ENTRY_DESC_TT' )]"
+ TRAIT_LEVEL_TRACK_SHORT_TT:0 "#T [TraitLevelTrack.GetName] [Trait.GetName( Character.Self )]#!\n#flavor [TraitLevelTrack.GetDescription]#!"
+ TRAIT_LEVEL_TRACK_PROGRESS_TOOTLIP:0 "#T [TraitLevelTrack.GetName]#!\nCurrent [trait_level_track_xp|E]: [ComplexBar.GetNextValue|0V]\n#flavor [TraitLevelTrack.GetDescription]#!"
+ TRAIT_LEVEL_TRACKS_HEADER:0 "[Trait.GetNameNoTooltipWithDefault( Character.Self )] [trait_level_track|E]"
+ TRAIT_LEVEL_TRACK_HEADER:0 "#V #bold [TraitLevelTrack.GetName]#!#!\n#flavor [TraitLevelTrack.GetDescription]#!\n"
+
+#Reasons
  ALREADY_CONTAINTS_TRAIT:2 "@warning_icon!#X $CHARACTER_NAME$ hat bereits die Eigenschaft: [TRAIT.GetName(CHARACTER.Self)]#!"
  CONTAINTS_OPPOSITE_TRAIT:2 "@warning_icon!#X [TRAIT.GetName(CHARACTER.Self)] kann nicht hinzugefügt werden, weil $CHARACTER_NAME$ bereits die entgegengesetzte Eigenschaft [TRAIT_2.GetName(CHARACTER.Self)] hat#!"
  IS_POTENTIAL_TRAIT_FALSE:2 "@warning_icon!#X [TRAIT.GetName(CHARACTER.Self)] kann nicht hinzugefügt werden, weil $CHARACTER_NAME$ sie nicht haben kann#!"
@@ -10,82 +20,93 @@
  SEX_MALE:0 "Männlich"
  SEX_FEMALE:0 "Weiblich"
 
- #Education Traits
+#Education Traits
  trait_education_intrigue_1:0 "Dilettantischer Verschwörer"
  trait_education_intrigue_1_desc:0 "Der Dilettantische Verschwörer hat zwar eine gewisse Ausbildung in Sachen Ränkespiel, doch echte Erfahrung in Bezug auf diese Kunst fehlt ihm."
  trait_education_intrigue_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat zwar eine gewisse Ausbildung in Sachen Ränkespiel erhalten, doch echte Erfahrung in Bezug auf diese Kunst fehlt [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_D')]."
-
  trait_education_intrigue_2:0 "Extravaganter Schwindler"
  trait_education_intrigue_2_desc:0 "Der Extravagante Schwindler hat zwar eine Ausbildung in der Kunst des Ränkespiels erhalten, muss aber noch viel lernen, bis Fehler und Patzer nicht mehr die Regel, sondern die Ausnahme sind."
  trait_education_intrigue_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat zwar eine Ausbildung in der Kunst des Ränkespiels erhalten, muss aber noch viel lernen, bis Fehler und Patzer nicht mehr die Regel, sondern die Ausnahme sind."
-
  trait_education_intrigue_3:0 "Undurchschaubarer Intrigenspinner"
  trait_education_intrigue_3_desc:0 "Der Undurchschaubare Intrigenspinner ist ein Meister des Ränkespiels, der Manipulation und der Geheimhaltung."
  trait_education_intrigue_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist [ROOT.GetCharacter.Custom('DE_ART_IND_N')] Meister[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')] des Ränkespiels, der Manipulation und der Geheimhaltung."
-
  trait_education_intrigue_4:0 "Flüchtiger Schatten"
  trait_education_intrigue_4_desc:0 "Der Flüchtige Schatten hat sich als ein Meister des Ränkespiels hervorgetan, und er ist in einen Schleier der Geheimhaltung gehüllt, der seinesgleichen sucht."
  trait_education_intrigue_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat sich als [ROOT.GetCharacter.Custom('DE_ART_IND_N')] Meister[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')] des Ränkespiels hervorgetan, und [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] ist in einen Schleier der Geheimhaltung gehüllt, der seinesgleichen sucht."
-
  trait_education_diplomacy_1:0 "Einfältiger Beschwichtiger"
  trait_education_diplomacy_1_desc:0 "Der Einfältige Beschwichtiger hat zwar eine gewisse Ausbildung in der Kunst der Diplomatie erhalten, ist aber trotzdem in der Regel eine Peinlichkeit für sich selbst und alle in seiner Umgebung."
  trait_education_diplomacy_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat zwar eine gewisse Ausbildung in der Kunst der Diplomatie erhalten, ist aber trotzdem in der Regel eine Peinlichkeit für sich selbst und alle in [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]er Umgebung."
-
  trait_education_diplomacy_2:0 "Annehmbarer Unterhändler"
  trait_education_diplomacy_2_desc:0 "Die Dinge laufen am Ende für den Annehmbaren Unterhändler meistens gut, doch es bleibt strittig, ob dies an seinem diplomatischen Können oder an seinem Glück liegt."
  trait_education_diplomacy_2_character_desc:0 "Die Dinge laufen am Ende für [ROOT.GetCharacter.GetFirstNameNoTooltip] meistens gut, doch es bleibt strittig, ob dies an [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]em diplomatischen Können oder an [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]m Glück liegt."
-
  trait_education_diplomacy_3:0 "Charismatischer Verhandler"
  trait_education_diplomacy_3_desc:0 "Als Meister der Überredungskunst und der Feinheiten der Diplomatie ist der Charismatische Verhandler ein ausgezeichneter Unterhändler."
  trait_education_diplomacy_3_character_desc:0 "Als Meister[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')] der Überredungskunst und der Feinheiten der Diplomatie ist [ROOT.GetCharacter.GetFirstNameNoTooltip] [ROOT.GetCharacter.Custom('DE_ART_IND_N')] ausgezeichnet[ROOT.GetCharacter.Custom('DE_END_ADJ_IND_S_N')] Unterhändler[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')]."
-
  trait_education_diplomacy_4:0 "Graue Eminenz"
  trait_education_diplomacy_4_desc:0 "Die Graue Eminenz kennt die Feinheiten der Diplomatie wie ihre Westentasche und ist eine Meisterin ihrer Kunst."
  trait_education_diplomacy_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] kennt die Feinheiten der Diplomatie wie [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]e Westentasche und ist [ROOT.GetCharacter.Custom('DE_ART_IND_N')] Meister[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')] [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]er Kunst."
-
- #Doppelte Keys erstmal auskommentiert
- #trait_education_stewardship_1:0 "Incompetent Steward"
- #trait_education_stewardship_1_desc:0 "Despite being instructed by a proper steward, this character still has a lot to learn."
- #trait_education_stewardship_2:0 "Competent Steward"
- #trait_education_stewardship_2_desc:0 "This character knows all the duties a proper steward has, sadly that is all he knows."
- #trait_education_stewardship_3:0 "Skilled Steward"
- #trait_education_stewardship_3_desc:0 "Educated to become a proper steward, shows some aptitude as well."
- #trait_education_stewardship_4:0 "Brilliant Steward"
- #trait_education_stewardship_4_desc:0 "One of the best stewards in the known world."
-
+ trait_education_stewardship_1:0 "Zügelloser Verschwender"
+ trait_education_stewardship_1_desc:0 "Der Zügellose Verschwender hat eine Verwaltungsausbildung erhalten, um den Fluss des Geldes nachvollziehen zu können, doch bedauerlicherweise scheint der letztere immer nur in eine Richtung zu strömen …"
+ trait_education_stewardship_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat eine Verwaltungsausbildung erhalten, um den Fluss des Geldes nachvollziehen zu können, doch bedauerlicherweise scheint Letzterer immer nur in eine Richtung zu strömen …"
+ trait_education_stewardship_2:0 "Knausriger Buchhalter"
+ trait_education_stewardship_2_desc:0 "Der Knausrige Buchhalter zeigt eine passable Leistung, wenn es um Investitionen und die Verwaltung geht, doch Patzer in dieser Kunst unterlaufen ihm dennoch regelmäßig."
+ trait_education_stewardship_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zeigt eine passable Leistung, wenn es um Investitionen und die Verwaltung geht, doch Patzer in dieser Kunst unterlaufen [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_D')] dennoch regelmäßig."
+ trait_education_stewardship_3:0 "Wohlstandsschaffer"
+ trait_education_stewardship_3_desc:0 "Der Wohlstandsschaffer besitzt ein feines Gespür für alle Belange der Verwaltung und ist in diesem Bereich geradezu eine Naturgewalt."
+ trait_education_stewardship_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] besitzt ein feines Gespür für alle Belange der Verwaltung und ist in diesem Bereich geradezu eine Naturgewalt."
+ trait_education_stewardship_4:0 "Kaufmännisches Genie"
+ trait_education_stewardship_4_desc:0 "Das Kaufmännische Genie erzielt in der Kunst der Verwaltung einen Erfolg nach dem anderen, und es ist vollkommen unstrittig, dass es sie erstklassig beherrscht."
+ trait_education_stewardship_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] erzielt in der Kunst der Verwaltung einen Erfolg nach dem anderen, und es ist vollkommen unstrittig, dass [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] sie erstklassig beherrscht."
  trait_education_martial_1:0 "Inkompetenter Kommandant"  #Selbst geschrieben/abgetippt
+ #AGOT Modified, Martial Education Descs Reworked
+ # trait_education_martial_1_desc:0 "The Misguided Warrior has received an education in the art of war, but is more likely to hurt themselves than their enemies."
+ # trait_education_martial_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has received an education in the art of war, but is more likely to hurt [ROOT.GetCharacter.GetHerselfHimself] than [ROOT.GetCharacter.GetHerHis] enemies."
+ # trait_education_martial_2:0 "Tough Soldier"
+ # trait_education_martial_2_desc:0 "The Tough Soldier has shown some prowess in martial matters, but still has a lot to learn."
+ # trait_education_martial_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has shown some prowess in martial matters, but still has a lot to learn."
+ # trait_education_martial_3:0 "Skilled Tactician"
+ # trait_education_martial_3_desc:0 "The Skilled Tactician is a reliable commander and fearsome warrior, renowned for their martial skill."
+ # trait_education_martial_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a reliable commander and fearsome warrior, renowned for [ROOT.GetCharacter.GetHerHis] martial skill."
+ # trait_education_martial_4:0 "Brilliant Strategist"
+ # trait_education_martial_4_desc:0 "The battlefield is the domain of the Brilliant Strategist, and no martial matter is beyond their knowledge."
+ # trait_education_martial_4_character_desc:0 "The battlefield is the domain of [ROOT.GetCharacter.GetFirstNameNoTooltip], and no martial matter is beyond [ROOT.GetCharacter.GetHerHis] knowledge."
+ #trait_education_martial_10:0 "Incompetent Commander"
  trait_education_martial_1_desc:0 "Obwohl er für das Kommandieren vorbereitet wurde, zeigt er nur wenig Eignung und verfügt nicht über die geringste Ahnung von elementarer Strategie."  #Selbst geschrieben/abgetippt
  trait_education_martial_1_character_desc:0 "Obwohl er für das Kommando vorbereitet wurde, zeigt [ROOT.GetCharacter.GetFirstNameNoTooltip] wenig Eignung und hat nicht den Hauch einer Ahnung von elementarer Strategie."  #Selbst geschrieben/abgetippt
-
  trait_education_martial_2:0 "Pflichtbewusster Anführer"  #Selbst geschrieben/abgetippt
  trait_education_martial_2_desc:0 "Der pflichtbewusste Anführer ist ein zuverlässiger Befehlshaber, der in der Lage ist, Vorhuten oder Scharmützel anzuführen."  #Selbst geschrieben/abgetippt
  trait_education_martial_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein zuverlässiger Befehlshaber, der in der Lage ist, Vorhuten oder Scharmützel anzuführen."  #Selbst geschrieben/abgetippt
-
  trait_education_martial_3:0 "Fähiger Taktiker"
  trait_education_martial_3_desc:0 "Der Fähige Taktiker hat eine große Begabung für die Führung von Männern und ist für seine strategische Analyse bekannt."  #Selbst geschrieben/abgetippt
  trait_education_martial_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat eine große Begabung für die Führung von Männern und ist für seine strategische Analyse bekannt."  #Selbst geschrieben/abgetippt
-
  trait_education_martial_4:0 "Brillanter Stratege"  #Selbst geschrieben/abgetippt
  trait_education_martial_4_desc:0 "Eroberungen lassen das Blut des Brillanten Strategen zum Kochen bringen und dies seiner Feinde gefrieren."  #Selbst geschrieben/abgetippt
  trait_education_martial_4_character_desc:0 "Eroberungen lassen das Blut von [ROOT.GetCharacter.GetFirstNameNoTooltip] zum Kochen bringen und das von [ROOT.Char.GetHerHis] Feinden gefrieren."  #Selbst geschrieben/abgetippt
-
+ #AGOT Modified, Prowess Education Descs Reworked
+ # trait_education_martial_prowess_1:0 "Bumbling Squire"
+ # trait_education_martial_prowess_1_desc:0 "The Bumbling Squire is only technically a knight, remembering little from their formal training."
+ # trait_education_martial_prowess_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is only technically a knight, remembering little from [ROOT.GetCharacter.GetHerHis] formal training."
+ # trait_education_martial_prowess_2:0 "Confident Knight"
+ # trait_education_martial_prowess_2_desc:0 "The Confident Knight is familiar with the ways of their culture's traditional combat, even fighting a few actions against recalcitrant peasants as a teenager."
+ # trait_education_martial_prowess_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is familiar with the ways of [ROOT.GetCharacter.GetHerHis] culture's traditional combat, even fighting a few actions against recalcitrant peasants as a teenager."
+ # trait_education_martial_prowess_3:0 "Formidable Banneret"
+ # trait_education_martial_prowess_3_desc:0 "The Formidable Banneret led troops and fought bandits even before their majority, battle-hardened into a determined combatant."
+ # trait_education_martial_prowess_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] led troops and fought bandits even before [ROOT.GetCharacter.GetHerHis] majority, battle-hardened into a determined combatant."
+ # trait_education_martial_prowess_4:0 "Famous Champion"
+ # trait_education_martial_prowess_4_desc:0 "The Famous Champion is known, respected, and perhaps even feared throughout the realm as a paragon of their culture's warrior practices."
+ # trait_education_martial_prowess_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is known, respected, and perhaps even feared throughout the realm as a paragon of [ROOT.Char.GetCulture.GetName] warrior practices."
  trait_education_martial_prowess_1:0 "Unerfahrener Kämpfer"  #Selbst geschrieben/abgetippt
  trait_education_martial_prowess_1_desc:0 "Der unerfahrene Kämpfer ist mehr als fähig, Bauern zu verprügeln, aber seine Verfassung ist wild und unreif."  #Selbst geschrieben/abgetippt
  trait_education_martial_prowess_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist mehr als fähig, Bauern zu verprügeln, aber [ROOT.GetCharacter.GetHerHis] Verfassung ist wild und unreif."  #Selbst geschrieben/abgetippt
-
  trait_education_martial_prowess_2:0 "Geübter Kämpfer"  #Selbst geschrieben/abgetippt
  trait_education_martial_prowess_2_desc:0 "Der geübter Kämpfer beherrscht die Kunst des Schwertes, des Streitkolbens und der Lanze. Sie sind sowohl in der Offensive als auch auf dem Rückzugsweg sicher und nicht zu vernachlässigen."  #Selbst geschrieben/abgetippt
  trait_education_martial_prowess_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] beherrscht die Kunst des Schwertes, des Streitkolbens und der Lanze. Sie sind sowohl in der Offensive als auch auf dem Rückzugsweg sicher und nicht zu vernachlässigen."  #Selbst geschrieben/abgetippt
-
  trait_education_martial_prowess_3:0 "Erfahrener Kämpfer"  #Selbst geschrieben/abgetippt
  trait_education_martial_prowess_3_desc:0 "Der erfahrene Kämpfer ist ein abgebrühter Kämpfer und ein unerschrockener Gegner für jeden, der sich ihm in den Weg stellt."  #Selbst geschrieben/abgetippt
  trait_education_martial_prowess_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein abgebrühter Kämpfer und ein unerschrockener Gegner für jeden, der sich [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_A')] in den Weg stellt."  #Selbst geschrieben/abgetippt
-
-
  trait_education_martial_prowess_4:0 "Formidabler Kämpfer"  #Selbst geschrieben/abgetippt
  trait_education_martial_prowess_4_desc:0 "Wer einen formidablen Kämpfer auf dem Schlachtfeld sieht, muss sich fürchten. Sie genießen einen tödlichen Ruf; im ganzen Reich werden sie als Musterbeispiel für kriegerische Macht geliebt, respektiert und gefürchtet."  #Selbst geschrieben/abgetippt
  trait_education_martial_prowess_4_character_desc:0 "Wer [ROOT.GetCharacter.GetFirstNameNoTooltip] auf dem Schlachtfeld sieht, wird [ROOT.Char.GetFaith.DeathDeityName] treffen. [ROOT.Char.GetSheHe|U] genießt einen tödlichen Ruf; im ganzen Reich wird [ROOT.Char.GetSheHe|U] als Musterbeispiel für kriegerische Macht geliebt, respektiert und gefürchtet."  #Selbst geschrieben/abgetippt
-
  trait_education_learning_1:0 "Bemühter Schreiber"
  trait_education_learning_1_desc:0 "Obwohl seine Ausbildung den Schwerpunkt auf Lernen und Lehren legte, zeigt der Bemühte Schreiber in diesem Bereich kaum Talent – wenigstens kann er lesen …"
  trait_education_learning_1_character_desc:0 "Obwohl die Ausbildung von [ROOT.GetCharacter.GetFirstNameNoTooltip] den Schwerpunkt auf Lernen und Lehren legte, zeigt [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] in diesem Bereich kaum Talent – wenigstens kann [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] lesen …"
@@ -99,24 +120,7 @@
  trait_education_learning_4_desc:0 "Der Meisterhafte Philosoph verfügt über unheimlich tiefe Einblicke in alle Aspekte der höheren Bildung."
  trait_education_learning_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] verfügt über unheimlich tiefe Einblicke in alle Aspekte der höheren Bildung."
 
- trait_education_stewardship_1:0 "Zügelloser Verschwender"
- trait_education_stewardship_1_desc:0 "Der Zügellose Verschwender hat eine Verwaltungsausbildung erhalten, um den Fluss des Geldes nachvollziehen zu können, doch bedauerlicherweise scheint der letztere immer nur in eine Richtung zu strömen …"
- trait_education_stewardship_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat eine Verwaltungsausbildung erhalten, um den Fluss des Geldes nachvollziehen zu können, doch bedauerlicherweise scheint Letzterer immer nur in eine Richtung zu strömen …"
-
- trait_education_stewardship_2:0 "Knausriger Buchhalter"
- trait_education_stewardship_2_desc:0 "Der Knausrige Buchhalter zeigt eine passable Leistung, wenn es um Investitionen und die Verwaltung geht, doch Patzer in dieser Kunst unterlaufen ihm dennoch regelmäßig."
- trait_education_stewardship_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zeigt eine passable Leistung, wenn es um Investitionen und die Verwaltung geht, doch Patzer in dieser Kunst unterlaufen [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_D')] dennoch regelmäßig."
-
- trait_education_stewardship_3:0 "Wohlstandsschaffer"
- trait_education_stewardship_3_desc:0 "Der Wohlstandsschaffer besitzt ein feines Gespür für alle Belange der Verwaltung und ist in diesem Bereich geradezu eine Naturgewalt."
- trait_education_stewardship_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] besitzt ein feines Gespür für alle Belange der Verwaltung und ist in diesem Bereich geradezu eine Naturgewalt."
-
- trait_education_stewardship_4:0 "Kaufmännisches Genie"
- trait_education_stewardship_4_desc:0 "Das Kaufmännische Genie erzielt in der Kunst der Verwaltung einen Erfolg nach dem anderen, und es ist vollkommen unstrittig, dass es sie erstklassig beherrscht."
- trait_education_stewardship_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] erzielt in der Kunst der Verwaltung einen Erfolg nach dem anderen, und es ist vollkommen unstrittig, dass [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] sie erstklassig beherrscht."
-
-
-#Lifestyle Traitss
+#Lifestyle Traits
  trait_diplomat:0 "Diplomat"
  trait_diplomat_desc:0 "Der Diplomat kreuzt geschickt durch die trügerischen Gewässer des menschlichen Miteinanders und erreicht seine Ziele dank einer überwältigenden Ausstrahlung und seiner Überzeugungskraft, wenn er zwischen den höchsten Herrschern im Land vermittelt."
  trait_diplomat_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] kreuzt geschickt durch die trügerischen Gewässer des menschlichen Miteinanders und erreicht [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]e Ziele dank einer überwältigenden Ausstrahlung und [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]er Überzeugungskraft, wenn [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] zwischen den höchsten Herrschern im Land vermittelt."
@@ -136,30 +140,29 @@
  trait_reveler_1_desc:0 "Die Eifrige Frohnatur hat am berauschenden Lebensstil aus Gelagen und Ausschweifungen geschnuppert und giert nun nach mehr."
  trait_reveler_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat am berauschenden Lebensstil aus Gelagen und Ausschweifungen geschnuppert und giert nun nach mehr."
  trait_reveler_2:0 "Berühmte Frohnatur"
- trait_reveler_2_desc:0 "Die Berühmte Frohnatur ist der Pulsgeber jeder Zusammenkunft und zieht sowohl Ausschweifungen als auch glanzvolle Auftritte an."
+ #trait_reveler_2_desc:0 "The Famous Reveler is the life of every gathering, attracting both debauchery and glamor."
  trait_reveler_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist [ROOT.GetCharacter.Custom('DE_ART_DEF_S_N')] Pulsgeber[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')] jeder Zusammenkunft und zieht sowohl Ausschweifungen als auch glanzvolle Auftritte an."
  trait_reveler_3:0 "Legendäre Frohnatur"
- trait_reveler_3_desc:0 "Essen, Trinken, Rauschzustände für Körper und Geist: Die Legendäre Frohnatur enthält sich selbst nie etwas vor und ist der Dreh- und Angelpunkt jedes Festmahls."
+ #trait_reveler_3_desc:0 "Food, drink, intoxication of both body and mind — the Legendary Reveler denies themselves nothing and is the nexus of every feast."
  trait_reveler_3_character_desc:0 "Essen, Trinken, Rauschzustände für Körper und Geist: [ROOT.GetCharacter.GetFirstNameNoTooltip] enthält sich selbst nie etwas vor und ist der Dreh- und Angelpunkt jedes Festmahls."
  trait_blademaster_1:0 "Aufstrebender Schwertmeister"
  trait_blademaster_1_desc:0 "Der Aufstrebende Schwertmeister ist recht geschickt im Kampf Mann gegen Mann: Er weiß, mit welchem Ende der Klinge man zustoßen muss."
  trait_blademaster_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist recht geschickt im Nahkampf: [ROOT.GetCharacter.Custom('DE_PRO_PER_S_3P_N')] weiß, mit welchem Ende der Klinge man zustoßen muss."
  trait_blademaster_2:0 "Schwertmeister"
- trait_blademaster_2_desc:0 "Der Schwertmeister ist ein vorzüglicher und respekteinflößender Gegner in allen Formen des Kampfes."
+ #trait_blademaster_2_desc:0 "The Blademaster is a formidable and respected opponent in all kinds of combat."
  trait_blademaster_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist [ROOT.GetCharacter.Custom('DE_ART_IND_N')] vorzüglich[ROOT.GetCharacter.Custom('DE_END_ADJ_IND_S_N')] und respekteinflößend[ROOT.GetCharacter.Custom('DE_END_ADJ_IND_S_N')] Gegner[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')] in allen Formen des Kampfes."
  trait_blademaster_3:0 "Legendärer Schwertmeister"
- trait_blademaster_3_desc:0 "Das Kampfgeschick des Legendären Schwertmeisters ist der Stoff, aus dem Heldensagen sind."
+ #trait_blademaster_3_desc:0 "The prowess of the Legendary Blademaster is the stuff of stories."
  trait_blademaster_3_character_desc:0 "Das Kampfgeschick von [ROOT.GetCharacter.GetFirstNameNoTooltip] ist der Stoff, aus dem Heldensagen sind."
  trait_hunter_1:0 "Jungjäger"
  trait_hunter_1_desc:0 "Der Jungjäger antwortet flink sowohl dem Ruf der Wildnis als auch dem seines Bogens."
  trait_hunter_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] antwortet flink sowohl dem Ruf der Wildnis als auch dem [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]es Bogens."
  trait_hunter_2:0 "Jäger"
- trait_hunter_2_desc:0 "Der Jäger bewegt sich mit unheimlicher Präzision und immensem Wissen durch die Wildnis."
+ #trait_hunter_2_desc:0 "The Hunter navigates the wilds with uncanny precision and knowledge."
  trait_hunter_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] bewegt sich mit unheimlicher Präzision und immensem Wissen durch die Wildnis."
  trait_hunter_3:0 "Meisterjäger"
- trait_hunter_3_desc:0 "Der Meisterjäger lebt für die Pirsch."
+ #trait_hunter_3_desc:0 "The Master Hunter lives for the kill."
  trait_hunter_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] lebt für die Pirsch."
-
  trait_strategist:0 "Stratege"
  trait_strategist_desc:0 "Ein eifriger Student der Kunst des Krieges, der jede Situation zu seinem Vorteil zu nutzen versteht."
  trait_strategist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] liebt es, mehr über die Kunst des Krieges zu erfahren, und versteht es, jede Lage zum eigenen Vorteil zu nutzen."
@@ -205,19 +208,19 @@
  trait_mystic_1_desc:0 "Dieser Charakter ist für seinen unkonventionellen, aber praktisch orientierten Ansatz in Sachen Religion bekannt."
  trait_mystic_1_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] ist für [ROOT.Char.Custom('DE_PRO_POS_S_3P')]en unkonventionellen, aber praktisch orientierten Ansatz in Sachen Religion bekannt."
  trait_mystic_2:0 "Mystiker"
- trait_mystic_2_desc:0 "Dieser Charakter ist für seine ungewöhnlichen Methoden beim Erreichen religiöser Höhen bekannt."
+ #trait_mystic_2_desc:0 "This character is known for their unusual methods for achieving religious ascension."
  trait_mystic_2_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] ist für [ROOT.Char.Custom('DE_PRO_POS_S_3P')]e ungewöhnlichen Methoden beim Erreichen religiöser Höhen bekannt."
  trait_mystic_3:0 "Wunderwirker"
- trait_mystic_3_desc:0 "Weihrauch, Gesänge und sonderbare Zauber: Dieser Charakter wirkt Wunder mit unkonventionellen Mitteln."
+ #trait_mystic_3_desc:0 "Incense, chants, and odd cantrips – this character works miracles through unconventional means."
  trait_mystic_3_character_desc:0 "Weihrauch, Gesänge und sonderbare Zauber: [ROOT.Char.GetFirstNameNoTooltip] wirkt Wunder mit unkonventionellen Mitteln."
  trait_physician_1:0 "Jungarzt"
  trait_physician_1_desc:1 "Dieser Charakter ist in der Heilkunst ausgebildet."
  trait_physician_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist in der Heilkunst ausgebildet."
  trait_physician_2:0 "Arzt"
- trait_physician_2_desc:1 "Dieser Charakter hat jede Menge Erfahrung darin, sich Kranker und Verwundeter anzunehmen."
+ #trait_physician_2_desc:1 "This character has plenty of experience tending to the sick and wounded."
  trait_physician_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat jede Menge Erfahrung darin, sich Kranker und Verwundeter anzunehmen."
  trait_physician_3:0 "Angesehener Arzt"
- trait_physician_3_desc:1 "Die Heilkünste dieses Charakters sind in Gelehrtenkreisen wohlbekannt."
+ #trait_physician_3_desc:1 "This character's healing skills are well known in scholarly circles."
  trait_physician_3_character_desc:0 "Die Heilkünste von [ROOT.GetCharacter.GetFirstNameNoTooltip] sind in Gelehrtenkreisen wohlbekannt."
  lifestyle_herbalist:0 "Kräuterkundler"
  lifestyle_herbalist_desc:0 "Dieser Charakter ist mit Kräutern, Botanik und Pflanzenheilkunde wohlvertraut."
@@ -272,23 +275,22 @@
  trait_deceitful:0 "Hinterlistig"
  trait_deceitful_desc:0 "Lügen und Betrügen liegen in der Natur dieses Charakters."
  trait_deceitful_character_desc:0 "Lügen und Betrügen liegen in der Natur von [ROOT.GetCharacter.GetFirstNameNoTooltip]."
-
  trait_honest:0 "Ehrlich"
  trait_honest_desc:0 "Dieser Charakter misst Wahrhaftigkeit und Aufrichtigkeit einen hohen Wert bei."
  trait_honest_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] misst Wahrhaftigkeit und Aufrichtigkeit einen hohen Wert bei."
-
  trait_craven:0 "Feige"
  trait_craven_desc:0 "Dieser Charakter mag es überhaupt nicht, herausgefordert oder eingeschüchtert zu werden."
  trait_craven_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] mag es überhaupt nicht, herausgefordert oder eingeschüchtert zu werden."
-
  trait_brave:0 "Tapfer"
  trait_brave_desc:0 "Ob nun Herausforderungen oder Gefahren: Dieser Charakter fürchtet nichts."
  trait_brave_character_desc:0 "Ob nun Herausforderungen oder Gefahren: [ROOT.GetCharacter.GetFirstNameNoTooltip] fürchtet nichts."
-
+ #AGOT Modified, Trait Reloc Shy > Solitary
+ # trait_shy:0 "Shy"
+ # trait_shy_desc:0 "This character prefers to avoid interacting with other people."
+ # trait_shy_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] prefers to avoid interacting with other people."
  trait_shy:0 "Einzelgänger"  #Selbst geschrieben/abgetippt
  trait_shy_desc:0 "Dieser Charakter zieht es vor, Zeit in seiner eigenen Gesellschaft zu verbringen."  #Selbst geschrieben/abgetippt
  trait_shy_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zieht es vor, Zeit ohne Gesellschaft zu verbringen."  #Selbst geschrieben/abgetippt
-
  trait_gregarious:0 "Gesellig"
  trait_gregarious_desc:0 "Dieser Charakter verbringt gern Zeit mit anderen Menschen."
  trait_gregarious_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] verbringt gern Zeit mit anderen Menschen."
@@ -368,6 +370,10 @@
  trait_drunkard:0 "Trunkenbold"
  trait_drunkard_desc:0 "Dieser Charakter hat zur Flasche gegriffen, um auf ihrem Grund nach etwas zu suchen."
  trait_drunkard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat zur Flasche gegriffen, um auf ihrem Grund nach etwas zu suchen."
+ #AGOT Modified, Trait Reloc, Milk of the Poppy Addict
+ # trait_hashishiyah:0 "Hashishiyah"
+ # trait_hashishiyah_desc:0 "This character is dependent on the consumption of hashish to deal with the stress of everyday life."
+ # trait_hashishiyah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is dependent on the consumption of hashish to deal with the stress of everyday life."
  trait_hashishiyah:0 "Mohnträumer"  #AGOT Overwrite - Zombie #Selbst geschrieben/abgetippt
  trait_hashishiyah_desc:0 "Dieser Charakter ist abhängig von Mohnblumensaft, um mit dem Druck des alltäglichen Lebens fertigzuwerden."  #Selbst geschrieben/abgetippt
  trait_hashishiyah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist darauf angewiesen, Mohnblumensaft zu konsumieren, um mit dem Druck des alltäglichen Lebens fertigzuwerden."  #Selbst geschrieben/abgetippt
@@ -412,10 +418,9 @@
 #Health traits
  trait_pregnant:0 "Schwanger"
  trait_pregnant_desc:0 "Dieser Charakter erwartet ein Kind."
+ #AGOT Modified to handle scripted pregnancies
+ # trait_pregnant_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been with child for [SCOPE.ScriptValue('pregnancy_month')] months."
  trait_pregnant_character_desc:1 "[ROOT.Char.Custom('AGOTGetPregnancyMonths')]"
- agot_pregnancy_months_scripted_lyanna:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] erwartet seit [ROOT.Var('agot_rr_months_of_pregnancy_lyanna').GetValue] Monaten ein Kind."  #Selbst geschrieben/abgetippt
- agot_pregnancy_months_scripted_rhaella:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] erwartet seit [ROOT.Var('agot_rr_months_of_pregnancy_rhaella').GetValue] Monaten ein Kind."  #Selbst geschrieben/abgetippt
- agot_pregnancy_months_vanilla:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] erwartet seit [SCOPE.ScriptValue('pregnancy_month')] Monaten ein Kind."  #Selbst geschrieben/abgetippt
  trait_depressed_1:1 "Melancholisch"
  trait_depressed_1_desc:0 "Dieser Charakter tut sich schwer, das Schöne im Leben zu sehen."
  trait_depressed_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tut sich schwer, das Schöne im Leben zu sehen."
@@ -638,8 +643,12 @@
  trait_celibate_desc:0 "Dieser Charakter hat sich selbst dem Zölibat verschworen."
  trait_celibate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat Keuschheit geschworen."
  trait_pilgrim:0 "Pilger"
+ trait_pilgrim_2:0 "Experienced Pilgrim"
+ trait_pilgrim_3:0 "Prolific Pilgrim"
  trait_pilgrim_desc:0 "Dieser Charakter hat eine Pilgerfahrt an eine heilige Stätte unternommen."
  trait_pilgrim_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat eine Pilgerfahrt an eine heilige Stätte unternommen."
+ trait_pilgrim_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has traveled extensively on pilgrimage and is known as something of an expert in pilgrim travel groups."
+ trait_pilgrim_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is well-known in holy circles as a true [ROOT.GetCharacter.GetWomanMan] of the world. Other Pilgrims often look to [ROOT.GetCharacter.GetFirstNameNoTooltip] for guidance in both spiritual and navigational matters."
  	#Christian version of Faith Warrior
  trait_crusader:0 "Kreuzritter"
  trait_crusader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]e christliche Pflicht erfüllt und an einem Kreuzzug teilgenommen."
@@ -647,11 +656,18 @@
  trait_excommunicated_desc:0 "Dieser Charakter wurde von der Teilnahme an religiösen Veranstaltungen ausgeschlossen."
  trait_excommunicated_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wurde von der Teilnahme an religiösen Veranstaltungen ausgeschlossen."
  trait_devoted:0 "Hingebungsvoll"
+ #AGOT Modifed, Trait Reloc
+ # trait_devoted_male:0 "Monk"
+ # trait_devoted_female:0 "Nun"
  trait_devoted_male:0 "Heiliger Bruder"  #Selbst geschrieben/abgetippt
  trait_devoted_female:0 "Heilige Schwester"  #Selbst geschrieben/abgetippt
  trait_devoted_desc:0 "Dieser Charakter hat sein Leben in den Dienst einer höheren Macht gestellt."
  trait_devoted_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')] Leben in den Dienst einer höheren Macht gestellt."
  	#Child version of Devoted
+ #AGOT Modified, Trait Reloc
+ # trait_devoted_child:0 "Promised to the Clergy"
+ # trait_devoted_child_desc:0 "This child is promised to the clergy, and will eventually dedicate their life to the service of a higher power."
+ # trait_devoted_child_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is promised to the clergy, and will eventually dedicate [ROOT.GetCharacter.GetHerHis] life to the service of a higher power."
  trait_devoted_child:0 "Dem Klerus versprochen"
  trait_devoted_child_desc:0 "Dieses Kind ist dem Glauben versprochen und wird sein Leben letztlich in den Dienst einer höheren Macht stellen."  #Selbst geschrieben/abgetippt
  trait_devoted_child_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist dem Glauben versprochen und wird [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')] Leben letztlich in den Dienst einer höheren Macht stellen."  #Selbst geschrieben/abgetippt
@@ -669,6 +685,7 @@
  trait_hajji:0 "Hadschi"
  trait_hajjah:0 "Hajjah"
  trait_hajjaj_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat den Hadsch abgeschlossen, eine Pilgerreise zum Haus Allahs in Mekka."
+ trait_hajjaj_neutral_desc:0 "This character has completed the Hajj, a pilgrimage to the House of Allah in Mecca."
  	#Muslim male & female versions of Blood of the Prophet, respectively
  trait_sayyid:0 "Sayyid"
  trait_sayyida:0 "Sayyida"
@@ -730,6 +747,9 @@
  trait_wild_oat_desc:0 "Dieser Charakter ist ein außerehelich geborenes Kind."
  trait_wild_oat_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein außerehelich geborenes Kind."
  trait_bastard_founder:0 "Bastardgründer"
+ #AGOT Modified, Bastard found bastard houses not dynasties
+ # trait_bastard_founder_desc:0 "A former bastard who has founded their own [dynasty|E]."
+ # trait_bastard_founder_character_desc:0 "A former bastard who has founded [ROOT.GetCharacter.GetHerHis] own [dynasty|E]."
  trait_bastard_founder_desc:0 "Ein Bastard, der seine eigenes [bastard_house|E] begründet hat."  #Selbst geschrieben/abgetippt
  trait_bastard_founder_character_desc:0 "Ein Bastard, der [ROOT.GetCharacter.GetHerHis] eigenes [bastard_house|E] begründet hat."  #Selbst geschrieben/abgetippt
  trait_kinslayer_1:0 "Dynastiemörder"
@@ -768,6 +788,14 @@
  trait_berserker:0 "Berserker"
  trait_berserker_desc:0 "Sobald das Blut dieses Charakters erst einmal kocht, kühlt es sich nur durch den Tod seiner Feinde wieder ab."
  trait_berserker_character_desc:0 "Sobald das Blut von [ROOT.GetCharacter.GetFirstNameNoTooltip] erst einmal kocht, kühlt es sich nur durch den Tod [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]er Feinde wieder ab."
+ #AGOT Modified, Trait Reloc Shieldmaiden > Axe Wife
+ # trait_shieldmaiden_female:0 "Shieldmaiden"
+ # trait_shieldmaidens_female:0 "Shieldmaidens"
+ # trait_shieldmaiden_male:0 "Shieldswain"
+ # trait_shieldmaidens_male:0 "Shieldswains"
+ # trait_shieldmaiden_desc:0 "This character defies the normal structures of their society, fighting in the shield wall as any other warrior."
+ # trait_shieldmaiden_female_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] defies the normal structures of [ROOT.GetCharacter.GetHerHis] society, fighting in the shield wall as though [ROOT.GetCharacter.GetSheHe] were a man."
+ # trait_shieldmaiden_male_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] defies the normal structures of [ROOT.GetCharacter.GetHerHis] society, fighting in the shield wall as though [ROOT.GetCharacter.GetSheHe] were a woman."
  trait_shieldmaiden_female:0 "Axtfrau"  #Selbst geschrieben/abgetippt
  trait_shieldmaidens_female:0 "Axtfrauen"  #Selbst geschrieben/abgetippt
  trait_shieldmaiden_male:0 "Axtmann"  #Selbst geschrieben/abgetippt
@@ -781,6 +809,8 @@
  trait_varangian:0 "Waräger"
  trait_varangian_desc:0 "Dieser Charakter hat als Teil der Warägergarde in der Byzantinischen Armee gedient."
  trait_varangian_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat als Teil der Warägergarde in der Byzantinischen Armee gedient."
+ #AGOT Modified
+ # trait_viking_has_longships:0 "Viking"
  trait_viking_has_longships:0 "Plünderer"  #Selbst geschrieben/abgetippt
  trait_viking_fallback:0 "Räuber"
  trait_viking_desc:0 "Dieser Charakter ist ein bekannter Plünderer fremder Siedlungen."
@@ -1028,9 +1058,11 @@
  trait_education_stewardship:0 "Schüler der Verwaltung"
  trait_education_martial:0 "Schüler der Kriegskunst"
  trait_education_learning:0 "Schüler des Wissens"
+ #AGOT Modified
+ # trait_education_martial_prowess:0 "Students of Knighthood"
  trait_education_martial_prowess:0 "Schüler des Schwertkampfes"  #Selbst geschrieben/abgetippt
 
-#Lifestyle Groups
+#Tiered Traits
  trait_lifestyle_reveler:0 "Frohnaturen"
  trait_lifestyle_blademaster:0 "Schwertmeister"
  trait_lifestyle_hunter:0 "Jäger"
@@ -1049,3 +1081,34 @@
  trait_administrative_court:0 "Verwaltungshöflinge"
  trait_intrigue_court:0 "Ränkehöflinge"
  trait_scholarly_court:0 "Gelehrtenhöflinge"
+
+ # EP2
+ trait_tourney_participant:2 "Hastiluder"
+ trait_tourney_participant_desc:1 "This character has participated in martial games, sharpening their skills in warfare and personal combat."
+ trait_tourney_participant_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has participated in martial games, sharpening their skills in warfare and personal combat."
+ trait_track_foot:0 "Foot"
+ trait_track_foot_desc:0 "The human body is the ultimate tool, and mastering it will bring you the world."
+ trait_track_horse:0 "Horse"
+ trait_track_horse_desc:0 "Beast and rider in perfect harmony, glorious and free beneath the endless blue sky."
+ trait_track_bow:0 "Bow"
+ trait_track_bow_desc:0 "The sinews in both bowstring and archer, united to send the arrow striking home."
+ trait_track_wit:0 "Wit"
+ trait_track_wit_desc:0 "Strength fades, beauty withers, but a sharp mind will carry you through the darkest of situations."
+
+ # REWORKED LIFESTYLES
+ trait_lifestyle_hunter_desc:0 "This character has taken up the call of the wild."
+ trait_lifestyle_hunter_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has taken up the call of the wild."
+ trait_track_hunter:0 "Venator"
+ trait_track_hunter_desc:0 "The sound of the horns, the dogs, the prey! By bow or stable, there is no thrill to compare with bringing down a savage beast!"
+ trait_track_falconer:0 "Falconer"
+ trait_track_falconer_desc:0 "There is no nobler pursuit than the sport of hunting with hawk and falcon."
+ trait_track_lifestyle_mystic:0 "Mystic"
+ trait_track_lifestyle_mystic_desc:0 "The mysteries of the world, both physical and otherwise, are laid bare with enough musing."
+ trait_track_pilgrim:0 "Pilgrim"
+ trait_track_pilgrim_desc:0 "Calloused feet, aching limbs, weathered face. It is all a small price to pay for doing your holy duty."
+ trait_track_lifestyle_reveler:0 "Reveler"
+ trait_track_lifestyle_reveler_desc:0 "A drink and a laugh, all with good company. What more is there to life?"
+ trait_track_lifestyle_blademaster:0 "Blademaster"
+ trait_track_lifestyle_blademaster_desc:0 "Years of life spent mastering a weapon, that its resultant grace might one day save a life and end another."
+ trait_track_lifestyle_physician:0 "Physician"
+ trait_track_lifestyle_physician_desc:0 "Stem the flow of blood there, open a vein there. Those humors will soon be balanced!"

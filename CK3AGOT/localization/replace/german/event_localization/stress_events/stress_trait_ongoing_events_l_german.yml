@@ -1,12 +1,15 @@
 ﻿l_german:
  ##########
+ ##########
  #DRUNKARD#
  ##########
- 
+
  #############
  #HASHISHIYAH#
  #############
  stress_trait_ongoing.0501.t:0 "Ein entspannender Abend"
+ #AGOT Modified
+ #stress_trait_ongoing.0501.desc:0 "The business of ruling the realm has been so stressful, recently. If it's not this, it's that, if it's not that, it's this. An endless parade of peasants, priests, and problems, all expecting #EMP me#! to solve their every petty concern.\n\nI deserve a day to myself, with no suiters or petitioners, no diplomats or judges. Just me and this large plate of hashish cakes..."
  stress_trait_ongoing.0501.desc:0 "In letzter Zeit ist es höchst anstrengend, über das Reich zu herrschen. Wenn es nicht das eine ist, ist es das andere. Oder etwas ganz anderes. Eine endlose Parade von Bauern, Priestern und Ärgernissen, und alle wollen sie, dass #EMP ich#! mich um jede noch so kleine Angelegenheit kümmere.\n\nIch habe einen Tag für mich selbst verdient, ohne Antrag- oder Bittsteller, ohne Diplomaten oder Richter. Nur ich und dieser Wein mit etwas Mohnblumensaft versüßt..."  #Selbst geschrieben/abgetippt
  stress_trait_ongoing.0501.a:0 "Zurück an die Arbeit!"
  stress_trait_ongoing.0501.b:0 "Es ist doch nur ein freier Tag …"
@@ -30,33 +33,51 @@
  stress_trait_ongoing.0506.desc_one_legged:0 "Ich drücke meine Finger auf den verwachsenen Stumpen meines fehlenden Beins. Manchmal, besonders wenn ich vertraute Wege gehe, spüre ich es noch immer. Dann kehrt der Schmerz meiner Verstümmelung zurück, so echt wie eh und je, und ich werde schier davon überwältigt."
  stress_trait_ongoing.0506.desc_wounded:0 "Ich zucke zusammen, als meine Finger die Schnittwunde abtasten. Sie sind bedeckt mit schwarzrotem Schorfstaub, und der stechende Schmerz lässt mich wissen, dass meine Wunden nach wie vor frisch sind."
  stress_trait_ongoing.0506.desc_fallback:0 "Diese Pein martert meinen Körper. Die Qual ist zu viel für mein geschundenes Gehirn. Ich brauche Linderung, irgendeine Möglichkeit, mit dieser Sache zurechtzukommen."
+ #AGOT Modified
+ #stress_trait_ongoing.0506.desc:0 "\n\nHashish should ease the pain, for a time. The only question is whether to consume it alone, or if company would help cheer me. [medication_friend.GetTitledFirstName] did ask if I wanted a companion this evening..."
  stress_trait_ongoing.0506.desc:0 "\n\nHaschisch sollte den Schmerz eine Weile lang lindern. Stellt sich nur die Frage, ob ich es allein konsumieren soll oder ob Gesellschaft mich aufheitern würde. [medication_friend.GetTitledFirstName] fragte mich, ob ich heute Abend einen Gefährten bräuchte …"
  stress_trait_ongoing.0506.a:0 "Ich muss nur eine Weile allein sein."
  hashish_alone_modifier:0 "Behandlung allein"
+ #AGOT Modified
+ #hashish_alone_modifier_desc:0 "This character is managing their pain with hashish cakes in the evenings."
  hashish_alone_modifier_desc:0 "Dieser Charakter lindert seinen Schmerz abends mit etwas Mohnblumensaft."  #Selbst geschrieben/abgetippt
  stress_trait_ongoing.0506.b:0 "Vielleicht möchte [medication_friend.GetFirstNameNoTooltip] ja gern teilen?"
  hashish_with_friend_modifier:0 "Behandlung in Gesellschaft"
+ #AGOT Modified
+ #hashish_with_friend_modifier_desc:0 "This character is sharing their evenings with a good friend and fine hashish."
  hashish_with_friend_modifier_desc:0 "Dieser Charakter verbringt seine Abende mit einem guten Freund und dem gemeinsamen Mohnblumensaft."  #Selbst geschrieben/abgetippt
  stress_trait_ongoing.0511.t:0 "Sitte und Brauch"
+ #AGOT Modified
+ #stress_trait_ongoing.0511.desc:0 "I am enjoying a cool evening in the gardens of [hashishiyah_capital.GetNameNoTierNoTooltip], sat casually munching on a small stack of hashish-topped sweetcakes, when I suddenly feel the heavy, spittle-flecked breath of an enraged [crusty_old_person.GetTitledFirstName] on my cheek.\n\n"Put down that accursed-shrub, [ROOT.GetCharacter.GetFirstNameNoTooltip], and cease clouding your mind! [crusty_old_person.GetFaith.HighGodName] did not put you on this Earth so that you could waste your time away in a stupor!""
  stress_trait_ongoing.0511.desc:0 "Ich genieße gerade einen kühlen Abend in den Gärten von [hashishiyah_capital.GetNameNoTierNoTooltip], wo ich gemütlich sitze und ein Schluck Mohnblumensaft genieße, als ich den schweren, sehr feuchten Atem ein[crusty_old_person.Custom('DE_END_PRO_S_G')] wütenden [crusty_old_person.GetTitledFirstName] auf meiner Wange spüre.\n\n"Legt diesen verfluchten Kelch weg, [ROOT.GetCharacter.GetFirstNameNoTooltip], und hört auf, Euren Geist zu benebeln! [crusty_old_person.GetFaith.HighGodName] hat Euch nicht auf Erden gebracht damit ihr Eure Zeit von Sinnen vergeudet!" "  #Selbst geschrieben/abgetippt
  stress_trait_ongoing.0511.a:0 "Ihr habt recht! Ich muss auf der Stelle damit aufhören."
+ #AGOT Modified
+ #stress_trait_ongoing.0511.a_flavour:0 "You throw the hashish cakes away"
  stress_trait_ongoing.0511.a_flavour:0 "Ihr schüttet den Mohnblumensaft weg"  #Selbst geschrieben/abgetippt
  stress_trait_ongoing.0511.b:0 "<tiefer Atemzug> Wie Ihr meint, #EMP Ältest[crusty_old_person.Custom('DE_END_ADJ_NUL_S_N')]#!."
+ #AGOT Modified
+ #stress_trait_ongoing.0511.b_flavour:0 "Eat. Every. Damned. Cake."
  stress_trait_ongoing.0511.b_flavour:0 "Ihr genehmigt euch einen weiteren Schluck."  #Selbst geschrieben/abgetippt
  stress_trait_ongoing_0516.t:0 "Ein wandernder Gei…"
+ #AGOT Modified
+ #stress_trait_ongoing_0516.desc:0 ""—nd that is why this meeting is so important".\n\nWuh? Oh, right, yes, the meeting with [important_guest.GetTitledFirstName]. About... Something. What #EMP were#! we talking about? [important_guest.GetSheHe|U] looks very serious about it, whatever it was.\n\nI reach out, grab another hashish-topped cake, and begin nibbling thoughtfully. [important_guest.GetFirstNameNoTooltip] raises an eyebrow at my vacant pause, and it dawns on me that maybe I've had a few #EMP too#! many cakes."
  stress_trait_ongoing_0516.desc:0 "... ist es deswegen auch so wichtig, dieses Treffen."\n\nWas? Oh, richtig, ja, das Treffen mit [important_guest.GetTitledFirstName]. Wegen... etwas. Worüber #EMP haben#! wir denn gerade gesprochen? [important_guest.Custom('DE_END_ADJ_IND_S_N')|U] scheint es jedenfalls sehr ernst damit zu meinen. Was auch immer es ist.\n\nIch strecke die Hand nach meinem Becher mit Mohnblumensaft aus und nehme mir gedankenverloren einen Schluck. [important_guest.GetFirstNameNoTooltip] hebt ansgesicht meines Schweigens eine Augenbraue, und es dämmert mir, dass ich vielleicht ein paar Schlucke #EMP zu viel#! getrunken habe."  #Selbst geschrieben/abgetippt
  stress_trait_ongoing.0516.a:0 "Ja, natürlich, ein solch wichtiges Treffen …"
  stress_trait_ongoing.0516.a.tt_success:0 "[important_guest.GetFirstNameNoTooltip] ist beeindruckt von Euren ruhigen, besonnenen Antworten"
  stress_trait_ongoing.0516.a.tt_fail:0 "[important_guest.GetFirstNameNoTooltip] ist brüskiert ob Eurer offensichtlichen Benebeltheit"
  stress_trait_ongoing.0516.b:0 "Es tut mir leid. Ich fühle mich heute nicht sonderlich gut."
  stress_trait_ongoing.0516.b_flavour:0 "Ihr verlasst das Treffen frühzeitig, um Euch hinzulegen"
+ #AGOT Modified
+ #stress_trait_ongoing.0516.c:0 "Loosen up, [important_guest.GetFirstNameNoTooltip]. Have some hashish!"
  stress_trait_ongoing.0516.c:0 "Entspannt Euch, [important_guest.GetFirstNameNoTooltip]. Nehmt euch einen Becher!"  #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ #stress_trait_ongoing.0516.c_flavour:0 "You have a servant bring in more cakes to share"
  stress_trait_ongoing.0516.c_flavour:0 "Ihr lasst einen Diener weiteren Mohnblumensaft bringen, den Ihr mit Eurem Gast teilt"  #Selbst geschrieben/abgetippt
- 
+
  ###########
  #RECLUSIVE#
  ###########
- 
+
  ########
  #RAKISH#
  ########
@@ -90,31 +111,31 @@
  stress_trait_ongoing.1501.c.flavor:0 "#EMP Irgendjemand#! dort wird mir sicher über diese Sache hinweghelfen."
  stress_trait_ongoing.1501.d:0 "Ich sollte [obsession.GetFirstName] nicht derart zum Objekt degradieren. Das ist einfach nur #EMP falsch#!!"
  stress_trait_ongoing.1501.d.flavor:0 "Diese Besessenheit ist [obsession.Custom('DE_PRO_PER_S_3P_D')] gegenüber ungerecht und schadet mir nur."
- 
+
  ###########
  #IRRITABLE#
  ###########
- 
+
  ############
  #FLAGELLANT#
  ############
- 
+
  #############
  #IMPROVIDENT#
  #############
- 
+
  ############
  #PROFLIGATE#
  ############
- 
+
  ##########
  #CONTRITE#
  ##########
- 
+
  ###############
  #COMFORT EATER#
  ###############
- 
+
  #############
  #INAPPETETIC#
  #############
@@ -126,13 +147,13 @@
  stress_trait_ongoing.4501.b.cannibal:0 "Ihr entwickelt eine Vorliebe für Menschenfleisch"
  stress_trait_ongoing.4501.b.failure:0 "Eure Gelüste bleiben unbefriedigt"
  stress_trait_ongoing.4501.c:0 "Argh … Dann muss ich wohl ohne auskommen."
- 
+
  stress_trait_ongoing.4502.t:0 "Der Hunger"
  stress_trait_ongoing.4502.desc:0 "Die letzten Wochen waren besonders anstrengend, und ich will nur noch ein leckeres, saftiges Stück Fleisch. Vielleicht ein zartes Lendenstück oder vielleicht Rippchen?\n\nAllein der Gedanke lässt mir das Wasser im Munde zusammenlaufen, und ich weiß, dass ich den Hunger nicht im Zaum halten kann. Nicht dieses Mal."
  stress_trait_ongoing.4502.a:0 "Es ist ja nicht so, dass [prisoner.GetTitledFirstName] irgendwem fehlen würde."
  stress_trait_ongoing.4502.b:0 "[courtier.GetTitledFirstName] hat es schließlich nicht besser verdient …"
  stress_trait_ongoing.4502.c:0 "Zeit für eine Reise nach [hapless_village.GetNameNoTier]!"
- 
+
  stress_trait_ongoing.5001.t:0 "Vergebene Liebesmüh"
  stress_trait_ongoing.5001.desc:0 "„Kommt mit mir, [ROOT.Char.GetTitledFirstName], ich habe eine Überraschung für Euch!“, meint [giver.Custom2('MyCharacterIntroduction', ROOT.Char)] aufgeregt. „Mir ist aufgefallen, dass Ihr zu wenig esst. Daher habe ich wochenlang die seltensten Delikatessen zusammengesucht, die ich finden konnte!“\n\nIch folge [giver.Custom('DE_PRO_PER_S_3P_D')] in die Festhalle und sehe einen Tisch, der mit allerhand Gourmetgerichten gedeckt ist. [ROOT.Char.Custom('GetExpensiveMeal')|U] und [ROOT.Char.Custom('GetExpensiveMealAlt')] … [ROOT.Char.Custom('GetExpensiveDessert')] … Allein vom Geruch dreht sich mir der Magen um.\n\n„Nun? Lasst es Euch schmecken, mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]!“"
  stress_trait_ongoing.5001.a:0 "„Ähm, das ist … wirklich gut. Mmm. Wie lecker.“"
@@ -143,15 +164,15 @@
  stress_trait_ongoing.5001.c.no_pet:0 "Ich tue so, als würde ich essen, verfüttere aber alles an einen Hund unter dem Tisch."
  stress_trait_ongoing.5001.c.success:0 "[giver.GetTitledFirstName] meint, dass mir das Essen schmeckt"
  stress_trait_ongoing.5001.c.failure:0 "[giver.GetTitledFirstName] bemerkt, dass ich nichts esse"
- 
+
  ############
  #JOURNALLER#
  ############
- 
+
  ##########
  #CONFIDER#
  ##########
- 
+
  ##########
  #ATHLETIC#
  ##########

@@ -8,14 +8,14 @@
 
  queensguard_lord_commander_name:0 "Lord Kommandant der Königinnengarde"
 
- 
+
  KINGSGUARD:1 "[CHARACTER.Custom('KingsguardName')]"
- 
- 
+
+
  Kingsguard_possesive:0 "[CHARACTER.Custom('KingsguardName')]'s"
 
  kingsguard: "Königsgarde"
- Kingsguard_possesive: "Königsgarde"
+ #Kingsguard_possesive0: "Königsgarde"
  kingsguard_1: "Königsgardist" # $KINGSGUARD$
  kingsguard_2: "Königsgardist"
  kingsguard_3: "Königsgardist"
@@ -39,13 +39,10 @@
 
  training_for_kingsguard:0 "Ausbildung für die Königsgarde"
  training_for_kingsguard_desc:0 "Dieser Charakter übt, um der Königsgarde beizutreten."
- 
+
  kingsguard_oathbreaker:0 "Eidbrecher der Königsgarde"
  kingsguard_oathbreaker_desc:0 "Dieser Charakter hat den heiligen Eid gebrochen und die Königsgarde verraten."
 
-
- kingsguard_oathbreaker:0 "Eidbrecher der Königsgarde"
- kingsguard_oathbreaker_desc:0 "Dieser Charakter hat seinen heiligen Eid gebrochen und die Königsgarde verlassen."
 
  kingsguard_protection: "[councillor.GetModifierDescForTask('kingsguard_default_1')]"
  kingsguard_bodyguard: "Leibwächter"
@@ -66,7 +63,7 @@
 
  knight_hero: "Ritter"
  knight_hero_possessive: "Ritters"
- 
+
  kingsguard_lord_commander_default: "Schutz"
  kingsguard_default_1: "Schutz"
  kingsguard_default_2: "Schutz"

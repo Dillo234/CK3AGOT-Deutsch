@@ -7895,6 +7895,14 @@ e_the_iron_throne = {
 		color = { 153 73 134  }
 		definite_form = yes
 		capital = c_kings_landing
+		can_create = {
+			trigger_if = {
+				limit = {
+					is_ai = yes
+				}
+				NOT = { has_title = title:e_the_iron_throne }
+			}
+		}
 		d_kings_landing = {
 			color = { 152 60 127  }
 			definite_form = yes
@@ -9750,209 +9758,167 @@ e_the_iron_throne = {
 		}
 	}
 }
-e_the_moonclans = {
-	color = { 110 213 242  }
-	definite_form = yes
-	capital = c_tan_annag
-	k_the_moonclans = {
-		color = { 110 213 242  }
-		definite_form = yes
-		capital = c_tan_annag
-		d_northern_clans = {
-			color = { 110 213 242  }
-			definite_form = yes
-			capital = c_tan_annag
-			c_tan_annag = {
-				color = { 110 213 242 }
-				definite_form = yes
-				b_rkayt = {
-					province = 2224
-					color = { 110 213 242 }
-					definite_form = yes
-				}
-				b_ihrdilk = {
-					province = 2225
-					color = { 67 182 244 }
-					definite_form = yes
-				}
-				b_vros_ukhedak = {
-					province = 2226
-					color = { 16 154 181 }
-					definite_form = yes
-				}
-			}
-			c_kirdumyt = {
-				color = { 60 202 242 }
-				definite_form = yes
-				b_vanyiik = {
-					province = 2227
-					color = { 60 202 242 }
-					definite_form = yes
-				}
-				b_rkirih = {
-					province = 2228
-					color = { 36 198 244 }
-					definite_form = yes
-				}
-			}
-			c_vros_arekludak = {
-				color = { 77 148 218 }
-				definite_form = yes
-				b_ann_edak = {
-					province = 2229
-					color = { 77 148 218 }
-					definite_form = yes
-				}
-				b_kyir_vroln = {
-					province = 2230
-					color = { 67 178 235 }
-					definite_form = yes
-				}
-			}
-			c_dhirmyik = {
-				color = { 89 143 181 }
-				definite_form = yes
-				b_vros_kih = {
-					province = 2231
-					color = { 89 143 181 }
-					definite_form = yes
-				}
-				b_eihannk = {
-					province = 2232
-					color = { 43 155 181 }
-					definite_form = yes
-				}
-			}
-			c_rkaih = {
-				color = { 39 136 168 }
-				definite_form = yes
-				b_annrkhaih = {
-					province = 2233
-					color = { 39 136 168 }
-					definite_form = yes
-				}
-				b_nrol_ihedak = {
-					province = 2234
-					color = { 55 141 178 }
-					definite_form = yes
-				}
-			}
-		}
-		d_southern_clans = {
-			color = { 10 133 152  }
-			definite_form = yes
-			capital = c_nrayt
-			c_nrayt = {
-				color = { 10 133 152 }
-				definite_form = yes
-				b_avkerihdak = {
-					province = 2235
-					color = { 10 133 152 }
-					definite_form = yes
-				}
-				b_tannrayt = {
-					province = 2236
-					color = { 4 180 194 }
-					definite_form = yes
-				}
-				b_dhanyiihk = {
-					province = 2237
-					color = { 40 124 170 }
-					definite_form = yes
-				}
-			}
-			c_aktrih = {
-				color = { 51 119 161 }
-				definite_form = yes
-				b_kihrak_annih = {
-					province = 2238
-					color = { 51 119 161 }
-					definite_form = yes
-				}
-				b_tanyt_ilyk = {
-					province = 2239
-					color = { 98 152 181 }
-					definite_form = yes
-				}
-			}
-			c_rihmued = {
-				color = { 58 119 169 }
-				definite_form = yes
-				b_vekirmued = {
-					province = 2240
-					color = { 58 119 169 }
-					definite_form = yes
-				}
-				b_eih_annag = {
-					province = 2241
-					color = { 41 136 178 }
-					definite_form = yes
-				}
-			}
-			c_vros_tiknnag_kreih = {
-				color = { 33 141 178 }
-				definite_form = yes
-				b_dihvek_vroln = {
-					province = 2242
-					color = { 33 141 178 }
-					definite_form = yes
-				}
-				b_nrikannk = {
-					province = 2243
-					color = { 34 136 168 }
-					definite_form = yes
-				}
-			}
-			c_khriyiik = {
-				color = { 1 133 179 }
-				definite_form = yes
-				b_rroln = {
-					province = 2244
-					color = { 1 133 179 }
-					definite_form = yes
-				}
-				b_nroilh_dkehmued = {
-					province = 2245
-					color = { 23 117 187 }
-					definite_form = yes
-				}
-			}
-			c_nrih_iseck = {
-				color = { 1 186 216 }
-				definite_form = yes
-				b_viredak = {
-					province = 2246
-					color = { 1 186 216 }
-					definite_form = yes
-				}
-				b_sinyt = {
-					province = 2247
-					color = { 27 155 196 }
-					definite_form = yes
-				}
-				b_annvredak = {
-					province = 2248
-					color = { 42 88 156 }
-					definite_form = yes
-				}
-			}
-			c_vros_karyit = {
-				color = { 21 115 203 }
-				definite_form = yes
-				b_caihk_annag = {
-					province = 2249
-					color = { 21 115 203 }
-					definite_form = yes
-				}
-				b_khayt_edak = {
-					province = 2250
-					color = { 6 83 154 }
-					definite_form = yes
-				}
-			}
-		}
-	}
-}
+#Moonclans yeet
+# e_the_moonclans = {
+# 	color = { 110 213 242 }
+# 	capital = c_tan_annag
+# 	k_the_moonclans = {
+# 		color = { 110 213 242 }
+# 		capital = c_tan_annag
+# 		d_northern_clans = {
+# 			color = { 110 213 242 }
+# 			capital = c_tan_annag
+# 			c_tan_annag = {
+# 				color = { 110 213 242 }
+# 				b_rkayt = {
+# 					province = 2224
+# 					color = { 110 213 242 }
+# 				}
+# 				b_ihrdilk = {
+# 					province = 2225
+# 					color = { 67 182 244 }
+# 				}
+# 				b_vros_ukhedak = {
+# 					province = 2226
+# 					color = { 16 154 181 }
+# 				}
+# 			}
+# 			c_kirdumyt = {
+# 				color = { 60 202 242 }
+# 				b_vanyiik = {
+# 					province = 2227
+# 					color = { 60 202 242 }
+# 				}
+# 				b_rkirih = {
+# 					province = 2228
+# 					color = { 36 198 244 }
+# 				}
+# 			}
+# 			c_vros_arekludak = {
+# 				color = { 77 148 218 }
+# 				b_ann_edak = {
+# 					province = 2229
+# 					color = { 77 148 218 }
+# 				}
+# 				b_kyir_vroln = {
+# 					province = 2230
+# 					color = { 67 178 235 }
+# 				}
+# 			}
+# 			c_dhirmyik = {
+# 				color = { 89 143 181 }
+# 				b_vros_kih = {
+# 					province = 2231
+# 					color = { 89 143 181 }
+# 				}
+# 				b_eihannk = {
+# 					province = 2232
+# 					color = { 43 155 181 }
+# 				}
+# 			}
+# 			c_rkaih = {
+# 				color = { 39 136 168 }
+# 				b_annrkhaih = {
+# 					province = 2233
+# 					color = { 39 136 168 }
+# 				}
+# 				b_nrol_ihedak = {
+# 					province = 2234
+# 					color = { 55 141 178 }
+# 				}
+# 			}
+# 		}
+# 		d_southern_clans = {
+# 			color = { 10 133 152 }
+# 			capital = c_nrayt
+# 			c_nrayt = {
+# 				color = { 10 133 152 }
+# 				b_avkerihdak = {
+# 					province = 2235
+# 					color = { 10 133 152 }
+# 				}
+# 				b_tannrayt = {
+# 					province = 2236
+# 					color = { 4 180 194 }
+# 				}
+# 				b_dhanyiihk = {
+# 					province = 2237
+# 					color = { 40 124 170 }
+# 				}
+# 			}
+# 			c_aktrih = {
+# 				color = { 51 119 161 }
+# 				b_kihrak_annih = {
+# 					province = 2238
+# 					color = { 51 119 161 }
+# 				}
+# 				b_tanyt_ilyk = {
+# 					province = 2239
+# 					color = { 98 152 181 }
+# 				}
+# 			}
+# 			c_rihmued = {
+# 				color = { 58 119 169 }
+# 				b_vekirmued = {
+# 					province = 2240
+# 					color = { 58 119 169 }
+# 				}
+# 				b_eih_annag = {
+# 					province = 2241
+# 					color = { 41 136 178 }
+# 				}
+# 			}
+# 			c_vros_tiknnag_kreih = {
+# 				color = { 33 141 178 }
+# 				b_dihvek_vroln = {
+# 					province = 2242
+# 					color = { 33 141 178 }
+# 				}
+# 				b_nrikannk = {
+# 					province = 2243
+# 					color = { 34 136 168 }
+# 				}
+# 			}
+# 			c_khriyiik = {
+# 				color = { 1 133 179 }
+# 				b_rroln = {
+# 					province = 2244
+# 					color = { 1 133 179 }
+# 				}
+# 				b_nroilh_dkehmued = {
+# 					province = 2245
+# 					color = { 23 117 187 }
+# 				}
+# 			}
+# 			c_nrih_iseck = {
+# 				color = { 1 186 216 }
+# 				b_viredak = {
+# 					province = 2246
+# 					color = { 1 186 216 }
+# 				}
+# 				b_sinyt = {
+# 					province = 2247
+# 					color = { 27 155 196 }
+# 				}
+# 				b_annvredak = {
+# 					province = 2248
+# 					color = { 42 88 156 }
+# 				}
+# 			}
+# 			c_vros_karyit = {
+# 				color = { 21 115 203 }
+# 				b_caihk_annag = {
+# 					province = 2249
+# 					color = { 21 115 203 }
+# 				}
+# 				b_khayt_edak = {
+# 					province = 2250
+# 					color = { 6 83 154 }
+# 				}
+# 			}
+# 		}
+# 	}
+# }
 e_the_north = {
 	color = { 185 191 188  }
 	definite_form = yes

@@ -85,11 +85,11 @@
  seeing_dead_people_modifier_desc:0 "Dieser Charakter wird heimgesucht von Visionen längst verstorbener Personen"
  focused_on_mystical_animal_modifier:0 "Auf die Jagd konzentriert"
  focused_on_mystical_animal_modifier_desc:0 "Dieser Charakter konzentriert sich ausschließlich auf die Jagd"
- 
+
  the_great_khan_modifier:0 "Der Großkhan"
  the_great_khan_modifier_desc:0 "Dieser Charakter wurde zum Großkhan ernannt, dem rechtmäßigen Nachfolger des Khan der Khane"
  trickster_modifier:0 "Schwindler"
- 
+
  alluring_confidence:0 "Verführerisches Selbstbewusstsein"
  confident_diplomat:0 "Selbstbewusster Diplomat"
  confident_strategist:0 "Selbstbewusster Stratege"
@@ -125,11 +125,23 @@
  trepanning_learning_penalty_modifier:0 "Loch im Kopf"
  trepanning_coordination_penalty_modifier:0 "Richtungsblind"
  trepanning_coordination_penalty_modifier_desc:0 "Die Trepanation hat die Fähigkeit dieses Charakters beeinträchtigt, seine Gliedmaßen zu koordinieren"
+ #AGOT Modified
+ # compared_to_valmiki:0 "Compared to Valmiki"
  compared_to_valmiki:0 "Mit Bael dem Barden verglichen"  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # compared_to_pope_joan:0 "Compared to Pope Joan"
  compared_to_pope_joan:0 "Mit Zhea Zerdegesicht verglichen"  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # compared_to_lady_godiva:0 "Compared to Lady Godiva"
  compared_to_lady_godiva:0 "Mit Jonqiul der Magd verglichen"  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # compared_to_nasreddin:0 "Compared to Nasreddin"
  compared_to_nasreddin:0 "Mit Pilz verglichen"  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # compared_to_sinbad:0 "Compared to Sinbad"
  compared_to_sinbad:0 "Mit Lomas Langschritt verglichen"  #AGOT Changed #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # compared_to_caligula:0 "Compared to Caligula"
  compared_to_caligula:0 "Mit Tyrion II. Lennister verglichen"  #AGOT Changed #Selbst geschrieben/abgetippt
  leading_looting_modifier:0 "Führt Plündern an"
  dashing_mask:0 "Schneidige Maske"
@@ -153,7 +165,7 @@
  football_cup:0 "Fußballtrophäe"
  participation_trophy:0 "Teilnahmetrophäe"
  perfume_bottle:0 "Parfüm von [ROOT.Char.GetFirstName]"
- 
+
  crushing_charge_modifier:0 "Zermalmender Ansturm"
  church_burner_modifier:0 "Gotteshaus-Verbrenner"
  war_guilt_modifier:0 "Kriegsschuld"
@@ -166,7 +178,7 @@
  ghost_writer_modifier_desc:0 "Dieser Charakter hat jemanden, der beeindruckende Reden für ihn schreibt …"
  playing_with_miniatures:0 "Spielt mit Miniaturen"
  playing_with_miniatures_desc:0 "Dieser Charakter träumt abgelenkt von feinsten Bemalungen."
- 
+
  artifact_3000_reusing_artifact_weapon_modifier:0 "Wiederverwertete Metalle"
  artifact_3000_reusing_artifact_weapon_modifier_desc:1 "Dieser Charakter hat nach dem Einschmelzen eines vorherigen Artefakts das Rohmaterial verwahrt. Das dürfte bei einer neuen Waffe oder Rüstung praktisch sein."
  artifact_3000_reusing_artifact_wood_modifier:0 "Wiederverwertetes Holz"
@@ -209,25 +221,30 @@
  artifact_duel_weapon_2_modifier_desc:0 "Die Zahl der Gegner, die diese Waffe in Duellen besiegt hat, zieht schon Aufmerksamkeit auf sich."
  artifact_duel_weapon_3_modifier_desc:0 "Die eindrucksvolle Reihe von Gegnern, die diese Waffe in Duellen besiegt hat, hat ihr einen gewissen Ruf eingebracht."
  artifact_duel_weapon_4_modifier_desc:0 "Diese Waffe hat schon so viele Duelle gewonnen, dass Ihr Ruhm wohl die Zeiten überdauern wird."
- 
+
  dying_of_thirst_modifier:0 "Verdurstet"
  dying_of_thirst_modifier_desc:0 "Dieser Charakter müht sich durch eine Wüste und hat eine ebenso trockene Kehle."
- 
+
  tomb_robber_modifier:0 "Grabräuber"
  tomb_robber_modifier_desc:0 "Dieser Charakter ist bekannt dafür, dass er die Begräbnisriten fremder Reiche missachtet."
  respect_for_the_dead_modifier:0 "Respektiert die Toten"
  respect_for_the_dead_modifier_desc:0 "Dieser Charakter ist bekannt dafür, dass er die Begräbnisriten fremder Reiche achtet."
  phallic_mountain_modifier:0 "Anzüglich benannter Berg"
  phallic_mountain_modifier_desc:0 "Ein ganzer Berg wurde nach dem Phallus dieses Charakters benannt. Die Welt fragt sich, wie wahr diese Gerüchte wohl sind."
- 
+
  performance_enhancers_modifier:0 "Leistungssteigernder Trunk"
  performance_enhancers_modifier_desc:0 "Dieser Charakter hat eine Flüssigkeit erlangt, die seine körperliche Leistungsfähigkeit steigert."
  footballer_modifier:0 "Begabter Fußballer"
  footballer_modifier_desc:0 "Dieser Charakter hat vor Kurzem ein Fußballspiel gewonnen."
  footballer_health_modifier:0 "Aktiver Fußballer"
  footballer_health_modifier_desc:0 "Dieser Charakter hat an einem Fußballspiel teilgenommen, was seine körperliche Verfassung und Gesundheit verbessert."
- 
+
  bibliomancy_tense_modifier:0 "Angespannt"
  bibliomancy_tense_modifier_desc:0 "Dieser Charakter hat zu viele lange Stunden über einem schwierigen Text verbracht."
  bibliomancy_fearful_modifier:0 "Ängstlich"
  bibliomancy_fearful_modifier_desc:0 "Dieser Charakter fürchtet das Unbekannte."
+
+ recent_arson_modifier:0 "Recent Arson"
+ recent_arson_modifier_desc:0 "There was recently a drunken arson in this county. It is unlikely to recover for a long time."
+ arson_rebuilding_modifier:0 "Reconstruction"
+ arson_rebuilding_modifier_desc:0 "There was recently a drunken arson in this county. Funds have been set aside and taxation suspended to aid in the reconstruction."

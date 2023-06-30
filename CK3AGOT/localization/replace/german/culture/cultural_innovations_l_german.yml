@@ -14,6 +14,9 @@
  reduce_develop_county_penalty_03:0 "Gemeinden erreichen den maximalen Malus [existing_development|E] nun bei 55 [development|E]"
  reduce_develop_county_penalty_04:0 "Gemeinden erreichen den maximalen Malus für [existing_development|E] nun bei 90 [development|E]"
 
+
+
+
  unlock_tribal_economic_buildings:0 "Schaltet alle [economic_buildings|E] der Stammes-Epoche frei"
  unlock_tribal_military_buildings:0 "Schaltet alle [military_buildings|E] der Stammes-Epoche frei"
  unlock_tribal_fortification_buildings:0 "Schaltet alle [fortification_buildings|E] der Stammes-Epoche frei"
@@ -28,7 +31,7 @@
  unlock_late_medieval_fortification_buildings:0 "Schaltet alle [fortification_buildings|E] des Spätmittelalters frei"
  unlocks_naval_raiding:0 "Erlaubt [raids|E] über das Meer, sofern Ihr schon [raids|E] durchführen könnt"
  unlocks_sailable_major_rivers:1 "Schaltet die Fähigkeit frei, auf größeren Flüssen zu segeln"
- 
+
  unlock_march_contract:0 "Schaltet die [feudal_contract|E] #high $special_contract_march_short$#! frei"
  unlock_scutage_contract:0 "Schaltet die [feudal_contract|E] #high $special_contract_scutage_short$#! frei"
  unlock_palatinate_contract:0 "Schaltet die [feudal_contract|E] #high $special_contract_palatinate_short$#! frei"
@@ -52,7 +55,11 @@
  innovation_mustering_grounds:0 "Antrittsplätze"
  innovation_mustering_grounds_desc:0 "Um Kriege zu gewinnen, reicht es nicht, einfach nur Leute zu haben, die bereit sind, für uns zu kämpfen. Das Einrichten eines Ortes, an dem die Leute sich ertüchtigen und aufmarschieren können, erlaubt es uns, Gruppen mit einer größeren Zahl an erfahrenen Kämpfern zu unterhalten, die uns zum Sieg führen können."
 
+ #AGOT Modified
+ #innovation_bannus:0 "Bannus"
  innovation_bannus:0 "Heerbann"
+ #AGOT Modified
+ #innovation_bannus_desc:0 "Based on the authority to command men in battle, the bann gives our rulers the power to compel free men to fight for them, forming a legal basis for the mustering of large armies."
  innovation_bannus_desc:0 "Der Bann gründet sich auf der Autorität, Truppen in der Schlacht befehligen zu können, und verleiht unseren Herrschern die Macht, Freie dazu zu verpflichten, für sie zu kämpfen. So wird eine rechtliche Grundlage für das Ausheben großer Armeen geschaffen."
  eligible_accolade_vanguard_attribute_ACCOLADES_DLC:0 "[knights|E] dieser [culture|E] können [GetAccoladeType('vanguard_attribute').GetName]-[accolades|E] erhalten"
  eligible_accolade_vanguard_attribute:1 "[AddLocalizationIf(HasDlcFeature('accolades'), 'eligible_accolade_vanguard_attribute_ACCOLADES_DLC')]"
@@ -88,7 +95,7 @@
  #Regional
  innovation_viking_tradition:0 "Wikingfahrten"
  innovation_viking_tradition_desc:0 "Die Menschen des Nordens haben eine lange Tradition als Händler, aber auch als Piraten. Nur wenige sind bereit, gegen eine Bedrohung zu kämpfen, die urplötzlich am Flussufer erscheint – und die Krieger der Wikinger haben diese Form der Kriegsführung gemeistert."
- 
+
  innovation_longboats:1 "Langschiffe"
  innovation_longboats_desc:1 "Unsere Langschiffe sind vorzügliche Schiffe, die nahezu überall hingelangen können und selbst dem rauesten Wetter trotzen, was uns eine außerordentliche Beweglichkeit auf See verleiht."
 
@@ -101,13 +108,13 @@
  innovation_elephantry_desc:0 "Elefanten sind in Gefangenschaft schwer zu züchten, weshalb jeder Mahut sich seine eigenen wilden Elefanten einfangen und abrichten muss. Dies bedeutet, dass es sich um eine feine Kunst handelt, diese gewaltigen Kreaturen in der Schlacht richtig einzusetzen, doch es ist eine Kunst, die wir unbedingt meistern wollen."
  eligible_accolade_elephantry_attribute_ACCOLADES_DLC:0 "[knights|E] dieser [culture|E] können [GetAccoladeType('elephantry_attribute').GetName]-[accolades|E] erhalten"
  eligible_accolade_elephantry_attribute:1 "[AddLocalizationIf(HasDlcFeature('accolades'), 'eligible_accolade_elephantry_attribute_ACCOLADES_DLC')]"
- 
+
  innovation_wootz_steel:0 "Wootz-Stahl"
  innovation_wootz_steel_desc:0 "Diese kohlenstoffreiche Legierung, die auch als Wootzkuchen oder Wootzbarren bekannt ist, eignet sich ausgezeichnet für die Herstellung von Waffen. Wootz-Stahl wird viel gehandelt und gilt als der beste Stahl der Welt. Über weite Teile der menschlichen Geschichte hat er immer wieder die Aufmerksamkeit von arabischen, ägyptischen, chinesischen und sogar römischen Händlern auf sich gezogen."
- 
+
  innovation_african_canoes:0 "Westafrikanische Kanus"
  innovation_african_canoes_desc:0 "Die großen Kanus Westafrikas sind hervorragend geeignet, um Flüsse zu befahren und Truppen rasch an ihren Bestimmungsort zu bringen."
- 
+
  innovation_table_of_princes:0 "Fürstentafel"
  innovation_table_of_princes_desc:0 "Die Fürstentafel war der Königsthron der böhmischen Herrscher, wobei derjenige am Kopf der Tafel als rechtmäßiger Herrscher betrachtet wurde. Laut dem Kodex des Haus-Senex gehen die Titel an das älteste Mitglied der herrschenden Dynastie."
  unlock_single_heir_dynasty_house_changing:0 "Kann $single_heir_dynasty_house$ bei jeder [crown_authority|E] durchsetzen"
@@ -122,7 +129,7 @@
 ######################
 # Early Medieval Era #
 ###################### 
- 
+
  #Military 
  innovation_battlements:0 "Festungsmauern"
  innovation_battlements_desc:0 "Anstatt nur den Wehrturm selbst zu befestigen, wird das Errichten einer robusten Außenmauer, die sicher bemannt werden kann, unseren Burgen zusätzlichen Schutz vor Angreifern verleihen."
@@ -132,7 +139,11 @@
  eligible_accolade_besieger_attribute_ACCOLADES_DLC:0 "[knights|E] dieser [culture|E] können [GetAccoladeType('besieger_attribute').GetName]-[accolades|E] erhalten"
  eligible_accolade_besieger_attribute:1 "[AddLocalizationIf(HasDlcFeature('accolades'), 'eligible_accolade_besieger_attribute_ACCOLADES_DLC')]"
 
+ #AGOT Modified
+ #innovation_burhs:0 "Burhs"
  innovation_burhs:0 "Burhs"
+ #AGOT Modified
+ #innovation_burhs_desc:0 "Scattered across the countryside, burhs are important fortified settlements we can use both to muster troops and to serve as administrative centers."
  innovation_burhs_desc:0 "Die über die Lande verstreuten Burhs sind wichtige befestigte Siedlungen, die wir sowohl für das Aufmarschieren von Truppen als auch als Verwaltungsknotenpunkte nutzen können."
 
  innovation_house_soldiers:0 "Haustruppen"
@@ -143,9 +154,6 @@
 
  innovation_arched_saddle:0 "Kriegssattel"
  innovation_arched_saddle_desc:0 "Leichte Reiterei ist nicht zu unterschätzen, aber sie schöpft das Potenzial des Schlachtrosses nicht wirklich voll aus. Kriegssättel erlauben es uns, schwer gepanzerte Krieger mit angelegten Lanzen ins Feld zu führen, die bei ihrem Ansturm gegen die feindlichen Linien ihre volle Wucht zum Einsatz bringen können."
-
- innovation_knighthood:0 "Waffenmeister"
- innovation_knighthood_desc:0 "Es ist die Aufgabe des Waffenmeisters, die Brut des Lords in den brutalen Künsten des Kampfes zu schulen. Indem wir dafür sorgen, dass jeder Hof einen Mann von kriegerischem Ruf anheuert, können wir diese Fähigkeiten an unsere edle Schicht vermitteln."
  eligible_accolade_lancer_attribute_ACCOLADES_DLC:0 "[knights|E] dieser [culture|E] können [GetAccoladeType('lancer_attribute').GetName]-[accolades|E] erhalten"
  eligible_accolade_lancer_attribute:1 "[AddLocalizationIf(HasDlcFeature('accolades'), 'eligible_accolade_lancer_attribute_ACCOLADES_DLC')]"
 
@@ -185,7 +193,6 @@
  innovation_ghilman:0 "Ghilman"
  innovation_ghilman_desc:0 "Ghilman sind im Krieg gefangen genommene Sklavensoldaten, die leidenschaftliche Kämpfer und uns noch dazu treuer ergeben sind als gewöhnliche Söldner. Billiger sind sie noch dazu."
 
-
 #####################
 # High Medieval Era #
 #####################
@@ -199,9 +206,16 @@
 
  innovation_castle_baileys:0 "Vorburgen"
  innovation_castle_baileys_desc:0 "Der Wehrturm mag das Herz einer Burg sein, doch er ist beileibe nicht ihr einziges wichtiges Gebäude. Wenn wir Dinge wie die Stallungen und das Zeughaus in einer geschützten Vorburg errichten, sorgen wir dafür, dass wir unsere Aufgebote unter allen Umständen ordentlich unterbringen und ausrüsten können."
- 
+
  innovation_men-at-arms:0 "Kriegsvolk"
  innovation_men-at-arms_desc:0 "Die Nachfrage nach Menschen, die mit Pferd und Lanze umgehen können, ist stets recht hoch, aber sie sind nicht immer verfügbar. Das Bereithalten von Gruppen aus Kriegsvolk auf Abruf wird dafür sorgen, dass es uns nicht an erfahrenen Kämpfern mangelt, sobald der nächste Krieg ausbricht – was er unausweichlich tun wird."
+
+ #AGOT Modified
+ #innovation_knighthood:0 "Knighthood"
+ innovation_knighthood:0 "Waffenmeister"
+ #AGOT Modified
+ #innovation_knighthood_desc:0 "By bestowing knighthoods upon our best fighters and paying them with land holdings instead of mere coin, we can give them the honor they deserve as well as secure their loyalty to us."
+ innovation_knighthood_desc:0 "Es ist die Aufgabe des Waffenmeisters, die Brut des Lords in den brutalen Künsten des Kampfes zu schulen. Indem wir dafür sorgen, dass jeder Hof einen Mann von kriegerischem Ruf anheuert, können wir diese Fähigkeiten an unsere edle Schicht vermitteln."
 
  innovation_advanced_bowmaking:0 "Fortgeschrittenes Bogenbauen"
  innovation_advanced_bowmaking_desc:0 "Wo Bogenschützen ihre Waffen traditionell selbst bauten und instand hielten, haben nun Handwerker damit begonnen, neue Arten von Bögen herzustellen, die stärker und in ihrem Aufbau komplexer sind als jemals zuvor. Indem wir diese neuen Entwürfe fördern, können wir diese meisterhaften Bogenbauer zu einem militärischen Vorteil von unschätzbarem Wert machen."
@@ -229,6 +243,8 @@
  innovation_guilds_desc:0 "Da unsere Lande sich ausdehnen, wird es zunehmend wirkungsärmer, sämtlichen Handel innerhalb unserer Domäne selbst abwickeln zu wollen. Indem wir Verbünde aus Kaufleuten und Handwerkern mit Zunftordnungen versehen, können wir ihnen mehr Eigenverantwortung über ihre Geschäfte übertragen und dabei dennoch weiter Gewinn aus ihren Unternehmungen ziehen."
 
  innovation_development_03:0 "Verstädterung"
+ #AGOT Modified
+ #innovation_development_03_desc:0 "The great cities of Rome, Byzantium, and Delhi have long stood out as relics of a great, unmatchable legacy. As our infrastructure and population grow, we finally have the means to develop new settlements which rival these ancient urban centers."
  innovation_development_03_desc:0 "Die großen Städte von Essos haben sich lange Zeit als Relikte eines großen, unvergleichlichen Erbes hervorgetan. Mit dem Ausbau unserer Zivilisation und unserer Bevölkerung haben wir endlich die Mittel, um neue Siedlungen zu errichten, die es mit diesen alten städtischen Siedlungen aufnehmen können."
 
  innovation_currency_03:0 "Bankwesen"
@@ -251,7 +267,7 @@
 #####################
 # Late Medieval Era #
 ##################### 
- 
+
  #Military
  innovation_machicolations:0 "Maschikulis"
  innovation_machicolations_desc:0 "Als merkliche Verbesserung unserer früheren Hurden dienen steinerne Maschikulis dem gleichen Zweck, sind aber wesentlich robuster und bieten unseren Verteidigern mehr Schutz."
@@ -277,6 +293,8 @@
  innovation_primogeniture_desc:0 "Ein Königreich, ein Erbe. Auch wenn die jüngeren Kinder unseres Monarchen sich im Stich gelassen fühlen mögen, weil ihnen ein Erbe verweigert wird, stellt dies doch die beste Möglichkeit für uns dar, um für ein stabiles Reich zu sorgen, das nicht durch Erbfolgekrisen auseinandergerissen wird."
 
  innovation_cranes:0 "Kräne"
+ #AGOT Modified
+ #innovation_cranes_desc:0 "A forgotten marvel of engineering, the Romans used tread-wheel cranes to great effect when building their empire, and so too shall we."
  innovation_cranes_desc:0 "Die Valyrer nutzten mit dem Laufradkran sehr wirkungsreich ein vergessenes Wunderwerk der Ingenieurskunst, um ihr Reich zu errichten, und wir werden es ihnen gleichtun."
 
  innovation_noblesse_oblige:0 "Adel verpflichtet"
