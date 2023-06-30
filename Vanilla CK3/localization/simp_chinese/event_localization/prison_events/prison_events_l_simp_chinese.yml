@@ -13,7 +13,7 @@
 
  prison.1002.rack.desc:0 "为何要把事情弄复杂？没什么能比得上好用的老旧刑具。当[recipient.GetTitledFirstName]被狱卒拖进房间时，[recipient.GetHerHis]的目光立刻被那个大木架吸引了。"
  prison.1002.whip.desc:0 "啊，鞭子甜蜜的吻！它可能看起来无害，却能像刀一样将血肉分离。从[recipient.GetTitledFirstNamePossessive]的脸色来看，[recipient.GetSheHe]对此非常了解。"
- prison.1002.rats.desc:0 "铁桶里的老鼠刚开始似乎有点害羞，但是增加一些热量后，它们就会欢快地在[recipient.GetWomanMan]的胸膛啃穿出路来。当我向[recipient.GetTitledFirstName]解释这个概念，[recipient.GetHerHis]的意志在我的眼前融化。"
+ prison.1002.rats.desc:1 "铁桶里的老鼠刚开始似乎有点害羞，但是增加一些热量后，它们就会欢快地在[recipient.GetWomanMan]的胸膛啃穿出路来。当我向[recipient.GetTitledFirstName]解释这个概念，[recipient.GetHerHis]的意志在我的眼前融化。"
  prison.1002.poetry.desc:0 "当一个人能够像我一样出于乐趣对文字精妙地摆弄，那么将这些文字扭结成伤害的话语也绝非难事。\n\n我将那一卷长长的诗卷从我的腋下取出，展开，让卷轴展落到地面，轻轻地一路滚到门外。"
  prison.1002.anothers_secret.desc:0 "\n\n“不，不，我……我有情报！[reveal_secret_owner.GetTitledFirstName][secret_to_reveal.Custom('SecretDescriptionThirdPerson')]！我全都告诉你！”"
  prison.1002.my_secret.desc:0 "\n\n“不要，求求你！#EMP 求求你！#!我会告诉你你想知道的一切！我……我[secret_to_reveal.Custom('SecretDescriptionFirstPerson')]！”"
@@ -80,7 +80,7 @@
  prison.9002.desc_end:0 "，很快，我和我可靠的[ROOT.Char.Custom('prison_pet')]就消失在[imprisoner.GetTitledFirstNamePossessive]的[imprisoner.Custom('ResidenceBuilding')]周围的[imprisoner.Custom('TerrainType')]中。"
  prison.9002.a:0 "我们自由了，[ROOT.Char.Custom('prison_pet')]！"
 
- prison.9003.desc:0 "[imprisoner.GetTitledFirstNamePossessive]的看守一转身背向我和我的狱友[prison-friend.GetTitledFirstName]，我们就发动了袭击。\n\n但多日的牢狱生活让我虚弱，看守一记铁拳打在我肚子上，我很快就被压制，被固定住动弹不得。看守准备发出致命一击，但我隐约看见[prison-friend.GetTitledFirstNameNoTooltip]出现在我们上方，握着看守的匕首——很快我们就能继续前进了。\n\n我们成功冲进夜晚中，互相搀扶着，发出大笑。"
+ prison.9003.desc:0 "[imprisoner.GetTitledFirstNamePossessive]的看守一转身背向我和我的狱友[prison_friend.GetTitledFirstName]，我们就发动了袭击。\n\n但多日的牢狱生活让我虚弱，看守一记铁拳打在我肚子上，我很快就被压制，被固定住动弹不得。看守准备发出致命一击，但我隐约看见[prison_friend.GetTitledFirstNameNoTooltip]出现在我们上方，握着看守的匕首——很快我们就能继续前进了。\n\n我们成功冲进夜晚中，互相搀扶着，发出大笑。"
  prison.9003.a:0 "我们自由了！"
 
  prison.9499.t:0 "逃脱！"

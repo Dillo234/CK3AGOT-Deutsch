@@ -16,7 +16,9 @@
  fabricate_hook_outcome.1001.c:0 "这一切都是大大的错误。"
 
  fabricate_hook_outcome.1002.t:1 "$fabricate_hook_header$物证"
- fabricate_hook_outcome.1002.desc:0 "拦截下[target.GetTitledFirstName]的宫廷派出的信使后，一个机会出现了。\n\n通过复制[target.GetTitleAsNamePossessive]的印玺，我能伪造一封威胁提高税收的信件，并在[target.GetHerHis]的封臣中传阅。或者至少威胁……"
+ fabricate_hook_outcome.1002.desc:1 "拦截下[target.GetTitledFirstName]的宫廷派出的信使后，一个机会出现了。\n\n"
+ fabricate_hook_outcome.1002.desc.vassals:0 "通过复制[target.GetTitleAsNamePossessive]的印玺，我能伪造一封威胁提高税收的信件，并在[target.GetHerHis]的封臣中传阅。或者至少威胁……"
+ fabricate_hook_outcome.1002.desc.no_vassals:0 "通过复制[target.GetTitleAsNamePossessive]的印玺，我能伪造一封威胁提高税收的信件，并在[target.GetHerHis]的廷臣中传阅。或者至少威胁……"
  fabricate_hook_outcome.1002.a:0 "“那#EMP 是#!你的签名，不是吗？”"
 
  fabricate_hook_outcome.1003.t:1 "$fabricate_hook_header$大胆的营救"

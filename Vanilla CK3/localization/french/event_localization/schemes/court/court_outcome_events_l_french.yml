@@ -36,11 +36,11 @@
  court_outcome.1000.b.success:0 "[target.GetFirstNameNoTooltip] n’a jamais été en danger"
 
 
- court_outcome.1001.desc:1 "Après un instant qui m’a semblé interminable, j’atteins une clairière. [target.GetFirstName] est sur le sol devant moi, échevelé[target.Custom('FR_E')] et sans arme. En face d[target.Custom('FR_EluiElle')], et sur le point d’attaquer, se dresse un[ROOT.Char.Custom('FR_LocalAnimal_e')] énorme [ROOT.Char.Custom('LocalAnimal')] !\n\nMa flèche atteint sa cible avec précision et la bête tombe à terre. Pendant un moment, tout ce que [target.GetFirstNameNoTooltip] arrive à faire est de regarder, mais ensuite [target.Custom('FR_IlElle')] chancelle jusqu’à moi et m’enlace."
+ court_outcome.1001.desc:1 "Après un instant qui m’a semblé interminable, j’atteins une clairière. [target.GetFirstName] est sur le sol devant moi, échevelé[target.Custom('FR_E')] et sans arme. En face d[target.Custom('FR_EluiElle')], et sur le point d’attaquer, se dresse un énorme [ROOT.Char.Custom('GetAnimalType')] !\n\nMa flèche atteint sa cible avec précision et la bête tombe à terre. Pendant un moment, tout ce que [target.GetFirstNameNoTooltip] arrive à faire est de regarder, mais ensuite [target.Custom('FR_IlElle')] chancelle jusqu’à moi et m’enlace."
  court_outcome.1001.a:0 "J’ai besoin de vous, mon amour, ici et maintenant !"
  court_outcome.1001.b:0 "Un doux baiser est la seule récompense dont j’ai envie."
 
- court_outcome.1002.desc:1 "« [target.GetFirstName] ! J’arrive ! », crié-je alors que je traverse le feuillage pour me rendre dans la clairière. Mon cœur bat à tout rompre et la sueur coule sur mon visage. Mais la scène qui se tient devant moi n’est pas celle à laquelle je m’attendais. Il y a un[ROOT.Char.Custom('FR_LocalAnimal_e')] [ROOT.Char.Custom('LocalAnimal')], certes, mais la bête est au sol, une flèche plantée entre les yeux. [target.GetFirstNameNoTooltip] abaisse alors son arc et se tourne vers moi. « De quoi s’agit-il, [owner.GetTitledFirstNameNoTooltip] ? Me croyez-vous incapable de me défendre ? »"
+ court_outcome.1002.desc:1 "« [target.GetFirstName] ! J’arrive ! », crié-je alors que je traverse le feuillage pour me rendre dans la clairière. Mon cœur bat à tout rompre et la sueur coule sur mon visage. Mais la scène qui se tient devant moi n’est pas celle à laquelle je m’attendais. Il y a un[ROOT.Char.Custom('FR_E_GetAnimalType')] [ROOT.Char.Custom('GetAnimalType')], certes, mais la bête est au sol, une flèche plantée entre les yeux. [target.GetFirstNameNoTooltip] abaisse alors son arc et se tourne vers moi. « De quoi s’agit-il, [owner.GetTitledFirstNameNoTooltip] ? Me croyez-vous incapable de me défendre ? »"
  court_outcome.1002.a:0 "Je... Je me suis perdu[ROOT.Char.Custom('FR_E')]."
 
  court_outcome.1005.desc:0 "Au fur et à mesure que je me rapproche, les cris s’intensifient. Ce doit être m[target.Custom('FR_OnA')] [target.Custom('RomanticComplimentAdjective')] [target.GetFirstName], je reconnaîtrais sa voix entre mille ! Cependant, il y a quelque chose de #EMP bizarre#! à propos de ses cris. Ils ne ressemblent pas vraiment à de la peur ou de la douleur...\n\nJe suis très déçu[ROOT.Char.Custom('FR_E')] quand je [target.Custom('FR_LeLa')] trouve enfin : [target.Custom('FR_IlElle')] est nu[target.Custom('FR_E')] et se roule dans l’herbe avec [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]."
@@ -55,7 +55,7 @@
  court_outcome.1005.d.murder_discovered:0 "Ma flèche atteint [target.GetFirstNameNoTooltip] mais je suis découvert[owner.Custom('FR_E')]"
 
  court_outcome.1003.t:0 "La chasse sauvage"
- court_outcome.1004.desc:1 "Alors que je chevauche, ma monture quitte subitement le sentier. La chute est inévitable et expulse l’air de mes poumons. Quand je lève les yeux, je me retrouve face à un[owner.Custom('FR_LocalAnimal_e')] [owner.Custom('LocalAnimal')] !\n\nAvant que je ne puisse crier, la bête s’effondre, une flèche entre les yeux.\n\n« [target.GetFirstNameNoTooltip], [target.Custom('LoverPetName_possessive')] ! J’ai cru vous avoir perdu ! », dit mon héros qui n’est autre que [owner.Custom('FR_le_Char_Pi')][owner.GetTitledFirstName] !"
+ court_outcome.1004.desc:1 "Alors que je chevauche, ma monture quitte subitement le sentier. La chute est inévitable et expulse l’air de mes poumons. Quand je lève les yeux, je me retrouve face à un[owner.Custom('FR_E_GetAnimalType')] [owner.Custom('GetAnimalType')] !\n\nAvant que je ne puisse crier, la bête s’effondre, une flèche entre les yeux.\n\n« [target.GetFirstNameNoTooltip], [target.Custom('LoverPetName_possessive')] ! J’ai cru vous avoir perdu ! », dit mon héros qui n’est autre que [owner.Custom('FR_le_Char_Pi')][owner.GetTitledFirstName] !"
  court_outcome.1003.b:0 "Nous partageons un seul baiser, doux comme du miel."
 
 
@@ -69,7 +69,7 @@
  court_outcome.1100.targets_host_residence.desc:0 "le [target.Custom('ResidenceBuilding')] [target_host.Custom('FR_du_Char_Pi')][target_host.GetTitledFirstName]."
  court_outcome.1100.end.desc:0 "\n\nLa vue de la fenêtre de la chambre de [target.GetFirstNameNoTooltip] fait palpiter mon cœur. Si près, et pourtant si loin !\n\nMais attendez... qui est-ce, en train d’escalader la tour ? La silhouette ombragée s’arrête à la fenêtre de la chambre de [target.GetFirstNameNoTooltip] et ouvre les volets..."
  court_outcome.1100.a:0 "M[target.Custom('FR_OnA')] bien-aimé[target.Custom('FR_E')] est en danger. Je dois [target.Custom('FR_LeLa')] sauver !"
- court_outcome.1100.b:0 " « Gardes ! #EMP Gardes !#! Il y a un intrus dans la tour !"
+ court_outcome.1100.b:0 "« Gardes ! #EMP Gardes !#! Il y a un intrus dans la tour !"
  court_outcome.1100.b.failure:0 "[target.Custom('FR_le_Char_U_Pi')|U][target.GetShortUIName] est blessé[target.Custom('FR_E')] par l’intrus"
  court_outcome.1100.b.success:0 "[target.Custom('FR_le_Char_U_Pi')|U][target.GetShortUIName] s’échappe indemne"
  court_outcome.1100.c:0 "Je ne suis pas venu[ROOT.Char.Custom('FR_E')] ici pour lutter contre un cambrioleur."

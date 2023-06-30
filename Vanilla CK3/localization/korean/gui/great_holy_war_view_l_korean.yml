@@ -31,7 +31,7 @@
  GHW_WITHDRAW:0 "철회"
  GHW_WITHDRAWPLEDGE:0 "서약 철회"
  GHW_GIVE_GOLD:0 "금화 기부"
- GHW_CHANGE_BENEFICIARY:2 "[Select_CString( GetPlayer.GetBeneficiary.IsValid, '교체', '임명' )] ([GreatHolyWarWindow.GetNumberOfPotentialBeneficiaries])" # [LocEditor:AwaitingBatchUpdate]
+ GHW_CHANGE_BENEFICIARY:3 "[Select_CString( GetPlayer.GetBeneficiary.IsValid, '교체', '임명' )] ([GreatHolyWarWindow.GetNumberOfPotentialBeneficiaries])"
  GHW_MY_BENEFICIARY:0 "나의 [beneficiary|E]"
  GHW_MY_CONTRIBUTION:0 "나의 [contribution|E]"
  GHW_TOGGLE_BENEFICIARY:1 "최혜 후보자 지지 여부"
@@ -68,7 +68,7 @@
  GHW_CONTRIBUTE_WAR_CHEST_TT_BODY:0 "[GREAT_HOLY_WAR.GetFaith.Custom('GHWName')]에 [gold|E]를 기부해 [piety|E]를 획득합니다."
  GHW_SCORE_TOOLTIP_HEADER:0 "#T [GREAT_HOLY_WAR.GetFaith.Custom('GHWName')] 공헌#!"
  GHW_SCORE_TOOLTIP_NO_WAR:0 "[GREAT_HOLY_WAR.GetFaith.Custom('GHWName')](이)가 아직 시작되지 않았습니다."
- GHW_SCORE_TOOLTIP_MULTIPLIER_ZERO:0 "이 [GREAT_HOLY_WAR.GetFaith.Custom('GHWName')]에서 점수를 획득할 수 없음"
+ GHW_SCORE_TOOLTIP_MULTIPLIER_ZERO:0 "해당 [GREAT_HOLY_WAR.GetFaith.Custom('GHWName')]에서 점수를 획득할 수 없음"
  GHW_SCORE_TOOLTIP_MULTIPLIER:0 "배율: $VALUE|+V%$"
  GHW_TARGET_CHARACTER:0 "방어 측"
  GHW_CHANGE_TARGET:0 "전쟁 수정"

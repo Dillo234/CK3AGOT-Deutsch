@@ -4,8 +4,8 @@
  ##I am a player, do I want to take the risk?
  elope_event_title:0 "La fuga:"
  elope.0001.t:0 "$elope_event_title$ La protección de las sombras"
- elope.0001.positive.desc:0 "Los últimos preparativos ya están terminados. Hemos sobornado a los guardias y [target.GetTitledFirstName] está list[target.Custom('ES_OA')]. Hoy, cuando caigan las tinieblas sobre [location.GetNameNoTooltip], liberaré a mi [target.Custom('LoverPetName')] y será mi espos[target.Custom('ES_OA')]."
- elope.0001.negative.desc:0 "Reviso mentalmente la lista. Tengo trazada la ruta de huida, los guardias ya tendrán sus sobornos y, con suerte, la nota que mandé [target.Custom('ES_AlAla')] [target.GetTitledFirstName] habrá llegado a tiempo. Pero ¿y si no es así? ¡Tal vez no la recibió! Hay tantas otras cosas que pueden haber ido mal…\n\nNo hay tiempo para dudas, esta es mi única oportunidad. Debo ir con [target.Custom('ES_ElElla')] y que pase lo que tenga que pasar, o bien debo abandonar la empresa."
+ elope.0001.positive.desc:0 "Los últimos preparativos ya están terminados. Hemos sobornado a los guardias y [target.GetTitledFirstName|l] está list[target.Custom('ES_OA')]. Hoy, cuando caigan las tinieblas sobre [location.GetNameNoTooltip], liberaré a mi [target.Custom('LoverPetName')] y será mi espos[target.Custom('ES_OA')]."
+ elope.0001.negative.desc:0 "Reviso mentalmente la lista. Tengo trazada la ruta de huida, los guardias ya tendrán sus sobornos y, con suerte, la nota que mandé [target.Custom('ES_AlAla')] [target.GetTitledFirstName|l] habrá llegado a tiempo. Pero ¿y si no es así? ¡Tal vez no la recibió! Hay tantas otras cosas que pueden haber ido mal…\n\nNo hay tiempo para dudas, esta es mi única oportunidad. Debo ir con [target.Custom('ES_ElElla')] y que pase lo que tenga que pasar, o bien debo abandonar la empresa."
  elope.0001.a:0 "¡Ya voy, [target.GetFirstNameNoTooltip]!"
  elope.0001.b:0 "¿Qué estoy haciendo? ¡Es una locura!"
  elope.0001.a.tt:0 "Intento fugarme con [target.GetShortUIName]"
@@ -25,7 +25,7 @@
  elope.1002.start.desc:1 "Me despiertan unos golpes fuertes en la puerta. «¡Mi [ROOT.Char.GetTitleAsNameNoTooltip]! ¡Han encontrado muerto a un guardia y vuestr[target.Custom('ES_OA')] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] ha desaparecido!»."
  elope.1002.desc_naked:0 "Salgo de la cama, gritando órdenes antes incluso de salir por la puerta."
  elope.1002.desc_not_naked:0 "Salgo de la cama, gritando órdenes mientras me pongo la ropa."
- elope.1002.desc:0 "\n\nLa búsqueda continúa durante horas. Hasta el mediodía no descubren una carta firmada por [target.GetTitledFirstName]. La letra es inequívocamente suya.\n\n"
+ elope.1002.desc:0 "\n\nLa búsqueda continúa durante horas. Hasta el mediodía no descubren una carta firmada por [target.GetTitledFirstName|l]. La letra es inequívocamente suya.\n\n"
  elope.1002.apologetic_relationship.desc:0 "«Mi queridísim[target.Custom('ES_OA')] [target.GetFirstNameNoTooltip], lo siento profundamente, pero debo seguir mi corazón. Me he ido para casarme con el amor de mi vida… [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]»."
  elope.1002.unapologetic_relationship.desc:0 "«Me he ido para casarme con [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]. No me sigáis. ¡Prefiero morir antes que estar con vos!»."
  elope.1002.apologetic_family.desc:0 "«[ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))|U], me he ido para casarme con el amor de mi vida… [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]. Solo deseo ser feliz. Espero que podáis perdonarme»."
@@ -49,7 +49,7 @@
 #Failure discovered event owner
  elope.1011.t:0 "$elope_event_title$ Antorchas en la oscuridad"
  elope.1011.middle.desc:0 "Puedo ver dos siluetas, tres, cuatro… ¡[ROOT.Char.GetFaith.HighGodName], esto no puede ser bueno!"
- elope.1011.end.desc:0 "A mi orden, nos retiramos entre la maleza. Nuestros perseguidores, por otra parte, no están para sutilezas y se acercan rápidamente.\n\n«¡No podréis esconderos para siempre, [ROOT.Char.GetTitledFirstNameNoTooltip]! ¡Hemos capturado a un[dummy_soldier.Custom('ES_OA')] de vuestros hombres y vos caeréis después!»."
+ elope.1011.end.desc:0 "A mi orden, nos retiramos entre la maleza. Nuestros perseguidores, por otra parte, no están para sutilezas y se acercan rápidamente.\n\n«¡No podréis esconderos para siempre, [ROOT.Char.GetTitledFirstNameNoTooltip|l]! ¡Hemos capturado a un[dummy_soldier.Custom('ES_OA')] de vuestros hombres y vos caeréis después!»."
  elope.1011.a:0 "#EMP ¡Corre!#!"
 
  elope.1012.t:0 "Una fuga fallida"

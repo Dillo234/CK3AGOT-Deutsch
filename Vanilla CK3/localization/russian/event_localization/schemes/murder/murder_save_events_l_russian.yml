@@ -76,7 +76,7 @@
  murder_save_creepy_crawlies_cat_dies:0 "[THIS.Char.Custom('CatStoryName')] умирает от ран"
 
  murder_save.0008.t:1 "$murder_save_header$ пушистый страж"
- murder_save.0008.desc:1 "[target.GetTitledFirstName] [Select_CString(target.IsFemale, 'должна была', 'должен был' )] умереть, но мое покушение провалилось!\n\nУбийце удалось пробраться в покои жертвы, но прежде чем [dummy_assassin_gender.GetSheHe] [Select_CString(assassin_dummy_gender.IsFemale, 'нанесла', 'нанес' )] удар, начала лаять собака! Та самая собака, которой так гордится [target.GetTitleTierName|l]! Убийце пришлось бежать."
+ murder_save.0008.desc:1 "[target.GetTitledFirstName] [Select_CString(target.IsFemale, 'должна была', 'должен был' )] умереть, но мое покушение провалилось!\n\nУбийце удалось пробраться в покои жертвы, но прежде чем [dummy_assassin_gender.GetSheHe] [Select_CString(dummy_assassin_gender.IsFemale, 'нанесла', 'нанес' )] удар, начала лаять собака! Та самая собака, которой так гордится [target.GetTitleTierName|l]! Убийце пришлось бежать."
 
  murder_save.1008.desc:0 "Как только я вхожу в покои, моя любимая собака [THIS.Char.Custom('DogStoryName')] начинает лаять, а затем вдруг бросается на темную тень... Тень спотыкается! [THIS.Char.Custom('DogStoryName')] преследует несостоявшегося убийцу, пока я не отзываю [THIS.Char.Custom('DogStoryHerHis')]."
  murder_save.1008.a:0 "Без тебя меня бы убили, [THIS.Char.Custom('DogStoryName')]!"

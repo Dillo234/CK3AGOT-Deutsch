@@ -4,7 +4,7 @@
  partition_succession_law:1 "Разделение"
  partition_succession_law_subname:0 "Все дети получают равное наследство"
  partition_succession_law_effects:1 "\n#V $partition_succession_law$ предполагает, что при [Concept( 'succession', 'наследовании' )] ваши [titles|l] будут равно поделены между вашими детьми.#!\n\n#weak $partition_base_desc$#!"
- partition_base_desc:2 "#weak При наследовании все [titles|El], которыми владел покойный [ruler|El], поделят между собой [eligible_children|El], при этом [Concept( 'player_heir', 'наследнику-игроку' )|El] всегда достаются [primary_title|El], [realm_capital|El] и все соответствующие [de_jure|El] титулы.\n\nМладшие дети получат титулы, начиная с равных по [Concept( 'rank', 'рангу' )|El] первому, а если таковых нет, то титулы более низкого уровня. Ваши наследники-игроки могут получать до срока только те титулы, которые перешли бы им по наследству.\n#!"
+ partition_base_desc:2 "#weak При наследовании все [Concept( 'titles', 'титулы' )|E], которыми владел покойный [Concept( 'ruler', 'правитель' )|E], поделят между собой [Concept( 'eligible_children', 'привилегированные дети' )|E], при этом [Concept( 'player_heir', 'наследнику-игроку' )|E] всегда достаются [Concept( 'primary_title', 'первый титул' )|E], [Concept( 'realm_capital', 'столица державы' )|E] и все соответствующие [Concept( 'de_jure', 'де-юре' )|E] титулы.\n\nМладшие дети получат титулы, начиная с равных по [Concept( 'rank', 'рангу' )|E] первому, а если таковых нет, то титулы более низкого уровня. Ваши наследники-игроки могут получать до срока только те титулы, которые перешли бы им по наследству.\n#!"
  high_partition_succession_law:1 "Приоритетное разделение"
  high_partition_succession_law_subname:0 "Все дети получают наследство"
  high_partition_succession_law_effects:2 "\n#V $high_partition_succession_law$ предполагает, что львиную долю ваших [Concept( 'titles', 'титулов' )|E] получит [player_heir|El], остальное поделят между собой ваши дети.#!\n\n#weak $partition_base_desc$\nНаследник-игрок #emp всегда#! наследует не менее половины титулов покойного правителя.\n#!"
@@ -99,7 +99,7 @@
 
  succession_laws_must_have_organised_government_tooltip:0 "У меня не [Concept( 'feudal', 'феодальный' )|E] и не [Concept( 'clan', 'клановый' )|E] [Concept( 'government', 'строй' )|E]"
  succession_laws_must_not_be_forced_partition:0 "Мой [feudal_contract|El] не обязывает меня выбирать [succession|El] посредством разделения"
- succession_laws_must_have_valid_tanistry_culture:1 "У вас #bold нет#! $goidelic_group_collective_noun$ого или $brythonic_group_collective_noun$ого [Concept( 'heritage', 'наследия' )|E]."
+ succession_laws_must_have_valid_tanistry_culture:1 "У вас #bold нет#! $goidelic_group$ого или $brythonic_group$ого [Concept( 'heritage', 'наследия' )|E]."
  number_of_election_votes:0 "Количество голосов на выборах"
  
  get_hre_elector_1:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('hre_elector_1').GetLandedTitle.GetName]"

@@ -14,7 +14,7 @@
  stewardship_wealth.1001.b.givehook:0 "Если [wealthy_vassal.GetTitledFirstNameNoTooltip] поможет мне, я буду в долгу перед [Select_CString(wealthy_vassal.IsFemale, 'ней', 'ним' )]."
  stewardship_wealth.1001.c:0 "Я потребую денег с моих вассалов!"
  stewardship_wealth.1001.c.tt:0 "Все вассалы:"
- stewardship_wealth.1001.d:0 "Конфисковать собственность церкви, чтобы пополнить казну."
+ stewardship_wealth.1001.d:1 "Конфисковать религиозную собственность, чтобы пополнить казну."
  stewardship_wealth.1001.e:0 "Я затяну пояс потуже и сэкономлю на всем, на чем можно."
  
  # Minting New Coins, bu Stephen Arthur and Sean Hughes
@@ -118,14 +118,14 @@
  stewardship_wealth.7000.b:0 "Я одобряю эти поборы."
  stewardship_wealth.7000.b.tt:0 "Поиски козлов отпущения, искажение правды, небольшие взятки: все, что угодно, лишь бы обвинения в тирании стали тише"
  stewardship_wealth.7000.c:0 "Забери эту добычу. И неси еще."
- stewardship_wealth.7000.c.tt:0 "И в вашей, и в [victim.GetHersHis] державе будут действовать лучшие бойцы, о которых [ROOT.Char.GetTitleAsNameNoTooltip] может мечтать!"
+ stewardship_wealth.7000.c.tt:0 "И в вашей, и в [victim.GetHersHis] державе будут действовать лучшие бойцы, о которых [ROOT.Char.GetTitleAsNameNoTooltip|l] может мечтать!"
  stewardship_wealth.7000.d:0 "Увы... краденое придется вернуть."
  stewardship_wealth.7000.d.tt:0 "Месть — это неправильно и так далее..."
 
 # Beyond Boundaries by Jason Cantalini
  stewardship_wealth.7001.t:0 "За пределами"
- stewardship_wealth.7001.desc:0 "Будь [Select_CString(thieving_rival.IsFemale, 'проклята', 'проклят' )] [thieving_rival.GetTitledFirstName] и [thieving_rival.GetHerHis] вороватые прихвостни! [Select_CString(messenger.IsFemale, 'Моя', 'Мой' )] [messenger.GetCouncilTitle], запинаясь, докладывает, что эти мордовороты совершенно обнаглели и думают, будто [ROOT.Char.GetCapitalLocation.GetName] для них — бесплатная кормушка. Они заставляют простолюдинов отдавать ценности, которые предназначались мне!\n\n[messenger.GetTitledFirstName] отправляет сборщиков за положенными налогами... но я уже предвижу, как будут плакать вдовы, голодать дети и лишаться крова целые семьи бедняков.\n\nБудь тысячу раз [Select_CString(thieving_rival.IsFemale, 'проклята эта жадная', 'проклят этот жадный' )] [thieving_rival.GetTitledFirstNameNoTooltip]!"
-
+ stewardship_wealth.7001.desc:1 "Будь [Select_CString(thieving_rival.IsFemale, 'проклята', 'проклят' )] [thieving_rival.GetTitledFirstName] и [thieving_rival.GetHerHis] вороватые прихвостни! [Select_CString(messenger.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('messenger'))] [messenger.GetTitledFirstName], запинаясь, докладывает, что эти мордовороты совершенно обнаглели и думают, будто [ROOT.Char.GetCapitalLocation.GetName] для них — бесплатная кормушка. Они заставляют простолюдинов отдавать ценности, которые предназначались мне!\n\n[messenger.GetFirstNameNoTooltip] отправляет сборщиков за положенными налогами... но я уже предвижу, как будут плакать вдовы, голодать дети и лишаться крова целые семьи бедняков.\n\nБудь тысячу раз [Select_CString(thieving_rival.IsFemale, 'проклята эта жадная', 'проклят этот жадный' )] [thieving_rival.GetTitledFirstNameNoTooltip]!"
+ stewardship_wealth.7001.tt.crime_alert:0 "[victim.GetTitledFirstName] этого не забудет"
  stewardship_wealth.7001.justification:0 "[thieving_rival.GetSheHe|U] неубедительно заявляет, будто таково [thieving_rival.GetHerHis] право сюзерена, но я-то знаю, что [thieving_rival.GetSheHe] просто крадет то, что принадлежит мне..."
  stewardship_wealth.7001.unleashed_knights:0 "[thieving_rival.GetSheHe|U] и [thieving_rival.GetHerHis] бандиты, мерзкий сброд, творят все больше бесчинств с каждым днем..."
 
@@ -134,3 +134,14 @@
  stewardship_wealth.7001.b:0 "От моей личной вражды не должен страдать народ."
  stewardship_wealth.7001.b.tt:0 "Те, кого [Select_CString(thieving_rival.IsFemale, 'ограбила', 'ограбил' )] [thieving_rival.GetFirstNameNoTooltip], освобождаются от налогов"
 
+ stewardship_wealth.2000.t:0 "Взвешивая возможности"
+ stewardship_wealth.2000.desc:0 "Мы с управляющим прогуливаемся по улицам владения [loc_capital_county.GetNameNoTier], высматривая возможности пополнить изрядно опустевшую казну. Когда мы подходим к весовым залам, [loc_steward.GetFirstName] вполголоса обращается ко мне:\n\n«Мы могли бы незаметно увеличить доходы, если... #EMP творчески#! подойдем к сбору налогов с покупаемых здесь товаров. Я могу достать набор весовых камней и немного исправить их вес, не меняя внешний вид. А затем торговцы станут платить больше за те же товары! И никто ничего не заподозрит!\n\nЕсли пожелаете, мы можем изменить веса, и деньги потекут в казну!»"
+ stewardship_wealth.2000.a:0 "Мы заменим камни сегодня ночью."
+ stewardship_wealth.2000.a.tt.success:0 "Никто не заметил подмены"
+ stewardship_wealth.2000.a.tt.failure:0 "Ваши махинации обнаружили"
+ stewardship_wealth.2000.b:0 "Нужен набор качественных весов."
+ stewardship_wealth.2000.b.tt:0 "Это непростая, но не невозможная задача, и такое решение пойдет на пользу и казне, и торговцам."
+ stewardship_wealth.2000.b.tt.success:0 "Вы успешно устанавливаете новую систему весов"
+ stewardship_wealth.2000.b.tt.failure:0 "Новая система весов далека от идеальной"
+ stewardship_wealth.2000.c:0 "Я возьму свое по старинке!"
+ stewardship_wealth.2000.c.tt:0 "Вы силой вынуждаете торговцев платить больше за привилегию провозить свои товары через это графство."

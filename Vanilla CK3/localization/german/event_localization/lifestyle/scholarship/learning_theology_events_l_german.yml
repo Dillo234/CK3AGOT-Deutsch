@@ -121,7 +121,7 @@
  learning_theology.3046.desc:0 "Ich suche nun schon so lange nach mystischer Weisheit und Erfahrung, und dennoch … nichts! Die einzige Antwort, die mir noch bleibt, ist, ganz zurück zum Anfang zu gehen und die Bedingungen meines Experiments genauestens nachzustellen.\n\nIch muss mit dem Göttlichen Zwiesprache halten. Werde ich denn absichtlich missachtet?!"
  learning_theology.3046.a:0 "Ich muss die Antworten finden!"
  learning_theology.3046.a.success:0 "Ein erfolgreicher Versuch"
- learning_theology.3046.a.success.tt:0 "Ihr könntet erhalten: [GetTrait('mystic_1').GetName(GetPlayer)]"
+ learning_theology.3046.a.success.tt:1 "Ihr könntet erhalten: [GetTrait('lifestyle_mystic').GetName(GetPlayer)]"
  learning_theology.3046.a.failure:0 "Noch immer nichts!"
  learning_theology.3046.a.failure.tt:0 "Eure Suche bringt Euch um den Verstand"
  learning_theology.3046.b:0 "Was mache ich denn hier … Höchste Zeit, dass ich mit dieser Narretei aufhöre."
@@ -131,7 +131,7 @@
 
 # Passion Play fanfiction drama, by James Beaumont
  learning_theology.3051.t:0 "Das [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip|l]e Theaterstück in [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
- learning_theology.3051.desc.intro:0 "Mir wurde zugetragen, dass [passion_playwright.GetName], [passion_playwright.Custom('DE_ART_IND_N')] renommiert[passion_playwright.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip|l][passion_playwright.Custom('DE_END_ADJ_IND_S_N')] Dramatiker[passion_playwright.Custom('DE_END_NOU_S_GS_N')], eine Aufführung plant. Diese trägt den Titel:" # [LocEditor:AwaitingBatchUpdate]
+ learning_theology.3051.desc.intro:1 "Mir wurde zugetragen, dass [passion_playwright.GetName], [passion_playwright.Custom('DE_ART_IND_N')] renommiert[passion_playwright.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip|l][passion_playwright.Custom('DE_END_ADJ_IND_S_N')] Dramatiker[passion_playwright.Custom('DE_END_NOU_S_GS_N')], eine Aufführung plant. Diese trägt den Titel:"
  learning_theology.3051.passion:0 "Die Passion von [ROOT.Char.GetFaith.random_GoodGodNames]"
  learning_theology.3051.arabian_nights:0 "2000 [ROOT.Char.GetPrimaryTitle.GetAdjective|l]e Nächte"
  learning_theology.3051.inferno:0 "Das Inferno"
@@ -146,7 +146,7 @@
  learning_theology.3052.desc:0 "Während ich mir ansehe, wie sich das Stück vor mir entfaltet, wird mir rasch klar, warum [passion_playwright.GetName] als literarisches Genie so bekannt geworden ist: die Prosa, die Darbietung – all dies gibt mir das Gefühl, als würden sich die Ereignisse unserer heiligen Schriften vor meinen Augen abspielen. Als wäre ich dabei, um das Werk von [ROOT.Char.GetFaith.CreatorName] selbst zu ergründen!\n\nAls das Stück zu Ende geht, bin ich allein mit [passion_playwright.GetNameNoTooltip]."
  learning_theology.3052.a:0 "Ihr müsst mir beibringen, die heiligen Schriften so zu deuten, wie Ihr es tut!"
  learning_theology.3052.b:0 "Ich könnte etwas Besseres als das schreiben!"
- learning_theology.3053.desc:0 "Ich beobachte, wie sich das Stück vor mir entfaltet, und es ist ohne jeden Zweifel völliger Schund. Was ich gerade miterlebt habe, ist es nicht einmal wert, als Literatur bezeichnet zu werden.\n\nDie Geschichte erzählt von [ROOT.GetRandomRegionalWood|U] [ROOT.GetRandomRegionalBird|U], einem jungen Gelehrten, der die [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip|l]e Mystik und Hexerei studiert, während er innerhalb seines Gelehrtenkreises einer Liebschaft nach der anderen nachstellt.\n\nDas Stück hat kaum etwas mit unseren heiligen Schriften zu tun, und auch die anderen Zuschauer beginnen bereits damit, sich über [passion_playwright.GetName] lustig zu machen."
+ learning_theology.3053.desc:1 "Ich beobachte, wie sich das Stück vor mir entfaltet, und es ist ohne jeden Zweifel völliger Schund. Was ich gerade miterlebt habe, ist es nicht einmal wert, als Literatur bezeichnet zu werden.\n\nDie Geschichte erzählt von [ROOT.Char.GetCapitalLocation.Custom('GetRandomRegionalWood')|U]-[ROOT.GetRandomRegionalBird|U], [Select_CString(TARGET_CHARACTER.IsFemale, 'einer jungen Gelehrten, die', 'einem jungen Gelehrten, der')] die [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip|l]e Mystik und Hexerei studiert, während [passion_playwright.Custom('DE_PRO_PER_S_3P_N')] innerhalb seines Gelehrtenkreises einer Liebschaft nach der anderen nachstellt.\n\nDas Stück hat kaum etwas mit unseren heiligen Schriften ([ROOT.Char.GetFaith.ReligiousText]) zu tun, und auch die anderen Zuschauer beginnen bereits damit, sich über [passion_playwright.GetName] lustig zu machen."
  learning_theology.3053.a:0 "Buh!"
  learning_theology.3053.b:0 "Ich werde mein eigenes Stück schreiben!"
  learning_theology.3053.c:0 "Diese Dummköpfe wissen das Genie von [passion_playwright.GetFirstNameNoTooltip] einfach nicht zu schätzen!"

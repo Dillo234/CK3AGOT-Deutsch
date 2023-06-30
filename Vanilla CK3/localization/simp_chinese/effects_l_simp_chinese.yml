@@ -1,16 +1,16 @@
 ﻿l_simp_chinese:
- CHARACTER_DEATH_EFFECT:0 "死亡"
- CHARACTER_DEATH_EFFECT_THIRD:0 "[CHARACTER.GetShortUIName|U]死了"
+ CHARACTER_DEATH_EFFECT:1 "@death_icon!死亡"
+ CHARACTER_DEATH_EFFECT_THIRD:1 "@death_icon![CHARACTER.GetShortUIName|U]死亡"
  CHARACTER_DEATH_EFFECT_FIRST:1 "@death_icon!你死了"
- CHARACTER_DIED_EFFECT:0 "[CHARACTER.GetShortUIName|U]死了"
- CHARACTER_DIED_EFFECT_THIRD:0 "[CHARACTER.GetShortUIName|U]死了"
- CHARACTER_DIED_EFFECT_FIRST:1 "你死了"
- CHARACTER_DEATH_EFFECT_KILLER:0 "被[TARGET_CHARACTER.GetShortUIName]杀害"
- CHARACTER_DEATH_EFFECT_KILLER_THIRD:0 "[CHARACTER.GetShortUIName|U]被[TARGET_CHARACTER.GetShortUIName]杀害"
- CHARACTER_DEATH_EFFECT_KILLER_FIRST:1 "你被[TARGET_CHARACTER.GetShortUIName]杀害"
+ CHARACTER_DIED_EFFECT:1 "@death_icon![CHARACTER.GetShortUIName|U]死亡"
+ CHARACTER_DIED_EFFECT_THIRD:1 "@death_icon![CHARACTER.GetShortUIName|U]死亡"
+ CHARACTER_DIED_EFFECT_FIRST:2 "@death_icon!你死了"
+ CHARACTER_DEATH_EFFECT_KILLER:1 "@death_icon!被[TARGET_CHARACTER.GetShortUIName]杀死"
+ CHARACTER_DEATH_EFFECT_KILLER_THIRD:1 "@death_icon![CHARACTER.GetShortUIName|U]被[TARGET_CHARACTER.GetShortUIName]杀死"
+ CHARACTER_DEATH_EFFECT_KILLER_FIRST:2 "@death_icon!你被[TARGET_CHARACTER.GetShortUIName]杀死"
  CHARACTER_DIED_EFFECT_KILLER:0 "[CHARACTER.GetShortUIName|U]已被[TARGET_CHARACTER.GetShortUIName]杀害"
- CHARACTER_DIED_EFFECT_KILLER_THIRD:0 "[CHARACTER.GetShortUIName|U]已被[TARGET_CHARACTER.GetShortUIName]杀害"
- CHARACTER_DIED_EFFECT_KILLER_FIRST:1 "你已被[TARGET_CHARACTER.GetShortUIName]杀害"
+ CHARACTER_DIED_EFFECT_KILLER_THIRD:1 "@death_icon![CHARACTER.GetShortUIName|U]被[TARGET_CHARACTER.GetShortUIName]杀死"
+ CHARACTER_DIED_EFFECT_KILLER_FIRST:2 "@death_icon!你被[TARGET_CHARACTER.GetShortUIName]杀死"
  RANDOM_LIST_EFFECT:0 "下列$SIZE$种情况将发生其一：\n"
  RANDOM_EFFECT:0 "$CHANCE$%概率： "
  NO_EFFECT:0 "#weak 无事发生#!"
@@ -147,25 +147,25 @@
  WILL_MARRY_EFFECT:1 "与[TARGET_CHARACTER.GetShortUIName][marries|E]"
  I_WILL_MARRY_EFFECT:1 "你与[TARGET_CHARACTER.GetShortUIName][marry|E]"
  THEY_WILL_MARRY_EFFECT:1 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName][marries|E]"
+ WILL_MARRY_EFFECT_PAST:0 "与[TARGET_CHARACTER.GetShortUIName][married|E]了"
+ I_WILL_MARRY_EFFECT_PAST:0 "你与[TARGET_CHARACTER.GetShortUIName][married|E]了"
+ THEY_WILL_MARRY_EFFECT_PAST:0 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName][married|E]了"
 
  WILL_MARRY_MATRILINEALLY_EFFECT:0 "将与[TARGET_CHARACTER.GetShortUIName]进行[matrilineally|E][marry|E]"
  I_WILL_MARRY_MATRILINEALLY_EFFECT:1 "你将与[TARGET_CHARACTER.GetShortUIName]进行[matrilineally|E][marry|E]"
  THEY_WILL_MARRY_MATRILINEALLY_EFFECT:0 "[CHARACTER.GetShortUIName|U]将与[TARGET_CHARACTER.GetShortUIName]进行[matrilineally|E][marry|E]"
  
- CHANGED_MY_GOVERNMENT:0 "你的政体改为了[GOVERNMENT.GetName]"
- CHANGED_THEIR_GOVERNMENT:0 "[CHARACTER.GetName]的政体改为[GOVERNMENT.GetName]"
- CHANGED_GOVERNMENT:0 "政体改为了[GOVERNMENT.GetName]"
- CHANGE_GOVERNMENT:0 "将政体改为[GOVERNMENT.GetName]"
- CHANGE_MY_GOVERNMENT:0 "将你的政体改为[GOVERNMENT.GetName]"
- CHANGE_THEIR_GOVERNMENT:0 "将政体由[CHARACTER.GetName]改为[GOVERNMENT.GetName]"
+ CHANGED_MY_GOVERNMENT:1 "你的政体改为了[GOVERNMENT_TYPE.GetName]"
+ CHANGED_THEIR_GOVERNMENT:1 "将[CHARACTER.GetName]的政体改为[GOVERNMENT_TYPE.GetName]"
+ CHANGED_GOVERNMENT:1 "政体改为了[GOVERNMENT_TYPE.GetName]"
+ CHANGE_GOVERNMENT:1 "将政体改为[GOVERNMENT_TYPE.GetName]"
+ CHANGE_MY_GOVERNMENT:1 "将你的政体改为[GOVERNMENT_TYPE.GetName]"
+ CHANGE_THEIR_GOVERNMENT:1 "将[CHARACTER.GetName]的政体改为[GOVERNMENT_TYPE.GetName]"
 
  FORBID_FROM_SCHEME_EFFECT:0 "禁止成为[SCHEME.GetName]的同谋"
  ALLOW_IN_SCHEME_EFFECT:0 "准许加入[SCHEME.GetName]成为同谋"
  EVERY_PARENT_EFFECT:0 "每个双亲"
  RANDOM_PARENT_EFFECT:0 "随机双亲"
- WIN_COMBAT_EFFECT_POSITIVE:0 "赢了[battle|E]"
- LOSES_COMBAT_EFFECT_POSITIVE:0 "输了[battle|E]"
- END_COMBAT_EFFECT_NEGATIVE:0 "[battle|E]没有结束"
  SCOPE_EMPTY:0 ""
 
  I_CONVERT_TO:1 "你改信[FAITH.GetName|V]"
@@ -269,14 +269,14 @@
  all_zealous_in_the_court:0 "[THIS.GetCharacter.GetShortUINamePossessiveNoTooltip]宫廷的所有狂热角色"
  all_craven_in_the_court:0 "[THIS.GetCharacter.GetShortUINamePossessiveNoTooltip]宫廷的所有怯懦角色"
  all_compassionate_in_the_court:0 "[THIS.GetCharacter.GetShortUINamePossessiveNoTooltip]宫廷的所有慈悲角色"
- all_close_family_and_spouses:1 "[THIS.GetCharacter.GetShortUIName]的所有[close_family_members|E]和[spouses|E]"
+ all_close_family_and_spouses:2 "[THIS.GetCharacter.GetShortUINamePossessive|U]的[close_family_members|E]和[spouses|E]"
  all_your_guests:0 "你所有的[guests|E]"
  all_close_family_members_of_kicked_characters:0 "他们所有的[close_family_members|E]"
  all_dynasty_members:0 "所有[PREV.GetCharacter.GetShortUIName]的宗族成员"
  all_house_members:0 "所有[PREV.GetCharacter.GetShortUIName]的家族成员"
  all_vassals:0 "[THIS.GetCharacter.GetShortUIName]的所有封臣"
  all_other_vassals:1 "你所有的其他封臣"
- all_hunt_participants:0 "所有的狩猎参与者"
+ all_hunt_participants:2 "所有[GetActivityType('activity_hunt').GetName]参与者"
  all_friends_and_lovers:0 "[THIS.GetCharacter.GetShortUIName]的所有[friends|E]和[lovers|E]"
  all_in_dungeon:0 "所有地牢中的囚犯"
  all_in_house_arrest:0 "所有软禁中的囚犯"
@@ -333,6 +333,8 @@
  CREATE_BETROTHAL_EFFECT:0 "与[TARGET_CHARACTER.GetShortUIName]订婚"
  CREATE_BETROTHAL_MATRILINEAL_EFFECT:0 "与[TARGET_CHARACTER.GetShortUIName]订下[matrilineally|E]婚姻"
  THEY_GET_BETROTHED_EFFECT:0 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName]订婚"
+ CREATED_BETROTHAL_EFFECT:0 "与[TARGET_CHARACTER.GetShortUIName]订婚了"
+ THEY_GOT_BETROTHED_EFFECT:0 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName]订婚了"
 
  BECOMES_PREGNANT_WITH_TARGET_CHARACTERS_CHILD:0 "怀上了[TARGET_CHARACTER.GetShortUINamePossessive]的孩子"
  I_BECOME_PREGNANT_WITH_TARGET_CHARACTERS_CHILD:1 "你怀上了[TARGET_CHARACTER.GetShortUINamePossessive]的孩子"
@@ -483,7 +485,16 @@
  ADDED_COURTIER_TO_MY_COURT:1 "[TARGET_CHARACTER.GetShortUIName|U]加入了你的宫廷"
  ADDED_COURTIER_TO_THEIR_COURT:0 "[TARGET_CHARACTER.GetShortUIName|U]加入了[CHARACTER.GetShortUINamePossessive]的宫廷"
 
-
+ SET_KNIGHT_STATUS:0 "[CHARACTER.GetShortUIName|U]成为$STATUS$"
+ SET_MY_KNIGHT_STATUS:0 "我成为$STATUS$"
+ SET_THEIR_KNIGHT_STATUS:0 "[CHARACTER.GetShortUIName|U]成为$STATUS$"
+ SET_KNIGHT_STATUS_PAST:0 "[CHARACTER.GetShortUIName|U]成为$STATUS$"
+ SET_MY_KNIGHT_STATUS_PAST:0 "我成为$STATUS$"
+ SET_THEIR_KNIGHT_STATUS_PAST:0 "[CHARACTER.GetShortUIName|U]成为$STATUS$"
+ 
+ knight_status_force:0 "一名$knight_culture_player$"
+ knight_status_default:0 "被允许成为$knight_culture_player$"
+ knight_status_not:0 "被禁止成为$knight_culture_player$"
 
  ADD_MODIFIER_TO_MY_SCHEME_DURATION:1 "你的[SCHEME.GetName]获得$MODIFIER$为期$DURATION|V$"
  ADD_SCHEME_MODIFIER_TO_SCHEME_EFFECT_DURATION:0 "[SCHEME.GetName]获得$MODIFIER$，为期$DURATION|V$"
@@ -551,8 +562,10 @@
  I_LOST_A_GUARDIAN:0 "[TARGET_CHARACTER.GetShortUIName]不再是你的[guardian|E]"
 
  GLOBAL_BECOME_WARD:0 "成为[TARGET_CHARACTER.GetShortUINamePossessive]的[ward|E]"
+ GLOBAL_BECAME_WARD:0 "成为了[TARGET_CHARACTER.GetShortUINamePossessive]的[ward|E]"
  THEY_GET_A_WARD:0 "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive]的[ward|E]"
  GLOBAL_BECOME_GUARDIAN:0 "成为[TARGET_CHARACTER.GetShortUINamePossessive]的[guardian|E]"
+
  THEY_LOSE_A_WARD:0 "[TARGET_CHARACTER.GetShortUIName|U]不再是[CHARACTER.GetShortUINamePossessive]的[ward|E]"
  THEY_LOST_A_WARD:0 "[TARGET_CHARACTER.GetShortUIName|U]不再是[CHARACTER.GetShortUINamePossessive]的[ward|E]"
  LOSE_A_WARD:0 "[TARGET_CHARACTER.GetShortUIName|U]不再是[CHARACTER.GetHerHis]的[ward|E]"
@@ -567,13 +580,20 @@
  I_GAIN_INTRIGUE_STUDENT:1 "[TARGET_CHARACTER.GetShortUIName|U]成为向你学习[intrigue|E]的学生"
  I_LOSE_INTRIGUE_MENTOR:1 "[TARGET_CHARACTER.GetShortUIName|U]不再是教授你[intrigue|E]之道的导师"
  I_LOSE_INTRIGUE_STUDENT:1 "[TARGET_CHARACTER.GetShortUIName|U]不再是向你学习[intrigue|E]的学生"
+ 
  I_GAIN_POTENTIAL_FRIEND:1 "你快要与[TARGET_CHARACTER.GetShortUIName]缔结友谊了"
  I_GAINED_POTENTIAL_FRIEND:1 "你已经快要与[TARGET_CHARACTER.GetShortUIName]缔结友谊了"
  THEY_GAIN_POTENTIAL_FRIEND:0 "[CHARACTER.GetShortUIName|U]快要与[TARGET_CHARACTER.GetShortUIName]缔结友谊了"
  THEY_GAINED_POTENTIAL_FRIEND:0 "[CHARACTER.GetShortUIName|U]已经快要与[TARGET_CHARACTER.GetShortUIName]缔结友谊了"
  GAINS_POTENTIAL_FRIEND:0 "快要与[TARGET_CHARACTER.GetShortUIName]缔结友谊了"
  GAINED_POTENTIAL_FRIEND:0 "快要与[TARGET_CHARACTER.GetShortUIName]缔结友谊了"
+
+ LOSE_POTENTIAL_FRIEND:0 "不再与[TARGET_CHARACTER.GetShortUIName]关系亲密"
+ LOST_POTENTIAL_FRIEND:0 "与[TARGET_CHARACTER.GetShortUIName]的关系不再亲密了"
  I_LOSE_POTENTIAL_FRIEND:2 "你与[TARGET_CHARACTER.GetShortUIName]不再亲密"
+ I_LOST_POTENTIAL_FRIEND:0 "你与[TARGET_CHARACTER.GetShortUIName]的关系不再亲密了"
+ THEY_LOSE_POTENTIAL_FRIEND:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]的关系不再亲密"
+ THEY_LOST_POTENTIAL_FRIEND:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]的关系不再亲密了"
 
  I_GAIN_POTENTIAL_LOVER:1 "你快要与[TARGET_CHARACTER.GetShortUIName]缔结亲密无间的友谊了"
  I_GOT_POTENTIAL_LOVER:1 "你更接近于与[TARGET_CHARACTER.GetShortUIName]形成亲密关系"
@@ -591,6 +611,27 @@
  LOSES_POTENTIAL_RIVAL:0 "不再对于[TARGET_CHARACTER.GetShortUIName]如鲠在喉"
  THEY_GAIN_POTENTIAL_RIVAL:0 "[CHARACTER.GetShortUIName|U]更接近于成为[TARGET_CHARACTER.GetShortUIName]的仇敌了"
  THEY_GAINED_POTENTIAL_RIVAL:0 "[CHARACTER.GetShortUIName|U]已快要成为[TARGET_CHARACTER.GetShortUIName]的仇敌了"
+ 
+ I_GAIN_WEDDING_GOOD_FERTILITY:0 "你与[TARGET_CHARACTER.GetShortUIName]的婚姻会产下许多后代"
+ I_GAINED_WEDDING_GOOD_FERTILITY:0 "你与[TARGET_CHARACTER.GetShortUIName]的婚姻会产下许多后代"
+ GAINS_WEDDING_GOOD_FERTILITY:0 "与[TARGET_CHARACTER.GetShortUIName]的婚姻会产下许多后代"
+ GAINED_WEDDING_GOOD_FERTILITY:0 "与[TARGET_CHARACTER.GetShortUIName]的婚姻会产下许多后代"
+ THEY_GAIN_WEDDING_GOOD_FERTILITY:0 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName]的婚姻会产下许多后代"
+ THEY_GAINED_WEDDING_GOOD_FERTILITY:0 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName]的婚姻会产下许多后代"
+ 
+ I_GAIN_WEDDING_VERY_GOOD_FERTILITY:0 "你与[TARGET_CHARACTER.GetShortUIName]的婚姻会有#EMP 惊人的#!生育力"
+ I_GAINED_WEDDING_VERY_GOOD_FERTILITY:0 "你与[TARGET_CHARACTER.GetShortUIName]的婚姻会有#EMP 惊人的#!生育力"
+ GAINS_WEDDING_VERY_GOOD_FERTILITY:0 "与[TARGET_CHARACTER.GetShortUIName]的婚姻会有#EMP 惊人的#!生育力"
+ GAINED_WEDDING_VERY_GOOD_FERTILITY:0 "与[TARGET_CHARACTER.GetShortUIName]的婚姻会有#EMP 惊人的#!生育力"
+ THEY_GAIN_WEDDING_VERY_GOOD_FERTILITY:0 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName]的婚姻会有#EMP 惊人的#!生育力"
+ THEY_GAINED_WEDDING_VERY_GOOD_FERTILITY:0 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName]的婚姻会有#EMP 惊人的#!生育力"
+ 
+ I_GAIN_WEDDING_BAD_FERTILITY:0 "你与[TARGET_CHARACTER.GetShortUIName]的婚姻注定#bold 不会#!产下许多后代"
+ I_GAINED_WEDDING_BAD_FERTILITY:0 "你与[TARGET_CHARACTER.GetShortUIName]的婚姻注定#bold 不会#!产下许多后代"
+ GAINS_WEDDING_BAD_FERTILITY:0 "与[TARGET_CHARACTER.GetShortUIName]的婚姻注定#bold 不会#!产下许多后代"
+ GAINED_WEDDING_BAD_FERTILITY:0 "与[TARGET_CHARACTER.GetShortUIName]的婚姻注定#bold 不会#!产下许多后代"
+ THEY_GAIN_WEDDING_BAD_FERTILITY:0 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName]的婚姻注定#bold 不会#!产下许多后代"
+ THEY_GAINED_WEDDING_BAD_FERTILITY:0 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName]的婚姻注定#bold 不会#!产下许多后代"
 
  I_GET_A_VISITOR:2 "[TARGET_CHARACTER.GetShortUIName|U]搬到了你的[court|E]"
  THEY_GET_A_VISITOR:1 "[TARGET_CHARACTER.GetShortUIName|U]搬到了[CHARACTER.GetShortUINamePossessive]的[court|E]"
@@ -625,6 +666,7 @@
  I_LOSE_VICTIM:1 "[TARGET_CHARACTER.GetShortUIName|U]不再是你的出气筒"
 
  GET_FRIEND:0 "成为[TARGET_CHARACTER.GetShortUINamePossessive]的#V 朋友#!"
+ GOT_FRIEND:0 "成为了[TARGET_CHARACTER.GetShortUINamePossessive]的#V 朋友#!"
  I_GET_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U]成为你的#V 朋友#!"
  I_GOT_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U]成为了你的#V 朋友#!"
  THEY_GET_FRIEND:0 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]成为#V 朋友#!"
@@ -632,6 +674,7 @@
  LOSE_FRIEND:0 "不再是[TARGET_CHARACTER.GetShortUINamePossessive]的#V 朋友#!"
  I_LOSE_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U]不再是你的#V 朋友#!"
  THEY_LOSE_FRIEND:0 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]不再是#V 朋友#!"
+ LOST_FRIEND:0 "不再是[TARGET_CHARACTER.GetShortUINamePossessive]的#V 朋友#!"
 
  GET_SOLDIER_FRIEND:0 "成为[TARGET_CHARACTER.GetShortUINamePossessive]的战友"
  I_GET_SOLDIER_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U]成为你的战友"
@@ -652,12 +695,14 @@
  THEY_LOSE_RIVAL:0 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]不再是仇敌"
 
  GET_LOVER:0 "成为[TARGET_CHARACTER.GetShortUINamePossessive]的情人"
+ GOT_LOVER:0 "成为了[TARGET_CHARACTER.GetShortUINamePossessive]的情人"
  I_GET_LOVER:1 "[TARGET_CHARACTER.GetShortUIName|U]成为你的情人"
  THEY_GET_LOVER:0 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]成为情人"
  I_GOT_LOVER:1 "[TARGET_CHARACTER.GetShortUIName|U]成为了你的情人"
  THEY_GOT_LOVER:0 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]成为了情人"
  
  LOSE_LOVER:0 "不再是[TARGET_CHARACTER.GetShortUINamePossessive]的情人"
+ LOST_LOVER:0 "不再是[TARGET_CHARACTER.GetShortUINamePossessive]的情人"
  I_LOSE_LOVER:1 "[TARGET_CHARACTER.GetShortUIName|U]与你不再是情人"
  THEY_LOSE_LOVER:0 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]不再是情人"
  I_LOST_LOVER:1 "[TARGET_CHARACTER.GetShortUIName|U]与你不再是情人"
@@ -677,34 +722,42 @@
  THEY_LOST_COURT_PHYSICIAN:1 "[TARGET_CHARACTER.GetShortUIName]已不再是[CHARACTER.GetShortUIName|U][CHARACTER.GetHerHis]的[GetCourtPositionType('court_physician_court_position').GetName()]"
  
  GET_SOULMATE:0 "成为[TARGET_CHARACTER.GetShortUINamePossessive]的灵魂伴侣"
+ GOT_SOULMATE:0 "成为了[TARGET_CHARACTER.GetShortUINamePossessive]的灵魂伴侣"
  I_GET_SOULMATE:1 "[TARGET_CHARACTER.GetShortUIName|U]成为你的灵魂伴侣"
  THEY_GET_SOULMATE:0 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]成为灵魂伴侣"
  I_GOT_SOULMATE:1 "[TARGET_CHARACTER.GetShortUIName|U]成为了你的灵魂伴侣"
  THEY_GOT_SOULMATE:1 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]成为了灵魂伴侣"
 
  LOSE_SOULMATE:0 "不再是[TARGET_CHARACTER.GetShortUINamePossessive]的灵魂伴侣"
+ LOST_SOULMATE:0 "不再是[TARGET_CHARACTER.GetShortUINamePossessive]的灵魂伴侣"
  I_LOSE_SOULMATE:1 "[TARGET_CHARACTER.GetShortUIName|U]与你不再是灵魂伴侣"
  THEY_LOSE_SOULMATE:0 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]不再是灵魂伴侣"
  I_LOST_SOULMATE:1 "[TARGET_CHARACTER.GetShortUIName|U]与你不再是灵魂伴侣"
  THEY_LOST_SOULMATE:0 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]不再是灵魂伴侣"
 
  GET_BEST_FRIEND:1 "成为[TARGET_CHARACTER.GetShortUINamePossessive]的[best_friend|E]"
+ GOT_BEST_FRIEND:0 "成为了[TARGET_CHARACTER.GetShortUINamePossessive]的[best_friend|E]"
  I_GET_BEST_FRIEND:2 "[TARGET_CHARACTER.GetShortUIName|U]成为你的[best_friend|E]"
  THEY_GET_BEST_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]成为[best_friend|E]"
  I_GOT_BEST_FRIEND:2 "[TARGET_CHARACTER.GetShortUIName|U]成为了你的[best_friend|E]"
  THEY_GOT_BEST_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]成为了[best_friend|E]"
+
  LOSE_BEST_FRIEND:1 "不再是[TARGET_CHARACTER.GetShortUINamePossessive]的[best_friend|E]"
+ LOST_BEST_FRIEND:0 "不再是[TARGET_CHARACTER.GetShortUINamePossessive]的[best_friend|E]"
  I_LOSE_BEST_FRIEND:2 "[TARGET_CHARACTER.GetShortUIName|U]与你不再是[best_friend|E]"
  THEY_LOSE_BEST_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]不再是[best_friend|E]"
  I_LOST_BEST_FRIEND:2 "[TARGET_CHARACTER.GetShortUIName|U]与你不再是[best_friend|E]"
  THEY_LOST_BEST_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]不再是[best_friend|E]"
 
  GET_NEMESIS:0 "成为[TARGET_CHARACTER.GetShortUINamePossessive]的死敌"
+ GOT_NEMESIS:0 "成为了[TARGET_CHARACTER.GetShortUINamePossessive]的死敌"
  I_GET_NEMESIS:1 "[TARGET_CHARACTER.GetShortUIName|U]成为你的死敌"
  THEY_GET_NEMESIS:0 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]成为死敌"
  I_GOT_NEMESIS:1 "[TARGET_CHARACTER.GetShortUIName|U]成为了你的死敌"
  THEY_GOT_NEMESIS:0 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]成为了死敌"
+
  LOSE_NEMESIS:0 "不再是[TARGET_CHARACTER.GetShortUINamePossessive]的死敌"
+ LOST_NEMESIS:0 "不再是[TARGET_CHARACTER.GetShortUINamePossessive]的死敌"
  I_LOSE_NEMESIS:1 "[TARGET_CHARACTER.GetShortUIName|U]与你不再是死敌"
  THEY_LOSE_NEMESIS:0 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]不再是死敌"
  I_LOST_NEMESIS:1 "[TARGET_CHARACTER.GetShortUIName|U]与你不再是死敌"
@@ -754,19 +807,22 @@
 
  SET_CULTURE_OF_CHARACTER_SAME_AS:0 "将[CHARACTER.GetShortUINamePossessive]的文化改变为与[TARGET_CHARACTER.GetShortUIName]相同的文化（[TARGET_CHARACTER.GetCulture.GetName|V]）"
  SAT_CUTLURE_OF_CHARACTER_SAME_AS:0 "将[CHARACTER.GetShortUINamePossessive]的文化改变为与[TARGET_CHARACTER.GetShortUIName]相同的文化（[TARGET_CHARACTER.GetCulture.GetName|V]）"
- 
- I_ENTERED_CHALLENGE_EFFECT:1 "@$SKILL_ICON$!$SKILL$挑战"
- THEY_ENTERED_CHALLENGE_EFFECT:1 "[CHARACTER.GetShortUIName|U]：\n@$SKILL_ICON$!$SKILL$挑战"
- ENTERED_CHALLENGE_EFFECT:1 "@$SKILL_ICON$!$SKILL$挑战"
- I_ENTER_CHALLENGE_EFFECT:1 "@$SKILL_ICON$!$SKILL$挑战"
- THEY_ENTER_CHALLENGE_EFFECT:1 "[CHARACTER.GetShortUIName|U]：\n@$SKILL_ICON$!$SKILL$挑战"
- ENTERS_CHALLENGE_EFFECT:1 "@$SKILL_ICON$!$SKILL$挑战"
- I_ENTERED_DUEL_AGAINST_EFFECT:1 "@$SKILL_ICON$!对[TARGET_CHARACTER.GetShortUIName]的$SKILL$挑战"
- THEY_ENTERED_DUEL_AGAINST_EFFECT:1 "[CHARACTER.GetShortUIName|U]：\n@$SKILL_ICON$!对[TARGET_CHARACTER.GetShortUIName]的$SKILL$挑战"
- ENTERED_DUEL_AGAINST_EFFECT:1 "@$SKILL_ICON$!对[TARGET_CHARACTER.GetShortUIName]的$SKILL$挑战"
- I_ENTER_DUEL_AGAINST_EFFECT:1 "@$SKILL_ICON$!对[TARGET_CHARACTER.GetShortUIName]的$SKILL$挑战"
- THEY_ENTER_DUEL_AGAINST_EFFECT:1 "[CHARACTER.GetShortUIName|U]：\n@$SKILL_ICON$!对[TARGET_CHARACTER.GetShortUIName]的$SKILL$挑战"
- ENTERS_DUEL_AGAINST_EFFECT:1 "@$SKILL_ICON$!对[TARGET_CHARACTER.GetShortUIName]的$SKILL$挑战"
+
+ SKILL_CHALLENGE_LIST_ITEM:0 "@$SKILL_ICON$!$SKILL$"
+ SKILL_CHALLENGE_SINGLE:0 "$SKILL_LIST$挑战"
+ SKILL_CHALLENGE_MULTI:0 "$SKILL_LIST$联合挑战"
+ I_ENTERED_CHALLENGE_EFFECT:2 "$SKILL_CHALLENGE$"
+ THEY_ENTERED_CHALLENGE_EFFECT:2 "[CHARACTER.GetShortUIName|U]：\n$SKILL_CHALLENGE$"
+ ENTERED_CHALLENGE_EFFECT:2 "$SKILL_CHALLENGE$"
+ I_ENTER_CHALLENGE_EFFECT:2 "$SKILL_CHALLENGE$"
+ THEY_ENTER_CHALLENGE_EFFECT:2 "[CHARACTER.GetShortUIName|U]：\n$SKILL_CHALLENGE$"
+ ENTERS_CHALLENGE_EFFECT:2 "$SKILL_CHALLENGE$"
+ I_ENTERED_DUEL_AGAINST_EFFECT:2 "对[TARGET_CHARACTER.GetShortUIName]的$SKILL_CHALLENGE$"
+ THEY_ENTERED_DUEL_AGAINST_EFFECT:2 "[CHARACTER.GetShortUIName|U]：\n对[TARGET_CHARACTER.GetShortUIName]的$SKILL_CHALLENGE$挑战"
+ ENTERED_DUEL_AGAINST_EFFECT:2 "对[TARGET_CHARACTER.GetShortUIName]的$SKILL_CHALLENGE$"
+ I_ENTER_DUEL_AGAINST_EFFECT:2 "对[TARGET_CHARACTER.GetShortUIName]的$SKILL_CHALLENGE$"
+ THEY_ENTER_DUEL_AGAINST_EFFECT:2 "[CHARACTER.GetShortUIName|U]：\n对[TARGET_CHARACTER.GetShortUIName]的$SKILL_CHALLENGE$"
+ ENTERS_DUEL_AGAINST_EFFECT:2 "对[TARGET_CHARACTER.GetShortUIName]的$SKILL_CHALLENGE$"
  
  I_RECEIVED_MODIFIER_EFFECT:1 "你获得了$MODIFIER|V$"
  THEY_RECEIVED_MODIFIER_EFFECT:0 "[CHARACTER.GetShortUIName|U]获得了$MODIFIER|V$"
@@ -775,11 +831,11 @@
  THEY_RECEIVE_MODIFIER_EFFECT:0 "[CHARACTER.GetShortUIName|U]获得$MODIFIER|V$"
  RECEIVES_MODIFIER_EFFECT:0 "获得$MODIFIER|V$"
  
- I_RECEIVED_MODIFIER_UNTIL_EFFECT:1 "你获得了$MODIFIER|V$，为期$DURATION$"
- THEY_RECEIVED_MODIFIER_UNTIL_EFFECT:0 "[CHARACTER.GetShortUIName|U]获得了$MODIFIER|V$为期$DURATION$"
- RECEIVED_MODIFIER_UNTIL_EFFECT:0 "获得了$MODIFIER|V$为期$DURATION$"
- I_RECEIVE_MODIFIER_UNTIL_EFFECT:1 "你获得$MODIFIER|V$，为期$DURATION$"
- THEY_RECEIVE_MODIFIER_UNTIL_EFFECT:0 "[CHARACTER.GetShortUIName|U]获得$MODIFIER|V$为期$DURATION$"
+ I_RECEIVED_MODIFIER_UNTIL_EFFECT:1 "你获得了$MODIFIER|V$，为期$DURATION|V$"
+ THEY_RECEIVED_MODIFIER_UNTIL_EFFECT:0 "[CHARACTER.GetShortUIName|U]获得了$MODIFIER|V$为期$DURATION|V$"
+ RECEIVED_MODIFIER_UNTIL_EFFECT:0 "获得了$MODIFIER|V$为期$DURATION|V$"
+ I_RECEIVE_MODIFIER_UNTIL_EFFECT:1 "你获得$MODIFIER|V$，为期$DURATION|V$"
+ THEY_RECEIVE_MODIFIER_UNTIL_EFFECT:0 "[CHARACTER.GetShortUIName|U]获得$MODIFIER|V$为期$DURATION|V$"
  
  I_LOST_MODIFIER_EFFECT:1 "你失去了$MODIFIER$"
  THEY_LOST_MODIFIER_EFFECT:0 "[CHARACTER.GetShortUIName|U]失去了$MODIFIER$"
@@ -990,12 +1046,17 @@
  CHANGE_DEVELOPMENT_LEVEL_PAST:0 "[TITLE.GetName]的[development|E]水平改变了$VALUE|=0+$"
  CHANGE_DEVELOPMENT_PROGRESS:2 "[development|E]进度增加$VALUE|0+$"
  CHANGE_DEVELOPMENT_PROGRESS_NEG:1 "[development|E]进度降低$VALUE|0-$"
+ CHANGE_DEVELOPMENT_PROGRESS_PAST:0 "[TITLE.GetName]的[development|E]进度提高$VALUE|=0+$"
+ CHANGE_DEVELOPMENT_PROGRESS_PAST_NEG:0 "[TITLE.GetName]的[development|E]进度降低$VALUE|=0+$"
  THEY_CHANGE_DEVELOPMENT_PROGRESS:1 "[TITLE.GetName]的[development|E]进度将增加$VALUE|0+$"
  THEY_CHANGE_DEVELOPMENT_PROGRESS_NEG:1 "[TITLE.GetName]的[development|E]进度将降低$VALUE|0-$"
  CHANGE_COUNTY_CONTROL:0 "[control|E]水平将改变$VALUE|=0+$"
  CHANGED_COUNTY_CONTROL:0 "[control|E]水平改变了$VALUE|=0+$"
  CHANGE_COUNTY_CONTROL_THIRD:0 "[TITLE.GetName]的[control|E]水平将改变$VALUE|=0+$"
  CHANGED_COUNTY_CONTROL_THIRD:0 "[TITLE.GetName]的[control|E]水平改变了$VALUE|=0+$"
+ # Yes I know the below is disgusting but I'm sick of the other way not working & staring at that bloody perspective false positive for months on end.
+ CHANGE_COUNTY_CONTROL_NEG:0 "[control|E]水平将改变#N -#!$VALUE|-0$"
+ CHANGE_COUNTY_CONTROL_THIRD_NEG:0 "[TITLE.GetName]的[control|E]水平将改变#N -#!$VALUE|-0$"
 
  IT_RECEIVES_COUNTY_MODIFIER:1 "[TITLE.GetName]获得$MODIFIER|V$"
  RECEIVES_COUNTY_MODIFIER:1 "获得$MODIFIER|V$"
@@ -1061,7 +1122,14 @@
  CHARACTER_ACCEPTS_INVITATION:0 "[CHARACTER.GetShortUIName|U]接受邀请"
  CHARACTER_IS_INVITED:0 "[CHARACTER.GetShortUIName|U]受到邀请"
  GLOBAL_ACCEPTS_INVITATION:0 "接受邀请"
+ GLOBAL_DECLINES_INVITATION:0 "拒绝邀请"
  GLOBAL_IS_INVITED:1 "受邀"
+ I_ACCEPT_THE_INVITATION_PAST:0 "你已接受邀请"
+ CHARACTER_ACCEPTS_INVITATION_PAST:0 "[CHARACTER.GetShortUIName|U]已接受邀请"
+ GLOBAL_ACCEPTS_INVITATION_PAST:0 "已接受邀请"
+ I_DECLINE_THE_INVITATION_PAST:0 "你已拒绝邀请"
+ CHARACTER_DECLINES_INVITATION_PAST:0 "[CHARACTER.GetShortUIName|U]已拒绝邀请"
+ GLOBAL_DECLINES_INVITATION_PAST:0 "已拒绝邀请"
 
  
  ADD_PRESSED_CLAIM_EFFECT:0 "获得对[TARGET_TITLE.GetName|V]的[pressed_claim|E]"
@@ -1096,6 +1164,9 @@
  BREAK_ALLIANCE_EFFECT:0 "撕破与[TARGET_CHARACTER.GetShortUIName]的[alliance|E]"
  BREAK_ALLIANCE_EFFECT_FIRST:1 "你撕破了你与[TARGET_CHARACTER.GetUIName]的[alliance|E]"
  BREAK_ALLIANCE_EFFECT_THIRD:0 "[CHARACTER.GetUIName]撕破了[CHARACTER.GetHerHis]与[TARGET_CHARACTER.GetUIName]的[alliance|E]"
+ BREAK_ALLIANCE_EFFECT_PAST:0 "打破了与[TARGET_CHARACTER.GetShortUIName]的[alliance|E]"
+ BREAK_ALLIANCE_EFFECT_FIRST_PAST:0 "你打破了与[TARGET_CHARACTER.GetUIName]的[alliance|E]"
+ BREAK_ALLIANCE_EFFECT_THIRD_PAST:0 "[CHARACTER.GetUIName]打破了[CHARACTER.GetHerHis]与[TARGET_CHARACTER.GetUIName]的[alliance|E]"
  
  ALLOW_ALLIANCE_EFFECT:0 "能够与[TARGET_CHARACTER.GetShortUIName]建立[alliance|E]"
  ALLOW_ALLIANCE_EFFECT_FIRST:1 "你能够与[TARGET_CHARACTER.GetUIName]建立[allied|E]"
@@ -1288,8 +1359,10 @@
  DYNASTY_LOSES_PRESTIGE_EFFECT:1 "[DYNASTY.GetBaseName][dynasty|E]失去[dynasty_prestige_i]$VALUE|-0$[dynasty_prestige|E]"
  DYNAST_GAINED_PRESTIGE_EFFECT:1 "[DYNASTY.GetBaseName][dynasty|E]获得了[dynasty_prestige_i]$VALUE|+0$[dynasty_prestige|E]"
  DYNAST_LOST_PRESTIGE_EFFECT:1 "[DYNASTY.GetBaseName][dynasty|E]失去了[dynasty_prestige_i]$VALUE|-0$[dynasty_prestige|E]"
- DYNASTY_GAINED_PRESTIGE_GLOBAL_EFFECT:0 "获得[dynasty_prestige_i]$VALUE|+0$[dynasty_prestige|E]"
- DYNASTY_LOST_PRESTIGE_GLOBAL_EFFECT:0 "失去了[dynasty_prestige_i]$VALUE|-0$[dynasty_prestige|E]"
+ DYNASTY_GAINED_PRESTIGE_GLOBAL_EFFECT:1 "[DYNASTY.GetBaseName][dynasty|E]获得[dynasty_prestige_i]$VALUE|+0$[dynasty_prestige|E]"
+ DYNASTY_LOST_PRESTIGE_GLOBAL_EFFECT:1 "[DYNASTY.GetBaseName][dynasty|E]失去[dynasty_prestige_i]$VALUE|-0$[dynasty_prestige|E]"
+ DYNASTY_GAIN_PRESTIGE_EFFECT:0 "[dynasty|E][DYNASTY.GetBaseName]获得[dynasty_prestige_i]$VALUE|+0$"
+ DYNASTY_LOSE_PRESTIGE_EFFECT:0 "[dynasty|E][DYNASTY.GetBaseName]消耗[dynasty_prestige_i]$VALUE|-0$"
 
  THEOCRACY_APPROVE_EFFECT:1 "开始拥护你#weak （[church_property|E]）#!"
  THEOCRACY_DISAPPROVE_EFFECT:1 "@warning_icon!#X 不再拥护你#!#weak （[church_property|E]）#!"
@@ -1365,15 +1438,15 @@
  REMOVE_INNOVATION_EFFECT:0 "[CULTURE.GetName]文化失去$INNOVATION_TYPE|V$的知识"
  REMOVED_INNOVATION_EFFECT:0 "[CULTURE.GetCollectiveNoun]失去了$INNOVATION_TYPE|V$的知识"
 
- ADD_DOCTRINE_GLOBAL_DESC:1 "获得$DOCTRINE_GROUP$：$DOCTRINE$"
- ADD_DOCTRINE_GLOBAL_PAST_DESC:1 "获得了$DOCTRINE_GROUP$：$DOCTRINE$"
- ADD_DOCTRINE_THIRD_DESC:1 "[FAITH.GetAdjective]信仰获得$DOCTRINE_GROUP$：$DOCTRINE$"
- ADD_DOCTRINE_THIRD_PAST_DESC:1 "[FAITH.GetAdjective]信仰获得了$DOCTRINE_GROUP$：$DOCTRINE$"
+ ADD_DOCTRINE_GLOBAL_DESC:2 "获得[FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]：[FAITH_DOCTRINE.GetName( FAITH.Self )]"
+ ADD_DOCTRINE_GLOBAL_PAST_DESC:2 "获得了[FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]：[FAITH_DOCTRINE.GetName( FAITH.Self )]"
+ ADD_DOCTRINE_THIRD_DESC:2 "[FAITH.GetAdjective]信仰获得[FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]：[FAITH_DOCTRINE.GetName( FAITH.Self )]"
+ ADD_DOCTRINE_THIRD_PAST_DESC:2 "[FAITH.GetAdjective]信仰获得了[FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]：[FAITH_DOCTRINE.GetName( FAITH.Self )]"
 
- REMOVE_DOCTRINE_GLOBAL_DESC:1 "失去$DOCTRINE_GROUP$：$DOCTRINE$"
- REMOVE_DOCTRINE_GLOBAL_PAST_DESC:1 "失去了$DOCTRINE_GROUP$：$DOCTRINE$"
- REMOVE_DOCTRINE_THIRD_DESC:1 "[FAITH.GetAdjective]信仰失去$DOCTRINE_GROUP$：$DOCTRINE$"
- REMOVE_DOCTRINE_THIRD_PAST_DESC:1 "[FAITH.GetAdjective]信仰失去了$DOCTRINE_GROUP$：$DOCTRINE$"
+ REMOVE_DOCTRINE_GLOBAL_DESC:2 "失去[FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]：[FAITH_DOCTRINE.GetName( FAITH.Self )]"
+ REMOVE_DOCTRINE_GLOBAL_PAST_DESC:2 "失去了[FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]：[FAITH_DOCTRINE.GetName( FAITH.Self )]"
+ REMOVE_DOCTRINE_THIRD_DESC:2 "[FAITH.GetAdjective]信仰失去[FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]：[FAITH_DOCTRINE.GetName( FAITH.Self )]"
+ REMOVE_DOCTRINE_THIRD_PAST_DESC:2 "[FAITH.GetAdjective]信仰失去了[FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]：[FAITH_DOCTRINE.GetName( FAITH.Self )]"
 
  GET_RANDOM_INNOVATION_FROM_EFFECT:2 "[CULTURE.GetName][culture|E]从[TARGET_CULTURE.GetName]文化吸收随机[innovation|E]"
  GOT_RANDOM_INNOVATION_FROM_EFFECT:1 "[CULTURE.GetName][culture|E]从[TARGET_CULTURE.GetName]文化吸收了随机[innovation|E]"
@@ -1398,9 +1471,16 @@
  INCREASED_CULTURAL_ACCEPTANCE_WITH:1 "[CULTURE.GetCollectiveNoun]文化与[TARGET_CULTURE.GetCollectiveNoun]文化之间的接受度已提升了$VALUE|+^/%$"
  REDUCED_CULTURAL_ACCEPTANCE_WITH:1 "[CULTURE.GetCollectiveNoun]文化与[TARGET_CULTURE.GetCollectiveNoun]文化之间的接受度已降低了$VALUE|-^/%$"
 
+ REMOVE_CULTURAL_TRADITION:0 "失去[CULTURE_TRADITION.GetName]传统"
+ ADD_CULTURAL_TRADITION:0 "获得[CULTURE_TRADITION.GetName]传统"
+ REMOVE_CULTURAL_TRADITION_THIRD:0 "[CULTURE.GetName]文化失去[CULTURE_TRADITION.GetName]传统"
+ ADD_CULTURAL_TRADITION_THIRD:0 "[CULTURE.GetName]文化获得[CULTURE_TRADITION.GetName]传统"
+
  LEARN_LANGUAGE_OF_CULTURE_FIRST:1 "你学会[language|E]：[TARGET_CULTURE.GetLanguage.GetName]"
  LEARN_LANGUAGE_OF_CULTURE_THIRD:1 "[CHARACTER.GetShortUIName|U]学会[language|E]：[TARGET_CULTURE.GetLanguage.GetName]"
  LEARN_LANGUAGE_OF_CULTURE_GLOBAL:1 "学会[language|E]：[TARGET_CULTURE.GetLanguage.GetName]"
+ LEARN_LANGUAGE_OF_CULTURE_FIRST_PAST:0 "你学会了[language|E]：[TARGET_CULTURE.GetLanguage.GetName]"
+ LEARN_LANGUAGE_OF_CULTURE_THIRD_PAST:0 "[CHARACTER.GetShortUIName|U]学会了[language|E]：[TARGET_CULTURE.GetLanguage.GetName]"
  UNLEARN_LANGUAGE_OF_CULTURE_FIRST:1 "你遗忘[language|E]：[TARGET_CULTURE.GetLanguage.GetName]"
  UNLEARN_LANGUAGE_OF_CULTURE_THIRD:1 "[CHARACTER.GetShortUIName|U]遗忘[language|E]：[TARGET_CULTURE.GetLanguage.GetName]"
  UNLEARN_LANGUAGE_OF_CULTURE_GLOBAL:1 "遗忘[language|E]：[TARGET_CULTURE.GetLanguage.GetName]"
@@ -1421,11 +1501,6 @@
  LOST_THE_BUILDING_NAME:0 "失去了建筑[BUILDING.GetName]"
  PROVINCE_LOSES_THE_BUILDING_NAME:0 "[PROVINCE.GetName]的地产失去建筑[BUILDING.GetName]"
  PROVINCE_LOST_THE_BUILDING_NAME:0 "[PROVINCE.GetName]的地产失去了建筑[BUILDING.GetName]"
-
- GAINS_BUILDING_SLOT:0 "获得$VALUE|V0$建筑槽"
- GAINED_BUILDING_SLOT:0 "获得了$VALUE|V0$建筑槽"
- PROVINCE_GAINS_BUILDING_SLOT:0 "[PROVINCE.GetName]的地产获得$VALUE|V0$个建筑槽"
- PROVINCE_GAINED_BUILDING_SLOT:0 "[PROVINCE.GetName]的地产获得了$VALUE|V0$个建筑槽"
 
  SET_HOLDING_TYPE_EFFECT_GLOBAL:0 "使[PROVINCE.GetName]成为$NEW_HOLDING_TYPE_NAME$地产"
  SET_HOLDING_TYPE_EFFECT_GLOBAL_PAST:0 "使[PROVINCE.GetName]成为$NEW_HOLDING_TYPE_NAME$地产"
@@ -1472,8 +1547,11 @@
  LEFT_COURT:0 "离开了[CHARACTER.GetLiege.GetShortUINamePossessive]的[court|E]"
  LEAVES_COURT:1 "离开[CHARACTER.GetCurrentLocation.GetCounty.GetTitle.GetHolder.GetShortUINamePossessive]的[court|E]"
  CHARACTER_LEFT_COURT:0 "[CHARACTER.GetShortUIName|U]离开了[CHARACTER.GetLiege.GetShortUINamePossessive]的[court|E]"
+
  RECRUIT_COURTIER_EFFECT:1 "将[TARGET_CHARACTER.GetShortUIName]招募至[court|E]"
+ RECRUITED_COURTIER_EFFECT:0 "将[TARGET_CHARACTER.GetShortUIName]招募到了[court|E]"
  THEY_RECRUIT_COURTIER_EFFECT:0 "[CHARACTER.GetShortUIName|U]将[TARGET_CHARACTER.GetShortUIName]招募至[CHARACTER.GetHerHis]的[court|E]"
+ THEY_RECRUITED_COURTIER_EFFECT:0 "[CHARACTER.GetShortUIName|U]将[TARGET_CHARACTER.GetShortUIName]招募到了[CHARACTER.GetHerHis]的[court|E]"
  I_RECRUIT_COURTIER_EFFECT:1 "你招募[TARGET_CHARACTER.GetShortUIName]到你的[court|E]"
  I_RECRUITED_COURTIER_EFFECT:0 "你将[TARGET_CHARACTER.GetShortUIName]招募至你的[court|E]"
 
@@ -1569,7 +1647,7 @@
  REFUND_ALL_PERKS_EFFECT:1 "你解锁的所有[perks|E]被退还"
 
  NO_PENALTY_FOR_LACK_OF_ATTRACTION:1 "移除[GetScheme('seduce').GetTypeName][schemes|E]中的吸引力惩罚"
- I_SUFFER_NO_PENALTY_FOR_LACK_OF_ATTRACTION:2 "移除你在[GetScheme('seduce').GetTypeName][schemes|E]中的吸引力惩罚"
+ I_SUFFER_NO_PENALTY_FOR_LACK_OF_ATTRACTION:3 "移除你在[GetScheme('seduce').GetTypeName][schemes|E]中的吸引力惩罚\n可以随意使用勾引[intent|E]"
  THEY_SUFFER_NO_PENALTY_FOR_LACK_OF_ATTRACTION:1 "移除[CHARACTER.GetHerHis]在[GetScheme('seduce').GetTypeName][schemes|E]中的吸引力惩罚"
 
  REMOVES_INCEST_SEDUCTION_PENALTIES:4 "移除[GetScheme('seduce').GetTypeName][schemes|E]中的[title_rank|E]差异惩罚\n针对年龄超过19岁的成年人时，移除[GetScheme('seduce').GetTypeName][schemes|E]中的[incestuous|E]惩罚"
@@ -1579,6 +1657,14 @@
  INCREASED_CHANCE_OF_LOVERS_SAVING:1 "[lovers|E]不太可能加入针对他们情人的[GetScheme('murder').GetTypeName][schemes|E]\n情侣们更倾向从谋杀企图中拯救情人"
  INCREASED_CHANCE_OF_MY_LOVERS_SAVING_ME:2 "你的[lovers|E]不太可能加入针对你的[GetScheme('murder').GetTypeName][schemes|E]\n情人们更倾向从谋杀企图中拯救你"
  INCREASED_CHANCE_OF_THEIR_LOVERS_SAVING_THEM:1 "[CHARACTER.GetShortUINamePossessive]的[lovers|E]不太可能加入针对[CHARACTER.GetHerHim]的[GetScheme('murder').GetTypeName][schemes|E]\n情人们更倾向从谋杀企图中拯救[CHARACTER.GetHerHim]"
+ 
+ MURDER_FEAST_UNLOCKED:0 "解锁谋杀[GetActivityType('activity_feast').GetName]"
+ MY_MURDER_FEAST_UNLOCKED:0 "解锁谋杀[GetActivityType('activity_feast').GetName]"
+ THEIR_MURDER_FEAST_UNLOCKED:0 "解锁谋杀[GetActivityType('activity_feast').GetName]"
+ 
+ RED_WEDDING_UNLOCKED:0 "解锁血腥[GetActivityType('activity_wedding').GetName]"
+ MY_RED_WEDDING_UNLOCKED:0 "解锁血腥[GetActivityType('activity_wedding').GetName]"
+ THEIR_RED_WEDDING_UNLOCKED:0 "解锁血腥[GetActivityType('activity_wedding').GetName]"
  
  INCREASED_SEDUCE_SUCCESS_CHANCE_AGAINST_COURTIERS:1 "对自己[courtiers|E]和[guests|E]的[GetScheme('seduce').GetTypeName][scheme|E][success_chance|E]：#P +[EmptyScope.ScriptValue('home_advantage_perk_bonus')|0]%#!"
  INCREASED_SEDUCE_SUCCESS_CHANCE_AGAINST_MY_COURTIERS:1 "对自己[courtiers|E]和[guests|E]的[GetScheme('seduce').GetTypeName][scheme|E][success_chance|E]：#P +[EmptyScope.ScriptValue('home_advantage_perk_bonus')|0]%#!"
@@ -1659,7 +1745,7 @@
 
  unlocks_board_games_interaction_effect:0 "解锁$challenge_to_2p_chess_interaction$[interaction|E]，允许你与其他[characters|E]进行友谊赛"
 
- EACH_FRIEND_ADDS_STRESS_REDUCTION:2 "每个[friend|E]使：[stress_gain_i][stress|E]获得#P -5%#!"
+ EACH_FRIEND_ADDS_STRESS_REDUCTION:3 "每个[friend|E]使：[stress_gain_i][stress|E]获得#P -5%#!（上限[EmptyScope.ScriptValue('confidants_max')|0]）"
 
  CHILDREN_ARE_BORN_WITH_EXTRA_STATS:0 "孩子获得#P 1#!到#P 3#!额外的[skill|E]点数"
 
@@ -1755,7 +1841,7 @@
  HOUSE_GUARD_UNLOCK_DESCRIPTION:0 "可以招募[GetMaA('house_guard').GetName][men_at_arms|E]"
  HOUSE_GUARD_DESCRIPTION:1 "#weak 只可以招募一支家族近卫军团（最大规模为5）#!"
  
- CHEAPER_HUNTS_AND_FEASTS:0 "[hunt|E]和[feast|E]花费：[gold_i]#P -30%#!"
+ CHEAPER_HUNTS_AND_FEASTS:1 "[GetActivityType('activity_hunt').GetName]和[GetActivityType('activity_feast').GetName]花费：[gold_i]#P -30%#!"
  
  MARRIAGE_ACCEPTANCE_LEGACY_FOR_SELF:0 "[marriage|E]接受度：#P +[EmptyScope.ScriptValue('glory_legacy_1_marriage_acceptance')|0]#!"
  FEWER_FACTIONS_LEGACY:0 "[vassals|E]不太可能加入[claimant_factions|E]和[liberty_factions|E]#!"
@@ -1787,8 +1873,8 @@
  I_SET_SEXUALITY_EFFECT:1 "你意识到自己是$SEXUALITY$"
  I_REALIZED_SEXUALITY_EFFECT:0 "你意识到了你是$SEXUALITY$"
 
- I_REMOVE_DECISION_COOLDOWN_EFFECT:1 "$DECISION_NAME|V$对我不再处于冷却期#weak （自然到期时间：[DATE.GetStringLong]）#!"
- THEY_REMOVE_DECISION_COOLDOWN_EFFECT:1 "$DECISION_NAME|V$对于[CHARACTER.GetShortUIName]不再处于冷却期#weak （自然到期时间：[DATE.GetStringLong]）#!"
+ I_REMOVE_DECISION_COOLDOWN_EFFECT:2 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]对我不再处于冷却期#weak （自然到期时间：[DATE.GetStringLong]）#!"
+ THEY_REMOVE_DECISION_COOLDOWN_EFFECT:2 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]对于[CHARACTER.GetShortUIName]不再处于冷却期#weak （自然到期时间：[DATE.GetStringLong]）#!"
  
  I_REMOVE_INTERACTION_COOLDOWN_EFFECT:1 "$INTERACTION_NAME|V$对我不再处于冷却期#weak （自然到期时间：[DATE.GetStringLong]）#!"
  THEY_REMOVE_INTERACTION_COOLDOWN_EFFECT:1 "$INTERACTION_NAME|V$对[CHARACTER.GetShortUIName]不再处于冷却期#weak （自然到期时间：[DATE.GetStringLong]）#!"
@@ -1837,6 +1923,12 @@
 
  expose_lover_secret_custom_tt:0 "@warning_icon!#X [real_father.GetShortUIName|U]会被认为是一个[GetTrait('adulterer').GetName( GetNullCharacter )]#!"
 
+ NEW_RELIGIOUS_HEAD_TITLE_GLOBAL_DESC:0 "为[TARGET_CHARACTER.GetFaith.GetAdjective]创建了[head_of_faith|E]"
+ NEW_RELIGIOUS_HEAD_TITLE_GLOBAL_PAST_DESC:0 "为[TARGET_CHARACTER.GetFaith.GetAdjective]创建了[head_of_faith|E]"
+ NEW_RELIGIOUS_HEAD_TITLE_FIRST_DESC:0 "你成为[TARGET_CHARACTER.GetFaith.GetAdjective]的[head_of_faith|E]"
+ NEW_RELIGIOUS_HEAD_TITLE_FIRST_PAST_DESC:0 "你成为了[TARGET_CHARACTER.GetFaith.GetAdjective]的[head_of_faith|E]"
+ NEW_RELIGIOUS_HEAD_TITLE_THIRD_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U]成为[TARGET_CHARACTER.GetFaith.GetAdjective]的[head_of_faith|E]"
+ NEW_RELIGIOUS_HEAD_TITLE_THIRD_PAST_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U]成为了[TARGET_CHARACTER.GetFaith.GetAdjective]的[head_of_faith|E]"
 
  GLOBAL_SET_TITLE_NAME_EFFECT:0 "名称改为$NAME$"
  GLOBAL_SET_TITLE_NAME_EFFECT_PAST:0 "名称已变更"
@@ -2005,7 +2097,7 @@
  custom.every_guest_and_unimportant_courtier:0 "所有[guest|E]和不重要的[courtier|E]"
  custom.every_courtier:0 "所有[courtier|E]"
  custom.every_guest:0 "所有[guest|E]"
- custom.every_knight:0 "所有[knight|E]"
+ custom.every_knight:1 "所有[THIS.Char.Custom('KnightCulture')]"
  custom.every_child_in_the_court:0 "[THIS.GetCharacter.GetShortUINamePossessiveNoTooltip]宫廷的所有儿童"
  custom.all_faction_members:0 "所有派系成员"
  custom.every_held_county:0 "持有的全部[county|E]"
@@ -2018,12 +2110,21 @@
  custom.every_opposite_sex_consort:0 "所有异性[spouse|E]和[concubine|E]"
  custom.every_vassal_of_target_culture:0 "所有[different_culture_vassal.GetCulture.GetName]文化[vassal|E]"
  custom.every_vassal:0 "所有[vassal|E]"
+ custom.every_vassal_of_your_liege:0 "你[liege|E]的所有[vassal|E]"
  custom.every_female_courtier:0 "所有女性[courtier|E]"
  custom.every_male_courtier:0 "所有男性[courtier|E]"
  custom.every_same_culture_vassal:0 "所有[root_culture.GetName]文化[vassal|E]"
  custom.every_different_culture_vassal:0 "所有非[root_culture.GetName]文化[vassal|E]"
+ custom.every_vassal_of_liege.tt:0 "所有[vassal|E]同侪"
+ custom.every_attending_character:0 "所有出席角色"
+ custom.every_attending_character_but_courtly:2 "所有非[GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName]的参与[vassal|E]"
  custom.every_non_callous_or_sadistic_courtier_and_guest:0 "所有非冷酷和虐待狂的[courtier|E]和[guest|E]"
  custom.every_zealous_courtier_and_guest:0 "所有狂热的[courtier|E]和[guest|E]"
+ custom.every_entourage_character:0 "所有旅行中的[character|E]"
+ custom.every_activity_guest:2 "所有[activity_guest_short|E]"
+ custom.every_active_accolade:0 "所有[acclaimed_knight|E]"
+ custom.every_activity_guest_with_trait_in_common:0 "所有与你拥有至少一个相同[trait|E]的宾客"
+ custom.every_landed_activity_guest:0 "所有[landed|E]的[activity|E]宾客"
 
  guest_and_family_move_to_specific_pool_effect.tt.family:0 "[character|E]及任何与之同行的[family|E]"
 
@@ -2042,6 +2143,7 @@
  BEGIN_CREATE_HOLDING_REFUND:0 "[SelectLocalization( StringIsEmpty( '$COST$' ), '', '。如果建造被手动取消，会返还$COST$' )]"
  BEGIN_CREATE_HOLDING_EFFECT_GLOBAL:0 "开始建造$HOLDING_NAME$$BEGIN_CREATE_HOLDING_REFUND$"
  BEGIN_CREATE_HOLDING_EFFECT:0 "开始在[PROVINCE.GetName]建造$HOLDING_NAME$$BEGIN_CREATE_HOLDING_REFUND$"
+ BEGIN_CREATE_HOLDING_EFFECT_PAST:0 "开始了[PROVINCE.GetName]$HOLDING_NAME$的建造$BEGIN_CREATE_HOLDING_REFUND$"
 
 
  DESTROY_ARTIFACT:0 "[ARTIFACT.GetName]被摧毁"
@@ -2115,7 +2217,6 @@
  THEY_APPOINT_COURT_POSITION_PAST_EFFECT:0 "[CHARACTER.GetShortUIName|U]任命[TARGET_CHARACTER.GetShortUIName|U]担任[CHARACTER.GetHerHis]的[COURT_POSITION_TYPE.GetName]"
  APPOINT_COURT_POSITION_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName|U]被任命为[CHARACTER.GetShortUINamePossessive|U]的[COURT_POSITION_TYPE.GetName]"
  APPOINT_COURT_POSITION_PAST_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName|U]被任命为[CHARACTER.GetShortUINamePossessive|U]的[COURT_POSITION_TYPE.GetName]"
- APPOINT_COURT_POSITION:0 "#D TODO_CD#!"
 
 # revoke_court_position 
  I_REVOKE_COURT_POSITION_EFFECT:1 "你将解除[TARGET_CHARACTER.GetShortUIName|U]的[COURT_POSITION_TYPE.GetName]职务\n• 这会花费你：$REVOKE_COST$\n$REVOKE_EFFECT$"
@@ -2124,21 +2225,14 @@
  THEY_REVOKE_COURT_POSITION_PAST_EFFECT:1 "[CHARACTER.GetShortUIName|U]解除了[CHARACTER.GetHerHis]的[COURT_POSITION_TYPE.GetName][TARGET_CHARACTER.GetShortUIName|U]的职务\n• 这花费[CHARACTER.GetHerHim]：$REVOKE_COST$\n$REVOKE_EFFECT$"
  REVOKE_COURT_POSITION_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName|U]被从[TARGET_CHARACTER.GetHerHis]的[CHARACTER.GetShortUINamePossessive|U][COURT_POSITION_TYPE.GetName]职位上辞退"
  REVOKE_COURT_POSITION_PAST_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName|U]已被从[TARGET_CHARACTER.GetHerHis]的[CHARACTER.GetShortUINamePossessive|U][COURT_POSITION_TYPE.GetName]职位上辞退"
- REVOKE_COURT_POSITION:0 "#D TODO_CD#!"
 
 # replace_court_position 
  I_REPLACE_COURT_POSITION_EFFECT:1 "你将以$REPLACEMENT$取代你的[COURT_POSITION_TYPE.GetName]$HOLDER$的职位\n• 这会花费你：$REVOKE_COST$\n$REVOKE_EFFECT$"
  I_REPLACE_COURT_POSITION_PAST_EFFECT:1 "你以$REPLACEMENT$取代了你的[COURT_POSITION_TYPE.GetName]$HOLDER$的职位\n• 这花费你：$REVOKE_COST$\n$REVOKE_EFFECT$"
- THEY_REPLACE_COURT_POSITION_EFFECT:1 "[CHARACTER.GetShortUIName|U]将以$REPLACEMENT$取代[CHARACTER.GetHerHis]的[COURT_POSITION_TYPE.GetName]$HOLDER$的职位\n• 这会花费[CHARACTER.GetHerHim]：$REVOKE_COST$\n$REVOKE_EFFECT$"
+ THEY_REPLACE_COURT_POSITION_EFFECT:1 "[CHARACTER.GetShortUIName|U]将以$REPLACEMENT$取代[CHARACTER.GetHerHis]的[COURT_POSITION_TYPE.GetName]$HOLDER$的职位\n•  这会花费[CHARACTER.GetHerHim]：$REVOKE_COST$\n$REVOKE_EFFECT$"
  THEY_REPLACE_COURT_POSITION_PAST_EFFECT:1 "[CHARACTER.GetShortUIName|U]以$REPLACEMENT$取代了[CHARACTER.GetHerHis]的[COURT_POSITION_TYPE.GetName]$HOLDER$的职位\n• 这花费[CHARACTER.GetHerHim]：$REVOKE_COST$\n$REVOKE_EFFECT$"
  REPLACE_COURT_POSITION_EFFECT:0 "$REPLACEMENT$取代$HOLDER$成为了[CHARACTER.GetShortUINamePossessive|U][COURT_POSITION_TYPE.GetName]"
  REPLACE_COURT_POSITION_PAST_EFFECT:0 "$REPLACEMENT$已取代$HOLDER$成为了[CHARACTER.GetShortUINamePossessive|U][COURT_POSITION_TYPE.GetName]"
- REPLACE_COURT_POSITION:0 "#D TODO_CD#!"
-
- EVERY_COURT_POSITION_EMPLOYER:0 "#D TODO_CD#!"
- RANDOM_COURT_POSITION_EMPLOYER:0 "#D TODO_CD#!"
- EVERY_COURT_POSITION_HOLDER:0 "#D TODO_CD#!"
- RANDOM_COURT_POSITION_HOLDER:0 "#D TODO_CD#!"
 
  CREATE_ARTIFACT_EFFECT:0 "已制作[artifact|E]$ARTIFACT_NAME$"
  CREATE_ARTIFACT_EFFECT_PAST:0 "已制作[artifact|E]$ARTIFACT_NAME$"
@@ -2155,7 +2249,7 @@
  SET_ARTIFACT_RARITY_EFFECT_PAST:0 "变为了$RARITY$"
  SET_ARTIFACT_RARITY_EFFECT_THIRD:0 "[ARTIFACT.GetName]变为$RARITY$"
  SET_ARTIFACT_RARITY_EFFECT_PAST_THIRD:0 "[ARTIFACT.GetName]变为了$RARITY$"
-
+ 
  SET_CULTURE_AS_INVOLVED:0 "[CULTURE.GetName]文化涉入[STRUGGLE.GetName]"
  SET_CULTURE_AS_UNINVOLVED:0 "[CULTURE.GetName]文化不再涉入[STRUGGLE.GetName]"
  SET_FAITH_AS_INVOLVED:0 "[FAITH.GetName]信仰涉入[STRUGGLE.GetName]"
@@ -2190,3 +2284,217 @@
  SET_LANGUAGE_FROM_PAST:0 "[CULTURE.GetName|V]语言已变为[TARGET_CULTURE.GetLanguage.GetName|V]"
  RESET_CULTURE_CREATION_DATE:0 "重置了[CULTURE.GetName|V]的创造日期"
  RESET_CULTURE_CREATION_DATE_PAST:0 "已重置[CULTURE.GetName|V]的创造日期"
+ 
+ ADD_COMPANION_EFFECT:1 "将[TARGET_CHARACTER.GetShortUIName]招募进[entourage|E]"
+ THEY_ADD_COMPANION_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName]会被被招募进[entourage|E]"
+ I_ADD_COMPANION_EFFECT:0 "你招募[TARGET_CHARACTER.GetShortUIName]陪同你旅行"
+ I_ADDED_COMPANION_EFFECT:1 "你将[TARGET_CHARACTER.GetShortUIName]招募进你的[entourage|E]"
+
+ COMPLETE_TRAVEL_PLAN_EFFECT:0 "旅行将会完成"
+ COMPLETE_TRAVEL_PLAN_EFFECT_PAST:0 "旅行完成了"
+ THEY_COMPLETE_TRAVEL_PLAN_EFFECT:0 "$COMPLETE_TRAVEL_PLAN_EFFECT$"
+ THEY_COMPLETED_TRAVEL_PLAN_EFFECT_PAST:0 "$COMPLETE_TRAVEL_PLAN_EFFECT_PAST$"
+
+ ABORT_TRAVEL_PLAN_EFFECT:0 "旅行计划将会中止"
+ ABORT_TRAVEL_PLAN_EFFECT_PAST:0 "旅行计划已中止"
+
+ PAUSE_TRAVEL_PLAN_EFFECT:0 "旅行计划将会暂停"
+ PAUSE_TRAVEL_PLAN_EFFECT_PAST:0 "旅行计划已暂停"
+
+ RESUME_TRAVEL_PLAN_EFFECT:0 "旅行计划将会恢复"
+ RESUME_TRAVEL_PLAN_EFFECT_PAST:0 "旅行计划已恢复"
+
+ CANCEL_TRAVEL_PLAN_EFFECT:0 "旅行计划取消，并改道回家"
+ CANCEL_TRAVEL_PLAN_EFFECT_PAST:0 "旅行计划取消并改道回家"
+ THEY_CANCEL_TRAVEL_PLAN_EFFECT:0 "$CANCEL_TRAVEL_PLAN_EFFECT$"
+ THEY_CANCEL_TRAVEL_PLAN_EFFECT_PAST:0 "$CANCEL_TRAVEL_PLAN_EFFECT_PAST$"
+
+ GO_HOME_TRAVEL_EFFECT:0 "旅行目的地改为回家"
+ GO_HOME_TRAVEL_EFFECT_PAST:0 "旅行目的地改为回家"
+ THEY_GO_HOME_TRAVEL_EFFECT:0 "$GO_HOME_TRAVEL_EFFECT$"
+ THEY_GO_HOME_TRAVEL_EFFECT_PAST:0 "$THEY_GO_HOME_TRAVEL_EFFECT$"
+ 
+ ADD_TRAVEL_OPTION_EFFECT:1 "添加旅行选项$TRAVEL_OPTION$"
+ ADD_TRAVEL_OPTION_EFFECT_PAST:1 "添加了旅行选项$TRAVEL_OPTION$"
+ I_ADD_TRAVEL_OPTION_EFFECT:1 "你添加一个旅行选项$TRAVEL_OPTION$"
+ I_ADD_TRAVEL_OPTION_EFFECT_PAST:1 "你添加了一个旅行选项$TRAVEL_OPTION$"
+ THEY_ADD_TRAVEL_OPTION_EFFECT:0 "$ADD_TRAVEL_OPTION_EFFECT$"
+
+ SET_TRAVEL_LEADER_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName]将成为新的旅行领袖"
+ SET_TRAVEL_LEADER_EFFECT_PAST:1 "[TARGET_CHARACTER.GetShortUIName]已经成为新的旅行领袖"
+
+ DELAY_TRAVEL_PLAN_EFFECT:0 "旅行计划将耽搁$DURATION|V$"
+ DELAY_TRAVEL_PLAN_EFFECT_PAST:0 "旅行计划耽搁了$DURATION|V$"
+ THIRD_DELAY_TRAVEL_PLAN_EFFECT:0 "[TRAVEL_PLAN.GetName]耽搁了$DURATION|V$"
+ THIRD_DELAY_TRAVEL_PLAN_EFFECT_PAST:0 "[TRAVEL_PLAN.GetName]耽搁了$DURATION|V$"
+
+ ADD_TRAVEL_PLAN_MODIFIER_EFFECT:0 "旅行获得$MODIFIER$"
+ ADD_TRAVEL_PLAN_MODIFIER_EFFECT_PAST:0 "旅行获得了$MODIFIER$"
+ THIRD_ADD_TRAVEL_PLAN_MODIFIER_EFFECT:0 "[TRAVEL_PLAN.GetName]获得$MODIFIER$"
+ THIRD_ADD_TRAVEL_PLAN_MODIFIER_EFFECT_PAST:0 "[TRAVEL_PLAN.GetName]获得$MODIFIER$"
+
+ ADD_TRAVEL_PLAN_MODIFIER_EFFECT_DURATION:0 "旅行获得$MODIFIER$，持续$DURATION|V$"
+ ADD_TRAVEL_PLAN_MODIFIER_EFFECT_DURATION_PAST:0 "旅行获得了$MODIFIER$，持续$DURATION|V$"
+ THIRD_ADD_TRAVEL_PLAN_MODIFIER_EFFECT_DURATION:0 "[TRAVEL_PLAN.GetName]获得$MODIFIER$，持续$DURATION|V$。"
+ THIRD_ADD_TRAVEL_PLAN_MODIFIER_EFFECT_DURATION_PAST:0 "[TRAVEL_PLAN.GetName]获得了$MODIFIER$，持续$DURATION|V$。"
+
+ ADD_DESTINATION_PROGRESS_EFFECT:1 "抵达下一目的地的进度提高$DURATION|V$"
+ ADD_DESTINATION_PROGRESS_EFFECT_PAST:1 "抵达下一目的地的进度提高了$DURATION|V$"
+ THIRD_ADD_DESTINATION_PROGRESS_EFFECT:0 "[TRAVEL_PLAN.GetName]获得$DURATION|V$抵达下一目的地的进度"
+ THIRD_ADD_DESTINATION_PROGRESS_EFFECT_PAST:0 "[TRAVEL_PLAN.GetName]获得了$DURATION|V$抵达下一目的地的进度"
+
+ ADD_TRAVEL_WAYPOINT_EFFECT:0 "在[PROVINCE.GetName]为旅行计划添加一个路点"
+ ADD_TRAVEL_WAYPOINT_EFFECT_PAST:0 "在[PROVINCE.GetName]为旅行计划添加了一个路点"
+ THIRD_ADD_TRAVEL_WAYPOINT_EFFECT:0 "[TRAVEL_PLAN.GetName]在[PROVINCE.GetName]添加路点"
+ THIRD_ADD_TRAVEL_WAYPOINT_EFFECT_PAST:0 "[TRAVEL_PLAN.GetName]在[PROVINCE.GetName]添加了路点"
+
+ LEAVES_TRAVEL_PLAN:0 "离开旅团"
+ LEFT_TRAVEL_PLAN:0 "离开了旅团"
+ THEY_LEAVE_TRAVEL_PLAN:0 "[TARGET_CHARACTER.GetShortUIName|U]离开旅团"
+ THEY_LEFT_TRAVEL_PLAN:0 "[TARGET_CHARACTER.GetShortUIName|U]离开了旅团"
+
+ I_DESIGNATE_DIARCH:0 "我指定[TARGET_CHARACTER.GetName]作为我未来的[CHARACTER.GetDiarchTitle]"
+ THEY_DESIGNATE_DIARCH:0 "[CHARACTER.GetName]指定[TARGET_CHARACTER.GetName]作为[CHARACTER.GetHerHis]未来的[CHARACTER.GetDiarchTitle]"
+
+ I_DESIGNATED_DIARCH:0 "我指定了[TARGET_CHARACTER.GetName]作为我未来的[CHARACTER.GetDiarchTitle]"
+ THEY_DESIGNATED_DIARCH:0 "[CHARACTER.GetName]指定了[TARGET_CHARACTER.GetName]作为[CHARACTER.GetHerHis]未来的[CHARACTER.GetDiarchTitle]"
+
+ I_START_DIARCHY:1 "我开始[CHARACTER.GetDiarchyTypeName]"
+ THEY_START_DIARCHY:1 "[CHARACTER.GetName]开始[CHARACTER.GetDiarchyTypeName]"
+
+ I_STARTED_DIARCHY:1 "我开始了[CHARACTER.GetDiarchyTypeName]"
+ THEY_STARTED_DIARCHY:1 "[CHARACTER.GetName]开始了[CHARACTER.GetDiarchyTypeName]"
+
+ I_END_DIARCHY:0 "我的[CHARACTER.GetDiarchyTypeName]结束"
+ THEY_END_DIARCHY:0 "[CHARACTER.GetNamePossessive]的[CHARACTER.GetDiarchyTypeName]结束"
+ GLOBAL_END_DIARCHY:0 "[CHARACTER.GetShortUINamePossessive|U]的[CHARACTER.GetDiarchyTypeName]结束"
+
+ I_ENDED_DIARCHY:0 "我的[CHARACTER.GetDiarchyTypeName]结束了"
+ THEY_ENDED_DIARCHY:0 "[CHARACTER.GetNamePossessive]的[CHARACTER.GetDiarchyTypeName]结束了"
+ GLOBAL_ENDED_DIARCHY:0 "[CHARACTER.GetShortUINamePossessive|U]的[CHARACTER.GetDiarchyTypeName]结束了"
+
+ I_SET_DIARCHY_TYPE:1 "我的[power_sharing|E]类型转变为[CHARACTER.GetDiarchyTypeName]"
+ THEY_SET_DIARCHY_TYPE:1 "[CHARACTER.GetNamePossessive]的[power_sharing|E]转变为[CHARACTER.GetDiarchyTypeName]"
+ GLOBAL_SET_DIARCHY_TYPE:0 "[CHARACTER.GetShortUINamePossessive]的[power_sharing|E]转变为[CHARACTER.GetDiarchyTypeName]"
+
+ I_CHANGED_DIARCHY_TYPE:1 "我的[power_sharing|E]转变为[CHARACTER.GetDiarchyTypeName]"
+ THEY_CHANGED_DIARCHY_TYPE:1 "[CHARACTER.GetNamePossessive]的[power_sharing|E]转变为[CHARACTER.GetDiarchyTypeName]"
+ GLOBAL_CHANGED_DIARCHY_TYPE:0 "[CHARACTER.GetShortUINamePossessive]的[power_sharing|E]转变为[CHARACTER.GetDiarchyTypeName]"
+
+ I_SET_DIARCH:0 "[TARGET_CHARACTER.GetName]是我的新[CHARACTER.GetDiarchTitle]"
+ THEY_SET_DIARCH:0 "[TARGET_CHARACTER.GetName]是[CHARACTER.GetNamePossessive]的新[CHARACTER.GetDiarchTitle]"
+
+ I_CHANGED_DIARCH:0 "[TARGET_CHARACTER.GetName]成为我的新[CHARACTER.GetDiarchTitle]"
+ THEY_CHANGED_DIARCH:0 "[TARGET_CHARACTER.GetName]成为[CHARACTER.GetNamePossessive]的新[CHARACTER.GetDiarchTitle]"
+
+ I_SET_POWER_LEVEL:0 "我的[CHARACTER.GetDiarchyTypeName][scales_of_power|E]设定为$VALUE|0$"
+ THEY_SET_POWER_LEVEL:1 "[CHARACTER.GetNamePossessive]的[CHARACTER.GetDiarchyTypeName][scales_of_power|E]设定为$VALUE|0$"
+
+ I_HAVE_SET_POWER_LEVEL:1 "我的[CHARACTER.GetDiarchyTypeName][scales_of_power|E]已设定为$VALUE|0$"
+ THEY_HAVE_SET_POWER_LEVEL:1 "[CHARACTER.GetNamePossessive]的[CHARACTER.GetDiarchyTypeName][scales_of_power|E]已设定为$VALUE|0$"
+
+ I_CHANGE_POWER_LEVEL:1 "我的[CHARACTER.GetDiarchyTypeName][scales_of_power|E]改变$VALUE|0$"
+ THEY_CHANGE_POWER_LEVEL:1 "[CHARACTER.GetNamePossessive]的[CHARACTER.GetDiarchyTypeName][scales_of_power|E]改变$VALUE|0$"
+ GLOBAL_CHANGE_POWER_LEVEL:0 "[CHARACTER.GetShortUINamePossessive|U]的[CHARACTER.GetDiarchyTypeName][scales_of_power|E]改变$VALUE|0$"
+ GLOBAL_CHANGED_POWER_LEVEL:0 "$GLOBAL_CHANGE_POWER_LEVEL$"
+
+ # Neg duplicates here for error suppression.
+ I_CHANGE_POWER_LEVEL_NEG:0 "$I_CHANGE_POWER_LEVEL$"
+ THEY_CHANGE_POWER_LEVEL_NEG:0 "$THEY_CHANGE_POWER_LEVEL$"
+ GLOBAL_CHANGE_POWER_LEVEL_NEG:0 "$GLOBAL_CHANGE_POWER_LEVEL$"
+
+ I_CHANGED_POWER_LEVEL:1 "我的[CHARACTER.GetDiarchyTypeName][scales_of_power|E]改变了$VALUE|0$"
+ THEY_CHANGED_POWER_LEVEL:1 "[CHARACTER.GetNamePossessive]的[CHARACTER.GetDiarchyTypeName][scales_of_power|E]改变了$VALUE|0$"
+
+ I_GET_DEPOSED_DIARCH:0 "我被取消了[CHARACTER.GetLiege.GetDiarchTitle]的地位"
+ THEY_GET_DEPOSED_DIARCH:0 "[CHARACTER.GetName]被取消了[CHARACTER.GetHerHis]的[CHARACTER.GetLiege.GetDiarchTitle]地位"
+
+ I_GOT_DEPOSED_DIARCH:0 "我被取消了[CHARACTER.GetLiege.GetDiarchTitle]的地位"
+ THEY_GOT_DEPOSED_DIARCH:0 "[CHARACTER.GetName]被取消了[CHARACTER.GetHerHis]的[CHARACTER.GetLiege.GetDiarchTitle]地位"
+
+ I_GAIN_STRIFE_OPINION:1 "@warning_icon!#X 这是滥用权力，会产生$VALUE|-0$与你的[vassals|E]同僚的[strife|E]#!"
+ I_LOSE_STRIFE_OPINION:0 "#P 降低[strife|E]：你的[vassals|E]同僚对你的[opinion|E]增加$VALUE|+0$#!"
+
+ THEY_GAIN_STRIFE_OPINION:1 "@warning_icon!#X 这是滥用权力，会产生$VALUE|-0$与[CHARACTER.GetShortUINamePossessive]的[vassals|E]同僚的[strife|E]#!"
+ THEY_LOSE_STRIFE_OPINION:0 "#P 降低[strife|E]：[CHARACTER.GetLiege.GetShortUINamePossessive][realm|E]的[vassals|E]对[CHARACTER.GetShortUIName]的[opinion|E]增加$VALUE|V0$#!"
+
+ I_GAINED_STRIFE_OPINION:0 "@warning_icon!#X 这是滥用权力，产生了$VALUE|-0$与你的[vassals|E]同僚的[strife|E]"
+ I_LOST_STRIFE_OPINION:0 "#P 降低了[strife]：你的[vassals|E]同僚对你的[opinion|E]增加了$VALUE|V0$#!"
+
+ THEY_GAINED_STRIFE_OPINION:0 "@warning_icon!#X 这是滥用权力，产生了$VALUE|-0$与[CHARACTER.GetShortUINamePossessive]的[vassals|E]同僚的[strife|E]"
+ THEY_LOST_STRIFE_OPINION:0 "#P 降低了[strife|E]：[CHARACTER.GetLiege.GetShortUINamePossessive][realm|E]的[vassals|E]对[CHARACTER.GetShortUIName]的[opinion|E]增加了$VALUE|V0$#!"
+
+ I_GET_DIARCHY_MANDATE:0 "[CHARACTER.GetLiege.GetShortUIName]已将我的[mandate|E]设定为：$MANDATE_TYPE$"
+ THEY_GET_DIARCHY_MANDATE:0 "[CHARACTER.GetLiege.GetShortUIName]已将[CHARACTER.GetShortUINamePossessive]的[mandate|E]设定为：$MANDATE_TYPE$"
+
+ I_GOT_DIARCHY_MANDATE:0 "[CHARACTER.GetLiege.GetShortUIName]将我的[mandate|E]设定为：$MANDATE_TYPE$"
+ THEY_GOT_DIARCHY_MANDATE:0 "[CHARACTER.GetLiege.GetShortUIName]将[CHARACTER.GetShortUINamePossessive]的[mandate|E]设定为：$MANDATE_TYPE$"
+
+ GAIN_TRAIT_XP:0 "获得$VALUE|V0$$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]）#!的[trait_level_track_xp|E]"
+ I_GAIN_TRAIT_XP:1 "你获得$VALUE|V0$$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]）#!的[trait_level_track_xp|E]"
+ THEY_GAIN_TRAIT_XP:0 "[CHARACTER.GetName]获得$VALUE|V0$$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]）#!的[trait_level_track_xp|E]"
+ GAINED_TRAIT_XP:0 "获得了$VALUE|V0$$TRACK_NAME$（#weak [TRAIT.GetName( CHARACTER.Self )]#!）的[trait_level_track_xp|E]"
+ I_GAINED_TRAIT_XP:1 "你获得了$VALUE|V0$$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]）#!的[trait_level_track_xp|E]"
+ THEY_GAINED_TRAIT_XP:1 "[CHARACTER.GetName]获得了$VALUE|V0$$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]）#!的[trait_level_track_xp|E]"
+ LOSE_TRAIT_XP:0 "失去$VALUE|V0$$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]）#!的[trait_level_track_xp|E]"
+ I_LOSE_TRAIT_XP:1 "你失去$VALUE|V0$$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]）#!的[trait_level_track_xp|E]"
+ THEY_LOSE_TRAIT_XP:0 "[CHARACTER.GetName]失去$VALUE|V0$$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]）#!的[trait_level_track_xp|E]"
+ LOST_TRAIT_XP:0 "失去了$VALUE|V0$$TRACK_NAME$[trait_level_track_xp|E]#weak （[TRAIT.GetName( CHARACTER.Self )]）#!"
+ I_LOST_TRAIT_XP:1 "你失去了$VALUE|V0$$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]）#!的[trait_level_track_xp|E]"
+ THEY_LOST_TRAIT_XP:0 "[CHARACTER.GetName]失去了$VALUE|V0$$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]）#!的[trait_level_track_xp|E]"
+
+ GAIN_TRAIT_XP_SINGLE:1 "获得$VALUE|V0$[TRAIT.GetName( CHARACTER.Self )][trait|E]的[trait_level_track_xp|E]"
+ I_GAIN_TRAIT_XP_SINGLE:1 "你获得$VALUE|V0$[TRAIT.GetName( CHARACTER.Self )][trait|E]的[trait_level_track_xp|E]"
+ THEY_GAIN_TRAIT_XP_SINGLE:1 "[CHARACTER.GetName]获得$VALUE|V0$[TRAIT.GetName( CHARACTER.Self )]的[trait_level_track_xp|E][trait|E]"
+ GAINED_TRAIT_XP_SINGLE:1 "获得了$VALUE|V0$[TRAIT.GetName( CHARACTER.Self )][trait|E]的[trait_level_track_xp|E]"
+ I_GAINED_TRAIT_XP_SINGLE:1 "你获得了$VALUE|V0$[TRAIT.GetName( CHARACTER.Self )][trait|E]的[trait_level_track_xp|E]"
+ THEY_GAINED_TRAIT_XP_SINGLE:1 "[CHARACTER.GetName]获得了$VALUE|V0$[TRAIT.GetName( CHARACTER.Self )]的[trait_level_track_xp|E][trait|E]"
+ LOSE_TRAIT_XP_SINGLE:1 "失去$VALUE|V0$[TRAIT.GetName( CHARACTER.Self )][trait|E]的[trait_level_track_xp|E]"
+ I_LOSE_TRAIT_XP_SINGLE:1 "你失去$VALUE|V0$[TRAIT.GetName( CHARACTER.Self )][trait|E]的[trait_level_track_xp|E]"
+ THEY_LOSE_TRAIT_XP_SINGLE:1 "[CHARACTER.GetName]失去$VALUE|V0$[TRAIT.GetName( CHARACTER.Self )]的[trait_level_track_xp|E][trait|E]"
+ LOST_TRAIT_XP_SINGLE:1 "失去了$VALUE|V0$[TRAIT.GetName( CHARACTER.Self )][trait|E]的[trait_level_track_xp|E]"
+ I_LOST_TRAIT_XP_SINGLE:1 "你失去了$VALUE|V0$[TRAIT.GetName( CHARACTER.Self )][trait|E]的[trait_level_track_xp|E]"
+ THEY_LOST_TRAIT_XP_SINGLE:1 "[CHARACTER.GetName]失去了$VALUE|V0$[TRAIT.GetName( CHARACTER.Self )]的[trait_level_track_xp|E][trait|E]"
+
+ I_GAIN_POTENTIAL_HOOK:1 "你更接近获得对[TARGET_CHARACTER.GetShortUIName]的[hook_i][hook|E]"
+ I_GOT_POTENTIAL_HOOK:1 "你更接近获得对[TARGET_CHARACTER.GetShortUIName]的[hook_i][hook|E]了"
+ THEY_GAIN_POTENTIAL_HOOK:1 "[CHARACTER.GetShortUIName|U]更接近获得对[TARGET_CHARACTER.GetShortUIName]的[hook_i][hook|E]"
+ THEY_GAINED_POTENTIAL_HOOK:1 "[CHARACTER.GetShortUIName|U]更接近获得对[TARGET_CHARACTER.GetShortUIName]的[hook_i][hook|E]了"
+ GAINS_POTENTIAL_HOOK:1 "更接近获得对[TARGET_CHARACTER.GetShortUIName]的[hook_i][hook|E]"
+ GAINED_POTENTIAL_HOOK:1 "更接近获得对[TARGET_CHARACTER.GetShortUIName]的[hook_i][hook|E]了"
+ I_LOSE_POTENTIAL_HOOK:1 "你失去获取[TARGET_CHARACTER.GetShortUIName][hook_i][hook|E]的进度"
+
+ ENTOURAGE_GAINS_PILGRIM_TRAIT:0 "$EFFECT_LIST_BULLET$你的所有随行人员获得[GetTrait('pilgrim').GetName( GetNullCharacter )][trait|E]或[GetTrait('pilgrim').GetName( GetNullCharacter )][trait|E]的经验"
+ ENTOURAGE_GAINED_PILGRIM_TRAIT:0 "$EFFECT_LIST_BULLET$你的所有随行人员获得了[GetTrait('pilgrim').GetName( GetNullCharacter )][trait|E]或[GetTrait('pilgrim').GetName( GetNullCharacter )][trait|E]的经验"
+
+ I_COMPLETE_ACTIVITY_INTENT:0 "你完成了你的[CHARACTER.GetInvolvedActivityIntent.GetName]意图"
+ CHARACTER_COMPLETES_ACTIVITY_INTENT:0 "[CHARACTER.GetShortUIName|U]完成了[CHARACTER.GetHerHis]的[CHARACTER.GetInvolvedActivityIntent.GetName]意图"
+ GLOBAL_COMPLETE_ACTIVITY_INTENT:0 "$CHARACTER_COMPLETES_ACTIVITY_INTENT$"
+ I_COMPLETE_ACTIVITY_INTENT_PAST:0 "你完成了你的[CHARACTER.GetInvolvedActivityIntent.GetName]意图"
+ CHARACTER_COMPLETES_ACTIVITY_INTENT_PAST:0 "[CHARACTER.GetShortUIName|U]完成了[CHARACTER.GetHerHis]的[CHARACTER.GetInvolvedActivityIntent.GetName]意图"
+ GLOBAL_COMPLETE_ACTIVITY_INTENT_PAST:0 "$CHARACTER_COMPLETES_ACTIVITY_INTENT$"
+
+ I_GAINED_GLORY_EFFECT:0 "你的[accolade|E]获得了$VALUE|+0$[glory|E]"
+ I_LOST_GLORY_EFFECT:0 "你的[accolade|E]失去了$VALUE|-0$[glory|E]"
+ THEY_GAINED_GLORY_EFFECT:0 "[Accolade.GetName]获得了$VALUE|+0$[glory|E]"
+ THEY_LOST_GLORY_EFFECT:0 "[Accolade.GetName]失去$VALUE|-0$[glory|E]"
+ GAINED_GLORY_EFFECT:0 "获得了$VALUE|+0$[glory|E]"
+ LOST_GLORY_EFFECT:0 "失去$VALUE|-0$[glory|E]"
+ I_GAIN_GLORY_EFFECT:0 "你的[accolade|E]获得$VALUE|+0$[glory|E]"
+ I_LOSE_GLORY_EFFECT:0 "你的[accolade|E]失去$VALUE|-0$[glory|E]"
+ THEY_GAIN_GLORY_EFFECT:0 "[Accolade.GetName]获得$VALUE|+0$[glory|E]"
+ THEY_LOSE_GLORY_EFFECT:0 "[Accolade.GetName]失去$VALUE|-0$[glory|E]"
+ GAIN_GLORY_EFFECT:0 "获得$VALUE|+0$[glory|E]"
+ LOSE_GLORY_EFFECT:0 "失去$VALUE|-0$[glory|E]"
+ ADD_GLORY_EFFECT:0 "获得$VALUE|+0$[glory|E]"
+
+ I_AM_ADDED_TO_ACTIVITY:0 "你加入[ACTIVITY.GetName]"
+ THEY_ARE_ADDED_TO_ACTIVITY:0 "[CHARACTER.GetShortUIName|U]加入[ACTIVITY.GetName]"
+ ADDED_TO_ACTIVITY:0 "加入[ACTIVITY.GetName]"
+ I_AM_ADDED_TO_ACTIVITY_PAST:0 "你加入了[ACTIVITY.GetName]"
+ THEY_ARE_ADDED_TO_ACTIVITY_PAST:0 "[CHARACTER.GetShortUIName|U]加入了[ACTIVITY.GetName]"
+ ADDED_TO_ACTIVITY_PAST:0 "加入了[ACTIVITY.GetName]"
+ SKIP_ACTIVITY_PHASE_FIRST:0 "[ACTIVITY.GetName]的当前[activity_phase|E]会被跳过"
+ SKIP_ACTIVITY_PHASE_GLOBAL:0 "[activity_phase|E]被跳过"
+ SKIP_ACTIVITY_PHASE_FIRST_PAST:0 "[ACTIVITY.GetName]的上一个[activity_phase|E]被跳过了"
+ SKIP_ACTIVITY_PHASE_GLOBAL_PAST:0 "[activity_phase|E]已被跳过"

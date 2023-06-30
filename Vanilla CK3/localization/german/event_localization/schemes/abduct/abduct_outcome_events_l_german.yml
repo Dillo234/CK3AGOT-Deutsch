@@ -4,15 +4,15 @@
  do_not_execute_abduct_tooltip:0 "Ich lasse die Entführung bleiben."
 
  abduct_outcome.1001.t:0 "$abduct_event_title$ Überfall auf offener Straße"
- abduct_outcome.1001.opening:0 "Meinen Agenten zufolge plant [target.GetTitledFirstName] eine Reise"
- abduct_outcome.1001.arrival:0 "von [departure.GetNameNoTierNoTooltip] nach [arrival.GetNameNoTierNoTooltip]."
- abduct_outcome.1001.no_arrival:0 "innerhalb von [departure.GetNameNoTier]."
+ abduct_outcome.1001.opening:1 "Meinen Agenten zufolge ist [target.GetTitledFirstName] auf Reisen"
+ abduct_outcome.1001.arrival:1 "von [departure.GetNameNoTierNoTooltip] nach [arrival.GetNameNoTierNoTooltip]."
+ abduct_outcome.1001.no_arrival:1 "innerhalb von [departure.GetNameNoTooltip]."
  abduct_outcome.1001.ending:0 "\n\nIch habe arrangiert, dass einige Briganten diese kleine Reise unterbrechen werden, um dafür zu sorgen, dass dieser Ausflug letztlich hier endet."
  abduct_outcome.1001.a:0 "Bald wird [target.Custom('DE_PRO_PER_S_3P_N')] mir ausgeliefert sein!"
  abduct_outcome.1001.b:0 "Nein, das Risiko ist zu hoch!"
 
  abduct_outcome.1002.t:0 "$abduct_event_title$ Unterwegs"
- abduct_outcome.1002.desc:1 "Mir bietet sich eine perfekte Gelegenheit! [target.GetTitledFirstName] wird von der Residenz in ein nahe gelegenes Dorf reisen, so gut wie unbewacht.\n\n[target.Custom('DE_PRO_PER_S_3P_N')|U] wägt sich wohl in Sicherheit …"
+ abduct_outcome.1002.desc:2 "Mir bietet sich eine perfekte Gelegenheit! [target.GetTitledFirstName] wird so gut wie unbewacht von [departure.GetNameNoTooltip] nach [arrival.GetNameNoTooltip] reisen.\n\n[target.Custom('DE_PRO_PER_S_3P_N')|U] wägt sich wohl in Sicherheit …"
  abduct_outcome.1002.a:0 "Jetzt heißt es zuschlagen!"
 
  abduct_outcome.1003.t:0 "$abduct_event_title$ Ein unwillkommener Gast"
@@ -52,7 +52,7 @@
  abduct_outcome.5002.on_the_way:1 "Ich war gerade auf dem Weg ins Dorf, begleitet nur von einer Handvoll Wachen, als wir überfallen wurden.\n\nZum Glück handelten meine Beschützer rasch und tapfer, und schon bald war ich wieder zurück in der Residenz."
  abduct_outcome.5002.unwelcome_guests:1 "Mitten in der Nacht wurde ich von Lärm geweckt. Eine Gruppe Schläger war in meine Residenz eingelassen worden, und sie wurde erst an der Tür zu meinem Gemach gestellt!"
  abduct_outcome.5002.fallback:0 "Ich bin einem Entführungsversuch entronnen!"
- abduct_outcome.5002.owner_known:0 "\n\nDa steckt zweifelsohne niemand Geringeres dahinter als mein[owner.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], [owner.GetTitledFirstName]!"
+ abduct_outcome.5002.owner_known:0 "\n\nDa steckt zweifelsohne niemand Geringeres dahinter als mein[owner.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetTitledFirstName]!"
  abduct_outcome.5002.owner_not_known:0 "\n\nIch weiß nicht, wer hinter dieser versuchten Entführung steckt, aber diese Person lauert noch immer dort draußen …"
  abduct_outcome.5002.a:0 "Oh, [owner.Custom('DE_PRO_PER_S_3P_N')] wird dafür büßen!"
  abduct_outcome.5002.b:0 "Ich muss auf der Hut sein!"

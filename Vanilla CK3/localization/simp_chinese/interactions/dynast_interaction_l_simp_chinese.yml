@@ -3,6 +3,8 @@
  disinherit_interaction:0 "剥夺继承权"
  disinherit_interaction_desc:0 "$dynasty_interaction_header$从[line_of_succession|E]移除[recipient.GetShortUINameNoTooltip]"
  disinherit_interaction_notification:0 "剥夺了宗族成员继承权"
+ courtly_vassal_disapproves_disinheriting:0 "所有[GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName][vassal|E]（[actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]）对[actor.GetShortUIName]的[opinion|E]降低#N 20#!，持续#V 10年#!#weak （反对剥夺无争议继承人的继承权）#!"
+
 
  restore_inheritance_interaction:0 "恢复继承权"
  restore_inheritance_interaction_desc:0 "$dynasty_interaction_header$恢复[recipient.GetShortUINameNoTooltip]与生俱来的[line_of_succession|E]\n\n#weak 此项可用因为[recipient.GetSheHe]已被[disinherited|E]#!"

@@ -38,7 +38,7 @@
  petition_liege.0101.desc.council_seat:0 "부탁드립니다, 영주님. 저를 자문위원으로 삼아 주십시오."\n\n"수준 낮은 인간들이 높은 자리를 꿰차고 있는 반면에 저는 재능을 무시당하고만 있습니다. 영주님의 [petition_vassal.Custom('GetCouncilPositionRequest')](으)로서 봉역 통치의 부담을 덜어드리고 싶습니다.""
  petition_liege.0101.desc.pay_debt:0 "그게 실은... 제 손을 완전히 벗어난 사건 때문에 재정적인 문제에 봉착했습니다." \n\n"봉역의 안녕을 위해 장부 정리를 도와주실 수 있으실는지요?""
  petition_liege.0101.desc.war_aid:0 "[petition_war.GetName]의 전황이 그리 좋지 않습니다. [second_party.GetTitledFirstNameNoTooltip](이)가 우위를 점하고 있죠." \n\n"영주님, 제 패배는 영주님의 패배를 뜻하기도 합니다. 봉역의 안녕을 위해 지원을 해주십시오.""
- petition_liege.0101.desc.end_war:1 "저를 비롯한 영주님의 충직한 신하인 [petitioning_vassal.GetPrimaryTitle.GetName]의 주민들은 그동안 [warring_vassal.GetTitledFirstNameNoTooltip](와)과 전쟁을 치러 왔습니다!"\n\n"모두의 약화를 초래하는 이런 내분은 멈추는 게 사리에 맞지 않겠습니까?""
+ petition_liege.0101.desc.end_war:1 "저를 비롯한 영주님의 충직한 신하인 [petition_vassal.GetPrimaryTitle.GetName]의 주민들은 그동안 [second_party.GetTitledFirstNameNoTooltip](와)과 전쟁을 치러 왔습니다!"\n\n"모두의 약화를 초래하는 이런 내분은 멈추는 게 사리에 맞지 않겠습니까?""
  petition_liege.0101.desc.faction_war:0 "[second_party.GetTitledFirstName](와)과 [vassal_faction.GetNameNoTooltip|l] 일당이 절 괴롭히고 있습니다! \n\n"부탁드립니다. 봉역의 안녕을 위해 그 오만불손한 놈팡이들에게 자기 주제를 깨우쳐 주십시오!""
  petition_liege.0101.desc.county_control:0 "징세를 불가능하게 만드는 반대자들 때문에 [petition_county_example.GetNameNoTooltip](이)가 홍역을 치르고 있습니다!" \n\n"부탁드립니다, 영주님. 봉역의 안녕을 위해 그 독사들을 제압하는 데 힘을 실어주십시오.""
  petition_liege.0101.desc.county_convert:0 "신을 따르지 않는 고약한 [petition_county_example.GetCountyData.GetFaith.GetAdherentNamePluralNoTooltip] 무리 때문에 [petition_county_example.GetNameNoTooltip](이)가 홍역을 치르고 있습니다!" \n\n"사제들이 최선을 다하고 있지만, 봉역이 악의 마수에서 벗어나려면 그들에게 지원을 해주어야 할 것 같습니다.""
@@ -74,7 +74,7 @@
  petition_liege.0101.bribe_gold.faction_war:0 "평화에는 대가가 따르기 마련이오."
  petition_liege.0101.bribe_gold.county_control:0 "보통 어려운 일이 아니오. 요컨대 큰돈이 든다, 이 말이지."
  petition_liege.0101.bribe_gold.county_convert:0 "그런 일을 한 푼도 들이지 않고 할 순 없다는 걸 [ROOT.Char.GetFaith.WealthGodName]께서 알려주셨잖소."
- petition_liege.0101.bribe_gold.county_opinion:0 "순방에는 큰 비용이 소모된다오."
+ petition_liege.0101.bribe_gold.county_opinion:0 "행차에는 큰 비용이 소모된다오."
  petition_liege.0101.bribe_gold.fortify_border:0 "이보시오. 그런 조치에 큰돈이 든다는 것쯤은 그대도 알지 않소?"
  petition_liege.0101.bribe_gold.title_liege:0 "그대의 명분은 얼마나 값이 나갈 것 같소?"
  petition_liege.0101.bribe_gold.title_vassal:0 "[petition_vassal.GetFirstNameNoTooltip], 그대가 생각하는 '과잉'은 얼마나 되오?"
@@ -85,7 +85,7 @@
  petition_liege.0101.bribe_favor.council_seat:0 "모름지기 호의는 갚아야 하는 법이오."
  petition_liege.0101.bribe_favor.pay_debt:0 "이 빚은 언젠가 돌려받을 테니 그리 아시오."
  petition_liege.0101.bribe_favor.war_aid:0 "내가 필요할 때, 그대의 도움을 기대하리다."
- petition_liege.0101.bribe_favor:1 "[warring_vassal.GetFirstNameNoTooltip](이)가 싫어할 거요. 내게 신세 지는 줄 아시오..."
+ petition_liege.0101.bribe_favor:1 "[second_party.GetFirstNameNoTooltip](이)가 싫어할 거요. 내게 신세 지는 줄 아시오..."
  petition_liege.0101.bribe_favor.faction_war:0 "내 호의를 잊지 않는 게 좋을 거요."
  petition_liege.0101.bribe_favor.county_control:0 "돕겠소. 단, 그대도 나를 도와야 하오."
  petition_liege.0101.bribe_favor.county_convert:0 "바로 오늘, 내가 베푼 도움을 잊지 마시오."
@@ -95,7 +95,7 @@
  petition_liege.0101.bribe_favor.title_vassal:0 "이번 호의는 톡톡히 갚아야 할 거요."
  petition_liege.0101.bribe_favor.construct_city:0 "알겠소. 대신 이 빚을 잊지 마시오."
  petition_liege.0101.bribe_favor.construct_temple:0 "[petition_liege.GetFaith.HighGodName]께서 증인이 되어주실 것이오."
- petition_liege.0101.bribe_favor.development:0 "[petition_vassal.GetCapitalLocation.GetNameNoTooltip]의 성장할 것이오. 대신 #EMP 그대#!는 내게 빚지는 줄 아시오."
+ petition_liege.0101.bribe_favor.development:0 "[petition_vassal.GetCapitalLocation.GetNameNoTooltip](은)는 성장할 것이오. 대신 #EMP 그대#!는 내게 빚지는 줄 아시오."
  # Repay favor
  petition_liege.0101.repay_favor:0 "이걸로 그대에게 진 빚은 갚은 거요."
  # Bribe factions
@@ -256,6 +256,25 @@
  petition_liege.9999.gregarious:0 "궁정 사람들과 어울리기에 좋은 기회야."
  petition_liege.9999.every_guest_and_courtier:0 "모든 문객과 궁정 신하:"
 
+ petition_liege.9001.t:0 "$petition_liege_header$ 전략 변경"
+ petition_liege.9001.desc:0 "[petition_liege.GetTitledFirstName]에게 [ROOT.Char.Custom( 'GetPetitionType' )|l](을)를 청탁할 순 없게 됐지만, 그래도 [petition_liege.GetHerHis] 환심을 얻으려고 이 먼 [petition_liege.GetCapitalLocation.GetName]까지 오지 않았던가. 기회를 흘려보낼 내가 아니다. [petition_liege.GetTitledFirstName]에게 어떤 요청을 할까..."
+ petition_liege.9001.council_seat:0 "자문회 임명"
+ petition_liege.9001.pay_debt:0 "부채 청산"
+ petition_liege.9001.war_aid:0 "전쟁 지원"
+ petition_liege.9001.vassal_war:0 "동료 봉신과의 평화 협정"
+ petition_liege.9001.faction_war:0 "강력한 파벌 해체"
+ petition_liege.9001.county_control:0 "영지 장악력 회복을 위한 집달관 파견"
+ petition_liege.9001.county_convert:0 "봉역 내 영지 개종을 위한 사제 후원"
+ petition_liege.9001.county_opinion:0 "민중 의견 개선을 위한 왕실의 방문"
+ petition_liege.9001.fortify_border:0 "국경 방비 강화"
+ petition_liege.9001.title_liege:0 "명분 증여"
+ petition_liege.9001.title_vassal:0 "명분 이전"
+ petition_liege.9001.construct_city:0 "봉역 내 신도시 건설을 위한 자금 지원"
+ petition_liege.9001.construct_temple:0 "봉역 내 신사원 건설을 위한 자금 지원"
+ petition_liege.9001.development:0 "봉역 내 몇몇 신하의 복권"
+ petition_liege.9001.fallback:0 "단순 자금 지원"
+ petition_liege.0101.accept.fallback:0 "좋소. 그대에게 자금을 넉넉하게 지원하도록 하지."
+
  petition_liege_block_firing_councillor_effect_tt:0 "[petition_vassal.GetShortUIName|U](이)가 5년 동안 [council|E]에서 방출되지 않게 됨"
 
  ### Modifiers ###
@@ -287,3 +306,5 @@
  petition_liege_title_courtier:0 "궁정 신하"
 
  petition_liege_second_if_tt:0 "#bold [TARGET_CHARACTER.GetTitledFirstName](이)가 요청을 받아들일 경우:#!"
+ 
+ petition_liege_costs_refunded:0 "$petition_liege_decision$ 비용을 돌려받음"

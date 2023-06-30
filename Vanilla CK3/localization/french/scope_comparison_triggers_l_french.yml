@@ -52,6 +52,7 @@
  NOT_CHARACTER_FAITH_EQUAL_FIRST:1 "Vous n’êtes pas de foi [FAITH.GetAdjective]"
  CHARACTER_FAITH_EQUAL_THIRD:0 "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] est de foi [FAITH.GetAdjective]"
  NOT_CHARACTER_FAITH_EQUAL_THIRD:0 "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] n’est pas de foi [FAITH.GetAdjective]"
+ CHARACTER_FAITH_NONE:0 "Est un adepte de la même [faith|El]"
  CHARACTER_RELIGION_EQUAL_FIRST:1 "Vous êtes de religion [RELIGION.GetAdjective]"
  NOT_CHARACTER_RELIGION_EQUAL_FIRST:1 "Vous n’êtes pas de religion [RELIGION.GetAdjective]"
  CHARACTER_RELIGION_EQUAL_THIRD:0 "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] est de religion [RELIGION.GetAdjective]"
@@ -69,6 +70,7 @@
  NOT_CHARACTER_DYNASTY_EQUAL_FIRST:1 "Vous n’êtes pas de la [dynasty|El] [DYNASTY.GetName]"
  CHARACTER_DYNASTY_EQUAL_THIRD:0 "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] est de la [dynasty|El] [DYNASTY.GetName]"
  NOT_CHARACTER_DYNASTY_EQUAL_THIRD:0 "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] n’est pas de la [dynasty|El] [DYNASTY.GetName]"
+ CHARACTER_HOUSE_EQUAL_NONE:0 "Est membre de la même [house|E]"
 
  # Title Attribute Triggers
  LANDED_TITLE_FAITH_EQUAL_THIRD:0 "[TITLE.GetName] est de foi [FAITH.GetAdjective]"
@@ -97,9 +99,18 @@
  NOT_PROVINCE_CULTURE_EQUAL_THIRD:1 "[PROVINCE.GetName] n’est pas de culture [TARGET_CULTURE.GetName]"
  PROVINCE_CULTURE_EQUAL_GLOBAL:1 "Est de culture [TARGET_CULTURE.GetName]"
  NOT_PROVINCE_CULTURE_EQUAL_GLOBAL:1 "N’est pas de culture [TARGET_CULTURE.GetName]"
+ PROVINCE_CAPITAL_EQUAL_GLOBAL:0 "Est la [Concept('realm_capital','capitale')|E] [Select_CString(CHARACTER.IsLocalPlayer,'de votre pays','du pays')][CHARACTER.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')]"
+ NOT_PROVINCE_CAPITAL_EQUAL_GLOBAL:0 "N’est pas la [Concept('realm_capital','capitale')|E] [Select_CString(CHARACTER.IsLocalPlayer,'de votre pays','du pays')][CHARACTER.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')]"
+ PROVINCE_CAPITAL_EQUAL_THIRD:0 "Le [realm_capital] [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUIName] est [PROVINCE.GetBaronyNameExplicitly]"
+ NOT_PROVINCE_CAPITAL_EQUAL_THIRD:0 "Le [realm_capital] [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUIName] n’est pas [PROVINCE.GetBaronyNameExplicitly]"
+ PROVINCE_CAPITAL_EQUAL_FIRST:0 "La [Concept('realm_capital','capitale')|E] de votre pays est [PROVINCE.GetBaronyNameExplicitly]"
+ NOT_PROVINCE_CAPITAL_EQUAL_FIRST:0 "La [Concept('realm_capital','capitale')|E] de votre pays n’est pas [PROVINCE.GetBaronyNameExplicitly]"
 
  # Faith Triggers
  FAITH_RELIGION_EQUAL_THIRD:0 "[FAITH.GetName] est une [faith|El] [RELIGION.GetAdjective]"
  NOT_FAITH_RELIGION_EQUAL_THIRD:0 "[FAITH.GetName] n’est pas une [faith|El] [RELIGION.GetAdjective]"
  FAITH_RELIGION_EQUAL_GLOBAL:0 "Est une [faith|El] [RELIGION.GetAdjective]"
  NOT_FAITH_RELIGION_EQUAL_GLOBAL:0 "N’est pas une [faith|El] [RELIGION.GetAdjective]"
+
+ ACCOLADE_TYPE_EQUAL_GLOBAL:0 "Ce [accolade_type|El] n’est pas valide"
+ ACCOLADE_TYPE_EQUAL_NONE:0 "Ce [accolade_type|El] n’est pas valide"

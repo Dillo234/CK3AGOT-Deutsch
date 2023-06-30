@@ -4,15 +4,15 @@
  do_not_execute_abduct_tooltip:0 "Je ne tente pas l’enlèvement"
 
  abduct_outcome.1001.t:0 "$abduct_event_title$ pendant le trajet"
- abduct_outcome.1001.opening:0 "Mes agents me disent que [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName] envisage de voyager"
- abduct_outcome.1001.arrival:0 "de [departure.GetNameNoTierNoTooltip] à [arrival.GetNameNoTierNoTooltip]."
- abduct_outcome.1001.no_arrival:0 "en passant par [departure.GetNameNoTier]."
+ abduct_outcome.1001.opening:1 "Mes agents me disent que [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName] voyage"
+ abduct_outcome.1001.arrival:1 "de [departure.GetNameNoTooltip] à [arrival.GetNameNoTooltip]."
+ abduct_outcome.1001.no_arrival:1 "en passant par [departure.GetNameNoTooltip]."
  abduct_outcome.1001.ending:0 "\n\nJe vais faire en sorte que des brigands interrompent son petit voyage et s’assurent qu’[target.Custom('FR_IlElle')] arrive chez moi."
  abduct_outcome.1001.a:0 "[target.Custom('FR_IlElle')|U] sera bientôt à ma merci !"
  abduct_outcome.1001.b:0 "Non, le risque est trop grand."
 
  abduct_outcome.1002.t:0 "$abduct_event_title$ sur le chemin"
- abduct_outcome.1002.desc:1 "Une occasion parfaite s’est présentée ! [target.Custom('FR_le_Char_Pi')|U][target.GetTitledFirstName] voyagera du [target.Custom('ResidenceBuilding')] à la ville voisine sans le moindre garde.\n\n[target.GetSheHe|U] doit se croire en sécurité..."
+ abduct_outcome.1002.desc:2 "Une occasion parfaite s’est présentée ! [target.Custom('FR_le_Char_Pi')|U][target.GetTitledFirstName] voyage de [departure.GetNameNoTooltip] à [arrival.GetNameNoTooltip] sans le moindre garde.\n\n[target.Custom('FR_IlElle')|U] doit se croire en sécurité..."
  abduct_outcome.1002.a:0 "C’est le moment idéal pour frapper !"
 
  abduct_outcome.1003.t:0 "$abduct_event_title$ invités indésirables"

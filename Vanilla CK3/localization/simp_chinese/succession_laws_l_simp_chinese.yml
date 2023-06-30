@@ -14,7 +14,7 @@
  single_heir_succession_law:4 "长嗣继承制"
  single_heir_succession_law_subname:0 "最年长的孩子继承"
  single_heir_succession_law_effects:1 "\n#V 在$single_heir_succession_law$的[succession]中，你最年长的孩子会继承你所有的[titles]。#!\n\n#weak 在继承中，上任统治者的所有[titles|e]都会被交给其[player_heir|E]，即其最年长的[eligible_child|E]。其他更年幼的孩子什么也得不到。\n#!"
- single_heir_succession_law_youngest:4 "幼嗣继承制"
+ single_heir_succession_law_youngest:4 "幼子继承制"
  single_heir_succession_law_youngest_subname:0 "最年幼的孩子继承"
  single_heir_succession_law_youngest_effects:1 "\n#V 在$single_heir_succession_law_youngest$的[succession]中，你最年幼的孩子会继承你所有的[titles]。#!\n\n#weak 在继承中，上任统治者的所有[titles|e]都会被交给其[player_heir|E]，即其最年幼的[eligible_child|E]。其他更年长的孩子什么也得不到。#!\n"
  single_heir_dynasty_house:1 "家族年长者继承制"
@@ -83,7 +83,7 @@
  princely_elective_electors_tooltip:1 "除[SuccessionElectionWindow.GetTitle.GetHolder.GetTitleAsNameNoTooltip]之外，下列[titles|E]的持有者被视为[SuccessionElectionWindow.GetSuccessionLaw.GetName]下的[electors|E]：[SuccessionElectionWindow.GetTitle.Custom('GetPrincelyElector1')]、[SuccessionElectionWindow.GetTitle.Custom('GetPrincelyElector2')]、[SuccessionElectionWindow.GetTitle.Custom('GetPrincelyElector3')]、[SuccessionElectionWindow.GetTitle.Custom('GetPrincelyElector4')]、[SuccessionElectionWindow.GetTitle.Custom('GetPrincelyElector5')]、[SuccessionElectionWindow.GetTitle.Custom('GetPrincelyElector6')]、[SuccessionElectionWindow.GetTitle.Custom('GetPrincelyElector7')]"
 
  gaelic_elective_candidates:0 "宗族成员"
- gaelic_elective_candidates_tooltip:1 "当前统治者[dynasty|E]的所有合法成员，且不在神权制或共和制的继承顺位中，是凯尔特选举制下的有效候选者。候选人的子女不能被提名。"
+ gaelic_elective_candidates_tooltip:1 "当前统治者[dynasty|E]中，不在神权或共和制继承顺位内的所有合法成员，是凯尔特选举制下的有效候选人。候选人的子女不能被提名。"
  gaelic_elective_electors:0 "$feudal_elective_electors$"
  gaelic_elective_electors_tooltip:0 "要想成为凯尔特选举制下的有效[elector|E]，封臣必须符合以下所有条件：\n$EFFECT_LIST_BULLET$是该头衔的[de_jure|E]封臣\n$EFFECT_LIST_BULLET$只比该头衔低一到两个[ranks|E]"
 

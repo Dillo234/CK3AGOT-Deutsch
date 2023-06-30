@@ -1,7 +1,7 @@
 ﻿l_russian:
  court_jester_prefix:0 "Придворный шут: "
  jester.100.t:0 "$court_jester_prefix$Мой соперник — идиот, пусть оденется в помет"
- jester.100.desc:0 "Еще один напряженный день... И вот я сижу в надежде продлить миг тишины и спокойствия, как вдруг двери моих покоев распахиваются.\n\nЭто же [Select_CString(jester.IsFemale, 'моя соперница' 'мой соперник' )], а ныне — шут [jester.GetTitledFirstName]. [jester.GetHerHis|U] [jester.Custom('GetClothingArticle')] в экскрементах, а в руках — [jester.Custom('GetAccessory')|l] самой крикливой расцветки! Подумать только, теперь снаружи [jester.GetSheHe] выглядит так же дерьмово, как внутри — уж я-то знаю эту мерзкую душонку!\n\n«[ROOT.Char.Custom('GetExpensiveDrink_Singular')]... мой #EMP сюзерен#!» — хмуро цедит [jester.GetSheHe], и лицо [jester.GetHerHis] дергается.\n\nЧто ж, иногда жизнь, все-таки, хороша."
+ jester.100.desc:0 "Еще один напряженный день... И вот я сижу в надежде продлить миг тишины и спокойствия, как вдруг двери моих покоев распахиваются.\n\nЭто же [Select_CString(jester.IsFemale, 'моя соперница', 'мой соперник' )], а ныне — шут [jester.GetTitledFirstName]. [jester.GetHerHis|U] [jester.Custom('GetClothingArticle')] в экскрементах, а в руках — [jester.Custom('GetAccessory')|l] самой крикливой расцветки! Подумать только, теперь снаружи [jester.GetSheHe] выглядит так же дерьмово, как внутри — уж я-то знаю эту мерзкую душонку!\n\n«[ROOT.Char.Custom('GetExpensiveDrink_Singular')]... мой #EMP сюзерен#!» — хмуро цедит [jester.GetSheHe], и лицо [jester.GetHerHis] дергается.\n\nЧто ж, иногда жизнь, все-таки, хороша."
  jester.100.a:0 "Пью за тебя, [jester.GetFirstNameNoTooltip]!"
  covered_in_feces:0 "В дерьме"
  covered_in_feces_desc:1 "Этот персонаж с головы до ног покрыт экскрементами."

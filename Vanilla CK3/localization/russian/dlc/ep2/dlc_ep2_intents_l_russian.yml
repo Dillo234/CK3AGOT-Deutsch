@@ -1,0 +1,38 @@
+﻿l_russian:
+ # Intents
+ reduce_stress_intent:1 "Отдых"
+
+ reduce_stress_intent_desc:0 "Вы хотите сбросить [stress|El] и ищете для этого любые возможности."
+
+ murder_attendee_intent:0 "Убийство"
+ murder_attendee_intent_desc:0 "Вы твердо намерены оборвать чью-то жизнь. Вам часто будут попадаться возможности для убийства и особые варианты действий."
+
+ woo_attendee_intent:0 "Соблазнение"
+ woo_attendee_intent_desc:0 "Вы твердо намерены кого-то соблазнить. Вам часто будут попадаться особые события и возможности утолить желание."
+
+ befriend_attendee_intent:0 "Сближение"
+ befriend_attendee_intent_desc:0 "Вы твердо намерены заслужить чье-то расположение. Вам часто будут попадаться события и варианты действий, помогающие продемонстрировать дружелюбие."
+
+ lechery_intent:0 "Блуд"
+ lechery_intent_desc:0 "Вы твердо намерены поддаться плотским страстям и наладить активные половые контакты. Персонажи со свойством «[GetTrait('lustful').GetName( GetNullCharacter )]» часто будут терять [stress|El]."
+
+ altruism_intent_header:0 "Благотворительность:"
+ altruism_intent:0 "Благотворительность"
+ altruism_intent_desc:1 "Вы твердо намерены помогать другим, не упуская ни единой возможности. Из-за этого [Concept( 'county_opinion', 'народное мнение' )|E] о вас, а также ваше [Concept( 'piety', 'благочестие' )|E] нередко будут расти. Персонажи с чертами «[GetTrait('zealous').GetName( GetNullCharacter )|U]», «[GetTrait('generous').GetName( GetNullCharacter )]» и «[GetTrait('improvident').GetName( GetNullCharacter )]» могут потерять [Concept( 'stress', 'стресс' )|E]."
+
+ justice_intent:0 "Справедливость"
+ justice_intent_desc:0 "Вы твердо намерены воздавать по заслугам даже самым мелким преступникам в вашей державе. Благодаря этому будет усиливаться [control|El], а персонажи со свойством «[GetTrait('just').GetName( GetNullCharacter )]» могут терять [stress|El]."
+ 
+ recruit_knights_intent:0 "Вербовка"
+ recruit_knights_intent_desc:0 "Вы стремитесь к тому, чтобы ваш двор представляли новые, могущественные [knights|El]. Вам часто будут попадаться возможности завербовать таковых."
+ # TOOLTIPS
+ intent_murder_success_tt:1 "Вы исполнили свое [Concept( 'intent', 'намерение' )|E] убить персонажа [THIS.Char.GetIntentTarget.GetShortUIName]"
+ intent_murder_dead_tt:1 "[THIS.Char.GetIntentTarget.GetShortUIName], цель вашего [Concept( 'intent', 'намерения' )|E] «Убийство», умирает"
+ intent_murder_fail_tt:1 "[THIS.Char.GetIntentTarget.GetShortUIName], цель вашего [Concept( 'intent', 'намерения' )|E] «Убийство», избегает смерти"
+ intent_woo_success_tt:1 "Вы исполнили свое [Concept( 'intent', 'намерение' )|E] соблазнить персонажа [THIS.Char.GetIntentTarget.GetShortUIName]"
+ intent_woo_potential_tt:1 "Вы заинтересовали персонажа [THIS.Char.GetIntentTarget.GetShortUIName], цель вашего [Concept( 'intent', 'намерения' )|E] «Соблазнение»"
+ intent_woo_fail_tt:1 "[THIS.Char.GetIntentTarget.GetShortUIName], цель вашего [Concept( 'intent', 'намерения' )|E] «Соблазнение», не поддается"
+ intent_befriend_success_tt:1 "Вы и [THIS.Char.GetIntentTarget.GetShortUIName], цель вашего [Concept( 'intent', 'намерения' )|E] «Сближение», стали ближе"
+ intent_befriend_potential_tt:1 "Вы и [THIS.Char.GetIntentTarget.GetShortUIName], цель вашего [Concept( 'intent', 'намерения' )|E] «Сближение», провели немного времени вместе"
+ intent_befriend_fail_tt:1 "Вы и [THIS.Char.GetIntentTarget.GetShortUIName], цель вашего [Concept( 'intent', 'намерения' )|E] «Сближение», не стали ближе"
+ activity_intent_complete_toast:1 "Намерение достигнуто"

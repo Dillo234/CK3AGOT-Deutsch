@@ -6,9 +6,9 @@
  struggle_parameter_unlocks_fabricate_hooks_for_all:2 "Débloque le [scheme|El] visant à [GetScheme('fabricate_hook').GetActionName|l] contre des [rulers|El] [Concept('struggle_involved','impliqués')|E]"
  struggle_parameter_unlocks_claim_throne_for_all:2 "Débloque le [scheme|El] visant à [GetScheme('claim_throne').GetActionName|l] contre des [rulers|El] [Concept('struggle_involved','impliqués')|E]"
  struggle_parameter_unlocks_incite_revolts_interaction:2 "Débloque l’[interaction|El] visant à [incite_revolts_interaction|El] contre des [rulers|El] [Concept('struggle_involved','impliqués')|E]"
- struggle_parameter_unlocks_forced_vassalization_casus_belli:2 "Débloque le [vassalize_casus_belli|El]" # [LocEditor:AwaitingBatchUpdate]
+ struggle_parameter_unlocks_forced_vassalization_casus_belli:3 "Débloque le [vassalize_casus_belli|El]"
  struggle_parameter_powerful_vassal_can_claim_liege_titles:2 "Débloque l’[interaction|El] $vassal_claim_liege_title_interaction$ pour les [powerful_vassals|El]"
- struggle_parameter_unlocks_claim_throne_for_powerful_vassals:2 "Débloque [GetScheme('claim_throne').GetTypeName] [scheme|El] pour les [powerful_vassal|El] contre les [rulers|El] [Concept('struggle_involved','impliqués')|E]"
+ struggle_parameter_unlocks_claim_throne_for_powerful_vassals:2 "Débloque le [scheme|El] visant à [GetScheme('claim_throne').GetActionName|l] pour les [powerful_vassals|El] contre les [rulers|El] [Concept('struggle_involved','impliqués')|E]"
  struggle_parameter_holy_order_can_be_created_by_dukes:1 "Permet la création d’[holy_order|El] pour les ducs"
 
  struggle_parameter_piety_from_new_alliance:1 "Former une [alliance|El] avec un autre dirigeant [struggle_involved|El] fournit de la [piety|El][piety_i]"
@@ -36,7 +36,7 @@
  struggle_parameter_unlocks_golden_age_jewish_science_decision:1 "Débloque la [decision|El] de [golden_age_jewish_science_in_iberia_decision|El]"
  struggle_parameter_unlocks_build_pilgrim_roads_decision:1 "Débloque la [decision|El] de [build_holy_pilgrim_roads_decision|El]"
  struggle_parameter_struggle_cheaper_buy_truce:1 "L’[interaction|El] [purchase_truce_interaction|El] coûte moins d’[gold|El][gold_i]"
- struggle_parameter_struggle_prestige_from_feast:1 "L’[activity|El] [feast|El] fournit plus de [prestige|El][prestige_i]"
+ struggle_parameter_struggle_prestige_from_feast:1 "L’[activity|El] [GetActivityType('activity_feast').GetName|l] fournit plus de [prestige|El][prestige_i]"
  struggle_parameter_struggle_agents_less_likely_to_join_schemes:1 "Acceptation d’[agent|El] : #N -25#!"
  struggle_parameter_unlocks_sell_minor_title_for_kings_and_higher:1 "Débloque la [sell_titles_decision|El] pour les rois et les empereurs"
  struggle_parameter_invasion_conquest_war_cannot_be_declared:0 "Les [casus_bellis|El] d’invasion et de conquête ne sont pas disponibles"

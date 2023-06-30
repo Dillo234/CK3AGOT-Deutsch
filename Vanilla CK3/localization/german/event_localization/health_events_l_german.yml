@@ -51,6 +51,7 @@
  health.1001.desc:0 "Ob [ROOT.Char.GetTitleTierName] oder Bauer, hochwohlgeboren oder gemein: All das spielt keine Rolle. Am Ende sind wir doch alle sterblich. Daran wurde ich erinnert, als ich in den frühen Morgenstunden hustend erwachte und mir ein dumpfer Schmerz in Kopf und Kehle pochte."
  health.1001.court_physician.desc:0 "\n\n„Ihr scheint ein wenig unpässlich zu sein, mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]. Ich kenne eine ganze Reihe von passenden Mittelchen.“"
  health.1001.a:0 "Ich will einfach nur im Bett bleiben …"
+ health.1001.b:0 "Ich muss #EMP sofort#! nach Hause zurückkehren!"
 
  health.1002.t:1 "[SCOPE.Custom('EventTitleDisease')]: Stechend wie eine Klinge"
  health.1002.desc:0 "Zu atmen ist eine schlichtes und doch wundervolles Vergnügen – ein kleines Wunder, das man tagtäglich kaum bedenkt. Doch während ich darum ringe ruhig zu atmen und auf jeden Hustenanfall stechender Schmerz in der Brust folgt, bin ich mir dieses Zustands allzu bewusst."
@@ -109,9 +110,15 @@
  health.1011.court_physician.desc:0 "\n\n„Mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord], ich werde alles in meiner Macht Stehende tun, aber Ihr solltet Euch besser auf das Schlimmste vorbereiten …“"
  health.1011.a:1 "Oh, [ROOT.Char.GetFaith.HealthGodName]! Errette mich aus diesem Alptraum!"
 
+ # Travel loc if you get ill on the road
+ health.travel.t:0 "[SCOPE.Custom('EventTitleDisease')]: Das Ende einer Reise?"
+ health.travel.option.home:0 "Die beste Pflege bekomme ich daheim."
+ health.travel.option.home.flavor:0 "Ihr gebt Eure [ROOT.Char.GetInvolvedActivity.GetNameNoTooltip] auf und beginnt die Heimreise"
+ health.travel.option.continue:0 "Wir müssen weitermachen."
+
  # Recover from diseases, by Mathilda Bjarnehed
  health.1101.t:1 "[SCOPE.Custom('EventTitleDisease')]: Mein altes Ich"
- health.1101.desc:0 "Als ich heute Morgen erwachte und die Sonnenstrahlen sah, die durch mein Fenster hereinfielen, wurde mir erst nach einem kurzen Augenblick bewusst, dass ich das erste Mal seit Wochen ruhig geschlafen hatte. Ich war nicht einmal hustend aufgewacht!"
+ health.1101.desc:1 "Als ich heute Morgen erwachte und die ersten Sonnenstrahlen sah, wurde mir nach einem kurzen Augenblick bewusst, dass ich das erste Mal seit Wochen ruhig geschlafen hatte. Ich war nicht ein einziges Mal hustend aufgewacht!"
  health.1101.a:0 "Ich bin froh, wieder wohlauf zu sein."
 
  health.1102.t:1 "[SCOPE.Custom('EventTitleDisease')]: Meine Kraft kehrt zurück"
@@ -254,11 +261,15 @@
  health.3001.already_sick.desc:0 "Endlich haben meine Diener einige Leute gefunden, die sich als Hofarzt eignen würden. Trotzdem fürchte ich, dass ich nicht allzu wählerisch sein kann."
  health.3001.a:0 "Anscheinend ist [high_skill_option.GetFirstNameNoTooltip] recht erfahren."
  health.3001.a.tt:1 "Ein [GetCourtPositionType('court_physician_court_position').GetName()] hat auch ein monatliches Salär von [gold_i][SCOPE.ScriptValue('court_position_physician_salary')]"
+ health.3001.a.aptitude:0 "Die [aptitude|E] von [high_skill_option.GetUIName] ist [high_skill_option.GetCourtPositionAptitude(GetCourtPositionType('court_physician_court_position'))]"
  health.3001.b:0 "[low_skill_option.GetFirstNameNoTooltip] wirkt zumindest eifrig."
+ health.3001.b.aptitude:0 "Die [aptitude|E] von [low_skill_option.GetUIName] ist [low_skill_option.GetCourtPositionAptitude(GetCourtPositionType('court_physician_court_position'))]"
  health.3001.c:0 "[mystic_option.GetFirstNameNoTooltip] behauptet, in „ungewöhnlichen Heilmethoden“ unterwiesen worden zu sein."
+ health.3001.c.aptitude:0 "Die [aptitude|E] von [mystic_option.GetUIName] ist [mystic_option.GetCourtPositionAptitude(GetCourtPositionType('court_physician_court_position'))]"
  health.3001.d.two:0 "Beeindrucken kann mich keiner der beiden."
  health.3001.d.more:0 "Beeindrucken kann mich keiner von ihnen."
  health.3001.e:0 "[excellent_skill_option.GetFirstNameNoTooltip] ist in Gelehrtenkreisen weithin bekannt."
+ health.3001.e.aptitude:0 "Die [aptitude|E] von [excellent_skill_option.GetUIName] ist [excellent_skill_option.GetCourtPositionAptitude(GetCourtPositionType('court_physician_court_position'))]"
  health.3001.d.tt:1 "Ich berufe ja nicht irgendwen zum [GetCourtPositionType('court_physician_court_position').GetName()]"
 
  #Disease treatment, by Mathilda Bjarnehed & Milla Isaksson
@@ -274,7 +285,7 @@
  health.3101.d:0 "Lasst mich in Ruhe!"
  health.3101.e:0 "Ruft einen Arzt! Sofort!"
  health.3101.e_sick_physician:0 "Ich brauche einen neuen Arzt!"
- health.3101.e.tt:1 "Meine Dienstboten werden nach möglichen [GetCourtPositionType('court_physician_court_position').Custom('')] suchen"
+ health.3101.e.tt:1 "Meine Dienstboten werden nach möglichen [GetCourtPositionType('court_physician_court_position').GetName()] suchen"
  health.3101.f:0 "O [ROOT.Char.GetFaith.HighGodName], werde ich so sterben …?"
 
  safe_diseaste_treatment.tt:0 "Eine sichere Behandlung könnte die Symptome zeitweise lindern und weist kaum Risiken auf"

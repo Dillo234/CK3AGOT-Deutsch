@@ -1,4 +1,12 @@
 ﻿l_korean:
+
+ ### PHASES
+ playdate_phase:0 "만남"
+
+ ### OPTIONS
+
+ ### INTENTS
+
  child_return_from_playdate_title:0 "자녀의 귀환"
  child_return_from_playdate_desc:0 "[child_scope.GetShortUIName](이)가 [host.GetShortUINamePossessive] 궁정에서 또래를 만나고 돌아옴"
 
@@ -20,7 +28,7 @@
  playdate.1002.a:0 "물론 자식을 보내야지."
  playdate.1002.b:0 "거절해야겠어."
 
- playdate.2001.t:0 "$playdate_header$ 회합"
+ playdate.2001.t:1 "소집"
  playdate.2001.desc_opening:0 "모두가 모였다!\n\n남녀를 막론하고 어린 영주들이 안내를 따라 방에 들어오자 나의 마음은 점점 더 기대로 벅차올랐다."
  playdate.2001.desc_guest_of_interest_1_2_3:0 "[guest_of_interest_1.Custom2('MyCharacterIntroduction', ROOT.Char)](와)과 [guest_of_interest_2.Custom2('MyCharacterIntroduction', ROOT.Char)] 둘 다 참석해서 정말 기쁠 따름이야. 아, [guest_of_interest_3.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)](은)는 말할 것도 없지!"
  playdate.2001.desc_guest_of_interest_1_and_2:0 "[guest_of_interest_1.Custom2('MyCharacterIntroduction', ROOT.Char)](와)과 [guest_of_interest_2.Custom2('MyCharacterIntroduction', ROOT.Char)] 둘 다 참석해서 정말 기쁠 따름이야!"
@@ -34,9 +42,9 @@
  playdate.2003.desc:0 "믿기지 않는다. 초대장을 보내며 준비까지 했는데, 회합에 참석한 손님이 단 한 명도 없을 줄이야.\n\n뭐, 어쩌겠는가. 이 달콤한 음식들을 나 혼자서 즐기면 그만이다. 장난감들도. 그리고... 그리고... 대체 왜 아무도 안 온 거야?"
  playdate.2003.a:0 "왜 아무도 안 온 거지?"
  
- playdate.2501.t:0 "$playdate_header$ 따스한 환영 인사"
- playdate.2501.likes_host:0 "모두가 대회당에 모이자 [activity.GetOwner.GetTitledFirstName](이)가 또래 회합에 참석한 우리 모두를 반겼다!"
- playdate.2501.dislikes_host:0 "모두가 대회당에 모이자 [activity.GetOwner.Custom('InsultAdjective')] [activity.GetOwner.GetTitledFirstName](이)가 또래 회합에 참석한 우리 모두를 반겼다."
+ playdate.2501.t:1 "따스한 환영 인사"
+ playdate.2501.likes_host:1 "대회당에 모든 문객이 모이자 [host.GetTitledFirstNameNoTooltip](이)가 또래 회합에 참석한 우리 모두를 환영해 주었다!"
+ playdate.2501.dislikes_host:1 "대회당에 모든 문객이 모이자 [host.Custom('InsultAdjective')] [host.GetTitledFirstNameNoTooltip](이)가 또래 회합에 참석한 우리 모두를 환영해 주었다."
  playdate.2501.a:0 "앞으로가 기대되는걸!"
  playdate.2501.a_dislike:0 "빨리 끝나면 좋겠군."
 
@@ -50,19 +58,19 @@
 
  playdate.0022.desc:0 "[host.Custom2('MyCharacterIntroduction', ROOT.Char)|U](이)가 수감되면서, 회합은 취소되고 말았다. 이렇게 불행할 데가 있나!"
 
- playdate.3001.t:0 "$playdate_header$ 거친 방식"
+ playdate.3001.t:1 "거친 싸움"
  playdate.3001.desc:0 "[guest.Custom2('MyCharacterIntroduction', ROOT.Char)]하고 농노 [ROOT.Char.Custom('RandomGirlBoy')](이)가 그냥 싸우는 척만 하는 줄 알았는데, 갑자기 흙바닥에 피가 흩뿌려졌다.\n\n[guest.GetFirstNameNoTooltip](은)는 바닥에 쓰러져 신음을 흘렸고, 농노는 그 위에 서서 다시 공격할 자세를 취하고 있었다."
  playdate.3001.a:0 "내가 [guest.GetHerHim]를 구해내리라!"
  playdate.3001.a_injured:0 "부상당함"
  playdate.3001.b:0 ""누구, 누가 좀 도와줘!""
  playdate.3001.c:0 "재밌겠는데? 어디 한번 해보자고!"
 
- playdate.3002.t:0 "$playdate_header$ 비밀"
+ playdate.3002.t:1 "비밀"
  playdate.3002.desc:0 "[secret_holder.Custom2('MyCharacterIntroduction', ROOT.Char)|U](이)가 뭔가 숨기는 게 있는 것은 분명하다.\n\n하지만 [secret_holder.GetSheHe]가 내게 비밀을 털어놓으려는 순간, [close_participant.Custom2('MyCharacterIntroduction', ROOT.Char)](이)가 우리에게 와서는 체스를 두자며 고집을 부렸다."
  playdate.3002.a:0 "좋소. 멍청한 비밀 따위 알 게 뭐람."
  playdate.3002.b:0 "조용히 해. 난 비밀을 알아야겠으니까!"
 
- playdate.3003.t:0 "$playdate_header$ [ROOT.Char.Custom('CatStoryName')]"
+ playdate.3003.t:1 "[ROOT.Char.Custom('CatStoryName')]"
  playdate.3003.desc_opening:0 "고양이 [ROOT.Char.Custom('CatStoryName')](을)를 데려왔다. 우리 고양이가 얼마나 멋진지 모두에게 보여주겠어.\n\n"
  playdate.3003.desc_bonding_cat_opening:0 ""참 예쁘기도 하지! 우리 고양이도 보여줄까?""
  playdate.3003.desc_bonding_cat:0 "[guest.Custom2('MyCharacterIntroduction', ROOT.Char)|U](이)가 내게 [guest.Custom('CatFurColor')] 고양이를 들이밀었다. "이름은 [guest.Custom('CatStoryName')](이)라고 해!""
@@ -73,14 +81,14 @@
  playdate.3003.b:0 "아, 별말씀을! 이리 온, [guest.Custom('DogStoryName')]!"
  playdate.3003.c:0 "으, 순 벼룩 덩어리 아닌가. 내 고양이에 비견될 바가 아니지!"
 
- playdate.3004.t:0 "$playdate_header$ [ROOT.Char.Custom('DogStoryName')]"
+ playdate.3004.t:1 "[ROOT.Char.Custom('DogStoryName')]"
  playdate.3004.desc_opening:0 "강아지 [ROOT.Char.Custom('DogStoryName')](을)를 데려왔다. 우리 강아지가 얼마나 멋진지 모두에게 보여주겠어.\n\n"
  playdate.3004.desc_bonding_cat_opening:0 ""참 예쁘기도 하지! 우리 고양이도 보여줄까?""
  playdate.3004.desc_bonding_dog_opening:0 ""참 예쁘기도 하지! 우리 강아지도 보여줄까?""
  playdate.3004.b:0 "아, 별말씀을! 이리 온, [guest.Custom('CatStoryName')]!"
  playdate.3004.c:0 "으, 순 벼룩 덩어리 아닌가. 내 강아지에 비견될 바가 아니지!"
 
- playdate.3005.t:0 "$playdate_header$ 비밀 "
+ playdate.3005.t:1 "비밀 "
  playdate.3005.desc:0 "궁정에서의 삶과 소문에 대해 [guest.Custom2('MyCharacterIntroduction', ROOT.Char)](와)과 대화를 나누던 차였다.\n\n"듣기로는 [secret_owner.GetTitledFirstName](이)가 [secret.Custom('SecretDescriptionThirdPerson')]..."\n\n눈치를 챘을 땐 이미 늦은 뒤였다. [guest.GetFirstNameNoTooltip](이)가 전부 들어버린 것이다."
  playdate.3005.a:0 "아... 이런."
  playdate.3005.b:0 "내가 한 말을 전부 잊어줘! 뭐든지 할게!"
@@ -89,19 +97,19 @@
  playdate.3005.d.success:0 "[guest.GetFirstNameNoTooltip](이)가 함구하기로 약속함"
  playdate.3005.d.failure:0 "[guest.GetFirstNameNoTooltip](은)는 당신을 두려워하지 않음"
 
- playdate.3006.t:0 "$playdate_header$ 독서 친구"
+ playdate.3006.t:1 "독서 친구"
  playdate.3006.desc:0 "여느 때와 다름 없이 짧은 책을 한 권 가져왔다. 자리에 앉아 몇 페이지를 넘겼을 무렵, [fellow_nerd.Custom2('MyCharacterIntroduction', ROOT.Char)](이)가 나를 찾아왔다.\n\n"앗, 그거 #EMP [SCOPE.Custom('RandomInformativeTextName')|U]#! 아니야? 얼마 전에 읽었어. 산문에 대한 감상은 어때?""
  playdate.3006.a:0 "좋은 토론이 되겠는걸!"
  playdate.3006.b:0 "저리 좀 가지. 독서 중이잖나."
 
- playdate.3007.t:0 "$playdate_header$ 등반"
+ playdate.3007.t:1 "등반"
  playdate.3007.desc:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U](이)가 주변에서 가장 높은 [ROOT.Char.Custom('ObjectToClimb')]에 올라가서는, 나보고 따라오라며 열정적으로 손짓해댔다.\n\n[ROOT.Char.Custom('ObjectToClimb')](을)를 타고 오르는 건 처음이 아니지만, 그래도 꽤 높아 보이는데..."
  playdate.3007.a:0 "그래도 뒤로 뺄 순 없지!"
  playdate.3007.a.success:0 "등반에 성공함"
  playdate.3007.a.failure:0 "끔찍하게 떨어짐"
  playdate.3007.b:0 "아니, 그냥 여기 밑에 있을래."
 
- playdate.3008.t:0 "$playdate_header$ 수영 시간"
+ playdate.3008.t:1 "수영"
  playdate.3008.desc:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U](이)가 곧장 [ROOT.Char.Custom('IndefiniteBodyOfWater')](으)로 달려가더니 한 치의 망설임도 없이 뛰어들었다.\n\n시작은 어디까지나 유쾌한 물장구였지만, 이내 열기가 붙더니 [participant.GetSheHe]가 갑작스럽게 수면 아래로 모습을 감추었다. 잠시 후 난 깨달았다. 도와주지 않으면 [participant.GetSheHe]가 다시 올라오지 않을 거라는 걸."
  playdate.3008.a:0 "기다려, 내가 갈게!"
  playdate.3008.a.success:0 "[participant.GetFirstNameNoTooltip] 구출 성공"
@@ -112,7 +120,7 @@
  playdate.3008.b.failure:0 "아무도 구해주러 오지 않음"
  playdate.3008.c:0 "이 녀석, 집에 갔나 보네..."
 
- playdate.3009.t:0 "$playdate_header$ 눈 오는 날"
+ playdate.3009.t:1 "눈 오는 날"
  playdate.3009.desc_two:0 "나는 양손에 눈을 잔뜩 쥐고 [participant.Custom2('MyCharacterIntroduction', ROOT.Char)](와)과 [to_blame.Custom2('MyCharacterIntroduction', ROOT.Char)] 뒤로 은근슬쩍 다가갔다. 그런 다음 [participant.GetFirstNameNoTooltip](이)가 고개를 돌리려는 순간 바로 달려들었다!"
  playdate.3009.desc_opening:0 "나는 양손에 눈을 잔뜩 쥐고 [participant.Custom2('MyCharacterIntroduction', ROOT.Char)] 뒤로 은근슬쩍 다가갔다. 그런 다음 [participant.GetSheHe]가 고개를 돌리려는 순간 바로 달려들었다!"
  playdate.3009.desc:0 "\n\n[participant.GetSheHe|U]는 비명을 지르는가 싶더니 곧장 반격에 나섰다. 얼마 안 가 나는 도망치고 있었고, [participant.GetSheHe]는 양손에 엄청나게 큰 눈 뭉치를 들고는 맹렬하게 쫓아오고 있었다!"
@@ -124,8 +132,8 @@
  playdate.3009.c.success:0 "[participant.GetFirstNameNoTooltip](이)가 당신을 믿음"
  playdate.3009.c.failure:0 "[participant.GetSheHe|U]가 당신의 거짓말을 알아차림"
 
- playdate.3010.t:0 "$playdate_header$ 장날"
- playdate.3010.desc:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U](와)과 나는 교역이 귀족으로서 갖춰야 할 중요한 소양임을 인정하고 [ROOT.Char.GetCurrentActivity.GetLocation.GetName]의 지역 시장을 방문하기로 뜻을 모았다.\n\n돈으로 쓸 만한 것이라곤 자갈 몇 개가 전부지만, 그래도 #EMP 엄청나게#! 반짝이니 괜찮겠지!"
+ playdate.3010.t:1 "장날"
+ playdate.3010.desc:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U](와)과 나는 상업이 귀족이 익혀야 할 중요한 소양이라는 데 의견을 모았다. 그래서 [ROOT.Char.GetCurrentLocation.GetName]에 있는 시장을 방문하기로 했다.\n\n화폐로 조약돌을 쓴다는데, 다른 건 몰라도 #EMP 확실히#! 반짝거린다!"
  playdate.3010.a:0 "엣헴. 내 물품을 사러 왔소만."
  playdate.3010.a.success:0 "상인 설득에 성공하여 거래를 함"
  playdate.3010.a.failure:0 "상인에게 쫓겨남"
@@ -133,14 +141,14 @@
  playdate.3010.c:0 "우리만의 가판대를 만들어 보자!"
  playdate.3010.c.tt:0 "몇몇 상인이 비위를 맞춰 주며 나뭇잎으로 당신의 자갈을 "구매"함"
 
- playdate.3011.t:0 "$playdate_header$ 소꿉놀이"
+ playdate.3011.t:1 "소꿉놀이"
  playdate.3011.desc:1 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U](이)가 웬 천 더미를 한 아름 안고 내게 다가왔다. [participant.GetSheHe]가 바닥에 꾸러미를 내려놓자 그 천 더미가 실은 어른들이 입는 옷가지라는 걸 깨달았다!\n\n"같이 소꿉놀이하자!""
  playdate.3011.a:0 "우리가 부모 역할 아니면 안 해!"
  playdate.3011.b:0 "좋지. 강아지 역할은 [disliked_participant.GetFirstNameNoTooltip](이)가 해야 해!"
  playdate.3011.c:0 "바보 같아. 그냥 체스나 두자."
  playdate.3011.c.tt:1 "너는 [THIS.Char.Custom('education_focus_child')]에 관한 공부를 더 해야 해."
 
- playdate.3012.t:0 "$playdate_header$ 용감한 $knight_culture_player_plural_no_tooltip$"
+ playdate.3012.t:1 "용감한 $knight_culture_player_plural_no_tooltip$"
  playdate.3012.desc_knight:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U](와)과 함께 뜰에서 훈련 중인 $knight_culture_player_plural_no_tooltip_lowercase$(을)를 지켜보고 있을 때였다. [knight.Custom2('MyCharacterIntroduction', ROOT.Char)](이)가 미소를 머금고 우리에게 다가온 것이다."
  playdate.3012.desc_no_knight:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U](와)과 함께 훈련 중인 농노들을 지켜보고 있을 때였다. 그중 한 명이 미소를 머금고 우리에게 다가온 것이다."
  playdate.3012.desc:0 "\n\n"이렇게 해보는 건 어떻겠습니까? 한번 기초기를 배워보시렵니까?""
@@ -150,7 +158,7 @@
  playdate.3012.a.failure:0 "머리를 매우 #EMP 심하게#! 얻어맞음"
  playdate.3012.b:0 "그냥 구경이나 하고 말지."
 
- playdate.3013.t:0 "$playdate_header$ 현명한 [witch.GetWomanMan|U]"
+ playdate.3013.t:1 "현자"
  playdate.3013.desc:0 "한창 숲에서 놀던 중, 불현듯 나 혼자만 남았음을 깨달았다. 분명 뒤에 다른 친구들이 있었는데?\n\n절대 #EMP 겁먹어서#! 그런 것은 아니고, 사람들이 나를 찾을 수 있도록 비명을 지르기 시작하려던 무렵, 검은색 외투를 걸친 [witch.Custom2('MyCharacterIntroduction', ROOT.Char)](을)를 만났다. [witch.GetSheHe|U]는 쪼그리고 앉아 특이하게 생긴 식물을 유심히 살펴보고 있었다. 보아하니 바닥에 펼쳐 놓은 커다란 검은 고서에 묘사된 모습과 비교하는 것 같았다.\n\n"반갑습니다, 어린 영주시여. 지식의 부름에 이끌려 소신을 찾아오셨는지요?""
  playdate.3013.a:0 "손에 들고 있는 식물에 대해 알고 싶은데."
  playdate.3013.a.success:0 "약초와 식물에 관해 많은 것을 배움"
@@ -158,9 +166,9 @@
  playdate.3013.b:0 "좋지. 모든 걸 가르쳐줘!"
  playdate.3013.c:0 "마... 마녀로군! 악당이잖아."
 
- playdate.3014.t:0 "$playdate_header$ [priest.GetCouncilTitle|U]"
- playdate.3014.desc_participant:0 "지역 [ROOT.Char.GetFaith.HouseOfWorship](을)를 둘러보던 중, [participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U](와)과 난 두루마리에 둘러싸인 [priest.Custom2('MyCharacterIntroduction', ROOT.Char)](을)를 우연히 만나게 되었다.\n\n"이건 아주 먼 옛날부터 기록해온 일지랍니다. 이런 데 관심이 있으신가요?"
- playdate.3014.desc:0 "지역 [ROOT.Char.GetFaith.HouseOfWorship](을)를 둘러보던 나는 두루마리에 둘러싸인 [priest.Custom2('MyCharacterIntroduction', ROOT.Char)|U](을)를 우연히 만나게 되었다.\n\n"이건 아주 먼 옛날부터 기록해온 일지랍니다. 이런 데 관심이 있으신가요?"
+ playdate.3014.t:1 "[priest.GetCouncilTitle|U]"
+ playdate.3014.desc_participant:0 "지역 [ROOT.Char.GetFaith.HouseOfWorship](을)를 둘러보던 중, [participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U](와)과 난 두루마리에 둘러싸인 [priest.Custom2('MyCharacterIntroduction', ROOT.Char)](을)를 우연히 만나게 되었다.\n\n"이건 아주 먼 옛날부터 기록해온 일지랍니다. 이런 데 관심이 있으신가요?""
+ playdate.3014.desc:0 "지역 [ROOT.Char.GetFaith.HouseOfWorship](을)를 둘러보던 나는 두루마리에 둘러싸인 [priest.Custom2('MyCharacterIntroduction', ROOT.Char)|U](을)를 우연히 만나게 되었다.\n\n"이건 아주 먼 옛날부터 기록해온 일지랍니다. 이런 데 관심이 있으신가요?""
  playdate.3014.a:0 "물론이지! 자세히 배워보고 싶은데."
  playdate.3014.a.success:0 "일기 쓰는 법을 배움"
  playdate.3014.a.neutral:0 "이런저런 것들을 배움"
@@ -169,19 +177,19 @@
  playdate.3014.a.failure:0 "아무것도 배우지 못함"
  playdate.3014.b:0 "아니, 그보단 직접 모험 이야기를 듣는 데 관심이 있지!"
 
- playdate.4001.t:0 "$playdate_header$ 언어 장벽"
+ playdate.4001.t:1 "언어 장벽"
  playdate.4001.desc.rowdy:0 ""아니, #EMP "인형#!이라니까! #EMP "인영"#!이 아니라! 아, 진짜!" [participant.GetTitledFirstName](이)가 언어 장벽에 동요한 기색을 역력하게 드러냈다. 양팔을 번쩍 들어 올려 휘젓는 걸 보니 당장에라도 분통을 터뜨릴 기세였다."
- playdate.4001.desc.pensive:0 ""미안... '아버지가 #EMP 방에#! 들어가셨다'. '아버지 가방에 들어가셨다'는 틀린 거고." 예의를 차리긴 했지만, [participant.GetTitledFirstNamePossessive] 눈썹은 답답함에 한껏 일그러져 있었다."
+ playdate.4001.desc.pensive:0 ""미안... '아버지가 #EMP 방에#! 들어가셨다'. '아버지 가방에 들어가셨다'는 틀린 거고."\n예의를 차리긴 했지만, [participant.GetTitledFirstNamePossessive] 눈썹은 답답함에 한껏 일그러져 있었다."
  playdate.4001.desc:0 "\n\n[ROOT.Char.GetCulture.GetLanguage.GetName](와)과 [participant.GetCulture.GetLanguage.GetName]의 언어는 유사성보단 차이점이 훨씬 많은 것 같다. 우리가 서로 말이 안 통하는 것도 그 때문일 것이다.\n\n서로 화낼 일 없이 놀 수 있게 내가 뭔가 할 수 있는 게 있지 않을까? 아니면 문제가 알아서 해결되길 바라기만 해야 하나?"
  playdate.4001.a:0 "내가 천천히, 크게 말해볼게! 그럼 도움이 되겠지!"
  playdate.4001.b:0 "[participant.GetFirstNameNoTooltip]에게 [participant.GetCulture.GetLanguage.GetName] 언어를 가르쳐 달라고 하면 어떨까?"
  playdate.4001.c:0 "으, 귀찮게 신경 쓸 것 있나? 그냥 재밌게 놀고 싶을 뿐인데!"
 
- playdate.9001.t:0 "$playdate_header$ 즐거움의 끝"
+ playdate.9001.t:1 "즐거움의 끝"
  playdate.9001.desc:0 "잠시나마 모든 책임을 잊고 또래와 어울리니 정말 좋았다. 하지만 이제 그만 돌아와 의무를 다하라는 연락을 받았다...\n\n다 같이 얼마나 즐거웠는지! 조만간 또 이렇게 놀 수 있기를."
  playdate.9001.a:0 "다음을 기약하자고!"
 
- playdate.9002.t:0 "$playdate_header$ 집으로 가는 길"
+ playdate.9002.t:1 "고향으로 돌아가다"
  playdate.9002.desc:0 "정말 즐거웠다! 이곳에 와서 보낸 며칠은 오랫동안 기억에 남을 듯하다.\n\n그리고 이제 그만 짐을 챙겨 집으로 돌아와 의무를 다하라는 연락을 받게 되었다. 아무쪼록 조만간 또 이렇게 놀 수 있길 바랄 뿐이다."
  playdate.9002.a:0 "안녕, [host.GetFirstNameNoTooltip]!"
 

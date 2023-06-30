@@ -14,19 +14,19 @@
 
  # Guest offers to share rumors from a nearby foreign realm.
  hold_court.1001.t:0 "$hold_court_header$ Espionaje indirecto"
- hold_court.1001.desc:0 "Mi invitad[rumormonger.Custom('ES_OA')] [rumormonger.GetTitledFirstName] se acerca al trono con una sonrisita en la cara y se inclina profundamente.\n\n«Saludos, Su Majestad. En un reciente viaje a [neighboring_realm.GetName] he descubierto unos chismorreos #EMP fascinantes#! sobre varios súbditos de [neighboring_ruler.GetTitledFirstName]. Estaría encantado de compartirlos con vos… por un precio»."
+ hold_court.1001.desc:0 "Mi invitad[rumormonger.Custom('ES_OA')] [rumormonger.GetTitledFirstName|l] se acerca al trono con una sonrisita en la cara y se inclina profundamente.\n\n«Saludos, Su Majestad. En un reciente viaje a [neighboring_realm.GetName] he descubierto unos chismorreos #EMP fascinantes#! sobre varios súbditos de [neighboring_ruler.GetTitledFirstName|l]. Estaría encantado de compartirlos con vos… por un precio»."
  hold_court.1001.a:0 "Una suma considerable, pero no me puedo permitir el lujo de permanecer en la ignorancia."
  hold_court.1001.a.seducer:0 "¿Crees que podemos encontrar otra solución?"
- hold_court.1001.a.success:0 "La información de [rumormonger.GetTitledFirstName] contiene valioso material para chantajes"
+ hold_court.1001.a.success:0 "La información de [rumormonger.GetTitledFirstName|l] contiene valioso material para chantajes"
  hold_court.1001.a.success.tt:0 "[rumormonger.GetTitledFirstName] te revela todo [secret|lE] relevante que conoce"
- hold_court.1001.a.failure:0 "La información de [rumormonger.GetTitledFirstName] no son más que chismorreos insustanciales"
- hold_court.1001.a.failure.tt:0 "En realidad [rumormonger.GetTitledFirstName] no conoce [secrets|lE] relevantes"
+ hold_court.1001.a.failure:0 "La información de [rumormonger.GetTitledFirstName|l] no son más que chismorreos insustanciales"
+ hold_court.1001.a.failure.tt:0 "En realidad [rumormonger.GetTitledFirstName|l] no conoce [secrets|lE] relevantes"
  hold_court.1001.b:0 "¡Nadie me extorsiona ante mi propia corte! ¡Guardias, agarrad[rumormonger.GetHerHim]!"
  hold_court.1001.c:0 "¡Largo, chismos[rumormonger.Custom('ES_OA')]! ¡En mi corte no hay sitio para gente como tú!"
 
  # Wandering claimant asks you to press their claim NOW!!
  hold_court.1011.t:0 "$hold_court_header$ Una llamada a la guerra"
- hold_court.1011.desc:0 "«Oh, generos[ROOT.Char.Custom('ES_OA')] [ROOT.Char.GetTitledFirstNameNoTooltip]. ¡Soy [claimant_guest.GetFirstName], y he viajado desde lejos para pedir vuestra ayuda para reparar una gran injusticia!».\n\nTal [claimant_guest.GetWomanMan] ante mí se inclina profundamente antes de seguir con su alegato bien ensayado. «[target_character.Custom2('MyCharacterIntroduction', claimant_guest)|U] se sienta ahora en el trono de [target_title.GetNameNoTier], ¡pero yo soy legítim[claimant_guest.Custom('ES_OA')] gobernante de esas tierras!».\n\n«Si me ayudáis a reclamar mis derechos, os juraré fidelidad y os serviré con lealtad hasta el fin de mis días»."
+ hold_court.1011.desc:0 "«Oh, generos[ROOT.Char.Custom('ES_OA')] [ROOT.Char.GetTitledFirstNameNoTooltip|l]. ¡Soy [claimant_guest.GetFirstName], y he viajado desde lejos para pedir vuestra ayuda para reparar una gran injusticia!».\n\nTal [claimant_guest.GetWomanMan] ante mí se inclina profundamente antes de seguir con su alegato bien ensayado. «[target_character.Custom2('MyCharacterIntroduction', claimant_guest)|U] se sienta ahora en el trono de [target_title.GetNameNoTier], ¡pero yo soy legítim[claimant_guest.Custom('ES_OA')] gobernante de esas tierras!».\n\n«Si me ayudáis a reclamar mis derechos, os juraré fidelidad y os serviré con lealtad hasta el fin de mis días»."
  hold_court.1011.a:0 "¡Bonito día para ir a la guerra!"
  hold_court.1011.b:0 "Por favor, márchate enseguida. No me puedo permitir ofender [target_character.Custom('ES_AlAla')] [target_character.GetTitleAsNameNoTooltip]."
  hold_court.1011.c:0 "No puedo ayudarte, pero disfruta de mi hospitalidad."
@@ -48,7 +48,7 @@
 
  # Clergy wants to form their own Theocracy vassal-state in your realm.
  hold_court.1041.t:0 "$hold_court_header$ Las tierras [ROOT.Char.GetFaith.HighGodNamePossessive]"
- hold_court.1041.desc:0 "«Mi señor[ROOT.Char.Custom('ES_OA')], los [ROOT.Char.GetFaith.AltPriestTermPlural] no tienen posesiones en [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]. Si las tuviéramos, nos daría fuerza para exaltar la gloria de [ROOT.Char.GetFaith.HighGodName] y reforzar la fe en el señorío.\n\n«Por lo tanto, os propongo que nos concedáis el [selected_title.GetName]. Hasta he pensado en un[chosen_candidate.Custom('ES_XA')] candidat[chosen_candidate.Custom('ES_OA')] perfect[chosen_candidate.Custom('ES_OA')] para dirigir la nueva institución. Aquí [chosen_candidate.GetTitledFirstName] ha estudiando a fondo el/la [ROOT.Char.GetFaith.ReligiousText] y sería un[chosen_candidate.Custom('ES_XA')] [ROOT.Char.GetFaith.BishopNeuter] perfect[chosen_candidate.Custom('ES_OA')]»."
+ hold_court.1041.desc:0 "«Mi señor[ROOT.Char.Custom('ES_OA')], los [ROOT.Char.GetFaith.AltPriestTermPlural] no tienen posesiones en [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]. Si las tuviéramos, nos daría fuerza para exaltar la gloria de [ROOT.Char.GetFaith.HighGodName] y reforzar la fe en el señorío.\n\n«Por lo tanto, os propongo que nos concedáis el [selected_title.GetName]. Hasta he pensado en un[chosen_candidate.Custom('ES_XA')] candidat[chosen_candidate.Custom('ES_OA')] perfect[chosen_candidate.Custom('ES_OA')] para dirigir la nueva institución. Aquí [chosen_candidate.GetTitledFirstName|l] ha estudiando a fondo el/la [ROOT.Char.GetFaith.ReligiousText] y sería un[chosen_candidate.Custom('ES_XA')] [ROOT.Char.GetFaith.BishopNeuter] perfect[chosen_candidate.Custom('ES_OA')]»."
  hold_court.1041.a:0 "Por la gloria de [ROOT.Char.GetFaith.HighGodName], accedo a tu petición."
  hold_court.1041.b:0 "¿Y no bastará con un diezmo extra?"
  hold_court.1041.c:0 "[ROOT.Char.GetFaith.DivineRealm|U] es el dominio [ROOT.Char.GetFaith.HighGodNamePossessive] [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip|U], y [ROOT.Char.GetFaith.HighGodNameSheHe|U] me lo ha confiado exclusivamente a mí."

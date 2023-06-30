@@ -1,14 +1,14 @@
 ﻿l_spanish:
  # Mercenaries are being assholes at an inn, by Linnéa Thimrén
  martial_authority.1031.t:0 "Merced para los mercenarios"
- martial_authority.1031.desc:0 "El bullicio de una posada, una buena sidra, una tarde tranquila después de un largo día de entrenamiento… Un mercenario que se tambalea aturdido me tira la jarra al suelo y toda mi esperanza de relajación desaparece igual que mi sidra.\n\n«Por favor, mi [ROOT.Char.GetLadyLadyLord]», ruega el posadero. «Los matones de [scoped_mercenary.GetFirstName] llevan días bebiendo hasta la saciedad, ¡y sin pagar! Sus peleas asustan al personal y a los clientes»."
+ martial_authority.1031.desc:0 "El bullicio de una posada, una buena sidra, una tarde tranquila después de un largo día de entrenamiento… Un mercenario que se tambalea aturdido me tira la jarra al suelo y toda mi esperanza de relajación desaparece igual que mi sidra.\n\n«Por favor, mi [ROOT.Char.GetLadyLord]», ruega el posadero. «Los matones de [scoped_mercenary.GetFirstName] llevan días bebiendo hasta la saciedad, ¡y sin pagar! ¡Sus peleas asustan al personal y a los clientes!»."
  martial_authority.1031.a:0 "Os pagaré las bebidas si os vais de inmediato."
  martial_authority.1031.b:0 "¡Soldados, echadlos!"
  martial_authority.1031.c:0 "Están demasiado borrachos para ser una amenaza real. Esto terminará rápidamente."
 
  # Fight between my soldiers (Diplomacy skill challenge), Sean Hughes
  martial_authority.2040.t:0 "Disputa de campamento"
- martial_authority.2040.desc:2 "Mi ejército ya ha montado el campamento para pasar la noche. Es entonces cuando oigo un alboroto proveniente de los alojamientos de mis $knight_culture_player_plural_possessive_no_tooltip_lowercase$.\n\nAl investigar el incidente, me encuentro [first.Custom('ES_AlAla')] [first.GetTitledFirstName] y [second.Custom('ES_AlAla')] [second.GetTitledFirstName] en plena discusión acalorada, con muchos espectadores arengándolos."
+ martial_authority.2040.desc:2 "Mi ejército ya ha montado el campamento para pasar la noche. Es entonces cuando oigo un alboroto proveniente de los alojamientos de mis $knight_culture_player_plural_possessive_no_tooltip_lowercase$.\n\nAl investigar el incidente, me encuentro [first.Custom('ES_AlAla')] [first.GetTitledFirstName|l] y [second.Custom('ES_AlAla')] [second.GetTitledFirstName|l] en plena discusión acalorada, con muchos espectadores arengándolos."
  martial_authority.2040.a:0 "Da un discurso a la multitud sobre la unidad."
  martial_authority.2040.a.success:0 "Mis palabras apartan a todos de la pelea."
  martial_authority.2040.a.failure:0 "Mis palabras no tienen ningún impacto en la discusión."
@@ -19,7 +19,7 @@
  martial_authority.2040.c.hashishiyah:0 "A la porra, voy a por algo de hachís."
 
  martial_authority.2041.t:0 "Resolución"
- martial_authority.2041.desc:0 "Me levanto y doy un discurso sobre cómo luchamos todos juntos por[ROOT.Char.GetPrimaryTitle.GetName] y cómo debemos mantenernos unidos contra nuestros enemigos porque, si no lo hacemos, muchos son los forasteros que usarían nuestras disputas internas para apoderarse de nuestras tierras e imponernos su dominio.\n\nAvergonzados, [first.GetTitledFirstName] y [second.GetTitledFirstName] piden disculpas y se disponen a pasar la noche."
+ martial_authority.2041.desc:0 "Me levanto y doy un discurso sobre cómo luchamos todos juntos por[ROOT.Char.GetPrimaryTitle.GetName] y cómo debemos mantenernos unidos contra nuestros enemigos porque, si no lo hacemos, muchos son los forasteros que usarían nuestras disputas internas para apoderarse de nuestras tierras e imponernos su dominio.\n\nAvergonzados, [first.GetTitledFirstName|l] y [second.GetTitledFirstName|l] piden disculpas y se disponen a pasar la noche."
  martial_authority.2041.a:0 "Somos más fuertes cuando estamos unidos."
 
  martial_authority.2042.t:0 "Bronca"
@@ -42,7 +42,7 @@
  martial_authority.2050.toast.title:0 "[right_hand_person.GetShortUIName] ahora te sirve como [right_hand_person.GetWomanMan] de confianza"
 
  martial_authority.2051.t:0 "Una mano extra"
- martial_authority.2051.desc:0 "¡Mientras me ayudaba a administrar mi señorío como mi mano derecha, [right_hand_person.GetTitledFirstName] y yo hemos descubierto que tenemos un montón de cosas en común!\n\nPor ello, hemos creado un vínculo mutuo muy fuerte y me veo preguntándome qué nos deparará el futuro…"
+ martial_authority.2051.desc:0 "¡Mientras me ayudaba a administrar mi señorío como mi mano derecha, [right_hand_person.GetTitledFirstName|l] y yo hemos descubierto que tenemos un montón de cosas en común!\n\nPor ello, hemos creado un vínculo mutuo muy fuerte y me veo preguntándome qué nos deparará el futuro…"
  martial_authority.2051.a:0 "¡Nuestra amistad será muy importante!"
  martial_authority.2051.b:0 "¿Es esta la chispa de algo más?"
  martial_authority.2051.c:0 "Debemos mantener esta relación en lo estrictamente profesional."
@@ -74,20 +74,20 @@
  martial_authority_special.1100.c:0 "Das ejemplo con ellos."
  martial_authority_special.1100.d:0 "Te escabulles y te atribuyes la idea del soldado"
 
- martial_authority_special.1101.desc:0 "El entrenamiento me ha venido bien. Pocos momentos después, tengo agarrad[officer.Custom('ES_OA')] firmemente a [officer.GetTitledFirstName] con una llave. «Que os sirva de lección», proclamo en voz alta, para que todos lo oigan. «Vuestr[ROOT.Char.Custom('ES_OA')] [ROOT.Char.GetTitleTierName] no ve con buenos ojos a los necios de mente estrecha, independientemente de su rango»."
+ martial_authority_special.1101.desc:0 "El entrenamiento me ha venido bien. Pocos momentos después, tengo agarrad[officer.Custom('ES_OA')] firmemente a [officer.GetTitledFirstName|l] con una llave. «Que os sirva de lección», proclamo en voz alta, para que todos lo oigan. «Vuestr[ROOT.Char.Custom('ES_OA')] [ROOT.Char.GetTitleTierName] no ve con buenos ojos a los necios de mente estrecha, independientemente de su rango»."
 
  martial_authority_special.1101.end.desc:0 "\n\nEl/La soldado irradia gratitud. «Gracias, mi [ROOT.Char.GetLadyLord]?. Nunca tendréis un[soldier_friend.Custom('ES_OA')] servidor[soldier_friend.Custom('ES_OA')] más fiel que [soldier_friend.GetFirstName] [soldier_friend.GetDynastyName]»."
  martial_authority_special.1101.a:0 "Adoptas la estrategia de [soldier_friend.GetFirstNameNoTooltip]."
  martial_authority_special.1101.b:0 "Debates la estrategia para aprender más sobre el arte de la guerra."
  
- martial_authority_special.1102.desc:0 "Sabiendo las consecuencias de hacer daño a un comandante, El/La soldado no hace nada por defenderse de los golpes que le caen. Al caer la sangre, me interpongo entre ellos.\n\nQuizás no tendría que haber peleado con un guerrero veterano. Al final, debo desvelar mi identidad a [officer.GetTitledFirstName] para que me deje marchar y me escabullo a mi tienda antes de que corra la noticia…"
+ martial_authority_special.1102.desc:0 "Sabiendo las consecuencias de hacer daño a un comandante, El/La soldado no hace nada por defenderse de los golpes que le caen. Al caer la sangre, me interpongo entre ellos.\n\nQuizás no tendría que haber peleado con un guerrero veterano. Al final, debo desvelar mi identidad a [officer.GetTitledFirstName|l] para que me deje marchar y me escabullo a mi tienda antes de que corra la noticia…"
  martial_authority_special.1102.a:0 "Al menos he aprendido un par de trucos."
 
- martial_authority_special.1103.desc:0 "El brazo de [officer.GetTitledFirstName] se queda quieto a mitad de un golpe cuando levanto la voz. La intensidad emocional de mis palabras parecen dar en la llaga… y su expresión se suaviza al bochorno. [officer.GetSheHe|U] tartamudea una disculpa y se escabulle."
+ martial_authority_special.1103.desc:0 "El brazo de [officer.GetTitledFirstName|l] se queda quieto a mitad de un golpe cuando levanto la voz. La intensidad emocional de mis palabras parecen dar en la llaga… y su expresión se suaviza al bochorno. [officer.GetSheHe|U] tartamudea una disculpa y se escabulle."
 
  # Deal with Deserters, by Linnéa Thimrén
  martial_authority_special.1501.t:0 "Los desertores"
- martial_authority_special.1501.desc:1 "Mientras lidero una patrulla, vemos un grupo de encapuchados en la noche. Todos llevan capas pesadas pero reconozco la forma de andar de [deserting_soldier.GetTitledFirstName], mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('deserting_soldier') )].\n\n«Mi [ROOT.Char.GetLadyLord]», susurra uno de los soldados con los que estoy patrullando. «Están desertando, ¿qué hacemos?»."
+ martial_authority_special.1501.desc:1 "Mientras lidero una patrulla, vemos un grupo de encapuchados en la noche. Todos llevan capas pesadas pero reconozco la forma de andar de [deserting_soldier.GetTitledFirstName|l], mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('deserting_soldier') )].\n\n«Mi [ROOT.Char.GetLadyLord]», susurra uno de los soldados con los que estoy patrullando. «Están desertando, ¿qué hacemos?»."
  martial_authority_special.1501.a:0 "¡Atrapadlos de inmediato!"
  martial_authority_special.1501.a.success:0 "Atrapamos a los desertores"
  martial_authority_special.1501.a.failure:0 "Los desertores escapan"
@@ -95,7 +95,7 @@
 
  martial_authority_special.1502.desc_scuffle_lost:0 "Recibo un codazo en la cara y me meto con fuerza en la refriega que sigue a nuestro enfrentamiento con los desertores, quienes pronto son detenidos.\n\n"
  martial_authority_special.1502.desc_scuffle:0 "Tras una breve refriega, los desertores son detenidos."
- martial_authority_special.1502.desc:0 "Todo soldado presente, leal o no, sabe que el castigo por esta clase de traición puede ser severo. El aire está cargado de expectación y miedo.\n\n«Mi [ROOT.Char.GetLadyLord]», dice [deserting_soldier.GetTitledFirstName] mirándome con sus ojos cansados. «No son más que niños. Solo queríamos ir a casa»."
+ martial_authority_special.1502.desc:0 "Todo soldado presente, leal o no, sabe que el castigo por esta clase de traición puede ser severo. El aire está cargado de expectación y miedo.\n\n«Mi [ROOT.Char.GetLadyLord]», dice [deserting_soldier.GetTitledFirstName|l] mirándome con sus ojos cansados. «No son más que niños. Solo queríamos ir a casa»."
  martial_authority_special.1502.a:0 "Hay que pagar el precio de la traición. Ejecutadlos."
  martial_authority_special.1502.b:0 "Os pasaréis meses fregando letrinas."
  martial_authority_special.1502.b.tt:0 "El hedor de las letrinas no ayuda a la moral de los soldados."
@@ -106,7 +106,7 @@
  martial_authority_special.1503.desc_execution:0 "Los desertores solo pueden esperar la clemencia que concede la hoja afilada del verdugo.\n\nTener que tomar decisiones tan duras como ésta me hace comprender personalmente algunas de las cargas del mando."
  martial_authority_special.1503.desc_latrine:0 "Los desertores viven en la mugre durante meses y vuelven rápidamente a filas en cuanto tienen oportunidad.\n\nObservo la reacción de los desertores castigados y la de los demás soldados que temen sufrir un castigo similar, y eso me ayuda a entender mejor a mis tropas."
  martial_authority_special.1503.desc_diplomacy:0 "Animados por mi discurso, cansados de la larga noche y agradecidos por la clemencia recibida, los desertores regresan a sus cuarteles con una luz nueva en los ojos.\n\nAl inspirar esta lealtad en las tropas, entiendo que ser comandante es algo más que tener un brazo fuerte."
- martial_authority_special.1503.a.tt_execution:0 "[deserting_soldier.GetTitledFirstNameNoTooltip] fue ejecutad[deserting_soldier.Custom('ES_OA')] por sus delitos."
+ martial_authority_special.1503.a.tt_execution:0 "[deserting_soldier.GetTitledFirstNameNoTooltip|l] fue ejecutad[deserting_soldier.Custom('ES_OA')] por sus delitos."
  martial_authority_special.1503.a:0 "Por fin ha acabado esta situación."
 
  martial_authority_special.1504.desc_opening:0 "Toda la situación podría haber salido mejor.\n\n"

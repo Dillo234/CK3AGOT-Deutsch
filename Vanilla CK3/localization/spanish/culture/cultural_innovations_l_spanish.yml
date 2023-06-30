@@ -1,12 +1,12 @@
 ﻿l_spanish:
- cb_discount_prestige_10:0 "Coste de [casus_belli|lE] en [prestige|lE]: #P -10 %#!"
- cb_discount_piety_10:0 "Coste de [casus_belli|lE] en [piety|lE]: #P -10 %#!"
+ cb_discount_prestige_10:1 "Coste de [casus_belli|lE] en [prestige|lE]: #P -10 %#![prestige_i]"
+ cb_discount_piety_10:1 "Coste de [casus_belli|lE] en [piety|lE]: #P -10 %#![piety_i]"
  individual_county_de_jure_cb:0 "[county|E] individual [de_jure|lE]"
  individual_duchy_de_jure_cb:0 "[duchy|E] individual [de_jure|lE]"
  multiple_claim_wars:1 "Se pueden reivindicar varios de tus [claims|lE] en una sola guerra"
  multiple_claim_wars_others:0 "Se pueden reivindicar [claims|lE] múltiples para otro personaje en una sola guerra"
- fabricate_claim_speed:0 "Velocidad de [councillor_task|lE] «Inventar derechos sobre condado»: #P +50 %#!"
- promote_culture_speed:0 "Velocidad de [councillor_task|lE] «Promover cultura»: #P +15 %#!"
+ fabricate_claim_speed:1 "Velocidad de [councillor_task|lE] #V $task_fabricate_claim$#!: #P +50 %#!"
+ promote_culture_speed:1 "Velocidad de [councillor_task|lE] #V $task_promote_culture$#!: #P +15 %#!"
  same_culture_group_reduced_factionalism:1 "Es menos probable que los [vassals|lE] cuya [culture|lE] comparta una [heritage|lE] con la tuya se unan a [independence_factions|lE]"
  reduce_develop_county_penalty_01:0 "Los condados alcanzan la penalización máxima de [existing_development|lE] con 20 de [development|lE]"
  reduce_develop_county_penalty_02:0 "Los condados alcanzan la penalización máxima de [existing_development|lE] con 35 de [development|lE]"
@@ -56,6 +56,8 @@
 
  innovation_bannus:0 "Bannus"
  innovation_bannus_desc:0 "El poder del ban se basa en la autoridad para dar órdenes en combate. Permite que los gobernantes puedan obligar a los hombres libres a luchar por ellos y establece una base legal para formar grandes ejércitos."
+ eligible_accolade_vanguard_attribute_ACCOLADES_DLC:0 "Los [knights|lE] de esta [culture|lE] se vuelven aptos para los [accolades|lE] de [GetAccoladeType('vanguard_attribute').GetName|l]"
+ eligible_accolade_vanguard_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_vanguard_attribute_ACCOLADES_DLC')]"
 
  innovation_quilted_armor:0 "Armadura acolchada"
  innovation_quilted_armor_desc:0 "Estas chaquetas están formadas por al menos una docena de capas de lino cosidas entre sí y pueden detener incluso flechas pesadas. Son una forma asequible de proteger a todo un regimiento en la batalla."
@@ -94,9 +96,13 @@
 
  innovation_war_camels:0 "Camellos de guerra"
  innovation_war_camels_desc:0 "Los camellos están adaptados por naturaleza a vivir en terrenos desérticos, pero no son de por sí animales de guerra. Nuestros criadores y adiestradores pueden cambiar esto y así podremos tener una caballería adaptativa para dominar los desiertos."
+ eligible_accolade_camelry_attribute_ACCOLADES_DLC:0 "Los [knights|lE] de esta [culture|lE] se vuelven aptos para los [accolades|lE] de [GetAccoladeType('camelry_attribute').GetName|l]"
+ eligible_accolade_camelry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_camelry_attribute_ACCOLADES_DLC')]"
 
  innovation_elephantry:0 "Elefantes de guerra"
  innovation_elephantry_desc:0 "Es difícil criar elefantes en cautiverio, así que cada mahout debe capturar sus propios elefantes salvajes y entrenarlos. El uso de estas enormes criaturas en combate es un arte delicado y estamos dispuestos a dominarlo."
+ eligible_accolade_elephantry_attribute_ACCOLADES_DLC:0 "Los [knights|lE] de esta [culture|lE] se vuelven aptos para los [accolades|lE] de [GetAccoladeType('elephantry_attribute').GetName|l]"
+ eligible_accolade_elephantry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_elephantry_attribute_ACCOLADES_DLC')]"
  
  innovation_wootz_steel:0 "Acero wootz"
  innovation_wootz_steel_desc:0 "También conocido como acero hinduwaní o sérico, este metal rico en carbono es excelente para fabricar armas. El acero wootz se comercializa extensamente y se considera el mejor del mundo. Durante gran parte de la historia ha llamado la atención de comerciantes árabes, egipcios, chinos e incluso romanos."
@@ -125,6 +131,8 @@
 
  innovation_mangonel:0 "Mangoneles"
  innovation_mangonel_desc:0 "Los mangoneles de tracción, una mejora significativa de nuestros diseños de catapultas existentes, son mucho más rápidos de cargar y disparar que los ingenios de torsión."
+ eligible_accolade_besieger_attribute_ACCOLADES_DLC:0 "Los [knights|lE] de esta [culture|lE] se vuelven aptos para los [accolades|lE] de [GetAccoladeType('besieger_attribute').GetName|l]"
+ eligible_accolade_besieger_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_besieger_attribute_ACCOLADES_DLC')]"
 
  innovation_burhs:0 "Burhs"
  innovation_burhs_desc:0 "Los burhs son asentamientos fortificados importantes repartidos por la campiña que podemos usar tanto para congregar tropas como para servir de centros administrativos."
@@ -137,6 +145,8 @@
 
  innovation_arched_saddle:0 "Sillas arqueadas"
  innovation_arched_saddle_desc:0 "La caballería ligera es una fuerza a tener en cuenta, pero no explota todo el potencial del caballo de guerra. Las sillas de montar arqueadas nos permiten desplegar guerreros fuertemente protegidos con lanzas inclinadas, lo que les permite aprovechar al máximo su impulso al cargar contra las líneas enemigas."
+ eligible_accolade_lancer_attribute_ACCOLADES_DLC:0 "Los [knights|E] de esta [culture|lE] se vuelven aptos para [accolades|lE] de [GetAccoladeType('lancer_attribute').GetName|l]"
+ eligible_accolade_lancer_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_lancer_attribute_ACCOLADES_DLC')]"
 
  #Civic
  innovation_hereditary_rule:0 "Gobierno hereditario"
@@ -165,7 +175,7 @@
 
  #Regional
 
- innovation_reconquista:0 "Expansionismo espiritual" # [LocEditor:AwaitingBatchUpdate]
+ innovation_reconquista:1 "Expansionismo espiritual"
  innovation_reconquista_desc:0 "Distraídos por luchas intestinas, hemos tolerado la presencia de infieles en Hispania demasiado tiempo. ¡Ha llegado el momento de sumar fuerzas para expulsarlos de esta tierra de una vez por todas!"
 
  innovation_stem_duchies:0 "Stammesherzogtum"
@@ -196,6 +206,8 @@
 
  innovation_advanced_bowmaking:0 "Arcos avanzados"
  innovation_advanced_bowmaking_desc:0 "Aunque tradicionalmente los arqueros han hecho y mantenido sus propios arcos, los artesanos han comenzado a fabricar nuevos tipos de arcos más fuertes y complejos que antes. Si adoptamos estos nuevos diseños, podremos convertir a los maestros arqueros en un activo militar de valor incalculable."
+ eligible_accolade_crossbower_attribute_ACCOLADES_DLC:0 "Los [knights|lE] de esta [culture|lE] se vuelven aptos para los [accolades|lE] de [GetAccoladeType('crossbowmen_attribute').GetName|l]"
+ eligible_accolade_crossbower_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_crossbower_attribute_ACCOLADES_DLC')]"
 
  #Civic
 
@@ -297,4 +309,4 @@
  innovation_deccan_unity:0 "Unidad del Decán"
  innovation_deccan_unity_desc:0 "El influjo de nuevas creencias y religiones en nuestra sociedad ha dejado claro que fue un error centrarnos en el regionalismo anteriormente. Debemos sumarnos a otros de nuestra fe y garantizar un estado fuerte y duradero que pueda resistir las presiones externas."
 
- students_of_knighthood:0 "Los niños que terminan su educación con un [education_focus|lE] [martial|lE] ganan el [trait|lE] de $trait_education_martial_prowess$."
+ students_of_knighthood:1 "Los niños que terminan su [education|lE] con un [education_focus|lE] [martial|lE] ganan el [trait|lE] de $trait_education_martial_prowess$"

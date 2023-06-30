@@ -4,15 +4,15 @@
  do_not_execute_abduct_tooltip:0 "我不想绑架"
 
  abduct_outcome.1001.t:0 "$abduct_event_title$拦路攻击"
- abduct_outcome.1001.opening:0 "我的同谋告诉我[target.GetTitledFirstName]正在计划"
- abduct_outcome.1001.arrival:0 "从[departure.GetNameNoTierNoTooltip]到[arrival.GetNameNoTierNoTooltip]的旅行。"
- abduct_outcome.1001.no_arrival:0 "在[departure.GetNameNoTier]内旅行。"
+ abduct_outcome.1001.opening:1 "我的同谋告诉我[target.GetTitledFirstName]正在"
+ abduct_outcome.1001.arrival:1 "从[departure.GetNameNoTooltip]到[arrival.GetNameNoTooltip]旅行。"
+ abduct_outcome.1001.no_arrival:1 "在[departure.GetNameNoTooltip]内旅行。"
  abduct_outcome.1001.ending:0 "\n\n我已经安排了一些劫匪打断[target.GetHerHis]的小旅程并确保将[target.GetSheHe]转到这来。"
  abduct_outcome.1001.a:0 "很快[target.GetSheHe]就会在我掌控之中！"
  abduct_outcome.1001.b:0 "不，风险太大了。"
 
  abduct_outcome.1002.t:0 "$abduct_event_title$进行中"
- abduct_outcome.1002.desc:1 "一个完美的机会出现了！[target.GetTitledFirstName]将从[target.Custom('ResidenceBuilding')]出发，前往附近的城镇，而且身边没带任何卫兵。\n\n[target.GetSheHe|U]一定以为[target.GetHerselfHimself]很安全……"
+ abduct_outcome.1002.desc:2 "一个完美的机会出现了！[target.GetTitledFirstName]从[departure.GetNameNoTooltip]出发，正前往[arrival.GetNameNoTooltip]，身边没带任何卫兵。\n\n[target.GetSheHe|U]一定以为[target.GetHerselfHimself]很安全……"
  abduct_outcome.1002.a:0 "完美的出手时机！"
 
  abduct_outcome.1003.t:0 "$abduct_event_title$不速之客"

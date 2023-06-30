@@ -2,7 +2,7 @@
  DIVERGE_CULTURE_EXECUTE_LABEL:0 "Kultur abzweigen"
  DIVERGE_CULTURE_EXECUTE_TOOLTIP:1 "#T Kultur abzweigen#!\nZweigt von [Culture.GetName] ab und erschafft eine neue [divergent_culture|E].\n\n[DivergenceWindow.GetDivergeBlockers]"
  DIVERGE_CULTURE_WINDOW_TITLE:0 "Zweigt von [Culture.GetNameNoTooltip] ab"
- DIVERGENCE_TOTAL_COST:0 "Kosten: [SuccessionLawChangeWindow.GetSelectedLaw.GetShortCostString]"
+ DIVERGENCE_TOTAL_COST:0 "Kosten: [DivergenceWindow.GetDivergeCostString]"
  DIVERGENCE_COST_TOOLTIP:0 "#T Abzweigkosten: [DivergenceWindow.GetDivergeCostString]#!\n[DivergenceWindow.GetDivergeCostBreakdown]"
  DIVERGE_CULTURE_NAME:0 "[Select_CString(StringIsEmpty(DivergenceWindow.GetNewCultureName),'Namen auswählen','')] [DivergenceWindow.GetNewCultureName]"
  CULTURE_DIVERGENCE_COOLDOWN:0 "#weak Jeder Herrscher kann seine Kultur nur einmal abzweigen. Von dieser [divergent_culture|E] können für [EmptyScope.ScriptValue('culture_divergence_cooldown')|0] Jahre keine weiteren Kulturen abgezweigt werden.#!"

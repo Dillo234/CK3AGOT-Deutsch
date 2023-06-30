@@ -1,10 +1,10 @@
 ﻿l_russian:
- murdered_close_family:0 "Убит член семьи"
- murdered_close_family_crime:0 "Убит член семьи"
- attempted_murder_close_family:0 "Попытка убить члена семьи"
- attempted_murder_close_family_crime:0 "Попытка убить члена семьи"
- attempted_murder_me:0 "Попытка убить меня"
- attempted_murder_me_crime:0 "Попытка убить меня"
+ murdered_close_family:1 "Убийство родича"
+ murdered_close_family_crime:1 "Убийство родича"
+ attempted_murder_close_family:1 "Попытка убийства родича"
+ attempted_murder_close_family_crime:1 "Попытка убийства родича"
+ attempted_murder_me:1 "Покушение"
+ attempted_murder_me_crime:1 "Покушение"
  murdered_close_relation_opinion:0 "Убийца близкого родственника"
  murdered_someone_close_to_me_crime:0 "Убили близкого мне человека"
 
@@ -26,3 +26,11 @@
  blinded_me:0 "Этот человек ослепил меня"
  castrated_family_member:0 "Кастрация члена семьи"
  castrated_me:0 "Этот человек кастрировал меня"
+
+ abducted_me_crime:0 "Мой похититель"
+ abducted_close_family:0 "[Select_CString(CHARACTER.IsFemale, 'Похитила', 'Похитил' )] семью"
+ abducted_close_family_crime:0 "$abducted_close_family$"
+ attempted_abduct_close_family:0 "[Select_CString(CHARACTER.IsFemale, 'Попыталась', 'Попытался' )] похитить семью"
+ attempted_abduct_close_family_crime:0 "$attempted_abduct_close_family$"
+ attempted_abduct_me:0 "Попытка похищения"
+ attempted_abduct_me_crime:0 "$attempted_abduct_me$"

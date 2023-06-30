@@ -122,9 +122,9 @@
  lesson_basics_web_of_titles_desc:2 "现在，我们来聊聊#EMP 游戏#!！所有事情都发生在你眼前的地图上。这个世界包括大大小小的地块——带封地的[titles|E]，以及持有它们的形形色色的[rulers|E]。\n\n#TUT $game_concept_titles$由带有精美纹章的盾徽代表，作为显示在大地图上的图标。\n\n这个代表你[realm|E]的图标由你的[primary_title|E]决定，是你持有的最重要，且最具威望的$game_concept_title$。#!"
  #\n\n@coa_icon!"
  lesson_basics_realm:0 "疆域（$lesson_basics_map$）"
- lesson_basics_realm_desc:3 "如果你将鼠标悬浮在你的角色头像上，位于你[realm_capital|E]上方的盾徽（$cn_luimneach$）将会发光，你的整个[realm|E]将会高亮显示。芒斯特是你的[primary_title|E]，你的$game_concept_realm$将以之命名。\n\n你同时持有托蒙德伯国头衔，这是分开的$game_concept_title$。\n\n#TUT 你缩小视图后，地图上的这部分会显示为“芒斯特”，因为你是该地的最高统治者。#!"
+ lesson_basics_realm_desc:3 "如果你将鼠标悬浮在你的角色头像上，位于你[realm_capital|E]上方的纹章（$cn_luimneach$）将会发光，你的整个[realm|E]将会高亮显示。芒斯特是你的[primary_title|E]，你的$game_concept_realm$将以之命名。\n\n你同时持有托蒙德伯国头衔，这是分开的$game_concept_title$。\n\n#TUT 你缩小视图后，地图上的这部分会显示为“芒斯特”，因为你是该地的最高统治者。#!"
  lesson_basics_map_modes:0 "统领他人（$lesson_basics_map$）"
- lesson_basics_map_modes_desc:1 "作为一名[ruler|E]，你可以亲自持有的土地数量是有上限的——你常需要其他$game_concept_rulers$通过持有你疆域内的土地（[titles|E]）来协助治理[realm|E]，并使他们成为你的[vassals|E]。\n\n#TUT 想要找到你自己的土地，即你的[domain|E]，请按‘Home’键，并放大视图。视图放大后，你就可以在属于你的[baronies|E]上看到蓝色标签（当前只有$cn_luimneach$）。\n\n$c_ormond$伯国头衔由你的封臣持有。#!"
+ lesson_basics_map_modes_desc:1 "作为一名[ruler|E]，你可以亲自持有的土地数量是有上限的——你常需要其他$game_concept_rulers$通过持有你疆域内的土地（[titles|E]）来协助治理[realm|E]，并使他们成为你的[vassals|E]。\n\n#TUT 想要找到你自己的土地，即你的[domain|E]，请按“Home”键，并放大视图。视图放大后，你就可以在属于你的[baronies|E]上看到蓝色标签（当前只有$cn_luimneach$）。\n\n$c_ormond$伯国头衔由你的封臣持有。#!"
  ### What makes a ruler
  lesson_basics_characters:0 "角色（$lesson_basics_character$）"
  lesson_basics_characters_desc:1 "你正在扮演这个世界的众多[characters|E]之一，由角色形象代表。你的角色是一片[realm|E]的[ruler|E]！\n\n#TUT 你将需要确保你的[dynasty|E]存活并万世繁荣。你的[titles|E]赋予你对于领土，以及其他角色（他们可能也持有自己的头衔和土地）的权力和控制。#!"
@@ -136,7 +136,7 @@
  lesson_basics_traits_2:0 "特质（$lesson_basics_character$）"
  lesson_basics_traits_2_desc:1 "[traits|E]也会影响其他[characters|E]如何对#EMP 你#!作出反应。\n\n有些人会受@brave_icon![GetTrait('brave').GetName( GetNullCharacter )]特质打动，而@lustful_icon![GetTrait('lustful').GetName( GetNullCharacter )]的角色更有可能是淫秽八卦里的主角……\n\n#TUT 特质影响其他角色的道德与贪婪程度，这又会影响他们的友好或敌对行动。#!"
  lesson_basics_opinion:0 "好感（$lesson_basics_character$）"
- lesson_basics_opinion_desc:3 "所有[characters|E]（是的，#EMP 所有#!）都对彼此有一项[opinion|E]，驱动他们的行为。\n\n#N 低#!$game_concept_opinion$会导致别人对你发难或不愿意帮助你。而另一方面，#P 高#!$game_concept_opinion$则会让$game_concept_characters$更倾向于加入你的[murder_scheme|E]或为你的[seduction|E]所倾倒……\n\n#TUT 你选择如何与其他$game_concept_characters$互动常常影响到他们对你的好感度。#!"
+ lesson_basics_opinion_desc:3 "所有[characters|E]（是的，#EMP 所有#!）都对彼此有一项[opinion|E]，驱动他们的行为。\n\n#N 低#!$game_concept_opinion$会导致别人对你发难或不愿意帮助你。而另一方面，#P 高#!$game_concept_opinion$则会让$game_concept_characters$更倾向于加入你的[schemes|E]……\n\n#TUT 你选择如何与其他$game_concept_characters$互动常常影响到他们对你的好感度。#!"
  
  ### Resources
  lesson_basics_resources_1:0 "[gold_i|E] 金钱（$lesson_basics_resources$）"
@@ -146,7 +146,6 @@
  lesson_basics_resources_3:0 "[piety_i|E] 虔诚（$lesson_basics_resources$）"
  lesson_basics_resources_3_desc:2 "有了许多[piety|E]，你与你的[head_of_faith|E]打交道时就会更轻松。因为你是$catholic_adherent$，这里就会是教宗。\n\n$game_concept_piety$可以通过[learning|E][skill|E]和[virtuous|E][traits|E]被动获得，也可以主动地通过参与宗教事务获得，例如去[pilgrimage|E]。\n\n你也有一个[piety_level|E]，每次你获得$game_concept_piety$等级都逐渐增长，可以对你的人物产生正面效果。\n\n#TUT 与威望类似，某些行动需要你#EMP 花费#!$game_concept_piety$，例如发动[holy_wars|E]，或者你想要创建新的[faith|E]。\n\n这样子花费$game_concept_piety$是正常的，[characters|E]们不会因此看低你。#!"
 
- #TODO_CD; highlight martial lifestyle, but discuss with UX first as the lifestyle boxes are instanced, and an individual one can't be easily highlighted.
  # Lifestyles
  lesson_basics_lifestyles_1:0 "生活方式（$lesson_basics_lifestyles$）"
  lesson_basics_lifestyles_1_desc:1 "在[traits|E]之外，你的[character|E]也可以选择一项[lifestyle|E]。共有五个$game_concept_lifestyles$，每项能力都对应一个。\n\n$game_concept_lifestyles$代表着你每天花费最多精力的事情，而每个生活方式都有数个与之相关的[focuses|E]。\n\n每个$game_concept_focus$都会赋予你独特的增益，并使得与该$game_concept_focus$相关的事件更有可能发生。"
@@ -175,7 +174,7 @@
  lesson_basics_many_lives_1_desc:2 "接下来，我们聊聊你的[dynasty|E]。随着游戏进行，除非你的[character|E]遇到了某个过早的“事故”或严重疾病，角色会逐渐变老，并最终死亡。\n\n#TUT 故事不会在这里结束——如果你没有自己宗族的继承人才会[game_over|E]！#!"
  lesson_basics_many_lives_2:0 "继承人（$lesson_basics_succession$）"
  lesson_basics_many_lives_2_no_GUI_highlight:0 "$lesson_basics_many_lives_2$"
- lesson_basics_many_lives_2_desc:5 "只要你的[titles|E]拥有来自你[dynasty|E]的[heirs|E]，你的传承就会一直延续。当你目前扮演的[character|E]死亡，你就会开始扮演新的角色：[player_heir|E]。\n\n根据你[realm|E]的[succession|E]，继承人有可能是你子女中的一位——也许正是你培养要成为[Concept( 'ruler', '统治者' )|E]的那一位？\n\n#TUT 你的$game_concept_dynasty$自有其盾徽，现在高亮着，可以点击查看更多信息。\n\n你当前无需做任何事情，但如果你之后想要查看你$game_concept_dynasty$的细节，可以在这里找到。\n\n#!"
+ lesson_basics_many_lives_2_desc:5 "只要你的[titles|E]拥有来自你[dynasty|E]的[heirs|E]，你的传承就会一直延续。当你目前扮演的[character|E]死亡，你就会开始扮演新的角色：[player_heir|E]。\n\n根据你[realm|E]的[succession|E]，继承人有可能是你子女中的一位——也许正是你培养要成为[Concept( 'ruler', '统治者' )|E]的那一位？\n\n#TUT 你的$game_concept_dynasty$自有其纹章，现在高亮着，可以点击查看更多信息。\n\n你当前无需做任何事情，但如果你之后想要查看你$game_concept_dynasty$的细节，可以在这里找到。\n\n#!"
 
 # Succession Laws 
  lesson_basics_succession_laws:0 "继承法（$lesson_basics_succession$）"
@@ -186,7 +185,7 @@
  lesson_basics_renown:0 "宗族威望（$lesson_basics_succession$）"
  lesson_basics_renown_no_GUI_highlight:0 "$lesson_basics_renown$"
  lesson_basics_renown_no_GUI_highlight_2:0 "$lesson_basics_renown$"
- lesson_basics_renown_desc:2 "作为[dynasty|E]的成员，你也有[dynasty_prestige|E]。$game_concept_dynasty_prestige$在你$game_concept_dynasty$的所有人中共享，可以通过多种不同的方式增长，反映你的#EMP 宗族#!在世间是多么遐迩闻名（恶名昭著），这不仅仅事关你自身。\n\n提升你的$game_concept_dynasty_prestige$能够泽被百世，提升你的[dynasty_prestige_level|E]。作为[dynast|E]（$game_concept_dynasty$内部最有权势的成员），宗族威望能够让你解锁为所有同宗族人提供获益的[dynasty_perks|E]。\n\n#TUT 要查看某个宗族的$game_concept_dynasty_perk$，可以点击此人的宗族盾徽。#!"
+ lesson_basics_renown_desc:2 "作为[dynasty|E]的成员，你也有[dynasty_prestige|E]。$game_concept_dynasty_prestige$在你$game_concept_dynasty$的所有人中共享，可以通过多种不同的方式增长，反映你的#EMP 宗族#!在世间是多么遐迩闻名（恶名昭著），这不仅仅事关你自身。\n\n提升你的$game_concept_dynasty_prestige$能够泽被百世，提升你的[dynasty_prestige_level|E]。作为[dynast|E]（$game_concept_dynasty$内部最有权势的成员），宗族威望能够让你解锁为所有同宗族人提供获益的[dynasty_perks|E]。\n\n#TUT 要查看某个宗族的$game_concept_dynasty_perk$，可以点击此人的宗族纹章。#!"
 
 # Marriage
  lesson_basics_marriage_concept_1:0 "婚姻（$lesson_basics_marriage$）"
@@ -197,7 +196,7 @@
  lesson_basics_marriage_concept_2_b_desc:1 "虽然你的角色已经结婚了，我们还是带你过一遍步骤。\n\n对于你[domain|E]内的未婚角色，你可以安排[marriages|E]（或[betrothals|E]），右键点击该角色选择#TUT_KW 寻找配偶#!或#TUT_KW 安排婚姻#!。\n\n#TUT 你现在不需要跟任何人结婚，不过选择#TUT_KW 寻找配偶#!会打开婚姻界面。#!"
  lesson_basics_marriage_instruction_open_window:0 "$lesson_basics_marriage_concept_1$"
  lesson_basics_marriage_instruction_open_window_desc:0 "为你的角色找到人结婚！"
- lesson_basics_open_interactions_marriage_tt:0 "右击你自己的角色"
+ lesson_basics_open_interactions_marriage_tt:0 "右键点击你自己的角色"
  lesson_basics_open_interactions_marriage_alt_tt:0 "右键点击一名#EMP 未婚#!角色"
  lesson_basics_marriage_view_tt:1 "选择#TUT_KW 寻找配偶#!"
  lesson_basics_find_spouse_concept:0 "选择配偶（$lesson_basics_marriage$）"
@@ -227,7 +226,7 @@
  lesson_basics_de_jure_titles:0 "头衔（$lesson_basics_titles$）"
  lesson_basics_de_jure_titles_desc:4 "大部分[titles|E]都属于一个金字塔型的阶序，根据他们的$game_concept_title$[title_tier|E]：\n\n[barony|E]——由男爵或女男爵统治\n[county|E]——由伯爵或女伯爵统治\n[duchy|E]——由公爵或女公爵统治\n[kingdom|E]——由国王或女王统治\n[empire|E]——由皇帝或女皇统治\n\n所有$game_concept_title$按理来说都从属于某个高一$game_concept_title_tier$的$game_concept_title$，例如每个$game_concept_county$都是某个$game_concept_duchy$的一部分。\n\n#TUT 注意：这些头衔有许多动态名称——你当前的[ruler|E]掌管着一个“小王国”，相当于[duchy|E]等级。#!"
  lesson_basics_de_jure_cbs:0 "法理$lesson_basics_de_jure_titles$"
- lesson_basics_de_jure_cbs_desc:4 "我们之所以说“按理来说”，是因为《十字军之王3》让你游玩历史时，没有办法保证一位[king|E]#EMP 真的#!掌控其[kingdom|E]“应当”包含的所有[titles|E]。\n\n我们将这种$game_concept_title$等级制称为[de_jure|E]，如果这种结构被打破，就常常可能会导致领土纠纷战争。\n\n如果你切换至公国头衔地图模式，你就可以看到，作为$d_munster$[duchy|E]的统治者，$c_desmond$[county|E]理应是你领地的一部分。\n\n不同的地图模式能帮助你了解世界上的$game_concept_de_jure$$game_concept_title$结构！"
+ lesson_basics_de_jure_cbs_desc:4 "我们之所以说“按理来说”，是因为《十字军之王3》让你游玩历史时，没有办法保证一位[king|E]#EMP 真的#!掌控其[kingdom|E]“应当”包含的所有[titles|E]。\n\n我们将这种$game_concept_title$等级制称为[de_jure|E]，如果这种结构被打破，就常常可能会导致领土纠纷战争。\n\n#TUT 如果你切换至公国头衔地图模式，你就可以看到，作为$d_munster$[duchy|E]的统治者，$c_desmond$[county|E]理应是你领地的一部分。#!"
  lesson_basics_de_jure_cbs_complete_1:0 "$lesson_basics_de_jure_cbs$"
  lesson_basics_de_jure_cbs_complete_2:0 "$lesson_basics_de_jure_cbs$"
  lesson_basics_change_map_mode_1_tt:1 "更改为公国头衔地图模式"
@@ -362,7 +361,7 @@
  lesson_declare_war_step_2:0 "$lesson_declare_war_step_1$"
  lesson_raise_troops_tt:0 "集结你的军队"
  lesson_army_movement_step_1:0 "军队移动"
- lesson_army_movement_step_1_desc:2 "要移动你的[army|E]，左键点击地图上的$game_concept_army$，再右键点击你想要他们去的地方。也许就是敌人的首都[barony|E]？\n\n#TUT 如果你下令$game_concept_army$跨过水域，他们会[embark|E]，变为一支[fleet|E]。目前来说，我们还是停留在陆地上。#!"
+ lesson_army_movement_step_1_desc:2 "要移动你的[army|E]，点击地图上的$game_concept_army$，接着在你想要他们去的地方右击。也许就是敌人的首都[barony|E]？\n\n#TUT 如果你下令$game_concept_army$跨过水域，他们会[embark|E]，变为一支[fleet|E]。目前来说，我们还是停留在陆地上。#!"
  lesson_army_purpose_step_1:0 "军队"
  lesson_army_purpose_step_1_desc:1 "现在你的[army|E]在移动了，可能在前往与敌军作战。这可能会是一次与其他$game_concept_armies$的正面较量，或者是一场[siege|E]的开端。\n\n#TUT 两支敌对$game_concept_armies$狭路相逢时，[battles|E]就会自动发生。\n\n类似的，$game_concept_sieges$会在你的$game_concept_army$位于一处敌方[holding|E]时发生。\n\n如果你还没#EMP 解除暂停游戏#!，现在是这样做的好时机。不然的话时间还是静止的，你的$game_concept_armies$不会移动！#!"
  lesson_battle_mechanics_step_1:0 "战斗！"

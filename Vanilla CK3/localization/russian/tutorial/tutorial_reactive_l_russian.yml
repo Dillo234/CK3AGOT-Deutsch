@@ -133,7 +133,7 @@
  action_reactive_advice_varangian_adventure_click:0 "$click_to_open_lesson$"
  reactive_advice_varangian_adventure:0 "$game_concept_varangian_adventures$"
  reactive_advice_varangian_adventure_step_1:0 "$game_concept_varangian_adventures$"
- reactive_advice_varangian_adventure_desc:0 "Вы можете начать [Concept( 'varangian_adventure', 'варяжское приключение' )|E].\n\nПока длится $culture_era_tribal$ [Concept( 'era', 'эра' )|E], этот тип войны позволит вам начать новую жизнь в чужих землях, далеко от холодных берегов вашей родины.\n\nУспешное [Concept( 'varangian_adventure', 'варяжское приключение' )|E] не только перенесет вашу державу в другие земли, но и предоставит независимость вашим старым землям, включая вассалов.\n\nВаше первое [Concept( 'varangian_adventure', 'варяжское приключение' )|E] в качестве $north_germanic_group_collective_noun$ого правителя также призовет вам на помощь дополнительные войска из графств региона [GetGeographicalRegion('dlc_fp1_region_core_mainland_scandinavia').GetName] с той же [Concept( 'faith', 'конфессией' )|E] и [Concept( 'culture', 'культурой' )|E]. Эти войска помогут вам завоевать новый дом."
+ reactive_advice_varangian_adventure_desc:0 "Вы можете начать [Concept( 'varangian_adventure', 'варяжское приключение' )|E].\n\nПока длится $culture_era_tribal$ [Concept( 'era', 'эра' )|E], этот тип войны позволит вам начать новую жизнь в чужих землях, далеко от холодных берегов вашей родины.\n\nУспешное [Concept( 'varangian_adventure', 'варяжское приключение' )|E] не только перенесет вашу державу в другие земли, но и предоставит независимость вашим старым землям, включая вассалов.\n\nВаше первое [Concept( 'varangian_adventure', 'варяжское приключение' )|E] в качестве $north_germanic_group$ого правителя также призовет вам на помощь дополнительные войска из графств региона [GetGeographicalRegion('dlc_fp1_region_core_mainland_scandinavia').GetName] с той же [Concept( 'faith', 'конфессией' )|E] и [Concept( 'culture', 'культурой' )|E]. Эти войска помогут вам завоевать новый дом."
 
 # Court positions
  action_reactive_advice_court_positions:0 "$open_tutorial_lesson$$ra_court_pos_open_view$"
@@ -160,3 +160,193 @@
  ra_artifact_inventory_open_step_open:0 "Открыть инвентарь (выделено)"
  ra_artifact_inventory_welcome:0 "$ra_artifact_inventory_general$"
  ra_artifact_inventory_welcome_desc:0 "В инвентаре вы можете экипировать [Concept( 'inventory_artifacts', 'личные артефакты' )|E], получая различные преимущества, вроде повышения определенных [Concept( 'skills', 'навыков' )|E] или увеличения [Concept( 'prestige', 'престижа' )|E].\n\nВы можете [Concept( 'repair', 'чинить' )|E] и [Concept( 'reforge', 'перековывать' )|E] [Concept( 'inventory_artifacts', 'личные артефакты' )|E], восстанавливая их [Concept( 'durability', 'прочность' )|E] и не давая разрушаться.\n\nЗдесь вы также найдете свои [Concept( 'artifact_claims', 'претензии на артефакты' )|E], которые можно попытаться отнять!"
+ 
+ # Inventory
+ ra_maa_stationing_open_card_step:0 "Размещение профессионалов"
+ ra_maa_stationing_open_card_step_desc:0 "У вас есть [Concept( 'men_at_arms', 'полки профессионалов' )|E], которые вы не [Concept( 'stationed', 'разместили' )|E].\n\nРазместив [Concept( 'regiments', 'полки' )|E], вы усилите их боевые возможности, что может стать ключом к победе в [Concept( 'battles', 'битвах' )|E].\n\nДавайте разместим полк!"
+ ra_maa_stationing_open_card_step_tt:0 "Щелкните по одному из профессиональных полков, отмеченных текстом «#X $MAA_UNSTATIONED$#!» (выделено)"
+ ra_maa_stationing_click_station_button:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_click_station_button_desc:0 "Вы можете разместить один [Concept( 'regiment', 'полк' )|E] [Concept( 'men_at_arms', 'профессионалов' )|E] в каждом [Concept( 'holding', 'владении' )|E] вашего [Concept( 'domain', 'домена' )|E]\n\nВсе владения совместимы со всеми типами полков, но в некоторых случаях бонусы будут выше.\n\nДавайте выберем владение для размещения полка."
+ ra_maa_stationing_click_station_button_tt:0 "Щелкните по кнопке «Изменить владение с полком» (выделено)"
+ ra_maa_stationing_select_station:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_select_station_desc:0 "Различные [holdings|El] дают различные бонусы в зависимости от того, какие [buildings|El] вы в них возвели.\n\nЗдесь вы можете увидеть, насколько сильнее станут ваши [Concept( 'regiment', 'полки' )|E] [Concept( 'men_at_arms', 'профессионалов' )|E], если разместить их во владении.\n\nЩелкните по #P зеленому#! владению на карте, которая, по-вашему, даст наилучшие бонусы полку."
+ ra_maa_stationing_select_station_tt:0 "Щелкните по любому #P зеленому#! владению на карте"
+ ra_maa_stationing_finished:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_finished_desc:0 "[Concept( 'regiment', 'Полк' )|E] [Concept( 'men_at_arms', 'профессионалов' )|E] теперь [Concept( 'stationed', 'размещен' )|E], и под его портретом вы можете видеть, насколько сильнее он стал (выделено).\n\nНе забывайте время от времени возвращаться к ним, чтобы ваши полки размещались в наиболее оптимальных [Concept( 'holdings', 'владениях' )|E].\n\nЭто особенно важно, если вы захватываете или наследуете новые территории или решаете добавить владению специализацию с помощью [Concept( 'buildings', 'зданий' )|E], таких как [GetBuilding('smiths_01').GetName|l] или [GetBuilding('stables_01').GetName|l]."
+
+
+# Tours
+ REACTIVE_ADVICE_TOURS:0 "Туры"
+
+ action_reactive_advice_tours_picking_vassals:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_TOURS$"
+ action_reactive_advice_tours_picking_vassals_desc:0 "Сейчас вы планируете, каких вассалов посетите во время большого тура. Откройте этот совет, чтобы больше узнать о планировании туров."
+ action_reactive_advice_tours_picking_vassals_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_tours_picking_vassals:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_intro:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_intro_desc:0 "Вы собираетесь совершить [GetActivityType( 'activity_tour' ).GetName()|l] по своей [Concept( 'realm', 'державе' )|E].\n\nВо время тура вы будете [Concept( 'travel', 'путешествовать' )|E], посещая своих [Concept('vassals', 'вассалов' )|E] и тратя [Concept( 'gold', 'золото' )|E], чтобы получить награды, в том числе [Concept( 'county_control', 'контроль над графством' )|E], [Concept( 'opinion', 'мнение' )|E], [Concept( 'cultural_acceptance', 'терпимость культур' )|E] и не только!"
+
+ ra_tours_picking_vassals_add:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_add_desc:0 "Сначала вы должны выбрать, каких [Concept('vassals', 'вассалов' )|E] планируете посетить.\n\n[GetActivityType( 'activity_tour' ).GetName()] определяет, какого именно стоит посетить. Например, во время [Concept( 'majesty_tour', 'величественного тура' )|E] каждая [Concept( 'stop', 'остановка' )|E] увеличивает [Concept( 'opinion', 'мнение' )|E] данного вассала, поэтому имеет смысл выбирать вассалов с низким мнением о вас.\n\nБольшие расстояния между остановками увеличивают затраты [Concept( 'gold', 'золота' )|E]."
+ ra_tours_picking_vassals_add_prompt:0 "Добавьте хотя бы одного вассала, щелкнув по карте"
+
+ ra_tours_picking_vassals_stops:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_stops_desc:0 "Во время каждой [Concept( 'stop', 'остановки' )|E] вы можете:\n$BULLET_WITH_TAB$[Concept( 'tour_the_grounds', 'Устроить осмотр земель' )|E], что увеличит [Concept( 'county_control', 'контроль над графством' )|E]\n$BULLET_WITH_TAB$Попросить устроить [Concept( 'hosted_dinner', 'званый обед' )|E], что даст вам [Concept( 'hooks', 'влияние' )|E] и позволит наладить [Concept( 'relations', 'особые отношения' )|E]\n$BULLET_WITH_TAB$Попросить [Concept( 'vassal', 'вассала' )|E] устроить [Concept( 'cultural_festival', 'культурное празднество' )|E], что увеличит [Concept( 'county_opinion', 'народное мнение' )|E] и [Concept( 'cultural_acceptance', 'терпимость культур' )|E]"
+
+ ra_tours_picking_vassals_conclusion:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_conclusion_desc:0 "Выбрав подходящие [Concept( 'stops', 'остановки' )|E] и определив их порядок, вы можете перейти к следующему этапу планирования."
+
+
+# Active Regency Liege Side
+ REACTIVE_ADVICE_REGENCY_TERM:0 "Регентство"
+ REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT:0 "Откройте окно «Регентство» (выделено)"
+ REACTIVE_ADVICE_YOU_REGENCY_REASONS:0 "[Concept( 'regency', 'Регентство' )|E] может начаться по самым разным причинам, как то:\n$BULLET_WITH_TAB$[Concept( 'travel', 'Путешествие' )|E] вашего персонажа за границами [Concept( 'realm', 'державы' )|E]\n$BULLET_WITH_TAB$[Concept( 'child', 'Несовершеннолетие' )|E] вашего персонажа\n$BULLET_WITH_TAB$[GetTrait('incapable').GetName( GetPlayer )] вашего персонажа"
+
+ reactive_advice_regency_for_liege:0 "$action_reactive_advice_regency_for_liege$"
+ action_reactive_advice_regency_for_liege:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_REGENCY_TERM$"
+ action_reactive_advice_regency_for_liege_desc:0 "Теперь у вас есть регент. Откройте описание регентства."
+ action_reactive_advice_regency_for_liege_click:0 "$click_to_open_lesson$"
+
+ ra_regency_liege_intro:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_intro_desc:0 "Теперь у вас есть [Concept( 'regent', 'регент' )|E].\n\n$REACTIVE_ADVICE_YOU_REGENCY_REASONS$"
+
+ ra_regency_liege_effects:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_effects_desc:0 "[Concept( 'regency', 'Регентство' )|E] ничем не ограничивает вашу свободу действий.\n\nОднако [Concept( 'regent', 'регент' )|E] владеет особыми [Concept( 'diarch_powers', 'возложенными полномочиями' )|E] и может воспользоваться ими в отношении вас или ваших [Concept('vassals', 'вассалов' )|E]. Вы же, в свою очередь, можете прибегнуть к [Concept( 'veto', 'праву вето' )|E]."
+
+ ra_regency_liege_open_UI:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_open_UI_desc:0 "Теперь давайте внимательно рассмотрим [Concept( 'regency', 'регентство' )|E]!"
+ ra_regency_liege_open_UI_prompt:0 "$REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT$"
+
+ ra_regency_liege_open_tab:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_open_tab_desc:0 "Ваш [Concept( 'regent', 'регент' )|E] отображается во вкладке «Мое наделение полномочиями»."
+ ra_regency_liege_open_tab_prompt:0 "Откройте вкладку «Мое наделение полномочиями» (выделено)"
+
+ ra_regency_liege_scales_of_power:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_scales_of_power_desc:0 "Это — [Concept( 'scales_of_power', 'равновесие сил' )|E].\n\nЧем сильнее оно склоняется в сторону вашего [Concept( 'regent', 'регента' )|E], тем больше [Concept( 'diarch_powers', 'возложенных полномочий' )|E] ему доступно и тем сложнее будет прервать [Concept( 'regency', 'регентство' )|E].\n\nЧтобы склонить равновесие в свою сторону, нажмите на кнопку «Сместить равновесие»."
+
+ ra_regency_liege_mandate:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_mandate_desc:0 "Вашему [Concept( 'regent', 'регенту' )|E] можно вручить [Concept( 'mandate', 'мандат' )|E], поставив таким образом конкретную задачу.\n\nСменить мандат можно в любой момент, как только возникнет необходимость."
+
+ ra_regency_liege_ending:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_ending_desc:0 "Вы можете попытаться прервать [Concept( 'regency', 'регентство' )|E], если условия, приведшие к его установлению, сменились.\n\n[Concept( 'regent', 'Регент' )|E] должен согласиться сложить полномочия. Чтобы он согласился наверняка, его можно подкупить [Concept( 'gold', 'золотом' )|E] или [Concept( 'favor', 'обязательствами' )|E].\n\nЕсли регент не желает отказываться от власти, он даже может объявить вам [Concept( 'war', 'войну' )|E]!"
+
+ ra_regency_liege_conclusion:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_conclusion_desc:0 "Как правило, регентство требует реагировать на складывающиеся обстоятельства. Пока что следите за показателем [Concept( 'scales_of_power', 'равновесия сил' )|E].\n\nКак только [Concept( 'regent', 'регент' )|E] воспользуется [Concept( 'diarch_powers', 'возложенными полномочиями' )|E], вы сразу об этом узнаете и сможете решить, как поступить."
+
+
+#  Active Regency Regent Side
+ reactive_advice_regency_for_regent:0 "$action_reactive_advice_regency_for_regent$"
+ action_reactive_advice_regency_for_regent:0 "$open_tutorial_lesson$"
+ action_reactive_advice_regency_for_regent_desc:0 "Вы взяли регентство над своим сюзереном. Откройте описание регентства."
+ action_reactive_advice_regency_for_regent_click:0 "$click_to_open_lesson$"
+
+ ra_regency_regent_intro:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_intro_desc:0 "Вы выступаете в роли [Concept( 'regent', 'регента' )|E] над своим [Concept( 'liege', 'сюзереном' )|E].\n\n[Concept( 'regency', 'Регентство' )|E] может начаться по самым разным причинам, как то:\n$BULLET_WITH_TAB$[Concept( 'travels', 'Путешествие' )|E] вашего сюзерена за границами [Concept( 'realm', 'державы' )|E]\n$BULLET_WITH_TAB$[Concept( 'child', 'Несовершеннолетие' )|E] вашего сюзерена\n$BULLET_WITH_TAB$[GetTrait('incapable').GetName( GetPlayer )] вашего сюзерена"
+
+ ra_regency_regent_powers:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_powers_desc:0 "В должности [Concept( 'regent', 'регента' )|E] вы наделены [Concept( 'diarch_powers', 'возложенными полномочиями' )|E] и можете воспользоваться ими в отношении [Concept( 'liege', 'сюзерена' )|E] или других [Concept('vassals', 'вассалов' )|E]. Ваш сюзерен может в любой момент наложить [Concept( 'veto', 'вето' )|E].\n\nСтарайтесь осторожнее пользоваться полномочиями для управления другими вассалами: они могут воспринять это как злоупотребление властью, и вы получите штраф к [Concept( 'opinion', 'мнению' )|E] о себе из-за [Concept( 'strife', 'недовольства' )|E]."
+
+ ra_regency_regent_open_UI:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_open_UI_desc:0 "Теперь давайте внимательно рассмотрим [Concept( 'regency', 'регентство' )|E]!"
+ ra_regency_regent_open_UI_prompt:0 "$REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT$"
+
+ ra_regency_regent_open_tab:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_open_tab_desc:0 "Ваш статус [Concept( 'regent', 'регента' )|E] отображается во вкладке «Наделение полномочиями сюзерена»."
+ ra_regency_regent_open_tab_prompt:0 "Откройте вкладку «Наделение полномочиями сюзерена» (выделено)."
+
+ ra_regency_regent_scales_of_power:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_scales_of_power_desc:0 "Это — [Concept( 'scales_of_power', 'равновесие сил' )|E].\n\nЧем сильнее оно склоняется в вашу сторону, тем больше [Concept( 'diarch_powers', 'возложенных полномочий' )|E] вам доступно и тем сложнее будет прервать [Concept( 'regency', 'регентство' )|E].\n\nЧтобы склонить равновесие в свою сторону, нажмите на кнопку «Сместить равновесие»."
+
+ ra_regency_regent_mandate:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_mandate_desc:0 "Ваш [Concept( 'liege', 'сюзерен' )|E] может наделить вас [Concept( 'mandate', 'мандатом' )|E], дав таким образом возможность укрепить [Concept( 'realm', 'державу' )|E].\n\nЕсли вы справитесь с возложенной ответственностью, [Concept( 'scales_of_power', 'равновесие сил' )|E] склонится в вашу сторону."
+
+ ra_regency_regent_ending:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_ending_desc:0 "Если условия, приведшие к установлению [Concept( 'regency', 'регентства' )|E], сменились, ваш [Concept( 'liege', 'сюзерен' )|E] может попытаться прервать его.\n\nЕсли [Concept( 'scales_of_power', 'равновесие сил' )|E] заметно склоняется в вашу сторону, вы сможете воспротивиться этим попыткам и даже объявить [Concept( 'war', 'войну' )|E] за [Concept( 'primary_title', 'первый титул' )|E]!"
+
+ ra_regency_regent_conclusion:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_conclusion_desc:0 "В должности [Concept( 'regent', 'регента' )|E] вы можете попробовать воспользоваться [Concept( 'diarch_powers', 'возложенными полномочиями' )|E] в отношении [Concept( 'liege', 'сюзерена' )|E] или других [Concept('vassals', 'вассалов' )|E].\n\nЕсли же вам не хочется портить отношения с сюзереном, то старайтесь не упускать возможности их укреплять. Сюзерен даже может наградить вас за верную службу!"
+
+
+# Prepare by setting a Regent
+ REACTIVE_ADVICE_FUTURE_REGENT:0 "Будущий регент"
+ action_reactive_advice_set_future_regent:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_FUTURE_REGENT$"
+ action_reactive_advice_set_future_regent_desc:1 "Если вы окажетесь неспособны править, бразды правления возьмет на себя регент. Откройте, чтобы узнать, как выбрать будущего регента."
+ action_reactive_advice_set_future_regent_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_set_future_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+
+ ra_regency_future_regent_intro:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_intro_desc:0 "В будущем может получиться так, что вы окажетесь неспособны править [Concept( 'realm', 'державой' )|E] самостоятельно. В таком случае установится [Concept( 'regency', 'регентство' )|E].\n\nВы можете заранее увидеть, кто станет [Concept( 'regent', 'регентом' )|E], или даже назначить такового лично!\n\n$REACTIVE_ADVICE_YOU_REGENCY_REASONS$"
+
+ ra_regency_future_regent_open_realm_panel:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_realm_panel_desc:0 "Давайте посмотрим, кто станет вашим [Concept( 'regency', 'регентом' )|E]! Вы можете определить это в окне «Держава»."
+ ra_regency_future_regent_open_realm_panel_prompt:0 "Откройте окно «Держава» (выделено)"
+
+ ra_regency_future_regent_open_UI:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_UI_desc:1 "Статус вашего [Concept( 'regency', 'регентства' )|E] показывается здесь, в верхней части окна «Держава»."
+ ra_regency_future_regent_open_UI_prompt:1 "Откройте окно «Регентство» (выделено)"
+
+ ra_regency_future_regent_open_tab:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_tab_desc:0 "Ваш будущий [Concept( 'regent', 'регент' )|E] отображается во вкладке «Мое наделение полномочиями»."
+ ra_regency_future_regent_open_tab_prompt:0 "$ra_regency_liege_open_tab_prompt$"
+
+ ra_regency_future_regent_current_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_current_regent_desc:0 "Здесь отображается ваш будущий [Concept( 'regent', 'регент' )|E].\n\nЕсли вы не назначите кандидата самостоятельно, полномочия получит претендент с самым большим количеством [Concept( 'regent_succession_score', 'очков наследования регентства' )|E]."
+
+ ra_regency_future_regent_swap_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_swap_regent_desc:0 "Выбрать [Concept( 'regent', 'регента' )|E] можно с помощью этой кнопки.\n\nПостарайтесь подобрать регента, который будет вам [Concept( 'diarch_loyalty', 'верен' )|E] и [Concept( 'diarch_aptitude', 'пригоден' )|E] к правлению."
+
+ ra_regency_future_regent_succession:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_succession_desc:0 "Если ваш текущий [Concept( 'regent', 'регент' )|E] умрет или окажется неспособен выполнять свои обязанности, его место займет следующий персонаж в порядке наследования."
+
+ ra_regency_future_regent_conclusion:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_conclusion_desc:0 "Сейчас рекомендуется назначить [Concept( 'regent', 'регента' )|E], чтобы ваш будущий заместитель не стал для вас неожиданностью."
+
+
+# Travel Planning
+ REACTIVE_ADVICE_TRAVEL_PLANNING:0 "Планирование путешествия"
+ action_reactive_advice_travel_planning:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ action_reactive_advice_travel_planning_desc:0 "Вы собираетесь отправиться в путешествие. Откройте этот совет, чтобы больше узнать о планировании путешествия."
+ action_reactive_advice_travel_planning_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_travel_planning:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+
+ ra_travel_planning_intro:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_intro_desc:0 "Вы намереваетесь отправиться в [Concept( 'travel', 'путешествие' )|E] вдали от вашего текущего местонахождения. Перед отправлением стоит спланировать свое путешествие."
+
+ ra_travel_planning_entourage:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_entourage_desc:0 "Вы редко [Concept( 'travel', 'путешествуете' )|E] в одиночестве. Сопровождающие вас [Concept( 'characters', 'персонажи' )|E] являются вашей [Concept( 'entourage', 'свитой' )|E].\n\nЭти персонажи часто присоединятся к вам у вашей конечной цели."
+
+ ra_travel_planning_speed_safety:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_speed_safety_desc:0 "При планировании [Concept( 'travel', 'путешествия' )|E] нужно учитывать два ключевых фактора: [Concept( 'travel_speed', 'скорость' )|E] и [Concept( 'travel_safety', 'безопасность путешествия' )|E].\n\nВ качестве базовой скорости принимается 100%, и более высокая скорость означает, что вы быстрее доберетесь до своей цели.\n\nБезопасность снижает [Concept( 'travel_danger', 'опасности' )|E], с которыми вы можете столкнуться в пути. Высокий показатель безопасности означает, что вы и ваша [Concept( 'entourage', 'свита' )|E] сможете с меньшим риском передвигаться через опасные участки."
+
+ ra_travel_planning_caravan_master:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_caravan_master_desc:0 "[GetCourtPositionType('travel_leader_court_position').GetName()] станет отличным дополнением к вашей свите. Это особая [Concept( 'court_position', 'придворная должность' )|E] для сопровождающего вас в [Concept( 'travels', 'путешествиях' )|E].\n\nКараванщик оказывает значительное влияние на [Concept( 'travel_speed', 'скорость' )|E] и [Concept( 'travel_safety', 'безопасность путешествия' )|E], и в большинстве случаев стоит нанять кого-нибудь на эту должность."
+
+ ra_travel_planning_travel_options:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_travel_options_desc:0 "Вы также можете выбрать до двух [Concept( 'travel_options', 'вариантов' )|E] для конкретного путешествия.\n\nЗачастую на них тратится [Concept( 'gold', 'золото' )|E], а взамен они предоставляют различные преимущества, в основном касающиеся [Concept( 'travel_speed', 'скорости' )|E] и [Concept( 'travel_safety', 'безопасности путешествия' )|E]. Каждый тип опасности отмечается на карте своим цветом. На карте также отмечаются опасности, с которыми вы можете столкнуться в пути."
+
+ ra_travel_planning_custom_route:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_custom_route_desc:0 "И наконец, вы можете самостоятельно задать маршрут, чтобы обойти [Concept( 'travel_danger', 'опасные участки' )|E], а не двигаться к цели напрямик."
+
+ ra_travel_planning_conclusion:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_conclusion_desc:0 "Напоследок обратите внимание на общее время в пути и удостоверьтесь, что вас подстерегает как можно меньше [Concept( 'travel_danger', 'опасностей' )|E].\n\nВ добрый путь!"
+
+# Create Accolade
+ REACTIVE_ADVICE_CREATE_ACCOLADE:0 "Акколады"
+
+ reactive_advice_create_accolade:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+
+ ra_create_accolade_knights_panel:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_knights_panel_desc:0 "Вы можете провести [Concept( 'accolade', 'акколаду' )|E] одному из своих [Concept( 'knights', 'рыцарей' )|E]!\n\nРыцари, прошедшие акколаду, становятся [Concept( 'acclaimed_knight', 'именитыми' )|E] и предоставляют бонусы вам и вашим [Concept( 'armies', 'армиям' )|E].\n\nАкколады сохраняются до тех пор, пока вы не решите их уничтожить, и будут передаваться новым рыцарям через [Concept( 'accolade_succession', 'наследование' )|E]."
+ ra_create_accolade_knights_panel_prompt:0 "Выберите неназначенную акколаду (выделено)"
+
+ ra_create_accolade_candidates:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_candidates_desc:0 "При проведении [Concept( 'accolade', 'акколады' )|E] вы выбираете подходящего [Concept( 'knights', 'рыцаря' )|E] из списка."
+ ra_create_accolade_candidates_prompt:0 "Выберите кандидата из списка (выделено)"
+
+ ra_create_accolade_attributes:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_attributes_desc:0 "У каждого [Concept( 'acclaimed_knight', 'именитого рыцаря' )|E] есть по два [Concept( 'accolade_types', 'типа акколад' )|E] (выделено): основная и второстепенная. До создания [Concept( 'accolade', 'акколады' )|E] можно посмотреть эти атрибуты у каждого из кандидатов.\n\nВсе атрибуты предоставляют различные бонусы вам и вашим [Concept( 'armies', 'армиям' )|E] по мере роста [Concept( 'glory', 'славы' )|E] акколады. Источниками славы являются [GetActivityType( 'activity_tournament' ).GetName()|l], в частности [Concept( 'contests', 'состязания' )|E], и [Concept( 'battles', 'битвы' )|E].\n\nОсновной атрибут всегда остается частью [Concept( 'accolade', 'акколады' )|E], и его нельзя изменить при [Concept( 'accolade_succession', 'наследовании' )|E]."
+   
+ ra_create_accolade_conclusion:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_conclusion_desc:0 "Теперь у вас есть возможность при желании проводить [Concept( 'accolade', 'акколады' )|E].\n\nПо мере того, как ваша [Concept( 'culture', 'культура' )|E] открывает [Concept( 'innovations', 'инновации' )|E], вам будет доступно больше акколад."

@@ -1,6 +1,6 @@
 ﻿l_french:
  DETACH_COMMANDER:0 "Retirer le commandant"
- CANT_COMMAND_TITLE:0 "#T [CHARACTER.GetUIName] ne peut pas commander d’armée#!"
+ CANT_COMMAND_TITLE:0 "#T [CHARACTER.Custom('FR_le_Char_U_P')|U][CHARACTER.GetUIName] ne [Select_CString(CHARACTER.IsLocalPlayer, 'pouvez', 'peut')] pas commander d’armée#!"
  CANT_COMMAND_REASON_DEAD:0 "  - Est mort[CHARACTER.Custom('FR_E')]"
  CANT_COMMAND_REASON_IN_POOL:0 "  - Est un vagabond"
  CANT_COMMAND_REASON_FEMALE:0 "  - Est une femme"

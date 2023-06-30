@@ -11,6 +11,7 @@
  task_foreign_affairs_prestige_dynasty_perk_bonus_modifier:0 "$erudition_legacy_5_name$"
  task_foreign_affairs_opinion_modifier:1 "[foreign_affairs|E]"
  task_domestic_affairs_opinion_moidifier:1 "[domestic_affairs|E]"
+ task_domestic_affairs_parochial_opinion_moidifier:0 "[domestic_affairs|E]（[GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName]）"
 
  court_chaplain_religious_relations_modifier:1 "[religious_relations|E]"
  court_chaplain_religious_relations_perk_bonus_modifier:0 "$clerical_justifications_perk_name$"
@@ -83,8 +84,8 @@
  councillor_spouse_diplomacy_2_modifier:0 "外交专长"
  councillor_spouse_martial_1_modifier:0 "策略技能"
  councillor_spouse_martial_2_modifier:0 "策略专长"
- councillor_spouse_stewardship_1_modifier:0 "农业技能"
- councillor_spouse_stewardship_2_modifier:0 "农业专长"
+ councillor_spouse_stewardship_1_modifier:0 "建筑技能"
+ councillor_spouse_stewardship_2_modifier:0 "建筑专长"
  councillor_spouse_intrigue_1_modifier:0 "谋略技能"
  councillor_spouse_intrigue_2_modifier:0 "谋略专长"
  councillor_spouse_learning_1_modifier:0 "学识技能"
@@ -129,7 +130,7 @@
 
  councillor_spouse_health_modifier:0 "悉心呵护"
  councillor_spouse_health_modifier_desc:0 "伤病得到备受关怀的私人照料。"
- councillor_spouse_mercenary_cost_modifier:2 "谈妥雇佣军合约"
+ councillor_spouse_mercenary_cost_modifier:2 "商定雇佣军合约"
  councillor_spouse_mercenary_cost_modifier_desc:0 "该角色的配偶已经准备好与区域内所有的任何雇佣兵协商谈判。"
  councillor_spouse_chivalric_boost_modifier:1 "骑士配偶"
  councillor_spouse_chivalric_boost_modifier_desc:0 "该角色的配偶鼓舞军队，并向全领地宣讲什么是值得为之战斗的。"

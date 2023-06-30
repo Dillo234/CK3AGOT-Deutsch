@@ -25,12 +25,12 @@
  iberian_reclamation_cb_victory_desc_defender_vassalize:0 "[attacker.GetShortUIName|U] te avasalla"
  iberian_reclamation_cb_victory_desc_attacker_conquer_1:0 "$EFFECT_LIST_BULLET$Te conviertes en [liege|lE] de los [vassals|lE] [Concept( 'struggle_involved', 'involucrados' )|E] de [rank|lE] inferior de [defender.GetShortUIName] del [duchy|lE] objetivo"
  iberian_reclamation_cb_victory_desc_attacker_conquer_2:0 "$EFFECT_LIST_BULLET$Ganas [counties|lE] [Concept( 'struggle_uninvolved', 'no involucrados' )|E] y los de aquellos [holders|lE] con tierras fuera del [duchy|lE]\n"
- iberian_reclamation_cb_victory_desc_defender_conquer_1:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] se convierte en [liege|lE] de [defender.GetCharacter.LocalPlayerString( 'tus', 'los' )] [vassals|E] [Concept( 'struggle_involved', 'involucrados' )|E] de [rank|lE] inferior[defender.GetCharacter.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )] del [duchy|lE] objetivo"
+ iberian_reclamation_cb_victory_desc_defender_conquer_1:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] se convierte en [liege|lE] de [defender.LocalPlayerString( 'tus', 'los' )] [vassals|E] [Concept( 'struggle_involved', 'involucrados' )|E] de [rank|lE] inferior al de [Select_CString( defender.IsLocalPlayer, 'tu persona', defender.GetShortUIName )] del [duchy|lE] objetivo"
  iberian_reclamation_cb_victory_desc_defender_conquer_2:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName] gana [counties|lE] [Concept( 'struggle_uninvolved', 'no involucrados' )|E] y los de aquellos [holders|lE] con tierras fuera del [duchy|lE]\n"
  fp2_expel_interloper:0 "[iberian_reclamation|E]"
 
 
- iberian_reclamation_cb_white_peace_desc_vassalize:0 "[defender.GetShortUIName|U] [defender.GetCharacter.LocalPlayerString( 'seguirás', 'seguirá' )] siendo [independent|lE]"
+ iberian_reclamation_cb_white_peace_desc_vassalize:0 "[defender.GetShortUIName|U] [defender.LocalPlayerString( 'seguirás', 'seguirá' )] siendo [independent|lE]"
  iberian_reclamation_cb_white_peace_desc_conquer:0 "[defender.GetShortUIName] conservará los [titles|lE] disputados."
  iberian_reclamation_cb_defeat_desc_vassalize:0 "$iberian_reclamation_cb_white_peace_desc_vassalize$"
  iberian_reclamation_cb_defeat_desc_conquer:0 "$iberian_reclamation_cb_white_peace_desc_conquer$"

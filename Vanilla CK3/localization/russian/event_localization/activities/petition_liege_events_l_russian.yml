@@ -5,10 +5,10 @@
  # Activity Start: Liege decides whether or not to hear petition
  petition_liege.0001.opening:1 "[petition_vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
  petition_liege.0001.desc:1 "Я и моя свита только возвращаемся после долгого изнурительного путешествия, и вот, наконец, [petition_liege.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. Мне нужно обсудить с вами кое-что важное — от этого разговора зависит, насколько благополучно будет жить [petition_vassal.GetPrimaryTitle.GetNameNoTier], — поэтому я прошу принять меня при дворе как можно скорее."
- petition_liege.0001.a:1 "Подать [petitioning_vassal.GetHerHis] сюда!"
+ petition_liege.0001.a:1 "Подать [petition_vassal.GetHersHis] сюда!"
  petition_liege.0001.a.tt:1 "[petition_vassal.GetTitledFirstName] прибывает на прием к вашему [Concept( 'royal_court', 'двору' )|E]"
  petition_liege.0001.b:1 "У меня слишком много дел, [petition_vassal.GetHerHim] подождет."
- petition_liege.0001.b.arrogant:1 "Пф, [Select_CString(petitioning_vassal.IsFemale, 'какая-то' 'какой-то' )] #EMP [petitioning_vassal.GetTitleAsNameNoTooltip|l]#!. Мне некогда!"
+ petition_liege.0001.b.arrogant:1 "Пф, [Select_CString(petition_vassal.IsFemale, 'какая-то', 'какой-то' )] #EMP [petition_vassal.GetTitleAsNameNoTooltip|l]#!. Мне некогда!"
  petition_liege.0001.b.humble:1 "[petition_vassal.GetTitledFirstNameNoTooltip] не попадет ко мне на прием, но передайте [petition_vassal.GetHerHim] мое глубочайшее сожаление."
  petition_liege.0001.b.tt:1 "[petition_vassal.GetTitledFirstName] уходит"
 
@@ -38,7 +38,7 @@
  petition_liege.0101.desc.council_seat:0 "пожалуйста, [petition_liege.GetLadyLord], позвольте мне заседать в совете».\n\n«Мои способности остаются без внимания, тогда как [petition_vassal.GetWomenMen] куда более скромных талантов имеют возможность высказываться на высшем уровне. Я разделю бремя управления державой, а в вашем совете появится [petition_vassal.Custom('GetCouncilPositionRequest')] с выдающимися способностями»."
  petition_liege.0101.desc.pay_debt:0 "у меня возникли определенные... трудности с деньгами из-за не зависящих от меня событий».\n\n«Ради блага державы, не могли бы вы помочь мне расплатиться по счетам?»"
  petition_liege.0101.desc.war_aid:0 "[petition_war.GetName] проходит неудачно для меня, и [second_party.GetTitledFirstNameNoTooltip] одерживает верх».\n\n«[petition_liege.GetLadyLord|U], мое поражение обернется поражением и для вас. Поддержите меня, ради блага державы»."
- petition_liege.0101.desc.end_war:1 "\n\n«Благодарю вас, мой сюзерен, что приняли меня. Мое дело не терпит отлагательства! [petitioning_vassal.GetPrimaryTitle.GetName] в страхе: [warring_vassal.GetTitledFirstNameNoTooltip] [Select_CString(warring_vassal.IsFemale, 'пошла', 'пошел' )] войной на меня и ваших верных подданных! Эта междоусобная грызня только ослабит нас! Не стоит ли подавить ее в зародыше?"
+ petition_liege.0101.desc.end_war:1 "[petition_vassal.GetPrimaryTitle.GetName] в страхе: [second_party.GetTitledFirstNameNoTooltip] [Select_CString(second_party.IsFemale, 'пошла', 'пошел' )] войной на меня и ваших верных подданных!»\n\n«Эта междоусобная грызня только ослабит нас! Не стоит ли подавить ее в зародыше?»"
  petition_liege.0101.desc.faction_war:0 "мне не дают покоя [second_party.GetTitledFirstName] и [second_party.GetHerHis] [vassal_faction.GetNameNoTooltip|l]!»\n\n«Прошу вас, поставьте их на место, ради блага державы!»"
  petition_liege.0101.desc.county_control:0 "владение [petition_county_example.GetNameNoTooltip] полно иноверцев, которые препятствуют сбору налогов!»\n\n«Прошу вас, [petition_liege.GetLadyLord], помогите мне привести их к покорности, ради блага державы»."
  petition_liege.0101.desc.county_convert:0 "владение [petition_county_example.GetNameNoTooltip] заполонили опасные безбожники [petition_county_example.GetCountyData.GetFaith.GetAdherentNamePluralNoTooltip|l]!»\n\n«Мои священники стараются как могут, но, боюсь, им потребуется помощь в очищении державы от зла»."
@@ -256,6 +256,25 @@
  petition_liege.9999.gregarious:0 "Вот неплохая возможность ближе пообщаться с придворными."
  petition_liege.9999.every_guest_and_courtier:0 "Каждый гость и придворный:"
 
+ petition_liege.9001.t:0 "$petition_liege_header$ смена тактики"
+ petition_liege.9001.desc:0 "[petition_liege.GetTitledFirstName] уже не примет мою петицию ([ROOT.Char.Custom( 'GetPetitionType' )|l]). Так или иначе, передо мной сейчас [petition_liege.GetCapitalLocation.GetName] и позади долгий путь, проделанный лишь ради того, чтобы меня услышали. Я не стану упускать такую возможность. Я попрошу [petition_liege.GetHerHim]..."
+ petition_liege.9001.council_seat:0 "Назначить меня в свой совет."
+ petition_liege.9001.pay_debt:0 "Выплатить мои долги."
+ petition_liege.9001.war_aid:0 "Оказать мне военную помощь."
+ petition_liege.9001.vassal_war:0 "Принудить моих собратьев-вассалов к миру."
+ petition_liege.9001.faction_war:0 "Распустить могущественную фракцию."
+ petition_liege.9001.county_control:0 "Отправить бейлифов, чтобы помочь восстановить контроль над непослушными графствами."
+ petition_liege.9001.county_convert:0 "Заплатить священникам, чтобы те помогли обратить в другую религию графства в моей державе."
+ petition_liege.9001.county_opinion:0 "Нанести монарший визит, чтобы улучшить народное мнение о моей державе."
+ petition_liege.9001.fortify_border:0 "Укрепить мои границы."
+ petition_liege.9001.title_liege:0 "Удовлетворить мои претензии."
+ petition_liege.9001.title_vassal:0 "Передача претензии"
+ petition_liege.9001.construct_city:0 "Воздвигнуть новый город в моей державе."
+ petition_liege.9001.construct_temple:0 "Воздвигнуть новый храм в моей державе."
+ petition_liege.9001.development:0 "Переселить часть своих подданных в мою державу."
+ petition_liege.9001.fallback:0 "Просто наполнить мою казну."
+ petition_liege.0101.accept.fallback:0 "Хорошо, твоя казна будет наполнена."
+
  petition_liege_block_firing_councillor_effect_tt:0 "[petition_vassal.GetShortUIName|U] не может быть [Select_CString(petition_vassal.IsFemale, 'уволена', 'уволен' )] из [Concept( 'council', 'совета' )|E] в течение 5 лет"
 
  ### Modifiers ###
@@ -287,3 +306,5 @@
  petition_liege_title_courtier:0 "придворный"
 
  petition_liege_second_if_tt:0 "#bold Если [TARGET_CHARACTER.GetTitledFirstName] согласится:#!"
+ 
+ petition_liege_costs_refunded:0 "$petition_liege_decision$ — затраты возмещены"

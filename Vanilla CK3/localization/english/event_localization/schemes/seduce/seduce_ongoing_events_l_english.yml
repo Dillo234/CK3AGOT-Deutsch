@@ -212,7 +212,7 @@
  seduce_ongoing.1802.b.bad:0 "How embarrassing..."
  seduce_ongoing.1802.c:0 "I have no interest in these attentions!"
 
- seduce_ongoing.1601.t:0 "A Reading in [location.GetNameNoTierNoTooltip]"
+ seduce_ongoing.1601.t:1 "A Reading in [location.GetNameNoTooltip]"
  seduce_ongoing.1601.t_no_location:0 "A Reading"
  seduce_ongoing.1601.desc:0 "The celebrations had come to an end and the evening's entertainment seemed to be over, when [target.GetTitledFirstName] suggested a reading.\n\nA clerk soon arrives, wondering what the guests would like to hear, and I see my chance to impress [target.GetFirstName]."
  seduce_ongoing.1601.a:0 "Something pious, like [SCOPE.Custom('RandomReligiousTextName')]."
@@ -676,4 +676,4 @@
  seduce_ongoing.7102.a:0 "I should rethink my approach..."
  seduce_ongoing.7201.desc:0 ""I'd like to get to know you better."\n[target.GetTitledFirstName] appears tense at first, but relaxes over time as [target.GetSheHe] starts to believe there's no ulterior motive behind my request.\n\nBefore we part, I thank [target.GetFirstNameNoTooltip] for the lovely time and [target.GetSheHe] tries to return my smile with a wobbly one of [target.GetHerHis] own. While the time spent is hardly one for the books, there's no denying that I've never seen [target.GetFirstNameNoTooltip] smile this much in one day. I am certain that [target.GetFirstNameNoTooltip] will be thinking of me for a long time."
  seduce_ongoing.7202.desc:1 "Getting a moment alone with [target.GetTitledFirstName] wasn't difficult. However, it turns out that the challenging part is having a normal conversation with [target.GetHerHim]. I ask [target.GetHerHim] a question and [target.GetSheHe] replies with the shortest answer [target.GetSheHe] can think of just to shut down our conversation. It's like pulling an endless amount of teeth!"
- seduce_ongoing.7202.desc_animal:0 "\n\nI can't stop thinking that I would get more of a response from a dead [ROOT.Char.Custom('LocalAnimal')] than from [target.GetFirstNameNoTooltip]."
+ seduce_ongoing.7202.desc_animal:0 "\n\nI can't stop thinking that I would get more of a response from a dead [ROOT.Char.Custom('GetAnimalType')] than from [target.GetFirstNameNoTooltip]."

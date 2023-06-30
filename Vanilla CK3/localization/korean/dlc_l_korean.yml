@@ -5,17 +5,17 @@
  DLC_COMPLETE_COLLECTION:0 "컬렉션을 완성하세요"
  VISIT_STORE_BUTTON:0 "상점 방문"
  DLC_ENABLED:0 "DLC 활성화"
- DLC_NOT_ENABLED:0 "DLC #X 비활성화#!"
+ DLC_NOT_ENABLED:1 "DLC #X 비활성화#!"
  DLC_FEATURES:0 "특징"
- DLC_BUTTON_TOOLTIP:0 "#T [DlcItem.GetDlc.GetName]#!\n[DlcItem.GetDlc.GetDesc]\n\n#low [SelectLocalization( DlcItem.GetDlc.IsEnabled, 'DLC_ENABLED', 'DLC_NOT_ENABLED' )]#!\n#I 클릭하여 상점 방문#!"
+ DLC_BUTTON_TOOLTIP:1 "#T [DlcItem.GetDlc.GetName]#!\n[DlcItem.GetDlc.GetDesc]\n\n#low [SelectLocalization( DlcItem.GetDlc.IsEnabled, 'DLC_ENABLED', 'DLC_NOT_ENABLED' )]#!\n#I 클릭하여 상점 방문#!"
 
-# DLC names should not be translated according to marketing
  DLC001_PREORDER:0 "Garments of the Holy Roman Empire"
  DLC002_SP_DAY1:0 "Fashion of the Abbasid Court"
  DLC003_FP1:0 "The Northern Lords"
  DLC004_EP1:0 "The Royal Court"
- DLC005_FP2:0 "The Fate of Iberia"
- DLC006_BP1:0 "Friends & Foes"
+ DLC005_FP2:0 "이베리아의 운명"
+ DLC006_BP1:0 "친우와 수적"
+ DLC007_EP2:0 "Tours and Tournaments"
  DLC008_SP2:0 "Elegance of the Empire"
 
 
@@ -31,6 +31,7 @@
  dlc_005_desc:0 "Crusader Kings III: 이베리아의 운명 플레이버 팩에서 태양의 축복을 받은 이베리아의 영광을 목도하세요. 역사와 문화, 사람이 가득한 중세 이베리아 반도의 운명을 여러분의 손으로 직접 빚어내 보세요. 부드러운 회유의 손길을 내밀든, 냉혹한 철권을 휘두르든 결정은 자유입니다."
  dlc_006:0 "$DLC006_BP1$"
  dlc_006_desc:0 "조심하세요, 영주님. 누가 아군이고 적인지 조심스럽게 구분해야 합니다. Crusader Kings III: 친우와 수적에서는 그 어느 때보다도 관계를 중요하게 여겨야 합니다. 최측근이 마치 진짜 살아있는 것처럼 역동적으로 다가오는 모습을 확인해 보세요."
+ dlc_007:0 "$DLC007_EP2$"
+ dlc_007_desc:0 "위험천만한 중세의 땅을 넘나들며 웅장한 토너먼트와 대규모 결혼식, 행차에 참여해 영광을 누리고 역사를 다시 써 내려가세요."
  dlc_008:0 "$DLC008_SP2$"
- dlc_008_desc:0 "이 의상 팩으로 통치자들을 최고로 화려한 옷과 보석으로 치장하세요. 황제 헨리 2세와 여황제 쿠니군데의 예복과 의복을 바탕으로 한 해당 팩에는 새로운 로브 및 드레스를 비롯해 역사적으로 고증된 왕관 및 기타 물품이 포함되어 있습니다. 챕터 II 소지자만 이용할 수 있습니다."
- 
+ dlc_008_desc:0 "이 의류 팩으로 여러분의 영주를 최고로 고급스러운 의복으로 꾸며 보세요. 하인리히 2세 황제와 쿠니쿤데 여제의 예복을 바탕으로 제작된 본 팩은 새로운 로브와 드레스는 물론, 역사 고증에 신경 쓴 왕관과 기타 소품을 추가합니다. 챕터 II 소유자 독점으로 제공됩니다."

@@ -121,7 +121,7 @@
  learning_theology.3046.desc:0 "신비로운 지식을 탐구하며 경험하겠다고 나선 지도 오래되었건만, 성과가... 전혀 없다! 이제 남은 해결책은 처음 상황으로 돌아가서, 당시의 시험을 그대로 재현하는 방법뿐이다.\n\n어떻게든 성령과 교감을 하고 싶은데... 의도적으로 날 무시하는 건 아니겠지?"
  learning_theology.3046.a:0 "어떻게든 답을 찾아내겠어!"
  learning_theology.3046.a.success:0 "시험에 성공함"
- learning_theology.3046.a.success.tt:0 "[GetTrait('mystic_1').GetName( GetPlayer )](을)를 획득할 수도 있음"
+ learning_theology.3046.a.success.tt:1 "[GetTrait('lifestyle_mystic').GetName( GetPlayer )](을)를 획득할 수도 있음"
  learning_theology.3046.a.failure:0 "아무것도 느끼지 못함"
  learning_theology.3046.a.failure.tt:0 "탐구를 이어가다가 정신을 놓아버림"
  learning_theology.3046.b:0 "이게 뭐 하는 건지... 어리석은 짓이니 관두는 게 좋겠어."
@@ -131,7 +131,7 @@
 
 # Passion Play fanfiction drama, by James Beaumont
  learning_theology.3051.t:0 "[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]에서의 [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] 연극"
- learning_theology.3051.desc.intro:0 "이름 높은 [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] 극작가 [passion_playwright.GetName](이)가 본인의 작품을 선보일 것이란 소식을 들었다. 연극의 제목은 바로..." # [LocEditor:AwaitingBatchUpdate]
+ learning_theology.3051.desc.intro:1 "이름 높은 [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] 극작가 [passion_playwright.GetName](이)가 본인의 작품을 선보일 것이란 소식을 들었다. 연극의 제목은 바로..."
  learning_theology.3051.passion:0 "[ROOT.Char.GetFaith.random_GoodGodNames]의 열정"
  learning_theology.3051.arabian_nights:0 "[ROOT.Char.GetPrimaryTitle.GetAdjective]의 이천일야화"
  learning_theology.3051.inferno:0 "[ROOT.Char.GetFaith.random_EvilGodNames]의 지옥"
@@ -146,7 +146,7 @@
  learning_theology.3052.desc:0 "눈앞에서 펼쳐지는 연극을 보며 왜 [passion_playwright.GetName](이)가 문학의 천재로 정평이 났는지 대번에 알 수 있었다. 산문, 연기... 모든 요소가 어우러져 [ROOT.Char.GetFaith.ReligiousText]에 기록된 사건을 실제로 목격하는 듯한 기분이 든다. [ROOT.Char.GetFaith.CreatorName]께서 업을 행하시는 모습을 지켜보는 것만 같다!\n\n연극이 마무리된 후 나는 [passion_playwright.GetNameNoTooltip](와)과 독대할 수 있었다."
  learning_theology.3052.a:0 "자네처럼 [ROOT.Char.GetFaith.ReligiousText](을)를 해석하는 방법을 알려주게!"
  learning_theology.3052.b:0 "내가 써도 이것보단 낫겠다!"
- learning_theology.3053.desc:0 "눈앞에서 펼쳐지는 연극을 보며 느낀 감상은, 의심의 여지 없는 시시함이었다. 내가 목격한 광경은 문학이라 부를 가치조차 없었다.\n\n이야기는 [ROOT.GetRandomRegionalWood|U] [ROOT.GetRandomRegionalBird|U]길을 무대로 하는데, [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] 신비주의와 마술을 연구하는 젊은 학자가 동문 학자들 사이에서 여러 연인을 전전하는 얘기였다.\n\n사실상 [ROOT.Char.GetFaith.ReligiousText](와)과는 무관하다시피 한 연극이었다. 다른 관객들은 이미 [passion_playwright.GetNamePossessive] 조잡한 각본에 조롱과 야유를 보내고 있었다."
+ learning_theology.3053.desc:1 "눈앞에서 펼쳐지는 연극을 보며 느낀 감상은, 의심의 여지 없는 시시함이었다. 내가 목격한 광경은 문학이라 부를 가치조차 없었다.\n\n이야기는 [ROOT.Char.GetCapitalLocation.Custom('GetRandomRegionalWood')|U] [ROOT.GetRandomRegionalBird|U]길을 무대로 하는데, [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] 신비주의와 마술을 연구하는 젊은 학자가 동문 학자들 사이에서 여러 연인을 전전하는 얘기였다.\n\n사실상 [ROOT.Char.GetFaith.ReligiousText](와)과는 무관하다시피 한 연극이었다. 다른 관객들은 이미 [passion_playwright.GetNamePossessive] 조잡한 각본에 조롱과 야유를 보내고 있었다."
  learning_theology.3053.a:0 "우우우!"
  learning_theology.3053.b:0 "내가 직접 연극을 쓰겠어!"
  learning_theology.3053.c:0 "이 멍청한 놈들. [passion_playwright.GetFirstNamePossessiveNoTooltip] 천재성도 모르고!"

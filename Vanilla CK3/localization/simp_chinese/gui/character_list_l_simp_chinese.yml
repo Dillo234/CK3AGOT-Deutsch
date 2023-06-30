@@ -174,6 +174,7 @@
  has_any_inventory_artifact_filter_option_desc:0 "仅显示拥有至少一件[inventory_artifact|E]的角色"
  has_no_artifact_filter_option:0 "没有宝物"
  has_no_artifact_filter_option_desc:0 "仅显示没有[artifacts|E]的角色"
+ vassal_stance_filter:0 "封臣立场"
 
  CHARACTER_LIST_TEXT_FILTER_TOOLTIP:0 "#T 文本搜索#!\n输入角色名称、宗族家族、特质、文化或信仰的字段"
  CHARACTER_LIST_TEXT_FILTER_TITLE:0 "匹配条目"
@@ -204,7 +205,7 @@
  CHARACTER_LIST_FILTER_PRESET_BUTTON_DEFAULT:0 "默认筛选"
  CHARACTER_LIST_FILTER_PRESET_BUTTON_UNSAVED_PRESET:0 "保存筛选"
  CHARACTER_LIST_FILTER_PRESET_NAME_LABEL:0 "名称"
- CHARACTER_LIST_FILTER_PRESET_NAME_VALUE:0 "$NAME$"
+ CHARACTER_LIST_FILTER_PRESET_NAME_VALUE:0 "“$NAME$”"
 
  CHARACTER_LIST_FILTER_PRESET_OVERWRITE_HEADER:0 "覆盖搜索预设"
  CHARACTER_LIST_FILTER_PRESET_OVERWRITE_TEXT:0 "你确定要覆盖$PRESET_NAME|x$吗？"

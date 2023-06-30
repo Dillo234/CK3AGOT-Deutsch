@@ -14,7 +14,7 @@
  stewardship_wealth.1001.b.givehook:0 "如果[wealthy_vassal.GetTitledFirstNameNoTooltip]帮我摆脱窘境，我会欠[wealthy_vassal.GetSheHe]一个人情。"
  stewardship_wealth.1001.c:0 "我要求我的封臣纳贡！"
  stewardship_wealth.1001.c.tt:0 "所有封臣："
- stewardship_wealth.1001.d:0 "充公教会财产来筹集资金。"
+ stewardship_wealth.1001.d:1 "没收宗教财产以筹集资金。"
  stewardship_wealth.1001.e:0 "我会收紧裤腰带，尽我所能勤俭节约。"
  
  # Minting New Coins, bu Stephen Arthur and Sean Hughes
@@ -124,8 +124,8 @@
 
 # Beyond Boundaries by Jason Cantalini
  stewardship_wealth.7001.t:0 "越界"
- stewardship_wealth.7001.desc:0 "[thieving_rival.GetTitledFirstName]和[thieving_rival.GetHerHis]那做贼的走狗真是该死！我的[messenger.GetCouncilTitle]结结巴巴地上报消息，那群恶棍厚颜无耻地胁迫[ROOT.Char.GetCapitalLocation.GetName]的平民交出本应归我所有的财产！\n\n[messenger.GetTitledFirstName]让我的公职人员准备好去收取我们的日常费用……但我已经看到了寡妇在哀嚎，儿童在挨饿，贫困的家庭正流离失所。\n\n[thieving_rival.GetTitledFirstNamePossessiveNoTooltip]那贪婪的灵魂真该千刀万剐！"
-
+ stewardship_wealth.7001.desc:1 "[thieving_rival.GetTitledFirstName]和[thieving_rival.GetHerHis]那做贼的走狗真是该死！我的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('messenger'))][messenger.GetTitledFirstName]结结巴巴地上报消息，那群恶棍厚颜无耻地胁迫[ROOT.Char.GetCapitalLocation.GetName]的平民交出本应归我所有的财产！\n\n[messenger.GetFirstNameNoTooltip]让我的公职人员准备好去收取我们的日常费用……但我已经看到了寡妇在哀嚎，儿童在挨饿，贫困的家庭正流离失所。\n\n[thieving_rival.GetTitledFirstNamePossessiveNoTooltip]那贪婪的灵魂真该千刀万剐！"
+ stewardship_wealth.7001.tt.crime_alert:0 "[victim.GetTitledFirstName]会记住这件事"
  stewardship_wealth.7001.justification:0 "[thieving_rival.GetSheHe|U]散布了[thieving_rival.GetHerHis]作为我领主的权利的脆弱谎言，但我知道[thieving_rival.GetSheHe]拿的是属于我的东西……"
  stewardship_wealth.7001.unleashed_knights:0 "[thieving_rival.GetSheHe|U]和[thieving_rival.GetHerHis]的家臣，那群卑鄙的强盗，名声一天比一天臭……"
 
@@ -134,3 +134,14 @@
  stewardship_wealth.7001.b:0 "我个人的争执与我的人民无关。"
  stewardship_wealth.7001.b.tt:0 "[thieving_rival.GetFirstNameNoTooltip]的受害者免征赋税"
 
+ stewardship_wealth.2000.t:0 "重量级机会"
+ stewardship_wealth.2000.desc:0 "我和我的财政总管走在[loc_capital_county.GetNameNoTier]的街道上，寻找着补充略显空虚的金库的机会。当我们到达市场的过秤大厅时，[loc_steward.GetFirstName]压低声音开始说话：\n\n“如果我们能……#EMP 创造性#!地对这里的商品征税，就能悄悄获得更多收入。我可以准备另一套砝码石，看上去和原来的一样，但其实稍微调整了重量。这样，商人就得为相同的商品缴纳更多税款！而且没人会怀疑！\n\n只要你愿意，我们就可以改变重量，然后看着钱流入你的金库！""
+ stewardship_wealth.2000.a:0 "我们今晚就行动。"
+ stewardship_wealth.2000.a.tt.success:0 "砝码石被换了，而且没人注意到"
+ stewardship_wealth.2000.a.tt.failure:0 "你的谋划被发现了"
+ stewardship_wealth.2000.b:0 "需要一套真正更好的砝码。"
+ stewardship_wealth.2000.b.tt:0 "虽然很难实现，但一个既有利于你的金库又有利于商人需求的解决方案是绝对可能的。"
+ stewardship_wealth.2000.b.tt.success:0 "你成功实施了新的称重系统"
+ stewardship_wealth.2000.b.tt.failure:0 "新的称重系统不太理想"
+ stewardship_wealth.2000.c:0 "我会用老式的方法拿到属于我的东西！"
+ stewardship_wealth.2000.c.tt:0 "你直接强迫当地商人交更多钱，以换取携带商品穿越该伯爵领的特权。"

@@ -46,7 +46,7 @@
  #You enjoy a dinner with one of your guests, and try to tempt them into staying, by Ewan Cowhig Croft
  intrigue_temptation.3120.t:0 "Des cœurs errants"
  intrigue_temptation.3120.desc:1 "Ce soir, je me retrouve une nouvelle fois à me prélasser près d’un feu crépitant du foyer avec [tempted_guest.Custom('FR_le_Char_Pi')][tempted_guest.GetTitledFirstName]. Sa compagnie me semble naturelle et agréable, c’est comme [tempted_guest.Custom('FR_SilSielle')] était ici depuis des années au lieu de semaines.\n\nSi seulement [tempted_guest.Custom('FR_IlElle')] acceptait de rester définitivement, alors ces longues soirées de détente pourraient se reproduire. Il faudrait trouver le bon moyen de l’y encourager..."
- intrigue_temptation.3120.a:0 "Je vais lui montrer #EMP à quel point#! je peux être accueillant[ROOT.Char.Custom('FR_E')]."
+ intrigue_temptation.3120.a:0 "Je vais lui montrer à quel point je peux être accueillant[ROOT.Char.Custom('FR_E')]."
  intrigue_temptation.3120.a.tt_success:0 "[tempted_guest.Custom('FR_le_Char_U_Pi')|U][tempted_guest.GetShortUINameNoTooltip] est sous le charme"
  intrigue_temptation.3120.a.tt_fail:0 "[tempted_guest.Custom('FR_le_Char_U_Pi')|U][tempted_guest.GetShortUINameNoTooltip] vous repousse"
  intrigue_temptation.3120.b:0 "« J’irai décrocher la lune si vous le demandez. »"
@@ -54,7 +54,7 @@
  #You seduce the spouse of a potential rival to cement the foeship, by Ewan Cowhig Croft
  intrigue_temptation.3130.t:0 "Sans affection"
  intrigue_temptation.3130.desc:0 "[rival_main.Custom2('MyCharacterIntroduction', ROOT.Char)|U] suscite en moi une telle rage que, certains jours, j’ai du mal à me rappeler pourquoi nous nous disputons. Cela importe peu maintenant que je tiens dans mes bras s[rival_spouse.Custom('FR_OnA')] [rival_spouse.GetWifeHusband] [rival_spouse.GetFirstName] aux passions enflammées.\n\nGrâce à mes sourires narquois et des commérages bien payés, il ne faudra pas longtemps pour que [rival_main.GetFirstNameNoTooltip] le sache.\n\nUn baiser interdit scellera cette rivalité."
- intrigue_temptation.3130.a:0 "M[rival_spouse.Custom('FR_OnA')] chéri[rival_spouse.Custom('FR_E')], avez-vous déjà embrassé un[ROOT.Char.Custom('FR_E')] #EMP vrai[ROOT.Char.Custom('FR_E')]#! [ROOT.Char.GetWomanMan] ?"
+ intrigue_temptation.3130.a:0 "M[rival_spouse.Custom('FR_OnA')] chéri[rival_spouse.Custom('FR_E')], avez-vous déjà embrassé un[ROOT.Char.Custom('FR_E')] vrai[ROOT.Char.Custom('FR_E')] [ROOT.Char.GetWomanMan] ?"
  intrigue_temptation.3130.a.tt_success:0 "Un baiser, puis un autre..."
  intrigue_temptation.3130.a.tt_fail:0 "[rival_spouse.GetFirstNameNoTooltip] vous repousse"
  intrigue_temptation.3130.b:0 "Je ne peux pas le faire."

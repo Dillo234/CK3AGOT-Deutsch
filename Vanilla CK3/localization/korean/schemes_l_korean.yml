@@ -1,7 +1,7 @@
 ﻿l_korean:
  SCHEME_AGENT_GOLD:0 "뇌물로 매수"
  SCHEME_AGENT_GOLD_VALID:0 "[recipient.GetShortUINameNoTooltip]에게 [gold_i] [SCOPE.ScriptValue('bribe_value')|V0] 지급"
- SCHEME_HOOK:0 "[hook|e] 사용"
+ SCHEME_HOOK:1 "[hook_i][hook|E] 사용"
  SCHEME_TT_HEADER:0 "#T [SCHEME.GetFullActionName]#!"
  SCHEME_TT_BODY:1 "대상: [SCHEME.GetTarget.GetUIName]\n진행도: [SCHEME.GetProgress|0V]/#V 10#! (#V ~[SCHEME.GetEstimatedTimeRemaining]#!)\n[success_chance|E]: #V $SUCCESS_CHANCE$%#!"
  SCHEME_TT_SECRECY:0 "[secrecy|E]: #V $SECRECY$%#!"
@@ -11,7 +11,10 @@
  SCHEME_UNKNOWN:0 "알 수 없는 모략"
  SCHEME_INFLUENCE_NUMBER:0 "$VALUE|2$"
  SCHEME_PROGRESS_DESCRIPTION:0 "모략 진행도: [SCHEME.GetProgress|0V]/#V 10#!"
- SCHEME_PROGRESS_FROZEN:0 "진행도가 [DATE.GetString|V]까지 동결됨"
+ SCHEME_PROGRESS_FROZEN:1 "진행도가 동결됨"
+ SCHEME_PROGRESS_FROZEN_DATE:0 "진행도가 [DATE.GetString|V]까지 동결됨"
+ SCHEME_PROGRESS_FROZEN_REASON:0 "진행도가 $REASON$ 사유로 동결됨"
+ SCHEME_PROGRESS_FROZEN_DATE_REASON:0 "진행도가 $REASON$ 사유로 [DATE.GetString|V]까지 동결됨"
  scheme_setup_heads_up:0 "모략 완성을 시도함"
  SCHEME_FULL_ACTION_NAME:1 "[SCHEME.GetTarget.GetTitledFirstNameOrMeNoTooltip](을)를 겨냥한 [SCHEME.GetActionName] 모략"
  SCHEME_MY_LEARNING:0 "나의 [Concept( 'learning', '학습력' )|E]: $VALUE|+=0$"
@@ -27,7 +30,8 @@
  murder_desc:0 "[SCHEME.GetTarget.GetShortUINameNoTooltip](이)가 [SCHEME.GetOwner.GetFaith.HighGodName]의 심판을 받을 시간입니다."
  murder_desc_general:1 "$murder$는 대상을 죽이는 것에 목적을 둔 [hostile_scheme|E]입니다. [Concept( 'intrigue', '계책력' )|E]을 기반으로 한 [secret_scheme|E]로써 [agents|E]들을 포섭할 수 있습니다.\n\n$murder$에 성공하면 [scheme_target|E]가 [character_death_death|E]을 맞이합니다. 또한 이는 비밀로 남아 [scheme_owner|E]에게 살해 [secret|E]을 부여합니다. \n\n살해 시도 발각이나 살해 성공은 모두 [crime|E]로 여겨집니다."
  scheme_interaction_tt_murder_approved:1 "[recipient.GetShortUINameNoTooltip] 살해를 시도합니다."
- murder_successful_roll_tt:0 "[target.GetShortUINameNoTooltip](이)가 살해됨!"
+ murder_successful_roll_tt:0 "[target.GetShortUIName](이)가 살해됨!"
+ murder_entourage_successful_roll_tt:0 "[target.GetShortUINamePossessiveNoTooltip] 수행단 일부가 살해당함!"
  murder_become_discovered_roll_tt:0 "#N 나의 개입이 발각됨#!"
  MURDER_SUCCESS_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 살해됩니다."
  MURDER_DISCOVERY_DESC:1 "당신의 살해 [crime|E]가 노출되지 않습니다."
@@ -76,7 +80,7 @@
  befriend:1 "친분"
  befriend_action:0 "친분"
  befriend_desc:0 "세심하게 주의를 기울인다면 나와 [SCHEME.GetTarget.GetShortUINameNoTooltip]사이에 우정이 자라날 것입니다!"
- befriend_desc_general:1 "친분 [scheme|E]은 [scheme_target|E]을 [friend|E]로 만드는 것에 목적을 둔 [personal_scheme|E]입니다.\n다양한 요소들이 [success_chance|E]을 결정하며, [trait|E] 적합도 및 [opinion|E] 등이 영향을 줍니다."
+ befriend_desc_general:1 "친분 [scheme|E]은 [scheme_target|E]을 [friend|E]로 만드는 것에 목적을 둔 [personal_scheme|E]입니다.\n다양한 요인이 [success_chance|E]을 결정하며, [trait|E] 적합도 및 [opinion|E] 등이 영향을 줍니다."
  scheme_interaction_tt_befriend_approved:1 "[recipient.GetFirstName]의 우정을 얻고 말 것입니다!"
  befriend_already_friend:2 "[recipient.GetFirstName](은)는 이미 당신의 친구임"
  befriend_already_lover:2 "[TARGET_CHARACTER.GetShortUIName|U](은)는 이미 당신과 사랑에 빠짐"
@@ -106,7 +110,7 @@
  sway_action:0 "환심"
  sway_desc:0 "[SCHEME.GetTarget.GetShortUINameNoTooltip](이)가 나를 이해하도록 만들고, 가능하다면 좋아하게 만듭니다."
  sway_desc_general:1 "환심은 당신을 향한 타인의 [opinion|E]을 개선하는 데 초점을 맞춘 [personal_scheme|E]입니다. 이 모략은 기본적으로 [Concept( 'diplomacy', '외교력' )|E]에 기반하여 이루어집니다. [hostile_scheme|E]이 아니기 때문에 [secret_scheme_single|E]에 해당하지 않고 [agents|E]를 이용하지도 않습니다.\n\n대부분의 모략과는 달리 환심은 완료 후에도 반복할 수 있습니다. 환심으로 획득한 의견은 계속 축적되므로 환심을 적극적으로 반복하면 [scheme_target|E]가 당신을 더욱 좋아하게 될 것입니다."
- scheme_interaction_tt_sway_approved:2 "[recipient.GetShortUINameNoTooltip]의 [sway|E]을 사, 당신을 향한 [opinion|E]을 향상시킵니다."
+ scheme_interaction_tt_sway_approved:2 "[recipient.GetShortUINameNoTooltip]의 환심을 사 당신을 향한 [opinion|E]을 향상시키는 시도를 함"
  sway_sway_success_message:0 "[target.GetShortUINameNoTooltip]의 환심을 삼"
  sway_sway_failed_message:0 "[target.GetShortUINameNoTooltip]의 환심을 사지 못함"
  sway_continue:1 "노력을 계속함"
@@ -123,7 +127,7 @@
  YOU_SPEAK_THE_LANGUAGE:0 "[target.GetCulture.GetLanguage.GetName] 구사 가능: $VALUE|=+0$"
 
  claim_throne:1 "권좌 주장"
- claim_throne_desc:1 "[SCHEME.GetTarget.GetShortUINameNoTooltip]에게 [Concept( 'claim_the_throne', '당신의 권좌를 주장' )|E]합니다!"
+ claim_throne_desc:1 "[SCHEME.GetTarget.GetShortUINameNoTooltip]의 권좌는 나의 것이다!"
  claim_throne_desc_general:1 "인물이 직속 [liege|E]의 [primary_title|E]에 대한 [claim|E]을 얻을 수 있게 해주는 적대 [scheme|E]입니다."
  claim_throne_action:0 "권좌에 대한 명분 주장"
  claim_throne_successful_roll_tt:1 "당신이 [target_title.GetName]에 대한 [pressed_claim|E]을 획득함"
@@ -139,7 +143,7 @@
  fabricate_hook_interaction_desc:1 "[recipient.GetShortUINameNoTooltip]에 대한 [hook|E] 조작을 시도합니다."
  fabricate_hook_scheme_invalidated_title:0 "구실 조작 모략 종료"
  fabricate_hook_has_gained_hook:0 "[target.GetShortUIName]에 대한 [hook|E]을 획득함"
- fabricate_hook_i_may_not_fabricate_again:0 "5년 동안 [court_owner.GetShortUINamePossessive] 궁정에서 구실 조작을 시도할 수 없게 됨"
+ fabricate_hook_i_may_not_fabricate_again:1 "[owner.GetShortUIName|U](은)는 5년 동안 [court_owner.GetShortUINamePossessive] 궁정에서 구실 조작을 시도할 수 없게 됨"
  fabricate_hook_gained_manipulation_title:0 "구실 조작됨: 조종됨"
  fabricate_hook_gained_indebted_title:0 "구실 조작됨: 은혜를 입음"
  fabricate_hook_gained_threat_title:0 "구실 조작됨: 위협받음"
@@ -168,7 +172,7 @@
 
  scheme_interaction_tt_spy_on_approved:1 "[recipient.GetFirstName](이)가 숨기고 있는 비밀을 알아내고 말 것입니다!"
  
- SCEHEME_ON_COOLDOWN:0 "#X [DATE.GetStringLong]까지는 [TARGET_CHARACTER.GetShortUIName]에 대해 $SCHEME_NAME$(을)를 사용할 수 없음#!"
+ SCEHEME_ON_COOLDOWN:0 "#X [DATE.GetStringLong]까지는 [TARGET_CHARACTER.GetShortUIName]에 대해 $SCHEME_NAME$(을)를 사용할 수 없습니다.#!"
  scheme_target_is_incapable:0 "[target.GetShortUIName|U](은)는 [GetTrait('incapable').GetName( target )]임"
 
  
@@ -196,7 +200,7 @@
   # Steal Back Artifact 
  steal_back_artifact:1 "유물 훔치기"
  start_stealing_back_artifact:0 "유물 훔치기 #weak (모략)#!"
- steal_back_artifact_general_desc:1 "해당 인물이 명분을 보유하고 있는 [artifact|e]을 탈취하는 [scheme|E]입니다."
+ steal_back_artifact_general_desc:1 "해당 인물이 명분을 보유하고 있는 [artifact|E]을 탈취하는 [scheme|E]입니다."
  # In the game, the scheme window shows [action] [target], hence the added 'from'
  steal_back_artifact_action:0 "다음 대상으로부터 유물 훔치기"
  steal_back_artifact_desc:0 "[SCHEME.GetTarget.GetShortUINameNoTooltip]에게서 내가 정당한 소유권을 가진 유물을 도로 훔쳐 올 것이다."
@@ -236,3 +240,20 @@
 
  # FABRICATE HOOK EXTRA
  CAN_NOT_FABRICATE_HOOKS_ON_WANDERERS:0 "방랑 중인 인물에게는 구실을 위조할 수 없습니다."
+
+ DIARCH_REALM_INFLUENCE:0 "[liege|E]의 [realm|E]에서는 [diarchs|E]의 [scheme|E] 성공 확률이 증가: $VALUE|=+%/0$"
+
+ FREEZE_REASON_TRAVELING:0 "여행 중임"
+ FREEZE_REASON_TARGET_TRAVELING:0 "[SCHEME.GetTarget.GetShortUINameNoTooltip](은)는 여행 중임"
+ BEFRIENDING_AT_FEAST:0 "[SCHEME.GetTarget.GetShortUINameNoTooltip](은)는 당신과 같은 연회에 참석 중임"
+
+ overthrow_regent:0 "섭정 타도"
+ overthrow_regent_action:0 "타도"
+ overthrow_regent_desc:0 "[SCHEME.GetTarget.GetShortUINameNoTooltip](을)를 납치해 [imprison|E]한 후, [SCHEME.GetTarget.GetDiarchTitle] 직위를 내게 양도하도록 강요한다!"
+ overthrow_regent_desc_general:0 "$overthrow_regent$ [scheme|E]은 대상을 [imprisoning|E]하여 [regent|E] 직위를 찬탈하는 것에 목적을 둔 [hostile_scheme|E]입니다. [Concept( 'intrigue', '계책력' )|E]을 기반으로 하는 [secret_scheme|E]으로써 [agents|E]를 포섭할 수 있습니다.\n\n[scheme_target|E]을 타도하는 데 성공하면 대상은 [scheme_owner|E]([landed|E]일 경우) 또는 [liege|E](지주가 아닐 경우)에 의해 $game_concept_imprisoned$됩니다."
+ overthrow_regent_scheme_invalidated_title:0 "@scheme_icon! 납치 모략 종료"
+ overthrow_regent_scheme_i_imprisoned_them_message:0 "[target.GetShortUIName|U](이)가 이미 내 감옥에 있음"
+ overthrow_regent_scheme_cannot_become_regent:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에 의해 투옥됨"
+ OVERTHROW_REGENT_SUCCESS_DESC:0 "$ABDUCT_SUCCESS_DESC$"
+ OVERTHROW_REGENT_DISCOVERY_DESC:0 "$ABDUCT_DISCOVERY_DESC$"
+ i_could_not_take_their_place:0 "나는 [TARGET_CHARACTER.GetDiarchTitle](이)가 될 자격 요건을 갖추지 않음"

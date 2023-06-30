@@ -1,14 +1,14 @@
 ﻿l_russian:
  ##### Hostility #####
  struggle_iberia_ending_hostility_decision:1 "[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]ое господство"
- struggle_iberia_ending_hostility_decision_desc:0 "Пришла пора сильному лидеру наконец-то вытащить этот полуостров из трясины бесконечных войн и разладов. Иберией будет править [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|l][Select_CString(ROOT.Char.IsFemale, 'ая', 'ий' )] [ROOT.Char.Custom('GetQueenKing')|l] под [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l]им знаменем!"
+ struggle_iberia_ending_hostility_decision_desc:0 "Пришла пора сильному лидеру наконец-то вытащить этот полуостров из трясины бесконечных войн и разладов. Иберией будет править [ROOT.Char.GetFaith.GetNameNoTooltip|l][Select_CString(ROOT.Char.IsFemale, 'ая', 'ий' )] [ROOT.Char.Custom('GetQueenKing')|l] под [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l]им знаменем!"
  struggle_iberia_ending_hostility_decision_tooltip:0 "Покончить с [Concept( 'struggle', 'борьбой' )|E] за Иберию"
  struggle_iberia_ending_hostility_decision_confirm:1 "Покончить с иберийской борьбой"
  # Triggers
  struggle_iberia_ending_hostility_decision_kingdom_tt:0 "Вы [Concept( 'hold', 'удерживаете' )|E] и [Concept( 'completely_control', 'полностью контролируете' )|E] не менее 2 [de_jure|El] [Concept( 'kingdoms', 'королевств' )|E] в империи [GetTitleByKey('e_spain').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_kingdom_total_value')|0])"
  struggle_iberia_ending_hostility_decision_united_spanish_throne_tt:0 "Вы объединили испанские престолы в своем [Concept( 'primary_title', 'первом титуле' )|E]"
  struggle_iberia_ending_hostility_decision_county_tt:0 "Каждая [Concept( 'capital', 'столица' )|E] [de_jure|El] графств вашего [Concept( 'kingdoms', 'королевства' )|E] ([THIS.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]) должна быть #L [THIS.Char.GetFaith.GetName|l]ой#! и #L [THIS.Char.GetCulture.GetCollectiveNoun|l]ой#! ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_value')|0])"
- struggle_iberia_ending_hostility_decision_county_light_tt:0 "75% [de_jure|El] [Concept( 'counties', 'графств' )|E] вашего [Concept( 'capital', 'столичного' )|E] [Concept( 'kingdom', 'королевства' )|E] ([THIS.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]) должны быть [THIS.Char.GetCulture.GetCollectiveNoun|l]ими и [THIS.Char.GetFaith.GetName|l]ими ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_light_value')|0])"
+ struggle_iberia_ending_hostility_decision_county_light_tt:0 "75% [de_jure|El] [Concept( 'counties', 'графств' )|E] вашего [Concept( 'capital', 'столичного' )|E] [Concept( 'kingdom', 'королевства' )|E] ([THIS.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]) должны быть #L [THIS.Char.GetCulture.GetCollectiveNoun|l]ими#! и #L [THIS.Char.GetFaith.GetName|l]ими#! ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_light_value')|0])"
  struggle_iberia_ending_hostility_decision_region_tt:2 "Никакой другой [Concept( 'independent', 'независимый' )|E] [Concept( 'struggle_involved', 'участвующий в борьбе' )|E] [Concept( 'ruler', 'правитель' )|E] не контролирует более [SCOPE.ScriptValue('fp2_struggle_hostility_region_percent_value')|0]% региона [GetGeographicalRegion('world_europe_west_iberia').GetName]"
  # Effects
  fp2_struggle_hostility_opinion_tt:1 "[opinion|E] [Concept( 'characters', 'персонажей' )|E] той же [Concept( 'faith', 'конфессии' )|E] и/или [Concept( 'culture', 'культуры' )|E]: #positive_value +[SCOPE.ScriptValue('fp2_struggle_hostility_opinion_value')]#!"
@@ -77,6 +77,7 @@
  ### Common
  fp2_struggle_can_create_empire_of_hispania_tt:0 "Открывает создание [Concept( 'empire', 'империи' )|E] [GetTitleByKey('e_spain').GetNameNoTier]"
  fp2_struggle_compromise_destroy_hispania_tt:1 "[Concept( 'empire', 'Империя' )|E] [GetTitleByKey('e_spain').GetNameNoTier] окончательно #negative_value уничтожается#!"
+ fp2_struggle_conciliation_caravanserai_unlock_tt:0 "Навсегда позволяет строить цепочку [Concept( 'buildings', 'зданий' )|E] #V «$building_type_caravanserai_01$»#! в регионе [GetGeographicalRegion('world_europe_west_iberia').GetName]"
 
  CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT:0 "Иберийская вражда"
  CB_COST_FP2_STRUGGLE_HOSTILITY_FAITH_DISCOUNT:0 "$CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT$"

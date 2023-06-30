@@ -21,7 +21,7 @@
  yearly.3002.b:0 "Я пощажу вас, если вы поведаете людям о моей щедрости."
 
  yearly.3003.t:0 "Оскорбительные обвинения"
- yearly.3003.desc:1 "Когда [vassal.GetTitledFirstName] [Select_CString(vassal.IsFemale, 'ознакомилась', 'ознакомился' )] с письмом, что [Select_CString(neighbor.IsFemale, 'написала', 'написал' )] [SCOPE.sC('neighbor').GetTitledFirstName], первой реакцией было удивление, быстро сменившееся гневом. «Вы верите [neighbor.GetHerHis] слову, но не моему? Разве я не [Select_CString(vassal.IsFemale, 'была', 'был' )] вам верным слугой?!»\n\n[vassal.GetHerHis|U] негодование заставляет меня засомневаться. Возможно, не стоило так спешить. Нужно все исправить, пока не стало еще хуже!" # [LocEditor:AwaitingBatchUpdate]
+ yearly.3003.desc:2 "Когда [vassal.GetTitledFirstName] [Select_CString(vassal.IsFemale, 'ознакомилась', 'ознакомился' )] с письмом, что [Select_CString(neighbor.IsFemale, 'написала', 'написал' )] [neighbor.GetTitledFirstNameNoTooltip], первой реакцией было удивление, быстро сменившееся гневом. «Вы верите [neighbor.GetHerHis] слову, но не моему? Разве я не [Select_CString(vassal.IsFemale, 'была', 'был' )] вам верным слугой?!»\n\n[vassal.GetHerHis|U] негодование заставляет меня засомневаться. Возможно, не стоило так спешить. Нужно все исправить, пока не стало еще хуже!"
  yearly.3003.friend:0 "\nК счастью, вмешивается [Select_CString(friend.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('friend'))]. «Мы просто хотели, чтобы вы знали, что [SCOPE.sC('neighbor').GetTitledFirstName] клевещет на вас», — говорит [friend.GetTitledFirstName]."
  yearly.3003.a:0 "Да. На самом деле я хочу вознаградить вас за верность!"
  yearly.3003.b:0 "Вы всегда верно служили мне."
@@ -86,7 +86,7 @@
  yearly.3031.c.success:0 "Привлеченное внимание"
  yearly.3031.d:0 "Мы, вассалы, должны действовать сообща, а не мешать друг другу!"
 
- yearly.3040.t:0 "Хороший [ROOT.Char.GetFaith.GetAdherentNoTooltip|l]"
+ yearly.3040.t:0 "Хороший [ROOT.Char.GetFaith.GetAdherentNameNoTooltip|l]"
  yearly.3040.desc:1 "Все знают, что я человек благочестивый. Так пусть мое почитание [ROOT.Char.GetFaith.HighGodNamePossessive] принесет мне пользу и в этой жизни, не только в следующей!\n\nМногим не помешало бы напомнить, что я пользуюсь милостью [ROOT.Char.GetFaith.HighGodNameAlternatePossessive]."
  yearly.3040.a:0 "О моей преданности прокричат с башен!"
  yearly.3040.b:0 "В этом году из-за лености я едва ли посещаю [ROOT.Char.GetFaith.HouseOfWorship]..."

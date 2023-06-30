@@ -54,6 +54,6 @@
  TBC_OPINION_HUMILIATION_TRAIT_FORGIVING:0 "[GetTrait('forgiving').GetName(recipient.Self)](은)는 $TBC_OPINION_HUMILIATION$를 나쁘지 않다고 여김: $VALUE|=+0$"
  
  designate_shieldmaiden_interaction_extra_icon:0 "$hook_extra_icon$"
- designate_shieldmaiden_interaction:0 "스칼드메르 등용"
+ designate_shieldmaiden_interaction:0 "스캴드메르 등용"
  designate_shieldmaiden_interaction_desc:1 "[recipient.GetFirstNameNoTooltip]에게 당신의 휘하에서 [recipient.Custom('ShieldPersonFemaleMale')|U]로 활약할 기회를 제공합니다.\n\n#weak [recipient.Custom('ShieldPersonFemaleMale')|U]는 [actor.Custom('KnightCulture')] 혹은 [commander|E] 역할을 수행할 수 있으며, [GetScheme('murder').GetTypeName] [scheme|E]으로부터 당신을 구해낼 수 있습니다. [close_family|E]에 해당하는 구성원에게만 [recipient.Custom('ShieldPersonFemaleMale')|U] 직책을 제의할 수 있습니다.#!"
  designate_shieldmaiden_interaction_notification:0 "[recipient.GetShortUIName](이)가 [recipient.Custom('ShieldPersonFemaleMale')|U]가 됨"

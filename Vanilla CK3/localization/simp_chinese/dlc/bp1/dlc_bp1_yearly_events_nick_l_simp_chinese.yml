@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
 
  bp1_yearly.5001.t:0 "夜惊"
- bp1_yearly.5001.desc:0 "我怎么醒了？我那昏昏欲睡的大脑在迷糊中思索起了原因。夜里有点凉但是没那么冷，我的被窝温暖而舒适，而且——\n\n我床前有个人影。人影靠近后，我认出了那是我的[ROOT.Char.Custom2.Custom2('RelationToMeShort', sibling_murderer)][sibling_murderer.GetFirstName]。我刚要张嘴提醒[sibling_murderer.GetHerHis]的房间其实在我隔壁，突然注意到[sibling_murderer.GetHerHis]手中拿着一个枕头。\n\n多亏了青灰色的月光，我看清了[sibling_murderer.GetHerHis]眼睛中潜藏的疯狂与凶残。"
+ bp1_yearly.5001.desc:0 "我怎么醒了？我那睡迷糊的大脑理了遍原因。夜里有点凉但还不冻人，我的被窝温暖而舒适，而且——\n\n我的床尾有道人影。那人影一靠近，就与我的[ROOT.Char.Custom2('RelationToMeShort', sibling_murderer)][sibling_murderer.GetFirstName]的样貌重合了。我刚要张嘴指明[sibling_murderer.GetHerHis]的房间其实在我隔壁，就注意到了[sibling_murderer.GetHerHis]手里拿的枕头。\n\n多亏了青灰的月光，我才能看清[sibling_murderer.GetHerHis]眼中闪烁着的狂野、疯癫和杀气。"
  bp1_yearly.5001.a:0 "叛徒，我要#bold 杀了#!你！"
  bp1_yearly.5001.b:0 "不！我不会让你得逞的！"
  bp1_yearly.5001.c:0 "救命！"
@@ -40,8 +40,8 @@
  bp1_yearly.5008.b:0 "别再惹我了。明白？"
 
  bp1_yearly.5601.t:0 "多彩生活"
- bp1_yearly.5601.start:0 "真是美好的一天啊！微风不燥，阳光正好，昆虫在灌木丛中欢快地鸣叫。一切都显得明亮而生动，这都是因为那个[bp1_yearly_5601_dead_nemesis.Custom('InsultAdjective')][bp1_yearly_5601_dead_nemesis.Custom('InsultNoun')][bp1_yearly_5601_dead_nemesis.GetFirstName]终于死了，真是幸运！\n\n一列[bp1_yearly_5601_dead_nemesis.GetHerHis]的朋友和家人经过我去做最后的道别时，我忍不住笑了。" # [LocEditor:AwaitingBatchUpdate]
- bp1_yearly.5601.bodysnatcher:0 "尽管[bp1_yearly_5601_dead_nemesis.GetSheHe]现在没法出声阻止他们了，但一想到[bp1_yearly_5601_dead_nemesis.GetFirstNamePossessiveNoTooltip]的家人居然有胆子默然地捍卫[bp1_yearly_5601_dead_nemesis.GetHerHis]的荣誉，我就有些不快。\n\n队伍从我身边经过，去墓地埋葬尸体。" # [LocEditor:AwaitingBatchUpdate]
+ bp1_yearly.5601.start:1 "真是美好的一天啊！微风不燥，阳光正好，昆虫在灌木丛中欢快地鸣叫。一切都显得明亮而生动，这都是因为那个[bp1_yearly_5601_dead_nemesis.Custom('InsultAdjective')][bp1_yearly_5601_dead_nemesis.Custom('InsultNoun')][bp1_yearly_5601_dead_nemesis.GetFirstName]终于死了，真是幸运！\n\n一列[bp1_yearly_5601_dead_nemesis.GetHerHis]的朋友和家人经过我去做最后的道别时，我忍不住笑了。"
+ bp1_yearly.5601.bodysnatcher:1 "尽管[bp1_yearly_5601_dead_nemesis.GetSheHe]现在没法出声阻止他们了，但一想到[bp1_yearly_5601_dead_nemesis.GetFirstNamePossessiveNoTooltip]的家人居然有胆子默然地捍卫[bp1_yearly_5601_dead_nemesis.GetHerHis]的荣誉，我就有些不快。\n\n队伍从我身边经过，去墓地埋葬尸体。"
  bp1_yearly.5601.notinsane:0 "死者亲友对我的怒容只会让我笑得更开心。我转身离去，高兴地抛给一个年轻乞丐一枚足以让他全家好吃好喝好几周的硬币，他的眼睛顿时睁得大大的，就像我得意笑着的嘴一样大。"
  bp1_yearly.5601.a:0 "我会让他们瞧瞧！"
  bp1_yearly.5601.a.tt:0 "你等待夜幕降临，然后拿上铲子出发……"
@@ -54,7 +54,7 @@
  bp1_yearly.5602.b:0 "[ROOT.Char.GetFaith.HighGodName]拥有你的灵魂。而猪会拥有你的脑袋！"
 
  bp1_yearly.5701.t:0 "出来玩？"
- bp1_yearly.5701.desc:0 "我敢肯定[married_friend.GetFirstNamePossessive]和[married_friend.GetHerHis]的配偶[friend_spouse.GetFirstName]的感情非常好，但随着他们感情的加深，最近[married_friend.GetSheHe]和我——他亲爱的朋友——共度的时间越来越少了。我试图邀[married_friend.GetHerHim]出去，但哪怕是散步这样简单的事情都遭到了拒绝，显然，[married_friend.GetSheHe]被婚姻的责任束缚住了。\n\n真怀念曾经的美好时光啊，那时候我们会"
+ bp1_yearly.5701.desc:0 "我敢肯定[married_friend.GetFirstNamePossessive]和[married_friend.GetHerHis]的配偶[friend_spouse.GetFirstName]的感情非常好，但随着他们感情的加深，最近[married_friend.GetSheHe]和我——一位亲爱的朋友——共度的时间越来越少了。我试图邀[married_friend.GetHerHim]出去，但哪怕是散步这样简单的事情都遭到了拒绝，显然，[married_friend.GetSheHe]被婚姻的责任束缚住了。\n\n真怀念曾经的美好时光啊，那时候我们会"
  bp1_yearly.5701.desc.ladsladslads:0 "出去四处闲逛，喝最好的[ROOT.Char.Custom('RegionalDrink')]喝到吐，然后第二天晚上继续！"
  bp1_yearly.5701.desc.nodrinky:0 "愉快地观看当地醉汉摔个狗吃屎让自己难堪，就这样看一晚上！"
  bp1_yearly.5701.desc.ending:0 "\n\n那时候真好啊！真希望这该死的、[friend_spouse.Custom('InsultAdjective')][friend_spouse.GetFirstNameNoTooltip]不再阻止我们再次享受当年的快乐……"

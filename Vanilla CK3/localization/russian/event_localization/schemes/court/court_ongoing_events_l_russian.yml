@@ -207,7 +207,7 @@
  court_ongoing.1101.a.good:0 "[owner.GetSheHe|U] [Select_CString(owner.IsFemale, 'передала', 'передал' )] на этом пергаменте самую мою суть!"
  court_ongoing.1101.a.bad:0 "Как странно! И... очаровательно."
  court_ongoing.1101.c.good:0 "Как напыщенно."
- court_ongoing.1101.c.bad:0 "[owner.GetSheHe] что, хочет меня обидеть?!"
+ court_ongoing.1101.c.bad:0 "[owner.GetSheHe|U] что, хочет меня обидеть?!"
 
  court_ongoing.1102.t:1 "Получатель: [owner.Custom('RomanticComplimentAdjective')][Select_CString(owner.IsFemale, 'ая', 'ый' )] [owner.GetTitledFirstNameNoTooltip],"
  court_ongoing.1102.desc:0 "[target.Custom2('love_letter', SCOPE.sC('owner'))]"

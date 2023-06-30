@@ -16,17 +16,17 @@
  secure_iberian_foothold_decision_tooltip:0 "Einen Teil Iberiens eingliedern"
  secure_iberian_foothold_decision_confirm:0 "An den Stärksten!"
  fp2_struggle_uninvolved_or_external_tt:0 "Euer [capital|E] liegt außerhalb der [region|E] „[GetGeographicalRegion('world_europe_west_iberia').GetName]“"
- fp2_struggle_secure_iberian_foothold_empire_tt:0 "Ihr [Concept('hold', 'Haltet')|E] einen [empire|E]-[title|E], der nicht [GetTitleByKey('e_spain').GetNameNoTier] ist"
+ fp2_struggle_secure_iberian_foothold_empire_tt:0 "Ihr [Concept('hold', 'haltet')|E] einen [empire|E]-[title|E], der nicht [GetTitleByKey('e_spain').GetNameNoTier] ist"
 
  fp2_struggle_phase_hostility_or_opportunity_tt:1 "Die Iberische [struggle_phase|E] ist die [struggle_phase_iberia_hostility|E] oder die [struggle_phase_iberia_opportunity|E] (derzeit: [GetStruggle('iberian_struggle').GetCurrentPhase.GetName])"
- fp2_struggle_secure_iberian_foothold_kingdom_iberian_tt:0 "Ihr [Concept('hold', 'Haltet')|E] und [Concept('completely_control', 'Kontrolliert vollständig')|E] ein beliebiges [de_jure|E]-[kingdom|E] von [GetTitleByKey('e_spain').GetNameNoTier]"
+ fp2_struggle_secure_iberian_foothold_kingdom_iberian_tt:0 "Ihr [Concept('hold', 'haltet')|E] und [Concept('completely_control', 'kontrolliert vollständig')|E] ein beliebiges [de_jure|E]-[kingdom|E] von [GetTitleByKey('e_spain').GetNameNoTier]"
 
  fp2_struggle_secure_iberian_foothold_kingdom_faith_tt:0 "Mindestens #Z [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_faith_target_percent_value')|0] %#! der [de_jure|E]-[counties|E] des [Concept('title', 'Titels')|E] sind [THIS.Char.GetFaith.GetAdjective|l]"
- fp2_struggle_secure_iberian_foothold_kingdom_border_tt:0 "Dieser [title|E] grenzt an gehaltenes [de_jure|E]-Land eines [Concept('empire', 'Großreichs')|E], das Ihr [Concept('hold', 'Haltet')|E] und das nicht [GetTitleByKey('e_spain').GetNameNoTier] ist"
+ fp2_struggle_secure_iberian_foothold_kingdom_border_tt:0 "Dieser [title|E] grenzt an gehaltenes [de_jure|E]-Land eines [Concept('empire', 'Großreichs')|E], das Ihr [Concept('hold', 'haltet')|E] und das nicht [GetTitleByKey('e_spain').GetNameNoTier] ist"
  fp2_struggle_secure_iberian_foothold_kingdom_held_tt:0 "Ihr habt diesen [title|E] mindestens [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_years_value')|0Z] Jahre gehalten"
 
- fp2_struggle_secure_iberian_foothold_religion_tt:0 "Ihr [Concept('hold', 'Haltet')|E] mindestens #Z [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_religion_target_percent_value')|0] %#! der [counties|E] mit [THIS.Char.GetFaith.GetReligion.GetAdjective|l]em [Concept('faith', 'Glauben')|E] in der [region|E] „[GetGeographicalRegion('world_europe_west_iberia').GetName]“ (derzeit: [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_religion_percent_value')|1] %)\n"
- fp2_struggle_secure_iberian_foothold_outsider_tt:0 "Ihr [Concept('hold', 'Haltet')|E] mindestens #Z [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_outsider_target_percent_value')|0] %#! der [counties|E] in der [region|E] „[GetGeographicalRegion('world_europe_west_iberia').GetName]“ (derzeit: [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_outsider_percent_value')|0] %)\n"
+ fp2_struggle_secure_iberian_foothold_religion_tt:0 "Ihr [Concept('hold', 'haltet')|E] mindestens #Z [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_religion_target_percent_value')|0] %#! der [counties|E] mit [THIS.Char.GetFaith.GetReligion.GetAdjective|l]em [Concept('faith', 'Glauben')|E] in der [region|E] „[GetGeographicalRegion('world_europe_west_iberia').GetName]“ (derzeit: [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_religion_percent_value')|1] %)\n"
+ fp2_struggle_secure_iberian_foothold_outsider_tt:0 "Ihr [Concept('hold', 'haltet')|E] mindestens #Z [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_outsider_target_percent_value')|0] %#! der [counties|E] in der [region|E] „[GetGeographicalRegion('world_europe_west_iberia').GetName]“ (derzeit: [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_outsider_percent_value')|0] %)\n"
 
  fp2_struggle_secure_iberian_foothold_empire_held_effect_tt:0 "Alle [de_jure|E]-[Concept('kingdom', 'Königreiche')|E] von [GetTitleByKey('e_spain').GetNameNoTier], die die unten stehenden Anforderungen erfüllen, um [de_jure|E]-Teil von [THIS.Char.GetPrimaryTitle.GetNameNoTier] zu werden"
  fp2_struggle_secure_iberian_foothold_empire_dejure_effect_tt:0 "Alle [de_jure|E]-[Concept('kingdom', 'Königreiche')|E] von [GetTitleByKey('e_spain').GetNameNoTier], die die unten stehenden Anforderungen erfüllen, um [de_jure|E]-Teil des Kaiserreichs von [THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier] zu werden"
@@ -46,7 +46,7 @@
  fp2_other_decisions.1001.involved_religion:0 "Nach Jahrhunderten des Krieges zwischen iberischen Christen und Mauren wird unser Ringen nun von herrischen [iberian_footholder.GetPrimaryTitle.GetAdjective|l]en Eindringlingen ausgenutzt.\n\n"
  fp2_other_decisions.1001.desc:0 "Durch Ablenkung, Neid und Vernachlässigung ließen wir Iberer zu, dass die [iberian_footholder.GetPrimaryTitle.GetAdjective|l]en Eindringlinge die Gräben in unserem Heimatland ausnutzten und eine Invasion der historischen Königreiche der Halbinsel begannen."
  fp2_other_decisions.1001.involved_faith:0 "[iberian_footholder.GetTitledFirstName] hat sich zum legitimen [iberian_footholder.GetFaith.GetAdjectiveNoTooltip|l]en Anführer der Halbinsel ernannt und nutzt [iberian_footholder.Custom('DE_PRO_POS_S_3P')]e Siege als Beweis für [iberian_footholder.Custom('DE_PRO_POS_S_3P')]en Anspruch auf die [iberian_footholder.GetFaith.GetReligion.GetAdjective|l]en Reiche Iberiens."
- fp2_other_decisions.1001.same_uninvolved_faith:0 "Man behauptet, unser Versagen sei die Strafe [ROOT.Char.GetFaith.HighGodNamePossessive] dafür, dass wir vom rechten Pfad ([iberian_footholder.GetFaith.GetName]) abgekommen sind, und dass [iberian_footholder.GetTitledFirstName] der legitime Anführer des [ROOT.Char.GetFaith.GetReligion.GetAdjective|l]en Iberiens sei …"
+ fp2_other_decisions.1001.same_uninvolved_faith:0 "Man behauptet, unser Versagen sei die Strafe der höchsten Mächte ([ROOT.Char.GetFaith.HighGodName]) dafür, dass wir vom rechten Pfad ([iberian_footholder.GetFaith.GetName]) abgekommen sind, und dass [iberian_footholder.GetTitledFirstName] der legitime Anführer des [ROOT.Char.GetFaith.GetReligion.GetAdjective|l]en Iberiens sei …"
  fp2_other_decisions.1001.uninvolved_faith:0 "Mit [iberian_footholder.Custom('DE_PRO_POS_S_3P')]en Siegen als Beleg hat [iberian_footholder.GetTitledFirstName] [iberian_footholder.Custom('DE_PRO_POS_S_3P')]en Glauben zum wahren [iberian_footholder.GetFaith.GetReligion.GetAdjective|l]en Pfad erklärt: einem Pfad, der die gesamte Halbinsel unter [iberian_footholder.GetFaith.HighGodName] einen wird."
  fp2_other_decisions.1001.closing:0 "\n\nWährend [iberian_footholder.GetTitledFirstName] [iberian_footholder.Custom('DE_PRO_POS_S_3P')]e Besitztümer konsolidiert, scheinen die Differenzen zwischen Moslems und Christen angesichts der [iberian_footholder.GetFaith.GetAdjective|l]en Besetzung zu verblassen …"
  fp2_other_decisions.1001.a:0 "Diese verdammte Einmischung."
@@ -57,7 +57,7 @@
  council_of_toledo_decision_desc:0 "Über Jahrhunderte wurden Religionskonzile in [GetTitleByKey('c_toledo').GetNameNoTier] abgehalten, bei denen Kleriker aus der ganzen Christenheit laufende Dispute klärten. Indem man ein 19. Konzil abhält, kann diese westgotische Tradition wiederbelebt werden."
  council_of_toledo_decision_tooltip:0 "In Toledo eine Versammlung der [ROOT.Char.GetFaith.GetReligion.GetAdjective|l]en Kleriker abhalten"
  council_of_toledo_decision_confirm:0 "Es ist an der Zeit."
- council_of_toledo_decision_toledo_holder_trigger:0 "Ihr [Concept('hold', 'Haltet')|E] oder herrscht über [GetTitleByKey('c_toledo').GetName] und dessen Herrscher gehört einem bestimmten Glauben ([THIS.Char.GetFaith.GetName]) an"
+ council_of_toledo_decision_toledo_holder_trigger:0 "Ihr [Concept('hold', 'haltet')|E] oder herrscht über [GetTitleByKey('c_toledo').GetName] und dessen Herrscher gehört einem bestimmten Glauben ([THIS.Char.GetFaith.GetName]) an"
  council_of_toledo_decision_toledo_faith_trigger:0 "[faith|E] ist [THIS.Char.GetLiege.GetFaith.GetName]"
  council_of_toledo_decision_catalyst_tt:0 "Ein [struggle_catalyst|E] kann eintreten"
  council_of_toledo_decision_tt:0 "Belohnungen hängen vom Ausgang des Konzils ab"
@@ -73,7 +73,7 @@
  fp2_other_decisions.0700.tt:0 "Das [SCOPE.ScriptValue('council_of_toledo_counter_value')][THIS.Char.Custom('get_council_of_toledo_count_suffix')] Konzil von Toledo wird in einigen Wochen beginnen"
  # Event - Arrival
  fp2_other_decisions.0701.t:0 "$fp2_other_decisions.0700.council$: Teilnehmer"
- fp2_other_decisions.0701.opening.success:0 "[ROOT.Char.GetFaith.GetReligion.GetAdjective]e [ROOT.Char.GetFaith.AltPriestTermPlural] möglichst offen einzuladen, ist eine Entscheidung, die offenbar positiv aufgenommen wurde: Viele angesehene [ROOT.Char.GetFaith.BishopNeuterPlural] aus fremden Länden kommen eilfertig nach [GetTitleByKey('c_toledo').GetNameNoTier]."
+ fp2_other_decisions.0701.opening.success:0 "[ROOT.Char.GetFaith.GetReligion.GetAdjective|U]e [ROOT.Char.GetFaith.AltPriestTermPlural] möglichst offen einzuladen, ist eine Entscheidung, die offenbar positiv aufgenommen wurde: Viele angesehene [ROOT.Char.GetFaith.BishopNeuterPlural] aus fremden Länden kommen eilfertig nach [GetTitleByKey('c_toledo').GetNameNoTier]."
  fp2_other_decisions.0701.opening.failure:0 "Die Reaktion auf unsere Einladung zu einer ökumenischen Gemeinschaft war eher kühl: Zahlreiche [ROOT.Char.GetFaith.BishopNeuterPlural] meinten, schlechtes Wetter hindere sie daran, [GetTitleByKey('c_toledo').GetNameNoTier] zu erreichen, sodass nur die örtlichen Prälaten anwesend sein werden …"
  fp2_other_decisions.0701.opening.catastrophe:0 "Wir haben nicht einen Bischof, Diakon oder Abt einer anderen [ROOT.Char.GetFaith.GetReligion.GetAdjective|l]en Konfession in [GetTitleByKey('c_toledo').GetNameNoTier] gesehen. Offenbar wird unser Konzil von unserer ökumenischen Bruderschaft mit Verachtung und Wut gesehen, weswegen nur örtliche Prälaten zugegen sind."
  fp2_other_decisions.0701.opening:0 "Die Großen und Guten sind nach [GetTitleByKey('c_toledo').GetNameNoTier] gekommen – als Repräsentanten der Bischofssitze und Abteien der [ROOT.Char.GetFaith.GetAdherentNamePlural]."
@@ -127,7 +127,7 @@
  fp2_council_opinion_other_effect_tt:0 "Alle nicht-mozarabischen Teilnehmer"
  fp2_council_conversion_modifier_tt:0 "Die Bekehrung in der Gemeinde schreitet bei anderen [religions|E] schneller voran, solange dieser Modifikator gilt"
  fp2_council_heresies_modifier_tt:0 "Die Bekehrung in der Gemeinde schreitet bei [faiths|E] derselben [religion|E] mit [Concept('head_of_faith', 'Glaubensoberhäuptern')|E] schneller voran, solange dieser Modifikator gilt"
- excluded_from_council_toledo_tt:0 "Alle anderen [THIS.Char.GetFaith.GetReligion.GetAdjective|l]en [Concept('head_of_faith', 'Glaubensoberhäupter')|E] in [Concept('diplomatic_range', 'Diplomatischer Reichweite')|E]"
+ excluded_from_council_toledo_tt:0 "Alle anderen [THIS.Char.GetFaith.GetReligion.GetAdjective|l]en [Concept('head_of_faith', 'Glaubensoberhäupter')|E] in [Concept('diplomatic_range', 'diplomatischer Reichweite')|E]"
  fp2_council_end_tt:0 "Das [SCOPE.ScriptValue('council_of_toledo_counter_value')][THIS.Char.Custom('get_council_of_toledo_count_suffix')] Konzil von Toledo endet"
  # Modifiers
  fp2_small_council_modifier:0 "Konzil von Toledo"
@@ -170,7 +170,7 @@
  found_kingdom_toledo_decision_tooltip:0 "Ein neues [GetFaithByKey('mozarabic_church').GetAdjective|l]es [kingdom|E] mit Sitz in [GetTitleByKey('k_toledo').GetNameNoTier] errichten."
  found_kingdom_toledo_culture_tt:0 "Eure [culture|E] hat eine iberische [heritage|E]"
  found_kingdom_toledo_faith_tt:0 "Euer [faith|E] ist [GetFaithByKey('mozarabic_church').GetName] oder wurde daraus erschaffen"
- found_kingdom_toledo_duchy_tt:0 "Ihr [Concept('hold', 'Haltet')|E] und [Concept('completely_control', 'Kontrolliert vollständig')|E] ein beliebiges [duchy|E], das [de_jure|E] an [GetTitleByKey('d_toledo').GetName] angrenzt und Teil eines [Concept('kingdom', 'Königreichs')|E] mit zwei oder mehr [de_jure|E]-[Concept('duchies', 'Herzogtümern')|E] ist"
+ found_kingdom_toledo_duchy_tt:0 "Ihr [Concept('hold', 'haltet')|E] und [Concept('completely_control', 'kontrolliert vollständig')|E] ein beliebiges [duchy|E], das [de_jure|E] an [GetTitleByKey('d_toledo').GetName] angrenzt und Teil eines [Concept('kingdom', 'Königreichs')|E] mit zwei oder mehr [de_jure|E]-[Concept('duchies', 'Herzogtümern')|E] ist"
  found_kingdom_toledo_capital_tt:0 "[GetTitleByKey('c_toledo').GetNameNoTier] ist Euer [realm_capital|E]"
 
  fp2_other_decisions.1100.t:0 "Das Königreich Toledo"
@@ -186,6 +186,3 @@
  
  fp2_form_kingdom_toledo_modifier:0 "$fp2_other_decisions.1100.t$"
  fp2_form_kingdom_toledo_modifier_desc:0 "Dieser Charakter hat ein neues Königreich errichtet, dessen Herz im alten westgotischen Hauptsitz schlägt."
-
-# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- council_of_toledo_decision_toledo_vassal_trigger:0 "Mindestens 3 [vassals|E]:"

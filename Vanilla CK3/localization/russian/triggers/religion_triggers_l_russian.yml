@@ -28,12 +28,12 @@
  HOLY_SITES_CONTROLLED_THIRD:0 "[FAITH.GetAdjective] контролирует [holy_sites|El] в количестве $NUM|V0$"
  NOT_HOLY_SITES_CONTROLLED_THIRD:0 "[FAITH.GetAdjective] контролирует [holy_sites|El] в количестве меньше $NUM|V0$"
 
- RELIGION_IS_SAME_AS:0 "Та же [religion|El], что и у [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'его персонажа', '' )]"
- NOT_RELIGION_IS_SAME_AS:0 "Иная [religion|El], чем у [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'его персонажа', '' )]"
+ RELIGION_IS_SAME_AS:0 "Та же [religion|El], что и у [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
+ NOT_RELIGION_IS_SAME_AS:0 "Иная [religion|El], чем у [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
  I_HAVE_SAME_RELIGION:1 "Вы и [TARGET_CHARACTER.GetShortUIName] исповедуете одну [Concept( 'religion', 'религию' )|E]"
  NOT_I_HAVE_SAME_RELIGION:1 "Вы и [TARGET_CHARACTER.GetShortUIName] исповедуете #bold разные#! [Concept( 'religion', 'религии' )|E]"
- THEY_HAVE_SAME_RELIGION:0 "У [Select_CString(CHARACTER.IsPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'его персонажа', '' )] та же [religion|El], что и у [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'его персонажа', '' )]"
- NOT_THEY_HAVE_SAME_RELIGION:0 "У [Select_CString(CHARACTER.IsPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'его персонажа', '' )] иная [religion|El], нежели у [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'его персонажа', '' )]"
+ THEY_HAVE_SAME_RELIGION:0 "У [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] та же [religion|El], что и у [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
+ NOT_THEY_HAVE_SAME_RELIGION:0 "У [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] иная [religion|El], нежели у [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
 
  IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "[doctrines] конфессии [FAITH.GetAdjective|l] гласят, что [CHARACTER.GetWomenMen] могут получать [titles|l] в дар от [Concept( 'rulers', 'правителей' )|E]"
  NOT_IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "[doctrines] конфессии [FAITH.GetAdjective|l] гласят, что [TARGET_CHARACTER.GetWomenMen] #bold не#! могут получать [titles|l] в дар от [Concept( 'rulers', 'правителей' )|E]"

@@ -5,8 +5,8 @@
  #Abrahamic Tenets
  tenet_communion_name:0 "共融圣事"
  tenet_communion_desc:0 "我们的礼仪不仅是象征——而是召唤神明自身的真正临在。那些不能或者没有参加这项圣事的人，无法成为真正的信徒。"
- doctrine_parameter_seek_indulgences_active:1 "角色能从他们的[head_of_faith|E]处#V 购买赎罪券#!，用[gold|E]换取[piety|E]"
- doctrine_parameter_seek_indulgences_active_2:0 "犯下[criminal|E]的角色可以通过#V 购买赎罪券#!获得赦免"
+ doctrine_parameter_seek_indulgences_active:1 "角色能从他们的[head_of_faith|E]处#V 寻求大赦#!，用[gold|E]换取[piety|E]"
+ doctrine_parameter_seek_indulgences_active_2:0 "犯下[criminal|E]的角色可以通过#V 寻求大赦#!获得宽恕"
  doctrine_parameter_excommunication_active:0 "属灵的[heads_of_faith|E]可以[excommunicate|E][faith|E]的其他角色"
  tenet_excommunicated:0 "[GetTrait('excommunicated').GetName( GetNullCharacter )]"
 
@@ -42,7 +42,7 @@
 
  tenet_human_sacrifice_name:0 "人祭"
  tenet_human_sacrifice_desc:0 "证明我们虔诚的最佳方式就是献祭。我们所能献上最为珍贵的祭品就是人命。"
- doctrine_parameter_human_sacrifice_active:0 "[executions|E]能增加[piety|E]而不是消耗[piety|E]"
+ doctrine_parameter_human_sacrifice_active:1 "[executions|E]能增加[piety|E]而不是消耗[piety|E]\n$EFFECT_LIST_BULLET$[sharing_power|E]时[executions|E]不消耗[prestige|E]"
  doctrine_parameter_flower_war_cb_active:0 "能对邻近领地使用[flowery_war|E]的[casus_belli|E]"
 
  tenet_gruesome_festivals_blot_name:0 "血祭"
@@ -87,13 +87,17 @@
 
  tenet_aniconism_name:0 "反圣像"
  tenet_aniconism_desc:0 "崇拜刻画出的形象令太多人对神圣真理视而不见。我们必须将所有圣像移出圣所，防止信徒们落进这个陷阱。"
+ doctrine_parameter_reforging_artifacts_costs_piety:0 "该[faith|E]的[rulers|E][reforge|E]或[repair|E][artifacts|E]必须花费[piety|E]"
+ doctrine_parameter_destroying_artifacts_is_pious:0 "该[faith|E]的[rulers|E]可以摧毁[artifacts|E]获取[piety|E]"
+ destroying_artifacts_is_not_pious_tt:0 "你的[faith|E]不能摧毁[artifacts|E]获取[piety|E]"
+ artifact_is_rarer_than_masterwork_tt:0 "该[artifact|E]的[rarity|E]高于大师级"
 
  tenet_alexandrian_catechism_name:0 "亚历山大里亚教理问答"
  tenet_alexandrian_catechism_desc:0 "亚历山大里亚教理学校有着悠久的传统，鼓励神学家批判思考和质疑现状。\n\n尽管学校在物质上被摧毁了，我们延续着这些传统。"
 
  tenet_hedonistic_name:0 "享乐主义"
  tenet_hedonistic_desc:0 "神明让这世界充满了丰富的愉悦供我们沉迷享受——不参与这些事情就怠慢了创世的工程。"
- doctrine_parameter_piety_from_feasts_active:1 "举行[feast|E]获得[piety|E]"
+ doctrine_parameter_piety_from_feasts_active:1 "举行[GetActivityType('activity_feast').GetName]获得[piety|E]"
 
  tenet_carnal_exaltation_name:0 "肉欲高扬"
  tenet_carnal_exaltation_desc:0 "崇高的肉体欢愉某种意义上超越其他的世间体验，令我们更加靠近神性。我们应该赞美自己的性欲，为自己寻求机会满足之。"
@@ -129,6 +133,7 @@
 
  tenet_false_conversion_sanction_name:0 "认可假意改信"
  tenet_temporal_condemnation_taqiya:0 "塔基亚"
+ tenet_anusim:0 "被迫改信者"
  tenet_false_conversion_sanction_desc:0 "如果你的生命受到威胁，只要你心存真理，就可以假意改信。"
  doctrine_parameter_sanctioned_false_conversion:0 "传教抵抗：#P +30%#!\n$EFFECT_LIST_BULLET$若任由[characters|E]和[counties|E]走上邪路，他们可能会重新改信这个[faith|E]"
 
@@ -155,8 +160,11 @@
  doctrine_parameter_reincarnation_events_active:1 "孩子有概率被视为祖先的转世，并获得[piety|E]和[opinion|E]的加成"
 
  tenet_esotericism_name:0 "秘传"
+ tenet_esotericism_kabbalah:0 "卡巴拉"
  tenet_esotericism_desc:0 "神性的伟大奥秘超乎凡人的理解能力，但这不是无知的借口。奥秘的存在驱使我们寻求了解和领悟周遭世界。"
- doctrine_parameter_tenet_esotericism_mystic_education:1 "[learning|E][education_focus|E]的儿童如果出色完成学业，可以获得[GetTrait('mystic_1').GetName( GetNullCharacter )]特质。"
+ doctrine_parameter_tenet_esotericism_mystic_education:2 "[learning|E][education_focus|E]的儿童如果出色完成学业，可以获得[GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]特质。"
+ tenet_esotericism_kabbalah_desc:0 "卡巴拉的教导使永恒的上帝、无限的本质以及上帝的造物之间的关系能被凡人理解。卡巴拉是所有犹太教神秘主义的基础，卡巴拉的修习者通常也会了解其他犹太教学派。"
+ tenet_religious_kabbalah_cost_tooltip:0 "卡巴拉：#P -10%#!"
 
  #Eastern Tenets
  tenet_adaptive_name:0 "顺应"
@@ -197,7 +205,7 @@
 
  tenet_adorcism_name:0 "附灵"
  tenet_adorcism_desc:0 "这个世界的万灵可以做善良和邪恶的伟业。通过敬礼祂们，我们仅希望他们能对我们行善并对我们的敌人行恶。"
- doctrine_parameter_spirit_possession_active:1 "解锁‘寻求诸灵的援助’[decision|E]"
+ doctrine_parameter_spirit_possession_active:1 "解锁“寻求诸灵的援助”[decision|E]"
 
  tenet_ritual_celebrations_name:0 "庆典"
  tenet_ritual_celebrations_desc:1 "我们团体颂扬和分享对神明的崇敬。举办盛大节庆以荣耀和赞颂神明，使我们团结。"
@@ -223,7 +231,7 @@
  tenet_mystical_birthright_name:0 "生而兴旺"
  tenet_mystical_birthright_alternate:0 "天生塔尔托什"
  tenet_mystical_birthright_desc:0 "我们所有人都生而命定，而最重要的命运就是塔尔托什——生而被选中去使用魔力及成为属灵领袖的人。"
- doctrine_parameter_mystic_birthright_active:0 "生下的儿童有极低概率拥有[GetTrait('mystic_3').GetName( GetNullCharacter )]特质"
+ doctrine_parameter_mystic_birthright_active:1 "生下的儿童有极低概率拥有[GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]特质"
 
  tenet_astrology_name:0 "占星术"
  tenet_astrology_desc:0 "夜空是我们通向神域的窗口。世界伟大的秘密和神秘都书写在其中，对所有知道如何查看的人敞开。"

@@ -21,6 +21,8 @@
  floodplains:0 "Auen"
  drylands:0 "Trockengebiet"
  winter:0 "Winter"
+ sea:0 "Meer"
+ coastal_sea:0 "Küstennahes Meer"
  TERRAIN_DESCRIPTION:0 "[Terrain.GetEffects]"
  TERRAIN_PROVINCE_MODIFIER_HEADER:0 "#S [county|E]-Effekte:#!"
  TERRAIN_MOVEMENT_SPEED:0 "Bewegungstempo: $VALUE|%0V$"
@@ -33,4 +35,5 @@
  TERRAIN_MILD_WINTER:0 "Milder $winter$"
  TERRAIN_NORMAL_WINTER:0 "Normaler $winter$"
  TERRAIN_HARSH_WINTER:0 "Rauer $winter$"
- 
+ TERRAIN_TRAVEL_EFFECTS_HEADER:0 "#S Reiseeffekte:#!"
+ TERRAIN_DANGER:1 "[travel_danger|E]: $VALUE|=-0$"

@@ -29,8 +29,11 @@
 
 # Restore Jewish High Priesthood, by Flavio Verna
  middle_east_decisions.0007.t:0 "[scoped_ruler.GetFaith.GetAdjective]的新司祭团"
- middle_east_decisions.0007.desc:0 "自从罗马人在大约一千年前毁灭第二圣殿，就从未有过[new_priest.GetTitleTierName]——犹太教的大祭司。终于，这一职位不再空缺，大祭司职重设。\n\n如同古代的犹太祭司一样，首席大祭司传统上要求由摩西之兄亚伦的后代担任。由于缺乏合适的人选，这一要求已经免除，但新的大祭司仍然享有犹太教各宗教团体的敬意。"
+ middle_east_decisions.0007.desc.intro:0 "自从大约一千年前罗马人摧毁第二圣殿后，犹太教首席大祭司之职便不复存在。多年以后，首席大祭司职位又得以恢复并不在空缺。\n\n"
+ middle_east_decisions.0007.desc.me:0 "祭司阶层已经理所当然地决定，我作为犹太人民尊敬而虔诚的领袖，最适合承担引领犹太宗教进入新时代的重任。虽然我缺乏作为首席大祭司所必需的亚伦的血脉传承，祭司与平信徒都在庆贺我被按立为首席大祭司。"
+ middle_east_decisions.0007.desc.not_me:0 "如同古代的犹太教祭司一样，首席大祭司传统上要求由摩西之兄亚伦的后代担任。由于缺乏合适的人选，这一要求已被放弃，但新的大祭司仍然享有[ROOT.Char.GetFaith.GetAdjective]各宗教团体的敬意。"
  middle_east_decisions.0007.a:0 "愿[new_priest.GetHerHis]的领导鼓舞我们！"
+ middle_east_decisions.0007.a.me:0 "我的领导将鼓舞我们所有人！"
  middle_east_decisions.0008.desc.others:0 "犹太人在耶路撒冷建立了不可忽视的存在，紧接着，[scoped_ruler.GetTitledFirstName]提出成立新的[new_priest.GetFaith.GetAdjective]大祭司职位以领导以色列人。\n\n人们期望由[new_priest.GetTitledFirstName]领导的这一会众能给不断增长的以色列群体带来统一和指引。"
  middle_east_decisions.0008.a:0 "愿[new_priest.GetHerHis]的领导鼓舞我们！"
  middle_east_decisions.0008.b:0 "我知道了……"

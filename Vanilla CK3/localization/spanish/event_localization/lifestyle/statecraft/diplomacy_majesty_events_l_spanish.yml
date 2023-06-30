@@ -19,17 +19,17 @@
  diplomacy_majesty.0004.extroverted:0 "Trato inigualable con la gente."
  diplomacy_majesty.0004.dominant:0 "Resuelta presencia."
  diplomacy_majesty.0004.fallback:0 "… da igual. ¡Temo que [compliment_receiver.GetHerHim] acabaría insultando!"
- diplomacy_majesty.0004.compliment.tt:0 "La reacción de [compliment_receiver.GetTitledFirstName] dependerá de lo bien que se ajuste a [compliment_receiver.Custom('ES_ElElla')]:"
+ diplomacy_majesty.0004.compliment.tt:0 "La reacción de [compliment_receiver.GetTitledFirstName|l] dependerá de lo bien que se ajuste a [compliment_receiver.Custom('ES_ElElla')]:"
  diplomacy_majesty.0004.success.tt:1 "Tu cumplido es bien recibido"
  diplomacy_majesty.0004.neutral.tt:1 "Tu cumplido fracasa"
  diplomacy_majesty.0004.failure.tt:1 "Tu cumplido se recibe como un insulto"
- diplomacy_majesty.0004.neutral_outcome.desc:0 "El cumplido que le hice a [compliment_receiver.GetTitledFirstName] fue un fiasco."
+ diplomacy_majesty.0004.neutral_outcome.desc:0 "El cumplido que le hice a [compliment_receiver.GetTitledFirstName|l] fue un fiasco."
  diplomacy_majesty.0005.t:1 "$diplomacy_majesty.0004.t$: dulce como la miel"
- diplomacy_majesty.0005.desc:0 "Mi cumplido cuidadosamente preparado recibió la recompensa de una sonrisa agradecida y un toque de rubor en las mejillas de [compliment_receiver.GetTitledFirstName]. La conversación posterior fue la más agradable que tuvimos en muchas lunas."
+ diplomacy_majesty.0005.desc:0 "Mi cumplido cuidadosamente preparado recibió la recompensa de una sonrisa agradecida y un toque de rubor en las mejillas de [compliment_receiver.GetTitledFirstName|l]. La conversación posterior fue la más agradable que tuvimos en muchas lunas."
  diplomacy_majesty.0005.a:0 "¡Unas pocas palabras amables sí que pueden hacer milagros!"
 
  diplomacy_majesty.0006.t:1 "$diplomacy_majesty.0004.t$: amargo como el ajenjo"
- diplomacy_majesty.0006.desc:0 "Tenía la intención de que mis palabras fueran amables, pero la reacción de [compliment_receiver.GetTitledFirstName] no dejó dudas sobre mi fracaso. La indignación en su rostro hizo que se me cayera el alma a los pies."
+ diplomacy_majesty.0006.desc:0 "Tenía la intención de que mis palabras fueran amables, pero la reacción de [compliment_receiver.GetTitledFirstName|l] no dejó dudas sobre mi fracaso. La indignación en su rostro hizo que se me cayera el alma a los pies."
  diplomacy_majesty.0006.a:0 "¿Cómo pude tener tan poco tacto…?"
  
  # Kindred Spirits
@@ -50,7 +50,7 @@
 
  # A Battle of Ideas
  diplomacy_majesty.4030.t:0 "Una batalla de ideas"
- diplomacy_majesty.4030.desc:0 "A medida que paso más tiempo practicando el arte de gobernar y la diplomacia, me encuentro pensando en las similitudes entre la vida en la corte y la guerra. Leer a nuestro oponente… maniobras y contramaniobras… \n\nSi me guardo estos pensamientos, tendría un arma secreta para salirme con la mía. Por otra parte, podría compartir esta idea con [event_target.GetTitledFirstName] para ganarme su favor…"
+ diplomacy_majesty.4030.desc:0 "A medida que paso más tiempo practicando el arte de gobernar y la diplomacia, me encuentro pensando en las similitudes entre la vida en la corte y la guerra. Leer a nuestro oponente… maniobras y contramaniobras… \n\nSi me guardo estos pensamientos, tendría un arma secreta para salirme con la mía. Por otra parte, podría compartir esta idea con [event_target.GetTitledFirstName|l] para ganarme su favor…"
  diplomacy_majesty.4030.a:0 "¡Debo desarrollar esta teoría!"
  diplomacy_majesty.4030.a.success:0 "Mis nuevas tácticas funcionan excepcionalmente bien"
  diplomacy_majesty.4030.a.failure:0 "No logro desarrollar tácticas útiles"
@@ -66,12 +66,12 @@
  diplomacy_majesty.4032.a:0 "Al menos este fracaso no ha causado la pérdida de vidas."
 
  diplomacy_majesty.4033.t:0 "Cadena de suministro de ideas"
- diplomacy_majesty.4033.desc:0 "Hoy [thinker.GetTitledFirstName] vino a mí con una idea interesante. Dice que puede ser útil pensar en un debate en la corte como una batalla campal. Diferentes actores con metas distintas, cada uno intentando llevar la conversación a su propio terreno, pero solo uno ganará."
+ diplomacy_majesty.4033.desc:0 "Hoy [thinker.GetTitledFirstName|l] vino a mí con una idea interesante. Dice que puede ser útil pensar en un debate en la corte como una batalla campal. Diferentes actores con metas distintas, cada uno intentando llevar la conversación a su propio terreno, pero solo uno ganará."
  diplomacy_majesty.4033.a:0 "¡[thinker.Custom('ES_ElElla')|U] tiene unas ideas fascinantes en diplomacia!"
 
  # Lure of Language
  diplomacy_majesty.4070.t:0 "El atractivo de la lengua"
- diplomacy_majesty.4070.desc:0 "Gobernar un [ROOT.Char.GetPrimaryTitle.GetName] multicultural tiene sus propios desafíos. Los súbditos foráneos suelen sentirse alienados por no poder hablar su lengua nativa en la corte, lo que genera resentimiento.\n\n[my_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] me sugiere que podría mejorar significativamente las relaciones con mis súbditos [my_vassal.GetCulture.GetCollective_noun|l] si aprendo a hablar su lengua además de la mía."
+ diplomacy_majesty.4070.desc:0 "Gobernar un [ROOT.Char.GetPrimaryTitle.GetName] multicultural tiene sus propios desafíos. Los súbditos foráneos suelen sentirse alienados por no poder hablar su lengua nativa en la corte, lo que genera resentimiento.\n\n[my_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] me sugiere que podría mejorar significativamente las relaciones con mis súbditos de cultura [my_vassal.GetCulture.GetName] si aprendo a hablar su idioma además del mío."
  diplomacy_majesty.4070.a:0 "¡A clavar los codos!"
  diplomacy_majesty.4070.b:0 "Contratar a un tutor para que me enseñe."
  diplomacy_majesty.4070.c:0 "¿Por qué molestarse? La cultura [ROOT.Char.GetCulture.GetNameNoTooltip|l] es claramente superior."
@@ -81,7 +81,7 @@
  diplomacy_majesty.4070.failure.tt:1 "Puedes elegir seguir estudiando"
 
  diplomacy_majesty.4071.t:1 "$diplomacy_majesty.4070.t$: idioma aprendido"
- diplomacy_majesty.4071.desc:0 "Tras muchas semanas de estudio, por fin he conseguido un dominio sólido de los fundamentos de la lengua [my_vassal.GetCulture.GetName|l].\n\nCon una práctica continuada mejoraré en fluidez, pero esta comprensión básica ya ha mejorado mis relaciones con mis súbditos [my_vassal.GetCulture.GetCollective_noun|l]."
+ diplomacy_majesty.4071.desc:0 "Tras muchas semanas de estudio, por fin he conseguido un dominio sólido de los fundamentos de la lengua [my_vassal.GetCulture.GetName|l].\n\nCon una práctica continuada mejoraré en fluidez, pero esta comprensión básica ya ha mejorado mis relaciones con mis súbditos de cultura [my_vassal.GetCulture.GetNameNoTooltip]."
  diplomacy_majesty.4071.a:0 "Tiempo bien empleado."
  diplomacy_majesty.4071.b:0 "Qué cultura más fascinante… ¡Quiero aprender más!"
  diplomacy_majesty.4070.b.custom:1 "Todo cortesano que sea [close_family|lE] y niño vasallo directo"
@@ -142,7 +142,7 @@
  diplomacy_majesty_special.1010.a.failure.tt:1 "Reduces tus posibilidades de éxito en el debate final en un #N 20%#!"
  diplomacy_majesty_special.1010.a.failure.message:0 "Me agoto estudiando y no recuerdo mucho de nada."
  diplomacy_majesty_special.1010.b:0 "Estudiar a mi oponente podría darme una ventaja…"
- diplomacy_majesty_special.1010.b.success.desc:0 "Aumento mi comprensión de [debater.GetTitledFirstNameNoTooltip]"
+ diplomacy_majesty_special.1010.b.success.desc:0 "Aumento mi comprensión de [debater.GetTitledFirstNameNoTooltip|l]"
  diplomacy_majesty_special.1010.b.success.tt:1 "Recibirás una pista sobre qué táctica elegir en el debate final"
  diplomacy_majesty_special.1010.c:0 "Un poco de descanso me preparará para el conflicto."
  diplomacy_majesty_special.1010.d:0 "¡Se va a enterar es[debater.Custom('ES_EA')] [debater.Custom('InsultNoun')] quién manda aquí!"
@@ -162,11 +162,11 @@
  diplomacy_majesty_special.1011.a.failure.desc:0 "Si pierdo el debate final"
  diplomacy_majesty_special.1011.b.rival:0 "Puede convertirse en mi rival"
 
- diplomacy_majesty_special.1012.desc:0 "Teniendo en cuenta lo que sé del carácter de [debater.GetFirstName], creo que el mejor modo de ganárme[debater.Custom('ES_LoLa”)] es…"
+ diplomacy_majesty_special.1012.desc:0 "Teniendo en cuenta lo que sé del carácter de [debater.GetFirstName], creo que el mejor modo de ganárme[debater.Custom('ES_LoLa')] es…"
  diplomacy_majesty_special.1012.a:0 "basar mi caso en la lógica."
  diplomacy_majesty_special.1012.a.tt:0 "Funciona bien contra gente racional, egoísta, escéptica o insensible"
  diplomacy_majesty_special.1012.b:0 "mantener la calma y que venga lo que sea."
- diplomacy_majesty_special.1012.generic.tt:0 "La eficacia de la táctica depende de lo bien que encaje con la personalidad de [debater.GetTitledFirstName]"
+ diplomacy_majesty_special.1012.generic.tt:0 "La eficacia de la táctica depende de lo bien que encaje con la personalidad de [debater.GetTitledFirstName|l]"
  diplomacy_majesty_special.1012.b.tt:0 "Funciona bien contra gente valiente, enérgica, vengativa o deshonrosa"
  diplomacy_majesty_special.1012.c:0 "apelar a valores superiores."
  diplomacy_majesty_special.1012.c.tt:0 "Funciona bien contra gente honorable, amable, indulgente, creyente o que carezca de ambición"
@@ -182,7 +182,7 @@
 
  diplomacy_majesty_special.1014.desc:0 "Teniendo en cuenta lo que sé de las debilidades de [debater.GetFirstName], creo que el modo más eficaz de humillar[debater.Custom('ES_LoLa')] delante de todos es…"
  diplomacy_majesty_special.1014.a:0 "actuar implacablemente y asustar[debater.Custom('ES_LoLa')]."
- diplomacy_majesty_special.1014.generic.tt:0 "#F La eficacia de la táctica depende de lo bien que aproveche las debilidades de [debater.GetTitledFirstName].#!"
+ diplomacy_majesty_special.1014.generic.tt:0 "#F La eficacia de la táctica depende de lo bien que aproveche las debilidades de [debater.GetTitledFirstName|l].#!"
  diplomacy_majesty_special.1014.a.tt:0 "#F Funciona bien contra gente cauta, amable, comprensiva y aletargada.#!"
  diplomacy_majesty_special.1014.b:0 "provocar[debater.Custom('ES_LoLa')] para que pierda los estribos."
  diplomacy_majesty_special.1014.b.tt:0 "#F Funciona bien contra gente valiente, enérgica, vengativa y honorable.#!"
@@ -211,4 +211,4 @@
  diplomacy_majesty_special.1016.a:0 "Qué vergüenza…"
 
  diplomacy_majesty_special.1050.title:0 "El debate terminó sin llegar a una conclusión"
- diplomacy_majesty_special.1050.message:0 "No tuve la oportunidad de probar mi talento para el debate contra [debater.GetTitledFirstName]."
+ diplomacy_majesty_special.1050.message:0 "No tuve la oportunidad de probar mi talento para el debate contra [debater.GetTitledFirstName|l]."

@@ -71,14 +71,15 @@
  game_concept_court_positions:0 "Положение при дворе"
  game_concept_court_position_desc:2 "$game_concept_court_positions$ — это особое звание для [Concept( 'courtiers', 'придворных' )|E] и [Concept( 'vassals', 'вассалов' )|E], которое обязывает их помогать [Concept( 'liege', 'сюзерену' )|E] в определенных вопросах.\n\nПреимущества, которые дает $game_concept_court_positions$, зависят от [Concept( 'aptitude', 'пригодности' )|E] персонажа для занимаемой должности.\n\nПлатить за назначение на придворную должность не нужно, однако персонаж получает ежемесячное жалование [Concept( 'gold', 'золотом' )|E], а на снятие с должности тратится [prestige|El]."
 
+ game_concept_court_position_aptitude:0 "Пригодность для придворной должности"
  game_concept_aptitude:0 "Пригодность"
- game_concept_aptitude_desc:2 "$game_concept_aptitude$ [Concept( 'character', 'персонажа' )|E] определяет его пригодность для [Concept( 'court_position', 'положения при дворе' )|E]. \n\n$game_concept_aptitude$ измеряется в 5 уровнях, от ужасной до отличной. Уровень [Concept( 'aptitude', 'пригодности' )|E] персонажа определяет, какие бонусы получит [Concept( 'liege', 'сюзерен' )|E], дав ему [Concept( 'court_position', 'должность при дворе' )|E].\n\nНапример, персонаж со свойством «[GetTrait('physician_3').GetName( GetNullCharacter )]» куда лучше подойдет на должность «$court_physician_court_position$»."
+ game_concept_court_position_aptitude_desc:0 "$game_concept_aptitude$ [Concept( 'character', 'персонажа' )|E] определяет его пригодность для [Concept( 'court_position', 'должности при дворе' )|E]. \n\n$game_concept_aptitude$ измеряется 5 уровнями, от ужасной до отличной. Уровень [Concept( 'aptitude', 'пригодности' )|E] персонажа определяет, какие бонусы получит [Concept( 'liege', 'сюзерен' )|E], дав ему [Concept( 'court_position', 'должность при дворе' )|E].\n\nНапример, персонаж со свойством «[GetTrait('lifestyle_physician').GetName( GetNullCharacter )]» куда лучше подойдет на должность «$court_physician_court_position$»."
 
  game_concept_court_event:0 "Придворное событие"
  game_concept_court_events:0 "Придворные события"
  game_concept_court_event_desc:0 "$game_concept_court_event$ — это событие с участием представителей вашего [Concept( 'court', 'двора' )|E]. Их можно посмотреть в разделе [Concept( 'royal_court', 'монаршего двора' )|E]."
  game_concept_petition_liege:0 "Обращение"
- game_concept_petition_liege_desc:0 "[activity|E], позволяющее [Concept( 'vassals', 'вассалу' )|E] просить [Concept( 'liege', 'сюзерена' )|E] о помощи.\n\n[liege|E] рассматривает характер проблемы и решает, стоит ли она его внимания."
+ game_concept_petition_liege_desc:1 "Возможность для [Concept( 'vassals', 'вассала' )|E] попросить [Concept( 'liege', 'сюзерена' )|E] о помощи.\n\n[liege|E] рассматривает характер проблемы и решает, стоит ли она его внимания."
  game_concept_pay_homage:0 "Почести"
  game_concept_pay_homage_desc:0 "[activity|E], позволяющее [Concept( 'vassals', 'вассалам' )|E] официально заявить о верности [Concept( 'liege', 'сюзерену' )|E].\n\nВоздавать почести можно разными способами, при этом обе стороны получают прибавку к [Concept( 'opinion', 'мнению' )|E], [Concept( 'prestige', 'престижу' )|E] и [Concept( 'dynasty_prestige', 'престижу династии' )|E]."
 

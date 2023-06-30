@@ -7,7 +7,7 @@
  designated_human_sacrifice_modifier:0 "Выбранная человеческая жертва"
  designated_human_sacrifice_modifier_desc:0 "По воле высших сил этому персонажу уготована судьба жертвы. По крайней мере, так утверждает пленитель."
  human_sacrifice.0001.t:0 "Жажда богов"
- human_sacrifice.0001.desc:0 "Прошло несколько лет с тех пор, как [ROOT.Char.GetFaith.HighGodName] нис[Select_CString(ROOT.Char.GetFaith.HighGodIsFemale, 'послала', 'послал' )] мне грандиозную победу в войне, но ни один из высокопоставленных пленников до сих пор не принесен в жертву. Мои [ROOT.Char.GetFaith.AltPriestTermPlural] теряют терпение, а в простом народе ходят слухи, что [ROOT.Char.GetFaith.WarGodName] [Select_CString(ROOT.Char.GetFaith.WarGodIsFemale, 'отвернулась', 'отвернулся' )] от меня."
+ human_sacrifice.0001.desc:0 "Прошло несколько лет с тех пор, как я [Select_CString(ROOT.Char.IsFemale, 'одержал', 'одержала' )] грандиозную победу во славу [ROOT.Char.GetFaith.HighGodNamePossessive], но ни один из высокопоставленных пленников до сих пор не принесен в жертву. Мои [ROOT.Char.GetFaith.AltPriestTermPlural] теряют терпение, а в народе ходят слухи, что я [Select_CString(ROOT.Char.IsFemale, 'лишилась', 'лишился' )] благосклонности [ROOT.Char.GetFaith.WarGodNamePossessive]."
  human_sacrifice.0001.a:0 "Погодите. Может, жертва, пусть и запоздалая, решит проблему?"
  human_sacrifice.0001.b:0 "Я стоически переношу их презрение."
  human_sacrifice.0001.c:0 "Меня утомляет их варварство."

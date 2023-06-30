@@ -57,7 +57,7 @@
 
  witch.2006.t:0 "$convert_to_witch$: Die Enthüllung"
  witch.2006.desc:0 "[target.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ist nicht [target.Custom('DE_PRO_POS_S_3P')]em Bett, als ich auf meiner Mission, die mir [owner.GetFaith.WitchGodName] aufgetragen hat, durch [target.Custom('DE_PRO_POS_S_3P')] Fenster klettere. Wo könnte …\n\n„Wer ist da?!“\n\nIch fahre herum und sehe [target.GetTitledFirstName] in einem auf den Boden gezeichnetem Pentagramm kauern."
- witch.2006.a:0 "Oh, Ihr wart schon eine …! Hallo, [target.Custom('SisterBrother')U]!"
+ witch.2006.a:0 "Oh, Ihr wart schon eine …! Hallo, [target.Custom('SisterBrother')|U]!"
 
  witch.2007.t:0 "Verborgene Verbündete"
  witch.2007.desc:0 "[owner.GetFaith.WitchGodName|U] wird gerade von mir in einem meiner nächtlichen Rituale geehrt, als ich plötzlich ein Geräusch hinter mir höre. Ein Einbrecher? Ein Besucher? Ein Meuchler?!\n\nAls ich herumfahre, ist es [owner.Custom2('MyCharacterIntroduction', ROOT.Char)], gehüllt in einen dunklen Mantel, der mit einem unverkennbaren Zeichen verziert ist: Es ist jene klassische Gewandung, in der man Bekehrungen vornimmt, wenn [owner.GetFaith.WitchGodName|U] neue Diener bekommen soll."
@@ -105,9 +105,26 @@
  activity_witch_ritual:0 "Großer Ritus"
  activity_witch_ritual_name:0 "Der Große Ritus von [ACTIVITY.GetOwner.GetName]"
  activity_witch_ritual_owner:0 "Gastgeber"
- activity_witch_ritual_desc:1 "Alle wahren Anhänger von [ACTIVITY.GetOwner.GetFaith.WitchGodName] wurden eingeladen, die Macht ihrer Gottheit zu feiern und tiefer in ihre Mysterien einzutauchen."
+ activity_witch_ritual_desc:3 "Wahre Anhänger mit der [trait|E] „[GetTrait('witch').GetName(GetNullCharacter)]“ sind eingeladen, die Macht der höchsten Instanz ([GetPlayer.GetFaith.WitchGodName]) zu feiern und sich in die Mysterien zu vertiefen."
+ activity_witch_ritual_destination_selection:0 "Ihr könnt ein $activity_witch_ritual$ nur in Eurem [capital|E] ausrichten."
+ activity_witch_ritual_selection_tooltip:0 "Huldigt [GetPlayer.GetFaith.WitchGodName] und nehmt das dunkle Geschenk an.\n\nErwartete Belohnungen:\n$BULLET_WITH_TAB$[opinion_i] [opinion|E]\n$BULLET_WITH_TAB$[stress_loss_i] [Concept('stress', 'Anspannungsabbau')|E]"
+ activity_witch_ritual_province_desc:1 "Dies ist Euer [capital|E]"
+ activity_witch_ritual_host_desc:1 "$BULLET_WITH_TAB$Ihr könnt Lebenswandelerfahrung erhalten\n$BULLET_WITH_TAB$Teilnehmer können an [opinion|E] in den Augen der anwesenden Charaktere gewinnen\n$BULLET_WITH_TAB$Teilnehmer können [stress_loss_i][stress|E] abbauen"
+ activity_witch_ritual_conclusion_desc:1 "„[GetActivityType('activity_witch_ritual').GetName]“ wurde abgeschlossen"
+ activity_witch_ritual_guest_desc:1 "$BULLET_WITH_TAB$ Teilnehmer können an [opinion|E] in den Augen der anwesenden Charaktere gewinnen\n$BULLET_WITH_TAB$ Teilnehmer können [stress_loss_i][stress|E] abbauen"
+ activity_witch_ritual_guest_help_text:0 "$activity_witch_ritual_desc$"
+ witch_ritual_phase_desc:0 "Gebt Euch [GetPlayer.GetFaith.WitchGodName] hin"
+ host_witch_ritual_title:0 "Großer Ritus"
+ host_witch_ritual:0 "Ehrt [GetPlayer.GetFaith.WealthGodName]"
 
  host_witch_ritual_decision_cooldown:0 "Ich kann #N 10 Jahre#! lang keinen Großen Ritus mehr abhalten"
+
+ ### PHASES
+ witch_ritual_phase:0 "Dunkles Ritual"
+
+ ### INTENTS
+ worship_devil_intent:2 "Huldigt [GetPlayer.GetFaith.WealthGodName]"
+ worship_devil_intent_desc:1 "Widmet Euch dem Verborgenen. Im Körper. Im Geist."
 
  #Invitation
  witch.3001.t:0 "Lieb[ROOT.Char.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.Custom('SisterBrother')|U] [ROOT.Char.GetFirstNameNoTooltip],"
@@ -116,20 +133,20 @@
  witch.3001.b:0 "Lieber würde ich eine Schüssel rohe Schnecken essen."
 
  #Uninvited guest
- witch.3003.t:1 "$activity_witch_ritual$: Ein ungebetener Gast"
- witch.3003.desc:0 "Als die anderen Hexen in [capital.GetNameNoTooltip] eintreffen, erhasche ich einen Blick auf ein Gesicht, das mir nicht vertraut ist.\n\n[inviter.Custom2('MyCharacterIntroduction', ROOT.Char)|U] begrüßt mich und stellt mir den fremden Gast als [new_guest.GetFirstName] vor. Wie sich herausstellt, sind sie alte Bekannte, und [inviter.GetFirstNameNoTooltip] fragt, ob [new_guest.GetFirstNameNoTooltip] sich unserem Ritus anschließen darf."
+ witch.3003.t:2 "Ein ungebetener Gast"
+ witch.3003.desc:1 "Als die anderen Hexen in [capital.GetNameNoTooltip] eintreffen, erhasche ich einen Blick auf ein Gesicht, das mir nicht vertraut ist.\n\n[inviter.Custom2('MyCharacterIntroduction', ROOT.Char)|U] begrüßt mich und stellt mir den fremden Gast als [new_guest.GetFirstName] vor. Wie sich herausstellt, sind sie alte Bekannte, und [inviter.GetFirstNameNoTooltip] fragt, ob [new_guest.GetFirstNameNoTooltip] sich unserem Ritus anschließen darf."
  witch.3003.a:0 "Je mehr, desto besser!"
  witch.3003.b:0 "Ihr werdet mein Ehrengast, [new_guest.GetFirstNameNoTooltip]."
  witch.3003.c:0 "Der Ritus ist eine private Angelegenheit!"
 
  #No one attended
- witch.3002.t:0 "$activity_witch_ritual$: Mangelnde Hingabe"
+ witch.3002.t:1 "Mangelnde Hingabe"
  witch.3002.desc:0 "Nicht eine einzige Menschenseele ist meiner Einladung gefolgt. Sie haben den Segen von [ROOT.Char.GetFaith.WitchGodName] nicht verdient!"
  witch.3002.a:0 "Sie werden den Zorn der höchsten Macht spüren."
 
  #Starting event
  every_grand_rite_participant:0 "Jeder Gast beim Ritus"
- witch.3010.t:1 "$activity_witch_ritual$: Der Vollmond geht auf"
+ witch.3010.t:2 "Der Vollmond geht auf"
  witch.3010.desc:0 "Als der Mond am Himmel emporsteigt und die Ankunft von [ROOT.Char.GetFaith.WitchGodName] ankündigt, spüre ich, wie mein Körper auf die sonderbaren Kräfte antwortet, die in der Luft liegen. Die Silhouetten um das große Feuer herum sind stumm und reglos. Sie warten auf das, was da kommt.\n\nDa ich diese Versammlung ausrichte, ist es an mir, das Ritual zu beginnen. Hierzu tue ich Folgendes:"
  witch.3010.a:0 "Ich lese aus einem uralten Ritual."
  witch.3010.a.great:0 "Meine Übersetzung ist beeindruckend"
@@ -178,7 +195,7 @@
  witch.3014.f:1 "Lacht, trinkt, tanzt … Genießt die Segen der höchsten Macht!"
 
  #Regular seduction event
- witch.3015.t:0 "$activity_witch_ritual$: Am Teich"
+ witch.3015.t:1 "Am Teich"
  witch.3015.start.desc:0 "Die Macht von [ROOT.Char.GetFaith.WitchGodName] pocht in meinen Adern, als ich den Wald betrete. Ein Chor aus Seufzern und Ächzen begrüßt mich: Ich bin mit meinem Wunsch nach Gesellschaft heute Abend nicht allein.\n\n"
  witch.3015.new_guest.desc:0 "An einem Teich im Mondenschein begegne ich zufällig mein[sex_partner.Custom('DE_END_PRO_S_D')] neuen Bekannten [sex_partner.GetFirstName]."
  witch.3015.regular.desc:0 "[sex_partner.Custom2('MyCharacterIntroduction', ROOT.Char)] und ich begegnen uns an einem Teich im Mondenschein."
@@ -188,7 +205,7 @@
  witch.3015.b.tt:1 "Ihr verbringt die Nacht allein"
 
  #Lover/spouse seduction event
- witch.3016.t:0 "$activity_witch_ritual$: Die Sterne stehen richtig"
+ witch.3016.t:1 "Die Sterne stehen günstig"
  witch.3016.end.desc:0 "Eine vertraute Stimme ruft nach mir: Es ist [sex_partner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]. Als ich mich umdrehe und [sex_partner.Custom('DE_PRO_POS_S_3P')]en Blick erwidere, ergibt plötzlich alles einen Sinn. Wir beide … Dies ist der Wille von [ROOT.Char.GetFaith.WitchGodName]. Es ist unser Schicksal, zusammen zu sein."
  witch.3016.a:0 "Auf ewig."
  witch.3016.b:0 "Ich … Ich bin hierfür nicht bereit."
@@ -199,7 +216,7 @@
  witch.3017.b:0 "Ich … habe etwas vergessen! Tut mir leid!"
 
  #End events
- witch.3098.t:0 "$activity_witch_ritual$: Bis zum nächsten Mal!"
+ witch.3098.t:1 "Bis zum nächsten Mal!"
  witch.3098.start.desc:0 "Meine Gäste und ich haben"
  witch.3098.end.desc:0 "[ROOT.Char.GetFaith.WitchGodName|U] verehrt, geheimes Wissen ausgetauscht und innige Bande geknüpft. Mein Geist schwirrt vor neuen Ideen, und mein Körper braucht unbedingt etwas Ruhe. Noch nie habe ich mich so nach einem warmen Bett gesehnt."
  witch.3098.a:0 "Möge die höchste Macht über uns wachen bis zum nächsten $activity_witch_ritual$."
@@ -264,7 +281,7 @@
 
 #PERSONAL WITCH RITUAL
  witch.4010.t:0 "Die Gaben der höchsten Macht sind mannigfaltig"
- witch.4010.desc:1 "Ich schütte meine Gaben auf die Erde: Kräuter, Milch und Honig. Mit geschlossenen Augen und beißendem Rauch in der Nase hebe ich die Arme zum Mond.\n\n„O [ROOT.Char.WitchGodName]! Hort aller Wahrheiten, [ROOT.Char.GetFaith.WitchGodMotherFather] aller Macht! Bitte nehmt meine bescheidenen Gaben an und bietet mir Eurerseits Rat!“\n\nIch bitte [ROOT.Char.GetFaith.WitchGodName] um …"
+ witch.4010.desc:1 "Ich schütte meine Gaben auf die Erde: Kräuter, Milch und Honig. Mit geschlossenen Augen und beißendem Rauch in der Nase hebe ich die Arme zum Mond.\n\n„O [ROOT.Char.GetFaith.WitchGodName]! Hort aller Wahrheiten, [ROOT.Char.GetFaith.WitchGodMotherFather] aller Macht! Bitte nehmt meine bescheidenen Gaben an und bietet mir Eurerseits Rat!“\n\nIch bitte [ROOT.Char.GetFaith.WitchGodName] um …"
  witch.4010.a:0 "Glück in der Kunst der Liebe."
  witch.4010.b:0 "Charme und Taktgefühl."
  witch.4010.c:0 "den Geist eines Strategen."

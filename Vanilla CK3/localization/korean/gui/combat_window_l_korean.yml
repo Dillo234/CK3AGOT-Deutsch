@@ -70,8 +70,8 @@
  COMBAT_WINDOW_MAA_TT_EFFICIENCY:1 "@warning_icon! 상성이 불리하므로 피해를 [CombatMaaItem.GetCountered|0-%]만큼 줍니다."
  COMBAT_WINDOW_MAA_TT_TERRAIN_GOOD:0 "#I + 유리한 지형에서 전투 #!"
  COMBAT_WINDOW_MAA_TT_TERRAIN_BAD:0 "#X - 불리한 지형에서 전투 #!"
- COMBAT_WINDOW_MAA_TT_SCREEN:2 "온전한 연대 하나 당 차단 효과: [MenAtArmsType.GetStat(GetPlayer, 'screen')|0+=]"
- COMBAT_WINDOW_MAA_TT_PURSUIT:2 "온전한 연대 하나 당 추격 효과: [MenAtArmsType.GetStat(GetPlayer, 'pursuit')|0+=]"
+ COMBAT_WINDOW_MAA_TT_SCREEN:3 "온전한 연대 하나 당 차단 효과: [MenAtArmsType.GetStat(GetPlayer, Province.Self, 'screen')|0+=]"
+ COMBAT_WINDOW_MAA_TT_PURSUIT:3 "온전한 연대 하나 당 추격 효과: [MenAtArmsType.GetStat(GetPlayer, Province.Self, 'pursuit')|0+=]"
  COMBAT_WINDOW_NO_MAA:0 "[men_at_arms|E] 없음"
  CV_TT_RELATIVE_SOLDIERS:0 "#T 군사력 비교#!\n[soldiers|E] [CombatWindow.GetLeftCombatSide.GetComposition.GetSoldierCountString]명 대 [CombatWindow.GetRightCombatSide.GetComposition.GetSoldierCountString]명\n[CombatWindow.GetCombat.GetCombatWidthBreakdown]"
  COMBAT_WINDOW_PHASE_MANEUVER_TT:1 "#T 작전 국면\n#!양 측이 전투를 준비 중입니다."
@@ -87,4 +87,3 @@
  CW_NO_KNIGHTS:0 "[knights|E] 없음"
  COMBAT_WINDOW_NO_COMMANDER:0 "지휘관 없음"
  
-

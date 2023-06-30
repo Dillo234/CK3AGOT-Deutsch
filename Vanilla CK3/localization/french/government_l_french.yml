@@ -66,7 +66,7 @@
  religious_rights_none:0 "Pratique religieuse non protégée"
  religious_rights_none_short:0 "Non protégé"
  religious_rights_protected:0 "Pratique religieuse protégée"
- religious_rights_protected_desc:3 "#emphasis #bold Privilèges du [vassal|El]:#!#!\nLe [liege|El] ne peut pas [Concept('demand_conversion','exiger sa conversion')|E]\nLe seigneur lige ne peut pas [Concept('convert_county','convertir un comté')|E] dans les terres du vassal\nLe seigneur lige ne peut pas utiliser la [faith|El] comme raison pour éviter de la [tyranny|El] lors de la révocation d’un titre du vassal\n\n#flavor Le vassal se voit accorder un statut de protection spécial et le pays reconnaît officiellement son droit de pratiquer sa propre [faith|El].#!"
+ religious_rights_protected_desc:3 "#emphasis #bold Privilèges du [vassal|El] :#!#!\nLe [liege|El] ne peut pas [Concept('demand_conversion','exiger sa conversion')|E]\nLe seigneur lige ne peut pas [Concept('convert_county','convertir un comté')|E] dans les terres du vassal\nLe seigneur lige ne peut pas utiliser la [faith|El] comme raison pour éviter de la [tyranny|El] lors de la révocation d’un titre du vassal\n\n#flavor Le vassal se voit accorder un statut de protection spécial et le pays reconnaît officiellement son droit de pratiquer sa propre [faith|El].#!"
  religious_rights_protected_short:0 "Protégé"
  
  fortification_rights:0 "Droits de fortification"
@@ -80,7 +80,7 @@
  succession_rights_default:0 "Droits de succession normaux"
  succession_rights_default_short:0 "Normaux"
  succession_rights_forced_partition:0 "Partition obligatoire"
- succession_rights_forced_partition_desc:0 "#emphasis #bold Restrictions du [vassal|El]:#!#!\nLe vassal ne peut pas avoir de [succession_law|El] autre que la partition\nLe vassal paye #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%#! de [prestige|El] en plus pour changer ses [laws|El]\n\n#flavor Le vassal est obligé d’avoir la partition comme type de succession pour son [realm|El]. L’obstacle administratif engendré accroît également le coût des lois de #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%.#!#!"
+ succession_rights_forced_partition_desc:0 "#emphasis #bold Restrictions du [vassal|El] :#!#!\nLe vassal ne peut pas avoir de [succession_law|El] autre que la partition\nLe vassal paye #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%#! de [prestige|El] en plus pour changer ses [laws|El]\n\n#flavor Le vassal est obligé d’avoir la partition comme type de succession pour son [realm|El]. L’obstacle administratif engendré accroît également le coût des lois de #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%.#!#!"
  succession_rights_forced_partition_short:0 "Partition obligatoire"
  
  coinage_rights:0 "Droits de frappe"
@@ -94,7 +94,7 @@
  war_declaration_rights_default:0 "Déclaration de guerre normale"
  war_declaration_rights_default_short:0 "Normale"
  war_declaration_rights_allowed:0 "Déclaration de guerre autorisée"
- war_declaration_rights_allowed_desc:1 "#emphasis #bold Privilèges du [vassal|El]:#!#!\nLe vassal peut déclarer la [war|El] quelle que soit l’[crown_authority|El] de son [liege|El]\nIl paye #high [EmptyScope.ScriptValue('war_declaration_rights_allowed_cost_reduction_tooltip')|0]%#! en moins pour les [casus_bellis|El] dans le [realm|El]\n\n#flavor Il n’a pas à dépenser de [hook|El] si l’autorité de la Couronne de son seigneur lige l’empêche de mener des guerres. Ce traitement spécial facilite également ses déclarations de guerre à l’intérieur du [realm|El] en réduisant le coût de #high [EmptyScope.ScriptValue('war_declaration_rights_allowed_cost_reduction_tooltip')|0]%#!.#!"
+ war_declaration_rights_allowed_desc:1 "#emphasis #bold Privilèges du [vassal|El] :#!#!\nLe vassal peut déclarer la [war|El] quelle que soit l’[crown_authority|El] de son [liege|El]\nIl paye #high [EmptyScope.ScriptValue('war_declaration_rights_allowed_cost_reduction_tooltip')|0]%#! en moins pour les [casus_bellis|El] dans le [realm|El]\n\n#flavor Il n’a pas à dépenser de [hook|El] si l’autorité de la Couronne de son seigneur lige l’empêche de mener des guerres. Ce traitement spécial facilite également ses déclarations de guerre à l’intérieur du [realm|El] en réduisant le coût de #high [EmptyScope.ScriptValue('war_declaration_rights_allowed_cost_reduction_tooltip')|0]%#!.#!"
  war_declaration_rights_allowed_short:0 "Autorisée"
  
  council_rights:0 "Droits au Conseil"
@@ -102,14 +102,14 @@
  council_rights_none_desc:0 "#flavor Le [vassal|El] ne bénéficie d’aucun privilège exceptionnel en ce qui concerne le [council|E].#!"
  council_rights_none_short:0 "Aucun"
  council_rights_guaranteed:0 "Droits au Conseil garantis"
- council_rights_guaranteed_desc:0 "#emphasis #bold Privilèges du [vassal|El]:#!#!\nL’[interaction|El] #high $force_onto_council$#! peut être utilisée à volonté\n\n#flavor Le vassal a des privilèges spéciaux au [council|E] et s’attend à un siège permanent. Accorder ce privilège à un trop grand nombre de vassaux contrariera les [powerful_vassals|El] du [realm|El].#!"
+ council_rights_guaranteed_desc:0 "#emphasis #bold Privilèges du [vassal|El] :#!#!\nL’[interaction|El] #high $force_onto_council$#! peut être utilisée à volonté\n\n#flavor Le vassal a des privilèges spéciaux au [council|E] et s’attend à un siège permanent. Accorder ce privilège à un trop grand nombre de vassaux contrariera les [powerful_vassals|El] du [realm|El].#!"
  council_rights_guaranteed_short:0 "Garantis"
  
  title_revocation_rights:0 "Révocation de titre"
  title_revocation_rights_default:0 "Révocation de titre normale"
  title_revocation_rights_default_short:0 "Normale"
  title_revocation_rights_protected:0 "Révocation de titre protégée"
- title_revocation_rights_protected_desc:0 "#emphasis #bold Privilèges du [vassal|El]:#!#!\nLe [liege|El] ne peut pas révoquer ses [titles|El]\n\n#flavor Le [vassal|El] est assuré de la propriété de ses titres, ce qui empêche son seigneur lige de les révoquer, que le seigneur lige ait un [revoke_title_reason|El].#!"
+ title_revocation_rights_protected_desc:0 "#emphasis #bold Privilèges du [vassal|El] :#!#!\nLe [liege|El] ne peut pas révoquer ses [titles|El]\n\n#flavor Le [vassal|El] est assuré de la propriété de ses titres, ce qui empêche son seigneur lige de les révoquer, que le seigneur lige ait un [revoke_title_reason|El].#!"
  title_revocation_rights_protected_short:0 "Protégé"
  
  clan_government:0 "Clan"
@@ -167,7 +167,14 @@
  GOVERNMENT_HOLDING_INFO:0 "- Peut détenir des [holdings|El] de type [HOLDING_TYPE.GetName|Vl]"
  GOVERNMENT_CLAN_NOT_ALLIED:0 "Pas d’[alliance|El] en tant que [vassal|El] clanique"
  GOVERNMENT_CLAN_NOT_ALLIED_POWERFUL:0 "Pas d’[alliance|El] en tant que puissant [vassal|El] clanique"
- government_can_raid_rule:0 "Permet le [raid|El] de [counties|El] étrangers"
+ government_can_raid_rule:1 "Le [government|El] permet le [raid|El] de [counties|El] étrangers pour du [raid_loot|El]"
+ government_is_feudal:0 "Le type de [government|El] est [GetGovernment( 'feudal_government' ).GetName]"
+ government_is_republic:0 "Le type de [government|El] est [GetGovernment( 'republic_government' ).GetName]"
+ government_is_theocracy:0 "Le type de [government|El] est [GetGovernment( 'theocracy_government' ).GetName]"
+ government_is_clan:0 "Le type de [government|El] est [GetGovernment( 'clan_government' ).GetName]"
+ government_is_tribal:0 "Le type de [government|El] est [GetGovernment( 'tribal_government' ).GetName]"
+ government_is_mercenary:0 "Le type de [government|El] est [GetGovernment( 'mercenary_government' ).GetName]"
+ government_is_holy_order:0 "Le type de [government|El] est [GetGovernment( 'holy_order_government' ).GetName]"
 
  SUPPLY_MULT_DIFERENT_GOVERNMENT:0 "Terre [GOVERNMENT_TYPE.GetAdjective|l]"
  
@@ -179,7 +186,7 @@
  jizya_special_rights_default:0 "Statut de djizîa normal"
  jizya_special_rights_default_short:0 "Normal"
  jizya_special_rights_granted:0 "Statut de djizîa imposé"
- jizya_special_rights_granted_desc:0 "#emphasis #bold Privilèges du [vassal|El]:#!#!\nLe [liege|El] ne peut pas [demand_conversion|El] du [vassal|El]\nLe [liege|El] ne peut faire de [convert_county|El] dans les terres des [vassals|El]\nLe [liege|El] ne peut pas utiliser la [faith|El] comme un motif pour éviter la pénalité de [tyranny|El] lors de la révocation de titres\nLe [liege|El] ne peut pas révoquer les [titles|El] des [vassals|El]\n\n#flavor Le [vassal|El] est assuré d’être propriétaire de ses [titles|l], puisque le [liege|El] ne peut pas les révoquer, qu’il ait un [Concept('revoke_title_reason','motif')|E] ou non.\nLe vassal bénéficie également d’un statut de protection spécial, le pays lui reconnaissant officiellement le droit de pratiquer sa propre [faith|El].#!"
+ jizya_special_rights_granted_desc:0 "#emphasis #bold Privilèges du [vassal|El] :#!#!\nLe [liege|El] ne peut pas [demand_conversion|El] du [vassal|El]\nLe [liege|El] ne peut faire de [convert_county|El] dans les terres des [vassals|El]\nLe [liege|El] ne peut pas utiliser la [faith|El] comme un motif pour éviter la pénalité de [tyranny|El] lors de la révocation de titres\nLe [liege|El] ne peut pas révoquer les [titles|El] des [vassals|El]\n\n#flavor Le [vassal|El] est assuré d’être propriétaire de ses [titles|l], puisque le [liege|El] ne peut pas les révoquer, qu’il ait un [Concept('revoke_title_reason','motif')|E] ou non.\nLe vassal bénéficie également d’un statut de protection spécial, le pays lui reconnaissant officiellement le droit de pratiquer sa propre [faith|El].#!"
  jizya_special_rights_granted_short:0 "Accordé"
 
  iqta_special_rights:0 "Iqta"
@@ -193,12 +200,12 @@
  ghazi_special_rights_default:0 "Statut de ghazi normal"
  ghazi_special_rights_default_short:0 "Normal"
  ghazi_special_rights_granted:0 "Statut de ghazi accordé"
- ghazi_special_rights_granted_desc:0 "#emphasis #bold Privilèges du [vassal|El]:#!#!\nLe [vassal|El] paie moins de [piety|El] pour utiliser les [casus_bellis|El] de [holy_war|El], mais plus de [prestige|El][prestige_i] pour tout autre casus belli\n\n#flavor Le [vassal|El] est choisi comme guerrier de la [faith|El] par le [liege|El] et chargé de repousser les frontières par des guerres saintes.#!"
+ ghazi_special_rights_granted_desc:0 "#emphasis #bold Privilèges du [vassal|El] :#!#!\nLe [vassal|El] paie moins de [piety|El] pour utiliser les [casus_bellis|El] de [holy_war|El], mais plus de [prestige|El][prestige_i] pour tout autre casus belli\n\n#flavor Le [vassal|El] est choisi comme guerrier de la [faith|El] par le [liege|El] et chargé de repousser les frontières par des guerres saintes.#!"
  ghazi_special_rights_granted_short:0 "Accordé"
 
  marriage_favor_rights:0 "Faveur du mariage"
  marriage_favor_rights_default:0 "Faveur du mariage normale"
  marriage_favor_rights_default_short:0 "Normale"
  marriage_favor_rights_granted:0 "$marriage_favor_rights$ accordée"
- marriage_favor_rights_granted_desc:0 "#emphasis #bold Privilèges du [vassal|El]:#!#!\nLe [liege|El] s’engage à marier sa famille proche pour sceller des alliances, avant de les marier à quelqu’un d’autre.\n\n#flavor Le [vassal|El] est l’un des favoris du [liege|El] et devrait être capable de sceller une alliance par le mariage.#!"
+ marriage_favor_rights_granted_desc:0 "#emphasis #bold Privilèges du [vassal|El] :#!#!\nLe [liege|El] s’engage à marier sa famille proche pour sceller des alliances, avant de les marier à quelqu’un d’autre.\n\n#flavor Le [vassal|El] est l’un des favoris du [liege|El] et devrait être capable de sceller une alliance par le mariage.#!"
  marriage_favor_rights_granted_short:0 "Accordé"

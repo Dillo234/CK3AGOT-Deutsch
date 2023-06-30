@@ -16,7 +16,9 @@
  fabricate_hook_outcome.1001.c:0 "전부 다 부질없는 짓이었던 거야."
 
  fabricate_hook_outcome.1002.t:1 "$fabricate_hook_header$ 거짓된 서신"
- fabricate_hook_outcome.1002.desc:0 "[target.GetTitledFirstName]의 궁정에서 나오는 전령을 멈춰 세운 덕분에 기회가 생겼다.\n\n[target.GetTitleAsNamePossessive] 인장을 베낀 다음, 세금을 높이겠다고 으름장을 놓는 편지를 써서 [target.GetHerHis] 봉신들에게 뿌리면 되겠어. 누군가에게 협박을 가한다거나..."
+ fabricate_hook_outcome.1002.desc:1 "[target.GetTitledFirstName]의 궁정에서 나오는 전령을 멈춰 세운 덕분에 기회가 생겼다.\n\n"
+ fabricate_hook_outcome.1002.desc.vassals:0 "[target.GetTitleAsNamePossessive] 인장을 베낀 다음, 세금을 높이겠다고 으름장을 놓는 편지를 써서 [target.GetHerHis] 봉신들에게 뿌리면 되겠어. 협박을 한다거나..."
+ fabricate_hook_outcome.1002.desc.no_vassals:0 "[target.GetTitleAsNamePossessive] 인장을 베낀 다음, 세금을 높이겠다고 으름장을 놓는 편지를 써서 [target.GetHerHis] 궁정 신하들에게 뿌리면 되겠어. 협박을 한다거나..."
  fabricate_hook_outcome.1002.a:0 ""#EMP 그거#EMP , 당신 인장 같은데?""
 
  fabricate_hook_outcome.1003.t:1 "$fabricate_hook_header$ 대담한 구원자"

@@ -33,7 +33,7 @@
  bastard_interaction.0005.desc.disapprove:1 "Je ne peux pas le croire... M[ROOT.Char.Custom2('FR_RelationToMe_OnA', SCOPE.sC('actor'))] a décidé de légitimer [secondary_recipient.Custom('FR_le_Char_Pi')][secondary_recipient.GetTitledFirstName] ! Avec le temps, j’ai fini par accepter sa présence, mais c’en est trop. Est-ce que m[ROOT.Char.Custom2('FR_RelationToMe_OnA', SCOPE.sC('actor'))] attend vraiment de moi d’accueillir m[ROOT.Char.Custom2('FR_RelationToMe_OnA', SCOPE.sC('secondary_recipient'))] bâtard[secondary_recipient.Custom('FR_E')] dans la famille ?"
  bastard_interaction.0005.a.approve:0 "Bonne chance pour votre nouvelle vie."
  bastard_interaction.0005.a.disapprove:0 "M[ROOT.Char.Custom2('FR_RelationToMe_OnA', SCOPE.sC('actor'))] a-t-[actor.Custom('FR_IlElle')] pensé à moi ?"
- every_child_adult_non_bastard_dislike:0 "Tous mes enfants non bâtards adultes qui n’aiment pas [secondary_recipient.Custom('FR_LeLa')] bâtard[secondary_recipient.Custom('FR_E')]"
+ every_child_adult_non_bastard_dislike:0 "Tous mes enfants non bâtards adultes qui n’aiment pas le bâtard"
  every_child_adult_non_bastard_dislike_me:0 "Tous les enfants non bâtards adultes de [THIS.Char.GetFirstName] qui ne m’aiment pas"
  
  bastard_interaction.0006.t:0 "[legitimized_bastard.GetFirstNameNoTooltip] légitimé[legitimized_bastard.Custom('FR_E')]"
@@ -56,7 +56,7 @@
  bastard_interaction.0010.a:0 "Cela fait un[recipient.Custom('FR_E')] de plus."
  bastard_interaction.0010.a.tt:0 "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUIName] est maintenant éligible pour hériter"
 
- every_father_house_member:0 "Tous les membres de la [house|E] de [father.GetFirstNameNoTooltip] "
+ every_father_house_member:0 "Tous les membres de la [house|E] de [father.GetFirstNameNoTooltip]"
  every_mother_house_member:0 "Tous les membres de la [house|E] de [mother.GetFirstNameNoTooltip]"
  every_real_father_house_member:0 "Tous les membres de la [house|E] de [real_father.GetFirstNameNoTooltip]"
  every_child_house_member:0 "Tous les membres de la [house|E] de [child.GetFirstNameNoTooltip]"

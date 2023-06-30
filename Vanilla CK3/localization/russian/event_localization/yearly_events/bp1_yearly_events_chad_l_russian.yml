@@ -10,7 +10,7 @@
  bp1_yearly.3001.d:0 "«Может, еще немного накинешь?»"
 
  bp1_yearly.3002.t:0 "Друг познается в беде"
- bp1_yearly.3002.desc:0 "Я с дружеским визитом посещаю земли, где правит [Select_CString(friend.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))] [friend.GetTitledFirstNameNoTooltip], и замечаю, что с прошлого раза произошли значительные изменения.\n\nРаньше на столах стояли [friend.Custom('GetExpensiveDrink')] и [friend.Custom('GetExpensiveDessert')], но сегодня на столе и крошек не найти, а в кружках плещется лишь вода.\n\nЯ спрашиваю, не[Select_CString(friend.IsFemale, 'столкнулась', 'столкнулся' )] ли [friend.GetFirstNameNoTooltip] с трудностями. Удрученным голосом [friend.GetSheHe] отвечает: «Ты и половины не знаешь...»"
+ bp1_yearly.3002.desc:0 "Я с дружеским визитом посещаю земли, где правит [Select_CString(friend.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))] [friend.GetTitledFirstNameNoTooltip], и замечаю, что с прошлого раза произошли значительные изменения.\n\nРаньше на столах стояли [friend.Custom('GetExpensiveDrink')] и [friend.Custom('GetExpensiveDessert')], но сегодня на столе и крошек не найти, а в кружках плещется лишь вода.\n\nЯ спрашиваю, не[Select_CString(friend.IsFemale, 'столкнулась', 'столкнулся' )] ли [friend.GetFirstNameNoTooltip] с трудностями. Удрученным голосом [friend.GetSheHe] отвечает: «Да ещё с какими...»"
  bp1_yearly.3002.a:0 "Я помогу чем смогу."
  bp1_yearly.3002.b:0 "«Что ж, не буду тебя стеснять...»"
  bp1_yearly.3002.b.tt:0 "[Select_CString(friend.IsFemale, 'Ваша', 'Ваш' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))] [Select_CString(friend.IsFemale, 'брошена', 'брошен' )] вами в час нужды"

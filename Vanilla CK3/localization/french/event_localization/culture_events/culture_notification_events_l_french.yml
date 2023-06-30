@@ -1,8 +1,8 @@
 ﻿l_french:
  culture_notification.0010.t:0 "Tradition abandonnée"
- culture_notification.0010.desc:1 "La culture [this_player.GetCulture.GetNameNoTooltip] a abandonné la tradition [SCOPE.Custom('GetTraditionNameFromFlag')]"
+ culture_notification.0010.desc:2 "La culture [this_player.GetCulture.GetNameNoTooltip] a abandonné la tradition [tradition.GetName]"
  culture_notification.0011.t:1 "Tradition adoptée"
- culture_notification.0011.desc:1 "La culture [this_player.GetCulture.GetNameNoTooltip] a embrassé la tradition [SCOPE.Custom('GetTraditionNameFromFlag')]"
+ culture_notification.0011.desc:2 "La culture [this_player.GetCulture.GetNameNoTooltip] a embrassé la tradition [tradition.GetName]"
 
 
  culture_notification.1001.t:0 "Culture hybride formée"
@@ -28,7 +28,7 @@
  culture_notification.1111.intro:0 "De petits changements dans le dialecte, des coutumes légèrement différentes... C’était facile à rater au début. Mais au fil du temps, les petits changements ont conduit à de grands changements, et maintenant les [parent_1.GetCollectiveNoun] vivant en [founder.GetPrimaryTitle.GetNameNoTierNoTooltip] se considèrent comme des [new_culture.GetCollectiveNoun].\n\n"
  culture_notification.1111.ethos.bellicose:0 "Confrontés aux pressions croissantes de la nature et de leurs rivaux, les [new_culture.GetCollectiveNounNoTooltip] deviennent de plus en plus belliqueux et cherchent à créer et à protéger leurs moyens de subsistance par la force des armes."
  culture_notification.1111.ethos.bureaucratic:1 "Les [new_culture.GetCollectiveNounNoTooltip] semblent aimer de plus en plus les lois verbeuses, les longues chroniques et les chartes labyrinthiques, et se conforter dans une société dirigée par des pratiques formelles toujours plus nombreuses."
- culture_notification.1111.ethos.courtly:0 "Ayant une dévotion croissante pour les manières et l’étiquette, les [new_culture.GetCollectiveNounNoTooltip] adoptent un mode de vie structuré et raffiné afin d’instaurer une nouvelle ère de stabilité et de prospérité."
+ culture_notification.1111.ethos.courtly:1 "Vouant une dévotion croissante aux manières et à l’étiquette, les [new_culture.GetCollectiveNounNoTooltip] adoptent un mode de vie structuré et cérémonieux, afin d’instaurer une nouvelle ère de stabilité et de prospérité."
  culture_notification.1111.ethos.communal:0 "En aidant leurs voisins lors de tragédies et en vivant ensemble leurs triomphes, les [new_culture.GetCollectiveNounNoTooltip] forment une communauté très soudée qui favorise un sentiment d’appartenance et d’utilité."
  culture_notification.1111.ethos.stoic:0 "Face à un monde dangereux et imprévisible, les [new_culture.GetCollectiveNounNoTooltip] en viennent à apprécier plus que jamais le cran et la détermination."
  culture_notification.1111.ethos.spiritual:0 "Cherchant des réponses aussi bien en eux-mêmes que dans le monde entier, les [new_culture.GetCollectiveNounNoTooltip] deviennent plus spirituels et pieux que jamais."

@@ -36,16 +36,16 @@
  court_outcome.1000.b.success:0 "[target.GetFirstNameNoTooltip] в порядке. Никакой опасности не было"
 
 
- court_outcome.1001.desc:1 "Проходит не больше минуты, которая кажется мне часом, и я добираюсь до опушки. [target.GetFirstName] сидит на земле — [Select_CString(target.IsFemale, 'взъерошенная', 'взъерошенный' )] и без оружия. Напротив н[target.GetHerHis] стоит [ROOT.Char.Custom('LocalAnimal')] и уже готовится к прыжку!\n\nМоя стрела бьет точно в цель, и зверь падает на землю. Мгновение [target.GetFirstNameNoTooltip] лишь безмолвно смотрит на происходящее, но потом [target.GetSheHe] бросается ко мне и падает в мои объятия."
+ court_outcome.1001.desc:1 "Проходит не больше минуты, которая кажется мне часом, и я добираюсь до опушки. [target.GetFirstName] сидит на земле — [Select_CString(target.IsFemale, 'взъерошенная', 'взъерошенный' )] и без оружия. Напротив н[target.GetHerHis] стоит [ROOT.Char.Custom('GetAnimalType')] и уже готовится к прыжку!\n\nМоя стрела бьет точно в цель, и зверь падает на землю. Мгновение [target.GetFirstNameNoTooltip] лишь безмолвно смотрит на происходящее, но потом [target.GetSheHe] бросается ко мне и падает в мои объятия."
  court_outcome.1001.a:0 "Я хочу быть с тобой, любовь моя, прямо здесь и сейчас!"
  court_outcome.1001.b:0 "Мне нужна лишь одна награда — твой сладчайший поцелуй."
 
- court_outcome.1002.desc:1 "«[target.GetFirstName]! Я иду!» — я прорываюсь на поляну сквозь заросли, сердце колотится как бешеное, пот заливает лицо.\n\nНо мне открывается совершенно неожиданный вид. [ROOT.Char.Custom('LocalAnimal')|U] есть, да, но зверь уже повержен, и между глаз у него торчит стрела. [target.GetFirstNameNoTooltip] опускает лук, поворачиваясь ко мне.\n\n«В чем дело, [owner.GetTitledFirstNameNoTooltip]? Думали, я не сумею защитить себя?»"
+ court_outcome.1002.desc:1 "«[target.GetFirstName]! Я иду!» — я прорываюсь на поляну сквозь заросли, сердце колотится как бешеное, пот заливает лицо.\n\nНо мне открывается совершенно неожиданный вид. [ROOT.Char.Custom('GetAnimalType')|U] есть, да, но зверь уже повержен, и между глаз у него торчит стрела. [target.GetFirstNameNoTooltip] опускает лук, поворачиваясь ко мне.\n\n«В чем дело, [owner.GetTitledFirstNameNoTooltip]? Думали, я не сумею защитить себя?»"
  court_outcome.1002.a:0 "Я... Я [Select_CString(ROOT.Char.IsFemale, 'заблудилась', 'заблудился' )]?"
 
  court_outcome.1005.desc:0 "Когда я приближаюсь, крики усиливаются. Должно быть, это [target.Custom('RomanticComplimentAdjective')][Select_CString(target.IsFemale, 'ая', 'ый' )] [target.GetFirstName] — я узнаю [target.GetHerHis] голос где угодно!\n\nНо есть что-то #EMP странное#! в [target.GetHerHis] криках. Не похоже, что [target.GetFirstNameNoTooltip] боится... или испытывает боль...\n\nМое сердце разбивается вдребезги, когда я наконец вижу [target.GetHerHis]: голые, словно новорожденные, [target.GetSheHe] и [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] кувыркаются в траве."
  court_outcome.1005.a:0 "В [target.GetHerHis] сердце явно нет места для меня."
- court_outcome.1005.b:1 "[targets_lover.GetFirstNameNoTooltip] проклянет тот день, когда [Select_CString(tergets_lover.IsFemale, 'осмелилась', 'осмелился' )] перейти мне дорогу!"
+ court_outcome.1005.b:1 "[targets_lover.GetFirstNameNoTooltip] проклянет тот день, когда [Select_CString(targets_lover.IsFemale, 'осмелилась', 'осмелился' )] перейти мне дорогу!"
  court_outcome.1005.c:0 "Я спасу [target.GetHerHis] от этого чудовища!"
  court_outcome.1005.c.murder_undiscovered:0 "[targets_lover.GetFirstNameNoTooltip] [Select_CString(targets_lover.IsFemale, 'убита', 'убит' )] моей стрелой"
  court_outcome.1005.c.murder_discovered:0 "[targets_lover.GetFirstNameNoTooltip] [Select_CString(targets_lover.IsFemale, 'убита', 'убит' )] моей стрелой, но меня раскрыли"
@@ -55,7 +55,7 @@
  court_outcome.1005.d.murder_discovered:0 "[target.GetFirstNameNoTooltip] [Select_CString(target.IsFemale, 'убита', 'убит' )] моей стрелой, но меня раскрыли"
 
  court_outcome.1003.t:0 "Дикая охота"
- court_outcome.1004.desc:1 "Лошадь внезапно бросается прочь с дороги. Падение неминуемо, и вот земля резко выбивает воздух у меня из легких. Когда мне удается поднять голову, на меня скалится [owner.Custom('LocalAnimal')]!\n\nНо не успеваю я закричать, как зверь валится наземь со стрелой между глаз.\n\n«[target.GetFirstNameNoTooltip], [target.Custom('LoverPetName')]! Я [Select_CString(owner.IsFemale, 'боялась', 'боялся' )], что потеряю тебя!» [Select_CString(owner.IsFemale, 'Мой герой', 'Моя героиня' )] — [owner.GetTitledFirstName] собственной персоной!"
+ court_outcome.1004.desc:1 "Лошадь внезапно бросается прочь с дороги. Падение неминуемо, и вот земля резко выбивает воздух у меня из легких. Когда мне удается поднять голову, на меня скалится [owner.Custom('GetAnimalType')]!\n\nНо не успеваю я закричать, как зверь валится наземь со стрелой между глаз.\n\n«[target.GetFirstNameNoTooltip], [target.Custom('LoverPetName')]! Я [Select_CString(owner.IsFemale, 'боялась', 'боялся' )], что потеряю тебя!» [Select_CString(owner.IsFemale, 'Мой герой', 'Моя героиня' )] — [owner.GetTitledFirstName] собственной персоной!"
  court_outcome.1003.b:0 "Мы сливаемся в сладком как мед поцелуе."
 
 

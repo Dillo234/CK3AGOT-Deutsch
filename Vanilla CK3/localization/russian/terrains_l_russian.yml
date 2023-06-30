@@ -21,6 +21,8 @@
  floodplains:0 "Поймы рек"
  drylands:0 "Засушливые земли"
  winter:0 "Зима"
+ sea:0 "Море"
+ coastal_sea:0 "Морское побережье"
  TERRAIN_DESCRIPTION:0 "[Terrain.GetEffects]"
  TERRAIN_PROVINCE_MODIFIER_HEADER:0 "#S Эффекты на [Concept( 'county', 'графство' )|E]:#!"
  TERRAIN_MOVEMENT_SPEED:0 "Скорость передвижения: $VALUE|%0V$"
@@ -33,4 +35,5 @@
  TERRAIN_MILD_WINTER:0 "Мягкие [Concept( 'winter', 'зимние морозы' )]"
  TERRAIN_NORMAL_WINTER:0 "Обычные [Concept( 'winter', 'зимние морозы' )]"
  TERRAIN_HARSH_WINTER:0 "Суровые [Concept( 'winter', 'зимние морозы' )]"
- 
+ TERRAIN_TRAVEL_EFFECTS_HEADER:0 "#S Эффекты путешествия:#!"
+ TERRAIN_DANGER:1 "[travel_danger|E]: $VALUE|=-0$"

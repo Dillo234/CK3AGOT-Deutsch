@@ -21,6 +21,8 @@
  floodplains:0 "洪泛平原"
  drylands:0 "旱地"
  winter:0 "冬季"
+ sea:0 "海洋"
+ coastal_sea:0 "近海"
  TERRAIN_DESCRIPTION:0 "[Terrain.GetEffects]"
  TERRAIN_PROVINCE_MODIFIER_HEADER:0 "#S [county|E]效果：#!"
  TERRAIN_MOVEMENT_SPEED:0 "移动速度：$VALUE|%0V$"
@@ -33,4 +35,5 @@
  TERRAIN_MILD_WINTER:0 "温暖的$winter$"
  TERRAIN_NORMAL_WINTER:0 "普通的$winter$"
  TERRAIN_HARSH_WINTER:0 "严酷的$winter$"
- 
+ TERRAIN_TRAVEL_EFFECTS_HEADER:0 "#S 旅行效果：#!"
+ TERRAIN_DANGER:1 "[travel_danger|E]：$VALUE|=-0$"

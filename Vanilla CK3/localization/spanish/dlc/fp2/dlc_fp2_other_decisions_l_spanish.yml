@@ -12,7 +12,7 @@
  fp2_secure_mediterranean.tip:0 "Reclamar el dominio sobre el Mediterráneo"
 
  secure_iberian_foothold_decision_title:0 "Enclave ibérico"
- secure_iberian_foothold_decision_desc:0 "Los debilitados estados beligerantes de Iberia abrieron las puertas de la península al exterior. Si alguien puede proclamarse el nuevo líder [ROOT.Char.GetFaith.GetReligion.GetAdherentName] de la región o simplemente un glorioso invasor, podría ganar mucho."
+ secure_iberian_foothold_decision_desc:0 "Los debilitados estados beligerantes de Iberia abrieron las puertas de la península al exterior. Si alguien consigue proclamarse el nuevo líder de la fe [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] en la región o simplemente un glorioso invasor, podría ganar mucho."
  secure_iberian_foothold_decision_tooltip:0 "Integrar parte de Iberia"
  secure_iberian_foothold_decision_confirm:0 "Al más fuerte."
  fp2_struggle_uninvolved_or_external_tt:0 "Tu [capital|lE] está fuera de la [region|lE] de [GetGeographicalRegion('world_europe_west_iberia').GetName]."
@@ -36,7 +36,7 @@
  iberian_footholder_transfer_tt:0 "[THIS] [THIS.Title.GetName] de [THIS.GetName]"
 
  fp2_other_decisions.1000.t:0 "$secure_iberian_foothold_decision_title$: Consolidación [iberian_footholder.GetPrimaryTitle.GetAdjectiveNoTooltip]"
- fp2_other_decisions.1000.involved_religion:0 "Las guerras de los incontrolables principados de Iberia han estado a punto de poner de rodillas a los señoríos [ROOT.Char.GetFaith.GetReligion.GetAdherentNamePlural] de la región.\n\nSin nuestra intervención, los fieles a [ROOT.Char.GetFaith.HighGodName] habrían acabado siendo expulsados de la península por los imperiosos infieles.\n\n"
+ fp2_other_decisions.1000.involved_religion:0 "Las guerras de los incontrolables principados de Iberia han estado a punto de poner de rodillas a los señoríos de fe [ROOT.Char.GetFaith.GetReligion.GetAdjective] de la región.\n\nSin nuestra intervención, los fieles a [ROOT.Char.GetFaith.HighGodName] habrían acabado siendo expulsados de la península por los imperiosos infieles.\n\n"
  fp2_other_decisions.1000.desc:0 "Las divididas fes y gentes de Iberia nos han dado una gran oportunidad. Están demasiado ocupados luchando entre sí para oponerse a la invasión [ROOT.Char.GetFaith.GetReligion.GetAdjective] de la Península."
  fp2_other_decisions.1000.involved_faith:0 "Somos los legítimos defensores de los [ROOT.Char.GetFaith.GetAdherentNamePlural] del oeste, ahora a salvo bajo la protección del [ROOT.Char.GetPrimaryTitle.GetDefinitiveName]."
  fp2_other_decisions.1000.uninvolved_faith:0 "Nos ha tocado a nosotros traer la luz de [ROOT.Char.GetFaith.GetName|l]. Como parte del [ROOT.Char.GetPrimaryTitle.GetDefinitiveName], estas tierras volverán a ser prósperas y pacíficas."
@@ -45,7 +45,7 @@
 
  fp2_other_decisions.1001.involved_religion:0 "Tras siglos de guerra en Iberia entre cristianos y moros, nuestra contienda se ha visto aprovechada por el entrometido e imperioso avance [iberian_footholder.GetPrimaryTitle.GetAdjective].\n\n"
  fp2_other_decisions.1001.desc:0 "Por distracción, envidia y negligencia, los ibéricos hemos permitido que el intruso [iberian_footholder.GetPrimaryTitle.GetAdjective] se aproveche de la división de nuestra patria e invada los reinos históricos de la Península."
- fp2_other_decisions.1001.involved_faith:0 "[iberian_footholder.GetTitledFirstName|l] se ha proclamado líder legítim[iberian_footholder.Custom('ES_OA')] del pueblo [iberian_footholder.GetFaith.GetAdherentNameNoTooltip] en la Península, usando sus victorias como prueba de su legitimidad sobre los renqueantes señoríos [iberian_footholder.GetFaith.GetReligion.GetAdherentNamePlural] de Iberia."
+ fp2_other_decisions.1001.involved_faith:0 "[iberian_footholder.GetTitledFirstName] se ha proclamado líder legítim[iberian_footholder.Custom('ES_OA')] del pueblo [iberian_footholder.GetFaith.GetAdherentNameNoTooltip] en la Península, usando sus victorias como prueba de su legitimidad sobre los renqueantes señoríos de la fe [iberian_footholder.GetFaith.GetReligion.GetAdjective] de Iberia."
  fp2_other_decisions.1001.same_uninvolved_faith:0 "Afirma que nuestros fracasos han sido el castigo [ROOT.Char.GetFaith.HighGodNamePossessive] por desviarnos del justo camino del [iberian_footholder.GetFaith.GetName|l] y que [iberian_footholder.GetTitledFirstName|l] es líder legítim[iberian_footholder.Custom('ES_OA')] de la Iberia [ROOT.Char.GetFaith.GetReligion.GetAdjective]…"
  fp2_other_decisions.1001.uninvolved_faith:0 "Con sus victorias como prueba, [iberian_footholder.GetTitledFirstName|l] ha proclamado que su fe es el auténtico camino [iberian_footholder.GetFaith.GetAdherentName], aquel que unirá toda la Península bajo [iberian_footholder.GetFaith.HighGodName]."
  fp2_other_decisions.1001.closing:0 "\n\nMientras [iberian_footholder.GetTitledFirstName|l] afianza sus posesiones, las antiguas diferencias entre musulmanes y cristianos palidecen en comparación con esta ocupación [iberian_footholder.GetFaith.GetAdjective]…"
@@ -65,7 +65,7 @@
  fp2_other_decisions.0700.council:0 "[SCOPE.ScriptValue('council_of_toledo_counter_value')][ROOT.Char.Custom('get_council_of_toledo_count_suffix')] Concilio de Toledo"
  fp2_other_decisions.0700.t:0 "$fp2_other_decisions.0700.council$: Organización"
  fp2_other_decisions.0700.19:0 "[council_priest.GetTitledFirstName] ha comenzado los preparativos para el decimonoveno concilio religioso en [GetTitleByKey('c_toledo').GetNameNoTier], a imitación de los antiguos sínodos visigodos.\n\nAunque el alcance del [GetTitleByKey('k_papal_state').GetDefinitiveName] ha crecido desde la invasión mora, nuestro clero sigue manteniendo su propia tradición y autonomía. Es hora de reafirmar la importancia de Iberia como lugar de diálogo religioso.\n\nLas reuniones anteriores incluyeron [ROOT.Char.GetFaith.BishopNeuterPlural] de toda la cristiandad, pero eso ya no tiene por qué ser así…"
- fp2_other_decisions.0700.desc:0 "Los [ROOT.Char.GetFaith.BishopNeuterPlural] de Iberia han estado esperando ansiosamente el próximo concilio desde que se recuperó la tradición de Toledo.\n\nMi [council_priest.GetCouncilTitledFirstName] ha comenzado los preparativos, aunque aún está por decidir si se invitará a asistir a sacerdotes de otras tradiciones."
+ fp2_other_decisions.0700.desc:0 "Los [ROOT.Char.GetFaith.BishopNeuterPlural] de Iberia han estado esperando ansiosamente el próximo concilio desde que se recuperó la tradición de Toledo.\n\nMi [council_priest.GetCouncilTitleFirstName] ha comenzado los preparativos, aunque aún está por decidir si se invitará a asistir a sacerdotes de otras tradiciones."
  fp2_other_decisions.0700.a:0 "Será un sínodo mozárabe"
  fp2_other_decisions.0700.b:0 "Todos los sacerdotes [ROOT.Char.GetFaith.HighGodNamePossessive] son bienvenidos en Toledo"
  fp2_other_decisions.0700.b.success:0 "Asisten obispos ecuménicos"
@@ -77,8 +77,8 @@
  fp2_other_decisions.0701.opening.failure:0 "La respuesta a nuestra invitación a la comunidad ecuménica ha sido fría; muchos [ROOT.Char.GetFaith.BishopNeuterPlural] han afirmado que el mal tiempo les impedía llegar a [GetTitleByKey('c_toledo').GetNameNoTier], así que la asistencia se limita a los prelados locales…"
  fp2_other_decisions.0701.opening.catastrophe:0 "No hemos visto en [GetTitleByKey('c_toledo').GetNameNoTier] un solo obispo, diácono o abad de ninguna otra confesión [ROOT.Char.GetFaith.GetReligion.GetAdjective]; parece que nuestro concilio se ve con desprecio o enfado por nuestra fraternidad ecuménica y solo asisten los prelados locales."
  fp2_other_decisions.0701.opening:0 "Grandes y poderosos han acudido a [GetTitleByKey('c_toledo').GetNameNoTier] en representación de todas las sedes y abadías del mundo [ROOT.Char.GetFaith.GetAdherentName]."
- fp2_other_decisions.0701.religious_head_bishop:0 "\n\nEntre los prelados menores se encuentra [portrait_bishop.GetTitledFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], cabeza de la iglesia [portrait_bishop.GetFaith.GetAdjective]."
- fp2_other_decisions.0701.powerful_bishop:0 "\n\nQuizás más notable de ellos es [portrait_bishop.GetTitledFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], un[portrait_bishop.Custom('ES_XA')] prelad[portrait_bishop.Custom('ES_OA')] de gran influencia en la fe [portrait_bishop.GetFaith.GetAdjective] ."
+ fp2_other_decisions.0701.religious_head_bishop:0 "\n\nEntre los prelados menores se encuentra [portrait_bishop.GetTitledFirstName|l], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], cabeza de la iglesia [portrait_bishop.GetFaith.GetAdjective]."
+ fp2_other_decisions.0701.powerful_bishop:0 "\n\nQuizás más notable de ellos es [portrait_bishop.GetTitledFirstName|l], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], un[portrait_bishop.Custom('ES_XA')] prelad[portrait_bishop.Custom('ES_OA')] de gran influencia en la fe [portrait_bishop.GetFaith.GetAdjective] ."
  fp2_other_decisions.0701.saint_bishop:0 "\n\nLos asistentes cuentan con la bendición de tener entre ellos a [portrait_bishop.GetFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], un[portrait_bishop.Custom('ES_XA')] sant[portrait_bishop.Custom('ES_OA')] para los [portrait_bishop.GetFaith.GetAdherentNamePlural]"
  fp2_other_decisions.0701.theologian_bishop:0 "\n\nEs notable entre ellos [portrait_bishop.GetFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], un[portrait_bishop.Custom('ES_XA')] teólog[portrait_bishop.Custom('ES_OA')] respetad[portrait_bishop.Custom('ES_OA')] en el mundo [portrait_bishop.GetFaith.GetAdherentName]."
  fp2_other_decisions.0701.bad_bishop:0 "\n\nUn[portrait_bishop.Custom('ES_XA')] de [portrait_bishop.Custom('ES_LoLa')]s más conocid[portrait_bishop.Custom('ES_OA')]s, es [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], cuya impiedad es objeto de chistes por toda la Cristiandad."
@@ -93,8 +93,8 @@
  fp2_other_decisions.0702.t:0 "$fp2_other_decisions.0700.council$: Debate"
  fp2_other_decisions.0702.19:0 "Siglos después del último concilio del arzobispo Gunderico bajo el rey Witiza, tal [council_priest.GetCouncilTitleFirstName] ha restaurado nuestra tradición con la apertura de la 19.ª reunión en el histórico [GetTitleByKey('c_toledo').GetNameNoTier].\n\n"
  fp2_other_decisions.0702.opening:0 "Ha comenzado otro concilio en [GetTitleByKey('c_toledo').GetNameNoTier], esta vez inaugurado por [council_priest.GetCouncilTitleFirstName].\n\n"
- fp2_other_decisions.0702.present:0 "\n\nAl final de la semana, quedó rápidamente claro que [debate_bishop.GetTitledFirstName] de [debate_bishop.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] contaba con la atención del concilio respecto a este asunto, $fp2_other_decisions.0702.closing$"
- fp2_other_decisions.0702.second_hand:0 "\n\nA medida que las conversaciones se acercan a su fin, queda claro que se ve [debate_bishop.Custom('ES_AlAla')] [debate_bishop.GetTitledFirstName] de [debate_bishop.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] como líder de esta opinión, $fp2_other_decisions.0702.closing$"
+ fp2_other_decisions.0702.present:0 "\n\nAl final de la semana, quedó rápidamente claro que [debate_bishop.GetTitledFirstName|l] de [debate_bishop.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] contaba con la atención del concilio respecto a este asunto, $fp2_other_decisions.0702.closing$"
+ fp2_other_decisions.0702.second_hand:0 "\n\nA medida que las conversaciones se acercan a su fin, queda claro que se ve [debate_bishop.Custom('ES_AlAla')] [debate_bishop.GetTitledFirstName|l] de [debate_bishop.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] como líder de esta opinión, $fp2_other_decisions.0702.closing$"
  fp2_other_decisions.0702.conversion:0 "Rápidamente surgió el tema dominante de que la conversión de herejes e infieles es la única manera de garantizar la paz y proteger a los [ROOT.Char.GetFaith.GetAdherentNamePlural]."
  fp2_other_decisions.0702.reform:0 "El tema clave fue que los [ROOT.Char.GetFaith.GetAdherentNamePlural] no deben temer una reforma importante, ahora que la posición de la iglesia ibérica es segura."
  fp2_other_decisions.0702.tolerance:0 "El tema dominante fue que los [ROOT.Char.GetFaith.GetAdherentNamePlural] deberían ser más tolerantes con los infieles pacíficos, una idea que se convirtió rápidamente en el centro de las conversaciones."
@@ -109,14 +109,14 @@
  council_of_toledo_ruler_effect_tt:0 "Todo [ruler|lE] [council_toledo_faith.GetAdherentName]"
  # Event - Invalidated
  fp2_other_decisions.0703.t:0 "$fp2_other_decisions.0700.council$: Pospuesto"
- fp2_other_decisions.0703.war:0 "Con el inicio de la guerra, [council_toledo_host.GetTitledFirstName] ha pospuesto el siguiente Concilio de Toledo por el momento."
+ fp2_other_decisions.0703.war:0 "Con el inicio de la guerra, [council_toledo_host.GetTitledFirstName|l] ha pospuesto el siguiente Concilio de Toledo por el momento."
  fp2_other_decisions.0703.control:0 "Al perder [GetTitleByKey('c_toledo').GetNameNoTier], ya no se podrá celebrar el siguiente Concilio de Toledo…"
  fp2_other_decisions.0703.desc:0 "\n\nSeguro que los [ROOT.Char.GetFaith.GetAdherentNamePlural] se recuperarán pronto de este revés…"
  fp2_other_decisions.0703.a:0 "Decepcionante."
  # Event - Ping
  fp2_other_decisions.0704.t:0 "El $fp2_other_decisions.0700.council$"
- fp2_other_decisions.0704.success:0 "\n\nCon el apoyo [council_toledo_host.Custom('ES_DelDela')] [council_toledo_host.GetTitledFirstName], el clero [ROOT.Char.GetFaith.GetAdherentName] ha hecho oír su voz."
- fp2_other_decisions.0704.failure:0 "Pero parece que [council_toledo_host.GetTitledFirstName] tenía otras ideas y presionó con firmeza en contra de aquellos acercamientos."
+ fp2_other_decisions.0704.success:0 "\n\nCon el apoyo [council_toledo_host.Custom('ES_DelDela')] [council_toledo_host.GetTitledFirstName|l], el clero [ROOT.Char.GetFaith.GetAdherentName] ha hecho oír su voz."
+ fp2_other_decisions.0704.failure:0 "Pero parece que [council_toledo_host.GetTitledFirstName|l] tenía otras ideas y presionó con firmeza en contra de aquellos acercamientos."
  fp2_other_decisions.0704.a:0 "Interesante."
  # Custom Loc
  council_toledo_landed_desc:0 "[ROOT.Char.GetTitleAsNameNoTooltip] de [ROOT.Char.GetPrimaryTitle.GetNameNoTier]"
@@ -127,7 +127,7 @@
  fp2_council_opinion_other_effect_tt:0 "Todo asistente no mozárabe"
  fp2_council_conversion_modifier_tt:0 "Convertir fe del condado progresará más rápidamente frente a otras [religions|lE] mientras este modificador esté presente"
  fp2_council_heresies_modifier_tt:0 "Convertir fe del condado progresará más rápidamente frente a otras [faiths|lE] de la misma [religion|lE] con [head_of_faiths|lE] mientras este modificador esté presente"
- excluded_from_council_toledo_tt:0 "Cualquier otro [head_of_faith|lE] [THIS.Char.GetFaith.GetReligion.GetAdherentName] en [diplomatic_range|lE]"
+ excluded_from_council_toledo_tt:0 "Cualquier otro [head_of_faith|lE] [THIS.Char.GetFaith.GetAdherentName] en [diplomatic_range|lE]"
  fp2_council_end_tt:0 "Termina el [SCOPE.ScriptValue('council_of_toledo_counter_value')][THIS.Char.Custom('get_council_of_toledo_count_suffix')] Concilio de Toledo"
  # Modifiers
  fp2_small_council_modifier:0 "Concilio de Toledo"
@@ -147,7 +147,7 @@
  fp2_council_rights_modifier:0 "Concilio de derechos"
  fp2_council_rights_modifier_desc:0 "El último Concilio de Toledo animó a la protección de los derechos clericales y la reparación de iglesias."
  fp2_council_hof_modifier:0 "Concilio de liderazgo"
- fp2_council_hof_modifier_desc:0 "El último Concilio de Toledo animó a los mozárabes a proclamar a su propio líder de la fe."
+ fp2_council_hof_modifier_desc:0 "El último Concilio de Toledo animó a los mozárabes a proclamar a su propio cabeza de la fe."
  fp2_council_pope_modifier:0 "Concilio de cooperación"
  fp2_council_pope_modifier_desc:0 "El último Concilio de Toledo animó a la cooperación entre mozárabes y el más extenso mundo cristiano."
  fp2_council_heresy_modifier:0 "Concilio de inquisición"
@@ -177,7 +177,7 @@
  fp2_other_decisions.1100.desc:0 "Con la fuerza de mi posición más allá de toda duda, por fin tuvo lugar la coronación en [GetTitleByKey('c_toledo').GetNameNoTier], tal como estaba prevista.\n\nYa es hora de que los [ROOT.Char.GetFaith.GetAdherentNamePlural] nos forjemos nuestro propio dominio, distinto de los insignificantes taifas y los dominios del norte. ¡Un señorío que rivalice con el reino visigodo de antaño!"
  fp2_other_decisions.1100.a:0 "Que nuestro reino prospere."
 
- fp2_other_decisions.1101.desc:0 "En su afán de superación, [toledo_former.GetTitledFirstName] se ha hecho coronar formalmente en [GetTitleByKey('c_toledo').GetNameNoTier].\n\nLa fuerza de este nuevo reino [toledo_former.GetFaith.GetAdherentName], que incorpora las tierras de los antiguos dominios ibéricos, está ya fuera de toda duda.\n\n"
+ fp2_other_decisions.1101.desc:0 "En su afán de superación, [toledo_former.GetTitledFirstName|l] se ha hecho coronar formalmente en [GetTitleByKey('c_toledo').GetNameNoTier].\n\nLa fuerza de este nuevo reino [toledo_former.GetFaith.GetAdherentName], que incorpora las tierras de los antiguos dominios ibéricos, está ya fuera de toda duda.\n\n"
  fp2_other_decisions.1101.stolen:1 "¡Habrá que hacer frente a estos irritantes advenedizos antes o después!"
  fp2_other_decisions.1101.mozarab:0 "Aunque es una buena señal para nuestra fe, puede ser un arma de doble filo…"
  fp2_other_decisions.1101.a:0 "¡No durarán mucho!"
@@ -186,6 +186,3 @@
  
  fp2_form_kingdom_toledo_modifier:0 "$fp2_other_decisions.1100.t$"
  fp2_form_kingdom_toledo_modifier_desc:0 "Este personaje ha fundado un nuevo reino con centro en la antigua capital visigoda."
-
-# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- council_of_toledo_decision_toledo_vassal_trigger:0 "Al menos 3 [vassals|lE]:"

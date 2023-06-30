@@ -95,20 +95,20 @@
  OA_AI_DEFENSIVE_WAR_REASON:0 "[recipient.GetShortUIName|U](이)가 자기 자신을 지키고 있음: $VALUE|=+0$"
  OA_AI_FAILURE_REASON:0 "[actor.GetShortUIName|U](은)는 과거 계약자로서 실패한 전적이 있음: $VALUE|=+0$"
  OA_AI_LOYALTY_TOWARDS_ALLIES_REASON:0 "[ally|E]에 대한 충성: $VALUE|=+0$"
- contract_assistance_interaction_condition_tt:0 "[war|E]이 끝날 시점에 [actor.GetShortUINamePossessive] [war_contribution|E]가 [SCOPE.ScriptValue('saved_contribution_value')|Z0] 이상일 경우:" # [LocEditor:AwaitingBatchUpdate]
+ contract_assistance_interaction_condition_tt:1 "[war|E]이 끝날 시점에 [actor.GetShortUINamePossessive] [war_contribution|E]가 [SCOPE.ScriptValue('saved_contribution_value')|Z0] 이상일 경우:"
  contract_assistance_war_msg_title:0 "$contract_assistance_interaction$: 종전"
- contract_assistance_war_msg_hirer_paid_desc:0 "[contract_assistance_helper.GetShortUIName]의 [war_contribution|E]가 [SCOPE.ScriptValue('saved_contribution_value')|Z0] 이상이었으므로 [contract_assistance|E] 보수를 지급함" # [LocEditor:AwaitingBatchUpdate]
- contract_assistance_war_msg_helper_paid_desc:0 "당신의 [war_contribution|E]가 [SCOPE.ScriptValue('saved_contribution_value')|Z0] 이상이었으므로 [contract_assistance_hirer.GetShortUIName](이)가 당신에게 [contract_assistance|E] 보수를 지급함" # [LocEditor:AwaitingBatchUpdate]
- contract_assistance_war_msg_hirer_kept_desc:0 "[contract_assistance_helper.GetShortUIName]의 [war_contribution|E]가 [SCOPE.ScriptValue('saved_contribution_value')|Z0] 미만이었으므로 [contract_assistance|E] 보수를 지급하지 않음" # [LocEditor:AwaitingBatchUpdate]
- contract_assistance_war_msg_helper_kept_desc:0 "당신의 [war_contribution|E]가 [SCOPE.ScriptValue('saved_contribution_value')|Z0] 미만이었으므로 [contract_assistance_hirer.GetShortUIName](이)가 당신에게 [contract_assistance|E] 보수를 지급하지 않음" # [LocEditor:AwaitingBatchUpdate]
+ contract_assistance_war_msg_hirer_paid_desc:1 "[contract_assistance_helper.GetShortUIName]의 [war_contribution|E]가 [SCOPE.ScriptValue('saved_contribution_value')|Z0] 이상이었으므로 [contract_assistance|E] 보수를 지급함"
+ contract_assistance_war_msg_helper_paid_desc:1 "당신의 [war_contribution|E]가 [SCOPE.ScriptValue('saved_contribution_value')|Z0] 이상이었으므로 [contract_assistance_hirer.GetShortUIName](이)가 당신에게 [contract_assistance|E] 보수를 지급함"
+ contract_assistance_war_msg_hirer_kept_desc:1 "[contract_assistance_helper.GetShortUIName]의 [war_contribution|E]가 [SCOPE.ScriptValue('saved_contribution_value')|Z0] 미만이었으므로 [contract_assistance|E] 보수를 지급하지 않음"
+ contract_assistance_war_msg_helper_kept_desc:1 "당신의 [war_contribution|E]가 [SCOPE.ScriptValue('saved_contribution_value')|Z0] 미만이었으므로 [contract_assistance_hirer.GetShortUIName](이)가 당신에게 [contract_assistance|E] 보수를 지급하지 않음"
  contract_assistance_war_msg_hirer_invalidated_desc:0 "전쟁이 무효화되어 [contract_assistance_helper.GetShortUIName]에게 [contract_assistance|E] 보수를 지급하지 않음"
  contract_assistance_war_msg_helper_invalidated_desc:0 "전쟁이 무효화되어 [contract_assistance_helper.GetShortUIName]에게 [contract_assistance_hirer.GetShortUIName] 보수를 지급받지 못함"
  contract_assistance_war_already_contracted_tt:0 "이미 전쟁에서 [contracting_assistance|E] 중임"
 
  invite_foreign_ruler_to:0 "활동에 초대"
  invite_foreign_ruler_to_desc:1 "다른 [realm|E]의 [ruler|E]를 연회나 사냥에 초대합니다."
- invite_foreign_ruler_to.feast.tooltip:0 "[recipient.GetTitledFirstName](을)를 특별 문객으로 데리고 [feast|E]을 시작함"
- invite_foreign_ruler_to.hunt.tooltip:0 "[recipient.GetTitledFirstName](을)를 특별 문객으로 데리고 [hunt|E]을 시작함"
+ invite_foreign_ruler_to.feast.tooltip:0 "[recipient.GetTitledFirstName](을)를 특별한 문객으로 데리고 [GetActivityType('activity_feast').GetName]을 시작함"
+ invite_foreign_ruler_to.hunt.tooltip:1 "[recipient.GetTitledFirstName](을)를 특별 문객으로 데리고 [GetActivityType('activity_hunt').GetName]을 시작함"
  INVITE_FOREIGN_RULER_TO_NOTIFICATION:0 "우리 친분을 다져 봅시다! 부디 초대를 수락해 여가 활동에 참여해 주시오."
  invited_to_hunt.accept.actor.tt:0 "[recipient.GetTitledFirstName](이)가 당신의 사냥 초대를 수락함"
  invited_to_feast.accept.actor.tt:0 "[recipient.GetTitledFirstName](이)가 당신의 연회 초대를 수락함"
@@ -126,7 +126,7 @@
  request_contract_assistance_interaction:0 "지원 계약 요청"
  request_contract_assistance_interaction_desc:0 "해당 [struggle_involved|E]된 [ruler|E]에게 [gold|E]를 조건으로 당신의 [war|E]에 참전할 것을 제안합니다."
  request_contract_assistance_interaction_notification:0 "그대의 병력이 내 문제를 해결하는 데 지대한 도움이 될 것 같구려. 적절한 가격만 제시하시오."
- request_contract_assistance_interaction_condition_tt:0 "[war|E]이 끝날 시점에 [recipient.GetShortUINamePossessive] [war_contribution|E]가 [SCOPE.ScriptValue('saved_contribution_value')|Z0] 이상일 경우:" # [LocEditor:AwaitingBatchUpdate]
+ request_contract_assistance_interaction_condition_tt:1 "[war|E]이 끝날 시점에 [recipient.GetShortUINamePossessive] [war_contribution|E]가 [SCOPE.ScriptValue('saved_contribution_value')|Z0] 이상일 경우:"
 
  share_known_secrets_interaction_extra_icon:0 "$hook_extra_icon$"
  no_activity_available:0 "수행 가능한 [activity|E] 없음"

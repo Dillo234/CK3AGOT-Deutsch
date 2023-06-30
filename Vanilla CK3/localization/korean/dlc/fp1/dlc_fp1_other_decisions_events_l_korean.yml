@@ -1,10 +1,10 @@
 ﻿l_korean:
  # Holding a grand sacrifice.
- fp1_other_decisions.0001.t:0 "웅대한 [blotter.Custom('GruesomeFestivalName')|U]"
+ fp1_other_decisions.0001.t:0 "대규모 [blotter.Custom('GruesomeFestivalName')|U]"
  fp1_other_decisions.0001.desc:0 "소규모 [blotter.Custom('GruesomeFestivalNamePlural')] 정도는 한 해 동안에도 여러 번 개최된다. 하지만 성대한 기념제를 치르기 위하여, 무엇보다 중요한 대규모 #EMP 희생 의식#!을 치르기 위하여 [blotter.GetPrimaryTitle.GetNameNoTierNoTooltip]의 [gf_faith.GetAdherentNamePlural](이)가 모여드는 일은 10년에 한 번 있을까 말까 한 일이다.\n\n흩뿌려진 핏방울은 [gf_faith.PantheonTerm]의 몫이니, 독실한 신도들은 제물의 살점을 차지하게 되리라. 그 사치스러운 연회는 믿기 어려운 향연으로 이어질지어다.\n\n그 일련의 과정에서 비용이 많이 드는 건 당연지사겠지. 그런 상황에서 #EMP 모든#! [gf_faith.GetAdherentNamePluralNoTooltip](을)를 초대할 수도 없는 노릇이고..."
  fp1_other_decisions.0001.a.capital:0 "[capital_county.GetNameNoTierNoTooltip](와)과 궁정의 신민들만 기념제로 불러들여야 하나?"
- fp1_other_decisions.0001.a.other:1 "신앙에 헌신하는 [fallback_location.GetNamePossessiveNoTierNoTooltip] 신민들이라면 믿고 맡길 수 있어."
- fp1_other_decisions.0001.b:0 "영지의 모든 [blotter.Custom('WomenMenPeople_GenderPreference')]을 불러 모으는 게 좋겠군!"
+ fp1_other_decisions.0001.a.other:1 "[fallback_location.GetNameNoTierNoTooltip]의 주민들은 우리를 받아줄 만큼의 신의는 있다."
+ fp1_other_decisions.0001.b:0 "내 직할령의 자유민 모두가 참석하리라!"
  fp1_other_decisions.0001.c:0 "[blotter.GetPrimaryTitle.GetTierAsNameNoTooltip]의 주민이라면 귀족이든 평민이든 초대해야지!"
  fp1_other_decisions.0001.d:0 "비용이 너무 많이 드는 것 같은데..."
  ## ^Technically, the two loc keys above should use gf_faith, but we permit blotter to think of the event through their personal world-view.

@@ -1,0 +1,110 @@
+﻿l_russian:
+ encountered_delicious_ducklings_memory:0 "повстречались аппетитные утята"
+ encountered_delicious_ducklings_memory_desc:0 "мне повстречалось множество аппетитных утят, которые были приготовлены и съедены во владении [ROOT.Var('duck_location').GetProvince.GetName]"
+ encountered_delicious_ducklings_memory_desc_second_perspective:0 "вам повстречалось множество аппетитных утят, которые были приготовлены и съедены во владении [ROOT.Var('duck_location').GetProvince.GetName]"
+ encountered_delicious_ducklings_memory_desc_third_perspective:0 "персонажу [ROOT.GetName] повстречалось множество аппетитных утят, которые были приготовлены и съедены во владении [ROOT.Var('duck_location').GetProvince.GetName]"
+
+ encountered_fluffy_ducklings_memory:0 "повстречались пушистые утята"
+ encountered_fluffy_ducklings_memory_desc:0 "мне встретилось множество пушистых утят во время изучения диких земель во владении [ROOT.Var('duck_location').GetProvince.GetName]"
+ encountered_fluffy_ducklings_memory_desc_second_perspective:0 "вам встретилось множество пушистых утят во время изучения диких земель во владении [ROOT.Var('duck_location').GetProvince.GetName]"
+ encountered_fluffy_ducklings_memory_desc_third_perspective:0 "персонажу [owner.GetName] встретилось множество пушистых утят во время изучения диких земель во владении [ROOT.Var('duck_location').GetProvince.GetName]"
+
+ attacked_by_wild_beast_memory:0 "напал дикий зверь"
+ attacked_by_wild_beast_memory_desc:0 "на меня напал дикий зверь во время преследования утки во владении [ROOT.Var('duck_location').GetProvince.GetName]"
+ attacked_by_wild_beast_memory_desc_second_perspective:0 "на вас напал дикий зверь во время преследования утки во владении [ROOT.Var('duck_location').GetProvince.GetName]"
+ attacked_by_wild_beast_memory_desc_third_perspective:0 "на персонажа [owner.GetName] напал дикий зверь во время преследования утки во владении [ROOT.Var('duck_location').GetProvince.GetName]"
+
+ fooled_by_duck_memory:0 "одурачила утка"
+ fooled_by_duck_memory_desc:0 "со мной произошла нелепая ситуация во время погони за уткой через владение [ROOT.Var('duck_location').GetProvince.GetName]"
+ fooled_by_duck_memory_desc_second_perspective:0 "с вами произошла нелепая ситуация во время погони за уткой через владение [ROOT.Var('duck_location').GetProvince.GetName]"
+ fooled_by_duck_memory_desc_third_perspective:0 "с персонажем [owner.GetName] произошла нелепая ситуация во время погони за уткой через владение [ROOT.Var('duck_location').GetProvince.GetName]"
+
+ almost_crushed_by_elephant_rival_memory:0 "почти раздавил слон"
+ almost_crushed_by_elephant_rival_memory_desc:0 "[Select_CString(rival.IsFemale, 'моя соперница', 'мой соперник' )] [rival.GetTitledFirstName] почти [Select_CString(rival.IsFemale, 'раздавила', 'раздавил' )] меня слоном в слоновьих загонах владения [ROOT.Var('elephant_location').GetProvince.GetName]"
+ almost_crushed_by_elephant_rival_memory_desc_second_perspective:0 "[Select_CString(rival.IsFemale, 'ваша соперница', 'ваш соперник' )] [rival.GetTitledFirstName] почти [Select_CString(rival.IsFemale, 'раздавила', 'раздавил' )] вас слоном в слоновьих загонах владения [ROOT.Var('elephant_location').GetProvince.GetName]"
+ almost_crushed_by_elephant_rival_memory_desc_third_perspective:0 "[rival.GetTitledFirstName], [Select_CString(rival.IsFemale, 'соперница', 'соперник' )] персонажа [owner.GetName], почти [Select_CString(rival.IsFemale, 'раздавила', 'раздавил' )] [owner.GetHerHis|l] слоном в слоновьих загонах владения [ROOT.Var('elephant_location').GetProvince.GetName]"
+
+ almost_crushed_by_elephant_nemesis_memory:0 "почти раздавил слон"
+ almost_crushed_by_elephant_nemesis_memory_desc:0 "мой заклятый враг [nemesis.GetTitledFirstName] почти [Select_CString(nemesis.IsFemale, 'раздавила', 'раздавил' )] меня слоном в слоновьих загонах владения [ROOT.Var('elephant_location').GetProvince.GetName]"
+ almost_crushed_by_elephant_nemesis_memory_desc_second_perspective:0 "ваш заклятый враг [nemesis.GetTitledFirstName] почти [Select_CString(nemesis.IsFemale, 'раздавила', 'раздавил' )] вас слоном в слоновьих загонах владения [ROOT.Var('elephant_location').GetProvince.GetName]"
+ almost_crushed_by_elephant_nemesis_memory_desc_third_perspective:0 "[nemesis.GetTitledFirstName], заклятый враг персонажа [owner.GetName], почти [Select_CString(nemesis.IsFemale, 'раздавила', 'раздавил' )] [owner.GetHerHis|l] слоном в слоновьих загонах владения [ROOT.Var('elephant_location').GetProvince.GetName]"
+
+ was_hero_in_the_fire_memory:0 "проявлен героизм при пожаре"
+ was_hero_in_the_fire_memory_desc:0 "мне удалось спасти множество жизней при пожаре на плантациях во владении [ROOT.Var('fire_location').GetProvince.GetName]"
+ was_hero_in_the_fire_memory_desc_second_perspective:0 "вам удалось спасти множество жизней при пожаре на плантациях во владении [ROOT.Var('fire_location').GetProvince.GetName]"
+ was_hero_in_the_fire_memory_desc_third_perspective:0 "[owner.GetName] [Select_CString(owner.IsFemale, 'спасла', 'спас' )] множество жизней при пожаре на плантациях во владении [ROOT.Var('fire_location').GetProvince.GetName]"
+
+ was_disfigured_in_the_fire_memory:0 "лицо обезображено во время пожара"
+ was_disfigured_in_the_fire_memory_desc:0 "меня обожгло, и мое лицо было обезображено во время героического спасения множества жизней при пожаре на плантациях во владении [ROOT.Var('fire_location').GetProvince.GetName]"
+ was_disfigured_in_the_fire_memory_desc_second_perspective:0 "вас обожгло, и ваше лицо было обезображено во время героического спасения множества жизней при пожаре на плантациях во владении [ROOT.Var('fire_location').GetProvince.GetName]"
+ was_disfigured_in_the_fire_memory_desc_third_perspective:0 "[owner.GetName] [Select_CString(owner.IsFemale, 'была обожжена и обезображена', 'был обожжен и обезображен' )] во время героического спасения множества жизней при пожаре на плантациях во владении [ROOT.Var('fire_location').GetProvince.GetName]"
+
+ was_wounded_in_the_fire_memory:0 "получено ранение во время пожара"
+ was_wounded_in_the_fire_memory_desc:0 "меня сильно обожгло при попытке спасти людей во время пожара на плантациях во владении [ROOT.Var('fire_location').GetProvince.GetName]"
+ was_wounded_in_the_fire_memory_desc_second_perspective:0 "вас сильно обожгло при попытке спасти людей во время пожара на плантациях во владении [ROOT.Var('fire_location').GetProvince.GetName]"
+ was_wounded_in_the_fire_memory_desc_third_perspective:0 "[owner.GetName] [Select_CString(owner.IsFemale, 'получила', 'получил' )] сильный ожог при попытке спасти людей во время пожара на плантациях во владении [ROOT.Var('fire_location').GetProvince.GetName]"
+
+ saved_someone_from_a_bull_memory:0 "[victim.GetName] [Select_CString(victim.IsFemale, 'была спасена', 'был спасен' )] от свирепого быка"
+ saved_someone_from_a_bull_memory_desc:0 "благодаря смекалке и доблести [victim.GetName] [Select_CString(victim.IsFemale, 'была героически спасена', 'был героически спасен' )] мной от свирепого быка в холмах владения [ROOT.Var('bull_location').GetProvince.GetName]"
+ saved_someone_from_a_bull_memory_desc_second_perspective:0 "благодаря смекалке и доблести [victim.GetName] [Select_CString(victim.IsFemale, 'была героически спасена', 'был героически спасен' )] вами от свирепого быка в холмах владения [ROOT.Var('bull_location').GetProvince.GetName]"
+ saved_someone_from_a_bull_memory_desc_third_perspective:0 "благодаря смекалке и доблести [victim.GetName] [Select_CString(victim.IsFemale, 'была героически спасена', 'был героически спасен' )] персонажем [owner.GetName] от свирепого быка в холмах владения [ROOT.Var('bull_location').GetProvince.GetName]"
+ 
+ haunted_manor_survived_assassination_attempt_memory:0 "пережита попытка покушения в «проклятом» особняке"
+ haunted_manor_survived_assassination_attempt_memory_desc:0 "мне удалось пережить коварное покушение на мою жизнь и перехитрить несостоявшегося убийцу в якобы «проклятом» особняке среди полей владения [ROOT.Var('manor_location').GetProvince.GetName]"
+ haunted_manor_survived_assassination_attempt_memory_desc_second_perspective:0 "вам удалось пережить коварное покушение на вашу жизнь и перехитрить несостоявшегося убийцу в якобы «проклятом» особняке среди полей владения [ROOT.Var('manor_location').GetProvince.GetName]"
+ haunted_manor_survived_assassination_attempt_memory_desc_third_perspective:0 "[owner.GetName] [Select_CString(owner.IsFemale, 'сумела', 'сумел' )] пережить коварное покушение на [owner.GetHerHis|l] жизнь и перехитрить несостоявшегося убийцу в якобы «проклятом» особняке среди полей владения [ROOT.Var('manor_location').GetProvince.GetName]"
+
+ friend_ignored_assassination_memory:0 "[friend.GetName] не [Select_CString(friend.IsFemale, 'обратила', 'обратил' )] внимания на попытку покушения на мою жизнь"
+ friend_ignored_assassination_memory_desc:0 "[friend.GetName] [Select_CString(friend.IsFemale, 'предала', 'предал' )] меня, проигнорировав покушение на мою жизнь во владении [ROOT.Var('assassination_location').GetProvince.GetName]"
+ friend_ignored_assassination_memory_desc_second_perspective:0 "[friend.GetName] [Select_CString(friend.IsFemale, 'предала', 'предал' )] вас, проигнорировав покушение на вашу жизнь во владении [ROOT.Var('assassination_location').GetProvince.GetName]"
+ friend_ignored_assassination_memory_desc_third_perspective:0 "[friend.GetName] [Select_CString(friend.IsFemale, 'предала', 'предал' )] персонажа [owner.GetName], проигнорировав покушение на [owner.GetHerHis|l] жизнь во владении [ROOT.Var('assassination_location').GetProvince.GetName]"
+
+ rival_ignored_assassination_memory:0 "[rival.GetName] не [Select_CString(rival.IsFemale, 'обратила', 'обратил' )] внимания на попытку покушения на мою жизнь"
+ rival_ignored_assassination_memory_desc:0 "[Select_CString(rival.IsFemale, 'моя', 'мой' )] [rival.Custom('InsultAdjectiveGeneric')] [Select_CString(rival.IsFemale, 'соперница', 'соперник' )] [rival.GetName] злорадно [Select_CString(rival.IsFemale, 'проигнорировала', 'проигнорировал' )] покушение на мою жизнь в дебрях владения [ROOT.Var('assassination_location').GetProvince.GetName]"
+ rival_ignored_assassination_memory_desc_second_perspective:0 "[Select_CString(rival.IsFemale, 'ваша', 'ваш' )] [rival.Custom('InsultAdjectiveGeneric')] [Select_CString(rival.IsFemale, 'соперница', 'соперник' )] [rival.GetName] злорадно [Select_CString(rival.IsFemale, 'проигнорировала', 'проигнорировал' )] покушение на вашу жизнь в дебрях владения [ROOT.Var('assassination_location').GetProvince.GetName]"
+ rival_ignored_assassination_memory_desc_third_perspective:0 "[rival.GetName], [rival.Custom('InsultAdjectiveGeneric')] [Select_CString(rival.IsFemale, 'соперница', 'соперник' )] персонажа [owner.GetName], злорадно [Select_CString(rival.IsFemale, 'проигнорировала', 'проигнорировал' )] покушение на [owner.GetHerHis|l] жизнь в дебрях владения [ROOT.Var('assassination_location').GetProvince.GetName]"
+
+ nemesis_ignored_assassination_memory:0 "[nemesis.GetName] не [Select_CString(nemesis.IsFemale, 'обратила', 'обратил' )] внимания на попытку покушения на мою жизнь"
+ nemesis_ignored_assassination_memory_desc:0 "мой заклятый враг [nemesis.GetName] злорадно [Select_CString(nemesis.IsFemale, 'проигнорировала', 'проигнорировал' )] покушение на мою жизнь в дебрях владения [ROOT.Var('assassination_location').GetProvince.GetName]"
+ nemesis_ignored_assassination_memory_desc_second_perspective:0 "ваш заклятый враг [nemesis.GetName] злорадно [Select_CString(nemesis.IsFemale, 'проигнорировала', 'проигнорировал' )] покушение на вашу жизнь в дебрях владения [ROOT.Var('assassination_location').GetProvince.GetName]"
+ nemesis_ignored_assassination_memory_desc_third_perspective:0 "[nemesis.GetName], заклятый враг персонажа [owner.GetName], злорадно [Select_CString(nemesis.IsFemale, 'проигнорировала', 'проигнорировал' )] покушение на [owner.GetHerHis|l] жизнь в дебрях владения [ROOT.Var('assassination_location').GetProvince.GetName]"
+
+ stood_idly_by_assassination_memory:0 "[bystander.GetName] не [Select_CString(nemesis.IsFemale, 'обратила', 'обратил' )] внимания на попытку покушения на мою жизнь"
+ stood_idly_by_assassination_memory_desc:0 "[bystander.GetName] [Select_CString(bystander.IsFemale, 'стояла и бездействовала', 'стоял и бездействовал' )], пока мне приходилось защищаться от покушения на мою жизнь во владении [ROOT.Var('assassination_location').GetProvince.GetName]"
+ stood_idly_by_assassination_memory_desc_second_perspective:0 "[bystander.GetName] [Select_CString(bystander.IsFemale, 'стояла и бездействовала', 'стоял и бездействовал' )], пока вам приходилось защищаться от покушения на вашу жизнь во владении [ROOT.Var('assassination_location').GetProvince.GetName]"
+ stood_idly_by_assassination_memory_desc_third_perspective:0 "[bystander.GetName] [Select_CString(bystander.IsFemale, 'стояла и бездействовала', 'стоял и бездействовал' )], пока [owner.GetName] [Select_CString(owner.IsFemale, 'защищалась', 'защищался' )] от покушения на [owner.GetHerHis|l] жизнь во владении [ROOT.Var('assassination_location').GetProvince.GetName]"
+
+ saved_from_assassination_memory:0 "[rescuer.GetName] [Select_CString(rescuer.IsFemale, 'спасла', 'спас' )] меня от покушения"
+ saved_from_assassination_memory_desc:0 "[rescuer.GetName] [Select_CString(rescuer.IsFemale, 'спасла', 'спас' )] мою жизнь от гнусного покушения во владении [ROOT.Var('assassination_location').GetProvince.GetName]"
+ saved_from_assassination_memory_desc_second_perspective:0 "[rescuer.GetName] [Select_CString(rescuer.IsFemale, 'спасла', 'спас' )] вашу жизнь от гнусного покушения во владении [ROOT.Var('assassination_location').GetProvince.GetName]"
+ saved_from_assassination_memory_desc_third_perspective:0 "[rescuer.GetName] [Select_CString(rescuer.IsFemale, 'спасла', 'спас' )] персонажа [owner.GetName] от гнусного покушения во владении [ROOT.Var('assassination_location').GetProvince.GetName]"
+
+ ignored_assault_memory:0 "[bystander.GetName] [Select_CString(bystander.IsFemale, 'проигнорировала', 'проигнорировал' )] нападение на мою процессию"
+ ignored_assault_memory_desc:0 "[bystander.GetName] и пальцем не [Select_CString(bystander.IsFemale, 'пошевелила', 'пошевелил' )], чтобы помочь мне и моей свите, когда на нас напали за стенами [bystander.GetHerHis|l] владения [ROOT.Var('attack_location').GetProvince.GetName]"
+ ignored_assault_memory_desc_second_perspective:0 "[bystander.GetName] и пальцем не [Select_CString(bystander.IsFemale, 'пошевелила', 'пошевелил' )], чтобы помочь вам и вашей свите, когда на вас напали за стенами [bystander.GetHerHis|l] владения [ROOT.Var('attack_location').GetProvince.GetName]"
+ ignored_assault_memory_desc_third_perspective:0 "[bystander.GetName] и пальцем не [Select_CString(bystander.IsFemale, 'пошевелила', 'пошевелил' )], чтобы помочь персонажу [owner.GetName] и [owner.GetHerHis|l] свите, когда на них напали за стенами [bystander.GetHerHis|l] владения [ROOT.Var('attack_location').GetProvince.GetName]"
+
+ knight_sacrificed_memory:0 "героическая смерть персонажа [knight.GetName]"
+ knight_sacrificed_memory_desc:0 "[knight.GetName] [Select_CString(knight.IsFemale, 'спасла', 'спас' )] меня и мою свиту, героически пожертвовав собой, отвлекая толпу налетчиков во владении [ROOT.Var('sacrifice_location').GetProvince.GetName]"
+ knight_sacrificed_memory_desc_second_perspective:0 "[knight.GetName] [Select_CString(knight.IsFemale, 'спасла', 'спас' )] вас и вашу свиту, героически пожертвовав собой, отвлекая толпу налетчиков во владении [ROOT.Var('sacrifice_location').GetProvince.GetName]"
+ knight_sacrificed_memory_desc_third_perspective:0 "[knight.GetName] [Select_CString(knight.IsFemale, 'спасла', 'спас' )] персонажа [owner.GetName] и [owner.GetHerHis|l] свиту, героически пожертвовав собой, отвлекая толпу налетчиков во владении [ROOT.Var('sacrifice_location').GetProvince.GetName]"
+
+ saved_from_assault_memory:0 "[rescuer.GetName] [Select_CString(rescuer.IsFemale, 'спасла', 'спас' )] мою процессию"
+ saved_from_assault_memory_desc:0 "[rescuer.GetName] [Select_CString(rescuer.IsFemale, 'пришла', 'пришел' )] на помощь, когда меня и мою свиту атаковали рядом с [rescuer.GetHerHis|l] владением [ROOT.Var('attack_location').GetProvince.GetName]"
+ saved_from_assault_memory_desc_second_perspective:0 "[rescuer.GetName] [Select_CString(rescuer.IsFemale, 'пришла', 'пришел' )] на помощь, когда вас и вашу свиту атаковали рядом с [rescuer.GetHerHis|l] владением [ROOT.Var('attack_location').GetProvince.GetName]"
+ saved_from_assault_memory_desc_third_perspective:0 "[rescuer.GetName] [Select_CString(rescuer.IsFemale, 'пришла', 'пришел' )] на помощь, когда персонажа [owner.GetName] и [owner.GetHerHis|l] свиту атаковали рядом с [rescuer.GetHerHis|l] владением [ROOT.Var('attack_location').GetProvince.GetName]"
+
+ forgave_and_released_prisoner_memory:0 "[prisoner.GetName] [Select_CString(prisoner.IsFemale, 'получила прощение и была отпущена', 'получил прощение и был отпущен' )]"
+ forgave_and_released_prisoner_memory_desc:0 "[prisoner.GetName] [Select_CString(prisoner.IsFemale, 'получила прощение и была отпущена', 'получил прощение и был отпущен' )] мной после попытки отомстить во время моей неудачной охоты на н[prisoner.GetHerHis|l]"
+ forgave_and_released_prisoner_memory_desc_second_perspective:0 "[prisoner.GetName] [Select_CString(prisoner.IsFemale, 'получила прощение и была отпущена', 'получил прощение и был отпущен' )] вами после попытки отомстить во время вашей неудачной охоты на н[prisoner.GetHerHis|l]"
+ forgave_and_released_prisoner_memory_desc_third_perspective:0 "[prisoner.GetName] [Select_CString(prisoner.IsFemale, 'получила прощение и была отпущена', 'получил прощение и был отпущен' )] вами после попытки отомстить во время неудачной охоты персонажа [owner.GetName] на н[prisoner.GetHerHis|l]"
+
+ sacrificed_my_cat_memory:0 "моя кошка пожертвована сюзерену"
+ sacrificed_my_cat_memory_desc:0 "моя замечательная кошка по кличке [owner.Custom('CatStoryName')] была предложена моему сюзерену, чтобы [Select_CString(liege.IsFemale, 'ненавидящая', 'ненавидящий' )] кошек [liege.GetName] [Select_CString(liege.IsFemale, 'пощадила', 'пощадил' )] остальных кошек в моих владениях"
+ sacrificed_my_cat_memory_desc_second_perspective:0 "ваша замечательная кошка по кличке [owner.Custom('CatStoryName')] была предложена вашему сюзерену, чтобы [Select_CString(liege.IsFemale, 'ненавидящая', 'ненавидящий' )] кошек [liege.GetName] [Select_CString(liege.IsFemale, 'пощадила', 'пощадил' )] остальных кошек в ваших владениях"
+ sacrificed_my_cat_memory_desc_third_perspective:0 "[owner.GetName] [Select_CString(owner.IsFemale, 'предложила', 'предложил' )] свою замечательную кошку по кличке [owner.Custom('CatStoryName')] своему сюзерену, чтобы [Select_CString(liege.IsFemale, 'ненавидящая', 'ненавидящий' )] кошек [liege.GetName] [Select_CString(liege.IsFemale, 'пощадила', 'пощадил' )] остальных кошек в [owner.GetHerHis|l] владениях"
+
+ sacrificed_my_dog_memory:0 "моя собака пожертвована сюзерену"
+ sacrificed_my_dog_memory_desc:0 "моя замечательная собака по кличке [owner.Custom('DogStoryName')] была предложена моему сюзерену, чтобы [Select_CString(liege.IsFemale, 'ненавидящая', 'ненавидящий' )] собак [liege.GetName] [Select_CString(liege.IsFemale, 'пощадила', 'пощадил' )] остальных собак в моих владениях"
+ sacrificed_my_dog_memory_desc_second_perspective:0 "ваша замечательная собака по кличке [owner.Custom('DogStoryName')] была предложена вашему сюзерену, чтобы [Select_CString(liege.IsFemale, 'ненавидящая', 'ненавидящий' )] собак [liege.GetName] [Select_CString(liege.IsFemale, 'пощадила', 'пощадил' )] остальных собак в ваших владениях"
+ sacrificed_my_dog_memory_desc_third_perspective:0 "[owner.GetName] [Select_CString(owner.IsFemale, 'предложила', 'предложил' )] свою замечательную собаку по кличке [owner.Custom('DogStoryName')] своему сюзерену, чтобы [Select_CString(liege.IsFemale, 'ненавидящая', 'ненавидящий' )] собак [liege.GetName] [Select_CString(liege.IsFemale, 'пощадила', 'пощадил' )] остальных собак в [owner.GetHerHis|l] владениях"

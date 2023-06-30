@@ -108,7 +108,7 @@
  # MESSENGER PIGEON
  intrigue_scheme_ongoing.3005.t:0 "Geflügelter Bote"
  intrigue_scheme_ongoing.3005.desc:0 "Da mein Komplott sich der Umsetzung nähert, ist eine rasche Verständigung entscheidend. Ich habe eine besonders schlaue Taube, die [pigeon_recipient.GetTitledFirstName] nutzen könnte, um nötigenfalls eilige Botschaften an mich in [root_location.GetNameNoTooltip] zu schicken.\n\nDoch wie soll ich den Vogel in die Residenz von [target_location.GetNameNoTooltip] bringen?"
- intrigue_scheme_ongoing.3005.c.f:0 "Diese Option ist verfügbar, da Euer Agent [elope_agent.GetShortUIName] [friend|E], [Concept('close_family_member', 'Enger Verwandter')|E] oder [elope_agent.Custom('FemaleMale')]er Diener von [pigeon_recipient.GetShortUIName] ist"
+ intrigue_scheme_ongoing.3005.c.f:0 "Diese Option ist verfügbar, da Euer Agent [elope_agent.GetShortUIName] [friend|E], [Concept('close_family_member', 'enger Verwandter')|E] oder [elope_agent.Custom('FemaleMale')|l]er Diener von [pigeon_recipient.GetShortUIName] ist"
  intrigue_scheme_ongoing.3005.a:0 "Ein örtlicher Vogelzüchter könnte sie als „Geschenk“ überreichen."
  intrigue_scheme_ongoing.3005.a.success:0 "Das „Geschenk“ erreicht [pigeon_recipient.GetShortUIName]"
  intrigue_scheme_ongoing.3005.a.failure:0 "[defender.GetShortUIName|U] schickt den Vogelzüchter weg"
@@ -157,7 +157,7 @@
  intrigue_scheme_ongoing.5004.a:0 "Nun denn … Danke?"
 
  intrigue_scheme_ongoing.5005.t:0 "Alles was glänzt"
- intrigue_scheme_ongoing.5005.desc:0 "Mein[spymaster.Custom('DE_END_PRO_S_N')] [spymaster.GetCouncilTitle] [spymaster.GetTitledFirstName] nähert sich mir mit ruchlosem Grinsen.\n\n„Dieser Beutel hier enthält ein äußerst heimtückisches Pulver. Wenn man es auf etwas streut, beispielsweise auf ein Geschenk für [target.GetTitledFirstName], hinterlässt es keinerlei Spur, doch wer es berührt, wird mit Schwäche und üblen Körpersäften geschlagen.“"
+ intrigue_scheme_ongoing.5005.desc:0 "Mein [spymaster.GetCouncilTitle] [spymaster.GetTitledFirstName] nähert sich mir mit ruchlosem Grinsen.\n\n„Dieser Beutel hier enthält ein äußerst heimtückisches Pulver. Wenn man es auf etwas streut, beispielsweise auf ein Geschenk für [target.GetTitledFirstName], hinterlässt es keinerlei Spur, doch wer es berührt, wird mit Schwäche und üblen Körpersäften geschlagen.“"
  intrigue_scheme_ongoing.5005.a:0 "Sieh an, sieh an … Ich würde sagen, [target.Custom('DE_PRO_PER_S_3P_N')] hat ein Geschenk verdient."
  intrigue_scheme_ongoing.5005.b:0 "[target.Custom('DE_PRO_PER_S_3P_N')|U] bekommt ganz sicher kein Gold von mir!"
 
@@ -236,7 +236,7 @@
  intrigue_scheme_ongoing.5019.b.tt:0 "[architect.Custom('DE_PRO_POS_P_2P_N')|U] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('architect'))|U] [architect.GetFirstNameNoTooltip] wird die Bauarbeiten beaufsichtigen."
 
  intrigue_scheme_ongoing.5021.t:0 "Prekäre Pläne"
- intrigue_scheme_ongoing.5021.desc:0 "Ich suche [owner.GetTitledFirstName], mein[owner.Custom('DE_END_PRO_S_A')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], in [owner.Custom('DE_PRO_POS_S_3P')]em Studierzimmer auf, das jedoch leer ist.\n\nAls ich gemütlich [owner.Custom('DE_PRO_POS_S_3P')]e Aufzeichnungen durchstöbere, stoße ich auf etwas, was zweifelsohne finstere Pläne sind. Ihr geplantes Opfer: [target.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
+ intrigue_scheme_ongoing.5021.desc:0 "[owner.GetTitledFirstName], mein[owner.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], wird von mir in [owner.Custom('DE_PRO_POS_S_3P')]em Studierzimmer aufgesucht, doch Letzteres ist leer.\n\nAls ich gemütlich [owner.Custom('DE_PRO_POS_S_3P')]e Aufzeichnungen durchstöbere, stoße ich auf etwas, was zweifelsohne finstere Pläne sind. Ihr geplantes Opfer: [target.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
  intrigue_scheme_ongoing.5021.a:0 "Was hat das zu bedeuten, [owner.GetFirstNameNoTooltip]?!"
  intrigue_scheme_ongoing.5021.a.success:0 "[owner.Custom('DE_PRO_PER_S_3P_N')|U] schmiedet tatsächlich ein Mordkomplott"
  intrigue_scheme_ongoing.5021.a.success.tt:0 "Das Komplott wird entdeckt"

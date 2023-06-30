@@ -8,8 +8,8 @@
  judaism_high_god_name_2:0 "au Seigneur" # Optional translation alt
  judaism_high_god_name_3:0 "du Seigneur" # Optional translation alt
  judaism_high_god_name_possessive:0 "du Seigneur"
- judaism_high_god_alternate:0 "le Saint"
- judaism_high_god_alternate_possessive:0 "du Saint"
+ judaism_high_god_alternate:1 "Adonaï"
+ judaism_high_god_alternate_possessive:1 "d’Adonaï"
  judaism_good_god_hashem:0 "Hachem"
  judaism_good_god_el_shaddai:0 "Adonaï"
  judaism_devil_name:0 "Baal"
@@ -26,7 +26,7 @@
  judaism_religious_text_2:0 "à la Torah" # Optional translation alt
  judaism_religious_text_3:0 "de la Torah" # Optional translation alt
  judaism_religious_head_title:1 "Nasi"
- judaism_religious_head_title_name:0 "Kohen gadol"
+ judaism_religious_head_title_name:0 "Cohen gadol"
  judaism_devotee:0 "nazir"
  judaism_devotee_plural:0 "nazirs"
  judaism_priest:0 "rabbin"
@@ -63,8 +63,8 @@
  judaism_knowledge_god_name_possessive:0 "$judaism_high_god_name_possessive$"
  judaism_war_god_name:0 "$judaism_high_god_name$"
  judaism_war_god_name_possessive:0 "$judaism_high_god_name_possessive$"
- judaism_trickster_god_name:0 "$christianity_trickster_god_name$"
- judaism_trickster_god_name_possessive:0 "$christianity_trickster_god_name_possessive$"
+ judaism_trickster_god_name:1 "Ayin Ha’ra"
+ judaism_trickster_god_name_possessive:1 "d’Ayin Ha’ra"
  judaism_night_god_name:0 "$judaism_high_god_name$"
  judaism_night_god_name_possessive:0 "$judaism_high_god_name_possessive$"
  judaism_water_god_name:0 "$judaism_high_god_name$"
@@ -75,7 +75,7 @@
  rabbinism_adj:0 "rabbinique"
  rabbinism_adherent:0 "rabbiniste"
  rabbinism_adherent_plural:0 "rabbinistes"
- rabbinism_desc:0 "Le rabbinisme accentue le rôle des rabbins en tant qu’interprètes de la loi religieuse de la Halakha. Ce sont les lois et les traditions qui garantissent le respect de l’alliance avec le Seigneur, et les rabbins veillent au respect de ces lois."
+ rabbinism_desc:1 "Le rabbinisme accentue le rôle des rabbins en tant qu’interprètes de la loi religieuse de la Halakha. Ce sont les lois et les traditions qui garantissent le respect de l’alliance avec le Seigneur, et les rabbins veillent au respect de ces lois."
 
  #Karaite
  karaism:0 "Karaïsme"
@@ -120,4 +120,30 @@
  kabarism_adj:1 "kuzari"
  kabarism_adherent:1 "kuzari"
  kabarism_adherent_plural:1 "kuzaris"
- kabarism_desc:1 "Les kuzaris insistent sur l’interprétation correcte et commune de la Halakha, conjointement avec les traditions khazares et le folklore local."
+ kabarism_desc:2 "Les kuzaris sont des convertis qui suivent l’interprétation rabbinique commune de la Halakha, mais qui suivent scrupuleusement certaines croyances et traditions locales."
+ 
+ #Merkabah
+ merkabah:0 "Merkaba"
+ merkabah_adj:0 "merkaba"
+ merkabah_adherent:0 "merkabiste"
+ merkabah_adherent_plural:0 "merkabistes"
+ merkabah_desc:0 "Le mysticisme merkaba est une secte juive qui souscrit à certains enseignements gnostiques. La foi est centrée sur les visions et l’adoption d’un mode de vie ascétique pour rejoindre le Trône de Dieu."
+
+ doctrine_temple_authority_name:0 "Halakha"
+ doctrine_temple_authority_desc:0 "La Halakha désigne un ensemble de lois et de règles selon lesquelles un juif doit mener sa vie. Après des siècles de diaspora, les groupes juifs se sont divisés en de nombreuses écoles de pensée sur la manière d’interpréter correctement la Halakha."
+ temple_authority_rabbinic_doctrine_name:0 "Rabbinique"
+ temple_authority_rabbinic_doctrine_desc:0 "Les juifs rabbiniques croient que seuls les rabbins peuvent interpréter la Halakha. Ils croient en la Torah écrite et en la Torah orale, transmises par les rabbins. Toutes les croyances rabbiniques sont codifiées dans le Talmud de Babylone, qui est considéré comme la source principale à partir de laquelle la Halakha est interprétée et diffusée."
+ temple_authority_toric_doctrine_name:0 "Toraïque"
+ temple_authority_toric_doctrine_desc:0 "Le judaïsme toraïque rejette le Talmud et la Torah orale, la Torah écrite ayant seule valeur d’autorité. Les rabbins ne peuvent pas changer ou adapter la Halakha, leur devoir est uniquement d’interpréter le sens littéral de la Torah."
+ temple_authority_kohanim_doctrine_name:0 "Coheniste"
+ temple_authority_kohanim_doctrine_desc:0 "Le judaïsme coheniste affirme que le cohen est l’autorité suprême pour toutes les questions religieuses, y compris la Halakha. Le cohen doit être un descendant patrilinéaire d’Aaron, le frère de Moïse."
+ temple_authority_samaritan_torah_doctrine_name:0 "Samaritaine"
+ temple_authority_samaritan_torah_doctrine_desc:0 "Les samaritains rejettent totalement l’autorité de la Torah et accordent au contraire l’autorité suprême à la Torah samaritaine. Leur rejet de la Torah leur vaut d’être universellement considérés comme des hérétiques."
+ doctrine_parameter_hostility_override_temple_authority_samaritan_torah_doctrine:0 "Considère toute [faith|El] [GetFaithDoctrine('temple_authority_samaritan_torah_doctrine').GetBaseName|l] comme [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_temple_authority_rabbinic_doctrine:0 "Considère toute [faith|El] [GetFaithDoctrine('temple_authority_rabbinic_doctrine').GetBaseName|l] comme [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_temple_authority_toric_doctrine:0 "Considère toute [faith|El] [GetFaithDoctrine('temple_authority_toric_doctrine').GetBaseName|l] comme [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_temple_authority_kohanim_doctrine:0 "Considère toute [faith|El] [GetFaithDoctrine('temple_authority_kohanim_doctrine').GetBaseName|l] comme [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_enables_temporal_head_parameter:0 "Permet de choisir le chef temporel comme [doctrine|El] religieuse."
+
+ tenet_communal_identity_chosen_people_name:0 "Peuple élu"
+ tenet_communal_identity_chosen_people_desc:0 "Nous avons été choisis par [ROOT.Faith.HighGodName] dans une alliance sainte. Cela unit notre peuple dans un but unique et peut même avoir un effet dissuasif sur la conversion."

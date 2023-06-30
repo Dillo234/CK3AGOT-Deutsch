@@ -16,7 +16,7 @@
  bishop.2001.failure.c.desc.tt:0 "[scoped_prisoner.GetFirstName]躲开了我的杀手！"
  bishop.2001.d:0 "这是我的囚犯，[scoped_prisoner.GetSheHe]会待在我的地牢里！"
  
- bishop.2002.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]家庭"
+ bishop.2002.t:1 "我的[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]家庭"
  bishop.2002.desc.b:0 "我伸手招呼大厅对面的[scoped_relative.GetFirstName]，但我的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_relative'))]却露出尴尬的眼神然后转身跑开了。"
  bishop.2002.desc.c:0 "我环视餐桌，想要找人聊天，但却只发现尴尬的眼神和转过去的头。"
  bishop.2002.desc.a:0 "\n\n我自己的家人被那个[scoped_bishop.Custom('InsultAdjective')][scoped_bishop.Custom('InsultNoun')]，[scoped_bishop.GetCouncilTitle][scoped_bishop.GetFirstName]策动反对我。只要我家人去寻求[scoped_bishop.GetHerHim]的属灵指导，[scoped_bishop.GetSheHe|U]就会把好一些捕风捉影的谎言灌进我家人的耳朵，声称我是一名邪恶的[ROOT.Char.GetTitleTierName]而且[ROOT.GetCharacter.GetFaith.HighGodName]诅咒了我们家族。"
@@ -25,7 +25,7 @@
  bishop.2002.success.a.desc.tt:0 "我揭露了[scoped_bishop.GetFirstNamePossessive]诽谤我的企图。"
  tooltip.bishop.a.2002.fail:0 "我的家人对我的话不为所动"
  bishop.2002.failure.a.desc.tt:0 "我的亲族拒绝听我讲。"
- bishop.2002.b:0 "公开表示悔悟会不会有所帮助？"
+ bishop.2002.b:0 "公开表示痛悔会不会有所帮助？"
  bishop.2002.c:0 "我不会让一个[scoped_bishop.GetCouncilTitle|U]削弱我！"
 
  bishop.2003.t:0 "人民的司祭"
@@ -39,3 +39,9 @@
  bishop.2002.everypiousrelative.custom:0 "我的所有虔诚[scoped_bishop.GetFaith.GetAdjective][family_member|E]"
  bishop.2003.countyunrest.custom:0 "我[domain|E]内的所有[scoped_bishop.GetFaith.GetAdjective][county|E]"
  bishop.2003.everytheocrat.custom:0 "所有[scoped_bishop.GetFaith.GetAdjective][theocratic|E]封臣"
+ 
+ bishop.2004.t:0 "在狂热者眼中"
+ bishop.2004.desc:0 "我的[scoped_bishop.GetCouncilTitle][scoped_bishop.GetFirstName]在最近的每一次布道中都抱怨我所谓的“缺乏虔诚”。\n\n据说[scoped_bishop.GetSheHe]甚至称我为“不虔诚的[root_scope.Custom('InsultNoun')]”，我的那些比较狂热的封臣都开始听从[scoped_bishop.GetHerHim]的话了……"
+ bishop.2004.theologian:0 "赤裸裸的谎言和诽谤！"
+ bishop.2004.a:0 "我想再来一次“善意捐赠”或许有用……"
+ bishop.2004.b:0 "呸！让他们爱信什么信去吧。"

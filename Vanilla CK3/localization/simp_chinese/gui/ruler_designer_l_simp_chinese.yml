@@ -37,7 +37,7 @@
  RULER_DESIGNER_POINTS_LIMIT_VALUE:0 "[GetDefine( 'NRulerDesigner', 'IRONMAN_POINT_MAX' )|V]"
  RULER_DESIGNER_POINTS_LIMIT_LABEL:0 "成就限制：$RULER_DESIGNER_POINTS_LIMIT_VALUE$"
  RULER_DESIGNER_AGE_LABEL:0 "年龄"
- RULER_DESIGNER_AGE:1 "#high [RulerDesignerWindow.GetAge]#![Select_CString( GreaterThan_int32( RulerDesignerWindow.GetAge, '(int32)1' ), '岁', '岁' ) )]"
+ RULER_DESIGNER_AGE:1 "#high [RulerDesignerWindow.GetAge]#![Select_CString( GreaterThan_int32( RulerDesignerWindow.GetAge, '(int32)1' ), '岁', '岁' )]"
  RULER_DESIGNER_BIRTH_YEAR:0 "出生年份：公元[RulerDesignerWindow.GetBirthYear]年"
  RULER_DESIGNER_WEIGHT_LABEL:0 "体重"
  RULER_DESIGNER_TRAITS_LABEL:1 "[traits|E]"
@@ -105,7 +105,7 @@
  RULER_DESIGNER_DECREASE_SKILL_TOOLTIP:0 "降低[RulerDesignerSkill.GetName]能力"
  RULER_DESIGNER_INCREASE_SKILL_TOOLTIP:0 "提高[RulerDesignerSkill.GetName]能力"
  RULER_DESIGNER_GENERATE_SPOUSE_LABEL:0 "已婚"
- RULER_DESIGNER_GENERATE_SPOUSE_TOOLTIP:1 "在你设计完角色后，为你的角色生成一个同文化、同信仰的配偶"
+ RULER_DESIGNER_GENERATE_SPOUSE_TOOLTIP:1 "[SelectLocalization(RulerDesignerWindow.ShouldGenerateSpouse, 'RULER_DESIGNER_GENERATE_SPOUSE_TOOLTIP_MARRIED', 'RULER_DESIGNER_GENERATE_SPOUSE_TOOLTIP_UNMARRIED')]"
  RULER_DESIGNER_ADULT_ONLY_WARNING:0 "@warning_icon!#X 必须是一名[adult|E]才能更改#!"
  RULER_DESIGNER_GENERATE_SPOUSE_TOOLTIP_MARRIED:0 "#T 已婚\n#!你有一个与你同[culture|E]和[faith|E]的[spouse|E]\n\n#I 点击成为未婚#!"
  RULER_DESIGNER_GENERATE_SPOUSE_TOOLTIP_UNMARRIED:0 "#T 未婚\n#!你尚未结婚\n\n#I 点击成为已婚#!"
@@ -302,7 +302,7 @@
  beards:0 "胡须"
  chin_def:0 "棱角分明的下巴"
  chin_def_neg:0 "平滑的下巴"
- # TODO [CD]: Check this
+
  RULER_DESIGNER_SAVE_WINDOW_TITLE:0 "保存统治者"
  RULER_DESIGNER_SAVE_WINDOW_SAVE:0 "[SelectLocalization( RulerDesignerSaveWindow.IsOverwrite, 'SAVE_WINDOW_OVERWRITE', 'SAVE' )]"
  RULER_DESIGNER_SAVE_OVERWRITE_RULER:0 "覆盖统治者"

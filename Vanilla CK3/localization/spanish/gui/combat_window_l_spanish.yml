@@ -70,8 +70,8 @@
  COMBAT_WINDOW_MAA_TT_EFFICIENCY:1 "@warning_icon! Provoca un [CombatMaaItem.GetCountered|0-%] de daño por ser contrarrestado"
  COMBAT_WINDOW_MAA_TT_TERRAIN_GOOD:0 "#I +Luchando en terreno favorable #!"
  COMBAT_WINDOW_MAA_TT_TERRAIN_BAD:0 "#X -Luchando en terreno desfavorable #!"
- COMBAT_WINDOW_MAA_TT_SCREEN:2 "Efecto de pantalla por regimiento completo: [MenAtArmsType.GetStat(GetPlayer, 'screen')|0+=]"
- COMBAT_WINDOW_MAA_TT_PURSUIT:2 "Efecto de persecución por regimiento completo: [MenAtArmsType.GetStat(GetPlayer, 'pursuit')|0+=]"
+ COMBAT_WINDOW_MAA_TT_SCREEN:3 "Efecto de pantalla por regimiento completo: [MenAtArmsType.GetStat(GetPlayer, Province.Self, 'screen')|0+=]"
+ COMBAT_WINDOW_MAA_TT_PURSUIT:3 "Efecto de persecución por regimiento completo: [MenAtArmsType.GetStat(GetPlayer, Province.Self, 'pursuit')|0+=]"
  COMBAT_WINDOW_NO_MAA:0 "Sin [men_at_arms|lE]"
  CV_TT_RELATIVE_SOLDIERS:0 "#T Fuerza relativa#!\n[CombatWindow.GetLeftCombatSide.GetComposition.GetSoldierCountString] contra [CombatWindow.GetRightCombatSide.GetComposition.GetSoldierCountString] [soldiers|lE]\n[CombatWindow.GetCombat.GetCombatWidthBreakdown]"
  COMBAT_WINDOW_PHASE_MANEUVER_TT:1 "#T Fase de maniobra\n#!Ambos bandos se preparan para la batalla"
@@ -87,4 +87,3 @@
  CW_NO_KNIGHTS:0 "Sin [knights|lE]"
  COMBAT_WINDOW_NO_COMMANDER:0 "Sin comandante"
  
-

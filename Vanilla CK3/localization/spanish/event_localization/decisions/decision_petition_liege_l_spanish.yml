@@ -3,7 +3,7 @@
  petition_liege_decision:0 "Petición al señor"
  petition_liege_decision_desc:1 "Puedo presentar una petición a mi [ROOT.Char.GetLiege.Custom('ES_SennorSennora')] para que me ayude a solucionar los retos a los que me enfrento; normalmente suele conceder las solicitudes sinceras que contribuyan al bien del señorío."
  petition_liege_decision_tooltip:1 "Presentar una [Concept( 'petition_liege', 'petición' )|E] a tu [liege|E] para conseguir un regalo o servicio"
- petition_liege_decision_effects:1 "Viajas a la corte [THIS.Char.GetLiege.Custom('ES_DelDela')] [THIS.Char.GetLiege.GetTitledFirstName] para presentar tu petición"
+ petition_liege_decision_effects:1 "Viajas a la corte [THIS.Char.GetLiege.Custom('ES_DelDela')] [THIS.Char.GetLiege.GetTitledFirstName|l] para presentar tu petición"
  petition_liege_decision_confirm:1 "$petition_liege_decision$"
  petition_liege_decision_second_tooltip:0 "$DESC$\n$petition_liege_grace_tt$\n\n$IS_VALID_BLOCKER$"
  petition_liege_grace_tt:0 "#weak La petición al señor no estará disponible durante 5 años#!"
@@ -11,17 +11,17 @@
  petition_liege_warning_effect:0 "#weak La personalidad y [opinion|lE] del [liege|lE] y el tipo de [Concept( 'petition_liege', 'petición' )|E] afectan las posibilidades de aceptación#!"
  # Council
  petition_liege_decision_option_council_seat:0 "Nombramientos del consejo\n#low Conceder asiento en el [council|lE]#!"
- petition_liege_council_seat_desc:0 "[petition_liege.GetTitledFirstNameNoTooltip] te ha concedido un puesto en su [council|lE]"
+ petition_liege_council_seat_desc:0 "[petition_liege.GetTitledFirstNameNoTooltip|l] te ha concedido un puesto en su [council|lE]"
  petition_liege_council_seat_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_council_seat_me_tt:0 "#X Ya estás en el [council|lE] de tu [liege|lE]#!"
  petition_liege_council_seat_liege_tt:0 "#X Tu [liege|lE] es incapaz en este momento de cambiar su [council|lE]#!"
- council_appointment_toast_desc_liege:0 "[petition_vassal.GetTitledFirstNameNoTooltip] ahora es tu [petition_vassal.GetCouncilTitle]"
- council_appointment_toast_desc_vassal:0 "Ahora eres [petition_vassal.GetCouncilTitle] de [petition_liege.GetTitledFirstNameNoTooltip]"
- council_appointment_toast_desc_replaced:0 "[petition_liege.GetTitledFirstNameNoTooltip] te ha reemplazado en su consejo por [petition_vassal.GetTitledFirstNameNoTooltip]"
+ council_appointment_toast_desc_liege:0 "[petition_vassal.GetTitledFirstNameNoTooltip|l] ahora es tu [petition_vassal.GetCouncilTitle]"
+ council_appointment_toast_desc_vassal:0 "Ahora eres [petition_vassal.GetCouncilTitle] de [petition_liege.GetTitledFirstNameNoTooltip|l]"
+ council_appointment_toast_desc_replaced:0 "[petition_liege.GetTitledFirstNameNoTooltip|l] te ha reemplazado en su consejo por [petition_vassal.GetTitledFirstNameNoTooltip|l]"
  petition_liege_decision_effects_council_seat:0 "[THIS.Char.GetLiege.GetSheHe|U] puede concederte un puesto en su [council|lE]"
  # Debt
  petition_liege_decision_option_pay_debt:0 "Liquidar deuda\n#low Pagar la [debt|lE]#!"
- petition_liege_pay_debt_desc:0 "Solicita a [ROOT.Char.GetLiege.GetTitledFirstName] que liquide tu [debt|lE] actual"
+ petition_liege_pay_debt_desc:0 "Solicita a [ROOT.Char.GetLiege.GetTitledFirstName|l] que liquide tu [debt|lE] actual"
  petition_liege_pay_debt_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_pay_debt_me_tt:1 "#X No [Concept( 'debt', 'debes' )|E] un mínimo de -100 de oro"
  petition_liege_pay_debt_liege_tt:0 "#X Tu [liege|lE] no se puede permitir pagar tus [Concept( 'debt', 'deudas' )|E]#!"
@@ -29,7 +29,7 @@
 
  # War Aid
  petition_liege_decision_option_war_aid:0 "Ayuda militar\n#low Ayudar en una [war|lE] exterior#!"
- petition_liege_war_aid_desc:0 "Solicitar a [ROOT.Char.GetLiege.GetTitledFirstName] que se una o preste tropas para una [war|lE] en curso con otro [realm|lE]"
+ petition_liege_war_aid_desc:0 "Solicitar a [ROOT.Char.GetLiege.GetTitledFirstName|l] que se una o preste tropas para una [war|lE] en curso con otro [realm|lE]"
  petition_liege_war_aid_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_war_aid_tt:2 "#X No eres el [war_leader|lE] de una [war|lE] fuera del [realm|lE]#! que se esté perdiendo con una [war_score|lE] de al menos -[EmptyScope.ScriptValue('petition_war_aid_score_value')|0] %"
  petition_liege_war_aid_liege_tt:1 "#X Tu [liege|lE] ya está involucrado en tus [wars|lE] en curso"
@@ -41,57 +41,57 @@
 
  # Vassal War
  petition_liege_decision_option_vassal_war:0 "Paz en el señorío\n#low Imponer la paz con [vassals|lE]#!"
- petition_liege_vassal_war_desc:0 "Solicitar a [ROOT.Char.GetLiege.GetTitledFirstName] que imponga la paz en tus [wars|lE] con sus otros [vassals|lE]"
+ petition_liege_vassal_war_desc:0 "Solicitar a [ROOT.Char.GetLiege.GetTitledFirstName|l] que imponga la paz en tus [wars|lE] con sus otros [vassals|lE]"
  petition_liege_vassal_war_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_vassal_war_tt:0 "#X No estás en [war|lE] con un [vassal|lE] de tu [liege|lE]#!"
  petition_liege_decision_effects_vassal_war:0 "[THIS.Char.GetLiege.GetSheHe|U] puede terminar tus [wars|lE] con otros [vassals|lE]"
- vassal_war_toast_desc_second_party:0 "[petition_vassal.GetTitledFirstNameNoTooltip] ha solicitado a [petition_liege.GetTitledFirstNameNoTooltip] que ponga fin a vuestra guerra"
+ vassal_war_toast_desc_second_party:0 "[petition_vassal.GetTitledFirstNameNoTooltip|l] ha solicitado a [petition_liege.GetTitledFirstNameNoTooltip|l] que ponga fin a vuestra guerra"
 
  # Faction War
  petition_liege_decision_option_faction_war:0 "Desmontar facción\n#low Romper una [faction|lE] poderosa#!"
- petition_liege_faction_war_desc:0 "Solicita a [ROOT.Char.GetLiege.GetTitledFirstName] desmontar o poner fin a tu guerra con una [faction|lE] poderosa"
+ petition_liege_faction_war_desc:0 "Solicita a [ROOT.Char.GetLiege.GetTitledFirstName|l] desmontar o poner fin a tu guerra con una [faction|lE] poderosa"
  petition_liege_faction_war_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_faction_war_tt:0 "#X No hay ninguna [claimant_faction|lE] ni [liberty_faction|lE] en guerra contigo ni que pueda presentar sus exigencias#!"
  petition_liege_decision_effects_faction_war:0 "[THIS.Char.GetLiege.GetSheHe|U] puede desmontar una [faction|lE] opuesta a ti"
 
  # Control
  petition_liege_decision_option_county_control:0 "Enviar alguaciles\n#low Ayudar a aumentar el [control|lE] del [county|lE]#!"
- petition_liege_county_control_desc:0 "Solicitar [ROOT.Char.GetLiege.GetTitledFirstName] a que te ayude a restablecer el [control|lE] sobre [counties|lE] indisciplinados"
+ petition_liege_county_control_desc:0 "Solicitar [ROOT.Char.GetLiege.GetTitledFirstName|l] a que te ayude a restablecer el [control|lE] sobre [counties|lE] indisciplinados"
  petition_liege_county_control_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_county_control_tt:0 "#X Ninguno de tus [counties|lE] tiene un [control|lE] bajo#!"
  petition_liege_decision_effects_county_control:0 "[THIS.Char.GetLiege.GetSheHe|U] puede ayudarte a poner tus [counties|lE] bajo [control|lE]"
 
  # Convert
  petition_liege_decision_option_county_convert:0 "Financiar sacerdotes\n#low Ayudar a convertir [counties|lE]#!"
- petition_liege_county_convert_desc:0 "Solicitar a [ROOT.Char.GetLiege.GetTitledFirstName] que te ayude a convertir [counties|lE] a la [faith|lE] verdadera"
+ petition_liege_county_convert_desc:0 "Solicitar a [ROOT.Char.GetLiege.GetTitledFirstName|l] que te ayude a convertir [counties|lE] a la [faith|lE] verdadera"
  petition_liege_county_convert_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_county_convert_tt:0 "#X Ninguno de tus [counties|lE] sigue otra [faith|lE]#!"
  petition_liege_decision_effects_county_convert:0 "[THIS.Char.GetLiege.GetSheHe|U] te puede ayudar en la conversión de tus [counties|lE]"
 
  # Opinion
  petition_liege_decision_option_county_opinion:0 "Visita real\n#low Ganar [county_opinion|lE] en [counties|lE]"
- petition_liege_county_opinion_desc:0 "Solicitar [ROOT.Char.GetLiege.Custom('ES_AlAla')] [ROOT.Char.GetLiege.GetTitledFirstName] que visite tus [counties|lE] para ganar [county_opinion|lE]"
+ petition_liege_county_opinion_desc:0 "Solicitar [ROOT.Char.GetLiege.Custom('ES_AlAla')] [ROOT.Char.GetLiege.GetTitledFirstName|l] que visite tus [counties|lE] para ganar [county_opinion|lE]"
  petition_liege_county_opinion_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_county_opinion_tt:0 "#X Ninguno de tus [counties|lE] tiene [county_opinion|lE] baja#!"
  petition_liege_decision_effects_county_opinion:0 "[THIS.Char.GetLiege.GetSheHe|U] puede aumentar la [county_opinion|lE] en tu [realm|lE]"
 
  # Fortify
  petition_liege_decision_option_fortify_border:0 "Fortificar fronteras\n#low Reforzar tus [counties|lE] fronterizos#!"
- petition_liege_fortify_border_desc:0 "Solicitar [ROOT.Char.GetLiege.Custom('ES_AlAla')] [ROOT.Char.GetLiege.GetTitledFirstName] que te ayude a fortificar los [counties|lE] fronterizos con otros [realms|lE]"
+ petition_liege_fortify_border_desc:0 "Solicitar [ROOT.Char.GetLiege.Custom('ES_AlAla')] [ROOT.Char.GetLiege.GetTitledFirstName|l] que te ayude a fortificar los [counties|lE] fronterizos con otros [realms|lE]"
  petition_liege_fortify_border_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_fortify_border_tt:0 "#X Ninguno de tus [counties|lE] tiene frontera con otro [realm|lE] que no tenga una [alliance|lE] con tu [liege|lE]#!"
  petition_liege_decision_effects_fortify_border:0 "[THIS.Char.GetLiege.GetSheHe|U] puede fortificar tus [counties|lE] fronterizos"
 
  # Title Liege
  petition_liege_decision_option_title_liege:0 "Conceder reclamación\n#low Conceder [title|lE] [claimed|lE]#!"
- petition_liege_title_liege_desc:0 "Solicitar [ROOT.Char.GetLiege.Custom('ES_AlAla')] [ROOT.Char.GetLiege.GetTitledFirstName] que te conceda un [title|lE] suyo que [Concept( 'claimed', 'reclamas' )|E]"
+ petition_liege_title_liege_desc:0 "Solicitar [ROOT.Char.GetLiege.Custom('ES_AlAla')] [ROOT.Char.GetLiege.GetTitledFirstName|l] que te conceda un [title|lE] suyo que [Concept( 'claimed', 'reclamas' )|E]"
  petition_liege_title_liege_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_title_liege_tt:0 "#X Tu [liege|lE] no posee ninguna de tus [Concept( 'claims', 'reclamaciones' )|E] o no se puede permitir desprenderse del [title|lE]#!"
  petition_liege_decision_effects_title_liege:0 "[THIS.Char.GetLiege.GetSheHe|U] puede transferirte un [title|lE] reclamado"
 
  # Title Vassal
  petition_liege_decision_option_title_vassal:0 "Transferir derechos\n#low Conferir el [title|lE] [claimed|lE] de un [vassal|lE]"
- petition_liege_title_vassal_desc:0 "Solicitar [ROOT.Char.GetLiege.Custom('ES_AlAla')] [ROOT.Char.GetLiege.GetTitledFirstName] que te conceda el [title|lE] de otro [vassal|lE] que [Concept( 'claimed', 'reclamas' )|E]"
+ petition_liege_title_vassal_desc:0 "Solicitar [ROOT.Char.GetLiege.Custom('ES_AlAla')] [ROOT.Char.GetLiege.GetTitledFirstName|l] que te conceda el [title|lE] de otro [vassal|lE] que [Concept( 'claimed', 'reclamas' )|E]"
  petition_liege_title_vassal_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_title_vassal_liege_tt:0 "#X La [crown_authority|lE] de tu [liege|lE] no permite la [revocation|lE] de [titles|lE]#!"
  petition_liege_title_vassal_claim_tt:0 "#X Ninguno de los [vassals|lE] de tu [liege|lE] posee ninguna de tus [Concept( 'claims', 'reclamaciones' )|E] o no quieren o pueden desprenderse del [title|lE]#!"
@@ -99,7 +99,7 @@
 
  # Construct City
  petition_liege_decision_option_construct_city:0 "Urbanizar condado\n#low Fundar una [holding|lE] [Concept( 'city', 'urbana' )|E]#!"
- petition_liege_construct_city_desc:0 "Pide a [ROOT.Char.GetLiege.GetTitledFirstName] que financie una [holding|lE] [Concept( 'city', 'urbana' )|E] en tus [counties|lE]"
+ petition_liege_construct_city_desc:0 "Pide a [ROOT.Char.GetLiege.GetTitledFirstName|l] que financie una [holding|lE] [Concept( 'city', 'urbana' )|E] en tus [counties|lE]"
  petition_liege_construct_city_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_construct_city_tt:0 "#X Ninguna de tus [holdings|lE] puede sostener una [holding|lE] [Concept( 'city', 'urbana' )|E]#!"
  petition_liege_construct_city_liege_tt:0 "#X Tu [liege|lE] no se puede permitir construir una [holding|lE]#!"
@@ -107,14 +107,14 @@
 
  # Construct Temple
  petition_liege_decision_option_construct_temple:0 "Financiar templo\n#low Financiar [holding|lE] [Concept( 'temple', 'consagrada' )|E]#!"
- petition_liege_construct_temple_desc:0 "Pide a [ROOT.Char.GetLiege.GetTitledFirstName] que financie una [holding|lE] [Concept( 'temple', 'consagrada' )|E] en tus [counties|lE]"
+ petition_liege_construct_temple_desc:0 "Pide a [ROOT.Char.GetLiege.GetTitledFirstName|l] que financie una [holding|lE] [Concept( 'temple', 'consagrada' )|E] en tus [counties|lE]"
  petition_liege_construct_temple_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_construct_temple_tt:0 "#X Ninguna de tus [holdings|lE] puede sostener una [holding|lE] [Concept( 'temple', 'consagrada' )|E]#!"
  petition_liege_decision_effects_construct_temple:0 "[THIS.Char.GetLiege.GetSheHe|U] puede financiar la construcción de una [holding|lE] [Concept( 'temple', 'consagrada' )|E] en tu [realm|lE]"
 
  # Development
  petition_liege_decision_option_development:0 "Reasentar súbditos\n#low Aumentar el [development|lE] de la [capital|lE]#!"
- petition_liege_development_desc:0 "Solicitar [ROOT.Char.GetLiege.Custom('ES_AlAla')] [ROOT.Char.GetLiege.GetTitledFirstName] que transfiera una fracción de la población de su [capital|lE] a la tuya"
+ petition_liege_development_desc:0 "Solicitar [ROOT.Char.GetLiege.Custom('ES_AlAla')] [ROOT.Char.GetLiege.GetTitledFirstName|l] que transfiera una fracción de la población de su [capital|lE] a la tuya"
  petition_liege_development_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_development_tt:0 "#X Tu [capital|lE] ya tiene más del 66 % de [development|lE] que la de tu [liege|lE]#!"
  petition_liege_decision_effects_development:0 "[THIS.Char.GetLiege.GetSheHe|U] puede transferir parte del [development|lE] de su [capital|lE] a la tuya"

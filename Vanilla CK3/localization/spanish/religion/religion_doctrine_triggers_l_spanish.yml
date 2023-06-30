@@ -25,8 +25,10 @@
  INCOMPATIBLE_TENET_SHARED_HOF_MONOGAMY_VS_POLYGAMY:0 "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$ poligamia"
  INCOMPATIBLE_TENET_SHARED_HOF_WORLD_VS_UNRESTRICTED_INCEST:0 "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$ incesto sin restricciones"
 
- DOCTRINE_PLURALISM_FUNDAMENTALIST:0 "Incompatible con la [doctrina|lE] fundamentalista"
- NOT_DOCTRINE_PLURALISM_FUNDAMENTALIST:0 "Requiere la [doctrina|lE] fundamentalista"
+ INCOMPATIBLE_TENET_ARMED_PILGRIMAGES_VS_FORBIDDEN_PILGRIMAGES:0 "Incompatible con la [doctrine|lE] $doctrine_pilgrimage_name|l$: [GetFaithDoctrine('doctrine_pilgrimage_forbidden').GetBaseName|l]"
+
+ DOCTRINE_PLURALISM_FUNDAMENTALIST:0 "Incompatible con la [doctrine|lE] fundamentalista"
+ NOT_DOCTRINE_PLURALISM_FUNDAMENTALIST:0 "Requiere la [doctrine|lE] fundamentalista"
  DOCTRINE_PLURALISM_PLURALISTIC:0 "Incompatible con la [doctrine|lE] pluralista"
  NOT_DOCTRINE_PLURALISM_PLURALISTIC:0 "Se requiere la [doctrine|lE] pluralista"
  DOCTRINE_UNRESTRICTED_CONSANGUINITY:0 "Incompatible con la [doctrine|lE] Matrimonio sin restricciones"
@@ -38,6 +40,7 @@
  DOCTRINE_REQUIRED_HEAD_OF_FAITH:0 "Necesita cualquier [doctrine|lE] de tipo [head_of_faith|E]"
  INCOMPATIBLE_WITH_ALL_CRIMINAL_DOCTRINES:0 "Incompatible con todas las [doctrines|lE] que consideren ciertas acciones [Concept( 'criminal', 'criminales' )|E]"
  ADULTERY_MUST_BE_FULLY_ACCEPTED:0 "Incompatible cualquier [doctrine|lE] que considere el adulterio [shunned|lE] o [criminal|lE]"
+ REQUIRES_EXALTATION:0 "Necesita el [core_tenet|lE] $tenet_carnal_exaltation_name|l$"
 
  HAS_DOCTRINE:0 "Tiene la doctrina [FAITH_DOCTRINE.GetName(FAITH.Self)]"
  NOT_HAS_DOCTRINE:0 "#bold No#! tiene la doctrina [FAITH_DOCTRINE.GetName(FAITH.Self)]"

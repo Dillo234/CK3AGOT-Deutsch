@@ -51,7 +51,7 @@
  hold_court.1041.desc:0 "«Мой сюзерен, [ROOT.Char.GetFaith.AltPriestTermPlural] считают, что [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] может стать еще более прекрасным местом, где [ROOT.Char.GetFaith.HighGodName] будет получать должное внимание и восхваление, а вера будет лишь крепнуть и приумножаться. Однако для этого нам необходимы собственные владения в державе».\n\n«[selected_title.GetName] — прекрасное место для воплощения моего предложения в жизнь. Более того, я считаю, что [chosen_candidate.GetTitledFirstName] отлично подходит на роль лидера нового института, ибо не понаслышке знает, что такое [ROOT.Char.GetFaith.ReligiousText], и [ROOT.Char.GetFaith.BishopNeuter] из н[chosen_candidate.GetHerHis] получится [Select_CString(chosen_candidate.IsFemale, 'превосходная', 'превосходный' )]»."
  hold_court.1041.a:0 "Да будет так. Славься, [ROOT.Char.GetFaith.HighGodName]."
  hold_court.1041.b:0 "Я думаю, внеочередной десятины будет достаточно?"
- hold_court.1041.c:0 "[ROOT.Char.GetFaith.DivineRealm|U] — владение [ROOT.Char.GetFaith.HighGodNamePossessive]. [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip|U], [ROOT.Char.GetFaith.HighGodNameSheHe] [ROOT.Char.GetFaith.HighGodNameIsFemale, 'доверила', 'доверил' )] власть только мне."
+ hold_court.1041.c:0 "[ROOT.Char.GetFaith.DivineRealm|U] — владение [ROOT.Char.GetFaith.HighGodNamePossessive]. [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip|U], где власть была доверена мне [Select_CString(ROOT.Char.IsFemale, 'одной', 'одному' )]."
 
  # Activity End
  hold_court.0021.t:0 "$hold_court_header$ завершение"

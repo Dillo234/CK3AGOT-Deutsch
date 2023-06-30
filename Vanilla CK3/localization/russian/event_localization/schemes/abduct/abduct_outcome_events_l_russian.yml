@@ -4,15 +4,15 @@
  do_not_execute_abduct_tooltip:0 "Похищения не будет"
 
  abduct_outcome.1001.t:0 "$abduct_event_title$ Нападение на большой дороге"
- abduct_outcome.1001.opening:0 "Соучастники сообщают, что [target.GetTitledFirstName] собирается в дорогу."
- abduct_outcome.1001.arrival:0 "[target.GetHerHis] путь лежит из провинции [departure.GetNameNoTierNoTooltip] в провинцию [arrival.GetNameNoTierNoTooltip]."
- abduct_outcome.1001.no_arrival:0 "[target.GetSheHe] хочет проехать по провинции [departure.GetNameNoTier]."
+ abduct_outcome.1001.opening:1 "Соучастники сообщают, что [target.GetTitledFirstName] сейчас в пути,"
+ abduct_outcome.1001.arrival:1 "пункт отправления — [departure.GetNameNoTooltip], пункт прибытия — [arrival.GetNameNoTooltip]."
+ abduct_outcome.1001.no_arrival:1 "путешествует по местности [departure.GetNameNoTooltip]."
  abduct_outcome.1001.ending:0 "\n\nНесколько разбойников согласились выполнить мое поручение: перехватить [target.GetHerHis] по пути и привезти сюда."
  abduct_outcome.1001.a:0 "Скоро [target.GetSheHe] будет в моей власти!"
  abduct_outcome.1001.b:0 "Нет, слишком опасно."
 
  abduct_outcome.1002.t:0 "$abduct_event_title$ Полным ходом"
- abduct_outcome.1002.desc:1 "Это мой шанс! [target.GetTitledFirstName] отправится из своей резиденции в соседний городок без единого стражника.\n\n[target.GetSheHe|U] должно быть полагает, что находится в безопасности..."
+ abduct_outcome.1002.desc:2 "Это мой шанс! [target.GetTitledFirstName] отправится из провинции [departure.GetNameNoTooltip] в провинцию [arrival.GetNameNoTooltip] без единого стражника.\n\n[target.GetSheHe|U], должно быть, полагает, что находится в безопасности..."
  abduct_outcome.1002.a:0 "Идеальный момент для нападения!"
 
  abduct_outcome.1003.t:0 "$abduct_event_title$ Нежеланные гости"

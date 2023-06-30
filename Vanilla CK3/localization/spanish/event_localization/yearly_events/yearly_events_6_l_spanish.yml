@@ -1,6 +1,6 @@
 ﻿l_spanish:
  yearly.9100.t:0 "Problemas en el jardín"
- yearly.9100.desc:0 "Cuando entro en los jardines, apenas tengo tiempo de dar un paso antes de oír a alguien gritando obscenidades. «#EMP ¡[gardener.Custom('CulturalCurse')|U]!#!».\n\nDoy la vuelta a un seto en busca del origen y descubro a mi jardiner[gardener.Custom('ES_OA')] [gardener.GetTitledFirstName] trabajando duro con cara de pocos amigos. [gardener.GetFirstName] ve que me acerco y se levanta rápidamente.\n\n«¡Oh! Perdonadme, mi [ROOT.Char.GetLadyLord|U]. No esperaba que hubiera nadie por aquí… Algún animal estúpido, puede que un/a [gardener.Custom('LocalAnimal')], ¡ha destrozado #EMP todo#! mi trabajo más reciente! ¡Planté estas hierbas justo anteayer!»."
+ yearly.9100.desc:0 "Cuando entro en los jardines, apenas tengo tiempo de dar un paso antes de oír a alguien gritando obscenidades. «#EMP ¡[gardener.Custom('CulturalCurse')|U]!#!».\n\nDoy la vuelta a un seto en busca del origen y descubro a mi jardiner[gardener.Custom('ES_OA')] [gardener.GetTitledFirstName] trabajando duro con cara de pocos amigos. [gardener.GetFirstName] ve que me acerco y se levanta rápidamente.\n\n«¡Oh! Perdonadme, mi [ROOT.Char.GetLadyLord]. No esperaba que hubiera nadie por aquí… Algún animal estúpido, puede que un/a [gardener.Custom('GetAnimalType')], ¡ha destrozado #EMP todo#! en lo que he trabajado recientemente! ¡Planté estas hierbas justo anteayer!»."
  yearly.9100.a:0 "¡Dejad que os ayude!"
  yearly.9100.b:0 "¡Aquí tenéis algo por todo el trabajo!"
  yearly.9100.c:0 "#EMP Sí#! que es una desgracia… ¡Pero no os detengas por mí!"
@@ -10,7 +10,7 @@
  yearly.9100.a.failure:0 "¡La jardinería es una pérdida de tiempo!"
  
  yearly.9110.t:0 "El ladrón de flores"
- yearly.9110.desc:1 "Mi jardiner[gardener.Custom('ES_OA')] [gardener.GetTitledFirstName] irrumpe en la sala del consejo y se acerca furiosamente a mi [romantic_councillor.GetCouncilTitle], [romantic_councillor.GetTitledFirstName].\n\n«¡¿Cómo #EMP te atreves#! a destrozar el jardín de [ROOT.Char.GetTitleTierName]?! ¡Y #EMP robar#! flores raras y preciosas, nada menos!».\n\nA [romantic_councillor.GetFirstNameNoTooltip] no le afecta el genio [gardener.Custom('ES_DelDela')] jardiner[gardener.Custom('ES_OA')]. «Creí que serían un regalo perfecto para mi [councillor_spouse.GetWifeHusband]. El romanticismo no es un crimen, ¿verdad?»."
+ yearly.9110.desc:1 "Mi jardiner[gardener.Custom('ES_OA')] [gardener.GetTitledFirstName|l] irrumpe en la sala del consejo y se acerca furiosamente a mi [romantic_councillor.GetCouncilTitle], [romantic_councillor.GetTitledFirstName|l].\n\n«¡¿Cómo #EMP te atreves#! a destrozar el jardín de [ROOT.Char.GetTitleTierName]?! ¡Y #EMP robar#! flores raras y preciosas, nada menos!».\n\nA [romantic_councillor.GetFirstNameNoTooltip] no le afecta el genio [gardener.Custom('ES_DelDela')] jardiner[gardener.Custom('ES_OA')]. «Creí que serían un regalo perfecto para mi [councillor_spouse.GetWifeHusband]. El romanticismo no es un crimen, ¿verdad?»."
  yearly.9110.a:0 "Pero destrozar mi jardín, sí. Pagarás los daños. Ahora."
  yearly.9110.b:0 "¡Has ido demasiado lejos, [gardener.GetFirstNameNoTooltip]!"
  yearly.9110.c:0 "Estas flores serán un regalo excelente… Para #EMP mi#! [spouse.GetWifeHusband]"

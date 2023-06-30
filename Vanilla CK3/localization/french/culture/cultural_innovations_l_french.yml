@@ -1,12 +1,12 @@
 ﻿l_french:
- cb_discount_prestige_10:0 "Coût en [prestige|El] du [casus_belli|El]: #P -10%#!"
- cb_discount_piety_10:0 "Coût en [piety|El] du [casus_belli|El]: #P -10%#!"
+ cb_discount_prestige_10:1 "Coût en [prestige|El] du [casus_belli|El] : #P -10%#![prestige_i]"
+ cb_discount_piety_10:1 "Coût en [piety|El] du [casus_belli|El] : #P -10%#![piety_i]"
  individual_county_de_jure_cb:0 "[county|E] [de_jure|El] individuel"
  individual_duchy_de_jure_cb:0 "[duchy|E] [de_jure|El] individuel"
  multiple_claim_wars:1 "Peut appuyer plusieurs de vos [claims|El] dans une seule guerre"
  multiple_claim_wars_others:0 "Peut appuyer plusieurs [claims|El] d’autres personnages dans une seule guerre"
- fabricate_claim_speed:0 "Vitesse de la [councillor_task|El] « Fabriquer une revendication comtale »: #P +50%#!"
- promote_culture_speed:0 "Vitesse de la [councillor_task|El] « Promouvoir la culture »: #P +15%#!"
+ fabricate_claim_speed:1 "Vitesse de la [councillor_task|El] #V $task_fabricate_claim$#!: #P +50%#!"
+ promote_culture_speed:1 "Vitesse de la [councillor_task|El] #V $task_promote_culture$#!: #P +15%#!"
  same_culture_group_reduced_factionalism:1 "Les [vassals|El] dont la [culture|El] a le même [heritage|El] que vous sont moins enclins à rejoindre une [independence_faction|El]"
  reduce_develop_county_penalty_01:0 "Les comtés atteignent maintenant la pénalité de [existing_development|El] maximal à 20 de [development|El]"
  reduce_develop_county_penalty_02:0 "Les comtés atteignent maintenant la pénalité de [existing_development|El] maximal à 35 de [development|El]"
@@ -56,6 +56,8 @@
 
  innovation_bannus:0 "Ban"
  innovation_bannus_desc:0 "Fondé sur le pouvoir de commander des hommes au combat, le ban donne à nos dirigeants le pouvoir de contraindre des hommes libres à se battre pour eux, constituant ainsi une base légale pour la formation de grandes armées."
+ eligible_accolade_vanguard_attribute_ACCOLADES_DLC:0 "Les [knights|El] de cette [culture|El] deviennent éligibles aux [accolades|El] [GetAccoladeType('vanguard_attribute').GetName]"
+ eligible_accolade_vanguard_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_vanguard_attribute_ACCOLADES_DLC')]"
 
  innovation_quilted_armor:0 "Gambison"
  innovation_quilted_armor_desc:0 "Formées d’une douzaine de couches de lin cousues ensemble, ces vestes peuvent arrêter même des flèches et constituent un moyen abordable pour nous de protéger un régiment entier pour la bataille."
@@ -94,9 +96,13 @@
 
  innovation_war_camels:0 "Chameliers de combat"
  innovation_war_camels_desc:0 "Les chameaux sont naturellement aptes à vivre en terrain désertique, mais ils ne sont pas en soi des créatures de combat. Nos éleveurs et entraîneurs peuvent changer cela en nous donnant accès à une cavalerie adaptative qui nous permettra de maîtriser le sable."
+ eligible_accolade_camelry_attribute_ACCOLADES_DLC:0 "Les [knights|El] de cette [culture|El] deviennent éligibles aux [accolades|El] [GetAccoladeType('camelry_attribute').GetName]"
+ eligible_accolade_camelry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_camelry_attribute_ACCOLADES_DLC')]"
 
  innovation_elephantry:0 "Éléphant de guerre"
  innovation_elephantry_desc:0 "Les éléphants étant difficiles à élever en captivité, chaque cornac doit capturer ses propres éléphants sauvages et les entraîner. Cela signifie qu’il existe un art délicat d’utiliser correctement ces grandes créatures au combat et c’est un art que nous nous efforçons à maîtriser."
+ eligible_accolade_elephantry_attribute_ACCOLADES_DLC:0 "Les [knights|El] de cette [culture|El] deviennent éligibles aux [accolades|El] [GetAccoladeType('elephantry_attribute').GetName]"
+ eligible_accolade_elephantry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_elephantry_attribute_ACCOLADES_DLC')]"
  
  innovation_wootz_steel:0 "Acier wootz"
  innovation_wootz_steel_desc:0 "Ce métal riche en carbone est excellent pour la fabrication d’armes. L’acier wootz est largement commercialisé et considéré comme le meilleur acier au monde. Il a attiré l’attention des commerçants arabes, égyptiens, chinois et même romains."
@@ -125,6 +131,8 @@
 
  innovation_mangonel:0 "Mangonneaux"
  innovation_mangonel_desc:0 "Amélioration significative des modèles de catapulte existants, les mangonneaux à traction sont beaucoup plus rapides à charger et à tirer que les engins à torsion."
+ eligible_accolade_besieger_attribute_ACCOLADES_DLC:0 "Les [knights|El] de cette [culture|El] deviennent éligibles aux [accolades|El] [GetAccoladeType('besieger_attribute').GetName]"
+ eligible_accolade_besieger_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_besieger_attribute_ACCOLADES_DLC')]"
 
  innovation_burhs:0 "Bourgs fortifiés"
  innovation_burhs_desc:0 "Des bourgs fortifiés disséminés à travers la campagne peuvent nous servir à la fois pour rassembler des troupes et comme centres administratifs."
@@ -137,6 +145,8 @@
 
  innovation_arched_saddle:0 "Selle arquée"
  innovation_arched_saddle_desc:0 "La cavalerie légère est une force avec laquelle il faut compter, mais elle n’exploite pas vraiment le potentiel du cheval de bataille. Les selles arquées nous permettent de mettre en place des guerriers à armure lourdes avec des lances couchées, ce qui leur permet de tirer pleinement parti de leur élan alors qu’ils chargent les lignes ennemies."
+ eligible_accolade_lancer_attribute_ACCOLADES_DLC:0 "Les [knights|El] de cette [culture|El] deviennent éligibles aux [accolades|El] [GetAccoladeType('lancer_attribute').GetName]"
+ eligible_accolade_lancer_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_lancer_attribute_ACCOLADES_DLC')]"
 
  #Civic
  innovation_hereditary_rule:0 "Lois héréditaires"
@@ -165,7 +175,7 @@
 
  #Regional
 
- innovation_reconquista:0 "Expansionnisme spirituel" # [LocEditor:AwaitingBatchUpdate]
+ innovation_reconquista:1 "Expansionnisme spirituel"
  innovation_reconquista_desc:0 "Distraits par des luttes intestines, nous avons trop longtemps toléré la présence d’infidèles en Hispanie. Le temps est venu pour nous de rassembler nos forces pour les chasser de ce pays une fois pour toutes !"
 
  innovation_stem_duchies:0 "Stammesherzogtum"
@@ -196,6 +206,8 @@
 
  innovation_advanced_bowmaking:0 "Fabrication d’arc avancée"
  innovation_advanced_bowmaking_desc:0 "Alors que les archers fabriquaient et entretenaient traditionnellement leurs propres arcs, les artisans ont commencé à créer de nouveaux types d’arc, plus solides et plus complexes qu’auparavant. En adoptant ces nouvelles conceptions, nous pouvons transformer ces maîtres archers en un atout militaire inestimable."
+ eligible_accolade_crossbower_attribute_ACCOLADES_DLC:0 "Les [knights|El] de cette [culture|El] deviennent éligibles aux [accolades|El] [GetAccoladeType('crossbowmen_attribute').GetName]"
+ eligible_accolade_crossbower_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_crossbower_attribute_ACCOLADES_DLC')]"
 
  #Civic
 
@@ -269,7 +281,7 @@
  innovation_cranes_desc:0 "Les engins de levage à roue motrice sont une merveille oubliée de l’ingénierie utilisée par les Romains avec un grand succès. Nous les emploierons donc aussi."
 
  innovation_noblesse_oblige:0 "Noblesse oblige"
- innovation_noblesse_oblige_desc:0 "La noblesse est plus que des privilèges et des droits ; c’est aussi avec un devoir envers le pays, une obligation d’agir de manière juste et appropriée. En établissant clairement ce que l’on attend de notre élite, nous aurons un idéal auquel aspirer."
+ innovation_noblesse_oblige_desc:0 "La noblesse est plus que des privilèges et des droits ; c’est aussi avec un devoir envers le pays, une obligation d’agir de manière juste et appropriée. En établissant clairement ce que l’on attend de notre élite, nous aurons un idéal auquel aspirer."
 
  innovation_rightful_ownership:0 "Droit de propriété"
  innovation_rightful_ownership_desc:0 "C’est notre droit divin de posséder nos terres de jure et il est temps que le monde le reconnaisse. Nous ne serons plus retenus par des protocoles obsolètes et un décorum."
@@ -297,4 +309,4 @@
  innovation_deccan_unity:0 "Unité du deccan"
  innovation_deccan_unity_desc:0 "L’afflux de nouvelles croyances et religions dans notre société a clairement montré que notre focalisation passée sur le régionalisme était une erreur. Nous devrions nous unir aux autres croyants et assurer un État fort et durable capable de résister aux pressions extérieures."
 
- students_of_knighthood:0 "Les enfants qui terminent leur éducation avec un [education_focus|El] en [martial|El] obtient un [trait|El] $trait_education_martial_prowess$."
+ students_of_knighthood:1 "Les enfants qui terminent leur [education|El] avec un [education_focus|El] en [martial|El] obtiennent un [trait|El] $trait_education_martial_prowess$"

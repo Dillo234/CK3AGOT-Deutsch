@@ -6,18 +6,18 @@
 
  culture_parameter_knights_die_less_but_are_captured_more:0 "Les [knights|El] dans la [battle|El] meurent moins mais sont capturés plus souvent"
  culture_parameter_characters_more_likely_to_be_captured_in_sieges:0 "Les [characters|El] avec un [liege|El] de cette [culture|El] sont plus susceptibles d’être capturés lors de [sieges|El]"
- culture_parameter_can_demand_higher_ransoms_from_lower_tiers:0 "Peut exiger des rançons plus élevées pour des [rulers|El] de moindre [rank|El] "
+ culture_parameter_can_demand_higher_ransoms_from_lower_tiers:0 "Peut exiger des rançons plus élevées pour des [rulers|El] de moindre [rank|El]"
 
  ##################################################
  # Castilian Specific
  tradition_fp2_strategy_gamers_name:1 "Guerriers de jeux de société"
  tradition_fp2_strategy_gamers_desc:0 "Tout commandant peut espérer avoir de la chance le jour de la bataille, mais un vrai stratège garde son esprit affûté par la pratique et la ruse, de sorte qu’il n’a pas besoin de chance."
 
- culture_parameter_commanders_likelier_to_gain_commander_traits:0 "Les [commanders|El] sont plus susceptibles d’obtenir des [commander_traits|El]" # [LocEditor:AwaitingBatchUpdate]
+ culture_parameter_commanders_likelier_to_gain_commander_traits:1 "Les [commanders|El] sont plus susceptibles d’obtenir des [commander_traits|El]"
  culture_parameter_may_challenge_to_board_games:0 "Peut toujours défier les autres [characters|El] aux [board_games|El]"
  culture_parameter_may_wager_land_on_board_games:0 "Peut parier un [county|El] détenu personnellement aux [board_games|El], si les deux joueurs le peuvent"
  
- challenge_to_2p_chess_interaction:2 "Défier au jeu de société"
+ challenge_to_2p_chess_interaction:2 "Défier au jeu de plateau"
  challenge_to_2p_chess_interaction_desc:2 "Jouer avec [recipient.Custom('FR_le_Char')][recipient.GetName] à un [board_game|El]"
  CHALLENGE_TO_2P_CHESS_INTERACTION_NOTIFICATION:2 "Salutations ch[actor.Custom('FR_ErEre')] [actor.Custom2('RelationToMeShort', recipient)] ! Voudriez-vous faire une partie de [actor.Custom('BG_GameType_Concept_Dark')] passionnante ?"
  CHESS_FRIENDLY:1 "partie amicale"
@@ -31,7 +31,7 @@
  perk_interaction.0122.loser_toast.t:1 "Vous perdez la partie !"
  fp2_bg_interaction.winner.actor:1 "Si [Select_CString( actor.IsLocalPlayer, 'vous gagnez', 'votre adversaire gagne' )] le pari"
  fp2_bg_interaction.winner.recipient:1 "Si [Select_CString( recipient.IsLocalPlayer, 'vous gagnez', 'votre adversaire gagne' )] le pari"
- fp2_bg_recipient_banned_from_board_games:1 "Le [character|El] ne peut pas jouer à un jeu de société actuellement"
+ fp2_bg_recipient_banned_from_board_games:1 "Le [character|El] ne peut pas jouer à un jeu de plateau actuellement"
  challenge_to_2p_chess_interaction.need_bordering_non_capital_domains.tt:1 "Vous et votre adversaire devez avoir des [domains|El] limitrophes qui ne sont pas vos [realm_capitals|El]"
  bet_gold_actor_not_enough_gold:0 "Vous n’avez pas assez d’[gold|El]"
  bet_gold_recipient_not_enough_gold:0 "Votre adversaire n’a pas assez d’[gold|El]"

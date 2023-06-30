@@ -1,0 +1,110 @@
+﻿l_german:
+ encountered_delicious_ducklings_memory:0 "fand köstliche Entenküken"
+ encountered_delicious_ducklings_memory_desc:0 "Ich bin in [ROOT.Var('duck_location').GetProvince.GetName] einer Entenkükenschar begegnet, die ich gekocht und verspeist habe"
+ encountered_delicious_ducklings_memory_desc_second_perspective:0 "Ihr seid in [ROOT.Var('duck_location').GetProvince.GetName] einer Entenkükenschar begegnet, die Ihr gekocht und verspeist habt"
+ encountered_delicious_ducklings_memory_desc_third_perspective:0 "[ROOT.GetName] ist in [ROOT.Var('duck_location').GetProvince.GetName] einer Entenkükenschar begegnet, die [owner.Custom('DE_PRO_PER_S_3P_N')] gekocht und verspeist hat"
+
+ encountered_fluffy_ducklings_memory:0 "begegnete flauschigen Entenküken"
+ encountered_fluffy_ducklings_memory_desc:0 "Ich begegnete unzähligen flauschigen Entenküken, als ich die Wildnis von [ROOT.Var('duck_location').GetProvince.GetName] erkundete"
+ encountered_fluffy_ducklings_memory_desc_second_perspective:0 "Ihr begegnetet unzähligen flauschigen Entenküken, als Ihr die Wildnis von [ROOT.Var('duck_location').GetProvince.GetName] erkundetet"
+ encountered_fluffy_ducklings_memory_desc_third_perspective:0 "[owner.GetName] begegnete unzähligen flauschigen Entenküken, als [owner.Custom('DE_PRO_PER_S_3P_N')] die Wildnis von [ROOT.Var('duck_location').GetProvince.GetName] erkundete"
+
+ attacked_by_wild_beast_memory:0 "wurde von einer wilden Bestie angegriffen"
+ attacked_by_wild_beast_memory_desc:0 "Ich wurde erbarmungslos von einer wilden Bestie angegriffen, als ich einer Ente in die Wildnis von [ROOT.Var('duck_location').GetProvince.GetName] folgte"
+ attacked_by_wild_beast_memory_desc_second_perspective:0 "Ihr wurdet erbarmungslos von einer wilden Bestie angegriffen, als Ihr einer Ente in die Wildnis von [ROOT.Var('duck_location').GetProvince.GetName] folgtet"
+ attacked_by_wild_beast_memory_desc_third_perspective:0 "[owner.GetName] wurde erbarmungslos von einer wilden Bestie angegriffen, als [owner.Custom('DE_PRO_PER_S_3P_N')] einer Ente in die Wildnis von [ROOT.Var('duck_location').GetProvince.GetName] folgte"
+
+ fooled_by_duck_memory:0 "wurde von einer Ente hereingelegt"
+ fooled_by_duck_memory_desc:0 "Ich hatte einen peinlichen Moment mit einer Ente, der ich in der Wildnis von [ROOT.Var('duck_location').GetProvince.GetName] gefolgt bin"
+ fooled_by_duck_memory_desc_second_perspective:0 "Ihr hattet einen peinlichen Moment mit einer Ente, der Ihr in der Wildnis von [ROOT.Var('duck_location').GetProvince.GetName] gefolgt seid"
+ fooled_by_duck_memory_desc_third_perspective:0 "[owner.GetName] hatte einen peinlichen Moment mit einer Ente, der [owner.Custom('DE_PRO_PER_S_3P_N')] in der Wildnis von [ROOT.Var('duck_location').GetProvince.GetName] gefolgt ist"
+
+ almost_crushed_by_elephant_rival_memory:0 "wurde fast von einem Elefanten zerquetscht"
+ almost_crushed_by_elephant_rival_memory_desc:0 "Mein[rival.Custom('DE_END_PRO_S_N')] [Select_CString(rival.IsFemale, 'Rivalin', 'Rivale')] [rival.GetTitledFirstName] hätte mich fast von einem Elefanten aus den Elefantenstallungen bei [ROOT.Var('elephant_location').GetProvince.GetName] zerquetschen lassen"
+ almost_crushed_by_elephant_rival_memory_desc_second_perspective:0 "[rival.Custom('DE_PRO_POS_P_2P_N')|U] [Select_CString(rival.IsFemale, 'Rivalin', 'Rivale')] [rival.GetTitledFirstName] hätte Euch fast von einem Elefanten aus den Elefantenstallungen bei [ROOT.Var('elephant_location').GetProvince.GetName] zerquetschen lassen"
+ almost_crushed_by_elephant_rival_memory_desc_third_perspective:0 "[Select_CString(rival.IsFemale, 'Die Rivalin', 'Der Rivale')] von [owner.GetName] – [rival.GetTitledFirstName] – hätte [owner.Custom('DE_PRO_PER_S_3P_A')] fast von einem Elefanten aus den Elefantenstallungen bei [ROOT.Var('elephant_location').GetProvince.GetName] zerquetschen lassen"
+
+ almost_crushed_by_elephant_nemesis_memory:0 "wurde fast von einem Elefanten zerquetscht"
+ almost_crushed_by_elephant_nemesis_memory_desc:0 "[Select_CString(nemesis.IsFemale, 'Meine Erzfeindin', 'Mein Erzfeind')] [nemesis.GetTitledFirstName] hätte mich fast von einem Elefanten aus den Elefantenstallungen bei [ROOT.Var('elephant_location').GetProvince.GetName] zerquetschen lassen"
+ almost_crushed_by_elephant_nemesis_memory_desc_second_perspective:0 "[Select_CString(nemesis.IsFemale, 'Eure Erzfeindin', 'Euer Erzfeind')] [nemesis.GetTitledFirstName] hätte Euch fast von einem Elefanten aus den Elefantenstallungen bei [ROOT.Var('elephant_location').GetProvince.GetName] zerquetschen lassen"
+ almost_crushed_by_elephant_nemesis_memory_desc_third_perspective:0 "[Select_CString(rival.IsFemale, 'Die Erzfeinding', 'Der Erzfeind')|U] von [owner.GetName] – [nemesis.GetTitledFirstName] – hätte [owner.Custom('DE_PRO_PER_S_3P_A')] fast von einem Elefanten aus den Elefantenstallungen bei [ROOT.Var('elephant_location').GetProvince.GetName] zerquetschen lassen"
+
+ was_hero_in_the_fire_memory:0 "handelte im Angesicht eines Feuers heldenhaft"
+ was_hero_in_the_fire_memory_desc:0 "Ich rettete unzählige Leben bei dem Feuer in den Plantagen von [ROOT.Var('fire_location').GetProvince.GetName]"
+ was_hero_in_the_fire_memory_desc_second_perspective:0 "Ihr rettetet unzählige Leben bei dem Feuer in den Plantagen von [ROOT.Var('fire_location').GetProvince.GetName]"
+ was_hero_in_the_fire_memory_desc_third_perspective:0 "[owner.GetName] rettete unzählige Leben bei dem Feuer in den Plantagen von [ROOT.Var('fire_location').GetProvince.GetName]"
+
+ was_disfigured_in_the_fire_memory:0 "handelte im Angesicht eines Feuers heldenhaft, wurde dabei jedoch entstellt"
+ was_disfigured_in_the_fire_memory_desc:0 "Ich rettete unzählige Leben bei dem Feuer in den Plantagen von [ROOT.Var('fire_location').GetProvince.GetName], erlitt dabei jedoch schwere Verbrennungen und wurde entstellt"
+ was_disfigured_in_the_fire_memory_desc_second_perspective:0 "Ihr rettetet unzählige Leben bei dem Feuer in den Plantagen von [ROOT.Var('fire_location').GetProvince.GetName], erlittet dabei jedoch schwere Verbrennungen und wurdet entstellt"
+ was_disfigured_in_the_fire_memory_desc_third_perspective:0 "[owner.GetName] rettete unzählige Leben bei dem Feuer in den Plantagen von [ROOT.Var('fire_location').GetProvince.GetName], erlitt dabei jedoch schwere Verbrennungen und wurde entstellt"
+
+ was_wounded_in_the_fire_memory:0 "wurde durch ein Feuer verletzt"
+ was_wounded_in_the_fire_memory_desc:0 "Ich erlitt schwere Verbrennungen, als ich versuchte, bei dem Feuer in den Plantagen von [ROOT.Var('fire_location').GetProvince.GetName] Leben zu retten"
+ was_wounded_in_the_fire_memory_desc_second_perspective:0 "Ihr erlittet schwere Verbrennungen, als Ihr versuchtet, bei dem Feuer in den Plantagen von [ROOT.Var('fire_location').GetProvince.GetName] Leben zu retten"
+ was_wounded_in_the_fire_memory_desc_third_perspective:0 "[owner.GetName] erlitt schwere Verbrennungen, als [owner.Custom('DE_PRO_PER_S_3P_N')] versuchte, bei dem Feuer in den Plantagen von [ROOT.Var('fire_location').GetProvince.GetName] Leben zu retten"
+
+ saved_someone_from_a_bull_memory:0 "rettete [victim.GetName] vor einem wütenden Bullen"
+ saved_someone_from_a_bull_memory_desc:0 "Ich rettete [victim.GetName] heldenhaft vor einem wilden Bullen, indem ich meinen Verstand und mein Kampfgeschick in den Hügeln von [ROOT.Var('bull_location').GetProvince.GetName] unter Beweis stellte"
+ saved_someone_from_a_bull_memory_desc_second_perspective:0 "Ihr rettetet [victim.GetName] heldenhaft vor einem wilden Bullen, indem Ihr Euren Verstand und Euer Kampfgeschick in den Hügeln von [ROOT.Var('bull_location').GetProvince.GetName] unter Beweis stelltet"
+ saved_someone_from_a_bull_memory_desc_third_perspective:0 "[owner.GetName] rettete [victim.GetName] heldenhaft vor einem wilden Bullen, indem [owner.Custom('DE_PRO_PER_S_3P_N')] [owner.Custom('DE_PRO_POS_S_3P')]en Verstand und [owner.Custom('DE_PRO_POS_S_3P')] Kampfgeschick in den Hügeln von [ROOT.Var('bull_location').GetProvince.GetName] unter Beweis stellte"
+ 
+ haunted_manor_survived_assassination_attempt_memory:0 "überlebte einen Attentatsversuch in einem „Spukhaus“"
+ haunted_manor_survived_assassination_attempt_memory_desc:0 "Ich überlebte einen hinterhältigen Anschlag auf mein Leben und überlistete den Attentäter im „Spukhaus“ in den Gutshöfen in [ROOT.Var('manor_location').GetProvince.GetName]"
+ haunted_manor_survived_assassination_attempt_memory_desc_second_perspective:0 "Ihr überlebtet einen hinterhältigen Anschlag auf Euer Leben und überlistetet den Attentäter im „Spukhaus“ in den Gutshöfen in [ROOT.Var('manor_location').GetProvince.GetName]"
+ haunted_manor_survived_assassination_attempt_memory_desc_third_perspective:0 "[owner.GetName] überlebte einen hinterhältigen Anschlag auf [owner.Custom('DE_PRO_POS_S_3P')] Leben und überlistete den Attentäter im „Spukhaus“ in den Gutshöfen in [ROOT.Var('manor_location').GetProvince.GetName]"
+
+ friend_ignored_assassination_memory:0 "[friend.GetName] ignorierte den Attentatsversuch auf mein Leben"
+ friend_ignored_assassination_memory_desc:0 "[friend.GetName] verriet mich, indem [friend.Custom('DE_PRO_PER_S_3P_N')] das Attentat auf mein Leben in [ROOT.Var('assassination_location').GetProvince.GetName] ignorierte"
+ friend_ignored_assassination_memory_desc_second_perspective:0 "[friend.GetName] verriet Euch, indem [friend.Custom('DE_PRO_PER_S_3P_N')] das Attentat auf Euer Leben in [ROOT.Var('assassination_location').GetProvince.GetName] ignorierte"
+ friend_ignored_assassination_memory_desc_third_perspective:0 "[friend.GetName] verriet [owner.GetName], indem [friend.Custom('DE_PRO_PER_S_3P_N')] das Attentat auf [owner.Custom('DE_PRO_POS_S_3P')] Leben in [ROOT.Var('assassination_location').GetProvince.GetName] ignorierte"
+
+ rival_ignored_assassination_memory:0 "[rival.GetName] ignorierte den Attentatsversuch auf mein Leben"
+ rival_ignored_assassination_memory_desc:0 "Mein[rival.Custom('DE_END_PRO_S_N')] [rival.Custom('InsultAdjectiveGeneric')|l][rival.Custom('DE_END_ADJ_IND_S_N')] [Select_CString(rival.IsFemale, 'Rivalin', 'Rivale')] [rival.GetName] ignorierte den Attentatsversuch auf mich in der Wildnis von [ROOT.Var('assassination_location').GetProvince.GetName]"
+ rival_ignored_assassination_memory_desc_second_perspective:0 "[rival.Custom('DE_PRO_POS_P_2P_N')|U] [rival.Custom('InsultAdjectiveGeneric')|l][rival.Custom('DE_END_ADJ_IND_S_N')] [Select_CString(rival.IsFemale, 'Rivalin', 'Rivale')] [rival.GetName] ignorierte den Attentatsversuch auf Euch in der Wildnis von [ROOT.Var('assassination_location').GetProvince.GetName]"
+ rival_ignored_assassination_memory_desc_third_perspective:0 "[rival.Custom('DE_ART_DEF_S_N')|U] [rival.Custom('InsultAdjectiveGeneric')|l]e [Select_CString(rival.IsFemale, 'Rivalin', 'Rivale')] von [owner.GetName] – [rival.GetName] – ignorierte den Attentatsversuch auf [owner.Custom('DE_PRO_PER_S_3P_A')] in der Wildnis von [ROOT.Var('assassination_location').GetProvince.GetName]"
+
+ nemesis_ignored_assassination_memory:0 "[nemesis.GetName] ignorierte den Attentatsversuch auf mein Leben"
+ nemesis_ignored_assassination_memory_desc:0 "Mein[nemesis.Custom('DE_END_PRO_S_N')] [nemesis.Custom('InsultAdjectiveGeneric')|l][nemesis.Custom('DE_END_ADJ_IND_S_N')] [Select_CString(nemesis.IsFemale, 'Erzfeindin', 'Erzfeind')] [nemesis.GetName] ignorierte den Attentatsversuch auf mich in der Wildnis von [ROOT.Var('assassination_location').GetProvince.GetName]"
+ nemesis_ignored_assassination_memory_desc_second_perspective:0 "[nemesis.Custom('DE_PRO_POS_P_2P_N')|U] [nemesis.Custom('InsultAdjectiveGeneric')|l][nemesis.Custom('DE_END_ADJ_IND_S_N')] [Select_CString(nemesis.IsFemale, 'Erzfeindin', 'Erzfeind')] [nemesis.GetName] ignorierte den Attentatsversuch auf Euch in der Wildnis von [ROOT.Var('assassination_location').GetProvince.GetName]"
+ nemesis_ignored_assassination_memory_desc_third_perspective:0 "[nemesis.Custom('DE_ART_DEF_S_N')|U] [nemesis.Custom('InsultAdjectiveGeneric')|l]e [Select_CString(nemesis.IsFemale, 'Erzfeindin', 'Erzfeind')] von [owner.GetName] – [nemesis.GetName] – ignorierte den Attentatsversuch auf [owner.Custom('DE_PRO_PER_S_3P_A')] in der Wildnis von [ROOT.Var('assassination_location').GetProvince.GetName]"
+
+ stood_idly_by_assassination_memory:0 "[bystander.GetName] ignorierte den Attentatsversuch auf mein Leben"
+ stood_idly_by_assassination_memory_desc:0 "[bystander.GetName] stand nur untätig da, als ich ein Attentat auf mein Leben in [ROOT.Var('assassination_location').GetProvince.GetName] abwehrte"
+ stood_idly_by_assassination_memory_desc_second_perspective:0 "[bystander.GetName] stand nur untätig da, als Ihr ein Attentat auf Euer Leben in [ROOT.Var('assassination_location').GetProvince.GetName] abwehrtet"
+ stood_idly_by_assassination_memory_desc_third_perspective:0 "[bystander.GetName] stand nur untätig da, als [owner.GetName] ein Attentat auf [owner.Custom('DE_PRO_POS_S_3P')] Leben in [ROOT.Var('assassination_location').GetProvince.GetName] abwehrte"
+
+ saved_from_assassination_memory:0 "[rescuer.GetName] rettete mich vor einem versuchten Attentat auf mein Leben"
+ saved_from_assassination_memory_desc:0 "[rescuer.GetName] rettete mein Leben vor einem niederträchtigen Attentat auf mich in [ROOT.Var('assassination_location').GetProvince.GetName]"
+ saved_from_assassination_memory_desc_second_perspective:0 "[rescuer.GetName] rettete Euer Leben vor einem niederträchtigen Attentat auf Euch in [ROOT.Var('assassination_location').GetProvince.GetName]"
+ saved_from_assassination_memory_desc_third_perspective:0 "[rescuer.GetName] rettete das Leben von [owner.GetName] vor einem niederträchtigen Attentat auf [owner.Custom('DE_PRO_PER_S_3P_A')] in [ROOT.Var('assassination_location').GetProvince.GetName]"
+
+ ignored_assault_memory:0 "[bystander.GetName] ignorierte einen Angriff auf mein Reisegefolge"
+ ignored_assault_memory_desc:0 "[bystander.GetName] rührte keinen Finger, als mein Reisegefolge und ich außerhalb [bystander.Custom('DE_PRO_PER_S_3P_G')] Besitztümer in [ROOT.Var('attack_location').GetProvince.GetName] angegriffen wurden"
+ ignored_assault_memory_desc_second_perspective:0 "[bystander.GetName] rührte keinen Finger, als Euer Reisegefolge und Ihr außerhalb [bystander.Custom('DE_PRO_PER_S_3P_G')] Besitztümer in [ROOT.Var('attack_location').GetProvince.GetName] angegriffen wurdet"
+ ignored_assault_memory_desc_third_perspective:0 "[bystander.GetName] rührte keinen Finger, als [owner.GetName] und [owner.Custom('DE_PRO_POS_S_3P')] Reisegefolge außerhalb [bystander.Custom('DE_PRO_PER_S_3P_G')] Besitztümer in [ROOT.Var('attack_location').GetProvince.GetName] angegriffen wurden"
+
+ knight_sacrificed_memory:0 "Der heldenhafte Tod von [knight.GetName]"
+ knight_sacrificed_memory_desc:0 "[knight.GetName] rettete mein Reisegefolge und mich auf heldenhafte Weise, als [knight.Custom('DE_PRO_PER_S_3P_N')] zurückblieb, um eine Gruppe Räuber außerhalb von [ROOT.Var('sacrifice_location').GetProvince.GetName] aufzuhalten"
+ knight_sacrificed_memory_desc_second_perspective:0 "[knight.GetName] rettete Euer Reisegefolge und Euch auf heldenhafte Weise, als [knight.Custom('DE_PRO_PER_S_3P_N')] zurückblieb, um eine Gruppe Räuber außerhalb von [ROOT.Var('sacrifice_location').GetProvince.GetName] aufzuhalten"
+ knight_sacrificed_memory_desc_third_perspective:0 "[knight.GetName] hat [owner.GetName] und [owner.Custom('DE_PRO_POS_S_3P')] Reisegefolge auf heldenhafte Weise gerettet, als [knight.Custom('DE_PRO_PER_S_3P_N')] zurückblieb, um eine Gruppe Räuber außerhalb von [ROOT.Var('sacrifice_location').GetProvince.GetName] aufzuhalten"
+
+ saved_from_assault_memory:0 "[rescuer.GetName] rettete mein Reisegefolge"
+ saved_from_assault_memory_desc:0 "[rescuer.GetName] kam uns zu Hilfe, als mein Reisegefolge und ich außerhalb [rescuer.Custom('DE_PRO_POS_S_3P')]er Besitztümer bei [ROOT.Var('attack_location').GetProvince.GetName] angegriffen wurden"
+ saved_from_assault_memory_desc_second_perspective:0 "[rescuer.GetName] kam Euch zu Hilfe, als Euer Reisegefolge und Ihr außerhalb [rescuer.Custom('DE_PRO_POS_S_3P')]er Besitztümer bei [ROOT.Var('attack_location').GetProvince.GetName] angegriffen wurden"
+ saved_from_assault_memory_desc_third_perspective:0 "[rescuer.GetName] kam [owner.GetName] zu Hilfe, als [owner.Custom('DE_PRO_PER_S_3P_N')] und [owner.Custom('DE_PRO_POS_S_3P')] Reisegefolge außerhalb [rescuer.Custom('DE_PRO_POS_S_3P')]er Besitztümer bei [ROOT.Var('attack_location').GetProvince.GetName] angegriffen wurden"
+
+ forgave_and_released_prisoner_memory:0 "vergab mein[prisoner.Custom('DE_END_PRO_S_D')] Gefangenen [prisoner.GetName] und ließ [prisoner.Custom('DE_PRO_PER_S_3P_A')] frei"
+ forgave_and_released_prisoner_memory_desc:0 "Ich vergab mein[prisoner.Custom('DE_END_PRO_S_D')] Gefangenen [prisoner.GetName] und ließ [prisoner.Custom('DE_PRO_PER_S_3P_A')] frei, obwohl [prisoner.Custom('DE_PRO_PER_S_3P_N')] versucht hatte, sich an mir zu rächen, nachdem [prisoner.Custom('DE_PRO_PER_S_3P_N')] meine gescheiterte Menschenjagd auf [prisoner.Custom('DE_PRO_PER_S_3P_A')] überlebt hatte"
+ forgave_and_released_prisoner_memory_desc_second_perspective:0 "Ihr vergabt [prisoner.Custom('DE_PRO_POS_P_2P')][prisoner.Custom('DE_END_PRO_S_D')] Gefangenen [prisoner.GetName] und ließt [prisoner.Custom('DE_PRO_PER_S_3P_A')] frei, obwohl [prisoner.Custom('DE_PRO_PER_S_3P_N')] versucht hatte, sich an Euch zu rächen, nachdem [prisoner.Custom('DE_PRO_PER_S_3P_N')] Eure gescheiterte Menschenjagd auf [prisoner.Custom('DE_PRO_PER_S_3P_A')] überlebt hatte"
+ forgave_and_released_prisoner_memory_desc_third_perspective:0 "[owner.GetName] vergab [owner.Custom('DE_PRO_POS_S_3P')][prisoner.Custom('DE_END_PRO_S_D')] Gefangenen [prisoner.GetName] und ließ [prisoner.Custom('DE_PRO_PER_S_3P_A')] frei, obwohl [prisoner.Custom('DE_PRO_PER_S_3P_N')] versucht hatte, sich an [owner.Custom('DE_PRO_PER_S_3P_D')] zu rächen, nachdem [prisoner.Custom('DE_PRO_PER_S_3P_N')] [owner.Custom('DE_PRO_POS_S_3P')]e gescheiterte Menschenjagd auf [prisoner.Custom('DE_PRO_PER_S_3P_A')] überlebt hatte"
+
+ sacrificed_my_cat_memory:0 "opferte meine Katze für meinen Lehnsherrn"
+ sacrificed_my_cat_memory_desc:0 "Ich opferte meine geliebte Katze [owner.Custom('CatStoryName')] [Select_CString(liege.IsFemale, 'für meine katzenhassende Lehnsherrin', 'für meinen katzenhassenden Lehnsherrn')] [liege.GetName], um das Leben aller anderen Katzen in meinen Besitztümern zu retten"
+ sacrificed_my_cat_memory_desc_second_perspective:0 "Ihr opfertet das Leben Eurer geliebten Katze [owner.Custom('CatStoryName')] [Select_CString(liege.IsFemale, 'für Eure katzenhassende Lehnsherrin', 'für Euren katzenhassenden Lehnsherrn')] [liege.GetName], um das Leben aller anderen Katzen in Euren Besitztümern zu retten"
+ sacrificed_my_cat_memory_desc_third_perspective:0 "[owner.GetName] opferte das Leben [owner.Custom('DE_PRO_POS_S_3P')]er geliebten Katze [owner.Custom('CatStoryName')] für [owner.Custom('DE_PRO_POS_S_3P')][Select_CString(liege.IsFemale, 'e katzenhassende Lehnsherrin', 'en katzenhassenden Lehnsherrn')] [liege.GetName], um das Leben aller anderen Katzen in [owner.Custom('DE_PRO_POS_S_3P')]en Besitztümern zu retten"
+
+ sacrificed_my_dog_memory:0 "opferte meinen Hund für meinen Lehnsherrn"
+ sacrificed_my_dog_memory_desc:0 "Ich opferte meinen geliebten Hund [owner.Custom('DogStoryName')] [Select_CString(liege.IsFemale, 'für Eure hundehassende Lehnsherrin', 'für Euren hundehassenden Lehnsherrn')] [liege.GetName], um das Leben aller anderen Hunde in meinen Besitztümern zu retten"
+ sacrificed_my_dog_memory_desc_second_perspective:0 "Ihr opfertet das Leben Eures geliebten Hundes [owner.Custom('CatStoryName')] [Select_CString(liege.IsFemale, 'für Eure hundehassende Lehnsherrin', 'für Euren hundehassenden Lehnsherrn')] [liege.GetName], um das Leben aller anderen Hunde in Euren Besitztümern zu retten"
+ sacrificed_my_dog_memory_desc_third_perspective:0 "[owner.GetName] opferte das Leben [owner.Custom('DE_PRO_POS_S_3P')]es geliebten Hundes [owner.Custom('CatStoryName')] für [owner.Custom('DE_PRO_POS_S_3P')][Select_CString(liege.IsFemale, 'e hundehassende Lehnsherrin', 'en hundehassenden Lehnsherrn')] [liege.GetName], um das Leben aller anderen Hunde in [owner.Custom('DE_PRO_POS_S_3P')]en Besitztümern zu retten"

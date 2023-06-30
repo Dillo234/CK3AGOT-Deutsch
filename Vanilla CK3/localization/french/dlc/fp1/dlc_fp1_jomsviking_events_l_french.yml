@@ -29,12 +29,12 @@
  fp1_jomsvikings.0011.desc.ideological_other:0 "Ces pirates et fondamentalistes [leader.GetFaith.GetAdherentNamePlural] considèrent que notre religion [ROOT.Char.GetFaith.GetReligion.GetAdjective] est une menace pour leur mode de vie. En plus de se livrer au pillage, ils massacrent nos [ROOT.Char.GetFaith.PriestNeuterPlural], brûlent nos [ROOT.Char.GetFaith.HouseOfWorshipPlural], et hurlent le nom de leurs faux dieux."
  fp1_jomsvikings.0011.desc.economic:0 "Bien qu’ils n’aient pas de rancune particulière contre un[ROOT.Char.Custom('FR_E')] [ROOT.Char.Custom('FR_FaithGenderedAdj')] comme moi, ils dépendent du pillage pour survivre, et mes terres sont une cible tentante. Peut-être... peut-être que leur payer un lourd tribut pourrait encore épargner mes sujets ?"
  fp1_jomsvikings.0011.desc.outro:0 "\n\nOn n’a pas le temps de lever une armée. Je peux frapper avec les forces que j’ai sous la main, ou je peux serrer les dents jusqu’à leur départ."
- fp1_jomsvikings.0011.a:0 "Prenez tous ceux que nous avons ; aux armes !"
+ fp1_jomsvikings.0011.a:0 "Prenez tous ceux que nous avons ; aux armes !"
  fp1_jomsvikings.0011.a.tt_success:0 "Les pirates sont éliminés"
  fp1_jomsvikings.0011.a.tt_failure:0 "[leader.Custom('FR_le_Char_Pi')|U][leader.GetTitledFirstNameNoTooltip] cause des dégâts en s’enfuyant"
  fp1_jomsvikings.0011.b.benefactor:0 "Peut-être que [benefactor.Custom('FR_le_Char_Pi')][benefactor.GetTitledFirstNameNoTooltip] pourrait simplement nous envoyer de nouveaux [ROOT.Char.GetFaith.PriestNeuterPlural] ?"
  fp1_jomsvikings.0011.b.fallback:0 "C’est regrettable, mais nous pourrions faire venir des [ROOT.Char.GetFaith.PriestNeuterPlural]..."
- fp1_jomsvikings.0011.c:0 "Rassemblez le tribut ; c’est moins cher à long terme."
+ fp1_jomsvikings.0011.c:0 "Rassemblez le tribut ; c’est moins cher à long terme."
  fp1_jomsvikings.0011.c.tt:0 "[leader.Custom('FR_le_Char_Pi')|U][leader.GetTitledFirstName] se retire sans incident"
  fp1_jomsvikings.0011.d:0 "En quoi est-ce autre chose qu’un problème local ?"
  fp1_jomsvikings.0011.d.tt:0 "Vous laissez [target_county.GetNameNoTier] brûler"
@@ -62,7 +62,7 @@
 
  fp1_jomsvikings.0042.trigger_failure:0 "Votre combat contre [leader.Custom('FR_le_Char_Pi')][leader.GetTitledFirstNameNoTooltip] a été invalidé"
 
- fp1_jomsvikings.0044.t:0 "$fp1_jomsvikings.0041.t$: la disculpation"
+ fp1_jomsvikings.0044.t:0 "$fp1_jomsvikings.0041.t$ : la disculpation"
  fp1_jomsvikings.0044.desc:0 "[leader.Custom('FR_le_Char_Pi')|U][leader.GetTitledFirstName] gît sans vie à mes pieds et je n’entends plus le moindre bruit dans la salle du trône, si ce n’est ma propre respiration.\n\nTranquillement, je me rhabille.\n\nJe regarde dans les yeux, une par une, toutes les personnes qui se trouvent encore ici."
  fp1_jomsvikings.0044.a:0 "Quelqu’un d’autre veut essayer ?"
  fp1_jomsvikings.0044.b:0 "La justesse de mon règne est prouvée une fois de plus !"

@@ -29,8 +29,11 @@
 
 # Restore Jewish High Priesthood, by Flavio Verna
  middle_east_decisions.0007.t:0 "La nouvelle prêtrise [scoped_ruler.GetFaith.GetAdjective]"
- middle_east_decisions.0007.desc:0 "Il n’y a pas eu de [new_priest.GetTitleTierName|l] – un grand prêtre du judaïsme – depuis que les Romains ont détruit le Second Temple il y a environ mille ans. Enfin, ce poste a été pourvu et la Grande Prêtrise reconstituée.\n\nComme les prêtres juifs des temps anciens, le Kohen Gadol était traditionnellement obligé d’être un descendant d’Aaron, le frère aîné de Moïse. En raison du manque de candidats pouvant y répondre, cette exigence a été levée, mais le nouveau grand prêtre bénéficie toujours du respect des communautés religieuses juives."
+ middle_east_decisions.0007.desc.intro:0 "Il n’y a plus eu de cohen, un grand prêtre de la foi juive, depuis que les Romains ont détruit le deuxième Temple, mais ce poste est désormais pourvu et la grande prêtrise rétablie.\n\n"
+ middle_east_decisions.0007.desc.me:0 "Les membres de la prêtrise ont naturellement décidé que j’étais [Select_CString(ROOT.Char.IsFemale, 'la meilleure candidate', 'le meilleur candidat')] pour faire entrer la religion juive dans une nouvelle ère, étant déjà un chef influent et pieux du peuple juif. Bien qu’il me manque le sang traditionnel d’Aaron, nécessaire à la fonction de cohen gadol, prêtres et laïcs célèbrent mon ordination à la tête de la Grande prêtrise."
+ middle_east_decisions.0007.desc.not_me:0 "Il était traditionnellement exigé du cohen gadol qu’il soit un descendant d’Aaron, le frère aîné de Moïse. Cette condition a été abandonnée en l’absence de candidats adéquats, mais le grand prêtre jouit cependant toujours d’un profond respect de la part de la communauté [ROOT.Char.GetFaith.GetAdjective]."
  middle_east_decisions.0007.a:0 "Puisse sa direction nous inspirer !"
+ middle_east_decisions.0007.a.me:0 "Ma direction sera une source d’inspiration pour tous !"
  middle_east_decisions.0008.desc.others:0 "Suite au rétablissement d’une présence juive significative à Jérusalem, [scoped_ruler.Custom('FR_le_Char_Pi')][scoped_ruler.GetTitledFirstName] a promu la fondation d’une nouvelle grande prêtrise [new_priest.GetFaith.GetAdjective] pour diriger les Israélites.\n\nDirigée par [new_priest.Custom('FR_le_Char_Pi')][new_priest.GetTitledFirstName], cette congrégation devrait apporter unité et conseils aux communautés grandissantes d’Israël."
  middle_east_decisions.0008.a:0 "Puisse sa direction nous inspirer !"
  middle_east_decisions.0008.b:0 "Je vois..."

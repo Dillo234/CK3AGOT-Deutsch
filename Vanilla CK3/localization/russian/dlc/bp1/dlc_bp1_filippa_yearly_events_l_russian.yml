@@ -1,9 +1,7 @@
 ﻿l_russian:
- #TODO_CD_FGK_BP1_POLISH move to game\localization\english\dlc\bp1\dlc_bp1_yearly_events_l_english.yml
-
  #A spouse/consort attempts to influence you into changing your heir
  bp1_yearly.2020.t:0 "Серьезные ожидания"
- bp1_yearly.2020.desc:0 "Ко мне с радостной улыбкой подходит [bp1_yearly_2020_influencing_partner.GetTitledFirstName]: «[Select_CString(ROOT.char.IsFemale, 'Возлюбленная моя', 'Возлюбленный мой' )]! Разве вы не видите, каким замечательным ребенком подрастает [Select_CString(bp1_yearly_2020_child_to_become_heir.IsFemale, 'наша', 'наш' )] [bp1_yearly_2020_child_to_become_heir.GetFirstName]? [bp1_yearly_2020_child_to_become_heir.GetSheHe|U] [Select_CString(bp1_yearly_2020_child_to_become_heir.IsFemale, 'могла', 'мог' )] бы принять бразды правления хоть сегодня! [bp1_yearly_2020_influencing_partner.GetFaith.HighGodNameAlternate] свидетель, у вас есть все причины гордиться [Select_CString(bp1_yearly_2020_child_to_become_heir.IsFemale, 'ей', 'им' )]».\n\n[bp1_yearly_2020_influencing_partner.GetSheHe|U] отводит взгляд. «Конечно, если я могу #EMP хоть как-то#! повлиять на ваше решение… только скажите. Мы ведь сможем договориться, [Select_CString(ROOT.char.IsFemale, 'моя дорогая', 'мой дорогой' )] [bp1_yearly_2020_influencing_partner.Custom2('RelationToMeShort', ROOT.Char)]?» — улыбается [bp1_yearly_2020_influencing_partner.GetSheHe|l].\n\n#EMP Договориться#!, значит?"
+ bp1_yearly.2020.desc:0 "Ко мне с радостной улыбкой подходит [bp1_yearly_2020_influencing_partner.GetTitledFirstName]: «[Select_CString(ROOT.Char.IsFemale, 'Возлюбленная моя', 'Возлюбленный мой' )]! Разве вы не видите, каким замечательным ребенком подрастает [Select_CString(bp1_yearly_2020_child_to_become_heir.IsFemale, 'наша', 'наш' )] [bp1_yearly_2020_child_to_become_heir.GetFirstName]? [bp1_yearly_2020_child_to_become_heir.GetSheHe|U] [Select_CString(bp1_yearly_2020_child_to_become_heir.IsFemale, 'могла', 'мог' )] бы принять бразды правления хоть сегодня! [bp1_yearly_2020_influencing_partner.GetFaith.HighGodNameAlternate] свидетель, у вас есть все причины гордиться [Select_CString(bp1_yearly_2020_child_to_become_heir.IsFemale, 'ей', 'им' )]».\n\n[bp1_yearly_2020_influencing_partner.GetSheHe|U] отводит взгляд. «Конечно, если я могу #EMP хоть как-то#! повлиять на ваше решение… только скажите. Мы ведь сможем договориться, [Select_CString(ROOT.Char.IsFemale, 'моя дорогая', 'мой дорогой' )] [bp1_yearly_2020_influencing_partner.Custom2('RelationToMeShort', ROOT.Char)]?» — улыбается [bp1_yearly_2020_influencing_partner.GetSheHe|l].\n\n#EMP Договориться#!, значит?"
  bp1_yearly.2020.a:0 "[bp1_yearly_2020_target.GetFirstNameNoTooltip]. Я хочу получить голову [Select_CString(bp1_yearly_2020_target.IsFemale, 'этой', 'этого' )] [bp1_yearly_2020_target.Custom('InsultAdjectiveGeneric')][Select_CString(bp1_yearly_2020_target.IsFemale, 'ой', 'ого' )] [Select_CString(bp1_yearly_2020_target.IsFemale, 'гадины', 'ублюдка' )]."
  bp1_yearly.2020.b:0 "Мне бы #EMP пригодились#! способные придворные…"
  bp1_yearly.2020.b_tt:1 "[bp1_yearly_2020_influencing_partner.GetFirstNameNoTooltip] предложит вам несколько талантливых придворных на выбор. "
@@ -14,6 +12,7 @@
  bp1_yearly.2020.d:0 "#EMP Очень#! подозрительно. Стража!"
  bp1_yearly.2020.d_tt:0 "Кто знает, что еще [bp1_yearly_2020_influencing_partner.GetSheHe|l] [Select_CString(bp1_yearly_2020_influencing_partner.IsFemale, 'задумала', 'задумал' )]…"
  bp1_yearly.2020.e:1 "[bp1_yearly_2020_influencing_partner.GetFirstNameNoTooltip], мне ничего от тебя не нужно."
+ #Spouse brings up a bunch of skilled people for you to recruit
  bp1_yearly.2021.t:0 "Желанная персона"
  bp1_yearly.2021.desc:0 "«[bp1_yearly_2020_influencing_partner.Custom2('RelationToMeShort', ROOT.Char)|U]! У меня добрые вести!» — говорит мне при встрече [bp1_yearly_2020_influencing_partner.GetFirstName]. Подойдя поближе, [bp1_yearly_2020_influencing_partner.GetSheHe|l] демонстрирует исписанный каракулями пергамент: «Все эти люди согласны служить вам при дворе. Я [Select_CString(bp1_yearly_2020_influencing_partner.IsFemale, 'готова', 'готов' )] поручиться за их способности!»\n\nЯ бегло просматриваю список. Надо признать, [bp1_yearly_2020_influencing_partner.GetSheHe|l] и правда [Select_CString(bp1_yearly_2020_influencing_partner.IsFemale, 'нашла', 'нашел' )] людей выдающихся талантов!"
  bp1_yearly.2021.a:0 "Этот воин обладает немалым #EMP авторитетом#!."
@@ -27,13 +26,15 @@
  bp1_yearly.2021.e:0 "Какая #EMP интригующая#! личность!"
  bp1_yearly.2021.e_tt:0 "[bp1_yearly_2021_intrigue_person.GetShortUIName|U] присоединяется к вашему двору"
  bp1_yearly.2021.f:0 "Пожалуй, не стоит."
+ #Letter event - Spouse is captured or killed by your rival
  bp1_yearly.2022.t:0 "[bp1_yearly_2020_target.Custom2('AppropriateGreetingNegative', ROOT.Char )]"
  bp1_yearly.2022.desc_intro:0 "[bp1_yearly_2020_target.Custom2('NegativeSupplimentaryGreeting', ROOT.Char )]"
  bp1_yearly.2022.desc_imprisoned:0 "\n\nВ моих застенках находится [Select_CString(bp1_yearly_2020_influencing_partner.IsFemale, 'женщина', 'человек' )], [Select_CString(bp1_yearly_2020_influencing_partner.IsFemale, 'которая', 'который' )] утверждает, что вы совершенно не причастны к организованному [Select_CString(bp1_yearly_2020_influencing_partner.IsFemale, 'ей', 'им' )] #EMP покушению#! на мою жизнь. Подозреваю, что [bp1_yearly_2020_influencing_partner.Custom('InsultNoun')|l] лжет.\n\nЭто мое первое и последнее предупреждение."
  bp1_yearly.2022.desc_dead:0 "\n\nВы не поверите, что случилось со мной на днях. Представляете, [Select_CString(bp1_yearly_2020_influencing_partner.IsFemale, 'какая-то девка покушалась', 'какой-то тип покушался' )] на мою жизнь! К счастью, [bp1_yearly_2020_influencing_partner.GetFaith.HighGodName] всегда меня защищает. Думаю, я сохраню голову убийцы. [bp1_yearly_2020_influencing_partner.Custom('InsultNoun')|l] послужит отличным украшением моего кабинета!\n\nЭто мое первое и последнее предупреждение."
  bp1_yearly.2022.a_imprisoned:0 "Вот же #EMP [bp1_yearly_2020_target.Custom('InsultNoun')]#!!"
  bp1_yearly.2022.b_dead:0 "Что? Нет! Не может быть! О, [bp1_yearly_2020_influencing_partner.GetTitledFirstNameNoTooltip]…"
- bp1_yearly.2023.t:0 "Да здравствует [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip]"
+ #Concluding event
+ bp1_yearly.2023.t:0 "Да здравствует [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip|l]"
  bp1_yearly.2023.desc_triumphant:0 "[bp1_yearly_2020_influencing_partner.GetFirstName] встречает меня с довольной улыбкой."
  bp1_yearly.2023.desc_sad:0 "Я в одиночестве кружу по опустевшей кухне. Ох, [bp1_yearly_2020_influencing_partner.GetFirstName], как же мне теперь жить…"
  bp1_yearly.2023.desc_hesitant:0 "Я захожу на кухню. [bp1_yearly_2020_influencing_partner.GetFirstName] поднимает взгляд и слегка наклоняет голову."
@@ -46,7 +47,7 @@
  bp1_yearly.2023.desc_picked_diplomacy:0 "«Думаю, [bp1_yearly_2021_new_courtier.GetTitledFirstName] может и [Select_CString(bp1_yearly_2021_new_courtier.IsFemale, 'сама', 'сам' )] рассказать о своих #EMP достоинствах#!. Только не дайте [bp1_yearly_2021_new_courtier.GetHerHim|l] запудрить вам мозги, а то и не заметите, как перепишете на н[bp1_yearly_2021_new_courtier.GetHerHis|l] половину своих владений!»"
  bp1_yearly.2023.desc_picked_intrigue:0 "«[bp1_yearly_2021_new_courtier.GetTitledFirstName] умеет плести интриги, правда? Лично я стараюсь с [Select_CString(bp1_yearly_2021_new_courtier.IsFemale, 'ней', 'ним' )] не ссориться, а то мало ли что…»"
  bp1_yearly.2023.desc_picked_none:0 "\n\n«Как жаль, что вам не подошел ни один из моих кандидатов, [bp1_yearly_2020_influencing_partner.Custom2('RelationToMeShort', ROOT.Char)]. Надеюсь, что вы все равно оценили мои старания. Чтобы найти этих людей, пришлось перевернуть столицу вверх дном!»\n\n[bp1_yearly_2020_influencing_partner.GetSheHe|U] выжидающе смотрит на меня."
- bp1_yearly.2023.desc_outro:0 "\n\n[bp1_yearly_2020_influencing_partner.GetSheHe|U] подмигивает. «Теперь дело за вами, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip]!»"
+ bp1_yearly.2023.desc_outro:0 "\n\n[bp1_yearly_2020_influencing_partner.GetSheHe|U] подмигивает. «Теперь дело за вами, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip|l]!»"
  bp1_yearly.2023.desc_outro_sad:0 "[bp1_yearly_2020_influencing_partner.GetHerHis|U] отвага должна быть вознаграждена. Надо выполнить [bp1_yearly_2020_influencing_partner.GetHerHis|l] просьбу."
  bp1_yearly.2023.a:0 "Что ж, [bp1_yearly_2020_influencing_partner.GetTitledFirstNameNoTooltip], ты это [Select_CString(bp1_yearly_2020_influencing_partner.IsFemale, 'заслужила', 'заслужил' )]."
  bp1_yearly.2023.a_imprisoned_dead:0 "Так будет справедливо."
@@ -80,7 +81,7 @@
  bp1_yearly.2040.desc_paranoia:0 "\n\nУчитывая, в каком состоянии находится [bp1_yearly_2040_upset_consort.GetFirstNameNoTooltip], я #EMP не могу#! поручиться, что у н[bp1_yearly_2040_upset_consort.GetHerHis|l] действительно что-то случилось."
  bp1_yearly.2040.desc_default:0 "\n\nОчевидно, случилось что-то серьезное."
  bp1_yearly.2040.desc_outro:0 "Мне стоит аккуратнее выбирать выражения."
- bp1_yearly.2040.a:0 "#EMP Я#! [Select_CString(ROOT.char.IsFemale, 'слышала', 'слышал' )], что [bp1_yearly_2040_target_consort.GetFirstName] говорит о вас только хорошее."
+ bp1_yearly.2040.a:0 "#EMP Я#! [Select_CString(ROOT.Char.IsFemale, 'слышала', 'слышал' )], что [bp1_yearly_2040_target_consort.GetFirstName] говорит о вас только хорошее."
  bp1_yearly.2040.a_tt:0 "Разрядить обстановку."
  bp1_yearly.2040.b:0 "Вообще-то [bp1_yearly_2040_target_consort.GetSheHe|l] и в самом деле #EMP нелестно#! о вас [Select_CString(bp1_yearly_2040_target_consort.IsFemale, 'отзывалась', 'отзывался' )]. [bp1_yearly_2040_target_consort.Custom('RandomBodyFeatureNoun')|U], как у… нет, я не стану повторять."
  bp1_yearly.2040.b_tt:0 "Подзуживать [bp1_yearly_2040_upset_consort.GetHerHis|l]."
@@ -119,7 +120,7 @@
  bp1_yearly.2050.d_tt:0 "Мне не стоит их поддерживать."
  #Friendly consorts want to tutor other consort's child
  bp1_yearly.2060.t:0 "Совместное воспитание"
- bp1_yearly.2060.desc_intro:0 "Я давно [Select_CString(ROOT.char.IsFemale, 'подметила', 'подметил' )], что [bp1_yearly_2060_first_consort.GetTitledFirstName] и [bp1_yearly_2060_second_consort.GetTitledFirstName] много времени проводят друг с другом, увлеченно обсуждая какие-то общие интересы. И вот неразлучная парочка обратилась ко мне.\n\n«[ROOT.Char.GetTitledFirstName]! Я и [bp1_yearly_2060_second_consort.GetFirstNameNoTooltip], мы часто беседуем "
+ bp1_yearly.2060.desc_intro:0 "Я давно [Select_CString(ROOT.Char.IsFemale, 'подметила', 'подметил' )], что [bp1_yearly_2060_first_consort.GetTitledFirstName] и [bp1_yearly_2060_second_consort.GetTitledFirstName] много времени проводят друг с другом, увлеченно обсуждая какие-то общие интересы. И вот неразлучная парочка обратилась ко мне.\n\n«[ROOT.Char.GetTitledFirstName]! Я и [bp1_yearly_2060_second_consort.GetFirstNameNoTooltip], мы часто беседуем "
  bp1_yearly.2060.desc_diplomacy:1 "о дипломатии и умении договариваться с другими», —"
  bp1_yearly.2060.desc_martial:1 "о сражениях и военном деле», —"
  bp1_yearly.2060.desc_stewardship:0 "об экономике и умении управлять», —"
@@ -136,7 +137,7 @@
  bp1_yearly.2060.tt_failure:0 "Обучение не было успешным"
  #Childless older spouse ponders your relationship
  bp1_yearly.2070.t:0 "Откровенный разговор"
- bp1_yearly.2070.desc:0 "Я вижу, что в последнее время [bp1_yearly_2070_soulmate.GetFirstName] держится как-то отстраненно. [bp1_yearly_2070_soulmate.GetHerHis|U] явно что-то беспокоит. Во время очередной прогулки по окрестностям столицы я наконец-то решаюсь спросить, что случилось.\n\n«Так ты [Select_CString(ROOT.char.IsFemale, 'заметила', 'заметил' )]?» — [bp1_yearly_2070_soulmate.GetSheHe|l] замедляет шаг, а затем и вовсе останавливается полюбоваться пейзажем. В солнечном свете [bp1_yearly_2070_soulmate.GetHerHis|l] кожа будто сияет.\n\n«Я люблю тебя. Мне так хорошо рядом с тобой… — говорит [bp1_yearly_2070_soulmate.GetSheHe|l] дрогнувшим голосом, и по щеке [bp1_yearly_2070_soulmate.GetHerHis|l] скатывается слезинка. — Я жалею лишь об одном — что у нас с тобой нет детей, которые остались бы после нас на этом свете».\n\n[bp1_yearly_2070_soulmate.GetHerHis|U] слова словно громом прозвенели в моих ушах. О, [Select_CString(bp1_yearly_2070_soulmate.IsFemale, 'милая', 'мой дорогой' )] [bp1_yearly_2070_soulmate.GetFirstName], как же тебе, наверное, тяжело от этих мыслей!"
+ bp1_yearly.2070.desc:0 "Я вижу, что в последнее время [bp1_yearly_2070_soulmate.GetFirstName] держится как-то отстраненно. [bp1_yearly_2070_soulmate.GetHerHis|U] явно что-то беспокоит. Во время очередной прогулки по окрестностям столицы я наконец-то решаюсь спросить, что случилось.\n\n«Так ты [Select_CString(ROOT.Char.IsFemale, 'заметила', 'заметил' )]?» — [bp1_yearly_2070_soulmate.GetSheHe|l] замедляет шаг, а затем и вовсе останавливается полюбоваться пейзажем. В солнечном свете [bp1_yearly_2070_soulmate.GetHerHis|l] кожа будто сияет.\n\n«Я люблю тебя. Мне так хорошо рядом с тобой… — говорит [bp1_yearly_2070_soulmate.GetSheHe|l] дрогнувшим голосом, и по щеке [bp1_yearly_2070_soulmate.GetHerHis|l] скатывается слезинка. — Я жалею лишь об одном — что у нас с тобой нет детей, которые остались бы после нас на этом свете».\n\n[bp1_yearly_2070_soulmate.GetHerHis|U] слова словно громом прозвенели в моих ушах. О, [Select_CString(bp1_yearly_2070_soulmate.IsFemale, 'милая', 'мой дорогой' )] [bp1_yearly_2070_soulmate.GetFirstName], как же тебе, наверное, тяжело от этих мыслей!"
  bp1_yearly.2070.a:0 "[Select_CString(bp1_yearly_2070_soulmate.IsFemale, 'Милая', 'Милый' )] [bp1_yearly_2070_soulmate.GetFirstNameNoTooltip], я разделю с тобой #EMP каждый день#! всей оставшейся жизни."
  bp1_yearly.2070.a_tt:0 "Вы и [bp1_yearly_2070_soulmate.GetFirstNameNoTooltip] крепко обнимаете друг друга."
  bp1_yearly.2070.b:0 "Что поделаешь. Так хочет [ROOT.Char.GetFaith.HighGodName]."
@@ -144,17 +145,14 @@
  bp1_yearly.2070.c:0 "Мы оба знаем, что так будет лучше."
  bp1_yearly.2070.c_tt:0 "Наш мир — ужасное место."
 
-
- #TODO_CD_FGK_BP1_POLISH move to game\localization\english\dlc\bp1\dlc_bp1_opinions_l_english.yml
  primary_heir_replaced_opinion:0 "Исключение из наследников"
  parent_primary_heir_replaced_opinion:0 "Ребенок исключен из наследников"
 
- #TODO_CD_FGK_BP1_POLISH move to game\localization\english\dlc\bp1\dlc_bp1_modifiers_l_english.yml
- bp1_yearly_2023_honorable_modifier:0 "[Select_CString( CHARACTER.IsFemale, 'Благородная', 'Благородный' )]"
+ bp1_yearly_2023_honorable_modifier:0 "Благородство"
  bp1_yearly_2023_honorable_modifier_desc:0 "Персонаж честно выполнил просьбу партнера."
- bp1_yearly_2023_dishonorable_modifier:0 "[Select_CString( CHARACTER.IsFemale, 'Бесчестная', 'Бесчестный' )]"
+ bp1_yearly_2023_dishonorable_modifier:0 "Бесчестие"
  bp1_yearly_2023_dishonorable_modifier_desc:0 "Персонаж подло предал партнера."
- bp1_yearly_2030_failed_student_modifier:0 "[Select_CString( CHARACTER.IsFemale, 'Плохая ученица', 'Плохой ученик' )]"
+ bp1_yearly_2030_failed_student_modifier:0 "Недоучка"
  bp1_yearly_2030_failed_student_modifier_desc:0 "Учеба не каждому под силу."
  bp1_yearly_2050_compromise_development_modifier:0 "Ускоренное развитие"
  bp1_yearly_2050_compromise_development_modifier_desc:0 "Обмен знаниями и поддержка образования способствуют быстрому развитию графства."
@@ -167,10 +165,8 @@
  bp1_yearly_2070_cynicism_modifier:0 "Так будет лучше"
  bp1_yearly_2070_cynicism_modifier_desc:0 "Этот мир слишком плох, чтобы рожать детей."
 
- #TODO_CD_FGK_BP1_POLISH move to game\localization\english\dlc\bp1\dlc_bp1_opinions_l_english.yml
  tutored_me_opinion:0 "Мой наставник"
 
- #TODO_CD_FGK_BP1_POLISH move to game\localization\english\dlc\bp1\dlc_bp1_custom_loc_l_english.yml
  #InsultAdjectiveGeneric
  random_insult_adjective_despicable:0 "подл"
  random_insult_adjective_reprehensible:0 "отвратительн"

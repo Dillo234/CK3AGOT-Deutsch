@@ -1,6 +1,6 @@
 ﻿l_spanish:
  game_concept_royal_court:0 "Corte real"
- game_concept_royal_courts:0 "Cortes reales"
+ game_concept_royal_courts:0 "Corte reales"
  game_concept_royal_court_desc:2 "Los [rulers|lE] distinguidos tienen bastante fama para mantener una corte real, que les dará acceso a una serie de bonificaciones y oportunidades.\n\nCuando el [ruler|lE] de un [GetGovernment( 'feudal_government' ).GetName], un [GetGovernment( 'clan_government' ).GetName] o un [GetGovernment( 'tribal_government' ).GetName] se convierte en [king|lE] o [emperor|lE], accede a una corte real.\n\nEstas tienen un [court_grandeur_level|lE] que les proporcionan beneficios que dependen de lo famosa que sea la corte real y qué [Concept( 'court_type', 'tipo' )|E] de corte sea.\n\nPeticionarios, [vassals|lE] y [courtiers|lE] pueden aparecer en tu corte real o puedes [hold_court|lE] para invitar a cualquier persona de tu [realm|lE] a expresar sus agravios.\n\nUna corte real también permite al gobernante exponer sus [court_artifacts|lE] y pueden aparecer [guests|lE] [Concept( 'inspired', 'inspirados' )|E] que se ofrezcan a crear nuevos [artifacts|lE].\n\nCuando mueras, tu [Concept( 'player_heir', 'heredero' )|E] heredará tu corte real."
  game_concept_court_grandeur_level:0 "Nivel de grandeza de la corte"
  game_concept_court_grandeur_levels:0 "Niveles de grandeza de la corte"
@@ -71,14 +71,15 @@
  game_concept_court_positions:0 "Puestos en la corte"
  game_concept_court_position_desc:2 "Los $game_concept_court_position$ son cargos especializados que se pueden conceder a [courtiers|lE] y [vassals|lE] para que ayuden a su [liege|lE].\n\nLos beneficios que se ganan con un puesto en la corte dependen de la [aptitude|lE] del titular para el mismo.\n\nOtorgar $game_concept_court_positions$ es gratis, pero hay que pagar un salario mensual en [gold|lE] y revocarlos te costará [prestige|lE]"
 
+ game_concept_court_position_aptitude:0 "Aptitud para el puesto en la corte"
  game_concept_aptitude:0 "Aptitud"
- game_concept_aptitude_desc:2 "La $game_concept_aptitude$ de un [character|lE] indica lo eficiente que es en un [court_position|lE] específico.\n\n$game_concept_aptitude$ se mide en 5 niveles, que van de Horrible a Excelente. El nivel de $game_concept_aptitude$ del personaje decidirá las bonificaciones que el [liege|lE] recibirá por ocupar el [court_position|lE].\n\nPor ejemplo, un personaje que sea [GetTrait('physician_3').GetName( GetNullCharacter )|l] estará naturalmente mejor equipado para servir como $court_physician_court_position$"
+ game_concept_court_position_aptitude_desc:0 "La $game_concept_aptitude|l$ de un [character|lE] indica lo eficiente que es en un [court_position|lE] específico.\n\nLa $game_concept_aptitude|l$ se mide en cinco niveles, que van de Horrible a Excelente. El nivel de $game_concept_aptitude|l$ del personaje decidirá las bonificaciones que recibirá el [liege|lE] por ocupar el [court_position|lE].\n\nPor ejemplo, un personaje que sea [GetTrait('lifestyle_physician').GetName( GetNullCharacter )|l] estará mejor equipado para servir como $court_physician_court_position|l$, como es lógico."
 
  game_concept_court_event:0 "Evento de la corte"
  game_concept_court_events:0 "Eventos de la corte"
  game_concept_court_event_desc:0 "Un $game_concept_court_event$ es un evento que atañe a los miembros de nuestra [court|lE]. Se pueden ver en la [royal_court|lE]."
  game_concept_petition_liege:0 "Petición"
- game_concept_petition_liege_desc:0 "Una [activity|lE] en la que los [vassals|lE] pueden solicitar ayuda a su [liege|lE].\n\nSe pueden presentar una variedad de asuntos y el [liege|lE] decide si aceptarla."
+ game_concept_petition_liege_desc:1 "Una oportunidad para que los [vassals|lE] soliciten ayuda a su [liege|lE].\n\nSe pueden presentar una variedad de asuntos y el [liege|lE] decide si aceptarla."
  game_concept_pay_homage:0 "Homenaje"
  game_concept_pay_homage_desc:0 "Una [activity|lE] en la que los [vassals|lE] pueden manifestar formalmente su lealtad hacia su [liege|lE].\n\nSe puede rendir homenaje de muchos modos distintos y puede conferir [opinion|lE], [prestige|lE] y [dynasty_prestige|lE] a ambas partes."
 

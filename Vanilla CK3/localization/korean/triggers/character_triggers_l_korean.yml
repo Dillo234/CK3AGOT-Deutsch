@@ -62,6 +62,7 @@
  NOT_I_HAVE_TRAIT_GROUP_TRIGGER:1 "[TRAIT_GROUP.GetName] 집합의 특성을 보유하지 #bold 않음#!"
  THEY_HAVE_TRAIT_GROUP_TRIGGER:0 "[CHARACTER.GetShortUIName|U](이)가 [TRAIT_GROUP.GetName] 집합의 특성을 하나 이상 보유함"
  NOT_THEY_HAVE_TRAIT_GROUP_TRIGGER:0 "[CHARACTER.GetShortUIName|U](이)가 [TRAIT_GROUP.GetName] 집합의 특성을 보유하지 #bold 않음#!"
+ HAS_TRAIT_GROUP_TRIGGER_NONE:0 "[TRAIT_GROUP.GetName] 집합의 특성을 하나 이상 보유함"
 
  HAS_CHARACTER_MODIFIER_TRIGGER:0 "다음의 변화 요소를 보유함: $MODIFIER|V$"
  NOT_HAS_CHARACTER_MODIFIER_TRIGGER:0 "다음의 변화 요소를 보유하지 #bold 않음#!: $MODIFIER|V$"
@@ -289,8 +290,8 @@
  I_AM_IN_ACTIVITY_TRIGGER:1 "[activity|E] 중임"
  THEY_ARE_IN_ACTIVITY_TRIGGER:0 "[CHARACTER.GetShortUIName|V](이)가 [activity|E] 중임"
 
- THEY_HAVE_CHARACTER_FLAG_TRIGGER:0 "[CHARACTER.GetShortUIName|V](이)가 $FLAG|V$ 촉발점을 보유함"
- NOT_THEY_HAVE_CHARACTER_FLAG_TRIGGER:0 "[CHARACTER.GetShortUIName|V](이)가 $FLAG|V$ 촉발점을 보유하지 #bold 않음#!"
+ THEY_HAVE_CHARACTER_FLAG_TRIGGER:1 "[CHARACTER.GetShortUIName|VU](이)가 $FLAG|V$ 촉발점을 보유함"
+ NOT_THEY_HAVE_CHARACTER_FLAG_TRIGGER:1 "[CHARACTER.GetShortUIName|VU](이)가 $FLAG|V$ 촉발점을 보유하지 #bold 않음#!"
 
  I_HAVE_A_HOOK_ON:1 "[TARGET_CHARACTER.GetShortUIName]에 대한 [hook|E]을 보유함"
  I_DO_NOT_HAVE_A_HOOK_ON:1 "[TARGET_CHARACTER.GetShortUIName]에 대한 [hook|E]을 보유하지 #bold 않음#!"
@@ -481,6 +482,20 @@
  MY_PROWESS_IS_NOT_LESS_THAN:0 "당신의 [prowess|E]이 [prowess_i]$NUM|V0$ 이상임"
  THEIR_PROWESS_IS_NOT_LESS_THAN:0 "[CHARACTER.GetShortUINamePossessive|V] [prowess|E]이 [prowess_i]$NUM|V0$ 이상임"
 
+ PROWESS_NO_PORTRAIT_GLOBAL:0 "[natural_prowess|E]"
+ PROWESS_NO_PORTRAIT_IS_AT_LEAST:0 "[natural_prowess|E]이 [prowess_i]$NUM|V0$ 이상임"
+ MY_PROWESS_NO_PORTRAIT_IS_AT_LEAST:0 "당신의 [natural_prowess|E]이 [prowess_i]$NUM|V0$ 이상임"
+ THEIR_PROWESS_NO_PORTRAIT_IS_AT_LEAST:0 "[CHARACTER.GetShortUINamePossessive|V] [natural_prowess|E]이 [prowess_i]$NUM|V0$ 이상임"
+ PROWESS_NO_PORTRAIT_IS_NOT_AT_LEAST:0 "[natural_prowess|E]이 [prowess_i]$NUM|V0$ 미만임"
+ MY_PROWESS_NO_PORTRAIT_IS_NOT_AT_LEAST:0 "당신의 [natural_prowess|E]이 [prowess_i]$NUM|V0$ 미만임"
+ THEIR_PROWESS_NO_PORTRAIT_IS_NOT_AT_LEAST:0 "[CHARACTER.GetShortUINamePossessive|V] [natural_prowess|E]이 [prowess_i]$NUM|V0$ 미만임"
+ PROWESS_NO_PORTRAIT_IS_LESS_THAN:0 "[natural_prowess|E]이 [prowess_i]$NUM|V0$ 미만임"
+ MY_PROWESS_NO_PORTRAIT_IS_LESS_THAN:0 "당신의 [natural_prowess|E]이 [prowess_i]$NUM|V0$ 미만임"
+ THEIR_NO_PORTRAIT_PROWESS_IS_LESS_THAN:0 "[CHARACTER.GetShortUINamePossessive|V] [natural_prowess|E]이 [prowess_i]$NUM|V0$ 미만임"
+ PROWESS_NO_PORTRAIT_IS_NOT_LESS_THAN:0 "[natural_prowess|E]이 [prowess_i]$NUM|V0$ 이상임"
+ MY_PROWESS_NO_PORTRAIT_IS_NOT_LESS_THAN:0 "당신의 [natural_prowess|E]이 [prowess_i]$NUM|V0$ 이상임"
+ THEIR_PROWESS_NO_PORTRAIT_IS_NOT_LESS_THAN:0 "[CHARACTER.GetShortUINamePossessive|V] [natural_prowess|E]이 [prowess_i]$NUM|V0$ 이상임"
+
  CAN_ATTACK_IN_HIERARCHY_GLOBAL:0 "[TARGET_CHARACTER.GetShortUIName](이)가 [independent|E] 상태, [liege|E]인 상태, 또는 같은 [liege|E] 아래에 있는 상태이므로 [TARGET_CHARACTER.GetSheHe]를 공격할 수 있음"
  CAN_NOT_ATTACK_IN_HIERARCHY_GLOBAL:0 "[TARGET_CHARACTER.GetShortUIName](이)가 [independent|E] 상태, [liege|E]인 상태, 또는 같은 [liege|E] 아래에 있지 않은 상태이므로 [TARGET_CHARACTER.GetSheHe]를 공격할 수 #bold 없음#!"
  CAN_ATTACK_IN_HIERARCHY_FIRST_THIRD:0 "[CHARACTER.GetShortUIName|U](이)가 [independent|E] 상태, [liege|E]인 상태, 또는 같은 [liege|E] 아래에 있는 상태이므로 [TARGET_CHARACTER.GetShortUIName](을)를 공격할 수 있음"
@@ -494,22 +509,30 @@
  HAS_NUM_GOOD_CONGENITAL_TRAITS:0 "좋은 [congenital|E] 특성을 $NUM|V0$개 보유함"
  I_HAVE_NUM_GOOD_CONGENITAL_TRAITS:1 "좋은 [congenital|E] 특성을 $NUM|V0$개 보유함"
 
+ CHARACTER_HAS_NUM_SINFUL_TRAITS:0 "[CHARACTER.GetShortUIName|U](이)가 좋은 [sinful|E] 특성을 $NUM|V0$개 보유함"
+ HAS_NUM_SINFUL_TRAITS:0 "좋은 [sinful|E] 특성을 $NUM|V0$개 보유함"
+ I_HAVE_NUM_SINFUL_TRAITS:0 "당신은 좋은 [sinful|E] 특성을 $NUM|V0$개 보유함"
+
+ CHARACTER_HAS_NUM_VIRTUOUS_TRAITS:0 "[CHARACTER.GetShortUIName|U](이)가 좋은 [virtuous|E] 특성을 $NUM|V0$개 보유함"
+ HAS_NUM_VIRTUOUS_TRAITS:0 "좋은 [virtuous|E] 특성을 $NUM|V0$개 보유함"
+ I_HAVE_NUM_VIRTUOUS_TRAITS:0 "당신은 좋은 [virtuous|E] 특성을 $NUM|V0$개 보유함"
+
  NUMBER_OF_TRAITS_TRIGGER:0 "[CHARACTER.GetShortUIName|U](이)가 가지고 있는 특성의 수: $NUM|V0$"
  NUMBER_OF_TRAITS_IN_COMMON_WITH_TARGET_TRIGGER:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 공유하는 특성의 수: $NUM|V0$"
  CHARACTER_HAS_NUM_OPPOSING_TRAITS:0 "[CHARACTER.GetShortUIName|U](이)가 상충되는 [traits|E]을 $NUM|V0$개 보유함"
  CHARACTER_HAS_NUM_OPPOSING_TRAITS_ON_TARGET:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 상충되는 특성의 수: $NUM|V0$"
  CHARACTER_HAS_NUM_SAME_TRAITS:0 "[CHARACTER.GetShortUIName|U](이)가 공통되는 [traits|E]을 $NUM|V0$개 보유함"
 
- HAS_REALM_SIZE_TRIGGER:0 "전체 봉역의 [realm_size|E]가 $NUM|V$ 이상임"
- NOT_HAS_REALM_SIZE_TRIGGER:0 "전체 봉역의 [realm_size|E]가 $NUM|V$ 미만임 #weak ($CURRENT_VALUE$)#!"
- I_HAVE_REALM_SIZE_TRIGGER:0 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]의 [realm_size|E]가 $NUM|V$ 이상임 #weak ($CURRENT_VALUE$)#!"
- THEY_HAVE_REALM_SIZE_TRIGGER:0 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]의 [realm_size|E]가 $NUM|V$ 이상임 #weak ($CURRENT_VALUE$)#!"
- NOT_I_HAVE_REALM_SIZE_TRIGGER:0 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]의 [realm_size|E]가 $NUM|V$ 미만임 #weak ($CURRENT_VALUE$)#!"
- NOT_THEY_HAVE_REALM_SIZE_TRIGGER:0 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]의 [realm_size|E]가 $NUM|V$ 미만임 #weak ($CURRENT_VALUE$)#!"
+ HAS_REALM_SIZE_TRIGGER:1 "전체 봉역의 [realm_size|E]가 $NUM|V0$ 이상임"
+ NOT_HAS_REALM_SIZE_TRIGGER:1 "전체 봉역의 [realm_size|E]가 $NUM|V0$ 미만임 #weak ($CURRENT_VALUE|V0$)#!"
+ I_HAVE_REALM_SIZE_TRIGGER:1 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]의 [realm_size|E]가 $NUM|V0$ 이상임 #weak ($CURRENT_VALUE|V0$)#!"
+ THEY_HAVE_REALM_SIZE_TRIGGER:1 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]의 [realm_size|E]가 $NUM|V0$ 이상임 #weak ($CURRENT_VALUE|V0$)#!"
+ NOT_I_HAVE_REALM_SIZE_TRIGGER:1 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]의 [realm_size|E]가 $NUM|V0$ 미만임 #weak ($CURRENT_VALUE|V0$)#!"
+ NOT_THEY_HAVE_REALM_SIZE_TRIGGER:1 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]의 [realm_size|E]가 $NUM|V0$ 미만임 #weak ($CURRENT_VALUE|V0$)#!"
 
- HAS_SUB_REALM_SIZE_TRIGGER:0 "[realm_size|E]가 $NUM|V$ 이상임 #weak ($CURRENT_VALUE$)#!"
- I_HAVE_SUB_REALM_SIZE_TRIGGER:1 "[realm_size|E]가 $NUM|V$ 이상임 #weak ($CURRENT_VALUE$)#!"
- THEY_HAVE_SUB_REALM_SIZE_TRIGGER:0 "[CHARACTER.GetShortUINamePossessive] [realm_size|E]가 $NUM|V$ 이상임 #weak ($CURRENT_VALUE$)#!"
+ HAS_SUB_REALM_SIZE_TRIGGER:1 "[realm_size|E]가 $NUM|V0$ 이상임 #weak ($CURRENT_VALUE|V0$)#!"
+ I_HAVE_SUB_REALM_SIZE_TRIGGER:2 "[realm_size|E]가 $NUM|V0$ 이상임 #weak ($CURRENT_VALUE|V0$)#!"
+ THEY_HAVE_SUB_REALM_SIZE_TRIGGER:1 "[CHARACTER.GetShortUINamePossessive] [realm_size|E]가 $NUM|V0$ 이상임 #weak ($CURRENT_VALUE|V0$)#!"
 
  ANY_SUB_REALM_TITLE:0 "임의의 [realm|E] [title|E]:"
  NOT_ANY_SUB_REALM_TITLE:1 "[realm|E] [title|E]를 보유하지 #bold 않음#!:"
@@ -569,6 +592,7 @@
  CHARACTER_IS_THE_SPOUSE_OF_CHARACTER:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] [spouse|E]임"
  I_AM_THE_SPOUSE_OF_CHARACTER:1 "당신이 [TARGET_CHARACTER.GetShortUINamePossessive] [spouse|E]임"
  IS_NOT_THE_SPOUSE_OF_CHARACTER:0 "[TARGET_CHARACTER.GetShortUINamePossessive] [spouse|E]가 #bold 아님#!"
+ IS_NOT_THE_SPOUSE_OF_CHARACTER_COURT_POSITION:0 "[liege.GetShortUINamePossessive] [spouse|E]가 #bold 아님#!"
  CHARACTER_IS_NOT_THE_SPOUSE_OF_CHARACTER:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] [spouse|E]가 #bold 아님#!"
  I_AM_NOT_THE_SPOUSE_OF_CHARACTER:1 "당신이 [TARGET_CHARACTER.GetShortUINamePossessive] [spouse|E]가 #bold 아님#!"
 
@@ -792,6 +816,7 @@
  IS_NOT_VASSAL_OR_BELOW_OF_CHARACTER_TRIGGER:0 "당신의 봉신이거나 하위 귀족이 #bold 아님#!"
 
  IS_CLERGY_TRIGGER:0 "[clergy|E]임"
+ NOT_IS_CLERGY_TRIGGER:0 "[clergy|E]의 구성원이 #bold 아님#!"
  IS_HOSTILE_TRIGGER:0 "적대적임"
  TIER_DIFFERENCE_TRIGGER:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName|U]의 등급 차이: $NUM|V0$"
 
@@ -807,6 +832,9 @@
  IS_TWIN_OF_CHARACTER_TRIGGER:0 "[CHARACTER.GetShortUINamePossessive|U] 쌍둥이임"
  IS_COUSIN_OF_CHARACTER_TRIGGER:0 "[CHARACTER.GetShortUINamePossessive|U] 사촌임"
  IS_A_KNIGHT_TRIGGER:0 "[knight|E]로 봉직함"
+ CHARACTER_IS_A_KNIGHT_TRIGGER:0 "해당 인물은 [knight|E]로 봉직함"
+ NOT_CHARACTER_IS_A_KNIGHT_TRIGGER:0 "해당 인물은 [knight|E]로 봉직하지 않음"
+ I_AM_A_KNIGHT_TRIGGER:0 "[knight|E]로 봉직함"
  IS_A_KNIGHT_OF_CHARACTER_TRIGGER:0 "[CHARACTER.GetShortUIName|U]의 [knight|E]로 봉직함"
  IS_EMPLOYER_OF_CHARACTER_TRIGGER:0 "[CHARACTER.GetShortUIName|U]에게 고용됨"
  IS_HEIR_OF_CHARACTER_TRIGGER:0 "[CHARACTER.GetShortUINamePossessive|U] 후계자임"
@@ -911,9 +939,31 @@
  HAS_SPAWNED_COURT_EVENTS_FIRST:0 "해결하지 않은 [court_events|E] 존재"
  NOT_HAS_SPAWNED_COURT_EVENTS_FIRST:0 "해결하지 않은 [court_events|E]가 #bold 없음#!"
 
- FIRST_IS_DECISION_ON_COOLDOWN:0 "당신에게 $DECISION_NAME|V$의 대기 시간이 적용됨 #weak (만료: [DATE.GetStringLong])#!"
- NOT_FIRST_IS_DECISION_ON_COOLDOWN:0 "[CHARACTER.GetShortUIName]에게 $DECISION_NAME|V$의 대기 시간이 적용되지 #bold 않음#!"
- THIRD_IS_DECISION_ON_COOLDOWN:0 "[CHARACTER.GetShortUIName]에게 $DECISION_NAME|V$의 대기 시간이 적용됨 #weak (만료: [DATE.GetStringLong])#!"
- NOT_THIRD_IS_DECISION_ON_COOLDOWN:0 "[CHARACTER.GetShortUIName]에게 $DECISION_NAME|V$의 대기 시간이 적용되지 #bold 않음#!"
- GLOBAL_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$의 대기 시간이 적용됨 #weak (만료: [DATE.GetStringLong])#!"
- NOT_GLOBAL_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$의 대기 시간이 적용되지 #bold 않음#!"
+ FIRST_IS_DECISION_ON_COOLDOWN:1 "당신에게 [DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]의 대기 시간이 적용됨 #weak (만료: [DATE.GetStringLong])#!"
+ NOT_FIRST_IS_DECISION_ON_COOLDOWN:1 "[CHARACTER.GetShortUIName]에게 [DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]의 대기 시간이 적용되지 #bold 않음#!"
+ THIRD_IS_DECISION_ON_COOLDOWN:1 "[CHARACTER.GetShortUIName]에게 [DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]의 대기 시간이 적용됨 #weak (만료: [DATE.GetStringLong])#!"
+ NOT_THIRD_IS_DECISION_ON_COOLDOWN:1 "[CHARACTER.GetShortUIName]에게 [DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]의 대기 시간이 적용되지 #bold 않음#!"
+ GLOBAL_IS_DECISION_ON_COOLDOWN:1 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]의 대기 시간이 적용됨 #weak (만료: [DATE.GetStringLong])#!"
+ NOT_GLOBAL_IS_DECISION_ON_COOLDOWN:1 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]의 대기 시간이 적용되지 #bold 않음#!"
+
+ trait_xp:0 "[trait_level_track_xp|E]"
+ HAS_TRAIT_XP:0 "$TRACK_NAME$에 $NUM|V0$의 [trait_level_track_xp|E]를 보유하고 있음 #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ NOT_HAS_TRAIT_XP:0 "$TRACK_NAME$에 $NUM|V0$의 [trait_level_track_xp|E]를 보유하고 있지 #bold 않음#1  #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ I_HAVE_TRAIT_XP:0 "당신은 $TRACK_NAME$에 $NUM|V0$의 [trait_level_track_xp|E]를 보유하고 있음 #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ NOT_I_HAVE_TRAIT_XP:0 "당신은 $TRACK_NAME$에 $NUM|V0$의 [trait_level_track_xp|E]를 보유하고 있지 #bold 않음#! #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ THEY_HAS_TRAIT_XP:0 "[CHARACTER.GetShortUIName](은)는 $TRACK_NAME$에 $NUM|V0$의 [trait_level_track_xp|E]를 보유하고 있음 #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ NOT_THEY_HAS_TRAIT_XP:0 "[CHARACTER.GetShortUIName](은)는 $TRACK_NAME$에 $NUM|V0$의 [trait_level_track_xp|E]를 보유하고 있지 #bold 않음#! #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ 
+ HAS_TRAIT_XP_SINGLE:0 "[TRAIT.GetName( CHARACTER.Self )]의 [trait_level_track_xp|E]: $NUM|V0$"
+ NOT_HAS_TRAIT_XP_SINGLE:0 "[TRAIT.GetName( CHARACTER.Self )]에 $NUM|V0$의 [trait_level_track_xp|E]를 보유하고 있지 #bold 않음#1 "
+ I_HAVE_TRAIT_XP_SINGLE:0 "당신은 [TRAIT.GetName( CHARACTER.Self )]에 $NUM|V0$의 [trait_level_track_xp|E]를 보유하고 있음"
+ NOT_I_HAVE_TRAIT_XP_SINGLE:0 "당신은 [TRAIT.GetName( CHARACTER.Self )]에 $NUM|V0$의 [trait_level_track_xp|E]를 보유하고 있지 #bold 않음#!"
+ THEY_HAS_TRAIT_XP_SINGLE:0 "[CHARACTER.GetShortUIName](은)는 [TRAIT.GetName( CHARACTER.Self )]에 $NUM|V0$의 [trait_level_track_xp|E]를 보유하고 있음"
+ NOT_THEY_HAS_TRAIT_XP_SINGLE:0 "[CHARACTER.GetShortUIName](은)는 [TRAIT.GetName( CHARACTER.Self )]에 $NUM|V0$의 [trait_level_track_xp|E]를 보유하고 있지 #bold 않음#!"
+ HAS_TRAIT_XP_SINGLE_NONE:0 "[TRAIT.GetName( CHARACTER.Self )]의 [trait_level_track_xp|E]: $NUM|V0$"
+
+ custom.not_attending_activity:0 "[activity|E]에 참석 중이지 않음"
+
+ #ACCOLADES
+ IS_PLAYERS_ACCLAIMED_KNIGHT:0 "[CHARACTER.GetShortUIName](은)는 다른 플레이어의 [acclaimed_knight|E]임"
+ HAS_POTENTIAL_ACCOLADE_SUCCESSORS:0 "해당 [accolade|E]은 이미 잠재적인 계승자를 보유함"

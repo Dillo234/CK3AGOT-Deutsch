@@ -2,7 +2,7 @@
 l_korean:
  # dlc_fp2_flavor_events_oltner
  rice_fields_modifier:0 "논"
- rice_fields_modifier_desc:0 "해당 속주의 농노들은 영양분이 충만한 쌀을 경작해 배를 든든하게 채우고 새로운 요리법을 구상하고 있습니다."
+ rice_fields_modifier_desc:1 "해당 영지의 농노들은 영양분이 충만한 쌀을 경작해 배를 든든하게 채우고 새로운 요리법을 구상하고 있습니다."
  fp2_flavor.0001.t:0 "창발적인 작물"
  fp2_flavor.0001.desc:0 "[rice_propagator.GetTitledFirstNamePossessive] 수도는 번영을 구가하고 있다. [rice_propagator_capital.GetNameNoTier]의 농노들은 살집이 보기 좋게 올라 행복한 데다, 심지어 #EMP 생산적#!이기까지 하다!\n\n무슬림이 '쌀'이라는 새로운 작물을 수입해 왔는데, 기르기도 쉽고 백성들 배를 손쉽게 채울 수 있다. 이게 저들의 성공 비결인가? 내 농노들도 생산적이었으면 원이 없으련만...\n\n내 수도에도 논을 좀 가꿔볼까? 근데 어떻게 시작하지?"
  fp2_flavor.0001.a:0 "금화를 주면 [rice_propagator.GetFirstNamePossessiveNoTooltip] 입도 열리겠지."
@@ -143,7 +143,7 @@ l_korean:
 
  # fp2_event_dan
  fp2_yearly.1001.t:0 "새로운 체스"
- fp2_yearly.1001.desc:0 "나 자신과의 체스 게임에서 또 한 번 승리를 거둔 후 문득 그런 생각이 들었다. 나의 우월한 지성으로 이 게임을 좀 더 발전시킬 수 있지 않을까? \n\n쟁점은 어떤 변화가 제일 합리적으로 와닿느냐겠지."
+ fp2_yearly.1001.desc:0 "나 자신과의 체스 대국에서 또 한 번 승리를 거둔 후 문득 그런 생각이 들었다. 나의 우월한 지성으로 이 놀이를 좀 더 발전시킬 수 있지 않을까? \n\n쟁점은 어떤 변화가 제일 합리적으로 와닿느냐겠지."
  fp2_yearly.1001.a:0 "킹이 너무 약하긴 해."
  fp2_yearly.1001.b:0 "비숍을 좀 더 강하게 만들자."
  fp2_yearly.1001.c:0 "폰은 왜 고문을 못 하는 거지?"
@@ -221,7 +221,7 @@ l_korean:
  bad_intrigue.tt:0 "당신의 계책력 수치 덕분에 이 선택지를 사용할 수 있음"
 
  fp2_struggle.1000.t:0 "불쏘시개"
- fp2_struggle.1000.desc:0 "[tension_county.GetName]에서 [ROOT.Char.GetFaith.GetAdherentNameNoTooltip](와)과 [tension_county.GetCountyData.GetFaith.GetAdjectiveNoTooltip] 간의 충돌이 발생하고 있다. "절로 굴러들어온 기회를 발로 차선 안 되겠죠." 나의 [tension_councillor.GetCouncilTitle] [tension_councillor.GetFirstName](이)가 제안을 내놓았다. "[ROOT.Char.GetFaith.GetAdherentNameNoTooltip] 폭도에서 폭력배를 영입하는 겁니다. 고향 영지에서 #italic 훈련#!을 계속하더라도 나쁠 건 없죠! 아니, 아예 #italic 종용#!하는 것도 좋겠군요..." \n\n폭력적인 광신도를 영입하겠다고 [tension_county.GetNameNoTierNoTooltip](을)를 불타게 둬야 할까?" # [LocEditor:AwaitingBatchUpdate]
+ fp2_struggle.1000.desc:1 "[tension_county.GetName]에서 [ROOT.Char.GetFaith.GetAdherentNameNoTooltip](와)과 [tension_county.GetCountyData.GetFaith.GetAdjectiveNoTooltip] 간의 충돌이 발생하고 있다. "절로 굴러들어온 기회를 발로 차선 안 되겠죠." 나의 [tension_councillor.GetCouncilTitle] [tension_councillor.GetFirstName](이)가 제안을 내놓았다. "[ROOT.Char.GetFaith.GetAdherentNameNoTooltip] 폭도에서 폭력배를 영입하는 겁니다. 고향 영지에서 #italic 훈련#!을 계속하더라도 나쁠 건 없죠! 아니, 아예 #italic 종용#!하는 것도 좋겠군요..." \n\n폭력적인 광신도를 영입하겠다고 [tension_county.GetNameNoTierNoTooltip](을)를 불타게 둬야 할까?"
  fp2_struggle.1000.a:0 "증오를 퍼뜨리시오... 은밀하게."
  fp2_struggle.1000.b:0 "그대가 어련히 잘 처리하리라 믿겠소."
  fp2_struggle.1000.c:0 "아니, 긴장 구도를 풀어야겠소."
@@ -655,7 +655,7 @@ l_korean:
  fp2_struggle.2016.t:0 "아둔한 [ROOT.Char.GetFirstNameNoTooltip]에게,"
  fp2_struggle.2016.desc:0 "당신이 #DIE2 (제 요청에 따라)#! 제가 총애하는 사절 [fp2_struggle_2015_peasant_to_murder.GetFirstNameNoTooltip](을)를 살해한 것을 알고 있습니다. 걱정 붙들어 매십시오. 한 명의 충직한 봉신으로서 우리 둘만의 비밀로 간직할 테니 말이지요. 좋은 친구답게 상부상조하는 한은 말입니다."
  fp2_struggle.2016.a:0 "속았구나! 이런 [fp2_struggle_2015_murder_requester_vassal.Custom('InsultNoun')] 같은 자식!"
- fp2_struggle.2018.t:0 "$fp2_struggle.2017.t$: "
+ fp2_struggle.2018.t:1 "우정의 체스"
  fp2_struggle.2018.t.outcome.a:0 "우정의 탄생"
  fp2_struggle.2018.t.outcome.b:0 "단란한 한때"
  fp2_struggle.2018.t.outcome.c:0 "재미없는 시간"
@@ -899,11 +899,11 @@ l_korean:
  fp2_james.0005.a:0 "신앙을 위해서라면 뭐든 해야지!"
  fp2_james.0005.b:0 "내 시간을 낭비하지 말라!"
  fp2_toledo_nights_modifier:0 "지역 통치자 학살"
- fp2_toledo_nights_modifier_desc:0 "최근 해당 속주의 지역 종교 통치자들이 학살당했습니다."
+ fp2_toledo_nights_modifier_desc:1 "최근 해당 영지의 지역 종교 통치자들이 학살당했습니다."
  fp2_toledo_nights_fallout_modifier:0 "사제 학살"
  fp2_toledo_nights_fallout_modifier_desc:0 "최근 주변 마을에서 종교 지도자들이 학살당해 봉역 전체에 여파가 일고 있습니다."
  fp2_correctly_facing_church:0 "알맞은 방향을 바라보는 사원"
- fp2_correctly_facing_church_desc:0 "정상적인 숭배를 위해 해당 속주 내 사원의 벽돌 하나하나를 알맞은 방향으로 돌렸습니다."
+ fp2_correctly_facing_church_desc:1 "정상적인 숭배를 위해 해당 영지 내 사원의 벽돌 하나하나를 알맞은 방향으로 돌렸습니다."
 
  # fp2_nick_events (all three files)
  fp2_yearly.4001.t:0 "여섯 번째 시간"

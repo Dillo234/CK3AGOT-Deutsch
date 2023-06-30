@@ -1,5 +1,5 @@
 ﻿l_russian:
- CREATE_CLAIMANT_FACTION_NO_CLAIMANT_IN_REALM:0 "@warning_icon!#X За пределами державы [Select_CString(CHARACTER.IsPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'его персонажа', '' )]#!"
+ CREATE_CLAIMANT_FACTION_NO_CLAIMANT_IN_REALM:0 "@warning_icon!#X За пределами державы [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]#!"
  CREATE_CLAIMANT_FACTION_NO_CLAIMANT_UNLANDED:0 "@warning_icon!#X Этот персонаж не безземельный#!"
  CREATE_CLAIMANT_FACTION_INVITE:0 "#T Пригласить претендента#!"
  CREATE_CLAIMANT_FACTION_SELECT_CLAIMANT:0 "@warning_icon!#X Претендент не выбран#!"

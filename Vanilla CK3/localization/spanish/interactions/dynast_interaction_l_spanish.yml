@@ -3,6 +3,8 @@
  disinherit_interaction:0 "Desheredar"
  disinherit_interaction_desc:0 "$dynasty_interaction_header$Quitar a [recipient.GetShortUINameNoTooltip] de la [line_of_succession|lE]"
  disinherit_interaction_notification:0 "Miembro de la dinastía desheredado"
+ courtly_vassal_disapproves_disinheriting:0 "Todo [vassal|lE] [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) pierde #N 20#! de [opinion|lE] sobre [actor.GetShortUIName] durante #V 10 años#! #weak (No aprueban desheredar a un heredero que no está cuestionado)#!"
+
 
  restore_inheritance_interaction:0 "Restaurar herencia"
  restore_inheritance_interaction_desc:0 "$dynasty_interaction_header$Reponer a [recipient.GetShortUINameNoTooltip] en la [line_of_succession|lE] natural\n\n#weak Esto está disponible porque [recipient.Custom('ES_RleRla')] habían [disinherited|E]#!"

@@ -35,6 +35,7 @@
  marshal_task.1102.desc:0 "Le travail [councillor.Custom('FR_du_Char_Pi')][councillor.GetTitledFirstName] visant à réorganiser mes levées se poursuit en [county.GetName], où la présence militaire accrue a fait des merveilles.\n\nLes bandits ont été éradiqués et les contrebandiers et ravisseurs ont trop peur pour agir."
  marshal_task.1102.a:0 "Mes sujets peuvent toujours se sentir en sécurité."
  marshal_task.1102.notification:0 "Augmentation de la présence militaire"
+ marshal_task.1103.notification:0 "Levées préparées pour la bataille"
  #### END (Jonas W)
 
  marshal_task.2001.t:0 "Commandant blessé"
@@ -45,6 +46,7 @@
  
  marshal_task.2101.notification:0 "[commander.GetShortUINameNoTooltip] a obtenu le trait [commander.Custom('CommanderTraitBeingTaught')]"
  marshal_task.2102.notification:0 "Chevalier s’améliore : [commander.GetShortUIName]"
+ marshal_task.2103.notification:0 "Entraînement aux épreuves martiales : [trained_knight.GetShortUIName]"
  marshal_task.0302.notification.a:0 "Commandant s’améliore nettement : [commander.GetShortUIName]"
  marshal_task.0302.notification.b:0 "Commandant s’améliore : [commander.GetShortUIName]"
  marshal_task.0303.notification.a:0 "Chevalier s’améliore nettement : [commander.GetShortUIName]"
@@ -93,6 +95,8 @@
  marshal_task.3102.desc:0 "M[baron.Custom2('FR_RelationToMe_OnA', ROOT.Char)],\n Votre [councillor.GetCouncilTitle|l], [councillor.Custom('FR_le_Char_Pi')][councillor.GetTitledFirstName], a travaillé sans relâche pour réorganiser le [county.GetName], et nous en récoltons déjà les fruits.\nJe tiens à vous remercier personnellement d’avoir envoyé un[councillor.Custom('FR_E')] te[councillor.Custom('FR_LLle')] [councillor.GetWomanMan] pour nous aider !"
  marshal_task.3102.a:0 "Continuez votre bon travail, [councillor.GetFirstNameNoTooltip]."
  marshal_task.3102.notification:0 "[councillor.GetCouncilTitle] impressionne un vassal"
+
+ marshal_task.3103.notification:0 "Paysannerie soumise par le [acclaimed_knight|l]"
 
  marshal_task.4002.notification:0 "Gardes royaux désorganisés"
  task_manage_guards_disorganized_modifier:0 "$marshal_task.4002.notification$"

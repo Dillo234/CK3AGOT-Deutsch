@@ -119,6 +119,8 @@
  CustomLoc_FR_male_ServiteurServante:0 "serviteur"
  CustomLoc_FR_female_AinIne:0 "ine"
  CustomLoc_FR_male_AinIne:0 "ain"
+ CustomLoc_FR_female_LequelLaquelle:0 "laquelle"
+ CustomLoc_FR_male_LequelLaquelle:0 "lequel"
 
  signature_weapon_sword_FR_Du:0 "de l’épée"
  signature_weapon_mace_FR_Du:0 "de la masse d’armes"
@@ -197,13 +199,13 @@
  relation_jailer_male_FR_OnA:0 "on emprisonneur"
  relation_kinsman_FR_OnA:0 "on parent"
  relation_kinswoman_FR_OnA:0 "a parente"
- relation_knight_FR_OnA:0 "on chevalier"
+ relation_knight_FR_OnA:0 "on [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')]"
  relation_liege_female_FR_OnA:0 "a dame lige"
  relation_liege_female_lover_FR_OnA:0 "on amante et dame lige"
  relation_liege_female_rival_FR_OnA:0 "a rivale et dame lige"
  relation_liege_male_FR_OnA:0 "on seigneur lige"
  relation_liege_male_lover_FR_OnA:0 "on amant et seigneur lige"
- relation_liege_male_rival_FR_OnA:0 "rival et seigneur lige"
+ relation_liege_male_rival_FR_OnA:0 "on rival et seigneur lige"
  relation_lover_female_FR_OnA:0 "on amante"
  relation_lover_male_FR_OnA:0 "on amant"
  relation_mentor_FR_OnA:0 "on mentor"
@@ -293,6 +295,31 @@
  relation_court_gardener_male_FR_OnA:0 "on jardinier de la Cour"
  relation_chief_qadi_female_FR_OnA:0 "a chef cadi"
  relation_chief_qadi_male_FR_OnA:0 "on chef cadi"
+ relation_sister_nemesis_FR_OnA:0 "a sœur et ennemie jurée"
+ relation_brother_nemesis_FR_OnA:0 "on frère et ennemi juré"
+ relation_sister_best_friend_FR_OnA:0 "a sœur et meilleure amie"
+ relation_brother_best_friend_FR_OnA:0 "on frère et meilleur ami"
+ relation_liege_female_soulmate_FR_OnA:0 "a dame lige et âme sœur"
+ relation_liege_male_soulmate_FR_OnA:0 "on seigneur lige et âme sœur"
+ relation_soulmate_female_FR_OnA:0 "on âme sœur"
+ relation_soulmate_male_FR_OnA:0 "on âme sœur"
+ relation_best_friend_female_FR_OnA:0 "a meilleure amie"
+ relation_best_friend_male_FR_OnA:0 "on meilleur ami"
+ relation_liege_female_nemesis_FR_OnA:0 "on ennemie jurée et dame lige"
+ relation_liege_male_nemesis_FR_OnA:0 "on ennemi juré et seigneur lige"
+ relation_vassal_female_nemesis_FR_OnA:0 "on ennemie jurée et vassale"
+ relation_vassal_male_nemesis_FR_OnA:0 "on ennemi juré et vassal"
+ relation_nemesis_female_FR_OnA:0 "on ennemie jurée"
+ relation_nemesis_male_FR_OnA:0 "on ennemi juré"
+ relation_travel_leader_female_FR_OnA:0 "on maître-caravanier"
+ relation_travel_leader_male_FR_OnA:0 "on maître-caravanier"
+ relation_travel_leader_daughter_FR_OnA:0 "a fille et chef caravanier"
+ relation_travel_leader_son_FR_OnA:0 "on fils et chef caravanier"
+ relation_travel_leader_wife_FR_OnA:0 "a femme et chef caravanier"
+ relation_travel_leader_husband_FR_OnA:0 "on mari et chef caravanier"
+ relation_travel_leader_mother_FR_OnA:0 "a mère et chef caravanier"
+ relation_travel_leader_father_FR_OnA:0 "on père et chef caravanier"
+ relation_travel_leader_FR_OnA:0 "[second.Custom('FR_OnA')] chef caravanier"
 
  daughter_in_law_FR_Le:0 "la belle-fille"
  relation_acquaintance_female_FR_Le:1 "la connaissance"
@@ -350,7 +377,7 @@
  relation_jailer_male_FR_Le:0 "l’emprisonneur"
  relation_kinsman_FR_Le:0 "le parent"
  relation_kinswoman_FR_Le:0 "la parente"
- relation_knight_FR_Le:0 "le chevalier"
+ relation_knight_FR_Le:0 "le [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')]"
  relation_liege_female_FR_Le:0 "la dame lige"
  relation_liege_female_lover_FR_Le:0 "l’amante et dame lige"
  relation_liege_female_rival_FR_Le:0 "la rivale et dame lige"
@@ -446,6 +473,75 @@
  relation_court_gardener_male_FR_Le:0 "le jardinier de la Cour"
  relation_chief_qadi_female_FR_Le:0 "la chef cadi"
  relation_chief_qadi_male_FR_Le:0 "le chef cadi"
+ relation_sister_nemesis_FR_Le:0 "la sœur et ennemie jurée"
+ relation_brother_nemesis_FR_Le:0 "le frère et ennemi juré"
+ relation_sister_best_friend_FR_Le:0 "la sœur et meilleure amie"
+ relation_brother_best_friend_FR_Le:0 "le frère et meilleur ami"
+ relation_liege_female_soulmate_FR_Le:0 "la dame lige et âme sœur"
+ relation_liege_male_soulmate_FR_Le:0 "le seigneur lige et âme sœur"
+ relation_soulmate_female_FR_Le:0 "l’âme sœur"
+ relation_soulmate_male_FR_Le:0 "l’âme sœur"
+ relation_best_friend_female_FR_Le:0 "la meilleure amie"
+ relation_best_friend_male_FR_Le:0 "le meilleur ami"
+ relation_liege_female_nemesis_FR_Le:0 "l’ennemie jurée et dame lige"
+ relation_liege_male_nemesis_FR_Le:0 "l’ennemi juré et seigneur lige"
+ relation_vassal_female_nemesis_FR_Le:0 "l’ennemie jurée et vassale"
+ relation_vassal_male_nemesis_FR_Le:0 "l’ennemi juré et vassal"
+ relation_nemesis_female_FR_Le:0 "l’ennemie jurée"
+ relation_nemesis_male_FR_Le:0 "l’ennemi juré"
+ relation_travel_leader_female_FR_Le:0 "le maître-caravanier"
+ relation_travel_leader_male_FR_Le:0 "le maître-caravanier"
+ relation_travel_leader_daughter_FR_Le:0 "la fille et chef caravanier"
+ relation_travel_leader_son_FR_Le:0 "le fils et chef caravanier"
+ relation_travel_leader_wife_FR_Le:0 "la femme et chef caravanier"
+ relation_travel_leader_husband_FR_Le:0 "le mari et chef caravanier"
+ relation_travel_leader_mother_FR_Le:0 "la mère et chef caravanier"
+ relation_travel_leader_father_FR_Le:0 "le père et chef caravanier"
+ relation_travel_leader_FR_Le:0 "[second.Custom('FR_LeLa')] chef caravanier"
+ relation_cousininlaw_female_FR_OnA:0 "a cousine par alliance"
+ relation_cousininlaw_male_FR_OnA:0 "on cousin par alliance"
+ relation_auntinlaw_FR_OnA:0 "a tante par alliance"
+ relation_uncleinlaw_FR_OnA:0 "on oncle par alliance"
+ relation_grandmotherinlaw_FR_OnA:0 "a grand-mère par alliance"
+ relation_grandfatherinlaw_FR_OnA:0 "on grand-père par alliance"
+ relation_great_grandmotherinlaw_FR_OnA:0 "on arrière-grand-mère par alliance"
+ relation_great_grandfatherinlaw_FR_OnA:0 "on arrière-grand-père par alliance"
+ relation_granddaughterinlaw_FR_OnA:0 "a petite-fille par alliance"
+ relation_grandsoninlaw_FR_OnA:0 "on petit-fils par alliance"
+ relation_great_granddaughterinlaw_FR_OnA:0 "on arrière-petite-fille par alliance"
+ relation_great_grandsoninlaw_FR_OnA:0 "on arrière-petit-fils par alliance"
+ relation_nieceinlaw_FR_OnA:0 "a nièce par alliance"
+ relation_nephewinlaw_FR_OnA:0 "on neveu par alliance"
+ relation_fellow_traveler_female_FR_OnA:0 "a compagne de voyage"
+ relation_fellow_traveler_male_FR_OnA:0 "on compagnon de voyage"
+ relation_fellow_pilgrim_female_FR_OnA:0 "a compagne de pèlerinage"
+ relation_fellow_pilgrim_male_FR_OnA:0 "on compagnon de pèlerinage"
+ relation_fellow_contestant_female_FR_OnA:0 "a co-compétitrice"
+ relation_fellow_contestant_male_FR_OnA:0 "on co-compétiteur"
+ relation_fellow_attendee_female_FR_OnA:0 "a co-spectatrice"
+ relation_fellow_attendee_male_FR_OnA:0 "on co-spectateur"
+ relation_cousininlaw_female_FR_Le:0 "la cousine par alliance"
+ relation_cousininlaw_male_FR_Le:0 "le cousin par alliance"
+ relation_auntinlaw_FR_Le:0 "la tante par alliance"
+ relation_uncleinlaw_FR_Le:0 "l’oncle par alliance"
+ relation_grandmotherinlaw_FR_Le:0 "la grand-mère par alliance"
+ relation_grandfatherinlaw_FR_Le:0 "le grand-père par alliance"
+ relation_great_grandmotherinlaw_FR_Le:0 "l’arrière-grand-mère par alliance"
+ relation_great_grandfatherinlaw_FR_Le:0 "l’arrière-grand-père par alliance"
+ relation_granddaughterinlaw_FR_Le:0 "la petite-fille par alliance"
+ relation_grandsoninlaw_FR_Le:0 "le petit-fils par alliance"
+ relation_great_granddaughterinlaw_FR_Le:0 "l’arrière-petite-fille par alliance"
+ relation_great_grandsoninlaw_FR_Le:0 "l’arrière-petit-fils par alliance"
+ relation_nieceinlaw_FR_Le:0 "la nièce par alliance"
+ relation_nephewinlaw_FR_Le:0 "le neveu par alliance"
+ relation_fellow_traveler_female_FR_Le:0 "la compagne de voyage"
+ relation_fellow_traveler_male_FR_Le:0 "le compagnon de voyage"
+ relation_fellow_pilgrim_female_FR_Le:0 "la compagne de pèlerinage"
+ relation_fellow_pilgrim_male_FR_Le:0 "le compagnon de pèlerinage"
+ relation_fellow_contestant_female_FR_Le:0 "la co-compétitrice"
+ relation_fellow_contestant_male_FR_Le:0 "le co-compétiteur"
+ relation_fellow_attendee_female_FR_Le:0 "la co-spectatrice"
+ relation_fellow_attendee_male_FR_Le:0 "le co-spectateur"
 
  # FR_CompositionType_lela
  CompositionType_song_FR_Le:0 "la chanson"
@@ -688,22 +784,25 @@
  terrain_floodplains_FR_Plural:0 "plaines inondables"
  terrain_drylands_FR_Plural:0 "terres arides"
  terrain_forest_FR_Plural:0 "forêts"
- # Lignes pour LocalPlayerString. La portée doit être CHARACTER
- Loc_FR_mariage_1:0 "[CHARACTER.Custom('FR_le_Char_U_P')][CHARACTER.GetUIName] se"
- Loc_FR_mariage_2:0 "[CHARACTER.Custom('FR_le_Char_U_P')][CHARACTER.GetUIName]"
+ # Lignes utilisées par LocalPlayerString (la portée doit être CHARACTER)
+ Loc_FR_le_GetTitledFirstNameNoTooltip:0 " [CHARACTER.Custom('FR_le_Char_Pi')][CHARACTER.GetTitledFirstNameNoTooltip]"
+ Loc_FR_le_GetTitledFirstName:0 " [CHARACTER.Custom('FR_le_Char_Pi')][CHARACTER.GetTitledFirstName]"
+ Loc_FR_au_GetTitledFirstName:0 " [CHARACTER.Custom('FR_au_Char_Pi')][CHARACTER.GetTitledFirstName]"
+ Loc_FR_au_GetTitledFirstNameNoTooltip:0 " [CHARACTER.Custom('FR_au_Char_Pi')][CHARACTER.GetTitledFirstNameNoTooltip]"
  Loc_FR_du_GetTitledFirstName:0 " [CHARACTER.Custom('FR_du_Char_Pi')][CHARACTER.GetTitledFirstName]"
  Loc_FR_du_GetTitledFirstNameNoTooltip:0 " [CHARACTER.Custom('FR_du_Char_Pi')][CHARACTER.GetTitledFirstNameNoTooltip]"
  Loc_FR_du_GetName:0 " [CHARACTER.Custom('FR_du_Char')][CHARACTER.GetName]"
  Loc_FR_du_GetShortUIName:0 " [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUIName]"
  Loc_FR_du_GetShortUINameNoTooltip:0 " [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUINameNoTooltip]"
- Loc_FR_le_GetShortUIName:0 " [CHARACTER.Custom('FR_le_Char_U_Pi')][CHARACTER.GetShortUIName]"
- Loc_FR_le_GetShortUIName_U:0 "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName]"
- Loc_FR_le_GetTitledFirstNameNoTooltip:0 " [CHARACTER.Custom('FR_le_Char_Pi')][CHARACTER.GetTitledFirstNameNoTooltip]"
  Loc_FR_au_GetShortUIName:0 " [CHARACTER.Custom('FR_au_Char_U_Pi')][CHARACTER.GetShortUIName]"
+ Loc_FR_au_GetShortUINameNoTooltip:0 " [CHARACTER.Custom('FR_au_Char_U_Pi')][CHARACTER.GetShortUINameNoTooltip]"
+ Loc_FR_le_GetShortUIName:0 " [CHARACTER.Custom('FR_le_Char_U_Pi')][CHARACTER.GetShortUIName]"
+ Loc_FR_le_GetShortUINameNoTooltip:0 " [CHARACTER.Custom('FR_le_Char_U_Pi')][CHARACTER.GetShortUINameNoTooltip]"
+ Loc_FR_le_GetShortUIName_U:0 "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName]"
  Loc_FR_le_GetUIName:0 " [CHARACTER.Custom('FR_le_Char_U_P')][CHARACTER.GetUIName]"
  Loc_FR_du_GetUIName:0 " [CHARACTER.Custom('FR_du_Char_U_P')][CHARACTER.GetUIName]"
- ## fonctionne de pair avec "Vous êtes" ou "Je suis"
- Loc_FR_le_GetShortUIName_U_est:0 "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] est"
+ Loc_FR_au_GetTitleAsNameNoTooltip:0 " [CHARACTER.Custom('FR_au_Char_L')][CHARACTER.GetTitleAsNameNoTooltip]"
+ Loc_FR_du_GetTitleAsNameNoTooltip:0 " [CHARACTER.Custom('FR_du_Char_L')][CHARACTER.GetTitleAsNameNoTooltip]"
  # FR_InspirationAdventureDestination_En
  world_europe_west_FR_en:0 "en "
  world_europe_north_FR_en:0 "en "
@@ -768,7 +867,7 @@
  artifact_type_primary_armament_FR_Le:0 "l’"
  artifact_type_armor_FR_Le:0 "l’"
  artifact_type_regalia_FR_Le:0 "l’"
- artifact_type_trinket_FR_Le:0 "le"
+ artifact_type_trinket_FR_Le:0 "le "
  artifact_type_wall_big_FR_Le:0 "la "
  artifact_type_wall_small_FR_Le:0 "la "
  artifact_type_throne_FR_Le:0 "le "
@@ -834,6 +933,7 @@
  inspiration_type_material_stone_FR_Du:0 "de la "
  inspiration_type_material_ingredients_FR_Du:0 "des "
  inspiration_type_material_fallback_FR_Du:0 "des "
+ inspiration_type_material_clay_FR_Du:0 "de l’"
  # FR_GetInspirationMaterialType_OnA
  inspiration_type_material_writing_FR_On:0 "es "
  inspiration_type_material_metal_FR_On:0 "on "
@@ -844,6 +944,7 @@
  inspiration_type_material_stone_FR_On:0 "a "
  inspiration_type_material_ingredients_FR_On:0 "es "
  inspiration_type_material_fallback_FR_On:0 "es "
+ inspiration_type_material_clay_FR_On:0 "on "
  # FR_GetInspirationTypeObject_OnA
  inspiration_type_object_book_FR_On:0 "on "
  inspiration_type_object_weapon_FR_On:0 "[ROOT.Char.Custom('FR_ArtifactWeaponBaseType_OnA')]"
@@ -905,12 +1006,16 @@
  inspiration_artisan_base_type_sculpture_FR_Le:0 "la "
  inspiration_artisan_base_type_cabinet_FR_Le:0 "le "
  inspiration_artisan_base_type_throne_FR_Le:0 "le "
+ inspiration_artisan_base_type_scientific_apparatus_FR_Le:0 "l’"
+ inspiration_artisan_base_type_urn_FR_Le:0 "l’"
  # FR_InspirationArtisanBaseType_OnA
  inspiration_artisan_base_type_chest_FR_On:0 "on "
  inspiration_artisan_base_type_box_FR_On:0 "a "
  inspiration_artisan_base_type_sculpture_FR_On:0 "a "
  inspiration_artisan_base_type_cabinet_FR_On:0 "on "
  inspiration_artisan_base_type_throne_FR_On:0 "on "
+ inspiration_artisan_base_type_scientific_apparatus_FR_On:0 "on "
+ inspiration_artisan_base_type_urn_FR_On:0 "on  "
  # FR_ArtifactArmorTypeLowercase_Le
  artifact_armor_mail_lowercase_FR_Le:0 "la "
  artifact_armor_plate_lowercase_FR_Le:0 "l’"
@@ -988,11 +1093,564 @@
  bg_gametype_hnefatafl_FR_Au:0 "au hnefatafl"
  bg_gametype_tabula_FR_Au:0 "au tablier"
  bg_gametype_chess_FR_Au:0 "aux échecs"
+ bg_gametype_go_FR_Au:0 "au go"
+ bg_gametype_fidchell_FR_Au:0 "au fidchell"
  # FR_de_BG_GameType
  bg_gametype_pachisi_FR_De:0 "de pachisi"
  bg_gametype_hnefatafl_FR_De:0 "de hnefatafl"
  bg_gametype_tabula_FR_De:0 "de tablier"
- bg_gametype_chess_FR_De:0 "d'échecs"
+ bg_gametype_chess_FR_De:0 "d’échecs"
+ bg_gametype_go_FR_De:0 "de go"
+ bg_gametype_fidchell_FR_De:0 "de fidchell"
+ # FR_CouncilPosition_Le
+ councillor_chancellor_FR_Le:0 "[ROOT.Char.Custom('FR_LeLa')] chanceli[ROOT.Char.Custom('FR_ErEre')]"
+ councillor_steward_FR_Le:0 "l’intendant[ROOT.Char.Custom('FR_E')]"
+ councillor_marshal_FR_Le:0 "[ROOT.Char.Custom('FR_LeLa')] maréchale"
+ councillor_spymaster_FR_Le:0 "[ROOT.Char.Custom('FR_LeLa')] maître-espio[ROOT.Char.Custom('FR_NNne')]"
+ councillor_court_chaplain_FR_Le:0 "le chapelain de la Cour"
+ # FR_GetRandomWonContest_Le
+ tournament_contest_FR_Le:0 "l’épreuve"
+ tournament_phase_archery_FR_Le:0 "le tir à l’arc"
+ tournament_phase_recital_FR_Le:0 "le récital"
+ tournament_phase_joust_FR_Le:0 "la joute"
+ tournament_phase_duel_FR_Le:0 "le duel"
+ tournament_phase_wrestling_FR_Le:0 "la lutte"
+ tournament_phase_board_game_FR_Le:0 "le jeu de plateau"
+ tournament_phase_horse_race_FR_Le:0 "la course de chevaux"
+ # FR_get_region_root_vegetable_Un
+ root_vegetable_onion_FR_Un:0 "un oignon"
+ root_vegetable_okra_FR_Un:0 "un gombo"
+ root_vegetable_carrot_FR_Un:0 "une carotte"
+ root_vegetable_parsnip_FR_Un:0 "un panais"
+ root_vegetable_turnip_FR_Un:0 "un navet"
+ root_vegetable_yam_FR_Un:0 "un igname"
+ root_vegetable_kokoro_FR_Un:0 "un kokoro"
+ root_vegetable_ginger_FR_Un:0 "un gingembre"
+ root_vegetable_taro_FR_Un:0 "un taro"
+ # FR_GetRandomRegionalWildDaytimeBird_Plural
+ duck_FR_Plural:0 "canards"
+ pigeon_FR_Plural:0 "pigeons"
+ blackbird_FR_Plural:0 "merles"
+ raven_FR_Plural:0 "corbeaux"
+ vulture_FR_Plural:0 "vautours"
+ robin_FR_Plural:0 "rouge-gorges"
+ sparrow_FR_Plural:0 "moineaux"
+ crane_FR_Plural:0 "grues"
+ stork_FR_Plural:0 "cigognes"
+ seagull_FR_Plural:0 "mouettes"
+ tarrock_FR_Plural:0 "mouettes"
+ # FR_ActivityShort_template & FR_ActivityFull_template
+ FR_activity_localplayer:0 ""
+ FR_activity_feast:0 "" # Festin
+ FR_activity_gruesome_festival:0 "" # Fête sacrificielle
+ FR_activity_hunt:0 "" # Chasse
+ FR_activity_pilgrimage:0 "" # Pèlerinage
+ FR_activity_playdate:0 "" # Rencontre des pairs
+ FR_activity_tour:0 "" # Grande tournée
+ FR_activity_tournament:0 "" # Grand tournoi
+ FR_activity_wedding:0 "" # Grand mariage
+ FR_activity_witch_ritual:0 "" # Grand rite
+ FR_activity_fallback:0 ""
+ # FR_Le_ActivityShort & FR_Le_ActivityFull
+ FR_activity_localplayer_Le:0 ""
+ FR_activity_feast_Le:0 "le " # Festin
+ FR_activity_gruesome_festival_Le:0 "la " # Fête sacrificielle
+ FR_activity_hunt_Le:0 "la " # Chasse
+ FR_activity_pilgrimage_Le:0 "le " # Pèlerinage
+ FR_activity_playdate_Le:0 "la " # Rencontre des pairs
+ FR_activity_tour_Le:0 "la " # Grande tournée
+ FR_activity_tournament_Le:0 "le " # Grand tournoi
+ FR_activity_wedding_Le:0 "le " # Grand mariage
+ FR_activity_witch_ritual_Le:0 "le " # Grand rite
+ FR_activity_fallback_Le:0 "le "
+ # FR_Au_ActivityShort & FR_Au_ActivityFull
+ FR_activity_localplayer_Au:0 "à "
+ FR_activity_feast_Au:0 "au " # Festin
+ FR_activity_gruesome_festival_Au:0 "à la " # Fête sacrificielle
+ FR_activity_hunt_Au:0 "à la " # Chasse
+ FR_activity_pilgrimage_Au:0 "au " # Pèlerinage
+ FR_activity_playdate_Au:0 "à la " # Rencontre des pairs
+ FR_activity_tour_Au:0 "à la " # Grande tournée
+ FR_activity_tournament_Au:0 "au " # Grand tournoi
+ FR_activity_wedding_Au:0 "au " # Grand mariage
+ FR_activity_witch_ritual_Au:0 "au " # Grand rite
+ FR_activity_fallback_Au:0 "au "
+ # FR_Du_ActivityShort & FR_Du_ActivityFull
+ FR_activity_localplayer_Du:0 "de "
+ FR_activity_feast_Du:0 "du " # Festin
+ FR_activity_gruesome_festival_Du:0 "de la " # Fête sacrificielle
+ FR_activity_hunt_Du:0 "de la " # Chasse
+ FR_activity_pilgrimage_Du:0 "du " # Pèlerinage
+ FR_activity_playdate_Du:0 "de la " # Rencontre des pairs
+ FR_activity_tour_Du:0 "de la " # Grande tournée
+ FR_activity_tournament_Du:0 "du " # Grand tournoi
+ FR_activity_wedding_Du:0 "du " # Grand mariage
+ FR_activity_witch_ritual_Du:0 "du " # Grand rite
+ FR_activity_fallback_Du:0 "du "
+ # FR_E_ActivityShort
+ FR_activity_feast_E:0 "" # Festin
+ FR_activity_gruesome_festival_E:0 "e" # Fête sacrificielle
+ FR_activity_hunt_E:0 "e" # Chasse
+ FR_activity_pilgrimage_E:0 "" # Pèlerinage
+ FR_activity_playdate_E:0 "e" # Rencontre des pairs
+ FR_activity_tour_E:0 "e" # Grande tournée
+ FR_activity_tournament_E:0 "" # Grand tournoi
+ FR_activity_wedding_E:0 "" # Grand mariage
+ FR_activity_witch_ritual_E:0 "" # Grand rite
+ FR_activity_fallback_E:0 ""
+
+ # FR_ActivityPhase_template
+ FR_witch_ritual_phase:0 "" # Rituel des ténèbres
+ FR_feast_phase_meal:0 "" # Banquet
+ FR_feast_phase_toast:0 "" # Trinquée
+ FR_pilgrimage_phase_solo:0 "" # Pèlerinage
+ FR_playdate_phase:0 "" # Rencontre
+ FR_wedding_phase_ceremony:0 "" # Cérémonie de mariage
+ FR_wedding_phase_banquet:0 "" # Repas de noces
+ FR_wedding_phase_wnight:0 "" # Nuit de noces
+ FR_tournament_phase_melee:0 "" # Mêlée
+ FR_tournament_phase_archery:0 "" # Tir à l’arc
+ FR_tournament_phase_recital:0 "" # Récital
+ FR_tournament_phase_joust:0 "" # Joute
+ FR_tournament_phase_duel:0 "" # Duel
+ FR_tournament_phase_wrestling:0 "" # Lutte
+ FR_tournament_phase_board_game:0 "" # Jeu de plateau
+ FR_tournament_phase_horse_race:0 "" # Course de chevaux
+ FR_tournament_phase_ceremony:0 "" # Cérémonie
+ FR_tour_phase_tour_grounds:0 "" # Visite des terres
+ FR_tour_phase_dinner:0 "" # Dîner organisé
+ FR_tour_phase_cultural_festival:0 "" # Festival culturel
+ FR_tour_phase_journey_home:0 "" # Retour
+ FR_gruesome_festival_phase:0 "" # Fête sacrificielle
+ FR_hunt_phase:0 "" # Chasse
+ FR_activity_phase_fallback:0 ""
+ # FR_Le_ActivityPhase
+ FR_witch_ritual_phase_Le:0 "le " # Rituel des ténèbres
+ FR_feast_phase_meal_Le:0 "le " # Banquet
+ FR_feast_phase_toast_Le:0 "la " # Trinquée
+ FR_pilgrimage_phase_solo_Le:0 "le " # Pèlerinage
+ FR_playdate_phase_Le:0 "la " # Rencontre
+ FR_wedding_phase_ceremony_Le:0 "la " # Cérémonie de mariage
+ FR_wedding_phase_banquet_Le:0 "le " # Repas de noces
+ FR_wedding_phase_wnight_Le:0 "la " # Nuit de noces
+ FR_tournament_phase_melee_Le:0 "la " # Mêlée
+ FR_tournament_phase_archery_Le:0 "le " # Tir à l’arc
+ FR_tournament_phase_recital_Le:0 "le " # Récital
+ FR_tournament_phase_joust_Le:0 "la " # Joute
+ FR_tournament_phase_duel_Le:0 "le " # Duel
+ FR_tournament_phase_wrestling_Le:0 "la " # Lutte
+ FR_tournament_phase_board_game_Le:0 "le " # Jeu de plateau
+ FR_tournament_phase_horse_race_Le:0 "la " # Course de chevaux
+ FR_tournament_phase_ceremony_Le:0 "la " # Cérémonie
+ FR_tour_phase_tour_grounds_Le:0 "la " # Visite des terres
+ FR_tour_phase_dinner_Le:0 "le " # Dîner organisé
+ FR_tour_phase_cultural_festival_Le:0 "le " # Festival culturel
+ FR_tour_phase_journey_home_Le:0 "le " # Retour
+ FR_gruesome_festival_phase_Le:0 "la " # Fête sacrificielle
+ FR_hunt_phase_Le:0 "la " # Chasse
+ FR_activity_phase_fallback_Le:0 "le "
+ # FR_Du_ActivityPhase
+ FR_witch_ritual_phase_Du:0 "du " # Rituel des ténèbres
+ FR_feast_phase_meal_Du:0 "du " # Banquet
+ FR_feast_phase_toast_Du:0 "de la " # Trinquée
+ FR_pilgrimage_phase_solo_Du:0 "du " # Pèlerinage
+ FR_playdate_phase_Du:0 "de la " # Rencontre
+ FR_wedding_phase_ceremony_Du:0 "de la " # Cérémonie de mariage
+ FR_wedding_phase_banquet_Du:0 "du " # Repas de noces
+ FR_wedding_phase_wnight_Du:0 "de la " # Nuit de noces
+ FR_tournament_phase_melee_Du:0 "de la " # Mêlée
+ FR_tournament_phase_archery_Du:0 "du " # Tir à l’arc
+ FR_tournament_phase_recital_Du:0 "du " # Récital
+ FR_tournament_phase_joust_Du:0 "de la " # Joute
+ FR_tournament_phase_duel_Du:0 "du " # Duel
+ FR_tournament_phase_wrestling_Du:0 "de la " # Lutte
+ FR_tournament_phase_board_game_Du:0 "du " # Jeu de plateau
+ FR_tournament_phase_horse_race_Du:0 "de la " # Course de chevaux
+ FR_tournament_phase_ceremony_Du:0 "de la " # Cérémonie
+ FR_tour_phase_tour_grounds_Du:0 "de la " # Visite des terres
+ FR_tour_phase_dinner_Du:0 "du " # Dîner organisé
+ FR_tour_phase_cultural_festival_Du:0 "du " # Festival culturel
+ FR_tour_phase_journey_home_Du:0 "du " # Retour
+ FR_gruesome_festival_phase_Du:0 "de la " # Fête sacrificielle
+ FR_hunt_phase_Du:0 "de la " # Chasse
+ FR_activity_phase_fallback_Du:0 "du "
+ # FR_Au_ActivityPhase
+ FR_witch_ritual_phase_Au:0 "au " # Rituel des ténèbres
+ FR_feast_phase_meal_Au:0 "au " # Banquet
+ FR_feast_phase_toast_Au:0 "à la " # Trinquée
+ FR_pilgrimage_phase_solo_Au:0 "au " # Pèlerinage
+ FR_playdate_phase_Au:0 "à la " # Rencontre
+ FR_wedding_phase_ceremony_Au:0 "à la " # Cérémonie de mariage
+ FR_wedding_phase_banquet_Au:0 "au " # Repas de noces
+ FR_wedding_phase_wnight_Au:0 "à la " # Nuit de noces
+ FR_tournament_phase_melee_Au:0 "à la " # Mêlée
+ FR_tournament_phase_archery_Au:0 "au " # Tir à l’arc
+ FR_tournament_phase_recital_Au:0 "au " # Récital
+ FR_tournament_phase_joust_Au:0 "à la " # Joute
+ FR_tournament_phase_duel_Au:0 "au " # Duel
+ FR_tournament_phase_wrestling_Au:0 "à la " # Lutte
+ FR_tournament_phase_board_game_Au:0 "au " # Jeu de plateau
+ FR_tournament_phase_horse_race_Au:0 "à la " # Course de chevaux
+ FR_tournament_phase_ceremony_Au:0 "à la " # Cérémonie
+ FR_tour_phase_tour_grounds_Au:0 "à la " # Visite des terres
+ FR_tour_phase_dinner_Au:0 "au " # Dîner organisé
+ FR_tour_phase_cultural_festival_Au:0 "au " # Festival culturel
+ FR_tour_phase_journey_home_Au:0 "au " # Retour
+ FR_gruesome_festival_phase_Au:0 "à la " # Fête sacrificielle
+ FR_hunt_phase_Au:0 "à la " # Chasse
+ FR_activity_phase_fallback_Au:0 "au "
+ # FR_E_ActivityPhase
+ FR_witch_ritual_phase_E:0 "" # Rituel des ténèbres
+ FR_feast_phase_meal_E:0 "" # Banquet
+ FR_feast_phase_toast_E:0 "e" # Trinquée
+ FR_pilgrimage_phase_solo_E:0 "" # Pèlerinage
+ FR_playdate_phase_E:0 "e" # Rencontre
+ FR_wedding_phase_ceremony_E:0 "e" # Cérémonie de mariage
+ FR_wedding_phase_banquet_E:0 "" # Repas de noces
+ FR_wedding_phase_wnight_E:0 "e" # Nuit de noces
+ FR_tournament_phase_melee_E:0 "e" # Mêlée
+ FR_tournament_phase_archery_E:0 "" # Tir à l’arc
+ FR_tournament_phase_recital_E:0 "" # Récital
+ FR_tournament_phase_joust_E:0 "e" # Joute
+ FR_tournament_phase_duel_E:0 "" # Duel
+ FR_tournament_phase_wrestling_E:0 "e" # Lutte
+ FR_tournament_phase_board_game_E:0 "" # Jeu de plateau
+ FR_tournament_phase_horse_race_E:0 "e" # Course de chevaux
+ FR_tournament_phase_ceremony_E:0 "e" # Cérémonie
+ FR_tour_phase_tour_grounds_E:0 "e" # Visite des terres
+ FR_tour_phase_dinner_E:0 "" # Dîner organisé
+ FR_tour_phase_cultural_festival_E:0 "" # Festival culturel
+ FR_tour_phase_journey_home_E:0 "" # Retour
+ FR_gruesome_festival_phase_E:0 "e" # Fête sacrificielle
+ FR_hunt_phase_E:0 "e" # Chasse
+ FR_activity_phase_fallback_E:0 ""
+
+ # Animal types
+ animal_type_cat_FR_Le:0 "le " # chat
+ animal_type_dog_FR_Le:0 "le " # chien
+ animal_type_fox_FR_Le:0 "le " # renard
+ animal_type_hare_FR_Le:0 "le " # lièvre
+ animal_type_wolf_FR_Le:0 "le " # loup
+ animal_type_stag_FR_Le:0 "le " # cerf
+ animal_type_hart_FR_Le:0 "le " # cerf
+ animal_type_horse_FR_Le:0 "le " # cheval
+ animal_type_rabbit_FR_Le:0 "le " # lapin
+ animal_type_boar_FR_Le:0 "le " # sanglier
+ animal_type_lion_FR_Le:0 "le " # lion
+ animal_type_tiger_FR_Le:0 "le " # tigre
+ animal_type_bear_FR_Le:0 "l’" # ours
+ animal_type_aurochs_FR_Le:0 "l’" # aurochs
+ animal_type_unicorn_FR_Le:0 "la " # licorne
+ animal_type_dragon_FR_Le:0 "le " # dragon
+ animal_type_lynx_FR_Le:0 "le " # lynx
+ animal_type_antelope_FR_Le:0 "l’" # antilope
+ animal_type_gazelle_FR_Le:0 "la " # gazelle
+ animal_type_roe_FR_Le:0 "le " # cerf
+ animal_type_saiga_FR_Le:0 "le " # saïga
+ animal_type_reindeer_FR_Le:0 "le " # renne
+ animal_type_buck_FR_Le:0 "le " # cerf
+ animal_type_elk_FR_Le:0 "l’" # élan
+ animal_type_zubr_FR_Le:0 "le " # bison
+ animal_type_wisent_FR_Le:0 "le " # bison
+ animal_type_bison_FR_Le:0 "le " # bison
+ animal_type_leopard_FR_Le:0 "le " # léopard
+ animal_type_hyena_FR_Le:0 "la " # hyène
+ animal_type_gorilla_FR_Le:0 "le " # gorille
+ animal_type_shape_FR_Le:0 "la " # silhouette
+ animal_type_stork_FR_Le:0 "la " # cigogne
+ animal_type_crane_FR_Le:0 "la " # grue
+ animal_type_heron_FR_Le:0 "le " # héron
+ animal_type_swan_FR_Le:0 "le " # cygne
+ animal_type_egret_FR_Le:0 "l’" # aigrette
+ animal_type_pelican_FR_Le:0 "le " # pélican
+ animal_type_flamingo_FR_Le:0 "le " # flamant rose
+ animal_type_bustard_FR_Le:0 "l’" # outarde
+ animal_type_pheasant_FR_Le:0 "le " # faisan
+ animal_type_goose_FR_Le:0 "l’" # oie
+ animal_type_grouse_FR_Le:0 "la " # grouse
+ animal_type_duck_FR_Le:0 "le " # canard
+ animal_type_quail_FR_Le:0 "la " # caille
+ animal_type_eagle_FR_Le:0 "l’" # aigle
+ animal_type_vulture_FR_Le:0 "le " # vautour
+ animal_type_buzzard_FR_Le:0 "la " # buse
+ animal_type_falcon_FR_Le:0 "le " # faucon
+ animal_type_hawk_FR_Le:0 "l’" # épervier
+ animal_type_raptor_FR_Le:0 "le " # rapace
+
+ animal_type_cat_FR_De:0 "de " # chat
+ animal_type_dog_FR_De:0 "de " # chien
+ animal_type_fox_FR_De:0 "de " # renard
+ animal_type_hare_FR_De:0 "de " # lièvre
+ animal_type_wolf_FR_De:0 "de " # loup
+ animal_type_stag_FR_De:0 "de " # cerf
+ animal_type_hart_FR_De:0 "de " # cerf
+ animal_type_horse_FR_De:0 "de " # cheval
+ animal_type_rabbit_FR_De:0 "de " # lapin
+ animal_type_boar_FR_De:0 "de " # sanglier
+ animal_type_lion_FR_De:0 "de " # lion
+ animal_type_tiger_FR_De:0 "de " # tigre
+ animal_type_bear_FR_De:0 "d’" # ours
+ animal_type_aurochs_FR_De:0 "d’" # aurochs
+ animal_type_unicorn_FR_De:0 "de " # licorne
+ animal_type_dragon_FR_De:0 "de " # dragon
+ animal_type_lynx_FR_De:0 "de " # lynx
+ animal_type_antelope_FR_De:0 "d’" # antilope
+ animal_type_gazelle_FR_De:0 "de " # gazelle
+ animal_type_roe_FR_De:0 "de " # cerf
+ animal_type_saiga_FR_De:0 "de " # saïga
+ animal_type_reindeer_FR_De:0 "de " # renne
+ animal_type_buck_FR_De:0 "de " # cerf
+ animal_type_elk_FR_De:0 "d’" # élan
+ animal_type_zubr_FR_De:0 "de " # bison
+ animal_type_wisent_FR_De:0 "de " # bison
+ animal_type_bison_FR_De:0 "de " # bison
+ animal_type_leopard_FR_De:0 "de " # léopard
+ animal_type_hyena_FR_De:0 "de " # hyène
+ animal_type_gorilla_FR_De:0 "de " # gorille
+ animal_type_shape_FR_De:0 "de " # silhouette
+ animal_type_stork_FR_De:0 "de " # cigogne
+ animal_type_crane_FR_De:0 "de " # grue
+ animal_type_heron_FR_De:0 "de " # héron
+ animal_type_swan_FR_De:0 "de " # cygne
+ animal_type_egret_FR_De:0 "d’" # aigrette
+ animal_type_pelican_FR_De:0 "de " # pélican
+ animal_type_flamingo_FR_De:0 "de " # flamant rose
+ animal_type_bustard_FR_De:0 "d’" # outarde
+ animal_type_pheasant_FR_De:0 "de " # faisan
+ animal_type_goose_FR_De:0 "d’" # oie
+ animal_type_grouse_FR_De:0 "de " # grouse
+ animal_type_duck_FR_De:0 "de " # canard
+ animal_type_quail_FR_De:0 "de " # caille
+ animal_type_eagle_FR_De:0 "d’" # aigle
+ animal_type_vulture_FR_De:0 "de " # vautour
+ animal_type_buzzard_FR_De:0 "de " # buse
+ animal_type_falcon_FR_De:0 "de " # faucon
+ animal_type_hawk_FR_De:0 "d’" # épervier
+ animal_type_raptor_FR_De:0 "de " # rapace
+
+ animal_type_cat_FR_Du:0 "du " # chat
+ animal_type_dog_FR_Du:0 "du " # chien
+ animal_type_fox_FR_Du:0 "du " # renard
+ animal_type_hare_FR_Du:0 "du " # lièvre
+ animal_type_wolf_FR_Du:0 "du " # loup
+ animal_type_stag_FR_Du:0 "du " # cerf
+ animal_type_hart_FR_Du:0 "du " # cerf
+ animal_type_horse_FR_Du:0 "du " # cheval
+ animal_type_rabbit_FR_Du:0 "du " # lapin
+ animal_type_boar_FR_Du:0 "du " # sanglier
+ animal_type_lion_FR_Du:0 "du " # lion
+ animal_type_tiger_FR_Du:0 "du " # tigre
+ animal_type_bear_FR_Du:0 "de l’" # ours
+ animal_type_aurochs_FR_Du:0 "de l’" # aurochs
+ animal_type_unicorn_FR_Du:0 "de la " # licorne
+ animal_type_dragon_FR_Du:0 "du " # dragon
+ animal_type_lynx_FR_Du:0 "du " # lynx
+ animal_type_antelope_FR_Du:0 "de l’" # antilope
+ animal_type_gazelle_FR_Du:0 "de la " # gazelle
+ animal_type_roe_FR_Du:0 "du " # cerf
+ animal_type_saiga_FR_Du:0 "du " # saïga
+ animal_type_reindeer_FR_Du:0 "du " # renne
+ animal_type_buck_FR_Du:0 "du " # cerf
+ animal_type_elk_FR_Du:0 "de l’" # élan
+ animal_type_zubr_FR_Du:0 "du " # bison
+ animal_type_wisent_FR_Du:0 "du " # bison
+ animal_type_bison_FR_Du:0 "du " # bison
+ animal_type_leopard_FR_Du:0 "du " # léopard
+ animal_type_hyena_FR_Du:0 "de la " # hyène
+ animal_type_gorilla_FR_Du:0 "du " # gorille
+ animal_type_shape_FR_Du:0 "de la " # silhouette
+ animal_type_stork_FR_Du:0 "de la " # cigogne
+ animal_type_crane_FR_Du:0 "de la " # grue
+ animal_type_heron_FR_Du:0 "du " # héron
+ animal_type_swan_FR_Du:0 "du " # cygne
+ animal_type_egret_FR_Du:0 "de l’" # aigrette
+ animal_type_pelican_FR_Du:0 "du " # pélican
+ animal_type_flamingo_FR_Du:0 "du " # flamant rose
+ animal_type_bustard_FR_Du:0 "de l’" # outarde
+ animal_type_pheasant_FR_Du:0 "du " # faisan
+ animal_type_goose_FR_Du:0 "de l’" # oie
+ animal_type_grouse_FR_Du:0 "de la " # grouse
+ animal_type_duck_FR_Du:0 "du " # canard
+ animal_type_quail_FR_Du:0 "de la " # caille
+ animal_type_eagle_FR_Du:0 "de l’" # aigle
+ animal_type_vulture_FR_Du:0 "du " # vautour
+ animal_type_buzzard_FR_Du:0 "de la " # buse
+ animal_type_falcon_FR_Du:0 "du " # faucon
+ animal_type_hawk_FR_Du:0 "de l’" # épervier
+ animal_type_raptor_FR_Du:0 "du " # rapace
+
+ animal_type_cat_FR_Au:0 "au " # chat
+ animal_type_dog_FR_Au:0 "au " # chien
+ animal_type_fox_FR_Au:0 "au " # renard
+ animal_type_hare_FR_Au:0 "au " # lièvre
+ animal_type_wolf_FR_Au:0 "au " # loup
+ animal_type_stag_FR_Au:0 "au " # cerf
+ animal_type_hart_FR_Au:0 "au " # cerf
+ animal_type_horse_FR_Au:0 "au " # cheval
+ animal_type_rabbit_FR_Au:0 "au " # lapin
+ animal_type_boar_FR_Au:0 "au " # sanglier
+ animal_type_lion_FR_Au:0 "au " # lion
+ animal_type_tiger_FR_Au:0 "au " # tigre
+ animal_type_bear_FR_Au:0 "à l’" # ours
+ animal_type_aurochs_FR_Au:0 "à l’" # aurochs
+ animal_type_unicorn_FR_Au:0 "à la " # licorne
+ animal_type_dragon_FR_Au:0 "au " # dragon
+ animal_type_lynx_FR_Au:0 "au " # lynx
+ animal_type_antelope_FR_Au:0 "à l’" # antilope
+ animal_type_gazelle_FR_Au:0 "à la " # gazelle
+ animal_type_roe_FR_Au:0 "au " # cerf
+ animal_type_saiga_FR_Au:0 "au " # saïga
+ animal_type_reindeer_FR_Au:0 "au " # renne
+ animal_type_buck_FR_Au:0 "au " # cerf
+ animal_type_elk_FR_Au:0 "à l’" # élan
+ animal_type_zubr_FR_Au:0 "au " # bison
+ animal_type_wisent_FR_Au:0 "au " # bison
+ animal_type_bison_FR_Au:0 "au " # bison
+ animal_type_leopard_FR_Au:0 "au " # léopard
+ animal_type_hyena_FR_Au:0 "à la " # hyène
+ animal_type_gorilla_FR_Au:0 "au " # gorille
+ animal_type_shape_FR_Au:0 "à la " # silhouette
+ animal_type_stork_FR_Au:0 "à la " # cigogne
+ animal_type_crane_FR_Au:0 "à la " # grue
+ animal_type_heron_FR_Au:0 "au " # héron
+ animal_type_swan_FR_Au:0 "au " # cygne
+ animal_type_egret_FR_Au:0 "à l’" # aigrette
+ animal_type_pelican_FR_Au:0 "au " # pélican
+ animal_type_flamingo_FR_Au:0 "au " # flamant rose
+ animal_type_bustard_FR_Au:0 "à l’" # outarde
+ animal_type_pheasant_FR_Au:0 "au " # faisan
+ animal_type_goose_FR_Au:0 "à l’" # oie
+ animal_type_grouse_FR_Au:0 "à la " # grouse
+ animal_type_duck_FR_Au:0 "au " # canard
+ animal_type_quail_FR_Au:0 "à la " # caille
+ animal_type_eagle_FR_Au:0 "à l’" # aigle
+ animal_type_vulture_FR_Au:0 "au " # vautour
+ animal_type_buzzard_FR_Au:0 "à la " # buse
+ animal_type_falcon_FR_Au:0 "au " # faucon
+ animal_type_hawk_FR_Au:0 "à l’" # épervier
+ animal_type_raptor_FR_Au:0 "au " # rapace
+
+ animal_type_cat_FR_E:0 "" # chat
+ animal_type_dog_FR_E:0 "" # chien
+ animal_type_fox_FR_E:0 "" # renard
+ animal_type_hare_FR_E:0 "" # lièvre
+ animal_type_wolf_FR_E:0 "" # loup
+ animal_type_stag_FR_E:0 "" # cerf
+ animal_type_hart_FR_E:0 "" # cerf
+ animal_type_horse_FR_E:0 "" # cheval
+ animal_type_rabbit_FR_E:0 "" # lapin
+ animal_type_boar_FR_E:0 "" # sanglier
+ animal_type_lion_FR_E:0 "" # lion
+ animal_type_tiger_FR_E:0 "" # tigre
+ animal_type_bear_FR_E:0 "" # ours
+ animal_type_aurochs_FR_E:0 "" # aurochs
+ animal_type_unicorn_FR_E:0 "e" # licorne
+ animal_type_dragon_FR_E:0 "" # dragon
+ animal_type_lynx_FR_E:0 "" # lynx
+ animal_type_antelope_FR_E:0 "e" # antilope
+ animal_type_gazelle_FR_E:0 "e" # gazelle
+ animal_type_roe_FR_E:0 "" # cerf
+ animal_type_saiga_FR_E:0 "" # saïga
+ animal_type_reindeer_FR_E:0 "" # renne
+ animal_type_buck_FR_E:0 "" # cerf
+ animal_type_elk_FR_E:0 "" # élan
+ animal_type_zubr_FR_E:0 "" # bison
+ animal_type_wisent_FR_E:0 "" # bison
+ animal_type_bison_FR_E:0 "" # bison
+ animal_type_leopard_FR_E:0 "" # léopard
+ animal_type_hyena_FR_E:0 "e" # hyène
+ animal_type_gorilla_FR_E:0 "" # gorille
+ animal_type_shape_FR_E:0 "e" # silhouette
+ animal_type_stork_FR_E:0 "e" # cigogne
+ animal_type_crane_FR_E:0 "e" # grue
+ animal_type_heron_FR_E:0 "" # héron
+ animal_type_swan_FR_E:0 "" # cygne
+ animal_type_egret_FR_E:0 "e" # aigrette
+ animal_type_pelican_FR_E:0 "" # pélican
+ animal_type_flamingo_FR_E:0 "" # flamant rose
+ animal_type_bustard_FR_E:0 "e" # outarde
+ animal_type_pheasant_FR_E:0 "" # faisan
+ animal_type_goose_FR_E:0 "e" # oie
+ animal_type_grouse_FR_E:0 "e" # grouse
+ animal_type_duck_FR_E:0 "" # canard
+ animal_type_quail_FR_E:0 "e" # caille
+ animal_type_eagle_FR_E:0 "" # aigle
+ animal_type_vulture_FR_E:0 "" # vautour
+ animal_type_buzzard_FR_E:0 "e" # buse
+ animal_type_falcon_FR_E:0 "" # faucon
+ animal_type_hawk_FR_E:0 "" # épervier
+ animal_type_raptor_FR_E:0 "" # rapace
+
+ # GetLegendaryColor
+ animal_type_cat_FR_Color:0 "blanc" # chat
+ animal_type_dog_FR_Color:0 "blanc" # chien
+ animal_type_fox_FR_Color:0 "blanc" # renard
+ animal_type_hare_FR_Color:0 "blanc" # lièvre
+ animal_type_wolf_FR_Color:0 "blanc" # loup
+ animal_type_stag_FR_Color:0 "blanc" # cerf
+ animal_type_hart_FR_Color:0 "blanc" # cerf
+ animal_type_horse_FR_Color:0 "blanc" # cheval
+ animal_type_rabbit_FR_Color:0 "blanc" # lapin
+ animal_type_boar_FR_Color:0 "blanc" # sanglier
+ animal_type_lion_FR_Color:0 "blanc" # lion
+ animal_type_tiger_FR_Color:0 "blanc" # tigre
+ animal_type_bear_FR_Color:0 "blanc" # ours
+ animal_type_aurochs_FR_Color:0 "blanc" # aurochs
+ animal_type_unicorn_FR_Color:0 "blanche" # licorne
+ animal_type_dragon_FR_Color:0 "blanc" # dragon
+ animal_type_lynx_FR_Color:0 "blanc" # lynx
+ animal_type_antelope_FR_Color:0 "blanche" # antilope
+ animal_type_gazelle_FR_Color:0 "blanche" # gazelle
+ animal_type_roe_FR_Color:0 "blanc" # cerf
+ animal_type_saiga_FR_Color:0 "blanc" # saïga
+ animal_type_reindeer_FR_Color:0 "blanc" # renne
+ animal_type_buck_FR_Color:0 "blanc" # cerf
+ animal_type_elk_FR_Color:0 "blanc" # élan
+ animal_type_zubr_FR_Color:0 "blanc" # bison
+ animal_type_wisent_FR_Color:0 "blanc" # bison
+ animal_type_bison_FR_Color:0 "blanc" # bison
+ animal_type_leopard_FR_Color:0 "noir" # léopard
+ animal_type_hyena_FR_Color:0 "blanche" # hyène
+ animal_type_gorilla_FR_Color:0 "blanc" # gorille
+ animal_type_shape_FR_Color:0 "blanche" # silhouette
+ animal_type_stork_FR_Color:0 "blanche" # cigogne
+ animal_type_crane_FR_Color:0 "blanche" # grue
+ animal_type_heron_FR_Color:0 "blanc" # héron
+ animal_type_swan_FR_Color:0 "blanc" # cygne
+ animal_type_egret_FR_Color:0 "blanche" # aigrette
+ animal_type_pelican_FR_Color:0 "blanc" # pélican
+ animal_type_flamingo_FR_Color:0 "blanc" # flamant rose
+ animal_type_bustard_FR_Color:0 "blanche" # outarde
+ animal_type_pheasant_FR_Color:0 "blanc" # faisan
+ animal_type_goose_FR_Color:0 "blanche" # oie
+ animal_type_grouse_FR_Color:0 "blanche" # grouse
+ animal_type_duck_FR_Color:0 "blanc" # canard
+ animal_type_quail_FR_Color:0 "blanche" # caille
+ animal_type_eagle_FR_Color:0 "blanc" # aigle
+ animal_type_vulture_FR_Color:0 "blanc" # vautour
+ animal_type_buzzard_FR_Color:0 "blanche" # buse
+ animal_type_falcon_FR_Color:0 "blanc" # faucon
+ animal_type_hawk_FR_Color:0 "blanc" # épervier
+ animal_type_raptor_FR_Color:0 "blanc" # rapace
+
+ # GetRandomRegionalSmallGame
+ animal_squirrel_FR_E:0 "" # écureuil
+ animal_otter_FR_E:0 "e" # loutre
+ animal_vole_FR_E:0 "" # campagnol
+ animal_beaver_FR_E:0 "" # castor
+ animal_ferret_FR_E:0 "" # furet
+ animal_ermine_FR_E:0 "e" # hermine
+ animal_badger_FR_E:0 "" # blaireau
+ animal_rabbit_FR_E:0 "" # lapin
+ animal_mole_FR_E:0 "e" # taupe
+ animal_snake_FR_E:0 "" # serpent
+ animal_lizard_FR_E:0 "" # lézard
+ animal_gerbil_FR_E:0 "e" # gerbille
+
+ # FR_Le_GetVersusRound
+ tournament_versus_qualifiers_FR_Le:0 "les " # Quarts de finale
+ tournament_versus_semifinals_FR_Le:0 "les " # Demi-finales
+ tournament_versus_final_FR_Le:0 "la " # Finale
 
  ############################################################################################
  ############################################################################################
@@ -1112,21 +1770,12 @@
  CustomLoc_FR_des:0 "des "
  CustomLoc_FR_au:0 "au "
  CustomLoc_FR_aux:0 "aux "
- CustomLoc_FR_ala:0 "à la "
- CustomLoc_FR_al:0 "à l’"
- CustomLoc_FR_a:0 "à "
+ CustomLoc_FR_a_la:0 "à la "
+ CustomLoc_FR_a_l:0 "à l’"
+ CustomLoc_FR_a_accent:0 "à "
  CustomLoc_FR_d:0 "d’"
- # CustomLoc_FR_le:0 "#D le #!"
- # CustomLoc_FR_la:0 "#D la #!"
- # CustomLoc_FR_l:0 "#D l’#!"
- # CustomLoc_FR_du:0 "#D du #!"
- # CustomLoc_FR_dela:0 "#D de la #!"
- # CustomLoc_FR_del:0 "#D de l’#!"
- # CustomLoc_FR_de:0 "#D de #!"
- # CustomLoc_FR_au:0 "#D au #!"
- # CustomLoc_FR_ala:0 "#D à la #!"
- # CustomLoc_FR_al:0 "#D à l’#!"
- # CustomLoc_FR_a:0 "#D à #!"
+ CustomLoc_FR_a:0 "a "
+ CustomLoc_FR_on:0 "on "
 
  # fake
  CustomLoc_FR_female_:0 ""

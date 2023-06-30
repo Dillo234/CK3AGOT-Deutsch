@@ -210,7 +210,7 @@
  yearly.9020.desc:1 "[marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] подходит ко мне с улыбкой, провозглашает, что меня ждет поистине впечатляющий подарок от куратора земли [county.GetNameNoTooltip], и приглашает следовать за собой.\n\nПодарок оказывается поистине впечатляющий! Снаружи меня приветствует #emphasis огромнейший#! слон. Такие великаны мне еще не встречались. Думаю, нет такого врага, которого эта зверюга не сокрушила бы."
  yearly.9020.a:0 "Я #emphasis [Select_CString(ROOT.Char.IsFemale, 'сама', 'сам' )]#! поеду в бой на этом могучем звере! Лично."
  yearly.9020.b:1 "[marshal.GetCouncilTitle]. Забирай его себе."
- yearly.9020.c:2 "[Select_CString(knight_9020.IsFemale, 'Моя', 'Мой' )] $knight_culture_player_no_tooltip_lowercase$ [knight.GetTitledFirstNameNoTooltip] наверняка станет ему достойным хозяином."
+ yearly.9020.c:2 "$knight_culture_player_no_tooltip_lowercase$ [knight.GetTitledFirstNameNoTooltip] наверняка станет ему достойным хозяином."
  yearly.9020.d1:1 "Славься [ROOT.Char.GetFaith.KnowledgeGodName]! Давайте вознесем молитвы и отпустим животное."
  yearly.9020.d2:0 "Этот зверь рожден для свободы. Отпустите его."
  yearly_9020_personal_war_elephant:0 "Личный боевой слон"
@@ -260,7 +260,7 @@
  yearly.8400.a.tt:0 "[deviant_guest.GetTitledFirstName] отправится ко двору, которым владеет [appropriate_court_target_owner.GetTitledFirstName], там [deviant_guest.GetSheHe] станет отличным агентом..."
  
  yearly.8500.opening:0 "[current_head_of_faith.Custom2('AppropriateGreeting', ROOT.Char)]"
- yearly.8500.desc.a:0 "Вы в очень нехорошей ситуации. Но я предлагаю вам этот дар, чтобы вы могли выйти из нее победителем.\n\nЯ молюсь, чтобы [current_head_of_faith.GetFaith.HighGodName] [Select_CString( current_head_of_faith.GetFaith.HighGod.IsFemale, 'оставалась', 'оставался' )] на вашей стороне."
+ yearly.8500.desc.a:0 "Вы в очень нехорошей ситуации. Но я предлагаю вам этот дар, чтобы вы могли выйти из нее победителем.\n\nЯ молюсь о покровительстве [current_head_of_faith.GetFaith.HighGodNamePossessive]."
  yearly.8500.desc.b:0 "Ваша праведная борьба с неверными не осталась незамеченной. Я лично отправляю посла с деньгами, которые должны помочь вам в эти нелегкие времена.\n\nДа защитит вас [current_head_of_faith.GetFaith.HighGodName]."
  yearly.8500.a:0 "Я молюсь, преклонив колени. Славься, [current_head_of_faith.GetFaith.HighGodName]!"
  yearly.8500.b:0 "Я не могу принять такой дар. Это слишком дорого."

@@ -5,6 +5,7 @@
  death_management.1000.like:0 "Je me demande comment un cœur peut supporter une telle souffrance. C’est impossible ! Pourtant, je suis là, le cœur battant tandis que le vôtre s’est éteint. Oh, [dead_character.GetFirstName], [dead_character.Custom('LoverPetName_possessive')]. La vie ne sera pas la même sans vous."
  death_management.1000.neutral:0 "M[dead_character.Custom('FR_OnA')] ch[dead_character.Custom('FR_ErEre')] [dead_character.GetFirstName]. Je ne vous ai peut-être pas aimé, mais votre trépas me touche plus que je ne l’aurais cru. Vous avez toujours été là. Ai-je pensé que vous le seriez définitivement ? Il y a tant de choses que je n’ai pas dites..."
  death_management.1000.dislike:0 "Alors que m[dead_character.Custom('FR_OnA')] [dead_character.GetWifeHusband] a rendu l’âme, le soulagement m’envahit. Je devrais peut-être avoir honte, mais en vérité, il n’y a pas eu d’amour entre nous. Je suis enfin libre de recommencer ma vie !"
+ death_management.1000.murder_wedding:0 "Ah ! Quelle mort totalement inattendue ! Pas du tout planifiée ! Qui aurait pu la prédire ?"
  death_management.1000.a:0 "Au moins les souvenirs restent."
  death_management.1000.b:0 "J’espère que vous trouvez la paix, [dead_character.GetFirstNameNoTooltip]."
  death_management.1000.c:0 "Ce n’est pas trop tôt !"
@@ -339,7 +340,7 @@
  death_management.1206.desc:0 "\n\nJe ne peux m’empêcher de sourire en sachant que [dead_character.GetFirstNameNoTooltip] est mort[dead_character.Custom('FR_E')] pendant l’une de mes guerres, voilà qui devrait me remonter le moral pour quelques jours !"
  death_management.1206.a:0 "Bon débarras."
  death_management.1206.b:0 "[dead_character.GetFirstNameNoTooltip] était à moi !"
- death_management.1206.c:1 "Mon héros ! Je vais envoyer [ROOT.Char.Custom('get_region_flower_type')] à [battle_death_killer.GetFirstNameNoTooltip] !"
+ death_management.1206.c:2 "Mon héros ! Je vais envoyer [ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')] à [battle_death_killer.GetFirstNameNoTooltip] !"
  # Heir
  death_management.1207.t:0 "Mort d’un[dead_character.Custom('FR_E')] hériti[dead_character.Custom('FR_ErEre')]"
  death_management.1207.desc:0 "\n\nLa succession de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] doit à nouveau être examinée..."

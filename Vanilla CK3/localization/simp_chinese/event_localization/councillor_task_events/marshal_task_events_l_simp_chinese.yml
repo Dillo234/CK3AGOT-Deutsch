@@ -35,6 +35,7 @@
  marshal_task.1102.desc:0 "[councillor.GetTitledFirstNamePossessive]重整我的军队的工作已经推进到了[county.GetName]，在当地加强的军事存在产生了奇效。\n\n强盗已经绝迹，而走私者和绑架者已经失去了活动的勇气。"
  marshal_task.1102.a:0 "我的臣民永远可以感到安全。"
  marshal_task.1102.notification:0 "加强军事存在"
+ marshal_task.1103.notification:0 "征召兵准备战斗"
  #### END (Jonas W)
 
  marshal_task.2001.t:0 "将领受伤"
@@ -45,6 +46,7 @@
  
  marshal_task.2101.notification:0 "[commander.GetShortUINameNoTooltip]获得特质：[commander.Custom('CommanderTraitBeingTaught')]"
  marshal_task.2102.notification:0 "骑士能力提升：[commander.GetShortUIName]"
+ marshal_task.2103.notification:0 "枪斗士训练：[trained_knight.GetShortUIName]"
  marshal_task.0302.notification.a:0 "将领能力大幅提升：[commander.GetShortUIName]"
  marshal_task.0302.notification.b:0 "将领能力提升：[commander.GetShortUIName]"
  marshal_task.0303.notification.a:0 "骑士能力大幅提升：[commander.GetShortUIName]"
@@ -93,6 +95,8 @@
  marshal_task.3102.desc:0 "我的[baron.Custom2('RelationToMe', ROOT.Char)]，\n你的[councillor.GetCouncilTitle][councillor.GetTitledFirstName]一直在不知疲倦地重振[county.GetName]，并且我们已经收获了不少好处。\n我个人希望亲自感谢你派遣这样一位有能力的[councillor.GetWomanMan]前来帮助我们！"
  marshal_task.3102.a:0 "继续保持如此优秀的工作水平，[councillor.GetFirstNameNoTooltip]。"
  marshal_task.3102.notification:0 "[councillor.GetCouncilTitle]给封臣留下了深刻的印象"
+
+ marshal_task.3103.notification:0 "[acclaimed_knight]制服农民"
 
  marshal_task.4002.notification:0 "失序的禁卫"
  task_manage_guards_disorganized_modifier:0 "$marshal_task.4002.notification$"

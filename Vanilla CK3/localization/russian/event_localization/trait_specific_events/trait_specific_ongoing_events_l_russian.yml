@@ -42,7 +42,7 @@
  trait_specific_ongoing.1009.a.failure:0 "Пожалуй, я слегка переоцениваю свою неуязвимость"
 
  trait_specific_ongoing.1010.t:0 "Мой скакун [ROOT.Char.Custom('WarhorseStoryName')]"
- trait_specific_ongoing.1010.desc:0 "[ROOT.Char.Custom('WarhorseStoryName')] легко проносит меня перед собравшимися придворным.\n\n«Этот зверь — само совершенство! Каждый день вы все должны посвящать заботе о [Select_CString(HorseStory.IsFemale, 'ней', 'нем' )] не менее часа — тренируйте, ухаживайте, кормите... [ROOT.Char.Custom('HorseStorySheHe')|U] мне дороже любого из вас. Ступайте!»"
+ trait_specific_ongoing.1010.desc:0 "[ROOT.Char.Custom('WarhorseStoryName')] легко проносит меня перед собравшимися придворным.\n\n«Этот зверь — само совершенство! Каждый день вы все должны посвящать уходу не менее часа — тренируйте, ухаживайте, кормите... [ROOT.Char.Custom('HorseStorySheHe')|U] мне дороже любого из вас. Ступайте!»"
  trait_specific_ongoing.1010.a:0 "Все должны [ROOT.Char.Custom('HorseStoryHerHim')] кланяться!"
 
  trait_specific_ongoing.1011.t:0 "Срыв покровов"
@@ -94,8 +94,8 @@
  trait_specific_ongoing.2001.b.success.tt:0 "Вы стоите перед выбором: принять новую истину или признать, что лишь [clergy.GetFaith.HighGodName] властвует над миром"
  trait_specific_ongoing.2001.b.failure:0 "Вы обнаружили интересные, но вполне обычные книги"
 
- trait_specific_ongoing.2002.desc:0 "В поисках обещанных Вестниками знаний мне довелось побывать в самых необычных местах. Мрачные переулки, злачные таверны, пыльные книжные лавки — [Select_CString(ROOT.Char.IsFemale, 'как', 'какой' )] [ROOT.Char.GetTitleAsNameNoTooltip|l] может похвастать тем же? Но награда стоила того.\n\nВ моих руках оказалось несколько фолиантов, повествующих о том, сколь [Select_CString(ROOT.Char.GetFaith.WitchGod.IsFemale, 'велика', 'велик' )] [ROOT.Char.GetFaith.WitchGodName] и какое могущество [ROOT.Char.GetFaith.WitchGodSheHe] дарит своим последователям. Не стану лгать, искушение велико."
- trait_specific_ongoing.2002.a:0 "[Select_CString(ROOT.Char.GetFaith.WitchGod.IsFemale, 'Темная', 'Темный' )] [ROOT.Char.GetFaith.WitchGodMistressMaster], я [Select_CString(ROOT.Char.IsFemale, 'твоя верная раба', 'твой верный раб' )]!"
+ trait_specific_ongoing.2002.desc:0 "В поисках обещанных Вестниками знаний мне довелось побывать в самых необычных местах. Мрачные переулки, злачные таверны, пыльные книжные лавки — [Select_CString(ROOT.Char.IsFemale, 'как', 'какой' )] [ROOT.Char.GetTitleAsNameNoTooltip|l] может похвастать тем же? Но награда стоила того.\n\nВ моих руках оказалось несколько фолиантов, повествующих о том, сколь велика [ROOT.Char.GetFaith.WitchGodName] и какое могущество она дарит своим последователям. Не стану лгать, искушение велико."
+ trait_specific_ongoing.2002.a:0 "Темная госпожа, я [Select_CString(ROOT.Char.IsFemale, 'твоя верная раба', 'твой верный раб' )]!"
  trait_specific_ongoing.2002.b:0 "Это перебор. Слишком опасно."
 
  trait_specific_ongoing.2003.desc:0 "В поисках тайных знаний мне попалось немало интересных книг, но ничего по-настоящему особенного среди них не было.\n\nБоюсь, странные создания имели в виду нечто иное — если вообще существовали!"

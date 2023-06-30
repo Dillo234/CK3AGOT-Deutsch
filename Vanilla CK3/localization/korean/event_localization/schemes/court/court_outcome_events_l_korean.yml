@@ -36,11 +36,11 @@
  court_outcome.1000.b.success:0 "[target.GetFirstNameNoTooltip](은)는 위험에 처한 것이 아니었음"
 
 
- court_outcome.1001.desc:1 "마치 한 시간처럼 느껴졌던 찰나가 지나고 공터에 도달했다. [target.GetFirstName](은)는 무기를 잃고서 흐트러진 옷차림으로 내 앞에 쓰러져 있었다. 반대편에는 거대한 [ROOT.Char.Custom('LocalAnimal')](이)가 덮쳐오는 중이었다! \n\n내가 쏜 화살이 맹수의 미간에 정통으로 박혔고, 놈은 그대로 거꾸러졌다. [target.GetFirstNameNoTooltip](은)는 나와 쓰러진 짐승을 잠시 멍하니 바라보더니, 이내 휘청이는 발걸음으로 다가와 내 품으로 뛰어들었다."
+ court_outcome.1001.desc:1 "마치 한 시간처럼 느껴졌던 찰나가 지나고 공터에 도달했다. [target.GetFirstName](은)는 무기를 잃고서 흐트러진 옷차림으로 내 앞에 쓰러져 있었다. 반대편에는 거대한 [ROOT.Char.Custom('GetAnimalType')](이)가 덮쳐오는 중이었다! \n\n내가 쏜 화살이 맹수의 미간에 정통으로 박혔고, 놈은 그대로 거꾸러졌다. [target.GetFirstNameNoTooltip](은)는 나와 쓰러진 짐승을 잠시 멍하니 바라보더니, 이내 휘청이는 발걸음으로 다가와 내 품으로 뛰어들었다."
  court_outcome.1001.a:0 "그대를 원하오, 내 사랑. 지금 당장, 바로 여기서!"
  court_outcome.1001.b:0 "달콤한 입맞춤 한 번이면 충분한 상이 되겠구려."
 
- court_outcome.1002.desc:1 ""[target.GetFirstName], 지금 가리다!" 쿵쾅거리는 가슴을 부여잡고 덤불과 잎사귀를 헤치며 공터로 뛰어들었다.\n\n그런데 내 눈 앞에 펼쳐진 광경은 예상했던 모습이 아니었다. [ROOT.Char.Custom('LocalAnimal')](이)가 있긴 있는데, 미간에 화살이 박힌 채로 쓰러져 있었다. [target.GetFirstNameNoTooltip](은)는 활을 내리고 나를 향해 돌아섰다.\n\n"뭐 하는 거죠, [owner.GetTitledFirstNameNoTooltip]? 제가 자기 몸 하나 간수하지 못할 줄 알았던 건가요?""
+ court_outcome.1002.desc:1 ""[target.GetFirstName], 지금 가리다!" 쿵쾅거리는 가슴을 부여잡고 덤불과 잎사귀를 헤치며 공터로 뛰어들었다.\n\n그런데 내 눈 앞에 펼쳐진 광경은 예상했던 모습이 아니었다. [ROOT.Char.Custom('GetAnimalType')](이)가 있긴 있는데, 미간에 화살이 박힌 채로 쓰러져 있었다. [target.GetFirstNameNoTooltip](은)는 활을 내리고 나를 향해 돌아섰다.\n\n"뭐 하는 거죠, [owner.GetTitledFirstNameNoTooltip]? 제가 자기 몸 하나 간수하지 못할 줄 알았던 건가요?""
  court_outcome.1002.a:0 "어... 길을 잃었다 하면 믿겠소?"
 
  court_outcome.1005.desc:0 "가까이 다가갈수록 비명은 더욱 커졌다. [target.Custom('RomanticComplimentAdjective')] [target.GetFirstName]의 목소리가 틀림없다. [target.GetHerHis] 목소리는 언제고 바로 알아들을 수 있으니까!\n\n그런데 뭔가 #EMP 이상하다#!. 이건 두려워하거나 아파하는 비명이 아닌데...\n\n마침내 [target.GetHerHim]의 모습을 확인했는데, 심장이 내려앉기라도 하는 기분이었다. [target.GetSheHe]가 알몸으로 [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)](와)과 함께 잔디밭을 뒹굴고 있었다."
@@ -55,7 +55,7 @@
  court_outcome.1005.d.murder_discovered:0 "[target.GetFirstNameNoTooltip]에게 화살을 적중시켰으나 발각당함"
 
  court_outcome.1003.t:0 "사냥터 대소동"
- court_outcome.1004.desc:1 "말을 타고 달리다가, 별안간 말이 나동그라졌다. 낙마의 충격으로 숨을 제대로 쉴 수가 없었다. 고개를 들어 보니 [owner.Custom('LocalAnimal')] 한 마리가 눈앞에서 나를 노려보고 있었다!\n\n채 비명을 지르기도 전에 놈은 미간에 화살이 박힌 채 고꾸라졌다.\n\n"[target.GetFirstNameNoTooltip], 나의 [target.Custom('LoverPetName')]! 당신이 죽은 줄만 알았소!" 나를 구한 영웅은 다름 아닌 [owner.GetTitledFirstName]였다!"
+ court_outcome.1004.desc:1 "말을 타고 달리다가, 별안간 말이 나동그라졌다. 낙마의 충격으로 숨을 제대로 쉴 수가 없었다. 고개를 들어 보니 [owner.Custom('GetAnimalType')] 한 마리가 눈앞에서 나를 노려보고 있었다!\n\n채 비명을 지르기도 전에 놈은 미간에 화살이 박힌 채 고꾸라졌다.\n\n"[target.GetFirstNameNoTooltip], 나의 [target.Custom('LoverPetName')]! 당신이 죽은 줄만 알았소!" 나를 구한 영웅은 다름 아닌 [owner.GetTitledFirstName]였다!"
  court_outcome.1003.b:0 "꿀처럼 달콤한 입맞춤을 나눈다."
 
 
@@ -71,7 +71,7 @@
  court_outcome.1100.a:0 "나의 [target.Custom('LoverPetName')](이)가 위험해! 내가 구해줘야 해!"
  court_outcome.1100.b:0 ""경비병! #EMP 경비병#!! 탑에 침입자가 있다!""
  court_outcome.1100.b.failure:0 "[target.GetShortUIName|U](이)가 침입자에게 부상을 입음"
- court_outcome.1100.b.success:0 "[target.GetShortUIName|U](이)가 무사히 달아남`"
+ court_outcome.1100.b.success:0 "[target.GetShortUIName|U](이)가 무사히 달아남"
  court_outcome.1100.c:0 "좀도둑과 드잡이질이나 하러 온 게 아니야."
 
  # OWNER SUCCESS: You save target from the burglar/comfort target!

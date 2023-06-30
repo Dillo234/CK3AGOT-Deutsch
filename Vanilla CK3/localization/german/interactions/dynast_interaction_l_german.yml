@@ -3,6 +3,8 @@
  disinherit_interaction:0 "Enterben"
  disinherit_interaction_desc:0 "$dynasty_interaction_header$[recipient.GetShortUINameNoTooltip] aus der [line_of_succession|E] entfernen"
  disinherit_interaction_notification:0 "Enterbtes Dynastiemitglied"
+ courtly_vassal_disapproves_disinheriting:0 "Jeder [vassal|E] mit der Haltung [GetVassalStance('courtly').GetTextIcon][GetVassalStance('courtly').GetName] ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) verliert #V 10 Jahre#! lang #N 20#! [opinion|E] über [actor.GetShortUIName] #weak (Missbilligt die Enterbung eines nicht-angefochtenen Erben)#!"
+
 
  restore_inheritance_interaction:0 "Erbe wiederherstellen"
  restore_inheritance_interaction_desc:0 "$dynasty_interaction_header$[recipient.GetShortUINameNoTooltip] wieder in die natürliche [line_of_succession|E] eingliedern\n\n#weak Dies ist möglich, weil [recipient.Custom('DE_PRO_PER_S_3P_N')] [disinherited|E] wurde#!"

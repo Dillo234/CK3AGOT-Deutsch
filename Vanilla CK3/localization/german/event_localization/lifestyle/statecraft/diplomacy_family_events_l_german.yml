@@ -152,6 +152,7 @@
  diplomacy_family.2253.desc.b:0 "Mein Plan ging perfekt auf! [lover.GetFirstName] ist frei von dieser unzüchtigen Kreatur [spouse.GetTitledFirstName], und nun ist alles gut für uns.\n\n[lover.Custom('DE_PRO_PER_S_3P_N')|U] eilte in mein Gemach, sobald [lover.Custom('DE_PRO_PER_S_3P_N')] meinen Brief erhielt, um mir [lover.Custom('DE_PRO_POS_S_3P')]e Dankbarkeit auf angenehmste Art und Weise zu zeigen."
  diplomacy_family.2253.a:0 "Jetzt können wir endlich auf ewig zusammensein!"
  diplomacy_family.2253.b:0 "Was ich nicht alles für meine Familie tue …"
+ diplomacy_family.2253.c:0 "Jeder soll von unserer Liebe erfahren!"
  diplomacy_family.2254.desc.a:0 "Ich hatte gehofft, [lover.GetFirstName] würde mir dankbar sein dafür, dass ich bei [house_head.GetTitledFirstName] [lover.Custom('DE_PRO_POS_S_3P')]e Scheidung von [spouse.GetFirstName] forderte, aber das Gegenteil ist der Fall.\n\n[lover.Custom('DE_PRO_PER_S_3P_N')|U] ist außer sich vor Wut darüber, dass ich mich in [lover.Custom('DE_PRO_POS_S_3P')] Eheleben eingemischt habe, und will jetzt nichts mehr mit mir zu tun haben."
  diplomacy_family.2254.desc.b:0 "Ich hatte gehofft, [lover.GetFirstName] würde mir dankbar sein dafür, dass ich [lover.Custom('DE_PRO_POS_S_3P')]e Scheidung eingefädelt habe, aber das Gegenteil ist der Fall.\n\n[lover.Custom('DE_PRO_PER_S_3P_N')|U] ist außer sich vor Wut darüber, dass ich mich in [lover.Custom('DE_PRO_POS_S_3P')] Eheleben eingemischt habe, und will jetzt nichts mehr mit mir zu tun haben."
  diplomacy_family.2254.a:0 "Hier geht es nicht um uns, es geht um die Familie!"
@@ -212,7 +213,7 @@
  diplomacy_family_special.2202.a.success:0 "[vassal.GetFirstNameNoTooltip] und [heir.GetFirstNameNoTooltip] legen ihre Meinungsverschiedenheiten bei"
  diplomacy_family_special.2202.a.failure:0 "[vassal.GetFirstNameNoTooltip] ist nicht bereit, sich wieder mit [heir.GetFirstNameNoTooltip] zu vertragen"
  diplomacy_family_special.2202.b:0 "Ihr habt recht, [heir.GetFirstNameNoTooltip] ist eine Enttäuschung."
- diplomacy_family_special.2202.c:0 "Mein[ROOT.Char.Custom('DE_END_PRO_S_E')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('heir'))] ist über Kritik von Euch erhaben!"
+ diplomacy_family_special.2202.c:0 "Mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('heir'))] ist über Kritik von Euch erhaben!"
 
  diplomacy_family_special.2210.desc:0 "Nach meinem Gespräch mit [vassal.GetTitledFirstName] entschied [vassal.Custom('DE_PRO_PER_S_3P_N')] sich dazu, sich wieder mit [heir.GetTitledFirstName] zu vertragen und sich mehr auf die Gemeinsamkeiten als auf die Unterscheide zu konzentrieren. Dieser Sinneswandel ist höchst vielversprechend!"
  diplomacy_family_special.2210.a:0 "Ein gutes Vorzeichen für die Zukunft!"
@@ -224,7 +225,7 @@
  diplomacy_family_special.2212.desc:0 "Nachdem ich mich mit [heir.Custom('DE_PRO_PER_S_3P_D')] unterhalten habe, versprach [heir.GetTitledFirstName] mir, sich in Zukunft besser zu verhalten, wenn [vassal.GetTitledFirstName] in der Nähe ist.\n\nWenn sie sich mehr auf ihre Gemeinsamkeiten und weniger auf ihre Unterschiede konzentrieren, könnte eine neue Freundschaft zwischen den beiden erblühen."
  diplomacy_family_special.2212.a:0 "Ein gutes Vorzeichen für die Zukunft!"
 
- diplomacy_family_special.2213.desc:0 "So sehr ich auch versuche, [heir.GetTitledFirstName] davon zu überzeugen, dass [heir.Custom(''DE_PRO_PER_S_3P_N)] sich mit [vassal.GetTitledFirstName] verstehen könne, wenn [heir.Custom('DE_PRO_PER_S_3P_N')] sich nur Mühe gäbe, weigert [heir.GetFirstNameNoTooltip] sich, [heir.Custom('DE_PRO_POS_S_3P')] Verhalten in Gegenwart von [vassal.GetTitledFirstNameNoTooltip] zu ändern.\n\nOffenbar werden die beiden noch eine Weile miteinander im Zwist liegen …"
+ diplomacy_family_special.2213.desc:0 "So sehr ich auch versuche, [heir.GetTitledFirstName] davon zu überzeugen, dass [heir.Custom('DE_PRO_PER_S_3P_N')] sich mit [vassal.GetTitledFirstName] verstehen könne, wenn [heir.Custom('DE_PRO_PER_S_3P_N')] sich nur Mühe gäbe, weigert [heir.GetFirstNameNoTooltip] sich, [heir.Custom('DE_PRO_POS_S_3P')] Verhalten in Gegenwart von [vassal.GetTitledFirstNameNoTooltip] zu ändern.\n\nOffenbar werden die beiden noch eine Weile miteinander im Zwist liegen …"
  diplomacy_family_special.2213.a:0 "Ich bin enttäuscht von [heir.GetFirstNameNoTooltip]."
 
  diplomacy_family_special.2220.desc:0 "Ich setzte mich mit [heir.GetFirstName] an einen Tisch und erklärte [heir.Custom('DE_PRO_PER_S_3P_D')], dass es manchmal im Interesse des Reiches vonnöten ist, [SCOPE.Custom('PersonalityGetTraitDescriptionFromFlagInverted')] zu sein, auch wenn man das von Natur aus vielleicht nicht ist.\n\n[heir.Custom('DE_PRO_PER_S_3P_N')|U] schien anfangs noch zu zweifeln, doch es ermutigte [heir.Custom('DE_PRO_PER_S_3P_A')], als ich sagte, dass es mit ein wenig Übung einfacher werden würde."

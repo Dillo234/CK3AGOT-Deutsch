@@ -6,7 +6,7 @@
  demand_payment_interaction_desc:0 "Obligar a [recipient.GetShortUINameNoTooltip] a pagar oro por un [hook|lE] que tienes"
  demand_payment_interaction_message:0 "Compromisos pagados"
  RECIPIENT_HAS_TOO_LITTLE_GOLD:0 "[CHARACTER.GetName] no tiene suficiente oro"
- demand_payment_too_little_gold_tt:1 "#N [recipient.GetShortUINameNoTooltip] no tiene bastante oro#!\nRecibiré menos de lo esperado #F ([SCOPE.ScriptValue('demand_payment_current_gold_value')|0][gold_i]/[SCOPE.ScriptValue('demand_payment_gold_to_pay”)|0] [gold_i])#!"
+ demand_payment_too_little_gold_tt:1 "#N [recipient.GetShortUINameNoTooltip] no tiene bastante oro#!\nRecibiré menos de lo esperado #F ([SCOPE.ScriptValue('demand_payment_current_gold_value')|0][gold_i]/[SCOPE.ScriptValue('demand_payment_gold_to_pay')|0] [gold_i])#!"
 
  buy_claim_interaction:0 "Comprar derechos"
  buy_claim_interaction_desc:0 "Pagas [piety|lE] para ganar un [claim|lE] sobre uno de los títulos válidos de [recipient.GetShortUINameNoTooltip] #weak ([buy_claim|E])#!"

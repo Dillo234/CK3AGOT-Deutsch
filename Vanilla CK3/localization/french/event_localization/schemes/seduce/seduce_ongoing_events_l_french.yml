@@ -212,7 +212,7 @@
  seduce_ongoing.1802.b.bad:0 "Que c’est embarrassant..."
  seduce_ongoing.1802.c:0 "Ces égards ne m’intéressent pas !"
 
- seduce_ongoing.1601.t:0 "Une lecture à [location.GetNameNoTierNoTooltip]"
+ seduce_ongoing.1601.t:1 "Une lecture à [location.GetNameNoTooltip]"
  seduce_ongoing.1601.t_no_location:0 "Une lecture"
  seduce_ongoing.1601.desc:0 "Alors que le divertissement de la soirée semble être terminé, [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName] suggère une lecture. Un commis arrive et demande ce que les invités aimeraient entendre. J’y vois une chance d’impressionner [target.GetFirstName]."
  seduce_ongoing.1601.a:0 "Quelque chose de pieux, comme [SCOPE.Custom('RandomReligiousTextName')]."
@@ -273,7 +273,7 @@
  seduce_ongoing.1705.a:0 "[target.Custom('FR_IlElle')|U] se souviendra de ce jour."
 
  seduce_ongoing.1706.duel:0 "[target.Custom('FR_le_Char_Pi')|U][target.GetTitledFirstName] a simplement ri de ma suggestion d’une joute simulée. « Pas besoin de se ridiculiser comme ça devant ces jeunes [target.Custom('MountedWarriorTermPlural')] ! »\n\nJ’ai passé le reste de la journée à essayer de savoir [target.Custom('FR_SilSielle')] parlait d[target.Custom('FR_EluiElle')] ou de moi."
- seduce_ongoing.1706.strategy:0 "[target.Custom('FR_le_Char_Pi')|U][target.GetTitledFirstName] et moi marchions sur les remparts tandis que j’essayais de lui donner des conseils stratégiques. [target.Custom('FR_IlElle')|U] ne semblait pas d’humeur à écouter, cependant. Selon ses dires, tout ce que j’ai proposé était plein de faiblesses, et il était évident que son attention se portait plus sur la cour en contrebas que sur mes propos. "
+ seduce_ongoing.1706.strategy:0 "[target.Custom('FR_le_Char_Pi')|U][target.GetTitledFirstName] et moi marchions sur les remparts tandis que j’essayais de lui donner des conseils stratégiques. [target.Custom('FR_IlElle')|U] ne semblait pas d’humeur à écouter, cependant. Selon ses dires, tout ce que j’ai proposé était plein de faiblesses, et il était évident que son attention se portait plus sur la cour en contrebas que sur mes propos."
  seduce_ongoing.1706.tax_season:0 "J’ai essayé de discuter de la prochaine saison fiscale et de la façon de s’assurer que [target.GetFirstName] ait les moyens de nourrir son armée. Malheureusement, son esprit était ailleurs, et [target.Custom('FR_IlElle')] m’a rapidement quitté afin de se concentrer sur les guerriers novices."
  seduce_ongoing.1706.trap:0 "Quand j’ai suggéré que nous fassions une farce aux [target.Custom('MountedWarriorTermPlural')] qui s’entraînent, [target.GetFirstName] m’a regardé fixement.\n\n« Du sang de porc pour faire paniquer les chevaux ? Auriez-vous perdu la raison ? »"
  seduce_ongoing.1706.fallback:0 "J’ai essayé de parler avec [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName] toute la journée, mais il y avait toujours quelque chose qui demandait son attention. En fin de compte, je n’ai pas pu attirer son attention plus d’un court instant à chaque fois, et j’ai eu l’impression de [target.Custom('FR_LeLa')] gêner plus qu’autre chose."
@@ -381,10 +381,10 @@
  seduce_ongoing.4011.c.tt:0 "#F Je peux attendre que d’autres occasions se présentent#!"
 
  seduce_ongoing.4012.opening:0 "J’ai été un peu surpris[ROOT.Char.Custom('FR_E')] quand [owner.Custom('FR_le_Char_Pi')][owner.GetTitledFirstName] m’a invité[ROOT.Char.Custom('FR_E')] pour un voyage à [court_location.Custom('BaronyTownType')] de [court_location.GetNameNoTier]."
- seduce_ongoing.4012.end:0 "\n\nLa journée s’est révélée être agréable, cependant, lorsque nous avons descendu la rue du marché à discuter de toutes sortes de choses, tandis que les marchands vendaient leurs marchandises aux paysans qui regardaient bouche bée notre entourage en armure."
+ seduce_ongoing.4012.end:0 "\n\nLa journée s’est révélée être agréable, cependant, lorsque nous avons descendu la rue du marché à discuter de toutes sortes de choses, tandis que les marchands vendaient leurs marchandises aux paysans qui regardaient bouche bée notre escorte en armure."
  seduce_ongoing.4012.a:0 "Nous leur avons certainement laissé une forte impression."
 
- seduce_ongoing.4013.end:0 "\n\nJe l’ai été encore davantage lorsqu’[owner.Custom('FR_IlElle')] a insisté pour que nous descendions la rue du marché. Entre notre entourage impressionnant et l’absence de conversation, il était clair qu’[owner.Custom('FR_IlElle')] essayait simplement de se montrer. Je serais parti[ROOT.Char.Custom('FR_E')] si cela n’avait pas provoqué une scène."
+ seduce_ongoing.4013.end:0 "\n\nJe l’ai été encore davantage lorsqu’[owner.Custom('FR_IlElle')] a insisté pour que nous descendions la rue du marché. Entre notre escorte impressionnante et l’absence de conversation, il était clair qu’[owner.Custom('FR_IlElle')] essayait simplement de se montrer. Je serais parti[ROOT.Char.Custom('FR_E')] si cela n’avait pas provoqué une scène."
  seduce_ongoing.4013.a:0 "Ne recommençons pas."
 
  seduce_ongoing.4014.desc:0 "Ch[owner.Custom('FR_ErEre')] [owner.GetTitledFirstName],\n\nCe fut un réel plaisir d’avoir votre compagnie à [court_location.Custom('BaronyTownType')] [court_location.GetNameNoTier], et j’espère vous revoir bientôt."
@@ -393,7 +393,7 @@
  seduce_ongoing.4015.desc:0 "[target.GetTitledFirstName],\n\nEspériez-vous m’embarrasser en public ? En me faisant parader comme un trophée... Savez-vous ce qui se dit à la Cour ?"
  seduce_ongoing.4015.a:0 "Ce n’est pas ce que vous croyez !"
 
- seduce_ongoing.4016.end:0 "\n\nNous avons traversé les nombreuses ruelles et ri devant la surprise des roturiers au passage de notre entourage. À la fin de la journée, je connaissais [court_location.Custom('BaronyTownType')] mieux que je ne l’aurais jamais imaginé."
+ seduce_ongoing.4016.end:0 "\n\nNous avons traversé les nombreuses ruelles et ri devant la surprise des roturiers au passage de notre suite. À la fin de la journée, je connaissais [court_location.Custom('BaronyTownType')] mieux que je ne l’aurais jamais imaginé."
  seduce_ongoing.4016.a:0 "[target.GetFirstNameNoTooltip] me fait voir tant de choses."
 
  seduce_ongoing.4017.desc:0 "Ch[ROOT.Char.Custom('FR_ErEre')] [ROOT.Char.GetTitledFirstName],\n\nJe vous remercie de votre compagnie lors de ma visite à [court_location.Custom('BaronyTownType')] [court_location.GetNameNoTier], bien que votre insistance à passer par les ruelles pour rester hors de vue m’ait fortement troublé. Vous pourrez peut-être vous expliquer une autre fois."
@@ -479,10 +479,10 @@
  seduce_ongoing.5004.fallback:0 "Apparemment, [owner.Custom('FR_IlElle')] s’était mis[owner.Custom('FR_E')] en tête de passer la journée avec moi puisqu’[owner.Custom('FR_IlElle')] refusait de partir avant que je n’exprime clairement mon dégoût pour sa présence."
  seduce_ongoing.5004.a:0 "Des échanges aussi désagréables que d’habitude !"
 
- seduce_ongoing.5005.conversation:0 "Le sourire [target.Custom('FR_du_Char_Pi')][target.GetTitledFirstName] illumine tout son visage à la fin d’une longue conversation à propos [target.Custom('herhis_subject_of_interest')]. Alors qu’un silence aimable s’installe entre nous, je me rends compte que nous nous tenons beaucoup plus près qu’avant ; ma main frôle presque s[target.Custom('GetClothingArticle')]."
- seduce_ongoing.5005.mockery:0 "« ... et ce dont [mocked_courtier.Custom('FR_IlElle')] a l’air quand [mocked_courtier.Custom('FR_IlElle')] [mocked_courtier.Custom('quirk_neg_present')]... je n’ai jamais rien vu de tel ! »\n\nLe rire que nous partageons aux dépens [mocked_courtier.Custom('FR_du_Char_Pi')][mocked_courtier.GetTitledFirstName] est plus authentique que ce que j’aurais cru, et alors qu’un silence aimable s’installe entre nous, je me rends compte que nous sommes beaucoup plus proches qu’avant ; ma main frôle presque s[target.Custom('GetClothingArticle')]."
+ seduce_ongoing.5005.conversation:0 "Le sourire [target.Custom('FR_du_Char_Pi')][target.GetTitledFirstName] illumine tout son visage à la fin d’une longue conversation à propos [target.Custom('herhis_subject_of_interest')]. Alors qu’un silence aimable s’installe entre nous, je me rends compte que nous nous tenons beaucoup plus près qu’avant ; ma main frôle presque s[target.Custom('GetClothingArticle')]."
+ seduce_ongoing.5005.mockery:0 "« ... et ce dont [mocked_courtier.Custom('FR_IlElle')] a l’air quand [mocked_courtier.Custom('FR_IlElle')] [mocked_courtier.Custom('quirk_neg_present')]... je n’ai jamais rien vu de tel ! »\n\nLe rire que nous partageons aux dépens [mocked_courtier.Custom('FR_du_Char_Pi')][mocked_courtier.GetTitledFirstName] est plus authentique que ce que j’aurais cru, et alors qu’un silence aimable s’installe entre nous, je me rends compte que nous sommes beaucoup plus proches qu’avant ; ma main frôle presque s[target.Custom('GetClothingArticle')]."
  seduce_ongoing.5005.bodily:0 "Je n’ai droit qu’à un avant-goût de ce que [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName] a à offrir et cela me donne envie d’en avoir plus. Un silence aimable s’installe entre nous alors que nous nous séparons, et je me rends compte notamment à s[target.Custom('GetUpperClothingArticle')] de travers qu’[target.Custom('FR_IlElle')] est plus détendu[target.Custom('FR_E')] que jamais en ma compagnie."
- seduce_ongoing.5005.fallback:0 "Nous passons la soirée ensemble, à parler et à rire. Alors qu’un silence aimable s’installe entre nous, je me rends compte que nous sommes beaucoup plus proches qu’avant ; ma main frôle presque s[target.Custom('GetClothingArticle')]."
+ seduce_ongoing.5005.fallback:0 "Nous passons la soirée ensemble, à parler et à rire. Alors qu’un silence aimable s’installe entre nous, je me rends compte que nous sommes beaucoup plus proches qu’avant ; ma main frôle presque s[target.Custom('GetClothingArticle')]."
  seduce_ongoing.5005.ending:0 "\n\n« Je ne savais pas que vous étiez de si bonne compagnie, [ROOT.Char.GetFirstNameNoTooltip] ! »"
  seduce_ongoing.5005.a:0 "Je vais lui montrer à quel point je peux être de bonne compagnie !"
 
@@ -555,7 +555,7 @@
  seduce_ongoing.5106.desc:0 "M[ROOT.Char.Custom('FR_OnA')] ch[ROOT.Char.Custom('FR_ErEre')] [target.Custom2('RelationToMeShort', ROOT.Char)] [ROOT.Char.Custom('FR_le_Char_Pi')][ROOT.Char.GetTitledFirstName],\nJe suis flatté[target.Custom('FR_E')] que même moi, votre humble sujet, je puisse vous inspirer de cette façon. Voyons où cela nous mènera."
 
  seduce_ongoing.5201.t:0 "Plus que des ami[ROOT.Char.Custom2('FR_E', SCOPE.sC('target'))]s"
- seduce_ongoing.5201.desc:0 "[target.GetFirstName] et moi marchons à travers [court_location.Custom('BaronyTownType')] de [court_location.GetNameNoTier].\n\nEn arrivant sur une place avec une jolie fontaine, nous nous arrêtons pour profiter de la vue, tandis que notre entourage reste momentanément en arrière."
+ seduce_ongoing.5201.desc:0 "[target.GetFirstName] et moi marchons à travers [court_location.Custom('BaronyTownType')] de [court_location.GetNameNoTier].\n\nEn arrivant sur une place avec une jolie fontaine, nous nous arrêtons pour profiter de la vue, tandis que notre suite reste momentanément en arrière."
  seduce_ongoing.5201.a:0 "Lançons-y une pièce pour nous souhaiter une histoire d’amour."
  seduce_ongoing.5201.a.tt:0 "Je pense que [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName] fantasme déjà sur nous ou au moins sur l’amour en général"
  seduce_ongoing.5201.b:0 "Vous vous souvenez de la fois où nous..."
@@ -676,4 +676,4 @@
  seduce_ongoing.7102.a:0 "Je vais devoir repenser mon approche..."
  seduce_ongoing.7201.desc:0 "« J’aimerais apprendre à mieux vous connaître. », dis-je [target.Custom('FR_au_Char_Pi')][target.GetTitledFirstName]. [target.Custom('FR_IlElle')|U] semble tendu[target.Custom('FR_E')] au début, mais se détend lorsqu’[target.Custom('FR_IlElle')] commence à croire que je n’ai pas d’arrière-pensée.\n\nAvant de nous séparer, je [target.Custom('FR_LeLa')] remercie pour ce moment agréable et [target.Custom('FR_IlElle')] me gratifie d’un sourire hésitant en retour. Le moment passé ensemble n’a rien de spécial, il est pourtant indéniable que je n’ai jamais vu [target.GetFirstName] sourire autant en une seule journée. Je suis certain[ROOT.Char.Custom('FR_E')] qu’[target.Custom('FR_IlElle')] pensera à moi pendant longtemps."
  seduce_ongoing.7202.desc:1 "Il n’a pas été difficile de passer un moment seul avec [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName]. Par contre, avoir une conversation normale avec [target.Custom('FR_LuiElle')] est un vrai défi. Quand je lui pose une question, [target.Custom('FR_IlElle')] me répond par la réponse la plus courte possible, juste pour mettre fin à notre conversation."
- seduce_ongoing.7202.desc_animal:0 "\n\nJe me dis que je recevrais davantage de réponses d’un[ROOT.Char.Custom('FR_LocalAnimal_e')] [ROOT.Char.Custom('LocalAnimal')] mort[ROOT.Char.Custom('FR_LocalAnimal_e')] que d[target.Custom('FR_EluiElle')]."
+ seduce_ongoing.7202.desc_animal:0 "\n\nJe me dis que je recevrais davantage de réponses d’un[ROOT.Char.Custom('FR_E_GetAnimalType')] [ROOT.Char.Custom('GetAnimalType')] mort[ROOT.Char.Custom('FR_E_GetAnimalType')] que d[target.Custom('FR_EluiElle')]."

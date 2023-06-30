@@ -28,6 +28,7 @@
 
  ep1_decision.0201.t:0 "Sprachkundler bei Hofe"
  ep1_decision.0201.desc:1 "Endlich hat die Suche nach einem [target_court_language.GetCourtLanguage.GetName]-Sprachkundler Früchte getragen. Die Kandidaten, von denen jeder seine eigenen Fachkenntnisse in Sachen Fremdsprachen mitbringt, wurden mir bereits vorgestellt."
+ ep1_decision.0201.tt.aptitude:0 "[aptitude|E] von [selected_linguist.GetUIName] ist [selected_linguist.GetCourtPositionAptitude(GetCourtPositionType('court_tutor_court_position'))]"
  ep1_decision.0201.a:2 "[good_linguist.GetNameNoTooltip] ist [good_linguist.Custom('DE_ART_IND_N')] angesehen[good_linguist.Custom('DE_END_ADJ_IND_S_N')] [target_court_language.GetCourtLanguage.GetNameNoTooltip]-Kenner[good_linguist.Custom('DE_END_NOU_S_GS_N')]."
  ep1_decision.0201.b:0 "[medium_linguist.GetNameNoTooltip] wird die Aufgabe erledigen."
  ep1_decision.0201.c:1 "[scholarly_linguist.GetNameNoTooltip] ist [scholarly_linguist.Custom('DE_ART_IND_N')] berühmt[scholarly_linguist.Custom('DE_END_ADJ_IND_S_N')] [target_court_language.GetCourtLanguage.GetNameNoTooltip]-Kenner[scholarly_linguist.Custom('DE_END_NOU_S_GS_N')]!"

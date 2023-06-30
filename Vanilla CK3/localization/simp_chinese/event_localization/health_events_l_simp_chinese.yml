@@ -51,6 +51,7 @@
  health.1001.desc:0 "不论是[ROOT.Char.GetTitleTierName]还是农民，不论高低，都无所谓。最终，我们都只是凡人。当我在凌晨咳醒，我的头和喉咙隐隐作痛时，我意识到了这一点。"
  health.1001.court_physician.desc:0 "\n\n“你似乎身体不适，[ROOT.Char.GetLadyLord]。我知道很多合适的疗法。”"
  health.1001.a:0 "我只想待在床上……"
+ health.1001.b:0 "我必须#EMP 马上#!回家！"
 
  health.1002.t:1 "[SCOPE.Custom('EventTitleDisease')]：锐利如刀"
  health.1002.desc:0 "呼吸是多么简单而美妙的事情啊——这是一个难意识到的小小奇迹。现在，我努力保持呼吸平稳，阵阵咳嗽伴随着针扎似的胸痛，我的脑海中不断浮现这个想法。"
@@ -109,9 +110,15 @@
  health.1011.court_physician.desc:0 "\n\n“[ROOT.Char.GetLadyLord]，我会尽我所能，但是请做好最坏的打算……”"
  health.1011.a:1 "哦，[ROOT.Char.GetFaith.HealthGodName]！请把我从这个梦魇中拯救出去！"
 
+ # Travel loc if you get ill on the road
+ health.travel.t:0 "[SCOPE.Custom('EventTitleDisease')]：旅途的终结？"
+ health.travel.option.home:0 "我在家里能得到最好的照顾。"
+ health.travel.option.home.flavor:0 "你放弃你的[ROOT.Char.GetInvolvedActivity.GetNameNoTooltip]，开始返家"
+ health.travel.option.continue:0 "我们必须坚持下去。"
+
  # Recover from diseases, by Mathilda Bjarnehed
  health.1101.t:1 "[SCOPE.Custom('EventTitleDisease')]：恢复如初"
- health.1101.desc:0 "当我今早醒来，看到阳光透过我的窗户洒下时，我花了一点时间才意识到这是我几个星期来第一次安稳的睡眠。我昨晚一次也没有在半夜咳醒！"
+ health.1101.desc:1 "当我今早醒来，观察到第一缕阳光时，我花了一点时间才意识到这是我几个星期来第一次安稳的睡眠。我昨晚一次也没有在半夜咳醒！"
  health.1101.a:0 "我很欣慰我康复了。"
 
  health.1102.t:1 "[SCOPE.Custom('EventTitleDisease')]：力量回归"
@@ -254,11 +261,15 @@
  health.3001.already_sick.desc:0 "最终，我的仆人找到了一些适合当宫廷医生的人。不管怎样，我现在恐怕也不能挑三拣四了。"
  health.3001.a:0 "显然，[high_skill_option.GetFirstNameNoTooltip]经验丰富。"
  health.3001.a.tt:1 "一名[GetCourtPositionType('court_physician_court_position').GetName()]也能领受[SCOPE.ScriptValue('court_position_physician_salary')][gold_i]的月俸"
+ health.3001.a.aptitude:0 "[high_skill_option.GetUINamePossessive]的[aptitude|E]为[high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
  health.3001.b:0 "[low_skill_option.GetFirstNameNoTooltip]似乎很热情，如果没有其他选择的话。"
+ health.3001.b.aptitude:0 "[low_skill_option.GetUINamePossessive]的[aptitude|E]为[low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
  health.3001.c:0 "[mystic_option.GetFirstNameNoTooltip]声称其接受过“另类医疗”的培训。"
+ health.3001.c.aptitude:0 "[mystic_option.GetUINamePossessive]的[aptitude|E]为[mystic_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
  health.3001.d.two:0 "他们两个都没给我留下好印象。"
  health.3001.d.more:0 "他们全都没给我留下好印象。"
  health.3001.e:0 "[excellent_skill_option.GetFirstNameNoTooltip]在学术界久负盛名。"
+ health.3001.e.aptitude:0 "[excellent_skill_option.GetUINamePossessive]的[aptitude|E]为[excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
  health.3001.d.tt:1 "我不招募任何人做我的[GetCourtPositionType('court_physician_court_position').GetName()]"
 
  #Disease treatment, by Mathilda Bjarnehed & Milla Isaksson

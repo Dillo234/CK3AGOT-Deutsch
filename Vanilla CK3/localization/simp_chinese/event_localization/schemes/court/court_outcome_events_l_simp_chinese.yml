@@ -36,11 +36,11 @@
  court_outcome.1000.b.success:0 "[target.GetFirstNameNoTooltip]并没有遇到危险"
 
 
- court_outcome.1001.desc:1 "在度过了似乎像一小时那样漫长的一分钟后，我到达了一片空地。[target.GetFirstName]倒在我前方，衣衫不整，手无寸铁。而在[target.GetHerHim]对面，有一头巨大的[ROOT.Char.Custom('LocalAnimal')]正准备攻击！\n\n我的箭精准射出，野兽应声倒地。一开始，[target.GetFirstNameNoTooltip]只是呆呆地望着地面，然后[target.GetSheHe]突然踉跄地向我扑来，让[target.GetHerselfHimself]的身体投入我的怀抱。"
+ court_outcome.1001.desc:1 "在度过了似乎像一小时那样漫长的一分钟后，我到达了一片空地。[target.GetFirstName]倒在我前方，衣衫不整，手无寸铁。而在[target.GetHerHim]对面，有一头巨大的[ROOT.Char.Custom('GetAnimalType')]正准备攻击！\n\n我的箭精准射出，野兽应声倒地。一开始，[target.GetFirstNameNoTooltip]只是呆呆地望着地面，然后[target.GetSheHe]突然踉跄地向我扑来，让[target.GetHerselfHimself]的身体投入我的怀抱。"
  court_outcome.1001.a:0 "我要你，我的爱，就是现在，就在这里！"
  court_outcome.1001.b:0 "我只需要一个甜蜜的吻作为奖赏。"
 
- court_outcome.1002.desc:1 "“[target.GetFirstName]！我来了！”我穿过枝叶，直冲空地而去，心脏狂跳不已，汗水从脸上淌落。\n\n但眼前的画面出乎我的预料。那是[ROOT.Char.Custom('LocalAnimal')]，没错——但是它倒在地上，一支箭正中它的眉心。[target.GetFirstNameNoTooltip]放下[target.GetHerHis]的弓，然后[target.GetSheHe]转过来看着我。\n\n“这是什么意思，[owner.GetTitledFirstNameNoTooltip]？你以为我连自卫的能力都没有吗？”"
+ court_outcome.1002.desc:1 "“[target.GetFirstName]！我来了！”我穿过枝叶，直冲空地而去，心脏狂跳不已，汗水从脸上淌落。\n\n但眼前的画面出乎我的预料。那是一只[ROOT.Char.Custom('GetAnimalType')]，没错——但是它倒在地上，一支箭正中它的眉心。[target.GetFirstNameNoTooltip]放下[target.GetHerHis]的弓，然后[target.GetSheHe]转过来看着我。\n\n“这是什么意思，[owner.GetTitledFirstNameNoTooltip]？你以为我连自卫的能力都没有吗？”"
  court_outcome.1002.a:0 "我……我迷路了？"
 
  court_outcome.1005.desc:0 "我越来越接近，而尖叫声也越来越清晰。那一定是我[target.Custom('RomanticComplimentAdjective')][target.GetFirstName]——我无论在哪都能认出[target.GetHerHis]的声音！\n\n但[target.GetHerHis]的叫声很#EMP 古怪#!。听起来不像是[target.GetFirstNameNoTooltip]在害怕……也并不像是[target.GetSheHe]很痛苦……\n\n当我最终看到[target.GetHerHim]时，我的心沉了下去：[target.GetSheHe]就像出生那天一样一丝不挂，正在和[targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]一起在草地上打滚。"
@@ -55,7 +55,7 @@
  court_outcome.1005.d.murder_discovered:0 "我的箭命中了[target.GetFirstNameNoTooltip]，但是我被发现了"
 
  court_outcome.1003.t:0 "荒野狩猎"
- court_outcome.1004.desc:1 "我正骑着马，突然坐骑受惊将我摔了下来。这跤摔得我猝不及防，我感觉肺里的空气都要被掏空了。我抬起头，发现一只[owner.Custom('LocalAnimal')]正和我面对面！\n\n我还没来得及尖叫，这头野兽就倒下了，两眼之间插着一支箭。\n\n“[target.GetFirstNameNoTooltip]，我的[target.Custom('LoverPetName')]！我还以为要失去你了！”我的盖世英雄正是[owner.GetTitledFirstName]！"
+ court_outcome.1004.desc:1 "我正骑着马，突然坐骑受惊将我摔了下来。这跤摔得我猝不及防，我感觉肺里的空气都要被掏空了。我抬起头，发现一只[owner.Custom('GetAnimalType')]正和我面对面！\n\n我还没来得及尖叫，这头野兽就倒下了，两眼之间插着一支箭。\n\n“[target.GetFirstNameNoTooltip]，我的[target.Custom('LoverPetName')]！我还以为要失去你了！”我的盖世英雄正是[owner.GetTitledFirstName]！"
  court_outcome.1003.b:0 "我们亲吻，甜如蜜。"
 
 
@@ -69,14 +69,14 @@
  court_outcome.1100.targets_host_residence.desc:0 "[target_host.GetTitledFirstNamePossessive]的[target.Custom('ResidenceBuilding')]。"
  court_outcome.1100.end.desc:0 "\n\n映入眼帘的那间[target.GetFirstNamePossessiveNoTooltip]的房间窗户让我的心怦怦乱跳。那么近，又那么远！\n\n等等——那是谁，正在爬上塔楼？那个黑影在[target.GetFirstNamePossessiveNoTooltip]窗前停下，打开了百叶窗……"
  court_outcome.1100.a:0 "我的[target.Custom('LoverPetName')]有危险——我必须救[target.GetHerHim]！"
- court_outcome.1100.b:0 "“卫兵！#EMP 卫兵！#!塔楼上有入侵者！”"
- court_outcome.1100.b.failure:0 "[target.GetShortUIName|U]被入侵者打伤"
+ court_outcome.1100.b:0 "“卫兵！#EMP 卫兵！#!有人闯入塔楼！”"
+ court_outcome.1100.b.failure:0 "[target.GetShortUIName|U]被闯入者打伤"
  court_outcome.1100.b.success:0 "[target.GetShortUIName|U]安全逃脱"
  court_outcome.1100.c:0 "我来这里不是和盗贼打架的。"
 
  # OWNER SUCCESS: You save target from the burglar/comfort target!
  court_outcome.1101.start.desc:0 "上面传来的挣扎声激发了我有生以来最大的动力。我将生死置之度外，从[target.GetTitledFirstNamePossessive]的窗户中跳了进去。\n\n"
- court_outcome.1101.owner_fights.desc:0 "我感觉就像跳进了结冰的湖里。[target.GetFirstNameNoTooltip]软在地板上，入侵者站在[target.GetHerHim]对面，一把闪光的剑横在他们中间。我一声怒吼，抓住那个恶棍的衣领，把[ROOT.Char.GetHerHim]扔到了墙上。之后我就记不清了。\n\n等危险解除后，我转向[target.GetHerHim]。"
+ court_outcome.1101.owner_fights.desc:0 "我感觉就像跳进了结冰的湖里。[target.GetFirstNameNoTooltip]软在地板上，闯入者站在[target.GetHerHim]对面，一把闪光的剑横在他们中间。我一声怒吼，抓住那个恶棍的衣领，把[ROOT.Char.GetHerHim]扔到了墙上。之后我就记不清了。\n\n等危险解除后，我转向[target.GetHerHim]。"
  court_outcome.1101.target_fights.desc:0 "眼前的景象出乎我的预料。翻倒的家具，破碎的窗帘，而[target.GetFirstName]站在一具一动不动的尸体旁，一把滴血的匕首正握在[target.GetHerHis]的手里。\n\n"
  court_outcome.1101.end.desc:0 "“[target.GetFirstNameNoTooltip]，你还好吗？”我小心翼翼地问道。就好像我的话是一道咒语，[target.GetSheHe]终于有了反应，[target.GetHerselfHimself]投入我的怀中。“感谢[target.GetFaith.HighGodName]有你在这，[ROOT.Char.GetFirstNameNoTooltip]！”"
  court_outcome.1101.a:0 "我再也不会让你受到伤害了！"
@@ -91,6 +91,6 @@
  # TARGET SUCCES: is informed about outcome
  court_outcome.1105.t:0 "不速之客"
  court_outcome.1105.start.desc:0 "#EMP 咔嚓！#!我……我在哪？发生了什么事？我望向黑暗，眼睛逐渐调整着。#EMP [ROOT.Char.GetFaith.HighGodName]啊。#!我卧室窗户旁边有个人。\n\n"
- court_outcome.1105.owner_fights.desc:0 "我从床上爬起来向门口跑去，但入侵者速度更快。[owner.GetSheHe|U]抓住我的胳膊用力一拉，我摔倒了。我正要尖叫，一只手捂住了我的嘴。\n\n“听好，[ROOT.Char.GetTitleAsNameNoTooltip]。如果你照我说的办，没人会受——”[owner.GetHerHis|U]的话变成了汩汩的滴水声，一把匕首深深插入[owner.GetHerHis]的脖子。\n\n“[target.GetFirstNameNoTooltip]，你还好吗？”我在哪都能认出这个声音。拯救我的不是别人正是[owner.GetTitledFirstName]！"
- court_outcome.1105.target_fights.desc:0 "我跳下床伸手去拿床头柜上的匕首。入侵者抓住我的手臂用力一拉，我一个转身，将匕首深深插入[owner.GetHerHis]的腹部。[owner.GetSheHe|U]盯着我看了许久，嘴唇动了动，但是一个字也没能从[owner.GetHerHis]口中说出来。然后[owner.GetSheHe]倒在了地板上。\n\n“[target.GetFirstNameNoTooltip]，你还好吗？”窗户边的不是别人正是[owner.GetTitledFirstName]，手里拿着剑准备好要保护我。我投入[owner.GetHerHis]的怀中，而[owner.GetSheHe]将我紧紧抱住。"
+ court_outcome.1105.owner_fights.desc:0 "我从床上爬起来向门口跑去，但闯入者速度更快。[owner.GetSheHe|U]抓住我的胳膊用力一拉，我摔倒了。我正要尖叫，一只手捂住了我的嘴。\n\n“听好，[ROOT.Char.GetTitleAsNameNoTooltip]。如果你照我说的办，没人会受——”[owner.GetHerHis|U]的话变成了汩汩的滴水声，一把匕首深深插入[owner.GetHerHis]的脖子。\n\n“[target.GetFirstNameNoTooltip]，你还好吗？”我在哪都能认出这个声音。拯救我的不是别人正是[owner.GetTitledFirstName]！"
+ court_outcome.1105.target_fights.desc:0 "我跳下床伸手去拿床头柜上的匕首。闯入者抓住我的手臂用力一拉，我一个转身，将匕首深深插入[owner.GetHerHis]的腹部。[owner.GetSheHe|U]盯着我看了许久，嘴唇动了动，但是一个字也没能从[owner.GetHerHis]口中说出来。然后[owner.GetSheHe]倒在了地板上。\n\n“[target.GetFirstNameNoTooltip]，你还好吗？”窗户边的不是别人正是[owner.GetTitledFirstName]，手里拿着剑准备好要保护我。我投入[owner.GetHerHis]的怀中，而[owner.GetSheHe]将我紧紧抱住。"
  court_outcome.1105.a:0 "哦，我的爱！再也不要让我离开你的视线！"

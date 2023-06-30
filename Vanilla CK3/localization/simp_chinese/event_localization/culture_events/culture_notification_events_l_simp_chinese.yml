@@ -1,8 +1,8 @@
 ﻿l_simp_chinese:
  culture_notification.0010.t:0 "摒弃传统"
- culture_notification.0010.desc:1 "[this_player.GetCulture.GetNameNoTooltip]文化摒弃了[SCOPE.Custom('GetTraditionNameFromFlag')]传统"
+ culture_notification.0010.desc:2 "[this_player.GetCulture.GetNameNoTooltip]文化摒弃了[tradition.GetName]传统"
  culture_notification.0011.t:1 "接受传统"
- culture_notification.0011.desc:1 "[this_player.GetCulture.GetNameNoTooltip]文化接受了[SCOPE.Custom('GetTraditionNameFromFlag')]传统"
+ culture_notification.0011.desc:2 "[this_player.GetCulture.GetNameNoTooltip]文化接受了[tradition.GetName]传统"
 
 
  culture_notification.1001.t:0 "建立融合文化"
@@ -28,7 +28,7 @@
  culture_notification.1111.intro:0 "方言上的小变化，略微不同的风俗……这些差异一开始可能容易忽略。但小变化逐渐积累成大变革，现在居住于[founder.GetPrimaryTitle.GetNameNoTierNoTooltip]的[parent_1.GetCollectiveNoun]人开始转而自我认同为[new_culture.GetName]文化。\n\n"
  culture_notification.1111.ethos.bellicose:0 "同时面临着原始大自然和敌人的压力，[new_culture.GetCollectiveNounNoTooltip]人变得更加好战，寻求用武力创造和保护自己的生活。"
  culture_notification.1111.ethos.bureaucratic:1 "[new_culture.GetCollectiveNounNoTooltip]人似乎愈发喜爱啰嗦的法律条文、冗长的编年史和错综复杂的典章制度，对于官方干预前所未有地扩张到社会的每一个角落感到舒心。"
- culture_notification.1111.ethos.courtly:0 "随着对礼仪的日渐投入，[new_culture.GetCollectiveNounNoTooltip]人采纳了一套结构鲜明、温文尔雅的生活方式，以创造稳定繁荣的新时代。"
+ culture_notification.1111.ethos.courtly:1 "随着对礼仪的日渐投入，[new_culture.GetCollectiveNounNoTooltip]人采纳了一套结构鲜明、温文尔雅的生活方式，以创造稳定繁荣的新时代。"
  culture_notification.1111.ethos.communal:0 "帮助邻人度过难关、与邻人分享自己的胜利，[new_culture.GetCollectiveNounNoTooltip]人在社区中形成了紧密交织的连接，培育了归属感和目的感。"
  culture_notification.1111.ethos.stoic:0 "面对危险和无法预测的世界，[new_culture.GetCollectiveNounNoTooltip]人现在远比之前更重视勇毅和决心。"
  culture_notification.1111.ethos.spiritual:0 "内观己身，外视天地，[new_culture.GetCollectiveNounNoTooltip]人相比之前更为追求精神和虔诚。"

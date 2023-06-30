@@ -1,0 +1,27 @@
+﻿l_simp_chinese:
+ 
+ ## PLAYDATE GUEST INVITE RULES
+ activity_invite_rule_siblings:0 "兄弟姐妹"
+ activity_invite_rule_crushes:0 "恋慕者"
+ activity_invite_rule_personal_scheme_targets:0 "计谋目标"
+ activity_invite_rule_powerful_vassals_children:0 "强力封臣的孩子"
+ activity_invite_rule_vassals_children:0 "封臣的孩子"
+ activity_invite_rule_fellow_vassals_children:0 "封臣同僚的孩子"
+ playdate_conc_reward_title:0 "同辈聚会结束"
+ playdate_conc_reward:0 "[ROOT.Char.GetShortUINameNoTooltip]成功举行了同辈聚会"
+
+
+ #Play date
+ activity_playdate:0 "会见同辈"
+ activity_playdate_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U]的同辈聚会"
+ activity_playdate_selection_tooltip:1 "领地内所有有地位的孩子都被邀请来与同龄人一起玩耍！\n\n预期奖励：\n$BULLET_WITH_TAB$[opinion_i][opinion|E]"
+ activity_playdate_desc:1 "邀请领地内每个有一定身份的儿童来与其他同龄人见面，尽情玩耍！"
+ activity_playdate_host_desc:0 "可能增加你的封臣和廷臣对你的[opinion|E]"
+ activity_playdate_owner:0 "东道主"
+
+ playdate_phase_desc:0 "与你的同龄人社交。"
+ activity_playdate_conclusion_desc:1 "我的领地内的许多孩子来和我一起社交娱乐！"
+ activity_playdate_guest_desc:0 "可能会提高你的领主对你的[opinion|E]"
+ activity_playdate_guest_help_text:0 "$activity_playdate_desc$"
+ activity_playdate_province_desc:0 "这是你的[capital|E]"
+ activity_playdate_destination_selection:0 "你只能在你的[capital|E]举行同辈聚会。"

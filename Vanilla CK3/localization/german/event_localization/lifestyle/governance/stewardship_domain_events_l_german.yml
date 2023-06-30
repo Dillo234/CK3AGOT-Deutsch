@@ -61,7 +61,7 @@
 
  # Marshland Clearing, by Petter Vilberg
  stewardship_domain.6001.t:0 "Entwässerung"
- stewardship_domain.6001.desc:0 "Vor einigen Monaten begann [baron.GetTitledFirstName] ein großes Unterfangen, Sumpfland zu entwässern, um die Besiedelung von [barony.GetNameNoTier] voranzutreiben. Schwere Pflüge und frische Gräben sorgen für einen trockenen Boden, aber die Arbeit geht nur schleppend voran.\n\nMein[steward.Custom('DE_END_PRO_S_N')] [steward.GetCouncilTitle] hat jetzt einen Brief von [baron.GetFirstName] erhalten, in dem [baron.Custom('DE_PRO_PER_S_3P_N')] eine Minderung [baron.Custom('DE_PRO_POS_S_3P')]er Aufgebotspflichten erbittet. Da [baron.Custom('DE_PRO_PER_S_3P_N')] die Arbeiten unbedingt vor der Erntezeit abschließen möchte, hofft [baron.Custom('DE_PRO_PER_S_3P_N')], stattdessen Soldaten zur Arbeit abkommandieren zu können."
+ stewardship_domain.6001.desc:0 "Vor einigen Monaten begann [baron.GetTitledFirstName] ein großes Unterfangen, Sumpfland zu entwässern, um die Besiedelung von [barony.GetNameNoTier] voranzutreiben. Schwere Pflüge und frische Gräben sorgen für einen trockenen Boden, aber die Arbeit geht nur schleppend voran.\n\nMein [steward.GetCouncilTitle] hat jetzt einen Brief von [baron.GetFirstName] erhalten, in dem [baron.Custom('DE_PRO_PER_S_3P_N')] eine Minderung [baron.Custom('DE_PRO_POS_S_3P')]er Aufgebotspflichten erbittet. Da [baron.Custom('DE_PRO_PER_S_3P_N')] die Arbeiten unbedingt vor der Erntezeit abschließen möchte, hofft [baron.Custom('DE_PRO_PER_S_3P_N')], stattdessen Soldaten zur Arbeit abkommandieren zu können."
  stewardship_domain.6001.a:0 "Nehmt Euch so viele Gemeine, wie Ihr braucht, [baron.GetFirstNameNoTooltip]!"
  stewardship_domain.6001.b:0 "Das könnte ganz [county.GetNameNoTier] brauchen."
  stewardship_domain.6001.c:0 "Nein, die Schlachtfelder werden dieses Jahr eine Menge Leben fordern!"
@@ -489,7 +489,7 @@
  stewardship_domain_special.3010.b:0 "Meine Zeit ist mir zu wichtig, um sie an deren Meinung zu vergeuden."
 
  stewardship_domain_special.3012.t:0 "Besuch in [stewardship_domain_special_3010_county.GetNameNoTier]"
- stewardship_domain_special.3012.desc.a:0 "[stewardship_domain_special_3010.GetTitledFirstName] erklärt entschuldigend, dass die Leute hier ein widerspenstiger Haufen sind und man sie lehren müsse, dass man meine Herrschaft nicht in Frage stellen darf. Ihr passives Hinnehmen ist nicht genug; ich brauche Loyalität und Gehorsam.\n\nWie bringe ich sie dazu, gefügig zu sein?"
+ stewardship_domain_special.3012.desc.a:0 "[stewardship_domain_special_3010_baron.GetTitledFirstName] erklärt entschuldigend, dass die Leute hier ein widerspenstiger Haufen sind und man sie lehren müsse, dass man meine Herrschaft nicht in Frage stellen darf. Ihr passives Hinnehmen ist nicht genug; ich brauche Loyalität und Gehorsam.\n\nWie bringe ich sie dazu, gefügig zu sein?"
  stewardship_domain_special.3012.desc.b:0 "Die Leute hier sind ein widerspenstiger Haufen: Man muss sie lehren, dass man meine Herrschaft nicht infrage stellen darf. Ihre passive Duldung ist nicht genug: Ich brauche Loyalität und Gehorsam.\nWie bringe ich sie dazu, gefügig zu sein?"
  stewardship_domain_special.3012.a:0 "Ich werde mit Gold zeigen, wie großzügig ich bin."
  stewardship_domain_special.3012.b:0 "Ich beeindrucke sie mit einer großen Rede über meine Herrschaft."

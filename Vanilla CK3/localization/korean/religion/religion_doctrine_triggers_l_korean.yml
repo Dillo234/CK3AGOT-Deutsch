@@ -25,6 +25,8 @@
  INCOMPATIBLE_TENET_SHARED_HOF_MONOGAMY_VS_POLYGAMY:0 "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$ 일부다처제"
  INCOMPATIBLE_TENET_SHARED_HOF_WORLD_VS_UNRESTRICTED_INCEST:0 "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$ 제한 없는 근친상간"
 
+ INCOMPATIBLE_TENET_ARMED_PILGRIMAGES_VS_FORBIDDEN_PILGRIMAGES:0 "$doctrine_pilgrimage_name$ [doctrine|E]와 양립할 수 없음: [GetFaithDoctrine('doctrine_pilgrimage_forbidden').GetBaseName]"
+
  DOCTRINE_PLURALISM_FUNDAMENTALIST:0 "원리주의자 [doctrine|E]와 양립할 수 없음"
  NOT_DOCTRINE_PLURALISM_FUNDAMENTALIST:0 "원리주의자 [doctrine|E]가 필요함"
  DOCTRINE_PLURALISM_PLURALISTIC:0 "다원주의자 [doctrine|E]와 양립할 수 없음"
@@ -38,6 +40,7 @@
  DOCTRINE_REQUIRED_HEAD_OF_FAITH:0 "종류 상관없이 [head_of_faith|E] [doctrine|E]가 필요함"
  INCOMPATIBLE_WITH_ALL_CRIMINAL_DOCTRINES:0 "[criminal|E]로 치부될 수 있는 특정 행동의 [doctrines|E]와는 양립할 수 없음"
  ADULTERY_MUST_BE_FULLY_ACCEPTED:0 "간통을 [shunned|E] 혹은 [criminal|E]로 치부하는 [doctrine|E]와는 양립할 수 없음"
+ REQUIRES_EXALTATION:0 "$tenet_carnal_exaltation_name$ [core_tenet|E] 필요"
 
  HAS_DOCTRINE:0 "[FAITH_DOCTRINE.GetName(FAITH.Self)] 교리를 도입함"
  NOT_HAS_DOCTRINE:0 "[FAITH_DOCTRINE.GetName(FAITH.Self)] 교리를 도입하지 #bold 않음#!"

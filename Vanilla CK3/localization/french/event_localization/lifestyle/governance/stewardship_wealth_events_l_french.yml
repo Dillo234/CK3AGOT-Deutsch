@@ -14,7 +14,7 @@
  stewardship_wealth.1001.b.givehook:0 "Je devrais une faveur [wealthy_vassal.Custom('FR_au_Char_Pi')][wealthy_vassal.GetTitledFirstNameNoTooltip] [wealthy_vassal.Custom('FR_SilSielle')] m’aide."
  stewardship_wealth.1001.c:0 "Je vais demander un tribut à mes vassaux !"
  stewardship_wealth.1001.c.tt:0 "Chaque vassal :"
- stewardship_wealth.1001.d:0 "Confisquer les biens de l’Église pour collecter des fonds."
+ stewardship_wealth.1001.d:1 "Confisquer les biens religieux pour collecter des fonds."
  stewardship_wealth.1001.e:0 "Je vais me serrer la ceinture et économiser ce que je peux."
  
  # Minting New Coins, bu Stephen Arthur and Sean Hughes
@@ -57,9 +57,9 @@
  stewardship_wealth.1061.t:0 "Nouvelles acquisitions"
  stewardship_wealth.1061.desc:0 "Au cours de la gestion quotidienne de mon pays, j’ai été confronté[ROOT.Char.Custom('FR_E')] à plusieurs opportunités.\n\nChacune d’entre elles a un grand potentiel, mais de manière réaliste, je ne peux en poursuivre qu’une. Je dois déterminer laquelle me rapporterait le plus."
  stewardship_wealth.1061.a:0 "J’ai entendu parler d’un manuscrit oublié, redécouvert."
- stewardship_wealth.1061.a.success:0 "Le manuscrit oublié contient une grande richesse de connaissances"
+ stewardship_wealth.1061.a.success:0 "Le manuscrit oublié est très riche en connaissances"
  stewardship_wealth.1061.a.success.good:0 "Vous obtenez un très bon livre comme [artifact|El]"
- stewardship_wealth.1061.a.failure:0 "Le manuscrit oublié était simplement un vieux registre"
+ stewardship_wealth.1061.a.failure:0 "Le manuscrit oublié est simplement un vieux registre"
  stewardship_wealth.1061.a.success.bad:0 "Vous obtenez un vieux livre inintéressant comme [artifact|El]"
  stewardship_wealth.1061.b:0 "[vassal.Custom('FR_le_Char_Pi')|U][vassal.GetTitledFirstNameNoTooltip] a besoin d’aide pour gérer ses propriétés."
  stewardship_wealth.1061.c:0 "Obtenir ces accords commerciaux remplira mon trésor."
@@ -124,8 +124,8 @@
 
 # Beyond Boundaries by Jason Cantalini
  stewardship_wealth.7001.t:0 "Au-delà des frontières"
- stewardship_wealth.7001.desc:0 "Maudits soient [thieving_rival.Custom('FR_le_Char_Pi')][thieving_rival.GetTitledFirstName] et ses satanés voleurs ! Mon [messenger.GetCouncilTitle|l] bredouille le message par lequel, sans vergogne aucune, ces voyous ont forcé le peuple de [ROOT.Char.GetCapitalLocation.GetName] à renoncer à des richesses qui me revenaient de droit !\n\n[messenger.Custom('FR_le_Char_Pi')|U][messenger.GetTitledFirstName] a demandé à mes fonctionnaires de collecter nos honoraires habituels... mais je vois déjà les veuves éplorées, les enfants affamés, et ces pauvres familles chassées de chez elles.\n\nMaudit soit [thieving_rival.Custom('FR_le_Char_Pi')][thieving_rival.GetTitledFirstNameNoTooltip] pour sa cupidité !"
-
+ stewardship_wealth.7001.desc:1 "Maudits soient [thieving_rival.Custom('FR_le_Char_Pi')][thieving_rival.GetTitledFirstName] et ses satanés voleurs ! M[ROOT.Char.Custom2('FR_RelationToMeShort_OnA', SCOPE.sC('messenger'))], [messenger.Custom('FR_le_Char_Pi')][messenger.GetTitledFirstName], bredouille le message par lequel, sans vergogne aucune, ces voyous ont forcé le peuple de [ROOT.Char.GetCapitalLocation.GetName] à renoncer à des richesses qui me revenaient de droit !\n\n[messenger.Custom('FR_IlElle')|U] a demandé à mes fonctionnaires de collecter nos honoraires habituels... mais je vois déjà les veuves éplorées, les enfants affamés, et ces pauvres familles chassées de chez elles.\n\nMaudit soit [thieving_rival.Custom('FR_le_Char_Pi')][thieving_rival.GetTitledFirstNameNoTooltip] pour sa cupidité !"
+ stewardship_wealth.7001.tt.crime_alert:0 "[victim.Custom('FR_le_Char_Pi')|U][victim.GetTitledFirstName] s’en souviendra"
  stewardship_wealth.7001.justification:0 "[thieving_rival.GetSheHe|U] colporte de vils mensonges sur ses droits d’être m[thieving_rival.Custom('FR_OnA')] [thieving_rival.Custom('FR_SeigneurDame')] lige, mais je sais que ce qu’[thieving_rival.Custom('FR_IlElle')] a pris m’appartient..."
  stewardship_wealth.7001.unleashed_knights:0 "[thieving_rival.GetSheHe|U] et ses serviteurs, ces vulgaires voleurs, sont plus détestables de jour en jour..."
 
@@ -134,3 +134,14 @@
  stewardship_wealth.7001.b:0 "Mes querelles personnelles ne regardent pas mon peuple."
  stewardship_wealth.7001.b.tt:0 "Vous exemptez les victimes de [thieving_rival.GetFirstNameNoTooltip] de l’imposition"
 
+ stewardship_wealth.2000.t:0 "Peser le pour et le contre"
+ stewardship_wealth.2000.desc:0 "J’arpente les rues de [loc_capital_county.GetNameNoTier] avec mon intendant, en quête de moyens de remédier à la pauvreté de notre trésorerie. Lorsque nous atteignons les halles de pesage du marché, [loc_steward.GetFirstName] s’adresse à moi à voix basse :\n\n« Nous pourrions augmenter nos revenus, si nous faisions preuve de quelque... créativité en matière de taxes sur les marchandises qui passent par ici. Je peux m’arranger pour faire fabriquer d’autres poids, légèrement alourdis, mais identiques. Ainsi, pour les mêmes marchandises, les marchands nous paieront plus ! Personne ne devrait s’en rendre compte.\n\nSi c’est ce que vous souhaitez, je mettrai ce plan à exécution et nous ferons affluer l’or dans vos coffres ! »"
+ stewardship_wealth.2000.a:0 "Changeons les poids dès ce soir."
+ stewardship_wealth.2000.a.tt.success:0 "Les poids sont changés, sans que quiconque s’en aperçoive"
+ stewardship_wealth.2000.a.tt.failure:0 "Votre machination a été découverte"
+ stewardship_wealth.2000.b:0 "Il est vraiment nécessaire de disposer de meilleurs poids."
+ stewardship_wealth.2000.b.tt:0 "Bien que ce soit compliqué, il est possible de trouver une solution qui satisfasse les marchands, tout en remplissant vos coffres."
+ stewardship_wealth.2000.b.tt.success:0 "Vous réussissez à mettre en œuvre un nouveau système de pesée."
+ stewardship_wealth.2000.b.tt.failure:0 "Le nouveau système de pesée est loin d’être idéal"
+ stewardship_wealth.2000.c:0 "Je vais m’accaparer ce dont j’ai besoin, à l’ancienne !"
+ stewardship_wealth.2000.c.tt:0 "Vous contraignez en personne les commerçants des alentours à payer plus cher pour avoir le privilège de faire passer leurs marchandises par ce comté."

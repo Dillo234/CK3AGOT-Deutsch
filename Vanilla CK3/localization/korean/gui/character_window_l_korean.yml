@@ -1,6 +1,7 @@
 ﻿l_korean:
  SPOUSE:0 "[spouse|E]"
  FORMER_SPOUSE:0 "전 [spouse|E]"
+ SPOUSE_DIARCH:0 "$SPOUSE$-[Character.GetDiarchTitle]"
  BETROTHED:0 "[betrothed|E]"
  SPOUSES:0 "배우자"
  CONCUBINES:0 "[concubines|E]"
@@ -160,17 +161,17 @@
  CHARACTER_WINDOW_FIND_SPOUSE:1 "#T [spouse|E] 찾기\n#![Character.GetUIName]의 [marriage|E]을 주선합니다.\n\n[Character.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
  CHARACTER_WINDOW_FIND_SPOUSE_SELF:1 "#T [spouse|E] 찾기\n#!당신의 [marriage|E]을 준비합니다.\n\n[Character.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
  CHARACTER_WINDOW_FIND_SECONDARY_SPOUSE:0 "#T [spouse|E] 찾기\n[marriage|E]을 준비합니다."
- CHARACTER_WINDOW_NO_MORE_SPOUSES:0 "#T [spouses|E]가 더 없음#!"
  CHARACTER_WINDOW_GOTO_FIND_SPOUSE:0 "#T 다음: [spouse|E] 찾기#!"
  CHARACTER_WINDOW_GOTO_NEXT_SPOUSE:0 "#T 다음: [CHARACTER.GetUIName]#!"
  CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE:0 "#T 이전: [CHARACTER.GetUIName]#!"
- 
+ CHARACTER_WINDOW_GOTO_PREVIOUS_FIND_SPOUSE:0 "#T 이전: [spouse|E] 찾기#!"
+ CHARACTER_WINDOW_GOTO_DIARCH:0 "#T 다음: [CHARACTER.GetLiege.GetDiarchTitle] [CHARACTER.GetUIName]#!"
+
  CV_CUSTOMIZE_PORTRAIT:0 "#I 클릭하여 이발소 열기#!"
  RENAME_CHARACTER:0 "#I 클릭하여 인물 이름 변경#!"
 
  CV_CHILDREN_HEADING:0 "자녀 #weak ([GetDataModelSize(CharacterWindow.GetChildren)])#!"
  CV_SIBLINGS_HEADING:0 "형제자매 #weak ([GetDataModelSize(CharacterWindow.GetSiblings)])#!"
- AI_PERSONALITY_TT:0 "#T 성격: [Character.GetAIPersonality]#!\n[Character.GetShortUINameNoTooltip](은)는 성격에 따라 당신 및 타인에 반하는 행동을 할 것입니다. 이러한 성격은 성격 [traits|E]에 의해 결정됩니다."
  CHARACTER_RELATION_COMBINE:0 "$FIRST$ • $SECOND$"
 
  FAITH_CHARACTER_WINDOW:0 "[Faith.GetAdjectiveNoTooltip]"
@@ -181,4 +182,3 @@
  KNOWN_LANGUAGES_TOOLTIP:1 "#T 습득한 [languages|E]#!\n[Character.GetKnownLanguagesString]\n\n#weak 현재 [language_limit|E]: [Character.MakeScope.ScriptValue('language_soft_cap')|V0]개 중 [Character.MakeScope.ScriptValue('current_extra_languages')|V0]개#!"
 
  EXTENDED_RELATIONS_TOOLTIP:0 "[Character.GetRelationToStringExtended( GetPlayer )]"
- 

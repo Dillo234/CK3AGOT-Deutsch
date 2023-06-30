@@ -1,5 +1,4 @@
 ﻿l_russian:
- # TODO_CD ADD THE CHARACTER TO THE ANTIQUARIAN TITLE
  steal_back_artifact_event_title:1 "Выкрасть утраченный артефакт:"
  steal_back_artifact_ongoing.1001.t:0 "$steal_back_artifact_event_title$: хранитель древностей"
  steal_back_artifact_ongoing.1001.desc:0 "Одно из главных препятствий на пути к артефакту — [antiquarian.GetTitledFirstName], [Select_CString(antiquarian.IsFemale, 'хранительница древностей, которую', 'хранитель древностей, которого' )] держит на службе [target.GetTitledFirstName].\n\nЕсть, конечно, несколько способов #EMP избавиться#! от человека, но, возможно, [antiquarian.GetFirstNameNoTooltip] сможет просто отвернуться в нужный момент, если я предложу достойную взятку?"

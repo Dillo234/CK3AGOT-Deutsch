@@ -51,6 +51,7 @@
  health.1001.desc:0 "[ROOT.Char.GetTitleTierName](이)든 농노든, 지체가 높든 미천하든 우리는 모두 필멸자라는 것은 다를 바가 없다. 이른 아침 기침 때문에 잠에서 깨며 이 사실을 되새긴다. 무거운 통증이 머리와 목구멍을 강타한다."
  health.1001.court_physician.desc:0 "\n\n"몸이 좀 안 좋으시군요. 적절한 치료법 몇 개를 알고 있습니다만...""
  health.1001.a:0 "그냥 침대에 계속 누워있고 싶어..."
+ health.1001.b:0 "#EMP 당장#! 고향으로 돌아가야겠어!"
 
  health.1002.t:1 "[SCOPE.Custom('EventTitleDisease')]: 칼처럼 날카로운"
  health.1002.desc:0 "숨 쉬는 게 그렇게 쉽고도 경이로운 일이었다니. 호흡은 모두가 너무나도 당연하게 여기는 작은 기적이다. 이제 헐떡이지 않고서는 숨을 쉴 수가 없다. 마치 심장을 쑤시는 듯한 고통이 일어나면 그 후 기침 발작이 일어난다. 숨을 쉴 수 있다는 것은 얼마나 큰 축복인가!"
@@ -109,9 +110,15 @@
  health.1011.court_physician.desc:0 "\n\n"할 수 있는 것은 모두 다 해보겠습니다만 최악의 경우도 생각해 두시는 편이...""
  health.1011.a:1 "오, [ROOT.Char.GetFaith.HealthGodName]님! 저를 이 악몽에서 구하소서!"
 
+ # Travel loc if you get ill on the road
+ health.travel.t:0 "[SCOPE.Custom('EventTitleDisease')]: 여정의 끝?"
+ health.travel.option.home:0 "고향에서 최상의 치료를 받을 수 있을 것이다."
+ health.travel.option.home.flavor:0 "[ROOT.Char.GetInvolvedActivity.GetNameNoTooltip](을)를 포기하고 고향으로 돌아가기 시작함"
+ health.travel.option.continue:0 "버티고 나아가야 해."
+
  # Recover from diseases, by Mathilda Bjarnehed
  health.1101.t:1 "[SCOPE.Custom('EventTitleDisease')]: 오래 전의 나"
- health.1101.desc:0 "아침에 일어나 창문으로 쏟아지는 햇빛을 보니 몇 주만에 엄청 잘 잤다는 생각이 든다. 기침 때문에 잠을 설치지도 않았다!"
+ health.1101.desc:1 "아침에 일어나 쏟아지는 햇살을 바라보던 중, 몇 주만에 처음으로 숙면을 취했다는 사실을 알아차렸다. 기침 때문에 잠을 설치지도 않았다!"
  health.1101.a:0 "다시 건강을 되찾다니 기쁘군."
 
  health.1102.t:1 "[SCOPE.Custom('EventTitleDisease')]: 건강이 돌아오다"
@@ -174,7 +181,7 @@
  health.2002.d.sick:0 "우린 저주받은 거야!"
 
  health.2003.t:1 "[SCOPE.Custom('EventTitleDisease')]: 팽개치다"
- health.2003.start.desc:1 "[ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('other_partner'))]에게 감염 사실을 알려 위로라도 좀 받아보려 했다. 하지만 [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('other_partner')) ](은)는 역겨움에 가득 찬 눈을 하고 나를 팽개쳐버렸다."
+ health.2003.start.desc:1 "[ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('other_partner'))]에게 감염 사실을 알려 위로라도 좀 받아보려 했다. 하지만 [other_partner.GetSheHe]는 역겨움에 가득 찬 눈을 하고 나를 팽개쳐버렸다."
  health.2003.consort.desc:0 "나한테 침실에는 얼씬도 하지 말라고 하면서 말이다."
  health.2003.lover.desc:0 "우리 사이의 모든 것을 끝내자고 하면서 말이다."
  health.2003.a:0 "이렇게 다 뺏어가야 속이 시원한 건가?"
@@ -254,11 +261,15 @@
  health.3001.already_sick.desc:0 "이제 신하들이 궁정 의사로 채용할 만한 사람들을 몇 명 골라왔다. 어느 쪽이든 지금은 까탈스럽게 굴 때가 아니다."
  health.3001.a:0 "[high_skill_option.GetFirstNameNoTooltip](이)가 확실히 경력이 많군."
  health.3001.a.tt:1 "추가로 [GetCourtPositionType('court_physician_court_position').GetName()]는 매달 [gold_i][SCOPE.ScriptValue('court_position_physician_salary')]의 봉급을 받음"
+ health.3001.a.aptitude:0 "[high_skill_option.GetUINamePossessive] [aptitude|E]이 [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]임"
  health.3001.b:0 "[low_skill_option.GetFirstNameNoTooltip](은)는 최소한 열성적이긴 해."
+ health.3001.b.aptitude:0 "[low_skill_option.GetUINamePossessive] [aptitude|E]이 [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]임"
  health.3001.c:0 "[mystic_option.GetFirstNameNoTooltip](은)는 "대체 의약학"을 좀 안다고 하는군."
+ health.3001.c.aptitude:0 "[mystic_option.GetUINamePossessive] [aptitude|E]이 [mystic_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]임"
  health.3001.d.two:0 "어느 쪽이든 그다지 인상깊진 않군."
  health.3001.d.more:0 "모두 그다지 인상깊지 않군."
  health.3001.e:0 "[excellent_skill_option.GetFirstNameNoTooltip](은)는 학계에서도 매우 잘 알려진 의사로군."
+ health.3001.e.aptitude:0 "[excellent_skill_option.GetUINamePossessive] [aptitude|E]이 [excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]임"
  health.3001.d.tt:1 "누구도 [GetCourtPositionType('court_physician_court_position').GetName()]로 뽑지 않음"
 
  #Disease treatment, by Mathilda Bjarnehed & Milla Isaksson

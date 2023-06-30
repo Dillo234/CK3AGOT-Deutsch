@@ -52,6 +52,7 @@
  NOT_CHARACTER_FAITH_EQUAL_FIRST:1 "#bold No#! eres de fe [FAITH.GetAdjective]"
  CHARACTER_FAITH_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] es de fe [FAITH.GetAdjective]"
  NOT_CHARACTER_FAITH_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] #bold no#! es de fe [FAITH.GetAdjective]"
+ CHARACTER_FAITH_NONE:0 "Es practicante de la misma [faith|lE]"
  CHARACTER_RELIGION_EQUAL_FIRST:1 "Eres de religión [RELIGION.GetAdjective]"
  NOT_CHARACTER_RELIGION_EQUAL_FIRST:1 "#bold No#! eres de religión [RELIGION.GetAdjective]"
  CHARACTER_RELIGION_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] es de la religión [RELIGION.GetAdjective]"
@@ -69,6 +70,7 @@
  NOT_CHARACTER_DYNASTY_EQUAL_FIRST:1 "#bold No#! formas parte de la [dynasty|lE] [DYNASTY.GetName]"
  CHARACTER_DYNASTY_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName] forma parte de la [dynasty|lE] [DYNASTY.GetName]"
  NOT_CHARACTER_DYNASTY_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName] #bold no#! forma parte de la [dynasty|lE] [DYNASTY.GetName]"
+ CHARACTER_HOUSE_EQUAL_NONE:0 "Es un miembro más de la [house|lE]"
 
  # Title Attribute Triggers
  LANDED_TITLE_FAITH_EQUAL_THIRD:0 "[TITLE.GetName] es de la fe [FAITH.GetAdjective]"
@@ -97,9 +99,18 @@
  NOT_PROVINCE_CULTURE_EQUAL_THIRD:1 "[PROVINCE.GetName] #bold no#! es de cultura [TARGET_CULTURE.GetName]"
  PROVINCE_CULTURE_EQUAL_GLOBAL:1 "Es de cultura [TARGET_CULTURE.GetName]"
  NOT_PROVINCE_CULTURE_EQUAL_GLOBAL:1 "#bold No#! es de cultura [TARGET_CULTURE.GetName]"
+ PROVINCE_CAPITAL_EQUAL_GLOBAL:0 "Es la [realm_capital|El] de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+ NOT_PROVINCE_CAPITAL_EQUAL_GLOBAL:0 "#bold No#! es la [realm_capital|El] de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+ PROVINCE_CAPITAL_EQUAL_THIRD:0 "La [realm_capital|El] de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] es [PROVINCE.GetBaronyNameExplicitly]"
+ NOT_PROVINCE_CAPITAL_EQUAL_THIRD:0 "La [realm_capital|El] de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] #bold no#! es [PROVINCE.GetBaronyNameExplicitly]"
+ PROVINCE_CAPITAL_EQUAL_FIRST:0 "La [Concept( 'realm_capital', 'capital de tu señorío' )|E] es [PROVINCE.GetBaronyNameExplicitly]"
+ NOT_PROVINCE_CAPITAL_EQUAL_FIRST:0 "La [Concept( 'realm_capital', 'capital de tu señorío' )|E] #bold no#! es [PROVINCE.GetBaronyNameExplicitly]"
 
  # Faith Triggers
  FAITH_RELIGION_EQUAL_THIRD:0 "El [FAITH.GetName] es una [faith|lE] [RELIGION.GetAdjective]"
  NOT_FAITH_RELIGION_EQUAL_THIRD:0 "El [FAITH.GetName] #bold no#! es una [faith|lE] [RELIGION.GetAdjective]"
  FAITH_RELIGION_EQUAL_GLOBAL:0 "Es una [faith|lE] [RELIGION.GetAdjective]"
  NOT_FAITH_RELIGION_EQUAL_GLOBAL:0 "#bold No#! es una [faith|lE] [RELIGION.GetAdjective]"
+
+ ACCOLADE_TYPE_EQUAL_GLOBAL:0 "Este [accolade_type|lE] es inválido"
+ ACCOLADE_TYPE_EQUAL_NONE:0 "Este [accolade_type|lE] es inválido"

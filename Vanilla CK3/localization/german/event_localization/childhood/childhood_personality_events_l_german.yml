@@ -62,8 +62,8 @@
  child_personality.0008.c:0 "Ich bekomme dieses Zwinkern einfach nicht mehr aus dem Kopf!"
 
  child_personality.0009.t:0 "Der Kinderprediger"
- child_personality.0009.desc:1 "Ich wurde Zeuge einer interessanten Begebenheit: Mein[child_preacher.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('child_preacher'))][child_preacher.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child_preacher'))] [child_preacher.GetTitledFirstName] sprach mit anderen Kindern über [child_preacher.GetFaith.random_GoodGodNames]. Sie lachten und verspotteten [child_preacher.Custom('DE_PRO_PER_S_3P_A')] eine Weile, bevor das Geschubse anfing. Trotz des Spottes versuchte [child_preacher.Custom('DE_PRO_PER_S_3P_N')], die Lektion fortzusetzen, bis der erste Schlag landete."
- child_personality.0009.desc_fallback:1 "Ich sah zu, wie mein Freund ein paar anderen Kindern von [ROOT.Char.GetFaith.random_GoodGodNames] erzählte. Sie lachten und verspotteten ihn eine Weile, bevor das Geschubse anfing. Trotz des Spottes versuchte mein Freund, die Lektion fortzusetzen, bis der erste Schlag landete."
+ child_personality.0009.desc:1 "Ich wurde Zeuge einer interessanten Begebenheit: Mein[child_preacher.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('child_preacher'))][child_preacher.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child_preacher'))] [child_preacher.GetTitledFirstName] sprach mit anderen Kindern über die guten Mächte ([child_preacher.GetFaith.random_GoodGodNames]). Sie lachten und verspotteten [child_preacher.Custom('DE_PRO_PER_S_3P_A')] eine Weile, bevor das Geschubse anfing. Trotz des Spottes versuchte [child_preacher.Custom('DE_PRO_PER_S_3P_N')], die Lektion fortzusetzen, bis der erste Schlag landete."
+ child_personality.0009.desc_fallback:1 "Ich sah zu, wie mein Freund ein paar anderen Kindern von den guten Mächten ([ROOT.Char.GetFaith.random_GoodGodNames]) erzählte. Sie lachten und verspotteten ihn eine Weile, bevor das Geschubse anfing. Trotz des Spottes versuchte mein Freund, die Lektion fortzusetzen, bis der erste Schlag landete."
  child_personality.0009.a:0 "Ich beschütze dich!"
  child_personality.0009.a.tt:1 "Es könnte sein, dass Ihr verwundet werdet."
  child_personality.0009.b:0 "Halten wir doch alle inne und reden wir darüber."
@@ -205,7 +205,7 @@
  child_personality.0061.desc_ending:0 "Ich habe bei einem gesellschaftlichen Anlass einen Blick auf [guardian.GetTitledFirstNameNoTooltip] erhascht: Alle hatten etwas zu trinken in der Hand und grinsten breit. Vielleicht ist doch etwas Wahres daran, dass der Wein einem hilft, sich zu entspannen."
  child_personality.0061.a:0 "Könnte er das Heilmittel für meine Menschenscheue sein?"
  child_personality.0061.a.tt:0 "#EMP Es besteht die Chance, dass Ihr Eure Diplomatie und einen Hang zum Trinken entwickelt.#!"
- child_personality.0061.b:0 "Nein, meine Menschenscheue ist eine Prüfung von [ROOT.Char.GetFaith.HighGodName]! Sicher will mich nur das Böse versuchen!"
+ child_personality.0061.b:0 "Nein, meine Menschenscheue ist eine Prüfung der höchsten Mächte ([ROOT.Char.GetFaith.HighGodName])! Sicher will mich nur das Böse versuchen!"
 
  my_ward_or_child:0 "Mein[child.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))] "
  child_personality.101.desc:0 "[child.GetTitledFirstName] kam zu mir und beschwerte sich darüber, dass [bully.GetTitledFirstName] [child.Custom('DE_PRO_PER_S_3P_A')] tyrannisiert."
@@ -310,7 +310,7 @@
  child_personality.108.desc:0 "[child.GetTitledFirstName] schien unser letztes Festmahl viel Freude bereitet zu haben!"
  child_personality.108.greedy:0 "\n[child.Custom('DE_PRO_PER_S_3P_N')|U] hörte gar nicht mehr damit auf, von den edlen Gewändern und dem funkelnden Gold zu reden, das [child.Custom('DE_PRO_PER_S_3P_N')] dort gesehen hatte."
  child_personality.108.gregarious:0 "\n[child.Custom('DE_PRO_PER_S_3P_N')|U] unterhielt sich prächtig mit allen dort, sogar mit den Erwachsenen."
- child_personality.108.lustful:0 "\nAnschließend hörte [child.Custom('DE_PRO_PER_S_3P_N')|U] gar nicht mehr auf, von den Gefühlen zu sprechen, die ein Blickkontakt mit einem jüngeren Mitglied des Gesindes bei [child.Custom('DE_PRO_PER_S_3P_D')] hervorgerufen hatte."
+ child_personality.108.lustful:1 "\nAnschließend hörte [child.Custom('DE_PRO_PER_S_3P_N')] gar nicht mehr auf, von den Gefühlen zu sprechen, die die erwiderten Blicke eines jüngeren Mitglieds des Gesindes bei [child.Custom('DE_PRO_PER_S_3P_D')] hervorgerufen hatten."
  child_personality.108.confirm_greedy:0 "Dies sind die Symbole der Macht, mit der unsere Welt regiert wird."
  child_personality.108.confirm_gregarious:0 "Es schadet nie, neue Freunde zu gewinnen."
  child_personality.108.confirm_lustful:0 "Oh, da wird wohl jemand langsam erwachsen."
@@ -325,7 +325,7 @@
  child_personality.109.brave:0 "\n\n[child.GetTitledFirstName] ging dazwischen und versuchte nach Kräften, [child_preacher.Custom('DE_PRO_PER_S_3P_A')] zu verteidigen."
  child_personality.109.brave_fallback:0 "\n\n[child.GetTitledFirstName] ging dazwischen und versuchte nach Kräften, den kleinen Prediger zu verteidigen."
  child_personality.109.calm:0 "\n\n[child.GetTitledFirstName] ging dazwischen und konnte den Streit beenden, bevor jemand verletzt wurde."
- child_personality.109.zealous:1 "\n\n[child.GetTitledFirstName] war rasend vor Wut darüber, dass jemand angegriffen wurde, nur weil er im Namen von [child.GetFaith.random_GoodGodNames] sprach, und verjagte die anderen Kinder."
+ child_personality.109.zealous:1 "\n\n[child.GetTitledFirstName] war rasend vor Wut darüber, dass jemand angegriffen wurde, nur weil er im Namen von den guten Mächten ([child.GetFaith.random_GoodGodNames]) sprach, und verjagte die anderen Kinder."
  child_personality.109.confirm_brave:0 "Weicht niemals vor einer Herausforderung zurück, [child.GetFirstNameNoTooltip]."
  child_personality.109.confirm_calm:0 "Es ist unglaublich wichtig, angesichts von Druck die Ruhe zu bewahren."
  child_personality.109.confirm_zealous:0 "Ihr werdet dem Göttlichen gut dienen, Kind!"
@@ -402,7 +402,7 @@
  child_personality.2006.a:0 "Seitdem stehen wir uns nahe."
 
  child_personality.2007.t:0 "Eine Begegnung"
- child_personality.2007.desc:1 "[child_preacher.GetTitledFirstName] sprach zu vielen der Kinder über [child_preacher.GetFaith.HighGodName], und das ging mir auf die Nerven.\n\nIch habe [child_preacher.Custom('DE_PRO_PER_S_3P_A')] nur ein wenig herumgeschubst, als [child.GetTitledFirstName] wie aus dem Nichts anfing, mich zu verprügeln, und mir sagte, ich solle [child_preacher.GetFirstName] in Ruhe lassen."
+ child_personality.2007.desc:1 "[child_preacher.GetTitledFirstName] sprach zu vielen der Kinder über die hhöchsten Mächte ([child_preacher.GetFaith.HighGodName]), und das ging mir auf die Nerven.\n\nIch habe [child_preacher.Custom('DE_PRO_PER_S_3P_A')] nur ein wenig herumgeschubst, als [child.GetTitledFirstName] wie aus dem Nichts anfing, mich zu verprügeln, und mir sagte, ich solle [child_preacher.GetFirstName] in Ruhe lassen."
  child_personality.2007.a:0 "Ich hatte doch nur ein wenig Spaß, Holzkopf!"
 
  #Curious 
@@ -499,7 +499,7 @@
 
  child_personality.4011.t:0 "Erwachende Anziehung"
  child_personality.4011.desc_opening:0 "Eingekuschelt in meine Decke schlafe ich langsam ein.\n\n"
- child_personality.4011.desc_1:0 "Vor mir steht ein prächtiges Tier, das mich mit einer Kopfbewegung auffordert, ihm zu folgen. Als wir einen Hain betreten, pocht mir das Herz, mein Körper beginnt zu kribbeln, meine Seele ächzt vor #EMP Sehnsucht#!. Als ich mich umdrehe, ist das Tier verschwunden, und wo es vorher stand, sehe ich nun"
+ child_personality.4011.desc_1:0 "Vor mir steht ein prächtiges Tier ([ROOT.Char.Custom('GetAnimalType')]), das mich mit einer Kopfbewegung auffordert, ihm zu folgen. Als wir einen Hain betreten, pocht mir das Herz, mein Körper beginnt zu kribbeln, meine Seele ächzt vor #EMP Sehnsucht#!. Als ich mich umdrehe, ist das Tier verschwunden, und wo es vorher stand, sehe ich nun"
  child_personality.4011.desc_2:0 "Vor mir liegt ein Mensch, umhüllt von Nebel, der mich zu sich winkt. Als ich bei ihm bin, ihn berühre, lichtet sich der Nebel und unsere Haut wird überzogen von einem sanften Erröten. Ich lehne mich nach vorn zu einem Kuss. Als ich den Kopf wieder zurücknehme, betrachte ich"
  child_personality.4011.desc_3:0 "Ich erwache schlagartig mitten in der Nacht … Ich atme schwer, und meine Haut kribbelt. So etwas habe ich noch nie erlebt. Bin ich krank? Wovon habe ich geträumt? Ich kann mich nur noch erinnern an"
  child_personality.4011.a:0 "einen wunderschönen Knaben."
@@ -541,7 +541,7 @@
  child_personality.9900.gregarious.desc:0 "sei sehr gut darin, neue Freunde zu finden,"
  child_personality.9900.ambitious.desc:0 "sei zu Großem bestimmt,"
  child_personality.9900.just.desc:0 "sei gerecht und unparteiisch,"
- child_personality.9900.zealous.desc:1 "sei [child.Custom('DE_ART_IND_N')] gläubig[child.Custom('DE_END_ADJ_NUL_S_N')] Diener[child.Custom('DE_END_NOU_S_GS_N')] von [child.GetFaith.HighGodName],"
+ child_personality.9900.zealous.desc:1 "sei [child.Custom('DE_ART_IND_N')] gläubig[child.Custom('DE_END_ADJ_NUL_S_N')] Diener[child.Custom('DE_END_NOU_S_GS_N')] der höchsten Mächte ([child.GetFaith.HighGodName]),"
  child_personality.9900.compassionate.desc:0 "sei eine gütige und sanfte Seele,"
  child_personality.9900.stubborn.desc:0 "sei niemand, der so einfach aufgibt,"
  child_personality.9900.forgiving.desc:0 "sei niemand, der lange Groll hegt,"
@@ -558,7 +558,7 @@
  child_personality.9900.sinful.gregarious.desc:0 "sei viel zu freundlich,"
  child_personality.9900.sinful.ambitious.desc:0 "würde immer neue Spielsachen wollen,"
  child_personality.9900.sinful.just.desc:0 "sei ein selbstgefälliger Empörkommling,"
- child_personality.9900.sinful.zealous.desc:1 "ein hirnloser Sklave der [child.GetFaith.AltPriestTermPluralU],"
+ child_personality.9900.sinful.zealous.desc:1 "ein hirnloser Sklave der [child.GetFaith.AltPriestTermPlural|U],"
  child_personality.9900.sinful.compassionate.desc:0 "sei geblendet durch zu viel Einfühlungsvermögen,"
  child_personality.9900.sinful.stubborn.desc:0 "sei unerschütterlich stur,"
  child_personality.9900.sinful.forgiving.desc:0 "würde viel zu leicht verzeihen,"
