@@ -105,9 +105,26 @@
  activity_witch_ritual:0 "Grand rite"
  activity_witch_ritual_name:0 "[ACTIVITY.GetOwner.LocalPlayerString( 'Votre grand rite', 'Le grand rite' )][ACTIVITY.GetOwner.LocalPlayerString( '', 'Loc_FR_du_GetName' )]"
  activity_witch_ritual_owner:0 "Hôte"
- activity_witch_ritual_desc:1 "Tous les vrais disciples [ACTIVITY.GetOwner.GetFaith.WitchGodNamePossessive] ont été invités à célébrer sa puissance et à explorer ses mystères."
+ activity_witch_ritual_desc:3 "Les véritables adeptes possédant le [trait|El] [GetTrait('witch').GetName( GetNullCharacter )] sont invités à célébrer la puissance [GetPlayer.GetFaith.WitchGodNamePossessive] et à en découvrir les mystères les plus profonds."
+ activity_witch_ritual_destination_selection:0 "Vous ne pouvez organiser un $activity_witch_ritual$ qu’à votre [capital|El]."
+ activity_witch_ritual_selection_tooltip:0 "Adorez [GetPlayer.GetFaith.WitchGodName] et embrassez Son don obscur\n\nRécompenses attendues :\n$BULLET_WITH_TAB$[opinion|E] [opinion_i]\n$BULLET_WITH_TAB$Perte de [stress|El] [stress_loss_i]"
+ activity_witch_ritual_province_desc:1 "C’est votre [capital|El]"
+ activity_witch_ritual_host_desc:1 "$BULLET_WITH_TAB$Peut gagner de l’expérience de mode de vie\n$BULLET_WITH_TAB$Les participants peuvent améliorer l’[opinion|El] des personnages présents à leur sujet\n$BULLET_WITH_TAB$Les participants peuvent perdre du [stress|El][stress_loss_i]"
+ activity_witch_ritual_conclusion_desc:1 "Le [GetActivityType( 'activity_witch_ritual' ).GetName|l] est terminé"
+ activity_witch_ritual_guest_desc:1 "$BULLET_WITH_TAB$ Les participants peuvent améliorer l’[opinion|El] des personnages présents\n$BULLET_WITH_TAB$ Les participants peuvent perdre du [stress|El][stress_loss_i]"
+ activity_witch_ritual_guest_help_text:0 "$activity_witch_ritual_desc$"
+ witch_ritual_phase_desc:0 "Votre dévotion sera pour [GetPlayer.GetFaith.WitchGodName]"
+ host_witch_ritual_title:0 "Grand rite"
+ host_witch_ritual:0 "A honoré [GetPlayer.GetFaith.WitchGodName]"
 
  host_witch_ritual_decision_cooldown:0 "Je ne pourrai pas organiser un autre Grand rite pendant #N 10 ans#!"
+
+ ### PHASES
+ witch_ritual_phase:0 "Rituel des ténèbres"
+
+ ### INTENTS
+ worship_devil_intent:2 "A adoré [GetPlayer.GetFaith.WitchGodName]"
+ worship_devil_intent_desc:1 "Vous vous consacrez à l’être caché, corps et âme."
 
  #Invitation
  witch.3001.t:0 "Ch[ROOT.Char.Custom('FR_ErEre')] [ROOT.Char.Custom('SisterBrother')|U] [ROOT.Char.GetFirstNameNoTooltip],"
@@ -116,20 +133,20 @@
  witch.3001.b:0 "Je préfère encore manger un bol de limaces."
 
  #Uninvited guest
- witch.3003.t:1 "$activity_witch_ritual$ : un[new_guest.Custom('FR_E')] invité[new_guest.Custom('FR_E')] imprévu[new_guest.Custom('FR_E')]"
- witch.3003.desc:0 "Alors que les autres sorciers arrivent à [capital.GetNameNoTooltip], j’aperçois un visage inconnu.\n\nLorsque je vais saluer [inviter.Custom2('MyCharacterIntroduction', ROOT.Char)], [inviter.Custom('FR_IlElle')] me présente l’inconnu[new_guest.Custom('FR_E')] comme [new_guest.GetFirstName]. Il s’avère que ce sont de vieilles connaissances, et [inviter.GetFirstNameNoTooltip] demande si [new_guest.GetFirstNameNoTooltip] peut se joindre à notre rite."
+ witch.3003.t:2 "L’intrus[new_guest.Custom('FR_E')]"
+ witch.3003.desc:1 "Alors que les autres sorciers arrivent à [capital.GetNameNoTooltip], j’aperçois un visage inconnu.\n\nLorsque je vais saluer [inviter.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)], [inviter.Custom('FR_IlElle')] me présente l’inconnu[new_guest.Custom('FR_E')] comme [new_guest.GetFirstName]. Il s’avère que ce sont de vieilles connaissances, et [inviter.GetFirstNameNoTooltip] demande si [new_guest.GetFirstNameNoTooltip] peut se joindre à notre rite."
  witch.3003.a:0 "Plus on est de fous, plus on rit !"
  witch.3003.b:0 "Vous serez mon invité[new_guest.Custom('FR_E')] d’honneur, [new_guest.GetFirstNameNoTooltip]."
  witch.3003.c:0 "Le Grand rite est privé."
 
  #No one attended
- witch.3002.t:0 "$activity_witch_ritual$ : manque de dévotion"
+ witch.3002.t:1 "Manque de dévotion"
  witch.3002.desc:0 "Personne n’a accepté mon invitation. Ils ne méritent pas les bénédictions [ROOT.Char.GetFaith.WitchGodNamePossessive] !"
  witch.3002.a:0 "Ils connaîtront sa fureur !"
 
  #Starting event
  every_grand_rite_participant:0 "Chaque invité au Grand rite"
- witch.3010.t:1 "$activity_witch_ritual$ : À la pleine lune"
+ witch.3010.t:2 "Lever de pleine lune"
  witch.3010.desc:0 "Alors que la lune se lève dans les cieux, annonçant son arrivée, je peux sentir mon corps répondre aux énergies étranges dans l’air. Les silhouettes autour du grand feu de joie sont silencieuses et immobiles. Elles attendent.\n\nEn tant qu’hôt[ROOT.Char.Custom('FR_EEsse')] de ce rassemblement, c’est à moi de commencer le rituel. Je vais..."
  witch.3010.a:0 "Lire à partir d’un ancien grimoire."
  witch.3010.a.great:0 "Ma traduction est impressionnante"
@@ -142,7 +159,7 @@
  witch.3010.c.poor:0 "Mon improvisation est incohérente"
  witch.3010.d:0 "Présenter une grande offrande."
  witch.3010.e:0 "Réciter les prières ancestrales."
- witch.3010.e.tt:0 "[activity.GetName] se poursuit normalement"
+ witch.3010.e.tt:0 "[activity.Custom('FR_Le_ActivityFull')|U][activity.GetName|l] se poursuit normalement"
 
  #What to do after the rite
  witch.3014.host.great_translation.desc:0 "Les propos anciens sont étranges, et pourtant ils me parlent à un niveau instinctif. Ils tissent un motif enchanteur, empli de beauté et de promesses. Mes invités sont envoûtés. Lorsque je ferme le grimoire d’un geste théâtral, leurs acclamations éclatent à travers la clairière."
@@ -178,7 +195,7 @@
  witch.3014.f:1 "Rire, boire, danser. Nous profitons de Ses bénédictions !"
 
  #Regular seduction event
- witch.3015.t:0 "$activity_witch_ritual$ : au bord de l’étang"
+ witch.3015.t:1 "Au bord de l’étang"
  witch.3015.start.desc:0 "Le pouvoir [ROOT.Char.GetFaith.WitchGodNamePossessive] coule dans mes veines alors que j’erre dans les bois. Un chœur de soupirs et de gémissements m’entoure — je ne suis pas [ROOT.Char.Custom('FR_LeLa')] seul[ROOT.Char.Custom('FR_E')] à avoir envie de compagnie ce soir.\n\n"
  witch.3015.new_guest.desc:0 "Je tombe sur ma nouvelle connaissance, [sex_partner.GetFirstName], au bord d’un étang éclairé par la lune."
  witch.3015.regular.desc:0 "Je retrouve [sex_partner.Custom2('MyCharacterIntroduction', ROOT.Char)], au bord d’un étang éclairé par la lune."
@@ -188,7 +205,7 @@
  witch.3015.b.tt:1 "Vous passez la nuit seul[THIS.Char.Custom('FR_E')]"
 
  #Lover/spouse seduction event
- witch.3016.t:0 "$activity_witch_ritual$ : l’alignement des étoiles"
+ witch.3016.t:1 "Alignement stellaire"
  witch.3016.end.desc:0 "Une voix familière m’appelle... C’est [sex_partner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]. Lorsque je me retourne et que je croise son regard, tout devient limpide. Nous deux... C’est Sa volonté. Nous sommes faits pour être ensemble."
  witch.3016.a:0 "Pour toujours."
  witch.3016.b:0 "Je... Je ne suis pas prêt[ROOT.Char.Custom('FR_E')] pour ça."
@@ -199,7 +216,7 @@
  witch.3017.b:0 "J’ai... oublié quelque chose ! Désolé[ROOT.Char.Custom('FR_E')] !"
 
  #End events
- witch.3098.t:0 "$activity_witch_ritual$ : À la prochaine fois"
+ witch.3098.t:1 "À la prochaine"
  witch.3098.start.desc:0 "Mes invités et moi"
  witch.3098.end.desc:0 "avons vénéré [ROOT.Char.GetFaith.WitchGodName], échangé des connaissances sacrées et noué des liens profonds. Mon esprit bourdonne d’idées nouvelles, mais mon corps a désespérément besoin de repos. Un lit chaud n’a jamais été aussi tentant."
  witch.3098.a:0 "Puisse notre [ROOT.Char.GetFaith.WitchGodMistressMaster|U] veiller sur nous jusqu’au prochain $activity_witch_ritual$."
@@ -264,7 +281,7 @@
 
 #PERSONAL WITCH RITUAL
  witch.4010.t:0 "Ses cadeaux sont innombrables"
- witch.4010.desc:1 "Je dépose mes offrandes sur le sol ; des herbes, du lait et du miel. Les yeux fermés et la fumée qui pique dans mes narines, je lève les bras vers la lune.\n\n« [ROOT.Char.GetFaith.WitchGodMistressMaster|U] ! Connaisseur de toutes les vérités, [ROOT.Char.GetFaith.WitchGodMotherFather] de tout pouvoir ! Puissiez-vous accepter mes humbles offrandes et m’offrir vos conseils en retour ! »\n\nJ’implore [ROOT.Char.GetFaith.WitchGodName] de m’accorder..."
+ witch.4010.desc:1 "Je dépose mes offrandes sur le sol ; des herbes, du lait et du miel. Les yeux fermés et la fumée qui pique dans mes narines, je lève les bras vers la lune.\n\n« [ROOT.Char.GetFaith.WitchGodMistressMaster|U] ! Connaisseur de toutes les vérités, [ROOT.Char.GetFaith.WitchGodMotherFather] de tout pouvoir ! Puissiez-vous accepter mes humbles offrandes et m’offrir vos conseils en retour ! »\n\nJ’implore [ROOT.Char.GetFaith.WitchGodName] de m’accorder..."
  witch.4010.a:0 "... de la chance dans l’art de l’amour."
  witch.4010.b:0 "... du charme et du tact."
  witch.4010.c:0 "... l’esprit d’un stratège."

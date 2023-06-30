@@ -1,0 +1,53 @@
+﻿l_spanish:
+ ##################################################
+ # #Misc
+ 
+
+ ##################################################
+ # #Attempt to Overthrow Liege
+ diarch_attempt_to_overthrow_liege:0 "Intento de derrocar al señor"
+ diarch_attempt_to_overthrow_liege_desc:0 "Nuestr[ROOT.Char.Custom('ES_OA')] supuest[ROOT.Char.Custom('ES_OA')] «[ROOT.Char.GetLiege.GetTitleAsNameNoTooltip|l]»#!. [ROOT.Char.GetLiege.GetFirstNameNoTooltip] no puede gobernar sin #EMP mí#!, pero yo desde luego que puedo reinar sin #EMP [ROOT.Char.GetLiege.GetSheHe]#!. Solo necesito el apoyo tácito de suficientes grandes magnates del señorío, algunos soldados leales y una oportunidad…"
+ diarch_attempt_to_overthrow_liege_tooltip:0 "Emprender un golpe para tomar los [titles|lE] de tu [liege|lE] sin una [war|lE]"
+ diarch_attempt_to_overthrow_liege.tt.majority_powerful_vassal_support:0 "Ahora mismo tienes [SCOPE.ScriptValue('pv_overthrow_tally_display_value')|0] [powerful_vassals|lE] #weak (incluyéndote a ti)#! válidos para participar en tu conspiración, de los [SCOPE.ScriptValue('pv_overthrow_threshold_display_value')|0] necesarios"
+ diarch_attempt_to_overthrow_liege.tt.liege_cant_hold_only_hof_highest_title:0 "El único [title|lE] de [title_tier|lE] de tu [liege|lE] es uno de [head_of_faith|lE]"
+ diarch_attempt_to_overthrow_liege.second_step:0 "Organiza tu conspiración"
+ diarch_attempt_to_overthrow_liege_confirm:0 "Dirigirse al salón del trono"
+ diarch_attempt_to_overthrow_liege_confirm.prowess:0 "#X Prepararse para $game_concept_single_combat_duel|l$#!"
+
+ diarch_attempt_to_overthrow_liege.tt.coup_types:0 "Puedes basar tu golpe en tu [diplomacy|lE], [intrigue|lE] o [prowess|lE]"
+ diarch_attempt_to_overthrow_liege.tt.liege_response:0 "Tu [liege|lE] se rendirá, intentará vencerte en la [skill|lE] que elijas, o intentará que lo haga un representante suyo"
+ diarch_attempt_to_overthrow_liege.tt.liege_response.information_on_converting_councillors:0 "#WEAK Los [powerful_vassals|lE] que apoyen tu golpe se negarán a representar a su [liege|lE]#!"
+ diarch_attempt_to_overthrow_liege.tt.consequences:0 "#WEAK Si tienes éxito, parte de tu [strife|lE] actual se convierte en [tyranny|lE] inicial#!"
+ diarch_coup_attempt_standard_suite_effect.tt.reduced_amount:0 "Cantidad de [strife|lE] a [tyranny|lE] reducida porque fue un golpe [Concept( 'diplomacy', 'diplomático' )|E]"
+
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts:0 "Tus exigencias son aceptadas"
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts.usurp_targets.primary:0 "[Concept( 'usurp', 'Usurpas' )|E] #EMP todos#! los [titles|lE] de mayor [title_tier|lE] [liege.Custom('ES_DelDela')] [liege.GetTitledFirstName|l]"
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts.usurp_targets.kingdom:0 "Usurpas el [title|lE] de [kingdom|lE] que ostente [liege.Custom('ES_ElLa')] [liege.GetTitledFirstName|l] con más [counties|lE] en el [liege.GetPrimaryTitle.GetName|l]"
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts.usurp_targets.capital:0 "Usurpas la [de_jure_capital|lE] de [liege.GetPrimaryTitle.GetName] [liege.Custom('ES_DelDela')] [liege.GetTitledFirstName|l]"
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts.keep_more_titles:0 "[liege.Custom('ES_ElLa')|U] [liege.GetTitledFirstName|l] conserva el resto de [titles|lE]"
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts.remains_ruling:0 "Pase lo que pase, [liege.Custom('ES_ElLa')] [liege.GetTitledFirstName|l] sigue siendo un[liege.Custom('ES_XA')] [ruler|lE]"
+ 
+ diarch_attempt_to_overthrow_liege.tt.liege_fights_and_loses:0 "Tus exigencias son rechazadas, pero ganas"
+ diarch_attempt_to_overthrow_liege.tt.liege_fights_and_loses.take_more_titles:0 "Tomas más [titles|lE] incluso [liege.Custom('ES_DelDela')] [liege.GetTitledFirstName|l]"
+ diarch_attempt_to_overthrow_liege.tt.liege_fights_and_loses.may_lose_everything:0 "Si el [realm|lE] es lo bastante pequeño, [liege.Custom('ES_ElLa')] [liege.GetTitledFirstName|l] puede perderlo todo"
+
+ diarch_attempt_to_overthrow_liege.tt.diplomacy_coup:0 "Efectos de golpe específicos de [diplomacy|lE]"
+ diarch_attempt_to_overthrow_liege.tt.intrigue_coup:0 "Efectos de golpe específicos de [intrigue|lE]"
+ diarch_attempt_to_overthrow_liege.tt.prowess_coup:0 "Efectos de golpe específicos de [prowess|lE]"
+ 
+ diarch_attempt_to_overthrow_liege.tt.win.liege_lives:0 "#P Victoria#!: tu [liege|lE] vive y queda libre"
+ diarch_attempt_to_overthrow_liege.tt.win.considered_merciful:0 "#P Victoria#!: tu clemencia significa que conviertes menos [strife|lE] en [tyranny|lE]"
+ diarch_attempt_to_overthrow_liege.tt.lose.usurper_captured:0 "#N Derrota#!: te han [imprisoned|E]"
+ diarch_attempt_to_overthrow_liege.tt.win.liege_captured:0 "#P Victoria#!: [Concept( 'imprisoned', 'encarcelas' )|E] a tu [liege|lE]"
+ diarch_attempt_to_overthrow_liege.tt.win.liege_dies:0 "#P Victoria#!: tu [liege|lE] [character_death_dies|lE]"
+ diarch_attempt_to_overthrow_liege.tt.loss.usurper_dies:0 "#N Derrota#!: tú [Concept( 'character_death_dies', 'mueres' )|lE]"
+
+ diarch_attempt_to_overthrow_liege.tt.coup_diplomacy:0 "Golpe diplomático\n#low $diarch_attempt_to_overthrow_liege.tt.coup_diplomacy_desc$#!"
+ diarch_attempt_to_overthrow_liege.tt.coup_diplomacy_desc:0 "Esto se puede solucionar hablando."
+ coup_diplomacy_tooltip:0 "Tu conspiración se rige por politiqueos sutiles y mucha labia"
+ diarch_attempt_to_overthrow_liege.tt.coup_intrigue:0 "Golpe de intriga\n#low $diarch_attempt_to_overthrow_liege.tt.coup_intrigue_desc$#!"
+ diarch_attempt_to_overthrow_liege.tt.coup_intrigue_desc:0 "Hará falta algunas puñaladas traperas."
+ coup_intrigue_tooltip:0 "Tu conspiración está envuelta en mentiras vehementes y trucos astutos"
+ diarch_attempt_to_overthrow_liege.tt.coup_prowess:0 "Golpe de destreza\n#low $diarch_attempt_to_overthrow_liege.tt.coup_prowess_desc$#!"
+ diarch_attempt_to_overthrow_liege.tt.coup_prowess_desc:0 "Has elegido la violencia."
+ coup_prowess_tooltip:0 "Tu conspiración busca ser corta, violenta y victoriosa"

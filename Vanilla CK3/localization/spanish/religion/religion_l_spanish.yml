@@ -113,11 +113,14 @@
  faith_conversion_cost_conversion_blocked_till_decision_taken:0 "Esta [faith|lE] debe desbloquearse mediante una [decision|lE]"
  faith_conversion_cost_conversion_blocked_till_nebulous_circumstances:0 "Esta [faith|lE] debe desbloquearse mediante #EMP circunstancias misteriosas#!"
  faith_conversion_cost_unreformed_to_organized:0 "[faith|E] [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] convirtiéndose en una [faith|lE] [organized|lE]"
+ faith_reformation_via_decision:0 "Esta [faith|El] solo se puede reformar mediante [decision|lE]"
 
  MINIMUM_FAITH_CONVERSION_PIETY_COST:0 "Coste mínimo: [GetLocalPlayerPietyTextIcon]$VALUE|V$"
 
  faith_conversion_cost_fervor_difference:0 "Diferencia en [fervor|lE]"
  faith_creation_cost_fervor_impact:0 "Por [fervor|lE] actual"
+
+ faith_conversion_cost_witch_event:0 "Has estudiado la brujería de esta [faith|lE]"
 
  #Holy Sites: Christian
  holy_site_jerusalem_name:0 "Jerusalén"
@@ -240,6 +243,10 @@
  holy_site_kochi_effect_name:0 "Por [holy_site|lE] #weak ($holy_site_kochi_name$)#!"
  holy_site_manipur_name:0 "Manipur"
  holy_site_manipur_effect_name:0 "Por [holy_site|lE] #weak ($holy_site_manipur_name$)#!"
+ holy_site_hamadan_name:0 "Hamadan"
+ holy_site_hamadan_effect_name:0 "Por [holy_site|lE] #weak ($holy_site_hamadan_name$)#!"
+ holy_site_babylon_name:0 "Babilonia"
+ holy_site_babylon_effect_name:0 "Por [holy_site|lE] #weak ($holy_site_babylon_name$)#!"
 
  #Holy Sites: Dualism
  holy_site_khozistan_name:0 "Jozistán"
@@ -620,6 +627,8 @@
  doctrine_deviancy_shunned_desc:0 "Hay algunas prácticas sexuales que son sencillamente anormales y extrañas. Lógicamente, las personas con esos deseos también son anormales y extrañas."
  doctrine_deviancy_accepted_name:0 "Aceptada"
  doctrine_deviancy_accepted_desc:0 "El amor es hermoso y sagrado, no importa la forma que tome. A todos se les debe permitir amar y hacer lo que quieran."
+ doctrine_deviancy_virtuous_name:0 "Virtuoso"
+ doctrine_deviancy_virtuous_desc:0 "Los placeres de la carne nos acercan a la divinidad y, de este modo, aquellos que no están atados por deseos convencionales están la cumbre de la virtud de nuestra fe."
  doctrine_parameter_deviancy_illegal:0 "Los personajes con [trait|lE] [GetTrait('deviant').GetName( GetPlayer )] son [criminals|lE]"
  doctrine_parameter_deviancy_shunned:0 "Los personajes con [trait|lE] [GetTrait('deviant').GetName( GetPlayer )] son [Concept( 'shunned', 'evitados' )|E]"
  doctrine_parameter_deviancy_accepted:0 "Los personajes con [trait|lE] [GetTrait('deviant').GetName( GetPlayer )] son totalmente aceptados"
@@ -631,11 +640,15 @@
  doctrine_witchcraft_shunned_desc:0 "La divinidad tiene la jurisdicción legítima sobre las fuerzas sobrenaturales de este mundo, así que cualquier intento de coaccionar a estas fuerzas a obedecer la voluntad de un mortal es intrínsecamente erróneo."
  doctrine_witchcraft_accepted_name:0 "Aceptada"
  doctrine_witchcraft_accepted_desc:0 "La magia llena el mundo que nos rodea y es nuestro derecho y privilegio participar de ella como hicieron nuestros antepasados."
+ doctrine_witchcraft_virtuous_name:0 "Virtuoso"
+ doctrine_witchcraft_virtuous_desc:0 "Practicar la brujería es poner en peligro el alma ante los espíritus malignos. Se venera a las brujas por su valor en este aspecto necesario de mantener nuestras propias almas limpias."
  doctrine_parameter_witchcraft_illegal:0 "Los personajes con el [trait|lE] [GetTrait('witch').GetName( GetPlayer )] [trait|lE] son [criminals|lE]"
  doctrine_parameter_witchcraft_shunned:0 "Los personajes con el [trait|lE] [GetTrait('witch').GetName( GetPlayer )] [trait|E] son [Concept( 'shunned', 'evitados' )|E]"
  doctrine_parameter_witchcraft_accepted:0 "Los personajes con el [trait|lE] [GetTrait('witch').GetName( GetPlayer )] [trait|E] son totalmente aceptados"
+ witchcraft_illegal_name:0 "Doctrina de Brujería Criminal"
+ witchcraft_shunned_name:0 "Doctrina de Brujería Prohibida"
  
- doctrine_head_of_faith_name:0 "Líder de la fe"
+ doctrine_head_of_faith_name:0 "Cabeza de la fe"
  doctrine_head_of_faith_desc:0 "El [head_of_faith|lE] es la máxima autoridad de una [faith|E]"
  doctrine_no_head_name:0 "Nadie"
  doctrine_no_head_desc:0 "Es una locura asumir que alguien puede entender la voluntad de [ROOT.Faith.HighGodName]. Debemos seguir nuestros corazones para descubrir cuál es Su plan para nosotros."
@@ -697,7 +710,7 @@
  doctrine_divorce_allowed_name:0 "Siempre permitido"
  doctrine_divorce_allowed_desc:0 "El matrimonio es solo una asociación entre dos personas, y como cualquier otra, puede terminarse a voluntad."
  doctrine_parameter_divorce_disallowed:0 "A los personajes nunca se les concederá el [divorce|lE] de sus [spouses|lE]"
- doctrine_parameter_divorce_approval:0 "A los personajes se les concederá el [divorce|lE] de sus [spouses|lE] si lo aprueba su [head_of_faith|lE] espiritual (o [house_head|lE] si no existe líder espiritual de la fe)"
+ doctrine_parameter_divorce_approval:0 "A los personajes se les concederá el [divorce|lE] de sus [spouses|lE] si lo aprueba su [head_of_faith|lE] espiritual (o [house_head|lE] si no existe cabeza espiritual de la fe)"
  doctrine_parameter_divorce_allowed:1 "Los personajes siempre podrán [Concept( 'divorce', 'divorciarse' )|E] de sus [Concept( 'spouse', 'cónyuges' )|E] gastando [piety|lE]"
  
  doctrine_bastardry_name:0 "Bastardía"
@@ -780,7 +793,7 @@
  doctrine_pluralism_fundamentalist_name:0 "Fundamentalista"
  doctrine_pluralism_fundamentalist_desc:0 "Nuestra fe es la única y verdadera, nuestra palabra la única y verdadera. Toda desviación respecto al libro sagrado ([ROOT.Faith.ReligiousText]) es inherentemente blasfema."
  doctrine_parameter_pluralism_fundamentalist_proselytization_bonus:0 "Velocidad de conversión del condado: #P +20%#!"
- doctrine_parameter_pluralism_fundamentalist_revocation_tyranny_minimal:2 "Se pueden #P revocar títulos con tierras#! a infieles hostiles y [Concept( 'evil', 'malvados' )|E] sin incurrir en la [tyranny|lE]"
+ doctrine_parameter_pluralism_fundamentalist_revocation_tyranny_minimal:2 "Se pueden #P revocar títulos con tierras#! a infieles $hostility_hostile_tooltippable$ y $hostility_evil_tooltippable$ sin incurrir en la [tyranny|lE]"
  doctrine_parameter_pluralism_fundamentalist_faction_join_chance:1 "Es #N más probable#! que [counties|lE] de otras [faiths|lE] se unan a [factions|lE]"
  doctrine_parameter_pluralism_fundamentalist_vulnerable_to_heresy:0 "#D Aumenta el peligro#! de herejías cuando el [fervor|lE] es bajo"
  doctrine_pluralism_righteous_name:0 "Justa"
@@ -808,7 +821,7 @@
  doctrine_clerical_function_taxation_name:1 "Control"
  doctrine_clerical_function_taxation_desc:1 "La autoridad de los [ROOT.Faith.AltPriestTermPlural] deriva directamente de [ROOT.Faith.HighGodName], y eso se aplica aquí en la Tierra."
  doctrine_clerical_function_alms_and_pacification_name:0 "Limosnas y pacificación"
- doctrine_clerical_function_alms_and_pacification_desc:0 "Nuestros [ROOT.Faith.PriestNeuterPlural] deben encargarse de que los pobres y oprimidos tengan comida y alojamiento cuando no puedan conseguirlo por sí mismos."
+ doctrine_clerical_function_alms_and_pacification_desc:0 "Nuestros [ROOT.Faith.PriestNeuterPlural] deben encargarse de que los pobres y oprimidos tengan comida y alojamiento cuando no puedan conseguirlos por sí mismos."
  doctrine_clerical_function_recruitment_name:0 "Reclutamiento"
  doctrine_clerical_function_recruitment_desc:1 "Nuestros [ROOT.Faith.PriestNeuterPlural] pueden tomar armas y defender nuestra fe. La responsabilidad de dar ejemplo les proporciona una fuerza adicional en el combate."
  doctrine_parameter_clergy_can_fight:0 "Todos los miembros del [clergy|lE] pueden servir como [commanders|lE] y $knight_culture_player_plural$"
@@ -886,6 +899,13 @@
  is_jewish_faith_name:0 "$special_doctrine_is_jewish_faith_name$"
  special_doctrine_is_jewish_faith_desc:0 "No todos los gentiles viven sumidos en el pecado. Algunos respetan al pueblo elegido de Dios y, por tanto, merecen a su vez un respeto."
  doctrine_parameter_hostility_override_tenet_jewish_syncretism:3 "Las [faiths|lE] no judías con el dogma $tenet_jewish_syncretism_name$ se consideran [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$"
+
+ prophecy_of_malachi_name:0 "La profecía de Malaquías"
+ special_doctrine_not_allowed_to_hof_name:0 "Sacerdocio desmontado"
+ not_allowed_to_hof_name:0 "$special_doctrine_not_allowed_to_hof_name$"
+ prophecy_of_malachi_desc:0 "Según la doctrina tradicional judía, solo se puede nombrar un nuevo sumo sacerdote con la llegada del Profeta o si se encuentra un descendiente de Aarón digno de servir como sacerdote."
+ special_doctrine_not_allowed_to_hof_desc:0 "El Sumo Sacerdocio de esta fe se ha desmontado completamente. Cualquier intento de nombrar un sumo sacerdote primero precisará de una reconstrucción completa de la estructura eclesiástica tradicional."
+ doctrine_parameter_block_from_create_hof_parameter:0 "Esta fe no puede recrear su [head_of_faith|lE] en circunstancias normales."
 
  special_doctrine_is_eastern_faith_name:0 "Entretejido multirreligioso"
  is_eastern_faith_name:0 "$special_doctrine_is_eastern_faith_name$"
@@ -984,3 +1004,24 @@
  hostility_astray_tooltippable:0 "[GetHostilityLevelName( '(int32)1' )|V]"
  hostility_hostile_tooltippable:0 "[GetHostilityLevelName( '(int32)2' )|V]"
  hostility_evil_tooltippable:0 "[GetHostilityLevelName( '(int32)3' )|V]"
+
+
+ doctrine_pilgrimage_name:0 "Actitud hacia la peregrinación"
+ doctrine_pilgrimage_forbidden_name:0 "Prohibida"
+ doctrine_pilgrimage_forbidden_desc:0 "La presencia de [ROOT.Faith.HighGodName] se siente en todas partes y la idea de que ciertos lugares son más divinos que otros es poco menos que herejía."
+ doctrine_pilgrimage_encouraged_name:0 "Animada"
+ doctrine_pilgrimage_encouraged_desc:0 "Esta fe anima a sus miembros a visitar lugares terrenales considerados de importancia espiritual como medio de demostrar su veneración a [ROOT.Faith.PantheonTerm]."
+ doctrine_pilgrimage_mandatory_name:0 "Obligatoria"
+ doctrine_pilgrimage_mandatory_desc:0 "Se espera que todos los [ROOT.Faith.GetAdherentNamePlural] lleven a cabo un viaje espiritual a un lugar sagrado en cuanto sean capaces. No hacerlo supone un fracaso en su sumisión a [ROOT.Faith.HighGodName]."
+ doctrine_pilgrimage_mandatory_hajj_name:0 "Hach"
+ doctrine_pilgrimage_mandatory_hajj_desc:0 "Se espera que todos los musulmanes sanos realicen el hach a La Meca una vez en la vida. Aunque a menudo se hacen exenciones especiales, a todo [ROOT.Faith.GetAdherentNameNoTooltip] que no complete el hach se le mirará con escepticismo."
+ forbidden_from_pilgrimage_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_forbidden_name$"
+ doctrine_parameter_forbidden_from_pilgrimage:0 "No tiene acceso a la [activity|lE] de [pilgrimage|lE]"
+ can_go_on_pilgrimage_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_encouraged_name$"
+ doctrine_parameter_can_go_on_pilgrimage:0 "Tiene acceso a la [activity|lE] de [pilgrimage|lE]"
+ mandatory_pilgrimage_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_mandatory_name$"
+ doctrine_parameter_mandatory_pilgrimage:1 "El [trait|lE] [GetTrait('pilgrim').GetName( GetNullCharacter )|l] proporciona bonificaciones adicionales y la [activity|lE] de [pilgrimage|lE] da [piety|lE] extra cuando se lleve a cabo"
+ mandatory_hajj_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_mandatory_name$"
+ doctrine_parameter_mandatory_hajj:1 "El [trait|lE] [GetTrait('hajjaj').GetName( GetNullCharacter )|l] proporciona bonificaciones adicionales y la [activity|lE] de [hajj|lE] da [piety|lE] extra cuando se lleve a cabo"
+ doctrine_parameter_basic_pilgrimage_rewards:0 ""
+

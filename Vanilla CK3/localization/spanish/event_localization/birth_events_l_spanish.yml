@@ -31,7 +31,7 @@
 
  birth.1001.desc:0 "¡He dado a luz a un[child.Custom('ES_XA')] [child.Custom('GetDaughterSon')] precios[child.Custom('ES_OA')]!"
  birth.1001.desc.twin:0 "¡He dado a luz a unos gemelos preciosos!"
- birth.1001.desc.twin_dead_father:0 "¡He dado a luz a un[child.Custom('ES_OA')]s preciosos [child.Custom('TwinDaughtersSonsChildren')]! [father.GetFirstName] [child.Custom('ES_LosLas')] habría adorado…"
+ birth.1001.desc.twin_dead_father:0 "¡He dado a luz a un[child.Custom('ES_OA')]s preciosos [child.Custom('TwinDaughtersSonsChildren')]! [father.GetFirstName] [child.Custom('ES_LoLa')]s habría adorado…"
  birth.1001.desc_dead_father:0 "¡He dado a luz a luz a un[child.Custom('ES_XA')] [child.Custom('GetDaughterSon')] precios[child.Custom('ES_OA')]! [father.GetFirstName] [child.Custom('ES_LoLa')] habría adorado…"
  birth.1001.a:0 "Ojalá crezcas fuerte y sabi[child.Custom('ES_OA')], [child.Custom('GetDaughterSon')] mí[child.Custom('ES_OA')]."
  birth.1001.b:0 "Ojalá crezcáis fuertes y sabios, gemelos míos."
@@ -84,7 +84,7 @@
  birth.1010.desc:0 "¡[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha dado a luz a un[child.Custom('ES_XA')] [child.Custom('GetDaughterSon')]!\n\nComo esta criaturita es parte de la dinastía [ROOT.Char.GetDynasty.GetName], debe recibir la bendición de un buen nombre."
 
  birth.1100.title:0 "Nacimiento de [child.Custom('GetTaltosTerm')]"
- birth.1100.message:0 "Los [child.Custom('DefaultPriestTitlePlural')] han identificado a [child.Custom2('MyCharacterIntroduction', ROOT.Char)] como [child.Custom('GetTaltosTerm')].\n\nElegid[child.Custom('ES_OA')] por el [child.GetFaith.PantheonTerm] para un propósito misterioso, ¿que le deparará el futuro?"
+ birth.1100.message:0 "Los [child.Custom('DefaultPriestTitlePlural')] han identificado a [child.Custom2('MyCharacterIntroduction', ROOT.Char)] como [child.Custom('GetTaltosTerm')].\n\nElegid[child.Custom('ES_OA')] por [child.GetFaith.PantheonTerm] para un propósito misterioso, ¿que le deparará el futuro?"
 
  known_bastard_birth_event_tooltip:0 "[child.GetFirstNameNoTooltip] será [Concept( 'bastard', 'bastard' )|lE][child.Custom('ES_OA')] de la Casa [child.GetHouse.GetBaseName]"
  legitimized_known_bastard_birth_event_tooltip:0 "[child.GetFirstNameNoTooltip] será un[child.Custom('ES_XA')] [Concept( 'legitimized_bastard', 'bastard' )|lE][child.Custom('ES_OA')] legitimad[child.Custom('ES_OA')] de la Casa [child.GetHouse.GetBaseName]"
@@ -102,22 +102,22 @@
 
  birth.2002.t:0 "Doble bendición"
  birth.2002.start:0 "¡Es desde luego un día de celebración!"
- birth.2002.desc.standard:0 "No solo se me ha bendecido con un[child.Custom('ES_OA')] [child.Custom('GetDaughterSon')] recién nacid[child.Custom('ES_OA')], ¡sino que su [legitimizer.GetMotherFather], [legitimizer.GetTitledFirstName], ha decidido legitimar[child.Custom('ES_LoLa')]!"
- birth.2002.desc.twins:0 "No solo se me ha bendecido con unos gemelos recién nacidos, ¡sino que su [legitimizer.GetMotherFather], [legitimizer.GetTitledFirstName], ha decidido legitimarlos!"
+ birth.2002.desc.standard:0 "No solo se me ha bendecido con un[child.Custom('ES_OA')] [child.Custom('GetDaughterSon')] recién nacid[child.Custom('ES_OA')], ¡sino que su [legitimizer.GetMotherFather], [legitimizer.GetTitledFirstName|l], ha decidido legitimar[child.Custom('ES_LoLa')]!"
+ birth.2002.desc.twins:0 "No solo se me ha bendecido con unos gemelos recién nacidos, ¡sino que su [legitimizer.GetMotherFather], [legitimizer.GetTitledFirstName|l], ha decidido legitimarlos!"
  birth.2002.end:0 "\n\nLos últimos meses han estado llenos de dudas y miedo, pero hoy mi corazón se siente ligero como una pluma."
  birth.2002.a:0 "El futuro aún alberga esperanza."
 
  birth.2003.t:0 "Un comienzo difícil"
- birth.2003.desc.standard_start:0 "Ojalá pudiera celebrar el nacimiento de nuestr[child.Custom('ES_OA')] [child.Custom('GetDaughterSon')], pero [legitimizer.GetTitledFirstName] ha dejado claro que tal bebé no será considerad[child.Custom('ES_OA')] verdader[child.Custom('ES_OA')] miembro de su casa."
- birth.2003.desc.twin_start:0 "Ojalá pudiera celebrar el nacimiento de nuestros hijos, pero [legitimizer.GetTitledFirstName] ha dejado claro que los bebés no serán considerados verdaderos miembros de su casa."
+ birth.2003.desc.standard_start:0 "Ojalá pudiera celebrar el nacimiento de nuestr[child.Custom('ES_OA')] [child.Custom('GetDaughterSon')], pero [legitimizer.GetTitledFirstName|l] ha dejado claro que tal bebé no será considerad[child.Custom('ES_OA')] verdader[child.Custom('ES_OA')] miembro de su casa."
+ birth.2003.desc.twin_start:0 "Ojalá pudiera celebrar el nacimiento de nuestros hijos, pero [legitimizer.GetTitledFirstName|l] ha dejado claro que los bebés no serán considerados verdaderos miembros de su casa."
  birth.2003.desc.landed_end:0 "\n\nLa marca de la bastardía nunca se va del todo, aunque el reconocimiento de un[legitimizer.Custom('ES_XA')] [legitimizer.GetTitleTierName] habría ayudado…"
  birth.2003.desc.unlanded_end:0 "\n\nLa marca de la bastardía nunca se va del todo, aunque el reconocimiento de un[legitimizer.Custom('ES_OA')] [legitimizer.Custom('ES_SennorSennora')] habría ayudado…"
  birth.2003.a:0 "¡Ojalá las cosas fueran distintas, pequeñ[child.Custom('ES_OA')] [child.GetFirstNameNoTooltip]!"
 
 
  birth.2004.t:0 "Una merced de [secondary_legitimizer.GetMotherFather]"
- birth.2004.desc.standard:0 "Resulta que, después de todo, a mi [child.Custom('GetDaughterSon')] recién nacid[child.Custom('ES_OA')] le puede esperar un buen futuro. Su [secondary_legitimizer.GetMotherFather], [secondary_legitimizer.GetTitledFirstName], le ha acogido en la casa [secondary_legitimizer.GetDynastyName]."
- birth.2004.desc.twins:0 "Resulta que, después de todo, a mis hijos recién nacidos les puede esperar un buen futuro. Su [secondary_legitimizer.GetMotherFather], [secondary_legitimizer.GetTitledFirstName], los ha acogido en la casa [secondary_legitimizer.GetDynastyName]."
+ birth.2004.desc.standard:0 "Resulta que, después de todo, a mi [child.Custom('GetDaughterSon')] recién nacid[child.Custom('ES_OA')] le puede esperar un buen futuro. Su [secondary_legitimizer.GetMotherFather], [secondary_legitimizer.GetTitledFirstName|l], le ha acogido en la casa [secondary_legitimizer.GetDynastyName]."
+ birth.2004.desc.twins:0 "Resulta que, después de todo, a mis hijos recién nacidos les puede esperar un buen futuro. Su [secondary_legitimizer.GetMotherFather], [secondary_legitimizer.GetTitledFirstName|l], los ha acogido en la casa [secondary_legitimizer.GetDynastyName]."
  birth.2004.a.standard:0 "Haz que se sientan orgullosos, [child.Custom('GetDaughterSon')] mí[child.Custom('ES_OA')]."
  birth.2004.a.twins:0 "Haced que se sientan orgullosos, hijos míos."
 
@@ -126,13 +126,13 @@
 
 
  birth.2102.t:0 "La semilla de [real_father.GetTitledFirstNameNoTooltip|U]"
- birth.2102.desc:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], ha dado a luz a un niño engendrado por otro hombre. Ahora está criando [child.Custom('ES_AlAla')] [child.Custom('GetDaughterSon')] de [real_father.GetTitledFirstName]. Se llama [child.GetFirstName]."
- birth.2102.desc.twin:1 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], ha dado a luz a dos [child.Custom('TwinDaughtersSonsChildren')] de [real_father.GetTitledFirstName]. Se llaman [child.GetFirstName] y [child_2.GetFirstName]."
+ birth.2102.desc:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName|l], ha dado a luz a un niño engendrado por otro hombre. Ahora está criando [child.Custom('ES_AlAla')] [child.Custom('GetDaughterSon')] de [real_father.GetTitledFirstName|l]. Se llama [child.GetFirstName]."
+ birth.2102.desc.twin:1 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName|l], ha dado a luz a dos [child.Custom('TwinDaughtersSonsChildren')] de [real_father.GetTitledFirstName|l]. Se llaman [child.GetFirstName] y [child_2.GetFirstName]."
  birth.2102.a:0 "¿Qué voy a hacer?"
 
  birth.2104.t:0 "Un niño extraño"
- birth.2104.desc:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], ha engendrado descendencia con [mother.GetTitledFirstName]. Ahora [mother.GetFirstName] está criando a la progenie de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))]."
- birth.2104.desc.twin:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], ha engendrado descendientes con [mother.GetTitledFirstName]. Ahora [mother.GetFirstName] está criando a la progenie de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))]."
+ birth.2104.desc:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName|l], ha engendrado descendencia con [mother.GetTitledFirstName|l]. Ahora [mother.GetFirstName] está criando a la progenie de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))]."
+ birth.2104.desc.twin:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName|l], ha engendrado descendientes con [mother.GetTitledFirstName|l]. Ahora [mother.GetFirstName] está criando a la progenie de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))]."
  birth.2104.a:0 "¿Qué voy a hacer?"
 
  every_child_adult_non_bastard:0 "Todos mis hijos adultos no bastardos"
@@ -142,7 +142,7 @@
  birth.3001.a:1 "No está… ¡¿Por qué no respira?! #EMP ¡Haced algo!#!"
  birth.3001.a.tt:1 "Tu [dummy_gender.Custom('DaughterSon')] ha muerto durante el parto"
 
- birth.3002.desc:0 "Cuando se abren la salas del paritorio, no me reciben comadronas sonrientes y un bebé llorando, sino los lamentos desgarradores de [mother.GetTitledFirstName].\n\n«Lo siento mucho, mi [ROOT.Char.Custom('ES_SennorSennora')|U]». La comadrona no me mira a los ojos. En sus brazos, hay un pequeño fardo tapado. «Vuestr[dummy_gender.Custom('ES_OA')] [dummy_gender.Custom('DaughterSon')]… está ahora en el [ROOT.Char.GetFaith.PositiveAfterLife]»."
+ birth.3002.desc:0 "Cuando se abren la salas del paritorio, no me reciben comadronas sonrientes y un bebé llorando, sino los lamentos desgarradores de [mother.GetTitledFirstName|l].\n\n«Lo siento mucho, mi [ROOT.Char.Custom('ES_SennorSennora')|U]». La comadrona no me mira a los ojos. En sus brazos, hay un pequeño fardo tapado. «Vuestr[dummy_gender.Custom('ES_OA')] [dummy_gender.Custom('DaughterSon')]… está ahora en el [ROOT.Char.GetFaith.PositiveAfterLife]»."
  birth.3002.a:0 "¿Mi [dummy_gender.Custom('DaughterSon')]? ¿En… en [ROOT.Char.GetFaith.PositiveAfterLife]?"
 
  birth.3011.desc_twin:0 "Los gemelos son perfectos. Sus caritas, sus olores… Quiero que este momento dure para siempre, pero la comadrona solo me deja sostenerlos unos instantes. Intento protestar cuando me los quita, pero mis brazos son débiles y lucho para encontrar las palabras.\n\n«No os asustéis, mi señora. Vuestros gemelos están fuertes y sanos. Ahora nos preocupáis vos».\n\nY según mis criadas corretean de un lado a otro, el mundo se oscurece…"
@@ -192,7 +192,7 @@
  birth.9002.conviction.desc:0 "[suggester.GetTitledFirstName] vuelve la mirada hacia mí, con los ojos ardiendo de convicción."
  birth.9002.surprisingly_calm.desc:0 "[suggester.GetTitledFirstName] vuelve la mirada hacia mí, con un rostro sorprendentemente sereno."
  birth.9002.calm.desc:0 "[suggester.GetTitledFirstName] vuelve la mirada hacia mí y su rostro es la imagen de la serenidad."
- birth.9002.devotion.desc:0 "la mirada de [suggester.GetTitledFirstName] encuentra la mía. Sus ojos están llenos de devoción amorosa."
+ birth.9002.devotion.desc:0 "la mirada de [suggester.GetTitledFirstName|l] encuentra la mía. Sus ojos están llenos de devoción amorosa."
  newline.desc:0 "\n\n"
  birth.9002.love.desc:0 "«Mi amor,"
  birth.9002.dear_spouse.desc:0 "«[ROOT.Char.GetWifeHusband|U] querid[ROOT.Char.Custom('ES_OA')],"
@@ -219,7 +219,7 @@
  birth.9002.b2:0 "¿Qué? ¡Es una idea horrible!"
  birth.9002.b.tt:1 "Le darás un nombre mucho más adecuado"
 
- birth.9003.desc:0 "Tomo con cuidado al bebé de los brazos de [suggester.GetTitledFirstName] y miro sus ojitos perfectos. ¿Quién llegarás a ser?"
+ birth.9003.desc:0 "Tomo con cuidado al bebé de los brazos de [suggester.GetTitledFirstName|l] y miro sus ojitos perfectos. ¿Quién llegarás a ser?"
  birth.9003.a:0 "Mucho mejor."
  
  birth.9004.t:0 "¿Qué importancia tiene el nombre?"

@@ -244,7 +244,7 @@
  petition_liege.0601_shared_intro:0 "正当我的请愿进入流程，即将得出成果时，"
  petition_liege.0601.desc:0 "\n\n这显然改变了形势。"
  petition_liege.0601.a_court:0 "前进，为了更伟大的事业。"
- petition_liege.0601.a_prison:0 "该死。"
+ petition_liege.0601.a_prison:0 "见鬼。"
  petition_liege.0601.a_liege:0 "为什么我要……"
  petition_liege.0601.a:0 "是时候重新思考一下了……"
  # Activity End
@@ -255,6 +255,25 @@
  petition_liege.9999.shy:0 "我等不及要回到我的房间了……"
  petition_liege.9999.gregarious:0 "这似乎是与我的宫廷诸君打成一片的好机会。"
  petition_liege.9999.every_guest_and_courtier:0 "所有宾客和廷臣："
+
+ petition_liege.9001.t:0 "$petition_liege_header$转换战术"
+ petition_liege.9001.desc:0 "我不能再向[petition_liege.GetTitledFirstName][ROOT.Char.Custom( 'GetPetitionType' )|l]请愿了。尽管如此，我还是千里迢迢来到[petition_liege.GetCapitalLocation.GetName]，希望得到[petition_liege.GetHerHis]的倾听，我不会放弃这样一个机会。我可以要求[petition_liege.GetSheHe]……"
+ petition_liege.9001.council_seat:0 "任命我为他们的理事。"
+ petition_liege.9001.pay_debt:0 "清偿我的债务。"
+ petition_liege.9001.war_aid:0 "提供战争援助。"
+ petition_liege.9001.vassal_war:0 "与我的封臣同僚们维持和平。"
+ petition_liege.9001.faction_war:0 "瓦解一个强大的派系。"
+ petition_liege.9001.county_control:0 "派遣执达吏帮助控制难以控制的伯爵领。"
+ petition_liege.9001.county_convert:0 "资助牧师来改换我领土内的伯爵领。"
+ petition_liege.9001.county_opinion:0 "进行一次君主访问来增加我领土内的民众好感度。"
+ petition_liege.9001.fortify_border:0 "加固领地的边界。"
+ petition_liege.9001.title_liege:0 "赐予宣称。"
+ petition_liege.9001.title_vassal:0 "转换宣称"
+ petition_liege.9001.construct_city:0 "在我的领地建造一座新的城市。"
+ petition_liege.9001.construct_temple:0 "在我的领地建造一座新的寺庙。"
+ petition_liege.9001.development:0 "在我的领土里重新安置一些它们的臣民。"
+ petition_liege.9001.fallback:0 "简单的补充国库。"
+ petition_liege.0101.accept.fallback:0 "很好，你的库房将被填满。"
 
  petition_liege_block_firing_councillor_effect_tt:0 "[petition_vassal.GetShortUIName|U]5年内无法从[council|E]移除"
 
@@ -287,3 +306,5 @@
  petition_liege_title_courtier:0 "廷臣"
 
  petition_liege_second_if_tt:0 "#bold 如果[TARGET_CHARACTER.GetTitledFirstName]接受：#!"
+ 
+ petition_liege_costs_refunded:0 "$petition_liege_decision$花费退还"

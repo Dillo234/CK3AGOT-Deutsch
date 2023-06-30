@@ -32,6 +32,7 @@
  holy_order_bektashi_order:0 "Confrérie bektachie"
  holy_order_haruriyya:0 "Haruriyya"
  holy_order_zealots_of_place_1:0 "Zélotes de [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_warriors_of_simeon:0 "Guerriers de Siméon"
  holy_order_herem_warriors:0 "Guerriers hérèm"
  holy_order_immortals:0 "Immortels"
  holy_order_ahura_mazdas_champions:0 "Champions d’Ahura Mazda"
@@ -91,9 +92,9 @@
  #Notifications
  #Creation
  holy_order_founded_title:1 "Ordre [LEFT_CHARACTER.GetFaith.GetAdherentName] fondé"
- i_created_holy_order_message:2 "Avec votre soutien, [leader.Custom('FR_le_Char_U_Pi')][leader.GetShortUIName] a fondé: [new_holy_order.GetName]"
+ i_created_holy_order_message:2 "Avec votre soutien, [leader.Custom('FR_le_Char_U_Pi')][leader.GetShortUIName] a fondé : [new_holy_order.GetName]"
  someone_created_holy_order_message:1 "Ordre ([new_holy_order.GetName]) établit à [barony.GetNameNoTier] par [holy_order_creator.Custom('FR_le_Char_U_Pi')][holy_order_creator.GetShortUIName]"
- other_faith_neighbor_created_holy_order_message:1 "[holy_order_creator.Custom('FR_le_Char_U_Pi')|U][holy_order_creator.GetShortUIName] a fondé: [new_holy_order.GetName]"
+ other_faith_neighbor_created_holy_order_message:1 "[holy_order_creator.Custom('FR_le_Char_U_Pi')|U][holy_order_creator.GetShortUIName] a fondé : [new_holy_order.GetName]"
  #Holy Order disbanded
  my_faith_holy_order_disbanded_message:0 "L’ordre « [holy_order.GetName] » n’est plus. Son territoire a été perdu et son organisation militaire dissoute."
  #New lease
@@ -101,4 +102,4 @@
  #Joined Great Holy War
 
  is_holy_order_trigger:0 "Est un [holy_order|El]"
- CONTROLS_HOLY_SITE_TRIGGER:0 "Contrôle un lieu saint: $TITLE$"
+ CONTROLS_HOLY_SITE_TRIGGER:0 "Contrôle un lieu saint : $TITLE$"

@@ -1,7 +1,8 @@
 ﻿l_simp_chinese:
  SPOUSE:0 "[spouse|E]"
  FORMER_SPOUSE:0 "前[spouse|E]"
- BETROTHED:0 "[betrothed|E]"
+ SPOUSE_DIARCH:0 "$SPOUSE$——[Character.GetDiarchTitle]"
+ BETROTHED:0 "[betrothed|E]对象"
  SPOUSES:0 "配偶"
  CONCUBINES:0 "[concubines|E]"
  GAME_CONCEPT_CONCUBINE:0 "[concubine|EU]"
@@ -146,7 +147,7 @@
  TT_DYNAST_DESC:0 "[CHARACTER.LocalPlayerString( '你是', 'THIRD_IS' )][CHARACTER.GetHouse.GetDynasty.GetName]宗族的[dynast|E]，同时还是[CHARACTER.GetHouse.GetBaseName]家族的[house_head|E]"
  THIRD_IS:0 "[CHARACTER.GetUIName]是"
 
- CV_COURTIER_SPONSOR_INSPIRATION:0 "，或者你[sponsor|E][Character.GetHerHis]的[Character.GetCurrentInspiration.GetName]"
+ CV_COURTIER_SPONSOR_INSPIRATION:0 "，或者你成为[Character.GetHerHis]的[Character.GetCurrentInspiration.GetName]的[sponsor|E]"
  CV_COURTIER_STAY_REASON:0 "比如受雇成为一名$knight_culture_player$或[councillor|E][SelectLocalization( And( HasDlcFeature( 'inspirations' ), CHARACTER.HasInspiration ), 'CV_COURTIER_SPONSOR_INSPIRATION', '' )]"
  CV_COURTIER_WANTS_TO_LEAVE_COURT:2 "[CHARACTER.GetShortUINameNoTooltip]可能会离开[TARGET_CHARACTER.GetShortUINamePossessive]的[court|E]。[CHARACTER.GetSheHe|U]会因特定原因留下，$CV_COURTIER_STAY_REASON$。"
  CV_COURTIER_WILL_LEAVE_COURT:2 "[CHARACTER.GetShortUINameNoTooltip]在近期会离开[TARGET_CHARACTER.GetShortUINamePossessive]的[court|E]。[CHARACTER.GetSheHe|U]仅会因特定原因留下，$CV_COURTIER_STAY_REASON$。"
@@ -160,17 +161,17 @@
  CHARACTER_WINDOW_FIND_SPOUSE:1 "#T 寻找[spouse|E]\n#!为[Character.GetUIName]安排[marriage|E]\n\n[Character.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
  CHARACTER_WINDOW_FIND_SPOUSE_SELF:1 "#T 寻找[spouse|E]\n#!为你自己安排[marriage|E]\n\n[Character.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
  CHARACTER_WINDOW_FIND_SECONDARY_SPOUSE:0 "#T 寻找[spouse|E]\n#!安排[marriage|E]"
- CHARACTER_WINDOW_NO_MORE_SPOUSES:0 "#T 没有更多[spouses|E]#!"
  CHARACTER_WINDOW_GOTO_FIND_SPOUSE:0 "#T 下一个：寻找[spouse|E]#!"
  CHARACTER_WINDOW_GOTO_NEXT_SPOUSE:0 "#T 下一个：[CHARACTER.GetUIName]#!"
  CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE:0 "#T 前一个：[CHARACTER.GetUIName]#!"
- 
+ CHARACTER_WINDOW_GOTO_PREVIOUS_FIND_SPOUSE:0 "#T 之前：寻找[spouse|E]#!"
+ CHARACTER_WINDOW_GOTO_DIARCH:0 "#T 下一任：[CHARACTER.GetLiege.GetDiarchTitle][CHARACTER.GetUIName]#!"
+
  CV_CUSTOMIZE_PORTRAIT:0 "#I 点击打开理发器#!"
  RENAME_CHARACTER:0 "#I 点击重命名该角色#!"
 
  CV_CHILDREN_HEADING:0 "子女#weak （[GetDataModelSize(CharacterWindow.GetChildren)]）#!"
  CV_SIBLINGS_HEADING:0 "兄弟姐妹#weak （[GetDataModelSize(CharacterWindow.GetSiblings)]）#!"
- AI_PERSONALITY_TT:0 "#T 性格：[Character.GetAIPersonality]#!\n[Character.GetShortUINameNoTooltip]会遵循[Character.GetHerHis]的性格对你和其他人采取不同的行为，这主要取决于[Character.GetHerHis]的性格[traits|E]"
  CHARACTER_RELATION_COMBINE:0 "$FIRST$ • $SECOND$"
 
  FAITH_CHARACTER_WINDOW:0 "[Faith.GetAdjectiveNoTooltip]"
@@ -181,4 +182,3 @@
  KNOWN_LANGUAGES_TOOLTIP:1 "#T 已学会的[languages|E]#!\n[Character.GetKnownLanguagesString]\n\n#weak 当前[language_limit|E]：[Character.MakeScope.ScriptValue('current_extra_languages')|V0]/[Character.MakeScope.ScriptValue('language_soft_cap')|V0]#!"
 
  EXTENDED_RELATIONS_TOOLTIP:0 "[Character.GetRelationToStringExtended( GetPlayer )]"
- 

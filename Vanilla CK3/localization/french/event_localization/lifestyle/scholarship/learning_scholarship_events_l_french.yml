@@ -8,7 +8,7 @@
 
 # Learn to read, by Linnéa Thimrén
  learning_scholarship.1101.t:0 "Manque de lecture"
- learning_scholarship.1101.desc:1 "« [ROOT.Char.Custom('FR_MonseigneurMadame')|U], il a été porté à mon attention que vous pourriez avoir besoin de conseils sur l’art... du déchiffrement de la communication écrite. S’il plaît à [ROOT.Char.Custom('FR_MonseigneurMadame')|U], je suis prêt[bishop.Custom('FR_E')] à vous instruire ; j’ai ici le texte parfait », dit [bishop.Custom2('MyCharacterIntroduction', ROOT.Char)] qui me présente un parchemin."
+ learning_scholarship.1101.desc:1 "« [ROOT.Char.Custom('FR_MonseigneurMadame')|U], il a été porté à mon attention que vous pourriez avoir besoin de conseils sur l’art... du déchiffrement de la communication écrite. S’il plaît à [ROOT.Char.Custom('FR_MonseigneurMadame')|U], je suis prêt[bishop.Custom('FR_E')] à vous instruire ; j’ai ici le texte parfait », dit [bishop.Custom2('MyCharacterIntroduction', ROOT.Char)] qui me présente un parchemin."
  learning_scholarship.1101.a:0 "Le... r-roi a un-e grand-e cour-couronne..."
  learning_scholarship.1101.b:0 "Je suis tout à fait compétent[ROOT.Char.Custom('FR_E')] en matière de lecture !"
 
@@ -296,7 +296,4 @@
 
  learning_scholarship.6000.k:0 "Cette buse n’arrivera jamais à lire !"
  learning_scholarship.6000.k.tt:0 "Autant enseigner l’astronomie à une chèvre !"
- high_learning_custom:1 "Chaque vassal non [GetTrait('compassionate').GetName( GetNullCharacter )|l] doté d’une [learning|E] élevée"
-
-# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- learning_scholarship.6000.insult:0 "Les [vassals|El] avec un niveau élevé d’[learning|El] gagnent 10 points d’[opinion|El] envers vous"
+ high_learning_custom:1 "Chaque vassal non [GetTrait('compassionate').GetName( GetNullCharacter )|l] doté d’une [learning|El] élevée"

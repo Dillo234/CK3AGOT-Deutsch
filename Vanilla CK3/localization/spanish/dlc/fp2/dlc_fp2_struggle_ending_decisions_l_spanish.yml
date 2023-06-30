@@ -1,7 +1,7 @@
 ﻿l_spanish:
  ##### Hostility #####
  struggle_iberia_ending_hostility_decision:1 "Dominio [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"
- struggle_iberia_ending_hostility_decision_desc:0 "Es hora de que un líder fuerte saque esta Península del fango de la guerra y la división. ¡Iberia quedará unida bajo un [ROOT.Char.Custom('GetQueenKing')|l] [ROOT.Char.Custom('ES_FaithGenderedAdj')] que enarbole la bandera de [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]!"
+ struggle_iberia_ending_hostility_decision_desc:0 "Es hora de que un líder fuerte saque esta Península del fango de la guerra y la división. ¡Iberia quedará unida bajo un [ROOT.Char.Custom('GetQueenKing')|l] de la fe [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] que enarbole la bandera de [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]!"
  struggle_iberia_ending_hostility_decision_tooltip:0 "Fin de la [struggle|lE] ibérica"
  struggle_iberia_ending_hostility_decision_confirm:1 "Finalizar la contienda ibérica"
  # Triggers
@@ -77,11 +77,12 @@
  ### Common
  fp2_struggle_can_create_empire_of_hispania_tt:0 "Desbloquea la creación del [empire|lE] de [GetTitleByKey('e_spain').GetNameNoTier]"
  fp2_struggle_compromise_destroy_hispania_tt:1 "El [empire|lE] de [GetTitleByKey('e_spain').GetNameNoTier] queda #negative_value destruido#! para siempre"
+ fp2_struggle_conciliation_caravanserai_unlock_tt:0 "Permite permanentemente la construcción de la línea de edificios #V $building_type_caravanserai_01$#! en [GetGeographicalRegion('world_europe_west_iberia').GetName]"
 
  CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT:0 "Hostilidad ibérica"
  CB_COST_FP2_STRUGGLE_HOSTILITY_FAITH_DISCOUNT:0 "$CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT$"
  struggle_iberia_ending_hostility_decision_correct_phase_tt:1 "La [struggle_phase|lE] actual es [struggle_phase_iberia_hostility|lE]"
- struggle_iberia_ending_compromise_decision_correct_phase_tt:1 "La [struggle_phase|lE] actual es [struggle_phase_iberia_compromiselE]"
+ struggle_iberia_ending_compromise_decision_correct_phase_tt:1 "La [struggle_phase|lE] actual es [struggle_phase_iberia_compromise|lE]"
  struggle_iberia_ending_conciliation_decision_correct_phase_tt:1 "La [struggle_phase|lE] actual es [struggle_phase_iberia_conciliation|lE]"
  fp2_struggle_house_tt:1 "Todos los miembros de la [house|lE]"
  fp2_struggle_compromise_war_cost_tt:0 "A [casus_bellis|lE] $HOLY_WAR_DUCHY_NAME$ y $CONQUEST_DUCHY_CB_NAME$ contra otras [cultures|lE] y [faiths|lE] [Concept( 'struggle_involved', 'involucradas' )|E]: #negative_value +50 %#!"

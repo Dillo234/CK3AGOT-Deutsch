@@ -212,7 +212,7 @@
  seduce_ongoing.1802.b.bad:0 "这就有点尴尬了……"
  seduce_ongoing.1802.c:0 "我对这些示好毫无兴趣！"
 
- seduce_ongoing.1601.t:0 "[location.GetNameNoTierNoTooltip]内的朗诵"
+ seduce_ongoing.1601.t:1 "[location.GetNameNoTooltip]内的朗诵"
  seduce_ongoing.1601.t_no_location:0 "朗诵"
  seduce_ongoing.1601.desc:0 "庆典即将落下帷幕，夜晚的娱乐表演也到尾声，此时[target.GetTitledFirstName]提议来一次朗诵。\n\n一位书记官马上赶来，想知道宾客们喜欢听什么，我发现这是让[target.GetFirstName]留下好印象的机会。"
  seduce_ongoing.1601.a:0 "搞点敬神的，比如[SCOPE.Custom('RandomReligiousTextName')]。"
@@ -434,7 +434,7 @@
  seduce_ongoing.4106.desc:0 "我一够到[target.GetTitledFirstNamePossessive]的阳台，[target.GetSheHe]就笑着走了出来。“你为什么要做这种特技呢，[ROOT.Char.GetFirstNameNoTooltip]？就像正常[ROOT.Char.GetWomanMan]一样走门就好了。你搞得好像你有什么需要保密的意图似的。”\n\n[target.GetHerHis]眼中调皮的喜悦让一切都值得了。"
  seduce_ongoing.4106.a:0 "没有什么能够拦在我们之间！"
 
- seduce_ongoing.4107.desc_paranoid:0 "当我够到[target.GetTitledFirstNamePossessive]的阳台的时候，[target.GetSheHe]开始尖叫，并呼[target.GetHerHis]的卫兵。“救命，入侵者！”\n\n在我飞身一跃开溜的时候，[target.GetHerHis|U]的叫声依然一路追随着我，吓得我一路屁滚尿流，消失在夜色里。"
+ seduce_ongoing.4107.desc_paranoid:0 "当我够到[target.GetTitledFirstNamePossessive]的阳台的时候，[target.GetSheHe]开始尖叫，并呼[target.GetHerHis]的卫兵。“救命，有人闯入！”\n\n在我飞身一跃开溜的时候，[target.GetHerHis|U]的叫声依然一路追随着我，吓得我一路屁滚尿流，消失在夜色里。"
  seduce_ongoing.4107.desc:0 "当我够到[target.GetTitledFirstNamePossessive]的阳台时，[target.GetSheHe]走了出来，[target.GetHerHis]的脸上挂着[target.Custom('quirk_neg_adjective')]轻蔑。\n\n“这位[ROOT.Char.GetFirstNameNoTooltip]是个怎样的呆瓜？你不能——拜托你是一位[ROOT.Char.GetTitleTierName]！这太不成体统了。”"
  seduce_ongoing.4107.a:0 "本来能够更加顺利的……"
  seduce_ongoing.4107.a.tt:0 "#F 我应该了解更多，而不是去潜入这样一位多疑[target.GetWomanMan]家里！#!"
@@ -454,7 +454,7 @@
  seduce_ongoing.5001.desc_tier_up:0 "“我何德何能，居然有如此荣幸，我的#EMP [ROOT.Char.GetTitleTierName]#!？”[target.GetTitledFirstName]脸上挂着微笑，问道，然而[target.GetHerHis]的双眼里却没有任何笑意。"
  seduce_ongoing.5001.desc_tier_down:0 "“那个[target.Custom2('RelationDescriptor', ROOT.Char)][ROOT.Char.GetWomanMan]能做到永远不让我一个人孤单吗……”当我靠近时，[target.GetTitledFirstName]用比[target.GetHerHis]呼吸还轻的声音咕哝道。“[ROOT.Char.GetTitledFirstNameNoTooltip]，我能为你做什么？”"
  seduce_ongoing.5001.desc_ending:0 "\n\n我们之间的敌意如同往常一样一触即发，但我有个主意来安抚我们之间酝酿的风暴……"
- seduce_ongoing.5001.a:0 "你对于[ROOT.GetCharacter.Custom('education_conversation_subject')]这门学问有什么看法？"
+ seduce_ongoing.5001.a:0 "你对于[ROOT.GetCharacter.Custom('education_conversation_subject')]有什么想法？"
  seduce_ongoing.5001.a.tt:0 "#F 迎合[target.GetFirstNamePossessiveNoTooltip]好学的一面。#!"
  seduce_ongoing.5001.b:0 "关于[mocked_courtier.Custom('InsultNoun')][mocked_courtier.GetFirstNameNoTooltip]……"
  seduce_ongoing.5001.b.tt:0 "#F 一起嘲讽[target.GetFirstNamePossessiveNoTooltip]，来迎合[mocked_courtier.GetTitledFirstNameNoTooltip]恶毒的一面。#!"
@@ -676,4 +676,4 @@
  seduce_ongoing.7102.a:0 "我应该反思一下我的手段……"
  seduce_ongoing.7201.desc:0 "“我想要知道你，想要了解你更多。”\n[target.GetTitledFirstName]一开始有点紧张，不过一会儿就放松了下来，因为[target.GetSheHe]开始相信我的请求并没有暗含下流意味。\n\n在我们分别之前，我感谢[target.GetFirstNameNoTooltip]和我度过了这么一段愉快时光，[target.GetSheHe]也用[target.GetHerHis]的怡颜回应了我的微笑。这段时光虽然没什么值得大书特书的，不可否认的是，我之前从未见过[target.GetFirstNameNoTooltip]在一天之内笑过这么多次。我很确信，[target.GetFirstNameNoTooltip]会把我放在心里好长一段时间。"
  seduce_ongoing.7202.desc:1 "与[target.GetTitledFirstName]独处一段时间并不是什么很困难的事情。然而，真正困难的部分是与[target.GetHerHim]进行一段正常的对话。我每问[target.GetHerHim]一个问题，[target.GetSheHe]就只回答[target.GetSheHe]能立马想到的寥寥数语，想方设法让我们的对话冷场。这场面煎熬得如同要拔无数颗牙齿一样！"
- seduce_ongoing.7202.desc_animal:0 "\n\n我脑海里禁不住开始想，或许一只死掉的[ROOT.Char.Custom('LocalAnimal')]都能答复得比[target.GetFirstNameNoTooltip]要详尽呢。"
+ seduce_ongoing.7202.desc_animal:0 "\n\n我脑海里禁不住开始想，或许一只死掉的[ROOT.Char.Custom('GetAnimalType')]都能答复得比[target.GetFirstNameNoTooltip]要详尽呢。"

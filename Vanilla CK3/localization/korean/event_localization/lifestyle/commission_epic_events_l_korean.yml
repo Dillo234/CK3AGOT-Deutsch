@@ -48,7 +48,7 @@
  bards_write_epic:0 "필경사가 서사시를 집필함"
  commission_epic.0001.c:0 "그 정도는 [servant.Custom('GenderedLowlyServantType')]에게 맡겨도 되지 않을까?"
  servant_writes_epic:0 "하인인 [servant.GetTitledFirstName](이)가 서사시를 집필함"
- commission_epic.0001.d:0 "다시 생각해보자."
+ commission_epic.0001.d:0 "다시 생각해 봤는데..."
  commission_epic.writing_begins:0 "서사시를 집필하기 시작함"
  commission_epic.high_chance:1 "높은 확률로 [exceptional_epic|E]가 집필됨"
  commission_epic.medium_chance:1 "[exceptional_epic|E]가 집필될 확률을 예측할 수 없음"
@@ -128,7 +128,7 @@
  commission_epic.1007.opening:0 "[vassal.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
  commission_epic.1007.desc:0 "가족 서사시를 새롭게 집필했다기에 한번 살펴봤습니다. 그런데 제 선조들의 활약상에 대해서는 일언반구도 없어서 참으로 당황스럽더군요.\n\n이만한 치욕을 당했는데, 그냥 넘길 수는 없습니다. 그대가 우리 가문에 악의를 품고 있다는 사실이 명확해졌으니 말입니다!"
  commission_epic.1007.a:0 "감히 내게 그런 식으로 말을 해?"
- commission_epic.1007.b:0 "미안하오. 그대 가문의 활약도 집어 넣으리다."
+ commission_epic.1007.b:0 "미안하오. 그대 가문의 활약도 집어넣으리다."
 
  commission_epic.2001.t:0 "가족 서사시: 우선권"
  commission_epic.2001.desc_composer:0 "[steward.Custom2('MyCharacterIntroduction', ROOT.Char)|U](이)가 흥분되는 소식이 있다면서 날 찾아왔다. "가족 서사시의 최신 판본을 살펴보던 중에, [ROOT.Char.Custom2('CommissionEpicComposer', composer)](이)가 흥미로운 사실을 알아냈다고 그러더군요.""

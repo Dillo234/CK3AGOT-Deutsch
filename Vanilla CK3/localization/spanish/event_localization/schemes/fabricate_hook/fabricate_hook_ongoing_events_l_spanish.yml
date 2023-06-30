@@ -1,18 +1,18 @@
 ﻿l_spanish:
  fabricate_hook_ongoing.0001.t:0 "$fabricate_hook_header$ Contacto familiar"
- fabricate_hook_ongoing.0001.desc:1 "[target.Custom2('RelationToMe', SCOPE.sC('family_member'))] [target.Custom('ES_DelDela')] [target.GetTitledFirstName], el/la [family_member.GetTitledFirstName] ha estado inusitadamente comunicativ[family_member.Custom('ES_OA')]. Aunque sepa que no tengo las intenciones más puras hacia [target.GetFirstName], muestra disposición a responder a mis preguntas."
+ fabricate_hook_ongoing.0001.desc:1 "[target.Custom2('RelationToMe', SCOPE.sC('family_member'))] [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l], el/la [family_member.GetTitledFirstName|l] ha estado inusitadamente comunicativ[family_member.Custom('ES_OA')]. Aunque sepa que no tengo las intenciones más puras hacia [target.GetFirstName], muestra disposición a responder a mis preguntas."
  fabricate_hook_ongoing.0001.a:0 "«¿Tiene [target.Custom('ES_ElElla')] algún punto débil que deba conocer?»."
  fabricate_hook_ongoing.0001.b:0 "«¿Cómo puede acercarse un[ROOT.Char.Custom('ES_OA')] a [target.Custom('ES_ElElla')]?»."
 
  fabricate_hook_ongoing.0002.t:0 "$fabricate_hook_header$ Influencia indebida"
- fabricate_hook_ongoing.0002.desc:0 "[target.GetTitledFirstName] parece inusitadamente cuidados[target.Custom('ES_OA')] con su [target.Custom2('RelationToMeShort', hooking_character )], [hooking_character.GetTitledFirstName]. Estas deferencias solo pueden significar que [hooking_character.GetFirstNameNoTooltip] tiene cierta influencia sobre [target.Custom('ES_ElElla')].\n\n¿Puede que haya algo ahí que pueda aprender?"
+ fabricate_hook_ongoing.0002.desc:0 "[target.GetTitledFirstName] parece inusitadamente cuidados[target.Custom('ES_OA')] con su [target.Custom2('RelationToMeShort', hooking_character )], [hooking_character.GetTitledFirstName|l]. Estas deferencias solo pueden significar que [hooking_character.GetFirstNameNoTooltip] tiene cierta influencia sobre [target.Custom('ES_ElElla')].\n\n¿Puede que haya algo ahí que pueda aprender?"
  fabricate_hook_ongoing.0002.a:0 "Mis espías buscarán una explicación a este misterio."
  fabricate_hook_ongoing.0002.b:0 "¡Debo averiguar cómo logra que haga lo que [hooking_character.GetSheHe] quiere!"
 
  fabricate_hook_ongoing.0003.t:0 "$fabricate_hook_header$ Rumores"
- fabricate_hook_ongoing.0003.desc_servant:0 "Mis agentes han contactado con [servant.GetTitledFirstName], un[servant.Custom('ES_XA')] servidor[servant.Custom('ES_XA')] de la residencia de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstName]."
- fabricate_hook_ongoing.0003.desc:0 "Mis agentes han contactado con un[dummy_servant_gender.Custom('ES_XA')] servidor[dummy_servant_gender.Custom('ES_XA')] de la residencia de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstName]."
- fabricate_hook_ongoing.0003.desc_ending:0 "\n\nCon los incentivos adecuados, ¡está dispuest[dummy_servant_gender.Custom('ES_OA')] a #EMP susurrar#! cotilleos para divulgar que [target.GetTitledFirstNameNoTooltip] no es tan [target.Custom('FormalComplimentAdjective')] como parece!"
+ fabricate_hook_ongoing.0003.desc_servant:0 "Mis agentes han contactado con [servant.GetTitledFirstName|l], un[servant.Custom('ES_XA')] servidor[servant.Custom('ES_XA')] de la residencia de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstName|l]."
+ fabricate_hook_ongoing.0003.desc:0 "Mis agentes han contactado con un[dummy_servant_gender.Custom('ES_XA')] servidor[dummy_servant_gender.Custom('ES_XA')] de la residencia de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstName|l]."
+ fabricate_hook_ongoing.0003.desc_ending:0 "\n\nCon los incentivos adecuados, ¡está dispuest[dummy_servant_gender.Custom('ES_OA')] a #EMP susurrar#! cotilleos para divulgar que [target.GetTitledFirstNameNoTooltip|l] no es tan [target.Custom('FormalComplimentAdjective')] como parece!"
  fabricate_hook_ongoing.0003.a:0 "¡Destrozaremos su reputación!"
  fabricate_hook_ongoing.0003.a_gregarious:0 "#EMP Sabes#! que es lo que hay que hacer."
  fabricate_hook_ongoing.0003.b:0 "Basta con que tenga cerca un alma comprensiva y con buen oído."
@@ -25,5 +25,5 @@
  fabricate_hook_ongoing.0004.b.failure:0 "[target.Custom('ES_ElElla')|U] te descubre"
  fabricate_hook_ongoing.0004.b:0 "Me tomaré mi tiempo."
 
- fabricate_hook_ongoing.0005.desc:0 "La gente describe a [target.GetTitledFirstName] como [target.Custom('ComplimentAdjective')] y [target.Custom('InsultAdjective')], lo cual me dice más sobre su relación con [target.Custom('ES_ElElla')] que otra cosa.\n\nAdemás, un curioso número de gente menciona cuán a menudo [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('target'))] y habla sobre [target.Custom('herhis_subject_of_interest')]."
+ fabricate_hook_ongoing.0005.desc:0 "La gente describe a [target.GetTitledFirstName|l] como [target.Custom('ComplimentAdjective')] y [target.Custom('InsultAdjective')], lo cual me dice más sobre su relación con [target.Custom('ES_ElElla')] que otra cosa.\n\nAdemás, un curioso número de gente menciona cuán a menudo [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('target'))] y habla sobre [target.Custom('herhis_subject_of_interest')]."
  fabricate_hook_ongoing.0005.a:0 "Seguramente esta información será útil."

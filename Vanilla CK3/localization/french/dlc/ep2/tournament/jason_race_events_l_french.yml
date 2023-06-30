@@ -1,0 +1,53 @@
+﻿l_french:
+
+#HORSE RACES
+ jason_race_events.1.t:0 "La volonté de la foule"
+ jason_race_events.1.desc:0 "Dans le vaste public des courses, les roturiers crient et des guerriers itinérants scandent des insultes et des insinuations vulgaires. Au milieu d’eux, nous, les nobles, gloussons nerveusement et vérifions que nos gardes ne sont pas loin."
+
+ jason_race_events.1.desc.guest_local_anger:0 "\n\nIls crient « [host.GetTitledFirstName] ! », ainsi que des termes comme « #EMP [host.Custom('GetCrime')|U] !#! ». Les plus virulents sont tous des habitants de la région : en [ROOT.Char.GetCurrentLocation.GetName], [host.GetFirstNameNoTooltip] est au milieu de gens qui [host.Custom('FR_LeLa')] détestent.\n\nEn scrutant la foule, je vois des pierres, des couteaux et des armes de guerre."
+
+ jason_race_events.1.desc.host_local_anger:0 "\n\nIls crient « [ROOT.Char.GetTitledFirstName] ! », ainsi que des termes comme « #EMP [ROOT.Char.Custom('GetCrime')|U] !#! ». Les plus virulents sont tous des habitants de la région ; me trouver en [ROOT.Char.GetCurrentLocation.GetName] implique d’être au milieu de gens qui me détestent.\n\nEn scrutant la foule, je vois des pierres, des couteaux et des armes de guerre."
+
+ jason_race_events.1.desc.rowdy_fans:0 "\n\nL’excitation de la course attire toujours les pires êtres du pays, en très grand nombre, et les excite par la promesse de les divertir et de pouvoir parier.\n\nIl arrive parfois, les jours de malheur, que les plaisirs habituels ne suffisent pas : seul le sang peut satisfaire."
+
+ jason_race_events.1.desc.end:0 "\n\nC’est sur le point de devenir une émeute."
+
+ jason_race_events.1.a:0 "Moi seul[ROOT.Char.Custom('FR_E')] peux calmer la foule."
+ jason_race_events.1.a.tt:0 "En choisissant les bons mots, je ramènerai leur attention sur la course."
+ jason_race_events.1.a.tt.win:0 "Votre discours calme les gens"
+ jason_race_events.1.a.tt.race:1 "L’épreuve se poursuit sans interruption"
+ jason_race_events.1.a.tt.lose:0 "Vous n’arrivez pas à empêcher l’émeute"
+
+ jason_race_events.1.b:0 "Brisez leur courage, $knights$ !"
+ jason_race_events.1.b.tt:0 "Et une fois que nous aurons essuyé le sang de nos yeux, nous pourrons reprendre la course !"
+
+ jason_race_events.1.c:0 "Peut-être que la foule a besoin d’un petit coup de pouce..."
+ jason_race_events.1.c.tt:0 "Que mes $knights$ commettent une violence dévastatrice !"
+ jason_race_events.1.c.tt.win:0 "Vos $knights$ répriment la foule"
+ jason_race_events.1.c.tt.lose:0 "Vos hommes ont provoqué une terrible émeute"
+ jason_race_events.1.c.tt.lose_knights:0 "Certains de vos [GetPlayer.Custom('KnightCulturePlural')|l] sont [GetTrait('wounded_1').GetName( GetNullCharacter )|l]s"
+
+ jason_race_events.1.d:0 "Je dois sortir d’ici, #EMP vite#!."
+ jason_race_events.1.d.tt:0 "Qui sait ? Peut-être que tout ira bien."
+
+ jason_race_events.1.d.tt.win:0 "L’agitation est maîtrisée"
+ jason_race_events.1.d.tt.lose:0 "La violence se répand dans la région"
+
+ jason_race_events.1.d.tt.leave:0 "Vous et votre entourage vous retirez en sécurité"
+
+ contest_wound_attendees_effect:0 "De nombreuses personnes présentes sont [GetTrait('wounded_1').GetName( GetNullCharacter )|l]s"
+
+ contest_wound_non_root_attendees_effect:0 "De nombreuses autres personnes présentes sont [GetTrait('wounded_1').GetName( GetNullCharacter )|l]es"
+
+
+ jason_race_events.2.t:0 "Un virage à toute vitesse"
+ jason_race_events.2.desc:1 "Les chevaux tonnent le long de la piste, leurs corps en mouvement sont masqués par des nuages de poussière, les jurons et les cris des cavaliers sont inaudibles au milieu des bruits de sabots et du rugissement de la foule.\n\nPourtant, vous pouvez voir que votre coureur, [jockey.GetFirstName], est totalement concentré sur un virage qui s’approche rapidement. Alors que les autres ralentissent pour prendre le virage en douceur, il donne un coup d’éperon.\n\nAvec juste un doigt de marge, [jockey.GetFirstNameNoTooltip] et [ROOT.Char.Custom('GetContestHorseRaceName')] se glissent entre ceux qui les précèdent. Une manœuvre incroyable - la foule s’exclame comme un seul homme !"
+
+ jason_race_events.2.a:0 "De telles compétences appartiennent au champ de bataille !"
+ jason_race_events.2.a.tt:0 "Mes cavaliers devraient être entraînés à chevaucher avec la même audace."
+
+ jason_race_events.2.b:1 "Ma suite aurait besoin d’un nouvel éclaireur..."
+ jason_race_events.2.b.tt:1 "Un cavalier aussi audacieux devrait partir devant nous à chaque voyage."
+
+ jason_race_events.2.c:1 "Un moment qui mérite d’être raconté mille fois !"
+ jason_race_events.2.c.tt:1 "Qu’ils gagnent ou perdent, les autres coureurs ne laissent pas une impression comme les miens."

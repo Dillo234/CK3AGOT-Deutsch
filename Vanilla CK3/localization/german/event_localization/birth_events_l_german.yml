@@ -13,7 +13,7 @@
  birth.1001.daughters.t:0 "Meine Töchter"
  birth.1001.sons.t:0 "Meine Söhne"
  birth.1001.children.t:0 "Meine Säuglinge"
- birth.1001.first_birth_good.desc:0 "Mit den ersten Wehen überkam mich eine große Ruhe. Für meine früheren Sorgen war kein Platz mehr: Ich stand kurz davor, eines der größten Wunder zu vollbringen, das uns durch [ROOT.Char.GetFaith.FertilityGodName] vergönnt ist. Nach langen, aber glorreichen Mühen gebar ich schließlich"
+ birth.1001.first_birth_good.desc:0 "Mit den ersten Wehen überkam mich eine große Ruhe. Für meine früheren Sorgen war kein Platz mehr: Ich stand kurz davor, eines der größten Wunder zu vollbringen, das uns durch die schaffenden Kräfte ([ROOT.Char.GetFaith.FertilityGodName]) vergönnt ist. Nach langen, aber glorreichen Mühen gebar ich schließlich"
  birth.1001.first_birth_scary.desc:0 "Ich habe mit zahllosen anderen Müttern und Hebammen gesprochen und deren Rat befolgt. Doch als meine Zeit dann kam, wurde mir klar, dass keine Vorbereitung je genug sein würde.\n\nDie Schmerzen verschlangen mich schier, und ich fürchtete um mein Leben. Doch ich stand es durch, und nun habe ich"
  birth.1001.many_births.desc:0 "Mit jeder Geburt wird es ein wenig einfacher … Und doch bin ich immer wieder aufs Neue überrascht davon, wie ergreifend dieses Erlebnis ist und wie stark ich bin. Einmal mehr habe ich neues Leben auf diese Welt gebracht, dieses Mal"
  birth.1001.not_first_birth.desc:0 "Meine Erleichterung ist groß und meine Freude noch größer! Ich gebar"
@@ -52,7 +52,7 @@
 
  birth.1003.loves_mother.desc:1 "O [mother.GetFirstName], Ihr wart so tapfer! So stark! Worte können nicht beschreiben, wie stolz ich bin auf Euch, und nun haben wir"
  birth.1003.likes_mother.desc:0 "Mit einem müden und doch glücklichen Lächeln überreicht [mother.GetFirstName] mir"
- birth.1003.dislikes_mother.desc:1 "Gepriesen sei [ROOT.Char.GetFaith.FertilityGodName]! [mother.GetFirstNameNoTooltip] gebar"
+ birth.1003.dislikes_mother.desc:1 "Gepriesen seien die schaffenden Kräfte ([ROOT.Char.GetFaith.FertilityGodName])! [mother.GetFirstNameNoTooltip] gebar"
  birth.1003.sondaughter.desc:0 "ein[child.Custom('DE_END_PRO_S_A')] perfekt[child.Custom('DE_END_PRO_S_A')] klein[child.Custom('DE_END_PRO_S_A')] [child.Custom('GetDaughterSon')]!\n\n"
  birth.1003.daughters.desc:0 "perfekte kleine Mädchen!\n\n"
  birth.1003.sons.desc:0 "perfekte kleine Knaben!\n\n"
@@ -142,7 +142,7 @@
  birth.3001.a:1 "Ist … Warum atmet [dummy_gender.Custom('DE_PRO_PER_S_3P_N')] nicht?! #EMP Tut doch etwas!#!"
  birth.3001.a.tt:1 "[dummy_gender.Custom('DE_ART_DEF_S_N')|U] [dummy_gender.Custom('DaughterSon')] war eine Totgeburt"
 
- birth.3002.desc:0 "Als sich die Tür zur Kammer der Niederkunft öffnet, begrüßen mich nicht lächelnde Hebammen und ein schreiendes Kind, sondern das herzzerreißende Wehklagen von [mother.GetTitledFirstName].\n\n„Es tut mir so leid, [ROOT.Char.GetLadyLord].“ Die Hebamme sieht mir nicht in die Augen. In ihren Armen liegt ein winziges, zugedecktes Bündel. „Euer Kind … Es lebt im Jenseits weiter.“"
+ birth.3002.desc:0 "Als sich die Tür zur Kammer der Niederkunft öffnet, begrüßen mich nicht lächelnde Hebammen und ein schreiendes Kind, sondern das herzzerreißende Wehklagen von [mother.GetTitledFirstName].\n\n„Es tut mir so leid, Herr[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')].“ Die Hebamme sieht mir nicht in die Augen. In ihren Armen liegt ein winziges, zugedecktes Bündel. „Euer Kind … Es lebt im Jenseits weiter.“"
  birth.3002.a:0 "Mein[dummy_gender.Custom('DE_END_PRO_S_N')] [dummy_gender.Custom('DaughterSon')]? Im … im Jenseits?"
 
  birth.3011.desc_twin:0 "Die Zwillinge sind perfekt. Ihre kleinen Gesichter, wie sie riechen … Ich möchte für immer in diesem Augenblick leben, doch die Hebamme lässt sie mich nur wenige Atemzüge halten. Ich versuche, dagegen zu protestieren, als sie sie mir abnimmt, aber meine Arme sind schwach und ich finde keine Worte.\n\n„Macht Euch keine Sorgen. Eure [child.Custom('TwinDaughtersSonsChildren')] sind stark und gesund. Wir kümmern uns jetzt um sie.“\n\nAls meine Dienstmädchen hastig hin und her huschen, wird die Welt um mich herum dunkler …"
@@ -150,7 +150,7 @@
  birth.3011.twin.a:1 "Bitte … Ihre Namen …"
  birth.3011.a:0 "Bitte … [child.Custom('DE_PRO_POS_S_3P')|U] Name …"
 
- birth.3012.start.desc:0 "Als die Hebamme endlich die Kammer der Niederkunft mit einem leise weinenden Bündel im Arm verlässt, bin ich erleichtert.\n\nDann sehe ich ihren Blick.\n\n„Es tut mir so leid. [ROOT.Char.GetLadyLord]. [mother.GetLadyLord] [mother.GetFirstNameNoTooltip] …“ Sie findet keine Worte, doch ich verstehe sie trotzdem.\n\nEin Leben wurde ausgelöscht, aber"
+ birth.3012.start.desc:0 "Als die Hebamme endlich die Kammer der Niederkunft mit einem leise weinenden Bündel im Arm verlässt, bin ich erleichtert.\n\nDann sehe ich ihren Blick.\n\n„Es tut mir so leid, Herr[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')]. [mother.GetLadyLord] [mother.GetFirstNameNoTooltip] …“ Sie findet keine Worte, doch ich verstehe sie trotzdem.\n\nEin Leben wurde ausgelöscht, aber"
  birth.3012.desc_twin:0 "zwei neue Leben haben gerade erst begonnen. Ich muss stark bleiben für meine [child.Custom('TwinDaughtersSonsChildren')]."
  birth.3012.desc:0 "ein neues hat gerade erst begonnen. Ich muss stark bleiben für mein[child.Custom('DE_END_PRO_S_A')] [child.Custom('DaughterSon')]."
  birth.3012.a:0 "Was für ein tragischer Beginn …"
@@ -159,15 +159,15 @@
  birth.3021.a:0 "Warum … schreit … [dummy_gender.Custom('DE_PRO_PER_S_3P_N')] …"
 
 
- birth.3022.desc:0 "Als ich vor der Kammer der Niederkunft warte, fühlt sich jede Minute an wie eine Ewigkeit. Die Schreie von [mother.GetFirstName] sind verstummt, doch ich höre kein Kind weinen. Da stimmt etwas nicht: Ich spüre es in meinen Knochen.\n\nDie Tür öffnet sich. Die geplagte Miene der Hebamme bestätigt all meine Befürchtungen.\n\n„Es tut mir so leid. [ROOT.Char.GetLadyLord]. [mother.GetLadyLord] [mother.GetFirstNameNoTooltip] … Euer Kind … Sie leben nun beide im Jenseits weiter.“"
- birth.3022.a:1 "Warum?! [ROOT.Char.GetFaith.FertilityGodName|U], was habe ich getan, dass ich so etwas verdiene?"
+ birth.3022.desc:0 "Als ich vor der Kammer der Niederkunft warte, fühlt sich jede Minute an wie eine Ewigkeit. Die Schreie von [mother.GetFirstName] sind verstummt, doch ich höre kein Kind weinen. Da stimmt etwas nicht: Ich spüre es in meinen Knochen.\n\nDie Tür öffnet sich. Die geplagte Miene der Hebamme bestätigt all meine Befürchtungen.\n\n„Es tut mir so leid, Herr[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')]. [mother.GetLadyLord] [mother.GetFirstNameNoTooltip] … Euer Kind … Sie leben nun beide im Jenseits weiter.“"
+ birth.3022.a:1 "Warum?! Ihr schaffenden Kräfte ([ROOT.Char.GetFaith.FertilityGodName]), was habe ich getan, dass ich so etwas verdiene?"
  birth.3022.a.buddhism:0 "Was haben wir getan, dass wir so etwas verdienen?"
 
  birth.3031.t:0 "Krankes Kindbett"
  birth.3031.start.desc:0 "Alle Kinder weinen, doch bei [child.GetFirstName] hören die Tränen gar nicht mehr auf. Ich hoffe so sehr darauf, dass die Hebamme meine Sorgen lindert, aber ihre in Falten gelegte Stirn macht alles nur schlimmer.\n\n"
  birth.3031.princessprince.desc:0 "„[child.Custom('DE_ART_DEF_S_N')|U] kleine [child.GetLadyLord]"
  birth.3031.daughterson.desc:0 "„Euer kleiner Spatz"
- birth.3031.end.desc:0 "nimmt nicht zu, wie [child.Custom('DE_PRO_PER_S_3P_N')] sollte. Wir werden uns gut um [child.Custom('DE_PRO_PER_S_3P_A')] kümmern, doch am Ende liegt [child.Custom('DE_PRO_POS_S_3P')] Leben in der Hand von [ROOT.Char.GetFaith.FateGodName].“"
+ birth.3031.end.desc:0 "nimmt nicht zu, wie [child.Custom('DE_PRO_PER_S_3P_N')] sollte. Wir werden uns gut um [child.Custom('DE_PRO_PER_S_3P_A')] kümmern, doch am Ende liegt [child.Custom('DE_PRO_POS_S_3P')] Leben in der Hand anderer Mächte ([ROOT.Char.GetFaith.FateGodName]).“"
  birth.3031.a:0 "Beruhige dich doch, [child.GetFirstNameNoTooltip]! Bitte hör auf zu weinen!"
 
  birth.3034.t:0 "Groß und stark"

@@ -1,6 +1,6 @@
 ﻿l_german:
  marshal_task.0301.t:0 "Befehlshaber[councillor.Custom('DE_END_NOU_S_GS_N')] befördert"
- marshal_task.0301.desc:0 "Mein[councillor.Custom('DE_END_PRO_S_N')] [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] hat mir stolz einen neuen Rekruten präsentiert.\n\n„[commander.Custom('DE_PRO_PER_S_3P_N')|U] mag nicht von so edlem Geblüt sein wie Ihr, mein[councillor.Custom('DE_END_PRO_S_N')] [councillor.Custom2('RelationToMe', ROOT.Char)], aber bei meiner Treue: Ich schwöre, [commander.GetTitledFirstName] ist jemand, den Ihr an Eurer Seite haben wollt.“"
+ marshal_task.0301.desc:0 "Mein [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] hat mir stolz einen neuen Rekruten präsentiert.\n\n„[commander.Custom('DE_PRO_PER_S_3P_N')|U] mag nicht von so edlem Geblüt sein wie Ihr, mein[councillor.Custom('DE_END_PRO_S_N')] [councillor.Custom2('RelationToMe', ROOT.Char)], aber bei meiner Treue: Ich schwöre, [commander.GetTitledFirstName] ist jemand, den Ihr an Eurer Seite haben wollt.“"
  marshal_task.0301.a:0 "Wohlan denn. [commander.GetFirstNameNoTooltip] soll mir dienen."
  marshal_task.0301.b:0 "Schafft diesen Unrat aus mein[ROOT.Char.Custom('DE_END_PRO_S_D')] [ROOT.Char.Custom('ResidenceBuilding')]!"
  
@@ -27,7 +27,7 @@
  marshal_task.1003.notification:0 "Wachen fürs Aufgebot eingezogen"
 
  marshal_task.1101.t:0 "Ein gut organisierter Dienst"
- marshal_task.1101.desc:0 "Durch eine sorgfältige Auswahl und Prüfung der Truppen für das Aufgebot hat mein[councillor.Custom('DE_END_PRO_S_N')] [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] gewährleistet, dass nicht ein Hof in [county.GetName] unbestellt bleibt.\n\nAuch [councillor.Custom('DE_PRO_POS_S_3P')]e Aufzeichnungen werden sich noch als nützlich erweisen, sobald die Steuerzeit kommt …"
+ marshal_task.1101.desc:0 "Durch eine sorgfältige Auswahl und Prüfung der Truppen für das Aufgebot hat mein [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] gewährleistet, dass nicht ein Hof in [county.GetName] unbestellt bleibt.\n\nAuch [councillor.Custom('DE_PRO_POS_S_3P')]e Aufzeichnungen werden sich noch als nützlich erweisen, sobald die Steuerzeit kommt …"
  marshal_task.1101.a:0 "Großartige Arbeit, [councillor.GetFirstNameNoTooltip]."
  marshal_task.1101.notification:0 "Gut organisierter Aufgebotsdienst"
 
@@ -35,38 +35,40 @@
  marshal_task.1102.desc:0 "Das große Unterfangen zur Neuaufstellung meiner Aufgebote von [councillor.GetTitledFirstName] ist nach [county.GetName] weitergezogen, wo die höhere Präsenz des Militärs wahre Wunder bewirkt hat.\n\nBanditen wurden ausgemerzt, Schmuggler und Entführer trauen sich nicht mehr, ihrem schändlichen Treiben nachzugehen."
  marshal_task.1102.a:0 "Meine Untertanen dürfen sich immer sicher fühlen."
  marshal_task.1102.notification:0 "Erhöhte militärische Präsenz"
+ marshal_task.1103.notification:0 "Schlachtbereite Aufgebote"
  #### END (Jonas W)
 
  marshal_task.2001.t:0 "Befehlshaber verwundet"
  marshal_task.2001.opening:0 "Im Verlauf eines Übungsduells wurde [commander.GetTitledFirstName] getroffen!"
- marshal_task.2001.ending:0 "\n\nMein[councillor.Custom('DE_END_PRO_S_N')] [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] konnte zumindest die Blutung stoppen, doch es wird eine Weile dauern, bis [commander.GetFirstName] wieder genesen ist."
+ marshal_task.2001.ending:0 "\n\nMein [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] konnte zumindest die Blutung stoppen, doch es wird eine Weile dauern, bis [commander.GetFirstName] wieder genesen ist."
  marshal_task.2001.a:0 "Sie haben echte Waffen verwendet?!"
  marshal_task.2001.notification:0 "Krieger in der Ausbildung verwundet"
  
  marshal_task.2101.notification:0 "[commander.GetShortUINameNoTooltip] erhielt Eigenschaft: [commander.Custom('CommanderTraitBeingTaught')]"
  marshal_task.2102.notification:0 "Ritter verbessert: [commander.GetShortUIName]"
+ marshal_task.2103.notification:0 "Hastiludia gedrillt: [trained_knight.GetShortUIName]"
  marshal_task.0302.notification.a:0 "Befehlshaber beträchtlich verbessert: [commander.GetShortUIName]"
  marshal_task.0302.notification.b:0 "Befehlshaber verbessert: [commander.GetShortUIName]"
  marshal_task.0303.notification.a:0 "Ritter beträchtlich verbessert: [commander.GetShortUIName]"
  marshal_task.0303.notification.c:0 "Ritter wurde Schwertmeister: [commander.GetShortUIName]"
 
  marshal_task.2002.t:0 "Befehlshaber schwer verletzt"
- marshal_task.2002.eye:0 "\n\nMein[councillor.Custom('DE_END_PRO_S_N')] [councillor.GetCouncilTitle] rief schnell nach einem Arzt, doch es war unmöglich, [commander.Custom('DE_PRO_POS_S_3P')] Augenlicht zu retten."
- marshal_task.2002.leg:0 "\n\nMein[councillor.Custom('DE_END_PRO_S_N')] [councillor.GetCouncilTitle] rief schnell nach einem Arzt, doch es war unmöglich, neben dem Leben auch [commander.Custom('DE_PRO_POS_S_3P')] Bein zu retten."
- marshal_task.2002.hand:0 "\n\nMein[councillor.Custom('DE_END_PRO_S_N')] [councillor.GetCouncilTitle] rief schnell nach einem Arzt, doch es war unmöglich, neben dem Leben auch [commander.Custom('DE_PRO_POS_S_3P')]en Arm zu retten."
+ marshal_task.2002.eye:0 "\n\nMein [councillor.GetCouncilTitle] rief schnell nach einem Arzt, doch es war unmöglich, [commander.Custom('DE_PRO_POS_S_3P')] Augenlicht zu retten."
+ marshal_task.2002.leg:0 "\n\nMein [councillor.GetCouncilTitle] rief schnell nach einem Arzt, doch es war unmöglich, neben dem Leben auch [commander.Custom('DE_PRO_POS_S_3P')] Bein zu retten."
+ marshal_task.2002.hand:0 "\n\nMein [councillor.GetCouncilTitle] rief schnell nach einem Arzt, doch es war unmöglich, neben dem Leben auch [commander.Custom('DE_PRO_POS_S_3P')]en Arm zu retten."
  marshal_task.2002.a:0 "Wenigstens ist [commander.Custom('DE_PRO_PER_S_3P_N')] noch bei klarem Verstand."
  marshal_task.2002.b:0 "[commander.Custom('DE_PRO_POS_S_3P')|U] Pferd wird [commander.Custom('DE_PRO_PER_S_3P_A')] in die Schlacht tragen müssen."
  marshal_task.2002.c:0 "Bitte sagt mir, dass [commander.Custom('DE_PRO_PER_S_3P_N')] wenigstens noch den Schwertarm hat!"
  marshal_task.2002.generic_title:0 "Krieger in der Ausbildung verwundet"
- marshal_task.2002.notification_eye:0 "[commander.GetTitledFirstName] hat ein Auge bei der Ausbildung unter mein[councillor.Custom('DE_END_PRO_S_D')] [councillor.GetCouncilTitle] verloren!"
- marshal_task.2002.notification_leg:0 "[commander.GetTitledFirstName] hat ein Bein bei der Ausbildung unter mein[councillor.Custom('DE_END_PRO_S_D')] [councillor.GetCouncilTitle] verloren!"
- marshal_task.2002.notification_hand:0 "[commander.GetTitledFirstName] wurde während der Ausbildung unter mein[councillor.Custom('DE_END_PRO_S_D')] [councillor.GetCouncilTitle] verstümmelt!"
+ marshal_task.2002.notification_eye:0 "[commander.GetTitledFirstName] hat ein Auge bei der Ausbildung unter meinem [councillor.GetCouncilTitle] verloren!"
+ marshal_task.2002.notification_leg:0 "[commander.GetTitledFirstName] hat ein Bein bei der Ausbildung unter meinem [councillor.GetCouncilTitle] verloren!"
+ marshal_task.2002.notification_hand:0 "[commander.GetTitledFirstName] wurde während der Ausbildung unter meinem [councillor.GetCouncilTitle] verstümmelt!"
 
  marshal_task.2003.t:0 "Tod eines Befehlshabers"
- marshal_task.2003.ending:0 "\n\nMein[councillor.Custom('DE_END_PRO_S_N')] [councillor.GetCouncilTitle] rief umgehend einen Arzt, doch [commander.GetFirstName] war binnen weniger Augenblicke verblutet."
+ marshal_task.2003.ending:0 "\n\nMein [councillor.GetCouncilTitle] rief umgehend einen Arzt, doch [commander.GetFirstName] war binnen weniger Augenblicke verblutet."
  marshal_task.2003.a:0 "Ein tragischer Verlust für meine Armee."
 
- marshal_task.2101.desc:0 "Mein[councillor.Custom('DE_END_PRO_S_N')] [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] ist mit einem Vorschlag zu mir gekommen:\n\n„Mir ist aufgefallen, dass [commander.GetTitledFirstName] anscheinend ein ähnliches Maß an Talent in Sachen [commander.Custom('CommanderTraitSkillDescription')] hat, wie [teacher.GetTitledFirstName] es einst hatte. Ich glaube, dass [commander.GetFirstName] etwas lernen könnte, wenn er von [teacher.GetFirstName] unterwiesen wird.“"
+ marshal_task.2101.desc:0 "Mein [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] ist mit einem Vorschlag zu mir gekommen:\n\n„Mir ist aufgefallen, dass [commander.GetTitledFirstName] anscheinend ein ähnliches Maß an Talent in Sachen [commander.Custom('CommanderTraitSkillDescription')] hat, wie [teacher.GetTitledFirstName] es einst hatte. Ich glaube, dass [commander.GetFirstName] etwas lernen könnte, wenn er von [teacher.GetFirstName] unterwiesen wird.“"
  marshal_task.2101.a:0 "So soll es geschehen."
  marshal_task.2101.b:0 "[commander.GetFirstName] sollte sein Augenmerk mehr auf den Zweikampf richten!"
 
@@ -80,7 +82,7 @@
  marshal_task.3002.notification:0 "[councillor.GetCouncilTitle] verliert die Kontrolle"
 
  marshal_task.3003.t:0 "Eine Enttäuschung"
- marshal_task.3003.desc:0 "Seid gegrüßt, mein[baron.Custom('DE_END_PRO_S_N')] [baron.Custom2('RelationToMe', ROOT.Char)],\nich muss mich über das Verhalten Eur[councillor.Custom('DE_END_PRO_S_G')] [councillor.GetCouncilTitle][councillor.Custom('DE_END_NOU_S_G')] [councillor.GetTitledFirstName] beschweren!\n[councillor.Custom('DE_PRO_PER_S_3P_N')|U] tauchte hier auf und begann, die Dinge in [county.GetName] ganz nach Belieben zu ändern, ohne Rücksicht auf unsere Traditionen oder uralten Gebräuche zu nehmen!"
+ marshal_task.3003.desc:0 "Seid gegrüßt, mein[baron.Custom('DE_END_PRO_S_N')] [baron.Custom2('RelationToMe', ROOT.Char)],\nich muss mich über das Verhalten beschweren, dass Euer [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] zeigte!\n[councillor.Custom('DE_PRO_PER_S_3P_N')|U] tauchte hier auf und begann, die Dinge in [county.GetName] ganz nach Belieben zu ändern, ohne Rücksicht auf unsere Traditionen oder uralten Gebräuche zu nehmen!"
  marshal_task.3003.a:0 "Könntet Ihr nicht ein wenig mehr Bedacht walten lassen, [councillor.GetFirstNameNoTooltip]?"
  marshal_task.3003.notification:0 "Aufgebrachter Baron"
 
@@ -90,9 +92,11 @@
  marshal_task.3101.notification:0 "[councillor.GetCouncilTitle] verdient Respekt"
 
  marshal_task.3102.t:0 "Dankbarkeit"
- marshal_task.3102.desc:0 "Mein[baron.Custom('DE_END_PRO_S_N')] [baron.Custom2('RelationToMe', ROOT.Char)],\n[councillor.Custom('DE_PRO_POS_P_2P_N')|U] [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] hat ohne Unterlass daran gearbeitet, [county.GetName] neu aufzustellen, und wir kommen bereits in den Genuss der ersten Früchte [councillor.Custom('DE_PRO_POS_S_3P')]er Arbeit.\nIch möchte Euch persönlich dafür danken, dass Ihr uns [councillor.Custom('DE_ART_IND_A')] derart fähig[councillor.Custom('DE_END_ADJ_IND_S_A')] [councillor.GetWomanMan] an die Seite gestellt habt."
+ marshal_task.3102.desc:0 "Mein[baron.Custom('DE_END_PRO_S_N')] [baron.Custom2('RelationToMe', ROOT.Char)],\nEuer [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] hat ohne Unterlass daran gearbeitet, [county.GetName] neu aufzustellen, und wir kommen bereits in den Genuss der ersten Früchte [councillor.Custom('DE_PRO_POS_S_3P')]er Arbeit.\nIch möchte Euch persönlich dafür danken, dass Ihr uns [councillor.Custom('DE_ART_IND_A')] derart fähig[councillor.Custom('DE_END_ADJ_IND_S_A')] [councillor.GetWomanMan] an die Seite gestellt habt."
  marshal_task.3102.a:0 "Macht weiter so, [councillor.GetFirstNameNoTooltip]."
  marshal_task.3102.notification:0 "[councillor.GetCouncilTitle] beeindruckt Vasallen"
+
+ marshal_task.3103.notification:0 "[acclaimed_knight|U] unterdrückt die Bauern"
 
  marshal_task.4002.notification:0 "Unorganisierte Leibgarde"
  task_manage_guards_disorganized_modifier:0 "$marshal_task.4002.notification$"

@@ -29,7 +29,7 @@
  hold_court.3010.d:0 "既然[unconventional_preacher.GetSheHe]能教导农民，那[unconventional_preacher.GetSheHe]一定能成为优秀的$court_tutor_court_position$……"
 
  hold_court.3020.t:0 "冒犯的纪念碑"
- hold_court.3020.desc:0 "一个农民手拿请愿书走上前来。“大人，我作为[village.GetName]的[village.GetCountyData.GetCulture.GetCollectiveNounNoTooltip]代表前来。”这个农民短暂停顿回忆了下[different_culture_peasant.GetHerHis]那背下来的讲话。\n\n“我们想要重建自己文化的一座重要纪念碑的诉求被[holder_of_area.GetTitleTierName]忽视了。[holder_of_area.GetSheHe|U]在想尽办法阻挠我们的重建！”\n\n“[ROOT.Char.Custom2('RelationToMeAddress', holder_of_area)|U]，请允许我解释！”[holder_of_area.GetFirstNameNoTooltip]赶忙插话。“这座纪念碑嘲弄了我们的文化！它把[holder_of_area.GetCulture.GetCollectiveNounNoTooltip]人描绘成怪物！想必您可以看出我为什么要反对修复这座可恨的纪念碑了！”"
+ hold_court.3020.desc:0 "一个农民手拿请愿书走上前来。“大人，我作为[village.GetName]的[village.GetCountyData.GetCulture.GetCollectiveNounNoTooltip]人代表前来。”这个农民短暂停顿回忆了下[different_culture_peasant.GetHerHis]那背下来的讲话。\n\n“我们想要重建自己文化的一座重要纪念碑的诉求被[holder_of_area.GetTitleTierName]忽视了。[holder_of_area.GetSheHe|U]在想尽办法阻挠我们的重建！”\n\n“[ROOT.Char.Custom2('RelationToMeAddress', holder_of_area)|U]，请允许我解释！”[holder_of_area.GetFirstNameNoTooltip]赶忙插话。“这座纪念碑嘲弄了我们的文化！它把[holder_of_area.GetCulture.GetCollectiveNounNoTooltip]人描绘成怪物！想必您可以看出我为什么要反对修复这座可恨的纪念碑了！”"
  hold_court.3020.a:0 "“你敢嘲笑我的人民？！你会后悔的！”"
  hold_court.3020.b:0 "正式批准重建。"
  hold_court.3020.c:0 "建一座不同的纪念碑替代——一座象征怜悯的。"
@@ -37,7 +37,7 @@
  custom.every_county_of_culture:0 "所有[village.GetCountyData.GetCulture.GetName]文化[county|E]"
 
  hold_court.3030.t:0 "重建纪念碑"
- hold_court.3030.desc:0 "一个[different_culture_peasant.GetWomanMan]农民站在我的面前，在朝会上阐述[different_culture_peasant.GetHerHis]的请求。\n\n“最近的战争给农村造成了很大损失，我们不知道是哪个罪人掠夺了我们[different_culture_peasant.GetCulture.GetCollectiveNounNoTooltip]人在[province.GetName]的一座重要文化遗址。我们恳求您拿出一部分财力支援我们重建它！”\n\n农民以一个笨拙的鞠躬结束了[different_culture_peasant.GetHerHis]的请求——这清晰表明了其卑微的出身。"
+ hold_court.3030.desc:0 "一个农民[different_culture_peasant.GetWomanMan]站在我的面前，在朝会上阐述[different_culture_peasant.GetHerHis]的请求。\n\n“最近的战争给农村造成了很大损失，我们不知道是哪个罪人掠夺了我们[different_culture_peasant.GetCulture.GetCollectiveNounNoTooltip]人在[province.GetName]的一座重要文化遗址。我们恳求您拿出一部分财力支援我们重建它！”\n\n农民以一个笨拙的鞠躬结束了[different_culture_peasant.GetHerHis]的请求——这清晰表明了其卑微的出身。"
  hold_court.3030.a:0 "“你会得到重建必需的资金。”"
  hold_court.3030.b:0 "用剩下的材料建造其他建筑。"
  hold_court.3030.c:0 "“我们不能把钱花在这种事情上。”"
@@ -88,7 +88,7 @@
  hold_court.3080.b:0 "有些人见了才信，包括那些不幸的人。"
  hold_court.3080.c:0 "不值得冒这个险。"
 
- hold_court.3090.t:0 "庆贺另一种文化"
+ hold_court.3090.t:0 "颂扬另一种文化"
  hold_court.3090.desc:0 "我的[ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('different_culture_vassal'))][different_culture_vassal.GetTitledFirstName]走近我，[ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('different_culture_vassal'))]，像[different_culture_vassal.GetSheHe]往常一样。\n\n“我的[ROOT.Char.GetLadyLord]，我有了一个绝妙的主意！我们可以举办一个展会，甚至是一个节庆，让普通人接触到我们美丽的[ROOT.Char.Custom('RealmType')]里的一种不同的文化。”[different_culture_vassal.GetFirstNameNoTooltip]进一步解释[different_culture_vassal.GetHerHis]的想法，直到[different_culture_vassal.GetSheHe]意识到[different_culture_vassal.GetSheHe]已经有了过度解释的危险。\n\n“这需要钱，但我相信这有利于促进我国人民之间的正面关系！”"
  hold_court.3090.a:0 "我们将举办一场节庆，颂扬我们的两种文化！"
  hold_court.3090.b:0 "我们可以在[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]举办一场小型[different_culture_vassal.GetCulture.GetNameNoTooltip]文化展。"

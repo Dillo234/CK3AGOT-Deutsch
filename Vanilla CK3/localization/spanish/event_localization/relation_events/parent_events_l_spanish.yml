@@ -27,7 +27,7 @@
  parent.1006.a:0 "Buen trabajo, [parent.Custom('MotherFather')]."
  
  parent.1007.t:0 "[parent.Custom('MotherFather')|U] mediador[parent.Custom('ES_XA')]"
- parent.1007.desc_opening:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('courtier'))], [courtier.GetTitledFirstName], ha dejado claro su desprecio hacia mí.\n\n"
+ parent.1007.desc_opening:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('courtier'))], [courtier.GetTitledFirstName|l], ha dejado claro su desprecio hacia mí.\n\n"
  parent.1007.courtier_1:0 "[courtier.Custom('ES_LoLa')|U] pillé contando una historia sobre un error garrafal que #EMP se supone#! que cometí en un banquete. ¡Uno al que ni siquiera acudí!"
  parent.1007.courtier_2:0 "Me encontré con [courtier.Custom('ES_ElElla')] y otro cortesano andando por los pasillos. En cuanto me vio, dejó de cuchichear hasta que hube pasado. ¡No es la primera vez que ocurre tal insulto!"
  parent.1007.desc_end:0 "\n\nMi [parent.Custom('MotherFather')], siempre dispuest[parent.Custom('ES_OA')] a mediar, se ha ofrecido a aclarar las cosas entre nosotros."
@@ -35,7 +35,7 @@
  parent.1007.b:0 "¡Ya me encargaré yo de mantener a raya esta gente!"
 
  parent.1009.t:0 "Una nueva relación"
- parent.1009.desc:0 "Una antigua amistad de mi [parent.Custom('MotherFather')], [new_courtier.GetTitledFirstName], ha llegado a mi corte por invitación suya.\n\nMi [parent.Custom('MotherFather')] no deja de insinuar la buena influencia que podría ejercer en el señorío si se le ofreciera un puesto en la corte."
+ parent.1009.desc:0 "Una antigua amistad de mi [parent.Custom('MotherFather')], [new_courtier.GetTitledFirstName|l], ha llegado a mi corte por invitación suya.\n\nMi [parent.Custom('MotherFather')] no deja de insinuar la buena influencia que podría ejercer en el señorío si se le ofreciera un puesto en la corte."
  parent.1009.a:0 "Seguro que podemos encontrarle algo que hacer."
  parent.1009.b:0 "No, [new_courtier.GetSheHe] no se asentará aquí."
 
@@ -45,12 +45,12 @@
  parent.1010.b:0 "¡No es momento de relajarse!"
 
  parent.2002.t:0 "Una educación sensata"
- parent.2002.desc:0 "Tras no ver a [child.GetTitledFirstName] en días, pronto descubrí que mi excesiv[ROOT.Char.Custom('ES_OA')] [parent.Custom('MotherFather')] sabía perfectamente dónde estaba:\n«Tan solo [child.Custom('ES_LoLa')] envié fuera. ¡Estoy preocupad[ROOT.Char.Custom('ES_OA')] por su educación! Las cosas le irán mucho mejor bajo la tutela de [new_guardian.GetTitledFirstName]»."
+ parent.2002.desc:0 "Tras no ver a [child.GetTitledFirstName|l] en días, pronto descubrí que mi excesiv[ROOT.Char.Custom('ES_OA')] [parent.Custom('MotherFather')] sabía perfectamente dónde estaba:\n«Tan solo [child.Custom('ES_LoLa')] envié fuera. ¡Estoy preocupad[ROOT.Char.Custom('ES_OA')] por su educación! Las cosas le irán mucho mejor bajo la tutela de [new_guardian.GetTitledFirstName|l]»."
  parent.2002.a:0 "¿#EMP Dónde#! has mandado a mi [child.Custom('DaughterSon')]?"
- child_sent_away_tt:0 "[child.GetTitledFirstNameNoTooltip] será educad[child.Custom('ES_OA')] por [new_guardian.GetTitledFirstNameNoTooltip]"
+ child_sent_away_tt:0 "[child.GetTitledFirstNameNoTooltip|l] será educad[child.Custom('ES_OA')] por [new_guardian.GetTitledFirstNameNoTooltip|l]"
 
  parent.2003.t:0 "La mezquindad de mi [parent.Custom('MotherFather')]"
- parent.2003.desc:0 "Creí que la enemistad entre mi [parent.Custom('MotherFather')] y mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hated_courtier'))], [hated_courtier.GetTitledFirstName], no acabaría nunca.\n\nPero resulta sí, ¡mi [parent.Custom('MotherFather')] ha desterrado a [hated_courtier.GetFirstNameNoTooltip] de mi señorío!"
+ parent.2003.desc:0 "Creí que la enemistad entre mi [parent.Custom('MotherFather')] y mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hated_courtier'))], [hated_courtier.GetTitledFirstName|l], no acabaría nunca.\n\nPero resulta sí, ¡mi [parent.Custom('MotherFather')] ha desterrado a [hated_courtier.GetFirstNameNoTooltip] de mi señorío!"
  parent.2003.a:0 "¡Como se atreve! ¡El señorío es #EMP mío!#!"
  parent.2003.b:0 "Buen viaje."
  
@@ -71,7 +71,7 @@
  parent.2004.b.message:0 "Me parece bien cómo están las cosas"
 
  parent.3001.t:0 "Bajo mi tutela"
- parent.3001.desc:0 "Últimamente he notado que mi querid[child.Custom('ES_OA')] [child.Custom('GetDaughterSon')], [child.GetTitledFirstName], pasa mucho tiempo con mi [parent.Custom('MotherFather')].\n\nAl parecer, [parent.GetTitledFirstNameNoTooltip] tiene un interés personal en su vida y quiere ser parte activa de la misma."
+ parent.3001.desc:0 "Últimamente he notado que mi querid[child.Custom('ES_OA')] [child.Custom('GetDaughterSon')], [child.GetTitledFirstName|l], pasa mucho tiempo con mi [parent.Custom('MotherFather')].\n\nAl parecer, [parent.GetTitledFirstNameNoTooltip|l] tiene un interés personal en su vida y quiere ser parte activa de la misma."
  parent.3001.a:0 "¡Mi [parent.Custom('MotherFather')] se preocupa de verdad por mi [child.Custom('GetDaughterSon')]!"
  parent.3001.b:0 "Es preocupante su repentino interés por mi [child.Custom('GetDaughterSon')]…"
  parent.3001.c:0 "¡Mi astut[parent.Custom('ES_OA')] [parent.Custom('MotherFather')] no se saldrá con la suya!"

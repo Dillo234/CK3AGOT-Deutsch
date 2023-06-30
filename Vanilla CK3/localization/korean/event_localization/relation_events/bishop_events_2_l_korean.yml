@@ -16,7 +16,7 @@
  bishop.2001.failure.c.desc.tt:0 "[scoped_prisoner.GetFirstName](이)가 암살자를 따돌림"
  bishop.2001.d:0 "내가 잡아들인 죄수잖소! 지하 감옥에서 벗어나는 일은 없을 거요!"
  
- bishop.2002.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 집안"
+ bishop.2002.t:1 "나의 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 가족"
  bishop.2002.desc.b:0 "손을 치켜들어 회당 맞은편에 있던 [scoped_relative.GetFirstName](을)를 불렀다. 그걸 본 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_relative'))](은)는 당황한 눈빛을 보이더니, 황급히 자리를 떠났다."
  bishop.2002.desc.c:0 "어떻게든 대화를 해보려고 저녁 식사 자리를 살폈는데, 다들 당황한 눈빛으로 고개를 돌리기만 했다."
  bishop.2002.desc.a:0 "\n\n[scoped_bishop.GetCouncilTitle] [scoped_bishop.GetFirstName], 그 [scoped_bishop.Custom('InsultAdjective')] [scoped_bishop.Custom('InsultNoun')] 때문에 가족과 서로 등지는 사이가 되고 말았다. [scoped_bishop.GetSheHe|U]가 영혼을 인도해주십사 찾아갔던 친지들의 귓가에 거짓말을 속삭여댄 게 분명했다. 나라는 사악한 [ROOT.Char.GetTitleTierName](이)가 있어서 우리 집안에 [ROOT.GetCharacter.GetFaith.HighGodName]의 저주가 내린 거라 했겠지."
@@ -39,3 +39,9 @@
  bishop.2002.everypiousrelative.custom:0 "독실한 [scoped_bishop.GetFaith.GetAdjective] [family_member|E] 전원"
  bishop.2003.countyunrest.custom:0 "[domain|E] 내의 모든 [scoped_bishop.GetFaith.GetAdjective] [Concept( 'county', '영지' )|E]"
  bishop.2003.everytheocrat.custom:0 "모든 [scoped_bishop.GetFaith.GetAdjective] [theocratic|E] 봉신"
+ 
+ bishop.2004.t:0 "광신자의 시선"
+ bishop.2004.desc:0 "최근 들어 [scoped_bishop.GetCouncilTitle] [scoped_bishop.GetFirstName](이)가 설교할 때마다 내 '신앙심이 부족'해 보인다고 불평을 늘어놓고 있다.\n\n오죽하면 나를 '불경한 [root_scope.Custom('InsultNoun')]'(이)란 명칭으로 지칭하기까지 했단다. 열성적인 봉신들은 [scoped_bishop.GetHerHim]의 말에 귀를 기울이기 시작했고..."
+ bishop.2004.theologian:0 "후안무치한 거짓말에 중상모략이다!"
+ bishop.2004.a:0 "'신실한 마음으로 기부'하면 도움이 되겠지..."
+ bishop.2004.b:0 "쯧! 좋을 대로 생각하라지."

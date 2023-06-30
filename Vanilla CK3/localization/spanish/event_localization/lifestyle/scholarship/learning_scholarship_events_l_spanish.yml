@@ -14,12 +14,12 @@
 
 # Automaton, by Linnéa Thimrén & Mathilda Bjarnehed
  learning_scholarship.1201.t:0 "Pájaro cantor"
- learning_scholarship.1201.desc:0 "Plumas de metal brillante, ojos de piedras preciosas, una voz que canta con el repique de campanas… ¡El pájaro mecánico que me ha regalado [bird_sender.Custom2('MyCharacterIntroduction', ROOT.Char)] es una auténtica obra maestra!\n\n«Esta ave fue creada por los mejores artesanos de todo [bird_sender.GetPrimaryTitle.GetNameNoTierNoTooltip]», dice la carta [bird_sender.Custom('ES_DelDela')] [bird_sender.GetTitledFirstNameNoTooltip]. «Creo que la encontraréis bastante intrigante»."
+ learning_scholarship.1201.desc:0 "Plumas de metal brillante, ojos de piedras preciosas, una voz que canta con el repique de campanas… ¡El pájaro mecánico que me ha regalado [bird_sender.Custom2('MyCharacterIntroduction', ROOT.Char)] es una auténtica obra maestra!\n\n«Esta ave fue creada por los mejores artesanos de todo [bird_sender.GetPrimaryTitle.GetNameNoTierNoTooltip]», dice la carta [bird_sender.Custom('ES_DelDela')] [bird_sender.GetTitledFirstNameNoTooltip|l]. «Creo que la encontraréis bastante intrigante»."
  learning_scholarship.1201.a:0 "Venderlo."
  learning_scholarship.1201.b:0 "Exhibirlo."
  learning_scholarship.1201.c:0 "Desmontarlo y estudiar sus mecanismos."
- learning_scholarship.1201.c.success:0 "[bird_sender.GetTitledFirstNameNoTooltip] es un[bird_sender.Custom('ES_XA')] [bird_sender.GetWomanMan] instruid[bird_sender.Custom('ES_OA')]"
- learning_scholarship.1201.c.failure:0 "[bird_sender.GetTitledFirstNameNoTooltip] se siente insultad[bird_sender.Custom('ES_OA')]"
+ learning_scholarship.1201.c.success:0 "[bird_sender.Custom('ES_ElLa')|U] [bird_sender.GetTitledFirstNameNoTooltip|l] es un[bird_sender.Custom('ES_XA')] [bird_sender.GetWomanMan] instruid[bird_sender.Custom('ES_OA')]"
+ learning_scholarship.1201.c.failure:0 "[bird_sender.Custom('ES_ElLa')|U] [bird_sender.GetTitledFirstNameNoTooltip|l] se siente insultad[bird_sender.Custom('ES_OA')]"
 
 # Acquire a reading stone, by Linnéa Thimrén
  learning_scholarship.1401.t:0 "Piedra de cristal"
@@ -30,7 +30,7 @@
  
  # Scientific Experiments, by Petter Vilberg
  learning_scholarship.3001.t:0 "Visiones de lo divino"
- learning_scholarship.3001.desc:0 "Hago señas a mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('chaplain'))], [chaplain.GetTitledFirstName], para que se una a mí en el círculo de orbes de bronce y velas organizadas en travesaños por toda la sala oscura. El incienso que satura el aire para protegerse de los malos vapores hace que nuestros ojos se llenen de lágrimas en poco tiempo. «Así es como, por el rabillo de nuestros ojos, veremos la inescrutable forma de los ángeles».\n\nSin embargo, [chaplain.GetFirstNameNoTooltip] se detiene enseguida. «Esto no me parece bien. Son seres divinos. No están hechos para ser vistos por ojos mortales»."
+ learning_scholarship.3001.desc:0 "Hago señas a mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('chaplain'))], [chaplain.GetTitledFirstName|l], para que se una a mí en el círculo de orbes de bronce y velas organizadas en travesaños por toda la sala oscura. El incienso que satura el aire para protegerse de los malos vapores hace que nuestros ojos se llenen de lágrimas en poco tiempo. «Así es como, por el rabillo de nuestros ojos, veremos la inescrutable forma de los ángeles».\n\nSin embargo, [chaplain.GetFirstNameNoTooltip] se detiene enseguida. «Esto no me parece bien. Son seres divinos. No están hechos para ser vistos por ojos mortales»."
  learning_scholarship.3001.a:0 "Podéis iros, pero lo sabré, de un modo u otro."
  learning_scholarship.3001.b:0 "Sí, esto es una tontería, si no un pecado en sí."
  learning_scholarship.3001.c:0 "¡Mis intenciones son puras, os lo aseguro!"
@@ -223,7 +223,7 @@
  learning_scholarship.5002.b.failure:0 "El pasaje se me sigue escapando"
  learning_scholarship.5002.c:0 "¡Qué soberana tontería!"
  learning_scholarship.5002.c.tt:0 "Haces caso omiso del pasaje."
- learning_scholarship.5002.d:0 "Mi $antiquarian_court_position$, [antiquarian.GetTitledFirstNameNoTooltip], debería echarle un vistazo a esto."
+ learning_scholarship.5002.d:0 "Mi $antiquarian_court_position$, [antiquarian.GetTitledFirstNameNoTooltip|l], debería echarle un vistazo a esto."
 
  learning_scholarship.5003.t:0 "$bibliomancy_chain_header$ Bibliomancia"
  learning_scholarship.5003.desc:0 "Mi vasall[bibliomancy_antagonist.Custom('ES_OA')], [bibliomancy_antagonist.GetName], ha estado silenciosamente escéptic[bibliomancy_antagonist.Custom('ES_OA')] de mi capacidad durante años. Sin embargo, mi administrador me informa que desde hace poco ha comenzado a criticar más abiertamente mi derecho a gobernar. Sé que tiene influencia entre los otros vasallos y podría dificultarme la vida con facilidad.\n\n¿Podría haber predicho esto el pasaje de [sacred_text.GetName]? El miedo mata la mente…"
@@ -241,8 +241,8 @@
 
  learning_scholarship.5004.t:0 "$bibliomancy_chain_header$ Un pasaje preocupante"
  learning_scholarship.5004.desc:0 "¡No hay manera de entender este pasaje de [sacred_text.GetName] por mucho que lo intente y me está consumiendo!\n\nEl miedo mata la mente… ¿qué puede significar? ¿Qué debo temer? ¿#EMP Qué me estoy dejando#!?\n\nTal vez otra persona sea capaz de arrojar algo de luz sobre esto."
- learning_scholarship.5004.a:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstName] sabrá la respuesta."
- learning_scholarship.5004.b:0 "Mi cortesan[target_courtier.Custom('ES_OA')] [target_courtier.GetTitledFirstNameNoTooltip] me ayudará."
+ learning_scholarship.5004.a:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstName|l] sabrá la respuesta."
+ learning_scholarship.5004.b:0 "Mi cortesan[target_courtier.Custom('ES_OA')] [target_courtier.GetTitledFirstNameNoTooltip|l] me ayudará."
  learning_scholarship.5004.c:0 "Me rindo"
  learning_scholarship.5004.a.success:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] aclara el pasaje"
  learning_scholarship.5004.a.failure:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] no logra entender el pasaje"
@@ -286,7 +286,7 @@
 
  learning_scholarship.6000.h:0 "¿Blasfemia? Contadme un poco más…"
  learning_scholarship.6000.h.tt:0 "Puedes hacer que las palabras [illiterate.Custom('ES_DelDela')] [illiterate.GetTitleAsNameNoTooltip|l] suenen #EMP muy#! impías"
- learning_scholarship.6000.non_believer:0 "Consigues pruebas de que [illiterate.GetTitledFirstName] no es creyente"
+ learning_scholarship.6000.non_believer:0 "Consigues pruebas de que [illiterate.GetTitledFirstName|l] no es creyente"
 
  learning_scholarship.6000.i:0 "Honraré la poesía [illiterate.GetCulture.GetNameNoTooltip] para inspirar[illiterate.GetHerHim]."
  learning_scholarship.6000.i.tt:0 "En tu corte se recitará a menudo poesía [illiterate.GetCulture.GetNameNoTooltip]"
@@ -297,6 +297,3 @@
  learning_scholarship.6000.k:0 "¡Las letras están fuera del alcance de semejante zoquete!"
  learning_scholarship.6000.k.tt:0 "¡Sería como enseñar astronomía a una cabra!"
  high_learning_custom:1 "Todo vasallo no [GetTrait('compassionate').GetName( GetNullCharacter )|l] con un [learning|lE] elevado"
-
-# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- learning_scholarship.6000.insult:0 "[vassals|E] con un [learning|lE] alto ganan 10 de [opinion|lE] sobre ti"

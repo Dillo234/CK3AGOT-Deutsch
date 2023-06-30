@@ -28,7 +28,7 @@
  
  tenet_pacifism_name:0 "평화주의"
  tenet_pacifism_desc:0 "폭력은 고통과 괴로움, 후회만 자아내는 혐오스러운 행위입니다. 최대한 폭력을 삼간다면 우리는 독실한 신자들을 위해 더 강하고 안전한 사회를 건설할 수 있을 겁니다."
- doctrine_parameter_holy_wars_forbidden:0 "[holy_wars|E]을 선포하거나 [raid|E]을 할 수 없음"
+ doctrine_parameter_holy_wars_forbidden:0 "[holy_wars|E] 또는 [raid|E] 선포 불가"
  doctrine_parameter_pacifist_opinion_active:0 ""
  pacifist_opinion_active_opinion_name:0 "평화주의자 동료"
  pacifist_opinion_active_county_opinion_name:0 "평화주의자 동료 영지"
@@ -42,7 +42,7 @@
 
  tenet_human_sacrifice_name:0 "인신 공양"
  tenet_human_sacrifice_desc:0 "우리의 헌신을 증명하는 가장 좋은 방법은 바로 공양 의식입니다. 우리가 바칠 수 있는 중 가장 가치 있는 제물은 바로 인간의 목숨이라 할 수 있겠습니다."
- doctrine_parameter_human_sacrifice_active:0 "[executions|E]이 [piety|E]를 소비하는 대신 제공함"
+ doctrine_parameter_human_sacrifice_active:1 "[executions|E]이 [piety|E]를 소비하는 대신 제공함\n$EFFECT_LIST_BULLET$[sharing_power|E] 시 [executions|E]이 [prestige|E]을 소비하지 않음"
  doctrine_parameter_flower_war_cb_active:0 "인접한 봉역에 대한 [flowery_war|E] [casus_belli|E] 부여"
 
  tenet_gruesome_festivals_blot_name:0 "블로트 희생제"
@@ -87,13 +87,17 @@
 
  tenet_aniconism_name:0 "우상 파괴 운동"
  tenet_aniconism_desc:0 "조각된 형상 숭배가 너무 많은 신자의 눈을 멀게 하여 신의 진리를 알아채지 못하게 하고 있습니다. 우리는 성지에서 모든 우상을 걷어내 신자들이 함정에 빠지지 않게 할 겁니다."
+ doctrine_parameter_reforging_artifacts_costs_piety:0 "해당 [faith|E]에 속한 [rulers|E]는 [artifacts|E] [reforge|E] 또는 [repair|E] 시 [piety|E]를 소모함"
+ doctrine_parameter_destroying_artifacts_is_pious:0 "해당 [faith|E]에 속한 [rulers|E]는 [artifacts|E]을 파괴하고 [piety|E]를 얻을 수 있음"
+ destroying_artifacts_is_not_pious_tt:0 "당신의 [faith|E]에 따라 [artifacts|E]을 파괴하여 [piety|E]를 얻을 수 없음"
+ artifact_is_rarer_than_masterwork_tt:0 "해당 유물의 [rarity|E]가 걸작보다 높음"
 
  tenet_alexandrian_catechism_name:0 "알렉산드리아의 교리문답"
  tenet_alexandrian_catechism_desc:0 "알렉산드리아의 교리문답 학파는 신학자들이 현상에 의문을 품고 비판적 생각을 하도록 격려하는 오랜 전통을 갖고 있습니다.\n\n비록 학파는 물리적으로 사라지고 말았지만, 그 전통만큼은 우리가 이어갈 것입니다."
 
  tenet_hedonistic_name:0 "쾌락주의"
  tenet_hedonistic_desc:0 "신께서는 우리가 빠져들어 즐길 수 있도록 기쁨의 포상으로 세상을 가득 채우셨습니다. 이에 부응하지 않는 건 창조 그 자체를 부정하는 거나 매한가지입니다."
- doctrine_parameter_piety_from_feasts_active:1 "[feast|E]를 주최하면 [piety|E] 획득"
+ doctrine_parameter_piety_from_feasts_active:1 "[GetActivityType('activity_feast').GetName] 주최 시 [piety|E] 획득"
 
  tenet_carnal_exaltation_name:0 "육욕의 쾌락"
  tenet_carnal_exaltation_desc:0 "육욕의 쾌락은 다른 체험을 뛰어넘는 숭고한 행위인지라 신께 더 가까이 다가갈 수 있는 매개이기도 합니다. 우리는 우리의 성욕을 찬양하고 충족시킬 수 있는 방법을 찾아야 합니다."
@@ -129,6 +133,7 @@
 
  tenet_false_conversion_sanction_name:0 "거짓 개종 허가"
  tenet_temporal_condemnation_taqiya:0 "타키야"
+ tenet_anusim:0 "아누심"
  tenet_false_conversion_sanction_desc:0 "목숨을 위협받는다면, 가슴 속에 참된 믿음을 품고 있는 한 거짓된 신앙을 믿는다고 해도 용인됩니다."
  doctrine_parameter_sanctioned_false_conversion:0 "개종 저항: #P +30%#!\n$EFFECT_LIST_BULLET$사도에 빠진 [characters|E]과 [Concept( 'counties', '영지' )|E]가 일정 확률에 따라 이 [faith|E]으로 재개종할 수 있음"
 
@@ -155,8 +160,11 @@
  doctrine_parameter_reincarnation_events_active:1 "자녀가 일정 확률에 따라 조상의 화신으로 간주될 수 있으며, [piety|E]과 [opinion|E] 보너스를 받음"
 
  tenet_esotericism_name:0 "비전주의"
+ tenet_esotericism_kabbalah:0 "카발라"
  tenet_esotericism_desc:0 "신의 위대한 신비로움이 필멸자의 이해력을 뛰어넘는 것일지라도 무지의 구실이 될 순 없습니다. 그 자체가 우리로 하여금 세계에 대한 이해와 지식을 추구하도록 하기 때문입니다."
- doctrine_parameter_tenet_esotericism_mystic_education:1 "[learning|E] [education_focus|E]을 지정 중인 아이가 학문을 잘 수양하다 보면 [GetTrait('mystic_1').GetName( GetNullCharacter )] 특성을 획득할 수도 있음"
+ doctrine_parameter_tenet_esotericism_mystic_education:2 "[learning|E] [education_focus|E]을 지정 중인 아이가 학문을 잘 수양하다 보면 [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] 특성을 획득할 수도 있음"
+ tenet_esotericism_kabbalah_desc:0 "카발라의 가르침은 필멸자의 관점에서 영원한 하느님과 아인 소프라고 불리는 무한의 본질, 신의 피조물 간의 관계를 이해하는 데 주안점을 두고 있습니다. 카발라는 모든 유대교 신비주의의 근간을 이룹니다. 카발라 수행자는 흔히 다른 유대교 종파와 교류하곤 합니다."
+ tenet_religious_kabbalah_cost_tooltip:0 "카발라: #P -10%#!"
 
  #Eastern Tenets
  tenet_adaptive_name:0 "적응"
@@ -223,7 +231,7 @@
  tenet_mystical_birthright_name:0 "상서로운 생득권"
  tenet_mystical_birthright_alternate:0 "탈토스 쉴에테스"
  tenet_mystical_birthright_desc:0 "우린 모두 태어나면서 운명을 갖고 태어나는데 개중에서도 가장 중요한 운명은 탈토스가 될 운명이라 할 수 있습니다. 탈토스는 태어나면서부터 마력을 휘두르고 위대한 영적 지도자가 되기로 선택된 자입니다."
- doctrine_parameter_mystic_birthright_active:0 "자녀가 매우 낮은 확률로 [GetTrait('mystic_3').GetName( GetNullCharacter )] 특성을 갖고 태어남"
+ doctrine_parameter_mystic_birthright_active:1 "자녀가 매우 낮은 확률로 [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] 특성을 갖고 태어남"
 
  tenet_astrology_name:0 "점성술"
  tenet_astrology_desc:0 "밤하늘은 신의 영토로 열린 창문입니다. 세계의 대단한 비밀과 불가사의가 밤하늘에 쓰여있으며 어디를 봐야 하는지만 알면 모두가 배울 수 있습니다."

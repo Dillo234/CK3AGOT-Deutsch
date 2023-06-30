@@ -1,0 +1,27 @@
+﻿l_russian:
+ 
+ ## PLAYDATE GUEST INVITE RULES
+ activity_invite_rule_siblings:0 "Сиблинги"
+ activity_invite_rule_crushes:0 "Увлечения"
+ activity_invite_rule_personal_scheme_targets:0 "Жертвы происков"
+ activity_invite_rule_powerful_vassals_children:0 "Дети могущественных вассалов"
+ activity_invite_rule_vassals_children:0 "Дети вассала"
+ activity_invite_rule_fellow_vassals_children:0 "Дети собрата-вассала"
+ playdate_conc_reward_title:0 "Встреча ровесников завершается"
+ playdate_conc_reward:0 "[ROOT.Char.GetShortUINameNoTooltip] успешно [Select_CString(ROOT.Char.IsFemale, 'организовала', 'организовал' )] встречу ровесников"
+
+
+ #Play date
+ activity_playdate:0 "Встреча с ровесниками"
+ activity_playdate_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U][Select_CString(ACTIVITY.GetOwner.IsPlayer, 'а встреча с ровесниками', ' встречается с ровесниками')]"
+ activity_playdate_selection_tooltip:1 "Дети из знатных семей со всей державы были приглашены хорошо провести время в компании сверстников!\n\nОжидаемые награды:\n$BULLET_WITH_TAB$[opinion_i] [Concept( 'opinion', 'Мнение' )|E]"
+ activity_playdate_desc:1 "Пригласите всех маленьких лордов и леди державы провести время с другими детьми, чтобы они расслабились и развлеклись!"
+ activity_playdate_host_desc:0 "[Concept( 'opinion', 'Мнение' )|E] вассалов и придворных о вас может повыситься"
+ activity_playdate_owner:0 "Устроитель"
+
+ playdate_phase_desc:0 "Пообщайтесь с ровесниками."
+ activity_playdate_conclusion_desc:1 "Множество детей со всей державы прибыли ко мне, чтобы пообщаться и повеселиться!"
+ activity_playdate_guest_desc:0 "[Concept( 'opinion', 'Мнение' )|E] сюзерена о вас может повыситься"
+ activity_playdate_guest_help_text:0 "$activity_playdate_desc$"
+ activity_playdate_province_desc:0 "Это ваша [Concept( 'capital', 'столица' )|E]"
+ activity_playdate_destination_selection:0 "Встречу ровесников можно устроить только в [Concept( 'capital', 'столице' )|E]."

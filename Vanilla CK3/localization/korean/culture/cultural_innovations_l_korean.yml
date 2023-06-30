@@ -1,13 +1,13 @@
 ﻿l_korean:
- cb_discount_prestige_10:0 "[casus_belli|E] [prestige|E] 비용: #P -10%#!"
- cb_discount_piety_10:0 "[casus_belli|E] [piety|E] 비용: #P -10%#!"
+ cb_discount_prestige_10:1 "[casus_belli|E] [prestige|E] 비용: [prestige_i]#P -10%#!"
+ cb_discount_piety_10:1 "[casus_belli|E] [piety|E] 비용: [piety_i]#P -10%#!"
  individual_county_de_jure_cb:0 "각각의 [de_jure|E] [county|E]"
  individual_duchy_de_jure_cb:0 "각각의 [de_jure|E] [duchy|E]"
  multiple_claim_wars:1 "한 전쟁에서 자신의 여러 [claims|E]으로 압박 가능"
  multiple_claim_wars_others:0 "한 전쟁에서 타인의 여러 [claims|E]으로 압박 가능"
- fabricate_claim_speed:0 ""영지 명분 위조" [councillor_task|E] 속도: #P +50%#!"
- promote_culture_speed:0 ""문화 촉진" [councillor_task|E] 속도: #P +15%#!"
- same_culture_group_reduced_factionalism:1 "당신의 [culture_group|E]에 속한 [vassals|E]이 [independence_factions|E]에 가담할 확률이 줄어듦"
+ fabricate_claim_speed:1 "#V $task_fabricate_claim$#! [councillor_task|E] 속도: #P +50%#!"
+ promote_culture_speed:1 "#V $task_promote_culture$#! [councillor_task|E] 속도: #P +15%#!"
+ same_culture_group_reduced_factionalism:1 "당신과 [heritage|E]을 공유하는 [culture|E]에 속한 [vassals|E]은 [independence_factions|E]에 가담할 확률이 줄어듦"
  reduce_develop_county_penalty_01:0 "이제 영지의 [development|E] 점수가 20일 때 [existing_development|E] 최대 불이익 상태가 됩니다."
  reduce_develop_county_penalty_02:0 "이제 영지의 [development|E] 점수가 35일 때 [existing_development|E] 최대 불이익 상태가 됩니다."
  reduce_develop_county_penalty_03:0 "이제 영지의 [development|E] 점수가 55일 때 [existing_development|E] 최대 불이익 상태가 됩니다."
@@ -45,7 +45,7 @@
  innovation_motte:0 "언덕 성채"
  innovation_motte_desc:0 "솟아오른 언덕 위에 성채를 짓는 것은 간단하지만 효과적인 방식으로 고지대에서 적을 내려다볼 수 있는 최고의 계책입니다."
 
- innovation_catapult:0 "투석기"
+ innovation_catapult:0 "오나거"
  innovation_catapult_desc:0 "장전과 발사가 느리긴 하지만, 죄임 동력으로 움직이는 투석기는 적 궁수의 사거리가 닿지 않는 곳에서 요새를 공격할 수 있게 해줍니다."
 
  innovation_barracks:0 "병영"
@@ -56,6 +56,8 @@
 
  innovation_bannus:0 "금령"
  innovation_bannus_desc:0 "전투 지휘자의 권위에 근거하는 금령은 영주가 자유민으로 하여금 전장에 나서게 하는 권한을 부여하며 대군을 소집하는 법적 근거를 형성합니다."
+ eligible_accolade_vanguard_attribute_ACCOLADES_DLC:0 "해당 [culture|E]에 속한 [knights|E]가 [GetAccoladeType('vanguard_attribute').GetName] [accolades|E]을 받을 자격을 갖춤"
+ eligible_accolade_vanguard_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_vanguard_attribute_ACCOLADES_DLC')]"
 
  innovation_quilted_armor:0 "누비 갑옷"
  innovation_quilted_armor_desc:0 "십여 겹의 아마포를 누벼 만든 이 갑옷은 무거운 화살도 막아주며 전 장병을 무장시킬 수 있는 저렴한 장비입니다."
@@ -94,9 +96,13 @@
 
  innovation_war_camels:0 "전쟁 낙타"
  innovation_war_camels_desc:0 "낙타는 엄밀히 말해 사막 기후에 적응한 동물이지 전투에 적합하진 않습니다. 하지만 사육사와 조련사로 하여금 이 문제를 해결하면 사막을 주름잡을 전천후 기병대를 양성할 수 있을 것입니다"
+ eligible_accolade_camelry_attribute_ACCOLADES_DLC:0 "해당 [culture|E]에 속한 [knights|E]가 [GetAccoladeType('camelry_attribute').GetName] [accolades|E]을 받을 자격을 갖춤"
+ eligible_accolade_camelry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_camelry_attribute_ACCOLADES_DLC')]"
 
  innovation_elephantry:0 "코끼리 조련술"
  innovation_elephantry_desc:0 "코끼리는 가둬 키우기 어렵기 때문에 코끼리 조련사, 즉 마후트들은 야생 코끼리를 잡아 훈련해야 했습니다. 다시 말해 이 거대한 생물을 전장에서 활용한다는 건 꽤 섬세한 일이라는 얘기지만, 우리가 전념하여 숙달해야 할 기예이기도 합니다."
+ eligible_accolade_elephantry_attribute_ACCOLADES_DLC:0 "해당 [culture|E]에 속한 [knights|E]가 [GetAccoladeType('elephantry_attribute').GetName] [accolades|E]을 받을 자격을 갖춤"
+ eligible_accolade_elephantry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_elephantry_attribute_ACCOLADES_DLC')]"
  
  innovation_wootz_steel:0 "우츠강"
  innovation_wootz_steel_desc:0 "힌두와니 또는 세릭강으로도 알려진 우츠강은 무기를 만드는 데 탁월한 고탄소 강철입니다. 또 널리 거래됐으며 세계에서 가장 질 좋은 강철로 알려져 있습니다. 유사 이래 아라비아, 이집트, 중국, 심지어는 로마 상인들이 이 강철에 관심을 가져왔습니다."
@@ -123,8 +129,10 @@
  innovation_battlements:0 "흉벽"
  innovation_battlements_desc:0 "요새화를 위해 성벽을 세울 뿐만 아니라, 궁수들을 안전히 보호할 수 있도록 단단한 흉벽을 친다면 적의 공격을 방어하는 또 하나의 체계를 갖출 수 있을 겁니다."
 
- innovation_mangonel:0 "망고넬 투석기"
+ innovation_mangonel:0 "망고넬"
  innovation_mangonel_desc:0 "기존의 투석기를 많이 개량해 견인 동력으로 구동하게 만든 망고넬 투석기는 기존의 죄임 동력 투석기보다 훨씬 빠르게 장전하고 발사할 수 있습니다."
+ eligible_accolade_besieger_attribute_ACCOLADES_DLC:0 "해당 [culture|E]에 속한 [knights|E]가 [GetAccoladeType('besieger_attribute').GetName] [accolades|E]을 받을 자격을 갖춤"
+ eligible_accolade_besieger_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_besieger_attribute_ACCOLADES_DLC')]"
 
  innovation_burhs:0 "요새 자치구"
  innovation_burhs_desc:0 "전원 지대에 산재하여 건설되는 요새 자치구는 주요 정착지가 요새화된 것으로써 군대 소집과 행정 중심지로 활용할 수 있습니다."
@@ -137,6 +145,8 @@
 
  innovation_arched_saddle:0 "아치형 안장"
  innovation_arched_saddle_desc:0 "경기병이 물론 손쉽게 생각할 상대는 아니지만, 군마의 잠재력을 전부 끌어냈다고 하긴 어렵습니다. 아치형 안장을 사용하면 랜스를 내려잡은 중기병이 가속도를 십분 활용하여 적진으로 돌격할 수 있게 됩니다."
+ eligible_accolade_lancer_attribute_ACCOLADES_DLC:0 "해당 [culture|E]에 속한 [knights|E]가 [GetAccoladeType('lancer_attribute').GetName] [accolades|E]을 받을 자격을 갖춤"
+ eligible_accolade_lancer_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_lancer_attribute_ACCOLADES_DLC')]"
 
  #Civic
  innovation_hereditary_rule:0 "세습 제도"
@@ -165,7 +175,7 @@
 
  #Regional
 
- innovation_reconquista:0 "영성 팽창주의" # [LocEditor:AwaitingBatchUpdate]
+ innovation_reconquista:1 "영성 팽창주의"
  innovation_reconquista_desc:0 "내전에 골몰해있던 우리는 너무 오랫동안 히스파니아의 이단자들을 묵인해왔습니다. 이제 병력을 모아 이들을 완전히 몰아낼 때가 왔습니다!"
 
  innovation_stem_duchies:0 "부족공국"
@@ -196,6 +206,8 @@
 
  innovation_advanced_bowmaking:0 "진보된 궁 제작 기술"
  innovation_advanced_bowmaking_desc:0 "본디 전통적으로는 궁수들이 스스로 자신의 활을 만들고 관리해왔지만, 장인들이 기존보다 더 튼튼하고 복합적인 새로운 형태의 활을 만들어내기 시작했습니다. 이를 도입함으로써 조궁장들을 귀중한 군사 자산으로 활용하는 편이 좋을 겁니다."
+ eligible_accolade_crossbower_attribute_ACCOLADES_DLC:0 "해당 [culture|E]에 속한 [knights|E]가 [GetAccoladeType('crossbowmen_attribute').GetName] [accolades|E]을 받을 자격을 갖춤"
+ eligible_accolade_crossbower_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_crossbower_attribute_ACCOLADES_DLC')]"
 
  #Civic
 
@@ -297,4 +309,4 @@
  innovation_deccan_unity:0 "데칸 통합"
  innovation_deccan_unity_desc:0 "새로운 종교와 믿음의 파도가 우리 사회에 밀려들면서 지역주의에 경도됐던 과거는 잘못됐다는 사실을 깨닫게 됐습니다. 이제 우리는 같은 신앙을 믿는 이들과 똘똘 뭉쳐 강하고 굳건한 나라를 만들어 외압에 굴하지 않아야 합니다."
 
- students_of_knighthood:0 "[martial|E] [education_focus|E]으로 교육을 마친 아이들은 $trait_education_martial_prowess$ [trait|E]을 획득합니다."
+ students_of_knighthood:1 "[Concept( 'martial', '전투력' )|E] [education_focus|E]을 보유한 상태로 [education|E]을 완료하는 자녀는 $trait_education_martial_prowess$ [trait|E]을 얻음"

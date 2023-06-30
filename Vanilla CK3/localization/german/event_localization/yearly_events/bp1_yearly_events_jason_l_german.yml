@@ -20,7 +20,7 @@
  bp1_yearly.0100.a:0 "Lächeln, Männer!"
  bp1_yearly.0100.a.tt:0 "Erbärmliche Gastfreundschaft erwartet uns …"
  bp1_yearly.0100.a_title:0 "Eine klägliche Nacht voller Misstrauen"
- bp1_yearly.0100.a.success_chance:0 "Alle [schemes|E] von [HOST.GetShortUIName] haben eine um 15 % erhöhte [success_chance|E]"
+ bp1_yearly.0100.a.success_chance:0 "Alle [schemes|E] von [host.GetShortUIName] haben eine um 15 % erhöhte [success_chance|E]"
 
  bp1_yearly.0100.b:0 "Vielleicht leben hier ja auch Familiengeheimnisse …"
  bp1_yearly.0100.b.tt:0 "Ihr findet Zuflucht … und die Gelegenheit, ein wenig herumzuschnüffeln"
@@ -55,12 +55,12 @@
  bp1_yearly.0100.f.very_sick:0 "Ihr könntet Euch die Eigenschaft „[GetTrait('pneumonic').GetName(GetNullCharacter)]“ zuziehen"
 
  bp1_yearly.0101.t:0 "Sturm in der Wildnis"
- bp1_yearly.0101.desc:0 "Wortlos danke ich [ROOT.Char.GetFaith.FertilityGodName], dass [Select_CString(host.IsFemale, 'die ekelhafte', 'der ekelhafte')] [lover.Custom2('RelationToMeShort', SCOPE.sC('host'))] von [lover.GetTitledFirstName] von diesem bescheidenen Ort ferngehalten wurde.\n\nWährend der Sturm sich über den Himmel kämpft und sein Zorn überall um uns erklingt,"
+ bp1_yearly.0101.desc:0 "Wortlos danke ich den schaffenden Kräften ([ROOT.Char.GetFaith.FertilityGodName]), dass [Select_CString(host.IsFemale, 'die ekelhafte', 'der ekelhafte')] [lover.Custom2('RelationToMeShort', SCOPE.sC('host'))] von [lover.GetTitledFirstName] von diesem bescheidenen Ort ferngehalten wurde.\n\nWährend der Sturm sich über den Himmel kämpft und sein Zorn überall um uns erklingt,"
 
  bp1_yearly.0101.gentle_flirt:0 "bebt [lover.GetFirstNameNoTooltip] immer mehr. Ist diese Angst nur gespielt? Etwas regt sich in [lover.Custom('DE_PRO_POS_S_3P')]en Augen, jenseits des förmlichen Lächelns. [lover.Custom('DE_PRO_POS_S_3P')|U]e Augen sagen … ja."
  bp1_yearly.0101.protective_flirt:0 "[lover.GetFirstNameNoTooltip] tut selbstbewusst und abwehrend. Ich lächle [lover.Custom('DE_PRO_PER_S_3P_A')] dankbar an – ganz ergeben –, und schon bald … verfällt [lover.Custom('DE_PRO_PER_S_3P_N')] in andächtige Stille. [lover.Custom('DE_PRO_PER_S_3P_N')|U] ist mein."
 
- bp1_yearly.0101.finish:0 "\n\nDie Ecke, in der wir einander erkennen, ist dunkel. Ziemlich dunkel. Und ob des Tumults der Natur hört niemand etwas von dem, was wir mit hungrigen Leibern und schlammverschmierten Gewändern dort treiben.\n\nDer einzige Laut, der über meine Lippen kommt, ist, wie ich den Namen von [lover.Custom('DE_PRO_POS_S_3P')][host.Custom('DE_END_PRO_S_D')] [lover.Custom2('RelationToMeShort', SCOPE.sC('host'))] verfluche. Und in diesem Augenblick ist mein Sieg vollkommen."
+ bp1_yearly.0101.finish:0 "\n\nDie Ecke, in der wir einander erkennen, ist dunkel. Ziemlich dunkel. Und ob des Tumults der Natur hört niemand etwas von dem, was wir mit hungrigen Leibern und schlammverschmierten Gewändern dort treiben.\n\nDer einzige Laut, der über meine Lippen kommt, ist, wie ich den Namen verfluche, den [lover.Custom('DE_PRO_POS_S_3P')][host.Custom('DE_END_PRO_S_N')] [lover.Custom2('RelationToMeShort', SCOPE.sC('host'))] trägt. Und in diesem Augenblick ist mein Sieg vollkommen."
 
  bp1_yearly.0101.a:0 "Doch von #EMP Euch#! träume ich, [lover.GetFirstNameNoTooltip]!"
  bp1_yearly.0101.b:0 "Eine einzige, köstliche Beleidigung."

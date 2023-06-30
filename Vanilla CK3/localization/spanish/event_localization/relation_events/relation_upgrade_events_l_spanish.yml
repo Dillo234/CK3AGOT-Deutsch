@@ -77,7 +77,7 @@
 
 #	Follow-Up, Friend:
  relation_upgrade.1002.t:0 "$relation_upgrade.1001.t$: Donde sea menos aquí"
- relation_upgrade.1002.desc:0 "He tenido que asistir a esta tortuosa fiesta, de la que [terrible_party_host.GetFirstName] es culpable, durante #EMP horas#! (o al menos eso parece), saludando sin ganas a los que pasaban.\n\nEmpieza a parecerme buena idea tirarme del balcón cuando alguien me toca en el hombro.\n\n«Disculpad, ¿sois [potential_friend.GetFirstNameNoTooltip]?», pregunta [party_root.GetTitledFirstName]. «¿Os interesaría dar un paseo en un lugar alejado de aquí?»."
+ relation_upgrade.1002.desc:0 "He tenido que asistir a esta tortuosa fiesta, de la que [terrible_party_host.GetFirstName] es culpable, durante #EMP horas#! (o al menos eso parece), saludando sin ganas a los que pasaban.\n\nEmpieza a parecerme buena idea tirarme del balcón cuando alguien me toca en el hombro.\n\n«Disculpad, ¿sois [potential_friend.GetFirstNameNoTooltip]?», pregunta [party_root.GetTitledFirstName|l]. «¿Os interesaría dar un paseo en un lugar alejado de aquí?»."
  relation_upgrade.1002.a:0 "¡Por [ROOT.GetCharacter.GetFaith.HighGodName]! ¡Sí, donde sea menos aquí!"
  relation_upgrade.1002.a.tt:0 "[potential_friend.GetFirstNameNoTooltip] acepta tu oferta"
  relation_upgrade.1002.b:0 "Mmm, gracias, pero no."
@@ -87,7 +87,7 @@
 
 #	Follow-Up, Lover:
  relation_upgrade.1003.t:0 "$relation_upgrade.1001.t$: A la luz de la luna"
- relation_upgrade.1003.desc:0 "No sé cómo [terrible_party_host.GetFirstName] ha logrado convencerme de que asistiera a este espantoso bodrio de fiesta. Solo puedo culpar a una enajenación mental o tal vez a la posibilidad de que asistiera [party_root.GetTitledFirstName].\n\nHe pasado a su lado antes y, o bien no me ha visto suspirar de soledad, o bien ha optado por hacer caso omis…\n\n«¡Me alegro de veros, [potential_lover.GetFirstNameNoTooltip]! ¿Os apetecería pasear bajo la luz de la luna?»."
+ relation_upgrade.1003.desc:0 "No sé cómo [terrible_party_host.GetFirstName] ha logrado convencerme de que asistiera a este espantoso bodrio de fiesta. Solo puedo culpar a una enajenación mental o tal vez a la posibilidad de que asistiera [party_root.GetTitledFirstName|l].\n\nHe pasado a su lado antes y, o bien no me ha visto suspirar de soledad, o bien ha optado por hacer caso omis…\n\n«¡Me alegro de veros, [potential_lover.GetFirstNameNoTooltip]! ¿Os apetecería pasear bajo la luz de la luna?»."
  relation_upgrade.1003.a:0 "[party_root.GetFirstNameNoTooltip], ¡pensaba que nunca lo preguntaríais!"
  relation_upgrade.1003.a.tt:0 "A [potential_lover.GetFirstNameNoTooltip] le alegra la oferta."
  relation_upgrade.1003.b:0 "Creo que prefiero dejar lo nuestro en una amistad…"
@@ -98,7 +98,7 @@
 
 #	Follow-Up, Rival:
  relation_upgrade.1004.t:0 "$relation_upgrade.1001.t$: Chillidos interminables"
- relation_upgrade.1004.desc:0 "Por [ROOT.GetCharacter.GetFaith.HighGodName], ¡[terrible_party_host.GetFirstName] no sabría celebrar una fiesta aunque su vida dependiera de ello! No hay música, la comida está sosa, no hay baile, no se ve nada por falta de luz, ¡y encima ha invitado a [party_root.GetTitledFirstName]!\n\n«$relation_upgrade.1001.c$», vocifera con irritación desde la otra punta de la sala, llamando la atención de los asistentes mientras se acerca a ti para seguir incordiándote con su verborrea."
+ relation_upgrade.1004.desc:0 "Por [ROOT.GetCharacter.GetFaith.HighGodName], ¡[terrible_party_host.GetFirstName] no sabría celebrar una fiesta aunque su vida dependiera de ello! No hay música, la comida está sosa, no hay baile, no se ve nada por falta de luz, ¡y encima ha invitado a [party_root.GetTitledFirstName|l]!\n\n«$relation_upgrade.1001.c$», vocifera con irritación desde la otra punta de la sala, llamando la atención de los asistentes mientras se acerca a ti para seguir incordiándote con su verborrea."
  relation_upgrade.1004.a:0 "¿Queréis entonces que nos sinceremos de #EMP verdad#!, canalla?"
  relation_upgrade.1004.a.tt:0 "[potential_rival.GetFirstNameNoTooltip] contraataca"
  relation_upgrade.1004.b:0 "Esto no es digno de mí."
@@ -115,7 +115,7 @@
 
  relation_upgrade.2101.t:0 "Relación malsana"
  relation_upgrade.2101.desc_opening:0 "«Mi [ROOT.Char.GetLadyLord], el trastorno es contagioso, ¡tened cuidado!».\n\n"
- relation_upgrade.2101.desc_opening_physician:0 "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('physician'))], [physician.GetTitledFirstName], me retiene. El cuerpo infectado de un plebeyo…"
+ relation_upgrade.2101.desc_opening_physician:0 "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('physician'))], [physician.GetTitledFirstName|l], me retiene. El cuerpo infectado de un plebeyo…"
  relation_upgrade.2101.desc_opening_other:0 "El cuerpo infectado de un plebeyo…"
  relation_upgrade.2101.desc_bubonic_plague:0 "cubierto de pústulas que rezuman pus y sangre…"
  relation_upgrade.2101.desc_smallpox:0 "con la piel marcada por bultos y erupciones…"
@@ -135,7 +135,7 @@
  relation_upgrade.2102.desc_ending:0 "\n\nAterriza con un sonido repulsivo, llenándolo todo de sangre, intestinos y pánico."
  relation_upgrade.2102.a:0 "Recoged eso, ¡vamos a devolverles el cadáver!"
  relation_upgrade.2102.b:0 "Deberíamos estudiar el cadáver."
- relation_upgrade.2102.tt:0 "Uno de los cortesanos [rival.Custom('ES_DelDela')] [rival.GetTitledFirstName] se contagia"
+ relation_upgrade.2102.tt:0 "Uno de los cortesanos [rival.Custom('ES_DelDela')] [rival.GetTitledFirstName|l] se contagia"
  relation_upgrade.2102.b_tt_2:0 "Brote de enfermedad en [rival_capital.GetNameNoTooltip]"
 
 
@@ -143,8 +143,8 @@
  relation_upgrade.2001.t:0 "Intereses apasionados"
  relation_upgrade.2001.lover_dinner.desc:0 "En la cena,"
  relation_upgrade.2001.lover_party.desc:0 "En una cena en [lover_1_location.GetNameNoTooltip],"
- relation_upgrade.2001.lover.desc:0 "He elegido un asiento cerca de [lover_1.GetTitledFirstName], ¡es tan [lover_1.Custom('ComplimentAdjective')]! Ha conseguido que acabemos hablando sobre [lover_1.Custom('herhis_subject_of_interest')]."
- relation_upgrade.2001.soulmate.desc:0 "Mi [lover_1.Custom('LoverPetName')] [lover_1.GetTitledFirstName] está jugueteando con mi pelo mientras hablamos de [lover_1.Custom('herhis_subject_of_interest')]."
+ relation_upgrade.2001.lover.desc:0 "He elegido un asiento cerca de [lover_1.GetTitledFirstName|l], ¡es tan [lover_1.Custom('ComplimentAdjective')]! Ha conseguido que acabemos hablando sobre [lover_1.Custom('herhis_subject_of_interest')]."
+ relation_upgrade.2001.soulmate.desc:0 "Mi [lover_1.Custom('LoverPetName')] [lover_1.GetTitledFirstName|l] está jugueteando con mi pelo mientras hablamos de [lover_1.Custom('herhis_subject_of_interest')]."
  relation_upgrade.2001.relates.desc:0 "\n\nSu punto de vista es intrigante, pero lo que de verdad admiro es su pasión por el tema. Cuanto más profundiza, más se anima y esos ojos tan bonitos que tiene llegan a #EMP brillar#! con luz propia. No creo que pueda cansarme de escucharle hablar de esto."
  relation_upgrade.2001.does_not_relate.desc:0 "\n\nAunque no entiendo mucho del tema, la pasión que demuestra es cautivadora. Sus bellos ojos #EMP brillan#! con luz propia y la profundidad de sus conocimientos resulta clara hasta para alguien que sabe tan poco como yo. No creo que pueda cansarme de escucharle hablar de esto."
  relation_upgrade.2001.a:0 "¿Continuamos esta conversación en un lugar más íntimo?"
@@ -155,11 +155,11 @@
  relation_upgrade.2001.b.failure:0 "[lover_1.GetShortUIName] no siente lo mismo"
  relation_upgrade.2001.c:0 "¡Qué interesante! ¿Podríais volver a explicármelo?"
 
- relation_upgrade.2002.lover_dinner.desc:0 "En la cena, mi asiento está junto al de [lover_2.GetTitledFirstName], que es [lover_2.Custom('ComplimentAdjective')]."
- relation_upgrade.2002.lover_party.desc:0 "La presencia de [lover_2.GetTitledFirstName] en mi cena es una sorpresa, desde luego, y bien grata."
+ relation_upgrade.2002.lover_dinner.desc:0 "En la cena, mi asiento está junto al de [lover_2.GetTitledFirstName|l], que es [lover_2.Custom('ComplimentAdjective')]."
+ relation_upgrade.2002.lover_party.desc:0 "La presencia de [lover_2.GetTitledFirstName|l] en mi cena es una sorpresa, desde luego, y bien grata."
  relation_upgrade.2002.lover.desc:0 "Acabamos charlando de [lover_1.Custom('my_subject_of_interest')], un tema del que podría hablar durante horas. Me alegra descubrir que a [lover_2.GetFirstNameNoTooltip] se le da muy bien escuchar. El interés que muestra por lo que tengo que decir parece sincero y las preguntas que hace son sensatas e inteligentes.\n\nPara cuando nos damos cuenta, estamos a solas en la mesa. [lover_2.GetFirstNameNoTooltip] se acerca a mí para oírme mejor y siento que mi corazón acelera…"
  relation_upgrade.2002.c.lover:0 "Mmm… Sí, como iba diciendo…"
- relation_upgrade.2002.soulmate.desc:0 "Estoy jugueteando con mi [lover_2.Custom('LoverPetName')] [lover_2.GetTitledFirstName], que apoya su cabeza contra mi pecho, mientras hablamos de [lover_1.Custom('my_subject_of_interest')]. Se le da muy bien escuchar e indica su interés con gestos y sonidos y mediante preguntas inteligentes. Ver que comparte mi gusto por este tema tan interesante hace que mi corazón se acelere."
+ relation_upgrade.2002.soulmate.desc:0 "Estoy jugueteando con mi [lover_2.Custom('LoverPetName')] [lover_2.GetTitledFirstName|l], que apoya su cabeza contra mi pecho, mientras hablamos de [lover_1.Custom('my_subject_of_interest')]. Se le da muy bien escuchar e indica su interés con gestos y sonidos y mediante preguntas inteligentes. Ver que comparte mi gusto por este tema tan interesante hace que mi corazón se acelere."
  relation_upgrade.2002.c.soulmate:0 "Se os da muy bien escuchar, ¿lo sabíais?"
 
  relation_upgrade.2003.lover.desc:0 "Cuando me inclino para hacer mi sugerencia, el brillo en los ojos de [lover_1.GetFirstName] muestra otro tipo de pasión. Titubea un momento y sus mejillas se sonrojan, pero pronto resuelve su conflicto interno.\n\n«Esperad aquí unos momentos para que nadie sospeche nada. Después, venid a mis aposentos». Mientras [lover_1.GetFirstNameNoTooltip] se aleja, no puedo apartar la vista de [lover_1.Custom('ES_ElElla')]."

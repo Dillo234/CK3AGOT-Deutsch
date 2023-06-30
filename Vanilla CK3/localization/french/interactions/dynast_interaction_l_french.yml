@@ -3,13 +3,15 @@
  disinherit_interaction:0 "Déshériter"
  disinherit_interaction_desc:0 "$dynasty_interaction_header$Retirer [recipient.Custom('FR_le_Char_U_Pi')][recipient.GetShortUINameNoTooltip] de la [line_of_succession|El]"
  disinherit_interaction_notification:0 "Membre de la dynastie déshérité"
+ courtly_vassal_disapproves_disinheriting:0 "Chaque [vassal|El] [GetVassalStance( 'courtly' ).GetName|l][GetVassalStance( 'courtly' ).GetTextIcon] ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) perd #N 20#! d’[opinion|El] envers [actor.Custom('FR_le_Char_U_Pi')][actor.GetShortUIName] pendant #V 10 ans#! #weak (désapprouve le déshéritement de l’héritier non contesté)#!"
+
 
  restore_inheritance_interaction:0 "Rétablir l’héritage"
  restore_inheritance_interaction_desc:0 "$dynasty_interaction_header$Rétablir [recipient.Custom('FR_le_Char_U_Pi')][recipient.GetShortUINameNoTooltip] dans la [line_of_succession|El]\n\n#weak Ceci est possible car [recipient.GetSheHe] a été [Concept( 'disinherit', 'déshérité' )|E][recipient.Custom('FR_E')|E]#!"
  restore_inheritance_interaction_notification:0 "Héritage rétabli"
 
  denounce_interaction:0 "Dénoncer"
- denounce_interaction_desc:0 "$dynasty_interaction_header$[denounce|E] [recipient.Custom('FR_le_Char_U_Pi')][recipient.GetShortUINameNoTooltip]\n\n#weak Cela donnera à tous les membres de notre [dynasty|El] une [Concept( 'imprisonment_reason', 'raison de l’emprisonner' )|E]#!"
+ denounce_interaction_desc:0 "$dynasty_interaction_header$[Concept('denounce','Dénoncer')|E] [recipient.Custom('FR_le_Char_U_Pi')][recipient.GetShortUINameNoTooltip]\n\n#weak Cela donnera à tous les membres de notre [dynasty|El] une [Concept( 'imprisonment_reason', 'raison de l’emprisonner' )|E]#!"
  denounce_interaction_notification:0 "Membre dynastique dénoncé"
 
  forgive_interaction:0 "Pardonner"

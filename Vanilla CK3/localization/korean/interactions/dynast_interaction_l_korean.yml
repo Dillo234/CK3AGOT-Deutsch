@@ -3,6 +3,8 @@
  disinherit_interaction:0 "상속권 박탈"
  disinherit_interaction_desc:0 "$dynasty_interaction_header$[recipient.GetShortUINameNoTooltip](을)를 [line_of_succession|E]에서 배제합니다."
  disinherit_interaction_notification:0 "상속권이 박탈된 가문 구성원"
+ courtly_vassal_disapproves_disinheriting:0 "#V 10년#! 동안 [actor.GetShortUIName](을)를 향한 모든 [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] [vassal|E]([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]명)의 [opinion|E]이 #N 20#!만큼 감소 #weak (명실상부한 후계자의 상속권 박탈에 반대함)#!"
+
 
  restore_inheritance_interaction:0 "상속권 회복"
  restore_inheritance_interaction_desc:0 "$dynasty_interaction_header$[recipient.GetShortUINameNoTooltip]의 [line_of_succession|E]를 정상 상태로 회복합니다.\n\n#weak [recipient.GetSheHe]가 [disinherited|E]된 상태이므로 이 선택지를 사용할 수 있습니다.#!"

@@ -3,46 +3,46 @@
 
  # Distant Relation
  claim_throne_outcome.1001.t:0 "Reivindicar trono"
- claim_throne_outcome.1001.desc:0 "Después de todo mi trabajo, al fin es hora de presentar las pruebas que he «hallado»: soy legítim[ROOT.Char.Custom('ES_OA')] hereder[ROOT.Char.Custom('ES_OA')] de [target_title.GetName] por un antiguo matrimonio dinástico.\n\n¡[target.GetTitledFirstName] no será más que un[target.Custom('ES_XA')] simple pretendiente mientras se interponga en mi camino!"
+ claim_throne_outcome.1001.desc:0 "Después de todo mi trabajo, al fin es hora de presentar las pruebas que he «hallado»: soy legítim[ROOT.Char.Custom('ES_OA')] hereder[ROOT.Char.Custom('ES_OA')] de [target_title.GetName] por un antiguo matrimonio dinástico.\n\n¡[target.GetTitledFirstName|l] no será más que un[target.Custom('ES_XA')] simple pretendiente mientras se interponga en mi camino!"
  claim_throne_outcome.1001.a:1 "¡Pronto gobernaré [target.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
  claim_throne_outcome.1001.b:0 "Tal vez estoy corriendo demasiado…"
 
  claim_throne_outcome.2001.opening:0 "¡Al fin! ¡Nadie podrá negar que tengo derecho a reclamar [target_title.GetName]!"
- claim_throne_outcome.2001.discovered:0 "\n\nAunque [target.GetTitledFirstName] cree que me invento mi reclamación de un antiguo matrimonio dinástico, lo importante es que no puede refutarlo."
- claim_throne_outcome.2001.no_awareness:0 "\n\nAunque los detalles exactos del antiguo matrimonio dinástico están envueltos en las nieblas del tiempo, no hay motivo para dudar de su veracidad. Hasta [target.GetTitledFirstName] debe admitir que mi reclamación es legítima."
+ claim_throne_outcome.2001.discovered:0 "\n\nAunque [target.GetTitledFirstName|l] cree que me invento mi reclamación de un antiguo matrimonio dinástico, lo importante es que no puede refutarlo."
+ claim_throne_outcome.2001.no_awareness:0 "\n\nAunque los detalles exactos del antiguo matrimonio dinástico están envueltos en las nieblas del tiempo, no hay motivo para dudar de su veracidad. Hasta [target.GetTitledFirstName|l] debe admitir que mi reclamación es legítima."
  claim_throne_outcome.2001.a:0 "¡Ahora nada puede detenerme!"
  claim_throne_outcome.2001.b:0 "¡Que [target.GetFirstNameNoTooltip] se queje todo lo que quiera! No cambiará nada."
 
  claim_throne_outcome.4001.opening:0 "¡Mi reclamación sobre [target_title.GetName] no ha conseguido convencer a nadie!"
- claim_throne_outcome.4001.owner_discovered:0 "\n\nY lo que es peor, ¡[target.GetTitledFirstName] ha descubierto mis intentos de falsificar un registro matrimonial entre la dinastía de [ROOT.Char.GetDynasty.GetBaseName] y la antigua dinastía reinante de [target_title.GetNameNoTierNoTooltip]!"
+ claim_throne_outcome.4001.owner_discovered:0 "\n\nY lo que es peor, ¡[target.GetTitledFirstName|l] ha descubierto mis intentos de falsificar un registro matrimonial entre la dinastía de [ROOT.Char.GetDynasty.GetBaseName] y la antigua dinastía reinante de [target_title.GetNameNoTierNoTooltip]!"
  claim_throne_outcome.4001.owner_secret:0 "\n\nAunque el registro matrimonial entre la dinastía [ROOT.Char.GetDynasty.GetBaseName] y la antigua dinastía reinante [target_title.GetNameNoTierNoTooltip] ha sido rechazado por incorrecto, al menos nadie ha descubierto que fui yo quien lo falsificó."
- claim_throne_outcome.4001.a:0 "«¡Solo quería formar parte de la gloria de vuestra familia, mi [target.Custom('ES_SennorSennora')]!»."
+ claim_throne_outcome.4001.a:0 "«¡Solo quería formar parte de la gloria de vuestra familia, mi [target.GetLadyLord]!»."
  claim_throne_outcome.4001.b:0 "Le dedicaré el tiempo que necesita."
  claim_throne_outcome.4001.c:0 "Este juego se está volviendo demasiado peligroso."
 
 
  # Relation to Mythical Founder
- claim_throne_outcome.1002.desc:0 "¡Ahora tengo pruebas casi indiscutibles de que pertenezco al linaje de nada menos que [ROOT.Char.Custom('ClaimThroneMythicalFounder')]!\n\nNi siquiera [target.GetTitledFirstName] puede rechazar la legitimidad de mi derecho a gobernar [target_title.GetName]."
+ claim_throne_outcome.1002.desc:0 "¡Ahora tengo pruebas casi indiscutibles de que pertenezco al linaje de nada menos que [ROOT.Char.Custom('ClaimThroneMythicalFounder')]!\n\nNi siquiera [target.GetTitledFirstName|l] puede rechazar la legitimidad de mi derecho a gobernar [target_title.GetName]."
 
- claim_throne_outcome.2002.discovered:0 "\n\nAunque [target.GetTitledFirstName] cree que es falso que mi linaje se remonte hasta [ROOT.Char.Custom('ClaimThroneMythicalFounder')], tampoco ha sido capaz de rebatirlo y eso es lo que cuenta."
+ claim_throne_outcome.2002.discovered:0 "\n\nAunque [target.GetTitledFirstName|l] cree que es falso que mi linaje se remonte hasta [ROOT.Char.Custom('ClaimThroneMythicalFounder')], tampoco ha sido capaz de rebatirlo y eso es lo que cuenta."
  claim_throne_outcome.2002.no_awareness:0 "\n\nCon un linaje que se remonta a [ROOT.Char.Custom('ClaimThroneMythicalFounder')], ¿quién podría decir que mi reclamación es inadmisible?"
 
- claim_throne_outcome.4002.owner_discovered:1 "\n\nA [target.GetTitledFirstName] le resultó más fácil de lo que pensaba refutar mi relación con [owner.Custom('ClaimThroneMythicalFounder')]. ¡Hasta sabía que mis «pruebas» eran totalmente falsas!"
- claim_throne_outcome.4002.owner_secret:1 "\n\nNadie se cree que descienda de [owner.Custom('ClaimThroneMythicalFounder')], pero al menos [target.GetTitledFirstName] no parece haber descubierto que mis «pruebas» eran totalmente falsas."
- claim_throne_outcome.4002.a:0 "«Solo quería formar parte de la gloria de vuestra familia, mi [target.Custom('SennorSennora')]!»."
+ claim_throne_outcome.4002.owner_discovered:1 "\n\nA [target.GetTitledFirstName|l] le resultó más fácil de lo que pensaba refutar mi relación con [owner.Custom('ClaimThroneMythicalFounder')]. ¡Hasta sabía que mis «pruebas» eran totalmente falsas!"
+ claim_throne_outcome.4002.owner_secret:1 "\n\nNadie se cree que descienda de [owner.Custom('ClaimThroneMythicalFounder')], pero al menos [target.GetTitledFirstName|l] no parece haber descubierto que mis «pruebas» eran totalmente falsas."
+ claim_throne_outcome.4002.a:0 "«Solo quería formar parte de la gloria de vuestra familia, mi [ROOT.Char.GetLadyLord]!»."
 
 
  # Chosen by previous ruler
- claim_throne_outcome.1003.desc:0 "Tengo muchos testigos que jurarán por [ROOT.Char.GetFaith.PantheonTerm] que [previous_title_holder.GetTitledFirstName], antigu[previous_holder.Custom('ES_OA')] [previous_title_holder.GetTitleAsNameNoTooltip] de [target_title.GetNameNoTier], dijo en su lecho de muerte que yo debería heredar su [target.Custom('RealmType')].\n\nAunque no es probable que [target.GetTitledFirstName] reconozca mis derechos, no es a [target.GetSheHe] a quien debo convencer…"
+ claim_throne_outcome.1003.desc:0 "Tengo muchos testigos que jurarán por [ROOT.Char.GetFaith.PantheonTerm] que [previous_title_holder.GetTitledFirstName|l], antigu[previous_holder.Custom('ES_OA')] [previous_title_holder.GetTitleAsNameNoTooltip] de [target_title.GetNameNoTier], dijo en su lecho de muerte que yo debería heredar su [target.Custom('RealmType')].\n\nAunque no es probable que [target.GetTitledFirstName|l] reconozca mis derechos, no es a [target.GetSheHe] a quien debo convencer…"
 
- claim_throne_outcome.2003.discovered:0 "[target.GetTitledFirstName] ha tildado públicamente de mentiras desesperadas la promesa que me hizo antigu[previous_holder.Custom('ES_OA')] [previous_holder.GetTitledFirstName], pero es su palabra contra los juramentos sagrados favorables a mi persona."
- claim_throne_outcome.2003.no_awareness:0 "Con la promesa que me hizo antigu[previous_holder.Custom('ES_OA')] [previous_holder.GetTitledFirstName] y la cantidad de gente dispuesta a jurar que presenció la misma, [target.GetTitledFirstName] no puede hacer nada más que aceptarlo. Quizás [target.GetSheHe] no vaya ceder el [target.GetTierAsNameNoTooltip] fácilmente, pero a mí tampoco me va a rechazar con facilidad."
- claim_throne_outcome.4003.owner_discovered:0 "\n\nPresionados por [target.GetTitledFirstName], todos los que juraban que antigu[previous_holder.Custom('ES_OA')] [previous_holder.GetTitledFirstName] prometió convertirme en su hereder[ROOT.Char.Custom('ES_OA')] han cambiado repentinamente de idea. ¡Ahora juran que les pagué para que dijeran eso! Aunque sea verdad, me parece una falta de lealtad absoluta."
- claim_throne_outcome.4003.owner_secret:0 "\n\nPresionados por [target.GetTitledFirstName], todos los que juraban que antigu[previous_holder.Custom('ES_OA')] [previous_holder.GetTitledFirstName] prometió convertirme en su hereder[ROOT.Char.Custom('ES_OA')] se han echado atrás. Sin embargo, si [target.GetFirstNameNoTooltip] no me ha acusado de nada, es que le preocupa que pueda ser verdad."
+ claim_throne_outcome.2003.discovered:0 "[target.GetTitledFirstName] ha tildado públicamente de mentiras desesperadas la promesa que me hizo antigu[previous_holder.Custom('ES_OA')] [previous_holder.GetTitledFirstName|l], pero es su palabra contra los juramentos sagrados favorables a mi persona."
+ claim_throne_outcome.2003.no_awareness:0 "Con la promesa que me hizo antigu[previous_holder.Custom('ES_OA')] [previous_holder.GetTitledFirstName|l] y la cantidad de gente dispuesta a jurar que presenció la misma, [target.GetTitledFirstName|l] no puede hacer nada más que aceptarlo. Quizás [target.GetSheHe] no vaya ceder el [target.GetTierAsNameNoTooltip] fácilmente, pero a mí tampoco me va a rechazar con facilidad."
+ claim_throne_outcome.4003.owner_discovered:0 "\n\nPresionados por [target.GetTitledFirstName|l], todos los que juraban que antigu[previous_holder.Custom('ES_OA')] [previous_holder.GetTitledFirstName|l] prometió convertirme en su hereder[ROOT.Char.Custom('ES_OA')] han cambiado repentinamente de idea. ¡Ahora juran que les pagué para que dijeran eso! Aunque sea verdad, me parece una falta de lealtad absoluta."
+ claim_throne_outcome.4003.owner_secret:0 "\n\nPresionados por [target.GetTitledFirstName|l], todos los que juraban que antigu[previous_holder.Custom('ES_OA')] [previous_holder.GetTitledFirstName|l] prometió convertirme en su hereder[ROOT.Char.Custom('ES_OA')] se han echado atrás. Sin embargo, si [target.GetFirstNameNoTooltip] no me ha acusado de nada, es que le preocupa que pueda ser verdad."
  claim_throne_outcome.4003.a:0 "¿Es que ya no nos podemos fiar de nadie?"
 
  # Response events for target
- claim_throne_outcome.5001.opening:0 "¡Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], [owner.GetTitledFirstName], ha reclamado el [target_title.GetName]!"
+ claim_throne_outcome.5001.opening:0 "¡Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], [owner.GetTitledFirstName|l], ha reclamado el [target_title.GetName]!"
  claim_throne_outcome.5001.distant_relation:0 "\n\nAl parecer, hubo un matrimonio estratégico entre nuestras dinastías hace generaciones, algo que [owner.GetSheHe] está aprovechando para disputar una herencia."
  claim_throne_outcome.5001.mythical_founder:0 "\n\n¡[owner.GetFirstNameNoTooltip] afirma descender nada menos que de [owner.Custom('ClaimThroneMythicalFounder')]! Piensa con eso le bastará para gobernar [target_title.GetNameNoTooltip]."
  claim_throne_outcome.5001.previous_holder_promise:0 "\n\n[owner.GetFirstNameNoTooltip] afirma que [previous_holder.Custom2('RelationToMe', ROOT.Char)] juró en su lecho de muerte que [owner.GetFirstNameNoTooltip] debería heredar el título de [target_title.GetTierAsNameNoTooltip]. Más preocupante es el hecho de que haya encontrado muchas personas que juran que es cierto."
@@ -50,7 +50,7 @@
  claim_throne_outcome.5001.discovered:0 "\n\nEstos derechos son totalmente inventados, pero ¡podrían ser una amenaza en caso de que otros los apoyaran!"
  claim_throne_outcome.5001.a:0 "¡No pienso entregar mi señorío sin pelear!"
  claim_throne_outcome.5002.a:0 "¿En serio piensa que se va a salir con la suya?"
- claim_throne_outcome.5003.opening:0 "¡Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], [owner.GetTitledFirstName], ha intentado reclamar derechos sobre [target.GetTitledFirstName]!"
+ claim_throne_outcome.5003.opening:0 "¡Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], [owner.GetTitledFirstName|l], ha intentado reclamar derechos sobre [target.GetTitledFirstName|l]!"
  claim_throne_outcome.5003.owner_known:0 "\n\nEsos derechos son risibles, por supuesto. Si esto es todo con lo que [owner.GetFirstNameNoTooltip] puede amenazarme, no tengo de qué preocuparme."
  claim_throne_outcome.5003.a:0 "[owner.GetSheHe|U] pagará por esta insolencia."
 
@@ -59,4 +59,4 @@
  claim_throne_target_died_tt:0 "[target.GetTitledFirstName] ha muerto"
  claim_throne_target_lost_titles_tt:0 "[target.GetTitledFirstName] ya no tiene tierras"
  claim_throne_target_no_longer_liege_tt:0 "[target.GetTitledFirstName] ya no es mi [target.Custom('ES_SennorSennora')]"
- claim_throne_invalidate_fallback_tt:0 "Ya no puedo reivindicar el trono [target.Custom('ES_DelDela')] [target.GetTitledFirstName]"
+ claim_throne_invalidate_fallback_tt:0 "Ya no puedo reivindicar el trono [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l]"

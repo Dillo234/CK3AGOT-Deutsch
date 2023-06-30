@@ -72,6 +72,8 @@
  unbeliever_foreign_believer:0 "외국인"
  unbeliever_heathen_plural:0 "이교도"
  unbeliever_infidel_plural:0 "불신자"
+ unbeliever_heretic_plural:0 "이단자"
+ unbeliever_unbeliever_plural:0 "불신자"
  character_afterlife_positive:0 "[ROOT.Char.GetFaith.PositiveAfterLife]에서 평화롭게 잠들 것입니다."
  character_afterlife_negative:0 "분명 [ROOT.Char.GetHerHis] 죄악으로 인해 [ROOT.Char.GetFaith.NegativeAfterLife]에서 고통받게 될 것입니다."
  character_afterlife_reincarnation:0 "곧 새로운 모습으로 환생할 것입니다."
@@ -89,11 +91,28 @@
  rite_prayer:0 "기도"
  rite_worship:0 "숭배"
 
- # Pilgrimage Name
+ #Pilgrimage name
+ pilgrimage_default:0 "순례"
+ pilgrimage_hajj:1 "핫즈"
+ 
+ #PilgrimageHeader
  pilgrimage_default_header:1 "순례:"
  pilgrimage_hajj_header:1 "핫즈:"
+
+ #PilgrimageLength
+ pilgrimage_short_distance:0 "짧지만 강렬함"
+ pilgrimage_medium_distance:0 "적당하고 원만함"
+ pilgrimage_long_distance:0 "길고 훌륭함"
+ pilgrimage_very_long_distance:0 "매우 길고 위험함"
+
+ #GetPilgrimSingularPlural
+ pilgrim_singular:0 "순례자"
+ pilgrim_plural:0 "순례자"
 
  # GHWs given by which tenet?
  ghw_from_which_tenet_armed_pilgrimages:0 "$tenet_armed_pilgrimages_name$"
  ghw_from_which_tenet_struggle_submission:0 "$tenet_struggle_submission_name$"
  ghw_from_which_tenet_warmonger:0 "$tenet_warmonger_name$"
+
+ faithtaxexemption_the_church:0 "교회"
+ faithtaxexemption_charities:0 "자선"

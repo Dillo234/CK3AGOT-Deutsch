@@ -25,7 +25,7 @@
 
  INSPIRATION_GENERAL_TOOLTIP_SPONSOR:0 "[Inspiration.GetSponsor.GetUIName|U]"
  INSPIRATION_GENERAL_TOOLTIP_NO_SPONSOR:0 "Нет"
- INSPIRATION_GENERAL_TOOLTIP:2 "[SelectLocalization( StringIsEmpty( Inspiration.GetCompletionEffect ), '', 'INSPIRATION_GENERAL_TOOLTIP_EFFECT' )]#S Прогресс:#! [Inspiration.GetProgress|V]/[GetDefine( 'NInspiration', 'MAX_PROGRESS' )|V]\n#S Вложено [Concept( 'gold', 'золота' )|E]:#! @gold_icon! [Inspiration.GetInvestedGold|V]\n#S Владелец:#! [Inspiration.GetOwner.GetUIName]\n#S Спонсор:#! [SelectLocalization( Inspiration.GetSponsor.IsValid, 'INSPIRATION_GENERAL_TOOLTIP_SPONSOR', 'INSPIRATION_GENERAL_TOOLTIP_NO_SPONSOR' )]\n\n#F [Inspiration.GetDescription]#!"
+ INSPIRATION_GENERAL_TOOLTIP:2 "[SelectLocalization( StringIsEmpty( Inspiration.GetCompletionEffect ), '', 'INSPIRATION_GENERAL_TOOLTIP_EFFECT' )]#S Прогресс:#! [Inspiration.GetProgress|V]/[GetDefine( 'NInspiration', 'MAX_PROGRESS' )|V]\n#S Вложено [Concept( 'gold', 'золота' )|E]:#!@gold_icon! [Inspiration.GetInvestedGold]\n#S Владелец:#! [Inspiration.GetOwner.GetUIName]\n#S Спонсор:#! [SelectLocalization( Inspiration.GetSponsor.IsValid, 'INSPIRATION_GENERAL_TOOLTIP_SPONSOR', 'INSPIRATION_GENERAL_TOOLTIP_NO_SPONSOR' )]\n\n#F [Inspiration.GetDescription]#!"
  INSPIRATION_GENERAL_TOOLTIP_EFFECT:0 "#S Эффект: #!\n[Inspiration.GetCompletionEffect]\n\n"
  CHARACTER_HAS_INSPIRATION_TOOLTIP:1 "#T Вдохновение#!\n[Character.GetUIName] имеет [Character.GetCurrentInspiration.GetName|l] — [Character.Custom('InspirationTypeDescriptionFuturePresent')]."
  inspiration_type_desc_present:0 "[ROOT.Char.GetSheHe] [ROOT.Char.Custom('InspirationTypeDescription')]"

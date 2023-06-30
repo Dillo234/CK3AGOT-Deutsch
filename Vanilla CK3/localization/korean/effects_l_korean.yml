@@ -1,16 +1,16 @@
 ﻿l_korean:
- CHARACTER_DEATH_EFFECT:0 "사망함"
- CHARACTER_DEATH_EFFECT_THIRD:0 "[CHARACTER.GetShortUIName|U](이)가 사망함"
+ CHARACTER_DEATH_EFFECT:1 "@death_icon! 사망함"
+ CHARACTER_DEATH_EFFECT_THIRD:1 "@death_icon! [CHARACTER.GetShortUIName|U] 사망함"
  CHARACTER_DEATH_EFFECT_FIRST:1 "@death_icon! 당신이 사망함"
- CHARACTER_DIED_EFFECT:0 "[CHARACTER.GetShortUIName|U](은)는 사망함"
- CHARACTER_DIED_EFFECT_THIRD:0 "[CHARACTER.GetShortUIName|U](은)는 사망함"
- CHARACTER_DIED_EFFECT_FIRST:1 "당신은 사망함"
- CHARACTER_DEATH_EFFECT_KILLER:0 "[TARGET_CHARACTER.GetShortUIName]에게 살해당함"
- CHARACTER_DEATH_EFFECT_KILLER_THIRD:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 살해당함"
- CHARACTER_DEATH_EFFECT_KILLER_FIRST:1 "[TARGET_CHARACTER.GetShortUIName]에게 살해당함"
+ CHARACTER_DIED_EFFECT:1 "@death_icon! [CHARACTER.GetShortUIName|U] 사망함"
+ CHARACTER_DIED_EFFECT_THIRD:1 "@death_icon! [CHARACTER.GetShortUIName|U] 사망함"
+ CHARACTER_DIED_EFFECT_FIRST:2 "@death_icon! 당신은 사망했음"
+ CHARACTER_DEATH_EFFECT_KILLER:1 "@death_icon! [TARGET_CHARACTER.GetShortUIName]에게 살해당함"
+ CHARACTER_DEATH_EFFECT_KILLER_THIRD:1 "@death_icon! [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 살해당함"
+ CHARACTER_DEATH_EFFECT_KILLER_FIRST:2 "@death_icon! 당신은 [TARGET_CHARACTER.GetShortUIName]에게 살해당함"
  CHARACTER_DIED_EFFECT_KILLER:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 살해당함"
- CHARACTER_DIED_EFFECT_KILLER_THIRD:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 살해당함"
- CHARACTER_DIED_EFFECT_KILLER_FIRST:1 "[TARGET_CHARACTER.GetShortUIName]에게 살해당함"
+ CHARACTER_DIED_EFFECT_KILLER_THIRD:1 "@death_icon! [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 살해당함"
+ CHARACTER_DIED_EFFECT_KILLER_FIRST:2 "@death_icon! 당신은 [TARGET_CHARACTER.GetShortUIName]에게 살해당함"
  RANDOM_LIST_EFFECT:0 "$SIZE$ 중 하나가 발생함: \n"
  RANDOM_EFFECT:0 "$CHANCE$% 확률로 발생: "
  NO_EFFECT:0 "#weak 아무 일도 일어나지 않음#!"
@@ -147,25 +147,25 @@
  WILL_MARRY_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName](와)과 [marries|E]함"
  I_WILL_MARRY_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName](와)과 [marry|E]함"
  THEY_WILL_MARRY_EFFECT:1 "[CHARACTER.GetShortUIName|U] [marries|E] [TARGET_CHARACTER.GetShortUIName]"
+ WILL_MARRY_EFFECT_PAST:0 "[TARGET_CHARACTER.GetShortUIName](와)과 [married|E]함"
+ I_WILL_MARRY_EFFECT_PAST:0 "[TARGET_CHARACTER.GetShortUIName](와)과 [married|E]함"
+ THEY_WILL_MARRY_EFFECT_PAST:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](와)과 [married|E]함"
 
  WILL_MARRY_MATRILINEALLY_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName](와)과 [matrilineally|E] [marry|E]을 하게 됨"
  I_WILL_MARRY_MATRILINEALLY_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName](와)과 [matrilineally|E] [marry|E]을 하게 됨"
  THEY_WILL_MARRY_MATRILINEALLY_EFFECT:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](와)과 [matrilineally|E] [marry|E]을 하게 됨"
  
- CHANGED_MY_GOVERNMENT:0 "당신의 정부 체제를 [GOVERNMENT.GetName](으)로 변경함"
- CHANGED_THEIR_GOVERNMENT:0 "[CHARACTER.GetName]의 정부 체제를 [GOVERNMENT.GetName](으)로 변경함"
- CHANGED_GOVERNMENT:0 "정부 체제를 [GOVERNMENT.GetName](으)로 변경함"
- CHANGE_GOVERNMENT:0 "정부 체제를 [GOVERNMENT.GetName](으)로 변경함"
- CHANGE_MY_GOVERNMENT:0 "당신의 정부 체제를 [GOVERNMENT.GetName](으)로 변경함"
- CHANGE_THEIR_GOVERNMENT:0 "[CHARACTER.GetName]의 정부 체제를 [GOVERNMENT.GetName](으)로 변경함"
+ CHANGED_MY_GOVERNMENT:1 "당신의 정부 체제를 [GOVERNMENT_TYPE.GetName](으)로 변경함"
+ CHANGED_THEIR_GOVERNMENT:1 "[CHARACTER.GetName]의 정부 체제를 [GOVERNMENT_TYPE.GetName](으)로 변경함"
+ CHANGED_GOVERNMENT:1 "정부 체제를 [GOVERNMENT_TYPE.GetName](으)로 변경함"
+ CHANGE_GOVERNMENT:1 "정부 체제를 [GOVERNMENT_TYPE.GetName](으)로 변경함"
+ CHANGE_MY_GOVERNMENT:1 "당신의 정부 체제를 [GOVERNMENT_TYPE.GetName](으)로 변경함"
+ CHANGE_THEIR_GOVERNMENT:1 "[CHARACTER.GetName]의 정부 체제를 [GOVERNMENT_TYPE.GetName](으)로 변경함"
 
  FORBID_FROM_SCHEME_EFFECT:0 "[SCHEME.GetName]에 공모자로 가담하는 것이 금지됨"
  ALLOW_IN_SCHEME_EFFECT:0 "[SCHEME.GetName]에 공모자로 가담하는 것이 허용됨"
  EVERY_PARENT_EFFECT:0 "모든 부모"
  RANDOM_PARENT_EFFECT:0 "임의의 부모"
- WIN_COMBAT_EFFECT_POSITIVE:0 "[battle|E]에서 승리함"
- LOSES_COMBAT_EFFECT_POSITIVE:0 "[battle|E]에서 패배함"
- END_COMBAT_EFFECT_NEGATIVE:0 "[battle|E]가 끝나지 않음"
  SCOPE_EMPTY:0 ""
 
  I_CONVERT_TO:1 "[FAITH.GetName|V](으)로 개종함"
@@ -196,7 +196,7 @@
  CANCEL_TRUCE_ONE_WAY_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName](와)과의 [truce|E]이 만료됨"
  CANCEL_TRUCE_ONE_WAY_EFFECT_FIRST:1 "당신과 [TARGET_CHARACTER.GetShortUIName] 사이의 [truce|E]이 만료됨"
  CANCEL_TRUCE_ONE_WAY_EFFECT_THIRD:0 "[TARGET_CHARACTER.GetShortUIName](와)과 [CHARACTER.GetShortUINamePossessive] [truce|E]이 만료됨"
- CANCEL_TRUCE_BOTH_WAYS_EFFECT:2 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUINameOrMy] [truce|E]이 만료됨"
+ CANCEL_TRUCE_BOTH_WAYS_EFFECT:2 "[TARGET_CHARACTER.GetShortUIName](와)과 [CHARACTER.GetShortUINamePossessive] [truce|E]이 만료됨"
  I_GAIN_GOLD_EFFECT:1 "[gold_i]$VALUE|+0$(을)를 획득함"
  I_LOSE_GOLD_EFFECT:1 "[gold_i]$VALUE|-0$(을)를 상실함"
  GAIN_GOLD_EFFECT:0 "[gold_i]$VALUE|V0$(을)를 획득함"
@@ -269,14 +269,14 @@
  all_zealous_in_the_court:0 "[THIS.GetCharacter.GetShortUINamePossessiveNoTooltip] 궁정의 모든 열성적 인물"
  all_craven_in_the_court:0 "[THIS.GetCharacter.GetShortUINamePossessiveNoTooltip] 궁정의 모든 겁쟁이 인물"
  all_compassionate_in_the_court:0 "[THIS.GetCharacter.GetShortUINamePossessiveNoTooltip] 궁정의 모든 연민 어린 인물"
- all_close_family_and_spouses:1 "[THIS.GetCharacter.GetShortUIName]의 모든 [close_family_members|E]과 [spouse|E]"
+ all_close_family_and_spouses:2 "[THIS.GetCharacter.GetShortUINamePossessive|U] [close_family_members|E] 및 [spouses|E]"
  all_your_guests:0 "당신의 모든 [guests|E]"
  all_close_family_members_of_kicked_characters:0 "그들의 모든 [close_family_members|E]"
  all_dynasty_members:0 "[PREV.GetCharacter.GetShortUIName]의 모든 가문 구성원"
  all_house_members:0 "[PREV.GetCharacter.GetShortUIName]의 모든 집안 구성원"
  all_vassals:0 "[THIS.GetCharacter.GetShortUIName]의 모든 봉신"
  all_other_vassals:1 "당신의 다른 모든 봉신"
- all_hunt_participants:0 "사냥의 모든 참가자"
+ all_hunt_participants:2 "모든 [GetActivityType('activity_hunt').GetName] 참여자"
  all_friends_and_lovers:0 "[THIS.GetCharacter.GetShortUIName]의 모든 [friends|E]와 [lovers|E]"
  all_in_dungeon:0 "지하 감옥 내 모든 죄수"
  all_in_house_arrest:0 "자택 연금 중인 모든 죄수"
@@ -324,15 +324,17 @@
  MY_SET_SECRET_OWNER_EFFECT:2 "[SECRET.GetName] 비밀의 소유자가 됨"
  THEIR_SET_SECRET_OWNER_EFFECT:1 "[CHARACTER.GetUIName](이)가 [SECRET.GetName] 비밀의 소유자가 됨"
  EFFECT_CHARACTER_HEADER:0 "[CHARACTER.GetShortUINameNoTooltip]:\n"
- MAKE_CONCUBINE_EFFECT:4 "[TARGET_CHARACTER.GetShortUIName](을)를 [TARGET_CHARACTER.Custom('ConcubineConsortGameConcept')]으로 삼음"
+ MAKE_CONCUBINE_EFFECT:4 "[TARGET_CHARACTER.GetShortUIName](을)를 [concubine|E]으로 삼음"
  MADE_CONCUBINE_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName](을)를 [concubine|E](으)로 삼음"
- I_MADE_CONCUBINE_EFFECT:2 "[TARGET_CHARACTER.GetTitledFirstName](을)를 [TARGET_CHARACTER.Custom('ConcubineConsortWomanManGameConcept')]으로 삼음"
- THEY_MADE_CONCUBINE_EFFECT:1 "[CHARACTER.GetTitledFirstName](이)가 [TARGET_CHARACTER.GetTitledFirstName](을)를 [TARGET_CHARACTER.Custom('ConcubineConsortWomanManGameConcept')]으로 삼음"
- REMOVE_CONCUBINE_EFFECT:4 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.Custom('ConcubineConsortGameConcept')]에서 축출당함"
- THEY_REMOVE_CONCUBINE_EFFECT:2 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] [TARGET_CHARACTER.Custom('ConcubineConsortWomanManGameConcept')]에서 축출당함"
+ I_MADE_CONCUBINE_EFFECT:2 "[TARGET_CHARACTER.GetShortUIName](을)를 [TARGET_CHARACTER.Custom('ConcubineWomanManGameConcept')]으로 삼음"
+ THEY_MADE_CONCUBINE_EFFECT:1 "[CHARACTER.GetShortUIName](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 [TARGET_CHARACTER.Custom('ConcubineWomanManGameConcept')]으로 삼음"
+ REMOVE_CONCUBINE_EFFECT:4 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [concubine|E]에서 축출당함"
+ THEY_REMOVE_CONCUBINE_EFFECT:2 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] [TARGET_CHARACTER.Custom('ConcubineWomanManGameConcept')]에서 축출당함"
  CREATE_BETROTHAL_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName](와)과 약혼을 맺음"
  CREATE_BETROTHAL_MATRILINEAL_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName](와)과 [matrilineally|E] 약혼을 맺음"
  THEY_GET_BETROTHED_EFFECT:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](와)과 약혼을 맺음"
+ CREATED_BETROTHAL_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName](와)과 약혼을 맺음"
+ THEY_GOT_BETROTHED_EFFECT:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](와)과 약혼을 맺음"
 
  BECOMES_PREGNANT_WITH_TARGET_CHARACTERS_CHILD:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 아이를 뱀"
  I_BECOME_PREGNANT_WITH_TARGET_CHARACTERS_CHILD:1 "[TARGET_CHARACTER.GetShortUINamePossessive] 아이를 뱀"
@@ -483,7 +485,16 @@
  ADDED_COURTIER_TO_MY_COURT:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 당신의 궁정에 합류함"
  ADDED_COURTIER_TO_THEIR_COURT:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 궁정에 합류함"
 
-
+ SET_KNIGHT_STATUS:0 "[CHARACTER.GetShortUIName|U](이)가 $STATUS$ 상태가 됨"
+ SET_MY_KNIGHT_STATUS:0 "내가 $STATUS$ 상태가 됨"
+ SET_THEIR_KNIGHT_STATUS:0 "[CHARACTER.GetShortUIName|U](이)가 $STATUS$ 상태가 됨"
+ SET_KNIGHT_STATUS_PAST:0 "[CHARACTER.GetShortUIName|U](이)가 $STATUS$ 상태가 됨"
+ SET_MY_KNIGHT_STATUS_PAST:0 "내가 $STATUS$ 상태가 됨"
+ SET_THEIR_KNIGHT_STATUS_PAST:0 "[CHARACTER.GetShortUIName|U](이)가 $STATUS$ 상태가 됨"
+ 
+ knight_status_force:0 "$knight_culture_player$"
+ knight_status_default:0 "$knight_culture_player$ 신분을 허락받음"
+ knight_status_not:0 "$knight_culture_player$ 신분을 금지당함"
 
  ADD_MODIFIER_TO_MY_SCHEME_DURATION:1 "당신의 [SCHEME.GetName](이)가 $DURATION|V$ 동안 $MODIFIER$(을)를 획득함"
  ADD_SCHEME_MODIFIER_TO_SCHEME_EFFECT_DURATION:0 "[SCHEME.GetName](이)가 $DURATION|V$ 동안 $MODIFIER$(을)를 획득함"
@@ -551,8 +562,10 @@
  I_LOST_A_GUARDIAN:0 "[TARGET_CHARACTER.GetShortUIName](이)가 [guardian|E]이 아니게 됨"
 
  GLOBAL_BECOME_WARD:0 "[TARGET_CHARACTER.GetShortUINamePossessive] [ward|E]이 됨"
+ GLOBAL_BECAME_WARD:0 "[TARGET_CHARACTER.GetShortUINamePossessive] [ward|E]이 됨"
  THEY_GET_A_WARD:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] [ward|E]이 됨"
  GLOBAL_BECOME_GUARDIAN:0 "[TARGET_CHARACTER.GetShortUINamePossessive] [guardian|E]이 됨"
+
  THEY_LOSE_A_WARD:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 이제 [CHARACTER.GetShortUINamePossessive] [ward|E]이 아님"
  THEY_LOST_A_WARD:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 이제 [CHARACTER.GetShortUINamePossessive] [ward|E]이 아님"
  LOSE_A_WARD:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetHerHis] [ward|E]이 아니게 됨"
@@ -567,13 +580,20 @@
  I_GAIN_INTRIGUE_STUDENT:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 당신의 [intrigue|E] 기술 제자가 됨"
  I_LOSE_INTRIGUE_MENTOR:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 이제 당신의 [intrigue|E] 기술 스승이 아님"
  I_LOSE_INTRIGUE_STUDENT:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 이제 당신의 [intrigue|E] 기술 제자가 아님"
+ 
  I_GAIN_POTENTIAL_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName](와)과 우정이 싹틀 정도로 가까워짐"
  I_GAINED_POTENTIAL_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName](와)과 우정이 싹틀 정도로 가까워짐"
  THEY_GAIN_POTENTIAL_FRIEND:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](와)과 우정이 싹틀 정도로 가까워짐"
  THEY_GAINED_POTENTIAL_FRIEND:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](와)과 우정이 싹틀 정도로 가까워짐"
  GAINS_POTENTIAL_FRIEND:0 "[TARGET_CHARACTER.GetShortUIName](와)과 우정이 싹틀 정도로 가까워짐"
  GAINED_POTENTIAL_FRIEND:0 "[TARGET_CHARACTER.GetShortUIName](와)과 우정이 싹틀 정도로 가까워짐"
+
+ LOSE_POTENTIAL_FRIEND:0 "[TARGET_CHARACTER.GetShortUIName](와)과 거리를 둠"
+ LOST_POTENTIAL_FRIEND:0 "[TARGET_CHARACTER.GetShortUIName](와)과 거리를 둠"
  I_LOSE_POTENTIAL_FRIEND:2 "당신과 [TARGET_CHARACTER.GetShortUIName](이)가 이제 가까운 사이가 아니게 됨"
+ I_LOST_POTENTIAL_FRIEND:0 "당신과 [TARGET_CHARACTER.GetShortUIName]의 사이가 멀어짐"
+ THEY_LOSE_POTENTIAL_FRIEND:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName]의 사이가 멀어짐"
+ THEY_LOST_POTENTIAL_FRIEND:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName]의 사이가 멀어짐"
 
  I_GAIN_POTENTIAL_LOVER:1 "[TARGET_CHARACTER.GetShortUIName](와)과 애정이 싹틀 정도로 가까워짐"
  I_GOT_POTENTIAL_LOVER:1 "[TARGET_CHARACTER.GetShortUIName](와)과 애정이 싹틀 정도로 가까워짐"
@@ -591,6 +611,27 @@
  LOSES_POTENTIAL_RIVAL:0 "[TARGET_CHARACTER.GetShortUIName](와)과 서로 으르렁대지 않음"
  THEY_GAIN_POTENTIAL_RIVAL:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](와)과의 사이에서 경쟁의식이 싹트기 시작함"
  THEY_GAINED_POTENTIAL_RIVAL:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](와)과의 사이에서 경쟁의식을 싹틔움"
+ 
+ I_GAIN_WEDDING_GOOD_FERTILITY:0 "당신과 [TARGET_CHARACTER.GetShortUIName]의 결혼은 자식을 많이 낳을 운명임"
+ I_GAINED_WEDDING_GOOD_FERTILITY:0 "당신과 [TARGET_CHARACTER.GetShortUIName]의 결혼은 자식을 많이 낳을 운명임"
+ GAINS_WEDDING_GOOD_FERTILITY:0 "[TARGET_CHARACTER.GetShortUIName](와)과의 결혼은 자식을 많이 낳을 운명임"
+ GAINED_WEDDING_GOOD_FERTILITY:0 "[TARGET_CHARACTER.GetShortUIName](와)과의 결혼은 자식을 많이 낳을 운명임"
+ THEY_GAIN_WEDDING_GOOD_FERTILITY:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName]의 결혼은 자식을 많이 낳을 운명임"
+ THEY_GAINED_WEDDING_GOOD_FERTILITY:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName]의 결혼은 자식을 많이 낳을 운명임"
+ 
+ I_GAIN_WEDDING_VERY_GOOD_FERTILITY:0 "당신과 [TARGET_CHARACTER.GetShortUIName]의 결혼은 #EMP 엄청난#! 수태력을 자랑할 것임"
+ I_GAINED_WEDDING_VERY_GOOD_FERTILITY:0 "당신과 [TARGET_CHARACTER.GetShortUIName]의 결혼은 #EMP 엄청난#! 수태력을 자랑할 것임"
+ GAINS_WEDDING_VERY_GOOD_FERTILITY:0 "[TARGET_CHARACTER.GetShortUIName](와)과의 결혼은 #EMP 엄청난#! 수태력을 자랑할 것임"
+ GAINED_WEDDING_VERY_GOOD_FERTILITY:0 "[TARGET_CHARACTER.GetShortUIName](와)과의 결혼은 #EMP 엄청난#! 수태력을 자랑할 것임"
+ THEY_GAIN_WEDDING_VERY_GOOD_FERTILITY:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName]의 결혼은 #EMP 엄청난#! 수태력을 자랑할 것임"
+ THEY_GAINED_WEDDING_VERY_GOOD_FERTILITY:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName]의 결혼은 #EMP 엄청난#! 수태력을 자랑할 것임"
+ 
+ I_GAIN_WEDDING_BAD_FERTILITY:0 "당신과 [TARGET_CHARACTER.GetShortUIName]의 결혼은 자식을 많이 낳을 운명이 #bold 아님#!"
+ I_GAINED_WEDDING_BAD_FERTILITY:0 "당신과 [TARGET_CHARACTER.GetShortUIName]의 결혼은 자식을 많이 낳을 운명이 #bold 아님#!"
+ GAINS_WEDDING_BAD_FERTILITY:0 "[TARGET_CHARACTER.GetShortUIName](와)과의 결혼은 자식을 많이 낳을 운명이 #bold 아님#!"
+ GAINED_WEDDING_BAD_FERTILITY:0 "[TARGET_CHARACTER.GetShortUIName](와)과의 결혼은 자식을 많이 낳을 운명이 #bold 아님#!"
+ THEY_GAIN_WEDDING_BAD_FERTILITY:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName]의 결혼은 자식을 많이 낳을 운명이 #bold 아님#!"
+ THEY_GAINED_WEDDING_BAD_FERTILITY:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName]의 결혼은 자식을 많이 낳을 운명이 #bold 아님#!"
 
  I_GET_A_VISITOR:2 "[TARGET_CHARACTER.GetShortUIName|U](이)가 당신의 [court|E]에 와서 머무름"
  THEY_GET_A_VISITOR:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] [court|E]에 와서 머무름"
@@ -625,6 +666,7 @@
  I_LOSE_VICTIM:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 이제 당신의 왕따가 아님"
 
  GET_FRIEND:0 "[TARGET_CHARACTER.GetShortUINamePossessive] #V 친구#!가 됨"
+ GOT_FRIEND:0 "[TARGET_CHARACTER.GetShortUINamePossessive] #V 친구#!가 됨"
  I_GET_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 당신의 #V 친구#!가 됨"
  I_GOT_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 당신의 #V 친구#!가 됨"
  THEY_GET_FRIEND:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 #V 친구#!가 됨"
@@ -632,6 +674,7 @@
  LOSE_FRIEND:0 "[TARGET_CHARACTER.GetShortUINamePossessive] #V 친구#!가 아니게 됨"
  I_LOSE_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U](와)과 이제 #V 친구#!가 아니게 됨"
  THEY_LOSE_FRIEND:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 이제 #V 친구#!가 아니게 됨"
+ LOST_FRIEND:0 "[TARGET_CHARACTER.GetShortUINamePossessive] #V 친구#!가 아니게 됨"
 
  GET_SOLDIER_FRIEND:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 군인 친구가 됨"
  I_GET_SOLDIER_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 당신의 군인 친구가 됨"
@@ -652,12 +695,14 @@
  THEY_LOSE_RIVAL:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 경쟁자가 아니게 됨"
 
  GET_LOVER:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 연인이 됨"
+ GOT_LOVER:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 연인이 됨"
  I_GET_LOVER:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 당신의 연인이 됨"
  THEY_GET_LOVER:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 연인이 됨"
  I_GOT_LOVER:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 당신의 연인이 됨"
  THEY_GOT_LOVER:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 연인이 됨"
  
  LOSE_LOVER:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 연인이 아니게 됨"
+ LOST_LOVER:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 연인이 아니게 됨"
  I_LOSE_LOVER:1 "[TARGET_CHARACTER.GetShortUIName|U](와)과 이제 연인이 아님"
  THEY_LOSE_LOVER:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 이제 연인이 아님"
  I_LOST_LOVER:1 "[TARGET_CHARACTER.GetShortUIName|U](와)과 이제 연인이 아님"
@@ -677,34 +722,42 @@
  THEY_LOST_COURT_PHYSICIAN:1 "[TARGET_CHARACTER.GetShortUIName](이)가 [CHARACTER.GetShortUIName|U]의 [GetCourtPositionType('court_physician_court_position').GetName()]가 아니게 됨"
  
  GET_SOULMATE:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 천생연분이 됨"
+ GOT_SOULMATE:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 천생연분이 됨"
  I_GET_SOULMATE:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 당신의 천생연분이 됨"
  THEY_GET_SOULMATE:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 천생연분이 됨"
  I_GOT_SOULMATE:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 당신의 천생연분이 됨"
  THEY_GOT_SOULMATE:1 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 천생연분이 됨"
 
  LOSE_SOULMATE:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 천생연분이 아니게 됨"
+ LOST_SOULMATE:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 천생연분이 아니게 됨"
  I_LOSE_SOULMATE:1 "[TARGET_CHARACTER.GetShortUIName|U](와)과 천생연분이 아니게 됨"
  THEY_LOSE_SOULMATE:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 천생연분이 아니게 됨"
  I_LOST_SOULMATE:1 "[TARGET_CHARACTER.GetShortUIName|U](와)과 천생연분이 아니게 됨"
  THEY_LOST_SOULMATE:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 천생연분이 아니게 됨"
 
  GET_BEST_FRIEND:1 "[TARGET_CHARACTER.GetShortUINamePossessive] [best_friend|E]가 될 것임"
+ GOT_BEST_FRIEND:0 "[TARGET_CHARACTER.GetShortUINamePossessive] [best_friend|E]가 됨"
  I_GET_BEST_FRIEND:2 "[TARGET_CHARACTER.GetShortUIName|U](이)가 당신의 [best_friend|E]가 될 것임"
  THEY_GET_BEST_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 [best_friend|E]가 될 것임"
  I_GOT_BEST_FRIEND:2 "[TARGET_CHARACTER.GetShortUIName|U](이)가 당신의 [best_friend|E]가 됨"
  THEY_GOT_BEST_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 [best_friend|E]가 됨"
+
  LOSE_BEST_FRIEND:1 "[TARGET_CHARACTER.GetShortUINamePossessive] [best_friend|E]가 아니게 됨"
+ LOST_BEST_FRIEND:0 "[TARGET_CHARACTER.GetShortUINamePossessive] [best_friend|E]가 아니게 됨"
  I_LOSE_BEST_FRIEND:2 "[TARGET_CHARACTER.GetShortUIName|U](와)과 당신이 [best_friend|E]가 아니게 됨"
  THEY_LOSE_BEST_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 [best_friend|E]가 아니게 됨"
  I_LOST_BEST_FRIEND:2 "[TARGET_CHARACTER.GetShortUIName|U](와)과 당신은 이제 [best_friend|E]가 아님"
  THEY_LOST_BEST_FRIEND:1 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 이제 [best_friend|E]가 아님"
 
  GET_NEMESIS:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 천적이 됨"
+ GOT_NEMESIS:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 천적이 됨"
  I_GET_NEMESIS:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 당신의 천적이 됨"
  THEY_GET_NEMESIS:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 천적이 됨"
  I_GOT_NEMESIS:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 당신의 천적이 됨"
  THEY_GOT_NEMESIS:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 천적이 됨"
+
  LOSE_NEMESIS:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 천적이 아니게 됨"
+ LOST_NEMESIS:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 천적이 아니게 됨"
  I_LOSE_NEMESIS:1 "[TARGET_CHARACTER.GetShortUIName|U](와)과 천적이 아니게 됨"
  THEY_LOSE_NEMESIS:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 천적이 아니게 됨"
  I_LOST_NEMESIS:1 "[TARGET_CHARACTER.GetShortUIName|U](와)과 천적이 아니게 됨"
@@ -754,19 +807,22 @@
 
  SET_CULTURE_OF_CHARACTER_SAME_AS:0 "[CHARACTER.GetShortUINamePossessive] 문화가 [TARGET_CHARACTER.GetShortUIName](와)과 같은 문화 ([TARGET_CHARACTER.GetCulture.GetName|V])로 전향됨"
  SAT_CUTLURE_OF_CHARACTER_SAME_AS:0 "[CHARACTER.GetShortUINamePossessive] 문화가 [TARGET_CHARACTER.GetShortUIName](와)과 같은 문화 ([TARGET_CHARACTER.GetCulture.GetName|V])로 전향됨"
- 
- I_ENTERED_CHALLENGE_EFFECT:1 "@$SKILL_ICON$!$SKILL$ 도전"
- THEY_ENTERED_CHALLENGE_EFFECT:1 "[CHARACTER.GetShortUIName|U]:\n @$SKILL_ICON$!$SKILL$ 도전"
- ENTERED_CHALLENGE_EFFECT:1 "@$SKILL_ICON$!$SKILL$ 도전"
- I_ENTER_CHALLENGE_EFFECT:1 "@$SKILL_ICON$!$SKILL$ 도전"
- THEY_ENTER_CHALLENGE_EFFECT:1 "[CHARACTER.GetShortUIName|U]:\n @$SKILL_ICON$!$SKILL$ 도전"
- ENTERS_CHALLENGE_EFFECT:1 "@$SKILL_ICON$!$SKILL$ 도전"
- I_ENTERED_DUEL_AGAINST_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName](을)를 상대로 한 @$SKILL_ICON$!$SKILL$ 도전"
- THEY_ENTERED_DUEL_AGAINST_EFFECT:1 "[CHARACTER.GetShortUIName|U]:\n[TARGET_CHARACTER.GetShortUIName](을)를 상대로 한 @$SKILL_ICON$!$SKILL$ 도전"
- ENTERED_DUEL_AGAINST_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName](을)를 상대로 한 @$SKILL_ICON$!$SKILL$ 도전"
- I_ENTER_DUEL_AGAINST_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName](을)를 상대로 한 @$SKILL_ICON$!$SKILL$ 도전"
- THEY_ENTER_DUEL_AGAINST_EFFECT:1 "[CHARACTER.GetShortUIName|U]:\n[TARGET_CHARACTER.GetShortUIName](을)를 상대로 한 @$SKILL_ICON$!$SKILL$ 도전"
- ENTERS_DUEL_AGAINST_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName](을)를 상대로 한 @$SKILL_ICON$!$SKILL$ 도전"
+
+ SKILL_CHALLENGE_LIST_ITEM:0 "@$SKILL_ICON$!$SKILL$"
+ SKILL_CHALLENGE_SINGLE:0 "$SKILL_LIST$ 도전"
+ SKILL_CHALLENGE_MULTI:0 "종합 $SKILL_LIST$ 도전"
+ I_ENTERED_CHALLENGE_EFFECT:2 "$SKILL_CHALLENGE$"
+ THEY_ENTERED_CHALLENGE_EFFECT:2 "[CHARACTER.GetShortUIName|U]:\n $SKILL_CHALLENGE$"
+ ENTERED_CHALLENGE_EFFECT:2 "$SKILL_CHALLENGE$"
+ I_ENTER_CHALLENGE_EFFECT:2 "$SKILL_CHALLENGE$"
+ THEY_ENTER_CHALLENGE_EFFECT:2 "[CHARACTER.GetShortUIName|U]:\n $SKILL_CHALLENGE$"
+ ENTERS_CHALLENGE_EFFECT:2 "$SKILL_CHALLENGE$"
+ I_ENTERED_DUEL_AGAINST_EFFECT:2 "$SKILL_CHALLENGE$ 대상 [TARGET_CHARACTER.GetShortUIName]"
+ THEY_ENTERED_DUEL_AGAINST_EFFECT:2 "[CHARACTER.GetShortUIName|U]:\n$SKILL_CHALLENGE$ 도전 대상 [TARGET_CHARACTER.GetShortUIName]"
+ ENTERED_DUEL_AGAINST_EFFECT:2 "$SKILL_CHALLENGE$ 대상 [TARGET_CHARACTER.GetShortUIName]"
+ I_ENTER_DUEL_AGAINST_EFFECT:2 "$SKILL_CHALLENGE$ 대상 [TARGET_CHARACTER.GetShortUIName]"
+ THEY_ENTER_DUEL_AGAINST_EFFECT:2 "[CHARACTER.GetShortUIName|U]:\n$SKILL_CHALLENGE$ 대상 [TARGET_CHARACTER.GetShortUIName]"
+ ENTERS_DUEL_AGAINST_EFFECT:2 "$SKILL_CHALLENGE$ 대상 [TARGET_CHARACTER.GetShortUIName]"
  
  I_RECEIVED_MODIFIER_EFFECT:1 "$MODIFIER|V$(을)를 획득함"
  THEY_RECEIVED_MODIFIER_EFFECT:0 "[CHARACTER.GetShortUIName|U](은)는 $MODIFIER|V$(을)를 획득함"
@@ -775,11 +831,11 @@
  THEY_RECEIVE_MODIFIER_EFFECT:0 "[CHARACTER.GetShortUIName|U](은)는 $MODIFIER|V$(을)를 획득함"
  RECEIVES_MODIFIER_EFFECT:0 "$MODIFIER|V$(을)를 획득함"
  
- I_RECEIVED_MODIFIER_UNTIL_EFFECT:1 "$DURATION$ 동안 $MODIFIER|V$(을)를 획득함"
- THEY_RECEIVED_MODIFIER_UNTIL_EFFECT:0 "[CHARACTER.GetShortUIName|U](은)는 $DURATION$ 동안 $MODIFIER|V$(을)를 획득함"
- RECEIVED_MODIFIER_UNTIL_EFFECT:0 "$DURATION$ 동안 $MODIFIER|V$(을)를 획득함"
- I_RECEIVE_MODIFIER_UNTIL_EFFECT:1 "$DURATION$ 동안 $MODIFIER|V$(을)를 획득함"
- THEY_RECEIVE_MODIFIER_UNTIL_EFFECT:0 "[CHARACTER.GetShortUIName|U](은)는 $DURATION$ 동안 $MODIFIER|V$(을)를 획득함"
+ I_RECEIVED_MODIFIER_UNTIL_EFFECT:1 "$DURATION|V$ 동안 $MODIFIER|V$(을)를 획득함"
+ THEY_RECEIVED_MODIFIER_UNTIL_EFFECT:0 "[CHARACTER.GetShortUIName|U](은)는 $DURATION|V$ 동안 $MODIFIER|V$(을)를 획득함"
+ RECEIVED_MODIFIER_UNTIL_EFFECT:0 "$DURATION|V$ 동안 $MODIFIER|V$(을)를 획득함"
+ I_RECEIVE_MODIFIER_UNTIL_EFFECT:1 "$DURATION|V$ 동안 $MODIFIER|V$(을)를 획득함"
+ THEY_RECEIVE_MODIFIER_UNTIL_EFFECT:0 "[CHARACTER.GetShortUIName|U](은)는 $DURATION|V$ 동안 $MODIFIER|V$(을)를 획득함"
  
  I_LOST_MODIFIER_EFFECT:1 "$MODIFIER$(을)를 상실함"
  THEY_LOST_MODIFIER_EFFECT:0 "[CHARACTER.GetShortUIName|U](은)는 $MODIFIER$(을)를 상실함"
@@ -962,9 +1018,9 @@
  
  CB_ALL_ATTACKERS_EFFECT:0 "공격 측의 모든 인물"
  
- CLAIM_BECOMES_STRONG:0 "[TARGET_TITLE.GetName]에 대한 [claim|E]이 [pressed|e]됨"
- MY_CLAIM_BECOMES_STRONG:1 "[TARGET_TITLE.GetName]에 대한 당신의 명분이 [pressed|e]됨"
- THEIR_CLAIM_BECOMES_STRONG:0 "[TARGET_TITLE.GetName]에 대한 [CHARACTER.GetUINamePossessive] 명분이 [pressed|e]됨"
+ CLAIM_BECOMES_STRONG:0 "[TARGET_TITLE.GetName]에 대한 [claim|E]이 [pressed|E]됨"
+ MY_CLAIM_BECOMES_STRONG:1 "[TARGET_TITLE.GetName]에 대한 당신의 명분이 [pressed|E]됨"
+ THEIR_CLAIM_BECOMES_STRONG:0 "[TARGET_TITLE.GetName]에 대한 [CHARACTER.GetUINamePossessive] 명분이 [pressed|E]됨"
 
  CLAIM_BECOMES_WEAK:0 "[TARGET_TITLE.GetName]에 대한 [claim|E]이 약화됨"
  MY_CLAIM_BECOMES_WEAK:1 "[TARGET_TITLE.GetName]에 대한 당신의 명분이 약화됨"
@@ -990,12 +1046,17 @@
  CHANGE_DEVELOPMENT_LEVEL_PAST:0 "[TITLE.GetName]의 [development|E]가 $VALUE|=0+$만큼 변경됨"
  CHANGE_DEVELOPMENT_PROGRESS:2 "[development|E] 진행도가 $VALUE|0+$만큼 증가함"
  CHANGE_DEVELOPMENT_PROGRESS_NEG:1 "[development|E] 진행도가 $VALUE|0-$만큼 감소함"
+ CHANGE_DEVELOPMENT_PROGRESS_PAST:0 "[TITLE.GetName]의 [development|E] 진행도가 $VALUE|=0+$만큼 증가"
+ CHANGE_DEVELOPMENT_PROGRESS_PAST_NEG:0 "[TITLE.GetName]의 [development|E] 진행도가 $VALUE|=0+$만큼 증가"
  THEY_CHANGE_DEVELOPMENT_PROGRESS:1 "[TITLE.GetName]의 [development|E] 진행도가 $VALUE|0+$만큼 증가함"
  THEY_CHANGE_DEVELOPMENT_PROGRESS_NEG:1 "[TITLE.GetName]의 [development|E] 진행도가 $VALUE|0-$만큼 감소함"
  CHANGE_COUNTY_CONTROL:0 "[control|E]이 $VALUE|=0+$만큼 변경됨"
  CHANGED_COUNTY_CONTROL:0 "[control|E]이 $VALUE|=0+$만큼 변경됨"
  CHANGE_COUNTY_CONTROL_THIRD:0 "[TITLE.GetName]의 [control|E]이 $VALUE|=0+$만큼 변경됨"
  CHANGED_COUNTY_CONTROL_THIRD:0 "[TITLE.GetName]의 [control|E]이 $VALUE|=0+$만큼 변경됨"
+ # Yes I know the below is disgusting but I'm sick of the other way not working & staring at that bloody perspective false positive for months on end.
+ CHANGE_COUNTY_CONTROL_NEG:0 "[control|E]이 #N -#!$VALUE|-0$만큼 변경됨"
+ CHANGE_COUNTY_CONTROL_THIRD_NEG:0 "[TITLE.GetName] [control|E]이 #N -#!$VALUE|-0$만큼 변경됨"
 
  IT_RECEIVES_COUNTY_MODIFIER:1 "[TITLE.GetName](이)가 $MODIFIER|V$(을)를 획득함"
  RECEIVES_COUNTY_MODIFIER:1 "$MODIFIER|V$(을)를 획득함"
@@ -1061,7 +1122,14 @@
  CHARACTER_ACCEPTS_INVITATION:0 "[CHARACTER.GetShortUIName|U](은)는 초대를 승낙함"
  CHARACTER_IS_INVITED:0 "[CHARACTER.GetShortUIName|U](은)는 초대를 받음"
  GLOBAL_ACCEPTS_INVITATION:0 "초대를 승낙함"
+ GLOBAL_DECLINES_INVITATION:0 "초대를 거절함"
  GLOBAL_IS_INVITED:1 "초대를 받음"
+ I_ACCEPT_THE_INVITATION_PAST:0 "당신은 초대를 수락함"
+ CHARACTER_ACCEPTS_INVITATION_PAST:0 "[CHARACTER.GetShortUIName|U](이)가 초대를 수락함"
+ GLOBAL_ACCEPTS_INVITATION_PAST:0 "초대를 수락함"
+ I_DECLINE_THE_INVITATION_PAST:0 "당신은 초대를 거절함"
+ CHARACTER_DECLINES_INVITATION_PAST:0 "[CHARACTER.GetShortUIName|U](이)가 초대를 거절함"
+ GLOBAL_DECLINES_INVITATION_PAST:0 "초대를 거절함"
 
  
  ADD_PRESSED_CLAIM_EFFECT:0 "[TARGET_TITLE.GetName|V]에 대한 [pressed_claim|E]을 획득함"
@@ -1096,6 +1164,9 @@
  BREAK_ALLIANCE_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName](와)과의 [alliance|E]이 파기됨"
  BREAK_ALLIANCE_EFFECT_FIRST:1 "당신과 [TARGET_CHARACTER.GetUIName]의 [alliance|E]이 파기됨"
  BREAK_ALLIANCE_EFFECT_THIRD:0 "[CHARACTER.GetUIName](와)과 [TARGET_CHARACTER.GetUIName]의 [alliance|E]이 파기됨"
+ BREAK_ALLIANCE_EFFECT_PAST:0 "[TARGET_CHARACTER.GetShortUIName](와)과의 [alliance|E]을 파기함"
+ BREAK_ALLIANCE_EFFECT_FIRST_PAST:0 "당신은 [TARGET_CHARACTER.GetUIName](와)과의 [alliance|E]을 파기함"
+ BREAK_ALLIANCE_EFFECT_THIRD_PAST:0 "[CHARACTER.GetUIName](이)가 [TARGET_CHARACTER.GetUIName](와)과의 [alliance|E]을 파기함"
  
  ALLOW_ALLIANCE_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName](와)과의 [alliance|E]이 성립됨"
  ALLOW_ALLIANCE_EFFECT_FIRST:1 "당신과 [TARGET_CHARACTER.GetUIName]의 [allied|E]이 성립됨"
@@ -1288,8 +1359,10 @@
  DYNASTY_LOSES_PRESTIGE_EFFECT:1 "[DYNASTY.GetBaseName] [dynasty|E]이 [dynasty_prestige|E]을 [dynasty_prestige_i]$VALUE|-0$만큼 상실함"
  DYNAST_GAINED_PRESTIGE_EFFECT:1 "[DYNASTY.GetBaseName] [dynasty|E]이 [dynasty_prestige|E]을 [dynasty_prestige_i]$VALUE|+0$만큼 획득함"
  DYNAST_LOST_PRESTIGE_EFFECT:1 "[DYNASTY.GetBaseName] [dynasty|E]이 [dynasty_prestige|E]을 [dynasty_prestige_i]$VALUE|-0$만큼 상실함"
- DYNASTY_GAINED_PRESTIGE_GLOBAL_EFFECT:0 "[dynasty_prestige|E]을 [dynasty_prestige_i]$VALUE|+0$만큼 획득함"
- DYNASTY_LOST_PRESTIGE_GLOBAL_EFFECT:0 "[dynasty_prestige|E]을 [dynasty_prestige_i]$VALUE|-0$만큼 상실함"
+ DYNASTY_GAINED_PRESTIGE_GLOBAL_EFFECT:1 "[DYNASTY.GetBaseName] [dynasty|E]이 [dynasty_prestige|E]을 [dynasty_prestige_i]$VALUE|+0$만큼 획득함"
+ DYNASTY_LOST_PRESTIGE_GLOBAL_EFFECT:1 "[DYNASTY.GetBaseName] [dynasty|E]이 [dynasty_prestige|E]을 [dynasty_prestige_i]$VALUE|-0$만큼 상실함"
+ DYNASTY_GAIN_PRESTIGE_EFFECT:0 "[DYNASTY.GetBaseName] [dynasty|E]이 [dynasty_prestige_i]$VALUE|+0$ 획득"
+ DYNASTY_LOSE_PRESTIGE_EFFECT:0 "[DYNASTY.GetBaseName] [dynasty|E]이 [dynasty_prestige_i]$VALUE|-0$ 소모"
 
  THEOCRACY_APPROVE_EFFECT:1 "당신을 지지하기 시작함 #weak ([church_property|E])#!"
  THEOCRACY_DISAPPROVE_EFFECT:1 "@warning_icon!#X 당신에 대한 지지를 거둠#! #weak ([church_property|E])#!"
@@ -1365,15 +1438,15 @@
  REMOVE_INNOVATION_EFFECT:0 "[CULTURE.GetName] 문화가 $INNOVATION_TYPE|V$에 대한 지식을 상실함"
  REMOVED_INNOVATION_EFFECT:0 "상실한 $INNOVATION_TYPE|V$ 지식: [CULTURE.GetCollectiveNoun]"
 
- ADD_DOCTRINE_GLOBAL_DESC:1 "$DOCTRINE_GROUP$: $DOCTRINE$(을)를 도입함"
- ADD_DOCTRINE_GLOBAL_PAST_DESC:1 "$DOCTRINE_GROUP$: $DOCTRINE$(을)를 도입함"
- ADD_DOCTRINE_THIRD_DESC:1 "[FAITH.GetAdjective] 신앙이 $DOCTRINE_GROUP$: $DOCTRINE$(을)를 도입함"
- ADD_DOCTRINE_THIRD_PAST_DESC:1 "[FAITH.GetAdjective] 신앙이 $DOCTRINE_GROUP$: $DOCTRINE$(을)를 도입함"
+ ADD_DOCTRINE_GLOBAL_DESC:2 "[FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]: [FAITH_DOCTRINE.GetName( FAITH.Self )](을)를 도입함"
+ ADD_DOCTRINE_GLOBAL_PAST_DESC:2 "[FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]: [FAITH_DOCTRINE.GetName( FAITH.Self )](을)를 도입함"
+ ADD_DOCTRINE_THIRD_DESC:2 "[FAITH.GetAdjective] 신앙이 [FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]: [FAITH_DOCTRINE.GetName( FAITH.Self )](을)를 도입함"
+ ADD_DOCTRINE_THIRD_PAST_DESC:2 "[FAITH.GetAdjective] 신앙이 [FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]: [FAITH_DOCTRINE.GetName( FAITH.Self )](을)를 도입함"
 
- REMOVE_DOCTRINE_GLOBAL_DESC:1 "$DOCTRINE_GROUP$: $DOCTRINE$(을)를 철폐함"
- REMOVE_DOCTRINE_GLOBAL_PAST_DESC:1 "$DOCTRINE_GROUP$: $DOCTRINE$(을)를 철폐함"
- REMOVE_DOCTRINE_THIRD_DESC:1 "[FAITH.GetAdjective] 신앙이 $DOCTRINE_GROUP$: $DOCTRINE$(을)를 철폐함"
- REMOVE_DOCTRINE_THIRD_PAST_DESC:1 "[FAITH.GetAdjective] 신앙이 $DOCTRINE_GROUP$: $DOCTRINE$(을)를 철폐함"
+ REMOVE_DOCTRINE_GLOBAL_DESC:2 "[FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]: [FAITH_DOCTRINE.GetName( FAITH.Self )](을)를 철폐함"
+ REMOVE_DOCTRINE_GLOBAL_PAST_DESC:2 "[FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]: [FAITH_DOCTRINE.GetName( FAITH.Self )](을)를 철폐함"
+ REMOVE_DOCTRINE_THIRD_DESC:2 "[FAITH.GetAdjective] 신앙이 [FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]: [FAITH_DOCTRINE.GetName( FAITH.Self )](을)를 철폐함"
+ REMOVE_DOCTRINE_THIRD_PAST_DESC:2 "[FAITH.GetAdjective] 신앙이 [FAITH_DOCTRINE.GetGroup.GetName( FAITH.Self )]: [FAITH_DOCTRINE.GetName( FAITH.Self )](을)를 철폐함"
 
  GET_RANDOM_INNOVATION_FROM_EFFECT:2 "[CULTURE.GetName] [culture|E]가 [TARGET_CULTURE.GetName] 문화로부터 임의의 [innovation|E]을 전수받음"
  GOT_RANDOM_INNOVATION_FROM_EFFECT:1 "[CULTURE.GetName] [culture|E]가 [TARGET_CULTURE.GetName] 문화로부터 임의의 [innovation|E]을 전수받음"
@@ -1398,9 +1471,16 @@
  INCREASED_CULTURAL_ACCEPTANCE_WITH:1 "[CULTURE.GetCollectiveNoun](와)과 [TARGET_CULTURE.GetCollectiveNoun] 간의 관용 $VALUE|+^/%$만큼 증가"
  REDUCED_CULTURAL_ACCEPTANCE_WITH:1 "[CULTURE.GetCollectiveNoun](와)과 [TARGET_CULTURE.GetCollectiveNoun] 간의 관용 $VALUE|-^/%$만큼 감소"
 
+ REMOVE_CULTURAL_TRADITION:0 "[CULTURE_TRADITION.GetName] 전통을 상실함"
+ ADD_CULTURAL_TRADITION:0 "[CULTURE_TRADITION.GetName] 전통을 얻음"
+ REMOVE_CULTURAL_TRADITION_THIRD:0 "[CULTURE.GetName] 문화가 [CULTURE_TRADITION.GetName] 전통을 상실함"
+ ADD_CULTURAL_TRADITION_THIRD:0 "[CULTURE.GetName] 문화가 [CULTURE_TRADITION.GetName] 전통을 얻음"
+
  LEARN_LANGUAGE_OF_CULTURE_FIRST:1 "[TARGET_CULTURE.GetLanguage.GetName] [language|E] 습득"
  LEARN_LANGUAGE_OF_CULTURE_THIRD:1 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CULTURE.GetLanguage.GetName] [language|E] 습득"
  LEARN_LANGUAGE_OF_CULTURE_GLOBAL:1 "[TARGET_CULTURE.GetLanguage.GetName] [language|E] 습득"
+ LEARN_LANGUAGE_OF_CULTURE_FIRST_PAST:0 "[TARGET_CULTURE.GetLanguage.GetName] [language|E] 습득"
+ LEARN_LANGUAGE_OF_CULTURE_THIRD_PAST:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CULTURE.GetLanguage.GetName] [language|E] 습득"
  UNLEARN_LANGUAGE_OF_CULTURE_FIRST:1 "[TARGET_CULTURE.GetLanguage.GetName] [language|E]를 잊어버림"
  UNLEARN_LANGUAGE_OF_CULTURE_THIRD:1 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CULTURE.GetLanguage.GetName] [language|E]를 잊어버림"
  UNLEARN_LANGUAGE_OF_CULTURE_GLOBAL:1 "[TARGET_CULTURE.GetLanguage.GetName] [language|E]를 잊어버림"
@@ -1421,11 +1501,6 @@
  LOST_THE_BUILDING_NAME:0 "건물([BUILDING.GetName]) 상실"
  PROVINCE_LOSES_THE_BUILDING_NAME:0 "[PROVINCE.GetName]의 봉토에 있는 건물([BUILDING.GetName]) 상실"
  PROVINCE_LOST_THE_BUILDING_NAME:0 "[PROVINCE.GetName]의 봉토에 있는 건물([BUILDING.GetName]) 상실"
-
- GAINS_BUILDING_SLOT:0 "건설 공간을 $VALUE|V0$개 확보함"
- GAINED_BUILDING_SLOT:0 "건설 공간을 $VALUE|V0$개 확보함"
- PROVINCE_GAINS_BUILDING_SLOT:0 "[PROVINCE.GetName]의 봉토에 건설 공간을 $VALUE|V0$개 확보함"
- PROVINCE_GAINED_BUILDING_SLOT:0 "[PROVINCE.GetName]의 봉토에 건설 공간을 $VALUE|V0$개 확보함"
 
  SET_HOLDING_TYPE_EFFECT_GLOBAL:0 "[PROVINCE.GetName](을)를 $NEW_HOLDING_TYPE_NAME$ 봉토로 만듦"
  SET_HOLDING_TYPE_EFFECT_GLOBAL_PAST:0 "[PROVINCE.GetName]에 $NEW_HOLDING_TYPE_NAME$ 봉토를 생성함"
@@ -1472,8 +1547,11 @@
  LEFT_COURT:0 "[CHARACTER.GetLiege.GetShortUINamePossessive] [court|E]을 떠남"
  LEAVES_COURT:1 "[CHARACTER.GetCurrentLocation.GetCounty.GetTitle.GetHolder.GetShortUINamePossessive] [court|E]을 떠남"
  CHARACTER_LEFT_COURT:0 "[CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetLiege.GetShortUINamePossessive] [court|E]을 떠남"
+
  RECRUIT_COURTIER_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName](을)를 [court|E]에 영입함"
+ RECRUITED_COURTIER_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName](을)를 [court|E]으로 영입함"
  THEY_RECRUIT_COURTIER_EFFECT:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName](을)를 [court|E]에 영입함"
+ THEY_RECRUITED_COURTIER_EFFECT:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 [court|E]으로 영입함"
  I_RECRUIT_COURTIER_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName](을)를 [court|E]에 영입함"
  I_RECRUITED_COURTIER_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName](을)를 [court|E]에 영입함"
 
@@ -1569,7 +1647,7 @@
  REFUND_ALL_PERKS_EFFECT:1 "잠금 해제한 [perks|E]가 모두 환급됨"
 
  NO_PENALTY_FOR_LACK_OF_ATTRACTION:1 "[GetScheme('seduce').GetTypeName] [schemes|E]에서 매력 불이익을 제거함"
- I_SUFFER_NO_PENALTY_FOR_LACK_OF_ATTRACTION:2 "[GetScheme('seduce').GetTypeName] [schemes|E]에서 당신의 매력 불이익을 제거함"
+ I_SUFFER_NO_PENALTY_FOR_LACK_OF_ATTRACTION:3 "[GetScheme('seduce').GetTypeName] [schemes|E]에서 당신의 매력 불이익을 제거함\n자유롭게 유혹 [intent|E] 사용 가능"
  THEY_SUFFER_NO_PENALTY_FOR_LACK_OF_ATTRACTION:1 "[GetScheme('seduce').GetTypeName] [schemes|E]에서 [CHARACTER.GetHerHis] 매력 불이익을 제거함"
 
  REMOVES_INCEST_SEDUCTION_PENALTIES:4 "[GetScheme('seduce').GetTypeName] [schemes|E]에서 [title_rank|E] 차이로 발생하는 불이익을 제거함\n19세 이상의 성인을 대상으로 한 [GetScheme('seduce').GetTypeName] [schemes|E]에서 [incestuous|E]으로 발생하는 불이익을 제거함"
@@ -1579,6 +1657,14 @@
  INCREASED_CHANCE_OF_LOVERS_SAVING:1 "[lovers|E]이 자신의 연인을 상대로 하는 [GetScheme('murder').GetTypeName] [schemes|E]에 가담할 공산이 작음\n대신 살인으로부터 구해줄 확률이 높음"
  INCREASED_CHANCE_OF_MY_LOVERS_SAVING_ME:2 "당신의 [lovers|E]이 당신을 상대로 하는 [GetScheme('murder').GetTypeName] [schemes|E]에 가담할 공산이 작음\n대신 당신을 살인으로부터 구해줄 확률이 높음"
  INCREASED_CHANCE_OF_THEIR_LOVERS_SAVING_THEM:1 "[CHARACTER.GetShortUINamePossessive] [lovers|E]은 [CHARACTER.GetHerHim]를 상대로 하는 [GetScheme('murder').GetTypeName] [schemes|E]에 가담할 공산이 작음\n대신 [CHARACTER.GetHerHim]를 살인으로부터 구해줄 확률이 높음"
+ 
+ MURDER_FEAST_UNLOCKED:0 "살인 [GetActivityType('activity_feast').GetName] 잠금 해제"
+ MY_MURDER_FEAST_UNLOCKED:0 "살인 [GetActivityType('activity_feast').GetName] 잠금 해제"
+ THEIR_MURDER_FEAST_UNLOCKED:0 "살인 [GetActivityType('activity_feast').GetName] 잠금 해제"
+ 
+ RED_WEDDING_UNLOCKED:0 "피의 [GetActivityType('activity_wedding').GetName] 잠금 해제"
+ MY_RED_WEDDING_UNLOCKED:0 "피의 [GetActivityType('activity_wedding').GetName] 잠금 해제"
+ THEIR_RED_WEDDING_UNLOCKED:0 "피의 [GetActivityType('activity_wedding').GetName] 잠금 해제"
  
  INCREASED_SEDUCE_SUCCESS_CHANCE_AGAINST_COURTIERS:1 "자신의 [courtiers|E]와 [guests|E]들을 대상으로 한 [GetScheme('seduce').GetTypeName] [scheme|E] [success_chance|E]: #P +[EmptyScope.ScriptValue('home_advantage_perk_bonus')|0]%#!"
  INCREASED_SEDUCE_SUCCESS_CHANCE_AGAINST_MY_COURTIERS:1 "자신의 [courtiers|E]와 [guests|E]들을 대상으로 한 [GetScheme('seduce').GetTypeName] [scheme|E] [success_chance|E]: #P +[EmptyScope.ScriptValue('home_advantage_perk_bonus')|0]%#!"
@@ -1659,7 +1745,7 @@
 
  unlocks_board_games_interaction_effect:0 "$challenge_to_2p_chess_interaction$ [interaction|E]이 잠금 해제되어 다른 [characters|E]과 친선전을 즐길 수 있게 됨"
 
- EACH_FRIEND_ADDS_STRESS_REDUCTION:2 "[friend|E] 하나마다 부여됨: [stress|E] 획득이 [stress_gain_i]#P -5%#!만큼 감소함"
+ EACH_FRIEND_ADDS_STRESS_REDUCTION:3 "[friend|E] 한 명당 적용: [stress_gain_i][stress|E] 획득량 #P -5%#! (최대 [EmptyScope.ScriptValue('confidants_max')|0])"
 
  CHILDREN_ARE_BORN_WITH_EXTRA_STATS:0 "자녀가 추가 [skill|E] 점수를 #P 1#! ~ #P 3#!개 받게 됨"
 
@@ -1755,7 +1841,7 @@
  HOUSE_GUARD_UNLOCK_DESCRIPTION:0 "[GetMaA('house_guard').GetName](을)를 [men_at_arms|E]으로 모병 가능"
  HOUSE_GUARD_DESCRIPTION:1 "#weak 근위 기병 연대는 하나만 모집할 수 있음 (최대 규모: 5)#!"
  
- CHEAPER_HUNTS_AND_FEASTS:0 "[hunt|E] 및 [feast|E] 비용: [gold_i]#P -30%#!"
+ CHEAPER_HUNTS_AND_FEASTS:1 "[GetActivityType('activity_hunt').GetName] 및 [GetActivityType('activity_feast').GetName] 비용: [gold_i]#P -30%#!"
  
  MARRIAGE_ACCEPTANCE_LEGACY_FOR_SELF:0 "[marriage|E] 승낙 여부: #P +[EmptyScope.ScriptValue('glory_legacy_1_marriage_acceptance')|0]#!"
  FEWER_FACTIONS_LEGACY:0 "[vassals|E]이 [claimant_factions|E] 및 [liberty_factions|E]에 가담할 확률이 줄어듦#!"
@@ -1787,8 +1873,8 @@
  I_SET_SEXUALITY_EFFECT:1 "자신이 $SEXUALITY$자라는 것을 알게 됨"
  I_REALIZED_SEXUALITY_EFFECT:0 "자신이 $SEXUALITY$자라는 것을 알게 됨"
 
- I_REMOVE_DECISION_COOLDOWN_EFFECT:1 "당신에게 적용되던 $DECISION_NAME|V$의 대기 시간이 사라짐 #weak (본래 사용 가능 시기: [DATE.GetStringLong])#!"
- THEY_REMOVE_DECISION_COOLDOWN_EFFECT:1 "[CHARACTER.GetShortUIName]에게 적용되던 $DECISION_NAME|V$의 대기 시간이 사라짐 #weak (본래 사용 가능 시기: [DATE.GetStringLong])#!"
+ I_REMOVE_DECISION_COOLDOWN_EFFECT:2 "당신에게 적용되던 [DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]의 대기 시간이 사라짐 #weak (본래 사용 가능 시기: [DATE.GetStringLong])#!"
+ THEY_REMOVE_DECISION_COOLDOWN_EFFECT:2 "[CHARACTER.GetShortUIName]에게 적용되던 [DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]의 대기 시간이 사라짐 #weak (본래 사용 가능 시기: [DATE.GetStringLong])#!"
  
  I_REMOVE_INTERACTION_COOLDOWN_EFFECT:1 "당신에게 적용되던 $INTERACTION_NAME|V$의 대기 시간이 사라짐 #weak (본래 사용 가능 시기: [DATE.GetStringLong])#!"
  THEY_REMOVE_INTERACTION_COOLDOWN_EFFECT:1 "[CHARACTER.GetShortUIName]에게 적용되던 $INTERACTION_NAME|V$의 대기 시간이 사라짐 #weak (본래 사용 가능 시기: [DATE.GetStringLong])#!"
@@ -1837,6 +1923,12 @@
 
  expose_lover_secret_custom_tt:0 "@warning_icon!#X [real_father.GetShortUIName|U](이)가 [GetTrait('adulterer').GetName( GetNullCharacter )](으)로 알려질 것입니다.#!"
 
+ NEW_RELIGIOUS_HEAD_TITLE_GLOBAL_DESC:0 "[TARGET_CHARACTER.GetFaith.GetAdjective] [head_of_faith|E]가 생성됨"
+ NEW_RELIGIOUS_HEAD_TITLE_GLOBAL_PAST_DESC:0 "[TARGET_CHARACTER.GetFaith.GetAdjective] [head_of_faith|E]가 생성됨"
+ NEW_RELIGIOUS_HEAD_TITLE_FIRST_DESC:0 "당신이 [TARGET_CHARACTER.GetFaith.GetAdjective]의 [head_of_faith|E]가 됨"
+ NEW_RELIGIOUS_HEAD_TITLE_FIRST_PAST_DESC:0 "당신이 [TARGET_CHARACTER.GetFaith.GetAdjective]의 [head_of_faith|E]가 됨"
+ NEW_RELIGIOUS_HEAD_TITLE_THIRD_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetFaith.GetAdjective]의 [head_of_faith|E]가 됨"
+ NEW_RELIGIOUS_HEAD_TITLE_THIRD_PAST_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetFaith.GetAdjective]의 [head_of_faith|E]가 됨"
 
  GLOBAL_SET_TITLE_NAME_EFFECT:0 "이름이 $NAME$(으)로 변경됨"
  GLOBAL_SET_TITLE_NAME_EFFECT_PAST:0 "이름이 변경됨"
@@ -2005,7 +2097,7 @@
  custom.every_guest_and_unimportant_courtier:0 "모든 [guest|E]과 중요하지 않은 [courtier|E]"
  custom.every_courtier:0 "모든 [courtier|E]"
  custom.every_guest:0 "모든 [guest|E]"
- custom.every_knight:0 "모든 [knight|E]"
+ custom.every_knight:1 "모든 [THIS.Char.Custom('KnightCulture')]"
  custom.every_child_in_the_court:0 "[THIS.GetCharacter.GetShortUINamePossessiveNoTooltip] 궁정 내 모든 자녀"
  custom.all_faction_members:0 "모든 파벌 구성원"
  custom.every_held_county:0 "모든 보유한 [county|E]"
@@ -2018,12 +2110,21 @@
  custom.every_opposite_sex_consort:0 "모든 반대 성별의 [spouse|E] 또는 [concubine|E]"
  custom.every_vassal_of_target_culture:0 "모든 [different_culture_vassal.GetCulture.GetName] [vassal|E]"
  custom.every_vassal:0 "모든 [vassal|E]"
+ custom.every_vassal_of_your_liege:0 "당신 [liege|E]의 모든 [vassal|E]"
  custom.every_female_courtier:0 "모든 여성 [courtier|E]"
  custom.every_male_courtier:0 "모든 남성 [courtier|E]"
  custom.every_same_culture_vassal:0 "모든 [root_culture.GetName] [vassal|E]"
  custom.every_different_culture_vassal:0 "모든 [root_culture.GetName]에 속하지 않은 [vassal|E]"
+ custom.every_vassal_of_liege.tt:0 "모든 동기 [vassal|E]"
+ custom.every_attending_character:0 "모든 참석 중인 인물"
+ custom.every_attending_character_but_courtly:2 "모든 참석 중인 [GetVassalStance( 'courtly' ).GetTextIcon]비 [GetVassalStance( 'courtly' ).GetName] [vassal|E]"
  custom.every_non_callous_or_sadistic_courtier_and_guest:0 "모든 냉담하지 않거나 가학적인 [courtier|E] 및 [guest|E]"
  custom.every_zealous_courtier_and_guest:0 "모든 열성적인 [courtier|E] 및 [guest|E]"
+ custom.every_entourage_character:0 "모든 여행 중인 [character|E]"
+ custom.every_activity_guest:2 "모든 [activity_guest_short|E]"
+ custom.every_active_accolade:0 "모든 [acclaimed_knight|E]"
+ custom.every_activity_guest_with_trait_in_common:0 "당신과 공통되는 [trait|E]을 하나 이상 보유한 모든 문객"
+ custom.every_landed_activity_guest:0 "모든 [landed|E] [activity|E] 문객"
 
  guest_and_family_move_to_specific_pool_effect.tt.family:0 "[character|E] 및 함께 여행 중인 [family|E]"
 
@@ -2040,8 +2141,9 @@
  INVEST_GOLD:0 "[INSPIRATION.GetOwner.GetShortUINamePossessive|U] [INSPIRATION.GetName]에 [gold_i]$VALUE|0-$ 투자"
 
  BEGIN_CREATE_HOLDING_REFUND:0 "[SelectLocalization( StringIsEmpty( '$COST$' ), '', '. 수동으로 제작을 취소할 경우 $COST$만큼 환불됩니다' )]"
- BEGIN_CREATE_HOLDING_EFFECT_GLOBAL:0 "$HOLDING_NAME$$BEGIN_CREATE_HOLDING_REFUND$ 건설을 시작함"
- BEGIN_CREATE_HOLDING_EFFECT:0 "[PROVINCE.GetName]$BEGIN_CREATE_HOLDING_REFUND$에서 $HOLDING_NAME$ 건설을 시작함"
+ BEGIN_CREATE_HOLDING_EFFECT_GLOBAL:0 "$HOLDING_NAME$ 건설을 시작함$BEGIN_CREATE_HOLDING_REFUND$"
+ BEGIN_CREATE_HOLDING_EFFECT:0 "[PROVINCE.GetName]에서 $HOLDING_NAME$ 건설을 시작함$BEGIN_CREATE_HOLDING_REFUND$"
+ BEGIN_CREATE_HOLDING_EFFECT_PAST:0 "[PROVINCE.GetName]에서 $HOLDING_NAME$ 건설을 시작함$BEGIN_CREATE_HOLDING_REFUND$"
 
 
  DESTROY_ARTIFACT:0 "[ARTIFACT.GetName](이)가 파괴됨"
@@ -2115,7 +2217,6 @@
  THEY_APPOINT_COURT_POSITION_PAST_EFFECT:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName|U](을)를 자신의 [COURT_POSITION_TYPE.GetName](으)로 임명함"
  APPOINT_COURT_POSITION_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive|U] [COURT_POSITION_TYPE.GetName](으)로 임명됨"
  APPOINT_COURT_POSITION_PAST_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive|U] [COURT_POSITION_TYPE.GetName](으)로 임명됨"
- APPOINT_COURT_POSITION:0 "#D TODO_CD#!"
 
 # revoke_court_position 
  I_REVOKE_COURT_POSITION_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName|U](을)를 [COURT_POSITION_TYPE.GetName]에서 해고함\n• 소모 비용: $REVOKE_COST$\n$REVOKE_EFFECT$"
@@ -2124,7 +2225,6 @@
  THEY_REVOKE_COURT_POSITION_PAST_EFFECT:1 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName|U](을)를 [COURT_POSITION_TYPE.GetName]에서 해고하였음\n• 소모 비용: $REVOKE_COST$\n$REVOKE_EFFECT$"
  REVOKE_COURT_POSITION_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive|U] [COURT_POSITION_TYPE.GetName]에서 해고됨"
  REVOKE_COURT_POSITION_PAST_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive|U] [COURT_POSITION_TYPE.GetName]에서 해고됨"
- REVOKE_COURT_POSITION:0 "#D TODO_CD#!"
 
 # replace_court_position 
  I_REPLACE_COURT_POSITION_EFFECT:1 "[COURT_POSITION_TYPE.GetName] $HOLDER$(을)를 $REPLACEMENT$(으)로 교체함\n• 소모 비용: $REVOKE_COST$\n$REVOKE_EFFECT$"
@@ -2133,12 +2233,6 @@
  THEY_REPLACE_COURT_POSITION_PAST_EFFECT:1 "[CHARACTER.GetShortUIName|U](이)가 [COURT_POSITION_TYPE.GetName] $HOLDER$(을)를 $REPLACEMENT$(으)로 교체하였음\n• 소모 비용: $REVOKE_COST$\n$REVOKE_EFFECT$"
  REPLACE_COURT_POSITION_EFFECT:0 "$REPLACEMENT$(이)가 [CHARACTER.GetShortUINamePossessive|U] [COURT_POSITION_TYPE.GetName](으)로서 $HOLDER$(을)를 대체하게 됨"
  REPLACE_COURT_POSITION_PAST_EFFECT:0 "$REPLACEMENT$(이)가 [CHARACTER.GetShortUINamePossessive|U] [COURT_POSITION_TYPE.GetName](으)로서 $HOLDER$(을)를 대체함"
- REPLACE_COURT_POSITION:0 "#D TODO_CD#!"
-
- EVERY_COURT_POSITION_EMPLOYER:0 "#D TODO_CD#!"
- RANDOM_COURT_POSITION_EMPLOYER:0 "#D TODO_CD#!"
- EVERY_COURT_POSITION_HOLDER:0 "#D TODO_CD#!"
- RANDOM_COURT_POSITION_HOLDER:0 "#D TODO_CD#!"
 
  CREATE_ARTIFACT_EFFECT:0 "$ARTIFACT_NAME$ [artifact|E] 생성"
  CREATE_ARTIFACT_EFFECT_PAST:0 "$ARTIFACT_NAME$ [artifact|E] 생성됨"
@@ -2155,7 +2249,7 @@
  SET_ARTIFACT_RARITY_EFFECT_PAST:0 "$RARITY$(이)가 됨"
  SET_ARTIFACT_RARITY_EFFECT_THIRD:0 "[ARTIFACT.GetName](이)가 $RARITY$가 됨"
  SET_ARTIFACT_RARITY_EFFECT_PAST_THIRD:0 "[ARTIFACT.GetName](이)가 $RARITY$가 됨"
-
+ 
  SET_CULTURE_AS_INVOLVED:0 "[CULTURE.GetName] 문화가 [STRUGGLE.GetName]에 연루됨"
  SET_CULTURE_AS_UNINVOLVED:0 "[CULTURE.GetName] 문화가 [STRUGGLE.GetName](와)과의 연루에서 벗어남"
  SET_FAITH_AS_INVOLVED:0 "[FAITH.GetName] 신앙이 [STRUGGLE.GetName]에 연루됨"
@@ -2190,3 +2284,217 @@
  SET_LANGUAGE_FROM_PAST:0 "[CULTURE.GetName|V] 언어가 [TARGET_CULTURE.GetLanguage.GetName|V](이)가 됐음"
  RESET_CULTURE_CREATION_DATE:0 "[CULTURE.GetName|V] 생성일이 초기화됨"
  RESET_CULTURE_CREATION_DATE_PAST:0 "[CULTURE.GetName|V] 생성일이 초기화됐음"
+ 
+ ADD_COMPANION_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName](을)를 여행 [entourage|E]에 영입함"
+ THEY_ADD_COMPANION_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName](을)를 여행 [entourage|E]에 영입함"
+ I_ADD_COMPANION_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName](을)를 당신의 여행 수행단에 영입함"
+ I_ADDED_COMPANION_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName](을)를 당신의 여행 [entourage|E]에 영입함"
+
+ COMPLETE_TRAVEL_PLAN_EFFECT:0 "여행이 완료됨"
+ COMPLETE_TRAVEL_PLAN_EFFECT_PAST:0 "여행이 완료됨"
+ THEY_COMPLETE_TRAVEL_PLAN_EFFECT:0 "$COMPLETE_TRAVEL_PLAN_EFFECT$"
+ THEY_COMPLETED_TRAVEL_PLAN_EFFECT_PAST:0 "$COMPLETE_TRAVEL_PLAN_EFFECT_PAST$"
+
+ ABORT_TRAVEL_PLAN_EFFECT:0 "여행 계획이 중단됨"
+ ABORT_TRAVEL_PLAN_EFFECT_PAST:0 "여행 계획이 중단됨"
+
+ PAUSE_TRAVEL_PLAN_EFFECT:0 "여행 계획이 일시 정지됨"
+ PAUSE_TRAVEL_PLAN_EFFECT_PAST:0 "여행 계획이 일시 정지됨"
+
+ RESUME_TRAVEL_PLAN_EFFECT:0 "여행 계획이 재개됨"
+ RESUME_TRAVEL_PLAN_EFFECT_PAST:0 "여행 계획이 재개됨"
+
+ CANCEL_TRAVEL_PLAN_EFFECT:0 "여행 계획은 취소되고 고향으로 돌아감"
+ CANCEL_TRAVEL_PLAN_EFFECT_PAST:0 "여행 계획은 취소됐고 고향으로 돌아감"
+ THEY_CANCEL_TRAVEL_PLAN_EFFECT:0 "$CANCEL_TRAVEL_PLAN_EFFECT$"
+ THEY_CANCEL_TRAVEL_PLAN_EFFECT_PAST:0 "$CANCEL_TRAVEL_PLAN_EFFECT_PAST$"
+
+ GO_HOME_TRAVEL_EFFECT:0 "여행 목적지가 집으로 재설정됨"
+ GO_HOME_TRAVEL_EFFECT_PAST:0 "여행 목적지가 집으로 재설정됨"
+ THEY_GO_HOME_TRAVEL_EFFECT:0 "$GO_HOME_TRAVEL_EFFECT$"
+ THEY_GO_HOME_TRAVEL_EFFECT_PAST:0 "$THEY_GO_HOME_TRAVEL_EFFECT$"
+ 
+ ADD_TRAVEL_OPTION_EFFECT:1 "$TRAVEL_OPTION$ 여행 선택지를 추가"
+ ADD_TRAVEL_OPTION_EFFECT_PAST:1 "$TRAVEL_OPTION$ 여행 선택지를 추가함"
+ I_ADD_TRAVEL_OPTION_EFFECT:1 "$TRAVEL_OPTION$ 여행 선택지를 추가"
+ I_ADD_TRAVEL_OPTION_EFFECT_PAST:1 "$TRAVEL_OPTION$ 여행 선택지를 추가함"
+ THEY_ADD_TRAVEL_OPTION_EFFECT:0 "$ADD_TRAVEL_OPTION_EFFECT$"
+
+ SET_TRAVEL_LEADER_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName](이)가 새로운 여행 지도자가 됨"
+ SET_TRAVEL_LEADER_EFFECT_PAST:1 "[TARGET_CHARACTER.GetShortUIName](이)가 새로운 여행 지도자가 됨"
+
+ DELAY_TRAVEL_PLAN_EFFECT:0 "여행 계획이 $DURATION|V$만큼 지연됨"
+ DELAY_TRAVEL_PLAN_EFFECT_PAST:0 "여행 계획이 $DURATION|V$만큼 지연됨"
+ THIRD_DELAY_TRAVEL_PLAN_EFFECT:0 "[TRAVEL_PLAN.GetName](이)가 $DURATION|V$만큼 지체됨"
+ THIRD_DELAY_TRAVEL_PLAN_EFFECT_PAST:0 "[TRAVEL_PLAN.GetName](이)가 $DURATION|V$만큼 지체됨"
+
+ ADD_TRAVEL_PLAN_MODIFIER_EFFECT:0 "여행에 $MODIFIER$ 적용"
+ ADD_TRAVEL_PLAN_MODIFIER_EFFECT_PAST:0 "여행에 $MODIFIER$ 적용"
+ THIRD_ADD_TRAVEL_PLAN_MODIFIER_EFFECT:0 "[TRAVEL_PLAN.GetName]에 $MODIFIER$ 적용"
+ THIRD_ADD_TRAVEL_PLAN_MODIFIER_EFFECT_PAST:0 "[TRAVEL_PLAN.GetName]에 $MODIFIER$ 적용"
+
+ ADD_TRAVEL_PLAN_MODIFIER_EFFECT_DURATION:0 "여행에 $DURATION|V$ 동안 $MODIFIER$ 적용"
+ ADD_TRAVEL_PLAN_MODIFIER_EFFECT_DURATION_PAST:0 "여행에 $DURATION|V$ 동안 $MODIFIER$ 적용"
+ THIRD_ADD_TRAVEL_PLAN_MODIFIER_EFFECT_DURATION:0 "[TRAVEL_PLAN.GetName]에 $DURATION|V$ 동안 $MODIFIER$ 적용"
+ THIRD_ADD_TRAVEL_PLAN_MODIFIER_EFFECT_DURATION_PAST:0 "[TRAVEL_PLAN.GetName]에 $DURATION|V$ 동안 $MODIFIER$ 적용"
+
+ ADD_DESTINATION_PROGRESS_EFFECT:1 "다음 목적지로 향하는 진행도가 $DURATION|V$만큼 증가"
+ ADD_DESTINATION_PROGRESS_EFFECT_PAST:1 "다음 목적지로 향하는 진행도가 $DURATION|V$만큼 증가함"
+ THIRD_ADD_DESTINATION_PROGRESS_EFFECT:0 "다음 목적지로 향하는 [TRAVEL_PLAN.GetName] 진행도가 $DURATION|V$만큼 증가"
+ THIRD_ADD_DESTINATION_PROGRESS_EFFECT_PAST:0 "다음 목적지로 향하는 [TRAVEL_PLAN.GetName] 진행도가 $DURATION|V$만큼 증가함"
+
+ ADD_TRAVEL_WAYPOINT_EFFECT:0 "여행 계획에 [PROVINCE.GetName] 중간 지점 추가"
+ ADD_TRAVEL_WAYPOINT_EFFECT_PAST:0 "여행 계획에 [PROVINCE.GetName] 중간 지점 추가됨"
+ THIRD_ADD_TRAVEL_WAYPOINT_EFFECT:0 "[TRAVEL_PLAN.GetName]에 중간 지점 [PROVINCE.GetName] 추가"
+ THIRD_ADD_TRAVEL_WAYPOINT_EFFECT_PAST:0 "[TRAVEL_PLAN.GetName]에 중간 지점 [PROVINCE.GetName] 추가됨"
+
+ LEAVES_TRAVEL_PLAN:0 "여행 수행단을 떠나게 됨"
+ LEFT_TRAVEL_PLAN:0 "여행 수행단을 떠남"
+ THEY_LEAVE_TRAVEL_PLAN:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 여행 수행단을 떠나게 됨"
+ THEY_LEFT_TRAVEL_PLAN:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 여행 수행단을 떠남"
+
+ I_DESIGNATE_DIARCH:0 "[TARGET_CHARACTER.GetName](을)를 나의 차기 [CHARACTER.GetDiarchTitle](으)로 지정"
+ THEY_DESIGNATE_DIARCH:0 "[CHARACTER.GetName](이)가 [TARGET_CHARACTER.GetName](을)를 자신의 차기 [CHARACTER.GetDiarchTitle](으)로 지정"
+
+ I_DESIGNATED_DIARCH:0 "[TARGET_CHARACTER.GetName](을)를 나의 차기 [CHARACTER.GetDiarchTitle](으)로 지정함"
+ THEY_DESIGNATED_DIARCH:0 "[CHARACTER.GetName](이)가 [TARGET_CHARACTER.GetName](을)를 자신의 차기 [CHARACTER.GetDiarchTitle](으)로 지정함"
+
+ I_START_DIARCHY:1 "[CHARACTER.Custom('GetDiarchyArticle')] [CHARACTER.GetDiarchyTypeName](을)를 시작함"
+ THEY_START_DIARCHY:1 "[CHARACTER.GetName](이)가 [CHARACTER.Custom('GetDiarchyArticle')] [CHARACTER.GetDiarchyTypeName](을)를 시작함"
+
+ I_STARTED_DIARCHY:1 "[CHARACTER.Custom('GetDiarchyArticle')] [CHARACTER.GetDiarchyTypeName](을)를 시작함"
+ THEY_STARTED_DIARCHY:1 "[CHARACTER.GetName](이)가 [CHARACTER.Custom('GetDiarchyArticle')] [CHARACTER.GetDiarchyTypeName](을)를 시작함"
+
+ I_END_DIARCHY:0 "나의 [CHARACTER.GetDiarchyTypeName] 종료됨"
+ THEY_END_DIARCHY:0 "[CHARACTER.GetNamePossessive] [CHARACTER.GetDiarchyTypeName] 종료됨"
+ GLOBAL_END_DIARCHY:0 "[CHARACTER.GetShortUINamePossessive|U] [CHARACTER.GetDiarchyTypeName] 종료됨"
+
+ I_ENDED_DIARCHY:0 "나의 [CHARACTER.GetDiarchyTypeName](이)가 종료됨"
+ THEY_ENDED_DIARCHY:0 "[CHARACTER.GetNamePossessive] [CHARACTER.GetDiarchyTypeName](이)가 종료됨"
+ GLOBAL_ENDED_DIARCHY:0 "[CHARACTER.GetShortUINamePossessive|U] [CHARACTER.GetDiarchyTypeName](이)가 종료됨"
+
+ I_SET_DIARCHY_TYPE:1 "나의 [power_sharing|E] 유형이 [CHARACTER.Custom('GetDiarchyArticle')] [CHARACTER.GetDiarchyTypeName](으)로 전환됨"
+ THEY_SET_DIARCHY_TYPE:1 "[CHARACTER.GetNamePossessive] [power_sharing|E] 유형이 [CHARACTER.Custom('GetDiarchyArticle')] [CHARACTER.GetDiarchyTypeName](으)로 전환됨"
+ GLOBAL_SET_DIARCHY_TYPE:0 "[CHARACTER.GetShortUINamePossessive] [power_sharing|E] 유형이 [CHARACTER.Custom('GetDiarchyArticle')] [CHARACTER.GetDiarchyTypeName](으)로 전환됨"
+
+ I_CHANGED_DIARCHY_TYPE:1 "나의 [power_sharing|E] 유형이 [CHARACTER.Custom('GetDiarchyArticle')] [CHARACTER.GetDiarchyTypeName](으)로 전환됨"
+ THEY_CHANGED_DIARCHY_TYPE:1 "[CHARACTER.GetNamePossessive] [power_sharing|E] 유형이 [CHARACTER.Custom('GetDiarchyArticle')] [CHARACTER.GetDiarchyTypeName](으)로 전환됨"
+ GLOBAL_CHANGED_DIARCHY_TYPE:0 "[CHARACTER.GetShortUINamePossessive] [power_sharing|E] 유형이 [CHARACTER.Custom('GetDiarchyArticle')] [CHARACTER.GetDiarchyTypeName](으)로 전환됨"
+
+ I_SET_DIARCH:0 "[TARGET_CHARACTER.GetName](이)가 나의 새로운 [CHARACTER.GetDiarchTitle](이)가 됨"
+ THEY_SET_DIARCH:0 "[TARGET_CHARACTER.GetName](이)가 [CHARACTER.GetNamePossessive] 새로운 [CHARACTER.GetDiarchTitle](이)가 됨"
+
+ I_CHANGED_DIARCH:0 "[TARGET_CHARACTER.GetName](이)가 나의 새로운 [CHARACTER.GetDiarchTitle](이)가 됨"
+ THEY_CHANGED_DIARCH:0 "[TARGET_CHARACTER.GetName](이)가 [CHARACTER.GetNamePossessive] 새로운 [CHARACTER.GetDiarchTitle](이)가 됨"
+
+ I_SET_POWER_LEVEL:0 "나의 [CHARACTER.GetDiarchyTypeName] [scales_of_power|E]이 $VALUE|0$(이)가 됨"
+ THEY_SET_POWER_LEVEL:1 "[CHARACTER.GetNamePossessive] [CHARACTER.GetDiarchyTypeName] [scales_of_power|E]이 $VALUE|0$(이)가 됨"
+
+ I_HAVE_SET_POWER_LEVEL:1 "나의 [CHARACTER.GetDiarchyTypeName] [scales_of_power|E]이 $VALUE|0$(이)가 됨"
+ THEY_HAVE_SET_POWER_LEVEL:1 "[CHARACTER.GetNamePossessive] [CHARACTER.GetDiarchyTypeName] [scales_of_power|E]이 $VALUE|0$(이)가 됨"
+
+ I_CHANGE_POWER_LEVEL:1 "나의 [CHARACTER.GetDiarchyTypeName] [scales_of_power|E]이 $VALUE|0$(이)가 됨"
+ THEY_CHANGE_POWER_LEVEL:1 "[CHARACTER.GetNamePossessive] [CHARACTER.GetDiarchyTypeName] [scales_of_power|E]이 $VALUE|0$만큼 변경됨"
+ GLOBAL_CHANGE_POWER_LEVEL:0 "[CHARACTER.GetShortUINamePossessive|U] [CHARACTER.GetDiarchyTypeName] [scales_of_power|E]이 $VALUE|0$만큼 변경됨"
+ GLOBAL_CHANGED_POWER_LEVEL:0 "$GLOBAL_CHANGE_POWER_LEVEL$"
+
+ # Neg duplicates here for error suppression.
+ I_CHANGE_POWER_LEVEL_NEG:0 "$I_CHANGE_POWER_LEVEL$"
+ THEY_CHANGE_POWER_LEVEL_NEG:0 "$THEY_CHANGE_POWER_LEVEL$"
+ GLOBAL_CHANGE_POWER_LEVEL_NEG:0 "$GLOBAL_CHANGE_POWER_LEVEL$"
+
+ I_CHANGED_POWER_LEVEL:1 "나의 [CHARACTER.GetDiarchyTypeName] [scales_of_power|E]이 $VALUE|0$만큼 변경됨"
+ THEY_CHANGED_POWER_LEVEL:1 "[CHARACTER.GetNamePossessive] [CHARACTER.GetDiarchyTypeName] [scales_of_power|E]이 $VALUE|0$만큼 변경됨"
+
+ I_GET_DEPOSED_DIARCH:0 "내가 [CHARACTER.GetLiege.GetDiarchTitle] 직책에서 해임됨"
+ THEY_GET_DEPOSED_DIARCH:0 "[CHARACTER.GetName](이)가 [CHARACTER.GetLiege.GetDiarchTitle] 직책에서 해임됨"
+
+ I_GOT_DEPOSED_DIARCH:0 "내가 [CHARACTER.GetLiege.GetDiarchTitle] 직책에서 해임됨"
+ THEY_GOT_DEPOSED_DIARCH:0 "[CHARACTER.GetName](이)가 [CHARACTER.GetLiege.GetDiarchTitle] 직책에서 해임됨"
+
+ I_GAIN_STRIFE_OPINION:1 "@warning_icon!#X 해당 결정은 권력 남용으로, 당신의 동료 [vassals|E] 사이에서 $VALUE|-0$의 [strife|E]가 발생함#!"
+ I_LOSE_STRIFE_OPINION:0 "#P [strife|E] 감소: 당신을 향한 동료 [vassals|E]의 [opinion|E]이 $VALUE|+0$만큼 증가#!"
+
+ THEY_GAIN_STRIFE_OPINION:1 "@warning_icon!#X 해당 결정은 권력 남용으로, [CHARACTER.GetShortUINamePossessive] 동료 [vassals|E] 사이에서 $VALUE|-0$의 [strife|E]가 발생함#!"
+ THEY_LOSE_STRIFE_OPINION:0 "#P [strife|E]감소 : [CHARACTER.GetLiege.GetShortUINamePossessive] [realm|E]에 속한 [vassals|E]들의 [CHARACTER.GetShortUIName](을)를 향한 [opinion|E]이 $VALUE|V0$만큼 증가#!"
+
+ I_GAINED_STRIFE_OPINION:0 "@warning_icon!#X 해당 결정은 권력 남용으로, 동료 [vassals|E]들 사이에서 $VALUE|-0$의 [strife|E]가 발생함"
+ I_LOST_STRIFE_OPINION:0 "#P [strife] 감소: 당신을 향한 동료 [vassals|E]들의 [opinion|E]이 $VALUE|V0$만큼 증가#!"
+
+ THEY_GAINED_STRIFE_OPINION:0 "@warning_icon!#X 해당 결정은 권력 남용으로, [CHARACTER.GetShortUINamePossessive] 동료 [vassals|E]들 사이에서 $VALUE|-0$의 [strife|E]가 발생함"
+ THEY_LOST_STRIFE_OPINION:0 "#P [strife|E] 감소: [CHARACTER.GetLiege.GetShortUINamePossessive] [realm|E]에 속한 [vassals|E]들의 [CHARACTER.GetShortUIName](을)를 향한 [opinion|E]이 $VALUE|V0$만큼 증가#!"
+
+ I_GET_DIARCHY_MANDATE:0 "[CHARACTER.GetLiege.GetShortUIName](이)가 나의 [mandate|E]을 다음과 같이 설정: $MANDATE_TYPE$"
+ THEY_GET_DIARCHY_MANDATE:0 "[CHARACTER.GetLiege.GetShortUIName](이)가 [CHARACTER.GetShortUINamePossessive] [mandate|E]을 다음과 같이 설정: $MANDATE_TYPE$"
+
+ I_GOT_DIARCHY_MANDATE:0 "[CHARACTER.GetLiege.GetShortUIName](이)가 나의 [mandate|E]을 다음과 같이 설정: $MANDATE_TYPE$"
+ THEY_GOT_DIARCHY_MANDATE:0 "[CHARACTER.GetLiege.GetShortUIName](이)가 [CHARACTER.GetShortUINamePossessive] [mandate|E]을 다음과 같이 설정: $MANDATE_TYPE$"
+
+ GAIN_TRAIT_XP:0 "$TRACK_NAME$ [trait_level_track_xp|E] $VALUE|V0$만큼 획득 #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ I_GAIN_TRAIT_XP:1 "$TRACK_NAME$ [trait_level_track_xp|E] $VALUE|V0$만큼 획득 #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ THEY_GAIN_TRAIT_XP:0 "[CHARACTER.GetName](이)가 $TRACK_NAME$ [trait_level_track_xp|E] $VALUE|V0$만큼 획득 #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ GAINED_TRAIT_XP:0 "$TRACK_NAME$ [trait_level_track_xp|E] $VALUE|V0$만큼 획득 #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ I_GAINED_TRAIT_XP:1 "$TRACK_NAME$ [trait_level_track_xp|E] $VALUE|V0$만큼 획득 #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ THEY_GAINED_TRAIT_XP:1 "[CHARACTER.GetName](이)가 $TRACK_NAME$ [trait_level_track_xp|E] $VALUE|V0$만큼 획득 #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ LOSE_TRAIT_XP:0 "$TRACK_NAME$ [trait_level_track_xp|E] $VALUE|V0$만큼 상실 #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ I_LOSE_TRAIT_XP:1 "$TRACK_NAME$ [trait_level_track_xp|E] $VALUE|V0$만큼 상실 #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ THEY_LOSE_TRAIT_XP:0 "[CHARACTER.GetName](이)가 $TRACK_NAME$ [trait_level_track_xp|E] $VALUE|V0$만큼 상실 #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ LOST_TRAIT_XP:0 "[trait_level_track_xp|E]를 $VALUE|V0$$TRACK_NAME$만큼 상실함 #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ I_LOST_TRAIT_XP:1 "$TRACK_NAME$ [trait_level_track_xp|E] $VALUE|V0$만큼 상실 #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ THEY_LOST_TRAIT_XP:0 "[CHARACTER.GetName](이)가 $TRACK_NAME$ [trait_level_track_xp|E] $VALUE|V0$만큼 상실 #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+
+ GAIN_TRAIT_XP_SINGLE:1 "[TRAIT.GetName( CHARACTER.Self )] [trait|E]에 대한 [trait_level_track_xp|E]를 $VALUE|V0$만큼 획득"
+ I_GAIN_TRAIT_XP_SINGLE:1 "[TRAIT.GetName( CHARACTER.Self )] [trait|E]에 대한 [trait_level_track_xp|E]를 $VALUE|V0$만큼 획득"
+ THEY_GAIN_TRAIT_XP_SINGLE:1 "[CHARACTER.GetName](이)가 [TRAIT.GetName( CHARACTER.Self )] [trait|E]에 대한 [trait_level_track_xp|E]를 $VALUE|V0$만큼 획득"
+ GAINED_TRAIT_XP_SINGLE:1 "[TRAIT.GetName( CHARACTER.Self )] [trait|E]에 대한 [trait_level_track_xp|E]를 $VALUE|V0$만큼 획득함"
+ I_GAINED_TRAIT_XP_SINGLE:1 "[TRAIT.GetName( CHARACTER.Self )] [trait|E]에 대한 [trait_level_track_xp|E]를 $VALUE|V0$만큼 획득함"
+ THEY_GAINED_TRAIT_XP_SINGLE:1 "[CHARACTER.GetName](이)가 [TRAIT.GetName( CHARACTER.Self )] [trait|E]에 대한 [trait_level_track_xp|E]를 $VALUE|V0$만큼 획득함"
+ LOSE_TRAIT_XP_SINGLE:1 "[TRAIT.GetName( CHARACTER.Self )] [trait|E]에 대한 [trait_level_track_xp|E]를 $VALUE|V0$만큼 상실"
+ I_LOSE_TRAIT_XP_SINGLE:1 "[TRAIT.GetName( CHARACTER.Self )] [trait|E]에 대한 [trait_level_track_xp|E]를 $VALUE|V0$만큼 상실"
+ THEY_LOSE_TRAIT_XP_SINGLE:1 "[CHARACTER.GetName](이)가 [TRAIT.GetName( CHARACTER.Self )] [trait|E]에 대한 [trait_level_track_xp|E]를 $VALUE|V0$만큼 상실"
+ LOST_TRAIT_XP_SINGLE:1 "[TRAIT.GetName( CHARACTER.Self )] [trait|E]에 대한 [trait_level_track_xp|E]를 $VALUE|V0$만큼 상실함"
+ I_LOST_TRAIT_XP_SINGLE:1 "[TRAIT.GetName( CHARACTER.Self )] [trait|E]에 대한 [trait_level_track_xp|E]를 $VALUE|V0$만큼 상실함"
+ THEY_LOST_TRAIT_XP_SINGLE:1 "[CHARACTER.GetName](이)가 [TRAIT.GetName( CHARACTER.Self )] [trait|E]에 대한 [trait_level_track_xp|E]를 $VALUE|V0$만큼 상실함"
+
+ I_GAIN_POTENTIAL_HOOK:1 "[TARGET_CHARACTER.GetShortUIName]에 대한 [hook_i][hook|E] 획득 진행도가 증가"
+ I_GOT_POTENTIAL_HOOK:1 "[TARGET_CHARACTER.GetShortUIName]에 대한 [hook_i][hook|E] 획득 진행도가 증가함"
+ THEY_GAIN_POTENTIAL_HOOK:1 "[TARGET_CHARACTER.GetShortUIName]에 대한 [CHARACTER.GetShortUIName|U]의 [hook_i][hook|E] 획득 진행도가 증가"
+ THEY_GAINED_POTENTIAL_HOOK:1 "[TARGET_CHARACTER.GetShortUIName]에 대한 [CHARACTER.GetShortUIName|U]의 [hook_i][hook|E] 획득 진행도가 증가함"
+ GAINS_POTENTIAL_HOOK:1 "[TARGET_CHARACTER.GetShortUIName]에 대한 [hook_i][hook|E] 획득 진행도가 증가"
+ GAINED_POTENTIAL_HOOK:1 "[TARGET_CHARACTER.GetShortUIName]에 대한 [hook_i][hook|E] 획득 진행도가 증가함"
+ I_LOSE_POTENTIAL_HOOK:1 "[TARGET_CHARACTER.GetShortUIName]에 대한 [hook_i][hook|E] 획득 진행도가 감소"
+
+ ENTOURAGE_GAINS_PILGRIM_TRAIT:0 "$EFFECT_LIST_BULLET$수행단 구성원 모두가 [GetTrait('pilgrim').GetName( GetNullCharacter )] [trait|E] 또는 [GetTrait('pilgrim').GetName( GetNullCharacter )] [trait|E] 경험치 획득"
+ ENTOURAGE_GAINED_PILGRIM_TRAIT:0 "$EFFECT_LIST_BULLET$수행단 구성원 모두가 [GetTrait('pilgrim').GetName( GetNullCharacter )] [trait|E] 또는 [GetTrait('pilgrim').GetName( GetNullCharacter )] [trait|E] 경험치를 획득함"
+
+ I_COMPLETE_ACTIVITY_INTENT:0 "[CHARACTER.GetInvolvedActivityIntent.GetName] 의도를 완료함"
+ CHARACTER_COMPLETES_ACTIVITY_INTENT:0 "[CHARACTER.GetShortUIName|U](이)가 자신의 [CHARACTER.GetInvolvedActivityIntent.GetName] 의도를 완료함"
+ GLOBAL_COMPLETE_ACTIVITY_INTENT:0 "$CHARACTER_COMPLETES_ACTIVITY_INTENT$"
+ I_COMPLETE_ACTIVITY_INTENT_PAST:0 "[CHARACTER.GetInvolvedActivityIntent.GetName] 의도를 완료하였음"
+ CHARACTER_COMPLETES_ACTIVITY_INTENT_PAST:0 "[CHARACTER.GetShortUIName|U](이)가 자신의 [CHARACTER.GetInvolvedActivityIntent.GetName] 의도를 완료하였음"
+ GLOBAL_COMPLETE_ACTIVITY_INTENT_PAST:0 "$CHARACTER_COMPLETES_ACTIVITY_INTENT$"
+
+ I_GAINED_GLORY_EFFECT:0 "당신의 [accolade|E]이 $VALUE|+0$ [glory|E] 획득"
+ I_LOST_GLORY_EFFECT:0 "당신의 [accolade|E]이 $VALUE|-0$ [glory|E] 상실"
+ THEY_GAINED_GLORY_EFFECT:0 "[Accolade.GetName](이)가 $VALUE|+0$ [glory|E] 획득"
+ THEY_LOST_GLORY_EFFECT:0 "[Accolade.GetName](이)가 $VALUE|+0$ [glory|E] 상실"
+ GAINED_GLORY_EFFECT:0 "$VALUE|+0$ [glory|E] 획득"
+ LOST_GLORY_EFFECT:0 "$VALUE|+0$ [glory|E] 상실"
+ I_GAIN_GLORY_EFFECT:0 "당신의 [accolade|E]이 $VALUE|+0$ [glory|E] 획득"
+ I_LOSE_GLORY_EFFECT:0 "당신의 [accolade|E]이 $VALUE|-0$ [glory|E] 상실"
+ THEY_GAIN_GLORY_EFFECT:0 "[Accolade.GetName](이)가 $VALUE|+0$ [glory|E] 획득"
+ THEY_LOSE_GLORY_EFFECT:0 "[Accolade.GetName](이)가 $VALUE|+0$ [glory|E] 상실"
+ GAIN_GLORY_EFFECT:0 "$VALUE|+0$ [glory|E] 획득"
+ LOSE_GLORY_EFFECT:0 "$VALUE|-0$ [glory|E] 상실"
+ ADD_GLORY_EFFECT:0 "$VALUE|+0$ [glory|E] 획득"
+
+ I_AM_ADDED_TO_ACTIVITY:0 "[ACTIVITY.GetName]에 참여함"
+ THEY_ARE_ADDED_TO_ACTIVITY:0 "[CHARACTER.GetShortUIName|U](이)가 [ACTIVITY.GetName]에 참여함"
+ ADDED_TO_ACTIVITY:0 "[ACTIVITY.GetName]에 참여함"
+ I_AM_ADDED_TO_ACTIVITY_PAST:0 "[ACTIVITY.GetName]에 참여함"
+ THEY_ARE_ADDED_TO_ACTIVITY_PAST:0 "[CHARACTER.GetShortUIName|U](이)가 [ACTIVITY.GetName]에 참여함"
+ ADDED_TO_ACTIVITY_PAST:0 "[ACTIVITY.GetName]에 참여함"
+ SKIP_ACTIVITY_PHASE_FIRST:0 "[ACTIVITY.GetName]의 현재 [activity_phase|E]이 생략됨"
+ SKIP_ACTIVITY_PHASE_GLOBAL:0 "[activity_phase|E]이 생략됨"
+ SKIP_ACTIVITY_PHASE_FIRST_PAST:0 "[ACTIVITY.GetName]의 마지막 [activity_phase|E]이 생략됨"
+ SKIP_ACTIVITY_PHASE_GLOBAL_PAST:0 "[activity_phase|E]이 생략됨"

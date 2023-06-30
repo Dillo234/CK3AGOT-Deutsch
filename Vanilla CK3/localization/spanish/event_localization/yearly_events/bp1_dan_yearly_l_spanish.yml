@@ -1,6 +1,6 @@
 ﻿l_spanish:
  bp1_yearly.7000.t:0 "Desayunando con una amistad"
- bp1_yearly.7000.desc:1 "Una mañana voy de camino al/a la [ROOT.Char.GetFaith.HouseOfWorship] cuando me encuentro con [distraction_friend.GetTitledFirstName], que lleva una bolsa. Mirando a su alrededor, la abre con complicidad para revelar todo tipo de alimentos y bebidas.\n\n«Hace un día tan bonito, venid fuera y uníos a mí en una excursión matutina», dice.\n\nCuando empiezo a protestar que iba de camino al/a la [ROOT.Char.GetFaith.HouseOfWorship], [distraction_friend.GetFirstNameNoTooltip] me interrumpe: \n\n«[ROOT.Char.GetFaith.HighGodName] estará allí después, pero esta ración de [ROOT.Char.Custom('GetExpensiveDessert')], no». "
+ bp1_yearly.7000.desc:1 "Una mañana voy de camino al/a la [ROOT.Char.GetFaith.HouseOfWorship] cuando me encuentro con [distraction_friend.GetTitledFirstName|l], que lleva una bolsa. Mirando a su alrededor, la abre con complicidad para revelar todo tipo de alimentos y bebidas.\n\n«Hace un día tan bonito, venid fuera y uníos a mí en una excursión matutina», dice.\n\nCuando empiezo a protestar que iba de camino al/a la [ROOT.Char.GetFaith.HouseOfWorship], [distraction_friend.GetFirstNameNoTooltip] me interrumpe: \n\n«[ROOT.Char.GetFaith.HighGodName] estará allí después, pero esta ración de [ROOT.Char.Custom('GetExpensiveDessert')], no». "
  bp1_yearly.7000.a:0 "[ROOT.Char.GetFaith.HighGodName] es más importante que el desayuno."
  bp1_yearly.7000.b:0 "El verdadero pecado sería dejar pasar esta oportunidad."
  
@@ -147,8 +147,8 @@
  bp1_yearly.7055.a:1 "Lo registraré yo personalmente, [ROOT.Char.GetFaith.HighGodName] mediante."
  bp1_yearly.7055.b:1 "No hay tiempo para esto…"
  
- recorded_memory_character:0 "Un recuerdo [ROOT.Char.Custom('ES_DelDela')] [memory_participant.GetTitledFirstNameNoTooltip]"
- recorded_memory:1 "Recuerdos [ROOT.Char.Custom('ES_DelDela')] [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ recorded_memory_character:0 "Un recuerdo [ROOT.Char.Custom('ES_DelDela')] [memory_participant.GetTitledFirstNameNoTooltip|l]"
+ recorded_memory:1 "Recuerdos [ROOT.Char.Custom('ES_DelDela')] [ROOT.Char.GetTitledFirstNameNoTooltip|l]"
  recorded_memory_desc:1 "Este volumen relata la historia de cuando [recorded_memory.GetThirdPerspectiveDescription].\n\nCompuesto por [ROOT.Char.GetFirstName]."
  
  bp1_yearly.7056.t:0 "Tácticas de intimidación"
@@ -180,7 +180,7 @@
  bp1_yearly.7030.b:1 "¡Controlaos, [dead_friend_spouse.GetFirstNameNoTooltip]!"
     
  bp1_yearly.7100.t:0 "Del desprecio al odio"
- bp1_yearly.7100.desc:0 "Hace un momento disfrutaba de un agradable paseo al sol por [owned_county.GetName] y al siguiente estoy cubierto de excrementos y revolcándome en el barro. Tras limpiarme furiosamente los excrementos de la vista, encuentro al culpable con facilidad.\n\n«¡[potential_nemesis.GetTitledFirstName] os envía saludos!», grita el campesino que cuelga de la ventana antes de huir de la escena.\n\nTrato patéticamente de lavar una de mis pieles favoritas en un arroyo cercano, pero está claro que es insalvable."
+ bp1_yearly.7100.desc:0 "Hace un momento disfrutaba de un agradable paseo al sol por [owned_county.GetName] y al siguiente estoy cubierto de excrementos y revolcándome en el barro. Tras limpiarme furiosamente los excrementos de la vista, encuentro al culpable con facilidad.\n\n«¡[potential_nemesis.GetTitledFirstName|l] os envía saludos!», grita el campesino que cuelga de la ventana antes de huir de la escena.\n\nTrato patéticamente de lavar una de mis pieles favoritas en un arroyo cercano, pero está claro que es insalvable."
  bp1_yearly.7100.a:0 "Ahora es #EMP personal…#!"
  bp1_yearly.7100.b:0 "¡Me bañaré en su sangre!"
  bp1_yearly.7100.c:0 "Recordad lo que digo, [potential_nemesis.GetFirstNameNoTooltip]: esta piel tendrá reemplazo."

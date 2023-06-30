@@ -48,13 +48,13 @@
  stewardship_general.2002.t:1 "Una exhibición impresionante"
  stewardship_general.2002.t_insulting:1 "Una exhibición insultante"
  stewardship_general.2002.desc.intro:0 "En cuanto hemos pasado los dos siguientes puestos, "
- stewardship_general.2002.desc_impressed:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] me sonríe radiante.\n\n«¡Sí, bastante bien, cierto! Yo mism[helpful_councillor.Custom('ES_OA')] no podría haberlo hecho mejor».\n\n[helpful_councillor.GetSheHe|U] mira despreocupadamente las baratijas de la caseta de al lado y me lanza una mirada de reojo con expectativas."
- stewardship_general.2002.desc_very_impressed:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] me tira de la manga con emoción.\n\n«¡Por [ROOT.Char.GetFaith.HighGodName], qué deliciosa exhibición! ¡Qué elocuencia! Apenas se podía seguir el ritmo de las frases siempre melosas en ese #EMP baile#! de regateos…». \n\nMe mira con desconcierto y admiración."
- stewardship_general.2002.desc_insulted:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] me mira con desaprobación.\n\n«Fue una… exhibición interesante, desde luego. No estoy seguro de cuál era nuestro objetivo, mi [ROOT.Char.GetLadyLord], pero estoy segur[helpful_councillor.Custom('ES_OA')] de que el comerciante consiguió lo que quería…».\n\nY empieza a caminar hacia delante, indicando el final de nuestra conversación."
- stewardship_general.2002.desc_very_insulted:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] bufa con hostilidad.\n\n«Cualquiera de menor intelecto argumentaría que tal [bought_trinket.GetName] apenas se merece su nombre. Pero #EMP estoy segur[helpful_councillor.Custom('ES_OA')]#! de que tomamos la decisión correcta…»\n\nEstá claramente disgustad[helpful_councillor.Custom('ES_OA')] por mi mala actuación anterior."
+ stewardship_general.2002.desc_impressed:0 "[helpful_councillor.GetTitledFirstNameNoTooltip|l] me sonríe radiante.\n\n«¡Sí, bastante bien, cierto! Yo mism[helpful_councillor.Custom('ES_OA')] no podría haberlo hecho mejor».\n\n[helpful_councillor.GetSheHe|U] mira despreocupadamente las baratijas de la caseta de al lado y me lanza una mirada de reojo con expectativas."
+ stewardship_general.2002.desc_very_impressed:0 "[helpful_councillor.GetTitledFirstNameNoTooltip|l] me tira de la manga con emoción.\n\n«¡Por [ROOT.Char.GetFaith.HighGodName], qué deliciosa exhibición! ¡Qué elocuencia! Apenas se podía seguir el ritmo de las frases siempre melosas en ese #EMP baile#! de regateos…». \n\nMe mira con desconcierto y admiración."
+ stewardship_general.2002.desc_insulted:0 "[helpful_councillor.GetTitledFirstNameNoTooltip|l] me mira con desaprobación.\n\n«Fue una… exhibición interesante, desde luego. No estoy seguro de cuál era nuestro objetivo, mi [ROOT.Char.GetLadyLord], pero estoy segur[helpful_councillor.Custom('ES_OA')] de que el comerciante consiguió lo que quería…».\n\nY empieza a caminar hacia delante, indicando el final de nuestra conversación."
+ stewardship_general.2002.desc_very_insulted:0 "[helpful_councillor.GetTitledFirstNameNoTooltip|l] bufa con hostilidad.\n\n«Cualquiera de menor intelecto argumentaría que tal [bought_trinket.GetName] apenas se merece su nombre. Pero #EMP estoy segur[helpful_councillor.Custom('ES_OA')]#! de que tomamos la decisión correcta…»\n\nEstá claramente disgustad[helpful_councillor.Custom('ES_OA')] por mi mala actuación anterior."
  stewardship_general.2002.a.high_stewardship:0 "Quizás pueda enseñaros un par de estrategias"
  stewardship_general.2002.mentor_success:0 "Recuerdas las minucias del regateo durante toda la noche"
- stewardship_general.2002.mentor_failure:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] no quedó muy convencid[helpful_councillor.Custom('ES_OA')]"
+ stewardship_general.2002.mentor_failure:0 "[helpful_councillor.GetTitledFirstNameNoTooltip|l] no quedó muy convencid[helpful_councillor.Custom('ES_OA')]"
  stewardship_general.2002.impressed:0 "Fue un gran regateo, ¿verdad?"
  stewardship_general.2002.b.high_stewardship:0 "Solo fue una prueba. #EMP Conseguí#! lo que quería."
  stewardship_general.2002.convince_success:0 "Ah, sí, [bought_trinket.GetName] es una inversión mucho mejor porque… "
@@ -74,7 +74,7 @@
  stewardship_general.5011.every_courtier:1 "Todo [courtier|lE]"
 
  stewardship_general.5013.t:0 "Bestias de las profundidades"
- stewardship_general.5013.desc:1 "Mientras camino por los jardines, veo a mi [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('carp_food'))] [carp_food.GetTitledFirstName] sentad[carp_food.Custom('ES_OA')] en una roca junto al estanque de carpas. Se inclina sobre el borde y acaricia el agua con los dedos. Una sombra se agita bajo la superficie…"
+ stewardship_general.5013.desc:1 "Mientras camino por los jardines, veo a mi [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('carp_food'))] [carp_food.GetTitledFirstName|l] sentad[carp_food.Custom('ES_OA')] en una roca junto al estanque de carpas. Se inclina sobre el borde y acaricia el agua con los dedos. Una sombra se agita bajo la superficie…"
  stewardship_general.5013.a:0 "¡Atrás, [carp_food.GetFirstNameNoTooltip]! Alejaos de… ¡NOOO!"
 
  # Catch a servant stealing from me, by Linnéa Thimrén

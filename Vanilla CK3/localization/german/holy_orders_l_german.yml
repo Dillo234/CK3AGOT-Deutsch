@@ -32,6 +32,7 @@
  holy_order_bektashi_order:0 "Bektaschi-Orden"
  holy_order_haruriyya:0 "Haruriyyah"
  holy_order_zealots_of_place_1:0 "Zeloten von [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_warriors_of_simeon:0 "Krieger von Simeon"
  holy_order_herem_warriors:0 "Herem-Krieger"
  holy_order_immortals:0 "Unsterbliche"
  holy_order_ahura_mazdas_champions:0 "Vorkämpfer von Ahura Mazda"
@@ -90,7 +91,7 @@
 
  #Notifications
  #Creation
- holy_order_founded_title:1 "[LEFT_CHARACTER.GetFaith.GetAdjective]er Kriegerorden gegründet"
+ holy_order_founded_title:1 "[LEFT_CHARACTER.GetFaith.GetAdjective|U]er Kriegerorden gegründet"
  i_created_holy_order_message:2 "Mit Eurer Unterstützung gründete [leader.GetShortUIName] den Kriegerorden mit Namen [new_holy_order.GetName]!"
  someone_created_holy_order_message:1 "[holy_order_creator.GetShortUIName] hat in [barony.GetNameNoTier] einen Kriegerorden mit dem Namen [new_holy_order.GetName] gegründet!"
  other_faith_neighbor_created_holy_order_message:1 "[holy_order_creator.GetShortUIName] hat [new_holy_order.GetName] gegründet!"

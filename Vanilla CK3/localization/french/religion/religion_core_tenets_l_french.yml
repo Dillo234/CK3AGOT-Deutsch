@@ -42,7 +42,7 @@
 
  tenet_human_sacrifice_name:0 "Sacrifice humain"
  tenet_human_sacrifice_desc:0 "Le meilleur moyen de prouver notre dévotion est de passer par un sacrifice. Le plus précieux est celui de la vie humaine."
- doctrine_parameter_human_sacrifice_active:0 "Les [executions|El] fournissent de la [piety|El] au lieu d’en coûter"
+ doctrine_parameter_human_sacrifice_active:1 "Les [executions|El] fournissent de la [piety|El] au lieu d’en coûter\n$EFFECT_LIST_BULLET$Les [executions|El] ne coûtent jamais du [prestige|El] en cas de [sharing_power|El]"
  doctrine_parameter_flower_war_cb_active:0 "Accorde le [casus_belli|El] « [flowery_war|El] » contre les pays voisins"
 
  tenet_gruesome_festivals_blot_name:0 "Blót"
@@ -82,18 +82,22 @@
  doctrine_parameter_other_culture_conversion_penalty_active:1 "Vitesse de conversion des [counties|El] d’une autre [culture|El] : #N -50%#!"
 
  tenet_pentarchy_name:0 "Ecclésiarchie"
- tenet_pentarchy_alternate_name:0 "La pentarchie"
+ tenet_pentarchy_alternate_name:0 "Pentarchie"
  tenet_pentarchy_desc:0 "Nos lieux saints sont plus que des lieux sacrés — ce sont les sièges mêmes du pouvoir à partir desquels nos chefs religieux gouvernent."
 
  tenet_aniconism_name:0 "Aniconisme"
  tenet_aniconism_desc:0 "Le culte des images gravées a empêché de voir la vérité divine. Nous chasserons toutes les icônes de nos lieux saints afin que nos fidèles ne tombent pas dans ce piège."
+ doctrine_parameter_reforging_artifacts_costs_piety:0 "Les [rulers|El] suivant cette [faith|El] doivent dépenser de la [piety|El] pour [reforge|El] ou [repair|El] des [artifacts|El]"
+ doctrine_parameter_destroying_artifacts_is_pious:0 "Les [rulers|El] suivant cette [faith|El] peuvent détruire des [artifacts|El] pour obtenir de la [piety|El]"
+ destroying_artifacts_is_not_pious_tt:0 "Votre [faith|El] ne permet pas de détruire des [artifacts|El] pour obtenir de la [piety|El]"
+ artifact_is_rarer_than_masterwork_tt:0 "La [rarity|El] de cet [artifact|El] est supérieure à celle d’un chef-d’œuvre"
 
  tenet_alexandrian_catechism_name:0 "Catéchisme d’Alexandrie"
  tenet_alexandrian_catechism_desc:0 "L’école catéchétique d’Alexandrie encourage depuis longtemps les théologiens à réfléchir de manière critique et à remettre en question le statu quo.\n\nMalgré la destruction physique de l’école, nous perpétuons ces traditions."
 
  tenet_hedonistic_name:0 "Hédoniste"
  tenet_hedonistic_desc:0 "Le divin a rempli ce monde de plaisirs pour que nous puissions nous y livrer. Ne pas y prendre part, c’est rejeter l’œuvre même de la Création."
- doctrine_parameter_piety_from_feasts_active:1 "Organiser un [feast|El] rapporte de la [piety|El]"
+ doctrine_parameter_piety_from_feasts_active:1 "Organiser un [GetActivityType('activity_feast').GetName|l] rapporte de la [piety|El]"
 
  tenet_carnal_exaltation_name:0 "Exaltation charnelle"
  tenet_carnal_exaltation_desc:0 "Les plaisirs de la chair sont sublimes et transcendent les autres expériences terrestres, nous rapprochant du divin. Nous devrions glorifier nos désirs sexuels et chercher des occasions de les réaliser."
@@ -129,6 +133,7 @@
 
  tenet_false_conversion_sanction_name:0 "Fausses conversions acceptées"
  tenet_temporal_condemnation_taqiya:0 "Taqîya"
+ tenet_anusim:0 "Anoussim"
  tenet_false_conversion_sanction_desc:0 "Si votre vie est menacée, il est acceptable de confesser une fausse foi aussi longtemps que vous gardez la vérité dans votre cœur."
  doctrine_parameter_sanctioned_false_conversion:0 "Résistance à la conversion : #P +30%#!\n$EFFECT_LIST_BULLET$Les [characters|El] et les [counties|El] peuvent parfois retourner à leur [faith|El]"
 
@@ -138,7 +143,7 @@
 
  tenet_literalism_name:0 "Littéralisme"
  tenet_literalism_desc:0 "Nos textes sacrés énoncent clairement l’intention divine et l’interprétation humaine a une valeur limitée."
- doctrine_parameter_literalist_debate_enabled:0 "Permet de débattre au détriment de l’[opinion|El] avec des seigneurs du pays et de potentiellement gagner ou perdre de la [piety|El] "
+ doctrine_parameter_literalist_debate_enabled:0 "Permet de débattre au détriment de l’[opinion|El] avec des seigneurs du pays et de potentiellement gagner ou perdre de la [piety|El]"
 
  tenet_legalism_name:0 "Légalisme"
  tenet_legalism_desc:0 "Nos lois résultent de nombreuses générations sages et dévotes, et y adhérer est un acte pieux. Un pécheur, peu importe qui, ne sera jamais au-dessus de la loi."
@@ -155,8 +160,11 @@
  doctrine_parameter_reincarnation_events_active:1 "Les enfants ont une probabilité d’être considérés comme la réincarnation d’un ancêtre, ce qui leur accorde des bonus de [piety|El] et d’[opinion|El]"
 
  tenet_esotericism_name:0 "Ésotérisme"
+ tenet_esotericism_kabbalah:0 "Cabale"
  tenet_esotericism_desc:0 "Les grands mystères du divin sont peut-être au-delà de la compréhension des mortels, mais ce n’est pas une excuse pour l’ignorance. Leur existence même nous oblige à rechercher la connaissance et la compréhension du monde qui nous entoure."
- doctrine_parameter_tenet_esotericism_mystic_education:1 "Les enfants avec l’[education_focus|El] d’[learning|El] peuvent obtenir le trait [GetTrait('mystic_1').GetName( GetNullCharacter )|l] s’ils s’en sortent bien dans leurs études."
+ doctrine_parameter_tenet_esotericism_mystic_education:2 "Les enfants avec l’[education_focus|El] d’[learning|El] peuvent obtenir le trait [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )|l] s’ils s’en sortent bien dans leurs études."
+ tenet_esotericism_kabbalah_desc:0 "Les enseignements de la Cabale permettent aux mortels de comprendre la relation entre le Dieu éternel, la nature de l’infini connue sous le nom de #EMP Ein Sof#! et la création de Dieu. La Cabale constitue la base du mysticisme judaïque et ses adeptes s’engagent souvent dans d’autres écoles juives."
+ tenet_religious_kabbalah_cost_tooltip:0 "Cabale : #P -10%#!"
 
  #Eastern Tenets
  tenet_adaptive_name:0 "Adaptatif"
@@ -223,7 +231,7 @@
  tenet_mystical_birthright_name:0 "Naissance de bon augure"
  tenet_mystical_birthright_alternate:0 "Táltos Születés"
  tenet_mystical_birthright_desc:0 "Chacun de nous est né avec un destin, dont le plus important est celui des Táltos - ceux qui sont choisis dès la naissance pour exercer des pouvoirs magiques et devenir de grands chefs spirituels."
- doctrine_parameter_mystic_birthright_active:0 "Les enfants peuvent rarement naître avec le trait [GetTrait('mystic_3').GetName( GetNullCharacter )|l]"
+ doctrine_parameter_mystic_birthright_active:1 "Les enfants peuvent rarement naître avec le trait [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )|l]"
 
  tenet_astrology_name:0 "Astrologie"
  tenet_astrology_desc:0 "Le ciel nocturne est notre fenêtre sur le royaume du divin. Les grands secrets et les mystères du monde y sont écrits, ouverts à tous à condition de savoir où chercher."

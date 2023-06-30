@@ -6,7 +6,7 @@
  ep1_decision.0101.c:0 "Podríamos poner algunos lechos en los establos…"
 
  ep1_decision.0111.t:0 "Decoración grandiosa"
- ep1_decision.0111.desc:0 "Se presentan muchos posibles candidatos a la redecoración, los más cercanos y dignos de mención son: los señoríos de [option_1.GetTitledFirstName], [option_2.GetTitledFirstName] y [option_3.GetTitledFirstName]\n\nSeleccionar un estilo con fama de tener más renombre que mi propia corte sería una humillación personal, pero me daría un poco del aire de grandeza del señorío extranjero.\n\nPor el contrario, emular a un señorío menor mostraría magnanimidad y apoyaría mi leyenda en el extranjero a costa de cierta reputación en casa."
+ ep1_decision.0111.desc:0 "Se presentan muchos posibles candidatos a la redecoración, los más cercanos y dignos de mención son: los señoríos de [option_1.GetTitledFirstName|l], [option_2.GetTitledFirstName|l] y [option_3.GetTitledFirstName|l]\n\nSeleccionar un estilo con fama de tener más renombre que mi propia corte sería una humillación personal, pero me daría un poco del aire de grandeza del señorío extranjero.\n\nPor el contrario, emular a un señorío menor mostraría magnanimidad y apoyaría mi leyenda en el extranjero a costa de cierta reputación en casa."
  ep1_decision.0111.toast.t:0 "[ROOT.Char.GetTitledFirstName] ha emulado uno de mis salones"
  ep1_decision.0111.a.greater_cgv:0 "La corte de [option_1.GetPrimaryTitle.GetNameNoTooltip] es muy, muy grandiosa."
  ep1_decision.0111.a.lesser_cgv:0 "Al pueblo [option_1.GetPrimaryTitle.GetAdjectiveNoTooltip] le #EMP vendría#! bien mi caridad."
@@ -28,6 +28,7 @@
 
  ep1_decision.0201.t:0 "Lingüistas en la corte"
  ep1_decision.0201.desc:1 "Por fin la búsqueda de un lingüista de [target_court_language.GetCourtLanguage.GetName] ha llegado a buen puerto. Los candidatos se han presentado ante mí, cada uno con su propia experiencia en idiomas extranjeros."
+ ep1_decision.0201.tt.aptitude:0 "La [aptitude|lE] de [selected_linguist.GetUIName] es [selected_linguist.GetCourtPositionAptitude( GetCourtPositionType( 'court_tutor_court_position' ) )]"
  ep1_decision.0201.a:2 "¡[good_linguist.GetNameNoTooltip] es un[good_linguist.Custom('ES_XA')] célebre lingüista de [target_court_language.GetCourtLanguage.GetNameNoTooltip]!"
  ep1_decision.0201.b:0 "[medium_linguist.GetNameNoTooltip] hará el trabajo."
  ep1_decision.0201.c:1 "[scholarly_linguist.GetNameNoTooltip] es un[scholarly_linguist.Custom('ES_XA')] expert[scholarly_linguist.Custom('ES_OA')] famos[scholarly_linguist.Custom('ES_OA')] en [target_court_language.GetCourtLanguage.GetNameNoTooltip]!"

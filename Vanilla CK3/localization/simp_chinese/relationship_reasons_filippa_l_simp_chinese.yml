@@ -1,0 +1,100 @@
+﻿l_simp_chinese:
+ friend_humored_antpath_superstition:1 "[CHARACTER.GetShortUIName|U]嘲笑了[TARGET_CHARACTER.GetShortUINamePossessive]从不跨过蚁路的迷信行为。"
+ friend_humored_antpath_superstition_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U]嘲笑了[CHARACTER.GetShortUINamePossessive]从不跨过蚁路的迷信行为。"
+ rival_dismissed_antpath_superstition:0 "[TARGET_CHARACTER.GetShortUIName|U]对[CHARACTER.GetShortUINamePossessive]从不跨过蚁路的迷信行为极为不齿。"
+ rival_dismissed_antpath_superstition_corresponding:0 "[CHARACTER.GetShortUINamePossessive|U]从不跨国蚁路的迷信行为被[TARGET_CHARACTER.GetShortUIName]所极为不齿。"
+
+ rival_sabotaged_my_pastures:0 "[TARGET_CHARACTER.GetShortUIName|U]不小心破坏了[CHARACTER.GetShortUINamePossessive]的牧场。"
+ rival_sabotaged_my_pastures_corresponding:0 "[CHARACTER.GetShortUINamePossessive|U]的牧场被[TARGET_CHARACTER.GetShortUIName]破坏。"
+
+ friend_improved_my_pastures:0 "[TARGET_CHARACTER.GetShortUIName|U]改善了[CHARACTER.GetShortUINamePossessive]的牧场。"
+ friend_improved_my_pastures_corresponding:0 "[CHARACTER.GetShortUINamePossessive|U]的牧场被[TARGET_CHARACTER.GetShortUIName]改善。"
+
+ rival_almost_crushed_by_elephant:0 "[TARGET_CHARACTER.GetShortUIName|U]让一只大象碾压[CHARACTER.GetShortUIName]。"
+ rival_almost_crushed_by_elephant_corresponding:0 "[CHARACTER.GetShortUIName|U]差点因为[TARGET_CHARACTER.GetShortUIName]被大象压扁。"
+ friend_saved_me_from_elephant:0 "[TARGET_CHARACTER.GetShortUIName|U]拯救[CHARACTER.GetShortUIName]免于被大象压扁。"
+ friend_saved_me_from_elephant_corresponding:0 "[CHARACTER.GetShortUIName|U][Select_CString(CHARACTER.IsLocalPlayer, '被', '被' )][TARGET_CHARACTER.GetShortUIName]从身后的一只大象身下救了出来。"
+
+ rival_burned_my_orchard:0 "[TARGET_CHARACTER.GetShortUIName|U]将[CHARACTER.GetShortUINamePossessive]的果园烧毁。"
+ rival_burned_my_orchard_corresponding:0 "[CHARACTER.GetShortUINamePossessive|U]的果园被[TARGET_CHARACTER.GetShortUIName]烧毁。"
+ rival_scolded_me:0 "[CHARACTER.GetShortUIName]因为从果园的树上摔下被[TARGET_CHARACTER.GetShortUIName|U]训斥。"
+ rival_scolded_me_corresponding:0 "[CHARACTER.GetShortUIName|U]因为从果园的树上摔下被[TARGET_CHARACTER.GetShortUIName]训斥。"
+ rival_scolded_my_child:0 "[CHARACTER.GetShortUINamePossessive]的孩子因为从果园的树上摔下被[TARGET_CHARACTER.GetShortUIName|U]训斥。"
+ rival_scolded_my_child_corresponding:0 "[CHARACTER.GetShortUINamePossessive|U]的孩子因为从果园的树上摔下被[TARGET_CHARACTER.GetShortUIName]训斥。"
+ friend_treated_childs_wounds:0 "[TARGET_CHARACTER.GetShortUIName|U]医治了[CHARACTER.GetShortUINamePossessive]孩子的伤口。"
+ friend_treated_childs_wounds_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]医治了[CHARACTER.GetShortUINamePossessive|U]孩子的伤口。"
+
+ friend_saved_workers:0 "[TARGET_CHARACTER.GetShortUIName|U]冒着生命危险拯救了[CHARACTER.GetShortUINamePossessive]的工人。"
+ friend_saved_workers_corresponding:0 "[CHARACTER.GetShortUIName|U]冒着生命危险拯救了[TARGET_CHARACTER.GetShortUINamePossessive]的工人。"
+ rival_pillaged_my_plantation:0 "[TARGET_CHARACTER.GetShortUIName|U]洗劫了[CHARACTER.GetShortUINamePossessive]被烧毁的种植园。"
+ rival_pillaged_my_plantation_corresponding:0 "[CHARACTER.GetShortUIName|U]洗劫了[TARGET_CHARACTER.GetShortUINamePossessive]被烧毁的种植园。"
+
+ friend_saved_me_from_bull:0 "[TARGET_CHARACTER.GetShortUIName|U]从愤怒的公牛角下拯救了[CHARACTER.GetShortUIName]。"
+ friend_saved_me_from_bull_corresponding:0 "[CHARACTER.GetShortUIName|U]从愤怒的公牛角下拯救了[TARGET_CHARACTER.GetShortUIName]。"
+ rival_left_me_for_the_bull:0 "[TARGET_CHARACTER.GetShortUIName|U]任由[CHARACTER.GetShortUIName]被一只愤怒的公牛攻击。"
+ rival_left_me_for_the_bull_corresponding:0 "[CHARACTER.GetShortUIName|U]任由[TARGET_CHARACTER.GetShortUIName]被一只愤怒的公牛攻击。"
+
+
+ rival_exposed_my_murder_scheme:0 "[TARGET_CHARACTER.GetShortUIName|U]揭发了[CHARACTER.GetShortUINamePossessive]的谋杀计谋。"
+ rival_exposed_my_murder_scheme_corresponding:0 "[CHARACTER.GetShortUINamePossessive]的谋杀计谋被[TARGET_CHARACTER.GetShortUIName]揭发了。"
+ friend_revealed_a_witch_to_me:0 "[TARGET_CHARACTER.GetShortUIName|U]向[CHARACTER.GetShortUIName]揭露了一个巫师。"
+ friend_revealed_a_witch_to_me_corresponding:0 "[CHARACTER.GetShortUIName|U]向[TARGET_CHARACTER.GetShortUIName]揭露了一个巫师。"
+
+ rival_abused_subjects_hospitality:0 "[TARGET_CHARACTER.GetShortUIName|U]滥用了[CHARACTER.GetShortUINamePossessive]的一个臣子对其的热情款待。"
+ rival_abused_subjects_hospitality_corresponding:1 "[CHARACTER.GetShortUIName|U]滥用了[TARGET_CHARACTER.GetShortUINamePossessive]的一个臣子对其的热情款待。"
+
+ friend_stopped_heresy:0 "[TARGET_CHARACTER.GetShortUIName|U]制止了一名异教徒在[CHARACTER.GetShortUIName]面前进行异教行径。"
+ friend_stopped_heresy_corresponding:0 "[CHARACTER.GetShortUIName|U]制止了一名异教徒在[TARGET_CHARACTER.GetShortUIName]面前进行异教行径。"
+ friend_imprisoned_heretic:0 "[TARGET_CHARACTER.GetShortUIName|U]囚禁了一名在[CHARACTER.GetShortUIName]面前进行异教行径的异教徒。"
+ friend_imprisoned_heretic_corresponding:0 "[CHARACTER.GetShortUIName|U]囚禁了一名在[TARGET_CHARACTER.GetShortUIName]面前进行异教行径的异教徒。"
+
+ friend_accepted_secret:0 "[TARGET_CHARACTER.GetShortUIName|U]理解并接受了[CHARACTER.GetShortUINamePossessive]的秘密。"
+ friend_accepted_secret_corresponding:0 "[CHARACTER.GetShortUINamePossessive|U]的秘密被[TARGET_CHARACTER.GetShortUIName]接受了。"
+ rival_exposed_secret:0 "[TARGET_CHARACTER.GetShortUIName|U]曝光了[CHARACTER.GetShortUINamePossessive]的秘密。"
+ rival_exposed_secret_corresponding:0 "[CHARACTER.GetShortUINamePossessive|U]的秘密被[TARGET_CHARACTER.GetShortUIName]曝光了。"
+
+ friend_let_me_escape:0 "[TARGET_CHARACTER.GetShortUIName|U]让[CHARACTER.GetShortUIName]从[CHARACTER.GetHerHis]的牢狱中逃了出来。"
+ friend_let_me_escape_corresponding:0 "[CHARACTER.GetShortUIName|U]让[TARGET_CHARACTER.GetShortUIName]从[TARGET_CHARACTER.GetHerHis]的牢狱中逃了出来。"
+ rival_reimprisoned_manhunt:0 "[TARGET_CHARACTER.GetShortUIName|U]在追捕[CHARACTER.GetShortUIName]后将[CHARACTER.GetHerHim]再次投入监狱。"
+ rival_reimprisoned_manhunt_corresponding:0 "[CHARACTER.GetShortUIName|U]在追捕[TARGET_CHARACTER.GetShortUIName]后将[TARGET_CHARACTER.GetHerHim]再次投入监狱。"
+
+ friend_manhunted_together:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]因为奇怪的爱好缔结了友谊。"
+ friend_manhunted_together_corresponding:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]因为奇怪的爱好缔结了友谊。"
+
+ rival_refused_manhunt:1 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUINamePossessive]的关系因为拒绝奇怪的爱好而恶化。"
+ rival_refused_manhunt_corresponding:1 "[CHARACTER.GetShortUIName]和[TARGET_CHARACTER.GetShortUINamePossessive]的关系因为拒绝奇怪的爱好而恶化。"
+
+ friend_friendly_hunt:1 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]因为一场友好的狩猎缔结了情谊。"
+ friend_friendly_hunt_corresponding:1 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]因为一场友好的狩猎缔结了情谊。"
+ friend_let_child_win:1 "[TARGET_CHARACTER.GetShortUIName|U]让[CHARACTER.GetShortUIName]在一场友好的狩猎中获胜。"
+ friend_let_child_win_corresponding:1 "[CHARACTER.GetShortUIName|U]让[TARGET_CHARACTER.GetShortUIName]在一场友好的狩猎中获胜。"
+
+ rival_did_not_thwart_murder:1 "[TARGET_CHARACTER.GetShortUIName|U]在[CHARACTER.GetShortUIName]面对刺杀时没有出手干预。"
+ rival_did_not_thwart_murder_corresponding:1 "[CHARACTER.GetShortUIName|U]在[TARGET_CHARACTER.GetShortUIName]面对刺杀时没有出手干预。"
+ friend_thwarted_murder:1 "[TARGET_CHARACTER.GetShortUIName|U]英勇地挫败了针对[CHARACTER.GetShortUIName]的刺杀企图。"
+ friend_thwarted_murder_corresponding:1 "[CHARACTER.GetShortUIName|U]英勇地挫败了针对[TARGET_CHARACTER.GetShortUIName]的刺杀企图。"
+
+ rival_did_not_help_assault:1 "[CHARACTER.GetShortUINamePossessive]的旅团遭受武装袭击时[TARGET_CHARACTER.GetShortUIName|U]没有出手相助。"
+ rival_did_not_help_assault_corresponding:1 "[TARGET_CHARACTER.GetShortUINamePossessive]的旅团遭受武装袭击时[CHARACTER.GetShortUIName|U]没有出手相助。"
+ friend_defended_against_assault:1 "[CHARACTER.GetShortUIName]的旅团在[TARGET_CHARACTER.GetShortUINamePossessive]的地产外遭受攻击时，[TARGET_CHARACTER.GetShortUIName|U]援助了[CHARACTER.GetHerHis]。"
+ friend_defended_against_assault_corresponding:1 "[TARGET_CHARACTER.GetShortUIName]的旅团在[CHARACTER.GetShortUINamePossessive]的地产外遭受攻击时，[CHARACTER.GetShortUIName|U]援助了[TARGET_CHARACTER.GetHerHis]。"
+
+ rival_imprisoned_subject:0 "[TARGET_CHARACTER.GetShortUIName|U]囚禁了[CHARACTER.GetShortUINamePossessive]的一个臣子。"
+ rival_imprisoned_subject_corresponding:0 "[CHARACTER.GetShortUIName|U]囚禁了[TARGET_CHARACTER.GetShortUINamePossessive]的一个无礼的臣子。"
+
+ friend_offered_up_pet:0 "[CHARACTER.GetShortUIName|U]为了表示对[TARGET_CHARACTER.GetShortUINamePossessive]的忠诚牺牲了[CHARACTER.GetHerHis]的宠物。"
+ friend_offered_up_pet_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]为了表示对[CHARACTER.GetShortUINamePossessive]的忠诚牺牲了[TARGET_CHARACTER.GetHerHis]的宠物。"
+
+ rival_dog_killer:0 "[TARGET_CHARACTER.GetShortUIName|U]清洗了[CHARACTER.GetShortUINamePossessive]地产中所有的狗。"
+ rival_dog_killer_corresponding:0 "[CHARACTER.GetShortUIName|U]灭绝了[TARGET_CHARACTER.GetShortUINamePossessive]地产中所有的狗。"
+
+ rival_cat_killer:0 "[TARGET_CHARACTER.GetShortUIName|U]清洗了[CHARACTER.GetShortUINamePossessive]地产中所有的猫。"
+ rival_cat_killer_corresponding:0 "[CHARACTER.GetShortUIName|U]灭绝了[TARGET_CHARACTER.GetShortUINamePossessive]地产中所有的猫。"
+
+ lover_distracting_sex:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]发生了令人分心的关系。"
+ lover_distracting_sex_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]被[CHARACTER.GetShortUIName]分心并勾引了。"
+
+ friend_cared_for_health:0 "[CHARACTER.GetShortUIName|U]照顾[TARGET_CHARACTER.GetShortUIName]直至恢复健康。"
+ friend_cared_for_health_corresponding:0 "[CHARACTER.GetShortUIName]照顾[TARGET_CHARACTER.GetShortUIName|U]直至恢复健康。"
+
+

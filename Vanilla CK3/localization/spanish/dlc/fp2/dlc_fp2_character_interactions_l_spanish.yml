@@ -3,17 +3,17 @@
  # Purchase Truce Interaction
  purchase_truce_interaction:0 "Comprar tregua"
  PURCHASE_TRUCE_NOTIFICATION:0 "¡Deberíamos ser amigos, no enemigos! Por favor, aceptad este regalo a cambio de una firma en este tratado de buena voluntad mutua."
- purchase_truce_interaction_desc:0 "Negociar una [truce|lE] preventiva con [recipient.GetTitledFirstName] a cambio de [gold|lE]"
+ purchase_truce_interaction_desc:0 "Negociar una [truce|lE] preventiva con [recipient.GetTitledFirstName|l] a cambio de [gold|lE]"
  purchase_truce_interaction.accept.actor.tt:0 "[recipient.GetTitledFirstName] aceptó mi tributo"
  purchase_truce_interaction.accept.recipient.tt:0 "[actor.GetTitledFirstName] me envía oro"
  purchase_truce_interaction.decline.actor.tt:0 "[recipient.GetTitledFirstName] rechazó mi tributo"
  purchase_truce_interaction.decline.recipient.tt:0 "[actor.GetTitledFirstName] teme mis intenciones"
- TRUCE_PURCHASED:0 "\nTregua firmada a cambio del pago de una gran cantidad de [gold|lE] [actor.Custom('ES_DelDela')] [actor.GetTitledFirstName] [recipient.Custom('ES_AlAla')] [recipient.GetTitledFirstName]."
+ TRUCE_PURCHASED:0 "\nTregua firmada a cambio del pago de una gran cantidad de [gold|lE] [actor.Custom('ES_DelDela')] [actor.GetTitledFirstName|l] [recipient.Custom('ES_AlAla')] [recipient.GetTitledFirstName|l]."
  PT_SUM_SMALL:0 "Suma pequeña"
  PT_SUM_MEDIUM:0 "Suma media"
  PT_SUM_LARGE:0 "Suma grande"
  PT_AMOUNT_OF_GOLD_OFFERED:0 "Cantidad de [gold|lE] ofrecido: $VALUE|=+0$"
- PT_COULD_USE_SOME_POCKET_MONEY:0 "El tesoro de [recipient.GetTitledFirstName] está bajo: $VALUE|=+0$"
+ PT_COULD_USE_SOME_POCKET_MONEY:0 "El tesoro de [recipient.GetTitledFirstName|l] está bajo: $VALUE|=+0$"
  PT_AI_LIKES_FREEDOM_TO_WAR_REASON:0 "Quiere la libertad de hacer la [war|lE]: $VALUE|=+0$"
  PT_AI_IS_IN_DEBT:0 "Tiene [Concept( 'debt', 'deudas' )|E]: $VALUE|=+0$"
  PT_AI_IS_PACIFIST_FAITH:0 "El [recipient.GetFaith.GetName|l] es pacifista: $VALUE|=+0$"
@@ -46,7 +46,7 @@
  enforce_truce_interaction_notification:0 "Vamos, ¡es hora de poner fin a [target.GetName]!"
  TRUCE_ENFORCE_TRUCE:0 "Tregua impuesta"
  enforce_truce_interaction_actor_toast:0 "Impuesta tregua"
- enforce_truce_interaction_toast:0 "Tregua impuesta por [actor.GetTitledFirstName]"
+ enforce_truce_interaction_toast:0 "Tregua impuesta por [actor.GetTitledFirstName|l]"
  fp2_enforce_truce_war_with_not_involved_tt:0 "El otro [war_leader|lE] no está [struggle_involved|lE] en la [iberian_struggle|lE]"
  fp2_enforce_truce_liege_or_independent_tt:0 "[recipient.GetTitledFirstName] o su enemigo deben ser un [independent_ruler|El] o de [rank|lE] igual o menor en el mismo [realm|lE]"
  fp2_enforce_truce_tier_difference_tt:0 "Ambos [war_leaders|lE] deben ser de un [rank|lE] igual al tuyo o inferior"
@@ -59,9 +59,9 @@
  ET_AI_WAR_NEW_REASON:0 "La guerra acaba de comenzar: $VALUE|=+0$"
  ET_AI_WAR_OLD_REASON:0 "La guerra se alarga: $VALUE|=+0$"
  ET_AI_ALLY_REASON:0 "[recipient.GetTitledFirstName] es tu [ally|lE]"
- ET_AI_HOF_REASON:0 "Eres [head_of_faith|lE] [recipient.Custom('ES_DelDela')] [recipient.GetTitledFirstName]"
- ET_AI_DYNAST_REASON:0 "Eres [dynast|lE] [recipient.Custom('ES_DelDela')] [recipient.GetTitledFirstName]"
- ET_AI_HOUSE_HEAD_REASON:0 "Eres [house_head|lE] [recipient.Custom('ES_DelDela')] [recipient.GetTitledFirstName]"
+ ET_AI_HOF_REASON:0 "Eres [head_of_faith|lE] [recipient.Custom('ES_DelDela')] [recipient.GetTitledFirstName|l]"
+ ET_AI_DYNAST_REASON:0 "Eres [dynast|lE] [recipient.Custom('ES_DelDela')] [recipient.GetTitledFirstName|l]"
+ ET_AI_HOUSE_HEAD_REASON:0 "Eres [house_head|lE] [recipient.Custom('ES_DelDela')] [recipient.GetTitledFirstName|l]"
 
  # Bargain Fealty Interaction
  bargain_fealty_interaction:1 "$game_concept_bargain_fealty$"
@@ -72,11 +72,11 @@
  bargain_fealty:0 "$bargain_fealty_interaction$"
 
  BF_AI_OUTNUMBERED_REASON:0 "[actor.GetShortUIName|U] está muy superado en número: $VALUE|=+0$"
- BF_AI_DIFFERENT_CULTURE_REASON:0 "[actor.GetCharacter.LocalPlayerString( 'Tu', 'La' )] [culture|lE][actor.GetCharacter.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )] es distinta de la[recipient.GetCharacter.LocalPlayerString( ' tuya', 'Loc_ES_de_GetShortUIName' )] $VALUE|=+0$"
- BF_AI_DIFFERENT_FAITH_REASON:0 "[actor.GetCharacter.LocalPlayerString( 'Tu', 'La' )] [faith|lE][actor.GetCharacter.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )] es distinta de la[recipient.GetCharacter.LocalPlayerString( ' tuya', 'Loc_ES_de_GetShortUIName' )]: $VALUE|=+0$"
- BF_AI_DE_JURE_REASON:0 "[actor.GetShortUIName|U] es [vassal|lE] [de_jure|lE][recipient.GetCharacter.LocalPlayerString( ' tuyo', 'Loc_ES_de_GetShortUIName' )]: $VALUE|=+0$"
- BF_AI_TOO_LARGE_REASON:0 "El [realm|lE][actor.GetCharacter.LocalPlayerString( ' tuyo', 'Loc_ES_de_GetShortUIName' )] es demasiado grande: $VALUE|=+0$"
- BF_AI_SAME_DYNASTY_REASON:0 "[actor.GetShortUIName] es de [recipient.GetCharacter.LocalPlayerString( 'tu', 'la' )] dinastía[recipient.GetCharacter.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )]: $VALUE|=+0$"
+ BF_AI_DIFFERENT_CULTURE_REASON:0 "La [culture|lE] de [Select_CString( actor.IsLocalPlayer, 'tu persona', actor.GetShortUIName )] es distinta de la de [Select_CString( recipient.IsLocalPlayer, 'tu persona', recipient.GetShortUIName )] $VALUE|=+0$"
+ BF_AI_DIFFERENT_FAITH_REASON:0 "La [faith|lE] [Select_CString( actor.IsLocalPlayer, 'tu persona', actor.GetShortUIName )] es distinta de la de [Select_CString( recipient.IsLocalPlayer, 'tu persona', recipient.GetShortUIName )]: $VALUE|=+0$"
+ BF_AI_DE_JURE_REASON:0 "[actor.GetShortUIName|U] es [vassal|lE] [de_jure|lE] de [Select_CString( recipient.IsLocalPlayer, 'tu persona', recipient.GetShortUIName )]: $VALUE|=+0$"
+ BF_AI_TOO_LARGE_REASON:0 "El [realm|lE][actor.LocalPlayerString( ' tuyo', 'Loc_ES_de_GetShortUIName' )] es demasiado grande: $VALUE|=+0$"
+ BF_AI_SAME_DYNASTY_REASON:0 "[actor.GetShortUIName] es de [recipient.LocalPlayerString( 'tu', 'la' )] dinastía[recipient.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )]: $VALUE|=+0$"
 
  # Offer Assistance Interaction
  contract_assistance_interaction:0 "Asistencia acordada"
@@ -95,27 +95,27 @@
  OA_AI_DEFENSIVE_WAR_REASON:0 "[recipient.GetShortUIName] se está defendiendo: $VALUE|=+0$"
  OA_AI_FAILURE_REASON:0 "Los anteriores fallos de [actor.GetShortUIName|U] como contratista: $VALUE|=+0$"
  OA_AI_LOYALTY_TOWARDS_ALLIES_REASON:0 "Lealtad hacia [Concept( 'ally', 'aliados' )|E]: $VALUE|=+0$"
- contract_assistance_interaction_condition_tt:0 "Si [actor.LocalPlayerString( 'tu', 'su')] [war_contribution|lE] ([actor.GetShortUIName]) es al menos [SCOPE.ScriptValue('saved_contribution_value')|Z0] cuando termine la [war|lE]:" # [LocEditor:AwaitingBatchUpdate]
+ contract_assistance_interaction_condition_tt:1 "Si [actor.LocalPlayerString( 'tu', 'su')] [war_contribution|lE] ([actor.GetShortUIName]) es al menos [SCOPE.ScriptValue('saved_contribution_value')|Z0] cuando termine la [war|lE]:"
  contract_assistance_war_msg_title:0 "$contract_assistance_interaction$: termina la guerra."
- contract_assistance_war_msg_hirer_paid_desc:0 "Has pagado a [contract_assistance_helper.GetShortUIName] por la [contract_assistance|lE], pues su [war_contribution|lE] fue de al menos [SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
- contract_assistance_war_msg_helper_paid_desc:0 "[contract_assistance_hirer.GetShortUIName] te ha pagado por la [contract_assistance|lE], pues tu [war_contribution|lE] fue de al menos [SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
- contract_assistance_war_msg_hirer_kept_desc:0 "No has pagado a [contract_assistance_helper.GetShortUIName] por la [contract_assistance|lE], pues su [war_contribution|lE] fue menor de [SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
- contract_assistance_war_msg_helper_kept_desc:0 "[contract_assistance_hirer.GetShortUIName] no te ha pagado por la [contract_assistance|lE], pues tu [war_contribution|lE] fue menor de [SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
+ contract_assistance_war_msg_hirer_paid_desc:1 "Has pagado a [contract_assistance_helper.GetShortUIName] por la [contract_assistance|lE], pues su [war_contribution|lE] fue de al menos [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
+ contract_assistance_war_msg_helper_paid_desc:1 "[contract_assistance_hirer.GetShortUIName] te ha pagado por la [contract_assistance|lE], pues tu [war_contribution|lE] fue de al menos [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
+ contract_assistance_war_msg_hirer_kept_desc:1 "No has pagado a [contract_assistance_helper.GetShortUIName] por la [contract_assistance|lE], pues su [war_contribution|lE] fue menor de [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
+ contract_assistance_war_msg_helper_kept_desc:1 "[contract_assistance_hirer.GetShortUIName] no te ha pagado por la [contract_assistance|lE], pues tu [war_contribution|lE] fue menor de [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
  contract_assistance_war_msg_hirer_invalidated_desc:0 "No has pagado a [contract_assistance_helper.GetShortUIName] por la [contract_assistance|lE], pues la guerra fue invalidada"
  contract_assistance_war_msg_helper_invalidated_desc:0 "[contract_assistance_helper.GetShortUIName] no ha pagado por la [contract_assistance|lE], pues la guerra fue invalidada"
  contract_assistance_war_already_contracted_tt:0 "Ya tienes [Concept( 'contracting_assistance', 'acordada la asistencia' )|E] en una guerra"
 
  invite_foreign_ruler_to:0 "Invitar a una actividad"
  invite_foreign_ruler_to_desc:1 "Invitar al [ruler|lE] de otro [realm|lE] a unirte a ti a un banquete o una cacería"
- invite_foreign_ruler_to.feast.tooltip:0 "Comienza un [feast|lE] con [recipient.GetTitledFirstName] como invitado especial"
- invite_foreign_ruler_to.hunt.tooltip:0 "Convoca a una [hunt|lE] con [recipient.GetTitledFirstName] como invitado especial"
+ invite_foreign_ruler_to.feast.tooltip:0 "Empieza un [GetActivityType('activity_feast').GetName|l] con [recipient.Custom('ES_ElLa')] [recipient.GetTitledFirstName|l] como invitad[recipient.Custom('ES_OA')] especial"
+ invite_foreign_ruler_to.hunt.tooltip:1 "Convocas una [GetActivityType('activity_hunt').GetName|l] con [recipient.Custom('ES_ElLa')] [recipient.GetTitledFirstName] como invitado especial"
  INVITE_FOREIGN_RULER_TO_NOTIFICATION:0 "¡Vos y yo deberíamos ser amigos! Por favor, aceptad mi invitación a participar en una actividad relajante."
  invited_to_hunt.accept.actor.tt:0 "[recipient.GetTitledFirstName] ha aceptado la invitación a unirse a tu cacería"
  invited_to_feast.accept.actor.tt:0 "[recipient.GetTitledFirstName] ha aceptado la invitación a unirse a tu banquete"
- invited_to_hunt.accept.recipient.tt:0 "Has aceptado la invitación de [actor.GetTitledFirstName] a una cacería"
- invited_to_feast.accept.recipient.tt:0 "Has aceptado la invitación de [actor.GetTitledFirstName] a un banquete"
+ invited_to_hunt.accept.recipient.tt:0 "Has aceptado la invitación de [actor.GetTitledFirstName|l] a una cacería"
+ invited_to_feast.accept.recipient.tt:0 "Has aceptado la invitación de [actor.GetTitledFirstName|l] a un banquete"
  invite_foreign_ruler_to.decline.actor.tt:0 "[recipient.GetTitledFirstName] ha rechazado tu invitación"
- invite_foreign_ruler_to.decline.recipient.tt:0 "Has rechazado la invitación de [actor.GetTitledFirstName]"
+ invite_foreign_ruler_to.decline.recipient.tt:0 "Has rechazado la invitación de [actor.GetTitledFirstName|l]"
  INVITE_TO_HUNT:0 "$start_hunt_decision$"
  INVITE_TO_FEAST:0 "$host_feast_decision$"
 
@@ -126,7 +126,7 @@
  request_contract_assistance_interaction:0 "Solicitar asistencia acordada"
  request_contract_assistance_interaction_desc:0 "Ofrecer a este [ruler|lE] [struggle_involved|lE] que se una a una de tus [Concept( 'war', 'guerras' )|E] a cambio de [gold|lE]."
  request_contract_assistance_interaction_notification:0 "Vuestras tropas podrían ser muy útiles en mi conflicto; solo tenemos que acordar el precio."
- request_contract_assistance_interaction_condition_tt:0 "Si la [war_contribution|lE][recipient.LocalPlayerString( ' tuya', 'Loc_ES_de_GetShortUIName' )] es al menos [SCOPE.ScriptValue('offer_assistance_interaction_war_contribution_value')|Z0] cuando termine la [war|lE]:" # [LocEditor:AwaitingBatchUpdate]
+ request_contract_assistance_interaction_condition_tt:1 "Si [recipient.LocalPlayerString( 'tu', 'su')] [war_contribution|lE] ([recipient.GetShortUIName]) es al menos [SCOPE.ScriptValue('saved_contribution_value')|Z0] cuando termine la [war|lE]:"
 
  share_known_secrets_interaction_extra_icon:0 "$hook_extra_icon$"
  no_activity_available:0 "No hay [activity|lE] disponible"

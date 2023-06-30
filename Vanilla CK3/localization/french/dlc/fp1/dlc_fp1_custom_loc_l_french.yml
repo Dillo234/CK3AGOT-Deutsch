@@ -1,7 +1,7 @@
 ﻿l_french:
  gruesomefestivalname_blot:0 "un blót"
- gruesomefestivalname_festival:0 "une fête"
- gruesomefestivalname_festivals:0 "fêtes"
+ gruesomefestivalname_festival:0 "une fête sacrificielle"
+ gruesomefestivalname_festivals:0 "fêtes sacrificielles"
  gruesomefestivalanimalpreference_pigs_cattle_horses:0 "des porcs, des bovins et des chevaux,"
  gruesomefestivalanimalpreference_cleananimals_cattle_horses:0 "des animaux rituellement purs, tels que les bovins et les chevaux,"
  gruesomefestivalanimalpreference_cleananimals_cattle:0 "des animaux rituellement purs, tels que les bovins,"
@@ -13,7 +13,7 @@
 
  SteleCommemoratesCarver:1 "Sculptée par [second.MakeScope.Var('stele_carver').Char.GetFirstNameNoTooltip]"
 
- SteleCommemoratesAncestors_Intro:1 "Érigée pour [second.MakeScope.Var('stele_container').Char.Custom('FR_le_Char_Pi')][second.MakeScope.Var('stele_container').Char.GetTitledFirstNameNicknamed] par s[second.MakeScope.Var('stele_container').Char.Custom2('FR_RelationToMeShort_OnA',second.MakeScope.Var('stele_commissioner'))]"
+ SteleCommemoratesAncestors_Intro:1 "Érigée pour [second.MakeScope.Var('stele_container').Char.Custom('FR_le_Char_Pi')][second.MakeScope.Var('stele_container').Char.GetTitledFirstNameNicknamed] par s[second.MakeScope.Var('stele_container').Char.Custom2('FR_RelationToMeShort_OnA',second.MakeScope.Var('stele_commissioner').Char)]"
  SteleCommemoratesAncestors_GenericFallback:0 "$SteleCommemoratesAncestors_Intro$. Une belle âme, qui nous manque beaucoup. $SteleCommemoratesCarver$."
  SteleCommemoratesAncestors_ChildFallback:0 "$SteleCommemoratesAncestors_Intro$. Il nous a été enlevé[second.MakeScope.Var('stele_container').Char.Custom('FR_E')] trop tôt. $SteleCommemoratesCarver$."
  SteleCommemoratesAncestors_Diplomat:1 "$SteleCommemoratesAncestors_Intro$. Puisse son talent d’orat[second.MakeScope.Var('stele_container').Char.Custom('FR_EurRice')] vivre à jamais. $SteleCommemoratesCarver$."

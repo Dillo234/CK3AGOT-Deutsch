@@ -2,6 +2,8 @@
 
  HAS_INNOVATION_THIRD:0 "La cultura [CULTURE.GetName] tiene la innovación [INNOVATION.GetName]"
  NOT_HAS_INNOVATION_THIRD:0 "La cultura [CULTURE.GetName] #bold no#! tiene la innovación [INNOVATION.GetName]"
+ HAS_INNOVATION_NONE:0 "La [culture|lE] tiene la innovación [INNOVATION_TYPE.GetName]"
+ NOT_HAS_INNOVATION_NONE:0 "La [culture|lE] #bold no#! tiene la innovación [INNOVATION_TYPE.GetName]"
 
  MUST_BE_UNLOCKED_BY_DECISION:0 "Debe desbloquearse por decisión"
 
@@ -35,6 +37,12 @@
  HAS_CULTURAL_TRADITION_FIRST_NOT:2 "La [culture|lE] [CULTURE.GetName] no tiene la [tradition|lE] [CULTURE_TRADITION.GetName]"
  HAS_CULTURAL_TRADITION_THIRD:0 "$HAS_CULTURAL_TRADITION_FIRST$"
  HAS_CULTURAL_TRADITION_THIRD_NOT:0 "$HAS_CULTURAL_TRADITION_FIRST_NOT$"
+ HAS_CULTURAL_TRADITION_GLOBAL:0 "La [culture|lE] [CULTURE.GetName] tiene la [tradition|lE] [CULTURE_TRADITION.GetName|l]"
+ HAS_CULTURAL_TRADITION_GLOBAL_NOT:0 "La [culture|lE] [CULTURE.GetName] no tiene la [tradition|lE] [CULTURE_TRADITION.GetName|l]"
+ HAS_CULTURAL_TRADITION_NONE:0 "La [culture|lE] tiene la [tradition|lE] [CULTURE_TRADITION.GetName|l]"
+ NOT_HAS_CULTURAL_TRADITION_NONE:0 "La [culture|lE] no tiene la [tradition|lE] [CULTURE_TRADITION.GetName|l]"
+
+
 
  LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_COASTAL_WARRIORS_NOT:0 "Incompatible con la [tradition|lE] $tradition_fp1_coastal_warriors_name$"
  LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_NORTHERN_STORIES_NOT:0 "Incompatible con la [tradition|lE] $tradition_fp1_northern_stories_name$"
@@ -46,7 +54,7 @@
  LACKS_OVERLAPPING_CULTRAD_TRADITION_SEAFARING_NOT:0 "Incompatible con la [tradition|lE] $tradition_seafaring_name$"
  LACKS_OVERLAPPING_CULTRAD_TRADITION_POETRY_NOT:0 "Incompatible con la [tradition|lE] $tradition_poetry_name$"
  LACKS_OVERLAPPING_CULTRAD_TRADITION_STORYTELLERS_NOT:0 "Incompatible con la [tradition|lE] $tradition_storytellers_name$"
- any_ancestor_culture_was_mystical:1 "La cultura de al menos un antepasado debe tener la [tradition|lE] $traition_mystical_ancestors_name$."
+ any_ancestor_culture_was_mystical:1 "La cultura de al menos un antepasado debe tener la [tradition|lE] $tradition_mystical_ancestors_name$."
  mystical_ancestors_disinherit:0 "La cultura no tiene la [tradition|lE] $tradition_mystical_ancestors_name$"
 
  HAS_CULTURAL_PILLAR_FIRST:1 "La [culture|lE] [CULTURE.GetName] tiene el [culture_pillar|lE] [CULTURE_PILLAR.GetName]"
@@ -54,7 +62,7 @@
  HAS_CULTURAL_PILLAR_THIRD:0 "$HAS_CULTURAL_PILLAR_FIRST$"
  HAS_CULTURAL_PILLAR_THIRD_NOT:0 "$HAS_CULTURAL_PILLAR_FIRST_NOT$"
 
- HAS_CULTURAL_PARAMETER_FIRST:0 "La [CULTURE.GetName] tiene la [tradition|lE] requerida (#TODO_CD_EP1)"
- HAS_CULTURAL_PARAMETER_FIRST_NOT:0 "La [CULTURE.GetName] no tiene la [tradition|lE] requerida (#TODO_CD_EP1)"
+ HAS_CULTURAL_PARAMETER_FIRST:1 "La [CULTURE.GetName] tiene la [tradition|lE] necesaria"
+ HAS_CULTURAL_PARAMETER_FIRST_NOT:1 "La [CULTURE.GetName] no tiene la [tradition|lE] necesaria"
  HAS_CULTURAL_PARAMETER_THIRD:0 "$HAS_CULTURAL_PARAMETER_FIRST$"
  HAS_CULTURAL_PARAMETER_THIRD_NOT:0 "$HAS_CULTURAL_PARAMETER_FIRST_NOT$"

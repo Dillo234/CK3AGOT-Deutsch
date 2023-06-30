@@ -57,9 +57,9 @@
  stewardship_duty.1063.c:0 "[client.GetHerHis|U] услуги больше не требуются."
 
  stewardship_duty.1064.desc:0 "[Select_CString(client.IsFemale, 'Моя', 'Мой' )] [client.Custom('Governance_1062_Client_U')] [Select_CString(client.IsFemale, 'покинула', 'покинул' )] мой двор"
- stewardship_duty.1065.desc:0 "[Select_CString(client.IsFemale, 'Моя' 'Мой' )] [client.Custom('Governance_1062_Client_U')|U] [Select_CString(client.IsFemale, 'умерла' 'умер' )]"
- stewardship_duty.1065.guilty.desc:0 "[Select_CString(client.IsFemale, 'Моя' 'Мой' )] [client.Custom('Governance_1062_Client_U')] [Select_CString(client.IsFemale, 'убита мной' 'убит мной' )]"
- stewardship_duty.1066.desc:0 "[Select_CString(client.IsFemale, 'Моя' 'Мой' )] [client.Custom('Governance_1062_Client_U')] у меня в темнице"
+ stewardship_duty.1065.desc:0 "[Select_CString(client.IsFemale, 'Моя', 'Мой' )] [client.Custom('Governance_1062_Client_U')|U] [Select_CString(client.IsFemale, 'умерла', 'умер' )]"
+ stewardship_duty.1065.guilty.desc:0 "[Select_CString(client.IsFemale, 'Моя', 'Мой' )] [client.Custom('Governance_1062_Client_U')] [Select_CString(client.IsFemale, 'убита мной', 'убит мной' )]"
+ stewardship_duty.1066.desc:0 "[Select_CString(client.IsFemale, 'Моя', 'Мой' )] [client.Custom('Governance_1062_Client_U')] у меня в темнице"
 
  stewardship_duty.1068.desc.a:0 "Вассал в восторге от моих садов"
  stewardship_duty.1068.desc.b:0 "[ROOT.Char.GetFaith.AltPriestTermPlural|U] под впечатлением от моего протеже"
@@ -170,7 +170,7 @@
  stewardship_duty.4060.t:0 "Складывается фракция"
  stewardship_duty.4060.desc.default:0 "Даже в разгар войны [faction_leader.GetTitledFirstName] и [faction_leader.GetHerHis] сторонники во фракции [targeting_faction.GetName] готовы использовать любой повод для достижения своей цели!"
  stewardship_duty.4060.desc.self_claim:0 "Даже в разгар войны [faction_leader.GetTitledFirstName] [Select_CString(my_vassal.IsFemale, 'готова', 'готов' )] использовать любой повод, чтобы навязать свою претензию на владение [targeting_faction.GetSpecialTitle.GetName]!"
- stewardship_duty.4060.desc.other_claim:0 "Даже в разгар войны [faction_leader.GetTitledFirstName] [Select_CString(my_vassal.IsFemale, 'готова', 'готов' )] использовать любой повод, чтобы [targeting_faction.GetSpecialCharacter.GetTitledFirstName] [Select_CString(targeting_faction.IsFemale, 'получила', 'получил' )] в свое распоряжение владение [targeting_faction.GetSpecialTitle.GetName]!"
+ stewardship_duty.4060.desc.other_claim:0 "Даже в разгар войны [faction_leader.GetTitledFirstName] [Select_CString(faction_leader.IsFemale, 'готова', 'готов' )] использовать любой повод, чтобы [targeting_faction.GetSpecialCharacter.GetTitledFirstName] [Select_CString(targeting_faction.GetSpecialCharacter.IsFemale, 'получила', 'получил' )] в свое распоряжение владение [targeting_faction.GetSpecialTitle.GetName]!"
  stewardship_duty.4060.desc.end:0 "\n\nЯ теряю войска и золото на полях сражений, и теперь мне нужно серьезно подумать, что мне делать с этой опасной ситуацией..."
  stewardship_duty.4060.a:0 "Мне #EMP необходимо#! убедить державу сохранять единство."
  stewardship_duty.4060.a.success:0 "Мне удалось убедить фракцию сохранить единство"
@@ -349,7 +349,7 @@
  stewardship_duty_special.2013.c:0 "Налоги получает владелец земли, и неважно, кто на ней проживает."
 
  stewardship_duty_special.2014.t:0 "Примирение: помолвка"
- stewardship_duty_special.2014.desc:0 "«Я и [betrothal_candidate_lord.GetTitledFirstNam] [betrothal_candidate_lord.Custom2('RelationToMe', SCOPE.sC('betrothal_candidate'))] давно договорились, что [Select_CString(betrothal_candidate_lord.IsFemale, 'ее', 'его' )] [betrothal_candidate_lord.Custom2('RelationToMe', SCOPE.sC('betrothal_candidate'))] и [Select_CString(vassal_1_betrothal_candidate.IsFemale, 'моя', 'мой' )] [vassal_1.Custom2('RelationToMe', SCOPE.sC('vassal_1_betrothal_candidate'))] вступят в брак...» — начинает [vassal_1.GetTitledFirstName], но затем ожидаемо вмешивается [vassal_2.GetTitledFirstName].\n\n«Ерунда, уже давно решили, что [betrothal_candidate.GetTitledFirstName] и [Select_CString(vassal_2_betrothal_candidate.IsFemale, 'моя', 'мой' )] [vassal_2.Custom2('RelationToMe', SCOPE.sC('vassal_2_betrothal_candidate'))] поженятся!»"
+ stewardship_duty_special.2014.desc:0 "«Я и [betrothal_candidate_lord.GetTitledFirstName] [betrothal_candidate_lord.Custom2('RelationToMe', SCOPE.sC('betrothal_candidate'))] давно договорились, что [Select_CString(betrothal_candidate_lord.IsFemale, 'ее', 'его' )] [betrothal_candidate_lord.Custom2('RelationToMe', SCOPE.sC('betrothal_candidate'))] и [Select_CString(vassal_1_betrothal_candidate.IsFemale, 'моя', 'мой' )] [vassal_1.Custom2('RelationToMe', SCOPE.sC('vassal_1_betrothal_candidate'))] вступят в брак...» — начинает [vassal_1.GetTitledFirstName], но затем ожидаемо вмешивается [vassal_2.GetTitledFirstName].\n\n«Ерунда, уже давно решили, что [betrothal_candidate.GetTitledFirstName] и [Select_CString(vassal_2_betrothal_candidate.IsFemale, 'моя', 'мой' )] [vassal_2.Custom2('RelationToMe', SCOPE.sC('vassal_2_betrothal_candidate'))] поженятся!»"
  stewardship_duty_special.2014.a:0 "[betrothal_candidate.GetTitledFirstNameNoTooltip] и [SCOPE.sC('vassal_1_betrothal_candidate').GetTitledFirstNameNoTooltip] поженятся."
  stewardship_duty_special.2014.b:0 "[SCOPE.sC('betrothal_candidate').GetTitledFirstNameNoTooltip] и [SCOPE.sC('vassal_2_betrothal_candidate').GetTitledFirstNameNoTooltip] будут помолвлены."
  stewardship_duty_special.2014.c:0 "Из-за вашего спора обе стороны лишились этого права!"

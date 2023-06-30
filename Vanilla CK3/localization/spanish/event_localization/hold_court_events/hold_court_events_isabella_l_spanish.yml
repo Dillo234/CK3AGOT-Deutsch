@@ -2,18 +2,18 @@
 
  #### Your Heir is a Jerk, by Isabella Welch
  hold_court.4001.t:0 "Azote"
- hold_court.4001.desc.intro:0 "[annoyed_vassal.GetTitledFirstName] irrumpe vociferando en mi salón del trono. «[ROOT.Char.Custom2('RelationToMeAddress', annoyed_vassal)|U], muchos creen que [preferred_heir.GetTitledFirstName] debería ser vuestr[preferred_heir.Custom('ES_OA')] hereder[preferred_heir.Custom('ES_OA')] antes que [annoying_heir.GetTitledFirstName]. ¡Es bien sabido en todo [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] que vuestro hereder[annoying_heir.Custom('ES_OA')] [annoying_heir.GetTitledFirstNameNoTooltip] ofende tanto que casi hace de la ofensa una habilidad!"
+ hold_court.4001.desc.intro:0 "[annoyed_vassal.GetTitledFirstName] irrumpe vociferando en mi salón del trono. «[ROOT.Char.Custom2('RelationToMeAddress', annoyed_vassal)|U], muchos creen que [preferred_heir.GetTitledFirstName|l] debería ser vuestr[preferred_heir.Custom('ES_OA')] hereder[preferred_heir.Custom('ES_OA')] antes que [annoying_heir.GetTitledFirstName|l]. ¡Es bien sabido en todo [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] que vuestro hereder[annoying_heir.Custom('ES_OA')] [annoying_heir.GetTitledFirstNameNoTooltip|l] ofende tanto que casi hace de la ofensa una habilidad!"
  hold_court.4001.heir_street_fight:0 "Ese maldit[annoying_heir.Custom('ES_OA')] villan[annoying_heir.Custom('ES_OA')] ronda las tabernas y provoca a campesinos borrachos para que se peleen. ¡Muchos han muerto en estas riñas en las que mata por diversión!»."
- hold_court.4001.heir_robbery:0 "De camino aquí me asaltó un[annoying_heir.Custom('ES_XA')] [annoying_heir.GetWomanMan] a caballo vestid[annoying_heir.Custom('ES_OA')] de punta en blanco. ¡Me desvistió y me ató a un árbol antes de quitarse la máscara y vanagloriarse de que en realidad era [annoying_heir.GetTitledFirstNameNoTooltip]!»."
+ hold_court.4001.heir_robbery:0 "De camino aquí me asaltó un[annoying_heir.Custom('ES_XA')] [annoying_heir.GetWomanMan] a caballo vestid[annoying_heir.Custom('ES_OA')] de punta en blanco. ¡Me desvistió y me ató a un árbol antes de quitarse la máscara y vanagloriarse de que en realidad era [annoying_heir.GetTitledFirstNameNoTooltip|l]!»."
  hold_court.4001.heir_tavern:0 "Prácticamente vive en la taberna ¡y cuando despilfarra su paga, otros le pagan las bebida a cambio de hacer imitaciones obscenas de vos!»."
  hold_court.4001.heir_diplomacy_failure:0 "Se niega a acudir a una sola reunión y cuando le pregunté el motivo me dijo que «Son un aburrimiento, sería más divertido matarnos unos a otros'»."
  hold_court.4001.heir_hated:0 "Es un[annoying_heir.Custom('ES_XA')] fanfarr[annoying_heir.Custom('ES_OnOna')] indeseable y ha presumido de que le da lo mismo no gustarle a ninguno de nosotros»."
- hold_court.4001.protective_parent:0 "\n\n[protective_parent.GetTitledFirstNameNoTooltip] chasquea la lengua, horrorizad[protective_parent.Custom('ES_OA')]. «¡Mi [annoying_heir.Custom('PetName')] jamás haría algo así!»."
+ hold_court.4001.protective_parent:0 "\n\n[protective_parent.GetTitledFirstNameNoTooltip|l] chasquea la lengua, horrorizad[protective_parent.Custom('ES_OA')]. «¡Mi [annoying_heir.Custom('PetName')] jamás haría algo así!»."
  hold_court.4001.accusation_default:0 "\n\n[annoyed_vassal.GetFirstName] suspira. «Pero estoy segur[annoyed_vassal.Custom('ES_OA')] de que [annoying_heir.GetSheHe] negará haberlo hecho»."
- hold_court.4001.heir_admission:0 "\n\nUna sonrisa lobuna se extiende por el rostro de [annoying_heir.GetTitledFirstNameNoTooltip]. «Sí, desde luego que lo hice»."
+ hold_court.4001.heir_admission:0 "\n\nUna sonrisa lobuna se extiende por el rostro de [annoying_heir.GetTitledFirstNameNoTooltip|l]. «Sí, desde luego que lo hice»."
  hold_court.4001.a:0 "¡Qué encanto, es igual que su [ROOT.Char.GetMotherFather]!"
- hold_court.4001.b:0 "¡Es la gota que colma el vaso! Será [preferred_heir.GetTitledFirstNameNoTooltip] entonces."
- hold_court.4001.c:0 "¡Por mi experiencia, [preferred_heir.GetTitledFirstNameNoTooltip] es igual de insufrible!"
+ hold_court.4001.b:0 "¡Es la gota que colma el vaso! Será [preferred_heir.GetTitledFirstNameNoTooltip|l] entonces."
+ hold_court.4001.c:0 "¡Por mi experiencia, [preferred_heir.GetTitledFirstNameNoTooltip|l] es igual de insufrible!"
  hold_court.4001.d:0 "¡Ser imperfect[annoying_heir.Custom('ES_OA')] significa que los soldados [annoying_heir.Custom('ES_LoLa')] ven como un[annoying_heir.Custom('ES_OA')] de los suyos!"
 
 ## Vassals are prejudiced about your disabilities by Isabella Welch
@@ -24,7 +24,7 @@
  hold_court.4100.speech_prejudice:0 "«Cuando sus palabras mal dichas [ROOT.Char.GetHerHim] traicionan constantemente, ¿cómo podemos confiar en que [ROOT.Char.Custom('ES_ElElla')] no nos traicionará a todos?"
  hold_court.4100.mental_health_prejudice:0 "«Se pasa toda la noche errando por el castillo, mientras murmura para sí sobre la dulce fantasía de su propia muerte."
  hold_court.4100.chronic_pain_prejudice:0 "«Todas sus articulaciones no son más que un trozo de pergamino a punto de rasgarse. El dolor implacable con cada giro"
- hold_court.4100.disability_prejudice_fallback:0 "«Tener una vida tan malograda, como un arbolito cortado, ha transformado a [ROOT.Char.GetTitledFirstNameNoTooltip] en una bestia."
+ hold_court.4100.disability_prejudice_fallback:0 "«Tener una vida tan malograda, como un arbolito cortado, ha transformado a [ROOT.Char.GetTitledFirstNameNoTooltip|l] en una bestia."
  hold_court.4100.disability_insult:0 "Ser un[ROOT.Char.Custom('ES_XA')] monstru[ROOT.Char.Custom('ES_OA')] [ROOT.Char.Custom('GetDisability')|l]"
  hold_court.4100.disability_prejudice_ending:0 "le afecta la mente, así que no puedo imaginar que llegue a sentir simpatía por las dificultades de quienes [ROOT.Char.GetHerHim] rodean. [ROOT.Char.GetSheHe|U] hace lo que le apetece, sin tener en cuenta las leyes del hombre»."
  hold_court.4100.a:0 "Ni las leyes de [ROOT.GetCharacter.GetFaith.HighGodName] se aplican a quien [ROOT.Char.GetFaith.HighGodNameSheHe|U] ha abandonado."
@@ -43,10 +43,10 @@
 
 ## Foreign ally is usurped and asks for sanctuary by Isabella Welch
  hold_court.4200.t:0 "Santuario"
- hold_court.4200.desc:0 "Mi aliad[fleeing_ally.Custom('ES_OA')], el/la antañ[fleeing_ally.Custom('ES_OA')] poderos[fleeing_ally.Custom('ES_OA')] [fleeing_ally.GetTitledFirstName], llega sin avisar a mi trono, ahora cubiert[fleeing_ally.Custom('ES_OA')] de suciedad y estiércol.\n\n«Esa rata flatulenta, mi antigu[usurping_heir.Custom('ES_OA')] hereder[usurping_heir.Custom('ES_OA')] [usurping_heir.GetTitledFirstName], me ha expulsado de mi señorío y se ha apoderado de mis tierras. He huido aquí temiendo por mi vida».\n\nY se arrodilla ante mí. «A menos que un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetWomanMan] tan temible como vos me dé un techo bajo el que vivir, sé que acabaré en una zanja. Por favor, si tenéis algo de corazón, concededme santuario»."
+ hold_court.4200.desc:0 "Mi aliad[fleeing_ally.Custom('ES_OA')], el/la antañ[fleeing_ally.Custom('ES_OA')] poderos[fleeing_ally.Custom('ES_OA')] [fleeing_ally.GetTitledFirstName|l], llega sin avisar a mi trono, ahora cubiert[fleeing_ally.Custom('ES_OA')] de suciedad y estiércol.\n\n«Esa rata flatulenta, mi antigu[usurping_heir.Custom('ES_OA')] hereder[usurping_heir.Custom('ES_OA')] [usurping_heir.GetTitledFirstName|l], me ha expulsado de mi señorío y se ha apoderado de mis tierras. He huido aquí temiendo por mi vida».\n\nY se arrodilla ante mí. «A menos que un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetWomanMan] tan temible como vos me dé un techo bajo el que vivir, sé que acabaré en una zanja. Por favor, si tenéis algo de corazón, concededme santuario»."
  hold_court.4200.a:0 "Estás entre amigos, te nombraré mi coper[fleeing_ally.Custom('ES_OA')]."
  hold_court.4200.b:0 "Tendrás un sitio justo al lado de mi trono… ¡como escabel!"
- hold_court.4200.c:0 "¡Contádselo enseguida a [usurping_heir.GetTitledFirstNameNoTooltip]! ¡Le va a encantar!"
+ hold_court.4200.c:0 "¡Contádselo enseguida a [usurping_heir.GetTitledFirstNameNoTooltip|l]! ¡Le va a encantar!"
 
 ## Enforcing a dress code at court by Isabella Welch
  hold_court.4300.t:0 "¡Vísteme, vísteme!"
@@ -64,13 +64,13 @@
 
 ##Argument amongst vassals about open carry of weapons by Isabella Welch
  hold_court.4400.t:0 "Portar abiertamente"
- hold_court.4400.desc:0 "Dos de mis vasallos se empujan y zarandean para llegar el primero a mi trono.\n\n[wants_safety_vassal.GetTitledFirstNameNoTooltip] se inclina ante mí. «Mi [ROOT.Char.GetLadyLord], el asesinato está descontrolado en las calles de las ciudades de todo [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]. Sería civilizador prohibir que los habitantes de la ciudad porten armas, al menos dentro de los límites de la misma».\n\n[wants_weapons_vassal.GetTitledFirstNameNoTooltip] le da una patada para que se aparte. «Seguridad es que todos aprendan a defenderse por sí mismos. ¡Prohibir portar armas es castrar a los vecinos de las ciudades!»."
+ hold_court.4400.desc:0 "Dos de mis vasallos se empujan y zarandean para llegar el primero a mi trono.\n\n[wants_safety_vassal.GetTitledFirstNameNoTooltip|l] se inclina ante mí. «Mi [ROOT.Char.GetLadyLord], el asesinato está descontrolado en las calles de las ciudades de todo [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]. Sería civilizador prohibir que los habitantes de la ciudad porten armas, al menos dentro de los límites de la misma».\n\n[wants_weapons_vassal.GetTitledFirstNameNoTooltip|l] le da una patada para que se aparte. «Seguridad es que todos aprendan a defenderse por sí mismos. ¡Prohibir portar armas es castrar a los vecinos de las ciudades!»."
  hold_court.4400.a:0 "Prohibiremos las armas dentro de los murallas de los asentamientos."
  hold_court.4400.b:0 "Mantengamos las espadas para que el señorío no se debilite."
  hold_court.4400.c:0 "Resolveremos este debate sobre seguridad… ¡con violencia!"
- hold_court.4400.c1:0 "Gana [wants_weapons_vassal.GetTitledFirstNameNoTooltip]."
+ hold_court.4400.c1:0 "Gana [wants_weapons_vassal.GetTitledFirstNameNoTooltip|l]."
  hold_court.4400.c1.tt:0 "Se confirma la posesión de armas en cualquier momento."
- hold_court.4400.c2:0 "Gana, no se sabe cómo, [wants_safety_vassal.GetTitledFirstNameNoTooltip]."
+ hold_court.4400.c2:0 "Gana, no se sabe cómo, [wants_safety_vassal.GetTitledFirstNameNoTooltip|l]."
  hold_court.4400.c2.tt:0 "Se impone una prohibición de armas en tus ciudades"
 
  ## Inspired Poet appears at court and makes demands by Isabella Welch
@@ -79,13 +79,13 @@
  hold_court.4500.desc.intro:0 "Una estupenda figura con un brillo de revelación sobre sí se acerca. «Soy poe[demanding_poet.Custom('ES_TaTisa')]."
  hold_court.4500.council:0 "¡Nombradme vuestr[demanding_poet.Custom('ES_OA')] [secondary_character.GetCouncilTitle|l]!»."
  hold_court.4500.romance:0 "¡Debo ser vuestr[demanding_poet.Custom('ES_OA')] amante de inmediato!»."
- hold_court.4500.titles:0 "Debéis cederme todas las tierras de [secondary_character.GetTitledFirstNameNoTooltip]»."
+ hold_court.4500.titles:0 "Debéis cederme todas las tierras de [secondary_character.GetTitledFirstNameNoTooltip|l]»."
  hold_court.4500.realm:0 "¡Dadme vuestro señorío!»."
- hold_court.4500.desc.middle:0 "\n\nUnos instantes de silencio sepulcral caen sobre la corte. [secondary_character.GetTitledFirstNameNoTooltip], antes medio dormid[secondary_character.Custom('ES_OA')], salta nervios[secondary_character.Custom('ES_OA')]. «¿Qué?».\n\n«He compuesto la mejor balada del universo"
- hold_court.4500.chancellor_2:0 "durante mi gira por tierras foráneas. Sé más de la gente del mundo que [secondary_character.GetTitledFirstNameNoTooltip]."
- hold_court.4500.steward_2:0 "en una ciudadela hecha de oro. Sé más de la belleza de la riqueza que [secondary_character.GetTitledFirstNameNoTooltip]."
- hold_court.4500.marshal_2:0 "durante un duelo entre gobernantes de antaño. Entiendo la guerra como forma de arte más que [secondary_character.GetTitledFirstNameNoTooltip]."
- hold_court.4500.spymaster_2:0 "mientras infligía dolor a otros. Mi alma conoce más sobre la tortura que [secondary_character.GetTitledFirstNameNoTooltip]."
+ hold_court.4500.desc.middle:0 "\n\nUnos instantes de silencio sepulcral caen sobre la corte. [secondary_character.GetTitledFirstNameNoTooltip|l], antes medio dormid[secondary_character.Custom('ES_OA')], salta nervios[secondary_character.Custom('ES_OA')]. «¿Qué?».\n\n«He compuesto la mejor balada del universo"
+ hold_court.4500.chancellor_2:0 "durante mi gira por tierras foráneas. Sé más de la gente del mundo que [secondary_character.GetTitledFirstNameNoTooltip|l]."
+ hold_court.4500.steward_2:0 "en una ciudadela hecha de oro. Sé más de la belleza de la riqueza que [secondary_character.GetTitledFirstNameNoTooltip|l]."
+ hold_court.4500.marshal_2:0 "durante un duelo entre gobernantes de antaño. Entiendo la guerra como forma de arte más que [secondary_character.GetTitledFirstNameNoTooltip|l]."
+ hold_court.4500.spymaster_2:0 "mientras infligía dolor a otros. Mi alma conoce más sobre la tortura que [secondary_character.GetTitledFirstNameNoTooltip|l]."
  hold_court.4500.chaplain_2:0 "sobre el misterio de [ROOT.GetCharacter.GetFaith.HighGodName]. La comprensión divina fluye con cada golpe de mi pluma."
  hold_court.4500.romance_2:0 "sobre como el acto sexual puede traer momentos de iluminación. Os convertiréis en un[ROOT.Char.Custom('ES_XA')] gobernante más sabi[ROOT.Char.Custom('ES_OA')] cuando un placer mayor revivifique vuestra mente."
  hold_court.4500.titles_2:0 "sobre el vínculo sagrado entre vasallo y señor. Yo sería un[demanding_poet.Custom('ES_XA')] servidor[demanding_poet.Custom('ES_XA')] más obediente que [secondary_character.GetSheHe]."
@@ -94,8 +94,8 @@
  hold_court.4500.a:0 "¡Guardias, deshaceos de est[demanding_poet.Custom('ES_EA')] rimador[demanding_poet.Custom('ES_XA')]!"
  hold_court.4500.b:0 "Tus delirios son encantadores, tienes que escribir para mi corte."
  hold_court.4500.c:0 "¡Está claro que es un[demanding_poet.Custom('ES_XA')] poe[demanding_poet.Custom('ES_TaTisa')]! Contra eso no podemos discutir."
- hold_court.4500.c.realm.tt:0 "#warning @warning_icon! Concederás tu título principal a [demanding_poet.GetTitledFirstNameNoTooltip] y te convertirás en su vasall[ROOT.Char.Custom('ES_OA')]!#!"
- hold_court.4500.c.titles.tt:0 "[demanding_poet.GetTitledFirstName] recibe todas las tierras y vasallos de [secondary_character.GetTitledFirstName]"
+ hold_court.4500.c.realm.tt:0 "#warning @warning_icon! Concederás tu título principal a [demanding_poet.Custom('ES_ElLa')] [demanding_poet.GetTitledFirstNameNoTooltip|l] y te convertirás en su vasall[ROOT.Char.Custom('ES_OA')]!#!"
+ hold_court.4500.c.titles.tt:0 "[demanding_poet.GetTitledFirstName] recibe todas las tierras y vasallos de [secondary_character.GetTitledFirstName|l]"
 
 ### Peasants are convinced you're a literal monster by Isabella Welch 
  hold_court.4600.t:0 "[ROOT.GetCharacter.GetSheHe|U], que se convierte en una bestia…"
@@ -125,7 +125,7 @@
 
 ### Vassals discuss the state of prisons in the realm by Isabella Welch
  hold_court.4700.t:0 "El final de la agonía"
- hold_court.4700.desc:0 "[prison_challenger_vassal.GetTitledFirstName] hace una media reverencia. «[ROOT.Char.Custom2('RelationToMeAddress', prison_challenger_vassal)|U], he oído descripciones muy sangrientas de vuestras mazmorras de la mano de [imprisoned_family_character.GetTitledFirstName], que vivió alguna que otra desventura en ellas. Vamos, ¿de verdad creéis que necesitamos #EMP tanto#!"
+ hold_court.4700.desc:0 "[prison_challenger_vassal.GetTitledFirstName] hace una media reverencia. «[ROOT.Char.Custom2('RelationToMeAddress', prison_challenger_vassal)|U], he oído descripciones muy sangrientas de vuestras mazmorras de la mano de [imprisoned_family_character.GetTitledFirstName|l], que vivió alguna que otra desventura en ellas. Vamos, ¿de verdad creéis que necesitamos #EMP tanto#!"
  hold_court.4700.desc.gruel:0 "[ROOT.Char.Custom('PrisonContentsGruel')]"
  hold_court.4700.desc.default:0 "[ROOT.Char.Custom('RandomPrisonContentsSingular')]"
  hold_court.4700.desc.2:0 "ahí abajo? ¿De qué sirve tal número de [ROOT.Char.Custom('RandomPrisonContentsPlural')]?».\n\n[prison_challenger_vassal.GetFirstName] suspira. «Los prisioneros no tienen ni platos en los que comer, sino que despiertan y se encuentran que les han dejado la comida en el suelo, ¡en el que deben comer como animales! Estaría dispuesto a contribuir con algo de dinero para reformar este lugar»."
@@ -141,12 +141,12 @@
 ### Prisoner escapes house arrest, demands fancier dinners by Isabella Welch
 
  hold_court.4800.t:0 "Me apetece chuleta de ternera"
- hold_court.4800.desc:0 "Entre los suplicantes, [escaped_prisoner.GetTitledFirstName], de quien yo #EMP pensaba#! que estaba en arresto domiciliario, aparece ante mi trono.\n\n«[ROOT.Char.Custom2('RelationToMeAddress', escaped_prisoner)|U], la comida que se sirve en mis aposentos carcelarios es de peor calidad que la que servís a los invitados distinguidos… ¿o es lo mejor que pueden hacer vuestros cocineros? A partir de ahora quisiera [ROOT.GetCharacter.Custom('GetExpensiveMeal')] para cenar».\n\n[incompetent_guard.GetTitledFirstName], mi [ROOT.GetCharacter.Custom('KnightCultureNoTooltipLowercase')], entra sin aire en el salón. «Disculpadme, mi [ROOT.GetCharacter.GetLadyLord|U], estaba vigilando a [escaped_prisoner.GetFirstNameNoTooltip], pero se mostró tan encantador[escaped_prisoner.Custom('ES_XA')], que me engañó para que [escaped_prisoner.GetHerHim] dejase salir»."
+ hold_court.4800.desc:0 "Entre los suplicantes, [escaped_prisoner.GetTitledFirstName|l], de quien yo #EMP pensaba#! que estaba en arresto domiciliario, aparece ante mi trono.\n\n«[ROOT.Char.Custom2('RelationToMeAddress', escaped_prisoner)|U], la comida que se sirve en mis aposentos carcelarios es de peor calidad que la que servís a los invitados distinguidos… ¿o es lo mejor que pueden hacer vuestros cocineros? A partir de ahora quisiera [ROOT.GetCharacter.Custom('GetExpensiveMeal')] para cenar».\n\n[incompetent_guard.GetTitledFirstName|l], mi [ROOT.GetCharacter.Custom('KnightCultureNoTooltipLowercase')], entra sin aire en el salón. «Disculpadme, mi [ROOT.GetCharacter.GetLadyLord|U], estaba vigilando a [escaped_prisoner.GetFirstNameNoTooltip], pero se mostró tan encantador[escaped_prisoner.Custom('ES_XA')], que me engañó para que [escaped_prisoner.GetHerHim] dejase salir»."
  hold_court.4800.a:0 "¡Chefs, preparad para [escaped_prisoner.GetSheHe] la mejor comida que se haya visto en esta tierra!"
  hold_court.4800.b:0 "¡Qué humillación! A partir de ahora, solo tendrás gachas mohosas."
  hold_court.4800.c.tt:0 "Quienes estén bajo arresto domiciliario podrán salir de sus aposentos bajo vigilancia."
  hold_court.4800.c:0 "El arresto domiciliario significa dignidad, que den una vuelta por las tierras."
- hold_court.4800.d:0 "¡[incompetent_guard.GetTitledFirstNameNoTooltip], no eres dign[incompetent_guard.Custom('ES_OA')] de ser [ROOT.GetCharacter.Custom('KnightCultureNoTooltipLowercase')]!"
+ hold_court.4800.d:0 "¡[incompetent_guard.GetTitledFirstNameNoTooltip|l], no eres dign[incompetent_guard.Custom('ES_OA')] de ser [ROOT.GetCharacter.Custom('KnightCultureNoTooltipLowercase')]!"
  hold_court.4800.d.tt:0 "[incompetent_guard.GetTitledFirstName] es despedid[incompetent_guard.Custom('ES_OA')]"
  hold_court.4800.e:0 "¡A las mazmorras contigo!"
 
@@ -159,7 +159,7 @@
  hold_court.4900.c:0 "¿[ROOT.GetCharacter.Custom('GetMythicalFounder')]? ¡Nada comparado conmigo!"
  hold_court.4900.d:0 "¡Puede que mi dinastía sea pequeña, pero no somos idiotas!"
 
- hold_court.4901.desc.intro:0 "Al cabo de unos días regresa [suspicious_genealogist.GetTitledFirstName]. Desenrolla un pergamino tan grande como para rodear una de mis provincias. Mi [chaplain.GetCouncilTitle] se tropieza ligeramente cuando el extremo desenrollado llega hasta el pie de mi trono.\n\n«Tengo aquí la verdad de vuestro origen, mi [ROOT.GetCharacter.GetLadyLord|U]», carraspea y empieza a leer, «hoy desvelamos una gran historia. Ante nosotros tenemos [ROOT.Char.Custom('ES_AlAla')] [ROOT.GetCharacter.GetTitledFirstNameNoTooltip],"
+ hold_court.4901.desc.intro:0 "Al cabo de unos días regresa [suspicious_genealogist.GetTitledFirstName|l]. Desenrolla un pergamino tan grande como para rodear una de mis provincias. Mi [chaplain.GetCouncilTitle] se tropieza ligeramente cuando el extremo desenrollado llega hasta el pie de mi trono.\n\n«Tengo aquí la verdad de vuestro origen, mi [ROOT.GetCharacter.GetLadyLord|U]», carraspea y empieza a leer, «hoy desvelamos una gran historia. Ante nosotros tenemos [ROOT.Char.Custom('ES_AlAla')] [ROOT.GetCharacter.GetTitledFirstNameNoTooltip|l],"
  hold_court.4901.mothers:0 "hija de [mother_1.GetFullNameNicknamedNoTooltip], engendrada por la temible [mother_2.GetFullNameNicknamedNoTooltip], fruto de las entrañas de [mother_3.GetFullNameNicknamedNoTooltip], salida del útero de [mother_4.GetFullNameNicknamedNoTooltip], hija de la bella [mother_5.GetFullNameNicknamedNoTooltip]…"
  hold_court.4901.fathers:0 "hijo de [father_1.GetFullNameNicknamedNoTooltip], engendrado por el temible [father_2.GetFullNameNicknamedNoTooltip], fruto de las entrañas de [father_3.GetFullNameNicknamedNoTooltip], hijo del célebre [father_4.GetFullNameNicknamedNoTooltip], vástago de [father_5.GetFullNameNicknamedNoTooltip]…»."
  hold_court.4901.desc.outro:0 "\n\nAquí y allá empiezan a cerrarse los párpados de unos y otros."

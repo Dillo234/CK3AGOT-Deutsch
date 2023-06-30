@@ -1,6 +1,12 @@
 ﻿l_russian:
 
- GOVERNMENT_HAS_FLAG_TRIGGER:0 "[government|E] может: $FLAG|V$"
+ GOVERNMENT_HAS_FLAG_TRIGGER:1 "$FLAG$"
+ GOVERNMENT_HAS_FLAG_TRIGGER_FIRST:0 "$FLAG$ у вас"
+ GOVERNMENT_HAS_FLAG_TRIGGER_THIRD:0 "$FLAG$ [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
+
+ NOT_GOVERNMENT_HAS_FLAG_TRIGGER:0 "Требуется, чтобы $FLAG$"
+ NOT_GOVERNMENT_HAS_FLAG_TRIGGER_FIRST:0 "Требуется, чтобы $FLAG$ у вас"
+ NOT_GOVERNMENT_HAS_FLAG_TRIGGER_THIRD:0 "Требуется, чтобы $FLAG$ у [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
 
  GOVERNMENT_ALLOWS_TRIGGER:0 "[government|E] позволяет: $RULE|V$"
  THEIR_GOVERNMENT_ALLOWS_TRIGGER:0 "[government|E], которым управляет [CHARACTER.GetShortUINamePossessive|V], позволяет: $RULE|V$"

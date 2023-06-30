@@ -152,3 +152,8 @@
  befriend_outcome.6007.desc:0 "Je n’arrive pas à comprendre comment, mais [owner.Custom('FR_le_Char_Pi')][owner.GetTitledFirstName] a convaincu [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName] de dissoudre sa faction.\n\n[target.Custom('FR_IlElle')|U] a réuni tous les membres la nuit dernière, en annonçant qu’[target.Custom('FR_IlElle')] s’était fourvoyé[target.Custom('FR_E')] en s’opposant [owner.Custom('FR_au_Char_Pi')][owner.GetTitledFirstNameNoTooltip] et qu’[target.Custom('FR_IlElle')] souhaite une solution pacifique à notre conflit."
  befriend_outcome.6007.a.a:0 "[target.Custom('FR_le_Char_Pi')|U][target.GetTitledFirstNameNoTooltip] nous a trahi !"
  befriend_outcome.6007.a.b:0 "Peut-être a-t-[target.Custom('FR_IlElle')] raison..."
+
+ # Travel Befriend Success Outcome
+ befriend_outcome.2007.opening_travel:0 "Pour mon plus grand plaisir, un des courriers [target.Custom('FR_du_Char_Pi')][target.GetTitledFirstName] est venu me trouver ici, en [current_location.GetName], alors que ma suite et moi faisons route vers [next_destination.GetName].\n\n"
+ befriend_outcome.2007.opening_no_travel:0 "Pour mon plus grand plaisir, un des courriers [target.Custom('FR_du_Char_Pi')][target.GetTitledFirstName] est venu me trouver ici, à mon [ROOT.Char.Custom('FortifiedBuilding')] de [ROOT.Char.GetLocation.GetName].\n\n"
+ befriend_outcome.2007.desc:0 "[courier.GetSheHe|U] apporte de bonnes nouvelles, car [target.GetFirstNameNoTooltip] souhaite officialiser notre amitié ! Je ne m’attendais pas à ce que nous devenions si proches, mais [target.GetSheHe] a prouvé sa fiabilité et son honnêteté, et [target.GetSheHe] ne pense qu’à mes intérêts."

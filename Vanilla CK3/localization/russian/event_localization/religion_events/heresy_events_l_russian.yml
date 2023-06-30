@@ -13,6 +13,6 @@
  heresy.0010.notification.title:0 "Новое религиозное движение"
  heresy.0010.notification:0 "[heretic_ruler.GetFullName] создает новое #L [heretic_faith.GetName|l]ое#! течение!"
 
- heresy.0011.notification.heresy:1 "[convert_ruler.Custom2('HierarchicalStatus', me)] [Select_CString(convert_ruler.IsPlayer, 'принимаете', 'принимает' )] ересь: [convert_ruler.GetShortUINameNoTooltip]"
- heresy.0011.notification.same_faith:1 "[convert_ruler.Custom2('HierarchicalStatus', me)] [Select_CString(convert_ruler.IsPlayer, 'принимаете', 'принимает' )] истинную веру: [convert_ruler.GetShortUINameNoTooltip]"
- heresy.0011.notification.other:1 "[convert_ruler.Custom2('HierarchicalStatus', me)] [Select_CString(convert_ruler.IsPlayer, 'меняете', 'меняет' )] конфессию: [convert_ruler.GetShortUINameNoTooltip]"
+ heresy.0011.notification.heresy:1 "[convert_ruler.Custom2('HierarchicalStatus', me)] [Select_CString(convert_ruler.IsLocalPlayer, 'принимаете', 'принимает' )] ересь: [convert_ruler.GetShortUINameNoTooltip]"
+ heresy.0011.notification.same_faith:1 "[convert_ruler.Custom2('HierarchicalStatus', me)] [Select_CString(convert_ruler.IsLocalPlayer, 'принимаете', 'принимает' )] истинную веру: [convert_ruler.GetShortUINameNoTooltip]"
+ heresy.0011.notification.other:1 "[convert_ruler.Custom2('HierarchicalStatus', me)] [Select_CString(convert_ruler.IsLocalPlayer, 'меняете', 'меняет' )] конфессию: [convert_ruler.GetShortUINameNoTooltip]"

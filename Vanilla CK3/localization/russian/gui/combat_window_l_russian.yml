@@ -15,8 +15,8 @@
  COW_TT_SOFT_CASUALTIES_RIGHT:0 "#T [CombatWindow.GetRightSideRelation|U] ([routed_soldiers|E]): #V [CombatWindow.GetRightCombatSide.GetSoftCasualties|0]#!#!"
  COW_TT_HARD_CASUALTIES_SOLDIERS_LEFT:0 "#T [CombatWindow.GetLeftSideRelation|U] [dead_soldiers|E]: #V [CombatWindow.GetLeftCombatSide.GetHardCasualties|0]#!#!"
  COW_TT_HARD_CASUALTIES_SOLDIERS_RIGHT:0 "#T [CombatWindow.GetRightSideRelation|U] [dead_soldiers|E]: #V [CombatWindow.GetRightCombatSide.GetHardCasualties|0]#!#!"
- COW_TT_CURRENT_ROLL_LEFT:0 "#T Этот бросок:[CombatWindow.GetLeftRoll]#!\n[CombatWindow.GetLeftRollBreakdown]"
- COW_TT_CURRENT_ROLL_RIGHT:0 "#T Этот бросок:[CombatWindow.GetRightRoll]#!\n[CombatWindow.GetRightRollBreakdown]"
+ COW_TT_CURRENT_ROLL_LEFT:0 "#T Этот бросок: [CombatWindow.GetLeftRoll]#!\n[CombatWindow.GetLeftRollBreakdown]"
+ COW_TT_CURRENT_ROLL_RIGHT:0 "#T Этот бросок: [CombatWindow.GetRightRoll]#!\n[CombatWindow.GetRightRollBreakdown]"
  MIN_COMBAT_ROLL:0 "Минимум"
  MAX_COMBAT_ROLL:0 "Максимум"
  COMBAT_ROLL_BASE:0 "Базовое значение"
@@ -70,8 +70,8 @@
  COMBAT_WINDOW_MAA_TT_EFFICIENCY:1 "@warning_icon!Наносит на [CombatMaaItem.GetCountered|0-%] меньше урона из-за противодействия"
  COMBAT_WINDOW_MAA_TT_TERRAIN_GOOD:0 "#I + Удобный тип местности #!"
  COMBAT_WINDOW_MAA_TT_TERRAIN_BAD:0 "#X - Неудобный тип местности #!"
- COMBAT_WINDOW_MAA_TT_SCREEN:2 "Эффект скрытности каждого полного полка: [MenAtArmsType.GetStat(GetPlayer, 'screen')|0+=]"
- COMBAT_WINDOW_MAA_TT_PURSUIT:2 "Эффект преследования каждого полного полка: [MenAtArmsType.GetStat(GetPlayer, 'pursuit')|0+=]"
+ COMBAT_WINDOW_MAA_TT_SCREEN:3 "Эффект скрытности каждого полного полка: [MenAtArmsType.GetStat(GetPlayer, Province.Self, 'screen')|0+=]"
+ COMBAT_WINDOW_MAA_TT_PURSUIT:3 "Эффект преследования каждого полного полка: [MenAtArmsType.GetStat(GetPlayer, Province.Self, 'pursuit')|0+=]"
  COMBAT_WINDOW_NO_MAA:0 "Нет [Concept( 'men_at_arms', 'профессиональных полков' )|E]"
  CV_TT_RELATIVE_SOLDIERS:0 "#T Относительная сила#!\n[soldiers|E]: [CombatWindow.GetLeftCombatSide.GetComposition.GetSoldierCountString] против [CombatWindow.GetRightCombatSide.GetComposition.GetSoldierCountString]\n[CombatWindow.GetCombat.GetCombatWidthBreakdown]"
  COMBAT_WINDOW_PHASE_MANEUVER_TT:1 "#T Фаза маневрирования\n#!Обе стороны готовятся к битве"
@@ -87,4 +87,3 @@
  CW_NO_KNIGHTS:0 "Нет [Concept( 'knights', 'рыцарей' )|E]"
  COMBAT_WINDOW_NO_COMMANDER:0 "Нет командира"
  
-

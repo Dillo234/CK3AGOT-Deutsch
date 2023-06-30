@@ -16,7 +16,9 @@
  fabricate_hook_outcome.1001.c:0 "Das war alles ein großer Fehler."
 
  fabricate_hook_outcome.1002.t:1 "$fabricate_hook_header$ Ein belastendes Schreiben"
- fabricate_hook_outcome.1002.desc:0 "Ich habe einen Boten vom Hof von [target.GetTitledFirstName] angehalten, wodurch sich eine Gelegenheit ergab.\n\nWenn ich das Siegel von [target.GetTitleAsName] kopiere, kann ich einen Brief fingieren, der mit Steuererhöhungen droht, und ihn an [target.Custom('DE_PRO_POS_S_3P')]e Vasallen versenden. Oder zumindest damit drohen …"
+ fabricate_hook_outcome.1002.desc:1 "Ich habe einen Boten vom Hof von [target.GetTitledFirstName] abgefangen, wodurch sich eine Gelegenheit ergeben hat.\n\n"
+ fabricate_hook_outcome.1002.desc.vassals:0 "Wenn ich das Siegel von [target.GetTitleAsName] kopiere, kann ich einen Brief fingieren, der mit Steuererhöhungen droht. Diesen schicke ich dann an [target.Custom('DE_PRO_POS_S_3P')]e Vasallen. Oder zumindest drohe ich damit …"
+ fabricate_hook_outcome.1002.desc.no_vassals:0 "Wenn ich das Siegel von [target.GetTitleAsName] kopiere, kann ich einen Brief fingieren, der mit Steuererhöhungen droht. Diesen schicke ich dann an [target.Custom('DE_PRO_POS_S_3P')]e Höflinge. Oder zumindest drohe ich damit …"
  fabricate_hook_outcome.1002.a:0 "„Das #EMP ist#! doch Eure Unterschrift, oder nicht?“"
 
  fabricate_hook_outcome.1003.t:1 "$fabricate_hook_header$ Eine gewagte Rettung"

@@ -1,5 +1,5 @@
 ﻿l_simp_chinese:
- MEMORIES_WINDOW_HEADING:0 "[Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINamePossessiveNoTooltip, '无')|U]记忆"
+ MEMORIES_WINDOW_HEADING:0 "记忆：[Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINamePossessiveNoTooltip, '空')|U]"
  MEMORIES_WINDOW_ENTRY:0 "[CharacterMemory.GetDescription|U]。"
  MEMORIES_WINDOW_COPY_ENTRY:0 "[CharacterMemory.GetCreationDate.GetString]\n[CharacterMemory.GetDescription|U]。\n\n"
  MEMORIES_WINDOW_COPY_TO_CLIPBOARD:0 "$COA_DESIGNER_COPY_TO_CLIPBOARD_BUTTON$"

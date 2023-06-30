@@ -6,7 +6,7 @@
 
  sway_ongoing.1002.t:0 "Influencia: halagos"
  sway_ongoing.1002.desc:0 "Para hacer a [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] más receptiv[target.Custom('ES_OA')] a mis acercamientos hacia [target.GetSheHe], puedo introducir un cumplido en la próxima misiva a su corte.\n\nMe aseguraré de mencionar su…"
- sway_ongoing.1002.success.tt:0 "A juicio de [friend.GetTitledFirstNameNoTooltip]:"
+ sway_ongoing.1002.success.tt:0 "A juicio de [friend.GetTitledFirstNameNoTooltip|l]:"
  sway_ongoing.1002.b:0 "Seré breve y profesional."
 
  sway_ongoing.1003.opening:0 "[target.Custom2('AppropriateGreeting', ROOT.Char)]"
@@ -18,7 +18,7 @@
 
  sway_ongoing.1005.t:0 "Influencia: buen[target.Custom('ES_XA')] [target.GetTitleAsNameNoTooltip]"
  sway_ongoing.1005.desc:0 "Como recibía la visita de damas y caballeros de señoríos de todas partes, tuve varias oportunidades de dar buena imagen de [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)].\n\n«Mi [ROOT.Char.GetLadyLord], decidme, ¿quién es la persona más [target.Custom('FormalComplimentAdjective')] que conocéis?»."
- sway_ongoing.1005.a:0 "¡[target.GetTitledFirstNameNoTooltip], sin duda alguna!"
+ sway_ongoing.1005.a:0 "¡[target.GetTitledFirstNameNoTooltip|l], sin duda alguna!"
  sway_ongoing.1005.b:0 "Bueno, ¡yo, por supuesto!"
 
  sway_ongoing.1006.t:0 "Influencia: infiltrados"
@@ -98,10 +98,10 @@
  sway_ongoing.5011.b:0 "Mostradme mis aposentos, sin más."
  sway_ongoing.5011.b.tt:0 "Me iré a primera hora de la mañana"
 
- sway_ongoing.5013.desc_opening:0 "Una biblioteca con libros apilados por las esquinas, un proyecto de construcción sin terminar (¡incluido un comedor entero!) y un cofre de oro justo en medio de un pasillo…\n\n¡La residencia [target.Custom('ES_DelDela')] [target.GetTitledFirstName] está hecha un desastre!"
+ sway_ongoing.5013.desc_opening:0 "Una biblioteca con libros apilados por las esquinas, un proyecto de construcción sin terminar (¡incluido un comedor entero!) y un cofre de oro justo en medio de un pasillo…\n\n¡La residencia [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l] está hecha un desastre!"
  sway_ongoing.5012.a_trait:0 "Arreglaré el comedor de inmediato."
  sway_ongoing.5012.a:0 "Creo que puedo ayudar con el comedor."
- sway_ongoing.5012.a.tt:0 "[target.GetTitledFirstNameNoTooltip] reaccionará a lo que hagas"
+ sway_ongoing.5012.a.tt:0 "[target.GetTitledFirstNameNoTooltip|l] reaccionará a lo que hagas"
  sway_ongoing.5012.a_success:0 "Tengo éxito"
  sway_ongoing.5012.a_failure:0 "Solo lo empeoro"
  sway_ongoing.5012.b_trait:0 "Voy a ordenar estos libros…"
@@ -115,13 +115,13 @@
  sway_ongoing.5012.c_failure:0 "[target.GetSheHe|U] cree que tramo algo"
  sway_ongoing.5012.d:0 "Me voy directamente a dormir."
 
- sway_ongoing.5013.desc_expansion_success:0 "Solo hacía falta un poco de dedicación. El salón comedor de [target.GetTitledFirstNameNoTooltip] está casi a punto."
- sway_ongoing.5013.desc_expansion_failure:0 "Pese a todos mis esfuerzos, el salón comedor de [target.GetTitledFirstNameNoTooltip] parece estar en peor estado que cuando empecé…"
- sway_ongoing.5013.desc_library_success:0 "Libros doblados, documentos perdidos, lomos pintados… Tras un gran trabajo de reorganización, hay algo de orden en el caos de la biblioteca de [target.GetTitledFirstNameNoTooltip]."
- sway_ongoing.5013.desc_library_failure:0 "Libros doblados, documentos perdidos, lomos pintados… Por mucho que lo intento, no encuentro ningún sentido al desbarajuste de biblioteca que tiene [target.GetTitledFirstNameNoTooltip]. "
- sway_ongoing.5013.desc_gold_success:0 "Cuando explico los peligros de tener un cofre de oro a la vista, a [target.GetTitledFirstNameNoTooltip] se le abren los ojos como platos.\n\n«¡Ay, por supuesto que no debería estar ahí! Gracias, [ROOT.Char.GetTitledFirstNameNoTooltip]»."
- sway_ongoing.5013.desc_gold_failure:0 "Mientras intentaba explicar los peligros de tener un cofre de oro a la vista, veo que [target.GetTitledFirstName] entrecierra los ojos.\n\n«¿Y exactamente #EMP por qué#! estabas mirando mi oro?»."
- sway_ongoing.5013.desc_steal_success:0 "«¡Mi oro! ¿Dónde está mi oro?».\n\nEncuentro a un[target.Custom('ES_XA')] [target.GetTitledFirstName] consternad[target.Custom('ES_OA')] de pie en un pasillo, delante de un cofre vacío. «Oh, [ROOT.Char.GetTitledFirstNameNoTooltip], ¡si te hubiera hecho caso…!»."
+ sway_ongoing.5013.desc_expansion_success:0 "Solo hacía falta un poco de dedicación. El salón comedor de [target.GetTitledFirstNameNoTooltip|l] está casi a punto."
+ sway_ongoing.5013.desc_expansion_failure:0 "Pese a todos mis esfuerzos, el salón comedor de [target.GetTitledFirstNameNoTooltip|l] parece estar en peor estado que cuando empecé…"
+ sway_ongoing.5013.desc_library_success:0 "Libros doblados, documentos perdidos, lomos pintados… Tras un gran trabajo de reorganización, hay algo de orden en el caos de la biblioteca de [target.GetTitledFirstNameNoTooltip|l]."
+ sway_ongoing.5013.desc_library_failure:0 "Libros doblados, documentos perdidos, lomos pintados… Por mucho que lo intento, no encuentro ningún sentido al desbarajuste de biblioteca que tiene [target.GetTitledFirstNameNoTooltip|l]. "
+ sway_ongoing.5013.desc_gold_success:0 "Cuando explico los peligros de tener un cofre de oro a la vista, a [target.GetTitledFirstNameNoTooltip|l] se le abren los ojos como platos.\n\n«¡Ay, por supuesto que no debería estar ahí! Gracias, [ROOT.Char.GetTitledFirstNameNoTooltip|l]»."
+ sway_ongoing.5013.desc_gold_failure:0 "Mientras intentaba explicar los peligros de tener un cofre de oro a la vista, veo que [target.GetTitledFirstName|l] entrecierra los ojos.\n\n«¿Y exactamente #EMP por qué#! estabas mirando mi oro?»."
+ sway_ongoing.5013.desc_steal_success:0 "«¡Mi oro! ¿Dónde está mi oro?».\n\nEncuentro a un[target.Custom('ES_XA')] [target.GetTitledFirstName|l] consternad[target.Custom('ES_OA')] de pie en un pasillo, delante de un cofre vacío. «Oh, [ROOT.Char.GetTitledFirstNameNoTooltip|l], ¡si te hubiera hecho caso…!»."
  sway_ongoing.5013.desc_end_good:0 "\n\nHice todo lo que estaba en mi mano para ayudar[target.Custom('ES_LoLa')]."
  sway_ongoing.5013.desc_end_bad:0 "\n\nFue una experiencia difícil, pero he hecho todo lo que pude para ayudar[target.Custom('ES_LoLa')]."
  sway_ongoing.5013.desc_good:0 "\n\nLas cosas pintan bien, y hay otras áreas donde puedo ayudar[target.Custom('ES_LoLa')]."
@@ -130,7 +130,7 @@
  sway_ongoing.5013.c.tt_intrigue:0 "Y si algo le pasase a su oro…"
  sway_ongoing.5013.d:0 "#EMP Ahora#! sí que es hora de ir a dormir."
 
- sway_ongoing.5014.desc_opening:0 "Veo [target.Custom('ES_AlAla')] [target.GetTitledFirstName] en la entrada por la mañana, esperando a despedirme. Cuando paso a su lado, oigo cómo murmura.\n\n"
+ sway_ongoing.5014.desc_opening:0 "Veo [target.Custom('ES_AlAla')] [target.GetTitledFirstName|l] en la entrada por la mañana, esperando a despedirme. Cuando paso a su lado, oigo cómo murmura.\n\n"
  sway_ongoing.5014.desc_great:0 "«Es genial. Todo está como nuevo…»."
  sway_ongoing.5014.desc_good:0 "«Lo ha arreglado de verdad»."
  sway_ongoing.5014.desc_bad:0 "«Ha destrozado todo»."

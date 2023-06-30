@@ -123,9 +123,9 @@
  fp1_other_decisions.0021.a.zealous:0 "Что же это за святотатство такое?!"
  fp1_other_decisions.0021.a.cynical:0 "По меньшей мере, это оскорбление нашего народа!"
  fp1_other_decisions.0021.a.fallback:0 "Какой ужас!"
- fp1_other_decisions.0021.cheaper_holy_wars.tt:0 "Теперь [Concept( 'holy_wars', 'священные войны' )|E] против [Select_CString(sacrificer.IsPlayer, '', 'персонажа ' )][sacrificer.GetNamePossessiveOrMy][Select_CString(sacrificer.IsPlayer, 'его персонажа', '' )] стоят намного меньше"
- fp1_other_decisions.0021.easier_holy_wars.tt:0 "[holy_wars|E] против [Select_CString(sacrificer.IsPlayer, '', 'персонажа ' )][sacrificer.GetNamePossessiveOrMy][Select_CString(sacrificer.IsPlayer, 'его персонажа', '' )] требуют меньшего [Concept( 'piety_levels', 'уровня набожности' )|E], чем обычно"
- fp1_other_decisions.0021.ghw_target_preference.tt:0 "[great_holy_wars|E] с большей вероятностью начнутся против [Select_CString(sacrificer.IsPlayer, '', 'персонажа ' )][sacrificer.GetNamePossessiveOrMy][Select_CString(sacrificer.IsPlayer, 'его персонажа', '' )]"
+ fp1_other_decisions.0021.cheaper_holy_wars.tt:0 "Теперь [Concept( 'holy_wars', 'священные войны' )|E] против [Select_CString(sacrificer.IsLocalPlayer, '', 'персонажа ' )][sacrificer.GetNamePossessiveOrMy][Select_CString(sacrificer.IsLocalPlayer, 'его персонажа', '' )] стоят намного меньше"
+ fp1_other_decisions.0021.easier_holy_wars.tt:0 "[holy_wars|E] против [Select_CString(sacrificer.IsLocalPlayer, '', 'персонажа ' )][sacrificer.GetNamePossessiveOrMy][Select_CString(sacrificer.IsLocalPlayer, 'его персонажа', '' )] требуют меньшего [Concept( 'piety_levels', 'уровня набожности' )|E], чем обычно"
+ fp1_other_decisions.0021.ghw_target_preference.tt:0 "[great_holy_wars|E] с большей вероятностью начнутся против [Select_CString(sacrificer.IsLocalPlayer, '', 'персонажа ' )][sacrificer.GetNamePossessiveOrMy][Select_CString(sacrificer.IsLocalPlayer, 'его персонажа', '' )]"
 
  fp1_other_decisions.0022.t:0 "$fp1_other_decisions.0021.t$"
  fp1_other_decisions.0022.desc:0 "Похоже, [unlucky_guest.GetFaith.GetAdherentNamePlural|l] всего мира не особо обрадовались тому, что их якобы [unlucky_guest.GetTitleAsNameNoTooltip|l] [Select_CString(unlucky_guest.IsFemale, 'была принесена', 'был принесён' )] мной в жертву.\n\n"
@@ -177,5 +177,5 @@
  fp1_other_decisions.0111.c:0 "[location_c.GetNameNoTierNoTooltip|U] — отличный выбор!"
  
  fp1_other_decisions.1000.t:0 "Жертва!"
- fp1_other_decisions.1000.desc:0 "Толпа не сводит с меня глаз и не прекращает пения. [blotter.GetFirstName] стоит перед ними и, с ухмылкой на лице, готовится оборвать мою жизнь.\n\n«О, [blotter.GetFaith.HighGod.IsFemale, 'сильнейшая', 'сильнейший' )] [blotter.GetFaith.HighGodName]! Прими эту жертву!» — кричит [blotter.GetSheHe].\n\nПуть завершен.\n\nТьма обволакивает меня.\n\nВсё кончено."
+ fp1_other_decisions.1000.desc:0 "Толпа не сводит с меня глаз и не прекращает пения. [blotter.GetFirstName] стоит перед ними и, с ухмылкой на лице, готовится оборвать мою жизнь.\n\n«О, [blotter.GetFaith.HighGodName]! Прими эту жертву!» — кричит [blotter.GetSheHe].\n\nПуть завершен.\n\nТьма обволакивает меня.\n\nВсё кончено."
  fp1_other_decisions.1000.a:0 "[ROOT.Char.GetFaith.NegativeAfterLife] ждет нас обоих. Жди встречи!"

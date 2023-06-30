@@ -15,14 +15,14 @@
  court.5010.c:0 "Je vais demander à quelqu’un de se pencher sur la question."
 
  court.5020.t:0 "Confidences sur l’oreiller"
- court.5020.desc:0 "[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] s’approche de moi, l’air agité et des cernes sous les yeux.\n\n« Votre satané chat refuse de laisser mes quartiers tranquilles. Il semble que mon oreiller soit le meilleur endroit pour dormir dans tout le [ROOT.Char.Custom('ResidenceBuilding')]. Cette créature doit être contrôlée ! », dit [courtier.GetFirstNameNoTooltip] qui prend un moment pour se calmer avant de reprendre : « Si cela plaît à [ROOT.Char.Custom('FR_MonseigneurMadame')|U]. »"
- court.5020.a:0 "C’est évidemment son oreiller maintenant."
- court.5020.b:0 "Je vais m’assurer qu’[ROOT.Char.Custom('CatStorySheHe')] reste éloigné[ROOT.Char.Custom('FR_CatStory_e')]."
+ court.5020.desc:0 "[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] s’approche de moi, l’air agité et des cernes sous les yeux.\n\n« Votre satané chat refuse de laisser mes quartiers tranquilles. Il semble que mon oreiller soit le meilleur endroit pour dormir dans tout le [ROOT.Char.Custom('ResidenceBuilding')]. Cette créature doit être surveillée ! », dit [courtier.GetFirstNameNoTooltip] qui prend un moment pour se calmer avant de reprendre : « Si cela plaît à [ROOT.Char.Custom('FR_MonseigneurMadame')|U]. »"
+ court.5020.a:0 "C’est de toute évidence son oreiller maintenant."
+ court.5020.b:0 "Je vais m’assurer que mon chat reste à l’écart."
 
  court.5021.desc:0 "Je repère [courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] à l’autre bout de la pièce. [courtier.Custom('FR_IlElle')|U] est de bonne humeur ces derniers temps, et les cernes sous ses yeux ont disparu.\n\nCe qui m’inquiète, c’est que mon cher chat [ROOT.Char.Custom('CatStoryName')] semble avoir disparu en même temps..."
  court.5021.desc_mittens:0 "\n\n[courtier.GetFirstNameNoTooltip] voit que je regarde et me fait signe. Je remarque ses nouvelles mitaines de couleur [ROOT.Char.Custom('CatFurColor')]."
  court.5021.a:0 "Où peut-[ROOT.Char.Custom('CatStorySheHe')] être ?"
- court.5021.a_mittens:0 "Quelles jolies mitai... Oh non, #EMP [ROOT.Char.Custom('CatStoryName')]#! !"
+ court.5021.a_mittens:0 "Quelles jolies mitai... Oh non, [ROOT.Char.Custom('CatStoryName')] !"
  court.5021.b:0 "[courtier.GetFirstNameNoTooltip] disparaîtra de la même manière."
  court.5021.c:0 "« Votre sort sera le même que le sien. »"
 
@@ -94,7 +94,7 @@
  court.5057.b:0 "Personne ne se moque de moi !"
 
  court.5060.t:0 "Le brave $knight_culture_player_no_tooltip_lowercase$"
- court.5060.desc:0 "[knight.Custom2('MyCharacterIntroduction', ROOT.Char)|U] a excellé lors de nos récentes batailles et ma Cour bourdonne d’excitation. Quel $knight_culture_player_no_tooltip_lowercase$ accompli, quel modèle, que[knight.Custom('FR_LLle')] #EMP [knight.GetWomanMan]#! !\n\nAvec toutes les louanges qui pleuvent sur [knight.Custom('FR_LuiElle')], il est clair qu’on attend de moi que je [knight.Custom('FR_LeLa')] récompense officiellement d’une manière ou d’une autre."
+ court.5060.desc:0 "[knight.Custom2('MyCharacterIntroduction', ROOT.Char)|U] a excellé lors de nos récentes batailles et ma Cour bourdonne d’excitation. Quel $knight_culture_player_no_tooltip_lowercase$ accompli, quel modèle, que[knight.Custom('FR_LLle')] [knight.GetWomanMan] !\n\nAvec toutes les louanges qui pleuvent sur [knight.Custom('FR_LuiElle')], il est clair qu’on attend de moi que je [knight.Custom('FR_LeLa')] récompense officiellement d’une manière ou d’une autre."
  court.5060.a:0 "Euh... Je parlerai en bien d[knight.Custom('FR_EluiElle')]."
  court.5060.b:0 "[knight.GetSheHe|U] est [knight.Custom('FR_LeLa')] nouv[knight.Custom('FR_EauElle')] [knight.GetLadyLord] de [title_to_grant.GetName] !"
  court.5060.c:0 "[knight.GetSheHe|U] recevra de l’or pour ses précieux accomplissements !"

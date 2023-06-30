@@ -1,0 +1,38 @@
+﻿l_spanish:
+ # Intents
+ reduce_stress_intent:1 "Recreo"
+
+ reduce_stress_intent_desc:0 "Quieres centrarte en reducir el [stress|lE] y buscas oportunidades de aliviarlo."
+
+ murder_attendee_intent:0 "Asesinato"
+ murder_attendee_intent_desc:0 "Te centras en acabar con la vida de tu objetivo. Esto suele dar lugar a ocasiones de asesinato y opciones especiales."
+
+ woo_attendee_intent:0 "Seducción"
+ woo_attendee_intent_desc:0 "Solo tienes una cosa en mente: seducir a tu objetivo. Esto lleva a menudo a eventos especiales y opciones para cumplir ese deseo."
+
+ befriend_attendee_intent:0 "Amistad"
+ befriend_attendee_intent_desc:0 "Te propones ganarte el favor de tu objetivo. Esto lleva a menudo a eventos y opciones amistosas."
+
+ lechery_intent:0 "Libertinaje"
+ lechery_intent_desc:0 "Tienes la intención de abrazar tus deseos carnales y buscar encuentros sexuales con una plétora de parejas. Esto suele provocar una reducción del [stress|lE] en los personajes de carácter [GetTrait('lustful').GetName( GetNullCharacter )|l]."
+
+ altruism_intent_header:0 "Altruismo:"
+ altruism_intent:0 "Altruismo"
+ altruism_intent_desc:1 "Intentas mejorar la vida de los demás buscando oportunidades para emprender acciones altruistas. Esto suele llevar a un aumento de la [county_opinion|lE] y [piety|lE]. Los personajes de carácter [GetTrait('zealous').GetName( GetNullCharacter )|l], [GetTrait('generous').GetName( GetNullCharacter )|l] y [GetTrait('improvident').GetName( GetNullCharacter )|l] pueden perder [stress|lE]."
+
+ justice_intent:0 "Justicia"
+ justice_intent_desc:0 "Intentas repartir justicia hasta al menor de los delincuentes de tu señorío. Esto lleva a menudo a un aumento del [control|lE] y los personajes de carácter [GetTrait('just').GetName( GetNullCharacter )|l] pueden soltar [stress|lE]."
+ 
+ recruit_knights_intent:0 "Reclutamiento"
+ recruit_knights_intent_desc:0 "Intentas mejorar tu corte con [knights|lE] nuevos y poderosos. Esto suele llevar a oportunidades de reclutamiento."
+ # TOOLTIPS
+ intent_murder_success_tt:1 "Mataste a [THIS.Char.GetIntentTarget.GetShortUIName], objeto de tu [intent|lE] de asesinato"
+ intent_murder_dead_tt:1 "[THIS.Char.GetIntentTarget.GetShortUIName], objetivo de tu [intent|lE] de asesinato, murió"
+ intent_murder_fail_tt:1 "Fracasaste en matar a [THIS.Char.GetIntentTarget.GetShortUIName], objetivo de tu [intent|lE] de asesinato"
+ intent_woo_success_tt:1 "Sedujiste a [THIS.Char.GetIntentTarget.GetShortUIName], objetivo de tu [intent|lE] de seducción"
+ intent_woo_potential_tt:1 "Picaste el interés de [THIS.Char.GetIntentTarget.GetShortUIName], objetivo de tu [intent|lE] de seducción"
+ intent_woo_fail_tt:1 "Fracasaste en seducir a [THIS.Char.GetIntentTarget.GetShortUIName], objetivo de tu [intent|lE] de seducción"
+ intent_befriend_success_tt:1 "Congeniaste con [THIS.Char.GetIntentTarget.GetShortUIName], objetivo de tu [intent|lE] de entablar amistad"
+ intent_befriend_potential_tt:1 "Pasaste algo de tiempo con [THIS.Char.GetIntentTarget.GetShortUIName], objetivo de tu [intent|lE] de entablar amistad"
+ intent_befriend_fail_tt:1 "No lograste congeniar con [THIS.Char.GetIntentTarget.GetShortUIName], objetivo de tu [intent|lE] de entablar amistad"
+ activity_intent_complete_toast:1 "Intención lograda"

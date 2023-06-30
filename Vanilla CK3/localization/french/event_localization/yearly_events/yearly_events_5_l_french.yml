@@ -1,7 +1,7 @@
 ﻿l_french:
  yearly.5001.t:0 "Une rencontre malencontreuse"
- yearly.5001.duelling.desc:1 "L’écho soudain de deux voix familières attire mon attention et me conduit aux appartements de m[bickering_spouse.Custom('FR_OnA')] [bickering_spouse.GetWifeHusband].\n\nQuand j’arrive, je suis choqué[ROOT.Char.Custom('FR_E')] de [bickering_spouse.Custom('FR_LeLa')] trouver dans une discussion animée avec mon amant[bickering_lover.Custom('FR_E')] [bickering_lover.GetFirstName]. Me repérant, [bickering_attacker.GetFirstNameNoTooltip] sort rapidement son arme et tente d’attaquer [bickering_defender.GetFirstNameNoTooltip], "
- yearly.5001.backstabbing.desc:0 "Je suis sur le point de quitter la salle à manger et de retourner dans mes appartements quand j’aperçois mon amant[bickering_lover.Custom('FR_E')] [bickering_lover.GetFirstNameNoTooltip] en train de discuter avec m[bickering_spouse.Custom('FR_OnA')] [bickering_spouse.GetWifeHusband] dans un coin isolé. [bickering_defender.GetFirstName] se tourne pour me saluer, s’exposant sans le vouloir à [bickering_attacker.GetFirstName], "
+ yearly.5001.duelling.desc:1 "L’écho soudain de deux voix familières attire mon attention et me conduit aux appartements de m[bickering_spouse.Custom('FR_OnA')] [bickering_spouse.GetWifeHusband].\n\nQuand j’arrive, je suis choqué[ROOT.Char.Custom('FR_E')] de [bickering_spouse.Custom('FR_LeLa')] trouver dans une discussion animée avec mon amant[bickering_lover.Custom('FR_E')] [bickering_lover.GetFirstName]. Me repérant, [bickering_attacker.GetFirstNameNoTooltip] sort rapidement son arme et tente d’attaquer [bickering_defender.GetFirstNameNoTooltip],"
+ yearly.5001.backstabbing.desc:0 "Je suis sur le point de quitter la salle à manger et de retourner dans mes appartements quand j’aperçois mon amant[bickering_lover.Custom('FR_E')] [bickering_lover.GetFirstNameNoTooltip] en train de discuter avec m[bickering_spouse.Custom('FR_OnA')] [bickering_spouse.GetWifeHusband] dans un coin isolé. [bickering_defender.GetFirstName] se tourne pour me saluer, s’exposant sans le vouloir à [bickering_attacker.GetFirstName],"
  yearly.5001.duelling.attackerwins.desc:0 "[bickering_loser.Custom('FR_LeLa')] frappant à mort et laissant son cadavre se vider de son sang."
  yearly.5001.backstabbing.attackerwins.desc:0 "qui profite rapidement de la distraction de s[bickering_loser.Custom('FR_OnA')] rival[bickering_loser.Custom('FR_E')] pour lui planter un poignard dans le poumon."
  yearly.5001.duelling.defenderwins.desc:0 "mais son attaque est contrée au dernier moment par son adversaire, qui [bickering_loser.Custom('FR_LeLa')] repousse avec force, puis [bickering_loser.Custom('FR_LeLa')] transperce avec sa propre arme."
@@ -75,7 +75,7 @@
  tooltip.5010.b.success:0 "Je parviens à réconcilier les deux vassaux"
  tooltip.5010.b.fail:0 "Je ne parviens pas à réconcilier les deux vassaux"
  tooltip.5010.b.critfail:0 "Je mets en colère les deux vassaux"
- tooltip.5010.d.vassalsfight.effect:0 "[bickering_vassal_2.GetFirstName] défit [bickering_vassal_1.GetFirstName] dans un duel à mort !"
+ tooltip.5010.d.vassalsfight.effect:0 "[bickering_vassal_2.GetFirstName] défit [bickering_vassal_1.GetFirstName] à un duel à mort !"
 
  yearly.5020.t:0 "Choix de tutelle"
  yearly.5020.opening:0 "[helpful_councillor.Custom2('AppropriateGreeting', ROOT.Char)]"

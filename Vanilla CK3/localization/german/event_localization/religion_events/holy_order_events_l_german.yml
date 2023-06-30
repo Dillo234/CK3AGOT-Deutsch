@@ -21,6 +21,7 @@
  holy_order.0002.a:0 "Ich bin mir sicher, dass Ihr [ROOT.Char.GetFaith.HighGodName] gute Dienste erweisen werdet!"
 
  char_interaction.0001.opening_low_piety:0 "Dass ein derart sündhaftes Wesen wie Ihr zu einem Kriegerorden von [ROOT.Char.GetFaith.HighGodName] gekrochen kommt … Ihr solltet Euch darauf konzentrieren, Eure Seele zu retten, ehe Ihr Euch um weltlichen Reichtum sorgt."
+ holy_order.0200.desc_opening:0 "[recipient.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
  holy_order.0200.desc:0 "Ich habe Eure Bitte um Gold vernommen, und der Orden namens [order.GetName] wird ihr nachkommen."
  holy_order.0200.a:0 "[ROOT.Char.GetFaith.HighGodName] ist mir hold!"
  holy_order.0200.b:0 "Aber … Aber ich brauche das Geld!"
@@ -35,7 +36,7 @@
  holy_order.0202.b:0 "Wir teilen doch denselben Glauben … Gewährt mir etwas mehr Zeit!"
  holy_order.0202.b.tt:0 "[recipient.GetTitledFirstNameNoTooltip] gibt Euch 5 Jahre mehr Zeit"
  holy_order.0202.c:0 "Vielleicht finden wir ja eine andere Art der Zahlung …?"
- holy_order.0202.c.tt:0 "@warning_icon!#X [recipient.custom('DE_ART_DEF_S_N')|U] [recipient.GetTitleAsNameNoTooltip] wird Euch um etwas bitten#!"
+ holy_order.0202.c.tt:0 "@warning_icon!#X [recipient.Custom('DE_ART_DEF_S_N')|U] [recipient.GetTitleAsNameNoTooltip] wird Euch um etwas bitten#!"
  holy_order.0202.d:0 "In meinen Händen bringt das Geld mehr!"
 
  holy_order.0203.desc:0 "Ich bin kein Freund von Wortbrechern, und [ROOT.Char.GetFaith.HighGodNameAlternate] ebenfalls nicht. Um diese Kränkung wiedergutzumachen, werdet Ihr uns [province.GetName] überlassen, damit wir dort das Werk der höheren Mächte vorantreiben können."
@@ -79,7 +80,7 @@
  holy_order.2004.b:0 "Nein. Für Euch gibt es hier keinen Platz mehr."
 
  holy_order.2005.t:0 "Eine Heimkehr"
- holy_order.2005.desc:0 "Der Besuch von [child.GetTitledFirstName] dauert länger als gewöhnlich. Erst nachdem mein[child.Custom('DE_END_PRO_S_N')] [child.Custom('DaughterSon')] tagelang die große Halle besetzt hielt, wo [child.Custom('DE_PRO_PER_S_3P_N')] sich mit Essen vollstopfte und meine Bediensteten belästigte, sprach ich die Frage an, wann [child.Custom('DE_PRO_PER_S_3P_N')] denn gedachte, zu [child.Custom('DE_PRO_POS_S_3P')]em Orden zurückzukehren. [child.Custom('DE_PRO_POS_S_3P')|U]e Antwort fiel unglücklicherweise sehr begeistert aus.\n\n„Habt Ihr es denn noch nicht gehört, [ROOT.Char.Custom('MotherFather')]? [grandmaster.GetTitledFirstName] war so großzügig, mich von meinen Pflichten gegenüber dem [child.GetFaith.GetAdjective]en Glauben zu entbinden! Ich bin endlich wieder daheim, um meiner Familie zu dienen.“"
+ holy_order.2005.desc:0 "Der Besuch von [child.GetTitledFirstName] dauert länger als gewöhnlich. Erst nachdem mein[child.Custom('DE_END_PRO_S_N')] [child.Custom('DaughterSon')] tagelang die große Halle besetzt hielt, wo [child.Custom('DE_PRO_PER_S_3P_N')] sich mit Essen vollstopfte und meine Bediensteten belästigte, sprach ich die Frage an, wann [child.Custom('DE_PRO_PER_S_3P_N')] denn gedachte, zu [child.Custom('DE_PRO_POS_S_3P')]em Orden zurückzukehren. [child.Custom('DE_PRO_POS_S_3P')|U]e Antwort fiel unglücklicherweise sehr begeistert aus.\n\n„Habt Ihr es denn noch nicht gehört, [ROOT.Char.Custom('MotherFather')]? [grandmaster.GetTitledFirstName] war so großzügig, mich von meinen Pflichten gegenüber dem [child.GetFaith.GetAdjective|l]en Glauben zu entbinden! Ich bin endlich wieder daheim, um meiner Familie zu dienen.“"
  holy_order.2005.a:0 "Oh, Ihr seid … nicht nur zu Besuch?"
 
  holy_order.destroyed_title:0 "Kriegerorden aufgelöst"

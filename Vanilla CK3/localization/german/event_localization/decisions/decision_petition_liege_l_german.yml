@@ -83,15 +83,15 @@
  petition_liege_decision_effects_fortify_border:0 "[THIS.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')|U] könnte Eure Grenz-[counties|E] befestigen"
 
  # Title Liege
- petition_liege_decision_option_title_liege:0 "Anspruch gewähren\n#low Gewährt [Concept('claimed', 'Beanspruchte')|E] [title|E]#!"
- petition_liege_title_liege_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, Euch einen [Concept('claimed', 'Beanspruchten')|E] [title|E] aus dem eigenen Besitz zu übertragen"
+ petition_liege_decision_option_title_liege:0 "Anspruch gewähren\n#low Gewährt [Concept('claimed', 'beanspruchte')|E] [title|E]#!"
+ petition_liege_title_liege_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, Euch einen [Concept('claimed', 'beanspruchten')|E] [title|E] aus dem eigenen Besitz zu übertragen"
  petition_liege_title_liege_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_title_liege_tt:0 "#X Keiner Eurer [claims|E] wird von Eurem [Concept('liege', 'Lehnsherrn')|E] gehalten oder man kann es sich nicht leisten, den [title|E] aufzugeben#!"
  petition_liege_decision_effects_title_liege:0 "[THIS.Char.GetLiege.Custom('DE_PRO_PER_S_3P_N')|U] könnte einen beanspruchten [title|E] auf Euch übertragen"
 
  # Title Vassal
- petition_liege_decision_option_title_vassal:0 "Anspruch übertragen\n#low Den [Concept('claimed', 'Beanspruchten')|E] [title|E] eines [Concept('vassal', 'Vasallen')|E] verleihen"
- petition_liege_title_vassal_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, Euch einen [Concept('claimed', 'Beanspruchten')|E] [title|E] von einem anderen [Concept('vassal', 'Vasallen')|E] zu übertragen"
+ petition_liege_decision_option_title_vassal:0 "Anspruch übertragen\n#low Den [Concept('claimed', 'beanspruchten')|E] [title|E] eines [Concept('vassal', 'Vasallen')|E] verleihen"
+ petition_liege_title_vassal_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] darum ersuchen, Euch einen [Concept('claimed', 'beanspruchten')|E] [title|E] von einem anderen [Concept('vassal', 'Vasallen')|E] zu übertragen"
  petition_liege_title_vassal_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_title_vassal_liege_tt:0 "#X Die [crown_authority|E] Eures [Concept('liege', 'Lehnsherrn')|E] erlaubte keine [revocation|E] von [titles|E]#!"
  petition_liege_title_vassal_claim_tt:0 "#X Keiner Eurer [claims|E] wird von [vassals|E] Eures [Concept('liege', 'Lehnsherrn')|E] gehalten oder sie können oder wollen den [title|E] nicht aufgeben#!"

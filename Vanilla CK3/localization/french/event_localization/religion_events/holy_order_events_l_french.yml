@@ -8,7 +8,7 @@
  holy_order.new_lease:1 "[holy_order.GetName] prend maintenant à bail [barony.GetName] [former_holder.Custom('FR_du_Char_Pi')][former_holder.GetTitledFirstName]"
 
  holy_order.0001.t:0 "Ordre sacré"
- holy_order.0001.desc_opening:0 "[recipient.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] se tient dehors et m’attend, ses affaires et son entourage prêts à partir.\n\n"
+ holy_order.0001.desc_opening:0 "[recipient.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] se tient dehors à m’attendre, alors que ses affaires et sa suite sont prêtes pour le départ.\n\n"
  holy_order.0001.desc:0 "« Donc, [ROOT.Char.Custom('FR_MonseigneurMadame')|U], où ce voyage me mènera-t-il ? »"
  holy_order.0001.desc_relation:0 "« Donc, [recipient.Custom2('RelationToMeShort', ROOT.Char)], où ce voyage me mènera-t-il ? »"
  holy_order.0001.a:0 "Vous allez au [holy_order_1.GetName]."
@@ -21,6 +21,7 @@
  holy_order.0002.a:0 "Je suis sûr[ROOT.Char.Custom('FR_E')] que vous servirez [ROOT.Char.GetFaith.HighGodName] correctement !"
 
  char_interaction.0001.opening_low_piety:0 "Pour un être aussi pécheur que vous, venir ramper vers un ordre sacré [ROOT.Char.GetFaith.HighGodNamePossessive]... Vous devriez vous concentrer sur la rédemption de votre âme avant de vous soucier des richesses matérielles."
+ holy_order.0200.desc_opening:0 "[recipient.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
  holy_order.0200.desc:0 "Le [order.GetName] va accéder à votre demande d’or."
  holy_order.0200.a:0 "J’ai [ROOT.Char.GetFaith.HighGodName] à mes côtés !"
  holy_order.0200.b:0 "Mais... Mais j’ai besoin de cet argent !"
@@ -42,7 +43,7 @@
  holy_order.0203.a:0 "[province.GetNameNoTierNoTooltip] sera vôtre."
  holy_order.0203.b:0 "C’est une demande ridicule !"
 
- holy_order.0204.desc:0 "IJe ne vois pas d’un bon œil ceux qui manquent à leur parole, et [ROOT.Char.GetFaith.HighGodNameAlternate] non plus. Pour réparer cet affront, vous nous enverrez votre [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.Custom('FR_le_Char_Pi')][child.GetTitledFirstName] accomplir l’œuvre [ROOT.Char.GetFaith.HighGodNamePossessive]."
+ holy_order.0204.desc:0 "Je ne vois pas d’un bon œil ceux qui manquent à leur parole, et [ROOT.Char.GetFaith.HighGodNameAlternate] non plus. Pour réparer cet affront, vous nous enverrez votre [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.Custom('FR_le_Char_Pi')][child.GetTitledFirstName] accomplir l’œuvre [ROOT.Char.GetFaith.HighGodNamePossessive]."
  holy_order.0204.a:0 "Je... l’envoie immédiatement."
  holy_order.0204.a.tt:1 "Vous ne devez plus d’or à cet ordre"
 

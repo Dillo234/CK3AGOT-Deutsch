@@ -11,7 +11,7 @@
  stewardship_duty.0001.c:0 ""[arguer_1.GetFirstNameNoTooltip] 얘기 들었소? 기가 차서 원! 배짱만 두둑하더이다!""
  stewardship_duty.0001.a.success.tt:0 "중재 성공"
  stewardship_duty.0001.a.failure.tt:0 "몰지각한 참견꾼 취급을 당함"
- stewardship_duty_0001_mediation_success.tt:0 "서로를 향한 [arguer_1.GetShortUIName|U](와)과 [arguer_2.GetShortUIName]의 [opinion|e]이 증가함"
+ stewardship_duty_0001_mediation_success.tt:0 "서로를 향한 [arguer_1.GetShortUIName|U](와)과 [arguer_2.GetShortUIName]의 [opinion|E]이 증가함"
 
  # Conflict at the Council, by Mathilda Bjarnehed
  stewardship_duty.0017.t:0 "이성의 목소리"
@@ -215,7 +215,7 @@
  stewardship_duty.7023.c:0 "제깟 게 뭐라고. 잊어버리라면 잊어야지!"
  stewardship_duty.7023.d:0 "[ROOT.Char.GetHouse.GetBaseNameNoTooltip](은)는 언제나 빚을 갚는다!"
  stewardship_duty.7023.d.tt:0 "[hook_holder.GetTitledFirstName]에게 호의를 빚진 상태가 유지됨"
- stewardship_duty.7023.player:0 "#weak 다른 플레이어는 언제든 거부할 수 있으나, 그럴 경우 [stress|e]를 받을 수 있습니다.#!"
+ stewardship_duty.7023.player:0 "#weak 다른 플레이어는 언제든 거부할 수 있으나, 그럴 경우 [stress|E]를 받을 수 있습니다.#!"
 
  stewardship_duty.7023.invalidated.hooked_ruler:0 "[hook_holder.GetTitledFirstName]에게 빚진 호의가 사라졌으니 호의를 포기해 달라는 나의 예전 요청은 더는 유효하지 않다."
  stewardship_duty.7023.invalidated.hook_holder:0 "[hooked_ruler.GetTitledFirstName](이)가 내게 빚진 호의가 사라졌으니 호의를 포기해 달라는 [hooked_ruler.GetHerHis] 예전 요청은 더는 유효하지 않다."
@@ -251,7 +251,7 @@
 
  #  Map Painting Journey, by Petter Vilberg
  stewardship_duty_special.1201.t:0 "토지 답사"
- stewardship_duty_special.1201.desc:0 "나의 [steward.GetCouncilTitle]인 [steward.GetTitledFirstName](이)가 [ROOT.Char.Custom('RealmType')]에 유익할 거란 논리로 여정을 제안했다.\n\n수행단을 대동하고 [painting_land_owner.GetTitledFirstName]의 영토를 답사하는 게 어떻냐는 것이다. 그렇게 하면 나의 봉역에 대한 이해도가 높아지는 건 물론, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('painting_land_owner'))]에 대한 심층적인 파악이 가능할 거라는 게 [steward.GetFirstNameNoTooltip]의 생각이다."
+ stewardship_duty_special.1201.desc:0 "나의 [steward.GetCouncilTitle]인 [steward.GetTitledFirstName](이)가 [ROOT.Char.Custom('RealmType')]에 유익할 거란 논리로 여정을 제안했다.\n\n종사단을 대동하고 [painting_land_owner.GetTitledFirstName]의 영토를 답사하는 게 어떻겠냐는 것이다. 그렇게 하면 나의 봉역에 대한 이해도가 높아지는 건 물론, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('painting_land_owner'))]에 대한 심층적인 파악이 가능할 거라는 게 [steward.GetFirstNameNoTooltip]의 생각이다."
  stewardship_duty_special.1201.a:0 "해볼 만하군."
  stewardship_duty_special.1201.a.tt:0 "속히 행낭을 꾸림!"
  stewardship_duty_special.1201.b:0 "여정이나 다닐 때가 아니야."

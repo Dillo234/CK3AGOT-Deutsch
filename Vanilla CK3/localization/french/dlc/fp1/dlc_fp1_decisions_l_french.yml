@@ -29,7 +29,7 @@
 
  raise_stele_decision_name:0 "Ériger une pierre runique"
  raise_stele_decision_desc:0 "Il est courant parmi les [GetPlayer.GetCulture.GetCollectiveNounNoTooltip] d’ériger des monuments sculptés pour commémorer des événements importants. La mort d’un être cher, le règlement d’un différend, l’acquisition de terres, etc. Peut-être pourrais-je bénéficier d’une telle pierre..."
- raise_stele_decision_tt.effects_list:0 "Un de vos [counties|El] recevra l’un des [modifiers|El] suivants:\n#indent_newline:0 $EFFECT_LIST_BULLET$ [GetModifier('fp1_stele_ancestors_strong').GetNameWithTooltip]\n#indent_newline:0 $EFFECT_LIST_BULLET$ [GetModifier('fp1_stele_conquest_strong').GetNameWithTooltip]\n#indent_newline:0 $EFFECT_LIST_BULLET$ [GetModifier('fp1_stele_promotion_strong').GetNameWithTooltip]"
+ raise_stele_decision_tt.effects_list:0 "Un de vos [counties|El] recevra l’un des [modifiers|El] suivants :\n#indent_newline:0 $EFFECT_LIST_BULLET$ [GetModifier('fp1_stele_ancestors_strong').GetNameWithTooltip]\n#indent_newline:0 $EFFECT_LIST_BULLET$ [GetModifier('fp1_stele_conquest_strong').GetNameWithTooltip]\n#indent_newline:0 $EFFECT_LIST_BULLET$ [GetModifier('fp1_stele_promotion_strong').GetNameWithTooltip]"
  raise_stele_decision_tt.variable_strength:0 "Tous les modificateurs sont plus puissants lorsque la pierre runique est érigée dans une [culture|El] qui les utilisent"
  raise_stele_decision_tooltip:0 "Payer pour la fabrication d’une pierre runique dans un de vos comtés"
  raise_stele_decision_confirm:0 "Mais que graver ?"

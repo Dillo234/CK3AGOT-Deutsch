@@ -35,8 +35,8 @@
  THEY_HAVE_SAME_RELIGION:0 "[CHARACTER.GetShortUIName|U] tiene la misma [religion|lE] que [TARGET_CHARACTER.GetShortUIName]"
  NOT_THEY_HAVE_SAME_RELIGION:0 "[CHARACTER.GetShortUIName|U] no tiene la misma [religion|lE] que [TARGET_CHARACTER.GetShortUIName]"
 
- IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "Las [doctrines|lE] de [FAITH.GetName] permiten que los [rulers|lE] concedan [titles|lE] a [CHARACTER.Custom('ES_LosLas')|l] [CHARACTER.GetWomenMen]"
- NOT_IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "Las [doctrines|lE] de [FAITH.GetName] #bold no#! permiten que los [rulers|lE] concedan [titles|lE] a [TARGET_CHARACTER.Custom('ES_LosLas')|l] [TARGET_CHARACTER.GetWomenMen]"
+ IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "Las [doctrines|lE] del [FAITH.GetName|l] permiten que los [rulers|lE] concedan [titles|lE] a [CHARACTER.GetWomenMen]"
+ NOT_IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "Las [doctrines|lE] del [FAITH.GetName|l] #bold no#! permiten que los [rulers|lE] concedan [titles|lE] a [TARGET_CHARACTER.GetWomenMen]"
 
  I_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH:2 "Tu [realm|lE] tiene al menos $VALUE|0V$ [holy_sites|lE] del [FAITH.GetName] con [holders|lE] de la fe [FAITH.GetAdjectiveNoTooltip]"
  I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH:2 "Tu [realm|lE] #bold no#! tiene al menos $VALUE|0V$ [holy_sites|lE] del [FAITH.GetName] con [holders|lE] de la fe [FAITH.GetAdjectiveNoTooltip]"

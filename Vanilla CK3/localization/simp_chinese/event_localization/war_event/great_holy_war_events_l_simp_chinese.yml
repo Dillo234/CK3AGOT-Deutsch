@@ -47,7 +47,7 @@
  great_holy_war.0018.a:0 "我会加入[scoped_pope.GetFaith.WarGodName]之军！"
  great_holy_war.0018.b:0 "容我三思……"
  great_holy_war.0003.title:0 "信徒备战"
- great_holy_war.0003.catholic.desc:0 "一位教宗特使抵达我的宫廷，带来了梵蒂冈的消息。[ghw_sponsor.GetTitledFirstName]下令召集所有正义的基督徒统治者参战。作为[ROOT.Char.GetFaith.GetAdherentNameNoTooltip][ROOT.Char.GetTitleAsNameNoTooltip]，我被期望让我的士兵枕戈待旦，支持这场由普世教会自身所主导的至圣事业。\n\n肮脏的[target_character.Custom('GetUnbelieverNamePlural')]玷污了[target_kingdom.GetBaseNameNoTier]的神圣土地，对于所有那些与他们战斗的人，圣座许诺他们会得到全大赦，并获得天国预留的位置。" # [LocEditor:AwaitingBatchUpdate]
+ great_holy_war.0003.catholic.desc:1 "一位教宗特使抵达我的宫廷，带来了梵蒂冈的消息。[ghw_sponsor.GetTitledFirstName]下令召集所有正义的基督徒统治者参战。作为[ROOT.Char.GetFaith.GetAdherentNameNoTooltip][ROOT.Char.GetTitleAsNameNoTooltip]，我被期望让我的士兵枕戈待旦，支持这场由普世教会自身所主导的至圣事业。\n\n肮脏的[target_character.Custom('GetUnbelieverNamePlural')]玷污了[target_kingdom.GetBaseNameNoTier]的神圣土地，对于所有那些与他们战斗的人，圣座许诺他们会得到全大赦，并获得天国预留的位置。"
  great_holy_war.0003.fallback.desc:0 "光荣的消息抵达了我的宫廷。[ghw_sponsor.GetTitledFirstName]决定，所有正义的[ghw_sponsor.GetFaith.GetAdherentNamePluralNoTooltip]现在是时候在独一的旗帜下团结起来，在[ghw_sponsor.GetFaith.GHWName]中向信仰的敌人进军，以光荣[ghw_sponsor.GetFaith.WarGodName]。\n\n对于所有那些响应这项神圣邀请的人，[ghw_sponsor.GetTitleTierName]确保他们在[ghw_sponsor.GetFaith.DivineRealm]的位置。"
  great_holy_war.0003.a:0 "我的勇士已经做好战斗准备！"
  great_holy_war.0003.a.tt:0 "宣誓：一旦开战，就会加入[ghw_sponsor.GetTitledFirstName]召集的[ghw_sponsor.GetFaith.GHWName]"
@@ -61,7 +61,7 @@
  great_holy_war.0023.d:0 "这不是我的战争。"
  great_holy_war.0024.dead.recipient.title:0 "[ghw_claimant.GetFirstNameNoTooltip]死亡"
  great_holy_war.0024.dead.recipient.replaced:0 "[ghw_claimant.GetTitledFirstName]现在是[the_faith.GHWName]的新合法候选者。"
- great_holy_war.0024.dead.recipient.open:1 "[former_recipient.GetTitledFirstName]死了，[target_kingdom.GetBaseNameNoTier]会留给最圣洁的战士。" # [LocEditor:AwaitingBatchUpdate]
+ great_holy_war.0024.dead.recipient.open:2 "[former_recipient.GetTitledFirstName]死了，[target_kingdom.GetBaseNameNoTier]会留给最圣洁的战士。"
  great_holy_war.0028.dead.beneficiary_title:0 "受益人死亡"
  great_holy_war.0028.dead.beneficiary:0 "随着我的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('former_beneficiary'))][former_beneficiary.GetFirstName]的过世，我应当为仍在继续的[ROOT.Char.GetFaith.GHWName]选择一位新受益人。"
  great_holy_war.0029.invalid.beneficiary_title:0 "受益人无效"
@@ -78,7 +78,7 @@
  great_holy_war.0040.c:0 "我会为这份努力破费一点的。"
  great_holy_war.0040.d:0 "我会认真考虑下的。"
 
- great_holy_war.0050.title:0 "[target_kingdom.GetBaseNameNoTierNoTooltip][the_faith.GHWName]" # [LocEditor:AwaitingBatchUpdate]
+ great_holy_war.0050.title:1 "[target_kingdom.GetBaseNameNoTierNoTooltip][the_faith.GHWName]"
  great_holy_war.0050.base.desc:0 "[the_faith.GetAdjectiveNoTooltip]的统治者们，受[ghw_sponsor.GetTitledFirstName]参战号召的鼓舞，开始聚集起一大支狂热的军队，以对[target_kingdom.GetBaseNameNoTierNoTooltip]的[the_faith.ReligiousSymbol]的敌人发动一场[the_faith.GHWName]。被吸引的狂热份子与日俱增，一支[the_faith.ReligiousSymbol]的强大军队很快就会集结，给我们的土地带来战争。"
  great_holy_war.0050.defender.desc:0 "\n\n在为时已晚之前，我应当担起责任组织该地区的[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]同胞统治者们准备抵御[ghw_sponsor.Custom('GetUnbelieverNamePlural')]的来袭。"
  great_holy_war.0050.others.desc:1 "\n\n我们只能祈祷[ROOT.Char.GetFaith.WarGodName]会赐予[target_character.GetTitledFirstName]勇气和坚忍，让此人可以抵御[ghw_sponsor.Custom('GetUnbelieverNamePlural')]的浪潮。"

@@ -41,8 +41,8 @@
  coming_of_age.0001.tt.3:1 "Вам удалось достичь неплохих результатов в изучении такого искусства, как [THIS.Char.Custom('education_focus_child')]!\n"
  coming_of_age.0001.tt.4:1 "Вам удалось достичь великолепных результатов в изучении такого искусства, как [THIS.Char.Custom('education_focus_child')]!\n"
  coming_of_age.0001.tt.5:2 "Вы не забудете, какие чувства у вас [Select_CString(crush.IsFemale, 'вызывала', 'вызывал' )] [crush.GetFirstNameNoTooltip]: #P +20 к мнению#!"
- coming_of_age.0001.tt.7:1 "[victim.GetTitledFirstNameNoTooltip] нескоро сотрется из вашей памяти: #N –5 от мнения#!"
- coming_of_age.0001.tt.9:1 "[bully.GetTitledFirstNameNoTooltip] нескоро сотрется из вашей памяти: #N –10 от мнения#!"
+ coming_of_age.0001.tt.7:1 "[victim.GetTitledFirstNameNoTooltip] нескоро сотрется из вашей памяти: #N –5 к мнению#!"
+ coming_of_age.0001.tt.9:1 "[bully.GetTitledFirstNameNoTooltip] нескоро сотрется из вашей памяти: #N –10 к мнению#!"
 
  coming_of_age.1001.t:0 "[educated_child.GetFirstNameNoTooltip] взрослеет"
  coming_of_age.1001.desc_university:0 "[educated_child.GetFirstName] вступает во взрослую жизнь: время [educated_child.GetHerHis] учебы в университете подошло к концу.\n\n[educated_child.Custom('GoodOrBadChildhoodTraitMatch')] [educated_child.Custom('DescribingEducationOutcome')]"

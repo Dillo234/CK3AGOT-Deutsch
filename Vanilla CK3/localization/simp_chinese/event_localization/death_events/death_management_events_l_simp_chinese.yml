@@ -5,6 +5,7 @@
  death_management.1000.like:0 "一颗心在承受了这样的痛苦之后怎能不破碎？不可能！然而，我还在活着，我的心仍在跳动，而你的却停止了。哦，[dead_character.GetFirstName]，我的[dead_character.Custom('LoverPetName')]。我的生活不能没有你。"
  death_management.1000.neutral:0 "我亲爱的[dead_character.GetFirstName]。我也许从未爱过你，但你的过世带给我的感触却比想象中更强烈。你总是不离不弃，我的终生伴侣。我是否把你当成了理所当然？还有太多话语没有向你传达……"
  death_management.1000.dislike:0 "我的[dead_character.GetWifeHusband|U]，当你停止呼吸的时候，我感到如释重负。也许我应该感到羞耻，但实际上我俩之间从未有过爱情。终于，我可以自由地开始新生活了！"
+ death_management.1000.murder_wedding:0 "啊，多么出乎意料的死亡。根本没有计划。没人能预见到它的到来！"
  death_management.1000.a:0 "至少记忆中音容犹在。"
  death_management.1000.b:0 "我希望你得到了平静，[dead_character.GetFirstNameNoTooltip]。"
  death_management.1000.c:0 "这一天早就该来了！"
@@ -304,7 +305,7 @@
  death_management.killer.witnessed.enemy:0 "在片刻之间，[battle_death_killer.GetLiege.GetTitledFirstName]的[battle_death_killer.GetLiege.Custom2('RelationToMe', SCOPE.sC('battle_death_killer'))][battle_death_killer.GetTitledFirstName]高举[battle_death_killer.GetHerHis]的[battle_death_killer.Custom('signature_weapon')]，坚定地向前冲去，轻松战胜了[dead_character.GetFirstNameNoTooltip]剩余的力量，并打出了致命一击。 "
  death_management.killer.witnessed.friendly:0 "突然，一道[battle_death_killer.Custom('signature_weapon')]闪过的寒光引入我的眼帘，我看到[battle_death_killer.GetLiege.GetTitledFirstName]的[battle_death_killer.GetLiege.Custom2('RelationToMe', SCOPE.sC('battle_death_killer'))][battle_death_killer.GetTitledFirstName]打出了致命一击。"
  death_management.killer:0 "[dead_character.GetSheHe|U]在一场激烈的交锋中被[battle_death_killer.GetLiege.GetTitledFirstName]的[battle_death_killer.GetLiege.Custom2('RelationToMe', SCOPE.sC('battle_death_killer'))][battle_death_killer.GetTitledFirstName]杀死。”#!"
- death_management.no_killer:0 "[dead_character.GetSheHe|U]在一场激烈的小规模战斗中被流失射中。”#!"
+ death_management.no_killer:0 "[dead_character.GetSheHe|U]在一场激烈的小规模战斗中被流矢射中。”#!"
  # Spouse
  death_management.1200.t:0 "配偶阵亡"
  death_management.1200.desc:0 "\n\n我不该让[dead_character.GetHerHim]去的……不该这样……"
@@ -339,7 +340,7 @@
  death_management.1206.desc:0 "\n\n一想到[dead_character.GetFirstNameNoTooltip]在与#EMP 我#!交战时阵亡，我就忍不住大笑，这会让我兴奋好几天！"
  death_management.1206.a:0 "可喜可贺。"
  death_management.1206.b:0 "[dead_character.GetFirstNameNoTooltip]的命本该属于我！"
- death_management.1206.c:1 "我的#EMP 英雄！#!我要送[battle_death_killer.GetFirstNameNoTooltip]一朵[ROOT.Char.Custom('ArtifactFlowerSpecies')]！"
+ death_management.1206.c:2 "我的#EMP 英雄！#!我要送[battle_death_killer.GetFirstNameNoTooltip]一朵[ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')]！"
  # Heir
  death_management.1207.t:0 "继承人阵亡"
  death_management.1207.desc:0 "\n\n必须再次注意一下[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]的继承了……"

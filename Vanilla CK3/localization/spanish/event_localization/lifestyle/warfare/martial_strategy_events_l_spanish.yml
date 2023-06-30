@@ -95,7 +95,7 @@
 
  # Decide between two vassal's proposed strategies for a war, Sean Hughes
  martial_strategy.3010.t:0 "Pausa estratégica"
- martial_strategy.3010.desc.start:0 "Estoy sentad[ROOT.Char.Custom('ES_OA')] delante del mapa con [impatient_commander.GetTitledFirstName] y [patient_commander.GetTitledFirstName] mientras hablamos de la estrategia para la próxima guerra.\n\n[impatient_commander.GetFirstNameNoTooltip]"
+ martial_strategy.3010.desc.start:0 "Estoy sentad[ROOT.Char.Custom('ES_OA')] delante del mapa con [impatient_commander.GetTitledFirstName|l] y [patient_commander.GetTitledFirstName|l] mientras hablamos de la estrategia para la próxima guerra.\n\n[impatient_commander.GetFirstNameNoTooltip]"
  martial_strategy.3010.desc.middle:0 "mientras [patient_commander.GetFirstNameNoTooltip]"
  martial_strategy.3010.desc.end:0 "\n\nEs mi derecho decidir nuestro plan de acción final."
  martial_strategy.3010.desc.wrathful:0 "golpea la mesa con el puño y proclama en voz alta que debemos atacar directamente al enemigo y aplastarlo con el poderío de nuestros ejércitos,"
@@ -103,20 +103,20 @@
  martial_strategy.3010.desc.patient:0 "se sienta y aboga pacientemente por asegurar los puntos críticos y esperar más bien a que el enemigo venga a nosotros."
  martial_strategy.3010.desc.craven:0 "murmura nerviosamente cómo evitar enfrentamientos innecesarios y emprender una guerra de desgaste."
  martial_strategy.3010.desc.flexible:0 "explica que debemos observar lo que hacen nuestros enemigos y responder en consecuencia."
- martial_strategy.3010.a:0 "¡[impatient_commander.GetTitledFirstNameNoTooltip] ha dado con la mejor idea!"
- martial_strategy.3010.b:0 "Prefiero usar el plan [patient_commander.Custom('ES_DelDela')] [patient_commander.GetTitledFirstNameNoTooltip]."
+ martial_strategy.3010.a:0 "¡[impatient_commander.GetTitledFirstNameNoTooltip|l] ha dado con la mejor idea!"
+ martial_strategy.3010.b:0 "Prefiero usar el plan [patient_commander.Custom('ES_DelDela')] [patient_commander.GetTitledFirstNameNoTooltip|l]."
  martial_strategy.3010.c:0 "Mis comandantes pueden actuar como vean mejor."
  martial_strategy.3010.o_martial:0 "¡Sé como podemos emplear ambas estrategias!"
 
- martial_strategy.3010.desc.response.start:0 "Estoy en una reunión estratégica con [my_liege.GetTitledFirstName] y [other_commander.GetTitledFirstName] para discutir los planes para la próxima guerra."
+ martial_strategy.3010.desc.response.start:0 "Estoy en una reunión estratégica con [my_liege.GetTitledFirstName|l] y [other_commander.GetTitledFirstName|l] para discutir los planes para la próxima guerra."
 
  martial_strategy.3011.t:0 "Estrategia adoptada"
  martial_strategy.3011.desc:0 "\n\n[my_liege.GetTitledFirstName] se muestra receptiv[my_liege.Custom('ES_OA')] a mis ideas frente a las propuestas de [other_commander.GetFirstName]. ¡Ahora tenemos que usarlas para dar forma a nuestro enfoque estratégico de la próxima guerra!"
  martial_strategy.3011.a.disapprove:0 "¿Quién habría pensado que [my_liege.GetFirstNameNoTooltip] entraría en razón?"
- martial_strategy.3011.a:0 "¡Sabía que a [my_liege.GetTitledFirstNameNoTooltip] le gustarían mis ideas!"
+ martial_strategy.3011.a:0 "¡Sabía que a [my_liege.GetTitledFirstNameNoTooltip|l] le gustarían mis ideas!"
 
  martial_strategy.3012.t:0 "Estrategia rechazada"
- martial_strategy.3012.desc:0 "\n\nPor desgracia, [my_liege.GetTitledFirstName] desdeña mis ideas y, en cambio, favorece las propuestas de [other_commander.GetFirstName]. ¡Ahora tenemos que usarlas para dar forma a nuestro enfoque estratégico de la próxima guerra!"
+ martial_strategy.3012.desc:0 "\n\nPor desgracia, [my_liege.GetTitledFirstName|l] desdeña mis ideas y, en cambio, favorece las propuestas de [other_commander.GetFirstName]. ¡Ahora tenemos que usarlas para dar forma a nuestro enfoque estratégico de la próxima guerra!"
  martial_strategy.3012.a.disapprove:0 "La necedad de [my_liege.GetFirstNameNoTooltip] no me sorprende."
  martial_strategy.3012.a:0 "El tiempo dirá si la elección de [my_liege.GetFirstNameNoTooltip] fue la correcta."
 
@@ -127,7 +127,7 @@
  martial_strategy.3014.t:0 "Estrategia integrada"
  martial_strategy.3014.desc:0 "\n\n[my_liege.GetTitledFirstName] ha combinado mis ideas con las de [other_commander.GetFirstNamePossessive] y ha creado una estrategia cohesionada que nos dará una ventaja significativa en el campo de batalla."
  martial_strategy.3014.a.disapprove:0 "Pese a sus defectos, [my_liege.GetFirstNamePossessiveNoTooltip] es un[my_liege.Custom('ES_XA')] general con talento."
- martial_strategy.3014.a:0 "El plan de [my_liege.GetTitledFirstNameNoTooltip] me impresiona."
+ martial_strategy.3014.a:0 "El plan de [my_liege.GetTitledFirstNameNoTooltip|l] me impresiona."
 
 
  #Storm Your Own Castle, by Linnéa Thimrén
@@ -178,7 +178,7 @@
  martial_strategy_special.1304.d:0 "¡Escudos arriba! ¡Proteged la retaguardia!"
  martial_strategy_special.1304.f:0 "¡Dadles duro! ¡Sin piedad!"
 
- martial_strategy_special.1304.a.tt1:0 "Igualamos rápidamente las fuerzas de [siege_proposer.GetTitledFirstNameNoTooltip]"
+ martial_strategy_special.1304.a.tt1:0 "Igualamos rápidamente las fuerzas de [siege_proposer.GetTitledFirstNameNoTooltip|l]"
  martial_strategy_special.1304.a.tt2:0 "Nos atacan por la retaguardia desprotegida"
  martial_strategy_special.1304.b:0 "¡Arqueros, a vuestras posiciones!"
  martial_strategy_special.1304.b.tt1:0 "Somos imparables"
@@ -187,7 +187,7 @@
  martial_strategy_special.1399.t:0 "$martial_strategy_special.1301.t$: asaltar un/a [ROOT.Char.Custom('FortifiedBuilding')]"
  martial_strategy_special.1399.desc_win:0 "¡El/la [ROOT.Char.Custom('FortifiedBuilding')] nos pertenece!"
  martial_strategy_special.1399.desc_loose:0 "Se ha perdido la batalla y los defensores han vencido."
- martial_strategy_special.1399.desc:0 "Entre los soldados que lo celebran, me encuentro con [siege_proposer.GetTitledFirstName], que me felicita por una carga bien dirigida."
+ martial_strategy_special.1399.desc:0 "Entre los soldados que lo celebran, me encuentro con [siege_proposer.GetTitledFirstName|l], que me felicita por una carga bien dirigida."
  martial_strategy_special.1399.desc_win2:0 "\n\n«Miradlos, mi [ROOT.Char.GetLadyLord]. El cambio de ritmo les fue bien. ¡Hasta vos parecéis revigorizad[ROOT.Char.Custom('ES_OA')] aunque vuestra/o [ROOT.Char.Custom('FortifiedBuilding')] cayó ante los atacantes!»."
  martial_strategy_special.1399.desc_loose2:0 "\n\n«Aunque no conseguisteis tomar el/la [ROOT.Char.Custom('FortifiedBuilding')], Mi [ROOT.Char.GetLadyLord], tanto las tropas como vos parecéis revigorizados por el cambio de ritmo!».\n\nNo puedo sino estar de acuerdo. ¡Además, me reconforta saber que no se podrá tomar fácilmente mi [ROOT.Char.Custom('FortifiedBuilding')]!"
  martial_strategy_special.1399.a:0 "¡Nuestros enemigos no tendrán ninguna oportunidad!"
@@ -244,7 +244,7 @@
  martial_strategy_special.1404.d.tt:0 "[soldier_friend.GetSheHe|U] los llevará al castillo sanos y salvos."
 
  martial_strategy_special.1405.t:0 "Marchando"
- martial_strategy_special.1405.desc:1 "Cuando atravieso una pequeña aldea me doy cuenta de que los guardias de la misma, con sencillas vestiduras, ¡llevan armas con mi emblema!\n\nEn la calle embarrada me da la bienvenida [zealot.GetTitledFirstName], autoproclamad[zealot.Custom('ES_OA')] «guardi[zealot.Custom('ES_AnAna')] divin[zealot.Custom('ES_OA')]» del pueblo. Mis soldados se despojaron de las armaduras para ayudarle a servir a [zealot.GetFaith.HighGodName]."
+ martial_strategy_special.1405.desc:1 "Cuando atravieso una pequeña aldea me doy cuenta de que los guardias de la misma, con sencillas vestiduras, ¡llevan armas con mi emblema!\n\nEn la calle embarrada me da la bienvenida [zealot.GetTitledFirstName|l], autoproclamad[zealot.Custom('ES_OA')] «guardi[zealot.Custom('ES_AnAna')] divin[zealot.Custom('ES_OA')]» del pueblo. Mis soldados se despojaron de las armaduras para ayudarle a servir a [zealot.GetFaith.HighGodName]."
  martial_strategy_special.1405.a:1 "¡Yo ya reino por derecho divino!"
  martial_strategy_special.1405.a.tt:1 "#F «Esos soldados harían bien en recordar que #EMP yo#! fui elegid[ROOT.Char.Custom('ES_OA')] según el plan divino de [zealot.GetFaith.HighGodName]».#!"
  martial_strategy_special.1405.b:0 "Tienes un día para largarte de aquí, fanátic[zealot.Custom('ES_OA')]."

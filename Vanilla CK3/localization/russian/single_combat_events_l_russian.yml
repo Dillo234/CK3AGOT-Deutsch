@@ -69,6 +69,7 @@
 
  ## Other, Duel End Result Tooltips
  single_combat.result.tt.temporary_modifiers_removed:0 "Все временные боевые [Concept( 'character_modifiers', 'модификаторы персонажа' )|E] удалены"
+ single_combat.result.tt.practice_no_wounds:0 "Приступ удалось сдержать, и никто из вас не пострадал"
 
  ##################################################
  # Status Update Fragments
@@ -649,7 +650,7 @@
  single_combat.0041.desc.sc_defender.wrath_of_highgod:0 "Думаю, [sc_victor.GetFaith.HighGodName] благоволит мне."
  single_combat.0041.desc.sc_defender.hurt_me_better:0 "Боль — лучший союзник в бою, и она на #EMP моей#! стороне."
  single_combat.0041.desc.sc_defender.special_fallback:0 "Мало кто ожидает тактического пинка в лодыжку."
- single_combat.0041.desc.sc_defender.something_to_hide:0 "Мои намеки приводят [Select_CString(sc_loser.IsFemale, 'противника в ужас.)]"
+ single_combat.0041.desc.sc_defender.something_to_hide:0 "Мои намеки приводят [Select_CString(sc_loser.IsFemale, 'противника', 'противницу' )] в ужас."
 
  ## Defender Won, Opponent Finishing Move Feedback
  single_combat.0041.desc.opponent_response.wait_and_hope:0 "Когда [sc_loser.GetFirstNameNoTooltip] просто замирает на месте, я тоже едва не застываю! Но если [sc_loser.GetSheHe] не собирается сражаться, меня это не остановит. Я делаю рывок, и [sc_victor.Custom('SignatureWeaponAttemptedHeavy')] летит к цели.\n\n"
@@ -682,7 +683,7 @@
  single_combat.0041.desc.opponent_response.jungle_stalker:0 "Я знаю, насколько тяжело бывает сражаться в джунглях, но [sc_loser.GetFirstNameNoTooltip] будто и #EMP горя не знает#!. По крайней мере, пока [sc_loser.GetHerHis] нога не запутывается в лиане.\n\n"
  single_combat.0041.desc.opponent_response.open_terrain_expert:0 "Лучше всего [sc_loser.GetFirstNameNoTooltip] сражается на открытом пространстве, и [sc_loser.GetSheHe] прекрасно это знает, потому что перебегает на более просторные места, когда [sc_loser.GetHerHim] вздумается. Из-за этого бой превращается в жуткую тягомотину — пока я не обнаруживаю большой и острый на вид камень неподалеку, высотой #EMP как раз#! примерно по щиколотку.\n\nЯ терпеливо подвожу [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )] к мелкой помехе, пользуясь [sc_loser.GetHerHis] постоянными перебежками."
  single_combat.0041.desc.opponent_response.rough_terrain_expert.rocky:0 "[sc_loser.GetFirstNameNoTooltip] отлично знает, как сражаться на склонах гор и холмов, и при каждом удобном случае [sc_loser.GetSheHe] это демонстрирует. Раз за разом мне приходится защищаться от крепких, сбивающих с ног тычков,\n\n"
- single_combat.0041.desc.opponent_response.rough_terrain_expert.boggy:0 "На болотах [sc_loser.GetFirstNameNoTooltip] сражается как [sc_victor.GetFaith.Devil.IsFemale, 'сама', 'сам' )] [sc_victor.GetFaith.DevilName], и постоянно теснит меня ближе к вонючим бочагам. К моему счастью, пока ни один из них не оказался слишком глубоким.\n\nПо иронии судьбы, когда [sc_loser.GetSheHe] [Select_CString(sc_loser.IsFemale, 'сама', 'сам' )] рискует наступить в воду, [sc_loser.GetHerHis] топит по колено.\n\n"
+ single_combat.0041.desc.opponent_response.rough_terrain_expert.boggy:0 "На болотах [sc_loser.GetFirstNameNoTooltip] сражается как [sc_victor.GetFaith.DevilName], и постоянно теснит меня ближе к вонючим бочагам. К моему счастью, пока ни один из них не оказался слишком глубоким.\n\nПо иронии судьбы, когда [sc_loser.GetSheHe] [Select_CString(sc_loser.IsFemale, 'сама', 'сам' )] рискует наступить в воду, [sc_loser.GetHerHis] топит по колено.\n\n"
  single_combat.0041.desc.opponent_response.forest_fighter:0 "Хотя известно, что [sc_loser.GetFirstNameNoTooltip] знает леса как свои пять пальцев, не каждая чаща готова [sc_loser.GetHerHim] помочь.\n\nМилая рощица вокруг нас выглядит идеальной, но пока [sc_loser.GetFirstNameNoTooltip] пытается нащупать преимущество, [sc_loser.GetHerHis] внимание отвлечено."
  single_combat.0041.desc.opponent_response.raaargh:0 "На несколько напряженных секунд [sc_loser.GetFirstNameNoTooltip] замирает, содрогаясь, а потом #EMP вспыхивает#! от ярости.\n\nПотеряв любой страх, берсерк бросается на меня, [sc_loser.Custom('SignatureWeaponAttemptedHeavyPlural')], удары, пинки и укусы сыплются словно со всех сторон сразу.\n\n"
  single_combat.0041.desc.opponent_response.hard_grit:0 "[sc_loser.GetFirstNameNoTooltip] хорошо сражается, подмечая слабые места и не прощая ошибок. Каждый недочет наказывается, за любую слабость приходится расплачиваться болью и трудом.\n\nМне нужно быть сдержаннее, вторить каждому [sc_loser.GetHerHis] удару, и тогда, возможно, #EMP [sc_loser.GetSheHe]#! ошибется прежде, чем я"
@@ -820,7 +821,7 @@
  single_combat.0041.desc.sc_attacker.butchery:0 "На моих губах играет мрачная улыбка, я делаю рывок, и [sc_victor.Custom('SignatureWeaponAttemptedHeavyPlural')] обрушиваются на [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )]. Я не думаю о победе, мечтая лишь причинить сопернику как можно больше боли.\n\n"
  single_combat.0041.desc.sc_attacker.stoic_veteran:0 "[sc_victor.Custom('signature_weapon')|U] в руке, я тесню [Select_CString(sc_loser.IsFemale, 'противницу', 'противника' )] длинными, равномерными ударами, и [sc_loser.GetHerHim] вновь и вновь приходится отступать."
  single_combat.0041.desc.sc_attacker.blade_dance:0 "[sc_victor.Custom('signature_weapon')] поет [Select_CString(sc_loser.IsFemale, 'противнице', 'противнику' )] смертоносную песнь, выписывая ее слова каждым взмахом."
- single_combat.0041.desc.sc_attacker.wrath_of_highgod:0 "Я провозглашаю, что [sc_victor.GetFaith.HighGodName] [Select_CString(sc_victor.GetFaith.HighGod.IsFemale, 'велика', 'велик' )], и [sc_victor.Custom('signature_weapon')] благоговейно указывает в небо."
+ single_combat.0041.desc.sc_attacker.wrath_of_highgod:0 "Я провозглашаю величие [sc_victor.GetFaith.HighGodNamePossessive], и [sc_victor.Custom('signature_weapon')] благоговейно указывает в небо."
  single_combat.0041.desc.sc_attacker.hurt_me_better:0 "Мой противник всерьез считает, что [sc_loser.GetHerHis] жалкие удары причиняют мне боль. Похоже, [sc_loser.GetSheHe] не понимает, что боль лишь заставляет меня сражаться жестче и быстрее.\n\n"
  single_combat.0041.desc.sc_attacker.special_fallback:0 "Я замечаю небольшую уязвимость в защите соперника и жестоко бью [sc_loser.GetHerHis] по щиколотке."
  single_combat.0041.desc.sc_attacker.something_to_hide:0 "Шипящим, надтреснутым шепотом я сообщаю [Select_CString(sc_victor.IsFemale, 'противнице', 'противнику' )], что [sc_loser.GetSheHe] в моей власти, и [sc_loser.GetSheHe] немедленно застывает на месте.\n\n"

@@ -19,6 +19,7 @@
  raiding.0004.desc.gold_plundered:0 "Когда [raider.GetTitledFirstNameNoTooltip] [Select_CString(raider.IsFemale, 'захватила', 'захватил' )] поселение [sacked_barony.GetNameNoTierNoTooltip], большая часть графства [sacked_county.GetNameNoTierNoTooltip] осталась беззащитной перед бесчинствами [raider.GetPrimaryTitle.GetAdjectiveNoTooltip|l]их грабителей.\n\nТак как сил оставшихся крепостей недостаточно для противостояния налетчикам, те разграбили земли графства подчистую, утащив серебро и все мало-мальски ценные вещи."
  raiding.0004.desc.spared_plundered:0 "Хотя поселение [sacked_barony.GetNameNoTierNoTooltip] пало, не выдержав осады, большая часть земель графства [sacked_county.GetNameNoTierNoTooltip] дала отпор, и [raider.GetTitledFirstName] [Select_CString(raider.IsFemale, 'была вынуждена', 'был вынужден' )] умерить пыл. Разграбленных земель оказалось сравнительно немного, да и сами грабежи носили, скорее, случайный характер.\n\nВашего вассала пощадили, но [raider.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ие взоры уже устремились на ваши личные владения..."
  raiding.0004.a:0 "Будь прокляты эти назойливые дикари!"
+ raiding.0004.a.tribal:0 "Проклятье на этих #L [raider.GetPrimaryTitle.GetAdjectiveNoTooltip|l]их#! псов!"
  raiding.0004.b:0 "Заплатить виру за погибших."
  raiding.0004.c:0 "Помочь им отстроиться."
  raiding.0004.c.architect:0 "[Select_CString(architect.IsFemale, 'Ваша', 'Ваш' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('architect'))] [architect.GetTitledFirstNameNoTooltip] отправляется следить за ремонтными работами."

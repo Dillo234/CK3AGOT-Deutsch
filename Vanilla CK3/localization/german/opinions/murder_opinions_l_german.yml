@@ -1,10 +1,10 @@
 ﻿l_german:
- murdered_close_family:0 "Hat einen Verwandten ermordet"
- murdered_close_family_crime:0 "Hat einen Verwandten ermordet"
- attempted_murder_close_family:0 "Hat versucht, einen Verwandten zu ermorden"
- attempted_murder_close_family_crime:0 "Hat versucht, einen Verwandten zu ermorden"
- attempted_murder_me:0 "Hat versucht, mich zu ermorden"
- attempted_murder_me_crime:0 "Hat versucht, mich zu ermorden"
+ murdered_close_family:1 "Ermordete Familie"
+ murdered_close_family_crime:1 "Ermordete Familie"
+ attempted_murder_close_family:1 "Versuchter Familienmord"
+ attempted_murder_close_family_crime:1 "Versuchter Familienmord"
+ attempted_murder_me:1 "Versuchter Mord"
+ attempted_murder_me_crime:1 "Versuchter Mord"
  murdered_close_relation_opinion:0 "Hat enge Verwandtschaft ermordet"
  murdered_someone_close_to_me_crime:0 "Hat jemanden mir Nahestehenden ermordet"
 
@@ -26,3 +26,11 @@
  blinded_me:0 "Hat mich geblendet"
  castrated_family_member:0 "Hat einen Verwandten entmannt"
  castrated_me:0 "Hat mich entmannt"
+
+ abducted_me_crime:0 "Hat mich entführt"
+ abducted_close_family:0 "Hat meine Familie entführt"
+ abducted_close_family_crime:0 "$abducted_close_family$"
+ attempted_abduct_close_family:0 "Versuchte Familienentführung"
+ attempted_abduct_close_family_crime:0 "$attempted_abduct_close_family$"
+ attempted_abduct_me:0 "Versuchte Entführung"
+ attempted_abduct_me_crime:0 "$attempted_abduct_me$"

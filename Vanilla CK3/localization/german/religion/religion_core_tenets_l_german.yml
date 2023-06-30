@@ -23,12 +23,12 @@
 
  tenet_divine_marriage_name:0 "Göttliche Vermählung"
  tenet_divine_marriage_desc:0 "Das Blut des Göttlichen fließt durch die Adern unserer Königinnen und Könige. Unsere Blutlinien reinzuhalten, ist der beste Weg, um sicherzustellen, dass die Herrschaft unserer Familie die kommenden Jahrhunderte überdauert."
- doctrine_parameter_divine_marriage_opinion:0 "Anhänger, die mit [Concept('close_family', 'Engen Verwandten')|E] verheiratet sind, erhalten $VALUE|0+=$ [opinion|E] bei [vassals|E] desselben [Concept('faith', 'Glaubens')|E]"
+ doctrine_parameter_divine_marriage_opinion:0 "Anhänger, die mit [Concept('close_family', 'engen Verwandten')|E] verheiratet sind, erhalten $VALUE|0+=$ [opinion|E] bei [vassals|E] desselben [Concept('faith', 'Glaubens')|E]"
  doctrine_parameter_divine_marriage_piety_gain_active:2 "Der „[GetFaithDoctrine('doctrine_monogamy').GetBaseName]“-Hochzeitsbonus gewährt auch einen hohen Betrag an [piety|E], wenn man [close_family|E] heiratet"
  
  tenet_pacifism_name:0 "Pazifismus"
  tenet_pacifism_desc:0 "Gewalt ist eine abscheuliche Tat, die nur zu Leid, Schmerz und Reue führen kann. Indem wir versuchen, sie zu vermeiden, können wir stärkere, sicherere Gesellschaften errichten, in denen die Gläubigen leben können."
- doctrine_parameter_holy_wars_forbidden:0 "Kann keinen [Concept('holy_wars', 'Religionskriege')|E] ausrufen oder einen [raid|E] anordnen"
+ doctrine_parameter_holy_wars_forbidden:0 "Kann keine [Concept('holy_wars', 'Religionskriege')|E] ausrufen oder einen [raid|E] anordnen"
  doctrine_parameter_pacifist_opinion_active:0 ""
  pacifist_opinion_active_opinion_name:0 "Gewaltlose Gemeinschaft"
  pacifist_opinion_active_county_opinion_name:0 "Andere pazifistische Gemeinden"
@@ -42,7 +42,7 @@
 
  tenet_human_sacrifice_name:0 "Menschenopfer"
  tenet_human_sacrifice_desc:0 "Unsere Ergebenheit können wir am besten durch Opfer zur Schau stellen. Das kostbarste Opfer, das wir bringen können, ist natürlich ein menschliches Leben."
- doctrine_parameter_human_sacrifice_active:0 "[executions|E] kosten keine [piety|E], sondern bringen [piety|E] ein"
+ doctrine_parameter_human_sacrifice_active:1 "[executions|E] kosten keine [piety|E], sondern bringen [piety|E] ein\n$EFFECT_LIST_BULLET$[executions|E] kosten bei einer [Concept('sharing_power', 'Machtteilung')|E] niemals [prestige|E]"
  doctrine_parameter_flower_war_cb_active:0 "Gewährt den [flowery_war|E]-[casus_belli|E] gegen benachbarte Reiche"
 
  tenet_gruesome_festivals_blot_name:0 "Blót"
@@ -87,13 +87,17 @@
 
  tenet_aniconism_name:0 "Bilderverbot"
  tenet_aniconism_desc:0 "Die Verehrung von Abbildungen und Darstellungen hat viel zu viele blind gemacht für die göttliche Wahrheit. Wir werden alle Ikonen von unseren heiligen Orten verbannen, auf dass unseren Gläubigen dieser Fehltritt erspart bleiben möge."
+ doctrine_parameter_reforging_artifacts_costs_piety:0 "[rulers|E] dieses [Concept('faith', 'Glaubens')|E] müssen [piety|E] ausgeben, um [artifacts|E] [Concept('reforge', 'neu zu schmieden')|E] oder zu [repair|E]."
+ doctrine_parameter_destroying_artifacts_is_pious:0 "[rulers|E] dieses [Concept('faith', 'Glaubens')|E] können [artifacts|E] für [piety|E] zerstören."
+ destroying_artifacts_is_not_pious_tt:0 "Euer [faith|E] erlaubt keine Zerstörung von [artifacts|E] für [piety|E]"
+ artifact_is_rarer_than_masterwork_tt:0 "Dieses [artifact|E] hat eine höhere [rarity|E] als „Meisterlich“"
 
  tenet_alexandrian_catechism_name:0 "Alexandrinischer Katechismus"
  tenet_alexandrian_catechism_desc:0 "Die Katechetische Schule von Alexandria hat eine lange Tradition darin, Theologen zu ermutigen, kritisch zu denken und den Status quo zu hinterfragen.\n\nTrotz der physischen Zerstörung der Schule tragen wir diese Tradition unbeirrt weiter."
 
  tenet_hedonistic_name:0 "Hedonismus"
  tenet_hedonistic_desc:0 "Das Göttliche will die Welt mit einem Füllhorn der Freuden überschütten, an denen wir teilhaben und die wir genießen sollen: Sich ihrem Genuss zu verweigern, hieße, die Schöpfung selbst zu missachten."
- doctrine_parameter_piety_from_feasts_active:1 "Ein [feast|E] auszurichten, erhöht die [piety|E]"
+ doctrine_parameter_piety_from_feasts_active:1 "Ein [GetActivityType('activity_feast').GetName] auszurichten, erhöht die [piety|E]"
 
  tenet_carnal_exaltation_name:0 "Fleischliche Erhabenheit"
  tenet_carnal_exaltation_desc:0 "Die Genüsse des Fleisches sind in einer Art und Weise erhaben, die andere irdische Erfahrungen übersteigt, sodass wir durch sie dem Göttlichen näherkommen. Wir sollten daher unsere geschlechtlichen Triebe feiern und jede Gelegenheit nutzen, ihnen nachzugeben."
@@ -121,7 +125,7 @@
  tenet_religious_legal_pronouncements_fatwa:0 "Fatwa"
  tenet_religious_legal_pronouncements_halakha:0 "Halacha"
  tenet_religious_legal_pronouncements_desc:0 "Die Grenze zwischen theologischen und juristischen Argumenten ist dünn, und das Spirituelle kann und sollte auch bei weltlichen Entscheidungen bedacht werden."
- doctrine_parameter_temporal_condemnation_enabled:0 "Herrscher mit hoher [learning|E] können ihre [Concept('sinful', 'Sündhaften')|E] Vasallen verdammen. Je sündiger ein Vasall ist, desto weniger Bildung braucht ihr Herrscher, um sie zu verdammen.\n$EFFECT_LIST_BULLET$Verdammte Vasallen werden als [criminals|E] betrachtet und ihre Titel können aberkannt werden"
+ doctrine_parameter_temporal_condemnation_enabled:0 "Herrscher mit hoher [learning|E] können ihre [Concept('sinful', 'sündhaften')|E] Vasallen verdammen. Je sündiger ein Vasall ist, desto weniger Bildung braucht ihr Herrscher, um sie zu verdammen.\n$EFFECT_LIST_BULLET$Verdammte Vasallen werden als [criminals|E] betrachtet und ihre Titel können aberkannt werden"
  doctrine_parameter_religious_legal_pronouncements_law_cost_reduction:0 "Kosten für Gesetze: #P -10 %#!"
  tenet_religious_legal_pronouncements_cost_tooltip:0 "Kirchenrecht: #P -10 %#!"
  tenet_religious_fatwa_cost_tooltip:0 "Fatwa: #P -10 %#!"
@@ -129,6 +133,7 @@
 
  tenet_false_conversion_sanction_name:0 "Gebilligte Scheinbekehrung"
  tenet_temporal_condemnation_taqiya:0 "Taqiya"
+ tenet_anusim:0 "Anusim"
  tenet_false_conversion_sanction_desc:0 "Wenn das eigene Leben bedroht wird, ist es hinnehmbar, sich zu einem falschen Glauben zu bekennen, solange man die Wahrheit im Herzen bewahrt."
  doctrine_parameter_sanctioned_false_conversion:0 "Bekehrungswiderstand: #P +30 %#!\n$EFFECT_LIST_BULLET$[characters|E] und [counties|E] können manchmal zu diesem [faith|E] zurückkonvertieren, wenn sie fehlgeleitet werden"
 
@@ -142,12 +147,12 @@
 
  tenet_legalism_name:0 "Rechtfertigungslehre"
  tenet_legalism_desc:0 "Unsere Gesetze entstanden durch Generationen der Weisheit und Hingabe. Sich an sie zu halten, ist von Natur aus fromm. Ein Sünder, wer er auch sein mag, wird daher nie über dem Gesetz stehen können."
- doctrine_parameter_legalism_reduced_faction_virtues:0 "[vassals|E] und [counties|E] schließen sich mit kleiner Wahrscheinlichkeit [factions|E] gegen einen [Concept('virtuous', 'Tugendhaften')|E] Herrscher an"
- doctrine_parameter_legalism_increased_faction_sins:0 "[vassals|E] und [counties|E] schließen sich mit größerer Wahrscheinlichkeit [factions|E] gegen einen [Concept('sinful', 'Sündhaften')|E] Herrscher an"
+ doctrine_parameter_legalism_reduced_faction_virtues:0 "[vassals|E] und [counties|E] schließen sich mit kleiner Wahrscheinlichkeit [factions|E] gegen einen [Concept('virtuous', 'tugendhaften')|E] Herrscher an"
+ doctrine_parameter_legalism_increased_faction_sins:0 "[vassals|E] und [counties|E] schließen sich mit größerer Wahrscheinlichkeit [factions|E] gegen einen [Concept('sinful', 'sündhaften')|E] Herrscher an"
  doctrine_parameter_legalism_modified_law_costs:1 "Die Kosten von Gesetzen werden für jede [virtue|E], die ein Herrscher hat, um #P -10 %#! verringert"
  doctrine_parameter_legalism_modified_law_costs_2:0 "Die Kosten von Gesetzen werden für jede [sin|E], die ein Herrscher hat, um #N 10 %#! erhöht"
- doctrine_parameter_legalism_trust_just_leader_active:1 "[electors|E] bei den Wahl-[Concept('succession', 'Nachfolgen')|E] entscheiden sich wahrscheinlicher für die Wahl ihres [Concept('liege', 'Lehnsherrn')|E], wenn dieser $trait_just$ ist"
- tenet_legalism_law_cost_tooltip:0 "[legalism|E]:\n Meine Sünden und Tugenden wirken sich wie folgt aus: [SCOPE.ScriptValue('legalism_law_cost_modifier')-0%]"
+ doctrine_parameter_legalism_trust_just_leader_active:1 "[electors|E] bei den Wahl-[Concept('succession', 'Nachfolgen')|E] entscheiden sich wahrscheinlicher für die Wahl ihres [Concept('liege', 'Lehnsherrn')|E], wenn dieser „$trait_just$“ ist"
+ tenet_legalism_law_cost_tooltip:0 "[legalism|E]:\n Meine Sünden und Tugenden wirken sich wie folgt aus: [SCOPE.ScriptValue('legalism_law_cost_modifier')|-0%]"
  
  tenet_reincarnation_name:0 "Reinkarnation"
  tenet_reincarnation_desc:0 "Wir haben viele Leben vor diesem geführt und werden auch viele Leben nach diesem führen. Jeder Tod ist nur der Anfang von etwas Neuem."
@@ -155,8 +160,11 @@
  doctrine_parameter_reincarnation_events_active:1 "Kinder haben die Chance, als Reinkarnation eines Ahnen betrachtet zu werden, wodurch sie einen Bonus auf [piety|E] und [opinion|E] bekommen"
 
  tenet_esotericism_name:0 "Esoterik"
+ tenet_esotericism_kabbalah:0 "Kabbala"
  tenet_esotericism_desc:0 "Die großen Mysterien des Göttlichen mögen das menschliche Verständnis übersteigen, doch das ist keine Entschuldigung für Unwissen. Allein ihre Existenz fordert uns schon heraus, die Welt um uns herum besser zu verstehen und zu kennen."
- doctrine_parameter_tenet_esotericism_mystic_education:1 "Kinder mit dem [education_focus|E] [learning|E] können die Eigenschaft [GetTrait('mystic_1').GetName(GetNullCharacter)] erhalten, wenn sie sich bei ihren Studien hervortun."
+ doctrine_parameter_tenet_esotericism_mystic_education:2 "Kinder mit dem [education_focus|E] [learning|E] können die Eigenschaft „[GetTrait('lifestyle_mystic').GetName(GetNullCharacter)]“ erhalten, wenn sie sich bei ihren Studien hervortun."
+ tenet_esotericism_kabbalah_desc:0 "Die Lehren der Kabbala setzen den ewigen Gott, das Wesen der Unendlichkeit – bekannt als Ein Sof – sowie Gottes Schöpfung in eine für Sterbliche begreifliche Beziehung zueinander. Die Kabbala bildet die Grundlage sämtlicher jüdischer Mystik, und ihre Anhänger arbeiten oft mit anderen jüdischen Schulen zusammen."
+ tenet_religious_kabbalah_cost_tooltip:0 "Kabbala: #P -10 %#!"
 
  #Eastern Tenets
  tenet_adaptive_name:0 "Anpassungsfähigkeit"
@@ -223,7 +231,7 @@
  tenet_mystical_birthright_name:0 "Verheißungsvolle Geburtsrechte"
  tenet_mystical_birthright_alternate:0 "Táltos Születés"
  tenet_mystical_birthright_desc:0 "Jeder von uns wird mit einem Schicksal geboren, wobei das wichtigste das des Táltos ist: jene, die auserwählt wurden, magische Kräfte zu besitzen und große spirituelle Führer zu werden."
- doctrine_parameter_mystic_birthright_active:0 "In seltenen Fällen werden Kinder mit der Eigenschaft [GetTrait('mystic_3').GetName(GetNullCharacter)] geboren"
+ doctrine_parameter_mystic_birthright_active:1 "In seltenen Fällen werden Kinder mit der Eigenschaft „[GetTrait('lifestyle_mystic').GetName(GetNullCharacter)]“ geboren"
 
  tenet_astrology_name:0 "Astrologie"
  tenet_astrology_desc:0 "Der Nachthimmel ist unser Fenster in das Reich des Göttlichen. Die großen Geheimnisse und Mysterien der Welt stehen dort geschrieben und jeder, der weiß, wo man suchen muss, kann sie auch erfahren."
@@ -265,7 +273,7 @@
  #Instead, add these doctrine parameters to appropriate tenets (presently Eastern Syncretism).
  doctrine_parameter_is_eastern_faith_bilateral_loc_override:0 "Betrachtet östliche [faiths|E] und wird wiederum von östlichen $game_concept_faiths$ als [GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V] und nicht als $hostility_evil_tooltippable$ betrachtet"
  doctrine_parameter_hostility_override_special_doctrine_is_eastern_faith:0 "Betrachtet östliche [faiths|E] und wird wiederum von östlichen $game_concept_faiths$ als [GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V] und nicht als $hostility_evil_tooltippable$ betrachtet"
- doctrine_parameter_eastern_syncretic_actor_opinion_active:0 "Gegenseitiger [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')=+0] [Concept('opinion', 'Meinungs')|E]-Bonus bei östlichen [faiths|E]"
+ doctrine_parameter_eastern_syncretic_actor_opinion_active:0 "Gegenseitiger [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [Concept('opinion', 'Meinungs')|E]-Bonus bei östlichen [faiths|E]"
  doctrine_parameter_opinion_of_eastern_syncretic_recipient_opinion_active:0 ""
  doctrine_parameter_eastern_syncretic_recipient_opinion_active:0 "Gegenseitiger [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [Concept('opinion', 'Meinungs')|E]-Bonus bei [faiths|E], die den [core_tenet|E] „$tenet_eastern_syncretism_name$“ haben"
  doctrine_parameter_opinion_of_eastern_syncretic_actor_opinion_active:0 ""
@@ -274,7 +282,7 @@
  tenet_unreformed_syncretism_desc:0 "Wie können wir anderen sagen, ihre Traditionen seien falsch? Es obliegt uns nicht, ihnen Vorhaltungen zu Bräuchen zu machen, die sie seit Jahrhunderten ausüben. Stattdessen sollten wir uns im Stillen über ihre Sitten erkundigen."
  doctrine_parameter_hostility_override_unreformed_faith_doctrine:2 "Betrachtet [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName]e [faiths|E] und wird wiederum von [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseNameNoTooltip]en $game_concept_faiths$ als [GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V] und nicht als $hostility_evil_tooltippable$ betrachtet"
  doctrine_parameter_hostility_override_west_african_unreformed_faith_doctrine:0 "Betrachtet afrikanische [GetFaithDoctrine('west_african_unreformed_faith_doctrine').GetBaseName]e [faiths|E] und wird wiederum von afrikanischen [GetFaithDoctrine('west_african_unreformed_faith_doctrine').GetBaseName]en $game_concept_faiths$ als [GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V] und nicht als $hostility_evil_tooltippable$ betrachtet"
- doctrine_parameter_unreformed_syncretic_actor_opinion_active:2 "Gegenseitiger [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')=+0] [Concept('opinion', 'Meinungs')|E]-Bonus bei [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName]en [faiths|E]"
+ doctrine_parameter_unreformed_syncretic_actor_opinion_active:2 "Gegenseitiger [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [Concept('opinion', 'Meinungs')|E]-Bonus bei [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName]en [faiths|E]"
  doctrine_parameter_opinion_of_unreformed_syncretic_recipient_opinion_active:0 ""
  doctrine_parameter_unreformed_syncretic_recipient_opinion_active:1 "Gegenseitiger [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [Concept('opinion', 'Meinungs')|E]-Bonus mit [faiths|E], die den [core_tenet|E] $tenet_unreformed_syncretism_name$ haben"
  doctrine_parameter_opinion_of_unreformed_syncretic_actor_opinion_active:0 ""

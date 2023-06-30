@@ -1,16 +1,16 @@
 ﻿l_spanish:
  clan.1001.t:0 "Enlace prometido"
- clan.1001.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] y su [vassal_child.Custom('GetDaughterSon')] [vassal_child.GetTitledFirstName] acuden a mí.\n\n«Es una vergüenza que no haya alianza entre nosotros, mi [ROOT.Char.GetLadyLord]. ¡Hagamos que [child.GetTitledFirstName] contraiga matrimonio con [vassal_child.Custom('GetDaughterSon')] para enmendar las cosas!»"
+ clan.1001.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] y su [vassal_child.Custom('GetDaughterSon')] [vassal_child.GetTitledFirstName|l] acuden a mí.\n\n«Es una vergüenza que no haya alianza entre nosotros, mi [ROOT.Char.GetLadyLord]. ¡Hagamos que [child.GetTitledFirstName|l] contraiga matrimonio con [vassal_child.Custom('GetDaughterSon')] para enmendar las cosas!»"
  clan.1001.a:0 "Tenéis razón, ¡que se casen!"
  clan.1001.b:0 "Eso no va a suceder."
 
- clan.1002.desc:0 "«[ROOT.Char.GetTitledFirstNameNoTooltip], ¡¿qué significa todo esto?!»\n\n[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] irrumpe en la sala con su [vassal_child.Custom('GetDaughterSon')] [vassal_child.GetTitledFirstName] detrás.\n\n«¿Por qué has roto el compromiso entre tu [child.Custom('GetDaughterSon')] y [vassal_child.GetTitledFirstNameNoTooltip]?»"
+ clan.1002.desc:0 "«[ROOT.Char.GetTitledFirstNameNoTooltip|l], ¡¿qué significa todo esto?!»\n\n[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] irrumpe en la sala con su [vassal_child.Custom('GetDaughterSon')] [vassal_child.GetTitledFirstName|l] detrás.\n\n«¿Por qué has roto el compromiso entre tu [child.Custom('GetDaughterSon')] y [vassal_child.GetTitledFirstNameNoTooltip]?»"
  clan.1002.a:0 "¡De verdad que ha sido un error!"
  clan.1002.b:0 "No os concierne."
 
  clan.1011.t:0 "Sin alianza"
- clan.1011.desc_opening:0 "«No puedo evitar ver el nepotismo con que tratáis a [allied_vassal.Custom2('YourCharacterIntroduction', ROOT.Char)], mi señor[SCOPE.GetRootScope.GetCharacter.Custom('ES_OA')]».\n\n[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] acude a mí para solucionar lo que percibe como un agravio. El que no seamos aliados.\n\n«Si hicierais una concesión a mi favor, bastaría para calmar los ánimos. Digamos..."
- clan.1011.desc_army:0 "¡los servicios de vuestr[councillor.Custom('ES_OA')] [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], durante unos años!»"
+ clan.1011.desc_opening:0 "«No puedo evitar ver el nepotismo con que tratáis a [allied_vassal.Custom2('YourCharacterIntroduction', ROOT.Char)], mi [ROOT.Char.GetLadyLord]».\n\n[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] acude a mí para solucionar lo que percibe como un agravio, el hecho de que no seamos aliados.\n\n«Si hicierais una concesión a mi favor, bastaría para calmar los ánimos. Digamos..."
+ clan.1011.desc_army:0 "¡los servicios de vuestr[councillor.Custom('ES_OA')] [councillor.GetCouncilTitle], [councillor.GetTitledFirstName|l], durante unos años!»"
  clan.1011.desc_prestige:0 "buenas palabras en los oídos adecuados.»"
  clan.1011.desc_diplomacy:0 "unas lecciones en el arte de la diplomacia»."
  clan.1011.desc_prowess:0 "enseñanzas sobre el combate»."

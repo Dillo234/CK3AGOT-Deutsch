@@ -70,8 +70,8 @@
  COMBAT_WINDOW_MAA_TT_EFFICIENCY:1 "@warning_icon!Verursacht wegen Konter [CombatMaaItem.GetCountered|0-%] Schaden"
  COMBAT_WINDOW_MAA_TT_TERRAIN_GOOD:0 "#I +Kampf in günstigem Gelände #!"
  COMBAT_WINDOW_MAA_TT_TERRAIN_BAD:0 "#X -Kampf in ungünstigem Gelände #!"
- COMBAT_WINDOW_MAA_TT_SCREEN:2 "Abschirmungseffekt pro vollem Regiment: [MenAtArmsType.GetStat(GetPlayer, 'screen')|0+=]"
- COMBAT_WINDOW_MAA_TT_PURSUIT:2 "Verfolgungseffekt pro vollem Regiment: [MenAtArmsType.GetStat(GetPlayer, 'pursuit')|0+=]"
+ COMBAT_WINDOW_MAA_TT_SCREEN:3 "Abschirmungseffekt pro vollem Regiment: [MenAtArmsType.GetStat(GetPlayer, Province.Self, 'screen')|0+=]"
+ COMBAT_WINDOW_MAA_TT_PURSUIT:3 "Verfolgungseffekt pro vollem Regiment: [MenAtArmsType.GetStat(GetPlayer, Province.Self, 'pursuit')|0+=]"
  COMBAT_WINDOW_NO_MAA:0 "Kein [men_at_arms|E]"
  CV_TT_RELATIVE_SOLDIERS:0 "#T Relative Stärke#!\n[CombatWindow.GetLeftCombatSide.GetComposition.GetSoldierCountString] gegen [CombatWindow.GetRightCombatSide.GetComposition.GetSoldierCountString] [soldiers|E]\n[CombatWindow.GetCombat.GetCombatWidthBreakdown]"
  COMBAT_WINDOW_PHASE_MANEUVER_TT:1 "#T Manöverphase\n#!Beide Seiten bereiten sich auf die Schlacht vor"
@@ -87,4 +87,3 @@
  CW_NO_KNIGHTS:0 "Keine [knights|E]"
  COMBAT_WINDOW_NO_COMMANDER:0 "Kein Befehlshaber"
  
-

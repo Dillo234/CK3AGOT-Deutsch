@@ -15,8 +15,8 @@
 
  ANY_IN_DE_JURE_ALL_GLOBAL:0 "Cualquier [title|lE] de iure"
  NOT_ANY_IN_DE_JURE_ALL_GLOBAL:0 "Ningún [title|lE] de iure"
- ANY_IN_DE_JURE_ALL_THIRD:0 "Cualquier [title|lE] de iure de [TITLE.GetName]"
- NOT_ANY_IN_DE_JURE_ALL_THIRD:0 "Ningún [title|lE] de iure de [TITLE.GetName]"
+ ANY_IN_DE_JURE_ALL_THIRD:0 "Cualquier [Concept( 'titles', 'título' )|E] de iure de [TITLE.GetName]"
+ NOT_ANY_IN_DE_JURE_ALL_THIRD:0 "Ningún [Concept( 'titles', 'título' )|E] de iure de [TITLE.GetName]"
 
  ANY_REALM_COUNTY:0 "Cualquier [county|lE] del [realm|lE]:"
  ANY_REALM_COUNTY_COUNT:0 "$PARAMETERS$ [counties|lE] del [realm|lE]:"

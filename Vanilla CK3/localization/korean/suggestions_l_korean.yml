@@ -18,7 +18,7 @@
 
  suggestion_fabricate_claim_label:0 "명분 위조"
  suggestion_fabricate_claim:0 "제안: [landed_title.GetNameNoTierNoTooltip]에 명분 위조하기"
- suggestion_fabricate_claim_desc:1 "이웃한 [landed_title.GetName](은)는 부유하고 번영하지만, [casus_belli|E] 없이는 정복할 수 없습니다.\n\n[court_chaplain|E]나 [realm_priest|E]를 보내 그곳에 대한 [claim|E]을 위조하면 전쟁을 일으켜 그 작위를 차지하는 일을 정당화할 수 있을 것입니다!"
+ suggestion_fabricate_claim_desc:1 "이웃한 [landed_title.GetName](은)는 부유하고 번영하지만, [casus_belli|E] 없이는 정복할 수 없습니다.\n\n[court_chaplain|E]나 [realm_priest|E]를 보내 그곳에 대한 [claim|E]을 위조하면 [war|E]을 일으켜 그 작위를 차지하는 일을 정당화할 수 있을 것입니다!"
  suggestion_fabricate_claim_click:1 "#I 클릭하여 작위 보기#!"
 
  suggestion_create_title_label:0 "작위 생성"
@@ -65,5 +65,5 @@
 
  suggestion_create_nation_fracturing_faction:0 "$nation_fracturing_faction$ 생성"
  suggestion_create_nation_fracturing_faction_label:0 "제안: $suggestion_create_nation_fracturing_faction$"
- suggestion_create_nation_fracturing_faction_desc:0 "[liege|E]에게 도전해 봉역을 소멸시켜 당신과 다른 모든 [vassals|E]에게 독립을 부여할 수 있습니다."
- suggestion_create_nation_fracturing_faction_click:0 "#I 클릭하여 당신의 [liege]에 반하는 파벌 보기#!"
+ suggestion_create_nation_fracturing_faction_desc:1 "[liege|E]에게 도전해 봉역을 소멸시켜 당신과 다른 모든 동료 [vassals|E]에게 독립을 부여할 수 있습니다."
+ suggestion_create_nation_fracturing_faction_click:1 "#I 클릭하여 당신의 [liege]에 반하는 파벌 보기#!"

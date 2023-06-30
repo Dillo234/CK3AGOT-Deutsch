@@ -1,0 +1,38 @@
+﻿l_french:
+ # Intents
+ reduce_stress_intent:1 "Se détendre"
+
+ reduce_stress_intent_desc:0 "Vous cherchez des occasions de soulager votre [stress|El]."
+
+ murder_attendee_intent:0 "Tuer"
+ murder_attendee_intent_desc:0 "Votre objectif est de mettre fin à la vie de votre cible. Cela se traduit souvent par des occasions de commettre le meurtre et des options spéciales."
+
+ woo_attendee_intent:0 "Séduire"
+ woo_attendee_intent_desc:0 "Vous n’avez qu’une idée en tête : séduire votre cible. Cela conduit souvent à des événements spéciaux et à des options pour répondre à ce désir."
+
+ befriend_attendee_intent:0 "Nouer une amitié"
+ befriend_attendee_intent_desc:0 "Vous souhaitez vous lier d’amitié avec votre cible. Cela conduit souvent à des événements et des options conviviaux."
+
+ lechery_intent:0 "S’adonner à la luxure"
+ lechery_intent_desc:0 "Vous avez l’intention d’assouvir vos désirs charnels et de rechercher des rapports sexuels avec un grand nombre de partenaires. Cela se traduit souvent par une diminution du [stress|El] pour un personnage [GetTrait('lustful').GetName( GetNullCharacter )|l]."
+
+ altruism_intent_header:0 "Altruisme :"
+ altruism_intent:0 "Faire preuve d’altruisme"
+ altruism_intent_desc:1 "Vous cherchez à améliorer la vie d’autrui en cherchant toutes les occasions de gestes altruistes. Cela conduit à une augmentation de l’[county_opinion|El] et de la [piety|El]. Les personnages avec le trait [GetTrait('zealous').GetName( GetNullCharacter )|l], [GetTrait('generous').GetName( GetNullCharacter )|l] ou [GetTrait('improvident').GetName( GetNullCharacter )|l] peuvent perdre du [stress|El]"
+
+ justice_intent:0 "Rendre justice"
+ justice_intent_desc:0 "Vous cherchez à rendre la justice, même pour les plus petits criminels de votre pays. Cela conduit souvent à une augmentation de [control|El] et un personnage [GetTrait('just').GetName( GetNullCharacter )|l] pourrait perdre du [stress|El]."
+ 
+ recruit_knights_intent:0 "Recruter"
+ recruit_knights_intent_desc:0 "Vous cherchez à améliorer votre Cour avec de nouveaux et puissants [knights|El]. Cela conduit souvent à des possibilités de recrutement."
+ # TOOLTIPS
+ intent_murder_success_tt:1 "Vous avez tué [THIS.Char.GetIntentTarget.Custom('FR_le_Char_U_Pi')][THIS.Char.GetIntentTarget.GetShortUIName], l’objet de votre [intent|El] de meurtre"
+ intent_murder_dead_tt:1 "[THIS.Char.GetIntentTarget.Custom('FR_le_Char_U_Pi')|U][THIS.Char.GetIntentTarget.GetShortUIName], l’objet de votre [intent|El] de meurtre, a péri"
+ intent_murder_fail_tt:1 "Vous n’avez pas réussi à tuer [THIS.Char.GetIntentTarget.Custom('FR_le_Char_U_Pi')][THIS.Char.GetIntentTarget.GetShortUIName], l’objet de votre [intent|El] de meurtre"
+ intent_woo_success_tt:1 "Vous avez séduit [THIS.Char.GetIntentTarget.Custom('FR_le_Char_U_Pi')][THIS.Char.GetIntentTarget.GetShortUIName], l’objet de votre [intent|El] de séduction"
+ intent_woo_potential_tt:1 "Vous avez suscité l’intérêt [THIS.Char.GetIntentTarget.Custom('FR_du_Char_U_Pi')][THIS.Char.GetIntentTarget.GetShortUIName], l’objet de votre [intent|El] de séduction"
+ intent_woo_fail_tt:1 "Vous n’avez pas réussi à séduire [THIS.Char.GetIntentTarget.Custom('FR_le_Char_U_Pi')][THIS.Char.GetIntentTarget.GetShortUIName], l’objet de votre [intent|El] de séduction"
+ intent_befriend_success_tt:1 "Vous avez créé des liens avec [THIS.Char.GetIntentTarget.Custom('FR_le_Char_U_Pi')][THIS.Char.GetIntentTarget.GetShortUIName], l’objet de votre [intent|El] de nouer une amitié"
+ intent_befriend_potential_tt:1 "Vous avez passé du temps avec [THIS.Char.GetIntentTarget.Custom('FR_le_Char_U_Pi')][THIS.Char.GetIntentTarget.GetShortUIName], l’objet de votre [intent|El] de nouer une amitié"
+ intent_befriend_fail_tt:1 "Vous n’avez pas réussi à créer des liens avec [THIS.Char.GetIntentTarget.Custom('FR_le_Char_U_Pi')][THIS.Char.GetIntentTarget.GetShortUIName], l’objet de votre [intent|El] de nouer une amitié"
+ activity_intent_complete_toast:1 "Intention accomplie"

@@ -4,11 +4,11 @@
  bp1_yearly.2000.desc.intro:0 "유랑 상인들의 거리에는 사람들이 북적북적했다. 그 안에 임시 판자들은 지붕까지 찼고 골동품들이 가득했다. "
  bp1_yearly.2000.desc.greed_flavor:0 "이 조각들은 비싸군... 하지만 그 정도의 가치가 있을 수도 있어."
  bp1_yearly.2000.desc.not_greed_flavor:0 "또렷하게 빛나는 이 조각들은 좋은 선물이 되겠군."
- bp1_yearly.2000.desc.single:0 "\n\n[bp1_yearly_2000_partner_a.GetShortUIName](과)와 내가 보석상 옆을 지나갔는데 [bp1_yearly_2000_partner_a.GetSheHe]가 살짝 주저하더니 가까이 보기 위해 몸을 기울였다.\n\n 이 중에 무언가가 나의 [ROOT.Char.Custom2('PartnerOpinionDescription', SCOPE.sC('bp1_yearly_2000_partner_a') )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bp1_yearly_2000_partner_a'))]의 하루를 근사하게 만들어 줄 수 있을까?"
- bp1_yearly.2000.desc.duo:0 "\n\n내가 보석상 옆을 지나가는데, 나는 주저하면서 가까이 보기 위해 몸을 기울였다.\n\n이 중에 무언가가 나의 아끼는 [bp1_yearly_2000_partner_a.GetShortUIName](이)나 [bp1_yearly_2000_partner_b.GetShortUIName]의 하루를 근사하게 만들어 줄 수 있을까?"
- bp1_yearly.2000.a_single:0 "이 [ROOT.Char.Custom('RandomJewellry')], [bp1_yearly_2000_partner_a.GetShortUIName]에게 어울리겠네!"
- bp1_yearly.2000.a_duo:0 "이 [ROOT.Char.Custom('RandomJewellry')], 나의 [bp1_yearly_2000_partner_a.Custom('ComplimentAdjective')] [bp1_yearly_2000_partner_a.GetShortUIName]에게 어울리겠네!"
- bp1_yearly.2000.b:0 "이 [ROOT.Char.Custom('RandomJewellry')](은)는 [bp1_yearly_2000_partner_b.GetShortUINamePossessive] [bp1_yearly_2000_partner_b.Custom('ComplimentAdjective')] 모습에 아주 [ROOT.Char.Custom('RandomPositiveLookAdjective')] 장신구가 되겠어."
+ bp1_yearly.2000.desc.single:1 "\n\n[bp1_yearly_2000_partner_a.GetTitledFirstName](과)와 내가 보석상 옆을 지나갔는데 [bp1_yearly_2000_partner_a.GetSheHe]가 살짝 주저하더니 가까이 보기 위해 몸을 기울였다.\n\n 이 중에 무언가가 나의 [ROOT.Char.Custom2('PartnerOpinionDescription', SCOPE.sC('bp1_yearly_2000_partner_a') )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bp1_yearly_2000_partner_a'))]의 하루를 근사하게 만들어 줄 수 있을까?"
+ bp1_yearly.2000.desc.duo:1 "\n\n내가 보석상 옆을 지나가는데, 나는 주저하면서 가까이 보기 위해 몸을 기울였다.\n\n이 중에 무언가가 나의 아끼는 [bp1_yearly_2000_partner_a.GetTitledFirstName](이)나 [bp1_yearly_2000_partner_b.GetTitledFirstName]의 하루를 근사하게 만들어 줄 수 있을까?"
+ bp1_yearly.2000.a_single:1 "이 [ROOT.Char.Custom('RandomJewellry')], [bp1_yearly_2000_partner_a.GetFirstNameNoTooltip]에게 어울리겠네!"
+ bp1_yearly.2000.a_duo:1 "이 [ROOT.Char.Custom('RandomJewellry')], 나의 [bp1_yearly_2000_partner_a.Custom('ComplimentAdjective')] [bp1_yearly_2000_partner_a.GetFirstNameNoTooltip]에게 어울리겠네!"
+ bp1_yearly.2000.b:1 "이 [ROOT.Char.Custom('RandomJewellry')](은)는 [bp1_yearly_2000_partner_b.GetFirstNamePossessiveNoTooltip] [bp1_yearly_2000_partner_b.Custom('ComplimentAdjective')] 모습에 아주 [ROOT.Char.Custom('RandomPositiveLookAdjective')] 장신구가 되겠어."
  bp1_yearly.2000.c:0 "한 개만 살 필요 있나!"
  bp1_yearly.2000.c_flavor:0 "둘 다 챙기자!"
  bp1_yearly.2000.d:0 "내 친구가 준 것도 충분히 밝은 것 같아."
@@ -324,7 +324,7 @@
  bp1_yearly.5724.b:0 "다신 널 보내지 않을게!"
 
  bp1_yearly.5725.t:0 "거친 [khutulun.GetWomanMan|U]"
- bp1_yearly.5725.desc:0 ""나의 [ROOT.Char.GetLadyLord], #EMP 어째서#! [khutulun.GetHerHim]에 대해서 들어보지 못하셨습니까?"\n\n나는 짜증 난 표정을 지으며 앓는 소리를 냈다. [matchmaker_courtier.GetFirstName](이)가 나를 놀리려 말도 안 되는 소리를 한다고 해도 과언이 아니었다.\n\n"누구와도 맞붙을 자신이 있다고 합니다!" [matchmaker_courtier.GetFirstNameNoTooltip](이)가 고집스럽게 다시 말했다. 목소리를 낮춘 채로 [matchmaker_courtier.GetSheHe]가 말을 이었다. "들어보세요, 결혼과 관련된 일이라면 지긋지긋하시다는 것을 압니다. 하지만 그 [khutulun.GetWomanMan](은)는 본인을 꺾을 수 있을 만큼 신체적 능력이 우수한 사람과 결혼하겠다고 합니다."\n\n나는 가만히 앉아 생각했다. "몸싸움으로 승부하는 [khutulun.GetWomanMan]? 물론 기량이 얼마나 뛰어나든 내가 승리할 것이고, 새로운 [khutulun.GetWifeHusband](으)로 맞을 수 있을 것이다."
+ bp1_yearly.5725.desc:1 ""#EMP 어떻게#! 소식을 못 들으실 수가 있습니까, 영주님?"\n\n나는 눈을 굴리며 멸시를 담아 앓는 소리를 내었다. [matchmaker_courtier.GetFirstName]의 말 같지도 않은 헛소리는 듣고 싶지도 않건만.\n\n"그자가 공개 도전을 받고 있다지 뭡니까!" [matchmaker_courtier.GetFirstNameNoTooltip](이)가 또 수작을 부린다. 이번에는 집요하다. [matchmaker_courtier.GetSheHe]는 목소리를 낮추더니 공모하듯 속삭였다. "영주님께서 이런 혼인 문제에 염증을 느끼고 계신다는 건 압니다. 하지만 그 사람은 육체적인 능력으로 자기를 이기면 상대가 누구든 결혼해 주겠다고 합니다."\n\n나는 뒤로 늘어져 앉아 이야기를 곱씹었다. 무예를 숭상하는 [khutulun.GetWomanMan]이라. 내 실력이면 상대 실력이 어떻든 승리를 거두고 새 [khutulun.GetWifeHusband](을)를 얻을 수 있겠지."
  bp1_yearly.5725.a:0 "알겠다, [matchmaker_courtier.GetFirstNameNoTooltip]. 살펴보러 가자."
  bp1_yearly.5725.b:0 "헛소리 그만하게!"
 
@@ -339,6 +339,7 @@
  bp1_yearly.5727.desc:0 "우리가 몸을 붙잡고 있다가 다시 떨어졌을 때, [khutulun.GetFirstName](은)는 지쳐서 헐떡거렸다. 나는 봐주고 있지 않았다. [khutulun.GetSheHe]가 아직도 결혼하지 못한 이유가 분명했다. [khutulun.GetSheHe|U]는 만족한다는 듯이 미소 지었다.\n\n"좋은 상대가 될 것 같군요!" [khutulun.GetSheHe]가 내 움직임에 눈을 고정한 채 말했다. "미안하지만, 내가 이겨야겠어요!"\n\n[khutulun.GetFirstNameNoTooltip](이)가 다시 앞으로 돌격했지만, 이번에 나는 준비가 되어 있었다. 능숙하게 옆으로 피하자 [khutulun.GetHerHim]의 균형이 순간 무너졌고 그때 발을 걸자 [khutulun.GetHersHis]가 넘어졌다.\n\n내가 손을 내밀었을 때, [khutulun.GetHerHis|U]의 얼굴에는 충격과 놀라움, 흥분이 섞여 있었다."
  bp1_yearly.5727.a:0 "이제, 약속은 약속이지."
  bp1_yearly.5727.b:0 "흠, 내가 원했던 건 이게 전부다."
+ bp1_yearly.5727.c:0 "[khutulun.GetFirstNameNoTooltip](은)는 최고만을 누려야지!"
 
  bp1_yearly.5728.t:0 "불타는 경쟁심"
  bp1_yearly.5728.desc:0 "모닥불의 불꽃이 연기와 함께 밤하늘로 천천히 떠오르고 있었지만, 나는 평소처럼 그 장면을 즐길 수는 없었다. \n\n내 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('rival_burner'))] [rival_burner.GetFirstName](이)가 내 앞에 의기양양하게 서서 시비를 걸고 있었다. [rival_burner.GetHerHis]의 손에는 몰래 훔친 나의 유물 [burned_artifact.GetName](이)가 들려 있었다.\n\n"다가오지마, [ROOT.Char.GetFirstName]!" [rival_burner.GetSheHe]가 외쳤다. "조금이라도 움직이면 네 소중한 싸구려 장식품을 태워버릴 거야!"\n\n"[rival_burner.GetFirstNameNoTooltip]!" 나는 외쳤다. "그것만 다시 돌려주면 더 이상 싸울 일은 없어!" [rival_burner.GetFirstNameNoTooltip](이)가 그 말을 듣고는 히죽 웃더니 유물을 불 쪽으로 가까이했다."

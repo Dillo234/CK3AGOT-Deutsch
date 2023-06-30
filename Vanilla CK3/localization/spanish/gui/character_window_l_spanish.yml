@@ -1,6 +1,7 @@
 ﻿l_spanish:
  SPOUSE:0 "[spouse|E]"
  FORMER_SPOUSE:0 "Ex[spouse|lE]"
+ SPOUSE_DIARCH:0 "$SPOUSE$ [Character.GetDiarchTitle|l]"
  BETROTHED:0 "[betrothed|E]"
  SPOUSES:0 "Cónyuges"
  CONCUBINES:0 "[concubines|E]"
@@ -56,7 +57,7 @@
  CV_NO_RELATIONS:0 "#weak No tiene relaciones#!"
  CV_NO_COURT:0 "#weak No tiene [court|lE]#!"
  CV_NO_VASSALS:0 "#weak No tiene [vassals|lE]#!"
- CV_TT_INTERACT:0 "#T Interactuar con [CHARACTER.GetShortUINameNoTooltip]\n#!#I También se puede hacer clic derecho en cualquier retrato para interactuar#!"
+ CV_TT_INTERACT:0 "#T Interactuar con [Character.GetShortUINameNoTooltip]\n#!#I También se puede hacer clic derecho en cualquier retrato para interactuar#!"
 
  FAMILY:0 "Familia"
  RELATIONS:0 "Relaciones"
@@ -73,11 +74,11 @@
  CRUSHES_LABEL:0 "Flechazos"
  BULLIES_LABEL:0 "Abusones"
  VICTIMS_LABEL:0 "Víctimas"
- CV_SECRETS_HEADER:0 "[secrets|E] [CharacterWindow.LocalPlayerString( 'tuyos', '' )][CharacterWindow.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )]"
+ CV_SECRETS_HEADER:0 "[secrets|E] de [CharacterWindow.GetCharacter.GetName]"
  CV_KNOWN_SECRETS_HEADER:0 "[secrets|E] conocidos por [CharacterWindow.GetCharacter.GetNameOrMe]"
  CV_HOOKS_HEADER:1 "Tus [hooks|lE]"
  CV_HOOKS_ON_CHARACTER_HEADER:1 "Tus [hooks|lE] sobre [CharacterWindow.GetCharacter.GetName|U]"
- CV_TARGET_HOOKS_HEADER:1 "[secrets|E] [CharacterWindow.LocalPlayerString( 'tuyos', '' )][CharacterWindow.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )]"
+ CV_TARGET_HOOKS_HEADER:1 "[hooks|E] de [CharacterWindow.GetCharacter.GetName] contra ti"
  
  HEALTH_INFO:0 "[health|E]: $STATE$"
  HEALTH_DYING:0 "#N Agonizando#!"
@@ -94,7 +95,7 @@
  HEALTH_POOR_DESC_ME:1 "Estás sufriendo"
  HEALTH_FINE_DESC:0 "[CHARACTER.GetShortUIName|U] se encuentra bien"
  HEALTH_FINE_DESC_ME:1 "Te encuentras bien"
- HEALTH_GOOD_DESC:0 "[secrets|E] [CharacterWindow.LocalPlayerString( 'tuyos', '' )][CharacterWindow.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )]"
+ HEALTH_GOOD_DESC:0 "Los humores de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] están equilibrados"
  HEALTH_GOOD_DESC_ME:1 "Tus humores están equilibrados"
  HEALTH_EXCELLENT_DESC:0 "¡[CHARACTER.GetShortUIName|U] se siente en plena forma!"
  HEALTH_EXCELLENT_DESC_ME:1 "¡Estás en plena forma!"
@@ -127,10 +128,10 @@
  THEOCRACY_LESSEE_APPROVAL_ENDORSE:3 "#T Tu [realm_priest|lE] te respalda#!\n[taxes|E]: [TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=] [gold_i]/mes (de un máximo de [TARGET_CHARACTER.GetMaxIncomeFromTheocraticLease|1+=] [gold_i]/mes)\n[levies|E]: [TARGET_CHARACTER.GetLeviesFromTheocraticLease|V] [soldier_i] (de un máximo de [TARGET_CHARACTER.GetMaxLeviesFromTheocraticLease|V] [soldier_i])\n\nA causa de $REASON$, ganas levas e impuestos de su [church_property|lE]"
  THEOCRACY_LESSEE_APPROVAL_NO_ENDORSE:2 "#T Tu [realm_priest|lE] #emphasis no#! te respalda#!\n#weak $NO_EFFECTS$#!\n\nA causa de $REASON$, no ganas ni levas ni impuestos de su [church_property|lE]"
  THEOCRACY_LESSEE_BENEFITS_NO_ENDORSE_THRESHOLD:0 "Por los títulos arrendados a [CHARACTER.GetShortUINameNoTooltip] recibo:\n[taxes|E]: [gold_i] [TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/mes\n[levies|E]: [soldier_i] [TARGET_CHARACTER.GetLeviesFromTheocraticLease|V]"
- CV_THEOCRACY_LESSEE_TOOLTIP:0 "#T [church_property|E]#!\n[CHARACTER.GetNumTitlesFromTheocraticLease] Templos#!\n\n[taxes|E]: [gold_i] [CHARACTER.GetIncomeFromTheocraticLease|1+=]/mes\n[CHARACTER.GetIncomeBreakdownFromTheocraticLease]\n\n[levies|E]: [soldier_i] [CHARACTER.GetLeviesFromTheocraticLease|V]\n[CHARACTER.GetLeviesBreakdownFromTheocraticLease]"
- CV_THEOCRACY_RELIGIOUS_HEAD_TOOLTIP:0 "#T $RELIGIOUS_HEAD$#!\n\n[taxes|E]: [gold_i] [CHARACTER.GetIncomeAsReligiousHead|1+=]/mes\n[CHARACTER.GetIncomeBreakdownAsReligiousHead]"
+ CV_THEOCRACY_LESSEE_TOOLTIP:0 "#T [church_property|E]#!\n[Character.GetNumTitlesFromTheocraticLease] templos\n\n[taxes|E]: [Character.GetIncomeFromTheocraticLease|1+=]/mes [gold_i]\n[Character.GetIncomeBreakdownFromTheocraticLease]\n\n[levies|E]: [Character.GetLeviesFromTheocraticLease|V] [soldier_i]\n[Character.GetLeviesBreakdownFromTheocraticLease]"
+ CV_THEOCRACY_RELIGIOUS_HEAD_TOOLTIP:0 "#T $RELIGIOUS_HEAD$#!\n\n[taxes|E]: [Character.GetIncomeAsReligiousHead|1+=]/mes [gold_i]\n[Character.GetIncomeBreakdownAsReligiousHead]"
  THEOCRATIC_LEASE_BREAKDOWN_TO_OTHER:0 "Para [CHARACTER.GetUIName]"
- THEOCRATIC_LEASE_BREAKDOWN_NOT_ENDORSED:0 "@warning_icon!#X [CHARACTER.GetShortUINameNoTooltip] no [TARGET_CHARACTER.LocalPlayerString( 'te ', '' )]respalda[TARGET_CHARACTER.LocalPlayerString( '', 'Loc_ES_a_GetShortUIName' )]#!"
+ THEOCRATIC_LEASE_BREAKDOWN_NOT_ENDORSED:0 "@warning_icon!#X [CHARACTER.GetShortUINameNoTooltip] no [TARGET_CHARACTER.LocalPlayerString( 'te ', '' )]respalda a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )]#!"
 
  CLAIM_TITLE_HOLDER:0 "Titular actual: [Claim.GetTitle.GetHolder.GetUIName]"
  CLAIM_TITLE_NOT_CREATED:0 "Título aún no creado"
@@ -160,17 +161,17 @@
  CHARACTER_WINDOW_FIND_SPOUSE:1 "#T Buscar [spouse|lE]\n#!Concertar un [marriage|lE] para [Character.GetUIName]\n\n[Character.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
  CHARACTER_WINDOW_FIND_SPOUSE_SELF:1 "#T Buscar [spouse|lE]\n#!Concertar un [marriage|lE] para ti\n\n[Character.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
  CHARACTER_WINDOW_FIND_SECONDARY_SPOUSE:0 "#T Buscar [spouse|lE]\n#!Concertar un [marriage|lE]"
- CHARACTER_WINDOW_NO_MORE_SPOUSES:0 "#T No hay más [spouses|lE]#!"
  CHARACTER_WINDOW_GOTO_FIND_SPOUSE:0 "#T Siguiente: Buscar [spouse|lE]#!"
  CHARACTER_WINDOW_GOTO_NEXT_SPOUSE:0 "#T Siguiente: [CHARACTER.GetUIName]#!"
  CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE:0 "#T Anterior: [CHARACTER.GetUIName]#!"
- 
+ CHARACTER_WINDOW_GOTO_PREVIOUS_FIND_SPOUSE:0 "#T Antes: Encontrar [spouse|lE]#!"
+ CHARACTER_WINDOW_GOTO_DIARCH:0 "#T Siguiente: [CHARACTER.GetLiege.GetDiarchTitle] [CHARACTER.GetUIName]#!"
+
  CV_CUSTOMIZE_PORTRAIT:0 "#I Haz clic para abrir Peluquería#!"
  RENAME_CHARACTER:0 "#I Haz clic para renombrar el personaje#!"
 
  CV_CHILDREN_HEADING:0 "Hijos #weak ([GetDataModelSize(CharacterWindow.GetChildren)])#!"
  CV_SIBLINGS_HEADING:0 "Hermanos #weak ([GetDataModelSize(CharacterWindow.GetSiblings)])#!"
- AI_PERSONALITY_TT:0 "#T Personalidad: [Character.GetAIPersonality]#!\n[Character.GetShortUINameNoTooltip] actuará contra ti y contra otros de acuerdo con su personalidad, que depende en gran medida de sus [traits|lE]."
  CHARACTER_RELATION_COMBINE:0 "$FIRST$ • $SECOND$"
 
  FAITH_CHARACTER_WINDOW:0 "[Faith.GetAdjectiveNoTooltip]"
@@ -181,4 +182,3 @@
  KNOWN_LANGUAGES_TOOLTIP:1 "#T [languages|E] conocidos#!\n[Character.GetKnownLanguagesString]\n\n#weak [language_limit|E] actual: [Character.MakeScope.ScriptValue('current_extra_languages')|V0] de [Character.MakeScope.ScriptValue('language_soft_cap')|V0]#!"
 
  EXTENDED_RELATIONS_TOOLTIP:0 "[Character.GetRelationToStringExtended( GetPlayer )]"
- 

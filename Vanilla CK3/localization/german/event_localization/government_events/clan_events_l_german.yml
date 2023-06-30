@@ -1,6 +1,6 @@
 ﻿l_german:
  clan.1001.t:0 "Das versprochene Kind"
- clan.1001.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] und [vassal.Custom('DE_PRO_POS_S_3P')][vassal_child.Custom('DE_END_PRO_S_N')] [vassal_child.Custom('GetDaughterSon')] [vassal_child.GetTitledFirstName] treten an mich heran.\n\n„Es ist eine Schande, dass es kein Bündnis zwischen uns gibt, mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]. Lasst [child.GetTitledFirstName] mein[vassal_child.Custom('DE_END_PRO_S_N')] [vassal_child.Custom('GetDaughterSon')] heiraten, auf dass dieses Problem gelöst sei!“"
+ clan.1001.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] und [vassal.Custom('DE_PRO_POS_S_3P')][vassal_child.Custom('DE_END_PRO_S_N')] [vassal_child.Custom('GetDaughterSon')] [vassal_child.GetTitledFirstName] treten an mich heran.\n\n„Es ist eine Schande, dass es kein Bündnis zwischen uns gibt, Herr[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')]. Lasst [child.GetTitledFirstName] mein[vassal_child.Custom('DE_END_PRO_S_N')] [vassal_child.Custom('GetDaughterSon')] heiraten, auf dass dieses Problem gelöst sei!“"
  clan.1001.a:0 "Ihr habt recht: Sie werden heiraten!"
  clan.1001.b:0 "Das wird nicht geschehen."
 
@@ -34,7 +34,7 @@
  clan.1101.d.custom:0 "Jeder [vassal|E], der nicht Mitglied der [dynasty|E] ist"
 
  clan.1201.t:0 "Nicht vertreten"
- clan.1201.desc:0 "Ein[petitioner.Custom('DE_END_PRO_S_N')] [culture.GetNameNoTooltip][culture.Custom('DE_END_PRO_S_N')] [petitioner.GetWomanMan] aus [target_title.GetNameNoTier] kommt zu mir, um mehr Vertretung in meiner Regierung zu erbitten.\n\n„Mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord], wir sind Eure treuen Untertanen, und doch haben wir keine Mitsprache darin, wie unsere Gemeinden verwaltet werden. Wäre es denn wirklich so viel verlangt, dass einer von uns einen Posten in Eurer Verwaltung erhielte?“"
+ clan.1201.desc:0 "Ein[petitioner.Custom('DE_END_PRO_S_N')] [culture.GetNameNoTooltip][petitioner.Custom('DE_END_PRO_S_N')] [petitioner.GetWomanMan] aus [target_title.GetNameNoTier] kommt zu mir, um mehr Vertretung in meiner Regierung zu erbitten.\n\n„Herr[ROOT.GetCharacter.Custom('DE_END_NOU_S_GS_N')], wir sind Eure treuen Untertanen, und doch haben wir keine Mitsprache darin, wie unsere Gemeinden verwaltet werden. Wäre es denn wirklich so viel verlangt, dass einer von uns einen Posten in Eurer Verwaltung erhielte?“"
  clan.1201.a:0 "Wohlan denn. Von nun an werdet Ihr [target_title.GetNameNoTierNoTooltip] regieren!"
  clan.1201.b:0 "Ich könnte die Zügel lockern. Im Tausch gegen Eure Dienste …"
  clan.1201.c:0 "Auf keinen Fall."

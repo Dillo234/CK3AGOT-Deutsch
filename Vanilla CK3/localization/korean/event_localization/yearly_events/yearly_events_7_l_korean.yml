@@ -23,7 +23,7 @@
  yearly.7002.c.tt:0 "이 사실을 비밀로 간직함"
 
 #### Traitor knights carry you off in a sack
- yearly.7004.desc:0 ""서둘러! 잠에서 깨고 있잖아!"\n\n잠에서 깨어나니 베개가 평소보다 거칠게 느껴졌다. 머리는 핑글핑글 도는데, 몸도 머리를 따라 요동쳤다. 그리고 온 사방이 새카맣게 보였다. 침상에 있던 나는 자루에 집어 넣어진 채 질질 끌려가고 있었다.\n\n"거 더럽게 꿈틀대네! 자꾸 놓치게시리." \n\n나는 말싸움이 심해진 틈을 타 몸부림쳐서 납치범들이 자루를 떨어뜨리게 했다. 바깥으로 기어 나오니 납치범들이 [ROOT.GetCharacter.Custom('FortifiedBuilding')] 정원에서 불과 몇 걸음 떨어진 거리밖에 오지 못했다는 걸 알았다."
+ yearly.7004.desc:0 ""서둘러! 잠에서 깨고 있잖아!"\n\n잠에서 깨어나니 베개가 평소보다 거칠게 느껴졌다. 머리는 핑글핑글 도는데, 몸도 머리를 따라 요동쳤다. 그리고 온 사방이 새카맣게 보였다. 침상에 있던 나는 자루에 집어넣어진 채 질질 끌려가고 있었다.\n\n"거 더럽게 꿈틀대네! 자꾸 놓치게시리." \n\n나는 말싸움이 심해진 틈을 타 몸부림쳐서 납치범들이 자루를 떨어뜨리게 했다. 바깥으로 기어 나오니 납치범들이 [ROOT.GetCharacter.Custom('FortifiedBuilding')] 정원에서 불과 몇 걸음 떨어진 거리밖에 오지 못했다는 걸 알았다."
  yearly.7004.tt:0 "파벌의 음모가 실패로 돌아감"
  yearly.7004.a:0 "이딴 걸 납치라고 했느냐? 적어도 [neighbor_county.GetNameNoTier]까진 온 줄 알았더니만."
  yearly.7004.b:0 "반역자들! 둘 다 자루에 처넣어 지하 감옥에서 고통받게 해주마!"
@@ -37,8 +37,8 @@
  yearly.7005.preparation_good:0 "암살자 따위로 날 죽일 수 있을 거라 생각하다니, 참 우스웠다."
  yearly.7005.knight_support:0 "[knight_1.GetTitledFirstName](와)과 [knight_2.GetTitledFirstName](은)는 날 위해 죽을 준비가 되어 있지만, 그보단 저 둘의 칼날을 맞게 될 자들이 가련하게 느껴졌다."
  yearly.7005.single_knight_support:0 "분명 [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')](이)가 날 지켜주겠지. 암, 그렇고말고."
- yearly.7005.decreased_security:0 "[THIS.GetCharacter.Custom('FortifiedBuilding')]에 모인 문객들은 너 나 할 것 없이 [ROOT.Char.Custom('RegionalDrink')](을)를 홀짝이며 편하게 잡담을 나누었다."
- yearly.7005.increased_security:0 "소수의 무리만이 귓속말을 주고받을 뿐, [THIS.GetCharacter.Custom('FortifiedBuilding')]에는 대체로 적막이 흘렀다. 알현실에 늘어선 경비대 탓인지 모두의 신경이 곤두서 있었다."
+ yearly.7005.decreased_security:1 "[ROOT.GetCharacter.Custom('FortifiedBuilding')]에 모인 문객들은 너 나 할 것 없이 [ROOT.Char.Custom('RegionalDrink')](을)를 홀짝이며 편하게 잡담을 나누었다."
+ yearly.7005.increased_security:1 "소수의 무리만이 귓속말을 주고받을 뿐, [ROOT.GetCharacter.Custom('FortifiedBuilding')]에는 대체로 적막이 흘렀다. 알현실에 늘어선 경비대 탓인지 모두의 신경이 곤두서 있었다."
  yearly.7005.throne_approach:0 "[coup_leader.GetTitledFirstName](이)가 내 왕좌로 다가왔다."
  yearly.7005.liberty_faction:0 ""아무래도 우리 목을 옥죄는 사슬을 부술 방법은 하나뿐인 것 같군. 나와 네놈의 목을 자르는 거지.""
  yearly.7005.independence_faction:0 "\n\n"나만의 나라를 가질 수 없다면... 이 내가 주역인 비극의 영웅이라도 되겠다.""
@@ -82,7 +82,7 @@
  yearly.7012.b:0 "참 어처구니없군."
  
  yearly.7013.t:0 "아름다운 경기: 중요 계약"
- yearly.7013.desc:0 "모여든 군중을 관찰하던 중, 유난히 어울리지 않는 [dummy_gender.GetWomanMan]이 눈에 들어왔다. 값비싼 털가죽 옷을 걸치고 소수의 수행단을 대동한 [dummy_gender.GetSheHe]는 덩치가 훨씬 큰 다른 [dummy_gender.GetWomanMan]과 활발한 대화를 나누고 있었다. 군중을 헤치고 주변까지 다가가니, 부유한 상인이 대화 상대의 손에 작은 동전을 쥐여주는 모습이 눈에 보였다.\n\n"...잘 부탁해요. 아무쪼록 반드시 딸 수 있게 해주셨으면 좋겠네요!" 아래턱이 유난히 발달한 상인이 조소했다.\n\n집채만 한 [dummy_gender.GetWomanMan]이 상대 진영으로 성큼성큼 걸어갔다. 경기의 신성함을 존중하지 않는 자들도 더러 있는 모양이다..."
+ yearly.7013.desc:0 "모여든 군중을 관찰하던 중, 유난히 어울리지 않는 [dummy_gender.GetWomanMan]이 눈에 들어왔다. 값비싼 털가죽 옷을 걸치고 소수의 종사단을 대동한 [dummy_gender.GetSheHe]는 덩치가 훨씬 큰 다른 [dummy_gender.GetWomanMan]과 활발한 대화를 나누고 있었다. 군중을 헤치고 주변까지 다가가니, 부유한 상인이 대화 상대의 손에 작은 동전을 쥐여주는 모습이 눈에 보였다.\n\n"...잘 부탁해요. 아무쪼록 반드시 딸 수 있게 해주셨으면 좋겠네요!" 아래턱이 유난히 발달한 상인이 조소했다.\n\n집채만 한 [dummy_gender.GetWomanMan]이 상대 진영으로 성큼성큼 걸어갔다. 경기의 신성함을 존중하지 않는 자들도 더러 있는 모양이다..."
  yearly.7013.a:0 "기다리게! 방금 저자에게 받은 금액의 두 배를 주지!"
  yearly.7013.b:0 "역겹군! 나 때는 꿈도 못 꾸던 짓을!"
  yearly.7013.c:0 "아무래도 저 친구 없이 경기를 이겨야겠구만!"

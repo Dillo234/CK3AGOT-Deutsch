@@ -19,13 +19,13 @@
  hold_court.5001.c:0 "¡Pues #EMP nunca#! te casarás!"
 
  hold_court.5010.t:0 "$hold_court_header$ [county.GetNameNoTierNoTooltip] fuera de control"
- hold_court.5010.desc_marshal:0 "«[marshal.GetCouncilTitle] [marshal.GetTitledFirstName] nos está cazando, colgando y… podríamos mantener el orden, mi [ROOT.Char.GetLadyLord]. #EMP Por favor#!, ¡podemos organizarnos sin tanta muerte!».\n\n"
+ hold_court.5010.desc_marshal:0 "«[marshal.GetCouncilTitle] [marshal.GetTitledFirstName|l] nos está cazando, colgando y… podríamos mantener el orden, mi [ROOT.Char.GetLadyLord]. #EMP Por favor#!, ¡podemos organizarnos sin tanta muerte!».\n\n"
  hold_court.5010.desc:0 "«Nos están cazando, colgando y… podríamos mantener el orden, mi [ROOT.Char.GetLadyLord]. #EMP Por favor#!, ¡podemos organizarnos sin tanta muerte!».\n\n"
- hold_court.5010.desc_vassal_holder:0 "Un[peasant.Custom('ES_XA')] campesin[peasant.Custom('ES_OA')] del [county.GetName], una región asolada por el descontento que pertenece a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName], me asegura que se puede restaurar el control sin excesivo derramamiento de sangre."
+ hold_court.5010.desc_vassal_holder:0 "Un[peasant.Custom('ES_XA')] campesin[peasant.Custom('ES_OA')] del [county.GetName], una región asolada por el descontento que pertenece a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName|l], me asegura que se puede restaurar el control sin excesivo derramamiento de sangre."
  hold_court.5010.desc_holder:0 "Un[peasant.Custom('ES_XA')] campesin[peasant.Custom('ES_OA')] del [county.GetName], una región asolada por el descontento, me asegura que se puede restaurar el control sin excesivo derramamiento de sangre."
  hold_court.5010.a:0 "Curiosa idea, la probaremos."
- hold_court.5010.a_tt_marshal:0 "Le dices a [marshal.GetTitledFirstNameNoTooltip] que afloje un poco la soga"
- hold_court.5010.a_tt_vassal:0 "Le dices a [vassal.GetTitledFirstNameNoTooltip] que afloje un poco la soga"
+ hold_court.5010.a_tt_marshal:0 "Le dices a [marshal.GetTitledFirstNameNoTooltip|l] que afloje un poco la soga"
+ hold_court.5010.a_tt_vassal:0 "Le dices a [vassal.GetTitledFirstNameNoTooltip|l] que afloje un poco la soga"
  hold_court.5010.b:0 "¡Tienes razón, lo que necesitamos es un derramamiento de sangre #EMP exagerado#!!"
  hold_court.5010.c:0 "Ten, haz lo que puedas con esto."
 

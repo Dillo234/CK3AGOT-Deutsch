@@ -3,6 +3,8 @@
  disinherit_interaction:0 "Лишить наследства"
  disinherit_interaction_desc:0 "$dynasty_interaction_header$Удалить персонажа [recipient.GetShortUINameNoTooltip] из [Concept( 'line_of_succession', 'линии наследования' )|E]"
  disinherit_interaction_notification:0 "Лишение наследства члена династии"
+ courtly_vassal_disapproves_disinheriting:0 "Каждый [GetVassalStance( 'courtly' ).GetTextIcon]куртуазный [vassal|El] ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) теряет #N 20#! [Concept( 'opinion', 'мнения' )|E] о [Select_CString(actor.IsLocalPlayer, '', 'персонаже ' )][actor.GetNamePossessiveOrMy][Select_CString(actor.IsLocalPlayer, 'ем персонаже', '' )] на #V 10 лет#! #weak (Не одобряют лишение наследства наследника, не имеющего сомнительного происхождения)#!"
+
 
  restore_inheritance_interaction:0 "Восстановить наследство"
  restore_inheritance_interaction_desc:0 "$dynasty_interaction_header$Вернуть персонажа [recipient.GetShortUINameNoTooltip] в [Concept( 'line_of_succession', 'линию наследования' )|E]\n\n#weak Этот вариант доступен, потому что [recipient.GetHerHis] [Concept( 'disinherited', 'лишили наследства' )|E]#!"

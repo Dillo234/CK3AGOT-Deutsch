@@ -78,11 +78,11 @@
  bondi_tt:0 "#F 본디는 낯선 해안의 평원이나 농지에서의 전투에서 능력을 발휘하는 강건한 전사입니다.#!"
  
  fp1_yearly.2400.t:0 "사냥 준비"
- fp1_yearly.2400.desc:0 "황야가 나를 부르는군. 하긴, 사냥을 떠난 지 무척 오래되긴 했지. [hunting_province.GetName]의 [ROOT.Char.Custom('TerrainType')]에는 [ROOT.Char.Custom('LocalAnimalDesc')] [ROOT.Char.Custom('LocalAnimalMultiple')](이)가 여럿 돌아다닌다고 하던데. 한 마리를 잡아 오늘 밤의 만찬으로 삼으면 딱 알맞겠는걸.\n\n그런데 무언가 빼먹은 기분이란 말이야. 사냥용 창이 낡아서 무뎌지기라도 했나? 아니면 사냥에 데려갈 동지가 부족하다던가?\n\n확실히 준비해두는 편이 좋겠어."
+ fp1_yearly.2400.desc:0 "황야가 나를 부르는군. 하긴, 사냥을 떠난 지 무척 오래되긴 했지. [hunting_province.GetName]의 [ROOT.Char.Custom('TerrainType')]에는 [ROOT.Char.Custom('GetAnimalAdjective')] [ROOT.Char.Custom('GetAnimalPlural')](이)가 여럿 돌아다닌다고 하던데. 한 마리를 잡아 오늘 밤의 만찬으로 삼으면 딱 알맞겠는걸.\n\n그런데 무언가 빼먹은 기분이란 말이야. 사냥용 창이 낡아서 무뎌지기라도 했나? 아니면 사냥에 데려갈 동지가 부족하다던가?\n\n확실히 준비해두는 편이 좋겠어."
  fp1_yearly.2400.a:0 "새로운 사냥개가 필요하겠어!"
  fp1_yearly.2400.b:0 "새로 만든 창과 까마귀 깃털을 덧붙인 화살이 필요해."
  fp1_yearly.2400.c:0 "지금 가진 장비로도 충분해. 준비할 시간만 있으면 되겠어."
- fp1_yearly.2400.free_hunt:0 "다음 [hunt|E]에는 [gold|E]가 소모되지 않음"
+ fp1_yearly.2400.free_hunt:1 "다음 [GetActivityType('activity_hunt').GetName]에는 [gold|E]가 소모되지 않음"
  brand_new_hunting_tools:0 "새로 마련한 사냥 도구"
  brand_new_hunting_tools_desc:0 "해당 인물은 사냥 장비를 새로 마련하려고 대량의 금화를 소모했습니다."
  

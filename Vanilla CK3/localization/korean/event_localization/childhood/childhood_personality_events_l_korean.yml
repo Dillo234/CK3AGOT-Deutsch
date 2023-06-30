@@ -17,7 +17,7 @@
  child_personality.0002.b:0 "우물에서 마실 물을 길어야겠다."
  child_personality.0002.c:0 "물을 달라고? 이 진흙으로도 충분할 것 같은데!"
 
- child_personality.0003.t:0 "잡혀버렸네!"
+ child_personality.0003.t:0 "발각!"
  child_personality.0003.guardian:0 "성을 방문하려고 자리를 비운 [robbed_guest.GetTitledFirstNamePossessive] 여행용 궤짝을 훔치려다가, 내 [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guardian'))]인 [guardian.GetTitledFirstName]에게 들키고 말았다. [guardian.GetFirstName](이)가 처벌을 내리겠다고 위협하면서 이 상황을 해명해보라고 했다."
  child_personality.0003.no_guardian:0 "성을 방문하려고 자리를 비운 [robbed_guest.GetTitledFirstNamePossessive] 여행용 궤짝을 훔치려다가 들키고 말았다. [robbed_guest.GetFirstName](이)가 처벌을 내리겠다고 위협하면서 이 상황을 해명해보라고 했다."
  child_personality.0003.a:0 "그게... 어느 꼬맹이와 내기를 했는데..."
@@ -310,7 +310,7 @@
  child_personality.108.desc:0 "[child.GetTitledFirstName](이)가 연회를 실컷 즐긴 눈치다!"
  child_personality.108.greedy:0 "\n그중에서도 값비싼 옷과 번쩍이던 금붙이가 눈에 들어왔는지, 줄곧 그 얘기만 하고 있다."
  child_personality.108.gregarious:0 "\n말을 걸어왔던 사람들과도 잘 어울릴 정도였다. 어른이어도 신경 쓰지 않는 눈치였다."
- child_personality.108.lustful:0 "\n어느 어린 하인을 마주보면서 어떤 기분을 느꼈는지를 쉴 새 없이 떠들어댈 정도로."
+ child_personality.108.lustful:1 "\n어느 어린 하인을 마주보면서 어떤 기분을 느꼈는지를 쉴 새 없이 떠들어댈 정도로."
  child_personality.108.confirm_greedy:0 "이 세상을 지배하는 권력을 가졌다고 과시하는 것뿐이거늘."
  child_personality.108.confirm_gregarious:0 "친구를 만들어서 나쁠 건 없지."
  child_personality.108.confirm_lustful:0 "오, 꼬마 악당이 어른이라도 된 것처럼 구는데?"
@@ -498,8 +498,8 @@
  child_personality.keeps_forgiving_tt:0 "[child.GetFirstName](이)가 [GetTrait('forgiving').GetName( child.Self )] 특성을 유지함"
 
  child_personality.4011.t:0 "싹트는 흥미"
- child_personality.4011.desc_opening:0 "[ROOT.Char.Custom('LocalAnimal')](을)를 곁에 끼고 잠자리에 들었다. 따스한 기운이 돌면서 눈이 감겨왔다.\n\n"
- child_personality.4011.desc_1:0 "앞에 있던 멋들어진 [ROOT.Char.Custom('LocalAnimal')](이)가 [ROOT.Char.Custom('TerrainType')](으)로 따라오라며 날 불러들였다. 작은 빈터에 다다르자, 심장이 요동치기 시작했다. 이내 온몸이 저려 오면서 마음이 #EMP 들떠올랐다#!. 몸을 돌리니, [ROOT.Char.Custom('LocalAnimal')](은)는 사라지고 없었다. 그 자리에 있던 것은 아름다운..."
+ child_personality.4011.desc_opening:0 "[ROOT.Char.Custom('GetAnimalType')](을)를 곁에 끼고 잠자리에 들었다. 따스한 기운이 돌면서 눈이 감겨왔다.\n\n"
+ child_personality.4011.desc_1:0 "앞에 있던 멋들어진 [ROOT.Char.Custom('GetAnimalType')](이)가 [ROOT.Char.Custom('TerrainType')](으)로 따라오라며 날 불러들였다. 작은 빈터에 다다르자, 심장이 요동치기 시작했다. 이내 온몸이 저려 오면서 마음이 #EMP 들떠올랐다#!. 몸을 돌리니, [ROOT.Char.Custom('GetAnimalType')](은)는 사라지고 없었다. 그 자리에 있던 것은 아름다운..."
  child_personality.4011.desc_2:0 "앞에 있던 인영이 안개에 휩싸인 채로 다가오라 손짓했다. 그리로 다가가서 그 인영을 만지자, 안개가 걷히기 시작했다. 발그레하게 달아오른 홍조가 그 빈 자리를 채우며 피부에 스며들었다. 나는 몸을 기울여 입을 맞췄다. 이내 물러선 내게 인사를 건넨 것은 아름다운..."
  child_personality.4011.desc_3:0 "한밤중에 화들짝 깨어났다. 가슴이 들썩였고 피부가 얼얼하게 저려 왔다. 이런 기분은 처음이었다. 아프기라도 한 걸까? 내가 무슨 꿈을 꿨더라? 기억을 짜낸 끝에 떠오른 것은 아름다운..."
  child_personality.4011.a:0 "소년이었다."

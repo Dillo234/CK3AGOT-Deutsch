@@ -40,7 +40,7 @@
 ##### My Spire is Bigger than Yours! by Isabella Welch #####
 
  court.4250.t:0 "¡Mi chapitel es más grande que el tuyo!"
- court.4250.desc:1 "«Cortesanos lloriqueantes de [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]», irrumpe [tower_challenger_rival.GetTitledFirstName] para presentarse en pleno salón del trono.\n\n«Mientras [ROOT.Char.GetTitledFirstNameNoTooltip] se revuelca en el suelo como un[ROOT.Char.Custom('ES_XA')] puerc[ROOT.Char.Custom('ES_OA')] en el barro, yo he levantado en [tower_challenger_rival.GetCapitalLocation.GetTitle.GetNameNoTier] la torre más alta que haya visto esta tierra asolada. Desde mi [tower_challenger_rival.Custom('FortifiedBuilding')], ahora casi puedo arrancar los planetas del cielo. ¿Dónde están tus estrellas, [ROOT.Char.GetTitledFirstNameNoTooltip]?».\n\nMi [concerned_steward.GetCouncilTitle|l] [concerned_steward.GetTitledFirstName] me pone una mano cautelosa en el hombro. «Mi [ROOT.Char.GetLadyLord], la torre de [tower_challenger_rival.GetTitledFirstNameNoTooltip] son unos 122 metros de arcilla y engrudo de estructura poco sólida. Ignorad sus burlas y aguardad a que se desmorone»."
+ court.4250.desc:1 "«Cortesanos lloriqueantes de [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]», irrumpe [tower_challenger_rival.GetTitledFirstName|l] para presentarse en pleno salón del trono.\n\n«Mientras [ROOT.Char.GetTitledFirstNameNoTooltip|l] se revuelca en el suelo como un[ROOT.Char.Custom('ES_XA')] puerc[ROOT.Char.Custom('ES_OA')] en el barro, yo he levantado en [tower_challenger_rival.GetCapitalLocation.GetTitle.GetNameNoTier] la torre más alta que haya visto esta tierra asolada. Desde mi [tower_challenger_rival.Custom('FortifiedBuilding')], ahora casi puedo arrancar los planetas del cielo. ¿Dónde están tus estrellas, [ROOT.Char.GetTitledFirstNameNoTooltip]?».\n\nMi [concerned_steward.GetCouncilTitle|l] [concerned_steward.GetTitledFirstName|l] me pone una mano cautelosa en el hombro. «Mi [ROOT.Char.GetLadyLord], la torre de [tower_challenger_rival.GetTitledFirstNameNoTooltip|l] son unos 122 metros de arcilla y engrudo de estructura poco sólida. Ignorad sus burlas y aguardad a que se desmorone»."
  court.4250.a:0 "¡Métete la aguja por tu altivo trasero!"
  court.4250.b:0 "¡Ampliaremos nuestra torre para que sea 30 centímetros más alta que la tuya!"
  court.4250.c:0 "¡Exijo que construyamos una torre #EMP treinta metros #!más alta!"
@@ -55,26 +55,26 @@
 
  court.4251.desc:0 "Al oír la noticia de que mi altísima torre está por fin terminada, invito a toda la corte a salir para verla. La torre rasga el cielo, pero también se balancea con el viento."
  court.4251.desc_child_accident:0 "\n\nDe entre la multitud de cortesanos pasmados, mi hij[crushed_child.Custom('ES_OA')] [crushed_child.GetName] gatea con curiosidad hacia la base de la poderosa estructura, contemplándola con los ojos abiertos.\n\n[crushed_child.GetNameNoTooltip] no tiene ni tiempo de gritar cuando la punta de la torre se rompe, se viene abajo y [crushed_child.GetHerHim] aplasta."
- court.4251.desc_rival_accident:0 "\n\nInvito a [tower_challenger_rival.GetTitledFirstNameNoTooltip] a subirla conmigo. Se queda sin aliento ante las vistas, o puede que por la subida. Una vez llegamos a la cima y saludo a mis cortesanos abajo, [tower_challenger_rival.GetFirstNameNoTooltip] se inclina sobre la barandilla, que cede al instante, precipitándose directamente al cielo."
- court.4251.desc_success:0 "\n\nMis cortesanos, pasmados, reciben la torre con una salva de aplausos atronadores, pero, por alguna razón, todos evitan ponerse a su sombra.\n\n[tower_challenger_rival.GetTitledFirstNameNoTooltip] me susurra, «Canalla, juro que volveré con una torre el #EMP doble #!de alta»."
+ court.4251.desc_rival_accident:0 "\n\nInvito a [tower_challenger_rival.GetTitledFirstNameNoTooltip|l] a subirla conmigo. Se queda sin aliento ante las vistas, o puede que por la subida. Una vez llegamos a la cima y saludo a mis cortesanos abajo, [tower_challenger_rival.GetFirstNameNoTooltip] se inclina sobre la barandilla, que cede al instante, precipitándose directamente al cielo."
+ court.4251.desc_success:0 "\n\nMis cortesanos, pasmados, reciben la torre con una salva de aplausos atronadores, pero, por alguna razón, todos evitan ponerse a su sombra.\n\n[tower_challenger_rival.GetTitledFirstNameNoTooltip|l] me susurra, «Canalla, juro que volveré con una torre el #EMP doble #!de alta»."
  court.4251.a:0 "¡Oh, [crushed_child.GetNameNoTooltip], eras dulce como una madalenita!"
- court.4251.b:0 "Por fin conseguiste volar, [tower_challenger_rival.GetTitledFirstNameNoTooltip]."
+ court.4251.b:0 "Por fin conseguiste volar, [tower_challenger_rival.GetTitledFirstNameNoTooltip|l]."
  court.4251.c:0 "¿Y ahora quién se revuelca en el barro, [tower_challenger_rival.GetTitledFirstNameNoTooltip]?"
 
 ### Crusades Preaching Tours by Isabella Welch
 
  court.4300.t:0 "Quantum praedecessores"
  court.4300.preaching_tour_bernard_of_clairvaux_intro:0 "Bernardo de Claraval está aquí en una parada durante su viaje por el continente en su predicación para inflamar las almas de la próxima guerra santa. Mi [bishop.GetCouncilTitle] me informa de que Bernardo tuvo un papel destacado para trazar las doctrinas para la primera orden militar de los Caballeros templarios.\n\n"
- court.4300.preaching_tour_bernard_of_clairvaux_theology:0 "«Es un placer estar junto a otra persona reconocida por su comprensión teísta. Estoy trabajando en un nuevo tratado sobre nuestras órdenes militares: 'Elogio de la nueva caballería'. Si le echáis un vistazo, me aseguraré de enviar un mensaje a [ghw_sponsor.GetTitledFirstName] para que emita una bula en apoyo de vuestra propia orden»."
+ court.4300.preaching_tour_bernard_of_clairvaux_theology:0 "«Es un placer estar junto a otra persona reconocida por su comprensión teísta. Estoy trabajando en un nuevo tratado sobre nuestras órdenes militares: 'Elogio de la nueva caballería'. Si le echáis un vistazo, me aseguraré de enviar un mensaje a [ghw_sponsor.GetTitledFirstName|l] para que emita una bula en apoyo de vuestra propia orden»."
  court.4300.preaching_tour_bernard_of_clairvaux_flea_excommunication:0 "«Mi gratitud por vuestra hospitalidad. Como forma de retribuir vuestra amabilidad, observo que varios de vuestros cortesanos se rascan una sarta de picaduras. Una vez excomulgué una plaga de miles de moscas, provocando su muerte instantánea. ¡Parece que tenéis varias pulgas repugnantes que necesitan censura eclesiástica!»."
  court.4300.preaching_tour_bernard_of_clairvaux_standard:0 "«Tengo que pedir un importante favor. Si bien [ROOT.GetCharacter.GetFaith.HighGodName] ha bendecido mi mente, no ha bendecido mis entrañas. Tal como está mi continencia, no puedo dar un sermón sin tener cavada una letrina justo debajo. ¿Hay alguien que quiera seguir mi recorrido como cavaletrinas cristiano?»"
  court.4300.preaching_tour_default:0 "Un sacerdote ha bloqueado la entrada a tu salón del trono, repartiendo insignias rojas en forma de cruz para que se la pongan en la ropa los que entren.\n\n«¡Gracias a [ROOT.GetCharacter.GetFaith.HighGodName]! Estoy de viaje predicando por los señoríos de nuestros aliados que se han comprometido con la guerra santa, dando sermones para reforzar el reclutamiento y los fondos»."
  court.4300.a:0 "«¡Contáis con mi pluma y mi espada!»"
  court.4300.b:0 "«¡Excomulguemos a esos insectos renegados!»"
- court.4300.c:0 "«¡Sé con certeza que [possible_latrine_digger.GetTitledFirstNameNoTooltip] está desesperad[possible_latrine_digger.Custom('ES_OA')] por ayudar!»"
+ court.4300.c:0 "«¡Sé con certeza que [possible_latrine_digger.GetTitledFirstNameNoTooltip|l] está desesperad[possible_latrine_digger.Custom('ES_OA')] por ayudar!»"
  court.4300.d:0 "«¡Mis arcas están tan abiertas como el cielo!»"
  court.4300.e:0 "«Tendréis una escolta de mi guardia personal para la misión»."
- court.4300.e.tt:0 "[bernard_guard_1.GetTitledFirstName] y [bernard_guard_2.GetTitledFirstName] escoltarán a [right_portrait_character.GetTitledFirstName] en tu señorío."
+ court.4300.e.tt:0 "[bernard_guard_1.GetTitledFirstName] y [bernard_guard_2.GetTitledFirstName|l] escoltarán [right_portrait_character.Custom('ES_AlAla')] [right_portrait_character.GetTitledFirstName|l] en tu señorío."
  court.4300.f:0 "Indign[ROOT.Char.Custom('ES_OA')] de hablar con un[right_portrait_character.Custom('ES_XA')] [right_portrait_character.GetWomanMan] tal, hago una genuflexión en silencio."
  court.4300.g:0 "Su insignia de la cruz parece bastante hortera, ¿verdad?"
  court.4300.a.tt:0 "El coste en [piety|lE] y [gold|lE] por fundar una orden militar se reduce enormemente"
@@ -90,7 +90,7 @@
 ## Our Nobles are attacking Islamic Caravans by Isabella Welch
 
  court.4355.t:0 "¿Quién osa luchar contra el sarraceno?"
- court.4355.desc:0 "«Mi [ROOT.Char.Custom('ES_SennorSennora')]», me reclama mi [reporting_marshal.GetCouncilTitle], «he oído a [caravan_attacker.GetTitledFirstName] presumir de cómo [caravan_attacker.GetSheHe] y un grupo de nobles actuaban como vulgares forajidos y asaltaban caravanas que transportaban azúcar de [attacked_liege.GetCapitalLocation.GetTitle.GetNameNoTier]». A esos canallas se les hace la boca agua al pensar en la guerra santa e intentan provocar a [attacked_liege.GetTitledFirstName]. Sin embargo, sugiero que necesitamos más el comercio que ninguna batalla…».\n\n«¡No necesitamos comida, solo beber la sangre del infiel!», brama [caravan_attacker.GetTitledFirstNameNoTooltip] desde la otra punta del salón del trono."
+ court.4355.desc:0 "«Mi [ROOT.Char.Custom('ES_SennorSennora')]», me reclama mi [reporting_marshal.GetCouncilTitle], «he oído a [caravan_attacker.GetTitledFirstName|l] presumir de cómo [caravan_attacker.GetSheHe] y un grupo de nobles actuaban como vulgares forajidos y asaltaban caravanas que transportaban azúcar de [attacked_liege.GetCapitalLocation.GetTitle.GetNameNoTier]». A esos canallas se les hace la boca agua al pensar en la guerra santa e intentan provocar a [attacked_liege.GetTitledFirstName|l]. Sin embargo, sugiero que necesitamos más el comercio que ninguna batalla…».\n\n«¡No necesitamos comida, solo beber la sangre del infiel!», brama [caravan_attacker.GetTitledFirstNameNoTooltip|l] desde la otra punta del salón del trono."
  court.4355.a:0 "¡Buen trabajo! ¡Saquear a los infieles es un acto sagrado!"
  court.4355.a.tt:0 "Organizas más asaltos comerciales"
  court.4355.b:0 "¡Guardias! Golpead[caravan_attacker.GetHerHim] con un tazón de azúcar hasta que se arrepienta."
@@ -100,7 +100,7 @@
 # Monks/Holy men chasing the decapitated head of their target of worship by Isabella Welch
 # better title please
  court.4400.t:0 "Por una cabeza"
- court.4400.desc:0 "Una bandada de [head_chasing_monk.GetWomenMen] vestid[head_chasing_monk.Custom('ES_OA')]s con túnicas irrumpe en mi salón del trono, escudriñan el suelo y lo arrancan todo, desde sillas a faldas, en una búsqueda frenética.\n\n«¡[ROOT.Char.GetTitledFirstNameNoTooltip]!» grita un[head_chasing_monk.Custom('ES_OA')]. «Somos [head_chasing_monk.Custom('ES_LoLa')]s seguidor[head_chasing_monk.Custom('ES_EA')]s de [the_headless.GetTitledFirstNameNoTooltip] sin Cabeza, un[the_headless.Custom('ES_XA')] gran [the_headless.GetWomanMan] sant[the_headless.Custom('ES_OA')] que fue decapitad[the_headless.Custom('ES_OA')] como parte de una profecía de [ROOT.GetCharacter.GetFaith.HighGodName] que recibió al nacer. Como suele ocurrir con las figuras sagradas, su cabeza echó a rodar. La hemos perseguido por todo el lugar y estamos #EMP segur[head_chasing_monk.Custom('ES_OA')]s#! de que ha rodado colina abajo hasta aquí»."
+ court.4400.desc:0 "Una bandada de [head_chasing_monk.GetWomenMen] vestid[head_chasing_monk.Custom('ES_OA')]s con túnicas irrumpe en mi salón del trono, escudriñan el suelo y lo arrancan todo, desde sillas a faldas, en una búsqueda frenética.\n\n«¡[ROOT.Char.GetTitledFirstNameNoTooltip]!» grita un[head_chasing_monk.Custom('ES_OA')]. «Somos [head_chasing_monk.Custom('ES_LoLa')]s seguidor[head_chasing_monk.Custom('ES_EA')]s de [the_headless.GetTitledFirstNameNoTooltip|l] sin Cabeza, un[the_headless.Custom('ES_XA')] gran [the_headless.GetWomanMan] sant[the_headless.Custom('ES_OA')] que fue decapitad[the_headless.Custom('ES_OA')] como parte de una profecía de [ROOT.GetCharacter.GetFaith.HighGodName] que recibió al nacer. Como suele ocurrir con las figuras sagradas, su cabeza echó a rodar. La hemos perseguido por todo el lugar y estamos #EMP segur[head_chasing_monk.Custom('ES_OA')]s#! de que ha rodado colina abajo hasta aquí»."
  court.4400.a:0 "Tenéis permiso para registrar mi [ROOT.Char.Custom('FortifiedBuilding')]."
  court.4400.b:0 "¡Dejad que me una a vuestra búsqueda!"
  court.4400.c:0 "¡No permitiré que una secta rebusque en mi corte!"
@@ -116,7 +116,7 @@
  court.4401.desc_default:0 "Cada vez que [head_chasing_monk.GetName] abre una nueva puerta, espero ver[head_chasing_monk.GetHerHim] aplastad[head_chasing_monk.Custom('ES_OA')] por una pila de cacharros. ¡Hasta me había olvidado de que guardaba mi [ROOT.Char.Custom('RandomPrivateObject')] aquí abajo!"
  court.4401.desc_object:0 "\n\nTras registrarlo todo cordialmente, no encontramos la cabeza, pero [head_chasing_monk.GetName] parece fascinad[head_chasing_monk.Custom('ES_OA')] con todo. Si tengo en cuenta la delicadeza con la que examina un [ROOT.Char.Custom('RandomWeirdObject')] abandonado, creo que [head_chasing_monk.GetSheHe] podría ser un[head_chasing_monk.Custom('ES_XA')] anticuari[head_chasing_monk.Custom('ES_OA')] valios[head_chasing_monk.Custom('ES_OA')]."
  court.4401.desc_head:0 "\n\nPuede que guiad[head_chasing_monk.Custom('ES_OA')] por el olor pútrido, saca de los escombros una cabeza humana como un cerdo escarba trufas.\n\nSin embargo, la cercanía a los sótanos de las mazmorras sugiere que probablemente se trate de algún alma olvidada de mis cámaras de tortura."
- court.4401.a:0 "¡Ah, sí! Ejem. ¡Es [the_headless.GetTitledFirstNameNoTooltip]! Alabemos a [ROOT.GetCharacter.GetFaith.HighGodName]… y todas esas cosas."
+ court.4401.a:0 "¡Ah, sí! Ejem. ¡Es [the_headless.GetTitledFirstNameNoTooltip|l]! Alabemos a [ROOT.GetCharacter.GetFaith.HighGodName]… y todas esas cosas."
  court.4401.b:0 "¡Mirad qué corte más limpio! Es obviamente obra mía."
  court.4401.c:0 "«¿Os gustaría rebuscar entre mi basura y ganaros la vida con ello?»."
  court.4401.d:0 "Está un poco asqueroso aquí abajo. Debería ordenar que lo limpiasen."
@@ -139,7 +139,7 @@
  court.4500.t:0 "Huesos de dedos de [ROOT.Char.GetTitleAsNameNoTooltip]"
  court.4500.desc:0 "Un[artifact_peddler.Custom('ES_XA')] vendedor[artifact_peddler.Custom('ES_XA')] ambulante con una capa con decenas de adornos y chucherías cosidas a ella se acerca a mí con un repiqueteo.\n\n"
  court.4500.bleeder:0 "«Construyo artefactos para sacarle dinero a los ricachones tontos. Me ha llegado un susurro de que sufrís un exceso de sangre. Estoy seguro de que a algunos admiradores vuestros les encantaría comprar un broche con una esfera de cristal con una gota de vuestra sangre».\n\nSe queda mirando las venas de mi cuello. «Pagaré generosamente, y algún imbécil sentirá que tiene un toque de majestad real»."
- court.4500.psalter:0 "«Tengo un salterio magnífico: un manuscrito iluminado con una portada de marfil esculpida y adornada con cuentas de turquesa. Contiene historias de [ROOT.GetCharacter.GetWomenMen] y [cheating_character.GetWomenMen] enamorados. ¡La talla seguramente impresione a [cheating_character.GetTitledFirstNameNoTooltip] para que no vuelva a pensar en acostarse con nadie más!»."
+ court.4500.psalter:0 "«Tengo un salterio magnífico: un manuscrito iluminado con una portada de marfil esculpida y adornada con cuentas de turquesa. Contiene historias de [ROOT.GetCharacter.GetWomenMen] y [cheating_character.GetWomenMen] enamorados. ¡La talla seguramente impresione a [cheating_character.GetTitledFirstNameNoTooltip|l] para que no vuelva a pensar en acostarse con nadie más!»."
  court.4500.chastity_belt:0 "«Todos en el señorío saben que estáis embriagado de deseos voraces con la fuerza de un catafracto lanzado por un trabuquete. Tengo un artefacto que aliviará vuestra carga».\n\nRevela un cinturón de castidad adornado de púas oxidadas."
  court.4500.holy_needle:0 "«Tengo conmigo una preciosa arma solo digna de vuestras manos. ¡La Santa Lanza de Antioquía, la mismísima Lanza del Destino! Con esto aniquilaréis a los infieles en el campo de batalla».\n\nSaca un pequeño fragmento de metal que parece una aguja de coser."
  court.4500.finger_bones:0 "«Me parecéis un[ROOT.Char.Custom('ES_XA')] coleccionista expert[ROOT.Char.Custom('ES_OA')]». Saca y abre un maltrecho baúl repleto de huesos de todas las extremidades imaginables.\n\n«Tengo algunos de los más raros huesos de dedos de santos, incluso algunos laminados en oro. Se venden por separado, pero os haré un precio especial por un juego completo de diez»."
@@ -163,7 +163,7 @@
 
 ## Your cupbearer is drinking all your wine! By Isabella Welch
  court.4600.t:0 "No hay mejor [ROOT.GetCharacter.Custom('RegionalAlcoholicDrink')|U]"
- court.4600.desc:1 "Descubro a mi coper[cupbearer.Custom('ES_OA')] [cupbearer.GetTitledFirstName] y a [cupbearer_friend.GetTitledFirstName] que se tambalean ligeramente y cómo est[cupbearer.Custom('ES_EA')] sirve a [cupbearer_friend.GetTitledFirstNameNoTooltip] un trago de una de mis botellas más raras.\n\n«Es una pena que [ROOT.GetCharacter.GetTitledFirstName] guarde como un dragón todo este montón de [ROOT.GetCharacter.Custom('RegionalAlcoholicDrink')]."
+ court.4600.desc:1 "Descubro a mi coper[cupbearer.Custom('ES_OA')] [cupbearer.GetTitledFirstName|l] y a [cupbearer_friend.GetTitledFirstName|l] que se tambalean ligeramente y cómo est[cupbearer.Custom('ES_EA')] sirve a [cupbearer_friend.GetTitledFirstNameNoTooltip|l] un trago de una de mis botellas más raras.\n\n«Es una pena que [ROOT.GetCharacter.GetTitledFirstName|l] guarde como un dragón todo este montón de [ROOT.GetCharacter.Custom('RegionalAlcoholicDrink')]."
  court.4600.desc_lover:0 "Eres un[cupbearer.Custom('ES_XA')] [cupbearer.Custom('LoverPetName')] delicios[cupbearer.Custom('ES_OA')], te mereces sabores tan buenos como el tuyo."
  court.4600.desc_friend:0 "«¡Cualquiera de mis amistades se merece beber como un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleAsNameNoTooltip]!»."
  court.4600.desc_ending:1 "\n\nNi pestañean cuando me ven.\n\n«¡Ah, mi [ROOT.GetCharacter.GetLadyLord]! Estamos probando preventivamente todas vuestras bebidas en busca de veneno. ¡Tras cargar mis tripas con cada trago, mañana llevaré el dolor de cabeza como una herida de combate que hubiese conseguido por luchar en vuestro honor!»."
@@ -208,8 +208,8 @@
 
 ## The Trepanning!
 
- court.4701.physician_study:0 "Me llevan al estudio de mi médic[court_physician.Custom('ES_OA')] [court_physician.GetTitledFirstName], quien [trepanner.GetTitledFirstName] sugiere que tiene talento para ayudar en esta labor. Mientras [trepanner.GetSheHe] me ata a una silla, [court_physician.GetTitledFirstNameNoTooltip] se acerca por detrás."
- court.4701.no_physician:0 "Me llevan a una habitación reservada de mi [ROOT.Char.Custom('FortifiedBuilding')]. [trepanner.GetTitledFirstNameNoTooltip] me asegura, mientras me ata a una silla, que es solo porque mi corte se angustiaría si me oyeran gritar.\n\n"
+ court.4701.physician_study:0 "Me llevan al estudio de mi médic[court_physician.Custom('ES_OA')] [court_physician.GetTitledFirstName|l], quien [trepanner.GetTitledFirstName|l] sugiere que tiene talento para ayudar en esta labor. Mientras [trepanner.GetSheHe] me ata a una silla, [court_physician.GetTitledFirstNameNoTooltip|l] se acerca por detrás."
+ court.4701.no_physician:0 "Me llevan a una habitación reservada de mi [ROOT.Char.Custom('FortifiedBuilding')]. [trepanner.GetTitledFirstNameNoTooltip|l] me asegura, mientras me ata a una silla, que es solo porque mi corte se angustiaría si me oyeran gritar.\n\n"
  court.4701.physician_excited:0 "«¡Oh, me encanta una buena trepanación!».\n\n"
  court.4701.physician_excited_2:0 "«¡Qué emocionante! ¡Un nuevo procedimiento!».\n\n"
  court.4701.physician_concerned:0 "«¡Tened cuidado con [ROOT.GetCharacter.GetSheHe]!».\n\n"
@@ -219,7 +219,7 @@
  court.4701.trepanning_witch_power:0 "No tengo miedo mientras el cincel comienza a enterrarse en mi cráneo. En medio del frotar de bálsamos en mi cerebro y la sensación de ceguera, puedo oír a [ROOT.Char.GetFaith.WitchGodName|U] reírse de este estúpido ritual.\n\n$court.4701.trepanning_no_result$"
  court.4701.trepanning_vices_operation:0 "El martillo choca contra el cráneo, pero al agarrarme a la silla $court.4701.trepanning_no_result$"
  court.4701.trepanning_headache_operation:0 "$court.4701.trepanning_no_result$ Ya no me duele la cabeza."
- court.4701.trepanning_mental_injury:0 "[trepanner.GetTitledFirstNameNoTooltip] me golpea suavemente el cráneo con un martillo, como si estuviera rompiendo un huevo pasado por agua."
+ court.4701.trepanning_mental_injury:0 "[trepanner.GetTitledFirstNameNoTooltip|l] me golpea suavemente el cráneo con un martillo, como si estuviera rompiendo un huevo pasado por agua."
  court.4701.trepanning_incapable_injury:0 "Un resplandor fluye sobre mí. Siento una ráfaga de aire y veo desfilar ante mí recuerdos de días y años pasados. ¿Dónde estoy? ¿Por qué me duele la cabeza? ¿Cómo me llamo? ¿Cuál es mi empanada favorita?"
  court.4701.trepanning_possessed_injury:0 "Aunque se me prometió que liberaría los espíritus de mi cabeza, de repente presencio un espíritu por primera vez. Una hermosa silueta alada baila de sombra en sombra en la habitación y me sonríe."
  court.4701.trepanning_deviant_injury:0 "Según se empieza a excavar el agujero, empiezo a saborear el sonido de mis entrañas aplastadas. ¡Después de darle algunas vueltas a la mente, me asaltan repentinos arrebatos de genialidad! ¡Debo vivir de noche y consumir solo cortezas de pan! ¿Por qué nunca he hecho el amor fingiendo ser un caballo?"
@@ -279,24 +279,24 @@
 
 #By Isabella Welch
  court.4800.t:0 "Abre tus alas"
- court.4800.desc:0 "«¡Haz ese ruido una vez más, buf[defenestrated_character.Custom('ES_OnOna')], y te suelto!» Cuando me encuentro con mi guardaespaldas, [defenestrating_bodyguard.GetTitledFirstName], me doy cuenta de que está acompañad[defenestrating_bodyguard.Custom('ES_OA')|U] por el trasero de [defenestrated_character.GetTitledFirstName], a quien suspende por la ventana.\n\n [defenestrating_bodyguard.GetTitledFirstNameNoTooltip] aprieta los dientes. «Se estaba burlando del serio semblante que mantengo cuando estoy de servicio. Ha seguido graznando como un ganso para intentar que perdiera la compostura. Yo digo que esto es una amenaza para vuestra seguridad».\n\nA pesar del peligro, entre vanos intentos por liberarse, [defenestrated_character.GetTitledFirstNameNoTooltip] deja escapar una risita. «#EMP Jonc#!»."
+ court.4800.desc:0 "«¡Haz ese ruido una vez más, buf[defenestrated_character.Custom('ES_OnOna')], y te suelto!» Cuando me encuentro con mi guardaespaldas, [defenestrating_bodyguard.GetTitledFirstName|l], me doy cuenta de que está acompañad[defenestrating_bodyguard.Custom('ES_OA')|U] por el trasero de [defenestrated_character.GetTitledFirstName|l], a quien suspende por la ventana.\n\n [defenestrating_bodyguard.GetTitledFirstNameNoTooltip|l] aprieta los dientes. «Se estaba burlando del serio semblante que mantengo cuando estoy de servicio. Ha seguido graznando como un ganso para intentar que perdiera la compostura. Yo digo que esto es una amenaza para vuestra seguridad».\n\nA pesar del peligro, entre vanos intentos por liberarse, [defenestrated_character.GetTitledFirstNameNoTooltip|l] deja escapar una risita. «#EMP Jonc#!»."
  court.4800.a:0 "¡A ver si los gansos vuelan!"
  court.4800.maimed_toast:0 "[defenestrated_character.GetTitledFirstName] no volador[defenestrated_character.Custom('ES_XA')]"
  court.4800.death_toast:0 "[defenestrated_character.GetTitledFirstName] murió en el vuelo"
  court.4800.b:0 "¡No exageremos! Dadle una pequeña paliza de cortesía."
- court.4800.c:0 "[defenestrated_character.GetTitledFirstNameNoTooltip] tiene razón. Un buen guardia jamás se deja provocar."
+ court.4800.c:0 "[defenestrated_character.GetTitledFirstNameNoTooltip|l] tiene razón. Un buen guardia jamás se deja provocar."
 
 #By Isabella Welch
  court.4801.t:0 "Listo para estallar"
- court.4801.desc:0 "A lo lejos veo [poopy_child.Custom('ES_AlAla')] pequeñ[poopy_child.Custom('ES_OA')] [poopy_child.GetTitledFirstName] jugar en mi salón del trono y capto un olorcillo inconfundible.\n\n«¡[ROOT.GetCharacter.Custom('GetMamaPapa')|U]! Cómo me alegro de verte!». Cuando corre a abrazarme la pierna, siento su pañal cargado espachurrarse contra la pantorrilla.\n\nCuando empieza a filtrarse por mi tobillo, me pregunto algo: ¿de verdad tenemos tan pocos sirvientes que debo ocuparme yo mism[ROOT.Char.Custom('ES_OA')] de la degradante tarea de cambiar un pañal?"
+ court.4801.desc:0 "A lo lejos veo [poopy_child.Custom('ES_AlAla')] pequeñ[poopy_child.Custom('ES_OA')] [poopy_child.GetTitledFirstName|l] jugar en mi salón del trono y capto un olorcillo inconfundible.\n\n«¡[ROOT.GetCharacter.Custom('GetMamaPapa')|U]! Cómo me alegro de verte!». Cuando corre a abrazarme la pierna, siento su pañal cargado espachurrarse contra la pantorrilla.\n\nCuando empieza a filtrarse por mi tobillo, me pregunto algo: ¿de verdad tenemos tan pocos sirvientes que debo ocuparme yo mism[ROOT.Char.Custom('ES_OA')] de la degradante tarea de cambiar un pañal?"
  court.4801.a:0 "«Ven que te coja. Vamos a limpiarte»."
  court.4801.b:0 "Prefiero perder una guerra a tocar esta guarrería."
 
 #By Isabella Welch
  court.4802.t:0 "Educación bajo presión"
- court.4802.desc:0 "Veo [court_tutor.Custom('ES_AlAla')] tutor[court_tutor.Custom('ES_XA')] de la corte, [court_tutor.GetTitledFirstName] con un tropel de sus estudiantes que [court_tutor.Custom('ES_LoLa')] rodean.\n\n«Tutor[court_tutor.Custom('ES_XA')], ¿qué es un paralelogramo?».\n\n«Tutor[court_tutor.Custom('ES_XA')], ¿qué significa "hacer el amor"?».\n\n«Tutor[court_tutor.Custom('ES_XA')], tengo que tocar la flauta fuerte, ¿o #EMP más#! fuerte?».\n\n[court_tutor.GetTitledFirstNameNoTooltip] me mira con los ojos hundidos. «Mi [ROOT.GetCharacter.GetLadyLord], ya no lo soporto más. Por favor, relevadme de mi puesto»."
+ court.4802.desc:0 "Veo [court_tutor.Custom('ES_AlAla')] tutor[court_tutor.Custom('ES_XA')] de la corte, [court_tutor.GetTitledFirstName|l] con un tropel de sus estudiantes que [court_tutor.Custom('ES_LoLa')] rodean.\n\n«Tutor[court_tutor.Custom('ES_XA')], ¿qué es un paralelogramo?».\n\n«Tutor[court_tutor.Custom('ES_XA')], ¿qué significa "hacer el amor"?».\n\n«Tutor[court_tutor.Custom('ES_XA')], tengo que tocar la flauta fuerte, ¿o #EMP más#! fuerte?».\n\n[court_tutor.GetTitledFirstNameNoTooltip|l] me mira con los ojos hundidos. «Mi [ROOT.GetCharacter.GetLadyLord], ya no lo soporto más. Por favor, relevadme de mi puesto»."
  court.4802.a:0 "¿No son un encanto?"
- court.4802.b:1 "Te compraré una trompeta, [child_2.GetTitledFirstNameNoTooltip]. ¡Eso sonará mucho #EMP más fuerte#!!"
+ court.4802.b:1 "Te compraré una trompeta, [child_2.GetTitledFirstNameNoTooltip|l]. ¡Eso sonará mucho #EMP más fuerte#!!"
  court.4802.c:0 "Entendido, empezaremos a buscar un nuevo tutor."
 
 #By Isabella Welch
@@ -305,7 +305,7 @@
  court.4803.a:0 "A mis palabras podría irles bien cierta… chispa florida."
  court.4803.b:0 "A veces me siento más poe[ROOT.GetCharacter.Custom('ES_TaTisa')] que [ROOT.GetCharacter.GetTitleAsName], no necesito ayuda."
  court.4803.c:0 "Prefiero que escribas un poema para mi amor de mi parte."
- court.4803.c.tt:0 "Enviarás la poesía a [lover.GetTitledFirstName]"
+ court.4803.c.tt:0 "Enviarás la poesía a [lover.GetTitledFirstName|l]"
  court.4803.c.intrigue.tt:1 "Con su gran habilidad de [intrigue|lE] puede que se dé cuenta de que es obra de otra pluma."
  court.4803.c.realize.tt:0 "[lover.GetFirstNameNoTooltip] descubre quién es el verdadero autor"
  court.4803.c.fooled.tt:0 "[lover.GetFirstNameNoTooltip] se siente halagad[lover.Custom('ES_OA')] por «tu» poema"
@@ -313,14 +313,14 @@
 
 #By Isabella Welch
  court.4804.t:0 "Malos compañeros de cama"
- court.4804.desc:0 "Observo que dos de mis cortesanos que comparten alojamiento se pelean, ambos con profundas ojeras.\n\n«Mi [ROOT.GetCharacter.GetLadyLord], no puedo compartir la cama con [roomate_2.GetTitledFirstName] una noche más. [roomate_2.GetSheHe|U] es un[roomate_2.Custom('ES_XA')] puerc[roomate_2.Custom('ES_OA')] acaparador[roomate_2.Custom('ES_XA')], por cómo se queda con la manta».\n\n«Pues no ha habido ni una sola noche en esta semana en la que [roomate_1.GetTitledFirstName] no haya [ROOT.Char.Custom('RandomBadRoomate')]», se estremece [roomate_2.GetFirstName]. «Os lo ruego: concedednos un mejor alojamiento. Solo sueño con una cama fría y vacía»."
+ court.4804.desc:0 "Observo que dos de mis cortesanos que comparten alojamiento se pelean, ambos con profundas ojeras.\n\n«Mi [ROOT.GetCharacter.GetLadyLord], no puedo compartir la cama con [roomate_2.GetTitledFirstName|l] una noche más. [roomate_2.GetSheHe|U] es un[roomate_2.Custom('ES_XA')] puerc[roomate_2.Custom('ES_OA')] acaparador[roomate_2.Custom('ES_XA')], por cómo se queda con la manta».\n\n«Pues no ha habido ni una sola noche en esta semana en la que [roomate_1.GetTitledFirstName|l] no haya [ROOT.Char.Custom('RandomBadRoomate')]», se estremece [roomate_2.GetFirstName]. «Os lo ruego: concedednos un mejor alojamiento. Solo sueño con una cama fría y vacía»."
  court.4804.a:0 "Pediré a los sirvientes que os encuentren nuevos compañeros de litera."
  court.4804.b:0 "Estas dependencias #EMP no #!son dignas de la corte de un[ROOT.GetCharacter.Custom('ES_XA')] [ROOT.GetCharacter.GetTitleAsNameNoTooltip]."
  court.4804.c:0 "No tenemos sitio para darle a todo el mundo un aposento propio."
 
 #By Isabella Welch
  court.4805.t:0 "Recortando esquinas"
- court.4805.desc:0 "Mi arquitect[royal_architect.Custom('ES_OA')], [royal_architect.GetTitledFirstName] arrastra un enorme saco sin dejar de sonreír. Hago una mueca de dolor al ver cómo raspa y raya el suelo de mi salón del trono.\n\n«Mi [ROOT.GetCharacter.GetLadyLord], he hecho una #EMP tremenda#! travesura, pero creo que os encantará».\n\nEspero ver una obscenidad cuando abre el saco, pero dentro no veo nada más que un trozo de roca enorme. «Es la piedra angular del/la [rival.Custom('FortifiedBuilding')] de vuestr[rival.Custom('ES_OA')] enemig[rival.Custom('ES_OA')] jurad[rival.Custom('ES_OA')], [rival.GetTitledFirstName]. ¡Adiós a su símbolo más preciado!»"
+ court.4805.desc:0 "Mi arquitect[royal_architect.Custom('ES_OA')], [royal_architect.GetTitledFirstName|l] arrastra un enorme saco sin dejar de sonreír. Hago una mueca de dolor al ver cómo raspa y raya el suelo de mi salón del trono.\n\n«Mi [ROOT.GetCharacter.GetLadyLord], he hecho una #EMP tremenda#! travesura, pero creo que os encantará».\n\nEspero ver una obscenidad cuando abre el saco, pero dentro no veo nada más que un trozo de roca enorme. «Es la piedra angular del/la [rival.Custom('FortifiedBuilding')] de vuestr[rival.Custom('ES_OA')] enemig[rival.Custom('ES_OA')] jurad[rival.Custom('ES_OA')], [rival.GetTitledFirstName|l]. ¡Adiós a su símbolo más preciado!»"
  court.4805.a:0 "¡Construyamos una pocilga con ella!"
  court.4805.b:0 "¡Quiero exhibirla con orgullo!"
  court.4805.c:0 "Lamento mi enemistad con [rival.GetSheHe]. Devuélvela."
@@ -330,7 +330,7 @@
 
  court.4806.t:0 "[ROOT.Char.GetTitleAsNameNoTooltip]filia"
  court.4806.intro:0 "Un nuevo rostro se pasea por el salón del trono, ríe de vez en cuando y da saltitos cuando encuentra una obra de arte que muestra las tradiciones de la cultura [ROOT.Char.GetCulture.GetNameNoTooltip]."
- court.4806.hre_desc:0 "\n\n«¡Me da algo! ¡[ROOT.GetCharacter.GetPrimaryTitle.GetNameNoTierNoTooltip] es lo mejor! ¡Aunque vivo en [adoring_fan_liege.GetCapitalLocation.GetTitle.GetNameNoTier], creo que nací con la cultura [ROOT.Char.GetCulture.GetName] en la sangre! Puedo enumerar a todos los príncipes-obispos. Tengo hasta un tatuaje de la cara de [ROOT.GetCharacter.GetTitledFirstNameNoTooltip] en la pantorrilla».\n\nMete la mano en su morral y saca lo que parece ser una réplica barata en bronce de la Reichskrone. «Llevo esto casi todos los días, y le digo a la gente con la que me cruzo: "¡Espero contar con vuestro voto, Príncipe elector!"»."
+ court.4806.hre_desc:0 "\n\n«¡Me da algo! ¡[ROOT.GetCharacter.GetPrimaryTitle.GetNameNoTierNoTooltip] es lo mejor! ¡Aunque vivo en [adoring_fan_liege.GetCapitalLocation.GetTitle.GetNameNoTier], creo que nací con la cultura [ROOT.Char.GetCulture.GetName] en la sangre! Puedo enumerar a todos los príncipes-obispos. Tengo hasta un tatuaje de la cara de [ROOT.GetCharacter.GetTitledFirstNameNoTooltip|l] en la pantorrilla».\n\nMete la mano en su morral y saca lo que parece ser una réplica barata en bronce de la Reichskrone. «Llevo esto casi todos los días, y le digo a la gente con la que me cruzo: "¡Espero contar con vuestro voto, Príncipe elector!"»."
  court.4806.byzantine_desc:1 "Cuando mi emocionad[adoring_fan_liege.Custom('ES_OA')] visitante se aproxima, los guardias tienen que impedir que se acerque demasiado.\n\n«¡[ROOT.Char.GetTitleAsNameNoTooltip]! Aunque soy de [adoring_fan_liege.GetCapitalLocation.GetTitle.GetNameNoTier], adoro tanto a los [ROOT.Char.GetCulture.GetCollectiveNoun] que casi me da algo».\n\n«He dedicado mi vida a intentar vivir como un[adoring_fan_liege.Custom('ES_OA')] de vosotros y me he empeñado en el estudio del [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip]».\n\n«Solo llevo ropa interior púrpura. Estoy segur[adoring_fan_liege.Custom('ES_OA')] de que si el Imperio cayera, lo sentiría mucho más que la muerte de mi propia madre: ¡el mundo nunca dejaría de oír mis lamentos!»."
  court.4806.general_desc:1 "Hay algo raro en est[adoring_fan_liege.Custom('ES_EA')] visitante, y cuando se presenta, es evidente que lleva una réplica de [ROOT.Char.Custom('signature_weapon')] que más me gusta.\n\n«No puedo evitar hacer una genuflexión ante vos: he dedicado mi vida en [adoring_fan_liege.GetCapitalLocation.GetTitle.GetNameNoTier] a apreciar la cultura de los [ROOT.Char.GetCulture.GetCollectiveNoun]. Solo hablo en [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip], como [ROOT.GetCharacter.Custom('GetExpensiveMeal')] a la manera [ROOT.Char.GetCulture.GetNameNoTooltip] y he estudiado esgrima [ROOT.Char.GetCulture.GetNameNoTooltip]».\n\n«Mi familia me ha echado de casa. Dice que si lo único que hago es obsesionarme con tal [ROOT.GetCharacter.GetPrimaryTitle.GetNameNoTooltip], mejor que me vaya a vivir allí»."
  court.4806.a:0 "Es halagador, aunque un poco invasivo."
@@ -338,5 +338,5 @@
  court.4806.c:0 "¡Alguien tan entusiasta debería unirse a nuestra corte!"
  court.4806.c.byz:0 "Por vuestro patriotismo, os permito vestir de púrpura."
  court.4806.d:0 "¡Solo un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleAsNameNoTooltip] puede vestir de púrpura! ¡Encarcelad a est[adoring_fan_liege.Custom('ES_EA')] canalla!"
- court.4806.e:0 "¡Cómo osas copiarme [ROOT.Char.Custom('signature_weapon')]! ¡Fuera con [adoring_fan.GeSheHe]!"
+ court.4806.e:0 "¡Cómo osas copiarme [ROOT.Char.Custom('signature_weapon')]! ¡Quitadle esa copia!"
 

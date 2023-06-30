@@ -12,7 +12,7 @@
  greeting_vassal_negative:1 "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]"
  greeting_vassal_relative_liked:1 "[ROOT.Char.Custom2('GreetingToFamily', second)]"
  greeting_vassal_liked:0 "Приветствую, [Select_CString(second.IsFemale, 'моя', 'мой' )] [second.Custom('ComplimentAdjective')][Select_CString(second.IsFemale, 'ая', 'ый' )] [Select_CString(second.IsFemale, 'подданная', 'вассал' )]!"
- greeting_vassal_dislike:1 "[Select_CString(second.IsFemale, 'Моя', 'Мой' )] [second.Custom('ComplimentAdjective')][Select_CString(second.IsFemale, 'ая', 'ый' )] [Select_CString(second.IsFemale, 'подданная', 'вассал' )]!"
+ greeting_vassal_dislike:1 "[Select_CString(second.IsFemale, 'Моя', 'Мой' )] [second.Custom('InsultAdjective')][Select_CString(second.IsFemale, 'ая', 'ый' )] [Select_CString(second.IsFemale, 'подданная', 'вассал' )]!"
  greeting_vassal_fallback:0 "Моему вассалу,"
 
  greeting_family_positive:1 "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]"

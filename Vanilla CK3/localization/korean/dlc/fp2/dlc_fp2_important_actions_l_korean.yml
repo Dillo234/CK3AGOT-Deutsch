@@ -11,8 +11,8 @@
  action_can_offer_assistance_unimportant:0 "@warning_icon!#X 이미 [war|E] 중입니다#!"
  action_can_offer_assistance_HELP:1 "\n\n#help [ruler|E]로서 당신 역시 침략당할 수 있다는 것을 명심하십시오. 다른 [war|E]에 참전해도 괜찮은 상황이 될 때까지 기다리는 것도 좋은 방법입니다.#!"
 
- action_can_bargain_fealty:0 "지원의 대가로 봉신 제안을 할 수 있음"
- action_can_bargain_fealty_label:0 "보호를 대가로 [recipient.GetShortUINameNoTooltip]에게 봉신 제안을 할 수 있음"
+ action_can_bargain_fealty:1 "@liege_icon! 지원의 대가로 봉신 제안을 할 수 있음"
+ action_can_bargain_fealty_label:1 "@liege_icon! 보호를 대가로 [recipient.GetShortUINameNoTooltip]에게 봉신 제안을 할 수 있음"
  action_can_bargain_fealty_combined_label:0 "[recipient.GetShortUINameNoTooltip]"
  action_can_bargain_fealty_desc:0 "[recipient.GetUIName](은)는 높은 [title_tier|E]를 가진 인근 [struggle_interloper|E] [ruler|E]로, 당신의 [war|E]에 참전하는 것을 조건으로 [recipient.GetHerHim]에게 충성 서약을 제안할 수 있습니다. $action_can_bargain_fealty_HELP$"
  action_can_bargain_fealty_click:0 "#I 클릭하여 협상하기#!"

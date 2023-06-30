@@ -18,11 +18,11 @@
 
  # Independence Faction
  independence_faction:0 "$game_concept_independence_faction$"
- independence_faction_desc:0 "独立[faction|E]的成员寻求从其[liege|E]那里获得独立。\n\n#S 最后通牒#!\n所有派系成员都将会[independent|E]\n[liege|E]将失去[prestige|E]"
+ independence_faction_desc:0 "独立[faction|E]的成员寻求从其[liege|E]那里获得独立。\n\n#S 最后通牒#!\n所有派系成员[independent|E]\n[liege|E]失去[prestige|E]"
  independence_faction_short_effect_desc:0 "希望从其[liege|E]手中获得独立"
 
  nation_fracturing_faction:1 "解体派系"
- nation_fracturing_faction_desc:0 "$nation_fracturing_faction$[faction|E]的成员寻求瓦解他们[liege|E]的领地。\n\n#S 最后通牒#!\n所有派系成员[independent|E]\n[liege|E]失去其[primary_title|E]和其他同[title_tier|E]的[titles|E]" # [LocEditor:AwaitingBatchUpdate]
+ nation_fracturing_faction_desc:1 "$nation_fracturing_faction$[faction|E]的成员寻求瓦解他们[liege|E]的领地。\n\n#S 最后通牒#!\n所有派系成员[independent|E]\n[liege|E]失去其[primary_title|E]和其他同[title_tier|E]的[titles|E]"
  nation_fracturing_faction_short_effect_desc:0 "希望瓦解他们[liege|E]的领地"
  liege_primary_title_dissolution:0 "你独立了！"
  liege_primary_title_dissolution_desc:0 "你的领主由于$nation_fracturing_faction$[faction|E]失去了[primary_title|E]"
@@ -40,7 +40,7 @@
  FACTION_DEMAND_INDEPENDENCE:0 "独立要求"
  FACTION_DEMAND_INDEPENDENCE_DESC:0 "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\n你是时候该承认[faction_leader.GetPrimaryTitle.GetNameNoTier]和[faction.GetName]其他成员的完全独立了。接受我们的要求，不然就在战场上面对我们的利剑吧！"
  FACTION_DEMAND_INDEPENDENCE_ACCEPTED:0 "独立要求被接受"
- FACTION_DEMAND_INDEPENDENCE_ACCEPTED_DESC:1 "[“[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\n你是时候承认[faction_leader.GetPrimaryTitle.GetNameNoTier]及[faction.GetName]中其他所有国家的完全独立了。接受我们的要求，不然就在战场上面对我们的利剑吧！”.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\n你错误的要求只会削弱我们所有人。尽管如此，为了避免领地遭受无谓的流血，我只能接受你的独立要求。"
+ FACTION_DEMAND_INDEPENDENCE_ACCEPTED_DESC:1 "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\n你误入歧途的诉求只会让我们所有人尽显颓势。尽管如此，为了避免领地遭受无谓的流血，我只能接受你的独立要求。"
  FACTION_DEMAND_INDEPENDENCE_REFUSED:0 "独立要求被拒绝"
  FACTION_DEMAND_INDEPENDENCE_REFUSED_DESC:0 "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\n你这可耻的敲诈企图绝不会得逞。无论你收买了多少腐败的卑鄙小人来支持你的谋划，我绝不会不战而降。我宁死也要捍卫属于我的权力！"
  FACTION_DEMAND_INDEPENDENCE_SEND_DEMAND_NOTIFICATION:0 "独立！"
@@ -149,3 +149,110 @@
  WARNING_I_AM_ALREADY_AT_WAR_WITH_TARGET:1 "@warning_icon!#X 你已经在与[faction_target.GetTitledFirstName]交战#!"
  WARNING_I_AM_AT_WAR_WITH_FACTION_LEADER:1 "@warning_icon!#X 你在与[faction_invite_from.GetTitledFirstName]交战#!"
  WARNING_INVITE_CANNOT_JOIN:0 "@warning_icon!#X [faction_invite_from.GetTitledFirstName]无法加入派系#!"
+
+# FACTION JOIN/CREATE REASONS
+ FACTION_REASON_AI_PERSONALITY:0 "\n[personality|E]：$RESULT|0+=$"
+ FACTION_REASON_DIFFICULTY_EASY:0 "简单难度：$VALUE|0+=$"
+ FACTION_REASON_DIFFICULTY_VERY_EASY:0 "非常简单难度：$VALUE|0+=$"
+ FACTION_REASON_GAME_RULE_REALM_STABILITY_LESSER:0 "低领地稳定的游戏规则：$VALUE|0+=$"
+ FACTION_REASON_GAME_RULE_REALM_STABILITY_HIGHER:0 "高领地稳定的游戏规则：$VALUE|0+=$"
+ FACTION_REASON_GAME_RULE_REALM_STABILITY_EXTREME:0 "极高领地稳定的游戏规则：$VALUE|0+=$"
+ FACTION_REASON_CAPITAL_COUNTY:0 "[liege|E]的[realm_capital|E]：$VALUE|0+=$"
+ FACTION_REASON_GLORY_LEGACY_4:0 "[GetDynastyPerk('glory_legacy_4').GetName]：$VALUE|0+=$"
+ FACTION_REASON_COUNTY_OPINION:0 "低[county_opinion|E]：$VALUE|0+=$"
+ FACTION_REASON_TARGET_FRIEND_LOVER:0 "与[liege|E]的[relation|E]：$VALUE|0+=$"
+ FACTION_REASON_POWER_HALFWAY_THRESHOLD:0 "强大的[faction_military_power|E]：$FACTOR|0%+=$"
+ FACTION_REASON_POWER_PUSHING_THRESHOLD:0 "非常强大的[faction_military_power|E]：$FACTOR|0%+=$"
+ FACTION_REASON_POWER_THRESHOLD:0 "更强的[faction_military_power|E]：$FACTOR|0%+=$"
+ FACTION_REASON_POWERFUL_VASSAL:0 "[powerful_vassal|E]：$FACTOR|0%+=$"
+ FACTION_REASON_NEIGHBORS:0 "同[faction|E]的邻居：$FACTOR|^%+=$"
+ FACTION_REASON_CULTURAL_REASONS:0 "文化原因：$VALUE|0+=$"
+
+#common_faction_modifiers
+ FACTION_REASON_GAME_START_DUCHY:0 "距游戏开始1年：$VALUE|0+=$"
+ FACTION_REASON_GAME_START_KINGDOM:0 "距游戏开始5年：$VALUE|0+=$"
+ FACTION_REASON_GAME_START_EMPIRE:0 "距游戏开始10年：$VALUE|0+=$"
+ FACTION_REASON_LIEGE_DEBT:0 "[liege|E]处于[debt|E]中：$VALUE|0+=$"
+ FACTION_REASON_PLURALISM_ASTRAY:0 "[GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName][faith|E]：$VALUE|0+=$"
+ FACTION_REASON_PLURALISM_HOSTILE:0 "[GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName][faith|E]：$VALUE|0+=$"
+ FACTION_REASON_PLURALISM_EVIL:0 "[GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName][faith|E]：$VALUE|0+=$"
+ FACTION_REASON_LEGALISM_VIRTUES:0 "[GetFaithDoctrine('tenet_legalism').GetBaseName]：[liege|E]具有[virtuous|E]：$VALUE|0+=$"
+ FACTION_REASON_LEGALISM_SINS:0 "[GetFaithDoctrine('tenet_legalism').GetBaseName]：[liege|E]具有[sinful|E]：$VALUE|0+=$"
+ FACTION_REASON_INTIMIDATED:0 "[intimidated|E]：$VALUE|0+=$"
+ FACTION_REASON_TERRIFIED:0 "[cowed|E]：$VALUE|0+=$"
+
+#independence_faction_modifiers
+ FACTION_REASON_ELECTOR:0 "[elector|E]：$VALUE|0+=$"
+ FACTION_REASON_RIGHTFUL:0 "[liege|E][de_jure|E]之外：$VALUE|0+=$"
+ FACTION_REASON_KING:0 "[kings|E]渴望独立：$VALUE|0+=$"
+ FACTION_REASON_COUNT:0 "[counts|E]希望继续作为[vassals|E]：$VALUE|0+=$"
+ FACTION_REASON_PERK_TOE_THE_LINE:0 "[GetPerk('toe_the_line_perk').GetName(GetPlayer)]：$VALUE|0+=$"
+ FACTION_REASON_INNOVATION_STEM_DUCHIES:0 "$innovation_stem_duchies$：$VALUE|0+=$"
+ FACTION_REASON_CULTURE_ACCEPTANCE:0 "低[cultural_acceptance|E]：$VALUE|0+=$"
+ FACTION_REASON_PREFER_DISSOLUTION_FACTION:0 "更喜欢$nation_fracturing_faction$：$VALUE|0+=$"
+ FACTION_REASON_NEW_VASSAL:0 "新[vassal|E]：$VALUE|0+=$"
+
+#peasant_faction_new
+ FACTION_REASON_PREFER_POPULIST_FACTION:0 "更喜欢$populist_faction$：$VALUE|0+=$"
+ FACTION_REASON_RULING_CASTE:0 "[GetCultureTradition('tradition_ruling_caste').GetName]：$VALUE|0+=$"
+ FACTION_REASON_AT_WAR_WITH_TARGET:0 "已经在反叛[liege|E]：$VALUE|0+=$"
+
+#liberty_faction_modifiers
+ FACTION_REASON_CROWN_AUTHORITY_1:0 "$crown_authority_1$：$VALUE|0+=$"
+ FACTION_REASON_CROWN_AUTHORITY_2:0 "$crown_authority_2$：$VALUE|0+=$"
+ FACTION_REASON_CROWN_AUTHORITY_3:0 "$crown_authority_3$：$VALUE|0+=$"
+
+#claimant_faction
+ FACTION_REASON_CLAIMANT_COUNTY_SHARED_CULTURE:0 "[claimant|E]有与[county|E]相同的[culture|E]：$VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_COUNTY_SHARED_HERITAGE:0 "[claimant|E]有与[county|E]相同的[heritage|E]：$VALUE|0+=$"
+ FACTION_REASON_LIKE_CLAIMANT_FAITH:0 "更喜欢[claimant|E]的[faith|E]：$VALUE|0+=$"
+ FACTION_REASON_ADULT_CLAIMANT_CHILD_RULER:0 "[claimant|E]是[adult|E]而[liege|E]只是[child|E]：$VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_KINDNESS:0 "[claimant|E][personality|E]大度：$VALUE|0+=$"
+
+#claimant_faction_modifiers
+ FACTION_REASON_CLAIMANT_GENDER:0 "[claimant|E]的性别：$VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_GENDER_VS_TARGET:0 "[liege|E]的性别：$VALUE|0+=$"
+ FACTION_REASON_POWERFUL_LIKES_CLAIMANT_MORE:0 "[powerful_vassal|E]对[claimant|E]的[opinion|E]更高：$VALUE|0+=$"
+ FACTION_REASON_LIKES_LIEGE_UNLESS_CULTURE:0 "对[liege|E]的[opinion|E]高于[claimant|E]：$VALUE|0+=$"
+ FACTION_REASON_LIKE_CLAIMANT_MORE_THAN_LIEGE:0 "对[claimant|E]的[opinion|E]更高：$VALUE|0+=$"
+ FACTION_REASON_LIKES_LIEGE:0 "对[liege|E]的[opinion|E]较高：$VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_TOO_OLD:0 "[claimant|E]年纪太大：$VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_TOO_YOUNG:0 "[claimant|E]是[child|E]：$VALUE|0+=$"
+ FACTION_REASON_CLAIMAINT_DYING:0 "[claimant|E]的[health|E]糟糕：$VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_RARE_PRODUCE_HEIR:0 "[claimant|E]不太可能生产[heir|E]：$VALUE|0+=$"
+ FACTION_REASON_INFIRM:0 "[claimant|E][GetTrait('infirm').GetName( GetNullCharacter )]：$VALUE|0+=$"
+ FACTION_REASON_MEMBER_IS_CLAIMANT:0 "我是[claimant|E]：$VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_FRIEND_LOVER:0 "与[claimant|E]的[relation|E]：$VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_SUPER_FRIEND_LOVER:0 "和[claimant|E]的[relation|E]：$VALUE|0+=$"
+ FACTION_REASON_TARGET_IS_CHILD:0 "[liege|E]是[child|E]：$VALUE|0+=$"
+ FACTION_REASON_CLAIMAINT_SAME_FAITH:0 "与[claimant|E]同[faith|E]：$VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_FAITH_ASTRAY:0 "[claimant|E]的[faith|E]是[faith_astray|E]：$VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_FAITH_HOSTILE:0 "[claimant|E]的[faith|E]是[faith_hostile|E]：$VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_FAITH_EVIL:0 "[claimant|E]的[faith|E]是[faith_evil|E]：$VALUE|0+=$"
+ FACTION_REASON_LOW_TIER_TARGET_TITLE:0 "目标[title|E]的[title_tier|E]低于[liege|E]的[primary_title|E]：$VALUE|0+=$" #
+ FACTION_REASON_CLAIMANT_IS_RIGHTFUL_LIEGE:0 "[claimant|E]是[rightful_liege|E]：$VALUE|0+=$"
+ FACTION_REASON_TITLE_DEJURE_ABOVE:0 "[primary_title|E]不是目标[title|E]的[de_jure|E]部分：$VALUE|0+=$"
+ FACTION_REASON_PREFER_INDEPENDENCE_FACTION:0 "更喜欢$independence_faction$：$VALUE|0+=$"
+ FACTION_REASON_LIEGE_IS_UNPREFERRED_HEIR:0 "$unpreferred_heir_opinion$：$VALUE|0+=$"
+ FACTION_REASON_LIEGE_IS_PREFERRED_HEIR:0 "$preferred_heir_opinion$：$VALUE|0+=$"
+ FACTION_REASON_BETTER_CROWN_AUTHORITY:0 "[claimant|E]的[crown_authority|E]更低：$VALUE|0+=$"
+ FACTION_REASON_LOWER_COURT_GRANDEUR:0 "[liege|E]低于[court_grandeur_expectations|E]：$VALUE|0+=$"
+ FACTION_REASON_BYZANTINE:0 "[GetCultureTradition('tradition_byzantine_succession').GetName]：$VALUE|0+=$"
+
+#nation_fracturing_faction_modifiers
+ FACTION_REASON_SHORT_REIGN:0 "[liege|E]获得[primary_title|E]才不久：$VALUE|0+=$"
+ FACTION_REASON_CLAIMANTS_OF_MY_CULTURE:0 "存在与我同[culture|E]的[liege|E][primary_title|E][claimants|E]：$VALUE|0+=$"
+ FACTION_REASON_CULTURAL_ACCEPTANCE:0 "[cultural_acceptance|E]：$VALUE|0+=$"
+ FACTION_REASON_TARGET_NOT_FULL_CONTROL:0 "[liege|E]没有控制其完整的[de_jure]区域：$VALUE|0+=$"
+ FACTION_REASON_RECENT_LOST_WAR:0 "[liege|E]最近输掉了[war|E]：$VALUE|0+=$"
+ FACTION_REASON_TRIBAL_CLAN:0 "[liege|E]拥有[GetGovernment( 'tribal_government' ).GetName]或[GetGovernment( 'clan_government' ).GetName][government|E]：$VALUE|0+=$"
+ FACTION_REASON_STRUGGLE_PHASE:0 "当前[struggle_phase|E]：$VALUE|0+=$"
+ FACTION_REASON_ELECTIVE_PRIMARY:0 "[liege|E]的[primary_title|E]拥有选举[succession_law|E]：$VALUE|0+=$"
+ FACTION_REASON_BYZANTINE_RELIGION:0 "与拜占庭[liege|E]同一[religion|E]：$VALUE|0+=$"
+
+#populist_faction
+ FACTION_REASON_POWER_MINIMAL:0 "弱小的[faction_military_power|E]：$FACTOR|0%+=$"
+ FACTION_REASON_FACTION_LEADER:0 "我是[faction|E]领袖：$VALUE|0+=$"
+
+ FACTION_REASON_REGENT_CULTURAL_REASONS:0 "[regent_possessive|E]的[culture|E]：$VALUE|0+=$"
+ FACTION_REASON_REGENT_FAITH_REASONS:0 "[regent_possessive|E]的[faith|E]：$VALUE|0+=$"

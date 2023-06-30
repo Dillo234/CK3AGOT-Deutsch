@@ -15,14 +15,14 @@
 
  #General learning notifications
  councillor_spouse_learning.1601.desc:1 "Ehepartner unterstützt Euch bei [ROOT.Char.Custom('LifestyleFocus')|U]-Studien"
- councillor_spouse_learning.1602.t:1 "[tutored_child.GetDaugherSon] gedeiht dank der Unterweisung des Ehepartners"
+ councillor_spouse_learning.1602.t:1 "[tutored_child.Custom('GetDaughterSon')] gedeiht dank der Unterweisung des Ehepartners"
  councillor_spouse_learning.1603.root_guardian.t:0 "Mündel akzeptiert Unterweisung des Ehepartners"
- councillor_spouse_learning.1603.spouse_guardian.t:0 "Mündel des Ehepartners akzeptiert [councillor.DE_PRO_POS_S_3P]e Unterweisung"
+ councillor_spouse_learning.1603.spouse_guardian.t:0 "Mündel des Ehepartners akzeptiert [councillor.Custom('DE_PRO_POS_S_3P')]e Unterweisung"
  councillor_spouse_learning.1603.other_guardian.t:0 "Mündel bei Hofe akzeptiert Unterweisung des Ehepartners"
 
  add_patronage_spouse_education_points_effect.t:0 "Mündel profitiert von Unterweisung des Ehepartners"
- add_patronage_spouse_education_points_effect.desc:1 "Mein[patronage_student('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('patronage_student'))] [patronage_student.GetTitledFirstName] profitiert wahrscheinlicher von einer guten [education|E] dank der Unterweisung von [councillor.GetTitledFirstName]."
- add_patronage_spouse_education_points_child_effect.desc:0 "Mein[patronage_student('DE_END_PRO_S_N')] [patronage_student.Custom('GetDaughterSon')] [patronage_student.GetTitledFirstName] profitiert wahrscheinlicher von einer guten [education|E] dank der Unterweisung von [councillor.GetTitledFirstName]."
+ add_patronage_spouse_education_points_effect.desc:1 "Mein[patronage_student.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('patronage_student'))] [patronage_student.GetTitledFirstName] profitiert wahrscheinlicher von einer guten [education|E] dank der Unterweisung von [councillor.GetTitledFirstName]."
+ add_patronage_spouse_education_points_child_effect.desc:0 "Mein[patronage_student.Custom('DE_END_PRO_S_N')] [patronage_student.Custom('GetDaughterSon')] [patronage_student.GetTitledFirstName] profitiert wahrscheinlicher von einer guten [education|E] dank der Unterweisung von [councillor.GetTitledFirstName]."
  
  #Events
  councillor_spouse_learning.2601.t:1 "Ehepartner: Weiterführende Bildung"
@@ -32,8 +32,8 @@
  councillor_spouse_learning.2601.b:0 "[tutoring_student_1.GetTitledFirstNameNoTooltip] braucht Eure Hilfe nötiger als ich."
  councillor_spouse_learning.2601.c:0 "Ihr solltet stattdessen [tutoring_student_2.GetTitledFirstNameNoTooltip] unterrichten."
  councillor_spouse_learning.2601.d:0 "Konzentriert Euch lieber auf Eure eigenen Studien."
- councillor_spouse_learning_2601_tutoring_effect.critical_success:0 "[THIS.Char.LocalPlayerString('Euer', 'Das')] Wissen [THIS.Char.LocalPlayerString('', 'von [CHARACTER.GetTitledFirstNameNoTooltip|U]')] über [THIS.Char.Custom('education_focus')] steigt enorm"
- councillor_spouse_learning_2601_tutoring_effect.success:0 "[THIS.Char.LocalPlayerString('Euer', 'Das')] Wissen [THIS.Char.LocalPlayerString('', 'von [CHARACTER.GetTitledFirstNameNoTooltip|U]')] über [THIS.Char.Custom('education_focus')] steigt"
+ councillor_spouse_learning_2601_tutoring_effect.critical_success:0 "[THIS.Char.LocalPlayerString('Euer', 'Das')] Wissen[THIS.Char.LocalPlayerString('', ' von ')][THIS.Char.LocalPlayerString('', CHARACTER.GetTitledFirstNameNoTooltip)] über [THIS.Char.Custom('education_focus')] steigt enorm"
+ councillor_spouse_learning_2601_tutoring_effect.success:0 "[THIS.Char.LocalPlayerString('Euer', 'Das')] Wissen[THIS.Char.LocalPlayerString('', ' von ')][THIS.Char.LocalPlayerString('', CHARACTER.GetTitledFirstNameNoTooltip)] über [THIS.Char.Custom('education_focus')] steigt"
  
 
  councillor_spouse_learning.2001.faith.t:1 "Ehepartner: [councillor.GetFaith.GetAdjectiveNoTooltip|U]e Dissidenten"
@@ -79,7 +79,7 @@
  councillor_spouse_learning.2603.desc:0 "Einige meiner Ratsmitglieder glauben, dass ihr Posten ihnen allein aufgrund ihres Blutes oder ihres Einflusses zusteht; wie sie sich doch irren! Ich erwarte Ergebnisse, und doch werde ich häufig enttäuscht.\n\nNach einem langen Tag beschwere ich mich gerade bei [councillor.GetFirstName], als [councillor.Custom('DE_PRO_PER_S_3P_N')] mich unterbricht. „Lasst mich in dieser Sache einschreiten, [ROOT.Char.GetWifeHusband], und ihnen ein wenig Unterricht erteilen, um ihren Geist zu schärfen.“"
  councillor_spouse_learning.2603.a:0 "[chancellor.GetCouncilTitle|U] [chancellor.GetFirstNameNoTooltip] könnte einen Tutor gebrauchen."
  councillor_spouse_learning.2603.b:0 "[marshal.GetCouncilTitle|U] [marshal.GetFirstNameNoTooltip] würde Eure Hilfe nicht schaden."
- councillor_spouse_learning.2603.c:0 "Erteilt mein[steward.Custom('DE_END_PRO_S_D')] [steward.GetCouncilTitle] [steward.GetFirstNameNoTooltip] ein wenig Unterricht."
+ councillor_spouse_learning.2603.c:0 "Erteilt meinem [steward.GetCouncilTitle] [steward.GetFirstNameNoTooltip] ein wenig Unterricht."
  councillor_spouse_learning.2603.d:0 "Vielleicht habt Ihr ja Rat für [spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip]."
  councillor_spouse_learning.2603.e:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] könnte Eure Unterweisung gebrauchen."
  councillor_spouse_learning.2603.f:0 "Bleibt doch lieber hier bei mir …"

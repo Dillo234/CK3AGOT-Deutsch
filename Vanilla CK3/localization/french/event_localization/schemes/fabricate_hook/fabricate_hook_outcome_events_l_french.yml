@@ -16,7 +16,9 @@
  fabricate_hook_outcome.1001.c:0 "Tout cela n’a été qu’une grosse erreur."
 
  fabricate_hook_outcome.1002.t:1 "$fabricate_hook_header$ une missive compromettante"
- fabricate_hook_outcome.1002.desc:0 "En arrêtant un messager de la cour [target.Custom('FR_du_Char_Pi')][target.GetTitledFirstName], une occasion s’est présentée.\n\nEn copiant le sceau [target.Custom('FR_du_Char_L')][target.GetTitleAsName], je peux fabriquer une lettre menaçant d’augmenter les impôts et la faire circuler parmi ses vassaux."
+ fabricate_hook_outcome.1002.desc:1 "En arrêtant un messager de la cour [target.Custom('FR_du_Char_Pi')][target.GetTitledFirstName], une occasion s’est présentée.\n\n"
+ fabricate_hook_outcome.1002.desc.vassals:0 "En copiant le sceau [target.Custom('FR_du_Char_L')][target.GetTitleAsName], je peux fabriquer une lettre menaçant d’augmenter les impôts et la faire circuler parmi ses vassaux."
+ fabricate_hook_outcome.1002.desc.no_vassals:0 "En copiant le sceau [target.Custom('FR_du_Char_L')][target.GetTitleAsName], je peux fabriquer une lettre menaçant d’augmenter les impôts et la faire circuler parmi ses courtisans."
  fabricate_hook_outcome.1002.a:0 "« C’est bien #EMP votre#! signature, n’est-ce pas ? »"
 
  fabricate_hook_outcome.1003.t:1 "$fabricate_hook_header$ un sauvetage risqué"

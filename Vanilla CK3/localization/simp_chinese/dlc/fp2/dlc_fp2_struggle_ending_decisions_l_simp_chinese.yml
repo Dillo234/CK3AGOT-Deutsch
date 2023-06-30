@@ -16,7 +16,7 @@
  fp2_struggle_hostility_conversion_tt:1 "在[GetGeographicalRegion('world_europe_west_iberia').GetName][region|E]执行$task_conversion$和/或$task_promote_culture$[councillor_tasks|E]的速度：#P +50%#!"
  fp2_struggle_hostility_conversion_holy_tt:0 "在[GetGeographicalRegion('world_europe_west_iberia').GetName][region|E]执行$task_conversion$[councillor_task|E]的速度：#P +50%#!"
  fp2_struggle_hostility_conversion_culture_tt:0 "在[GetGeographicalRegion('world_europe_west_iberia').GetName][region|E]执行$task_promote_culture$[councillor_task|E]的速度：#P +50%#!"
- fp2_struggle_hostility_list_tt:1 "选择以下之一或全部："
+ fp2_struggle_hostility_list_tt:1 "为你的[house|E]选择以下修正之一：\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_faith_modifier').GetNameWithTooltip|L]。此外，某些[holy_wars|E]会更容易发动。\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_culture_modifier').GetNameWithTooltip|L]。此外，某些征服[wars|E]会更容易发动。\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_combined_modifier').GetNameWithTooltip|L]。此外，某些[holy_war|E]和征服[wars|E]会更容易发动。"
  fp2_struggle_hostility_holy_cb_tt:0 "针对其他[struggle_involved|E][faiths|E]的$HOLY_WAR_DUCHY_NAME$[casus_bellis|E]：#positive_value -50%#!"
  fp2_struggle_hostility_holy_cb_joint_tt:0 "针对其他[struggle_involved|E][faiths|E]的$HOLY_WAR_DUCHY_NAME$[casus_bellis|E]：#positive_value -50%#!\n$culture_parameter_cb_lower_piety_level_requirement$"
  fp2_struggle_hostility_culture_cb_tt:0 "针对其他[struggle_involved|E][cultures|E]的$CONQUEST_DUCHY_CB_NAME$[casus_bellis|E]：#positive_value -50%#!"
@@ -77,6 +77,7 @@
  ### Common
  fp2_struggle_can_create_empire_of_hispania_tt:0 "解锁[GetTitleByKey('e_spain').GetNameNoTier][empire|E]的创建"
  fp2_struggle_compromise_destroy_hispania_tt:1 "[GetTitleByKey('e_spain').GetNameNoTier][empire|E]被永久#negative_value 摧毁#!"
+ fp2_struggle_conciliation_caravanserai_unlock_tt:0 "永久允许在[GetGeographicalRegion('world_europe_west_iberia').GetName]建造#V $building_type_caravanserai_01$#!线的[buildings|E]"
 
  CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT:0 "伊比利亚互有敌意"
  CB_COST_FP2_STRUGGLE_HOSTILITY_FAITH_DISCOUNT:0 "$CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT$"

@@ -26,20 +26,20 @@
 
 
 
- ROME_HOLDER_IS_CORRECT_FAITH:0 "Rom steht unter [CHARACTER.GetFaith.GetAdjective]er Herrschaft"
- ROME_HOLDER_IS_NOT_CORRECT_FAITH:0 "Rom steht nicht unter [CHARACTER.GetFaith.GetAdjective]er Herrschaft"
+ ROME_HOLDER_IS_CORRECT_FAITH:0 "Rom steht unter [CHARACTER.GetFaith.GetAdjective|l]er Herrschaft"
+ ROME_HOLDER_IS_NOT_CORRECT_FAITH:0 "Rom steht nicht unter [CHARACTER.GetFaith.GetAdjective|l]er Herrschaft"
 
- ALEXANDRIA_HOLDER_IS_CORRECT_FAITH:0 "Alexandria steht unter [CHARACTER.GetFaith.GetAdjective]er Herrschaft"
- ALEXANDRIA_HOLDER_IS_NOT_CORRECT_FAITH:0 "Alexandria steht nicht unter [CHARACTER.GetFaith.GetAdjective]er Herrschaft"
+ ALEXANDRIA_HOLDER_IS_CORRECT_FAITH:0 "Alexandria steht unter [CHARACTER.GetFaith.GetAdjective|l]er Herrschaft"
+ ALEXANDRIA_HOLDER_IS_NOT_CORRECT_FAITH:0 "Alexandria steht nicht unter [CHARACTER.GetFaith.GetAdjective|I]er Herrschaft"
 
- JERUSALEM_HOLDER_IS_CORRECT_FAITH:0 "Jerusalem steht unter [CHARACTER.GetFaith.GetAdjective]er Herrschaft"
- JERUSALEM_HOLDER_IS_NOT_CORRECT_FAITH:0 "Jerusalem steht nicht unter [CHARACTER.GetFaith.GetAdjective]er Herrschaft"
+ JERUSALEM_HOLDER_IS_CORRECT_FAITH:0 "Jerusalem steht unter [CHARACTER.GetFaith.GetAdjective|l]er Herrschaft"
+ JERUSALEM_HOLDER_IS_NOT_CORRECT_FAITH:0 "Jerusalem steht nicht unter [CHARACTER.GetFaith.GetAdjective|l]er Herrschaft"
 
- ANTIOCHEIA_HOLDER_IS_CORRECT_FAITH:0 "Antiocheia steht unter [CHARACTER.GetFaith.GetAdjective]er Herrschaft"
- ANTIOCHEIA_HOLDER_IS_NOT_CORRECT_FAITH:0 "Antiocheia steht nicht unter [CHARACTER.GetFaith.GetAdjective]er Herrschaft"
+ ANTIOCHEIA_HOLDER_IS_CORRECT_FAITH:0 "Antiocheia steht unter [CHARACTER.GetFaith.GetAdjective|l]er Herrschaft"
+ ANTIOCHEIA_HOLDER_IS_NOT_CORRECT_FAITH:0 "Antiocheia steht nicht unter [CHARACTER.GetFaith.GetAdjective|l]er Herrschaft"
 
- BYZANTION_HOLDER_IS_CORRECT_FAITH:0 "Konstantinopel steht unter [CHARACTER.GetFaith.GetAdjective]er Herrschaft"
- BYZANTION_HOLDER_IS_NOT_CORRECT_FAITH:0 "Konstantinopel steht nicht unter [CHARACTER.GetFaith.GetAdjective]er Herrschaft"
+ BYZANTION_HOLDER_IS_CORRECT_FAITH:0 "Konstantinopel steht unter [CHARACTER.GetFaith.GetAdjective|l]er Herrschaft"
+ BYZANTION_HOLDER_IS_NOT_CORRECT_FAITH:0 "Konstantinopel steht nicht unter [CHARACTER.GetFaith.GetAdjective|l]er Herrschaft"
 
 
  HRE_HOLDER_IS_OF_MY_DYNASTY:0 "Der Herrscher des Heiligen Römischen Reichs gehört zur [CHARACTER.GetDynastyName]-Dynastie"
@@ -64,8 +64,8 @@
  TITLE_IS_IN_REGION:0 "[PROVINCE.GetName] liegt in der Region $REGION$"
  TITLE_IS_NOT_IN_REGION:0 "[PROVINCE.GetName] liegt #bold nicht#! in der Region $REGION$"
 
- JERUSALEM_IS_SAME_FAITH:0 "Jerusalem ist [CHARACTER.GetFaith.GetAdjective]"
- JERUSALEM_IS_NOT_SAME_FAITH:0 "Jerusalem ist #bold nicht#! [CHARACTER.GetFaith.GetAdjective]"
+ JERUSALEM_IS_SAME_FAITH:0 "Jerusalem ist [CHARACTER.GetFaith.GetAdjective|l]"
+ JERUSALEM_IS_NOT_SAME_FAITH:0 "Jerusalem ist #bold nicht#! [CHARACTER.GetFaith.GetAdjective|I]"
 
  HIGH_PRIESTHOOD_ENOUGH_HOLY_SITES:1 "Ihr kontrolliert 3 oder mehr [CHARACTER.GetFaith.GetAdjective|l]e [holy_sites|E]"
  HIGH_PRIESTHOOD_NOT_ENOUGH_HOLY_SITES:1 "Ihr kontrolliert weniger als 3 [CHARACTER.GetFaith.GetAdjective|l]e [holy_sites|E]"
@@ -82,7 +82,7 @@
  HAS_ORDER_OF_SUCCESSION_TRIGGER:0 "Hat Nachfolgeordnung"
  HAS_TITLE_LAW_FLAG_TRIGGER:0 "Hat Titelgesetz: $LAW$"
  IS_TITULAR_TRIGGER:0 "Ist [titular_title|E]"
- FORM_GERMANIA_CHRISTIAN_TRIGGER:0 "Als [CHARACTER.GetFaith.GetAdjective]er Herrscher könnt Ihr stattdessen das $e_hre$ neu gründen"
+ FORM_GERMANIA_CHRISTIAN_TRIGGER:0 "Als [CHARACTER.GetFaith.GetAdjective|l]er Herrscher könnt Ihr stattdessen das $e_hre$ neu gründen"
  FORM_HISPANIA_MUST_END_STRUGGLE_TRIGGER:0 "$e_spain$ kann nicht gebildet werden, bis das [Concept('iberian_struggle', 'Iberische Ringen')] abgeschlossen ist"
  TITLE_HELD_YEARS:0 "$TITLE$ wurde $VALUE|V0$ Jahre gehalten"
  TITLE_NOT_HELD_YEARS:0 "$TITLE$ wurde #bold NICHT#! $VALUE|V0$ Jahre gehalten"

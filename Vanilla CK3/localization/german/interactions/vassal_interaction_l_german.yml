@@ -5,7 +5,7 @@
  actor_secondary_grant_vassal_interaction:0 "[vassal|E]"
  GRANT_VASSAL_SELECT_VASSAL_TO_TRANSFER:0 "[Concept('vassal', 'Vasallen')|E] zum Übertragen auswählen"
  retract_vassal_interaction:0 "Vasallen entziehen"
- retract_vassal_interaction_desc:0 "Macht einen der [vassals|E] von [recipient.GetShortUINameNoTooltip] zu Eurem [Concept('direct_vassal', 'Direkten Vasallen')|E]"
+ retract_vassal_interaction_desc:0 "Macht einen der [vassals|E] von [recipient.GetShortUINameNoTooltip] zu Eurem [Concept('direct_vassal', 'direkten Vasallen')|E]"
  retract_vassal_interaction_extra_icon:0 "$hook_extra_icon$"
  recipient_secondary_retract_vassal_interaction:0 "[vassal|E]"
  RETRACT_VASSAL_SELECT_VASSAL_TO_RETRACT:0 "[Concept('vassal', 'Vasallen')|E] zum Nehmen auswählen"
@@ -42,8 +42,8 @@
  force_onto_council:0 "Ratsposten verlangen"
  force_onto_council_desc:0 "Ein [hook|E] einsetzen, um [recipient.GetShortUINameNoTooltip] zu zwingen, Euch einen [Concept('council', 'Rats')|E]-Posten Eurer Wahl zu geben"
  force_onto_council_extra_icon:1 "@weak_hook_icon!Verfügbar, weil Ihr ein [hook|E] habt"
- force_onto_council.notification.strong_hook:0 "Ich habe entschieden, dass es in Eurem besten Interesse wäre, mich als treuen [COUNCIL_TASK.GetPositionName] zu haben.\n\nIhr #EMP wisst#!, was Euch blüht, wenn Ihr ablehnt."
- force_onto_council.notification.fallback:0 "Laut unserer Vereinbarung habe ich von nun an vor, als Euer [COUNCIL_TASK.GetPositionName] zu wirken.\n\nNatürlich wird damit Eure Schuld mir gegenüber beglichen."
+ force_onto_council.notification.strong_hook:0 "Ich habe entschieden, dass es in Eurem besten Interesse wäre, mich als treuen [council_task.GetPositionName] zu haben.\n\nIhr #EMP wisst#!, was Euch blüht, wenn Ihr ablehnt."
+ force_onto_council.notification.fallback:0 "Laut unserer Vereinbarung habe ich von nun an vor, als Euer [council_task.GetPositionName] zu wirken.\n\nNatürlich wird damit Eure Schuld mir gegenüber beglichen."
  force_onto_council.desc.tt:0 "[Select_CString(actor.IsLocalPlayer,'Ihr',actor.GetShortUIName)] [Select_CString(actor.IsLocalPlayer,'seid','ist')] nun [councillor|E]"
  force_onto_council.recipient.tt:0 "[actor.GetShortUIName] ist Euer [council_task.GetPositionName] geworden"
  force_onto_council.recipient.tt.duration:2 "[actor.Custom('DE_PRO_PER_S_3P_N')|U] kann [SCOPE.ScriptValue('council_position_locked_value')|0] Jahre nicht entlassen werden"
@@ -59,9 +59,9 @@
  ask_for_pardon_interaction_accept_decline:0 "[recipient.GetShortUIName|U] hat Euer Ersuchen um Begnadigung abgelehnt"
 
  vassal_claim_liege_title_interaction:0 "Lehnsherrentitel beanspruchen"
- vassal_claim_liege_title_interaction_desc:0 "Wenn Ihr den Großteil der [counties|E] #weak (51 %)#! kontrolliert, die [de_jure|E] zu einem [title|E] eines Eurer [lieges|E] gehören, könnt Ihr [prestige|E] einsetzen, um einen [Concept('unpressed_claim', 'Fallengelassenen Anspruch')|E] darauf zu erhalten!"
- HAS_51_PERCENT_OF_A_DE_JURE_TITLE:0 "Wenn Ihr den Großteil der [counties|E] #weak (51 %)#! eines [Concept('title','Titels')|E] eines Eurer [lieges|E] kontrolliert, könnt Ihr [prestige|E] einsetzen, um einen [Concept('unpressed_claim','Fallengelassenen Anspruch')|E] darauf zu erhalten!"
- NOT_HAS_51_PERCENT_OF_A_DE_JURE_TITLE:0 "Ihr kontrolliert nicht mindestens #V 51 %#! aller [counties|E], aus denen das [de_jure|E] dieses [Concept('title','Titels')|E] besteht."
+ vassal_claim_liege_title_interaction_desc:0 "Wenn Ihr den Großteil der [counties|E] #weak (51 %)#! kontrolliert, die [de_jure|E] zu einem [title|E] eines Eurer [lieges|E] gehören, könnt Ihr [prestige|E] einsetzen, um einen [Concept('unpressed_claim', 'fallengelassenen Anspruch')|E] darauf zu erhalten!"
+ HAS_51_PERCENT_OF_A_DE_JURE_TITLE:0 "Wenn Ihr den Großteil der [counties|E] #weak (51 %)#! eines [Concept('title','Titels')|E] eines Eurer [lieges|E] kontrolliert, könnt Ihr [prestige|E] einsetzen, um einen [Concept('unpressed_claim','fallengelassenen Anspruch')|E] darauf zu erhalten!"
+ NOT_HAS_51_PERCENT_OF_A_DE_JURE_TITLE:0 "Ihr kontrolliert nicht mindestens #V 51 %#! aller [counties|E], aus denen das [de_jure|EU] dieses [Concept('title','Titels')|E] besteht."
  higher_prestige_level_than_liege:0 "Höhere [prestige_level|E] als [liege|E]"
  lower_prestige_level_than_liege:0 "Niedrigere [prestige_level|E] als [liege|E]"
 
@@ -71,7 +71,7 @@
  ASK_FOR_PARDON_NOTIFICATION:0 "Ich bitte Euch demütig darum, mich für meine Verbrechen zu begnadigen."
  
  pardon_interaction:0 "Begnadigung gewähren"
- pardon_interaction_desc:1 "Ihr betrachtet [recipient.GetName] als [criminal|E] ([recipient.GetImprisonmentReasons(actor.Self)]), was es Euch erlaubt, [recipient.Custom('DE_PRO_PER_S_3P_A')] jederzeit [Concept('imprison', 'Einzukerkern')|E]), ohne [tyranny|E] hinzuzugewinnen.\n\nFalls Ihr es vorzieht, dass [recipient.Custom('DE_PRO_PER_S_3P_N')] auf freiem Fuß bleibt, könnt Ihr Euch dafür entscheiden, [recipient.Custom('DE_PRO_PER_S_3P_A')] zu begnadigen. Dies wird sämtliche Gründe für eine [Concept('imprisonment', 'Einkerkerung')|E] durch Euch aufheben und [recipient.Custom('DE_PRO_POS_S_3P')]e [opinion|E] von Euch verbessern."
+ pardon_interaction_desc:1 "Ihr betrachtet [recipient.GetName] als [criminal|E] ([recipient.GetImprisonmentReasons(actor.Self)]), was es Euch erlaubt, [recipient.Custom('DE_PRO_PER_S_3P_A')] jederzeit [Concept('imprison', 'einzukerkern')|E]), ohne [tyranny|E] hinzuzugewinnen.\n\nFalls Ihr es vorzieht, dass [recipient.Custom('DE_PRO_PER_S_3P_N')] auf freiem Fuß bleibt, könnt Ihr Euch dafür entscheiden, [recipient.Custom('DE_PRO_PER_S_3P_A')] zu begnadigen. Dies wird sämtliche Gründe für eine [Concept('imprisonment', 'Einkerkerung')|E] durch Euch aufheben und [recipient.Custom('DE_PRO_POS_S_3P')]e [opinion|E] von Euch verbessern."
  pardon_interaction_toast:0 "[actor.Custom('DE_PRO_POS_P_2P_N')|U] wohlmeinend[actor.Custom('DE_END_ADJ_IND_S_N')] Lehnsherr[actor.Custom('DE_END_NOU_S_GS_N')] [actor.GetFirstName] hat Euch für Eure Verbrechen begnadigt!"
 
  county_must_have_city_tt:0 "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip] muss eine [city|E] beinhalten oder eine [Concept('development', 'Entwicklungs-')|E] Stufe von über 20 haben."

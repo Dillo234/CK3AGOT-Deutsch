@@ -50,7 +50,7 @@
  culture_filter:0 "Культура"
  same_heritage_filter_option_desc:2 "Только персонажи, чья [religion|El] совпадает с вашей"
  same_heritage_filter_option:2 "[GetPlayer.GetCulture.GetHeritage.GetNameNoTooltip]ое наследие"
- not_same_heritage_filter_option_desc:3 "Только персонажи, [Concept( 'culture_group', 'культурные группы' )|E] которых не совпадают с вашей"
+ not_same_heritage_filter_option_desc:3 "Только персонажи, [Concept( 'heritage', 'наследия' )|E] которых не совпадают с вашим"
  not_same_heritage_filter_option:1 "Не [GetPlayer.GetCulture.GetHeritage.GetNameNoTooltip|l]ое наследие"
  same_culture_filter_option_desc:0 "Только персонажи, чья [culture|El] совпадает с вашей"
  same_culture_filter_option:0 "[GetPlayer.GetCulture.GetNameNoTooltip]"
@@ -174,6 +174,7 @@
  has_any_inventory_artifact_filter_option_desc:0 "Только персонажи, обладающие хотя бы одним [Concept( 'inventory_artifact', 'личным артефактом' )|E]"
  has_no_artifact_filter_option:0 "Нет артефактов"
  has_no_artifact_filter_option_desc:0 "Только персонажи, которым не принадлежат никакие [artifacts|El]"
+ vassal_stance_filter:0 "Взгляды вассала"
 
  CHARACTER_LIST_TEXT_FILTER_TOOLTIP:0 "#T Текстовый поиск\n#!Начните набирать имя, дом, династию, свойство, культуру или конфессию персонажа"
  CHARACTER_LIST_TEXT_FILTER_TITLE:0 "Сравнение"

@@ -30,7 +30,7 @@
  bp1_yearly.0100.b.tt_crit_failure:0 "Te pillan en tu intrusión"
 
  bp1_yearly.0100.c:0 "¿Por qué reñir con [befriend.GetFirstNameNoTooltip]?…"
- bp1_yearly.0100.c.tt:0 "Por [befriend.GetTitledFirstName], intentas estar de buen humor"
+ bp1_yearly.0100.c.tt:0 "Por [befriend.GetTitledFirstName|l], intentas estar de buen humor"
  bp1_yearly.0100.c.tt_success:0 "Te unes estrechamente con [befriend.Custom('ES_ElLa')] [host.Custom2('RelationToMeShort', SCOPE.sC('befriend'))] de tu enemigo"
  bp1_yearly.0100.c.tt_failure:0 "Se aprecia tu encanto"
  bp1_yearly.0100.c.tt_crit_failure:0 "Compartís una horrible noche de discusión"
@@ -55,7 +55,7 @@
  bp1_yearly.0100.f.very_sick:0 "Puedes contraer [GetTrait('pneumonic').GetName( GetNullCharacter )|l]"
 
  bp1_yearly.0101.t:0 "Tempestad en la naturaleza"
- bp1_yearly.0101.desc:0 "En voz baja, doy gracias a [ROOT.Char.GetFaith.FertilityGodName] por mantener [host.Custom('ES_AlAla')] repugnante [lover.Custom2('RelationToMeShort', SCOPE.sC('host'))] de [lover.GetTitledFirstName] lejos de este humilde lugar.\n\nCuando la tormenta guerrea con los cielos, su furia resuena a nuestro alrededor,"
+ bp1_yearly.0101.desc:0 "En voz baja, doy gracias a [ROOT.Char.GetFaith.FertilityGodName] por mantener [host.Custom('ES_AlAla')] repugnante [lover.Custom2('RelationToMeShort', SCOPE.sC('host'))] de [lover.GetTitledFirstName|l] lejos de este humilde lugar.\n\nCuando la tormenta guerrea con los cielos, su furia resuena a nuestro alrededor,"
 
  bp1_yearly.0101.gentle_flirt:0 "[lover.GetFirstNameNoTooltip] se estremece más cerca cada momento. ¿Es este miedo solo teatro? Algo se agita en su mirada, justo detrás de su sonrisa formal. Sus ojos me dicen… sí."
  bp1_yearly.0101.protective_flirt:0 "[lover.GetFirstNameNoTooltip] actúa con confianza, protector[lover.Custom('ES_XA')]. Le sonrío agradecid[GetPlayer.Custom('ES_OA')] —atentamente— y pronto… [lover.GetSheHe] cae en un silencio embelesado. [lover.GetSheHe|U] es mí[lover.Custom('ES_OA')]."
@@ -73,8 +73,8 @@
 
  bp1_yearly.0102.uneventful_night:0 "\n\nMe dicen que habéis sobresalido en el arte de ser un pordiosero sin encanto, entrometido y recubierto de estiércol."
  bp1_yearly.0102.failed_snoop:0 "\n\nVuestros derechos como señor tienen límites. Me he asegurado de que todos sepan cuánto los despreciáis."
- bp1_yearly.0102.warm_welcome:0 "\n\nOjalá hubiera estado presente para echaros. [befriend.GetTitledFirstName] siempre ha tenido un gusto horroroso."
- bp1_yearly.0102.cold_welcome:0 "\n\nTu anfitri[befriend.Custom('ES_OnOna')] [befriend.GetTitledFirstName] ha aprendido a odiarte igual que yo. Mi corazón rebosa de alegría."
+ bp1_yearly.0102.warm_welcome:0 "\n\nOjalá hubiera estado presente para echaros. [befriend.GetTitledFirstName|l] siempre ha tenido un gusto horroroso."
+ bp1_yearly.0102.cold_welcome:0 "\n\nTu anfitri[befriend.Custom('ES_OnOna')] [befriend.GetTitledFirstName|l] ha aprendido a odiarte igual que yo. Mi corazón rebosa de alegría."
  bp1_yearly.0102.erotic_welcome:0 "\n\nDe haber estado presente, os habría echado con la primera palabra que mascullasteis a mi [host.Custom2('RelationToMeShort', SCOPE.sC('lover'))], vil serpiente."
  bp1_yearly.0102.attack_success:0 "\n\nAtacasteis a mis hombres como un animal espantado. Atacasteis sin honor ni cortesía, como es vuestra costumbre."
  bp1_yearly.0102.attack_fail:0 "\n\n¿No? Ah, ya. #EMP Intentasteis#! asaltarnos, pero os rechazaron de vuelta a los bosques, como la bestia que sois. Vuestros intentos fueron patéticos."

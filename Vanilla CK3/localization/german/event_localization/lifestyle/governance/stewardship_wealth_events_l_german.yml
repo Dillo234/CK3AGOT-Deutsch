@@ -14,7 +14,7 @@
  stewardship_wealth.1001.b.givehook:0 "Ich werde [wealthy_vassal.GetTitledFirstNameNoTooltip] einen Gefallen schulden, wenn [wealthy_vassal.Custom('DE_PRO_PER_S_3P_N')] mir hilft."
  stewardship_wealth.1001.c:0 "Ich fordere Tribut von meinen Vasallen!"
  stewardship_wealth.1001.c.tt:0 "Jeder Vasall:"
- stewardship_wealth.1001.d:0 "Ich konfisziere Kircheneigentum, um an Geld zu kommen."
+ stewardship_wealth.1001.d:1 "Konfisziert klerikale Eigentümer, um für mehr Mittel zu sorgen."
  stewardship_wealth.1001.e:0 "Ich werde meinen Gürtel enger schnallen und sparen, wo ich kann."
  
  # Minting New Coins, bu Stephen Arthur and Sean Hughes
@@ -40,7 +40,7 @@
 
  # War Profiteering, by Isabella Welch
  stewardship_wealth.1022.t:0 "Heiliges Plündern"
- stewardship_wealth.1022.desc:0 "Mein [GetPlayer.Custom('KnightCultureNoTooltip')] [church_burner.GetName] tritt mit einem freudigen Bericht von [church_burner.Custom('DE_PRO_POS_S_3P')]em Gefolge an mich heran:\n\n„Mein[ROOT.CharCustom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord], nach Eurer klugen Entscheidung, uns die Finanzierung des Krieges zu überlassen, konnten wir die fruchtbarsten Plünderungen in [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier] durchführen, die es jemals gab! Wir haben Dutzende von Schafen zusammengetrieben, Hunderte von Schmuckstücken erbeutet und sogar ein Gotteshaus mit mehr als tausend Menschen darin niedergebrannt!“"
+ stewardship_wealth.1022.desc:0 "Mein [GetPlayer.Custom('KnightCultureNoTooltip')] [church_burner.GetName] tritt mit einem freudigen Bericht von [church_burner.Custom('DE_PRO_POS_S_3P')]em Gefolge an mich heran:\n\n„Mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord], nach Eurer klugen Entscheidung, uns die Finanzierung des Krieges zu überlassen, konnten wir die fruchtbarsten Plünderungen in [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier] durchführen, die es jemals gab! Wir haben Dutzende von Schafen zusammengetrieben, Hunderte von Schmuckstücken erbeutet und sogar ein Gotteshaus mit mehr als tausend Menschen darin niedergebrannt!“"
  stewardship_wealth.1022.a:0 "Unsere Schatzkammer brauchte diesen Geldregen … Nur tut das nicht wieder."
  stewardship_wealth.1022.b:0 "Ich will doch nicht als Schlächter gesehen werden! Wir werden das für Entschädigungen verwenden."
  stewardship_wealth.1022.c:0 "Gute Arbeit! Wir werden so weitermachen, wie wir wollen."
@@ -124,13 +124,24 @@
 
 # Beyond Boundaries by Jason Cantalini
  stewardship_wealth.7001.t:0 "Überschrittene Grenzen"
- stewardship_wealth.7001.desc:0 "Verdammt sollen [thieving_rival.GetTitledFirstName] und [thieving_rival.Custom('DE_PRO_POS_S_3P')]e diebischen Lakaien sein! Mein [messenger.GetCouncilTitle] bringt stammelnd die Kunde hervor, dass diese Schläger das gemeine Volk von [ROOT.Char.GetCapitalLocation.GetName] mit unverfrorener Dreistigkeit dazu brachten, einen Reichtum herzugeben, der eigentlich für mich bestimmt gewesen wäre!\n\n[messenger.GetTitledFirstName] hat seine Leute schon auf Abruf, damit sie unsere üblichen Abgaben eintreiben … doch ich sehe schon die weinenden Witwen, die darbenden Kinder und die armen Familien, die aus ihren Häusern ausziehen müssen.\n\nTausend Flüche auf die gierige Seele von [thieving_rival.GetTitledFirstNameNoTooltip]!"
-
- stewardship_wealth.7001.justification:0 "[thieving_rival.Custom('DE_PRO_PER_S_3P_N')|U] verbreitet fadenscheinige Lügen über [thieving_rival.('DE_PRO_POS_S_3P')]e Rechte als [Select_CString(thieiving_rival.IsFemale, 'meine Lehnsherrin', 'mein Lehnsherr')], doch ich weiß, [thieving_rival.Custom('DE_PRO_PER_S_3P_N')]' hat sich etwas genommen, was mir gehört …"
- stewardship_wealth.7001.unleashed_knights:0 "[thieving_rival.Custom('DE_PRO_PER_S_3P_N')|U] und [thieving_rival.('DE_PRO_POS_S_3P')]e Gefolgsleute, diese widerwärtigen Räuber, werden von Tag zu Tag berüchtigter …"
+ stewardship_wealth.7001.desc:1 "Verdammt sollen [thieving_rival.GetTitledFirstName] und [thieving_rival.Custom('DE_PRO_POS_S_3P')]e diebischen Lakaien sein! Mein[messenger.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('messenger'))] [messenger.GetTitledFirstName] bringt stammelnd die Kunde hervor, dass diese Schläger das gemeine Volk von [ROOT.Char.GetCapitalLocation.GetName] mit unverfrorener Dreistigkeit dazu brachten, einen Reichtum herzugeben, der eigentlich für mich bestimmt gewesen wäre!\n\n[messenger.GetFirstNameNoTooltip] hat seine Leute schon auf Abruf, damit sie unsere üblichen Abgaben eintreiben … doch ich sehe schon die weinenden Witwen, die darbenden Kinder und die armen Familien, die aus ihren Häusern ausziehen müssen.\n\nTausend Flüche auf die gierige Seele von [thieving_rival.GetTitledFirstNameNoTooltip]!"
+ stewardship_wealth.7001.tt.crime_alert:0 "[victim.GetTitledFirstName] wird sich daran erinnern, wenn die Zeit gekommen ist"
+ stewardship_wealth.7001.justification:0 "[thieving_rival.Custom('DE_PRO_PER_S_3P_N')|U] verbreitet fadenscheinige Lügen über [thieving_rival.Custom('DE_PRO_POS_S_3P')]e Rechte als [Select_CString(thieving_rival.IsFemale, 'meine Lehnsherrin', 'mein Lehnsherr')], doch ich weiß, [thieving_rival.Custom('DE_PRO_PER_S_3P_N')]' hat sich etwas genommen, was mir gehört …"
+ stewardship_wealth.7001.unleashed_knights:0 "[thieving_rival.Custom('DE_PRO_PER_S_3P_N')|U] und [thieving_rival.Custom('DE_PRO_POS_S_3P')]e Gefolgsleute, diese widerwärtigen Räuber, werden von Tag zu Tag berüchtigter …"
 
  stewardship_wealth.7001.a:0 "Ich stehe zu meinem Recht, bezahlt zu werden."
  stewardship_wealth.7001.a.tt:0 "Schickt Eure Eintreiber in die Dörfer!"
  stewardship_wealth.7001.b:0 "Meine persönlichen Fehden sind nicht die meines Volkes."
  stewardship_wealth.7001.b.tt:0 "Nehmt die Opfer von [thieving_rival.GetFirstNameNoTooltip] von der Besteuerung aus"
 
+ stewardship_wealth.2000.t:0 "Eine gewichtige Gelegenheit"
+ stewardship_wealth.2000.desc:0 "Ich schlendere mit meinem Ratsverwalter durch die Straßen von [loc_capital_county.GetNameNoTier] und suche nach Möglichkeiten, die etwas leere Schatzkammer aufzubessern. Als wir die Wiegehallen des Markts erreichen, beginnt [loc_steward.GetFirstName] mit gedämpfter Stimme zu sprechen:\n\n„Wir könnten im Geheimen mehr Einnahmen bekommen, wenn wir … etwas #EMP einfallsreicher#!mit den Steuern auf die hierher gebrachten Waren werden. Ich kann einen anderen Satz von Wiegesteinen arrangieren, mit leicht verändertem Gewicht, doch sie werden gleich aussehen. Dann werden uns die Händler für dieselbe Ware mehr bezahlen! Niemand wird Verdacht schöpfen!\n\nWenn ihr wollt, können wir die Gewichte ändern und zusehen, wie das Geld in Eure Kassen fließt!“"
+ stewardship_wealth.2000.a:0 "Wir werden die Steine heute Abend austauschen."
+ stewardship_wealth.2000.a.tt.success:0 "Die Steine werden ausgetauscht, ohne dass es jemand merkt"
+ stewardship_wealth.2000.a.tt.failure:0 "Euer Komplott wurde entdeckt"
+ stewardship_wealth.2000.b:0 "Es werden wirklich bessere Gewichte benötigt."
+ stewardship_wealth.2000.b.tt:0 "Auch wenn es schwierig ist, eine Lösung zu finden, die sowohl Euren Kassen als auch den Bedürfnissen der Händler zugutekommt, ist es nicht unmöglich."
+ stewardship_wealth.2000.b.tt.success:0 "Ihr führt das neue Gewichtungssystem erfolgreich ein"
+ stewardship_wealth.2000.b.tt.failure:0 "Das neue Gewichtungssystem ist alles andere als ideal"
+ stewardship_wealth.2000.c:0 "Ich nehme mir, was mir gehört! Auf die altmodische Art und Weise!"
+ stewardship_wealth.2000.c.tt:0 "Ihr zwingt die örtlichen Händler, mehr für das Privileg zu zahlen, ihre Waren durch diese Grafschaft zu bringen."

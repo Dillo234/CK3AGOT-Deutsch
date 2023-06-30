@@ -4,7 +4,7 @@
  DIVERGE_CULTURE_WINDOW_TITLE:0 "Отделиться от [Culture.GetCollectiveNounNoTooltip|l]ой культуры"
  DIVERGENCE_TOTAL_COST:0 "Цена: [DivergenceWindow.GetDivergeCostString]"
  DIVERGENCE_COST_TOOLTIP:0 "#T Стоимость отделения: [DivergenceWindow.GetDivergeCostString]#!\n[DivergenceWindow.GetDivergeCostBreakdown]"
- DIVERGE_CULTURE_NAME:0 "[Select_CString( StringIsEmpty( DivergenceWindow.GetNewCultureName ), 'Выберите название', '' )] [DivergenceWindow.GetNewCultureName][Select_CString( StringIsEmpty( DivergenceWindow.GetNewCultureName ), '', 'ая' )]"
+ DIVERGE_CULTURE_NAME:0 "[Select_CString( StringIsEmpty( DivergenceWindow.GetNewCultureName ), 'Выберите название', '' )] [DivergenceWindow.GetNewCultureName]"
  CULTURE_DIVERGENCE_COOLDOWN:0 "#weak Отделить культуру можно лишь раз в жизни. От [Concept( 'divergent_culture', 'отделившейся культуры' )|E] нельзя отделить новую культуру, пока не пройдет [EmptyScope.ScriptValue('culture_divergence_cooldown')|0] лет.#!"
  CULTURE_CREATION_DIVERGENCE_ACCEPTANCE_TEXT:0 "Терпимость к #L [GetPlayer.GetCulture.GetCollectiveNoun|l]ому#! народу будет 100%"
  CULTURE_AESTHETICS_DIVERGE_TOOLTIP:0 "#T [CultureAesthetics.GetName]ая эстетика#!\n[CultureAesthetics.GetDesc]"

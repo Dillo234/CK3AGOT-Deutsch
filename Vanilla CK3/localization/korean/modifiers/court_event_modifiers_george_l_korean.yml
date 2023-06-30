@@ -48,13 +48,13 @@
  practicing_with_palfrey:0 "승용마 연습"
  practicing_with_palfrey_desc:0 "해당 인물은 승마에 재능을 타고나진 않았지만, 안정적인 말을 타고 꾸준히 연습하여 실력을 길렀습니다."
 ## Court Event 7620
- peregrine_falcon:0 "송골매의 주인"
- peregrine_falcon_desc:1 "해당 인물은 사냥과 자랑 용도로 이용되는 값비싼 송골매를 갖고 있습니다.\n\n[hunt|E] [activity|E]에 소모되는 [gold|E] 비용이 약간 감소합니다"
+ peregrine_falcon:1 "사낭용 맹금"
+ peregrine_falcon_desc:3 "해당 인물은 사냥과 자랑 용도로 이용되는 값비싼 매 또는 수리를 갖고 있습니다.\n#weak $hunt_type_falconry$ [hunt_success_chance|E]이 향상됩니다.#!"
 ## Court Event 7630
  master_of_horse_cavalry_bonus:0 "의욕적인 $master_of_horse_court_position$"
- master_of_horse_cavalry_bonus_desc:0 "해당 인물의 $master_of_horse_court_position$은 말을 관리하는 방법을 가르치는 고된 업무에 공을 들일 만한 이유가 있습니다."
+ master_of_horse_cavalry_bonus_desc:1 "해당 인물의 [GetCourtPositionType('master_of_horse_court_position').GetName()]은 말을 관리하는 방법을 가르치는 고된 업무에 공을 들일 만한 이유가 있습니다."
  master_of_hunt_activity_bonus:0 "의욕적인 $master_of_hunt_court_position$"
- master_of_hunt_activity_bonus_desc:0 "해당 인물의 $master_of_hunt_court_position$는 지원과 신의에 대한 보답으로 모든 사냥 일정에 더욱더 공을 들이고 있습니다.\n\n[hunt|E] [activity|E]에 소모되는 [gold|E] 비용이 약간 감소합니다."
+ master_of_hunt_activity_bonus_desc:1 "해당 인물의 [GetCourtPositionType('master_of_hunt_court_position').GetName()]는 지원과 신의에 대한 보답으로 모든 사냥 일정에 더욱더 공을 들이고 있습니다.\n\n[GetActivityType('activity_hunt').GetName] [activity|E]에 소모되는 [gold|E] 비용이 약간 감소합니다."
 ## Court Event 7700
  honorable_ruler:0 "명예로운 영주"
  honorable_ruler_desc:0 "해당 인물은 굳이 그럴 필요가 없음에도 왕도를 택했습니다."

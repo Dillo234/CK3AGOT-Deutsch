@@ -14,7 +14,7 @@
  stewardship_wealth.1001.b.givehook:0 "[wealthy_vassal.GetTitledFirstNameNoTooltip]의 도움을 받으면 호의를 빚지게 돼."
  stewardship_wealth.1001.c:0 "봉신에게 조공을 요구하면 되겠군!"
  stewardship_wealth.1001.c.tt:0 "모든 봉신:"
- stewardship_wealth.1001.d:0 "교회 재산을 몰수해서 자금을 마련하자."
+ stewardship_wealth.1001.d:1 "종교 재산을 몰수해서 자금을 마련하자."
  stewardship_wealth.1001.e:0 "허리띠를 조이고 최대한 절약하는 수밖에."
  
  # Minting New Coins, bu Stephen Arthur and Sean Hughes
@@ -40,7 +40,7 @@
 
  # War Profiteering, by Isabella Welch
  stewardship_wealth.1022.t:0 "성스러운 전리품"
- stewardship_wealth.1022.desc:0 "나의 [GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )] [church_burner.GetName](이)가 다가와서는 자신의 수행원들에게 전해 들은 보고를 흥겹게 읊어대기 시작했다.\n\n"이전에 영주님께서 혜안을 발휘하여 소신들에게 군자금 조달을 맡기셨지요. 그 이후로 [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier] 역사상 전례 없는 신실한 약탈을 이뤄냈습니다! 수십 마리의 양을 압수하고 수백 개의 패물을 빼앗았으며, 심지어 [ROOT.Char.GetFaith.HouseOfWorship]에 천 명의 사람을 몰아놓고 산 채로 불태워 버렸습니다!""
+ stewardship_wealth.1022.desc:0 "나의 [GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )] [church_burner.GetName](이)가 다가와서는 자신의 종사들에게 전해 들은 보고를 흥겹게 읊어대기 시작했다.\n\n"이전에 영주님께서 혜안을 발휘하여 소신들에게 군자금 조달을 맡기셨지요. 그 이후로 [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier] 역사상 전례 없는 신실한 약탈을 이뤄냈습니다! 수십 마리의 양을 압수하고 수백 개의 패물을 빼앗았으며, 심지어 [ROOT.Char.GetFaith.HouseOfWorship]에 천 명의 사람을 몰아놓고 산 채로 불태워 버렸습니다!""
  stewardship_wealth.1022.a:0 "생각지도 않은 복이 굴러들어와 좋긴 하지만... 다음부터는 이런 일이 없도록 하게."
  stewardship_wealth.1022.b:0 "학살자가 될 순 없어! 이 돈은 배상에 쓰도록 하지."
  stewardship_wealth.1022.c:0 "수고 많았네! 지금처럼 내키는 대로 하세나."
@@ -124,8 +124,8 @@
 
 # Beyond Boundaries by Jason Cantalini
  stewardship_wealth.7001.t:0 "선을 넘는 행동"
- stewardship_wealth.7001.desc:0 "빌어먹을 [thieving_rival.GetTitledFirstName](과)와 강도 같은 그의 하인들! 내 [messenger.GetCouncilTitle](이)가 더듬거리며 말한 바로는 그 폭력배들이 뻔뻔한 낯짝으로 [ROOT.Char.GetCapitalLocation.GetName]의 백성들을 협박해서 내게 와야 할 재물을 뺏어갔다고 한다!\n\n[messenger.GetTitledFirstName](은)는 관리들에게 추가적인 징수를 준비시켰지만... 이미 과부들이 통곡하고, 아이들이 굶주리고, 가난한 가족들이 집에서 쫓겨나는 모습이 그려진다.\n\n[thieving_rival.GetTitledFirstNamePossessiveNoTooltip] 탐욕스러운 영혼에 끝없는 저주를!"
-
+ stewardship_wealth.7001.desc:1 "빌어먹을 [thieving_rival.GetTitledFirstName](과)와 강도 같은 그의 하인들! 내 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('messenger'))][messenger.GetTitledFirstName](이)가 더듬거리며 말한 바로는 그 폭력배들이 뻔뻔한 낯짝으로 [ROOT.Char.GetCapitalLocation.GetName]의 백성들을 협박해서 내게 와야 할 재물을 뺏어갔다고 한다!\n\n[messenger.GetFirstNameNoTooltip](은)는 관리들에게 추가적인 징수를 준비시켰지만... 이미 과부들이 통곡하고, 아이들이 굶주리고, 가난한 가족들이 집에서 쫓겨나는 모습이 그려진다.\n\n[thieving_rival.GetTitledFirstNamePossessiveNoTooltip] 탐욕스러운 영혼에 끝없는 저주를!"
+ stewardship_wealth.7001.tt.crime_alert:0 "[victim.GetTitledFirstName](이)가 이 일을 기억할 것임"
  stewardship_wealth.7001.justification:0 "[thieving_rival.GetSheHe|U]가 주군의 권리에 대해 속 보이는 거짓말을 하고 다니는 건 알았지만, 실제로 나의 것을 빼앗아 가다니..."
  stewardship_wealth.7001.unleashed_knights:0 "[thieving_rival.GetSheHe|U]와 신하들, 그 악랄한 강도들의 악명이 점점 높아지고 있다..."
 
@@ -134,3 +134,14 @@
  stewardship_wealth.7001.b:0 "내 개인적인 불화로 사람들이 피해를 받아서는 안 돼."
  stewardship_wealth.7001.b.tt:0 "[thieving_rival.GetFirstNameNoTooltip]의 피해자에게는 과세를 면제함"
 
+ stewardship_wealth.2000.t:0 "육중한 기회"
+ stewardship_wealth.2000.desc:0 "꽤 비어버린 국고를 보충할 방법을 찾아 집사장과 [loc_capital_county.GetNameNoTier] 거리를 거닐 때였다. 시장 무게 측정소에 도착하니 [loc_steward.GetFirstName](이)가 작게 속삭였다.\n\n"이곳 시장에 들여오는 상품에 매기는 세금 있잖습니까. 조금만... #EMP 창의성#!을 발휘하면 조용하게 수입을 올릴 수 있을 것입니다. 살짝 무게를 손본 무게추 꾸러미를 새로 준비하겠습니다. 겉보기에는 아무 차이 없을 겁니다. 그럼 같은 상품이더라도 상인들은 더 많은 세금을 납부하게 되겠죠. 아무도 눈치 못 챌 겁니다!\n\n주군께서 명령만 내리신다면 무게추를 바꿔 국고를 가득 채우겠나이다!""
+ stewardship_wealth.2000.a:0 "오늘 밤 무게추를 바꿔치기한다."
+ stewardship_wealth.2000.a.tt.success:0 "누구도 무게추가 바뀐 사실을 눈치채지 못함"
+ stewardship_wealth.2000.a.tt.failure:0 "당신의 모략이 들통남"
+ stewardship_wealth.2000.b:0 "좀 더 좋은 무게추 꾸러미가 필요하겠어."
+ stewardship_wealth.2000.b.tt:0 "달성하기 까다로운 해결 방안이긴 하나, 틀림없이 당신의 국고와 상인 양쪽 모두에게 이익이 될 것임"
+ stewardship_wealth.2000.b.tt.success:0 "새로운 중량 체계를 도입하는 데 성공함"
+ stewardship_wealth.2000.b.tt.failure:0 "새로운 중량 체계가 별다른 성과를 내지 못함"
+ stewardship_wealth.2000.c:0 "고전적인 방식으로 내 것을 가져가겠다!"
+ stewardship_wealth.2000.c.tt:0 "해당 영지에 상품을 들여오는 지역 상인들에게 특혜를 명목으로 내세워 더 많은 세금을 납부하도록 강요함"

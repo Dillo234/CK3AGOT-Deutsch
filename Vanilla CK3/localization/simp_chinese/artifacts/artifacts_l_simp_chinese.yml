@@ -13,12 +13,12 @@
  artifact_type_elixir:0 "仙药"
 
 # These are used for when we generate the title at the same time as we create the artifact
- artifact_name_prefix:1 "[owner.GetTitledFirstNamePossessiveNoTooltip]"
+ artifact_name_prefix:1 "[SCOPE.Custom('ArtifactPrefixGeneric')|U]"
  artifact_name_prefix_owner_name:0 "[owner.GetTitledFirstNamePossessiveNoTooltip]"
  artifact_name_prefix_inspiration_owner_name:0 "[inspiration_owner.GetTitledFirstNamePossessiveNoTooltip]"
  artifact_name_prefix_owner_culture:0 "[owner.GetCulture.GetNameNoTooltip]"
- artifact_name_prefix_location_culture:0 "[owner.MakeScope.Var('adventure_artifact_location').Title.GetHolder.GetCulture.GetNameNoTooltip]"
- artifact_name_prefix_owner_dynasty:0 "[owner.GetDynasty.GetBaseName]"
+ artifact_name_prefix_location_culture:1 "[owner.MakeScope.Var('adventure_artifact_location').Province.GetHolder.GetCulture.GetNameNoTooltip]式"
+ artifact_name_prefix_owner_dynasty:1 "[owner.GetDynasty.GetBaseNameNoTooltip]"
  artifact_name_prefix_descriptor_high_quality:0 "华贵"
  artifact_name_prefix_descriptor_medium_quality:0 "结实"
  artifact_name_prefix_descriptor_medium_alt_version_quality:0 "优良"
@@ -104,6 +104,15 @@
  feature_decoration_material_wire_pewter:0 "$metal_pewter$"
  feature_decoration_material_wire_latten:0 "$metal_latten$"
 
+ #############
+ # Earthware #
+ #############
+
+ earthware_clay:0 "陶土"
+ earthware_stone:0 "石头"
+ earthware_terracotta:0 "赤陶"
+ earthware_porcelain:0 "瓷器"
+
  #########
  # Woods #
  #########
@@ -128,7 +137,7 @@
 
  # Widespread Regional - Subsaharan Africa
  wood_fleroya:0 "泽帽蕊木"
- wood_sycomore:0 "桑木"
+ wood_sycomore:0 "无花果木"
  wood_padauk:0 "紫檀木"
 
  # Widespread Regional - India
@@ -372,7 +381,7 @@
  feature_decoration_pattern_floral:0 "花纹图案"
  feature_decoration_pattern_geometric:0 "几何图形"
  feature_decoration_pattern_wolf:0 "一颗狼头"
- feature_decoration_pattern_local_animal:0 "细致描绘的[Artifact.GetOwner.Custom('LocalAnimal')]"
+ feature_decoration_pattern_local_animal:0 "细致描绘的[Artifact.GetOwner.Custom('GetAnimalType')]"
  feature_decoration_pattern_war_god:0 "献给[Artifact.GetOwner.GetFaith.WarGodName]的符号和短语"
  feature_decoration_pattern_religious_symbol:0 "[Artifact.GetOwner.GetFaith.ReligiousSymbol]"
  feature_decoration_pattern_gibberish:0 "唯有创作者才知晓其意的符号"
@@ -626,6 +635,7 @@
 
  # Brooches
  artifact_brooch:0 "胸针"
+ artifact_brooch_pedestal:0 "$artifact_brooch$"
  artifact_brooch_name:0 "$artifact_name_prefix$胸针"
  artifact_brooch_description:1 "一枚[SCOPE.Custom('ArtifactArticleWealth')]的胸针，做工[SCOPE.Custom('ArtifactQuality')]，其形制是[newly_created_artifact.GetFeatureText( 'brooch_decoration' )]。"
 
@@ -639,6 +649,22 @@
  feature_brooch_adornment_gems:0 "装饰着许多小颗[Artifact.GetFeatureText( 'decoration_material_gem' )]"
  feature_brooch_adornment_runes:0 "以及一个印有符文的[Artifact.GetFeatureText( 'decoration_material_wire' )]圆环外框"
  create_artifact_brooch_tooltip:0 "[inspiration_owner.GetShortUIName]制作了一枚[SCOPE.Custom('ArtifactArticleWealth')|l]的胸针，做工[SCOPE.Custom('ArtifactQuality')]"
+
+ # Rings
+ artifact_ring:0 "戒指"
+ artifact_ring_name:0 "$artifact_name_prefix$戒指"
+ artifact_ring_description:0 "一枚做工[SCOPE.Custom('ArtifactQuality')]的[SCOPE.Custom('ArtifactArticleWealth')]戒指。[newly_created_artifact.GetFeatureText( 'generic_material_metal' )]环身上[newly_created_artifact.GetFeatureText( 'ring_decoration' )]。"
+ feature_ring_decoration_centerpiece_and_adornment:0 "镶嵌着[Artifact.GetFeatureText( 'ring_centerpiece' )]，还[Artifact.GetFeatureText( 'ring_adornment' )]"
+ feature_ring_decoration_centerpiece:0 "顶着[Artifact.GetFeatureText( 'ring_centerpiece' )]"
+ feature_ring_decoration_adornment:0 "[Artifact.GetFeatureText( 'ring_adornment' )]"
+ feature_ring_centerpiece_cabochon:0 "一颗弧面型[Artifact.GetFeatureText( 'decoration_material_gem' )]"
+ feature_ring_centerpiece_signet:0 "一端刻有[Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip]家族徽记的[Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_ring_centerpiece_religious:0 "一段刻有[Artifact.GetOwner.GetFaith.GetAdjective][Artifact.GetOwner.GetFaith.ReligiousSymbol]的[Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_ring_adornment_filigree:0 "饰有$feature_brooch_adornment_filigree$"
+ feature_ring_adornment_motto:0 "环绕着一圈[Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip]家族的格言：“#EMP [Artifact.GetOwner.GetHouse.GetMotto]#!”"
+ feature_ring_adornment_religious:0 "环绕着一圈摘自[Artifact.GetOwner.GetFaith.GetAdjective][Artifact.GetOwner.GetFaith.ReligiousText]的文句"
+ feature_ring_adornment_gems:0 "$feature_brooch_adornment_gems$"
+ feature_ring_adornment_runes:0 "$feature_brooch_adornment_runes$"
 
  ## fund_inspiration.6001-6006 trinkets from your adventurer
  morin_khuur_ornament_name:0 "马头琴装饰"
@@ -691,7 +717,7 @@
  edmund_head_description:0 "爱德门自他出生那一刻起就坚持要成为一名圣人。传说他曾是东盎格利亚的一位国王，为了让百姓免受维京人屠戮，甘愿成为他们的一件祭品。"
  dhammapada_name:0 "《法句经》"
  dhammapada_description:1 "这是一部记录佛言的总集，以精美的贝叶抄卷装订。"
- excalibur_name:0 "湖中剑"
+ excalibur_name:0 "“湖中剑”"
  excalibur_description:0 "在不列颠，几乎所有统治者都曾声称拥有真正的湖中剑。甚至战争费用都是通过出售湖中剑支付的，你一定希望宾客别在其他地方看到这把剑。"
  vinaya_pitaka_name:0 "《律藏》"
  vinaya_pitaka_description:0 "《巴利文大藏经》三藏之一。这部文献为寺院中的僧尼制定了规范的戒律。"
@@ -785,11 +811,12 @@
  ## Character Modifiers made to artifacts ##
 
  # From court_ongoing_1021
- artifact_necklace:1 "饰品"
+ artifact_necklace:2 "项链"
+ artifact_necklace_pedestal:0 "$artifact_necklace$"
  artifact_necklace_name:1 "[newly_created_artifact.GetFeatureText( 'decoration_material_gem' )|U][newly_created_artifact.GetFeatureText( 'decoration_material_wire' )|U]项链"
  artifact_necklace_description:1 "一条[SCOPE.Custom('ArtifactArticleWealth')]而精巧细致的项链，做工[SCOPE.Custom('ArtifactQuality')]。项链由[newly_created_artifact.GetFeatureText( 'decoration_material_wire' )]制成，还带着一颗华丽的[newly_created_artifact.GetFeatureText( 'decoration_material_gem' )]吊坠。"
  artifact_pressed_flower_name:1 "[SCOPE.Custom('ArtifactFlowerSpecies')|U]压花"
- artifact_pressed_flower_description:0 "一朵美丽的[SCOPE.Custom('ArtifactFlowerSpecies')]，被压制脱水以保持其姿彩。"
+ artifact_pressed_flower_description:1 "一朵美丽的[SCOPE.Custom('ArtifactFlowerSpecies')]，被压制脱水以保持其姿彩。"
 
  # From stewardship_wealth.1061
  stewardship_old_ledger_name:0 "老旧账簿"
@@ -808,7 +835,7 @@
 
 ## christian_saint_bone pilgrim reward
  christian_saint_bone_name:0 "[saint_bone_owner.Custom('RandomSaintNamePossessive')]的[saint_bone_owner.Custom('RandomSaintBone')]"
- christian_saint_bone_description:0 "这件遗骸据称出自一位[saint_bone_owner.GetFaith.GetReligion.GetAdjectiveNoTooltip]的圣人，由[saint_bone_owner.GetNameNoTooltip]在[saint_bone_owner.GetHerHis]前往[destination_title.GetNameNoTierNoTooltip]的朝圣之旅中获得，被[saint_bone_owner.GetFaith.GetAdherentNamePluralNoTooltip]奉为运气和虔敬的象征。"
+ christian_saint_bone_description:1 "这件遗骸据称出自一位[saint_bone_owner.GetFaith.GetReligion.GetAdjectiveNoTooltip]的圣人，由[saint_bone_owner.GetNameNoTooltip]在[saint_bone_owner.GetHerHis]前往[christian_saint_bone_scope.MakeScope.Var('holy_site').GetProvince.GetCounty.GetTitle.GetNameNoTierNoTooltip]的朝圣之旅中获得，被[saint_bone_owner.GetFaith.GetAdherentNamePluralNoTooltip]奉为运气和虔敬的象征。"
 # bones
  bone_type_knuckle:0 "指关节"
  bone_type_shin:0 "小腿骨"
@@ -856,6 +883,30 @@
 
  #bp1_yearly.7200
  perfume_bottle_description:0 "[ROOT.Char.GetFirstNameNoTooltip]为这种香氛收集了原料。"
+
+ # travel_events.4005
+ maritime_trading_handbook:0 "《海上贸易手册》"
+ maritime_trading_handbook_description:0 "一本行家写就的手册，内容关于[merchant_character_scope.GetCulture.GetName]海上贸易活动的性质。"
+ own_holy_text_mid:0 "饰以珠宝的[ROOT.Char.GetFaith.ReligiousText|U]"
+ own_holy_text_mid_description:0 "一本用宝石镶饰的[ROOT.Char.GetFaith.ReligiousText|U]。"
+ merchants_holy_text_mid:0 "饰以珠宝的[merchant_character_scope.GetFaith.ReligiousText|U]"
+ merchants_holy_text_mid_description:0 "一本用宝石镶饰的[merchant_character_scope.GetFaith.ReligiousText|U]。"
+ merchants_sword:0 "[merchant_character_scope.GetCulture.GetName]剑"
+ merchants_sword_description:0 "一把从[merchant_character_scope.GetCulture.GetNameNoTooltip]人行商手中购得的好剑。"
+ jewelled_slippers:0 "珠宝拖鞋"
+ jewelled_slippers_description:0 "一双镶有宝石的漂亮拖鞋。穿上它会让你觉得自己总能找到回家的路。"
+ witchcraft_book:0 "《草药疗法大全》"
+ witchcraft_book_description:0 "一本曾经属于[ROOT.Char.GetCurrentLocation.GetTitle.GetNameNoTier]之巫的书，内容写满了为平衡体液研制的简易草药疗方。"
+ witchy_holy_text_mid:0 "饰以珠宝的[witch_scope.GetFaith.ReligiousText|U]"
+ witchy_holy_text_mid_description:0 "一本用宝石镶饰的[witch_scope.GetFaith.ReligiousText|U]。"
+ immaculate_witchy_bones:0 "无垢巫骨"
+ immaculate_witchy_bones_description:0 "一堆曾经属于[ROOT.Char.GetCurrentLocation.GetTitle.GetNameNoTier]之巫的骨头。即使在[witch_scope.GetHerHis]被烧死后，遗骨依旧完整无瑕。"
+ mysterious_lamp:0 "神秘灯盏"
+ mysterious_lamp_description:0 "一盏镶满珠宝、金光闪闪的灯。你拿着它时，会感受到一股非凡的宇宙之力。"
+ mysterious_puzzle:0 "神秘拼图"
+ mysterious_puzzle_description:0 "一块奢华的金色拼图，上面镌有一种外语铭文，据说曾经属于一位强大的游戏大师。"
+ lunchbox:0 "防腐箱"
+ lunchbox_description:0 "一只严封密闭的箱子，似乎可以使贮存其内的食物延长可食用性。"
 
  #Artifact Titles
  artifact_title_valor:0 "勇武之"
@@ -908,7 +959,7 @@
  artifact_jewelled_danda_name:0 "宝石檀荼杖"
  artifact_jewelled_danda_description:0 "这是一根来自印度装饰有宝石的权杖，是彰显帝王威仪和赏功罚罪之权的终极符号。"
  artifact_aruval_name:0 "古代阿鲁伐钩镰刀"
- artifact_aruval_description:0 "这把阿鲁伐钩镰刀据说非常之古老，可能曾为黑主本尊所持。"
+ artifact_aruval_description:0 "这把长长的阿鲁伐钩镰刀据说非常之古老，可能曾为黑主本尊所持。"
  artifact_khanda_name:0 "仪式朅伽阔剑"
  artifact_khanda_description:0 "这把朅伽阔剑是为仪式所造而非用于战斗，它世世代代提醒着人们劈开无知之幕的必要。"
  artifact_makarakundala_name:0 "摩羯耳环"
@@ -921,7 +972,7 @@
  artifact_shankha_conch_name:0 "法螺"
  artifact_shankha_conch_description:0 "毗湿奴神的标志，这只古老的法螺会在宗教仪式上吹响，据说象征着繁荣和美德。"
  artifact_pedestal_great_diamond_name:0 "大钻石"
- artifact_pedestal_great_diamond_description:0 "这颗巨大的宝石据说曾经装饰在寺庙里的一尊雕像上，之后被一个贪婪的侵入者盗走。"
+ artifact_pedestal_great_diamond_description:0 "这颗巨大的宝石据说曾经装饰在寺庙里的一尊雕像上，之后被一个贪婪的闯入者盗走。"
  al_taj_crown_name:0 "高贵冠冕"
  al_taj_crown_description:0 "“高贵冠冕”或“威严缠头”是法蒂玛哈里发在传统巡行中所佩戴的冠冕。上面装饰着巨大的珍宝“耶蒂玛”。"
  qadib_al_mulk_name:0 "君王之杖"
@@ -939,7 +990,7 @@
  artifact_pedestal_al_jabal_name:0 "杰贝勒"
  artifact_pedestal_al_jabal_description:0 "这枚戒指上装饰着一块巨大的红宝石，名为“杰贝勒”（义为“山峦”）。这块宝石的大小无与伦比，而且据说这枚戒指曾由萨珊波斯的皇帝们佩戴。"
  artifact_pedestal_al_yatima_name:0 "耶蒂玛"
- artifact_pedestal_al_yatima_description:0 "这颗名为耶蒂玛（“孤儿”）的巨大珍珠据说和世上的其他珍珠都不一样。这是宝石和珍珠家族中的一件孤品。"
+ artifact_pedestal_al_yatima_description:0 "这颗名为“耶蒂玛”（义为“孤儿”）的巨大珍珠据说和世上的其他珍珠都不一样。这是宝石和珍珠家族中的一件孤品。"
  artifact_dagger_of_rostam_name:0 "鲁斯塔姆的匕首"
  artifact_dagger_of_rostam_description:0 "这把做工繁复的匕首据说就是鲁斯塔姆杀死白魔用的那把。"
  artifact_spear_of_ascalon_name:0 "亚实基伦"
@@ -960,7 +1011,7 @@
  artifact_durendal_name:0 "杜伦达"
  artifact_durendal_description:0 "这把沉重的短剑据说便是传奇的杜伦达剑，罗兰临终前将其封藏，以免为君王之敌所得。"
  artifact_curtana_name:0 "柯尔塔那"
- artifact_curtana_description:0 "这据称是柯尔塔那，慈悲之剑。这把传奇宝剑曾为特里斯坦所持，对抗莫罗尔德。这也是为什么剑尖已经遗失，因为留在了那爱尔兰巨人厚厚的头骨里。"
+ artifact_curtana_description:0 "这据称是柯尔塔那，慈悲之剑。这把传奇宝剑曾为特里斯坦所持，对抗莫罗尔德。这也是剑尖遗失的原因，因为留在了那爱尔兰巨人厚厚的头骨里。"
  artifact_ring_angelica_name:0 "安杰丽佳之戒"
  artifact_ring_angelica_description:0 "一枚据说就是安杰丽佳佩戴过的戒指，出自罗兰和查理曼的故事。戒指的魔力定然已经磨灭，似乎无法再给予隐身之能了，但它仍是这位早已作古的公主的高贵象征。"
  artifact_olifant_name:0 "象牙号角"
@@ -1010,7 +1061,7 @@
  artifact_mantle_of_the_prophet_islam_name:0 "先知斗篷"
  artifact_mantle_of_the_prophet_description:0 "这件先知的斗篷在哈里发之间代代相传了数个世纪。传统上，哈里发会在所有节庆中穿戴，赋予他不可抗拒的宁静和尊贵。"
  afarganyu_name:0 "火盆"
- artifact_afarganyu_description:0 "圣火是琐罗亚斯德信仰诸多仪式的核心，这就是点燃圣火的大火盆。一段古老的铭文讲述了最初将这只火盆献给祭司们的人的事迹。"
+ artifact_afarganyu_description:0 "圣火是祆教信仰诸多仪式的核心，这就是点燃圣火的大火盆。一段古老的铭文讲述了最初将这只火盆献给祭司们的人的事迹。"
  siddhachakra_name:0 "成就之轮"
  artifact_siddhachakra_description:0 "这是一幅受耆那教徒敬拜的神秘图示。中央是一朵盛开的莲花，诸神站在花瓣上环绕四周，象征着室利波罗王与其妻摩耶那孙陀利的传奇。"
  artifact_staff_kakusandha:0 "拘留孙佛锡杖"
@@ -1059,19 +1110,19 @@
  #Rare
  sekhmet_ring:0 "古老的图章戒指"
  sekhmet_ring.desc:0 "这枚黄金戒指上雕刻着一个头上顶着某种古怪头盔的人物形象。"
- scarab_brooch:0 "古老圣甲虫胸针"
+ scarab_brooch:0 "古代圣甲虫胸针"
  scarab_brooch.desc:0 "一枚圣甲虫形制的精致胸针。镶嵌的祖母绿据说有益健康。"
  
  # Easter eggs
  easteregg_artifact_elisabeth_plush:0 "伊丽莎白的毛绒狐狸"
  easteregg_artifact_elisabeth_plush_description:0 "伊丽莎白的毛绒狐狸是一件深受人们喜爱的玩具，在她生命中大部分时间都伴随其左右。无论是谁聘用伊丽莎白来编制复杂的密码，都常常会看到她对着这件玩具说话。它让人感到安慰，并激励它的持有者效仿狐狸的黠慧。"
- easteregg_artifact_nicks_weapon:0 "友善"
- easteregg_artifact_nicks_weapon_description:0 "一柄真正华丽的武器，男女贵族们一定会在它面前为之绝倒。柄上刻着一行小字“精明失效时使用。”"
+ easteregg_artifact_nicks_weapon:1 "斗争"
+ easteregg_artifact_nicks_weapon_description:0 "一柄真正华丽的武器，男女贵族们一定会在它面前为之倾倒。柄上刻着一行小字“精明失效时使用。”"
  easteregg_artifact_chad_book:0 "《埃涅阿斯纪（注释本）》"
  easteregg_artifact_chad_book_description:0 "一部广受喜爱、装帧华丽的维吉尔《埃涅阿斯纪》抄本，上面布满了歪歪扭扭的字迹——内容或暗昧昏晦，或洞明晓畅。"
  easteregg_artifact_chad_dagger:0 "匕首"
  easteregg_artifact_chad_dagger_description:0 "它的寒光因干涸的血迹而暗淡，尽管它还渴望着更多。"
- easteregg_artifact_veronica_book:0 "《指环王》"
+ easteregg_artifact_veronica_book:0 "《王之指环》"
  easteregg_artifact_veronica_book_description:0 "一本不加掩饰的参考书籍。用最华丽的葡萄牙语写就。"
 
  easteregg_artifact_jason_sword:0 "圣玛尔定之剑"
@@ -1082,3 +1133,88 @@
  # Blessed Junk
  fp2_blessed_junk:0 "[ROOT.Char.Custom('TrinketLookAdjective')|U]$blessed_artifact_modifier$"
  fp2_blessed_junk_desc:0 "一个[ROOT.Char.Custom('TrinketLookAdverbFollowup')][ROOT.Char.Custom('TrinketLookAdjective')]但在其他方面毫无意义的宝物。$blessed_artifact_modifier_desc$"
+ 
+ local_artisan_modifier:0 "本地工匠"
+ local_artisan_modifier_desc:0 "该角色是一位本地工匠，被一位高贵的统治者劝来工作的。\n#weak 他所制作出的任何[inspirations|E]都会质量较低。#!"
+
+ # EP2
+ # TOURNAMENT
+ artifact_pas_darmes_token:0 "闯关比武信物"
+ artifact_pas_darmes_token_name:0 "[owner.GetFirstNamePossessiveNoTooltip]的信物"
+ artifact_pas_darmes_token_description:0 "[owner.GetFullNamePossessive]做工[SCOPE.Custom('ArtifactQuality')]的[newly_created_artifact.GetFeatureText( 'generic_material_cloth' )][owner.Custom('GetTournamentFavor')]，饰有[newly_created_artifact.GetFeatureText( 'decoration_pattern' )]，由[winner.GetFullName]在[location.GetName]的闯关比武中缴获。"
+ artifact_pas_darmes_spurs:0 "闯关比武奖品"
+ artifact_pas_darmes_spurs_name:0 "[owner.GetFirstNamePossessiveNoTooltip]的马刺"
+ artifact_pas_darmes_spurs_description:0 "一对做工[SCOPE.Custom('ArtifactQuality')]的[newly_created_artifact.GetFeatureText( 'generic_material_metal' )]马刺，属于[owner.GetFullName]，由[winner.GetFullName]在[location.GetName]的闯关比武中缴获。"
+ artifact_tournament_favor:0 "比武大会信物"
+ artifact_tournament_favor_name:0 "一位[owner.GetLadyLord|U]的信物"
+ artifact_tournament_favor_description:0 "一件做工[SCOPE.Custom('ArtifactQuality')]的[newly_created_artifact.GetFeatureText( 'generic_material_cloth' )][owner.Custom('GetTournamentFavor')]，饰有[newly_created_artifact.GetFeatureText( 'decoration_pattern' )]，由一位爱慕者献给[recipient.GetFullName]。"
+ # BOWS
+ artifact_longbow:0 "长弓"
+ artifact_longbow_name:0 "$artifact_name_prefix_owner_culture$长弓"
+ artifact_longbow_description:1 "一张做工[SCOPE.Custom('ArtifactQuality')]的单体长弓，用[newly_created_artifact.GetFeatureText( 'longbow_wood' )]有弹性的边材和坚硬的心材雕成，配以[newly_created_artifact.GetFeatureText( 'bow_string' )]弓弦。立起来比一个人还高，几乎没有弓的拉力能与之媲美了。"
+ artifact_composite:0 "复合弓"
+ artifact_composite_name:0 "$artifact_name_prefix$复合弓"
+ artifact_composite_description:0 "一张做工[SCOPE.Custom('ArtifactQuality')]的[newly_created_artifact.GetFeatureText( 'composite_wood' )]复合弓，用[newly_created_artifact.GetFeatureText( 'composite_horn' )]角和筋加固，配以[newly_created_artifact.GetFeatureText( 'bow_string' )]弓弦。较短的弓臂使其成为骑射的理想之选。"
+ artifact_bow:0 "弓"
+ artifact_bow_name:0 "$artifact_name_prefix$弓"
+ artifact_bow_description:1 "一张做工[SCOPE.Custom('ArtifactQuality')]的[newly_created_artifact.GetFeatureText( 'bow_wood' )]单体弓，配以[newly_created_artifact.GetFeatureText( 'bow_string' )]弓弦。在狩猎和作战中都很实用。"
+ artifact_crossbow:0 "弩"
+ artifact_crossbow_name:0 "$artifact_name_prefix$之弩"
+ artifact_crossbow_description:0 "一把做工[SCOPE.Custom('ArtifactQuality')]的弩，装有[newly_created_artifact.GetFeatureText( 'bow_wood' )]弩臂，配以筋弦弓铁。极其强力，可以随时准备，但装箭较慢。"
+ feature_longbow_wood_elm:0 "$feature_bow_wood_elm$"
+ feature_longbow_wood_yew:0 "$feature_bow_wood_yew$"
+ feature_composite_wood_bamboo:1 "$feature_bow_wood_bamboo$"
+ feature_composite_wood_maple:0 "$feature_bow_wood_maple$"
+ feature_composite_wood_mulberry:0 "$feature_bow_wood_mulberry$"
+ feature_composite_horn_antelope:1 "$animal_type_antelope_plural$"
+ feature_composite_horn_bison:1 "$animal_type_bison_plural$"
+ feature_composite_horn_deer:1 "$animal_type_buck_plural$"
+ feature_composite_horn_gazelle:0 "$animal_type_gazelle_plural$"
+ feature_composite_horn_aurochs:0 "$animal_type_aurochs_plural$"
+ feature_bow_wood_ash:0 "$wood_ash$"
+ feature_bow_wood_bamboo:0 "竹子"
+ feature_bow_wood_cherry:0 "樱桃木"
+ feature_bow_wood_dogwood:0 "梾木"
+ feature_bow_wood_elm:0 "$wood_elm$"
+ feature_bow_wood_hazel:0 "榛木"
+ feature_bow_wood_hickory:0 "山核桃木"
+ feature_bow_wood_maple:0 "$wood_maple$"
+ feature_bow_wood_mulberry:0 "桑木"
+ feature_bow_wood_palm:0 "棕榈木"
+ feature_bow_wood_oak:0 "$wood_oak$"
+ feature_bow_wood_walnut:0 "$wood_walnut$"
+ feature_bow_wood_yew:0 "$wood_yew$"
+ feature_bow_string_hemp:0 "线麻纤维"
+ feature_bow_string_horse_hair:0 "马毛"
+ feature_bow_string_linen:0 "$cloth_linen$"
+ feature_bow_string_rawhide:0 "生皮革"
+ feature_bow_string_silk:0 "$cloth_silk$"
+ feature_bow_string_sinew:0 "动物筋"
+
+ tournament_favor_glove:0 "手套"
+ tournament_favor_sleeve:0 "袖子"
+ tournament_favor_scarf:0 "头巾"
+
+ blooded_blade:0 "血刃"
+ blooded_blade_description:0 "这把武器上盘旋着参差不齐的纹样，隐约暗示了此刀比较容易断裂，但也暗示出其由来：一把淬刃于[ROOT.Char.GetTitledFirstName]鲜血中的武器。"
+ sullied_blooded_blade:0 "污刃"
+ sullied_blooded_blade_description:0 "这把武器上盘旋着参差不齐的纹样，隐约暗示了此刀整体质量堪忧，但也暗示出其由来：一把淬刃于[ROOT.Char.GetTitledFirstName]鲜血中的武器。"
+
+ fake_papal_tiara_name:0 "赝品教宗三重冕"
+ fake_papal_tiara_description:0 "一顶高耸的教宗法冠的仿品，可能不太经得起细看。不过还是有点意思的，不是么？"
+
+ artisanal_sword:0 "[ROOT.Char.GetFirstNamePossessive]之剑"
+ artisanal_sword_description:0 "一把精美打造的剑，其珠光宝气的剑首与美观而结实的握把相得益彰。带图案的剑刃保持着完美的平衡，剑尖逐渐收细，化为一道尖利的虚无。"
+ feature_generic_material_metal_gold:0 "$metal_gold$"
+ feature_generic_material_metal_silver:0 "$metal_silver$"
+ feature_generic_material_metal_electrum:0 "$metal_electrum$"
+ feature_generic_material_metal_iron:0 "$metal_iron$"
+ feature_generic_material_metal_pewter:0 "$metal_pewter$"
+ feature_generic_material_metal_brass:0 "$metal_brass$"
+ feature_generic_material_metal_steel:0 "$metal_steel$"
+ feature_generic_material_metal_bronze:0 "$metal_bronze$"
+ feature_generic_material_metal_copper:0 "$metal_copper$"
+ feature_generic_material_earthware_clay:0 "$earthware_clay$"
+ feature_generic_material_earthware_terracotta:0 "$earthware_terracotta$"
+ feature_generic_material_earthware_stone:0 "$earthware_stone$"
+ feature_generic_material_earthware_porcelain:0 "$earthware_porcelain$"

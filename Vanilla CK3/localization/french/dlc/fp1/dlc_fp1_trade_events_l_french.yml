@@ -19,14 +19,14 @@
  fp1_trade_events.0002.d:0 "Quel genre de lâche gagne de l’argent sans piller ?"
  fp1_trade_events.0002.d.tt:0 "Vous pillez [county.GetNameNoTierNoTooltip] et refusez de penser à faire du commerce au lieu de piller pour le reste de votre vie"
 
- fp1_trade_events.0003.t:1 "$fp1_trade_events.0000.t$?"
+ fp1_trade_events.0003.t:1 "$fp1_trade_events.0000.t$ ?"
  fp1_trade_events.0003.desc:0 "Une horde désordonnée de bandits, de pirates et d’autres crapules lourdement armées est entrée en [county.GetNameNoTierNoTooltip], avec [raider.GetFirstName] à sa tête !\n\nAu début, mes éclaireurs pensaient qu’ils venaient ici pour piller, mais un émissaire de leur [raider.GetTitleAsNameNoTooltip|l] affirme qu’ils feraient volontiers du commerce. Ils possèdent d’un grand nombre de butins, anciens et récents, ce qui permettrait aux habitants d’acheter des produits exotiques du monde entier.\n\nLe message est clair. Nous faisons des affaires à des conditions préférentielles et ils partiront tranquillement, ou bien nous rejetons leur offre et ils prendront ce qu’ils souhaitent."
  fp1_trade_events.0003.a:0 "Une offre inattendue, mais très appréciée."
  fp1_trade_events.0003.a.tt_success:0 "Votre offre est acceptée !"
  fp1_trade_events.0003.b:0 "#EMP Faire du commerce#! ? Avec ces brigands ?!"
  fp1_trade_events.0003.b.tt_failure:0 "Votre offre est rejetée !"
 
- fp1_trade_events.0011.t:0 "$fp1_trade_events.0000.t$: un arrangement pratique"
+ fp1_trade_events.0011.t:0 "$fp1_trade_events.0000.t$ : un arrangement pratique"
  fp1_trade_events.0011.desc.subsequent_renewal:0 "Depuis des décennies"
  fp1_trade_events.0011.desc.first_renewal:0 "Depuis de nombreuses années"
  fp1_trade_events.0011.desc.outro:0 "j’ai une entente avec [recipient.Custom('FR_le_Char_Pi')][recipient.GetTitledFirstName]. Mes pillards ne sortent pas leurs armes dans ses terres, et ses sujets achètent les luxes exotiques que nous prenons dans des royaumes moins diplomatiques.\n\nLes termes de notre accord ont presque atteint leur terme, cependant, et nombre de personnes parmi ma suite sont réticentes à abandonner leurs relations commerciales avantageuses.\n\nPeut-être [recipient.GetFirstNameNoTooltip] serait ouvert à une prolongation ?"
@@ -46,7 +46,7 @@
  fp1_trade_events.0012.b.tt:0 "$fp1_trade_events.0011.b.tt$"
  fp1_trade_events.0012.b.tt_failure:0 "$fp1_trade_events.0011.a.rejected$"
 
- fp1_trade_events.0021.t:0 "$fp1_trade_events.0000.t$: des visiteurs venus de loin"
+ fp1_trade_events.0021.t:0 "$fp1_trade_events.0000.t$ : des visiteurs venus de loin"
  fp1_trade_events.0021.desc:0 "Mon accord commercial avec [partner.Custom('FR_le_Char_Pi')][partner.GetTitledFirstName] maintient un flux constant de marchands et de petite noblesse sur ses terres pour vendre leur butin et importer des produits de luxe étrangers.\n\nIl est nettement moins fréquent qu’une expédition de [partner.GetPrimaryTitle.GetNameNoTier] vienne jusqu’ici, à part pour un événement à [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier].\n\nLes chefs d’une telle expédition ont réussi à obtenir une audience pour quémander un accord : un éloquent [priest.GetFaith.PriestNeuter] et un commerçant avisé."
  fp1_trade_events.0021.a:0 "Je pourrais avoir besoin de quelqu’un pour compter mes pièces..."
  fp1_trade_events.0021.b:0 "Bienvenue à mon service, [priest.GetFirstNameNoTooltip] !"
@@ -58,7 +58,7 @@
  fp1_trade_events.0031.a:0 "Les épéistes de [raider.GetPrimaryTitle.GetNameNoTierNoTooltip] sont légendaires !"
  fp1_trade_events.0031.b:0 "Va-t’en, gredin[warrior.Custom('FR_E')]."
 
- fp1_trade_events.0041.t:0 "$fp1_trade_events.0000.t$: Des belligérants avec des avantages"
+ fp1_trade_events.0041.t:0 "$fp1_trade_events.0000.t$ : Des belligérants avec des avantages"
  fp1_trade_events.0041.desc:0 "Mon accord avec [partner.Custom('FR_le_Char_Pi')][partner.GetTitledFirstName] est mutuellement bénéfique, mais je me demande parfois s’il est à la hauteur de son potentiel. Mes terres pourraient bénéficier de ses maçons et charpentiers chevronnés, et bien qu’[partner.Custom('FR_IlElle')] soit à l’abri de mes pillages, [partner.Custom('FR_IlElle')] ne l’est pas à l’égard de beaucoup d’autres pilleurs.\n\nEn dépensant chacun un peu d’or pour faciliter les déplacements de nos serviteurs, nous pourrions résoudre ces deux problèmes ensemble : [partner.GetFirstNameNoTooltip] envoie des artisans qualifiés pour me servir pendant un certain temps, et en retour, je lui prête de vieux pillards et des colons enthousiastes comme conseillers pour l’aider à garder ses terres en sécurité."
  fp1_trade_events.0041.foreign_architects_growth.tt:0 "Les [counties|El] sous-développés de votre [domain|El]"
  fp1_trade_events.0041.foreign_architects_no_growth.tt:0 "Les [counties|El] de votre [domain|El] avec au moins 15 en [development|El]"
@@ -91,7 +91,7 @@
  fp1_trade_events.1131.d:0 "Nous bannirons ces envahisseurs comme nous l’avons toujours fait."
  fp1_trade_events.1131.d.tt:0 "Vous combattez les Nordiques à l’ancienne"
 
- fp1_trade_events.1171.t:0 "$fp1_trade_events.0000.t$: une sainte aide"
+ fp1_trade_events.1171.t:0 "$fp1_trade_events.0000.t$ : une sainte aide"
  fp1_trade_events.1171.desc:0 "Bien qu’ayant débuté dans des circonstances inhabituelles, ma relation avec [partner.Custom('FR_le_Char_Pi')][partner.GetTitledFirstName] n’a fait que se renforcer avec le temps.\n\nDavantage, semble-t-il, que je ne l’avais imaginé, car sa dernière lettre exprimait une préoccupation sincère pour le sort de mon âme.\n\nDans le but de m’inciter à me convertir à la foi [partner.GetFaith.GetAdjective], [partner.GetFirstNameNoTooltip] m’offre la main de s[prospective_spouse.Custom('FR_OnA')] [prospective_spouse.Custom('GetDaughterSon')]. Cela implique une grande cérémonie pour m’accueillir dans la foi et... une belle dot."
  fp1_trade_events.1171.a:0 "[partner.GetSheHe|U] argumente de manière assez convaincante..."
  fp1_trade_events.1171.b:0 "Quel geste ! À notre amitié éternelle !"

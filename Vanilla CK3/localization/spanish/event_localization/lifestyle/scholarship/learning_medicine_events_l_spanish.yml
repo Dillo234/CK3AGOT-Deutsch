@@ -24,7 +24,7 @@
  learning_medicine.2002.b.success.tt:0 "Si [herbalist.GetShortUIName] tiene un secreto de brujería, me será revelado"
  learning_medicine.2002.b.success.witch.t:0 "[herbalist.GetFirstNameNoTooltip] practica la brujería"
  learning_medicine.2002.b.success.no_witch.t:0 "[herbalist.GetFirstNameNoTooltip] no practica la brujería"
- learning_medicine.2002.b.success.no_witch.desc:1 "Estoy convencid[ROOT.Char.Custom('ES_OA')] de la inocencia de [herbalist.GetTitledFirstName]"
+ learning_medicine.2002.b.success.no_witch.desc:1 "Estoy convencid[ROOT.Char.Custom('ES_OA')] de la inocencia de [herbalist.GetTitledFirstName|l]"
  learning_medicine.2002.b.inconclusive.t:0 "Mi investigación no es concluyente"
  learning_medicine.2002.b.inconclusive.desc:0 "No encuentro pruebas de brujería"
  learning_medicine.2002.b.failure.t:0 "[herbalist.GetFirstNameNoTooltip] me pilla husmeando"
@@ -53,8 +53,8 @@
  learning_medicine.2010.c:0 "Buscad guía en [ROOT.Char.GetFaith.ReligiousText]."
 
  # Fertility treatment, by Mathilda Bjarnehed
- learning_medicine.2021.t:0 "[ROOT.Char.Custom('ES_AlAla')|U] [ROOT.Char.Custom('FormalComplimentAdjective')] [ROOT.Char.GetTitledFirstNameNoTooltip]"
- learning_medicine.2021.desc:0 "Me llamo [physician.GetTitledFirstNameNoTooltip] y soy un[physician.Custom('ES_XA')] médic[physician.Custom('ES_OA')] cualificad[physician.Custom('ES_OA')] en asuntos de fertilidad. ¿Podrían mis discretos consejos resultar de provecho a mi [ROOT.Char.GetLadyLord]? Sería un honor serviros… por unos honorarios simbólicos."
+ learning_medicine.2021.t:0 "[ROOT.Char.Custom('ES_AlAla')|U] [ROOT.Char.Custom('FormalComplimentAdjective')] [ROOT.Char.GetTitledFirstNameNoTooltip|l]"
+ learning_medicine.2021.desc:0 "Me llamo [physician.GetTitledFirstNameNoTooltip|l] y soy un[physician.Custom('ES_XA')] médic[physician.Custom('ES_OA')] cualificad[physician.Custom('ES_OA')] en asuntos de fertilidad. ¿Podrían mis discretos consejos resultar de provecho a mi [ROOT.Char.GetLadyLord]? Sería un honor serviros… por unos honorarios simbólicos."
  learning_medicine.2021.a:0 "Podría servirme vuestra ayuda…"
  learning_medicine.2021.a.tt:0 "[physician.GetFirstName] me ofrece un tratamiento de fertilidad"
  learning_medicine.2021.b:0 "Un[physician.Custom('ES_OA')] medic[physician.Custom('ES_OA')] cualificad[physician.Custom('ES_OA')] es siempre bienvenid[physician.Custom('ES_OA')]."
@@ -62,7 +62,7 @@
  learning_medicine.2021.c:0 "¡No tengo tales #EMP problemas!#!"
 
  learning_medicine.2022.t:0 "Asuntos de fertilidad"
- learning_medicine.2022.old_physician.desc:0 "He visto a [physician.GetTitledFirstName] manejar de todo, de sanguijuelas a cuerpos descompuestos, pero la incomodidad en su rostro es totalmente nueva.\n\n«Como vuestr[physician.Custom('ES_OA')] médic[physician.Custom('ES_OA')], soy guardia de vuestra salud», dice, mirándose los zapatos. «Eso también incluye vuestra salud… #EMP reproductiva#!. Puedo preparar una tintura que os ayude a vuestr[spouse.Custom('ES_OA')] [spouse.Custom('WifeHusband')] y a vos. También he leído sobre tratamientos experimentales con resultados prometedores»."
+ learning_medicine.2022.old_physician.desc:0 "He visto a [physician.GetTitledFirstName|l] manejar de todo, de sanguijuelas a cuerpos descompuestos, pero la incomodidad en su rostro es totalmente nueva.\n\n«Como vuestr[physician.Custom('ES_OA')] médic[physician.Custom('ES_OA')], soy guardia de vuestra salud», dice, mirándose los zapatos. «Eso también incluye vuestra salud… #EMP reproductiva#!. Puedo preparar una tintura que os ayude a vuestr[spouse.Custom('ES_OA')] [spouse.Custom('WifeHusband')] y a vos. También he leído sobre tratamientos experimentales con resultados prometedores»."
  learning_medicine.2022.new_physician.desc:0 "Quería dar a mi nuev[physician.Custom('ES_OA')] médic[physician.Custom('ES_OA')] tiempo para instalarse, pero a las pocas horas de su llegada, [physician.GetFirstName] entra en mi estudio arrastrando una gran caja. La sube con esfuerzo sobre mi mesa con un inquietante #EMP tintineo#!.\n\n«Vuestr[spouse.Custom('ES_OA')] [spouse.Custom('WifeHusband')] y vos tenéis varias opciones, mi [ROOT.Char.GetLadyLord]. Hay tinturas comprobadas… pero también estoy elaborando algunos tratamientos experimentales»."
  learning_medicine.2022.b:0 "Una simple tintura parece sensato."
  learning_medicine.2022.b.success:0 "El tratamiento tiene éxito"
@@ -113,8 +113,8 @@
  #Healthy coping mechanism: journaller or athletic, by Mathilda Bjarnehed
  learning_medicine.2040.t:0 "Mente y cuerpo"
  learning_medicine.2040.start.desc:0 "Cuanto más profundizo en mis estudios, más evidente se hace el vínculo entre mente y cuerpo. Demasiadas preocupaciones pueden enfermarnos, y la mente no es más fuerte que su recipiente.\n\n"
- learning_medicine.2040.athletic_friend.desc:0 "Mi sabi[friend.Custom('ES_OA')] amig[friend.Custom('ES_OA')] [friend.GetTitledFirstName] jura que el movimiento enérgico [friend.GetHerHim] ayuda a mantener el estrés a raya. También he leído sobre los beneficios de escribir un diario para calmar la ansiedad."
- learning_medicine.2040.journaller_friend.desc:0 "Mi sabi[friend.Custom('ES_OA')] amig[friend.Custom('ES_OA')] [friend.GetTitledFirstName] lleva un diario sobre sus preocupaciones y jura que le alivia la mente. También he leído sobre los beneficios del ejercicio enérgico para aplacar la crispación."
+ learning_medicine.2040.athletic_friend.desc:0 "Mi sabi[friend.Custom('ES_OA')] amig[friend.Custom('ES_OA')] [friend.GetTitledFirstName|l] jura que el movimiento enérgico [friend.GetHerHim] ayuda a mantener el estrés a raya. También he leído sobre los beneficios de escribir un diario para calmar la ansiedad."
+ learning_medicine.2040.journaller_friend.desc:0 "Mi sabi[friend.Custom('ES_OA')] amig[friend.Custom('ES_OA')] [friend.GetTitledFirstName|l] lleva un diario sobre sus preocupaciones y jura que le alivia la mente. También he leído sobre los beneficios del ejercicio enérgico para aplacar la crispación."
  learning_medicine.2040.no_friend.desc:0 "Necesito un desahogo saludable para hacer frente a las tensiones de gobernar. He leído sobre los beneficios del ejercicio enérgico para aplacar los nervios crispados."
  learning_medicine.2040.a:0 "Hago ejercicio con [friend.GetFirstNameNoTooltip]."
  learning_medicine.2040.b:0 "Pedir a [friend.GetFirstNameNoTooltip] consejos de viaje."
@@ -129,9 +129,9 @@
  #Helping healing hand (medicine friend), by Mathilda Bjarnehed
  learning_medicine.2050.t:0 "Desangrándose"
  learning_medicine.2050.start.desc:0 "Estaba inspeccionando los barracones cuando traen un[soldier.Custom('ES_XA')] soldado gravemente herido. «¡Está perdiendo demasiada sangre! ¿Dónde está el médico?»\n\n"
- learning_medicine.2050.physician.desc:0 "No encuentran a [physician.GetTitledFirstName] por ninguna parte."
+ learning_medicine.2050.physician.desc:0 "No encuentran a [physician.GetTitledFirstName|l] por ninguna parte."
  learning_medicine.2050.no_physician.desc:0 "No encuentran al sanador por ninguna parte."
- learning_medicine.2050.end.desc:0 "Me recorre un escalofrío. ¡Puede que #EMP yo#! sea la única esperanza de est[soldier.Custom('ES_EA')] [soldier.Custom('WomanMan')].\n\nDe repente, como salid[helper.Custom('ES_OA')] de la nada, tengo a [helper.Custom2('MyCharacterIntroduction', ROOT.Char)] a mi lado, quien se arremanga y me mira."
+ learning_medicine.2050.end.desc:0 "Me recorre un escalofrío. ¡Puede que #EMP yo#! sea la única esperanza de est[soldier.Custom('ES_EA')] [soldier.GetWomanMan].\n\nDe repente, como salid[helper.Custom('ES_OA')] de la nada, tengo a [helper.Custom2('MyCharacterIntroduction', ROOT.Char)] a mi lado, quien se arremanga y me mira."
  learning_medicine.2050.a:0 "¡Pasadme un torniquete!"
  learning_medicine.2050.a.success:0 "[helper.GetFirstNameNoTooltip] y yo salvamos [soldier.Custom('ES_AlAla')] soldado"
  learning_medicine.2050.a.failure:0 "Pese a nuestros esfuerzos, [soldier.Custom('ES_LoLa')] perdemos"
@@ -142,7 +142,7 @@
 
  learning_medicine.2051.start_our.desc:0 "Nuestr[soldier.Custom('ES_OA')]"
  learning_medicine.2051.start.desc:0 "paciente grita y se agita. Aunque tres [soldier.GetWomenMen] fuertes [soldier.Custom('ES_LoLa')] sujetan, cada paso del camino es una batalla."
- learning_medicine.2051.middle.desc:0 "Pero [helper.GetTitledFirstName] permanece en calma y, finalmente, la tranquilidad se instala entre nosotros.\n\nNo sé bien cómo lo logramos, pero al final, parece que mi soldado vivirá. «Fue un logro impresionante,"
+ learning_medicine.2051.middle.desc:0 "Pero [helper.GetTitledFirstName|l] permanece en calma y, finalmente, la tranquilidad se instala entre nosotros.\n\nNo sé bien cómo lo logramos, pero al final, parece que mi soldado vivirá. «Fue un logro impresionante,"
  learning_medicine.2051.my_ladylord.desc:0 "mi [ROOT.Char.GetLadyLord]»,"
  learning_medicine.2051.firstname.desc:1 "[ROOT.Char.GetFirstNameNoTooltip]»,"
  learning_medicine.2051.end.desc:0 "dice [helper.GetFirstNameNoTooltip] con una sonrisa cansada. «Ha sido un honor servir a vuestro lado»."
@@ -208,8 +208,8 @@
  learning_medicine_special.1003.a.bad:0 "El olor de los cadáveres empieza a afectar mis humores"
  learning_medicine_special.1003.b:0 "Creo que he aprendido bastante."
 
- learning_medicine_special.1004.desc:0 "A [scoped_physician.GetTitledFirstName] no le hacen mucha gracia mis experimentos. Se niega a proporcionarme ayuda y me reprende porque esta clase de proyectos no entran en las competencias de un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleTierName]."
- learning_medicine_special.1004.unavailable.desc:0 "Dado que [scoped_physician.GetTitledFirstName] ya no puede proporcionarme ayuda, no he podido continuar mis experimentos con la anatomía humana."
+ learning_medicine_special.1004.desc:0 "A [scoped_physician.GetTitledFirstName|l] no le hacen mucha gracia mis experimentos. Se niega a proporcionarme ayuda y me reprende porque esta clase de proyectos no entran en las competencias de un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleTierName]."
+ learning_medicine_special.1004.unavailable.desc:0 "Dado que [scoped_physician.GetTitledFirstName|l] ya no puede proporcionarme ayuda, no he podido continuar mis experimentos con la anatomía humana."
  learning_medicine_special.1004.a:0 "Puede que tentáis razón…"
  learning_medicine_special.1004.unavailable.a:0 "Lástima."
  learning_medicine_special.1004.unavailable.tt:0 "Dejas de estudiar cadáveres humanos"

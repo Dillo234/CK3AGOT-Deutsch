@@ -5,6 +5,7 @@
  death_management.1000.like:0 "이만한 고통을 겪었는데 심장이 남아나긴 할까? 분명 성하지는 않겠지. 그런데도 이렇게 살아 있어. 당신을 떠나보내고도 이 심장은 뛰고 있다고. [dead_character.GetFirstName], 내 [dead_character.Custom('LoverPetName')]. 당신 없이는 이 삶도 예전 같진 않을 거야."
  death_management.1000.neutral:0 "[dead_character.GetFirstName], 당신을 사랑하진 않았을지도 몰라. 하지만 당신이 떠나버렸다는 사실만큼은 생각했던 것보다 훨씬 절실하게 느껴져. 그래도 항상 내 곁을 지켜주던 영원한 동반자였는데. 그런 당신을 너무 당연하게 생각했던 걸까? 말하지 못했던 게 이렇게나 많았을 줄이야..."
  death_management.1000.dislike:0 "[dead_character.GetWifeHusband|U], 당신이 숨을 거뒀을 때 퍼뜩 안도감이 들었어. 부끄러워해야 할 일인지는 모르겠지만, 솔직히 우리 사이에 사랑이란 감정은 없었잖아? 마침내 자유를 되찾은 거야! 새 삶을 시작할 수 있게끔!"
+ death_management.1000.murder_wedding:0 "아, 전혀 예상치 못한 죽음이로군. 전혀 계획된 게 아니란 말이지. 아무도 예상 못 했다고!"
  death_management.1000.a:0 "그래도 기억만큼은 남아 있잖아?"
  death_management.1000.b:0 "안식을 찾기를, [dead_character.GetFirstNameNoTooltip]."
  death_management.1000.c:0 "진작에 그랬다면 좋았을 것을."
@@ -337,9 +338,9 @@
  # Rival
  death_management.1206.t:0 "경쟁자의 전사"
  death_management.1206.desc:0 "\n\n[dead_character.GetFirstNameNoTooltip](이)가 #EMP 나와의#! 전쟁에서 전사했다는 사실을 생각할 때마다 웃음이 나온다. 며칠 동안은 기분이 들떠있을 것 같다!"
- death_management.1206.a:0 "속이 시원하군"
+ death_management.1206.a:0 "속이 다 후련하군."
  death_management.1206.b:0 "내가 처리했어야 하는데!"
- death_management.1206.c:1 "내 #EMP 영웅!#! [battle_death_killer.GetFirstNameNoTooltip]에게 [ROOT.Char.Custom('get_region_flower_type')](을)를 하사해야지."
+ death_management.1206.c:2 "내 #EMP 영웅!#! [battle_death_killer.GetFirstNameNoTooltip]에게 [ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')](을)를 하사해야지."
  # Heir
  death_management.1207.t:0 "후계자의 전사"
  death_management.1207.desc:0 "\n\n[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip](을)를 승계할 사람을 다시 찾아야겠군..."

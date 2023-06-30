@@ -16,7 +16,7 @@
  pet_animal.0101.a_male:0 "¡Gracias, buen señor!"
 
  pet_animal.0103.t:0 "[ROOT.Char.Custom('CatStoryName')]: vasallos encantados"
- pet_animal.0103.desc:0 "Cuando salgo fuera, recibo la vista de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName] de rodillas junto a [ROOT.Char.Custom('CatStoryName')], palmeándole tiernamente la cabeza.\n\n«Tenéis un gato encantador, mi [ROOT.Char.GetLadyLord]»."
+ pet_animal.0103.desc:0 "Cuando salgo fuera, recibo la vista de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName|l] de rodillas junto a [ROOT.Char.Custom('CatStoryName')], palmeándole tiernamente la cabeza.\n\n«Tenéis un gato encantador, mi [ROOT.Char.GetLadyLord]»."
  pet_animal.0103.a:0 "¡Sois muy perspicaz!"
 
  pet_animal.0104.t:0 "[ROOT.Char.Custom('CatStoryName')]: confort mediante ronroneos"
@@ -24,7 +24,7 @@
  pet_animal.0104.a:0 "Creo que puedo seguir con esto un rato más."
 
  pet_animal.0105.t:0 "[ROOT.Char.Custom('CatStoryName')]: secreto revelado"
- pet_animal.0105.desc_opening:0 "#EMP ¡Miau!#!\n\nMiro hacia abajo para ver a mi [ROOT.Char.Custom('CatStoryName')] que ha dejado un pergamino a mis pies… sellado con el estilo característico de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('person'))] [person.GetTitledFirstName]. Cediendo a la curiosidad le echo una ojeada al texto…\n\n"
+ pet_animal.0105.desc_opening:0 "#EMP ¡Miau!#!\n\nMiro hacia abajo para ver a mi [ROOT.Char.Custom('CatStoryName')] que ha dejado un pergamino a mis pies… sellado con el estilo característico de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('person'))] [person.GetTitledFirstName|l]. Cediendo a la curiosidad le echo una ojeada al texto…\n\n"
  pet_animal.0105.desc_murder:0 "«… cómo me pesa el asesinato que cometí, y…»"
  pet_animal.0105.desc_lover:0 "«… el amor que siento por otra persona…»"
  pet_animal.0105.desc_homosexual:0 "«… los impulsos que siento por las personas de mi mismo sexo…»"
@@ -39,7 +39,7 @@
  pet_animal.0105.b:0 "El mundo debe enterarse de esto."
 
  pet_animal.0106.t:0 "[ROOT.Char.Custom('CatStoryName')]: sensibilidad"
- pet_animal.0106.desc:0 "«¡[ROOT.Char.GetFirstNameNoTooltip], este gato debe irse!»\n\nMi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] [spouse.GetTitledFirstName] sujeta a [ROOT.Char.Custom('CatStoryName')] por el pellejo del cuello, con los ojos rojos y la nariz moqueante. «No puedo soportarlo más, ¡casi no puedo respirar cuando está cerca!»"
+ pet_animal.0106.desc:0 "«¡[ROOT.Char.GetFirstNameNoTooltip], este gato debe irse!»\n\nMi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] [spouse.GetTitledFirstName|l] sujeta a [ROOT.Char.Custom('CatStoryName')] por el pellejo del cuello, con los ojos rojos y la nariz moqueante. «No puedo soportarlo más, ¡casi no puedo respirar cuando está cerca!»"
  pet_animal.0106.a:0 "Se [ROOT.Char.Custom('CatStoryHerHim')] daré a [receiver_1.GetFirstNameNoTooltip]…"
  pet_animal.0106.b:0 "A [receiver_2.GetFirstNameNoTooltip] le vendría bien compañía…"
  pet_animal.0106.c:0 "[receiver_3.GetFirstNameNoTooltip] cuidará de [ROOT.Char.Custom('CatStorySheHe')]…"
@@ -47,18 +47,18 @@
  pet_animal.0106.e:0 "Supongo que tengo que librarme de [ROOT.Char.Custom('CatStorySheHe')]…"
 
  pet_animal.0107.t:0 "[ROOT.Char.Custom('CatStoryName')]: el gato"
- pet_animal.0107.desc:0 "«Mi [giver.Custom2('RelationToMe', SCOPE.sC('spouse'))] ya no soporta la compañía de mi pobre [ROOT.Char.Custom('CatStoryName')]… Así que os encargo que os ocupéis de [ROOT.Char.Custom('CatStorySheHe')] en mi lugar».\n\nMi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('giver'))] [giver.GetTitledFirstName] me presenta un gato [receiver.Custom('CatFurColor')]. «[ROOT.Char.Custom('CatStoryName')] es un… una compañía excelente»."
+ pet_animal.0107.desc:0 "«Mi [giver.Custom2('RelationToMe', SCOPE.sC('spouse'))] ya no soporta la compañía de mi pobre [ROOT.Char.Custom('CatStoryName')]… Así que os encargo que os ocupéis de [ROOT.Char.Custom('CatStorySheHe')] en mi lugar».\n\nMi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('giver'))] [giver.GetTitledFirstName|l] me presenta un gato [receiver.Custom('CatFurColor')]. «[ROOT.Char.Custom('CatStoryName')] es un… una compañía excelente»."
  pet_animal.0107.a:0 "Gracias, ¡[ROOT.Char.Custom('CatStoryHerHim')] cuidaré bien!"
  pet_animal.0107.b:0 "Gracias. Tengo la seguridad de que [ROOT.Char.Custom('CatStorySheHe')] será de valor."
 
  pet_animal.0108.t:0 "[receiver.Custom('CatStoryName')]: la vida sin ti"
  pet_animal.0108.t_dead:0 "La vida sin ti"
- pet_animal.0108.desc_opening:0 "Voy a visitar a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.GetTitledFirstName] para ver cómo le va a [receiver.Custom('CatStoryName')].\n\n"
+ pet_animal.0108.desc_opening:0 "Voy a visitar a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.GetTitledFirstName|l] para ver cómo le va a [receiver.Custom('CatStoryName')].\n\n"
  pet_animal.0108.desc_alive_landed:0 "[receiver.GetSheHe|U] me recibe en el exterior de su [receiver.Custom('ResidenceBuilding')], un gato [receiver.Custom('CatFurColor')] en sus brazos. «[receiver.Custom('CatStorySheHe')|U] está bien…"
  pet_animal.0108.desc_alive:0 "[receiver.GetSheHe|U] me recibe fuera, un gato [receiver.Custom('CatFurColor')] en sus brazos. «[receiver.Custom('CatStorySheHe')|U] está bien…"
  pet_animal.0108.desc_alive_1:0 "le gusta cazar pájaros locales!»"
  pet_animal.0108.desc_alive_2:0 "le gusta intentar acicalar a las gallinas!»"
- pet_animal.0108.desc_dead_opening:1 "Voy a visitar a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.GetTitledFirstName] para ver cómo le va a al gato a su cuidado.\n\n"
+ pet_animal.0108.desc_dead_opening:1 "Voy a visitar a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.GetTitledFirstName|l] para ver cómo le va a al gato a su cuidado.\n\n"
  pet_animal.0108.desc_dead_landed:0 "[receiver.GetSheHe|U] me recibe en el exterior de su [receiver.Custom('ResidenceBuilding')], sin ningún gato a la vista."
  pet_animal.0108.desc_dead:0 "[receiver.GetSheHe|U] me recibe en el exterior, sin ningún gato a la vista."
  pet_animal.0108.desc_dead_ending:0 "«Oh, estará jugando por ahí…»\n\n[receiver.GetSheHe|U] mira a cualquier lado menos a mí."
@@ -115,13 +115,13 @@
  pet_animal.1104.a:0 "¿Por qué me dejaste, [ROOT.Char.Custom('DogStoryName')]?"
 
  pet_animal.1105.desc_ending:0 "\n\nCuando estaba a punto de rendirme, un jinete de mi séquito vuelve con noticias preocupantes, ¡me jura que ha visto merodeando a [rival.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
- pet_animal.1105.a:1 "Como [rival.GetSHeHe] tenga algo que ver con esto…"
+ pet_animal.1105.a:1 "Como [rival.GetSheHe] tenga algo que ver con esto…"
 
  pet_animal.1106.desc_ending:0 "\n\nCuando estaba a punto de irme, aparece [friend.Custom2('MyCharacterIntroduction', ROOT.Char)] de ninguna parte tirando de [ROOT.Char.Custom('DogStoryName')].\n\n«¡Amig[ROOT.Char.Custom('ES_OA')] mí[ROOT.Char.Custom('ES_OA')], creo que habéis perdido a alguien!»"
  pet_animal.1106.a:0 "¡Qué suerte! ¡Muchas gracias!"
 
  pet_animal.1107.t:0 "[ROOT.Char.Custom('DogStoryName')]: vasallos encantados"
- pet_animal.1107.desc:0 "Me encuentro con mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName] de rodillas junto a [ROOT.Char.Custom('DogStoryName')], rascándole vigorosamente la tripa.\n\n«¡Este perro vuestro es todo un encanto, mi [ROOT.Char.GetLadyLord]!»"
+ pet_animal.1107.desc:0 "Me encuentro con mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName|l] de rodillas junto a [ROOT.Char.Custom('DogStoryName')], rascándole vigorosamente la tripa.\n\n«¡Este perro vuestro es todo un encanto, mi [ROOT.Char.GetLadyLord]!»"
  pet_animal.1107.a_female:0 "¡Es una buena chica!"
  pet_animal.1107.a_male:0 "¡Es un buen chico!"
 
@@ -135,7 +135,7 @@
  pet_animal.1109.a.tt:0 "#EMP Espero#! que estén bien"
 
  pet_animal.1110.desc:0 "[other_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] y yo encontramos a los perros al cabo de un rato, en plena cópula rigurosa.\n\n"
- pet_animal.1110.desc_your_dog:0 "«Bueno, [ROOT.Char.GetTitledFirstNameNoTooltip]… ¡creo que pronto estaremos emparentados!»"
+ pet_animal.1110.desc_your_dog:0 "«Bueno, [ROOT.Char.GetTitledFirstNameNoTooltip|l]… ¡creo que pronto estaremos emparentados!»"
  pet_animal.1110.desc_their_dog:0 "«[ROOT.Char.Custom('DogStoryName')], ¡cómo pudiste dejar que ese chucho…!»\n\nDeja la frase a medias, pero veo la ira en sus ojos."
  pet_animal.1110.a:0 "Bueno… Es natural."
 
@@ -144,7 +144,7 @@
 
  pet_animal.1112.desc:0 "[other_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] y yo encontramos a los perros al cabo de un rato, en medio de una lucha feroz.\n\n«¡Llamad a vuestro chucho!»\n\n"
  pet_animal.1112.desc_dead:0 "Cuando consigo finalmente que [ROOT.Char.Custom('DogStoryName')] se aparte, el cadáver del perro de [other_owner.GetFirstNameNoTooltip] ya se está enfriando."
- pet_animal.1112.desc_alive:0 "Cuando consigo finalmente que [ROOT.Char.Custom('DogStoryName')] se aparte, [other_owner.GetTitledFirstNameNoTooltip] se marcha sin mirar siquiera atrás."
+ pet_animal.1112.desc_alive:0 "Cuando consigo finalmente que [ROOT.Char.Custom('DogStoryName')] se aparte, [other_owner.GetTitledFirstNameNoTooltip|l] se marcha sin mirar siquiera atrás."
  pet_animal.1112.a:0 "¿Estás bien, [ROOT.Char.Custom('DogStoryName')]?"
 
  pet_animal.1113.t:0 "[ROOT.Char.Custom('DogStoryName')]: la reunión del consejo"
@@ -160,18 +160,18 @@
  pet_animal.1113.b_success:1 "[ROOT.Char.Custom('DogStoryName')] espera paciente."
  pet_animal.1113.b_failure:1 "[ROOT.Char.Custom('DogStoryName')] se va de aventura"
  
- pet_animal.1114.desc:2 "«Lo siento, [ROOT.Char.GetTitledFirstNameNoTooltip]», dice mi [councillor.GetCouncilTitle] [councillor.GetTitledFirstName]. «No puedo estar de acuerdo con...»\n\n#EMP *Grrr*#!\n\n[ROOT.Char.Custom('DogStoryName')] emite un gruñido gutural y [councillor.GetTitledFirstNameNoTooltip] retrocede, mirando al perro, luego a mí, y vuelta al perro.\n\n«Pensándolo mejor, ¡debo admitir que es una idea excelente!»"
+ pet_animal.1114.desc:2 "«Lo siento, [ROOT.Char.GetTitledFirstNameNoTooltip|l]», dice mi [councillor.GetCouncilTitle] [councillor.GetTitledFirstName|l]. «No puedo estar de acuerdo con…»\n\n#EMP *Grrr*#!\n\n[ROOT.Char.Custom('DogStoryName')] emite un gruñido gutural y [councillor.GetTitledFirstNameNoTooltip|l] retrocede, mirando al perro, luego a mí, y vuelta al perro.\n\n«Pensándolo mejor, ¡debo admitir que es una idea excelente!»"
  pet_animal.1014.a_girl:0 "¡Qué bien te portas, [ROOT.Char.Custom('DogStoryName')]!"
  pet_animal.1014.a_boy:0 "¡Qué bien te portas, [ROOT.Char.Custom('DogStoryName')]!"
 
- pet_animal.1115.desc:2 "«Pasemos al siguiente asunto», dice en tono monótono mi [councillor.GetCouncilTitle] [councillor.GetTitledFirstName]. «Es de vital importancia que...»\n\n#EMP *Phhffrrt*#!\n\nEl silencio que cae solo lo rompen los alegres ladridos de [ROOT.Char.Custom('DogStoryName')], que acaba de hacer sus cositas."
+ pet_animal.1115.desc:2 "«Pasemos al siguiente asunto», dice en tono monótono mi [councillor.GetCouncilTitle] [councillor.GetTitledFirstName|l]. «Es de vital importancia que…»\n\n#EMP *Phhffrrt*#!\n\nEl silencio que cae solo lo rompen los alegres ladridos de [ROOT.Char.Custom('DogStoryName')], que acaba de hacer sus cositas."
  pet_animal.1115.a:0 "¡Perro malo!"
 
  pet_animal.1116.desc_opening:0 "Salgo de la sala de reuniones y veo que [ROOT.Char.Custom('DogStoryName')] ya no está. Empiezo a buscar por todas partes, registrando el lugar. ¿Y si se ha perdido y tiene miedo?\n\n"
- pet_animal.1116.desc:1 "De pronto, me encuentro con [courtier.Custom2('MyCharacterIntroduction', ROOT.Char)], que tiene un perro en el regazo. Le está rascando la tripa. Curioso, porque dirías que el perro es igual que [ROOT.Char.Custom('DogStoryName')].\n\n«¡Tienes unas amistades excelentes, [ROOT.Char.GetTitledFirstNameNoTooltip]!»"
+ pet_animal.1116.desc:1 "De pronto, me encuentro con [courtier.Custom2('MyCharacterIntroduction', ROOT.Char)], que tiene un perro en el regazo. Le está rascando la tripa. Curioso, porque dirías que el perro es igual que [ROOT.Char.Custom('DogStoryName')].\n\n«¡Tienes unas amistades excelentes, [ROOT.Char.GetTitledFirstNameNoTooltip|l]!»"
  pet_animal.1116.a:0 "Ja, sí, es genial..."
 
- pet_animal.1117.desc:1 "De pronto, me cruzo con [courtier.Custom2('MyCharacterIntroduction', ROOT.Char)], que está regañando a un perro que se parece muchísimo a [ROOT.Char.Custom('DogStoryName')] y que está rodeado de jirones de papel y tela.\n\n«¡[ROOT.Char.GetTitledFirstNameNoTooltip]! Esta... ¡Esta #EMP bestia#! ha arruinado mis aposentos! ¡Lo ha destrozado todo!»"
+ pet_animal.1117.desc:1 "De pronto, me cruzo con [courtier.Custom2('MyCharacterIntroduction', ROOT.Char)], que está regañando a un perro que se parece muchísimo a [ROOT.Char.Custom('DogStoryName')] y que está rodeado de jirones de papel y tela.\n\n«¡[ROOT.Char.GetTitledFirstNameNoTooltip|l]! Esta… ¡Esta #EMP bestia#! ha arruinado mis aposentos! ¡Lo ha destrozado todo!»"
  pet_animal.1117.a:0 "Eh... Vaya. ¡Perro malo!"
 
  pet_animal.1118.t:1 "[ROOT.Char.Custom('DogStoryName')]: Buscalíos"
@@ -192,7 +192,7 @@
  pet_animal.1191.b:0 "Puedo... #EMP ocuparme#! de esto."
 
  pet_animal.1192.t:0 "[receiver.Custom('DogStoryName')]: la vida sin ti"
- pet_animal.1192.desc_opening:0 "Voy a visitar a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.GetTitledFirstName] para ver cómo le va a [receiver.Custom('DogStoryName')] bajo sus cuidados.\n\n"
+ pet_animal.1192.desc_opening:0 "Voy a visitar a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.GetTitledFirstName|l] para ver cómo le va a [receiver.Custom('DogStoryName')] bajo sus cuidados.\n\n"
  pet_animal.1192.desc_alive_landed:0 "[receiver.GetSheHe|U] me recibe en el exterior de su [receiver.Custom('ResidenceBuilding')], un perro [receiver.Custom('DogFurColor')] a su lado. «[receiver.Custom('DogStorySheHe')|U] está bien…"
  pet_animal.1192.desc_alive:0 "[receiver.GetSheHe|U] me recibe fuera, un perro [receiver.Custom('DogFurColor')] a su lado. «[receiver.Custom('DogStorySheHe')|U] está bien…"
  pet_animal.1192.desc_alive_1:0 "¡Le gusta perseguir a las gallinas!»"
@@ -242,13 +242,13 @@
 ## OTHER PEOPLE
 ##############
  pet_animal.5001.t:0 "El gato del enemigo"
- pet_animal.5001.desc:0 "Pasaba junto a [rival_home.GetName] cuando estoy ocupándome de unos asuntos en esto que se me acerca un gato [rival.Custom('CatFurColor')]. ¿Dónde lo he visto antes...? ¡Ah! ¡Es el gato de mi [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('rival'))] [rival.GetTitledFirstName]!\n\nMaúlla y ronronea cuando una maliciosa sonrisa aparece en mi boca."
+ pet_animal.5001.desc:0 "Pasaba junto a [rival_home.GetName] cuando estoy ocupándome de unos asuntos en esto que se me acerca un gato [rival.Custom('CatFurColor')]. ¿Dónde lo he visto antes…? ¡Ah! ¡Es el gato de mi [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('rival'))] [rival.GetTitledFirstName|l]!\n\nMaúlla y ronronea cuando una maliciosa sonrisa aparece en mi boca."
  pet_animal.5001.a:0 "#EMP Pss, pss#!. No te voy a hacer daño..."
  pet_animal.5001.a.tt:0 "Es una cuchillada de nada."
  pet_animal.5001.b:0 "¡Se va a enterar el gato ese de lo que es una caricia!"
 
  pet_animal.5002.t:0 "El perro del enemigo"
- pet_animal.5002.desc:0 "Pasaba junto a [rival_home.GetName] cuando estoy ocupándome de unos asuntos en esto que se me acerca un perro [rival.Custom('DogFurColor')]. ¿Dónde lo he visto antes...? ¡Ah! ¡Es el perro de mi [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('rival'))] [rival.GetTitledFirstName]!\n\nSe acerca a mí, ladrando y meneando la cola cuando una maliciosa sonrisa aparece en mi boca."
+ pet_animal.5002.desc:0 "Pasaba junto a [rival_home.GetName] cuando estoy ocupándome de unos asuntos en esto que se me acerca un perro [rival.Custom('DogFurColor')]. ¿Dónde lo he visto antes…? ¡Ah! ¡Es el perro de mi [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('rival'))] [rival.GetTitledFirstName|l]!\n\nSe acerca a mí, ladrando y meneando la cola cuando una maliciosa sonrisa aparece en mi boca."
  pet_animal.5002.a:0 "Ven, vamos, no te voy a hacer daño..."
  pet_animal.5002.b:0 "¡Se va a enterar el perro ese de lo que es una caricia!"
 

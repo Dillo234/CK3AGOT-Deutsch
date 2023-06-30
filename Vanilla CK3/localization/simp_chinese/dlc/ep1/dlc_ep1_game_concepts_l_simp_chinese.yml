@@ -71,14 +71,15 @@
  game_concept_court_positions:0 "宫廷职位"
  game_concept_court_position_desc:2 "$game_concept_court_positions$是[liege|E]授予[courtiers|E]和[vassals|E]，以便协助自己的特殊职位。\n\n你从一个$game_concept_court_positions$获得的益处由持有者对于该职位的[aptitude|E]决定。\n\n赐予$game_concept_court_positions$是免费的，但你必须以[gold|E]支付月俸，并且剥夺职位会消耗[prestige|E]。"
 
+ game_concept_court_position_aptitude:0 "宫廷职位称职度"
  game_concept_aptitude:0 "称职度"
- game_concept_aptitude_desc:2 "$game_concept_aptitude$决定了一名[character|E]担任某个[court_position|E]时的效率有多高。\n\n$game_concept_aptitude$分为五级，从糟糕到极佳。角色的$game_concept_aptitude$等级决定了担任[court_position|E]时[liege|E]能获得多少增益。\n\n例如，一名拥有[GetTrait('physician_3').GetName( GetNullCharacter )]特质的角色理所当然更适合担任$court_physician_court_position$。"
+ game_concept_court_position_aptitude_desc:0 "$game_concept_aptitude$决定了一名[character|E]担任某个[court_position|E]时的效率有多高。\n\n$game_concept_aptitude$分为五级，从糟糕到极佳。角色的$game_concept_aptitude$等级决定了担任[court_position|E]时[liege|E]能获得多少增益。\n\n例如，一名拥有[GetTrait('lifestyle_physician').GetName( GetNullCharacter )]特质的角色理所当然更适合担任$court_physician_court_position$。"
 
  game_concept_court_event:0 "宫廷事件"
  game_concept_court_events:0 "宫廷事件"
  game_concept_court_event_desc:0 "$game_concept_court_event$是一种涉及你[court|E]成员的事件，会在[royal_court|E]出现。"
  game_concept_petition_liege:0 "请愿"
- game_concept_petition_liege_desc:0 "一种[activity|E]，[vassals|E]可以请求[liege|E]的帮助。\n\n可以提出各种问题，是否接受由[liege|E]定夺。"
+ game_concept_petition_liege_desc:1 "一次[vassals|E]可以请求[liege|E]帮助的机会。\n\n可以提出各种问题，是否接受由[liege|E]定夺。"
  game_concept_pay_homage:0 "觐见"
  game_concept_pay_homage_desc:0 "一种[activity|E]，[vassals|E]可以正式表现对[liege|E]的忠诚。\n\n觐见的形式多种多样，双方都能获得[opinion|E]、[prestige|E]和[dynasty_prestige|E]。"
 

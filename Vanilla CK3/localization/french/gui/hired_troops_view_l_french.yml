@@ -11,10 +11,10 @@
  HIRED_TROOPS_VIEW_LIST_NO_WAR:0 "#T Mercenaires en attente#!\nEn temps de paix, les [mercenaries|El] recrutés seront en attente du début d’une guerre. Ils se lèveront automatiquement le moment venu."
 
  HIRED_TROOPS_VIEW_MC_CULTURE:0 "[mercenary_company|E] [HiredTroop.GetMercenaryCompany.GetCulture.GetName]"
- HIRED_TROOPS_VIEW_HO_NUM_HOLDINGS:1 "Propriété: [GetDataModelSize(HiredTroop.GetHolyOrderLeasedTitles)]"
- HIRED_TROOPS_VIEW_MC_CAPITAL:0 "Capitale: [HiredTroop.GetMercenaryCompany.GetHomeCounty.GetNameNoTier]"
- HIRED_TROOPS_VIEW_HO_CAPITAL:1 "Quartier général: [HiredTroop.GetHolyOrder.GetCapital.GetNameNoTier]"
- HIRED_TROOPS_VIEW_HO_PATRON:0 "Patron: [HiredTroop.GetHolyOrderPatron.GetUIName]"
+ HIRED_TROOPS_VIEW_HO_NUM_HOLDINGS:1 "Propriété : [GetDataModelSize(HiredTroop.GetHolyOrderLeasedTitles)]"
+ HIRED_TROOPS_VIEW_MC_CAPITAL:0 "Capitale : [HiredTroop.GetMercenaryCompany.GetHomeCounty.GetNameNoTier]"
+ HIRED_TROOPS_VIEW_HO_CAPITAL:1 "Quartier général : [HiredTroop.GetHolyOrder.GetCapital.GetNameNoTier]"
+ HIRED_TROOPS_VIEW_HO_PATRON:0 "Patron : [HiredTroop.GetHolyOrderPatron.GetUIName]"
  HIRED_TROOPS_VIEW_MC_CAPTAIN_LABEL:0 "Capitaine mercenaire"
  HIRED_TROOPS_VIEW_HO_GRANDMASTER_LABEL:0 "Grand maître"
  HIRED_TROOPS_VIEW_MC_HIRE_INFO:1 "[HiredTroop.GetMercenaryCompany.GetCostDesc] pour un [Concept( 'mercenary_contract', 'contrat' )|E] de [HiredTroop.GetMercenaryCompany.GetHireDurationDesc]"
@@ -52,5 +52,5 @@
 
  MERCENARY_COMPANY_COST_BANKRUPTCY:0 "@warning_icon!#X Vous ne pouvez pas embaucher cette [mercenary_company|El], car cela vous [Concept( 'debt', 'endetterait' )|E] trop#!"
  MERCENARY_COMPANY_COST_BANKRUPTCY_HIRED:0 "@warning_icon!#X Vous ne pouvez pas prolonger le contrat avec cette [mercenary_company|El] puisque cela vous [Concept( 'debt', 'endetterait' )|E] trop#!"
- MERCENARY_COMPANY_COST_DEBT:0 "@warning_icon!#X Embaucher cette [mercenary_company|El] vous [Concept( 'debt', 'endettera' )|E]#!"
+ MERCENARY_COMPANY_COST_DEBT:0 "@alert_icon! #alert_trial Embaucher cette [mercenary_company|El] vous [Concept( 'debt', 'endettera' )|E]#!"
  MERCENARY_COMPANY_COST_DEBT_HIRED:0 "@warning_icon!#X Prolonger le contrat avec cette [mercenary_company|El] vous [Concept( 'debt', 'endettera' )|E]#!"

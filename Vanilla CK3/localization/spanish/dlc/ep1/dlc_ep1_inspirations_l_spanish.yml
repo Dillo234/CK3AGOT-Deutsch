@@ -18,14 +18,14 @@
  CAN_SPONSOR_INSPIRATION_INVALID:0 "Inspiración no válida"
  CAN_SPONSOR_INSPIRATION_INVALID_CHARACTER:0 "Mecenas no válido"
  CAN_SPONSOR_INSPIRATION_ALIVE_CHARACTER:0 "@warning_icon!#X [Character.GetUIName] está muert[Character.Custom('ES_OA')]#!"
- CAN_SPONSOR_INSPIRATION_RULER_CHARACTER:0 "@warning_icon!#X [CHARACTER.GetUIName] debe ser [ruler|lE].#!"
+ CAN_SPONSOR_INSPIRATION_RULER_CHARACTER:0 "@warning_icon!#X [Character.GetUIName] debe ser [ruler|lE].#!"
  CAN_SPONSOR_INSPIRATION_IS_OWNER:0 "@warning_icon!#X [Character.GetUIName] no puede financiar una [inspiration|lE] que ya posee.#!"
  CAN_SPONSOR_INSPIRATION_ALREADY_SPONSOR:0 "@warning_icon!#X [Character.GetUIName] no puede financiar una [inspiration|lE] que ya está financiando.#!"
  CAN_SPONSOR_INSPIRATION_BASE_GOLD_COST:0 "@warning_icon!#X [Character.GetUIName] no se puede permitir los $GOLD|V$ @gold_icon! de [gold|lE] para financiar la [inspiration|lE].#!"
 
  INSPIRATION_GENERAL_TOOLTIP_SPONSOR:0 "[Inspiration.GetSponsor.GetUIName|U]"
  INSPIRATION_GENERAL_TOOLTIP_NO_SPONSOR:0 "Ninguna"
- INSPIRATION_GENERAL_TOOLTIP:2 "[SelectLocalization( StringIsEmpty( Inspiration.GetCompletionEffect ), '', 'INSPIRATION_GENERAL_TOOLTIP_EFFECT' )]#S Progreso:#! [Inspiration.GetProgress|V]/[GetDefine( 'NInspiration', 'MAX_PROGRESS' )|V]\n#S [gold|E] invertido:#! @gold_icon! [Inspiration.GetInvestedGold|V]\n#S Propietario:#! [Inspiration.GetOwner.GetUIName]\n#S Mecenas:#! [SelectLocalization( Inspiration.GetSponsor.IsValid, 'INSPIRATION_GENERAL_TOOLTIP_SPONSOR', 'INSPIRATION_GENERAL_TOOLTIP_NO_SPONSOR' )]\n\n#F [Inspiration.GetDescription]#!"
+ INSPIRATION_GENERAL_TOOLTIP:2 "[SelectLocalization( StringIsEmpty( Inspiration.GetCompletionEffect ), '', 'INSPIRATION_GENERAL_TOOLTIP_EFFECT' )]#S Progreso:#! [Inspiration.GetProgress|V]/[GetDefine( 'NInspiration', 'MAX_PROGRESS' )|V]\n#S [gold|E] invertido:#! @gold_icon! [Inspiration.GetInvestedGold]\n#S Propietario:#! [Inspiration.GetOwner.GetUIName]\n#S Mecenas:#! [SelectLocalization( Inspiration.GetSponsor.IsValid, 'INSPIRATION_GENERAL_TOOLTIP_SPONSOR', 'INSPIRATION_GENERAL_TOOLTIP_NO_SPONSOR' )]\n\n#F [Inspiration.GetDescription]#!"
  INSPIRATION_GENERAL_TOOLTIP_EFFECT:0 "#S Efecto:#!\n[Inspiration.GetCompletionEffect]\n\n"
  CHARACTER_HAS_INSPIRATION_TOOLTIP:1 " #T Inspirad[Character.Custom('ES_OA')]#!\n[Character.GetShortUIName] tiene la [Character.GetCurrentInspiration.GetName] - [Character.Custom('InspirationTypeDescriptionFuturePresent')].\n\n[Character.Custom('InspiredPersonQuality')]"
  inspiration_type_desc_present:0 "[ROOT.Char.GetSheHe] es [ROOT.Char.Custom('InspirationTypeDescription')]"
@@ -33,7 +33,7 @@
  CHARACTER_HAS_COMPLETED_AN_INSPIRATION_TOOLTIP:1 "#T Inspiración cumplida#!\n[Character.GetUIName] ha cumplido una [inspiration|lE] en su vida. [Character.Custom('InspirationTypeDescriptionPast')]."
  
  INSPIRATIONS_HEADER:0 "Inspiraciones"
- SELECTED_INSPIRATION_TEXT:1 "[CHARACTER.GetShortUIName] tiene la [Character.GetCurrentInspiration.GetName] - [Character.Custom('InspirationTypeDescriptionFuturePresent')].\n\n[Character.Custom('InspiredPersonQuality')]"
+ SELECTED_INSPIRATION_TEXT:1 "[Character.GetUINameNoTooltip] tiene la [Character.GetCurrentInspiration.GetName] - [Character.Custom('InspirationTypeDescriptionFuturePresent')].\n\n[Character.Custom('InspiredPersonQuality')]"
  SELECTED_INSPIRATION_HEADER:0 "Inspiración"
  START_SPONSOR_INSPIRATION:0 "Financiar la inspiración"
  INSPIRATION_INVESTED_GOLD:0 "Oro total invertido: @gold_icon! [Inspiration.GetInvestedGold]"
@@ -70,7 +70,7 @@
  alchemy_inspiration_cost_tt:0 "Las inspiraciones alquímicas se basan en el [learning|lE]"
 
  ttc_inspired_guest_arrival_title:0 "Ha llegado un invitado inspirado"
- ttc_inspired_guest_arrival_desc:0 "Ha llegado [ttc_inspired_character.GetTitledFirstName] en busca de financiación para su [ttc_inspiration.GetName|l]"
+ ttc_inspired_guest_arrival_desc:0 "Ha llegado [ttc_inspired_character.GetTitledFirstName|l] en busca de financiación para su [ttc_inspiration.GetName|l]"
 
  target_has_sponsored_inspiration:0 "El objetivo tiene una [inspiration|lE] financiada: $VALUE|=+0$"
  legendary_inspiration_skill:0 "Su habilidad es legendaria y célebre en todo el mundo."

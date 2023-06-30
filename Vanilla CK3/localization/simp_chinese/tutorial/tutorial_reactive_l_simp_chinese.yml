@@ -3,7 +3,7 @@
  click_to_open_lesson:1 "#I 点击了解更多#!"
  reactive_advice_mercenaries:0 "$reactive_advice_mercenaries_step_1$"
  action_reactive_advice_mercenaries:0 "$open_tutorial_lesson$$reactive_advice_mercenaries_step_1$"
- action_reactive_advice_mercenaries_desc:0 "雇佣兵是可供雇佣，并能在战争中起到决定性作用的士兵。\n打开这个界面来来获得一些技巧和提示以更好地运用他们！"
+ action_reactive_advice_mercenaries_desc:0 "雇佣兵是可供雇佣，并能在战争中起到决定性作用的士兵。\n打开这个界面来来获得一些技巧与提示以更好地运用他们！"
  action_reactive_advice_mercenaries_click:0 "$click_to_open_lesson$"
  reactive_advice_mercenaries_step_1:0 "雇佣兵"
  reactive_advice_mercenaries_desc:0 "如果你正在输掉一场战争，你可以尝试通过雇佣一些[mercenaries|E]来扭转战局。\n\n雇佣兵需要花费[gold|E]，但是会为你提供很多重要的[army|E]。一旦他们被雇佣，你将可以像指挥你自己的部队一样指挥他们。\n\n#TUT 你可能想雇佣一些雇佣兵来进行你目前的战争。虽然你可以通过[debt|E]来雇佣他们，但我们还是建议你雇佣那些经济条件允许下的雇佣兵，除非你的处境已经十分艰难了。#!"
@@ -50,7 +50,7 @@
  action_reactive_advice_imprisoned_desc:0 "有人囚禁了你！这不是什么好事……\n一旦被囚禁，打开提示查看情况以及你的应对措施。"
  action_reactive_advice_imprisoned_click:0 "$click_to_open_lesson$"
  reactive_advice_imprisoned_step_1:0 "你被囚禁了！"
- reactive_advice_imprisoned_desc:2 "你的角色被抓了，现在只能指望他人的慈悲了。你基本上无能为力。\n\n作为[prisoner|E]，你可以找到关押你的角色，使用#TUT_KW ‘赎回你自己’#![interaction|E]，如果运气好，你就能买回自己的自由！如果你太倒霉，他们可能会[execute|E]你。\n\n#TUT 如果你与囚禁你的人正处于[war|E]，那么他们可以强行获得[victory|E]。你对此束手无策，只能以后更小心点了！\n\n如果你被抓时正好在[commanding|E][army|E]，究其原因可能是你的[prowess_i][prowess|E]较低。为了避免这种风险，有时候别亲自领军会更好。\n\n如果你在[siege|E]中被俘，那么可能是因为敌人[occupied|E]了你的[realm_capital|E]。你必须始终尽量防止敌人能长驱直入你的首都。#!"
+ reactive_advice_imprisoned_desc:2 "你的角色被抓了，现在只能指望他人的慈悲了。你基本上无能为力。\n\n作为[prisoner|E]，你可以找到关押你的角色，使用#TUT_KW “赎回你自己”#![interaction|E]，如果运气好，你就能买回自己的自由！如果你太倒霉，他们可能会[execute|E]你。\n\n#TUT 如果你与囚禁你的人正处于[war|E]，那么他们可以强行获得[victory|E]。你对此束手无策，只能以后更小心点了！\n\n如果你被抓时正好在[commanding|E][army|E]，究其原因可能是你的[prowess_i][prowess|E]较低。为了避免这种风险，有时候别亲自领军会更好。\n\n如果你在[siege|E]中被俘，那么可能是因为敌人[occupied|E]了你的[realm_capital|E]。你必须始终尽量防止敌人能长驱直入你的首都。#!"
  reactive_advice_county_control:0 "$reactive_advice_county_control_step_1$"
  action_reactive_advice_county_control:0 "$open_tutorial_lesson$$reactive_advice_county_control_step_1$"
  action_reactive_advice_county_control_desc:1 "如果[county|E]的[control|E]较低，那么你从此地获得的各类产出就会减少。\n打开此处查看如何管理你的伯爵领控制力！"
@@ -59,7 +59,7 @@
  reactive_advice_county_control_desc:2 "你有个[counties|E]的[control|E]较低，这意味着你从此地获得的[taxes|E]与[levies|E]将会减少。不过，再次提高控制力的办法还是有的！\n\n#TUT 你可以在许多界面里查看控制力，包括直辖领地栏、领地界面、当前情况界面和伯爵领界面。\n\n为了提高控制力，你需要打开伯爵领界面并委派你的[marshal|E]执行[increase_control|E]任务。控制力会随时间提高，但速度很慢——我们建议你任用一名能力较高的军事总管。\n\n如果你任由一个伯爵领长期处于低控制力的状态，该地会获得[county_corruption|E]。为了避免此事发生，我们建议你不要一次性占领过多土地。#!"
  reactive_advice_looming_game_over:0 "$reactive_advice_looming_game_over_step_1$"
  reactive_advice_looming_game_over_step_1:0 "避免游戏结束"
- reactive_advice_looming_game_over_desc:5 "哦不！看来你没有[player_heir|E]了。如果你现在死亡，游戏就会结束——那是我们要尽量避免的！\n\n#TUT 如果你处于这种情况，这可能意味着你是你的宗族的最后一人。这种时候只有一种可行办法——生育一个[legitimate|E]继承人！\n\n如果你所处的社会只允许单一性别继承，那么你可以设法改变你的[gender_law|E]，放宽它的限制。如果你有任何[bastards|E]，现在就是将他们合法化的时机了！\n\n另外，务必确保你与[fertility|E]较高的角色[married|E]（从经验上来说，四十五岁以上的女性很难保有生育能力）。如果这样依然无效，那就与你的[spouse|E][divorce|E]或索性考虑[murder|E]，之后再与其他人结婚——或者尝试使用[seduce_scheme|E]来诞下一名私生子。\n\n这是关键时刻，不要冒任何无意义的风险！#!"
+ reactive_advice_looming_game_over_desc:5 "哦不！看来你没有[player_heir|E]了。如果你现在死亡，游戏就会结束——那是我们要尽量避免的！\n\n#TUT 如果你处于这种情况，这可能意味着你是你的宗族的最后一人。这种时候只有一种可行办法——生育一个[legitimate|E]继承人！\n\n如果你所处的社会只允许单一性别继承，那么你可以设法改变你的[gender_law|E]，放宽它的限制。如果你有任何[bastards|E]，现在就是将他们合法化的时机了！\n\n另外，务必确保你与[fertility|E]较高的角色[married|E]（从经验上来说，四十五岁以上的女性很难保有生育能力）。如果这样依然无效，那就与你的[spouse|E][divorce|E]或索性考虑[GetScheme('murder').GetTypeName]，之后再与其他人结婚——或者尝试使用[GetScheme('seduce').GetTypeName]来诞下一名私生子。\n\n这是关键时刻，不要冒任何无意义的风险！#!"
  reactive_advice_bankruptcy:0 "$reactive_advice_bankruptcy_step_1$"
  action_reactive_advice_bankruptcy:0 "$open_tutorial_lesson$$reactive_advice_bankruptcy_step_1$"
  action_reactive_advice_bankruptcy_desc:0 "你一点儿[gold_i]钱都没了，你正处于负债状态！\n打开负债概览，了解如何摆脱它。"
@@ -80,7 +80,7 @@
  action_reactive_advice_bishop_endorsement_desc:0 "你的主教并不拥护你！\n打开这里查看这对你意味着什么，以及你能如何解决这种情况。"
  action_reactive_advice_bishop_endorsement_click:0 "$click_to_open_lesson$"
  reactive_advice_bishop_endorsement_step_1:0 "主教的认可"
- reactive_advice_bishop_endorsement_desc:3 "你角色[faith|E]的机制如此，你会在你的[council|E]内有一位[realm_priest|E]。\n\n这些主教握有巨大的权力，非常愿意与你分享权力，只要你做事讨他们喜欢……\n\n#TUT 你的主教从你[realm|E]内所有的[temple_holdings|E]中向你提供[taxes|E]和[levies|E]，而且给你的数量取决于其对你的[opinion|E]。\n\n被讨厌意味着你不会获得任何东西，而且主教甚至会找你的麻烦！例如说，主教可以强迫你跟你的[spouse|E]离婚……\n\n你应该尽力提升他们对你的好感。使用#TUT_KW $gift_interaction$#![interaction|E]或发起一场[sway_scheme|E]是两个值得考虑的不错选项。\n\n如果用尽办法还是失败了，组织一次[unfortunate_accident|E]也永远是一种选择……也许继任者会更友好？#!"
+ reactive_advice_bishop_endorsement_desc:3 "你角色[faith|E]的机制如此，你会在你的[council|E]内有一位[realm_priest|E]。\n\n这些主教握有巨大的权力，非常愿意与你分享权力，只要你做事讨他们喜欢……\n\n#TUT 你的主教从你[realm|E]内所有的[temple_holdings|E]中向你提供[taxes|E]和[levies|E]，而且给你的数量取决于其对你的[opinion|E]。\n\n被讨厌意味着你不会获得任何东西，而且主教甚至会找你的麻烦！例如说，主教可以强迫你跟你的[spouse|E]离婚……\n\n你应该尽力提升他们对你的好感。使用#TUT_KW $gift_interaction$#![interaction|E]或发起一场[GetScheme('sway').GetTypeName]是两个值得考虑的不错选项。\n\n如果用尽办法还是失败了，组织一次[GetScheme('murder').GetTypeName]也永远是一种选择……也许继任者会更友好？#!"
  
  reactive_advice_encyclopedia:0 "$reactive_advice_encyclopedia_step_1$"
  action_reactive_advice_encyclopedia:0 "$open_tutorial_lesson$$reactive_advice_encyclopedia_step_1$"
@@ -160,3 +160,193 @@
  ra_artifact_inventory_open_step_open:0 "打开宝物栏（已高亮）"
  ra_artifact_inventory_welcome:0 "$ra_artifact_inventory_general$"
  ra_artifact_inventory_welcome_desc:0 "在你的宝物栏，你可以装备[inventory_artifacts|E]以获得各种增益，例如提高某项[skill|E]，或是提高你的[prestige|E]。\n\n你也可以[repair|E]或[reforge|E][inventory_artifacts|E]，这会恢复它们的[durability|E]，防止宝物随时间流逝而毁坏。\n\n你也可以查看有什么[artifact_claims|E]，并尝试为你自己拿到这些[artifacts|E]！"
+ 
+ # Inventory
+ ra_maa_stationing_open_card_step:0 "驻扎兵士"
+ ra_maa_stationing_open_card_step_desc:0 "你有未[stationed|E]的[men_at_arms|E]。\n\n驻扎[regiments|E]可以使他们更强大，更擅长作战，这对赢得[battles|E]至关重要。\n\n现在驻扎一支军团吧！"
+ ra_maa_stationing_open_card_step_tt:0 "点击你的一支有“#X $MAA_UNSTATIONED$#!”文本的兵士（高亮）"
+ ra_maa_stationing_click_station_button:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_click_station_button_desc:0 "你可以在[domain|E]的每处[holding|E]驻扎一支[men_at_arms|E][regiment|E]\n\n所有军团类型都能驻扎在所有地产上，但有些军团类型能获得更大增益。\n\n选择一处地产驻扎这支军团。"
+ ra_maa_stationing_click_station_button_tt:0 "点击“更改驻扎地产”按钮（高亮）"
+ ra_maa_stationing_select_station:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_select_station_desc:0 "不同[holdings|E]会根据你选择建造的[buildings|E]提供不同增益。\n\n在这个界面你可以看到你的[men_at_arms|E][regiment|E]驻扎在某个地产上会获得多少增益。\n\n在地图上点击一处你认为能给予军团最佳增益的#P 绿色#!地产。"
+ ra_maa_stationing_select_station_tt:0 "点击地图上任意#P 绿色#!地产"
+ ra_maa_stationing_finished:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_finished_desc:0 "[men_at_arms|E][regiment|E]现在已[stationed|E]，你可以在它的肖像下看到它变强了多少（高亮部分）。\n\n记得不时来检查一下，以便让你的军团驻扎在最优的[holdings|E]中。\n\n尤其是当你征服或继承了新领地，或者你决定用[GetBuilding('smiths_01').GetName]或[GetBuilding('stables_01').GetName]等[buildings|E]专门化某处地产时。"
+
+
+# Tours
+ REACTIVE_ADVICE_TOURS:0 "巡游"
+
+ action_reactive_advice_tours_picking_vassals:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_TOURS$"
+ action_reactive_advice_tours_picking_vassals_desc:0 "你现在正在规划在大巡游中拜访那些封臣。打开此处了解规划巡游的更多事项。"
+ action_reactive_advice_tours_picking_vassals_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_tours_picking_vassals:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_intro:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_intro_desc:0 "你即将开始对[realm|E]的[GetActivityType( 'activity_tour' ).GetName()]。\n\n在巡游中，你会[travel|E]去拜访你的[vassals|E]，投入[gold|E]以获得[county_control|E]、[opinion|E]、[cultural_acceptance|E]之类的回报！"
+
+ ra_tours_picking_vassals_add:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_add_desc:0 "首先，你需要选择拜访哪些[vassals|E]。\n\n要拜访谁取决于[GetActivityType( 'activity_tour' ).GetName()]的类型。例如，在[majesty_tour|E]中每个[stop|E]都会提高该封臣的[opinion|E]，所以你可以选择对你的好感度降低的封臣。\n\n在停留点之间旅行很远会提高每处停留的[gold|E]花费。"
+ ra_tours_picking_vassals_add_prompt:0 "点击地图，添加至少一名要拜访的封臣"
+
+ ra_tours_picking_vassals_stops:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_stops_desc:0 "在巡游的每处[stop|E]，你可以选择以下之一：\n$BULLET_WITH_TAB$[tour_the_grounds|E]，提高[county_control|E]\n$BULLET_WITH_TAB$要求[hosted_dinner|E]，建立[hooks|E]和[relations|E]\n$BULLET_WITH_TAB$要求你的[vassal|E]组织[cultural_festival|E]，提高[county_opinion|E]和[cultural_acceptance|E]"
+
+ ra_tours_picking_vassals_conclusion:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_conclusion_desc:0 ""一旦你对[stops|E]和它们的顺序感到满意了，就可以进入下一个步骤了。"
+
+
+# Active Regency Liege Side
+ REACTIVE_ADVICE_REGENCY_TERM:0 "摄政"
+ REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT:0 "打开摄政界面（已高亮）"
+ REACTIVE_ADVICE_YOU_REGENCY_REASONS:0 "以下情况会出现[regency|E]：\n$BULLET_WITH_TAB$你在[realm|E]外[travel|E]\n$BULLET_WITH_TAB$你是个[child|E]\n$BULLET_WITH_TAB$你获得了[GetTrait('incapable').GetName( GetPlayer )]特质"
+
+ reactive_advice_regency_for_liege:0 "$action_reactive_advice_regency_for_liege$"
+ action_reactive_advice_regency_for_liege:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_REGENCY_TERM$"
+ action_reactive_advice_regency_for_liege_desc:0 "你现在有了一个摄政。点击此处打开摄政介绍。"
+ action_reactive_advice_regency_for_liege_click:0 "$click_to_open_lesson$"
+
+ ra_regency_liege_intro:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_intro_desc:0 "你现在有了一个[regent|E]。\n\n$REACTIVE_ADVICE_YOU_REGENCY_REASONS$"
+
+ ra_regency_liege_effects:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_effects_desc:0 "[regency|E]时，你仍可执行正常情况下可以执行的所有操作。\n\n但是，[regent|E]将可以对你和你的[vassals|E]使用特殊的[diarch_powers|E]。你总是拥有对这些$game_concept_diarch_powers$的[veto|E]权。"
+
+ ra_regency_liege_open_UI:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_open_UI_desc:0 "现在让我们看看你的[regency|E]！"
+ ra_regency_liege_open_UI_prompt:0 "$REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT$"
+
+ ra_regency_liege_open_tab:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_open_tab_desc:0 "你的[regent|E]显示在“$DIARCHY_WINDOW_YOUR_TAB$”标签页中。"
+ ra_regency_liege_open_tab_prompt:0 "打开“$DIARCHY_WINDOW_YOUR_TAB$”标签页（已高亮）"
+
+ ra_regency_liege_scales_of_power:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_scales_of_power_desc:0 "这些是[scales_of_power|E]。\n\n天平越朝你的[regent|E]倾斜，他们就会获得更多[diarch_powers|E]，而且结束[regency|E]也会变得更加困难。\n\n你可以直接使用“$DIARCHY_WINDOW_SWING_SCALES$”按钮，将权力天平拨动到对你有利的位置。"
+
+ ra_regency_liege_mandate:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_mandate_desc:0 "你可以给[regent|E]下达一个[mandate|E]，让其专注于那个领域。\n\n你可以随时根据你的优先事项调整这个指令。"
+
+ ra_regency_liege_ending:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_ending_desc:0 "如果启用[regency|E]的条件不再成立，你可以尝试结束它。\n\n[regent|E]必须接受，但如果你向他们提供[gold|E]或[favor|E]之类的东西，他们更有可能接受。\n\n如果他们拒绝，会向你发动[war|E]！"
+
+ ra_regency_liege_conclusion:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_conclusion_desc:0 "摄政大多数反应性事务。现在记得留意[scales_of_power|E]。\n\n当你的[regent|E]使用其[diarch_powers|E]时，你会知道，并决定要如何应对。"
+
+
+#  Active Regency Regent Side
+ reactive_advice_regency_for_regent:0 "$action_reactive_advice_regency_for_regent$"
+ action_reactive_advice_regency_for_regent:0 "$open_tutorial_lesson$摄政"
+ action_reactive_advice_regency_for_regent_desc:0 "你现在是你领主的摄政了。点击此处打开摄政介绍。"
+ action_reactive_advice_regency_for_regent_click:0 "$click_to_open_lesson$"
+
+ ra_regency_regent_intro:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_intro_desc:0 "你正担任你[liege|E]的[regent|E]。\n\n以下情况会出现[regency|E]：\n$BULLET_WITH_TAB$你的领主在[realm|E]外[travels|E]\n$BULLET_WITH_TAB$你的领主是[child|E]\n$BULLET_WITH_TAB$你的领主获得了[GetTrait('incapable').GetName( GetPlayer )]特质"
+
+ ra_regency_regent_powers:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_powers_desc:0 "作为[regent|E]，你将可以对你的[liege|E]和你的[vassals|E]同僚使用特殊的[diarch_powers|E]。你的领主总是拥有对这些$game_concept_diarch_powers$的[veto|E]权。\n\n对你的封臣同僚使用这些权力可能会被视为越权，给予你[strife|E]的[opinion|E]惩罚。"
+
+ ra_regency_regent_open_UI:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_open_UI_desc:0 "现在让我们看看你的[regency|E]！"
+ ra_regency_regent_open_UI_prompt:0 "$REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT$"
+
+ ra_regency_regent_open_tab:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_open_tab_desc:0 "你的[regent|E]状态显示在“$DIARCHY_WINDOW_LIEGE_TAB$”标签页。"
+ ra_regency_regent_open_tab_prompt:0 "打开“$DIARCHY_WINDOW_LIEGE_TAB$”标签页（已高亮）"
+
+ ra_regency_regent_scales_of_power:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_scales_of_power_desc:0 "这些是[scales_of_power|E]。\n\n天平越朝你倾斜，你就会获得更多[diarch_powers|E]，而且结束[regency|E]也会变得更加困难。\n\n你可以直接使用“$DIARCHY_WINDOW_SWING_SCALES$”按钮，将权力天平拨动到对你有利的位置。"
+
+ ra_regency_regent_mandate:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_mandate_desc:0 "你的[liege|E]可以给你下达[mandate|E]，让你有机会改善[realm|E]。\n\n如果你把握住了这些机会，就可以使[scales_of_power|E]向你倾斜。"
+
+ ra_regency_regent_ending:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_ending_desc:0 "如果启用[regency|E]的条件不再成立，你的[liege|E]可以尝试结束它。\n\n如果[scales_of_power|E]极其偏向于你，你可以阻拦领主结束摄政，甚至可以针对其[primary_title|E]发动[war|E]！"
+
+ ra_regency_regent_conclusion:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_conclusion_desc:0 "作为[regent|E]，你可以对[liege|E]或[vassals|E]同僚使用[diarch_powers|E]。\n\n如果你不想引起领主的反感，可以简单地只对出现的机会做出反应，领主可能会奖励你的忠诚！"
+
+
+# Prepare by setting a Regent
+ REACTIVE_ADVICE_FUTURE_REGENT:0 "未来的摄政"
+ action_reactive_advice_set_future_regent:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_FUTURE_REGENT$"
+ action_reactive_advice_set_future_regent_desc:1 "摄政会在你无法统治时代你统治。点击这里了解如何控制担任你摄政的人选。"
+ action_reactive_advice_set_future_regent_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_set_future_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+
+ ra_regency_future_regent_intro:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_intro_desc:0 "在未来，你有可能无法亲自统治你的[realm|E]，这时候[regency|E]就会开始统治。\n\n在此事发生前，你可以查看你未来的[regent|E]，甚至自己指定一个！\n\n$REACTIVE_ADVICE_YOU_REGENCY_REASONS$"
+
+ ra_regency_future_regent_open_realm_panel:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_realm_panel_desc:0 "让我们预览一下你未来的[regency|E]！你可以在领地界面查看。"
+ ra_regency_future_regent_open_realm_panel_prompt:0 "打开领地界面（已高亮）"
+
+ ra_regency_future_regent_open_UI:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_UI_desc:1 "你的[regency|E]情况显示在这里，领地界面的顶端。"
+ ra_regency_future_regent_open_UI_prompt:1 "打开摄政界面（已高亮）"
+
+ ra_regency_future_regent_open_tab:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_tab_desc:0 "你未来的[regent|E]显示在“$DIARCHY_WINDOW_YOUR_TAB$”标签页中。"
+ ra_regency_future_regent_open_tab_prompt:0 "$ra_regency_liege_open_tab_prompt$"
+
+ ra_regency_future_regent_current_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_current_regent_desc:0 "你未来的[regent|E]显示在这里。\n\n除非你指定一个，否则[regent_succession_score|E]最高的候选人会成为摄政。"
+
+ ra_regency_future_regent_swap_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_swap_regent_desc:0 "你可以使用该按钮指定[regent|E]。\n\n你应该寻找高[diarch_loyalty|E]和高[Concept( 'diarch_aptitude', '称职度' )|E]的摄政。"
+
+ ra_regency_future_regent_succession:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_succession_desc:0 "如果你的当前[regent|E]死亡，或因为某些原因无法担任[regent|E]，下一继承顺位的角色会顶替其位置。"
+
+ ra_regency_future_regent_conclusion:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_conclusion_desc:0 "就目前而言，如果你想控制谁会代你统治，考虑指定一位[regent|E]。"
+
+
+# Travel Planning
+ REACTIVE_ADVICE_TRAVEL_PLANNING:0 "旅行规划"
+ action_reactive_advice_travel_planning:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ action_reactive_advice_travel_planning_desc:0 "你即将开始旅行，打开此处了解规划旅行的更多事项。"
+ action_reactive_advice_travel_planning_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_travel_planning:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+
+ ra_travel_planning_intro:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_intro_desc:0 "你即将[travel|E]离开现在所处的地点。在离开前，你应该规划你的旅行。"
+
+ ra_travel_planning_entourage:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_entourage_desc:0 "你很少会独自[travel|E]，与你一同旅行的[characters|E]会加入你的[entourage|E]。\n\n这些角色通常也会在你的目的地加入你。"
+
+ ra_travel_planning_speed_safety:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_speed_safety_desc:0 "规划[travel|E]时有两项主要因素需要考虑：[travel_speed|E]和[travel_safety|E]。\n\n基础速度为100%，更高的速度意味着你会更快抵达目的地。\n\n安全性会抵消你在路上可能遇到的[travel_danger|E]。高安全性意味着你和你的[entourage|E]可以穿越危险地带而更少遇到危险。"
+
+ ra_travel_planning_caravan_master:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_caravan_master_desc:0 "你可以委任[GetCourtPositionType('travel_leader_court_position').GetName()]，这个特殊的[court_position|E]会参加你所有的[travels|E]。\n\n他们对你的[travel_speed|E]和[travel_safety|E]有很大影响，所以你通常会希望在长途旅行中有人担任这个职位。"
+
+ ra_travel_planning_travel_options:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_travel_options_desc:0 "你也可以为这段行程选择至多两个[travel_options|E]。\n\n旅行选项通常花费[gold|E]，并提供不同的增益，大多是关于[travel_speed|E]和[travel_safety|E]。\n\n许多选项会降低路线上特定类型[terrain|E]的[travel_danger|E]。一个地点的每种危险都会以独特的颜色显示在地图上。你可能遇到的所有这些危险也会在你的路线上以图标的方式显示。"
+
+ ra_travel_planning_custom_route:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_custom_route_desc:0 "最后，你可以自定义路线来绕过路上的[travel_danger|E]，而不是直奔目的地。"
+
+ ra_travel_planning_conclusion:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_conclusion_desc:0 "在离开前，先检查一下总旅行时间，并确保路上发生[travel_danger|E]的概率不要太高。\n\n一路顺风！"
+
+# Create Accolade
+ REACTIVE_ADVICE_CREATE_ACCOLADE:0 "勋号"
+
+ reactive_advice_create_accolade:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+
+ ra_create_accolade_knights_panel:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_knights_panel_desc:0 "你现在可以授予一位[knights|E][accolade|E]！\n\n持有勋号的骑士会成为[acclaimed_knight|E]，为你和你的[armies|E]提供增益。\n\n勋号会持续到你摧毁它，并且会通过[accolade_succession|E]传给未来的骑士。"
+ ra_create_accolade_knights_panel_prompt:0 "选择一个未分配的勋号（已高亮）"
+
+ ra_create_accolade_candidates:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_candidates_desc:0 "你创建[accolade|E]时，需要从列表中选择一位有效的[knights|E]。"
+ ra_create_accolade_candidates_prompt:0 "在列表中选择候选人（已高亮）"
+
+ ra_create_accolade_attributes:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_attributes_desc:0 "每位[acclaimed_knight|E]有两种[accolade_types|E]（已高亮），一个主要的一个次要的。在你创建[accolade|E]前，会为每位候选人显示这些属性。\n\n每种属性会给予你和你的[armies|E]不同的增益，随勋号获得[glory|E]而解锁。参加[GetActivityType( 'activity_tournament' ).GetName()][contests|E]和[battles|E]可以获得荣誉值。\n\n主要属性总是[accolade|E]的一部分，在[accolade_succession|E]时不会更改。"
+   
+ ra_create_accolade_conclusion:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_conclusion_desc:0 "只要你想，现在就可以创建[accolade|E]。\n\n随着你的[culture|E]发现[innovations|E]，可以使用的勋号会越来越多。"

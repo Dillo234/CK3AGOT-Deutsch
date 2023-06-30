@@ -140,9 +140,9 @@
  adultery.2001.a:0 "Мне нужно знать наверняка!"
  adultery.2001.b:0 "Конечно же, [adultery_child.GetSheHe] [Select_CString(adultery_child.IsFemale, 'моя', 'мой' )] [adultery_child.Custom('GetDaughterSon')]."
  adultery.2001.a.tt:0 "Если [adultery_child.GetFirstNameNoTooltip] не мой ребенок:"
- adultery.2001.a.duel_success:0 "Я успешно шпионю за своей семьей" # [LocEditor:AwaitingBatchUpdate]
+ adultery.2001.a.duel_success:1 "Я успешно шпионю за своей семьей"
  adultery.2001.a.duel_success.tooltip:0 "Вы узнаете правду, какой бы она ни была"
- adultery.2001.a.duel_failure:0 "Меня поймали за попыткой узнать правду" # [LocEditor:AwaitingBatchUpdate]
+ adultery.2001.a.duel_failure:1 "Меня поймали за попыткой узнать правду"
 
  adultery.2002.t_a:0 "Наш ребенок"
  adultery.2002.desc_no_child:0 "Прогуливаясь в саду, [Select_CString(adultery_spouse.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('adultery_spouse'))] [adultery_spouse.GetTitledFirstName] демонстративно отворачивается от меня, когда я машу [Select_CString(adultery_spouse.IsFemale, 'ей', 'ему' )].\n\nПохоже, мои сомнения в [adultery_spouse.GetHerHis] неверности были ошибочными. Но [adultery_spouse.GetFirstNameNoTooltip] вряд ли забудет об этом в ближайшее время."

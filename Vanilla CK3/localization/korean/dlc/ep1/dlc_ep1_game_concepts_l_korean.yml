@@ -71,14 +71,15 @@
  game_concept_court_positions:0 "궁정 직위"
  game_concept_court_position_desc:2 "$game_concept_court_positions$는 [courtiers|E]와 [vassals|E]에게 하사할 수 있는 특별한 직책으로, 해당 직책을 부여받은 인물은 자신의 [liege|E]을 돕습니다.\n\n$game_concept_court_positions$로 얻는 혜택은 해당 궁정 직위 소유주의 [aptitude|E]에 따라 결정됩니다.\n\n$game_concept_court_positions$를 임명하는 데 별도의 비용은 소모되지 않지만 매달 [gold|E]로 봉급을 지급해야 합니다. 또한 직위를 박탈하는 데 [prestige|E]이 소모됩니다."
 
+ game_concept_court_position_aptitude:0 "궁정 직위 적성"
  game_concept_aptitude:0 "적성"
- game_concept_aptitude_desc:2 "[character|E]의 $game_concept_aptitude$은 특정 [court_position|E]에서 얼마나 능률을 발휘할 수 있는지를 결정하는 척도입니다.\n\n$game_concept_aptitude$은 5개의 단계로 구별되며, 끔찍함부터 훌륭함이 존재합니다. 인물의 $game_concept_aptitude$ 단계는 [court_position|E]를 기용했을 때 [liege|E]이 받는 보너스를 결정합니다.\n\n예를 들어, [GetTrait('physician_3').GetName( GetNullCharacter )]인 인물은 $court_physician_court_position$에 임명했을 때 훌륭한 역량을 발휘할 수 있습니다."
+ game_concept_court_position_aptitude_desc:0 "[character|E]의 $game_concept_aptitude$은 특정 [court_position|E]에서 얼마나 능률을 발휘할 수 있는지를 결정하는 척도입니다.\n\n$game_concept_aptitude$은 5개의 단계로 구별되며, 끔찍함부터 훌륭함이 존재합니다. 인물의 $game_concept_aptitude$ 단계는 [court_position|E]를 기용했을 때 [liege|E]이 받는 보너스를 결정합니다.\n\n예를 들어, [GetTrait('lifestyle_physician').GetName( GetNullCharacter )]인 인물은 $court_physician_court_position$에 임명했을 때 훌륭한 역량을 발휘할 수 있습니다."
 
  game_concept_court_event:0 "궁정 이벤트"
  game_concept_court_events:0 "궁정 이벤트"
  game_concept_court_event_desc:0 "$game_concept_court_event$는 [court|E] 구성원을 중심으로 발생하는 사건을 의미합니다. [royal_court|E]에서 확인할 수 있습니다."
  game_concept_petition_liege:0 "탄원"
- game_concept_petition_liege_desc:0 "[vassals|E]이 [liege|E]에게 지원을 요청할 수 있는 [activity|E]입니다.\n\n여러 사안을 제기할 수 있으며, 요청 수락 여부는 전적으로 [liege|E]에게 달려 있습니다."
+ game_concept_petition_liege_desc:1 "[vassals|E]이 [liege|E]에게 지원을 요청할 수 있는 기회입니다.\n\n여러 사안을 제기할 수 있으며, 요청 수락 여부는 전적으로 [liege|E]에게 달려 있습니다."
  game_concept_pay_homage:0 "충성의 맹세"
  game_concept_pay_homage_desc:0 "[vassals|E]이 [liege|E]에게 정식으로 충성을 표현하는 [activity|E]입니다.\n\n충성의 맹세는 여러 방식으로 할 수 있으며, 양측 모두 [opinion|E]이 개선되고 [prestige|E]과 [dynasty_prestige|E]을 얻습니다."
 

@@ -19,7 +19,7 @@
  mystic_lifestyle.1004.a:0 "Мне совершенно безразлично, о чем они там шепчутся."
  mystic_lifestyle.1004.b:0 "Возможно, они поймут, если я буду вести себя более приветливо и открыто?"
 
- mystic_lifestyle.1005.opening:0 "[Select_CString(ROOT.Char.IsFemale, 'Любезнейшая' 'Любезнейший' )] [SCOPE.sC('vassal').Custom2('RelationToMeShort', ROOT.Char )]!"
+ mystic_lifestyle.1005.opening:0 "[Select_CString(ROOT.Char.IsFemale, 'Любезнейшая', 'Любезнейший' )] [SCOPE.sC('vassal').Custom2('RelationToMeShort', ROOT.Char )]!"
  mystic_lifestyle.1005.desc:0 "Не могу сказать, что полностью понимаю ваши привычки и занятия, но одобряю очевидное рвение, что вы проявляете во время молитвы.\n\nБыли бы все верующие столь преданны!"
  mystic_lifestyle.1005.a:0 "Меня радует, что вы сумели оценить мои труды."
  mystic_lifestyle.1005.b:0 "Позвольте, я вам все покажу!"
@@ -37,6 +37,6 @@
  mystic_lifestyle.1008.desc:0 "Несмотря на слабость, я делаю все возможное для единения.\n\nОно вышло более ярким, чем когда либо, и этим утром, невероятно, [ROOT.Char.GetFaith.HighGodName|U] дарует мне чудо!"
  mystic_lifestyle.1008.a:0 "Мой недуг исцелен!"
 
- mystic_lifestyle.1009.opening:0 "[Select_CString(ROOT.Char.IsFemale, 'Любезнейшая' 'Любезнейший' )] [SCOPE.sC('mystic').Custom2('RelationToMeShort', ROOT.Char )]!"
+ mystic_lifestyle.1009.opening:0 "[Select_CString(ROOT.Char.IsFemale, 'Любезнейшая', 'Любезнейший' )] [SCOPE.sC('mystic').Custom2('RelationToMeShort', ROOT.Char )]!"
  mystic_lifestyle.1009.desc:0 "Стоит поздравить вас с мистическим исследованием нашей веры!\n\nЕсли верить слухам, мне есть чему у вас поучиться!"
  mystic_lifestyle.1009.a:0 "С радостью поделюсь с вами!"

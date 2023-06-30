@@ -8,6 +8,9 @@
  armarms_arm:0 "팔"
  armarms_arms:0 "팔"
 
+ footfeet_foot:0 "발"
+ footfeet_feet:0 "발"
+
  eyeeyes_eye:0 "눈"
  eyeeyes_eyes:0 "눈"
 
@@ -15,10 +18,31 @@
  maskface_face:0 "얼굴"
 
  # Grammatical Stuff
- articleblank_article:0 " "
- articleblank_articlevowel:0 " "
+ articleblank_article:0 "$articleblank_article$ "
+ articleblank_articlevowel:0 "$articleblank_article$ "
  articleblank_blank:0 ""
 
  maskface_behind:0 "뒤에서"
  maskface_in:0 "안에서"
  maskface_across:0 "전반에서"
+
+ # Substitution Stuff
+ senseobserve_eye:0 "눈"
+ senseobserve_taste:0 "미각"
+
+#frostbite event
+ bodypart_nose:0 "코"
+ bodypart_ear:0 "귀"
+ bodypart_ears:0 "귀"
+ bodypart_finger:0 "손가락"
+ bodypart_fingers:0 "손가락"
+ bodypart_hand:0 "손"
+ bodypart_hands:0 "손"
+ bodypart_arm:0 "팔"
+ bodypart_arms:0 "팔"
+ bodypart_leg:0 "다리"
+ bodypart_legs:0 "다리"
+ bodypart_foot:0 "발"
+ bodypart_feet:0 "발"
+ bodypart_toe:0 "발가락"
+ bodypart_toes:0 "발가락"

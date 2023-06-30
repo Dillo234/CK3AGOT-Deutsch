@@ -152,6 +152,7 @@
  diplomacy_family.2253.desc.b:0 "흠잡을 데 없는 계획이었다! [lover.GetFirstName](이)가 상스럽기 짝이 없는 [spouse.Custom('InsultNoun')], [spouse.GetTitledFirstName]의 마수에서 벗어나게 되었으니 말이다. 이보다 더 기쁠 수는 없었다.\n\n편지를 받은 [lover.GetSheHe|U]가 헐레벌떡 내 방으로 찾아왔다. 달콤하기 그지없는 몸짓으로 감사를 표하기 위함이었다."
  diplomacy_family.2253.a:0 "이제 영원히 함께할 수 있어!"
  diplomacy_family.2253.b:0 "가문을 위해서 그랬던 거야."
+ diplomacy_family.2253.c:0 "모두에게 우리의 사랑을 알리겠어!"
  diplomacy_family.2254.desc.a:0 "[lover.GetFirstName](이)가 [house_head.GetTitledFirstName]에게 [spouse.GetFirstName]의 혼인 관계를 파기해달라고 청원을 넣어줘서 고맙다고 할 줄 알았는데. 상황은 정반대로 흘러갔다.\n\n오히려 자신의 결혼 생활에 끼어들었다면서 노발대발할 뿐이었다. 그러면서 더는 나와 엮이고 싶지 않다는 얘기까지 꺼냈다."
  diplomacy_family.2254.desc.b:0 "[lover.GetFirstName]에게 이혼을 주선해줘서 고맙다는 얘기를 들을 수 있을 줄 알았는데. 상황은 정반대로 흘러갔다.\n\n오히려 자신의 결혼 생활에 끼어들었다면서 노발대발할 뿐이었다. 그러면서 더는 나와 엮이고 싶지 않다는 얘기까지 꺼냈다."
  diplomacy_family.2254.a:0 "우리를 위해서 그런 게 아니야! 가문을 위한 거라고!"
@@ -183,7 +184,7 @@
  ##################
 
  #Successor's Squabble — Resolve a dispute between your heir and a powerful vassal, by Sean Hughes
- diplomacy_family_special.2200.t:0 "후계자와의 말다툼"
+ diplomacy_family_special.2200.t:0 "계승자와의 말다툼"
  diplomacy_family_special.2200.desc:2 "일과를 마치고 [ROOT.Char.Custom('ResidenceBuilding')]에서 휴식을 취하던 중이었는데, [heir.Custom2('MyCharacterIntroduction', ROOT.Char)](이)가 괴로운 표정을 지은 채로 찾아왔다.\n\n"[vassal.Custom2('YourCharacterIntroduction', ROOT.Char)|U]만큼 짜증 나는 사람은 없을 겁니다!" [heir.GetSheHe]가 소리쳤다. "그 작자 때문에 후계자에 걸맞지 않은 수준이란 얘기를 매일 같이 들어야 합니다. 저를 [SCOPE.Custom('PersonalityGetTraitDescriptionFromFlag')] 사람이라고 생각하는 게 분명합니다. [ROOT.Char.GetPrimaryTitle.GetNameNoTier]의"
  diplomacy_family_special.2200.same_title.desc:0 "[ROOT.Char.GetTitleAsNameNoTooltip]에"
  diplomacy_family_special.2200.same_sex_title.desc:0 "$diplomacy_family_special.2200.same_title.desc$에"

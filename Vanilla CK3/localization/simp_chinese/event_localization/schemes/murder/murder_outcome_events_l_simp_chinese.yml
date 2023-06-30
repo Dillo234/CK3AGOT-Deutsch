@@ -3,6 +3,7 @@
  murder_child_really_tooltip:1 "谋杀一个孩子。你确定真的要这么做吗？"
  murder_outcome_murdered_rival_tt:1 "因为活得比你的[rival|E]更久："
  murder_unknown_murder_against_you_was_successful:0 "#X 你被一个未知的行凶者谋杀了！#!"
+ murder_unknown_murder_against_you_was_successful_other:0 "#X [THIS.Char.GetShortUIName]被一个不知名的袭击者谋杀了！#!"
 
  murder_outcome.1001.t:0 "刺客就位！"
  murder_outcome.1001.d:0 "时机已到。我的同谋已经就位了。其中一名同谋将在事发当晚雇佣刺客。另一个同谋将确保城墙将空无一人。第三位同谋将留下微妙的蜡烛痕迹指向[target.GetTitledFirstNamePossessive]的卧室。\n\n一切就绪。"
@@ -10,8 +11,10 @@
  murder_outcome.1001.b:0 "等等，我还没准备好。"
 
  murder_outcome.1002.t:0 "林中盗匪"
- murder_outcome.1002.d:0 "我的同谋们已经为[target.GetTitledFirstName]安排了一段穿过一片黑暗的森林的行程。这份计划欠缺的只是一帮子盗贼来让他惨死于抢劫中。\n\n我已经可以想象他的血液渗入了那片黑暗的土壤的样子了……"
- murder_outcome.1002.a:0 "哦，树林可真是一片危险的地方。"
+ murder_outcome.1002.opening:0 "我的手下已经为[target.GetTitledFirstName]安排了一段穿过一片黑暗森林的行程。$murder_outcome.1002.d$"
+ murder_outcome.1002.opening_travel:0 "我的手下打听出[target.GetTitledFirstName]目前正前往[province.GetName]，在路上[target.GetHerHim]会穿过几片荒野。\n\n$murder_outcome.1002.d$"
+ murder_outcome.1002.d:1 "现在只缺一帮子盗贼来让[target.GetHerHim]惨死于抢劫中。\n\n我已经可以想象[target.GetHerHis]的血液渗入了那片黑土的样子了……"
+ murder_outcome.1002.a:1 "哦，荒野可真是危险的地方。"
  murder_outcome.1002.b:0 "且慢，现在不是一个好时机。"
 
  murder_outcome.1003.t:0 "索命之餐"
@@ -34,9 +37,11 @@
  murder_outcome.1006.a:0 "太简单了！"
 
  murder_outcome.1007.t:0 "波涛汹涌"
+ murder_outcome.1007.travel:0 "[target.GetTitledFirstName]目前正在[province.GetName]某处的一条船上。"
  murder_outcome.1007.desc_not_inspection:0 "[target.GetTitledFirstName]在本周晚些时候会参观一艘停泊在[province.GetNameNoTier]的船。"
  murder_outcome.1007.desc:0 "[target.GetTitledFirstName]在本周晚些时候会检查一艘停泊在[province.GetNameNoTier]的船。"
  murder_outcome.1007.desc_ending:0 "\n\n让我的手下把那艘将要承载[target.GetHerHim]的划艇涂满易燃液体不要太简单，等它划到港口中央时发射一支燃烧的箭，然后……等海水淹没[target.GetHerHim]吧。"
+ murder_outcome.1007.desc_ending_travel:0 "\n\n如果我的手下能在船上浇上火油，然后乘坐唯一的划艇逃跑，并在此时点燃这艘船……从而确保让[target.GetFirstNamePossessiveNoTooltip]和[target.GetHerHis]的随从丢掉性命。"
  murder_outcome.1007.a:0 "这计划安排上了。"
 
  murder_outcome.1008.t:0 "夺命之酒"
@@ -163,6 +168,7 @@
  murder_outcome.2007.scheme_unknown:0 "\n\n#EMP 遗憾的是#!，那个弓箭手没被找到。"
  murder_outcome.2007.a.discovered:0 "我……我以为[target.GetSheHe]会游泳！"
  murder_outcome.2007.a:0 "真悲剧！"
+ every_entourage_member:0 "[target.GetTitledFirstNamePossessiveNoTooltip]旅团的所有成员："
 
  murder_outcome.2008.desc_drunkard:0 "[target.GetTitledFirstName]死了，被[target.GetSheHe]钟爱的[target.Custom('RegionalAlcoholicDrink')]杀死！"
  murder_outcome.2008.desc_not_drunkard:0 "[target.GetTitledFirstName]死了，被一大口[target.Custom('RegionalDrink')]杀死！"
@@ -239,7 +245,7 @@
  murder_outcome.4001.a:0 "某天你会付出代价，[target.GetFirstNameNoTooltip]！"
  murder_outcome.4001.b:0 "如果起初你没有成功……"
 
- murder_outcome.4002.desc:0 "\n\n我雇佣的打手未能匹敌[target.GetHerHis]的随从。"
+ murder_outcome.4002.desc:1 "\n\n我雇佣的打手未能匹敌[target.GetHerHis]的随从。"
  murder_outcome.4002.exposed_scheme:0 "更糟的是，他们中的有些人被活捉了，而且透露有人付钱让他们袭击！这笔付款被查到我头上只是时间问题。"
  murder_outcome.4002.not_exposed_scheme:0 "至少他们都被杀了。没有活口留下，他们被认为只是一伙普通的匪徒。"
  murder_outcome.4002.a:0 "你不能信任庶民会把事情办好……"
@@ -255,7 +261,7 @@
  murder_outcome.4004.failure_declaration_1:0 "[target.GetTitledFirstName]从[SCOPE.Custom('VenomousCreature')]的[SCOPE.Custom('VenomousCreatureAttack')]下存活了下来！"
  murder_outcome.4004.failed_attempt_1:0 "尽管[SCOPE.Custom('VenomousCreatureType')]进行了袭击，然而一名医生很快被传唤过来并成功停止了毒性的蔓延。"
  murder_outcome.4004.scheme_owner_known:0 "\n\n灾难性的是，那个放置[SCOPE.Custom('VenomousCreatureType')]的仆人被找到了，我的牵连也很快被随之暴露了。"
- murder_outcome.4004.scheme_known:0 "\n\n在[target.GetTitlePossessive]的床里放一只[SCOPE.Custom('VenomousCreature')]很难说是不显眼的，但是至少没有人知道我是幕后黑手。"
+ murder_outcome.4004.scheme_known:1 "\n\n在[target.GetTitleAsNamePossessiveNoTooltip]的床里放一只[SCOPE.Custom('VenomousCreature')]很难算得上隐蔽，但是至少没有人知道我是幕后黑手。"
  murder_outcome.4004.scheme_unknown:0 "\n\n至少[SCOPE.Custom('VenomousCreatureAttack')]被归责于[SCOPE.Custom('VenomousCreatureType')]的漫步，而非我。"
  murder_outcome.4004.a:0 "[target.GetFirstNameNoTooltip]，你的好运快到头了！"
 
@@ -351,7 +357,8 @@
  murder_outcome.5001.creepy_crawly_end:0 "我起初几乎感觉不到它的[SCOPE.Custom('VenomousCreatureAttack')]，但是很快灼烧的痛觉穿过了我的身体。我大呼救命，但甚至当我最好的医生在来到我身旁时，世界也在慢慢地从我眼前消失。"
  murder_outcome.5001.riled_up_mob:0 "我骑行穿越[home_province.GetNameNoTier]的街道时一伙尖叫大喊的农民暴徒冲向了我的随从。在我能意识到发生了什么之前，庶民们就把我拉下马开始暴打我。我可以听到我卫兵的叫喊，但是在他们得以接近我之前，世界已渐渐从我眼前消失。"
  murder_outcome.5001.bricked:0 "当我参加[home_province.GetName]当地的庆典时，整个晚上都陶醉在了欢笑和美酒之中。\n\n但我在早上醒来时，强烈的宿醉中我发现自己身处潮湿的地窖，一个新修的墙体堵住了出口！从那以后，日子一片模糊，我很快发现自己逐渐站不起，坐不住，#EMP 想#!不清……"
- murder_outcome.5001.sunken_boat:0 "当我在[province.GetNameNoTier]的港口乘船外出时，突然一支火箭划破长空，朝我们呼啸而来！\n\n这支箭#EMP 铛的一声#!正中船身，不一会儿就点燃了整只船，我纵身跃入冰冷的海水。但我厚重的衣物又将我拽入水底，我拼命地游，我拼命地够我能抓住的任何事物，我拼命地#EMP 喘息#!……"
+ murder_outcome.5001.sunken_boat:1 "我乘船出海，吹着晚风，突然一支火箭划破长空，朝我们呼啸而来！\n\n这支箭#EMP 铛的一声#!正中船身，不一会儿就点燃了整只船，我纵身跃入冰冷的海水。但我厚重的衣物又将我拽入水底，我拼命地游，我拼命地够我能抓住的任何事物，我拼命地#EMP 喘息#!……"
+ murder_outcome.5001.sunken_boat_travel:1 "我正在大海中的一艘船上，突然一支火箭划破长空，朝我们呼啸而来！\n\n这支箭#EMP 铛的一声#!正中船身，不一会儿就点燃了整只船，我纵身跃入冰冷的海水。但我厚重的衣物又将我拽入水底，我拼命地游，我拼命地够我能抓住的任何事物，我拼命地#EMP 喘息#!……"
  murder_outcome.5001.poisoned_drink_alcohol:0 "当我正在享用晚餐和一大杯[ROOT.Char.Custom('RegionalAlcoholicDrink')]时，我突然感觉喉咙里很奇怪。"
  murder_outcome.5001.poisoned_drink_no_alcohol:0 "当我正在享用晚餐和一大杯[ROOT.Char.Custom('RegionalDrink')]时，我突然感觉喉咙里很奇怪。"
  murder_outcome.5001.poisoned_drink:0 "没过多久我就开始#EMP 猛挠#!我的脖子以尝试呼吸，尖叫着想让哪怕一点点空气流入我肿胀流血的脖子。在我的意识消失时我看到指甲里都是血和皮肤；我得把它们洗掉，这太不像话了……"
@@ -379,7 +386,7 @@
  murder_outcome.5002.t:0 "企图终结我的性命！"
  murder_outcome.5002.poisoned_duck:0 "当我准备对我此生见过最多汁的鸭子咬上一口时，我的一名仆人紧紧抓着他的喉咙，倒在了地板上！他曾一直从我这偷吃餐品！\n\n至少他提醒了我不要再碰那只鸟，同时也因自己的罪行接受了正义的惩罚。"
  murder_outcome.5002.gang_of_thugs:0 "穿越森林时，我的随从遭遇了一伙暴徒！他们不为我们的金钱，而是直接进攻——比我命令士兵去剿灭他们还要快。战斗比预期的更加激烈，更糟的是，匪徒们的目标显然是我！\n\n所幸的是，战到最后他们一个都没剩下，不过他们一根筋的攻击差点打败了我。"
- murder_outcome.5002.hired_assassin:0 "刺客踩在便桶上的噪音把我从深夜的睡梦中惊醒。一看到这未遂的袭击者，我沉着地以[SCOPE.GetRootScope.GetCharacter.GetWomanMan]的方式大声叫来我的卫兵。当他们赶到后，爆发了短暂的搏斗，最后这个入侵者被我的卫兵击杀。"
+ murder_outcome.5002.hired_assassin:0 "刺客踩在便桶上的噪音把我从深夜的睡梦中惊醒。一看到这未遂的袭击者，我沉着地以[SCOPE.GetRootScope.GetCharacter.GetWomanMan]的方式大声叫来我的卫兵。当他们赶到后，爆发了短暂的搏斗，最后这个闯入者被我的卫兵击杀。"
  murder_outcome.5002.creepy_crawly_end:0 "[SCOPE.Custom('VenomousCreatureType')]的毒液以灼烧的痛感在我的体内蔓延，但是我立即叫来了我的医生。这是一个痛苦的尝试，但是当太阳升起时，毒药的痛感终于消失了。"
  murder_outcome.5002.riled_up_mob:0 "我骑行穿越[home_province.GetNameNoTier]的街道时，一伙尖叫大喊的农民暴徒冲向了我的随从。庆幸的是，我的卫兵们毫不犹豫地把他们砍得七零八落，同时我安然回到了[ROOT.Char.Custom('ResidenceBuilding')]。"
  murder_outcome.5002.bricked:0 "我在[home_province.GetName]参加一些当地的庆典，整夜欢饮沉醉。\n\n当我早上醒来时，发现自己宿醉后置身于一个潮湿的地窖中，一面新砌的墙把出口几乎挡完了……有人故意要把我埋在这里！"
@@ -403,7 +410,7 @@
  murder_outcome.5002.infant:0 "我再次哭了。"
  murder_outcome.5002.option_incapable:0 "发生了什么？"
 
- murder_outcome.5002.memories_death:0 "\n\n我的生命逐渐消失，一个冰冷的声音说道：\n#EMP “契约已完成。为[bad_memory.GetThirdPerspectiveDescription]复仇，核对。是时候拿钱了。”#!"
+ murder_outcome.5002.memories_death:0 "\n\n我的生命逐渐消失，一个冰冷的声音说道：\n#EMP “契约已完成。为[bad_memory.GetThirdPerspectiveDescription]复仇，搞定。是时候拿钱了。”#!"
  murder_outcome.5002.memories:1 "\n\n在现场附近发现了一张皱巴巴的纸条：#EMP “随函已附上全额付款。契约签署于[bad_memory.GetThirdPerspectiveDescription]那时。”#!"
  # Family Feud
  murder_outcome.5002.house_feud:0 "\n\n[owner_to_reveal.GetHouse.GetBaseName]家族！我早该知道！"

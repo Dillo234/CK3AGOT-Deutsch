@@ -1,0 +1,17 @@
+﻿l_russian:
+#Travel Completion Events
+#Generic completion
+ travel_completion_event.1000.t:1 "$travel_event_prefix$ Прибытие"
+ travel_completion_event.1000.desc.home:0 "Наконец-то я дома! Долгие странствия окончены, передо мной [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]. Я хочу немного отдохнуть, "
+ travel_completion_event.1000.desc.abroad:0 "После долгого перехода я наконец-то прибываю в место назначения. Вот и [final_destination_province.GetName]! Я смогу передохнуть от пыльных дорог и жесткого седла, "
+ travel_completion_event.1000.desc.activity:0 "ведь теперь пришло время нового занятия. Это [ROOT.Char.GetInvolvedActivity.GetName|l].\n\n"
+ travel_completion_event.1000.desc.no_activity:0 "а потом дорога снова позовет меня в путь.\n\n"
+ travel_completion_event.1000.stats:2 "Свита докладывает: наше путешествие продлилось [travel_plan_scope.MakeScope.Var('travel_plan_elapsed_days').GetValue] дн., мы прошли немало баронств — [travel_plan_scope.MakeScope.Var('travel_plan_provinces_traversed').GetValue].\n\n"
+ travel_completion_event.1000.stats.travel_leader:0 "[GetCourtPositionType('travel_leader_court_position').GetNameNoTooltip()|U], [travel_leader_scope.GetName] докладывает: наше путешествие продлилось [travel_plan_scope.MakeScope.Var('travel_plan_elapsed_days').GetValue] дн., мы прошли немало баронств — [travel_plan_scope.MakeScope.Var('travel_plan_provinces_traversed').GetValue].\n\n"
+ travel_completion_event.1000.desc.memory:0 "В путешествии случилось такое, чего я не забуду никогда: [travel_conc_memory.GetDescription]"
+ travel_completion_event.1000.desc.cultural_ambassador:0 "Мой культурный представитель может увеличить терпимость к #L [ROOT.Char.GetCulture.GetCollectiveNoun|l]ой#! культуре!\n\n"
+ travel_completion_event.1000.a:1 "Славься же, [ROOT.Char.GetFaith.HighGodName]! Я снова могу зайти туда."
+ travel_completion_event.1000.b:1 "Путешествовать приятно, но вернуться домой еще лучше."
+ cultural_ambassador_cultural_acceptance_gain_desc:0 "Путешествие с культурным представителем"
+ cultural_ambassador_toast.t:0 "[cultural_ambassador.GetFirstNameNoTooltip] увеличивает терпимость"
+ cultural_ambassador_option.tt:0 "Эффекты от культурного представителя:\n$EFFECT_LIST_BULLET$[Concept( 'cultural_acceptance', 'Терпимость' )|E] между каждой посещенной [Concept( 'culture', 'культурой' )|E] и #L [SCOPE.GetRootScope.GetCharacter.GetCulture.GetCollectiveNoun|l]ой#! увеличена на #positive_value +1%#!"

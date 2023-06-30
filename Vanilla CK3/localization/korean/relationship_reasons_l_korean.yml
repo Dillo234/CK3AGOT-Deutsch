@@ -32,11 +32,16 @@
  rival_lands_stolen:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 영지를 훔침"
  rival_lands_stolen_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 영지를 훔침"
  
+ rival_murder_feast:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 살인 연회에서 [CHARACTER.GetShortUIName|U] 살해를 시도함"
+ 
+ rival_murder_feast_family:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 살인 연회에서 [CHARACTER.GetShortUIName|U]에게 살해당한 가족의 복수를 맹세함"
+ rival_murder_feast_family_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 살인 연회에서 [TARGET_CHARACTER.GetShortUINamePossessive] 가족을 살해함"
+ 
  rival_guardian_cave_change_stubborn:0 "[TARGET_CHARACTER_2.GetShortUIName](이)가 어린아이에 불과한 [CHARACTER.GetShortUIName](을)를 강제로 어두운 동굴에 혼자 밀어 넣었을 때 [TARGET_CHARACTER.GetShortUIName|U](은)는 그 행동이 정당하고 적절하다고 생각함"
  rival_guardian_cave_change_stubborn_corresponding:0 "[TARGET_CHARACTER_2.GetShortUIName](이)가 어린아이에 불과한 [TARGET_CHARACTER.GetShortUIName](을)를 강제로 어두운 동굴에 혼자 밀어 넣었을 때 [CHARACTER.GetShortUIName|U](은)는 그 행동이 정당하고 적절하다고 생각함"
  
- rival_ignored_suffering:0 "어린 시절 [TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName]의 수난을 의도적으로 무시하고 돕기를 거부함"
- rival_ignored_suffering_corresponding:0 "어린 시절 [CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName]의 수난을 의도적으로 무시하고 돕기를 거부함"
+ rival_ignored_suffering:1 "어린 시절 [TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName]의 수난을 의도적으로 무시하고 돕기를 거부함"
+ rival_ignored_suffering_corresponding:1 "어린 시절 [CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName]의 수난을 의도적으로 무시하고 돕기를 거부함"
  
  best_friend_bonded_at_court:0 "[TARGET_CHARACTER_2.GetShortUINamePossessive] 궁정에서 서로의 이해를 격렬하게 지지한 이후로 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 탄탄한 우정의 유대를 형성함"
  
@@ -49,14 +54,17 @@
  best_friend_help_overcome_vice:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip](이)가 [CHARACTER.GetShortUINameNoTooltip]의 개과천선을 도운 이후로 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 일생의 친구가 됨"
  best_friend_help_overcome_vice_corresponding:0 "[CHARACTER.GetShortUINameNoTooltip](이)가 [TARGET_CHARACTER.GetShortUINameNoTooltip]의 개과천선을 도운 이후로 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 일생의 친구가 됨"
  
- best_friend_coverted_and_saved_my_soul:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip](이)가 [CHARACTER.GetShortUINameNoTooltip](을)를 [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] 신앙으로 개종시켜 [CHARACTER.GetShortUINamePossessiveNoTooltip] 영혼을 구원하자 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 탄탄한 우정의 유대를 형성함"
- best_friend_coverted_and_saved_my_soul_corresponding:0 "[CHARACTER.GetShortUINameNoTooltip](이)가 [TARGET_CHARACTER.GetShortUINameNoTooltip](을)를 [CHARACTER.GetShortUINamePossessiveNoTooltip] 신앙으로 개종시켜 [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] 영혼을 구원하자 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 탄탄한 우정의 유대를 형성함"
+ best_friend_coverted_and_saved_my_soul:1 "[TARGET_CHARACTER.GetShortUINameNoTooltip](이)가 [CHARACTER.GetShortUINameNoTooltip](을)를 [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] 신앙으로 개종시켜 [CHARACTER.GetShortUINamePossessiveNoTooltip] 영혼을 구원하자 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 탄탄한 우정의 유대를 형성함"
+ best_friend_coverted_and_saved_my_soul_corresponding:1 "[CHARACTER.GetShortUINameNoTooltip](이)가 [TARGET_CHARACTER.GetShortUINameNoTooltip](을)를 [CHARACTER.GetShortUINamePossessiveNoTooltip] 신앙으로 개종시켜 [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] 영혼을 구원하자 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 탄탄한 우정의 유대를 형성함"
  
  best_friend_language_help:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip](이)가 [CHARACTER.GetShortUINameNoTooltip]의 [TARGET_CHARACTER_2.GetCulture.GetLanguage.GetName] 언어 학습을 도우는 과정에서 무한한 인내심을 보여준 이후로 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 단짝 친구가 됨"
  best_friend_language_help_corresponding:0 "[CHARACTER.GetShortUINameNoTooltip](이)가 [TARGET_CHARACTER.GetShortUINameNoTooltip]의 [TARGET_CHARACTER_2.GetCulture.GetLanguage.GetName] 언어 학습을 도우는 과정에서 무한한 인내심을 보여준 이후로 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 단짝 친구가 됨"
  
  best_friend_confide:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip](이)가 차분하게 [CHARACTER.GetShortUINamePossessiveNoTooltip] 하소연을 들어준 이후로 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 유대를 형성함"
  best_friend_confide_corresponding:0 "[CHARACTER.GetShortUINameNoTooltip](이)가 차분하게 [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] 하소연을 들어준 이후로 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 유대를 형성함"
+ 
+ friend_impressed_stones:0 "[CHARACTER.GetShortUIName|U](이)가 고대 명판을 해독하게 [TARGET_CHARACTER.GetShortUINameNoTooltip]에게 좋은 인상을 남김"
+ friend_impressed_stones_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 고대 명판을 해독한 [CHARACTER.GetShortUINameNoTooltip]에게 좋은 인상을 받음"
  
  best_friend_spoke_highly_about:0 "[CHARACTER.GetShortUINameNoTooltip](이)가 공개적으로 [TARGET_CHARACTER.GetShortUIName](을)를 매우 높게 평가한 이후로 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 단짝 친구가 됨"
  best_friend_spoke_highly_about_corresponding:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip](이)가 공개적으로 [CHARACTER.GetShortUIName](을)를 매우 높게 평가한 이후로 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 단짝 친구가 됨"
@@ -102,6 +110,11 @@
  friend_deviant_fun:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게 새로운 취미를 알려줌"
  friend_deviant_fun_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 새로운 취미를 알려줌"
  
+ contemplated_life_and_death_together:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 자아 발달에 중요한 여행 중 삶과 죽음을 성찰함"
+ contemplated_life_and_death_together_corresponding:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 자아 발달에 중요한 여행 중 삶과 죽음을 성찰함"
+ studied_history_together:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 자아 발달에 중요한 여행 중 머나먼 땅의 고대 역사를 공부함"
+ studied_history_together_corresponding:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 자아 발달에 중요한 여행 중 머나먼 땅의 고대 역사를 공부함"
+
  friend_fix_relationship_success:0 "[CHARACTER.GetShortUINameNoTooltip](이)가 금이 갔던 우정을 봉합하면서 [CHARACTER.GetShortUIName|U](과)와 [TARGET_CHARACTER.GetShortUIName](은)는 친구가 됨"
  friend_fix_relationship_success_corresponding:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip](이)가 금이 갔던 우정을 봉합하면서 [CHARACTER.GetShortUIName|U](과)와 [TARGET_CHARACTER.GetShortUIName](은)는 친구가 됨"
  
@@ -187,10 +200,21 @@
  friend_castille_leon:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 카스티야와 레온의 형성을 축하하며 유대를 형성함"
  friend_melancholic_bond:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 우울한 감정을 나누면서 유대를 형성함"
  friend_curiously_similar:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 비슷하게 음산한 기분을 느끼며 유대를 형성함"
+ 
+ friend_sword_in_stone:0 "문화 축제 중 [CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName](이)가 돌에서 검을 뽑게 해줌"
+ friend_sword_in_stone_corresponding:0 "문화 축제 중 [TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUINamePossessive] 큰 도움을 받아 돌에서 검을 뽑음"
 
  friend_varangian:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 함께 바랑인 친위대에서 복무하면서 친구가 됨"
+ 
+ friend_holy_site_monk_monk:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 사원에 후한 기부금을 쾌척함"
+ friend_holy_site_monk_monk_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName](이)가 자신의 사원에 쾌척한 후한 기부금을 받음"
+ 
+ friend_holy_site_monk:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName](이)가 성지에 머무를 수 있도록 허용함"
+ friend_holy_site_monk_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName]의 허락을 받고 성지에 머무름"
 
  friend_gaming:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 함께 보드게임을 즐기고 친구가 됨"
+
+ friend_emergency_surgery:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 임기응변이 빛을 발한 수술로 [CHARACTER.GetShortUIName|U](이)가 목숨을 건졌으며, 평생 감사한 마음을 갖게 됨"
  
  friend_random_1:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 [PROVINCE.GetName]의 [PROVINCE.Custom('TerrainTypeProvince')](을)를 함께 여행한 이후로 친구가 됨"
  friend_random_2:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 [PROVINCE.GetName]의 [PROVINCE.Custom('TerrainTypeProvince')](을)를 방황하면서 물자를 공유함"
@@ -236,6 +260,9 @@
  
  friend_language_learned:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 언어를 습득함"
  friend_language_learned_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 언어를 습득함"
+ 
+ friend_festival_puppy:0 "[CHARACTER.GetShortUIName|U](이)가 문화 축제 중 [TARGET_CHARACTER.GetShortUIName]에게 강아지를 선물함"
+ friend_festival_puppy_corresponding:0 "[TARGET_CHARACTER.GetShortUIName](이)가 문화 축제 중 [CHARACTER.GetShortUIName]에게 강아지를 선물로 받음"
  
  friend_party_baron:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 의욕과 열정으로 [CHARACTER.GetShortUIName](와)과 친분을 다짐!"
  friend_party_baron_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 의욕과 열정으로 [TARGET_CHARACTER.GetShortUIName](와)과 친분을 다짐!"
@@ -336,6 +363,10 @@
  friend_child_special_attention:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 교육에 많은 관심을 기울임"
  friend_child_special_attention_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 교육에 많은 관심을 기울임"
  
+ friend_wnight_homosexual:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 신혼 첫날밤에 [CHARACTER.GetShortUIName|U]에게 자신의 성적 지향을 고백함"
+ 
+ friend_wnight_homosexual_both:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 신혼 첫날밤에 서로에게 성적 지향을 고백함"
+ 
  friend_child_care:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 양육에 많은 사랑과 관심을 보여줌"
  friend_child_care_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 양육에 많은 사랑과 관심을 보여줌"
  
@@ -356,6 +387,11 @@
  
  friend_took_pity:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 불쌍히 여겨 성안에서 잘 수 있게 함"
  friend_took_pity_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](을)를 불쌍히 여겨 성안에서 잘 수 있게 함"
+ 
+ friend_theological_debate:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 보람찬 신학적 담론을 나눔"
+
+ friend_wbanquet_saved_from_well:0 "[TARGET_CHARACTER.GetShortUIName](이)가 우물에 빠질 뻔한 [CHARACTER.GetShortUIName|U](을)를 구함"
+ friend_wbanquet_saved_from_well_corresponding:0 "[CHARACTER.GetShortUIName](이)가 우물에 빠질 뻔한 [TARGET_CHARACTER.GetShortUIName|U](을)를 구함"
  
  friend_estate_visit:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 [PROVINCE.GetName]에 방문하던 도중 유대를 형성함"
  friend_estate_visit_corresponding:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 [PROVINCE.GetName]에 방문하던 도중 유대를 형성함"
@@ -417,6 +453,8 @@
  friend_spouse_talked_me_up:1 "[TARGET_CHARACTER_2.GetShortUIName](이)가 [CHARACTER.GetShortUINamePossessiveNoTooltip] 덕행을 찬양하자 [TARGET_CHARACTER.GetShortUIName|U](이)가 깊은 인상을 받음"
  friend_spouse_talked_me_up_corresponding:1 "[TARGET_CHARACTER_2.GetShortUIName](이)가 [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] 덕행을 찬양하자 [CHARACTER.GetShortUIName|U](이)가 깊은 인상을 받음"
  
+ friend_homage_ceremony:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName|U](은)는 문화 축제 중 서로의 우정을 기념함"
+ 
  friend_confide:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게 비밀을 털어놓음"
  friend_confide_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 비밀을 털어놓음"
  
@@ -446,6 +484,16 @@
  
  lover_cannibal_seduction:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 매혹적인 육체에 단 한 번 입을 대도 좋다고 허락받음"
  lover_cannibal_seduction_corresponding:1 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 매혹적인 육체에 단 한 번 입을 대도 좋다고 허락받음"
+ 
+ lover_wnight_walk:0 "신혼 첫날밤 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName|U](을)를 데리고 낭만적인 산책을 즐김"
+ lover_wnight_walk_corresponding:0 "신혼 첫날밤 [TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName|U]의 손에 이끌려 낭만적인 산책을 즐김"
+ 
+ lover_wnight_talk:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName|U](은)는 신혼 첫날밤 깊은 대화를 나눔"
+ 
+ lover_wnight_secret_accepted:0 "신혼 첫날밤 [CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUINamePossessive] 비밀을 듣고 받아주기로 함"
+ lover_wnight_secret_accepted_corresponding:0 "신혼 첫날밤 [TARGET_CHARACTER.GetShortUIName|U](이)가 자신의 비밀을 고백하였고, 이에 [CHARACTER.GetShortUIName|U](은)는 그 비밀을 받아주기로 함"
+ 
+ lover_wnight_secret_shared:0 "신혼 첫날밤 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName|U](은)는 서로에게 자신의 비밀을 고백함"
  
  lover_random_1:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 각선미에 매혹됨"
  lover_random_2:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 아름다운 미소에 푹 빠짐"
@@ -553,6 +601,9 @@
  lover_good_tumble:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] [TARGET_CHARACTER_2.GetWifeHusband] [TARGET_CHARACTER_2.GetShortUIName](이)가 눈치채지 못한 사이 식사 후 [TARGET_CHARACTER.GetShortUIName]에게 애정을 보냄"
  lover_good_tumble_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUINamePossessiveNoTooltip] [TARGET_CHARACTER_2.GetWifeHusband] [TARGET_CHARACTER_2.GetShortUIName](이)가 눈치채지 못한 사이 식사 후 [CHARACTER.GetShortUIName]에게 애정을 보냄"
  
+ lover_romantic_wedding_night:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 낭만적인 신혼 첫날밤을 보냄... 다만, [CHARACTER.GetShortUIName]에게는 다른 음흉한 계획이 있었음"
+ lover_romantic_wedding_night_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 낭만적인 신혼 첫날밤을 보냄"
+ 
  lover_abduction:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER_2.GetShortUIName](으)로부터 [CHARACTER.GetShortUIName](을)를 애정으로 납치함"
  lover_abduction_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER_2.GetShortUIName](으)로부터 [TARGET_CHARACTER.GetShortUIName](을)를 애정으로 납치함"
  
@@ -565,11 +616,16 @@
  lover_doppelganger_cucked:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER_2.GetShortUIName] 행세를 하며 [TARGET_CHARACTER.GetShortUIName](을)를 유혹함"
  lover_doppelganger_cucked_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER_2.GetShortUIName] 행세를 하며 [CHARACTER.GetShortUIName](을)를 유혹함"
  
+ lover_tavern_memory:0 "[CHARACTER.GetShortUIName|U](이)가 희망찬 이야기를 들려주고 [TARGET_CHARACTER.GetShortUIName]에게 좋은 인상을 남김"
+ lover_tavern_memory_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 희망찬 이야기에 좋은 인상을 받음"
+ 
  lover_threesome_with_spouse:0 "[CHARACTER.GetShortUINamePossessive|U] 사랑하는 배우자 [TARGET_CHARACTER_2.GetShortUIName](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 침대로 데려와, 셋이서 성행위를 벌여 [CHARACTER.GetShortUINamePossessiveNoTooltip] 열정을 다시 불태움"
  lover_threesome_with_spouse_corresponding:0 "[TARGET_CHARACTER.GetShortUINamePossessive|U] 사랑하는 배우자 [TARGET_CHARACTER_2.GetShortUIName](이)가 [CHARACTER.GetShortUIName](을)를 침대로 데려와, 셋이서 성행위를 벌여 [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] 열정을 다시 불태움"
  
  lover_ignored_spouse:0 "침실에 흥취를 더하고자 [CHARACTER.GetShortUINamePossessive|U] 사랑하는 배우자 [TARGET_CHARACTER_2.GetShortUIName](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 침대로 데려왔지만, [CHARACTER.GetShortUINameNoTooltip](은)는 [TARGET_CHARACTER.GetShortUINameNoTooltip]에게서 눈을 돌리지 않음."
  lover_ignored_spouse_corresponding:0 "침실에 흥취를 더하고자 [TARGET_CHARACTER.GetShortUINamePossessive|U] 사랑하는 배우자 [TARGET_CHARACTER_2.GetShortUIName](이)가 [CHARACTER.GetShortUIName](을)를 침대로 데려왔지만, [TARGET_CHARACTER.GetShortUINameNoTooltip](은)는 [CHARACTER.GetShortUINameNoTooltip]에게서 눈을 돌리지 않음."
+
+ lover_wedding_matchmaking:0 "다소 떠밀리듯이 결혼한 감이 있지만, [CHARACTER.GetShortUIName](와)과 [TARGET_CHARACTER.GetShortUIName] 사이의 궁합은 실제로 잘 맞음"
  
  rival_food_fight:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 치열한 음식 대결을 벌인 뒤 경쟁자가 됨"
  rival_at_ceremony:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName]((이)가 종교 행사에서 경쟁자가 됨"
@@ -637,6 +693,9 @@
  
  rival_duel_vengeance:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 결투 중 [CHARACTER.GetShortUIName](을)를 물리침"
  rival_duel_vengeance_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 결투 중 [TARGET_CHARACTER.GetShortUIName](을)를 물리침"
+
+ rival_fired_from_council:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 자문회에서 쫓아냄"
+ rival_fired_from_council_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](을)를 자문회에서 쫓아냄"
  
  rival_poison_vengeance:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](을)를 투옥하려 시도함"
  rival_poison_vengeance_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 투옥하려 시도함"
@@ -678,6 +737,9 @@
  rival_humiliated_in_debate:0 "[CHARACTER.GetShortUIName|U](이)가 논쟁에서 [TARGET_CHARACTER.GetShortUIName]에 의해 큰 망신을 당함"
  rival_humiliated_in_debate_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 논쟁에서 [CHARACTER.GetShortUIName]에 의해 큰 망신을 당함"
  
+ rival_king_of_ugly:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 문화 축제에서 [CHARACTER.GetShortUIName|U](을)를 [CHARACTER.Custom('GetMonarchofBeautyGoodBad')]의 자리에 앉힘"
+ rival_king_of_ugly_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 문화 축제에서 [TARGET_CHARACTER.GetShortUIName|U](을)를 [TARGET_CHARACTER.Custom('GetMonarchofBeautyGoodBad')]의 자리에 앉힘"
+ 
  rival_academic_dispute:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](와)과 함께 쓴 논문에 대해 모든 공을 독차지함"
  rival_academic_dispute_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](와)과 함께 쓴 논문에 대해 모든 공을 독차지함"
  
@@ -709,6 +771,9 @@
  
  rival_humiliating_refusal_to_fight:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] 부모의 명예를 들며 [TARGET_CHARACTER.GetShortUIName](와)의 싸움을 무시하듯 거절함"
  rival_humiliating_refusal_to_fight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessiveNoTooltip] 부모의 명예를 들며 [CHARACTER.GetShortUIName](와)의 싸움을 무시하듯 거절함"
+ 
+ rival_denied_courtly_love:0 "[CHARACTER.GetShortUIName|U](이)가 진정한 사랑을 찾겠다는 [TARGET_CHARACTER.GetShortUIName](을)를 놓아주길 거부함"
+ rival_denied_courtly_love_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U](은)는 진정한 사랑을 부정당하고 [CHARACTER.GetShortUIName]에 의해 궁정에 묶인 신세가 됨"
  
  rival_child_defeated:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] 부모에게 망신을 준 [TARGET_CHARACTER.GetShortUIName](을)를 전투에서 물리침"
  rival_child_defeated_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessiveNoTooltip] 부모에게 망신을 준 [CHARACTER.GetShortUIName](을)를 전투에서 물리침"
@@ -762,6 +827,9 @@
  
  rival_insult_and_duel:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](을)를 모욕한 후 결투에서 물리침"
  rival_insult_and_duel_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 모욕한 후 결투에서 물리침"
+ 
+ rival_no_holy_site_monk:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName](이)가 종교적 소명에 응하지 못하게 제지함"
+ rival_no_holy_site_monk_corresponding:0 "[TARGET_CHARACTER.GetShortUIName](은)는 [CHARACTER.GetShortUIName|U]에 의해 제지당해 종교적 소명에 응하지 못함"
  
  rival_age_old_rivalry:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 오래전부터 서로를 굉장히 싫어해 온 것으로 알려짐"
  rivalry_at_court:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 [TARGET_CHARACTER_2.GetShortUINamePossessive] 궁정에서 끊임없이 대립하며 서로 멸시하게 됨"
@@ -959,6 +1027,8 @@
  lover_seduction_general:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 유혹하여 뜨겁고 열정적인 밤을 보냄"
  lover_seduction_general_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](을)를 유혹하여 뜨겁고 열정적인 밤을 보냄"
  
+ lover_wnight_gifts:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName|U](이)가 신혼 첫날밤에 선물을 주고받음"
+ 
  lover_seduction_garden:0 "[CHARACTER.GetShortUIName|U](이)가 [PROVINCE.GetName]의 정원에서 [TARGET_CHARACTER.GetShortUIName](을)를 유혹함"
  lover_seduction_garden_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [PROVINCE.GetName]의 정원에서 [CHARACTER.GetShortUIName](을)를 유혹함"
  
@@ -1034,6 +1104,12 @@
 
  nemesis_rival_gains_nemesis:0 "[TARGET_CHARACTER.GetShortUIName](이)가 [TARGET_CHARACTER_2.GetShortUIName]에게 보내려고 썼던 모욕적인 편지를 [CHARACTER.GetShortUIName|U](이)가 받음"
  nemesis_rival_gains_nemesis_corresponding:0 "[CHARACTER.GetShortUIName](이)가 [TARGET_CHARACTER_2.GetShortUIName]에게 보내려고 썼던 모욕적인 편지를 [TARGET_CHARACTER.GetShortUIName|U](이)가 받음"
+ 
+ nemesis_monarch_of_grim_and_grievance:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName]에 의해 봉역에서 가장 매력없는 사람으로 선정됨"
+ nemesis_monarch_of_grim_and_grievance_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](을)를 봉역에서 가장 매력없는 사람으로 선정함"
+ 
+ nemesis_animal_contest:1 "가축 경연 대회에서 [TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에 의해 우승자로 선정됨"
+ nemesis_animal_contest_corresponding:1 "가축 경연 대회에서 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 우승자로 선정함"
 
  nemesis_a_question_of_size:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 공중 목욕탕에서 [CHARACTER.GetShortUINamePossessive] 사적인 신체 부위를 구경거리로 만들며 조롱함"
  nemesis_a_question_of_size_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 공중 목욕탕에서 [TARGET_CHARACTER.GetShortUINamePossessive] 사적인 신체 부위를 구경거리로 만들며 조롱함"
@@ -1064,6 +1140,9 @@
 
  nemesis_tostig_harold:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 작위를 쟁취함"
  nemesis_tostig_harold_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 작위를 쟁취함"
+ 
+ nemesis_sent_assassins:0 "[CHARACTER.GetShortUIName|U](이)가 전문 암살자를 보내 [TARGET_CHARACTER.GetShortUIName](을)를 살해하려 듦"
+ nemesis_sent_assassins_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName](이)가 보낸 전문 암살자를 살해함"
 
  nemesis_historical:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 아무도 기억하지 못하는 순간부터 서로 천적이 됨"
  
@@ -1094,8 +1173,11 @@
  
  soulmate_doppelganger:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 서로 모습만을 공유하는 것을 넘어 서로에게 영원히 헌신할 것을 선언함"
  
- soulmate_gifting_flowers:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게 [TARGET_CHARACTER.GetShortUINamePossessive] 정원에서 자란 멋진 꽃다발을 선물하면서 [CHARACTER.GetShortUIName]에 대한 사랑과 헌신을 표현함"
- soulmate_gifting_flowers_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 [CHARACTER.GetShortUINamePossessive] 정원에서 자란 멋진 꽃다발을 선물하면서 [TARGET_CHARACTER.GetShortUIName]에 대한 사랑과 헌신을 표현함"
+ soulmate_gifting_flowers:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게 [TARGET_CHARACTER.GetShortUINamePossessive] 정원에서 자란 멋진 꽃다발을 선물하면서 [CHARACTER.GetShortUIName]에 대한 사랑과 헌신을 표현함"
+ soulmate_gifting_flowers_corresponding:1 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 [CHARACTER.GetShortUINamePossessive] 정원에서 자란 멋진 꽃다발을 선물하면서 [TARGET_CHARACTER.GetShortUIName]에 대한 사랑과 헌신을 표현함"
+
+ soulmate_wedding_accepting_partner:0 "침실에서 존중과 관용을 통해 [CHARACTER.GetShortUIName](와)과 [TARGET_CHARACTER.GetShortUIName] 사이에 진정한 사랑이 꽃피움"
+ soulmate_wedding_first_sight:1 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 인사를 주고받을 때 서로 첫눈에 반함"
  
  saved_from_wolf:0 "[TARGET_CHARACTER.GetShortUIName](이)가 늑대로부터 [CHARACTER.GetShortUIName](을)를 구해준 후, [TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 진정한 사랑을 서로에게서 찾음"
  saved_from_wolf_corresponding:0 "[CHARACTER.GetShortUIName](이)가 늑대로부터 [TARGET_CHARACTER.GetShortUIName](을)를 구해준 후, [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 진정한 사랑을 서로에게서 찾음"
@@ -1165,6 +1247,9 @@
  
  rival_bullied_other_child:0 "어릴 적 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 괴롭힘"
  rival_bullied_other_child_corresponding:0 "어릴 적 [TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](을)를 괴롭힘"
+ 
+ rival_buffoon_play:0 "문화 축제 중 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에 의해 광대로 묘사당함"
+ rival_buffoon_play_corresponding:0 "문화 축제 중 [TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](을)를 광대로 묘사함"
  
  rival_burned_at_party:0 "파티 도중 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 불을 붙임"
  rival_burned_at_party_corresponding:0 "파티 도중 [TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게 불을 붙임"
@@ -1440,9 +1525,12 @@
 
  rival_not_grovel:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 가문과의 화해를 거절함"
  rival_not_grovel_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 가문과의 화해를 거절함"
+ 
+ rival_feast_of_fools:0 "[CHARACTER.GetShortUIName](이)가 문화 축제 중 [TARGET_CHARACTER.GetShortUIName]에 의해 $nick_monarch_of_fools_masc$(으)로 등극함"
+ rival_feast_of_fools_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 문화 축제 중 [CHARACTER.GetShortUIName](을)를 $nick_monarch_of_fools_masc$(으)로 옹립함"
 
- rival_no_grain:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUINamePossessive] 속주가 식량 부족을 스스로 해결할 수 있다고 주장함"
- rival_no_grain_corresponding:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUINamePossessive] 속주가 식량 부족을 스스로 해결할 수 있다고 주장함"
+ rival_no_grain:1 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUINamePossessive] 영지가 식량 부족을 스스로 해결할 수 있다고 주장함"
+ rival_no_grain_corresponding:1 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUINamePossessive] 영지가 식량 부족을 스스로 해결할 수 있다고 주장함"
 
  rival_other_fighter_side:0 "[CHARACTER.GetShortUIName|U](이)가 연회에서 벌어진 논쟁에서 [TARGET_CHARACTER.GetShortUINamePossessive] 편을 들지 않음"
  rival_other_fighter_side_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 연회에서 벌어진 논쟁에서 [CHARACTER.GetShortUINamePossessive] 편을 들지 않음"
@@ -1463,6 +1551,9 @@
 
  rival_perceived_slight:0 "구경꾼들은 그 모욕이 진심은 아니었다고 알아차렸지만, 아무튼 [TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](을)를 모욕한 듯함"
  rival_perceived_slight_corresponding:0 "구경꾼들은 그 모욕이 진심은 아니었다고 알아차렸지만, 아무튼 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 모욕한 듯함"
+ 
+ rival_bad_mouthed:0 "여행 중 [TARGET_CHARACTER.GetShortUIName](이)가 [CHARACTER.GetShortUIName] 험담을 함"
+ rival_bad_mouthed_corresponding:0 "여행 중 [CHARACTER.GetShortUIName](이)가 자신을 험담하는 [TARGET_CHARACTER.GetShortUIName]의 말을 엿듦"
 
  rival_perceived_slight_root:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 문객의 반감을 샀다는 이유로 [CHARACTER.GetShortUIName](을)를 [CHARACTER.GetShortUINamePossessive] 궁정 직위에서 해제함"
  rival_perceived_slight_root_corresponding:0 "[CHARACTER.GetShortUIName|U](은)는 문객의 반감을 샀다는 이유로 [TARGET_CHARACTER.GetShortUIName](을)를 [TARGET_CHARACTER.GetShortUINamePossessive] 궁정 직위에서 해제함"
@@ -1500,8 +1591,8 @@
  rival_prevented_stealing_from_peasants:0 "[CHARACTER.GetShortUIName|U](은)는 농노들에게서 절도한 혐의로 [TARGET_CHARACTER.GetShortUIName](을)를 질책함"
  rival_prevented_stealing_from_peasants_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 농노들에게서 절도한 혐의로 [CHARACTER.GetShortUIName](을)를 질책함"
 
- rival_province_help:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 주민들이 통제를 벗어난 문제를 겪는 [CHARACTER.GetShortUINamePossessive] 속주에 도움을 주기를 단호히 거절함"
- rival_province_help_corresponding:0 "[CHARACTER.GetShortUIName|U](은)는 주민들이 통제를 벗어난 문제를 겪는 [TARGET_CHARACTER.GetShortUINamePossessive] 속주에 도움을 주기를 단호히 거절함"
+ rival_province_help:1 "[TARGET_CHARACTER.GetShortUIName|U](은)는 주민들이 통제를 벗어난 문제를 겪는 [CHARACTER.GetShortUINamePossessive] 영지에 도움을 주기를 단호히 거절함"
+ rival_province_help_corresponding:1 "[CHARACTER.GetShortUIName|U](은)는 주민들이 통제를 벗어난 문제를 겪는 [TARGET_CHARACTER.GetShortUINamePossessive] 영지에 도움을 주기를 단호히 거절함"
 
  rival_punched_for_song:0 "[CHARACTER.GetShortUIName|U](이)가 자신이 싫어하는 노래를 부른 [TARGET_CHARACTER.GetShortUIName]에게 주먹질을 함"
  rival_punched_for_song_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 자신이 싫어하는 노래를 부른 [CHARACTER.GetShortUIName]에게 주먹질을 함"
@@ -1600,6 +1691,9 @@
  rival_snooping_around_home_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 집에서 기웃거림"
 
  rival_snubbed_maa:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 군사 문제로 말다툼함"
+ 
+ rival_danced_with_spouse:0 "문화 축제 중 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 배우자를 춤 상대로 선택함"
+ rival_danced_with_spouse_corresponding:0 "문화 축제 중 [TARGET_CHARACTER.GetShortUINamePossessive|U] 배우자가 [TARGET_CHARACTER.GetShortUINamePossessive] 춤 상대로 선택됨"
 
  rival_sold_titles:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게서 작위를 저렴하게 구입함"
  rival_sold_titles_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게서 작위를 저렴하게 구입함"
@@ -1613,6 +1707,9 @@
 
  rival_stolen_marshmallow:0 "어릴 적 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게서 꿀 넣은 간식을 훔침"
  rival_stolen_marshmallow_corresponding:0 "어릴 적 [TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게서 꿀 넣은 간식을 훔침"
+ 
+ rival_stole_from_me_banquet:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName](을)를 연회에 초대한 후 [TARGET_CHARACTER.GetHerHim]의 물건을 훔치려고 함"
+ rival_stole_from_me_banquet_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName](을)를 연회에 초대한 후 [CHARACTER.GetHerHim]의 물건을 훔치려고 함"
 
  rival_stole_from_peasants:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 농노를 대상으로 절도 행각을 벌임"
  rival_stole_from_peasants_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 농노를 대상으로 절도 행각을 벌임"
@@ -1672,6 +1769,9 @@
 
  rival_was_disinherited:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게 상속권을 박탈당함"
  rival_was_disinherited_corresponding:1 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 상속권을 박탈당함"
+ 
+ rival_whipped_my_kid:0 "문화 축제 중 [CHARACTER.GetShortUIName|U](이)가 형편없는 공연을 이유로 [TARGET_CHARACTER.GetPossessive] 자녀를 채찍질함"
+ rival_whipped_my_kid_coresponding:0 "문화 축제 중 형편없는 공연을 이유로 [TARGET_CHARACTER.GetPossessive] 자녀가 [CHARACTER.GetShortUIName|U]에게 채찍질 당함"
 
  rival_won_boardgame_challenge:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](와)과의 보드게임에서 치욕적인 승리를 거둠"
  rival_won_boardgame_challenge_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](와)과의 보드게임에서 치욕적인 승리를 거둠"
@@ -1681,9 +1781,18 @@
 
  rival_you_won_boardgame_challenge:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](와)과의 긴장감 넘치는 보드게임에서 승리를 거둠"
  rival_you_won_boardgame_challenge_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](와)과의 긴장감 넘치는 보드게임에서 승리를 거둠"
+
+ rival_embezzled_and_refused_to_reimburse:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName]의 자금을 횡령하고는 반환하기를 거부함"
+ rival_embezzled_and_refused_to_reimburse_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName]의 자금을 횡령하고는 반환하기를 거부함"
  
+ rival_tried_to_embezzle:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게서 금화를 횡령하려다 들킴"
+ rival_tried_to_embezzle_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게서 금화를 횡령하려다 들킴"
+
  lover_covered_excreta:0 "[CHARACTER.GetShortUIName|U]: "[CHARACTER.GetShortUIName|U](은)는 자신의 머리에 오물 한 통을 뿌려버린 [TARGET_CHARACTER.GetShortUIName]에게 다소 익살스럽게 반응함"
  lover_covered_excreta_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 자신의 머리에 오물 한 통을 뿌려버린 [CHARACTER.GetShortUIName]에게 다소 익살스럽게 반응함"
+ 
+ lover_festival_dancing:0 "문화 축제 중 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 자신의 춤 상대로 선택함"
+ lover_festival_dancing_corresponding:0 "문화 축제 중 [TARGET_CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]의 춤 상대로 선택됨"
 
  lover_witch_sex_partner:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 열렬한 광란의 밤을 보내며 연인이 됨"
 
@@ -1799,9 +1908,15 @@
  lover_inspiration_treasure:0 "[CHARACTER.GetShortUIName|U]의 요청에 따라 [TARGET_CHARACTER.GetShortUIName](이)가 동성 연애에 관한 책을 보내줌"
  lover_inspiration_treasure_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]의 요청에 따라 [CHARACTER.GetShortUIName](이)가 동성 연애에 관한 책을 보내줌"
  
+ lover_sexy_assassin:0 "암살 시도 실패 후, [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 화려한 언변에 현혹당함"
+ lover_sexy_assassin_corresponding:0 "암살 시도 실패 후, [TARGET_CHARACTER.GetShortUIName|U](이)가 화려한 언변으로 [CHARACTER.GetShortUIName](을)를 현혹함"
+ 
  lover_varangian_lover:0 "바랑인 친위대에서 같이 복무한 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUINamePossessive] 관계가 #EMP 무척이나#! 가까워짐"
  lover_varangian_lover_corresponding:0 "바랑인 친위대에서 같이 복무한 [TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUINamePossessive] 관계가 #EMP 무척이나#! 가까워짐"
  
+ lover_saved_melee:0 "[CHARACTER.GetShortUIName](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 모의전 현장 한복판에 갇히지 않도록 구해준 후, [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 연인이 됨"
+ lover_saved_melee_corresponding:0 "[TARGET_CHARACTER.GetShortUIName](이)가 [CHARACTER.GetShortUIName](을)를 모의전 현장 한복판에 갇히지 않도록 구해준 후, [TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 연인이 됨"
+
  friend_granted_title:0 "[TARGET_CHARACTER.GetShortUIName](이)가 [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] 작위 중 하나를 수여한 일을 계기로 [TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 친구가 됨"
  friend_granted_title_corresponding:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip](이)가 [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] 작위 중 하나를 수여한 일을 계기로 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 친구가 됨"
 
@@ -1911,6 +2026,9 @@
  friend_childhood_knight:0 "어린 시절 [CHARACTER.GetShortUIName](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 기사 대련의 기초를 함께 배우며 유대를 형성함"
 
  friend_childhood_religious_scrolls:0 "어린 시절 [CHARACTER.GetShortUIName](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 신비한 두루마리와 기록을 함께 뒤지면서 유대를 형성함"
+ 
+ friend_bought_indulgences:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 허락 아래 사치를 즐김"
+ friend_bought_indulgences_corresponding:0 "[TARGET_CHARACTER.GetShortUIName](이)가 [CHARACTER.GetShortUIName] 사치를 허락함"
 
  friend_upheld_educational_tactics:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUINamePossessive] 교육 전략을 유지함"
  friend_upheld_educational_tactics_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUINamePossessive] 교육 전략을 유지함"
@@ -1961,8 +2079,8 @@
 
  friend_bested_me_in_duel:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 손에 땀을 쥐는 결투를 통해 유대를 형성함"
 
- friend_fellow_food_lover:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](이)가 만든 훌륭한 요리를 먹어치움"
- friend_fellow_food_lover_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](이)가 만든 훌륭한 요리를 먹어치움"
+ friend_fellow_food_lover:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](이)가 만든 훌륭한 요리를 먹어 치움"
+ friend_fellow_food_lover_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](이)가 만든 훌륭한 요리를 먹어 치움"
 
  friend_saved_me_from_myself:0 "[CHARACTER.GetShortUIName|U](이)가 자중하도록 [TARGET_CHARACTER.GetShortUIName](을)를 설득함"
  friend_saved_me_from_myself_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 자중하도록 [CHARACTER.GetShortUIName](을)를 설득함"
@@ -2000,6 +2118,9 @@
  friend_helped_inspiration_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessiveNoTooltip] 제작을 도움"
 
  friend_inspired_craftsman:0 "감명적인 고백 이후 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 유대를 형성함"
+ 
+ friend_courtly_love:0 "[CHARACTER.GetShortUIName|U](이)가 [PROVINCE.GetName]에 있는 사랑을 찾아 가겠다는 [TARGET_CHARACTER.GetShortUIName](을)를 놓아줌"
+ friend_courtly_love_corresponding:0 "[TARGET_CHARACTER.GetShortUIName](이)가 [CHARACTER.GetShortUIName]의 허락을 받아 궁정을 떠나 [PROVINCE.GetName]에 있는 [TARGET_CHARACTER.GetShortUINamePossessive|U] 사랑을 찾으러 감"
 
  friend_miniature_game:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 정교하게 잘 만든 모형으로 공성전 놀이를 즐긴 후 유대를 형성함"
 
@@ -2088,6 +2209,8 @@
  friend_child_apologize:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게 진심을 담아 사과함"
  friend_child_apologize_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 진심을 담아 사과함"
 
+ friend_wedding_enjoyable_chat:0 "결혼 피로연에서 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 함께 무척이나 즐거운 시간을 보냄"
+
  rival_garduna_young_thief:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName] 모두 도둑의 왕이 되고자 함"
 
  rival_attempted_blackmail:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 협박을 시도함"
@@ -2096,11 +2219,302 @@
  rival_dismissed_requests:0 "[TARGET_CHARACTER.GetShortUIName](이)가 [CHARACTER.GetShortUIName|U]의 요청을 묵살함"
  rival_dismissed_requests_corresponding:0 "[CHARACTER.GetShortUIName]의 요청이 [TARGET_CHARACTER.GetShortUIName|U]에게 묵살당함"
 
- friend_gave_council_seat:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 로 고용함"
- friend_gave_council_seat_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 자문위원으로 고용됨"
+ friend_gave_council_seat:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 자문위원으로 고용함"
+ friend_gave_council_seat_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName|U]에게 자문위원으로 고용됨"
+ 
+ friend_listened_to_advice:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 조언을 받아들였고, 둘 사이의 유대가 탄탄해짐"
+ rival_belittled_beliefs:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 미신이나 믿는다며 [CHARACTER.GetShortUIName]에게 조롱당함"
+ rival_upstaged_at_sea:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 수준 떨어지는 항해술로 [CHARACTER.GetShortUIName]에게 망신을 당함"
+ friend_adopted:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 자신의 [TARGET_CHARACTER.Custom('GetDaughterSon')]로 입양함"
+ lover_first_sight:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 첫눈에 반해버림"
+ lover_first_sight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게 첫눈에 반해버림"
+ rival_contest_savagely_beaten:0 "토너먼트 경연 대회 중 [TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게 무자비하게 구타당함"
+ rival_contest_savagely_beaten_corresponding:0 "토너먼트 경연 대회 중 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 무자비하게 구타함"
+ rival_tournament_attempted_murder:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 토너먼트 중 [CHARACTER.GetShortUIName](을)를 살해하려 함"
+ rival_tournament_attempted_murder_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 토너먼트 중 [TARGET_CHARACTER.GetShortUIName]의 살해 시도를 눈치챔"
+ rival_tournament_disqualified:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에 의해 토너먼트 대회에서 실격함"
+ rival_tournament_disqualified_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 토너먼트 대회에서 [TARGET_CHARACTER.GetShortUIName](을)를 실격시킴"
+ friend_board_game_opening_inform:0 "경연 대회 중 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 보드게임이 품은 허점을 지적함"
+ friend_board_game_opening_inform_corresponding:0 "경연 대회 중 [TARGET_CHARACTER.GetShortUIName|U]의 보드게임 허점이 [CHARACTER.GetShortUIName|U]에게 지적당함"
+ friend_pas_darmes_band:0 "함께 무기의 길에 도전하면서 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](와)과 유대를 형성함"
+ friend_pas_darmes_band_corresponding:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 함께 무기의 길에 도전함"
+ friend_toasted_contest_victory:0 "경연 대회에서 [CHARACTER.GetShortUIName|U](이)가 공개적으로 [TARGET_CHARACTER.GetShortUINamePossessive] 능력과 승리를 칭찬함"
+ friend_toasted_contest_victory_corresponding:0 "경연 대회 중 [TARGET_CHARACTER.GetShortUINamePossessive|U] 능력과 승리를 [CHARACTER.GetShortUIName](이)가 공개적으로 칭찬함"
+ rival_tournament_attempted_sabotage:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 토너먼트 중 [CHARACTER.GetShortUIName](을)를 방해하려 함"
+ rival_tournament_attempted_sabotage_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 토너먼트 중 [TARGET_CHARACTER.GetShortUIName]의 방해 시도를 눈치챔"
+ rival_challenged_pas_darmes:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 무기의 길에서 [CHARACTER.GetShortUIName]에게 도전함"
+ rival_challenged_pas_darmes_corresponding:0 "무기의 길에서 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]의 도전을 받음"
+ rival_tournament_favor_jealousy:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 연인에게 정표를 선물 받음"
+ rival_tournament_favor_jealousy_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 자신의 연인이 토너먼트에서 [TARGET_CHARACTER.GetShortUIName]에게 정표를 줬다는 사실을 알게 됨"
+ rival_melee_dismissed_mayor:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 모의전 때문에 자기 소도시가 엉망이 되고 있다는 [CHARACTER.GetShortUINamePossessive] 항의를 묵살함"
+ rival_melee_dismissed_mayor_corresponding:0 "모의전 때문에 소도가 엉망이 되고 있다는 [CHARACTER.GetShortUINamePossessive|U] 항의가 [TARGET_CHARACTER.GetShortUIName]에게 묵살당함"
+ rival_contest_sport_struck:0 "운동 경기 중 [TARGET_CHARACTER.GetShortUIName|U](이)가 분노에 차 [CHARACTER.GetShortUIName](을)를 공격함"
+ rival_contest_sport_struck_corresponding:0 "운동 경기 중 [CHARACTER.GetShortUIName|U](이)가 분노에 찬 [TARGET_CHARACTER.GetShortUIName]에게 공격당함"
+ rival_quintain_knight_jealousy:0 "퀸튼 경연 대회에서 [TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 새로운 주군의 관심을 받고자 경쟁함"
+ rival_quintain_knight_jealousy_corresponding:0 "퀸튼 경연 대회에서 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 새로운 주군의 관심을 받고자 경쟁함"
+ rival_quintain_knight_anger:0 "퀸튼 경연 대회에서 [TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 영입 기회를 망침"
+ rival_quintain_knight_anger_corresponding:0 "퀸튼 경연 대회에서 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive] 영입 기회를 망침"
+ rival_quintain_collapse_blame:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 토너먼트 퀸튼 과녁이 쓰러진 일에 대한 책임을 [CHARACTER.GetShortUIName]에게 돌림"
+ rival_quintain_collapse_blame_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에 의해 토너먼트 퀸튼 과녁이 쓰러진 일의 원흉으로 지목됨"
+ rival_quintain_jester:0 "퀸튼 시합에서 고립된 후 [TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName]에 의해 어릿광대로 임명됨"
+ rival_quintain_jester_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 퀸튼 시합에서 고립된 [TARGET_CHARACTER.GetShortUIName](을)를 어릿광대로 임명함"
+ rival_tournament_attempted_banning:0 "[TARGET_CHARACTER.GetShortUIName|U](을)를 토너먼트에서 추방하려는 [CHARACTER.GetShortUINamePossessive] 시도에 [TARGET_CHARACTER.GetHerHim]가 분개함"
+ rival_tournament_attempted_banning_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 토너먼트에서 추방하려 함"
+ rival_contest_mockery:0 "경연 대회에서 낭패를 본 후 [TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 노골적인 조롱을 당함"
+ rival_contest_mockery_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 경연 대회에서 낭패를 본 [TARGET_CHARACTER.GetShortUIName](을)를 노골적으로 조롱함"
+ rival_recital_booing:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 암송 중 [CHARACTER.GetShortUINamePossessive] 시끄러운 야유를 받음"
+ rival_recital_booing_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 암송 중이던 [TARGET_CHARACTER.GetShortUIName]에게 시끄러운 야유를 보냄"
+ rival_recital_insult:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 암송 중 [CHARACTER.GetShortUINamePossessive] 공개적인 모욕을 받음"
+ rival_recital_insult_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 암송 중이던 [TARGET_CHARACTER.GetShortUIName](을)를 공개적으로 모욕함"
+ friend_recital_compliment:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 암송 중 [CHARACTER.GetShortUINamePossessive] 공개적인 찬사를 받음"
+ friend_recital_compliment_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 암송 중이던 [TARGET_CHARACTER.GetShortUIName]에게 공개적으로 찬사를 보냄"
+ rival_falcon_shot:0 "[CHARACTER.GetShortUIName|U](이)가 경주에서 이기려고 [TARGET_CHARACTER.GetShortUINamePossessive] 매를 화살로 쏘아 떨어뜨리려고 함"
+ rival_falcon_shot_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]의 매가 경주 중 [CHARACTER.GetShortUIName]의 화살에 맞음"
+ rival_contest_insult:0 "경연 대회 중 [TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 성난 모욕을 받음"
+ rival_contest_insult_corresponding:0 "경연 대회 중 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 성난 모욕을 퍼부음"
+ rival_contest_horse_shot:0 "[TARGET_CHARACTER.GetShortUIName|U]의 말이 경주 중 [CHARACTER.GetShortUIName]의 화살에 맞음"
+ rival_contest_horse_shot_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 경연 대회 중 [CHARACTER.GetShortUINamePossessive] 말에 화살을 쏨"
+ friend_contest_horse_treated:0 "[TARGET_CHARACTER.GetShortUIName|U]의 말이 경연 대회 중 화살을 맞은 후 [CHARACTER.GetShortUIName]에게 치료를 받음"
+ friend_contest_horse_treated_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 경연 대회 중 화살을 맞은 [CHARACTER.GetShortUINamePossessive] 말을 치료함"
+ friend_quintain_endearment:0 "퀸튼 시기 실패 후 [TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게 사랑을 받음"
+ friend_quintain_endearment_corresponding:0 "퀸튼 시기 실패 후 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 사랑을 받음"
+ rival_tournament_duelist:0 "토너먼트에서 의견 충돌을 보인 후, [TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 난투극을 벌임"
+
+ lover_tournament_victor_impressed:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 대회에서 우승한 [CHARACTER.GetShortUINamePossessive] 태도에 깊은 감명을 받음"
+ lover_tournament_victor_impressed_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 대회에서 우승한 후 보여준 태도로 [TARGET_CHARACTER.GetShortUIName|U]에게 깊은 감명을 줌"
+ friend_tournament_shop_gift:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 토너먼트에서 [TARGET_CHARACTER.GetShortUINamePossessive] 선물에 기뻐함"
+ friend_tournament_shop_gift_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 토너먼트에서 [TARGET_CHARACTER.GetShortUIName]에게 엄선한 선물을 줌"
+ rival_tournament_burned_crest:0 "[TARGET_CHARACTER.GetShortUIName](이)가 의뢰한 맞춤형 문장을 [CHARACTER.GetShortUIName|U](이)가 불태움"
+ rival_tournament_burned_crest_corresponding:0 "[TARGET_CHARACTER.GetShortUINamePossessive|U] 맞춤형 문장이 [CHARACTER.GetShortUIName]에 의해 불탐"
+ friend_tournament_church_party:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 [CHARACTER.GetFaith.HouseOfWorship]의 파티에서 유대를 형성함"
+ lover_given_flower:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 숲에서 우연히 만났을 때, [CHARACTER.GetShortUIName]에게 아름다운 꽃을 받고는 그대로 반해버림"
+ lover_given_flower_corresponding:0 "[CHARACTER.GetShortUIName|U](은)는 숲에서 우연히 만났을 때, [TARGET_CHARACTER.GetShortUIName]에게 아름다운 꽃을 받고는 그대로 반해버림"
+ friend_tournament_discussion:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName|U](은)는 [PROVINCE.GetName]에서 열린 토너먼트 참석 중 [PROVINCE.Custom('TerrainTypeProvince')] 산책을 하면서 유대를 형성함"
+ 
+ rival_kicked_out:0 "[CHARACTER.GetShortUIName|U](이)가 결혼 축하연에서 술에 취해 난동을 부리던 [TARGET_CHARACTER.GetShortUIName|U](을)를 쫓아냄"
+ friend_informed_of_adultery:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName|U]에게 배우자의 외도 사실을 알림"
+ friend_informed_of_adultery_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName|U]에게 배우자의 외도 사실을 알림"
+ friend_good_booze:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName|U]에게 훌륭한 품질의 포도주와 맥주를 제공함"
+ friend_good_booze_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName|U]에게 훌륭한 품질의 포도주와 맥주를 제공함"
+ friend_ghost_hunter:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName|U]에게 들린 혼령을 제거함"
+ friend_ghost_hunter_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName|U]에게 들린 혼령을 제거함"
+ friend_special_gift:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName|U]에게 특별한 선물을 줌"
+ friend_special_gift_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName|U]에게 특별한 선물을 줌"
+ lover_adultery:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName|U](이)가 간통 관계가 됨"
+ lover_adultery_corresponding:0 "$lover_adultery$"
+
+ friend_wedding:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName|U](이)가 대규모 결혼식에서 유대를 형성함"
+ friend_wedding_ritual:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName|U](이)가 결혼 전 의례에서 유대를 형성함"
+ rival_despised_ritual:0 "[CHARACTER.GetShortUIName|U](이)가 자신의 혼전 의식을 부정하는 [TARGET_CHARACTER.GetShortUINamePossessive] 모습에 모욕감을 느낌"
+ lover_tournament_praying:0 "토너먼트에서 보여준 [CHARACTER.GetShortUINamePossessive|U] 과시적인 예배 행위에 [TARGET_CHARACTER.GetShortUIName](이)가 넋을 잃고 기뻐함"
+ lover_tournament_praying_corresponding:0 "토너먼트에서 보여준 [TARGET_CHARACTER.GetShortUINamePossessive|U] 과시적인 예배 행위에 [CHARACTER.GetShortUIName](이)가 넋을 잃고 기뻐함"
+ lover_tournament_cynical_prayer:0 "토너먼트에서 보여준 [CHARACTER.GetShortUINamePossessive|U] 냉소적인 예배 행위가 [TARGET_CHARACTER.GetShortUIName]에게 공감을 일으킴"
+ lover_tournament_cynical_prayer_corresponding:0 "토너먼트에서 보여준 [TARGET_CHARACTER.GetShortUINamePossessive|U] 냉소적인 예배 행위가 [CHARACTER.GetShortUIName]에게 공감을 일으킴"
+
+ friend_dinner_chat:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName|U](와)과 만찬을 즐기며 친근한 대화를 나눔"
+ friend_dinner_chat_corresponding:0 "$friend_dinner_chat$"
+ friend_confidant:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName|U]에게 비밀을 털어놓음"
+ friend_confidant_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName|U]에게 비밀을 털어놓음"
+ friend_enjoyed_performance:1 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName|U]의 공연을 즐김"
+ friend_enjoyed_performance_corresponding:1 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName|U]의 공연을 즐김"
+ rival_offended_by_performance:0 "[CHARACTER.GetShortUIName|U](이)가 고통스러운 기억을 재현하는 [TARGET_CHARACTER.GetShortUIName|U]의 모습을 목격함"
+ rival_offended_by_performance_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 고통스러운 기억을 재현하는 [CHARACTER.GetShortUIName|U]의 모습을 목격함"
+ rival_denied_courtier:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive|U] 궁정으로 거취를 옮기려는 궁정 신하를 제지함"
+ rival_denied_courtier_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive|U] 궁정으로 거취를 옮기려는 궁정 신하를 제지함"
+ rival_denied_hook_on_heir:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 자신의 후계자가 [CHARACTER.GetShortUIName|U]에게 충성을 맹세하는 걸 제지함"
+ rival_denied_hook_on_heir_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 자신의 후계자가 [TARGET_CHARACTER.GetShortUIName|U]에게 충성을 맹세하는 걸 제지함"
+
+ friend_hunt_trophy_given:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 사냥 트로피를 선물로 줌"
+ friend_hunt_trophy_given_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게 사냥 트로피를 선물로 받음"
+ friend_hunt_wound_waited_reason:0 "[CHARACTER.GetShortUIName|U](이)가 사냥 중 낙상 사고를 당한 [TARGET_CHARACTER.GetShortUIName](이)가 회복하기를 기다림"
+ friend_hunt_wound_waited_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName](이)가 사냥 중 낙상 사고를 당하자 [CHARACTER.GetShortUIName|U](이)가 회복할 시간을 줌"
+ friend_hunt_wound_treated_reason:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]의 사냥 지식 부족을 질책함"
+ friend_hunt_wound_treated_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 사냥 지식 부족을 연유로 [CHARACTER.GetShortUIName]에게 질책당함"
+
+ friend_gave_hunt_kill_reason:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 사냥감의 숨을 끊는 영광을 양보함"
+ friend_gave_hunt_kill_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게 사냥감의 숨을 끊는 영광을 양보받음"
+ friend_hunt_taught_patiently_reason:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 사냥 방법을 가르침"
+ friend_hunt_taught_patiently_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게 사냥 방법을 배움"
+ friend_hunt_berated_noob_reason:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]의 사냥 지식 부족을 질책함"
+ friend_hunt_berated_noob_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 사냥 지식 부족을 연유로 [CHARACTER.GetShortUIName]에게 질책당함"
+
+ ward_tiny_thief:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive|U] 미묘한 재능을 더 좋은 방향으로 활용함"
+ ward_tiny_thief_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive|U] 미묘한 재능을 더 좋은 방향으로 활용함"
+
+ friend_tournament_tutor:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 무예 수업을 받음"
+ friend_tournament_tutor_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName]에게 무예 수업을 받음"
+
+ friend_tournament_famous:0 "토너먼트에서 거둔 [TARGET_CHARACTER.GetShortUINamePossessive] 대성공 후, [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 든든한 친구가 됨"
+ friend_tournament_famous_corresponding:0 "토너먼트에서 거둔 [CHARACTER.GetShortUINamePossessive] 대성공 후, [TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 든든한 친구가 됨"
+
+ rival_tournament_famous:0 "토너먼트에서 거둔 [TARGET_CHARACTER.GetShortUINamePossessive] 대성공을 [CHARACTER.GetShortUIName](이)가 무시한 후, [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 경쟁자가 됨"
+ rival_tournament_famous_corresponding:0 "토너먼트에서 거둔 [CHARACTER.GetShortUINamePossessive] 대성공을 [TARGET_CHARACTER.GetShortUIName](이)가 무시한 후, [TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 경쟁자가 됨"
+
+ rival_tournament_herald:0 "토너먼트에서 기사를 소개하려던 [TARGET_CHARACTER.GetShortUINamePossessive] 시도를 [CHARACTER.GetShortUIName](이)가 조롱한 후, [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 경쟁자가 됨"
+ rival_tournament_herald_corresponding:0 "토너먼트에서 기사를 소개하려던 [CHARACTER.GetShortUINamePossessive] 시도를 [TARGET_CHARACTER.GetShortUIName](이)가 조롱한 후, [TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 경쟁자가 됨"
+
+ rival_tournament_herald_knight:0 "토너먼트에서 참가자 소개를 시도했던 [TARGET_CHARACTER.GetShortUINamePossessive] 실패를 [CHARACTER.GetShortUIName](이)가 비웃은 후, [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 경쟁자가 됨"
+ rival_tournament_herald_knight_corresponding:0 "토너먼트에서 참가자 소개를 시도했던 [CHARACTER.GetShortUINamePossessive] 실패를 [TARGET_CHARACTER.GetShortUIName](이)가 비웃은 후, [TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 경쟁자가 됨"
+
+ friend_tournament_herald_knight:0 "[TARGET_CHARACTER.GetShortUINamePossessive] 불운한 진행자를 교체하자고 [CHARACTER.GetShortUIName](이)가 제안한 후, [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 친구가 됨"
+ friend_tournament_herald_knight_corresponding:0 "[CHARACTER.GetShortUINamePossessive] 불운한 진행자를 교체하자고 [TARGET_CHARACTER.GetShortUIName](이)가 제안한 후, [TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 친구가 됨"
+
+ friend_tournament_foreign_knight:0 "토너먼트에서 [TARGET_CHARACTER.GetShortUINamePossessive] 솜씨에 [CHARACTER.GetShortUIName](이)가 깊은 감명을 받은 후, [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 친구가 됨"
+ friend_tournament_foreign_knight_corresponding:0 "토너먼트에서 [CHARACTER.GetShortUINamePossessive] 솜씨에 [TARGET_CHARACTER.GetShortUIName](이)가 깊은 감명을 받은 후, [TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](이)가 친구가 됨"
+ 
+ lover_hunt_conversation_impressed:1 "사냥에 대한 관점을 통해 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에게 감명을 받음"
+ lover_hunt_saved_from_rampaging_animal:0 "사냥 중 [CHARACTER.GetShortUIName|U](이)가 날뛰는 야수로부터 [TARGET_CHARACTER.GetShortUIName](을)를 구출함"
+ lover_hunt_saved_from_rampaging_animal_corresponding:0 "사냥 중 [TARGET_CHARACTER.GetShortUIName|U](이)가 날뛰는 야수로부터 [CHARACTER.GetShortUIName]에게 구출을 받음"
+
+ lover_jumped_over_boulder_reason:0 "[CHARACTER.GetShortUIName|U](이)가 구르는 바위를 뛰어 넘어 [TARGET_CHARACTER.GetShortUIName]에게 좋은 인상을 심어줌"
+ lover_jumped_over_boulder_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 구르는 바위를 뛰어넘는 [CHARACTER.GetShortUINamePossessive] 솜씨에 좋은 인상을 받음"
+
+ friend_bonded_over_botany:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](와)과 식물과 관련해 공통의 관심사를 찾음"
+
+ lover_hunt_gift_reason:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName](이)가 자연에서 뽑아온 선물에 좋은 인상을 받음"
+ lover_hunt_gift_reason_corresponding:0 "[CHARACTER.GetShortUIName|U](이)가 자연에서 뽑은 선물로 [TARGET_CHARACTER.GetShortUIName]에게 좋은 인상을 심어줌"
+
+ rival_shared_insecurity:0 "[CHARACTER.GetShortUIName](이)가 자신의 불안한 감정을 고백했을 때, [TARGET_CHARACTER.GetShortUIName](은)는 [CHARACTER.GetHerHim]를 풀죽게 만듦"
+ rival_shared_insecurity_corresponding:0 "[TARGET_CHARACTER.GetShortUIName](이)가 자신의 불안한 감정을 고백했을 때, [CHARACTER.GetShortUIName](은)는 [TARGET_CHARACTER.GetHerHim]를 풀죽게 만듦"
+ friend_shared_insecurity:0 "[CHARACTER.GetShortUIName](이)가 자신의 불안한 감정을 고백했을 때, [TARGET_CHARACTER.GetShortUIName](은)는 [CHARACTER.GetHerHim]를 존중하는 태도를 보임"
+ friend_shared_insecurity_corresponding:0 "[TARGET_CHARACTER.GetShortUIName](이)가 자신의 불안한 감정을 고백했을 때, [CHARACTER.GetShortUIName](은)는 [TARGET_CHARACTER.GetHerHim]를 존중하는 태도를 보임"
+ lover_shared_insecurity_corresponding:0 "[CHARACTER.GetShortUIName](이)가 자신의 불안한 감정을 고백했을 때, [TARGET_CHARACTER.GetShortUIName](은)는 [CHARACTER.GetHerHim]에게 애정을 베풂"
+ lover_shared_insecurity:0 "[TARGET_CHARACTER.GetShortUIName](이)가 자신의 불안한 감정을 고백했을 때, [CHARACTER.GetShortUIName](은)는 [TARGET_CHARACTER.GetHerHim]에게 애정을 베풂"
+
+ friend_great_time_at_wedding:0 "[CHARACTER.GetShortUIName](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 결혼 피로연에서 대화를 하며 시간을 보냈으며 서로 즐거움을 느낌"
+ friend_great_time_at_wedding_corresponding:0 "[TARGET_CHARACTER.GetShortUIName](와)과 [CHARACTER.GetShortUIName](은)는 결혼 피로연에서 대화를 하며 시간을 보냈으며 서로 즐거움을 느낌"
+ best_friend_great_time_at_wedding:0 "[CHARACTER.GetShortUIName](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 결혼 피로연에서 다른 모든 사람을 무시하고 함께 즐거운 시간을 보냄"
+ best_friend_great_time_at_wedding_corresponding:0 "[TARGET_CHARACTER.GetShortUIName](와)과 [CHARACTER.GetShortUIName](은)는 결혼 피로연에서 다른 모든 사람을 무시하고 함께 즐거운 시간을 보냄"
+ rival_dishonored_wedding_banquet:0 "[CHARACTER.GetShortUIName](은)는 [TARGET_CHARACTER.GetShortUIName](이)가 자신을 피하려 결혼 피로연을 몰래 빠져나간 것을 알고 모욕감을 느낌"
+ rival_dishonored_wedding_banquet_corresponding:0 "[TARGET_CHARACTER.GetShortUIName](은)는 [CHARACTER.GetShortUIName](이)가 자신을 피하려 결혼 피로연을 몰래 빠져나간 것을 알고 모욕감을 느낌"
+ rival_bad_time_at_wedding:0 "[CHARACTER.GetShortUIName](은)는 결혼 피로연에서 [TARGET_CHARACTER.GetShortUIName](와)과 옥신각신함"
+ rival_bad_time_at_wedding_corresponding:0 "[TARGET_CHARACTER.GetShortUIName](은)는 결혼 피로연에서 [CHARACTER.GetShortUIName](와)과 옥신각신함"
 
  fp2_progress_towards_rival_funded_revolt_against_me:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 통치에 저항하는 소요에 자금을 지원함"
  fp2_progress_towards_rival_funded_revolt_against_me_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 봉역을 불안정하게 만듦"
 
-# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- best_friend_councel_and_support:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 언제나 서로를 응원하고 상담하면서 탄탄한 유대를 형성함"
+ lover_tournament_stands_flirt:0 "경연 대회에서 우승한 후, [CHARACTER.GetShortUIName](이)가 [TARGET_CHARACTER.GetShortUINamePossessive|U] 시선을 끄는 구애를 알아차림"
+ lover_tournament_stands_flirt_corresponding:0 "경연 대회에서 우승한 후, [TARGET_CHARACTER.GetShortUIName](이)가 [CHARACTER.GetShortUINamePossessive|U] 시선을 끄는 구애를 알아차림"
+
+ friend_reconciled_at_wedding:0 "한때 치열한 경쟁 관계였던 [CHARACTER.GetShortUIName](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 아름다운 결혼식에서 화해함"
+ friend_reconciled_at_wedding_corresponding:0 "$friend_reconciled_at_wedding$"
+ nemesis_spurned_reconciliation_at_wedding:0 "[TARGET_CHARACTER.GetShortUIName](은)는 화해를 청했으나, [CHARACTER.GetShortUIName](은)는 [TARGET_CHARACTER.GetHerHim]에게 망신을 줌"
+ nemesis_spurned_reconciliation_at_wedding_corresponding:0 "[CHARACTER.GetShortUIName](은)는 화해를 청했으나, [TARGET_CHARACTER.GetShortUIName](은)는 [CHARACTER.GetHerHim]에게 망신을 줌"
+
+ soulmate_dreadful_for_me:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName](을)를 안전하게 지킬 수만 있다면 끔찍한 짓도 불사할 것임"
+ soulmate_dreadful_for_me_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName](을)를 안전하게 지킬 수만 있다면 끔찍한 짓도 불사할 것임"
+ lover_dreadful_for_me:0 "$soulmate_dreadful_for_me$"
+ lover_dreadful_for_me_corresponding:0 "$soulmate_dreadful_for_me_corresponding$"
+
+ friend_wedding_saved_from_beasts:0 "[CHARACTER.GetShortUIName|U](은)는 결혼 피로연 도중 [TARGET_CHARACTER.GetShortUIName](을)를 탈출한 짐승으로부터 구출함"
+
+ soulmate_married_my_lover:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 결혼 전부터 연인 관계였으며, 결혼을 통해 사랑이 더욱더 굳건해짐"
+
+ rival_tournament_brawl:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 토너먼트에서 난투를 벌인 후 경쟁 관계가 되었음"
+ rival_tournament_brawl_corresponding:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 토너먼트에서 난투를 벌인 후 경쟁 관계가 되었음"
+
+ friend_tournament_drink_shared:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 토너먼트에서 술잔을 나눈 후 친구가 되었음"
+ friend_tournament_drink_shared_corresponding:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 토너먼트에서 술잔을 나눈 후 친구가 되었음"
+
+ rival_tournament_blocked:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 토너먼트에서 관람석을 두고 분쟁을 벌인 이후로 경쟁 관계가 되었음"
+ rival_tournament_blocked_corresponding:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 토너먼트에서 관람석을 두고 분쟁을 벌인 이후로 경쟁 관계가 되었음"
+
+ friend_tournament_let_through:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName]의 배려로 앞좌석에서 토너먼트 경연 대회를 관람한 이후로 서로 친구가 되었음"
+ friend_tournament_let_through_corresponding:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName]의 배려로 앞좌석에서 토너먼트 경연 대회를 관람한 이후로 서로 친구가 되었음"
+
+ lover_tournament_gossiping:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 토너먼트 관중석에서 추파를 주고받은 후 연인이 되었음"
+ lover_tournament_gossiping_corresponding:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 토너먼트 관중석에서 추파를 주고받은 후 연인이 되었음"
+
+ friend_tournament_gossiping:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 토너먼트 관중석에서 [CHARACTER.GetShortUIName](이)가 [TARGET_CHARACTER.GetShortUIName|U]의 외모를 칭찬한 이후로 친구가 되었음"
+ friend_tournament_gossiping_corresponding:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 토너먼트 관중석에서 [TARGET_CHARACTER.GetShortUIName](이)가 [CHARACTER.GetShortUIName|U]의 외모를 칭찬한 이후로 친구가 되었음"
+
+ lover_tournament_stand_flirt:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 토너먼트 관중석에서 [CHARACTER.GetShortUIName](이)가 의 외모를 칭찬한 이후로 연인이 되었음"
+ lover_tournament_stand_flirt_corresponding:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 토너먼트 관중석에서 [TARGET_CHARACTER.GetShortUIName](이)가 의 외모를 칭찬한 이후로 연인이 되었음"
+ 
+ friend_hunt_gifted_eyas:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName]에게 어린 맹금을 선물로 주었음"
+ friend_hunt_gifted_eyas_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName]에게 어린 맹금을 선물로 받음"
+
+ friend_gave_hunt_trophy_reason:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName]에게 사냥 전리품을 선물로 주었음"
+ friend_gave_hunt_trophy_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName]에게 사냥 전리품을 선물로 받음"
+
+ friend_mocked_heathen_together:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 다른 신앙에 대한 경멸을 계기로 유대를 형성함"
+ friend_rebuffed_heathen:0 "[CHARACTER.GetShortUIName|U](은)는 불신자의 멸시에 맞서 [TARGET_CHARACTER.GetShortUIName](을)를 변호함"
+ friend_rebuffed_heathen_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 불신자의 멸시에 맞서 [TARGET_CHARACTER.GetShortUIName]에게 변호를 받음"
+
+ friend_naked_together:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 사람들이 보는 앞에서 알몸을 노출함"
+
+ friend_bonded_during_tournament:0 "[CHARACTER.GetShortUIName|U](은)는 토너먼트 중 [TARGET_CHARACTER.GetShortUIName](와)과 유대를 형성함"
+ friend_bonded_during_tournament_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 토너먼트 중 [CHARACTER.GetShortUIName](와)과 유대를 형성함"
+
+ friend_prayed_for_me:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 위해 기도문을 읊음"
+ friend_prayed_for_me_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](을)를 위해 기도문을 읊음"
+
+ rival_traumatic_childhood:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName]의 어린 시절 잊지 못할 정신적 외상을 입혔음"
+ rival_traumatic_childhood_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName]의 어린 시절 잊지 못할 정신적 외상을 입혔음"
+
+ friend_disqualified_saboteur:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName]에 대한 공작을 시도한 것으로 고발된 토너먼트 참가자를 실격시킴"
+ friend_disqualified_saboteur_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 토너먼트 참가자의 공작 시도를 고발하였고, [CHARACTER.GetShortUIName](이)가 그 참가자를 실격시킴"
+ friend_pardoned_saboteur:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName]에 대한 공작 시도 고발을 묵살함"
+ friend_pardoned_saboteur_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 자신을 상대로 공작을 시도한 참가자를 고발하였으나 [CHARACTER.GetShortUIName]에게 묵살당함"
+ friend_courtiers_bonded_on_tour:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 왕실 방문 중 유대를 형성함"
+ lover_courtiers_bonded_on_tour:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 왕실 방문 중 열정적인 밤을 보냄"
+ rival_courtiers_friction_on_tour:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)가 왕실 방문 중 숙적이 됨"
+
+ friend_duel_recovered:0 "[CHARACTER.GetShortUIName|U](이)가 결투 중 쓰러진 [TARGET_CHARACTER.GetShortUIName]에게 회복할 말미를 줌"
+ friend_duel_recovered_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 결투 중 쓰러졌으나, [CHARACTER.GetShortUIName]에게 말미를 받아 회복함"
+
+ rival_wrestling_liar:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 토너먼트 레슬링 시합에서 부정행위를 두고 다툼을 벌인 후 경쟁 관계가 됨"
+ rival_wrestling_liar_corresponding:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 토너먼트 레슬링 시합에서 부정행위를 두고 다툼을 벌인 후 경쟁 관계가 됨"
+ nemesis_wedding_spread_voices_secret:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUINamePossessive] 결혼식에서 나쁜 소문을 퍼뜨리고 [CHARACTER.GetShortUINamePossessive] 비밀을 폭로함"
+ rival_wedding_spread_voices:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUINamePossessive] 결혼식에서 나쁜 소문을 퍼뜨렸으며 그 결과 쫓겨남"
+
+ nemesis_red_coin:0 "[TARGET_CHARACTER.GetShortUIName](은)는 [CHARACTER.GetShortUIName]에게 중요한 동전을 맡겼으나, [TARGET_CHARACTER.GetHerHis] 믿음은 배신당함"
+ nemesis_red_coin_corresponding:0 "[CHARACTER.GetShortUIName](은)는 [TARGET_CHARACTER.GetShortUIName]에게 중요한 동전을 맡겼으나, [CHARACTER.GetHerHis] 믿음은 배신당함"
+
+ rival_dynast_tournament_coercion:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUINamePossessive] 토너먼트 기권 요청을 거절함"
+ rival_dynast_tournament_coercion_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName]의 토너먼트 기권 요청을 거절함"
+
+ lover_tour_storm:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName](은)는 폭풍을 피해 서로에게 몸을 의탁함"
+ lover_tour_storm_insult:0 "[CHARACTER.GetShortUIName|U](은)는 폭풍을 피해 [TARGET_CHARACTER.GetShortUIName]에게 몸을 의탁하려 했으나 매몰차게 거부당함"
+ lover_tour_storm_insult_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 폭풍을 피해 [CHARACTER.GetShortUIName]에게 몸을 의탁하려 했으나 매몰차게 거부당함"
+
+ friend_hunt_conversation_impressed:0 "사냥에 대한 관점을 통해 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](와)과 유대를 형성함"
+
+ rival_goh_humiliated_at_feast:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName|U]의 명예를 높여야 하는 연회에서 오히려 [TARGET_CHARACTER.GetHerHim]를 모욕하는 연설을 해 망신을 줌"
+
+ lover_impressed_by_smooth_save:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 어려운 상황을 능숙하게 헤쳐 나가는 [CHARACTER.GetShortUINamePossessive] 수완에 매료됨"
+ lover_impressed_by_talk:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 정중한 토론 자세에 매료됨"
+
+ lover_daring_move:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 대범하게 사랑을 논하고 그 뒤를 좇는 [CHARACTER.GetShortUINamePossessive] 모습에 감명을 받음"
+ rival_kicked_out_priest:0 "[CHARACTER.GetShortUIName|U](이)가 종교적 비난으로 결혼식 분위기를 망친 [CHARACTER.GetShortUIName|U](을)를 내쫓음"
+
+ friend_wedding_relation_bond:0 "[CHARACTER.GetShortUIName|U](이)가 가족 결혼식에서 [TARGET_CHARACTER.GetShortUIName](와)과 유대를 형성함"
+ lover_wedding_relation_bond:0 "[CHARACTER.GetShortUIName|U](이)가 가족 결혼식에서 [TARGET_CHARACTER.GetShortUIName](와)과 눈이 맞음"
+ lover_wedding_relation_suitor:0 "[CHARACTER.GetShortUIName|U](이)가 가족 결혼식에서 소개받은 후 [TARGET_CHARACTER.GetShortUIName](와)과 눈이 맞음"
+ friend_wedding_help_bond:0 "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetShortUIName](이)가 결혼식 연회에서 빠져나올 수 있도록 도와줌"
+ friend_wedding_help_bond_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUIName]의 도움을 받아 결혼식 연회에서 빠져나옴"
+
+ friend_supportive_at_wedding:0 "[CHARACTER.GetShortUIName|U](은)는 자신의 결혼식에서 [TARGET_CHARACTER.GetShortUINamePossessive] 응원에 감사한 마음을 느낌"
+ 
+ wedding_impressed_by_smooth_save:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 어려운 상황을 능숙하게 헤쳐 나가는 [CHARACTER.GetShortUINamePossessive] 수완에 매료됨"
+ wedding_impressed_by_talk:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive] 정중한 토론 자세에 매료됨"
+ lover_love_is_in_the_air:0 "[CHARACTER.GetShortUIName|U](은)는 결혼식에서 [TARGET_CHARACTER.GetShortUIName](을)를 감언으로 유혹함"
+ rival_rubbed_it_in:0 "[CHARACTER.GetShortUIName|U](은)는 결혼식에서 본인 가족의 행운을 들먹이며 [TARGET_CHARACTER.GetShortUIName](을)를 도발함"
+ rival_wedding_challenged_prejudices:0 "[CHARACTER.GetShortUIName|U](은)는 자신을 향한 [TARGET_CHARACTER.GetShortUINamePossessive] 편견에 공격적으로 대립각을 세움"
+ friend_wedding_not_so_bad:0 "[CHARACTER.GetShortUIName|U](은)는 자신이 훌륭한 자질을 갖추었다고 [TARGET_CHARACTER.GetShortUIName](을)를 설득함"
+ rival_wedding_confirmed_prejudices:0 "[CHARACTER.GetShortUIName|U](은)는 조잡한 변론으로 자신을 향한 [TARGET_CHARACTER.GetShortUINamePossessive] 편견에 쐐기를 꽂아버림"
+ lover_atmospheric_location:0 "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetShortUINamePossessive] 말주변과 결혼식장 풍경에 매력을 느낌"
+
+ friend_agreed_favourite:0 "토너먼트 중 [TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName|U](은)는 제일 좋아하는 참가자로 같은 인물을 꼽음"
+ rival_disagreed_favourite:0 "토너먼트 중 [TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName|U](은)는 제일 좋아하는 참가자를 두고 의견차를 보임"
+
+
+ lover_wedding_trying_hard:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName|U]에게 자신을 좋아할 수 있도록 노력하겠다고 약속함"
+ lover_wedding_saved_from_flames:0 "[CHARACTER.GetShortUIName|U](이)가 어긋난 결혼식에서 [TARGET_CHARACTER.GetShortUIName|U](을)를 불길에서 구출함"
+ lover_wedding_seductive_exchange:0 "[CHARACTER.GetShortUIName|U](이)가 결혼식에서 [TARGET_CHARACTER.GetShortUIName|U](와)과 열띤 교류를 나눔"
+ lover_tour_grounds_orgy:0 "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName|U](이)가 함께 난교에 참여함"
+ lover_tour_grounds_orgy_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](와)과 [CHARACTER.GetShortUIName|U](이)가 함께 난교에 참여함"
+ friend_accepted_tax_increase:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive|U] 세금 인상 요구를 받아들임"
+ friend_accepted_tax_increase_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUINamePossessive|U] 세금 인상 요구를 받아들임"
+ friend_split_profits:0 "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName|U](와)과 수익을 나눔"
+ friend_split_profits_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName|U](와)과 수익을 나눔"

@@ -9,7 +9,7 @@ l_russian:
  scalder:0 "скольдер"
  saucerer:0 "соусник"
  pantler:0 "стольник"
- scullion:0 "судомойка"
+ scullion:0 "[Select_CString(ROOT.Char.IsFemale, 'судомойка', 'судомой' )]"
  servant:0 "слуга"
  gal:0 "девушка"
  guy:0 "парень"
@@ -51,6 +51,9 @@ l_russian:
  paternal:0 "по отцу"
  spouse_bride:0 "невеста"
  spouse_groom:0 "жених"
+ relation_nemesis:0 "заклятый враг"
+ relation_rival:0 "соперник"
+
 
  # Peasant Professions:
  peasant_profession_miller:0 "мельник"

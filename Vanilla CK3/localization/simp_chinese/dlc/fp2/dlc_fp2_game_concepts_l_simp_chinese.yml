@@ -10,8 +10,8 @@
  game_concept_struggle_phase_phases:0 "阶段"
  game_concept_struggle_phase_desc:1 "$game_concept_struggle_phase_phase$是[struggle_region|E]内[struggle_involved|E][characters|E]和[counties|E]共有的总体基调。它代表暂时主导着[struggle|E]中对话的社会趋势和风俗。\n\n#weak 举例：在一个$game_concept_struggle_phase_phase$中，斗争$game_concept_struggle_region_region$内的人民可能会认为宗教宽容至关重要，尽管他们信仰的其他人不这么认为。#!"
 
- game_concept_struggle_catalyst:1 "斗争导火索"
- game_concept_struggle_catalyst_catalyst:1 "导火索"
+ game_concept_struggle_catalyst:1 "斗争诱因"
+ game_concept_struggle_catalyst_catalyst:1 "诱因"
  game_concept_struggle_catalyst_catalysts:0 "诱因"
  game_concept_struggle_catalyst_desc:2 "某些重要行动，会使得[struggle_region|E]的共识趋向特定情绪，此时，[struggle_struggles|E]会转变[struggle_phase_phases|E]。在$game_concept_struggle$窗口可以看到各$game_concept_struggle_phase_phase$重要行动的列表。\n\n#weak 例如：[iberian_struggle|E]的[struggle_phase_iberia_opportunity|E]可以转变为[struggle_phase_iberia_hostility|E]或[struggle_phase_iberia_conciliation|E]。谋杀重要[character|E]会通向前者，而与异[faith|E]角色建立[marriage|E][alliance|E]会向后者迈进。"
 
@@ -38,10 +38,10 @@
  game_concept_struggle_conquest_conquests:0 "冲突"
  game_concept_struggle_conquest_desc:2 "对于参与[struggle|E]的[rulers|E]来说，随着当前[struggle_phase|E]性质的改变，卷入边境争端和琐碎冲突屡见不鲜。随时可以利用的地方纠纷使得$game_concept_rulers$可以发动小规模的抢地行动，征服或附庸他们的目标。\n\n由于$game_concept_struggle_conquest_conquests$取决于$game_concept_struggle$的环境，[prestige|E]花费也会随当前$game_concept_struggle_phase$的改变而改变。"
 
- game_concept_struggle_phase_iberia_opportunity:1 "机会阶段"
+ game_concept_struggle_phase_iberia_opportunity:1 "伺机而动阶段"
  game_concept_struggle_phase_iberia_opportunity_desc:2 "在[struggle_phase_iberia_conciliation|E]的长期合并共处后，自满情绪开始出现。农民和贵族都安逸地感到各种事情都#EMP 能运作#!，使得更多精明的[characters|E]得以利用他们的天真。\n\n最终，新的滥用权力要么导致事态升级为[struggle_phase_iberia_hostility|E]，要么在高明的政治活动下通过[struggle_phase_iberia_conciliation|E]达成不稳定平衡。"
 
- game_concept_struggle_phase_iberia_hostility:1 "互有敌意阶段"
+ game_concept_struggle_phase_iberia_hostility:1 "敌意重重阶段"
  game_concept_struggle_phase_iberia_hostility_desc:2 "在这个$game_concept_struggle_phase_phase$中，局势变得紧张，火星四溅。[struggle_phase_iberia_opportunity|E]中反复出现的恶意行为和不断升级的误解，导致不同[cultures|E]或不同[faiths|E]的[characters|E]之间的仇恨日益高涨，甚至#EMP 更糟#!：两种情况同时出现。\n\n不过，这样的流血事件不会永远持续下去。最终，半岛将走进[struggle_phase_iberia_compromise|E]，无论是在冷静头脑的引领下，还是单纯打不动了。"
 
  game_concept_struggle_phase_iberia_compromise:1 "相互妥协阶段"

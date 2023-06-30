@@ -64,7 +64,7 @@
  fp2_lyonese_monk.0201.c:0 "Кажется, ты злоупотребляешь моим гостеприимством, [acolyte.GetFirstNameNoTooltip]."
  
  fp2_lyonese_monk.0211.t:0 "[baron.Custom2('AppropriateGreetingPositive', acolyte_host)]"
- fp2_lyonese_monk.0211.desc:0 "С радостью сообщаю, что сей же час покидаю пост губернатора владений [baron_holding.GetNameNoTier].\n\n[acolyte.GetFaith.HighGodName] призывает меня на служение, и я [Select_CString(baron.IsFemale, 'намерена', 'намерен' )] посвятить остаток своих дней служению [acolyte.GetFaith.HighGodHerHim|U]."
+ fp2_lyonese_monk.0211.desc:0 "С радостью сообщаю, что сей же час покидаю пост губернатора владений [baron_holding.GetNameNoTier].\n\n[acolyte.GetFaith.HighGodName] призывает меня , и я [Select_CString(baron.IsFemale, 'намерена', 'намерен' )] посвятить остаток своих дней смиренному служению."
  fp2_lyonese_monk.0211.a:0 "А что, [baron.GetHerHim] так #EMP можно#!?"
  
  fp2_lyonese_monk.0221.t:0 "Широкая ухмылка"

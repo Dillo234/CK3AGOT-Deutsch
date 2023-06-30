@@ -11,8 +11,8 @@
  action_can_offer_assistance_unimportant:0 "@warning_icon!#X 你已经处于[war|E]#!"
  action_can_offer_assistance_HELP:1 "\n\n#help 作为一名[ruler|E]，你也可以会面临入侵，所以最好等到安全时才加入其他[war|E]。#!"
 
- action_can_bargain_fealty:0 "可以提议臣服以换取援助"
- action_can_bargain_fealty_label:0 "你可以向[recipient.GetShortUINameNoTooltip]提议为其效力，以换取其保护"
+ action_can_bargain_fealty:1 "@liege_icon!可以提议臣服以换取援助"
+ action_can_bargain_fealty_label:1 "@liege_icon!你可以向[recipient.GetShortUINameNoTooltip]提议为其效力，以换取其保护"
  action_can_bargain_fealty_combined_label:0 "[recipient.GetShortUINameNoTooltip]"
  action_can_bargain_fealty_desc:0 "[recipient.GetUIName]是邻近的更高[title_tier|E]的[struggle_interloper|E][ruler|E]，你可以向[recipient.GetHerHim]提议为其效力以换取其加入你的[war|E]。$action_can_bargain_fealty_HELP$"
  action_can_bargain_fealty_click:0 "#I 点击与[recipient.GetHerHim]谈判#!"

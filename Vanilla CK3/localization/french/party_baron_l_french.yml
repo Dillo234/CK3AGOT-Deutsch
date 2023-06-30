@@ -26,8 +26,8 @@
 
  # Events
  party_baron_header:0 "Une fête constante"
- party_baron_negative_attitude_counter_stress_tt:0 "En raison de votre #V attitude négative#! envers [TARGET_CHARACTER.Custom('FR_le_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName]:"
- party_baron_positive_attitude_counter_stress_tt:0 "En raison de votre #V attitude positive#! envers [TARGET_CHARACTER.Custom('FR_le_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName]:"
+ party_baron_negative_attitude_counter_stress_tt:0 "En raison de votre #V attitude négative#! envers [TARGET_CHARACTER.Custom('FR_le_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName] :"
+ party_baron_positive_attitude_counter_stress_tt:0 "En raison de votre #V attitude positive#! envers [TARGET_CHARACTER.Custom('FR_le_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName] :"
  party_baron_move_towards_positive_tt:0 "Adopter une #V attitude positive#! à l’égard [party_baron.Custom('FR_du_Char_U_Pi')][party_baron.GetShortUIName]"
  party_baron_move_towards_negative_tt:0 "Adopter une #V attitude négative#! à l’égard [party_baron.Custom('FR_du_Char_U_Pi')][party_baron.GetShortUIName]"
  party_baron.1001.t:0 "$party_baron_header$"
@@ -65,7 +65,7 @@
  party_baron.2003.c:0 "Comment a-t-[owner.Custom('FR_IlElle')] appris l’existence de ce complot ?"
 
  party_baron.2004.t:0 "$party_baron_header$"
- party_baron.2004.desc:0 "Il m’est impossible de dire si [party_baron.Custom('FR_le_Char_Pi')][party_baron.GetTitledFirstName] est ivre ou simplement enivré[party_baron.Custom('FR_E')] par les festivités. Soudain, [party_baron.Custom('FR_IlElle')] me prend dans ses bras et me dit: « Vous savez, je pense vraiment que vous êtes l’un[ROOT.Char.Custom('FR_E')] de mes meilleur[ROOT.Char.Custom('FR_E')]s ami[ROOT.Char.Custom('FR_E')]s ».\n\nLe reste de la soirée, je l’observe surtout en train de se divertir. Je pense que je pourrais [party_baron.Custom('FR_LeLa')] comprendre mieux que n’importe laquelle des personnes en train de boire à sa santé."
+ party_baron.2004.desc:0 "Il m’est impossible de dire si [party_baron.Custom('FR_le_Char_Pi')][party_baron.GetTitledFirstName] est ivre ou simplement enivré[party_baron.Custom('FR_E')] par les festivités. Soudain, [party_baron.Custom('FR_IlElle')] me prend dans ses bras et me dit : « Vous savez, je pense vraiment que vous êtes l’un[ROOT.Char.Custom('FR_E')] de mes meilleur[ROOT.Char.Custom('FR_E')]s ami[ROOT.Char.Custom('FR_E')]s ».\n\nLe reste de la soirée, je l’observe surtout en train de se divertir. Je pense que je pourrais [party_baron.Custom('FR_LeLa')] comprendre mieux que n’importe laquelle des personnes en train de boire à sa santé."
  party_baron.2004.a:0 "C’est réciproque, [party_baron.GetFirstNameNoTooltip]."
 
  party_baron.2005.t:0 "$party_baron_header$"
@@ -91,7 +91,7 @@
  party_baron.3002.a:0 "Je vais leur montrer ce que sont des « paroles désobligeantes »."
  party_baron.3002.b:0 "Il n’y a pas de mal à se montrer un peu plus aimable... En public."
 
- party_baron.3003.desc:0 "Même après tout ce que j’ai dit à son sujet, [party_baron.Custom('FR_le_Char_Pi')][party_baron.GetTitledFirstName] ne se laisse pas décourager. [party_baron.GetSheHe|U] ose même s’approcher de moi lors d’une fête, seul[party_baron.Custom('FR_E')]: « J’ai l’impression que vous ne m’aimez pas beaucoup », dit-[party_baron.Custom('FR_IlElle')]. Je grogne, car c’est peu de le dire ! [party_baron.Custom('FR_IlElle')|U] continue sans broncher: « Pourrions-nous parler un instant ? »\n\nTout ce qui se passe ensuite est flou, mais ce fut l’une des meilleures fêtes de ma vie. Je dois admettre que j’avais peut-être tort à propos [party_baron.Custom('FR_du_Char_L')][party_baron.GetTitleAsName|l] après tout..."
+ party_baron.3003.desc:0 "Même après tout ce que j’ai dit à son sujet, [party_baron.Custom('FR_le_Char_Pi')][party_baron.GetTitledFirstName] ne se laisse pas décourager. [party_baron.GetSheHe|U] ose même s’approcher de moi lors d’une fête, seul[party_baron.Custom('FR_E')] : « J’ai l’impression que vous ne m’aimez pas beaucoup », dit-[party_baron.Custom('FR_IlElle')]. Je grogne, car c’est peu de le dire ! [party_baron.Custom('FR_IlElle')|U] continue sans broncher : « Pourrions-nous parler un instant ? »\n\nTout ce qui se passe ensuite est flou, mais ce fut l’une des meilleures fêtes de ma vie. Je dois admettre que j’avais peut-être tort à propos [party_baron.Custom('FR_du_Char_L')][party_baron.GetTitleAsName|l] après tout..."
  party_baron.3003.a:0 "Et dire que vous m’avez finalement eu[ROOT.Char.Custom('FR_E')], [party_baron.GetFirstNameNoTooltip] !"
  party_baron.3003.b:0 "Non ! Rien n’a changé !"
 

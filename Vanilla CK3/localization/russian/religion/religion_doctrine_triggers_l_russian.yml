@@ -25,6 +25,8 @@
  INCOMPATIBLE_TENET_SHARED_HOF_MONOGAMY_VS_POLYGAMY:0 "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$: полигамия"
  INCOMPATIBLE_TENET_SHARED_HOF_WORLD_VS_UNRESTRICTED_INCEST:0 "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$: свободные кровосмесительные отношения"
 
+ INCOMPATIBLE_TENET_ARMED_PILGRIMAGES_VS_FORBIDDEN_PILGRIMAGES:0 "Несовместимо с доктриной «Отношение к паломничествам»: [GetFaithDoctrine('doctrine_pilgrimage_forbidden').GetBaseName]"
+
  DOCTRINE_PLURALISM_FUNDAMENTALIST:0 "Несовместимая [doctrine|El] — «Фундаментализм»"
  NOT_DOCTRINE_PLURALISM_FUNDAMENTALIST:0 "Требуется [doctrine|El] «Фундаментализм»"
  DOCTRINE_PLURALISM_PLURALISTIC:0 "Несовместимая [doctrine|El] — «Плюрализм»"
@@ -38,6 +40,7 @@
  DOCTRINE_REQUIRED_HEAD_OF_FAITH:0 "Требуется [doctrine|El] [Concept( 'head_of_faith', 'главы конфессии' )|E]"
  INCOMPATIBLE_WITH_ALL_CRIMINAL_DOCTRINES:0 "Несовместимо с любыми [Concept( 'doctrines', 'доктринами' )|E], называющими определенные действия [Concept( 'criminal', 'преступными' )|E]"
  ADULTERY_MUST_BE_FULLY_ACCEPTED:0 "Несовместимо с любыми [Concept( 'doctrine', 'доктринами' )|E], для которых измены — [shunned|El] или [Concept( 'criminal', 'преступления' )|E]"
+ REQUIRES_EXALTATION:0 "Требуется [core_tenet|El] «$tenet_carnal_exaltation_name$»"
 
  HAS_DOCTRINE:0 "Есть доктрина «[FAITH_DOCTRINE.GetName(FAITH.Self)]»"
  NOT_HAS_DOCTRINE:0 "#bold Нет#! доктрины «[FAITH_DOCTRINE.GetName(FAITH.Self)]»"

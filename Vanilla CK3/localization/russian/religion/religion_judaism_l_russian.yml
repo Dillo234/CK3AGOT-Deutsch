@@ -8,8 +8,8 @@
  judaism_high_god_name_2:0 "$judaism_high_god_name$" # Optional translation alt
  judaism_high_god_name_3:0 "$judaism_high_god_name$" # Optional translation alt
  judaism_high_god_name_possessive:0 "Господа"
- judaism_high_god_alternate:0 "Священный"
- judaism_high_god_alternate_possessive:0 "Священного"
+ judaism_high_god_alternate:1 "Адонай"
+ judaism_high_god_alternate_possessive:1 "Адоная"
  judaism_good_god_hashem:0 "Хашим"
  judaism_good_god_el_shaddai:0 "Адонай"
  judaism_devil_name:0 "Ваал"
@@ -63,8 +63,8 @@
  judaism_knowledge_god_name_possessive:0 "$judaism_high_god_name_possessive$"
  judaism_war_god_name:0 "$judaism_high_god_name$"
  judaism_war_god_name_possessive:0 "$judaism_high_god_name_possessive$"
- judaism_trickster_god_name:0 "$christianity_trickster_god_name$"
- judaism_trickster_god_name_possessive:0 "$christianity_trickster_god_name_possessive$"
+ judaism_trickster_god_name:1 "Айн ха-ра" # The Evil Eye, not a god per-se but a personification of bad fortune
+ judaism_trickster_god_name_possessive:1 "Айн ха-ры"
  judaism_night_god_name:0 "$judaism_high_god_name$"
  judaism_night_god_name_possessive:0 "$judaism_high_god_name_possessive$"
  judaism_water_god_name:0 "$judaism_high_god_name$"
@@ -75,7 +75,7 @@
  rabbinism_adj:0 "Раввинизм"
  rabbinism_adherent:0 "Раввинист"
  rabbinism_adherent_plural:0 "Раввинисты"
- rabbinism_desc:0 "Раввинизм подчеркивает роль раввинов как толкователей религиозного закона Галахи. Именно законы и традиции обеспечивают соблюдение божественного договора, и раввины охраняют эти законы."
+ rabbinism_desc:1 "Раввинизм подчеркивает роль раввинов как толкователей религиозного закона Галахи. Именно законы и традиции обеспечивают соблюдение божественного договора, и раввины охраняют эти законы."
 
  #Karaite
  karaism:0 "Караимск"
@@ -120,4 +120,30 @@
  kabarism_adj:1 "Кузаризм"
  kabarism_adherent:1 "Кузарит"
  kabarism_adherent_plural:1 "Кузариты"
- kabarism_desc:1 "Кузариты подчеркивают важность правильной интерпретации Галахи и сочетают свои практики с хазарскими традициями и местным фольклором."
+ kabarism_desc:2 "Будучи общиной новообращенных, кузариты придерживаются распространенной раввинистской интерпретации Галахи. Даже после обращения они долгое время продолжают придерживаться местных верований и традиций."
+ 
+ #Merkabah
+ merkabah:0 "Меркавск"
+ merkabah_adj:0 "Меркава"
+ merkabah_adherent:0 "Меркавист"
+ merkabah_adherent_plural:0 "Меркависты"
+ merkabah_desc:0 "Меркавский мистицизм — это секта иудейского мистицизма, подвергшаяся влиянию гностических учений. В основе веры лежат видения и аскетизм с целью приблизиться к Божественному трону."
+
+ doctrine_temple_authority_name:0 "Авторитет Галахи"
+ doctrine_temple_authority_desc:0 "Галаха — это свод законов и правил, по которым должен жить еврей. После многих веков существования диаспор иудеи раскололись на множество школ, по-разному трактующих Галаху."
+ temple_authority_rabbinic_doctrine_name:0 "Раввинистский"
+ temple_authority_rabbinic_doctrine_desc:0 "Раввинистские иудеи полагают, что трактовать Галаху могут только раввины. Они верят в Письменную Тору и Устную Тору, передаваемую от раввина к раввину. Все раввинистские верования записаны в Вавилонском Талмуде, который является главным источником толкования Галахи."
+ temple_authority_toric_doctrine_name:0 "Тораический"
+ temple_authority_toric_doctrine_desc:0 "Тораический иудаизм отвергает Талмуд и Устную Тору, признавая лишь авторитет Письменной Торы. Раввины не могут менять или пересматривать Галаху, их долг состоит лишь в буквальной интерпретации Торы."
+ temple_authority_kohanim_doctrine_name:0 "Когенимический"
+ temple_authority_kohanim_doctrine_desc:0 "Когенимический иудаизм считает Когена наивысшим авторитетам во всех религиозных вопросах, включая Галаху. Коген должен происходить по мужской линии от Аарона, брата Моисея."
+ temple_authority_samaritan_torah_doctrine_name:0 "Самаритянский"
+ temple_authority_samaritan_torah_doctrine_desc:0 "Самаритяне полностью отвергают авторитет Торы, полагаясь на самаритянскую Тору. Из-за отрицания Торы остальные иудеи обычно считают их еретиками."
+ doctrine_parameter_hostility_override_temple_authority_samaritan_torah_doctrine:0 "[faiths|E] с доктриной «[GetFaithDoctrine('temple_authority_samaritan_torah_doctrine').GetBaseName]» воспринимаются как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_temple_authority_rabbinic_doctrine:0 "[faiths|E] с доктриной «[GetFaithDoctrine('temple_authority_rabbinic_doctrine').GetBaseName]» воспринимаются как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_temple_authority_toric_doctrine:0 "[faiths|E] с доктриной «[GetFaithDoctrine('temple_authority_toric_doctrine').GetBaseName]» воспринимаются как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_temple_authority_kohanim_doctrine:0 "[faiths|E] с доктриной «[GetFaithDoctrine('temple_authority_kohanim_doctrine').GetBaseName]» воспринимаются как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_enables_temporal_head_parameter:0 "Позволяет выбирать религиозную [Concept( 'doctrine', 'доктрину' )|E] светского главы религии."
+
+ tenet_communal_identity_chosen_people_name:0 "Избранный народ"
+ tenet_communal_identity_chosen_people_desc:0 "Мы избранники [ROOT.Faith.HighGodNamePossessive] для священного договора. И хотя это объединяет наш народ общей целью, но в то же время препятствует обращению."

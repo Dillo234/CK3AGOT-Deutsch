@@ -5,7 +5,7 @@
  RW_TIME_LEFT_TT:0 "#T Tiempo restante\n#!El asalto terminará en [Raid.GetEta.GetString]"
  RW_TT_LOOT:0 "#T Botín: [Province.GetProvinceLoot|0V] [gold_i]\n#!Entregados al [realm|lE] asaltante al terminar el [raid|lE]."
  RAID_PROGRESS_TOOLTIP:0 "#T Progreso de asalto: [Raid.GetProgress|0]/[Raid.GetProgressNeeded|0]#!\n[Raid.GetRaidProgressTooltip]"
- RAID_TROOPS_TOOLTIP:0 "#T Número de soldados#!\nEjército de [raid|lE]: [Raid.GetAttackerMen|V]\n[garrison|E]: [Raid.GetDefenderMen|V]\nProgreso diario: [Raid.GetDailyProgressPercent|%1V]"
+ RAID_TROOPS_TOOLTIP:0 "#T Número de soldados#!\nEjército de [Concept( 'raiding', 'asalto' )|E]: [Raid.GetAttackerMen|V]\n[garrison|E]: [Raid.GetDefenderMen|V]\nProgreso diario: [Raid.GetDailyProgressPercent|%1V]"
  RAID_BLOCKED_BY_COMBAT:0 "@warning_icon!#X El ejército asaltante libra una [battle|lE]#!"
  RAID_ON_ME_TOOLTIP:0 "#T Me asaltan#!\n[Character.GetShortUIName] me asalta.\nLas hostilidades acabarán en [GetPlayer.GetRaidHostilityEnd( Character.Self ).GetTimeDiffFromNow].\n\n#I Haz clic para ver el personaje#!"
  RAID_BY_ME_TOOLTIP:0 "#T Asaltando#!\nAsalto a [Character.GetShortUIName].\nLas hostilidades acabarán en [GetPlayer.GetRaidHostilityEnd( Character.Self ).GetTimeDiffFromNow].\n\n#I Haz clic para ver el personaje#!"

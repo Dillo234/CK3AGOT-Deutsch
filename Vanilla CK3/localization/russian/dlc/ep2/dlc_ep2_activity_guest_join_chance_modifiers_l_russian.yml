@@ -1,0 +1,145 @@
+﻿l_russian:
+ 
+ ACTIVITY_GUEST_OPINION_REASON:1 "[opinion|E] о персонаже [host.GetShortUINameNoTooltip]: $VALUE|=+0$"
+ # ACTIVITY LEVEL
+ ACTIVITY_GUEST_ACTIVITY_LEVEL_REASON:2 "[Concept( 'title_tier', 'Уровень' )|E] персонажа [host.GetShortUIName]: $VALUE|=+0$"
+ # RANK
+ ACTIVITY_GUEST_LOWER_RANK_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] ниже [Concept( 'rank', 'рангом' )|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_HIGHER_RANK_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] выше [Concept( 'rank', 'рангом' )|E]: $VALUE|=+0$"
+ # FAMILY
+ ACTIVITY_GUEST_CLOSE_FAMILY_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] в [Concept( 'close_family', 'близком родстве' )|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_EXTENDED_FAMILY_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] в [Concept( 'extended_family', 'дальнем родстве' )|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_SAME_DYNASTY_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] принадлежит к вашей [Concept( 'dynasty', 'династии' )|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_SPOUSE:0 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] [Select_CString(ROOT.Char.IsFemale, 'ваша супруга', 'ваш супруг' )]: $VALUE|=+0$"
+ # REALM
+ ACTIVITY_GUEST_VASSAL_REASON:0 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] ваш [vassal|El]: $VALUE|=+0$"
+ ACTIVITY_GUEST_LIEGE_REASON:0 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] ваш [liege|El]: $VALUE|=+0$"
+ ACTIVITY_GUEST_FELLOW_VASSAL_REASON:2 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] тоже [Concept( 'vassal', 'вассал' )|E] вашего [Concept( 'liege', 'сюзерена' )|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_REALM_REASON:2 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] тоже [Select_CString(ROOT.Char.IsFemale, 'подданная', 'подданный' )] вашего [Concept( 'liege', 'сюзерена' )|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_OUTSIDE_REALM_REASON:0 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] [Concept( 'count', 'граф' )|E] за пределами вашей [Concept( 'realm', 'державы' )|E]: $VALUE|=+0$"
+ # RELATIONS
+ ACTIVITY_GUEST_RIVAL_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] [Select_CString(ROOT.Char.IsFemale, 'ваша', 'ваш' )] [Concept( 'rival', Select_CString(ROOT.Char.IsFemale, 'соперница', 'соперник' ))|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_NEMESIS_REASON:1 "[recipient.GetSheHe|U] ваш [nemesis|El]: $VALUE|=+0$"
+ ACTIVITY_GUEST_FRIEND_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] [Select_CString(ROOT.Char.IsFemale, 'ваша', 'ваш' )] [Concept( 'friend', Select_CString(ROOT.Char.IsFemale, 'подруга', 'друг' ))|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_BEST_FRIEND_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] [Select_CString(ROOT.Char.IsFemale, 'ваша', 'ваш' )] [Concept( 'best_friend', Select_CString(ROOT.Char.IsFemale, 'лучшая подруга', 'лучший друг' ))|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_LOVER_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] [Select_CString(ROOT.Char.IsFemale, 'ваша', 'ваш' )] [Concept( 'lover', Select_CString(ROOT.Char.IsFemale, 'любовница', 'любовник' ))|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_SOULMATE_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] ваша [soulmate|El]: $VALUE|=+0$"
+ # FAITH
+ ACTIVITY_GUEST_FAITH_ASTRAY_REASON:1 "[host.GetFaith.GetAdherentNamePlural] считают, что [ROOT.Char.GetFaith.GetAdherentNamePlural|l] — [Concept( 'faith_astray', 'заблудшие' )|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_FAITH_HOSTILE_REASON:1 "[host.GetFaith.GetAdherentNamePlural] считают, что [ROOT.Char.GetFaith.GetAdherentNamePlural|l] — [Concept( 'faith_hostile', 'враги' )|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_FAITH_EVIL_REASON:1 "[ROOT.Char.GetFaith.GetAdherentNamePlural] считают, что [host.GetFaith.GetAdherentNamePlural|l] — [Concept( 'faith_evil', 'воплощенное зло' )|E]: $VALUE|=+0$"
+ # CULTURE
+ ACTIVITY_GUEST_CULTURAL_ACCEPTANCE_REASON:1 "#L [ROOT.Char.GetCulture.GetCollectiveNoun]ая#! [Concept( 'cultural_acceptance', 'терпимость' )|E] к #L [host.GetCulture.GetCollectiveNoun|l]ой#! культуре: $VALUE|=+0$"
+ # SCHEMES
+ ACTIVITY_GUEST_SCHEME_REASON:1 "#D [Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает подходящим намерением#!: $VALUE|=+0$"
+ # TRAVEL
+ ACTIVITY_GUEST_TRAVEL_LATE_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] может опоздать: $VALUE|=+0$"
+ ACTIVITY_GUEST_TRAVEL_BARELY_REASON:0 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] может опоздать: $VALUE|=+0$"
+ ACTIVITY_GUEST_TRAVEL_NORMAL_REASON:0 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )], скорее всего, прибудет вовремя: $VALUE|=+0$"
+ ACTIVITY_GUEST_TRAVEL_EXTRA_TIME_REASON:0 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )], скорее всего, прибудет заблаговременно: $VALUE|=+0$"
+ # PERSONALITY
+ ACTIVITY_GUEST_GREGARIOUS_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('gregarious').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_SHY_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('shy').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_BRAVE_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('brave').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_CRAVEN_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('craven').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_DILIGENT_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('diligent').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_LAZY_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('lazy').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_GLUTTUNOUS_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('gluttonous').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_ZEALOUS_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('zealous').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_HUMBLE_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('humble').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_CYNICAL_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('cynical').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_ARROGANT_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('arrogant').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_GLUTTONOUS_REASON:0 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('gluttonous').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ # STRESS
+ ACTIVITY_GUEST_COMFORT_EATER_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('comfort_eater').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_INAPPETETIC_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('inappetetic').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_DRUNKARD_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('drunkard').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_RECLUSIVE_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('reclusive').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_ATHLETIC_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('athletic').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ # HEALTH
+ ACTIVITY_GUEST_WHEEZING_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('athletic').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_ONE_LEGGED_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('one_legged').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_MAIMED_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('maimed').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_PHYSIQUE_BAD_1_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('physique_bad_1').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_PHYSIQUE_BAD_2_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('physique_bad_2').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_PHYSIQUE_BAD_3_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('physique_bad_3').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ # PERKS
+ ACTIVITY_GUEST_GALLANT_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('gallant').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ # LIFESTYLE
+ ACTIVITY_GUEST_REVELER_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('lifestyle_reveler').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_HUNTER_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('lifestyle_hunter').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_BLADEMASTER_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('lifestyle_blademaster').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ # EDUCATION
+ ACTIVITY_GUEST_MARTIAL_PROWESS_1_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('education_martial_prowess_1').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_MARTIAL_PROWESS_2_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('education_martial_prowess_2').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_MARTIAL_PROWESS_3_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('education_martial_prowess_3').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_MARTIAL_PROWESS_4_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('education_martial_prowess_4').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ # TENETS
+ ACTIVITY_GUEST_DHARMIC_PACIFISM_REASON:1 "[ROOT.Char.GetFaith.GetAdjective] имеет доктрину «[GetFaithDoctrine('tenet_dharmic_pacifism').GetBaseName]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_ARMED_PILGRIMAGES_REASON:1 "[ROOT.Char.GetFaith.GetAdjective] имеет доктрину «[GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_RITUAL_CELEBRATIONS_REASON:0 "[GetFaithDoctrine('tenet_ritual_celebrations').GetBaseName]: $VALUE|=+0$"
+ # TRADITIONS
+ ACTIVITY_GUEST_CHANSON_DE_GESTE_REASON:1 "#L [ROOT.Char.GetCulture.GetCollectiveNoun]ая#! традиция «[GetCultureTradition('tradition_chanson_de_geste').GetName]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_PACIFISTS_REASON:1 "#L [ROOT.Char.GetCulture.GetCollectiveNoun]ая#! традиция «[GetCultureTradition('tradition_pacifism').GetName]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_ZEALOUS_PEOPLE_REASON:1 "#L [ROOT.Char.GetCulture.GetCollectiveNoun]ая#! традиция «[GetCultureTradition('tradition_zealous_people').GetName]»: $VALUE|=+0$"
+ # OTHER
+ ACTIVITY_GUEST_NOT_PILGRIM_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] еще не имеет свойства «[GetTrait('pilgrim').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_PILGRIM_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] уже имеет свойство «[GetTrait('pilgrim').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_GAINING_WEIGHT_REASON:1 "[ROOT.Char.GetSheHe|U] имеет модификатор «[GetModifier('gaining_weight_modifier').GetName]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_LOSING_WEIGHT_REASON:1 "[ROOT.Char.GetSheHe|U] имеет модификатор «[GetModifier('losing_weight_modifier').GetName]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_PRIESTESS_REASON:1 "[ROOT.Char.GetSheHe|U] [ROOT.Char.GetFaith.PriestFemale|l]: $VALUE|=+0$"
+ ACTIVITY_GUEST_PRIEST_REASON:1 "[ROOT.Char.GetSheHe|U] [ROOT.Char.GetFaith.PriestMale|l]: $VALUE|=+0$"
+ ACTIVITY_GUEST_NUN_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('devoted').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_MONK_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('devoted').GetName( ROOT.Char.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_GENDER_REASON:1 "#L [ROOT.Char.GetCulture.GetCollectiveNoun]ие#! [Concept( 'martial_custom', 'военные традиции' )|E] в отношении [Select_CString(ROOT.Char.IsFemale, 'женщин', 'мужчин' )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_HUNTERS_MORE_COMMON_REASON:2 "#L [ROOT.Char.GetCulture.GetCollectiveNoun]ие#! культурные [Concept( 'traditions', 'традиции' )|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_HUNTERS_MORE_VALUED_REASON:1 "$ACTIVITY_GUEST_HUNTERS_MORE_COMMON_REASON$"
+ ACTIVITY_GUEST_HUNTERS_MORE_PIOUS_REASON:1 "$ACTIVITY_GUEST_HUNTERS_MORE_COMMON_REASON$"
+ ACTIVITY_GUEST_BLIND_REASON:1 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] обладает свойством «[GetTrait('blind').GetName( recipient.Self )]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_MY_WEDDING:1 "[Select_CString(ROOT.Char.IsFemale, 'Ее', 'Его' )] собственная свадьба: $VALUE|=+0$"
+ ACTIVITY_GUEST_CLOSE_FAMILY:0 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] в близком родстве с супругом: $VALUE|=+0$"
+ ACTIVITY_GUEST_MATCHMAKER:0 "[Select_CString(ROOT.Char.IsFemale, 'Она посватала', 'Он посватал' )] супруга: $VALUE|=+0$"
+ ACTIVITY_GUEST_PARENTS:0 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] родитель супруга: $VALUE|=+0$"
+ ACTIVITY_GUEST_CLERGY_REASON:0 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] представитель духовенства: $VALUE|=+0$"
+ ACTIVITY_GUEST_MASTER_OF_HUNT_REASON:0 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] [GetCourtPositionType('master_of_hunt_court_position').GetName()|l]: $VALUE|=+0$"
+ ACTIVITY_GUEST_HUNTERS_REASON:0 "[ROOT.Char.GetCulture.GetCollectiveNoun]ая [Concept( 'tradition', 'традиция' )|E] «[GetCultureTradition('tradition_hunters').GetName]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_FALCONERS_REASON:0 "[ROOT.Char.GetCulture.GetCollectiveNoun]ая [Concept( 'tradition', 'традиция' )|E] «[GetCultureTradition('tradition_ep2_avid_falconers').GetName]»: $VALUE|=+0$"
+ ACTIVITY_GUEST_GLORY_HOUND_REASON:0 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] [GetVassalStance('glory_hound').GetTextIcon]охочий до славы [Concept( 'vassal', 'вассал' )|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_COURTLY_REASON:0 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] [GetVassalStance('courtly').GetTextIcon] куртуазный [Concept( 'vassal', 'вассал' )|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_HEALTH_REASON:0 "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] [Concept( 'health', 'недомогает' )|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_ACCIDENTAL_HUNT_DEATH_REASON:0 "Смерти на ваших прошлых охотах: $VALUE|=+0$"
+ ACTIVITY_GUEST_CANNOT_HUNT_REASON:0 "$ACTIVITY_GUEST_HUNTERS_MORE_COMMON_REASON$"
+
+ # Tournament Options
+ ACTIVITY_GUEST_OPTIONS_TOURNAMENT_ACCOMMODATIONS_BAD:0 "$tournament_accommodations_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTIONS_TOURNAMENT_ACCOMMODATIONS_NORMAL:0 "$tournament_accommodations_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTIONS_TOURNAMENT_ACCOMMODATIONS_GOOD:0 "$tournament_accommodations_good$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTIONS_TOURNAMENT_PRIZES_BAD:0 "$tournament_prizes_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTIONS_TOURNAMENT_PRIZES_NORMAL:0 "$tournament_prizes_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTIONS_TOURNAMENT_PRIZES_GOOD:0 "$tournament_prizes_good$: $VALUE|=+0$"
+
+ # Tour Options
+ ACTIVITY_GUEST_OPTION_TOUR_LUXURIES_BAD:0 "$tour_luxuries_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_TOUR_LUXURIES_NORMAL:0 "$tour_luxuries_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_TOUR_LUXURIES_GOOD:0 "$tour_luxuries_good$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_TOUR_FURNITURE_NORMAL:0 "$tour_furniture_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_TOUR_FURNITURE_GOOD:0 "$tour_furniture_good$: $VALUE|=+0$"
+
+ # Wedding Options 
+ ACTIVITY_GUEST_OPTION_WEDDING_ENTERTAINMENT_BAD:0 "$wedding_entertainment_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_ENTERTAINMENT_NORMAL:0 "$wedding_entertainment_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_ENTERTAINMENT_GOOD:0 "$wedding_entertainment_good$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_FOOD_BAD:0 "$wedding_food_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_FOOD_NORMAL:0 "$wedding_food_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_FOOD_GOOD:0 "$wedding_food_good$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_DECORATION_BAD:0 "$wedding_decoration_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_DECORATION_NORMAL:0 "$wedding_decoration_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_DECORATION_GOOD:0 "$wedding_decoration_good$: $VALUE|=+0$"
+
+ # Feast Options 
+ ACTIVITY_GUEST_OPTION_FEAST_FOOD_BAD:0 "$feast_food_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_FEAST_FOOD_NORMAL:0 "$feast_food_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_FEAST_FOOD_GOOD:0 "$feast_food_good$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_FEAST_COURSES_BAD:0 "$feast_courses_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_FEAST_COURSES_NORMAL:0 "$feast_courses_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_FEAST_COURSES_GOOD:0 "$feast_courses_good$: $VALUE|=+0$"

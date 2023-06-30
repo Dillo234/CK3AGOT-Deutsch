@@ -1,8 +1,17 @@
 ﻿l_spanish:
  DECISION_ON_COOLDOWN:0 "@warning_icon!#X «$DECISION_NAME$» no disponible hasta [DATE.GetStringLong]#!"
  ALREADY_PLANNING_ACTIVITY:0 "Ya estoy planeando otra [activity|lE]"
+ ALREADY_IN_ACTIVITY_FIRST_NOT:0 "Ahora mismo te ocupa [CHARACTER.Custom('GetActivityName')|l]"
+ ALREADY_IN_ACTIVITY_THIRD_NOT:0 "A [CHARACTER.GetSheHe] ahora mismo le ocupa [CHARACTER.Custom('GetActivityName')|l]"
+ unavailable_activity:0 "participando en [ROOT.Char.GetInvolvedActivity.GetName|l]"
+ unavailable_pay_homage:0 "rindiendo homenaje a tu señor"
+ unavailable_meditation:0 "meditando"
+ unavailable_petition_liege:0 "haciendo una petición a tu señor"
+ unavailable_hold_court:0 "celebrando corte"
+ unavailable_tour_stop:0 "preparando la [tour|lE] de tu señor"
+
  start_hunt_decision:0 "Llamar a una cacería"
- start_hunt_decision_tooltip:1 "Se celebrará una [hunt|lE]"
+ start_hunt_decision_tooltip:2 "Se celebrará una [GetActivityType('activity_hunt').GetName|l]"
  start_hunt_decision_desc:0 "#F ¡La naturaleza salvaje me llama y toda clase de bestias esperan mi lanza y mi arco!#!"
  start_hunt_decision_go_on_hunt:1 "Vas a una #V cacería#! en una de las baronía de mi señorío"
  start_hunt_decision_prestige:1 "Puedes tener oportunidades de aumentar tu [prestige|lE]"
@@ -17,7 +26,7 @@
  host_lavish_feast_decision:0 "Celebrar un festín generoso"
  host_grand_feast_decision:0 "Celebrar un gran festín"
  host_modest_feast_decision:0 "Celebrar un festín modesto"
- host_feast_decision_tooltip:0 "Se celebrará un [feast|lE]"
+ host_feast_decision_tooltip:0 "Se celebrará un/a [GetActivityType('activity_feast').GetName|l]"
  host_feast_decision_opening_desc:0 "#F Abrir los barriles e invitar a los invitados de honor no es solo un deber, sino una oportunidad para reafirmar los lazos de lealtad… ¡y a menudo un gran placer!#!"
  host_feast_decision_desc_vassals:1 "Puede aumentar la [opinion|lE] de tus vasallos sobre ti"
  host_feast_decision_desc_court_musician_opinion:1 "#P Como empleas a un $court_musician_court_position$, la ganancia de opinión será más significativa#!"
@@ -42,16 +51,16 @@
  escape_from_prison_decision_failure.tt:0 "Tu intento de fuga fracasa"
  escape_from_prison_decision_failure_outcome.tt:0 "[imprisoner.GetTitledFirstName] se sentirá… disgustad[imprisoner.Custom('ES_OA')]"
  escape_from_prison_decision_confirm:0 "¡Ningún barrote me retendrá!"
- escape_from_prison_decision_effect_tooltip:0 "@warning_icon! El éxito del intento depende de tu [prowess|lE] y tus [traits|lE]"
+ escape_from_prison_decision_effect_tooltip:1 "@warning_icon! Las probabilidades de éxito dependen de tu [prowess|lE], [traits|lE] y de si estás en la [dungeon|lE]"
 
  tribal_challenge_ruler_decision:0 "Desafiar a: [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip|U]"
  tribal_challenge_ruler_decision_desc:0 "[ROOT.Char.GetLiege.GetFirstName] ostenta el título de [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip] como algo incuestionable. ¡Como si no fueran la habilidad y la fuerza quienes deciden quién será nuestro líder!\n\nYo, [ROOT.Char.GetFullNameNoTooltip], cuestiono su derecho al título, a todo el [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier], ¡y no callaré más!"
  tribal_challenge_ruler_decision_tooltip:0 "Desafiar a [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip|U] por su título y sus tierras"
- tribal_challenge_ruler_effect_tooltip:0 "[liege_to_challenge.GetTitledFirstNameNoTooltip] decidirá el desafío\n"
+ tribal_challenge_ruler_effect_tooltip:0 "[liege_to_challenge.GetTitledFirstNameNoTooltip|l] decidirá el desafío\n"
  tribal_challenge_ruler_desc_success:0 "Ganas el desafío"
  tribal_challenge_ruler_desc_failure:0 "Pierdes el desafío"
  recently_took_tribal_challenge_ruler_decision:0 "Ha desafiado el gobierno de otra persona recientemente"
- tribal_challenge_ruler_decision_confirm:0 "¡Desafiar a [ROOT.Char.GetLiege.GetTitledFirstNameNoTooltip]!"
+ tribal_challenge_ruler_decision_confirm:0 "¡Desafiar a [ROOT.Char.GetLiege.GetTitledFirstNameNoTooltip|l]!"
 
  gain_weight_decision:0 "Ganar peso"
  gain_weight_decision_desc:0 "Las limitaciones de mi cuerpo se están volviendo demasiado notorias. ¡Apenas tengo fuerzas para pasar el día!\n\nSe me ha sugerido una dieta que contiene, entre otras cosas, mucha leche, mantequilla y dátiles. Creo que es hora de probarla."
@@ -111,7 +120,7 @@
  playdate_decision_desc:0 "#F ¡Invitar a todas las damas y señores menudos del señorío para que se diviertan en la compañía de otros niños es una experiencia liberadora y divertida!#!"
  host_playdate_decision_desc_vassal_and_courtiers:0 "Puede aumentar la [opinion|lE] de tus vasallos y cortesanos sobre ti"
  start_playdate_decision:0 "Te reúnes con otros rapaces en [capital_province.GetName]"
- playdate_decision_tooltip:0 "Invitas a los niños a [Concept( 'playdate', 'jugar' )|E]"
+ playdate_decision_tooltip:0 "Invitarás a los niños a un [GetActivityType('activity_playdate').GetName|l]"
  playdate_decision_confirm:0 "¡Enviar invitaciones!"
 
  repay_loan_decision:0 "Devolver préstamo"
@@ -159,14 +168,14 @@
  seek_aid_of_the_spirits_decision_confirm:0 "Buscar la ayuda de los espíritus"
 
  select_personal_deity_hinduism_decision:0 "Elegir bhakti"
- select_personal_deity_hinduism_decision_tooltip:0 "Pensar sobre el [ROOT.Char.GetFaith.PantheonTerm]"
+ select_personal_deity_hinduism_decision_tooltip:0 "Pensar sobre [ROOT.Char.GetFaith.PantheonTerm]"
  select_personal_deity_hinduism_decision_desc:0 "#F Todo [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] fervoroso debe tener un bhakti, una devoción a un dios o diosa específico que resuene con más fuerza en su alma.\n\nDebo pesar en los distintos seres divinos y decidir cuál me llama más.#!"
  select_personal_deity_hinduism_decision_confirm:0 "Pensar en bhakti"
  select_personal_deity_hinduism_decision_tt:0 "Gano un modificador asociado con el bakthi elegido"
 
  select_personal_deity_germanic_decision:0 "Decidir deidad personal"
- select_personal_deity_germanic_decision_tooltip:0 "Pensar sobre el [ROOT.Char.GetFaith.PantheonTerm]"
- select_personal_deity_germanic_decision_desc:1 "#F Entre los [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip], no es raro distinguir del [ROOT.Char.GetFaith.PantheonTerm] a quien se adapta a sus gustos y objetivos de vida, para prestarle una atención especial.\n\nDebo reflexionar sobre estos seres divinos y decidir cuál de ellos me llama más.#!"
+ select_personal_deity_germanic_decision_tooltip:0 "Pensar sobre [ROOT.Char.GetFaith.PantheonTerm]"
+ select_personal_deity_germanic_decision_desc:1 "#F Entre los [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip], no es raro distinguir entre [ROOT.Char.GetFaith.PantheonTerm] a quien se adapta a sus gustos y objetivos de vida, para prestarle una atención especial.\n\nDebo reflexionar sobre estos seres divinos y decidir cuál de ellos me llama más.#!"
  select_personal_deity_germanic_decision_confirm:0 "Consagrar tu adoración a un dios en particular"
  select_personal_deity_germanic_decision_tt:1 "Empiezas a vivir la vida según los valores de"
  select_personal_deity_germanic_decision.select_odin:0 "Odín, amante de la guerra, padre de todos"
@@ -226,7 +235,7 @@
  commission_artifact_decision_tooltip:0 "Contratar a un artesano local para que cree un [artifact|lE] para ti"
  commission_artifact_decision_desc:0 "¿De qué sirve ser [ROOT.Char.GetTitleAsNameNoTooltip] si no tengo objetos bonitos que lucir? Estaría bien una nueva espada, o tal vez un broche…"
  commission_artifact_decision_confirm:0 "Contrata a un artesano local"
- commission_artifact_decision_effect_message:0 "Mensaje de efecto de encargar artefacto"
+ commission_artifact_decision_effect_message:0 ""
  COMMISSION_ARTIFACT_DECISION_NEXT_STEP_BUTTON:0 "Elegir artefacto"
  COMMISSION_ARTIFACT_DECISION_SELECT_ARTIFACT_TITLE:0 "Elegir un tipo de [artifact|lE]"
 
@@ -498,7 +507,7 @@
  create_israel_kingdom_decision_effect_tooltip:0 "El reino de Israel se ha restaurado"
 
  jewish_restore_high_priesthood_decision:0 "Restaurar el Sumo Sacerdocio [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]"
- jewish_restore_high_priesthood_decision_confirm:0 "Crear un nuevo líder religioso"
+ jewish_restore_high_priesthood_decision_confirm:0 "Crear una nueva cabeza religiosa"
  jewish_restore_high_priesthood_decision_desc:0 "El puesto de [ROOT.Char.GetFaith.ReligiousHeadName] (sumo sacerdote del judaísmo) ha estado vacante desde la destrucción del Segundo Templo a manos de los romanos. Pero si recuperamos la posesión de suficientes lugares sagrados, se podría fundar un nuevo sacerdocio."
  jewish_restore_high_priesthood_decision_tooltip:0 "Se ha reestablecido el sacerdocio [ROOT.Char.GetFaith.GetAdjective]."
 
@@ -506,7 +515,7 @@
  restore_high_priesthood_decision_effect_tooltip:0 "Se ha reestablecido el sacerdocio [THIS.Char.GetFaith.GetAdjective]"
 
  zoroastrian_restore_high_priesthood_decision:0 "Restaurar el Sumo Sacerdocio del [ROOT.Char.GetFaith.GetNameNoTooltip]"
- zoroastrian_restore_high_priesthood_decision_confirm:0 "Crear un nuevo líder religioso"
+ zoroastrian_restore_high_priesthood_decision_confirm:0 "Crear una nueva cabeza religiosa"
  zoroastrian_restore_high_priesthood_decision_desc:0 "Si el [ROOT.Char.GetFaith.GetAdjective] consiguiese entrar en Persia, sería el momento perfecto para restauración de un verdadero sacerdocio zoroástrico."
  zoroastrian_restore_high_priesthood_decision_tooltip:0 "Se ha creado el clero [ROOT.Char.GetFaith.GetAdjective]."
  zoroastrian_restore_high_priesthood_decision_effect_tooltip:0 "Se ha creado el clero [THIS.Char.GetFaith.GetAdjective]"
@@ -573,8 +582,8 @@
  found_university_decision_tooltip:1 "La casilla de [special_building|lE]: [GetBuilding('generic_university').GetName] pasa a estar disponible"
  found_university_decision_confirm:1 "¡Que se construya!"
  found_university_decision_custom:0 "En una baronía digna"
- no_built_university:0 "Esta provincia no tiene ningún [special_building|lE]"
- no_special_building_slot:0 "Esta provincia aún no tiene la casilla de [special_building|lE]"
+ no_built_university:1 "La [holding|lE] no tiene un [special_building|lE]"
+ no_special_building_slot:1 "La [holding|lE] no tiene la casilla de [special_building|lE]"
  decision_found_university_custom:0 "Todas las capitales condales sin [GetBuilding('generic_university').GetName]"
  
  empower_sicilian_parliament_decision:0 "Dar poder al Parlamento siciliano"
@@ -631,7 +640,7 @@
  found_witch_coven_decision_tooltip:0 "Comenzar una nueva tradición familiar"
  found_witch_coven_decision_effects.children.tt:0 "Todos los hijos del aquelarre de [founder.GetHouse.GetBaseName] que sean educados por una [GetTrait('witch').GetName( GetPlayer )] se convertirán en brujos"
  found_witch_coven_decision_effects.convert.tt:0 "Todos los brujos y brujas del aquelarre de [founder.GetHouse.GetBaseName] tendrán más éxito al convertir a otros a la brujería"
- found_witch_coven_decision_effects.grand_rite.tt:0 "El [house_head|lE] del aquelarre de [founder.GetHouse.GetBaseName] puede celebrar una [activity|lE] de Gran rito"
+ found_witch_coven_decision_effects.grand_rite.tt:1 "El [house_head|lE] del aquelarre de [founder.GetHouse.GetBaseName] puede celebrar una [activity|lE] de [GetActivityType('activity_witch_ritual').GetName|l]"
 
  strengthen_bloodline_decision:0 "Reforzar linaje"
  strengthen_bloodline_decision_desc:0 "Fuerza, belleza e inteligencia son todas pruebas de la fuerza de un linaje. Una dinastía así bendecida pasará estos dones de generación en generación."
@@ -669,7 +678,7 @@
  defenders_of_highgod_decision_confirm:0 "Fortificar el Lugar sagrado"
  defenders_of_highgod_decision_tooltip:0 "Gana la lealtad de las tribus y únelas en defensa del [ROOT.Char.GetFaith.GetName]"
 
- defenders_of_highgod_decision_effects_holy_site_of_choice:0 "Un [holy_site|lE] [SCOPE.GetRootScope.Char.GetFaith.GetAdjective] que poseo"
+ defenders_of_highgod_decision_effects_holy_site_of_choice:0 "Un [holy_site|lE] de fe [SCOPE.GetRootScope.Char.GetFaith.GetAdjective] que poseo"
  defenders_of_highgod_decision_effects_holy_warriors_tt:0 "Muchos guerreros [defender_of_highgod.GetFaith.GetAdjective]s de tu señorío se convierten en guerreros santos"
 
  #UNITE THE SPANISH THRONES
@@ -705,11 +714,11 @@
  form_portugal_decision_desc:0 "Ahora que controlo la costa occidental de la península ibérica, puedo formar el reino de Portugal y crear nuestra cultura única."
  portguese_convert_list:3 "Todo súbdito de [heritage|lE] [THIS.Char.GetCulture.GetHeritage.GetNameNoTooltip] en [Select_CString( THIS.Char.IsLocalPlayer, 'tu señorío portugués', 'el señorío portugués de ' )][Select_CString( THIS.Char.IsLocalPlayer, '', THIS.Char.GetUIName )]"
  portguese_convert_list_court:1 "Todo [courtier|lE] [THIS.Char.GetCulture.GetName]"
- portugese_convert_iberian_counties:2 "Todo condado de [heritage|lE] [THIS.Char.GetCulture.GetHeritage.GetBaseNameNoTooltip] del reino de Portugal"
+ portugese_convert_iberian_counties:2 "Todo condado de [heritage|lE] [THIS.Char.GetCulture.GetHeritage.GetNameNoTooltip] del reino de Portugal"
  portugese_convert_non_iberian_counties:0 "El resto de condados del reino de Portugal"
  form_portugal_decision_confirm:0 "Formar Portugal"
  form_portugal_decision_tooltip:0 "Forma el [kingdom|lE] de Portugal y crea la [culture|lE] portuguesa"
- form_portugal_decision_effects_de_jure_tt:1 "[title_d_porto.GetNameNoTier], [title_d_coimbra.GetNameNoTier], [title_d_beja.GetNameNoTier] y [title_d_algarve.GetNameNoTier] se convierten en parte [de_jure|iE] del #V [title_k_portugal.GetName]#! "
+ form_portugal_decision_effects_de_jure_tt:1 "[title_d_porto.GetNameNoTier], [title_d_coimbra.GetNameNoTier], [title_d_beja.GetNameNoTier] y [title_d_algarve.GetNameNoTier] se convierten en parte [de_jure|lE] del #V [title_k_portugal.GetName]#! "
 
  #FORM CANARIAS
  declare_canarias_decision:0 "Consolidar las Canarias"
@@ -741,9 +750,9 @@
  #Guest decisions
  invite_knights_decision:1 "Invitar a $knight_culture_player_plural_no_tooltip$"
  invite_knights_decision_desc:1 "Como [ROOT.Char.GetTitleAsNameNoTooltip] de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], necesito $knight_culture_player_plural_no_tooltip_lowercase$ valientes que defiendan mi señorío y conquisten nuevas tierras. Enviaré un heraldo para hacer saber a mis súbditos que busco guerreros diestros."
- invite_knights_decision.men.tt:0 "Al menos #P 3#! hombres aptos con #V 12#! de [prowess|lE] o más llegarán a la corte como [guests|lE] en los próximos meses"
- invite_knights_decision.women.tt:0 "Al menos #P 3#! mujeres aptas con #V 12#! de [prowess|lE] o más llegarán a la corte como [Concept( 'guests', 'invitadas' )|E] en los próximos meses"
- invite_knights_decision.warriors.tt:1 "Al menos #P 3#! guerreros con #V 12#! de [prowess|lE] o más llegarán a la corte como [guests|lE] en los próximos meses"
+ invite_knights_decision.men.tt:1 "Al menos #P 3#! hombres aptos con #V [EmptyScope.ScriptValue('invite_knights_decision_standard_value')|0]#! de [prowess|lE] o más llegarán a la corte como [guests|lE] en los próximos meses"
+ invite_knights_decision.women.tt:2 "Al menos #P 3#! mujeres aptas con #V [EmptyScope.ScriptValue('invite_knights_decision_standard_value')|0]#! de [prowess|lE] o más llegarán a la corte como [Concept( 'guests', 'invitadas' )|E] en los próximos meses"
+ invite_knights_decision.warriors.tt:2 "Al menos #P 3#! guerreros con #V [EmptyScope.ScriptValue('invite_knights_decision_standard_value')|0]#! de [prowess|lE] o más llegarán a la corte como [guests|lE] en los próximos meses"
  invite_knights_decision_confirm:0 "Enviar al heraldo"
  minor_decisions.0001.t:1 "Ha llegado un $knight_culture_player_no_tooltip$"
  minor_decisions.0001.desc:1 "[knight.GetTitledFirstName] ha escuchado mi llamamiento y llega a la corte como invitado"
@@ -837,9 +846,9 @@
  form_the_kingdom_of_aragon_decision_confirm:0 "¡Nuestro hogar, nuestro reino!"
  form_the_kingdom_of_aragon_decision_tooltip:0 "Fundar el Reino de Aragón"
  form_the_kingdom_of_aragon_decision.tt.form_aragonese:0 "Podrás elegir entre copiar o no los [culture_pillars|lE] de la cultura [founder_culture.GetName] a la [aragonese_culture.GetName]"
- form_the_kingdom_of_aragon_decision.tt.drift.d_valencia:0 "Si [Concept( 'completely_control|', 'controlas totalmente' )|E] [d_valencia.GetDefinitiveName], [Concept( 'de_jure_drift_drifted', 'derivará de iure' )|E] a [k_aragon.GetDefinitiveName]"
+ form_the_kingdom_of_aragon_decision.tt.drift.d_valencia:0 "Si [Concept( 'completely_control', 'controlas totalmente' )|E] [d_valencia.GetDefinitiveName], [Concept( 'de_jure_drift_drifted', 'derivará de iure' )|E] a [k_aragon.GetDefinitiveName]"
  form_the_kingdom_of_aragon_decision.tt.drift.d_barcelona:0 "Si [Concept( 'completely_control', 'controlas totalmente' )|E] [d_barcelona.GetDefinitiveName], [Concept( 'de_jure_drift_drifted', 'derivará de iure' )|E] a [k_aragon.GetDefinitiveName]"
- form_the_kingdom_of_aragon_decision.tt.drift.d_navarra:0 "Si [Concept( 'completely_control|', 'controlas totalmente' )|E] [d_navarra.GetDefinitiveName], [Concept( 'de_jure_drift_drifted', 'derivará de iure' )|E] a [k_aragon.GetDefinitiveName]"
+ form_the_kingdom_of_aragon_decision.tt.drift.d_navarra:0 "Si [Concept( 'completely_control', 'controlas totalmente' )|E] [d_navarra.GetDefinitiveName], [Concept( 'de_jure_drift_drifted', 'derivará de iure' )|E] a [k_aragon.GetDefinitiveName]"
 
  # Culture Conversion
  convert_to_local_culture_decision:0 "Convertirse a la cultura local"
@@ -860,7 +869,7 @@
  non_zealous_convert:0 "Se convierte al [new_faith.GetName] #weak (si no )#!"
 
  secede_from_empire_decision:0 "Separarse de [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]"
- secede_from_empire_decision_desc:0 "La incompetencia de [ROOT.Char.GetLiege.GetTitledFirstName] ha dejado a [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTooltip] incapaz de defender a sus súbditos de sus enemigos, externos e internos. Hasta a un nuevo gobernante le costaría deshacer todo el daño que ha cometido [ROOT.Char.GetLiege.GetSheHe].\n\nNos resultaría más inteligente separarnos y formar un nuevo señorío. Vivir o morir por nuestros propios méritos en lugar de vernos arrastrados con el resto del Imperio."
+ secede_from_empire_decision_desc:0 "La incompetencia de [ROOT.Char.GetLiege.GetTitledFirstName|l] ha dejado a [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTooltip] incapaz de defender a sus súbditos de sus enemigos, externos e internos. Hasta a un nuevo gobernante le costaría deshacer todo el daño que ha cometido [ROOT.Char.GetLiege.GetSheHe].\n\nNos resultaría más inteligente separarnos y formar un nuevo señorío. Vivir o morir por nuestros propios méritos en lugar de vernos arrastrados con el resto del Imperio."
  secede_from_empire_decision_tooltip:0 "Soltarse y perder algo de estrés"
  secede_from_empire_decision_effect_tooltip:0 "Se cancelarán algunas de las deudas de tu anterior señor"
  secede_from_empire_decision_trigger_debt:0 "[CHARACTER.GetTitledFirstName] lleva más de 25 años con deudas"
@@ -947,9 +956,9 @@
  stress_loss_athletic_decision_tooltip:0 "Cuerpo sano para una mente sana"
  stress_loss_athletic_decision_confirm:0 "¡Vamos!"
 
- DECISION_COOLDOWN_WARNING:0 "@warning_icon!#X $DECISION_NAME$ no estará disponible durante $COOLDOWN$#!"
+ DECISION_COOLDOWN_WARNING:1 "@alert_icon! #alert_trial $DECISION_NAME$ no estará disponible durante $COOLDOWN$#!"
  
- SHOW_DECISION_TOOLTIP:1 "#T [Decision.GetTitleForPlayer]#!\n[Decision.GetCommandDescForPlayer][Select_CString(StringIsEmpty(Decision.GetCommandDescForPlayer),'','\n')][Decision.GetShortDescForPlayer]"
+ SHOW_DECISION_TOOLTIP:3 "#T [Decision.GetTitleForPlayer]#!\n[Decision.GetCommandDescForPlayer][Select_CString(StringIsEmpty(Decision.GetCommandDescForPlayer),'','\n')][Decision.GetShortDescForPlayer]\n\n#I Haz clic para seleccionar#!"
 
  all_courtiers_except_confidant:0 "Todos los [courtiers|lE] excepto tu confidente"
 
@@ -1008,7 +1017,7 @@
  deceitful_progress_hostile_schemes_decision_tooltip:0 "Refinar tus [hostile_schemes|lE]"
  deceitful_progress_hostile_schemes_decision_confirm:0 "¡Un mundo de conjuras me aguarda!"
  deceitful_progress_hostile_schemes_decision_missing_scheme:0 "Debes tener por lo menos #V 1 #! [hostile_scheme|lE] activa"
- deceitful_progress_hostile_schemes_decision_missing_scheme_effect:0 "Tus [hostile_schemeslE] tendrán una mejor [success_chance|lE]"
+ deceitful_progress_hostile_schemes_decision_missing_scheme_effect:0 "Tus [hostile_schemes|lE] tendrán una mejor [success_chance|lE]"
  msg_deceitful_progress_hostile_schemes:0 "¡Tus [hostile_schemes|lE] han progresado!"
 
  diligent_development_focus_decision:0 "Desarrollar capital"
@@ -1037,7 +1046,6 @@
  introduce_a_new_fashion_at_court_decision_confirm:0 "¡Por un nuevo estilo y clase!"
  court_already_has_a_fashion_tend_tt:0 "La corte ya tiene una tendencia de moda en curso."
 
- #TODO_CD_JB, move over to a separate event file
  court_amenities_interactions.0010.b_turned_down:0 "¡Todos adoran el nuevo estilo!"
  court_amenities_interactions.0010.t:0 "Una nueva moda en la corte"
  court_amenities_interactions.0010.desc_intro:0 "[actor.GetNameNoTooltip|U] ha irrumpido en la corte, llamando la atención de todos los damas y señores del señorío con unas prendas muy peculiares."
@@ -1070,7 +1078,7 @@
  court_amenities_interactions.0012.desc_lost.kof:1 "Eso no es todo, sino que mucho han empezado a llamar[actor.GetHerHim] «[actor.GetTitleAsNameNoTooltip] de la moda»."
  court_amenities_interactions.0012.a_lost:0 "¡Estoy rodead[ROOT.Char.Custom('ES_OA')] de aduladores e idiotas!"
  court_amenities_interactions.0013.desc:1 "¡Con el paso del tiempo, mucha gente en [debate_locale.GetNameNoTierNoTooltip] ha empezado a llamarme [actor.GetTitleAsNameNoTooltip] de la moda!"
- court_amenities_interactions.0013.a:0 "¡Salve, [actor.GetTierAsNameNoTooltip]!"
+ court_amenities_interactions.0013.a:0 "¡Salve, [actor.GetTitleAsNameNoTooltip]!"
  
  commission_epic_artifact_tt:1 "Puedes recibir un [artifact|lE] en forma de epopeya familiar"
  PETITION_LIEGE_DECISION_SELECT_PETITION_TITLE:0 "Elegir un tipo de [Concept( 'petition_liege', 'petición' )|E]"
@@ -1093,10 +1101,10 @@
  faith_qualifies_for_west_african_pagan_feudalisation_trigger.tt:0 "Tu [faith|lE] es [GetFaithDoctrine('west_african_unreformed_faith_doctrine').GetBaseName]"
 
  appoint_a_righteous_caliph_decision:0 "Nombrar un califa justo"
- appoint_a_righteous_caliph_decision_desc:0 "[ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName] es una figura distante, indigna y mal preparada para dirigir a la umma. Sencillamente, al ser de fe [ROOT.Char.GetFaith.GetReligiousHead.GetFaith.GetAdjective] no #EMP entiende#! muchas de las sutiles verdades del razonamiento [ROOT.Char.GetFaith.GetAdherentName].\n\nPuede que [ROOT.Char.GetFaith.GetReligiousHead.GetSheHe] no, pero #EMP yo#! sí…"
+ appoint_a_righteous_caliph_decision_desc:0 "[ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName|l] es una figura distante, indigna y mal preparada para dirigir a la umma. Sencillamente, al ser de fe [ROOT.Char.GetFaith.GetReligiousHead.GetFaith.GetAdjective] no #EMP entiende#! muchas de las sutiles verdades del razonamiento [ROOT.Char.GetFaith.GetAdherentName].\n\nPuede que [ROOT.Char.GetFaith.GetReligiousHead.GetSheHe] no, pero #EMP yo#! sí…"
  appoint_a_righteous_caliph_decision_confirm:0 "¡[ROOT.Char.GetFaith.PositiveAfterLife|U] me guía!"
  appoint_a_righteous_caliph_decision_tooltip:0 "Alejar el [ROOT.Char.GetFaith.GetNameNoTooltip] de la senda [ROOT.Char.GetFaith.GetReligiousHead.GetFaith.GetAdjectiveNoTooltip]"
- appoint_a_righteous_caliph_decision.tt.you_become_caliph:0 "[THIS.Char.GetShortUIName|U] [Select_CString(THIS.Char.IsLocalPlayer, 'eres', 'es' )] nuev[THIS.Char.Custom('ES_OA')] [Concept( 'head_of_faith', 'líder' )|E] de la fe [THIS.Char.GetFaith.GetAdjective]"
+ appoint_a_righteous_caliph_decision.tt.you_become_caliph:0 "[THIS.Char.GetShortUIName|U] [Select_CString(THIS.Char.IsLocalPlayer, 'eres', 'es' )] nuev[THIS.Char.Custom('ES_OA')] [Concept( 'head_of_faith', 'cabeza' )|E] de la fe [THIS.Char.GetFaith.GetAdjective]"
  appoint_a_righteous_caliph_decision.need_at_least_ten_same_faith_counties:0 "Tienes al menos [EmptyScope.ScriptValue('appoint_a_righteous_caliph_decision_same_faith_county_count')|0] [counties|lE] [CHARACTER.GetFaith.GetAdherentNamePlural]"
  appoint_a_righteous_caliph_decision.cant_be_caliphal_controller:0 "No eres el [liege|lE] de tu [head_of_faith|lE]"
  appoint_a_righteous_caliph_decision.no_more_than_x_sinful_traits:0 "No tienes más de [EmptyScope.ScriptValue('appoint_a_righteous_caliph_decision_own_max_sins')|0] [traits|lE] [sinful|lE]"
@@ -1107,10 +1115,10 @@
  appoint_a_righteous_caliph_decision.has_wishes_to_schism_caliphate_flag:0 "Planeabas separarte aún más cuando se creó tu [faith|lE]"
 
  mozarabic_bind_the_faith_to_rome_decision:0 "Unir la fe a Roma"
- mozarabic_bind_the_faith_to_rome_decision_desc:0 "Si bien [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName] sigue siendo nuestr[ROOT.Char.GetFaith.GetReligiousHead.Custom('ES_OA')] auténtic[ROOT.Char.GetFaith.GetReligiousHead.Custom('ES_OA')] Papa, el aislamiento de la voluntad del Vicario de Cristo nos ha llevado por caminos extraños. Atrás quedaron los días en que los grandes cónclaves del clero europeo hollaban los salones de Toledo.\n\nSin embargo, no tiene por qué seguir así… Si nuestra fe se ha extraviado, ¿no podría un pastor fuerte volver a unirla al rebaño?"
+ mozarabic_bind_the_faith_to_rome_decision_desc:0 "Si bien [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName|l] sigue siendo nuestr[ROOT.Char.GetFaith.GetReligiousHead.Custom('ES_OA')] auténtic[ROOT.Char.GetFaith.GetReligiousHead.Custom('ES_OA')] Papa, el aislamiento de la voluntad del Vicario de Cristo nos ha llevado por caminos extraños. Atrás quedaron los días en que los grandes cónclaves del clero europeo hollaban los salones de Toledo.\n\nSin embargo, no tiene por qué seguir así… Si nuestra fe se ha extraviado, ¿no podría un pastor fuerte volver a unirla al rebaño?"
  mozarabic_bind_the_faith_to_rome_decision_tooltip:0 "Volver a vincular la díscola [faith|lE] [ROOT.Char.GetFaith.GetAdjective] al [ROOT.Char.GetFaith.GetReligiousHead.GetFaith.GetName|l]"
  mozarabic_bind_the_faith_to_rome_decision_confirm:0 "Nuestro lugar está con la gran Cristiandad."
- mozarabic_bind_the_faith_to_rome_decision.tt.hof_and_ecumenism_warning:0 "Mantendrás [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName], pero conservarás de modo #X permanente#! el [Concept( 'head_of_faith', 'líder de la fe' )|E] [religious_leader.GetFaith.GetReligiousHead.GetFaith.GetAdjective]"
+ mozarabic_bind_the_faith_to_rome_decision.tt.hof_and_ecumenism_warning:0 "Mantendrás [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName], pero conservarás de modo #X permanente#! el [Concept( 'head_of_faith', 'cabeza de la fe' )|E] [religious_leader.GetFaith.GetReligiousHead.GetFaith.GetAdjective]"
  mozarabic_bind_the_faith_to_rome_decision.path_righteous:0 "Si reformamos nuestra [faith|lE] para que sea más $doctrine_pluralism_righteous_name$"
  mozarabic_bind_the_faith_to_rome_decision.path_fundamentalist:0 "Si reformamos nuestra [faith|lE] para que sea más $doctrine_pluralism_fundamentalist_name$"
  mozarabic_bind_the_faith_to_rome_decision.path_pluralist:0 "Si reformamos nuestra [faith|lE] para que sea aún más $doctrine_pluralism_pluralistic_name$"
@@ -1118,7 +1126,7 @@
  mozarabic_bind_the_faith_to_rome_decision.threaten_pope:0 "@warning_icon! #warning Coaccionas al Papa con un [strong_hook|lE], ¡no le va a gustar!#!"
 
  mozarabic_break_with_rome_decision:0 "Ruptura con Roma"
- mozarabic_break_with_rome_decision_desc:0 "¿Qué sabe semejante [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName] de nuestras vidas o tierras? Roma es un señor temporal distante que no se preocupa de nuestras necesidades espirituales ni las comprende.\n\nSolo si nos liberamos de los grilletes [ROOT.Char.GetFaith.GetReligiousHeadTitle.Custom('ES_DelDela')] [ROOT.Char.GetFaith.GetReligiousHeadTitle.GetBaseName] y purgamos la última de sus mentiras, podrá el [ROOT.Char.GetFaith.GetName|l] alcanzar la perfección."
+ mozarabic_break_with_rome_decision_desc:0 "¿Qué sabe semejante [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName|l] de nuestras vidas o tierras? Roma es un soberano temporal distante que no se preocupa de nuestras necesidades espirituales ni las comprende.\n\nSolo si nos liberamos de los grilletes de tal [ROOT.Char.GetFaith.GetReligiousHeadTitle.GetBaseName] y purgamos la última de sus mentiras, podrá el [ROOT.Char.GetFaith.GetName|l] alcanzar la perfección."
  mozarabic_break_with_rome_decision_tooltip:0 "Lleva al [ROOT.Char.GetFaith.GetName|l] a separarse del [ROOT.Char.GetFaith.GetReligiousHead.GetFaith.GetName|l]"
  mozarabic_break_with_rome_decision_confirm:0 "¡Un camino justo y piadoso!"
  mozarabic_break_with_rome_decision.tt.hof_and_ecumenism_warning:0 "Crearás un [head_of_faith|lE] para el [religious_leader.GetFaith.GetName|l], pero perderás de modo #X permanente#! [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName]"
@@ -1168,9 +1176,36 @@
  build_holy_pilgrim_roads_decision_confirm:0 "Financiar construcción"
  build_holy_pilgrim_roads_decision_hardcoded_trigger_text.a:0 "[modifier|E] Hay un [holy_site|lE] en tu [realm|lE] sin caminos para peregrinos"
  build_holy_pilgrim_roads_decision_construction_notif.t:0 "Construidos caminos para peregrinos en [chosen_location_for_pilgrim_roads.GetNameNoTierNoTooltip]"
- build_holy_pilgrim_roads_decision_construction_notif.desc:1 "Se han construido caminos por todo [chosen_location_for_pilgrim_roads.GetName], que llevan a la provincia de [chosen_holy_site_for_pilgrim_roads.GetNameNoTier], donde un [holy_site|lE] [ROOT.Char.GetFaith.GetGetAdherentName] espera futuros peregrinos."
+ build_holy_pilgrim_roads_decision_construction_notif.desc:2 "Se han construido caminos por todo el territorio de [chosen_location_for_pilgrim_roads.GetName] que llevan a [chosen_holy_site_for_pilgrim_roads.GetNameNoTier], donde un [holy_site|lE] [ROOT.Char.GetFaith.GetAdherentName] espera futuros peregrinos."
 
  not_can_execute_decision:0 "No puedes tomar esta [decision|lE] en este momento"
  can_execute_decision:0 "Puedes tomar esta [decision|lE] en este momento"
  NO_DECISION_OPTIONS_SELECTED:0 "@warning_icon! #X Selecciona una opción#!"
  revive_taltoism_decision_before_last_date:0 "La fecha es el 1-1-1100 o anterior."
+
+ call_for_acclaimed_knight_candidates_decision:0 "Restablecer galardones"
+ call_for_acclaimed_knight_candidates_decision_desc:0 "Las dignidades marciales de mi séquito siguen durmientes. Que corra la voz entre los $knight_culture_player_plural_no_tooltip_lowercase$ de la tierra: ¡[ROOT.Char.Custom('ES_ElLa')] [ROOT.Char.GetTitleAsNameNoTooltip|l] de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] os llama!\n\nLos dignos descendientes de los cargos de honor de larga tradición tendrán una cálida recepción."
+ call_for_acclaimed_knight_candidates_decision_tooltip:0 "Aparecerán [acclaimed_knights|lE] potenciales para cada [inactive_accolade|lE]"
+ call_for_acclaimed_knight_candidates_decision_confirm:0 "Enviar al heraldo"
+ call_for_acclaimed_knight_candidates_decision.tt:0 "Durante el próximo año aparecerán candidatos para cada [inactive_accolade|lE] y se convertirán en [knights|lE]"
+
+ accolade.0013.notification:1 "Llega candidato a $knight_culture_player_no_tooltip|l$ aclamado"
+ accolade_call_acclaimed_knight_tooltip:0 "[chosen_knight.Custom('ES_ElLa')|U] dign[chosen_knight.Custom('ES_OA')] [chosen_knight.GetUIName] puede ser nombrad[chosen_knight.Custom('ES_OA')] [accolade_in_need.GetName]"
+ accolade.0013.notification_fail:0 "Sin candidatos dignos para galardón"
+ accolade_call_acclaimed_knight_fail_notification_tooltip:0 "Uno de tus galardones seguirá inactivo, ya que no ha aparecido ningún $knight_culture_player_no_tooltip_lowercase$ digno"
+ you_have_empty_accolades:0 "Tienes al menos un [inactive_accolade|lE] y ningún [knight|lE] que se pueda nombrar"
+ break_with_the_old_ways_decision:0 "Romper con las antiguas tradiciones"
+ break_with_the_old_ways_decision_desc:0 "La fe $kabarism_adj$ lleva mucho tiempo practicándose junto con las tradiciones locales, pero se acabó. Debemos rechazar las viejas costumbres y abrazar el judaísmo en su máxima extensión."
+ break_with_the_old_ways_decision_tooltip:0 "¡Ya no es una religión popular!"
+ break_with_the_old_ways_decision_confirm:0 "¡Nos comprometemos con el judaísmo!"
+ break_with_the_old_ways_decision.path_fundamentalist:0 "$mozarabic_bind_the_faith_to_rome_decision.path_fundamentalist$"
+ break_with_the_old_ways_decision.path_righteous:0 "$mozarabic_bind_the_faith_to_rome_decision.path_righteous$"
+
+ embrace_hebrew_language_decision:0 "Adoptar el idioma hebreo"
+ embrace_hebrew_language_decision_desc:0 "El hebreo ha sido el lenguaje litúrgico de la religión judía durante milenios, pero la diáspora nos hizo desarrollar innumerables idiomas, influidos por nuestros vecinos. Ahora que hemos construido aquí una comunidad lo bastante grande, podemos adoptar el hebreo como idioma común para nuestro pueblo."
+ embrace_hebrew_language_decision_tooltip:0 "Adoptaremos el idioma hebreo."
+ embrace_hebrew_language_decision_confirm:0 "¡Basta de diáspora!"
+ switch_to_israelite_language_tt:0 "La nación [GetPlayer.GetCulture.GetName] adoptará el [language|lE] $language_israelite_name$"
+ switch_to_original_language_tt:0 "Tu nueva cultura hablará [target_other_culture.GetLanguage.GetNameNoTooltip]."
+ at_least_10_jewish_counties_tt:0 "Debes poseer al menos 10 [counties|lE] judíos de tu [culture|lE]"
+ 

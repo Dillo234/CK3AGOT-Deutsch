@@ -46,7 +46,7 @@
  spymaster_task.0311.secret_lover.consort:0 "\n\nMein[secret_holder.Custom('DE_END_PRO_S_N')] eigen[secret_holder.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secret_holder'))] hat [lover.Custom2('MyCharacterIntroduction', ROOT.Char)] in eine Affäre verwickelt!"
  spymaster_task.0311.secret_lover.consort_is_lover:0 "\n\nMein[lover.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] [lover.GetTitledFirstName] wurde von [secret_holder.Custom('DE_PRO_PER_S_3P_D')] in eine Affäre hineingezogen!"
  spymaster_task.0311.secret_lover.lover_close_to_me:1 "\n\n[secret_holder.Custom('DE_PRO_PER_S_3P_N')|U] und mein[lover.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] [lover.GetTitledFirstName] sind eine Affäre eingegangen! Wer vermag schon zu sagen, wie es dazu kam, doch beide erwartet ungeheure Schande, falls das je bekannt wird!"
- spymaster_task.0311.secret_lover.lustful:0 "\n\n[secret_holder.Custom('DE_PRO_PER_S_3P_N')|U] hat sich der körperlichen Liebe mit [lover.GetTitledFirstName] hingegeben, [secret_holder.Custom('DE_PRO_POS_S_3P')]e Hände über [lover.GetTitleTierNamePossessive] Körper streichen lassen und [secret_holder.Custom('DE_PRO_POS_S_3P')]e Lippen auf [lover.GetTitleTierNamePossessive] Lippen gepresst … Oh, was wäre das für ein Skandal, wenn dies gemeinhin bekannt würde!"
+ spymaster_task.0311.secret_lover.lustful:0 "\n\n[secret_holder.Custom('DE_PRO_PER_S_3P_N')|U] hat sich der körperlichen Liebe mit [lover.GetTitledFirstName] hingegeben, die Hände über [lover.Custom('DE_PRO_POS_S_3P')]en Körper streichen lassen und die Lippen auf [lover.Custom('DE_PRO_POS_S_3P')]e Lippen gepresst … Oh, was wäre das für ein Skandal, wenn dies gemeinhin bekannt würde!"
  spymaster_task.0311.secret_lover:0 "\n\n[secret_holder.Custom('DE_PRO_PER_S_3P_N')|U] hat [lover.Custom2('MyCharacterIntroduction', ROOT.Char)] in eine geheime Affäre verwickelt!"
  spymaster_task.0346.a.consort:0 "Was für eine Frechheit!"
  spymaster_task.0346.a.close:0 "Das wird noch verzwickt werden."
@@ -56,7 +56,7 @@
  spymaster_task.0311.secret_non_believer.shared:0 "\n\nWie ich selbst hat auch [secret_holder.Custom('DE_PRO_PER_S_3P_N')] Zweifel an [secret_holder.Custom('DE_PRO_POS_S_3P')]em Glauben an [ROOT.Char.GetFaith.HighGodName]. Im Gegensatz zu mir kann [secret_holder.Custom('DE_PRO_PER_S_3P_N')] das jedoch nicht so gut verbergen, wie [secret_holder.Custom('DE_PRO_PER_S_3P_N')] das sollte."
  spymaster_task.0311.secret_non_believer.other_faith:1 "\n\nEs scheint, als ob [secret_holder.Custom('DE_PRO_PER_S_3P_N')] langsam erkennt, wie falsch es ist, [secret_holder.GetFaith.HighGodName] irgendeine Form von Göttlichkeit zuzusprechen. Natürlich werden andere [secret_holder.GetFaith.GetAdherentNamePlural] beileibe nicht so verständnisvoll sein, wie ich es bin."
  spymaster_task.0311.secret_non_believer.other_sect:0 "\n\nEs scheint, als ob [secret_holder.Custom('DE_PRO_PER_S_3P_N')] sich langsam dem [ROOT.Char.GetFaith.GetAdjective|l]en Weg zuwenden würde, anstatt die fehlgeleiteten Überzeugungen der [secret_holder.GetFaith.GetAdherentNamePlural] anzunehmen. [secret_holder.GetFaith.HighGodName|U] weint sicher, dass man die heiligen Lehren derart verdreht hat."
- spymaster_task.0311.secret_non_believer:0 "\n\n[secret_holder.Custom('DE_PRO_PER_S_3P_N')|U] scheint insgeheim Zweifel an den [secret_holder.GetFaith.GetAdjective]en Doktrinen zu haben. O [secret_holder.GetFirstNameNoTooltip] … Was sollen denn nur die [secret_holder.GetFaith.AltPriestTermPlural] sagen?"
+ spymaster_task.0311.secret_non_believer:0 "\n\n[secret_holder.Custom('DE_PRO_PER_S_3P_N')|U] scheint insgeheim Zweifel an den [secret_holder.GetFaith.GetAdjective|l]en Doktrinen zu haben. O [secret_holder.GetFirstNameNoTooltip] … Was sollen denn nur die [secret_holder.GetFaith.AltPriestTermPlural] sagen?"
  spymaster_task.0347.a:0 "Das Zeichen einer schwachen Seele."
 
  spymaster_task.0348.t:0 "Spionage: Inzest"
@@ -138,7 +138,7 @@
  spymaster_task.2002.notification:0 "Ruf für Hinterhältigkeit"
 
  spymaster_task.2003.t:0 "Eine Intrige im Zerfall"
- spymaster_task.2003.desc:0 "Mein[councillor.Custom('DE_END_PRO_S_N')] [councillor.GetCouncilTitle] tritt bei Hofe ungewöhnlich förmlich an mich heran. „Mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord], ist Euch vielleicht einmal der Gedanke gekommen, dass Komplotte im Verborgenen nicht der beste Weg sein könnten, Eure Ziele zu erreichen?“ Es ist eine überraschende Aussage, aber [councillor.GetTitledFirstName] kommt dann doch noch zur Sache:\n\n„Es scheint, als … nun ja, würden sämtliche in das [scheme.GetName]-Komplott verstrickte Agenten nicht mehr auf meine Korrespondenz antworten. Es ist fast so, als wäre das alles nie geschehen.“"
+ spymaster_task.2003.desc:0 "Mein [councillor.GetCouncilTitle] tritt bei Hofe ungewöhnlich förmlich an mich heran. „Lehnsherr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')], ist Euch vielleicht einmal der Gedanke gekommen, dass Komplotte im Verborgenen nicht der beste Weg sein könnten, Eure Ziele zu erreichen?“ Es ist eine überraschende Aussage, aber [councillor.GetTitledFirstName] kommt dann doch noch zur Sache:\n\n„Es scheint, als … nun ja, würden sämtliche in das [scheme.GetName]-Komplott verstrickte Agenten nicht mehr auf meine Korrespondenz antworten. Es ist fast so, als wäre das alles nie geschehen.“"
  spymaster_task.2003.a:0 "Euch ist das komplette Komplott abhandengekommen?"
 
  spymaster_task.2102.t:0 "Verborgenes Wissen"
@@ -150,7 +150,7 @@
  spymaster_task.2103.notification:0 "[councillor.GetCouncilTitle] entdeckt Geheimnis"
  
  spymaster_task.3001.opening:0 "[target_character.Custom2('AppropriateGreeting', ROOT.Char)]"
- spymaster_task.3001.desc:0 "Es ist geradezu schmerzhaft deutlich geworden, dass [councillor.GetTitledFirstName], [councillor.Custom('DE_PRO_POS_P_2P_N')] [councillor.GetCouncilTitle], Spione an meinem Hof einsetzt. Ich weiß nicht, wonach sie suchen, denn meine Diener und ich haben nichts zu verbergen, aber ich fordere Euch inständig auf, dies zu unterlassen."
+ spymaster_task.3001.desc:0 "Es ist geradezu schmerzhaft deutlich geworden, dass [councillor.GetTitledFirstName], Euer [councillor.GetCouncilTitle], Spione an meinem Hof einsetzt. Ich weiß nicht, wonach sie suchen, denn meine Diener und ich haben nichts zu verbergen, aber ich fordere Euch inständig auf, dies zu unterlassen."
  spymaster_task.3001.a:0 "Ihr bildet Euch nur etwas ein!"
  spymaster_task.3001.continue_snooping:0 "[councillor.GetFirstNameNoTooltip] setzt die Schnüffelei fort"
  spymaster_task.3001.b:0 "Ein bedauerliches Missverständnis. Das findet sofort ein Ende."
@@ -160,21 +160,21 @@
  spymaster_task.3002.end:0 "Doch als ich deswegen an [councillor_liege.GetTitledFirstName] herantrat, stritt [councillor_liege.Custom('DE_PRO_PER_S_3P_N')] alles ab!"
  spymaster_task.3002.a:0 "Was plant [councillor_liege.Custom('DE_PRO_PER_S_3P_N')]?"
 
- spymaster_task.3003.end:1 "Dankenswerterweise hat [councillor_liege.GetTitledFirstName] mir versprochen, dass die Machenschaften [councillor_liege.Custom('DE_PRO_POS_S_3P')][councillor_liege.Custom('DE_END_PRO_S_G')] [councillor.GetCouncilTitle][councillor.Custom('DE_END_NOU_S_G')] umgehend ein Ende finden werden."
+ spymaster_task.3003.end:1 "Dankenswerterweise hat [councillor_liege.GetTitledFirstName] mir versprochen, dass die Machenschaften, die [councillor_liege.Custom('DE_PRO_POS_S_3P')] [councillor.GetCouncilTitle] betreibt, umgehend ein Ende finden werden."
  spymaster_task.3003.a:0 "Doch warum waren sie überhaupt hier?"
  
- spymaster_task.3004.desc:0 "Ihr könnt doch nicht geglaubt haben, dass die Agenten Eur[councillor.Custom('DE_END_PRO_S_G')] [councillor.GetCouncilTitle][councillor.Custom('DE_END_NOU_S_G')] auf Dauer an meinem Hof unbemerkt bleiben würden, oder? Ich verlange, dass Ihr dieses aufrührerische Verhalten auf der Stelle unterbindet!"
+ spymaster_task.3004.desc:0 "Ihr könnt doch nicht geglaubt haben, dass die Agenten, die Euer [councillor.GetCouncilTitle] an meinem Hof hat, auf Dauer unbemerkt bleiben würden, oder? Ich verlange, dass Ihr dieses aufrührerische Verhalten auf der Stelle unterbindet!"
  spymaster_task.3004.a:0 "Ihr bildet Euch da wohl etwas ein …"
- spymaster_task.3004.b:0 "Ein einfacher Fehler, mein[SCOPE.sC('councillor_liege').Custom('DE_END_PRO_S_N')] [SCOPE.sC('councillor_liege').GetLadyLord]! Mehr nicht!"
+ spymaster_task.3004.b:0 "Ein einfacher Fehler, Lehnsherr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]! Mehr nicht!"
 
- spymaster_task.3005.opening:0 "Ich habe Agenten an meinem Hof aufgespürt. Ihr Auftraggeber ist offensichtlich mein[councillor_liege.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor_liege'))] [councillor_liege.GetTitledFirstName] stehen!"
+ spymaster_task.3005.opening:0 "Ich habe Agenten an meinem Hof aufgespürt. Ihr Auftraggeber ist offensichtlich mein[councillor_liege.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor_liege'))] [councillor_liege.GetTitledFirstName]!"
  spymaster_task.3005.end:0 "\n\nDoch als ich verlangte, dass sie abgezogen werden, stritt [councillor_liege.Custom('DE_ART_DEF_S_N')] [councillor_liege.GetTitleTierName] alles ab!"
  spymaster_task.3005.a:0 "Was für eine unverschämte Boshaftigkeit!"
 
  spymaster_task.3006.end:0 "\n\nAls ich befahl, dass sie abgezogen werden, gab [councillor_liege.Custom('DE_ART_DEF_S_N')] [councillor_liege.GetTitleTierName] klein bei, doch ich sollte wohl die Augen offen halten …"
  spymaster_task.3006.a:0 "Dunklen Taten gehen dunkle Gerüchte voraus."
 
- spymaster_task.3007.desc:0 "Spione auf der Jagd nach Geheimnissen suchen meinen Hof heim, und stellt Euch meine Überraschung vor, als ich herausfand, dass sie im Dienste Eur[councillor.Custom('DE_END_PRO_S_G')] [councillor.GetCouncilTitle][councillor.Custom('DE_END_NOU_S_G')] stehen! Bitte macht dieser Farce umgehend ein Ende!"
+ spymaster_task.3007.desc:0 "Spione auf der Jagd nach Geheimnissen suchen meinen Hof heim, und stellt Euch meine Überraschung vor, als ich herausfand, dass Euer [councillor.GetCouncilTitle] sie entsandt hat! Bitte macht dieser Farce umgehend ein Ende!"
  spymaster_task.3007.a:0 "Ich weiß nichts über Spione, [target_character.GetFirstNameNoTooltip]."
  spymaster_task.3007.b:0 "Oh, sie haben sich wohl auf dem Heimweg einfach verlaufen!"
 

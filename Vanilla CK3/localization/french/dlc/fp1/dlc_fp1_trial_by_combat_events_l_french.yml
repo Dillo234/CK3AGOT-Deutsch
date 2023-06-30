@@ -3,7 +3,7 @@
  fp1_tbc.0000.t:0 "Duel judiciaire"
 
  # TbC about to begin.
- fp1_tbc.0001.t:0 "$fp1_tbc.0000.t$: [duel_location.GetBaseNameNoTierNoTooltip]"
+ fp1_tbc.0001.t:0 "$fp1_tbc.0000.t$ : [duel_location.GetBaseNameNoTierNoTooltip]"
  fp1_tbc.0001.desc.intro:0 "J’arrive à temps à l’endroit désigné près de [duel_location.GetBaseNameNoTier] et trouve [champion.Custom('FR_le_Char_Pi')][champion.GetTitledFirstName] qui m’attend déjà, avec un petit groupe de témoins."
  fp1_tbc.0001.desc.recipient_fighting:0 "\n\n[champion.GetFirstNameNoTooltip] est apte à se battre et prêt[champion.Custom('FR_E')] à m’affronter."
  fp1_tbc.0001.desc.recipient_has_champion:0 "Puisque [recipient.Custom('FR_le_Char_Pi')][recipient.GetTitledFirstName] est incapable de se battre [recipient.Custom('FR_LuiElle')]-même, [champion.GetFirstNameNoTooltip] sera son champion."
@@ -22,11 +22,11 @@
  fp1_tbc.0031.a:0 "Que[recipient.Custom('FR_LLle')] [recipient.Custom('InsultNoun')] [recipient.Custom('InsultAdjective')] !"
 
  # Scope:actor won a TbC.
- fp1_tbc.0041.t:0 "$fp1_tbc.0000.t$: la victoire"
+ fp1_tbc.0041.t:0 "$fp1_tbc.0000.t$ : la victoire"
  fp1_tbc.0041.desc.intro:0 "De retour à [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], j’exulte de mon succès, [actor.Custom('signature_weapon')] sur mes genoux.\n\n"
  fp1_tbc.0041.desc.opponent_died:0 "Le sang [champion.Custom('FR_du_Char_Pi')][champion.GetTitledFirstName] se trouve encore dans les rainures et les entailles du [actor.Custom('SignatureWeaponEndType')], et me rappelle ses derniers instants."
  fp1_tbc.0041.desc.opponent_lives.recipient_fighting:0 "Mes douleurs me rappellent certains moments du combat, mes petites réussites, tout comme mes petits échecs chèrement payés par mon adversaire, chacun nous rapprochant de la défaite [recipient.Custom('FR_du_Char_Pi')][recipient.GetTitledFirstName]."
- fp1_tbc.0041.desc.opponent_lives.recipient_has_champion:0 "Dans un monde idéal, j’aurais pu porter le coup décisif [recipient.Custom('FR_au_Char_Pi')][recipient.GetTitledFirstName]. Malheureusement, cela n’a pas été le cas ; j’ai dû à la place réduire [champion.Custom('FR_le_Char_Pi')][champion.GetTitledFirstName] en bouillie."
+ fp1_tbc.0041.desc.opponent_lives.recipient_has_champion:0 "Dans un monde idéal, j’aurais pu porter le coup décisif [recipient.Custom('FR_au_Char_Pi')][recipient.GetTitledFirstName]. Malheureusement, cela n’a pas été le cas ; j’ai dû à la place réduire [champion.Custom('FR_le_Char_Pi')][champion.GetTitledFirstName] en bouillie."
  fp1_tbc.0041.desc.reward.gold:0 "\n\nUne bourse pleine repose sur mon tibia, le poids satisfaisant témoigne d’une justice bien rendue. J’ai fait compter chaque pièce, une par une, devant tout le monde avant de rentrer chez moi."
  fp1_tbc.0041.desc.reward.weak_hook:0 "\n\nIl a fallu au moins une heure pour que le dernier serment soit prêté devant nos témoins. Un jour, j’invoquerai ces serments et recevrai mon paiement intégral."
  fp1_tbc.0041.desc.reward.humiliation:0 "\n\nLes longues excuses, l’humiliation, le tout en présence d’un groupe de poètes embauchés... tout simplement #EMP magnifique#!. Il faudra peut-être des années avant que [recipient.GetFirstNameNoTooltip] ne s’en remette."
@@ -34,7 +34,7 @@
  fp1_tbc.0041.a:0 "La justice est rendue."
 
  # Scope:actor lost a TbC.
- fp1_tbc.0051.t:0 "$fp1_tbc.0000.t$: la défaite"
+ fp1_tbc.0051.t:0 "$fp1_tbc.0000.t$ : la défaite"
  fp1_tbc.0051.desc.intro:0 "Comment en est-on arrivé là ? Je suis allé[actor.Custom('FR_E')] devant [actor.GetFaith.PantheonTerm] pour demander justice, et je suis récompensé[actor.Custom('FR_E')] par la douleur et l’humiliation. Je n’ai pas dit un mot pendant tout le trajet de retour à [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip].\n\n"
  fp1_tbc.0051.desc.opponent_lives.recipient_fighting:0 "Je ne comprends pas comment [recipient.GetTitledFirstName] m’a battu. J’étais dans mon droit. J’étais censé gagner, c’est tout l’intérêt d’un duel judiciaire."
  fp1_tbc.0051.desc.opponent_lives.recipient_has_champion:0 "Dans un combat loyal, j’aurais évidemment battu [recipient.GetFirstName] ! Maudit soit [champion.Custom('FR_le_Char_Pi')][champion.GetTitledFirstName], et ces traditions préjudiciables !"
@@ -42,7 +42,7 @@
  fp1_tbc.0051.a:0 "Pff, il n’y a pas eu de justice ici."
 
  # Scope:recipient must designate a champion to fight for them.
- fp1_tbc.0101.t:0 "$fp1_tbc.0000.t$: choisir un champion"
+ fp1_tbc.0101.t:0 "$fp1_tbc.0000.t$ : choisir un champion"
  fp1_tbc.0101.desc:0 "J’ai accepté la demande [actor.Custom('FR_du_Char_Pi')][actor.GetTitledFirstName] pour un duel judiciaire, mais il serait inapproprié de [actor.Custom('FR_LeLa')] combattre moi-même.\n\nLa tradition veut que je choisisse un champion pour se battre en mon nom, mais qui choisir ?"
  fp1_tbc.0101.bout_moves_forward:0 "Le combat se poursuit..."
  fp1_tbc.0101.a:0 "[knight_best.Custom('FR_le_Char_Pi')|U][knight_best.GetTitledFirstNameNoTooltip] fait partie de mes meilleurs $knight_culture_player_plural_no_tooltip_lowercase$ !"
@@ -58,7 +58,7 @@
  fp1_ep1_tbc.0101.e.tt:0 "[knight_alternative.Custom('FR_le_Char_Pi')|U][knight_alternative.GetTitledFirstName] se battra pour vous"
 
  # Scope:recipient won a TbC.
- fp1_tbc.0111.t:0 "$fp1_tbc.0000.t$: la victoire"
+ fp1_tbc.0111.t:0 "$fp1_tbc.0000.t$ : la victoire"
  fp1_tbc.0111.desc.intro:0 "J’ai reçu la bénédiction [recipient.GetFaith.PantheonTerm3] hier !"
  fp1_tbc.0111.desc.opponent_died.recipient_fighting:0 "\n\nAlors que je ferme les yeux et repense au combat, je sens l’excitation montée et mes muscles se contracter au fil des scènes, jusqu’au moment où la vie [actor.Custom('FR_du_Char_Pi')][actor.GetTitledFirstName] a pris fin et que ma victoire était assurée."
  fp1_tbc.0111.desc.opponent_lives.recipient_fighting:0 "\n\nNon seulement j’ai pu battre [actor.GetFirstName] à plate couture pour son audace, mais j’ai prouvé de façon concluante que ses affirmations calomnieuses étaient totalement infondées."
@@ -67,7 +67,7 @@
  fp1_tbc.0111.a:0 "$fp1_tbc.0041.a$"
 
  # Scope:recipient lost a TbC.
- fp1_tbc.0121.t:0 "$fp1_tbc.0000.t$: la défaite"
+ fp1_tbc.0121.t:0 "$fp1_tbc.0000.t$ : la défaite"
  fp1_tbc.0121.desc.intro:0 "Je n’ai pas reçu la bénédiction [recipient.GetFaith.PantheonTerm3] hier."
  fp1_tbc.0121.desc.champion_lives.recipient_fighting:0 "Les douleurs et les coupures qui me tourmentent en témoignent, chacune étant un cadeau [actor.Custom('FR_Du_signature_weapon')] de [actor.GetFirstName]. J’ai de la chance d’être en vie."
  fp1_tbc.0121.desc.champion_lives.recipient_has_champion:0 "Quand j’ai choisi [champion.Custom('FR_le_Char_Pi')][champion.GetTitledFirstName], j’étais persuadé[GetPlayer.Custom('FR_E')] qu’[champion.Custom('FR_IlElle')] allait battre [actor.Custom('FR_le_Char_Pi')][actor.GetTitledFirstName], mais [champion.Custom('FR_IlElle')] a juste de la chance d’être en vie."

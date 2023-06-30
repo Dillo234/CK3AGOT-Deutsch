@@ -15,14 +15,14 @@
  game_concept_struggle_catalyst_catalysts:0 "Auslöser"
  game_concept_struggle_catalyst_desc:2 "Ein [struggle_struggles|E] durchläuft [struggle_phase_phases|E], wenn gewisse bemerkenswerte Taten unternommen werden, die in ihrer [struggle_region|E] für einen Konsens hinsichtlich einer bestimmten Stimmung sorgen. Eine Liste der Taten und in welcher $game_concept_struggle_phase_phase$ sie wichtig sind, findet sich im $game_concept_struggle$-Fenster.\n\n#weak Beispiel: Die [struggle_phase_iberia_opportunity|E] des [Concept('iberian_struggle', 'Iberischen Ringens')|E] kann in [struggle_phase_iberia_hostility|E] oder [struggle_phase_iberia_conciliation|E] übergehen. Wird ein wichtiger [character|E] ermordet, geht die Tendenz zu Ersterem, wohingegen ein [alliance|E] durch eine [marriage|E] mit jemandem eines anderen [Concept('faith', 'Glaubens')|E] auf Letzteres hinwirkt."
 
- game_concept_struggle_involved:1 "Beteiligt"
+ game_concept_struggle_involved:1 "beteiligt"
  game_concept_struggle_involved_desc:2 "Wenn ein [character|E] oder eine [county|E] $game_concept_struggle_involved$ ist, heißt das, sie werden von den Bewohnern einer bestimmten [struggle_region|E] als natürliche und integrale Teile eines [Concept('struggle', 'Ringens')|E] betrachtet. Sie profitieren in der Gänze von den schwankenden Vorzügen der [struggle_phase_phases|E] und sind die Hauptantreiber für [struggle_catalyst_catalysts|E].\n\n[cultures|E] und [faiths|E] werden als $game_concept_struggle_involved$ betrachtet, wenn sie eine nennenswerte Präsenz in der $game_concept_struggle_region_region$ hatten oder haben.\n\n#weak Um $game_concept_struggle_involved$ zu sein, müssen sowohl $game_concept_culture$ als auch $game_concept_faith$ eines $game_concept_character$s $game_concept_struggle_involved$ sein #EMP und#! er muss seinen [capital|E] innerhalb der $game_concept_struggle_region$ haben.#!"
 
- game_concept_struggle_interloper:1 "Einmischend"
- game_concept_struggle_interloper_interlopers:0 "Einmischend"
+ game_concept_struggle_interloper:1 "einmischend"
+ game_concept_struggle_interloper_interlopers:0 "einmischend"
  game_concept_struggle_interloper_desc:2 "Wenn ein [character|E] in ein [struggle|E] verstrickt wird, aber noch nicht als voll [struggle_involved|E] gilt, gilt er als $game_concept_struggle_interloper$.\n\nEinmischende Charaktere haben ihre [Concept('capital', 'Hauptsitze')|E] in der [struggle_region|E], aber haben nicht sowohl einen $game_concept_struggle_involved$en [Concept('faith', 'Glauben')|E] als auch eine $game_concept_struggle_involved$e [culture|E].\n\nVoll $game_concept_struggle_involved$e $game_concept_characters$ halten sie für unruhestiftende Außenseiter, die ihre Nase in Sachen stecken, die sie nichts angehen. $game_concept_struggle_interloper$e [rulers|E] erleiden daher meist einige Mali in [counties|E], die sie in der $game_concept_struggle_region$ halten."
 
- game_concept_struggle_uninvolved:1 "Unbeteiligt"
+ game_concept_struggle_uninvolved:1 "unbeteiligt"
  game_concept_struggle_uninvolved_desc:2 "Damit ein [character|E] als $game_concept_struggle_uninvolved$ an einem bestimmten [struggle|E] gilt, braucht er nur seinen [capital|E] außerhalb der [struggle_region|E] zu haben.\n\nDas heißt, dass er als Außenseiter gilt – als jemand, der nicht nur keinen großen Anteil an den laufenden [struggle_phase_phases|E] hat, sondern diesen auch nicht #EMP haben sollte#!, da er die örtlichen Feinheiten einfach nicht begreift.\n\nEine der wenigen Sachen, auf die sich alle Teilnehmer an einem $game_concept_struggle$ einigen können, ist der Umstand, dass $game_concept_struggle_uninvolved$e $game_concept_characters$ nichts auf #EMP ihrem#! Land zu suchen haben. $game_concept_struggle_uninvolved$e [rulers|E] erleiden daher große Mali in allen [counties|E], die sie innerhalb der $game_concept_struggle_region$ halten."
 
  game_concept_struggle_large_conquest:1 "Ringen-Großeroberung"
@@ -69,24 +69,24 @@
 
  game_concept_border_raid:0 "Grenzüberfall"
  game_concept_border_raids:0 "Grenzüberfälle"
- game_concept_border_raiding:0 "Grenzüberfallend"
+ game_concept_border_raiding:0 "grenzüberfallend"
  game_concept_border_raid_desc:3 "[Concept('struggle_involved', 'Beteiligten')|EU] [Concept('rulers','Herrschern')|E] des Iberischen [Concept('struggle', 'Ringens')|E] steht diese besondere Form des [Concept('war','Kriegs')|E] zur Verfügung. Der Angreifer will dabei eine bestimmte gegnerische [county|E], die an sein [realm|E] angrenzt, mit einer [Concept('siege','Belagerung')|E] konfrontieren.\n\nDer [war_leader|E] erhält [gold|E] für die Einnahme des [Concept('war_target','Kriegsziels')|E], das [development|E] und [control|E] verlieren wird. Auch [buildings|E] können vernichtet werden und zusätzliches [gold|E] gewähren; die Chance dafür erhöht sich mit anwachsender [development|E] und der Größe der [army|E], die die [siege|E] durchführt.\n\n[war_score|E] erhält der Angreifer rasch durch [occupy|E] des [Concept('war_target','Kriegsziels')|E]."
 
  game_concept_bargain_fealty:0 "Treue verhandeln"
  game_concept_bargained_fealty:0 "Treue verhandelt"
  game_concept_bargain_fealty_desc:3 "Diese besondere [interaction|E] steht [Concept('struggle_involved', 'Beteiligten')|E] [Concept('rulers','Herrschern')|E] zur Verfügung, die in einen defensiven [war|E] verwickelt sind.\n\nDer [war_leader|E] bittet einen benachbarten, höherrangigen [ruler|E], sich dem Krieg anzuschließen, wofür man sein [vassal|E] wird."
 
- game_concept_contract_assistance:0 "Bezahlte Unterstützung"
- game_concept_contracting_assistance:0 "Bezahlt Unterstützung"
+ game_concept_contract_assistance:0 "bezahlte Unterstützung"
+ game_concept_contracting_assistance:0 "bezahlt Unterstützung"
  game_concept_contract_assistance_desc:2 "Dies ist eine besondere [interaction|E], die [Concept('struggle_involved', 'Beteiligten')|E] [rulers|E] des Iberischen [Concept('struggle', 'Ringens')|E] zur Verfügung steht – sie erlaubt es ihnen, sich den [Concept('wars','Kriegen')|E] von [Concept('struggle_involved', 'Beteiligten')|E] [Concept('rulers','Herrschern')|E] für [gold|E] anzuschließen.\n\nDie Bezahlung erfolgt beim Abschluss des Krieges, ungeachtet dessen, wie er ausgeht, sofern der zu Bezahlende eine [war_contribution|E] von mindestens 100 aufweist."
  
  game_concept_iberian_reclamation:0 "Iberische Rückforderung"
- game_concept_iberian_reclaiming:0 "Fordert Iberien zurück"
+ game_concept_iberian_reclaiming:0 "fordert Iberien zurück"
  game_concept_iberian_reclamations:0 "Iberische Rückforderungen"
  game_concept_iberian_reclamation_desc:2 "Dies ist eine besondere Art des [Concept('war','Kriegs')|E], die am [Concept('iberian_struggle', 'Iberischen Ringen')|E] [struggle_involved|E] [Concept('rulers','Herrschern')|E] zur Verfügung steht.\n\nDer Angreifer zielt darauf ab, entweder ein [duchy|E] zu erobern, in dem es [Concept('struggle_involved', 'Beteiligte')|E] [counties|E] gibt, die von einem [Concept('struggle_interloper', 'Einmischenden')|E] oder [Concept('struggle_uninvolved', 'Unbeteiligten')|E] [ruler|E] gehalten werden, oder es zu [vassalize|E], falls kein Landbesitz außerhalb des Herzogtums vorhanden ist."
 
  game_concept_enforce_truce:0 "Waffenstillstand erzwingen"
- game_concept_enforced_truce:0 "Erzwingt Waffenstillstand"
+ game_concept_enforced_truce:0 "erzwingt Waffenstillstand"
  game_concept_enforce_truce_desc:2 "Dies ist eine besondere [interaction|E], die [Concept('struggle_involved', 'Beteiligten')|E] [Concept('rulers','Herrschern')|E] zur Verfügung steht und einen [war|E] mit einem [Concept('white_peace', 'Weißen Frieden')|E] beendet und [truces|E] etabliert.\n\nMan kann sie nur einsetzen, um Kriege zwischen anderen [Concept('struggle_involved', 'Beteiligten')|E] [Concept('rulers','Herrschern')|E] von niedrigerem [rank|E] zu beenden, bei denen mindestens eine Seite [independent|E] oder Teil desselben [Concept('realm', 'Reichs')|E] ist."
 
  game_concept_incite_revolts_interaction:1 "Revolte anfachen"

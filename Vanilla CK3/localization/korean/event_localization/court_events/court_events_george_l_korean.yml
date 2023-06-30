@@ -87,9 +87,9 @@
  court.7400.c:1 "기생충 같으니. 벌레 소굴로 돌아가라!"
 ## Child starts to go hunting
  court.7600.title:0 "야생의 심장"
- court.7600.desc:1 "나의 [child.Custom('GetDaughterSon')] [child.GetName](이)가 얼굴이 진흙과 피로 범벅이 된 채로 알현실에 들어왔다! 나는 실망을 금치 못하고 자리에서 벌떡 일어나, 부적절한 작태를 보인 자식을 꾸짖으려고 했다. 그런데 바로 그 순간, 똑같이 진흙과 피로 범벅이 된 $master_of_hunt_court_position$ [huntmaster.GetFirstName](이)가 황급히 달려 들어왔다. 그것도 귀에 걸릴 정도로 환한 미소를 짓고 있었다.\n\n"영주님. [child.GetTitledFirstNameNoTooltip] 님은 궁정의 칭찬을 받아 마땅하십니다! 사냥 중에 엄청난 [child.Custom('LocalAnimal')](을)를 잡으셨으니 말이지요. 제가 올해 본 짐승 중에 가장 훌륭한 놈이었습니다."\n\n나는 당혹감에 경황이 없었다. 아니, 사냥을 다니는지도 몰랐는데!"
+ court.7600.desc:1 "나의 [child.Custom('GetDaughterSon')] [child.GetName](이)가 얼굴이 진흙과 피로 범벅이 된 채로 알현실에 들어왔다! 나는 실망을 금치 못하고 자리에서 벌떡 일어나, 부적절한 작태를 보인 자식을 꾸짖으려고 했다. 그런데 바로 그 순간, 똑같이 진흙과 피로 범벅이 된 $master_of_hunt_court_position$ [huntmaster.GetFirstName](이)가 황급히 달려 들어왔다. 그것도 귀에 걸릴 정도로 환한 미소를 짓고 있었다.\n\n"영주님. [child.GetTitledFirstNameNoTooltip] 님은 궁정의 칭찬을 받아 마땅하십니다! 사냥 중에 엄청난 [child.Custom('GetAnimalType')](을)를 잡으셨으니 말이지요. 제가 올해 본 짐승 중에 가장 훌륭한 놈이었습니다."\n\n나는 당혹감에 경황이 없었다. 아니, 사냥을 다니는지도 몰랐는데!"
  court.7600.a:1 "이런 식의 외출은 #EMP 허락 않겠다#!!"
- court.7600.b:1 "흠, [child.Custom('GetDaughterSon')]의 자질을 좀 더 시험해보는 건 어떨까..."
+ court.7600.b:1 "흠, [child.Custom('GetDaughterSon')]의 자질을 좀 더 시험해 보는 건 어떨까..."
  court.7600.b.tt:1 "[huntmaster.GetNameNoTooltip]에게 명령을 내려 또 다른 사냥에서 [child.GetNameNoTooltip]의 한계를 시험하도록 함"
  court.7600.b.death:1 "[child.GetNameNoTooltip](이)가 사냥 중 사망함"
  court.7600.b.wounding:1 "[child.GetNameNoTooltip](이)가 사냥 중 부상당함"

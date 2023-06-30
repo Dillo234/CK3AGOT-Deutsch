@@ -22,7 +22,7 @@
  independence_faction_short_effect_desc:0 "Will Unabhängigkeit vom [Concept('liege', 'Lehnsherrn')|E]"
 
  nation_fracturing_faction:1 "Auflösungsfraktion"
- nation_fracturing_faction_desc:0 "Mitglieder der $nation_fracturing_faction$ wollen das Reich ihres [Concept('liege', 'Lehnsherrn')|E] vernichten.\n\n#S Ultimatum#!\nAlle Fraktionsmitglieder werden [independent|E]\n[liege|E] verliert seinen [primary_title|E] und andere [titles|E] desselben [Concept('title_tier', 'Titelrangs')|E]" # [LocEditor:AwaitingBatchUpdate]
+ nation_fracturing_faction_desc:1 "Mitglieder der $nation_fracturing_faction$ wollen das Reich ihres [Concept('liege', 'Lehnsherrn')|E] vernichten.\n\n#S Ultimatum#!\nAlle Fraktionsmitglieder werden [independent|E]\n[liege|E] verliert seinen [primary_title|E] und andere [titles|E] desselben [Concept('title_tier', 'Titelrangs')|E]"
  nation_fracturing_faction_short_effect_desc:0 "Will das Reich des Lehnsherrn vernichten"
  liege_primary_title_dissolution:0 "Ihr seid jetzt unabhängig!"
  liege_primary_title_dissolution_desc:0 "Euer Lehnsherr hat aufgrund einer $nation_fracturing_faction$-[faction|E] den eigenen [primary_title|E] verloren"
@@ -149,3 +149,110 @@
  WARNING_I_AM_ALREADY_AT_WAR_WITH_TARGET:1 "@warning_icon!#X Ihr seid bereits im Krieg mit [faction_target.GetTitledFirstName]#!"
  WARNING_I_AM_AT_WAR_WITH_FACTION_LEADER:1 "@warning_icon!#X Ihr seid im Krieg mit [faction_invite_from.GetTitledFirstName]#!"
  WARNING_INVITE_CANNOT_JOIN:0 "@warning_icon!#X [faction_invite_from.GetTitledFirstName] kann der Fraktion nicht beitreten#!"
+
+# FACTION JOIN/CREATE REASONS
+ FACTION_REASON_AI_PERSONALITY:0 "\n[personality|E]: $RESULT|0+=$"
+ FACTION_REASON_DIFFICULTY_EASY:0 "Schwierigkeit „Leicht“: $VALUE|0+=$"
+ FACTION_REASON_DIFFICULTY_VERY_EASY:0 "Schwierigkeit „Sehr Leicht“: $VALUE|0+=$"
+ FACTION_REASON_GAME_RULE_REALM_STABILITY_LESSER:0 "Spielparameter „Niedrigere Reichsstabilität“: $VALUE|0+=$"
+ FACTION_REASON_GAME_RULE_REALM_STABILITY_HIGHER:0 "Spielparameter „Höhere Reichsstabilität“: $VALUE|0+=$"
+ FACTION_REASON_GAME_RULE_REALM_STABILITY_EXTREME:0 "Spielparameter „Extreme Reichsstabilität“: $VALUE|0+=$"
+ FACTION_REASON_CAPITAL_COUNTY:0 "[realm_capital|E] des [Concept('liege', 'Lehnsherrn')|E]: $VALUE|0+=$"
+ FACTION_REASON_GLORY_LEGACY_4:0 "[GetDynastyPerk('glory_legacy_4').GetName|U]: $VALUE|0+=$"
+ FACTION_REASON_COUNTY_OPINION:0 "Niedrige [county_opinion|E]: $VALUE|0+=$"
+ FACTION_REASON_TARGET_FRIEND_LOVER:0 "[relation|E] zum [Concept('liege', 'Lehnsherrn')|E]: $VALUE|0+=$"
+ FACTION_REASON_POWER_HALFWAY_THRESHOLD:0 "Starke [faction_military_power|E]: $FACTOR|0%+=$"
+ FACTION_REASON_POWER_PUSHING_THRESHOLD:0 "Sehr starke [faction_military_power|E]: $FACTOR|0%+=$"
+ FACTION_REASON_POWER_THRESHOLD:0 "Noch stärkere [faction_military_power|E]: $FACTOR|0%+=$"
+ FACTION_REASON_POWERFUL_VASSAL:0 "[powerful_vassal|EU]: $FACTOR|0%+=$"
+ FACTION_REASON_NEIGHBORS:0 "Nachbarn in derselben [faction|E]: $FACTOR|^%+=$"
+ FACTION_REASON_CULTURAL_REASONS:0 "Kulturelle Gründe: $VALUE|0+=$"
+
+#common_faction_modifiers
+ FACTION_REASON_GAME_START_DUCHY:0 "1 Jahr seit Spielbeginn: $VALUE|0+=$"
+ FACTION_REASON_GAME_START_KINGDOM:0 "5 Jahre seit Spielbeginn: $VALUE|0+=$"
+ FACTION_REASON_GAME_START_EMPIRE:0 "10 Jahre seit Spielbeginn: $VALUE|0+=$"
+ FACTION_REASON_LIEGE_DEBT:0 "[liege|E] hat [debt|E]: $VALUE|0+=$"
+ FACTION_REASON_PLURALISM_ASTRAY:0 "[faith|E] ist [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName|l]: $VALUE|0+=$"
+ FACTION_REASON_PLURALISM_HOSTILE:0 "[faith|E] ist [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName|l]: $VALUE|0+=$"
+ FACTION_REASON_PLURALISM_EVIL:0 "[faith|E] ist [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName|l]: $VALUE|0+=$"
+ FACTION_REASON_LEGALISM_VIRTUES:0 "[GetFaithDoctrine('tenet_legalism').GetBaseName|U]: [liege|E] ist [virtuous|El]: $VALUE|0+=$"
+ FACTION_REASON_LEGALISM_SINS:0 "[GetFaithDoctrine('tenet_legalism').GetBaseName|U]: [liege|E] ist [sinful|El]: $VALUE|0+=$"
+ FACTION_REASON_INTIMIDATED:0 "[intimidated|EU]: $VALUE|0+=$"
+ FACTION_REASON_TERRIFIED:0 "[cowed|EU]: $VALUE|0+=$"
+
+#independence_faction_modifiers
+ FACTION_REASON_ELECTOR:0 "[elector|EU]: $VALUE|0+=$"
+ FACTION_REASON_RIGHTFUL:0 "Außerhalb des [de_jure|EU] des [Concept('liege', 'Lehnsherrn')|E]: $VALUE|0+=$"
+ FACTION_REASON_KING:0 "[kings|E] streben nach Unabhängigkeit: $VALUE|0+=$"
+ FACTION_REASON_COUNT:0 "[counts|E] wollen [vassals|E] bleiben: $VALUE|0+=$"
+ FACTION_REASON_PERK_TOE_THE_LINE:0 "[GetPerk('toe_the_line_perk').GetName(GetPlayer)|U]: $VALUE|0+=$"
+ FACTION_REASON_INNOVATION_STEM_DUCHIES:0 "$innovation_stem_duchies$: $VALUE|0+=$"
+ FACTION_REASON_CULTURE_ACCEPTANCE:0 "Niedrige [cultural_acceptance|E]: $VALUE|0+=$"
+ FACTION_REASON_PREFER_DISSOLUTION_FACTION:0 "Zieht $nation_fracturing_faction$ vor: $VALUE|0+=$"
+ FACTION_REASON_NEW_VASSAL:0 "Neuer [vassal|E]: $VALUE|0+=$"
+
+#peasant_faction_new
+ FACTION_REASON_PREFER_POPULIST_FACTION:0 "Zieht $populist_faction$ vor: $VALUE|0+=$"
+ FACTION_REASON_RULING_CASTE:0 "[GetCultureTradition('tradition_ruling_caste').GetName|U]: $VALUE|0+=$"
+ FACTION_REASON_AT_WAR_WITH_TARGET:0 "Bereits aufständisch gegen [Concept('liege', 'Lehnsherrn')|E]: $VALUE|0+=$"
+
+#liberty_faction_modifiers
+ FACTION_REASON_CROWN_AUTHORITY_1:0 "$crown_authority_1$: $VALUE|0+=$"
+ FACTION_REASON_CROWN_AUTHORITY_2:0 "$crown_authority_2$: $VALUE|0+=$"
+ FACTION_REASON_CROWN_AUTHORITY_3:0 "$crown_authority_3$: $VALUE|0+=$"
+
+#claimant_faction
+ FACTION_REASON_CLAIMANT_COUNTY_SHARED_CULTURE:0 "[culture|E] des [Concept('claimant', 'Anspruchstellers')|E] ist Kultur der [county|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_COUNTY_SHARED_HERITAGE:0 "[heritage|E] des [Concept('claimant', 'Anspruchstellers')|E] ist Herkunft der [county|E]: $VALUE|0+=$"
+ FACTION_REASON_LIKE_CLAIMANT_FAITH:0 "Zieht [Concept('faith', 'Glauben')|E] des [Concept('claimant', 'Anspruchstellers')|E] vor: $VALUE|0+=$"
+ FACTION_REASON_ADULT_CLAIMANT_CHILD_RULER:0 "[claimant|E] ist [adult|El] und [liege|E] ist nur ein [child|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_KINDNESS:0 "[claimant|E] hat eine großherzige [personality|E]: $VALUE|0+=$"
+
+#claimant_faction_modifiers
+ FACTION_REASON_CLAIMANT_GENDER:0 "Geschlecht des [Concept('claimant', 'Anspruchstellers')|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_GENDER_VS_TARGET:0 "Geschlecht des [Concept('liege', 'Lehnsherrn')|E]: $VALUE|0+=$"
+ FACTION_REASON_POWERFUL_LIKES_CLAIMANT_MORE:0 "[powerful_vassal|EU] hat höhere [opinion|E] von [claimant|E]: $VALUE|0+=$"
+ FACTION_REASON_LIKES_LIEGE_UNLESS_CULTURE:0 "[opinion|E] vom [Concept('liege', 'Lehnsherrn')|E] ist höher als die vom [claimant|E]: $VALUE|0+=$"
+ FACTION_REASON_LIKE_CLAIMANT_MORE_THAN_LIEGE:0 "Höhere [opinion|E] vom [claimant|E]: $VALUE|0+=$"
+ FACTION_REASON_LIKES_LIEGE:0 "Weitere [opinion|E] vom [Concept('liege', 'Lehnsherrn')|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_TOO_OLD:0 "[claimant|E] ist zu alt: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_TOO_YOUNG:0 "[claimant|E] ist ein [child|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMAINT_DYING:0 "[claimant|E] ist bei schlechter [health|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_RARE_PRODUCE_HEIR:0 "[claimant|E] wird wahrscheinlich keinen [Concept('heir', 'Erben')|E] zeugen: $VALUE|0+=$"
+ FACTION_REASON_INFIRM:0 "[claimant|E] ist [GetTrait('infirm').GetName( GetNullCharacter )|l]: $VALUE|0+=$"
+ FACTION_REASON_MEMBER_IS_CLAIMANT:0 "Ich bin der [claimant|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_FRIEND_LOVER:0 "[relation|E] zum [claimant|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_SUPER_FRIEND_LOVER:0 "Enge [relation|E] zum [claimant|E]: $VALUE|0+=$"
+ FACTION_REASON_TARGET_IS_CHILD:0 "[liege|E] ist ein [child|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMAINT_SAME_FAITH:0 "Teilt [faith|E] mit [claimant|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_FAITH_ASTRAY:0 "[faith|E] des [Concept('claimant', 'Anspruchstellers')|E] ist [faith_astray|El]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_FAITH_HOSTILE:0 "[faith|E] des [Concept('claimant', 'Anspruchstellers')|E] ist [faith_hostile|El]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_FAITH_EVIL:0 "[faith|E] des [Concept('claimant', 'Anspruchstellers')|E] ist [faith_evil|El]: $VALUE|0+=$"
+ FACTION_REASON_LOW_TIER_TARGET_TITLE:0 "Ziel-[title|E] hat niedrigeren [title_tier|E] als der [primary_title|E] des [Concept('liege', 'Lehnsherrn')|E]: $VALUE|0+=$" #
+ FACTION_REASON_CLAIMANT_IS_RIGHTFUL_LIEGE:0 "[claimant|E] ist [rightful_liege|El]: $VALUE|0+=$"
+ FACTION_REASON_TITLE_DEJURE_ABOVE:0 "[primary_title|E] ist nicht [de_jure|El] von Ziel-[title|E]: $VALUE|0+=$"
+ FACTION_REASON_PREFER_INDEPENDENCE_FACTION:0 "Zieht $independence_faction$ vor: $VALUE|0+=$"
+ FACTION_REASON_LIEGE_IS_UNPREFERRED_HEIR:0 "$unpreferred_heir_opinion$: $VALUE|0+=$"
+ FACTION_REASON_LIEGE_IS_PREFERRED_HEIR:0 "$preferred_heir_opinion$: $VALUE|0+=$"
+ FACTION_REASON_BETTER_CROWN_AUTHORITY:0 "[claimant|E] hat niedrigere [crown_authority|E]: $VALUE|0+=$"
+ FACTION_REASON_LOWER_COURT_GRANDEUR:0 "[liege|E] liegt unter [court_grandeur_expectations|E]: $VALUE|0+=$"
+ FACTION_REASON_BYZANTINE:0 "[GetCultureTradition('tradition_byzantine_succession').GetName|U]: $VALUE|0+=$"
+
+#nation_fracturing_faction_modifiers
+ FACTION_REASON_SHORT_REIGN:0 "[liege|E] erlangte jüngst [primary_title|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANTS_OF_MY_CULTURE:0 "[claimants|E] meiner [culture|E] auf [primary_title|E] des [Concept('liege', 'Lehnsherrn')|E] vorhanden: $VALUE|0+=$"
+ FACTION_REASON_CULTURAL_ACCEPTANCE:0 "[cultural_acceptance|E]: $VALUE|=+0$"
+ FACTION_REASON_TARGET_NOT_FULL_CONTROL:0 "[liege|E] kontrolliert nicht den gesamten [de_jure|EU]-Bereich: $VALUE|0+=$"
+ FACTION_REASON_RECENT_LOST_WAR:0 "[liege|E] hat kürzlich [war|E] verloren: $VALUE|0+=$"
+ FACTION_REASON_TRIBAL_CLAN:0 "[liege|E] hat als [government|E] „[GetGovernment( 'tribal_government' ).GetName]“ oder „[GetGovernment( 'clan_government' ).GetName]“: $VALUE|0+=$"
+ FACTION_REASON_STRUGGLE_PHASE:0 "Derzeitige [struggle_phase|E]: $VALUE|0+=$"
+ FACTION_REASON_ELECTIVE_PRIMARY:0 "[primary_title|E] des [Concept('liege', 'Lehnsherrn')|E] hat [succession_law|E] „Wahl“: $VALUE|0+=$"
+ FACTION_REASON_BYZANTINE_RELIGION:0 "Selbe [religion|E] wie byzantinischer [liege|E]: $VALUE|0+=$"
+
+#populist_faction
+ FACTION_REASON_POWER_MINIMAL:0 "Schwache [faction_military_power|E]: $FACTOR|0%+=$"
+ FACTION_REASON_FACTION_LEADER:0 "Ich bin Anführer der [faction|E]: $VALUE|0+=$"
+
+ FACTION_REASON_REGENT_CULTURAL_REASONS:0 "[culture|E] von [regent|E]: $VALUE|0+=$"
+ FACTION_REASON_REGENT_FAITH_REASONS:0 "[faith|E] von [regent|E]: $VALUE|0+=$"

@@ -152,3 +152,8 @@
  befriend_outcome.6007.desc:0 "도대체 무슨 수를 쓴 건지는 모르겠지만, [owner.GetTitledFirstName](이)가 [target.GetTitledFirstName](을)를 설득해서 파벌을 해체하게 만드는 데 성공했다.\n\n어젯밤, 모든 구성원을 불러모은 [target.GetTitledFirstName](은)는 [owner.GetTitledFirstNameNoTooltip]에게 맞선 것은 실수였으며, 갈등을 평화롭게 끝내기를 바란다는 성명을 발표했다."
  befriend_outcome.6007.a.a:0 "[target.GetTitledFirstNameNoTooltip](이)가 우리를 배신하다니!"
  befriend_outcome.6007.a.b:0 "저 말이 일리가 있을지도 모르겠어..."
+
+ # Travel Befriend Success Outcome
+ befriend_outcome.2007.opening_travel:0 "수행단과 [next_destination.GetName](으)로 향하는 길에 [current_location.GetName]에서 머무를 때렸다. 기쁘게도 [target.GetTitledFirstNamePossessive] 급사가 나를 찾아왔다.\n\n"
+ befriend_outcome.2007.opening_no_travel:0 "기쁘게도 [target.GetTitledFirstNamePossessive] 급사가 [ROOT.Char.GetLocation.GetName]에 있는 내 [ROOT.Char.Custom('FortifiedBuilding')](을)를 찾아왔다.\n\n"
+ befriend_outcome.2007.desc:0 "급사는 좋은 소식을 전해주었다. [target.GetFirstNameNoTooltip](이)가 우리의 친분을 공식화하고 싶다고 한다! 설마 이렇게 가까워질 줄은 몰랐다. [target.GetFirstNameNoTooltip](은)는 본인이 믿을 수 있고 솔직하며, 내 안위를 염려하는 사람이라는 걸 증명해 보였다."

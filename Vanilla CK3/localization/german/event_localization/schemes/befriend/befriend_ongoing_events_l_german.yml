@@ -6,7 +6,7 @@
  befriend_ongoing.0902.t:0 "Anfreunden: Gefesseltes Publikum"
  befriend_ongoing.0902.t.other:0 "Anfreunden: Weggesperrt"
  befriend_ongoing.0902.desc:0 "[target.Custom2('MyCharacterIntroduction', ROOT.Char)] wurde von meinen Leuten auf mein Geheiß hin in meinen Kerker geworfen.\n\nObwohl [target.Custom('DE_PRO_PER_S_3P_N')] nun alle Zeit der Welt mit mir verbringen kann, wird [target.Custom('DE_PRO_PER_S_3P_N')] meinen Annäherungsversuchen gegenüber wohl nicht sonderlich empfänglich sein, solange [target.Custom('DE_PRO_PER_S_3P_N')] sich in Gefangenschaft befindet."
- befriend_ongoing.0902.desc.other:0 "[target.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ist inhaftiert! [imprisoner.Custom2('MyCharacterIntroduction'), ROOT.Char|U] hält ihn fest! Solange [target.Custom('DE_PRO_PER_S_3P_N')] sich in Gefangenschaft befindet, werde ich [target.Custom('DE_PRO_POS_S_3P')]e Freundschaft nicht gewinnen können."
+ befriend_ongoing.0902.desc.other:0 "[target.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ist inhaftiert! [imprisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] hält ihn fest! Solange [target.Custom('DE_PRO_PER_S_3P_N')] sich in Gefangenschaft befindet, werde ich [target.Custom('DE_PRO_POS_S_3P')]e Freundschaft nicht gewinnen können."
  befriend_ongoing.0902.a:0 "Warum das denn?! Ich bin ein großartiger Kerkermeister!"
  befriend_ongoing.0902.a.other:0 "O weh."
 
@@ -84,7 +84,7 @@
  befriend_ongoing.3009.b.tt:0 "Ich kann mich nicht darauf verlassen, dass andere Freundschaften für mich schließen."
  
  befriend_ongoing.3010.t:0 "Ein gutes Wort"
- befriend_ongoing.3010.desc:0 "Mein[spouse.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('spouse'))] erzählt mir in letzter Zeit viel von [spouse.Custom('DE_PRO_POS_S_3P')][owner.Custom('DE_END_PRO_S_D')] [spouse.Custom2('RelationToMe', SCOPE.sC('owner'))].\n\nIch muss zugeben, dass [spouse.Custom('DE_PRO_POS_S_3P')]e Worte [owner.GetTitledFirstName] sehr spannend klingen lassen."
+ befriend_ongoing.3010.desc:0 "Mein[spouse.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('spouse'))] erzählt mir in letzter Zeit viel darüber, was [spouse.Custom('DE_PRO_POS_S_3P')][owner.Custom('DE_END_PRO_S_N')] [spouse.Custom2('RelationToMe', SCOPE.sC('owner'))] so treibt.\n\nIch muss zugeben, dass [spouse.Custom('DE_PRO_POS_S_3P')]e Worte [owner.GetTitledFirstName] sehr spannend klingen lassen."
  befriend_ongoing.3010.a:0 "Vielleicht sollte ich [owner.Custom('DE_PRO_PER_S_3P_A')] besser kennenlernen."
 
  befriend_ongoing.3011.desc:0 "„[target.GetTitledFirstName] scheint nun auf jeden Fall daran interessiert, Euch kennenzulernen“, berichtet mir mein[spouse.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse'))]. Offenbar ist [spouse.Custom('DE_PRO_POS_S_3P')] Plan voll aufgegangen!"
@@ -177,7 +177,7 @@
  befriend_ongoing.4050.a:0 "Ob [target.Custom('DE_PRO_PER_S_3P_N')] wohl auch über [target.Custom('DE_PRO_POS_S_3P')]e Eroberungen Buch führt?"
   
  befriend_ongoing.4052.t:0 "Zunderbüchsen"
- befriend_ongoing.4052.desc:1 "[owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] hat mich auf unser gemeinsames Interesse auf dem Gebiet der Verführung und Liebschaften angesprochen. [owner.Custom('DE_PRO_PER_S_3P')|U] würde sich gern mit mir treffen, um Notizen und Erfahrungen auszutauschen."
+ befriend_ongoing.4052.desc:1 "[owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] hat mich auf unser gemeinsames Interesse auf dem Gebiet der Verführung und Liebschaften angesprochen. [owner.Custom('DE_PRO_PER_S_3P_N')|U] würde sich gern mit mir treffen, um Notizen und Erfahrungen auszutauschen."
  befriend_ongoing.4052.a.wine:0 "Ja, erzählen wir uns bei einem Glas Wein anregende Geschichten!"
  befriend_ongoing.4052.a.tee:0 "Ja, erzählen wir uns anregende Geschichten!"
  befriend_ongoing.4052.b:0 "[owner.Custom('DE_PRO_PER_S_3P_N')|U] meint tatsächlich, [owner.Custom('DE_PRO_PER_S_3P_N')] könne sich mit mir messen? Ha!"

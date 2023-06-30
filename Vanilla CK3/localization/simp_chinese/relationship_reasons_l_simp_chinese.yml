@@ -32,11 +32,16 @@
  rival_lands_stolen:0 "[TARGET_CHARACTER.GetShortUIName|U]盗取了[CHARACTER.GetShortUINamePossessive]的土地。"
  rival_lands_stolen_corresponding:0 "[CHARACTER.GetShortUIName|U]盗取了[TARGET_CHARACTER.GetShortUINamePossessive]的土地。"
  
+ rival_murder_feast:0 "[TARGET_CHARACTER.GetShortUIName|U]试图在一场谋杀宴会上谋杀[CHARACTER.GetShortUIName|U]。"
+ 
+ rival_murder_feast_family:0 "[TARGET_CHARACTER.GetShortUIName|U]的家人在一场谋杀宴会上被[CHARACTER.GetShortUIName|U]害死，[TARGET_CHARACTER.GetHerHis]发誓要复仇。"
+ rival_murder_feast_family_corresponding:0 "[CHARACTER.GetShortUIName|U]在一场谋杀宴会上谋杀了[TARGET_CHARACTER.GetShortUINamePossessive]的家人。"
+ 
  rival_guardian_cave_change_stubborn:0 "[TARGET_CHARACTER_2.GetShortUIName]强迫还是个孩子的[CHARACTER.GetShortUIName]独自进入漆黑的洞穴，[TARGET_CHARACTER.GetShortUIName|U]认为此事恰当且合适。"
  rival_guardian_cave_change_stubborn_corresponding:0 "[TARGET_CHARACTER_2.GetShortUIName]强迫还是个孩子的[TARGET_CHARACTER.GetShortUIName]独自进入漆黑的洞穴，[CHARACTER.GetShortUIName|U]认为此事恰当且合适。"
  
- rival_ignored_suffering:0 "在二人皆年幼时，[TARGET_CHARACTER.GetShortUIName|U]故意无视了[CHARACTER.GetShortUIName]遭遇的困境并且拒绝伸出援手。"
- rival_ignored_suffering_corresponding:0 "在二人皆年幼时，[CHARACTER.GetShortUIName|U]故意无视了[TARGET_CHARACTER.GetShortUIName]遭遇的困境并且拒绝伸出援手。"
+ rival_ignored_suffering:1 "在二人皆年幼时，[TARGET_CHARACTER.GetShortUIName|U]故意无视了[CHARACTER.GetShortUIName]遭遇的困境并且拒绝伸出援手。"
+ rival_ignored_suffering_corresponding:1 "在二人皆年幼时，[CHARACTER.GetShortUIName|U]故意无视了[TARGET_CHARACTER.GetShortUIName]遭遇的困境并且拒绝伸出援手。"
  
  best_friend_bonded_at_court:0 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName]在[TARGET_CHARACTER_2.GetShortUINamePossessive]的宫廷中大力支持对方的利益，之后他们缔结了牢固的友谊。"
  
@@ -49,14 +54,17 @@
  best_friend_help_overcome_vice:0 "在[TARGET_CHARACTER.GetShortUINameNoTooltip]试着帮助[CHARACTER.GetShortUINameNoTooltip]克服一项恶习之后，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成为了一辈子的朋友。"
  best_friend_help_overcome_vice_corresponding:0 "在[CHARACTER.GetShortUINameNoTooltip]试着帮助[TARGET_CHARACTER.GetShortUINameNoTooltip]克服一项恶习之后，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成为了一辈子的朋友。"
  
- best_friend_coverted_and_saved_my_soul:0 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName]结下了深厚的友谊，因为[TARGET_CHARACTER.GetShortUINameNoTooltip]使[CHARACTER.GetShortUINameNoTooltip]改信[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的信仰，拯救了[CHARACTER.GetShortUINamePossessiveNoTooltip]的灵魂。"
- best_friend_coverted_and_saved_my_soul_corresponding:0 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName]结下了深厚的友谊，因为[CHARACTER.GetShortUINameNoTooltip]使[TARGET_CHARACTER.GetShortUINameNoTooltip]改信[CHARACTER.GetShortUINamePossessiveNoTooltip]的信仰，拯救了[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的灵魂。"
+ best_friend_coverted_and_saved_my_soul:1 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName]结下了深厚的友谊，因为[TARGET_CHARACTER.GetShortUINameNoTooltip]使[CHARACTER.GetShortUINameNoTooltip]改信[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的信仰，拯救了[CHARACTER.GetShortUINamePossessiveNoTooltip]的灵魂。"
+ best_friend_coverted_and_saved_my_soul_corresponding:1 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName]结下了深厚的友谊，因为[CHARACTER.GetShortUINameNoTooltip]使[TARGET_CHARACTER.GetShortUINameNoTooltip]改信[CHARACTER.GetShortUINamePossessiveNoTooltip]的信仰，拯救了[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的灵魂。"
  
  best_friend_language_help:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip]在帮助[CHARACTER.GetShortUINameNoTooltip]学习[TARGET_CHARACTER_2.GetCulture.GetLanguage.GetName]时显示出了无穷的耐心，之后[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成为了最好的朋友。"
  best_friend_language_help_corresponding:0 "[CHARACTER.GetShortUINameNoTooltip]在帮助[TARGET_CHARACTER.GetShortUINameNoTooltip]学习[TARGET_CHARACTER_2.GetCulture.GetLanguage.GetName]时显示出了无穷的耐心，之后[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成为了最好的朋友。"
  
  best_friend_confide:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip]耐心聆听了[CHARACTER.GetShortUINamePossessiveNoTooltip]的苦恼后，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]缔结了情谊。"
  best_friend_confide_corresponding:0 "[CHARACTER.GetShortUINameNoTooltip]耐心聆听了[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的苦恼后，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]缔结了情谊。"
+ 
+ friend_impressed_stones:0 "[CHARACTER.GetShortUIName|U]破译了一块古代碑文，给[TARGET_CHARACTER.GetShortUINameNoTooltip]留下了深刻印象。"
+ friend_impressed_stones_corresponding:0 "[CHARACTER.GetShortUINameNoTooltip]破译了一块古代碑文，让[TARGET_CHARACTER.GetShortUIName|U]对[CHARACTER.GetSheHe]留下了深刻印象。"
  
  best_friend_spoke_highly_about:0 "[CHARACTER.GetShortUINameNoTooltip]当众高度评价了[TARGET_CHARACTER.GetShortUIName]后，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成为了最好的朋友。"
  best_friend_spoke_highly_about_corresponding:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip]当众高度评价了[CHARACTER.GetShortUIName]后，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成为了最好的朋友。"
@@ -102,6 +110,11 @@
  friend_deviant_fun:0 "[TARGET_CHARACTER.GetShortUIName|U]引导[CHARACTER.GetShortUIName]培养了一项新爱好。"
  friend_deviant_fun_corresponding:0 "[CHARACTER.GetShortUIName|U]引导[TARGET_CHARACTER.GetShortUIName]培养了一项新爱好。"
  
+ contemplated_life_and_death_together:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]在结队旅行中感悟生命与死亡。"
+ contemplated_life_and_death_together_corresponding:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在结队旅行中感悟生命与死亡。"
+ studied_history_together:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]在结队旅行中一起学习遥远地区的古老历史。"
+ studied_history_together_corresponding:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在结队旅行中一起学习遥远地区的古老历史。"
+
  friend_fix_relationship_success:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成为了朋友，因为[CHARACTER.GetShortUINameNoTooltip]修补了他们关系之间的裂痕。"
  friend_fix_relationship_success_corresponding:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成为了朋友，因为[TARGET_CHARACTER.GetShortUINameNoTooltip]修补了他们关系之间的裂痕。"
  
@@ -187,10 +200,21 @@
  friend_castille_leon:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]庆祝卡斯蒂利亚和莱昂的成立之后缔结了情谊。"
  friend_melancholic_bond:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]因都有忧郁气质而缔结了情谊。"
  friend_curiously_similar:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]因为外貌惊人地相似而缔结了情谊。"
+ 
+ friend_sword_in_stone:0 "[CHARACTER.GetShortUIName|U]在文化节期间让[TARGET_CHARACTER.GetShortUIName]拔石中剑。"
+ friend_sword_in_stone_corresponding:0 "在[CHARACTER.GetShortUINamePossessive]的宝贵帮助下，[TARGET_CHARACTER.GetShortUIName|U]在文化节上拔出了石中剑。"
 
  friend_varangian:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]一起在瓦兰吉卫队服役时成为了朋友。"
+ 
+ friend_holy_site_monk_monk:0 "[CHARACTER.GetShortUIName|U]对[TARGET_CHARACTER.GetShortUINamePossessive]的神殿慷慨捐赠。"
+ friend_holy_site_monk_monk_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]收到了[CHARACTER.GetShortUIName]对[TARGET_CHARACTER.GetHerHis]神殿的慷慨捐赠。"
+ 
+ friend_holy_site_monk:0 "[CHARACTER.GetShortUIName|U]允许[TARGET_CHARACTER.GetShortUIName]留在圣地。"
+ friend_holy_site_monk_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]被[CHARACTER.GetShortUIName]允许留在圣地。"
 
  friend_gaming:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在一起玩棋盘游戏之后成为了朋友。"
+
+ friend_emergency_surgery:0 "[TARGET_CHARACTER.GetShortUINamePossessive]反应迅速的手术拯救了[CHARACTER.GetShortUINamePossessive]的生命，[CHARACTER.GetSheHe]因此心存感激。"
  
  friend_random_1:0 "在[PROVINCE.GetName]的[PROVINCE.Custom('TerrainTypeProvince')]一起旅行之后，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成了朋友。"
  friend_random_2:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]一起在[PROVINCE.GetName]的[PROVINCE.Custom('TerrainTypeProvince')]闲逛时分享了补给。"
@@ -237,6 +261,9 @@
  friend_language_learned:0 "[CHARACTER.GetShortUIName|U]学会了[TARGET_CHARACTER.GetShortUINamePossessive]的语言。"
  friend_language_learned_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]学会了[CHARACTER.GetShortUINamePossessive]的语言。"
  
+ friend_festival_puppy:0 "[CHARACTER.GetShortUIName|U]在文化节期间送给[TARGET_CHARACTER.GetShortUIName]一只小狗。"
+ friend_festival_puppy_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]在文化节期间收到了[CHARACTER.GetShortUIName]赠送的一只小狗。"
+ 
  friend_party_baron:0 "[TARGET_CHARACTER.GetShortUIName|U]凭着活力与热情成为了[CHARACTER.GetShortUIName]的朋友！"
  friend_party_baron_corresponding:0 "[CHARACTER.GetShortUIName|U]凭着活力与热情成为了[TARGET_CHARACTER.GetShortUIName]的朋友！"
  
@@ -279,8 +306,8 @@
  friend_impressive_feat_of_alcoholism:0 "[CHARACTER.GetShortUINameNoTooltip]难以置信的酒量给[TARGET_CHARACTER.GetShortUIName|U]留下了难以磨灭的印象。"
  friend_impressive_feat_of_alcoholism_corresponding:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip]难以置信的酒量给[CHARACTER.GetShortUIName|U]留下了难以磨灭的印象。"
  
- friend_brought_back_home:1 "[CHARACTER.GetShortUINameNoTooltip]将[TARGET_CHARACTER.GetShortUINameNoTooltip]带回宫廷的家，逃离了其与[TARGET_CHARACTER_2.GetShortUIName]之间的不幸婚姻，[TARGET_CHARACTER.GetShortUIName|U]永远为此感恩不尽。"
- friend_brought_back_home_corresponding:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip]将[CHARACTER.GetShortUINameNoTooltip]带回宫廷的家，逃离了其与[TARGET_CHARACTER_2.GetShortUIName]之间的不幸婚姻，[CHARACTER.GetShortUIName|U]为此感恩不尽。"
+ friend_brought_back_home:1 "[CHARACTER.GetShortUIName]将[TARGET_CHARACTER.GetShortUINameNoTooltip]带回宫廷的家，逃离了其与[TARGET_CHARACTER_2.GetShortUIName]之间的不幸婚姻，[TARGET_CHARACTER.GetShortUIName|U]永远为此感恩不尽。"
+ friend_brought_back_home_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]将[CHARACTER.GetShortUINameNoTooltip]带回宫廷的家，逃离了其与[TARGET_CHARACTER_2.GetShortUIName]之间的不幸婚姻，[CHARACTER.GetShortUIName|U]为此感恩不尽。"
  
  friend_shared_toy:0 "孩童时，[CHARACTER.GetShortUIName]可以玩[TARGET_CHARACTER.GetShortUINamePossessive]的[TARGET_CHARACTER.Custom('child_favorite_toy')]。"
  friend_shared_toy_corresponding:0 "孩童时，[TARGET_CHARACTER.GetShortUIName]可以玩[CHARACTER.GetShortUINamePossessive]的[CHARACTER.Custom('child_favorite_toy')]。"
@@ -294,7 +321,7 @@
  friend_given_a_dog:0 "[TARGET_CHARACTER.GetShortUIName|U]给了[CHARACTER.GetShortUIName]一只小狗。"
  friend_given_a_dog_corresponding:0 "[CHARACTER.GetShortUIName|U]给了[TARGET_CHARACTER.GetShortUIName]一只小狗。"
  
- friend_given_a_dog_2:0 "[CHARACTER.GetShortUIName]给了[TARGET_CHARACTER.GetShortUIName]一只小狗。"
+ friend_given_a_dog_2:0 "[CHARACTER.GetShortUIName|U]给了[TARGET_CHARACTER.GetShortUIName]一只小狗。"
  friend_given_a_dog_2_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]给了[CHARACTER.GetShortUIName]一只小狗。"
  
  friend_dedicated_artifact:0 "[TARGET_CHARACTER.GetShortUIName|U]将一件宝物的献词题给了[CHARACTER.GetShortUIName]。"
@@ -336,6 +363,10 @@
  friend_child_special_attention:0 "[CHARACTER.GetShortUIName|U]十分关注[TARGET_CHARACTER.GetShortUINamePossessive]的教育。"
  friend_child_special_attention_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]十分关注[CHARACTER.GetShortUINamePossessive]的教育。"
  
+ friend_wnight_homosexual:0 "[TARGET_CHARACTER.GetShortUIName|U]在新婚之夜向[CHARACTER.GetShortUINamePossessive]坦白了[TARGET_CHARACTER.GetHerHis]的性取向。"
+ 
+ friend_wnight_homosexual_both:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetHerHis]在他们的新婚之夜彼此坦白了性取向。"
+ 
  friend_child_care:0 "[CHARACTER.GetShortUIName|U]在养育[TARGET_CHARACTER.GetShortUINamePossessive]时倾注了大量的爱与关怀。"
  friend_child_care_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在养育[CHARACTER.GetShortUINamePossessive]时倾注了大量的爱与关怀。"
  
@@ -356,6 +387,11 @@
  
  friend_took_pity:0 "[CHARACTER.GetShortUIName|U]心生怜悯，让[TARGET_CHARACTER.GetShortUIName]在城堡中过夜。"
  friend_took_pity_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]心生怜悯，让[CHARACTER.GetShortUIName]在城堡中过夜。"
+ 
+ friend_theological_debate:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]进行了富有成果的神学辩论。"
+
+ friend_wbanquet_saved_from_well:0 "[CHARACTER.GetShortUIName|U]拯救[TARGET_CHARACTER.GetShortUIName]免于落井。"
+ friend_wbanquet_saved_from_well_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在快要落井时被[CHARACTER.GetShortUIName]救下。"
  
  friend_estate_visit:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在造访[PROVINCE.GetName]期间缔结了情谊。"
  friend_estate_visit_corresponding:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在造访[PROVINCE.GetName]期间缔结了情谊。"
@@ -417,6 +453,8 @@
  friend_spouse_talked_me_up:1 "[TARGET_CHARACTER_2.GetShortUIName]赞扬了[CHARACTER.GetShortUINamePossessiveNoTooltip]的德行，给[TARGET_CHARACTER.GetShortUIName|U]留下了深刻印象。"
  friend_spouse_talked_me_up_corresponding:1 "[TARGET_CHARACTER_2.GetShortUIName]赞扬了[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的德行，给[CHARACTER.GetShortUIName|U]留下了深刻印象。"
  
+ friend_homage_ceremony:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName|U]在文化节庆祝了他们的友谊。"
+ 
  friend_confide:0 "[TARGET_CHARACTER.GetShortUIName|U]向[CHARACTER.GetShortUIName]吐露心声。"
  friend_confide_corresponding:0 "[CHARACTER.GetShortUIName|U]向[TARGET_CHARACTER.GetShortUIName]吐露心声。"
  
@@ -447,16 +485,26 @@
  lover_cannibal_seduction:1 "[TARGET_CHARACTER.GetShortUIName|U]得到了允许可以咬一口[CHARACTER.GetShortUINamePossessive]诱人的美肉。"
  lover_cannibal_seduction_corresponding:1 "[CHARACTER.GetShortUIName|U]得到了允许可以咬一口[TARGET_CHARACTER.GetShortUINamePossessive]诱人的美肉。"
  
+ lover_wnight_walk:0 "[CHARACTER.GetShortUIName|U]在新婚之夜带[TARGET_CHARACTER.GetShortUIName|U]进行了一次浪漫的散步。"
+ lover_wnight_walk_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]被[CHARACTER.GetShortUIName|U]带着在新婚之夜进行了一次浪漫的散步。"
+ 
+ lover_wnight_talk:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName|U]在新婚之夜进行了深入的交谈。"
+ 
+ lover_wnight_secret_accepted:0 "[TARGET_CHARACTER.GetSheHe]在洞房花烛夜进行了告解，[CHARACTER.GetShortUIName|U]接受了[TARGET_CHARACTER.GetShortUINamePossessive]的秘密。"
+ lover_wnight_secret_accepted_corresponding:0 "[TARGET_CHARACTER.GetSheHe]在洞房花烛夜进行了告解，[TARGET_CHARACTER.GetShortUINamePossessive]的秘密被[CHARACTER.GetShortUIName|U]接受了。"
+ 
+ lover_wnight_secret_shared:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName|U]在他们的新婚之夜彼此坦白了秘密。"
+ 
  lover_random_1:0 "[TARGET_CHARACTER.GetShortUINamePossessive]的美腿迷住了[CHARACTER.GetShortUIName|U]。"
- lover_random_2:0 "[CHARACTER.GetShortUIName|U]在[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]美丽笑颜中陷入了爱情。"
+ lover_random_2:0 "[CHARACTER.GetShortUIName|U]爱上了[TARGET_CHARACTER.GetShortUINamePossessive]美丽的笑颜。"
  lover_random_3:0 "[CHARACTER.GetShortUIName|U]被[TARGET_CHARACTER.GetShortUINamePossessive]诱惑的举动引入了罪恶。"
  lover_random_4:0 "[CHARACTER.GetShortUIName|U]被[TARGET_CHARACTER.GetShortUINamePossessive]大汗淋漓的二头肌吸引住了。"
  lover_random_5:0 "[CHARACTER.GetShortUIName|U]被[TARGET_CHARACTER.GetShortUINamePossessive]挑逗的诗歌迷住了。"
- lover_random_6:0 "[CHARACTER.GetShortUIName|U]爱上了[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]有感染力的性格。"
+ lover_random_6:0 "[CHARACTER.GetShortUIName|U]爱上了[TARGET_CHARACTER.GetShortUINamePossessive]有感染力的性格。"
  lover_random_7:0 "[CHARACTER.GetShortUIName|U]被[TARGET_CHARACTER.GetShortUINamePossessive]令人难忘的体格迷住了。"
  lover_random_8:0 "[CHARACTER.GetShortUIName|U]无法无视[TARGET_CHARACTER.GetShortUINamePossessive]天神般的美丽。"
  lover_random_9:0 "[CHARACTER.GetShortUIName|U]无法抵抗[TARGET_CHARACTER.GetShortUINamePossessive]挑逗性露出的脚踝。"
- lover_random_10:0 "[CHARACTER.GetShortUIName|U]爱上了[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]华丽的秀发。"
+ lover_random_10:0 "[CHARACTER.GetShortUIName|U]爱上了[TARGET_CHARACTER.GetShortUINamePossessive]华丽的秀发。"
  
  lover_feast_tumble:0 "在[PROVINCE.GetName]的[TARGET_CHARACTER_2.GetShortUINamePossessive]的宴会上，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUINamePossessive]激情四射、坦诚相对、翻云覆雨。"
  lover_feast_homosexual:0 "在[PROVINCE.GetName]的[CHARACTER.GetShortUINamePossessiveNoTooltip]的宴会上，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUINamePossessive]共度了一段情意绵绵的时光。"
@@ -490,8 +538,8 @@
  lover_bestowed_blessings:0 "[TARGET_CHARACTER.GetShortUIName|U]在[CHARACTER.GetShortUINamePossessiveNoTooltip]的[TARGET_CHARACTER_2.GetWifeHusband][TARGET_CHARACTER_2.GetShortUIName]的眼皮子底下亲密地以爱与激情祝福了[CHARACTER.GetShortUIName]。"
  lover_bestowed_blessings_corresponding:0 "[CHARACTER.GetShortUIName|U]在[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的[TARGET_CHARACTER_2.GetWifeHusband][TARGET_CHARACTER_2.GetShortUIName]的眼皮子底下亲密地以爱与激情祝福了[TARGET_CHARACTER.GetShortUIName]。"
  
- lover_threesome_on_hunt:1 "在[CHARACTER.GetShortUINamePossessiveNoTooltip]于[PROVINCE.GetName]的[PROVINCE.Custom('TerrainTypeProvince')]召集的狩猎活动中，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]与[TARGET_CHARACTER_2.GetShortUINamePossessive]一起玩了三人行。"
- lover_threesome_on_hunt_corresponding:1 "在[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]于[PROVINCE.GetName]的[PROVINCE.Custom('TerrainTypeProvince')]召集的狩猎活动中，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]与[TARGET_CHARACTER_2.GetShortUINamePossessive]一起玩了三人行。"
+ lover_threesome_on_hunt:1 "在[CHARACTER.GetShortUINamePossessiveNoTooltip]于[PROVINCE.GetName]的[PROVINCE.Custom('TerrainTypeProvince')]召集的狩猎活动中，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]与[TARGET_CHARACTER_2.GetShortUIName]一起玩了三人行。"
+ lover_threesome_on_hunt_corresponding:1 "在[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]于[PROVINCE.GetName]的[PROVINCE.Custom('TerrainTypeProvince')]召集的狩猎活动中，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]与[TARGET_CHARACTER_2.GetShortUIName]一起玩了三人行。"
  
  lover_magnificently_seduced:0 "在拜访[TARGET_CHARACTER_2.GetShortUINamePossessive]的宫廷期间，[CHARACTER.GetShortUIName|U]阔绰地勾引了[TARGET_CHARACTER.GetShortUIName]。"
  lover_magnificently_seduced_corresponding:0 "在拜访[TARGET_CHARACTER_2.GetShortUINamePossessive]的宫廷期间，[TARGET_CHARACTER.GetShortUIName|U]阔绰地勾引了[CHARACTER.GetShortUIName]。"
@@ -553,6 +601,9 @@
  lover_good_tumble:0 "[CHARACTER.GetShortUIName|U]在饭后给了[TARGET_CHARACTER.GetShortUIName]一次舒爽的性爱，[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的[TARGET_CHARACTER_2.GetWifeHusband][TARGET_CHARACTER_2.GetShortUIName]对此一无所知。"
  lover_good_tumble_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在饭后给了[CHARACTER.GetShortUIName]一次舒爽的性爱，[CHARACTER.GetShortUINamePossessiveNoTooltip]的[TARGET_CHARACTER_2.GetWifeHusband][TARGET_CHARACTER_2.GetShortUIName]对此一无所知。"
  
+ lover_romantic_wedding_night:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]度过了浪漫的新婚之夜……尽管[CHARACTER.GetShortUIName]有着不同的，更加黑暗的计划。"
+ lover_romantic_wedding_night_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]度过了浪漫的新婚之夜。"
+ 
  lover_abduction:0 "[TARGET_CHARACTER.GetShortUIName|U]浪漫地将[CHARACTER.GetShortUIName]从[TARGET_CHARACTER_2.GetShortUIName]那里劫持。"
  lover_abduction_corresponding:0 "[CHARACTER.GetShortUIName|U]浪漫地将[TARGET_CHARACTER.GetShortUIName]从[TARGET_CHARACTER_2.GetShortUIName]那里劫持。"
  
@@ -565,11 +616,16 @@
  lover_doppelganger_cucked:0 "[CHARACTER.GetShortUIName|U]冒充[TARGET_CHARACTER_2.GetShortUIName]勾引了[TARGET_CHARACTER.GetShortUIName]。"
  lover_doppelganger_cucked_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]冒充[TARGET_CHARACTER_2.GetShortUIName]勾引了[CHARACTER.GetShortUIName]。"
  
+ lover_tavern_memory:0 "[CHARACTER.GetShortUIName|U]讲述了一个令人振奋的故事，给[TARGET_CHARACTER.GetShortUIName]留下了深刻印象"
+ lover_tavern_memory_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]被[CHARACTER.GetShortUINamePossessive]讲述的令人振奋的故事打动了"
+ 
  lover_threesome_with_spouse:0 "[CHARACTER.GetShortUINamePossessive|U]满怀爱意的配偶[TARGET_CHARACTER_2.GetShortUIName]将[TARGET_CHARACTER.GetShortUIName]引入了卧室，用一场三人行重燃了[CHARACTER.GetShortUINamePossessiveNoTooltip]的激情。"
  lover_threesome_with_spouse_corresponding:0 "[TARGET_CHARACTER.GetShortUINamePossessive|U]满怀爱意的配偶[TARGET_CHARACTER_2.GetShortUIName]将[CHARACTER.GetShortUIName]引入了卧室，用一场三人行重燃了[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的激情。"
  
  lover_ignored_spouse:0 "为了给卧室增添情趣，[CHARACTER.GetShortUINamePossessive|U]亲爱的配偶[TARGET_CHARACTER_2.GetShortUIName]将[TARGET_CHARACTER.GetShortUIName]引入了卧室，但[CHARACTER.GetShortUINameNoTooltip]从那时起就只对[TARGET_CHARACTER.GetShortUINameNoTooltip]有兴趣。"
  lover_ignored_spouse_corresponding:0 "为了给卧室增添情趣，[TARGET_CHARACTER.GetShortUINamePossessive|U]亲爱的配偶[TARGET_CHARACTER_2.GetShortUIName]将[CHARACTER.GetShortUIName]引入了卧室，但[TARGET_CHARACTER.GetShortUINameNoTooltip]从那时起就只对[CHARACTER.GetShortUINameNoTooltip]有兴趣。"
+
+ lover_wedding_matchmaking:0 "尽管是在一场婚礼上被人牵线搭桥推到一起的，但[CHARACTER.GetShortUIName]和[TARGET_CHARACTER.GetShortUIName]间的彼此吸引是真实的。"
  
  rival_food_fight:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在一次暴力的食物斗殴后成了仇敌。"
  rival_at_ceremony:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在一场宗教仪式中成了仇敌。"
@@ -615,8 +671,8 @@
  rival_was_imprisoned_by_parent:0 "[CHARACTER.GetShortUIName|U]在孩童时被[TARGET_CHARACTER.GetShortUIName]囚禁。"
  rival_was_imprisoned_by_parent_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在孩童时被[CHARACTER.GetShortUIName]囚禁。"
  
- rival_undefeated_defeated:1 "[CHARACTER.GetShortUIName|U]在战斗中击败了[TARGET_CHARACTER.GetShortUIName]，将[CHARACTER.GetShortUINamePossessiveNoTooltip]的名声给毁了。"
- rival_undefeated_defeated_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U]在战斗中击败了[CHARACTER.GetShortUIName]，将[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的名声给毁了。"
+ rival_undefeated_defeated:1 "[CHARACTER.GetShortUIName|U]在战斗中击败了[TARGET_CHARACTER.GetShortUIName]，将[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的名声给毁了。"
+ rival_undefeated_defeated_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U]在战斗中击败了[CHARACTER.GetShortUIName]，将[CHARACTER.GetShortUINamePossessiveNoTooltip]的名声给毁了。"
  
  rival_debug:0 "玩家使用调试互动在[CHARACTER.GetShortUIName]与[TARGET_CHARACTER.GetShortUIName]之间制造仇敌关系。"
  
@@ -637,6 +693,9 @@
  
  rival_duel_vengeance:0 "[TARGET_CHARACTER.GetShortUIName|U]在一场决斗中击败了[CHARACTER.GetShortUIName]。"
  rival_duel_vengeance_corresponding:0 "[CHARACTER.GetShortUIName|U]在一场决斗中击败了[TARGET_CHARACTER.GetShortUIName]。"
+
+ rival_fired_from_council:0 "[CHARACTER.GetShortUIName|U]将[TARGET_CHARACTER.GetShortUIName]踢出内阁。"
+ rival_fired_from_council_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]将[CHARACTER.GetShortUIName]踢出内阁。"
  
  rival_poison_vengeance:0 "[TARGET_CHARACTER.GetShortUIName|U]试图毒害[CHARACTER.GetShortUIName]。"
  rival_poison_vengeance_corresponding:0 "[CHARACTER.GetShortUIName|U]试图毒害[TARGET_CHARACTER.GetShortUIName]。"
@@ -678,6 +737,9 @@
  rival_humiliated_in_debate:0 "[CHARACTER.GetShortUIName|U]在一场辩论中被[TARGET_CHARACTER.GetShortUIName]彻底羞辱了。"
  rival_humiliated_in_debate_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在一场辩论中被[CHARACTER.GetShortUIName]彻底羞辱了。"
  
+ rival_king_of_ugly:0 "[TARGET_CHARACTER.GetShortUIName|U]在文化节上将[CHARACTER.GetShortUIName|U]加冕为[CHARACTER.Custom('GetMonarchofBeautyGoodBad')]。"
+ rival_king_of_ugly_corresponding:0 "[CHARACTER.GetShortUIName|U]在文化节上将[TARGET_CHARACTER.GetShortUIName|U]加冕为[TARGET_CHARACTER.Custom('GetMonarchofBeautyGoodBad')]。"
+ 
  rival_academic_dispute:0 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName]合写了一篇论文，但却拿走了所有功劳。"
  rival_academic_dispute_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]与[CHARACTER.GetShortUIName]合写了一篇论文，但却拿走了所有功劳。"
  
@@ -699,16 +761,19 @@
  rival_refused_holmgang:0 "[CHARACTER.GetShortUIName|U]受到挑战后竟然拒绝和[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]战斗，这羞辱了[TARGET_CHARACTER.GetShortUIName]。"
  rival_refused_holmgang_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]受到挑战后竟然拒绝和[CHARACTER.GetShortUINamePossessiveNoTooltip]战斗，这羞辱了[CHARACTER.GetShortUIName]。"
  
- rival_nithing:1 "[CHARACTER.GetShortUIName|U]严重辜负了[CHARACTER.GetShortUINamePossessiveNoTooltip|U]的款待。"
- rival_nithing_corresponding:1 "[CHARACTER.GetShortUIName|U]严重辜负了[CHARACTER.GetShortUINamePossessiveNoTooltip]的款待。"
+ rival_nithing:1 "[CHARACTER.GetShortUIName|U]严重辜负了[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip|U]的款待。"
+ rival_nithing_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U]严重辜负了[CHARACTER.GetShortUINamePossessiveNoTooltip]的款待。"
  
- rival_competing_lovers:1 "[CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]为同一个情人展开竞争。"
+ rival_competing_lovers:1 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]为同一个情人展开竞争。"
  
  rival_exposed_bastard:0 "[CHARACTER.GetShortUIName|U]揭露了[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的非婚生子。"
  rival_exposed_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]揭露了[CHARACTER.GetShortUINamePossessiveNoTooltip]的非婚生子。"
  
  rival_humiliating_refusal_to_fight:0 "[CHARACTER.GetShortUIName|U]带着优越感拒绝了与[TARGET_CHARACTER.GetShortUIName]为[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的双亲的荣誉而大打出手。"
  rival_humiliating_refusal_to_fight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]带着优越感拒绝了与[CHARACTER.GetShortUIName]为[CHARACTER.GetShortUINamePossessiveNoTooltip]的双亲的荣誉而大打出手。"
+ 
+ rival_denied_courtly_love:0 "[CHARACTER.GetShortUIName|U]拒绝放手让[TARGET_CHARACTER.GetShortUIName]寻找[TARGET_CHARACTER.GetHerHis]的真爱。"
+ rival_denied_courtly_love_corresponding:1 "[CHARACTER.GetShortUIName]拒绝了[TARGET_CHARACTER.GetShortUIName|U]对[TARGET_CHARACTER.GetHerHis]真爱的表达，将[TARGET_CHARACTER.GetHerHim]留在了宫廷。"
  
  rival_child_defeated:0 "[CHARACTER.GetShortUIName|U]在比试中击败了[TARGET_CHARACTER.GetShortUIName]，这羞辱了[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的双亲。"
  rival_child_defeated_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在比试中击败了[CHARACTER.GetShortUIName]，这羞辱了[CHARACTER.GetShortUINamePossessiveNoTooltip]的双亲。"
@@ -762,6 +827,9 @@
  
  rival_insult_and_duel:0 "[TARGET_CHARACTER.GetShortUIName|U]在一场决斗中羞辱并击败了[CHARACTER.GetShortUIName]。"
  rival_insult_and_duel_corresponding:0 "[CHARACTER.GetShortUIName|U]在一场决斗中羞辱并击败了[TARGET_CHARACTER.GetShortUIName]。"
+ 
+ rival_no_holy_site_monk:0 "[CHARACTER.GetShortUIName|U]禁止[TARGET_CHARACTER.GetShortUIName]回应[TARGET_CHARACTER.GetHerHis]的宗教召唤。"
+ rival_no_holy_site_monk_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]被[CHARACTER.GetShortUIName|U]阻止回应[TARGET_CHARACTER.GetHerHis]的宗教召唤。"
  
  rival_age_old_rivalry:0 "大家都知道，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]长久以来都对对方怀揣着强烈厌恶情绪。"
  rivalry_at_court:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在[TARGET_CHARACTER_2.GetShortUINamePossessive]的宫廷不断发生不和之后就互相鄙视对方了。"
@@ -918,7 +986,7 @@
  lover_seducing_drunkards_corresponding:0 "在一整天的酗酒与性越轨行为中，[TARGET_CHARACTER.GetShortUIName|U]勾引了[CHARACTER.GetShortUIName]。"
  
  lover_seducing_privy:0 "[CHARACTER.GetShortUIName|U]在[PROVINCE.GetName]厕所进行的浪漫约会中勾引了[TARGET_CHARACTER.GetShortUIName]。"
- lover_seducing_privy_corresponding:1 "[CHARACTER.GetShortUIName|U]在[PROVINCE.GetName]厕所进行的浪漫约会中勾引了[TARGET_CHARACTER.GetShortUIName]。"
+ lover_seducing_privy_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U]在[PROVINCE.GetName]厕所进行的浪漫约会中勾引了[CHARACTER.GetShortUIName]。"
  
  lover_glutton:0 "[CHARACTER.GetShortUIName|U]用美味且充足的食物礼品勾引了[TARGET_CHARACTER.GetShortUIName]。"
  lover_glutton_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]用美味且充足的食物礼品勾引了[CHARACTER.GetShortUIName]。"
@@ -941,14 +1009,14 @@
  lover_woods:0 "在[PROVINCE.GetName]的[PROVINCE.Custom('TerrainTypeProvince')]狩猎期间，[CHARACTER.GetShortUIName|U]勾引了[TARGET_CHARACTER.GetShortUIName]。"
  lover_woods_corresponding:0 "在[PROVINCE.GetName]的[PROVINCE.Custom('TerrainTypeProvince')]狩猎期间，[TARGET_CHARACTER.GetShortUIName|U]勾引了[CHARACTER.GetShortUIName]。"
  
- lover_letter:1 "[CHARACTER.GetShortUINamePossessiveNoTooltip|U]寄出写得很好的情书，以此勾引了[TARGET_CHARACTER.GetShortUIName]。"
- lover_letter_corresponding:1 "[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip|U]寄出写得很好的情书，以此勾引了[CHARACTER.GetShortUIName]。"
+ lover_letter:1 "[CHARACTER.GetShortUIName|U]寄出写得很好的情书，以此勾引了[TARGET_CHARACTER.GetShortUIName]。"
+ lover_letter_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U]寄出写得很好的情书，以此勾引了[CHARACTER.GetShortUIName]。"
  
  lover_spouse:0 "在结婚之后，[CHARACTER.GetShortUIName]勾引了[TARGET_CHARACTER.GetShortUIName]。"
  lover_spouse_corresponding:0 "在结婚之后，[TARGET_CHARACTER.GetShortUIName]勾引了[CHARACTER.GetShortUIName]。"
  
- lover_seduction_rival:1 "在一个激情之夜，[CHARACTER.GetShortUIName|U]勾引了[CHARACTER.GetShortUINamePossessiveNoTooltip]的仇敌[TARGET_CHARACTER.GetShortUIName]。"
- lover_seduction_rival_corresponding:1 "在一个激情之夜，[TARGET_CHARACTER.GetShortUIName|U]勾引了[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的仇敌[CHARACTER.GetShortUIName]。"
+ lover_seduction_rival:1 "在一个激情之夜，[CHARACTER.GetShortUIName|U]勾引了[CHARACTER.GetHerHis]的仇敌[TARGET_CHARACTER.GetShortUIName]。"
+ lover_seduction_rival_corresponding:1 "在一个激情之夜，[TARGET_CHARACTER.GetShortUIName|U]勾引了[TARGET_CHARACTER.GetHerHis]的仇敌[CHARACTER.GetShortUIName]。"
  
  lover_close_family:1 "[CHARACTER.GetShortUIName|U]违反社会规范，勾引了至亲[TARGET_CHARACTER.GetShortUIName]。"
  lover_close_family_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U]违反社会规范，勾引了至亲[CHARACTER.GetShortUIName]。"
@@ -958,6 +1026,8 @@
  
  lover_seduction_general:0 "[CHARACTER.GetShortUIName|U]勾引了[TARGET_CHARACTER.GetShortUIName]，并一起度过了激情如火的一夜。"
  lover_seduction_general_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]勾引了[CHARACTER.GetShortUIName]，并一起度过了激情如火的一夜。"
+ 
+ lover_wnight_gifts:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName|U]在新婚之夜交换了礼物。"
  
  lover_seduction_garden:0 "[CHARACTER.GetShortUIName|U]在[PROVINCE.GetName]的花园里勾引了[TARGET_CHARACTER.GetShortUIName]。"
  lover_seduction_garden_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在[PROVINCE.GetName]的花园里勾引了[CHARACTER.GetShortUIName]。"
@@ -1020,11 +1090,11 @@
  nemesis_heir_ousted:0 "[TARGET_CHARACTER.GetShortUIName|U]通过邪恶手段让[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的孩子取代了[CHARACTER.GetShortUIName]的孩子，获得了继承人的位置。"
  nemesis_heir_ousted_corresponding:0 "[CHARACTER.GetShortUIName|U]通过邪恶手段让[CHARACTER.GetShortUINamePossessiveNoTooltip]的孩子取代了[TARGET_CHARACTER.GetShortUIName]的孩子，获得了继承人的位置。"
 
- nemesis_imprisoned_partner:1 "[TARGET_CHARACTER.GetShortUIName|U]囚禁了[CHARACTER.GetShortUINamePossessive]的伴侣[TARGET_2.GetShortUIName]。"
- nemesis_imprisoned_partner_corresponding:1 "[CHARACTER.GetShortUIName|U]囚禁了[TARGET_CHARACTER.GetShortUINamePossessive]的伴侣[TARGET_2.GetShortUIName]。"
+ nemesis_imprisoned_partner:1 "[TARGET_CHARACTER.GetShortUIName|U]囚禁了[CHARACTER.GetShortUINamePossessive]的伴侣[TARGET_CHARACTER_2.GetShortUIName]。"
+ nemesis_imprisoned_partner_corresponding:1 "[CHARACTER.GetShortUIName|U]囚禁了[TARGET_CHARACTER.GetShortUINamePossessive]的伴侣[TARGET_CHARACTER_2.GetShortUIName]。"
 
- nemesis_killed_partner:1 "[TARGET_CHARACTER.GetShortUIName|U]凶残地杀死了[CHARACTER.GetShortUINamePossessive]的伴侣[TARGET_2.GetShortUIName]。"
- nemesis_killed_partner_corresponding:1 "[CHARACTER.GetShortUIName|U]凶残地杀死了[TARGET_CHARACTER.GetShortUINamePossessive]的伴侣[TARGET_2.GetShortUIName]。"
+ nemesis_killed_partner:1 "[TARGET_CHARACTER.GetShortUIName|U]凶残地杀死了[CHARACTER.GetShortUINamePossessive]的伴侣[TARGET_CHARACTER_2.GetShortUIName]。"
+ nemesis_killed_partner_corresponding:1 "[CHARACTER.GetShortUIName|U]凶残地杀死了[TARGET_CHARACTER.GetShortUINamePossessive]的伴侣[TARGET_CHARACTER_2.GetShortUIName]。"
 
  nemesis_rival_killed_child:0 "[TARGET_CHARACTER.GetShortUIName]杀死了[CHARACTER.GetShortUINamePossessive]的孩子[TARGET_CHARACTER_2.GetShortUIName]，[CHARACTER.GetShortUIName|U]发誓要复仇。"
  nemesis_rival_killed_child_corresponding:0 "[CHARACTER.GetShortUIName]杀死了[TARGET_CHARACTER.GetShortUINamePossessive]的孩子[TARGET_CHARACTER_2.GetShortUIName]，[TARGET_CHARACTER.GetShortUIName|U]发誓要复仇。"
@@ -1034,6 +1104,12 @@
 
  nemesis_rival_gains_nemesis:0 "[CHARACTER.GetShortUIName|U]收到了一封来自[TARGET_CHARACTER.GetShortUIName]的充满侮辱性的信，尽管这封信原本是寄给[TARGET_CHARACTER_2.GetShortUIName]的。"
  nemesis_rival_gains_nemesis_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]收到了一封来自[CHARACTER.GetShortUIName]的充满侮辱性的信，尽管这封信原本是寄给[TARGET_CHARACTER_2.GetShortUIName]的。"
+ 
+ nemesis_monarch_of_grim_and_grievance:0 "[CHARACTER.GetShortUIName|U]被[TARGET_CHARACTER.GetShortUIName]加冕为领地内最没吸引力的人。"
+ nemesis_monarch_of_grim_and_grievance_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]将[CHARACTER.GetShortUIName]加冕为领地内最没吸引力的人。"
+ 
+ nemesis_animal_contest:1 "[TARGET_CHARACTER.GetShortUIName|U]被[CHARACTER.GetShortUIName]选为农场动物选美比赛的胜者。"
+ nemesis_animal_contest_corresponding:1 "[CHARACTER.GetShortUIName|U]将[TARGET_CHARACTER.GetShortUIName]选为农场动物选美比赛的胜者。"
 
  nemesis_a_question_of_size:0 "[TARGET_CHARACTER.GetShortUIName|U]在公共澡堂大肆嘲笑[CHARACTER.GetShortUINamePossessive]的私处。"
  nemesis_a_question_of_size_corresponding:0 "[CHARACTER.GetShortUIName|U]在公共澡堂大肆嘲笑[TARGET_CHARACTER.GetShortUINamePossessive]的私处。"
@@ -1064,6 +1140,9 @@
 
  nemesis_tostig_harold:0 "[CHARACTER.GetShortUIName|U]夺走了[TARGET_CHARACTER.GetShortUINamePossessive]的头衔。"
  nemesis_tostig_harold_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]夺走了[CHARACTER.GetShortUINamePossessive]的头衔。"
+ 
+ nemesis_sent_assassins:0 "[CHARACTER.GetShortUIName|U]派出职业杀手去刺杀[TARGET_CHARACTER.GetShortUIName]。"
+ nemesis_sent_assassins_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]杀死了[CHARACTER.GetShortUIName]派出的职业杀手。"
 
  nemesis_historical:0 "自人们有记忆以来[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]就已经是死敌。"
  
@@ -1094,8 +1173,11 @@
  
  soulmate_doppelganger:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]不仅外表相同，还宣称要永远深爱彼此。"
  
- soulmate_gifting_flowers:0 "[TARGET_CHARACTER.GetShortUIName|U]赠予[CHARACTER.GetShortUIName]一束生长于[TARGET_CHARACTER.GetShortUINamePossessive]自家花园的美丽鲜花，表达了对[CHARACTER.GetShortUIName]的爱与奉献。"
- soulmate_gifting_flowers_corresponding:0 "[CHARACTER.GetShortUIName|U]赠予[TARGET_CHARACTER.GetShortUIName]一束生长于[CHARACTER.GetShortUINamePossessive]自家花园的美丽鲜花，表达了对[TARGET_CHARACTER.GetShortUIName]的爱与奉献。"
+ soulmate_gifting_flowers:1 "[TARGET_CHARACTER.GetShortUIName|U]赠予[CHARACTER.GetShortUIName]一束生长于[TARGET_CHARACTER.GetShortUINamePossessive]自家花园的美丽鲜花，表达了对[CHARACTER.GetShortUIName]的爱与奉献。"
+ soulmate_gifting_flowers_corresponding:1 "[CHARACTER.GetShortUIName|U]赠予[TARGET_CHARACTER.GetShortUIName]一束生长于[CHARACTER.GetShortUINamePossessive]自家花园的美丽鲜花，表达了对[TARGET_CHARACTER.GetShortUIName]的爱与奉献。"
+
+ soulmate_wedding_accepting_partner:0 "通过在卧室里的尊重和接受，[CHARACTER.GetShortUIName]和[TARGET_CHARACTER.GetShortUIName]之间绽放了真爱。"
+ soulmate_wedding_first_sight:1 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在交换誓言时一见钟情。"
  
  saved_from_wolf:0 "在[TARGET_CHARACTER.GetShortUIName]从狼吻之下救出[CHARACTER.GetShortUIName]之后，[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]找到了真爱。"
  saved_from_wolf_corresponding:0 "在[CHARACTER.GetShortUIName]从狼吻之下救出[TARGET_CHARACTER.GetShortUIName]之后，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]找到了真爱。"
@@ -1165,6 +1247,9 @@
  
  rival_bullied_other_child:0 "在二人皆年幼时[CHARACTER.GetShortUIName|U]霸凌了[TARGET_CHARACTER.GetShortUIName]。"
  rival_bullied_other_child_corresponding:0 "在二人皆年幼时[TARGET_CHARACTER.GetShortUIName|U]霸凌了[CHARACTER.GetShortUIName]。"
+ 
+ rival_buffoon_play:0 "[CHARACTER.GetShortUIName|U]在文化节上被[TARGET_CHARACTER.GetShortUIName]描绘成了小丑。"
+ rival_buffoon_play_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在文化节上将[CHARACTER.GetShortUIName]描绘成了小丑。"
  
  rival_burned_at_party:0 "[CHARACTER.GetShortUIName|U]在聚会时烧伤了[TARGET_CHARACTER.GetShortUIName]。"
  rival_burned_at_party_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在聚会时烧伤了[CHARACTER.GetShortUIName]。"
@@ -1289,8 +1374,8 @@
  rival_fish_in_face:0 "[TARGET_CHARACTER.GetShortUIName|U]绊倒了[CHARACTER.GetShortUIName]，并将一条鱼扔在[CHARACTER.GetShortUINamePossessive]的脸上。"
  rival_fish_in_face_corresponding:0 "[CHARACTER.GetShortUIName|U]绊倒了[TARGET_CHARACTER.GetShortUIName]，并将一条鱼扔在[TARGET_CHARACTER.GetShortUINamePossessive]的脸上。"
 
- rival_fix_relationship_fail:1 "由于[CHARACTER.GetShortUINamePossessiveNoTooltip]未能修复受损的关系，[TARGET_CHARACTER.GetShortUIName|U]开始厌恶[CHARACTER.GetShortUIName]。"
- rival_fix_relationship_fail_corresponding:1 "由于[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]未能修复受损的关系，[CHARACTER.GetShortUIName|U]开始厌恶[TARGET_CHARACTER.GetShortUIName]。"
+ rival_fix_relationship_fail:1 "由于[CHARACTER.GetShortUINameNoTooltip]未能修复受损的关系，[TARGET_CHARACTER.GetShortUIName|U]开始厌恶[CHARACTER.GetShortUIName]。"
+ rival_fix_relationship_fail_corresponding:1 "由于[TARGET_CHARACTER.GetShortUINameNoTooltip]未能修复受损的关系，[CHARACTER.GetShortUIName|U]开始厌恶[TARGET_CHARACTER.GetShortUIName]。"
 
  rival_foreign_prince:0 "由于怀疑其真实性，[CHARACTER.GetShortUIName|U]囚禁了[TARGET_CHARACTER.GetShortUIName]。"
  rival_foreign_prince_corresponding:0 "由于怀疑其真实性，[TARGET_CHARACTER.GetShortUIName|U]囚禁了[CHARACTER.GetShortUIName]。"
@@ -1363,8 +1448,8 @@
  rival_infidelity_accusation:0 "[CHARACTER.GetShortUIName|U]指责[TARGET_CHARACTER.GetShortUIName]不忠。"
  rival_infidelity_accusation_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]指责[CHARACTER.GetShortUIName]不忠。"
 
- rival_insensitive_asshole:1 "[CHARACTER.GetShortUIName|U]在受辱后于决斗中击败了[TARGET_CHARACTER.GetShortUINamePossessive]。"
- rival_insensitive_asshole_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U]在受辱后于决斗中击败了[CHARACTER.GetShortUINamePossessive]。"
+ rival_insensitive_asshole:1 "[CHARACTER.GetShortUIName|U]在受辱后于决斗中击败了[TARGET_CHARACTER.GetShortUIName]。"
+ rival_insensitive_asshole_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U]在受辱后于决斗中击败了[CHARACTER.GetShortUIName]。"
 
  rival_insulted_language:0 "[CHARACTER.GetShortUIName|U]暗示[TARGET_CHARACTER.GetShortUINamePossessive]学习新语言完全是为了获得荣耀。"
  rival_insulted_language_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]暗示[CHARACTER.GetShortUINamePossessive]学习新语言完全是为了获得荣耀。"
@@ -1390,8 +1475,8 @@
  rival_kidnapped_peasants:0 "[TARGET_CHARACTER.GetShortUIName|U]从[CHARACTER.GetShortUINamePossessive]的土地上绑架了一些农民。说来也怪，那些农民从此再也没有消息了。"
  rival_kidnapped_peasants_corresponding:0 "[CHARACTER.GetShortUIName|U]从[TARGET_CHARACTER.GetShortUINamePossessive]的土地上绑架了一些农民。说来也怪，那些农民从此再也没有消息了。"
 
- rival_killjoy_jester:1 "[TARGET_CHARACTER.GetShortUIName|U]以扫兴为由将[TARGET_CHARACTER.GetShortUIName]任命为宫廷小丑。"
- rival_killjoy_jester_corresponding:1 "[CHARACTER.GetShortUIName|U]以扫兴为由将[CHARACTER.GetShortUIName]任命为宫廷小丑。"
+ rival_killjoy_jester:1 "[TARGET_CHARACTER.GetShortUIName|U]以扫兴为由将[CHARACTER.GetShortUIName]任命为宫廷小丑。"
+ rival_killjoy_jester_corresponding:1 "[CHARACTER.GetShortUIName|U]以扫兴为由将[TARGET_CHARACTER.GetShortUIName]任命为宫廷小丑。"
 
  rival_knights_slapfight:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]发生了一系列口角，决定以决斗来解决。"
 
@@ -1417,7 +1502,7 @@
  rival_linguistic_request_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]要求[CHARACTER.GetShortUIName]学习[TARGET_CHARACTER.GetShortUINamePossessive]的语言。"
 
  rival_lost_duel:0 "[CHARACTER.GetShortUIName|U]在决斗中击败了[TARGET_CHARACTER.GetShortUIName]。"
- rival_lost_duel_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U]在决斗中击败了[TARGET_CHARACTER.GetShortUIName]。"
+ rival_lost_duel_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U]在决斗中击败了[CHARACTER.GetShortUIName]。"
 
  rival_love_triangle_allowed:1 "[CHARACTER.GetShortUIName|U]被允许偷走[TARGET_CHARACTER.GetShortUINamePossessive]的配偶，可人的[TARGET_CHARACTER_2.GetShortUIName]。"
  rival_love_triangle_allowed_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U]被允许偷走[CHARACTER.GetShortUINamePossessive]的配偶，可人的[TARGET_CHARACTER_2.GetShortUIName]。"
@@ -1440,9 +1525,12 @@
 
  rival_not_grovel:0 "[CHARACTER.GetShortUIName|U]拒绝补偿[TARGET_CHARACTER.GetShortUINamePossessive]的亲族。"
  rival_not_grovel_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]拒绝补偿[CHARACTER.GetShortUINamePossessive]的亲族。"
+ 
+ rival_feast_of_fools:0 "[CHARACTER.GetShortUIName]在文化节期间被[TARGET_CHARACTER.GetShortUIName]加冕为$nick_monarch_of_fools_masc$。"
+ rival_feast_of_fools_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在文化节期间将[CHARACTER.GetShortUIName]加冕为$nick_monarch_of_fools_masc$。"
 
- rival_no_grain:0 "[TARGET_CHARACTER.GetShortUIName|U]坚持认为[CHARACTER.GetShortUINamePossessive]的省份能靠自己的力量解决粮食短缺问题。"
- rival_no_grain_corresponding:0 "[CHARACTER.GetShortUIName|U]坚持认为[TARGET_CHARACTER.GetShortUINamePossessive]的省份能靠自己的力量解决粮食短缺问题。"
+ rival_no_grain:1 "[TARGET_CHARACTER.GetShortUIName|U]坚持认为[CHARACTER.GetShortUINamePossessive]的伯爵领能靠自己的力量解决粮食短缺问题。"
+ rival_no_grain_corresponding:1 "[CHARACTER.GetShortUIName|U]坚持认为[TARGET_CHARACTER.GetShortUINamePossessive]的伯爵领能靠自己的力量解决粮食短缺问题。"
 
  rival_other_fighter_side:0 "[CHARACTER.GetShortUIName|U]在宴会争斗中未选择支持[TARGET_CHARACTER.GetShortUINamePossessive]。"
  rival_other_fighter_side_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在宴会争斗中未选择支持[CHARACTER.GetShortUINamePossessive]。"
@@ -1463,6 +1551,9 @@
 
  rival_perceived_slight:0 "据说[TARGET_CHARACTER.GetShortUIName|U]侮辱了[CHARACTER.GetShortUIName]，尽管旁观者指出这种轻慢更多是误会而非真心。"
  rival_perceived_slight_corresponding:0 "据说[CHARACTER.GetShortUIName|U]侮辱了[TARGET_CHARACTER.GetShortUIName]，尽管旁观者指出这种轻慢更多是误会而非真心。"
+ 
+ rival_bad_mouthed:0 "[TARGET_CHARACTER.GetShortUIName]在旅途中讲[CHARACTER.GetShortUIName]的坏话。"
+ rival_bad_mouthed_corresponding:0 "[CHARACTER.GetShortUIName]偷听到了[TARGET_CHARACTER.GetShortUIName]在旅途中讲[CHARACTER.GetHerHim]的坏话。"
 
  rival_perceived_slight_root:0 "[TARGET_CHARACTER.GetShortUIName|U]剥夺了[CHARACTER.GetShortUINamePossessive]的宫廷职位，因为[CHARACTER.GetShortUIName]得罪了客人。"
  rival_perceived_slight_root_corresponding:0 "[CHARACTER.GetShortUIName|U]剥夺了[TARGET_CHARACTER.GetShortUINamePossessive]的宫廷职位，因为[TARGET_CHARACTER.GetShortUIName]得罪了客人。"
@@ -1500,8 +1591,8 @@
  rival_prevented_stealing_from_peasants:0 "[TARGET_CHARACTER.GetShortUIName]由于偷窃农民被[CHARACTER.GetShortUIName|U]训斥。"
  rival_prevented_stealing_from_peasants_corresponding:0 "[CHARACTER.GetShortUIName]由于偷窃农民被[TARGET_CHARACTER.GetShortUIName|U]训斥。"
 
- rival_province_help:0 "[TARGET_CHARACTER.GetShortUIName|U]坚决拒绝在难以管理的当地人的问题上帮助[CHARACTER.GetShortUINamePossessive]的省份。"
- rival_province_help_corresponding:0 "[CHARACTER.GetShortUIName|U]坚决拒绝在难以管理的当地人的问题上帮助[TARGET_CHARACTER.GetShortUINamePossessive]的省份。"
+ rival_province_help:1 "[TARGET_CHARACTER.GetShortUIName|U]坚决拒绝在难以管理的当地人的问题上帮助[CHARACTER.GetShortUINamePossessive]的伯爵领。"
+ rival_province_help_corresponding:1 "[CHARACTER.GetShortUIName|U]坚决拒绝在难以管理的当地人的问题上帮助[TARGET_CHARACTER.GetShortUINamePossessive]的伯爵领。"
 
  rival_punched_for_song:0 "[TARGET_CHARACTER.GetShortUIName]因为唱了[CHARACTER.GetShortUIName]讨厌的歌谣被[CHARACTER.GetShortUIName|U]揍了一顿。"
  rival_punched_for_song_corresponding:0 "[CHARACTER.GetShortUIName]因为唱了[TARGET_CHARACTER.GetShortUIName]讨厌的歌谣被[TARGET_CHARACTER.GetShortUIName|U]揍了一顿。"
@@ -1600,6 +1691,9 @@
  rival_snooping_around_home_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在[CHARACTER.GetShortUINamePossessive]的家里四处窥探。"
 
  rival_snubbed_maa:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]因军事问题发生了争吵。"
+ 
+ rival_danced_with_spouse:0 "[CHARACTER.GetShortUIName|U]在文化节上将[TARGET_CHARACTER.GetShortUINamePossessive]选为[CHARACTER.GetHerHis]的舞伴。"
+ rival_danced_with_spouse_corresponding:0 "[TARGET_CHARACTER.GetShortUINamePossessive|U]的配偶在文化节上被[TARGET_CHARACTER.GetShortUINamePossessive]选为[CHARACTER.GetHerHis]的舞伴。"
 
  rival_sold_titles:0 "[TARGET_CHARACTER.GetShortUIName|U]以低廉的价格从[CHARACTER.GetShortUIName]处购买了头衔。"
  rival_sold_titles_corresponding:0 "[CHARACTER.GetShortUIName|U]以低廉的价格从[TARGET_CHARACTER.GetShortUIName]处购买了头衔。"
@@ -1613,6 +1707,9 @@
 
  rival_stolen_marshmallow:0 "在二人皆年幼时，[CHARACTER.GetShortUIName|U]偷了[TARGET_CHARACTER.GetShortUIName]的蜂蜜甜点。"
  rival_stolen_marshmallow_corresponding:0 "在二人皆年幼时，[TARGET_CHARACTER.GetShortUIName|U]偷了[CHARACTER.GetShortUIName]的蜂蜜甜点。"
+ 
+ rival_stole_from_me_banquet:0 "[CHARACTER.GetShortUIName|U]在邀请[TARGET_CHARACTER.GetShortUIName]参加宴会后想要偷[TARGET_CHARACTER.GetHerHim]的东西。"
+ rival_stole_from_me_banquet_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在邀请[CHARACTER.GetShortUIName]参加宴会后想要偷[CHARACTER.GetHerHim]的东西。"
 
  rival_stole_from_peasants:0 "[CHARACTER.GetShortUIName|U]偷窃[TARGET_CHARACTER.GetShortUINamePossessive]的农民。"
  rival_stole_from_peasants_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]偷窃[CHARACTER.GetShortUINamePossessive]的农民。"
@@ -1672,8 +1769,11 @@
 
  rival_was_disinherited:1 "[TARGET_CHARACTER.GetShortUIName|U]被[CHARACTER.GetShortUIName]剥夺继承权。"
  rival_was_disinherited_corresponding:1 "[CHARACTER.GetShortUIName|U]被[TARGET_CHARACTER.GetShortUIName]剥夺继承权。"
+ 
+ rival_whipped_my_kid:0 "由于在文化节中表现很差，[CHARACTER.GetShortUIName|U]抽打了[TARGET_CHARACTER.GetPossessive]的孩子。"
+ rival_whipped_my_kid_coresponding:0 "由于在文化节中表现很差，[TARGET_CHARACTER.GetPossessive]的孩子被[CHARACTER.GetShortUIName|U]抽打了。"
 
- rival_won_boardgame_challenge:1 "[CHARACTER.GetShortUIName|U]在与[TARGET_CHARACTER.GetShortUIName]的棋盘游戏中赢得了羞辱性的胜利。"
+ rival_won_boardgame_challenge:1 "[TARGET_CHARACTER.GetShortUIName|U]在与[CHARACTER.GetShortUIName]的棋盘游戏中赢得了羞辱性的胜利。"
  rival_won_boardgame_challenge_corresponding:0 "[CHARACTER.GetShortUIName|U]在与[TARGET_CHARACTER.GetShortUIName]的棋盘游戏中赢得了羞辱性的胜利。"
 
  rival_wooed_spouse:0 "[TARGET_CHARACTER.GetShortUIName]因为追求[CHARACTER.GetShortUINamePossessive]的配偶被[CHARACTER.GetShortUIName|U]扔进了监狱。"
@@ -1681,9 +1781,18 @@
 
  rival_you_won_boardgame_challenge:0 "[CHARACTER.GetShortUIName|U]在一场紧张的棋盘游戏中战胜了[TARGET_CHARACTER.GetShortUIName]。"
  rival_you_won_boardgame_challenge_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在一场紧张的棋盘游戏中战胜了[CHARACTER.GetShortUIName]。"
+
+ rival_embezzled_and_refused_to_reimburse:0 "[CHARACTER.GetShortUIName|U]贪污了[TARGET_CHARACTER.GetShortUIName]的钱并且拒绝归还。"
+ rival_embezzled_and_refused_to_reimburse_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]贪污了[CHARACTER.GetShortUIName]的钱并且拒绝归还。"
  
+ rival_tried_to_embezzle:0 "[CHARACTER.GetShortUIName|U]在贪污[TARGET_CHARACTER.GetShortUIName]的钱时被逮个正着"
+ rival_tried_to_embezzle_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在贪污[CHARACTER.GetShortUIName]的钱时被逮个正着"
+
  lover_covered_excreta:0 "在[TARGET_CHARACTER.GetShortUIName]将一桶排泄物倒在了[CHARACTER.GetShortUINamePossessiveNoTooltip]头上后，[CHARACTER.GetShortUIName|U]做出了相当色情的回应。"
  lover_covered_excreta_corresponding:0 "在[CHARACTER.GetShortUIName]将一桶排泄物倒在了[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]头上后，[TARGET_CHARACTER.GetShortUIName|U]做出了相当色情的回应。"
+ 
+ lover_festival_dancing:0 "[CHARACTER.GetShortUIName|U]在文化节上将[TARGET_CHARACTER.GetShortUIName]选为[CHARACTER.GetHerHis]的舞伴。"
+ lover_festival_dancing_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在文化节上被[TARGET_CHARACTER.GetShortUIName]选为[CHARACTER.GetHerHis]的舞伴。"
 
  lover_witch_sex_partner:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在一次狂野的“崇拜”之夜里成为了情人。"
 
@@ -1799,9 +1908,15 @@
  lover_inspiration_treasure:0 "在得到要求后，[TARGET_CHARACTER.GetShortUIName]寄给了[CHARACTER.GetShortUIName|U]一本关于同性之爱的书籍。"
  lover_inspiration_treasure_corresponding:0 "在得到要求后，[CHARACTER.GetShortUIName]寄给了[TARGET_CHARACTER.GetShortUIName|U]一本关于同性之爱的书籍。"
  
+ lover_sexy_assassin:0 "不仅尝试刺杀失败，[CHARACTER.GetShortUIName|U]还被[TARGET_CHARACTER.GetShortUINamePossessive]的巧舌如簧给搞得小鹿乱撞。"
+ lover_sexy_assassin_corresponding:0 "不仅尝试刺杀失败，[TARGET_CHARACTER.GetShortUIName|U]还用巧舌如簧将[CHARACTER.GetShortUIName]搞得小鹿乱撞。"
+ 
  lover_varangian_lover:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUINamePossessive]一起在瓦兰吉卫队服役，变得#EMP 非常#!亲近。"
  lover_varangian_lover_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUINamePossessive]一起在瓦兰吉卫队服役，变得#EMP 非常#!亲近。"
  
+ lover_saved_melee:0 "在[CHARACTER.GetShortUIName]拯救了团战中被困的[TARGET_CHARACTER.GetShortUIName]后，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成了情人。"
+ lover_saved_melee_corresponding:0 "在[TARGET_CHARACTER.GetShortUIName]拯救了团战中被困的[CHARACTER.GetShortUIName]后，[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]成了情人。"
+
  friend_granted_title:0 "在[TARGET_CHARACTER.GetShortUIName]授予[CHARACTER.GetShortUIName][TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的某个头衔后，[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetHerHim]成了朋友。"
  friend_granted_title_corresponding:0 "在[TARGET_CHARACTER.GetShortUINameNoTooltip]授予[CHARACTER.GetShortUINameNoTooltip][TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]的某个头衔后，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成了朋友。"
 
@@ -1911,6 +2026,9 @@
  friend_childhood_knight:0 "在孩童时，[CHARACTER.GetShortUIName]和[TARGET_CHARACTER.GetShortUIName]一起入门学习贵族拳击时缔结了情谊。"
 
  friend_childhood_religious_scrolls:0 "在孩童时，[CHARACTER.GetShortUIName]和[TARGET_CHARACTER.GetShortUIName]匆匆翻寻机密卷宗和记录时缔结了情谊。"
+ 
+ friend_bought_indulgences:0 "[CHARACTER.GetShortUIName|U]在[TARGET_CHARACTER.GetShortUINamePossessive]的许可下购买了大赦。"
+ friend_bought_indulgences_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]认可[CHARACTER.GetShortUIName]购买大赦。"
 
  friend_upheld_educational_tactics:0 "[CHARACTER.GetShortUIName|U]支持[TARGET_CHARACTER.GetShortUINamePossessive]的教育策略。"
  friend_upheld_educational_tactics_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]支持[CHARACTER.GetShortUINamePossessive]的教育策略。"
@@ -2000,6 +2118,9 @@
  friend_helped_inspiration_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]协助[CHARACTER.GetShortUIName]制作[CHARACTER.GetShortUINamePossessiveNoTooltip]的工艺品。"
 
  friend_inspired_craftsman:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在一次激发灵感的远足后缔结了情谊。"
+ 
+ friend_courtly_love:0 "[CHARACTER.GetShortUIName|U]放手让[TARGET_CHARACTER.GetShortUIName]前往[PROVINCE.GetName]去寻找[TARGET_CHARACTER.GetHerHis]的爱情。"
+ friend_courtly_love_corresponding:0 "[TARGET_CHARACTER.GetShortUINamePossessive|U]得到[CHARACTER.GetShortUIName]的允许，离开[CHARACTER.GetHerHis]的宫廷前往[PROVINCE.GetName]寻找[TARGET_CHARACTER.GetHerHis]的爱情。"
 
  friend_miniature_game:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]用精致微缩模型进行了一场虚拟攻城战之后缔结了情谊。"
 
@@ -2088,6 +2209,8 @@
  friend_child_apologize:0 "[TARGET_CHARACTER.GetShortUIName|U]向[CHARACTER.GetShortUIName]做出了真诚的道歉。"
  friend_child_apologize_corresponding:0 "[CHARACTER.GetShortUIName|U]向[TARGET_CHARACTER.GetShortUIName]做出了真诚的道歉。"
 
+ friend_wedding_enjoyable_chat:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在婚宴上十分享受对方的陪伴。"
+
  rival_garduna_young_thief:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]都想成为盗贼之王。"
 
  rival_attempted_blackmail:0 "[CHARACTER.GetShortUIName|U]试图勒索[TARGET_CHARACTER.GetShortUIName]。"
@@ -2098,9 +2221,300 @@
 
  friend_gave_council_seat:0 "[CHARACTER.GetShortUIName|U]将[TARGET_CHARACTER.GetShortUINamePossessive]雇为内阁成员"
  friend_gave_council_seat_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]被[CHARACTER.GetShortUINamePossessive]雇为内阁成员"
+ 
+ friend_listened_to_advice:0 "[CHARACTER.GetShortUIName|U]采纳了[TARGET_CHARACTER.GetShortUINamePossessive]的建议，加强了他们的关系。"
+ rival_belittled_beliefs:0 "[TARGET_CHARACTER.GetShortUIName|U]因为[TARGET_CHARACTER.GetHerHis]的迷信被[CHARACTER.GetShortUIName]嘲笑。"
+ rival_upstaged_at_sea:0 "[TARGET_CHARACTER.GetShortUIName|U]因为[TARGET_CHARACTER.GetHerHis]糟糕的导航能力被[CHARACTER.GetShortUIName]嘲笑。"
+ friend_adopted:0 "[CHARACTER.GetShortUIName|U]将[TARGET_CHARACTER.GetShortUIName]收养为[CHARACTER.GetHerHis]的[TARGET_CHARACTER.Custom('GetDaughterSon')]。"
+ lover_first_sight:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]一见钟情。"
+ lover_first_sight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]一见钟情。"
+ rival_contest_savagely_beaten:0 "[TARGET_CHARACTER.GetShortUIName|U]在一场比武大会上被[CHARACTER.GetShortUIName]狠狠地痛扁了一顿。"
+ rival_contest_savagely_beaten_corresponding:0 "[CHARACTER.GetShortUIName|U]在一场比武大会上将[TARGET_CHARACTER.GetShortUIName]狠狠地捶爆了。"
+ rival_tournament_attempted_murder:0 "[TARGET_CHARACTER.GetShortUIName|U]试图在比武大会上谋杀[CHARACTER.GetShortUIName]"
+ rival_tournament_attempted_murder_corresponding:0 "[CHARACTER.GetShortUIName|U]在比武大会期间发现了[TARGET_CHARACTER.GetShortUIName]的谋杀企图。"
+ rival_tournament_disqualified:0 "[TARGET_CHARACTER.GetShortUIName|U]被[CHARACTER.GetShortUIName]取消了比武大会比赛资格"
+ rival_tournament_disqualified_corresponding:0 "[CHARACTER.GetShortUIName|U]取消了[TARGET_CHARACTER.GetShortUIName]的比武大会比赛资格"
+ friend_board_game_opening_inform:0 "[CHARACTER.GetShortUIName|U]在棋盘游戏比赛中指出了[TARGET_CHARACTER.GetShortUINamePossessive]的破绽"
+ friend_board_game_opening_inform_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在棋盘游戏比赛中被[CHARACTER.GetShortUIName|U]指出了破绽"
+ friend_pas_darmes_band:0 "[CHARACTER.GetShortUIName|U]在闯关比武中同[TARGET_CHARACTER.GetShortUIName]结伴"
+ friend_pas_darmes_band_corresponding:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]一同闯关比武。"
+ friend_toasted_contest_victory:0 "[CHARACTER.GetShortUIName|U]公开为[TARGET_CHARACTER.GetShortUINamePossessive]在比赛中表现的能力和获得的胜利祝酒。"
+ friend_toasted_contest_victory_corresponding:0 "[TARGET_CHARACTER.GetShortUINamePossessive|U]在比赛中表现得能力和获得的胜利被[CHARACTER.GetShortUIName]公开煮酒道贺。"
+ rival_tournament_attempted_sabotage:0 "[TARGET_CHARACTER.GetShortUIName|U]在比武大会上想要对[CHARACTER.GetShortUIName]使阴招。"
+ rival_tournament_attempted_sabotage_corresponding:0 "[CHARACTER.GetShortUIName|U]在比武大会上发现了[TARGET_CHARACTER.GetShortUIName]试图搞破坏。"
+ rival_challenged_pas_darmes:0 "[TARGET_CHARACTER.GetShortUIName|U]在闯关比武中挑战[CHARACTER.GetShortUIName]"
+ rival_challenged_pas_darmes_corresponding:0 "[CHARACTER.GetShortUIName|U]在闯关比武中被[TARGET_CHARACTER.GetShortUIName]挑战"
+ rival_tournament_favor_jealousy:0 "[TARGET_CHARACTER.GetShortUIName|U]被[CHARACTER.GetShortUINamePossessive]的爱人赠予了信物"
+ rival_tournament_favor_jealousy_corresponding:0 "[CHARACTER.GetShortUIName|U]发现[CHARACTER.GetHerHis]的爱人在比武大会中赠予[TARGET_CHARACTER.GetShortUIName]信物"
+ rival_melee_dismissed_mayor:0 "[TARGET_CHARACTER.GetShortUIName|U]无视了[CHARACTER.GetShortUINamePossessive]关于团战破坏[CHARACTER.GetHerHis]的村镇的抱怨"
+ rival_melee_dismissed_mayor_corresponding:0 "[CHARACTER.GetShortUINamePossessive|U]关于团战破坏[CHARACTER.GetHerHis]的村镇的抱怨被[TARGET_CHARACTER.GetShortUIName]无视了"
+ rival_contest_sport_struck:0 "[TARGET_CHARACTER.GetShortUIName|U]在一场体育比赛中愤怒地打了[CHARACTER.GetShortUIName]"
+ rival_contest_sport_struck_corresponding:0 "[CHARACTER.GetShortUIName|U]在一场体育比赛中被[TARGET_CHARACTER.GetShortUIName]愤怒的殴打"
+ rival_quintain_knight_jealousy:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]在刺靶比赛中争夺新领主的注意"
+ rival_quintain_knight_jealousy_corresponding:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在刺靶比赛中争夺新领主的注意"
+ rival_quintain_knight_anger:0 "[TARGET_CHARACTER.GetShortUIName|U]在刺靶比赛期间毁掉了[CHARACTER.GetShortUINamePossessive]的招募机会"
+ rival_quintain_knight_anger_corresponding:0 "[CHARACTER.GetShortUIName|U]在刺靶比赛期间毁掉了[TARGET_CHARACTER.GetShortUINamePossessive]的招募机会"
+ rival_quintain_collapse_blame:0 "[TARGET_CHARACTER.GetShortUIName|U]因为比武大会的枪靶散架而责怪[CHARACTER.GetShortUIName]"
+ rival_quintain_collapse_blame_corresponding:0 "[CHARACTER.GetShortUIName|U]因为比武大会的枪靶散架被[TARGET_CHARACTER.GetShortUIName]责怪"
+ rival_quintain_jester:0 "[TARGET_CHARACTER.GetShortUIName|U]在被困在枪靶上后被[CHARACTER.GetShortUIName]任命为小丑"
+ rival_quintain_jester_corresponding:0 "[CHARACTER.GetShortUIName|U]在[TARGET_CHARACTER.GetShortUIName]被困在枪靶上后将其任命为小丑"
+ rival_tournament_attempted_banning:0 "[TARGET_CHARACTER.GetShortUIName|U]因为[CHARACTER.GetShortUINamePossessive]想要将[TARGET_CHARACTER.GetHerHim]踢出比武大会而心生怨恨"
+ rival_tournament_attempted_banning_corresponding:0 "[CHARACTER.GetShortUIName|U]想要将[TARGET_CHARACTER.GetShortUIName]踢出比武大会"
+ rival_contest_mockery:0 "[TARGET_CHARACTER.GetShortUIName|U]在比赛中遇到麻烦后被[CHARACTER.GetShortUINamePossessive]大肆嘲笑"
+ rival_contest_mockery_corresponding:0 "[CHARACTER.GetShortUIName|U]大肆嘲笑在比赛中遇到麻烦的[TARGET_CHARACTER.GetShortUIName]"
+ rival_recital_booing:0 "[TARGET_CHARACTER.GetShortUIName|U]在[TARGET_CHARACTER.GetHerHis]朗诵时被[CHARACTER.GetShortUINamePossessive]大声喝倒彩"
+ rival_recital_booing_corresponding:0 "[CHARACTER.GetShortUIName|U]在[TARGET_CHARACTER.GetShortUIName]朗诵时大声对[TARGET_CHARACTER.GetHerHis]喝倒彩"
+ rival_recital_insult:0 "[TARGET_CHARACTER.GetShortUIName|U]在[TARGET_CHARACTER.GetHerHis]朗诵时被[CHARACTER.GetShortUINamePossessive]公开羞辱"
+ rival_recital_insult_corresponding:0 "[CHARACTER.GetShortUIName|U]在[TARGET_CHARACTER.GetShortUIName]朗诵时公开羞辱了[TARGET_CHARACTER.GetHerHis]"
+ friend_recital_compliment:0 "[TARGET_CHARACTER.GetShortUIName|U]在[TARGET_CHARACTER.GetHerHis]朗诵时被[CHARACTER.GetShortUINamePossessive]公开称赞"
+ friend_recital_compliment_corresponding:0 "[CHARACTER.GetShortUIName|U]在[TARGET_CHARACTER.GetShortUIName]朗诵时公开称赞了[TARGET_CHARACTER.GetHerHis]"
+ rival_falcon_shot:0 "[CHARACTER.GetShortUIName|U]想要射落[TARGET_CHARACTER.GetShortUINamePossessive]的鹰以赢得比赛"
+ rival_falcon_shot_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]的鹰在比赛中被[CHARACTER.GetShortUIName]射击"
+ rival_contest_insult:0 "[TARGET_CHARACTER.GetShortUIName|U]在比赛期间被[CHARACTER.GetShortUINamePossessive]愤怒地羞辱了"
+ rival_contest_insult_corresponding:0 "[CHARACTER.GetShortUIName|U]在比赛期间愤怒地羞辱了[TARGET_CHARACTER.GetShortUIName]"
+ rival_contest_horse_shot:0 "[TARGET_CHARACTER.GetShortUIName|U]的马在比赛中被[CHARACTER.GetShortUIName]射中"
+ rival_contest_horse_shot_corresponding:0 "[CHARACTER.GetShortUIName|U]在比赛中射中了[CHARACTER.GetShortUINamePossessive]的马"
+ friend_contest_horse_treated:0 "[TARGET_CHARACTER.GetShortUIName|U]的马在比赛中被射中后得到了[CHARACTER.GetShortUIName]的治疗"
+ friend_contest_horse_treated_corresponding:0 "[CHARACTER.GetShortUINamePossessive]的马在比赛中被射中后得到了[CHARACTER.GetShortUIName|U]的治疗"
+ friend_quintain_endearment:0 "[TARGET_CHARACTER.GetShortUIName|U]在一次刺靶失败后喜欢上了[CHARACTER.GetShortUIName]"
+ friend_quintain_endearment_corresponding:0 "[CHARACTER.GetShortUIName|U]在一次刺靶失败后开始喜欢上了[TARGET_CHARACTER.GetShortUIName]"
+ rival_tournament_duelist:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]在比武大会上发生争执后打了起来"
+
+ lover_tournament_victor_impressed:0 "[CHARACTER.GetShortUINamePossessive]赢得比赛后的举止给[TARGET_CHARACTER.GetShortUIName|U]留下了深刻印象"
+ lover_tournament_victor_impressed_corresponding:0 "[CHARACTER.GetShortUIName|U]用[CHARACTER.GetHerHis]赢得比赛后的举止给[TARGET_CHARACTER.GetShortUIName|U]留下了深刻印象"
+ friend_tournament_shop_gift:0 "[TARGET_CHARACTER.GetShortUIName|U]很满意[TARGET_CHARACTER.GetShortUINamePossessive]在比武大会上赠予的礼物"
+ friend_tournament_shop_gift_corresponding:0 "[CHARACTER.GetShortUIName|U]在比武大会上赠予的礼物让[TARGET_CHARACTER.GetShortUIName]很满意"
+ rival_tournament_burned_crest:0 "[CHARACTER.GetShortUIName|U]烧毁了[TARGET_CHARACTER.GetShortUIName]定制的纹章"
+ rival_tournament_burned_crest_corresponding:0 "[TARGET_CHARACTER.GetShortUINamePossessive|U]定制的纹章被[CHARACTER.GetShortUIName]烧毁了"
+ friend_tournament_church_party:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在[CHARACTER.GetFaith.HouseOfWorship]的聚会上缔结了友谊"
+ lover_given_flower:0 "在树林中偶遇并被赠予一朵美丽的花后，[TARGET_CHARACTER.GetShortUIName|U]爱上了[CHARACTER.GetShortUINamePossessive]"
+ lover_given_flower_corresponding:0 "在树林中偶遇并被赠予一朵美丽的花后，[CHARACTER.GetShortUIName|U]爱上了[TARGET_CHARACTER.GetShortUINamePossessive]"
+ friend_tournament_discussion:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUINamePossessive]一起参加[PROVINCE.GetName]的比武大会时，在一次[PROVINCE.Custom('TerrainTypeProvince')]散步中缔结了情谊"
+ 
+ rival_kicked_out:0 "[TARGET_CHARACTER.GetShortUIName|U]由于撒酒疯被[CHARACTER.GetShortUIName|U]踢出婚宴"
+ friend_informed_of_adultery:0 "[CHARACTER.GetShortUIName|U]将[TARGET_CHARACTER.GetShortUIName|U]配偶的不忠告知了[TARGET_CHARACTER.GetHerHis]"
+ friend_informed_of_adultery_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]将[CHARACTER.GetShortUIName|U]配偶的不忠告知了[CHARACTER.GetHerHis]"
+ friend_good_booze:0 "[CHARACTER.GetShortUIName|U]为[TARGET_CHARACTER.GetShortUIName|U]提供了优质的葡萄酒和麦芽酒"
+ friend_good_booze_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]为[CHARACTER.GetShortUIName|U]提供了优质的葡萄酒和麦芽酒"
+ friend_ghost_hunter:0 "[CHARACTER.GetShortUIName|U]帮[TARGET_CHARACTER.GetShortUIName|U]摆脱了纠缠的鬼魂"
+ friend_ghost_hunter_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]帮[CHARACTER.GetShortUIName|U]摆脱了纠缠的鬼魂"
+ friend_special_gift:0 "[CHARACTER.GetShortUIName|U]给予[TARGET_CHARACTER.GetShortUIName|U]一份特殊的叫醒礼物"
+ friend_special_gift_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]给予[CHARACTER.GetShortUIName|U]一份特殊的叫醒礼物"
+ lover_adultery:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName|U]通奸"
+ lover_adultery_corresponding:0 "$lover_adultery$"
+
+ friend_wedding:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName|U]在一场大婚上缔结了情谊"
+ friend_wedding_ritual:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName|U]在婚前的仪式中缔结了情谊"
+ rival_despised_ritual:0 "[TARGET_CHARACTER.GetShortUINamePossessive]对她的婚前仪式的无视冒犯了[CHARACTER.GetShortUIName|U]"
+ lover_tournament_praying:0 "[CHARACTER.GetShortUINamePossessive|U]在比武大会上的敬神行为迷住了[TARGET_CHARACTER.GetShortUIName]"
+ lover_tournament_praying_corresponding:0 "[TARGET_CHARACTER.GetShortUINamePossessive|U]在比武大会上的敬神行为迷住了[CHARACTER.GetShortUIName]"
+ lover_tournament_cynical_prayer:0 "[CHARACTER.GetShortUINamePossessive|U]在比武大会上对崇拜行为的愤世嫉俗引发了[TARGET_CHARACTER.GetShortUIName]的共鸣"
+ lover_tournament_cynical_prayer_corresponding:0 "[TARGET_CHARACTER.GetShortUINamePossessive|U]在比武大会上对崇拜行为的愤世嫉俗引发了[CHARACTER.GetShortUIName]的共鸣"
+
+ friend_dinner_chat:0 "[CHARACTER.GetShortUIName|U]在晚宴上与[TARGET_CHARACTER.GetShortUIName|U]进行了友好的交谈"
+ friend_dinner_chat_corresponding:0 "$friend_dinner_chat$"
+ friend_confidant:0 "[CHARACTER.GetShortUIName|U]向[TARGET_CHARACTER.GetShortUIName|U]吐露心声"
+ friend_confidant_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]向[CHARACTER.GetShortUIName|U]吐露心声"
+ friend_enjoyed_performance:1 "[TARGET_CHARACTER.GetShortUIName|U]喜欢[CHARACTER.GetShortUIName|U]安排的演出"
+ friend_enjoyed_performance_corresponding:1 "[CHARACTER.GetShortUIName|U]喜欢[TARGET_CHARACTER.GetShortUIName|U]安排的演出"
+ rival_offended_by_performance:0 "[CHARACTER.GetShortUIName|U]目睹了[TARGET_CHARACTER.GetShortUIName|U]安排的一段痛苦记忆的重演"
+ rival_offended_by_performance_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]目睹了[CHARACTER.GetShortUIName|U]安排的一段痛苦记忆的重演"
+ rival_denied_courtier:0 "[TARGET_CHARACTER.GetShortUIName|U]阻止一名廷臣前往[CHARACTER.GetShortUINamePossessive|U]的宫廷"
+ rival_denied_courtier_corresponding:0 "[CHARACTER.GetShortUIName|U]阻止一名廷臣前往[TARGET_CHARACTER.GetShortUINamePossessive|U]的宫廷"
+ rival_denied_hook_on_heir:0 "[TARGET_CHARACTER.GetShortUIName|U]阻止[TARGET_CHARACTER.GetHerHis]的继承人向[CHARACTER.GetShortUIName|U]宣誓效忠"
+ rival_denied_hook_on_heir_corresponding:0 "[CHARACTER.GetShortUIName|U]阻止[CHARACTER.GetHerHis]的继承人向[TARGET_CHARACTER.GetShortUIName|U]宣誓效忠"
+
+ friend_hunt_trophy_given:0 "[CHARACTER.GetShortUIName|U]将狩猎战利品赠予[TARGET_CHARACTER.GetShortUIName]"
+ friend_hunt_trophy_given_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]被[CHARACTER.GetShortUIName]赠予了狩猎战利品"
+ friend_hunt_wound_waited_reason:0 "[TARGET_CHARACTER.GetShortUIName]在狩猎中坠马后，[CHARACTER.GetShortUIName|U]等待其恢复"
+ friend_hunt_wound_waited_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]在狩猎中坠马后，[CHARACTER.GetShortUIName|U]等待其恢复"
+ friend_hunt_wound_treated_reason:0 "[CHARACTER.GetShortUIName|U]因为[TARGET_CHARACTER.GetShortUIName]缺乏狩猎知识而斥责了[TARGET_CHARACTER.GetHerHis]"
+ friend_hunt_wound_treated_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]因为[TARGET_CHARACTER.GetHerHis]缺乏狩猎知识而被[CHARACTER.GetShortUIName]斥责"
+
+ friend_gave_hunt_kill_reason:0 "[CHARACTER.GetShortUIName|U]给予[TARGET_CHARACTER.GetShortUIName]一次狩猎击杀的荣誉"
+ friend_gave_hunt_kill_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]被[CHARACTER.GetShortUIName]给予了一次狩猎击杀的荣誉"
+ friend_hunt_taught_patiently_reason:0 "[CHARACTER.GetShortUIName|U]在狩猎方式上给予了[TARGET_CHARACTER.GetShortUIName]指导"
+ friend_hunt_taught_patiently_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]接受了[CHARACTER.GetShortUIName]在狩猎方式上的指导"
+ friend_hunt_berated_noob_reason:0 "[CHARACTER.GetShortUIName|U]因为[TARGET_CHARACTER.GetShortUIName]缺乏狩猎知识而斥责了[TARGET_CHARACTER.GetHerHis]"
+ friend_hunt_berated_noob_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]因为[TARGET_CHARACTER.GetHerHis]缺乏狩猎知识而被[CHARACTER.GetShortUIName]斥责"
+
+ ward_tiny_thief:0 "[CHARACTER.GetShortUIName|U]更好地利用了[TARGET_CHARACTER.GetShortUINamePossessive|U]微妙的才能"
+ ward_tiny_thief_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]更好地利用了[CHARACTER.GetShortUINamePossessive|U]微妙的才能"
+
+ friend_tournament_tutor:0 "[CHARACTER.GetShortUIName|U]接受了[TARGET_CHARACTER.GetShortUIName]的武术指导"
+ friend_tournament_tutor_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]接受了[CHARACTER.GetShortUIName]的武术指导"
+
+ friend_tournament_famous:0 "[TARGET_CHARACTER.GetShortUINamePossessive]在比武大会上隆重登场之后，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成为了好朋友"
+ friend_tournament_famous_corresponding:0 "[CHARACTER.GetShortUINamePossessive]在比武大会上隆重登场之后，[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]成为了好朋友"
+
+ rival_tournament_famous:0 "[CHARACTER.GetShortUIName]在比武大会上无视了[TARGET_CHARACTER.GetShortUINamePossessive]的隆重登场，之后[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成为了仇敌"
+ rival_tournament_famous_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]在比武大会上无视了[CHARACTER.GetShortUINamePossessive]的隆重登场，之后[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]成为了仇敌"
+
+ rival_tournament_herald:0 "[CHARACTER.GetShortUIName]在比武大会上不尊重[TARGET_CHARACTER.GetShortUINamePossessive]通报一位骑士姓名的努力，之后[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成为了仇敌"
+ rival_tournament_herald_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]在比武大会上不尊重[CHARACTER.GetShortUINamePossessive]通报一位骑士姓名的努力，之后[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]成为了仇敌"
+
+ rival_tournament_herald_knight:0 "[CHARACTER.GetShortUIName]在比武大会上嘲笑了对[TARGET_CHARACTER.GetShortUINamePossessive]的失败介绍后，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成为了仇敌"
+ rival_tournament_herald_knight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]在比武大会上嘲笑了对[CHARACTER.GetShortUINamePossessive]的失败介绍后，[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]成为了仇敌"
+
+ friend_tournament_herald_knight:0 "[CHARACTER.GetShortUIName]提出换掉[TARGET_CHARACTER.GetShortUINamePossessive]那不幸的传令官后，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成为了朋友"
+ friend_tournament_herald_knight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]提出换掉[CHARACTER.GetShortUINamePossessive]那不幸的传令官后，[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]成为了朋友"
+
+ friend_tournament_foreign_knight:0 "[TARGET_CHARACTER.GetShortUINamePossessive]的能力在比武大会上给[CHARACTER.GetShortUIName]留下了深刻印象，之后[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成为了朋友"
+ friend_tournament_foreign_knight_corresponding:0 "[CHARACTER.GetShortUINamePossessive]的能力在比武大会上给[TARGET_CHARACTER.GetShortUIName]留下了深刻印象，之后[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]成为了朋友"
+ 
+ lover_hunt_conversation_impressed:1 "[CHARACTER.GetShortUIName|U]对狩猎的看法给[TARGET_CHARACTER.GetShortUIName]留下了深刻印象"
+ lover_hunt_saved_from_rampaging_animal:0 "[CHARACTER.GetShortUIName|U]在狩猎时拯救[TARGET_CHARACTER.GetShortUIName]免受一只横冲直撞的野兽的伤害"
+ lover_hunt_saved_from_rampaging_animal_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在狩猎时被[CHARACTER.GetShortUIName]拯救免受一只横冲直撞的野兽的伤害"
+
+ lover_jumped_over_boulder_reason:0 "[CHARACTER.GetShortUIName|U]跳过滚动的巨石，给[TARGET_CHARACTER.GetShortUIName]留下了深刻印象"
+ lover_jumped_over_boulder_reason_corresponding:0 "[CHARACTER.GetShortUINamePossessive]跳过滚动的巨石，给[TARGET_CHARACTER.GetShortUIName|U]留下了深刻印象"
+
+ friend_bonded_over_botany:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]都对植物感兴趣"
+
+ lover_hunt_gift_reason:0 "[CHARACTER.GetShortUIName]从野外挑选的礼物给[TARGET_CHARACTER.GetShortUIName|U]留下了深刻印象"
+ lover_hunt_gift_reason_corresponding:0 "[CHARACTER.GetShortUIName|U]用一件从野外挑选的礼物打动了[TARGET_CHARACTER.GetShortUIName]"
+
+ rival_shared_insecurity:0 "[CHARACTER.GetShortUIName]倾诉[CHARACTER.GetHerHis]的不安全感时，[TARGET_CHARACTER.GetShortUIName]让[CHARACTER.GetHerHim]感觉到自惭形秽。"
+ rival_shared_insecurity_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]倾诉[TARGET_CHARACTER.GetHerHis]的不安全感时，[CHARACTER.GetShortUIName]让[TARGET_CHARACTER.GetHerHim]感觉到自惭形秽。"
+ friend_shared_insecurity:0 "[CHARACTER.GetShortUIName]倾诉[CHARACTER.GetHerHis]的不安全感时，[TARGET_CHARACTER.GetShortUIName]让[CHARACTER.GetHerHim]感觉到受尊重。"
+ friend_shared_insecurity_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]倾诉[TARGET_CHARACTER.GetHerHis]的不安全感时，[CHARACTER.GetShortUIName]让[TARGET_CHARACTER.GetHerHim]感觉到受尊重。"
+ lover_shared_insecurity_corresponding:0 "[CHARACTER.GetShortUIName]倾诉[CHARACTER.GetHerHis]的不安全感时，[TARGET_CHARACTER.GetShortUIName]让[CHARACTER.GetHerHim]感觉到被爱。"
+ lover_shared_insecurity:0 "[TARGET_CHARACTER.GetShortUIName]倾诉[TARGET_CHARACTER.GetHerHis]的不安全感时，[CHARACTER.GetShortUIName]让[TARGET_CHARACTER.GetHerHim]感觉到被爱。"
+
+ friend_great_time_at_wedding:0 "[CHARACTER.GetShortUIName]和[TARGET_CHARACTER.GetShortUIName]在一场婚宴上畅谈，并且享受彼此的陪伴。"
+ friend_great_time_at_wedding_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]和[CHARACTER.GetShortUIName]在一场婚宴上畅谈，并且享受彼此的陪伴。"
+ best_friend_great_time_at_wedding:0 "[CHARACTER.GetShortUIName]和[TARGET_CHARACTER.GetShortUIName]在一场婚宴上无视了其他人，享受着彼此的陪伴。"
+ best_friend_great_time_at_wedding_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]和[CHARACTER.GetShortUIName]在一场婚宴上无视了其他人，享受着彼此的陪伴。"
+ rival_dishonored_wedding_banquet:0 "[CHARACTER.GetShortUIName]对[TARGET_CHARACTER.GetShortUIName]为了避开[CHARACTER.GetHerHim]偷偷溜出婚宴感到十分生气。"
+ rival_dishonored_wedding_banquet_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]对[CHARACTER.GetShortUIName]为了避开[TARGET_CHARACTER.GetHerHim]偷偷溜出婚宴感到十分生气。"
+ rival_bad_time_at_wedding:0 "[CHARACTER.GetShortUIName]和[TARGET_CHARACTER.GetShortUIName]在一场婚宴上发生争吵。"
+ rival_bad_time_at_wedding_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]和[CHARACTER.GetShortUIName]在一场婚宴上发生争吵。"
 
  fp2_progress_towards_rival_funded_revolt_against_me:0 "[TARGET_CHARACTER.GetShortUIName|U]资助了针对[CHARACTER.GetShortUINamePossessive]的动乱。"
  fp2_progress_towards_rival_funded_revolt_against_me_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]破坏了[CHARACTER.GetShortUINamePossessive]的领地的稳定。"
 
-# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- best_friend_councel_and_support:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在长期相互支持与出谋划策之后缔结了牢固的情谊。"
+ lover_tournament_stands_flirt:0 "[TARGET_CHARACTER.GetShortUINamePossessive|U]在赢得比赛后的眉目传情被[CHARACTER.GetShortUIName]注意到了"
+ lover_tournament_stands_flirt_corresponding:0 "[CHARACTER.GetShortUINamePossessive|U]在赢得比赛后的眉目传情被[TARGET_CHARACTER.GetShortUIName]注意到了"
+
+ friend_reconciled_at_wedding:0 "曾经是仇敌的[CHARACTER.GetShortUIName]和[TARGET_CHARACTER.GetShortUIName]在一场美丽的婚礼上和解。"
+ friend_reconciled_at_wedding_corresponding:0 "$friend_reconciled_at_wedding$"
+ nemesis_spurned_reconciliation_at_wedding:0 "[CHARACTER.GetShortUIName]在[TARGET_CHARACTER.GetShortUIName]寻求和解时羞辱了[TARGET_CHARACTER.GetHerHim]。"
+ nemesis_spurned_reconciliation_at_wedding_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]在[CHARACTER.GetShortUIName]寻求和解时羞辱了[CHARACTER.GetHerHim]。"
+
+ soulmate_dreadful_for_me:0 "[CHARACTER.GetShortUIName|U]会做出可怕的事来保护[TARGET_CHARACTER.GetShortUIName]的安全"
+ soulmate_dreadful_for_me_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]会做出可怕的事来保护[CHARACTER.GetShortUIName]的安全"
+ lover_dreadful_for_me:0 "$soulmate_dreadful_for_me$"
+ lover_dreadful_for_me_corresponding:0 "$soulmate_dreadful_for_me_corresponding$"
+
+ friend_wedding_saved_from_beasts:0 "[CHARACTER.GetShortUIName|U]在一场婚宴上拯救[TARGET_CHARACTER.GetShortUIName]免受一些逃跑野兽的伤害。"
+
+ soulmate_married_my_lover:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在结婚前就是情人，而婚姻强化了他们的爱情。"
+
+ rival_tournament_brawl:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]在一场比武大会上发生争吵后成为了仇敌"
+ rival_tournament_brawl_corresponding:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在一场比武大会上发生争吵后成为了仇敌"
+
+ friend_tournament_drink_shared:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]在一场比武大会上一起喝酒后成为了朋友"
+ friend_tournament_drink_shared_corresponding:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在一场比武大会上一起喝酒后成为了朋友"
+
+ rival_tournament_blocked:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]在比武大会上因为观赛位置发生争吵后成了仇敌"
+ rival_tournament_blocked_corresponding:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在比武大会上因为观赛位置发生争吵后成了仇敌"
+
+ friend_tournament_let_through:0 "在被允许从前排观看比武大会比赛后，[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]成了朋友"
+ friend_tournament_let_through_corresponding:0 "在被允许从前排观看比武大会比赛后，[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]成了朋友"
+
+ lover_tournament_gossiping:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]在比武大会看台上调情后成了情人"
+ lover_tournament_gossiping_corresponding:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在比武大会看台上调情后成了情人"
+
+ friend_tournament_gossiping:0 "[CHARACTER.GetShortUIName]在比武大会看台上称赞了[TARGET_CHARACTER.GetShortUIName|U]的外貌后，[TARGET_CHARACTER.GetHerHis]和[CHARACTER.GetShortUIName]成为了朋友"
+ friend_tournament_gossiping_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]在比武大会看台上称赞了[CHARACTER.GetShortUIName|U]的外貌后，[CHARACTER.GetHerHis]和[TARGET_CHARACTER.GetShortUIName]成为了朋友"
+
+ lover_tournament_stand_flirt:0 "[CHARACTER.GetShortUIName]在比武大会看台上称赞了[TARGET_CHARACTER.GetShortUIName|U]的外貌后，[TARGET_CHARACTER.GetHerHis]和[CHARACTER.GetShortUIName]成为了情人"
+ lover_tournament_stand_flirt_corresponding:0 "[TARGET_CHARACTER.GetShortUIName]在比武大会看台上称赞了[CHARACTER.GetShortUIName|U]的外貌后，[CHARACTER.GetHerHis]和[TARGET_CHARACTER.GetShortUIName]成为了情人"
+ 
+ friend_hunt_gifted_eyas:0 "[CHARACTER.GetShortUIName|U]赠予[TARGET_CHARACTER.GetShortUIName]一只猛禽雏鸟"
+ friend_hunt_gifted_eyas_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]被[CHARACTER.GetShortUIName]赠予一只猛禽雏鸟"
+
+ friend_gave_hunt_trophy_reason:0 "[CHARACTER.GetShortUIName|U]赠予[TARGET_CHARACTER.GetShortUIName]一件狩猎战利品"
+ friend_gave_hunt_trophy_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]被[CHARACTER.GetShortUIName]赠予一件狩猎战利品"
+
+ friend_mocked_heathen_together:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]因他们对其他信仰的蔑视缔结了情谊"
+ friend_rebuffed_heathen:0 "[CHARACTER.GetShortUIName|U]在[TARGET_CHARACTER.GetShortUIName]面对不信者的蔑视时为其辩护"
+ friend_rebuffed_heathen_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在面对不信者的蔑视时得到了[TARGET_CHARACTER.GetShortUIName]的辩护"
+
+ friend_naked_together:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]一起公开裸体"
+
+ friend_bonded_during_tournament:0 "[CHARACTER.GetShortUIName|U]在比武大会期间与[TARGET_CHARACTER.GetShortUIName]缔结了友谊"
+ friend_bonded_during_tournament_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在比武大会期间与[CHARACTER.GetShortUIName]缔结了友谊"
+
+ friend_prayed_for_me:0 "[CHARACTER.GetShortUIName|U]为[TARGET_CHARACTER.GetShortUIName]祈祷"
+ friend_prayed_for_me_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]为[CHARACTER.GetShortUIName]祈祷"
+
+ rival_traumatic_childhood:0 "[CHARACTER.GetShortUIName|U]在[TARGET_CHARACTER.GetShortUIName]童年时期对[TARGET_CHARACTER.GetHerHis]造成了伤害"
+ rival_traumatic_childhood_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在[CHARACTER.GetShortUIName]童年时期对[CHARACTER.GetHerHis]造成了伤害"
+
+ friend_disqualified_saboteur:0 "[CHARACTER.GetShortUIName|U]将一名被指控对[TARGET_CHARACTER.GetShortUIName]使阴招的比武大会选手取消比赛资格"
+ friend_disqualified_saboteur_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]指控使阴招的对手被[CHARACTER.GetShortUIName]取消比赛资格"
+ friend_pardoned_saboteur:0 "[CHARACTER.GetShortUIName|U]驳回了关于[TARGET_CHARACTER.GetShortUIName]使阴招的控诉"
+ friend_pardoned_saboteur_corresponding:0 "对[TARGET_CHARACTER.GetShortUIName|U][TARGET_CHARACTER.GetHerHim]使阴招的指控被[CHARACTER.GetShortUIName]驳回了"
+ friend_courtiers_bonded_on_tour:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在君主访问期间缔结了友谊"
+ lover_courtiers_bonded_on_tour:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在君主访问期间度过了激情的一夜"
+ rival_courtiers_friction_on_tour:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在君主访问期间成了不共戴天的敌人"
+
+ friend_duel_recovered:0 "[CHARACTER.GetShortUIName|U]在决斗中允许倒地的[TARGET_CHARACTER.GetShortUIName]爬起来"
+ friend_duel_recovered_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在决斗中倒地后[CHARACTER.GetShortUIName]等待其爬起来"
+
+ rival_wrestling_liar:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]在比武大会的摔跤比赛中因犯规发生争吵后成了仇敌"
+ rival_wrestling_liar_corresponding:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在比武大会的摔跤比赛中因犯规发生争吵后成了仇敌"
+ nemesis_wedding_spread_voices_secret:0 "[TARGET_CHARACTER.GetShortUIName|U]在[CHARACTER.GetShortUINamePossessive]的婚礼上散步令人难堪的言论，还曝光了[CHARACTER.GetHerHis]的秘密"
+ rival_wedding_spread_voices:0 "[TARGET_CHARACTER.GetShortUIName|U]在[CHARACTER.GetShortUINamePossessive]的婚礼上散步令人难堪的言论，因此被赶了出去"
+
+ nemesis_red_coin:0 "[TARGET_CHARACTER.GetShortUIName]将一枚重要的硬币托付给[CHARACTER.GetShortUIName]，但[TARGET_CHARACTER.GetHerHis]的信任被背叛了"
+ nemesis_red_coin_corresponding:0 "[CHARACTER.GetShortUIName]将一枚重要的硬币托付给[TARGET_CHARACTER.GetShortUIName]，但[CHARACTER.GetHerHis]的信任被背叛了"
+
+ rival_dynast_tournament_coercion:0 "[CHARACTER.GetShortUIName|U]拒绝了[TARGET_CHARACTER.GetShortUINamePossessive]退出比武大会的请求"
+ rival_dynast_tournament_coercion_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]拒绝了[CHARACTER.GetShortUIName]退出比武大会的请求"
+
+ lover_tour_storm:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName]在风暴中互相抚慰彼此的身体"
+ lover_tour_storm_insult:0 "[CHARACTER.GetShortUIName|U]严词拒绝了[TARGET_CHARACTER.GetShortUIName]在风暴中的投怀送抱"
+ lover_tour_storm_insult_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]在风暴中的投怀送抱被[CHARACTER.GetShortUIName]严词拒绝了"
+
+ friend_hunt_conversation_impressed:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]因为他们对狩猎的看法缔结了情谊。"
+
+ rival_goh_humiliated_at_feast:0 "[CHARACTER.GetShortUIName|U]在一场本该尊重[TARGET_CHARACTER.GetShortUIName|U]的宴会上讲了关于[TARGET_CHARACTER.GetHerHim]的侮辱性言论，这羞辱了[TARGET_CHARACTER.GetHerHim]。"
+
+ lover_impressed_by_smooth_save:0 "[CHARACTER.GetShortUINamePossessive]顺利解决了困难的局势，迷住了[TARGET_CHARACTER.GetShortUIName|U]。"
+ lover_impressed_by_talk:0 "[TARGET_CHARACTER.GetShortUIName|U]被[CHARACTER.GetShortUINamePossessive]温文尔雅的言论迷住了"
+
+ lover_daring_move:0 "[TARGET_CHARACTER.GetShortUIName|U]对[CHARACTER.GetShortUINamePossessive]大胆的表白和对爱的追求留下了深刻的印象。"
+ rival_kicked_out_priest:0 "[CHARACTER.GetShortUIName|U]因为[CHARACTER.GetShortUIName|U]的宗教指责破坏氛围将其踢出了婚礼。"
+
+ friend_wedding_relation_bond:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在一场家庭婚礼上缔结了情谊。"
+ lover_wedding_relation_bond:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在一场家庭婚礼上一拍即合。"
+ lover_wedding_relation_suitor:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName]在一场家庭婚礼上被人介绍认识后一拍即合。"
+ friend_wedding_help_bond:0 "[CHARACTER.GetShortUIName|U]帮助[TARGET_CHARACTER.GetShortUIName]逃出了婚礼聚会。"
+ friend_wedding_help_bond_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]通过[CHARACTER.GetShortUIName]帮忙逃出了婚礼聚会。"
+
+ friend_supportive_at_wedding:0 "[CHARACTER.GetShortUIName|U]对[TARGET_CHARACTER.GetShortUINamePossessive]在[CHARACTER.GetHerHis]的婚礼上的支持心存感激。"
+ 
+ wedding_impressed_by_smooth_save:0 "[CHARACTER.GetShortUINamePossessive]顺利解决了困难的局势，迷住了[TARGET_CHARACTER.GetShortUIName|U]。"
+ wedding_impressed_by_talk:0 "[TARGET_CHARACTER.GetShortUIName|U]被[CHARACTER.GetShortUINamePossessive]温文尔雅的言论迷住了"
+ lover_love_is_in_the_air:0 "[CHARACTER.GetShortUIName|U]在婚礼上对[TARGET_CHARACTER.GetShortUIName]甜言蜜语。"
+ rival_rubbed_it_in:0 "[CHARACTER.GetShortUIName|U]在婚礼上用[CHARACTER.GetHerHis]家人的运气嘲讽了[TARGET_CHARACTER.GetShortUIName]。"
+ rival_wedding_challenged_prejudices:0 "[CHARACTER.GetShortUIName|U]挑衅式地质疑[TARGET_CHARACTER.GetShortUINamePossessive]对[CHARACTER.GetHerHim]的偏见。"
+ friend_wedding_not_so_bad:0 "[CHARACTER.GetShortUIName|U]说服[TARGET_CHARACTER.GetShortUIName]相信了[CHARACTER.GetHerHis]的优点。"
+ rival_wedding_confirmed_prejudices:0 "[CHARACTER.GetShortUIName|U]通过[CHARACTER.GetHerHis]尴尬的辩护，确认了[TARGET_CHARACTER.GetShortUINamePossessive]对[CHARACTER.GetHerHim]的偏见。"
+ lover_atmospheric_location:0 "[TARGET_CHARACTER.GetShortUIName|U]被[CHARACTER.GetShortUINamePossessive]的陪伴以及婚礼场地的外观迷住了。"
+
+ friend_agreed_favourite:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUINamePossessive]在比武大会上就最有希望获胜的选手达成了一致。"
+ rival_disagreed_favourite:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName|U]在比武大会上因为支持的选手不一致而发生了争吵。"
+
+
+ lover_wedding_trying_hard:0 "[CHARACTER.GetShortUIName|U]向[TARGET_CHARACTER.GetShortUIName|U]承诺会努力让[TARGET_CHARACTER.GetSheHe]喜欢上[CHARACTER.GGetHerHim]。"
+ lover_wedding_saved_from_flames:0 "[CHARACTER.GetShortUIName|U]在婚礼出了问题后将[TARGET_CHARACTER.GetShortUIName|U]从火焰中拯救出来"
+ lover_wedding_seductive_exchange:0 "[CHARACTER.GetShortUIName|U]在一场婚礼上和[TARGET_CHARACTER.GetShortUIName|U]进行了色情的交流。"
+ lover_tour_grounds_orgy:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetShortUIName|U]一起荒淫"
+ lover_tour_grounds_orgy_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName|U]一起荒淫"
+ friend_accepted_tax_increase:0 "[CHARACTER.GetShortUIName|U]接受了[TARGET_CHARACTER.GetShortUINamePossessive|U]提高税赋的要求"
+ friend_accepted_tax_increase_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]接受了[CHARACTER.GetShortUINamePossessive|U]提高税赋的要求"
+ friend_split_profits:0 "[CHARACTER.GetShortUIName|U]将一些额外的利润分给了[TARGET_CHARACTER.GetShortUIName|U]"
+ friend_split_profits_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U]将一些额外的利润分给了[CHARACTER.GetShortUIName|U]"

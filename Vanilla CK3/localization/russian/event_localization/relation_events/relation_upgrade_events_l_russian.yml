@@ -91,7 +91,7 @@
  relation_upgrade.1003.a:0 "[party_root.GetFirstNameNoTooltip], мне казалось, вы уже и не спросите!"
  relation_upgrade.1003.a.tt:0 "[potential_lover.GetFirstNameNoTooltip] будет в восторге"
  relation_upgrade.1003.b:0 "Думаю, лучше нам просто остаться друзьями..."
- relation_upgrade.1003.b.tt_custom_relation:0 "[party_root.GetFirstNameNoTooltip] больше не будет пытаться стать [Select_CString(party_root.IsFemale, 'вашей', 'вашим' )] [Concept( 'lover', Select_CString(party_root.IsFemale, 'любовницей' 'любовником' ))|E]."
+ relation_upgrade.1003.b.tt_custom_relation:0 "[party_root.GetFirstNameNoTooltip] больше не будет пытаться стать [Select_CString(party_root.IsFemale, 'вашей', 'вашим' )] [Concept( 'lover', Select_CString(party_root.IsFemale, 'любовницей', 'любовником' ))|E]."
  relation_upgrade.1003.b.tt:0 "[potential_lover.GetFirstNameNoTooltip] хочет, чтобы мы оставались друзьями"
  relation_upgrade.1003.c:0 "Нет. Сейчас меня не интересуют ухаживания."
  relation_upgrade.1003.c.tt:0 "[potential_lover.GetFirstNameNoTooltip] не отвечает вам"
@@ -173,7 +173,7 @@
  relation_upgrade.2004.a:0 "Было глупо предполагать подобное..."
  
  relation_upgrade.3000.t:0 "Расцветающая ненависть"
- relation_upgrade.3000.desc:0 "[Select_CString(rival_to_be.IsFemale, 'Эта', 'Этот' )] [rival_to_be.Custom('InsultAdjective')] [rival_to_be.Custom('InsultNoun')] [rival_to_be.GetFirstName] приводит меня в жуткую ярость! Неужели [ROOT.GetCharacter.GetFaith.HighGodName] [ROOT.GetCharacter.GetFaith.HighGod.IsFemale, 'прокляла', 'проклял' )] бренную землю, что по ней может бродить [Select_CString(rival_to_be.IsFemale, 'такая', 'такой' )] [rival_to_be.GetFirstNamePossessiveNoTooltip] [rival_to_be.Custom('InsultAdjective')] [rival_to_be.Custom('InsultBehavior')]?! Хотя тут все ясно: просто [rival_to_be.GetSheHe] и [ROOT.GetCharacter.GetFaith.DevilNamePossessive] — родственники. [rival_to_be.GetSheHe|U] хуже вонючего чирья и нашествия саранчи.\n\n#EMP Сама мысль#! о том, что я дышу с [Select_CString(rival_to_be.IsFemale, 'ней', 'ним' )] одним воздухом, невыносима! Нужно что-то делать, нужно действовать.\n\nИначе я просто с ума сойду."
+ relation_upgrade.3000.desc:0 "[Select_CString(rival_to_be.IsFemale, 'Эта', 'Этот' )] [rival_to_be.Custom('InsultAdjective')] [rival_to_be.Custom('InsultNoun')] [rival_to_be.GetFirstName] и [Select_CString(rival_to_be.IsFemale, 'её', 'его' )] [rival_to_be.Custom('InsultBehavior')] приводят меня в жуткую ярость! Чем мы так прогневали [ROOT.GetCharacter.GetFaith.HighGodNamePossessive], что залужили такое проклятие?! Нет никаких сомнений, что [rival_to_be.GetSheHe] — отродье [ROOT.GetCharacter.GetFaith.DevilNamePossessive]. [rival_to_be.GetSheHe|U] хуже вонючего чирья и нашествия саранчи.\n\n#EMP Сама мысль#! о том, что я дышу с [Select_CString(rival_to_be.IsFemale, 'ней', 'ним' )] одним воздухом, невыносима! Нужно что-то делать, нужно действовать.\n\nИначе я просто с ума сойду."
  relation_upgrade.3000.a:0 "Я не успокоюсь, пока [rival_to_be.GetFirstNameNoTooltip] не окажется в могиле..."
  relation_upgrade.3000.b:0 "Нет! Нельзя жить местью!"
  

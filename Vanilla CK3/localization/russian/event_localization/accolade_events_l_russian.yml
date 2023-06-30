@@ -1,0 +1,39 @@
+﻿l_russian:
+
+ acclaimed_opinion:0 "Именитость"
+
+ accolade.0001.notification_high:0 "Ранг акколады значительно повышается"
+ accolade_rank_unlock_notification_tooltip_high:0 "Отныне ранг акколады «[changing_accolade.GetNameNoTooltip]» — [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]\n\n[acclaimed_knight.Custom('FormalComplimentAdjective')|U][Select_CString(acclaimed_knight.IsFemale, 'ая', 'ый' )] [acclaimed_knight.GetShortUINameNoTooltip] обретает новую славу, все [GetPlayer.Custom( 'KnightCulturePluralNoTooltipLowercase' )] страны видят в [Select_CString(acclaimed_knight.IsFemale, 'ней', 'нем' )] пример для подражания."
+ accolade.0001.notification_low:0 "Ранг акколады повышается"
+ accolade_rank_unlock_notification_tooltip_low:0 "Отныне ранг акколады «[changing_accolade.GetNameNoTooltip]» — [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]\n\n[acclaimed_knight.Custom('ComplimentAdjective')|U][Select_CString(acclaimed_knight.IsFemale, 'ая', 'ый' )] [acclaimed_knight.GetShortUINameNoTooltip] занимает заслуженное место, и ваши [GetPlayer.Custom( 'KnightCulturePluralNoTooltipLowercase' )] приветствуют ее в своем кругу."
+
+ accolade.0002.notification_high:0 "Ранг акколады заметно понижается"
+ accolade_rank_loss_notification_tooltip_high:0 "Отныне ранг акколады «[changing_accolade.GetNameNoTooltip]» — [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]\n\nВсе [GetPlayer.Custom( 'KnightCulturePluralNoTooltipLowercase' )] страны спорят, сможет ли [acclaimed_knight.GetShortUINameNoTooltip] вернуть высокий статус, подобающий [acclaimed_knight.GetHerHis] званию."
+ accolade_rank_loss_notification_tooltip_high_dead:0 "Отныне ранг акколады «[changing_accolade.GetNameNoTooltip]» — [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]\n\nТеперь, когда [acclaimed_knight.Custom('FormalComplimentAdjective')][Select_CString(acclaimed_knight.IsFemale, 'ая', 'ый' )] [acclaimed_knight.GetShortUINameNoTooltip] [Select_CString(acclaimed_knight.IsFemale, 'мертва', 'мертв' )], едва ли былая слава [acclaimed_knight.GetHerHis] звания может быть скоро восстановлена."
+ accolade.0002.notification_low:0 "Ранг акколады понижается"
+ accolade_rank_loss_notification_tooltip_low:0 "Отныне ранг акколады «[changing_accolade.GetNameNoTooltip]» — [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]\n\nВремя покажет, сумеет ли [acclaimed_knight.GetShortUINameNoTooltip] восстановить былую славу своего звания."
+ accolade_rank_loss_notification_tooltip_low_dead:0 "Отныне ранг акколады «[changing_accolade.GetNameNoTooltip]» — [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]\n\nТеперь, когда [acclaimed_knight.Custom('ComplimentAdjective')][Select_CString(acclaimed_knight.IsFemale, 'ая', 'ый' )] [acclaimed_knight.GetShortUINameNoTooltip] [Select_CString(acclaimed_knight.IsFemale, 'мертва', 'мертв' )], судьба [acclaimed_knight.GetHerHis] высокого звания лежит в руках [acclaimed_knight.GetHerHis] преемника."
+ accolade.0002.notification_empty:0 "Ранг акколады понижается"
+ accolade_rank_loss_notification_tooltip_empty:0 "[changing_accolade.GetNameNoTooltip] теряет [Concept( 'accolade_rank', 'ранг' )|E]" # [LocEditor:ForFutureBatchExport]
+
+ accolade_rank_loss_notification_tooltip_no_rank:0 "Отныне ранг акколады «[changing_accolade.GetNameNoTooltip]» — [acclaimed_knight.Custom('AccoladeRankFlavorNumber')], а все эффекты потеряны\n\nВремя покажет, сумеет ли [acclaimed_knight.GetShortUINameNoTooltip] восстановить былую славу своего звания."
+ accolade_rank_loss_notification_tooltip_no_rank_dead:0 "Отныне ранг акколады «[changing_accolade.GetNameNoTooltip]» — [acclaimed_knight.Custom('AccoladeRankFlavorNumber')], а все эффекты потеряны\n\nТеперь, когда [acclaimed_knight.Custom('ComplimentAdjective')][Select_CString(acclaimed_knight.IsFemale, 'ая', 'ый' )] [acclaimed_knight.GetShortUINameNoTooltip] [Select_CString(acclaimed_knight.IsFemale, 'мертва', 'мертв' )], судьба [acclaimed_knight.GetHerHis] высокого звания лежит в руках [acclaimed_knight.GetHerHis] преемника."
+ accolade_rank_loss_notification_tooltip_empty_no_rank:0 "[changing_accolade.GetNameNoTooltip] теперь [changing_accolade.Custom('AccoladeRankFlavorNumber')], а все эффекты потеряны"
+
+ accolade.0003.accolade_becomes_idle.tt:0 "Акколада «[dead_accolade.GetNameNoTooltip]» становится неактивной"
+ accolade.0003.accolade_becomes_idle_effects.tt:0 "В отсутствие подходящего именитого рыцаря все эффекты будут потеряны"
+
+ accolade.0004.new_acclaimed_knight.tt:0 "Преемник: [succeeding_accolade.GetNameNoTooltip]"
+ accolade.0004.new_acclaimed_knight_name.tt:0 "[new_acclaimed_knight.GetShortUINameNoTooltip] становится вашим новым [Concept( 'acclaimed_knights', 'именитым рыцарем' )|E]"
+ accolade.glory_loss.tt:0 "Теряет [TopScope.GetValue( 'glory' )|0] славы" # [LocEditor:ForFutureBatchExport]
+
+ accolade.0005.new_acclaimed_knight_new_type.tt:0 "Преемник: [succeeding_accolade.GetNameNoTooltip]"
+ accolade.0005.new_accolade_type.tt:0 "Получает атрибут «[new_secondary.GetNameNoTooltip]»"
+ accolade.0005.new_acclaimed_knight_succeeds.tt:0 "[new_acclaimed_knight.GetShortUINameNoTooltip] становится вашим новым [Concept( 'acclaimed_knights', 'именитым рыцарем' )|E]"
+ accolade.0005.glory_loss.tt:0 "Теряет [TopScope.GetValue( 'glory' )|0] славы" # [LocEditor:ForFutureBatchExport]
+
+ accolade.0007.notification:0 "Преемник акколады найден"
+ accolade_find_successor_notification_tooltip:1 "[chosen_knight.GetUIName], [Select_CString(chosen_knight.IsFemale, 'почтенная', 'почтенный' )] [GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )], присоединяется к вашему двору.\n[chosen_knight.GetSheHe|U] может стать преемником акколады [accolade_in_need.GetName]."
+
+ accolade.0007.notification_fail:0 "Нет достойных преемников акколады"
+ accolade_find_successor_fail_notification_tooltip:0 "Поиск [GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )], достойного стать [accolade_in_need.GetName], не увенчался успехом."

@@ -23,13 +23,13 @@
  major_decisions.1103.opening_kingdoms:0 "He logrado lo que nadie pudo, unir las tierras de [kingdom_1.GetNameNoTierNoTooltip] con las de [kingdom_2.GetNameNoTierNoTooltip] y [kingdom_3.GetNameNoTierNoTooltip]."
  major_decisions.1103.opening:0 "Todos mis vasallos y [ROOT.Char.GetFaith.PriestNeuterPlural] se han reunido por fin en torno a mi trono. Me he ganado este momento ante sus ojos, y lo más importante, a ojos de [ROOT.Char.GetFaith.PantheonTerm]."
  major_decisions.1103.i_am_religious_head:0 "\n\nEs justo que me corone personalmente mientras mis sirvientes, tanto temporales como espirituales, se arrodillan ante mí."
- major_decisions.1103.blessed_by_religious_head:0 "\n\nCuando [religious_figure.GetTitledFirstName] me corona, proclamo mi nuevo imperio. Sirvientes y vasallos han acudido a ser testigos de esto y cuando la proclamación sale de mis labios, todos los poderes de mi país, tanto espirituales como temporales se arrodillan ante mí."
+ major_decisions.1103.blessed_by_religious_head:0 "\n\nCuando [religious_figure.GetTitledFirstName|l] me corona, proclamo mi nuevo imperio. Sirvientes y vasallos han acudido a ser testigos de esto y cuando la proclamación sale de mis labios, todos los poderes de mi país, tanto espirituales como temporales se arrodillan ante mí."
  major_decisions.1103.a:0 "¡[new_title.GetNameNoTierNoTooltip] impera!"
 
  major_decisions.1104.opening:0 "[founder.GetFirstName], nuestr[founder.Custom('ES_OA')] [founder.GetLadyLord] y gobernante, ha convocado a todos los vasallos y [founder.GetFaith.PriestNeuterPlural] del país a su lado. No puedo negar que se ha ganado este momento a ojos de [ROOT.Char.GetFaith.PantheonTerm]."
  major_decisions.1104.i_am_religious_head:0 "\n\nCuando le corono,"
  major_decisions.1104.religious_head_empire:0 "\n\nCuando se corona,"
- major_decisions.1104.blessed_by_religious_head:0 "\n\n\n\nCuando [religious_figure.GetTitledFirstName] corona a [founder.GetTitledFirstName],"
+ major_decisions.1104.blessed_by_religious_head:0 "\n\n\n\nCuando [religious_figure.GetTitledFirstName|l] corona a [founder.GetTitledFirstName|l],"
  major_decisions.1104.end:0 "[founder.GetFirstName] proclama el nacimiento de su nuevo país. Sus sirvientes se inclinan respetuosamente ante [founder.Custom('ES_ElElla')]."
  major_decisions.1104.a:0 "¡[new_title.GetNameNoTierNoTooltip] vivirá para siempre!"
 
@@ -61,7 +61,7 @@
  major_decisions.2002.a:1 "¡Que el conocimiento nos beneficie a todos!"
 
  major_decisions.2011.t:0 "El/Lasabi[new_courtier.Custom('ES_OA')|U]"
- major_decisions.2011.desc:0 "[new_courtier.GetName], un[new_courtier.Custom('ES_XA')] [new_courtier.GetWomanMan] tanto [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('new_courtier') )] como inteligente, me saluda con gracia.\n\n«¡Me he enterado de vuestra nueva Universidad! Sería un honor servir a un[ROOT.Char.Custom.Custom('ES_XA')] [ROOT.Char.GetTitleAsNameNoTooltip] que favorece la erudición de esta manera»."
+ major_decisions.2011.desc:0 "[new_courtier.GetName], un[new_courtier.Custom('ES_XA')] [new_courtier.GetWomanMan] tanto [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('new_courtier') )] como inteligente, me saluda con gracia.\n\n«¡Me he enterado de vuestra nueva universidad! Sería un honor servir a un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleAsNameNoTooltip] que favorece la erudición de esta manera»."
  major_decisions.2011.a:0 "¡Sed bienvenid[new_courtier.Custom('ES_OA')]!"
  major_decisions.2011.b:0 "Aquí no habrá sitio para ti."
 

@@ -18,7 +18,7 @@
 
  suggestion_fabricate_claim_label:0 "Сфабриковать претензию"
  suggestion_fabricate_claim:0 "Предложение: сфабрикуйте претензию на титул [landed_title.GetNameNoTierNoTooltip]"
- suggestion_fabricate_claim_desc:1 "Соседний регион — [landed_title.GetName] — богат и процветает, но вы не можете завоевать его без [casus_belli|El].\n\nВаш [court_chaplain|El] или [realm_priest|El] должен сфабриковать [Concept( 'claim', 'претензию' )|El], чтобы у вас появился законный повод пойти на соседей [Concept( 'war', 'войной' )|El] и отнять лакомый кусок земель!"
+ suggestion_fabricate_claim_desc:1 "Соседний регион — [landed_title.GetName] — богат и процветает, но вы не можете завоевать его без [Concept( 'casus_belli', 'казуса белли' )|E].\n\nВаш [Concept( 'court_chaplain', 'придворный капеллан' )|E] или [Concept( 'realm_priest', 'державный священник' )|E] должен сфабриковать [Concept( 'claim', 'претензию' )|E], чтобы у вас появился законный повод пойти на соседей [Concept( 'war', 'войной' )|E] и отнять лакомый кусок земель!"
  suggestion_fabricate_claim_click:1 "#I Щелкните, чтобы посмотреть титул#!"
 
  suggestion_create_title_label:0 "Создать титул"
@@ -65,5 +65,5 @@
 
  suggestion_create_nation_fracturing_faction:0 "Создайте фракцию за разделение страны"
  suggestion_create_nation_fracturing_faction_label:0 "Предложение: $suggestion_create_nation_fracturing_faction$"
- suggestion_create_nation_fracturing_faction_desc:0 "Бросьте вызов своему [Concept( 'liege', 'сюзерену' )|E] и попытайтесь добиться распада страны, что позволит вам и всем остальным [Concept( 'vassals', 'вассалам' )|E] обрести независимость"
- suggestion_create_nation_fracturing_faction_click:0 "#I Нажмите, чтобы посмотреть фракцию, выступающую против вашего [Concept( 'liege', 'сюзерена' )|E]#!"
+ suggestion_create_nation_fracturing_faction_desc:1 "Бросьте вызов своему [Concept( 'liege', 'сюзерену' )|E] и попытайтесь добиться распада страны, что позволит вам и вашим собратьям-[Concept( 'vassals', 'вассалам' )|E] обрести независимость."
+ suggestion_create_nation_fracturing_faction_click:1 "#I Нажмите, чтобы посмотреть фракции, выступающие против вашего [Concept( 'liege', 'сюзерена' )|E]#!"

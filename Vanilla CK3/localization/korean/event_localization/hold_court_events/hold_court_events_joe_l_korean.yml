@@ -116,7 +116,7 @@
  demand_conversion_tt:0 "[recipient.GetTitledFirstName](와)과 그 식구가 당신의 종교로 개종함"
  # # Royal Service
  hold_court.8050.t:0 "왕실 신하"
- hold_court.8050.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U](이)가 웬 [knight.Custom('GetYoungMiddleAgedOld')] [knight.GetWomanMan]을 하나 데리고 왕좌로 다가왔다. \n\n"영주님!" [vassal.GetSheHe]가 말꼬를 틀었다. "저의 [vassal.Custom2('RelationToMeShort', SCOPE.sC('knight'))] [knight.GetFullName](이)가 영주님의 [ROOT.Char.Custom('MountedWarriorTermPlural')] 수행단에 들어가 섬기는 영예를 누리고 싶다고 합니다. 이 친구에게 자질을 증명할 기회를 베풀어 주십시오!" \n\n"
+ hold_court.8050.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U](이)가 웬 [knight.Custom('GetYoungMiddleAgedOld')] [knight.GetWomanMan]을 하나 데리고 왕좌로 다가왔다. \n\n"영주님!" [vassal.GetSheHe]가 말꼬를 틀었다. "저의 [vassal.Custom2('RelationToMeShort', SCOPE.sC('knight'))] [knight.GetFullName](이)가 영주님의 [ROOT.Char.Custom('MountedWarriorTermPlural')] 종사단에 들어가 섬기는 영예를 누리고 싶다고 합니다. 이 친구에게 자질을 증명할 기회를 베풀어 주십시오!" \n\n"
  hold_court.8050.desc_talented:0 ""이미 [vassal.GetTitleAsNamePossessive] 최고의 결투사 중 하나로 이름을 떨치고 있는 친구입니다. 전장에서 영주님께 더 큰 영광을 안겨드릴 겁니다!" 확실히 맞는 말이다. [knight.GetFirstName]의 실력에 대한 얘기는 나도 들어본 적 있다..."
  hold_court.8050.desc_suitable:0 ""[knight.Custom('SignatureWeaponArticle')] [knight.Custom('signature_weapon')](을)를 능숙하게 잘 다루는 친구입니다. 결정적인 순간에 빛을 발할 겁니다!""
  hold_court.8050.desc_passing:0 " [knight.GetFirstNameNoTooltip](이)가 미약한 미소를 지었다. "비록 평범한 수준의 검사에 지나지 않지만, 영주님을 섬기며 많은 배움을 얻고자 합니다.""
@@ -142,7 +142,7 @@
  hold_court.8051.b.tt_return:0 "[knight.GetFirstNameNoTooltip](이)가 [vassal.GetTitledFirstNamePossessiveNoTooltip] 궁정으로 돌아감"
  # # The Last Straw
  hold_court.8052.t:0 "$hold_court.8050.t$: 마지막 지푸라기"
- hold_court.8052.desc.intro:0 "[knight.GetFirstName](이)가 또다시 내 [ROOT.Char.Custom('MountedWarriorAdjective')] 수행단에서 추방당했다는 소식에, [vassal.GetTitledFirstName](은)는 일분일초도 낭비하지 않고 알현을 요구했다. \n\n"
+ hold_court.8052.desc.intro:0 "[knight.GetFirstName](이)가 또다시 내 [ROOT.Char.Custom('MountedWarriorAdjective')] 종사단에서 추방당했다는 소식에, [vassal.GetTitledFirstName](은)는 일분일초도 낭비하지 않고 알현을 요구했다. \n\n"
  hold_court.8052.desc.wrath:0 "눈이 벌게진 [vassal.GetTitledFirstName](이)가 분통을 터뜨렸다. "제 [vassal.Custom2('RelationToMeShort', SCOPE.sC('knight'))](을)를 이다지도 고약하게 푸대접하시다니요. 영주님의 약조를 믿었건만, 신뢰가 완전히 박살 나버렸습니다!" 이내 [vassal.GetSheHe]가 문을 박차고 나갔다."
  hold_court.8052.desc.fallback:0 "[vassal.GetTitledFirstName](은)는 적나라한 실망감을 표출했다. 나의 행동으로 망신을 당했으니 어련히 짜증이 난 것 같았다."
  hold_court.8052.a:0 "아, 거참 호들갑은!"
@@ -151,7 +151,7 @@
  hold_court.8053.t:0 "$hold_court.8050.t$: 위신의 위기"
  hold_court.8053.desc.intro:0 "[battle_location.GetName]의 [battle_location.Custom('TerrainTypeProvince')]에서 전언이 날아들었다. 보고에 따르면 그곳에서 [knight.GetFirstNameNicknamed](이)가"
  hold_court.8053.killer:0 "[knight.GetKiller.GetName]에게 살해당했다고 한다."
- hold_court.8053.battle:0 "혼란스러운 백병전 도중 살해당했다고 한다."
+ hold_court.8053.battle:0 "혼란스러운 모의전 도중 살해당했다고 한다."
  hold_court.8053.desc_talented:0 "최후의 불꽃을 태웠다고 한다. 그 주변에는 저열한 적의 무수한 시체가 널브러져 있었다는 모양이다."
  hold_court.8053.desc_suitable:0 "접전 끝에 수많은 부상을 감내하면서 많은 적을 처단한 후 쓰러졌다고 한다."
  hold_court.8053.desc_passing:0 "치열한 결투 끝에 살해당했다고 한다. 동료들을 지키려는 영웅심에서 비롯된 행동이었다."
@@ -276,6 +276,7 @@
  court_position_desc_qadi:0 "영주님의 봉역에서 알라의 거룩한 판결이 이뤄지도록 살피는 직무를 맡겨주십시오."
  court_position_desc_garuda:1 "검에 기대여 영주님을 충직하게 섬길 수 있도록 해주십시오. 그 어떤 일이 있어도 말입니다."
  court_position_desc_keeper_of_swans:0 "영주님의 아름다운 상징인 왕실 물새를 보살피는 직무를 맡겨주십시오."
+ court_position_desc_travel_leader:1 "영주님께서 여행을 떠나실 때 길을 안내하겠습니다."
  # Interest
  hold_court_8090_interest_architect:0 "\n\n"염려 마십시오. 훌륭한 건물을 건설하는 것이 제 열망입니다.""
  hold_court_8090_interest_seneschal_administrator:0 "\n\n"안심하십시오. 저보다 행정에 열성적인 사람은 세상에 없을 것입니다.""
@@ -517,7 +518,7 @@
  hold_court.8170.a:0 "그대의 공로를 치하하는 의미에서 [my_title.GetNameNoTierNoTooltip](을)를 내리겠소."
  hold_court.8170.b:0 "그대에게 [vassal_title.GetHolder.GetTitledFirstNamePossessiveNoTooltip] 작위인 [vassal_title.GetNameNoTierNoTooltip](을)를 하사하겠소."
  hold_court.8170.c:0 "참 근사한 [knight.Custom('signature_weapon')](을)를 차고 있구려, [knight.GetFirstNameNoTooltip]..."
- hold_court.8170.d:0 "뒤떨어지는 역량이라. 어디 시험해보도록 할까."
+ hold_court.8170.d:0 "뒤떨어지는 역량이라. 어디 시험해 보도록 할까."
  hold_court.8170.d.tt:0 "[knight.GetTitledFirstName](와)과 [vassal_title.GetHolder.GetTitledFirstName](이)가 [vassal_title.GetNameNoTier](을)를 두고 #V 결투#!를 펼침"
  hold_court.8170.d.tt_knight:0 "[knight.GetTitledFirstName](이)가 결투에서 승리함"
  hold_court.8170.d.tt_vassal:0 "[vassal_title.GetHolder.GetTitledFirstName](이)가 결투에서 승리함"
@@ -681,9 +682,9 @@
  hold_court.8221.desc.assassin_died_bodyguard:0 "[bodyguard.GetFirstName](이)가 번개같이 단검을 쳐내고 대경실색한 [assassin.GetTitledFirstName](을)를 꿰뚫었다. 이후 [bodyguard.GetFirstName](은)는 근심 어린 표정을 지은 채 내게로 고개를 돌렸다."
  hold_court.8221.desc.assassin_kills_bodyguard:0 "[bodyguard.GetTitledFirstName](은)는 기세 좋게 난입했지만, 끝내 양팔을 버둥거리며 암살자에게 참혹하게 난도질당했다! 그래도 시간은 벌어줬으니 다행이라고 해야 할까. [assassin.GetFirstName](은)는 순식간에 다른 경비병들의 공세에 압도당했다."
  # Guard / 2
- hold_court.8221.desc.assassin_died_guards:0 "바닥에 널브러진 [assassin.GetTitledFirstNamePossessive] 생기 없는 표정이 눈앞에 보였다. 내 수행원의 창에 꿰여 죽은 것이다."
+ hold_court.8221.desc.assassin_died_guards:0 "바닥에 널브러진 [assassin.GetTitledFirstNamePossessive] 생기 없는 표정이 눈앞에 보였다. 내 종사의 창에 꿰여 죽은 것이다."
  # Fumble / 3
- hold_court.8221.desc.assassin_died_fumbled:0 "[assassin.GetFirstName](이)가 내 앞에서 그만 발을 헛디뎠다. 탱그랑 소리와 함께 바닥에 단검이 떨어졌고, 궁정 신하들의 비명이 뒤를 이었다. 수행원들이 득달같이 [assassin.GetFirstName]에게 달려들었다..."
+ hold_court.8221.desc.assassin_died_fumbled:0 "[assassin.GetFirstName](이)가 내 앞에서 그만 발을 헛디뎠다. 탱그랑 소리와 함께 바닥에 단검이 떨어졌고, 궁정 신하들의 비명이 뒤를 이었다. 종사단이 득달같이 [assassin.GetFirstName]에게 달려들었다..."
   # Duel / 5
  hold_court.8221.desc.assassin_duel_killed:0 "[assassin.GetFirstName](이)가 어설픈 몸동작으로 달려들었다. 이에 난 옆으로 비켜서서 [assassin.GetHerHis] 손목을 붙잡은 뒤, [assassin.GetFirstName]의 갈비뼈에 검을 찔러 넣었다. 우린 얼굴을 마주 보았다. [assassin.GetFirstName]의 표정이 충격에서 체념으로 물들어갔다."
  hold_court.8221.desc.assassin_duel_disarmed:0 "난 잽싸게 왼쪽으로 몸을 뺐다. [assassin.GetFirstName](이)가 제대로 된 공격을 위해 몸을 과하게 비튼 순간, 그 균형을 무너뜨린 뒤 [assassin.GetHerHis] 손에 단검을 꽂아 넣었다."
@@ -693,7 +694,7 @@
  hold_court.8221.desc.assassin_duel_killed_killed:0 "나는 검을 뽑아 들고 암살자에게 돌진했다. 공격은 서로에게 적중했고, 우린 바닥에 쓰러져 뒤엉킨 진홍빛 덩어리가 되었다."
  hold_court.8221.desc.assassin_duel_wounded_killed:0 "나는 암살자에게 공격을 날렸지만, [assassin.GetSheHe] 몸놀림은 너무 날랬다. 빈틈을 보인 나는 단검에 베여 깊은 자상을 입은 채 바닥에 널브러졌다."
  # Die / 6
- hold_court.8221.desc.assassin_killed_killed:0 "궁정에 비명이 울려 퍼지는 가운데, [assassin.GetFirstName](이)가 잠시 득의양양한 표정을 지었다. 곧이어 내 수행원이 [assassin.GetHerHis] 목을 꿰뚫었다."
+ hold_court.8221.desc.assassin_killed_killed:0 "궁정에 비명이 울려 퍼지는 가운데, [assassin.GetFirstName](이)가 잠시 득의양양한 표정을 지었다. 곧이어 내 종사가 [assassin.GetHerHis] 목을 꿰뚫었다."
  hold_court.8221.desc.assassin_pardoned_accomplice:0 "[successor.GetTitledFirstName](이)가 내 경비병들에게 가만히 있으라는 고함을 내지르며 달려들었다. 정황상 내가 배신을 당한 것 같다..."
  hold_court.8221.desc.assassin_pardoned_heir:1 "경비병들은 그저 불안한 표정을 지을 뿐, [assassin.GetFirstName](이)가 단검을 들고 소리치는 광경을 지켜보기만 했다. "이젠 내가 영주다!""
  hold_court.8221.desc.assassin_accosted_killed:0 "[assassin.GetFirstName](이)가 승리감에 젖어 방심한 찰나, 뒤늦게 달려온 내 경비병들이 재빠르게 [assassin.GetSheHe]를 바닥에 내다 꽂았다."
@@ -760,9 +761,9 @@
  hold_court.8250.c:0 "해결 방법이야 뻔하지!"
  # # The Dancer
  hold_court.8251.t:0 "춤꾼"
- hold_court.8251.desc:0 "[vassal_1.GetTitledFirstName](와)과 [vassal_2.GetTitledFirstName](이)가 왕좌를 향해 성큼성큼 다가왔다. 두 사람의 표정에는 불만이 선명했다. \n\n[vassal_1.GetFirstName](이)가 열불을 냈다. "영주님. 전 본디 [yearn_target.Custom('ComplimentAdjective')] 농노 [yearn_target.GetFirstName](을)를 첩으로 삼으려 했습니다. [yearn_target.GetHerHis] 춤 실력은 [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] 전역에 정평이 나 있죠!"\n\n[vassal_2.GetFirstName](이)가 [vassal_1.GetHerHim]의 말을 끊었다. "저야말로 예전부터 [yearn_target.GetHerHis]의 집안과 협상해 왔습니다! 이 [vassal_1.Custom('InsultAdjective')] [vassal_1.Custom('InsultNoun')](은)는 질투에 눈이 먼 작자입니다!"" # [LocEditor:AwaitingBatchUpdate]
+ hold_court.8251.desc:1 "[vassal_1.GetTitledFirstName](와)과 [vassal_2.GetTitledFirstName](이)가 왕좌를 향해 성큼성큼 다가왔다. 두 사람의 표정에는 불만이 선명했다. \n\n[vassal_1.GetFirstName](이)가 열불을 냈다. "영주님. 전 본디 [yearn_target.Custom('ComplimentAdjective')] 농노 [yearn_target.GetFirstName](을)를 첩으로 삼으려 했습니다. [yearn_target.GetHerHis] 춤 실력은 [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] 전역에 정평이 나 있죠!"\n\n[vassal_2.GetFirstName](이)가 [vassal_1.GetHerHim]의 말을 끊었다. "저야말로 예전부터 [yearn_target.GetHerHis]의 집안과 협상해 왔습니다! 이 [vassal_1.Custom('InsultAdjective')] [vassal_1.Custom('InsultNoun')](은)는 질투에 눈이 먼 작자입니다!""
  hold_court.8251.a:0 "그럼 [vassal_1.GetFirstNameNoTooltip], 그대가 농노를 갖도록 하시오."
- hold_court.8251.b:0 "농노는 [vassal_2.GetFirstNamePossessiveNoTooltip] 첩이 될 것이오." # [LocEditor:AwaitingBatchUpdate]
+ hold_court.8251.b:1 "농노는 [vassal_2.GetFirstNamePossessiveNoTooltip] 첩이 될 것이오."
  hold_court.8251.c:0 "아, 그래! 이름이 [yearn_target.GetFirstNameNoTooltip]인가 그랬지!"
  hold_court.8251.d:0 "흠. #EMP 나야말로#! [yearn_target.GetHerHim]와 결혼할 생각이었소만!"
  hold_court.8251.e:0 "춤꾼? 내가 이런 일에 시간 낭비를 해야겠소?"
@@ -822,3 +823,4 @@
  court_position_qadi:0 "[GetCourtPositionType('chief_qadi_court_position').GetName()]"
  court_position_garuda:0 "[GetCourtPositionType('garuda_court_position').GetName()]"
  court_position_keeper_of_swans:0 "[GetCourtPositionType('keeper_of_swans_court_position').GetName()]"
+ court_position_travel_leader:0 "[GetCourtPositionType('travel_leader_court_position').GetName()]"

@@ -243,23 +243,31 @@
  bg_gametype_pachisi:0 "파치시"
  bg_gametype_hnefatafl:0 "네파타플"
  bg_gametype_tabula:0 "타불라"
+ bg_gametype_go:0 "바둑"
+ bg_gametype_fidchell:0 "핏셸"
  bg_gametype_chess:0 "체스"
 
  bg_gametype_concept_pachisi:1 "[board_game_type_pachisi|E]"
  bg_gametype_concept_hnefatafl:1 "[board_game_type_hnefatafl|E]"
  bg_gametype_concept_tabula:1 "[board_game_type_tabula|E]"
+ bg_gametype_concept_go:0 "[board_game_type_go|E]"
+ bg_gametype_concept_fidchell:0 "[board_game_type_fidchell|E]"
  bg_gametype_concept_chess:1 "[board_game_type_chess|E]"
  bg_gametype_concept_pachisi_dark:0 "[board_game_type_pachisi|B]"
  bg_gametype_concept_hnefatafl_dark:0 "[board_game_type_hnefatafl|B]"
  bg_gametype_concept_tabula_dark:0 "[board_game_type_tabula|B]"
+ bg_gametype_concept_go_dark:0 "[board_game_type_go|B]"
+ bg_gametype_concept_fidchell_dark:0 "[board_game_type_fidchell|B]"
  bg_gametype_concept_chess_dark:0 "[board_game_type_chess|B]"
 
  bg_gamepiece_token:0 "징표"
  bg_gamepiece_counter:0 "역공"
+ bg_gamepiece_stone:0 "돌"
  bg_gamepiece_piece:0 "기물"
 
  bg_gamepiece_tokens:0 "징표"
  bg_gamepiece_counters:0 "역공"
+ bg_gamepiece_stones:0 "돌"
  bg_gamepiece_pieces:0 "기물"
 
  bg_gamedecider_cowrie:0 "조개껍질"
@@ -377,9 +385,9 @@
 
  ##################################################
  # Default Invalidation Toasts
- board_games.0021.trigger_failure.bg_initiator:0 "상황적 여건으로 인해 [bg_defender.GetFirstName](와)과 [bg_attacker.GetFirstName]의 게임이 중단됨"
- board_games.0021.trigger_failure.bg_defender:0 "상황적 여건으로 인해 당신과 [bg_attacker.GetFirstName]의 게임이 중단됨"
- board_games.0021.trigger_failure.bg_attacker:0 "상황적 여건으로 인해 당신과 [bg_defender.GetFirstName]의 게임이 중단됨"
+ board_games.0021.trigger_failure.bg_initiator:0 "상황적 여건으로 인해 [bg_defender.GetFirstName](와)과 [bg_attacker.GetFirstName]의 대국이 중단됨"
+ board_games.0021.trigger_failure.bg_defender:0 "상황적 여건으로 인해 당신과 [bg_attacker.GetFirstName]의 대국이 중단됨"
+ board_games.0021.trigger_failure.bg_attacker:0 "상황적 여건으로 인해 당신과 [bg_defender.GetFirstName]의 대국이 중단됨"
 
  ##################################################
  # Ending Events
@@ -390,7 +398,7 @@
  board_games.0031.desc.intro.02:0 "나는 거만한 미소와 함께 마지막 [SCOPE.Custom('BG_GamePiece')](을)를 판에 두었다."
  board_games.0031.desc.intro.03:0 "우리 둘 모두 [SCOPE.Custom('BG_GamePiece')](으)로 시선이 꽂혔다. 해냈다. 나의 승리다."
 
- board_games.0031.desc.middle.01:0 "이 [SCOPE.Custom('BG_GameType')] 경기는 나의 승리다. 게임의 제왕을 향한 나의 부상에 멋진 1승을 또다시 적립했다."
+ board_games.0031.desc.middle.01:0 "이 [SCOPE.Custom('BG_GameType')] 경기는 나의 승리다. 대국의 제왕을 향한 나의 부상에 멋진 1승을 또다시 적립했다."
  board_games.0031.desc.middle.02:0 "이번에도 나의 우월한 지성이 모든 것을 딛고 섰다."
  board_games.0031.desc.middle.03:0 "오늘 [ROOT.Char.GetFaith.HighGodName]께서 내 승리의 증인이 되어주셨다. 첫 수를 둘 때부터 [ROOT.Char.GetFaith.HighGodName]께서 나를 승자로 만들어 주시리라는 확고한 직감이 들었다."
 
@@ -399,10 +407,10 @@
  board_games.0031.desc.end.03:0 "\n\n[bg_loser.GetFirstName](은)는 울화를 참기 어려울 것이다. 내가 이기고 치욕을 안겨주기까지 했으니까."
 
 
- board_games.0031.a:0 "즐거운 게임이었소!"
+ board_games.0031.a:0 "즐거운 대국이었소!"
  board_games.0031.a.a:0 "아주 훌륭한 경기였소!"
  board_games.0031.b:0 "패배자가 된 소감은 어떠시오?"
- board_games.0031.b.a:0 "고개를 조아려라, 이 [recipient.Custom('InsultNoun')]야!"
+ board_games.0031.b.a:1 "고개를 조아려라, 이 [bg_loser.Custom('InsultNoun')]야!"
  board_games.0031.b.b:0 "#EMP 너무#! 상심하지 마시오. 아무나 나처럼 똑똑해질 순 없으니까."
  board_games.0031.b.progress_towards_rival:0 "[bg_loser.GetTitledFirstName](이)가 사적인 악감정을 품게 됨"
  board_games.0031.c:0 "언제 또 둡시다..."
@@ -448,7 +456,3 @@
  board_games.0102.a:0 "일반적인 게임으로."
  board_games.0102.b:0 "상대가 무조건 승리하는 걸로."
  board_games.0102.c:0 "상대가 무조건 패배하는 걸로."
-
-# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- board_games.0031.desc:0 "나는 승리감에 도취해 포효를 내지르며 벌떡 일어났다. 그리고는 [SCOPE.Custom('BG_GamePiecePlural')](을)를 온 사방에 흩뜨렸다. 이 [SCOPE.Custom('BG_GameType')] 경기는 나의 승리다. 게임의 제왕을 향한 나의 부상에 멋진 1승을 또다시 적립했다.\n\n[bg_loser.GetFirstName](은)는 피폐한 표정으로 자리에 그대로 앉아 고심에 잠긴 자세로 어디서부터 잘못됐는지 헤아리고 있었다."
- board_games.0041.desc:0 "[bg_victor.GetFirstName](이)가 승리감에 취한 채 포효하며 펄쩍 뛰었다.\n\n내... 내가 지다니... 나는 힘이 빠진 손을 무릎께로 툭 떨어뜨렸다.\n\n내 [SCOPE.Custom('BG_GameType')] 실력이 이 정도로 #EMP 형편 없었단 말인가?#!"

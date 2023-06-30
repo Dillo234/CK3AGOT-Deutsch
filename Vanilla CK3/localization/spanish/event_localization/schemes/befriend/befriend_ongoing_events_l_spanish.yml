@@ -13,18 +13,18 @@
  befriend_ongoing.0903.t:0 "Guerra y amistad"
  befriend_ongoing.0903.desc:0 "Ahora que nuestros países están en guerra, mi sueño de magnanimidad y compañerismo con [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] parece imposible, al menos por ahora."
  befriend_ongoing.0903.a:0 "Esperemos que lleguen tiempos mejores."
- befriend_ongoing.0903.a.tt:0 "Terminó la conjura para trabar amistad con [target.GetTitledFirstNameNoTooltip]"
+ befriend_ongoing.0903.a.tt:0 "Terminó la conjura para trabar amistad con [target.GetTitledFirstNameNoTooltip|l]"
 
  befriend_ongoing.1001.t:0 "De respeto a admiración"
  befriend_ongoing.1001.desc.startnormal:0 "Teniendo en cuenta las acciones de mi vida, es natural que los demás me respeten."
  befriend_ongoing.1001.desc.starthumble:0 "Aunque pocas veces lo menciono, tengo algunos logros de los que me enorgullezco."
- befriend_ongoing.1001.desc.end:0 "Estoy convencid[ROOT.Char.Custom('ES_OA')] de que [target.GetTitledFirstName] también ha logrado un par de cosas que [target.GetHerHim] llenan de orgullo.\n\nTal vez debería encargar un pequeño poema comparando nuestras obras, para ilustrar que ambos estamos cortados por el mismo patrón."
+ befriend_ongoing.1001.desc.end:0 "Estoy convencid[ROOT.Char.Custom('ES_OA')] de que [target.GetTitledFirstName|l] también ha logrado un par de cosas que [target.GetHerHim] llenan de orgullo.\n\nTal vez debería encargar un pequeño poema comparando nuestras obras, para ilustrar que ambos estamos cortados por el mismo patrón."
  befriend_ongoing.1001.a:0 "[target.GetSheHe|U] quedará impresionad[target.Custom('ES_OA')] con mis hazañas."
  befriend_ongoing.1001.b:0 "Me centraré en los logros de [target.GetFirstNameNoTooltip]."
  befriend_ongoing.1001.c:0 "¡Quiero que #EMP todos#! se enteren de mi grandeza!"
  
  befriend_ongoing.1002.t:0 "Un gesto de generosidad"
- befriend_ongoing.1002.desc.start:0 "Para favorecer mi deseo de trabar amistad con [target.GetTitledFirstName], debería hacerle un regalo.\n\n"
+ befriend_ongoing.1002.desc.start:0 "Para favorecer mi deseo de trabar amistad con [target.GetTitledFirstName|l], debería hacerle un regalo.\n\n"
  befriend_ongoing.1002.desc.greedy:0 "¡A todo el mundo le encantan los regalos!"
  befriend_ongoing.1002.desc.malicious:0 "A la gente se le manipula fácilmente con baratijas brillantes…"
  befriend_ongoing.1002.desc.benevolent:0 "Dar con el regalo perfecto para alguien demuestra lo mucho que nos importa."
@@ -35,48 +35,48 @@
  befriend_ongoing.1002.c:0 "No, no quiero ir demasiado fuerte."
 
  befriend_ongoing.1003.t:0 "El enemigo de mi enemigo"
- befriend_ongoing.1003.desc:0 "Algo que [target.GetTitledFirstName] y yo compartimos es el odio hacia [rival.GetTitledFirstName].\n\nLevantar una efigie de mi enemig[rival.Custom('ES_OA')] y colgarla de las murallas la próxima vez que [target.GetFirstNameNoTooltip] vuelva a [barony.GetTitledFirstNameNoTier] sería un mensaje contundente."
+ befriend_ongoing.1003.desc:0 "Algo que [target.GetTitledFirstName|l] y yo compartimos es el odio hacia [rival.GetTitledFirstName|l].\n\nLevantar una efigie de mi enemig[rival.Custom('ES_OA')] y colgarla de las murallas la próxima vez que [target.GetFirstNameNoTooltip] vuelva a [barony.GetTitledFirstNameNoTier] sería un mensaje contundente."
  befriend_ongoing.1003.a:0 "¡Y luego prenderle fuego!"
  befriend_ongoing.1003.b:0 "No necesito contrariar más a [rival.GetFirstNameNoTooltip]."
 
  befriend_ongoing.1004.t:0 "El enemigo de mi enemigo"
- befriend_ongoing.1004.desc:1 "En mi última visita a [barony.GetNameNoTooltip] [owner.Custom('ES_DelDela')] [owner.GetTitledFirstName], viví un gran espectáculo al acercarme al/a la [barony.Custom('BaronyTownType')|l]. ¡De sus murallas colgaba una efigie que reconocí inmediatamente como la de nuestr[rival.Custom('ES_OA')] viej[rival.Custom('ES_OA')] enemig[rival.Custom('ES_OA')] común, [rival.GetTitledFirstName]!\n\n[owner.GetFirstNameNoTooltip] me saludó a gritos mientras prendía fuego a «[rival.GetFirstNameNoTooltip]»."
+ befriend_ongoing.1004.desc:1 "En mi última visita a [barony.GetNameNoTooltip] [owner.Custom('ES_DelDela')] [owner.GetTitledFirstName|l], viví un gran espectáculo al acercarme al/a la [barony.Custom('BaronyTownType')|l]. ¡De sus murallas colgaba una efigie que reconocí inmediatamente como la de nuestr[rival.Custom('ES_OA')] viej[rival.Custom('ES_OA')] enemig[rival.Custom('ES_OA')] común, [rival.GetTitledFirstName|l]!\n\n[owner.GetFirstNameNoTooltip] me saludó a gritos mientras prendía fuego a «[rival.GetFirstNameNoTooltip]»."
  befriend_ongoing.1004.a:0 "¡Me alegra ver que pensamos igual sobre [rival.Custom('ES_ElElla')]!"
 
  befriend_ongoing.1005.t:0 "El amigo de mi enemigo"
- befriend_ongoing.1005.desc:1 "El heraldo duda en compartir los rumores.\n\n«Parece que vuestros enemigos, [owner.GetTitledFirstName] y [target.GetTitledFirstName], han quemado una efigie vuestra que colgaba de las murallas de [barony.GetNameNoTooltip], mientras se burlaban de vuestro nombre».\n\nJuntos son diez veces peores de lo eran por separado."
+ befriend_ongoing.1005.desc:1 "El heraldo duda en compartir los rumores.\n\n«Parece que vuestros enemigos, [owner.GetTitledFirstName|l] y [target.GetTitledFirstName|l], han quemado una efigie vuestra que colgaba de las murallas de [barony.GetNameNoTooltip], mientras se burlaban de vuestro nombre».\n\nJuntos son diez veces peores de lo eran por separado."
  befriend_ongoing.1005.a:0 "Sabía que tenía buenas razones para odiarlos."
  
  befriend_ongoing.2001.t:0 "El calor de la amistad "
- befriend_ongoing.2001.desc:0 "¡Pensé que tendría que esforzarme para gustarle [target.Custom('ES_AlAla')] [target.GetTitledFirstName] pero resultó que era la persona más simpática que he conocido nunca!\n\n[target.GetFirstNameNoTooltip] me ha dicho que en su corazón siempre hay sitio para nuevas amistades."
+ befriend_ongoing.2001.desc:0 "¡Pensé que tendría que esforzarme para gustarle [target.Custom('ES_AlAla')] [target.GetTitledFirstName|l] pero resultó que era la persona más simpática que he conocido nunca!\n\n[target.GetFirstNameNoTooltip] me ha dicho que en su corazón siempre hay sitio para nuevas amistades."
  befriend_ongoing.2001.a:0 "Excelente. Dejaré que venga a mí."
  befriend_ongoing.2001.b:0 "¡No diré que no a esa clase de invitación!"
  
  befriend_ongoing.3001.t:0 "Un eslabón de la cadena"
- befriend_ongoing.3001.desc:0 "[befriend_envoy.GetTitledFirstName], quien me está ayudando en mi intento de acercarme [target.Custom('ES_AlAla')] [target.GetTitledFirstName], se ha ofrecido a actuar como enviado entre ambos. [befriend_envoy.Custom('ES_ElElla')|U] cree que me puede presentarme de un modo muy positivo."
+ befriend_ongoing.3001.desc:0 "[befriend_envoy.GetTitledFirstName], quien me está ayudando en mi intento de acercarme [target.Custom('ES_AlAla')] [target.GetTitledFirstName|l], se ha ofrecido a actuar como enviado entre ambos. [befriend_envoy.Custom('ES_ElElla')|U] cree que me puede presentarme de un modo muy positivo."
  befriend_ongoing.3001.a:0 "[befriend_envoy.Custom('ES_ElElla')|U] debería acercarse a [target.GetFirstNameNoTooltip] directamente."
  befriend_ongoing.3001.b:0 "Hay demasiado en juego para fiarme de [befriend_envoy.GetFirstNameNoTooltip]."
  befriend_ongoing.3001.tt:0 "#F [befriend_envoy.GetFirstName] buscará audiencia con [target.GetFirstName]#!"
  
  befriend_ongoing.3002.t:0 "Un acuerdo poco común"
- befriend_ongoing.3002.desc:0 "No es extraño que mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('befriend_envoy') )] [befriend_envoy.GetTitledFirstName] solicite una audiencia conmigo, pero sí que lo es su motivo esta vez. ¡Se ha proclamado enviad[befriend_envoy.Custom('ES_OA')] en nombre de la amistad [owner.Custom('ES_DelDela')] [owner.GetTitledFirstName]!"
+ befriend_ongoing.3002.desc:0 "No es extraño que mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('befriend_envoy') )] [befriend_envoy.GetTitledFirstName|l] solicite una audiencia conmigo, pero sí que lo es su motivo esta vez. ¡Se ha proclamado enviad[befriend_envoy.Custom('ES_OA')] en nombre de la amistad [owner.Custom('ES_DelDela')] [owner.GetTitledFirstName|l]!"
  befriend_ongoing.3002.a:0 "Es un poco raro, pero agradezco que me hable de [owner.GetFirstNameNoTooltip]."
  befriend_ongoing.3002.b:0 "¡Ningún súbdito mío actuará como enviado de otra persona!"
 
  befriend_ongoing.3003.t:0 "Informe del enviado"
  befriend_ongoing.3003.accepted_envoy:0 "[befriend_envoy.GetTitledFirstName] me ha traído noticias prometedoras. [target.GetTitledFirstName] [befriend_envoy.GetHerHim] ha recibido calurosamente como «enviad[befriend_envoy.Custom('ES_OA')]» en nombre de mi amistad."
- befriend_ongoing.3003.dismissed_envoy:0 "Sabía que estaba sobrepasando algunos límites al utilizar [befriend_envoy.Custom('ES_AlAla')] mism[befriend_envoy.Custom('ES_OA')] [scheme.GetTarget.Custom2('RelationToMe', SCOPE.sC('befriend_envoy') )] [target.Custom('ES_DelDela')] [target.GetTitledFirstName], pero esperaba que [target.Custom('ES_ElElla')] entendiera la buena fe tras el gesto. Cuánto me equivoqué. No debí haber aceptado nunca el plan de [befriend_envoy.GetTitledFirstName]…"
+ befriend_ongoing.3003.dismissed_envoy:0 "Sabía que estaba sobrepasando algunos límites al utilizar [befriend_envoy.Custom('ES_AlAla')] mism[befriend_envoy.Custom('ES_OA')] [scheme.GetTarget.Custom2('RelationToMe', SCOPE.sC('befriend_envoy') )] [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l], pero esperaba que [target.Custom('ES_ElElla')] entendiera la buena fe tras el gesto. Cuánto me equivoqué. No debí haber aceptado nunca el plan de [befriend_envoy.GetTitledFirstName|l]…"
  befriend_ongoing.3003.a:0 "¡Por nuestra amistad incipiente!"
  befriend_ongoing.3003.b:0 "Tendré que tener más cuidado."
 
  befriend_ongoing.3007.t:0 "Un veredicto de [agent_speaking_highly.GetFaith.DivineRealm|U]"
- befriend_ongoing.3007.desc.conviction:0 "¡Es un milagro! [agent_speaking_highly.GetTitledFirstName] ha tenido una visión de [agent_speaking_highly.GetFaith.HighGodName]. [agent_speaking_highly.GetSheHe|U] me ha asegurado que mi amistad con [target.GetTitledFirstName] es un destino divino."
- befriend_ongoing.3007.desc.doubt:0 "[agent_speaking_highly.GetTitledFirstName] me ha contado una visión de [agent_speaking_highly.GetFaith.HighGodName]. Al parecer, es destino divino que [target.GetTitledFirstName] y yo seamos amigos. Qué interesante."
+ befriend_ongoing.3007.desc.conviction:0 "¡Es un milagro! [agent_speaking_highly.GetTitledFirstName|l] ha tenido una visión de [agent_speaking_highly.GetFaith.HighGodName]. [agent_speaking_highly.GetSheHe|U] me ha asegurado que mi amistad con [target.GetTitledFirstName|l] es un destino divino."
+ befriend_ongoing.3007.desc.doubt:0 "[agent_speaking_highly.GetTitledFirstName] me ha contado una visión de [agent_speaking_highly.GetFaith.HighGodName]. Al parecer, es destino divino que [target.GetTitledFirstName|l] y yo seamos amigos. Qué interesante."
  befriend_ongoing.3007.a:0 "Le contaremos a [target.GetFirstNameNoTooltip] esta visión."
  befriend_ongoing.3007.b:0 "[agent_speaking_highly.GetFirstNameNoTooltip], recemos en agradecimiento."
  
  befriend_ongoing.3009.t:0 "Buenas palabras"
- befriend_ongoing.3009.desc:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] se ha percatado de mi esfuerzo para impresionar [target.Custom('ES_AlAla')] [target.GetTitledFirstName] y me ha hecho una sugerencia.\n\n«Creo que mi [spouse.Custom2('RelationToMe', SCOPE.sC('target'))] le da mucho valor a mi palabra. Podría contarle la excelente opinión que tengo de ti»."
+ befriend_ongoing.3009.desc:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] se ha percatado de mi esfuerzo para impresionar [target.Custom('ES_AlAla')] [target.GetTitledFirstName|l] y me ha hecho una sugerencia.\n\n«Creo que mi [spouse.Custom2('RelationToMe', SCOPE.sC('target'))] le da mucho valor a mi palabra. Podría contarle la excelente opinión que tengo de ti»."
  befriend_ongoing.3009.a:0 "Cariño, por favor, habla bien de mí."
  befriend_ongoing.3009.a.success:0 "[spouse.GetFirstNameNoTooltip] se gana a [target.GetFirstNameNoTooltip] con sus palabras"
  befriend_ongoing.3009.a.failure:0 "[target.GetFirstNameNoTooltip] sigue sin quedar convencid[target.Custom('ES_OA')]"
@@ -84,17 +84,17 @@
  befriend_ongoing.3009.b.tt:0 "No puedo confiar en otros para hacer amigos."
  
  befriend_ongoing.3010.t:0 "Una buena palabra"
- befriend_ongoing.3010.desc:0 "Últimamente, mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] me ha estado hablando mucho de su [spouse.Custom2('RelationToMe', SCOPE.sC('owner'))].\n\nDebo admitir que hace que [owner.GetTitledFirstName] suene merecedor[owner.Custom('ES_EA')] de mi respeto."
+ befriend_ongoing.3010.desc:0 "Últimamente, mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] me ha estado hablando mucho de su [spouse.Custom2('RelationToMe', SCOPE.sC('owner'))].\n\nDebo admitir que hace que [owner.GetTitledFirstName|l] suene merecedor[owner.Custom('ES_EA')] de mi respeto."
  befriend_ongoing.3010.a:0 "Quizás debería conocer[owner.GetHerHim] mejor."
 
- befriend_ongoing.3011.desc:0 "«[target.GetTitledFirstName] parece más interesad[target.Custom('ES_OA')] en conocerte ahora», me dice mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))]. ¡Parece que su plan funcionó a la perfección!"
+ befriend_ongoing.3011.desc:0 "«[target.GetTitledFirstName|l] parece más interesad[target.Custom('ES_OA')] en conocerte ahora», me dice mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))]. ¡Parece que su plan funcionó a la perfección!"
  befriend_ongoing.3011.a:0 "Siempre puedo confiar en ti, [spouse.GetFirstNameNoTooltip]."
 
- befriend_ongoing.3012.desc:0 "«Siento decir que, pese a mis esfuerzos, mi [spouse.Custom2('RelationToMe', SCOPE.sC('target'))] sigue sin estar convencid[target.Custom('ES_XA')] contigo», me cuenta [spouse.GetTitledFirstName]. Parece que su plan no era tan bueno al final."
+ befriend_ongoing.3012.desc:0 "«Siento decir que, pese a mis esfuerzos, mi [spouse.Custom2('RelationToMe', SCOPE.sC('target'))] sigue sin estar convencid[target.Custom('ES_XA')] contigo», me cuenta [spouse.GetTitledFirstName|l]. Parece que su plan no era tan bueno al final."
  befriend_ongoing.3012.a:0 "¿Por qué me fío de los demás?"
 
  befriend_ongoing.3014.t:0 "Una reputación incómoda"
- befriend_ongoing.3014.desc:0 "Creo que [owner.GetTitledFirstName] se muestra extrañamente amable conmigo de un tiempo a esta parte. Sin embargo, cuando se lo conté a su [owner.Custom2('RelationToMe', SCOPE.sC('spouse'))], mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] [spouse.GetFirstName], se mofó.\n\n«[owner.GetFirstNameNoTooltip] no se merece tu amistad. Te voy a contar cómo es [owner.Custom('ES_ElElla')] en realidad…»."
+ befriend_ongoing.3014.desc:0 "Creo que [owner.GetTitledFirstName|l] se muestra extrañamente amable conmigo de un tiempo a esta parte. Sin embargo, cuando se lo conté a su [owner.Custom2('RelationToMe', SCOPE.sC('spouse'))], mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] [spouse.GetFirstName], se mofó.\n\n«[owner.GetFirstNameNoTooltip] no se merece tu amistad. Te voy a contar cómo es [owner.Custom('ES_ElElla')] en realidad…»."
  befriend_ongoing.3014.a:0 "¿Quién puede saberlo mejor?"
 
  befriend_ongoing.3015.t:0 "¡Injurias!"
@@ -102,7 +102,7 @@
  befriend_ongoing.3015.a:0 "¿Cómo pudiste hacerme esto?"
 
  befriend_ongoing.4000.t:0 "Quienes conocemos la guerra"
- befriend_ongoing.4000.desc:0 "Estoy intentando trabar amistad con [target.GetTitledFirstName]. Sé que es un[target.Custom('ES_XA')] estudiante entregad[target.Custom('ES_OA')] al estudio de los asuntos militares, como yo. Seguro que tenemos mucho de lo que hablar."
+ befriend_ongoing.4000.desc:0 "Estoy intentando trabar amistad con [target.GetTitledFirstName|l]. Sé que es un[target.Custom('ES_XA')] estudiante entregad[target.Custom('ES_OA')] al estudio de los asuntos militares, como yo. Seguro que tenemos mucho de lo que hablar."
  befriend_ongoing.4000.a:0 "Me acercaré a [target.Custom('ES_ElElla')]."
  befriend_ongoing.4000.a.tt:0 "#F Nuestros intereses comunes nos acercan#!"
  
@@ -117,7 +117,7 @@
  befriend_ongoing.4004.b:0 "Decepcionante."
 
  befriend_ongoing.4010.t:0 "Los soles gemelos"
- befriend_ongoing.4010.desc:1 "Cuando pregunto a otros sobre [target.GetTitledFirstName], me hablan de su ingenio, su encanto y la facilidad natural con la que domina cualquier reunión social. Parece que tenemos algo en común."
+ befriend_ongoing.4010.desc:1 "Cuando pregunto a otros sobre [target.GetTitledFirstName|l], me hablan de su ingenio, su encanto y la facilidad natural con la que domina cualquier reunión social. Parece que tenemos algo en común."
  befriend_ongoing.4010.a:0 "¡Dos soles juntos brillarán el triple!"
  
  befriend_ongoing.4012.t:0 "Los soles gemelos"
@@ -125,13 +125,13 @@
  befriend_ongoing.4012.a:0 "¡Y tiene razón!"
  befriend_ongoing.4012.b:0 "En realidad [owner.Custom('ES_ElElla')] no es tan interesante como se cree."
 
- befriend_ongoing.4014.a.desc:0 "Invito [target.Custom('ES_AlAla')] [target.GetTitledFirstName] a encontramos en una reunión social. Lo pasamos muy bien, así como los demás. Fue agradable ver cómo todo el evento comenzó a girar en torno a nuestra conversación al cabo de solo unos minutos."
+ befriend_ongoing.4014.a.desc:0 "Invito [target.Custom('ES_AlAla')] [target.GetTitledFirstName|l] a encontramos en una reunión social. Lo pasamos muy bien, así como los demás. Fue agradable ver cómo todo el evento comenzó a girar en torno a nuestra conversación al cabo de solo unos minutos."
  befriend_ongoing.4014.b.desc:0 "[target.GetTitledFirstName] utilizó sus considerables habilidades sociales con gran efecto para responder de forma desdeñosa y cruel a mi invitación, con indirectas y rumores de conocidos mutuos."
  befriend_ongoing.4014.a:0 "¡Como las moscas a la miel!"
  befriend_ongoing.4014.b:0 "Me siento tan impresionad[ROOT.Char.Custom('ES_OA')] como ofendid[ROOT.Char.Custom('ES_OA')]."
 
  befriend_ongoing.4020.t:0 "Nada que discutir"
- befriend_ongoing.4020.desc:0 "Me he dado cuenta de que [target.GetTitledFirstName] tiene prácticamente la misma disposición que yo, pues entiende y aprecia la importancia de mantener nuestras cuentas en orden."
+ befriend_ongoing.4020.desc:0 "Me he dado cuenta de que [target.GetTitledFirstName|l] tiene prácticamente la misma disposición que yo, pues entiende y aprecia la importancia de mantener nuestras cuentas en orden."
  befriend_ongoing.4020.a:0 "¿Conoce el número cero? ¡Debo descubrirlo!"
  
  befriend_ongoing.4022.t:0 "Nada que discutir"
@@ -145,7 +145,7 @@
  befriend_ongoing.4024.b:0 "Pero mi decepción es infinita."
 
  befriend_ongoing.4030.t:0 "El baile de los conspiradores"
- befriend_ongoing.4030.desc:0 "Dicen que [target.GetTitledFirstName] expert[target.Custom('ES_OA')] en tejemanejes y manipulaciones. Tal vez debería acercarme a [target.Custom('ES_ElElla')] para conversar y averiguar si es un punto sobre el que podamos establecer algún vínculo."
+ befriend_ongoing.4030.desc:0 "Dicen que [target.GetTitledFirstName|l] expert[target.Custom('ES_OA')] en tejemanejes y manipulaciones. Tal vez debería acercarme a [target.Custom('ES_ElElla')] para conversar y averiguar si es un punto sobre el que podamos establecer algún vínculo."
  befriend_ongoing.4030.a:0 "Lo haré, indirectamente y con astucia."
  
  befriend_ongoing.4032.t:0 "El baile de los conspiradores"
@@ -173,7 +173,7 @@
  befriend_ongoing.4044.b:0 "Qué decepción."
 
  befriend_ongoing.4050.t:0 "Cajas de yesca"
- befriend_ongoing.4050.desc:0 "Se rumorea que [target.GetTitledFirstName] es, como yo, un[target.Custom('ES_XA')] expert[target.Custom('ES_OA')] en incitar los fuegos del arrebato amoroso en otros. Me parece que deberíamos vernos y comparar notas."
+ befriend_ongoing.4050.desc:0 "Se rumorea que [target.GetTitledFirstName|l] es, como yo, un[target.Custom('ES_XA')] expert[target.Custom('ES_OA')] en incitar los fuegos del arrebato amoroso en otros. Me parece que deberíamos vernos y comparar notas."
  befriend_ongoing.4050.a:0 "¿Guardará una lista de sus conquistas?"
   
  befriend_ongoing.4052.t:0 "Cajas de yesca"
@@ -188,7 +188,7 @@
  befriend_ongoing.4054.b:0 "¡Ja! ¡La envidia es una bestia desagradable!"
 
  befriend_ongoing.4060.t:0 "Espadas igualadas"
- befriend_ongoing.4060.desc:0 "La gente habla de la considerable habilidad que despliega [target.GetTitledFirstName] con una espada en la mano. Dicen que poca gente logra mantenerse firme más de unos segundos bajo su ataque."
+ befriend_ongoing.4060.desc:0 "La gente habla de la considerable habilidad que despliega [target.GetTitledFirstName|l] con una espada en la mano. Dicen que poca gente logra mantenerse firme más de unos segundos bajo su ataque."
  befriend_ongoing.4060.a:0 "¡Deberíamos quedar y practicar!"
   
  befriend_ongoing.4062.t:0 "Espadas igualadas"
@@ -230,7 +230,7 @@
  befriend_ongoing.4084.b:0 "Pues parece que me libré por los pelos."
 
  befriend_ongoing.4090.t:0 "Una sinfonía de dolor"
- befriend_ongoing.4090.desc:0 "Tengo entendido que [target.GetTitledFirstName] es, como yo, un[target.Custom('ES_XA')] estudiante entregad[target.Custom('ES_OA')] a las delicadas artes del dolor y la extorsión. Sería interesante reunirse con [target.GetSheHe] y discutir métodos y aplicaciones."
+ befriend_ongoing.4090.desc:0 "Tengo entendido que [target.GetTitledFirstName|l] es, como yo, un[target.Custom('ES_XA')] estudiante entregad[target.Custom('ES_OA')] a las delicadas artes del dolor y la extorsión. Sería interesante reunirse con [target.GetSheHe] y discutir métodos y aplicaciones."
  befriend_ongoing.4090.a:0 "Necesitaremos herramientas y sujetos, por supuesto."
   
  befriend_ongoing.4092.t:0 "Una sinfonía de dolor"
@@ -244,17 +244,17 @@
  befriend_ongoing.4094.b:0 "Sería un placer mostrarle exactamente lo toscos que son…"
 
  befriend_ongoing.4100.t:0 "El enemigo de mi enemigo"
- befriend_ongoing.4100.desc:0 "La guerra genera tanta violencia como oportunidades para la gloria. También crea lazos entre quienes luchan en el mismo bando. \n\nParece que [befriend_ongoing_4100_text_scope.GetTitledFirstName] y yo hemos encontrado un interés común en nuestra lucha contra [befriend_ongoing_4100_enemy.GetTitledFirstName]."
+ befriend_ongoing.4100.desc:0 "La guerra genera tanta violencia como oportunidades para la gloria. También crea lazos entre quienes luchan en el mismo bando. \n\nParece que [befriend_ongoing_4100_text_scope.GetTitledFirstName|l] y yo hemos encontrado un interés común en nuestra lucha contra [befriend_ongoing_4100_enemy.GetTitledFirstName|l]."
  befriend_ongoing.4100.a:0 "La guerra forjará amistades."
 
  befriend_ongoing.4110.t:0 "Metas comunes"
- befriend_ongoing.4110.desc:0 "Al compartir con [befriend_ongoing_4110_text_scope.GetTitledFirstName] la misma facción, he descubierto que se acaban formando vínculos entre quienes tienen en común una meta a largo plazo."
+ befriend_ongoing.4110.desc:0 "Al compartir con [befriend_ongoing_4110_text_scope.GetTitledFirstName|l] la misma facción, he descubierto que se acaban formando vínculos entre quienes tienen en común una meta a largo plazo."
  befriend_ongoing.4110.a:0 "Que todos prosperemos."
 
  befriend_ongoing.4300.t:0 "Espectáculo del patíbulo"
  befriend_ongoing.4300.a:0 "Se hará justicia. Habrá justicia y miedo."
  befriend_ongoing.4300.b:0 "Debe haber otra manera."
- befriend_ongoing.4300.desc:0 "Entiendo que [target.GetTitledFirstName] gobierna, al igual que yo, con una justicia temible. Debería invitar[target.GetHerHim] a sentarse a mi lado en la próxima ejecución pública."
+ befriend_ongoing.4300.desc:0 "Entiendo que [target.GetTitledFirstName|l] gobierna, al igual que yo, con una justicia temible. Debería invitar[target.GetHerHim] a sentarse a mi lado en la próxima ejecución pública."
  befriend_ongoing.4300.a.tt:0 "#F Enviadle una carta#!"
 
  befriend_ongoing.4302.t:0 "Invitación a una ejecución"
@@ -276,33 +276,33 @@
  befriend_ongoing.4304.f:0 "¡Matadlos a todos!"
 
  befriend_ongoing.5001.t:0 "Cínicos y fanáticos"
- befriend_ongoing.5001.desc:0 "Mis esfuerzos para disminuir la tensión entre [target.GetTitledFirstName] y yo se ven dificultados por el hecho de que [target.Custom('ES_ElElla')] sigue condenando mi falta de piedad. Sus intentos por persuadirme no me ayudan…"
+ befriend_ongoing.5001.desc:0 "Mis esfuerzos para disminuir la tensión entre [target.GetTitledFirstName|l] y yo se ven dificultados por el hecho de que [target.Custom('ES_ElElla')] sigue condenando mi falta de piedad. Sus intentos por persuadirme no me ayudan…"
  befriend_ongoing.5001.a:0 "Visitaré algún lugar de culto si eso agrada a [target.GetFirstNameNoTooltip]."
  befriend_ongoing.5001.b:0 "Encontraremos algo en lo que estar de acuerdo."
  
  befriend_ongoing.5002.t:0 "Una cuestión de confianza"
- befriend_ongoing.5002.desc:0 "¡Sería mucho más fácil gustarle más [target.Custom('ES_AlAla')] [target.GetTitledFirstName] si creyera en mi honestidad! Se nota que [target.Custom('ES_ElElla')] duda de mi sinceridad cuando me da respuestas vagas y se abstrae de la conversación…"
+ befriend_ongoing.5002.desc:0 "¡Sería mucho más fácil gustarle más [target.Custom('ES_AlAla')] [target.GetTitledFirstName|l] si creyera en mi honestidad! Se nota que [target.Custom('ES_ElElla')] duda de mi sinceridad cuando me da respuestas vagas y se abstrae de la conversación…"
  befriend_ongoing.5002.a:0 "Seré insistente, pero nunca miento sobre quién soy."
  befriend_ongoing.5002.b:0 "Por desgracia, las mentiras son más convincentes que la verdad."
  
  befriend_ongoing.5003.t:0 "Una nube oscura en un día soleado"
- befriend_ongoing.5003.desc:0 "¡Lo único que quiero es que [target.GetTitledFirstName] sienta la alegría de estar con otras personas! Sin embargo, cuanto más lo intento, más se aparta de mí. Ahora [target.Custom('ES_ElElla')] apenas sale de sus aposentos…"
+ befriend_ongoing.5003.desc:0 "¡Lo único que quiero es que [target.GetTitledFirstName|l] sienta la alegría de estar con otras personas! Sin embargo, cuanto más lo intento, más se aparta de mí. Ahora [target.Custom('ES_ElElla')] apenas sale de sus aposentos…"
  befriend_ongoing.5003.c:0 "Prestaré atención e intentaré ser comprensiv[ROOT.Char.Custom('ES_OA')]."
  befriend_ongoing.5003.a:0 "¡[target.Custom('ES_ElElla')|U] tiene que poner de su parte!"
  befriend_ongoing.5003.b:0 "Si espacio es lo que quiere, se lo daré."
  
  befriend_ongoing.5004.t:0 "No de su gusto"
- befriend_ongoing.5004.desc:0 "Nada me anima más que un [ROOT.Char.Custom('FavoriteTreat')]. Como prueba de mis buenas intenciones, envié [target.Custom('ES_AlAla')] [target.GetTitledFirstName] una ración preparada por mi cocinero personal. \n\nSin embargo, el detalle resultó ser un desastre, ya que [target.Custom('ES_ElElla')] hizo que un sirviente lo tirara sin siquiera probarlo…"
+ befriend_ongoing.5004.desc:0 "Nada me anima más que un [ROOT.Char.Custom('FavoriteTreat')]. Como prueba de mis buenas intenciones, envié [target.Custom('ES_AlAla')] [target.GetTitledFirstName|l] una ración preparada por mi cocinero personal. \n\nSin embargo, el detalle resultó ser un desastre, ya que [target.Custom('ES_ElElla')] hizo que un sirviente lo tirara sin siquiera probarlo…"
  befriend_ongoing.5004.a:0 "Me disculparé por mis excesos."
  befriend_ongoing.5004.b:0 "¡Qué [target.Custom('InsultNoun')] desagradecid[target.Custom('ES_OA')]!"
  
  befriend_ongoing.5005.t:0 "Llamada a la acción"
- befriend_ongoing.5005.desc:0 "Estoy intentando que [target.GetTitledFirstName] me entienda mejor, pero solo consigo entender[target.Custom('ES_LoLa')] cada vez menos. ¿Cuál es su motivación, dónde está su ambición? Parece que no le importa que no cambie nada."
+ befriend_ongoing.5005.desc:0 "Estoy intentando que [target.GetTitledFirstName|l] me entienda mejor, pero solo consigo entender[target.Custom('ES_LoLa')] cada vez menos. ¿Cuál es su motivación, dónde está su ambición? Parece que no le importa que no cambie nada."
  befriend_ongoing.5005.a:0 "Puede que no esté de acuerdo, pero puedo aceptarlo."
  befriend_ongoing.5005.b:0 "¿Merece la pena siquiera conocer a una persona así?"
 
  befriend_ongoing.5006.t:0 "Cerrando los vacíos"
- befriend_ongoing.5006.desc:0 "He estado buscando y buscando, pero parece que [target.GetTitledFirstName] y yo no tenemos nada en común.\n\n¿Cómo voy a empezar siquiera a fraguar una amistad sin un terreno común?"
+ befriend_ongoing.5006.desc:0 "He estado buscando y buscando, pero parece que [target.GetTitledFirstName|l] y yo no tenemos nada en común.\n\n¿Cómo voy a empezar siquiera a fraguar una amistad sin un terreno común?"
  befriend_ongoing.5006.a:0 "Con esfuerzo llegaré a entender[target.GetHerHim]."
  befriend_ongoing.5006.b:0 "Seguramente al final acabe surgiendo algo."
 
@@ -321,57 +321,57 @@
  befriend_ongoing.6001.t:0 "Libertad y simpatía"
 
  befriend_ongoing.6002.t:0 "Libertad y simpatía"
- befriend_ongoing.6002.desc:0 "[owner.GetTitledFirstName] ha sido extrañamente agradable conmigo de un tiempo a esta parte.\n\nSi este cambio de tono indica un cambio de personalidad, igual puedo convencer[owner.Custom('ES_LoLa')] de que libere a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))], [prisoner.GetTitledFirstName] de su cautiverio, ¿no?"
+ befriend_ongoing.6002.desc:0 "[owner.GetTitledFirstName] ha sido extrañamente agradable conmigo de un tiempo a esta parte.\n\nSi este cambio de tono indica un cambio de personalidad, igual puedo convencer[owner.Custom('ES_LoLa')] de que libere a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))], [prisoner.GetTitledFirstName|l] de su cautiverio, ¿no?"
  befriend_ongoing.6002.a:0 "Si quiere ser mi amig[owner.Custom('ES_OA')] de verdad…"
  befriend_ongoing.6002.a.tt:0 "Si [owner.GetFirstNameNoTooltip] acepta:"
  befriend_ongoing.6002.b:0 "[prisoner.GetFirstNameNoTooltip] puede esperar un poco más."
  befriend_ongoing.6002.b.tt:0 "#F [owner.GetFirstNameNoTooltip] se [prisoner.GetHerHim] puede quedar#!"
 
- befriend_ongoing.6004.desc:1 "Interpretando mi reciente simpatía como una señal, [target.GetTitledFirstName] ha venido verme para interesarse por uno de mis prisioneros.\n\n«Me placería mucho que liberarais a mi [target.Custom2('RelationToMe', SCOPE.sC('prisoner'))], [prisoner.GetTitledFirstName], de su [prisoner.Custom('PrisonTypeCell')]», dice, [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('target'))]."
+ befriend_ongoing.6004.desc:1 "Interpretando mi reciente simpatía como una señal, [target.GetTitledFirstName|l] ha venido verme para interesarse por uno de mis prisioneros.\n\n«Me placería mucho que liberarais a mi [target.Custom2('RelationToMe', SCOPE.sC('prisoner'))], [prisoner.GetTitledFirstName|l], de su [prisoner.Custom('PrisonTypeCell')]», dice, [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('target'))]."
  befriend_ongoing.6004.a:0 "Un modo burdo de congraciarme con [target.GetFirstNameNoTooltip]."
  befriend_ongoing.6004.b:0 "No, pero puedo hacer que esté más cómod[prisoner.Custom('ES_OA')]."
  befriend_ongoing.6004.c:0 "¿Liberar a [prisoner.GetFirstNameNoTooltip]? ¡Jamás!"
 
- befriend_ongoing.6005.desc:0 "¡[owner.GetTitledFirstName] ha tenido clemencia con mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))]! [prisoner.GetTitledFirstName] está por fin a salvo."
+ befriend_ongoing.6005.desc:0 "¡[owner.GetTitledFirstName] ha tenido clemencia con mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))]! [prisoner.GetTitledFirstName|l] está por fin a salvo."
  befriend_ongoing.6005.a:0 "Bienvenid[prisoner.Custom('ES_OA')]."
 
- befriend_ongoing.6006.desc:0 "Pese a su pretensiones de amistad, [owner.GetTitledFirstName] se ha negado a liberar a [prisoner.GetFirstNameNoTooltip]."
+ befriend_ongoing.6006.desc:0 "Pese a su pretensiones de amistad, [owner.GetTitledFirstName|l] se ha negado a liberar a [prisoner.GetFirstNameNoTooltip]."
  befriend_ongoing.6006.a:0 "Hay otros modos, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))] mí[prisoner.Custom('ES_OA')]."
 
- befriend_ongoing.6007.desc:0 "Aunque [owner.GetTitledFirstName] pasó mucho tiempo explicando por qué, lamentablemente no puede liberar a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))]. Al menos [prisoner.GetTitledFirstName] ha sido trasladad[prisoner.Custom('ES_OA')] a unos aposentos mucho más cómodos."
+ befriend_ongoing.6007.desc:0 "Aunque [owner.GetTitledFirstName|l] pasó mucho tiempo explicando por qué, lamentablemente no puede liberar a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))]. Al menos [prisoner.GetTitledFirstName|l] ha sido trasladad[prisoner.Custom('ES_OA')] a unos aposentos mucho más cómodos."
  befriend_ongoing.6007.a:0 "Un día volverás a ser libre, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))]."
 
- befriend_ongoing.6008.desc:0 "¡Parece que [owner.GetTitledFirstName] me ha liberado de mi cautiverio gracias a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], [target.GetTitledFirstName]!"
+ befriend_ongoing.6008.desc:0 "¡Parece que [owner.GetTitledFirstName|l] me ha liberado de mi cautiverio gracias a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], [target.GetTitledFirstName|l]!"
  befriend_ongoing.6008.a:0 "No puedo agradecéroslo lo suficiente, [target.GetFirstNameNoTooltip]."
 
  befriend_ongoing.6009.t:0 "Buena voluntad"
- befriend_ongoing.6009.desc:0 "Una promesa de compromiso sería un mensaje llamativo sobre mis buenas intenciones para con [target.GetTitledFirstName].\n\nTodo el mundo agradece un apoyo fuerte."
+ befriend_ongoing.6009.desc:0 "Una promesa de compromiso sería un mensaje llamativo sobre mis buenas intenciones para con [target.GetTitledFirstName|l].\n\nTodo el mundo agradece un apoyo fuerte."
  befriend_ongoing.6009.a:0 "¡La promesa será oficial y ceremoniosa!"
  befriend_ongoing.6009.b:0 "Asegurémonos de que [target.Custom('ES_ElElla')] recuerde la promesa todos los días."
  befriend_ongoing.6009.c:0 "Mejor evitar cosas así."
  befriend_ongoing.6009.c.tt:0 "#F No tendré ninguna clase de deuda#!"
 
  befriend_ongoing.6010.t:0 "Buena voluntad"
- befriend_ongoing.6010.desc:0 "Para mi sorpresa, se me ha acercado mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetTitledFirstName] con la promesa de que me proporcionará todo lo que necesite."
+ befriend_ongoing.6010.desc:0 "Para mi sorpresa, se me ha acercado mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetTitledFirstName|l] con la promesa de que me proporcionará todo lo que necesite."
  befriend_ongoing.6010.a:0 "¿Y qué saca [owner.Custom('ES_ElElla')] con esta promesa?"
 
- befriend_ongoing.6011.desc:0 "Aunque [target.GetTitledFirstName] me debe un favor importante, sería mejor dar énfasis a una amistad equilibrada.\n\nY [target.Custom('ES_ElElla')] también (no cabe duda) quedaría inmensamente agradecid[target.Custom('ES_OA')] si dejo claro que no espero que me devuelva el favor."
+ befriend_ongoing.6011.desc:0 "Aunque [target.GetTitledFirstName|l] me debe un favor importante, sería mejor dar énfasis a una amistad equilibrada.\n\nY [target.Custom('ES_ElElla')] también (no cabe duda) quedaría inmensamente agradecid[target.Custom('ES_OA')] si dejo claro que no espero que me devuelva el favor."
  befriend_ongoing.6011.a:0 "Los amigos dan voluntariamente, no por obligación."
  befriend_ongoing.6011.b:0 "¿Y el favor que me debe no puede ser solo amistad eterna?"
  befriend_ongoing.6011.b.tt:0 "#F Al parecer, la amistad no funciona así#!"
 
- befriend_ongoing.6012.desc:0 "Desde que se hizo la promesa, he estado nervios[ROOT.Char.Custom('ES_OA')] por lo que [owner.GetTitledFirstName] podría requerir como pago por el favor que le debo. Sin embargo, [owner.Custom('ES_ElElla')] me ha hecho saber ahora que considerará mi deuda pagada, siempre y cuando piense en [owner.GetSheHe] favorablemente."
+ befriend_ongoing.6012.desc:0 "Desde que se hizo la promesa, he estado nervios[ROOT.Char.Custom('ES_OA')] por lo que [owner.GetTitledFirstName|l] podría requerir como pago por el favor que le debo. Sin embargo, [owner.Custom('ES_ElElla')] me ha hecho saber ahora que considerará mi deuda pagada, siempre y cuando piense en [owner.GetSheHe] favorablemente."
  befriend_ongoing.6012.a:0 "¿Qué espera sacar de esto?"
 
- befriend_ongoing.6013.desc:0 "Se ve que hay una cierta desavenencia entre [target.GetTitledFirstName] y yo causada por el pequeño detalle de que [target.GetHerHim] estoy chantajeando.\n\nPor supuesto, podría abandonar mi trabajo para que [target.GetSheHe] sepa que mis intenciones son buenas, en última instancia."
+ befriend_ongoing.6013.desc:0 "Se ve que hay una cierta desavenencia entre [target.GetTitledFirstName|l] y yo causada por el pequeño detalle de que [target.GetHerHim] estoy chantajeando.\n\nPor supuesto, podría abandonar mi trabajo para que [target.GetSheHe] sepa que mis intenciones son buenas, en última instancia."
  befriend_ongoing.6013.a:0 "La amistad siempre será más poderosa que la extorsión."
  befriend_ongoing.6013.b:0 "¡No puedo renunciar a mi única ventaja!"
 
- befriend_ongoing.6014.desc:0 "¡Qué alivio más inmenso! [owner.GetTitledFirstName] ha jurado solemnemente, por todo lo que es sagrado que dejará de chantajearme.\n\nNo sé qué puede deberse, pero siento que por fin puedo volver a respirar."
+ befriend_ongoing.6014.desc:0 "¡Qué alivio más inmenso! [owner.GetTitledFirstName|l] ha jurado solemnemente, por todo lo que es sagrado que dejará de chantajearme.\n\nNo sé qué puede deberse, pero siento que por fin puedo volver a respirar."
  befriend_ongoing.6014.a:0 "¡Gracias a [ROOT.Char.GetFaith.HighGodNameAlternate]!"
 
  befriend_ongoing.6015.t:0 "Ofreciendo consuelo"
- befriend_ongoing.6015.opening:0 "Mis esfuerzos por acercarme [target.Custom('ES_AlAla')] [target.GetTitledFirstName] han sido difíciles, en gran medida por la presión con la que tiene que lidiar [target.Custom('ES_ElElla')].\n\nQuizás debería asegurarme de que tenga un día libre para [target.Custom('ES_ElElla')] y así pueda…"
+ befriend_ongoing.6015.opening:0 "Mis esfuerzos por acercarme [target.Custom('ES_AlAla')] [target.GetTitledFirstName|l] han sido difíciles, en gran medida por la presión con la que tiene que lidiar [target.Custom('ES_ElElla')].\n\nQuizás debería asegurarme de que tenga un día libre para [target.Custom('ES_ElElla')] y así pueda…"
  befriend_ongoing.6015.malicious:0 "pasar el rato en la campiña, riéndose de la suciedad y torpeza de los campesinos."
  befriend_ongoing.6015.benevolent:0 "repartir donaciones caritativas a casas de beneficencia… o a nobles menos afortunados."
  befriend_ongoing.6015.dominant:0 "salir a cabalgar con una patrulla militar para asegurarse de que mantienen el orden como es debido."
@@ -384,7 +384,7 @@
  befriend_ongoing.6015.b:0 "Ya tengo bastantes problemas con los que lidiar."
 
  befriend_ongoing.6016.t:0 "Ofreciendo consuelo"
- befriend_ongoing.6016.opening:0 "Para mi sorpresa, [owner.GetTitledFirstName] se ha comunicado con mis consejeros para que tenga un día para mí mism[ROOT.Char.Custom('ES_OA')] y me quite algo de presión.\n\nAl final, sigo la sugerencia [owner.Custom('ES_DelDela')] [owner.GetFirstName] en persona y"
+ befriend_ongoing.6016.opening:0 "Para mi sorpresa, [owner.GetTitledFirstName|l] se ha comunicado con mis consejeros para que tenga un día para mí mism[ROOT.Char.Custom('ES_OA')] y me quite algo de presión.\n\nAl final, sigo la sugerencia [owner.Custom('ES_DelDela')] [owner.GetFirstName] en persona y"
  befriend_ongoing.6016.malicious:0 "cabalgo por los campos, entreteniéndome con la escandalosa suciedad y torpeza de los campesinos."
  befriend_ongoing.6016.benevolent:0 "reparto donaciones a casas de beneficencia y a nobles menos afortunados."
  befriend_ongoing.6016.dominant:0 "cabalgo con una patrulla militar, cabalgo directamente del orden en mi señorío."
@@ -396,17 +396,17 @@
  befriend_ongoing.6016.a:0 "Necesitaba esto."
 
  befriend_ongoing.6017.t:0 "Desarrollos amistosos"
- befriend_ongoing.6017.desc:1 "Hay muchas diferencias entre [target.GetTitledFirstName] y yo. Una de ellas es el estado algo lamentable del [county.GetNameNoTooltip].\n\nSin embargo, algunos de los métodos que empleamos en [owner_county.GetNameNoTooltip] también podrían ser útiles en [county.GetNameNoTooltip]. [target.GetFirstNameNoTooltip] ha dejado claro que un proyecto de desarrollo del terreno con una buena financiación sería muy bien recibido…"
+ befriend_ongoing.6017.desc:1 "Hay muchas diferencias entre [target.GetTitledFirstName|l] y yo. Una de ellas es el estado algo lamentable del [county.GetNameNoTooltip].\n\nSin embargo, algunos de los métodos que empleamos en [owner_county.GetNameNoTooltip] también podrían ser útiles en [county.GetNameNoTooltip]. [target.GetFirstNameNoTooltip] ha dejado claro que un proyecto de desarrollo del terreno con una buena financiación sería muy bien recibido…"
  befriend_ongoing.6017.a:0 "¡Un plan brillante!"
  befriend_ongoing.6017.b:0 "Aunque la amistad de [target.GetFirstNameNoTooltip] vale su peso en oro…"
  befriend_ongoing.6017.b.tt:0 "#F … no pesa tanto.#!"
 
  befriend_ongoing.6018.t:0 "Desarrollos amistosos"
- befriend_ongoing.6018.desc:1 "¡Mis sutiles indirectas han tenido efecto y [owner.GetTitledFirstName] ha financiado nada menos que un proyecto de irrigación a gran escala en mi [county.GetNameNoTooltip]!\n\nQuizás sea pasarse de la raya en muchos aspectos, pero [county.GetNameNoTooltip] podría tener más riqueza que nunca con las técnicas empleadas en [owner_county.GetNameNoTooltip]."
+ befriend_ongoing.6018.desc:1 "¡Mis sutiles indirectas han tenido efecto y [owner.GetTitledFirstName|l] ha financiado nada menos que un proyecto de irrigación a gran escala en mi [county.GetNameNoTooltip]!\n\nQuizás sea pasarse de la raya en muchos aspectos, pero [county.GetNameNoTooltip] podría tener más riqueza que nunca con las técnicas empleadas en [owner_county.GetNameNoTooltip]."
  befriend_ongoing.6018.a:0 "¡Poco convencional, pero desde luego, le doy la bienvenida!"
 
  befriend_ongoing.6019.t:0 "Conversación intrigante"
- befriend_ongoing.6019.desc:0 "Estoy hablando de [ROOT.Char.custom('education_conversation_subject')] con mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target') )] [target.GetTitledFirstName] y mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('opinion_target') )] [opinion_target.GetTitledFirstName] cuando me doy cuenta de que [target.GetFirstNameNoTooltip] está completamente perdid[target.Custom('ES_OA')] en lo que respecta al tema…\n\nTrato con todas mis fuerzas de no dejar[target.GetHerHim] como un[target.Custom('ES_XA')] idiota, pero me quedo helad[ROOT.Char.Custom('ES_OA')] cuando [opinion_target.GetTitledFirstNameNoTooltip] nos pide que le expliquemos una cosa."
+ befriend_ongoing.6019.desc:0 "Estoy hablando de [ROOT.Char.Custom('education_conversation_subject')] con mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target') )] [target.GetTitledFirstName|l] y mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('opinion_target') )] [opinion_target.GetTitledFirstName|l] cuando me doy cuenta de que [target.GetFirstNameNoTooltip] está completamente perdid[target.Custom('ES_OA')] en lo que respecta al tema…\n\nTrato con todas mis fuerzas de no dejar[target.GetHerHim] como un[target.Custom('ES_XA')] idiota, pero me quedo helad[ROOT.Char.Custom('ES_OA')] cuando [opinion_target.GetTitledFirstNameNoTooltip|l] nos pide que le expliquemos una cosa."
  befriend_ongoing.6019.a:0 "¡Debería explicarlo [target.GetFirstNameNoTooltip], tiene una visión muy nítida!"
  befriend_ongoing.6019.b:0 "Ahora, escuchadme…"
  befriend_ongoing.6019.c:0 "¡Creo que esto se solventaría mejor con una discusión en grupo!"
@@ -417,7 +417,7 @@
  befriend_ongoing.9001.b:0 "Me temo que no es el momento adecuado…"
 
  befriend_ongoing.9100.t:0 "Dificultando relaciones"
- befriend_ongoing.9100.desc:0 "¡Acabo de recibir las noticias más inquietantes! Mi [scoped_rival.Custom('InsultAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_rival'))], [scoped_rival.GetTitledFirstName], le ha contado falsos rumores sobre mí a [target.GetFirstName], afirmando que mi deseo de ganarme su confianza no es más que un cínico intento de aprovecharme de [target.GetSheHe]."
+ befriend_ongoing.9100.desc:0 "¡Acabo de recibir las noticias más inquietantes! Mi [scoped_rival.Custom('InsultAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_rival'))], [scoped_rival.GetTitledFirstName|l], le ha contado falsos rumores sobre mí a [target.GetFirstName], afirmando que mi deseo de ganarme su confianza no es más que un cínico intento de aprovecharme de [target.GetSheHe]."
  befriend_ongoing.9100.a:0 "¡Absurdo! Nadie creerá semejantes mentiras."
  befriend_ongoing.9100.b:0 "¡No permitiré que mancille mi buen nombre!"
  befriend_ongoing.9100.b.success.desc.tt:0 "Persuado a [target.GetFirstNameNoTooltip]"
@@ -426,15 +426,15 @@
  befriend_ongoing.9100.c:0 "Mejor no prestarle ninguna atención."
 
  befriend_ongoing.9101.t:0 "Asistencia amistosa"
- befriend_ongoing.9101.desc:0 "Mi apreciad[scoped_friend.Custom('ES_OA')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('scoped_friend') )] [scoped_friend.GetFirstName] se ha enterado de mi deseo de mejorar mi posición con [target.GetTitledFirstName] y me ha ofrecido su ayuda.\n\nMe asegura que [scoped_friend.Custom('ES_ElElla')] y [target.GetFirstNameNoTooltip] son personas similares. [scoped_friend.GetFirstNameNoTooltip] sabe exactamente lo que necesito hacer para ganarme su confianza."
+ befriend_ongoing.9101.desc:0 "Mi apreciad[scoped_friend.Custom('ES_OA')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('scoped_friend') )] [scoped_friend.GetFirstName] se ha enterado de mi deseo de mejorar mi posición con [target.GetTitledFirstName|l] y me ha ofrecido su ayuda.\n\nMe asegura que [scoped_friend.Custom('ES_ElElla')] y [target.GetFirstNameNoTooltip] son personas similares. [scoped_friend.GetFirstNameNoTooltip] sabe exactamente lo que necesito hacer para ganarme su confianza."
  befriend_ongoing.9101.a:0 "¡Dime, por favor!"
  befriend_ongoing.9101.b:0 "Gracias, pero no necesito ayuda."
  befriend_ongoing.9102.desc:1 "Últimamente, [owner.GetFirstName] solo puede pensar en una cosa. Está totalmente entregad[owner.Custom('ES_OA')] a ganarse la confianza de [target.GetFirstName], así que decidí echarle una mano.\n\n[owner.GetFirstNameNoTooltip] quedó encantad[owner.Custom('ES_OA')] de recibir mi opinión y afirmó que nunca olvidaría mi amable gesto."
  befriend_ongoing.9102.a:0 "¿Para qué están los amigos?"
 
  befriend_ongoing.9103.t:0 "Horribles malentendidos"
- befriend_ongoing.9103.vassal.desc:0 "Esperaba dar una sorpresa [target.Custom('ES_AlAla')] [target.GetTitledFirstName] con una gran fiesta en su honor, pero [target.Custom('ES_ElElla')] decidió no asistir en el último momento.\n\n¡Se ve que pensó que mi sorpresa era, de hecho, parte de un complot para asesinar[target.GetHerHim]!"
- befriend_ongoing.9103.ruler.desc:1 "Hace poco mandé un mensajero a la corte [target.Custom('ES_DelDela')] [target.GetTitledFirstName] para relatar las riquezas y el poderío del [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] con la esperanza ganarme su respeto.\n\nSin embargo, según el informe de este, parece que le di una impresión muy diferente. ¡Piensa que quiero invadir su [target.GetPrimaryTitle.GetNameNoTierNoTooltip] a menos que se someta a mí!"
+ befriend_ongoing.9103.vassal.desc:0 "Esperaba dar una sorpresa [target.Custom('ES_AlAla')] [target.GetTitledFirstName|l] con una gran fiesta en su honor, pero [target.Custom('ES_ElElla')] decidió no asistir en el último momento.\n\n¡Se ve que pensó que mi sorpresa era, de hecho, parte de un complot para asesinar[target.GetHerHim]!"
+ befriend_ongoing.9103.ruler.desc:1 "Hace poco mandé un mensajero a la corte [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l] para relatar las riquezas y el poderío del [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] con la esperanza ganarme su respeto.\n\nSin embargo, según el informe de este, parece que le di una impresión muy diferente. ¡Piensa que quiero invadir su [target.GetPrimaryTitle.GetNameNoTierNoTooltip] a menos que se someta a mí!"
  befriend_ongoing.9103.a:0 "Bueno, si no puedo tener amor…"
  befriend_ongoing.9103.b:0 "Quizás haga falta una disculpa."
 
@@ -445,9 +445,9 @@
  befriend_ongoing.9104.c:0 "¡La sangre de los inocentes mostrará mi convicción!"
  befriend_ongoing.9104.d:0 "¡Mi dolor por el amor [owner.GetFaith.HighGodNamePossessive]!"
  befriend_ongoing.9104.e:0 "¿Y si me sitúo en su altar?"
- befriend_ongoing.9104.e.tt:0 "#F Me uniré [target.Custom('ES_AlAla')] [target.GetTitledFirstName] en santa comunión#!"
+ befriend_ongoing.9104.e.tt:0 "#F Me uniré [target.Custom('ES_AlAla')] [target.GetTitledFirstName|l] en santa comunión#!"
  befriend_ongoing.9104.f:0 "¡Que mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_mate') )] sacie su sed!"
- befriend_ongoing.9104.f.tt:0 "#F [scoped_mate.GetFirstName] intercederá con [target.GetTitledFirstName] en mi nombre#!"
+ befriend_ongoing.9104.f.tt:0 "#F [scoped_mate.GetFirstName] intercederá con [target.GetTitledFirstName|l] en mi nombre#!"
  befriend_ongoing.9104.g:0 "Me entrego al/a la [target.GetFaith.HouseOfWorship|U]."
  befriend_ongoing.9104.h:0 "Dedicaré a mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_monk') )] a una vida de oración."
  befriend_ongoing.9104.z:0 "Pensándolo mejor…"

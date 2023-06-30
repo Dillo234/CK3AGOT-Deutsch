@@ -16,7 +16,7 @@
  bishop.2001.failure.c.desc.tt:0 "[scoped_prisoner.GetFirstName] уходит от моих убийц!"
  bishop.2001.d:0 "Это [Select_CString(scoped_prisoner.IsFemale, 'моя узница', 'мой узник' )], и [scoped_prisoner.GetSheHe] останется в моей темнице!"
  
- bishop.2002.t:0 "[ROOT.Char.GetFaith.GetNameNoTooltip]ая семья"
+ bishop.2002.t:1 "Моя [ROOT.Char.GetFaith.GetNameNoTooltip]ая семья"
  bishop.2002.desc.b:0 "Я поднимаю руку, чтобы [scoped_relative.GetFirstName] [Select_CString(scoped_relative.IsFemale, 'обратила', 'обратил' )] на меня внимание, но [Select_CString(scoped_relative.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_relative'))] лишь кидает на меня смущенный взгляд, а затем стремительно уходит."
  bishop.2002.desc.c:0 "Я осматриваю собравшихся за обеденным столом, пытаясь начать разговор, но все на меня смотрят со смущением и отводят взгляд."
  bishop.2002.desc.a:0 "\n\nМоя собственная семья отвернулась от меня, и всему виной [Select_CString(scoped_bishop.IsFemale, 'эта', 'этот' )] [scoped_bishop.Custom('InsultAdjective')] [scoped_bishop.Custom('InsultNoun')] [scoped_bishop.GetCouncilTitle|l] [scoped_bishop.GetFirstName]. [Select_CString(scoped_bishop.IsFemale, 'Она', 'Он' )] часто нашептывает ложь в уши моим родственникам, когда те обращаются за духовным руководством. Говорит, будто я [Select_CString(ROOT.Char.IsFemale, 'порочная', 'порочный' )] [ROOT.Char.GetTitleTierName|l] и [ROOT.GetCharacter.GetFaith.HighGodName] проклинает наш дом."
@@ -39,3 +39,9 @@
  bishop.2002.everypiousrelative.custom:0 "Все мои благочестивые #L [scoped_bishop.GetFaith.GetName|l]ие#! [family_members|El]"
  bishop.2003.countyunrest.custom:0 "Каждое #L [scoped_bishop.GetFaith.GetName|l]ое#! [county|El] в моем [Concept( 'domain', 'домене' )|E]"
  bishop.2003.everytheocrat.custom:0 "Все #L [scoped_bishop.GetFaith.GetName|l]ие#! [theocratic_vassals|El]"
+ 
+ bishop.2004.t:0 "В глазах фанатика"
+ bishop.2004.desc:0 "My [scoped_bishop.GetCouncilTitle] [scoped_bishop.GetFirstName] в последнее время на каждой службе жалуется на мою «нехватку благочестия».\n\nПо-видимому, [Select_CString(scoped_bishop.IsFemale, 'она', 'он' )] даже называет меня нечестивцем, и мои фанатичные вассалы начинают прислушиваться к [Select_CString(scoped_bishop.IsFemale, 'ней', 'нему' )]..."
+ bishop.2004.theologian:0 "Это ложь и наветы!"
+ bishop.2004.a:0 "Полагаю, «пожертвование от чистого сердца» поможет решить проблему..."
+ bishop.2004.b:0 "Ха! Пусть верят во что хотят."

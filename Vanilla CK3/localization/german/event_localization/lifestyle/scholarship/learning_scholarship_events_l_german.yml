@@ -250,7 +250,7 @@
  learning_scholarship.5004.b.failure:0 "[target_courtier.GetFirstNameNoTooltip] versteht die Textstelle auch nicht"
 
  learning_scholarship.5005.t:0 "$bibliomancy_chain_header$ Es gibt nichts zu fürchten"
- learning_scholarship.5005.desc:0 "Ich habe endlich die geheimnisvolle Textstelle aus meiner heiligen Schrift ([sacred_text.GetName]) durchschaut und fühle mich nun sehr viel weiser. Dank [merchant_mystic.Custom('DE_END_PRO_S_D')] Händler[merchant_mystic.Custom('DE_END_NOU_S_GS_D')] erscheint mir jetzt alles klarer.\n\nDie Angst mag das Bewusstsein töten, doch ich habe mich meiner Angst gestellt."
+ learning_scholarship.5005.desc:0 "Ich habe endlich die geheimnisvolle Textstelle aus meiner heiligen Schrift ([sacred_text.GetName]) durchschaut und fühle mich nun sehr viel weiser. Dank dieses Händlers erscheint mir jetzt alles klarer.\n\nDie Angst mag das Bewusstsein töten, doch ich habe mich meiner Angst gestellt."
  learning_scholarship.5005.a:0 "Ohne Angst sterbe ich nur einmal."
 
  learning_scholarship.5006.t:0 "$bibliomancy_chain_header$ Wachsender Verfolgungswahn"
@@ -297,6 +297,3 @@
  learning_scholarship.6000.k:0 "Lesen und Schreiben sind für diesen Trottel zu hoch!"
  learning_scholarship.6000.k.tt:0 "Man könnte genauso gut eine Ziege Sternkunde lehren wollen!"
  high_learning_custom:1 "Jeder nicht-[GetTrait('compassionate').GetName(GetNullCharacter)]e Vasall mit hoher [learning|E]"
-
-# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- learning_scholarship.6000.insult:0 "[vassals|E] mit hoher [learning|E] erhalten 10 [opinion|E] über Euch"
