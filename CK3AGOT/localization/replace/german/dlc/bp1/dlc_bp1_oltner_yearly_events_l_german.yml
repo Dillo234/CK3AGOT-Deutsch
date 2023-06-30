@@ -20,6 +20,8 @@
  bp1_yearly.4010.desc:0 "„M[ROOT.Char.Custom('DE_ART_IND_N')] lieb[ROOT.Char.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.GetWifeHusband], ich mache mir Sorgen um die Erziehung [Select_CString(child_to_change_guardian.IsFemale, 'unserer Tochter', 'unseres Sohnes')] [child_to_change_guardian.GetFirstName]“, sagt m[parent_that_want_guardian_change.Custom('DE_ART_IND_N')] [parent_that_want_guardian_change.GetWifeHusband] [parent_that_want_guardian_change.GetFirstName] mit besorgter Stimme.\n\n"
  bp1_yearly.4010.desc.root:0 "„Die Wahrheit ist … Ihr seid einfach #EMP zu beschäftigt#!, um [child_to_change_guardian.Custom('DE_PRO_PER_S_3P_A')] zu erziehen. "
  bp1_yearly.4010.desc.other:0 "„[current_guardian.GetFirstName] ist kein guter Vormund. [current_guardian.Custom('DE_PRO_PER_S_3P_N')|U] ist einfach zu … #EMP [current_guardian.Custom('InsultAdjective')|l]!#! "
+ #AGOT Modified, bad scoping
+ #bp1_yearly.4010.desc_end:0 "Our [child_to_change_guardian.Custom('GetDaughterSon')] needs a good, dedicated guardian, someone like my [proposed_guardian.Custom('ComplimentAdjective')] [child_to_change_guardian.Custom2('RelationToMeShort', SCOPE.sC('proposed_guardian'))] [proposed_guardian.GetFirstName]!" [parent_that_want_guardian_change.GetSheHe|U] continues.\n\n"Should I make the arrangements?" [parent_that_want_guardian_change.GetSheHe|U] says, looking at me hopefully."
  bp1_yearly.4010.desc_end:0 "Unser[child_to_change_guardian.Custom('DE_END_PRO_S_N')] [child_to_change_guardian.Custom('GetDaughterSon')] braucht einen guten Vormund, der mit Begeisterung bei der Sache ist. Jemanden wie m[proposed_guardian.Custom('DE_ART_IND_A')] [proposed_guardian.Custom('ComplimentAdjective')][proposed_guardian.Custom('DE_END_ADJ_NUL_S_A')] [parent_that_want_guardian_change.Custom2('RelationToMeShort', SCOPE.sC('proposed_guardian'))] [proposed_guardian.GetFirstName]", fährt [parent_that_want_guardian_change.Custom('DE_PRO_PER_S_3P_N')] fort.\n\n"Soll ich die nötigen Vorbereitungen treffen?", fragt [parent_that_want_guardian_change.Custom('DE_PRO_PER_S_3P_N')] schließlich und sieht mich hoffnungsvoll an."  #Selbst geschrieben/abgetippt
  bp1_yearly.4010.a:0 "Natürlich, [Select_CString(proposed_guardian.IsFemale, 'meine Liebe', 'mein Lieber')]. [proposed_guardian.GetFirstNameNoTooltip] ist die bessere Wahl."
  bp1_yearly.4010.a_effect:0 "Die [education|E] von [child_to_change_guardian.GetFirstName] macht Fortschritte"
@@ -71,3 +73,4 @@
  bp1_yearly.4040.dead:0 "Vielleicht esse ich Euch zu Ehren etwas [ROOT.Char.Custom('FavoriteTreatDemand')]."
  bp1_yearly.4040.family_first:0 "O [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))], ich würde viel lieber einfach nur ein bisschen reden!"
  #XXX: "XXX"
+

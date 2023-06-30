@@ -7,7 +7,7 @@
  trait_aged:0 "Altersblind"
  trait_aged_desc:0 "Das Alter hat diesen Charakter blind zurückgelassen."
  trait_aged_character_desc:0 "Das Alter machte [ROOT.GetCharacter.GetFirstNameNoTooltip] blind."
- 
+
  trait_declared_incapable:0 "Für unfähig erklärt"
  trait_declared_incapable_desc:0 "Da der Rat ihn für regierungsunfähig hält, ist dieser Charakter auf einen Regenten angewiesen, der in seinem Namen herrscht."
  trait_declared_incapable_character_desc:0 "Vom [ROOT.GetCharacter.GetHerHis]em Rat für regierungsunfähig befunden, ist [ROOT.GetCharacter.GetFirstNameNoTooltip] zum Regieren auf einen Regenten angewiesen."
@@ -16,12 +16,12 @@
  trait_mute_desc:0 "Dieser Charakter ist nicht in der Lage, seine Meinung zu äußern, oder überhaupt irgendetwas."
  trait_mute_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist nicht in der Lage, [ROOT.GetCharacter.GetHerHis]e Meinung zu äußern, oder überhaupt irgendetwas."
 
- 
+
  #Fame traits
  trait_black_brother:0 "Schwarzer Bruder"
  trait_black_brother_desc:0 "Dieser Charakter hat das Schwarz angelegt und sich der Nachtwache angeschlossen."
  trait_black_brother_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat das Schwarz angelegt und sich der Nachtwache angeschlossen."
- 
+
  #Faith of the Seven traits
  trait_devoted_male:0 "Heiliger Bruder"
  trait_devoted_female:0 "Heilige Schwester"
@@ -29,14 +29,14 @@
  trait_devoted_faith_of_the_seven_female:0 "Heilige Schwester"
  trait_devoted_faith_of_the_seven_male_desc:0 "Dieser Mann hat ein Armutsgelübde abgelegt und sein Leben dem Dienst an die Sieben gewidmet."
  trait_devoted_faith_of_the_seven_female_desc:0 "Diese Frau hat ein Armutsgelübde abgelegt und sein Leben dem Dienst an die Sieben gewidmet."
- 
+
  trait_septon_male:0 "Septon"
  trait_septon_male_desc:0 "Dieser Charakter hat das Gelübde eines Septons geleistet und den Namen seines Hauses abgelegt."
  trait_septon_male_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat das Gelübde eines Septons geleistet und den Namen seines Hauses abgelegt."
- 
+
  trait_septon_female:0 "Septa"
  trait_septon_female_desc:0 "Dieser Charakter hat das Gelübde eines Septons geleistet und den Namen seines Hauses abgelegt."
- trait_septon_male_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat das Gelübde eines Septons geleistet und den Namen seines Hauses abgelegt."
+ #trait_septon_male_character_desc0:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat das Gelübde eines Septons geleistet und den Namen seines Hauses abgelegt."
 
  trait_septon:0 "Septon"
  trait_septon_desc:0 "Dieser Charakter hat das Gelübde eines Septons geleistet und den Namen seines Hauses abgelegt."
@@ -44,10 +44,10 @@
  trait_high_septon_male:0 "Hoher Septon"
  trait_high_septon_male_desc:0 "Dieser Charakter hat nicht nur das Gelübde eines Septons abgelegt und seinen Hausnamen abgelegt, sondern ist auch der Heiligste der Ergebensten geworden."
  trait_high_septon_male_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat nicht nur das Gelübde eines Septons abgelegt und seinen Hausnamen abgelegt, sondern ist auch der Heiligste der Ergebensten geworden"
- 
+
  trait_high_septon_female:0 "Hohe Septa"
  trait_high_septon_female_desc:0 "Dieser Charakter hat nicht nur das Gelübde eines Septons abgelegt und seinen Hausnamen abgelegt, sondern ist auch der Heiligste der Ergebensten geworden."
- trait_high_septon_male_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat nicht nur das Gelübde eines Septons abgelegt und seinen Hausnamen abgelegt, sondern ist auch der Heiligste der Ergebensten geworden."
+ #trait_high_septon_male_character_desc0:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat nicht nur das Gelübde eines Septons abgelegt und seinen Hausnamen abgelegt, sondern ist auch der Heiligste der Ergebensten geworden."
 
  trait_high_septon:0 "Hoher Septon"
  trait_high_septon_desc:0 "Dieser Charakter hat nicht nur das Gelübde eines Septons abgelegt und seinen Hausnamen abgelegt, sondern ist auch der Heiligste der Ergebensten geworden."
@@ -61,7 +61,7 @@
  trait_nightswatch:0 "Schwarzer Bruder"
  trait_nightswatch_desc:0 "Dieser Charakter hat das Schwarz angelegt und sich der Nachtwache angeschlossen."
  trait_nightswatch_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat das Schwarz angelegt und sich der Nachtwache angeschlossen."
- 
+
  trait_nightswatch_temp:0 "Schwarzer Bruder"
  trait_nightswatch_temp_desc:0 "Dieser Charakter hat das Schwarz angelegt und sich der Nachtwache angeschlossen."
  trait_nightswatch_temp_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat das Schwarz angelegt und sich der Nachtwache angeschlossen."
@@ -69,13 +69,13 @@
  trait_deserter:0 "Deserteur"
  trait_deserter_desc:0 "Dieser Charakter hat die Nachtwache verraten und ist desertiert."
  trait_deserter_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat die Nachtwache verraten und ist desertiert."
- 
+
 
  #Marriage traits
  trait_widowed:0 "Verwitwet"
  trait_widowed_desc:0 "Der Ehepartner dieses Charakters ist gestorben und hinterlässt ihn verwitwet."
  trait_widowed_character_desc:0 "Das Licht in [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Leben ist erloschen und [ROOT.GetCharacter.GetSheHe] muss alleine weiterleben."
- 
+
  trait_refusing_marriage:0 "Verweigert Heirat"
  trait_refusing_marriage_desc:0 "Dieser Charakter weigert sich, einen Ehepartner zu nehmen."
  trait_refusing_marriage_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] weigert sich, einen Ehepartner zu nehmen."
@@ -88,23 +88,23 @@
  trait_rainbow_guard:0 "Regenbogengardist"
  trait_rainbow_guard_desc:0 "Dieser Charakter hat den Regenbogenumhang angelegt und dient in der Regenbogengarde."
  trait_rainbow_guard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat den Regenbogenumhang angelegt und dient in der Regenbogengarde."
- 
+
  #Citadel/Maester traits
-# trait_novice:0 "Novize"
-# trait_novice_desc:0 "Dieser Charakter hat vor kurzem sein Studium an der Zitadelle begonnen."
-# trait_novice_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat vor kurzem [ROOT.GetCharacter.GetHerHis] sein Studium an der Zitadelle begonnen."
- 
-# trait_acolyte:0 "Akolyth"
-# trait_acolyte_desc:0 "Dieser Charakter hat sich sein erstes Kettenglied in der Zitadelle verdient und ist ein Akolyth geworden.."
-# trait_acolyte_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat sich [ROOT.GetCharacter.GetHerHis] erstes Kettenglied in der Zitadelle verdient und ist ein Akolyth geworden."
- 
+# trait_novice:0 "Novice"
+# trait_novice_desc:0 "This character has recently begun their studies at the Citadel."
+# trait_novice_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has recently begun [ROOT.GetCharacter.GetHerHis] studies at the Citadel."
+
+# trait_acolyte:0 "Acolyte"
+# trait_acolyte_desc:0 "This character has earned their first link at the Citadel and become an acolyte."
+# trait_acolyte_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has earned [ROOT.GetCharacter.GetHerHis] first link at the Citadel and become an acolyte."
+
  trait_maester:0 "Maester"
  trait_maester_desc:0 "Dieser Charakter hat seine Ausbildung in der Zitadelle abgeschlossen und ist ein Maester geworden."
  trait_maester_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat[ROOT.GetCharacter.GetHerHis]e Ausbildung in der Zitadelle abgeschlossen und ist ein Maester geworden."
- 
-# trait_archmaester:0 "Erzmaester"
-# trait_archmaester_desc:0 "Als Meister seines Fachs ist dieser Charakter nun ein Erzmaester in der Zitadelle."
-# trait_archmaester_character_desc:0 "Als Meister [ROOT.GetCharacter.GetHerHis] seines Fachs ist [ROOT.GetCharacter.GetFirstNameNoTooltip] nun ein Erzmaester in der Zitadelle."
+
+# trait_archmaester:0 "Archmaester"
+# trait_archmaester_desc:0 "Master of their field of study, this character is now an archmaester in the Citadel."
+# trait_archmaester_character_desc:0 "Master of [ROOT.GetCharacter.GetHerHis] field of study, [ROOT.GetCharacter.GetFirstNameNoTooltip] is now an archmaester in the Citadel."
 
  #Knighthood traits
 
@@ -116,14 +116,14 @@
  trait_knight_unique_desc:0 "Dieser Charakter wurde zum Ritter geschlagen und hat vor den Augen der Götter und Menschen geschworen, diejenigen zu verteidigen, die sich nicht selbst verteidigen können, alle Frauen und Kinder zu beschützen, ihren Hauptmännern, ihrem Lehnsherrn und ihrem König zu gehorchen, tapfer zu kämpfen und alle anderen Aufgaben zu erfüllen, die ihnen auferlegt werden, wie hart oder bescheiden oder gefährlich sie auch sein mögen."
 
  trait_knight_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wurde zum Ritter geschlagen und hat vor den Augen der Götter und Menschen geschworen, diejenigen zu verteidigen, die sich nicht selbst verteidigen können, alle Frauen und Kinder zu beschützen, ihren Hauptmännern, ihrem Lehnsherrn und ihrem König zu gehorchen, tapfer zu kämpfen und alle anderen Aufgaben zu erfüllen, die ihnen auferlegt werden, wie hart oder bescheiden oder gefährlich sie auch sein mögen."
- 
+
  trait_squire:0 "Knappe"
  trait_squire_desc:0 "Ein Knappe ist ein [agot_knight|E] in der Ausbildung. Er dient als Begleiter des Ritters und dient ihm bei all seinen Pflichten."
  trait_squire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] dient als Begleiter eines Ritters, in der Hoffnung, eines Tages selbst ein Ritter zu werden."
  trait_squire_no_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein Ritter in der Ausbildung; doch sein Ritter ist #N gestorben, wodurch sein Fortschritt zum Stillstand kam#!."
  trait_prefers_being_a_squire_desc:0 "Anstatt den Ritterschlag anzustreben, hat [ROOT.GetCharacter.GetFirstNameNoTooltip] erklärt, dass er auf unbestimmte Zeit als Knappe dienen will."
  trait_squire_unique_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein Ritter in der Ausbildung; doch sein Ritter ist #N gestorben, wodurch sein Fortschritt zum Stillstand kam#!."
- 
+
  #Personality Traits
 
  trait_fool:0 "Narr"
@@ -133,35 +133,35 @@
  trait_honorable:0 "Ehrenhaft"
  trait_honorable_desc:0 "Diese Person legt großen Wert auf ihre Moral und versucht, das Richtige zu tun, ungeachtet der Konsequenzen."
  trait_honorable_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] legt großen Wert auf [ROOT.GetCharacter.GetHerHis]e Moral und versucht, das Richtige zu tun, ungeachtet der Konsequenzen."
- 
+
  trait_ruthless:0 "Skrupellos"
  trait_ruthless_desc:0 "Ob seine Absichten nun gut oder böse sind, dieser Charakter wird alle erforderlichen Mittel einsetzen, um sie zu erreichen."
  trait_ruthless_character_desc:0 "Ob seine Absichten nun gut oder böse sind, [ROOT.GetCharacter.GetFirstNameNoTooltip] wird alle erforderlichen Mittel einsetzen, um sie zu erreichen."
- 
+
  trait_authoritative:0 "Gebieterisch"
  trait_authoritative_desc:0 "Dieser Charakter hat eine mächtige Ausstrahlung, die vielen Angst einjagt und andere beeindruckt."
  trait_authoritative_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat eine mächtige Ausstrahlung, die vielen Angst einjagt und andere beeindruckt."
- 
+
  trait_rude:0 "Grob"
  trait_rude_desc:0 "Dieser Charakter spricht unverblümt und lässt die Gefühle anderer außer Acht, um zu sagen, was ihm beliebt."
  trait_rude_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] spricht unverblümt und lässt die Gefühle anderer außer Acht, um zu sagen, was ihm beliebt."
- 
+
  trait_selfish:0 "Selbstsüchtig"
  trait_selfish_desc:0 "Dieser Charakter kümmert sich wenig um die Bedürfnisse anderer und stellt sich selbst in allen Dingen voran."
  trait_selfish_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] kümmert sich wenig um die Bedürfnisse anderer und stellt sich selbst in allen Dingen voran."
- 
+
  trait_fire_obsessed:0 "Feuerbesessen"
  trait_fire_obsessed_desc:0 "Die Macht des Feuers hat diesen Charakter in ihren Bann gezogen, sei es aus spirituellen oder aus weniger ehrenhaften Gründen..."
  trait_fire_obsessed_character_desc:0 "Die Macht des Feuers hat [ROOT.GetCharacter.GetFirstNameNoTooltip] in ihren Bann gezogen, sei es aus spirituellen oder aus weniger ehrenhaften Gründen..."
- 
+
  trait_fashionable:0 "Gestriegelt"
  trait_fashionable_desc:0 "Maßgeschneiderte Gewänder und elegante Schnitte ziehen die Aufmerksamkeit dieses Charakters auf sich - und seines Geldbeutel."
  trait_fashionable_character_desc:0 "Maßgeschneiderte Gewänder und elegante Schnitte ziehen [ROOT.GetCharacter.GetFirstNameNoTooltip]s Aufmerksamkeit auf sich - und seines Geldbeutels"
- 
+
  trait_uncouth:0 "Ungehobelt"
  trait_uncouth_desc:0 "Dieser Charakter schert sich einen Dreck um sein Äußeres und entspricht bei weitem nicht den Ansprüchen der Leute."
  trait_uncouth_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] schert sich nicht um [ROOT.GetCharacter.GetHerHis] Äußeres und entspricht bei weitem nicht den Ansprüchen der Leute."
- 
+
  #Dragon
  trait_dragon:0 "Drache"
  trait_dragon_desc:0 "Dragon Placeholder Desc"
@@ -171,7 +171,7 @@
  trait_dragon_rider:0 "Drachenreiter"
  trait_dragon_rider_desc:0 "Dieser Charakter ist an einen Drachen gebunden und kann ihn reiten."
  trait_dragon_rider_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist an einen Drachen gebunden und kann ihn reiten."
- 
+
  trait_dragon_slayer:0 "Drachentöter"
  trait_dragon_slayer_desc:0 "Dieser Charakter hat die außergewöhnliche Leistung vollbracht, einen Drachen zu töten."
  trait_dragon_slayer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat die außergewöhnliche Leistung vollbracht, einen Drachen zu töten."
@@ -179,7 +179,7 @@
  trait_white_walker:0 "Weißer Wanderer"
  trait_white_walker_desc:0 "Dieser Charakter ist ein furchtloser Weißer Wanderer aus den Legenden."
  trait_white_walker_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein furchtloser Weißer Wanderer aus den Legenden."
- 
+
  trait_undead:0 "Untoter"
  trait_undead_desc:0 "Dieser Charakter wurde von den Toten zurückgebracht und wandelt nun wieder unter den Lebenden."
  trait_undead_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wurde von den Toten zurückgebracht und wandelt nun wieder unter den Lebenden."
@@ -192,30 +192,30 @@
  trait_is_missing:0 "Verschwunden"
  trait_is_missing_desc:0 "Dieser Charakter ist verschwunden und sein Verbleib ist ein Rätsel."
  trait_is_missing_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist verschwunden und sein Verbleib ist ein Rätsel."
- 
+
 #Genetic traits
  trait_the_mark:0 "Das Mal"
  trait_the_mark_desc:0 "Dieser Charakter trägt das Mal, seine Hände sind mit Schwimmhäuten versehen wie die eines Frosches."
  trait_the_mark_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]  trägt das Mal, [ROOT.GetCharacter.GetHerHis] e Hände sind mit Schwimmhäuten versehen wie die eines Frosches."
-  
+
 #Slave traits
  trait_slave:0 "Sklave"
  trait_slave_desc:0 "Dieser Charakter wurde versklavt und ist nunmehr das Eigentum eines anderen."
  trait_slave_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wurde versklavt und ist nunmehr das Eigentum eines anderen."
- 
+
  trait_slave_trader:0 "Sklavenhändler"
  trait_slave_trader_desc:0 "Dieser Charakter betreibt Sklavenhandel, indem er Menschen wie Ware kauft und verkauft."
  trait_slave_trader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] betreibt Sklavenhandel, indem er Menschen wie Ware kauft und verkauft."
- 
+
  trait_slave_owner:0 "Sklavenhalter"
  trait_slave_owner_desc:0 "Dieser Charakter besitzt Sklaven, die er auf dem Markt gekauft, geerbt oder geschenkt bekommen hat."
  trait_slave_owner_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] besitzt Sklaven, die er auf dem Markt gekauft, geerbt oder geschenkt bekommen hat."
- 
+
  trait_liberator:0 "Befreier"
  trait_liberator_desc:0 "Dieser Charakter hat sich der Ausmerzung der Sklaverei verschrieben und ist ein entschiedener Gegner dieser Praxis."
  trait_liberator_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat sich der Ausmerzung der Sklaverei verschrieben und ist ein entschiedener Gegner dieser Praxis."
- 
- 
+
+
  #Supernatural dream traits
 
  trait_greensight:0 "Grünseher" ## Sicher, https://eisundfeuer.fandom.com/de/wiki/Gr%C3%BCnseher - Maester Dillo
@@ -242,20 +242,20 @@
  trait_green_dreams:0 "Grüne Träume" ## Wo ist der Unterschied zwischen dem hier, trait_green_dreams, und trait_greensight in Zeile 220? - Maester Dillo
  trait_green_dreams_desc:0 "Dieser Charakter hat prophetische 'grüne Träume', die ihm hat prophetische 'grüne Träume', die [ROOT.GetCharacter.GetHerHim] einen Blick in die Zukunft erlauben, ob im Guten oder im Schlechten."
  trait_green_dreams_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat prophetische 'grüne Träume', die ihm hat prophetische 'grüne Träume', die [ROOT.GetCharacter.GetHerHim] einen Blick in die Zukunft erlauben, ob im Guten oder im Schlechten."
- 
+
  trait_dragon_dreams:0 "Drachenträume" ## Unsicher - Maester Dillo
  trait_dragon_dreams_desc:0 "Dieser Charakter wird von Vorahnungen und Visionen einer möglichen Zukunft heimgesucht."
  trait_dragon_dreams_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wird von Vorahnungen und Visionen einer möglichen Zukunft heimgesucht."
- 
+
  #Negative physical condition traits
  trait_one_handed:0 "Einhändig"
  trait_one_handed_desc:0 "Dieser Charakter hat lediglich eine Hand verloren."
  trait_one_handed_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat eine Hand verloren."
- 
+
  trait_one_legged:0 "Einbeinig"
  trait_one_legged_desc:0 "Dieser Charakter hat ein Bein verloren."
  trait_one_legged_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat ein Bein verloren."
- 
+
  trait_crippled:0 "Verkrüppelt"
  trait_crippled_desc:0 "Dieser Charakter ist gelähmt und kann den Großteil seines Körpers nicht mehr bewegen."
  trait_crippled_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist gelähmt."
@@ -264,64 +264,64 @@
  trait_dancing_plague:0 "Tanzende Pest"
  trait_dancing_plague_desc:0 "Dieser Charakter leidet an der Tanzenden Pest, er taumelt und dreht sich unkontrolliert in heftigen Zuckungen."
  trait_dancing_plague_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] leidet an der Tanzenden Pest, er taumelt und dreht sich unkontrolliert in heftigen Zuckungen."
- 
+
  trait_greyscale_1:0 "Ergrauende Haut"
  trait_greyscale_1_desc:0 "Dieser Charakter hat an seinem Körper Flecken mit steifer, toter Haut bemerkt, die sich wie Stein anfühlen..."
  trait_greyscale_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat an [ROOT.GetCharacter.GetHerHis]em Körper Flecken mit steifer, toter Haut bemerkt, die sich wie Stein anfühlen..."
- 
+
  trait_greyscale:0 "Grauschuppen"
  trait_greyscale_desc:0 "Dieser Charakter leidet an Grauschuppen. Rissige, schuppige und steinartige Haut bedeckt einen großen Teil seines Körpers."
  trait_greyscale_character_desc:0 "Es ist nun unbestreitbar, dass [ROOT.GetCharacter.GetFirstNameNoTooltip] an Grauschuppen leidet. Rissige, schuppige und steinartige Haut bedeckt einen großen Teil [ROOT.GetCharacter.GetHerHis]es Körpers."
- 
+
  trait_greyscale_2.desc:0 "Dieser Charakter leidet an Grauschuppen. Rissige, schuppige und steinartige Haut bedeckt einen großen Teil seines Körpers."
  trait_greyscale_2_character.desc:0 "Es ist nun unbestreitbar, dass [ROOT.GetCharacter.GetFirstNameNoTooltip] an Grauschuppen leidet. Rissige, schuppige und steinartige Haut bedeckt einen großen Teil [ROOT.GetCharacter.GetHerHis]es Körpers."
 
  trait_greyscale_3:0 "Grauer Wahn"
  trait_greyscale_3_desc:0 "Es ist zu spät, diesen Charakter zu retten. Die Grauschuppen haben ihn zerfressen, und der Verstand hat ihn verlassen. Er ist zu einer Gefahr für sich selbst und alle, die ihn umgeben, geworden."
  trait_greyscale_3_character_desc:0 "Es ist zu spät, [ROOT.GetCharacter.GetFirstNameNoTooltip] zu retten. Die Grauschuppen haben [ROOT.GetCharacter.GetHerHim] zerfressen, und der Verstand hat ihn verlassen. [ROOT.GetCharacter.GetSheHe|U] ist zu einer Gefahr für sich selbst und alle, die [ROOT.GetCharacter.GetFirstNameNoTooltip] umgeben, geworden."\
- 
+
  trait_greyscale_scarred:0 "Grauschuppen-Narben"
  trait_greyscale_scarred_desc:0 "Wie durch ein Wunder ist die Ausbreitung der Grauschuppen dieses Charakters zum Stillstand gekommen. Er trägt noch immer die Narben, aber er ist nicht mehr ansteckend."
  trait_greyscale_scarred_character_desc:0 "Wie durch ein Wunder ist die Ausbreitung von [ROOT.GetCharacter.GetFirstNameNoTooltip]s Grauschuppen zum Stillstand gekommen. [ROOT.GetCharacter.GetSheHe|U] trägt noch immer die Narben, aber [ROOT.GetCharacter.GetSheHe] ist nicht mehr ansteckend."
- 
+
  trait_bloody_flux:0 "Blutfluss"
  trait_bloody_flux_desc:0 "Dieser Charakter wurde vom Blutfluss befallen, der ihn mit Fieber, inneren Blutungen und Durchfall plagt."
  trait_bloody_flux_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wurde vom Blutfluss befallen, der [ROOT.GetCharacter.GetHerHim] mit Fieber, inneren Blutungen und Durchfall plagt."
- 
+
  trait_smallpox:0 "Pocken" #vanilla trait, no need for altered description
- 
+
  trait_red_death:0 "Roter Tod"
  trait_red_death_desc:0 "Dieser Charakter wurde mit dem Roten Tod verflucht. Aus allen Körperöffnungen sickert reichlich Blut und seine Haut zerreißt wie nasses Pergament. Seine letzten Tage in dieser Welt werden qualvoll sein."
  trait_red_death_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wurde mit dem Roten Tod verflucht. Aus allen Körperöffnungen sickert reichlich Blut und [ROOT.GetCharacter.GetHerHis]e Haut zerreißt wie nasses Pergament.; [ROOT.GetCharacter.GetHerHis]e letzten Tage in dieser Welt werden qualvoll sein."
- 
+
  trait_butterfly_fever:0 "Schmetterlingsfieber"
  trait_butterfly_fever_desc:0 "Obwohl es zunächst wie ein Fieber aussah, hat dieser Charakter inzwischen schmerzhafte Krämpfe und schwitzt Blut. Bald wird sein Fleisch von seinen Knochen abfallen und er wird diese Welt verlassen."
  trait_butterfly_fever_character_desc:0 "Obwohl es zunächst wie ein Fieber aussah, hat [ROOT.GetCharacter.GetFirstNameNoTooltip] inzwischen schmerzhafte Krämpfe und schwitzt Blut. Bald wird [ROOT.GetCharacter.GetHerHis] Fleisch von [ROOT.GetCharacter.GetHerHis]en Knochen abfallen und [ROOT.GetCharacter.GetSheHe] wird diese Welt verlassen."
- 
- #trait_food_poisoning:0 "Magenfäule"  ##Lebensmittelvergiftung wäre zu modern. Andere Vorschläge gerne an mich - Maester Dillo
- #trait_food_poisoning_desc:0 "Dieser Charakter hat verunreinigte Nahrung gegessen und leidet nun an ständigen Krämpfen, Übelkeit und Erbrechen."
- #trait_food_poisoning_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hat verunreinigte Nahrung gegessen und leidet nun an ständigen Krämpfen, Übelkeit und Erbrechen."
- 
+
+ #trait_food_poisoning:0 "Food Poisoning"
+ #trait_food_poisoning_desc:0 "This character has eaten contaminated food, and now suffers regular cramps, nausea, and vomiting."
+ #trait_food_poisoning_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has eaten contaminated food, and now suffers regular cramps, nausea, and vomiting."
+
  trait_spring_sickness:0 "Frühlingsseuche" #actual pandemic known as the 'Great Spring Sickness'
  trait_spring_sickness_desc:0 "Dieser Charakter wird von schwarzen Flecken auf der Haut und zahlreichen Blasen heimgesucht; sein Schicksal ist so gut wie besiegelt."
  trait_spring_sickness_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wird von schwarzen Flecken auf der Haut und zahlreichen Blasen heimgesucht; [ROOT.GetCharacter.GetHerHis] Schicksal ist so gut wie besiegelt."
- 
+
  trait_shivers:0 "Zittern"
  trait_shivers_desc:0 "Es begann mit einem leichten Frösteln, doch das Zittern ist unkontrollierbar geworden. Dieser Charakter klappert mit den Zähnen, hat Krämpfe in den Beinen und spuckt Blut, und seine Lippen haben einen merkwürdigen Blauton."
  trait_shivers_character_desc:0 "Es begann mit einem leichten Frösteln, doch das Zittern ist unkontrollierbar geworden. [ROOT.GetCharacter.GetFirstNameNoTooltip]klappert mit den Zähnen, hat Krämpfe in den Beinen und spuckt Blut, und [ROOT.GetCharacter.GetHerHis]e Lippen haben einen merkwürdigen Blauton."
- 
+
  trait_winter_fever:0 "Winterfieber"
  trait_winter_fever_desc:0 "Das Gesicht dieses Charakters ist fieberrot und er zittert heftig. Ein Delirium und kalter Schweiß haben ihn befallen, und es ist nicht sicher, ob er überleben wird."
  trait_winter_fever_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]s Gesicht ist fieberrot und er zittert heftig. Ein Delirium und kalter Schweiß haben [ROOT.GetCharacter.GetHerHim] befallen, und es ist nicht sicher, ob [ROOT.GetCharacter.GetSheHe] überleben wird."
- 
+
  trait_burned:0 "Verbrannt"
  trait_burned_desc:0 "Dieser Charakter wurde mit Verbrennungen übersät und trägt nun ein Leben lang die Narben seines verbrannten Fleisches."
  trait_burned_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wurde mit Verbrennungen übersät und trägt nun ein Leben lang die Narben seines verbrannten Fleisches."
- 
+
  trait_scurvy:0 "Mundfäule"  ## Alter Begriff für Skorbut - Maester Dillo
  trait_scurvy_desc:0 "Dieser Charakter leidet an der Mundfäule, die Müdigkeit, häufige Blutungen und Flecken auf der Haut mit sich bringt. Unbehandelt kann sie zum Verlust der Zähne, zu Fieber und schließlich zum Tod dieses Charakters führen."
  trait_scurvy_character_desc:0 "Ihr leidet an der Mundfäule, die Müdigkeit, häufige Blutungen und Flecken auf der Haut mit sich bringt. Unbehandelt kann sie zum Verlust der Zähne, zu Fieber und schließlich zum Tod führen."
- 
+
  #House customizer traits
  trait_house_customizer:0 "Haus anpassen"
  trait_house_customizer_desc:0 "Ihr könnt diese Eigenschaft nutzen, um Euren erstellten Charakter zu ermöglichen, den Namen und das Wappen eines beliebigen existierenden Hauses oder einer Auswahl von ausgestorbenen Häusern anzunehmen."
@@ -341,7 +341,7 @@
  trait_shade_of_the_evening:0 "Abendschatten"
  trait_shade_of_the_evening_desc:0 "Dieser Charakter trinkt regelmäßig Abendschatten, der seine Lippen blau färbt."
  trait_shade_of_the_evening_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] trinkt regelmäßig Abendschatten, der [ROOT.GetCharacter.GetHerHis]e Lippen blau färbt."
- 
+
  #Iron born priests
  trait_drowned_man:0 "Ertrunkener"
  trait_drowned_man_desc:0 "Ertrunkene sind Akolythen von Priestern des Ertrunkenen Gottes. Die Ertrunkenen tragen grob gewebte Gewänder in den Farben Grün, Grau und Blau, den Farben des Ertrunkenen Gottes. Sie tragen Keulen aus Treibholz, um ihre Hingabe im Kampf zu zeigen, und Schalen mit Salzwasser, um rituelle Salbungen durchzuführen sowie ihren Durst zu stillen."
@@ -392,7 +392,6 @@
  trait_paramour:0 "Konkubine"
  trait_paramour_desc:0 "Dieser Charakter war die Geliebte eines dornischen Adligen."
  trait_paramour_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] war die Geliebte eines dornischen Adligen."
-
 
  agot_pregnancy_months_scripted_lyanna:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] trägt seit [ROOT.Var('agot_rr_months_of_pregnancy_lyanna').GetValue] Monaten ein Kind unter ihrem Herzen."
  agot_pregnancy_months_scripted_rhaella:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] trägt seit [ROOT.Var('agot_rr_months_of_pregnancy_rhaella').GetValue] Monaten ein Kind unter ihrem Herzen."

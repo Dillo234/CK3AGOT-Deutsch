@@ -3,7 +3,7 @@
  ##############################
  # Procedural court artifacts #
  ##############################
- 
+
  # Wall Decorations - Large
  artifact_wall_tapestry_name:0 "Wandteppich $artifact_name_prefix$"
  artifact_wall_tapestry_description:1 "Ein großer Wandteppich aus [newly_created_artifact.GetFeatureText('generic_material_cloth')] von [SCOPE.Custom('ArtifactQuality')]er Machart. [newly_created_artifact.GetFeatureText('tapestry_scene')]"
@@ -22,19 +22,19 @@
  feature_tapestry_scene_hearing:0 "Der Stoff zeigt eine Audienz bei Hofe: [Artifact.GetOwner.GetTitledFirstName] sitzt majestätisch inmitten der Szenerie, während Vasallen, Gesandte, besiegte Feinde und Diener darauf warten, ihre Aufwartung machen zu dürfen."
  feature_tapestry_scene_garden:0 "Ein wunderschöner Garten wird auf dem Stoff dargestellt: Das Gras ist grün, die Blumen sind bunt und üppig, die Bäume reichen in den Himmel und hängen voller Früchte."
  create_artifact_tapestry_tooltip:0 "[inspiration_owner.GetShortUIName] erschafft einen großen Wandteppich von [SCOPE.Custom('ArtifactQuality')]er Machart"
- 
+
  # Thrones
  artifact_throne_special:0 "$artifact_throne$"
  artifact_throne_name:0 "Thron $artifact_name_prefix$"
  artifact_throne_description:1 "Ein majestätischer Thron von [SCOPE.Custom('ArtifactQuality')]er Machart. Der Rahmen besteht aus festen [newly_created_artifact.GetFeatureText('generic_material_wood')] -Pfosten, der Sitz wurde mit [newly_created_artifact.GetFeatureText('generic_material_cloth')]-Kissen gepolstert."
  create_artifact_throne_tooltip:0 "[inspiration_owner.GetShortUIName] erschuf einen majestätischen Thron von [SCOPE.Custom('ArtifactQuality')]er Qualität."
- 
+
  # Sculptures
  artifact_chest:0 "Truhe"
  artifact_chest_name:0 "Truhe $artifact_name_prefix$"
  artifact_chest_description:1 "Eine Truhe von [SCOPE.Custom('ArtifactQuality')]er Machart. Sie besteht aus [newly_created_artifact.GetFeatureText('generic_material_wood')]-Bohlen. [newly_created_artifact.GetFeatureText('wood_decoration')]"
  create_artifact_chest_tooltip:0 "[inspiration_owner.GetShortUIName] erschuf eine Truhe von [SCOPE.Custom('ArtifactQuality')]er Machart"
- 
+
  artifact_cabinet:0 "Schauschrank"
  artifact_cabinet_name:0 "Schauschrank $artifact_name_prefix$"
  artifact_cabinet_description:1 "Ein Schauschrank von [SCOPE.Custom('ArtifactQuality')]er Machart. Er besteht aus [newly_created_artifact.GetFeatureText('generic_material_wood')]-Platten. [newly_created_artifact.GetFeatureText('wood_decoration')]"
@@ -45,13 +45,13 @@
  artifact_table_name:0 "Tisch $artifact_name_prefix$"
  artifact_table_description:0 "Ein Tisch von [SCOPE.Custom('ArtifactQuality')|l]er Machart. Er besteht aus [newly_created_artifact.GetFeatureText('generic_material_wood')]-Platten. [newly_created_artifact.GetFeatureText('wood_decoration')]"
  create_artifact_table_tooltip:0 "[inspiration_owner.GetShortUIName] erschuf einen Tisch von [SCOPE.Custom('ArtifactQuality')|l]er Machart"
- 
+
  # Decorations for wooden furniture.
  feature_wood_decoration_none:0 "Das Holz wurde komplett glatt poliert."
  feature_wood_decoration_varnish:0 "Das Holz wurde lackiert, um ihm einen satten, dunklen Glanz zu verleihen."
  feature_wood_decoration_hsb_inlay:0 "Im Holz gibt es Intarsien in Form von [Artifact.GetFeatureText('decoration_material_inlay_HSB')]."
  feature_wood_decoration_painted_pattern:0 "Das Holz wurde mit [Artifact.GetFeatureText('decoration_pattern')] bemalt."
- 
+
  # Thrones 
  artifact_throne_charlemagne_name:1 "Thron von Karl dem Großen"
  artifact_throne_charlemagne_description:0 "Ein einfacher und doch beeindruckender Thron frei von Verzierungen. Er besteht aus Marmor, der gerüchteweise aus der Grabeskirche in Jerusalem stammen soll."
@@ -59,7 +59,7 @@
  artifact_throne_solomon_description:0 "Ein ausladender Thron, der gerüchteweise einst dem legendären König Salomo gehört haben soll. Er besteht aus vergoldetem Elfenbein und ist mit zahlreichen kostbaren Edelsteinen besetzt. Auf den Stufen, die zu ihm hinaufführen, stehen verschiedene Tierskulpturen aus Metall."
  artifact_throne_stone_scone_name:1 "Stein von Scone"
  artifact_throne_stone_scone:0 "Ein einfacher Sitz aus rotem Sandstein, auf dem die Monarchen von Alba seit König Kenneth I. gekrönt wurden."
- 
+
  # Banner
  artifact_wall_banner_battle_name:1 "[epic_loser.GetPrimaryTitle.GetAdjectiveNoTooltip|U]es Kriegsbanner"
  artifact_wall_banner_battle_description:1 "Ein Kriegsbanner der Armeen von [epic_loser.GetPrimaryTitle.GetName]. Es wurde den Streitmächten bei der Schlacht von [epic_battle_location.GetNameNoTooltip] abgenommen."
@@ -71,12 +71,12 @@
  artifact_wall_banner_dynasty_description:1 "Dies ist das Banner der [target.GetBaseName]-Dynastie, ein Symbol für die Autorität der Blutlinie und all ihrer Mitglieder. In Auftrag gegeben hat es [newly_created_artifact.MakeScope.Var('banner_commissioner').Char.GetNameRegnal]."
  artifact_wall_banner_name:1 "[epic_loser.GetPrimaryTitleNoTooltip|U]es Banner"
  artifact_wall_banner_description:3 "Ein [target.GetAdjective|l]es Banner und ein Symbol der Autorität des Herrschers."
- 
+
  artifact_wall_banner_kaviani_name:0 "Das Derafsch-e Kaviani"
  artifact_wall_banner_kaviani:1 "Das legendäre Derafsch-e Kaviani: die königliche Standarte des untergegangenen Sassanidenreichs. Ein Symbol der Identität und des Stolzes für die Erben des persischen Kaiserreichs."
  artifact_wall_big_edessa_name:1 "Christusbild von Edessa"
  artifact_wall_big_edessa:2 "Das Mandylion, Christusbild von Edessa oder auch Abgar-Bild. Es ist ein Tuch, das ein Wunderbild des Antlitzes Christi trägt und als erste Ikone des Christentums gilt. Es soll König Abgar von Edessa gehört haben."
- 
+
  # Shield
  artifact_wall_shield:0 "Wallschild"
  artifact_wall_shield_name:0 "Schild $artifact_name_prefix$"
@@ -88,10 +88,10 @@
  artifact_wall_hammer_description:0 "$artifact_hammer_description$"
  artifact_wall_mace_description:0 "$artifact_mace_description$"
  artifact_wall_dagger_description:0 "$artifact_dagger_description$"
- 
+
  artifact_wall_cid_sword_name:0 "Tizona"
  artifact_wall_el_cids_sword:1 "Ein mehr als einen Schritt langes Langschwert mit der Inschrift „Tizona“. Gerüchteweise soll sein ehemaliger Besitzer der berühmte Kriegsfürst El Cid gewesen sein. Allein schon durch seine bloße Anwesenheit sorgt es für kriegerische Ehrfurcht."
- 
+
  artifact_wall_sword_muhammad_name:1 "Das Schwert von Mohammed"
  artifact_wall_sword_muhammad:0 "Eines der authentischen neun Schwerter des Propheten Mohammed. Dieses ist"
  artifact_wall_sword_muhammad_aladb:0 "Al-’Adb, das Mohammed in den Schlachten von Badr und Uhuf führte."
@@ -105,7 +105,7 @@
  artifact_wall_sword_muhammad_alqadib:0 "Al-Qadib, das im Haus Mohammeds verblieb."
  artifact_wall_sword_attila_name:1 "Das Schwert Gottes"
  artifact_wall_sword_attila_description:0 "Das legendäre Schwert des Hunnenherrschers Attila, der Geißel Gottes. Es ist auch als das Schwert des Mars bekannt."
- 
+
  # Animals (used in ArtifactAnimalType)
  animal_type_cat:0 "Katze"
  animal_type_dog:0 "Hund"
@@ -124,7 +124,7 @@
  animal_type_unicorn:0 "Einhorn"
  animal_type_dragon:0 "Drache"
  animal_type_lynx:0 "Luchs"
- 
+
  # Hides
  artifact_hide_type_cat:4 "der geliebten Katze [ROOT.Char.Custom('CatStoryName')] von [ROOT.Char.GetTitledFirstName]"
  artifact_hide_type_dog:4 "des geliebten Hundes [ROOT.Char.Custom('DogStoryName')] von [ROOT.Char.GetTitledFirstName]"
@@ -139,7 +139,7 @@
  artifact_hide_type_unicorn:0 "eines Einhorns"
  artifact_hide_type_dragon:0 "eines Drachen"
  artifact_hide_type_lynx:0 "eines Luchses"
- 
+
  # Skull
  artifact_wall_animal_skull_wild_boar:0 "eines Ebers mit messerscharfen Hauern, der in [location.GetNameNoTooltip] zur Strecke gebracht wurde."
  artifact_wall_animal_skull_wolf:1 "eines großen Wolfs mit spitzen Zähnen"
@@ -148,6 +148,7 @@
  artifact_wall_animal_skull_tiger:0 "eines tödlichen Tigers, der in [location.GetNameNoTooltip] zur Strecke gebracht wurde."
  artifact_wall_animal_skull_bear:1 "eines großen Bären, der in [location.GetNameNoTooltip] zur Strecke gebracht wurde."
  artifact_wall_animal_skull_aurochs:0 "eines gewaltigen Auerochsen, der in [location.GetNameNoTooltip] zur Strecke gebracht wurde."
+ artifact_wall_animal_skull_bison:0 "an imposing bison"
  artifact_wall_animal_skull_horse:0 "eines mächtigen Schlachtrosses. Angeblich war es das Reittier von [owner.GetNameNoTooltip]."
  artifact_wall_animal_skull_rabbit:2 "der schrecklichsten Kreatur der ganzen Welt: einem Kaninchen"
  feature_animal_hide_type_cat:2 "der geliebten Katze von [Artifact.GetOwner.GetTitledFirstName], [Artifact.GetOwner.Custom('CatStoryName')],"
@@ -166,14 +167,16 @@
  feature_animal_hide_type_unicorn:0 "eines mystischen Einhorns"
  feature_animal_hide_type_dragon:0 "eines bedrohlichen Drachen"
  feature_animal_hide_type_lynx:0 "eines würdevollen Luchses"Ω
+ feature_animal_hide_type_hyena:0 "a hateful hyena"
+ feature_animal_hide_type_roe:0 "a swift roe"
  feature_animal_hide_type_gazelle:0 "einer wendigen Gazelle"
  feature_animal_hide_type_antelope:0 "einer leichtfüßigen Antilope"
  feature_animal_hide_type_leopard:0 "eines herzlosen Leoparden"
  feature_animal_hide_type_bison:0 "eines standhaften Wisents"
  feature_animal_hide_type_elk:0 "eines mächtigen Elchs"
- 
+
  artifact_animal_hide_name_legendary:3 "Fell eines [newly_created_artifact.Custom('GetLegendaryColor')|l]en Tiers ([newly_created_artifact.Custom('ArtifactAnimalType')|U]) aus [location.GetTitle.GetDeJureLiege.GetNameNoTierNoTooltip]"
- artifact_animal_hide_name_adventurer§:0 "Fell eines Tiers ([newly_created_artifact.Custom('ArtifactAnimalType')|U]) aus [location.GetBaronyNameExplicitlyNoTooltip]. Das Tier soll [newly_created_artifact.Custom('ArtifactAnimalAdjective')|l] gewesen sein."
+ artifact_animal_hide_name_adventurer:0 "Hide of the [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] of [location.GetBaronyNameExplicitlyNoTooltip]"
  artifact_animal_hide_name_cat:0 "Fell von [owner.Custom('CatStoryName')]"
  artifact_animal_hide_name_dog:0 "Fell von [owner.Custom('DogStoryName')]"
  artifact_animal_hide_name_base:2 "Fell eines Tiers ([newly_created_artifact.Custom('ArtifactAnimalType')|U]) ([newly_created_artifact.Custom('ArtifactAnimalAdjective')|U])"
@@ -192,9 +195,9 @@
  artifact_animal_hide_big_name:3 "$artifact_animal_hide_name_base$"
  artifact_animal_hide_big_description:4 "$artifact_animal_hide_description$"
  create_artifact_big_hide_tooltip:4 "$create_artifact_small_hide_tooltip$"
- 
+
  # Skull
-artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Custom('GetLegendaryColor')|l]en Tiers ([newly_created_artifact.Custom('ArtifactAnimalType')]) aus [owner.MakeScope.Var('adventure_artifact_location').Province.GetTitle.GetDeJureLiege.GetNameNoTierNoTooltip]"
+ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Custom('GetLegendaryColor')|l]en Tiers ([newly_created_artifact.Custom('ArtifactAnimalType')]) aus [owner.MakeScope.Var('adventure_artifact_location').Province.GetTitle.GetDeJureLiege.GetNameNoTierNoTooltip]"
  artifact_wall_skull_name_adventurer:1 "Schädel eines Tiers ([newly_created_artifact.Custom('ArtifactAnimalType')]) aus [owner.MakeScope.Var('adventure_artifact_location').Province.GetBaronyNameExplicitlyNoTooltip]. Das Tier soll [newly_created_artifact.Custom('ArtifactAnimalAdjective')|l] gewesen sein."
  artifact_wall_skull_name:4 "Schädel eines [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] aus [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]"
  artifact_wall_skull_description:4 "Der eindrucksvolle Schädel [newly_created_artifact.GetFeatureText('animal_skull_type')], erjagt in [location.GetName]. Der Schädel ist [SCOPE.Custom('ArtifactAdverbQuality')] konserviert und an einem [SCOPE.Custom('ArtifactAdverbWealth')] geschmückten Trophäenschild aus [newly_created_artifact.GetFeatureText('generic_material_wood')] angebracht."
@@ -217,6 +220,8 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  artifact_animal_adjective_mighty:0 "mächtig"
  feature_animal_skull_type_boar:0 "eines Keilers mit messerscharfen Hauern"
  feature_animal_skull_type_wolf:0 "eines scharfzahnigen, großen Wolfs"
+ feature_animal_skull_type_hyena:0 "a sly smirk-mouthed hyena"
+ feature_animal_skull_type_lynx:0 "a dignified sharp-fanged lynx"
  feature_animal_skull_type_stag:0 "eines Hirschs mit beindruckend ausladendem Geweih"
  feature_animal_skull_type_lion:0 "eines großen Löwen, dem König der Tiere"
  feature_animal_skull_type_tiger:0 "eines tödlichen Tigers"
@@ -233,13 +238,13 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  feature_animal_skull_type_hart:0 "eines stolzen Rothirschs"
  feature_animal_skull_type_bison:0 "eines imposanten Wisentbullen"
  create_artifact_wall_animal_skull_tooltip:1 "[inspiration_owner.GetShortUIName] hat Euch den eindrucksvollen Schädel [newly_created_artifact.GetFeatureText('animal_skull_type')] mitgebracht"
-  
+
  # Horn
  artifact_wall_narwhal_horn_name:0 "Horn des Einhorns"
  artifact_wall_narwhal_horn:1 "Ein langes, gerades Horn von schillerndem Weiß. Gerüchteweise soll es vom Leib eines erschlagenen Einhorns stammen. Das Horn ist [SCOPE.Custom('ArtifactAdverbQuality')] konserviert und an einem [SCOPE.Custom('ArtifactAdverbWealth')] geschmückten Trophäenschild aus [newly_created_artifact.GetFeatureText('generic_material_wood')] angebracht."
  #artifact_wall_rhino_horn_name: "Dragon's Tooth"
  #artifact_wall_rhino_horn: "A large, curved horn or tooth. If it is a tooth, the large size means it must have come from a fearsome beast, most likely a dragon."
- 
+
  # Sculptures
  artifact_sculpture_name:0 "Statue $artifact_name_prefix$"
  artifact_sculpture_description:1 "Eine [SCOPE.Custom('ArtifactArticleWealth')]e Statue von [owner.GetTitledFirstName], bemalt und [SCOPE.Custom('ArtifactAdverbQuality')] graviert. [owner.Custom('DE_ART_DEF_S_N')|U] [owner.GetTitleAsNameNoTooltip] ist berühmt für [owner.Custom('RulerSkill')]. Die Skulptur besteht aus [newly_created_artifact.GetFeatureText('sculpture_material')] und wurde [SCOPE.Custom('ArtifactAdverbQuality')] gefertigt."
@@ -262,8 +267,8 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  artifact_sculpture_animal_description:0 "Eine [SCOPE.Custom('ArtifactArticleWealth')|l]e Statue von einem Tier, bemalt und [SCOPE.Custom('ArtifactAdverbQuality')|l] geformt. Die mythischen Eigenschaften der Kreatur sind als Allegorie für [owner.GetTitleAsNameNoTooltip] und [owner.Custom('DE_PRO_POS_S_3P')]e Fähigkeiten in Sachen [owner.Custom('RulerSkill')] zu deuten. Die Skulptur besteht aus [newly_created_artifact.GetFeatureText('sculpture_material')] und wurde [SCOPE.Custom('ArtifactAdverbQuality')|l] gefertigt."
  feature_sculpture_material_stone:0 "Stein"
  feature_sculpture_material_wood:0 "[Artifact.GetFeatureText('generic_material_wood')]"
- 
- 
+
+
  artifact_sculpture_ark_of_covenant_name:1 "Bundeslade"
  artifact_sculpture_ark_of_covenant_description:0 "Eine große Steintruhe, die angeblich die ursprüngliche Bundeslade sein soll, in der jene Steintafeln verwahrt werden, die Moses von Gott erhielt."
  #artifact_sculpture_kali_description: "A carved and painted statue of Kali, the Black Goddess."
@@ -274,7 +279,7 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  artifact_sculpture_cabinet_pentapyrgion_description:1 "Ein eleganter Schauschrank, den Kaiser Theophilos anfertigte, um Vasen, Kronen und andere Wertsachen im Chrysotriklinos auszustellen, der Empfangshalle des großen Palasts von Konstantinopel."
  create_artifact_epic_tooltip:0 "[inspiration_owner.GetShortUIName] hat etwas Episches ([epic.GetName]) aus einem fremden Land mitgebracht"
  create_artifact_adventure_tooltip:0 "[inspiration_owner.GetShortUIName] hat ein Artefakt ([newly_created_artifact.GetName]) aus einem fremden Land mitgebracht"
- 
+
  # Pedestal Artifacts: 
  # Box
  artifact_box_small_name:0 "Schmuckschatulle $artifact_name_prefix$"
@@ -296,7 +301,7 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  feature_box_material_teak:0 "$wood_teak$"
  feature_box_material_ebony:0 "$wood_ebony$"
  create_artifact_box_tooltip:0 "[inspiration_owner.GetShortUIName] erschuf eine Kiste von [SCOPE.Custom('ArtifactQuality')]er Machart"
- 
+
  artifact_pedestal_crown_description:0 "$artifact_crown_description$"
  artifact_goblet_name:0 "Kelch $artifact_name_prefix$"
  artifact_goblet_description:1 "Ein Zeremonienkelch von [SCOPE.Custom('ArtifactQuality')|l]er Machart. Er besteht aus [newly_created_artifact.GetFeatureText('goblet_material')], mit Einlegearbeiten aus [newly_created_artifact.GetFeatureText('decoration_material_gem')]."
@@ -307,7 +312,7 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  feature_goblet_material_ivory:0 "$hsb_ivory$"
  feature_goblet_material_glass:0 "$material_glass$"
  create_artifact_goblet_tooltip:0 "[inspiration_owner.GetShortUIName] erschuf einen Kelch von [SCOPE.Custom('ArtifactQuality')]er Machart"
- 
+
  artifact_pedestal_rock_name:0 "Heiliger Fels"
  artifact_pedestal_rock_description:0 "Ein ungewöhnlicher Fels, der laut den Legenden vom Himmel fiel. Die [owner.GetCulture.GetNameNoTooltip] sehen ihn als heilig an."
  artifact_pedestal_pouch_name:0 "Beutel $artifact_name_prefix$"
@@ -316,7 +321,7 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  artifact_pedestal_scroll_description:0 "Eine formell aussehende Schriftrolle, auf der die grundlegenden Gesetze von [owner.GetPrimaryTitle.GetNameNoTooltip] stehen, wie sie [owner.GetTitledFirstNameNoTooltip] niederlegte."
  artifact_pedestal_religious_head_letter_name:0 "Brief von [compliment_receiver.GetTitledFirstNameNoTooltip]"
  artifact_pedestal_religious_head_letter_description:0 "Darin steht: „$learning_theology.3022.desc$“\n\nDer Brief ist an [letter_receiver.GetTitledFirstName] gerichtet und wurde von [compliment_receiver.GetTitledFirstName] unterschrieben."
- 
+
  artifact_pedestal_crucifix_name:0 "Kruzifix $artifact_name_prefix$"
  artifact_pedestal_crucifix_description:0 "Ein Holzkruzifix von exquisiter Machart: Der traurige Ausdruck auf dem Antlitz Christi kann selbst den hartnäckigsten Sünder zur Buße verleiten."
  artifact_pedestal_cross_name:0 "Kreuz $artifact_name_prefix$"
@@ -369,8 +374,8 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  artifact_pedestal_cornerstone_name_desc:0 "Der Grundstein einer Befestigung von [rival.GetTitledFirstName]"
  #artifact_pedestal_mosque_lamp_name: "Precious Oil Lamp"
  #artifact_pedestal_mosque_lamp: "A magnificent mosque lamp — a precious oil lamp made of enamelled glass and gilded."
- 
- 
+
+
  # Books
  artifact_book_title:0 "[newly_created_artifact.GetFeatureText('book_title')]"
  artifact_book_description:0 "[newly_created_artifact.Custom('ArtifactBookDescType')] [newly_created_artifact.GetFeatureText('book_decoration')]."
@@ -381,20 +386,20 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  artifact_book_other_desc_4:0 "Das [ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')]e Buch zeigt ein [SCOPE.Custom('ArtifactArticleBookContentQuality')]es Verständnis, was [ROOT.Artifact.GetFeatureText('book_subject')] anbelangt, da es auch auf [ROOT.Artifact.GetFeatureText('book_topic')] eingeht."
  artifact_book_other_desc_5:0 "Das [ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')]e Manuskript beschreibt [ROOT.Artifact.GetOwner.Custom('ArtifactBookContentQuality')] [ROOT.Artifact.GetFeatureText('book_topic')]. Die Seiten sind ausführlich illuminiert und enthalten viele Illustrationen – am auffälligsten sind die von großen Schnecken."
  artifact_book_no_preface_desc:0 "[ROOT.Artifact.GetFeatureText('book_topic')]"
- 
+
  feature_book_cover_material_wood:0 "Holz"
  feature_book_cover_material_leather:0 "Leder"
  feature_book_cover_material_velvet:0 "Samt"
  feature_book_cover_material_gold:0 "Gold"
  feature_book_cover_material_silver:0 "Silber"
  feature_book_cover_material_HSB_ivory:1 "Elfenbein"
- 
+
  feature_book_decoration_gems:0 "Der Deckel ist aus [Artifact.GetFeatureText('book_cover_material')] und zeigt sich wiederholende Darstellungen von [Artifact.GetFeatureText('decoration_pattern')], besonders betont durch ansprechend platzierte [Artifact.GetFeatureText('decoration_material_gem')]-Einlegearbeiten"
  feature_book_decoration_gems_and_clasp:0 "$feature_book_decoration_gems$ und wird von schmückenden Schließen gehalten"
  feature_book_decoration_pattern_embroidered:0 "Der Deckel ist aus [Artifact.GetFeatureText('book_cover_material')] und zeigt sich wiederholende Stickereien von [Artifact.GetFeatureText('decoration_pattern')]"
  feature_book_decoration_pattern_carved:0 "Der Deckel ist aus [Artifact.GetFeatureText('book_cover_material')] und zeigt sich wiederholende Schnitzereien von [Artifact.GetFeatureText('decoration_pattern')]"
  feature_book_decoration_pattern_painted:0 "Der Deckel ist aus [Artifact.GetFeatureText('book_cover_material')] und zeigt sich wiederholende Malereien von [Artifact.GetFeatureText('decoration_pattern')]"
- 
+
  feature_book_title_fallback:0 "Buch ($artifact_name_prefix_artifact_scope$)"
  feature_book_title_unification:0 "Ein Reich zu einen ($artifact_name_prefix_artifact_scope$)"
  feature_book_title_creation:0 "Ein Reich zu formen ($artifact_name_prefix_artifact_scope$)"
@@ -444,14 +449,14 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  feature_book_title_medicine_herbs_one:0 "Heilratgeber ($artifact_name_prefix_artifact_scope$)"
  feature_book_title_medicine_herbs_two:0 "Kräuter und andere mächtige Pflanzen"
  feature_book_title_medicine_witch:0 "Arkaner Führer ($artifact_name_prefix_artifact_scope$)"
- 
+
 # witch
  feature_book_title_witch_love_sorcery:0 "[Artifact.GetFeatureText('book_subject')] – Über derlei Zauberkraft"
  feature_book_topic_witch_love_sorcery:0 "Ein [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]es, kenntnisreiches Buch über [Artifact.GetFeatureText('book_subject')] und die damit verbundene Macht. Es enthält [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] bebilderte Beschreibungen von Formeln und Zaubersprüchen, mit denen man Liebe hervorrufen kann."
  feature_book_title_witch_curse_sorcery:0 "[Artifact.GetFeatureText('book_subject')] – Über derlei Flüche"
  feature_book_topic_witch_curse_sorcery:0 "Ein [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] es, kenntnisreiches Buch über die Macht und das Wissen um [Artifact.GetFeatureText('book_subject')]. Es enthält [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] bebilderte Beschreibungen von Flüchen und Tränken, mit denen man seine Feinde behindern kann."
  feature_book_title_witch_witch:0 "[Artifact.GetOwner.GetFaith.WitchGodName|U]"
- 
+
 # martial
  feature_book_title_martial_military:0 "Die Kunst des Krieges ($artifact_name_prefix_artifact_scope$)"
  feature_book_topic_martial_military:0 "Ein [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]es Buch über Strategie und Kriegsführung, das aus den langjährigen Erfahrungen von [Artifact.GetOwner.GetFirstNameNoTooltip] auf dem Schlachtfeld hervorging."
@@ -459,26 +464,44 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  feature_book_topic_martial_duels:0 "Dieses [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]e Handbuch enthält Übungsratschläge für Duelle mit allen Waffen, die man auf Schlachtfeld, Turnier und Tjostenplatz austrägt."
  feature_book_title_martial_chivalry:0 "Das Buch [Artifact.GetOwner.GetCulture.GetNameNoTooltip|l]er Ritterlichkeit"
  feature_book_topic_martial_chivalry:0 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')]er Foliant mit [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]en Ratschlägen und Betrachtungen, was Ritterlichkeit und Höflichkeit anbelangt."
- 
+
 # diplomacy
  feature_book_title_diplomacy_dynasty:1 "Die Chroniken von [Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip]"
  feature_book_topic_diplomacy_dynasty:1 "Eine [Artifact.GetOwner.Custom('ArtifactArticleWealth')|l]e Chronik, die die Geschichte der [Artifact.GetOwner.Custom('DynastyPrestigeLevel')|l]en [Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip]-Dynastie verzeichnet. Ursprünglich erhielt sie [Artifact.GetOwner.GetTitledFirstNameNoTooltipRegnal]."
  feature_book_topic_diplomacy_dynasty_big:1 "Eine überformatige Chronik, die die Geschichte der [Artifact.GetOwner.Custom('DynastyPrestigeLevel')|l]en [Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip]-Dynastie verzeichnet, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')|l] illuminiert und illustriert."
+ #AGOT Modified
+ #feature_book_title_diplomacy_cicero:0 "$artifact_name_prefix_artifact_scope$ Cicero"
  feature_book_title_diplomacy_cicero:0 "Cicero ($artifact_name_prefix_artifact_scope$)"
+ #AGOT Modified
+ #feature_book_topic_diplomacy_cicero:0 "A [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated collection of the orations of Cicero, ancient master of Latin eloquence."
  feature_book_topic_diplomacy_cicero:0 "Eine [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminierte Ausgabe der Reden von Cicero, des antiken Meisters der lateinischen Eloquenz."
+ #AGOT Modified
+ #feature_book_title_diplomacy_hitopadesa:0 "$artifact_name_prefix_artifact_scope$ Hitopadesa"
  feature_book_title_diplomacy_hitopadesa:0 "Hitopadesa ($artifact_name_prefix_artifact_scope$)"
  feature_book_topic_diplomacy_hitopadesa:0 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')]es und [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminiertes Manuskript mit einer neuen Sammlung uralter, traditioneller Fabeln, die man als Hitopadesa kennt."
+ #AGOT Modified
+ #feature_book_title_diplomacy_hitopadesa:0 "$artifact_name_prefix_artifact_scope$ Hitopadesa"
  feature_book_title_diplomacy_kalila:0 "Kalila wa-Dimna ($artifact_name_prefix_artifact_scope$)"
+ #AGOT Modified
+ #feature_book_topic_diplomacy_kalila:0 "A [Artifact.GetOwner.Custom('ArtifactAdverbWealth')]-illuminated manuscript containing a collection of animal fables known as Kalila wa-Dimna."
  feature_book_topic_diplomacy_kalila:0 "Ein [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminiertes Manuskript mit einer Sammlung von Fabeln, die man Kalila wa-Dimna nennt."
+ #AGOT Modified
+ #feature_book_title_diplomacy_edda:0 "$artifact_name_prefix_artifact_scope$ Edda"
  feature_book_title_diplomacy_edda:0 "Edda ($artifact_name_prefix_artifact_scope$)"
+ #AGOT Modified
+ #feature_book_topic_diplomacy_edda:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] work collecting the poetry and traditional knowledge of Norse mythology."
  feature_book_topic_diplomacy_edda:0 "Ein [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]es Werk, das Gedichte und traditionelles Wissen der nordischen Mythologie versammelt."
+ #AGOT Modified
+ #feature_book_title_diplomacy_orkneyinga:0 "$artifact_name_prefix_artifact_scope$ Orkneyinga"
  feature_book_title_diplomacy_orkneyinga:0 "Orkneyinga ($artifact_name_prefix_artifact_scope$)"
+ #AGOT Modified
+ #feature_book_topic_diplomacy_orkneyinga:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] manuscript detailing the story of the Norse adventurers who sailed to the West."
  feature_book_topic_diplomacy_orkneyinga:0 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')]es Manuskript, das die Geschichte der nordischen Abenteurer erzählt, die nach Westen segelten."
  feature_book_title_diplomacy_poetry:0 "Poesie ($artifact_name_prefix_artifact_scope$)"
  feature_book_topic_diplomacy_poetry:1 "Eine [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|l]e Sammlung eleganter und inspirierter Gedichte aus der berühmten Feder von [author.GetTitledFirstNameNoTooltip], gewidmet [Artifact.GetOwner.GetTitledFirstNameNoTooltip]."
  feature_book_title_diplomacy_jokes:0 "Philogelos ($artifact_name_prefix_artifact_scope$)"
  feature_book_topic_diplomacy_jokes:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]e Sammlung von Scherzen. Der Humor zeigt ein [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]es Verständnis von Ton und Satzstruktur sowie eine bemerkenswerte Respektlosigkeit gegenüber Intellektuellen."
- 
+
 # stewardship
  feature_book_title_stewardship_speculum:0 "Speculum Principis ($artifact_name_prefix_artifact_scope$)"
  feature_book_topic_stewardship_speculum:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]e Abhandlung, in der die Tugenden, das Wissen und die Eigenschaften des idealen Herrschers beschrieben werden."
@@ -486,9 +509,13 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  feature_book_topic_stewardship_admin:0 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')]es Handbuch voll [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]er Ratschläge und Erfahrungen dazu, wie man ein Land gewinnträchtig führt – und zwar hoffentlich nicht in den Ruin."
  feature_book_title_stewardship_architect:0 "[Artifact.GetOwner.GetCulture.GetNameNoTooltip|U]e Architektur"
  feature_book_topic_stewardship_architect:0 "Eine [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]e Zusammenstellung der [Artifact.GetOwner.GetCulture.GetName|l]en Architektur sowohl zeitgenössischer als auch historischer Art, voller [Artifact.GetOwner.Custom('ArtifactWealth')]er Randbemerkungen und lehrreicher Illustrationen."
+ #AGOT Modified
+ #feature_book_title_stewardship_digest:0 "$artifact_name_prefix_artifact_scope$ Digest"
  feature_book_title_stewardship_digest:0 "Pandekten ($artifact_name_prefix_artifact_scope$)"
+ #AGOT Modified
+ #feature_book_topic_stewardship_digest:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] copy of the compendium of Roman law ordered by emperor Justinian."
  feature_book_topic_stewardship_digest:0 "Eine [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]e Ausgabe der Kompilation des römischen Rechts, die auf Befehl von Kaiser Justinian zusammengetragen wurde."
- 
+
 # intrigue
  feature_book_title_intrigue_poisons:0 "Kompendium der Gifte ($artifact_name_prefix_artifact_scope$)"
  feature_book_topic_intrigue_poisons:0 "Ein kleines, unheimliches Buch mit schwarzem Ledereinband. Darin befinden sich detaillierte Zeichnungen von Pflanzen und [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] bebilderte Schritt-für-Schritt-Anweisungen, um eine breite Palette an Giften herzustellen."
@@ -499,17 +526,31 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  feature_book_title_intrigue_punishment:0 "Verbrechen und Strafe"
  feature_book_topic_intrigue_punishment:0 "Eine einschüchternde Sammlung aller Formen der Folter, die in unserer Zeit bekannt sind und nun mit freudigem Detailreichtum von [author.GetFirstNameNoTooltip] zusammengetragen wurden – [author.Custom('DE_ART_IND_D')] Meister[author.Custom('DE_END_NOU_S_GS_N')] dieses Fachs."
  feature_book_topic_intrigue_punishment_not_torturer:0 "Eine einschüchternde Sammlung aller Formen der Folter, die in unserer Zeit bekannt sind und nun mit freudigem Detailreichtum zusammengetragen und [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] bebildert wurden."
- 
+
 # learning
  feature_book_title_learning_religious:1 "[Artifact.GetOwner.GetFaith.ReligiousText|U] ($artifact_name_prefix_artifact_scope$)"
  feature_book_topic_learning_religious:0 "Eine [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminierte Ausgabe eines heiligen Texts ([Artifact.GetOwner.GetFaith.ReligiousText]). Verfasst in eleganter Schrift."
  feature_book_topic_learning_religious_big:0 "Eine überformatige Ausgabe eines heiligen Texts ([Artifact.GetOwner.GetFaith.ReligiousText]). [Artifact.GetOwner.Custom('ArtifactAdverbWealth')|U] illuminiert und elegant geschrieben."
+ #AGOT Modified
+ #feature_book_title_learning_aristotle:0 "$artifact_name_prefix_artifact_scope$ Organon"
  feature_book_title_learning_aristotle:0 "Organon ($artifact_name_prefix_artifact_scope$)"
+ #AGOT Modified
+ #feature_book_topic_learning_aristotle:1 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] copy of Aristotle's Organon, [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] replicated and commented."
  feature_book_topic_learning_aristotle:1 "Eine [Artifact.GetOwner.Custom('ArtifactArticleWealth')|l]e Ausgabe von Aristoteles’ Organon, [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')|l] abgeschrieben und kommentiert."
+ #AGOT Modified
+ #feature_book_title_learning_iliad:0 "$artifact_name_prefix_artifact_scope$ Iliad"
  feature_book_title_learning_iliad:0 "Ilias ($artifact_name_prefix_artifact_scope$)"
+ #AGOT Modified
+ #feature_book_topic_learning_iliad:1 "[Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')|U] commented copy of the Greek Iliad, showing great understanding of the source material and the events of the Trojan War."
  feature_book_topic_learning_iliad:1 "Eine [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')|l] kommentierte Ausgabe der griechischen Ilias, die ein tiefes Verständnis sowohl für das Quellenmaterial als auch für die Ereignisse des Trojanischen Kriegs an sich zeigt."
+ #AGOT Modified
+ #feature_book_title_learning_mahabharata:0 "$artifact_name_prefix_artifact_scope$ Mahabharata"
  feature_book_title_learning_mahabharata:0 "Mahabharata ($artifact_name_prefix_artifact_scope$)"
+ #AGOT Modified
+ #feature_book_topic_learning_mahabharata:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')]-illuminated, copy of the ancient epic poem Mahabharata. The story details the struggle between two groups of cousins, the Pandavas and the Kauravas, as they battle for the throne of Hastinapura."
  feature_book_topic_learning_mahabharata:0 "Eine [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]e und [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminierte Ausgabe des uralten epischen Gedichts Mahabharata. In der Geschichte geht es um den Kampf zweier Gruppen von Vettern, den Pandavas und den Kauravas, während sie um den Thron von Hastinapura ringen."
+ #AGOT Modified
+ #feature_book_title_learning_mufaddaliyat:0 "$artifact_name_prefix_artifact_scope$ Mufaddaliyat"
  feature_book_title_learning_mufaddaliyat:0 "Mufaddaliyat ($artifact_name_prefix_artifact_scope$)"
  feature_book_topic_learning_mufaddaliyat:0 "Eine [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] kommentierte Revision der als Mufaddaliyat bekannten Gedichtsammlung aus der berühmten Feder von [author.GetTitledFirstNameNoTooltip]."
  feature_book_title_learning_prayers:1 "Gebete für [Artifact.GetOwner.GetFaith.GetAdjective|l]e Gläubige"
@@ -517,22 +558,32 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  feature_book_title_learning_hours:0 "Stundenbuch ($artifact_name_prefix_artifact_scope$)"
  feature_book_topic_learning_hours:0 "Eine große und [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminierte Ausgabe des Stundenbuchs, das besser in die Sammlung eines Bücherliebhabers passt, als wirklich von Gläubigen genutzt zu werden."
  feature_book_title_learning_golden_legend:0 "Goldene Legende ($artifact_name_prefix_artifact_scope$)"
+ #AGOT Modified
+ #feature_book_topic_learning_golden_legend:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] collection of hagiographies written in simple Latin, sure to be appreciated by everyone."
  feature_book_topic_learning_golden_legend:0 "Eine [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]e Sammlung von Hagiografien, die in einfachem Latein verfasst wurde und daher jedem gefallen wird."
  feature_book_title_learning_anatomy:0 "Eine Karte des menschlichen Leibes"
  feature_book_topic_learning_anatomy:0 "Dieses Buch enthält [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]e Beobachtungen und [Artifact.GetOwner.Custom('ArtifactWealth')]e Illustrationen, die die Anatomie des menschlichen Körpers in allen Details erläutern."
- 
+
 # medicine
  feature_book_title_medicine_medicine:0 "Medizinisches Manuskript ($artifact_name_prefix_artifact_scope$)"
  feature_book_title_medicine_science:0 "Herbolarium ($artifact_name_prefix_artifact_scope$)"
  feature_book_topic_medicine_science:0 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')]es Herbolarium, das das Wissen der Welt über Pflanzen und deren medizinische Eigenschaften zusammenträgt."
  feature_book_topic_medicine_science_big:0 "Ein überformatiges Herbolarium mit detaillierten Zeichnungen aller Pflanzen und Beschreibungen ihrer medizinischen Eigenschaften."
+ #AGOT Modified
+ #feature_book_title_medicine_galen:0 "$artifact_name_prefix_artifact_scope$ Galen"
  feature_book_title_medicine_galen:0 "Galen ($artifact_name_prefix_artifact_scope$)"
+ #AGOT Modified
+ #feature_book_topic_medicine_galen:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] manuscript containing all the medical wisdom of the ancient philosopher and physician Galen."
  feature_book_topic_medicine_galen:0 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')]es griechisches Manuskript, in dem sämtliche Weisheit des antiken Philosophen und Arztes Galen gesammelt wurde."
- 
+
 # alchemy
  feature_book_title_alchemy_the_great_book_of_mercy:0 "Das große Buch der Gnade"
+ #AGOT Modified
+ #feature_book_topic_alchemy_the_great_book_of_mercy:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] copy of Jabir ibn Hayyan's alchemical work The Great Book of Mercy, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrated and illuminated."
  feature_book_topic_alchemy_the_great_book_of_mercy:0 "Eine [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]e Ausgabe von Dschābir ibn Hayyāns alchemistischem Werk „Das große Buch der Gnade“, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustriert und illuminiert."
  feature_book_title_alchemy_the_book_of_seventy:0 "Das Buch der Siebzig"
+ #AGOT Modified
+ #feature_book_topic_alchemy_the_book_of_seventy:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] copy of Jabir ibn Hayyan's comprehensive manual describing the creation of elixirs, theories about the four elements, and the use of animal substances in alchemy."
  feature_book_topic_alchemy_the_book_of_seventy:0 "Eine [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]e Ausgabe von Dschābir ibn Hayyāns umfassendem Handbuch, das die Erschaffung von Elixieren, Theorien über die vier Elemente sowie die Verwendung tierischer Substanzen in der Alchemie beinhaltet."
  feature_book_title_alchemy_mercury:0 "Führer zum Quecksilber ($artifact_name_prefix_artifact_scope$)"
  feature_book_topic_alchemy_mercury:1 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')|l]er Foliant, der [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|l]e Anweisungen zur Herstellung von Zinnoberrot aus Schwefel und Quecksilber enthält. Man verwendet es vor allem bei Illustrationen."
@@ -542,39 +593,39 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  feature_book_topic_alchemy_gold:1 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')|l]er Foliant, der [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|l]e Anweisungen zur Transmutation von Blei und anderer unedler Metalle in Gold enthält. Der Leser wird allerdings ausdrücklich davor gewarnt, dass das Resultat abweichen kann."
  feature_book_title_alchemy_silver:0 "Argyropoeia ($artifact_name_prefix_artifact_scope$)"
  feature_book_topic_alchemy_silver:1 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')|l]er Foliant, der [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|l]e Anweisungen zur Transmutation von Kupfer und anderer unedler Metalle in Silber enthält. Der Leser wird allerdings ausdrücklich davor gewarnt, dass das Resultat abweichen kann."
- 
+
 # relationships
  feature_book_title_soulmate:0 "Hingabe ($artifact_name_prefix_artifact_scope$)"
  feature_book_topic_soulmate:0 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')]es und bunt illuminiertes Manuskript, das [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] jene Hingabe schildert, die [Artifact.GetOwner.GetTitledFirstName] für [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetTitledFirstName] empfindet – wodurch ihre Liebe unsterblich wird."
  feature_book_title_nemesis:0 "Der unsterbliche Hass von [Artifact.GetOwner.GetTitledFirstName]"
  feature_book_topic_nemesis:0 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')]es Manuskript, das [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] jenen Hass schildert, den [Artifact.GetOwner.GetTitleAsName] für [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetTitledFirstName] empfindet – [Artifact.GetOwner..Custom('DE_ART_DEF_S_N')] hier unter anderem auch als [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.Custom('InsultNoun')] bezeichnet wird. Der Text ist überreich illustriert, um den verhassten Menschen in so vielen unvorteilhaften Momenten darstellen zu können wie nur irgend möglich."
- 
+
 # mystical animal
  feature_book_title_mystical_animal:0 "[Artifact.GetOwner.Custom('GetAnimalType')|U] in Weiß"
  feature_book_topic_mystical_animal:1 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')|l]es Manuskript, das alle örtlichen Legenden über [Artifact.GetOwner.Custom('LocalAnimal_DE_ART_DEF_S_A')] [Artifact.GetOwner.Custom('LocalAnimalDesc')|l][Artifact.GetOwner.Custom('LocalAnimal_DE_4')] weiß[Artifact.GetOwner.Custom('LocalAnimal_DE_4')] [Artifact.GetOwner.Custom('GetAnimalType')] zusammenträgt, [Artifact.GetOwner.Custom('LocalAnimal_DE_ART_DEF_S_A')] [Artifact.GetOwner.GetTitledFirstName] erlegt hat. Die Schrift ist [Artifact.GetOwner.Custom('ArtifactBookContentQuality')|l], und die Kraft, über die [Artifact.GetOwner.Custom('DE_ART_DEF_S_N')] [Artifact.GetOwner.GetTitleAsNameNoTooltip] steht außer Frage."
- 
+
 # cannibal
  feature_book_title_cannibal_recipes:0 "Wenn man die Menschen satt hat"
  feature_book_topic_cannibal_recipes:0 "Eine Sammlung [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]er und ungewöhnlicher Rezepte zur Zubereitung von Menschenfleisch, gefüllt mit [Artifact.GetOwner.Custom('ArtifactWealth')]en – und detaillierten – Illustrationen und Randbemerkungen."
- 
+
 # animals
  feature_book_title_animals_your_cat:0 "[Artifact.GetOwner.Custom('CatStoryName')|U] ($artifact_name_prefix_artifact_scope$)"
  feature_book_title_animals_your_dog:0 "[Artifact.GetOwner.Custom('DogStoryName')|U] ($artifact_name_prefix_artifact_scope$)"
  feature_book_title_animals:0 "Eine Einladung an die Wildnis"
  feature_book_title_animals_no_name:0 "Haustiere als Begleiter ($artifact_name_prefix_artifact_scope$)"
- 
+
  feature_book_topic_animals_your_cat:0 "Dieses Buch enthält [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]e Ausführungen in Sachen [Artifact.GetFeatureText('book_subject')] sowie Einzelheiten über das Leben einer Katze namens [Artifact.GetOwner.Custom('CatStoryName')]. Es ist [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminiert und bebildert."
  feature_book_topic_animals_your_cat_no_name:0 "Dieses Buch enthält [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]e Ausführungen in Sachen [Artifact.GetFeatureText('book_subject')] sowie Einzelheiten über das Leben einer Katze, die von [Artifact.GetOwner.GetTitledFirstName] heiß geliebt wurde. Es ist [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminiert und bebildert."
  feature_book_topic_animals_your_dog:0 "Dieses Buch enthält [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]e Ausführungen in Sachen [Artifact.GetFeatureText('book_subject')] sowie Einzelheiten über das Leben eines Hunds namens [Artifact.GetOwner.Custom('DogStoryName')]. Es ist [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminiert und bebildert."
  feature_book_topic_animals_your_dog_no_name:0 "Dieses Buch enthält [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]e Ausführungen in Sachen [Artifact.GetFeatureText('book_subject')] sowie Einzelheiten über das Leben eines Hunds, der von [Artifact.GetOwner.GetTitledFirstName] heiß geliebt wurde. Es ist [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminiert und bebildert."
  feature_book_topic_animals_animals:0 "Dieses Buch enthält [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]e Ausführungen in Sachen [Artifact.GetFeatureText('book_subject')]. Es ist [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminiert und bebildert."
- 
+
 # childhood
  feature_book_title_childhood_one:0 "Über die frühen Tage ($artifact_name_prefix_artifact_scope$)"
  feature_book_topic_childhood_one:0 "Eine [Artifact.GetOwner.Custom('ArtifactArticleWealth')]e Betrachtung der Kindheit. Es wird unverhältnismäßig viel Zeit auf [Artifact.GetOwner.MakeScope.Var('book_artifact_author').Char.Custom('child_favorite_toy_plural')] verwendet, doch alles in allem ist die Güte [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]."
  feature_book_title_childhood_two:0 "Über die Jugend ($artifact_name_prefix_artifact_scope$)"
  feature_book_topic_childhood_two:0 "Eine [Artifact.GetOwner.Custom('ArtifactArticleWealth')]e Betrachtung der Kindheit. Es wird unverhältnismäßig viel Zeit auf [Artifact.GetOwner.Custom('child_object_of_interest_random')] verwendet, doch alles in allem ist die Güte [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]."
- 
+
 # family_epic
  feature_book_title_family_epic_song:1 "Die Ballade von [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U]"
  feature_book_title_family_epic_chronicle:1 "Die Annalen von [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U]"
@@ -584,15 +635,15 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  feature_book_title_family_epic_great_chronicle:1 "Das [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U]-Chronikon"
  feature_book_title_family_epic_great_poem:1 "Die Romanze von [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U]"
  feature_book_topic_family_epic_great:1 "Ein wahrlich episches Werk über die glorreiche Familie [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U], in Auftrag gegeben von [Artifact.GetOwner.GetTitledFirstNameNoTooltipRegnal] und angereichert mit lebendigen Illustrationen [Artifact.GetOwner.Custom('DE_PRO_POS_S_3P')]er Ahnen und deren Taten."
- 
+
 #Fallback title
  feature_book_title_tome:0 "$feature_book_title_fallback$"
- 
+
 # misc
  feature_book_subject_language_manual:0 "Sprachen"
  feature_book_title_language_manual:0 "Abgenutztes Handbuch der Sprachen"
  feature_book_topic_language_manual:0 "Eine Sammlung von Notizen und Kritzeleien aus der Feder des verstorbenen Vaters von [Artifact.GetOwner.GetFirstName], einem reisenden Kaufmann, der sich die Zeit nahm, seine Kunden verstehen zu wollen. Sie enthält viele hilfreiche Kniffe und Hinweise zum Erlernen der Grundlagen einer neuen Sprache."
- 
+
  feature_book_subject_martial:0 "Kriegskunst"
  feature_book_subject_diplomacy:0 "Diplomatie"
  feature_book_subject_learning:0 "wissenschaftliche Themen"
@@ -617,7 +668,7 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  feature_book_subject_lunatic:0 "Diskrepanzen in der Wirklichkeit"
  feature_book_subject_family_epic:0 "Dynastie-Taten"
  feature_book_subject_family_epic_great:0 "Ahnen-Ruhm"
- 
+
  feature_book_topic_martial_troop_compositions:0 "Truppenzusammensetzung"
  feature_book_topic_martial_military_strategies:0 "Militärstrategien"
  feature_book_topic_martial_ancient_military_campaigns:0 "Feldzüge in der Antike"
@@ -632,18 +683,20 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  feature_book_topic_stewardship_lawmaking:0 "Gesetzgebung"
  feature_book_topic_hunter_hunter:1 "die vielen verschiedenen Wege, ein Tier zur Strecke zu bringen"
  feature_book_topic_hunter_nature:0 "Ein [SCOPE.Custom('ArtifactArticleWealth')]es Manuskript übervoll mit detaillierten Illustrationen und [SCOPE.Custom('ArtifactBookContentQuality')]en Einsichten in die Kunst der Jagd und die Schönheit der Natur."
+ feature_book_topic_hunter_falconry:0 "the different birds of prey and their care and training"
+ feature_book_topic_hunter_dogs:0 "the types of hunting hounds and their application in hunting various game"
  feature_book_topic_mystic_mystic:0 "Einsatzmöglichkeiten von Rauchwerk und Gesängen"
  feature_book_topic_artifact_book_topic_cannibal:0 "viele im menschlichen Leib verborgene Köstlichkeiten"
- 
+
  feature_book_subject_witch_not_funded:0 "[Artifact.GetOwner.GetFaith.WitchGodName]"
  feature_book_subject_witch_tooltip:0 "[Character.MakeScope.Var('book_subject_witch_scope').Char.GetFaith.WitchGodName]"
  feature_book_subject_witch:0 "[Artifact.GetOwner.MakeScope.Var('book_subject_witch_scope').Char.GetFaith.WitchGodName]"
  feature_book_topic_witch_worship_horned_god:0 "wie man [Artifact.GetOwner.MakeScope.Var('book_subject_witch_scope').Char.GetFaith.WitchGodHerHim|U] anbetet"
  feature_book_topic_witch_artifact_book_topic_witch_bible:0 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')]es Manuskript, das ein [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]es Verständnis – und viel Abscheu – für eine religiöse Schrift zeigt ([Artifact.GetOwner.MakeScope.Var('book_subject_witch_scope').Char.GetFaith.ReligiousText]). Deren Inhalte werden verspottet und stattdessen eine tiefe Hingabe in Sachen [Artifact.GetFeatureText('book_subject')] proklamiert."
- 
+
  feature_book_topic_lunatic_lunatic:0 "was die Stimmen in Eurem Kopf wirklich bedeuten"
  feature_book_topic_lunatic_voynich:0 "Ein [Artifact.GetOwner.Custom('ArtifactArticleWealth')] und umfassend illuminiertes Manuskript randvoll mit Text, Schaubildern und Illustrationen. Zu schade, dass alles in einer unbekannten, unmöglich zu lesenden Schreibschrift verfasst ist."
- 
+
  feature_book_unification:0 "die Vereinigung von Reichen"
  feature_book_topic_unification:0 "die Vereinigung von [Artifact.GetOwner.MakeScope.Var('relevant_title').Title.GetName]"
  feature_book_creation:0 "das Schaffen von Reichen"
@@ -652,24 +705,24 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  feature_book_topic_restoration:0 "die Wiederherstellung von [Artifact.GetOwner.MakeScope.Var('relevant_title').Title.GetName]"
  feature_book_subject_empire:0 "Großreiche"
  feature_book_subject_kingdom:0 "Königreiche"
- 
+
  feature_book_topic_intrigue_the_art_of_love:0 "die Kunst der körperlichen Liebe"
  feature_book_topic_medicine_medicine:0 "die Anwendung verschiedener Tränke und Salben"
  feature_book_topic_medicine_herbs:0 "die vielfältigen Verwendungsmöglichkeiten für eine Handvoll seltener Kräuter und Pflanzen"
  feature_book_topic_medicine_witch:0 "Tränke, Salben, Kräuter und alternative Methoden der Anbetung"
- 
+
  artifact_book_content_quality_excellent_article:0 "ausgezeichnet"
  artifact_book_content_quality_deep_article:0 "tiefgründig"
  artifact_book_content_quality_insightful_article:0 "erkenntnisreich"
  artifact_book_content_quality_adequate_article:0 "adäquat"
  artifact_book_content_quality_modest_article:0 "bescheiden"
- 
+
  artifact_book_content_quality_excellent:0 "ausgezeichnet"
  artifact_book_content_quality_deep:0 "tiefgründig"
  artifact_book_content_quality_insightful:0 "erkenntnisreich"
  artifact_book_content_quality_adequate:0 "adäquat"
  artifact_book_content_quality_modest:0 "bescheiden"
- 
+
  artifact_book_content_quality_excellent_adverb:0 "ausgezeichnet"
  artifact_book_content_quality_deep_adverb:0 "tiefgründig"
  artifact_book_content_quality_insightful_adverb:0 "erkenntnisreich"
@@ -678,13 +731,15 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  # travel (currently not used)
  #feature_book_title_travels: "The Travels of [inspiration_owner.GetFirstNameNoTooltip]"
  #feature_book_topic_travels: "[SCOPE.Custom('ArtifactArticleBookContentQuality')|U] account of the adventurous travels of [inspiration_owner.GetTitledFirstNameNoTooltip] to the mysterious lands of [owner.Custom('GetFarRegion')]."
+ #AGOT Modified
+ #artifact_book_topic_travels_china:0 "Cathay"
  artifact_book_topic_travels_china:0 "von Cathay"
  artifact_book_topic_travels_africa:0 "des Sudans, jenseits der Wüste Sahara"
  artifact_book_topic_travels_india:0 "von Indien"
  artifact_book_topic_travels_steppe:0 "der Steppen"
- 
- 
- 
+
+
+
  # Reliquary
  artifact_pedestal_reliquary_christian_name:0 "[SCOPE.Custom('ChristianRelicName')|U]"
  artifact_pedestal_reliquary_christian_description:1 "Ein elegantes Reliquiar, in dem sich eine heilige Reliquie befindet: [SCOPE.Custom('ChristianRelic')]."
@@ -729,7 +784,7 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  artifact_pedestal_skull_goblet_description:0 "Ein eleganter, aber makabrer Trinkkelch, der aus dem Schädel von [bp1_yearly_5601_dead_nemesis.GetFirstName] gefertigt ist."
  artifact_skull_goblet_trinket_name:0 "Schädelschmuck"
  artifact_skull_goblet_trinket_description:0 "Ein elegantes, aber makabres Schmuckstück, das aus dem Schädel von [bp1_yearly_5601_dead_nemesis.GetFirstName] gefertigt ist."
- 
+
 # ALCHEMY
  feature_elixir_youth:0 "Elixier der Jugend"
  feature_elixir_youth_desc:0 "ein Elixier, das stark genug ist, um die Jugend wiederherzustellen"
@@ -740,22 +795,21 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
  feature_glass_decoration_painted_pattern:0 "Das Glas wurde mit dem sich wiederholenden Bild von [Artifact.GetFeatureText('decoration_pattern')] bemalt"
  feature_glass_decoration_mold_blowing_pattern:0 "Das Glas wurde in eine Form geblasen, die das sich wiederholende Bild von [Artifact.GetFeatureText('decoration_pattern')] zeigt"
  feature_glass_decoration_enamel_pattern:0 "Das Glas wurde emailliert, um das sich wiederholende Bild von [Artifact.GetFeatureText('decoration_pattern')] zu zeigen"
- 
+
  create_artifact_alchemy_tooltip:0 "[inspiration_owner.GetShortUIName] erschuf ein Artefakt von [SCOPE.Custom('ArtifactQuality')]er Machart"
  create_artifact_alchemy_elixir_tooltip:0 "[inspiration_owner.GetShortUIName] erschuf ein Elixier von [SCOPE.Custom('ArtifactQuality')]er Machart"
  create_artifact_alchemy_book_tooltip:0 "[inspiration_owner.GetShortUIName] erschuf ein [SCOPE.Custom('ArtifactArticleWealth')]es, [SCOPE.Custom('ArtifactQuality')] geschriebenes Buch"
- 
+
  artifact_philosophers_stone_name:0 "Stein der Weisen"
  artifact_philosophers_stone_description:0 "In dieser Schatulle befindet sich die sagenumwobene Substanz, die in der Lage ist, unedle Metalle in Gold zu verwandeln. Die Schatulle aus [newly_created_artifact.GetFeatureText('box_material')] ist von [SCOPE.Custom('ArtifactQuality')]er Machart. [newly_created_artifact.GetFeatureText('box_decoration')]."
- 
+
  artifact_panacea_name:0 "Allheilmittel $artifact_name_prefix$"
  artifact_panacea_description:0 "Ein Heilmittel für alle bekannten Krankheiten und Leiden. Die Schatulle aus [newly_created_artifact.GetFeatureText('box_material')] ist von [SCOPE.Custom('ArtifactQuality')]er Machart. [newly_created_artifact.GetFeatureText('box_decoration')]."
- 
+
  artifact_elixir_name:0 "[newly_created_artifact.GetFeatureText('elixir_type')|U] $artifact_name_prefix$"
  artifact_elixir_description:0 "Eine [SCOPE.Custom('ArtifactArticleWealth')]e Phiole, die etwas ganz Besonderes enthält: [newly_created_artifact.Custom('ArtifactElixirTypeDesc')]. [newly_created_artifact.GetFeatureText('glass_decoration')]."
- 
- create_artifact_banner_tooltip:0 "[inspiration_owner.GetShortUIName] erschafft ein großes Banner von [SCOPE.Custom('ArtifactQuality')|l]er Machart"
 
+ create_artifact_banner_tooltip:0 "[inspiration_owner.GetShortUIName] erschafft ein großes Banner von [SCOPE.Custom('ArtifactQuality')|l]er Machart"
 
  artifact_bowl_name:0 "Schale ($artifact_name_prefix$)"
  artifact_bowl_description:0 "Ein geschmückte Schale von [SCOPE.Custom('ArtifactQuality')|l]er Machart. Sie besteht aus [newly_created_artifact.GetFeatureText('generic_material_metal')] und wurde mit interessanten Motiven in Form von [newly_created_artifact.GetFeatureText('decoration_pattern')] graviert."
@@ -774,5 +828,5 @@ artifact_wall_skull_name_legendary:3 "Schädel eines [newly_created_artifact.Cus
 
  artifact_scepter_name:0 "Zepter ($artifact_name_prefix$)"
  artifact_scepter_description:0 "Ein verziertes, dekoratives, aus Gold geschmiedetes Zepter von [SCOPE.Custom('ArtifactQuality')|l]er Machart – ein Wahrzeichen der eigenen herausgehobenen Stellung."
- 
+
  artifact_scepter_pedestal:0 "Zepter"

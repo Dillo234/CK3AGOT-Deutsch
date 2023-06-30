@@ -1,5 +1,6 @@
 ﻿l_german:
 
+
  agot_knighthood_maintenance.0005.t:0 "Meines Knappen Unglück"
  agot_knighthood_maintenance.0005.desc:0 "Unglücklicherweise ist mein Knappe [my_squire.GetName] nicht mehr in der Lage, ein Ritter zu werden. Ich muss seine Ausbildung leider abbrechen..."
  agot_knighthood_maintenance.0005.a:0 "Wie herzzereißend!"
@@ -39,35 +40,35 @@
  agot_knighthood_maintenance.0012.a:0 "Ich werde [dead_knight.Custom('DE_PRO_PER_S_3P_D')] Andenken in Ehren halten!"
  agot_knighthood_maintenance.0012.a.tt:0 "Ihr seid nun ein [Concept('knight', Ritter der Königslande')|E]. Zwar habt Ihr Euren Begleiter verloren, jedoch werdet Ihr sein Vermächtnis fortführen"
 
-agot_knighthood_maintenance.0020.t:0 "PTK Fetched"
-agot_knighthood_maintenance.0020.desc:0 "[squire_debug.GetName]'s ProgressToKnighthood is: [squire_debug.MakeScope.Var('ProgressToKnighthood').GetValue]"
-agot_knighthood_maintenance.0020.a:0 "OK!"
+ agot_knighthood_maintenance.0020.t:0 "PTK Fetched"
+ agot_knighthood_maintenance.0020.desc:0 "[squire_debug.GetName]'s ProgressToKnighthood is: [squire_debug.MakeScope.Var('ProgressToKnighthood').GetValue]"
+ agot_knighthood_maintenance.0020.a:0 "OK!"
 
-agot_knighthood_maintenance.0021.t:0 "Als Knappen nehmen (Debug)"
-agot_knighthood_maintenance.0021.desc:0 "[potential_squire.GetName] wurde euer Knappe"
-agot_knighthood_maintenance.0021.a:0 "OK!"
- 
-agot_knighthood_maintenance.0300.t:0 "Rückblick auf mein Knappendasein"
-agot_knighthood_maintenance.0300.desc:0 "Es ist nun einige Zeit verstrichen, seitdem mein Ritter gestorben ist. Seither war es mir nicht möglich, einen neuen Mentor für meine Ausbildung zu finden. Wie enttäuschend es auch ist, kann ich diesen Weg jedoch nicht länger alleine beschreiten."
-agot_knighthood_maintenance.0300.a:0 "Im Grunde bin ich kein Knappe mehr."
-agot_knighthood_maintenance.0300.a.tt:0 "Ihr setzt Eurem [Concept('squire', 'Knappendasein')|E] zunächst ein Ende. Es steht Euch jedoch frei, dieses zu einem späteren Zeitpunkt wieder aufzunehmen."
-agot_knighthood_maintenance.0300.b:0 "Was, wenn ich ein wenig schummle?"
-agot_knighthood_maintenance.0300.b.tt:0 "Ihr erkauft Euch die [Concept('knight', 'Ritterwürde')|E]."
-agot_knighthood_maintenance.0300.c:0 "Ich werde wohl nie mein Ziel erreichen, aber ich darf nicht aufgeben..."
-agot_knighthood_maintenance.0300.c.tt:0 "Ihr bleibt vorerst ein [squire|E]."
+ agot_knighthood_maintenance.0021.t:0 "Als Knappen nehmen (Debug)"
+ agot_knighthood_maintenance.0021.desc:0 "[potential_squire.GetName] wurde euer Knappe"
+ agot_knighthood_maintenance.0021.a:0 "OK!"
 
-agot_knighthood_maintenance.0400.t:0 "Der Knappe, der nichts taugte"
-agot_knighthood_maintenance.0400.desc:0 "In den letzten Jahren habe ich einen ziemlich schlechten Knappen gegeben. Dies blieb [my_knight.GetName] nicht unbemerkt. Nun ist er meiner überdrüssig geworden und teilte mir mit, dass er mich nicht länger als seinen Knappen haben will."
-agot_knighthood_maintenance.0400.a:0 "Meine Stärken liegen wohl woanders."
+ agot_knighthood_maintenance.0300.t:0 "Rückblick auf mein Knappendasein"
+ agot_knighthood_maintenance.0300.desc:0 "Es ist nun einige Zeit verstrichen, seitdem mein Ritter gestorben ist. Seither war es mir nicht möglich, einen neuen Mentor für meine Ausbildung zu finden. Wie enttäuschend es auch ist, kann ich diesen Weg jedoch nicht länger alleine beschreiten."
+ agot_knighthood_maintenance.0300.a:0 "Im Grunde bin ich kein Knappe mehr."
+ agot_knighthood_maintenance.0300.a.tt:0 "Ihr setzt Eurem [Concept('squire', 'Knappendasein')|E] zunächst ein Ende. Es steht Euch jedoch frei, dieses zu einem späteren Zeitpunkt wieder aufzunehmen."
+ agot_knighthood_maintenance.0300.b:0 "Was, wenn ich ein wenig schummle?"
+ agot_knighthood_maintenance.0300.b.tt:0 "Ihr erkauft Euch die [Concept('knight', 'Ritterwürde')|E]."
+ agot_knighthood_maintenance.0300.c:0 "Ich werde wohl nie mein Ziel erreichen, aber ich darf nicht aufgeben..."
+ agot_knighthood_maintenance.0300.c.tt:0 "Ihr bleibt vorerst ein [squire|E]."
 
-agot_knighthood_maintenance.0500.t:0 "Ein purpurner Knappe"
-agot_knighthood_maintenance.0500.desc:0 "Nachdem ich die Titel und Ländereien geerbt habe, ist klar, dass ich keine Zeit mehr für eine Ausbildung habe. Ich will meiner Regentschaft volle Aufmerksamkeit schenken sollte mich nicht von einer Ausbildung ablenken lassen."
-agot_knighthood_maintenance.0500.a:0 "Ich befehle meinem Mentor, mich zum Ritter zu schlagen!"
-agot_knighthood_maintenance.0500.b:0 "Ich befehle einem Vasallen, mich zum Ritter zu schlagen!"
-agot_knighthood_maintenance.0500.c:0 "Ich befehle einem [ROOT.Char.Custom('KingsguardName')]en mich zum Ritter zu schlagen!"  # zu testen
-agot_knighthood_maintenance.0500.d:0 "Ich befehle einem Ritter an meinem Hof, mich zum Ritter zu schlagen!"
-agot_knighthood_maintenance.0500.e:0 "Ich erkaufe mir die Ritterwürde!"
-agot_knighthood_maintenance.0500.f:0 "Wer braucht das #italic Ser#!, wenn ich jetzt #italic [ROOT.Char.GetTitleAsNameNoTooltip]#! bin!"
+ agot_knighthood_maintenance.0400.t:0 "Der Knappe, der nichts taugte"
+ agot_knighthood_maintenance.0400.desc:0 "In den letzten Jahren habe ich einen ziemlich schlechten Knappen gegeben. Dies blieb [my_knight.GetName] nicht unbemerkt. Nun ist er meiner überdrüssig geworden und teilte mir mit, dass er mich nicht länger als seinen Knappen haben will."
+ agot_knighthood_maintenance.0400.a:0 "Meine Stärken liegen wohl woanders."
+
+ agot_knighthood_maintenance.0500.t:0 "Ein purpurner Knappe"
+ agot_knighthood_maintenance.0500.desc:0 "Nachdem ich die Titel und Ländereien geerbt habe, ist klar, dass ich keine Zeit mehr für eine Ausbildung habe. Ich will meiner Regentschaft volle Aufmerksamkeit schenken sollte mich nicht von einer Ausbildung ablenken lassen."
+ agot_knighthood_maintenance.0500.a:0 "Ich befehle meinem Mentor, mich zum Ritter zu schlagen!"
+ agot_knighthood_maintenance.0500.b:0 "Ich befehle einem Vasallen, mich zum Ritter zu schlagen!"
+ agot_knighthood_maintenance.0500.c:0 "Ich befehle einem [ROOT.Char.Custom('KingsguardName')]en mich zum Ritter zu schlagen!"  # zu testen
+ agot_knighthood_maintenance.0500.d:0 "Ich befehle einem Ritter an meinem Hof, mich zum Ritter zu schlagen!"
+ agot_knighthood_maintenance.0500.e:0 "Ich erkaufe mir die Ritterwürde!"
+ agot_knighthood_maintenance.0500.f:0 "Wer braucht das #italic Ser#!, wenn ich jetzt #italic [ROOT.Char.GetTitleAsNameNoTooltip]#! bin!"
 
  agot_knighthood_maintenance.0501.opening:0 "An meinen treuen Untergebenen,"
  agot_knighthood_maintenance.0501.desc:0 "Nachdem ich die Titel und Ländereien geerbt habe, ist klar, dass ich nicht mehr die Zeit finde, ein Knappe zu bleiben. Um meiner Regentschaft volle Aufmerksamkeit widmen zu können, bitte ich Euch ergebenst darum, dass ihr mich auf der Stelle zum Ritter schlagt!"

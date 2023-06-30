@@ -9,7 +9,7 @@
  yearly.4001.a:0 "Das wird geradegerückt – koste es, was es wolle."
  yearly.4001.b:0 "[vassal.GetFirstNameNoTooltip] wird öffentlich um Eure Vergebung flehen."
  yearly.4001.c:0 "Ha, ein guter Scherz, [vassal.GetFirstNameNoTooltip]!"
- 
+
  yearly.4011.t:0 "Dicke Freunde"
  yearly.4011.desc:0 "Neuerdings sehe ich häufig, wie [heir.Custom2('MyCharacterIntroduction', ROOT.Char)] und [vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] in ein Gespräch vertieft sind. Sie scheinen wahrlich große Gemeinsamkeiten an sich entdeckt zu haben!"
  yearly.4011.a:0 "Eine solche Freundschaft wachsen zu sehen … Ich werde ihr beim Erblühen helfen."
@@ -19,7 +19,7 @@
  yearly.4011.c.toast.success:0 "Meine Gesellschaft wurde geschätzt"
  yearly.4011.c.failure:0 "Ich wirke neugierig"
  yearly.4011.c.toast.failure:0 "Ich wirkte neugierig"
- 
+
  yearly.4021.t:0 "Raufereien"
  yearly.4021.desc:0 "O weh! [child.Custom2('MyCharacterIntroduction', ROOT.Char)|U] und [vassal_kid.GetTitledFirstName], der Nachwuchs von [vassal.GetTitledFirstName], sollten sich zum Spielen treffen, doch das Vergnügen fand ein jähes Ende, als ein grauenhafter Unfall [vassal_kid.GetFirstNameNoTooltip] leblos zurückließ!\n\n„Ich schwöre es, [child.Custom2('RelationToMeShort', ROOT.Char)]. Es war nur ein Spiel!“, versichert mir [child.GetTitledFirstNameNoTooltip], während [vassal.GetTitleAsNameNoTooltip] nach Gerechtigkeit verlangt."
  yearly.4021.a:0 "Ihr werdet mein Kind nicht anrühren."
@@ -28,11 +28,11 @@
  yearly.4021.c_success:0 "[child.GetTitledFirstNameNoTooltip] hört zu und lernt etwas daraus"
  yearly.4021.c_failure:0 "[child.GetTitledFirstNameNoTooltip] lernt, dass [child.Custom('DE_PRO_POS_S_3P')] Handeln keine Konsequenzen hat"
  yearly.4021.d:0 "Ihr müsst [child.Custom('DE_PRO_PER_S_3P_D')] vergeben! Bitte. Ich würde alles tun …"
- 
+
  yearly.4022.t:0 "Die Heimkehr"
  yearly.4022.desc:0 "„Hallo, [child.Custom2('RelationToMeShort', ROOT.Char)].“ [ROOT.Char.Custom2('MyCharacterIntroduction', SCOPE.sC('child'))] wirkt nach [child.Custom('DE_PRO_POS_S_3P')]er Zeit im Gefängis von [actor.GetTitledFirstName] etwas ausgezehrt, doch das [child.Custom('quirk_neg_adjective')]e Lächeln auf [child.Custom('DE_PRO_POS_S_3P')]em Gesicht, lässt [child.Custom('DE_PRO_PER_S_3P_A')] noch lebendiger wirken als sonst.\n\n„Ich kann es gar nicht abwarten, Euch für die Lektion zu danken, die Ihr mich gelehrt habt: dass man immer seine Schulden begleichen soll.“"
  yearly.4022.a:0 "Willkommen daheim, [child.GetFirstNameNoTooltip]."
- 
+
  yearly.4031.t:0 "Ein Mörder unter uns"
  yearly.4031.desc_opening:0 "Der Gestank ist wie eine Wand, noch ehe die Tür geöffnet wird: ein heftiger Geruch nach Fleisch, der alles durchdringt. So stinken frische Leichen.\n\n"
  yearly.4031.desc_physician:0 "„Ein weiterer Mord, mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord].“ [physician.GetTitledFirstName] wischt sich die blutigen Hände an einer Schürze ab, als [physician.Custom('DE_PRO_PER_S_3P_N')] sich nach der Beschau der Leiche aufrichtet. „Wir müssen diesen wahllos mordenden Schlächter aufhalten!“"
@@ -42,7 +42,7 @@
  yearly.4031.b:0 "Begraben wir die Leiche und vergessen wir dieses Trauerspiel."
  yearly.4031.b_every_courtier:0 "Jeder Höfling"
  yearly.4031.c:0 "Als mein Maester solltet Ihr die Leichen untersuchen."
- 
+
  yearly.4061.t:0 "Der weise Narr"
  yearly.4061.desc_opening:0 "„Man nennt mich [hodja.GetTitledFirstName], mein[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]. Ich trete vor Euch, um Euch meine Weisheit anzubieten.“\n\n"
  yearly.4061.desc_guard:0 "[guard.Custom2('MyCharacterIntroduction', ROOT.Char)|U], der den Mann vor mich brachte, schaut skeptisch drein."
@@ -56,7 +56,7 @@
  yearly.4061.c.tt:0 "Ihr entlasst den Mann"
  yearly.4061.d:0 "Wie amüsant! Soll er doch gleichermaßen die Massen belustigen."
  yearly.4061.d.tt:0 "Ihr führt ihn wie einen Narren durch die Straßen"
- 
+
  yearly.4071.t:0 "Die Suche nach Wissen"
  yearly.4071.desc:0 "[councillor.Custom2('MyCharacterIntroduction', ROOT.Char)] kommt mit einem Stapel Bücher in den Armen zu mir.\n\n„Mir ist aufgefallen, dass es Euch nach Wissen dürstet."
  yearly.4071.desc_focus:0 "Insbesondere Eure kürzlichen Abstecher in Sachen [ROOT.Char.Custom('LifestyleFocus')]!"
@@ -64,8 +64,10 @@
  yearly.4071.desc_ending:0 "Vielleicht interessieren Euch ja diese Bücher hier?“"
  yearly.4071.a:0 "Ich werde sie genau studieren. Im Namen unserer heiligen Schriften!"
  yearly.4071.b:0 "Verteilt sie unter meinen Höflingen."
- 
+
  yearly.4081.t:0 "Übersetzungen"
+ #AGOT Modified
+ # yearly.4081.desc:0 ""Local scholars require sponsorships in their efforts to translate books from Greek into Arabic, my [ROOT.Char.GetLadyLord] – efforts that benefit the whole Arabic world!"\n\n[councillor.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has brought me a list of scholars that I could sponsor, and the books they are currently working on."
  yearly.4081.desc:0 ""Ansässige Gelehrte benötigen Unterstützung bei ihren Bemühungen, Schriften aus dem Valyrischen in die Gemeine Zunge zu übersetzen, [ROOT.Char.Custom('DE_MylordMylady')]; dies würde den gesamten Königslanden nutzen!"\n\n[councillor.Custom2('MyCharacterIntroduction', ROOT.Char)] bringt mir eine Liste von Gelehrten, die ich fördern könnte, und der Schriften, an denen sie derzeit arbeiten."  #Selbst geschrieben/abgetippt
  yearly.4081.a:0 "#EMP De materia medica#! … Klingt interessant!"
  yearly.4081.a.tt:0 "Ihr fördert die Übersetzung eines Buches über die Medizin"
@@ -78,14 +80,24 @@
  yearly.4081.toast:0 "Buch übersetzt"
  yearly.4081.e:0 "#EMP Über die Seele#!? Faszinierend …"
  yearly.4081.e.tt:0 "Ihr fördert die Übersetzung eines Buchs über Antriebe und Beweggründe"
+ #AGOT Modified
+ # yearly.4081.f:0 "What's this... #EMP Thucydides#!?"
  yearly.4081.f:0 "Was ist dieses... #EMP Feuer auf dem Gras#!?"  #Selbst geschrieben/abgetippt
  yearly.4081.f.tt:0 "Ihr fördert die Übersetzung eines Buchs über Militärgeschichte"
+ #AGOT Modified
+ # yearly.4081.g:0 "This #EMP Plutarch#! intrigues me."
  yearly.4081.g:0 "Dieses #EMP Das Leben des Triarchen Belicho#! finde ich spannend."  #Selbst geschrieben/abgetippt
  yearly.4081.g.tt:0 "Ihr fördert die Übersetzung einer Biografie"
  yearly.4081.tt:0 "Ihr werdet das Buch erhalten"
- 
+
+ #AGOT Modified
+ # yearly.4091.t:0 "Scholars of Baghdad"
  yearly.4091.t:0 "Die Gelehrten von [capital.GetNameNoTooltip]"  #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # yearly.4091.desc_opening:0 "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and I are out walking in Baghdad when we come across"
  yearly.4091.desc_opening:0 "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] und ich sind in [capital.GetNameNoTooltip] unterwegs, als wir"  #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # yearly.4091.desc_house:0 "the House of Wisdom."
  yearly.4091.desc_house:0 "Novizen der Zitadelle begegnen."  #Selbst geschrieben/abgetippt
  yearly.4091.desc_no_house:0 "einigen ansässigen Gelehrten begegnen."
  yearly.4091.desc:0 "\n\n"Seid gegrüßt, [ROOT.Char.Custom('DE_MylordMylady')] [ROOT.Char.GetHouse.GetNameNoTooltip]. Und auch Ihr, jung[ward.Custom('DE_END_ADJ_NUL_S_N')] [ward.GetWomanMan]. Unsere aktuelle Diskussion hätte noch einen Platz frei; möchte einer von Euch sich beteiligen?""  #Selbst geschrieben/abgetippt

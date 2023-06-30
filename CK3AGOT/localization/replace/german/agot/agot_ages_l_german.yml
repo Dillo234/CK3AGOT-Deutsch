@@ -1,5 +1,6 @@
 ﻿l_german:
  #### Generic inserts
+ #### Generic inserts
  ### Constants
 
  ## Era Dates
@@ -10,7 +11,7 @@
 
  ### In-Game
  ## DATE Replacements
- # ERAa
+ # ERA
  ERA_SEL_IG:0 "[Select_CString( GreaterThan_int32(FixedPointToInt(EmptyScope.ScriptValue('era_4_year')), '(int32)1'), $ERA_4E_IG$, $ERA_3E_IG$)]"
  ERA_4E_IG:0 "Select_CString( GreaterThan_int32( '(int32)$YEAR$', FixedPointToInt(EmptyScope.ScriptValue('era_4_year'))), '4.Z.', $ERA_2E_IG$ )"
  ERA_3E_IG:0 "Select_CString( GreaterThan_int32( '(int32)$YEAR$', $ERA_DOOM_END$), 'n.A.E.', $ERA_2E_IG$ )"
@@ -37,7 +38,7 @@
  YEAR_2E_DYNFOUND:0 "Select_int32( GreaterThanOrEqualTo_int32( DynastyHouse.GetFoundYear, $ERA_ANDAL_END$), Subtract_int32( DynastyHouse.GetFoundYear, $ERA_ANDAL_END$ ) , $YEAR_1E_DYNFOUND$ )"
  YEAR_1E_DYNFOUND:0 "Select_int32( GreaterThan_int32( DynastyHouse.GetFoundYear, $ERA_HEROES_END$), Subtract_int32( DynastyHouse.GetFoundYear, $ERA_HEROES_END$ ) , $YEAR_YT_DYNFOUND$ )"
  YEAR_YT_DYNFOUND:0 "Select_int32( GreaterThan_int32( DynastyHouse.GetFoundYear, $ERA_DAWN_END$), Subtract_int32( DynastyHouse.GetFoundYear, $ERA_DAWN_END$ ) , DynastyHouse.GetFoundYear )"
- 
+
  ### Ruler Designer Birth Date
  ## DATE Replacements
  # ERA
@@ -106,7 +107,7 @@
  YEAR_SEL_MPGSBD:0 "[Select_int32( GreaterThanOrEqualTo_int32($ERA_DOOM_END$, '(int32)1'), $YEAR_3E_MPGSBD$, $YEAR_2E_MPGSBD$)]"
  YEAR_3E_MPGSBD:0 "Select_int32( GreaterThanOrEqualTo_int32( GameMpSetup.GetSelectedBookmark.GetDate.GetYear, $ERA_DOOM_END$), Subtract_int32( GameMpSetup.GetSelectedBookmark.GetDate.GetYear, Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThanOrEqualTo_int32( GameMpSetup.GetSelectedBookmark.GetDate.GetYear, $ERA_DOOM_END$ ) ), '(int32)1' ), $ERA_DOOM_END$ ) ), $YEAR_2E_MPGSBD$ )"
  YEAR_2E_MPGSBD:0 "Subtract_int32( GameMpSetup.GetSelectedBookmark.GetDate.GetYear, Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThanOrEqualTo_int32( GameMpSetup.GetSelectedBookmark.GetDate.GetYear, $ERA_ANDAL_END$ ) ), '(int32)1' ), $ERA_ANDAL_END$ ) )"
- 
+
  ### DATE_STRING replacements
  GAME_DATE_STRING:0 "$DAY|O$ $MONTH$, $YEAR_SEL_IG$ $ERA_SEL_IG$"
  GAME_DATE_STRING_SHORT:0 "$DAY|O$ $MONTH_SHORT$, $YEAR_SEL_IG$ $ERA_SEL_IG$"
@@ -116,12 +117,12 @@
  HOUSE_LIST_FOUNDATION:0 "Gegründet in $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$"
  RULER_DESIGNER_BIRTH_YEAR:0 "Geboren: $ERA_SEL_RULDESBIRTH$ $YEAR_SEL_RULDESBIRTH$"
  BOOKMARK_DATE_STRING:0 "$DAY|O$ $MONTH$, $YEAR_SEL_IG$ $ERA_SEL_IG$"
- 
+
  ### Text replacements in main menu
  FRONTEND_CONTINUE_TT:0 "#T Von Spielstand fortsetzen\n#!"[SaveGameItem.GetName]"\n[SaveGameItem.GetPlayerName|V]\n[SaveGameItem.GetTitleName|VU]\n[SaveGameItem.GetDate.GetStringShortNoYear|V], $ERA_SEL_SGI$ $YEAR_SEL_SGI$\n[Select_CString(SaveGameItem.IsCloudSave, 'Cloud-Speicherstand', '' )]"
  LOAD_SAVE_ITEM_DATE:0 "Date: [SaveGameItem.GetDate.GetStringShortNoYear], $ERA_SEL_SGI$ $YEAR_SEL_SGI$"
  PICK_ANY_CHARACTER:0 "Spielt als Herrscher im Jahr #light_background;bold $ERA_SEL_SR$ $YEAR_SEL_SR$#!..."
- 
+
  ### Replacements in GUI files 
  ## gui/frontend_bookmarks.gui
  # Default: [GameSetup.GetSelectedDate.GetStringLong]

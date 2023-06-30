@@ -1,5 +1,6 @@
 ﻿l_german:
  ## Custom Loc
+ ## Custom Loc
  nc_fbeauty:0 "wunderschön"
  nc_mbeauty:0 "stattlich"
  nc_charming:0 "reizend"
@@ -24,7 +25,7 @@
  gbm_lilith:0 "Lilith selbst"
  gbm_default:0 "einer Göttin"
  gbm_male_default:0 "einem Gott"
- 
+
  ## Modifiers
   # Event Interaction Modifiers
  event_bonus_to_county_control:0 "Erfahrener Gemeindekontrolleur"
@@ -99,6 +100,8 @@
 # Former soldier has lost his mind and challenges you to a duel, hold_court.7050
  hold_court.7050.title:0 "Folgen des Krieges"
  hold_court.7050.desc:1 "Aus dem hinteren Teil meines Hofes erhebt sich ein Tumult. Noch ehe [lunatic_soldier.Custom('DE_PRO_PER_S_3P_A')] jemand ergreifen kann, stürmt [lunatic_soldier.Custom('DE_ART_IND_N')] [lunatic_soldier.GetWomanMan] zu meinem Thron und bleibt vor mir stehen, ohne mir Respekt zu zollen. Der Blick in [lunatic_soldier.Custom('DE_PRO_POS_S_3P')]en Augen verrät bereits alles, was ich wissen muss – [Select_CString(lunatic_soldier.IsFemale, 'diese', 'dieser')] [lunatic_soldier.GetWomanMan] ist geistig nicht gesund.\n\n„Monster! Ihr habt uns in den Tod geschickt! Warum bleibt dies ungestraft?“\n\nAus dem Geschimpfe entnehme ich, dass [lunatic_soldier.Custom('DE_PRO_PER_S_3P_N')] irgendwie in einen meiner Kriege verwickelt war, was wahrscheinlich auch der Grund ist, warum [lunatic_soldier.Custom('DE_PRO_PER_S_3P_N')] so verzweifelt ist. Wie soll ich mit dieser verlorenen Kreatur umgehen?"
+ #AGOT Modified
+ #hold_court.7050.a:1 "Ask Court Physician [court_physician.GetNameNoTooltip] to care for them."
  hold_court.7050.a:1 "Bittet [court_physician.GetNameNoTooltip] darum, sich der Angelegenheit anzunehmen."  #Selbst geschrieben/abgetippt
  hold_court.7050.b:0 "Gebt [lunatic_soldier.Custom('DE_PRO_PER_S_3P_D')] den Tod, den [lunatic_soldier.Custom('DE_PRO_PER_S_3P_N')] will."
  hold_court.7050.b.tt:1 "Ihr befindet Euch umgehend im [single_combat_fight|E] mit [lunatic_soldier.GetName].\n@warning_icon!#X Dies ist riskant und führt zu Eurem Tod, falls Ihr verliert.#!"

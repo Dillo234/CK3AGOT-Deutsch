@@ -67,9 +67,9 @@
  game_concept_absolute_crown_authority:0 "Absolute Lehnsautorität"
  game_concept_absolute_crown_authority_desc:2 "$game_concept_absolute_crown_authority$ ist die höchste Stufe der [crown_authority|E]. Auf dieser Stufe erleiden [vassals|E] einen #N -30#! Abzug auf die [opinion|E] von ihrem [Concept('liege', 'Lehnsherrn')|E].\n\nNeben den bei [Concept('high', 'Hoher')|E] und [Concept('limited', 'Begrenzter')|E] Lehnsautorität genannten Auswirkungen kann der Herrscher auf dieser Stufe auch für gewisse [prestige|E]-Kosten einen [Concept('designated_heir', 'Designierten Nachfolger')|E] bestimmen.\n\nVasallen können nun keinen Krieg mehr erklären, nicht einmal gegenüber fremden Herrschern."
  game_concept_tribal_authority:0 "Stammesautorität"
- # game_concept_tribal_authority_desc:2 "$game_concept_tribal_authority$ stellt den allgemeinen Einfluss dar, den ein [Concept('tribal', 'Stammes')|E]-[Concept('ruler', 'Herrscher')|E] über seine [vassals|E] hat. Verglichen mit der [crown_authority|E] bietet sie weniger Macht und diese auch erst auf späteren Stufen.\n\nDie $game_concept_tribal_authority$ hat vier Abstufungen: [Concept('disparate_tribes', 'Ungleiche Stammesautorität')|E], [Concept('limited_tribal', 'Begrenzte Stammesautorität')|E], [Concept('high_tribal', 'Hohe Stammesautorität')|E] und [Concept('absolute_tribal', 'Absolute Stammesautorität')|E]. Um die $game_concept_tribal_authority$ zu erhöhen, braucht man [prestige|E], je nach der entsprechenden Stufe und dem [Concept('learning_skill', 'Bildungswert')|E] des Herrschers. Es ist aber generell teurer, als die Lehnsautorität zu steigern.\n\n#weak Vasallen mögen die höheren Stufen der $game_concept_tribal_authority$ nicht: Ihre Senkung ist das Hauptziel der [liberty_faction|E].#!"
+ #AGOT Modified
+ #game_concept_tribal_authority_desc:2 "$game_concept_tribal_authority$ represents the general influence that a [tribal|E] [ruler|E] wields over their [vassals|E]. Compared to [crown_authority|E], it offers fewer powers and at later levels.\n\nThere are four levels of $game_concept_tribal_authority$: [disparate_tribes|E], [limited_tribal|E], [high_tribal|E], and [absolute_tribal|E]. Increasing $game_concept_tribal_authority$ costs an amount of [prestige|E] depending on the level and the ruler's [learning_skill|E], but is generally more expensive than increasing crown authority.\n\n#weak Vassals dislike higher levels of $game_concept_tribal_authority$, and lowering it is the primary goal of any [liberty_faction|E].#!"
  game_concept_absolute_tribal_authority_desc:0 "$game_concept_absolute_tribal_authority$ ist die höchste Stufe der [tribal_authority|E]. Auf dieser Stufe erleiden [vassals|E] einen #N -30#! Abzug auf die [opinion|E] von ihrem [Concept('liege', 'Lehnsherrn')|E].\n\nNeben den bei [Concept('limited_tribal', 'Begrenzter Stammesautorität')|E] und [Concept('high_tribal', 'Hoher Stammesautorität')|E] genannten Auswirkungen kann der Herrscher nun auch sesshaft und damit [feudal|E] werden.\n\nNicht reformierte [GetReligionFamily('rf_valyrian').GetName|l]e [Concept('tribe', 'Stammes')|E]-[rulers] müssen dafür ihren [Concept('faith', 'Glauben')|E] reformieren."
- game_concept_disparate_tribes:0 "Ungleiche Stämme"
  game_concept_disparate_tribes_tribal_authority:0 "Ungleiche Stammesautorität"
  game_concept_disparate_tribes_tribal_authority_desc:0 "$game_concept_disparate_tribes$ ist die niedrigste Stufe der [tribal_authority|E]. Auf dieser Stufe erleiden [vassals|E] keinen Abzug auf die [opinion|E] von ihrem [Concept('liege', 'Lehnsherrn')|E]; der Lehnsherr hat allerdings auch gar keine Macht über sie abgesehen davon, dass er [levies|E] und [taxes|E] erhält."
  game_concept_limited_tribal:0 "Begrenzt"
@@ -80,8 +80,9 @@
  game_concept_high_tribal_authority_desc:0 "$game_concept_high_tribal_authority$ ist die zweithöchste Stufe der [tribal_authority|E]. Auf dieser Stufe erleiden [vassals|E] einen #N -20#! Abzug auf die [opinion|E] von ihrem [Concept('liege', 'Lehnsherrn')|E].\n\nAuf dieser Stufe kann der Lehnsherr [characters|E] [imprison|E] sowie [titles|E] [revoke|E] und Vasallen des Vasallen [retract|E]."
  game_concept_absolute_tribal:0 "Absolut"
  game_concept_absolute_tribal_authority:0 "Absolute Stammesautorität"
- # game_concept_absolute_tribal_authority_desc:0 "$game_concept_absolute_tribal_authority$ ist die höchste Stufe der [tribal_authority|E]. Auf dieser Stufe erleiden [vassals|E] einen #N -30#! Abzug auf die [opinion|E] von ihrem [Concept('liege', 'Lehnsherrn')|E].\n\nNeben den bei [Concept('limited_tribal', 'Begrenzter Stammesautorität')|E] und [Concept('high_tribal', 'Hoher Stammesautorität')|E] genannten Auswirkungen kann der Herrscher nun auch sesshaft und damit [feudal|E] werden.\n\nNicht reformierte [GetReligionFamily('rf_valyrian').GetName|l]e [Concept('tribe', 'Stammes')|E]-[rulers] müssen dafür ihren [Concept('faith', 'Glauben')|E] reformieren." #Selbst geschrieben/abgetippt
- game_concept_absolute_tribal_authority_desc:0 "$game_concept_absolute_tribal_authority$ ist die höchste Stufe der [tribal_authority|E]. Auf dieser Stufe erleiden [vassals|E] einen #N -30#! Abzug auf die [opinion|E] von ihrem [Concept('liege', 'Lehnsherrn')|E].\n\nNeben den bei [Concept('limited_tribal', 'Begrenzter Stammesautorität')|E] und [Concept('high_tribal', 'Hoher Stammesautorität')|E] genannten Auswirkungen kann der Herrscher nun auch sesshaft und damit [feudal|E] werden.\n\nNicht reformierte [GetReligionFamily('rf_valyrian').GetName|l]e [Concept('tribe', 'Stammes')|E]-[rulers] müssen dafür ihren [Concept('faith', 'Glauben')|E] reformieren."
+ #AGOT Modified
+ #game_concept_absolute_tribal_authority_desc:0 "$game_concept_absolute_tribal_authority$ is the highest level of [tribal_authority|E]. [vassals|E] have a #N -30#! [opinion|E] penalty towards their [liege|E].\n\nAt this level, in addition to the effects of [limited_tribal|E] and [high_tribal_authority|E], rulers can now settle and become [feudal|E].\n\nUnreformed [tribal|E] [GetReligionFamily('rf_pagan').GetName] rulers require this law to reform their [faith|E]."
+ #game_concept_absolute_tribal_authority_desc0:0 "$game_concept_absolute_tribal_authority$ ist die höchste Stufe der [tribal_authority|E]. Auf dieser Stufe erleiden [vassals|E] einen #N -30#! Abzug auf die [opinion|E] von ihrem [Concept('liege', 'Lehnsherrn')|E].\n\nNeben den bei [Concept('limited_tribal', 'Begrenzter Stammesautorität')|E] und [Concept('high_tribal', 'Hoher Stammesautorität')|E] genannten Auswirkungen kann der Herrscher nun auch sesshaft und damit [feudal|E] werden.\n\nNicht reformierte [GetReligionFamily('rf_valyrian').GetName|l]e [Concept('tribe', 'Stammes')|E]-[rulers] müssen dafür ihren [Concept('faith', 'Glauben')|E] reformieren."
  game_concept_powerful_vassal:0 "Mächtiger Vasall"
  game_concept_powerful_vassal_powerful:0 "Mächtig"
  game_concept_powerful_vassals:0 "Mächtige Vasallen"
@@ -127,39 +128,37 @@
  game_concept_disinherits:0 "enterbt"
  game_concept_disinherit_desc:1 "Ein [dynast|E] kann Mitglieder seiner [dynasty|E] zum Preis von [dynasty_prestige|E] enterben.\n\nSo werden Mitglieder der Dynastie aus der üblichen [line_of_succession|E] aller Titel entfernt, die derzeit von anderen Mitglieder der Dynastie gehalten werden."
  game_concept_council:0 "Rat"
+ #AGOT Modified
+ #game_concept_council_desc:0 "The $game_concept_council$ consists of six [councillors|E] who assist their [ruler|E] in the administration of the [realm|E]. As the heads of their respective departments, they can be assigned various important [councillor_tasks|E]."
  game_concept_council_desc:0 " Der $game_concept_council$ umfasst mehrere [councillors|E], die dem [ruler|E] bei der Verwaltung seines [Concept('realm', 'Reichs')|E] zur Seite stehen. Sie stehen einem entsprechenden Zweig des Rates vor und können verschiedene wichtige [councillor_tasks|E] übernehmen." #Selbst geschrieben/abgetippt
  game_concept_councillor:0 "Ratsmitglied"
  game_concept_councillors:0 "Ratsmitglieder"
+ #AGOT Modified
+ #game_concept_councillor_desc:2 "Councillors are the primary assistants of any [ruler|E], and make up the [council|E]. There are six positions on the council: [chancellor|E], [marshal|E], [steward|E], [spymaster|E], [court_chaplain|E] (or [realm_priest|E]), and finally your [spouse|E].\n\nEach is in charge of a department that can be given different [councillor_tasks|E] to perform.\n\n[powerful_vassals|E] will be upset if not appointed to one of these positions, meaning you often have to make a choice between placating a powerful vassal or appointing someone who is actually competent.\n\nServing as a Councillor to your [liege|E] gives you a bonus, which increases with the [rank|E] of the Liege."
  game_concept_councillor_desc:2 "Ratsmitglieder sind die wichtigsten Berater eines [ruler|E]s und bilden den [council|E]. Es gibt viele mögliche Ämter im Rat: [chancellor|E], [marshal|E], [steward|E], [spymaster|E], [court_chaplain|E] (oder [realm_priest|E]), [chancellor|E] und schließlich Euer [spouse|E].\n\nJeder ist einem Amt zugeordnet, dem verschiedene [councillor_tasks|E] zur Ausführung übertragen werden können.\n\n [powerful_vassals|E] werden werden verärgert sein, wenn sie nicht in eines dieser Ämter berufen werden. Das bedeutet, dass Ihr Euch oft entscheiden müsst, ob Ihr einen mächtigen Vasallen besänftigen oder jemanden ernennen wollt, der tatsächlich kompetent ist.\n\nDer Dienst als Ratsherr Eures [liege|E] gibt Euch einen Bonus, der mit dem [rank|E] des Lehnsherrn steigt." #Selbst geschrieben/abgetippt
  game_concept_councillor_task:0 "Ratsaufgabe"
  game_concept_councillor_tasks:0 "Ratsaufgaben"
  game_concept_councillor_task_desc:1 "$game_concept_councillor_tasks$ sind wichtige Aufgaben, mit denen man seine [councillors|E] betraut. Dies können allgemeine Aufgaben sein oder nur bestimmte Orte (wie eine [county|E] oder einen [court|E]) betreffen.\n\nJe nachdem welche [relation|E] Ihr zu einem Ratsmitglied habt, können Aufgaben länger oder kürzer dauern.\n\n#weak Die Ratsmitglieder sind übrigens nicht körperlich vor Ort, um diese Aufgaben durchzuführen, sondern leiten vielmehr andere dabei an.#!"
  game_concept_councillor_task_possible_side_effects:0 "Mögliche Nebeneffekte"
  game_concept_councillor_task_possible_side_effects_desc:2 "Eine [councillor_task|E] kann im Lauf der Zeit unerwartete Nebeneffekte haben. Diese können gut oder schlecht sein, wobei gute Effekte wahrscheinlicher sind, wenn der entsprechende [skill|E] des Ratsmitglieds hoch ist, wohingegen schlechte bei einem niedrigen Wert wahrscheinlicher sind."
-
  game_concept_chancellor:0 "Ratskanzler"
  game_concept_chancellors:0 "Ratskanzler"
  game_concept_chancellor_desc:0 "Der $game_concept_chancellor$ ist als [councillor|E] verantwortlich für diplomatische Bemühungen innerhalb wie außerhalb des [Concept('realm', 'Reichs')|E]."
-
  game_concept_steward:0 "Ratsverwalter"
  game_concept_stewards:0 "Ratsverwalter"
  game_concept_steward_desc:0 "Der $game_concept_steward$ ist als [councillor|E] verantwortlich für die Verwaltung der [domain|E], zum Beispiel was [taxation|E], [culture|E] und [development|E] angeht."
-
  game_concept_marshal:0 "Ratsmarschall"
  game_concept_marshals:0 "Ratsmarschälle"
  game_concept_marshal_desc:0 "Der $game_concept_marshal$ ist der Oberbefehlshaber und als [councillor|E] verantwortlich für allgemeine militärische Angelegenheiten."
-
  game_concept_spymaster:0 "Ratsspitzel"
  game_concept_spymaster_desc:1 "Der $game_concept_spymaster$ ist als [councillor|E] verantwortlich für alle Ränkespiele und Spionage. Vor illoyalen Ratsspitzeln sei ausdrücklich gewarnt: Sie können ihre Beteiligung an einem [GetScheme('murder').GetTypeName] gegen den Herrscher und seine Familie leicht verschleiern!"
  game_concept_court_chaplain:0 "Ratsprediger"
  game_concept_court_chaplains:0 "Ratsprediger"
  game_concept_court_chaplain_desc:0 "Der $game_concept_court_chaplain$ ist als [councillor|E] verantwortlich für religiöse und geistige Angelegenheiten sowie Glaubensfragen bezüglich der [GetFaithDoctrine('doctrine_theocracy_lay_clergy').GetBaseName]-[doctrine|E].\n\nGlaubensformen mit der Doktrin [GetFaithDoctrine('doctrine_theocracy_temporal').GetBaseName] haben einen wesentlich mächtigeren (und lästigeren) [realm_priest|E] statt eines $game_concept_court_chaplain$s."
-
  game_concept_realm_priest:0 "Reichspriester"
  game_concept_realm_priests:0 "Reichspriester"
  game_concept_realm_priest_possessive:0 "des Reichspriesters"
  game_concept_realm_priest_desc:0 "Ein $game_concept_realm_priest$ ist als [councillor|E] verantwortlich für religiöse und geistige Angelegenheiten sowie [Concept('faith', 'Glaubensfragen')|E] bezüglich der [doctrine|E] [GetFaithDoctrine('doctrine_theocracy_temporal').GetBaseName].\n\nIm Gegensatz zu ihren Gegenstücken - den [Concept('court_chaplains', 'Ratspredigern')|E] - werden automatisch alle [temple_holdings|E] in der [domain|E] eines [Concept('ruler', 'Herrschers')|E] an $game_concept_realm_priests$ [leased|E] und dieser erhält einen Anteil der [taxes|E] und [levies|E] von $game_concept_realm_priests$-[vassals|E].\n\n$game_concept_realm_priests$ gewähren ihrem [Concept('liege', 'Lehnsherrn')|E] nur Aufgebote und Steuern, wenn sie eine positive Meinung von ihm haben. Je höher die [opinion|E] über den [Concept('liege', 'Lehnsherrn')|E], desto mehr gewähren sie auch.\n\n$game_concept_realm_priests$ mit einer niedrigen Meinung von ihrem Lehnsherrn werden ihm gar keine Steuern und Aufgebote gewähren und können ihm Probleme machen."
-
  game_concept_law:0 "Gesetz"
  game_concept_laws:0 "Gesetze"
  game_concept_law_desc:0 "Die Gesetze eines Reichs bestimmen darüber, wie das Reich strukturiert ist. Das grundlegendste Gesetz ist die [crown_authority|E] (oder [tribal_authority|E] für Stämme), da sie festlegt, wie [lieges|E] und [vassals|E] in der Regel miteinander umgehen.\n\nAuch wenn sie kaum einen Einfluss auf das tagtägliche Leben der Herrscher eines Reichs haben, sind [succession_laws|E] und [title_laws|E] doch sehr wichtig, wenn es zu einer [succession|E] kommt."
@@ -252,6 +251,8 @@
  game_concept_culture_desc:1 "Die $game_concept_culture$ steht für die Sprache und die Bräuche eines Charakters oder einer [county|E].\n\nCharaktere aus verschiedenen Kulturen haben schlechtere [opinions|E] voneinander. Dieser Abzug kann verringert werden, indem man die [cultural_acceptance|E] erhöht."
  game_concept_religion:0 "Religion"
  game_concept_religions:0 "Religionen"
+ #AGOT Modified
+ #game_concept_religion_desc:0 "A $game_concept_religion$ can consist of many different denominations, called [faiths|E]. Religions, in turn, belong to one of three larger [religious_families|E]; [GetReligionFamily('rf_abrahamic').GetName], [GetReligionFamily('rf_eastern').GetName] or [GetReligionFamily('rf_pagan').GetName]."
  game_concept_religion_desc:0 "Eine $game_concept_religion$ kann aus vielen verschiedenen Konfessionen bestehen, die man [faiths|E] nennt. Religionen wiederum gehören zu einer von drei großen [religious_families|E]: [GetReligionFamily('rf_faith_of_the_seven').GetName], [GetReligionFamily('rf_westerosi').GetName] oder [GetReligionFamily('rf_valyrian').GetName]." #Selbst geschrieben/abgetippt
  game_concept_heresy:0 "Ketzerei"
  game_concept_heresies:0 "Ketzereien"
@@ -283,6 +284,7 @@
  game_concept_capital_duchy_desc:1 "Der $game_concept_capital_duchy$-Modifikator erhöht die Menge an [levies|E], die Ihr von allen [holdings|E] erhaltet, die Ihr im selben [de_jure|E]-[duchy|E] wie Eurem [capital|E] haltet. Es gewährt auch allem [Concept('stationed', 'stationierten')|E] [men_at_arms|E] einen Bonus. Damit dieser Modifikator aktiv ist, müsst Ihr persönlich das entsprechende Herzogtum halten.\n\nDieser Modifikator ist nicht mit dem Reichssitz-Bonus stapelbar."
  game_concept_liege:0 "Lehnsherr"
  game_concept_lieges:1 "Lehnsherren"
+ game_concept_liege_possessive:0 "Liege's"
  game_concept_liege_desc:0 "Ein $game_concept_liege$ ist ein [ruler|E] mit mindestens einem [Concept('vassal', 'Vasallen')|E]. Lehnsherren können selbst wiederum Vasallen eines höher gestellten Herrschers sein (die wiederum Lehnsherren haben können)."
  game_concept_rightful_liege:0 "Rechtmäßiger Lehnsherr"
  game_concept_rightful_liege_desc:1 "$game_concept_rightful_liege_desc_part1$\n\n$game_concept_rightful_liege_desc_part2$"
@@ -616,7 +618,7 @@
  game_concept_learning_skill:0 "Bildungswert"
  game_concept_learning_skill_desc:1 "$game_concept_learning$ ist ein [skill|E], der bemisst, wie belesen und weise ein Charakter ist. Der Bildungswert eines [Concept('ruler', 'Herrschers')|E] wirkt sich auf die Erhöhung der [crown_authority|E] und auf die monatliche [piety|E] aus.\n\nCharaktere mit hoher Bildung verfügen über ein ausgedehntes Wissen in üblichen Forschungsfeldern, darunter Theologie, Philosophie, Sprachen und Mathematik.\n\nDer entsprechende [lifestyle|E] ist der [learning_lifestyle|E]."
  PROWESS_MUSCLE_INFO:0 "Euer Kampfgeschick zu erhöhen, wird die Muskelmasse des Charakters vergrößern."
- PROWESS_MUSCLE_INFO:1 "Euer Kampfgeschick auf natürlichem Weg #weak (ohne den Einsatz von [artifacts|E])#! zu erhöhen, wird die Muskelmasse des Charakters vergrößern."
+ PROWESS_MUSCLE_INFO_PERSONAL:0 "Increasing [prowess|E] will increase your muscle mass"
  game_concept_prowess:0 "Kampfgeschick"
  game_concept_prowess_i:0 "@skill_prowess_icon!"
  game_concept_prowess_skill:0 "Kampfgeschickwert"
@@ -641,6 +643,7 @@
  game_concept_decisions:0 "Entscheidungen"
  game_concept_decide:0 "Entscheiden"
  game_concept_decision_desc:1 "Eine $game_concept_decision$ ist eine besondere Aktion, die ein [character|E] nach Belieben durchführen kann.\n\nJede Entscheidung hat eigene Auswirkungen, die bei niederen Charakteren beginnen oder ganze [Concept('empire', 'Großreiche')|E] erschüttern können.\n\nEntscheidungen, die einen Charakter für eine gewisse Zeit an einen bestimmten Ort bewegen, nennt man [activities|E]."
+
  game_concept_activity:0 "Aktivität"
  game_concept_activities:0 "Aktivitäten"
  game_concept_activity_desc:3 "Eine $game_concept_activity$ ist ein besonderer Anlass, der zu einem bestimmten Zweck veranstaltet wird (beispielsweise eine [GetActivityType('activity_hunt').GetName]), um [stress|E] abzubauen.\n\nDer [activity_host_short|E] hält die Aktivität an einem bestimmten [location|E] ab, der sie auf verschiedene Weise beeinflusst, und jeder, der teilnimmt, muss dorthin [travel|E].\n\nDie teilnehmenden Charaktere interagieren miteinander, wobei sie einen [intent|E] festlegen, den sie während der Aktivität verfolgen wollen.[SelectLocalization( HasDlcFeature('advanced_activities'), 'game_concept_activity_desc_GRAND_ACTIVITY_DLC', '')]"
@@ -679,7 +682,6 @@
 
  game_concept_feast:0 "$activity_feast$"
  game_concept_feast_desc:2 "Eine [activity|E], bei der Herrscher und Höflinge eines Reichs sich versammeln, um zu feiern … das eine oder andere.\n\nTeilnehmer verlieren [stress|E] und verbessern ihre [opinion|E] vom Gastgeber. Es hat aber auch einige Konsequenzen, wenn so viele Menschen zusammenkommen.\n\nEin [ruler|E] wird seinen [Concept('liege', 'Lehnsherrn')|E] und seine [vassals|E] (sowie verschiedene [courtiers|E]) zu einem $activity_feast$ einladen."
-
  game_concept_hunt_success_chance:0 "Jagd-Erfolgschance"
  game_concept_hunt_success_chance_no_prefix:0 "Erfolgschance"
  game_concept_hunt_success_chance_desc:1 "Brecht Ihr auf eine [GetActivityType('activity_hunt').GetName] auf, gibt es keine Garantie, dass Ihr Eure Beute in die Enge treibt. Die wichtigsten Faktoren sind:\n$BULLET_WITH_TAB$[GetTrait('lifestyle_hunter').GetName(GetNullCharacter)]-[trait_level_track_xp|E]\n$BULLET_WITH_TAB$[GetCourtPositionType('master_of_hunt_court_position').GetName()]-[aptitude|E]\n$BULLET_WITH_TAB$[buildings|E], [terrain|E] und [development|E]\n$BULLET_WITH_TAB$Tier-[Concept('hunt_sightings_no_prefix', 'Sichtungen')]\n\nDie $game_concept_hunt_success_chance$ kann nie höher als #V 80#! sein.\n\n#weak Erfolgreiche Jagden enden mit dem Erlegen der Beute, wobei Trophäen-[artifacts|E] errungen werden können und dem Jäger großes [prestige_i|E][prestige|E] verleihen.#!"
@@ -687,10 +689,8 @@
  game_concept_hunt_danger_no_prefix:0 "Gefahr"
  game_concept_hunt_dangerous:0 "gefährlich"
  game_concept_hunt_danger_desc:1 "Die Unberechenbarkeit selbst sanftmütiger Wildtiere gepaart mit der Raserei der Jagd hat schon so manch mächtigen Krieger ins Verderben gestürzt.\n\nGefährlichere Tiere gewähren dem Jäger mehr [prestige_i|E][prestige|E].\n\nAuch die Abgeschiedenheit der Wildnis und die Fülle an Möglichkeiten sollten bei der Auswahl der Gäste nicht außer Acht gelassen werden …"
-
  game_concept_playdate:0 "$activity_playdate$"
  game_concept_playdate_desc:0 "Eine [activity|E], bei der junge Herrscher und Höflinge eines Reichs sich versammeln, um zu spielen und die Trostlosigkeit des Alltags zu vergessen.\n\nTeilnehmer verlieren [stress|E] und verbessern ihre [opinion|E] vom Gastgeber. Es hat aber unter Umständen auch einige Konsequenzen, wenn so viele Kinder zusammenkommen.\n\nEin [ruler|E] wird seinen [Concept('liege', 'Lehnsherrn')|E] und seine [vassals|E] (sowie verschiedene [courtiers|E]) zu einem $activity_playdate$ einladen."
-
  game_concept_wedding_ceremony:0 "Zeremonie"
  game_concept_wedding_ceremony_desc:0 "Die [activity_phase|E] einer [GetActivityType('activity_wedding').GetName], bei der die [spouses|E] sich das Eheversprechen geben und [married|E] werden."
  game_concept_wedding_banquet:0 "Bankett"
@@ -701,7 +701,6 @@
  game_concept_grand_wedding_promises:0 "Prachthochzeit-Versprechen"
  game_concept_grand_wedding_promised:0 "versprochen"
  game_concept_grand_wedding_promise_desc:0 "Ein [betrothal|E] mit dem Versprechen, dass der Ehebund der beiden beteiligten Charaktere mit einer [GetActivityType('activity_wedding').GetName] gefeiert werden wird.\n\nDas Prachthochzeit-Versprechen läuft nach 3 Jahren ab. Wird nicht rechtzeitig eine [GetActivityType('activity_wedding').GetName] veranstaltet oder wird das Verlöbnis gebrochen, sieht man sich schwerwiegenden Folgen gegenüber."
-
  game_concept_taxes:0 "Steuern"
  game_concept_tax:0 "Steuer"
  game_concept_taxation:0 "Besteuerung"
@@ -853,6 +852,7 @@
  game_concept_wanderer:0 "Wanderer"
  game_concept_wanderers:0 "Wanderer"
  game_concept_wanderer_desc:0 "Charaktere, die nicht zu einem [court|E] gehören oder keine [titles|E] halten, werden Wanderer genannt. Sie bereisen die Welt und besuchen auf ihrem Weg Höfe als [guests|E]. Wanderer können [mercenary|E]-Hauptmänner, Anführer von [holy_orders|E], [clergy|E]-Mitglieder oder [city|E]-Träger werden."
+
  game_concept_court_host:0 "Hofgastgeber"
  game_concept_court_host_desc:2 "Ein $game_concept_court_host$ ist ein [ruler|E], der nicht der Lehnsherr eines Charakters ist, ihn aber trotzdem an seinem [court|E] beherbergt.\n\nEs gibt verschiedene Gründe, deretwegen dies vorkommen kann, beispielsweise bei [Concept('wanderers', 'Wanderern')|E], Herrschern auf Besuch oder [Concept('wards', 'Mündeln')|E], die sich am selben Hof wie ihr [guardian|E] aufhalten."
  game_concept_host:0 "Gastgeber"
@@ -1108,10 +1108,12 @@
  game_concept_holy_site:0 "Heilige Stätte"
  game_concept_holy_sites:0 "Heilige Stätten"
  game_concept_holy_site_desc:1 "Eine $game_concept_holy_site$ ist eine [county|E], die einen Ort von religiöser Bedeutung für einen [Concept('faith', 'Glauben')|E] enthält. $game_concept_holy_sites$, die von Charakteren des entsprechenden Glaubens gehalten werden, bieten allen Anhängern des Glaubens einen Bonus und eventuell können [special_buildings|E] oder [holy_orders|E] dort errichtet werden. Jeder Glaube hat andere $game_concept_holy_sites$."
- game_concept_cultural_acceptance:0 "Kulturakzeptanz"
  game_concept_cultural_acceptance_i:0 "@cultural_acceptance_icon!"
+ game_concept_cultural_acceptance:0 "Kulturakzeptanz"
  game_concept_cultural_acceptance_desc:2 "Kulturakzeptanz bemisst, wie zwei [cultures|E] zueinander stehen.\n\nVor allem beeinflusst sie, wie viel [opinion|E] Charaktere unterschiedlicher Kulturen voneinander verlieren. Sie wirkt sich auch auf die [county_opinion|E] und die Kosten für das Bilden einer [hybrid_culture|E] aus.\n\nKulturakzeptanz kann sich durch viele Dinge ändern, vorrangig durch [wars|E], das Gewähren oder Aberkennen von [Concept('titles','Titeln')|E] sowie die [councillor_task|E] „[accept_culture|E]“.\n\nIm Lauf der Zeit kehrt die Akzeptanz auf den [cultural_acceptance_baseline|E] zurück, falls er überschritten wurde."
  game_concept_cultural_acceptance_baseline:0 "Kulturakzeptanz-Grundwert"
+ #AGOT Modified
+ #game_concept_cultural_acceptance_baseline_desc:1 "[cultural_acceptance|E] has a baseline which it will decay towards if exceeded. The baseline depends on:\n$EFFECT_LIST_BULLET$Shared [heritage|E]\n$EFFECT_LIST_BULLET$Shared [language|E]\n$EFFECT_LIST_BULLET$Shared [faith|E] and [religion|E], especially if [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName] or [GetReligionFamily('rf_eastern').GetName]\n$EFFECT_LIST_BULLET$Shared [ethos|E] within the same [region|E]"
  game_concept_cultural_acceptance_baseline_desc:1 "[cultural_acceptance|E] hat einen Grundwert, auf den sie zurückfällt, wenn sie überschritten wird. Der Grundwert hängt dabei ab von:\n$EFFECT_LIST_BULLET$Geteilter [heritage|E]\n$EFFECT_LIST_BULLET$Geteilter [language|E]\n$EFFECT_LIST_BULLET$Geteiltem [Concept('faith', 'Glauben')|E] und [religion|E] (insbesondere bei [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName] oder [GetReligionFamily('rf_westerosi').GetName])\n$EFFECT_LIST_BULLET$Geteiltes [ethos|E] innerhalb derselben [region|E]" #Selbst geschrieben/abgetippt
  game_concept_culture_pillar:0 "Kulturpfeiler"
  game_concept_culture_pillars:0 "Kulturpfeiler"
@@ -1264,9 +1266,15 @@
  game_concept_hungarian_invasion_casus_belli:0 "„$HUNGARIAN_INVASION_CB_NAME$“-Kriegsgrund"
  game_concept_hungarian_invasion:0 "$HUNGARIAN_INVASION_CB_NAME$"
  game_concept_hungarian_invasion_casus_belli_desc:0 "Ein mächtiger [casus_belli|E], der insgesamt pro Kampagne eingesetzt werden kann, um sämtliche Territorien zu erobern, die vom Ziel innerhalb von Pannonien gehalten werden.\n\nIm Falle eines Sieges begeben sich sämtliche $mogyer_collective_noun$ im [realm|E] des Angreifers mit ihm nach Pannonien, [counties|E] #EMP und#! [vassals|E], um $avar$e $game_concept_counties$ zu verdrängen. Andere Vasallen außerhalb von Pannonien werden aufgegeben, während $game_concept_counties$, die zuvor von $mogyer_collective_noun$ besetzt oder gehalten wurden, kleineren Kriegsfürsten vor Ort und rivalisierenden Steppenstämmen überlassen werden."
+ #AGOT Modified
+ #game_concept_knight:0 "Knight"
  game_concept_knight:0 "Hauptmann"  #AGOT Changed#Selbst geschrieben/abgetippt
+ #AGOT Modified
+ #game_concept_knights:0 "Knights"
  game_concept_knights:0 "Hauptmänner"  #AGOT Changed#Selbst geschrieben/abgetippt
  game_concept_knight_i:0 "@knight_icon!"
+ #AGOT Modified
+ #game_concept_knight_desc:4 "A $game_concept_knight$ is a [vassal|E] or [courtier|E] that fights directly in your [army|E].\n\nDuring [battles|E], $game_concept_knights$ use their [prowess_skill|E] to fight more effectively. A high $game_concept_prowess$ means that they will be able to inflict more damage on the enemy, and are more likely to survive or even emerge from $game_concept_battle$ unscathed.\n\n[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'game_concept_knight_desc_TOTO_DLC', 'game_concept_knight_desc_NO_TOTO_DLC' )][SelectLocalization( HasDlcFeature( 'accolades' ), 'game_concept_knight_desc_ACCOLADE_DLC', '' )]#weak Knights can be known by different names depending on [culture] or [faith]. For example, $knight_champion_no_tooltip_plural$, $knight_faris_no_tooltip_plural$ or $knight_baghatur_no_tooltip_plural$.\n\nKnights represent both the character and their retinue of troops.#!"
  game_concept_knight_desc:3 "Ein $game_concept_knight$ ist ein [vassal|E] oder [courtier|E], der direkt in Eurer [army|E] kämpft.\n\nIn [battles|E] greifen $game_concept_knights$ auf ihren [prowess_skill|E] zurück, um effektiver zu kämpfen. Ein hohes $game_concept_prowess$ heißt, dass sie dem Gegner mehr Schaden zufügen können und sehr viel wahrscheinlicher überleben und unbeschadet aus der $game_concept_battle$ hervorgehen.\n\nEin Charakter kann nicht zeitgleich [commander|E] und $game_concept_knight$ sein.\n\n#weak Diese Streiter haben je nach [culture|E] oder [Concept('faith', 'Glauben')|E] unterschiedliche Namen, zum Beispiel $knight_champion_no_tooltip_plural$, $knight_faris_no_tooltip_plural$ oder $knight_baghatur_no_tooltip_plural$).\n\nHauptmänner stellen sowohl den Charakter als auch sein Gefolge an Truppen dar.#!" #Selbst geschrieben/abgetippt
  game_concept_knight_desc_TOTO_DLC:0 "Ihr erhaltet [prestige|E], wenn sich einer Eurer $game_concept_knights$ erfolgreich für einen [GetActivityType('activity_tournament').GetName]-[contest|E] qualifiziert oder einen solchen gewinnt.\n\n"
  game_concept_knight_desc_NO_TOTO_DLC:0 ""
@@ -1274,10 +1282,10 @@
 
 
  #AGOT Modified
- #game_concept_knight_effectiveness:0 "Ritter-Effektivität"
+ #game_concept_knight_effectiveness:0 "Knight Effectiveness"
  game_concept_knight_effectiveness:0 "Hauptmann-Effektivität"
  #AGOT Modified
- #game_concept_knight_effectiveness_desc:0 "Die Ritter-Effektivität eines [Concept('ruler', 'Herrschers')|E] bestimmt, wie gut seine [knights|E] sich in der [battle|E] schlagen.\n\nBei 100 % kämpfen Ritter wie normal, doch bei 200 % kämpfen sie, als ob ihr [prowess|E] doppelt so hoch wäre."
+ #game_concept_knight_effectiveness_desc:0 "A [ruler|E]'s Knight Effectiveness determines how well their [knights|E] fight in [battle|E].\n\nAt 100%, Knights fight as normal, but at 200% they fight as if their [prowess|E] was doubled."
  game_concept_knight_effectiveness_desc:0 "Die Hauptmann-Effektivität eines [Concept('ruler', 'Herrschers')|E] bestimmt, wie gut seine [knights|E] sich in der [battle|E] schlagen.\n\nBei 100 % kämpfen Hauptmänner wie normal, doch bei 200 % kämpfen sie, als ob ihr [prowess|E] doppelt so hoch wäre."
  game_concept_short_reign:0 "Kurze Herrschaft"
  game_concept_short_reign_desc:0 "„Kurze Herrschaft“ ist ein abnehmender [Concept('opinion', 'Meinungsmalus')|E], den alle Charaktere in einem [realm|E] erleiden, wenn sie einen neuen [Concept('liege', 'Lehnsherrn')|E] bekommen.\n\nIm Gegenzug erhält man dann einen steigenden „[long_reign|E]“-Meinungsbonus, wenn Lehnsherrn schon lange Zeit regieren."
@@ -1378,6 +1386,7 @@
  game_concept_friends:0 "Freunde"
  game_concept_friend_possessive:0 "des Freundes"
  game_concept_friends_possessive:0 "der Freunde"
+ game_concept_friendship:0 "Friendship"
  game_concept_friend_desc:2 "Ein $game_concept_friend$ ist eine $game_concept_relation$, die Nähe und Unterstützung anzeigt und die sowohl [children|E] als auch [adults|E] haben können.\n\n$game_concept_friends$ mit einer tiefen Verbindung können [Concept('best_friends', 'Beste Freunde')|E] werden."
 
  game_concept_best_friend:0 "Bester Freund"
@@ -1389,6 +1398,7 @@
  game_concept_rival:0 "Rivale"
  game_concept_rivals:0 "Rivalen"
  game_concept_rivalries:0 "Rivalitäten"
+ game_concept_rivalry:0 "Rivalry"
  game_concept_rival_possessive:0 "des Rivalen"
  game_concept_rivals_possessive:0 "der Rivalen"
  game_concept_rival_desc:2 "Ein $game_concept_rival$ ist eine $game_concept_relation$, die lebenslange Abscheu, wenn nicht sogar Hass anzeigt.\n\n$game_concept_rivals$, die einander wirklich verabscheuen, können zu Erzfeinden werden."
@@ -1744,7 +1754,7 @@
 
  game_concept_unreformed_pagan_combat_bonus:1 "Kampfvorteil von unreformierten Heiden"
  #AGOT Modified
- #game_concept_unreformed_pagan_combat_bonus_desc:1 "[GetReligionFamily('rf_pagan').GetName]e [faiths|E] mit [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] erhalten einen [battle|E]-[advantage|E] in [counties|E] ihres [Concept('faith', 'Glaubens')|E]."
+ #game_concept_unreformed_pagan_combat_bonus_desc:1 "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [GetReligionFamily('rf_pagan').GetName] [faiths|E] get a [battle|E] [advantage|E] in [counties|E] of their faith."
  game_concept_unreformed_pagan_combat_bonus_desc:1 "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [faiths|E] erhalten einen [battle|E] [advantage|E] in [counties|E] ihres [Concept('faith', 'Glaubens')|E]."
 
  game_concept_personality:0 "Persönlichkeit"
@@ -1874,7 +1884,7 @@
  game_concept_board_game_types:0 "Brettspielarten"
  game_concept_board_game_type_counter:1 "Konter"
  game_concept_board_game_type_counters:0 "kontert"
-game_concept_board_game_type_desc_guts:0 "Spielt man ein $game_concept_board_game$, können unterschiedliche Spielstile als $game_concept_board_game_type_counter$ gegen das Gegenüber fungieren. Die Züge des Gegners zu kontern, verringert massiv die Punkte, die er durch sie erhält, selbst wenn sie erfolgreich sind. Geübte Gegner setzen vielleicht nicht auf ihre eigenen Fähigkeiten, sondern mehr darauf, #EMP Euch#! einen $game_concept_board_game_type_counter$ entgegenzusetzen."
+ game_concept_board_game_type_desc_guts:0 "Spielt man ein $game_concept_board_game$, können unterschiedliche Spielstile als $game_concept_board_game_type_counter$ gegen das Gegenüber fungieren. Die Züge des Gegners zu kontern, verringert massiv die Punkte, die er durch sie erhält, selbst wenn sie erfolgreich sind. Geübte Gegner setzen vielleicht nicht auf ihre eigenen Fähigkeiten, sondern mehr darauf, #EMP Euch#! einen $game_concept_board_game_type_counter$ entgegenzusetzen."
  game_concept_board_game_type_desc:2 "$game_concept_board_game_type_desc_guts$\n\nAvailable games are:\n$EFFECT_LIST_BULLET$ [board_game_type_chess|E]\n$EFFECT_LIST_BULLET$ [board_game_type_pachisi|E]\n$EFFECT_LIST_BULLET$ [board_game_type_hnefatafl|E]\n$EFFECT_LIST_BULLET$ [board_game_type_tabula|E]\n$EFFECT_LIST_BULLET$ [board_game_type_go|E]\n$EFFECT_LIST_BULLET$ [board_game_type_fidchell|E]"
  game_concept_board_game_type_chess:0 "Schach"
  game_concept_board_game_type_chess_desc:1 "$game_concept_board_game_type_desc_guts$\n\nIn $game_concept_board_game_type_chess$:\n$EFFECT_LIST_BULLET$ [martial|E] $game_concept_board_game_type_counters$ [learning|E]\n$EFFECT_LIST_BULLET$ [learning|E] $game_concept_board_game_type_counters$ [intrigue|E]\n$EFFECT_LIST_BULLET$ [intrigue|E] $game_concept_board_game_type_counters$ [martial|E]"
@@ -1935,16 +1945,6 @@ game_concept_board_game_type_desc_guts:0 "Spielt man ein $game_concept_board_gam
  game_concept_diarch_power_power_possessive:0 "Power's"
  game_concept_diarch_power_powers_possessive:0 "Powers'"
  game_concept_diarch_power_desc:2 "A [diarch|E] in an active [power_sharing|E] has access to special $game_concept_diarch_powers$.\n\nThese are special [character_interaction|E]s that mimic those their [liege|E] have, or are other abuses of power. Examples include [revoking|E] [titles|E] from fellow [vassals|E], or siphoning away [gold|E] from their Liege.\n\nMany $game_concept_diarch_powers$ give the Liege an opportunity to [veto|E] them."
-
- game_concept_diarch_power:0 "Leihmacht"
- game_concept_diarch_powers:0 "Leihmächte"
- game_concept_diarch_power_power:0 "Macht"
- game_concept_diarch_power_powers:0 "Mächte"
- game_concept_diarch_power_possessive:0 "der Leihmacht"
- game_concept_diarch_powers_possessive:0 "der Leihmächte"
- game_concept_diarch_power_power_possessive:0 "der Macht"
- game_concept_diarch_power_powers_possessive:0 "der Mächte"
- game_concept_diarch_power_desc:2 "Ein [diarch|E] in einer bestehenden [power_sharing|E] hat Zugang zu besonderen $game_concept_diarch_powers$n.\n\nDies sind spezielle [Concept('character_interaction', 'Charakter-Interaktion')|E]en, die denen des jeweiligen [Concept('liege', 'Lehnsherrn')|E] entsprechen oder andere Formen von Machtmissbrauch darstellen. Beispiele dafür sind das [Concept('revoking', 'Aberkennen')|E] von [Concept('titles','Titeln')|E] von anderen [vassals|E] oder das Abzweigen von [gold|E] des Lehnsherrn.\n\nViele $game_concept_diarch_powers$ geben dem Lehnsherrn die Möglichkeit, ein [veto|E] einzulegen."
 
  game_concept_mandate:0 "Mandat"
  game_concept_mandates:0 "Mandate"
@@ -2027,10 +2027,10 @@ game_concept_board_game_type_desc_guts:0 "Spielt man ein $game_concept_board_gam
  game_concept_spectate:0 "zuschauen"
  game_concept_spectator_desc:0 "Alle Charaktere, die nicht an einem [contest|E] teilnehmen dürfen, sind stattdessen [spectators|E].\n\nAuch zulässige [contestants|E] können sich gegen eine Teilnahme entscheiden."
 
-game_concept_progress_to_victory:0 "Siegesfortschritt"
+ game_concept_progress_to_victory:0 "Siegesfortschritt"
  game_concept_progress_to_victory_desc:1 "Eine Abstraktion Euer Wahrscheinlichkeit, im Vergleich zu den anderen Teilnehmern einen [contest|E] zu gewinnen. Dieser Fortschritt beruht auf [Concept('skills', 'Werten')|E], [health|E] und [traits|E]. Ein [GetTrait('giant').GetName(GetNullCharacter)] mit einem hohen [prowess|E] hat einen Vorteil bei körperlichen Wettbewerben, die am Boden ausgefochten werden – wie etwa beim Ringkampf.\n\nEin minimaler $game_concept_progress_to_victory$ ist notwendig, um sich garantiert für einen [contest|E] zu [contest_qualify|E]. Besucht [locales|E], um Gelegenheiten zu finden, um Eure Chancen zu verbessern und Euren Gegnern ein Schnippchen zu schlagen.\n\nDie Turnier-#V Rangliste#! zeigt den $game_concept_progress_to_victory$ aller Teilnehmer."
  game_concept_progress_to_victory_locale_tt:0 "Durch den Besuch von [locales|E], hat man Gelegenheit, die eigenen Chancen zu verbessern oder die eigenen Gegner zu sabotieren."
- 
+
  game_concept_contest_aptitude:0 "Wettbewerbseignung"
  game_concept_contest_aptitude_desc:0 "Für verschiedene [contests|E] braucht man unterschiedliche Talente: Beinarbeit, Reitkunst, Bogenschießen, Scharfsinn oder eine Kombination aus allem.\n\nDie eigene Begabung ergibt sich aus Euren [Concept('skills', 'Werten')|E], [health|E], [traits|E] und [GetTrait('tourney_participant').GetName(GetNullCharacter)]-[trait_level_track_xp|E].\n\nEin [GetTrait('giant').GetName(GetNullCharacter)] mit hohem [prowess|E] hat von Natur aus einen Vorteil beim Ringkampf-Wettbewerb."
 
@@ -2064,7 +2064,7 @@ game_concept_progress_to_victory:0 "Siegesfortschritt"
  game_concept_preferred_heirs:0 "Vorzugserben"
  game_concept_unpreferred_heirs:0 "Nachgangserben"
  game_concept_vassal_stance_desc:0 "Jeder [vassal|E] hat eine Vasallenhaltung, die sich auf die Meinung auswirkt, welche er von seinem [Concept('liege', 'Lehnsherrn')|E] hat, und auch darauf, welchen [Concept('heir', 'Erben')|E] er als Nachfolger für sein [realm|E] bevorzugt.\n\nVasallen mit derselben Haltung werden dieselben Dinge mögen und nicht mögen. Ein Beispiel: Alle [GetVassalStance('glory_hound').GetTextIcon][GetVassalStance('glory_hound').GetName]-Vasallen verlieren ungern [wars|E].\n\nJede Vasallenhaltung bevorzugt einen bestimmten Erben. Bei der Nachfolge erhält der Vorzugserbe einen Meinungsbonus. Wird der [primary_heir|E] nicht bevorzugt, erhält er stattdessen einen Meinungsmalus.\n\n#low Die Vasallenhaltungen sind: #!\n$EFFECT_LIST_BULLET$[GetVassalStance('courtly').GetTextIcon][GetVassalStance('courtly').GetName]\n$EFFECT_LIST_BULLET$[GetVassalStance('parochial').GetTextIcon][GetVassalStance('parochial').GetName]\n$EFFECT_LIST_BULLET$[GetVassalStance('glory_hound').GetTextIcon][GetVassalStance('glory_hound').GetName]\n$EFFECT_LIST_BULLET$[GetVassalStance('zealot').GetTextIcon][GetVassalStance('zealot').GetName]\n$EFFECT_LIST_BULLET$[GetVassalStance('minority').GetTextIcon][GetVassalStance('minority').GetName]\n$EFFECT_LIST_BULLET$[GetVassalStance('barons_and_minor_landholders').GetTextIcon][GetVassalStance('barons_and_minor_landholders').GetName]"
- 
+
  game_concept_personality_i:0 "@personality_icon!"
  game_concept_warlike_i:0 "@warlike_icon!"
  game_concept_unpredictable_i:0 "@unpredictable_icon!"
@@ -2079,25 +2079,25 @@ game_concept_progress_to_victory:0 "Siegesfortschritt"
  game_concept_ai_economical_unpredictable_personality:0 "Unberechenbar"
  game_concept_ai_economical_unpredictable_personality_desc:0 "Ein $game_concept_ai_economical_unpredictable_personality$er [ruler|E] hat keine [traits|E], die ihn zu einem bestimmten Wirtschaftsarchetyp drängen, und kann daher frei über seine Strategie entscheiden.\n\nEr investiert womöglich eine Zeit lang in [buildings|E], als ob er [ai_economical_boom_personality|E] wäre, oder er behält einen [gold|E]-Puffer und baut sein Reich langsam auf. Er zieht im üblichen Tempo in den [war|E]."
 
-game_concept_trait_level_track:1 "Eigenschaftspfad"
+ game_concept_trait_level_track:1 "Eigenschaftspfad"
  game_concept_trait_level_track_desc:1 "Einige [traits|E] bieten mehrere Pfade an, von denen jeder die Eigenschaft auf unterschiedliche Weise verbessert.\n\nUm auf einem Pfad weiterzukommen, muss man [trait_level_track_xp|E] verdienen."
  game_concept_trait_level_track_xp:1 "Eigenschaftserfahrung"
  game_concept_trait_level_track_xp_desc:1 "Durch Erfahrung kommt man auf einem [trait_level_track|E] voran und verbessert die Boni, die die [trait|E] bietet. "
- 
+
  game_concept_hunt_sighting:0 "Jagdsichtung"
  game_concept_hunt_sightings:0 "Jagdsichtungen"
  game_concept_hunt_sighting_no_prefix:0 "Sichtung"
  game_concept_hunt_sightings_no_prefix:0 "Sichtungen"
  game_concept_hunt_sighting_desc:0 "Eine $game_concept_hunt_sighting$ ist ein Bericht über bestimmte prestigeträchtige Tiere, die in einem [county|E] gesehen wurden und die man dann bei einer [GetActivityType('activity_hunt').GetName] versuchen kann, zur Strecke zu bringen.\n\nDas [GetCourtPositionType('master_of_hunt_court_position').GetName()]-[court_position|E] hört sich nach $game_concept_hunt_sightings_no_prefix$ um."
 
- 
+
  game_concept_stationed_regiment:0 "Stationiertes Regiment"
  game_concept_stationed_regiment_desc:0 "Ein [men_at_arms|E]-[regiment|E] erhält Boni auf seine Wirksamkeit, wenn es in einem [holding|E] stationiert wurde.\n\n[buildings|E] können diese Boni weiter erhöhen – manchmal für alle Arten von Kriegsvolk, doch meist nur für ein oder zwei. [GetBuilding('stables_01').GetName] gewähren stationierter [Concept('light_cavalry', 'Leichter Reiterei')|E] und [Concept('heavy_cavalry', 'Schwerer Reiterei')|E] einen Bonus.\n\nStationierungen sind jederzeit möglich – außer im [war|E] oder wenn ein Besitztum [occupied|E] ist. Geht ein Besitztum verloren, wird die Stationierung des Kriegsvolks dort aufgehoben."
  game_concept_stationed:0 "stationiert"
  game_concept_station:0 "stationieren"
  game_concept_station_regiment:0 "Regiment stationieren"
  game_concept_stationed_holding:0 "Stationiertes Besitztum"
- 
+
  game_concept_tour:0 "Reise"
  game_concept_tour_desc:0 "Eine [grand_activity|E], bei der ein [liege|E] einer Reihe seiner [vassals|E] einen Amtsbesuch abstattet, um Belohnungen in Form von [gold|E], [dread|E], [opinion|E], [control|E] und [cultural_acceptance|E] zu erhalten."
  game_concept_tours:0 "Reisen"

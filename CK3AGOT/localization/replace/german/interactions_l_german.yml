@@ -325,6 +325,7 @@
  CANNOT_DEMAND_CONVERSION_FROM_RELIGIOUS_HEAD:1 "Ihr könnt von einem [head_of_faith|E] keine Bekehrung verlangen"
  CANNOT_DEMAND_HOLY_ORDER_MASTER_CONVERSION:0 "Kann nicht die Bekehrung des Anführers eines [Concept('holy_order', 'Kriegerordens')] verlangen"
  CANNOT_DEMAND_CONVERSION_FROM_UNSUBORDINATE_LANDED_RULER:0 "Ihr könnt von einem [ruler|E] mit [landed|E], der nicht Euer [vassal|E] ist, keine Bekehrung verlangen"
+
  RELEASE_RENOUNCE_CLAIMS:0 "[claims|E] abschwören"
  RELEASE_RENOUNCE_CLAIMS_DESC:1 "[recipient.GetShortUIName] verliert alle [claims|E] auf Titel in Eurem Reich"
  RELEASE_RENOUNCE_CLAIMS_CONDITION:1 "[CHARACTER.GetShortUIName] hat keine [claims|E] auf Titel in Eurem Reich, die man [renounce|E] könnte"
@@ -1351,6 +1352,7 @@
  char_interaction.0250.a:0 "Es scheint, dass mir keine Wahl bleibt …"
  char_interaction.0251.desc:1 "[actor.Custom2('PositiveSupplimentaryGreeting', recipient)]\nIch war Euch immer ein treuer Vasall, doch Ihr versteht sicher, dass ich eigene Untertanen haben!\n\nMeine derzeitigen Bande sind äußerst streng. Ihr seid doch sicher klug genug, um zu erkennen, dass es weise wäre, ein wenig milder zu sein.\n\nAußerdem #emphasis schuldet Ihr mir etwas#!!"
  INTERACTION_SHOW_ACCEPT_EFFECTS_TT:0 "Anzeigen, was geschieht, wenn die [interaction|E] angenommen wird"
+ INTERACTION_SHOW_INTERMEDIARY_DECLINE_EFFECTS_TT:0 "Show what will happen if the [interaction|E] is vetoed by the intermediary before reaching the recipient"
  INTERACTION_SHOW_DECLINE_EFFECTS_TT:0 "Anzeigen, was geschieht, wenn die [interaction|E] abgelehnt wird"
  INTERACTION_NO_LONGER_VALID:0 "Die [interaction|E] kann nicht mehr verschickt werden"
  INTERACTION_ACCEPTANCE_SCORE:1 "[CharacterInteractionConfirmationWindow.GetAnswerScore|+=0]"
@@ -1525,6 +1527,7 @@
  court_amenities_interactions.0004.desc:0 "schien der Verstoß von [victim.GetNameNoTooltip] wirklich ein Vergehen zu sein, das mit der vollen Härte des Gesetzes in [debate_locale.GetNameNoTierNoTooltip] geahndet werden würde! Das heißt, dass ich [victim.GetNameNoTooltip] einkerkern kann! Das ist zwar nicht ganz das Ergebnis, das ich erwartet hatte, doch ich bin damit in einer sehr starken Position!"
  court_amenities_interactions.0004.a:0 "Vielleicht werde ich dieses Vergehen für einen Gefallen übersehen …"
  court_amenities_interactions.0004.b:0 "[victim.Custom('DE_PRO_PER_S_3P_N')|U] würde in Gefangenenkluft besser aussehen!"
+
  make_child_learn_language_interaction:0 "Kind eine Sprache lernen lassen"
  make_child_learn_language_interaction_desc:0 "Lasst Euer [child|E] ein [GetScheme('learn_language').GetTypeName]-[scheme|E] bei einem Eurer [courtiers|E] oder [vassals|E] mit Unterstützung Eures [GetCourtPositionType('court_tutor_court_position').GetName()] beginnen"
  study_language:0 "Spracherwerb"
@@ -1624,7 +1627,7 @@
  msg_remove_regent_cb_invalidated_message:0 "[defender.GetShortUIName] ist nicht länger [regent|E], weshalb der Krieg keinen Sinn mehr hat"
 
  AI_GUARDIAN_FEUD_HESITANCE:0 "Will Kind nicht an [house_feud|E]-[house|E] geben: $VALUE|=+0$"
- 
+
  DIARCH_SHOULD_EDUCATE_DIARCH_TO_LIEGE:0 "Angemessen für [regent|E]"
  DIARCH_SHOULD_EDUCATE_LIEGE_TO_DIARCH:0 "Verantwortung als [regent|E]"
 

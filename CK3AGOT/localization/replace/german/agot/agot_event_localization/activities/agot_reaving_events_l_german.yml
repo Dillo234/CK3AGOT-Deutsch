@@ -24,7 +24,7 @@
  agot_reaving.0010.desc:0 "Ich weiß zwar nicht, warum Ihr meine Einladung überhaupt erst annehmt, nur um dann doch lieber dem Festmahl von [other_host.GetTitledFirstName] beizuwohnen, doch was ich weiß, ist, dass ich das nicht vergessen werde." # C+P Vanilla - Lys
  agot_reaving.0010.a:0 "Bedauerlich." # C+P Vanilla - Lys
 
-#Reaving Invitations ; C+P Vanilla (Ausnahme: Große Ernte) - Lys
+#Reaving Invitations 
 
  agot_reaving.1002.opening:0 "[sender.Custom2('AppropriateGreeting', ROOT.Char)]"
  agot_reaving.1002.opening_desc:0 "Ich lade Euch hiermit zu einem Festmahl an meinen Hof in [barony.GetNameNoTier] ein!"
@@ -93,8 +93,8 @@
  agot_reaving.2003.a.failure_title:0 "Ihr wurdet vom Kapitän in die Flucht geschlagen..."
  agot_reaving.2003.b.success_title:0 "Die Würfel fielen zu Euren Gunsten!"
  agot_reaving.2003.b.failure_title:0 "Die Würfel fielen nicht zu Euren Gunsten..."
- 
-  ################################
+
+ ################################
 # Crippled Ship:IronBorn        #
 ################################
  agot_reaving.2004.t:0 "Untüchtiges Schiff: Eisenmänner in Sicht"
@@ -104,7 +104,7 @@
  agot_reaving.2004.b:0 "Sollen sie nach sich selbst schauen."
  agot_reaving.2004.b.tt:0 "Warum sollte ich geben, was mir gehört! Da hätten sie sich besser vorbereiten müssen!"
 
- 
+
 ###########################
 #   Empty Village         #
 ###########################
@@ -115,7 +115,7 @@
  agot_reaving.2005.a.tt:0 "Wenn die Toten keinen Nutzen von ihren Dingen haben, wieso hier lassen?"
  agot_reaving.2005.b:0 "Lasst alles stehen und liegen. Wir gehen."
  agot_reaving.2005.b.tt:0 "Ihr lasst Euch nicht auf ein Glücksspiel gegen den Tod ein..."
- 
+
 ###########################
 #  Village: Sacrifice     #
 ###########################
@@ -130,17 +130,17 @@
  agot_reaving.2006.a.failure_title:0 "Ihr wurdet vom Roten Priester in die Flucht geschlagen..."
  agot_reaving.2006.b.success_title:0 "Ihr habt den Roten Priester getötet und den Eisernen Preis für das Weib gezahlt!"
  agot_reaving.2006.b.failure_title:0 "Ihr wurdet vom Roten Priester in die Flucht geschlagen..."
- 
+
 ##################
 #The Leviathan   #
 ##################
- 
+
  agot_reaving.2007.t:0 "Der Leviathan: Der Angriff"
  agot_reaving.2007.desc:0 "Die Männer haben einen riesigen Wal gesichtet, der uns schon seit einigen Tagen folgt. Das Tier ist auf Distanz geblieben, aber die Männer sagen, sie hätten Narben an ihm gesehen, als er an die Oberfläche kam. Ich frage mich, ob der Wal die Angriffe der ibbenesischen Schiffe überlebt hat?  Der Gedanke ging mir noch nicht lange durch den Kopf, als die Bestie beschloss, anzugreifen. Die Männer und ich rüsten uns und versuchen, die Bestie zur Strecke zu bringen oder sie zu vertreiben, bevor sie unser Schiff versenken kann!"
  agot_reaving.2007.a:0 "Verdammt seien diese ibbenesischen Walfänger!"
  agot_reaving.2007.a.tt:0 "Die Bestie hält Eure Besatzung für Walfänger und hat beschlossen, dass sie keine Beute mehr sein will. Nun geht sie zum Angriff über!"
 
- 
+
 ###########################
 #  Pursuit: Ibbenese      #
 ###########################
@@ -199,7 +199,7 @@
  agot_reaving.2011.a.failure_title:0 "Das Schiff ist entwischt..."
  agot_reaving.2011.b.success_title:0 "Das Schiff ist gekapert!"
  agot_reaving.2011.b.failure_title:0 "Das Schiff ist entwischt..."
- 
+
 ###########################
 #  Tyroshi War Gallon     #
 ###########################
@@ -211,7 +211,7 @@
  agot_reaving.2012.b.tt:0 "Ihren Weg zu kreuzen kann nicht Gutes bringen..."
  agot_reaving.2012.a.success_title:0 "Ihr werdet angeheuert"
  agot_reaving.2012.a.failure_title:0 "Angebot abgelehnt..."
- 
+
 ###########################
 #   Fishing Village       #
 ###########################
@@ -225,7 +225,7 @@
  agot_reaving.2013.c.tt:0 "Sie macht ein gutes Salzweib"
  agot_reaving.2013.d:0 "[TARGET_CHARACTER.GetShortUIName] hat eine bezaubernde Stimme."
  agot_reaving.2013.d.tt:0 "Sie macht ein gutes Salzweib"
- 
+
 ###########################
 #   Pirate Hide Out        #
 ###########################
@@ -239,7 +239,7 @@
  agot_reaving.2014.a.failure_title:0 "Der Angriff schlug fehl...Wir kommen wieder!"
  agot_reaving.2014.b.success_title:0 "Es hat sich uns ein Weg geöffnet!"
  agot_reaving.2014.b.failure_title:0 "Es gibt wohl keinen anderen Weg... Wir kommen wieder!"
- 
+
  ###########################
 #   A Meal for the Crabs   #
 ###########################
@@ -249,7 +249,7 @@
  agot_reaving.2015.a.tt:0 "Jemand hat sich die Mühe gemacht, diesem Mann einen grausamen Tod zu bereiten, und ich will nicht wissen, welche Art von Mann das verdient."
  agot_reaving.2015.b:0 "Ich werde ihn retten!"
  agot_reaving.2015.b.tt:0 "Ich bewahre den Mann vor dem grausamen Tod, lebendig von Krabben gefressen zu werden. Er wird mir sein Leben verdanken!"
- 
+
 ###########################
 #  A Ironborn in need     #
 ###########################

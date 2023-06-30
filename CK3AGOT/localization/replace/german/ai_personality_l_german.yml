@@ -8,6 +8,7 @@
  AI_VASSAL_STANCE_TT:0 "\n$EFFECT_LIST_BULLET$[vassal_stance|E]: [Character.GetVassalStance.GetTextIcon][Character.GetVassalStance.GetName]"
  AI_PERSONALITY_CONCEPT_TT:0 "#weak [Character.GetShortUINameNoTooltip] wird sich Euch und anderen gegenüber entsprechend [Character.Custom('DE_PRO_POS_S_3P')]er Persönlichkeit verhalten; Letztere basiert größtenteils auf den [personality_traits|E]#!"
  AI_PERSONALITY_TT:1 "#T Persönlichkeitszusammenfassung:#!\n$EFFECT_LIST_BULLET$[character_personality|E]: [personality_i] [Character.GetAIPersonality][AddLocalizationIf(Character.IsRuler, 'AI_ECONOMIC_ARCHETYPE_TT')][AddLocalizationIf(And(Not(Character.IsIndependentRuler), Character.IsRuler), 'AI_VASSAL_STANCE_TT')]\n\n$AI_PERSONALITY_CONCEPT_TT$."
+
  honor_noun:0 "Ehren[Select_CString(CHARACTER.IsFemale, 'frau', 'mann')]"
  honor_adj:0 "Ehrenhaft"
  honor_neg_noun:0 "Schuft"
@@ -62,7 +63,7 @@
  zeal_neg_adj:0 "Zynisch"
  zeal_strong_noun:0 "Eiferer"
  zeal_strong_adj:0 "Eifrig"
-  #AGOT Modified
+ #AGOT Modified
  #zeal_strong_neg_noun:0 "Atheist"
  zeal_strong_neg_noun:0 "Nihilist" #Selbst geschrieben/abgetippt
  zeal_strong_neg_adj:0 "Gottlos"
@@ -78,7 +79,7 @@
  vengefulness_strong_adj:0 "Rachsüchtig"
  vengefulness_strong_neg_noun:0 "Freisprecher"
  vengefulness_strong_neg_adj:0 "Großherzig"
-  vengefulness_explanation:0 "Dieser Charakter ist #Bold rachsüchtig#!. Er verfolgt eher [rivals|E] oder untreue [spouses|E], schließt sich als [agent|E] Komplotten gegen jene an, die ihn geschmäht haben, fordert die [excommunication|E], bestraft [criminals|E] und verzeiht weniger oft Beleidigungen oder Fehltritte. Ein solcher Charakter neigt auch dazu, mehr Rivalen zu haben."
+ vengefulness_explanation:0 "Dieser Charakter ist #Bold rachsüchtig#!. Er verfolgt eher [rivals|E] oder untreue [spouses|E], schließt sich als [agent|E] Komplotten gegen jene an, die ihn geschmäht haben, fordert die [excommunication|E], bestraft [criminals|E] und verzeiht weniger oft Beleidigungen oder Fehltritte. Ein solcher Charakter neigt auch dazu, mehr Rivalen zu haben."
  vengefulness_neg_explanation:0 "Dieser Charakter ist #Bold nachsichtig#!. Er ignoriert eher gegen ihn gerichtete Beleidigungen oder Fehltritte, bestraft [prisoners|E] nicht und begnadigt [criminals|E]. Ein solcher Charakter neigt auch weniger oft dazu, [hostile_schemes|E] gegen [rivals|E] zu beginnen."
  vengefulness_strong_explanation:0 "Dieser Charakter ist #Bold äußerst rachsüchtig#!. Er verfolgt den Großteil seiner Zeit [rivals|E] oder untreue [spouses|E], schließt sich als [agent|E] Komplotten gegen jene an, die ihn geschmäht haben, fordert die [excommunication|E], bestraft [criminals|E] und verzeiht fast niemals Beleidigungen oder Fehltritte. Ein solcher Charakter neigt auch dazu, sehr viele Rivalen zu haben."
  vengefulness_strong_neg_explanation:0 "Dieser Charakter ist #Bold äußerst nachsichtig#!. Er ignoriert fast immer gegen ihn gerichtete Beleidigungen oder Fehltritte, bestraft [prisoners|E] nicht und begnadigt [criminals|E]. Es ist auch sehr unwahrscheinlich, dass ein solcher Charakter [hostile_schemes|E] gegen [rivals|E] beginnt."

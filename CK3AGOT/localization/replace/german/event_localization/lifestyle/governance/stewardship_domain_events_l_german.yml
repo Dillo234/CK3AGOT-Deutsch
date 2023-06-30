@@ -1,5 +1,6 @@
 ﻿l_german:
 ################# #Übersetzt von Lys
+ #################
  # Normal Events #
  #################
 
@@ -25,7 +26,7 @@
  stewardship_domain.1042.a.failure:0 "Die [guild_county.Custom('Governance_1041_GuildType')] weigert sich, ihre Preise zu senken"
  stewardship_domain.1042.b:0 "Solange sie die entsprechenden Steuern an mich abführen …"
  stewardship_domain.1042.c:0 "Wenn sie nicht fair handeln, dann handeln sie eben überhaupt nicht!"
- 
+
  # Granary Infestation, by Sean Hughes
  stewardship_domain.1052.t:0 "Befallene Kornspeicher"
  stewardship_domain.1052.desc:0 "Ungeziefer hat mehrere Kornspeicher in [target_county.GetNameNoTier] befallen und die darin gelagerte Saat zerstört. Da sie kein Saatgut mehr für die nächste Ernte haben, bitten die freien Pächter dort mich um Hilfe.\n\nDa die Lage ernst ist, müssen die Bauern wohl zwangsläufig die Bedingungen annehmen, die ich ihnen biete."
@@ -46,8 +47,13 @@
  # Culture Clash, by Sean Hughes
  stewardship_domain.1073.t:0 "Aufeinanderprallen der Kulturen"
  #AGOT Modified
+ #stewardship_domain.1073.desc:0 "Most of the commoners living in [target_county.GetName] are of [target_ruler.GetCulture.GetName] descent. Proud of their traditions, it does not sit well with them that they must serve a foreigner like myself when my neighbor [target_ruler.GetTitledFirstName] shares their culture and history."
  stewardship_domain.1073.desc:0 "Die meisten Gemeinen, die in [target_county.GetName] leben, stammen aus der [target_ruler.GetCulture.GetName|l]en Kultur. Sie sind stolz auf ihre Traditionen, und es gefällt ihnen gar nicht, dass sie einem Fremden dienen müssen, wo doch mein[target_ruler.Custom('DE_END_PRO_S_N')] Nachbar[target_ruler.Custom('DE_END_NOU_S_GS_N')] [target_ruler.GetTitledFirstName] ihre Kultur und Geschichte teilt."
+ #AGOT Modified
+ #stewardship_domain.1073.a:0 "Teach them the superiority of the [me.GetCulture.GetNameNoTooltip] culture!"
  stewardship_domain.1073.a:0 "Ich werde ihnen zeigen, wie überlegen die [me.GetCulture.GetNameNoTooltip|l]e Kultur ist!"
+ #AGOT Modified
+ #stewardship_domain.1073.a.success:0 "The commoners adopt [me.GetCulture.GetNameNoTooltip] customs"
  stewardship_domain.1073.a.success:0 "Die Gemeinen übernehmen die Sitten meiner Kultur"
  stewardship_domain.1073.a.failure:0 "Die Gemeinen weigern sich, zivilisiert zu werden"
  stewardship_domain.1073.c:0 "Es schert mich nicht, ob sie ihre seltsamen Traditionen behalten."
@@ -130,7 +136,7 @@
  stewardship_domain_special.1002.b.failure:0 "Ich bekomme die Probleme in [development_county.GetNameNoTier] nicht in den Griff"
  stewardship_domain_special.1002.c:0 "Ihr habt Euren Anspruch auf [development_county.GetNameNoTierNoTooltip] verwirkt!"
  stewardship_domain_special.1002.c.tt:0 "Ich nehme [county_holder.GetTitledFirstName] [development_county.GetNameNoTier] weg"
- 
+
  stewardship_domain_special.1003.desc:1 "„Danke, dass Ihr an mich geglaubt habt, [ROOT.Char.Custom2('RelationToMeAddress', county_holder)]!“\n\n[county_holder.Custom2('MyCharacterIntroduction', ROOT.Char)|U] hat die Krise gelöst, in der [county_holder.Custom('DE_PRO_PER_S_3P_N')] steckte. Manchmal ist es am besten, auf andere zu vertrauen, und dann von ihnen zu lernen!"
  stewardship_domain_special.1003.a:0 "Verratet mir, wie Ihr das angestellt habt!"
 
@@ -345,7 +351,7 @@
 
  stewardship_domain_special.1425.desc:0 "Die Leichen sind schnell beseitigt. Schwieriger ist es, Familien zu finden, die bereit sind, sich in einem Dorf der Toten niederzulassen, doch kann kein Bauer dem Lockruf eines gesunden Stücks Land lange widerstehen. Oder der Spitze eines drängenden Speers.\n\nUnd ich konnte beim Beginn der Bautätigkeiten eine Menge lernen!"
  stewardship_domain_special.1425.a:0 "Wenn jetzt nur noch dieser verfluchte Husten vergehen würde!"
- 
+
  stewardship_domain_special.1426.desc:0 "Es ist wenig feierlich, aber das Feuer tut, was getan werden muss. Ich sehe zu, wie die Flammen die längst verlassenen Häuser verschlingen, aber nicht lange. Ich bin fertig mit diesem Ort."
  stewardship_domain_special.1426.a:0 "Ich sollte nach Hause zurückkehren."
 
@@ -428,7 +434,7 @@
  stewardship_domain_special.1510.c.success.tt:0 "Ich kann [upset_priest.GetTitledFirstName] davon überzeugen, dass die Bewertung gerechtfertigt ist"
  stewardship_domain_special.1510.c.failure:0 "Ich schaffe es nicht, [upset_priest.GetTitledFirstName] zu überzeugen"
  stewardship_domain_special.1510.c.failure.tt:0 "Ich kann [upset_priest.GetTitledFirstName] nicht davon überzeugen, dass die Bewertung gerechtfertigt ist"
- 
+
  stewardship_domain_special.1520.opening:0 "[concerned_noble.Custom2('AppropriateGreeting', ROOT.Char)]"
  stewardship_domain_special.1520.desc:0 "Ich bezahlte der Krone pflichtbewusst jedes Jahr meine Steuern, und doch tauchten letztens Eure Steuerassessoren auf meiner Schwelle auf, um meine Besitztümer zu begutachten!\n\nVertraut Ihr mir so wenig, dass Ihr Männer schicken müsst, die ihre Nase in meine privaten Angelegenheiten stecken?"
  stewardship_domain_special.1520.a:0 "Natürlich vertraue ich Euch! Meine Männer werden postwendend wieder abreisen."
@@ -582,4 +588,3 @@
  stewardship_domain_special.9999.desc_not_education:0 "\n\nAls ich meine Erfolge überdenke, wird mir klar, dass ich eine wahre Naturgewalt auf dem Gebiet der Verwaltung geworden bin!"
  stewardship_domain_special.9999.a:0 "Nichts auf dem Gebiet der Regierungskunst ist mir entgangen!"
  stewardship_domain_special.9999.a.tt:1 "Es kommt mir vor, als hätte ich nun auf dem Gebiet [stewardship_lifestyle|E] alles erreicht."
-

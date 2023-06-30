@@ -1,11 +1,11 @@
 ﻿l_german:
  stress_threshold_cooldown_message:1 "Wenn Ihr in [SCOPE.ScriptValue('stress_threshold_cooldown_duration_in_years')|V0] Jahren noch immer [stressed|E] seid, könntet Ihr einen weiteren [mental_break|E] erleiden"
- 
+
  # System Messages
  stress_threshold.0010.toast:2 "[stress_level|E] erhalten" 
  stress_threshold.0010.text:0 "Ihr werdet überwältigt von [stress|E]"
  stress_threshold.0400.toast:2 "Ihr habt Eure [stress|E]-Schwelle überschritten und wurdet auf [stress_level|E] 3 zurückgesetzt"
- 
+
  # Level 1 Stress Events
  stress_threshold.1001.t:0 "Geistiger Zusammenbruch: Finstere Gedanken"
  stress_threshold.1001.desc:0 "Schuld und Scham suchen mich in letzter Zeit heim. All meine Sünden, meine Fehler, mein Scheitern … Solch finstere Gedanken lenken mich von meinen Pflichten ab und halten mich nachts wach.\n\nIch habe das Gefühl, dass ich etwas tun muss, um diesen geistigen Qualen ein Ende zu machen, doch was könnte wohl helfen?"
@@ -17,12 +17,16 @@
  stress_threshold.1001.improvident.effect:0 "Andere brauchen mein Gold dringender als ich!"
  stress_threshold.1001.drunkard.gain:0 "Vielleicht hilft es, wenn ich mal einen hebe?"
  stress_threshold.1001.drunkard.effect:0 "Ich werde so lange trinken, bis diese Gedanken verschwinden."
+ #AGOT Modified
+ #stress_threshold.1001.hashishiyah.gain:0 "Some hashish will put my mind at ease..."
  stress_threshold.1001.hashishiyah.gain:0 "Ein wenig Mohnblumensaft wird meinen Geist zur Ruhe bringen..."  #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ #stress_threshold.1001.hashishiyah.effect:1 "A relaxing night with a tray of hashish cakes will help."
  stress_threshold.1001.hashishiyah.effect:1 "Ein entspannter Abend mit einem Becher Mohnblumensaft wird helfen."  #Selbst geschrieben/abgetippt
  stress_threshold.1001.journaller.gain:0 "Meine Sorgen aufzuschreiben, wird mir helfen, mich zu konzentrieren."
  stress_threshold.1001.journaller.effect:0 "Ich brauche eine Nacht allein in meinem Studierzimmer."
  stress_threshold.1001.endure:0 "Ich muss stark sein und mich gegen solche Impulse wehren!"
- 
+
  stress_threshold.1011.t:0 "Geistiger Zusammenbruch: Liederliches Verlangen"
  stress_threshold.1011.desc:0 "In letzter Zeit werde ich immer wieder von lasziven Gedanken und erotischen Fantasien abgelenkt. Bei all den Beschwernissen des täglichen Lebens ist es allzu leicht, sich in Tagträumereien zu verlieren und die Wirklichkeit zu vergessen.\n\nDieses Verlangen stört eindeutig mein Leben, doch was soll ich nur dagegen unternehmen?"
  stress_threshold.1011.rakish.gain:0 "Ein Ausflug ins Freudenhaus könnte mir Erleichterung verschaffen!"
@@ -37,7 +41,7 @@
  stress_threshold.1011.exercise.gain:0 "Vielleicht wird mir etwas anderes helfen, das zu kanalisieren …"
  stress_threshold.1001.exercise.effect:0 "Mich ordentlich zu verausgaben, wird dieses Verlangen ausbrennen."
  stress_threshold.1011.endure:0 "Ich beiße mir auf die Lippen und konzentriere mich weiter!"
- 
+
  stress_threshold.1501.t:0 "Geistiger Zusammenbruch: Es ist alles einerlei"
  stress_threshold.1501.intro.desc:0 "An jedem neuen Tag fällt es mir schwerer, einen Grund zu finden, mich aus dem Bett zu schleppen und Hof zu halten."
  stress_threshold.1501.helper.desc:0 "[scoped_helper.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] erwartet mich im Speisesaal, doch heute spenden mir [scoped_helper.Custom('DE_PRO_POS_S_3P')]e Worte keine Linderung."
@@ -50,7 +54,7 @@
  stress_threshold.1501.d:0 "Warum soll ich etwas essen, wenn doch alles wie Asche schmeckt?"
  stress_threshold.1501.e:0 "Ich darf mich von diesen finsteren Gedanken nicht ablenken lassen."
  stress_threshold.1501.f:0 "Das Leben als [scoped_ruler.GetFaith.GetAdherentName] hat keinen Sinn."
- 
+
  stress_threshold.1502.t:0 "Geistiger Zusammenbruch: Ablehnung"
  stress_threshold.1502.intro.desc:0 "Warum muss ich immer alles selbst machen? Wie kann man denn von mir erwarten, dass ich [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] regiere, wenn die Hälfte meiner Dienstboten nicht in der Lage ist, meine Befehle zu befolgen, und die andere Hälfte nicht in der Lage ist, sie zu verstehen?"
  stress_threshold.1502.courtier.desc:0 "\n\nInsbesondere [scoped_courtier.GetFirstName] ist in letzter Zeit nicht auszuhalten. Ich kann es kaum ertragen, mir das ständige Gefasel anzuhören, das mein[scoped_courtier.Custom('DE_PRO_PER_S_3P_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('scoped_courtier'))] von sich gibt."
@@ -62,7 +66,7 @@
  stress_threshold.1502.e:0 "Ich werde das einfach ertragen müssen."
  stress_threshold.1502.f:0 "Vielleicht sollte ich ein Tagebuch meines Unglücks anlegen?"
  stress_threshold.1502.g:0 "[scoped_ruler.GetFaith.HighGodName], ich brauche etwas zu trinken!"
- 
+
  stress_threshold.1503.t:0 "Geistiger Zusammenbruch: Innere Leere"
  stress_threshold.1503.desc:0 "Nichts stellt mich noch zufrieden. Trotz all meiner Bemühungen fühle ich weder Freude noch Frieden in mir. Es ist, als ob da etwas fehlen würde.\n\nWas kann dieses Loch schließen, dass da an meiner Seele nagt?"
  stress_threshold.1503.a.a:0 "Vielleicht noch ein paar Juwelen?"
@@ -73,7 +77,7 @@
  stress_threshold.1503.a.f:0 "Eine prächtige Statue meiner jüngsten Abenteuer!"
  stress_threshold.1503.b:0 "Nur [scoped_ruler.Custom('GetExpensiveMeal')] kann diesen Schmerz heilen."
  stress_threshold.1503.e:0 "Wenn es doch nur etwas geben würde, was ich tun kann …"
- 
+
  stress_threshold.1504.t:0 "Geistiger Zusammenbruch: Arbeit ohne Ende"
  stress_threshold.1504.desc:0 "Manchmal fühle ich mich, als ob die ganze Welt auf meinen Schultern lasten würde. Meine Pflichten als [scoped_ruler.GetTitleAsName] von [scoped_ruler.GetPrimaryTitle.GetNameNoTier] nehmen kein Ende … Mir bleibt kaum noch ein Moment für mich."
  stress_threshold.1504.a:0 "Können die Leute mich denn nicht mal in Ruhe lassen?!"
@@ -82,7 +86,7 @@
  stress_threshold.1504.f:0 "Ich bin umgeben von Narren!"
  stress_threshold.1504.g:0 "Ich werde meine Gedanken schriftlich sammeln."
  stress_threshold.1504.h:0 "Sattelt mein Pferd. Ich muss hier raus!"
- 
+
  stress_threshold.1601.t:0 "Geistiger Zusammenbruch: Wirbelnde Gedanken"
  stress_threshold.1601.desc:0 "Ich kann mich nicht konzentrieren, meine Gedanken laufen wild im Kreis! Ich muss mich um die Residenz kümmern, die Truppen inspizieren und dann noch …\n\nWie soll ich zur Ruhe kommen, wenn mich selbst meine Gedanken derart hintergehen?!"
  stress_threshold.1601.profligate.gain:0 "Wenn ich mir etwas Glänzendes kaufte, worauf ich mich konzentrieren könnte …"
@@ -109,12 +113,16 @@
  stress_threshold.1601.improvident.effect:0 "Es beruhigt mich immer sehr, für einen guten Zweck zu spenden."
  stress_threshold.1601.drunkard.gain:0 "Vielleicht kann ich mich nach einem gehaltvollen Krug ja besser konzentrieren …"
  stress_threshold.1601.drunkard.effect:0 "Wenn ich etwas zu trinken hatte, fühle ich mich immer konzentrierter."
+ #AGOT Modified
+ #stress_threshold.1601.hashishiyah.gain:0 "Some hashish will hopefully calm my mind..."
  stress_threshold.1601.hashishiyah.gain:0 "Ein wenig Mohnblumensaft wird meinen Geist hoffentlich zur Ruhe bringen..."  #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ #stress_threshold.1601.hashishiyah.effect:1 "I am never calmer than after an evening with some hashish cakes."
  stress_threshold.1601.hashishiyah.effect:1 "Ich war noch nie ruhiger als nach einem Abend mit einem Becher Mohnblumensaft."  #Selbst geschrieben/abgetippt
  stress_threshold.1601.journaller.gain:0 "Es sollte meinen Geist ordnen, wenn ich meine Gedanken niederschreibe …"
  stress_threshold.1601.journaller.effect:0 "Meine Gedanken niederzuschreiben ordnet stets meinen Geist!"
  stress_threshold.1601.endure_no_option:0 "Ich, ich muss das durchhalten. Es gibt nichts, was ich dagegen tun kann …"
- 
+
  stress_threshold.1602.t:0 "Geistiger Zusammenbruch: Wirbelnde Gefühle"
  stress_threshold.1602.desc:0 "Meine Gefühle werden mit jedem neuen Tag instabiler. Von einem Augenblick auf den nächsten schlägt tiefste Trauer um in höchste Freude, und mein Gefolge und ich misstrauen langsam meinen Emotionen.\n\nWenn ich doch nur einen Weg fände, diesen Sturm, der in mir tobt, zu bändigen!"
  stress_threshold.1602.profligate.gain:0 "Vielleicht finde ich meine innere Mitte mit etwas Neuem, etwas Glänzendem."
@@ -143,9 +151,13 @@
  stress_threshold.1602.journaller.effect:0 "Es hilft immer, meine Gefühle niederzuschreiben!"
  stress_threshold.1602.drunkard.gain:0 "Wenn ich genug trinke, verfliegen alle Gefühle …"
  stress_threshold.1602.drunkard.effect:0 "Ich kann meine Gefühle stets hinter mir lassen, wenn ich trinke!"
+ #AGOT Modified
+ #stress_threshold.1602.hashishiyah.gain:0 "Perhaps some hashish will bring calm."
  stress_threshold.1602.hashishiyah.gain:0 "Vielleicht bringt mir ein wenig Mohnblumensaft Ruhe."  #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ #stress_threshold.1602.hashishiyah.effect:0 "Hashish always centers me."
  stress_threshold.1602.hashishiyah.effect:0 "Mohnblumensaft hilft mir stets dabei, meine innere Mitte zu finden."  #Selbst geschrieben/abgetippt
- 
+
  # Level 2 Stress Events
  stress_threshold.2001.t:0 "Geistiger Zusammenbruch: Undankbarkeit"
  stress_threshold.2001.desc:0 "Undankbare Schlucker! Wisst Ihr denn nicht, welche Opfer ich für Euch bringe?\n\nJeden Tag schufte ich endlos, um meinem Reich zu Wohlstand zu verhelfen, doch immer beschweren sich alle und wollen nur noch mehr. Und jetzt wagt es [victim.GetFirstNameNoTooltip] auch noch, meine Befehle zu hinterfragen?!"
@@ -153,15 +165,17 @@
  stress_threshold.2001.arbitrary.effect:0 "Ich entscheide, wie hier alles zu laufen hat!"
  stress_threshold.2001.imprison_victim:0 "Wollen wir mal sehen, wie dankbar [victim.GetFirstNameNoTooltip] sich im Kerker fühlt!"
  stress_threshold.2001.endure:0 "Ich muss geduldig mit ihnen sein …"
- 
+
  stress_threshold.2101.t:0 "Geistiger Zusammenbruch: Unwillkommen"
  stress_threshold.2101.desc:0 "Manchmal fühle ich mich wie fremd in meinem eigenen Daheim. Die seltsamen Blicke, die meine Höflinge mir zuwerfen, das Unwohlsein, das jeden Raum zu füllen scheint, den ich betrete … Was ist mit meinem Leben geschehen? Warum bin ich nicht mehr unter meinen eigenen Leuten willkommen?"
  stress_threshold.2101.witch.gain:0 "Ich bin ausgestoßen, genau wie [ROOT.Char.GetFaith.WitchGodName]."
  stress_threshold.2101.witch.effect:0 "Wenigstens weiß ich, dass [ROOT.Char.GetFaith.WitchGodName] mich versteht."
  stress_threshold.2101.drunkard.effect:0 "Wein ist vielleicht mein einziger wahrer Freund."
+ #AGOT Modified
+ #stress_threshold.2101.hashishiyah.effect:1 "At least this hashish-topped cake won't judge me."
  stress_threshold.2101.hashishiyah.effect:1 "Wenigstens wird mich ein Schluck Mohnblumensaft beruhigen."  #Selbst geschrieben/abgetippt
  stress_threshold.2101.endure:0 "Vielleicht ist das auch alles nur in meinem Kopf …"
- 
+
  stress_threshold.2201.t:0 "Geistiger Zusammenbruch: Brodelnde Wut"
  stress_threshold.2201.desc.insult:0 "„Ja, Ihr seid [character_to_yell_at.GetTitleAsName], aber Ihr seid außerdem ein aufgeblasenes Schwein, das seinesgleichen sucht!“\n\n"
  stress_threshold.2201.desc:0 "Ich zögere, als ich den Blick auf dem Gesicht meines Gegenübers sehe, aber ich … bin einfach immer so #EMP wütend#!, und alle provozieren mich ständig …\n\n"
@@ -174,7 +188,7 @@
  stress_threshold.2201.save_tt:0 "Ich gebe vor, [character_to_yell_at.Custom('DE_PRO_PER_S_3P_A')] nur auf die Probe zu stellen"
  stress_threshold.2201.liege:0 "Bitte verzeiht, Lehnsherr. Ich werde versuchen, mich besser im Griff zu haben."
  stress_threshold.2201.c:0 "Bitte verzeiht. Ich werde versuchen, mich besser im Griff zu haben."
- 
+
  stress_threshold.2202.t:0 "Brodelnde Wut"
  stress_threshold.2202.desc.liege:0 "Der grundlose Wutausbruch meines Lehnsherrn [stress_character.GetTitledFirstName] kommt aus heiterem Himmel."
  stress_threshold.2202.desc.vassal:0 "Der grundlose Wutausbruch meines Vasallen [stress_character.GetTitledFirstName] kommt aus heiterem Himmel."
@@ -184,7 +198,7 @@
  stress_threshold.2202.desc.other:0 "ein solches Verhalten …"
  stress_threshold.2202.a:0 "Das lasse ich mir nicht gefallen. „[stress_character.Custom('InsultNoun')|U]!“"
  stress_threshold.2202.b:0 "Dass sogar [stress_character.Custom('DE_PRO_PER_S_3P_N')] Probleme hat … Das beruhigt mich ungemein."
- 
+
  # Level 3 Stress Events
  stress_threshold.3001.t:0 "Geistiger Zusammenbruch: Die Stimmen"
  stress_threshold.3001.desc:0 "Während mein Hof nur Lügen und Falschheiten verbreitet, habe ich jene gefunden, die mir die Wahrheit sagen wollen.\n\nSie leben bei mir. In meinem Kopf.\n\nSie sagen, dass sie die Wahrheit kennen.\n\nKennen sie sie wirklich?"
@@ -192,14 +206,14 @@
  stress_threshold.3001.possessed.effect:0 "Ja, ja, sie kennen die Wahrheit, die echte Wahrheit …"
  stress_threshold.3001.naked_run:0 "Ich muss diese Teufel mit einem nackten Lauf austreiben!"
  stress_threshold.3001.endure:0 "Einfach … nicht zuhören …"
- 
+
  stress_threshold.3101.t:0 "Geistiger Zusammenbruch: Fehlverhalten"
  stress_threshold.3101.desc:0 "Alles ist … falsch. Die Wänden in meinem Gemach sind falsch. Der Boden ist falsch. Selbst die Luft ist falsch!\n\nWarum ist alles falsch? Wer hat dafür gesorgt? Wer hat alles falsch gemacht!?"
  stress_threshold.3101.kill_victim:0 "Es ist nur die Schuld von [victim.GetFirstNameNoTooltip]. Das weiß ich einfach!"
  stress_threshold.3101.lunatic.gain:0 "Die Eichhörnchen … in den Wänden? Sie waren es!"
  stress_threshold.3101.lunatic.effect:0 "Die Eichhörnchen in den Wänden sind wieder da!"
  stress_threshold.3101.lunatic.tt:0 "#F Geht und holt meine Spitzhacke!#!"
- 
+
  stress_threshold.3201.t:0 "Geistiger Zusammenbruch: Überlastung"
  stress_threshold.3201.desc:0 "Das wird einfach alles zu viel! Wozu die ganze Mühe?\n\nWir sitzen gerade beim Abendessen, als alles … einfach auseinanderfällt. Ich muss neue Aufzeichnungen aus [county.GetNameNoTierNoTooltip|U] durchsehen, ein Dutzend örtliche Streitigkeiten schlichten, dann muss ich noch …\n\n„Alles in Ordnung, mein[ROOT.Char.Custom('DE_END_PRO_S_N')] Lehnsherr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]?“, bringt mein[vassal.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName] [vassal.Custom('DE_PRO_POS_S_3P')]e Besorgnis vorsichtig zum Ausdruck."
  stress_threshold.3201.depressed.gain:0 "Spielt es denn eine Rolle? Ich geben auf."
@@ -209,7 +223,7 @@
  stress_threshold.3201.wrathful.effect:0 "„Ich werde Euch zeigen, was #EMP in Ordnung#! ist, Ihr widerwärtiger Bückling!“"
  stress_threshold.3201.wrathful.effect.success:0 "Ihr verprügelt [vassal.GetTitledFirstName]"
  stress_threshold.3201.wrathful.effect.failure:0 "[vassal.GetTitledFirstName] kann sich gegen Euch verteidigen"
- 
+
  stress_threshold.3301.t:0 "Geistiger Zusammenbruch: Herzeleid"
  stress_threshold.3301.desc_man:0 "Das erste Zeichen dafür, dass etwas nicht stimmt, ist ein heftiger Schmerz in meiner Brust. Ich stolpere an eine Wand, um mich abzustützen, als der Schmerz auch in meinen linken Arm schießt und mir schwummrig wird.\n\nDafür … habe ich keine Zeit! Ich muss Dinge erledigen! Als ich versuche, einen Schritt zu gehen, breche ich zusammen. Ich versuche, um Hilfe zu rufen, bringe aber lediglich ein gequältes Wimmern hervor.\n\nDer Schmerz in meiner Brust wächst weiter und weiter, dann wird es Dunkel, und ich #EMP spüre#!, wie mein Herz stottert."
  stress_threshold.3301.desc_woman:0 "Das erste Zeichen dafür, dass etwas nicht stimmt, ist ein Sodbrennen, das einfach nicht vergehen will. Ich probiere sämtliche Heilmittel aus, weiche Wolle an meinem Unterleib, gemächliche Spaziergänge … Aber nichts hilft.\n\nPlötzlich kann ich nicht mehr richtig einatmen, und ich stolpere zu einer Wand, um mich abzustützen. Was passiert mit mir?! Ich will um Hilfe rufen, bringe aber lediglich ein schmerzerfülltes Keuchen hervor.\n\nDiese #EMP Pein#!! Heftiger Schmerz entbrennt zwischen meinen Schulterblättern und schießt meinen linken Arm hinab, und als er nur noch schlimmer wird, sinke ich zu Boden.\n\nBald schon ist alles dunkel."

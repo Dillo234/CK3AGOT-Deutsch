@@ -74,7 +74,7 @@
  castellan_fortify_province_modifier:0 "$task_castellan_fortify$"
 
  castellan_fortify_county_modifier:0 "Verteidigungsanlagen verstärken"
- 
+
  castellan_court_opinion_modifier:0 "Vorsitz im Rat führen"
 
  task_train_commanders_maa_effect_desc:0 "Platzhalter"
@@ -101,7 +101,6 @@
 
  task_admiral_fleet_effect_desc:0 "[Concept('supply', 'Versorgungs')|E]-Dauer: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')] %#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')] %#! \n\n[Concept('fleet', 'Flotten')|E]-Bewegungstempo: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')] %#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')] %#!"
 
-
  task_admiral_fleet_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')] %#!\n"
 
  task_admiral_fleet_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1] %#!"
@@ -117,7 +116,6 @@
 
  task_admiral_raid_effect_desc:0 "[raid|E]-Geschwindigkeit: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_raid_base')] %#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')] %#! \n\n[raid_loot|E]-Kapazität: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_raid_base')] %#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P -[SCOPE.ScriptValue('task_admiral_fleet_skill_base')] %#! \n\n[Concept('fleet', 'Flotten')|E]-Bewegungstempo: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_raid_base')] %#!\n$TAB$[martial_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')] %#!"
 
-
  task_admiral_raid_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')] %#!\n"
 
  task_admiral_raid_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1] %#!"
@@ -125,7 +123,7 @@
  task_admiral_maritime:0 "Handel beschützen"
 
  task_admiral_maritime_modifier:0 "$councillor_admiral$ konsultieren"
- 
+
  task_admiral_maritime_tax_modifier:0 "$councillor_admiral$ konsultieren" 
 
  task_admiral_maritime_effect_desc:0 "[Concept('domain', 'Domänen')|E]-Steuer: #P +[SCOPE.ScriptValue('task_admiral_maritime_tax_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')] %#!\n$TAB$[stewardship_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_tax_base')] %#! \n\n[Concept('supply', 'Versorgungs')E]-Kapazität: #P +[SCOPE.ScriptValue('task_admiral_maritime_modifier_value')] %#!\n$TAB$Grundwert: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')] %#!\n$TAB$[stewardship_skill|E] des Ratsmitglieds: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_base')] %#!"
@@ -134,5 +132,5 @@
 
  task_admiral_maritime_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1] %#!"
 
-  # Hofprediger
+ # Court Chaplain
  COURT_CHAPLAIN_SHATTERED_WORLD:0 "Startbonus für die zerrüttete Welt"

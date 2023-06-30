@@ -1,16 +1,35 @@
 ﻿l_german:
  BUILDING_TOOLTIP_TEXT:0 "[Building.GetDescription]\n\n#S Effekt:\n#![Building.GetEffectDescription( GetPlayer, GetPlayer.GetCulture )]"
+ #AGOT Modified
+ # building_type_castle_01:0 "Castle"
  building_type_castle_01:0 "Burgbesitztum"
  building_type_castle_01_desc:1 "Eine Festung, die nicht nur dazu dient, eine ehrbare Adelsfamilie zu beherbergen, sondern auch die umliegenden Orte und Ländereien zu schützen."
+ #AGOT Modified
+ # building_castle_01:1 "Motte"
  building_castle_01:1 "Kleiner Bergfried"
+ #AGOT Modified
+ # building_castle_01_desc:1 "This small but formidable fortification is situated upon a raised earthwork."
  building_castle_01_desc:1 "Ein kleiner Bergfried mit starken Befestigungen, der auf erhöhten Erdwällen errichtet wurde."
+ #AGOT Modified
+ # building_castle_02:1 "Keep"
  building_castle_02:1 "Großer Bergfried"
+ #AGOT Modified
+ # building_castle_02_desc:1 "The Keep #weak (or Donjon)#! is a large tower serving as a fortified residence and last line of defense."
  building_castle_02_desc:1 "Ein großer Bergfried, der sein Gebiet überwacht und als letzte Bastion des örtlichen Lords dient."
+ #AGOT Modified
+ # building_castle_03:1 "Concentric Castle"
  building_castle_03:1 "Kleine Burg"
+ #AGOT Modified
+ # building_castle_03_desc:1 "The Concentric Castle is surrounded by two or more walls, the inner one higher than the outer one."
  building_castle_03_desc:1 "Eine kleine Burg mit Befestigungsanlagen, die jeden Widersacher abwehren kann, der dem örtlichen Lord schaden will."
+ #AGOT Modified
+ # building_castle_04:1 "Fortress"
  building_castle_04:1 "Herkömmliche Burg"
+ #AGOT Modified
+ # building_castle_04_desc:1 "The Fortress is the epitome of defense, able to both repel enemy assaults and house a large military."
  building_castle_04_desc:1 "Eine Burg mit umfangreichen Befestigungen, die in der Lage ist, feindliche Truppen abzuwehren und gewaltige Hauswachen zu beherbergen."
-
+ #AGOT Modified
+ # building_type_temple_01:0 "Temple"
  building_type_temple_01:0 "Tempelbesitztum"
  building_type_temple_01_desc:1 "Eine Verehrungsstätte, über die der Klerus gebietet und an die eine Siedlung voller gläubiger Bauern angrenzt."
  building_temple_01:1 "Schrein"
@@ -21,19 +40,34 @@
  building_temple_03_desc:1 "In den Tempel passen zwar viele Gläubige, doch der Gottesdienst ist nicht sein einziger Zweck: Hier ist auch der Klerus untergebracht, es gibt eine große Schriftensammlung und Reliquien werden verwahrt. Durch ein zusätzliches Gotteshaus werden die Gläubigen immer genug Platz zum Beten haben."
  building_temple_04:1 "Großtempel"
  building_temple_04_desc:1 "Die örtlichen Handwerker und Architekten waren mit einem kleinen und bescheidenen Tempel nicht zufrieden. Daher haben sie sich zusammengetan, um ein wahres Wunder der Baukunst zu vollbringen. Der Großtempel erfüllt anscheinend jeden Gläubigen mit der Macht des Himmels selbst, wenn er seine glorreichen Mauern betritt."
-
+ #AGOT Modified
+ # building_type_city_01:0 "City"
  building_type_city_01:0 "Stadt"
  building_type_city_01_desc:1 "Eine bevölkerungsreiche Siedlung, die das Zuhause einer großen Zahl von Bürgern, Kaufleuten und hart arbeitenden Menschen ist."
+ #AGOT Modified
+ # building_city_01:1 "Village Center"
  building_city_01:1 "Kleines Dorf" #Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # building_city_01_desc:0 "$building_type_city_01_desc$"
  building_city_01_desc:0 "Ein kleines Dorf"
+ #AGOT Modified
+ # building_city_02:1 "Large City"
  building_city_02:1 "Dorf"
+ #AGOT Modified
+ # building_city_02_desc:1 "This city has attracted the attention of traders and craftsmen from all around, with wealthy merchants setting up shop and diligent craftsmen erecting new houses almost daily."
  building_city_02_desc:1 "Ein Dorf"
+ #AGOT Modified
+ # building_city_03:1 "City Center"
  building_city_03:1 "Kleine Stadt"
+ #AGOT Modified
+ # building_city_03_desc:1 "No longer content with just occupying its original area, the city now subsumes nearby farmland into its prosperous center. The city is vast and full of wealth and opportunity."
  building_city_03_desc:1 "Eine kleine Stadt"
+ #AGOT Modified
+ # building_city_04:1 "Bustling Metropolis"
  building_city_04:1 "Große Stadt"
+ #AGOT Modified
+ # building_city_04_desc:1 "This city is known far and wide for the bountiful opportunities that lie within — it is said that even the lowliest peasant can find fortune here. Houses line the streets for as far as the eye can see, with carts and animals busy transporting goods wherever you look."
  building_city_04_desc:1 "Eine große Stadt"
-
-
  building_type_common_tradeport_01:0 "Handelshafen"
  building_type_common_tradeport_01_desc:1 "Handelsschiffe ver- und entladen ihre Güter in diesem Hafen."
  building_common_tradeport_01:1 "Kleiner Hafen"
@@ -527,6 +561,7 @@
  building_hunting_grounds_07_desc:1 "Weite Landstriche werden als Reserven deklariert, in denen nur Jäger mit der entsprechenden Befugnis auf die Pirsch gehen dürfen. So gibt es reichlich Beute für die offiziellen Jagdgesellschaften, auch wenn einmal ein paar Wilderer durchrutschen …"
  building_hunting_grounds_08:1 "Försterhütten"
  building_hunting_grounds_08_desc:1 "Die Förster sind verantwortlich für das Wohlergehen des Landes und der Tiere darauf. Immer wenn Adlige entscheiden, auf die Jagd zu gehen, weiß der Förster, wohin er sie schicken muss, damit sie Beute machen können."
+
  building_type_stables_01:0 "Stallungen"
  building_type_stables_01_desc:0 "Für Reit- und Lastpferde sowie andere Tiere benötigt man ein eigenes Gebäude, damit jeder, der es sich leisten kann, frische Reittiere zur Verfügung hat."
  building_stables_01:0 "Kleiner Stall"
@@ -545,7 +580,7 @@
  building_stables_07_desc:0 "Die ordentliche Pflege der Hufe braucht so viel Arbeit und Können, dass Hufschmiedezünfte entstehen, die unermüdlich Hufeisen herstellen, anpassen und flicken."
  building_stables_08:0 "Gestüte"
  building_stables_08_desc:0 "Die Schaffung besonderer Anwesen, die sich der Versorgung und Pflege der edelsten und vollkommensten Rösser verschrieben haben, erlaubt es uns neue, prächtige Pferde heranzuziehen, und lässt die, die wir schon haben, vor Glanz regelrecht erstrahlen."
- 
+
  building_type_smiths_01:0 "Grobschmiede"
  building_type_smiths_01_desc:0 "Indem Erz in Öfen erhitzt und dann mit Hämmern in die gewünschten Formen gebracht wird, können Grobschmiede die umliegenden Gemeinden mit den nötigen Werkzeugen und Waffen ausstatten."
  building_smiths_01:0 "Rennöfen"
@@ -564,7 +599,7 @@
  building_smiths_07_desc:0 "Hochöfen sind rund um die Uhr glühend heiß. Hier werden Eisen, Blei und Kupfer eingeschmolzen. Die Qualität des produzierten Metalls ist dabei herausragend."
  building_smiths_08:0 "Gusseisen"
  building_smiths_08_desc:0 "Gusseisen ist zwar etwas schwächer, doch dafür in der Herstellung viel billiger als andere Verfahren. Aus ihm werden eine breite Palette an Werkzeugen wie Pflugscharen, Nägeln oder Eggen hergestellt."
- 
+
  building_type_horse_pastures_01:0 "Pferdeherden"
  building_type_horse_pastures_01_desc:0 "Jeder kann eine krude Waffe schwingen und damit seine Mitmenschen schlagen. Fast jeder kann einen krude bewaffneten Bauernhaufen um sich scharen. Doch nur aus der feinen Harmonie eines gut ausgebildeten Pferdes, eines geübten Kriegers und der passenden Waffe, angeführt von den besten Befehlshabern, kann eine unübertroffene Kampftruppe entstehen, die über die Erde fegt."
  building_horse_pastures_01:0 "Einreiten von Wildpferden"
@@ -583,7 +618,7 @@
  building_horse_pastures_07_desc:0 "Wenn das Schlachtross müde wird, steigt der Reiter ab und wechselt auf ein anderes. Das erschöpfte Reittier begleitet den Reiter und die übrigen Ersatzpferden aber – nur eben ohne das Gewicht des Reiters. So können unsere Armeen enorme Entfernungen zurücklegen und ständig vor der Hauptstreitmacht ausspähen."
  building_horse_pastures_08:0 "Regeln der Reiterkriegsführung"
  building_horse_pastures_08_desc:0 "„Achtet darauf, dass Eure Männer ihren Schweifriemen lose am Pferd hängen haben und das Gebiss der Trense aus dem Maul nehmen, außer wenn Ihr sie jagen lasst. So können sie nicht nach Lust und Laune losgaloppieren. Wenn Ihr diese Regeln aufgestellt habt, sorgt dafür, dass jeder ergriffen und geschlagen wird, der sie bricht. Jedem, der sich über dieses Gebot hinwegsetzt, schlagt den Kopf ab, wo er steht.“"
- 
+
  building_type_warrior_lodges_01:0 "Kriegerhallen"
  building_type_warrior_lodges_01_desc:0 "Persönliche Bande, die auf den Schlachtfeldern geknüpft wurden, verdienen Gedenkhallen, in denen alte Krieger ihre wundersamen und doch glaubwürdigen Geschichten mit verträumten jungen Menschen teilen können."
  building_warrior_lodges_01:0 "Trophäenhallen"
@@ -602,7 +637,7 @@
  building_warrior_lodges_07_desc:0 "Generationen von jungen Auszubildenden haben hier gelernt, doch bisher nur von überlebenden und noch unter uns weilenden Kriegern. Doch nun kann fast jeder für eine kleine Gebühr Zugang zu allen angesammelten und nur stellenweise widersprüchlichen Weisheiten erhalten."
  building_warrior_lodges_08:0 "Besucherquartiere"
  building_warrior_lodges_08_desc:0 "Diese Hallen sind zum Ziel weltlicher „Pilgerfahrten“ geworden, denn angehende wie erfahrene Krieger weit und breit träumen davon, durch diese ehrfürchtigen Hallen wandeln zu können."
- 
+
  building_type_hillside_grazing_01:0 "Hangweiden"
  building_type_hillside_grazing_01_desc:0 "Diese für die Landwirtschaft ungeeigneten Hänge sind größtenteils mit Gras und anderen Pflanzen bewachsen. Pferden können sie allerdings verzehren. Daher wurden sie hauptsächlich als Weideflächen genutzt."
  building_hillside_grazing_01:0 "Hügelweiden"
@@ -621,7 +656,7 @@
  building_hillside_grazing_07_desc:0 "Um hochwertige Schlachtrösser zu züchten und zu unterhalten, braucht man jemanden, der sich um ihre verschiedenen Leiden und Verletzungen kümmert und ihre Güte gründlich bewertet. Da die Pferdezucht in diesem Bereich immer wichtiger wird, braucht es auch einen Pferdemarschall, der sich um die Reittiere kümmert."
  building_hillside_grazing_08:0 "Großgestüte"
  building_hillside_grazing_08_desc:0 "Im Lauf der Zeit wurde das gesamte Weideland unter einer Reihe großer Gestüte zusammengefasst, die für die Zucht und Ausbildung einer großen Zahl starker Schlachtrösser verantwortlich sind."
- 
+
  building_type_windmills_01:0 "Windmühlen"
  building_type_windmills_01_desc:0 "Windmühlen stehen dort, wo der Wind am stärksten ist – beispielsweise auf Hügeln oder an den Küsten. Im Gegensatz zu Wassermühlen werden Windmühlen nicht durch zufrierende Flüsse angehalten und können das ganze Jahr über mahlen."
  building_windmills_01:0 "Windsegelmühle"
@@ -640,7 +675,7 @@
  building_windmills_07_desc:0 "Die langsame Drehung der mächtigen Windmühlensegel wird durch ein einfaches Holzgetriebe beschleunigt, sodass sich das eigentlich Mahlwerk schneller drehen kann. So können alle angelieferten Materialien schneller verarbeitet werden."
  building_windmills_08:0 "Turmwindmühle"
  building_windmills_08_desc:0 "Der Hauptteil dieser Windmühle wurde ordentlich gemauert und nur der Oberteil besteht noch aus Holz, sodass sich die Segel immer in den Wind drehen können. Kein Sturm und kein fehlgeleiteter Ritter können einen solchen Turm umstürzen und damit den Mahlbetrieb stören."
- 
+
  building_type_watermills_01:0 "Wassermühlen"
  building_type_watermills_01_desc:0 "Wassermühlen verwandeln die Kraft des Wassers – von Gezeiten bis zu Wasserfällen – in Drehungen um, die man zum Mahlen, Sägen, Zerkleinern und Walken nutzen kann. Die Genehmigungen für den Betrieb einer Wassermühle sind für den Träger des Besitztums zudem noch eine einfache und zuverlässige zusätzliche Einnahmequelle."
  building_watermills_01:0 "Unterschlächtige Wasserräder"
@@ -659,7 +694,7 @@
  building_watermills_07_desc:0 "Eine Reihe von Uferdeichen, Dämmen und künstlichen Kanälen sowohl für unterschlächtige als auch für oberschlächtige Wasserräder tragen dem wachsenden Mühlenbedarf Rechnung. Da fast jeder natürliche geeignete Platz bereits belegt ist, durchziehen neu angelegte Wasserwege die Gegend."
  building_watermills_08:0 "Pulvermühle"
  building_watermills_08_desc:0 "Diese separate Mühle, die weit entfernt von anderen Gewerken steht, dient allein dem effizienten und #EMP etwas#! sichereren Mahlen von Holzkohle und Schwefel."
- 
+
  building_type_caravanserai_01:0 "Karawanserei"
  building_type_caravanserai_01_desc:0 "Eine Unterkunft in unwirtlichen Gegenden, die müde Reisende aufnimmt und gleichzeitig versucht, unliebsame Reisende fernzuhalten."
  building_caravanserai_01:0 "Kleine Karawanserei"
@@ -678,7 +713,7 @@
  building_caravanserai_07_desc:0 "Geräumige Badehäuser erfüllen selbst die luxuriösesten Wünsche. Für diejenigen, die mit leichterem Geldbeutel reisen, bieten sie eine einfache, aber willkommene Erfrischung."
  building_caravanserai_08:0 "Adelsgemächer"
  building_caravanserai_08_desc:0 "Dank der Ergänzung um geeignete Gemächer kommen auch bedeutende und höchst ehrenwerte Besucher aus diesem Reich und aus der Fremde hierher."
- 
+
  building_type_workshops_01:0 "Werkstätten"
  building_type_workshops_01_desc:0 "Pfeilmacher, Bogenbauer und Schreiner arbeiten in diesen Werkstätten, um Belagerungswaffen herzustellen und die Truppen für längere Feldzüge zu versorgen."
  building_workshops_01:0 "Schießstände"
@@ -697,7 +732,7 @@
  building_workshops_07_desc:0 "In den Hauptbüchern werden nun verschiedene Mustergruppen von Maßen, Längen und Gewichten vermerkt, denn so kann man sicherstellen, dass ein 90 Kilogramm schweres Geschoss genau 300 Meter weit geschleudert wird. Im richtigen Wetter. Zumindest meistens."
  building_workshops_08:0 "Pulvermagazine"
  building_workshops_08_desc:0 "Ein frei stehendes, robustes Gebäude, in das nur wenige Ausgewählte dürfen, dient als Lager für gewaltige Mengen an Schießpulver, das entweder als mächtige Sprengladungen für Tunnelbauer oder als Treibsatz für Bombarden dient."
- 
+
  building_type_wind_furnace_01:0 "Schachtöfen"
  building_type_wind_furnace_01_desc:0 "Auf Hügeln an der Küste, wo die Monsunwinde zuerst auf das Land treffen, schmelzen Schachtöfen weltberühmten Stahl von tadelloser Qualität."
  building_wind_furnace_01:0 "Kleine Schachtöfen"
@@ -890,7 +925,7 @@
  building_holy_site_canterbury_cathedral_02:0 "Tempel von Canterbury"
  building_holy_site_canterbury_cathedral_02_desc:0 "$building_type_holy_site_canterbury_cathedral_02_desc$"
 
-building_type_holy_site_canterbury_cathedral_03:0 "Kathedrale von Canterbury"
+ building_type_holy_site_canterbury_cathedral_03:0 "Kathedrale von Canterbury"
  building_type_holy_site_canterbury_cathedral_03_desc:0 "Die schweren Schäden an der Kathedrale erforderten einen erneuten Wiederaufbau. Obwohl die normannische Bausubstanz in einigen Teilen beibehalten wurde, entschied man sich für den blumigen gotischen Stil, um das Bauwerk aufzuwerten."
  building_holy_site_canterbury_cathedral_03:0 "$building_type_holy_site_canterbury_cathedral_02$"
  building_holy_site_canterbury_cathedral_03_desc:0 "$building_type_holy_site_canterbury_cathedral_02_desc$"
@@ -954,8 +989,7 @@ building_type_holy_site_canterbury_cathedral_03:0 "Kathedrale von Canterbury"
  building_type_generic_university_desc:0 "Eine Universität ist ein Ort der höheren Bildung, der jenen vorbehalten ist, die angesehen und reich genug sind und sich als würdig erweisen. Sie zieht Gelehrte und Wissenschaftler an, die in ihren Mauern Wissen debattieren, studieren, niederschreiben und zusammenbringen."
  building_generic_university:0 "$building_type_generic_university$"
  building_generic_university_desc:0 "$building_type_generic_university_desc$"
-
-university_effect_desc:1 "Ermöglicht [Concept('education', 'Ausbildungsoption')|E] #V $EDUCATION_UNIVERSITY$#! für [rulers|E] innerhalb desselben [Concept('realm', 'Reichs')|E]"
+ university_effect_desc:1 "Ermöglicht [Concept('education', 'Ausbildungsoption')|E] #V $EDUCATION_UNIVERSITY$#! für [rulers|E] innerhalb desselben [Concept('realm', 'Reichs')|E]"
  university_toto_effect_desc:0 "$tournament_cost_discount_effect_desc$$tournament_phase_board_game$ und $tournament_phase_recital$$tournament_contest_cost_discount_effect_desc$\n"
  university_roco_effect_desc:0 "Erhöht die Güte finanzierter #V Buch#!-[inspirations|E]\n"
  stables_effect_desc:1 "[SelectLocalization(HasDlcFeature('tours_and_tournaments'), 'stables_toto_effect_desc', 'stables_no_toto_effect_desc')]"
@@ -967,7 +1001,7 @@ university_effect_desc:1 "Ermöglicht [Concept('education', 'Ausbildungsoption')
  feast_cost_discount_min_desc:0 "$feast_cost_discount_effect_desc$[EmptyScope.ScriptValue('feast_activity_cost_discount_min_value')|P0%]"
  feast_cost_discount_medium_desc:0 "$feast_cost_discount_effect_desc$[EmptyScope.ScriptValue('feast_activity_cost_discount_medium_value')|P0%]"
  feast_cost_discount_max_desc:0 "$feast_cost_discount_effect_desc$[EmptyScope.ScriptValue('feast_activity_cost_discount_max_value')|P0%]"
- 
+
  cereal_fields_effect_desc:1 "$feast_cost_discount_min_desc$"
  orchards_effect_desc:1 "$feast_cost_discount_min_desc$"
  plantations_effect_desc:1 "$feast_cost_discount_min_desc$"
@@ -1197,7 +1231,7 @@ university_effect_desc:1 "Ermöglicht [Concept('education', 'Ausbildungsoption')
  building_nishapur_mines_03_desc:0 "Ein ganzes Dorf ist um die vielen Bergbaugruben entstanden, und die Arbeiter finden regelmäßig hochwertigen Türkis."
  building_nishapur_mines_04:0 "Nischapur-Bergbauanlage"
  building_nishapur_mines_04_desc:0 "Der Abbau von Türkis hat fast schon industrielle Ausmaße angenommen. Die Zahl der Arbeiter reicht nun in die Tausende. Endloser Reichtum scheint aus der Mine zu strömen."
- 
+
  building_type_verespatak_mines_01:0 "Die Minen von Roșia Montană"
  building_type_verespatak_mines_01_desc:0 "In Transsylvanien wurde schon vor der Römerzeit nach Gold geschürft und mit modernen Methoden kann dieser Abbau wieder aufleben."
  building_verespatak_mines_01:0 "Roșia-Montană-Bergbausiedlung"
@@ -1329,7 +1363,7 @@ university_effect_desc:1 "Ermöglicht [Concept('education', 'Ausbildungsoption')
  building_allaq_mines_03_desc:0 "$building_rammelsberg_mines_03_desc$"
  building_allaq_mines_04:0 "Wadi-al-Allaq-Bergbauanlage"
  building_allaq_mines_04_desc:0 "$building_rammelsberg_mines_04_desc$"
- 
+
  building_type_takkeda_mines_01:0 "Die Minen von Takkeda"
  building_type_takkeda_mines_01_desc:0 "Das Aïr-Gebirge verfügt über reiche Kupfervorkommen, die in Takkeda seit prähistorischen Zeiten abgebaut wurden."
  building_takkeda_mines_01:0 "Takkeda-Bergbausiedlung"
@@ -1559,3 +1593,4 @@ university_effect_desc:1 "Ermöglicht [Concept('education', 'Ausbildungsoption')
  building_type_holy_site_basilica_santiago_01_desc:0 "Dieses herrliche Bauwerk wurde auf dem Grab von Jakobus dem Älteren errichtet und ist der Endpunkt des Jakobswegs und die Krone eines der wichtigsten Stätten des Christentums. Pilger aus dem ganzen Westen und Norden Europas kommen in großer Zahl hierher und sprechen Dutzende von Sprachen – obschon so mancher stumm vor Ehrfurcht ist."
  building_holy_site_basilica_santiago_01:0 "$building_type_holy_site_basilica_santiago_01$"
  building_holy_site_basilica_santiago_01_desc:0 "$building_type_holy_site_basilica_santiago_01_desc$"
+

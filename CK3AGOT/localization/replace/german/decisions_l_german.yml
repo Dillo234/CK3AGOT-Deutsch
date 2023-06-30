@@ -420,6 +420,8 @@
  convert_whole_realm_to_feudalism_decision_confirm:0 "Die [ROOT.Char.Custom('GetTribalReformGovernment')|U]-Lebensart annehmen"
  convert_whole_realm_to_feudalism_decision_tooltip:0 "Ändert die [Concept('government', 'Regierungsform')|E], indem Ihr den [feudalism|E] annehmt"
 
+ #AGOT Modified
+ # islamic_vassals_will_convert:1 "As I am Islamic, my [tribal|E] vassals will change to [clan|E] government"
  islamic_vassals_will_convert:1 "Meine [Concept('tribal', 'Stammes')|E]-Vasallen werden zu einer [Concept('government', 'Clans')|E]-Regierung wechseln" #Selbst geschrieben/abgetippt
  other_vassals_will_convert:1 "Meine [Concept('tribe', 'Stammes')|E]-Vasallen wechseln zum [feudalism|E]"
  clan_liege_vassals_will_convert:0 "Da mein [liege|E] eine [clan_government|E] hat, werden meine [tribe|E]-Vasallen zum $game_concept_clan$ wechseln"
@@ -886,9 +888,15 @@
  stress_loss_drunkard_decision_effect_tooltip:1 "Ihr werdet etwas [stress|E] verlieren"
  stress_loss_drunkard_decision_confirm:0 "Prosit!"
 
+ #AGOT Modified
+ # stress_loss_hashishiyah_decision:1 "Consume Hashish Cakes"
  stress_loss_hashishiyah_decision:1 "Mohnblumensaft trinken"  #AGOT Overwrite - Zombie#Selbst geschrieben/abgetippt
+ #AGOT Modified
+ # stress_loss_hashishiyah_decision_desc:1 "Just a few bites, and the stress seems to flow from my body. My mind begins to fog, and a sense of peace and restfulness overcomes me. There is nothing that is quite as relaxing as good hashish!"
  stress_loss_hashishiyah_decision_desc:1 "Nach nur wenigen Schlücken scheint die Anspannung aus meinem Leib herauszuströmen. Mein Geist wird benebelt, und mich überkommt ein Gefühl des Friedens und der Ruhe. Nichts ist so entspannend..." #Selbst geschrieben/abgetippt
  stress_loss_hashishiyah_decision_tooltip:1 "Lasst Eure Anspannung in einem Drogennebel zerfließen"
+ #AGOT Modified
+ # stress_loss_hashishiyah_decision_confirm:1 "Bring me a platter!"
  stress_loss_hashishiyah_decision_confirm:1 "Bringt mir was zu trinken!" #Selbst geschrieben/abgetippt
 
  stress_loss_rakish_decision:0 "Freudenhaus besuchen"
@@ -1046,7 +1054,6 @@
  introduce_a_new_fashion_at_court_decision_confirm:0 "Für einen neuen Stil und Klasse!"
  court_already_has_a_fashion_tend_tt:0 "Der Hof hat bereits eine laufende Mode."
 
- #TODO_CD_JB, move over to a separate event file
  court_amenities_interactions.0010.b_turned_down:0 "Alle lieben den neuen Stil!"
  court_amenities_interactions.0010.t:0 "Eine neue Mode am Hof"
  court_amenities_interactions.0010.desc_intro:0 "[actor.GetNameNoTooltip|U] hat am Hof Eindruck hinterlassen und die Blicke aller Edelmänner und Edeldamen des Reiches mit [actor.Custom('DE_PRO_POS_S_3P')]en ganz besonderen Gewandungen auf sich gezogen."
@@ -1209,3 +1216,4 @@
  switch_to_israelite_language_tt:0 "Die [GetPlayer.GetCulture.GetName|l]e Kultur wird $language_israelite_name$ als [language|E] annehmen"
  switch_to_original_language_tt:0 "Eure neue Kultur wird [target_other_culture.GetLanguage.GetNameNoTooltip|U] sprechen."
  at_least_10_jewish_counties_tt:0 "Ihr müsst mindestens 10 jüdische [counties|E] Eurer [culture|E] halten."
+
