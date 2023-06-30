@@ -16,7 +16,7 @@
  bishop.2001.failure.c.desc.tt:0 "[scoped_prisoner.GetFirstName] échappe à mes assassins !"
  bishop.2001.d:0 "C’est m[scoped_prisoner.Custom('FR_OnA')] prisonni[scoped_prisoner.Custom('FR_ErEre')], [scoped_prisoner.Custom('FR_IlElle')] restera dans mon cachot !"
  
- bishop.2002.t:0 "Une famille [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]"
+ bishop.2002.t:1 "Ma famille [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]"
  bishop.2002.desc.b:0 "Je lève la main pour appeler [scoped_relative.GetFirstName] à l’autre bout du hall, mais m[ROOT.Char.Custom2('FR_RelationToMeShort_OnA', SCOPE.sC('scoped_relative'))] ne me renvoie qu’un regard embarrassé avant de partir précipitamment."
  bishop.2002.desc.c:0 "Je regarde autour de la table du repas pour essayer d’entamer une conversation, mais je ne trouve que des regards embarrassés et des têtes qui se tournent."
  bishop.2002.desc.a:0 "\n\nMa propre famille s’est retournée contre moi à cause de c[scoped_bishop.Custom('FR_EEtte')] [scoped_bishop.Custom('InsultNoun')] [scoped_bishop.Custom('InsultAdjective')] de [scoped_bishop.GetCouncilTitle|l] [scoped_bishop.GetFirstName]. [scoped_bishop.Custom('FR_IlElle')|U] a pris l’habitude de murmurer des mensonges aux oreilles des membres de ma famille chaque fois qu’ils vont [scoped_bishop.Custom('FR_LeLa')] consulter pour une aide spirituelle. [scoped_bishop.Custom('FR_IlElle')|U] prétend que je suis un[ROOT.Char.Custom('FR_E')] [ROOT.Char.GetTitleTierName] mauvais[ROOT.Char.Custom('FR_E')] et que [ROOT.GetCharacter.GetFaith.HighGodName] a maudit notre Maison."
@@ -39,3 +39,9 @@
  bishop.2002.everypiousrelative.custom:0 "Tous les pieux [Concept( 'family', 'membres de ma famille' )|E] de foi [scoped_bishop.GetFaith.GetAdjective]"
  bishop.2003.countyunrest.custom:0 "Chaque [county|El] de foi [scoped_bishop.GetFaith.GetAdjective] de mon [domain|El]"
  bishop.2003.everytheocrat.custom:0 "Chaque vassal [theocratic|El] de foi [scoped_bishop.GetFaith.GetAdjective]"
+ 
+ bishop.2004.t:0 "Aux yeux des zélotes"
+ bishop.2004.desc:0 "Dans chacun de ses derniers sermons, le [scoped_bishop.GetCouncilTitle], [scoped_bishop.GetFirstName], s’est plaint[scoped_bishop.Custom('FR_E')] de mon prétendu manque de piété.\n\nApparemment, [scoped_bishop.GetSheHe] a même osé me qualifier de « [root_scope.Custom('InsultNoun')] impie » et mes vassaux les plus dévots commencent à l’écouter."
+ bishop.2004.theologian:0 "Ce sont des mensonges et des calomnies flagrants !"
+ bishop.2004.a:0 "J’imagine qu’une nouvelle donation « de bonne foi » fera l’affaire."
+ bishop.2004.b:0 "Et alors ? Qu’ils croient ce qu’ils veulent !"

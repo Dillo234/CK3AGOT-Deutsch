@@ -13,7 +13,7 @@
  tradition_fp2_strategy_gamers_name:1 "桌上战士"
  tradition_fp2_strategy_gamers_desc:0 "任何指挥官都可以在作战当天赌一把，碰碰运气。#EMP 真正的#!战略家通过实践磨炼头脑，假装他们不#EMP 需要#!“运气”。"
 
- culture_parameter_commanders_likelier_to_gain_commander_traits:0 "[commanders|E]更可能获得[commander_traits|E]" # [LocEditor:AwaitingBatchUpdate]
+ culture_parameter_commanders_likelier_to_gain_commander_traits:1 "[commanders|E]更可能获得[commander_traits|E]"
  culture_parameter_may_challenge_to_board_games:0 "可以挑战其他[characters|E]进行[board_games|E]"
  culture_parameter_may_wager_land_on_board_games:0 "如果双方规则相同，可以在[board_games|E]中压上私人持有的[county|E]作为赌注"
  
@@ -29,7 +29,7 @@
  challenge_to_2p_chess_interaction.accept.game_commences.tt:1 "会立即开始一场[actor.Custom('BG_GameType_Concept')]游戏"
  perk_interaction.0122.victor_toast.t:1 "你赢得游戏！"
  perk_interaction.0122.loser_toast.t:1 "你输掉游戏！"
- fp2_bg_interaction.winner.actor:1 "如果[Select_CString( actor.IsLocalPlayer, '你赢得', '你的对手赢得'  )]赢得了赌局"
+ fp2_bg_interaction.winner.actor:1 "如果[Select_CString( actor.IsLocalPlayer, 'you win', 'your opponent wins' )]赢得了赌局"
  fp2_bg_interaction.winner.recipient:1 "如果[Select_CString( recipient.IsLocalPlayer, '你赢得', '你的对手赢得' )]赌注"
  fp2_bg_recipient_banned_from_board_games:1 "[character|E]目前无法玩棋盘游戏"
  challenge_to_2p_chess_interaction.need_bordering_non_capital_domains.tt:1 "你和你的对手必须有[realm_capitals|E]之外的接壤[domains|E]"
@@ -78,7 +78,7 @@
 
  ##################################################
  # Andalusian Specific
- tradition_fp2_malleable_subjects_name:0 "易受影响的臣民"
+ tradition_fp2_malleable_subjects_name:0 "善于适应的臣民"
  tradition_fp2_malleable_subjects_desc:0 "谁能说清什么是自由？不管文化如何，一个国王总是和另一个很像。只有学会如何与领主相处，才能得到真正的自由。"
 
  culture_parameter_harder_to_convert_county_culture_without_heritage:0 "更难在该[culture|E]的[counties|E][promote_culture|E]，除非拥有相同[heritage|E]"

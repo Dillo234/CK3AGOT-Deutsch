@@ -18,7 +18,7 @@
  ENDING_DECISION_NONE:1 "해당 국면에서 사용할 수 있는 최종 결단이 없습니다."
  ENDING_DECISION_MULTIPLE:0 "#I 클릭하여 사용 가능한 최종 결단 표시하기#!"
  ENDING_DECISION_AVAILABLE:0 "[struggle|E]을 끝낼 수 있습니다."
- ENDING_DECISION_UNAVAILABLE:0 "[struggle|E]을 끝낼 수 없습니다."
+ ENDING_DECISION_UNAVAILABLE:0 "[struggle|E] 종료 불가"
  #ENDING_DECISION_AREA_HEADER:0 "#high Ending the Struggle:#! [StrugglePhase.GetNameNoTooltip] for the [Struggle.GetNameNoTooltip]\n#I Select one of the following Ending Decisions to put an end to the [Struggle.GetNameNoTooltip]#!"
  ENDING_DECISION_AREA_HEADER:1 "#high 투쟁 종료:#! [Struggle.GetNameNoTooltip]의 [StrugglePhase.GetNameNoTooltip]"
  ENDING_DECISION_AREA_DESCRIPTION:0 "#I 다음 최종 결단 중 하나를 선택해 [Struggle.GetNameNoTooltip]에 종지부를 찍으십시오.#!"
@@ -71,9 +71,9 @@
  STRUGGLE_INVOLVEMENT_CULTURE_INVOLVED:1 "당신의 [culture|E]가 [struggle|E]에서 [struggle_involved|E] 상태임"
  STRUGGLE_INVOLVEMENT_CULTURE_UNINVOLVED:1 "당신의 [culture|E]가 [struggle|E]에서 [struggle_uninvolved|E] 상태임"
  STRUGGLE_INVOLVEMENT_WINDOW_PARTICIPANT_DESC:1 "인물은 [struggle_interloper|E]나 [struggle_involved|E]자로 [Struggle.GetNameNoTooltip]에 참여할 수 있습니다. 지역 내 비참여자는 [struggle_uninvolved|E]자로 간주됩니다."
- STRUGGLE_INVOLVEMENT_WINDOW_FAITH_DESC:0 "이 [faiths|E]은 [Struggle.GetNameNoTooltip]의 일부로 간주됩니다. [struggle|E]의 기원과 관련되어 있거나 [struggle|E] 속에서 발생한 경우가 이에 해당합니다. 외부 [faith|E]은 [struggle_region|E] 내 [Concept( 'counties', '영지' )|E]의 80%를 장악하면 [struggle_involved|E]될 수 있습니다." # [LocEditor:AwaitingBatchUpdate]
+ STRUGGLE_INVOLVEMENT_WINDOW_FAITH_DESC:1 "이 [faiths|E]은 [Struggle.GetNameNoTooltip]의 일부로 간주됩니다. [struggle|E]의 기원과 관련되어 있거나 [struggle|E] 속에서 발생한 경우가 이에 해당합니다. 외부 [faith|E]은 [struggle_region|E] 내 [Concept( 'counties', '영지' )|E]의 80%를 장악하면 [struggle_involved|E]될 수 있습니다."
  STRUGGLE_INVOLVEMENT_WINDOW_FAITH_COUNT:0 "#weak [Struggle.GetNameNoTooltip] 내 [Struggle.GetNumCountiesWithFaith(Faith.Self)]개 [Concept( 'counties', '영지' )|E]가 해당 [faith|E]을 따름#!"
- STRUGGLE_INVOLVEMENT_WINDOW_CULTURE_DESC:0 "이 [cultures|E]은 [Struggle.GetNameNoTooltip]의 일부로 간주됩니다. [struggle|E]의 기원과 관련되어 있거나 [struggle|E] 속에서 발생한 경우가 이에 해당합니다. 외부 [culture|E]은 해당 지역 내 [Concept( 'counties', '영지' )|E]의 80%를 장악하면 [struggle_involved|E]될 수 있습니다." # [LocEditor:AwaitingBatchUpdate]
+ STRUGGLE_INVOLVEMENT_WINDOW_CULTURE_DESC:1 "이 [cultures|E]은 [Struggle.GetNameNoTooltip]의 일부로 간주됩니다. [struggle|E]의 기원과 관련되어 있거나 [struggle|E] 속에서 발생한 경우가 이에 해당합니다. 외부 [culture|E]은 해당 지역 내 [Concept( 'counties', '영지' )|E]의 80%를 장악하면 [struggle_involved|E]될 수 있습니다."
  STRUGGLE_INVOLVEMENT_WINDOW_CULTURE_COUNT:0 "#weak [Struggle.GetNameNoTooltip] 내 [Struggle.GetNumCountiesWithCulture(Culture.Self)]개 [Concept( 'counties', '영지' )|E]#!"
  STRUGGLE_FILTER_PARTICIPANTS_ALL:0 "전체"
  STRUGGLE_FILTER_PARTICIPANTS_INVOLVED:0 "연루"

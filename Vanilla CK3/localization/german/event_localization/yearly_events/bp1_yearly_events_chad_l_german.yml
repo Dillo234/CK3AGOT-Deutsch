@@ -3,23 +3,23 @@
  # bp1_yearly_events_chad
  bp1_yearly.3001.t:0 "Fürwahr echte Freundschaft"
  bp1_yearly.3001.desc:0 "Die Kassen sind in letzter Zeit klamm in der Feste. Ganz gleich, wie viele Steuern ich auch eintreiben lasse: Wir haben einfach nicht genug, um für alles aufzukommen!\n\n[friend.GetTitledFirstNameNoTooltip], stets [friend.Custom('DE_ART_DEF_S_N')] treue [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))], ist gekommen, um mich während dieser Pechsträhne zu besuchen. Während wir über meine derzeitigen Widrigkeiten sprechen, bietet [friend.Custom('DE_PRO_PER_S_3P_N')] an, meine Staatskasse mit einem ordentlichen Sümmchen aufzufrischen.\n\n[friend.GetFirstNameNoTooltip] nimmt meine Hände und sagt sanft: „Lasst mich Euch helfen, mein[ROOT.Char.Custom('DE_END_PRO_S_N')] Freund[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]. Ich weiß, dass Ihr das Gleiche für mich tun würdet.“"
- bp1_yearly.3001.a:0 "Gepriesen sei [ROOT.Char.GetFaith.WealthGodName] für diese glorreiche Überraschung!"
- bp1_yearly.3001.b:0 "Ich könnte niemals [friend.Custom('DE_ART_IND_D)] Freund[friend.Custom('DE_END_NOU_S_GS_N')] auf der Tasche liegen."
+ bp1_yearly.3001.a:0 "Gepriesen seien die reichen Kräfte ([ROOT.Char.GetFaith.WealthGodName]) für diese glorreiche Überraschung!"
+ bp1_yearly.3001.b:0 "Ich könnte niemals [friend.Custom('DE_ART_IND_D')] Freund[friend.Custom('DE_END_NOU_S_GS_N')] auf der Tasche liegen."
  bp1_yearly.3001.c:0 "Was ich wirklich brauche, ist noch ein Getränk …"
  bp1_yearly.3001.c.tt:0 "Ihr und [friend.GetFirstNameNoTooltip] verplempert Geld für Kameradschaft und Fröhlichkeit"
  bp1_yearly.3001.d:0 "„Könntet Ihr nicht noch etwas mehr erübrigen?“"
 
- bp1_yearly.3002.t:0 "[friend.Custom('DE_ART_IND_N)|U] Freund[friend.Custom('DE_END_NOU_S_GS_N')] in Not"
- bp1_yearly.3002.desc:0 "Während ich m[friend.Custom('DE_ART_DEF_S_A')] Freund[friend.Custom('DE_END_NOU_S_GS_A')] [friend.GetTitledFirstNameNoTooltip] besuche, fällt mir auf, dass die Dinge deutlich anders sind, seit ich das letzte Mal in [friend.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] war.\n\n[friend.Custom('DE_PRO_PER_S_3P_N')|U] ließ früher [friend.Custom('GetExpensiveDrink')] und [friend.Custom('GetExpensiveDessert')] für uns auftafeln, wenn ich vorbeikam, doch heute zieren kaum ein paar Krümel und nur Wasser den Tisch.\n\nIch frage [friend.GetFirstNameNoTooltip], ob er etwas klamm ist. Niedergeschlagen antwortet [friend.Custom('DE_PRO_PER_S_3P_N')]: „Ihr ahnt nicht, wie schlimm es steht …“"
+ bp1_yearly.3002.t:0 "[friend.Custom('DE_ART_IND_N')|U] Freund[friend.Custom('DE_END_NOU_S_GS_N')] in Not"
+ bp1_yearly.3002.desc:0 "Während ich m[friend.Custom('DE_ART_DEF_S_A')] Freund[friend.Custom('DE_END_NOU_S_GS_N')] [friend.GetTitledFirstNameNoTooltip] besuche, fällt mir auf, dass die Dinge deutlich anders sind, seit ich das letzte Mal in [friend.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] war.\n\n[friend.Custom('DE_PRO_PER_S_3P_N')|U] ließ früher [friend.Custom('GetExpensiveDrink')] und [friend.Custom('GetExpensiveDessert')] für uns auftafeln, wenn ich vorbeikam, doch heute zieren kaum ein paar Krümel und nur Wasser den Tisch.\n\nIch frage [friend.GetFirstNameNoTooltip], ob er etwas klamm ist. Niedergeschlagen antwortet [friend.Custom('DE_PRO_PER_S_3P_N')]: „Ihr ahnt nicht, wie schlimm es steht …“"
  bp1_yearly.3002.a:0 "Ich sollte helfen, wo ich kann."
  bp1_yearly.3002.b:0 "„Nun, ich sollte wohl lieber gehen …“"
- bp1_yearly.3002.b.tt:0 "Ihr habt Eur[friend.Custom('DE_END_PRO_S_A)|U] Freund[friend.Custom('DE_END_NOU_S_GS_N')] in Zeiten der Not im Stich gelassen"
+ bp1_yearly.3002.b.tt:0 "Ihr habt Eur[friend.Custom('DE_END_PRO_S_A')|U] Freund[friend.Custom('DE_END_NOU_S_GS_N')] in Zeiten der Not im Stich gelassen"
  bp1_yearly.3002.c:0 "Eine Nacht des Lustigseins wird [friend.Custom('DE_PRO_PER_S_3P_A')] auf andere Gedanken bringen!"
  bp1_yearly.3002.c.tt:0 "Ihr und [friend.GetFirstNameNoTooltip] ergeht Euch in einem nächtlichen Gelage"
  bp1_yearly.3002.d:0 "Werfen wir einen Blick auf Eure Hauptbücher …"
  bp1_yearly.3002.d.tt:0 "Die Finanzaufzeichnungen werden geholt, damit Ihr sie untersuchen könnt"
 
- bp1_yearly.3003.desc:0 "Ich gehe die jüngsten Ausgaben m[friend.Custom('DE_ART_DEF_S_G')] Freund[friend.Custom('DE_END_NOU_S_GS_G')] durch und versuche, herauszufinden, was [friend.Custom('DE_PRO_PER_S_3P_A')] in solch eine schreckliche Lage gebracht haben könnte. Auf der Stelle fällt mir das Problem auf:\n\nKriegsvolk: -1,8\nHofannehmlichkeiten: -3,2\nNeuer Hofarzt: -50\n#difficulty_hard Kerzen: -360#!\nGeschenke für Höflinge: -15\n\n„Kerzen? Ihr habt Schulden wegen #EMP Kerzen#!?!“\n\n[friend.Custom('DE_PRO_PER_S_3P_N')|U] antwortet verschämt: „M[friend.Custom('DE_ART_DEF_S_N')] Freund[friend.Custom('DE_END_NOU_S_GS_N')], Ihr kennt Euch mit Verwaltung aus. Bitte helft mir!“"
+ bp1_yearly.3003.desc:0 "Ich gehe die jüngsten Ausgaben m[friend.Custom('DE_ART_DEF_S_G')] Freund[friend.Custom('DE_END_NOU_S_GS_N')] durch und versuche, herauszufinden, was [friend.Custom('DE_PRO_PER_S_3P_A')] in solch eine schreckliche Lage gebracht haben könnte. Auf der Stelle fällt mir das Problem auf:\n\nKriegsvolk: -1,8\nHofannehmlichkeiten: -3,2\nNeuer Hofarzt: -50\n#difficulty_hard Kerzen: -360#!\nGeschenke für Höflinge: -15\n\n„Kerzen? Ihr habt Schulden wegen #EMP Kerzen#!?!“\n\n[friend.Custom('DE_PRO_PER_S_3P_N')|U] antwortet verschämt: „M[friend.Custom('DE_ART_DEF_S_N')] Freund[friend.Custom('DE_END_NOU_S_GS_N')], Ihr kennt Euch mit Verwaltung aus. Bitte helft mir!“"
  bp1_yearly.3003.a:0 "„Ich werde Euch helfen, aber nur dieses eine Mal …“"
  bp1_yearly.3003.b:0 "„Gebt weniger für Kerzen aus.“"
  
@@ -97,9 +97,9 @@
  bp1_yearly.3203.sc_result_lost:1 "Ihr habt ein Duell gegen [sc_victor.GetTitledFirstNameNoTooltip] verloren"
  bp1_yearly.3204.sc_invalid:0 "Euer Duell gegen [insensitive_asshole.GetFirstNameNoTooltip] wurde annulliert"
 
- bp1_yearly.3300.t:0 "Nachdenken über [ROOT.Char.GetFaith.HighGodName]"
+ bp1_yearly.3300.t:0 "Nachdenken über die höchsten Mächte ([ROOT.Char.GetFaith.HighGodName])"
  bp1_yearly.3300.desc:0 "Während ich dasitze und über einige Einzelheiten meines Glaubens ([ROOT.Char.GetFaith.GetName]) sinniere, kann ich nicht anders, als an das Folgende zu denken: [pilgrimage_memory.GetDescription]. Diese Reise mochte fernab der alltäglichen Bequemlichkeiten eines Lebens als [ROOT.Char.GetTitleAsNameNoTooltip] gewesen sein, doch die Erleichterung, die ich bei meiner Ankunft in [pilgrimage_destination.GetName] verspürte, war all die Mühen wert."
- bp1_yearly.3300.a:0 "Ich glaube, ich werde mich [ROOT.Char.GetFaith.HighGodName] für immer nahe fühlen."
+ bp1_yearly.3300.a:0 "Ich glaube, ich werde mich den höchsten Mächten ([ROOT.Char.GetFaith.HighGodName]) für immer nahe fühlen."
 
  bp1_yearly.3301.desc:0 "Während ich dasitze und über einige Einzelheiten meines Glaubens ([ROOT.Char.GetFaith.GetName]) sinniere, kann ich nicht anders als an das Folgende zu denken: [pilgrimage_memory.GetDescription]. Diese Reise mochte fernab der alltäglichen Bequemlichkeiten eines Lebens als [ROOT.Char.GetTitleAsNameNoTooltip|l] gewesen sein, doch die Erleichterung, die ich bei meiner Ankunft in [pilgrimage_destination.GetName] verspürte, war all die Mühen wert.\n\n[pilgrimage_friend.GetFirstName] näherzukommen, war noch ein zusätzlicher Vorzug. Wir hatten auf dieser Pilgerreise wirklich eine gute Zeit miteinander."
- bp1_yearly.3301.a:0 "Ich glaube, ich werde mich [ROOT.Char.GetFaith.HighGodName] und [pilgrimage_friend.GetFirstNameNoTooltip] für immer nahe fühlen."
+ bp1_yearly.3301.a:0 "Ich glaube, ich werde mich den höchsten Mächten ([ROOT.Char.GetFaith.HighGodName]) und [pilgrimage_friend.GetFirstNameNoTooltip] für immer nahe fühlen."

@@ -83,7 +83,7 @@
  seduce_outcome.2303.b:0 "我很开心有这样的交流，不过这场对话已经结束了。"
 
  seduce_outcome.2304.t:0 "苍穹之下"
- seduce_outcome.2304.desc:0 "[target.GetTitledFirstName]和我相互靠着蹲在一齐，在我们面前的[ROOT.Char.Custom('LocalAnimalDesc')][ROOT.Char.Custom('LocalAnimal')]并没有注意到我们。我自己有点心不在焉——特别是[target.GetFirstNamePossessive]的[target.Custom('GetClothingArticle')]在摩挲着我。当我伸手想要拥抱[target.GetHerHim]的时候，我发现[target.GetSheHe]也把[target.GetHerHis]的注意力放在了#EMP 别处#!。\n\n当那只[ROOT.Char.Custom('LocalAnimal')]消失在[ROOT.Char.Custom('TerrainType')]中时，我们全裸的身体被松软的泥土裹挟，相互搂在了一起。"
+ seduce_outcome.2304.desc:0 "[target.GetTitledFirstName]和我相互靠着蹲在一起，在我们面前的那只[ROOT.Char.Custom('GetAnimalAdjective')][ROOT.Char.Custom('GetAnimalType')]并没有注意到我们。我自己有点心不在焉——特别是[target.GetFirstNamePossessive]的[target.Custom('GetClothingArticle')]在摩挲着我。当我伸手想要拥抱[target.GetHerHim]的时候，我发现[target.GetSheHe]也把[target.GetHerHis]的注意力放在了#EMP 别处#!。\n\n当那只[ROOT.Char.Custom('GetAnimalType')]消失在[ROOT.Char.Custom('TerrainType')]中时，我们全裸的身体被松软的泥土裹挟，相互搂在了一起。"
  seduce_outcome.2304.a:0 "对于我们来说，在一起是再自然不过的事情了！"
  seduce_outcome.2304.b:0 "合久必分——这是生活的一部分。"
 
@@ -122,7 +122,7 @@
  seduce_outcome.2900.t:0 "[target_liege.GetTitledFirstNamePossessiveNoTooltip]之怒"
  seduce_outcome.2900.start.desc:0 "当大喊与尖叫声响起的时候，[capital.GetNameNoTierNoTooltip]的"
  seduce_outcome.2900.capital.desc:0 "[target_liege.Custom('FortifiedBuilding')]墙"
- seduce_outcome.2900.end.desc:1 "依旧让人不舒服地关闭着。在任何人发现我之前，我翻了过去，藏在路边的某些[target_liege.Custom('OutdoorsHidingPlace')]后面。\n\n当搜捕队伍从身边经过时，我的心脏如同锣鼓一般怦怦地跳个不停。“快！[ROOT.Char.GetTitledFirstNameNoTooltip]肯定还没走远！”"
+ seduce_outcome.2900.end.desc:1 "依旧让人不舒服地关闭着。在任何人发现我之前，我翻了过去，藏在路边的[target_liege.Custom('OutdoorsHidingPlace')]后面。\n\n当搜捕队伍从身边经过时，我的心脏如同锣鼓一般怦怦地跳个不停。“快！[ROOT.Char.GetTitledFirstNameNoTooltip]肯定还没走远！”"
  seduce_outcome.2900.a:0 "我们现在会怎么样？"
 
  seduce_outcome.3901.t:0 "宫廷里的蛇"
@@ -160,7 +160,7 @@
  seduce_outcome.3303.desc:0 "“[ROOT.Char.Custom2('ComplimentSentence', SCOPE.sC('owner'))|U]。”\n\n“你[target.Custom('quirk_pos_adjective')]的笑容我永远也不厌，”[owner.GetTitledFirstName]满脸羞涩地答道，“你的拥抱也是。”\n\n我们之间朦胧的爱意已经消失了，但取而代之的是用言语传达的，更加确实的心意。"
  seduce_outcome.3303.a:0 "我们一次又一次地这么说过！"
 
- seduce_outcome.3304.desc:0 "[owner.GetTitledFirstName]和我相互靠着蹲在一齐，在我们面前的[owner.Custom('LocalAnimalDesc')][owner.Custom('LocalAnimal')]并没有注意到我们。我自己有点心不在焉——特别是[owner.GetFirstNamePossessive]的[owner.Custom('GetClothingArticle')]在摩挲着我。当我伸手想要拥抱[owner.GetHerHim]的时候，我发现[owner.GetSheHe]把[owner.GetHerHis]的注意力也放在了#EMP 别处#!。\n\n当[owner.Custom('LocalAnimal')]消失在[ROOT.Char.Custom('TerrainType')]时，我们全裸的身体被松软的泥土裹挟，我们也相互搂在了一起。"
+ seduce_outcome.3304.desc:0 "[owner.GetTitledFirstName]和我相互靠着蹲在一起，在我们面前的那只[owner.Custom('GetAnimalAdjective')][owner.Custom('GetAnimalType')]并没有注意到我们。我自己有点心不在焉——特别是[owner.GetFirstNamePossessive]的[owner.Custom('GetClothingArticle')]在摩挲着我。当我伸手想要拥抱[owner.GetHerHim]的时候，我发现[owner.GetSheHe]把[owner.GetHerHis]的注意力也放在了#EMP 别处#!。\n\n当[owner.Custom('GetAnimalType')]消失在[ROOT.Char.Custom('TerrainType')]时，我们全裸的身体被松软的泥土裹挟，我们也相互搂在了一起。"
  seduce_outcome.3304.a:0 "对于我们来说，在一起是再自然不过的事情了！"
 
  seduce_outcome.3305.desc:1 "“[letterAuthor.Custom2('love_letter', SCOPE.sC('love_letter_target'))]”\n\n我对[owner.GetFirstName]给我写这样一首诗的欣赏之情，被我因为[owner.GetHerHim]展现如此激情的感动心情彻底淹没。"
@@ -192,8 +192,8 @@
  seduce_outcome.4002.a:0 "诶，你可真是个……[target.Custom('InsultAdjective')]……[target.Custom('InsultNounSexual')]！"
 
  seduce_outcome.4003.t:0 "暴露"
- seduce_outcome.4003.plot.desc:0 "[target.GetTitledFirstName]带着俏皮的笑容把我迎了进来，然后[target.GetHerHis]欲求不满的双手马上摸索上了纽扣和绳结。几息之间，我就被扒的一干二净，并且颤颤巍巍地站在[target.GetHerHim]的面前。但是当我尝试回应时，[target.GetFirstNameNoTooltip]突然将我推开——然后大叫。\n\n“卫兵！我的房间里有入侵者！#EMP 卫兵！#!”\n\n我像个刚出生的婴儿一样一丝不挂，飞身穿过房间爬出窗户。"
- seduce_outcome.4003.regular.desc:0 "当我爬到[target.GetTitledFirstNamePossessive]的窗户时，[target.GetHerHis]突然震惊地大喊起来，这可不是我脑海里设想的欢迎仪式！在我能阻止[target.GetHerHim]之前，[target.GetSheHe]大步冲到了门前，唰地一下打开了门。\n\n“救命！卫兵！我的房间里有入侵者！”\n\n在这个晚上变得更糟糕之前，我赶紧顺着原路爬了回去。"
+ seduce_outcome.4003.plot.desc:0 "[target.GetTitledFirstName]带着俏皮的笑容把我迎了进来，然后[target.GetHerHis]欲求不满的双手马上摸索上了纽扣和绳结。几息之间，我就被扒的一干二净，并且颤颤巍巍地站在[target.GetHerHim]的面前。但是当我尝试回应时，[target.GetFirstNameNoTooltip]突然将我推开——然后大叫。\n\n“卫兵！我的房间里有人闯入！#EMP 卫兵！#!”\n\n我像个刚出生的婴儿一样一丝不挂，飞身穿过房间爬出窗户。"
+ seduce_outcome.4003.regular.desc:0 "当我爬到[target.GetTitledFirstNamePossessive]的窗户时，[target.GetHerHis]突然震惊地大喊起来，这可不是我脑海里设想的欢迎仪式！在我能阻止[target.GetHerHim]之前，[target.GetSheHe]大步冲到了门前，唰地一下打开了门。\n\n“救命！卫兵！有人闯入了我的房间！”\n\n在这个晚上变得更糟糕之前，我赶紧顺着原路爬了回去。"
  seduce_outcome.4003.a.plot:0 "那个[target.Custom('InsultAdjective')][target.Custom('InsultNoun')]会付出代价！"
  seduce_outcome.4003.a.regular:0 "我或许误判了[target.GetHerHis]的渴望。"
 

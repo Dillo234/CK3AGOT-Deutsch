@@ -75,7 +75,7 @@
  fund_inspiration.0031.relationship_soulmate:0 "[relationship_scope.GetTitledFirstName](을)를 향한 내 사랑 정도면 전설로 승화시키기에 충분할 걸세!"
  fund_inspiration.0031.relationship_nemesis:0 "[relationship_scope.GetTitledFirstName](을)를 향한 내 증오를 글로 쓰면 책이 몇 권은 나올 게야!"
  fund_inspiration.0031.dynasty:0 "영광스러운 [ROOT.Char.GetDynasty.GetName] 가문에 관한 글을 집필하게."
- fund_inspiration.0031.mystical_animal:0 "내가 순백의 [ROOT.Char.Custom('LocalAnimal')](을)를 사냥했던 이야기를 글로 풀어보지."
+ fund_inspiration.0031.mystical_animal:0 "내가 순백의 [ROOT.Char.Custom('GetAnimalType')](을)를 사냥했던 이야기를 글로 풀어보지."
  fund_inspiration.0031.pet_option_cat:0 "내 사랑스러운 고양이 [ROOT.Char.Custom('CatStoryName')]에 관한 글을 써주게!"
  fund_inspiration.0031.pet_option_dog:0 "내 사랑스러운 강아지 [ROOT.Char.Custom('CatStoryName')]에 관한 글을 써주게!"
  fund_inspiration.0031.c:0 "[united_title.GetName] 통일을 위해 내가 어떤 노력을 했는지 가감없이 담아내 주게나!"
@@ -139,6 +139,7 @@
  fund_inspiration.0061.table:0 "화려하지만 튼튼한 탁자가 좋겠어!"
  fund_inspiration.0061.throne:0 "이 나의 전당에 어울리는 장엄한 왕좌를 만들게!"
  fund_inspiration.0061.scientific_apparatus:0 "배움과 지식의 도구는 어떻겠나?"
+ fund_inspiration.0061.urn:0 "장식용 단지만 있으면 회당이 완벽해질 것 같군."
 
  fund_inspiration.0062.t:0 "장인 영감 후원"
 
@@ -212,7 +213,7 @@
  fund_inspiration.1051.desc.epic.ark:0 "큼지막한 석재 보관함이 자리하고 있었는데, 그 안에는 수많은 석판이 들어 있었다.\n\n[inspiration_owner.GetFirstNameNoTooltip](이)가 득의양양하게 뽐내기 시작했다. "바로 그 성궤입니다! 모세가 이스라엘인들에게 남긴 석판이 담겨 있죠."\n\n곧이어 [inspiration_owner.GetFirstNameNoTooltip](이)가 [inspiration_owner.Custom('InspirationAdventureDestination')]에서 있었던 모험담을 궁정 사람들에게 들려주기 시작했다. 음험한 이념에 경도된 적과 온갖 근사한 장소를 방문한 내용이 가득한 이야기였다."
  fund_inspiration.1051.desc.epic.throne:0 "\n\n[inspiration_owner.GetFirstNameNoTooltip](이)가 득의양양하게 공표했다. "[epic.GetDesc]""
  fund_inspiration.1051.desc.epic.cupboard:0 "\n\n함박웃음을 머금은 [inspiration_owner.GetFirstNameNoTooltip](이)가 공표했다. "[epic.GetDesc]""
- fund_inspiration.1051.desc.regalia:0 "왕실 궁정의 격에 걸맞은 표장이 들어 있었다.\n\n[inspiration_owner.GetFirstNameNoTooltip](이)가 득의양양한 미소를 띠고는 어떤 경위로 [location.GetNameNoTier]의 지역 영주에게 사의를 받게 되었는지 설명했다. 이런저런 사정 끝에 그 영주가 [inspiration_owner.GetFirstNamePossessiveNoTooltip] 주인에게 [newly_created_artifact.GetName](을)를 공물로 바쳤다는 것이다."
+ fund_inspiration.1051.desc.regalia:0 "왕실 궁정의 격에 걸맞은 표장이 들어 있었다.\n\n[inspiration_owner.GetFirstNameNoTooltip](이)가 득의양양한 미소를 띠고는 어떤 경위로 [inspiration_owner.GetCurrentLocation.GetNameNoTooltip]의 지역 영주에게 사의를 받게 되었는지 설명했다. 이런저런 사정 끝에 그 영주가 [inspiration_owner.GetFirstNamePossessiveNoTooltip] 주인에게 [newly_created_artifact.GetName](을)를 공물로 바쳤다는 것이다."
  fund_inspiration.1051.desc.regalia_2:0 "왕실 궁정의 격에 걸맞은 표장이 들어 있었다.\n\n[inspiration_owner.GetFirstNameNoTooltip](이)가 득의양양한 미소를 띠고는 설명했다. 내 궁정이 얼마나 장엄한지 소문을 들은 머나먼 이국의 영주가 좋은 인상을 남기고자 선물로 보냈다는 것이다."
  fund_inspiration.1051.desc.armor:0 "갑옷 한 벌이 들어 있었다.\n\n[inspiration_owner.GetFirstNameNoTooltip](은)는 이번에 공물로 바치게 된 이 특이한 갑옷을 어떻게 얻었는지 궁정 사람들에게 모험담을 들려주었다."
  fund_inspiration.1051.desc.weapon:0 "[newly_created_artifact.GetName](이)가 들어 있었다.\n\n[inspiration_owner.GetFirstNameNoTooltip](은)는 자신이 이 무기를 어떻게 손에 넣었는지 이야기를 들려주었다. 온갖 우여곡절이 가득해 언뜻 듣기엔 현실성이 떨어지는 무용담이었다."
@@ -655,7 +656,7 @@
 #Steppe
 
  fund_inspiration.6001.t:0 "가슴이 북받쳐 오르는 초원 질주"
- fund_inspiration.6001.desc:0 "저는 지난 몇 달을 연속으로 말 위에서 보냈습니다. 덕택에 둔부가 전혀 회복되질 않고 있어서 문제죠! 그래도 발효한 말 젖과 드넓은 밤하늘을 아래에서 잠을 청하는 게 제법 익숙해졌답니다.\n\n급사와 함께 모린 후르의 조각품을 보냅니다. 악기 가장 윗부분에 결합하는 말 모양 장식이죠. 어딘가 쓸 데가 있을지도 모릅니다." # [LocEditor:AwaitingBatchUpdate]
+ fund_inspiration.6001.desc:1 "저는 지난 몇 달을 연속으로 말 위에서 보냈습니다. 덕택에 둔부가 전혀 회복되질 않고 있어서 문제죠! 그래도 발효한 말 젖과 드넓은 밤하늘을 아래에서 잠을 청하는 게 제법 익숙해졌답니다.\n\n급사와 함께 모린 후르의 조각품을 보냅니다. 악기 가장 윗부분에 결합하는 말 모양 장식이죠. 어딘가 쓸 데가 있을지도 모릅니다."
  fund_inspiration.6001.a:0 "잘 간직해야겠어!"
  fund_inspiration.6001.b:0 "궁정 음악가에게 전달하도록."
 
@@ -1068,16 +1069,16 @@
  fund_inspiration.9000.a.success:0 "[adventurer.GetFirstNameNoTooltip](이)가 밤중에 몰래 달아남"
  fund_inspiration.9000.a.failure:0 "[adventurer.GetFirstNameNoTooltip](이)가 야영지에 숨어들다가 붙잡힘"
  
- fund_inspiration.9100.t:0 "[background_wilderness_scope.Custom('TerrainTypeProvince')|U]에 속한 $fund_inspiration.title$[adventurer.Custom('LocalAnimalDesc')|U][adventurer.Custom('LocalAnimalMultiple')|U]"
- fund_inspiration.9100.desc:0 ""영주님, 모험가 [adventurer.GetFirstName]에게서 전갈이 왔습니다." 하인이 두루마리를 내밀며 말했다.\n\n"수색을 이어가다가 [background_wilderness_scope.GetName]의 [background_wilderness_scope.Custom('TerrainTypeProvince')]에 도착했습니다. [adventurer.Custom('LocalAnimal')](이)가 넘쳐나는 것으로 악명 높은 지역이지만, 그만큼 목표가 가까워진 것 같습니다! 곧 복귀할 테니 기다려 주십시오. [adventurer.GetFirstNameNoTooltip] 올림"\n\n[adventurer.GetSheHe|U]가 지닌 야망이라면 위험한 길을 선택할 만하긴 하지..."
+ fund_inspiration.9100.t:0 "$fund_inspiration.title$ [background_wilderness_scope.Custom('TerrainTypeProvince')|U]의 [adventurer.Custom('GetAnimalAdjective')|U] [adventurer.Custom('GetAnimalPlural')|U]"
+ fund_inspiration.9100.desc:0 ""영주님, 모험가 [adventurer.GetFirstName]에게서 전갈이 왔습니다." 하인이 두루마리를 내밀며 말했다.\n\n"수색을 이어가다가 [background_wilderness_scope.GetName]의 [background_wilderness_scope.Custom('TerrainTypeProvince')]에 도착했습니다. [adventurer.Custom('GetAnimalType')](이)가 넘쳐나는 것으로 악명 높은 지역이지만, 그만큼 목표가 가까워진 것 같습니다! 곧 복귀할 테니 기다려 주십시오. [adventurer.GetFirstNameNoTooltip] 올림"\n\n[adventurer.GetSheHe|U]가 지닌 야망이라면 위험한 길을 선택할 만하긴 하지..."
  fund_inspiration.9100.a:0 "[adventurer.GetFirstNamePossessiveNoTooltip] 지식은 [adventurer.GetHerHim]의 안전을 담보하기에 충분하다..."
  fund_inspiration.9100.b:0 "[ROOT.Char.GetFaith.HighGodName]의 이름으로, [adventurer.GetSheHe]가 싸울 일이 없으면 좋겠군!"
  fund_inspiration.9100.c:0 "[adventurer.GetFirstNameNoTooltip](은)는 신중하다. 멀리 돌아서 가지 않을까 싶군."
- fund_inspiration.9100.a.success:0 "[adventurer.GetFirstNameNoTooltip](이)가 모든 [adventurer.Custom('LocalAnimalMultiple')](을)를 성공적으로 피함"
- fund_inspiration.9100.a.failure:0 "[adventurer.GetFirstNameNoTooltip](이)가 [adventurer.Custom('LocalAnimal')]에게 공격을 받음"
- fund_inspiration.9100.b.success:0 "[adventurer.GetFirstNameNoTooltip](이)가 덤벼드는 야생 [adventurer.Custom('LocalAnimal')](을)를 학살함"
- fund_inspiration.9100.b.failure:0 "[adventurer.GetFirstNameNoTooltip](이)가 덤벼드는 야생 [adventurer.Custom('LocalAnimal')]에게 패배함"
- fund_inspiration.9100.b.maimed:0 "[adventurer.GetFirstName](이)가 [adventurer.Custom('LocalAnimal')]에 의해 불구자가 됨"
+ fund_inspiration.9100.a.success:0 "[adventurer.GetFirstNameNoTooltip](이)가 모든 [adventurer.Custom('GetAnimalPlural')](을)를 성공적으로 피함"
+ fund_inspiration.9100.a.failure:0 "[adventurer.GetFirstNameNoTooltip](이)가 [adventurer.Custom('GetAnimalType')]에게 공격을 받음"
+ fund_inspiration.9100.b.success:0 "[adventurer.GetFirstNameNoTooltip](이)가 덤벼드는 야생 [adventurer.Custom('GetAnimalType')](을)를 학살함"
+ fund_inspiration.9100.b.failure:0 "[adventurer.GetFirstNameNoTooltip](이)가 덤벼드는 야생 [adventurer.Custom('GetAnimalType')]에게 패배함"
+ fund_inspiration.9100.b.maimed:0 "[adventurer.GetFirstName](이)가 [adventurer.Custom('GetAnimalType')]에 의해 불구자가 됨"
  # Inspiration Custom Loc
  inspiration_owner_type_writer:0 "작가"
  inspiration_owner_type_weaponsmith:0 "무기공"
@@ -1145,11 +1146,14 @@
  inspiration_artisan_base_type_sculpture:0 "조각상"
  inspiration_artisan_base_type_cabinet:0 "진열장"
  inspiration_artisan_base_type_throne:0 "왕좌"
+ inspiration_artisan_base_type_scientific_apparatus:0 "과학 기구"
+ inspiration_artisan_base_type_urn:0 "단지"
  inspiration_smith_base_type_brooch:0 "브로치"
  inspiration_smith_base_type_regalia:0 "표장"
  inspiration_smith_base_type_crown:0 "왕관"
  inspiration_smith_base_type_goblet:0 "술잔"
  inspiration_artisan_job_type_carpenter:0 "목수"
+ inspiration_artisan_job_type_potter:0 "도공"
  inspiration_artisan_job_type_sculptor:0 "조각가"
  inspiration_type_material_writing:0 "잎사귀"
  inspiration_type_material_metal:0 "금속"
@@ -1158,6 +1162,7 @@
  inspiration_type_material_sweat:0 "노력"
  inspiration_type_material_wood:0 "나무"
  inspiration_type_material_stone:0 "돌"
+ inspiration_type_material_clay:0 "점토"
  inspiration_type_material_ingredients:0 "소재"
  inspiration_type_material_fallback:0 "재료"
  # Banner

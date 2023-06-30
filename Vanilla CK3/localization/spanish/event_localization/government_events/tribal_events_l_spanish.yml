@@ -1,9 +1,9 @@
 ﻿l_spanish:
  tribal.1001.t:0 "Un desafío"
- tribal.1001.desc_old:0 "«Has envejecido y te has vuelto endeble, [ROOT.Char.GetTitledFirstNameNoTooltip];"
- tribal.1001.desc_weak:0 "«Eres #EMP débil#!, [ROOT.Char.GetTitledFirstNameNoTooltip];"
- tribal.1001.desc_meak:0 "«No he visto a nadie con menos agallas, [ROOT.Char.GetTitledFirstNameNoTooltip];"
- tribal.1001.desc_fallback:0 "«Careces de dignidad para gobernar, [ROOT.Char.GetTitledFirstNameNoTooltip];"
+ tribal.1001.desc_old:0 "«Has envejecido y te has vuelto endeble, [ROOT.Char.GetTitledFirstNameNoTooltip|l];"
+ tribal.1001.desc_weak:0 "«Eres #EMP débil#!, [ROOT.Char.GetTitledFirstNameNoTooltip|l];"
+ tribal.1001.desc_meak:0 "«No he visto a nadie con menos agallas, [ROOT.Char.GetTitledFirstNameNoTooltip|l];"
+ tribal.1001.desc_fallback:0 "«Careces de dignidad para gobernar, [ROOT.Char.GetTitledFirstNameNoTooltip|l];"
  tribal.1001.desc:0 "¡es hora de que abdiques!»\n\n[challenger.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se acerca a mí delante de toda la tribu, proclamando su desafío para que todos lo oigan.\n\n«De ahora en adelante, soy yo quién gobernará [ROOT.Char.GetPrimaryTitle.GetName]»."
  tribal.1001.a_child:0 "¡Defiende tus palabras con acero, [challenger.Custom('GirlBoy')]!"
  tribal.1001.a:0 "¡Defiende tus palabras con acero!"
@@ -24,7 +24,7 @@
  tribal.1003.desc_old:0 "¡Espero que puedas defender tus palabras con el acero, [challenger.Custom('GirlBoy')]!»""
  tribal.1003.desc_young:0 "¡Espero que puedas defender tus palabras con el acero!»"
  tribal.1003.desc:0 "\n\n[liege_to_challenge.Custom2('MyCharacterIntroduction', ROOT.Char)|U] [liege_to_challenge.Custom('SignatureWeaponActionThirdPerson')] su [liege_to_challenge.Custom('signature_weapon')] y da un paso hacia mí. La tribu entera se reúne en torno a ambos, llena de emoción y miedo a partes iguales. Tomo posición y…"
- tribal.1003.desc_liege_champion:0 "\n\n[liege_champion.GetTitledFirstName], paladín de [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('liege_to_challenge'))] [liege_to_challenge.GetTitledFirstName], [liege_champion.Custom('SignatureWeaponActionThirdPerson')] su [liege_champion.Custom('signature_weapon')] y da un paso hacia mí. La tribu entera nos rodea, el aire se llena de emoción y miedo. Tomo posición y…"
+ tribal.1003.desc_liege_champion:0 "\n\n[liege_champion.GetTitledFirstName], paladín de [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('liege_to_challenge'))] [liege_to_challenge.GetTitledFirstName|l], [liege_champion.Custom('SignatureWeaponActionThirdPerson')] su [liege_champion.Custom('signature_weapon')] y da un paso hacia mí. La tribu entera nos rodea, el aire se llena de emoción y miedo. Tomo posición y…"
  tribal.1003.a:0 "… elevo mi [ROOT.Char.Custom('signature_weapon')]."
  tribal.1003.b:0 "… levanto las manos mientras río incómodamente."
 
@@ -35,11 +35,11 @@
  tribal.1005.desc:0 "Levanto mi [ROOT.Char.Custom('signature_weapon')] y ataco.\n\n#EMP Esquivar, presionar, fintar…#! Con [ROOT.Char.Custom('SignatureWeaponActionReaction')], logro [ROOT.Char.Custom('SignatureWeaponCritical')] su pierna y, al ver que cae, sé que ha terminado."
  tribal.1005.a:0 "¡Espero que aprendas la lección!"
 
- tribal.1014.desc_opening:0 "Mi [liege_to_challenge.Custom2('RelationToMeShort', SCOPE.sC('challenger'))] [challenger.GetFirstName] [challenger.Custom('SignatureWeaponActionThirdPerson')] su [challenger.Custom('signature_weapon')] y da un paso hacia [liege_champion.GetTitledFirstName]. La tribu entera nos rodea, el aire se llena de emoción y miedo.\n\n"
+ tribal.1014.desc_opening:0 "Mi [liege_to_challenge.Custom2('RelationToMeShort', SCOPE.sC('challenger'))] [challenger.GetFirstName] [challenger.Custom('SignatureWeaponActionThirdPerson')] su [challenger.Custom('signature_weapon')] y da un paso hacia [liege_champion.GetTitledFirstName|l]. La tribu entera nos rodea, el aire se llena de emoción y miedo.\n\n"
  tribal.1014.desc:0 "[liege_champion.GetTitledFirstName] levanta su [liege_champion.Custom('signature_weapon')] y ataca. #EMP Esquivar, presionar, fintar… ¡Ay!#! Con [challenger.Custom('SignatureWeaponActionReaction')] [challenger.GetFirstNameNoTooltip] [challenger.Custom('SignatureWeaponCriticalPresent')] la pierna de [liege_champion.GetFirstName] y, al tropezar y caer, sé que ha terminado. La tribu ya no vitorea mi nombre."
  tribal.1014.a:0 "¡Maldita sea!"
 
- tribal.1015.desc:0 "[liege_champion.GetTitledFirstName] levanta su [liege_champion.Custom('signature_weapon')] y ataca.\n\n#EMP Esquivar, presionar, fintar…#! Con [liege_champion.Custom('SignatureWeaponActionReaction')] [liege_champion.GetSheHe] [liege_champion.Custom('SignatureWeaponCriticalPresent')] la pierna de [challenger.GetTitledFirstName] y, al ver que cae, sé que ha terminado."
+ tribal.1015.desc:0 "[liege_champion.GetTitledFirstName] levanta su [liege_champion.Custom('signature_weapon')] y ataca.\n\n#EMP Esquivar, presionar, fintar…#! Con [liege_champion.Custom('SignatureWeaponActionReaction')] [liege_champion.GetSheHe] [liege_champion.Custom('SignatureWeaponCriticalPresent')] la pierna [challenger.Custom('ES_DelDela')] [challenger.GetTitledFirstName|l] y, al ver que cae, sé que ha terminado."
  tribal.1015.a:0 "¡Espero que hayas aprendido la lección!"
 
  tribal.1006.desc_old:0 ""¡Veamos si tu habilidad está a la altura de tus reivindicaciones, [challenger.Custom('GirlBoy')]!""
@@ -64,7 +64,7 @@
  tribal.1022.trigger_failure.liege_to_challenge:0 "Mi [single_combat_duel|lE] contra [challenger.GetFirstNameNoTooltip] queda invalidado"
 
  tribal.1101.t:0 "Holmgang"
- tribal.1101.desc:0 "Mi rival, [rival.GetTitledFirstName], levanta la cabeza cuando entro al pasillo. [victim.GetTitledFirstName], mi #EMP [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim'))]#! yace en un charco de sangre a sus pies.\n\n«Ah, [ROOT.Char.GetFirstNameNoTooltip]. ¡Os acabo de dejar un mensaje!»\n\n[victim.GetFirstNameNoTooltip] sigue vivo, a juzgar por los gemidos de dolor, pero ¿hasta dónde habría llegado [rival.GetFirstNameNoTooltip] si no lo hubiera interrumpido?"
+ tribal.1101.desc:0 "Mi rival, [rival.GetTitledFirstName|l], levanta la cabeza cuando entro al pasillo. [victim.GetTitledFirstName|l], mi #EMP [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim'))]#! yace en un charco de sangre a sus pies.\n\n«Ah, [ROOT.Char.GetFirstNameNoTooltip]. ¡Os acabo de dejar un mensaje!»\n\n[victim.GetFirstNameNoTooltip] sigue vivo, a juzgar por los gemidos de dolor, pero ¿hasta dónde habría llegado [rival.GetFirstNameNoTooltip] si no lo hubiera interrumpido?"
  tribal.1101.a:0 "¡[rival.Custom('InsultNoun')|U] miserable! ¡Os desafío a un holmgang!"
  tribal.1101.a_success:0 "Ganas"
  tribal.1101.a_failure:0 "Gana [rival.GetSheHe]"
@@ -73,17 +73,17 @@
  tribal.1101.b_failure:0 "Gana [rival.GetFirstNameNoTooltip]"
  tribal.1101.c:0 "Mira, pues… lo pasado, pasado está, ¿no?"
 
- tribal.1102.desc_opening:0 "Se reúne una muchedumbre para contemplar el holmgang entre [rival.GetTitledFirstName] y yo. Nos rodea una enorme masa de gritos y puños levantados.\n\nEmpuño mi [ROOT.Char.Custom('signature_weapon')] y cargo, y pronto nos sumimos en un torbellino de acero y sangre.\n\n"
- tribal.1102.desc:0 "¡Ahí! Una abertura en la defensa de [rival.GetTitledFirstNameNoTooltip]. Consigo [ROOT.Char.Custom('SignatureWeaponAction')] mi [ROOT.Char.Custom('signature_weapon')], aprieto los dientes y con un [ROOT.Char.Custom('SignatureWeaponActionReaction')], [ROOT.Char.Custom('SignatureWeaponCritical')] su torso. [rival.GetSheHe|U] muere antes de tocar el suelo."
+ tribal.1102.desc_opening:0 "Se reúne una muchedumbre para contemplar el holmgang entre [rival.GetTitledFirstName|l] y yo. Nos rodea una enorme masa de gritos y puños levantados.\n\nEmpuño mi [ROOT.Char.Custom('signature_weapon')] y cargo, y pronto nos sumimos en un torbellino de acero y sangre.\n\n"
+ tribal.1102.desc:0 "¡Ahí! Una abertura en la defensa de [rival.GetTitledFirstNameNoTooltip|l]. Consigo [ROOT.Char.Custom('SignatureWeaponAction')] mi [ROOT.Char.Custom('signature_weapon')], aprieto los dientes y con un [ROOT.Char.Custom('SignatureWeaponActionReaction')], [ROOT.Char.Custom('SignatureWeaponCritical')] su torso. [rival.GetSheHe|U] muere antes de tocar el suelo."
  tribal.1102.a:0 "¡Ese es el destino de cuantos osen desafiarme!"
 
- tribal.1103.desc_opening:0 "Se reúne una muchedumbre para contemplar el holmgang entre [rival.GetTitledFirstName] y [friend.GetTitledFirstName]. Les rodea una enorme masa de gritos y puños levantados, entre los que mi voz retumba por encima de todas.\n\n[friend.GetTitledFirstNameNoTooltip] empuña su [friend.Custom('signature_weapon')] y carga, y pronto se vuelven un torbellino de acero y sangre.\n\n"
+ tribal.1103.desc_opening:0 "Se reúne una muchedumbre para contemplar el holmgang entre [rival.GetTitledFirstName|l] y [friend.GetTitledFirstName|l]. Les rodea una enorme masa de gritos y puños levantados, entre los que mi voz retumba por encima de todas.\n\n[friend.GetTitledFirstNameNoTooltip|l] empuña su [friend.Custom('signature_weapon')] y carga, y pronto se vuelven un torbellino de acero y sangre.\n\n"
  tribal.1103.desc:0 "De pronto, [friend.GetFirstNameNoTooltip] [friend.Custom('SignatureWeaponActionThirdPerson')] su [friend.Custom('signature_weapon')] y, con [friend.Custom('SignatureWeaponActionReaction')], [friend.Custom('SignatureWeaponCriticalPresent')] el torso de [rival.GetTitledFirstNamePossessiveNoTooltip]. Muere antes de tocar el suelo."
 
- tribal.1104.desc:0 "De pronto, [rival.GetTitledFirstNameNoTooltip] [rival.Custom('SignatureWeaponActionThirdPerson')] su [rival.Custom('signature_weapon')] y, antes de que pueda bloquear, me [rival.Custom('SignatureWeaponCriticalPresent')] en el hombro. Qué dolor… Debo de haber perdido el conocimiento, porque de repente está encima de mí.\n\n«Ríndete»."
+ tribal.1104.desc:0 "De pronto, [rival.GetTitledFirstNameNoTooltip|l] [rival.Custom('SignatureWeaponActionThirdPerson')] su [rival.Custom('signature_weapon')] y, antes de que pueda bloquear, me [rival.Custom('SignatureWeaponCriticalPresent')] en el hombro. Qué dolor… Debo de haber perdido el conocimiento, porque de repente está encima de mí.\n\n«Ríndete»."
  tribal.1104.a:0 "Me… me rindo."
 
- tribal.1105.desc:0 "De pronto, [rival.GetTitledFirstNameNoTooltip] [rival.Custom('SignatureWeaponActionThirdPerson')] su [rival.Custom('signature_weapon')] y, antes de que [friend.GetFirstNameNoTooltip] lo bloquee, le [rival.Custom('SignatureWeaponCriticalPresent')] [friend.GetFirstNamePossessiveNoTooltip] en el hombro. Cae al suelo presa del dolor mientras [rival.GetFirstNameNoTooltip] me mira a los ojos.\n\n«Rendíos»."
+ tribal.1105.desc:0 "De pronto, [rival.GetTitledFirstNameNoTooltip|l] [rival.Custom('SignatureWeaponActionThirdPerson')] su [rival.Custom('signature_weapon')] y, antes de que [friend.GetFirstNameNoTooltip] lo bloquee, le [rival.Custom('SignatureWeaponCriticalPresent')] [friend.GetFirstNamePossessiveNoTooltip] en el hombro. Cae al suelo presa del dolor mientras [rival.GetFirstNameNoTooltip] me mira a los ojos.\n\n«Rendíos»."
  tribal.1105.a:0 "Nos… nos rendimos."
 
  tribal.1201.t:0 "La carrera"
@@ -95,7 +95,7 @@
  tribal.1201.a.tt:0 "Una carrera ofrece prestigio, ¡pero también riesgos!"
  tribal.1201.b:0 "Prefiero disfrutar del espectáculo."
 
- tribal.1202.desc:0 "Bailes, canciones, vítores… ¡El público ya ha enloquecido antes de empezar la carrera!\n\nMe abro paso entre la muchedumbre, a escasos minutos de que tengamos que montar, cuando veo a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('villain_racer'))] [villain_racer.GetTitledFirstName] junto a los caballos con algo afilado en la mano…"
+ tribal.1202.desc:0 "Bailes, canciones, vítores… ¡El público ya ha enloquecido antes de empezar la carrera!\n\nMe abro paso entre la muchedumbre, a escasos minutos de que tengamos que montar, cuando veo a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('villain_racer'))] [villain_racer.GetTitledFirstName|l] junto a los caballos con algo afilado en la mano…"
  tribal.1202.a:0 "«¡Eh! ¡¿Qué estáis haciendo?!»"
  tribal.1202.b:0 "No me concierne."
  tribal.1202.b.tt:0 "Pase lo que pase…"
@@ -106,9 +106,9 @@
 
  tribal.1203.desc_opening:0 "Corro por la estepa, manteniendo el ritmo de las nubes en el cielo y los jinetes a mi lado.\n\n"
  tribal.1203.desc_sabotaged_you:0 "#EMP *¡Zas!*#!\n\nDe pronto, todo está al revés. La tierra arriba, el cielo debajo. ¡Lucho por permanecer en la silla, que ahora está bajo el caballo! Pero mis piernas acaban por ceder… Caigo al suelo con fuerza, y no me queda aliento ni para gritar."
- tribal.1203.desc_sabotaged_racer:0 "Según me acerco a [villain_racer.GetTitledFirstName], de repente gira hacia mí y en el mismo momento oigo a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('racer'))] [racer.GetTitledFirstName] gritar de dolor. Me giro en la silla y veo que está en el suelo sangrando mientras su caballo se debate contra una silla que ya no está sobre su lomo, sino colgando de su panza."
- tribal.1203.desc_sabotaged_villain:0 "De repente, oigo a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('villain_racer'))] [villain_racer.GetTitledFirstName] gritar de dolor. Me giro en la silla y veo que está en el suelo sangrando, con los restos de su brida en la mano."
- tribal.1203.desc:0 "¡No hay nada como esto! El viento en mi cara, el sonido de los cascos… Cuando me acerco a [villain_racer.GetTitledFirstName], ¡gira bruscamente hacia mí y casi tumba a mi caballo!"
+ tribal.1203.desc_sabotaged_racer:0 "Según me acerco a [villain_racer.GetTitledFirstName|l], de repente gira hacia mí y en el mismo momento oigo a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('racer'))] [racer.GetTitledFirstName|l] gritar de dolor. Me giro en la silla y veo que está en el suelo sangrando mientras su caballo se debate contra una silla que ya no está sobre su lomo, sino colgando de su panza."
+ tribal.1203.desc_sabotaged_villain:0 "De repente, oigo a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('villain_racer'))] [villain_racer.GetTitledFirstName|l] gritar de dolor. Me giro en la silla y veo que está en el suelo sangrando, con los restos de su brida en la mano."
+ tribal.1203.desc:0 "¡No hay nada como esto! El viento en mi cara, el sonido de los cascos… Cuando me acerco a [villain_racer.GetTitledFirstName|l], ¡gira bruscamente hacia mí y casi tumba a mi caballo!"
  tribal.1203.a:1 "¡Debo volver atrás para ayudar!"
  tribal.1203.b_nothing_sabotaged:0 "Es una distracción"
  tribal.1203.b:0 "¡Bien! Un contrincante menos."
@@ -124,10 +124,10 @@
 
  tribal.1204.desc_slow:0 "Tardo unos minutos, pero logro cruzar la línea de meta.\n\n"
  tribal.1204.desc_fast:0 "El publico ruge de emoción al verme cruzar la línea de meta.\n\n"
- tribal.1204.desc_racer:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('racer'))], [racer.GetTitledFirstName], ya celebra su victoria entre los halagos de la gente y un montón de regalos. Me saluda con la mano con cara de alegría."
- tribal.1204.desc_villain:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('villain_racer'))], [villain_racer.GetTitledFirstName], ya celebra su victoria entre los halagos de la gente y un montón de regalos. Al verme, sonríe con gesto burlón y me saluda con la mano."
- tribal.1204.desc_you:0 "Pronto me rodea la muchedumbre, formada con gente que quiere felicitarme, tocar mi caballo, bailar… Casi nadie ve a [racer.GetTitledFirstName] y [villain_racer.GetTitledFirstName] cruzar la meta, ¡están todos celebrando mi victoria!"
- tribal.1204.desc_you_jumped_horses:0 "Se me acerca gente a felicitarme, aunque surge algo de confusión cuando ven que voy a lomos del caballo de [villain_racer.GetTitledFirstName] y guiando al mío. Sin embargo, la fiesta y el baile continúan y son pocos los que notan la llegada de [racer.GetTitledFirstName] y [villain_racer.GetTitledFirstNameNoTooltip] a la meta, quien va a pie."
+ tribal.1204.desc_racer:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('racer'))], [racer.GetTitledFirstName|l], ya celebra su victoria entre los halagos de la gente y un montón de regalos. Me saluda con la mano con cara de alegría."
+ tribal.1204.desc_villain:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('villain_racer'))], [villain_racer.GetTitledFirstName|l], ya celebra su victoria entre los halagos de la gente y un montón de regalos. Al verme, sonríe con gesto burlón y me saluda con la mano."
+ tribal.1204.desc_you:0 "Pronto me rodea la muchedumbre, formada con gente que quiere felicitarme, tocar mi caballo, bailar… Casi nadie ve a [racer.GetTitledFirstName|l] y [villain_racer.GetTitledFirstName|l] cruzar la meta, ¡están todos celebrando mi victoria!"
+ tribal.1204.desc_you_jumped_horses:0 "Se me acerca gente a felicitarme, aunque surge algo de confusión cuando ven que voy a lomos del caballo de [villain_racer.GetTitledFirstName|l] y guiando al mío. Sin embargo, la fiesta y el baile continúan y son pocos los que notan la llegada de [racer.GetTitledFirstName|l] y [villain_racer.GetTitledFirstNameNoTooltip|l] a la meta, quien va a pie."
  tribal.1204.a:0 "¡Sí, corro mucho, gracias por los halagos!"
  tribal.1204.b:0 "¡La próxima vez, me haré con la victoria!"
 

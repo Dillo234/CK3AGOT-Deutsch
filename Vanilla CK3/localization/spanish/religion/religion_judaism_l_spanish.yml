@@ -8,8 +8,8 @@
  judaism_high_god_name_2:0 "$judaism_high_god_name$" # Optional translation alt
  judaism_high_god_name_3:0 "$judaism_high_god_name$" # Optional translation alt
  judaism_high_god_name_possessive:0 "del Señor"
- judaism_high_god_alternate:0 "El Sagrado"
- judaism_high_god_alternate_possessive:0 "del Sagrado"
+ judaism_high_god_alternate:1 "Adonai"
+ judaism_high_god_alternate_possessive:1 "de Adonai"
  judaism_good_god_hashem:0 "HaShem"
  judaism_good_god_el_shaddai:0 "El Shaddai"
  judaism_devil_name:0 "Ba'al"
@@ -63,8 +63,8 @@
  judaism_knowledge_god_name_possessive:0 "$judaism_high_god_name_possessive$"
  judaism_war_god_name:0 "$judaism_high_god_name$"
  judaism_war_god_name_possessive:0 "$judaism_high_god_name_possessive$"
- judaism_trickster_god_name:0 "$christianity_trickster_god_name$"
- judaism_trickster_god_name_possessive:0 "$christianity_trickster_god_name_possessive$"
+ judaism_trickster_god_name:1 "Ayin hará" # The Evil Eye, not a god per-se but a personification of bad fortune
+ judaism_trickster_god_name_possessive:1 "de Ayin hará"
  judaism_night_god_name:0 "$judaism_high_god_name$"
  judaism_night_god_name_possessive:0 "$judaism_high_god_name_possessive$"
  judaism_water_god_name:0 "$judaism_high_god_name$"
@@ -75,7 +75,7 @@
  rabbinism_adj:0 "rabínica"
  rabbinism_adherent:0 "rabinista"
  rabbinism_adherent_plural:0 "rabinistas"
- rabbinism_desc:0 "El rabinismo hace énfasis en el propósito de los intérpretes de la ley religiosa de la halajá. Las leyes y tradiciones garantizan la alianza con el Señor y los rabinos se encargan de velar por ellas."
+ rabbinism_desc:1 "El rabinismo hace énfasis en el propósito de los intérpretes de la ley religiosa de la halajá. Las leyes y tradiciones garantizan la alianza con el Señor y los rabinos se encargan de velar por ellas."
 
  #Karaite
  karaism:0 "Caraísmo"
@@ -120,4 +120,30 @@
  kabarism_adj:1 "cuzarita"
  kabarism_adherent:1 "cuzari"
  kabarism_adherent_plural:1 "cuzaríes"
- kabarism_desc:1 "Los cuzaríes hacen hincapié en la interpretación común y correcta de la halajá junto con las tradiciones y el folclore local jázaro."
+ kabarism_desc:2 "Los cuzaríes, una comunidad de conversos, siguen la interpretación rabínica común de la halajá. Incluso mucho después de su conversión, siguen manteniendo algunas creencias locales y tradiciones con veneración religiosa."
+ 
+ #Merkabah
+ merkabah:0 "Mercabá"
+ merkabah_adj:0 "mercabá"
+ merkabah_adherent:0 "mercabita"
+ merkabah_adherent_plural:0 "mercabitas"
+ merkabah_desc:0 "El misticismo mercabita es una secta del misticismo judaico que comparte alguna influencia de las enseñanzas gnósticas. La fe se centra en las visiones y la adopción de estilos de vida ascéticos para unirse al trono de Dios."
+
+ doctrine_temple_authority_name:0 "Autoridad halajá"
+ doctrine_temple_authority_desc:0 "Halajá hace referencia a una serie de leyes y reglas por las cuales los judíos deben vivir sus vidas. Tras siglos de diáspora, los grupos judíos se dividieron en varias escuelas de pensamiento sobre cómo interpretar debidamente la halajá."
+ temple_authority_rabbinic_doctrine_name:0 "Rabínica"
+ temple_authority_rabbinic_doctrine_desc:0 "Los judíos rabínicos creen que solo los rabinos pueden interpretar la halajá. Creen en la Torá escrita y en la Torá oral, transmitida a través de los rabinos. Todas las creencias rabínicas están codificadas en el Talmud de Babilonia, que se considera la fuente principal a partir de la cual se interpreta y distribuye la halajá."
+ temple_authority_toric_doctrine_name:0 "Toráica"
+ temple_authority_toric_doctrine_desc:0 "El judaísmo toráico rechaza el Talmud y la Torá oral y transfiere la autoridad exclusivamente a la Torá escrita. Los rabinos no pueden cambiar ni adaptar la halajá. Su único deber es interpretar el significado literal de la Torá."
+ temple_authority_kohanim_doctrine_name:0 "Cohenímica"
+ temple_authority_kohanim_doctrine_desc:0 "El judaísmo cohenímico afirma que el cohen es la autoridad suprema en todos los asuntos religiosos, incluida la halajá. El cohen debe descender de modo patrilineal de Aarón, hermano de Moisés."
+ temple_authority_samaritan_torah_doctrine_name:0 "Samaritana"
+ temple_authority_samaritan_torah_doctrine_desc:0 "Los samaritanos rechazan toda la autoridad de la Torá, y en su lugar se la otorgan a la Torá samaritana. Su rechazo de la Torá hace que los otros judíos los consideren herejes."
+ doctrine_parameter_hostility_override_temple_authority_samaritan_torah_doctrine:0 "Considera las [faiths|lE] de tipo [GetFaithDoctrine('temple_authority_samaritan_torah_doctrine').GetBaseName|l]: [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_temple_authority_rabbinic_doctrine:0 "Considera las [faiths|lE] de tipo [GetFaithDoctrine('temple_authority_rabbinic_doctrine').GetBaseName|l]: [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_temple_authority_toric_doctrine:0 "Considera las [faiths|lE] de tipo [GetFaithDoctrine('temple_authority_toric_doctrine').GetBaseName|l]: [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_temple_authority_kohanim_doctrine:0 "Considera las [faiths|lE] de tipo [GetFaithDoctrine('temple_authority_kohanim_doctrine').GetBaseName|l]: [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_enables_temporal_head_parameter:0 "Permite la selección de la [doctrine|lE] de la cabeza religiosa temporal."
+
+ tenet_communal_identity_chosen_people_name:0 "Pueblo elegido"
+ tenet_communal_identity_chosen_people_desc:0 "Hemos sido elegidos por [ROOT.Faith.HighGodName] para una alianza sagrada. Si bien esto une a nuestro pueblo con un propósito único, también puede disuadir a los conversos."

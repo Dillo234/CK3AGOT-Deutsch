@@ -75,7 +75,7 @@
  fund_inspiration.0031.relationship_soulmate:0 "Meine Liebe zu [relationship_scope.GetTitledFirstName] ist der Stoff, aus dem Legenden sind!"
  fund_inspiration.0031.relationship_nemesis:0 "Mein Hass auf [relationship_scope.GetTitledFirstName] könnte viele Bände füllen!"
  fund_inspiration.0031.dynasty:0 "Ihr werdet über die glorreiche [ROOT.Char.GetDynasty.GetName]-Dynastie schreiben."
- fund_inspiration.0031.mystical_animal:0 "Es soll meine Jagd auf [ROOT.Char.Custom('LocalAnimal_DE_ART_DEF_S_A')] weiß[ROOT.Char.Custom('LocalAnimal_DE_4')] [ROOT.Char.Custom('LocalAnimal_DE_1')] nacherzählen."
+ fund_inspiration.0031.mystical_animal:0 "Es soll meine Jagd auf [ROOT.Char.Custom('GetAnimalType_DE_ART_DEF_S_A')] weiß[ROOT.Char.Custom('GetAnimalType_DE_END_ADJ_DEF_S_A')] [ROOT.Char.Custom('GetAnimalType_DE_AKK')] nacherzählen."
  fund_inspiration.0031.pet_option_cat:0 "Bitte schreibt über meine geliebte Katze [ROOT.Char.Custom('CatStoryName')]!"
  fund_inspiration.0031.pet_option_dog:0 "Bitte schreibt über meinen geliebten Hund [ROOT.Char.Custom('DogStoryName')]!"
  fund_inspiration.0031.c:0 "Zeigt meine Vorgehensweise bei der Vereinigung von [united_title.GetName] auf!"
@@ -139,6 +139,7 @@
  fund_inspiration.0061.table:0 "Ich wünsche mir einen schicken, aber stabilen Tisch."
  fund_inspiration.0061.throne:0 "Baut einen großen Thron, der meiner prächtigen Säle würdig ist!"
  fund_inspiration.0061.scientific_apparatus:0 "Vielleicht ein Werkzeug des Wissens und der Bildung."
+ fund_inspiration.0061.urn:0 "Eine dekorative Urne würde meine Hallen vervollständigen."
 
  fund_inspiration.0062.t:0 "Handwerk-Inspiration finanziert"
 
@@ -211,8 +212,8 @@
  fund_inspiration.1051.desc.epic:0 "befindet sich ein Artefakt, wie ich es noch nie zuvor gesehen habe.\n\n[inspiration_owner.GetFirstNameNoTooltip] lächelt stolz: „[epic.GetDesc]“"
  fund_inspiration.1051.desc.epic.ark:0 "befindet sich eine große, steinerne Truhe voller Steintafeln.\n\n[inspiration_owner.GetFirstNameNoTooltip] prahlt stolz: „Das ist die Bundeslade! Sie birgt jene Steintafeln, die Moses den Israeliten gab.“\n\n[inspiration_owner.GetFirstNameNoTooltip] fährt anschließend damit fort, den Hof mit einer Erzählung über [inspiration_owner.Custom('DE_PRO_POS_S_3P')]e Abenteuer in der Fremde zu unterhalten – eine Geschichte voller Widersacher mit finsteren Absichten und Besuchen an vielen reizvollen Orten."
  fund_inspiration.1051.desc.epic.throne:0 "\n\n[inspiration_owner.GetFirstNameNoTooltip] verlautbart stolz: „[epic.GetDesc]“"
- fund_inspiration.1051.desc.epic.cupboard:0 "\n\nMit einem breiten Grinsen verkündet [inspiration_owner.GetFirstNameNoTooltip]: „[eic.Get Desc]“"
- fund_inspiration.1051.desc.regalia:0 "befindet sich ein Insigne, das eines Königshofs würdig ist.\n\n[inspiration_owner.GetFirstNameNoTooltip] lächelt stolz und erklärt, wie [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')] die Dankbarkeit eines örtlichen Herrschers in [location.GetNameNoTier] für sich gewann – eine lange Geschichte, deren Höhepunkt darin besteht, wie dieser Herrscher dem Herrn von [inspiration_owner.GetFirstNameNoTooltip] ein Artefakt ([newly_created_artifact.GetName]) zum Geschenk machte."
+ fund_inspiration.1051.desc.epic.cupboard:0 "\n\nMit einem breiten Grinsen verkündet [inspiration_owner.GetFirstNameNoTooltip]: „[epic.GetDesc]“"
+ fund_inspiration.1051.desc.regalia:0 "befindet sich ein Insigne, das eines Königshofs würdig ist.\n\n[inspiration_owner.GetFirstNameNoTooltip|U] lächelt stolz und erklärt, wie [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')] die Dankbarkeit eines örtlichen Herrschers in [inspiration_owner.GetCurrentLocation.GetNameNoTooltip] für sich gewann – eine lange Geschichte, deren Höhepunkt darin besteht, wie dieser Herrscher dem Herrn von [inspiration_owner.GetFirstNameNoTooltip] ein Artefakt ([newly_created_artifact.GetName]) zum Geschenk machte."
  fund_inspiration.1051.desc.regalia_2:0 "befindet sich ein Insigne, das eines Königshofs würdig ist.\n\n[inspiration_owner.GetFirstNameNoTooltip] lächelt stolz und erklärt, dass es sich dabei um ein Geschenk eines Herrschers aus weiter Ferne handelt, der von der Pracht Eures Hofes gehört hat und Euch gern beeindrucken möchte."
  fund_inspiration.1051.desc.armor:0 "befindet sich eine Rüstung.\n\n[inspiration_owner.GetFirstNameNoTooltip] unterhält den Hof mit einer Geschichte, wie [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')] in den Besitz jener ungewöhnlichen Panzerung gelangte, die [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')] Euch nun überreicht."
  fund_inspiration.1051.desc.weapon:0 "befindet sich ein Artefakt ([newly_created_artifact.GetName]).\n\n[inspiration_owner.GetFirstNameNoTooltip] macht sich daran, die Geschichte wiederzugeben, wie [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')] in den Besitz dieser Waffe gelangte – eine Geschichte mit vielen Wendungen und Volten, von denen manche um einiges wahrscheinlicher sind als andere."
@@ -304,7 +305,7 @@
  fund_inspiration.2002.c:0 "„Die Grenze ist nicht weit. Geht und entführt ein paar fremde Bauern.“"
  fund_inspiration.2002.toast_outcome.negative:0 "Die Beweise führen zu Euch als Ursache für die verschwundenen Bauern"
  fund_inspiration.2002.toast_outcome.positive:0 "Es gibt keinerlei Beweise, dass Ihr mit der Entführung von Bauern zu tun habt"
- fund_inspiration.2002.d:0 "Lehnt die Bitte von [inspiration_owner.GetTitledFirstNameeNoTooltip] ab."
+ fund_inspiration.2002.d:0 "Lehnt die Bitte von [inspiration_owner.GetTitledFirstNameNoTooltip] ab."
 
  fund_inspiration.2003.t:0 "$fund_inspiration.title$ Unterbrechungen"
  fund_inspiration.2003.desc:0 "„Himmel, #EMP Arsch#! und Zwirn, Mensch! Lasst mich in Ruhe!“\n\nDie friedliche Atmosphäre wird durch das Geschrei von [inspiration_owner.GetFirstName] gestört, als [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')] in den Hof stürmt. [previous_inspired.GetFirstName] folgt rasch nach, bleibt jedoch stehen, als [previous_inspired.Custom('DE_PRO_PER_S_3P_N')] mich sieht.\n\n„M[ROOT.Char.Custom('DE_ART_IND_N')] [ROOT.Char.Custom2('RelationToMeAddress', previous_inspired)|U], bitte redet [inspiration_owner.GetFirstNameNoTooltip] etwas Vernunft ein! Ich versuche [inspiration_owner.Custom('DE_PRO_PER_S_3P_D')] nur zu helfen und habe einige Erfahrung, die [inspiration_owner.Custom('DE_PRO_POS_S_3P')]e Arbeit verbessern könnte!“"
@@ -353,7 +354,7 @@
  fund_inspiration.2021.b:0 "Ich werde Euch nicht noch mehr Gold geben."
 
  fund_inspiration.2030.t:0 "$fund_inspiration.title$ Ein freundliches Wort"
- fund_inspiration.2030.desc:0 "Mein[friend.Custom('DE_END_PRO_S_N')] Freund[friend.Custom(DE_END_NOU_S_GS_N'')] [friend.GetTitledFirstName] hält mich mit einem strahlenden Lächeln auf dem Gang auf.\n\n"Ah, #EMP da#! steckt Ihr, [ROOT.Char.GetFirstNameNoTooltip]! Ich habe gerade mit [inspiration_owner.GetTitledFirstName] gesprochen! Ich hörte von [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Arbeit für Euch – ich konnte der Versuchung nicht widerstehen, [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Wirkungsstätte einen Besuch abzustatten!\n\nIch habe mit [inspiration_owner.Custom('DE_PRO_PER_S_3P_D')] darüber geredet, wie man Euren Erwartungen gerecht werden kann: Ich denke, Euch wird das Ergebnis gefallen!“"
+ fund_inspiration.2030.desc:0 "Mein[friend.Custom('DE_END_PRO_S_N')] Freund[friend.Custom('DE_END_NOU_S_GS_N')] [friend.GetTitledFirstName] hält mich mit einem strahlenden Lächeln auf dem Gang auf.\n\n"Ah, #EMP da#! steckt Ihr, [ROOT.Char.GetFirstNameNoTooltip]! Ich habe gerade mit [inspiration_owner.GetTitledFirstName] gesprochen! Ich hörte von [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Arbeit für Euch – ich konnte der Versuchung nicht widerstehen, [inspiration_owner.Custom('DE_PRO_POS_S_3P')]er Wirkungsstätte einen Besuch abzustatten!\n\nIch habe mit [inspiration_owner.Custom('DE_PRO_PER_S_3P_D')] darüber geredet, wie man Euren Erwartungen gerecht werden kann: Ich denke, Euch wird das Ergebnis gefallen!“"
  fund_inspiration.2030.a:0 "„Oh! Danke, [friend.GetFirstNameNoTooltip]!“"
 
  fund_inspiration.2040.t:0 "$fund_inspiration.title$ Sabotage"
@@ -392,7 +393,7 @@
  fund_inspiration.2060.desc.court:0 "Mein opulenter Hof wird auf der ganzen Welt gefeiert und verachtet gleichermaßen, denn jeder wünscht, er könnte es mit seiner Pracht aufnehmen und in selbiger schwelgen – und dies bringt einem Bewunderer ein."
  fund_inspiration.2060.desc:0 "\n\nHeute wird [donator.GetTitledFirstName] hereingeführt, [donator.Custom('DE_ART_DEF_S_N')|U] jemanden vertritt: "
  
- fund_inspiration.2060.desc.brotherhood:0 "einen kleinen [donator.GetCulture.GetAdjectiveNoTooltip|l]en Orden aus [barony_scope.GetNameNoTierNoTooltip] in [barony_scope.GetDeJureLiege.GetNameNoTier].\n\n"
+ fund_inspiration.2060.desc.brotherhood:0 "einen kleinen [donator.GetFaith.GetAdjectiveNoTooltip|l]en Orden aus [barony_scope.GetNameNoTierNoTooltip] in [barony_scope.GetDeJureLiege.GetNameNoTier].\n\n"
  fund_inspiration.2060.desc.abbey:0 "ein kleines [barony_scope.GetAdjectiveNoTooltip|l]es [donator.GetFaith.GetAdjectiveNoTooltip|l]es Gotteshaus in [barony_scope.GetDeJureLiege.GetNameNoTier].\n\n"
  fund_inspiration.2060.desc.mercenary:1 "einen kleinen [donator.GetCulture.GetNameNoTooltip|l]en Söldnertrupp aus [barony_scope.GetNameNoTierNoTooltip] in [barony_scope.GetDeJureLiege.GetNameNoTier].\n\n"
  fund_inspiration.2060.desc.guild:0 "eine kleine [donator.Custom('dummy_peasant_profession')]-Zunft aus [barony_scope.GetNameNoTierNoTooltip] in [barony_scope.GetDeJureLiege.GetNameNoTier].\n\n"
@@ -507,7 +508,7 @@
  fund_inspiration.2120.leave_flavor:0 "Ihr geht eilig"
 
  fund_inspiration.2130.t:0 "$fund_inspiration.title$ Die Unentschlossenheit in Person"
- fund_inspiration.2130.desc:1 "Ich laufe [inspiration_owner.Custom('DE_ART_IND_S_D')] sehr grimmig dreinblickenden [inspiration_owner.GetTitledFirstName] in die Arme, m[generous_vassal.Custom('DE_ART_IND_S_D')] [inspiration_owner.Custom('GetInspirationOwnerType')][inspiration_owner.Custom('DE_END_NOU_S_GS_N')], und hoffe, dass [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')] keine schlechten Nachrichten hinsichtlich der vorzüglichen Arbeit ([inspiration_owner.Custom('GetInspirationTypeObject')]) hat, die bald fertig sein sollte.\n\n„Oh, da seid Ihr ja, Lehnsherr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] … Es gibt da einen Stolperstein – aber nichts Großes! Meine Einfälle sind abgetaucht, als der Druck immer größer wurde!“, lacht [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')] nervös auf.\n\n„Ich brauche nur mehr … Inspiration! Mächtig[ROOT.Char.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], hättet Ihr vielleicht … eine Vorlage, die ich in Augenschein nehmen könnte?“"
+ fund_inspiration.2130.desc:1 "Ich laufe [inspiration_owner.Custom('DE_ART_IND_D')] sehr grimmig dreinblickenden [inspiration_owner.GetTitledFirstName] in die Arme, m[generous_vassal.Custom('DE_ART_IND_D')] [inspiration_owner.Custom('GetInspirationOwnerType')][inspiration_owner.Custom('DE_END_NOU_S_GS_N')], und hoffe, dass [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')] keine schlechten Nachrichten hinsichtlich der vorzüglichen Arbeit ([inspiration_owner.Custom('GetInspirationTypeObject')]) hat, die bald fertig sein sollte.\n\n„Oh, da seid Ihr ja, Lehnsherr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] … Es gibt da einen Stolperstein – aber nichts Großes! Meine Einfälle sind abgetaucht, als der Druck immer größer wurde!“, lacht [inspiration_owner.Custom('DE_PRO_PER_S_3P_N')] nervös auf.\n\n„Ich brauche nur mehr … Inspiration! Mächtig[ROOT.Char.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], hättet Ihr vielleicht … eine Vorlage, die ich in Augenschein nehmen könnte?“"
  fund_inspiration.2130.a.library:0 "„Auf zur Bibliothek!“"
  fund_inspiration.2130.a.armory:0 "„Auf zur Waffenkammer!“"
  fund_inspiration.2130.a.hall:0 "„Auf zur Großen Halle!“"
@@ -599,7 +600,7 @@
  fund_inspiration.3014.b.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip] wird sich beim Schreiben auf Themen wie Gebäude und Besteuerung konzentrieren"
 
  fund_inspiration.3015.t:0 "$fund_inspiration.title$ Ränkespiel-Themen"
- fund_inspiration.3015.desc:0 "„M[ROOT.Char.Custom('DE_ART_IND_N')] [ROOT.Char.GetLadyLord]! Es gibt so viele Bereiche im Ränkespiel, die Aufmerksamkeit verdienen: Komplotte, [seductionE], Manipulation … Ich weiß gar nicht, wo ich anfangen soll!“"
+ fund_inspiration.3015.desc:0 "„M[ROOT.Char.Custom('DE_ART_IND_N')] [ROOT.Char.GetLadyLord]! Es gibt so viele Bereiche im Ränkespiel, die Aufmerksamkeit verdienen: Komplotte, Verführung, Manipulation … Ich weiß gar nicht, wo ich anfangen soll!“"
  fund_inspiration.3015.a:0 "Ich möchte #EMP allen#! immer einen Schritt voraus sein!"
  fund_inspiration.3015.a.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip] wird sich beim Schreiben auf Themen wie Komplotte und Manipulation konzentrieren"
  fund_inspiration.3015.b_men:0 "Ich möchte, dass mir die Männer zu Füßen liegen!"
@@ -655,7 +656,7 @@
 #Steppe
 
  fund_inspiration.6001.t:0 "Die Steppe und der Sattel galoppieren durch mein Herz …"
- fund_inspiration.6001.desc:0 "Ich reite nun schon seit endlosen Monaten. Mein Hinterteil wird sich nie davon erholen! Ich habe mich allerdings sehr an den Geschmack vergorener Stutenmilch und Nächte unter freiem Himmel gewöhnt.\n\nZusammen mit diesem Boten schicke ich Euch die geschnitzte Spitze eines Morin Khuur – der Pferdekopf, der zur Zierde oben am Hals von Instrumenten angebracht wird. Vielleicht habt Ihr eine Verwendung dafür." # [LocEditor:AwaitingBatchUpdate]
+ fund_inspiration.6001.desc:1 "Ich reite nun schon seit endlosen Monaten. Mein Hinterteil wird sich nie davon erholen! Ich habe mich allerdings sehr an den Geschmack vergorener Stutenmilch und Nächte unter freiem Himmel gewöhnt.\n\nZusammen mit diesem Boten schicke ich Euch die geschnitzte Spitze eines Morin Khuur – der Pferdekopf, der zur Zierde oben am Hals von Instrumenten angebracht wird. Vielleicht habt Ihr eine Verwendung dafür."
  fund_inspiration.6001.a:0 "Ich werde das behüten!"
  fund_inspiration.6001.b:0 "Schickt das dem Hofmusikanten."
 
@@ -1058,7 +1059,7 @@
  fund_inspiration.9000.a:0 "Haltet Euch bedeckt. Sie werden schon irgendwann weiterziehen."
  fund_inspiration.9000.b:0 "Wer nicht wagt, der nicht gewinnt! Sie sollen dafür bezahlen, dass sie meine Zeit verschwenden."
  fund_inspiration.9000.c:0 "Dieses Gold sollte als Bestechung reichen, damit man Euch passieren lässt."
- artifact_bandit_skull:0 "Dieser Schädel gehörte [bandit.Custom('DE_ART_DEF_S_D')] Räuberanführer[bandit.Custom('DE_END_NOU_S_GS_G')] [killed.GetTitledFirstName], der von [adventurer.Custom('DE_ART_DEF_S_N')] Abenteurer[adventurer.Custom('DE_END_NOU_S_GS_N')] [creator.GetTitledFirstName] in [background_wilderness_scope.GetName] getötet wurde. Im Anschluss bekam [owner.GetTitledFirstName] den Schädel zum Geschenk. Er hat ein schreckliches Grinsen und leere, leblose Augenhöhlen."
+ artifact_bandit_skull:0 "Dieser Schädel gehörte [bandit.Custom('DE_ART_DEF_S_D')] Räuberanführer[bandit.Custom('DE_END_NOU_S_GS_N')] [killed.GetTitledFirstName], der von [adventurer.Custom('DE_ART_DEF_S_N')] Abenteurer[adventurer.Custom('DE_END_NOU_S_GS_N')] [creator.GetTitledFirstName] in [background_wilderness_scope.GetName] getötet wurde. Im Anschluss bekam [owner.GetTitledFirstName] den Schädel zum Geschenk. Er hat ein schreckliches Grinsen und leere, leblose Augenhöhlen."
  fund_inspiration.9000.b.critical_success:0 "[adventurer.GetFirstNameNoTooltip] erschlägt tapfer [bandit.GetFirstNameNoTooltip]"
  fund_inspiration.9000.b.boil_skull:0 "[adventurer.GetFirstNameNoTooltip] kocht den Schädel von [bandit.GetFirstNameNoTooltip] ab und reinigt ihn, um ihn als [court_artifact|E] an Euch zu schicken"
  fund_inspiration.9000.b.success:0 "[adventurer.GetFirstNameNoTooltip] vertreibt erfolgreich die Banditen"
@@ -1068,16 +1069,16 @@
  fund_inspiration.9000.a.success:0 "[adventurer.GetFirstNameNoTooltip] stiehlt sich in der Nacht davon"
  fund_inspiration.9000.a.failure:0 "[adventurer.GetFirstNameNoTooltip] wird dabei geschnappt, als [adventurer.Custom('DE_PRO_PER_S_3P_N')] sich durchs Lager schleichen will"
  
- fund_inspiration.9100.t:0 "$fund_inspiration.title$ [adventurer.Custom('LocalAnimalDesc')|U]e [adventurer.Custom('LocalAnimalMultiple')|U] im Hinterland"
- fund_inspiration.9100.desc:0 "„Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')], eine Nachricht von Eur[adventurer.Custom('DE_END_ADJ_IND_S_D')] Abenteurer[adventurer.Custom('DE_END_NOU_S_GS_D')] [adventurer.GetFirstName]“, sagt der Diener, als er mir eine Schriftrolle übergibt.\n\n„Meine Suche hat mich ins Hinterland von [background_wilderness_scope.GetName] geführt. Es ist berüchtigt dafür, voller [adventurer.Custom('LocalAnimalMultiple')|U] zu sein, doch ich habe gute Gründe zu der Annahme, dass mein Ziel nahe ist! Rechnet bald mit meiner Rückkehr. Gezeichnet, [adventurer.GetFirstNameNoTooltip]“, steht in der Schriftrolle.\n\nEs ist wirklich ehrgeizig von [adventurer.Custom('DE_PRO_PER_S_3P_D')], einen solch riskanten Weg zu wählen …"
+ fund_inspiration.9100.t:0 "$fund_inspiration.title$ [adventurer.Custom('GetAnimalAdjective')|U]e [adventurer.Custom('GetAnimalPlural')|U] der Region ([background_wilderness_scope.Custom('TerrainTypeProvince')|U])"
+ fund_inspiration.9100.desc:0 "„Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')], eine Nachricht von Eur[adventurer.Custom('DE_END_ADJ_IND_S_D')] Abenteurer[adventurer.Custom('DE_END_NOU_S_GS_N')] [adventurer.GetFirstName]“, sagt der Diener, als er mir eine Schriftrolle übergibt.\n\n„Meine Suche hat mich ins Hinterland von [background_wilderness_scope.GetName] geführt. Es ist berüchtigt dafür, voller [adventurer.Custom('GetAnimalPlural')] zu sein, doch ich habe gute Gründe zu der Annahme, dass mein Ziel nahe ist! Rechnet bald mit meiner Rückkehr. Gezeichnet, [adventurer.GetFirstNameNoTooltip]“, steht in der Schriftrolle.\n\nEs ist wirklich ehrgeizig von [adventurer.Custom('DE_PRO_PER_S_3P_D')], einen solch riskanten Weg zu wählen …"
  fund_inspiration.9100.a:0 "[adventurer.GetFirstName] hat ausreichend Wissen, um sicher zu sein …"
  fund_inspiration.9100.b:0 "Bei [ROOT.Char.GetFaith.HighGodName]! Ich hoffe, dass [adventurer.Custom('DE_PRO_PER_S_3P_N')] nicht kämpfen muss!"
  fund_inspiration.9100.c:0 "[adventurer.GetFirstNameNoTooltip] ist vorsichtig. Man nimmt dann lieber den langen Weg außen herum."
- fund_inspiration.9100.a.success:0 "[adventurer.GetFirstNameNoTooltip] meidet erfolgreich die [adventurer.Custom('LocalAnimalMultiple')]"
- fund_inspiration.9100.a.failure:0 "[adventurer.GetFirstNameNoTooltip] wird von einem Tier angegriffen ([adventurer.Custom('LocalAnimal')])!"
- fund_inspiration.9100.b.success:0 "[adventurer.GetFirstNameNoTooltip] macht das heranstürmende wilde Tier nieder ([adventurer.Custom('LocalAnimal')])"
- fund_inspiration.9100.b.failure:0 "[adventurer.GetFirstNameNoTooltip] wird von einem heranstürmenden wilden Tier niedergemacht ([adventurer.Custom('LocalAnimal')])"
- fund_inspiration.9100.b.maimed:0 "[adventurer.GetFirstName] wird von einem Tier verrstümmelt ([adventurer.Custom('LocalAnimal')])"
+ fund_inspiration.9100.a.success:0 "[adventurer.GetFirstNameNoTooltip] meidet erfolgreich die [adventurer.Custom('GetAnimalPlural')]"
+ fund_inspiration.9100.a.failure:0 "[adventurer.GetFirstNameNoTooltip] wird von einem Tier ([adventurer.Custom('GetAnimalType')]) angegriffen!"
+ fund_inspiration.9100.b.success:0 "[adventurer.GetFirstNameNoTooltip] macht das heranstürmende wilde Tier ([adventurer.Custom('GetAnimalType')]) nieder"
+ fund_inspiration.9100.b.failure:0 "[adventurer.GetFirstNameNoTooltip] wird von einem heranstürmenden wilden Tier ([adventurer.Custom('GetAnimalType')]) niedergemacht"
+ fund_inspiration.9100.b.maimed:0 "[adventurer.GetFirstName] wird von einem Tier ([adventurer.Custom('GetAnimalType')]) verstümmelt"
  # Inspiration Custom Loc
  inspiration_owner_type_writer:0 "Autor"
  inspiration_owner_type_weaponsmith:0 "Waffenschmied"
@@ -1145,11 +1146,14 @@
  inspiration_artisan_base_type_sculpture:0 "Skulptur"
  inspiration_artisan_base_type_cabinet:0 "Schauschrank"
  inspiration_artisan_base_type_throne:0 "Thron"
+ inspiration_artisan_base_type_scientific_apparatus:0 "wissenschaftliche Apparatur"
+ inspiration_artisan_base_type_urn:0 "Urne"
  inspiration_smith_base_type_brooch:0 "Brosche"
  inspiration_smith_base_type_regalia:0 "Insignien"
  inspiration_smith_base_type_crown:0 "Krone"
  inspiration_smith_base_type_goblet:0 "Kelch"
  inspiration_artisan_job_type_carpenter:0 "Schreiner"
+ inspiration_artisan_job_type_potter:0 "Töpfer"
  inspiration_artisan_job_type_sculptor:0 "Bildhauer"
  inspiration_type_material_writing:0 "Blätter"
  inspiration_type_material_metal:0 "Metall"
@@ -1158,6 +1162,7 @@
  inspiration_type_material_sweat:0 "Schweiß"
  inspiration_type_material_wood:0 "Holz"
  inspiration_type_material_stone:0 "Stein"
+ inspiration_type_material_clay:0 "Ton"
  inspiration_type_material_ingredients:0 "Ingredienzen"
  inspiration_type_material_fallback:0 "Material"
  # Banner

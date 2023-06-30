@@ -3,7 +3,7 @@
  prison.1001.start.desc:1 "감옥 문이 열리자 공상이 갑자기 멈춰버렸다. 보초의 윤곽은 이미 익숙하지만, 보초 뒤에 있는 저 사람은... 아... 안돼...\n\n"
  prison.1001.rack.desc:0 "[actor.GetTitledFirstName](은)는 능글맞은 웃음을 입꼬리에 달고 고문대에 나를 묶었다. "다른 사람들에게 얘기는 많이 들었을 거라 생각하오. 비명에 대해서... 그리고 뼈와 인대가 부러지고 끊기는 것에 대해서도.""
  prison.1001.whip.desc:0 "[actor.GetTitledFirstName](이)가 채찍을 빙글빙글 돌렸다. "언뜻 보기엔 별로 안 아파 보일 수도 있소. 실제로는 칼처럼 능히 뼈와 살을 발라낼 수 있지만.""
- prison.1001.rats.desc:0 ""얌전해보일 수도 있어." 찍찍거리는 소리가 희미하게 나는 양동이를 가리키며 [actor.GetTitledFirstName](은)는 말한다. "그렇지만 타는 냄새를 맡으면 길을 막는 #emp 어떤 것#!이든 먹어치워 도망치려고 할 거야."
+ prison.1001.rats.desc:0 ""얌전해보일 수도 있어." 찍찍거리는 소리가 희미하게 나는 양동이를 가리키며 [actor.GetTitledFirstName](은)는 말한다. "그렇지만 타는 냄새를 맡으면 길을 막는 #emp 어떤 것#!이든 먹어 치워 도망치려고 할 거야."
  prison.1001.poetry.desc:0 "[actor.GetTitledFirstName](은)는 겨드랑이에 끼고 있던 #EMP 기다란#! 두루마리를 꺼내 들었다.\n\n"#EMP 멋들어지게#! 쓰인 시를 한두 구절 읽어주려 하는데, 댁이 좋아할는지 모르겠군.""
  prison.1001.my_secret.desc:1 ""넌 뭔가 숨기고 있어. 난 알고 있다고." [actor.GetTitledFirstName](이)가 말한다. "진실을 말해. 그렇게 하지 않으면...""
  prison.1001.anothers_secret.desc:1 ""넌 [reveal_secret_owner.Custom2('MyCharacterIntroductionNoComma' SCOPE.sC('actor'))]에 대해 뭔가 알고 있어." [actor.GetTitledFirstName](이)가 말한다. "알고 있는 모든 것을 말해. 그렇게 하지 않으면...""
@@ -13,7 +13,7 @@
 
  prison.1002.rack.desc:0 "복잡할 게 뭐 있나? 예전부터 애용해온 고문대만큼 좋은 게 없다. 간수가 [recipient.GetTitledFirstName](을)를 방에 데리고 오자 [recipient.GetTitledFirstName]의 시선은 즉시 거대한 나무틀을 향했다."
  prison.1002.whip.desc:0 "오, 채찍의 달콤한 입맞춤이여! 언뜻 보기엔 별로 안 아파 보일 수도 있지만, 실제로는 칼처럼 능히 뼈와 살을 발라낼 수 있다. [recipient.GetTitledFirstNamePossessive] 표정을 보아하니 그 사실을 아주 잘 아는 모양이다."
- prison.1002.rats.desc:0 "양동이 속의 쥐들은 처음엔 부끄럼 타는 것처럼 보일 수 있다. 하지만 약간의 열만 가해주면 자신의 길을 막고 있는 어떤 사람의 가슴이든 기꺼이 갉아먹어 도망칠 것이다. 이 원리에 대해 설명해 주자 [recipient.GetTitledFirstName]의 결심이 사르르 녹아 없어져버리는 게 눈에 보인다."
+ prison.1002.rats.desc:1 "양동이 속의 쥐들은 처음엔 부끄럼 타는 것처럼 보일 수 있다. 하지만 약간의 열만 가해주면 자신의 길을 막고 있는 어떤 사람의 가슴이든 기꺼이 갉아먹어 도망칠 것이다. 이 원리에 대해 설명해 주자 [recipient.GetTitledFirstName]의 결심이 사르르 녹아 없어져버리는 게 눈에 보인다."
  prison.1002.poetry.desc:0 "나처럼 낱말을 뒤집어 즐거움을 선사할 수 있는 사람이라면, 그걸로 고통을 주는 것도 어려운 일이 아니다.\n\n품안에서 시가 적힌 기다란 종잇장을 꺼내 들고서 쫙 펼쳤다. 그러자 바닥으로 떨어져 내린 두루마리가 문밖까지 부드럽게 풀려나갔다."
  prison.1002.anothers_secret.desc:0 "\n\n"아니, 아니오... 저... 정보를 알고 있소! 모두 털어놓으리다! [reveal_secret_owner.GetTitledFirstName](은)는  [secret_to_reveal.Custom('SecretDescriptionThirdPerson')]요!""
  prison.1002.my_secret.desc:0 "\n\n"제발, 하지 마시오! #EMP 제발!#! 뭐든지 말하겠소! 나... 나는 [secret_to_reveal.Custom('SecretDescriptionFirstPerson')]!""
@@ -26,7 +26,7 @@
  prison.1003.rats.desc:0 ""부끄럼쟁이들이라고 생각할 수도 있어." 나는 훤히 드러난 [recipient.GetFirstNamePossessive] 가슴에 양동이를 묶으며 말했다. "하지만 양동이가 데워지기 시작하면 녀석들은 빠져나가기 위해 뭔 짓이든 할거야. 다행히도 쥐의 이빨은 #emp 상당히#! 날카롭다고." 발갛게 빛나는 석탄을 가지러 가려 하니 [recipient.GetTitledFirstName](이)가 자비를 구한다."
  prison.1003.poetry.desc:0 "$prison.1002.poetry.desc$\n\n그 모습에 나는 곧장 시구절을 낭독하기 시작했다."
  prison.1003.a:0 "아... 저 비명은 몇 시간을 들어도 질리지 않겠어."
- prison.1003.b:0 "했어야만 하는 일이야."
+ prison.1003.b:0 "반드시 해야 하는 일이야."
 
  prison.1010.rack.desc:0 "[actor.GetTitledFirstName](은)는 고문대에 나를 묶었다. 능글맞은 웃음이 입꼬리에 달려있었다. 다른 사람들에게 비명에 대해, 그리고 뼈와 인대가 #emp 부러지고 끊기는 것#! 따위에 대해 들은 적이 있다... 자비를 구해봤지만 [actor.GetFirstNamePossessiveNoTooltip] 웃음은 더욱 더 커질 뿐이었다."
  prison.1010.whip.desc:0 "[actor.GetTitledFirstName](이)가 채찍을 빙글빙글 돌렸다. "언뜻 보기엔 별로 안 아파 보일 수도 있소. 실제로는 칼처럼 능히 뼈와 살을 발라낼 수 있지만. 내 시범을 보여드리지...""

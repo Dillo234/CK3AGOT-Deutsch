@@ -37,6 +37,8 @@
  task_intrigue_good_skilled_notification_tooltip:0 "La habilidad de intriga [active_councillor.Custom('intrigue_skill_level')] de mi [active_councillor.GetCouncilTitle] produjo esta ganancia inesperada."
  task_learning_good_skilled_notification_tooltip:0 "La habilidad de aprendizaje [active_councillor.Custom('learning_skill_level')] de mi [active_councillor.GetCouncilTitle] produjo esta ganancia inesperada."
 
+ task_martial_good_acclaimed_knight_notification_tooltip:0 "Esto sucedió debido a un[acclaimed_knight.Custom('ES_XA')] [acclaimed_knight|l] glorios[acclaimed_knight.Custom('ES_OA')]"
+
 
 #spouse
  spouse_task_diplomacy_good_skilled_notification_tooltip:0 "La habilidad diplomática [councillor.Custom('diplomacy_skill_level')] de tu cónyuge produjo esta ganancia inesperada."
@@ -47,7 +49,7 @@
  spouse_task_stewardship_good_unskilled_notification_tooltip:0 "Esto ocurrió a pesar de la habilidad administrativa [councillor.Custom('stewardship_skill_level')] de tu cónyuge."
  spouse_task_intrigue_good_unskilled_notification_tooltip:0 "Esto ocurrió a pesar de la habilidad de intriga [councillor.Custom('intrigue_skill_level')] de tu cónyuge."
  spouse_task_intrigue_good_skilled_notification_tooltip:0 "La habilidad de intriga [councillor.Custom('intrigue_skill_level')] de tu cónyuge produjo esta ganancia inesperada."
- spouse_task_learning_good_unskilled_notification_tooltip:0 "Esto ocurrió a pesar de la habilidad de aprendizaje [councillor.Custom('learnng_skill_level')] de tu cónyuge."
+ spouse_task_learning_good_unskilled_notification_tooltip:0 "Esto ocurrió a pesar de la habilidad de aprendizaje [councillor.Custom('learning_skill_level')] de tu cónyuge."
  spouse_task_learning_good_skilled_notification_tooltip:1 "La habilidad de aprendizaje [councillor.Custom('learning_skill_level')] de tu cónyuge produjo esta ganancia inesperada."
 
 #chancellor
@@ -65,7 +67,7 @@
  task_foreign_affairs_count_effect_desc:0 "\n\nOtros condes del señorío:"
  task_foreign_affairs_fallback_effect_desc:0 "\n\nOpinión de otros vasallos:"
  task_foreign_affairs_not_independent_effect_desc:0 "\n$TAB$Aumenta #P +#![SCOPE.ScriptValue('chancellor_foreign_affairs_monthly_increase')|P]/mes hasta: #P +#![SCOPE.ScriptValue('chancellor_foreign_affairs_opinion_max')|1P]\n$TAB$[diplomacy_skill|E] del consejero: #P +[SCOPE.ScriptValue('chancellor_foreign_affairs_opinion_base')]#!"
- task_foreign_affairs_effect_desc_adaptive_traditions_bonus_opinion:0 "\n$TAB$[GetPerk('adaptive_traditions_perk'). GetName(GetPlayer)]: #P +#![SCOPE.ScriptValue('chancellor_foreign_affairs_opinion_max_perk_bonus_modifier')|P]"
+ task_foreign_affairs_effect_desc_adaptive_traditions_bonus_opinion:0 "\n$TAB$[GetPerk('adaptive_traditions_perk').GetName(GetPlayer)]: #P +#![SCOPE.ScriptValue('chancellor_foreign_affairs_opinion_max_perk_bonus_modifier')|P]"
  task_foreign_affairs_effect_desc_bureaucrats_bonus_opinion:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +#![SCOPE.ScriptValue('chancellor_foreign_affairs_opinion_max_erudition_modifier')|P]"
  task_foreign_affairs_effect_desc_family_business_bonus_opinion:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +#![SCOPE.ScriptValue('chancellor_foreign_affairs_opinion_max_family_business_modifier')|P]"
  task_foreign_affairs_shorten_truce:0 "\n$EFFECT_LIST_BULLET$#P Acorta tregua#!"
@@ -75,7 +77,7 @@
  task_foreign_affairs_notification_tooltip:0 "Por $task_foreign_affairs$"
 
  task_domestic_affairs:0 "Asuntos nacionales"
- task_domestic_affairs_effect_desc:4 "Opinión de [Concept( 'direct_vassal', 'vasallos directos' )|E]: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_scale')|1]#!\n(Aumenta en #P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_monthly_increase')|2P]/mes hasta #P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_max')|1P])\n$TAB$[diplomacy_skill|E] del consejero: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_base')|2]#!"
+ task_domestic_affairs_effect_desc:5 "Opinión de [Concept( 'direct_vassal', 'vasallos directos' )|E]: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_scale')|1]#!\n(Aumenta en #P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_monthly_increase')|2P]/mes hasta #P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_max')|0P])\n$TAB$[diplomacy_skill|E] del consejero: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_base')|2]#!\n[GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName] [vassal|E] Opinión: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_scale')|1]#!\n(Aumenta en #P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_monthly_increase')|2P]/mes hasta #P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_max')|0P])\n$TAB$[diplomacy_skill|E] del consejero: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_base')|2]#!"
  task_domestic_affairs_bureaucrats_bonus_desc:2 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_family_business_bonus')|2]#!"
  task_domestic_affairs_family_business_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_erudition_bonus')|2]#!"
  task_domestic_affairs_chains_of_loyalty_bonus_desc:0 "\n$TAB$[GetPerk('chains_of_loyalty_perk').GetName(GetPlayer)]: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_chains_of_loyalty_bonus')|2]#!"
@@ -108,12 +110,13 @@
 #marshal
  task_organize_levies:1 "Organizar ejército"
  task_organize_levies_maintenance_modifier:0 "$task_organize_levies$"
- task_organize_levies_effect_desc:4 "Tamaño de [garrison|lE], tamaño de [levy|lE] y tasa de refuerzo: #P +[SCOPE.ScriptValue('marshal_organize_levies_modifier_value')] %#!\n$TAB$Base: #P +[SCOPE.ScriptValue('marshal_organize_levies_base')] %#!\n$TAB$[martial_skill|E] del consejero: #P +[SCOPE.ScriptValue('marshal_organize_levies_skill_base')] %#!"
+ task_organize_levies_effect_desc:5 "Tamaño de [garrison|lE] y tasa de refuerzo de [levy|lE]: #P +[SCOPE.ScriptValue('marshal_organize_levies_modifier_value')] %#!\n$TAB$Base: #P +[SCOPE.ScriptValue('marshal_organize_levies_base')] %#!\n$TAB$[martial_skill|E] del consejero: #P +[SCOPE.ScriptValue('marshal_organize_levies_skill_base')] %#!"
  task_organize_levies_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('marshal_organize_levies_erudition_bonus')] %#!"
  task_organize_levies_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('marshal_organize_levies_family_business_bonus')|1] %#!"
- task_organize_levies_maintenance_effect_desc:0 "\n\nMantenimiento ejército: #P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_total')|1P] %#!\n$TAB$Base: #P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_base')|1P] %#!\n$TAB$[martial_skill|E] de consejero: #P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_skill_base')|1P] %#!"
+ task_organize_levies_maintenance_effect_desc:1 "\n\nMantenimiento de [army|lE] reclutado: [gold_i]#P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_total')|1P] %#!\n$TAB$Base: #P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_base')|1P] %#!\n$TAB$[martial_skill|E] del consejero: #P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_skill_base')|1P] %#!"
  task_organize_levies_maintenance_erudition_bonus_desc:1 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_erudition_bonus')|1]%#!"
  task_organize_levies_maintenance_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_family_business_bonus')|1] %#!"
+ task_train_commanders_acclaimed_knight_levy_captaincy:0 "\n$EFFECT_LIST_BULLET$#P [acclaimed_knight] prepara levas#!"
  task_organize_levies_well_organized_service:0 "\n$EFFECT_LIST_BULLET$#P Servicio bien organizado#!"
  task_organize_levies_increased_military_presence:0 "\n$EFFECT_LIST_BULLET$#P Presencia miliar aumentada#!"
  task_organize_levies_levy_desertion:0 "\n$EFFECT_LIST_BULLET$#N Deserción de levas#!"
@@ -122,7 +125,7 @@
  task_organize_levies_notification_tooltip:0 "Por $task_organize_levies$"
  
  task_suppress_crime:0 "Reprimir crimen"
- task_supress_crime_effect_desc:0 "#S Con #V 100 %#!#!:\n$TAB$Elimina corrupción condal\nProgreso: #P +#![SCOPE.ScriptValue('task_supress_crime_progress')|P]#P %#!/mes\n\nHace al condado inmune a la corrupción condal"
+ task_supress_crime_effect_desc:0 "#S Con #V 100 %#!#!:\n$TAB$Elimina corrupción condal\nProgreso: #P +#![SCOPE.ScriptValue('task_supress_crime_progress')|P]#P %#!/mes\n\nHace al condado inmune a la corrupción condal"
  task_suppress_crime_gain_opinion:0 "\n$EFFECT_LIST_BULLET$#P Aumenta opinión de condado#!"
  task_suppress_crime_lose_opinion:0 "\n$EFFECT_LIST_BULLET$#N Se pierde opinión de condado#!"
  marshal_supress_crime_modifier:0 "Reprimiendo el crimen"
@@ -135,6 +138,7 @@
  task_train_commanders_maa_boost_effect_desc:0 "[knight_effectiveness|E], [damage|lE] y [toughness|lE] de [men_at_arms|lE]:\n$TAB$Aumentan en #P +[SCOPE.ScriptValue('marshal_maa_overtime_boost_monthly_increase')|1] %#!/mes hasta #P +[SCOPE.ScriptValue('marshal_maa_overtime_boost_max')|1] %#! (Ahora: #P +[SCOPE.ScriptValue('marshal_maa_overtime_boost_scale')|1] %#!)\n$TAB$[martial_skill|E] de consejero: #P +[SCOPE.ScriptValue('marshal_maa_overtime_boost_base')|1] %#!"
  task_train_commanders_commander_erudition_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_erudition_bonus')|P] %#!"
  task_train_commanders_commander_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_family_business_bonus')|P] %#!"
+ task_train_commanders_acclaimed_knight_drills_hastiludes:0 "\n$EFFECT_LIST_BULLET$#P [acclaimed_knight] entrena a [GetTrait('tourney_participant').GetNameNoTooltip( GetNullCharacter )]#!"
  task_train_commanders_commander_learns_from_commander:1 "\n$EFFECT_LIST_BULLET$#P Comandante gana [commander_trait|l]#!"
  task_train_commanders_knight_improved:0 "\n$EFFECT_LIST_BULLET$#P [knight] mejorado#!"
  task_train_commanders_commander_wounded:0 "\n$EFFECT_LIST_BULLET$#N Comandante herido#!"
@@ -147,7 +151,7 @@
 
  task_increase_control_VALUE_NAME:0 "[county_control|E]"
  task_increase_control:0 "Aumenta el control de condado"
- task_increase_control_effect_desc:1 "Probabilidad de eliminar corrupción condal: [SCOPE.ScriptValue('marshal_remove_county_corruption_chance')|P]#P %#!/mes\n$TAB$Consejero: #P +#![SCOPE.ScriptValue('marshal_councillor_county_corruption_value')|P]\n$TAB$Control de condado: #P +#![SCOPE.ScriptValue('marshal_county_county_corruption_value')|P]\n\nMientras el control aumente, el condado no recibirá corrupción."
+ task_increase_control_effect_desc:1 "Probabilidad de eliminar corrupción condal: [SCOPE.ScriptValue('marshal_remove_county_corruption_chance')|P]#P %#!/mes\n$TAB$Consejero: #P +#![SCOPE.ScriptValue('marshal_councillor_county_corruption_value')|P]\n$TAB$Control de condado: #P +#![SCOPE.ScriptValue('marshal_county_county_corruption_value')|P]\n\nMientras el control aumente, el condado no recibirá corrupción."
  marshal_increase_control_modifier:0 "$task_increase_control$"
  marshal_increase_control_friend_bonus_modifier:0 "Tu [friend|lE] tiene como tarea $task_increase_control$."
  marshal_increase_control_monthly_increase_best_friend_bonus:0 "Tu [best_friend|lE] tiene como tarea $task_increase_control$."
@@ -155,6 +159,7 @@
  marshal_increase_control_nemesis_bonus_modifier:0 "Tu [nemesis|lE] tiene como tarea $task_increase_control$."
  marshal_increase_control_perk_bonus_modifier:0 "$strict_organization_perk_name$"
  marshal_increase_control_erudition_bonus_modifier:1 "[GetDynastyPerk('erudition_legacy_5').GetName]"
+ task_increase_control_acclaimed_knight_subdues_peasantry:0 "\n$EFFECT_LIST_BULLET$#P [acclaimed_knight] somete al campesinado local#!"
  task_increase_control_increase_opinion:0 "\n$EFFECT_LIST_BULLET$#P Aumenta opinión de condado#!"
  task_increase_control_baron_opinion_increase:0 "\n$EFFECT_LIST_BULLET$#P Aumenta la opinión de baronía#!"
  task_increase_control_lose_opinion:0 "\n$EFFECT_LIST_BULLET$#N Se pierde opinión de condado#!"
@@ -173,7 +178,7 @@
 
  task_manage_guards:0 "Dirigir Guardia Real"
  task_manage_guards_knights_desc:0 "[knight_effectiveness|E]: \n$TAB$Aumenta en #P +[SCOPE.ScriptValue('marshal_knight_overtime_boost_monthly_increase')] %#!/mes hasta #P +[SCOPE.ScriptValue('marshal_knight_overtime_boost_max')] %#! (ahora: #P +[SCOPE.ScriptValue('marshal_knights_overtime_boost_scale')] %#!)"
- task_manage_guards_scheme_desc:0 "\n\n[success_chance|E] de [hostile_scheme|lE] enemiga: \n$TAB$Se reduce en #P [SCOPE.ScriptValue('marshal_scheme_overtime_boost_monthly_increase')] %#!/mes hasta #P [SCOPE.ScriptValue('marshal_scheme_overtime_boost_max')] %#! (ahora: #P +[SCOPE.ScriptValue('marshal_scheme_overtime_boost_scale')] %#!)"
+ task_manage_guards_scheme_desc:1 "\n\n[success_chance|E] de [hostile_scheme|lE] enemiga: \n$TAB$Se reduce en #P [SCOPE.ScriptValue('marshal_scheme_overtime_boost_monthly_increase')] %#!/mes hasta #P [SCOPE.ScriptValue('marshal_scheme_overtime_boost_max')] %#! (ahora: #P [SCOPE.ScriptValue('marshal_scheme_overtime_boost_scale')] %#!)"
  task_manage_guards_erudition_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_erudition_bonus')|P] %#!"
  task_manage_guards_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_family_business_bonus')|P] %#!"
  task_manage_guards_knight_modifier:0 "Dirigir Guardia Real: efectividad de caballeros"
@@ -201,22 +206,22 @@
  task_disrupt_schemes_court_of_shadows_modifier:0 "Corte de sombras"
  task_disrupt_schemes_court_of_shadows_modifier_desc:0 "Este personaje dirige a su jefe de espías a desenmascarar a los enemigos que pudieran infiltrarse en su corte."
  task_disrupt_schemes_notification_tooltip:0 "Por $task_disrupt_schemes$"
- task_disrupt_schemes_hostile_scheme_resistance_base:1 "[hostile_scheme_resistance|E]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_modifier_final_scale')|1]#!\n$TAB$Base: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_hostile_scheme_resistance_base')|1]#!\n$TAB$[intrigue_skill|E] de [councillor.GetCouncilTitle] [councillor.GetShortUIName]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_modifier_base_scale')|1]#!"
+ task_disrupt_schemes_hostile_scheme_resistance_base:2 "[hostile_scheme_resistance|E]: @scheme_power_icon!#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_modifier_final_scale')|1]#!\n$TAB$Base: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_hostile_scheme_resistance_base')|1]#!\n$TAB$[intrigue_skill|E] de [councillor.GetCouncilTitle] [councillor.GetShortUIName]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_modifier_base_scale')|1]#!"
  task_disrupt_schemes_hostile_scheme_resistance_perk_bonus:0 "\n$TAB$[GetPerk('court_of_shadows_perk').GetName(GetPlayer)]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_court_of_shadows_modifier_scale')|1]#!"
  task_disrupt_schemes_hostile_scheme_resistance_legacy_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_erudition_legacy_5_modifier_scale')|P1]#!"
  task_disrupt_schemes_hostile_scheme_resistance_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_family_business_modifier_scale')|P1]#!"
- task_disrupt_schemes_discovery_chance_base:1 "\n[scheme_discovery_chance|E]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_total_modifier')|1]#!\n$TAB$Base: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_scheme_discovery_base')|1]#!\n$TAB$[intrigue_skill|E] de [councillor.GetCouncilTitle] [councillor.GetShortUIName]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_scheme_discovery_modifier')|1]#!"
+ task_disrupt_schemes_discovery_chance_base:2 "\n[scheme_discovery_chance|E]: @exposed_icon!#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_total_modifier')|1]#!\n$TAB$Base: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_scheme_discovery_base')|1]#!\n$TAB$[intrigue_skill|E] de [councillor.GetCouncilTitle] [councillor.GetShortUIName]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_scheme_discovery_modifier')|1]#!"
  task_disrupt_schemes_discovery_chance_perk_bonus:0 "\n$TAB$[GetPerk('court_of_shadows_perk').GetName(GetPlayer)]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_court_of_shadows_scheme_discovery_modifier_scale')|1]#!"
  task_disrupt_schemes_discovery_chance_legacy_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_erudition_legacy_5_discovery_modifier_scale')|P1]#!"
  task_disrupt_schemes_discovery_chance_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_family_business_discovery_modifier_scale')|P1]#!"
 
  task_support_schemes:0 "Conjuras de apoyo"
  task_support_schemes_effect_desc:0 "[councillor.GetModifierDescForTask('task_support_schemes')]"
- task_support_schemes_base_desc:1 "Poder de [hostile_scheme|lE]: #P +[SCOPE.ScriptValue('spymaster_espionage_modifier_final_scale')|1]#!\n$TAB$Base: #P +[SCOPE.ScriptValue('spymaster_espionage_scheme_power_base')|P1]#!\n$TAB$[intrigue_skill|E] de [councillor.GetCouncilTitle] [councillor.GetShortUIName]: #P +[SCOPE.ScriptValue('spymaster_espionage_modifier_base_scale')|P1]#!"
+ task_support_schemes_base_desc:2 "[scheme_power_single|E] de [hostile_scheme|lE]: @scheme_power_icon!#P +[SCOPE.ScriptValue('spymaster_espionage_modifier_final_scale')|1]#!\n$TAB$Base: #P +[SCOPE.ScriptValue('spymaster_espionage_scheme_power_base')|P1]#!\n$TAB$[intrigue_skill|E] de [councillor.GetCouncilTitle] [councillor.GetShortUIName]: #P +[SCOPE.ScriptValue('spymaster_espionage_modifier_base_scale')|P1]#!"
  task_support_schemes_legacy_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('spymaster_espionage_legacy_bonus')|P1]#!"
  task_support_schemes_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('spymaster_espionage_family_business_bonus')|P1]#!"
  spymaster_espionage_court_type_bonus_desc:0 "\n$TAB$$court_intrigue$: #P +[SCOPE.ScriptValue('spymaster_espionage_court_type_bonus')|P1]#!"
- task_support_schemes_success_chance_base_desc:1 "\n[success_chance|E] de [hostile_scheme|lE]: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_total')|P1]#!\n$TAB$Base: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_base')|P1]#!\n$TAB$[intrigue_skill|E] de [councillor.GetCouncilTitle] [councillor.GetShortUIName]: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_modifier_base_scale')|P1]#!"
+ task_support_schemes_success_chance_base_desc:2 "\n[success_chance|E] de [hostile_scheme|lE]: @scheme_success_icon!#P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_total')|P1]#!\n$TAB$Base: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_base')|P1]#!\n$TAB$[intrigue_skill|E] de [councillor.GetCouncilTitle] [councillor.GetShortUIName]: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_modifier_base_scale')|P1]#!"
  task_support_schemes_success_chance_legacy_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_legacy_bonus')|P1]#!"
  task_support_schemes_success_chance_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_family_business_bonus')|P1]#!"
  spymaster_espionage_success_chance_court_type_bonus_desc:0 "\n$TAB$$court_intrigue$: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_court_type_bonus')|P1]#!"
@@ -229,7 +234,7 @@
  task_support_schemes_notification_tooltip:0 "Por $task_support_schemes$"
  
  task_find_secrets:0 "Encontrar secretos"
- task_find_secrets_effect_desc:0 "Si existe algún secreto en la corte:\n$TAB$[SCOPE.ScriptValue('spymaster_find_secrets_secret_discovery_chance')|P]#P %#! de posibilidades de encontrar un secreto"
+ task_find_secrets_effect_desc:1 "Si existe algún [secret|lE] en la corte:\n$TAB$[SCOPE.ScriptValue('spymaster_find_secrets_secret_discovery_chance')|P]#P  %#! de probabilidad de descubrir un [secret|lE]"
  task_find_secrets_vassal_intimidation:0 "\nPosibilidad de intimidar a un vasallo"
  task_find_secrets_opinion_loss:0 "\n$EFFECT_LIST_BULLET$#N $task_find_secrets$ - Descubierto#!"
  task_find_secrets_notification_tooltip:0 "Por $task_find_secrets$"
@@ -243,7 +248,7 @@
 
 #steward
  task_collect_taxes:0 "Recaudar impuestos"
- task_collect_taxes_effect_desc:2 "Impuestos del [domain|lE]: #P +[SCOPE.ScriptValue('steward_collect_taxes_scale_tooltip_total')|2] %#!\n$TAB$[stewardship_skill|E] de [councillor.GetCouncilTitle] [councillor.GetShortUIName]: #P +[SCOPE.ScriptValue('steward_collect_taxes_scale_base')|1] %#!"
+ task_collect_taxes_effect_desc:3 "Impuestos del [domain|lE]: #P +[SCOPE.ScriptValue('steward_collect_taxes_scale_tooltip_total')|2] % [gold_i]#!\n$TAB$[stewardship_skill|E] de [councillor.GetCouncilTitle] [councillor.GetShortUIName]: #P +[SCOPE.ScriptValue('steward_collect_taxes_scale_base')|1] %#!"
  task_collect_taxes_tax_man_bonus_desc:2 "\n$TAB$[GetPerk('tax_man_perk').GetName(GetPlayer)]: #P +[SCOPE.ScriptValue('steward_collect_taxes_perk_bonus_scale')|2] %#!"
  task_collect_taxes_erudition_bonus_desc:2 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('steward_collect_taxes_erudition_bonus_scale')|2] %#!"
  task_collect_taxes_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('steward_collect_taxes_family_business_bonus_scale')|2] %#!"
@@ -315,6 +320,7 @@
  STEWARD_PROMOTE_CULTURE_RECLAIMING_BRITANNIA:0 "Reclamar Britania"
  STEWARD_PROMOTE_CULTURE_ALLOWED_NOMAD_SETTLEMENT:0 "Hay nómadas asentándose"
  STEWARD_PROMOTE_CULTURE_HYBRID_VS_PARENTS_BONUS_MODIFIER:1 "La [hybrid_culture|lE] recién formada convierte una [culture|lE] matriz"
+ STEWARD_PROMOTE_CULTURE_DIVERGENT_VS_PARENTS_BONUS_MODIFIER:0 "[divergent_culture|E] recién formada convierte su [culture|lE] matriz"
  STEWARD_PROMOTE_CULTURE_LOCAL_COUNTY_MODIFIERS:0 "[modifiers|E] de [county|lE] local"
  COUNCILLOR_SAME_CULTURE_AS_TARGET:0 "Misma [culture|lE]"
 

@@ -4,7 +4,7 @@
  doxy:0 "catin"
  churl:0 "malotru"
  knave:0 "fripon"
- spawn_of_hell:0 "cynique"
+ spawn_of_hell:0 "[Select_CString(ROOT.Char.IsFemale, 'railleuse', 'railleur')]"
  coward:0 "poltron"
  boar:0 "vaniteux"
  cox_comb:0 "freluquet"
@@ -133,7 +133,7 @@
 
  #InsultSentence
  insult_sentence_arrogant:1 "Vous pensez vous être fait[ROOT.Char.Custom('FR_E')] tout[ROOT.Char.Custom('FR_E')] seul[ROOT.Char.Custom('FR_E')] et passez votre temps à adorer votre créat[ROOT.Char.Custom('FR_EurRice')]"
- insult_sentence_lustful:0 "Je me sens si triste quand je ne suis pas avec vous ; c’est presque comme quand je suis en votre compagnie"
+ insult_sentence_lustful:0 "Je me sens si triste quand je ne suis pas avec vous ; c’est presque comme quand je suis en votre compagnie"
  insult_sentence_subtle:0 "Vous êtes aussi subtil[ROOT.Char.Custom('FR_E')] qu’une catin au coin de la rue"
  insult_sentence_highgod:0 "Votre visage est la preuve que [ROOT.GetCharacter.GetFaith.HighGodName] n’est pas toujours bienveillant"
  insult_sentence_beauty_bad:0 "Je vous entends aimer la nature, malgré ce qu’elle vous a fait"

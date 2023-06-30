@@ -10,11 +10,11 @@
  stewardship_wealth.1001.a:0 "¡Examinad los libros de contabilidad para ver si hay algo que nos ayude!"
  stewardship_wealth.1001.a.success:0 "Encuentro varias deudas pasadas por alto que se pueden reclamar"
  stewardship_wealth.1001.a.failure:0 "No encuentro nada de ayuda"
- stewardship_wealth.1001.b.havehook:0 "Reclamaré el favor que me debe [wealthy_vassal.GetTitledFirstNameNoTooltip]."
- stewardship_wealth.1001.b.givehook:0 "Le deberé un favor a [wealthy_vassal.GetTitledFirstNameNoTooltip] si me ayuda."
+ stewardship_wealth.1001.b.havehook:0 "Reclamaré el favor que me debe [wealthy_vassal.GetTitledFirstNameNoTooltip|l]."
+ stewardship_wealth.1001.b.givehook:0 "Le deberé un favor a [wealthy_vassal.GetTitledFirstNameNoTooltip|l] si me ayuda."
  stewardship_wealth.1001.c:0 "¡Exigiré tributo a mis vasallos!"
  stewardship_wealth.1001.c.tt:0 "Todo vasallo:"
- stewardship_wealth.1001.d:0 "Confiscar propiedades de la iglesia para conseguir fondos."
+ stewardship_wealth.1001.d:1 "Confiscar propiedades religiosas para recaudar fondos."
  stewardship_wealth.1001.e:0 "Me apretaré el cinturón y ahorraré lo que pueda."
  
  # Minting New Coins, bu Stephen Arthur and Sean Hughes
@@ -61,7 +61,7 @@
  stewardship_wealth.1061.a.success.good:0 "Ganas un [artifact|lE] de libro muy bueno."
  stewardship_wealth.1061.a.failure:0 "El libro perdido solo era un viejo libro de cuentas"
  stewardship_wealth.1061.a.success.bad:0 "Ganas un [artifact|lE] de libro poco interesante."
- stewardship_wealth.1061.b:0 "A [vassal.GetTitledFirstNameNoTooltip] le vendría bien ayuda para administrar sus posesiones."
+ stewardship_wealth.1061.b:0 "A [vassal.GetTitledFirstNameNoTooltip|l] le vendría bien ayuda para administrar sus posesiones."
  stewardship_wealth.1061.c:0 "Cerrar estos acuerdos comerciales llenará mi tesoro."
 
  # Buy some cows, by Linnéa Thimrén
@@ -112,7 +112,7 @@
 
 # Rogue Administration by Jason Cantalini
  stewardship_wealth.7000.t:0 "Administración pícara"
- stewardship_wealth.7000.desc:0 "Con mucha ceremonia autocomplaciente, mi $knight_culture_player_no_tooltip_lowercase$ [enforcer.GetTitledFirstName] tira de golpe un saco abultado delante de mí.\n\n«Mirad», solicita.\n\nVacío su contenido: metales preciosos, reliquias, alhajas.\n\n«He #EMP convencido#! a algunos de los plebeyos de [victim.GetTitledFirstName]», sonríe [enforcer.GetFirstNameNoTooltip], «sus impuestos estaban destinados a vos, mi [ROOT.Char.GetLadyLord]».\n\n¡Es una buena ganancia! Y, lo que es mejor, me imagino la expresión de ira en la cara de [victim.GetTitleAsNameNoTooltip]."
+ stewardship_wealth.7000.desc:0 "Con mucha ceremonia autocomplaciente, mi $knight_culture_player_no_tooltip_lowercase$ [enforcer.GetTitledFirstName|l] tira de golpe un saco abultado delante de mí.\n\n«Mirad», solicita.\n\nVacío su contenido: metales preciosos, reliquias, alhajas.\n\n«He #EMP convencido#! a algunos de los plebeyos de [victim.GetTitledFirstName|l]», sonríe [enforcer.GetFirstNameNoTooltip], «sus impuestos estaban destinados a vos, mi [ROOT.Char.GetLadyLord]».\n\n¡Es una buena ganancia! Y, lo que es mejor, me imagino la expresión de ira en la cara de [victim.GetTitleAsNameNoTooltip]."
 
  stewardship_wealth.7000.a:0 "¡[victim.GetFirstNameNoTooltip], vaya [victim.Custom('InsultAdjective')]!"
  stewardship_wealth.7000.b:0 "Puedo justificar esta exacción."
@@ -124,8 +124,8 @@
 
 # Beyond Boundaries by Jason Cantalini
  stewardship_wealth.7001.t:0 "Cruzando los límites"
- stewardship_wealth.7001.desc:0 "¡Maldit[thieving_rival.Custom('ES_OA')] sea [thieving_rival.GetTitledFirstName] y sus lacayos ladrones! Mi [messenger.GetCouncilTitle] tartamudea el mensaje de que, con descaro, ¡esos matones coaccionaron al pueblo llano de [ROOT.Char.GetCapitalLocation.GetName] para que entregaran las riquezas que debían ser para mí!\n\n[messenger.GetTitledFirstName] tiene a los funcionarios preparados para cobrar las tasas habituales… pero ya preveo viudas lamentándose, niños muriendo de hambre y familias pobres siendo expulsadas de sus hogares.\n\n¡Miles de maldiciones sobre el alma codiciosa de [thieving_rival.GetTitledFirstNameNoTooltip]!"
-
+ stewardship_wealth.7001.desc:1 "¡Maldit[thieving_rival.Custom('ES_OA')] sea [thieving_rival.Custom('ES_ElLa')] [thieving_rival.GetTitledFirstName|l] y sus lacayos ladrones! Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('messenger'))], [messenger.Custom('ES_ElLa')] [messenger.GetTitledFirstName|l], tartamudea el mensaje de que, con descaro, ¡esos matones coaccionaron al pueblo llano de [ROOT.Char.GetCapitalLocation.GetName] para que entregaran las riquezas que debían ser para mí!\n\n[messenger.GetFirstNameNoTooltip] tiene a los funcionarios preparados para cobrar las tasas habituales…, pero ya preveo viudas lamentándose, niños muriendo de hambre y familias pobres siendo expulsadas de sus hogares.\n\n¡Miles de maldiciones sobre el alma codiciosa [thieving_rival.Custom('ES_DelDela')] [thieving_rival.GetTitledFirstNameNoTooltip|l]!"
+ stewardship_wealth.7001.tt.crime_alert:0 "[victim.Custom('ES_ElLa')|U] [victim.GetTitledFirstName|l] se acordará de esto"
  stewardship_wealth.7001.justification:0 "[thieving_rival.GetSheHe|U] difunde mentiras endebles sobre sus derechos como mi [thieving_rival.GetLadyLord], pero yo sé que lo que se ha llevado es mío…"
  stewardship_wealth.7001.unleashed_knights:0 "[thieving_rival.GetSheHe|U] y sus secuaces, viles ladrones, se vuelven más aborrecibles con cada día que pasa…"
 
@@ -134,3 +134,14 @@
  stewardship_wealth.7001.b:0 "Mis enemistades personales no son las de mi pueblo."
  stewardship_wealth.7001.b.tt:0 "Eximir de impuestos a las víctimas de [thieving_rival.GetFirstNameNoTooltip]"
 
+ stewardship_wealth.2000.t:0 "Oportunidades de peso"
+ stewardship_wealth.2000.desc:0 "Camino por las calles de [loc_capital_county.GetNameNoTier] con mi administrador[loc_steward.Custom('ES_XA')], buscando oportunidades que solventen mi tesoro, vacío de algún modo. Cuando llegamos a la sala de pesado del mercado, [loc_steward.GetFirstName] empieza a hablar en susurros:\n\n«Podríamos conseguir tranquilamente más ingresos si fuéramos… #EMP creativos #!con los impuestos que salen de aquí. Puedo preparar un nuevo conjunto de pesos con un pesaje ligeramente ajustado, pero con el mismo aspecto. ¡De este modo los comerciantes tendrán que pagarnos más por los mismos bienes! ¡Nadie tendría por qué sospechar!\n\nSi lo deseáis, podemos cambiar los pesos y observar el fluir del dinero a vuestras arcas!»."
+ stewardship_wealth.2000.a:0 "Cambiaremos los pesos esta noche."
+ stewardship_wealth.2000.a.tt.success:0 "Se cambian los pesos sin que nadie se dé cuenta"
+ stewardship_wealth.2000.a.tt.failure:0 "Tu plan ha sido descubierto"
+ stewardship_wealth.2000.b:0 "Se necesita un mejor conjunto de pesos y medidas."
+ stewardship_wealth.2000.b.tt:0 "Si bien es difícil de lograr, desde luego que es posible una solución que beneficie tanto a tus arcas como a las necesidades de los comerciantes."
+ stewardship_wealth.2000.b.tt.success:0 "Implementas con éxito el nuevo sistema de pesos y medidas"
+ stewardship_wealth.2000.b.tt.failure:0 "El nuevo sistema de pesos y medidas no es el ideal"
+ stewardship_wealth.2000.c:0 "¡Tomaré lo que me pertenece con el método de toda la vida!"
+ stewardship_wealth.2000.c.tt:0 "Obligas directamente a los comerciantes a pagar más por el privilegio de llevar sus bienes por este condado."

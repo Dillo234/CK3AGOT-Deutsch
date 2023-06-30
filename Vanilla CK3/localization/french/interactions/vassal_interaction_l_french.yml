@@ -27,7 +27,7 @@
  stop_defender_vassal_war_interaction:0 "Exiger la reddition dans la guerre vassale"
  STOP_VASSAL_WAR_ATTACKER:0 "Choisissez la guerre pour exiger sa fin"
  STOP_VASSAL_WAR_DEFENDER:0 "Choisissez la guerre pour exiger sa fin"
- stop_vassal_war_negotiation:2 "Demander [recipient.Custom('FR_au_Char_U_Pi')][recipient.GetShortUIName] de renoncer à sa guerre.\n\nSon acceptation est déterminée par:\n$BULLET_WITH_TAB$Vos aptitudes [Concept( 'diplomacy_skill', 'diplomatiques' )|E] réciproques\n$BULLET_WITH_TAB$L’état de la guerre\n$BULLET_WITH_TAB$Ses [traits|El]\n$BULLET_WITH_TAB$Son [opinion|El] à votre égard\n$BULLET_WITH_TAB$[recipient.Custom('FR_SilSielle')|U] est [Concept( 'intimidated', 'intimidé' )|E][recipient.Custom('FR_E')|E] ou [Concept( 'cowed', 'terrifié' )|E][recipient.Custom('FR_E')|E] par vous"
+ stop_vassal_war_negotiation:2 "Demander [recipient.Custom('FR_au_Char_U_Pi')][recipient.GetShortUIName] de renoncer à sa guerre.\n\nSon acceptation est déterminée par :\n$BULLET_WITH_TAB$Vos aptitudes [Concept( 'diplomacy_skill', 'diplomatiques' )|E] réciproques\n$BULLET_WITH_TAB$L’état de la guerre\n$BULLET_WITH_TAB$Ses [traits|El]\n$BULLET_WITH_TAB$Son [opinion|El] à votre égard\n$BULLET_WITH_TAB$[recipient.Custom('FR_SilSielle')|U] est [Concept( 'intimidated', 'intimidé' )|E][recipient.Custom('FR_E')|E] ou [Concept( 'cowed', 'terrifié' )|E][recipient.Custom('FR_E')|E] par vous"
  stop_vassal_war_use_hook:1 "Vous pourrez utiliser votre [hook|El] si nécessaire"
  force_join_faction_interaction:0 "Forcer à rejoindre la faction"
  force_join_faction_interaction_desc:1 "Utiliser un [hook|El] contre [recipient.Custom('FR_le_Char_U_Pi')][recipient.GetShortUIName] pour [recipient.Custom('FR_LeLa')] faire rejoindre votre [faction|El]"

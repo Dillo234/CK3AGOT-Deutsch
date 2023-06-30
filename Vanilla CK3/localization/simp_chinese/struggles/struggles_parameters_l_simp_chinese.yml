@@ -6,7 +6,7 @@
  struggle_parameter_unlocks_fabricate_hooks_for_all:2 "解锁针对[struggle_involved|E][rulers|E]的[GetScheme('fabricate_hook').GetTypeName][scheme|E]"
  struggle_parameter_unlocks_claim_throne_for_all:2 "解锁针对[struggle_involved|E][rulers|E]的[GetScheme('claim_throne').GetTypeName][scheme|E]"
  struggle_parameter_unlocks_incite_revolts_interaction:2 "解锁针对[struggle_involved|E][rulers|E]的[incite_revolts_interaction|E][interaction|E]"
- struggle_parameter_unlocks_forced_vassalization_casus_belli:2 "解锁[vassalize_casus_belli|E]" # [LocEditor:AwaitingBatchUpdate]
+ struggle_parameter_unlocks_forced_vassalization_casus_belli:3 "解锁[vassalize_casus_belli|E]"
  struggle_parameter_powerful_vassal_can_claim_liege_titles:2 "为[powerful_vassals|E]解锁$vassal_claim_liege_title_interaction$[interaction|E]"
  struggle_parameter_unlocks_claim_throne_for_powerful_vassals:2 "为[powerful_vassals|E]解锁针对[struggle_involved|E][rulers|E]的[GetScheme('claim_throne').GetTypeName][scheme|E]"
  struggle_parameter_holy_order_can_be_created_by_dukes:1 "允许公爵创建[holy_order|E]"
@@ -36,7 +36,7 @@
  struggle_parameter_unlocks_golden_age_jewish_science_decision:1 "解锁[golden_age_jewish_science_in_iberia_decision|E][decision|E]"
  struggle_parameter_unlocks_build_pilgrim_roads_decision:1 "解锁[build_holy_pilgrim_roads_decision|E][decision|E]"
  struggle_parameter_struggle_cheaper_buy_truce:1 "[purchase_truce_interaction|E][interaction|E]花费更少[gold_i][gold|E]"
- struggle_parameter_struggle_prestige_from_feast:1 "[feast|E][activity|E]给予更多[prestige_i][prestige|E]"
+ struggle_parameter_struggle_prestige_from_feast:1 "[GetActivityType('activity_feast').GetName][activity|E]给予更多[prestige_i][prestige|E]"
  struggle_parameter_struggle_agents_less_likely_to_join_schemes:1 "[agent|E]接受度：#N -25#!"
  struggle_parameter_unlocks_sell_minor_title_for_kings_and_higher:1 "为国王和皇帝解锁[sell_titles_decision|E]"
  struggle_parameter_invasion_conquest_war_cannot_be_declared:0 "入侵和征服[casus_bellis|E]不可用"

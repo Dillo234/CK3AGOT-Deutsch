@@ -4,6 +4,7 @@
  PORTRAIT_NO_ANTIQUARIAN:0 "#T Отсутствует $antiquarian_court_position$#!\n#weak $antiquarian_court_position$ замедлит потерю [Concept( 'durability', 'прочности' )|E] и откроет доступ к [Concept( 'decision', 'решению' )|E] #V $commission_artifact_decision$#!.\n\n#I Щелкните, чтобы заместить должность «$antiquarian_court_position$»#!"
  OPEN_INVENTORY_TOOLTIP:2 "#T Открыть инвентарь#!"
  REFORGE_OR_REPAIR:1 "$repair_or_reforge_and_repair$"
+ INVENTORY_DESTROY_ARTIFACT:0 "Уничтожить"
  INVENTORY_REFORGE_OR_REPAIR:0 "#T $REFORGE_OR_REPAIR$#!"
  INVENTORY_REFORGE:1 "#T [reforge|E]#!"
  INVENTORY_REPAIR:1 "#T [repair|E]#!"
@@ -22,4 +23,4 @@
  ARTIFACT_CLAIM_HOUSE:0 "[house_artifact_claim|E]"
  INVENTORY_COURT_ARTIFACTS_BUTTON_TOOLTIP:1 "Перейти к [Concept( 'court_artifacts', 'придворным артефактам' )|E] при [Concept( 'royal_court', 'монаршем дворе' )|E] персонажа [Character.GetShortUINameNoTooltipNoFormat]"
  INVENTORY_COURT_ARTIFACTS_BUTTON_NO_ROYAL_COURT_TOOLTIP:0 "Показать [court_artifacts|el] в хранилище"
- INVENTORY_EQUIPPED_ARTIFACTS_HEADER:0 "[Character.LocalPlayerString( 'Вы', Character.GetShortUIName )|U] [Select_CString(CHARACTER.IsPlayer, 'используете', 'использует' )] [inventory_artifacts|el]"
+ INVENTORY_EQUIPPED_ARTIFACTS_HEADER:0 "[Character.LocalPlayerString( 'Вы', Character.GetShortUIName )|U] [Select_CString(CHARACTER.IsLocalPlayer, 'используете', 'использует' )] [inventory_artifacts|el]"

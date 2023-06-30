@@ -11,8 +11,8 @@
  action_can_offer_assistance_unimportant:0 "@warning_icon!#X Ihr seid bereits in einem [war|E]#!"
  action_can_offer_assistance_HELP:1 "\n\n#help Als [ruler|E] könnt Ihr auch invadiert werden, und es kann günstig sein, darauf zu warten, dass Ihr in einer sicheren Position seid, um Euch einem weiteren [war|E] anzuschließen.#!"
 
- action_can_bargain_fealty:0 "Kann Vasallisierung für Unterstützung anbieten"
- action_can_bargain_fealty_label:0 "Ihr könnt [recipient.GetShortUINameNoTooltip] Eure Dienste im Austausch für Schutz anbieten."
+ action_can_bargain_fealty:1 "@liege_icon!Kann Vasallisierung für Unterstützung anbieten."
+ action_can_bargain_fealty_label:1 "@liege_icon!Ihr könnt [recipient.GetShortUINameNoTooltip] Eure Dienste im Austausch für Schutz anbieten."
  action_can_bargain_fealty_combined_label:0 "[recipient.GetShortUINameNoTooltip]"
  action_can_bargain_fealty_desc:0 "[recipient.GetUIName] ist ein sich ins [Concept('struggle_interloper', 'Ringen einmischender')|E] [ruler|E] in der Nähe mit höherem [title_tier|E], sodass Ihr [recipient.Custom('DE_PRO_PER_S_3P_D')] Eure Dienste im Gegenzug für Unterstützung bei Eurem [war|E] anbieten könnt.$action_can_bargain_fealty_HELP$"
  action_can_bargain_fealty_click:0 "#I Klicken, um mit [recipient.Custom('DE_PRO_PER_S_3P_D')] zu verhandeln#!"

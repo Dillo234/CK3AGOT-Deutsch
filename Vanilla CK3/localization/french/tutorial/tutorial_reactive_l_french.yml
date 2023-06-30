@@ -1,5 +1,5 @@
 ﻿l_french:
- open_tutorial_lesson:1 "Conseil: "
+ open_tutorial_lesson:1 "Conseil : "
  click_to_open_lesson:1 "#I Cliquez pour en apprendre davantage#!"
  reactive_advice_mercenaries:0 "$reactive_advice_mercenaries_step_1$"
  action_reactive_advice_mercenaries:0 "$open_tutorial_lesson$$reactive_advice_mercenaries_step_1$"
@@ -28,7 +28,7 @@
  action_reactive_advice_bastards_desc:0 "Un enfant bâtard peut être une bénédiction ou une malédiction.\nOuvrez ceci pour en savoir plus sur les bâtards et comment ils peuvent vous servir !"
  action_reactive_advice_bastards_click:0 "$click_to_open_lesson$"
  reactive_advice_bastards_step_1:0 "Bâtards"
- reactive_advice_bastards_desc:1 "Oups ! Il semble que vous ayez un [bastard|El] ! Cela peut être une menace ou une bonne occasion...\n\n#TUT Avoir des bâtards n’est pas si mal ; ils peuvent être mariés pour des [alliances|El] sans être une menace directe pour votre [succession|El], car ils ne sont pas considérés comme [Concept('legitimate','légitimes')|E].\n\nIl pourrait même être judicieux de garder quelques bâtards sous le coude, afin qu’ils puissent être [Concept('legitimized_bastard','légitimés')|E] si vous vous retrouvez à court d’enfants non bâtards. Cependant, n’oubliez pas de garder un œil sur l’[opinion|El] de votre [spouse|El] à votre égard...\n\nSi vous voulez avoir des enfants bâtards, nous vous recommandons d’utiliser le [scheme|El] visant à [GetScheme('seduce').GetActionName|l] les personnages non mariés. Si vous séduisez une femme mariée, son mari peut penser que l’enfant est de lui - si cela se produit, vous ne pouvez pas légitimer l’enfant.#!"
+ reactive_advice_bastards_desc:1 "Oups ! Il semble que vous ayez un [bastard|El] ! Cela peut être une menace ou une bonne occasion...\n\n#TUT Avoir des bâtards n’est pas si mal ; ils peuvent être mariés pour des [alliances|El] sans être une menace directe pour votre [succession|El], car ils ne sont pas considérés comme [Concept('legitimate','légitimes')|E].\n\nIl pourrait même être judicieux de garder quelques bâtards sous le coude, afin qu’ils puissent être [Concept('legitimized_bastard','légitimés')|E] si vous vous retrouvez à court d’enfants non bâtards. Cependant, n’oubliez pas de garder un œil sur l’[opinion|El] de votre [spouse|El] à votre égard...\n\nSi vous voulez avoir des enfants bâtards, nous vous recommandons d’utiliser le [scheme|El] visant à [GetScheme('seduce').GetActionName|l] les personnages non mariés. Si vous séduisez une femme mariée, son mari peut penser que l’enfant est de lui - si cela se produit, vous ne pouvez pas légitimer l’enfant.#!"
  reactive_advice_protecting_against_hostile_schemes:0 "$reactive_advice_protecting_against_hostile_schemes_step_1$"
  action_reactive_advice_protecting_against_hostile_schemes:0 "$open_tutorial_lesson$$reactive_advice_protecting_against_hostile_schemes_step_1$"
  action_reactive_advice_protecting_against_hostile_schemes_desc:0 "De nombreux dangers se cachent dans l’ombre et la menace d’un complot n’est jamais loin.\nOuvrez ceci pour en savoir plus sur les complots et les moyens de vous protéger !"
@@ -42,7 +42,7 @@
  action_reactive_advice_protect_against_factions_desc:0 "Une faction est dangereuse si elle n’est pas contrôlée.\nOuvrez ceci pour obtenir un aperçu des factions et de la meilleure façon de les gérer !"
  action_reactive_advice_protect_against_factions_click:0 "$click_to_open_lesson$"
  reactive_advice_protect_against_factions_step_1:0 "Se protéger contre les factions"
- reactive_advice_protect_against_factions_desc:1 "Ne paniquez pas si une [faction|El] se forme contre vous — vous avez encore le temps d’arranger la situation !\n\nLes [vassals|El] et les [counties|El] rejoignent les factions quand elles ne sont pas satisfaites de votre règne. Pour contrer cela, vous pouvez augmenter leur [opinion|El] à votre égard ou essayer de devenir [dreaded|El].\n\n#TUT Pour éviter les factions, nous vous recommandons d’augmenter l’[opinion|El] des vassaux envers vous, de réfréner vos conquêtes et d’essayer d’[GetScheme('murder').GetActionName|l] tout [claimant|El] plus populaire que vous.\n\nVous aurez souvent le temps d’apaiser vos vassaux avant que la faction n’appuie ses exigences - utilisez ce temps à bon escient.#!"
+ reactive_advice_protect_against_factions_desc:1 "Ne paniquez pas si une [faction|El] se forme contre vous : vous avez encore le temps d’arranger la situation !\n\nLes [vassals|El] et les [counties|El] rejoignent les factions quand elles ne sont pas satisfaites de votre règne. Pour contrer cela, vous pouvez augmenter leur [opinion|El] à votre égard ou essayer de devenir [dreaded|El].\n\n#TUT Pour éviter les factions, nous vous recommandons d’augmenter l’[opinion|El] des vassaux envers vous, de réfréner vos conquêtes et d’essayer d’[GetScheme('murder').GetActionName|l] tout [claimant|El] plus populaire que vous.\n\nVous aurez souvent le temps d’apaiser vos vassaux avant que la faction n’appuie ses exigences, mais utilisez-le à bon escient.#!"
  reactive_advice_protect_against_factions_2_desc:0 "Les comtés avec une faible [county_opinion|El] ont tendance à rejoindre la [peasant_faction|El]. Contrairement à d’autres factions, celle-ci se révoltera qu’elle ait une chance de gagner ou non !\n\nParfois, il suffit de remettre les paysans à leur place...\n\n#TUT Vous devriez toujours garder un œil sur les factions paysannes, si elles frappent pendant que vous êtes en guerre, elles peuvent causer des dommages importants à votre [control|El].#!"
  reactive_advice_protect_against_factions_step_2:0 "$reactive_advice_protect_against_factions_step_1$"
  reactive_advice_imprisoned:0 "$reactive_advice_imprisoned_step_1$"
@@ -56,10 +56,10 @@
  action_reactive_advice_county_control_desc:1 "Si le [control|El] est faible dans un [county|El], vous en tirerez moins d’impôts.\nOuvrez ceci pour découvrir comment gérer le contrôle de votre comté."
  action_reactive_advice_county_control_click:0 "$click_to_open_lesson$"
  reactive_advice_county_control_step_1:0 "Contrôle comtal"
- reactive_advice_county_control_desc:2 "Un de vos [counties|El] a un [control|El] bas, ce qui signifie que vous obtiendrez de lui moins d’[taxes|El] et de [levies|El]. Cependant, il existe des moyens d’augmenter à nouveau le contrôle !\n\n#TUT Il existe de nombreux endroits où vous pouvez voir le contrôle: l’onglet domaine de la vue du pays, la vue de la situation actuelle et la vue du comté.\n\nPour accroître le contrôle, allez dans la vue du Conseil et attribuer votre [marshal|El] à la tâche [increase_control|El]. Le contrôle augmente également avec le temps, mais ce processus est très lent - nous vous recommandons plutôt de faire appel à un maréchal avec une aptitude élevée.\n\nSi vous laissez un comté dont le contrôle est faible pendant une longue période, il peut gagner de la [county_corruption|El]. Pour éviter cela, nous vous recommandons de ne pas conquérir trop de terres d’un seul coup.#!"
+ reactive_advice_county_control_desc:2 "Un de vos [counties|El] a un [control|El] bas, ce qui signifie que vous obtiendrez de lui moins d’[taxes|El] et de [levies|El]. Cependant, il existe des moyens d’augmenter à nouveau le contrôle !\n\n#TUT Il existe de nombreux endroits où vous pouvez voir le contrôle : l’onglet domaine de la vue du pays, la vue de la situation actuelle et la vue du comté.\n\nPour accroître le contrôle, allez dans la vue du Conseil et attribuer votre [marshal|El] à la tâche [increase_control|El]. Le contrôle augmente également avec le temps, mais ce processus est très lent - nous vous recommandons plutôt de faire appel à un maréchal avec une aptitude élevée.\n\nSi vous laissez un comté dont le contrôle est faible pendant une longue période, il peut gagner de la [county_corruption|El]. Pour éviter cela, nous vous recommandons de ne pas conquérir trop de terres d’un seul coup.#!"
  reactive_advice_looming_game_over:0 "$reactive_advice_looming_game_over_step_1$"
  reactive_advice_looming_game_over_step_1:0 "Éviter la fin de la partie"
- reactive_advice_looming_game_over_desc:5 "Vous n’avez pas d’[player_heir|El]. Si vous mourez maintenant, ce sera la [Concept('game_over','fin de la partie')|E] — essayons d’éviter ça !\n\n#TUT Si vous êtes dans cette situation, cela signifie probablement que vous êtes le dernier de votre dynastie. À partir de là, il n’y a qu’un seul plan d’action valable: engendrer un héritier [legitimate|El] !\n\nSi vous êtes dans une société qui n’autorise qu’un seul sexe à hériter, vous pouvez essayer de changer votre [gender_law|El] afin qu’elle soit moins restrictive. Si vous avez des [bastards|El], c’est le moment de les légitimer !\n\nÀ part ça, assurez-vous d’être [married|El] à un personnage avec une [fertility|El] élevée (en règle générale, les femmes de plus de 45 ans sont rarement fertiles). Si cela ne semble toujours pas fonctionner, [Concept('divorce','divorcez')|E] ou tentez d’[GetScheme('murder').GetActionName|l] votre [spouse|El] et épousez quelqu’un d’autre — ou essayez de [GetScheme('seduce').GetActionName|l] pour engendrer un bâtard.\n\nLe temps presse, ne prenez pas de risques inutiles !#!"
+ reactive_advice_looming_game_over_desc:5 "Vous n’avez pas d’[player_heir|El]. Si vous mourez maintenant, ce sera la [Concept('game_over','fin de la partie')|E] — essayons d’éviter ça !\n\n#TUT Si vous êtes dans cette situation, cela signifie probablement que vous êtes le dernier de votre dynastie. À partir de là, il n’y a qu’un seul plan d’action valable : engendrer un héritier [legitimate|El] !\n\nSi vous êtes dans une société qui n’autorise qu’un seul sexe à hériter, vous pouvez essayer de changer votre [gender_law|El] afin qu’elle soit moins restrictive. Si vous avez des [bastards|El], c’est le moment de les légitimer !\n\nÀ part ça, assurez-vous d’être [married|El] à un personnage avec une [fertility|El] élevée (en règle générale, les femmes de plus de 45 ans sont rarement fertiles). Si cela ne semble toujours pas fonctionner, [Concept('divorce','divorcez')|E] ou tentez d’[GetScheme('murder').GetActionName|l] votre [spouse|El] et épousez quelqu’un d’autre — ou essayez de [GetScheme('seduce').GetActionName|l] pour engendrer un bâtard.\n\nLe temps presse, ne prenez pas de risques inutiles !#!"
  reactive_advice_bankruptcy:0 "$reactive_advice_bankruptcy_step_1$"
  action_reactive_advice_bankruptcy:0 "$open_tutorial_lesson$$reactive_advice_bankruptcy_step_1$"
  action_reactive_advice_bankruptcy_desc:0 "Vous n’avez plus d’or et êtes endetté !\nOuvrez ceci pour un aperçu de la dette et comment vous en sortir."
@@ -160,3 +160,193 @@
  ra_artifact_inventory_open_step_open:0 "Ouvrir l’inventaire (mis en évidence)"
  ra_artifact_inventory_welcome:0 "$ra_artifact_inventory_general$"
  ra_artifact_inventory_welcome_desc:0 "Dans votre inventaire, vous pouvez équiper des [inventory_artifacts|El] afin d’obtenir divers avantages, comme l’augmentation d’une certaine [skill|El] ou celle de votre [prestige|El].\n\nVous pouvez également [repair|El] ou [reforge|El] les [inventory_artifacts|l], ce qui restaurera leur [durability|El] et évitera qu’ils ne soient détruits au fil du temps.\n\nVous pouvez également voir vos [artifact_claims|El] et essayer de vous emparer de ces [artifacts|El] !"
+ 
+ # Inventory
+ ra_maa_stationing_open_card_step:0 "Stationnement d’hommes d’armes"
+ ra_maa_stationing_open_card_step_desc:0 "Vous avez des [men_at_arms|El] non [Concept('men_at_arms','stationnés')|E].\n\nEn stationnant vos [regiments|El], vous les rendez plus puissants et plus aptes au combat, ce qui peut s’avérer vital pour remporter des [battles|El].\n\nStationnons un régiment maintenant !"
+ ra_maa_stationing_open_card_step_tt:0 "Cliquez sur l’un de vos hommes d’armes marqué du texte '#X $MAA_UNSTATIONED$#!' (mis en avant)"
+ ra_maa_stationing_click_station_button:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_click_station_button_desc:0 "Vous pouvez stationner un [regiment|El] d’[men_at_arms|El] par [holding|El] de votre [domain|El].\n\nToutes les propriétés sont valables pour chaque type de régiment, mais certaines donnent des bonus plus importants que d’autres.\n\nChoisissons une propriété dans laquelle stationner ce régiment."
+ ra_maa_stationing_click_station_button_tt:0 "Cliquez sur 'Changer de propriété stationnée' (mis en avant)"
+ ra_maa_stationing_select_station:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_select_station_desc:0 "Les [holdings|El] accordent des montants de bonus différents selon les [buildings|El] que vous choisissez d’y construire.\n\nDans cette vue, vous pouvez voir exactement à quel point votre [regiment|El] d’[men_at_arms|El] deviendrait meilleur s’il était stationné dans une propriété.\n\nCliquez sur une propriété en #P vert#! sur la carte qui, selon vous, donne à votre régiment le meilleur bonus."
+ ra_maa_stationing_select_station_tt:0 "Cliquez sur n’importe quelle propriété en #P vert#! sur la carte"
+ ra_maa_stationing_finished:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_finished_desc:0 "Le [regiment|El] d’[men_at_arms|El] est maintenant [stationed|El], vous pouvez voir à quel point il est devenu meilleur sous son portrait (la partie mise en avant).\n\nN’oubliez pas de vérifier de temps en temps que vos régiments sont stationnés dans les meilleures [holdings|El].\n\nCeci est particulièrement important si vous conquérez ou héritez de nouveaux territoires, ou si vous décidez de spécialiser une propriété avec des [buildings|El] tels que [GetBuilding('smiths_01').GetName] ou [GetBuilding('stables_01').GetName]."
+
+
+# Tours
+ REACTIVE_ADVICE_TOURS:0 "Tournées"
+
+ action_reactive_advice_tours_picking_vassals:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_TOURS$"
+ action_reactive_advice_tours_picking_vassals_desc:0 "Vous planifiez maintenant à quels vassaux rendre visite lors de votre grande tournée. Ouvrez ceci pour en savoir plus sur la planification des tournées."
+ action_reactive_advice_tours_picking_vassals_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_tours_picking_vassals:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_intro:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_intro_desc:0 "Vous vous apprêtez à vous lancer dans une [GetActivityType( 'activity_tour' ).GetName()|l] de votre [realm|El].\n\nLors d’une tournée, vous [Concept('travel','voyagez')|E] pour rendre visite à vos [vassals|El], investissez de l’[gold|El] afin d’obtenir des récompenses telles que du [county_control|El], de l’[opinion|El] ou de l’[cultural_acceptance|El] !"
+
+ ra_tours_picking_vassals_add:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_add_desc:0 "Tout d’abord, vous devez sélectionner à quels [vassals|El] rendre visite.\n\nÀ qui rendre visite dépend du type de [GetActivityType( 'activity_tour' ).GetName()|l]. Par exemple, dans une [majesty_tour|El] chaque [stop|El] augmente l’[opinion|El] de la part du vassal, vous pourriez donc choisir des vassaux avec une faible opinion de vous.\n\nVoyager loin entre les étapes augmente le coût en [gold|El] pour chaque étape."
+ ra_tours_picking_vassals_add_prompt:0 "Ajoutez au moins un vassal à qui rendre visite en cliquant sur la carte"
+
+ ra_tours_picking_vassals_stops:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_stops_desc:0 "À chaque [stop|El] de la tournée, vous pouvez soit :\n$BULLET_WITH_TAB$[tour_the_grounds|E] pour augmenter le [county_control|El]\n$BULLET_WITH_TAB$Demander un [hosted_dinner|El] pour forger des [hooks|El] et des [relations|El]\n$BULLET_WITH_TAB$Demander à un [vassal|El] d’organiser un [cultural_festival|El] pour augmenter l’[county_opinion|El] et l’[cultural_acceptance|El]"
+
+ ra_tours_picking_vassals_conclusion:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_conclusion_desc:0 "Une fois que vous êtes satisfait des [stops|El] et de leur ordre, vous pouvez passer à la suite de la planification."
+
+
+# Active Regency Liege Side
+ REACTIVE_ADVICE_REGENCY_TERM:0 "Régence"
+ REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT:0 "Ouvrir la vue Régence (mise en avant)"
+ REACTIVE_ADVICE_YOU_REGENCY_REASONS:0 "Une [regency|El] peut se produire pour de nombreuses raisons, notamment :\n$BULLET_WITH_TAB$Lorsque vous [Concept('travel','voyagez')|E] hors de votre [realm|El]\n$BULLET_WITH_TAB$Lorsque vous êtes un [child|El]\n$BULLET_WITH_TAB$Vous devenez [GetTrait('incapable').GetName( GetPlayer )|l]"
+
+ reactive_advice_regency_for_liege:0 "$action_reactive_advice_regency_for_liege$"
+ action_reactive_advice_regency_for_liege:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_REGENCY_TERM$"
+ action_reactive_advice_regency_for_liege_desc:0 "Vous avez maintenant un régent. Ouvrez ceci pour une introduction aux régences."
+ action_reactive_advice_regency_for_liege_click:0 "$click_to_open_lesson$"
+
+ ra_regency_liege_intro:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_intro_desc:0 "Vous avez maintenant un [regent|El].\n\n$REACTIVE_ADVICE_YOU_REGENCY_REASONS$"
+
+ ra_regency_liege_effects:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_effects_desc:0 "Dans une [regency|El], vous pouvez toujours faire n’importe quelle action que vous pourriez faire normalement.\n\nCependant, le [regent|El] a des [diarch_powers|El] spéciaux dont il peut faire usage contre vous ou vos [vassals|El]. Vous pouvez toujours leur opposer votre droit de [veto|El]."
+
+ ra_regency_liege_open_UI:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_open_UI_desc:0 "Voyons maintenant votre [regency|El] !"
+ ra_regency_liege_open_UI_prompt:0 "$REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT$"
+
+ ra_regency_liege_open_tab:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_open_tab_desc:0 "Votre [regent|El] est affiché dans l’onglet $DIARCHY_WINDOW_YOUR_TAB$."
+ ra_regency_liege_open_tab_prompt:0 "Ouvrez l’onglet $DIARCHY_WINDOW_YOUR_TAB$ (mis en avant)"
+
+ ra_regency_liege_scales_of_power:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_scales_of_power_desc:0 "Voici les [scales_of_power|El].\n\nPlus l’équilibre des pouvoirs penche en faveur de votre [regent|El], plus il aura accès à des [diarch_powers|El] et plus mettre fin à la [regency|El] sera difficile.\n\nVous pouvez directement faire pencher l’équilibre en votre faveur avec le bouton $DIARCHY_WINDOW_SWING_SCALES$."
+
+ ra_regency_liege_mandate:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_mandate_desc:0 "Vous pouvez confier à votre [regent|El] un [mandate|El]. Il se concentrera alors dans ce domaine.\n\nVous pourrez toujours modifier ce mandat ultérieurement en fonction de vos priorités."
+
+ ra_regency_liege_ending:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_ending_desc:0 "Si les conditions qui ont déclenché la [regency|El] ne sont plus réunies, vous pouvez essayer d’y mettre fin.\n\nIl faut que le [regent|El] accepte, mais vous pouvez lui offrir de l’[gold|El] ou une [favor|El] pour tenter de le persuader. \n\nS’il refuse, il peut vous déclarer la [war|El] !"
+
+ ra_regency_liege_conclusion:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_conclusion_desc:0 "Les régences sont généralement une question de réaction. Pour l’instant, gardez un œil sur l’[scales_of_power|El].\n\nVous saurez quand votre [regent|El] fera usage d’un de ses [diarch_powers|El] et pourrez agir en conséquence."
+
+
+#  Active Regency Regent Side
+ reactive_advice_regency_for_regent:0 "$action_reactive_advice_regency_for_regent$"
+ action_reactive_advice_regency_for_regent:0 "$open_tutorial_lesson$Régent"
+ action_reactive_advice_regency_for_regent_desc:0 "Vous êtes maintenant le régent de votre seigneur lige. Ouvrez ceci pour une introduction aux régences."
+ action_reactive_advice_regency_for_regent_click:0 "$click_to_open_lesson$"
+
+ ra_regency_regent_intro:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_intro_desc:0 "Vous êtes le [regent|El] de votre [liege|El].\n\nUne [regency|El] peut se produire pour de nombreuses raisons, dont :\n$BULLET_WITH_TAB$Quand votre seigneur lige [travels|El] en dehors de votre [realm|El]\n$BULLET_WITH_TAB$Lorsque votre seigneur lige est un [child|El]\n$BULLET_WITH_TAB$Votre seigneur lige devient [GetTrait('incapable').GetName( GetPlayer )|l]"
+
+ ra_regency_regent_powers:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_powers_desc:0 "En tant que [regent|El] vous avez des [diarch_powers|El] spéciaux dont vous pouvez faire usage contre votre [liege|El] ou vos pairs [vassals|El]. Votre seigneur lige peut toujours y opposer son droit de [veto|El].\n\nL’usage de ces pouvoirs sur vos pairs vassaux peut être considéré comme un excès de pouvoir, ce qui vous donne une pénalité d’[opinion|El] pour [strife|El]."
+
+ ra_regency_regent_open_UI:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_open_UI_desc:0 "Voyons maintenant votre [regency|El] !"
+ ra_regency_regent_open_UI_prompt:0 "$REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT$"
+
+ ra_regency_regent_open_tab:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_open_tab_desc:0 "Votre statut de [regent|El] est affiché dans l’onglet $DIARCHY_WINDOW_LIEGE_TAB$."
+ ra_regency_regent_open_tab_prompt:0 "Ouvrez l’onglet $DIARCHY_WINDOW_LIEGE_TAB$ (mis en avant)"
+
+ ra_regency_regent_scales_of_power:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_scales_of_power_desc:0 "Voici l’[scales_of_power|El].\n\nPlus l’équilibre des pouvoirs penche en votre faveur, plus aurez accès à des [diarch_powers|El] et plus mettre fin à la [regency|El] sera difficile.\n\nVous pouvez directement faire pencher l’équilibre en votre faveur avec le bouton $DIARCHY_WINDOW_SWING_SCALES$."
+
+ ra_regency_regent_mandate:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_mandate_desc:0 "Votre [liege|El] peut vous confier un [mandate|El], ce qui vous donne l’occasion d’améliorer le [realm|El].\n\nSi vous vous en sortez bien, vous ferez pencher l’[scales_of_power|El] en votre faveur."
+
+ ra_regency_regent_ending:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_ending_desc:0 "Si les conditions qui ont déclenché la [regency|El] ne sont plus d’actualité, votre [liege|El] peut essayer d’y mettre fin.\n\nSi l’[scales_of_power|El] penche fortement en votre faveur, vous pourrez peut-être refuser et déclarer une [war|El] pour obtenir son [primary_title|El] !"
+
+ ra_regency_regent_conclusion:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_conclusion_desc:0 "En tant que [regent|El], vous pourriez faire usage de vos [diarch_powers|El] contre votre [liege|El] ou vos pairs [vassals|El].\n\nSi vous ne souhaitez pas contrarier votre seigneur lige, vous pouvez simplement réagir à ce qui se présente et votre seigneur pourrait vous récompenser pour votre loyauté !"
+
+
+# Prepare by setting a Regent
+ REACTIVE_ADVICE_FUTURE_REGENT:0 "Futur régent"
+ action_reactive_advice_set_future_regent:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_FUTURE_REGENT$"
+ action_reactive_advice_set_future_regent_desc:1 "Si vous n’êtes plus en mesure de régner, un régent le fera à votre place. Ouvrez ceci pour savoir comment contrôler qui sera votre régent."
+ action_reactive_advice_set_future_regent_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_set_future_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+
+ ra_regency_future_regent_intro:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_intro_desc:0 "À l’avenir, vous pourriez devenir incapable de gouverner votre [realm|El], auquel cas une [regency|El] débutera.\n\nAvant que cela n’arrive, vous pouvez voir votre potentiel [regent|El] et même en désigner un !\n\n$REACTIVE_ADVICE_YOU_REGENCY_REASONS$"
+
+ ra_regency_future_regent_open_realm_panel:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_realm_panel_desc:0 "Prévisualisons votre future [regency|El] ! Vous pouvez la voir dans la vue Pays."
+ ra_regency_future_regent_open_realm_panel_prompt:0 "Ouvrez la vue Pays (mise en avant)"
+
+ ra_regency_future_regent_open_UI:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_UI_desc:1 "Le statut de votre [regency|El] s’affiche ici, en haut de la vue Pays."
+ ra_regency_future_regent_open_UI_prompt:1 "Ouvrir la vue Régence (mise en avant)"
+
+ ra_regency_future_regent_open_tab:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_tab_desc:0 "Votre futur [regent|El] est affiché dans l’onglet $DIARCHY_WINDOW_YOUR_TAB$."
+ ra_regency_future_regent_open_tab_prompt:0 "$ra_regency_liege_open_tab_prompt$"
+
+ ra_regency_future_regent_current_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_current_regent_desc:0 "Votre futur [regent|El] est affiché ici.\n\nSi vous n’en désignez pas, le candidat ayant le plus haut [regent_succession_score|El] sera choisi."
+
+ ra_regency_future_regent_swap_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_swap_regent_desc:0 "Vous pouvez désigner un [regent|El] en utilisant ce bouton.\n\nVous devriez essayer de trouver un régent qui a une [diarch_loyalty|El] et une [Concept( 'diarch_aptitude', 'compétence' )|E] élevées."
+
+ ra_regency_future_regent_succession:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_succession_desc:0 "Si votre [regent|El] actuel meurt ou est incapable d’agir en tant que [regent|El], le personnage suivant dans l’ordre de succession prendra sa place."
+
+ ra_regency_future_regent_conclusion:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_conclusion_desc:0 "Envisagez de désigner un [regent|El] si vous voulez avoir plus de contrôle sur le personnage qui gouvernera à votre place."
+
+
+# Travel Planning
+ REACTIVE_ADVICE_TRAVEL_PLANNING:0 "Planification du voyage"
+ action_reactive_advice_travel_planning:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ action_reactive_advice_travel_planning_desc:0 "Vous êtes sur le point de voyager, ouvrez ceci pour en savoir plus sur la planification de votre voyage."
+ action_reactive_advice_travel_planning_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_travel_planning:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+
+ ra_travel_planning_intro:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_intro_desc:0 "Vous êtes sur le point de [Concept('travel','voyager')|E] loin de votre lieu actuel. Avant de partir, vous devez planifier votre voyage."
+
+ ra_travel_planning_entourage:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_entourage_desc:0 "Vous [Concept('travel','voyagez')|E] rarement seul ; les [characters|El] qui voyagent avec vous sont votre [entourage|El].\n\nCes personnages vous rejoindront également souvent à votre destination."
+
+ ra_travel_planning_speed_safety:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_speed_safety_desc:0 "Il y a deux principaux facteurs à considérer lors de la planification de votre [travel|El] : la [travel_speed|El] et la [travel_safety|El].\n\nLa vitesse de base est de 100 % et une vitesse élevée signifie que vous arrivez à destination plus rapidement.\n\nLa sécurité contrecarre les [Concept('travel_danger','dangers')|E] que vous pourriez rencontrer en chemin. Une sécurité élevée signifie que vous et votre [entourage|El] pouvez traverser des zones dangereuses avec moins de risques."
+
+ ra_travel_planning_caravan_master:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_caravan_master_desc:0 "Vous pouvez désigner un [GetCourtPositionType('travel_leader_court_position').GetName()|l] ; un [court_position|El] qui vous accompagnera sur tous vos [travels|El].\n\nIl a un impact important sur votre [travel_speed|El] et votre [travel_safety|El], vous voudrez donc généralement quelqu’un à ce poste pour les longs trajets."
+
+ ra_travel_planning_travel_options:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_travel_options_desc:0 "Vous pouvez également choisir jusqu’à deux [travel_options|El] pour ce voyage.\n\nLes options de voyage coûtent généralement de l’[gold|El] et offrent divers avantages, principalement de la [travel_speed|El] et de la [travel_safety|El].\n\nDe nombreuses options réduisent le [travel_danger|El] pour des types spécifiques de [terrain|El] sur votre trajet. Chaque type de danger dans un lieu est affiché sur la carte avec une couleur unique. Tous les dangers que vous pourriez rencontrer sont également affichés sous forme d’icônes sur votre itinéraire."
+
+ ra_travel_planning_custom_route:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_custom_route_desc:0 "Enfin, vous pouvez personnaliser votre itinéraire pour contourner le [travel_danger|El] sur le chemin, au lieu d’aller directement à votre destination."
+
+ ra_travel_planning_conclusion:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_conclusion_desc:0 "Avant de partir, vérifiez le temps de trajet total et qu’il y a peu de [travel_danger|El] sur votre parcours.\n\nVoyagez en toute sécurité !"
+
+# Create Accolade
+ REACTIVE_ADVICE_CREATE_ACCOLADE:0 "Distinctions"
+
+ reactive_advice_create_accolade:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+
+ ra_create_accolade_knights_panel:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_knights_panel_desc:0 "Vous pouvez maintenant accorder une [accolade|El] à l’un de vos [knights|El] !\n\nChaque chevalier qui détient une distinction devient un [acclaimed_knight|El], et donne des bonus à vous et à vos [armies|El].\n\nLa distinction restera jusqu’à ce que vous la détruisiez et sera transmise aux futurs chevaliers via la [accolade_succession|El]."
+ ra_create_accolade_knights_panel_prompt:0 "Sélectionnez une distinction non attribuée (mise en avant)"
+
+ ra_create_accolade_candidates:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_candidates_desc:0 "Lorsque vous créez une [accolade|El], vous choisissez l’un de vos [knights|El] valides dans la liste."
+ ra_create_accolade_candidates_prompt:0 "Choisissez un candidat dans la liste (mis en avant)"
+
+ ra_create_accolade_attributes:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_attributes_desc:0 "Chaque [acclaimed_knight|El] a deux [accolade_types|El] (mis en avant), un primaire et un secondaire. Avant de créer la [accolade|El], ces attributs sont affichés pour chaque candidat.\n\nChaque attribut vous donne, à vous et à vos [armies|El], divers bonus, à mesure que la distinction gagne en [glory|El]. La gloire s’acquiert en participant à des [contests|El] de [GetActivityType( 'activity_tournament' ).GetName()|l] et des [battles|El].\n\nL’attribut primaire fait toujours partie de la [accolade|El], et ne peut pas être modifié lors de la [accolade_succession|El]."
+   
+ ra_create_accolade_conclusion:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_conclusion_desc:0 "Vous pouvez maintenant créer cette [accolade|El] si vous voulez.\n\nPlus de distinctions seront disponibles au fur et à mesure que votre [culture|El] découvre les [innovations|El]."

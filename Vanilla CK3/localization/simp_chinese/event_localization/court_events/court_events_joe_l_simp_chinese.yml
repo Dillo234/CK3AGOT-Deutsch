@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
  # # Trampled Underfoot
  court.8001.t:0 "踩在脚下"
- court.8001.desc.intro:0 "“跟你说过多少次了，离那些#EMP 刚种下的[ROOT.Char.Custom('get_region_flower_type_plural')]#!#EMP 远点？！#!”\n\n我听着像是我的园丁[gardener.GetTitledFirstName]在怒吼？我转过身，只见[gardener.GetHerHim]正从[child_1.Custom2('MyCharacterIntroduction', ROOT.Char)]的后颈揪着[child_1.GetHerHis]顺着走廊向我走来。\n\n这孩子身上沾满了花瓣和尘土，正伸手一通乱舞，但就是够不着[gardener.GetFirstNamePossessiveNoTooltip]的胳膊：“放我下来！我……我要找[ROOT.Char.GetTitleAsNameNoTooltip]告你！”\n\n我的园丁将[gardener.GetHerHis]拎着的“货物”重重地丢到我跟前，“这该死的[child_1.Custom('GirlBoy')]践踏了我的所有努力，[ROOT.Char.GetLadyLord]！要花上#EMP 好几周#!才能修复损坏……”\n\n[child_1.GetFirstNameNoTooltip]拭去从[child_1.GetHerHis]眼中流下的泪水，温驯地啜泣道："
+ court.8001.desc.intro:1 "“跟你说过多少次了，离那些#EMP 刚种下的[ROOT.Char.GetCapitalLocation.Custom('get_region_flower_type_plural')]#!#EMP 远点？！#!”\n\n我听着像是我的园丁[gardener.GetTitledFirstName]在怒吼？我转过身，只见[gardener.GetHerHim]正从[child_1.Custom2('MyCharacterIntroduction', ROOT.Char)]的后颈揪着[child_1.GetHerHis]顺着走廊向我走来。\n\n这孩子身上沾满了花瓣和尘土，正伸手一通乱舞，但就是够不着[gardener.GetFirstNamePossessiveNoTooltip]的胳膊：“放我下来！我……我要找[ROOT.Char.GetTitleAsNameNoTooltip]告你！”\n\n我的园丁将[gardener.GetHerHis]拎着的“货物”重重地丢到我跟前，“这该死的[child_1.Custom('GirlBoy')]践踏了我的所有努力，[ROOT.Char.GetLadyLord]！要花上#EMP 好几周#!才能修复损坏……”\n\n[child_1.GetFirstNameNoTooltip]拭去从[child_1.GetHerHis]眼中流下的泪水，温驯地啜泣道："
  court.8001.desc.diplomacy:0 "“他们在追我！我从没输过#EMP 那个#!游戏！"
  court.8001.desc.martial:0 "“我只是在躲避那些士兵……我们必须伏击才能获胜！”"
  court.8001.desc.stewardship:0 "“这不是我的错！[gardener.GetSheHe|U]把花放到我们的小城堡上了！”"
@@ -67,10 +67,10 @@
  court.8040.desc.knight:1 "英勇的[knight.GetName]——我杰出的[ROOT.Char.Custom('MountedWarriorTerm')|U]；"
  court.8040.desc.relative:1 "[relative.GetName]——我自命不凡的亲戚；"
  court.8040.desc.ambitious:1 "渴求权力的[ambitious.GetName]——一直追名逐利；"
- court.8040.desc.arrogant:1 "目空一切的[arrogant.GetName]——眼高于顶；"
+ court.8040.desc.arrogant:1 "目空一切的[arrogant.GetName]——眼睛长在脑门上；"
  court.8040.desc.lowborn:1 "白手起家的[lowborn.GetName]——不放过一切机会；"
  court.8040.desc.gentry:1 "傲慢的[gentry.GetName]——来自显赫的[gentry.GetHouse.GetName]家族；"
- court.8040.desc.generic_1:1 "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_1'))][generic_1.GetName]——很高兴能参与其中；"
+ court.8040.desc.generic_1:1 "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_1'))][generic_1.GetName]——能参与其中就很高兴；"
  court.8040.desc.generic_2:1 "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_2'))][generic_2.GetName]——守卫是这么叫[generic_2.GetHerHim]的；"
  court.8040.desc.generic_3:1 "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_3'))][generic_3.GetName]——一个很容易被人遗忘的走卒；"
  court.8040.desc.body:0 "还有一位扎眼的缺席者：一丝一毫的谦卑之心。\n\n在廷臣们闲谈的嘈杂声中，我清晰地听出了几个词：“[worst_title.GetTierAsNameNoTooltip]”和“[worst_title.GetNameNoTier]”——我敢肯定那是[button.GetFirstNamePossessiveNoTooltip]矫情的腔调。\n\n这无耻的三人组转过来看向我，而我则狠狠瞪了他们一眼。"

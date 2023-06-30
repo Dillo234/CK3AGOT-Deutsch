@@ -113,11 +113,14 @@
  faith_conversion_cost_conversion_blocked_till_decision_taken:0 "[decision|E]을 통해 [faith|E]을 잠금 해제해야 함"
  faith_conversion_cost_conversion_blocked_till_nebulous_circumstances:0 "#EMP 불가사의한 상황#!을 통해 [faith|E]을 잠금 해제해야 함"
  faith_conversion_cost_unreformed_to_organized:0 "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] 교리를 도입한 [faith|E]이 [organized|E] [faith]으로 개종"
+ faith_reformation_via_decision:0 "해당 [faith|E]은 [decision|E]을 통해서만 개혁 가능"
 
  MINIMUM_FAITH_CONVERSION_PIETY_COST:0 "최소 비용: [GetLocalPlayerPietyTextIcon]$VALUE|V$"
 
  faith_conversion_cost_fervor_difference:0 "[fervor|E]의 차이"
  faith_creation_cost_fervor_impact:0 "현재 [fervor|E]의 영향"
+
+ faith_conversion_cost_witch_event:0 "[faith|E]의 마술을 공부함"
 
  #Holy Sites: Christian
  holy_site_jerusalem_name:0 "예루살렘"
@@ -129,7 +132,7 @@
  holy_site_cologne_effect_name:0 "[holy_site|E]의 효과 #weak ($holy_site_cologne_name$)#!"
  holy_site_santiago_name:0 "산티아고"
  holy_site_santiago_effect_name:0 "[holy_site|E]의 효과 #weak ($holy_site_santiago_name$)#!"
- holy_site_kent_name:0 "켄터베리"
+ holy_site_kent_name:0 "캔터베리"
  holy_site_kent_effect_name:0 "[holy_site|E]의 효과 #weak ($holy_site_kent_name$)#!"
  holy_site_segrada_familia_name:0 "사그라다 파밀리아 성당"
  holy_site_segrada_familia_effect_name:0 "[holy_site|E]의 효과 #weak ($holy_site_segrada_familia_name$)#!"
@@ -240,6 +243,10 @@
  holy_site_kochi_effect_name:0 "[holy_site|E]의 효과 #weak ($holy_site_kochi_name$)#!"
  holy_site_manipur_name:0 "마니푸르"
  holy_site_manipur_effect_name:0 "[holy_site|E]의 효과 #weak ($holy_site_manipur_name$)#!"
+ holy_site_hamadan_name:0 "하마단"
+ holy_site_hamadan_effect_name:0 "[holy_site|E]의 효과 #weak ($holy_site_hamadan_name$)#!"
+ holy_site_babylon_name:0 "바빌론"
+ holy_site_babylon_effect_name:0 "[holy_site|E]의 효과 #weak ($holy_site_babylon_name$)#!"
 
  #Holy Sites: Dualism
  holy_site_khozistan_name:0 "후제스탄"
@@ -620,6 +627,8 @@
  doctrine_deviancy_shunned_desc:0 "세간에는 누가 봐도 이상야릇한 성행위들이 있습니다. 당연히 이런 걸 원하는 사람들은 이상한 사람일 수밖에 없습니다."
  doctrine_deviancy_accepted_name:0 "용인"
  doctrine_deviancy_accepted_desc:0 "사랑은 어떤 형태이건 아름답고 성스러운 법입니다. 모든 이들은 원하는 대로 사랑하고 행동할 수 있어야 합니다."
+ doctrine_deviancy_virtuous_name:0 "고결"
+ doctrine_deviancy_virtuous_desc:0 "육신의 쾌락은 인간과 신 사이의 거리를 좁혀줍니다. 그러니, 인습적인 욕망이란 굴레를 벗어던진 이들은 덕행이 극치에 이르렀다고 할 수 있습니다."
  doctrine_parameter_deviancy_illegal:0 "[GetTrait('deviant').GetName( GetPlayer )] [trait|E]을 가진 인물은 [criminals|E]가 됨"
  doctrine_parameter_deviancy_shunned:0 "[GetTrait('deviant').GetName( GetPlayer )] [trait|E]을 가진 인물은 [Concept( 'shunned', '지탄받음' )|E]"
  doctrine_parameter_deviancy_accepted:0 "[GetTrait('deviant').GetName( GetPlayer )] [trait|E]을 가진 인물은 완전히 용인됨"
@@ -631,9 +640,13 @@
  doctrine_witchcraft_shunned_desc:0 "이 세상의 초월적 힘을 다룰 수 있는 정당한 권리는 신께만 존재합니다. 그래서 이러한 힘을 필멸자가 다루려고 하는 것은 곧 본질적으로 잘못된 길을 가는 것입니다."
  doctrine_witchcraft_accepted_name:0 "용인"
  doctrine_witchcraft_accepted_desc:0 "마법은 우리 세계를 가득 채운 것으로 우리 조상들이 그러셨듯, 마법을 활용하는 것은 곧 우리의 권리이자 특권입니다."
+ doctrine_witchcraft_virtuous_name:0 "고결"
+ doctrine_witchcraft_virtuous_desc:0 "마술을 수련한다는 것은 영혼을 위험한 악령들 앞에 내놓는 것과 같은 행위입니다. 영혼이 더럽혀지지 않도록 지켜나가는 이 용감한 행위로 미루어 보았을 때, 마녀는 존경받아 마땅합니다."
  doctrine_parameter_witchcraft_illegal:0 "[GetTrait('witch').GetName( GetPlayer )] [trait|E]을 가진 인물은 [criminals|E]가 됨"
  doctrine_parameter_witchcraft_shunned:0 "[GetTrait('witch').GetName( GetPlayer )] [trait|E]을 가진 인물은 [Concept( 'shunned', '지탄받음' )|E]"
  doctrine_parameter_witchcraft_accepted:0 "[GetTrait('witch').GetName( GetPlayer )] [trait|E]을 가진 인물은 완전히 용인됨"
+ witchcraft_illegal_name:0 "비범법적인 마녀술 도덕"
+ witchcraft_shunned_name:0 "추방된 마녀술 도덕"
  
  doctrine_head_of_faith_name:0 "교계 지도자"
  doctrine_head_of_faith_desc:0 "[head_of_faith|E]는 [faith|E]의 지도자입니다."
@@ -862,7 +875,7 @@
  divine_destiny_name:0 "신성한 운명"
  divine_destiny_doctrine_name:0 "세상의 정당한 지배자"
  divine_destiny_doctrine_desc:0 "우린 온 세상 사람들에게 평화와 번영의 시대를 열어줄 사람입니다. 우리야말로 이 세상의 정당한 지배자입니다."
- doctrine_parameter_divine_destiny_holy_war_cost_reduction:0 "성전 [piety|e] 비용: #P -50%#!"
+ doctrine_parameter_divine_destiny_holy_war_cost_reduction:0 "성전 [piety|E] 비용: #P -50%#!"
  
  adoptionist_school_name:0 "기독교 양자론 교리"
  special_doctrine_adoptionist_school_elipandic_doctrine_name:0 "엘리판딕 종파"
@@ -886,6 +899,13 @@
  is_jewish_faith_name:0 "$special_doctrine_is_jewish_faith_name$"
  special_doctrine_is_jewish_faith_desc:0 "고귀한 이들이 모두 죄악 속에 묻혀 사는 건 아닙니다. 신의 선택을 받은 민족에게 존경을 표하는 이들도 있으니 우리도 그들에게 존경을 표할 필요가 있습니다."
  doctrine_parameter_hostility_override_tenet_jewish_syncretism:3 "$tenet_jewish_syncretism_name$ 원리를 가진 비유대교 [faiths|E]이 $hostility_evil_tooltippable$ 신앙이 아닌 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 신앙으로 간주됨"
+
+ prophecy_of_malachi_name:0 "말라기 예언"
+ special_doctrine_not_allowed_to_hof_name:0 "해체된 사제단"
+ not_allowed_to_hof_name:0 "$special_doctrine_not_allowed_to_hof_name$"
+ prophecy_of_malachi_desc:0 "전통적인 유대교 교리에서, 신임 대사제는 선지자가 도래하거나 사제의 자격을 갖춘 아론의 직계 후손이 발견됐을 경우에만 서임될 수 있습니다."
+ special_doctrine_not_allowed_to_hof_desc:0 "해당 신앙의 대사제단은 완전히 해체된 상태입니다. 대사제를 임명하려면 우선 종래의 종교 구조를 철저하게 재건해야 합니다."
+ doctrine_parameter_block_from_create_hof_parameter:0 "해당 신앙은 일반적인 상황에서 [head_of_faith|E]를 재생성할 수 없음"
 
  special_doctrine_is_eastern_faith_name:0 "여러 종교의 화합"
  is_eastern_faith_name:0 "$special_doctrine_is_eastern_faith_name$"
@@ -984,3 +1004,24 @@
  hostility_astray_tooltippable:0 "[GetHostilityLevelName( '(int32)1' )|V]"
  hostility_hostile_tooltippable:0 "[GetHostilityLevelName( '(int32)2' )|V]"
  hostility_evil_tooltippable:0 "[GetHostilityLevelName( '(int32)3' )|V]"
+
+
+ doctrine_pilgrimage_name:0 "순례에 대한 관점"
+ doctrine_pilgrimage_forbidden_name:0 "금지"
+ doctrine_pilgrimage_forbidden_desc:0 "[ROOT.Faith.HighGodName]의 존재는 어디서나 느낄 수 있으며, 어느 한 장소가 다른 곳보다 신성성이 강하다는 발상은 실질적인 이단으로 여겨집니다."
+ doctrine_pilgrimage_encouraged_name:0 "장려"
+ doctrine_pilgrimage_encouraged_desc:0 "해당 신앙은 신자들에게 영적으로 중요한 속세의 장소를 방문하도록 장려하고 있습니다. 즉 순례란 [ROOT.Faith.PantheonTerm](을)를 향한 신실함을 행동으로 증명하는 것과 같습니다."
+ doctrine_pilgrimage_mandatory_name:0 "필수"
+ doctrine_pilgrimage_mandatory_desc:0 "사지 멀쩡한 [ROOT.Faith.GetAdherentNamePlural](이)라면 누구나 최대한 빨리 성지 순례를 마쳐야 합니다. 순례를 완수하지 못하면 [ROOT.Faith.HighGodName](을)를 향한 헌신을 보여주는 데 실패한 것으로 간주됩니다."
+ doctrine_pilgrimage_mandatory_hajj_name:0 "핫즈"
+ doctrine_pilgrimage_mandatory_hajj_desc:0 "사지 멀쩡한 무슬림이라면 누구나 일생에 한 번 메카를 찾아가는 핫즈를 완료해야 합니다. 특별한 예외가 자주 발생하곤 하지만 핫즈를 완수하지 못한 [ROOT.Faith.GetAdherentNameNoTooltip](은)는 회의적인 눈총을 받게 됩니다."
+ forbidden_from_pilgrimage_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_forbidden_name$"
+ doctrine_parameter_forbidden_from_pilgrimage:0 "[pilgrimage|E] [activity|E] 이용 불가"
+ can_go_on_pilgrimage_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_encouraged_name$"
+ doctrine_parameter_can_go_on_pilgrimage:0 "[pilgrimage|E] [activity|E] 이용 가능"
+ mandatory_pilgrimage_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_mandatory_name$"
+ doctrine_parameter_mandatory_pilgrimage:1 "[GetTrait('pilgrim').GetName( GetNullCharacter )] [trait|E]은 추가 보너스를 제공하며, [pilgrimage|E] [activity|E] 완료 시 [piety|E]를 추가로 획득합니다."
+ mandatory_hajj_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_mandatory_name$"
+ doctrine_parameter_mandatory_hajj:1 "[GetTrait('hajjaj').GetName( GetNullCharacter )] [trait|E]은 추가 보너스를 제공하며, [hajj|E] [activity|E] 완료 시도 [piety|E]를 추가로 획득합니다."
+ doctrine_parameter_basic_pilgrimage_rewards:0 ""
+

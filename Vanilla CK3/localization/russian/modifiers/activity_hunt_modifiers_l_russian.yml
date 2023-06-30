@@ -3,7 +3,7 @@
  held_hunt_modifier_desc:0 "Этот персонаж недавно устраивал охоту, а потому не может сделать это вновь до указанной даты."
  
  hunt_punished_locals_modifier:0 "Наказанные браконьеры"
- hunt_punished_locals_modifier_desc:0 "Жители этого графства виновны в том, что покрывают браконьеров, заполонивших леса."
+ hunt_punished_locals_modifier_desc:1 "Жители этого графства виновны в том, что покрывают браконьеров, заполонивших леса.\n#weak $hunt_modifier_success_slightly_improved_location_tt$#!\n"
  
  hunt_poacher_training_modifier:0 "Обучение у браконьеров"
  hunt_poacher_training_modifier_desc:0 "Этого персонажа браконьеры обучили охоте."
@@ -18,10 +18,14 @@
  modifier_hunt_friend_of_animal_desc:0 "Этот персонаж обладает необъяснимой способностью общаться с животными."
  
  hunt_guide_local_madman_modifier:0 "Местный проводник"
+ hunt_guide_local_madman_modifier_desc:2 "Владелец болота познакомил этого персонажа со своими владениями во время охоты.\n#weak $hunt_modifier_success_slightly_improved_location_tt$#!\n"
+ hunt_guide_local_madman_modifier_custom_desc:0 "Владелец болота познакомил этого персонажа со своими владениями во время охоты.\n#weak Пока действует этот модификатор, [Concept( 'hunt_success_chance', 'шанс успеха вашей охоты' )|E] во владении [SCOPE.sTitle('activity_place').GetNameNoTier] будет #positive_value немного выше#!#!\n"
 
  hunt_killed_local_madman_modifier:1 "Убит местный житель"
+ hunt_killed_local_madman_modifier_desc:0 "Известный обитатель болота в этом графстве был убит фанатичным охотником."
  
  hunt_talked_to_madman_modifier:1 "Проблемы местных жителей услышаны"
+ hunt_talked_to_madman_modifier_desc:0 "Население этого графства довольно тем, что охотящаяся знать выслушала их жалобы."
 
  hunt_peasants_denied_forest_modifier:0 "Лес закрыт для крестьян"
  hunt_peasants_denied_forest_modifier_desc:0 "Крестьянам этого графства запретили добывать себе пропитание в лесах."
@@ -51,28 +55,129 @@
  hunt_mediated_fight_modifier_desc:0 "Этот человек успешно разрешил конфликт между двумя людьми, что стало ценным уроком."
 
  hunt_protected_peasants_modifier:0 "Крестьяне под защитой"
- hunt_protected_peasants_modifier_desc:0 "Крестьяне этого графства чувствуют себя защищенными."
+ hunt_protected_peasants_modifier_desc:1 "Крестьяне этого графства чувствуют себя в безопасности."
 
  hunt_disturbed_locals_modifier:0 "Потревоженные местные"
- hunt_disturbed_locals_modifier_desc:0 "Местные в этом графстве хотят одного: чтобы их оставили в покое."
+ hunt_disturbed_locals_modifier_desc:1 "Местные в этом графстве хотят одного: чтобы их оставили в покое."
 
  hunt_focused_effort_modifier:0 "Сосредоточенность на охоте"
- hunt_focused_effort_modifier_desc:0 "Этот персонаж всецело посвящает себя охоте."
+ hunt_focused_effort_modifier_desc:1 "Этот персонаж всецело посвящает себя охоте."
 
  hunt_treated_injury_modifier:0 "Практика полевой хирургии"
- hunt_treated_injury_modifier_desc:0 "Этот персонаж недавно проводил утомительные медицинские процедуры."
+ hunt_treated_injury_modifier_desc:1 "Этот персонаж недавно проводил утомительные медицинские процедуры."
 
  hunt_tasted_the_belt_modifier:0 "Наказание ремнем"
- hunt_tasted_the_belt_modifier_desc:0 "У этого персонажа вся спина в синяках"
+ hunt_tasted_the_belt_modifier_desc:1 "У этого персонажа вся спина в синяках"
 
  hunt_treated_wound_modifier:0 "Перевязанные раны"
- hunt_treated_wound_modifier_desc:0 "О ранах этого персонажа позаботились — так или иначе."
-
+ hunt_treated_wound_modifier_desc:1 "О ранах этого персонажа умело позаботились."
+ 
  hunt_chose_truth_modifier:0 "Смиренная честность"
- hunt_chose_truth_modifier_desc:0 "Этот персонаж сказал правду в ущерб себе."
+ hunt_chose_truth_modifier_desc:1 "Этот персонаж сказал правду в ущерб себе."
 
  hunt_mystical_animal_modifier:0 "Охота за мистическим животным"
- hunt_mystical_animal_modifier_desc:0 "Этот персонаж охотился и убил загадочного зверя с белой шкурой."
+ hunt_mystical_animal_modifier_desc:2 "Этот персонаж выследил и убил загадочного зверя."
 
  hunt_protected_their_secret_modifier:0 "Защищает тайны"
  hunt_protected_their_secret_modifier_desc:0 "Этот персонаж старается не раскрывать свои карты"
+
+ hunt_sighting_standard_modifier:0 "Замечена дичь"
+ hunt_sighting_standard_modifier_desc:1 "В этом графстве заметили стаю многообещающей дичи.\n#weak [Concept( 'hunt_success_chance', 'Шанс успеха' )|E] охоты в этом [Concept( 'county', 'графстве' )|E] увеличен.#!"
+ hunt_sighting_standard_modifier_custom_desc:1 "В этом графстве замечены многочисленные [SCOPE.sTitle('sighting_county').Custom('GetAnimalPlural')|l].\n#weak Увеличивает [Concept( 'hunt_success_chance_no_prefix', 'шанс успеха' )|E] охоты на такого зверя, как [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')]#!"
+ 
+ hunt_sighting_dangerous_modifier:0 "Замечен зверь"
+ hunt_sighting_dangerous_modifier_desc:1 "По слухам, это графство терроризирует свирепый зверь.\n#weak [Concept( 'hunt_success_chance', 'Шанс успеха' )|E] охоты в этом [Concept( 'county', 'графстве' )|E] увеличен.#!"
+ hunt_sighting_dangerous_modifier_custom_desc:1 "По слухам, это графство терроризирует свирепый [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')|l].\n#weak Увеличивает [Concept( 'hunt_success_chance_no_prefix', 'шанс успеха' )|E] охоты на такого зверя, как [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')]#!"
+
+ hunt_sighting_legendary_modifier:0 "Замечена легендарная дичь"
+ hunt_sighting_legendary_modifier_desc:2 "По слухам, в этом графстве заметили мифического зверя.\n#weak $hunt_type_legendary$ [GetActivityType('activity_hunt').GetTextIcon]«[GetActivityType('activity_hunt').GetName]» может пройти в этом [Concept( 'county', 'графстве' )|E].#!"
+ hunt_sighting_legendary_modifier_custom_desc:1 "По слухам, в этом графстве замечен загадочный [SCOPE.sTitle('sighting_county').Custom('GetLegendaryColor')|l] [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')|l].\n#weak [GetActivityType('activity_hunt').GetName|U] с легендарным размахом может пройти в этом [Concept( 'county', 'графстве' )|E] ([SCOPE.sTitle('sighting_county').Custom('GetLegendaryColor')|UV] [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')|UV])"
+ 
+ hunt_sighting_falconry_modifier:0 "Замечены птицы"
+ hunt_sighting_falconry_modifier_desc:0 "Миграция или размножение птиц делает это графство идеальным местом для соколиной охоты.\n#weak $hunt_type_falconry$ имеет увеличенный [hunt_success_chance|El] в этом [Concept( 'county', 'графстве' )|E].#!"
+ hunt_sighting_falconry_modifier_custom_desc:1 "Размножающиеся или мигрирующие [SCOPE.sTitle('sighting_county').Custom('GetAnimalPlural')|l] делают это графство идеальным местом для соколиной охоты.\n#weak Увеличивает [Concept( 'hunt_success_chance_no_prefix', 'шанс успеха' )|E] охоты на такого зверя, как [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')]#!"
+ 
+ hunt_heir_murder_exposed_modifier:0 "Справедливость для крестьян"
+ hunt_heir_murder_exposed_modifier_desc:1 "Этот персонаж ценит справедливость выше, чем репутацию придворного."
+ 
+ hunt_disrespected_locals_modifier:0 "Неуважение местных"
+ hunt_disrespected_locals_modifier_desc:0 "Охотники оскорбили чувства простолюдинов из этого графства."
+ 
+ hunt_happy_hounds_modifier:0 "Довольные гончие"
+ hunt_happy_hounds_modifier_desc:1 "Охотничьи псы этого персонажа получают достойное поощрение.\n#weak $hunt_modifier_success_slightly_improved_tt$#!\n\n"
+ 
+ hunt_savage_hounds_modifier:0 "Свирепые гончие"
+ hunt_savage_hounds_modifier_desc:1 "Гончие этого персонажа славятся способностью свалить могучую дичь.\n#weak $hunt_modifier_success_slightly_improved_tt$#!\n\n"
+ 
+ hunt_savaged_hounds_modifier:0 "Растерзанные гончие"
+ hunt_savaged_hounds_modifier_desc:1 "Псарни этого персонажа опустели после травли зверей гончими.\n#weak $hunt_modifier_success_slightly_worse_tt$#!\n\n"
+ 
+ crushed_by_boulder_modifier:0 "Смерть под булыжником"
+ crushed_by_boulder_modifier_desc:0 "Бахвальство подвело этого персонажа, когда его раздавил катящийся булыжник, через который он пытался перепрыгнуть."
+ 
+ hunt_blooming_garden_modifier:0 "Цветущий сад"
+ hunt_blooming_garden_modifier_desc:0 "Сад этого персонажа украшен дикими цветами, найденными во время недавней охоты."
+ 
+ hunt_stocked_medicus_modifier:0 "Обеспеченный медик"
+ hunt_stocked_medicus_modifier_desc:0 "Врач этого персонажа располагает большими запасами лекарственных трав, как редких, так и распространенных."
+ 
+ hunt_witch_protector_modifier:0 "Обеспокоенный пастырь"
+ hunt_witch_protector_modifier_desc:0 "Этот персонаж проявил живой интерес к защите своих братьев и сестер."
+ 
+ hunt_left_in_trap_modifier:0 "Оставили в ловушке"
+ hunt_left_in_trap_modifier_desc:0 "Этого персонажа оставили в охотничьей ловушке куда дольше, чем полезно для здоровья."
+ 
+ hunt_punished_trappers_modifier:0 "Наказанные звероловы"
+ hunt_punished_trappers_modifier_desc:0 "Охотничьи ловушки, установленные крестьянами этого графства, вызвали гнев его владельца."
+ 
+ hunt_witch_suspicion_modifier:0 "Подозрение в ведовстве"
+ hunt_witch_suspicion_modifier_desc:0 "Интерес этого персонажа к природе заставляет сомневаться в его верности истинному богу."
+ 
+ hunt_mismanaged_game_modifier:0 "Чрезмерная охота"
+ hunt_mismanaged_game_modifier_desc:0 "Охота на ланей сократила численности дичи в этом графстве.\n#weak Будущий [hunt_success_chance|El] на это животное в этом [Concept( 'county', 'графстве' )|E] будет #negative_value слегка снижен#!#!"
+ hunt_mismanaged_game_modifier_custom_desc:0 "Этот персонаж поймал олененка и выдрессировал его так, чтобы обманывать его диких родичей.\n#weak Будущий [hunt_success_chance|El] на такое животное, как [ROOT.Char.Custom('GetAnimalTypeMismanaged')|UVl], в этом [Concept( 'county', 'графстве' )|E] будет #negative_value слегка снижен#!#!"
+
+ hunt_tame_deer_modifier:0 "Ручной олененок"
+ hunt_tame_deer_modifier_desc:0 "Этот персонаж поймал олененка и выдрессировал его так, чтобы обманывать его диких родичей.\n#weak Будущий [hunt_success_chance|El] на это животное будет #positive_value слегка увеличен#!#!\n"
+ hunt_tame_deer_modifier_custom_desc:0 "Этот персонаж поймал олененка и выдрессировал его так, чтобы обманывать его диких родичей.\n#weak Будущий [hunt_success_chance|El] на такое животное, как [ROOT.Char.Custom('GetAnimalTypeTame')|UVl], будет #P слегка увеличен#!#!"
+
+ hunt_captive_beast_modifier:0 "Пойманный зверь"
+ hunt_captive_beast_modifier_desc:0 "Этот персонаж поймал опасного зверя и выставил его на всеобщее обозрение.\n#weak Можно устроить охоту «[GetActivityType('activity_hunt').GetName]» на это животное с #P высоким#! [Concept( 'hunt_success_chance_no_prefix', 'шансом на успех' )|E]\n"
+ hunt_captive_beast_modifier_custom_desc:0 "В плену у этого персонажа находится [ROOT.Char.Custom('GetAnimalAdjectiveCaptive')|l] [ROOT.Char.Custom('GetAnimalTypeCaptive')|l], выставленный на всеобщее обозрение.\n#weak Можно устроить охоту «[GetActivityType('activity_hunt').GetName]» на такое животное, как [ROOT.Char.Custom('GetAnimalTypeCaptive')|UV], с #P высоким#! [Concept( 'hunt_success_chance_no_prefix', 'шансом на успех' )|E]"
+
+ dog_story_scenthound_modifier:0 "Ищейка"
+ dog_story_scenthound_modifier_desc:1 "Верная собака, обученная выслеживать дичь, всюду следует за этим персонажем.\n#weak Немного увеличивает [Concept( 'hunt_success_chance', 'шанс успеха охоты' )|E]#!"
+ dog_story_beasthound_modifier:0 "Бойцовый пес"
+ dog_story_beasthound_modifier_desc:1 "Верная собака, обученная сражаться с опасными зверями, всюду следует за этим персонажем.\n#weak Немного увеличивает [hunt_success_chance|El] #! на [Concept( 'hunt_dangerous', 'опасных' )|E] зверей"
+
+ hunt_success_chance.trait:0 "[Concept( 'trait_level_track_xp', 'Опыт пути развития свойства' )|E] «[GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]»"
+ hunt_success_chance.terrain:0 "[ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly] — сплошь [ROOT.Activity.GetCurrentPhase.GetLocation.GetTerrain.GetName]"
+ hunt_success_chance.development:0 "Высокое [Concept( 'development', 'развитие' )|E] во владении [ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]"
+ hunt_success_chance.no_holding:0 "Нет [Concept( 'holding', 'владения' )|E] в области [ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]"
+ hunt_success_chance.master_of_hunt:0 "[Concept( 'aptitude', 'Пригодность' )|E] для должности главного охотника"
+ hunt_success_chance.hunt_option_attendants:0 "[Concept( 'activity_option', 'Мнение' )|E] участников охоты"
+ hunt_success_chance.forced_type:0 "[ROOT.Activity.MakeScope.Var('animal_type').GetFlagName|U]: вынужденная охота"
+ hunt_success_chance.captive_release:0 "[ROOT.Activity.MakeScope.Var('animal_type').GetFlagName|U]: ловля"
+ hunt_success_chance.attending_hunters:0 "[Concept( 'activity_guests_short', 'Гость' )|E]-[GetTrait('lifestyle_hunter').GetName( GetNullCharacter )|l]"
+ hunt_success_chance.hunt_guide_local_madman_modifier:0 "[GetModifier( 'hunt_guide_local_madman_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hunt_tame_deer_modifier:0 "[GetModifier( 'hunt_tame_deer_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.ep2_beastmaster_modifier:0 "[GetModifier( 'ep2_beastmaster_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.dog_story_scenthound_modifier:0 "[GetModifier( 'dog_story_scenthound_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.dog_story_beasthound_modifier:0 "[GetModifier( 'dog_story_beasthound_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hunt_mismanaged_game_modifier:0 "[GetModifier( 'hunt_mismanaged_game_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hunt_punished_locals_modifier:0 "[GetModifier( 'hunt_punished_locals_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.recent_hunt_held:0 "Недавняя охота во владении [ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]"
+ hunt_success_chance.hunting_grounds:0 "[Concept( 'building', 'Здание' )|E] «$building_type_hunting_grounds_01$»"
+ hunt_success_chance.logging_camps:0 "([Concept( 'building', 'Здание' )|E]) «$building_type_logging_camps_01$»"
+ hunt_success_chance.royal_forest:0 "$building_type_royal_forest_01$ ([Concept( 'building', 'здание' )|E])"
+ hunt_success_chance.culture:0 "#L [ROOT.Activity.GetHost.GetCulture.GetCollectiveNoun]ие#! [Concept( 'culture_traditions', 'культурные традиции' )|E]"
+ hunt_success_chance.events:0 "События"
+ hunt_success_chance.sighting:0 "[ROOT.Activity.Custom('GetAnimalType')|U] [Concept( 'hunt_sighting_no_prefix', 'где-то рядом' )|E]"
+
+ hunt_dangerous_beast_slain_modifier:0 "Убит опасный зверь"
+ hunt_dangerous_beast_slain_modifier_desc:0 "Местные жители могут спать спокойно, зная, что в диких землях стало на одно чудовище меньше."
+
+ hunt_medicinal_herbs_modifier:0 "$useful_herbs$"
+ hunt_medicinal_herbs_modifier_desc:0 "$useful_herbs_desc$"
+ hunt_poisonous_herbs_modifier:0 "$poisonous_plants$"
+ hunt_poisonous_herbs_modifier_desc:0 "$poisonous_plants_desc$"

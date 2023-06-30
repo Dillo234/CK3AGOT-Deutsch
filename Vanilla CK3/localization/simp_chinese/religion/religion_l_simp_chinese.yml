@@ -113,11 +113,14 @@
  faith_conversion_cost_conversion_blocked_till_decision_taken:0 "此[faith|E]必须通过[decision|E]解锁"
  faith_conversion_cost_conversion_blocked_till_nebulous_circumstances:0 "该[faith|E]必须通过#EMP 神秘情况#!解锁"
  faith_conversion_cost_unreformed_to_organized:0 "从[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName][faith|E]改信[organized|E][faith]"
+ faith_reformation_via_decision:0 "该[faith|E]只能通过[decision|E]改革"
 
  MINIMUM_FAITH_CONVERSION_PIETY_COST:0 "最低花费：[GetLocalPlayerPietyTextIcon]$VALUE|V$"
 
  faith_conversion_cost_fervor_difference:0 "[fervor|E]上的不同"
  faith_creation_cost_fervor_impact:0 "当前[fervor|E]"
+
+ faith_conversion_cost_witch_event:0 "你已研习了这个[faith|E]的巫术"
 
  #Holy Sites: Christian
  holy_site_jerusalem_name:0 "耶路撒冷"
@@ -220,13 +223,13 @@
  holy_site_nishapur_effect_name:0 "来自[holy_site|E]#weak （$holy_site_nishapur_name$）#!"
  holy_site_dashtestan_name:0 "达什特斯坦"
  holy_site_dashtestan_effect_name:0 "来自[holy_site|E]#weak （$holy_site_dashtestan_name$）#!"
- holy_site_zozan_name:0 "佐赞"
+ holy_site_zozan_name:0 "祖赞"
  holy_site_zozan_effect_name:0 "来自[holy_site|E]#weak （$holy_site_zozan_name$）#!"
  holy_site_kufa_name:0 "库法"
  holy_site_kufa_effect_name:0 "来自[holy_site|E]#weak （$holy_site_kufa_name$）#!"
 
  #Holy Sites: Judaism
- holy_site_semien_name:0 "塞米恩"
+ holy_site_semien_name:0 "瑟门"
  holy_site_semien_effect_name:0 "来自[holy_site|E]#weak （$holy_site_semien_name$）#!"
  holy_site_sufed_name:0 "苏菲德"
  holy_site_sufed_effect_name:0 "来自[holy_site|E]#weak （$holy_site_sufed_name$）#!"
@@ -240,6 +243,10 @@
  holy_site_kochi_effect_name:0 "来自[holy_site|E]#weak （$holy_site_kochi_name$）#!"
  holy_site_manipur_name:0 "摩尼补罗"
  holy_site_manipur_effect_name:0 "来自[holy_site|E]#weak （$holy_site_manipur_name$）#!"
+ holy_site_hamadan_name:0 "哈马丹"
+ holy_site_hamadan_effect_name:0 "来自[holy_site|E]#weak （$holy_site_hamadan_name$）#!"
+ holy_site_babylon_name:0 "巴比伦"
+ holy_site_babylon_effect_name:0 "来自[holy_site|E]#weak （$holy_site_babylon_name$）#!"
 
  #Holy Sites: Dualism
  holy_site_khozistan_name:0 "胡齐斯坦"
@@ -339,7 +346,7 @@
  holy_site_chakla_effect_name:0 "来自[holy_site|E]#weak （$holy_site_chakla_name$）#!"
  holy_site_gyaitang_name:0 "建塘"
  holy_site_gyaitang_effect_name:0 "来自[holy_site|E]#weak （$holy_site_gyaitang_name$）#!"
- holy_site_rebgong_name:0 "热贡"
+ holy_site_rebgong_name:0 "捏工"
  holy_site_rebgong_effect_name:0 "来自[holy_site|E]#weak （$holy_site_rebgong_name$）#!"
  holy_site_xingqing_name:0 "兴庆"
  holy_site_xingqing_effect_name:0 "来自[holy_site|E]#weak （$holy_site_xingqing_name$）#!"
@@ -353,7 +360,7 @@
  holy_site_yazd_effect_name:0 "来自[holy_site|E]#weak （$holy_site_yazd_name$）#!"
  holy_site_nok_kundi_name:0 "诺贡迪"
  holy_site_nok_kundi_effect_name:0 "来自[holy_site|E]#weak （$holy_site_nok_kundi_name$）#!"
- holy_site_takht-i-sangin_name:0 "塔赫季-桑金"
+ holy_site_takht-i-sangin_name:0 "石座城"
  holy_site_takht-i-sangin_effect_name:0 "来自[holy_site|E]#weak （$holy_site_takht-i-sangin_name$）#!"
  holy_site_takht-e_soleyman_name:0 "塔赫特苏莱曼"
  holy_site_takht-e_soleyman_effect_name:0 "来自[holy_site|E]#weak （$holy_site_takht-e_soleyman_name$）#!"
@@ -363,7 +370,7 @@
  #Holy Sites: Norse
  holy_site_uppsala_name:0 "乌普萨拉"
  holy_site_uppsala_effect_name:0 "来自[holy_site|E]#weak （$holy_site_uppsala_name$）#!"
- holy_site_lejre_name:0 "莱尔"
+ holy_site_lejre_name:0 "莱勒"
  holy_site_lejre_effect_name:0 "来自[holy_site|E]#weak （$holy_site_lejre_name$）#!"
  holy_site_paderborn_name:0 "帕德博恩"
  holy_site_paderborn_effect_name:0 "来自[holy_site|E]#weak （$holy_site_paderborn_name$）#!"
@@ -425,7 +432,7 @@
  holy_site_kara_khorum_effect_name:0 "来自[holy_site|E]#weak （$holy_site_kara_khorum_name$）#!"
  holy_site_qayaliq_name:0 "海押立"
  holy_site_qayaliq_effect_name:2 "来自[holy_site|E]#weak （$holy_site_qayaliq_name$）#!"
- holy_site_gorgol_name:0 "戈尔戈勒"
+ holy_site_gorgol_name:0 "忽儿哈兀勒"
  holy_site_gorgol_effect_name:0 "来自[holy_site|E]#weak （$holy_site_gorgol_name$）#!"
  holy_site_preslav_name:0 "普雷斯拉夫"
  holy_site_preslav_effect_name:0 "来自[holy_site|E]#weak （$holy_site_preslav_name$）#!"
@@ -466,7 +473,7 @@
  holy_site_kabul_effect_name:0 "来自[holy_site|E]#weak （$holy_site_kabul_name$）#!"
  holy_site_multan_name:0 "木尔坦"
  holy_site_multan_effect_name:0 "来自[holy_site|E]#weak （$holy_site_multan_name$）#!"
- holy_site_bost_name:0 "布斯特"
+ holy_site_bost_name:0 "不思忒"
  holy_site_bost_effect_name:0 "来自[holy_site|E]#weak （$holy_site_bost_name$）#!"
 
  #Holy Sites: Bon
@@ -617,9 +624,11 @@
  doctrine_deviancy_crime_name:0 "罪行"
  doctrine_deviancy_crime_desc:0 "爱其他人的方式中显然只有一种是正确。对此形式的任何偏离都是罪恶，应当得到处罚。"
  doctrine_deviancy_shunned_name:0 "忌讳"
- doctrine_deviancy_shunned_desc:0 "有些性行为怪异又反常。这就是为什么有那类欲望的人都是变态和怪人。"
+ doctrine_deviancy_shunned_desc:0 "有些性行为怪异又反常。按照常情，有那类欲望的人都一样地变态和古怪。"
  doctrine_deviancy_accepted_name:0 "接纳"
  doctrine_deviancy_accepted_desc:0 "爱情是美好而神圣的，不论形式。每个人都应被允许去爱，做他们想要的。"
+ doctrine_deviancy_virtuous_name:0 "美德"
+ doctrine_deviancy_virtuous_desc:0 "肉体的欢愉让我们更接近神明，因此那些情欲不受传统束缚的人是我们信仰中的美德模范。"
  doctrine_parameter_deviancy_illegal:0 "有[GetTrait('deviant').GetName( GetPlayer )][trait|E]的角色是[criminals|E]"
  doctrine_parameter_deviancy_shunned:0 "拥有[GetTrait('deviant').GetName( GetPlayer )][trait|E]的角色被[shunned|E]"
  doctrine_parameter_deviancy_accepted:0 "拥有[GetTrait('deviant').GetName( GetPlayer )][trait|E]的角色被完全接纳"
@@ -631,9 +640,13 @@
  doctrine_witchcraft_shunned_desc:0 "神在这个世界上拥有对超自然力量的合法管辖权，所以任何强迫这些力量服从于凡人意志的企图本质上都是误入歧途。"
  doctrine_witchcraft_accepted_name:0 "接受"
  doctrine_witchcraft_accepted_desc:0 "魔法充斥着我们周遭的世界，我们拥有与我们祖先一样的资格和特权去操控魔法。"
+ doctrine_witchcraft_virtuous_name:0 "美德"
+ doctrine_witchcraft_virtuous_desc:0 "施行巫术就是将自己的灵魂置于邪灵的危险之中。他们十分勇敢，帮助我们保持必要的灵魂洁净，因此巫者应该受到崇敬。"
  doctrine_parameter_witchcraft_illegal:0 "拥有[GetTrait('witch').GetName( GetPlayer )][trait|E]的角色被视为[criminals|E]"
  doctrine_parameter_witchcraft_shunned:0 "拥有[GetTrait('witch').GetName( GetPlayer )][trait|E]的角色犯[shunned|E]"
  doctrine_parameter_witchcraft_accepted:0 "拥有[GetTrait('witch').GetName( GetPlayer )][trait|E]的角色被完全接受"
+ witchcraft_illegal_name:0 "刑事巫术条例"
+ witchcraft_shunned_name:0 "被排斥的巫术条例"
  
  doctrine_head_of_faith_name:0 "信仰领袖"
  doctrine_head_of_faith_desc:0 "[head_of_faith|E]是一个[faith|E]的领袖。"
@@ -887,6 +900,13 @@
  special_doctrine_is_jewish_faith_desc:0 "并非所有外邦人都生活在罪恶中。尤其是那些尊敬上帝选民的人，和那些值得我们回敬以一定尊重的人。"
  doctrine_parameter_hostility_override_tenet_jewish_syncretism:3 "以$tenet_jewish_syncretism_name$作为核心教义的非犹太教[faiths|E]被视为[GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]而非$hostility_evil_tooltippable$"
 
+ prophecy_of_malachi_name:0 "玛拉基预言"
+ special_doctrine_not_allowed_to_hof_name:0 "废除祭司职"
+ not_allowed_to_hof_name:0 "$special_doctrine_not_allowed_to_hof_name$"
+ prophecy_of_malachi_desc:0 "在传统的犹太教教义下，只有当先知降临或是找到了适合担任祭司的亚伦后裔时，才能委任新的大祭司。"
+ special_doctrine_not_allowed_to_hof_desc:0 "该信仰的大祭司一职已经被完全废除。任何想要任命大祭司的尝试都需要先彻底重建传统的宗教结构。"
+ doctrine_parameter_block_from_create_hof_parameter:0 "该信仰无法在正常情况下重建其[head_of_faith|E]。"
+
  special_doctrine_is_eastern_faith_name:0 "多种宗教交织"
  is_eastern_faith_name:0 "$special_doctrine_is_eastern_faith_name$"
  special_doctrine_is_eastern_faith_desc:0 "并非只有一种信仰将我们连接在一起，而是多种信仰共同组成了我们社会的宗教生态。虽然自称有所不同、遵循的道路亦不一样，某些我们信仰系统的外来者已经学会了在我们的社会中共存，如同是我们的一员。"
@@ -984,3 +1004,24 @@
  hostility_astray_tooltippable:0 "[GetHostilityLevelName( '(int32)1' )|V]"
  hostility_hostile_tooltippable:0 "[GetHostilityLevelName( '(int32)2' )|V]"
  hostility_evil_tooltippable:0 "[GetHostilityLevelName( '(int32)3' )|V]"
+
+
+ doctrine_pilgrimage_name:0 "朝圣态度"
+ doctrine_pilgrimage_forbidden_name:0 "禁止"
+ doctrine_pilgrimage_forbidden_desc:0 "任何一处都可以感受到[ROOT.Faith.HighGodName]的临在，某些地点更为神圣的观念几乎等于异端。"
+ doctrine_pilgrimage_encouraged_name:0 "鼓励"
+ doctrine_pilgrimage_encouraged_desc:0 "该信仰鼓励成员拜访被认为具备属灵重要性的俗世地点，作为展现对[ROOT.Faith.PantheonTerm]崇敬的方式。"
+ doctrine_pilgrimage_mandatory_name:0 "强制"
+ doctrine_pilgrimage_mandatory_desc:0 "所有身体健康的[ROOT.Faith.GetAdherentNamePlural]都应当在拥有行为能力时完成一次前往一处圣地的灵性之旅。无法做到就意味着无法将自己交托给[ROOT.Faith.HighGodName]。"
+ doctrine_pilgrimage_mandatory_hajj_name:0 "朝觐"
+ doctrine_pilgrimage_mandatory_hajj_desc:0 "所有身体健康的穆斯林都应在人生中完成一次去麦加的朝觐。虽然这个义务经常被特别免除，任何无法完成朝觐的[ROOT.Faith.GetAdherentNameNoTooltip]都会被怀疑的眼光审视。"
+ forbidden_from_pilgrimage_name:0 "$doctrine_pilgrimage_name$：$doctrine_pilgrimage_forbidden_name$"
+ doctrine_parameter_forbidden_from_pilgrimage:0 "不能进行[pilgrimage|E][activity|E]"
+ can_go_on_pilgrimage_name:0 "$doctrine_pilgrimage_name$：$doctrine_pilgrimage_encouraged_name$"
+ doctrine_parameter_can_go_on_pilgrimage:0 "可以进行[pilgrimage|E][activity|E]"
+ mandatory_pilgrimage_name:0 "$doctrine_pilgrimage_name$：$doctrine_pilgrimage_mandatory_name$"
+ doctrine_parameter_mandatory_pilgrimage:1 "[GetTrait('pilgrim').GetName( GetNullCharacter )][trait|E]给予额外增益，[pilgrimage|E][activity|E]完成时给予更多[piety|E]"
+ mandatory_hajj_name:0 "$doctrine_pilgrimage_name$：$doctrine_pilgrimage_mandatory_name$"
+ doctrine_parameter_mandatory_hajj:1 "[GetTrait('hajjaj').GetName( GetNullCharacter )][trait|E]给予更多增益，[hajj|E][activity|E]完成时给予更多[piety|E]"
+ doctrine_parameter_basic_pilgrimage_rewards:0 ""
+

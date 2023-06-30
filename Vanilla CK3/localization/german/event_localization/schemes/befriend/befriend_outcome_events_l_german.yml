@@ -133,7 +133,7 @@
  befriend_outcome.8006.everyfactionmember.custom:0 "Jedes Mitglied [target.Custom('DE_PRO_POS_S_3P')]er [faction|E]"
  befriend_outcome.8006.a:0 "Ich hätte diesem Menschen nie trauen sollen."
  befriend_outcome.8007.t:0 "Anfreunden: Vertrauen hat seinen Preis"
- befriend_outcome.8007.desc:0 "Gestern Nacht entschied ich in einem letzten Versuch, mein[target.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] für mich zu gewinnen, [target.Custom('DE_PRO_PER_S_3P_D')] eines meiner schmählichsten Geheimnisse zu verraten. Ich hatte gehofft, dass meine Ehrlichkeit die Kluft zwischen uns schmälern könnte. Oh, wie falsch ich doch lag.\n\n[target.Custom('DE_PRO_PER_S_3P_N')|U] droht nun, mein Geheimnis dem gesamten Hof zu verraten, wenn ich [target.Custom('DE_PRO_POS_S_3P')]e Forderungen nicht erfülle!"
+ befriend_outcome.8007.desc:0 "Mein[target.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] wurde gestern Nacht das Ziel meines letzten Versuchs, [target.Custom('DE_END_PRO_S_A')] für mich zu gewinnen, indem ich [target.Custom('DE_PRO_PER_S_3P_D')] eines meiner schmählichsten Geheimnisse verriet. Ich hatte gehofft, dass meine Ehrlichkeit die Kluft zwischen uns schmälern könnte. Oh, wie falsch ich doch lag.\n\n[target.Custom('DE_PRO_PER_S_3P_N')|U] droht nun, mein Geheimnis dem gesamten Hof zu verraten, wenn ich [target.Custom('DE_PRO_POS_S_3P')]e Forderungen nicht erfülle!"
  befriend_outcome.8007.a:0 "Wie Ihr meint! Wie viel wollt Ihr?"
  befriend_outcome.8007.b:0 "Wie auch immer!"
  befriend_outcome.8007.c:0 "Ich werde ganz sicher nicht zulassen, dass mein[target.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] mich erpresst!"
@@ -152,3 +152,8 @@
  befriend_outcome.6007.desc:0 "Ich begreife nicht, wie [owner.GetTitledFirstName] das angestellt hat, doch [target.Custom('DE_PRO_PER_S_3P_N')] konnte [target.GetTitledFirstName] dazu bringen, [target.Custom('DE_PRO_POS_S_3P')]e Fraktion aufzulösen.\n\n[target.Custom('DE_PRO_PER_S_3P_N')|U] scharte gestern Abend alle Mitglieder um sich und verlautbarte, dass es ein Fehler war, sich [owner.GetTitledFirstNameNoTooltip] zu widersetzen. [target.Custom('DE_PRO_PER_S_3P_N')|U] wünsche nun eine friedliche Lösung unseres Konflikts."
  befriend_outcome.6007.a.a:0 "[target.GetTitledFirstNameNoTooltip] hat uns hintergangen!"
  befriend_outcome.6007.a.b:0 "Vielleicht hat [target.Custom('DE_PRO_PER_S_3P_N')] da nicht ganz unrecht …"
+
+ # Travel Befriend Success Outcome
+ befriend_outcome.2007.opening_travel:0 "Zu meiner großen Freude hat mich einer der Kuriere von [target.GetTitledFirstName] hier in [current_location.GetName] gefunden, während mein Gefolge und ich uns auf den Weg nach [next_destination.GetName] machen.\n\n"
+ befriend_outcome.2007.opening_no_travel:0 "Zu meiner großen Freude ist einer der Kuriere von [target.GetTitledFirstName] hier bei meiner Feste in [ROOT.Char.GetLocation.GetName] angekommen.\n\n"
+ befriend_outcome.2007.desc:0 "[courier.Custom('DE_PRO_PER_S_3P_N')|U] überbringt gute Nachrichten, denn [target.GetFirstNameNoTooltip] möchte unsere Freundschaft offiziell machen! Ich hätte nie erwartet, dass wir uns so nahekommen würden, doch [target.Custom('DE_PRO_PER_S_3P_N')] hat bewiesen, dass [target.Custom('DE_PRO_PER_S_3P_N')] [Select_CString(target.IsFemale, 'eine zuverlässige und aufrichtige Frau', 'ein zuverlässiger und aufrichtiger Mann')] ist, [target.Custom('DE_ART_DEF_S_N')] nur mein Bestes im Sinn hat."

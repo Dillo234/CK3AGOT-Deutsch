@@ -17,12 +17,12 @@
 
 #Timeout notification for a betrothed when someone else is in charge of marrying them
  marriage_interaction.0005.t:0 "Увядшая помолвка"
- marriage_interaction.0005.desc:0 "Несмотря на переговоры и приготовления, похоже, я и [Select_CString(other_betrother.IsFemale, 'моя невеста', 'мой жених' )] [other_betrothed.GetTitledFirstName] никогда не поженимся. И хотя пришло время заключить условленный брак, ни одна из сторон не делает ничего, чтобы исполнить договор."
+ marriage_interaction.0005.desc:0 "Несмотря на переговоры и приготовления, похоже, я и [Select_CString(other_betrothed.IsFemale, 'моя невеста', 'мой жених' )] [other_betrothed.GetTitledFirstName] никогда не поженимся. И хотя пришло время заключить условленный брак, ни одна из сторон не делает ничего, чтобы исполнить договор."
  marriage_interaction.0005.a:0 "Какая партия ждет меня теперь?.."
 
 #Timeout notification for someone in charge of their own betrothal
  marriage_interaction.0006.t:0 "Увядшая помолвка"
- marriage_interaction.0006.desc:0 "Несмотря на переговоры и приготовления, похоже, что я и [Select_CString(other_betrother.IsFemale, 'моя невеста', 'мой жених' )] [other_betrothed.GetTitledFirstName] никогда не поженимся. И хотя пришло время заключить условленный брак, ни одна из сторон не делает ничего, чтобы исполнить договор."
+ marriage_interaction.0006.desc:0 "Несмотря на переговоры и приготовления, похоже, что я и [Select_CString(other_betrothed.IsFemale, 'моя невеста', 'мой жених' )] [other_betrothed.GetTitledFirstName] никогда не поженимся. И хотя пришло время заключить условленный брак, ни одна из сторон не делает ничего, чтобы исполнить договор."
  marriage_interaction.0006.a:0 "И с кем я тогда вступлю в брак?"
 
  marriage_interaction.0008.t:0 "Конфессия препятствует помолвке"

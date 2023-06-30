@@ -3,7 +3,7 @@
  I_HAS_ANY_CB_ON_TRIGGER:1 "У вас есть [casus_belli|El] против персонажа [TARGET_CHARACTER.GetShortUIName|V]"
  I_HAS_NOT_ANY_CB_ON_TRIGGER:1 "У вас #bold нет#! [Concept( 'casus_belli', 'казуса белли' )|E] против персонажа [TARGET_CHARACTER.GetShortUIName|V]"
  THEY_HAS_ANY_CB_ON_TRIGGER:0 "[CHARACTER.GetShortUIName|V] имеет [casus_belli|El] на персонажа [TARGET_CHARACTER.GetShortUIName|V]"
- THEY_HAS_NOT_ANY_CB_ON_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold не#! имеет [Concept( 'hook', 'влияния' )|E] на [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'его персонажа', '' )]"
+ THEY_HAS_NOT_ANY_CB_ON_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold не#! имеет [Concept( 'hook', 'влияния' )|E] на [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
  HAS_ANY_CB_ON_TRIGGER:0 "Имеет [casus_belli|El] на персонажа [TARGET_CHARACTER.GetShortUIName|V]"
  HAS_NOT_ANY_CB_ON_TRIGGER:0 "#bold Нет#! [Concept( 'casus_belli', 'казуса белли' )|E] против персонажа [TARGET_CHARACTER.GetShortUIName|V]"
 

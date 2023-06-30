@@ -6,7 +6,7 @@
  struggle_parameter_unlocks_fabricate_hooks_for_all:2 "[struggle_involved|E] [rulers|E] 대상 [GetScheme('fabricate_hook').GetTypeName] [scheme|E] 잠금 해제"
  struggle_parameter_unlocks_claim_throne_for_all:2 "[struggle_involved|E] [rulers|E] 대상 [GetScheme('claim_throne').GetTypeName] [scheme|E] 잠금 해제"
  struggle_parameter_unlocks_incite_revolts_interaction:2 "[struggle_involved|E] [rulers|E] 대상 [incite_revolts_interaction|E] [interaction|E] 잠금 해제"
- struggle_parameter_unlocks_forced_vassalization_casus_belli:2 "[vassalize_casus_belli|E] 잠금 해제" # [LocEditor:AwaitingBatchUpdate]
+ struggle_parameter_unlocks_forced_vassalization_casus_belli:3 "[vassalize_casus_belli|E] 잠금 해제"
  struggle_parameter_powerful_vassal_can_claim_liege_titles:2 "[powerful_vassals|E]의 $vassal_claim_liege_title_interaction$ [interaction|E] 잠금 해제"
  struggle_parameter_unlocks_claim_throne_for_powerful_vassals:2 "[struggle_involved|E] [rulers|E] 대상 [powerful_vassals|E]의 [GetScheme('claim_throne').GetTypeName] [scheme|E] 잠금 해제"
  struggle_parameter_holy_order_can_be_created_by_dukes:1 "공작의 [holy_order|E] 생성 활성화"
@@ -36,7 +36,7 @@
  struggle_parameter_unlocks_golden_age_jewish_science_decision:1 "[golden_age_jewish_science_in_iberia_decision|E] [decision|E] 잠금 해제"
  struggle_parameter_unlocks_build_pilgrim_roads_decision:1 "[build_holy_pilgrim_roads_decision|E] [decision|E] 잠금 해제"
  struggle_parameter_struggle_cheaper_buy_truce:1 "[purchase_truce_interaction|E] [interaction|E]의 [gold_i][gold|E] 비용 감소"
- struggle_parameter_struggle_prestige_from_feast:1 "[feast|E] [activity|E]으로 획득하는 [prestige_i][prestige|E] 증가"
+ struggle_parameter_struggle_prestige_from_feast:1 "[GetActivityType('activity_feast').GetName] [activity|E]으로 획득하는 [prestige_i][prestige|E] 증가"
  struggle_parameter_struggle_agents_less_likely_to_join_schemes:1 "[agent|E] 승낙 여부: #N -25#!"
  struggle_parameter_unlocks_sell_minor_title_for_kings_and_higher:1 "왕 및 황제의 [sell_titles_decision|E] 잠금 해제"
  struggle_parameter_invasion_conquest_war_cannot_be_declared:0 "침략 및 정복 [casus_bellis|E] 사용 불가"

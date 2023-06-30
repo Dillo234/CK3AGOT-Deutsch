@@ -100,7 +100,7 @@
  artifact.4000.desc.ghost:0 "其中居住着愤怒的亡魂！”"
  artifact.4000.desc.fallback:0 "它被灌注了[ROOT.Char.GetFaith.DevilName]的阴险力量！”"
  artifact.4000.desc.end:0 "\n\n“也许一位圣洁之人的干预能让大家安心……”"
- artifact.4000.cursed_name:1 "被诅咒的[this_artifact.GetNameNoTooltip]"
+ artifact.4000.cursed_name:1 "诅咒之[this_artifact.GetNameNoTooltip]"
  artifact.4000.cursed_desc:1 "[this_artifact.GetDesc]\n\n贵族和农民在这件据说受到诅咒的物品前，都会陷入沉默或是祈求神明庇佑。"
  artifact.4000.a:0 "马上派人去请！"
  artifact.4000.b:0 "让所有人只看它一眼就吓到退缩吧！"
@@ -119,7 +119,7 @@
  artifact.4002.desc:0 "\n\n“[ROOT.Char.GetLadyLord]，你一定要意识到，作为一件被诅咒的物件，你的[this_artifact.GetName]这些年来的恶名与日俱增……你的廷臣、仆人，甚至是宾客都被它吓坏了！\n\n“你能否准允召来一位圣洁之人为这个物件赐福，最终也能为你担惊受怕的臣民赐予一丝安宁？"
  artifact.4010.t:0 "知名杀器"
  artifact.4010.desc.antiquarian_intro:0 "“[ROOT.Char.GetLadyLord]，您听说那个消息了吗？”我的$antiquarian_court_position$[antiquarian.GetTitledFirstName]向我走来。"
- artifact.4010.desc.servant_intro:0 "我忍不住听起大厅内一小群仆从兴奋的声音。"
+ artifact.4010.desc.servant_intro:0 "大厅内一小群仆从兴奋的声音传到我的耳朵。"
  artifact.4010.desc:1 "\n\n“[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip]的[this_artifact.GetName]声名广为流传、不断滋长！人人都在敬畏地谈论这把杀敌如割草般容易的无敌之[SCOPE.Custom('ThisArtifactType')]，以及它光荣的所有者！”"
  artifact.4010.a:0 "好消息！"
  artifact_killer_1_name:1 "[this_artifact.Custom('RandomWeaponTitle1')][this_artifact.GetNameNoTooltip]"
@@ -142,7 +142,7 @@
  artifact_armor_3_desc:0 "[this_artifact.GetDesc]\n\n这件盔甲在至少50场战斗中保护了主人的安全，无论是敌是友，都既认可它又害怕它。"
  artifact_armor_4_desc:0 "[this_artifact.GetDesc]\n\n这件盔甲在至少100场战斗中保护了主人的安全，被认为是一件传奇物品。"
  artifact.4030.t:0 "人民之冠"
- artifact.4030.desc.antiquarian_intro:0 "我的$antiquarian_court_position$[antiquarian.GetTitledFirstName]前来见我，[antiquarian.GetHerHis]的脸上挂着大大的微小，[antiquarian.GetHerHis]的手里还捧着我的[this_artifact.GetName]。"
+ artifact.4030.desc.antiquarian_intro:0 "我的$antiquarian_court_position$[antiquarian.GetTitledFirstName]前来见我，[antiquarian.GetHerHis]的脸上挂着大大的笑容，[antiquarian.GetHerHis]的手里还捧着我的[this_artifact.GetName]。"
  artifact.4030.desc.servant_intro:0 "那名通常负责清理我最受珍视财产的仆人来找我，[dummy_servant_gender.GetHerHis]手里捧着我的[this_artifact.GetName]。"
  artifact.4030.desc_emperor:1 "\n\n“[ROOT.Char.GetLadyLord]，您可知道，这顶冠冕属于许多代[ROOT.Char.GetTitleTierName]，现在被普遍认为是皇权的象征？”"
  artifact.4030.desc_kingdom:1 "\n\n“[ROOT.Char.GetLadyLord]，您可知道，这顶冠冕曾归属于好几代[ROOT.Char.GetTitleAsNameNoTooltip]，现在被认为是[primary_title_scope.GetBaseNameNoTierNoTooltip]身份不可分割的一部分？”"
@@ -162,7 +162,7 @@
  artifact.4060.desc:0 "“让我为您引荐[holy_man.GetFirstName]，一位在你的领地里因其明智而闻名的[holy_man.GetWomanMan]。”\n\n“[holy_man.GetSheHe|U]来到了你的宫廷，正因为你是一名虔诚而公正的统治者，并愿意将神圣的加护施加到你的一件珍宝上。”\n\n“你会允许吗？”"
  artifact.4060.a:0 "我谦卑地接受你的提议，[holy_man.GetFirstNameNoTooltip]。"
  artifact.4060.b:0 "没那个必要。"
- artifact_4060_blessed_artifact_name:1 "蒙福的[this_artifact.GetNameNoTooltip]"
+ artifact_4060_blessed_artifact_name:1 "蒙福之[this_artifact.GetNameNoTooltip]"
  artifact_4060_blessed_artifact_desc:0 "[this_artifact.GetDesc]\n\n根据传统故事，这件物品被一位圣洁之人祝福过，因此拥有神之守护。聪明人不管是否相信，都不会冒然卷入超自然力量。"
  artifact.4070.t:0 "圣物被亵渎"
  artifact.4070.desc:0 "从异教徒手中夺回我们珍贵[this_artifact.GetName]的控制权，这件事肯定会让我受到[ROOT.Char.GetFaith.HighGodName]的青睐。不过，我还是有着一种不太舒服的感觉，宫廷中的一些声音也助长了这情绪。\n\n#EMP “异教徒污染了我们的圣物！”“他们诅咒了它！”“谁知道他们用它搞过什么样扭曲的的仪式！”#!\n\n他们也许是夸张了，不过我猜一场花里胡哨的宗教游行可以“净化”它而且也没什么害处吧？"
@@ -204,7 +204,7 @@
 
  artifact.4090.a.tt:0 "圣物与武器合一"
 
- artifact_weapon_relic_desc:0 "[this_artifact.GetDesc]\n\n一件[ROOT.Char.GetFaith.GetName]圣物被嵌入[that_artifact.GetNameNoTooltip]的柄中。"
+ artifact_weapon_relic_desc:0 "[this_artifact.GetDesc]\n\n[that_artifact.GetNameNoTooltip]，一件[ROOT.Char.GetFaith.GetName]圣物，被嵌入握柄中。"
 
  relic_weapon_name:0 "[ROOT.Char.Custom('artifact_relic_desc')]之[this_artifact.GetType|U]"
 

@@ -1,0 +1,120 @@
+﻿l_spanish:
+
+############## 
+# OPTIONS
+##############
+
+ gruesome_festival_option_size:0 "Tamaño de festival"
+ gruesome_festival_size_small:0 "Festival pequeño"
+ gruesome_festival_size_small_desc:1 "$EFFECT_LIST_BULLET$ Los cambios de [opinion|lE] serán menos comunes.\n\n#weak La gente de este condado conserva la fe lo bastante bien como para acogernos.#!"
+ gruesome_festival_size_medium:0 "Festival mediano"
+ gruesome_festival_size_medium_desc:1 "$EFFECT_LIST_BULLET$ Los cambios de [opinion|lE] serán más comunes.\n\n#weak ¡Acudirán todas las gentes libres de mi dominio!#!"
+ gf_medium_option_valid:0 "No posees al menos 2 títulos de [rank|El] condado"
+ gruesome_festival_size_large:0 "Festival grande"
+ gruesome_festival_size_large_desc:1 "$EFFECT_LIST_BULLET$ Los cambios de [opinion|lE] ocurrirán con frecuencia.\n\n#weak ¡Se invitará a cualquier [GetPlayer.Custom('LadyLordNoble_GenderPreference')] y plebeyo de nuestro [GetPlayer.GetPrimaryTitle.GetTierAsNameNoTooltip|l]!#!"
+ activity_gruesome_festival_destination_selection:0 "Solo puedes celebrar un $activity_gruesome_festival|l$ en provincias con la [doctrine|lE] $gruesome_festivals_active_name|l$"
+ activity_gruesome_festival_conclusion_desc:1 "La [GetActivityType( 'activity_gruesome_festival' ).GetName|l] ha terminado"
+ activity_gruesome_festival_guest_desc:1 "$BULLET_WITH_TAB$ Los participantes pueden ganar [piety|lE]\n$BULLET_WITH_TAB$ Los participantes pueden ganar [opinion|lE] sobre otros participantes\n$BULLET_WITH_TAB$ Los participantes pueden perder [stress|lE] [stress_loss_i]"
+
+ gruesome_festival_option_sacrifice:0 "Provisión para el sacrificio"
+ gruesome_festival_option_sacrifice_poser_blotter:0 "$gruesome_festival_option_sacrifice_genuine_blotter$"
+
+ gf_suitable_rank_valid:0 "No eres un vasallo ni independiente ni de [rank|El] rey"
+ gf_valid_county_faith:0 "No controlas ningún condado cuya fe permita un [GetActivityType( 'activity_gruesome_festival' ).GetName|l]"
+
+### ANIMALS
+
+ # Option loc for animals if you have a faith allowing gruesome festivals
+ gruesome_festival_sacrifice_animals_genuine:0 "Animales"
+ gruesome_festival_sacrifice_animals_genuine_desc:1 "$gruesome_festival_sacrifice_animals_genuine_desc_help$\n\n#weak Bastará con una selección decente de sacrificios animales.#!"
+ gruesome_festival_sacrifice_animals_genuine_desc_help:2 "$gruesome_festival_sacrifice_animals_only.regular.opinion$\n$gruesome_festival_sacrifice_animals_only.appeased_humsac_haters$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.regular.piety$"
+
+ # Option loc for animals if you only rule over a faith allowing gruesome festivals
+ gruesome_festival_sacrifice_animals_poser:0 "Animales"
+ gruesome_festival_sacrifice_animals_poser_desc:1 "$gruesome_festival_sacrifice_animals_poser_desc_help$\n\n#weak Bastará con una selección decente de sacrificios animales.#!"
+ gruesome_festival_sacrifice_animals_poser_desc_help:2 "$gruesome_festival_sacrifice_animals_only.regular.opinion$\n$gruesome_festival_sacrifice_animals_only.appeased_humsac_haters$\n $EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.regular.piety.loss$"
+
+# Animals Help Text
+ gruesome_festival_sacrifice_animals_only.regular.opinion:1 "$EFFECT_LIST_BULLET$ La ganancia de [opinion|lE] y [county_opinion|lE] con los [GetPlayer.GetFaith.GetAdherentNamePlural] será menor que con sacrificios humanos"
+ gruesome_festival_sacrifice_animals_only.appeased_humsac_haters:1 "$EFFECT_LIST_BULLET$ No se perderá [opinion|lE] ni [county_opinion|lE] de los súbditos que no aprueben el sacrificio humano"
+ #gruesome_festival_sacrifice_animals_only.regular.piety: "#positive_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_regular_animal_piety_value')|0]#! [piety_i] will be gained $gruesome_festival_activity.piety_gain.rump$"
+ gruesome_festival_sacrifice_animals_only.regular.piety:1 "Ganancia #positive_value pequeña#! de [piety|lE] [piety_i]"
+ #gruesome_festival_sacrifice_animals_only.regular.piety.loss: "#negative_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_regular_animal_piety_value')|0]#! [piety_i] will be lost $gruesome_festival_activity.piety_gain.rump$"
+ gruesome_festival_sacrifice_animals_only.regular.piety.loss:1 "Pérdida #negative_value pequeña#! de [piety|lE] [piety_i]"
+
+
+### MAGNIFICENT ANIMALS
+
+# Option loc for magnificent animals if you have a faith allowing gruesome festivals
+# GENUINE
+ gruesome_festival_sacrifice_animals_magnificent_genuine:0 "Animales – majestuoso"
+ gruesome_festival_sacrifice_animals_magnificent_genuine_desc:1 "$gruesome_festival_sacrifice_animals_magnificent_genuine_desc_help$\n\n#weak ¡Traed una bestia o ave por cada asistente!#!"
+ gruesome_festival_sacrifice_animals_magnificent_genuine_desc_help:2 "$gruesome_festival_sacrifice_animals_only.magnificent.opinion$\n$gruesome_festival_sacrifice_animals_only.appeased_humsac_haters$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.magnificent.piety$"
+# Option loc for magnificent animals if you only rule over a faith allowing gruesome festivals
+# POSER
+ gruesome_festival_sacrifice_animals_magnificent_poser:0 "Animales – majestuoso"
+ gruesome_festival_sacrifice_animals_magnificent_poser_desc:1 "$gruesome_festival_sacrifice_animals_magnificent_poser_desc_help$\n\n#weak ¡Traed una bestia o ave por cada asistente!#!"
+ gruesome_festival_sacrifice_animals_magnificent_poser_desc_help:2 "$gruesome_festival_sacrifice_animals_only.magnificent.opinion$\n$gruesome_festival_sacrifice_animals_only.appeased_humsac_haters$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.magnificent.piety.loss$#!"
+
+# Magnificent Animals Help Text
+ gruesome_festival_sacrifice_animals_only.magnificent.opinion:1 "$EFFECT_LIST_BULLET$ La ganancia de [opinion|lE] y [county_opinion|lE] con los [GetPlayer.GetFaith.GetAdherentNamePlural] estará a la par con los sacrificios humanos"
+ #gruesome_festival_sacrifice_animals_only.magnificent.piety: "#positive_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_magnificent_animal_piety_value')|0]#! [piety_i] will be gained $gruesome_festival_activity.piety_gain.rump$"
+ gruesome_festival_sacrifice_animals_only.magnificent.piety:1 "Ganancia #positive_value pequeña#! de [piety|lE] [piety_i]"
+ #gruesome_festival_sacrifice_animals_only.magnificent.piety.loss: "#negative_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_magnificent_animal_piety_value')|0]#! [piety_i] will be lost $gruesome_festival_activity.piety_gain.rump$"
+ gruesome_festival_sacrifice_animals_only.magnificent.piety.loss:1 "Pérdida #negative_value pequeña#! de [piety|lE] [piety_i]"
+
+
+### HUMANS
+
+# GENUINE
+ gruesome_festival_sacrifice_humans_genuine:0 "Humano"
+ gruesome_festival_sacrifice_humans_genuine_desc:1 "$gruesome_festival_sacrifice_humans_genuine_desc_help$\n\n#weak La tradición importa. [GetPlayer.GetFaith.PantheonTerm|U] probará/n sangre humana.#!"
+ gruesome_festival_sacrifice_humans_genuine_desc_help:1 "$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.regular.opinion$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.offended_humsac_haters$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.regular.piety$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.optional_victim_picker$[SelectLocalization( ActivityPlanner.GetSingleLocationPhase.GetLocation.GetCounty.GetFaith.HasParameterByKey('cannibalism_legal'), 'gruesome_festival_sacrifice_human_sacrifice.become_cannibal', '')]"
+
+ # POSER
+ gruesome_festival_sacrifice_humans_poser:0 "Humano"
+ gruesome_festival_sacrifice_humans_poser_desc:1 "$gruesome_festival_sacrifice_humans_poser_desc_help$\n\n#weak La tradición importa. [GetPlayer.GetFaith.PantheonTerm|U] probará/n sangre humana.#!"
+ gruesome_festival_sacrifice_humans_poser_desc_help:1 "$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.regular.opinion$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.offended_humsac_haters$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.regular.piety.loss$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.optional_victim_picker$[SelectLocalization( ActivityPlanner.GetSingleLocationPhase.GetLocation.GetCounty.GetFaith.HasParameterByKey('cannibalism_legal'), 'gruesome_festival_sacrifice_human_sacrifice.become_cannibal', '')]"
+
+# Humans Help Text
+ gruesome_festival_sacrifice_human_sacrifice.regular.opinion:0 "La ganancia de [opinion|lE] y [county_opinion|lE] con los [GetPlayer.GetFaith.GetAdherentNamePlural] estará a la par con unos sacrificios humanos magníficos"
+ gruesome_festival_sacrifice_animals_only.offended_humsac_haters:1 "Se perderá [opinion|lE] y [county_opinion|lE] con los súbditos que no aprueben el sacrificio humano"
+ #gruesome_festival_sacrifice_human_sacrifice.regular.piety: "#positive_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_regular_human_piety_value')|0]#! [piety_i] will be gained $gruesome_festival_activity.piety_gain.rump$"
+ gruesome_festival_sacrifice_human_sacrifice.regular.piety:1 "#positive_value Gran#! ganancia de [piety|lE] [piety_i]"
+ #gruesome_festival_sacrifice_human_sacrifice.regular.piety.loss:0 "#negative_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_regular_human_piety_value')|0]#! [piety_i] will be lost $gruesome_festival_activity.piety_gain.rump$"
+ gruesome_festival_sacrifice_human_sacrifice.regular.piety.loss:1 "#negative_value Gran#! pérdida de [piety|lE] [piety_i]"
+ gruesome_festival_sacrifice_human_sacrifice.optional_victim_picker:0 "Opcionalmente, puedes [designate_chief_sacrifice_article|lE] de entre tus [prisoners|lE]"
+ gruesome_festival_sacrifice_human_sacrifice.become_cannibal:1 "\n$EFFECT_LIST_BULLET$ Te convertirás en [GetTrait('cannibal').GetName( GetNullCharacter )|l] $gruesome_festival_activity.piety_gain.rump$"
+
+
+### MAGNIFICENT HUMANS 
+
+# GENUINE
+ gruesome_festival_sacrifice_humans_magnificent_genuine:0 "Humano – majestuoso"
+ gruesome_festival_sacrifice_humans_magnificent_genuine_desc:1 "$gruesome_festival_sacrifice_humans_magnificent_genuine_desc_help$\n\n#weak Solo servirán los mejores sacrificios: humanos y animales por igual…#!"
+ gruesome_festival_sacrifice_humans_magnificent_genuine_desc_help:2 "$gruesome_festival_sacrifice_human_sacrifice.magnificent.opinion$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.offended_humsac_haters$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.magnificent.piety$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.optional_victim_picker$[SelectLocalization( ActivityPlanner.GetSingleLocationPhase.GetLocation.GetCounty.GetFaith.HasParameterByKey('cannibalism_legal'), 'gruesome_festival_sacrifice_human_sacrifice.become_cannibal', '')]"
+
+# POSER
+ gruesome_festival_sacrifice_humans_magnificent_poser:0 "Humano – majestuoso"
+ gruesome_festival_sacrifice_humans_magnificent_poser_desc:1 "$gruesome_festival_sacrifice_humans_magnificent_poser_desc_help$\n\n#weak Solo servirán los mejores sacrificios: humanos y animales por igual…#!"
+ gruesome_festival_sacrifice_humans_magnificent_poser_desc_help:1 "$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.magnificent.opinion$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.offended_humsac_haters$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.magnificent.piety.loss$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.optional_victim_picker$[SelectLocalization( ActivityPlanner.GetSingleLocationPhase.GetLocation.GetCounty.GetFaith.HasParameterByKey('cannibalism_legal'), 'gruesome_festival_sacrifice_human_sacrifice.become_cannibal', '')]"
+
+ # Magnificent Humans Help Text 
+ gruesome_festival_sacrifice_human_sacrifice.magnificent.opinion:1 "$EFFECT_LIST_BULLET$ La ganancia de [opinion|lE] y [county_opinion|lE] con los [GetPlayer.GetFaith.GetAdherentNamePlural] será lo más alta posible"
+ #gruesome_festival_sacrifice_human_sacrifice.magnificent.piety: "#positive_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_magnificent_human_piety_value')|0]#! [piety_i] will be gained $gruesome_festival_activity.piety_gain.rump$"
+ gruesome_festival_sacrifice_human_sacrifice.magnificent.piety:1 "#positive_value Gran#! ganancia de [piety|lE] [piety_i]"
+ #gruesome_festival_sacrifice_human_sacrifice.magnificent.piety.loss: "#negative_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_magnificent_human_piety_value')|0]#! [piety_i] will be lost $gruesome_festival_activity.piety_gain.rump$"
+ gruesome_festival_sacrifice_human_sacrifice.magnificent.piety.loss:1 "#negative_value Gran#! pérdida de [piety|lE] [piety_i]"
+
+ gruesome_festival_activity.piety_gain.rump:0 "en el [GetPlayer.Custom('GruesomeFestivalName')|l]"
+
+ gruesome_festival_immediate_log_title:0 "[GetPlayer.Custom('GruesomeFestivalName')] terminado"
+ gruesome_festival_faithful_faith_option_log_title:0 "$gruesome_festival_immediate_log_title$"
+ gruesome_festival_faithful_nobility_option_log_title:0 "$gruesome_festival_immediate_log_title$"
+ gruesome_festival_faithful_commoners_option_log_title:0 "$gruesome_festival_immediate_log_title$"
+
+############## 
+# PHASE
+##############
+ gruesome_festival_phase:0 "$activity_gruesome_festival$"
+ gruesome_festival_phase_desc:0 "Unamos a los fieles en el sacrificio y confirmemos mi lugar como [GetPlayer.GetTitleAsNameNoTooltip|l] de todas las tierras."

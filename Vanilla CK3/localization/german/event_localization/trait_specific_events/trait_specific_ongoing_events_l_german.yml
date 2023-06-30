@@ -276,7 +276,7 @@
  trait_specific_ongoing.5005.b:0 "Ich wecke [courtier.Custom('DE_PRO_PER_S_3P_A')] auf: Hier draußen kann es doch kaum gemütlich sein."
 
  trait_specific_ongoing.6001.t:0 "Mit heruntergelassenen Hosen"
- trait_specific_ongoing.6001.desc:0 "Um mich vor meinem Treffen mit [lover.GetTitledFirstName] in Stimmung zu bringen, hole ich etwas hervor, was ich liebevoll „O [ROOT.Char.Custom('DeviantObject')] mein“ nenne …\n\nIch bin so versunken darin und erforsche dieses liebliche Instrument in allen Zügen, dass ich gar nicht höre, wie sich die Tür öffnet. Was ich dann sehr wohl höre, ist, wie [lover.Custom('DE_ART_DEF_S_N')] liebreizende [lover.GetFirstNameNoTooltip] nach Luft schnappt, als [lover.Custom('DE_PRO_PER_S_3P_N')] sieht, was ich tue."
+ trait_specific_ongoing.6001.desc:0 "Um mich vor meinem Treffen mit [lover.GetTitledFirstName] in Stimmung zu bringen, hole ich etwas hervor, was ich liebevoll „O [ROOT.Char.Custom('DeviantObjectNoun')] mein“ nenne …\n\nIch bin so versunken darin und erforsche dieses liebliche Instrument in allen Zügen, dass ich gar nicht höre, wie sich die Tür öffnet. Was ich dann sehr wohl höre, ist, wie [lover.Custom('DE_ART_DEF_S_N')] liebreizende [lover.GetFirstNameNoTooltip] nach Luft schnappt, als [lover.Custom('DE_PRO_PER_S_3P_N')] sieht, was ich tue."
  trait_specific_ongoing.6001.a:0 "Ich hätte da noch so etwas … Möchtet Ihr vielleicht mitmachen?"
  trait_specific_ongoing.6001.a.success:0 "[lover.Custom('DE_PRO_PER_S_3P_N')|U] ist mit von der Partie"
  trait_specific_ongoing.6001.a.failure:0 "[lover.Custom('DE_PRO_PER_S_3P_N')|U] teilt Eure … Vorlieben nicht"
@@ -284,14 +284,14 @@
  trait_specific_ongoing.6001.b_man:0 "Ich … Ein, ein Arzt empfiehlt es zur Förderung der Manneskraft!"
 
  trait_specific_ongoing.6002.t:0 "Perverser Lehnsherr"
- trait_specific_ongoing.6002.desc:0 "Mein[liege.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('liege'))] [liege.GetTitledFirstName], bei [liege.Custom('DE_ART_DEF_S_D')] ich zu Gast bin, lässt nach mir schicken.\n\nIch öffne die Tür zu seinen Gemächern und sehe [liege.Custom('DE_PRO_PER_S_3P_A')] in völliger Ekstase, unterstützt von etwas, was er „o [ROOT.Char.Custom('DeviantObject')] mein“ nennt … Ich wusste gar nicht, dass man [ROOT.Char.Custom('DeviantObjectPlural')] derart verwenden kann!"
+ trait_specific_ongoing.6002.desc:0 "Mein[liege.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('liege'))] [liege.GetTitledFirstName], bei [liege.Custom('DE_ART_DEF_S_D')] ich zu Gast bin, lässt nach mir schicken.\n\nIch öffne die Tür zu seinen Gemächern und sehe [liege.Custom('DE_PRO_PER_S_3P_A')] in völliger Ekstase, unterstützt von etwas, was er „o [ROOT.Char.Custom('DeviantObjectNoun')] mein“ nennt … Ich wusste gar nicht, dass man [ROOT.Char.Custom('DeviantObjectPlural')] derart verwenden kann!"
  trait_specific_ongoing.6002.a:0 "Oho, #EMP das#! sieht spannend aus!"
  trait_specific_ongoing.6002.b:0 "Oh, das … das sieht #EMP spannend#! aus."
  trait_specific_ongoing.6002.c:0 "Was soll das bedeuten?!"
  trait_specific_ongoing.6002.d:0 "Ich gehe dann mal lieber."
 
  trait_specific_ongoing.6003.t:0 "Perversion"
- trait_specific_ongoing.6003.desc_opening:0 "„O [ROOT.Char.Custom('DeviantObject')] mein!“ Ich bin gerade völlig in Ekstase, als mein[vassal.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName] den Raum betritt.\n\n"
+ trait_specific_ongoing.6003.desc_opening:0 "„O [ROOT.Char.Custom('DeviantObjectNoun')] mein!“ Ich bin gerade völlig in Ekstase, als mein[vassal.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName] den Raum betritt.\n\n"
  trait_specific_ongoing.6003.desc_deviant:0 "[vassal.Custom('DE_PRO_POS_S_3P')|U]e Augen werden groß, nicht aus Abscheu, sondern aus Interesse. „Oho, ich hätte nie gedacht, dass man so etwas #EMP derart#! verwenden kann. Ihr inspiriert mich!“"
  trait_specific_ongoing.6003.desc_joined:0 "Ich sehe, wie [vassal.Custom('DE_PRO_PER_S_3P_N')] zögert, doch dann schließt [vassal.Custom('DE_PRO_PER_S_3P_N')] die Tür und kommt herein. „O, [liege.GetTitledFirstNameNoTooltip], das sieht … #EMP spannend#! aus! Lasst mich Euch dabei helfen.“"
  trait_specific_ongoing.6003.desc_exposed:0 "Entsetzt reißt [vassal.Custom('DE_PRO_PER_S_3P_N')] die Tür weit auf. „[liege.GetTitledFirstNameNoTooltip]! Was soll das bedeuten?!“"

@@ -9,7 +9,7 @@
  court.5001.d:0 "[friend.GetSheHe|U]需要一个任务忙碌起来。"
 
  court.5010.t:0 "闹鬼"
- court.5010.desc:0 "越来越多睁大眼睛的仆人来找我，声称看到了[family_member.Custom2('MyCharacterIntroduction', ROOT.Char)]在大厅走动。\n\n“[family_member.GetSheHe|U]无法安息，[ROOT.Char.GetLadyLord]。这就是为什么[family_member.GetSheHe]一直在[family_member.GetHerHis]死亡的地方游荡！”"
+ court.5010.desc:0 "越来越多睁大眼睛的仆人来找我，声称看到了[family_member.Custom2('MyCharacterIntroduction', ROOT.Char)]在大厅走动。\n\n“[family_member.GetSheHe|U]无法安息，[ROOT.Char.GetLadyLord]。这就是[family_member.GetSheHe]一直在[family_member.GetHerHis]死亡的地方游荡的原因！”"
  court.5010.a:0 "别胡扯了，[family_member.GetSheHe]已经去世了！"
  court.5010.b:0 "真荣幸[family_member.GetSheHe]能来拜访我们，别打扰[family_member.GetHerHim]。"
  court.5010.c:0 "我会派人调查此事。"
@@ -31,7 +31,7 @@
  court.5025.a:0 "[ROOT.Char.Custom('CatStorySheHe')|U]是你的了！"
  court.5025.b:0 "你好大的胆子，我永远不会卖掉[ROOT.Char.Custom('CatStoryName')]！"
 
- court.5026.desc:1 "“如此闪亮的[ROOT.Char.Custom('DogFurColor')]毛皮，而且训练有素！我从未见过这样的好狗！”\n\n[buyer.Custom2('MyCharacterIntroduction', ROOT.Char)|U]若有所思地爱抚着[ROOT.Char.Custom('DogStoryName')]，然后转过身看向我。“[ROOT.Var('price_for_pet').GetValue|0]金币应该足够吧？”"
+ court.5026.desc:1 "“如此闪亮的[ROOT.Char.Custom('DogFurColor')]毛皮，而且训练有素！我从未见过这样的好狗！”\n\n[buyer.Custom2('MyCharacterIntroduction', ROOT.Char)|U]若有所思地爱抚着[ROOT.Char.Custom('DogStoryName')]，然后转过身看向我。“[ROOT.Var('price_for_pet').GetValue|0]金币买下它，足够吗？”"
  court.5026.a:0 "[ROOT.Char.Custom('DogStorySheHe')|U]是你的了！"
  court.5026.b:0 "你好大的胆子，我永远不会卖掉[ROOT.Char.Custom('DogStoryName')]！"
 
@@ -74,7 +74,7 @@
  court.5050.desc:2 "“为什么你把宫廷职位授予那个[courtier_given_title.Custom('InsultNoun')][courtier_given_title.GetTitledFirstName]，而不是我？”\n\n[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U]脸色铁青。显然[courtier.GetSheHe]一直以为这份荣誉会降临在[courtier.GetHerHim]身上，而不是别人。"
  court.5050.a:0 "哦，别胡扯啦！"
  court.5050.b:1 "你是对的，你值得一个职位。"
- court.5050.c:0 "如果你打算继续这样说笑话我会付钱给你的！"
+ court.5050.c:0 "如果你打算继续这样说笑话我会给你一个职位的！"
 
  court.5055.t:0 "绘画天赋"
  court.5055.desc:0 "[painter.Custom2('MyCharacterIntroduction', ROOT.Char)]坐在地板上，周围满是洒出的颜料和画布，这已经是我这个月第三次看到了。\n\n我的廷臣们认为[painter.GetHerHim]将来可能会成为一位艺术天才，但仆人却抱怨每次[painter.GetHerHis]释放#EMP 灵感#!后他们都要费好大力气才能把地板上的颜料擦干净。"

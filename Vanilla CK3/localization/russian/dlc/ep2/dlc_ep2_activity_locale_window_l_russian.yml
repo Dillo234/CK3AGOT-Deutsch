@@ -1,0 +1,35 @@
+﻿l_russian:
+
+ locale_window_your_intent:0 "Ваше [intent|El]"
+
+ locale_window_guests_header:0 "Гости"
+ locale_window_all_guests_button:0 "Все гости ([GetDataModelSize(Activity.GetAttendingCharacters)])"
+ locale_window_all_guests_button_tooltip:0 "Показать всех присутствующих [Concept( 'guests', 'гостей' )|E]"
+ locale_window_activity_log:0 "Журнал занятий"
+ locale_window_activity_log_no_entries:0 "Нет записей"
+
+ locale_window_enter_locale_tooltip:1 "Войти: [ActivityLocale.GetName]\n\n[ActivityLocale.GetDescription]"
+ locale_window_enter_locale_error_not_arrived:0 "@warning_icon!#X Вы еще не прибыли к месту занятия.#!"
+ locale_window_enter_locale_error_no_activity:0 "@warning_icon!#X Нет занятия.#!"
+ locale_window_enter_locale_error_no_character:0 "@warning_icon!#X Вы наблюдатель.#!"
+ locale_window_enter_locale_error_no_locale:0 "@warning_icon!#D Недействительная местность.#!"
+ locale_window_enter_locale_error_no_effect:0 "@warning_icon!#D В этой местности нет эффектов.#!"
+ locale_window_enter_locale_global_cooldown:0 "@warning_icon!Все места закрыты для посещения на [DATE.GetTimeToDate()]."
+ locale_window_enter_locale_specific_cooldown:0 "@warning_icon!Это место нельзя будет посетить еще [DATE.GetTimeToDate()]."
+ locale_window_enter_locale_auto_select_cooldown:0 "Вы автоматически посетите какое-либо место спустя [DATE.GetTimeToDate()]."
+ locale_window_enter_locale_not_opened_yet:0 "@warning_icon!Это место откроется через [DATE.GetTimeToDate()]."
+ locale_window_enter_locale_phase_is_active:0 "@warning_icon!#X В текущей фазе вы не можете посещать местные достопримечательности.#!"
+
+ locale_window_your_activity_status:0 "Вы [SelectLocalization( ObjectsEqual( GetPlayer, Activity.GetHost ), 'locale_window_your_activity_status_hosting', 'locale_window_your_activity_status_attending')] занятие «[Activity.GetNameNoTooltip]» в местности [Activity.GetCurrentPhase.GetLocation.GetNameNoTooltip]$locale_window_your_activity_status_select_special_guest$."
+ locale_window_your_activity_status_select_hosting_or_attending:0 "[SelectLocalization( ObjectsEqual( GetPlayer, Activity.GetHost ), 'locale_window_your_activity_status_hosting', 'locale_window_your_activity_status_attending')]"
+ locale_window_your_activity_status_attending:0 "посещаете проводимое персонажем [Activity.GetHost.GetShortUIName]"
+ locale_window_your_activity_status_hosting:0 "проводите"
+ locale_window_your_activity_status_select_special_guest:0 "[SelectLocalization( Activity.IsSpecialGuest( GetPlayer ), 'locale_window_your_activity_status_hosting', '')]"
+ locale_window_your_activity_status_special_guest:1 " — здесь вы — [Activity.GetSpecialGuestTypeForCharacter(GetPlayer).GetNameIfHost( Activity.GetHost )]"
+ 
+ locale_window_status_icon_location_tooltip:0 "Ваше местоположение: [Activity.GetCurrentPhase.GetLocation.GetName]"
+ locale_window_status_icon_special_guest_tooltip:0 "Проходит [Activity.GetName], и вы — [Activity.GetSpecialGuestTypeForCharacter(GetPlayer).GetNameIfHost( Activity.GetHost )]"
+
+ locale_window_widget_current_phase_header:0 "[SelectLocalization( Activity.IsCurrentPhaseActive, 'locale_window_widget_current_phase_active', 'locale_window_widget_current_phase_passive' )]"
+ locale_window_widget_current_phase_passive:0 "#bold Сейчас#!: #high Ожидание, когда начнется#! [Activity.GetCurrentPhase.GetPhase.GetName]"
+ locale_window_widget_current_phase_active:0 "#bold Сейчас#!: #high В разгаре#! [Activity.GetCurrentPhase.GetPhase.GetName]"

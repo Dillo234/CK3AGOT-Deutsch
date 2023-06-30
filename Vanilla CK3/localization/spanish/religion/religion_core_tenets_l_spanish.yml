@@ -42,17 +42,17 @@
 
  tenet_human_sacrifice_name:0 "Sacrificio humano"
  tenet_human_sacrifice_desc:0 "El mejor modo de demostrar nuestra devoción es mediante el acto del sacrificio y lo más valioso que podemos sacrificar es la vida humana."
- doctrine_parameter_human_sacrifice_active:0 "Las [executions|lE] ganan [piety|lE] en lugar de costar [piety|lE]"
+ doctrine_parameter_human_sacrifice_active:1 "Las [executions|lE] ganan [piety|lE] en lugar de costar [piety|lE]\n$EFFECT_LIST_BULLET$Las [executions|lE] nunca cuestan [prestige|lE] al [sharing_power|lE]"
  doctrine_parameter_flower_war_cb_active:0 "Otorga el [casus_belli|lE] de [flowery_war|lE] contra señoríos vecinos de esta [faith|lE]"
 
  tenet_gruesome_festivals_blot_name:0 "Blót"
  tenet_gruesome_festivals_name:0 "Festivales truculentos"
- tenet_gruesome_festivals_desc:0 "Todos nacemos entre sangre. Sobrevivimos con la sangre de nuestro ganado, nuestra familia, nuestros enemigos. Es natural pues que [ROOT.Faith.PantheonTerm] reclame su parte."
+ tenet_gruesome_festivals_desc:0 "Todos nacemos entre sangre. Sobrevivimos con la sangre de nuestro ganado, nuestra familia, nuestros enemigos. Es natural pues que [ROOT.Faith.PantheonTerm] reclame/n su parte."
  gruesome_festivals_active_name:0 "capacidad para celebrar grandes sacrificios"
  doctrine_parameter_gruesome_festivals_active:0 "Capaz de celebrar grandes sacrificios una vez por década para súbditos de la misma [faith|lE] y [county_opinion|lE]"
 
  tenet_volcanic_veneration_name:0 "Veneración volcánica"
- tenet_volcanic_veneration_desc:0 "Pocas cosas hay más divinas que la tierra recién nacida que brota de las fosas ardientes de nuestro hogar. Nos pasamos la vida al borde del desastre, siempre a merced del [ROOT.Faith.PantheonTerm]."
+ tenet_volcanic_veneration_desc:0 "Pocas cosas hay más divinas que la tierra recién nacida que brota de las fosas ardientes de nuestro hogar. Nos pasamos la vida al borde del desastre, siempre a merced de [ROOT.Faith.PantheonTerm]."
  tenet_cthonic_redoubts_name:0 "Reductos ctónicos"
  tenet_cthonic_redoubts_desc:0 "No hay mejor refugio que las raíces de la Tierra, ni fortaleza más dura que sus espinas proyectadas, ni peregrinación más sagrada que sus senderos ocultos. Contemplamos la Creación desde estas elevadas cumbres y sentimos el verdadero peso de lo Divino."
  doctrine_parameter_easier_to_convert_faith_in_mountains:0 "Velocidad de [convert_county|lE] en ([terrain|lE]) de montaña: #P +[EmptyScope.ScriptValue('easier_to_convert_faith_in_mountains_bonus_loc_control')|0] %#!"
@@ -87,13 +87,17 @@
 
  tenet_aniconism_name:0 "Aniconismo"
  tenet_aniconism_desc:0 "Adorar imágenes talladas ha cegado a demasiada gente de la verdad divina. Desterraremos todos los iconos de nuestros lugares sagrados para que nuestros fieles no caigan en esa trampa."
+ doctrine_parameter_reforging_artifacts_costs_piety:0 "Los [rulers|lE] de esta [faith|lE] deben gastar [piety|lE] para [reforge|lE] o [repair|lE] [artifacts|lE]"
+ doctrine_parameter_destroying_artifacts_is_pious:0 "Los [rulers|lE] de esta [faith|lE] pueden destruir [artifacts|lE] por [piety|lE]"
+ destroying_artifacts_is_not_pious_tt:0 "Tu [faith|lE] no puede destruir [artifacts|lE] por [piety|lE]"
+ artifact_is_rarer_than_masterwork_tt:0 "Este [artifact|lE] tiene una [rarity|lE] mayor que obra maestra"
 
  tenet_alexandrian_catechism_name:0 "Catecismo alejandrino"
  tenet_alexandrian_catechism_desc:0 "La escuela catequística de Alejandría tenía una vasta tradición de alentar a los teólogos a pensar de manera crítica y cuestionar el status quo.\n\nY nosotros, pese la destrucción física de la escuela, continuamos con estas tradiciones."
 
  tenet_hedonistic_name:0 "Hedonista"
  tenet_hedonistic_desc:0 "La divinidad llenó este mundo con un abundancia de placeres para que nos entreguemos y disfrutemos. No participar de tales cosas es rechazar la obra misma de la Creación."
- doctrine_parameter_piety_from_feasts_active:1 "Celebrar un [feast|lE] aporta [piety|lE]"
+ doctrine_parameter_piety_from_feasts_active:1 "Celebrar un [GetActivityType('activity_feast').GetName|l] gana [piety|lE]"
 
  tenet_carnal_exaltation_name:0 "Exaltación carnal"
  tenet_carnal_exaltation_desc:0 "Los placeres de la carne son sublimes de un modo que transciende otras experiencias terrenales y nos acerca a la divinidad. Debemos glorificar nuestros deseos sexuales y buscar oportunidades para realizarlos."
@@ -129,6 +133,7 @@
 
  tenet_false_conversion_sanction_name:0 "Conversiones falsas aprobadas"
  tenet_temporal_condemnation_taqiya:0 "Taqiya"
+ tenet_anusim:0 "Anusim"
  tenet_false_conversion_sanction_desc:0 "Si nuestra vida corre peligro, es aceptable declarar una fe falsa, mientras en nuestros corazones mantengamos la verdad."
  doctrine_parameter_sanctioned_false_conversion:0 "Resistencia a la conversión: #P +30%#!$EFFECT_LIST_BULLET$[characters|E] y [counties|lE] pueden a veces regresar a esta [faith|lE] si se descarrían."
 
@@ -155,8 +160,11 @@
  doctrine_parameter_reincarnation_events_active:1 "Los niños tienen una oportunidad de ser considerados la reencarnación de un antepasado, dando bonificaciones en [piety|lE] y [opinion|lE]"
 
  tenet_esotericism_name:0 "Esoterismo"
+ tenet_esotericism_kabbalah:0 "Cábala"
  tenet_esotericism_desc:0 "Los grandes misterios de lo divino pueden estar más allá de la comprensión mortal, pero eso no es una excusa para la ignorancia. Su existencia misma nos obliga a buscar conocimiento y comprensión del mundo que nos rodea."
- doctrine_parameter_tenet_esotericism_mystic_education:1 "Los niños con el [education_focus|lE] de [learning|lE] pueden ganar el rasgo [GetTrait('mystic_1').GetName( GetNullCharacter )] si van bien en los estudios."
+ doctrine_parameter_tenet_esotericism_mystic_education:2 "Los niños con el [education_focus|lE] de [learning|lE] pueden ganar el rasgo [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] si van bien en los estudios."
+ tenet_esotericism_kabbalah_desc:0 "Las enseñanzas de la Cábala llevan a que los mortales puedan comprender la relación entre el Dios eterno, la naturaleza del infinito conocida como Ein Sof, y la creación de Dios. La Cábala constituye la base de todo el misticismo judaico, y sus practicantes suelen relacionarse a menudo con otras escuelas judías."
+ tenet_religious_kabbalah_cost_tooltip:0 "Cábala: #P -10 %#!"
 
  #Eastern Tenets
  tenet_adaptive_name:0 "Adaptable"
@@ -223,7 +231,7 @@
  tenet_mystical_birthright_name:0 "Derechos de nacimiento prometedores"
  tenet_mystical_birthright_alternate:0 "Táltos Születés"
  tenet_mystical_birthright_desc:0 "Todos nacemos con un destino, el más importante de los cuales es el de los táltos: los que son elegidos desde el nacimiento para ostentar poderes mágicos y convertirse en grandes líderes espirituales."
- doctrine_parameter_mystic_birthright_active:0 "Rara vez los niños nacerán con el rasgo [GetTrait('mystic_3').GetName( GetNullCharacter )]"
+ doctrine_parameter_mystic_birthright_active:1 "Rara vez los niños nacerán con el rasgo [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]"
 
  tenet_astrology_name:0 "Astrología"
  tenet_astrology_desc:0 "El cielo nocturno es nuestra ventana al reino de lo divino. Allí están escritos los grandes secretos y misterios del mundo, abiertos para que todos los descubran, si saben dónde mirar."

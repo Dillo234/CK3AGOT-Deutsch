@@ -51,6 +51,7 @@
  health.1001.desc:0 "[ROOT.Char.GetTitleTierName] ou paysa[ROOT.Char.Custom('FR_NNne')], de haute noblesse ou de basse extraction, peu importe. En fin de compte, nous ne sommes que de simples mortels. C’est ce que je me suis dit tôt ce matin lorsque je me suis réveillé[ROOT.Char.Custom('FR_E')] avec de la toux et une douleur sourde qui me martelait la tête et la gorge."
  health.1001.court_physician.desc:0 "\n\n« Vous semblez être souffrant[ROOT.Char.Custom('FR_E')], [ROOT.Char.Custom('FR_MonseigneurMadame')|U]. Je connais plusieurs remèdes appropriés. »"
  health.1001.a:0 "Tout ce que je veux, c’est rester au lit..."
+ health.1001.b:0 "Je dois immédiatement rentrer !"
 
  health.1002.t:1 "[SCOPE.Custom('EventTitleDisease')] : aussi tranchant qu’un couteau"
  health.1002.desc:0 "Respirer est une chose tellement facile et merveilleuse – un petit miracle auquel on pense rarement. J’y pense continuellement, maintenant que je dois lutter pour maintenir mon souffle et que mes accès de toux sont suivis de douleurs à la poitrine."
@@ -74,7 +75,7 @@
  health.1005.a:0 "Je vous en prie, faites-le partir !"
 
  health.1006.t:1 "[SCOPE.Custom('EventTitleDisease')] : petit à petit"
- health.1006.desc:0 "Une tache cramoisie si vive par rapport à la pâleur de l’étoffe. Je la regarde avec incrédulité, réprimant une autre quinte de toux. Est-ce...? Ai-je...?\n\nJe passe mes doigts sur mes lèvres, puis je retire ma main tremblante. Je peux sentir l’humidité chaude, mais j’ai peur de regarder."
+ health.1006.desc:0 "Une tache cramoisie si vive par rapport à la pâleur de l’étoffe. Je la regarde avec incrédulité, réprimant une autre quinte de toux. Est-ce... ? Ai-je... ?\n\nJe passe mes doigts sur mes lèvres, puis je retire ma main tremblante. Je peux sentir l’humidité chaude, mais j’ai peur de regarder."
  health.1006.court_physician.desc:0 "\n\n« J’ai peur que vous n’ayez contracté la consomption, [ROOT.Char.Custom('FR_MonseigneurMadame')|U]. Je vais vous traiter immédiatement. »"
  health.1006.a:0 "Est-ce mon destin de dépérir lentement ?"
 
@@ -109,9 +110,15 @@
  health.1011.court_physician.desc:0 "\n\n« [ROOT.Char.Custom('FR_MonseigneurMadame')|U], je ferai tout ce qui est en mon pouvoir, mais il serait peut-être sage de se préparer au pire... »"
  health.1011.a:1 "Oh, [ROOT.Char.GetFaith.HealthGodName] ! Sortez-moi de ce cauchemar !"
 
+ # Travel loc if you get ill on the road
+ health.travel.t:0 "[SCOPE.Custom('EventTitleDisease')] : la fin du voyage ?"
+ health.travel.option.home:0 "Je peux obtenir les meilleurs soins chez moi."
+ health.travel.option.home.flavor:0 "Vous quittez [ROOT.Char.GetInvolvedActivity.Custom('FR_Le_ActivityFull')][ROOT.Char.GetInvolvedActivity.GetNameNoTooltip|l] et rentrez chez vous"
+ health.travel.option.continue:0 "Nous devons persévérer."
+
  # Recover from diseases, by Mathilda Bjarnehed
  health.1101.t:1 "[SCOPE.Custom('EventTitleDisease')] : le rétablissement"
- health.1101.desc:0 "Quand je me suis réveillé[ROOT.Char.Custom('FR_E')] ce matin et que j’ai vu des rayons de soleil passer à travers ma fenêtre, il m’a fallu un moment pour prendre conscience que j’avais dormi profondément pour la première fois depuis des semaines. Ma toux a disparu !"
+ health.1101.desc:1 "Quand je me suis réveillé[ROOT.Char.Custom('FR_E')] ce matin et que j’ai remarqué les premiers rayons du soleil, il m’a fallu un moment pour prendre conscience que j’avais dormi profondément pour la première fois depuis des semaines. Ma toux a disparu !"
  health.1101.a:0 "Je suis content[ROOT.Char.Custom('FR_E')] d’aller de nouveau bien."
 
  health.1102.t:1 "[SCOPE.Custom('EventTitleDisease')] : ma force revient"
@@ -254,11 +261,15 @@
  health.3001.already_sick.desc:0 "Mes domestiques ont enfin trouvé des personnes qui pourraient être aptes à exercer les fonctions de médecin de la Cour. Quoi qu’il en soit, je crains de ne pas pouvoir me permettre de faire la fine bouche maintenant."
  health.3001.a:0 "Apparemment, [high_skill_option.GetFirstNameNoTooltip] a beaucoup d’expérience."
  health.3001.a.tt:1 "Un [GetCourtPositionType('court_physician_court_position').GetName()|l] a également un salaire mensuel de [SCOPE.ScriptValue('court_position_physician_salary')][gold_i]"
+ health.3001.a.aptitude:0 "La [aptitude|El] [high_skill_option.Custom('FR_du_Char_U_P')][high_skill_option.GetUIName] est [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
  health.3001.b:0 "[low_skill_option.GetFirstNameNoTooltip] semble enthousiaste, à défaut d’autre chose."
+ health.3001.b.aptitude:0 "La [aptitude|El] [low_skill_option.Custom('FR_du_Char_U_P')][low_skill_option.GetUIName] est [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
  health.3001.c:0 "[mystic_option.GetFirstNameNoTooltip] dit être formé[mystic_option.Custom('FR_E')] à la « médecine alternative »."
+ health.3001.c.aptitude:0 "La [aptitude|El] [mystic_option.Custom('FR_du_Char_U_P')][mystic_option.GetUIName] est [mystic_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
  health.3001.d.two:0 "Aucun des deux ne parvient à m’impressionner."
  health.3001.d.more:0 "Aucun ne parvient à m’impressionner."
  health.3001.e:0 "[excellent_skill_option.GetFirstNameNoTooltip] est très connu[excellent_skill_option.Custom('FR_E')] dans les milieux universitaires."
+ health.3001.e.aptitude:0 "La [aptitude|El] [excellent_skill_option.Custom('FR_du_Char_U_P')][excellent_skill_option.GetUIName] est [excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
  health.3001.d.tt:1 "Vous ne recrutez pas de [GetCourtPositionType('court_physician_court_position').GetName()|l]."
 
  #Disease treatment, by Mathilda Bjarnehed & Milla Isaksson
@@ -438,7 +449,7 @@
  health.4102.t:1 "$health_wounded_title$ les douleurs"
  health.4102.desc_infection:0 "Le sac qu’a apporté [physician.GetFirstName] dans mes appartements bougeait de lui-même, comme si le contenu était vivant. Lorsqu’[physician.Custom('FR_IlElle')] sortit une sangsue frétillante, je me suis senti[ROOT.Char.Custom('FR_E')] devenir pâle. « Il vous faut juste attendre maintenant, [ROOT.Char.Custom('FR_MonseigneurMadame')|U]... »\n\nQuel que soit l’effet qu’[physician.Custom('FR_IlElle')] avait espéré que ce n’était sûrement pas cela. Bien que les créatures m’aient saigné, cela"
  health.4102.desc_end:0 "ne fit rien pour équilibrer mes humeurs et la douleur ne fit que s’aggraver."
- health.4102.a:0 "Aïe...! Ne me touchez pas !"
+ health.4102.a:0 "Aïe... ! Ne me touchez pas !"
 
  health.4103.t:1 "$health_wounded_title$ des mains qui soignent"
  health.4103.risky_treatment_medicine.1.desc:0 "Lorsque [physician.GetFirstName] a allumé un feu dans mes appartements, j’ai présumé que la chaleur était destinée à m’aider à équilibrer mes humeurs. Cependant, lorsque son assistant a commencé à m’attacher à mon lit, j’ai remarqué une tige de fer en train de chauffer dans les flammes."

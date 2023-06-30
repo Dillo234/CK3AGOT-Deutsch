@@ -1,0 +1,27 @@
+﻿l_spanish:
+ 
+ ## PLAYDATE GUEST INVITE RULES
+ activity_invite_rule_siblings:0 "Hermanos"
+ activity_invite_rule_crushes:0 "Flechazos"
+ activity_invite_rule_personal_scheme_targets:0 "Objetivos de conjura"
+ activity_invite_rule_powerful_vassals_children:0 "Hijos de vasallos poderosos"
+ activity_invite_rule_vassals_children:0 "Hijos de vasallos"
+ activity_invite_rule_fellow_vassals_children:0 "Los hijos de otros vasallos"
+ playdate_conc_reward_title:0 "Concluye el encuentro con rapaces"
+ playdate_conc_reward:0 "[ROOT.Char.GetShortUINameNoTooltip] [Select_CString( ROOT.Char.IsPlayer, 'celebraste', 'celebró' )] un encuentro de rapaces exitoso"
+
+
+ #Play date
+ activity_playdate:0 "Encuentro con rapaces"
+ activity_playdate_name:0 "[ACTIVITY.GetOwner.LocalPlayerString('Mi', 'El' )] encuentro con rapaces [ACTIVITY.GetOwner.LocalPlayerString('', 'Loc_ES_de_GetName' )]"
+ activity_playdate_selection_tooltip:1 "¡Han invitado a todos los críos de importancia del señorío para conocer a otros niños de su edad, divertirse y jugar!\n\nRecompensas previstas:\n$BULLET_WITH_TAB$[opinion|E] [opinion_i]"
+ activity_playdate_desc:1 "¡Invitar a todas las damas y señores menudos del señorío para que se diviertan en la compañía de otros niños es una experiencia liberadora y divertida!"
+ activity_playdate_host_desc:0 "Puede aumentar la [opinion|lE] de tus vasallos y cortesanos sobre ti"
+ activity_playdate_owner:0 "Anfitrión"
+
+ playdate_phase_desc:0 "Socializa con otros rapaces."
+ activity_playdate_conclusion_desc:1 "¡Muchos niños de mi señorío se unieron a mí para socializar y divertirse!"
+ activity_playdate_guest_desc:0 "Puede aumentar la [opinion|lE] de tu señor sobre ti."
+ activity_playdate_guest_help_text:0 "$activity_playdate_desc$"
+ activity_playdate_province_desc:0 "Esta es tu [capital|lE]"
+ activity_playdate_destination_selection:0 "Solamente puedes celebrar un encuentro de rapaces en tu [capital|lE]."

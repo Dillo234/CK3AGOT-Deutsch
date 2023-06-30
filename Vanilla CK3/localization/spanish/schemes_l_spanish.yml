@@ -1,7 +1,7 @@
 ﻿l_spanish:
  SCHEME_AGENT_GOLD:0 "Sobornar"
  SCHEME_AGENT_GOLD_VALID:0 "Pagar [SCOPE.ScriptValue('bribe_value')|V0] [gold_i] a [recipient.GetShortUINameNoTooltip]"
- SCHEME_HOOK:0 "Usa un [hook|El]"
+ SCHEME_HOOK:1 "Usar un [hook|lE] [hook_i]"
  SCHEME_TT_HEADER:0 "#T [SCHEME.GetFullActionName]#!"
  SCHEME_TT_BODY:1 "Objetivo: [SCHEME.GetTarget.GetUIName]\nProgreso: [SCHEME.GetProgress|0V]/#V 10#! (#V ~[SCHEME.GetEstimatedTimeRemaining]#!)\n[success_chance|E]: #V $SUCCESS_CHANCE$ %#!"
  SCHEME_TT_SECRECY:0 "[secrecy|E]: #V $SECRECY$ %#!"
@@ -11,7 +11,10 @@
  SCHEME_UNKNOWN:0 "Conjura desconocida"
  SCHEME_INFLUENCE_NUMBER:0 "$VALUE|2$"
  SCHEME_PROGRESS_DESCRIPTION:0 "Progreso de la conjura: [SCHEME.GetProgress|0V]/#V 10#!"
- SCHEME_PROGRESS_FROZEN:0 "El progreso está congelado hasta [DATE.GetString|V]"
+ SCHEME_PROGRESS_FROZEN:1 "El progreso está congelado"
+ SCHEME_PROGRESS_FROZEN_DATE:0 "El progreso está congelado hasta [DATE.GetString|V]"
+ SCHEME_PROGRESS_FROZEN_REASON:0 "El progreso está congelado porque $REASON$"
+ SCHEME_PROGRESS_FROZEN_DATE_REASON:0 "El progreso está congelado hasta [DATE.GetString|V] porque $REASON$"
  scheme_setup_heads_up:0 "Intento terminar la conjura."
  SCHEME_FULL_ACTION_NAME:1 "[SCHEME.GetActionName] [SCHEME.GetTarget.GetShortUINameNoTooltip]"
  SCHEME_MY_LEARNING:0 "Mi [learning|lE]: $VALUE|+=0$"
@@ -27,11 +30,12 @@
  murder_desc:0 "¡Es hora de que [SCHEME.GetTarget.GetShortUINameNoTooltip] afronte el juicio de [SCHEME.GetOwner.GetFaith.HighGodName]!"
  murder_desc_general:1 "El $murder$ es una [hostile_scheme|lE] en la que se busca matar a su objetivo. Es [Concept( 'secret_scheme', 'secreta' )|E] y se basa en la [intrigue|lE]. Además, permite reclutar [agents|lE].\n\nSi se consuma el asesinato, terminará con la [Concept( 'character_death_death', 'muerte' )|E] del [scheme_target|lE]. Si el asesinato consigue permanecer en secreto, el [Concept( 'scheme_owner', 'líder de la conjura' )|E] conseguirá un [secret|lE] de asesinato.\n\nSi te pillan intentando asesinar a alguien o se descubre que lo hiciste, se considerará un [Concept( 'crime', 'delito' )|E] grave."
  scheme_interaction_tt_murder_approved:1 "Intentar asesinar a [recipient.GetShortUINameNoTooltip]"
- murder_successful_roll_tt:0 "¡Han matado a [target.GetShortUINameNoTooltip]!"
+ murder_successful_roll_tt:0 "¡Han matado a [Select_CString( target.IsLocalPlayer, 'tu persona', target.GetShortUIName )]!"
+ murder_entourage_successful_roll_tt:0 "¡Algunos miembros del séquito de [Select_CString( target.IsLocalPlayer, 'tu persona', target.GetShortUINameNoTooltip )] han sido asesinados!"
  murder_become_discovered_roll_tt:0 "#N Se ha descubierto mi participación#!"
  MURDER_SUCCESS_DESC:0 "Han matado a [TARGET_CHARACTER.GetShortUIName]"
  MURDER_DISCOVERY_DESC:1 "No se ha expuesto tu participación en el [crime|lE] de asesinato."
- ABDUCT_SUCCESS_DESC:2 "[TARGET_CHARACTER.GetShortUIName] se convierte en tu [Concept( 'prisoner', 'prisioner' )|E][TARGET_CHARACTER.Custom('ES_OA')]. Sin embargo, quedará expuesta tu participación en el [crimel|LE] de secuestro."
+ ABDUCT_SUCCESS_DESC:2 "[TARGET_CHARACTER.GetShortUIName|U] se convierte en tu [Concept( 'prisoner', 'prisioner' )|E][TARGET_CHARACTER.Custom('ES_OA')]. Sin embargo, quedará expuesta tu participación en el [crime|lE] de secuestro."
  ABDUCT_DISCOVERY_DESC:1 "No se ha expuesto tu participación en el [crime|lE] de secuestro."
  BEFRIEND_SUCCESS_DESC:1 "[TARGET_CHARACTER.GetShortUIName] podría ser tu amig[TARGET_CHARACTER.Custom('ES_OA')]"
  COURT_SUCCESS_DESC:0 "[TARGET_CHARACTER.GetShortUIName] se convierte en tu alma gemela"
@@ -53,7 +57,7 @@
  learn_language_learn_language_success_message:0 "Idioma aprendido"
  learn_language_learn_language_failed_message:0 "Fracaso al aprender idioma"
  scheme_interaction_tt_learn_language_desc:0 "¡Aprenderé el [language|lE] de [recipient.GetShortUINameNoTooltip]!"
- learn_language_invalidated_cannot_learn_language_desc:0 "Ya no puedes aprender el [language|lE] de [TARGET.GetShortUIName]"
+ learn_language_invalidated_cannot_learn_language_desc:0 "Ya no puedes aprender el [language|lE] de [target.GetShortUIName]"
  learn_language_invalidated:0 "$learn_language$ Invalidado"
  learn_language_invalidated_dead_desc:0 "[target.GetShortUIName] ha fallecido. Ya no puedes usar $learn_language$ con [target.Custom('ES_ElElla')]"
  learn_language_complete:1 "Has aprendido el [language|lE] [target.GetCulture.GetLanguage.GetName] de [target.GetShortUINameNoTooltip]"
@@ -63,7 +67,7 @@
 
  abduct:1 "Secuestro"
  abduct_action:0 "Secuestrar"
- abduct_desc:0 "¡Secuestraré y [Concept( 'imprision', 'encarcelaré' )|E] a [SCHEME.GetTarget.GetShortUINameNoTooltip]!"
+ abduct_desc:0 "¡Secuestraré y [Concept( 'imprison', 'encarcelaré' )|E] a [SCHEME.GetTarget.GetShortUINameNoTooltip]!"
  abduct_desc_general:2 "La [scheme|lE] de secuestro es aquella [hostile_scheme|E] que busca [Concept( 'imprison', 'encarcelar' )|E] a su objetivo. Es [Concept( 'secret_scheme', 'secreta' )|E] y se basa en la [intrigue|lE]. Además, permite reclutar [agents|lE].\n\nSi se logra realizar el secuestro con éxito, el [scheme_target|lE] acabará encarcelado por el [scheme_owner|lE]."
  scheme_interaction_tt_abduct_approved:1 "¡[recipient.GetShortUIName] pronto será mi prisioner[recipient.Custom('ES_OA')]!"
  abduct_successful_roll_tt:0 "¡[target.GetShortUINameNoTooltip] se convierte en mi prisioner[target.Custom('ES_OA')]!"
@@ -127,7 +131,7 @@
  claim_throne_desc_general:1 "Una [scheme|lE] hostil que permite a un personaje ganar un [claim|lE] contra el [Concept( 'primary_title', 'título principal' )|E] de su [liege|lE] directo."
  claim_throne_action:0 "Reivindicar el trono de"
  claim_throne_successful_roll_tt:1 "Consigues un [pressed_claim|lE] sobre [target_title.GetName]"
- claim_throne_interaction_desc:1 "Intentar [claim_the_throne|lE] de [recipient.GetPrimaryTitle.GetNameNoTier]"
+ claim_throne_interaction_desc:1 "Intentar reivindicar el trono de [recipient.GetPrimaryTitle.GetNameNoTier]"
  claim_throne_success_discovery_tt:0 "\nIndependientemente del éxito o fracaso:"
  claim_throne_become_discovered_roll_tt:1 "¡Han descubierto tus inventos!"
 
@@ -139,7 +143,7 @@
  fabricate_hook_interaction_desc:1 "Intenta crear un [hook|lE] sobre [recipient.GetShortUINameNoTooltip]"
  fabricate_hook_scheme_invalidated_title:0 "Fin de conjura de anzuelo"
  fabricate_hook_has_gained_hook:0 "Has ganado un [hook|lE] sobre [target.GetShortUIName]"
- fabricate_hook_i_may_not_fabricate_again:0 "No podrás volver a crear un anzuelo en la corte de [court_owner.GetShortUIName] durante 5 años"
+ fabricate_hook_i_may_not_fabricate_again:1 "[owner.GetShortUIName|U] no podrá volver a crear un anzuelo en la corte de [court_owner.GetShortUIName] durante cinco años"
  fabricate_hook_gained_manipulation_title:0 "Anzuelo creado: manipulación"
  fabricate_hook_gained_indebted_title:0 "Anzuelo creado: deuda"
  fabricate_hook_gained_threat_title:0 "Anzuelo creado: amenaza"
@@ -168,7 +172,7 @@
 
  scheme_interaction_tt_spy_on_approved:1 "¡Pronto descubriré lo que sea que [recipient.GetShortUIName] intenta mantener oculto!"
  
- SCEHEME_ON_COOLDOWN:0 "#X No puedo usar $SCHEME_NAME$ sobre [TARGET_CHARACTER.GetShortUIName] hasta [DATE.GetStringLong]#!"
+ SCEHEME_ON_COOLDOWN:0 "#X No se puede usar $SCHEME_NAME$ sobre [TARGET_CHARACTER.GetShortUIName] hasta [DATE.GetStringLong]#!"
  scheme_target_is_incapable:0 "[target.GetShortUIName] es [GetTrait('incapable').GetName( target )]"
 
  
@@ -236,3 +240,20 @@
 
  # FABRICATE HOOK EXTRA
  CAN_NOT_FABRICATE_HOOKS_ON_WANDERERS:0 "No se pueden crear anzuelos sobre personajes errantes"
+
+ DIARCH_REALM_INFLUENCE:0 "Los [diarchs|lE] [Concept( 'scheme', 'intrigan' )|E] mejor en el [realm|lE] de su [liege|E]: $VALUE|=+%/0$"
+
+ FREEZE_REASON_TRAVELING:0 "estás viajando."
+ FREEZE_REASON_TARGET_TRAVELING:0 "[SCHEME.GetTarget.GetShortUINameNoTooltip] está viajando."
+ BEFRIENDING_AT_FEAST:0 "[SCHEME.GetTarget.GetShortUINameNoTooltip] participa en el mismo festín que tú."
+
+ overthrow_regent:0 "Derrocar al regente"
+ overthrow_regent_action:0 "Derrocar"
+ overthrow_regent_desc:0 "¡Secuestraré y [Concept( 'imprison', 'encarcelaré' )|E] a [SCHEME.GetTarget.GetShortUINameNoTooltip] para obligarle a que me entregue su cargo de [SCHEME.GetTarget.GetDiarchTitle|l]!"
+ overthrow_regent_desc_general:0 "La [scheme|lE] $overthrow_regent$ es aquella [hostile_scheme|lE] que busca usurpar el puesto de [regent|lE] de su objetivo [Concept( 'imprison', 'encarcelándolo' )|E]. Es [Concept( 'secret_scheme', 'secreta' )|E], se basa en la [intrigue|lE] y permite reclutar [agents|lE].\n\nSi se logra realizar el derrocamiento con éxito, el [scheme_target|lE] acabará encarcelado por el [scheme_owner|lE] (si [Concept( 'landed', 'tiene tierras' )|E]) o por el [liege|lE] (si no)."
+ overthrow_regent_scheme_invalidated_title:0 "@scheme_icon! Fin de conjura de secuestro"
+ overthrow_regent_scheme_i_imprisoned_them_message:0 "[target.GetShortUIName] ya está en mi prisión"
+ overthrow_regent_scheme_cannot_become_regent:0 "[TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'has', 'ha' )] sido encarcelad[TARGET_CHARACTER.Custom('ES_OA')] por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )]"
+ OVERTHROW_REGENT_SUCCESS_DESC:0 "$ABDUCT_SUCCESS_DESC$"
+ OVERTHROW_REGENT_DISCOVERY_DESC:0 "$ABDUCT_DISCOVERY_DESC$"
+ i_could_not_take_their_place:0 "No soy válido para ser [TARGET_CHARACTER.GetDiarchTitle|l]"

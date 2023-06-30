@@ -17,7 +17,7 @@
  REQUEST_TRIAL_BY_COMBAT_TEXT:0 "¡[recipient.Custom('InsultNoun')|U]! Tus delitos contra mí son censurables. Enfréntate a mí en un combate individual y que la batalla resuelva nuestras diferencias."
  fp1_tbc_no_available_champions:1 "[recipient.GetFirstNameNoTooltip] no es un[recipient.Custom('ES_XA')] combatiente válid[recipient.Custom('ES_OA')] y no tiene campeones disponibles"
  fp1_tbc_recipient_banned_from_combat:1 "A este personaje no se le permite combatir"
- fp1_tbc_recipient_will_designate_champion:1 "[recipient.GetTitledFirstNameNoTooltip] no es un[recipient.Custom('ES_XA')] guerrer[recipient.Custom('ES_OA')] válid[recipient.Custom('ES_OA')] y nombrará a un caballero diestro para que sea su campeón"
+ fp1_tbc_recipient_will_designate_champion:1 "[recipient.GetTitledFirstNameNoTooltip|l] no es un[recipient.Custom('ES_XA')] guerrer[recipient.Custom('ES_OA')] válid[recipient.Custom('ES_OA')] y nombrará a un caballero diestro para que sea su campeón"
  fp1_tbc_winner_actor:2 "Si [actor.GetShortUINameNoTooltip] [Select_CString( actor.IsLocalPlayer, 'consigues', 'consigue' )] la victoria"
  fp1_tbc_winner_recipient:2 "Si [recipient.GetShortUINameNoTooltip] [Select_CString( recipient.IsLocalPlayer, 'consigues', 'consigue' )] la victoria"
  TBC_DEATH:0 "Muerte"

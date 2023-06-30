@@ -11,7 +11,7 @@
 
 # Invent code for messages, by Linnéa Thimrén
  intrigue_scheming.1011.t:0 "Besoin de confidentialité"
- intrigue_scheming.1011.desc:0 "« [ROOT.Char.Custom('FR_MonseigneurMadame')|U] ! »\n[council_member.Custom('FR_le_Char_Pi')|U][council_member.GetTitledFirstName] se précipite vers moi, essoufflé[council_member.Custom('FR_E')]. « Un autre messager a été retrouvé mort, [ROOT.Char.Custom('FR_MonseigneurMadame')|U]. Sa bourse et la lettre ont été volées. »\n\nC’est la troisième fois cette année ; un problème qui devient préoccupant. Et si la correspondance avec mes vassaux était lue par nos ennemis ?"
+ intrigue_scheming.1011.desc:0 "« [ROOT.Char.Custom('FR_MonseigneurMadame')|U] ! »\n[council_member.Custom('FR_le_Char_Pi')|U][council_member.GetTitledFirstName] se précipite vers moi, essoufflé[council_member.Custom('FR_E')]. « Un autre messager a été retrouvé mort, [ROOT.Char.Custom('FR_MonseigneurMadame')|U]. Sa bourse et la lettre ont été volées. »\n\nC’est la troisième fois cette année ; un problème qui devient préoccupant. Et si la correspondance avec mes vassaux était lue par nos ennemis ?"
  intrigue_scheming.1011.a:0 "Faites venir un cryptographe, le travail commence immédiatement !"
  intrigue_scheming.1011.a.flavor:0 "Je travaillerai avec le cryptographe pour développer un code."
  intrigue_scheming.1011.b:0 "Je dois être plus vigilant[ROOT.Char.Custom('FR_E')] à l’avenir."
@@ -125,7 +125,7 @@
  intrigue_scheming.3004.desc:0 "[hooked_courtier.Custom('FR_le_Char_Pi')|U][hooked_courtier.GetTitledFirstName] n’a pas trouvé d’informations incriminantes sur [new_target.Custom('FR_le_Char_Pi')][new_target.GetTitledFirstName]. Malgré cela, c[hooked_courtier.Custom('FR_EEtte')] f[hooked_courtier.Custom('FR_OuOlle')] insiste sur le fait qu’en contrepartie de ses efforts, sa dette envers moi est remboursée !"
  intrigue_scheming.3004.a:0 "Ne serais-je pas aussi imposant[ROOT.Char.Custom('FR_E')] que je le pensais ?"
 
- intrigue_scheming.3013.desc:0 "[hooked_courtier.Custom('FR_le_Char_Pi')|U][hooked_courtier.GetTitledFirstName] n’a pas trouvé d’informations incriminantes sur [new_target.Custom('FR_le_Char_Pi')][new_target.GetTitledFirstName], donc c’est une bonne chose que je l’aie fait moi-même.\n\n[new_target.GetFirstName] semble être subitement la cible de rumeurs infâmes et il se trouve que j’en détiens les preuves."
+ intrigue_scheming.3013.desc:0 "[hooked_courtier.Custom('FR_le_Char_Pi')|U][hooked_courtier.GetTitledFirstName] n’a pas trouvé d’informations incriminantes sur [new_target.Custom('FR_le_Char_Pi')][new_target.GetTitledFirstName], donc c’est une bonne chose que je l’ai fait moi-même.\n\n[new_target.GetFirstName] semble être subitement la cible de rumeurs infâmes et il se trouve que j’en détiens les preuves."
  intrigue_scheming.3013.a:0 "[ROOT.Char.GetFaith.TricksterGodName] aide ceux qui l’aide."
 
  intrigue_scheming.3014.desc:0 "[hooked_courtier.Custom('FR_le_Char_Pi')|U][hooked_courtier.GetTitledFirstName] n’a pas trouvé d’informations incriminantes sur [new_target.Custom('FR_le_Char_Pi')][new_target.GetTitledFirstName]. Malheureusement, les rumeurs que j’ai lancées avec tant de soin semblent n’avoir eu que peu d’écho, et personne n’aurait cru les accusations que je m’apprêtais à porter à l’encontre [new_target.Custom('FR_du_Char_L')][new_target.GetTitleTierName].\n\nDe plus, les fausses rumeurs ont été attribuées à moi !"
@@ -240,7 +240,7 @@
 # Information Brokering, by Sean Hughes
  intrigue_scheming.4050.t:0 "Vente d’informations"
  intrigue_scheming.4050.desc.start:0 "Je m’attends à ce que [buyer.Custom('FR_le_Char_Pi')][buyer.GetTitledFirstName] soit vivement intéressé par les informations que j’ai obtenues indiquant"
- intrigue_scheming.4050.desc.lover:1 " que s[buyer.Custom2('FR_RelationToMeShort_OnA', SCOPE.sC('owner'))] [owner.Custom('FR_le_Char_Pi')][owner.GetTitledFirstName] couche avec [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName]..."
+ intrigue_scheming.4050.desc.lover:1 "que s[buyer.Custom2('FR_RelationToMeShort_OnA', SCOPE.sC('owner'))] [owner.Custom('FR_le_Char_Pi')][owner.GetTitledFirstName] couche avec [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName]..."
  intrigue_scheming.4050.desc.incest:2 "que s[buyer.Custom2('FR_RelationToMeShort_OnA', SCOPE.sC('owner'))] [owner.Custom('FR_le_Char_Pi')][owner.GetTitledFirstName] et s[owner.Custom2('FR_RelationToMeShort_OnA', SCOPE.sC('target'))] [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName] ont eu des relations sexuelles..."
  intrigue_scheming.4050.desc.pregnancy:1 "que s[buyer.Custom2('FR_RelationToMeShort_OnA', SCOPE.sC('owner'))] [owner.Custom('FR_le_Char_Pi')][owner.GetTitledFirstName] est enceinte de l’enfant [target.Custom('FR_du_Char_Pi')][target.GetTitledFirstName]..."
  intrigue_scheming.4050.desc.bastard:3 "que s[buyer.Custom2('FR_RelationToMeShort_OnA', SCOPE.sC('target'))] [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName] a été engendré[owner.Custom('FR_E')] par [target.GetRealFather.Custom('FR_le_Char_Pi')][target.GetRealFather.GetTitledFirstName]..."
@@ -279,7 +279,7 @@
  intrigue_scheming.4052.desc:0 "L’attrait du secret que je détenais étant trop grand pour l’ignorer, [buyer.GetTitledFirstName] a accepté mon offre. Si je continue à me renseigner, je pourrais peut-être conclure d’autres marchés comme celui-ci à l’avenir..."
  intrigue_scheming.4052.a:0 "Il y a beaucoup de potentiel ici !"
 
- intrigue_scheming.4053.desc:0 "Que [buyer.Custom('FR_le_Char_Pi')][buyer.GetTitledFirstName] m’ait cru ou non quand je lui ai dit que j’avais des informations concernant sa famille est difficile à dire ; quoi qu’il en soit, [buyer.Custom('FR_IlElle')] a refusé d’accepter mes conditions."
+ intrigue_scheming.4053.desc:0 "Que [buyer.Custom('FR_le_Char_Pi')][buyer.GetTitledFirstName] m’ait cru ou non quand je lui ai dit que j’avais des informations concernant sa famille est difficile à dire ; quoi qu’il en soit, [buyer.Custom('FR_IlElle')] a refusé d’accepter mes conditions."
  intrigue_scheming.4053.a:0 "Je vais devoir trouver d’autres moyens d’utiliser ces informations..."
 
  intrigue_scheming.4054.desc.start:0 "Après avoir examiné les documents que j’ai reçus [seller.Custom('FR_du_Char_Pi')][seller.GetTitledFirstName], il devient clair que"

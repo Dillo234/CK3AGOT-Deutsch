@@ -18,7 +18,7 @@
  ENDING_DECISION_NONE:1 "Для этой фазы нет финальных решений"
  ENDING_DECISION_MULTIPLE:0 "#I Нажмите, чтобы просмотреть возможные финалы#!"
  ENDING_DECISION_AVAILABLE:0 "Вы можете закончить [Concept( 'struggle', 'борьбу' )|E]"
- ENDING_DECISION_UNAVAILABLE:0 "Нельзя закончить [Concept( 'struggle', 'борьбу' )|E]"
+ ENDING_DECISION_UNAVAILABLE:0 "Вы можете закончить [Concept( 'struggle', 'борьбу' )|E]"
  #ENDING_DECISION_AREA_HEADER:0 "#high Ending the Struggle:#! [StrugglePhase.GetNameNoTooltip] for the [Struggle.GetNameNoTooltip]\n#I Select one of the following Ending Decisions to put an end to the [Struggle.GetNameNoTooltip]#!"
  ENDING_DECISION_AREA_HEADER:1 "#high Окончание борьбы:#! Фаза [StrugglePhase.GetNameNoTooltip] в борьбе [Struggle.GetNameNoTooltip]"
  ENDING_DECISION_AREA_DESCRIPTION:0 "#I Выберите одно из финальных решений, чтобы завершить борьбу [Struggle.GetNameNoTooltip]#!"
@@ -37,7 +37,7 @@
  STRUGGLE_INTERLOPER:1 "[struggle_interloper|E]"
  STRUGGLE_UNINVOLVED:1 "[struggle_uninvolved|E]"
  STRUGGLE_PARTICIPANTS:0 "Участники"
- STRUGGLE_TOOLTIP_INVOLVEMENT:2 "[Character.GetShortUINameNoTooltip|U] [Select_CString(Character.IsPlayer, 'проявляете', 'проявляет' )] [Character.GetStruggleInvolvementType( Struggle.Self )|l] в эту [Concept( 'struggle', 'борьбу' )|E].\n$STRUGGLE_START_DATE$"
+ STRUGGLE_TOOLTIP_INVOLVEMENT:2 "[Character.GetShortUINameNoTooltip|U] [Select_CString(Character.IsLocalPlayer, 'проявляете', 'проявляет' )] [Character.GetStruggleInvolvementType( Struggle.Self )|l] в эту [Concept( 'struggle', 'борьбу' )|E].\n$STRUGGLE_START_DATE$"
  STRUGGLE_START_DATE:0 "#weak Дата начала борьбы: #! [Struggle.GetStruggleStartDate.GetStringLong]"
  STRUGGLE_TOOLTIP_CURRENT_PHASE:1 "Текущая фаза: [StrugglePhase.GetName]\n#weak Дата начала текущей фазы: #![Struggle.GetCurrentPhaseStartDate.GetStringLong]"
  STRUGGLE_TOOLTIP_EFFECTS_HEADER:1 "Эффекты [Concept( 'struggle_phase_phase', 'фазы' )|E] «[StrugglePhase.GetNameNoTooltip]»:"
@@ -71,9 +71,9 @@
  STRUGGLE_INVOLVEMENT_CULTURE_INVOLVED:1 "Ваша [Concept( 'culture', 'культура' )|E] [Concept( 'struggle_involved', 'участвует' )|E] в [Concept( 'struggle', 'борьбе' )|E]"
  STRUGGLE_INVOLVEMENT_CULTURE_UNINVOLVED:1 "Ваша [Concept( 'culture', 'культура' )|E] [Concept( 'struggle_involved', 'не участвует' )|E] в [Concept( 'struggle', 'борьбе' )|E]"
  STRUGGLE_INVOLVEMENT_WINDOW_PARTICIPANT_DESC:1 "Идет [Struggle.GetNameNoTooltip]. Персонажи могут [Concept( 'struggle_involved', 'участвовать' )|E] в борьбе либо [Concept( 'struggle_interloper', 'вмешаться' )|E] в борьбу. Остальные расположенные в данной области державы считаются [Concept( 'struggle_uninvolved', 'незаинтересованными сторонами' )|E]."
- STRUGGLE_INVOLVEMENT_WINDOW_FAITH_DESC:0 "Идет [Struggle.GetNameNoTooltip] и эти [Concept( 'faiths', 'конфессии' )|E] вовлечены в борьбу. Они могут участвовать в [Concept( 'struggle', 'борьбе' )|E] с самого начала или появиться в ходе ее развития. Сторонняя [faith|El] может стать [Concept( 'struggle_involved', 'вовлеченной' )|E], если контролирует 80% [Concept( 'counties', 'графств' )|E] в [Concept( 'struggle_region', 'области борьбы' )|E]." # [LocEditor:AwaitingBatchUpdate]
+ STRUGGLE_INVOLVEMENT_WINDOW_FAITH_DESC:1 "Идет [Struggle.GetNameNoTooltip] и эти [Concept( 'faiths', 'конфессии' )|E] вовлечены в борьбу. Они могут участвовать в [Concept( 'struggle', 'борьбе' )|E] с самого начала или появиться в ходе ее развития. Сторонняя [faith|E] может стать [Concept( 'struggle_involved', 'вовлеченной' )|E], если контролирует 80% [Concept( 'counties', 'графств' )|E] в [Concept( 'struggle_region', 'области борьбы' )|E]."
  STRUGGLE_INVOLVEMENT_WINDOW_FAITH_COUNT:0 "#weak [Concept( 'counties', 'Графства' )|E] этой [Concept( 'faith', 'конфессии' )|E], вовлеченные в борьбу [Struggle.GetNameNoTooltip]: [Struggle.GetNumCountiesWithFaith(Faith.Self)]#!"
- STRUGGLE_INVOLVEMENT_WINDOW_CULTURE_DESC:0 "Идет [Struggle.GetNameNoTooltip] и эти [cultures|El] вовлечены в борьбу. Они могут участвовать в [Concept( 'struggle', 'борьбе' )|E] с самого начала или появиться в ходе ее развития. Сторонняя [culture|El] может стать [Concept( 'struggle_involved', 'вовлеченной' )|E], если контролирует 80% [Concept( 'counties', 'графств' )|E] в регионе." # [LocEditor:AwaitingBatchUpdate]
+ STRUGGLE_INVOLVEMENT_WINDOW_CULTURE_DESC:1 "Идет [Struggle.GetNameNoTooltip] и эти [cultures|E] вовлечены в борьбу. Они могут участвовать в [Concept( 'struggle', 'борьбе' )|E] с самого начала или появиться в ходе ее развития. Сторонняя [culture|E] может стать [Concept( 'struggle_involved', 'вовлеченной' )|E], если контролирует 80% [Concept( 'counties', 'графств' )|E] в регионе."
  STRUGGLE_INVOLVEMENT_WINDOW_CULTURE_COUNT:0 "#weak [Concept( 'counties', 'Графства' )|E], вовлеченные в борьбу [Struggle.GetNameNoTooltip]: [Struggle.GetNumCountiesWithCulture(Culture.Self)]#!"
  STRUGGLE_FILTER_PARTICIPANTS_ALL:0 "Все"
  STRUGGLE_FILTER_PARTICIPANTS_INVOLVED:0 "Вовлеченность"
@@ -150,6 +150,6 @@
  STRUGGLE_START_EVENT_PHASE_TITLE:1 "Осмотрите значки, чтобы увидеть эффекты текущей [Concept( 'struggle_phase', 'фазы борьбы' )|E]"
  STRUGGLE_END_EVENT_DESC:0 "Вы завершили борьбу «[Struggle.GetName]», добившись финала «[StrugglePhase.GetName]»."
  no_call_ally_for_this_war_tt:0 "Вы не можете призвать союзника на эту [Concept( 'war', 'войну' )|E]"
- STRUGGLE_EFFECT_TT_CHARACTER_INVOLVEMENT:0 "[Character.GetShortUINameNoTooltip|U] [Select_CString(Character.IsPlayer, 'проявляете', 'проявляет' )] [Character.GetStruggleInvolvementType( Struggle.Self )|l] в борьбу «[Struggle.GetNameNoTooltip]»."
+ STRUGGLE_EFFECT_TT_CHARACTER_INVOLVEMENT:0 "[Character.GetShortUINameNoTooltip|U] [Select_CString(Character.IsLocalPlayer, 'проявляете', 'проявляет' )] [Character.GetStruggleInvolvementType( Struggle.Self )|l] в борьбу «[Struggle.GetNameNoTooltip]»."
 
  found_empire_decision_not_part_of_iberian_struggle:0 "Вы [Concept( 'struggle_uninvolved', 'не участвуете' )|E] в иберийской борьбе"

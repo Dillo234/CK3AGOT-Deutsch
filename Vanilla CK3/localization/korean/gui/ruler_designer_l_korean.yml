@@ -37,7 +37,7 @@
  RULER_DESIGNER_POINTS_LIMIT_VALUE:0 "[GetDefine( 'NRulerDesigner', 'IRONMAN_POINT_MAX' )|V]"
  RULER_DESIGNER_POINTS_LIMIT_LABEL:0 "도전과제 제한: $RULER_DESIGNER_POINTS_LIMIT_VALUE$"
  RULER_DESIGNER_AGE_LABEL:0 "연령"
- RULER_DESIGNER_AGE:1 "#high [RulerDesignerWindow.GetAge]#![Select_CString( GreaterThan_int32( RulerDesignerWindow.GetAge, '(int32)1' ), '세', '세' ) )]"
+ RULER_DESIGNER_AGE:1 "#high [RulerDesignerWindow.GetAge]#![Select_CString( GreaterThan_int32( RulerDesignerWindow.GetAge, '(int32)1' ), '세', '세' )]"
  RULER_DESIGNER_BIRTH_YEAR:0 "탄생일: 서기 [RulerDesignerWindow.GetBirthYear]년"
  RULER_DESIGNER_WEIGHT_LABEL:0 "체중"
  RULER_DESIGNER_TRAITS_LABEL:1 "[traits|E]"
@@ -302,7 +302,7 @@
  beards:0 "수염"
  chin_def:0 "뚜렷한 턱"
  chin_def_neg:0 "부드러운 턱"
- # TODO [CD]: Check this
+
  RULER_DESIGNER_SAVE_WINDOW_TITLE:0 "영주 저장"
  RULER_DESIGNER_SAVE_WINDOW_SAVE:0 "[SelectLocalization( RulerDesignerSaveWindow.IsOverwrite, 'SAVE_WINDOW_OVERWRITE', '저장' )]"
  RULER_DESIGNER_SAVE_OVERWRITE_RULER:0 "영주 덮어쓰기"

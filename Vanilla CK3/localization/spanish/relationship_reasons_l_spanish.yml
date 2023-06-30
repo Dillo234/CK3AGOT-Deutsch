@@ -20,8 +20,8 @@
  rival_daneland:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os convertisteis', 'se convirtieron' )] en rivales tras la creación del Daneland."
  rival_varangian:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'empezasteis', 'empezaron' )] a detestarse cuando sirvieron en la guardia varega."
  
- rival_fowl_prank:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.CHARACTER.LocalPlayerString( 'te', 'le' )] [TARGET_CHARACTER.LocalPlayerString( 'gastaste', 'gastó' )] a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] una broma con un ave en un festín."
- rival_fowl_prank_corresponding:0 "[CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.CHARACTER.LocalPlayerString( 'te', 'le' )] [CHARACTER.LocalPlayerString( 'gastaste', 'gastó' )] [TARGET_CHARACTER.LocalPlayerString( 'ti', TARGET_CHARACTER.GetShortUIName )] una broma con una ave en un festín."
+ rival_fowl_prank:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te', 'le' )] [TARGET_CHARACTER.LocalPlayerString( 'gastaste', 'gastó' )] a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] una broma con un ave en un festín."
+ rival_fowl_prank_corresponding:0 "[CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'te', 'le' )] [CHARACTER.LocalPlayerString( 'gastaste', 'gastó' )] [TARGET_CHARACTER.LocalPlayerString( 'ti', TARGET_CHARACTER.GetShortUIName )] una broma con una ave en un festín."
  
  rival_unjustified_imprisonment:0 "[TARGET_CHARACTER.GetShortUIName|U] encarceló injustamente a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )]."
  rival_unjustified_imprisonment_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'encarcelaste', 'encarceló' )] injustamente a [TARGET_CHARACTER.GetShortUIName]."
@@ -32,11 +32,16 @@
  rival_lands_stolen:0 "[TARGET_CHARACTER.GetShortUIName|U] robó las tierras de [CHARACTER.GetShortUIName]."
  rival_lands_stolen_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'robaste', 'robó' )] las tierras de [TARGET_CHARACTER.GetShortUIName]."
  
+ rival_murder_feast:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'intentaste', 'intentó' )] asesinar a [CHARACTER.GetShortUIName] en un banquete asesino."
+ 
+ rival_murder_feast_family:0 "[TARGET_CHARACTER.GetShortUIName|U] ha jurado vengar la muerte de su familia a manos de [CHARACTER.GetShortUIName|U] en un banquete asesino."
+ rival_murder_feast_family_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'asesinaste', 'asesinó' )] a la familia de [TARGET_CHARACTER.GetShortUIName] en un banquete asesino."
+ 
  rival_guardian_cave_change_stubborn:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'consideraste', 'consideró' )] justo y apropiado que [TARGET_CHARACTER_2.GetShortUIName] obligase a [CHARACTER.GetShortUIName], apenas una criatura, a entrar en una cueva oscura a solas."
  rival_guardian_cave_change_stubborn_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'consideraste', 'consideró' )] justo y apropiado que [TARGET_CHARACTER_2.GetShortUIName] obligase a [TARGET_CHARACTER.GetShortUIName], apenas una criatura, a entrar en una cueva oscura a solas."
  
- rival_ignored_suffering:0 "En su infancia, [TARGET_CHARACTER.GetShortUIName|U] ignoró a sabiendas el sufrimiento de [CHARACTER.LocalPlayerString( 'tu corazón', CHARACTER.GetShortUIName )] y se negó a buscar ayuda."
- rival_ignored_suffering_corresponding:0 "En su infancia, [CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'ignoraste', 'ignoró' )] a sabiendas el sufrimiento de [TARGET_CHARACTER.GetShortUIName] y se negó a buscar ayuda."
+ rival_ignored_suffering:1 "En su infancia, [TARGET_CHARACTER.GetShortUIName|U] ignoró a sabiendas el sufrimiento de [Select_CString( CHARACTER.IsLocalPlayer, 'tu corazón', CHARACTER.GetShortUIName )] y se negó a buscar ayuda."
+ rival_ignored_suffering_corresponding:1 "En [Select_CString( CHARACTER.IsLocalPlayer, 'tu', 'su' )] infancia, [CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'ignoraste', 'ignoró' )] a sabiendas el sufrimiento de [TARGET_CHARACTER.GetShortUIName] y se negó a buscar ayuda."
  
  best_friend_bonded_at_court:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'forjasteis', 'forjaron' )] un fuerte vínculo de amistad tras apoyar mutuamente sus intereses en la corte de [TARGET_CHARACTER_2.GetShortUIName]."
  
@@ -49,14 +54,17 @@
  best_friend_help_overcome_vice:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amigos para toda la vida cuando [TARGET_CHARACTER.GetShortUINameNoTooltip] intentó ayudar a [CHARACTER.GetShortUINameNoTooltip] a superar un vicio."
  best_friend_help_overcome_vice_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amigos para toda la vida cuando [CHARACTER.GetShortUINameNoTooltip] [CHARACTER.LocalPlayerString( 'intentaste', 'intentó' )] ayudar a [TARGET_CHARACTER.GetShortUINameNoTooltip] a superar un vicio."
  
- best_friend_coverted_and_saved_my_soul:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'forjasteis', 'forjaron' )] un fuerte vínculo de amistad cuando [TARGET_CHARACTER.GetShortUINameNoTooltip] salvó el alma de [CHARACTER.GetShortUINameNoTooltip] al convertir su fe a la de [TARGET_CHARACTER.GetShortUINameNoTooltip]."
- best_friend_coverted_and_saved_my_soul_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'forjasteis', 'forjaron' )] un fuerte vínculo de amistad cuando [CHARACTER.GetShortUINameNoTooltip] [CHARACTER.LocalPlayerString( 'salvaste', 'salvó' )] el alma de [TARGET_CHARACTER.GetShortUINameNoTooltip] con la conversión a [CHARACTER.LocalPlayerString( 'tu', 'su' )] fe."
+ best_friend_coverted_and_saved_my_soul:1 "[TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'forjasteis', 'forjaron' )] un fuerte vínculo de amistad cuando [TARGET_CHARACTER.GetShortUINameNoTooltip] salvó el alma de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUINameNoTooltip )] al convertir su fe a la de [TARGET_CHARACTER.GetShortUINameNoTooltip]."
+ best_friend_coverted_and_saved_my_soul_corresponding:1 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'forjasteis', 'forjaron' )] un fuerte vínculo de amistad cuando [CHARACTER.GetShortUINameNoTooltip] [Select_CString( CHARACTER.IsLocalPlayer, 'salvaste', 'salvó' )] el alma de [TARGET_CHARACTER.GetShortUINameNoTooltip] con la conversión a [Select_CString( CHARACTER.IsLocalPlayer, 'tu', 'su' )] fe."
  
  best_friend_language_help:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] los mejores amigos cuando [TARGET_CHARACTER.GetShortUINameNoTooltip] [TARGET_CHARACTER.LocalPlayerString( 'mostraste', 'mostró' )] una paciencia infinita al ayudar a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUINameNoTooltip )] a aprender [TARGET_CHARACTER_2.GetCulture.GetLanguage.GetName]."
  best_friend_language_help_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] los mejores amigos cuando [CHARACTER.GetShortUINameNoTooltip] [CHARACTER.LocalPlayerString( 'mostraste', 'mostró' )] una paciencia infinita al ayudar a [TARGET_CHARACTER.GetShortUINameNoTooltip] a aprender [TARGET_CHARACTER_2.GetCulture.GetLanguage.GetName]."
  
  best_friend_confide:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'forjasteis', 'forjaron' )] un vínculo cuando [TARGET_CHARACTER.GetShortUINameNoTooltip] escuchó pacientemente los problemas de [CHARACTER.GetShortUINameNoTooltip]."
  best_friend_confide_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'forjasteis', 'forjaron' )] un vínculo cuando [CHARACTER.GetShortUINameNoTooltip] escuchó pacientemente los problemas de [TARGET_CHARACTER.GetShortUINameNoTooltip]."
+ 
+ friend_impressed_stones:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'impresionaste', 'impresionó' )] a [TARGET_CHARACTER.GetShortUINameNoTooltip] descifrando una antigua placa."
+ friend_impressed_stones_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'quedaste', 'quedó' )] impresionad[TARGET_CHARACTER.Custom('ES_OA')] por [CHARACTER.GetShortUINameNoTooltip] cuando descifró una antigua placa."
  
  best_friend_spoke_highly_about:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] los mejores amigos cuando [CHARACTER.GetShortUINameNoTooltip] [CHARACTER.LocalPlayerString( 'hablaste', 'habló' )] abiertamente y muy bien de [TARGET_CHARACTER.GetShortUIName]."
  best_friend_spoke_highly_about_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] los mejores amigos cuando [TARGET_CHARACTER.GetShortUINameNoTooltip] habló abiertamente y muy bien de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )]."
@@ -102,6 +110,11 @@
  friend_deviant_fun:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te', 'le' )] introdujo en una nueva afición a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )]."
  friend_deviant_fun_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'introdujiste', 'introdujo' )] una nueva afición a [TARGET_CHARACTER.GetShortUIName]."
  
+ contemplated_life_and_death_together:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'reflexionasteis', 'reflexionaron' )] en compañía sobre la vida y la muerte durante un viaje formativo."
+ contemplated_life_and_death_together_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'reflexionasteis', 'reflexionaron' )] en compañía sobre la vida y la muerte durante un viaje formativo."
+ studied_history_together:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'estudiasteis', 'estudiaron' )] la historia antigua de una tierra lejana durante un viaje formativo."
+ studied_history_together_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'estudiasteis', 'estudiaron' )] la historia antigua de una tierra lejana durante un viaje formativo."
+
  friend_fix_relationship_success:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amigos cuando [CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'solucionaste', 'solucionó' )] una brecha en la relación."
  friend_fix_relationship_success_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amigos cuando [TARGET_CHARACTER.GetShortUIName] solucionó una brecha en la relación."
  
@@ -112,7 +125,7 @@
  friend_insulted_rival_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'insultaste', 'insultó' )] públicamente a [TARGET_CHARACTER_2.GetShortUIName], uno de los rivales que tiene [TARGET_CHARACTER.GetShortUIName]."
  
  friend_common_ground:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amigos al encontrar puntos en común como resultado de muchas y profundas conversaciones."
- friend_feast_for_liege:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amigos al celebrar juntos un festín para [TARGET_CHARACTER_2.GetTitledFirstName]."
+ friend_feast_for_liege:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amigos al celebrar juntos un festín para [TARGET_CHARACTER_2.GetTitledFirstName|l]."
  
  friend_charmed_during_visit:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'encantaste', 'encantó' )] a [TARGET_CHARACTER.GetShortUIName] en una visita a la corte de [TARGET_CHARACTER_2.GetShortUIName]."
  friend_charmed_during_visit_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te', 'le' )] encantó a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] en una visita a la corte de [TARGET_CHARACTER_2.GetShortUIName]."
@@ -142,11 +155,11 @@
  friend_feast_bonding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'congeniasteis', 'congeniaron' )] por intereses comunes en un festín."
  friend_feast_talking_and_laughing:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] tras comer, beber y hablar en un festín."
  friend_gardening:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'congeniasteis', 'congeniaron' )] por un amor compartido por la jardinería."
- friend_pleasant_conversation:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron )] tras muchas conversaciones agradables."
+ friend_pleasant_conversation:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] tras muchas conversaciones agradables."
  friend_art_of_torture_punishment:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'congeniasteis', 'congeniaron' )] por un aprecio compartido por el arte de la tortura."
- friend_torture_stories:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron )] tras compartir historias sobre castigos crueles y torturas."
- friend_shared_opinions_on_punishment:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron )] tras compartir ideas y sentimientos sobre cómo torturar prisioneros mejor."
- friend_childhood_random:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron )] en su infancia tras compartir muchas desventuras."
+ friend_torture_stories:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] tras compartir historias sobre castigos crueles y torturas."
+ friend_shared_opinions_on_punishment:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] tras compartir ideas y sentimientos sobre cómo torturar prisioneros mejor."
+ friend_childhood_random:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] en su infancia tras compartir muchas desventuras."
  friend_saved_life_together:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] tras salvar juntos la vida de un soldado herido."
  friend_convinced_merchants_to_invest_in_church:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] tras convencer a un grupo de comerciantes a invertir su oro en [CHARACTER.GetFaith.HouseOfWorship]s."
  friend_downgrade_best_friends:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'tenéis', 'tienen' )] una buena amistad, pero en el pasado hubo mucho más."
@@ -154,8 +167,8 @@
  friend_private_feast:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] en un festín privado."
  friend_renovate_dungeons:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] al reformar juntos las mazmorras."
  friend_pilgrimage:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] durante una peregrinación."
- friend_cultivated_friendship:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron )] en su infancia cuando uno de sus progenitores cultivó cuidadosamente su amistad."
- friend_vassal_childhood:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron )] en su infancia al animarlos a jugar junt[CHARACTER.Custom('ES_OA')]s."
+ friend_cultivated_friendship:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] en su infancia cuando uno de sus progenitores cultivó cuidadosamente su amistad."
+ friend_vassal_childhood:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] en su infancia al animarlos a jugar junt[CHARACTER.Custom('ES_OA')]s."
  friend_scholarly_matters:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'congeniasteis', 'congeniaron' )] por asuntos académicos."
  friend_house_mediation:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'congeniasteis', 'congeniaron' )] por asuntos de casas y linajes."
  friend_matters_of_faith:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'congeniasteis', 'congeniaron' )] por asuntos de fe y religión."
@@ -187,10 +200,21 @@
  friend_castille_leon:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'congeniasteis', 'congeniaron' )] al celebrar la creación de Castilla y León."
  friend_melancholic_bond:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'congeniasteis', 'congeniaron' )] por una sensación compartida de melancolía."
  friend_curiously_similar:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'congeniasteis', 'congeniaron' )] por su inquietante parecido."
+ 
+ friend_sword_in_stone:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'dejaste', 'dejó' )] que [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sacaras', 'sacara' )] la espada de la piedra durante un festival cultural."
+ friend_sword_in_stone_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sacaste', 'sacó' )] la espada de la piedra con la inestimable ayuda de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] durante un festival cultural."
 
  friend_varangian:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'entablasteis', 'entablaron' )] amistad al servir en la guardia varega."
+ 
+ friend_holy_site_monk_monk:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'hiciste', 'hizo' )] una generosa donación a los templos de [TARGET_CHARACTER.GetShortUIName]."
+ friend_holy_site_monk_monk_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] recibió una donación generosa de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] para sus templos."
+ 
+ friend_holy_site_monk:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'permitiste', 'permitió' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )] quedarse atrás en un lugar sagrado."
+ friend_holy_site_monk_corresponding:0 "A [TARGET_CHARACTER.GetShortUIName|U], [CHARACTER.GetShortUIName] le [Select_CString( CHARACTER.IsLocalPlayer, 'permitiste', 'permitió' )] quedarse atrás en un lugar sagrado."
 
  friend_gaming:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'entablasteis', 'entablaron' )] amistad tras jugar a juegos de mesa."
+
+ friend_emergency_surgery:0 "[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Tu', 'La' )] cirugía rápida de [TARGET_CHARACTER.GetShortUIName] salvó la vida de [CHARACTER.GetShortUIName], por lo que siempre estará agradecid[CHARACTER.Custom('ES_OA')]."
  
  friend_random_1:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amigos tras viajar juntos por el/la [PROVINCE.Custom('TerrainTypeProvince')] de [PROVINCE.GetName]."
  friend_random_2:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'compartisteis', 'compartieron' )] suministros al vagar por el/la [PROVINCE.Custom('TerrainTypeProvince')] de [PROVINCE.GetName]."
@@ -208,10 +232,10 @@
  rival_random_2:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os robasteis', 'se robaron' )] suministros mutuamente al vagar por el/la [PROVINCE.Custom('TerrainTypeProvince')] de [PROVINCE.GetName]."
  rival_random_3:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'roncasteis', 'roncaron' )] demasiado fuerte al compartir campamento en el/la [PROVINCE.Custom('TerrainTypeProvince')] de [PROVINCE.GetName]."
  rival_random_4:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'estropeasteis', 'estropearon' )] el buen ambiente de una taberna de [PROVINCE.GetName]."
- rival_random_5:0 "CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os metisteis', 'se metieron' )] en una pelea al compartir alojamiento en [PROVINCE.GetName]."
- rival_random_6:0 "CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'llegasteis, 'llegaron' )] a las manos al discutir de política cuando [CHARACTER.LocalPlayerString( 'servíais', 'servían' )] en la corte de [TARGET_CHARACTER_2.GetShortUIName]."
+ rival_random_5:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os metisteis', 'se metieron' )] en una pelea al compartir alojamiento en [PROVINCE.GetName]."
+ rival_random_6:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'llegasteis', 'llegaron' )] a las manos al discutir de política cuando [CHARACTER.LocalPlayerString( 'servíais', 'servían' )] en la corte de [TARGET_CHARACTER_2.GetShortUIName]."
  rival_random_7:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os socavasteis', 'se socavaron' )] mutuamente durante el servicio en la corte de [TARGET_CHARACTER_2.GetShortUIName]."
- rival_random_8:0 "CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os enzarzasteis', 'se enzarzaron' )] en una pelea de comida infantil en el comedor de [TARGET_CHARACTER_2.GetShortUIName]."
+ rival_random_8:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os enzarzasteis', 'se enzarzaron' )] en una pelea de comida infantil en el comedor de [TARGET_CHARACTER_2.GetShortUIName]."
  rival_random_9:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'discutisteis', 'discutieron' )] durante un paseo por la capital de [PROVINCE.GetName] de [TARGET_CHARACTER_2.GetShortUIName]."
  rival_random_10:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'no llegasteis', 'no llegaron')] a un acuerdo para manejar una tarea compartida en la capital de [TARGET_CHARACTER_2.GetShortUIName] de [PROVINCE.GetName]."
  rival_random_fallback:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'llegasteis', 'llegaron')] al aborrecimiento en el transcurso de un viaje juntos."
@@ -236,6 +260,9 @@
  
  friend_language_learned:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'aprendiste', 'aprendió' )] el idioma de [TARGET_CHARACTER.GetShortUIName]."
  friend_language_learned_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'aprendiste', 'aprendió' )] el idioma de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )]."
+ 
+ friend_festival_puppy:0 "[CHARACTER.GetShortUIName|U] le [Select_CString( CHARACTER.IsLocalPlayer, 'regalaste', 'regaló' )] un cachorro a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )] durante un festival cultural."
+ friend_festival_puppy_corresponding:0 "[TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'recibiste', 'recibió' )] un cachorro como regalo de parte de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] durante un festival cultural."
  
  friend_party_baron:0 "¡[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'trabaste', 'trabó' )] amistad con [CHARACTER.GetShortUIName] con vigor y entusiasmo!"
  friend_party_baron_corresponding:0 "¡[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'trabaste', 'trabó' )] amistad con [TARGET_CHARACTER.GetShortUIName] con vigor y entusiasmo!"
@@ -336,6 +363,10 @@
  friend_child_special_attention:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'prestaste', 'prestó' )] una atención especial a la formación de [TARGET_CHARACTER.GetShortUIName]."
  friend_child_special_attention_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] prestó una atención especial a la formación de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )]."
  
+ friend_wnight_homosexual:0 "[TARGET_CHARACTER.GetShortUIName|U] confesó su orientación sexual a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUINameNoTooltip )] en la noche de bodas."
+ 
+ friend_wnight_homosexual_both:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'confesasteis', 'confesaron' )] sus orientaciones sexuales en la noche de bodas."
+ 
  friend_child_care:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'mostraste', 'mostró' )] mucho amor y cariño durante la educación de [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )]."
  friend_child_care_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] mostró mucho amor y cariño durante la educación de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )]."
  
@@ -356,6 +387,11 @@
  
  friend_took_pity:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'tuviste', 'tuvo' )] piedad y [CHARACTER.LocalPlayerString( 'dejaste', 'dejó' )] a [TARGET_CHARACTER.GetShortUINameNoTooltip] dormir en el castillo."
  friend_took_pity_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'tuviste', 'tuvo' )] piedad y [TARGET_CHARACTER.LocalPlayerString( 'dejaste', 'dejó' )] a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUINameNoTooltip )] dormir en el castillo."
+ 
+ friend_theological_debate:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'tuvisteis', 'tuvieron' )] un debate teológico fructífero."
+
+ friend_wbanquet_saved_from_well:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'salvaste', 'salvó' )] a [TARGET_CHARACTER.GetShortUIName] de caer en un pozo."
+ friend_wbanquet_saved_from_well_corresponding:0 "A [TARGET_CHARACTER.GetShortUIName|U], [CHARACTER.GetShortUIName] le [Select_CString( CHARACTER.IsLocalPlayer, 'salvaste', 'salvó' )] de caer en un pozo."
  
  friend_estate_visit:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] durante una visita a [PROVINCE.GetName]."
  friend_estate_visit_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] durante una visita a [PROVINCE.GetName]."
@@ -397,7 +433,7 @@
  friend_encouraged_fickleness_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] animó a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )], cuando era una criatura, a intentar cosas nuevas de modos inesperados."
  
  friend_comforted_shy_child:0 "Cuando [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'era', 'era' )] una criatura, [TARGET_CHARACTER.GetShortUIName] [TARGET_CHARACTER.LocalPlayerString( 'recibiste', 'recibió' )] el consuelo de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] tras una horrible paliza."
- friend_comforted_shy_child_corresponding:0 "Cuando [Select_CString(CHARACTER.IsLocalPlayer, 'era', 'era' )] una criatura, [CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'recibiste', 'recibió' )] el consuelo de [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName ) tras una horrible paliza."
+ friend_comforted_shy_child_corresponding:0 "Cuando [Select_CString(CHARACTER.IsLocalPlayer, 'era', 'era' )] una criatura, [CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'recibiste', 'recibió' )] el consuelo de [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )] tras una horrible paliza."
  
  friend_impressed_by_childs_compassion:0 "Cuando era una criatura, [TARGET_CHARACTER.GetShortUIName] impresionó a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] al limpiar todos los pucheros de la cocina."
  friend_impressed_by_childs_compassion_corresponding:0 "Cuando era una criatura, [CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'impresionaste', 'impresionó' )] a [TARGET_CHARACTER.GetShortUIName] al limpiar todos los pucheros de la cocina."
@@ -417,6 +453,8 @@
  friend_spouse_talked_me_up:1 "[TARGET_CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'quedaste', 'quedó' )] impresionad[TARGET_CHARACTER.Custom('ES_OA')] cuando [TARGET_CHARACTER_2.GetShortUIName] exaltó las virtudes de [CHARACTER.GetShortUINameNoTooltip]."
  friend_spouse_talked_me_up_corresponding:1 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'quedaste', 'quedó' )] impresionad[CHARACTER.Custom('ES_OA')] cuando [TARGET_CHARACTER_2.GetShortUIName] exaltó las virtudes que [TARGET_CHARACTER.GetShortUINameNoTooltip] poseía."
  
+ friend_homage_ceremony:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'celebrasteis', 'celebraron' )] su amistad durante un festival cultural."
+ 
  friend_confide:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'confiaste', 'confió' )] en [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )]."
  friend_confide_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'confiaste', 'confió' )] en [TARGET_CHARACTER.LocalPlayerString( 'ti', TARGET_CHARACTER.GetShortUIName )]."
  
@@ -427,10 +465,10 @@
  friend_aggressively_befriended_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] trabó amistad con [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] de forma agresiva durante un banquete."
  
  friend_old_mentor:0 "[TARGET_CHARACTER.GetShortUIName|U] enseñó a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] una gran cantidad de habilidades útiles."
- friend_old_mentor_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'enseñaste', 'enseñó' )] a [TARGET_CHARACTER.GetShortUIName )] una gran cantidad de habilidades útiles."
+ friend_old_mentor_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'enseñaste', 'enseñó' )] a [TARGET_CHARACTER.GetShortUIName] una gran cantidad de habilidades útiles."
  
- friend_toy:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron )] en su infancia tras jugar juntos con el/la [CHARACTER.Custom('child_favorite_toy')] de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUINameNoTooltip )]."
- friend_toy_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron )] en su infancia tras jugar juntos con el/la [CHARACTER.Custom('child_favorite_toy')] de [TARGET_CHARACTER.GetShortUIName]."
+ friend_toy:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] en su infancia tras jugar juntos con el/la [CHARACTER.Custom('child_favorite_toy')] de [CHARACTER.LocalPlayerString( 'tu colección', CHARACTER.GetShortUINameNoTooltip )]."
+ friend_toy_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] en su infancia tras jugar juntos con el/la [CHARACTER.Custom('child_favorite_toy')] de [TARGET_CHARACTER.GetShortUINameNoTooltip]."
  
  friend_returned_refugee:0 "[TARGET_CHARACTER.GetShortUIName|U] devolvió a [CHARACTER.LocalPlayerString( 'tu corte', CHARACTER.GetShortUIName )] a un refugiado exiliado."
  friend_returned_refugee_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'devolviste', 'devolvió' )] a [TARGET_CHARACTER.LocalPlayerString( 'tu corte', TARGET_CHARACTER.GetShortUIName )] a un refugiado exiliado."
@@ -444,8 +482,18 @@
  lover_poet_demand:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'cediste', 'cedió' )] a la petición poética de amor de [TARGET_CHARACTER.GetShortUIName]."
  lover_poet_demand_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] cedió a la petición poética de amor de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )]."
  
- lover_cannibal_seduction:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'recibiste', 'recibió' )] permiso para dar un único y seductor mordisco a la carne de [CHARACTER.GetShortUIName )]."
- lover_cannibal_seduction_corresponding:1 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'recibiste', 'recibió' )] permiso para dar un único y seductor mordisco a la carne de [TARGET_CHARACTER.GetShortUIName )]."
+ lover_cannibal_seduction:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'recibiste', 'recibió' )] permiso para dar un único y seductor mordisco a la carne de [CHARACTER.GetShortUIName]."
+ lover_cannibal_seduction_corresponding:1 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'recibiste', 'recibió' )] permiso para dar un único y seductor mordisco a la carne de [TARGET_CHARACTER.GetShortUIName]."
+ 
+ lover_wnight_walk:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'llevaste', 'llevó' )] a [TARGET_CHARACTER.GetShortUIName|U] a dar un paseo romántico en la noche de bodas."
+ lover_wnight_walk_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'te llevaste', 'se llevó' )] a [TARGET_CHARACTER.GetShortUIName|U] a dar un paseo romántico en la noche de bodas."
+ 
+ lover_wnight_talk:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'compartisteis', 'compartieron' )] un profunda conversación en la noche de bodas."
+ 
+ lover_wnight_secret_accepted:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'aceptaste', 'aceptó' )] el secreto de [TARGET_CHARACTER.GetShortUIName] cuando [Select_CString( CHARACTER.IsLocalPlayer, 'te', 'se' )] los confesó en la noche de bodas."
+ lover_wnight_secret_accepted_corresponding:0 "El secreto de [TARGET_CHARACTER.GetShortUIName] lo [Select_CString( CHARACTER.IsLocalPlayer, 'aceptaste', 'aceptó' )] [CHARACTER.GetShortUIName|U] cuando [Select_CString( CHARACTER.IsLocalPlayer, 'te', 'se' )] lo confesó en la noche de bodas."
+ 
+ lover_wnight_secret_shared:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'confesasteis', 'confesaron' )] secretos en la noche de bodas."
  
  lover_random_1:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'te viste', 'se vio' )] atraíd[CHARACTER.Custom('ES_OA')] por las piernas bien torneadas de [TARGET_CHARACTER.GetShortUINameNoTooltip]."
  lover_random_2:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'te enamoraste', 'se enamoró' )] de la hermosa sonrisa de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu rostro', TARGET_CHARACTER.GetShortUIName )]."
@@ -476,7 +524,7 @@
  lover_longing:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] al fin [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amantes tras meses de búsqueda y anhelo."
  lover_party_baron:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUINameNoTooltip] [CHARACTER.LocalPlayerString( 'os enamorasteis', 'se enamoraron' )] en un festín que se recordará mucho tiempo."
  lover_storm:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUINameNoTooltip] [CHARACTER.LocalPlayerString( 'os enamorasteis', 'se enamoraron' )] durante una tormenta, sin que [TARGET_CHARACTER_2.GetShortUIName] se enterase."
- lover_quality_family_time:0 "[CHARACTER.GetShortUIName|U], [TARGET_CHARACTER.GetShortUIName] y [TARGET_CHARACTER_2.GetShortUIName] [CHARACTER.LocalPlayerString( 'pasasteis', 'pasaron' ) un «tiempo familiar» de calidad en compañía."
+ lover_quality_family_time:0 "[CHARACTER.GetShortUIName|U], [TARGET_CHARACTER.GetShortUIName] y [TARGET_CHARACTER_2.GetShortUIName] [CHARACTER.LocalPlayerString( 'pasasteis', 'pasaron' )] un «tiempo familiar» de calidad en compañía."
  lover_encouraged:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUINameNoTooltip] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amantes después de que [TARGET_CHARACTER_2.GetShortUIName] [CHARACTER.LocalPlayerString( 'os animase', 'les animase' )]."
  lover_my_own_clone_now_neither_of_us_will_be_virgins:0 "Incapaz de resistirse al doble de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )], [TARGET_CHARACTER.GetShortUIName] y [CHARACTER.GetShortUINameNoTooltip] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] los amantes más dulces."
  lover_doppelganger_threesome:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUINameNoTooltip] [CHARACTER.LocalPlayerString( 'os enamorasteis', 'se enamoraron' )] tras un trío con [TARGET_CHARACTER_2.GetShortUIName], doble de [CHARACTER.GetShortUINameNoTooltip]"
@@ -514,11 +562,11 @@
  lover_stole_match:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'tomaste', 'tomó' )] a [TARGET_CHARACTER_2.GetShortUIName] como amante, aunque [CHARACTER.LocalPlayerString( 'prometiste', 'prometió' )] prsentárse[TARGET_CHARACTER_2.GetHerHim] a [TARGET_CHARACTER.GetShortUIName]."
  lover_stole_match_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] tomó a [TARGET_CHARACTER_2.GetShortUIName] como amante, aunque [CHARACTER.LocalPlayerString( 'te', 'le' )] prometió [CHARACTER.LocalPlayerString( 'presentárte', 'presentárse' )][TARGET_CHARACTER_2.GetHerHim] a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )]."
  
- lover_wingman_introduction:0 "[TARGET_CHARACTER_2.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te', '' )] emparejó a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName ) con [TARGET_CHARACTER.GetShortUIName], [TARGET_CHARACTER.Custom('bar_servant')] de [PROVINCE.GetName]."
+ lover_wingman_introduction:0 "[TARGET_CHARACTER_2.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te', '' )] emparejó a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] con [TARGET_CHARACTER.GetShortUIName], [TARGET_CHARACTER.Custom('bar_servant')] de [PROVINCE.GetName]."
  lover_wingman_introduction_corresponding:0 "[TARGET_CHARACTER_2.GetShortUIName|U] emparejó a [TARGET_CHARACTER.GetShortUIName] con [CHARACTER.GetShortUIName], [CHARACTER.Custom('bar_servant')] de [PROVINCE.GetName]."
  
  lover_amateur_art:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te', '' )] sedujo a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] con una obra de arte aficionada que mostraba a un[TARGET_CHARACTER.Custom('ES_XA')] [TARGET_CHARACTER.GetWomanMan] halagüeñamente bien dotad[TARGET_CHARACTER.Custom('ES_OA')]."
- lover_amateur_art_corresponding:0 "CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'sedujiste', 'sedujo' )] a [TARGET_CHARACTER.GetShortUIName] con una obra de arte aficionada que mostraba a un[CHARACTER.Custom('ES_XA')] [CHARACTER.GetWomanMan] halagüeñamente bien dotad[CHARACTER.Custom('ES_OA')]."
+ lover_amateur_art_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'sedujiste', 'sedujo' )] a [TARGET_CHARACTER.GetShortUIName] con una obra de arte aficionada que mostraba a un[CHARACTER.Custom('ES_XA')] [CHARACTER.GetWomanMan] halagüeñamente bien dotad[CHARACTER.Custom('ES_OA')]."
  
  lover_threesome_courtiers:0 "[TARGET_CHARACTER.GetShortUIName|U] consiguió, pese a todas las dificultades, coaccionar a [CHARACTER.GetShortUIName] para unirse a un trío con [TARGET_CHARACTER_2.GetShortUIName]."
  lover_threesome_courtiers_corresponding:0 "[CHARACTER.GetShortUIName|U] consiguió, pese a todas las dificultades, coaccionar a [TARGET_CHARACTER.GetShortUIName] para unirse a un trío con [TARGET_CHARACTER_2.GetShortUIName]."
@@ -545,13 +593,16 @@
  lover_varangian_local_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'conociste', 'conoció' )] a [CHARACTER.GetShortUIName], un[CHARACTER.Custom('ES_XA')] lugareñ[TARGET_CHARACTER.Custom('ES_OA')], cuando servía en la guardia varega."
  
  lover_indiscreet:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te', '' )] sedujo a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] después de que [TARGET_CHARACTER_2.GetShortUIName] diera permiso a [TARGET_CHARACTER.GetShortUINameNoTooltip] para viajar libremente por la corte."
- lover_indiscreet_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'sedujiste', 'sedujo' )] a [TARGET_CHARACTER.GetShortUIName )] después de que [TARGET_CHARACTER_2.GetShortUIName] [CHARACTER.LocalPlayerString( 'te', 'le' )] diera permiso a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUINameNoTooltip )] para viajar libremente por la corte."
+ lover_indiscreet_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'sedujiste', 'sedujo' )] a [TARGET_CHARACTER.GetShortUIName] después de que [TARGET_CHARACTER_2.GetShortUIName] [CHARACTER.LocalPlayerString( 'te', 'le' )] diera permiso a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUINameNoTooltip )] para viajar libremente por la corte."
  
  lover_forbidden_love:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'entablasteis', 'entablaron' )] un amor incestuoso prohibido."
  lover_forbidden_love_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'entablasteis', 'entablaron' )] un amor incestuoso prohibido."
  
  lover_good_tumble:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'diste', 'dio' )] un buen repaso a [TARGET_CHARACTER.GetShortUIName] después de una comida, sin que se enterase [TARGET_CHARACTER_2.GetShortUIName], [TARGET_CHARACTER_2.GetWifeHusband] de [TARGET_CHARACTER.GetShortUINameNoTooltip]."
  lover_good_tumble_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'diste', 'dio' )] un buen repaso a [CHARACTER.GetShortUIName] después de una comida, sin que se enterase [TARGET_CHARACTER_2.GetShortUIName], [TARGET_CHARACTER_2.GetWifeHusband] de [CHARACTER.GetShortUINameNoTooltip]."
+ 
+ lover_romantic_wedding_night:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'tuvisteis', 'tuvieron' )] una noche de bodas romántica… aunque [CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'tenías', 'tenía' )] planes distintos y más oscuros."
+ lover_romantic_wedding_night_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [TARGET_CHARACTER.LocalPlayerString( 'tuvisteis', 'tuvieron' )] una noche de bodas romántica."
  
  lover_abduction:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'secuestraste', 'secuestró' )] románticamente a [CHARACTER.GetShortUIName] de las garras de [TARGET_CHARACTER_2.GetShortUIName]."
  lover_abduction_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'secuestraste', 'secuestró' )] románticamente a [TARGET_CHARACTER.GetShortUIName] de las garras de [TARGET_CHARACTER_2.GetShortUIName]."
@@ -565,11 +616,16 @@
  lover_doppelganger_cucked:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'sedujiste', 'sedujo' )] a [TARGET_CHARACTER.GetShortUIName] al fingir ser [TARGET_CHARACTER_2.GetShortUIName]."
  lover_doppelganger_cucked_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te', '' )] sedujo a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] al fingir ser [TARGET_CHARACTER_2.GetShortUIName]."
  
+ lover_tavern_memory:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'impresionaste', 'impresionó' )] a [TARGET_CHARACTER.GetShortUIName] contándole una historia inspiradora."
+ lover_tavern_memory_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] quedó impresionad[TARGET_CHARACTER.Custom('ES_OA')] por la historia inspiradora que [CHARACTER.GetShortUIName] le [Select_CString( CHARACTER.IsLocalPlayer, 'constaste', 'contó' )]."
+ 
  lover_threesome_with_spouse:0 "[TARGET_CHARACTER_2.GetShortUIName], cónyuge amante de [CHARACTER.GetShortUIName|U], introdujo a [TARGET_CHARACTER.GetShortUIName] en la alcoba, reavivando la pasión de [CHARACTER.GetShortUINameNoTooltip] con un trío."
  lover_threesome_with_spouse_corresponding:0 "[TARGET_CHARACTER_2.GetShortUIName], cónyuge amante de [TARGET_CHARACTER.GetShortUIName|U], presentó a [CHARACTER.GetShortUIName] en la alcoba, reavivando la pasión de [TARGET_CHARACTER.GetShortUINameNoTooltip] con un trío."
  
  lover_ignored_spouse:0 "En un intento de animar su lecho, [TARGET_CHARACTER_2.GetShortUIName], cónyuge amante de [CHARACTER.GetShortUIName|U], introdujo a [TARGET_CHARACTER.GetShortUIName] en la alcoba, pero [CHARACTER.GetShortUINameNoTooltip] solo [CHARACTER.LocalPlayerString( 'tuviste', 'tuvo' )] ojos para [TARGET_CHARACTER.GetShortUINameNoTooltip] a partir de entonces."
  lover_ignored_spouse_corresponding:0 "En un intento de animar su lecho, [TARGET_CHARACTER_2.GetShortUIName], cónyuge amante de [TARGET_CHARACTER.GetShortUIName|U], introdujo a [CHARACTER.GetShortUIName] en la alcoba, pero [TARGET_CHARACTER.GetShortUINameNoTooltip] solo tuvo ojos para [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] a partir de entonces."
+
+ lover_wedding_matchmaking:0 "A pesar de que [Select_CString( CHARACTER.IsLocalPlayer, 'os', 'les' )] emparejaron unos casamenteros entrometidos en una boda, la atracción entre [CHARACTER.GetShortUIName] y [TARGET_CHARACTER.GetShortUIName] fue real."
  
  rival_food_fight:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] rivales tras una violenta pelea con comida."
  rival_at_ceremony:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] rivales durante una ceremonia religiosa."
@@ -620,7 +676,7 @@
  
  rival_debug:0 "El jugador usó una interacción por defecto para establecer esta rivalidad entre [CHARACTER.GetShortUIName] y [TARGET_CHARACTER.GetShortUIName]."
  
- rival_jealousy_at_court:0 "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en objeto de la envidia de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUINameNoTooltip]."
+ rival_jealousy_at_court:0 "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en objeto de la envidia de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUINameNoTooltip )]."
  rival_jealousy_at_court_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te convertiste', 'se convirtió' )] en objeto de la envidia de [TARGET_CHARACTER.GetShortUINameNoTooltip]."
  
  rival_lashed_out_against:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'estallaste', 'estalló' )] contra [CHARACTER.GetShortUIName] por frustración."
@@ -637,6 +693,9 @@
  
  rival_duel_vengeance:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'derrotaste', 'derrotó' )] a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] en un duelo."
  rival_duel_vengeance_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'derrotaste', 'derrotó' )] a [TARGET_CHARACTER.GetShortUIName] en un duelo."
+
+ rival_fired_from_council:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'echaste', 'echó' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUINameNoTooltip )] del consejo."
+ rival_fired_from_council_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'echaste', 'echó' )] a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUINameNoTooltip )] del consejo."
  
  rival_poison_vengeance:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'intentaste', 'intentó' )] envenenar[CHARACTER.LocalPlayerString( 'te', '' )] a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )]."
  rival_poison_vengeance_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'intentaste', 'intentó' )] envenenar a [TARGET_CHARACTER.GetShortUIName]."
@@ -678,6 +737,9 @@
  rival_humiliated_in_debate:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'fuiste', 'fue' )] humillad[CHARACTER.Custom('ES_OA')] totalmente por [TARGET_CHARACTER.GetShortUIName] en un debate."
  rival_humiliated_in_debate_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] fue humillad[TARGET_CHARACTER.Custom('ES_OA')] totalmente por [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] en un debate."
  
+ rival_king_of_ugly:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'coronaste', 'coronó' )] a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUINameNoTooltip )] como [CHARACTER.Custom('GetMonarchofBeautyGoodBad')] en un festival cultural."
+ rival_king_of_ugly_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'coronaste', 'coronó' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] como [TARGET_CHARACTER.Custom('GetMonarchofBeautyGoodBad')] en un festival cultural."
+ 
  rival_academic_dispute:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te llevaste', 'se llevó' )] el mérito de un tratado escrito a medias con [TARGET_CHARACTER.GetShortUIName]."
  rival_academic_dispute_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] se llevó el mérito de un tratado escrito a medias con [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )]."
  
@@ -709,6 +771,9 @@
  
  rival_humiliating_refusal_to_fight:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te negaste', 'se negó' )] con condescendencia a luchar contra [TARGET_CHARACTER.GetShortUIName] por el honor de sus padres."
  rival_humiliating_refusal_to_fight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'te negaste', 'se negó' )] con condescendencia a luchar contra [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] por el honor de [CHARACTER.LocalPlayerString( 'tus', 'sus' )] padres."
+ 
+ rival_denied_courtly_love:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'rechazaste', 'rechazó' )] dejar marchar a [TARGET_CHARACTER.GetShortUIName] para que encontrase su amor verdadero."
+ rival_denied_courtly_love_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U] se vio retenid[TARGET_CHARACTER.Custom('ES_OA')] en la corte por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] para negarle su amor verdadero."
  
  rival_child_defeated:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'derrotaste', 'derrotó' )] a [TARGET_CHARACTER.GetShortUIName] en combate, para humillación de sus padres."
  rival_child_defeated_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'derrotaste', 'derrotó' )] a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] en combate, para humillación de [CHARACTER.LocalPlayerString( 'tus', 'sus' )] padres."
@@ -762,6 +827,9 @@
  
  rival_insult_and_duel:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'insultaste', 'insultó' )] y después [TARGET_CHARACTER.LocalPlayerString( 'derrotaste', 'derrotó' )] a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUINameNoTooltip )] en un duelo."
  rival_insult_and_duel_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'insultaste', 'insultó' )] y después [CHARACTER.LocalPlayerString( 'derrotaste', 'derrotó' )] a [TARGET_CHARACTER.GetShortUIName] en un duelo."
+ 
+ rival_no_holy_site_monk:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'impediste', 'impidió' )] a [TARGET_CHARACTER.GetShortUIName] responder a su llamada religiosa."
+ rival_no_holy_site_monk_corresponding:0 "[TARGET_CHARACTER.GetShortUIName] vio cómo [CHARACTER.GetShortUIName|U] le [Select_CString( CHARACTER.IsLocalPlayer, 'impediste', 'impidió' )] responder a su llamada religiosa."
  
  rival_age_old_rivalry:0 "Se sabe que [CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'albergasteis', 'albergaron' )] una intensa aversión mutua durante mucho tiempo."
  rivalry_at_court:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'llegasteis', 'llegaron')] al aborrecimiento por enfrentarse constantemente en la corte de [TARGET_CHARACTER_2.GetShortUIName]."
@@ -869,8 +937,8 @@
  rival_house_feud_imprisonment:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'mantuviste', 'mantuvo' )] prisionero durante un periodo inhumano de tiempo a un miembro de la casa de [CHARACTER.LocalPlayerString( 'tu familia', CHARACTER.GetShortUIName )].\nEsto es consecuencia de la enemistad entre las casas [CHARACTER.GetDynastyHouseName] y [TARGET_CHARACTER.GetDynastyHouseName]."
  rival_house_feud_imprisonment_corresponding:0 "[CHARACTER.GetShortUIName|U] man[CHARACTER.LocalPlayerString( 'tuviste', 'tuvo' )] prisionero durante un periodo inhumano de tiempo a un miembro de la casa de [TARGET_CHARACTER.LocalPlayerString( 'tu familia', TARGET_CHARACTER.GetShortUINameNoTooltip )].\nEsto es consecuencia de la enemistad entre las casas [TARGET_CHARACTER.GetDynastyHouseName] y [CHARACTER.GetDynastyHouseName]."
  
- rival_house_feud_death_of_house_head_vengeance:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'mataste', 'mató' )] a [TARGET_CHARACTER_2.GetUIName], líder de la casa [CHARACTER.GetDynastyHouseNameNoTooltip]. Como nuev[CHARACTER.Custom('ES_OA')] líder, [CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'juraste', 'juró' )] venganza.\nEsto es consecuencia de la enemistad entre las casas [TARGET_CHARACTER.GetDynastyHouseName] y [CHARACTER.GetDynastyHouseName]."
- rival_house_feud_death_of_house_head_vengeance_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'mataste', 'mató' )] a [TARGET_CHARACTER_2.GetUIName], líder de la casa [CHARACTER.GetDynastyHouseNameNoTooltip]. Como nuev[TARGET_CHARACTER.Custom('ES_OA')] líder, [TARGET_CHARACTER.GetShortUIName] [TARGET_CHARACTER.LocalPlayerString( 'juraste', 'juró' )] venganza.\nEsto es consecuencia de la enemistad entre las casas [CHARACTER.GetDynastyHouseName] y [TARGET_CHARACTER.GetDynastyHouseName]."
+ rival_house_feud_death_of_house_head_vengeance:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'mataste', 'mató' )] a [TARGET_CHARACTER_2.GetUIName], jef[TARGET_CHARACTER_2.Custom('ES_EA')] de la casa [CHARACTER.GetDynastyHouseNameNoTooltip]. Como nuev[CHARACTER.Custom('ES_OA')] líder, [CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'juraste', 'juró' )] venganza.\nEsto es consecuencia de la enemistad entre las casas [TARGET_CHARACTER.GetDynastyHouseName] y [CHARACTER.GetDynastyHouseName]."
+ rival_house_feud_death_of_house_head_vengeance_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'mataste', 'mató' )] a [TARGET_CHARACTER_2.GetUIName], jef[TARGET_CHARACTER_2.Custom('ES_EA')] de la casa [CHARACTER.GetDynastyHouseNameNoTooltip]. Como nuev[TARGET_CHARACTER.Custom('ES_OA')] líder, [TARGET_CHARACTER.GetShortUIName] [TARGET_CHARACTER.LocalPlayerString( 'juraste', 'juró' )] venganza.\nEsto es consecuencia de la enemistad entre las casas [CHARACTER.GetDynastyHouseName] y [TARGET_CHARACTER.GetDynastyHouseName]."
  
  rival_house_feud_house_head_tortured:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'torturaste', 'torturó' )] a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )].\nEsto es consecuencia de la enemistad entre las casas [CHARACTER.GetDynastyHouseName] y [TARGET_CHARACTER.GetDynastyHouseName]."
  rival_house_feud_house_head_tortured_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'torturaste', 'torturó' )] a [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )].\nEsto es consecuencia de la enemistad entre las casas [TARGET_CHARACTER.GetDynastyHouseName] y [CHARACTER.GetDynastyHouseName]."
@@ -881,14 +949,14 @@
  rival_house_feud_house_head_blinded:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'cegaste', 'cegó' )] a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )].\nEsto es consecuencia de la enemistad entre las casas [CHARACTER.GetDynastyHouseName] y [TARGET_CHARACTER.GetDynastyHouseName]."
  rival_house_feud_house_head_blinded_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'cegaste', 'cegó' )] a [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )].\nEsto es consecuencia de la enemistad entre las casas [TARGET_CHARACTER.GetDynastyHouseName] y [CHARACTER.GetDynastyHouseName]."
  
- rival_house_feud_torture:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'torturaste', 'torturó' )] a [TARGET_CHARACTER2.GetShortUIName], familia de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )].\nEsto es consecuencia de la enemistad entre las casas [CHARACTER.GetDynastyHouseName] y [TARGET_CHARACTER.GetDynastyHouseName]."
+ rival_house_feud_torture:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'torturaste', 'torturó' )] a [TARGET_CHARACTER_2.GetShortUIName], familia de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )].\nEsto es consecuencia de la enemistad entre las casas [CHARACTER.GetDynastyHouseName] y [TARGET_CHARACTER.GetDynastyHouseName]."
  rival_house_feud_torture_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'torturaste', 'torturó' )] a [TARGET_CHARACTER_2.GetShortUIName], familia de [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )].\nEsto es consecuencia de la enemistad entre las casas [TARGET_CHARACTER.GetDynastyHouseName] y [CHARACTER.GetDynastyHouseName]."
  
  rival_house_feud_castrated:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'castraste', 'castró' )] a [TARGET_CHARACTER_2.GetShortUIName], familia de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )].\nEsto es consecuencia de la enemistad entre las casas [CHARACTER.GetDynastyHouseName] y [TARGET_CHARACTER.GetDynastyHouseName]."
  rival_house_feud_castrated_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'castraste', 'castró' )] a [TARGET_CHARACTER_2.GetShortUIName], familia de [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )].\nEsto es consecuencia de la enemistad entre las casas [TARGET_CHARACTER.GetDynastyHouseName] y [CHARACTER.GetDynastyHouseName]."
  
  rival_house_feud_blinding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'cegaste', 'cegó' )] a [TARGET_CHARACTER_2.GetShortUIName], familia de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )].\nEsto es consecuencia de la enemistad entre las casas [TARGET_CHARACTER.GetDynastyHouseName] y [CHARACTER.GetDynastyHouseName]."
- rival_house_feud_blinding_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'cegaste', 'cegó' )] a [TARGET_CHARACTER2.GetShortUIName], familia de [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )].\nEsto es consecuencia de la enemistad entre las casas [TARGET_CHARACTER.GetDynastyHouseName] y [CHARACTER.GetDynastyHouseName]."
+ rival_house_feud_blinding_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'cegaste', 'cegó' )] a [TARGET_CHARACTER_2.GetShortUIName], familia de [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )].\nEsto es consecuencia de la enemistad entre las casas [TARGET_CHARACTER.GetDynastyHouseName] y [CHARACTER.GetDynastyHouseName]."
  
  rival_house_feud_cuckold:0 "[TARGET_CHARACTER.GetShortUIName] [TARGET_CHARACTER.LocalPlayerString( 'pusiste', 'puso' )] los cuernos a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] con [CHARACTER.LocalPlayerString( 'tu', 'su' )] cónyuge, [TARGET_CHARACTER_2.GetUIName].\nEsto es consecuencia de la enemistad entre las casas [TARGET_CHARACTER.GetDynastyHouseName] y [CHARACTER.GetDynastyHouseName]."
  rival_house_feud_cuckold_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'pusiste', 'puso' )] los cuernos a [TARGET_CHARACTER.LocalPlayerString( 'ti', TARGET_CHARACTER.GetShortUIName )] con [TARGET_CHARACTER.LocalPlayerString( 'tu', 'su' )] cónyuge, [TARGET_CHARACTER_2.GetUIName].\nEsto es consecuencia de la enemistad entre las casas [TARGET_CHARACTER.GetDynastyHouseName] y [CHARACTER.GetDynastyHouseName]."
@@ -938,8 +1006,8 @@
  lover_gregarious:0 "[CHARACTER.GetShortUIName|U] y [CHARACTER.LocalPlayerString( 'tu', 'su' )] elocuencia seductora [TARGET_CHARACTER.LocalPlayerString( 'te impresionó', 'impresionó a' )] [TARGET_CHARACTER.LocalPlayerString( 'a ti', TARGET_CHARACTER.GetShortUIName )]."
  lover_gregarious_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.LocalPlayerString( 'tu', 'su' )] elocuencia seductora [CHARACTER.LocalPlayerString( 'te impresionó', 'impresionó a' )] [CHARACTER.LocalPlayerString( 'a ti', CHARACTER.GetShortUIName )]."
  
- lover_woods:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'sedujiste', 'sedujo' )] a [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )] durante una cacería por el/la [PROVINCE.Custom('TerrainTypeProvince' )] de [PROVINCE.GetName]."
- lover_woods_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'sedujiste', 'sedujo' )] a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUINameNoTooltip )] durante una cacería por el/la [PROVINCE.Custom('TerrainTypeProvince' )] de [PROVINCE.GetName]."
+ lover_woods:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'sedujiste', 'sedujo' )] a [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )] durante una cacería por el/la [PROVINCE.Custom('TerrainTypeProvince')] de [PROVINCE.GetName]."
+ lover_woods_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'sedujiste', 'sedujo' )] a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUINameNoTooltip )] durante una cacería por el/la [PROVINCE.Custom('TerrainTypeProvince')] de [PROVINCE.GetName]."
  
  lover_letter:1 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'sedujiste', 'sedujo' )] a [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'tu corazón', TARGET_CHARACTER.GetShortUIName )] con unas cartas de amor bien escritas."
  lover_letter_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sedujiste', 'sedujo' )] a [Select_CString(CHARACTER.IsLocalPlayer, 'tu corazón', CHARACTER.GetShortUIName )] con unas cartas de amor bien escritas."
@@ -958,6 +1026,8 @@
  
  lover_seduction_general:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'sedujiste', 'sedujo' )] a [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )] en una noche de pasión feroz."
  lover_seduction_general_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'sedujiste', 'sedujo' )] a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUINameNoTooltip )] en una noche de pasión feroz."
+ 
+ lover_wnight_gifts:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'intercambiasteis', 'intercambiaron' )] regalos en la noche de bodas."
  
  lover_seduction_garden:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'sedujiste', 'sedujo' )] a [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )] en los jardines de [PROVINCE.GetName]."
  lover_seduction_garden_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'sedujiste', 'sedujo' )] a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUINameNoTooltip )] en los jardines de [PROVINCE.GetName]."
@@ -1026,14 +1096,20 @@
  nemesis_killed_partner:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'mataste', 'mató' )] con saña a la pareja de [CHARACTER.GetShortUIName], [TARGET_CHARACTER_2.GetShortUIName]."
  nemesis_killed_partner_corresponding:1 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'mataste', 'mató' )] con saña a la pareja de [TARGET_CHARACTER.GetShortUIName], [TARGET_CHARACTER_2.GetShortUIName]."
 
- nemesis_rival_killed_child:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'juraste', 'juró' )] venganza contra [TARGET_CHARACTER.GetShortUIName] por matar a [TARGET_CHARACTER_2.GetShortUIName], [CHARACTER.LocalPlayerString( 'tu', 'su' )] [TARGET_CHARACTER2.Custom('GetDaughterSon')]."
- nemesis_rival_killed_child_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'juraste', 'juró' )] venganza contra [CHARACTER.GetShortUIName] por matar a [TARGET_CHARACTER_2.GetShortUIName], [TARGET_CHARACTER.LocalPlayerString( 'tu', 'su' )] [TARGET_CHARACTER2.Custom('GetDaughterSon')]."
+ nemesis_rival_killed_child:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'juraste', 'juró' )] venganza contra [TARGET_CHARACTER.GetShortUIName] por matar a [TARGET_CHARACTER_2.GetShortUIName], [CHARACTER.LocalPlayerString( 'tu', 'su' )] vástago."
+ nemesis_rival_killed_child_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'juraste', 'juró' )] venganza contra [CHARACTER.GetShortUIName] por matar a [TARGET_CHARACTER_2.GetShortUIName], [TARGET_CHARACTER.LocalPlayerString( 'tu', 'su' )] vástago."
 
  nemesis_rival_bedded_child:0 "En un acto de venganza, [TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'te acostaste', 'se acostó' )] con un vástago de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )]."
  nemesis_rival_bedded_child_corresponding:0 "En un acto de venganza, [CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te acostaste', 'se acostó' )] con un vástago de [TARGET_CHARACTER.GetShortUIName]."
 
  nemesis_rival_gains_nemesis:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'recibiste', 'recibió' )] una carta insultante de [TARGET_CHARACTER.GetShortUIName], aunque en un principio estaba dirigida a [TARGET_CHARACTER_2.GetShortUIName]."
  nemesis_rival_gains_nemesis_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] recibió una carta insultante de [CHARACTER.LocalPlayerString( 'tu parte', CHARACTER.GetShortUIName )], aunque en un principio estaba dirigida a [TARGET_CHARACTER_2.GetShortUIName]."
+ 
+ nemesis_monarch_of_grim_and_grievance:0 "[CHARACTER.GetShortUIName|U] se vio coronad[CHARACTER.Custom('ES_OA')] por [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUINameNoTooltip )] como la persona menos atractiva del señorío."
+ nemesis_monarch_of_grim_and_grievance_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'coronaste', 'coronó' )] a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUINameNoTooltip )] como la persona menos atractiva del señorío."
+ 
+ nemesis_animal_contest:1 "[TARGET_CHARACTER.GetShortUIName|U] fue elegid[TARGET_CHARACTER.Custom('ES_OA')] por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] como ganador[TARGET_CHARACTER.Custom('ES_XA')] de una competición de animales de granja."
+ nemesis_animal_contest_corresponding:1 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'elegiste', 'eligió' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] como ganador[TARGET_CHARACTER.Custom('ES_XA')] de una competición de animales de granja."
 
  nemesis_a_question_of_size:0 "[TARGET_CHARACTER.GetShortUIName|U] dio un espectáculo al burlarse de las partes pudendas de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] en una casa de baños pública."
  nemesis_a_question_of_size_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'diste', 'dio' )] un espectáculo al burlarse de las partes pudendas de [TARGET_CHARACTER.GetShortUIName] en una casa de baños pública."
@@ -1064,6 +1140,9 @@
 
  nemesis_tostig_harold:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te apoderaste', 'se apoderó' )] de los títulos de [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )]."
  nemesis_tostig_harold_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'te apoderaste', 'se apoderó' )] de los títulos de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )]."
+ 
+ nemesis_sent_assassins:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'enviaste', 'envió' )] un asesino profesional a matar a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUINameNoTooltip )]."
+ nemesis_sent_assassins_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'mataste', 'mató' )] al asesino personal que [CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'enviaste', 'envió' )]."
 
  nemesis_historical:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'habéis', 'han' )] sido némesis desde siempre."
  
@@ -1082,7 +1161,7 @@
  soulmate_named_mountain_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] mostr[TARGET_CHARACTER.LocalPlayerString( 'aste', 'ó' )] amor y afecto por [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] al bautizar con [CHARACTER.LocalPlayerString( 'tu', 'su' )] nombre una montaña."
  
  soulmate_won_love_in_duel_2:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'ganaste', 'ganó' )] el corazón de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] al batirse en duelo y matar a un amante competidor."
- soulmate_won_love_in_duel_2_corresponding:0 "CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'ganaste', 'ganó' )] el corazón de [TARGET_CHARACTER.LocalPlayerString( 'tu persona', [TARGET_CHARACTER.GetShortUIName )] al batirse en duelo y matar a un amante competidor."
+ soulmate_won_love_in_duel_2_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'ganaste', 'ganó' )] el corazón de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] al batirse en duelo y matar a un amante competidor."
  
  soulmate_professed_love:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'proclamasteis', 'proclamaron' )] un amor mutuo inmortal."
  
@@ -1094,8 +1173,11 @@
  
  soulmate_doppelganger:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'compartís', 'comparten' )] algo más que el parecido y [CHARACTER.LocalPlayerString( 'proclamasteis', 'proclamaron' )] una devoción mutua eterna."
  
- soulmate_gifting_flowers:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'expresaste', 'expresó' )] amor y devoción hacia [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] con el regalo de un ramo de flores maravillosas de su propio jardín."
- soulmate_gifting_flowers_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'expresaste', 'expresó' )] amor y devoción hacia [TARGET_CHARACTER.LocalPlayerString( 'ti', TARGET_CHARACTER.GetShortUIName )] con el regalo de un ramo de flores maravillosas de su propio jardín."
+ soulmate_gifting_flowers:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'expresaste', 'expresó' )] amor y devoción hacia [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] con el regalo de un ramo de flores maravillosas de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu', 'su' )] propio jardín."
+ soulmate_gifting_flowers_corresponding:1 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'expresaste', 'expresó' )] amor y devoción hacia [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )] con el regalo de un ramo de flores maravillosas de [Select_CString( CHARACTER.IsLocalPlayer, 'tu', 'su' )] propio jardín."
+
+ soulmate_wedding_accepting_partner:0 "Un amor verdadero floreció entre [CHARACTER.GetShortUIName] y [TARGET_CHARACTER.GetShortUIName] a través del respeto y la aceptación en la alcoba."
+ soulmate_wedding_first_sight:1 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os enamorasteis', 'se enamoraron' )] a primera vista en el intercambio de votos."
  
  saved_from_wolf:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [TARGET_CHARACTER.LocalPlayerString( 'encontrasteis', 'encontraron' )] el amor eterno cuando [TARGET_CHARACTER.LocalPlayerString( ' te', '' )] [TARGET_CHARACTER.LocalPlayerString( 'rescataste', 'rescató' )] a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] de un lobo."
  saved_from_wolf_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'encontrasteis', 'encontraron' )] el amor eterno cuando [CHARACTER.LocalPlayerString( 'rescataste', 'rescató' )] a [TARGET_CHARACTER.GetShortUIName] de un lobo."
@@ -1157,7 +1239,7 @@
  rival_bootlicker_foiled:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'intentaste', 'intentó' )] sabotear el intento de [TARGET_CHARACTER.GetShortUIName] de ganarse el favor de su propio señor."
  rival_bootlicker_foiled_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'intentaste', 'intentó' )] sabotear el intento de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] de ganarse el favor de [CHARACTER.LocalPlayerString( 'tu', 'su' )] propio señor."
  
- rival_boring_party_guest:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'reprendiste', 'reprendió' ) a [TARGET_CHARACTER.GetShortUIName] por ser un[TARGET_CHARACTER.Custom('ES_XA')] invitad[TARGET_CHARACTER.Custom('ES_OA')] aburrid[TARGET_CHARACTER.Custom('ES_OA')]."
+ rival_boring_party_guest:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'reprendiste', 'reprendió' )] a [TARGET_CHARACTER.GetShortUIName] por ser un[TARGET_CHARACTER.Custom('ES_XA')] invitad[TARGET_CHARACTER.Custom('ES_OA')] aburrid[TARGET_CHARACTER.Custom('ES_OA')]."
  rival_boring_party_guest_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U][CHARACTER.LocalPlayerString( ' te', '' )] [TARGET_CHARACTER.LocalPlayerString( 'reprendiste', 'reprendió' )] a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] por ser un[CHARACTER.Custom('ES_XA')] invitad[CHARACTER.Custom('ES_OA')] aburrid[CHARACTER.Custom('ES_OA')]."
  
  rival_breaks_into_home:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te', 'se' )] [CHARACTER.LocalPlayerString( 'colaste', 'coló' )] en el hogar de [TARGET_CHARACTER.GetShortUIName]."
@@ -1165,6 +1247,9 @@
  
  rival_bullied_other_child:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'acosaste', 'acosó' )] a [TARGET_CHARACTER.GetShortUIName] cuando [CHARACTER.LocalPlayerString( 'erais', 'eran' )] unos críos."
  rival_bullied_other_child_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'acosaste', 'acosó' )] a [CHARACTER.GetShortUIName] cuando [TARGET_CHARACTER.LocalPlayerString( 'erais', 'eran' )] unos críos."
+ 
+ rival_buffoon_play:0 "[CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] descrit[TARGET_CHARACTER.Custom('ES_OA')] como [Select_CString( CHARACTER.IsFemale, 'una bufona', 'un bufón' )] por [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )] en un festival cultural."
+ rival_buffoon_play_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'describiste', 'describió' )] a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUINameNoTooltip )] como [Select_CString( CHARACTER.IsFemale, 'una bufona', 'un bufón' )] en un festival cultural."
  
  rival_burned_at_party:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'quemaste', 'quemó' )] a [TARGET_CHARACTER.GetShortUIName] durante una fiesta."
  rival_burned_at_party_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'quemaste', 'quemó' )] a [CHARACTER.GetShortUIName] durante una fiesta."
@@ -1179,12 +1264,12 @@
  rival_child_challenge_corresponding:0 "[CHARACTER.GetShortUIName|U] solo [CHARACTER.LocalPlayerString( 'hiciste', 'hizo' )] arrestar a [TARGET_CHARACTER.GetShortUIName] antes que aceptar el desafío para defender el honor de [TARGET_CHARACTER.GetShortUIName]."
  
  rival_child_challenge_recompense:0 "[TARGET_CHARACTER.GetShortUIName|U][CHARACTER.LocalPlayerString( 'te ', '' )] reprendió a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] a causa de la temeridad."
- rival_child_challenge_recompense_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'reprendiste', 'reprendió' ) a [TARGET_CHARACTER.GetShortUIName] por su temeridad."
+ rival_child_challenge_recompense_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'reprendiste', 'reprendió' )] a [TARGET_CHARACTER.GetShortUIName] por su temeridad."
 
  rival_child_challenge_recompense_6006:0 "[TARGET_CHARACTER.GetShortUIName|U] insistió en que [CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'pagaras', 'pagara' )] una compensación a [TARGET_CHARACTER_2.GetShortUIName] por matar a un miembro de la familia."
  rival_child_challenge_recompense_6006_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'insististe', 'insistió' )] en que [TARGET_CHARACTER.GetShortUIName] pagara una compensación a [TARGET_CHARACTER_2.GetShortUIName] por matar a un miembro de la familia."
 
- rival_child_challenge_recompense_charity:0 "TARGET_CHARACTER.GetShortUIName|U] insistió en que [CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'entregaras', 'entregara' )] dinero a la caridad tras retar imprudentemente a [TARGET_CHARACTER_2.GetShortUIName]."
+ rival_child_challenge_recompense_charity:0 "[TARGET_CHARACTER.GetShortUIName|U] insistió en que [CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'entregaras', 'entregara' )] dinero a la caridad tras retar imprudentemente a [TARGET_CHARACTER_2.GetShortUIName]."
  rival_child_challenge_recompense_charity_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'insististe', 'insistió' )] en que [TARGET_CHARACTER.GetShortUIName] entregara dinero a la caridad tras retar imprudentemente a [TARGET_CHARACTER_2.GetShortUIName]."
  
  rival_child_saw_execution:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te', 'le' )] obligó a [CHARACTER.GetShortUIName] a contemplar una ejecución de niñ[CHARACTER.Custom('ES_OA')]."
@@ -1325,7 +1410,7 @@
  rival_gym_bro:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'empezasteis', 'empezaron' )] a detestarse tras un combate de lucha libre."
 
  rival_harassed_exiled:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'exiliaste', 'exilió' )] a [TARGET_CHARACTER.GetShortUIName] por asustar a [CHARACTER.LocalPlayerString( 'tu', 'su' )] [TARGET_CHARACTER_2.Custom('GetDaughterSon')], [TARGET_CHARACTER_2.GetShortUIName]."
- rival_harassed_exiled_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] exilió a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] por asustar a su [TARGET_CHARACTER2.Custom('GetDaughterSon')], [TARGET_CHARACTER_2.GetShortUIName]."
+ rival_harassed_exiled_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] exilió a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] por asustar a su vástago, [TARGET_CHARACTER_2.GetShortUIName]."
 
  rival_harbored_polymath:0 "[TARGET_CHARACTER.GetShortUIName|U] empezó a despreciar a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUINameNoTooltip )] tras acoger a un fugitivo polímata."
  rival_harbored_polymath_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'empezaste', 'empezó' )] a despreciar a [TARGET_CHARACTER.GetShortUINameNoTooltip] tras acoger a un fugitivo polímata."
@@ -1369,13 +1454,13 @@
  rival_insulted_language:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'insinuaste', 'insinuó' )] que los intentos de [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )] por aprender un nuevo idioma solo pretendían lograr gloria."
  rival_insulted_language_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'insinuaste', 'insinuó' )] que los intentos de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] por aprender un nuevo idioma solo pretendían lograr gloria."
 
- rival_insulted_mother:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGE_CHARACTER.LocalPlayerString( 'abofeteaste', 'abofeteó' )] a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] por difundir rumores indecorosos."
+ rival_insulted_mother:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'abofeteaste', 'abofeteó' )] a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] por difundir rumores indecorosos."
  rival_insulted_mother_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'abofeteaste', 'abofeteó' )] a [TARGET_CHARACTER.GetShortUIName] por difundir rumores indecorosos."
 
  rival_irritated_bishop:0 "El intento de [TARGET_CHARACTER.GetShortUIName] de extorsionar a los campesinos para sacar más dinero hizo que [CHARACTER.GetShortUIName] [TARGET_CHARACTER.GetHerHim] [CHARACTER.LocalPlayerString( 'sacaras', 'sacara' )] del proceso en vez de quedarse con las ganancias."
  rival_irritated_bishop_corresponding:0 "El intento de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] de extorsionar a los campesinos para sacar más dinero hizo que [TARGET_CHARACTER.GetShortUINameNoTooltip] [CHARACTER.GetHerHim] [TARGET_CHARACTER.LocalPlayerString( 'sacaras', 'sacara' )] del proceso en vez de quedarse con las ganancias."
 
- rival_jester_jailed:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'encarcelaste', 'encarceló' )] a [CHARACTER.GetShortUIName )] por asustar[TARGET_CHARACTER.GetHerHim] al salir de una tarta al ser cortada."
+ rival_jester_jailed:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'encarcelaste', 'encarceló' )] a [CHARACTER.GetShortUIName] por asustar[TARGET_CHARACTER.GetHerHim] al salir de una tarta al ser cortada."
  rival_jester_jailed_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'encarcelaste', 'encarceló' )] a [TARGET_CHARACTER.GetShortUIName] por asustar[CHARACTER.GetHerHim] al salir de una tarta al ser cortada."
 
  rival_jester_refused:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'rechazaste', 'rechazó' )] nombrar un bufón a pesar de las súplicas de [CHARACTER.GetShortUIName]."
@@ -1419,16 +1504,16 @@
  rival_lost_duel:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'superaste', 'superó' )] a [TARGET_CHARACTER.GetShortUIName] en un duelo."
  rival_lost_duel_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'te ', '' )] superó a [Select_CString(CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] en un duelo."
 
- rival_love_triangle_allowed:1 "A [Select_CString(CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] se [Select_CString(CHARACTER.IsLocalPlayer, 'te', 'le' )] permitió robar [TARGET_CHARACTER2.Custom('ES_AlAla')] encantador[TARGET_CHARACTER2.Custom('ES_XA')] [TARGET_CHARACTER_2.GetShortUIName], cónyuge de [TARGET_CHARACTER.GetShortUIName]."
- rival_love_triangle_allowed_corresponding:1 "A [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )] se [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'te', 'le' )] permitió robar [TARGET_CHARACTER2.Custom('ES_AlAla')] encantador[TARGET_CHARACTER2.Custom('ES_XA')] [TARGET_CHARACTER_2.GetShortUIName], cónyuge de [CHARACTER.GetShortUIName]."
+ rival_love_triangle_allowed:1 "A [Select_CString(CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] se [Select_CString(CHARACTER.IsLocalPlayer, 'te', 'le' )] permitió robar [TARGET_CHARACTER_2.Custom('ES_AlAla')] encantador[TARGET_CHARACTER_2.Custom('ES_XA')] [TARGET_CHARACTER_2.GetShortUIName], cónyuge de [TARGET_CHARACTER.GetShortUIName]."
+ rival_love_triangle_allowed_corresponding:1 "A [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )] se [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'te', 'le' )] permitió robar [TARGET_CHARACTER_2.Custom('ES_AlAla')] encantador[TARGET_CHARACTER_2.Custom('ES_XA')] [TARGET_CHARACTER_2.GetShortUIName], cónyuge de [CHARACTER.GetShortUIName]."
 
  rival_love_triangle:1 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'fracasaste', 'fracasó' )] en el intento de ganarse el corazón del cónyuge de [TARGET_CHARACTER.GetShortUIName]."
  rival_love_triangle_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'fracasaste', 'fracasó' )] en el intento de ganarse el corazón del cónyuge de [CHARACTER.GetShortUIName]."
 
  rival_love_triangle_generic:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'convertisteis', 'convirtieron' )] su prolongado triángulo amoroso en enemistad."
 
- rival_love_triangle_root:0 "[TARGET_CHARACTER.GetShortUIName|U] se lanzó y le quitó [TARGET_CHARACTER2.Custom('ES_ElLa')] encantador[TARGET_CHARACTER2.Custom('ES_XA')] [TARGET_CHARACTER_2.GetShortUIName] a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )]."
- rival_love_triangle_root_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te lanzaste', 'se lanzó' )] y [CHARACTER.LocalPlayerString( 'le quitaste', 'le quitó' )] [TARGET_CHARACTER2.Custom('ES_ElLa')] encantador[TARGET_CHARACTER2.Custom('ES_XA')] [TARGET_CHARACTER_2.GetShortUIName] a [TARGET_CHARACTER.GetShortUIName]."
+ rival_love_triangle_root:0 "[TARGET_CHARACTER.GetShortUIName|U] se lanzó y le quitó [TARGET_CHARACTER_2.Custom('ES_ElLa')] encantador[TARGET_CHARACTER_2.Custom('ES_XA')] [TARGET_CHARACTER_2.GetShortUIName] a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )]."
+ rival_love_triangle_root_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te lanzaste', 'se lanzó' )] y [CHARACTER.LocalPlayerString( 'le quitaste', 'le quitó' )] [TARGET_CHARACTER_2.Custom('ES_ElLa')] encantador[TARGET_CHARACTER_2.Custom('ES_XA')] [TARGET_CHARACTER_2.GetShortUIName] a [TARGET_CHARACTER.GetShortUIName]."
 
  rival_mercilessly_pushed:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'seguiste', 'siguió' )] presionando a [TARGET_CHARACTER.GetShortUIName] para relacionarse con otros invitados a pesar de su falta de interés."
  rival_mercilessly_pushed_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te ', '' )] siguió presionando a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] para relacionarse con otros invitados a pesar de su falta de interés."
@@ -1440,9 +1525,12 @@
 
  rival_not_grovel:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'rechazaste', 'rechazó' )] hacer las paces con la familia de [TARGET_CHARACTER.GetShortUIName]."
  rival_not_grovel_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] rechazó hacer las paces con la familia de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )]."
+ 
+ rival_feast_of_fools:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] coronad[CHARACTER.Custom('ES_OA')] $nick_monarch_of_fools_masc$ por [TARGET_CHARACTER.GetShortUIName] durante un festival cultural."
+ rival_feast_of_fools_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'coronaste', 'coronó' )] a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] como $nick_monarch_of_fools_masc$ durante un festival cultural."
 
- rival_no_grain:0 "[TARGET_CHARACTER.GetShortUIName|U] insistió en que la provincia de [CHARACTER.LocalPlayerString( 'tu posesión', CHARACTER.GetShortUIName )] podía resolver sola su escasez de cereales."
- rival_no_grain_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'insististe', 'insistió' )] en que la provincia de [TARGET_CHARACTER.GetShortUIName] podía resolver sola su escasez de cereales."
+ rival_no_grain:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'insististe', 'insistió' )] en que el condado de [CHARACTER.LocalPlayerString( 'tu posesión', CHARACTER.GetShortUIName )] podía resolver solo su escasez de cereales."
+ rival_no_grain_corresponding:1 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'insististe', 'insistió' )] en que el condado de [TARGET_CHARACTER.LocalPlayerString( 'tu señorío', TARGET_CHARACTER.GetShortUIName )] podía resolver solo su escasez de cereales."
 
  rival_other_fighter_side:0 "[CHARACTER.GetShortUIName|U] no [CHARACTER.LocalPlayerString( 'elegiste', 'eligió' )] el bando de [TARGET_CHARACTER.GetShortUIName] en una disputa durante un festín."
  rival_other_fighter_side_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] no eligió el bando de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] en una disputa durante un festín."
@@ -1463,6 +1551,9 @@
 
  rival_perceived_slight:0 "Se supone que [TARGET_CHARACTER.GetShortUIName] insultó a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )], aunque los testigos notaron que el desaire fue más fingido que real."
  rival_perceived_slight_corresponding:0 "Se supone que [CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'insultaste', 'insultó' )] a [TARGET_CHARACTER.GetShortUIName], aunque los testigos notaron que el desaire fue más fingido que real."
+ 
+ rival_bad_mouthed:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'hablaste', 'habló' )] mal de [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] en [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tus', 'sus' )] viajes."
+ rival_bad_mouthed_corresponding:0 "[CHARACTER.GetShortUIName] oyó como [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'hablabas', 'hablaba' )] mal de [CHARACTER.GetSheHe] en [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tus', 'sus' )] viajes."
 
  rival_perceived_slight_root:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'retiraste', 'retiró' )] a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] de su puesto en la corte por enfrentarse a un invitado."
  rival_perceived_slight_root_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'retiraste', 'retiró' )] a [TARGET_CHARACTER.GetShortUIName] de su puesto en la corte por enfrentarse a un invitado."
@@ -1500,8 +1591,8 @@
  rival_prevented_stealing_from_peasants:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'regañaste', 'regañó' )] a [TARGET_CHARACTER.GetShortUIName] por robar a los campesinos."
  rival_prevented_stealing_from_peasants_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] regañó a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] por robar a los campesinos."
 
- rival_province_help:0 "[TARGET_CHARACTER.GetShortUIName|U] rechazó tajante ayudar a la provincia de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] con sus problemas de lugareños indisciplinados."
- rival_province_help_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'rechazaste', 'rechazó' )] tajante ayudar a la provincia de [TARGET_CHARACTER.GetShortUIName] con sus problemas de lugareños indisciplinados."
+ rival_province_help:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'rechazaste', 'rechazó' )] tajante ayudar al condado de [CHARACTER.LocalPlayerString( 'tu señorío', CHARACTER.GetShortUIName )] con sus problemas de lugareños indisciplinados."
+ rival_province_help_corresponding:1 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'rechazaste', 'rechazó' )] tajante ayudar al condado de [TARGET_CHARACTER.LocalPlayerString( 'tu señorío', TARGET_CHARACTER.GetShortUIName )] con sus problemas de lugareños indisciplinados."
 
  rival_punched_for_song:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'golpeaste', 'golpeó' )] a [TARGET_CHARACTER.GetShortUIName] por cantar una balada que no era de [CHARACTER.LocalPlayerString( 'tu', 'su' )] gusto."
  rival_punched_for_song_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te', '' )] [TARGET_CHARACTER.LocalPlayerString( 'golpeaste', 'golpeó' )] a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] por cantar una balada que no era de [TARGET_CHARACTER.LocalPlayerString( 'tu', 'su' )] gusto."
@@ -1579,7 +1670,7 @@
  rival_shamed_sell_titles_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'abochornaste', 'abochornó' )] a [TARGET_CHARACTER.LocalPlayerString( 'ti', TARGET_CHARACTER.GetShortUIName )] por vender títulos."
 
  rival_shieldmaiden_declined:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te reíste', 'se rió' )] del intento de [TARGET_CHARACTER.GetShortUIName] de unirse a [CHARACTER.LocalPlayerString( 'tu', 'su' )] servicio como guerrer[TARGET_CHARACTER.Custom('ES_OA')]."
- rival_shieldmaiden_declined_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'te reíste', 'se rió' )] del intento de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] de unirse a su servicio como guerrer[CHARACTER.Custom('ES_OA')"
+ rival_shieldmaiden_declined_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'te reíste', 'se rió' )] del intento de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] de unirse a [TARGET_CHARACTER.LocalPlayerString( 'tu', 'su' )] servicio como guerrer[CHARACTER.Custom('ES_OA')]."
 
  rival_slandered_rival:0 "Se supone que [CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'calumniaste', 'calumnió' )] a [TARGET_CHARACTER.GetShortUIName], aunque los rumores dicen que esas acusaciones no son muy de fiar…"
  rival_slandered_rival_corresponding:0 "Se supone que [TARGET_CHARACTER.GetShortUIName] calumnió a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )], aunque los rumores dicen que esas acusaciones no son muy de fiar…"
@@ -1600,6 +1691,9 @@
  rival_snooping_around_home_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] fisgoneó por el hogar de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )]."
 
  rival_snubbed_maa:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'discutisteis', 'discutieron' )] por asuntos militares."
+ 
+ rival_danced_with_spouse:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'elegiste', 'eligió' )] al cónyuge de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu matrimonio', TARGET_CHARACTER.GetShortUIName )] como pareja de baile en un festival cultural."
+ rival_danced_with_spouse_corresponding:0 "El cónyuge de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu matrimonio', TARGET_CHARACTER.GetShortUIName )] fue la pareja de baile de [CHARACTER.GetShortUIName] en un festival cultural."
 
  rival_sold_titles:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'compraste', 'compró' )] títulos baratos a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )]."
  rival_sold_titles_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'compraste', 'compró' )] títulos baratos a [TARGET_CHARACTER.GetShortUIName]."
@@ -1613,6 +1707,9 @@
 
  rival_stolen_marshmallow:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'robaste', 'robó' )] una golosina bañada en miel a [TARGET_CHARACTER.GetShortUIName] en su infancia."
  rival_stolen_marshmallow_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te', 'le' )] robó una golosina bañada en miel a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] en su infancia."
+ 
+ rival_stole_from_me_banquet:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'intentaste', 'intentó' )] robar a [TARGET_CHARACTER.GetShortUIName] tras invitar[TARGET_CHARACTER.GetHerHim] a un banquete."
+ rival_stole_from_me_banquet_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'intentaste', 'intentó' )] robar a [CHARACTER.GetShortUIName] tras invitar[CHARACTER.GetHerHim] a un banquete."
 
  rival_stole_from_peasants:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'robaste', 'robó' )] a los campesinos de [TARGET_CHARACTER.GetShortUIName]."
  rival_stole_from_peasants_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'robaste', 'robó' )] a los campesinos de [CHARACTER.LocalPlayerString( 'tus tierras', CHARACTER.GetShortUIName )]."
@@ -1672,6 +1769,9 @@
 
  rival_was_disinherited:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] desheredad[TARGET_CHARACTER.Custom('ES_OA')] por [Select_CString(CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )]."
  rival_was_disinherited_corresponding:1 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] desheredad[CHARACTER.Custom('ES_OA')] por [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )]."
+ 
+ rival_whipped_my_kid:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'azotaste', 'azotó' )] al niño de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tus ojos', TARGET_CHARACTER.GetShortUIName )] por una mala actuación en un festival cultural."
+ rival_whipped_my_kid_coresponding:0 "[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Tu', 'El' )] niño de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tus ojos', TARGET_CHARACTER.GetShortUIName )] fue azotado por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] por una mala actuación en un festival cultural."
 
  rival_won_boardgame_challenge:1 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'venciste', 'venció' )] humillantemente a [Select_CString(CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] en un juego de mesa."
  rival_won_boardgame_challenge_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'venciste', 'venció' )] humillantemente a [TARGET_CHARACTER.GetShortUIName] en un juego de mesa."
@@ -1681,9 +1781,18 @@
 
  rival_you_won_boardgame_challenge:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'venciste', 'venció' )] a [TARGET_CHARACTER.GetShortUIName] en un tenso juego de mesa."
  rival_you_won_boardgame_challenge_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] venció a [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] en un tenso juego de mesa."
+
+ rival_embezzled_and_refused_to_reimburse:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'malversaste', 'malversó' )] dinero de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tus arcas', TARGET_CHARACTER.GetShortUIName )] y [Select_CString( CHARACTER.IsLocalPlayer, 'te negaste', 'se negó' )] a devolverlo"
+ rival_embezzled_and_refused_to_reimburse_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'malversaste', 'malversó' )] dinero de [Select_CString( CHARACTER.IsLocalPlayer, 'tus arcas', CHARACTER.GetShortUIName )] y [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te negaste', 'se negó' )] a devolverlo"
  
+ rival_tried_to_embezzle:0 "Pillaron a [CHARACTER.GetShortUIName] cuando intentaba desfalcar oro de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu tesorería', TARGET_CHARACTER.GetShortUIName )]"
+ rival_tried_to_embezzle_corresponding:0 "Pillaron a [TARGET_CHARACTER.GetShortUIName] cuando intentaba desfalcar oro de [Select_CString( CHARACTER.IsLocalPlayer, 'tu tesorería', CHARACTER.GetShortUIName )]"
+
  lover_covered_excreta:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'respondiste', 'respondió' )] bastante amorosamente al hecho de que [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'te', 'le' )] volcase encima un cubo de excrementos."
  lover_covered_excreta_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] respondió bastante amorosamente al hecho de que [CHARACTER.LocalPlayerString( 'tú', CHARACTER.GetShortUIName )] le [CHARACTER.LocalPlayerString( 'volcases', 'volcase' )] encima un cubo de excrementos."
+ 
+ lover_festival_dancing:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'elegiste', 'eligió' )] a [TARGET_CHARACTER.GetShortUIName] como pareja de baile en un festival cultural."
+ lover_festival_dancing_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] elegid[TARGET_CHARACTER.Custom('ES_OA')] por [CHARACTER.GetShortUIName] como pareja de baile en un festival cultural."
 
  lover_witch_sex_partner:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amantes tras una noche salvaje de «oración»."
 
@@ -1754,8 +1863,8 @@
  lover_secret_tumbled:0 "[TARGET_CHARACTER.GetShortUIName|U] le hizo proposiciones a [CHARACTER.GetShortUIName] durante un banquete."
  lover_secret_tumbled_corresponding:0 "[CHARACTER.GetShortUIName|U] le hizo proposiciones a [TARGET_CHARACTER.GetShortUIName] durante un banquete."
 
- lover_seduced_guest:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] invitad[TARGET_CHARACTER.Custom('ES_OA')] de [CHARACTER.GetShortUIName )] y [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'recibiste', 'recibió' )] la #EMP máxima#! hospitalidad."
- lover_seduced_guest_corresponding:1 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] invitad[CHARACTER.Custom('ES_OA')] de [TARGET_CHARACTER.GetShortUIName )] y [Select_CString(CHARACTER.IsLocalPlayer, 'recibiste', 'recibió' )] la #EMP máxima#! hospitalidad."
+ lover_seduced_guest:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] invitad[TARGET_CHARACTER.Custom('ES_OA')] de [CHARACTER.GetShortUIName] y [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'recibiste', 'recibió' )] la #EMP máxima#! hospitalidad."
+ lover_seduced_guest_corresponding:1 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] invitad[CHARACTER.Custom('ES_OA')] de [TARGET_CHARACTER.GetShortUIName] y [Select_CString(CHARACTER.IsLocalPlayer, 'recibiste', 'recibió' )] la #EMP máxima#! hospitalidad."
 
  lover_seducing_courtier:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUINameNoTooltip] [CHARACTER.LocalPlayerString( 'os enamorasteis', 'se enamoraron' )] durante un tórrido encuentro a la luz de la luna."
 
@@ -1799,9 +1908,15 @@
  lover_inspiration_treasure:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'solicitaste', 'solicitó' )] y [CHARACTER.LocalPlayerString( 'recibiste', 'recibió' )] de [TARGET_CHARACTER.LocalPlayerString( 'ti', TARGET_CHARACTER.GetShortUIName )] un libro sobre amor homosexual."
  lover_inspiration_treasure_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] solicitó y recibió de [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUINameNoTooltip )] un libro sobre amor homosexual."
  
+ lover_sexy_assassin:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'quedaste', 'quedó' )] embelesad[CHARACTER.Custom('ES_OA')] por el pico de oro de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUINameNoTooltip )] tras un intento de asesinato fallido."
+ lover_sexy_assassin_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'embelesaste', 'embelesó' )] a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUINameNoTooltip )] tras un intento de asesinato fallido."
+ 
  lover_varangian_lover:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'servisteis', 'sirvieron' )] juntos en la guardia varega e [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] #EMP mucho#!."
  lover_varangian_lover_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [TARGET_CHARACTER.LocalPlayerString( 'servisteis', 'sirvieron' )] juntos en la guardia varega e [TARGET_CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] #EMP mucho#!."
  
+ lover_saved_melee:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUINameNoTooltip] [Select_CString( CHARACTER.IsLocalPlayer, 'os hicisteis', 'se hicieron' )] amantes después de que [Select_CString( CHARACTER.IsLocalPlayer, 'salvases', 'salvase' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] de quedar atrapad[TARGET_CHARACTER.Custom('ES_OA')] en una refriega."
+ lover_saved_melee_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUINameNoTooltip] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'os hicisteis', 'se hicieron' )] amantes después de que [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'salvases', 'salvase' )] a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] de que le atrapase una refriega."
+
  friend_granted_title:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [TARGET_CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amigos cuando [TARGET_CHARACTER.GetShortUIName] le [TARGET_CHARACTER.LocalPlayerString( 'concediste', 'concedió' )] uno de [TARGET_CHARACTER.LocalPlayerString( 'tus', 'sus' )] títulos."
  friend_granted_title_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amigos cuando [TARGET_CHARACTER.GetShortUINameNoTooltip] [TARGET_CHARACTER.LocalPlayerString( 'concediste', 'concedió' )] a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUINameNoTooltip )] uno de [TARGET_CHARACTER.LocalPlayerString( 'tus', 'sus' )] títulos."
 
@@ -1911,6 +2026,9 @@
  friend_childhood_knight:0 "En su infancia, [CHARACTER.GetShortUIName] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] mientras [CHARACTER.LocalPlayerString( 'aprendíais', 'aprendían' )] lo básico del combate de práctica de caballeros."
 
  friend_childhood_religious_scrolls:0 "En su infancia, [CHARACTER.GetShortUIName] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] al revolver entre pergaminos y registros antiguos."
+ 
+ friend_bought_indulgences:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'compraste', 'compró' )] una indulgencia con la aprobación de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )]."
+ friend_bought_indulgences_corresponding:0 "[TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'aprobaste', 'aprobó' )] la compra de una indulgencia por parte de [CHARACTER.GetShortUIName]."
 
  friend_upheld_educational_tactics:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'defendiste', 'defendió' )] las tácticas de formación de [TARGET_CHARACTER.GetShortUIName] ."
  friend_upheld_educational_tactics_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'defendiste', 'defendió' )] las tácticas de formación de [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )] ."
@@ -2000,6 +2118,9 @@
  friend_helped_inspiration_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U][CHARACTER.LocalPlayerString( ' te', '' )] ayudó [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )] con [CHARACTER.LocalPlayerString( 'tu', 'su' )] obra."
 
  friend_inspired_craftsman:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'congeniasteis', 'congeniaron' )] tras una excursión inspiradora."
+ 
+ friend_courtly_love:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'dejaste', 'dejó' )] ir a [TARGET_CHARACTER.GetShortUIName] para permitir su amor en [PROVINCE.GetName]."
+ friend_courtly_love_corresponding:0 "A [TARGET_CHARACTER.GetShortUIName], [CHARACTER.GetShortUIName] le [Select_CString( CHARACTER.IsLocalPlayer, 'permitiste', 'permitió' )] cortejar y buscar su amor en [PROVINCE.GetName]."
 
  friend_miniature_game:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] tras un hermosa partida de un asedio con miniaturas hermosamente modeladas."
 
@@ -2012,7 +2133,7 @@
  friend_given_book:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'te', 'le' )] dio un libro a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUIName )]."
  friend_given_book_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te', 'le' )] [CHARACTER.LocalPlayerString( 'diste', 'dio' )] un libro a [TARGET_CHARACTER.LocalPlayerString( 'ti', TARGET_CHARACTER.GetShortUIName )]."
 
- friend_shared_knowledge:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron )] tras compartir sus conocimientos."
+ friend_shared_knowledge:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'intimasteis', 'intimaron' )] tras compartir sus conocimientos."
 
  friend_fp1_renewed_trade_deal:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'congeniasteis', 'congeniaron' )] tras llegar a un acuerdo comercial."
 
@@ -2088,6 +2209,8 @@
  friend_child_apologize:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te', 'le' )] pidió sinceras disculpas a [CHARACTER.LocalPlayerString( 'ti', CHARACTER.GetShortUINameNoTooltip )]."
  friend_child_apologize_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'pediste', 'pidió' )] sinceras disculpas a [TARGET_CHARACTER.GetShortUIName]."
 
+ friend_wedding_enjoyable_chat:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'disfrutasteis', 'disfrutaron' )] enormemente de su mutua compañía en un banquete de bodas."
+
  rival_garduna_young_thief:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'queréis', 'quieren' )] ser el rey de los ladrones"
 
  rival_attempted_blackmail:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'intentaste', 'intentó' )] chantajear a [TARGET_CHARACTER.GetShortUIName]."
@@ -2098,9 +2221,300 @@
 
  friend_gave_council_seat:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'contrataste', 'contrató' )] a [TARGET_CHARACTER.GetShortUIName] como médico de la corte."
  friend_gave_council_seat_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] contratad[TARGET_CHARACTER.Custom('ES_OA')] por [Select_CString(CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )] como consejer[TARGET_CHARACTER.Custom('ES_OA')]."
+ 
+ friend_listened_to_advice:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'aceptaste', 'aceptó' )] el consejo de [TARGET_CHARACTER.GetShortUIName], lo que reforzó su vínculo."
+ rival_belittled_beliefs:0 "[TARGET_CHARACTER.GetShortUIName|U] se vio burlad[TARGET_CHARACTER.Custom('ES_OA')] por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] por sus creencias supersticiosas."
+ rival_upstaged_at_sea:0 "[TARGET_CHARACTER.GetShortUIName|U] se vio humillad[TARGET_CHARACTER.Custom('ES_OA')] por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] por sus habilidades de navegación inferiores."
+ friend_adopted:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'adoptaste', 'adoptó' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )] como [TARGET_CHARACTER.Custom('GetDaughterSon')]."
+ lover_first_sight:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'te enamoraste', 'se enamoró' )] de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )] a primera vista"
+ lover_first_sight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te enamoraste', 'se enamoró' )] de [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] a primera vista"
+ rival_contest_savagely_beaten:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] brutalmente [Select_CString( TARGET_CHARACTER.IsFemale, 'apaleada', 'apaleado' )] por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUINameNoTooltip )] en una competición de torneo."
+ rival_contest_savagely_beaten_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'apaleaste', 'apaleó')] salvajemente a [TARGET_CHARACTER.GetShortUIName] en una competición de torneo."
+ rival_tournament_attempted_murder:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'intentaste', 'intentó' )] asesinar a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUINameNoTooltip )] durante un torneo"
+ rival_tournament_attempted_murder_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'descubriste', 'descubrió' )] un intento de asesinato por parte de [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUINameNoTooltip )] durante un torneo"
+ rival_tournament_disqualified:0 "[TARGET_CHARACTER.GetShortUIName|U] fue descalificad[TARGET_CHARACTER.Custom('ES_OA')] de una competición de torneo por obra de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName)]"
+ rival_tournament_disqualified_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'descalificaste', 'descalificó' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName)] de una competición de torneo"
+ friend_board_game_opening_inform:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'señalaste', 'señaló' )] una apertura de juego de mesa a [TARGET_CHARACTER.GetShortUIName] durante una competición"
+ friend_board_game_opening_inform_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] vio como [CHARACTER.GetShortUIName|U] le [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'señalabas', 'señalaba' )] una apertura de juego de mesa durante una competición"
+ friend_pas_darmes_band:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'congeniasteis', 'congeniaron' )] como banda en un desafío de paso de armas."
+ friend_pas_darmes_band_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'congeniasteis', 'congeniaron' )] como banda en un desafío de paso de armas."
+ friend_toasted_contest_victory:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'brindaste', 'brindó' )] públicamente por la habilidad y la victoria de [TARGET_CHARACTER.GetShortUIName] en una competición."
+ friend_toasted_contest_victory_corresponding:0 "La habilidad y la victoria de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] fue celebrada públicamente en un brindis por [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+ rival_tournament_attempted_sabotage:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'intentaste', 'intentó' )] sabotear a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] durante una competición de torneo"
+ rival_tournament_attempted_sabotage_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'descubriste', 'descubrió' )] un intento de asesinato por parte de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] durante una competición de torneo"
+ rival_challenged_pas_darmes:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'desafiaste', 'desafió' )] a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] en un paso de armas"
+ rival_challenged_pas_darmes_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'recibiste', 'recibió' )] un desafío de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] en un paso de armas"
+ rival_tournament_favor_jealousy:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'recibiste', 'recibió' )] una prenda de favor del ser amado de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+ rival_tournament_favor_jealousy_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'descubriste', 'descubrió' )] que su ser amado [TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te', 'le' )] regaló un favor a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] en un torneo"
+ rival_melee_dismissed_mayor:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'descartaste', 'descartó' )] las quejas de [CHARACTER.GetShortUIName] sobre una refriega que arrasó su pueblo"
+ rival_melee_dismissed_mayor_corresponding:0 "Las quejas que [Select_CString( CHARACTER.IsLocalPlayer, 'tenías', 'tenía' )] [CHARACTER.GetShortUIName] sobre la refriega que arrasó su pueblo fueron descartadas por [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )]"
+ rival_contest_sport_struck:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'golpeaste', 'golpeó' )] a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] con rabia durante un encuentro deportivo"
+ rival_contest_sport_struck_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] golpead[CHARACTER.Custom('ES_OA')] por [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )] en un encuentro deportivo"
+ rival_quintain_knight_jealousy:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'competiste', 'compitió' )] con [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] por la atención de un nuevo señor durante una competición de estafermo"
+ rival_quintain_knight_jealousy_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'competiste', 'compitió' )] con [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] por la atención de un nuevo señor durante una competición de estafermo"
+ rival_quintain_knight_anger:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'arruinaste', 'arruinó' )] las posibilidades de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] de un reclutamiento durante una competición de estafermo"
+ rival_quintain_knight_anger_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'arruinaste', 'arruinó' )] las posibilidades de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] de un reclutamiento durante una competición de estafermo"
+ rival_quintain_collapse_blame:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'culpaste', 'culpó' )] a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] por el derrumbe del estafermo en un torneo"
+ rival_quintain_collapse_blame_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'te viste', 'se vio' )] culpad[CHARACTER.Custom('ES_OA')] por [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] del derrumbe del estafermo en un torneo"
+ rival_quintain_jester:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] [Select_CString( TARGET_CHARACTER.IsFemale, 'nombrada bufona', 'nombrado bufón' )] por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] tras quedar colgad[TARGET_CHARACTER.Custom('ES_OA')] de un estafermo"
+ rival_quintain_jester_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'nombraste', 'nombró' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] [Select_CString( TARGET_CHARACTER.IsFemale, 'bufona', 'bufón' )] tras quedar colgad[TARGET_CHARACTER.Custom('ES_OA')] de un estafermo"
+ rival_tournament_attempted_banning:0 "A [TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te molestaste', 'se molestó' )] por el intento de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] de expulsar[TARGET_CHARACTER.GetHerHim] de los torneos"
+ rival_tournament_attempted_banning_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'intentaste', 'intentó' )] expulsar a [TARGET_CHARACTER.GetShortUIName] de los torneos"
+ rival_contest_mockery:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] rotundamente el hazmerreír de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] tras un descalabro en una competición"
+ rival_contest_mockery_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'te burlaste', 'se burló' )] rotundamente de [TARGET_CHARACTER.GetShortUIName] tras un descalabro en una competición."
+ rival_recital_booing:0 "[TARGET_CHARACTER.GetShortUIName|U] fue abuchead[TARGET_CHARACTER.Custom('ES_OA')] sonoramente por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] durante su recital."
+ rival_recital_booing_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'abucheaste', 'abucheó' )] sonoramente a [TARGET_CHARACTER.GetShortUIName|U] durante su recital."
+ rival_recital_insult:0 "[TARGET_CHARACTER.GetShortUIName|U] fue insultad[TARGET_CHARACTER.Custom('ES_OA')] públicamente por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] durante su recital."
+ rival_recital_insult_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'insultaste', 'insultó' )] públicamente a [TARGET_CHARACTER.GetShortUIName] durante su recital"
+ friend_recital_compliment:0 "[TARGET_CHARACTER.GetShortUIName|U] se vio alabad[TARGET_CHARACTER.Custom('ES_OA')] públicamente por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] durante su recital."
+ friend_recital_compliment_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'alabaste', 'alabó' )] públicamente a [TARGET_CHARACTER.GetShortUIName] durante su recital"
+ rival_falcon_shot:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'intentaste', 'intentó' )] derribar al halcón de [TARGET_CHARACTER.GetShortUIName] para ganar una carrera."
+ rival_falcon_shot_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'derribaste', 'derribó' )] al halcón de [TARGET_CHARACTER.GetShortUIName|U] durante una carrera"
+ rival_contest_insult:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] furiosamente insultad[TARGET_CHARACTER.Custom('ES_OA')] por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] durante una competición."
+ rival_contest_insult_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'insultaste', 'insultó' )] furiosamente a [TARGET_CHARACTER.GetShortUIName] durante una competición."
+ rival_contest_horse_shot:0 "El caballo de [TARGET_CHARACTER.GetShortUIName] [CHARACTER.GetShortUIName|U] recibió un flechazo de [Select_CString( CHARACTER.IsLocalPlayer, 'tu arco', CHARACTER.GetShortUINameNoTooltip )] durante una competición."
+ rival_contest_horse_shot_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'disparaste', 'disparó' )] al caballo de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tus cuadras', TARGET_CHARACTER.GetShortUIName )] durante una competición."
+ friend_contest_horse_treated:0 "El caballo de [TARGET_CHARACTER.GetShortUIName|U] recibió tratamiento de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] tras recibir un flechazo durante una competición"
+ friend_contest_horse_treated_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'trataste', 'trató' )] al caballo de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tus establos', TARGET_CHARACTER.GetShortUIName )] tras recibir un flechazo durante una competición"
+ friend_quintain_endearment:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te hiciste', 'se hizo' )] querer por [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] tras el descalabro del estafermo"
+ friend_quintain_endearment_corresponding:0 "[CHARACTER.GetShortUIName|U] le [Select_CString( CHARACTER.IsLocalPlayer, 'cogiste', 'cogió' )] cariño a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] tras el descalabro del estafermo"
+ rival_tournament_duelist:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'llegasteis', 'llegaron' )] a las manos tras un desacuerdo en un torneo"
+
+ lover_tournament_victor_impressed:0 "[TARGET_CHARACTER.GetShortUIName|U] quedó impresionad[TARGET_CHARACTER.Custom('ES_OA')] por el porte de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] tras ganar una competición"
+ lover_tournament_victor_impressed_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'impresionaste', 'impresionó' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] con su porte tras ganar una competición"
+ friend_tournament_shop_gift:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'quedaste', 'quedó' )] encantad[TARGET_CHARACTER.Custom('ES_OA')] con el regalo de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] en un torneo"
+ friend_tournament_shop_gift_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'hiciste', 'hizo' )] un regalo muy apreciado a [TARGET_CHARACTER.GetShortUIName] en un torneo"
+ rival_tournament_burned_crest:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'quemaste', 'quemó' )] un blasón tejido que [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'encargaste', 'encargó' )]"
+ rival_tournament_burned_crest_corresponding:0 "El blasón tejido de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu casa', TARGET_CHARACTER.GetShortUIName )] fue quemado por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )]"
+ friend_tournament_church_party:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'congeniasteis', 'congeniaron' )] en una fiesta de [CHARACTER.GetFaith.HouseOfWorship]"
+ lover_given_flower:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te enamoraste', 'se enamoró' )] de [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] tras recibir una hermosa flor en un encuentro fortuito en el bosque"
+ lover_given_flower_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'te enamoraste', 'se enamoró' )] de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )] tras recibir una hermosa flor en un encuentro fortuito en el bosque"
+ friend_tournament_discussion:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [TARGET_CHARACTER.LocalPlayerString( 'congeniasteis', 'congeniaron' )] durante un paseo por el/la [PROVINCE.Custom('TerrainTypeProvince')] mientras [TARGET_CHARACTER.LocalPlayerString( 'asistíais', 'asistían' )] a un torneo en [PROVINCE.GetName]"
+ 
+ rival_kicked_out:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'hiciste', 'hizo' )] expulsar a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] de una ceremonia de boda por ser [Select_CString( TARGET_CHARACTER.IsFemale, 'una borracha molesta', 'un borracho molesto' )]"
+ friend_informed_of_adultery:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'informaste', 'informó' )] a [TARGET_CHARACTER.GetShortUIName|U] de la infidelidad de su cónyuge"
+ friend_informed_of_adultery_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'informaste', 'informó' )] a [CHARACTER.GetShortUIName|U] de la infidelidad de su cónyuge"
+ friend_good_booze:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'suministraste', 'suministró' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] vino y cerveza de buena calidad"
+ friend_good_booze_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'suministraste', 'suministró' )] a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] vino y cerveza de buena calidad"
+ friend_ghost_hunter:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'liberaste', 'liberó' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] de un espíritu que [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te', TARGET_CHARACTER.GetHerHim )] atormentaba"
+ friend_ghost_hunter_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'liberaste', 'liberó' )] a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] de un espíritu que [Select_CString( CHARACTER.IsLocalPlayer, 'te', CHARACTER.GetHerHim )] atormentaba"
+ friend_special_gift:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'hiciste', 'hizo' )] un regalo especial a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] para que [Select_CString( CHARACTER.IsLocalPlayer, 'te', CHARACTER.GetHerHim )] tuviera en cuenta"
+ friend_special_gift_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'hiciste', 'hizo' )] un regalo especial a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] para que [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te', TARGET_CHARACTER.GetHerHim )] tuviera en cuenta"
+ lover_adultery:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'entablasteis', 'entablaron' )] una relación adúltera"
+ lover_adultery_corresponding:0 "$lover_adultery$"
+
+ friend_wedding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'congeniasteis', 'congeniaron' )] en una gran boda"
+ friend_wedding_ritual:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'congeniasteis', 'congeniaron' )] en un ritual prenupcial"
+ rival_despised_ritual:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'te ofendiste', 'se ofendió' )] por el rechazo de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] hacia los rituales prenupciales."
+ lover_tournament_praying:0 "El aparatoso acto de culto que [CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'ejecutaste', 'ejecutó' )] durante un torneo embelesó a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )]"
+ lover_tournament_praying_corresponding:0 "El aparatoso acto de culto que [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ejecutaste', 'ejecutó' )] durante un torneo embelesó a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+ lover_tournament_cynical_prayer:0 "El cínico acto de culto que [CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'realizaste', 'realizó' )] durante un torneo afectó a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )]"
+ lover_tournament_cynical_prayer_corresponding:0 "El cínico acto de culto que [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'realizaste', 'realizó' )] durante un torneo afectó a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+
+ friend_dinner_chat:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'tuviste', 'tuvo' )] una conversación agradable con [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] durante la cena"
+ friend_dinner_chat_corresponding:0 "$friend_dinner_chat$"
+ friend_confidant:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'te confiaste', 'se confió' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )]"
+ friend_confidant_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te confiaste', 'se confió' )] a [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )]."
+ friend_enjoyed_performance:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'disfrutaste', 'disfrutó' )] de una actuación de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+ friend_enjoyed_performance_corresponding:1 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'disfrutaste', 'disfrutó' )] de una actuación de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )]"
+ rival_offended_by_performance:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'presenciaste', 'presenció' )] la hiriente recreación de un recuerdo doloroso por parte de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )]"
+ rival_offended_by_performance_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'presenciaste', 'presenció' )] la hiriente recreación de un recuerdo doloroso por parte de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+ rival_denied_courtier:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'impediste', 'impidió' )] que un cortesano se trasladase a la corte de [Select_CString( CHARACTER.IsLocalPlayer, 'tu señorío', CHARACTER.GetShortUIName )]"
+ rival_denied_courtier_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'impediste', 'impidió' )] que un cortesano se trasladase a la corte de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu señorío', TARGET_CHARACTER.GetShortUIName )]"
+ rival_denied_hook_on_heir:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'impediste', 'impidió' )] que su heredero le jurase lealtad a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+ rival_denied_hook_on_heir_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'impediste', 'impidió' )] que su heredero le jurase lealtad a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )]"
+
+ friend_hunt_trophy_given:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'regalaste', 'regaló' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] el trofeo de una cacería"
+ friend_hunt_trophy_given_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'recibiste', 'recibió' )] como regalo el trofeo de una cacería de manos de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+ friend_hunt_wound_waited_reason:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'esperaste', 'esperó' )] a que [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te recuperaras', 'se recuperara' )] de una caída durante una cacería"
+ friend_hunt_wound_waited_reason_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'hiciste', 'hizo' )] tiempo para que [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te recuperaras', 'se recuperara' )] de una caída durante una cacería"
+ friend_hunt_wound_treated_reason:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'reprendiste', 'reprendió' )] a [TARGET_CHARACTER.GetShortUIName] por su falta de conocimientos sobre cacerías"
+ friend_hunt_wound_treated_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] reprendid[TARGET_CHARACTER.Custom('ES_OA')] por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] debido a una carencia de conocimientos sobre cacerías"
+
+ friend_gave_hunt_kill_reason:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'concediste', 'concedió' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] el honor de matar a la presa"
+ friend_gave_hunt_kill_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'recibiste', 'recibió' )] el honor de matar a la presa de parte de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+ friend_hunt_taught_patiently_reason:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'instruiste', 'instruyó' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] en el arte de la caza"
+ friend_hunt_taught_patiently_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] instruid[TARGET_CHARACTER.Custom('ES_OA')] en el arte de la caza por [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+ friend_hunt_berated_noob_reason:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'reprendiste', 'reprendió' )] a [TARGET_CHARACTER.GetShortUIName] por su falta de conocimientos sobre cacerías"
+ friend_hunt_berated_noob_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] reprendid[TARGET_CHARACTER.Custom('ES_OA')] por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] por una falta de conocimientos sobre cacerías"
+
+ ward_tiny_thief:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'diste', 'dio' )] mejor uso a los sutiles talentos de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )]"
+ ward_tiny_thief_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'diste', 'dio' )] mejor uso a los sutiles talentos de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )]"
+
+ friend_tournament_tutor:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'recibiste', 'recibió' )] instrucción de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] en actividades marciales"
+ friend_tournament_tutor_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'recibiste', 'recibió' )] instrucción de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] en actividades marciales"
+
+ friend_tournament_famous:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'forjasteis', 'forjaron' )] una amistad firme tras la grandiosa llegada de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] a un torneo"
+ friend_tournament_famous_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'forjasteis', 'forjaron' )] una amistad firme tras la grandiosa llegada de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] a un torneo"
+
+ rival_tournament_famous:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'os hicisteis', 'se hicieron' )] rivales tras la grandiosa llegada de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] a un torneo"
+ rival_tournament_famous_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'os hicisteis', 'se hicieron' )] rivales tras la grandiosa llegada de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] a un torneo"
+
+ rival_tournament_herald:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'os hicisteis', 'se hicieron' )] rivales cuando [CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'te burlaste', 'se burló' )] del intento de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] de presentar a un caballero en un torneo"
+ rival_tournament_herald_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'os hicisteis', 'se hicieron' )] rivales cuando [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te burlaste', 'se burló' )] del intento de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] de presentar a un caballero en un torneo"
+
+ rival_tournament_herald_knight:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'os hicisteis', 'se hicieron' )] rivales cuando [CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'te reíste', 'se rio' )] de la fallida presentación de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] durante un torneo"
+ rival_tournament_herald_knight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'os hicisteis', 'se hicieron' )] rivales cuando [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te reíste', 'se rió' )] de la desastrosa presentación de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] durante un torneo"
+
+ friend_tournament_herald_knight:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'entablasteis', 'entablaron' )] amistad cuando [CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'ofreciste', 'ofreció' )] un sustituto para el desdichado heraldo de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu comitiva', TARGET_CHARACTER.GetShortUIName )]"
+ friend_tournament_herald_knight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'entablasteis', 'entablaron' )] amistad cuando [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ofreciste', 'ofreció' )] un sustituto para el desdichado heraldo de [Select_CString( CHARACTER.IsLocalPlayer, 'tu comitiva', CHARACTER.GetShortUIName )]"
+
+ friend_tournament_foreign_knight:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'entablasteis', 'entablaron' )] amistad después de que [CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'quedases', 'quedó' )] impresionad[CHARACTER.Custom('ES_OA')] con las habilidades de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] durante un torneo"
+ friend_tournament_foreign_knight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'entablasteis', 'entablaron' )] amistad después de que [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'quedaste', 'quedó' )] impresionad[TARGET_CHARACTER.Custom('ES_OA')] con las habilidades de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] durante un torneo"
+ 
+ lover_hunt_conversation_impressed:1 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'impresionaste', 'impresionó' )] a [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )] con [CHARACTER.LocalPlayerString( 'tus', 'sus' )] ideas sobre la caza"
+ lover_hunt_saved_from_rampaging_animal:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'salvaste', 'salvó' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] de una bestia feroz durante una cacería"
+ lover_hunt_saved_from_rampaging_animal_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te viste', 'se vio' )] salvad[TARGET_CHARACTER.Custom('ES_OA')] por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] de una bestia feroz durante una cacería"
+
+ lover_jumped_over_boulder_reason:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'impresionaste', 'impresionó' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] al saltar sobre un peñasco rodante"
+ lover_jumped_over_boulder_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'quedaste', 'quedó' )] impresionad[TARGET_CHARACTER.Custom('ES_OA')] por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )] al saltar sobre un peñasco rodante"
+
+ friend_bonded_over_botany:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'compartiste', 'compartió' )] intereses sobre plantas con [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )]"
+
+ lover_hunt_gift_reason:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'quedaste', 'quedó' )] impresionad[TARGET_CHARACTER.Custom('ES_OA')] con el regalo que [CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'recogiste', 'recogió' )] en la naturaleza"
+ lover_hunt_gift_reason_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'quedaste', 'quedó' )] impresionad[CHARACTER.Custom('ES_OA')] con el regalo que [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'recogiste', 'recogió' )] en la naturaleza"
+
+ rival_shared_insecurity:0 "Cuando [CHARACTER.GetShortUIName] compartió sus inseguridades, [TARGET_CHARACTER.GetShortUIName] [CHARACTER.GetHerHim] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'hiciste', 'hizo' )] sentir insignificante."
+ rival_shared_insecurity_corresponding:0 "Cuando [TARGET_CHARACTER.GetShortUIName] compartió sus inseguridades, [CHARACTER.GetShortUIName] [TARGET_CHARACTER.GetHerHim] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'hiciste', 'hizo' )] sentir insignificante."
+ friend_shared_insecurity:0 "Cuando [CHARACTER.GetShortUIName] compartió sus inseguridades, [TARGET_CHARACTER.GetShortUIName] [CHARACTER.GetHerHim] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'hiciste', 'hizo' )] sentir respetad[CHARACTER.Custom('ES_OA')]."
+ friend_shared_insecurity_corresponding:0 "Cuando [TARGET_CHARACTER.GetShortUIName] compartió sus inseguridades, [CHARACTER.GetShortUIName] [TARGET_CHARACTER.GetHerHim] [Select_CString( CHARACTER.IsLocalPlayer, 'hiciste', 'hizo' )] sentir respetad[TARGET_CHARACTER.Custom('ES_OA')]."
+ lover_shared_insecurity_corresponding:0 "Cuando [CHARACTER.GetShortUIName] compartió sus inseguridades, [TARGET_CHARACTER.GetShortUIName] [CHARACTER.GetHerHim] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'hiciste', 'hizo' )] sentir querid[CHARACTER.Custom('ES_OA')]."
+ lover_shared_insecurity:0 "Cuando [TARGET_CHARACTER.GetShortUIName] compartió sus inseguridades, [CHARACTER.GetShortUIName] [TARGET_CHARACTER.GetHerHim] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'hiciste', 'hizo' )] sentir querid[TARGET_CHARACTER.Custom('ES_OA')]."
+
+ friend_great_time_at_wedding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'os pasasteis', 'se pasaron' )] un banquete de bodas hablando y disfrutando de su mutua compañía."
+ friend_great_time_at_wedding_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'os pasasteis', 'se pasaron' )] un banquete de bodas hablando y disfrutando de su mutua compañía."
+ best_friend_great_time_at_wedding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'obviasteis', 'obviaron' )] al resto del mundo en un banquete de bodas para disfrutar de su mutua compañía."
+ best_friend_great_time_at_wedding_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'obviasteis', 'obviaron' )] al resto del mundo en un banquete de bodas para disfrutar de su mutua compañía."
+ rival_dishonored_wedding_banquet:0 "[CHARACTER.GetShortUIName] se ofendió cuando [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te escabulliste', 'se escabulló' )] de un banquete de bodas para evitar[CHARACTER.GetHerHim]."
+ rival_dishonored_wedding_banquet_corresponding:0 "[TARGET_CHARACTER.GetShortUIName] se ofendió cuando [CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te escabulliste', 'se escabulló' )] de un banquete de bodas para evitar[TARGET_CHARACTER.GetHerHim]."
+ rival_bad_time_at_wedding:0 "[CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'discutiste', 'discutió' )] con [TARGET_CHARACTER.GetShortUIName] en un banquete de bodas."
+ rival_bad_time_at_wedding_corresponding:0 "[TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'discutiste', 'discutió' )] con [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] en un banquete de bodas."
 
  fp2_progress_towards_rival_funded_revolt_against_me:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'financiaste', 'financió' )] el descontento contra [Select_CString(CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )]."
  fp2_progress_towards_rival_funded_revolt_against_me_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'desestabilizaste', 'desestabilizó' )] el señorío de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]."
 
-# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- best_friend_councel_and_support:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'forjasteis', 'forjaron' )] un fuerte vínculo al apoyarse y aconsejarse siempre."
+ lover_tournament_stands_flirt:0 "El llamativo coqueteo de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] llamó la atención de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] tras ganar una competición"
+ lover_tournament_stands_flirt_corresponding:0 "El llamativo coqueteo de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] llamó la atención de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] tras ganar una competición"
+
+ friend_reconciled_at_wedding:0 "Antaño amargos rivales, [CHARACTER.GetShortUIName] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'os reconciliasteis', 'se reconciliaron' )] en una preciosa boda."
+ friend_reconciled_at_wedding_corresponding:0 "$friend_reconciled_at_wedding$"
+ nemesis_spurned_reconciliation_at_wedding:0 "Cuando [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'buscaste', 'buscó' )] una reconciliación, [CHARACTER.GetShortUIName] [TARGET_CHARACTER.GetHerHim] [Select_CString( CHARACTER.IsLocalPlayer, 'humillaste', 'humilló' )]."
+ nemesis_spurned_reconciliation_at_wedding_corresponding:0 "Cuando [CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'buscaste', 'buscó' )] una reconciliación, [TARGET_CHARACTER.GetShortUIName] [CHARACTER.GetHerHim] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'humillaste', 'humilló' )]."
+
+ soulmate_dreadful_for_me:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'harías', 'haría' )] cosas terribles para mantener a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] a salvo"
+ soulmate_dreadful_for_me_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'harías', 'haría' )] cosas terribles para mantener a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] a salvo"
+ lover_dreadful_for_me:0 "$soulmate_dreadful_for_me$"
+ lover_dreadful_for_me_corresponding:0 "$soulmate_dreadful_for_me_corresponding$"
+
+ friend_wedding_saved_from_beasts:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'salvaste', 'salvó' )] a [TARGET_CHARACTER.GetShortUIName] de unas fieras que habían escapado en un banquete de bodas."
+
+ soulmate_married_my_lover:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'erais', 'eran' )] amantes incluso antes de casarse, pero el matrimonio reforzó su amor."
+
+ rival_tournament_brawl:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [TARGET_CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] rivales tras una riña en un torneo"
+ rival_tournament_brawl_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] rivales tras una riña en un torneo"
+
+ friend_tournament_drink_shared:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [TARGET_CHARACTER.LocalPlayerString( 'entablasteis', 'entablaron' )] amistad tras compartir una bebida en un torneo"
+ friend_tournament_drink_shared_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'entablasteis', 'entablaron' )] amistad tras compartir una bebida en un torneo"
+
+ rival_tournament_blocked:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [TARGET_CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] rivales tras una disputa sobre posiciones de vista en el público en un torneo"
+ rival_tournament_blocked_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] rivales tras una disputa sobre posiciones de vista en el público en un torneo"
+
+ friend_tournament_let_through:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'entablaste', 'entabló' )] amistad con [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] después de que le [Select_CString( CHARACTER.IsLocalPlayer, 'dejases', 'dejase' )] pasar para ver una competición de un torneo desde la primera fila"
+ friend_tournament_let_through_corresponding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'entablaste', 'entabló' )] amistad con [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] después de que le [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'dejases', 'dejase' )] pasar para ver la competición de un torneo desde la primera fila"
+
+ lover_tournament_gossiping:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amantes tras coquetear en las gradas de un torneo"
+ lover_tournament_gossiping_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amantes tras coquetear en las gradas de un torneo"
+
+ friend_tournament_gossiping:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [TARGET_CHARACTER.LocalPlayerString( 'entablasteis', 'entablaron' )] amistad después de que [CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'alabases', 'alabase' )] su aspecto en las gradas de un torneo."
+ friend_tournament_gossiping_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'entablasteis', 'entablaron' )] amistad después de que [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'alabaste', 'alabó' )] su aspecto en las gradas de un torneo"
+
+ lover_tournament_stand_flirt:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [TARGET_CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amantes después de que [CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'alabaras', 'alabara' )] su aspecto en las gradas de un torneo"
+ lover_tournament_stand_flirt_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] amantes después de que [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'alabaras', 'alabara' )] su aspecto en las gradas de un torneo"
+ 
+ friend_hunt_gifted_eyas:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'honraste', 'honró' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] con el regalo de un polluelo de rapaz"
+ friend_hunt_gifted_eyas_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] recibió un polluelo de rapaz de parte de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+
+ friend_gave_hunt_trophy_reason:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'honraste', 'honró' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] con el regalo de un trofeo de caza"
+ friend_gave_hunt_trophy_reason_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] recibió un trofeo de caza de parte de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+
+ friend_mocked_heathen_together:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'congeniasteis', 'congeniaron' )] por su desprecio de otras fes"
+ friend_rebuffed_heathen:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'defendiste', 'defendió' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] contra la mofa de un descreído"
+ friend_rebuffed_heathen_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] se vio defendid[TARGET_CHARACTER.Custom('ES_OA')] por [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] contra la mofa de un descreído"
+
+ friend_naked_together:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os desnudasteis', 'se desnudaron' )] junt[CHARACTER.Custom('ES_OA')]s en público"
+
+ friend_bonded_during_tournament:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'congeniaste', 'congenió' )] con [TARGET_CHARACTER.GetShortUIName] durante un torneo"
+ friend_bonded_during_tournament_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'congeniaste', 'congenió' )] con [CHARACTER.GetShortUIName] durante un torneo"
+
+ friend_prayed_for_me:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'rezaste', 'rezó' )] por [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )]"
+ friend_prayed_for_me_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'rezaste', 'rezó' )] por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )]"
+
+ rival_traumatic_childhood:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'traumatizaste', 'traumatizó' )] a [TARGET_CHARACTER.GetShortUIName] en su infancia"
+ rival_traumatic_childhood_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'traumatizaste', 'traumatizó' )] a [CHARACTER.GetShortUIName] en su infancia"
+
+ friend_disqualified_saboteur:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'descalificaste', 'descalificó' )] al participante de un torneo acusándolo de intentar sabotear a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )]"
+ friend_disqualified_saboteur_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'viste', 'vio' )] a un supuesto saboteador de un torneo descalificado por [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"
+ friend_pardoned_saboteur:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'descartaste', 'descartó' )] las acusaciones de sabotaje presentadas contra [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )]"
+ friend_pardoned_saboteur_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] vio como las acusaciones de sabotaje presentadas contra [TARGET_CHARACTER.GetSheHe] eran descartadas por [Select_CString( CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUIName )]"
+ friend_courtiers_bonded_on_tour:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'congeniaste', 'congenió' )] con [TARGET_CHARACTER.GetShortUIName] durante una visita real"
+ lover_courtiers_bonded_on_tour:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'compartisteis', 'compartieron' )] una noche de pasión durante una visita real"
+ rival_courtiers_friction_on_tour:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'os hicisteis', 'se hicieron' )] enemigos jurados durante una visita real"
+
+ friend_duel_recovered:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'permitiste', 'permitió' )] que [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te recuperaras', 'se recuperara' )] de una caída durante un duelo"
+ friend_duel_recovered_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] vio cómo [CHARACTER.GetShortUIName] [TARGET_CHARACTER.GetHerHim] [Select_CString( CHARACTER.IsLocalPlayer, 'dejabas', 'dejaba' )] recuperarse de una caída durante un duelo"
+
+ rival_wrestling_liar:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'os hicisteis', 'se hicieron' )] rivales al discutir sobre juego sucio durante un combate de lucha en un torneo"
+ rival_wrestling_liar_corresponding:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'os hicisteis', 'se hicieron' )] rivales al discutir sobre juego sucio durante un combate de lucha en un torneo"
+ nemesis_wedding_spread_voices_secret:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'difundiste', 'difundió' )] expresiones comprometedoras en la boda de [CHARACTER.GetShortUIName] y [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'revelaste', 'reveló' )] su secreto"
+ rival_wedding_spread_voices:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'difundiste', 'difundió' )] expresiones comprometedoras en la boda de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] y, por lo tanto, se [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'te', 'le' )] expulsó"
+
+ nemesis_red_coin:0 "[TARGET_CHARACTER.GetShortUIName] confió a [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] una importante moneda, solo para que [Select_CString( CHARACTER.IsLocalPlayer, 'traicionases', 'traicionase' )] su confianza."
+ nemesis_red_coin_corresponding:0 "[CHARACTER.GetShortUIName] confió a [TARGET_CHARACTER.GetShortUIName] una importante moneda, solo para que [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'traicionases', 'traicionase' )] su confianza."
+
+ rival_dynast_tournament_coercion:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'rechazaste', 'rechazó' )] la petición de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] de retirarse de un torneo"
+ rival_dynast_tournament_coercion_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'rechazaste', 'rechazó' )] la petición de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] de retirarse de un torneo"
+
+ lover_tour_storm:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [TARGET_CHARACTER.LocalPlayerString( 'encontrasteis', 'encontraron' )] refugio en su abrazo durante una tormenta"
+ lover_tour_storm_insult:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'rechazaste', 'rechazó' )] duramente a [TARGET_CHARACTER.GetShortUIName] cuando [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'buscaste', 'buscó' )] refugio en una tormenta"
+ lover_tour_storm_insult_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] se vio duramente rechazad[TARGET_CHARACTER.Custom('ES_OA')] por [CHARACTER.GetShortUIName] cuando [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'buscaste', 'buscó' )] refugio en una tormenta"
+
+ friend_hunt_conversation_impressed:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'congeniasteis', 'congeniaron' )] por sus opiniones sobre la caza"
+
+ rival_goh_humiliated_at_feast:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'humillaste', 'humilló' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )], dando un discurso insultante sobre [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetSheHe )] en una festín supuestamente en [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu', 'su' )] honor"
+
+ lover_impressed_by_smooth_save:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'quedaste', 'quedó' )] cautivad[TARGET_CHARACTER.Custom('ES_OA')] por la fina gestión de una situación complicada por parte de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]."
+ lover_impressed_by_talk:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'quedaste', 'quedó' )] cautivad[TARGET_CHARACTER.Custom('ES_OA')] por la sofisticada discusión de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]."
+
+ lover_daring_move:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'quedaste', 'quedó' )] impresionad[TARGET_CHARACTER.Custom('ES_OA')] por la osada declaración y búsqueda de amor de [CHARACTER.GetShortUIName] de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]."
+ rival_kicked_out_priest:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'hiciste', 'hizo' )] expulsar a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] de una ceremonia de boda por agriar el ambiente con reproches religiosos."
+
+ friend_wedding_relation_bond:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'congeniaste', 'congenió' )] con [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] durante una boda familiar"
+ lover_wedding_relation_bond:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'ligaste', 'ligó' )] con [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] durante una boda familiar"
+ lover_wedding_relation_suitor:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'ligaste', 'ligó' )] con [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] después de ser presentados en una boda familiar"
+ friend_wedding_help_bond:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'ayudaste', 'ayudó' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] a salir de una fiesta de boda"
+ friend_wedding_help_bond_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] recibió la ayuda de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] para salir de una fiesta de boda"
+
+ friend_supportive_at_wedding:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'agradeciste', 'agradeció' )] el apoyo de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] durante su boda"
+ 
+ wedding_impressed_by_smooth_save:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'quedaste', 'quedó' )] cautivad[TARGET_CHARACTER.Custom('ES_OA')] por la fina gestión de una situación complicada por parte de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]."
+ wedding_impressed_by_talk:0 "[TARGET_CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'quedaste', 'quedó' )] cautivad[TARGET_CHARACTER.Custom('ES_OA')] por la sofisticada discusión de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]."
+ lover_love_is_in_the_air:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'engatusaste', 'engatusó' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] en una boda."
+ rival_rubbed_it_in:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'te burlaste', 'se burló' )] de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )] por la suerte de su familia en una boda."
+ rival_wedding_challenged_prejudices:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'desafiaste', 'desafió' )] agresivamente [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tus', 'los' )] prejuicios que [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tenías', 'tenía' )] hacia [CHARACTER.GetSheHe]."
+ friend_wedding_not_so_bad:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'convenciste', 'convenció' )] a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] de [CHARACTER.LocalPlayerString( 'tus', 'sus' )] buenas cualidades."
+ rival_wedding_confirmed_prejudices:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'conseguiste', 'consiguió' )] reforzar a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] en [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tus', 'sus' )] prejuicios contra [CHARACTER.GetSheHe] mediante una defensa embarazosa."
+ lover_atmospheric_location:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'quedaste', 'quedó' )] encantad[TARGET_CHARACTER.Custom('ES_OA')] por [Select_CString( CHARACTER.IsLocalPlayer, 'tu', 'su' )] compañía y la presentación que [Select_CString( CHARACTER.IsLocalPlayer, 'hiciste', 'hizo' )] del sitio de la boda."
+
+ friend_agreed_favourite:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'coincidisteis', 'coincidieron' )] sobre el contendiente favorito de un torneo."
+ rival_disagreed_favourite:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'discrepasteis', 'discreparon' )] vehemente sobre quién era el contendiente favorito de un torneo."
+
+
+ lover_wedding_trying_hard:0 "[CHARACTER.GetShortUIName|U] prometió a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] esforzarse para llegar a gustar[Select_CString( TARGET_CHARACTER.IsPlayer, 'te', 'le' )]."
+ lover_wedding_saved_from_flames:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'salvaste', 'salvó' )] a [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetUIName )] de las llamas en una boda que salió mal."
+ lover_wedding_seductive_exchange:0 "[CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'tuviste', 'tuvo' )] un encuentro tórrido con [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] en una boda."
+ lover_tour_grounds_orgy:0 "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString( 'participasteis', 'participaron' )] en compañía en una orgía"
+ lover_tour_grounds_orgy_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName|U] [TARGET_CHARACTER.LocalPlayerString( 'participasteis', 'participaron' )] en compañía en una orgía"
+ friend_accepted_tax_increase:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'aceptaste', 'aceptó' )] la petición de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )] de subir los impuestos"
+ friend_accepted_tax_increase_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'aceptaste', 'aceptó' )] la petición de [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )] de subir los impuestos"
+ friend_split_profits:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'repartiste', 'repartió' )] algunos beneficios extra con [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )]"
+ friend_split_profits_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'repartiste', 'repartió' )] algunos beneficios extra con [Select_CString( CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]"

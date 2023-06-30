@@ -68,7 +68,7 @@
  learn_commander_trait.13.desc:0 "[teacher.GetTitledFirstName] cabalga hasta mí. «¡Impresionante!», grita. Las levas «enemigas» se quedan pasmadas con la eficiencia de mis otras tropas.\n\nHay pocas dudas de que he aprendido qué significa ser [ROOT.Char.Custom('CommanderTraitBeingTaught')]."
  learn_commander_trait.13.a:0 "He aprendido mucho."
  #Failure:
- learn_commander_trait.14.desc:0 "«Puede que aún te queden algunas cosas que aprender…» [teacher.GetTitledFirstName] me ofrece la mano para ayudarme a salir del barro.\n\nMis tropas tuvieron una actuación muy poco brillante. Debo confesar que [teacher.GetSheHe] quizás tenga razón."
+ learn_commander_trait.14.desc:0 "«Puede que aún te queden algunas cosas que aprender…» [teacher.GetTitledFirstName|l] me ofrece la mano para ayudarme a salir del barro.\n\nMis tropas tuvieron una actuación muy poco brillante. Debo confesar que [teacher.GetSheHe] quizás tenga razón."
  learn_commander_trait.14.a:0 "Muéstrame de nuevo cómo lo haces."
  learn_commander_trait.14.a.tt:1 "«Volveré a probar una vez más…»."
  learn_commander_trait.14.b:0 "¡Esto es demasiado difícil!"
@@ -83,7 +83,7 @@
  #Success
  learn_commander_trait.1301.desc:0 "[teacher.GetTitledFirstName] cabalga hasta mí. «¡Impresionante!», grita. «Mis tropas no pudieron ni acercarse al tren de suministros»."
  #Failure
- learn_commander_trait.1401.desc:0 "Todo parecía ir bien, ¡hasta que me di cuenta que la caballería era una señuelo!\n\n[teacher.GetTitledFirstName] trae a caballo una manzana de mis vagones. «Creo que he visto dónde te equivocaste», me indica [teacher.Custom('quirk_pos_pp')]."
+ learn_commander_trait.1401.desc:0 "Todo parecía ir bien, ¡hasta que me di cuenta que la caballería era una señuelo!\n\n[teacher.GetTitledFirstName|l] trae a caballo una manzana de mis vagones. «Creo que he visto dónde te equivocaste», me indica [teacher.Custom('quirk_pos_pp')]."
 
 #Military Engineer
  learn_commander_trait.02.t:0 "Desarrollando competencia"
@@ -94,7 +94,7 @@
  #Success
  learn_commander_trait.1302.desc:0 "«Vaya, no había pensado en eso», [teacher.GetFirstName] [teacher.Custom('quirk_pos_present')]. ¡No puede encontrar un solo fallo en mi plan!"
  #Failure
- learn_commander_trait.1402.desc:0 "«¿Te has olvidado de esa torre?». [teacher.GetTitledFirstName] señala desde las almenas hacia la zona delante de la muralla que estaba describiendo. Ahora veo el terrible fallo de mi plan."
+ learn_commander_trait.1402.desc:0 "«¿Te has olvidado de esa torre?». [teacher.GetTitledFirstName|l] señala desde las almenas hacia la zona delante de la muralla que estaba describiendo. Ahora veo el terrible fallo de mi plan."
 
 #aggressive_attacker
  learn_commander_trait.03.t:0 "Visión devastadora"
@@ -131,12 +131,12 @@
 
 #Fallbacks in case your teacher is no longer with you
  learn_commander_trait.91.t:0 "Personalmente"
- learn_commander_trait.1291.desc:0 "Aunque [teacher.GetTitledFirstName] ya no me esté viendo, aún puedo demostrarme que he dominado [ROOT.Char.Custom('CommanderTraitSkillDescription')]. Una prueba final, un simulacro de batalla para probar mis habilidades."
+ learn_commander_trait.1291.desc:0 "Aunque [teacher.GetTitledFirstName|l] ya no me esté viendo, aún puedo demostrarme que he dominado [ROOT.Char.Custom('CommanderTraitSkillDescription')]. Una prueba final, un simulacro de batalla para probar mis habilidades."
  learn_commander_trait.1291.a:0 "Es la hora."
  learn_commander_trait.1291.b:0 "Sin [teacher.GetFirstNameNoTooltip], solo puedo decir que lo hice bien."
 
  learn_commander_trait.1391.desc:0 "¡Estarías orgullos[teacher.Custom('ES_OA')] de mí, [teacher.GetFirstName]!\n\nMi simulacro de batalla fue un gran éxito y he demostrado mi maestría."
  learn_commander_trait.1391.a:0 "¡Ahora, apliquémoslo a una batalla real!"
 
- learn_commander_trait.1491.desc:0 "Quizás haya sido mejor que [teacher.GetTitledFirstName] no estuviera aquí para ver esto…\n\n¡Todo salió mal en mi simulacro de batalla y no funcionó ninguna de mis tácticas!"
+ learn_commander_trait.1491.desc:0 "Quizás haya sido mejor que [teacher.GetTitledFirstName|l] no estuviera aquí para ver esto…\n\n¡Todo salió mal en mi simulacro de batalla y no funcionó ninguna de mis tácticas!"
  learn_commander_trait.1491.a:0 "Parece que aún tengo mucho que aprender…"

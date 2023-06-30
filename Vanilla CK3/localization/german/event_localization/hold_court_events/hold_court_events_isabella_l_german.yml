@@ -50,7 +50,7 @@
 
 ## Enforcing a dress code at court by Isabella Welch
  hold_court.4300.t:0 "Kleidet mich ein! Kleidet mich ein!"
- hold_court.4300.desc:0 "Vor dem Hofhalten nimmt mich m[proposing_chancellor.Custom('DE_ART_IND_N')] [proposing_chancellor.GetCouncilTitle] beiseite. Zu meiner Überraschung fuchtelt [proposing_chancellor.Custom('DE_PRO_PER_S_3P_N')] mit [ROOT.Char.Custom('GetAccessory_DE_ART_IND_D')] grellen [ROOT.Char.Custom('GetAccessory')] herum.\n\n„M[ROOT.Char.Custom('DE_ART_IND_N')] [ROOT.Char.GetLadyLord], es werden so viele an Eurem Hof anwesend sein. Ich weiß, es fällt Euch schwer, Euch jedes Gesicht zu merken oder zu wissen, woher es stammt. Ich schlage eine Lösung vor: Wir verlangen, dass alle bei Hofe Kleidung tragen, die einen für alle erkennbaren örtlichen Stil beinhaltet.“\n\n[proposing_chancellor.Custom('DE_PRO_PER_S_3P_N')|U] schiebt mir [ROOT.Char.Custom('GetAccessory_DE_ART_IND_A')] [ROOT.Char.Custom('GetAccessory')] zu. „Für diejenigen, die keine zu ihrer Region gehörigen Gewänder haben, habe ich mir die Freiheit genommen, einen Schneider anzuwerben, der ihnen ein neues traditionelles Gewand ‚vorschlagen‘ wird.“"
+ hold_court.4300.desc:0 "Vor dem Hofhalten nimmt mich mein [proposing_chancellor.GetCouncilTitle] beiseite. Zu meiner Überraschung fuchtelt [proposing_chancellor.Custom('DE_PRO_PER_S_3P_N')] mit [ROOT.Char.Custom('GetAccessory_DE_ART_IND_D')] grellen [ROOT.Char.Custom('GetAccessory')] herum.\n\n„Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')], es werden so viele an Eurem Hof anwesend sein. Ich weiß, es fällt Euch schwer, Euch jedes Gesicht zu merken oder zu wissen, woher es stammt. Ich schlage eine Lösung vor: Wir verlangen, dass alle bei Hofe Kleidung tragen, die einen für alle erkennbaren örtlichen Stil beinhaltet.“\n\n[proposing_chancellor.Custom('DE_PRO_PER_S_3P_N')|U] schiebt mir [ROOT.Char.Custom('GetAccessory_DE_ART_IND_A')] [ROOT.Char.Custom('GetAccessory')] zu. „Für diejenigen, die keine zu ihrer Region gehörigen Gewänder haben, habe ich mir die Freiheit genommen, einen Schneider anzuwerben, der ihnen ein neues traditionelles Gewand ‚vorschlagen‘ wird.“"
  hold_court.4300.a:0 "Ich vergesse nie ein Gesicht! Ich komme schon klar."
  hold_court.4300.a.success:0 "Ihr scheitert bei der Begrüßung von Gästen nicht"
  hold_court.4300.a.failure:0 "Ihr verwechselt die Gäste bei ihrer Ankunft"
@@ -77,7 +77,7 @@
 
  hold_court.4500.t:0 "Endlose Poesie"
  hold_court.4500.desc.intro:0 "Eine prächtige Gestalt, die etwas Verheißungsvolles umflort, nähert sich: „Ich bin [demanding_poet.Custom('DE_ART_IND_N')] Dichter[demanding_poet.Custom('DE_END_NOU_S_GS_N')]."
- hold_court.4500.council:0 "Ernennt mich zu Eur[demanding_poet.Custom('DE_END_PRO_S_D')] [secondary_character.GetCouncilTitle]!“"
+ hold_court.4500.council:0 "Ernennt mich zu Eurem [secondary_character.GetCouncilTitle]!“"
  hold_court.4500.romance:0 "Ich muss sofort [demanding_poet.Custom('DE_PRO_POS_P_2P_N')] Liebhaber[demanding_poet.Custom('DE_END_NOU_S_GS_N')] werden!“"
  hold_court.4500.titles:0 "Ihr müsst mir alle Ländereien gewähren, die [secondary_character.GetTitledFirstNameNoTooltip] derzeit hält.“"
  hold_court.4500.realm:0 "Überlasst mir Euer Reich!“"
@@ -89,7 +89,7 @@
  hold_court.4500.chaplain_2:0 "den Mysterien der höchsten Mächte. Die göttliche Erkenntnis durchströmte jeden meiner Federstriche."
  hold_court.4500.romance_2:0 "der Liebe und wie das Liebesspiel Augenblicke der Erleuchtung bringen kann. Man wird ein weiserer Statthalter, wenn man seinen Geist mit großem Vergnügen belebt."
  hold_court.4500.titles_2:0 "dem heiligen Bund zwischen Vasall und Lehnsherr. Ich wäre [demanding_poet.Custom('DE_ART_IND_N')] weitaus pflichtbewusster[demanding_poet.Custom('DE_END_ADJ_IND_S_N')] Diener[demanding_poet.Custom('DE_END_NOU_S_GS_N')] als [secondary_character.GetTitledFirstNameNoTooltip]."
- hold_court.4500.realm_2:0 "unsere Volkshelden im Lauf der Geschichte. [demanding_poet.Custom('DE_ART_IND_N')|U] Dichter[demanding_poet.Custom('DE_END_NOU_S_GS_N')], [demanding_poet.Custom('DE_ART_DEF_S_N')] allen bekannt ist, geht weitaus wahrscheinlicher in die Geschichte ein, als [ROOT.Char.Custom('DE_ART_IND_N')] gewöhnlich[ROOT.Custom('DE_END_ADJ_NUL_S_N')] [ROOT.Char.GetWomanMan]. Ich werde Eure Besitztümer weitaus besser regieren als Ihr."
+ hold_court.4500.realm_2:0 "unsere Volkshelden im Lauf der Geschichte. [demanding_poet.Custom('DE_ART_IND_N')|U] Dichter[demanding_poet.Custom('DE_END_NOU_S_GS_N')], [demanding_poet.Custom('DE_ART_DEF_S_N')] allen bekannt ist, geht weitaus wahrscheinlicher in die Geschichte ein, als [ROOT.Char.Custom('DE_ART_IND_N')] gewöhnlich[ROOT.Char.Custom('DE_END_ADJ_NUL_S_N')] [ROOT.Char.GetWomanMan]. Ich werde Eure Besitztümer weitaus besser regieren als Ihr."
  hold_court.4500.desc.end:0 "Gewährt mir auf der Stelle diese Position.“"
  hold_court.4500.a:0 "Wachen, schafft mir [demanding_poet.Custom('DE_PRO_DEM')][demanding_poet.Custom('DE_END_PRO_S_A')] Reimeschmied[demanding_poet.Custom('DE_END_NOU_S_GS_N')] aus den Augen!"
  hold_court.4500.b:0 "Eure Wahnvorstellungen sind ganz reizend. Bleibt und schreibt für meinen Hof."

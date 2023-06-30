@@ -94,7 +94,7 @@
  bp1_yearly.3202.c:0 "“是时候结束这些游戏了，[enemy.GetFirstNameNoTooltip]。”"
  bp1_yearly.3202.c.tt:0 "与[enemy.GetFirstName]#V 决斗#!。\n#weak 这场决斗不会决出生死。但是有可能致死。#!\n如果你获胜，这里发生的真相将会大白天下。如果你失败，[enemy.GetFirstNameNoTooltip]会真正地胜过你。\n\n你的[prowess|E]：[prowess_i]#V [root_for_loc.GetProwess]#!\n[enemy.GetFirstNamePossessive]的[prowess|E]：[prowess_i]#V [enemy.GetProwess]#!"
  bp1_yearly.3203.sc_result_won:0 "你赢得了与[sc_loser.GetTitledFirstNameNoTooltip]的决斗"
- bp1_yearly.3203.sc_result_lost:1 "你输掉了与[sc_loser.GetTitledFirstNameNoTooltip]的决斗"
+ bp1_yearly.3203.sc_result_lost:1 "你输掉了与[sc_victor.GetTitledFirstNameNoTooltip]的决斗"
  bp1_yearly.3204.sc_invalid:0 "你与[enemy.GetTitledFirstNameNoTooltip]的决斗已无效"
 
  bp1_yearly.3300.t:0 "回忆[ROOT.Char.GetFaith.HighGodName]"

@@ -4,7 +4,7 @@
 
  HIRED_TROOPS_VIEW_LIST_MC_BUTTON_TOOLTIP:0 "#T [MercenaryCompany.GetName]#!\n#I Für Details klicken#!"
  HIRED_TROOPS_VIEW_LIST_MC_NUMBER_OF_SOLDIERS:0 "[MercenaryCompany.GetCurrentSoldiers]-[soldiers|E]"
- HIRED_TROOPS_VIEW_LIST_HO_HEADER:1 "[GetPlayer.GetFaith.GetAdjective]e [holy_orders|E]"
+ HIRED_TROOPS_VIEW_LIST_HO_HEADER:1 "[GetPlayer.GetFaith.GetAdjective|U]e [holy_orders|E]"
  HIRED_TROOPS_VIEW_LIST_HO_BUTTON_TOOLTIP:0 "#T [HolyOrder.GetName] #!\n#I Für Details klicken#!"
  HIRED_TROOPS_VIEW_LIST_HO_NUMBER_OF_SOLDIERS:0 "[HolyOrder.GetCurrentSoldiers]-[soldiers|E]"
  HIRED_TROOPS_VIEW_LIST_HO_NO_HOS:0 "Es gibt keine [GetPlayer.GetFaith.GetAdjective|l]en Kriegerorden"
@@ -41,7 +41,7 @@
  HIRED_TROOPS_ALREADY_HIRED_BY_YOU:0 "@warning_icon!#X Sie wurden bereits von Euch angeworben#!"
  MERCENARY_COMPANY_NOT_HIRED_BY_ME:1 "@warning_icon!#X Sie werden derzeit nicht von Euch angeworben#!"
  MERCENARY_COMPANY_OUTSIDE_RANGE:0 "@warning_icon!#X Sie befinden sich zu weit weg.#!"
- MERCENARY_COMPANY_TOO_EARLY_TO_EXTEND:0 "@warning_icon!#X Der Vertrag kann nicht verlängert werden bis [DATE.GetString|V]#!"
+ MERCENARY_COMPANY_TOO_EARLY_TO_EXTEND:0 "@warning_icon!#X Der Vertrag kann bis [DATE.GetString|V] nicht verlängert werden#!"
  HIRED_TROOPS_CANNOT_AFFORD:1 "@warning_icon!#X Ihr könnt Euch nicht stärker verschulden als $VALUE$ Eurer Einnahmen#!"
  HOLY_ORDER_MUST_BE_AT_WAR_WITH_BAD_FAITH:0 "@warning_icon!#X Ist nicht im Krieg mit jemandem eines [GetHostilityLevelName(GetDefine('NHolyOrder', 'ENEMY_MIN_HOSTILITY_LEVEL'))]en [Concept('faith', 'Glaubens')|E]#!"
  HOLY_ORDER_PLEDGED_TO_GREAT_HOLY_WAR:0 "@warning_icon!#X Sie haben geschworen, sich einem Krieg anzuschließen: [GREAT_HOLY_WAR.GetName]#!"
@@ -50,7 +50,7 @@
  MERCENARY_COMPANY_EXTEND_NOT_AT_WAR:1 "@warning_icon!#X Ihr müsst im [war|E] sein, um [mercenaries|E] anzuwerben#!"
  MERENCARY_COMPANY_ON_HOLD:0 "In Wartestellung"
 
- MERCENARY_COMPANY_COST_BANKRUPTCY:0 "@warning_icon!#X Ihr könnt diesen [mercenary_company|E] nicht anwerben, da Ihr Euch dazu zu sehr verschulden müsstet#!"
- MERCENARY_COMPANY_COST_BANKRUPTCY_HIRED:0 "@warning_icon!#X Ihr könnt den Vertrag dieses [Concept('mercenary_company', 'Söldnertrupps')|E] nicht verlängern, da Ihr Euch dafür zu sehr verschulden müsstet#!"
- MERCENARY_COMPANY_COST_DEBT:0 "@warning_icon!#X Wenn Ihr diesen [mercenary_company|E] anheuert, verschuldet Ihr Euch#!"
+ MERCENARY_COMPANY_COST_BANKRUPTCY:0 "@warning_icon!#X Ihr könnt diesen [mercenary_company|E] nicht anwerben, da Ihr Euch dazu zu sehr [Concept('debt', 'verschulden')|E] müsstet#!"
+ MERCENARY_COMPANY_COST_BANKRUPTCY_HIRED:0 "@warning_icon!#X Ihr könnt den Vertrag dieses [Concept('mercenary_company', 'Söldnertrupps')|E] nicht verlängern, da Ihr Euch dafür zu sehr [Concept('debt', 'verschulden')|E] müsstet#!"
+ MERCENARY_COMPANY_COST_DEBT:0 "@alert_icon! #alert_trial Wenn Ihr diesen [mercenary_company|E] anheuert, [Concept('debt', 'verschuldet')|E] Ihr Euch#!"
  MERCENARY_COMPANY_COST_DEBT_HIRED:0 "@warning_icon!#X Wenn Ihr den Vertrag dieses [Concept('mercenary_company', 'Söldnertrupps')|E] verlängert, verschuldet Ihr Euch#!"

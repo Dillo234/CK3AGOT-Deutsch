@@ -9,7 +9,7 @@ l_french:
  scalder:0 "[ROOT.Char.Custom('FR_LeLa')] scalde"
  saucerer:0 "[ROOT.Char.Custom('FR_LeLa')] sauci[ROOT.Char.Custom('FR_ErEre')]"
  pantler:0 "[ROOT.Char.Custom('FR_LeLa')] paneti[ROOT.Char.Custom('FR_ErEre')]"
- scullion:0 "le garçon de cuisine"
+ scullion:0 "[Select_CString(ROOT.Char.IsFemale,'harengère','crapaud')]"
  servant:0 "[ROOT.Char.Custom('FR_LeLa')] domestique"
  gal:0 "fille"
  guy:0 "garçon"
@@ -40,8 +40,8 @@ l_french:
  women_and_men:0 "hommes et femmes"
  gender_female:0 "féminin"
  gender_male:0 "masculin"
- gender_man:0 "l’homme"
- gender_woman:0 "la femme"
+ gender_man:0 "homme"
+ gender_woman:0 "femme"
  gender_person:0 "personne"
  concubine:0 "concubine"
  concubines:0 "concubines"
@@ -51,6 +51,9 @@ l_french:
  paternal:0 "paternel"
  spouse_bride:0 "future mariée"
  spouse_groom:0 "futur marié"
+ relation_nemesis:0 "ennemi[second.Custom('FR_E')] juré[second.Custom('FR_E')]"
+ relation_rival:0 "rival[second.Custom('FR_E')]"
+
 
  # Peasant Professions:
  peasant_profession_miller:0 "[Select_CString(ROOT.Char.IsFemale,'meunière','meunier')]"

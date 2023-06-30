@@ -434,7 +434,7 @@
 
  befriend_ongoing.9103.t:0 "Сближение: ужасное недопонимание"
  befriend_ongoing.9103.vassal.desc:0 "Мне казалось, [target.GetTitledFirstName] удивится и обрадуется большому пиру в свою честь, но в последний момент [target.GetSheHe] [Select_CString(target.IsFemale, 'решила', 'решил' )] не приходить.\n\n[target.GetHerHim|U] показалось, что сюрприз — часть заговора с целью [target.GetHerHis] убийства!"
- befriend_ongoing.9103.ruler.desc:1 "Не так давно [target.GetTitledFirstNamePossessive] [Select_CString(target.IsFemale, 'приняла', 'принял' )] при дворе моего посланника с рассказом о богатстве и могуществе, которыми владеет [Select_CString(owner.IsFemale, 'моя', 'мой' )] [owner.GetPrimaryTitle.GetType].\n\nМне хотелось заручиться [target.GetHerHis] уважением, но, похоже, рассказ произвел обратное впечатление. Теперь [target.GetSheHe] считает, что я угрожаю вторгнуться в [target.GetHerHis] земли и готовлюсь к тому, что [target.GetPrimaryTitle.GetType] будет принадлежать мне!"
+ befriend_ongoing.9103.ruler.desc:1 "Не так давно [target.GetTitledFirstNamePossessive] [Select_CString(target.IsFemale, 'приняла', 'принял' )] при дворе моего посланника с рассказом о богатстве и могуществе, которыми владеет [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], что принадлежит мне.\n\nМне хотелось заручиться [target.GetHerHis] уважением, но, похоже, рассказ произвел обратное впечатление. Теперь [target.GetSheHe] считает, что я угрожаю вторгнуться в [target.GetHerHis] земли!"
  befriend_ongoing.9103.a:0 "Пусть думает что хочет."
  befriend_ongoing.9103.b:0 "Возможно, стоит извиниться."
 

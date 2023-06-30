@@ -1,0 +1,644 @@
+﻿l_german:
+ 
+ ##################################################
+ # #Misc Keys
+ diarchy.0000.tt.diarch_shirked_duties:0 "[Select_CString(diarch.IsLocalPlayer, 'Ihr', diarch.GetFirstName)] meidet [Select_CString(diarch.IsLocalPlayer, 'Eure', 'diarch.Custom('DE_PRO_POS_S_3P')e')] Pflichten als [diarch|E]"
+ diarch_title_diarch:0 "Diarch"
+ diarch_title_regent:0 "Regent"
+ mandate_event_prefix:0 "Mandat: "
+ diarch_coup_equal_truce:0 "[liege.GetUINameNotMe|U] stimmte diesem zu nach dem Putsch von [usurper.GetUIName]"
+ diarch_coup_unequal_truce_for_liege:0 "[liege.GetUINameNotMe|U] stimmte diesem zu nach dem gewaltlosen Putsch von [usurper.GetUIName]"
+ diarch_coup_unequal_truce_for_usurper:0 "$diarch_coup_unequal_truce_for_liege$"
+
+
+
+
+
+
+
+ ##################################################
+ # #Notifications
+ diarchies.0000.diarch_fulfills_mandate.t:1 "[liege.GetDiarchTitle|U] fördert [mandate|E]"
+ diarchies.0000.diarch_fails_at_mandate.t:1 "[liege.GetDiarchTitle|U] fördert erfolglos [mandate|E]"
+ diarchies.0000.diarch_skims_mandate.t:1 "[liege.GetDiarchTitle|U] beutet [mandate|E] aus"
+ diarchies.0000.diarch_fails_to_skim_mandate.t:1 "[liege.GetDiarchTitle|U] kann [mandate|E] nicht ausbeuten"
+ diarchies.0000.diarch_rejects_mandate.t:1 "[liege.GetDiarchTitle|U] verweigert [mandate|E] aufgrund einer [personality_trait|E]"
+ diarchies.0000.diarch_lax_with_mandate.t:1 "[liege.GetDiarchTitle|U] drückt sich vor [Concept('mandate', 'Mandatspflichten')|E]"
+
+ diarchies.0000.diarch_mandate_fail.tt.obtain_gold.liege:0 "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, Euch [gold|E] zu beschaffen"
+ diarchies.0000.diarch_mandate_fail.tt.obtain_gold.split:0 "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, Euch beiden [gold|E] zu beschaffen"
+ diarchies.0000.diarch_mandate_fail.tt.obtain_gold.self:0 "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, sich selbst [gold|E] zu beschaffen"
+ diarchies.0000.diarch_mandate_fail.tt.acquire_character.liege:0 "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, Euch einen [courtier|E] zu beschaffen"
+ diarchies.0000.diarch_mandate_fail.tt.acquire_character.self:0 "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, sich selbst die Treue eines [Concept('character', 'Charakters')] zu sichern"
+ diarchies.0000.diarch_mandate_fail.tt.acquire_troops.liege:0 "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, Euch Soldaten zu beschaffen"
+ diarchies.0000.diarch_mandate_fail.tt.acquire_troops.split:0 "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, Euch beiden Soldaten zu beschaffen"
+ diarchies.0000.diarch_mandate_fail.tt.affect_contract.liege:0 "[diarch.GetSheHe|U] versuchte, die [feudal_contract|E] eines [vassals|E] für Euch günstig zu beeinflussen"
+ diarchies.0000.diarch_mandate_fail.tt.harass_peasants.liege:0 "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, mehr Ressourcen aus der Bauernschaft herauszuholen"
+ diarchies.0000.diarch_mandate_fail.tt.boost_authority.liege:0 "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, Eure Autorität zu stärken"
+ diarchies.0000.diarch_mandate_fail.tt.affect_faction.liege:0 "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, eine [faction|E] zu entschärfen"
+ diarchies.0000.diarch_mandate_fail.tt.network.self:0 "[diarch.Custom('DE_PRO_PER_S_3P_N')] versuchte, sich selbst bei Euren [vassals|E] zu begünstigen"
+ diarchies.0000.diarch_mandate_fail.tt.train_self.self:0 "[diarch.Custom('DE_PRO_PER_S_3P_N')] konzentrierte sich auf die eigene Ausbildung statt die Eurer Truppen"
+
+ diarchy.0021.t:1 "Berufen, um [liege.GetDiarchTitle|U] zu werden"
+ diarchy.0021.desc.appointment_nature.child:0 "Da [liege.Custom2('MyCharacterIntroduction', ROOT.Char)] noch ein Kind ist, liegt wohl auf der Hand, dass [liege.Custom('DE_PRO_PER_S_3P_N')] [liege.GetPrimaryTitle.GetName] nicht regieren kann. [liege.Custom('DE_PRO_PER_S_3P_N')|U] braucht eine ruhige, feste Hand, um [liege.Custom('DE_PRO_PER_S_3P_A')] zu führen, zumindest bis zu [liege.Custom('DE_PRO_POS_S_3P')]er Volljährigkeit."
+ diarchy.0021.desc.appointment_nature.incapable:0 "Da [liege.Custom2('MyCharacterIntroduction', ROOT.Char)] nur noch ein zitternder, alter #EMP Zausel#! ist, steht [liege.GetPrimaryTitle.GetName] am Rand der vollkommenen Anarchie. Dies gilt insbesondere deshalb, weil niemand sagen kann, wie lange wir aufgrund [liege.Custom('DE_PRO_POS_S_3P')]es Zustands ohne eine Obrigkeit auskommen müssen."
+ diarchy.0021.desc.appointment_nature.imprisoned:0 "Da [liege.Custom2('MyCharacterIntroduction', ROOT.Char)] von [liege.GetImprisonedBy.GetTitledFirstName] eingekerkert wurde, treibt [liege.GetPrimaryTitle.GetName] führerlos dahin. Wir hören nur so oft von [Select_CString(liege.IsFemale, 'unserer Lehnsherrin', 'unserem Lehnsherrn')], wie es [liege.Custom('DE_PRO_POS_S_3P')] Gefängniswärter erlaubt – und ob diese Schreiben #EMP wirklich#! von [liege.GetTitleAsNameNoTooltip] kommen, wird fortlaufend bestritten."
+ diarchy.0021.desc.appointment_nature.travelling:0 "Da [liege.Custom2('MyCharacterIntroduction', ROOT.Char)] derzeit in fremden Landen beschäftigt ist, herrscht in [liege.GetPrimaryTitle.GetName] eine sprachlose Unsicherheit. Ohne amtierend[liege.Custom('DE_END_ADJ_IND_S_A')] [liege.GetTitleAsNameNoTooltip] gibt es keine bindende Obrigkeit, und #EMP das#! macht Vasallen nervös."
+ diarchy.0021.desc.appointment_nature.war:0 "Da [liege.Custom2('MyCharacterIntroduction', ROOT.Char)] in der Ferne einen Krieg führt, kommt es zu Spannungen unter jenen, die zurückgeblieben sind. Man hört nur selten von [liege.GetTitleAsNameNoTooltip], und jeden Tag gibt es mehr Dispute zu schlichten."
+ diarchy.0021.desc.appointment_nature.fallback:0 "Es ist für jeden in [liege.GetPrimaryTitle.GetName] klar ersichtlich, dass [liege.Custom2('MyCharacterIntroduction', ROOT.Char)] die Bürde des Herrschens nicht mehr allein schultern kann – zumindest nicht ohne unseren Landen dauerhaften Schaden zuzufügen."
+ diarchy.0021.desc.diarchy_type.regency_temporary:0 "\n\nObschon diese Pflicht nicht allzu lange bestehen dürfte, muss es doch jemanden geben, der das Reich pflegt, Streitigkeiten schlichtet und den Thron für [liege.GetTitledFirstNameNoTooltip] warmhält."
+ diarchy.0021.desc.diarchy_type.regency_entrenched:0 "\n\nDa diese Lage für eine Weile anhalten wird, muss das Reich wissen, an wen es sich zu wenden hat, wenn [liege.GetTitledFirstNameNoTooltip] nicht persönlich Recht sprechen kann. Wir brauchen jemanden, der dauerhaft als [liege.GetDiarchTitle|U] dient."
+ diarchy.0021.desc.diarchy_type.fallback:0 "\n\nEs scheint auf der Hand zu liegen, dass wir nicht so weitermachen können. Da [liege.GetTitledFirstNameNoTooltip] nicht selbst herrschen kann, brauchen wir jemanden, der als [liege.GetDiarchTitle|U] dient."
+ diarchy.0021.desc.outro:0 "\n\nNatürlich sollte ich das sein."
+ diarchy.0021.reminder.diarch_powers:0 "Ihr erhaltet Zugriff auf [diarch_powers|E], die Ihr gegen Euren [Concept('liege', 'Lehnsherrn')|E] und Eure Mit-[vassals|E] einsetzen könnt."
+ diarchy.0021.reminder.scales_of_power:0 "Die [scales_of_power|E] wurden aktiviert und können bewegt werden, um weitere [diarch_powers|E] freizuschalten."
+ diarchy.0021.a:0 "Ich beginne umgehend zu herr… #EMP regieren#!!"
+ diarchy.0021.a.sedate:0 "Ich habe schon so viele Ideen für das Reich!"
+ diarchy.0021.b:0 "Ah, Anerkennung."
+ diarchy.0021.c:0 "Ich fürchte, ich muss zu vielen dringenden Verpflichtungen nachgehen …"
+
+
+
+
+
+
+
+ ##################################################
+ # #Modifiers
+ mandate_induced_fines_to_liege_modifier:0 "Überzogene Bußgelder"
+ mandate_induced_fines_to_liege_modifier_desc:0 "Diese Gemeinde leidet unter dem Joch drakonischer Bußgelder, die erhoben werden, um die Kassen des ganzen Reichs zu füllen."
+ mandate_induced_fines_split_modifier:0 "Aufgeteilte überzogene Bußgelder"
+ mandate_induced_fines_split_modifier_desc:0 "Diese Gemeinde leidet unter dem Joch drakonischer Bußgelder, von denen der Großteil ins Säckel des örtlichen Fürsten geht."
+ mandate_fines_being_ignored_modifier:0 "Missachtete Bußgelder"
+ mandate_fines_being_ignored_modifier_desc:0 "Diese Gemeinde missachtet die Forderung nach höheren Bußgeldern für Verbrecher und ist immer noch verärgert über sie."
+
+ mandate_hated_recruiter_modifier:0 "Verhasster Anwerber"
+ mandate_hated_recruiter_modifier_desc:0 "Dieser Charakter ist bekannt für seine #EMP Gnadenlosigkeit#! bei der Feststellung der Wehrfähigkeit für Aufgebote."
+ mandate_failed_to_drum_up_rural_recruits_modifier:0 "Gescheiterter Anwerber"
+ mandate_failed_to_drum_up_rural_recruits_modifier_desc:0 "Dieser Charakter hat einen schlechten Ruf wegen seiner gescheiterten Versuche, mehr Aufgebote auszuheben, als angemessen wäre."
+ mandate_squeezing_recruiting_sources_modifier:0 "Grobe Anwerbung"
+ mandate_squeezing_recruiting_sources_modifier_desc:0 "Wer im kampffähigen Alter ist, wird auch dienen – sonst muss man dafür zahlen."
+ mandate_extra_recruiting_sources_modifier:0 "Schattenanwerbung"
+ mandate_extra_recruiting_sources_modifier_desc:0 "Auch wenn sie nur eine gewisse Zahl an Truppen für den Krieg zur Verfügung stellen müsste, weiß diese Gemeinde, dass sie lieber ein paar zusätzliche Leute aufstellt, denn sonst …"
+
+ mandate_sellswords_bolster_ranks_modifier:0 "Soldklingen stärken Ränge"
+ mandate_sellswords_bolster_ranks_modifier_desc:0 "Immer wenn ein Soldat aus dem Haushalt dieses Charakters stirbt oder sich zur Ruhe setzt, scheint es keinen Mangel an Söldnern zu geben, die an seine Stelle treten können."
+ mandate_sellswords_bolster_recruitment_modifier:0 "Soldklingen stärken Anwerbung"
+ mandate_sellswords_bolster_recruitment_modifier_desc:0 "Soldklingen, die nach #EMP dauerhaften#! Einnahmequellen suchen, schließen sich allzu begierig dem Haushalt dieses Charakters an."
+
+ mandate_hired_thugs_modifier:0 "Angeworbene Schläger"
+ mandate_hired_thugs_modifier_desc:0 "Fiese Dinge stoßen jenen zu, die sich gegen diesen Charakter aussprechen."
+ mandate_emptied_gaols_modifier:0 "Leere Kerker"
+ mandate_emptied_gaols_modifier_desc:0 "Halsabschneider und Banditen versammeln sich in dieser Gemeinde in dem Wissen, dass man ihnen hier ihre Verbrechen im Austausch für den Kriegsdienst vergibt."
+
+ mandate_baronial_troops_trained_modifier:0 "Abgehärtete Baronietruppen"
+ mandate_baronial_troops_trained_modifier_desc:0 "Mehr Truppen dieses Charakters eignen sich für die Schlacht, als man erwarten würde."
+ mandate_baronial_troops_half_trained_modifier:0 "Halb abgehärtete Baronietruppen"
+ mandate_baronial_troops_half_trained_modifier_desc:0 "$mandate_baronial_troops_trained_modifier_desc$"
+ mandate_focused_on_own_training_modifier:0 "Schwerpunkt auf der Ertüchtigung"
+ mandate_focused_on_own_training_modifier_desc:0 "Indem er sich vor allem den Grundlagen widmet, hält sich dieser Charakter kampffähig."
+ mandate_strained_self_training_modifier:0 "Zerrung bei der Ausbildung"
+ mandate_strained_self_training_modifier_desc:0 "Dieser Charakter hat sich beim Drillen von Aufgeboten verletzt und dies noch nicht ganz überwunden."
+
+ shift_privileges_monopolies_sold_modifier:0 "Monopole verkauft"
+ shift_privileges_monopolies_sold_modifier_desc:0 "Einige fragwürdige Gestalten haben exklusive Rechte für das Feilbieten oder die Herstellung bestimmter Waren verkauft – und das #EMP ohne#! Erlaubnis des örtlichen Herrschers."
+ shift_privileges_scutage_exemptions_modifier:0 "Schildgelddispens"
+ shift_privileges_scutage_exemptions_modifier_desc:0 "Dokumente mit einem höheren Siegel als dem des örtlichen Herrschers zeigen, dass der Großteil der Bauern vom Wehrdienst ausgenommen ist."
+ shift_privileges_conflicting_deeds_modifier:0 "Widerstreitende Taten"
+ shift_privileges_conflicting_deeds_modifier_desc:0 "Ein infamer Schuft hat kleinere Flecken Land an verschiedene örtliche Magnaten verkauft, deren Grenzen sich mit denen des örtlichen Herrschers decken oder diese sogar aufheben."
+
+
+
+
+
+
+
+ ##################################################
+ # #Mandates - Fill Coffers
+ diarchy.1201.t:0 "Offene Herzen, offene Geldbeutel"
+ diarchy.1201.desc:1 "„Ausstehende Steuern? Was meint Ihr denn mit #EMP ausstehenden Steuern#!?“, blafft [exploitable_vassal.GetTitledFirstName] verächtlich. „Ich zahle meine Abgaben an die Krone pünktlich und bis auf den Heller genau. So wie jeder andere auch. Da weiß ich es kaum zu schätzen, dass man mir noch mehr abpressen will.“\n\n[exploitable_vassal.Custom('DE_PRO_PER_S_3P_N')|U] zeigt sich gegenüber der Vorstellung, eine zusätzliche Abgabe zu leisten, etwas … sperriger, als ich mir das erhofft hatte, doch mein Mandat als [liege.GetDiarchTitle] verlangt es mir ab, nach derlei Dingen zu verlangen, um [Select_CString(liege.IsFemale, 'meiner Lehnsherrin', 'meinem Lehnsherrn')] zu dienen."
+ diarchy.1201.a:0 "Bei der Autorität von [liege.GetTitledFirstNameNoTooltip]: Ihr #EMP werdet#! zahlen."
+ diarchy.1201.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
+ diarchy.1201.b:0 "Das sagt Ihr, doch diese Aufzeichnungen zeigen bestenfalls teilweise beglichene Schuldigkeiten …"
+ diarchy.1201.b.tt.success:0 "[exploitable_vassal.GetFirstNameNoTooltip] spuckt das Verlangte aus"
+ diarchy.1201.b.tt.failure:0 "[exploitable_vassal.Custom('DE_ART_DEF_S_N')|U] [exploitable_vassal.GetTitleAsNameNoTooltip] bleibt standhaft"
+ diarchy.1201.b.t:0 "$diarchies.0000.diarch_fails_at_mandate.t$"
+ diarchy.1201.c:0 "[liege.Custom('DE_ART_DEF_S_N')|U] [liege.GetTitleAsNameNoTooltip] und ich stellen keine Bitte. Wir erteilen einen Befehl."
+ diarchy.1201.c.tt.success:0 "$diarchy.1201.b.tt.success$"
+ diarchy.1201.c.t.success:0 "$diarchies.0000.diarch_skims_mandate.t$"
+ diarchy.1201.c.tt.failure:0 "$diarchy.1201.b.tt.failure$"
+ diarchy.1201.c.t.failure:0 "$diarchies.0000.diarch_fails_to_skim_mandate.t$"
+ diarchy.1201.d:0 "Das kann ich nicht machen – um Eure Steuern steht es bestens. Achtet bitte nicht weiter auf mich."
+ diarchy.1201.d.t:0 "$diarchies.0000.diarch_rejects_mandate.t$"
+ diarchy.1201.e:0 "Ihr habt recht. Seht diese Schulden als vergessen an."
+ diarchy.1201.e.t:0 "$diarchies.0000.diarch_lax_with_mandate.t$"
+
+ diarchy.1211.t:0 "Geschäftsbedingungen"
+ diarchy.1211.desc:1 "„… und einige dieser Zeugen Euer Lehnseide bestätigen, dass Ihr versprochen habt, Eure Verpflichtungen #EMP zu übertreffen#!, anstatt sie einfach nur zu erfüllen“, beschließe ich meine Ausführungen. [exploitable_vassal.GetTitledFirstName|U] starrt mich über den Ratstisch hinweg vollkommen geplättet an.\n\n„Wollt Ihr damit etwa sagen, die Zeugenaussage irgendwelcher unbedeutender Kleinadligen ohne Rang und Namen rechtfertigt es, dass ich [Select_CString(liege.IsFemale, 'unserer Lehnsherrin', 'unserem Lehnsherrn')] noch #EMP mehr#! schulde?“ [exploitable_vassal.Custom('DE_PRO_PER_S_3P_N')|U] gerät schier ins Stottern, noch immer erschüttert von der Dreistigkeit meiner Forderung.\n\nEs ist ein waghalsiger Vorschlag, doch mein Mandat als [liege.GetDiarchTitle] verlangt, dass ich die Position von [liege.GetTitledFirstName] verbessere."
+ diarchy.1211.a:0 "Ja, und falls Euch diese Zeugen nicht gefallen, habe ich noch andere."
+ diarchy.1211.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
+ diarchy.1211.b:0 "Die Zeugen mögen lässlich sein – doch diese Eide sind heilig."
+ diarchy.1211.b.tt.success:0 "Ihr unterwerft [exploitable_vassal.GetFirstNameNoTooltip] mit Euren Argumenten"
+ diarchy.1211.b.tt.failure:0 "Eure Position gerät bei näherer Betrachtung ins Wanken"
+ diarchy.1211.b.t:0 "$diarchies.0000.diarch_fails_at_mandate.t$"
+ diarchy.1211.c:0 "Nun, oder eine neuerliche Huldigung und eine kleine Zahlung an die #EMP Schatzkammer#!."
+ diarchy.1211.c.tt.success:0 "[exploitable_vassal.GetFirstNameNoTooltip] zahlt"
+ diarchy.1211.c.t.success:0 "$diarchies.0000.diarch_skims_mandate.t$"
+ diarchy.1211.c.tt.failure:0 "[exploitable_vassal.Custom('DE_ART_DEF_S_N')|U] [exploitable_vassal.GetTitleAsNameNoTooltip] will sich nicht erpressen lassen"
+ diarchy.1211.c.t.failure:0 "$diarchies.0000.diarch_fails_to_skim_mandate.t$"
+ diarchy.1211.d:0 "Es wäre zu streng, Euch wegen ein paar missverständlicher Worte zu etwas zu zwingen …"
+ diarchy.1211.d.t:0 "$diarchies.0000.diarch_rejects_mandate.t$"
+ diarchy.1211.e:0 "Vielleicht … Vielleicht ist das alles ein wenig nebulös …"
+ diarchy.1211.e.t:0 "$diarchies.0000.diarch_lax_with_mandate.t$"
+
+ diarchy.1221.t:0 "Eure neue Heimat"
+ diarchy.1221.desc:0 "Aufgrund meines Mandats von [liege.GetTitledFirstName] besteht die oberste Pflicht meiner Regentschaft darin, [liege.Custom('DE_PRO_POS_S_3P')]e Schatztruhen zu füllen. Ein einfacher Weg, um dies zu erreichen, besteht darin, dabei zu helfen, die Außenbezirke von [recipient_county.GetNameNoTier] stärker zu bevölkern: Hierzu müssen Leibeigene und Kleinbauern aus meinem eigenen Besitz – [actor_county.GetName] – in die Lande von [liege.GetFirstNameNoTooltip] übersiedeln.\n\nNur leider mag sich das Landvolk nicht von der Stelle rühren. Jede einzelne Familie, die unter Zwang umgesiedelt wird, ist eine Mühsal, als bekäme man einen Zahn gezogen – fast so, als hätten sie etwas #EMP dagegen#!, von ihren Oberen umherbewegt zu werden."
+ diarchy.1221.a:0 "Sie gehen dorthin, wann und wo ich es ihnen sage."
+ diarchy.1221.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
+ diarchy.1221.b:0 "Was, wenn ich passende Anreize biete?"
+ diarchy.1221.b.tt.success:0 "Gold obsiegt, wo Stahl sich mühte"
+ diarchy.1221.b.tt.failure:0 "Die Einheimischen tun sich in wechselseitiger Unterstützung zusammen"
+ diarchy.1221.b.t:0 "$diarchies.0000.diarch_fails_at_mandate.t$"
+ diarchy.1221.c:0 "Die reicheren Familien #EMP könnten#! auch auf andere Weise dienen …"
+ diarchy.1221.c.tt.success:0 "Eine saubere kleine Steuer – und schon ist die wechselseitige Unterstützung vor Ort Geschichte"
+ diarchy.1221.c.t.success:0 "$diarchies.0000.diarch_skims_mandate.t$"
+ diarchy.1221.c.tt.failure:0 "Euer Ruf, Euch unehrlicher Mittel zu bedienen, verbreitet sich"
+ diarchy.1221.c.t.failure:0 "$diarchies.0000.diarch_fails_to_skim_mandate.t$"
+ diarchy.1221.d:0 "All diese Mühen, um #EMP [liege.GetFirstNameNoTooltip]#! ein paar Münzen zu schenken?"
+ diarchy.1221.d.tt:0 "Ihr nehmt Euch stattdessen den Nachmittag frei"
+ diarchy.1221.d.t:0 "$diarchies.0000.diarch_rejects_mandate.t$"
+ diarchy.1221.e:0 "Ach, lasst sie auf ihrer Scholle bleiben, wenn sie ihren Dreck dort so sehr lieben!"
+ diarchy.1221.e.t:0 "$diarchies.0000.diarch_lax_with_mandate.t$"
+
+ diarchy.1231.t:0 "Mitgegangen, mitgefangen"
+ diarchy.1231.desc:0 "Das Mandat, das [liege.GetTitledFirstName] ausgegeben hat, weist mich an, nach Einnahmen für den Thron zu streben, und eine Einkommensmöglichkeit, die von [Select_CString(liege.IsFemale, 'meiner Lehnsherrin', 'meinem Lehnsherrn')] derzeit geradezu sträflich vernachlässigt wird, sind die Gerichte. Magistrate und niederere Adlige belegen jeden Tag kleinere Vergehen mit Geldstrafen, wobei sie einen Großteil der so erzeugten Mittel einfach einbehalten.\n\n[exploitable_county.GetNameNoTier] ist besonders reich an Lumpenpack, und es wäre höchst gewinnträchtig, die Einheimischen für ihre Fehltritte teurer zu bestrafen und diesen Überschuss einzustreichen – doch es wäre zugleich auch ein höchst unbeliebtes Vorgehen."
+ diarchy.1231.a:0 "Wenn schert es, was sie denken? Ein Verbrecher ist ein Verbrecher."
+ diarchy.1231.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
+ diarchy.1231.b:0 "Ich habe es im Gefühl, dass wir da einen gerechten Ausgleich finden können."
+ diarchy.1231.b.tt.success:0 "Die Leute murren nicht mehr, als sie es ohnehin schon taten"
+ diarchy.1231.b.tt.failure:0 "Die Einheimischen wollen sich nicht fügen"
+ diarchy.1231.b.t:0 "$diarchies.0000.diarch_fails_at_mandate.t$"
+ diarchy.1231.c:0 "Diese ganzen Mühen verlangen doch gewiss nach einer kleinen Entschädigung …"
+ diarchy.1231.c.tt.success:0 "$diarchy.1231.b.tt.success$"
+ diarchy.1231.c.t.success:0 "$diarchies.0000.diarch_skims_mandate.t$"
+ diarchy.1231.c.tt.failure:0 "$diarchy.1231.b.tt.failure$"
+ diarchy.1231.c.t.failure:0 "$diarchies.0000.diarch_fails_to_skim_mandate.t$"
+ diarchy.1231.d:0 "Wir sollten Geldstrafen #EMP senken#!, nicht erhöhen!"
+ diarchy.1231.d.t:0 "$diarchies.0000.diarch_rejects_mandate.t$"
+ diarchy.1231.e:0 "Das fühlt sich alles so an, als läge es weit außerhalb meines Aufgabenbereichs."
+ diarchy.1231.e.t:0 "$diarchies.0000.diarch_lax_with_mandate.t$"
+
+ diarchy.1241.t:0 "Ein Sachverhalt zum Nachsteuern"
+ diarchy.1241.desc:1 "Eine meiner Pflichten als [liege.GetDiarchTitle] besteht darin, das Mandat zu erfüllen, das mir [liege.GetTitledFirstName] erteilt hat – und derzeit braucht es dafür klingende Münze.\n\nIch habe mir das Hirn zermartert, was neue Einkommensquellen für die Krone anbelangt, und ich komme immer wieder auf die eine offenkundige, wenn auch ungewöhnliche Antwort: [diarch.Custom('GetFaithTaxExemptInstitution')].\n\nDa in diesem Zusammenhang eigentlich der Brauch gilt, für die meisten Formen der Besteuerung eine Ausnahme zu machen, wäre eine besondere Abgabe in Sachen [diarch.Custom('GetFaithTaxExemptInstitution')] wahrscheinlich lukrativ. Sie wäre nur nicht … sonderlich fromm."
+ diarchy.1241.a:0 "[diarch.Custom('GetFaithTaxExemptInstitution')|U]? Für die lief alles schon viel zu lange nur nach ihrer Nase!"
+ diarchy.1241.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
+ diarchy.1241.b:0 "Bei einer Sonderabgabe auf nötige Ausgaben kann doch gewiss nichts aus dem Ruder laufen?"
+ diarchy.1241.b.tt.success:0 "Man zahlt die Abgabe trotz Gemurre"
+ diarchy.1241.b.tt.failure:0 "Euer Name ist verflucht und Euer Geldbeutel leer"
+ diarchy.1241.b.t:0 "$diarchies.0000.diarch_fails_at_mandate.t$"
+ diarchy.1241.c:0 "Natürlich stünde denen, die durch solche Steuern Schaden erleiden, eine Vergütung zu …"
+ diarchy.1241.c.tt.success:0 "$diarchy.1241.b.tt.success$"
+ diarchy.1241.c.t.success:0 "$diarchies.0000.diarch_skims_mandate.t$"
+ diarchy.1241.c.tt.failure:0 "$diarchy.1241.b.tt.failure$"
+ diarchy.1241.c.t.failure:0 "$diarchies.0000.diarch_fails_to_skim_mandate.t$"
+ diarchy.1241.d:0 "So viel Streit nur der Schatztruhen von [liege.GetFirstNameNoTooltip] wegen? Niemals."
+ diarchy.1241.d.t:0 "$diarchies.0000.diarch_rejects_mandate.t$"
+ diarchy.1241.e:0 "Das kann ich nicht tun. Das #EMP werde#! ich nicht tun."
+ diarchy.1241.e.t:0 "$diarchies.0000.diarch_lax_with_mandate.t$"
+
+
+
+
+
+
+
+
+
+
+ ##################################################
+ # #Mandates - Promote Authority
+ diarchy.1701.t:0 "Das Recht der Herrschaft"
+ diarchy.1701.desc:1 "Als [liege.GetDiarchTitle] von [liege.GetTitledFirstName] bin ich an meine Pflicht gebunden, [liege.Custom('DE_PRO_POS_S_3P')] Mandat zu befolgen und in [liege.GetPrimaryTitle.GetNameNoTier] eine Bündelung der Autorität zu schaffen.\n\nHeute hat mich diese Pflicht in eine vor Anspannung schier bebende Ratskammer geführt, eingeklemmt zwischen [councillor_1.GetTitledFirstName] als [councillor_1.Custom('CouncilPosition')] und [councillor_2.GetTitledFirstName] als [councillor_2.Custom('CouncilPosition')], während die beiden einander wegen irgendwelcher kleinlichen persönlichen Belange anschreien.\n\nIch hatte gehofft, eine Verständigung zu erzielen, damit [liege.Custom('DE_ART_DEF_S_N')] [liege.GetTitleAsNameNoTooltip] einige neue Privilegien erhalten kann, doch damit werde ich erst vorankommen, wenn dieser Streit beigelegt ist."
+ diarchy.1701.a:0 "Ich glaube, Ihr beiden redet aneinander vorbei – wenn ich einmal dürfte …"
+ diarchy.1701.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
+ diarchy.1701.b:0 "Edle Fürsten, wir schweifen ab … "
+ diarchy.1701.b.tt.success:0 "Ihr haltet das Gespräch in geordneten Bahnen"
+ diarchy.1701.b.tt.failure:0 "Die Ratsmitglieder schenken Euch keinerlei Beachtung"
+ diarchy.1701.b.t:0 "$diarchies.0000.diarch_fails_at_mandate.t$"
+ diarchy.1701.c:0 "[councillor_1.GetFirstNameNoTooltip] #EMP hat#! recht, und die Krone unterstützt [councillor_1.Custom('DE_PRO_PER_S_3P_A')]."
+ diarchy.1701.c.tt.success:0 "[councillor_1.GetFirstNameNoTooltip] heißt Eure Unterstützung selbstgefällig willkommen"
+ diarchy.1701.c.t.success:0 "$diarchies.0000.diarch_skims_mandate.t$"
+ diarchy.1701.c.tt.failure:0 "Ihr versteht ihren Streit ganz offenkundig nicht"
+ diarchy.1701.c.t.failure:0 "$diarchies.0000.diarch_fails_to_skim_mandate.t$"
+ diarchy.1701.d:0 "#EMP Bei allem, was heilig ist ([diarch.GetFaith.HighGodName])! Könnt Ihr beiden nicht einfach#! #BER das Maul halten?!#!"
+ diarchy.1701.d.t:0 "$diarchies.0000.diarch_rejects_mandate.t$"
+ diarchy.1701.d.custom.both_councillors:0 "Beide Ratsmitglieder:"
+ diarchy.1701.e:0 "Ich frage mich, ob es ihnen auffiele, wenn ich ein Nickerchen mache …"
+ diarchy.1701.e.t:0 "$diarchies.0000.diarch_lax_with_mandate.t$"
+
+ diarchy.1711.t:0 "Verfallsdatum"
+ diarchy.1711.desc:1 "„Ganz ehrlich: Ich hielt diese Angelegenheit für geregelt. Meine Vereinbarungen mit [liege.GetTitledFirstName] galten wohlweislich als fest, als wir meine Verpflichtungen das letzte Mal nachverhandelten“, murmelt [exploitable_vassal.GetTitledFirstName]. „Ich verstehe nicht, wie Ihr sagen könnt, dass ich es irgendwie geschafft habe, meine Eide so umfassend nichtig zu machen. Gewiss sollten die Worte doch für immer bindend sein?“\n\n[exploitable_vassal.Custom('DE_PRO_PER_S_3P_N')|U] liegt nicht ganz falsch. Ich greife hier nach Strohhalmen, doch ich bin [liege.GetDiarchTitle] und mein Mandat ist sonnenklar. Wenn die Eide von [exploitable_vassal.GetFirstNameNoTooltip] auch nur teilweise nichtig sind, hat [liege.Custom('DE_ART_DEF_S_N')] [liege.GetTitleAsNameNoTooltip] einen Spielraum für ihre Anpassung – und meine Aufgabe wäre somit erfüllt."
+ diarchy.1711.a:0 "Bin ich denn nicht für mein gerechtes und rechtssicheres Denken bekannt?"
+ diarchy.1711.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
+ diarchy.1711.b:0 "In Ordnung. Lasst uns noch einmal die Argumente durchgehen …"
+ diarchy.1711.b.tt.success:0 "Euer juristischer Ansatz ist unanfechtbar"
+ diarchy.1711.b.tt.failure:0 "Die Lücken in Eurem Argument sind unübersehbar"
+ diarchy.1711.b.t:0 "$diarchies.0000.diarch_fails_at_mandate.t$"
+ diarchy.1711.c:0 "Die Krone #EMP könnte#! stattdessen eine Wiedergutmachung annehmen."
+ diarchy.1711.c.tt.success:0 "[exploitable_vassal.GetFirstNameNoTooltip] bezahlt Euch"
+ diarchy.1711.c.t.success:0 "$diarchies.0000.diarch_skims_mandate.t$"
+ diarchy.1711.c.tt.failure:0 "Das Reich hört von Eurer Unehrlichkeit"
+ diarchy.1711.c.t.failure:0 "$diarchies.0000.diarch_fails_to_skim_mandate.t$"
+ diarchy.1711.d:0 "Wie begriffsstutzig kann man eigentlich sein? Es ist doch simpel!"
+ diarchy.1711.d.t:0 "$diarchies.0000.diarch_rejects_mandate.t$"
+ diarchy.1711.e:0 "Ach, vergesst es. Das ist es nicht wert."
+ diarchy.1711.e.t:0 "$diarchies.0000.diarch_lax_with_mandate.t$"
+
+ diarchy.1721.t:0 "Gelinderter Groll"
+ diarchy.1721.desc:1 "„Ich sehe nicht einmal einen Grund, weshalb Ihr Euch hier unbedingt einmischen wollt, [diarch.GetFirstName]“, seufzt [exploitable_vassal.GetTitledFirstName]. „Es ist ja nicht so, als wären unsere Beschwerden gegen Euch gerichtet.“\n\nEs ist kein Geheimnis, dass [exploitable_vassal.Custom('DE_ART_DEF_S_N')] [exploitable_vassal.GetTitleAsNameNoTooltip] Ambitionen hegt, die dem Willen von [liege.GetTitledFirstName] zuwiderlaufen. Ambitionen, die das Reich in einen verheerenden Bürgerkrieg stürzen könnten, wenn sie nicht eingehegt werden.\n\nAls [liege.GetDiarchTitle] [Select_CString(liege.IsFemale, 'meiner Lehnsherrin', 'meines Lehnsherrn')] fällt es unter mein Mandat, einen Versuch zu unternehmen, die Spannungen zwischen beiden zu glätten. Bislang jedoch zeigt sich [exploitable_vassal.GetTitledFirstName] meinen Bemühungen gegenüber unempfänglich."
+ diarchy.1721.a:0 "Haben wir nicht beide [liege.GetTitledFirstNameNoTooltip] einen Eid geschworen?"
+ diarchy.1721.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
+ diarchy.1721.b:0 "Ihr habt recht. Meine Burg wird sicher nicht die erste sein, die man belagert."
+ diarchy.1721.b.tt.success:0 "[exploitable_vassal.Custom('DE_ART_DEF_S_N')|U] [exploitable_vassal.GetTitleAsNameNoTooltip] versteht, was Ihr meint"
+ diarchy.1721.b.tt.failure:0 "[exploitable_vassal.GetFirstNameNoTooltip] zeigt sich unbesorgt angesichts Eurer Drohungen"
+ diarchy.1721.b.t:0 "$diarchies.0000.diarch_fails_at_mandate.t$"
+ diarchy.1721.c:0 "Vielleicht könnte ich mich dazu überreden lassen Eurem … Treiben keine Beachtung zu schenken …"
+ diarchy.1721.c.tt.success:0 "Ihr geht einen Handel für ein bindendes Versprechen und eine kleine Huldigung ein"
+ diarchy.1721.c.t.success:0 "$diarchies.0000.diarch_skims_mandate.t$"
+ diarchy.1721.c.tt.failure:0 "Vielleicht #EMP sind#! ja Beschwerden gegen Euch gerichtet"
+ diarchy.1721.c.t.failure:0 "$diarchies.0000.diarch_fails_to_skim_mandate.t$"
+ diarchy.1721.d:0 "Ich schätze, letztlich ist das gar nicht #EMP mein#! Ärgernis."
+ diarchy.1721.d.t:0 "$diarchies.0000.diarch_rejects_mandate.t$"
+ diarchy.1721.e:0 "Einmischen? Ich bin nur neugierig! Das war ein reiner Höflichkeitsbesuch."
+ diarchy.1721.e.t:0 "$diarchies.0000.diarch_lax_with_mandate.t$"
+
+ diarchy.1731.t:0 "Das Begleichen von Rechnungen"
+ diarchy.1731.desc:1 "Vor mir drängt sich die Menge, eine bunt zusammengewürfelte Truppe zorniger Vertreter aus [county_1.GetNameNoTier], [county_2.GetNameNoTier] und [county_3.GetNameNoTier], separate Städtchen und Dörfer, die dadurch geeint sind, wie sehr sie [liege.GetTitledFirstName] verdammen. Als [liege.GetDiarchTitle] in [liege.Custom('DE_PRO_POS_S_3P')]en Diensten liegt es aufgrund meines Mandats bedauerlicherweise an mir, einen Versuch zu unternehmen, diese Leute zu besänftigen.\n\nDer Mob hat keine klaren Sprecher, sondern brüllt mich nur an und trägt kreischend Sorgen und mit zu vielen Einzelheiten erzählte Geschichten über irgendwelche Vorfälle vor. "
+ diarchy_1731.tt.affected_counties_removed:0 "[county_1.GetNameNoTier], [county_2.GetNameNoTier] & [county_3.GetNameNoTier] verlassen ihre Fraktion ([faction.GetName|V])"
+ diarchy.1731.a:0 "Bitte mäßigt Euch doch! Ich höre mir Eure Beschwernisse eines nach dem anderen an."
+ diarchy.1731.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
+ diarchy.1731.b:0 "Edle Untertanen, finden wir denn nichts, worauf wir uns einigen können?"
+ diarchy.1731.b.tt.success:0 "Ihr beruhigt die Gemüter"
+ diarchy.1731.b.tt.failure:0 "Die Menge bewirft Euch mit faulen Feldfrüchten"
+ diarchy.1731.b.t:0 "$diarchies.0000.diarch_fails_at_mandate.t$"
+ diarchy.1731.c:0 "Diese Anliegen wiegen schwer! #EMP Ich#! würde so etwas nie zulassen."
+ diarchy.1731.c.tt.success:0 "Die Leute glauben, dass Ihr ihnen Gerechtigkeit widerfahren lassen werdet"
+ diarchy.1731.c.t.success:0 "$diarchies.0000.diarch_skims_mandate.t$"
+ diarchy.1731.c.tt.failure:0 "Hier geht es nicht um #EMP Euch#!"
+ diarchy.1731.c.t.failure:0 "$diarchies.0000.diarch_fails_to_skim_mandate.t$"
+ diarchy.1731.d:0 "Beim unausweichlichen Zorn der höchsten Mächte ([diarch.GetFaith.HighGodName])! Könnt Ihr inzüchtiges Gesindel das nicht #EMP unterlassen#!?!"
+ diarchy.1731.d.t:0 "$diarchies.0000.diarch_rejects_mandate.t$"
+ diarchy.1731.e:0 "Ja, ja. Wir werden uns um all dies kümmern. Irgendwann."
+ diarchy.1731.e.t:0 "$diarchies.0000.diarch_lax_with_mandate.t$"
+
+ diarchy.1741.t:0 "Betrachtet es doch einmal so"
+ diarchy.1741.desc:1 "„Wir stehen den Wünschen von [liege.GetTitledFirstName] nicht entgegen“, sagt [councillor_1.GetTitledFirstName] träge, die ganze Zeit eine verächtliche Miene zeigend. „Wir wollen nur nicht zu [liege.Custom('DE_PRO_POS_S_3P')]en Sklaven werden. Das ist doch nicht so schwer zu verstehen.“\n\nIch habe mehr als die Hälfte meines Nachmittags mit dem Versuch verbracht, die Beziehungen zwischen [Select_CString(liege.IsFemale, 'meiner Lehnsherrin', 'meinem Lehnsherrn')] und [liege.Custom('DE_PRO_POS_S_3P')]en Ratsmitgliedern zu verbessern – vergebens, und daran hat die Sturköpfigkeit [Select_CString(councillor_1.IsFemale, 'dieser ignoranten Frau', 'dieses ignoranten Mannes')] keinen geringen Anteil.\n\nIch seufze innerlich. Ich bin [liege.GetDiarchTitle], und mein Mandat macht diese Pflichten erforderlich."
+ diarchy.1741.a:0 "Ich glaube, Ihr verkennt, wie viel [liege.Custom('DE_ART_DEF_S_N')] [liege.GetTitleAsNameNoTooltip] für Euch tut …"
+ diarchy.1741.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
+ diarchy.1741.custom.several_councillors:0 "Jedes anwesende Ratsmitglied"
+ diarchy.1741.b:0 "Das solltet Ihr auch gar nicht sein, doch ein besserer Dienst bringt einem Wohltaten ein …"
+ diarchy.1741.b.tt.success:0 "Ihr erleuchtet Eure Kollegen"
+ diarchy.1741.b.tt.failure:0 "Der Rat bleibt widerspenstig"
+ diarchy.1741.b.t:0 "$diarchies.0000.diarch_fails_at_mandate.t$"
+ diarchy.1741.c:0 "[liege.Custom('DE_ART_DEF_S_N')] [liege.GetTitleAsNameNoTooltip] trägt die Krone #EMP nicht#! allein."
+ diarchy.1741.c.tt.success:0 "Der Rat weiß Euer Argument zu schätzen"
+ diarchy.1741.c.t.success:0 "$diarchies.0000.diarch_skims_mandate.t$"
+ diarchy.1741.c.tt.failure:0 "Ihr spielt Euch ganz offenkundig auf"
+ diarchy.1741.c.t.failure:0 "$diarchies.0000.diarch_fails_to_skim_mandate.t$"
+ diarchy.1741.d:0 "Nicht so schwer? #EMP Was#! genau deutet Ihr [councillor_1.Custom('InsultNoun')] damit an?"
+ diarchy.1741.d.t:0 "$diarchies.0000.diarch_rejects_mandate.t$"
+ diarchy.1741.e:0 "Wir werden nie einen Kompromiss finden."
+ diarchy.1741.e.t:0 "$diarchies.0000.diarch_lax_with_mandate.t$"
+
+
+
+
+
+
+
+
+
+
+ ##################################################
+ # #Mandates - Swell Armies
+ diarchy.2201.t:0 "Bringt Eure Jugend raus"
+ diarchy.2201.desc:1 "Von den Einheimischen in [exploitable_county.GetNameNoTier] wird verlangt, dass sie [liege.GetTitledFirstName] mit einer bestimmten Anzahl an Truppen versorgen, was man auch pflichtbewusst tut, wann immer man darum gebeten wird.\n\nDies bedeutet allerdings nicht, dass dies alle Bewohner der Region im wehrfähigen Alter wären, und meine jüngsten Nachforschungen als [liege.GetDiarchTitle] haben gezeigt, dass die für sie geltenden Verpflichtungen geradezu #EMP erschütternd#! gering sind. Die Zahl an Truppen, die wir ausheben könnten, lässt die mickrigen Kontingente, die tatsächlich aufgeboten werden, geradezu zwergenhaft erscheinen.\n\nDie Einheimischen geben sich bockig, doch mein Mandat spornt mich dennoch an."
+ diarchy.2201.a:0 "Wenn sie einen Speer halten können, können sie auch von einem getötet werden!"
+ diarchy.2201.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
+ diarchy.2201.b:0 "Lasst die Tagelöhner wissen, dass dies ihre große Gelegenheit ist, an #EMP Plünderbeute#! zu kommen."
+ diarchy.2201.b.tt.success:0 "Ihr regt die Vorstellungskraft des Landvolks an"
+ diarchy.2201.b.tt.failure:0 "Die Einheimischen leiden plötzlich zu Hunderten unter lahmen Beinen"
+ diarchy.2201.b.t:0 "$diarchies.0000.diarch_fails_at_mandate.t$"
+ diarchy.2201.c:0 "Ich bin mir sicher, die Reicheren würden dafür zahlen, in Ruhe gelassen zu werden …"
+ diarchy.2201.c.tt.success:0 "Ein paar zusätzliche Steuern, ein paar zusätzliche Abgaben"
+ diarchy.2201.c.t.success:0 "$diarchies.0000.diarch_skims_mandate.t$"
+ diarchy.2201.c.tt.failure:0 "Bittere Anschuldigungen folgen"
+ diarchy.2201.c.t.failure:0 "$diarchies.0000.diarch_fails_to_skim_mandate.t$"
+ diarchy.2201.d:0 "Diese Leute sind ihren Verpflichtungen nachgekommen. Das reicht."
+ diarchy.2201.d.t:0 "$diarchies.0000.diarch_rejects_mandate.t$"
+ diarchy.2201.e:0 "[liege.Custom('DE_ART_DEF_S_N')|U] [liege.GetTitleAsNameNoTooltip] soll seine Drecksarbeit hier selbst erledigen."
+ diarchy.2201.e.t:0 "$diarchies.0000.diarch_lax_with_mandate.t$"
+
+ diarchy.2211.t:0 "Ein seltenes Talent"
+ diarchy.2211.desc:1 "[Select_CString(hedge_knight.IsFemale, 'Eine Kriegerin', 'Ein Krieger')] von seltenem Talent ist auf der Durchreise durch [hedge_knight_location.GetNameNoTier]. Bei den Armeen von [liege.GetTitledFirstName] wüsste man das Schwert [Select_CString(hedge_knight.IsFemale, 'dieser Kriegerin', 'dieses Kriegers')] sehr zu schätzen.\n\nMein Mandat als [liege.GetDiarchTitle] verlangt von mir, nach derlei Streitern Ausschau zu halten, und ich habe bereits zahlreiche Bitten an [hedge_knight.GetFirstName] gesandt, um [hedge_knight.Custom('DE_PRO_PER_S_3P_D')] für [Select_CString(liege.IsFemale, 'meine Lehnsherrin', 'meinen Lehnsherrn')] anzuwerben.\n\nNur leider wirkt [Select_CString(hedge_knight.IsFemale, 'die wandernde Kriegerin', 'der wandernde Krieger')] nicht sehr begeistert von dem Gedanken, [hedge_knight.Custom('DE_PRO_POS_S_3P')]e Klinge unserer Sache zu verschreiben, denn jeder unserer Gesandten wird schroff abgewiesen."
+ diarchy.2211.a:0 "Ein einfacher $knight_culture_player_no_tooltip_lowercase$ #EMP wird#! schon noch zustimmen, uns zu dienen. Irgendwann."
+ diarchy.2211.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
+ diarchy.2211.b:0 "Vielleicht kann ich [hedge_knight.GetFirstNameNoTooltip] selbst im Gespräch überzeugen?"
+ diarchy.2211.b.tt.success:0 "Eure Worte zeigen Einfluss auf [hedge_knight.Custom('DE_PRO_PER_S_3P_A')]"
+ diarchy.2211.b.tt.failure:0 "Eure Bitten stoßen auf taube Ohren"
+ diarchy.2211.b.t:0 "$diarchies.0000.diarch_fails_at_mandate.t$"
+ diarchy.2211.c:0 "Vielleicht ist hier ja [liege.Custom('DE_ART_DEF_S_N')] mögliche [liege.Custom('MistressMaster')] das Hindernis …"
+ diarchy.2211.c.tt.success:0 "Ihr lockt [hedge_knight.GetFirstNameNoTooltip] in Eure eigenen Dienste"
+ diarchy.2211.c.t.success:0 "$diarchies.0000.diarch_skims_mandate.t$"
+ diarchy.2211.c.tt.failure:0 "[hedge_knight.Custom('DE_PRO_PER_S_3P_D')|U] will nichts mit Euch zu tun haben"
+ diarchy.2211.c.t.failure:0 "$diarchies.0000.diarch_fails_to_skim_mandate.t$"
+ diarchy.2211.d:0 "Diese ganze Sache bereitet mir Beklemmungen!"
+ diarchy.2211.d.t:0 "$diarchies.0000.diarch_rejects_mandate.t$"
+ diarchy.2211.e:0 "Lasst [hedge_knight.Custom('DE_PRO_PER_S_3P_A')] in Ruhe – [hedge_knight.Custom('DE_PRO_PER_S_3P_N')] hat offenkundig kein Interesse."
+ diarchy.2211.e.t:0 "$diarchies.0000.diarch_lax_with_mandate.t$"
+
+ diarchy.2221.t:0 "Kriegerische Donativa"
+ diarchy.2221.desc:1 "Die größeren Siedlungen von [liege.GetPrimaryTitle.GetNameNoTier] bieten zahllose Orte für das Anwerben von Mietklingen. Der Marktplatz, auf dem ich gerade stehe und einer Rotte von ihnen eine Geldbörse zuwerfe, ist nur eine dieser Lokalitäten.\n\nFür gewöhnlich werden diese sich plötzlich bildenden Kriegertrupps von größeren Söldnergruppen aufgesogen oder angeworben, um in Kriegszeiten die privaten Aufgebote kleinerer Fürsten zu mehren – ein unwirtschaftliches Vorgehen.\n\nMein Mandat als [liege.GetDiarchTitle] verlangt von mir, die Armeen von [liege.GetTitledFirstName] anschwellen zu lassen, und daher versuche ich nun, etwas unmittelbarer an mehr Söldner zu kommen."
+ diarchy.2221.a:0 "Dieses Geld ist nichts verglichen mit der Beute, die Ihr beim Plündern einstreichen werdet!"
+ diarchy.2221.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
+ diarchy.2221.b:0 "Dieses Silber ist nur ein Vorgeschmack auf die Schatzkammer von [liege.GetTitledFirstNameNoTooltip]!"
+ diarchy.2221.b.tt.success:0 "Gut angelegtes Geld"
+ diarchy.2221.b.tt.failure:0 "Eine schlechte Geldanlage"
+ diarchy.2221.b.t:0 "$diarchies.0000.diarch_fails_at_mandate.t$"
+ diarchy.2221.c:0 "Dient mir, dient der Sache, die [liege.Custom('DE_ART_DEF_S_N')] [liege.GetTitleAsNameNoTooltip] vertritt – so oder so werdet Ihr #EMP bezahlt#!."
+ diarchy.2221.c.tt.success:0 "Eine feine Schar Soldaten"
+ diarchy.2221.c.t.success:0 "$diarchies.0000.diarch_skims_mandate.t$"
+ diarchy.2221.c.tt.failure:0 "Es meldet sich nur ein kleines Rinnsal an Truppen"
+ diarchy.2221.c.t.failure:0 "$diarchies.0000.diarch_fails_to_skim_mandate.t$"
+ diarchy.2221.d:0 "Macht bei ihrem Anblick kehrt und flieht."
+ diarchy.2221.d.t:0 "$diarchies.0000.diarch_rejects_mandate.t$"
+ diarchy.2221.e:0 "Natürlich bin ich mir sicher, dass Ihr Euch Eure eigenen Arbeitgeber aussuchen könnt …"
+ diarchy.2221.e.t:0 "$diarchies.0000.diarch_lax_with_mandate.t$"
+
+ diarchy.2231.t:0 "Eine bessere Verwendung für Euch"
+ diarchy.2231.desc:1 "In letzter Zeit haben die Gefängnisse und Gerichte von [exploitable_county.GetNameNoTier] eine bedauerlich hohe Zahl an Missetätern zu bewältigen. Unter gewöhnlichen Umständen würden diese Bösewichte rasch abgeurteilt und fänden sich dann entweder in der Wildnis oder unter der Erde wieder.\n\nZu ihrem Glück haben viele von ihnen reichlich Erfahrung mit Schwert oder Pfeil, und mein Mandat als [liege.GetDiarchTitle] verlangt von mir, dass ich neue Soldaten finde. Die unangenehme Lösung, in den Armeen von [liege.GetTitledFirstName] zu dienen, scheint naheliegend zu sein. So kommt man zwar zu mehr als genug abgehärteten Banditen und adleräugigen Wilderern, doch das Landvolk ist deswegen in Aufruhr."
+ diarchy.2231.a:0 "Macht nur weiter – diese Beschwerden werden sich mit der Zeit legen."
+ diarchy.2231.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
+ diarchy.2231.b:1 "Vielleicht müssen wir nur die Besten nehmen?"
+ diarchy.2231.b.tt.success:0 "Ein Ausgleich wird gefunden"
+ diarchy.2231.b.tt.failure:0 "Die meisten Verbrecher fliehen, sobald sie können"
+ diarchy.2231.b.t:0 "$diarchies.0000.diarch_fails_at_mandate.t$"
+ diarchy.2231.c:0 "Sie könnten nützlicher sein, wenn sie nirgendwo in den Büchern verzeichnet stünden …"
+ diarchy.2231.c.tt.success:0 "Ein brutaler Kader wird gebildet"
+ diarchy.2231.c.t.success:0 "$diarchies.0000.diarch_skims_mandate.t$"
+ diarchy.2231.c.tt.failure:0 "$diarchy.2231.b.tt.failure$"
+ diarchy.2231.c.t.failure:0 "$diarchies.0000.diarch_fails_to_skim_mandate.t$"
+ diarchy.2231.d:0 "Das #EMP kann#! ich nicht machen. Das wäre eine Perversion jeglicher Gerechtigkeit!"
+ diarchy.2231.d.t:0 "$diarchies.0000.diarch_rejects_mandate.t$"
+ diarchy.2231.e:0 "Das ist zu umstritten."
+ diarchy.2231.e.t:0 "$diarchies.0000.diarch_lax_with_mandate.t$"
+
+ diarchy.2241.t:0 "Die Spreu vom Weizen trennen"
+ diarchy.2241.desc:1 "Das Mandat, das mir [liege.GetTitledFirstName] auftrug, verlangt, dass ich als [liege.GetDiarchTitle] regelmäßig neue Bezugsquellen für Truppen auftue.\n\nNun, wo wäre ein besserer Ort, um damit zu beginnen, als bei den schlecht sortierten Aufgeboten von [exploitable_vassal.GetTitledFirstName]? Mein Gefolge und ich haben die Einheimischen zwecks einer Musterung zusammengetrieben, doch wir tun uns noch immer schwer, genügend von ihnen ausreichend auszubilden, damit es sich überhaupt #EMP lohnt#!, sie in Zukunft zu den Waffen zu rufen."
+ diarchy.2241.a:0 "Mir nach, Soldaten! Seht gut her!"
+ diarchy.2241.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
+ diarchy.2241.b:0 "Na kommt, Ihr Lumpen! Euch bringe ich schon mit der Knute in Form!"
+ diarchy.2241.b.tt.success:0 "Ihr macht sie so flink wie die reißende Strömung"
+ diarchy.2241.b.tt.failure:0 "Und als welch jämmerliches Lumpenpack sie sich doch erweisen"
+ diarchy.2241.b.t:0 "$diarchies.0000.diarch_fails_at_mandate.t$"
+ diarchy.2241.c:0 "Ich könnte genauso gut versuchen, mich selbst zu ertüchtigen …"
+ diarchy.2241.c.tt.success:0 "Ein wenig zusätzliche Ertüchtigung bringt viel"
+ diarchy.2241.c.t.success:0 "$diarchies.0000.diarch_skims_mandate.t$"
+ diarchy.2241.c.tt.failure:0 "Abgelenkt verstaucht Ihr Euch etwas Wichtiges"
+ diarchy.2241.c.t.failure:0 "$diarchies.0000.diarch_fails_to_skim_mandate.t$"
+ diarchy.2241.d:0 "Geht wortlos."
+ diarchy.2241.d.t:0 "$diarchies.0000.diarch_rejects_mandate.t$"
+ diarchy.2241.e:0 "Das ist eine #EMP elende#! Vergeudung meiner Zeit."
+ diarchy.2241.e.t:0 "$diarchies.0000.diarch_lax_with_mandate.t$"
+
+
+
+
+
+
+
+
+
+
+ ##################################################
+ # #Overthrow Diarch Scheme Events
+ diarchy.0511.t:0 "$overthrow_regent$: Fehlschlag"
+ diarchy.0511.desc.intro:0 "Verflucht sei [target.Custom('DE_PRO_POS_S_3P')]e ledrige Haut! [target.GetTitledFirstName|U] ist meinen Häschern entkommen, "
+ diarchy.0511.desc.discovered:0 "und schlimmer noch: Einer der Schläger wurde gefangen genommen und #EMP gestand#! im Verhör. [target.GetFirstNameNoTooltip] und [liege.GetTitledFirstName] wissen nun genau, was ich vorhatte!"
+ diarchy.0511.desc.undiscovered:0 "doch zumindest ließen sich die Söldner umbringen, anstatt sich gefangen nehmen zu lassen.\n\nKeine Spur führt zurück zu mir, zumindest nicht unmittelbar, und so können mir [target.GetFirstNameNoTooltip] und [liege.GetTitledFirstName] nichts anhängen."
+ diarchy.0511.desc.outro:0 "\n\nFürs Erste bleiben die Verhältnisse im Reich unverändert."
+ diarchy.0511.a:0 "Pah! Das ist zwecklos."
+ diarchy.0511.b:0 "Schon wieder. Das nächste Mal gehört [liege.Custom('DE_PRO_PER_S_3P_N')] uns."
+ 
+ diarchy.0521.t:0 "An [Select_CString(liege.IsFemale, 'die edle', 'den edlen')] [liege.GetTitledFirstName],"
+ diarchy.0521.desc.discovered:0 "Schurkisch hat [owner.GetTitledFirstName] versucht, mich zu entführen und die Zeichen meines Amts zusammen mit mir zu beschlagnahmen!\n\nEs ist offensichtlich, dass [owner.Custom('DE_PRO_PER_S_3P_N')] beabsichtigte, mich aus dem Amt zu drängen und sich selbst als [liege.GetDiarchTitle] zu etablieren. Dieses abscheuliche Verbrechen darf nicht ungestraft bleiben."
+ diarchy.0521.desc.undiscovered:0 "Ich schreibe Euch, um Euch darüber in Kenntnis zu setzen, dass es einen Anschlag auf meine Freiheit gegeben hat: Eine Gruppe von Raufbolden hat versucht, mich und die Zeichen meines Amtes zu entführen.\n\nWer sie bezahlt hat, ist unklar, doch das Ziel wirkt offensichtlich genug. Die Kontrolle über meine Person und meine Amtszeichen als [liege.GetDiarchTitle] könnte es ihrem Zahlmeister ermöglichen, meinen rechtmäßigen Platz einzunehmen."
+ diarchy.0521.a:0 "Ich bin entgeistert!"
+ diarchy.0521.b:0 "Besorgniserregend …"
+
+ diarchy.0531.t:0 "$overthrow_regent$: Gescheiterter Versuch"
+ diarchy.0531.desc.intro:0 "Ich stolpere im Gang umher, und die Ohren surren mir noch immer vom Lärm des laufenden Kampfs. Diese vermaledeiten Söldner kamen scheinbar aus den Wänden! Ich war völlig unbewaffnet, und nur das rechtzeitige Einschreiten meiner Wache ermöglichte mir die Flucht.\n\n"
+ diarchy.0531.desc.discovered:0 "Im Verhör gestand einer der besiegten Schläger, für wen er arbeitete: [target.Custom2('MyCharacterIntroduction', owner)]!"
+ diarchy.0531.desc.undiscovered:0 "Ein oder zwei Minuten später sind sie alle tot, und das Geheimnis ihres Zahlmeisters stirbt mit ihnen."
+ diarchy.0531.desc.outro:0 "\n\nMein Titel als [target.GetDiarchTitle] macht mich eindeutig zum Ziel. Ich hätte es wissen müssen …"
+ diarchy.0531.a.paranoid:0 "Es #EMP gibt#! also eine Verschwörung! Ich wusste es!"
+ diarchy.0531.a.trusting:0 "Warum … Warum sollte das jemand tun?"
+ diarchy.0531.a.scheme_discovered:0 "[owner.GetFirstNameNoTooltip], diese Töle!"
+ diarchy.0531.a.scheme_secret:0 "Das war mit Sicherheit nicht der letzte Versuch."
+ 
+ diarchy.0551.t:0 "$overthrow_regent$: Erfolg"
+ diarchy.0551.desc:0 "Eine einfache, schnörkellose Sache. Eine Bande Söldner, die ich angeheuert habe, überwältigte unser[liege.Custom('DE_END_ADJ_NUL_S_A')] derzeitig[liege.Custom('DE_END_ADJ_DEF_S_A')] Herrscher[liege.Custom('DE_END_NOU_S_GS_N')] in [liege.Custom('DE_PRO_POS_S_3P')]er Schreibstube und schmuggelte ihr Opfer gefesselt und blind in einem alten Sack aus dem Gebäude.\n\nMit geringstem Blutvergießen und den Siegeln aus [liege.Custom('DE_PRO_POS_S_3P')]em Schreibtisch fertige ich ein Geständnis über eine Litanei an Verbrechen an, das einen Machtwechsel ermöglicht. Damit sollte es offiziell werden, wenngleich es mir in Zukunft Scherereien mit [liege.GetTitledFirstName] bereiten könnte.\n\nNatürlich lasse ich [target.GetFirstNameNoTooltip] den ersten Entwurf zukommen. Damit [liege.Custom('DE_PRO_PER_S_3P_D')] in [liege.Custom('DE_PRO_POS_S_3P')]er Zelle nicht langweilig wird."
+ diarchy.0551.a:0 "Schiere Vollkommenheit."
+ 
+ diarchy.0561.t:0 "An [Select_CString(liege.IsFemale, 'die edle', 'den edlen')] [liege.GetTitledFirstName]"
+ diarchy.0561.desc:0 "Ich freue mich, Euch mitteilen zu können, dass [target.GetTitledFirstName] nach einer kurzen, aber lebhaften Diskussion das eigene Amt als [liege.GetDiarchTitle] an mich abgetreten hat.\n\nDie Pflichten waren eine zu große Last, weswegen [target.Custom('DE_PRO_PER_S_3P_N')] für die Dauer meiner Amtszeit als [liege.GetDiarchTitle] auch bei mir bleiben wird. Nur zum eigenen Wohl."
+ diarchy.0561.a:0 "Es ist vorerst, wie es ist …"
+
+ diarchy.0571.t:0 "$overthrow_regent$: Eingekerkert"
+ diarchy.0571.desc.intro:0 "#EMP Mein Kopf#!. Ich … Wo bin ich? [owner.GetTitledFirstName]?\n\n„Schön, dass Ihr noch bei uns seid, [target.GetFirstName]“, grinst [owner.Custom('DE_PRO_PER_S_3P_N')] verächtlich und wirft mir ein paar Schriftstücke vor die Füße. „Hier. Lest das. Das ist eine Liste der Verbrechen, die Ihr als [owner.GetDiarchTitle] begangen habt, bevor Ihr mir Euren Titel übertrugt. Ich dachte mir, Ihr hättet vielleicht gern eine Abschrift.“\n\n"
+ diarchy.0571.desc.outro.blind:0 "Ich muss die gekritzelten Zeilen nicht sehen, um das Ausmaß [owner.Custom('DE_PRO_POS_S_3P')]er Lügengeschichte zu kennen oder um zu ahnen, dass sie schon längst in ganz [liege.GetPrimaryTitle.GetBaseNameNoTier] verbreitet ist."
+ diarchy.0571.desc.outro.sighted:0 "Ich blättere panisch durch den gekritzelten Text, Seite um Seite dreister Lügengeschichten und absichtlicher Fehldeutungen. Ich möchte es leugnen, ganz und gar, doch ich weiß, dass diese Zeilen mittlerweile in ganz [liege.GetPrimaryTitle.GetBaseNameNoTier] verbreitet sind."
+ diarchy.0571.a:0 "[liege.GetTitledFirstNameNoTooltip] wird hiervon erfahren! Das wird [liege.Custom('DE_PRO_PER_S_3P_N')]!"
+
+
+
+
+
+
+
+
+
+
+ ##################################################
+ # #Decisions
+ betrayed_by_proxy:0 "Stellvertretend verraten"
+ diarch_attempt_to_overthrow_liege.event.t:0 "Ein lang erwarteter Putsch:"
+ diarch_attempt_to_overthrow_liege.desc.coup_start_boilerplate:0 "\n\n„[liege.GetFirstName]!“, ruft [usurper.GetFirstNameNoTooltip]. „Ihr seid des Throns nicht würdig und besetzt ihn zu Unrecht! Tretet ihn an [usurper.Custom('DE_ART_DEF_S_A')] rechtmäßig[usurper.Custom('DE_END_ADJ_NUL_S_A')] Herrscher[usurper.Custom('DE_END_NOU_S_GS_N')] ab – nämlich #EMP mich#!!“\n\nMehrere niedere Ritter versuchen, [usurper.Custom('DE_PRO_PER_S_3P_A')] aufzuhalten, und werden einfach dahingemetzelt."
+
+ #	Diplomacy: You attempt to bloodlessly coup your liege.
+ diarchy.9001.t:0 "$diarch_attempt_to_overthrow_liege.event.t$ Silberzungen"
+ diarchy.9001.desc.intro:0 "[usurper.Custom2('MyCharacterIntroduction', ROOT.Char)|U] platzt in meinen Thronsaal. [usurper.Custom('DE_PRO_PER_S_3P_D')|U] folgt eine Horde der einflussreichsten Mitglieder des Hofs, allesamt mit einer Waffe und dem Wissen ausgestattet, in der Übermacht zu sein … $diarch_attempt_to_overthrow_liege.desc.coup_start_boilerplate$"
+ diarchy.9001.desc.proxy.none:0 "$diarchy.9011.desc.proxy.none$"
+ diarchy.9001.desc.proxy.betrayed:0 "$diarchy.9011.desc.proxy.betrayed$"
+ diarchy.9001.desc.proxy.loyal:0 "$diarchy.9011.desc.proxy.loyal$"
+ diarchy.9001.desc.outro:0 "\n\nDas ist also der Augenblick, an dem der Verrat überkocht."
+ diarchy.9001.a:0 "Ihr meint tatsächlich, meine treuen Untergebenen kehren mir für #EMP Euch#! den Rücken?"
+ diarchy.9001.a.tt.success:0 "Eure Redekunst rüttelt an der Entschlossenheit des Gefolges von [usurper.GetFirstNameNoTooltip]"
+ diarchy.9001.a.tt.failure:0 "Es ist bereits beschlossene Sache"
+ diarchy.9001.b.young:0 "Ich wende mich hilfesuchend an [proxy.GetFirstNameNoTooltip]."
+ diarchy.9001.b.fallback:0 "[proxy.GetFirstNameNoTooltip], kümmert Euch um diesen Emporkömmling."
+ diarchy.9001.b.tt.success:0 "Die Redekunst von [proxy.GetFirstNameNoTooltip] rüttelt an der Entschlossenheit des Gefolges von [usurper.GetFirstNameNoTooltip]"
+ diarchy.9001.b.tt.failure:0 "Es ist bereits beschlossene Sache"
+ diarchy.9001.c:0 "Es … Es gibt nichts, was ich tun kann …"
+ diarchy.9001.d:0 "#DIE2 Wachen.#! #DIE1 Wachen.#! #BER WACHEN!#!"
+ diarchy.9001.d.tt.win:0 "Treue Soldaten kommen und überwältigen die Verschwörer"
+ diarchy.9001.d.tt.loss:0 "Eure letzten möglichen Verteidiger werden mühelos niedergestreckt"
+
+ #	Diplomacy: Usurper won, liege-side.
+ diarchy.9002.t:0 "$diarchy.9001.t$"
+ diarchy.9002.desc.intro:0 "Ich bin am Ende. Vollkommen am Ende.\n\n"
+ diarchy.9002.desc.proxy.proxy_fought:0 "[proxy.GetTitledFirstName] gab [proxy.Custom('DE_PRO_POS_S_3P')] Bestes, doch die Argumente von [usurper.GetFirstName] waren überzeugend und gut einstudiert. Die Verräter blieben [usurper.Custom('DE_PRO_PER_S_3P_D')] treu, und mein Hof trat zurück, um [usurper.Custom('DE_PRO_PER_S_3P_D')] ungehinderten Zutritt zu erlauben."
+ diarchy.9002.desc.proxy.self_fought:0 "All meine Mühen sind vergebens. [usurper.GetFirstName|U] hat dies hier zu lange geplant, und mit jedem unserer Wortwechsel sehe ich, wie sich mehr Mitglieder meines Hofes auf [usurper.Custom('DE_PRO_POS_S_3P')]e Seite schlagen. Das ist gar nicht gut. Ich habe meinen Thron verloren."
+ diarchy.9002.desc.surrendered:0 "Ich weiß, wie diese Schlacht ablaufen wird. Wenn ich mit Worten kämpfe, zeige ich, dass ich unwürdig bin, zu herrschen. Wenn ich mit Stahl kämpfe, droht mir der Kerker oder Schlimmeres. Ich kann nur gewinnen, indem ich nicht mitspiele – #EMP fürs Erste#!.\n\nWähnt Euch nicht in Sicherheit, „[usurper.GetTitleAsName]“ [usurper.GetFirstName]. Wir sehen uns wieder."
+ diarchy.9002.desc.scuffled:0 "Ich rufe um Hilfe, doch die wenigen Soldaten, die kommen, werden von den Verschwörern von [usurper.GetFirstName] mühelos ausgeschaltet. Nach einer Weile versiegt der Strom möglicher Retter, und der gesamte Hof erkennt, wie vollkommen und verzweifelt allein ich bin."
+ diarchy.9002.desc.outro:0 "\n\n[usurper.Custom('DE_ART_DEF_S_N')|U] Thronräuber[usurper.Custom('DE_END_NOU_S_GS_N')] macht eine Geste, und mit sichtbarem Widerwillen geleitet mich die Wache, die bis vor Kurzem noch die meine war, hinaus. Es ist leider offensichtlich, woher der Wind weht."
+ diarchy.9002.a:0 "Ich habe meine Freiheit, doch sonst herzlich wenig."
+ diarchy.9002.b:0 "Mein Schicksal. Zunichtegemacht."
+
+ #	Diplomacy: Usurper won, usurper-side.
+ diarchy.9003.t:0 "$diarchy.9001.t$"
+ diarchy.9003.desc.intro:0 "Es ist getan. Nun herrsche ich vollkommen. Und allein.\n\n"
+ diarchy.9003.desc.proxy.proxy_fought:0 "Als wir die Halle betraten, schickte (Noch-)[usurper.GetTitleAsNameNoTooltip] [liege.GetFirstName] [liege.Custom('DE_PRO_POS_S_3P')]en Lakaien los: [proxy.Custom2('MyCharacterIntroduction', ROOT.Char)] sollte die Entschlossenheit meines Gefolges brechen. Wir kämpften mit Worten, die bösartiger waren als jeder Dolch, doch am Ende war allen klar, dass der Hof auf meiner Seite stand."
+ diarchy.9003.desc.proxy.self_fought:0 "(Noch)-[usurper.GetTitleAsNameNoTooltip] [liege.GetFirstName] trat uns selbst entgegen, als mein Gefolge und ich in den Thronsaal schritten. Das muss man [liege.Custom('DE_PRO_PER_S_3P_D')] lassen: [liege.Custom('DE_PRO_PER_S_3P_N')|U] gab alles, um [liege.Custom('DE_PRO_POS_S_3P')]e unsicheren Höflinge im letzten Moment noch umzustimmen, doch [liege.Custom('DE_PRO_POS_S_3P')]e Schreie stießen auf taube Ohren und seine Gesten auf blinde Augen.\n\nBald war allen klar, wer #EMP wahrlich#! das Sagen hatte in jenem Raum."
+ diarchy.9003.desc.surrendered:0 "Am Ende war es doch eine recht nüchterne Angelegenheit. Als mein Gefolge und ich in den Saal schritten, wussten alle, weswegen wir kamen und was wir vorhatten. Es gab keinerlei Widerstand, am allerwenigsten von (Noch)-[usurper.GetTitleAsNameNoTooltip] [liege.GetFirstName], und ich musste kaum auf meine geplante Rede zurückgreifen."
+ diarchy.9003.desc.scuffled:0 "Kaum dass wir den Thronsaal betreten hatten, fing (Noch)-[usurper.GetTitleAsNameNoTooltip] [liege.GetFirstName] an, [liege.Custom('DE_PRO_POS_S_3P')]e Unfähigkeit für alle laut hörbar hinauszuquaken, als [liege.Custom('DE_PRO_PER_S_3P_N')] panisch um Hilfe rief. Wir hatten nicht einmal unsere Waffen gezückt, doch dies hinderte uns nicht daran, die wenigen Wachen, die ankamen, umgehend zu überwältigen. Und sonst wollte sich schlichtweg niemand auf die Seite von [liege.GetFirstNameNoTooltip] schlagen."
+ diarchy.9003.desc.outro:0 "\n\nDie Wachen ergaben sich bereitwillig und die Adligen knieten nieder. Die Kunde verbreitet sich wie ein Lauffeuer durch das Reich, und alle Herzen fliegen mir zu."
+ diarchy.9003.a:0 "Und das alles ohne auch nur einen Tropfen Blut auf #EMP meinem#! Thron!"
+ diarchy.9003.a.some_blood:0 "Und ich wollte eigentlich jegliches Blutvergießen vermeiden."
+
+ #	Diplomacy: Liege won, liege-side.
+ diarchy.9004.t:0 "$diarchy.9001.t$"
+ diarchy.9004.desc.proxy.proxy_fought:0 "Kaum dass [proxy.GetTitledFirstName] den Mund öffnet, schwindet die Entschlossenheit der Verräter.\n\nDa sie mehr von einer Gier nach Macht um jeden Preis vereint sind als durch ein wahres Gefühl von Treue, dauert es nicht lange, bis die Pläne von [usurper.GetTitledFirstName] sich vor [usurper.Custom('DE_PRO_POS_S_3P')]en Augen in Luft auflösen."
+ diarchy.9004.desc.proxy.self_fought:0 "Meine Worte finden umgehend ihr Ziel, und jede sorgfältig gewählte Formulierung nagt an den Banden aus Gier und Ehrgeiz, die das Einzige sind, was die Koalition von [usurper.GetTitledFirstName] zusammenhält.\n\nOhne Einheit ist ihr Plan verloren, und Verräter wie Söldner wenden sich in Scharen von [usurper.GetFirstNameNoTooltip] ab."
+ diarchy.9004.desc.scuffled:0 "Meine Schreie lassen jeden niederen Ritter und aufstrebenden Soldaten eilig in den Saal stürmen, weit mehr Krieger, als die Bande von [usurper.GetTitledFirstName] jemals besiegen könnte.\n\nEin kurzes, heftiges Scharmützel später sind die Verschwörer tot oder gefangen, und [usurper.GetTitledFirstName] ist entwaffnet."
+ diarchy.9004.desc.outro:0 "\n\nIch gestatte mir ein abfälliges Grinsen, als die Wachen [usurper.Custom('DE_PRO_PER_S_3P_D')] festnehmen und winke dem Schwein zu, als es abgeführt wird."
+ diarchy.9004.a:0 "Diese verräterische kleine Made."
+
+ #	Diplomacy: Liege won, usurper-side.
+ diarchy.9005.t:0 "$diarchy.9001.t$"
+ diarchy.9005.desc.intro:0 "Ich bin gescheitert. Ich bin vollkommen gescheitert.\n\nUnd dabei ist es anfangs so gut gelaufen … "
+ diarchy.9005.desc.proxy.proxy_fought:0 "[liege.GetTitledFirstName] rief panisch [proxy.GetTitledFirstName] um Hilfe, mein Gefolge stand dicht gedrängt hinter mir, und mit festem Ziel und langen Schritten gingen wir in den Thronsaal.\n\nDann öffnete dieser vermaledeite Ratskanzler den Mund und alles geriet aus den Fugen. Nacheinander kehrten mir die Adligen, die mir gefolgt waren, den Rücken, bis ich ganz allein dastand und meine so mühsam erarbeitete Autorität sich in Nichts auflöste.\n\nAnschließend nahmen die Wachen mich umgehend fest."
+ diarchy.9005.desc.proxy.self_fought:0 "Mein Gefolge und ich waren uns unseres bevorstehenden Sieges so sicher. Dies endete jedoch, als [liege.GetFirstNameNoTooltip] den Mund öffnete und anfing, uns zu kritisieren und die Schwachstellen in meinem Plan sowie die kaum merklichen Lücken in meiner Autorität bloßzustellen.\n\nIch dachte, ich hätte alles vollkommen im Griff. Ich ahnte nicht, wie falsch ich damit lag, bis die Wachen mich ergriffen."
+ diarchy.9005.desc.scuffled:0 "[liege.GetTitledFirstName] geriet deutlich sichtbar in Panik, als mein Gefolge und ich mit klarer Absicht den Thronsaal betraten, und begann, laut herumzuschreien.\n\nIch … hatte unterschätzt, wie treu [liege.Custom('DE_PRO_PER_S_3P_D')] manche der Söldner und Wachen ergeben sind. Sie stürmten auf uns zu. Meine edlen Worte brachten mir nichts ein als einen Schlag mit einem Streitkolben, und nun sitze ich sicher verwahrt in einer Zelle."
+ diarchy.9005.desc.outro:0 "\n\nIronischerweise ist nun meine einzige Hoffnung auf Milde genau [liege.Custom('DE_ART_DEF_S_N')] Herrscher[liege.Custom('DE_END_NOU_S_GS_N')], [liege.Custom('DE_ART_DEF_S_A')] ich entthronen wollte. Mögen die Mächte des Schicksals ([usurper.GetFaith.FateGodName]) mir gnädig sein."
+ diarchy.9005.a:0 "All meine sorgfältige Planung!"
+
+ #	Intrigue: You attempt to coup your liege with just a little bloodshed, threatened and actual.
+ diarchy.9011.t:0 "$diarch_attempt_to_overthrow_liege.event.t$ Gewetzte Messer"
+ diarchy.9011.desc.intro:0 "[usurper.Custom2('MyCharacterIntroduction', ROOT.Char)|U] platzt in meinen Thronsaal, in [usurper.Custom('DE_PRO_POS_S_3P')]em Rücken ein Mob aus niedrigen Adligen, Söldnern und Halunken mit gezückten Dolchen und mordlüsternem Blick. $diarch_attempt_to_overthrow_liege.desc.coup_start_boilerplate$"
+ diarchy.9011.desc.proxy.none:0 "Ich werfe Blicke durch den Raum und schaue hilfesuchend zu meinen Ratsmitgliedern. Sie sind entweder abwesend oder nicht bereit, das Wort für mich zu ergreifen."
+ diarchy.9011.desc.proxy.betrayed:0 "Ich werfe Blicke durch den Raum und schaue hilfesuchend zu meinen Ratsmitgliedern. [proxy.GetTitledFirstName] erwidert ungerührt meinen Blick und tritt hinter [usurper.GetFirstNameNoTooltip]. Der nächste Verrat."
+ diarchy.9011.desc.proxy.loyal:0 "Ich schaue hilfesuchend zu [proxy.GetTitledFirstName] und sehe, dass [proxy.Custom('DE_PRO_PER_S_3P_N')] sich schon bereit macht, für mich das Wort zu ergreifen."
+ diarchy.9011.desc.outro:0 "$diarchy.9001.desc.outro$"
+ diarchy.9011.a:0 "Ihr glaubt wirklich, dass ich in der Falle sitze, kleine Schlange?"
+ diarchy.9011.a.tt.success:0 "Ihr untergrabt die Einheit Eurer Gegner und ihr Zusammenhalt zerbricht"
+ diarchy.9011.a.tt.failure:0 "Eure Worte werden missachtet und Ihr werdet eingekerkert"
+ diarchy.9011.b.young:0 "$diarchy.9001.b.young$"
+ diarchy.9011.b.fallback:0 "$diarchy.9001.b.fallback$"
+ diarchy.9011.b.tt.success:0 "[proxy.GetFirstName] untergräbt die Einheit der Gegner und ihr Zusammenhalt zerbricht"
+ diarchy.9011.b.tt.failure:0 "Die Schreie von [proxy.GetFirstName] werden missachtet und man nimmt Euch gefangen"
+ diarchy.9011.c:0 "$diarchy.9001.c$"
+ diarchy.9011.d:0 "$diarchy.9001.d$"
+ diarchy.9011.d.tt.win:0 "$diarchy.9001.d.tt.win$"
+ diarchy.9011.d.tt.loss:0 "$diarchy.9001.d.tt.loss$"
+
+#	Intrigue: Usurper won, liege-side.
+ diarchy.9012.t:0 "$diarchy.9011.t$"
+ diarchy.9012.desc.intro:0 "$diarchy.9002.desc.intro$"
+ diarchy.9012.desc.proxy.proxy_fought:0 "[proxy.GetTitledFirstName] tritt für mich vor, und [proxy.Custom('DE_PRO_PER_S_3P_N')] und [usurper.GetFirstName] liefern sich einen Schlagabtausch in Form spitzfindiger Worte, doch es nutzt nichts. [usurper.GetFirstName] hat an alles gedacht, jede Bestechung getätigt und jeden Gefallen eingefordert. Als [proxy.GetFirstNameNoTooltip] sich dann auf [usurper.Custom('DE_PRO_PER_S_3P_A')] stürzen möchte, wird [proxy.Custom('DE_PRO_PER_S_3P_N')] von den Verrätern zu Boden gerissen."
+ diarchy.9012.desc.proxy.self_fought:0 "[usurper.GetFirstName] und ich liefern uns einige Minuten ein Wortgefecht, doch ich bin [usurper.Custom('DE_PRO_PER_S_3P_D')] nicht gewachsen. [usurper.GetFirstName] hat an alles gedacht, jede Bestechung getätigt und jeden Gefallen eingefordert.\n\nIch greife zu meiner Waffe, um mich zu verteidigen, doch schon legt sich von hinten eine Klinge an meinen Hals. Irgendeine verräterische Wache."
+ diarchy.9012.desc.surrendered:0 "[usurper.GetFirstName] scheint beinahe enttäuscht von meinem Mangel an Widerstand, doch ich weiß, dass es sinnlos ist, gegen [usurper.Custom('DE_PRO_PER_S_3P_A')] anzukämpfen. [usurper.Custom('DE_PRO_PER_S_3P_N')|U] wäre nicht hier und würde nicht derart offen gegen mich vorgehen, wenn [usurper.Custom('DE_PRO_PER_S_3P_N')] nicht bereits jede Klinge im Gebäude auf [usurper.Custom('DE_PRO_POS_S_3P')]er Seite hätte und auf jene gerichtet, die es nicht sind."
+ diarchy.9012.desc.scuffled:0 "Die Wachen, nach denen ich gerufen hatte, kamen auch. Allerdings wurde die erste Welle niedergestreckt von der zweiten, die sie hinterrücks erdolchte. [usurper.GetFirstName] kann sich ein selbstgefälliges Grinsen nicht verkneifen."
+ diarchy.9012.desc.outro:0 "\n\nIch rufe um Hilfe, als die Verräter mich mit gezückten Dolchen und Ketten in der Hand von [usurper.GetFirstNameNoTooltip] holen kommen.\n\nNiemand hört mir zu. Niemanden kümmert es. Ich werde in Eisen gelegt und weggeschafft."
+ diarchy.9012.a:0 "Das könnt Ihr nicht tun! Ich bin [usurper.GetTitleAsNameNoTooltip]!#EMP Ich allein!"
+ diarchy.9012.b:0 "$diarchy.9002.b$"
+
+#	Intrigue: Usurper won, usurper-side.
+ diarchy.9013.t:0 "$diarchy.9011.t$"
+ diarchy.9013.desc.intro:0 "$diarchy.9003.desc.intro$"
+ diarchy.9013.desc.proxy.proxy_fought:0 "[liege.GetFirstName] befahl [liege.Custom('DE_PRO_POS_S_3P')]em Lakeien [proxy.GetTitledFirstName], meine Verschwörer zu überzeugen, sich von mir abzuwenden. Wir lieferten uns einige Minuten ein Wortgefecht, bevor [proxy.GetTitledFirstName] sich wutentbrannt auf mich stürzen wollte, doch einer meiner Söldner ging dazwischen.\n\n[Select_CString(liege.IsFemale, 'Unsere damalige Lehnsherrin', 'Unser damaliger Lehnsherr')] war zu bestürzt, um ernsthaft Widerstand zu leisten, als wir die Ketten anlegten."
+ diarchy.9013.desc.proxy.self_fought:0 "[liege.GetFirstName] wollte mich herausfordern und versuchen, mir die Unterstützung meines Gefolges im entscheidenden Augenblick zu rauben, doch ich schlug [liege.Custom('DE_PRO_POS_S_3P')]e armseligen Wortspitzen mühelos beiseite. Schließlich sollte man einen Putsch immer gut planen.\n\nAls [liege.GetFirstNameNoTooltip] nach [liege.Custom('DE_PRO_POS_S_3P')]er Waffe griff, zweifelsohne um mich zu enthaupten, hielt einer meiner Verräter [liege.Custom('DE_PRO_PER_S_3P_A')] von hinten fest. Das Anlegen der Ketten war dann ein Kinderspiel."
+ diarchy.9013.desc.surrendered:0 "Ich war fast enttäuscht, dass [liege.GetFirstName] uns außer einem kleinen Wutschrei keinen Widerstand leistete, als wir [liege.Custom('DE_PRO_PER_S_3P_D')] die Handschellen anlegten.\n\nSicherlich eine #EMP kluge#! Entscheidung, doch wann hat [liege.Custom('DE_PRO_PER_S_3P_N')] sich jemals #EMP dafür#! entschieden, etwas Kluges zu tun?"
+ diarchy.9013.desc.scuffled:0 "[liege.GetFirstName] rief um Hilfe, doch das hatte ich natürlich eingeplant. Diejenigen, die töricht genug waren, dem Ruf zu folgen, wurden von meinen Verrätern beinahe sofort niedergemäht.\n\nNiemand sonst versuchte dann noch, irgendwie aufzubegehren, als wir auf [Select_CString(liege.IsFemale, 'unsere ehemalige Lehnsherrin', 'unseren ehemaligen Lehnsherrn')] vorrückten."
+ diarchy.9013.desc.outro:0 "\n\nDa die Opposition am Hof tot oder eingekerkert ist und [Select_CString(usurper.IsFemale, 'meine ehemalige', 'mein ehemaliger')] [usurper.GetTitleAsNameNoTooltip] hinter Schloss und Riegel sitzt, sieht die Zukunft rosig aus."
+ diarchy.9013.a:0 "Ein neuer Thron und eine neue Geisel – ich fühle mich gleich sicherer."
+
+#	Intrigue: Liege won, liege-side.
+ diarchy.9014.t:0 "$diarchy.9011.t$"
+ diarchy.9014.desc.proxy.proxy_fought:0 "Ein paar gut platzierte Worte von [proxy.GetFirstName] und $diarchy.9014.desc.proxy.self_fought$"
+ diarchy.9014.desc.proxy.self_fought:0 "die selbstsichere Gruppe von [usurper.GetTitledFirstName] löst sich innerhalb von gefühlten Augenblicken auf.\n\nWie bei jedem Nest von Schlangen wollen sie ihre Giftzähne nicht nur gegen ihre Gegner einsetzen, sondern auch gegen die, die ihnen am nächsten stehen. Dementsprechend braucht es nicht viel Anstoß, bis einige von ihnen von der Fahne gehen oder anfangen, sich untereinander die Schädel einzuschlagen.\n\nDas Lächeln von [usurper.GetFirstNameNoTooltip] schwindet, als [usurper.Custom('DE_PRO_PER_S_3P_N')] erkennt, dass der Möchtegern-Putsch bereits gescheitert ist …"
+ diarchy.9014.desc.scuffled:0 "Auf meine Schreie hin treffen die Wachen in einer Zahl ein, die selbst #EMP mich#! bestürzt. Sie stürmen auf [usurper.GetTitledFirstName] und [usurper.Custom('DE_PRO_POS_S_3P')]e Verschwörer zu.\n\nEs dauert nicht lange, bis die Verräter merken, dass sie zahlenmäßig hoffnungslos unterlegen sind, und beginnen, einer nach dem anderen die Waffen zu strecken. [usurper.GetTitledFirstNameNoTooltip] tut dies als Letztes."
+ diarchy.9014.desc.outro:0 "\n\nAls meine Wachen [usurper.Custom('DE_PRO_PER_S_3P_A')] festnehmen wollen, lässt [usurper.Custom('DE_PRO_PER_S_3P_N')] dies ohne Gegenwehr zu. Da [usurper.Custom('DE_PRO_POS_S_3P')]e Verschwörung nun zu einem jähen Ende gekommen ist, wäre alles andere reiner Selbstmord."
+ diarchy.9014.a:0 "Ich werde später entscheiden, was ich mit #EMP Euch#! mache."
+
+#	Intrigue: Liege won, usurper-side.
+ diarchy.9015.t:0 "$diarchy.9011.t$"
+ diarchy.9015.desc.intro:0 "$diarchy.9005.desc.intro$"
+ diarchy.9015.desc.proxy.proxy_fought:0 "wir waren stark, wir waren vereint, wir waren bereit für die gerechte Belohnung, die unsere Planung uns einbringen sollte. Bis [Select_CString(proxy.IsFemale, 'diese', 'dieser')] verdammte [proxy.GetTitledFirstName] vortrat, um für [proxy.Custom('DE_PRO_POS_S_3P')]en Holzkopf von [Select_CString(liege.IsFemale, 'Lehnsherrin', 'Lehnsherr')] einzutreten. I-Ich … Ich war auf [proxy.Custom('DE_PRO_POS_S_3P')]e Argumente nicht vorbereitet – auf die Löcher, die in meine sorgfältigen Pläne gestochen wurden. Sie haben mich verlassen. Alle haben mich verlassen."
+ diarchy.9015.desc.proxy.self_fought:0 "wir brachen als eine mächtige Gruppe ein, die Dolche in der Hand und bereit für den krönenden Abschluss. Ich hätte [liege.GetFirstName] nicht sprechen lassen dürfen; ich hätte [liege.Custom('DE_PRO_PER_S_3P_A')] verdammt noch mal niemals zu Wort kommen lassen dürfen! Jeder Satz war ein Argument, das die Ausreden zerbröckeln ließ, die ich mir sorgfältig zurechtgelegt hatte – jeder Punkt war nunmehr ein Dolch im Herzen unserer Einigkeit. Einer nach dem anderen traten meine Mitstreiter zurück."
+ diarchy.9015.desc.scuffled:0 "wir stürmten in den Thronsaal, bereit zu tun, was getan werden musste. Bis das Geschrei von [liege.GetTitledFirstName] Horden möglicher Verteidiger auf den Plan rief – weit mehr, als ich mir je hätte vorstellen können, stellten sich auf die Seite dieses Holzkopfs. Sobald sich herauskristallisierte, wie sehr wir in der Unterzahl waren, versuchten meine Verräter gar nicht erst, sich gegen die Gegner zu wehren und warfen ihre Waffen einfach zur Seite."
+ diarchy.9015.desc.outro:0 "\n\nWährend sich die Verschwörung um mich herum auflöst, mache ich keine Anstalten, mich zu wehren, als die Wachen mich in Ketten legen wollen. Ich kann von Glück reden, dass ich nicht auf der Stelle hingerichtet werde."
+ diarchy.9015.a:0 "Die ganze #EMP Arbeit#!. Umsonst."
+
+ #	Prowess: You try to slaughter your way to power.
+ diarchy.9021.t:0 "$diarch_attempt_to_overthrow_liege.event.t$ Glänzende Schwerter"
+ diarchy.9021.desc.intro:0 "[usurper.Custom2('MyCharacterIntroduction', ROOT.Char)|U] stürmt in meinen Thronsaal, unterstützt von einer Schar von Söldnern und Verrätern des Hofs. Mit gezückten Waffen und bereit, so viele Menschen wie nötig mit dem Schwert zu töten, blitzen ihre blutigen Absichten in ihren Augen auf. $diarch_attempt_to_overthrow_liege.desc.coup_start_boilerplate$"
+ diarchy.9021.desc.proxy.none:0 "$diarchy.9011.desc.proxy.none$"
+ diarchy.9021.desc.proxy.betrayed:0 "$diarchy.9011.desc.proxy.betrayed$"
+ diarchy.9021.desc.proxy.loyal:0 "Ich schaue hilfesuchend zu [proxy.GetTitledFirstName] und sehe, dass [proxy.Custom('DE_PRO_PER_S_3P_N')] sich schon bereit macht, an meiner Statt zu kämpfen."
+ diarchy.9021.a:0 "Ihr [Select_CString(usurper.IsFemale, 'Schurkin', 'Schurke')]! Ich werde Euch eigenhändig zu Boden bringen!"
+ diarchy.9021.a.tt.commence_duel.self:0 "Ihr werdet [usurper.GetShortUIName] sofort in einem [single_combat_duel|E] entgegentreten"
+ diarchy.9021.a.tt.success:0 "Ihr richtet [Select_CString(usurper.IsFemale, 'Eure Angreiferin', 'Euren Angreifer')] hin"
+ diarchy.9021.a.tt.failure:0 "[usurper.Custom('DE_PRO_PER_S_3P_N')|U] befördert Euch auf den Boden des Thronsaals"
+ diarchy.9021.b.young:0 "$diarchy.9001.b.young$"
+ diarchy.9021.b.fallback:0 "$diarchy.9001.b.fallback$"
+ diarchy.9021.b.tt.commence_duel.proxy:0 "[proxy.GetShortUIName] und [usurper.GetShortUIName] werden sofort in einem [single_combat_duel|E] gegeneinander antreten"
+ diarchy.9021.c:0 "$diarchy.9001.c$"
+ diarchy.9021.d:0 "$diarchy.9001.d$"
+ diarchy.9021.d.tt.win:0 "$diarchy.9001.d.tt.win$"
+ diarchy.9021.d.tt.loss:0 "$diarchy.9001.d.tt.loss$"
+
+ #	Prowess: Usurper won, liege-side.
+ diarchy.9022.t:0 "$diarchy.9021.t$"
+ diarchy.9022.desc.intro:0 "$diarchy.9002.desc.intro$"
+ diarchy.9022.desc.proxy.proxy_fought:0 "[proxy.GetTitledFirstName] gab [proxy.Custom('DE_PRO_POS_S_3P')] Bestes, doch [usurper.GetFirstName] metzelte [proxy.Custom('DE_PRO_PER_S_3P_A')] dahin. I-Ich kann kaum glauben, dass so [proxy.Custom('DE_END_PRO_S_N')] [proxy.GetWomanMan] [proxy.Custom('DE_PRO_POS_S_3P')] Leben für mich ließ … #EMP Vergebens#!."
+ diarchy.9022.desc.scuffled:0 "Meine Wachen strömen in den Raum, doch [usurper.GetFirstName] hat [usurper.Custom('DE_PRO_POS_S_3P')]e Verschwörer gut ausgewählt, und die Söldner der Gruppe schalten jeden meiner Verteidiger aus, sobald er durch die Türe tritt. Sie … Sie werden es nicht rechtzeitig schaffen. Sie #EMP können#! es nicht schaffen."
+ diarchy.9022.desc.proxy.surrendered:0 "Trotz meiner Einsprüche versuchen einige Wachen und Söldner, sich den Kräften von [usurper.GetFirstName] zu widersetzen, doch sie werden einer nach dem anderen niedergemacht. Durch den Lärm angelockt eilen viele meiner Hauswachen zum Thronsaal, aber sie zögern, als sie sehen, was vor sich geht."
+ diarchy.9022.desc.outro:0 "\n\n[Select_CString(usurper.IsFemale, 'Die Thronräuberin', 'Der Thronräuber')] lässt mir keine Zeit für weitere Optionen und schreitet auf mich zu, die Waffe ([usurper.Custom('signature_weapon')]) immer noch blutgetränkt. Dies ist das Ende."
+ diarchy.9022.desc.outro.surrendered:0 "\n\nDer letzte Rest meiner Hoffnung ist erloschen, als der erste meiner eingeschworenen Soldaten vor [usurper.Custom('DE_ART_DEF_S_D')] neuen [usurper.GetTitleAsName] niederkniet.\n\nEs ist vorbei."
+ diarchy.9022.a:0 "Dafür werde ich Euch geradewegs ins Jenseits ([liege.GetFaith.random_NegativeAfterLife]) befördern, [usurper.GetFirstNameNoTooltip]."
+ diarchy.9022.b:0 "$diarchy.9002.b$"
+
+ #	Prowess: Usurper won, usurper-side.
+ diarchy.9023.t:0 "$diarchy.9021.t$"
+ diarchy.9023.desc.intro:0 "$diarchy.9003.desc.intro$"
+ diarchy.9023.desc.proxy.proxy_fought:0 "Der Leichnam von [proxy.GetTitledFirstName] sinkt zur Seite. Gewalt muss mit Gewalt bekämpft werden, und [liege.GetFirstName] hat [liege.Custom('DE_PRO_POS_S_3P')]en Weg gewählt.\n\nWährend der [usurper.GetTitleAsNameNoTooltip] noch immer fassungslos über den Tod der Vorkämpfer[proxy.Custom('DE_END_NOU_S_GS_N')] verblüfft ist, schreite ich vorwärts und stoße meine Waffe ([usurper.Custom('signature_weapon')]) in die Kehle von [liege.GetFirstName].\n\nEs ist keineswegs der schnellste Tod, doch auch nicht der langsamste. Der Hof und ich sehen zu, wie [liege.Custom('DE_PRO_PER_S_3P_N')] kommentarlos stirbt und ich den leblosen Leib unter den Augen der Anwesenden vom Thron stoße."
+ diarchy.9023.desc.proxy.self_fought:0 "Meine Machtstellung ist gesichert und [liege.GetFirstNameNoTooltip] hat durch meine Hand sein Ende gefunden. Außer ein paar unbeholfenen Hustern des versammelten Hofs gibt es nun kaum noch Widerstand gegen die Einnahme meiner rechtmäßigen Position."
+ diarchy.9023.desc.surrendered:0 "Zu meiner Überraschung hat [liege.GetFirstName] kapituliert. Ich hatte erwartet, dass ich [liege.Custom('DE_PRO_PER_S_3P_A')] töten müsste, doch anscheinend ist [liege.Custom('DE_PRO_PER_S_3P_D')] das Leben wichtiger als die Krone.\n\nDie meisten meiner Gefolgsleute spotten, als [Select_CString(liege.IsFemale, 'die ehemalige Herrscherin', 'der ehemalige Herrscher')] an ihnen vorbeigeschleppt und aus dem Thronsaal geworfen wird, um Platz für #EMP mich#! zu machen.\n\nNun, wenn sie auch höchst unerwartet erfolgt, so ist eine freiwillige Abdankung für mich mehr als in Ordnung. Das ist … rechtmäßiger."
+ diarchy.9023.desc.scuffled:0 "Wie vorauszusehen war, rief [liege.GetFirstName] sofort nach den Wachen, als wir in den Thronsaal eindrangen. Zum Pech für die unglücklichen Narren im Dienst bin ich [Select_CString(usurper.IsFemale, 'eine vorausplanende Frau', 'ein vorausplanender Mann')], weshalb mein Gefolge mühelos vorstürmte und die Neuankömmlinge niederschlug.\n\nWährend meine Soldaten das Gefecht gewannen, näherte ich mich [Select_CString(liege.IsFemale, 'der', 'dem')] immer noch schreienden [liege.GetFirstNameNoTooltip] und rammte meine Waffe ([usurper.Custom('signature_weapon')]) in [liege.Custom('DE_PRO_POS_S_3P')]e Kehle.\n\nDer Tod brachte den Rest der Kämpfe zu einem schnellen Ende, eingeläutet durch das Geräusch, mit dem ich [Select_CString(liege.IsFemale, 'meine ehemalige Lehnsherrin', 'meinen ehemaligen Lehnsherrn')] vom Thron stürze."
+ diarchy.9023.desc.outro:0 "\n\nDer Kadaver von [liege.GetFirstNameNoTooltip], der auf dem Boden des Thronsaals immer mehr erkaltet, ist womöglich eine unziemliche Art, meine Herrschaft zu beginnen, aber eine notwendige. Und letztlich weit weniger blutig als ein Bürgerkrieg.\n\nIch hoffe, das Reich sieht das genauso."
+ diarchy.9023.a:0 "Eine Handvoll Tote hier wird Leben in ganz [usurper.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] retten."
+ diarchy.9023.a.liege_survives:0 "Ich beginne meine Regentschaft mit Großherzigkeit."
+
+ #	Prowess: Liege won, liege-side.
+ diarchy.9024.t:0 "$diarchy.9021.t$"
+ diarchy.9024.desc.proxy.proxy_fought:0 "Leider bin ich ein wenig zu weit von [usurper.GetTitledFirstName] entfernt, um [usurper.Custom('DE_PRO_POS_S_3P')]en sterbenden Fluch zu hören, doch ich hatte dennoch das Vergnügen, [usurper.Custom('DE_PRO_PER_S_3P_A')] den letzten Atemzug tun zu sehen.\n\n[proxy.GetTitledFirstName] kämpfte gut in meinen Diensten und schlachtete den Verräter unmittelbar am Fuß meines Throns mit scheinbar verächtlicher Leichtigkeit ab. Die Tat hat die Entschlossenheit meiner Wachen wachsen lassen und zugleich die Gruppe der Verschwörer zerschlagen. Es folgen ein paar Minuten verzweifelten Blutvergießens, bis die Rebellen gänzlich geschlagen sind."
+ diarchy.9024.desc.proxy.self_fought:0 "Der Leichnam von [usurper.GetTitledFirstName] liegt zerschmettert vor mir, abgeschlachtet durch meine eigene Hand.\n\nIn blinder Panik zerbricht die Gruppe der Verschwörer und will die Flucht antreten, doch meine eigenen, durch meinen Erfolg gestärkten Wachen stürmen in ihre Mitte. Was folgt, sind einige Minuten verzweifelten Blutvergießens, in denen die Rebellen einer nach dem anderen niedergestreckt werden."
+ diarchy.9024.desc.scuffled:1 "Glücklicherweise brachten meine zweckdienlichen Hilferufe eine wahre #EMP Horde#! treuer Truppen und Söldner aus den umliegenden Kammern herbei. Obwohl die Verräterbande von [usurper.GetTitledFirstName] gut kämpfte, wurde sie schon bald überwältigt.\n\nIch sah zu, wie [usurper.GetFirstNameNoTooltip] starb, und erhaschte einen Blick auf die Panik in [usurper.Custom('DE_PRO_POS_S_3P')]en Augen, als der Stahl der gezückten Waffen [usurper.Custom('DE_PRO_PER_S_3P_D')] immer näher kam und schließlich auf [usurper.Custom('DE_PRO_POS_S_3P')]en Leib traf, um diesen zu durchbohren.\n\nDas ist der Preis des Verrats."
+ diarchy.9024.desc.outro:0 "\n\nIch gehe davon aus, dass sich die Nachricht in Kürze auch über den Rest des Reichs ausbreiten wird, und hoffe, dass dies künftigen Möchtegern-Thronräubern als Lehre dienen wird."
+ diarchy.9024.a:0 "Niedergeschlagen wie der räudige Köter, [usurper.Custom('DE_ART_DEF_S_N')] [usurper.Custom('DE_PRO_PER_S_3P_N')] war."
+
+ #	Prowess: Liege won, usurper-side.
+ diarchy.9025.t:0 "$diarchy.9021.t$"
+ diarchy.9025.desc:0 "Kaum sind wir in den Thronsaal eingedrungen, bringt ein panischer Schrei von [liege.GetTitledFirstName] eine wahre Flut bewaffneter Ritter in den Raum, die bereist sind für [liege.Custom('DE_PRO_PER_S_3P_D')] zu sterben.\n\nMein Gefolge und ich kämpfen uns so gut durch das Sammelsurium der baldigen Kadaver, wie es eben geht – doch es sind einfach zu viele. Wir müssen uns zurückziehen, wir müssen umkehren – bei den Mächten des Schicksals ([usurper.GetFaith.FateGodName])! Sie sind auch hinter uns. Es … Es gibt keinen Ausweg.\n\nNein, nein, #EMP nein!#! So viel Planung, so viel Mühe, alles umsonst!"
+ diarchy.9025.a:0 "So hätte es nicht enden soll- #BER AAARGGH!#!"

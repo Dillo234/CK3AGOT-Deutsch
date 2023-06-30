@@ -87,7 +87,7 @@
  court.7400.c:1 "好吃懒做的硕鼠，从哪里来，就滚回哪里去吧！"
 ## Child starts to go hunting
  court.7600.title:0 "心中野性"
- court.7600.desc:1 "我的[child.Custom('GetDaughterSon')][child.GetName]走进了我的御座厅，[child.GetHerHis]的脸上满是结块的泥巴和血迹！我赶紧上前，正准备斥责[child.GetHerHis]的不得体行为，此时$master_of_hunt_court_position$[huntmaster.GetFirstName]大步走进来，与我[child.Custom('GetDaughterSon')]一样满脸泥巴和血污，绽放着灿烂的笑容。\n\n“大人，[child.GetTitledFirstNameNoTooltip]应该得到宫廷的赞美！在我们狩猎途中[child.GetSheHe|U]亲手放倒了一只威猛的[child.Custom('LocalAnimal')]，也许是我今年见过最棒的出手。”\n\n我目瞪口呆；完全不知道[child.GetSheHe]在打猎！"
+ court.7600.desc:1 "我的[child.Custom('GetDaughterSon')][child.GetName]走进了我的御座厅，[child.GetHerHis]的脸上满是结块的泥巴和血迹！我赶紧上前，正准备斥责[child.GetHerHis]的不得体行为，此时$master_of_hunt_court_position$[huntmaster.GetFirstName]大步走进来，与我[child.Custom('GetDaughterSon')]一样满脸泥巴和血污，绽放着灿烂的笑容。\n\n“大人，[child.GetTitledFirstNameNoTooltip]应该得到宫廷的赞美！在我们狩猎途中[child.GetSheHe|U]亲手放倒了一只威猛的[child.Custom('GetAnimalType')]，也许是我今年见过最棒的出手。”\n\n我目瞪口呆；完全不知道[child.GetSheHe]在打猎！"
  court.7600.a:1 "这种出格的行径需要立马#EMP 终止#!。"
  court.7600.b:1 "嗯，也许应该进一步测试一下我的[child.Custom('GetDaughterSon')]……"
  court.7600.b.tt:1 "命令[huntmaster.GetNameNoTooltip]在另一次狩猎中激发[child.GetNameNoTooltip]，达到[child.GetHerHis]的极限。"

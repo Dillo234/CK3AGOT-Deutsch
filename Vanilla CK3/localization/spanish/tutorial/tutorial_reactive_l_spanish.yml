@@ -160,3 +160,193 @@
  ra_artifact_inventory_open_step_open:0 "Abrir Inventario (resaltado)"
  ra_artifact_inventory_welcome:0 "$ra_artifact_inventory_general$"
  ra_artifact_inventory_welcome_desc:0 "En tu inventario puedes equipar [inventory_artifacts|lE] para conseguir distintos beneficios, como aumentar una cierta [skill|lE] o incrementar el [prestige|lE].\n\nTambién puedes [repair|lE] o [reforge|lE] [inventory_artifacts|lE], lo que restaurará su [durability|lE] e impedirá que se destruyan con el paso del tiempo.\n\nTambién se puede ver qué [artifact_claims|lE] tienes ¡e intentar apoderarse de esos [artifacts|lE]!"
+ 
+ # Inventory
+ ra_maa_stationing_open_card_step:0 "Acantonando hombres de armas"
+ ra_maa_stationing_open_card_step_desc:0 "Tienes [men_at_arms|lE] que no están [Concept( 'stationed', 'acantonados' )|lE].\n\nSi acantonas tus [regiments|El] los haces más poderosos y mejores en el combate, lo que puede ser vital para ganar [battles|El].\n\n¡Vamos a acantonar un regimiento!"
+ ra_maa_stationing_open_card_step_tt:0 "Haz clic en uno de tus hombres de armas marcado con el texto «#X $MAA_UNSTATIONED$#!» (resaltado)"
+ ra_maa_stationing_click_station_button:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_click_station_button_desc:0 "Puedes acantonar un [regiment|lE] de [men_at_arms|lE] por [holding|lE] en tu [domain|lE]\n\nTodas las posesiones son válidas para cualquier tipo de regimiento, pero algunas dan mayores bonificaciones que otras.\n\nElijamos una posesión donde acantonar este regimiento."
+ ra_maa_stationing_click_station_button_tt:0 "Haz clic en el botón «Cambiar posesión de acantonamiento» (resaltado)"
+ ra_maa_stationing_select_station:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_select_station_desc:0 "Las distintas [holdings|lE] dan distintas cantidades de bonificaciones dependiendo de los [buildings|lE] que decidas construir.\n\nEn esta vista puedes observar cómo mejorará tu [regiment|El] de [men_at_arms|lE] si se acantona en una posesión.\n\nHaz clic en una provincia #P verde#! del mapa, la cual dará a tu regimiento las mejores bonificaciones."
+ ra_maa_stationing_select_station_tt:0 "Haz clic en cualquier provincia #P verde#! del mapa"
+ ra_maa_stationing_finished:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_finished_desc:0 "El [regiment|lE] de [men_at_arms|lE] ahora está [stationed|lE]. Se puede ver cuánto ha mejorado bajo su retrato (la parte resaltada).\n\nRecuerda revisarlo de vez en cuando para que tus regimientos estén acantonados en las [holdings|lE] óptimas.\n\nEsto es importante sobre todo a la hora de conquistar o heredar nuevos territorios, o si decides especializar una posesión con [buildings|lE] como [GetBuilding('smiths_01').GetName] o [GetBuilding('stables_01').GetName]."
+
+
+# Tours
+ REACTIVE_ADVICE_TOURS:0 "Giras"
+
+ action_reactive_advice_tours_picking_vassals:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_TOURS$"
+ action_reactive_advice_tours_picking_vassals_desc:0 "Estás planeando a qué vasallos visitar en tu gran gira. Abre esto para saber más sobre la planificación de giras."
+ action_reactive_advice_tours_picking_vassals_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_tours_picking_vassals:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_intro:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_intro_desc:0 "Estás a punto de embarcarte en una [GetActivityType( 'activity_tour' ).GetName()|l] por tu [realm|lE].\n\nDurante una gira, [Concept( 'travel', 'viajarás' )|E] para visitar a tus [vassals|lE], invertirás [gold|lE] para conseguir recompensas como [county_control|lE], [opinion|lE] y [cultural_acceptance|E], ¡y mucho más!"
+
+ ra_tours_picking_vassals_add:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_add_desc:0 "Primero tienes que elegir qué [vassals|lE] visitarás.\n\nA quién visitar depende del tipo de [GetActivityType( 'activity_tour' ).GetName()|l]. Por ejemplo, en una [majesty_tour|El], cada [stop|lE] aumenta la [opinion|lE] de ese vasallo, así que puedes elegir vasallos con baja opinión sobre ti.\n\nViajar lejos entre paradas aumenta el coste en [gold|lE] de cada parada."
+ ra_tours_picking_vassals_add_prompt:0 "Añadir al menos un vasallo al que visitar pinchando en el mapa"
+
+ ra_tours_picking_vassals_stops:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_stops_desc:0 "En cada [stop|lE] de la gira, puedes:\n$BULLET_WITH_TAB$[tour_the_grounds|E] y aumentar el [county_control|lE]\n$BULLET_WITH_TAB$Solicitar una [hosted_dinner|lE] y crear [hooks|lE] y [relations|lE]\n$BULLET_WITH_TAB$Pedir a tu [vassal|lE] que organice un [cultural_festival|lE] y aumentar la [county_opinion|lE] y [cultural_acceptance|lE]"
+
+ ra_tours_picking_vassals_conclusion:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_conclusion_desc:0 "Cuando estés de acuerdo con las [stops|lE] y su orden, puedes avanzar al siguiente paso de la planificación."
+
+
+# Active Regency Liege Side
+ REACTIVE_ADVICE_REGENCY_TERM:0 "Regencia"
+ REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT:0 "Abre la vista de regencia (resaltada)"
+ REACTIVE_ADVICE_YOU_REGENCY_REASONS:0 "Se puede dar una [regency|El] por muchas razones, entre las que se incluyen:\n$BULLET_WITH_TAB$Cuando vas de [travel|El] fuera del [realm|El]\n$BULLET_WITH_TAB$Cuando eres [child|El]\n$BULLET_WITH_TAB$Cuando te vuelves [GetTrait('incapable').GetName( GetPlayer )|l]"
+
+ reactive_advice_regency_for_liege:0 "$action_reactive_advice_regency_for_liege$"
+ action_reactive_advice_regency_for_liege:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_REGENCY_TERM$"
+ action_reactive_advice_regency_for_liege_desc:0 "Ahora tienes un regente. Abre esto para leer una presentación sobre la regencia."
+ action_reactive_advice_regency_for_liege_click:0 "$click_to_open_lesson$"
+
+ ra_regency_liege_intro:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_intro_desc:0 "Ahora tienes un [regent|El].\n\n$REACTIVE_ADVICE_YOU_REGENCY_REASONS$"
+
+ ra_regency_liege_effects:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_effects_desc:0 "En una [regency|El], todavía tienes la posibilidad de realizar las mismas acciones que en circunstancias normales.\n\nSin embargo, el [regent|El] obtiene [diarch_powers|El] especiales que puede usar contigo o con tus [vassals|El]. Tú siempre tienes derecho a [Concept( 'veto', 'vetar' )|E] estos $game_concept_diarch_powers|l$."
+
+ ra_regency_liege_open_UI:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_open_UI_desc:0 "¡Echemos un vistazo a tu [regency|El]!"
+ ra_regency_liege_open_UI_prompt:0 "$REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT$"
+
+ ra_regency_liege_open_tab:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_open_tab_desc:0 "Tu [regent|El] aparece en la pestaña '$DIARCHY_WINDOW_YOUR_TAB$'."
+ ra_regency_liege_open_tab_prompt:0 "Abre la pestaña '$DIARCHY_WINDOW_YOUR_TAB$' (resaltada)"
+
+ ra_regency_liege_scales_of_power:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_scales_of_power_desc:0 "Esta es la [scales_of_power|El].\n\nCuanto más favorezca a tu [regent|El], a más [diarch_powers|El] tendrá acceso y más costará acabar con la [regency|El].\n\nPuedes inclinar la balanza a tu favor directamente con el botón '$DIARCHY_WINDOW_SWING_SCALES$'."
+
+ ra_regency_liege_mandate:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_mandate_desc:0 "Puedes darle a tu [regent|El] un [mandate|El] para que centre sus esfuerzos en esa área.\n\nSiempre puedes cambiar ese mandato más adelante, en función de tus prioridades."
+
+ ra_regency_liege_ending:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_ending_desc:0 "Si ya no se dan las condiciones que iniciaron la [regency|El], puedes intentar poner fin a esta.\n\nEl [regent|El] tiene que aceptarlo, pero puedes ofrecerle cosas como [gold|El] o un [favor|El] para que sea más probable que acepte. \n\nSi se niega, puede llegar a declararte la [war|El]."
+
+ ra_regency_liege_conclusion:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_conclusion_desc:0 "Las regencias son un asunto reactivo, sobre todo. Por ahora, no pierdas de vista la [scales_of_power|El].\n\nCuando tu [regent|El] use uno de sus [diarch_powers|El], lo sabrás y podrás decidir qué hacer al respecto."
+
+
+#  Active Regency Regent Side
+ reactive_advice_regency_for_regent:0 "$action_reactive_advice_regency_for_regent$"
+ action_reactive_advice_regency_for_regent:0 "$open_tutorial_lesson$Regente"
+ action_reactive_advice_regency_for_regent_desc:0 "Ahora haces de regente de tu señor. Abre esto para ver una presentación de la regencia."
+ action_reactive_advice_regency_for_regent_click:0 "$click_to_open_lesson$"
+
+ ra_regency_regent_intro:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_intro_desc:0 "Estás actuando como [regent|El] de tu [liege|El].\n\nSe puede dar una [regency|El] por muchas razones, entre las que se incluyen:\n$BULLET_WITH_TAB$Cuando tu señor se va de [travel|El] fuera del [realm|El]\n$BULLET_WITH_TAB$Cuando es [child|El]\n$BULLET_WITH_TAB$Cuando se vuelve [GetTrait('incapable').GetName( GetPlayer )]"
+
+ ra_regency_regent_powers:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_powers_desc:0 "Como [regent|El] obtienes [diarch_powers|El] especiales que puedes usar con tu [liege|El] o con tus compañeros [vassals|El]. Tu señor siempre tiene derecho a [Concept( 'veto', 'vetarlos' )|El].\n\nUsar estos poderes con tus compañeros vasallos puede verse como un abuso de poder, lo cual te dará una penalización de [strife_opinion|El]."
+
+ ra_regency_regent_open_UI:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_open_UI_desc:0 "¡Echemos un vistazo a tu [regency|El]!"
+ ra_regency_regent_open_UI_prompt:0 "$REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT$"
+
+ ra_regency_regent_open_tab:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_open_tab_desc:0 "Tu estatus de [regent|El] aparece en la pestaña '$DIARCHY_WINDOW_LIEGE_TAB$'."
+ ra_regency_regent_open_tab_prompt:0 "Abrir la pestaña '$DIARCHY_WINDOW_LIEGE_TAB$' (resaltada)"
+
+ ra_regency_regent_scales_of_power:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_scales_of_power_desc:0 "Esta es la [scales_of_power|El].\n\nCuanto más te favorezca, a más [diarch_powers|El] tendrás acceso y más costará acabar con la [regency|El].\n\nPuedes inclinar la balanza a tu favor directamente con el botón '$DIARCHY_WINDOW_SWING_SCALES$'."
+
+ ra_regency_regent_mandate:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_mandate_desc:0 "Tu [liege|El] puede ponerte un [mandate|El], que te dará oportunidades de mejorar el [realm|El].\n\nSi las manejas bien, inclinarás la [scales_of_power|El] a tu favor."
+
+ ra_regency_regent_ending:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_ending_desc:0 "Si ya no se dan las condiciones que iniciaron la [regency|El], tu [liege|El] puede intentar poner fin a esta.\n\nSi la [scales_of_power|El] está muy decantada a tu favor, hasta puede que seas capaz de resistirte a que ponga fin a la regencia e iniciar incluso una [war|El] por su [primary_title|El]."
+
+ ra_regency_regent_conclusion:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_conclusion_desc:0 "Como [regent|El], podrías intentar usar tus [diarch_powers|El] contra tu [liege|El] o contra tus compañeros [vassals|El].\n\nSi no deseas enemistarte con tu señor, puedes limitarte a reaccionar ante las oportunidades que se te presenten, ¡y puede que este te recompense por tu lealtad!"
+
+
+# Prepare by setting a Regent
+ REACTIVE_ADVICE_FUTURE_REGENT:0 "Futuro regente"
+ action_reactive_advice_set_future_regent:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_FUTURE_REGENT$"
+ action_reactive_advice_set_future_regent_desc:1 "Si no puedes gobernar, un regente lo hará en tu nombre. Abre esto para saber controlar quién será tu regente."
+ action_reactive_advice_set_future_regent_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_set_future_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+
+ ra_regency_future_regent_intro:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_intro_desc:0 "En el futuro, puede que seas incapaz de gobernar tu [realm|El] por tu propia cuenta, en cuyo caso se iniciará una [regency|El].\n\nAntes de que esto ocurra, puedes ver al futuro [regent|El] e incluso designar uno tú.\n\n$REACTIVE_ADVICE_YOU_REGENCY_REASONS$"
+
+ ra_regency_future_regent_open_realm_panel:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_realm_panel_desc:0 "¡Veamos un avance de tu futura [regency|El]! Puedes verla en la vista Señorío."
+ ra_regency_future_regent_open_realm_panel_prompt:0 "Abre la vista Señorío (resaltado)"
+
+ ra_regency_future_regent_open_UI:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_UI_desc:1 "Aquí, en la parte superior de la vista Señorío, aparece el estado de tu [regency|lE]."
+ ra_regency_future_regent_open_UI_prompt:1 "Abrir la vista Regencia (resaltado)"
+
+ ra_regency_future_regent_open_tab:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_tab_desc:0 "El futuro [regent|El] aparece en la pestaña '$DIARCHY_WINDOW_YOUR_TAB$'."
+ ra_regency_future_regent_open_tab_prompt:0 "$ra_regency_liege_open_tab_prompt$"
+
+ ra_regency_future_regent_current_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_current_regent_desc:0 "Tu futuro [regent|El] se muestra aquí.\n\nA menos que designes a uno, se elegirá al candidato que tenga más [regent_succession_score|El]."
+
+ ra_regency_future_regent_swap_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_swap_regent_desc:0 "Puedes designar a un [regent|El] usando este botón.\n\nDeberías probar a encontrar un regente con mucha [diarch_loyalty|El] y una gran [Concept( 'diarch_aptitude', 'aptitud' )|E]."
+
+ ra_regency_future_regent_succession:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_succession_desc:0 "Si el actual [regent|El] muere o es incapaz de actuar como tal, ocupará su lugar el siguiente personaje en el orden de sucesión."
+
+ ra_regency_future_regent_conclusion:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_conclusion_desc:0 "Por ahora, piensa en designar a un [regent|El] si quieres tener más control sobre quién gobernará en tu lugar."
+
+
+# Travel Planning
+ REACTIVE_ADVICE_TRAVEL_PLANNING:0 "Planificación de viaje"
+ action_reactive_advice_travel_planning:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ action_reactive_advice_travel_planning_desc:0 "Estás a punto de hacer un viaje. Abre esto para saber más sobre la planificación del mismo."
+ action_reactive_advice_travel_planning_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_travel_planning:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+
+ ra_travel_planning_intro:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_intro_desc:0 "Estás a punto de [Concept( 'travel', 'viajar' )|E] desde tu ubicación actual. Antes de partir, deberías planificar tu viaje."
+
+ ra_travel_planning_entourage:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_entourage_desc:0 "No sueles [Concept( 'travel', 'viajar' )|E] a solas. Los [characters|lE] que viajan contigo son tu [entourage|lE].\n\nEstos personajes a veces también se unirán a ti en tu destino."
+
+ ra_travel_planning_speed_safety:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_speed_safety_desc:0 "Hay dos factores principales que tener en cuenta a la hora de planificar el [travel|lE]: la [travel_speed|lE] y la [Concept( 'travel_safety', 'seguridad' )|E].\n\nLa velocidad base es del 100 % y una mayor velocidad significa llegar antes al destino.\n\nLa seguridad contrarresta cualquier [travel_danger|lE] que puedas encontrar en la ruta. Tener una seguridad alta significa que tu [entourage|lE] y tú podéis viajar por zonas peligrosas con menos riesgo."
+
+ ra_travel_planning_caravan_master:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_caravan_master_desc:0 "Puedes nombrar un [GetCourtPositionType('travel_leader_court_position').GetName()|l]; un [court_position|lE] especial que se unirá a ti en todos tus [travels|lE].\n\nTiene un gran impacto en la [Concept( 'travel_speed', 'velocidad' )|lE] y la [travel_safety|lE], así que lo normal es querer a alguien en este puesto para viajes largos."
+
+ ra_travel_planning_travel_options:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_travel_options_desc:0 "También puedes elegir entre dos [travel_options|El] para este viaje específico.\n\nLas opciones de viaje suelen costar [gold|lE] y proporcionan diversos beneficios, sobre todo en la [travel_speed|lE] y la [travel_safety|lE].\n\nMuchas opciones reducen el [travel_danger|lE] en ciertos tipos de [terrain|lE] de tu ruta. En el mapa aparece cada tipo de peligro en una ubicación con un color único. Cualquiera de los peligros que puedas encontrar también se muestran en tu ruta como iconos."
+
+ ra_travel_planning_custom_route:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_custom_route_desc:0 "Por último, puedes personalizar tu ruta para evitar ciertos [Concept( 'travel_danger', 'peligros' )|E] durante el viaje en lugar de ir directamente al destino."
+
+ ra_travel_planning_conclusion:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_conclusion_desc:0 "Antes de partir, comprueba el tiempo total de viaje y que haya pocas probabilidades de encontrar [Concept( 'travel_danger', 'peligros del viaje' )|E] en la ruta.\n\n¡Que tengas un viaje seguro!"
+
+# Create Accolade
+ REACTIVE_ADVICE_CREATE_ACCOLADE:0 "Galardones"
+
+ reactive_advice_create_accolade:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+
+ ra_create_accolade_knights_panel:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_knights_panel_desc:0 "¡Ahora puedes conceder un [accolade|lE] a uno de tus [knights|lE]!\n\nTodo caballero que posea un galardón se convierte en [acclaimed_knight|lE], que dará bonificaciones a tus ejércitos.\n\nEl galardón se mantendrá hasta que lo destruyas y pase a caballeros futuros en el [accolade_succession|lE]."
+ ra_create_accolade_knights_panel_prompt:0 "Elegir un galardón sin asignar (resaltado)"
+
+ ra_create_accolade_candidates:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_candidates_desc:0 "Cuando creas un [accolade|lE], eliges uno de tus [knights|lE] aptos de la lista."
+ ra_create_accolade_candidates_prompt:0 "Elige un candidato de la lista (resaltado)"
+
+ ra_create_accolade_attributes:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_attributes_desc:0 "Todo [acclaimed_knight|lE] tiene dos [accolade_types|lE] (resaltado), uno principal y otro secundario. Antes de crear el [accolade|lE], estos atributos aparecen para cada candidato.\n\nCada atributo te da a ti y a tus [armies|lE] diversas bonificaciones, ya que el galardón gana [glory|lE]. La gloria se consigue tomando parte en [contests|lE] de [GetActivityType( 'activity_tournament' ).GetName()|l] y [battles|lE].\n\nEl atributo principal es siempre parte del [accolade|lE] y no se puede cambiar durante el [accolade_succession|lE]."
+   
+ ra_create_accolade_conclusion:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_conclusion_desc:0 "Ahora puedes crear este [accolade|lE] si quieres.\n\nHabrá más galardones disponibles a medida que tu [culture|E] vaya descubriendo [innovations|lE]."

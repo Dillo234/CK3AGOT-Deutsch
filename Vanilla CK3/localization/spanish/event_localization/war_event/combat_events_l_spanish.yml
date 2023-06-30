@@ -1,7 +1,7 @@
 ﻿l_spanish:
  combat_event.0003.t:0 "Invencible"
  combat_event.0003.desc.opening:0 "¡Cien batallas, cien victorias!"
- combat_event.0003.desc.commander:0 "Gracias a mi última victoria contra [enemy_commander.GetTitledFirstName] y sus soldados,"
+ combat_event.0003.desc.commander:0 "Gracias a mi última victoria contra [enemy_commander.GetTitledFirstName|l] y sus soldados,"
  combat_event.0003.desc.no_commander:0 "Gracias a mi última victoria en combate,"
  combat_event.0003.desc.ending:0 "he alcanzado por fin este hito memorable.\n\nJamás he perdido una batalla, así que hace tiempo que corre el rumor de que soy invencible, una fuerza indomable que jamás podrá ser superada. Empieza a parecer que pueda ser verdad…"
  combat_event.0003.desc.alt_ending:0 "he alcanzado por fin este hito memorable.\n\nCada vez que gano una batalla, crecen los rumores de mi destreza. Ahora que he superado las hazañas legendarias, puedo afirmar que soy invencible, una fuerza indomable que jamás podrá ser superada."
@@ -19,7 +19,7 @@
  combat_event.0005.desc:0 "Hoy ha pasado lo impensable… ¡Fui superado en combate por [friendly_commander.Custom2('MyCharacterIntroduction', ROOT.Char)]! Empezaba a pensar que era cierto eso de que nunca caería ante nadie, pero he caído derribad[ROOT.Char.Custom('ES_OA')] y humillad[ROOT.Char.Custom('ES_OA')].\n\nMi reputación sigue más o menos intacta a pesar de esta derrota, aunque [friendly_commander.GetFirstName] me ha quitado una parte de fama y gloria."
  combat_event.0005.a:0 "Merece reconocimiento por haber derrotado a alguien como yo."
  combat_event.0005.b:0 "¡Es inaceptable! ¡Lamentará el día en que me hizo enfadar!"
- combat_event.0005.message:0 "¡Furios[enemy_commander.Custom('ES_OA')] tras su derrota en la batalla, [enemy_commander.GetTitledFirstName] ha jurado vengarse de mí!"
+ combat_event.0005.message:0 "¡Furios[enemy_commander.Custom('ES_OA')] tras su derrota en la batalla, [enemy_commander.GetTitledFirstName|l] ha jurado vengarse de mí!"
 
   # Combatants Taken Prisoner
  combat_event.1002.pow_message.t:0 "Combatientes enemigos capturados"
@@ -32,20 +32,20 @@
  combat_event.1003.pow_message.desc.single:1 "[primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] fue hech[primary_prisoner.Custom('ES_OA')] prisioner[primary_prisoner.Custom('ES_OA')]"
  combat_event.1003.pow_message.desc.double:1 "[primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] y [secondary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] fueron hechos prisioneros"
  combat_event.1003.pow_message.desc.multiple:1 "[primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] y otros [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] fueron hechos prisioneros"
- combat_event.1003.pow_message.desc.end:1 "por tu enemigo, [combat_winner.GetTitledFirstName], tras ganar la batalla de [combat_location.GetName]!"
+ combat_event.1003.pow_message.desc.end:1 "por tu enemigo, [combat_winner.GetTitledFirstName|l], tras ganar la batalla de [combat_location.GetName]!"
 
  combat_event.1004.pow_message.t:0 "[ROOT.Char.Custom2('RelationToMeShort', primary_prisoner)|U] hech[primary_prisoner.Custom('ES_OA')] prisioner[primary_prisoner.Custom('ES_OA')]"
  combat_event.1004.pow_message.desc.end:1 "por [combat_winner.Custom2('YourCharacterIntroduction', ROOT.Char)] tras ganar la batalla de [combat_location.GetName]."
 
  combat_event.1005.pow_toast.t:0 "Cautivo importante capturado"
  combat_event.1005.pow_toast.desc:1 "Tus fuerzas han tomado cautiv[important_hostage.Custom('ES_OA')] a [important_hostage.Custom2('NamePossessiveCharacterIntroduction', primary_combat_loser)] tras capturar[important_hostage.Custom('ES_LoLa')] durante la batalla de [combat_location.GetName]."
- combat_event.1005.pow_toast.desc.primary:1 "Tus fuerzas han tomado cautiv[important_hostage.Custom('ES_OA')] a [important_hostage.GetTitledFirstName] tras capturar[important_hostage.Custom('ES_LoLa')] durante la batalla de [combat_location.GetName]."
+ combat_event.1005.pow_toast.desc.primary:1 "Tus fuerzas han tomado cautiv[important_hostage.Custom('ES_OA')] a [important_hostage.GetTitledFirstName|l] tras capturar[important_hostage.Custom('ES_LoLa')] durante la batalla de [combat_location.GetName]."
  combat_event.1006.pow_toast.t:0 "Heredero cautivado"
  combat_event.1006.pow_toast.desc:1 "[combat_winner.GetTitledFirstName] capturó a [important_hostage.Custom2('YourCharacterIntroduction', ROOT.Char)] y [important_hostage.Custom('ES_LoLa')] tomó cautiv[important_hostage.Custom('ES_OA')] tras la batalla de [combat_location.GetName]."
  combat_event.1007.pow_toast.t:0 "$combat_event.1005.pow_toast.t$"
  combat_event.1007.pow_toast_primary.t:0 "Líder militar enemigo capturado"
  combat_event.1007.pow_toast.desc:0 "[combat_winner.GetTitledFirstName] capturó a [important_hostage.Custom2('NamePossessiveCharacterIntroduction', primary_combat_loser)] tras la batalla de [combat_location.GetName] y [important_hostage.Custom('ES_LoLa')] tomó cautiv[important_hostage.Custom('ES_OA')]."
- combat_event.1007.pow_toast.desc.primary:1 "[combat_winner.GetTitledFirstName] capturó a tu enemigo [important_hostage.GetTitledFirstName] tras la batalla de [combat_location.GetName] y [important_hostage.Custom('ES_LoLa')] tomó cautiv[important_hostage.Custom('ES_OA')]."
+ combat_event.1007.pow_toast.desc.primary:1 "[combat_winner.GetTitledFirstName] capturó a tu enemig[important_hostage.Custom('ES_OA')] [important_hostage.GetTitledFirstName|l] tras la batalla de [combat_location.GetName] y [important_hostage.Custom('ES_LoLa')] tomó cautiv[important_hostage.Custom('ES_OA')]."
 
   # Combatants Slain
  combat_event.1012.slain_message.t:0 "Combatientes enemigos muertos"

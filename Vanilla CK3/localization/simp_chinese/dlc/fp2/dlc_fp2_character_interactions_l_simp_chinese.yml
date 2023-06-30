@@ -4,9 +4,9 @@
  purchase_truce_interaction:0 "购买停战协议"
  PURCHASE_TRUCE_NOTIFICATION:0 "你和我本应是友非敌！请你接受这份赠礼，并签署互利友好的协议。"
  purchase_truce_interaction_desc:0 "与[recipient.GetTitledFirstName]商定预防性[truce|E]以换取[gold|E]"
- purchase_truce_interaction.accept.actor.tt:0 "[recipient.GetTitledFirstName]接受了我的赔款"
+ purchase_truce_interaction.accept.actor.tt:0 "[recipient.GetTitledFirstName]接受了我的贡金"
  purchase_truce_interaction.accept.recipient.tt:0 "[actor.GetTitledFirstName]送来了我的钱"
- purchase_truce_interaction.decline.actor.tt:0 "[recipient.GetTitledFirstName]拒绝了我的赔款"
+ purchase_truce_interaction.decline.actor.tt:0 "[recipient.GetTitledFirstName]拒绝了我的贡金"
  purchase_truce_interaction.decline.recipient.tt:0 "[actor.GetTitledFirstName]害怕我的意图"
  TRUCE_PURCHASED:0 "\n签订停战协议以换取从[actor.GetTitledFirstName]支付给[recipient.GetTitledFirstName]的大笔[gold|E]"
  PT_SUM_SMALL:0 "小额"
@@ -68,7 +68,7 @@
  bargain_fealty_interaction_desc:1 "$game_concept_bargain_fealty_desc$"
  bargain_fealty_interaction_notification:0 "我的士兵对你的部队来说是受欢迎的补充！"
  bargain_fealty_border_raid_tt:0 "不能在[border_raid|E]时[bargain_fealty|E]"
- bargain_fealty_struggle_clash_tt:1 "不能使一位[struggle_interloper|E]卷入一场[struggle_conquest|E] "
+ bargain_fealty_struggle_clash_tt:1 "不能[bargain_fealty|E]一场[struggle_conquest|E] "
  bargain_fealty:0 "$bargain_fealty_interaction$"
 
  BF_AI_OUTNUMBERED_REASON:0 "[actor.GetShortUIName|U]兵力严重少于目标：$VALUE|=+0$"
@@ -81,7 +81,7 @@
  # Offer Assistance Interaction
  contract_assistance_interaction:0 "签署援助契约"
  contract_assistance_interaction_desc:0 "提议加入另一[struggle_involved|E][ruler|E]的[war|E]以换取[gold|E]。"
- contract_assistance_interaction_notification:0 "我的军队在你的冲突中将非常有用；我们只需要商定好价格。"
+ contract_assistance_interaction_notification:0 "我的军队将在你的冲突中大派用场；我们只需商定好价格。"
  OA_AI_WINNING_WAR_REASON:0 "[recipient.GetShortUIName|U]在[war|E]中占上风：$VALUE|=+0$"
  OA_AI_LOSING_WAR_REASON:0 "[recipient.GetShortUIName|U]在[war|E]中落下风：$VALUE|=+0$"
  OA_AI_OUTNUMBERED_MINOR_REASON:0 "[recipient.GetShortUIName|U]兵力少于对手：$VALUE|=+0$"
@@ -95,20 +95,20 @@
  OA_AI_DEFENSIVE_WAR_REASON:0 "[recipient.GetShortUIName|U]正在保卫[recipient.GetHerselfHimself]自己：$VALUE|=+0$"
  OA_AI_FAILURE_REASON:0 "[actor.GetShortUIName|U]作为立约人在过去的失败：$VALUE|=+0$"
  OA_AI_LOYALTY_TOWARDS_ALLIES_REASON:0 "对[ally|E]忠诚：$VALUE|=+0$"
- contract_assistance_interaction_condition_tt:0 "如果[war|E]结束时[actor.GetShortUINamePossessive]的[war_contribution|E]不少于[SCOPE.ScriptValue('saved_contribution_value')|Z0]：" # [LocEditor:AwaitingBatchUpdate]
+ contract_assistance_interaction_condition_tt:1 "如果[war|E]结束时[actor.GetShortUINamePossessive]的[war_contribution|E]不少于[SCOPE.ScriptValue('saved_contribution_value')|Z0]："
  contract_assistance_war_msg_title:0 "$contract_assistance_interaction$：战争结束"
- contract_assistance_war_msg_hirer_paid_desc:0 "你向[contract_assistance_helper.GetShortUIName]支付[contract_assistance|E]的报酬，因为[contract_assistance_helper.GetHerHis]的[war_contribution|E]大于等于[SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
- contract_assistance_war_msg_helper_paid_desc:0 "[contract_assistance_hirer.GetShortUIName]向你支付[contract_assistance|E]的报酬，因为你的[war_contribution|E]大于等于[SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
- contract_assistance_war_msg_hirer_kept_desc:0 "你未向[contract_assistance_helper.GetShortUIName]支付[contract_assistance|E]的报酬，因为[contract_assistance_helper.GetHerHis]的[war_contribution|E]小于[SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
- contract_assistance_war_msg_helper_kept_desc:0 "[contract_assistance_hirer.GetShortUIName]未向你支付[contract_assistance|E]的报酬，因为你的[war_contribution|E]小于[SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
+ contract_assistance_war_msg_hirer_paid_desc:1 "你向[contract_assistance_helper.GetShortUIName]支付[contract_assistance|E]的报酬，因为[contract_assistance_helper.GetHerHis]的[war_contribution|E]大于等于[SCOPE.ScriptValue('saved_contribution_value')|Z0]"
+ contract_assistance_war_msg_helper_paid_desc:1 "[contract_assistance_hirer.GetShortUIName]向你支付[contract_assistance|E]的报酬，因为你的[war_contribution|E]大于等于[SCOPE.ScriptValue('saved_contribution_value')|Z0]"
+ contract_assistance_war_msg_hirer_kept_desc:1 "你未向[contract_assistance_helper.GetShortUIName]支付[contract_assistance|E]的报酬，因为[contract_assistance_helper.GetHerHis]的[war_contribution|E]小于[SCOPE.ScriptValue('saved_contribution_value')|Z0]"
+ contract_assistance_war_msg_helper_kept_desc:1 "[contract_assistance_hirer.GetShortUIName]未向你支付[contract_assistance|E]的报酬，因为你的[war_contribution|E]小于[SCOPE.ScriptValue('saved_contribution_value')|Z0]"
  contract_assistance_war_msg_hirer_invalidated_desc:0 "你未向[contract_assistance_helper.GetShortUIName]支付[contract_assistance|E]的报酬，因为战争已无效"
  contract_assistance_war_msg_helper_invalidated_desc:0 "[contract_assistance_hirer.GetShortUIName]未向你支付[contract_assistance|E]的报酬，因为战争已无效"
  contract_assistance_war_already_contracted_tt:0 "你已经在一场战争中[contracting_assistance|E]"
 
  invite_foreign_ruler_to:0 "邀请参加活动"
  invite_foreign_ruler_to_desc:1 "邀请另一[realm|E]的[ruler|E]参加你的宴会或狩猎"
- invite_foreign_ruler_to.feast.tooltip:0 "你开始[feast|E]，而[recipient.GetTitledFirstName]将作为特邀嘉宾"
- invite_foreign_ruler_to.hunt.tooltip:0 "你召集举办[hunt|E]，[recipient.GetTitledFirstName]将作为特邀嘉宾"
+ invite_foreign_ruler_to.feast.tooltip:0 "你组织了一场[GetActivityType('activity_feast').GetName]并邀请[recipient.GetTitledFirstName]作为特邀嘉宾"
+ invite_foreign_ruler_to.hunt.tooltip:1 "你组织了一场[GetActivityType('activity_hunt').GetName]并邀请[recipient.GetTitledFirstName]作为特邀嘉宾"
  INVITE_FOREIGN_RULER_TO_NOTIFICATION:0 "你和我应该是朋友！请接收我的邀请，来参加一场放松活动。"
  invited_to_hunt.accept.actor.tt:0 "[recipient.GetTitledFirstName]接受了你的狩猎邀请"
  invited_to_feast.accept.actor.tt:0 "[recipient.GetTitledFirstName]接受了你的宴会邀请"
@@ -126,7 +126,7 @@
  request_contract_assistance_interaction:0 "请求契约援助"
  request_contract_assistance_interaction_desc:0 "提议以[gold|E]作为交换，让这位[struggle_involved|E][ruler|E]加入你的一场[war|E]。"
  request_contract_assistance_interaction_notification:0 "你的军队将在我的冲突中大派用场；我们只需商定好价格。"
- request_contract_assistance_interaction_condition_tt:0 "如果[war|E]结束时[recipient.GetShortUINamePossessive]的[war_contribution|E]不少于[SCOPE.ScriptValue('saved_contribution_value')|Z0]：" # [LocEditor:AwaitingBatchUpdate]
+ request_contract_assistance_interaction_condition_tt:1 "如果[war|E]结束时[recipient.GetShortUINamePossessive]的[war_contribution|E]不少于[SCOPE.ScriptValue('saved_contribution_value')|Z0]："
 
  share_known_secrets_interaction_extra_icon:0 "$hook_extra_icon$"
  no_activity_available:0 "没有可用的[activity|E]"

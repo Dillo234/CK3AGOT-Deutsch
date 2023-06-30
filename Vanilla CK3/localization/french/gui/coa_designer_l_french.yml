@@ -2,10 +2,10 @@
  COA_DESIGNER_HEADER:0 "Armoiries"
 
  COA_DESIGNER_QUARTERING_OPTIONS:0 "[cadet_branch|E] en quartiers"
- COA_DESIGNER_TOGGLE_QUARTERING_BUTTON_TT:0 "#T Utiliser des armoiries en quartiers#!\nLorsque cette option est activée, les armoiries conservent les armoiries en quartiers indiquant la [dynasty|El] et les [houses|El] parentes potentielles. Toutefois, vous ne pouvez modifier que les armoiries de cette Maison."
+ COA_DESIGNER_TOGGLE_QUARTERING_BUTTON_TT:0 "#T Utiliser des armoiries en quartiers#!\nLorsque cette option est activée, les armoiries conservent les armoiries en quartiers indiquant la [dynasty|El] et les [houses|E] parentes potentielles. Toutefois, vous ne pouvez modifier que les armoiries de cette Maison."
  
- COA_DESIGNER_MODE_CUSTOM:0 "Mode: #V Personnalisé#!"
- COA_DESIGNER_MODE_ADJUSTED:0 "Mode: #V Ajusté#!"
+ COA_DESIGNER_MODE_CUSTOM:0 "Mode : #V Personnalisé#!"
+ COA_DESIGNER_MODE_ADJUSTED:0 "Mode : #V Ajusté#!"
  COA_DESIGNER_MODE_SELECTION_HEADER:0 "Créez vos propres armoiries"
  COA_DESIGNER_MODE_SELECTION_CONTINUE_CUSTOM_DESC:0 "#T Armoiries personnalisées#!\nContinuez à ajuster l’aspect de ces armoiries."
  COA_DESIGNER_MODE_SELECTION_CONTINUE_CUSTOM_BUTTON:0 "Personnaliser la forme"
@@ -62,7 +62,7 @@
  COA_DESIGNER_EMBLEM_INSTANCES_TAB_HEADER:0 "Emblèmes"
  COA_DESIGNER_EMBLEM_INSTANCES_PANEL_HEADER:0 "Emblèmes"
  COA_DESIGNER_EMBLEM_INSTANCES_ALL_BUTTON:0 "Tout"
- COA_DESIGNER_EMBLEM_INSTANCES_PAGE:0 "[CoatOfArmsDesignerPagedEmblemInstances.GetCurrentPage]/[CoatOfArmsDesignerPagedEmblemInstances.GetMaxPage]"
+ COA_DESIGNER_EMBLEM_INSTANCES_PAGE:1 "[PagedContainerData.GetCurrentPage]/[PagedContainerData.GetMaxPage( GetDataModelSize( CoatOfArmsDesignerEmblemInstancesPanel.GetAllEmblemInstances ) )]"
  COA_DESIGNER_EMBLEM_TEXTURES:0 "Textures"
  COA_DESIGNER_EMBLEM_INSTANCE_SELECT_ALL:0 "#I Cliquez pour tout sélectionner\nFaites un clic droit pour tout désélectionner#!"
  COA_DESIGNER_EMBLEM_INSTANCE_SELECTION_TT:0 "#I Cliquez pour sélectionner\nMaj-clic pour changer la sélection#!"

@@ -83,7 +83,7 @@
  seduce_outcome.2303.b:0 "재미는 있었지만, 대화는 여기까지만 하자."
 
  seduce_outcome.2304.t:0 "광활한 하늘 아래서"
- seduce_outcome.2304.desc:0 "[target.GetTitledFirstName](와)과 함께 나란히 쭈그리고 앉았다. 우리 앞에 있던 [ROOT.Char.Custom('LocalAnimalDesc')] [ROOT.Char.Custom('LocalAnimal')](은)는 그 사실을 전혀 눈치채지 못했다. [target.GetFirstNamePossessive] [target.Custom('GetClothingArticle')](이)가 스치는 감촉이 나를 한층 더 사로잡았다. 그대로 [target.GetHerHim]를 안으려고 팔을 뻗었다. [target.GetHerHis] 시선은 #EMP 다른 곳#!을 향해 있었다.\n\n[ROOT.Char.Custom('LocalAnimal')](이)가 [ROOT.Char.Custom('TerrainType')] 속으로 사라질 즈음에는 이미 부드러운 대지에 누워 서로의 알몸을 끌어안은 상태였다."
+ seduce_outcome.2304.desc:0 "[target.GetTitledFirstName](와)과 함께 나란히 쭈그리고 앉았다. 우리 앞에 있던 [ROOT.Char.Custom('GetAnimalAdjective')] [ROOT.Char.Custom('GetAnimalType')](은)는 그 사실을 전혀 눈치채지 못했다. [target.GetFirstNamePossessive] [target.Custom('GetClothingArticle')](이)가 스치는 감촉이 나를 한층 더 사로잡았다.그대로 [target.GetHerHim]를 안으려고 팔을 뻗었다. [target.GetHerHis] 시선은 #EMP 다른 곳#!을 향해 있었다.\n\n[ROOT.Char.Custom('GetAnimalType')](이)가 [ROOT.Char.Custom('TerrainType')] 속으로 사라질 즈음에는 이미 부드러운 대지에 누워 서로의 알몸을 끌어안은 상태였다."
  seduce_outcome.2304.a:0 "우리가 맺어지는 건 하늘이 정해준 순리이니!"
  seduce_outcome.2304.b:0 "결속에는 결별이 뒤따르기 마련이지. 그게 삶의 순리야."
 
@@ -160,7 +160,7 @@
  seduce_outcome.3303.desc:0 ""[ROOT.Char.Custom2('ComplimentSentence', SCOPE.sC('target'))|U]."\n\n"당신의 [target.Custom('quirk_pos_adjective')] 미소는 언제 봐도 질리지 않는군요." [owner.GetTitledFirstName](은)는 내 말을 듣고 얼굴을 붉혔다. "당신의 품속도 마찬가지예요."\n\n우리 사이를 오간 사랑의 말들은 이내 알아들을 수가 없어졌지만, 그 뜻만큼은 더 명확하게 전해졌다."
  seduce_outcome.3303.a:0 "앞으로 이런 대화를 수없이 나눕시다!"
 
- seduce_outcome.3304.desc:0 "[owner.GetTitledFirstName]함께 나란히 쭈그리고 앉았다. 우리 앞에 있던  [owner.Custom('LocalAnimalDesc')] [owner.Custom('LocalAnimal')](은)는 그 사실을 전혀 눈치채지 못했다. [owner.GetFirstNamePossessive] [owner.Custom('GetClothingArticle')](이)가 스치는 감촉이 나를 한층 더 사로잡았다. [owner.GetHerHim]를 안으려고 팔을 뻗었다. [owner.GetHerHis] 시선은 #EMP 다른 곳#!을 향해 있었다.\n\n[owner.Custom('LocalAnimal')](이)가 [ROOT.Char.Custom('TerrainType')] 속으로 사라질 즈음에는 이미 부드러운 대지에 누워 서로의 알몸을 끌어안은 상태였다."
+ seduce_outcome.3304.desc:0 "[owner.GetTitledFirstName]함께 나란히 쭈그리고 앉았다. 우리 앞에 있던 [owner.Custom('GetAnimalAdjective')] [owner.Custom('GetAnimalType')](은)는 그 사실을 전혀 눈치채지 못했다. [owner.GetFirstNamePossessive] [owner.Custom('GetClothingArticle')](이)가 스치는 감촉이 나를 한층 더 사로잡았다. [owner.GetHerHim]를 안으려고 팔을 뻗었다. [owner.GetHerHis] 시선은 #EMP 다른 곳#!을 향해 있었다.\n\n[owner.Custom('GetAnimalType')](이)가 [ROOT.Char.Custom('TerrainType')] 속으로 사라질 즈음에는 이미 부드러운 대지에 누워 서로의 알몸을 끌어안은 상태였다."
  seduce_outcome.3304.a:0 "우리가 맺어지는 건 하늘의 순리이니!"
 
  seduce_outcome.3305.desc:1 ""[letterAuthor.Custom2('love_letter', SCOPE.sC('love_letter_target'))]"\n\n[owner.GetFirstName](이)가 나를 위해 정말 아름다운 시를 써 주었다. 백 배의 열정으로 [owner.GetHerHim]에게 보답하겠다!"

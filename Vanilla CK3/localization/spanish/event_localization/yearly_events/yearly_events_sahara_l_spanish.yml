@@ -48,7 +48,7 @@
  yearly_saharan.0031.desc:0 "Las incursiones esclavistas y el consiguiente tráfico de personas son una brutal parte del día a día de cuantos viven en el Sahel y sus inmediaciones. Estas incursiones son demasiado lucrativas como para no realizarlas y muchos asentamientos se asaltan mutuamente de forma esporádica.\n\nSin embargo, últimamente los incursores de [slave_raider_county.GetNameNoTier] están asaltando [raided_county.GetNameNoTier] de forma continua y varios mercaderes prestigiosos planean un gran ataque contra las fuerzas lideradas por [raided_character_marshal.GetCouncilTitle] [raided_character_marshal.GetFirstName]."
  yearly_saharan.0031.a:0 "¡Suena rentable! ¡Enviad tropas!"
  yearly_saharan.0031.a.tt_success:0 "[raided_county.GetNameNoTierNoTooltip] sufre intensos saqueos de manos de esclavistas"
- yearly_saharan.0031.a.tt_fail:0 "[raided_character_marshal.GetTitledFirstNameNoTooltip] rechaza a los esclavistas"
+ yearly_saharan.0031.a.tt_fail:0 "[raided_character_marshal.GetTitledFirstNameNoTooltip|l] rechaza a los esclavistas"
  yearly_saharan.0031.b:0 "¡Detened esta barbarie!"
  yearly_saharan.0031.c:0 "Sinceramente, no me concierne."
  yearly_saharan.0031.c.raided_hurt:0 "Saquean [raided_county.GetNameNoTierNoTooltip]"
@@ -56,7 +56,7 @@
 
  #Marauding Slavers from [Realm]
  yearly_saharan.0032.t:0 "Esclavistas errantes de [hostile_sub_realm.GetNameNoTierNoTooltip]"
- yearly_saharan.0032.desc:0 "Lamentablemente, los esclavistas del Sahel son una amenaza que mucha gente en esta tierra debe afrontar. El atractivo de las riquezas recibidas por enviar a otros humanos a los confines de la Tierra es demasiado para algunos.\n\nPor lo general, estas incursiones son dispersas e inconexas, pero los esclavistas de [slave_raider_county.GetNameNoTier] están lanzando ataques concentrados contra [raided_county.GetNameNoTier]. Los merodeadores capturan aldeas enteras, ¡liderados por las fuerzas de [slave_raider_county.GetHolder.GetTitledFirstName]!"
+ yearly_saharan.0032.desc:0 "Lamentablemente, los esclavistas del Sahel son una amenaza que mucha gente en esta tierra debe afrontar. El atractivo de las riquezas recibidas por enviar a otros humanos a los confines de la Tierra es demasiado para algunos.\n\nPor lo general, estas incursiones son dispersas e inconexas, pero los esclavistas de [slave_raider_county.GetNameNoTier] están lanzando ataques concentrados contra [raided_county.GetNameNoTier]. Los merodeadores capturan aldeas enteras, ¡liderados por las fuerzas de [slave_raider_county.GetHolder.GetTitledFirstName|l]!"
  yearly_saharan.0032.a:0 "¡A las armas contra esta escoria!"
  yearly_saharan.0032.a.tt_success:0 "Derrotas a los esclavistas y saqueas sus bienes"
  yearly_saharan.0032.a.tt_fail:0 "Los incursores de [slave_raider_county.GetHolder.GetFirstNameNoTooltip] saquean [raided_county.GetNameNoTierNoTooltip]."

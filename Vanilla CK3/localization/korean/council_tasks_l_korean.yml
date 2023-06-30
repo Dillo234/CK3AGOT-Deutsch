@@ -37,6 +37,8 @@
  task_intrigue_good_skilled_notification_tooltip:0 "[active_councillor.GetCouncilTitlePossessive] [active_councillor.Custom('intrigue_skill_level')] 계책력 덕분에 뜻밖의 이익이 발생했습니다."
  task_learning_good_skilled_notification_tooltip:0 "[active_councillor.GetCouncilTitlePossessive] [active_councillor.Custom('learning_skill_level')] 학습력 덕분에 뜻밖의 이익이 발생했습니다."
 
+ task_martial_good_acclaimed_knight_notification_tooltip:0 "영광스러운 [acclaimed_knight] 덕분에 발생했습니다."
+
 
 #spouse
  spouse_task_diplomacy_good_skilled_notification_tooltip:0 "배우자의 [councillor.Custom('diplomacy_skill_level')] 외교력 덕분에 뜻밖의 이익이 발생했습니다."
@@ -75,7 +77,7 @@
  task_foreign_affairs_notification_tooltip:0 "$task_foreign_affairs$로부터"
 
  task_domestic_affairs:0 "대내 국정"
- task_domestic_affairs_effect_desc:4 "[direct_vassal|E] 의견: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_scale')|1]#!\n(최대 #P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_max')|1P]까지 #P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_monthly_increase')|2P]/달 만큼 증가)\n$TAB$자문위원의 [diplomacy_skill|E]: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_base')|2]#!"
+ task_domestic_affairs_effect_desc:5 "[direct_vassal|E] 의견: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_scale')|1]#!\n(최대 #P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_max')|0P]까지 #P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_monthly_increase')|2P]/달만큼 증가)\n$TAB$자문위원의 [diplomacy_skill|E]: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_base')|2]#!\n[GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName] [vassal|E] 의견: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_scale')|1]#!\n(최대 #P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_max')|0P]까지 #P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_monthly_increase')|2P]/달만큼 증가)\n$TAB$자문위원의 [diplomacy_skill|E]: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_base')|2]#!"
  task_domestic_affairs_bureaucrats_bonus_desc:2 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_family_business_bonus')|2]#!"
  task_domestic_affairs_family_business_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_erudition_bonus')|2]#!"
  task_domestic_affairs_chains_of_loyalty_bonus_desc:0 "\n$TAB$[GetPerk('chains_of_loyalty_perk').GetName(GetPlayer)]: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_chains_of_loyalty_bonus')|2]#!"
@@ -108,12 +110,13 @@
 #marshal
  task_organize_levies:1 "징집병 조직"
  task_organize_levies_maintenance_modifier:0 "$task_organize_levies$"
- task_organize_levies_effect_desc:4 "[levy|E] 규모, [garrison|E] 규모 및 충원율: #P +[SCOPE.ScriptValue('marshal_organize_levies_modifier_value')]%#!\n$TAB$기본: #P +[SCOPE.ScriptValue('marshal_organize_levies_base')]%#!\n$TAB$자문위원의 [martial_skill|E]: #P +[SCOPE.ScriptValue('marshal_organize_levies_skill_base')]%#!"
+ task_organize_levies_effect_desc:5 "[garrison|E] 규모 및 [levy|E] 충원율: #P +[SCOPE.ScriptValue('marshal_organize_levies_modifier_value')]%#!\n$TAB$기본: #P +[SCOPE.ScriptValue('marshal_organize_levies_base')]%#!\n$TAB$자문위원의 [martial_skill|E]: #P +[SCOPE.ScriptValue('marshal_organize_levies_skill_base')]%#!"
  task_organize_levies_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('marshal_organize_levies_erudition_bonus')]%#!"
  task_organize_levies_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('marshal_organize_levies_family_business_bonus')|1]%#!"
- task_organize_levies_maintenance_effect_desc:0 "\n\n부대 유지비: #P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_total')|1P]%#!\n$TAB$기본: #P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_base')|1P]%#!\n$TAB$자문위원의 [martial_skill|E]: #P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_skill_base')|1P]%#!"
+ task_organize_levies_maintenance_effect_desc:1 "\n\n소집한 [army|E] 유지비: [gold_i]#P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_total')|1P]%#!\n$TAB$기본: #P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_base')|1P]%#!\n$TAB$자문위원의 [martial_skill|E]: #P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_skill_base')|1P]%#!"
  task_organize_levies_maintenance_erudition_bonus_desc:1 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_erudition_bonus')|1]%#!"
  task_organize_levies_maintenance_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_family_business_bonus')|1]%#!"
+ task_train_commanders_acclaimed_knight_levy_captaincy:0 "\n$EFFECT_LIST_BULLET$#P [acclaimed_knight]의 징집병 훈련#!"
  task_organize_levies_well_organized_service:0 "\n$EFFECT_LIST_BULLET$#P 잘 조직된 부대#!"
  task_organize_levies_increased_military_presence:0 "\n$EFFECT_LIST_BULLET$#P 주둔군 증가#!"
  task_organize_levies_levy_desertion:0 "\n$EFFECT_LIST_BULLET$#N 징집병 탈영#!"
@@ -135,6 +138,7 @@
  task_train_commanders_maa_boost_effect_desc:0 "[knight_effectiveness|E], [men_at_arms|E]' [damage|E] 및 [toughness|E]:\n$TAB$최대 #P +[SCOPE.ScriptValue('marshal_maa_overtime_boost_max')|1]%#!까지 #P +[SCOPE.ScriptValue('marshal_maa_overtime_boost_monthly_increase')|1]%#!/달 만큼 증가 (현재: #P +[SCOPE.ScriptValue('marshal_maa_overtime_boost_scale')|1]%#!)\n$TAB$자문위원의 [martial_skill|E]: #P +[SCOPE.ScriptValue('marshal_maa_overtime_boost_base')|1]%#!"
  task_train_commanders_commander_erudition_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_erudition_bonus')|P]%#!"
  task_train_commanders_commander_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_family_business_bonus')|P]%#!"
+ task_train_commanders_acclaimed_knight_drills_hastiludes:0 "\n$EFFECT_LIST_BULLET$#P [acclaimed_knight]의 [GetTrait('tourney_participant').GetNameNoTooltip( GetNullCharacter )] 훈련#!"
  task_train_commanders_commander_learns_from_commander:1 "\n$EFFECT_LIST_BULLET$#P 지휘관이 [commander_trait]을 획득#!"
  task_train_commanders_knight_improved:0 "\n$EFFECT_LIST_BULLET$#P [knight] 향상됨#!"
  task_train_commanders_commander_wounded:0 "\n$EFFECT_LIST_BULLET$#N 지휘관이 부상당함#!"
@@ -155,6 +159,7 @@
  marshal_increase_control_nemesis_bonus_modifier:0 "[nemesis|E]이 $task_increase_control$를 수행 중입니다."
  marshal_increase_control_perk_bonus_modifier:0 "$strict_organization_perk_name$"
  marshal_increase_control_erudition_bonus_modifier:1 "[GetDynastyPerk('erudition_legacy_5').GetName]"
+ task_increase_control_acclaimed_knight_subdues_peasantry:0 "\n$EFFECT_LIST_BULLET$#P [acclaimed_knight]의 지역 농노 제압#!"
  task_increase_control_increase_opinion:0 "\n$EFFECT_LIST_BULLET$#P 영지 의견 증가#!"
  task_increase_control_baron_opinion_increase:0 "\n$EFFECT_LIST_BULLET$#P 남작 의견 증가#!"
  task_increase_control_lose_opinion:0 "\n$EFFECT_LIST_BULLET$#N 영지 의견 감소#!"
@@ -173,7 +178,7 @@
 
  task_manage_guards:0 "근위대 관리"
  task_manage_guards_knights_desc:0 "[knight_effectiveness|E]: \n$TAB$최대 #P +[SCOPE.ScriptValue('marshal_knight_overtime_boost_max')]%#!까지 #P +[SCOPE.ScriptValue('marshal_knight_overtime_boost_monthly_increase')]%#!/달 만큼 증가 (현재: #P +[SCOPE.ScriptValue('marshal_knights_overtime_boost_scale')]%#!)"
- task_manage_guards_scheme_desc:0 "\n\n적의 [hostile_scheme|E] [success_chance|E]: \n$TAB$최대 #P [SCOPE.ScriptValue('marshal_scheme_overtime_boost_max')]%#!까지 #P [SCOPE.ScriptValue('marshal_scheme_overtime_boost_monthly_increase')]%#!/달 만큼 감소 (현재: #P +[SCOPE.ScriptValue('marshal_scheme_overtime_boost_scale')]%#!)"
+ task_manage_guards_scheme_desc:1 "\n\n적의 [hostile_scheme|E] [success_chance|E]: \n$TAB$최대 #P [SCOPE.ScriptValue('marshal_scheme_overtime_boost_max')]%#!까지 #P [SCOPE.ScriptValue('marshal_scheme_overtime_boost_monthly_increase')]%#!/달 만큼 감소 (현재: #P [SCOPE.ScriptValue('marshal_scheme_overtime_boost_scale')]%#!)"
  task_manage_guards_erudition_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_erudition_bonus')|P]%#!"
  task_manage_guards_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_family_business_bonus')|P]%#!"
  task_manage_guards_knight_modifier:0 "근위대 관리: 기사 효율"
@@ -201,22 +206,22 @@
  task_disrupt_schemes_court_of_shadows_modifier:0 "배후 활동"
  task_disrupt_schemes_court_of_shadows_modifier_desc:0 "해당 인물은 첩보장이 적의 궁중을 잠식할 수 있도록 교란책을 펼치게 하고 있습니다."
  task_disrupt_schemes_notification_tooltip:0 "$task_disrupt_schemes$로부터"
- task_disrupt_schemes_hostile_scheme_resistance_base:1 "[hostile_scheme_resistance|E]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_modifier_final_scale')|1]#!\n$TAB$기본: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_hostile_scheme_resistance_base')|1]#!\n$TAB$[councillor.GetCouncilTitle] [councillor.GetFirstNamePossessive] [intrigue_skill|E]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_modifier_base_scale')|1]#!"
+ task_disrupt_schemes_hostile_scheme_resistance_base:2 "[hostile_scheme_resistance|E]: @scheme_power_icon!#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_modifier_final_scale')|1]#!\n$TAB$기본: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_hostile_scheme_resistance_base')|1]#!\n$TAB$[councillor.GetCouncilTitle] [councillor.GetShortUINamePossessive] [intrigue_skill|E]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_modifier_base_scale')|1]#!"
  task_disrupt_schemes_hostile_scheme_resistance_perk_bonus:0 "\n$TAB$[GetPerk('court_of_shadows_perk').GetName(GetPlayer)]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_court_of_shadows_modifier_scale')|1]#!"
  task_disrupt_schemes_hostile_scheme_resistance_legacy_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_erudition_legacy_5_modifier_scale')|P1]#!"
  task_disrupt_schemes_hostile_scheme_resistance_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_family_business_modifier_scale')|P1]#!"
- task_disrupt_schemes_discovery_chance_base:1 "\n[scheme_discovery_chance|E]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_total_modifier')|1]#!\n$TAB$기본: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_scheme_discovery_base')|1]#!\n$TAB$[councillor.GetCouncilTitle] [councillor.GetFirstNamePossessive] [intrigue_skill|E]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_scheme_discovery_modifier')|1]#!"
+ task_disrupt_schemes_discovery_chance_base:2 "\n[scheme_discovery_chance|E]: @exposed_icon!#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_total_modifier')|1]#!\n$TAB$기본: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_scheme_discovery_base')|1]#!\n$TAB$[councillor.GetCouncilTitle] [councillor.GetShortUINamePossessive] [intrigue_skill|E]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_scheme_discovery_modifier')|1]#!"
  task_disrupt_schemes_discovery_chance_perk_bonus:0 "\n$TAB$[GetPerk('court_of_shadows_perk').GetName(GetPlayer)]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_court_of_shadows_scheme_discovery_modifier_scale')|1]#!"
  task_disrupt_schemes_discovery_chance_legacy_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_erudition_legacy_5_discovery_modifier_scale')|P1]#!"
  task_disrupt_schemes_discovery_chance_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_family_business_discovery_modifier_scale')|P1]#!"
 
  task_support_schemes:0 "모략 지원"
  task_support_schemes_effect_desc:0 "[councillor.GetModifierDescForTask('task_support_schemes')]"
- task_support_schemes_base_desc:1 "[hostile_scheme|E] 위력: #P +[SCOPE.ScriptValue('spymaster_espionage_modifier_final_scale')|1]#!\n$TAB$기본: #P +[SCOPE.ScriptValue('spymaster_espionage_scheme_power_base')|P1]#!\n$TAB$[councillor.GetCouncilTitle] [councillor.GetFirstNamePossessive] [intrigue_skill|E]: #P +[SCOPE.ScriptValue('spymaster_espionage_modifier_base_scale')|P1]#!"
+ task_support_schemes_base_desc:2 "[hostile_scheme|E] [scheme_power_single|E]: @scheme_power_icon!#P +[SCOPE.ScriptValue('spymaster_espionage_modifier_final_scale')|1]#!\n$TAB$기본: #P +[SCOPE.ScriptValue('spymaster_espionage_scheme_power_base')|P1]#!\n$TAB$[councillor.GetCouncilTitle] [councillor.GetShortUINamePossessive] [intrigue_skill|E]: #P +[SCOPE.ScriptValue('spymaster_espionage_modifier_base_scale')|P1]#!"
  task_support_schemes_legacy_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('spymaster_espionage_legacy_bonus')|P1]#!"
  task_support_schemes_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('spymaster_espionage_family_business_bonus')|P1]#!"
  spymaster_espionage_court_type_bonus_desc:0 "\n$TAB$$court_intrigue$: #P +[SCOPE.ScriptValue('spymaster_espionage_court_type_bonus')|P1]#!"
- task_support_schemes_success_chance_base_desc:1 "\n[hostile_scheme|E] [success_chance|E]: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_total')|P1]#!\n$TAB$기본: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_base')|P1]#!\n$TAB$[councillor.GetCouncilTitle] [councillor.GetFirstNamePossessive] [intrigue_skill|E]: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_modifier_base_scale')|P1]#!"
+ task_support_schemes_success_chance_base_desc:2 "\n[hostile_scheme|E] [success_chance|E]: @scheme_success_icon!#P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_total')|P1]#!\n$TAB$기본: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_base')|P1]#!\n$TAB$[councillor.GetCouncilTitle] [councillor.GetShortUINamePossessive] [intrigue_skill|E]: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_modifier_base_scale')|P1]#!"
  task_support_schemes_success_chance_legacy_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_legacy_bonus')|P1]#!"
  task_support_schemes_success_chance_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_family_business_bonus')|P1]#!"
  spymaster_espionage_success_chance_court_type_bonus_desc:0 "\n$TAB$$court_intrigue$: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_court_type_bonus')|P1]#!"
@@ -229,7 +234,7 @@
  task_support_schemes_notification_tooltip:0 "$task_support_schemes$으로부터"
  
  task_find_secrets:0 "비밀 탐색"
- task_find_secrets_effect_desc:0 "궁정 내 비밀이 있는 경우:\n$TAB$[SCOPE.ScriptValue('spymaster_find_secrets_secret_discovery_chance')|P]#P %#!의 확률로 비밀을 알아냄"
+ task_find_secrets_effect_desc:1 "궁정 내 [secrets|E]이 있는 경우:\n$TAB$[SCOPE.ScriptValue('spymaster_find_secrets_secret_discovery_chance')|P]#P %#!의 확률로 [secret|E]을 알아냄"
  task_find_secrets_vassal_intimidation:0 "\n봉신 위협 확률"
  task_find_secrets_opinion_loss:0 "\n$EFFECT_LIST_BULLET$#N $task_find_secrets$ 발각됨#!"
  task_find_secrets_notification_tooltip:0 "$task_find_secrets$으로부터"
@@ -243,7 +248,7 @@
 
 #steward
  task_collect_taxes:0 "조세 수금"
- task_collect_taxes_effect_desc:2 "[domain|E] 세금: #P +[SCOPE.ScriptValue('steward_collect_taxes_scale_tooltip_total')|2]%#!\n$TAB$[councillor.GetCouncilTitle] [councillor.GetFirstName] [stewardship_skill|E]: #P +[SCOPE.ScriptValue('steward_collect_taxes_scale_base')|1]%#!"
+ task_collect_taxes_effect_desc:3 "[domain|E] 세금: [gold_i]#P +[SCOPE.ScriptValue('steward_collect_taxes_scale_tooltip_total')|2]%#!\n$TAB$[councillor.GetCouncilTitle] [councillor.GetShortUIName] [stewardship_skill|E]: #P +[SCOPE.ScriptValue('steward_collect_taxes_scale_base')|1]%#!"
  task_collect_taxes_tax_man_bonus_desc:2 "\n$TAB$[GetPerk('tax_man_perk').GetName(GetPlayer)]: #P +[SCOPE.ScriptValue('steward_collect_taxes_perk_bonus_scale')|2]%#!"
  task_collect_taxes_erudition_bonus_desc:2 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('steward_collect_taxes_erudition_bonus_scale')|2]%#!"
  task_collect_taxes_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('steward_collect_taxes_family_business_bonus_scale')|2]%#!"
@@ -315,6 +320,7 @@
  STEWARD_PROMOTE_CULTURE_RECLAIMING_BRITANNIA:0 "브리타니아 수복"
  STEWARD_PROMOTE_CULTURE_ALLOWED_NOMAD_SETTLEMENT:0 "유목민 정착"
  STEWARD_PROMOTE_CULTURE_HYBRID_VS_PARENTS_BONUS_MODIFIER:1 "새로 형성된 [hybrid_culture|E]가 출신 [culture|E]를 변경시킴"
+ STEWARD_PROMOTE_CULTURE_DIVERGENT_VS_PARENTS_BONUS_MODIFIER:0 "새로 형성된 [divergent_culture|E]가 출신 [culture|E]를 변경시킴"
  STEWARD_PROMOTE_CULTURE_LOCAL_COUNTY_MODIFIERS:0 "현지 [Concept( 'counties', '영지' )|E] [modifiers|E]"
  COUNCILLOR_SAME_CULTURE_AS_TARGET:0 "동일 [culture|E]"
 

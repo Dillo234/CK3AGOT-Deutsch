@@ -103,10 +103,10 @@
  SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_PERSONALITY_DILIGENT:0 "Un ejemplo deslumbrante de diligencia que jamás descuidó su deber."
  SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_PERSONALITY_COMPASSIONATE:0 "Célebre por ser un alma amable y compasiva, sus amigos siempre [ROOT.Char.Custom('ES_LoLa')] recordarán con cariño."
  SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_PERSONALITY_PATIENT:0 "Nunca dad[ROOT.Char.Custom('ES_OA')] a levantar la voz, fue un ejemplo de paciencia."
- SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_PERSONALITY_HUMBLE:1 "Est[ROOT.Char.Custom('ES_EA')] humilde [ROOT.Char.GetManWoman] nunca quiso que se diera demasiada importancia a sus logros."
+ SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_PERSONALITY_HUMBLE:1 "Est[ROOT.Char.Custom('ES_EA')] [ROOT.Char.GetWomanMan] humilde nunca quiso que se diera demasiada importancia a sus logros."
 
 #Heir message:
- SUCCESSION_EVENT_WINDOW_HEIR_UNDERAGE:0 "Apenas tiene [ROOT.Char.GetAge] años y necesitará apoyarse en el consejo durante sus primeros años de mandato."
+ SUCCESSION_EVENT_WINDOW_HEIR_UNDERAGE:1 "Apenas tiene [ROOT.Char.GetAge] años y necesitará apoyarse en su [ROOT.Char.GetDiarchTitle|l] [ROOT.Char.Custom('ES_ElLa')] [ROOT.Char.GetDiarchy.GetDiarch.GetTitledFirstNameNicknamedNoTooltip] durante sus primeros años de reinado."
  SUCCESSION_EVENT_WINDOW_HEIR_USELESS:0 "Al no tener habilidades para mantener el señorío unido, su mandato puede estar condenado al fracaso."
  SUCCESSION_EVENT_WINDOW_HEIR_MILITARY:0 "Al ser un[ROOT.Char.Custom('ES_XA')] táctic[ROOT.Char.Custom('ES_OA')] militar con talento, muchos confían en que asegurará muchas victorias al señorío en el campo de batalla."
  SUCCESSION_EVENT_WINDOW_HEIR_LEARNING:0 "[ROOT.Char.GetWomanMan|U] sabi[ROOT.Char.Custom('ES_OA')] y erudit[ROOT.Char.Custom('ES_OA')], se espera progreso e innovación durante su mandato."
@@ -124,7 +124,7 @@
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_UGLY_DECEITFUL:0 "Taimad[ROOT.Char.Custom('ES_OA')] y engaños[ROOT.Char.Custom('ES_OA')], es posible que la perdición de [ROOT.Char.GetFirstNameNoTooltip] termine siendo su enemistad con la verdad."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_GLUTTON_GREEDY:0 "[ROOT.Char.GetWomanMan|U] codicios[ROOT.Char.Custom('ES_OA')] y avar[ROOT.Char.Custom('ES_OA')], es improbable que sea popular entre el campesinado del señorío."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_CYNICAL_JUST:0 "Imparcial y just[ROOT.Char.Custom('ES_OA')] en todo, muchos esperan que trate todos los conflictos con excelencia."
- SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_CONTENT_ARBITRARY:1 "[ROOT.Char.GetManWoman] corrupt[ROOT.Char.Custom('ES_OA')] e injust[ROOT.Char.Custom('ES_OA')], pocos confían que sus vasallos se queden quietos cuando dilapide el legado de su predecesor."
+ SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_CONTENT_ARBITRARY:1 "[ROOT.Char.GetWomanMan] corrupt[ROOT.Char.Custom('ES_OA')] e injust[ROOT.Char.Custom('ES_OA')], pocos confían que sus vasallos se queden quietos cuando dilapide el legado de su predecesor."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_CRAVEN_MILITARY_ED:0 "Como prefiere dirigir sus tropas desde la seguridad de su hogar, a [ROOT.Char.GetFirstNameNoTooltip] le constará inspirar a sus soldados."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_SHY_CONTENT:1 "Est[ROOT.Char.Custom('ES_EA')] [ROOT.Char.GetWomanMan] solitari[ROOT.Char.Custom('ES_OA')] es perfectamente capaz de dejar que el consejo haga la mayor parte de su trabajo, para bien o para mal."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_ZEALOUS_PARANOID:0 "A la vista de que hay agentes de [ROOT.Char.GetFaith.DevilName] en cada esquina, herejes e infieles por igual deben temer su mandato."
@@ -157,7 +157,7 @@
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_DECEITFUL:0 "Taimad[ROOT.Char.Custom('ES_OA')] y engaños[ROOT.Char.Custom('ES_OA')], es posible que la perdición de [ROOT.Char.GetFirstNameNoTooltip] termine siendo su enemistad con la verdad."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_SHY:0 "Est[ROOT.Char.Custom('ES_EA')] [ROOT.Char.GetWomanMan] no habla mucho y pocos confían que le vaya bien en los asuntos diplomático."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_HUMBLE:0 "[ROOT.Char.GetWomanMan|U] piados[ROOT.Char.Custom('ES_OA')] y humilde, muchos temen que [ROOT.Char.GetFirstNameNoTooltip] estaría mejor preparad[ROOT.Char.Custom('ES_OA')] para [ROOT.Char.GetFaith.HouseOfWorship]s que para tronos."
- SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_ARBITRARY:0 "[ROOT.Char.GetManWoman] corrupt[ROOT.Char.Custom('ES_OA')] e injust[ROOT.Char.Custom('ES_OA')], pocos confían que sus vasallos se queden sentados si el señorío se empieza a venir abajo durante su mandato."
+ SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_ARBITRARY:0 "[ROOT.Char.GetWomanMan] corrupt[ROOT.Char.Custom('ES_OA')] e injust[ROOT.Char.Custom('ES_OA')], pocos confían que sus vasallos se queden sentados si el señorío se empieza a venir abajo durante su mandato."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_TEMPERATE:0 "[ROOT.Char.GetWomanMan|U] modest[ROOT.Char.Custom('ES_OA')] y comedid[ROOT.Char.Custom('ES_OA')], su naturaleza pasiva también puede ser su ruina."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_CHASTE:0 "Leal a su cónyuge y familia, seguro que [ROOT.Char.GetFirstNameNoTooltip] antepondrá el bien de su familia por encima de todas los intereses personales."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_LUSTFUL:0 "Los vasallos del país harán bien encerrando a sus parejas cuando [ROOT.Char.GetFirstNameNoTooltip] llegue al trono, pues siempre anda buscando a su siguiente conquista."
@@ -229,7 +229,7 @@
 
 #########################################
  SUCCESSION_EVENT_WINDOW_DEAD_DESC:0 "[CHARACTER.Custom('DeathMessageIntro')] [CHARACTER.Custom('DeathMessageReason')] [CHARACTER.Custom('DeathMessageOutro')]"
- SUCCESSION_EVENT_WINDOW_HEIR_DESC:0 "[CHARACTER.GetTitledFirstNameNoTooltip] sube al trono. [CHARACTER.Custom('HeirMessageInterface')]"
+ SUCCESSION_EVENT_WINDOW_HEIR_DESC:0 "[CHARACTER.GetTitledFirstNameNoTooltip|l] sube al trono. [CHARACTER.Custom('HeirMessageInterface')]"
  SUCCESSION_EVENT_WINDOW_GAME_OVER_DESC:4 "[CHARACTER.Custom('GameOverMessageInterface')]. [CHARACTER.Custom('GameOverMessageInterfaceDuration')] [CHARACTER.Custom('GameOverMessageInterfaceSplendor')]."
  SUCCESSION_EVENT_WINDOW_END_DATE_DESC:2 "Se ha alcanzado la fecha de finalización del juego.\n\n[SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageInterfaceDuration')] [SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageInterfaceSplendor')].[SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageNotableAchievements')]"
  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_SPANISH_DESC:0 " Gracias a tu gobierno y dirección, los tronos hispanos han quedado unidos bajo un[ROOT.Char.Custom('ES_XA')] únic[ROOT.Char.Custom('ES_OA')] gobernante."

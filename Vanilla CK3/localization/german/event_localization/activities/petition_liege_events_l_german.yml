@@ -8,7 +8,7 @@
  petition_liege.0001.a:1 "Findet [petition_vassal.GetTitledFirstNameNoTooltip] und bringt [petition_vassal.Custom('DE_PRO_PER_S_3P_A')] zu mir!"
  petition_liege.0001.a.tt:1 "Ihr empfangt [petition_vassal.GetTitledFirstName] an Eurem [royal_court|E]"
  petition_liege.0001.b:1 "Ich bin gerade zu beschäftigt, um mich um [petition_vassal.Custom('DE_PRO_PER_S_3P_A')] zu kümmern."
- petition_liege.0001.b.arrogant:1 "Pah! [petition_vassal.Custom('DE_ART_IND_N')|U] #EMP [petitioning_vassal.GetTitleAsNameNoTooltip]#! wird mir doch nicht die Zeit stehlen!"
+ petition_liege.0001.b.arrogant:1 "Pah! [petition_vassal.Custom('DE_ART_IND_N')|U] #EMP [petition_vassal.GetTitleAsNameNoTooltip]#! wird mir doch nicht die Zeit stehlen!"
  petition_liege.0001.b.humble:1 "Übermittelt [petition_vassal.GetTitledFirstNameNoTooltip] mein tiefstes Bedauern, dass ich [petition_vassal.Custom('DE_PRO_PER_S_3P_A')] nicht sehen kann."
  petition_liege.0001.b.tt:1 "Ihr schickt [petition_vassal.GetTitledFirstName] fort"
 
@@ -45,7 +45,7 @@
  petition_liege.0101.desc.county_opinion:0 "Ein Siechtum der Unzufriedenheit hat sich in meinen Landen breitgemacht.\n\nMein[petition_liege.Custom('DE_END_PRO_S_N')] [petition_liege.GetLadyLord], ich bin mir sicher, dass der Besuch eines hochrangigen Würdenträgers die Stimmung unter den Menschen aufhellen und sie wieder auf den richtigen Kurs bringen könnte.“"
  petition_liege.0101.desc.fortify_border:0 "Meine Ländereien stehen zwischen [petition_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] und Euren Feinden!\n\n[petition_county_example.GetNameNoTooltip] ist eine der Marken des Reichs, und seine Verteidigung liegt ebenso in Eurer Verantwortung wie in meiner.“"
  petition_liege.0101.desc.title_liege:0 "Bei allem gebotenen Respekt, Eure Majestät, aber das Lehen ([petition_claim.GetName]) gehört rechtmäßig mir!\n\nIhr herrscht über ein mächtiges Reich, mein[petition_liege.Custom('DE_END_PRO_S_N')] [petition_liege.GetLadyLord]. Könnt Ihr mir da nicht einen einzigen, kleinen Titel verleihen, auf den ich einen ehrlichen Anspruch habe?“"
- petition_liege.0101.desc.title_vassal:0 "Das Lehen von [second_party.GetTitledFirstName] (petition_claim.GetName) gehört rechtmäßig mir!\n\nMein [petition_liege.Custom('DE_END_PRO_S_N')] [petition_liege.GetLadyLord], Ihr solltet verstehen, wie wichtig Ansprüche auf die Ländereien sind, die wir halten. [second_party.Custom('DE_ART_DEF_S_N')|U] [second_party.GetTitleAsNameNoTooltip] sollte aufgeben, was nicht [second_party.Custom('DE_PRO_PER_S_3P_D')] gehört.“"
+ petition_liege.0101.desc.title_vassal:0 "Das Lehen von [second_party.GetTitledFirstName] ([petition_claim.GetName]) gehört rechtmäßig mir!\n\nMein [petition_liege.Custom('DE_END_PRO_S_N')] [petition_liege.GetLadyLord], Ihr solltet verstehen, wie wichtig Ansprüche auf die Ländereien sind, die wir halten. [second_party.Custom('DE_ART_DEF_S_N')|U] [second_party.GetTitleAsNameNoTooltip] sollte aufgeben, was nicht [second_party.Custom('DE_PRO_PER_S_3P_D')] gehört.“"
  petition_liege.0101.desc.construct_city:0 "[petition_construct_county.GetName] hat großes Potenzial, doch es mangelt ihm an dringend benötigter Infrastruktur.\n\nMein[petition_liege.Custom('DE_END_PRO_S_N')] [petition_liege.GetLadyLord], von der Finanzierung einer neuen Stadt in [petition_construct.GetName] würde das gesamte Reich allein schon wegen der Auswirkungen auf den Handel Gewinn ziehen.“"
  petition_liege.0101.desc.construct_temple:0 "Die Gläubigen von [petition_construct_county.GetNameNoTooltip] brauchen eine Stätte zum Ausleben ihres Glaubens.\n\nIch wäre Euer untertänigster Diener, wenn Ihr ein neues Gotteshaus für den [petition_liege.GetFaith.GetAdjectiveNoTooltip|l]en Glauben in [petition_construct.GetName] finanzieren könntet.“"
  petition_liege.0101.desc.development:0 "Meine Ländereien verblassen verglichen mit Eurem mächtigen Hauptsitz.\n\nBitte wendet einige der Reichtümer von [petition_liege.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier] für das bescheidene [petition_county_example.GetName] und zum Gewinn des Reichs als Ganzes auf.“"
@@ -256,6 +256,25 @@
  petition_liege.9999.gregarious:0 "Dies scheint eine gute Gelegenheit zu sein, sich unter die Höflinge zu mischen."
  petition_liege.9999.every_guest_and_courtier:0 "Jeder Gast und Höfling"
 
+ petition_liege.9001.t:0 "$petition_liege_header$ Taktikwechsel"
+ petition_liege.9001.desc:0 "Ich kann [petition_liege.GetTitledFirstName] nicht länger bezüglich meines Anliegens ([ROOT.Char.Custom('GetPetitionType')]) ersuchen. Dennoch bin ich den ganzen Weg hierher nach [petition_liege.GetCapitalLocation.GetName] gereist, um mir Gehör zu verschaffen, und ich werde mir diese Gelegenheit nicht entgehen lassen. Ich könnte [petition_liege.Custom('DE_PRO_PER_S_3P_A')] darum bitten, …"
+ petition_liege.9001.council_seat:0 "mich zum Mitglied des Rats zu ernennen."
+ petition_liege.9001.pay_debt:0 "meine Schulden zu begleichen."
+ petition_liege.9001.war_aid:0 "Unterstützung für den Krieg bereitzustellen."
+ petition_liege.9001.vassal_war:0 "Frieden bei meinen Mitvasallen durchzusetzen."
+ petition_liege.9001.faction_war:0 "eine mächtige Fraktionen zu zerschlagen."
+ petition_liege.9001.county_control:0 "Landvögte zu entsenden, um die Kontrolle über aufsässige Bezirke wiederherzustellen."
+ petition_liege.9001.county_convert:0 "Priester finanziell zu unterstützen, damit diese bei der Bekehrung von Grafschaften meines Reichs helfen."
+ petition_liege.9001.county_opinion:0 "mir einen königlichen Besuch abzustatten, um die Volksmeinung in meinem Reich zu stärken."
+ petition_liege.9001.fortify_border:0 "meine Grenzen zu stärken."
+ petition_liege.9001.title_liege:0 "mir einen meiner Ansprüche zu gewähren."
+ petition_liege.9001.title_vassal:0 "einen Anspruch zu übertragen."
+ petition_liege.9001.construct_city:0 "eine neue Stadt in meinem Reich zu finanzieren."
+ petition_liege.9001.construct_temple:0 "einen neuen Tempel in meinem Reich zu finanzieren."
+ petition_liege.9001.development:0 "einige [petition_liege.Custom('DE_PRO_POS_S_3P')]er Untertanen in mein Reich umzusiedeln."
+ petition_liege.9001.fallback:0 "einfach meine Kassen zu füllen."
+ petition_liege.0101.accept.fallback:0 "Wohlan denn. Eure Kassen sollen gefüllt werden."
+
  petition_liege_block_firing_councillor_effect_tt:0 "[petition_vassal.GetShortUIName|U] kann für 5 Jahre nicht aus dem [council|E] entfernt werden"
 
  ### Modifiers ###
@@ -287,3 +306,5 @@
  petition_liege_title_courtier:0 "Höfling"
 
  petition_liege_second_if_tt:0 "#bold Wenn [TARGET_CHARACTER.GetTitledFirstName] annimmt:#!"
+ 
+ petition_liege_costs_refunded:0 "$petition_liege_decision$ Kosten erstattet"

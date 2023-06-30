@@ -19,10 +19,10 @@
  trait_specific_ongoing.1004.c_dog:0 "¡Un perro! Vendedlo a la perrera."
 
  trait_specific_ongoing.1005.t:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_person'))|U] fallecid[dead_person.Custom('ES_OA')] recientemente"
- trait_specific_ongoing.1005.desc:0 "Cuando daba un paseo una noche de niebla, surge una aparición y habla con voz retumbante.\n\n«¡[ROOT.Char.GetFirstNameNoTooltip]! ¡Hace mucho tiempo ya!».\n\nEs mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('dead_person') )], [dead_person.GetTitledFirstName], de quien creía que [dead_person.GetDeathReason]!"
+ trait_specific_ongoing.1005.desc:0 "Cuando daba un paseo una noche de niebla, surge una aparición y habla con voz retumbante.\n\n«¡[ROOT.Char.GetFirstNameNoTooltip]! ¡Hace mucho tiempo ya!».\n\nEs mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('dead_person') )], [dead_person.GetTitledFirstName|l], de quien creía que [dead_person.GetDeathReason]!"
  trait_specific_ongoing.1005.a:0 "¡Menos mal que no!"
 
- trait_specific_ongoing.1006.desc:0 "Llevo un año recibiendo visitas frecuentes de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('dead_person') )] [dead_person.GetTitledFirstName], un día sí y otro también. [dead_person.GetSheHe|U] insiste que nadie más puede ver[dead_person.GetHerHim], pero la gente comienza a preocuparse…\n\n¿Cómo me voy a concentrar en mi [ROOT.Char.Custom('child_object_of_interest')] cuando [dead_person.GetSheHe] se comporta así?"
+ trait_specific_ongoing.1006.desc:0 "Llevo un año recibiendo visitas frecuentes de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('dead_person') )] [dead_person.GetTitledFirstName|l], un día sí y otro también. [dead_person.GetSheHe|U] insiste que nadie más puede ver[dead_person.GetHerHim], pero la gente comienza a preocuparse…\n\n¿Cómo me voy a concentrar en mi [ROOT.Char.Custom('child_object_of_interest')] cuando [dead_person.GetSheHe] se comporta así?"
  trait_specific_ongoing.1006.a:0 "¡Déjame en paz!"
 
  trait_specific_ongoing.1007.t:0 "Sueño de cristal"
@@ -31,7 +31,7 @@
  trait_specific_ongoing.1007.a.tt:0 "Ahora puedo tomar la decisión de construir un #bold monumento de cristal#!"
 
  trait_specific_ongoing.1008.t:0 "Perdiendo la realidad "
- trait_specific_ongoing.1008.desc:0 "Pasaba el día con mi amig[friend.Custom('ES_OA')] [friend.GetTitledFirstName] cuando, de repente, todo comienza a dar vueltas…\n\nGris acerado, rojo sangre, una cara que grita, mares escarlata oscuro…\n\nMe descubro agachad[ROOT.Char.Custom('ES_OA')] sobre su cuerpo, con un cuchillo ensangrentado en la mano."
+ trait_specific_ongoing.1008.desc:0 "Pasaba el día con mi amig[friend.Custom('ES_OA')] [friend.GetTitledFirstName|l] cuando, de repente, todo comienza a dar vueltas…\n\nGris acerado, rojo sangre, una cara que grita, mares escarlata oscuro…\n\nMe descubro agachad[ROOT.Char.Custom('ES_OA')] sobre su cuerpo, con un cuchillo ensangrentado en la mano."
  trait_specific_ongoing.1008.a:0 "¡[friend.GetFirstNameNoTooltip]! Oh, no… He de esconder el cuerpo."
  trait_specific_ongoing.1008.b:0 "¡He de confesar!"
 
@@ -197,36 +197,36 @@
 
 
  trait_specific_ongoing.3001.t:0 "Compartiendo penas"
- trait_specific_ongoing.3001.desc:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sympathetic_character') )] [sympathetic_character.GetTitledFirstName] se me acerca cuando he terminado de celebrar audiencia, con gente aún departiendo.\n\n«Mi [ROOT.Char.GetLadyLord], he oído que vos también sufrís de periodos de… melancolía. ¿Podríamos quizá hablar de nuestras experiencias?»"
+ trait_specific_ongoing.3001.desc:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sympathetic_character') )] [sympathetic_character.GetTitledFirstName|l] se me acerca cuando he terminado de celebrar audiencia, con gente aún departiendo.\n\n«Mi [ROOT.Char.GetLadyLord], he oído que vos también sufrís de periodos de… melancolía. ¿Podríamos quizá hablar de nuestras experiencias?»"
  trait_specific_ongoing.3001.a:0 "Venid, tenemos mucho de qué hablar."
  trait_specific_ongoing.3001.b:0 "¡No tengo tales problemas! ¿De qué estáis hablando?"
  trait_specific_ongoing.3001.b.tt:0 "Jajaja… ja."
 
  trait_specific_ongoing.3002.t:0 "Soluciones a largo plazo"
- trait_specific_ongoing.3002.desc:0 "«Mi [ROOT.Char.GetLadyLord]», se me acerca una tarde mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName]. «Tengo algunos remedios que podríamos intentar para vuestra insistente melancolía. Podría empeorar un poco antes de mejorar, pero ¡vale la pena intentarlo!»"
+ trait_specific_ongoing.3002.desc:0 "«Mi [ROOT.Char.GetLadyLord]», se me acerca una tarde mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName|l]. «Tengo algunos remedios que podríamos intentar para vuestra insistente melancolía. Podría empeorar un poco antes de mejorar, pero ¡vale la pena intentarlo!»"
  trait_specific_ongoing.3002.a:0 "Haré lo que sea para librarme de esto."
  trait_specific_ongoing.3002.b:0 "Solo necesito una siesta larga. O tres."
 
- trait_specific_ongoing.3003.desc:0 "«Para curar este tipo de aflicción es muy importante airear los malos pensamientos», me asegura mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName]. «Venid a verme un par de veces a la semana y hablaremos de todo lo que os pesa»."
+ trait_specific_ongoing.3003.desc:0 "«Para curar este tipo de aflicción es muy importante airear los malos pensamientos», me asegura mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName|l]. «Venid a verme un par de veces a la semana y hablaremos de todo lo que os pesa»."
  trait_specific_ongoing.3003.a:0 "Me tomaré el tiempo."
  trait_specific_ongoing.3003.b:0 "Todo esto es demasiado para mí… me vuelvo al lecho."
 
- trait_specific_ongoing.3004.desc:0 "«Para que os sintáis mejor tenemos que trabajar en vuestros pensamientos y en vuestras rutinas», me informa mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName]. «Os ayudaré a identificar vuestros pensamientos y hábitos negativos y a trabajar para cambiarlos»."
+ trait_specific_ongoing.3004.desc:0 "«Para que os sintáis mejor tenemos que trabajar en vuestros pensamientos y en vuestras rutinas», me informa mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName|l]. «Os ayudaré a identificar vuestros pensamientos y hábitos negativos y a trabajar para cambiarlos»."
  trait_specific_ongoing.3004.a:0 "¡Tiene sentido!"
 
- trait_specific_ongoing.3005.desc:0 "«El ejercicio y la estimulación corporal son efectivos para equilibrar vuestros humores», me dice mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName]. «Daréis tres vueltas a vuestra residencia todos los días»."
+ trait_specific_ongoing.3005.desc:0 "«El ejercicio y la estimulación corporal son efectivos para equilibrar vuestros humores», me dice mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName|l]. «Daréis tres vueltas a vuestra residencia todos los días»."
  trait_specific_ongoing.3005.a:0 "Me esforzaré."
 
- trait_specific_ongoing.3006.desc:0 "«Estos malos pensamientos y esta melancolía son claramente obra de malos espíritus y demonios», me dice mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName]. «Encargaremos a un [ROOT.Char.Custom('DefaultPriestTitle')] que rece por vos para expulsar el mal»."
+ trait_specific_ongoing.3006.desc:0 "«Estos malos pensamientos y esta melancolía son claramente obra de malos espíritus y demonios», me dice mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName|l]. «Encargaremos a un [ROOT.Char.Custom('DefaultPriestTitle')] que rece por vos para expulsar el mal»."
  trait_specific_ongoing.3006.a:0 "¡El poder de [ROOT.Char.GetFaith.HighGodName] me curará!"
 
- trait_specific_ongoing.3007.desc:0 "Tras todo lo que me ha hecho pasar mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName], poco a poco me he dado cuenta de que he vuelto a #EMP sentir#! de nuevo."
+ trait_specific_ongoing.3007.desc:0 "Tras todo lo que me ha hecho pasar mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName|l], poco a poco me he dado cuenta de que he vuelto a #EMP sentir#! de nuevo."
  trait_specific_ongoing.3007.desc_ending:0 "\n\nAl igual que el sol atravesando una gruesa capa de nubes, siento que la felicidad vuelve a mi alma."
  trait_specific_ongoing.3007.a:0 "Me… ¡me siento feliz!"
 
- trait_specific_ongoing.3008.desc_physician_died:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName] falleció antes de que pudiera terminar de curarme la melancolía, pero las indicaciones que me dejó me ayudaron a completar el tratamiento por mí mism[ROOT.Char.Custom('ES_OA')]."
- trait_specific_ongoing.3008.desc_no_depression:0 "No tengo por qué continuar la rutina que mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName] me impuso para librarme de la melancolía, ¡puesto que ya estoy libre esa aflicción!"
- trait_specific_ongoing.3008.desc_fallback:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName] no ha terminado el tratamiento de mi melancolía, pero siento que la oscuridad se aleja de mí."
+ trait_specific_ongoing.3008.desc_physician_died:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName|l] falleció antes de que pudiera terminar de curarme la melancolía, pero las indicaciones que me dejó me ayudaron a completar el tratamiento por mí mism[ROOT.Char.Custom('ES_OA')]."
+ trait_specific_ongoing.3008.desc_no_depression:0 "No tengo por qué continuar la rutina que mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName|l] me impuso para librarme de la melancolía, ¡puesto que ya estoy libre esa aflicción!"
+ trait_specific_ongoing.3008.desc_fallback:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))] [court_physician.GetTitledFirstName|l] no ha terminado el tratamiento de mi melancolía, pero siento que la oscuridad se aleja de mí."
 
  trait_specific_ongoing.3009.t:0 "Días pesados"
  trait_specific_ongoing.3009.desc:0 "Un día sigue a otro, implacablemente, incluso cuando mi mente se ahoga en el agotamiento y la desesperanza.\n\nA veces, me cuesta demasiado incluso levantarme del lecho por la mañana."
@@ -238,7 +238,7 @@
  trait_specific_ongoing.3015.council.desc:0 "me apresuro a la reunión del consejo, tarde de nuevo,"
  trait_specific_ongoing.3015.withdraw.desc:0 "me levanto para retirarme pronto de la cena,"
  trait_specific_ongoing.3015.book.desc:0 "me doy cuenta de que he olvidado el libro que me prestó,"
- trait_specific_ongoing.3015.end.desc:0 "Sé exactamente cómo reaccionará [unsympathetic.GetSheHe].\n\n«¿Por qué me sorprendo siquiera?», dice suspirando [unsympathetic.GetTitledFirstNameNoTooltip], y mi corazón se hunde. "
+ trait_specific_ongoing.3015.end.desc:0 "Sé exactamente cómo reaccionará [unsympathetic.GetSheHe].\n\n«¿Por qué me sorprendo siquiera?», dice suspirando [unsympathetic.GetTitledFirstNameNoTooltip|l], y mi corazón se hunde. "
  trait_specific_ongoing.3015.a:0 "¡Le demostraré que se equivoca!"
  trait_specific_ongoing.3015.b:0 "«¡Calla, so [unsympathetic.Custom('InsultNoun')] [unsympathetic.Custom('InsultAdjective')]!»"
  trait_specific_ongoing.3015.c:0 "[unsympathetic.GetFirstNameNoTooltip] tiene razón. No valgo para nada…"
@@ -248,18 +248,18 @@
  
 
  trait_specific_ongoing.5001.t:0 "Reunión privada"
- trait_specific_ongoing.5001.desc_opening:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim') )] [victim.GetTitledFirstName] y yo nos encontramos a solas mientras el resto de la corte se ha ido a dormir.\n\n"
+ trait_specific_ongoing.5001.desc_opening:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim') )] [victim.GetTitledFirstName|l] y yo nos encontramos a solas mientras el resto de la corte se ha ido a dormir.\n\n"
  trait_specific_ongoing.5001.desc_small:0 "Mientras hablamos, no puedo evitar notar sus brazos fibrosos, la carne estirada que se ve debajo…"
  trait_specific_ongoing.5001.desc_big:0 "Mientras hablamos, no puedo evitar notar sus brazos regordetes, carne y grasa reposando en montículos suculentos…"
  trait_specific_ongoing.5001.desc:0 "Mientras hablamos, no puedo evitar notar su piel y cómo se desplaza todo al moverse…"
  trait_specific_ongoing.5001.a:0 "Un bocado de medianoche vendría bien."
  trait_specific_ongoing.5001.b:0 "«Por favor, [victim.GetFirstNameNoTooltip], sigue»."
 
- trait_specific_ongoing.5002.desc:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('murderer') )] [murderer.GetTitledFirstName] y yo nos encontramos a solas mientras el resto de la corte se ha ido a dormir.\n\nSegún avanza la noche, [murderer.GetSheHe] cada vez está más intens[murderer.Custom('ES_OA')], sus ojos no se desvían de ningún rincón de piel despejada de mi cuerpo. Cuando estaba a punto de preguntarle las intenciones, [murderer.GetSheHe] desenvaina un cuchillo y sonríe."
+ trait_specific_ongoing.5002.desc:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('murderer') )] [murderer.GetTitledFirstName|l] y yo nos encontramos a solas mientras el resto de la corte se ha ido a dormir.\n\nSegún avanza la noche, [murderer.GetSheHe] cada vez está más intens[murderer.Custom('ES_OA')], sus ojos no se desvían de ningún rincón de piel despejada de mi cuerpo. Cuando estaba a punto de preguntarle las intenciones, [murderer.GetSheHe] desenvaina un cuchillo y sonríe."
  trait_specific_ongoing.5002.a:0 "No, no, ¡por favor, NO! ¡AAAH!"
 
  trait_specific_ongoing.5003.t:0 "Tentaciones de la carne"
- trait_specific_ongoing.5003.desc_opening:0 "Mi sirvient[servant.Custom('ES_EA')] [servant.GetTitledFirstName] me ha llamado la atención… La forma de sus brazos, la curvatura de su cuello… Cuando [servant.GetHerHim] acorralo en una despensa, me pregunta qué quiero de [servant.Custom('ES_ElElla')] con una sonrisa sugerente en los labios.\n\n«Ansío tu cuerpo», respondo mientras me aprieto contra [servant.Custom('ES_ElElla')]."
+ trait_specific_ongoing.5003.desc_opening:0 "Mi sirvient[servant.Custom('ES_EA')] [servant.GetTitledFirstName|l] me ha llamado la atención… La forma de sus brazos, la curvatura de su cuello… Cuando [servant.GetHerHim] acorralo en una despensa, me pregunta qué quiero de [servant.Custom('ES_ElElla')] con una sonrisa sugerente en los labios.\n\n«Ansío tu cuerpo», respondo mientras me aprieto contra [servant.Custom('ES_ElElla')]."
  trait_specific_ongoing.5003.desc_big:0 "«Está tan rolliz[servant.Custom('ES_OA')]… tan llen[servant.Custom('ES_OA')] de #EMP vida#!!»"
  trait_specific_ongoing.5003.desc:0 "«Está tan llen[servant.Custom('ES_OA')] de #EMP vida#!!»"
  trait_specific_ongoing.5003.a:0 "En un movimiento fluido, le rajo la garganta."
@@ -271,12 +271,12 @@
  trait_specific_ongoing.5004.b:0 "Y bien, ¿cómo van las cosas por aquí?"
 
  trait_specific_ongoing.5005.t:0 "Bocado de medianoche."
- trait_specific_ongoing.5005.desc:0 "Una madrugada me tropiezo con mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('courtier'))] [courtier.GetTitledFirstName] echando un sueño.\n\nNo me había dado cuenta antes, pero la verdad es que tiene un cuerpo exquisito…"
+ trait_specific_ongoing.5005.desc:0 "Una madrugada me tropiezo con mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('courtier'))] [courtier.GetTitledFirstName|l] echando un sueño.\n\nNo me había dado cuenta antes, pero la verdad es que tiene un cuerpo exquisito…"
  trait_specific_ongoing.5005.a:0 "¡Es #EMP casi#! más de lo que puedo tolerar!"
  trait_specific_ongoing.5005.b:0 "[courtier.GetHerHim|U] despierto… no puede estar cómod[courtier.Custom('ES_OA')] ahí."
 
  trait_specific_ongoing.6001.t:0 "Con las calzas bajadas"
- trait_specific_ongoing.6001.desc:0 "Para excitarme antes de ver a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover') )] [lover.GetTitledFirstName], saco [ROOT.Char.Custom('DeviantObjectArticle')]… #EMP ¡Oh…!#!\n\nEstoy tan concentrad[ROOT.Char.Custom('ES_OA')], explorando sus detalles, que no oigo abrirse la puerta. Lo que sí oigo es el grito ahogado de [lover.GetFirstNameNoTooltip] cuando ve lo que estoy haciendo."
+ trait_specific_ongoing.6001.desc:0 "Para excitarme antes de ver a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover') )] [lover.GetTitledFirstName|l], saco [ROOT.Char.Custom('DeviantObjectArticle')]… #EMP ¡Oh…!#!\n\nEstoy tan concentrad[ROOT.Char.Custom('ES_OA')], explorando sus detalles, que no oigo abrirse la puerta. Lo que sí oigo es el grito ahogado de [lover.GetFirstNameNoTooltip] cuando ve lo que estoy haciendo."
  trait_specific_ongoing.6001.a:0 "Tengo de sobra… Por si queréis uniros"
  trait_specific_ongoing.6001.a.success:0 "A [lover.GetSheHe] le va"
  trait_specific_ongoing.6001.a.failure:0 "[lover.GetSheHe|U] no comparte tus… gustos"
@@ -284,16 +284,16 @@
  trait_specific_ongoing.6001.b_man:0 "Yo… me… ¡me lo recomendó un médico para la virilidad!"
 
  trait_specific_ongoing.6002.t:0 "Desviaciones señoriales"
- trait_specific_ongoing.6002.desc:0 "Voy a hacer una visita a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('liege') )] [liege.GetTitledFirstName] y me presento en sus aposentos.\n\nAbro la puerta y me [liege.GetHerHim] encuentro en la agonía del éxtasis que le proporciona su [ROOT.Char.Custom('DeviantObjectArticle')]… ¡Ni siquiera sabía que pudiera usarse así!"
+ trait_specific_ongoing.6002.desc:0 "Voy a hacer una visita a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('liege') )] [liege.GetTitledFirstName|l] y me presento en sus aposentos.\n\nAbro la puerta y me [liege.GetHerHim] encuentro en la agonía del éxtasis que le proporciona su [ROOT.Char.Custom('DeviantObjectArticle')]… ¡Ni siquiera sabía que pudiera usarse así!"
  trait_specific_ongoing.6002.a:0 "Vaya, vaya, vaya, #EMP esto#! es interesante!"
  trait_specific_ongoing.6002.b:0 "Oh, esto… parece #EMP interesante#!."
  trait_specific_ongoing.6002.c:0 "¿Qué significa esto?"
  trait_specific_ongoing.6002.d:0 "Creo que me marcho."
 
  trait_specific_ongoing.6003.t:0 "Desviación"
- trait_specific_ongoing.6003.desc_opening:0 "Estoy en la agonía del éxtasis, con la ayuda de mi [ROOT.Char.Custom('DeviantObjectArticle')], cuando mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal') )] [vassal.GetTitledFirstName] entra en la alcoba.\n\n"
+ trait_specific_ongoing.6003.desc_opening:0 "Estoy en la agonía del éxtasis, con la ayuda de mi [ROOT.Char.Custom('DeviantObjectArticle')], cuando mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal') )] [vassal.GetTitledFirstName|l] entra en la alcoba.\n\n"
  trait_specific_ongoing.6003.desc_deviant:0 "Sus ojos se abren, pero no con disgusto, sino con interés. «Oh, nunca había pensado en usar eso #EMP así#!. ¡Sois una inspiración!»"
- trait_specific_ongoing.6003.desc_joined:0 "Veo cómo duda, pero cierra la puerta y entra. «Oh, [liege.GetTitledFirstNameNoTooltip], eso parece… ¡Parece #EMP interesante#!! Dejad que os ayude»."
- trait_specific_ongoing.6003.desc_exposed:0 "Hororizad[vassal.Custom('ES_OA')], abre la puerta de golpe, «¡[liege.GetTitledFirstNameNoTooltip], ¿qué significa esto?!»"
+ trait_specific_ongoing.6003.desc_joined:0 "Veo cómo duda, pero cierra la puerta y entra. «Oh, [liege.GetTitledFirstNameNoTooltip|l], eso parece… ¡Parece #EMP interesante#!! Dejad que os ayude»."
+ trait_specific_ongoing.6003.desc_exposed:0 "Hororizad[vassal.Custom('ES_OA')], abre la puerta de golpe, «¡[liege.GetTitledFirstNameNoTooltip|l], ¿qué significa esto?!»"
  trait_specific_ongoing.6003.desc_ew:0 "Hororizad[vassal.Custom('ES_OA')], sale de la alcoba caminando hacia atrás, «Fin… finjamos que no he visto nada, ¿de acuerdo?»"
  trait_specific_ongoing.6003.a:0 "#EMP ¡Ugg…!#!"

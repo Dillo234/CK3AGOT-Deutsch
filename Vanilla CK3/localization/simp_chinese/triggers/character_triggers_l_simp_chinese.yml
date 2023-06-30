@@ -62,6 +62,7 @@
  NOT_I_HAVE_TRAIT_GROUP_TRIGGER:1 "你#bold 没#!有[TRAIT_GROUP.GetName]组的一项特质"
  THEY_HAVE_TRAIT_GROUP_TRIGGER:0 "[CHARACTER.GetShortUIName|U]拥有[TRAIT_GROUP.GetName]组的一项特质"
  NOT_THEY_HAVE_TRAIT_GROUP_TRIGGER:0 "[CHARACTER.GetShortUIName|U]#bold 没#!有[TRAIT_GROUP.GetName]组的一项特质"
+ HAS_TRAIT_GROUP_TRIGGER_NONE:0 "拥有[TRAIT_GROUP.GetName]组的一项特质"
 
  HAS_CHARACTER_MODIFIER_TRIGGER:0 "拥有修正：$MODIFIER|V$"
  NOT_HAS_CHARACTER_MODIFIER_TRIGGER:0 "#bold 没#!有修正：$MODIFIER|V$"
@@ -289,8 +290,8 @@
  I_AM_IN_ACTIVITY_TRIGGER:1 "你已经处于一个[activity|E]中"
  THEY_ARE_IN_ACTIVITY_TRIGGER:0 "[CHARACTER.GetShortUIName|V]已经处于一个[activity|E]中"
 
- THEY_HAVE_CHARACTER_FLAG_TRIGGER:0 "[CHARACTER.GetShortUIName|V]拥有$FLAG|V$旗标"
- NOT_THEY_HAVE_CHARACTER_FLAG_TRIGGER:0 "[CHARACTER.GetShortUIName|V]#bold 没#!有$FLAG|V$旗标"
+ THEY_HAVE_CHARACTER_FLAG_TRIGGER:1 "[CHARACTER.GetShortUIName|VU]拥有$FLAG|V$旗标"
+ NOT_THEY_HAVE_CHARACTER_FLAG_TRIGGER:1 "[CHARACTER.GetShortUIName|VU]#bold 没#!有$FLAG|V$旗标"
 
  I_HAVE_A_HOOK_ON:1 "你对[TARGET_CHARACTER.GetShortUIName]拥有[hook|E]"
  I_DO_NOT_HAVE_A_HOOK_ON:1 "你对[TARGET_CHARACTER.GetShortUIName]#bold 没#!有[hook|E]"
@@ -481,6 +482,20 @@
  MY_PROWESS_IS_NOT_LESS_THAN:0 "你的[prowess|E]大于等于[prowess_i]$NUM|V0$"
  THEIR_PROWESS_IS_NOT_LESS_THAN:0 "[CHARACTER.GetShortUINamePossessive|V]的[prowess|E]大于等于[prowess_i]$NUM|V0$"
 
+ PROWESS_NO_PORTRAIT_GLOBAL:0 "[natural_prowess|E]"
+ PROWESS_NO_PORTRAIT_IS_AT_LEAST:0 "[natural_prowess|E]大于等于[prowess_i]$NUM|V0$"
+ MY_PROWESS_NO_PORTRAIT_IS_AT_LEAST:0 "你的[natural_prowess|E]大于等于[prowess_i]$NUM|V0$"
+ THEIR_PROWESS_NO_PORTRAIT_IS_AT_LEAST:0 "[CHARACTER.GetShortUINamePossessive|V]的[natural_prowess|E]大于等于[prowess_i]$NUM|V0$"
+ PROWESS_NO_PORTRAIT_IS_NOT_AT_LEAST:0 "[natural_prowess|E]小于[prowess_i]$NUM|V0$"
+ MY_PROWESS_NO_PORTRAIT_IS_NOT_AT_LEAST:0 "你的[natural_prowess|E]小于[prowess_i]$NUM|V0$"
+ THEIR_PROWESS_NO_PORTRAIT_IS_NOT_AT_LEAST:0 "[CHARACTER.GetShortUINamePossessive|V]的[natural_prowess|E]小于[prowess_i]$NUM|V0$"
+ PROWESS_NO_PORTRAIT_IS_LESS_THAN:0 "[natural_prowess|E]小于[prowess_i]$NUM|V0$"
+ MY_PROWESS_NO_PORTRAIT_IS_LESS_THAN:0 "你的[natural_prowess|E]小于[prowess_i]$NUM|V0$"
+ THEIR_NO_PORTRAIT_PROWESS_IS_LESS_THAN:0 "[CHARACTER.GetShortUINamePossessive|V]的[natural_prowess|E]小于[prowess_i]$NUM|V0$"
+ PROWESS_NO_PORTRAIT_IS_NOT_LESS_THAN:0 "[natural_prowess|E]大于[prowess_i]$NUM|V0$"
+ MY_PROWESS_NO_PORTRAIT_IS_NOT_LESS_THAN:0 "你的[natural_prowess|E]大于等于[prowess_i]$NUM|V0$"
+ THEIR_PROWESS_NO_PORTRAIT_IS_NOT_LESS_THAN:0 "[CHARACTER.GetShortUINamePossessive|V]的[natural_prowess|E]大于等于[prowess_i]$NUM|V0$"
+
  CAN_ATTACK_IN_HIERARCHY_GLOBAL:0 "可以攻击[TARGET_CHARACTER.GetShortUIName]，因为[TARGET_CHARACTER.GetSheHe]要么[independent|E]，要么是[liege|E]，要么在同一[liege|E]治下。"
  CAN_NOT_ATTACK_IN_HIERARCHY_GLOBAL:0 "#bold 不#!能攻击[TARGET_CHARACTER.GetShortUIName]，因为[TARGET_CHARACTER.GetSheHe]要么不[independent|E]，要么不是[liege|E]，要么不在同一[liege|E]治下。"
  CAN_ATTACK_IN_HIERARCHY_FIRST_THIRD:0 "[CHARACTER.GetShortUIName|U]可以攻击[TARGET_CHARACTER.GetShortUIName]，因为[TARGET_CHARACTER.GetSheHe]要么[independent|E]，要么是[liege|E]，要么在同一[liege|E]治下"
@@ -494,22 +509,30 @@
  HAS_NUM_GOOD_CONGENITAL_TRAITS:0 "拥有$NUM|V0$个正面的[congenital|E]特质"
  I_HAVE_NUM_GOOD_CONGENITAL_TRAITS:1 "你拥有$NUM|V0$个正面的[congenital|E]特质"
 
+ CHARACTER_HAS_NUM_SINFUL_TRAITS:0 "[CHARACTER.GetShortUIName|U]拥有$NUM|V0$个正面的[sinful|E]特质"
+ HAS_NUM_SINFUL_TRAITS:0 "拥有$NUM|V0$和正面的[sinful|E]特质"
+ I_HAVE_NUM_SINFUL_TRAITS:0 "你拥有$NUM|V0$个正面的[sinful|E]特质"
+
+ CHARACTER_HAS_NUM_VIRTUOUS_TRAITS:0 "[CHARACTER.GetShortUIName|U]拥有$NUM|V0$个正面的[virtuous|E]特质"
+ HAS_NUM_VIRTUOUS_TRAITS:0 "拥有$NUM|V0$个正面的[virtuous|E]特质"
+ I_HAVE_NUM_VIRTUOUS_TRAITS:0 "你拥有$NUM|V0$个正面的[virtuous|E]特质"
+
  NUMBER_OF_TRAITS_TRIGGER:0 "[CHARACTER.GetShortUIName|U]拥有的特质数量：$NUM|V0$"
  NUMBER_OF_TRAITS_IN_COMMON_WITH_TARGET_TRIGGER:0 "与[TARGET_CHARACTER.GetShortUIName|U]相同特质的数量：$NUM|V0$"
  CHARACTER_HAS_NUM_OPPOSING_TRAITS:0 "[CHARACTER.GetShortUIName|U]有$NUM|V0$个对立[traits|E]"
  CHARACTER_HAS_NUM_OPPOSING_TRAITS_ON_TARGET:0 "与[TARGET_CHARACTER.GetShortUIName|U]对立特质的数量：$NUM|V0$"
  CHARACTER_HAS_NUM_SAME_TRAITS:0 "[CHARACTER.GetShortUIName|U]拥有$NUM|V0$个共同[traits|E]"
 
- HAS_REALM_SIZE_TRIGGER:0 "整个领地的[realm_size|E]大于等于$NUM|V$"
- NOT_HAS_REALM_SIZE_TRIGGER:0 "整个领地的[realm_size|E]小于$NUM|V$#weak （$CURRENT_VALUE$）#!"
- I_HAVE_REALM_SIZE_TRIGGER:0 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]的[realm_size|E]大于等于$NUM|V$#weak （$CURRENT_VALUE$）#!"
- THEY_HAVE_REALM_SIZE_TRIGGER:0 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]的[realm_size|E]大于等于$NUM|V$#weak （$CURRENT_VALUE$）#!"
- NOT_I_HAVE_REALM_SIZE_TRIGGER:0 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]的[realm_size|E]小于$NUM|V$#weak （$CURRENT_VALUE$）#!"
- NOT_THEY_HAVE_REALM_SIZE_TRIGGER:0 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]的[realm_size|E]小于$NUM|V$#weak （$CURRENT_VALUE$）#!"
+ HAS_REALM_SIZE_TRIGGER:1 "整个领地的[realm_size|E]大于等于$NUM|V0$"
+ NOT_HAS_REALM_SIZE_TRIGGER:1 "整个领地的[realm_size|E]小于$NUM|V0$#weak （$CURRENT_VALUE|V0$）#!"
+ I_HAVE_REALM_SIZE_TRIGGER:1 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]的[realm_size|E]大于等于$NUM|V0$#weak （$CURRENT_VALUE|V0$）#!"
+ THEY_HAVE_REALM_SIZE_TRIGGER:1 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]的[realm_size|E]大于等于$NUM|V0$#weak （$CURRENT_VALUE|V0$）#!"
+ NOT_I_HAVE_REALM_SIZE_TRIGGER:1 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]的[realm_size|E]小于$NUM|V0$#weak （$CURRENT_VALUE|V0$）#!"
+ NOT_THEY_HAVE_REALM_SIZE_TRIGGER:1 "[CHARACTER.GetTopLiege.GetPrimaryTitle.GetName]的[realm_size|E]小于$NUM|V0$#weak （$CURRENT_VALUE|V0$）#!"
 
- HAS_SUB_REALM_SIZE_TRIGGER:0 "[realm_size|E]大于等于$NUM|V$#weak （$CURRENT_VALUE$）#!"
- I_HAVE_SUB_REALM_SIZE_TRIGGER:1 "你的[realm_size|E]大于等于$NUM|V$#weak （$CURRENT_VALUE$）#!"
- THEY_HAVE_SUB_REALM_SIZE_TRIGGER:0 "[CHARACTER.GetShortUINamePossessive]的[realm_size|E]大于等于$NUM|V$#weak （$CURRENT_VALUE$）#!"
+ HAS_SUB_REALM_SIZE_TRIGGER:1 "[realm_size|E]大于等于$NUM|V0$#weak （$CURRENT_VALUE|V0$）#!"
+ I_HAVE_SUB_REALM_SIZE_TRIGGER:2 "你的[realm_size|E]大于等于$NUM|V0$#weak （$CURRENT_VALUE|V0$）#!"
+ THEY_HAVE_SUB_REALM_SIZE_TRIGGER:1 "[CHARACTER.GetShortUINamePossessive]的[realm_size|E]大于等于$NUM|V0$#weak （$CURRENT_VALUE|V0$）#!"
 
  ANY_SUB_REALM_TITLE:0 "任一[realm|E][title|E]："
  NOT_ANY_SUB_REALM_TITLE:1 "任一#bold 非#![realm|E][title|E]："
@@ -569,6 +592,7 @@
  CHARACTER_IS_THE_SPOUSE_OF_CHARACTER:0 "[CHARACTER.GetShortUIName|U]是[TARGET_CHARACTER.GetShortUINamePossessive]的[spouse|E]"
  I_AM_THE_SPOUSE_OF_CHARACTER:1 "你是[TARGET_CHARACTER.GetShortUINamePossessive]的[spouse|E]"
  IS_NOT_THE_SPOUSE_OF_CHARACTER:0 "#bold 不#!是[TARGET_CHARACTER.GetShortUINamePossessive]的[spouse|E]"
+ IS_NOT_THE_SPOUSE_OF_CHARACTER_COURT_POSITION:0 "#bold 不是#![liege.GetShortUINamePossessive]的[spouse|E]"
  CHARACTER_IS_NOT_THE_SPOUSE_OF_CHARACTER:0 "[CHARACTER.GetShortUIName|U]#bold 不#!是[TARGET_CHARACTER.GetShortUINamePossessive]的[spouse|E]"
  I_AM_NOT_THE_SPOUSE_OF_CHARACTER:1 "你#bold 不#!是[TARGET_CHARACTER.GetShortUINamePossessive]的[spouse|E]"
 
@@ -792,6 +816,7 @@
  IS_NOT_VASSAL_OR_BELOW_OF_CHARACTER_TRIGGER:0 "#bold 不#!是你的封臣或更低"
 
  IS_CLERGY_TRIGGER:0 "是[clergy|E]"
+ NOT_IS_CLERGY_TRIGGER:0 "#bold 不是#![clergy|E]"
  IS_HOSTILE_TRIGGER:0 "敌对"
  TIER_DIFFERENCE_TRIGGER:0 "[TARGET_CHARACTER.GetShortUIName|U]和[CHARACTER.GetShortUIName|U]的等级差异是：$NUM|V0$"
 
@@ -807,6 +832,9 @@
  IS_TWIN_OF_CHARACTER_TRIGGER:0 "是[CHARACTER.GetShortUINamePossessive|U]的双胞胎"
  IS_COUSIN_OF_CHARACTER_TRIGGER:0 "是[CHARACTER.GetShortUINamePossessive|U]的堂表亲"
  IS_A_KNIGHT_TRIGGER:0 "是[knight|E]"
+ CHARACTER_IS_A_KNIGHT_TRIGGER:0 "该角色是[knight|E]"
+ NOT_CHARACTER_IS_A_KNIGHT_TRIGGER:0 "该角色不是[knight|E]"
+ I_AM_A_KNIGHT_TRIGGER:0 "我是[knight|E]"
  IS_A_KNIGHT_OF_CHARACTER_TRIGGER:0 "是[CHARACTER.GetShortUIName|U]的[knight|E]"
  IS_EMPLOYER_OF_CHARACTER_TRIGGER:0 "受[CHARACTER.GetShortUIName|U]雇佣"
  IS_HEIR_OF_CHARACTER_TRIGGER:0 "是[CHARACTER.GetShortUINamePossessive|U]的继承人"
@@ -911,9 +939,31 @@
  HAS_SPAWNED_COURT_EVENTS_FIRST:0 "你有未处理的[court_events|E]"
  NOT_HAS_SPAWNED_COURT_EVENTS_FIRST:0 "你#bold 没有#!未处理的[court_events|E]"
 
- FIRST_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$对你处于冷却期#weak （到期：[DATE.GetStringLong]）#!"
- NOT_FIRST_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$对[CHARACTER.GetShortUIName]#bold 不#!处于冷却期"
- THIRD_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$对[CHARACTER.GetShortUIName]处于冷却期#weak （到期：[DATE.GetStringLong]）#!"
- NOT_THIRD_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$对[CHARACTER.GetShortUIName]#bold 不#!处于冷却期"
- GLOBAL_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$处于冷却期#weak （到期：[DATE.GetStringLong]）#!"
- NOT_GLOBAL_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$#bold 不#!处于冷却期"
+ FIRST_IS_DECISION_ON_COOLDOWN:1 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]对你处于冷却期#weak （到期：[DATE.GetStringLong]）#!"
+ NOT_FIRST_IS_DECISION_ON_COOLDOWN:1 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]对[CHARACTER.GetShortUIName]#bold 不#!处于冷却期"
+ THIRD_IS_DECISION_ON_COOLDOWN:1 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]对[CHARACTER.GetShortUIName]处于冷却期#weak （到期：[DATE.GetStringLong]）#!"
+ NOT_THIRD_IS_DECISION_ON_COOLDOWN:1 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]对[CHARACTER.GetShortUIName]#bold 不#!处于冷却期"
+ GLOBAL_IS_DECISION_ON_COOLDOWN:1 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]处于冷却期#weak （到期：[DATE.GetStringLong]）#!"
+ NOT_GLOBAL_IS_DECISION_ON_COOLDOWN:1 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]#bold 不#!处于冷却期"
+
+ trait_xp:0 "[trait_level_track_xp|E]"
+ HAS_TRAIT_XP:0 "在$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]）#!上拥有$NUM|V0$[trait_level_track_xp|E]"
+ NOT_HAS_TRAIT_XP:0 "在$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]#!）上#bold 没有#!$NUM|V0$[trait_level_track_xp|E]"
+ I_HAVE_TRAIT_XP:0 "你在$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]）#!上拥有$NUM|V0$[trait_level_track_xp|E]"
+ NOT_I_HAVE_TRAIT_XP:0 "你在$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]#!）上#bold 没有#!$NUM|V0$[trait_level_track_xp|E]"
+ THEY_HAS_TRAIT_XP:0 "[CHARACTER.GetShortUIName]在$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]）#!上拥有$NUM|V0$[trait_level_track_xp|E]"
+ NOT_THEY_HAS_TRAIT_XP:0 "[CHARACTER.GetShortUIName]在$TRACK_NAME$#weak （[TRAIT.GetName( CHARACTER.Self )]）#!上#bold 没有#!$NUM|V0$[trait_level_track_xp|E]"
+ 
+ HAS_TRAIT_XP_SINGLE:0 "在[TRAIT.GetName( CHARACTER.Self )]上拥有$NUM|V0$[trait_level_track_xp|E]"
+ NOT_HAS_TRAIT_XP_SINGLE:0 "在[TRAIT.GetName( CHARACTER.Self )]上#bold 没有#!$NUM|V0$[trait_level_track_xp|E]"
+ I_HAVE_TRAIT_XP_SINGLE:0 "你在[TRAIT.GetName( CHARACTER.Self )]上拥有$NUM|V0$[trait_level_track_xp|E]"
+ NOT_I_HAVE_TRAIT_XP_SINGLE:0 "你在[TRAIT.GetName( CHARACTER.Self )]上#bold 没有#!$NUM|V0$[trait_level_track_xp|E]"
+ THEY_HAS_TRAIT_XP_SINGLE:0 "[CHARACTER.GetShortUIName]在[TRAIT.GetName( CHARACTER.Self )]上拥有$NUM|V0$[trait_level_track_xp|E]"
+ NOT_THEY_HAS_TRAIT_XP_SINGLE:0 "[CHARACTER.GetShortUIName]在[TRAIT.GetName( CHARACTER.Self )]上#bold 没有#!$NUM|V0$[trait_level_track_xp|E]"
+ HAS_TRAIT_XP_SINGLE_NONE:0 "在[TRAIT.GetName( CHARACTER.Self )]上拥有$NUM|V0$[trait_level_track_xp|E]"
+
+ custom.not_attending_activity:0 "未在参加[activity|E]"
+
+ #ACCOLADES
+ IS_PLAYERS_ACCLAIMED_KNIGHT:0 "[CHARACTER.GetShortUIName]是另一位玩家的[acclaimed_knight|e]"
+ HAS_POTENTIAL_ACCOLADE_SUCCESSORS:0 "该[accolade|e]已经有潜在的继任者"

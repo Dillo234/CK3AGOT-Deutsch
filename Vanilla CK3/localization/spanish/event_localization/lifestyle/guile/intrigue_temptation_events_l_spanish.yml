@@ -4,7 +4,7 @@
  intrigue_temptation.2201.t:0 "Conversaciones íntimas"
  intrigue_temptation.2201.desc:0 "Tras nuestro encuentro más reciente, [my_lover.GetFirstName] y yo yacemos juntos en el lecho, dándonos a una frívola conversación.\n\n«Y no te creerías que…» De repente, [my_lover.GetSheHe] se para y enrojece. «Lo siento, amor mío; esto debe aburrirte tremendamente…»"
  intrigue_temptation.2201.a:0 "En absoluto. Cuéntame más, por favor…"
- intrigue_temptation.2201.a.success:0 "[my_lover.GetFirstName] comparte conmigo habladurías de la corte de [court_owner.GetTitledFirstName]"
+ intrigue_temptation.2201.a.success:0 "[my_lover.GetFirstName] comparte conmigo habladurías de la corte [court_owner.Custom('ES_DelDela')] [court_owner.GetTitledFirstName|l]"
  intrigue_temptation.2201.a.success.tt:0 "Me entero del [secret|lE] de un personaje aleatorio"
  intrigue_temptation.2201.a.failure:0 "[my_lover.GetFirstName] se niega a decir nada más"
  intrigue_temptation.2201.b:0 "Escuchar tu voz nunca me aburre, amor."
@@ -19,7 +19,7 @@
  intrigue_temptation_special.1001.c:0 "Debo centrarme en mi propia vida amorosa."
 
  intrigue_temptation_special.1002.t:0 "Una cuestión de gusto"
- intrigue_temptation_special.1002.desc:0 "Para descubrir la pareja ideal de [wants_love.GetTitledFirstName], debo conocer mejor sus preferencias. Observando discretamente sus interacciones en la corte, podría llegar a vislumbrar sus deseos más íntimos…\n\nAntes de empezar, debo elaborar una teoría. ¿Qué creo que busca [wants_love.GetFirstNameNoTooltip] en una pareja?"
+ intrigue_temptation_special.1002.desc:0 "Para descubrir la pareja ideal de [wants_love.GetTitledFirstName|l], debo conocer mejor sus preferencias. Observando discretamente sus interacciones en la corte, podría llegar a vislumbrar sus deseos más íntimos…\n\nAntes de empezar, debo elaborar una teoría. ¿Qué creo que busca [wants_love.GetFirstNameNoTooltip] en una pareja?"
  intrigue_temptation_special.1002.a:0 "Un corazón amable, una personalidad a juego con la suya."
  intrigue_temptation_special.1002.a.tt:0 "#F La mayoría de la gente, sobre todo aquella empática y amable, suele preferir emparejarse con gente con una personalidad similar a la suya.\n\nSi mis suposiciones son erróneas, puedo asumir que [wants_love.GetFirstName] prefiere atractivo o poder.#!"
  intrigue_temptation_special.1002.b:0 "Atractivo, de cuerpo o temperamento."
@@ -30,7 +30,7 @@
  intrigue_temptation_special.1002.d.tt:1 "#F La mayoría de la gente busca parejas del sexo opuesto, pero no es inusual preferir el mismo, o ambos.#!"
 
  intrigue_temptation_special.1003.t:0 "Creando una pareja"
- intrigue_temptation_special.1003.start.desc:0 "He observado cierto tiempo a [wants_love.GetTitledFirstName] y estoy convencid[ROOT.Char.Custom('ES_OA')] de mi conclusión."
+ intrigue_temptation_special.1003.start.desc:0 "He observado cierto tiempo a [wants_love.GetTitledFirstName|l] y estoy convencid[ROOT.Char.Custom('ES_OA')] de mi conclusión."
  intrigue_temptation_special.1003.personality_success.desc:0 "Como sospechaba, [wants_love.GetSheHe] prefiere gente de un temperamento similar al suyo."
  intrigue_temptation_special.1003.personality_failure.desc:0 "Me equivoqué. A [wants_love.GetSheHe] le preocupa poco la personalidad. Debe preferir poder o atractivo en una pareja."
  intrigue_temptation_special.1003.sex_appeal_success.desc:0 "[wants_love.GetSheHe|U] se ve atraíd[wants_love.Custom('ES_OA')], como una polilla a la llama, a la gente con gran carisma y belleza."
@@ -38,16 +38,16 @@
  intrigue_temptation_special.1003.power_success.desc:0 "Como supuse, [wants_love.GetSheHe] prefiere la compañía de los señores y damas más influyentes de la corte."
  intrigue_temptation_special.1003.power_failure.desc:0 "Me equivoqué. [wants_love.GetSheHe|U] interactúa con gente tanto de alto como de bajo rango. Habrá más elementos aparte del poder que [wants_love.GetHerHim] intriguen… ¿Puede que una personalidad compatible o una apariencia apuesta?"
  intrigue_temptation_special.1003.end.desc:0 "\n\nAhora que ya conozco un poco mejor los deseos de [wants_love.GetFirstNameNoTooltip], he hecho una lista de potenciales parejas. ¿Quién encajaría mejor con mi [ROOT.GetCharacter.Custom2('RelationToMe' , wants_love )]?"
- intrigue_temptation_special.1003.a:0 "El/La [target_list_member_a.Custom('ComplimentAdjective')] [target_list_member_a.GetTitledFirstNameNoTooltip]."
- intrigue_temptation_special.1003.a.tt:0 "Intento emparejar a [wants_love.GetFirstName] con [target_list_member_a.GetTitledFirstName]"
- intrigue_temptation_special.1003.b:0 "[target_list_member_b.GetTitledFirstNameNoTooltip], un[target_list_member_b.Custom('ES_XA')] [target_list_member_b.GetWomanMan] [target_list_member_b.Custom('ComplimentAdjective')]."
- intrigue_temptation_special.1003.b.tt:0 "Intento emparejar a [wants_love.GetFirstName] con [target_list_member_b.GetTitledFirstName]"
- intrigue_temptation_special.1003.c:0 "Mi [target_list_member_c.Custom('ComplimentAdjective')] [ROOT.GetCharacter.Custom2('RelationToMe' , target_list_member_c )], [target_list_member_c.GetTitledFirstNameNoTooltip]."
- intrigue_temptation_special.1003.c.tt:0 "Intento emparejar a [wants_love.GetFirstName] con [target_list_member_c.GetTitledFirstName]"
+ intrigue_temptation_special.1003.a:0 "El/La [target_list_member_a.Custom('ComplimentAdjective')] [target_list_member_a.GetTitledFirstNameNoTooltip|l]."
+ intrigue_temptation_special.1003.a.tt:0 "Intento emparejar a [wants_love.GetFirstName] con [target_list_member_a.GetTitledFirstName|l]"
+ intrigue_temptation_special.1003.b:0 "[target_list_member_b.GetTitledFirstNameNoTooltip|l], un[target_list_member_b.Custom('ES_XA')] [target_list_member_b.GetWomanMan] [target_list_member_b.Custom('ComplimentAdjective')]."
+ intrigue_temptation_special.1003.b.tt:0 "Intento emparejar a [wants_love.GetFirstName] con [target_list_member_b.GetTitledFirstName|l]"
+ intrigue_temptation_special.1003.c:0 "Mi [target_list_member_c.Custom('ComplimentAdjective')] [ROOT.GetCharacter.Custom2('RelationToMe' , target_list_member_c )], [target_list_member_c.GetTitledFirstNameNoTooltip|l]."
+ intrigue_temptation_special.1003.c.tt:0 "Intento emparejar a [wants_love.GetFirstName] con [target_list_member_c.GetTitledFirstName|l]"
  intrigue_temptation_special.1003.tt:0 "Un buen partido sería alguien que satisfaga las preferencias de [wants_love.GetFirstName]"
 
  intrigue_temptation_special.1004.t:0 "Preparando el ambiente"
- intrigue_temptation_special.1004.start.desc:0 "Para tener una primera impresión de la calidad de mi emparejamiento, celebré una pequeña cena con [wants_love.GetTitledFirstName] y [chosen_match.GetTitledFirstName] en la lista de invitados."
+ intrigue_temptation_special.1004.start.desc:0 "Para tener una primera impresión de la calidad de mi emparejamiento, celebré una pequeña cena con [wants_love.GetTitledFirstName|l] y [chosen_match.GetTitledFirstName|l] en la lista de invitados."
  intrigue_temptation_special.1004.great.desc:0 "Pasaron la mayor parte de la cena hablando, y echándose miradas curiosas cuando no hablaban."
  intrigue_temptation_special.1004.good.desc:0 "No vi ninguna señal definitiva, pero se llevaron muy bien."
  intrigue_temptation_special.1004.bad.desc:0 "Lamentablemente, la química que había anticipado no se vio por ninguna parte. Espero que solo fueran los nervios."
@@ -86,11 +86,11 @@
  intrigue_temptation_special.1005.c:0 "El amor es el mayor de los misterios."
 
  intrigue_temptation_special.1006.t:0 "Un error presuntuoso"
- intrigue_temptation_special.1006.desc:0 "Para asegurarme de la calidad de mi emparejamiento, celebré una pequeña cena con [wants_love.GetTitledFirstName] y [chosen_match.GetTitledFirstName] en la lista de invitados.\n\nIntenté animarles a conversar, pero [not_interested.GetFirstNameNoTooltip] se mostró fría y displicentemente hacia su posible pareja. Desde luego, [not_interested.GetSheHe] no dejó de mirar a un[interesting_ladylord.Custom('ES_XA')] atractiv[interesting_ladylord.Custom('ES_OA')] [interesting_ladylord.GetLadyLord] al otro lado de la mesa. ¿A lo mejor…?"
+ intrigue_temptation_special.1006.desc:0 "Para asegurarme de la calidad de mi emparejamiento, celebré una pequeña cena con [wants_love.GetTitledFirstName|l] y [chosen_match.GetTitledFirstName|l] en la lista de invitados.\n\nIntenté animarles a conversar, pero [not_interested.GetFirstNameNoTooltip] se mostró fría y displicentemente hacia su posible pareja. Desde luego, [not_interested.GetSheHe] no dejó de mirar a un[interesting_ladylord.Custom('ES_XA')] atractiv[interesting_ladylord.Custom('ES_OA')] [interesting_ladylord.GetLadyLord] al otro lado de la mesa. ¿A lo mejor…?"
  intrigue_temptation_special.1006.a:0 "En el futuro estudiaré a la gente con mayor esmero."
 
  intrigue_temptation_special.1007.t:0 "Una visión gratificante"
- intrigue_temptation_special.1007.desc:0 "He estado observando a [wants_love.GetTitledFirstName] y [chosen_match.GetTitledFirstName] muchas lunas, buscando señales de mi éxito. Esta noche, por fin, mi curiosidad se ha visto satisfecha.\n\nEn un banco escondido en el rincón más exuberante y oscuro de mis jardines, vi a los dos tortolitos. Con una sonrisa de satisfacción en los labios, me retiré por el camino cubierto de vegetación. Estaban demasiado perdidos en sus besos como para verme."
+ intrigue_temptation_special.1007.desc:0 "He estado observando a [wants_love.GetTitledFirstName|l] y [chosen_match.GetTitledFirstName|l] muchas lunas, buscando señales de mi éxito. Esta noche, por fin, mi curiosidad se ha visto satisfecha.\n\nEn un banco escondido en el rincón más exuberante y oscuro de mis jardines, vi a los dos tortolitos. Con una sonrisa de satisfacción en los labios, me retiré por el camino cubierto de vegetación. Estaban demasiado perdidos en sus besos como para verme."
  intrigue_temptation_special.1007.a:0 "Les deseo lo mejor."
  
  #Guest, by Alexander Oltner
@@ -120,7 +120,7 @@
  intrigue_temptation.3010.a.failure:0 "[bar_servant.GetFirstNameNoTooltip] no responde a mis insinuaciones"
  intrigue_temptation.3010.b.success:0 "Tengo a [bar_servant.GetFirstNameNoTooltip] comiendo en la palma de mi mano"
 
- intrigue_temptation.3011.help.desc:0 "He visto a [bar_servant.GetFirstName] rechazar más proposiciones de las que puedo contar. Pero gracias a la presentación y al comportamiento relajado de [wingman.GetTitledFirstName], [bar_servant.GetSheHe] no tarda en abrirse.\n\nLa conversación fluye con soltura… ¡no esperaba tener tanto en común con un[bar_servant.Custom('ES_XA')] [bar_servant.Custom('bar_servant')]! Solo me doy cuenta de que [wingman.GetFirstNameNoTooltip] se ha ido cuando [bar_servant.GetFirstNameNoTooltip] me pone una mano en el brazo y me pregunta si quiero una habitación para la noche. Una para dos, a juzgar por su mirada."
+ intrigue_temptation.3011.help.desc:0 "He visto a [bar_servant.GetFirstName] rechazar más proposiciones de las que puedo contar. Pero gracias a la presentación y al comportamiento relajado de [wingman.GetTitledFirstName|l], [bar_servant.GetSheHe] no tarda en abrirse.\n\nLa conversación fluye con soltura… ¡no esperaba tener tanto en común con un[bar_servant.Custom('ES_XA')] [bar_servant.Custom('bar_servant')]! Solo me doy cuenta de que [wingman.GetFirstNameNoTooltip] se ha ido cuando [bar_servant.GetFirstNameNoTooltip] me pone una mano en el brazo y me pregunta si quiero una habitación para la noche. Una para dos, a juzgar por su mirada."
  intrigue_temptation.3011.alone.desc:0 "He visto a [bar_servant.GetFirstName] rechazar más proposiciones de las que puedo contar. Un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetWomanMan] de más baja alcurnia se habría sentido intimidad[ROOT.Char.Custom('ES_OA')], pero he aprovechado con alegría la oportunidad de estudiar sus errores. Estoy list[ROOT.Char.Custom('ES_OA')].\n\nLa conversación fluye con soltura… ¡no esperaba tener tanto en común con un[bar_servant.Custom('ES_XA')] [bar_servant.Custom('bar_servant')]! Cuando iba a irme, [bar_servant.GetFirstNameNoTooltip] me pone una mano en el brazo y me pregunta si quiero una habitación para la noche. Una para dos, a juzgar por su mirada."
  intrigue_temptation.3011.a:0 "¿Solo para una noche? ¿Y qué tal #EMP todas#! las noches?"
  intrigue_temptation.3011.b:0 "Guíame, [bar_servant.Custom('LoverPetName')]."
@@ -145,7 +145,7 @@
  intrigue_temptation.3021.generic4.desc:0 "Ah, [potential_date.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]. ¿Podría ser [potential_date.GetSheHe] mi media naranja?"
  intrigue_temptation.3021.arrogant.desc:0 "[potential_date.Custom2('MyCharacterIntroduction', ROOT.Char)|U] me ha enviado un paquete con #EMP [ROOT.Char.Custom('ThreeToTwelve')]#! retratos. ¿No parecen todos el mismo…?"
  intrigue_temptation.3021.impatient.desc:0 "[potential_date.Custom2('MyCharacterIntroduction', ROOT.Char)|U] me ha enviado muchos retratos con el paso de los años. Este último con una nota bastante impaciente."
- intrigue_temptation.3021.tall.desc:0 "Este es el retrato de [potential_date.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]. El mensajero que lo trajo se molestó en describir la altura de [potential_date.GetTitledFirstNameNoTooltip]. Muchas veces."
+ intrigue_temptation.3021.tall.desc:0 "Este es el retrato de [potential_date.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]. El mensajero que lo trajo se molestó en describir la altura de [potential_date.GetTitledFirstNameNoTooltip|l]. Muchas veces."
  intrigue_temptation.3021.adventurous.desc:0 "El retrato de [potential_date.Custom2('MyCharacterIntroduction', ROOT.Char)] tiene una nota unida al reverso. En ella, se describe como «un espíritu espontáneo en busca de aventuras»."
  intrigue_temptation.3021.fish.desc:0 "[potential_date.Custom2('MyCharacterIntroduction', ROOT.Char)|U] me ha enviado un retrato suyo en un lago, sosteniendo un gran pez."
  intrigue_temptation.3021.dog.desc:0 "En su retrato, [potential_date.Custom2('MyCharacterIntroduction', ROOT.Char)] posa con un perrito adorable."
@@ -172,7 +172,7 @@
  intrigue_temptation.3022.b.failure:0 "Mi plan fracasa"
  intrigue_temptation.3022.c:0 "No perderé más tiempo en esta gente."
 
- intrigue_temptation.3023.t:0 "[ROOT.Char.Custom('ES_AlAla')|U] [ROOT.Char.Custom('RomanticComplimentAdjective')] [ROOT.Char.GetTitledFirstNameNoTooltip],"
+ intrigue_temptation.3023.t:0 "[ROOT.Char.Custom('ES_AlAla')|U] [ROOT.Char.Custom('RomanticComplimentAdjective')] [ROOT.Char.GetTitledFirstNameNoTooltip|l],"
  intrigue_temptation.3023.desc:0 "[letter_writer.Custom2('love_letter', ROOT.Char)]"
  intrigue_temptation.3023.a:0 "¡Qué halagador! ¡Debo responder!"
  intrigue_temptation.3023.b:0 "Con algunos cambios, podría entregar esto a [ROOT.Char.GetPrimarySpouse.GetFirstNameNoTooltip]."
@@ -182,8 +182,8 @@
  intrigue_temptation.3024.desc:0 "[answering_date.Custom2('love_letter', ROOT.Char)]"
  intrigue_temptation.3024.a:0 "¡Excelente!"
 
- intrigue_temptation.3025.t:0 "[ROOT.Char.Custom('ES_AlAla')|U] fals[ROOT.Char.Custom('ES_OA')] [ROOT.Char.Custom('InsultAdjective')] de [ROOT.Char.GetTitledFirstNameNoTooltip]:"
- intrigue_temptation.3025.desc:0 "Hace una quincena recibí una carta vuestra. El nombre en el sobre era el mío, pero los versos de su interior estaban dedicados a [lower_left_portrait.GetTitledFirstName]. Le escribí y me dijo que también había recibido un poema. De hecho, el mismo, pero ¡dirigido a otr[lower_right_portrait.Custom('ES_OA')] [lower_right_portrait.GetWomanMan]!\n\nSe trata del plan más despreciable y sórdido que haya visto jamás. ¡No volváis a escribirnos nunca más!"
+ intrigue_temptation.3025.t:0 "[ROOT.Char.Custom('ES_AlAla')|U] fals[ROOT.Char.Custom('ES_OA')] [ROOT.Char.Custom('InsultAdjective')] de [ROOT.Char.GetTitledFirstNameNoTooltip|l]:"
+ intrigue_temptation.3025.desc:0 "Hace una quincena recibí una carta vuestra. El nombre en el sobre era el mío, pero los versos de su interior estaban dedicados a [lower_left_portrait.GetTitledFirstName|l]. Le escribí y me dijo que también había recibido un poema. De hecho, el mismo, pero ¡dirigido a otr[lower_right_portrait.Custom('ES_OA')] [lower_right_portrait.GetWomanMan]!\n\nSe trata del plan más despreciable y sórdido que haya visto jamás. ¡No volváis a escribirnos nunca más!"
  intrigue_temptation.3025.a:0 "Oh. Qué cosa más… curiosa."
 
 

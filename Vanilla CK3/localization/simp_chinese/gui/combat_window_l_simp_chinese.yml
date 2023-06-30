@@ -70,8 +70,8 @@
  COMBAT_WINDOW_MAA_TT_EFFICIENCY:1 "@warning_icon!由于被克制，造成[CombatMaaItem.GetCountered|0-%]伤害"
  COMBAT_WINDOW_MAA_TT_TERRAIN_GOOD:0 "#I +在有利地形作战#!"
  COMBAT_WINDOW_MAA_TT_TERRAIN_BAD:0 "#X -在不利地形作战#!"
- COMBAT_WINDOW_MAA_TT_SCREEN:2 "每支满员军团的掩护效果：[MenAtArmsType.GetStat(GetPlayer, 'screen')|0+=]"
- COMBAT_WINDOW_MAA_TT_PURSUIT:2 "每支满员军团的追击效果：[MenAtArmsType.GetStat(GetPlayer, 'pursuit')|0+=]"
+ COMBAT_WINDOW_MAA_TT_SCREEN:3 "每支满员军团的掩护效果：[MenAtArmsType.GetStat(GetPlayer, Province.Self, 'screen')|0+=]"
+ COMBAT_WINDOW_MAA_TT_PURSUIT:3 "每支满员军团的追击效果：[MenAtArmsType.GetStat(GetPlayer, Province.Self, 'pursuit')|0+=]"
  COMBAT_WINDOW_NO_MAA:0 "没有[men_at_arms|E]"
  CV_TT_RELATIVE_SOLDIERS:0 "#T 相对军力#!\n[CombatWindow.GetLeftCombatSide.GetComposition.GetSoldierCountString]对阵[CombatWindow.GetRightCombatSide.GetComposition.GetSoldierCountString][soldiers|E]\n[CombatWindow.GetCombat.GetCombatWidthBreakdown]"
  COMBAT_WINDOW_PHASE_MANEUVER_TT:1 "#T 调动阶段#!\n双方正进行作战准备"
@@ -87,4 +87,3 @@
  CW_NO_KNIGHTS:0 "无[knights|E]"
  COMBAT_WINDOW_NO_COMMANDER:0 "无将领"
  
-

@@ -52,6 +52,7 @@
  NOT_CHARACTER_FAITH_EQUAL_FIRST:1 "Ihr seid #bold nicht#! [FAITH.GetAdjective]"
  CHARACTER_FAITH_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] ist [FAITH.GetAdjective]"
  NOT_CHARACTER_FAITH_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] ist #bold nicht#! [FAITH.GetAdjective]"
+ CHARACTER_FAITH_NONE:0 "Ist ein Anhänger desselben [Concept('faith', 'Glaubens')|E]"
  CHARACTER_RELIGION_EQUAL_FIRST:1 "Ihr seid [RELIGION.GetAdjective]"
  NOT_CHARACTER_RELIGION_EQUAL_FIRST:1 "Ihr seid #bold nicht#! [RELIGION.GetAdjective]"
  CHARACTER_RELIGION_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] ist [RELIGION.GetAdjective]"
@@ -69,6 +70,7 @@
  NOT_CHARACTER_DYNASTY_EQUAL_FIRST:1 "Ihr seid #bold nicht#! Teil der [DYNASTY.GetName]-[dynasty|E]"
  CHARACTER_DYNASTY_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] ist Teil der [DYNASTY.GetName]-[dynasty|E]"
  NOT_CHARACTER_DYNASTY_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] ist #bold nicht#! Teil der [DYNASTY.GetName]-[dynasty|E]"
+ CHARACTER_HOUSE_EQUAL_NONE:0 "Ist auch ein [house|E]-Mitglied"
 
  # Title Attribute Triggers
  LANDED_TITLE_FAITH_EQUAL_THIRD:0 "[TITLE.GetName] ist [FAITH.GetAdjective]"
@@ -97,9 +99,18 @@
  NOT_PROVINCE_CULTURE_EQUAL_THIRD:1 "[PROVINCE.GetName] ist #bold nicht#! [TARGET_CULTURE.GetName]"
  PROVINCE_CULTURE_EQUAL_GLOBAL:1 "Ist [TARGET_CULTURE.GetName]"
  NOT_PROVINCE_CULTURE_EQUAL_GLOBAL:1 "Ist #bold nicht#! [TARGET_CULTURE.GetName]"
+ PROVINCE_CAPITAL_EQUAL_GLOBAL:0 "Ist der [realm_capital] von [CHARACTER.GetShortUIName]"
+ NOT_PROVINCE_CAPITAL_EQUAL_GLOBAL:0 "Ist #bold nicht#! der [realm_capital] von [CHARACTER.GetShortUIName]"
+ PROVINCE_CAPITAL_EQUAL_THIRD:0 "Der [realm_capital] von [CHARACTER.GetShortUIName] ist [PROVINCE.GetBaronyNameExplicitly]"
+ NOT_PROVINCE_CAPITAL_EQUAL_THIRD:0 "Der [realm_capital] von [CHARACTER.GetShortUIName] ist #bold nicht#! [PROVINCE.GetBaronyNameExplicitly]"
+ PROVINCE_CAPITAL_EQUAL_FIRST:0 "Euer [realm_capital] ist [PROVINCE.GetBaronyNameExplicitly]"
+ NOT_PROVINCE_CAPITAL_EQUAL_FIRST:0 "Euer [realm_capital] ist #bold nicht#! [PROVINCE.GetBaronyNameExplicitly]"
 
  # Faith Triggers
  FAITH_RELIGION_EQUAL_THIRD:0 "[FAITH.GetName] ist ein [RELIGION.GetAdjective|l]er [faith|E]"
  NOT_FAITH_RELIGION_EQUAL_THIRD:0 "[FAITH.GetName] ist #bold kein#! [RELIGION.GetAdjective|l]er [faith|E]"
  FAITH_RELIGION_EQUAL_GLOBAL:0 "Ist ein [RELIGION.GetAdjective|l]er [faith|E]"
  NOT_FAITH_RELIGION_EQUAL_GLOBAL:0 "Ist #bold kein#! [RELIGION.GetAdjective|l]er [faith|E]"
+
+ ACCOLADE_TYPE_EQUAL_GLOBAL:0 "Diese [accolade_type|E] ist ungültig"
+ ACCOLADE_TYPE_EQUAL_NONE:0 "Diese [accolade_type|E] ist ungültig"

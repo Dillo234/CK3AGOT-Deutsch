@@ -16,7 +16,9 @@
  fabricate_hook_outcome.1001.c:0 "Это была большая ошибка."
 
  fabricate_hook_outcome.1002.t:1 "$fabricate_hook_header$ Уличающее послание"
- fabricate_hook_outcome.1002.desc:0 "Перехватив гонца, что [Select_CString(target.IsFemale, 'отправила', 'отправил' )] [target.GetTitledFirstName], я получаю отличную возможность.\n\nСкопировав печать, я смогу составить подложное письмо, угрожающее поднять налоги, и пустить этот текст среди [target.GetHerHis] вассалов. По крайней мере, пригрозить этим..."
+ fabricate_hook_outcome.1002.desc:1 "Перехватив гонца, что [Select_CString(target.IsFemale, 'отправила', 'отправил' )] [target.GetTitledFirstName], я получаю отличную возможность.\n\n"
+ fabricate_hook_outcome.1002.desc.vassals:0 "Скопировав печать, я смогу составить подложное письмо, угрожающее поднять налоги, и пустить этот текст среди [Select_CString(target.IsFemale, 'ее', 'его' )] вассалов. По крайней мере, пригрозить этим..."
+ fabricate_hook_outcome.1002.desc.no_vassals:0 "Скопировав печать, я смогу составить подложное письмо, угрожающее поднять налоги, и пустить этот текст среди [Select_CString(target.IsFemale, 'ее', 'его' )] придворных. По крайней мере, пригрозить этим..."
  fabricate_hook_outcome.1002.a:0 "«Это #EMP ваша#! подпись, не так ли?»"
 
  fabricate_hook_outcome.1003.t:1 "$fabricate_hook_header$ Отчаянное спасение"

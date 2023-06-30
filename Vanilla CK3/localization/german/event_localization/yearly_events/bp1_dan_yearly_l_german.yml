@@ -53,7 +53,7 @@
  bp1_yearly.7004.a:0 "Das klingt schön."
  bp1_yearly.7004.b:0 "Meine Sorgen sind die meinen."
  
- bp1_yearly.7005.t:0 "Ein Gefallen für [borrowing_friend.Custom('DE_ART_IND_A')] Freund[borrowing_friend.Custom('DE_END_NOU_S_GS_N')]"
+ bp1_yearly.7005.t:0 "Ein Gefallen für einen Freund"
  bp1_yearly.7005.desc:0 "Mein[borrowing_friend.Custom('DE_END_PRO_S_N')] Freund[borrowing_friend.Custom('DE_END_NOU_S_GS_N')] [borrowing_friend.GetName] tritt mit einem offensichtlichen Anliegen an mich heran. Irgendwann bin ich es leid, dass [borrowing_friend.Custom('DE_PRO_PER_S_3P_N')] um den heißen Brei herumredet, und ich verlange zu erfahren, was [borrowing_friend.Custom('DE_PRO_PER_S_3P_N')] will.\n\n„Nun, ich hatte gehofft, dass ich mir eines Eurer Artefakte ([borrowed_artifact.GetName]) für einen Abend ausleihen kann, doch Ihr dürft nicht fragen, warum …“\n\n[borrowing_friend.Custom('DE_PRO_PER_S_3P_N')|U] ist diese Bitte eindeutig peinlich. Was könnte [borrowing_friend.Custom('DE_PRO_PER_S_3P_N')] denn damit wollen?"
  bp1_yearly.7005.a:0 "Ich schätze schon."
  bp1_yearly.7005.b:0 "Auf keinen Fall."
@@ -137,11 +137,11 @@
  bp1_yearly.7055.desc.alone_poor_skill:0 "Ich mag nicht sehr geschickt mit Worten sein, doch mit genügend Zeit und Mühe könnte ich gewiss auch selbst etwas schreiben.\n\n"
  bp1_yearly.7055.desc.alone_good_skill:0 "Dank meiner Meisterschaft in Sachen [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip] wäre es für mich ein Leichtes, so etwas zu schreiben.\n\n"
  bp1_yearly.7055.desc.blind:0 "Unglücklicherweise hindert mich meine Blindheit daran, selbst etwas zu schreiben …\n\n"
- bp1_yearly.7055.desc.poet:0 "Mein[poet.Custom('')] Hofdichter[poet.Custom('')] könnte hier von großem Nutzen sein. [poet.Custom('')|U]e Meisterschaft im Umgang mit Versen würde meine gewöhnlichen Worte in Kunst verwandeln."
+ bp1_yearly.7055.desc.poet:0 "Mein[poet.Custom('DE_END_PRO_S_N')] Hofdichter[poet.Custom('DE_END_NOU_S_GS_N')] könnte hier von großem Nutzen sein. [poet.Custom('DE_PRO_POS_S_3P')|U]e Meisterschaft im Umgang mit Versen würde meine gewöhnlichen Worte in Kunst verwandeln."
  bp1_yearly.7055.desc.friend:0 "Anderseits schreibt mein[friend.Custom('DE_END_PRO_S_N')] lieb[friend.Custom('DE_END_ADJ_IND_S_N')] Freund[poet.Custom('DE_END_NOU_S_GS_N')] so viel besser als ich. [friend.Custom('DE_PRO_PER_S_3P_N')|U] würde mir doch bestimmt helfen, wenn ich frage."
  
  bp1_yearly.7055.desc.ending:1 "Die Zusammenstellung und Illustrierung eines Folianten kann aber rasch zu einem kostspieligen Unterfangen werden …"
- bp1_yearly.7055.poet:0 "[poet.Custom('')|U] Dichter[poet.Custom('')] wird es niederschreiben!"
+ bp1_yearly.7055.poet:0 "[poet.Custom('DE_ART_DEF_S_N')|U] Dichter[poet.Custom('DE_END_NOU_S_GS_N')] wird es niederschreiben!"
  bp1_yearly.7055.friend:0 "[friend.GetFirstNameNoTooltip] ist [friend.Custom('DE_ART_IND_N')] wahr[friend.Custom('DE_END_ADJ_IND_S_N')] Freund[friend.Custom('DE_END_NOU_S_GS_N')]."
  bp1_yearly.7055.high_skill:0 "Ich werde es selbst festhalten."
  bp1_yearly.7055.a:1 "Ich werde es selbst festhalten, so [ROOT.Char.GetFaith.HighGodName] will."

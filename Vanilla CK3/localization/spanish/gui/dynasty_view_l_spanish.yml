@@ -14,7 +14,7 @@
  DYNASTY_VIEW_LIVING_MEMBERS_HEADER:0 "Miembros vivos ([Dynasty.GetNumberOfLivingMembers|V])"
  DYNASTY_VIEW_LEGACY_EXPLANATION:2 "Todos los miembros de la dinastía #high [Dynasty.GetBaseNameNoTooltip]#! reciben los efectos de estos [dynasty_perks|lE]. Conseguir nuevos [dynasty_perks|lE] se hace más difícil, ya que el coste aumenta en #V 500#![dynasty_prestige_i] cada vez"
  PARENT_DYNASTY_PERK_NEEDED:1 "@warning_icon!#X No hemos desbloqueado el Legado anterior#!"
- DYNASTY_PRESTIGE_NEEDED:0 "@warning_icon!#X No tenemos $VALUE$ [dynasty_prestigel|E]#!"
+ DYNASTY_PRESTIGE_NEEDED:0 "@warning_icon!#X No tenemos $VALUE$ [dynasty_prestige|lE]#!"
  DYNASTY_PERK_TOOLTIP:0 "#T [DynastyPerk.GetNameNoTooltip]#!\n[DynastyPerk.GetEffectDescription( Dynasty.GetDynast )]"
  UNLOCK_DYNASTY_PERK_TOOLTIP:0 "$DYNASTY_PERK_TOOLTIP$\n[DynastyView.CanSelectPerkDesc( DynastyPerk.Self )][DynastyPerk.GetCostString( GetPlayer )]\n#I Haz clic para desbloquear#!"
  LOCKED_DYNASTY_PERK_TOOLTIP:0 "$DYNASTY_PERK_TOOLTIP$\n[DynastyView.CanSelectPerkDesc( DynastyPerk.Self )][DynastyPerk.GetCostString( GetPlayer )]"

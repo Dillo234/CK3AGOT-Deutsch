@@ -29,7 +29,7 @@
  STRENGTH_RATIO_LEVEL_2:0 "대등"
  STRENGTH_RATIO_LEVEL_3:0 "열등"
  STRENGTH_RATIO_LEVEL_4:0 "매우 열등"
- MILITARY_STRENGTH_RATIO:0 "[CHARACTER.GetShortUIName|U](이)가 우리 병사의 $VALUE|V%0$에 달하는 병사를 보유함"
+ MILITARY_STRENGTH_RATIO:0 "[CHARACTER.GetShortUIName|U](이)가 우리 병사의 $VALUE|V%0$에 해당하는 병력을 보유함"
  MILITARY_STRENGTH_RATIO_NO_STRENGTH:0 "우리는 현재 병사가 없음"
  REALTIVE_STENGTH_ONE_MAA:1 "상대의 [men_at_arms|E]이 대부분 [MEN_AT_ARMS_TYPE.GetName|L](으)로 이루어져 있습니다."
  REALTIVE_STENGTH_TWO_MAA:1 "상대의 [men_at_arms|E]이 대부분 [MEN_AT_ARMS_TYPE.GetName|L](와)과 [MEN_AT_ARMS_TYPE_2.GetName|L](으)로 이루어져 있습니다."
@@ -40,9 +40,9 @@
  LIST_MERCENARIES_STRING:0 "[mercenaries|E]: $CURRENT|0V$명"
  LIST_HOLY_ORDERS_STRING:0 "[holy_orders|E]: $CURRENT|0V$명"
  
- REALM_WINDOW_OUR_ALLY:0 "우리의 [ally|e]"
- REALM_WINDOW_AT_WAR_WITH_US:0 "[war|e] 중"
- REALM_WINDOW_TRUCE_WITH_US:0 "[truce|e]\n[RealmWindow.GetTruceWithPlayerEndDate.GetStringShort]"
+ REALM_WINDOW_OUR_ALLY:0 "우리의 [ally|E]"
+ REALM_WINDOW_AT_WAR_WITH_US:0 "[war|E] 중"
+ REALM_WINDOW_TRUCE_WITH_US:0 "[truce|E]\n[RealmWindow.GetTruceWithPlayerEndDate.GetStringShort]"
  
  REALM_WINDOW_DIPLOMACY_TOOLTIP_WAR_ATTACKER:2 "#tooltip_subheading [WAR.GetName|V]에서 [DEFENDER.GetUIName] #attacker_color 공격 중#!#!\n개전일: [WAR.GetStartDate.GetString|V]"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_WAR_DEFENDER:2 "#tooltip_subheading [WAR.GetName|V]에서 [ATTACKER.GetUIName]에 맞서 #defender_color 방어 중#!#!\n개전일: [WAR.GetStartDate.GetString|V]"

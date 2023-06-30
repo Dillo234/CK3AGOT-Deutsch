@@ -29,15 +29,15 @@
  court_chaplain_task.2103.notification:0 "Freiwillige unter den Neubekehrten"
 
  court_chaplain_task.3001.t:0 "Die Untergrabung der Ordnung"
- court_chaplain_task.3001.desc:1 "Mein[councillor.Custom('DE_END_PRO_S_N')] [councillor.GetCouncilTitle] [councillor.GetFirstName] scheint sich große Sorgen zu machen, als [councillor.Custom('DE_PRO_PER_S_3P_N')] zu mir kommt.\n\n„Bei meiner Untersuchung von Recht und Ordnung in [county.GetName] ist zutage getreten, dass … Belassen wir es dabei: Viele Eurer Vasallen sind verärgert, dass ihr[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleTierName] ihre Treue ignoriert und sich ihnen gegenüber so verhält.“"
+ court_chaplain_task.3001.desc:1 "Mein [councillor.GetCouncilTitle] [councillor.GetFirstName] scheint sich große Sorgen zu machen, als [councillor.Custom('DE_PRO_PER_S_3P_N')] zu mir kommt.\n\n„Bei meiner Untersuchung von Recht und Ordnung in [county.GetName] ist zutage getreten, dass … Belassen wir es dabei: Viele Eurer Vasallen sind verärgert, dass ihr[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleTierName] ihre Treue ignoriert und sich ihnen gegenüber so verhält.“"
  court_chaplain_task.3001.a:0 "Wie konntet Ihr Euch denn von ihnen ertappen lassen?!"
  court_chaplain_task.3002.notification:0 "Beschuldigungen über gefälschte Ansprüche"
 
  court_chaplain_task.3003.opening:0 "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]"
- court_chaplain_task.3003.desc:0 "Mir ist zu Ohren gekommen, dass [councillor.Custom('DE_PRO_POS_P_2P_N')|U] [councillor.GetCouncilTitle] [councillor.GetFirstName] daran arbeitet, unechte Ansprüche auf [county.GetName] zu fälschen. Ich fordere Euch inständig auf, zu bedenken, dass Ihr von Rechts wegen [ROOT.Char.GetTitleTierName] seid, und nicht durch Eure Gier."
+ court_chaplain_task.3003.desc:0 "Mir ist zu Ohren gekommen, dass Euer [councillor.GetCouncilTitle] [councillor.GetFirstName] daran arbeitet, unechte Ansprüche auf [county.GetName] zu fälschen. Ich fordere Euch inständig auf, zu bedenken, dass Ihr von Rechts wegen [ROOT.Char.GetTitleTierName] seid, und nicht durch Eure Gier."
  court_chaplain_task.3003.a:0 "Ich weiß schon, was ich hier mache, [vassal.GetFirstNameNoTooltip]."
  court_chaplain_task.3003.b:0 "Maßt Euch lieber nichts an, [vassal.GetTitledFirstNameNoTooltip]."
 
  court_chaplain_task.3004.opening:0 "[target.Custom2('AppropriateGreeting', ROOT.Char)]"
- court_chaplain_task.3004.desc:0 "Es ist deutlich geworden, dass [councillor.Custom('DE_PRO_POS_P_2P_N')|U] [councillor.GetCouncilTitle] daran arbeitet, falsche und unechte Ansprüche auf [county.GetName] zu erheben. Glaubt ja nicht, dass solcherart unehrenhafte Taten ohne Folgen bleiben werden."
+ court_chaplain_task.3004.desc:0 "Es ist deutlich geworden, dass Euer [councillor.GetCouncilTitle] daran arbeitet, falsche und unechte Ansprüche auf [county.GetName] zu erheben. Glaubt ja nicht, dass solcherart unehrenhafte Taten ohne Folgen bleiben werden."
  court_chaplain_task.3004.a:0 "Oh, aber es #EMP gibt#! hier eine Grundlage für einen Anspruch."

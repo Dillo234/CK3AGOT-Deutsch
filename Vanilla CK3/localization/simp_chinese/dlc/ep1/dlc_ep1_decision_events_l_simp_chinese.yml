@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
  ep1_decision.0101.t:0 "告别过去"
- ep1_decision.0101.desc:0 "装病请假！游手好闲！什么都不干！\n\n我的宫廷被寄生虫#EMP 包围#!了，就像满是蚜虫的花园一样，他们住满了每一间空房，日夜都鼾声如雷，为了把夜壶里的东西洒遍狭窄的大厅才会离开房间。\n\n不能再这样了。我们就是没有#EMP 房间#!给所有这些闲逛的陌生人。"
+ ep1_decision.0101.desc:0 "称病不起！游手好闲！无所事事！\n\n我的宫廷被寄生虫#EMP 包围#!了，就像满是蚜虫的花园一样，他们住满了每一间空房，日夜都鼾声如雷，为了把夜壶里的东西洒遍狭窄的大厅才会离开房间。\n\n不能再这样了。我们就是没有#EMP 房间#!给所有这些闲逛的陌生人。"
  ep1_decision.0101.a:0 "[capital.GetNameNoTierNoTooltip]不是客栈。吸血鬼都给我滚！"
  ep1_decision.0101.b:0 "没工作的，和我没血缘关系的，#EMP 滚#!！"
  ep1_decision.0101.c:0 "我想我们可以在马厩里放几张床……"
@@ -28,6 +28,7 @@
 
  ep1_decision.0201.t:0 "宫中的语言学家"
  ep1_decision.0201.desc:1 "终于，对[target_court_language.GetCourtLanguage.GetName]语言学家的搜寻完成了。候选人被带到我面前，每个人都有自己的外语专长。"
+ ep1_decision.0201.tt.aptitude:0 "[selected_linguist.GetUINamePossessive]的[aptitude|E]是[selected_linguist.GetCourtPositionAptitude( GetCourtPositionType( 'court_tutor_court_position' ) )]"
  ep1_decision.0201.a:2 "[good_linguist.GetNameNoTooltip]是著名的[target_court_language.GetCourtLanguage.GetNameNoTooltip]语言学家。"
  ep1_decision.0201.b:0 "[medium_linguist.GetNameNoTooltip]来干这活。"
  ep1_decision.0201.c:1 "[scholarly_linguist.GetNameNoTooltip]是著名的[target_court_language.GetCourtLanguage.GetNameNoTooltip]专家！"

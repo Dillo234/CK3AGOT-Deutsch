@@ -87,7 +87,7 @@
  court.7400.c:1 "Misérable pique-assiette, retournez d’où vous venez !"
 ## Child starts to go hunting
  court.7600.title:0 "Le goût pour la chasse"
- court.7600.desc:1 "M[child.Custom('FR_OnA')] [child.Custom('GetDaughterSon')] [child.GetFirstName] entre dans ma salle du trône avec de la boue et du sang sur le visage ! Alors que je lève dans l’intention de [child.Custom('FR_LeLa')] réprimander pour son inconvenance, m[huntmaster.Custom('FR_OnA')] maîtr[huntmaster.Custom('FR_EEsse')] de chasse [huntmaster.GetFirstName] arrive à grands pas, tout aussi couvert[huntmaster.Custom('FR_E')] de boue et de sang, avec un sourire jusqu’aux oreilles.\n\n« [ROOT.Char.Custom('FR_MonseigneurMadame')|U], [child.Custom('FR_le_Char_Pi')][child.GetTitledFirstNameNoTooltip] mérite les éloges de la Cour ! [child.Custom('FR_IlElle')|U] a abattu un[child.Custom('FR_LocalAnimal_e')] puissant[child.Custom('FR_LocalAnimal_e')] [child.Custom('LocalAnimal')] pendant notre chasse ! »\n\nJe suis sidéré[ROOT.Char.Custom('FR_E')] d’apprendre qu’[child.Custom('FR_IlElle')] chasse !"
+ court.7600.desc:1 "M[child.Custom('FR_OnA')] [child.Custom('GetDaughterSon')] [child.GetFirstName] entre dans ma salle du trône avec de la boue et du sang sur le visage ! Alors que je lève dans l’intention de [child.Custom('FR_LeLa')] réprimander pour son inconvenance, m[huntmaster.Custom('FR_OnA')] maîtr[huntmaster.Custom('FR_EEsse')] de chasse [huntmaster.GetFirstName] arrive à grands pas, tout aussi couvert[huntmaster.Custom('FR_E')] de boue et de sang, avec un sourire jusqu’aux oreilles.\n\n« [ROOT.Char.Custom('FR_MonseigneurMadame')|U], [child.Custom('FR_le_Char_Pi')][child.GetTitledFirstNameNoTooltip] mérite les éloges de la Cour ! [child.Custom('FR_IlElle')|U] a abattu un[child.Custom('FR_E_GetAnimalType')] [child.Custom('GetAnimalType')] incroyable, pendant notre chasse ! »\n\nJe suis sidéré[ROOT.Char.Custom('FR_E')] d’apprendre qu’[child.Custom('FR_IlElle')] chasse !"
  court.7600.a:1 "Il faut mettre fin à ces sorties."
  court.7600.b:1 "Nous devrions davantage mettre m[child.Custom('FR_OnA')] [child.Custom('GetDaughterSon')] à l’épreuve..."
  court.7600.b.tt:1 "Vous demanderez à votre maître de chasse de pousser [child.GetFirstNameNoTooltip] jusqu’à ses limites lors d’une autre chasse."
@@ -115,7 +115,7 @@
  court.7630.a:0 "Le mérite revient à [horsemaster.GetFirstNameNoTooltip]."
  court.7630.b:0 "C’est le succès de [huntmaster.GetFirstNameNoTooltip]."
  court.7630.c:0 "Pourquoi ne partageriez-vous pas ce triomphe ?"
- court.7630.c.tt:0 "Vous tentez de convaincre [horsemaster.Custom('FR_le_Char_U_Pi')][horsemaster.GetShortUIName] et [huntmaster.Custom('FR_le_Char_U_Pi')][huntmaster.GetShortUIName] de leur réussite commune:"
+ court.7630.c.tt:0 "Vous tentez de convaincre [horsemaster.Custom('FR_le_Char_U_Pi')][horsemaster.GetShortUIName] et [huntmaster.Custom('FR_le_Char_U_Pi')][huntmaster.GetShortUIName] de leur réussite commune :"
  court.7630.c.success:0 "Vous avez réussi à trouver un terrain d’entente"
  court.7630.c.failure:0 "Vous ne faites qu’empirer les choses."
 ## Courtier Abused their Bird

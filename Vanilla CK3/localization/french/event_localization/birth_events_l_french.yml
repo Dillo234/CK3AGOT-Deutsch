@@ -137,7 +137,7 @@
 
  every_child_adult_non_bastard:0 "Tous mes enfants adultes non bâtards"
 
- birth.3001.t:0 "Bercé[dummy_gender.Custom('FR_E')] par la Faucheuse"
+ birth.3001.t:0 "Dans les bras de la Faucheuse"
  birth.3001.desc_other_child:0 "« Poussez une dernière fois, [ROOT.Char.Custom('FR_MonseigneurMadame')|U] ! Le bébé est presque là ! ». Un cri s’échappe de ma bouche alors que je me penche pour la dernière fois. La douleur est partout, écrasante... et puis, c’est fini. Je... Je l’ai fait.\n\n« Le bébé va bien ? », dis-je, reconnaissant à peine ma propre voix. « Est-ce que... Est-ce un[dummy_gender.Custom('FR_E')] [dummy_gender.Custom('GirlBoy')] ? »\n\nLa sage-femme ne me répond pas, ne me regarde même pas. Non, elle n’a d’yeux que pour le bébé immobile dans ses bras."
  birth.3001.a:1 "Non... Pourquoi ne respire-t-[dummy_gender.Custom('FR_IlElle')] pas ? #EMP Faites quelque chose !#!"
  birth.3001.a.tt:1 "Votre [dummy_gender.Custom('DaughterSon')] est mort-né[dummy_gender.Custom('FR_E')]"
@@ -159,7 +159,7 @@
  birth.3021.a:0 "Pourquoi... ne... pleure..."
 
 
- birth.3022.desc:0 "Pendant que j’attends à l’extérieur de la pièce d’accouchement, chaque minute est interminable. Les cris de [mother.GetFirstName] ont cessé, mais je n’entends aucun cri d’enfant. Quelque chose ne va pas, je peux le sentir au fond de moi.\n\nLa porte s’ouvre. Le regard triste de la sage-femme confirme toutes mes craintes.\n\n« Je suis vraiment désolée, [ROOT.Char.Custom('FR_MonseigneurMadame')|U]. Dame [mother.GetFirstNameNoTooltip]... Votre [dummy_gender.Custom('DaughterSon')]... [mother.Custom2('FR_IlsElles', SCOPE.sC('dummy_gender'))] ont rejoint [ROOT.Char.GetFaith.PositiveAfterLife] maintenant. »"
+ birth.3022.desc:0 "Pendant que j’attends à l’extérieur de la pièce d’accouchement, chaque minute est interminable. Les cris de [mother.GetFirstName] ont cessé, mais je n’entends aucun cri d’enfant. Quelque chose ne va pas, je le sais au fond de moi.\n\nLa porte s’ouvre. Le regard triste de la sage-femme confirme toutes mes craintes.\n\n« Je suis vraiment désolée, [ROOT.Char.Custom('FR_MonseigneurMadame')|U]. Dame [mother.GetFirstNameNoTooltip]... Votre [dummy_gender.Custom('DaughterSon')]... [mother.Custom2('FR_IlsElles', SCOPE.sC('dummy_gender'))] ont rejoint [ROOT.Char.GetFaith.PositiveAfterLife] maintenant. »"
  birth.3022.a:1 "Pourquoi ?! [ROOT.Char.GetFaith.FertilityGodName|U], qu’ai-je fait pour mériter cela ?"
  birth.3022.a.buddhism:0 "Qu’avons-nous fait pour mériter cela ?!"
 

@@ -2,11 +2,11 @@
 
 # Reclaiming Britannia, by Linnéa Thimrén
  british_isles.0001.t:0 "[reclaimer.GetCulture.GetNameNoTooltip|U]不列颠尼亚"
- british_isles.0001.desc:0 "长久以来，这片属于我们的岛屿受到外族统治——现在，它终于回到了凯尔特人的怀抱！越过无垠的田野，我的目光落在了天边的太阳，多年以来太阳似乎第一次发出耀眼的光芒；好似丰饶与健康之地提尔纳诺回归，亲自来迎接我们。一度属于我们先祖的山峦和谷地，再一次回到了[ROOT.Char.GetCulture]文化的臂弯。"
+ british_isles.0001.desc:0 "长久以来，我们伟大的岛屿饱受外族统治——但现在，它终于重归凯尔特人的怀抱！越过无垠的田野，我的目光落于天际的升阳，好似多年来第一次目睹阳光的普照；又好似丰饶与健康之地提尔纳诺归来，向我们致以问候。那曾属于吾辈先祖的山峦与谷地，而今再次重归于[ROOT.Char.GetCulture]文化的臂弯。"
  british_isles.0001.custom:0 "不列颠尼亚的所有[counties|E]"
  british_isles.0001.a:0 "赞美先祖！"
 
- british_isles.0002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('reclaimer'))][reclaimer.GetName]正式宣告凯尔特不列颠尼亚的涅槃重生。\n\n在外族蹂躏的百年之后，这片岛屿终于回到了它的原主手中。"
+ british_isles.0002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('reclaimer'))][reclaimer.GetName]正式宣告了属于凯尔特人的不列颠尼亚涅槃重生。\n\n历经数个世纪外族的蹂躏后，这片群岛已经重归于原主人的治下。"
  british_isles.0002.a:0 "[reclaimer.GetCulture.GetNameNoTooltip]之灾荼毒大地……"
  british_isles.0002.b:0 "不列颠尼亚再一次回归到我们手中！"
 
@@ -16,8 +16,8 @@
  british_isles.1001.a:0 "新时代的曙光！"
 
  british_isles.1002.t:0 "丹麦法区"
- british_isles.1002.desc_same_culture:0 "得益于[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))][restorer.GetName]的运作，丹麦法区得以重建！这片岛屿再一次回到了[restorer.GetCulture.GetName]的统治之下。"
- british_isles.1002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))][restorer.GetName]和[restorer.GetHerHis]的无耻暴徒们在这片土地上成立了一个新的国度，并宣称其为丹麦法区王国的重生。\n\n我们将拭目以待，这一恢复[restorer.GetCulture.GetName]在英格兰统治的举措是否能够比之前那次成功……"
+ british_isles.1002.desc_same_culture:0 "得益于[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))][restorer.GetName]的运作，丹麦法区得以重建！这片岛屿再一次回到了[restorer.GetCulture.GetName]人的统治之下。"
+ british_isles.1002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))][restorer.GetName]和[restorer.GetHerHis]的无耻暴徒们在这片土地上成立了一个新的国度，并宣称其为丹麦法区王国的重生。\n\n我们将拭目以待，这一恢复[restorer.GetCulture.GetName]人在英格兰统治的举措是否能够比之前那次成功……"
  british_isles.1002.a:0 "[restorer.GetCulture.GetNameNoTooltip]之灾荼毒大地。"
  british_isles.1002.b:0 "[restorer.GetCulture.GetNameNoTooltip]人的胜利！"
  british_isles.1002.c:0 "唔，你刚刚说到了[restorer.GetCulture.GetNameNoTooltip]？叫上我一个！"
@@ -36,7 +36,7 @@
  british_isles.3001.desc:0 "你欲将普世教会的圣洁管辖推广到爱尔兰诸蛮族部落，实乃无比虔诚且正当的事业。有鉴于此，罗马圣教会允许你将该岛纳为己有，并于此地执行天主的意志。\n\n如果你在这场神圣之战的中途不幸魂归天国，我们将此神圣诏令的效力延及你的合法继承人。愿[scoped_ruler.GetHouse.GetBaseNameNoTooltip]家族能对这份神圣事务从一而终，直到吾主圣意昭昭，爱尔兰于[scoped_ruler.GetCulture.GetNameNoTooltip]的统治下顺服地合而为一。"
  british_isles.3001.a:0 "准备好我们的舰队！"
  british_isles.3002.t:0 "宣称爱尔兰"
- british_isles.3002.desc.irish:0 "因着[scoped_pope.GetFirstName]教宗陛下，基督之代表，圣伯多禄之座继承人的鸿恩，[scoped_ruler.GetFullName]已得授予统治爱尔兰全境及其境内全部部落的神圣权力。\n\n任何不服从教宗令状并拒绝臣服的爱尔兰领主将会面临[scoped_ruler.GetTitledFirstName]之怒，[scoped_ruler.GetHerHis]的[scoped_ruler.GetCulture.GetName]大军，以及天主的大能。"
+ british_isles.3002.desc.irish:0 "因着[scoped_pope.GetFirstName]教宗陛下，基督之代表，圣伯多禄宝座继承人的鸿恩，[scoped_ruler.GetFullName]已得授予统治爱尔兰全境及其境内全部部落的神圣权力。\n\n任何不服从教宗令状并拒绝臣服的爱尔兰领主将会面临[scoped_ruler.GetTitledFirstName]之怒，[scoped_ruler.GetHerHis]的[scoped_ruler.GetCulture.GetName]大军，以及天主的大能。"
  british_isles.3002.a:0 "我们走着瞧！"
  british_isles.3002.b:0 "我知道了……"
 
@@ -57,7 +57,7 @@
  british_isles.1011.outro:0 "\n\n我的敌人[ntd_recipient.GetTitledFirstName]是与我争夺这片土地统治权的头号竞争者。如果[ntd_recipient.GetSheHe]同意和我#EMP 分割#!这个国家，而不是完全控制它，那么几乎没人能抗衡我们联合的力量……"
  british_isles.1011.a:0 "嗯。送出信件。"
  british_isles.1011.a.tt:0 ""
- british_isles.1011.b:0 "送出信，以及张开的友谊之手。"
+ british_isles.1011.b:0 "送出信，以及张开友谊之手。"
  british_isles.1011.b.above_applies.tt:0 "#BOL 上述交易的所有效果都生效。#!"
  british_isles.1011.b.offer_faith.tt:0 "你同时提议对方接受你的[faith|E]并结为[friends|E]"
  british_isles.1011.c:0 "懦夫才需要外交！"

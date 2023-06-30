@@ -1,8 +1,17 @@
 ﻿l_korean:
  DECISION_ON_COOLDOWN:0 "@warning_icon!#X [DATE.GetStringLong]까지 $DECISION_NAME$(을)를 사용할 수 없습니다.#!"
  ALREADY_PLANNING_ACTIVITY:0 "이미 다른 [activity|E]을 계획하고 있습니다."
+ ALREADY_IN_ACTIVITY_FIRST_NOT:0 "당신은 현재 바쁘게 [CHARACTER.Custom('GetActivityName')] 중"
+ ALREADY_IN_ACTIVITY_THIRD_NOT:0 "해당 인물은 현재 [CHARACTER.Custom('GetActivityName')](으)로 바쁨"
+ unavailable_activity:0 "[ROOT.Char.GetInvolvedActivity.GetName] 참여 중"
+ unavailable_pay_homage:0 "주군에게 충성의 맹세를 바치는 중"
+ unavailable_meditation:0 "중재 중"
+ unavailable_petition_liege:0 "주군에게 탄원 중"
+ unavailable_hold_court:0 "궁정 주최 중"
+ unavailable_tour_stop:0 "주군의 [tour|E]를 준비하는 중"
+
  start_hunt_decision:0 "사냥 개최"
- start_hunt_decision_tooltip:1 "[hunt|E]이 개최됩니다."
+ start_hunt_decision_tooltip:2 "[GetActivityType('activity_hunt').GetName](이)가 개최됨"
  start_hunt_decision_desc:0 "#F 사람의 손을 타지 않은 대지가 울부짖고, 온갖 짐승들이 나의 창과 화살을 기다리고 있노라!#!"
  start_hunt_decision_go_on_hunt:1 "봉역 내의 남작령에서 #V 사냥#!을 시작합니다."
  start_hunt_decision_prestige:1 "[prestige|E]을 얻을 기회가 생길 수 있음"
@@ -15,17 +24,17 @@
  host_feast_decision:0 "연회 개최"
  host_exotic_feast_decision:0 "이색적인 연회 개최"
  host_lavish_feast_decision:0 "호황찬란한 연회 개최"
- host_grand_feast_decision:0 "성대한 연회 개최"
+ host_grand_feast_decision:0 "대규모 연회 주최"
  host_modest_feast_decision:0 "수수한 연회 개최"
- host_feast_decision_tooltip:0 "[feast|E]가 개최됩니다."
+ host_feast_decision_tooltip:0 "[GetActivityType('activity_feast').GetName](이)가 개최됨"
  host_feast_decision_opening_desc:0 "#F 술통을 열고 존경 받는 손님들을 초대하는 일은 의무이면서 동시에 끈끈한 충성심을 다시 확인할 수 있는 기회이다. 또한 대단히 즐겁기도 하지!#!"
- host_feast_decision_desc_vassals:1 "당신을 향한 봉신들의 [opinion|E]이 증가할 수 있음"
+ host_feast_decision_desc_vassals:1 "당신을 향한 봉신들의 [opinion|E]이 개선될 수 있음"
  host_feast_decision_desc_court_musician_opinion:1 "#P $court_musician_court_position$를 고용하였으므로 의견이 대폭 개선됨#!"
  host_feast_decision_desc_shy:1 "#N [GetTrait('shy').GetName( GetPlayer )] 특성을 보유하여 [stress|E]가 감소하지 않음#!"
  host_feast_decision_desc_pensive:0 "#N [GetTrait('pensive').GetName( GetPlayer )] 특성을 보유하여 [stress|E]가 감소하지 않음#!"
  host_feast_decision_desc_stress_medium:1 "당신의 [stress|E]가 감소할 것임"
  host_feast_decision_desc_stress:1 "당신의 [stress|E]가 감소할 수 있음"
- host_feast_decision_desc_liege_opinion:1 "당신을 향한 주군의 [opinion|E]이 증가할 수 있음"
+ host_feast_decision_desc_liege_opinion:1 "당신을 향한 주군의 [opinion|E]이 개선될 수 있음"
  host_feast_decision_confirm:0 "초대장 발송"
 
  borrow_from_holy_order_decision:0 "성전 기사단 대출"
@@ -42,7 +51,7 @@
  escape_from_prison_decision_failure.tt:0 "당신의 탈출 시도가 실패할 경우"
  escape_from_prison_decision_failure_outcome.tt:0 "[imprisoner.GetTitledFirstName](이)가... 불쾌해할 수도 있음"
  escape_from_prison_decision_confirm:0 "창살은 나를 막지 못한다!"
- escape_from_prison_decision_effect_tooltip:0 "@warning_icon! 성공 여부는 당신의 [prowess|E]과 [traits|E]에 달려있습니다."
+ escape_from_prison_decision_effect_tooltip:1 "@warning_icon! 성공 확률은 당신의 [prowess|E], [traits|E], [dungeon|E] 투옥 여부에 영향을 받음"
 
  tribal_challenge_ruler_decision:0 "[ROOT.Char.GetLiege.GetTitleAsNameNoTooltip|U]에게 도전"
  tribal_challenge_ruler_decision_desc:0 "[ROOT.Char.GetLiege.GetFirstName](은)는 당연하다는 듯이 [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip] 작위를 거머쥐고 있다. 힘과 능력 따위는 지도자를 결정짓는 소양이 아니라는 것처럼 말이다.\n\n따라서 나, [ROOT.Char.GetFullNameNoTooltip](은)는 [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier](와)과 그 모든 것에 대한 [ROOT.Char.GetLiege.GetHersHis] 권리에 이의를 제기할 것이다. 더는 침묵하지 않을 것이다!"
@@ -109,9 +118,9 @@
 
  playdate_decision:0 "또래 회합"
  playdate_decision_desc:0 "#F 봉역의 모든 어린 영주를 초대하여 다른 또래와 어울리게 하면 답답한 마음도 풀면서 즐거운 경험이 되겠지!#!"
- host_playdate_decision_desc_vassal_and_courtiers:0 "당신을 향한 봉신 및 궁정 신하의 [opinion|E]이 증가할 수 있음"
+ host_playdate_decision_desc_vassal_and_courtiers:0 "당신을 향한 봉신 및 궁정 신하의 [opinion|E]이 개선될 수 있음"
  start_playdate_decision:0 "[capital_province.GetName]에서 또래를 만남"
- playdate_decision_tooltip:0 "자녀를 [playdate|E]에 초대함"
+ playdate_decision_tooltip:0 "[GetActivityType('activity_playdate').GetName](으)로 자녀를 초대함"
  playdate_decision_confirm:0 "초대장을 보내라!"
 
  repay_loan_decision:0 "채무 이행"
@@ -226,7 +235,7 @@
  commission_artifact_decision_tooltip:0 "지역 장인을 고용해 [artifact|E]을 만들게 합니다."
  commission_artifact_decision_desc:0 "뽐낼 만한 근사한 물건이 없으면 [ROOT.Char.GetTitleAsNameNoTooltip](이)란 작위가 무슨 의미가 있을까? 검을 새로 장만하면 좋겠군. 아니면 브로치라든지..."
  commission_artifact_decision_confirm:0 "지역 장인 고용"
- commission_artifact_decision_effect_message:0 "유물 제작 의뢰 효과 메시지"
+ commission_artifact_decision_effect_message:0 ""
  COMMISSION_ARTIFACT_DECISION_NEXT_STEP_BUTTON:0 "유물 선택"
  COMMISSION_ARTIFACT_DECISION_SELECT_ARTIFACT_TITLE:0 "[artifact|E] 유형 선택"
 
@@ -284,7 +293,7 @@
  reclaim_britannia_decision_tooltip:0 "[ROOT.Char.GetCulture.GetName] 문화가 지배할 것입니다."
  reclaim_britannia_decision_custom:0 "비켈트 문화 봉신을 1명 이상 보유할 수 없음"
  reclaim_britannia_decision_confirm:1 "브리타니아 수복"
- HAS_NON_CELTIC_POWERFUL_VASSAL:2 "당신의 모든 [powerful_vassals|E]이 브리튼 혹은 고이델 [culture_group|E]에 속함"
+ HAS_NON_CELTIC_POWERFUL_VASSAL:2 "당신의 모든 [powerful_vassals|E]이 브리튼 혹은 고이델 [heritage|E]을 가진 [culture|E]에 속함"
 
  restore_the_danelaw_decision:0 "데인로 부활"
  restore_the_danelaw_decision_desc:0 "한때 이 땅을 다스렸던 데인법의 치세가 다시 한번 재현될 것이다!"
@@ -488,7 +497,7 @@
  embrace_outremer_culture_decision_desc:0 "레반트를 향한 유럽의 침략은 서로 삐걱대던 수많은 문화를 하나로 뭉치게 했습니다. 이러한 문화의 충돌 속에서, 우트르메르로서의 새로운 정체성이 발아했습니다."
  embrace_outremer_culture_decision_tooltip:0 "우트르메르 문화를 궁정에 도입합니다."
  embrace_outremer_culture_decision_courtiers_embrace_outremer:3 "당신 [dynasty|E]의 모든 [courtiers|E]들이 우트르메르 문화로 전향함"
- embrace_outremer_culture_decision_provinces_embrace_outremer:4 "[domain|E] 내의 중동 지역 [Concept( 'counties', '영지' )|E] 중 당신의 [culture_group|E]에 속해있는 백작령들이 우트르메르 문화로 전향함"
+ embrace_outremer_culture_decision_provinces_embrace_outremer:4 "당신의 [culture|E]와 [heritage|E]을 공유하는 [domain|E] 내의 모든 중동 [Concept( 'county', '영지' )|E]가 우트르메르로 전향함"
  embrace_outremer_culture_decision_capital_embraces_outremer:3 "[realm_capital|E]가 우트르메르 문화로 전향함"
 
  create_israel_kingdom_decision:0 "이스라엘 재건"
@@ -573,8 +582,8 @@
  found_university_decision_tooltip:1 "[special_building|E] 공간: [GetBuilding('generic_university').GetName] 건설이 가능해집니다."
  found_university_decision_confirm:1 "어서 초석을 놓자!"
  found_university_decision_custom:0 "적절한 남작령"
- no_built_university:0 "속주가 [special_building|E]을 보유하고 있지 않음"
- no_special_building_slot:0 "해당 지역이 아직 [special_building|E] 공간을 보유하고 있지 않음"
+ no_built_university:1 "해당 [holding|E]가 [special_building|E]을 보유하고 있지 않음"
+ no_special_building_slot:1 "해당 [holding|E]가 아직 [special_building|E] 공간을 보유하고 있지 않음"
  decision_found_university_custom:0 "[GetBuilding('generic_university').GetName]가 없는 모든 영지 수도"
  
  empower_sicilian_parliament_decision:0 "시칠리아 의회 설립"
@@ -616,7 +625,7 @@
  revive_magyar_paganism_decision_desc:1 "[ROOT.Char.GetFaith.GetReligion.GetNameNoTooltip]에도 나름의 장점은 있겠지만, 우리의 신민들 사이에 끝없는 비탄과 불안을 불러온 것도 부정할 수 없는 사실이다. 어쩌면 고대 의식을 품은 종파를 다시 불러내야 할지도..."
  revive_magyar_paganism_decision_tooltip:1 "[ROOT.Char.GetFaith.GetNameNoTooltip](을)를 포기하고 조상의 전통을 끌어안습니다."
  revive_magyar_paganism_decision_confirm:1 "[ROOT.Char.GetFaith.GetNameNoTooltip] 포기"
- revive_magyar_paganism_decision_scripted_effect.county_conversions.tt:1 "당신과 [culture_group|E]을 공유하는 [realm|E] 내의 [Concept( 'counties', '영지' )|E]들이 $magyar_pagan$으로 개종함"
+ revive_magyar_paganism_decision_scripted_effect.county_conversions.tt:1 "당신의 [cultural|E] [heritage|E]을 공유하는 [realm|E] 내 [Concept( 'county', '영지' )|E]가 일정 확률로 $magyar_pagan$(으)로 전향함"
  revive_magyar_paganism_decision.adjust_the_faith.tt:0 "$magyar_pagan$의 원리를 일부 교체할 수도 있습니다."
  hungarian_resettlement.every_converted_province:0 "$EFFECT_LIST_BULLET$ 개종한 모든  [Concept( 'counties', '영지' )|E]"
 
@@ -631,7 +640,7 @@
  found_witch_coven_decision_tooltip:0 "새로운 가족 전통을 시작합니다."
  found_witch_coven_decision_effects.children.tt:0 "[GetTrait('witch').GetName( GetPlayer )]에게 교육 받은 [founder.GetHouse.GetBaseName] 집회의 모든 아이는 마녀가 됨"
  found_witch_coven_decision_effects.convert.tt:0 "[founder.GetHouse.GetBaseName] 집회의 마녀들은 더 수월하게 다른 인물을 마술로 끌어들임"
- found_witch_coven_decision_effects.grand_rite.tt:0 "[founder.GetHouse.GetBaseName] 집회의 [house_head|E]은 위대한 의식 [activity|E]을 주최할 수 있음"
+ found_witch_coven_decision_effects.grand_rite.tt:1 "[founder.GetHouse.GetBaseName] 집회의 [house_head|E]은 [GetActivityType('activity_witch_ritual').GetName] [activity|E]을 주최할 수 있음"
 
  strengthen_bloodline_decision:0 "혈통 강화"
  strengthen_bloodline_decision_desc:0 "활기와 아름다움, 그리고 지적 능력은 혈통의 힘을 증명하는 요소입니다. 따라서 축복받은 가문이라면 이러한 재능을 대대로 이어갈 것입니다."
@@ -741,9 +750,9 @@
  #Guest decisions
  invite_knights_decision:1 "$knight_culture_player_plural_no_tooltip$ 초대"
  invite_knights_decision_desc:1 "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]의 [ROOT.Char.GetTitleAsNameNoTooltip](으)로서 봉역을 수호하고 새로운 땅을 정복하기 위해선 용감한 $knight_culture_player_plural_no_tooltip_lowercase$들이 필요하다. 전령을 보내어 능력 있는 전사들을 구하고 있음을 널리 알릴 것이다."
- invite_knights_decision.men.tt:0 "몇 달 이내로 [prowess|E]이 #V 12#!를 넘는 #P 3#!명 이상의 신체 건강한 남성들이 [guests|E]으로서 궁전을 방문함"
- invite_knights_decision.women.tt:0 "몇 달 이내로 [prowess|E]이 #V 12#!를 넘는 #P 3#!명 이상의 신체 건강한 여성들이 [guests|E]으로서 궁전을 방문함"
- invite_knights_decision.warriors.tt:1 "몇 달 이내로 [prowess|E]이 #V 12#!를 넘는 #P 3#!명 이상의 전사들이 [guests|E]으로서 궁전을 방문함"
+ invite_knights_decision.men.tt:1 "몇 달 이내로 [prowess|E]이 #V [EmptyScope.ScriptValue('invite_knights_decision_standard_value')|0]#! 이상이고 신체 건강한 남성 #P 3#!명 이상이 [guests|E]으로서 궁정에 도착할 예정임"
+ invite_knights_decision.women.tt:2 "몇 달 이내로 [prowess|E]이 #V [EmptyScope.ScriptValue('invite_knights_decision_standard_value')|0]#! 이상이고 신체 건강한 여성 #P 3#!명 이상이 [guests|E]으로서 궁정에 도착할 예정임"
+ invite_knights_decision.warriors.tt:2 "몇 달 이내로 [prowess|E]이 #V [EmptyScope.ScriptValue('invite_knights_decision_standard_value')|0]#! 이상이고 신체 건강한 전사 #P 3#!명 이상이 [guests|E]으로서 궁정에 도착할 예정임"
  invite_knights_decision_confirm:0 "전령 파견"
  minor_decisions.0001.t:1 "$knight_culture_player_no_tooltip$(이)가 도착함"
  minor_decisions.0001.desc:1 "소집령에 관심을 보인 [knight.GetTitledFirstName](이)가 문객으로서 궁정에 도착했습니다."
@@ -947,9 +956,9 @@
  stress_loss_athletic_decision_tooltip:0 "건강한 신체에 건강한 정신이 깃듭니다."
  stress_loss_athletic_decision_confirm:0 "자 가자!"
 
- DECISION_COOLDOWN_WARNING:0 "@warning_icon!#X $COOLDOWN$ 동안 $DECISION_NAME$(을)를 이용할 수 없게 됩니다.#!"
+ DECISION_COOLDOWN_WARNING:1 "@alert_icon! #alert_trial $COOLDOWN$ 동안 $DECISION_NAME$(을)를 이용할 수 없게 됩니다.#!"
  
- SHOW_DECISION_TOOLTIP:1 "#T [Decision.GetTitleForPlayer]#!\n[Decision.GetCommandDescForPlayer][Select_CString(StringIsEmpty(Decision.GetCommandDescForPlayer),'','\n')][Decision.GetShortDescForPlayer]"
+ SHOW_DECISION_TOOLTIP:3 "#T [Decision.GetTitleForPlayer]#!\n[Decision.GetCommandDescForPlayer][Select_CString(StringIsEmpty(Decision.GetCommandDescForPlayer),'','\n')][Decision.GetShortDescForPlayer]\n\n#I 클릭하여 선택하기#!"
 
  all_courtiers_except_confidant:0 "믿을 만한 친구를 제외한 모든 [courtiers|E]"
 
@@ -1018,7 +1027,7 @@
  msg_diligent_development_focus:0 "성실하게 세운 계획이 빛을 발하고 있습니다!"
 
  impatient_rushing_all_schemes_decision:0 "모략 앞당기기"
- impatient_rushing_all_schemes_decision_desc:0 "당장 내가 준비됐는데 굳이 기다릴 이유가 없지. 지금 바로 운을 시험해보자!"
+ impatient_rushing_all_schemes_decision_desc:0 "당장 내가 준비됐는데 굳이 기다릴 이유가 없지. 지금 바로 운을 시험해 보자!"
  impatient_rushing_all_schemes_decision_tooltip:0 "모략을 일찍 마무리하여 운을 시험함"
  impatient_rushing_all_schemes_decision_confirm:0 "지금 아니면 안 돼!"
  impatient_rushing_all_schemes_decision_missing_scheme:0 "최소한 #V 1#!개의 [scheme|E]이 활성화되어 있어야 함"
@@ -1037,7 +1046,6 @@
  introduce_a_new_fashion_at_court_decision_confirm:0 "새로운 유행을 위하여!"
  court_already_has_a_fashion_tend_tt:0 "궁정에 이미 진행 중인 의복 유행이 존재함"
 
- #TODO_CD_JB, move over to a separate event file
  court_amenities_interactions.0010.b_turned_down:0 "새 유행을 싫어하는 사람은 없지!"
  court_amenities_interactions.0010.t:0 "궁정의 새로운 유행"
  court_amenities_interactions.0010.desc_intro:0 "[actor.GetNameNoTooltip|U](이)가 시끌벅적한 소리를 내며 궁정에 들어섰다. 그 순간 모든 귀족의 시선이 [actor.GetHerHis] 독특하기 이를 데 없는 의복에 쏠렸다."
@@ -1168,9 +1176,36 @@
  build_holy_pilgrim_roads_decision_confirm:0 "건설 자금 지원"
  build_holy_pilgrim_roads_decision_hardcoded_trigger_text.a:0 "당신의 [realm|E]에 순례자 도로 [modifier|E]가 없는 [holy_site|E]가 있음"
  build_holy_pilgrim_roads_decision_construction_notif.t:0 "[chosen_location_for_pilgrim_roads.GetNameNoTierNoTooltip]에 순례자 도로가 건설됨"
- build_holy_pilgrim_roads_decision_construction_notif.desc:1 "[chosen_location_for_pilgrim_roads.GetName] 전역에 [ROOT.Char.GetFaith.GetAdjective] [holy_site|E]가 있는 [chosen_holy_site_for_pilgrim_roads.GetNameNoTier] 속주로 통하는 도로가 건설되었으며 훗날의 순례자를 기다리고 있음"
+ build_holy_pilgrim_roads_decision_construction_notif.desc:2 "[chosen_location_for_pilgrim_roads.GetName] 전역에 [ROOT.Char.GetFaith.GetAdjective] [holy_site|E]가 있는 [chosen_holy_site_for_pilgrim_roads.GetNameNoTier](으)로 통하는 도로가 건설되었으며 훗날의 순례자를 기다리고 있음"
 
  not_can_execute_decision:0 "현재 이 [decision|E]을 진행할 수 없음"
  can_execute_decision:0 "현재 이 [decision|E]을 진행할 수 있음"
  NO_DECISION_OPTIONS_SELECTED:0 "@warning_icon! #X 선택지를 고르십시오.#!"
  revive_taltoism_decision_before_last_date:0 "게임 날짜가 1100년 1월 1일 혹은 그 이전인 상태"
+
+ call_for_acclaimed_knight_candidates_decision:0 "표창 복구"
+ call_for_acclaimed_knight_candidates_decision_desc:0 "내 종사단 중에서 무력으로 위엄을 뽐낼 사람은 아직 없는 상황이다. 영지의 $knight_culture_player_plural_no_tooltip_lowercase$에게 소식을 전파하라. [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]의 [ROOT.Char.GetTitleAsNameNoTooltip](이)가 부른다고!\n\n유서 깊은 역사와 명예를 갖춘 직위를 손에 넣을 자격이 있는 자, 내 친히 따스한 환대를 베푸리라."
+ call_for_acclaimed_knight_candidates_decision_tooltip:0 "각 [inactive_accolade|E]에 대응하는 잠재적 [acclaimed_knights|E]가 나타날 수도 있음"
+ call_for_acclaimed_knight_candidates_decision_confirm:0 "전령 파견"
+ call_for_acclaimed_knight_candidates_decision.tt:0 "내년 안에 모든 [inactive_accolade|E]에 대한 적격한 후보가 나타나 [knights|E]가 됨"
+
+ accolade.0013.notification:1 "수훈 $knight_culture_player_no_tooltip$ 후보 도착"
+ accolade_call_acclaimed_knight_tooltip:0 "자격을 갖춘 [chosen_knight.GetUIName](이)가 [accolade_in_need.GetName](으)로 임명될 수 있음"
+ accolade.0013.notification_fail:0 "표창을 받을 만한 후보 없음"
+ accolade_call_acclaimed_knight_fail_notification_tooltip:0 "자격을 갖춘 $knight_culture_player_no_tooltip_lowercase$(이)가 등장하지 않아 하나의 표창은 비활성 상태로 남게 됨"
+ you_have_empty_accolades:0 "[inactive_accolade|E]과 임명이 불가능한 [knights|E]가 하나 이상 존재"
+ break_with_the_old_ways_decision:0 "옛 방식과의 결별"
+ break_with_the_old_ways_decision_desc:0 "$kabarism_adj$ 신앙은 오랜 세월 지역 전통을 지켜왔다. 하지만 이젠 끝이다. 이제 우린 옛 방식을 타파하고 유대교를 완전히 받아들여야 한다."
+ break_with_the_old_ways_decision_tooltip:0 "민간 신앙에서 탈피하리라!"
+ break_with_the_old_ways_decision_confirm:0 "우린 유대교에 헌신한다!"
+ break_with_the_old_ways_decision.path_fundamentalist:0 "$mozarabic_bind_the_faith_to_rome_decision.path_fundamentalist$"
+ break_with_the_old_ways_decision.path_righteous:0 "$mozarabic_bind_the_faith_to_rome_decision.path_righteous$"
+
+ embrace_hebrew_language_decision:0 "히브리어 수용"
+ embrace_hebrew_language_decision_desc:0 "히브리어는 수천 년 동안 유대교의 전례 언어로 사용되어 왔지만, 디아스포라를 계기로 이웃 민족의 영향을 받은 온갖 언어가 발달하게 되었다. 하지만 이젠 다르다. 히브리어를 민족 공용어로 채택할 수 있을 만큼 큰 공동체를 구축하지 않았는가?"
+ embrace_hebrew_language_decision_tooltip:0 "히브리어를 채택한다."
+ embrace_hebrew_language_decision_confirm:0 "디아스포라는 끝났다!"
+ switch_to_israelite_language_tt:0 "[GetPlayer.GetCulture.GetName](이)가 $language_israelite_name$ [language|E]를 채택함"
+ switch_to_original_language_tt:0 "당신의 새로운 문화는 [target_other_culture.GetLanguage.GetNameNoTooltip] 언어를 사용하게 됨"
+ at_least_10_jewish_counties_tt:0 "당신의 [culture|E]에 속한 유대계 [Concept( 'counties', '영지' )|E]가 최소 10개 이상이어야 함"
+ 

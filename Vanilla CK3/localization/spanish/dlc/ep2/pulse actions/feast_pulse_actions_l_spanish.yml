@@ -1,0 +1,28 @@
+﻿l_spanish:
+ excellent_food_title:0 "[first.GetShortUINameNoTooltip|U] [Select_CString( first.IsLocalPlayer, 'disfrutaste', 'disfrutó' )] enormemente con la cantidad de [root_scope.Custom('GetExpensiveDessert')]"
+ 
+ hook_trusting_guest_title:0 "[first.GetShortUINameNoTooltip|U] [first.GetShortUIName|U] [Select_CString( first.IsLocalPlayer, 'prometiste', 'prometió' )] ingenuamente un favor a [Select_CString( second.IsLocalPlayer, 'tu persona', second.GetShortUINameNoTooltip )]"
+ 
+ impressed_guest_honor_title:0 "[first.GetShortUINameNoTooltip|U] [first.GetShortUIName|U] [Select_CString( first.IsLocalPlayer, 'fuiste', 'fue' )] homenajead[first.Custom('ES_OA')] por [Select_CString( second.IsLocalPlayer, 'ti', second.GetShortUINameNoTooltip )]"
+ 
+ impressed_courtly_vassal_title:0 "Vasallos impresionados con banquete fastuoso"
+ 
+ leftover_food_giveaway_title:0 "[province.GetName|U] recibió comida sobrante"
+ leftover_food_giveaway_modifier:0 "Sobras de festín"
+ leftover_food_giveaway_modifier_desc:0 "Los habitantes de este lugar recibieron comida exquisita procedente de un festín"
+ 
+ virtuous_feast_title:0 "[first.GetShortUINameNoTooltip|U] [Select_CString( first.IsLocalPlayer, 'asististe', 'asistió' )] a un banquete virtuoso"
+ 
+ noble_privileges_title:0 "[first.GetShortUINameNoTooltip|U] [Select_CString( first.IsLocalPlayer, 'recibiste', 'recibió' )] ciertos privilegios nobles"
+ noble_privileges_modifier:0 "Privilegios nobles"
+ noble_privileges_modifier_desc:0 "Este condado está bajo la vigilancia estricta de la nobleza"
+ 
+ pet_pet:0 "Mascota mimada"
+ good_kitty_title:0 "[first.GetShortUINameNoTooltip|U] [Select_CString( first.IsLocalPlayer, 'mimaste', 'mimó' )] al gato de [Select_CString( second.IsLocalPlayer, 'tu corazón', second.GetShortUINameNoTooltip )]"
+ good_puppy_title:0 "[first.GetShortUINameNoTooltip|U] [Select_CString( first.IsLocalPlayer, 'mimaste', 'mimó' )] al perro de [Select_CString( second.IsLocalPlayer, 'tu corazón', second.GetShortUINameNoTooltip )]"
+ 
+ antiquarian_admires_artifact_title:0 "[first.GetShortUINameNoTooltip|U] [Select_CString( first.IsLocalPlayer, 'agasajaste', 'agasajó' )] a [Select_CString( host.IsLocalPlayer, 'tu persona', host.GetShortUINameNoTooltip )] con la historia de [artifact.GetName]"
+ 
+ jester_entertained_guests_title:0 "[first.GetShortUINameNoTooltip|U] [Select_CString( first.IsLocalPlayer, 'hiciste', 'hizo' )] reír a [Select_CString( second.IsLocalPlayer, 'tu persona', second.GetShortUINameNoTooltip )] con ganas"
+ 
+ apa_executioner_title:0 "[first.GetShortUIName|U] recordó sus ejecuciones por órdenes de [Select_CString( second.IsLocalPlayer, 'tu persona', second.GetShortUINameNoTooltip )]"

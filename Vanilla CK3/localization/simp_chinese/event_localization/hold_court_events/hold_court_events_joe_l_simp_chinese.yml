@@ -63,7 +63,7 @@
  hold_court.8020.d:0 "我看没有任何理由改变。"
  hold_court.8020.e:0 "[pope.GetTitledFirstNameNoTooltip]绝不会多管闲事。"
  # Custom
- holiness_cathedral_1:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]朝圣者蜂拥至[ROOT.Var('holy_site_var').Title.GetNameNoTierPossessive][ROOT.Char.Custom('GetFaithGrandTemple')]以接近[ROOT.Char.GetFaith.HighGodNameAlternate]。"
+ holiness_cathedral_1:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]朝圣者蜂拥至[ROOT.Var('holy_site_var').Title.GetNameNoTierPossessive]的[ROOT.Char.Custom('GetFaithGrandTemple')]以接近[ROOT.Char.GetFaith.HighGodNameAlternate]。"
  holiness_holy_site_1:0 "[ROOT.Var('holy_site_var').Title.GetNameNoTierNoTooltip]是[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]朝圣和礼拜的重要中心。"
  holiness_fallback_1:0 "[ROOT.Var('holy_site_var').Title.GetNameNoTierNoTooltip]的信徒亟需[ROOT.Var('holy_site_var').Title.GetCountyData.GetFaith.DevilName]的宗教指引和救赎。"
  holiness_cathedral_2:0 "如此重要的[ROOT.Char.GetFaith.HouseOfWorship]"
@@ -116,7 +116,7 @@
  demand_conversion_tt:0 "[recipient.GetTitledFirstName]及其至亲会皈依你的宗教"
  # # Royal Service
  hold_court.8050.t:0 "精忠报国"
- hold_court.8050.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U]走近御座，后面跟着一名[knight.Custom('GetYoungMiddleAgedOld')]的[knight.GetWomanMan]。\n\n“我的[vassal.Custom2('RelationToMeShort', ROOT.Char)]及[ROOT.Char.GetTitleAsNameNoTooltip]！”[vassal.GetSheHe]滔滔不绝，“我的[vassal.Custom2('RelationToMeShort', SCOPE.sC('knight'))][knight.GetFullName]盼望获得在你的[ROOT.Char.Custom('MountedWarriorTermPlural')]亲卫队中服役的荣耀——给[knight.GetHerHim]一个机会证明[knight.GetHerHis]的才干吧！”\n\n"
+ hold_court.8050.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U]走近御座，后面跟着一名[knight.Custom('GetYoungMiddleAgedOld')][knight.GetWomanMan]。\n\n“我的[vassal.Custom2('RelationToMeShort', ROOT.Char)]及[ROOT.Char.GetTitleAsNameNoTooltip]！”[vassal.GetSheHe]滔滔不绝，“我的[vassal.Custom2('RelationToMeShort', SCOPE.sC('knight'))][knight.GetFullName]盼望获得在你的[ROOT.Char.Custom('MountedWarriorTermPlural')]亲卫队中服役的荣耀——给[knight.GetHerHim]一个机会证明[knight.GetHerHis]的才干吧！”\n\n"
  hold_court.8050.desc_talented:0 "“[knight.GetSheHe|U]已经是[vassal.GetTitleAsNamePossessive]最富盛名的决斗家之一，能为你在战场上带来许多光荣！”确实，你曾听说过[knight.GetHerHis]的能力……"
  hold_court.8050.desc_suitable:0 "“这位[knight.GetWomanMan][knight.GetHerHis]知道如何使用[knight.Custom('SignatureWeaponArticle')][knight.Custom('signature_weapon')]，有需要时不会让你失望！”"
  hold_court.8050.desc_passing:0 " [knight.GetFirstNameNoTooltip]弱弱地笑了。“虽然我只是一名中游的剑客，我希望为你效命。”"
@@ -276,6 +276,7 @@
  court_position_desc_qadi:0 "确保你的领地遵循安拉的神律"
  court_position_desc_garuda:1 "手握利刃，忠诚地服侍你，无论是上刀山还是下火海"
  court_position_desc_keeper_of_swans:0 "照管帝王的水禽，那是你优雅的美丽象征"
+ court_position_desc_travel_leader:1 "在旅行中为你引领方向"
  # Interest
  hold_court_8090_interest_architect:0 "\n\n“别担心，建设伟大的建筑正是我的爱好之一。”"
  hold_court_8090_interest_seneschal_administrator:0 "\n\n“放心吧，没人比我更热爱管理你的事务。”"
@@ -331,7 +332,7 @@
  hold_court.8100.c.tt_child:0 "所有儿童"
  hold_court.8100.d:0 "养个孩子可不便宜……"
  hold_court.8100.e:0 "真不幸，但这不关君主的事。"
- hold_court.8100.hook.tt:0 "[ward.GetName]如果长大成人前一直是你的[ward|E], 会欠你一个强[hook|E]。"
+ hold_court.8100.hook.tt:0 "[ward.GetName]如果长大成人前一直是你的[ward|E]，会欠你一个强[hook|E]。"
  # Modifiers
  hold_court_8100_adopted_modifier:0 "被接纳的平民"
  hold_court_8100_adopted_modifier_desc:0 "该角色出身寒微，但已被贵族团体接纳"
@@ -590,7 +591,7 @@
  hold_court_8190_vassal_modifier:0 "不受欢迎的文化"
  # Custom
  hold_court_8190_bellicose:0 "一有机会就打架，野蛮！"
- hold_court_8190_stoic:0 "高贵地承受着一切！噢，#EMP 算了吧#!！"
+ hold_court_8190_stoic:0 "“高贵”地承受着一切！噢，#EMP 算了吧#!！"
  hold_court_8190_bureaucratic:0 "对祖先的成功之道毫无敬意。"
  hold_court_8190_spiritual:0 "#EMP 如此痴迷#!于讨好[ROOT.Char.GetFaith.HighGodName]和他们的[ROOT.Char.GetFaith.AltPriestTermPlural]。"
  hold_court_8190_courtly:0 "总是像猫一样讨好他们的统治者！"
@@ -619,7 +620,7 @@
  hold_court.8210.t:0 "合法土地"
  hold_court.8210.desc.intro:0 "一脸不满的[aggressor_vassal.GetTitledFirstName]冲到你的御座前……\n\n“[aggressor_vassal.Custom2('RelationToMeShort', ROOT.Char)|U]， "
  hold_court.8210.desc.de_jure:0 "我对[vassal_claim.GetName]的合法权利毋庸置疑；那片土地自古以来就是[vassal_claim.GetDeJureLiege.GetName]法理的一部分。"
- hold_court.8210.desc.strong:0 "我对[vassal_claim.GetName]的合法权利毋庸置疑；你自己的使者和[ROOT.Char.GetFaith.GetAdjectiveNoTooltip][ROOT.Char.GetFaith.AltPriestTermPlural]都承认这一点。”"
+ hold_court.8210.desc.strong:0 "我对[vassal_claim.GetName]的合法权利毋庸置疑；你自己的传令官和[ROOT.Char.GetFaith.GetAdjectiveNoTooltip][ROOT.Char.GetFaith.AltPriestTermPlural]都承认这一点。”"
  hold_court.8210.desc.weak:0 "我有资格获得[vassal_claim.GetName]，不管别人怎么说！”"
  hold_court.8210.desc.other:0 "\n\n“你应该会支持我的宣称，让你的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('defender_vassal'))][defender_vassal.GetTitledFirstName]放弃不属于[defender_vassal.GetHerHim]的东西吧？”"
  hold_court.8210.desc.self:0 "\n\n“你会放弃不属于你的东西，支持我的宣称吧？”"
@@ -646,7 +647,7 @@
  hold_court.8220.desc.time:0 "“#EMP 你可悲的统治结束了！#!”"
  hold_court.8220.desc.vengeance:0 "“#EMP 复仇之日到了！！#!”"
  hold_court.8220.desc.insult:1 "“#EMP [ROOT.Char.Custom('InsultAdjective')][ROOT.Char.Custom('InsultNoun')]，你的死期到了！#!”"
- hold_court.8220.desc.die:0 "“#EMP 死！！！！#!”"
+ hold_court.8220.desc.die:0 "“#EMP 死！！！#!”"
  hold_court.8220.a.craven:0 "#EMP 啊啊啊啊！#!"
  hold_court.8220.a.paranoid:0 "#EMP 我就知道会这样！#!"
  hold_court.8220.a.fallback:0 "#EMP 不！！！#!"
@@ -760,9 +761,9 @@
  hold_court.8250.c:0 "我知道怎么解决！"
  # # The Dancer
  hold_court.8251.t:0 "舞者"
- hold_court.8251.desc:0 "[vassal_1.GetTitledFirstName]和[vassal_2.GetTitledFirstName]快步向我御座走来，他们看起来显然来者不善。\n\n[vassal_1.GetFirstName]怒气冲冲地说道：“[ROOT.Char.GetLadyLord]，我希望那位[yearn_target.Custom('ComplimentAdjective')]农民[yearn_target.GetFirstName]做我的侧室，[yearn_target.GetHerHis]的舞蹈被整个[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]的人津津乐道！”\n\n[vassal_2.GetFirstName][vassal_1.GetHerHim]插嘴道：“我早就在同[yearn_target.GetHerHis]的家人交涉了！这个[vassal_1.Custom('InsultAdjective')][vassal_1.Custom('InsultNoun')]只是个又可悲又好嫉妒的色鬼！”" # [LocEditor:AwaitingBatchUpdate]
+ hold_court.8251.desc:1 "[vassal_1.GetTitledFirstName]和[vassal_2.GetTitledFirstName]快步向我御座走来，他们看起来显然来者不善。\n\n[vassal_1.GetFirstName]怒气冲冲地说道：“[ROOT.Char.GetLadyLord]，我希望那位[yearn_target.Custom('ComplimentAdjective')]农民[yearn_target.GetFirstName]做我的侧室，[yearn_target.GetHerHis]的舞蹈被整个[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]的人津津乐道！”\n\n[vassal_2.GetFirstName][vassal_1.GetHerHim]插嘴道：“我早就在同[yearn_target.GetHerHis]的家人交涉了！这个[vassal_1.Custom('InsultAdjective')][vassal_1.Custom('InsultNoun')]只是个又可悲又好嫉妒的色鬼！”"
  hold_court.8251.a:0 "那么[yearn_target.GetHerHim]是你的了，[vassal_1.GetFirstNameNoTooltip]。"
- hold_court.8251.b:0 "[yearn_target.GetSheHe|U]应当成为[vassal_2.GetFirstNamePossessiveNoTooltip]的侧室。" # [LocEditor:AwaitingBatchUpdate]
+ hold_court.8251.b:1 "[yearn_target.GetSheHe|U]应当成为[vassal_2.GetFirstNamePossessiveNoTooltip]的侧室。"
  hold_court.8251.c:0 "啊，没错！[yearn_target.GetHerHis]叫[yearn_target.GetFirstNameNoTooltip]！"
  hold_court.8251.d:0 "好吧，#EMP 我#!其实一直打算与[yearn_target.GetHerHim]结婚！"
  hold_court.8251.e:0 "舞者？我没时间听这个。"
@@ -822,3 +823,4 @@
  court_position_qadi:0 "[GetCourtPositionType('chief_qadi_court_position').GetName()]"
  court_position_garuda:0 "[GetCourtPositionType('garuda_court_position').GetName()]"
  court_position_keeper_of_swans:0 "[GetCourtPositionType('keeper_of_swans_court_position').GetName()]"
+ court_position_travel_leader:0 "[GetCourtPositionType('travel_leader_court_position').GetName()]"

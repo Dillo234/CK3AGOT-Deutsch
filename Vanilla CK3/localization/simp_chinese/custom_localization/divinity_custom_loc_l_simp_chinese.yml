@@ -72,6 +72,8 @@
  unbeliever_foreign_believer:0 "异域人"
  unbeliever_heathen_plural:0 "异教徒"
  unbeliever_infidel_plural:0 "异教徒"
+ unbeliever_heretic_plural:0 "异端"
+ unbeliever_unbeliever_plural:0 "不信者"
  character_afterlife_positive:0 "将安息于[ROOT.Char.GetFaith.PositiveAfterLife]"
  character_afterlife_negative:0 "因为[ROOT.Char.GetHerHis]的罪恶，必将于[ROOT.Char.GetFaith.NegativeAfterLife]受罚"
  character_afterlife_reincarnation:0 "不久就会转世成为新的形体"
@@ -89,11 +91,28 @@
  rite_prayer:0 "祈祷"
  rite_worship:0 "崇拜"
 
- # Pilgrimage Name
+ #Pilgrimage name
+ pilgrimage_default:0 "朝圣"
+ pilgrimage_hajj:1 "朝觐"
+ 
+ #PilgrimageHeader
  pilgrimage_default_header:1 "朝圣："
  pilgrimage_hajj_header:1 "朝觐："
+
+ #PilgrimageLength
+ pilgrimage_short_distance:0 "短暂但紧张"
+ pilgrimage_medium_distance:0 "受人尊敬且节奏适中"
+ pilgrimage_long_distance:0 "漫长且卓越"
+ pilgrimage_very_long_distance:0 "极其漫长且危险"
+
+ #GetPilgrimSingularPlural
+ pilgrim_singular:0 "朝圣者"
+ pilgrim_plural:0 "朝圣者"
 
  # GHWs given by which tenet?
  ghw_from_which_tenet_armed_pilgrimages:0 "$tenet_armed_pilgrimages_name$"
  ghw_from_which_tenet_struggle_submission:0 "$tenet_struggle_submission_name$"
  ghw_from_which_tenet_warmonger:0 "$tenet_warmonger_name$"
+
+ faithtaxexemption_the_church:0 "教会"
+ faithtaxexemption_charities:0 "慈善机构"

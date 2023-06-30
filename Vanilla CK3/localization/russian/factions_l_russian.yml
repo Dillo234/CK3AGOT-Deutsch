@@ -22,7 +22,7 @@
  independence_faction_short_effect_desc:0 "Хочет независимости от [Concept( 'liege', 'сюзерена' )|E]"
 
  nation_fracturing_faction:1 "Фракция разделения"
- nation_fracturing_faction_desc:0 "Члены [Concept( 'faction', 'фракции' )|E] за распад державы стремятся уничтожить державу своего [Concept( 'liege', 'сюзерена' )|E].\n\n#S Ультиматум#!\nВсе члены фракции становятся [Concept( 'independent', 'независимыми' )|E]\n[liege|E] теряет свой [Concept( 'primary_title', 'первый титул' )|E] и остальные [Concept( 'titles', 'титулы' )|E] того же [Concept( 'title_tier', 'ранга' )|E]" # [LocEditor:AwaitingBatchUpdate]
+ nation_fracturing_faction_desc:1 "Члены [Concept( 'faction', 'фракции' )|E] за распад державы стремятся уничтожить державу своего [Concept( 'liege', 'сюзерена' )|E].\n\n#S Ультиматум#!\nВсе члены фракции становятся [Concept( 'independent', 'независимыми' )|E]\n[liege|E] теряет свой [Concept( 'primary_title', 'первый титул' )|E] и остальные [Concept( 'titles', 'титулы' )|E] того же [Concept( 'title_tier', 'ранга' )|E]"
  nation_fracturing_faction_short_effect_desc:0 "Хочет уничтожить державу своего [Concept( 'liege', 'сюзерена' )|E]"
  liege_primary_title_dissolution:0 "Теперь вы независимы!"
  liege_primary_title_dissolution_desc:0 "Ваш сюзерен лишился [Concept( 'primary_title', 'первого титула' )|E] из-за [Concept( 'faction', 'фракции' )|E] «$nation_fracturing_faction$»"
@@ -149,3 +149,110 @@
  WARNING_I_AM_ALREADY_AT_WAR_WITH_TARGET:1 "@warning_icon!#X Вы уже воюете с фракцией [faction_target.GetTitledFirstName]#!"
  WARNING_I_AM_AT_WAR_WITH_FACTION_LEADER:1 "@warning_icon!#X Вы воюете с фракцией [faction_invite_from.GetTitledFirstName]#!"
  WARNING_INVITE_CANNOT_JOIN:0 "@warning_icon!#X [faction_invite_from.GetTitledFirstName] не может вступить во фракцию#!"
+
+# FACTION JOIN/CREATE REASONS
+ FACTION_REASON_AI_PERSONALITY:0 "\n[personality|E]: $RESULT|0+=$"
+ FACTION_REASON_DIFFICULTY_EASY:0 "Низкая сложность: $VALUE|0+=$"
+ FACTION_REASON_DIFFICULTY_VERY_EASY:0 "Очень низкая сложность: $VALUE|0+=$"
+ FACTION_REASON_GAME_RULE_REALM_STABILITY_LESSER:0 "Правило игры, снижающее стабильность держав: $VALUE|0+=$"
+ FACTION_REASON_GAME_RULE_REALM_STABILITY_HIGHER:0 "Правило игры, повышающее стабильность держав: $VALUE|0+=$"
+ FACTION_REASON_GAME_RULE_REALM_STABILITY_EXTREME:0 "Правило игры, значительно повышающее стабильность держав: $VALUE|0+=$"
+ FACTION_REASON_CAPITAL_COUNTY:0 "[Concept( 'realm_capital', 'Столица державы' )|E] [Concept( 'liege', 'сюзерена' )|E]: $VALUE|0+=$"
+ FACTION_REASON_GLORY_LEGACY_4:0 "[GetDynastyPerk('glory_legacy_4').GetName]: $VALUE|0+=$"
+ FACTION_REASON_COUNTY_OPINION:0 "Низкое [Concept( 'county_opinion', 'народное мнение' )|E]: $VALUE|0+=$"
+ FACTION_REASON_TARGET_FRIEND_LOVER:0 "[relation|E] с [Concept( 'liege', 'сюзереном' )|E]: $VALUE|0+=$"
+ FACTION_REASON_POWER_HALFWAY_THRESHOLD:0 "Сильная [Concept( 'faction_military_power', 'армии фракции' )|E]: $FACTOR|0%+=$"
+ FACTION_REASON_POWER_PUSHING_THRESHOLD:0 "Очень сильная [Concept( 'faction_military_power', 'армии фракции' )|E]: $FACTOR|0%+=$"
+ FACTION_REASON_POWER_THRESHOLD:0 "Еще более сильная [Concept( 'faction_military_power', 'армии фракции' )|E]: $FACTOR|0%+=$"
+ FACTION_REASON_POWERFUL_VASSAL:0 "[powerful_vassal|E]: $FACTOR|0%+=$"
+ FACTION_REASON_NEIGHBORS:0 "Соседи из одной [Concept( 'faction', 'фракции' )|E]: $FACTOR|^%+=$"
+ FACTION_REASON_CULTURAL_REASONS:0 "Культурные причины: $VALUE|0+=$"
+
+#common_faction_modifiers
+ FACTION_REASON_GAME_START_DUCHY:0 "1 год с начала игры: $VALUE|0+=$"
+ FACTION_REASON_GAME_START_KINGDOM:0 "5 лет с начала игры: $VALUE|0+=$"
+ FACTION_REASON_GAME_START_EMPIRE:0 "10 лет с начала игры: $VALUE|0+=$"
+ FACTION_REASON_LIEGE_DEBT:0 "[liege|E] [Concept( 'debt', 'в долгах' )|E]: $VALUE|0+=$"
+ FACTION_REASON_PLURALISM_ASTRAY:0 "[faith|E] с доктриной «[GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName]»: $VALUE|0+=$"
+ FACTION_REASON_PLURALISM_HOSTILE:0 "[faith|E] с доктриной «[GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName]»: $VALUE|0+=$"
+ FACTION_REASON_PLURALISM_EVIL:0 "[faith|E] с доктриной «[GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName]»: $VALUE|0+=$"
+ FACTION_REASON_LEGALISM_VIRTUES:0 "[GetFaithDoctrine('tenet_legalism').GetBaseName]: [liege|E] [Concept( 'virtuous', 'благочестив' )|E]: $VALUE|0+=$"
+ FACTION_REASON_LEGALISM_SINS:0 "[GetFaithDoctrine('tenet_legalism').GetBaseName]: [liege|E] [Concept( 'sinful', 'греховен' )|E]: $VALUE|0+=$"
+ FACTION_REASON_INTIMIDATED:0 "[intimidated|E]: $VALUE|0+=$"
+ FACTION_REASON_TERRIFIED:0 "[cowed|E]: $VALUE|0+=$"
+
+#independence_faction_modifiers
+ FACTION_REASON_ELECTOR:0 "[elector|E]: $VALUE|0+=$"
+ FACTION_REASON_RIGHTFUL:0 "За пределами [de_jure|El] земель [Concept( 'liege', 'сюзерена' )|E]: $VALUE|0+=$"
+ FACTION_REASON_KING:0 "[kings|E] мечтают о независимости: $VALUE|0+=$"
+ FACTION_REASON_COUNT:0 "[counts|E] хотят оставаться [Concept( 'vassals', 'вассалами' )|E]: $VALUE|0+=$"
+ FACTION_REASON_PERK_TOE_THE_LINE:0 "[GetPerk('toe_the_line_perk').GetName(GetPlayer)]: $VALUE|0+=$"
+ FACTION_REASON_INNOVATION_STEM_DUCHIES:0 "$innovation_stem_duchies$: $VALUE|0+=$"
+ FACTION_REASON_CULTURE_ACCEPTANCE:0 "Низкая [cultural_acceptance|El]: $VALUE|0+=$"
+ FACTION_REASON_PREFER_DISSOLUTION_FACTION:0 "Предпочитает фракцию за разделение державы: $VALUE|0+=$"
+ FACTION_REASON_NEW_VASSAL:0 "Новый [vassal|El]: $VALUE|0+=$"
+
+#peasant_faction_new
+ FACTION_REASON_PREFER_POPULIST_FACTION:0 "Предпочитает народную фракцию: $VALUE|0+=$"
+ FACTION_REASON_RULING_CASTE:0 "[GetCultureTradition('tradition_ruling_caste').GetName]: $VALUE|0+=$"
+ FACTION_REASON_AT_WAR_WITH_TARGET:0 "Уже бунтует против [Concept( 'liege', 'сюзерена' )|E]: $VALUE|0+=$"
+
+#liberty_faction_modifiers
+ FACTION_REASON_CROWN_AUTHORITY_1:0 "$crown_authority_1$: $VALUE|0+=$"
+ FACTION_REASON_CROWN_AUTHORITY_2:0 "$crown_authority_2$: $VALUE|0+=$"
+ FACTION_REASON_CROWN_AUTHORITY_3:0 "$crown_authority_3$: $VALUE|0+=$"
+
+#claimant_faction
+ FACTION_REASON_CLAIMANT_COUNTY_SHARED_CULTURE:0 "[culture|E] [Concept( 'claimant', 'претендента' )|E] совпадает с культурой [Concept( 'county', 'графства' )|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_COUNTY_SHARED_HERITAGE:0 "[heritage|E] [Concept( 'claimant', 'претендента' )|E] совпадает с наследием [Concept( 'county', 'графства' )|E]: $VALUE|0+=$"
+ FACTION_REASON_LIKE_CLAIMANT_FAITH:0 "Предпочитает [Concept( 'faith', 'конфессию' )|E] [Concept( 'claimant', 'претендента' )|E]: $VALUE|0+=$"
+ FACTION_REASON_ADULT_CLAIMANT_CHILD_RULER:0 "[claimant|E] [adult|El], а [liege|El] еще [child|El]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_KINDNESS:0 "[claimant|E] — великодушная [Concept( 'personality', 'личность' )|E]: $VALUE|0+=$"
+
+#claimant_faction_modifiers
+ FACTION_REASON_CLAIMANT_GENDER:0 "Пол [Concept( 'claimant', 'претендента' )|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_GENDER_VS_TARGET:0 "Пол [Concept( 'liege', 'сюзерена' )|E]: $VALUE|0+=$"
+ FACTION_REASON_POWERFUL_LIKES_CLAIMANT_MORE:0 "[powerful_vassal|E] имеет более высокое [opinion|El] о [Concept( 'claimant', 'претенденте' )|E]: $VALUE|0+=$"
+ FACTION_REASON_LIKES_LIEGE_UNLESS_CULTURE:0 "[opinion|E] о [Concept( 'liege', 'сюзерене' )|E] выше, чем о [Concept( 'claimant', 'претенденте' )|E]: $VALUE|0+=$"
+ FACTION_REASON_LIKE_CLAIMANT_MORE_THAN_LIEGE:0 "Более высокое [opinion|El] о [Concept( 'claimant', 'претенденте' )|E]: $VALUE|0+=$"
+ FACTION_REASON_LIKES_LIEGE:0 "Еще более высокое [opinion|El] о [Concept( 'liege', 'сюзерене' )|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_TOO_OLD:0 "[claimant|E] слишком стар: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_TOO_YOUNG:0 "[claimant|E] еще [child|El]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMAINT_DYING:0 "[claimant|E] слаб [Concept( 'health', 'здоровьем' )|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_RARE_PRODUCE_HEIR:0 "[claimant|E] вряд ли сможет произвести на свет [Concept( 'heir', 'наследника' )|E]: $VALUE|0+=$"
+ FACTION_REASON_INFIRM:0 "[claimant|E] обладает свойством «[GetTrait('infirm').GetName( GetNullCharacter )]»: $VALUE|0+=$"
+ FACTION_REASON_MEMBER_IS_CLAIMANT:0 "Я [claimant|El]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_FRIEND_LOVER:0 "[relation|E] с [Concept( 'claimant', 'претендентом' )|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_SUPER_FRIEND_LOVER:0 "Хорошие [relation|El] с [Concept( 'claimant', 'претендентом' )|E]: $VALUE|0+=$"
+ FACTION_REASON_TARGET_IS_CHILD:0 "[liege|E] еще [child|El]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMAINT_SAME_FAITH:0 "Общая [faith|El] с [Concept( 'claimant', 'претендентом' )|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_FAITH_ASTRAY:0 "[faith|E] [Concept( 'claimant', 'претендента' )|E] — [faith_astray|El]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_FAITH_HOSTILE:0 "[faith|E] [Concept( 'claimant', 'претендента' )|E] — [faith_hostile|El]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_FAITH_EVIL:0 "[faith|E] [Concept( 'claimant', 'претендента' )|E] — [faith_evil|El]: $VALUE|0+=$"
+ FACTION_REASON_LOW_TIER_TARGET_TITLE:0 "Выбранный [title|El] ниже [Concept( 'title_tier', 'рангом' )|E], чем [primary_title|El] [Concept( 'liege', 'сюзерена' )|E]: $VALUE|0+=$" #
+ FACTION_REASON_CLAIMANT_IS_RIGHTFUL_LIEGE:0 "[claimant|E] — [rightful_liege|El]: $VALUE|0+=$"
+ FACTION_REASON_TITLE_DEJURE_ABOVE:0 "[primary_title|E] не является [de_jure|El] частью целевого [Concept( 'title', 'титула' )|E]: $VALUE|0+=$"
+ FACTION_REASON_PREFER_INDEPENDENCE_FACTION:0 "Предпочитает фракцию за независимость: $VALUE|0+=$"
+ FACTION_REASON_LIEGE_IS_UNPREFERRED_HEIR:0 "$unpreferred_heir_opinion$: $VALUE|0+=$"
+ FACTION_REASON_LIEGE_IS_PREFERRED_HEIR:0 "$preferred_heir_opinion$: $VALUE|0+=$"
+ FACTION_REASON_BETTER_CROWN_AUTHORITY:0 "[claimant|E] обладает более низким [Concept( 'crown_authority', 'авторитетом короны' )|E]: $VALUE|0+=$"
+ FACTION_REASON_LOWER_COURT_GRANDEUR:0 "[liege|E] имеет уровень величия двора ниже [Concept( 'court_grandeur_expectations', 'ожидаемого' )|E]: $VALUE|0+=$"
+ FACTION_REASON_BYZANTINE:0 "[GetCultureTradition('tradition_byzantine_succession').GetName]: $VALUE|0+=$"
+
+#nation_fracturing_faction_modifiers
+ FACTION_REASON_SHORT_REIGN:0 "[liege|E] недавно получил [primary_title|El]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANTS_OF_MY_CULTURE:0 "Существуют [claimants|El] моей [Concept( 'culture', 'культуры' )|E] на [primary_title|El] [Concept( 'liege', 'сюзерена' )|E]: $VALUE|0+=$"
+ FACTION_REASON_CULTURAL_ACCEPTANCE:0 "[cultural_acceptance|E]: $VALUE|0+=$"
+ FACTION_REASON_TARGET_NOT_FULL_CONTROL:0 "[liege|E] не контролирует все [de_jure|El] земли: $VALUE|0+=$"
+ FACTION_REASON_RECENT_LOST_WAR:0 "[liege|E] недавно проиграл [Concept( 'war', 'войну' )|E]: $VALUE|0+=$"
+ FACTION_REASON_TRIBAL_CLAN:0 "[liege|E] обладает племенной или клановой [Concept( 'government', 'формой правления' )|E]: $VALUE|0+=$"
+ FACTION_REASON_STRUGGLE_PHASE:0 "Текущая [struggle_phase|El]: $VALUE|0+=$"
+ FACTION_REASON_ELECTIVE_PRIMARY:0 "[primary_title|E] [Concept( 'liege', 'сюзерена' )|E] обладает выборным [Concept( 'succession_law', 'законом наследования' )|E]: $VALUE|0+=$"
+ FACTION_REASON_BYZANTINE_RELIGION:0 "Та же [religion|El], что и у византийского [Concept( 'liege', 'сюзерена' )|E]: $VALUE|0+=$"
+
+#populist_faction
+ FACTION_REASON_POWER_MINIMAL:0 "Слабая [Concept( 'faction_military_power', 'армии фракции' )|E]: $FACTOR|0%+=$"
+ FACTION_REASON_FACTION_LEADER:0 "Я лидер [Concept( 'faction', 'фракции' )|E]: $VALUE|0+=$"
+
+ FACTION_REASON_REGENT_CULTURAL_REASONS:0 "[culture|E] [Concept( 'regent_possessive', 'регента' )|E]: $VALUE|0+=$"
+ FACTION_REASON_REGENT_FAITH_REASONS:0 "[faith|E] [Concept( 'regent_possessive', 'регента' )|E]: $VALUE|0+=$"

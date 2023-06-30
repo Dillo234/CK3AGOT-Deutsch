@@ -1,6 +1,7 @@
 ﻿l_german:
  SPOUSE:0 "[spouse|E]"
  FORMER_SPOUSE:0 "Ehemaliger [spouse|E]"
+ SPOUSE_DIARCH:0 "$SPOUSE$-[Character.GetDiarchTitle]"
  BETROTHED:0 "[betrothed|E]"
  SPOUSES:0 "Ehepartner"
  CONCUBINES:0 "[concubines|E]"
@@ -146,7 +147,7 @@
  TT_DYNAST_DESC:0 "[CHARACTER.LocalPlayerString('Ihr seid', 'THIRD_IS')] das [dynast|E] der [CHARACTER.GetHouse.GetDynasty.GetName]-Dynastie sowie das [house_head|E] von Haus [CHARACTER.GetHouse.GetBaseName]"
  THIRD_IS:0 "[CHARACTER.GetUIName] ist"
 
- CV_COURTIER_SPONSOR_INSPIRATION:0 "oder wenn Ihr [Character.Custom('DE_PRO_POS_S_3P')]e [Character.GetCurrentInspiration.GetName] [Concept('sponsor', 'Finanziert')|E]"
+ CV_COURTIER_SPONSOR_INSPIRATION:0 "oder wenn Ihr [Character.Custom('DE_PRO_POS_S_3P')]e [Character.GetCurrentInspiration.GetName] [Concept('sponsor', 'finanziert')|E]"
  CV_COURTIER_STAY_REASON:0 "beispielsweise eine Anstellung als $knight_culture_player$ oder als [councillor|E] [SelectLocalization(And(HasDlcFeature('inspirations'), CHARACTER.HasInspiration), 'CV_COURTIER_SPONSOR_INSPIRATION', '')]"
  CV_COURTIER_WANTS_TO_LEAVE_COURT:2 "[CHARACTER.GetShortUINameNoTooltip] könnte den [court|E] von [TARGET_CHARACTER.GetShortUIName] verlassen. [CHARACTER.Custom('DE_PRO_PER_S_3P_N')|U] bleibt, wenn es einen Grund gibt, $CV_COURTIER_STAY_REASON$."
  CV_COURTIER_WILL_LEAVE_COURT:2 "[CHARACTER.GetShortUINameNoTooltip] wird den [court|E] von [TARGET_CHARACTER.GetShortUIName] bald verlassen. [CHARACTER.Custom('DE_PRO_PER_S_3P_N')|U] bleibt nur, wenn es einen Grund gibt, $CV_COURTIER_STAY_REASON$."
@@ -160,17 +161,17 @@
  CHARACTER_WINDOW_FIND_SPOUSE:1 "#T [spouse|E] finden\n#!Eine [marriage|E] für [Character.GetUIName] arrangieren\n\n[Character.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
  CHARACTER_WINDOW_FIND_SPOUSE_SELF:1 "#T [spouse|E] finden\n#!Eine [marriage|E] für Euch selbst arrangieren\n\n[Character.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
  CHARACTER_WINDOW_FIND_SECONDARY_SPOUSE:0 "#T [spouse|E] finden\n#!Eine [marriage|E] arrangieren"
- CHARACTER_WINDOW_NO_MORE_SPOUSES:0 "#T Keine [spouses|E] mehr#!"
  CHARACTER_WINDOW_GOTO_FIND_SPOUSE:0 "#T Nächster: [spouse|E] finden#!"
  CHARACTER_WINDOW_GOTO_NEXT_SPOUSE:0 "#T Nächster: [CHARACTER.GetUIName]#!"
  CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE:0 "#T Vorheriger: [CHARACTER.GetUIName]#!"
- 
+ CHARACTER_WINDOW_GOTO_PREVIOUS_FIND_SPOUSE:0 "#T Zurück: [spouse|E] finden#!"
+ CHARACTER_WINDOW_GOTO_DIARCH:0 "#T Weiter: [CHARACTER.GetLiege.GetDiarchTitle] [CHARACTER.GetUIName]#!"
+
  CV_CUSTOMIZE_PORTRAIT:0 "#I Klicken, um den Barbier zu öffnen#!"
  RENAME_CHARACTER:0 "#I Klicken, um den Charakter umzubenennen#!"
 
  CV_CHILDREN_HEADING:0 "Kinder #weak ([GetDataModelSize(CharacterWindow.GetChildren)])#!"
  CV_SIBLINGS_HEADING:0 "Geschwister #weak ([GetDataModelSize(CharacterWindow.GetSiblings)])#!"
- AI_PERSONALITY_TT:0 "#T Persönlichkeit: [Character.GetAIPersonality]#!\n[Character.GetShortUINameNoTooltip] wird sich gegenüber Euch und anderen verhalten, wie es [Character.Custom('DE_PRO_POS_S_3P')]e Persönlichkeit vorgibt, die vor allem durch [Character.Custom('DE_PRO_POS_S_3P')]e Persönlichkeits-[traits|E] bestimmt wird."
  CHARACTER_RELATION_COMBINE:0 "$FIRST$ • $SECOND$"
 
  FAITH_CHARACTER_WINDOW:0 "[Faith.GetAdjectiveNoTooltip]"
@@ -181,4 +182,3 @@
  KNOWN_LANGUAGES_TOOLTIP:1 "#T Beherrschte [languages|E]#!\n[Character.GetKnownLanguagesString]\n\n#weak Aktuelle [language_limit|E]: [Character.MakeScope.ScriptValue('current_extra_languages')|V0] von [Character.MakeScope.ScriptValue('language_soft_cap')|V0]#!"
 
  EXTENDED_RELATIONS_TOOLTIP:0 "[Character.GetRelationToStringExtended(GetPlayer)]"
- 

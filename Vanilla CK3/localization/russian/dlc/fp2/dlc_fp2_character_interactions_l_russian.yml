@@ -58,7 +58,7 @@
  ET_AI_HOLY_WAR_REASON:0 "[recipient.GetTitledFirstName] ведет [Concept( 'holy_war', 'священную войну' )|E]: $VALUE|=+0$"
  ET_AI_WAR_NEW_REASON:0 "Война еще только началась: $VALUE|=+0$"
  ET_AI_WAR_OLD_REASON:0 "Война затянулась: $VALUE|=+0$"
- ET_AI_ALLY_REASON:0 "[recipient.GetTitledFirstName] — ваш [allyl|E]"
+ ET_AI_ALLY_REASON:0 "[recipient.GetTitledFirstName] — ваш [Concept( 'ally', 'союзник' )|E]"
  ET_AI_HOF_REASON:0 "Вы [head_of_faith|El], которой придерживается [recipient.GetTitledFirstName]"
  ET_AI_DYNAST_REASON:0 "Вы [dynast|El], к которой принадлежит [recipient.GetTitledFirstName]"
  ET_AI_HOUSE_HEAD_REASON:0 "Вы [house_head|El], к которому принадлежит [recipient.GetTitledFirstName]"
@@ -95,20 +95,20 @@
  OA_AI_DEFENSIVE_WAR_REASON:0 "[recipient.GetShortUIName|U] обороняется: $VALUE|=+0$"
  OA_AI_FAILURE_REASON:0 "[actor.GetShortUIName|U] в прошлом [Select_CString(actor.IsFemale, 'провалила', 'провалил' )] контракты: $VALUE|=+0$"
  OA_AI_LOYALTY_TOWARDS_ALLIES_REASON:0 "Верность [Concept( 'ally', 'союзнику' )|E]: $VALUE|=+0$"
- contract_assistance_interaction_condition_tt:0 "Если [actor.GetShortUIName] до окончания [Concept( 'war', 'войны' )|E] внесет [Concept( 'war_contribution', 'вклад' )|E] не меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]:" # [LocEditor:AwaitingBatchUpdate]
+ contract_assistance_interaction_condition_tt:1 "Если [actor.GetShortUIName] до окончания [Concept( 'war', 'войны' )|E] внесет [Concept( 'war_contribution', 'вклад' )|E] не меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]:"
  contract_assistance_war_msg_title:0 "$contract_assistance_interaction$: Война окончена"
- contract_assistance_war_msg_hirer_paid_desc:0 "Вы заплатили персонажу [contract_assistance_helper.GetShortUIName] по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку [contract_assistance_helper.GetHerHis] [Concept( 'war_contribution', 'вклад' )|E] составил не меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
- contract_assistance_war_msg_helper_paid_desc:0 "[contract_assistance_hirer.GetShortUIName] [Select_CString(contract_assistance_hirer.IsFemale, 'заплатила', 'заплатил' )] вам по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку ваш [Concept( 'war_contribution', 'вклад' )|E] составил не меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
- contract_assistance_war_msg_hirer_kept_desc:0 "Вы не заплатили персонажу [contract_assistance_helper.GetShortUIName] по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку [contract_assistance_helper.GetHerHis] [Concept( 'war_contribution', 'вклад' )|E] составил меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
- contract_assistance_war_msg_helper_kept_desc:0 "[contract_assistance_hirer.GetShortUIName] не [Select_CString(contract_assistance_hirer.IsFemale, 'заплатила', 'заплатил' )] вам по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку ваш [Concept( 'war_contribution', 'вклад' )|E] составил меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
+ contract_assistance_war_msg_hirer_paid_desc:1 "Вы заплатили персонажу [contract_assistance_helper.GetShortUIName] по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку [contract_assistance_helper.GetHerHis] [Concept( 'war_contribution', 'вклад' )|E] составил не меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
+ contract_assistance_war_msg_helper_paid_desc:1 "[contract_assistance_hirer.GetShortUIName] [Select_CString(contract_assistance_hirer.IsFemale, 'заплатила', 'заплатил' )] вам по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку ваш [Concept( 'war_contribution', 'вклад' )|E] составил не меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
+ contract_assistance_war_msg_hirer_kept_desc:1 "Вы не заплатили персонажу [contract_assistance_helper.GetShortUIName] по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку [contract_assistance_helper.GetHerHis] [Concept( 'war_contribution', 'вклад' )|E] составил меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
+ contract_assistance_war_msg_helper_kept_desc:1 "[contract_assistance_hirer.GetShortUIName] не [Select_CString(contract_assistance_hirer.IsFemale, 'заплатила', 'заплатил' )] вам по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку ваш [Concept( 'war_contribution', 'вклад' )|E] составил меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
  contract_assistance_war_msg_hirer_invalidated_desc:0 "Вы не заплатили персонажу [contract_assistance_helper.GetShortUIName] по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку война стала недействительной"
  contract_assistance_war_msg_helper_invalidated_desc:0 "[contract_assistance_hirer.GetShortUIName] не [Select_CString(contract_assistance_hirer.IsFemale, 'заплатила', 'заплатил' )] вам по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку война стала недействительной"
- contract_assistance_war_already_contracted_tt:0 "У вас уже есть [Concept( 'contracting_assistance|E', 'контракт о помощи' )|E] в войне"
+ contract_assistance_war_already_contracted_tt:0 "У вас уже есть [Concept( 'contracting_assistance', 'контракт о помощи' )|E] в войне"
 
  invite_foreign_ruler_to:0 "Пригласить поучаствовать"
  invite_foreign_ruler_to_desc:1 "Пригласить [Concept( 'ruler', 'правителя' )|E] другой [Concept( 'realm', 'державы' )|E] присоединиться к вам на пиру или на охоте"
- invite_foreign_ruler_to.feast.tooltip:0 "Вы начнете [feast|El], где [recipient.GetTitledFirstName] станет особым гостем"
- invite_foreign_ruler_to.hunt.tooltip:0 "Вы начнете [Concept( 'hunt', 'охоту' )|E] , где [recipient.GetTitledFirstName] станет особым гостем"
+ invite_foreign_ruler_to.feast.tooltip:0 "Вы начнете занятие «[GetActivityType('activity_feast').GetName]», где [recipient.GetTitledFirstName] станет особым гостем"
+ invite_foreign_ruler_to.hunt.tooltip:1 "По вашему созыву начнется [GetActivityType('activity_hunt').GetName], где [recipient.GetTitledFirstName] станет особым гостем"
  INVITE_FOREIGN_RULER_TO_NOTIFICATION:0 "Мы с вами должны быть друзьями. Приглашаю вас расслабиться и вместе провести время."
  invited_to_hunt.accept.actor.tt:0 "[recipient.GetTitledFirstName] [Select_CString(prison_holder.IsFemale, 'приняла', 'принял' )] ваше приглашение присоединиться к охоте"
  invited_to_feast.accept.actor.tt:0 "[recipient.GetTitledFirstName] [Select_CString(prison_holder.IsFemale, 'приняла', 'принял' )] ваше приглашение присоединиться к пиру"
@@ -126,7 +126,7 @@
  request_contract_assistance_interaction:0 "Попросить контракт о помощи"
  request_contract_assistance_interaction_desc:0 "Предложить этому [Concept( 'struggle_involved', 'вовлеченному в борьбу' )|E] [Concept( 'ruler', 'правителю' )|E] присоединиться одной из ваших [Concept( 'war', 'войн' )|E] в обмен на [Concept( 'gold', 'золото' )|E]."
  request_contract_assistance_interaction_notification:0 "Ваши войска пригодятся нам в конфликте. Нужно лишь договориться о цене."
- request_contract_assistance_interaction_condition_tt:0 "Если [recipient.GetShortUIName] до окончания [Concept( 'war', 'войны' )|E] внесет [Concept( 'war_contribution', 'вклад' )|E] не меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]:" # [LocEditor:AwaitingBatchUpdate]
+ request_contract_assistance_interaction_condition_tt:1 "Если [recipient.GetShortUIName] до окончания [Concept( 'war', 'войны' )|E] внесет [Concept( 'war_contribution', 'вклад' )|E] не меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]:"
 
  share_known_secrets_interaction_extra_icon:0 "$hook_extra_icon$"
  no_activity_available:0 "Нет доступных [Concept( 'activity', 'занятий' )|E]"

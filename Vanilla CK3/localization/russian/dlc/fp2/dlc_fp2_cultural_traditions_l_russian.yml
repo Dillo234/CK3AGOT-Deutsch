@@ -13,7 +13,7 @@
  tradition_fp2_strategy_gamers_name:1 "Настольные воины"
  tradition_fp2_strategy_gamers_desc:0 "Любой командир может рискнуть и испытать удачу на поле боя. #EMP Настоящий#! стратег оттачивает свой разум и делает вид, что не #EMP нуждается#! в удаче."
 
- culture_parameter_commanders_likelier_to_gain_commander_traits:0 "[commanders|E] чаще получают [Concept( 'commander_traits', 'свойства командира' )|E]" # [LocEditor:AwaitingBatchUpdate]
+ culture_parameter_commanders_likelier_to_gain_commander_traits:1 "[commanders|E] чаще получают [Concept( 'commander_traits', 'свойства командира' )|E]"
  culture_parameter_may_challenge_to_board_games:0 "Всегда можно бросать вызов другим [Concept( 'characters', 'персонажам' )|E] в [Concept( 'board_games', 'настольных играх' )|E]"
  culture_parameter_may_wager_land_on_board_games:0 "Можно ставить на кон собственное [Concept( 'county', 'графство' )|E] в [Concept( 'board_games', 'настольных играх' )|E], если это правило действует для обоих игроков"
  
@@ -118,7 +118,7 @@
  reaffirm_best_friendship_interaction.decline.actor.tt:0 "[recipient.GetTitledFirstNameNoTooltip] плюет на вашу дружбу"
  reaffirm_best_friendship_interaction.decline.recipient.tt:0 "[actor.GetTitledFirstNameNoTooltip] чувствует себя [Select_CString(actor.IsFemale, 'преданной', 'преданным' )]"
  synergise_friendship_interaction:0 "Синергия дружбы"
- synergise_friendship_interaction_desc:0 "Воспользоваться знаниями и умениями, которыми обладает [Concept( 'best_friend', Select_CString(recipient.IsFemale, 'ваша лучшая подруга' 'ваш лучший друг' ))|E] [recipient.GetTitledFirstNameNoTooltip]"
+ synergise_friendship_interaction_desc:0 "Воспользоваться знаниями и умениями, которыми обладает [Concept( 'best_friend', Select_CString(recipient.IsFemale, 'ваша лучшая подруга', 'ваш лучший друг' ))|E] [recipient.GetTitledFirstNameNoTooltip]"
  SYNERGISE_FRIENDSHIP_NOTIFICATION:0 "[recipient.GetFirstNameNoTooltip], я знаю, что всегда и во всем могу на тебя рассчитывать, и потому спрашиваю... [Select_CString(recipient.IsFemale, 'готова', 'готов' )] ли ты пообещать всегда делиться друг с другом знаниями и опытом?"
  synergise_friendship_interaction.accept.actor.tt:0 "$propose_best_friendship_interaction.accept.actor.tt$"
  synergise_friendship_interaction.accept.recipient.tt:0 "$propose_best_friendship_interaction.accept.recipient.tt$"

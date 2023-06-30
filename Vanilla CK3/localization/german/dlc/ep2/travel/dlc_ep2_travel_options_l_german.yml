@@ -1,0 +1,73 @@
+﻿l_german:
+ 
+ travel_walking_modifier:0 "Zu Fuß"
+ travel_walking_modifier_desc:0 "Ihr habt keine Reittiere und marschiert daher zu Eurem Ziel."
+ travel_guide_modifier:0 "Ortskundiger Führer"
+ travel_guide_modifier_desc:0 "Ihr habt einen örtlichen Führer angeworben, der bei der Orientierung hilft."
+ 
+ # New Travel Options
+ experienced_captains_option:0 "Erfahrene Kapitäne anwerben"
+ experienced_captains_option_desc:0 "Ihr werbt erfahrene Kapitäne an, die sich Eurem Gefolge anschließen und so die Gefahr einer Reise über Meere und Ozeane erheblich verringern."
+ captain_recruited.t:0 "Kapitän angeworben"
+ captain_recruited.tt:0 "Ein Seefahrer mit der Eigenschaft „[GetTrait('forder').GetName(GetNullCharacter)]“ schließt sich Eurem Gefolge an."
+ 
+ hire_experienced_mercenaries_option:0 "Söldner als Wachen anwerben"
+ hire_experienced_mercenaries_option_desc:0 "Ihr heuert hartgesottene Söldner an, die sich Eurem Gefolge als Wachen anschließen und die Sicherheit und Geschwindigkeit der Reise erhöhen."
+ mercenary_leader.t:0 "Söldnerhauptmann angeworben"
+ mercenary_leader_recruited.tt:0 "Ein [mercenary|E]-Hauptmann schließt sich Eurem Gefolge an."
+ available_mercenary.tt:0 "Es ist ein freier [mercenary|E] in Reichweite"
+
+ hire_jungle_expert_option:0 "Dschungelpirscher anwerben"
+ hire_jungle_expert_option_desc:0 "Ihr werbt für Euer Gefolge Leute an, die sich mit Dschungelgelände auskennen, wodurch sich die Gefahr einer Reise durch selbiges erheblich verringert."
+ jungle_stalker_recruited.t:0 "Dschungelpirscher angeworben"
+ jungle_stalker_recruited.tt:0 "Ein Führer mit der Eigenschaft „[GetTrait('jungle_stalker').GetName(GetNullCharacter)]“ schließt sich Eurem Gefolge an."
+
+ hire_mountaineer_option:0 "Bergsteiger anwerben"
+ hire_mountaineer_option_desc:0 "Ihr werbt für Euer Gefolge Leute an, die sich mit gebirgigem Gelände auskennen, wodurch sich die Gefahr einer Reise über hohe Gipfel erheblich verringert."
+ mountaineer_recruited.t:0 "Bergsteiger angeworben"
+ mountaineer_recruited.tt:0 "Ein Führer mit der Eigenschaft „[GetTrait('rough_terrain_expert').GetName(GetNullCharacter)]“ schließt sich Eurem Gefolge an."
+
+ hire_forder_option:0 "Furtner anheuern"
+ hire_forder_option_desc:0 "Ihr werbt für Euer Gefolge Leute an, die sich mit Feuchtgebieten auskennen, wodurch sich die Gefahr einer Reise durch Feuchtgebiete und Überschwemmungsgebiete erheblich verringert."
+ forder_recruited.t:0 "Furtner angeworben"
+ forder_recruited.tt:0 "Ein Führer mit der Eigenschaft „[GetTrait('forder').GetName(GetNullCharacter)]“ schließt sich Eurem Gefolge an."
+ wetlands_danger_reduction.tt:0 "[travel|E]-[travel_danger|E] in Provinzen mit Feuchtgebieten oder Flutgebieten: @travel_danger_icon!#P - 25#!"
+
+ hire_rough_terrain_expert_option:0 "Waldpirscher anwerben"
+ hire_rough_terrain_expert_option_desc:0 "Ihr werbt für Euer Gefolge Leute an, die sich in bewaldetem Gelände auskennen, wodurch sich die Gefahr einer Reise durch Wälder erheblich verringert."
+ rough_terrain_expert_recruited.t:0 "Waldpirscher angeworben"
+ rough_terrain_expert_recruited.tt:0 "Ein Führer mit der Eigenschaft „[GetTrait('forest_fighter').GetName(GetNullCharacter)]“ schließt sich Eurem Gefolge an."
+
+ hire_desert_warrior_option:0 "Wüstenkrieger anwerben"
+ hire_desert_warrior_option_desc:0 "Ihr werbt für Euer Gefolge Leute an, die sich mit Wüstengelände auskennen, wodurch sich die Gefahr einer Reise durch Wüsten und trockene Gebiete erheblich verringert."
+ desert_warrior_recruited.t:0 "Wüstenkrieger angeworben"
+ desert_warrior_recruited.tt:0 "Ein Führer mit der Eigenschaft „[GetTrait('desert_warrior').GetName(GetNullCharacter)]“ schließt sich Eurem Gefolge an."
+
+ court_physician_option:0 "Hofarzt mitnehmen"
+ court_physician_option_desc:0 "Ihr nehmen Euren [GetCourtPositionType('court_physician_court_position')] auf Eure Reise mit, damit er sich um Verwundete und Kranke kümmern kann."
+
+ cultural_ambassador_option:0 "Kulturbotschafter anwerben"
+ cultural_ambassador_option_desc:0 "Ihr werbt eine Person an, die als Kulturbotschafter dient und Wissen über Eure Kultur in allen Baronien verbreitet, durch die Ihr reist."
+ cultural_ambassador_recruited.t:0 "Kulturbotschafter angeworben"
+ cultural_ambassador_recruited.tt:0 "Ein Kulturbotschafter mit hoher [diplomacy|E] schließt sich Eurem Gefolge an."
+
+ fancy_mounts_option:0 "Bessere Reittiere"
+ fancy_mounts_option_desc:0 "Eure erfahrenen Stallknechte statten Euer Gefolge mit den besten Reittieren Eures Reichs aus."
+ 
+ military_recruits_option:0 "Ritter ausbilden"
+ military_recruits_option_desc:0 "Ihr bringt Eure schwächsten Ritter mit, damit sie an den Herausforderungen der Reise wachsen können."
+ military_recruits_option.t:0 "Ritter schließt sich Eurem Gefolge an"
+ military_recruits_option.desc:0 "Eure am wenigsten fähigen Ritter nehmen an Eurer Reise teil, da Ihr die Reiseoption „$military_recruits_option$“ gewählt habt."
+ travel_events.0060.notification.a:0 "Ritter-Eigenschaft verbessert: [selected_knight.GetShortUIName]"
+ travel_events.0060.notification_desc:0 "Die Fähigkeiten von [selected_knight.GetShortUIName] haben sich durch die auf der Reise gewonnene Erfahrung verbessert.#"
+ travel_events.0060.notification.b:0 "Ritter hat sich beträchtlich verbessert: [selected_knight.GetShortUIName]"
+ travel_events.0060.notification.c:0 "Ritter hat sich verbessert: [selected_knight.GetShortUIName]"
+ travel_events.0060.notification.d:0 "Ritter hat Ruhm erhalten: [selected_knight.GetShortUIName]"
+
+ superior_armaments_option:0 "Besseres Rüstzeug"
+ superior_armaments_option_desc:0 "Eure fähigsten Schmiede statten Euer Gefolge für die Reise mit der besten Ausrüstung aus."
+
+ anxious_option:0 "Beeilt Euch"
+ anxious_option_desc:0 "Die Welt ist ein dunkler und gefährlicher Ort; wir sollten so schnell wie möglich reisen."
+ circumspect_option:0 "Verdächtig"
+ circumspect_option_desc:0 "Lasst sie niemals Euren nächsten Schritt erfahren."

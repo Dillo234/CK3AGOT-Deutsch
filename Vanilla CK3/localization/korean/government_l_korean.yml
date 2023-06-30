@@ -167,7 +167,14 @@
  GOVERNMENT_HOLDING_INFO:0 "- [HOLDING_TYPE.GetName|V] [holdings|E] 지배 가능"
  GOVERNMENT_CLAN_NOT_ALLIED:0 "씨족 [vassal|E]과의 [alliance|E] 없음"
  GOVERNMENT_CLAN_NOT_ALLIED_POWERFUL:0 "강력한 씨족 [vassal|E]과의 [alliance|E] 없음"
- government_can_raid_rule:0 "외세 [Concept( 'counties', '영지' )|E]를 [raiding|E]해 노획물 획득 가능"
+ government_can_raid_rule:1 "[government|E]에서 [raid_loot|E] 목적으로 외국 [Concept( 'counties', '영지' )|E]를 [raiding|E]하는 것을 허용함"
+ government_is_feudal:0 "[government|E] 유형이 [GetGovernment( 'feudal_government' ).GetName]임"
+ government_is_republic:0 "[government|E] 유형이 [GetGovernment( 'republic_government' ).GetName]임"
+ government_is_theocracy:0 "[government|E] 유형이 [GetGovernment( 'theocracy_government' ).GetName]임"
+ government_is_clan:0 "[government|E] 유형이 [GetGovernment( 'clan_government' ).GetName]임"
+ government_is_tribal:0 "[government|E] 유형이 [GetGovernment( 'tribal_government' ).GetName]임"
+ government_is_mercenary:0 "[government|E] 유형이 [GetGovernment( 'mercenary_government' ).GetName]임"
+ government_is_holy_order:0 "[government|E] 유형이 [GetGovernment( 'holy_order_government' ).GetName]임"
 
  SUPPLY_MULT_DIFERENT_GOVERNMENT:0 "[GOVERNMENT_TYPE.GetAdjective] 영지"
  

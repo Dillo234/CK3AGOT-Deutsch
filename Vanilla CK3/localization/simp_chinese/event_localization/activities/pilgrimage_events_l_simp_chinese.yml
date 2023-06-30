@@ -1,153 +1,524 @@
 ﻿l_simp_chinese:
+ ### SETUP
  activity_pilgrimage:0 "朝圣"
+ activity_pilgrimage_desc:0 "$game_concept_pilgrimage_desc$"
+ activity_pilgrimage_host_desc:0 "$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$[stress_loss_i][stress|E]减少\n[GetPlayer.Custom('GetPilgrimOrHajjiTrait')]"
+ activity_pilgrimage_pilgrim_custom_host_desc:0 "$BULLET_WITH_TAB$[GetTrait('pilgrim').GetName( GetNullCharacter )][trait|E]/[GetTrait('pilgrim').GetName( GetNullCharacter )][trait_level_track_xp|E]"
+ activity_pilgrimage_hajjaj_custom_host_desc:0 "$BULLET_WITH_TAB$[GetTrait('hajjaj').GetName( GetNullCharacter )][trait|E]"
+
+ activity_pilgrimage_selection_tooltip:1 "开始一场[pilgrimage|E]以证明你对[GetPlayer.GetFaith.PantheonTerm]的奉献\n\n预期奖励：\n$BULLET_WITH_TAB$[piety_i][piety|E]\n$BULLET_WITH_TAB$[stress_loss_i][stress|E]减少"
+ activity_pilgrimage_destination_selection:0 "你的目的地离你的首府越远，你就越能证明你对[GetPlayer.GetFaith.PantheonTerm]的奉献，并获得额外的[piety|E]。"
  activity_pilgrimage_owner:0 "朝圣者"
  activity_pilgrimage_name:0 "朝圣"
+
+ #Province Description
+ activity_pilgrimage_province_unvisited_desc:0 "\n#positive_value +未造访过的圣地#!"
+ activity_pilgrimage_province_unique_desc:0 "\n#positive_value +无与伦比的[GetPlayer.GetFaith.GetReligion.GetAdjectiveNoTooltip]圣地#!"
+ #Pros/Cons + Cost at the end
+ activity_pilgrimage_province_desc:1 "你开始了[ROOT.Province.GetName]朝圣之旅\n距离影响花费和奖励"
+ activity_pilgrimage_province_very_short_desc:0 "\n#positive_value +非常短的距离#!\n\n额外花费：无"
+ activity_pilgrimage_province_pretty_short_desc:0 "\n#positive_value +较短的距离#!\n#negative_value -成本隐约增加#!\n\n额外成本：[gold_i][SCOPE.ScriptValue('pilgrimage_length_cost_tier_1')|0]"
+ activity_pilgrimage_province_short_desc:0 "\n#positive_value ++有点短的距离#!\n#negative_value --成本略有增加#!\n\n额外成本：[gold_i][SCOPE.ScriptValue('pilgrimage_length_cost_tier_2')|0]"
+ activity_pilgrimage_province_intermediate_desc:0 "\n#positive_value ++中等距离#!\n#negative_value --中等成本#!\n\n额外成本：[gold_i][SCOPE.ScriptValue('pilgrimage_length_cost_tier_3')|0]"
+ activity_pilgrimage_province_respectably_desc:0 "\n#positive_value ++距离颇远#!\n#negative_value --成本高#!\n\n额外成本：[gold_i][SCOPE.ScriptValue('pilgrimage_length_cost_tier_4')|0]"
+ activity_pilgrimage_province_quite_far_desc:0 "\n#positive_value +++相当遥远#!\n#negative_value ---相当昂贵#!\n\n额外成本：[gold_i][SCOPE.ScriptValue('pilgrimage_length_cost_tier_5')|0]"
+ activity_pilgrimage_province_very_far_desc:0 "\n#positive_value +++非常遥远#!\n#negative_value ---很昂贵#!\n\n额外成本：[gold_i][SCOPE.ScriptValue('pilgrimage_length_cost_tier_6')|0]"
+ activity_pilgrimage_province_extraordinarily_far_desc:0 "\n#positive_value +++极其遥远#!\n#negative_value ---极其昂贵#!\n\n额外成本：[gold_i][SCOPE.ScriptValue('pilgrimage_length_cost_tier_7')|0]"
+ #Effects
+ activity_pilgrimage_province_medium_mult_desc:0 "\n\n#bold 在这里举办[GetActivityType('activity_pilgrimage').GetName]的效果#!\n$BULLET_WITH_TAB$活动奖励的[piety_i|E][piety|E]：#p +[EmptyScope.ScriptValue('medium_pilgrimage_piety_multiplier')|0]%#!"
+ activity_pilgrimage_province_long_mult_desc:0 "\n\n#bold 在这里举办[GetActivityType('activity_pilgrimage').GetName]的效果#!\n$BULLET_WITH_TAB$活动奖励的[piety_i|E][piety|E]：#p +[EmptyScope.ScriptValue('long_pilgrimage_piety_multiplier')|0]%#!"
+ activity_pilgrimage_province_very_long_mult_desc:0 "\n\n#bold 在这里举办[GetActivityType('activity_pilgrimage').GetName]的效果#!\n$BULLET_WITH_TAB$活动奖励的[piety_i|E][piety|E]：#p +[EmptyScope.ScriptValue('very_long_pilgrimage_piety_multiplier')|0]%#!"
+ 
+
+ activity_pilgrimage_conclusion_desc:0 "我们的朝圣之旅圆满结束"
  pilgrimage_header:0 "[ROOT.Char.Custom('PilgrimageHeader')]"
- very_long_pilgrimage_tt:0 "这是一场路途#V 极为漫长#!的朝圣"
- long_pilgrimage_tt:0 "这是一场路途#V 非常漫长#!的朝圣"
- medium_pilgrimage_tt:0 "这是一场路途#V 漫长#!的朝圣"
- short_pilgrimage_tt:0 "这是一场路途#V 短暂#!的朝圣"
- pilgrimage_other_selections_available_tt:0 "我开始考虑其他圣地"
+ ACTIVITY_PILGRIMATE_VISITED_HOLY_SITE:0 "造访$ACTIVITY_CURRENT_LOCATION$[holy_site|E]"
+ activity_window_character_pilgrim:1 "朝圣者\n[Character.GetShortUINameNoTooltip|U]"
+
+
+ ### ACTIVITY EFFECTS
+ pilgrimage_pious_type_tt_positive:0 "你的[GetActivityType('activity_pilgrimage').GetName]变得#P 更加虔诚#!"
+ pilgrimage_pious_type_tt_very_positive:0 "你的[GetActivityType('activity_pilgrimage').GetName]变得#P 非常虔诚#!"
+ pilgrimage_worldly_type_tt_positive:0 "你的[GetActivityType('activity_pilgrimage').GetName]变得#P 更加世俗#!"
+ pilgrimage_worldly_type_tt_very_positive:0 "你的[GetActivityType('activity_pilgrimage').GetName]变得#P 非常世俗#!"
+ pilgrimage_cultural_acceptance_all_encountered.tt:0 "所有遇到的[culture|E]"
+
+ #Tenet rewards
+ ##Armed Pilgrimages
+ pilgrimage_because_global_have_armed_pilgrimages:0 "因为[CHARACTER.GetShortUINamePossessive][faith|E]拥有[GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName][core_tenet|E]："
+ pilgrimage_because_global_had_armed_pilgrimages:0 "因为[CHARACTER.GetShortUINamePossessive][faith|E]拥有[GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName][core_tenet|E]："
+ pilgrimage_because_they_have_armed_pilgrimages:0 "$pilgrimage_because_global_have_armed_pilgrimages$"
+ pilgrimage_because_they_had_armed_pilgrimages:0 "$pilgrimage_because_global_had_armed_pilgrimages$"
  pilgrimage_because_i_have_armed_pilgrimages:0 "因为你的[faith|E]拥有[GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName][core_tenet|E]："
+ pilgrimage_because_i_had_armed_pilgrimages:0 "因为你的[faith|E]拥有[GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName][core_tenet|E]："
+ ##Mendicant Preachers
+ pilgrimage_because_global_have_tenet_mendicant_preachers:0 "因为[CHARACTER.GetShortUINamePossessive]的[faith|E]拥有[GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName][core_tenet|E]："
+ pilgrimage_because_global_had_tenet_mendicant_preachers:0 "因为[CHARACTER.GetShortUINamePossessive]的[faith|E]拥有[GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName][core_tenet|E]："
+ pilgrimage_because_they_have_tenet_mendicant_preachers:0 "$pilgrimage_because_global_have_tenet_mendicant_preachers$"
+ pilgrimage_because_they_had_tenet_mendicant_preachers:0 "$pilgrimage_because_global_had_tenet_mendicant_preachers$"
  pilgrimage_because_i_have_tenet_mendicant_preachers:0 "因为你的[faith|E]拥有[GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName][core_tenet|E]："
+ pilgrimage_because_i_had_tenet_mendicant_preachers:0 "因为你的[faith|E]拥有[GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName][core_tenet|E]："
+ ##Pentarchy
+ pilgrimage_because_global_have_tenet_pentarchy:0 "因为[CHARACTER.GetShortUINamePossessive]的[faith|E]拥有[GetFaithDoctrine('tenet_pentarchy').GetBaseName][core_tenet|E]："
+ pilgrimage_because_global_had_tenet_pentarchy:0 "因为[CHARACTER.GetShortUINamePossessive]的[faith|E]拥有[GetFaithDoctrine('tenet_pentarchy').GetBaseName][core_tenet|E]："
+ pilgrimage_because_they_have_tenet_pentarchy:0 "$pilgrimage_because_global_have_tenet_pentarchy$"
+ pilgrimage_because_they_had_tenet_pentarchy:0 "$pilgrimage_because_global_had_tenet_pentarchy$"
  pilgrimage_because_i_have_tenet_pentarchy:0 "因为你的[faith|E]拥有[GetFaithDoctrine('tenet_pentarchy').GetBaseName][core_tenet|E]："
+ pilgrimage_because_i_had_tenet_pentarchy:0 "因为你的[faith|E]拥有[GetFaithDoctrine('tenet_pentarchy').GetBaseName][core_tenet|E]："
+ ##Esotericism
+ pilgrimage_because_global_have_tenet_esotericism:0 "因为[CHARACTER.GetShortUINamePossessive]的[faith|E]拥有[GetFaithDoctrine('tenet_esotericism').GetBaseName][core_tenet|E]："
+ pilgrimage_because_global_had_tenet_esotericism:0 "因为[CHARACTER.GetShortUINamePossessive]的[faith|E]拥有[GetFaithDoctrine('tenet_esotericism').GetBaseName][core_tenet|E]："
+ pilgrimage_because_they_have_tenet_esotericism:0 "$pilgrimage_because_global_have_tenet_esotericism$"
+ pilgrimage_because_they_had_tenet_esotericism:0 "$pilgrimage_because_global_had_tenet_esotericism$"
  pilgrimage_because_i_have_tenet_esotericism:0 "因为你的[faith|E]拥有[GetFaithDoctrine('tenet_esotericism').GetBaseName][core_tenet|E]："
+ pilgrimage_because_i_had_tenet_esotericism:0 "因为你的[faith|E]拥有[GetFaithDoctrine('tenet_esotericism').GetBaseName][core_tenet|E]："
+ ##Struggle & Submission
+ pilgrimage_because_global_have_tenet_struggle_submission:0 "因为[CHARACTER.GetShortUINamePossessive]的[faith|E]拥有[GetFaithDoctrine('tenet_struggle_submission').GetBaseName][core_tenet|E]："
+ pilgrimage_because_global_had_tenet_struggle_submission:0 "由于[CHARACTER.GetShortUINamePossessive]的[faith|E]有[GetFaithDoctrine('tenet_struggle_submission').GetBaseName][core_tenet|E]："
+ pilgrimage_because_they_have_tenet_struggle_submission:0 "$pilgrimage_because_global_have_tenet_struggle_submission$"
+ pilgrimage_because_they_had_tenet_struggle_submission:0 "$pilgrimage_because_global_had_tenet_struggle_submission$"
  pilgrimage_because_i_have_tenet_struggle_submission:0 "因为你的[faith|E]拥有[GetFaithDoctrine('tenet_struggle_submission').GetBaseName][core_tenet|E]："
+ pilgrimage_because_i_had_tenet_struggle_submission:0 "因为你的[faith|E]拥有[GetFaithDoctrine('tenet_struggle_submission').GetBaseName][core_tenet|E]："
+ ##Ancestor Worship
+ pilgrimage_because_global_have_tenet_ancestor_worship:0 "因为[CHARACTER.GetShortUINamePossessive]的[faith|E]拥有[GetFaithDoctrine('tenet_ancestor_worship').GetBaseName][core_tenet|E]："
+ pilgrimage_because_global_had_tenet_ancestor_worship:0 "因为[CHARACTER.GetShortUINamePossessive]的[faith|E]拥有[GetFaithDoctrine('tenet_ancestor_worship').GetBaseName][core_tenet|E]："
+ pilgrimage_because_they_have_tenet_ancestor_worship:0 "$pilgrimage_because_global_have_tenet_ancestor_worship$"
+ pilgrimage_because_they_had_tenet_ancestor_worship:0 "$pilgrimage_because_global_had_tenet_ancestor_worship$"
  pilgrimage_because_i_have_tenet_ancestor_worship:0 "因为你的[faith|E]拥有[GetFaithDoctrine('tenet_ancestor_worship').GetBaseName][core_tenet|E]："
+ pilgrimage_because_i_had_tenet_ancestor_worship:0 "因为你的[faith|E]拥有[GetFaithDoctrine('tenet_ancestor_worship').GetBaseName][core_tenet|E]："
  pilgrimage_learn_from_the_bishops:0 "试图理解神师"
  pilgrimage_learn_from_the_bishops_success:0 "你掌握了课程"
  pilgrimage_learn_from_the_bishops_failure:0 "知识依然躲避着你"
 
- pilgrimage_return_home:0 "我返回[start_location.GetNameNoTier]"
+ #Tenet event piousness
+ pilgrimage_piousness_because_i_have_tenet_armed_pilgrimages:0 "由于你的[faith|E]有[GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName][core_tenet|E]：\n$EFFECT_LIST_BULLET$$pilgrimage_pious_type_tt_positive$\n"
+ pilgrimage_piousness_because_i_have_tenet_struggle_submission:0 "由于你的[faith|E]有[GetFaithDoctrine('tenet_struggle_submission').GetBaseName][core_tenet|E]：\n$EFFECT_LIST_BULLET$$pilgrimage_pious_type_tt_positive$\n"
+ pilgrimage_piousness_because_i_have_tenet_warmonger:0 "由于你的[faith|E]有[GetFaithDoctrine('tenet_warmonger').GetBaseName][core_tenet|E]：\n$EFFECT_LIST_BULLET$$pilgrimage_pious_type_tt_positive$\n"
 
- # Generic Pilgrimage Start Events
 
- pilgrimage.0001.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]的朝圣"
- pilgrimage.0001.desc:0 "我是时候该启程去往一个圣地了。不过要去哪一个呢？"
- pilgrimage.0001.a:0 "[holy_site_1.GetNameNoTierNoTooltip]。"
- pilgrimage.0001.b:0 "位于[holy_site_2.GetNameNoTierNoTooltip]的[ROOT.Char.GetFaith.HouseOfWorshipPlural]。"
- pilgrimage.0001.c:0 "去[holy_site_3.GetNameNoTierNoTooltip]！"
- pilgrimage.0001.d:0 "或许该去别处……"
- pilgrimage.0001.e:0 "我改变主意了。现在还不是合适的时间。"
- pilgrimage.0002.a:0 "[holy_site_4.GetNameNoTierNoTooltip]。"
- pilgrimage.0002.b:0 "位于[holy_site_5.GetNameNoTierNoTooltip]的[ROOT.Char.GetFaith.HouseOfWorshipPlural]。"
- pilgrimage.0002.c:0 "去[holy_site_6.GetNameNoTierNoTooltip]！"
- pilgrimage.0003.a:0 "[holy_site_7.GetNameNoTierNoTooltip]。"
- pilgrimage.0003.b:0 "位于[holy_site_8.GetNameNoTierNoTooltip]的[ROOT.Char.GetFaith.HouseOfWorshipPlural]。"
- pilgrimage.0003.c:0 "去[holy_site_9.GetNameNoTierNoTooltip]！"
+ ### PARAMETERS
+ pilgrimage_base_cost:0 "基础花费"
+ pilgrimage_cost_triggered_by_ghosts:0 "幽灵般的影响"
+ pilgrimage_cost_triggered_by_dead_hajj_relative:0 "承诺的朝觐"
+ pilgrimage_cost_triggered_by_dead_pilgrimage_relative:0 "承诺的朝圣"
+ pilgrimage_cost_pomp_ceremonial:0 "盛大的仪式开销"
+ pilgrimage_cost_pomp_throng:0 "排场开销"
+ pilgrimage_cost_distance:0 "距离花费"
 
- pilgrimage.1001.t:0 "$pilgrimage_header$启程"
- pilgrimage.1001.desc.opening:0 "当我在为旅行做准备时，我明白在[ROOT.Char.GetFaith.PantheonTerm]的庇佑下，我会一路平安的。"
- pilgrimage.1001.desc.short:0 "\n\n虽然我不会离家太久，但我还是祈祷当我不在时国内能太平无事。"
- pilgrimage.1001.desc.medium:0 "\n\n我与[ROOT.Char.GetFaith.HighGodNameAlternate]一同踏上旅程，我的领地必须等待，不论我要去多久。"
- pilgrimage.1001.desc.long:0 "\n\n我的目的地远离家乡，但为了[ROOT.Char.GetFaith.DivineRealm]，甚至我自己的领地也要排在后面。"
- pilgrimage.1001.desc.very_long:0 "\n\n我会离家很久，我只能祈祷[ROOT.Char.GetFaith.HighGodNameAlternate]会眷顾我和我的国家。"
- pilgrimage.1001.a:0 "是时候离开了。"
+ ### PHASES
+ pilgrimage_phase_solo:0 "朝圣"
+ pilgrimage_phase_solo_desc:0 "朝圣之旅是个人信仰的精神之旅。朝圣之旅的成功取决于旅行时所做的选择和在目的地所做的选择。"
+ activity_pilgrimage_guest_desc:0 "$BULLET_WITH_TAB$参与者可能会获得[piety|E]\n$BULLET_WITH_TAB$参与者可能会降低[stress_loss_i][stress|E]\n$BULLET_WITH_TAB$参与者可能会获得[GetTrait('pilgrim').GetName( GetNullCharacter )][trait|E]"
 
- # Generic Pilgrimage Journey Events 
+ ### OPTIONS
+ #Type of Pilgrimage [Special Type] Option
+ pilgrimage_type_pious:0 "虔诚朝圣"
+ pilgrimage_type_pious_desc:1 "$EFFECT_LIST_BULLET$一些事件选项将允许特别虔诚的行为\n$EFFECT_LIST_BULLET$完成这些会增加额外的[piety|E]\n#weak 朝圣的目的是敬拜神明，与你的全部心神紧密相连。#!"
+ pilgrimage_type_worldly:0 "世俗的朝圣"
+ pilgrimage_type_worldly_desc:1 "$EFFECT_LIST_BULLET$一些事件选项将允许观光行动\n$EFFECT_LIST_BULLET$完成后获得一个多元文化修正\n#weak 闻着异国空气的甜美陌生感，理解异国语言的奇异特征——还有什么比这更美好的吗？#!"
+ pilgrimage_type_hajj:0 "朝觐"
+ pilgrimage_type_hajj_desc:0 "$EFFECT_LIST_BULLET$所有有能力的穆斯林必须至少朝觐一次\n$EFFECT_LIST_BULLET$获得[GetTrait('hajjaj').GetName(GetNullCharacter)][trait|E]后其他类型可用\n#weak 记住——朝觐不是义务，而是机遇。为了服从，为了谦卑，为了宽恕。若主意欲！#!"
+ #Fidelity Option
+ pilgrimage_option_fidelity:0 "忠诚"
+ pilgrimage_fidelity_obligatory:0 "义不容辞"
+ pilgrimage_fidelity_obligatory_desc:1 "$EFFECT_LIST_BULLET$[travel|E]速度提高#positive_value 50%#!\n$EFFECT_LIST_BULLET$完成后你将获得#EMP 更少的#![piety|E]\n\n#weak 是的，没错，精神上的满足，道德义务，我不朽本质的命运，等等。我们可以继续前进吗？#!"
+ pilgrimage_fidelity_pilgrim:0 "朝圣者"
+ pilgrimage_fidelity_pilgrim_desc:0 "$EFFECT_LIST_BULLET$[travel|E]速度不受影响\n$EFFECT_LIST_BULLET$完成后的[piety|E]奖励不受影响\n\n#weak 怀着愉快的心情和良好的意愿，我们出发去尘世中的圣地。#!"
+ pilgrimage_fidelity_contemplative:0 "深思熟虑"
+ pilgrimage_fidelity_contemplative_desc:1 "$EFFECT_LIST_BULLET$[travel|E]速度降低#negative_value 50%#!\n$EFFECT_LIST_BULLET$完成后你将获得更多[piety|E]\n\n#weak 如果朝圣的目的是反省，那么匆忙又有什么意义呢？毕竟，旅程仅占一半的意义。#!"
+#Pomp Option
+ pilgrimage_option_pomp:0 "排场"
+ pilgrimage_pomp_humble:0 "朴素"
+ pilgrimage_pomp_humble_desc:0 "$EFFECT_LIST_BULLET$不带任何你[court|E]的人出发，这使[travel|E]变得危险\n$EFFECT_LIST_BULLET$你加入了[EmptyScope.ScriptValue('pilgrimage_entourage_pomp_humble_max_value')]名随机朝圣者组成的队伍\n$EFFECT_LIST_BULLET$完成后能获得更多[piety|E]\n\n#weak 朝圣的时光应当用来静默退省。与陌生人同路的普通朝圣者队伍是最为合适。#!" # [LocEditor:ForFutureBatchExport]
+ pilgrimage_pomp_appropriate:0 "适度"
+ pilgrimage_pomp_appropriate_desc:0 "$EFFECT_LIST_BULLET$你带上保镖或优秀的骑士，也许还有朋友\n$EFFECT_LIST_BULLET$最多[EmptyScope.ScriptValue('pilgrimage_entourage_pomp_appropriate_max_value')]名随机朝圣者加入你的队伍\n$EFFECT_LIST_BULLET$完成后的[piety|E]奖励不受影响\n#weak 道路险要，旅途遥远。精神纯洁是一回事，有勇无谋又是另一回事。#!"
+ pilgrimage_pomp_ceremonial:0 "讲究"
+ pilgrimage_pomp_ceremonial_desc:0 "$EFFECT_LIST_BULLET$你#EMP 此外还#!带上仆人和虔诚的扈从\n$EFFECT_LIST_BULLET$最多[EmptyScope.ScriptValue('pilgrimage_entourage_pomp_ceremonial_max_value')]名随机朝圣者加入你的队伍\n$EFFECT_LIST_BULLET$完成后获得更多[piety|E]\n#weak 信仰需要遵守礼节，即使远离家乡。不带随从难道还能遵守礼节吗？#!"
+ pilgrimage_pomp_throng:0 "盛况空前"
+ pilgrimage_pomp_throng_desc:0 "$EFFECT_LIST_BULLET$[court|E]里每个感兴趣的[character|E]都会加入你\n$EFFECT_LIST_BULLET$最多[EmptyScope.ScriptValue('pilgrimage_entourage_pomp_throng_max_value')]名随机朝圣者加入你的队伍\n$EFFECT_LIST_BULLET$完成后获得更多[piety|E]\n#weak 所有的信徒都应该去我们的圣地……我打算帮助他们。#!"
+ 
 
- pilgrimage.2001.t:0 "$pilgrimage_header$强盗！"
- pilgrimage.2001.desc:0 "我被营地中混乱的吵闹声惊醒，不一会就意识到发生了什么。\n\n我们被袭击了！\n\n强盗正朝着我们的帐篷和马车蜂拥而来，卫兵们则在尽力抵抗。"
- pilgrimage.2001.a:0 "我的剑在哪？我会把这些疯狗赶走！"
- pilgrimage.2001.a.success:0 "强盗被挡住了"
- pilgrimage.2001.a.success_title:0 "挡住强盗"
- pilgrimage.2001.a.failure:0 "我在战斗中受伤了"
- pilgrimage.2001.a.failure_title:0 "在战斗中负伤！"
- pilgrimage.2001.b:0 "周围一定有我能藏起来的地方！"
- pilgrimage.2001.b.success:0 "我在一辆马车下找到安全的地方"
- pilgrimage.2001.b.success_tt:0 "我毫发无损地逃走了"
- pilgrimage.2001.b.success_title:0 "安然无恙"
- pilgrimage.2001.b.failure:0 "强盗放火烧了马车"
- pilgrimage.2001.b.failure_title:0 "马车着火了！"
- pilgrimage.2001.c:0 "“别打了！你要多少我给多少！”"
+ ### INTENTS
+ reflections_intent_header:0 "深思熟虑："
+ reflection_intent:0 "深思熟虑"
+ reflection_intent_desc:0 "您在旅途中采取了谨慎的态度，并将寻找缓解压力的机会。"
+ zealotry_intent_header:0 "热忱："
+ zealot_intent:0 "热忱："
+ zealot_intent_desc:0 "你的信仰特别坚定，并且会寻找机会与他人分享你的信仰。"
+ 
 
+ ### ACTIVITY LOG
+ #Pilgrimage Departed
+ pilgrimage_departed_log_title:0 "朝圣者出发"
+ pilgrimage_departed_log:0 "[CHARACTER.GetShortUIName|U]从[CHARACTER.GetCapitalLocation.GetBaronyNameExplicitly]出发前往[PROVINCE.GetName]朝圣"
+ #Pilgrimage Arrived
+ pilgrimage_arrived_log_title:0 "朝圣者抵达"
+ pilgrimage_arrived_log:0 "[CHARACTER.GetShortUIName|U]抵达了[PROVINCE.GetBaronyNameExplicitly]的圣地"
+ pilgrimage_arrived_trait_log_title:0 "$pilgrimage_arrived_log_title$"
+ pilgrimage_arrived_trait_log:0 "$pilgrimage_arrived_log$"
+ pilgrimage_arrived_trait_xp_log_title:0 "$pilgrimage_arrived_log_title$"
+ pilgrimage_arrived_trait_xp_log:0 "$pilgrimage_arrived_log$"
+ pilgrimage_arrived_lifestyle_xp_log_title:0 "$pilgrimage_arrived_log_title$"
+ pilgrimage_arrived_lifestyle_xp_log:0 "$pilgrimage_arrived_log$"
+ #Pilgrimage Completed
+ pilgrimage_completed_relic_log_title:0 "获得圣骨"
+ pilgrimage_completed_relic_log:0 "[CHARACTER.GetShortUIName|U]完成前往[PROVINCE.GetBaronyNameExplicitly]的朝圣后获得了[ARTIFACT.GetName]"
+ pilgrimage_completed_log_title:0 "完成朝圣"
+ pilgrimage_completed_log:0 "[CHARACTER.GetShortUIName|U]完成了[CHARACTER.GetHerHis]前往[PROVINCE.GetBaronyNameExplicitly]的朝圣"
+ #Event Log Effects
+ pilgrimage_repented_log_title:0 "忏悔"
+ pilgrimage_repented_log:0 "[CHARACTER.GetShortUIName|U]忏悔了[CHARACTER.GetHerHis]的罪恶行为"
+ pilgrimage_changed_ways_log_title:0 "放弃罪恶"
+ pilgrimage_changed_ways_log:0 "[CHARACTER.GetShortUIName|U]放弃了[CHARACTER.GetHerHis]罪恶的行为方式"
+ pilgrimage_the_calling_log_title:0 "圣召"
+ pilgrimage_the_calling_log:0 "[CHARACTER.GetShortUIName|U]允许[TARGET_CHARACTER.GetShortUIName]留在[PROVINCE.GetNameNoTooltip]完成[TARGET_CHARACTER.GetHerHis]的宗教使命"
+ pilgrimage_theological_debate_log_title:0 "辩论"
+ pilgrimage_theological_debate_log:0 "[CHARACTER.GetShortUIName|U]和[TARGET_CHARACTER.GetName]进行了神学辩论"
+ pilgrimage_acquired_relic_log_title:0 "获得圣物"
+ pilgrimage_acquired_relic_log:0 "[CHARACTER.GetShortUIName|U]在[PROVINCE.GetNameNoTooltip]购买了圣物[ARTIFACT.GetName]"
+ pilgrimage_corrective_lecture_log_title:0 "教训朝圣者"
+ pilgrimage_corrective_lecture_log:0 "[CHARACTER.GetShortUIName|U]以朝圣者的方式向[TARGET_CHARACTER.GetShortUIName]讲道"
+ pilgrimage_hidden_divinity_log_title:0 "隐秘的神圣之所"
+ pilgrimage_hidden_divinity_log:0 "跟随当地值得信赖的向导，[CHARACTER.GetShortUIName|U]体验了隐秘的神圣之所"
+ pilgrimage_exorcism_log_title:0 "驱除邪恶"
+ pilgrimage_exorcism_log:0 "[CHARACTER.GetShortUIName|U]吓跑了袭击朝圣者的粗鲁强盗"
+ pilgrimage_robbed_log_title:0 "被抢劫"
+ pilgrimage_robbed_log:0 "[CHARACTER.GetShortUIName|U]在跟随当地一名不太值得信任的向导时被抢了"
+ pilgrimage_helped_child_log_title:0 "帮助儿童"
+ pilgrimage_helped_child_log:0 "[CHARACTER.GetShortUIName|U]帮助了一个可怜又不幸的孩子"
+ pilgrimage_exotic_wares_log_title:0 "异域商品"
+ pilgrimage_exotic_wares_log:0 "[CHARACTER.GetShortUIName|U]提供了一些异域商品"
+ pilgrimage_translator_log_title:0 "译者"
+ pilgrimage_translator_log:0 "[CHARACTER.GetShortUIName|U]为[CHARACTER.GetHerHis]的朝圣者同伴翻译了当地的一座纪念碑"
+ pilgrimage_recruited_courtier_log_title:0 "招募廷臣"
+ pilgrimage_recruited_courtier_log:0 "[CHARACTER.GetShortUIName|U]将能力出众的[TARGET_CHARACTER.GetShortUIName]挖到[CHARACTER.GetHerHis]的宫廷。"
+ pilgrimage_host_death_log_title:0 "朝圣者死亡"
+ pilgrimage_host_death_log:0 "[CHARACTER.GetShortUIName|U]在前往[PROVINCE.GetNameNoTooltip]途中死亡"
+ pilgrimage_inherited_pilgrimage_log_title:0 "继承朝圣"
+ pilgrimage_inherited_pilgrimage_log:0 "[CHARACTER.GetShortUIName|U]决定继续前往[PROVINCE.GetNameNoTooltip]朝圣"
+ pilgrimage_burial_log_title:0 "安息"
+ pilgrimage_burial_log:0 "[CHARACTER.GetShortUIName|U]将[CHARACTER.GetHerHis]的前任[TARGET_CHARACTER.GetShortUIName]的遗体安葬在[PROVINCE.GetNameNoTooltip]的圣地"
+
+
+
+ ### SYSTEM EVENTS
+ #Invalidation Event
+ pilgrimage.0040.t:1 "$pilgrimage_header$旅途的终结"
+ pilgrimage.0040.desc:0 "就这样，我的灵性之旅戛然而止。然而，就像在狂风暴雨中落入河流的树叶一样，我们只能看着新的局势将我们带往何方。"
+ pilgrimage.0040.desc_moved_capital:0 "现在我的首府实际上是[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]的光辉之地，我继续我的[GetActivityType('activity_pilgrimage').GetNameNoTooltip]之旅没有多大意义。\n\n我应该集中精力结束我在那里的旅程，去另一个圣地试试运气。"
+ pilgrimage.0040.a:0 "我是河流中的一片树叶。"
+ pilgrimage.0040.a_moved_capital:0 "让我们开始吧。"
+ #Illness Event - used in health.1001
+ pilgrimage.0041.t:0 "$pilgrimage.0040.t$？"
+ pilgrimage.0041.desc:0 "唉，我的肉体让我失望了。不过我的意志仍然强大。我是否应该将生命交给[ROOT.Char.GetFaith.HealthGodName]，继续我前往[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]的旅程？"
+ pilgrimage.0041.a:0 "我#EMP 有#![ROOT.Char.GetFaith.HighGodName]保佑。"
+ pilgrimage.0041.a.tt:0 "你的[THIS.Char.GetInvolvedActivity.GetName]将会继续"
+ pilgrimage.0041.b:0 "不行，这太危险了。"
+ #Invalidation because you bury old host back home
+ pilgrimage.0042.t:0 "$pilgrimage_header$回家埋葬"
+ pilgrimage.0042.desc:0 "我们缩短了旅程，将开始返回[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]，让[old_pilgrimage_host.GetTitledFirstName]安息。"
+ pilgrimage.0042.a:0 "这是[old_pilgrimage_host.GetSheHe]想要的。"
+ #Promise your religious relative to go on a Pilgrimage
+ pilgrimage.0500.t:0 "一名朝圣者的死亡"
+ pilgrimage.0500.desc:0 "“[first_holy_site.GetProvince.GetNameNoTooltip]。[second_holy_site.GetProvince.GetNameNoTooltip]。啊，[second_holy_site.GetProvince.GetNameNoTooltip]……”我的[ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('pilgrimage_dying_relative'))][pilgrimage_dying_relative.GetTitledFirstName]虚弱的身体躺在床上，是[pilgrimage_dying_relative.GetHerHis]以前的自我的外壳。我慢慢靠近床边，[pilgrimage_dying_relative.GetSheHe]试图用朦胧的双眼盯着我看。\n\n“[pilgrimage_dying_relative.Custom2('RelationToMe' , ROOT.Char)|U]……你后悔的事，不是你做了什么，而是你没有做什么。”我靠得更近了，[pilgrimage_dying_relative.GetSheHe]继续说话，我能闻到[pilgrimage_dying_relative.GetHerHis]呼吸中腐烂的味道：“不要让每天的陷阱阻止你走上真正通往[ROOT.Char.GetFaith.HighGodName]的道路。”\n\n痛苦的表情掠过[pilgrimage_dying_relative.GetHerHis]的脸，我知道谈话结束了。"
+ pilgrimage.0500.a:0 "是的，当然。"
+ pilgrimage.0500.a.flavor:0 "如果这样能让[pilgrimage_dying_relative.GetHerHim]去得更轻松些。"
+ pilgrimage.0500.a.tt_pilgrimage:0 "你的下一次[pilgrimage|E]的花费会降低"
+ pilgrimage.0500.b:0 "[ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('pilgrimage_dying_relative'))]，我最近很忙。"
+ pilgrimage.0500.b.flavor:0 "最好不要这样。"
+
+
+ ###Generic Pilgrimage Journey Events
+ # St. Elmo's Fire
+ pilgrimage.1100.t.greek:0 "$pilgrimage_header$燃烧的海伦"
+ pilgrimage.1100.t.christian:0 "$pilgrimage_header$圣艾尔摩之火"
+ pilgrimage.1100.t.pagan:0 "$pilgrimage_header$[ROOT.Char.GetFaith.DivineRealm]之火"
+ pilgrimage.1100.t:0 "$pilgrimage_header$神火"
+ pilgrimage.1100.desc:0 "倏忽而至的海上风暴让我们猝不及防，闪电撕裂的天空中下起倾盆大雨，突然之间，电闪雷鸣，桅顶喷出蓝色的火焰，将整艘船笼罩在空灵的光芒中。\n\n"
+ pilgrimage.1100.companion:0 "“这是个凶兆！”惊慌失措的[ROOT.Char.Custom2('RelationToMeShort', panicked_pilgrim)][panicked_pilgrim.GetTitledFirstName]哭了起来，死命地抓住索具，在颠簸的风帆上方几乎听不见声音。“我们#EMP 必须#!回去！以免错失良机！”\n\n"
+ pilgrimage.1100.alone:0 "这艘船漂浮在汹涌的波浪之上，看起来没有受到任何影响，在某种神圣力量的引导下安全地穿过风暴。"
+ pilgrimage.1100.a:0 "[ROOT.Char.GetFaith.HighGodNameAlternate|U]指引了我们！赞美！"
+ pilgrimage.1100.a.flavor:0 "保持方向，舵手！"
+ pilgrimage.1100.b:0 "我爬着也要去见你，[ROOT.Char.GetFaith.HighGodName]！"
+ pilgrimage.1100.b.success.t:0 "神火"
+ pilgrimage.1100.b.wounded.t:0 "受伤"
+ pilgrimage.1100.b.flavor:0 "让我感受[ROOT.Char.GetFaith.random_DivineRealm]的拥抱"
+ pilgrimage.1100.c:0 "[ROOT.Char.GetFaith.WaterGodName]要求牺牲！"
+ pilgrimage.1100.c.flavor:0 "我们必须等待这场风暴结束！"
+ pilgrimage.1100.d:0 "掉头回去啊，你们这些傻瓜！"
+ pilgrimage.1100.d.flavor:0 "$pilgrimage.1100.c.flavor$"
+ every_family_member_tt:0 "所有家族成员"
+ pilgrimage.1100.success:0 "你被引导着安然无恙地前进"
+ pilgrimage.1100.failure:0 "暴风雨使你偏离航线"
+ pilgrimage_random_pilgrim_tt:0 "一个随机的朝圣者将要死亡，这会让一些[family|E]成员感到不安"
+ pilgrimage_fell_overboard_tt:0 "[victim_pilgrim.GetFirstName]落水了"
+ # Heathen Raiders
+ #pilgrimage_joe_0200_army: "[ROOT.Char.GetFaith.WarGodPossessive] Fury"
+ pilgrimage.1110.t:0 "$pilgrimage_header$[ROOT.Char.Custom2('GetUnbelieverTerm', heathen_raider)|U]劫掠"
+ pilgrimage.1110.desc:0 "穿过[heathen_raider_county.GetNameNoTierNoTooltip]的[ROOT.Char.GetCurrentLocation.Custom('GetTerrainTypePlural')]，我们看到了一小支部队的旗帜，上面装饰着[heathen_raider.GetFaith.GetAdjective][heathen_raider.GetFaith.ReligiousSymbol]。他们是衣衫褴褛的无赖，掠夺前往[ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]的朝圣者。\n\n他们的首领迅速拦住了我们，牵起[ROOT.Char.GetHerHis]的马并自称是[heathen_raider.GetFirstName]。"
+ pilgrimage.1110.shared_target_heathen_hajj:0 "“[ROOT.Char.Custom2('GetUnbelieverTerm', heathen_raider)]，停下！以[ROOT.Char.GetFaith.HighGodName]的名义，[ROOT.Char.GetFaith.GetAdherentNamePlural]必须支付克尔白通行费。”"
+ pilgrimage.1110.shared_target_controlled_hajj:0 "“付一笔小钱让我见到克尔白，这是我向[heathen_raider.Custom2('GetUnbelieverTermAdjective', ROOT.Char)][ROOT.Char.GetFaith.GetAdjective]的管理者请求的一切。”"
+ pilgrimage.1110.shared_target_heathen_jerusalem:0 "“不要害怕[heathen_raider.Custom2('GetUnbelieverTermPlural', ROOT.Char)]，我们圣城的奇观正在等你，只需支付少量费用。”"
+ pilgrimage.1110.shared_target_controlled_jerusalem:0 "“如果你真的想看看你梦寐以求的圣城，我小小的收费也没什么大不了的。”"
+ pilgrimage.1110.shared_target_heathen:0 "“你们[ROOT.Char.GetFaith.GetAdjective]狗不知道吗？[ROOT.Char.Custom2('GetUnbelieverTermPlural', heathen_raider)|U]必须上交贡品才能看到神圣的[heathen_raider.GetFaith.HouseOfWorshipPlural]。”"
+ pilgrimage.1110.shared_target_controlled:0 "“只要你付出了我们要求的卑微代价，你的[ROOT.Char.GetFaith.HouseOfWorshipPlural]将仍然在那里。”"
+ pilgrimage.1110.shared_heathen_controlled:0 "“我们的[heathen_raider.GetFaith.HouseOfWorshipPlural]令人惊叹，只要你支付费用，你就会发现这一点。”"
+ pilgrimage.1110.fallback:0 "“[ROOT.Char.Custom2('GetUnbelieverTerm', heathen_raider)]，停下。我维护这片路线的和平，你必须像其他人一样付费。”"
+ pilgrimage.1110.a:0 "如果你想要我的金钱，就来拿吧。"
+ pilgrimage.1110.a.fled:0 "土匪们重新考虑后决定放弃"
+ pilgrimage.1110.a.skirmish:0 "你挡住了第一波"
+ pilgrimage.1110.a.beaten:0 "由于你的无礼，他们拿走了一切"
+ pilgrimage.1110.b.religion:0 "得啦，[heathen_raider.Custom('SisterBrother')]，我们都信仰[ROOT.Char.GetFaith.HighGodName]。"
+ pilgrimage.1110.b.unreformed:0 "要知道，遵循[ROOT.Char.GetFaith.ReligiousText]永远不会太晚。"
+ pilgrimage.1110.b:0 "没有必要用暴力，让我们谈谈。"
+ pilgrimage.1110.c:0 "你们被骗了，来听听[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]的真理吧。"
+ pilgrimage.1110.c.success:0 "你说的听起来很对"
+ pilgrimage.1110.c.failure:0 "土匪们不高兴了"
+ pilgrimage.1110.d:0 "拿走你的金子，强盗。"
+ two_entourage_members_wounded_tt:0 "最多两名随行成员可能[GetTrait('wounded_1').GetName( GetNullCharacter )]"
+ one_entourage_members_wounded_tt:0 "一名随行成员可能[GetTrait('wounded_1').GetName( GetNullCharacter )]"
+ two_entourage_members_die_tt:0 "最多两名随行成员可能死亡"
+ one_entourage_members_die_tt:0 "一名随行成员可能死亡"
+ # Tour Church
+ pilgrimage.1120.t:0 "$pilgrimage_header$[temple_province.GetCounty.GetFaith.GetReligion.GetAdjectiveNoTooltip]建筑"
+ pilgrimage.1120.desc:0 "途经[temple_province.GetTitle.GetDeJureLiege.GetNameNoTooltip]，我们借此机会参观了[temple_province.GetName]的[ROOT.Char.GetFaith.HouseOfWorship]，这是[temple_province.GetCounty.GetFaith.GetAdjective]权威和敬神的[temple_liege.GetPrimaryTitle.GetAdjectiveNoTooltip]中心。\n\n当地的小[temple_person.GetFaith.PriestNeuter][temple_person.GetName]带我们参观了场地和建筑。[temple_person.GetSheHe|U]讲述了历史，并指给我们看当地[temple_province.GetCounty.GetFaith.DevoteeNeuterPlural]制作的艺术品，他们正在一起午间祈祷。"
+ pilgrimage.1120.a:0 "这让我想到了一个主意……"
+ pilgrimage.1120.b:0 "#EMP 这#!正是我们的[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]目前所需的！"
+ pilgrimage.1120.c:0 "对于[ROOT.Char.GetFaith.HouseOfWorship]来说是多么遗憾的借口。"
+ pilgrimage.1120.d:0 "是的，很好，够了，谢谢。"
+ pilgrimage.1120.e:0 "我要加入对[ROOT.Char.GetFaith.HighGodName]的祈祷"
+ pilgrimage.1120.f:0 "#EMP 这#!正是我们的[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]目前所需的！"
+ # Roadside Shrine
+ pilgrimage.1130.t:0 "$pilgrimage_header$路边祭坛"
+ pilgrimage.1130.desc:0 "在[shrine_province.GetName]郊外的一个岔路口，一座有[shrine_province.GetCounty.GetFaith.ReligiousSymbol]标记的荒凉[shrine_province.GetCounty.GetFaith.GetAdjective]祭坛矗立在[shrine_province.Custom('GetProvinceGroundDesc')]中。\n\n一个壁龛庇护着旅行者和当地人留下的简陋祭品，周围环绕着无数现已熄灭的蜡烛。"
+ pilgrimage.1130.both:0 "\n\n我的[ROOT.Char.Custom2('RelationToMeShort', shrine_faithist)][shrine_faithist.GetName]停下来祈祷，而我的[ROOT.Char.Custom2('RelationToMeShort', shrine_mocker)][shrine_mocker.GetName]则翻着白眼，啧啧不已。"
+ pilgrimage.1130.faithist:0 "  \n\n我的[ROOT.Char.Custom2('RelationToMeShort', shrine_faithist)][shrine_faithist.GetName]停下祈祷，并献上了[shrine_faithist.GetHerHis]自己的小物件。"
+ pilgrimage.1130.mocker:0 "\n\n我的[ROOT.Char.Custom2('RelationToMeShort', shrine_mocker)][shrine_mocker.GetName]一看到它就嗤之以鼻，嘀咕起[shrine_mocker.GetFaith.NegativeAfterLife]。"
+ pilgrimage.1130.a:0 "我可以献上点什么。"
+ pilgrimage.1130.a.flavor:0 "为了我的灵魂……"
+ pilgrimage.1130.b:0 "别介意我这样做……"
+ pilgrimage.1130.b.flavor:0 "毕竟对我更有用！"
+ every_root_faith_entourage_member_tt:0 "所有[shrine_visitor.GetFaith.GetAdjective]随行人员"
+ every_province_faith_entourage_member_tt:0 "所有[shrine_province.GetCounty.GetFaith.GetAdjective]随行人员"
+ every_zealous_root_faith_entourage_member_tt:0 "所有[GetTrait('zealous').GetName( GetNullCharacter )]的[shrine_visitor.GetFaith.GetAdjective]随行人员"
+ pilgrimage.1130.c:0 "摧毁[shrine_province.GetCounty.GetFaith.GetAdjectiveNoTooltip]的愚蠢行为！"
+ pilgrimage.1130.c.flavor:0 "给他们点颜色瞧瞧！"
+ pilgrimage.1130.d:0 "[shrine_faithist.GetFaith.HighGodName]不会明白的，你懂的。"
+ pilgrimage.1130.d.flavor:0 "既然[shrine_faithist.GetFaith.HighGodName]并不存在！"
+ pilgrimage.1130.e:0 "[ROOT.Char.Custom2('GetUnbelieverTerm', shrine_mocker)]，住嘴。"
+ pilgrimage.1130.f:0 "来吧，我们别闲逛了。"
+ pilgrimage.1130.f.other:0 "[ROOT.Char.GetFaith.HighGodName]等待的不是[shrine_province.GetCounty.GetFaith.GetAdherentNameNoTooltip]。"
+ # Strength in Numbers
+ pilgrimage.1140.t:0 "$pilgrimage_header$人多势众很安全"
+ pilgrimage.1140.desc:0 "我们途经[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTier]时，一位自称是一群[ROOT.Char.GetFaith.GetAdjective]朝圣者领袖的[group_leader.GetCulture.GetName]平民走近我们。\n\n“好[ROOT.Char.GetTitleAsNameNoTooltip]，我们已经在去[destination.GetName]的路上走了几个星期，但是一路太危险了，现在我们的给养也很短缺。”\n\n“我们将永远感谢您的支持。”"
+ pilgrimage.1140.a:0 "多多益善！"
+ pilgrimage.1140.a.tt:1 "[group_leader.GetFirstName]和其他最多三个人将加入你的[ROOT.Char.GetInvolvedActivity.GetName]"
+ pilgrimage.1140.b:0 "[group_leader.GetCulture.GetNameNoTooltip]？绝无可能。"
+ pilgrimage.1140.b.flavor:0 "永远别相信[group_leader.GetCulture.GetNameNoTooltip]人"
+ pilgrimage.1140.c:0 "这里有一些硬币，用来解决你的麻烦。"
+ pilgrimage.1140.d:0 "平民，这不可能。"
+ pilgrimage.1140.d.flavor:0 "继续前进！别停下！"
+ grateful_pilgrims_title:0 "感激的朝圣者"
+ cultural_acceptance_rejected_pilgrims:0 "拒绝了朝圣者"
+ #Heathen-hating adherent challenges you
  pilgrimage.2002.t:0 "$pilgrimage_header$爱你的邻人"
- pilgrimage.2002.desc:0 "我的同行朝圣者中，有一位[dummy_gender.GetWomanMan]作关于同情和团结的讲道——直到[dummy_gender.GetSheHe]谈到了异教徒的话题。\n\n一夜，围绕着营火，[dummy_gender.GetSheHe]高声宣称异教徒是“[ROOT.Char.GetFaith.PantheonTerm]眼中可憎的怪物！都是变态和杀死孩子的凶手！”大多数人都在[dummy_gender.GetSheHe]看过来时移开了视线。今晚我反应不够快。“你不同意吗，哦，[ROOT.Char.GetTitleAsNameNoTooltip]？”"
+ pilgrimage.2002.desc:1 "我的同行朝圣者中，有一位[heathen_hater.GetWomanMan]作关于同情和团结的讲道——直到[heathen_hater.GetSheHe]谈到了异教徒的话题。\n\n一夜，围绕着营火，[heathen_hater.GetSheHe]高声宣称异教徒是“[ROOT.Char.GetFaith.PantheonTerm]眼中可憎的怪物！都是变态和杀死孩子的凶手！”大多数人都在[heathen_hater.GetSheHe]看过来时移开了视线。今晚我反应不够快。“你不同意吗，哦，[ROOT.Char.GetTitleAsNameNoTooltip]？”"
  pilgrimage.2002.a:0 "他们不是#EMP 都#!那么坏。"
  pilgrimage.2002.b:0 "我同意，而且我不会相信任何为他们辩护的人！"
  pilgrimage.2002.c:0 "没错！他们蔑视[ROOT.Char.GetFaith.HighGodName]！"
-
- pilgrimage.2003.t:0 "$pilgrimage_header$失去同伴"
- pilgrimage.2003.desc:0 "每一周我的同行团队都在缩小。有些人是因为这已经是他们所能走到的最远距离了，必须回家；还有些人是已经遭遇了不幸。\n\n最令人担忧的是，我的私人护卫队伍也在以令人警觉的速度削减。单就这事就显示出这趟旅程潜藏着多少危险。"
- pilgrimage.2003.a:0 "有些当地人看上去能成为勇猛的护卫。"
- pilgrimage.2003.b:0 "我只需要[ROOT.Char.GetFaith.PantheonTerm]的守护。"
-
+ #Companions are running low
+ pilgrimage.2003.t:1 "$pilgrimage_header$安全问题"
+ pilgrimage.2003.desc:1 "一段时间以来，我一直有这种挥之不去的感觉。事实证明，我的朝圣之旅比我预想的更危险——或者我只是还没有经受足够的考验来证明自己值得[ROOT.Char.GetFaith.HighGodNameAlternatePossessive]的保护。\n\n然而，我在[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]当地居民中#EMP 发现了#!一些令人钦佩的人，他们肯定会以亲身实践的方式提高朝圣的安全性。"
+ pilgrimage.2003.a:1 "为了我的朝圣之旅，我应该雇佣他们中的一些人。"
+ pilgrimage.2003.b:1 "[2002_local_warrior.GetTitledFirstNameNoTooltip]似乎是一个很棒的家伙。"
+ pilgrimage.2003.c:0 "不。我坚定地信仰着[ROOT.Char.GetFaith.PantheonTerm]。"
+ #Run into a Potential Friend
  pilgrimage.2004.t:0 "$pilgrimage_header$邂逅"
- pilgrimage.2004.desc:0 "随着我距离[destination_title.GetNameNoTierNoTooltip]越来越近，我遇到了越来越多来自世界各地的朝圣者。\n\n其中一位朝圣者很远就认出了我：“[ROOT.Char.GetTitledFirstNameNoTooltip]？！是你吗？”\n\n那是[potential_friend.Custom2('MyCharacterIntroduction', ROOT.Char)]！"
+ pilgrimage.2004.desc:1 "随着我距离[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]越来越近，我遇到了越来越多来自世界各地的朝圣者。\n\n其中一位朝圣者很远就认出了我：“[ROOT.Char.GetTitledFirstNameNoTooltip]？！是你吗？”\n\n那是[potential_friend.Custom2('MyCharacterIntroduction', ROOT.Char)]！"
  pilgrimage.2004.a:0 "[ROOT.Char.GetFaith.PantheonTerm]将我们带到了一起！"
  pilgrimage.2004.b:0 "很棒的会面，但我必须独自祈祷。"
-
+ #A peasant inadvertedly insults you
  pilgrimage.2005.t:0 "$pilgrimage_header$无礼的故事"
- pilgrimage.2005.desc:1 "经过营火时，我的一个旅伴正在讲述[dummy_peasant_gender.GetSheHe]听说的一些有关[ROOT.Char.GetTitleAsNameNoTooltip]的故事，引起了一阵喧笑。当我走近时，他们都安静了下来——除了讲故事的那个人。\n\n“啊，别在意，[ROOT.Char.GetLadyLord]，你和故事里的那个[ROOT.Char.Custom('InsultNoun')]一点都不像！"
- pilgrimage.2005.desc_close:0 "那家伙是这片土地的[ROOT.Char.GetTitleAsNameNoTooltip]。”"
- pilgrimage.2005.desc_far:0 "那家伙是距此处很远的[title.GetNameNoTierNoTooltip]的[ROOT.Char.GetTitleAsNameNoTooltip]。”"
+ pilgrimage.2005.desc:3 "路过篝火旁，另一队的朝圣者正在讲述[rude_pilgrim.GetSheHe]曾经听过的关于"
+ pilgrimage.2005.desc_close:1 "这片土地的[ROOT.Char.GetTitleAsNameNoTooltip]的故事，"
+ pilgrimage.2005.desc_far:2 "距此处很远[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]的[ROOT.Char.GetTitleAsNameNoTooltip]的故事，"
+ pilgrimage.2005.outro:0 "他们发出喧闹的笑声。\n\n讲故事的人注意到我的迟疑，[rude_pilgrim.GetSheHe]看着我安慰道：“[ROOT.Char.GetLadyLord]别担心——这肯定是在说#EMP 另外#!一位高高在上的贵族[ROOT.Char.GetWomanMan]！”"
  pilgrimage.2005.a:0 "“真的吗？现在告诉我更多这个[ROOT.Char.GetTitleAsNameNoTooltip]的事。”"
  pilgrimage.2005.a.flavor:0 "我在篝火旁坐了下来。"
  pilgrimage.2005.b:0 "“卫兵！取我的鞭子来。”"
  pilgrimage.2005.c:0 "也许是时候找其他人一起旅行了。"
-
- pilgrimage.2006.t:0 "$pilgrimage_header$迷路！"
- pilgrimage.2006.desc:0 "我敢肯定这就是前进的路！\n\n我的同伴——和我——都没能找到重返朝圣之旅的道路。我们晚上看到的是正确的星星吗？感觉我们好像已经浪费好几个星期了。"
- pilgrimage.2006.a:0 "我们必须要找个向导了，不管要花多少钱。"
- pilgrimage.2006.b:0 "我发誓只需要沿着这个方向再远一点儿……"
-
- pilgrimage.2007.t:0 "$pilgrimage_header$沉思"
- pilgrimage.2007.desc:0 "在这里，深夜时分，我有时会仰望星空，心中充满疑惑。离家这么远，[ROOT.Char.GetFaith.PantheonTerm]能看到我吗？\n\n我做这一切都是为了什么？"
- pilgrimage.2007.a:0 "[ROOT.Char.GetFaith.PantheonTerm|U]希望我这么做，当然是这样！"
- pilgrimage.2007.b:0 "我真正希望的是看看异域的土地。"
- pilgrimage.2007.c:0 "这一切都是为了面子。"
-
+ #You have gotten lost
+ pilgrimage.2006.t:1 "$pilgrimage_header$观光路线"
+ pilgrimage.2006.intro:1 "神恩之旅已停滞不前。"
+ pilgrimage.2006.desc_alone:0 "我睁大眼睛，试图认清前进的方向——但脑子里一片空白——我变得有点担心。#EMP 可能是#!\n\n这个方向，不是吗……？我犹豫地看向远处一个正在做杂务的当地农民。"
+ pilgrimage.2006.desc_travel_leader:1 "我的$travel_leader_court_position$[caravan_master.GetTitledFirstName]环顾四周，疯狂地寻找前进的方向，大伙也开始注意到了。\n\n[caravan_master.GetTitledFirstNamePossessiveNoTooltip]将目光转向我，这时[caravan_master.GetHerHis]脸上浮现出难以察觉的细微变化，[caravan_master.GetSheHe]想知道下一步该怎么办。"
+ pilgrimage.2006.a:1 "我对前往[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]的道路了如指掌！"
+ pilgrimage.2006.a_pious:0 "我们要让[ROOT.Char.GetFaith.HighGodNameAlternate]指引道路。"
+ pilgrimage.2006.b:1 "我们再多享受一会儿[ROOT.Char.GetFaith.CreatorNamePossessive]的造物吧。"
+ pilgrimage.2006.b_cynical:0 "我想这不是世界末日。"
+ pilgrimage.2006.c:0 "我想我可以向当地人问路……"
+ pilgrimage.2006.c_caravan_master:0 "现在#EMP 你#!要去问路了。"
+ #Fall ill
  pilgrimage.2008.t:0 "$pilgrimage_header$染病"
- pilgrimage.2008.desc:0 "看起来我的这次旅行不太顺利。或许是陌生的土地上充满了陌生的空气，或许是我的皮毛不够保暖。\n\n不管怎样，我的咳嗽已经持续数周了，而且今天早上我差点起不来床。我还有继续前进的力量吗？"
- pilgrimage.2008.a:0 "还不到放弃的时候！"
+ pilgrimage.2008.desc:1 "看起来我的这次旅行不太顺利。或许是陌生的土地上充满了陌生的空气，或许是我的毛皮大衣不够保暖。\n\n不管怎样，我的咳嗽已经持续数周了，而且今天早上我差点起不来床。"
+ pilgrimage.2008.a:1 "如果这是[ROOT.Char.GetFaith.HighGodNameAlternatePossessive]的旨意。"
  pilgrimage.2008.a.tt:0 "继续旅行，但是[GetTrait('ill').GetName( GetPlayer )]会有更大的健康风险"
- pilgrimage.2008.b:0 "我不能像这样继续。"
  pilgrimage.2008.whole_of_body:0 "哦，这种轻微的咳嗽很快就会过去的。"
-
+ pilgrimage.2008.court_physician:0 "[traveling_court_physician.GetTitledFirstNameNoTooltip|U]，给我调制点汤药。"
+ #Develop pneumonia
  pilgrimage.2009.t:0 "$pilgrimage_header$刺耳的咳嗽"
  pilgrimage.2009.desc:0 "这趟旅行非常不顺利。我的健康状况并没有因为我向[ROOT.Char.GetFaith.PantheonTerm]祈祷而好转，反而变得更加更加糟糕。我都不记得顺畅呼吸是什么感觉了。"
- pilgrimage.2009.a:0 "我会坚持到底的。愿[ROOT.Char.GetFaith.HighGodNameAlternate]保佑。"
- pilgrimage.2009.b:0 "很明显，[ROOT.Char.GetFaith.HighGodNamePossessive]希望我返程。"
-
- # Meet a mystic
+ pilgrimage.2009.a:1 "愿[ROOT.Char.GetFaith.HighGodNameAlternate]保佑。"
+ pilgrimage.2009.a.tt:0 "继续旅行，但是[GetTrait('pneumonic').GetName( GetPlayer )]会有更大的健康风险"
+ #Meet a mystic
  pilgrimage.2010.t:0 "$pilgrimage_header$神秘主义者"
- pilgrimage.2010.desc:0 "[mystic.GetTitledFirstName]是我在旅途中遇到的一个怪人。[mystic.GetSheHe|U]看上去是个坚定的信徒，但也阐述了[ROOT.Char.GetFaith.HighGodName]的本质以及这一切意味着什么。夜里，[mystic.GetHerHis]的帐篷被里面的烛光照亮，偶尔会有奇怪的吟诵声和不寻常的香从里面飘出。\n\n在我完全没准备时，[mystic.GetFirstNameNoTooltip]出声喊我进去。"
+ pilgrimage.2010.desc:1 "[2010_mystic.GetTitledFirstName]是我在旅途中遇到的一个怪人。[2010_mystic.GetSheHe|U]看上去是个坚定的信徒，但也阐述了[ROOT.Char.GetFaith.HighGodName]的本质以及这一切意味着什么。夜里，[2010_mystic.GetHerHis]的帐篷被里面的烛光照亮，偶尔会有奇怪的吟诵声和不寻常的香从里面飘出。\n\n在我完全没准备时，[2010_mystic.GetFirstNameNoTooltip]出声喊我进去。"
  pilgrimage.2010.a:0 "我很好奇……"
  pilgrimage.2010.a.tt:0 "你进了帐篷"
  pilgrimage.2010.b:0 "不，谢谢，这对我来说都是异端邪说！"
-
- pilgrimage.2011.desc:0 "在[mystic.GetTitledFirstNamePossessive]的帐篷里，迎面扑来的是强烈的气味和难以忍受的灼热而沉重的空气。“我们内观己身非常重要，”[mystic.GetSheHe]解释道并坐下。\n\n“我想要你闭上你的眼睛并专注，就像我这样。让[ROOT.Char.GetFaith.PantheonTerm]流经你。达至神魂超拔！”"
+ #The Mystic has a lot to say about your faith
+ pilgrimage.2011.desc:1 "在[2010_mystic.GetTitledFirstNamePossessive]的帐篷里，迎面扑来的是强烈的气味和难以忍受的灼热而沉重的空气。“我们内观己身非常重要，”[2010_mystic.GetSheHe]解释道并坐下。\n\n“我想要你闭上你的眼睛并专注，就像我这样。让[ROOT.Char.GetFaith.PantheonTerm]流经你。达至神魂超拔！”"
  pilgrimage.2011.a:0 "是的！我能感受到与[ROOT.Char.GetFaith.HighGodNameAlternate]的联结！"
  pilgrimage.2011.a.tt:0 "你经历了神魂超拔"
  pilgrimage.2011.b:0 "真舒服，我可能睡着了……"
  pilgrimage.2011.b.tt:0 "你睡了个好觉"
  pilgrimage.2011.c:0 "告诉我，这和[ROOT.Char.GetFaith.HighGodName]有什么关系？"
  pilgrimage.2011.c.tt:0 "你和这位神秘主义者进行辩论"
- 
- pilgrimage.2012.desc:0 "我没法很好回忆我进入那位神秘主义者的帐篷后发生了什么。我只记得模糊的图像和糊涂的感受。\n\n现在我自问[mystic.GetSheHe]当时是不是在那里……"
- pilgrimage.2012.a:0 "[mystic.GetSheHe|U]有许多奇怪的想法。"
-
- pilgrimage.2013.desc:0 "遵循[mystic.GetTitledFirstNamePossessive]的指导，我可以更清楚地看到一切。我可以#EMP 感受#!到它。[ROOT.Char.GetFaith.PantheonTerm|U]，这个世界，一直都在流遍我的周身。透过我的灵魂。\n\n数小时后我从帐篷中走出，我对自己和生命有了新的理解。"
+ #Fallback in case something happened in between events
+ pilgrimage.2012.desc:1 "我没法很好回忆我进入那位神秘主义者的帐篷后发生了什么。我只记得模糊的图像和糊涂的感受。\n\n现在我自问[2010_mystic.GetSheHe]当时是不是在那里……"
+ pilgrimage.2012.a:1 "[2010_mystic.GetSheHe|U]有许多奇怪的想法。"
+ #Outcome of engaging
+ pilgrimage.2013.desc:1 "遵循[2010_mystic.GetTitledFirstNamePossessive]的指导，我可以更清楚地看到一切。我可以#EMP 感受#!到它。[ROOT.Char.GetFaith.PantheonTerm|U]，这个世界，一直都在流遍我的周身。透过我的灵魂。\n\n数小时后我从帐篷中走出，我对自己和生命有了新的理解。"
  pilgrimage.2013.a:0 "从前我是眼瞎的，如今能看了。"
-
- pilgrimage.2014.desc:0 "我在[mystic.GetTitledFirstNamePossessive]的帐篷中睡着了，醒来时，整个帐篷都不见了。我的仆人们从我沉睡的垫子上唤醒我，但除了这个，那位神秘主义者没有留下别的踪迹。\n\n至少这一觉让我精神振奋！"
+ #Outcome of sleeping
+ pilgrimage.2014.desc:1 "我在[2010_mystic.GetTitledFirstNamePossessive]的帐篷中睡着了，醒来时，整个帐篷都不见了。我的仆人们从我沉睡的垫子上唤醒我，但除了这个，那位神秘主义者没有留下别的踪迹。\n\n至少这一觉让我精神振奋！"
  pilgrimage.2014.a:0 "奇怪，为什么我的口袋感觉如此地轻呢？"
-
- pilgrimage.2015.desc:0 "老实说，我从未料到[mystic.GetTitledFirstName]会为[mystic.GetHerHis]的古怪行径以及[mystic.GetSheHe]的所作所为负责。\n\n我仍旧怀疑……不论这是否是[mystic.GetSheHe]的目的，但我确实获得了一些需要思考的全新视角！"
+ pilgrimage.2014.pilfered.t:0 "被盗"
+ pilgrimage.2014.pilfered.desc:0 "有人动了你的东西"
+ pilgrimage.2014.restful.t:0 "休息得很好"
+ pilgrimage.2014.restful.desc:0 "你睡得安稳"
+ pilgrimage.2014.a_restful:0 "那是很充分的休息。"
+ #Outcome of debating
+ pilgrimage.2015.desc:1 "老实说，我从未料到[2010_mystic.GetTitledFirstName]会为[2010_mystic.GetHerHis]的古怪行径以及[2010_mystic.GetSheHe]的所作所为负责。\n\n我仍旧怀疑……不论这是否是[2010_mystic.GetSheHe]的目的，但我确实获得了一些需要思考的全新视角！"
  pilgrimage.2015.a:0 "你要#EMP 怎么#!更接近[ROOT.Char.GetFaith.PantheonTerm]呢？"
+ pilgrimage.2015.learning.t:0 "增加学识"
+ pilgrimage.2015.learning.desc:0 "你从与神秘主义者的辩论中学到一些东西"
+ pilgrimage.2015.piety.t:0 "获得虔诚"
+ pilgrimage.2015.piety.desc:0 "你因为为信仰辩论而获得虔诚"
+ #Pilgrimage thieves
+ pilgrimage.2020.t:0 "$pilgrimage_header$盗贼"
+ pilgrimage.2020.desc:0 "营地里有人打翻铁锅，把我从睡梦中惊醒。我环顾四周，似乎有两个打扮成朝圣者的人一直在翻弄我们的物资，寻找可偷的贵重物品。"
+ pilgrimage.2020.desc_adult:0 "\n\n见到我被惊动了，他们中的一个呆住了，另一个转身就跑。"
+ pilgrimage.2020.desc_child:0 "\n\n见到我被惊动了，两人中较小的一个呆住了，看起来是个受伤的孩子，而另一个转身就跑。"
+ pilgrimage.2020.a:0 "你应该和我们一起去[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]。"
+ pilgrimage.2020.a_child:0 "小家伙，坐到火边来。"
+ pilgrimage.2020.a.flavor:0 "[thief_to_convert.GetSheHe|U]显然是个不幸的家伙。"
+ pilgrimage.2020.b:0 "这不是[ROOT.Char.GetFaith.HighGodName]要你过的生活。"
+ pilgrimage.2020.b.success.desc:0 "你说服了小孩子"
+ pilgrimage.2020.b.success.tt:0 "这小孩需要进一步的指导"
+ pilgrimage.2020.b.failure.t:0 "小偷跑了"
+ pilgrimage.2020.b.failure.desc:0 "你没能说服这个小孩"
+ pilgrimage.2020.c:0 "我们都要做我们该做的。"
+ pilgrimage.2020.c_cynical:0 "所以#EMP 这#!是[ROOT.Char.GetFaith.HighGodNamePossessive]的意愿吧。"
+ pilgrimage.2020.c.flavor:0 "我有什么资格干涉[ROOT.Char.GetFaith.HighGodNamePossessive]的计划。"
+ #Pilgrimage thief wants to repent
+ pilgrimage.2021.t:0 "$pilgrimage_header$悔过自新"
+ pilgrimage.2021.desc:0 "我已成功说服[thief_to_convert.GetTitledFirstName]改变[thief_to_convert.GetHerHis]的生活方式。[thief_to_convert.GetSheHe|U]站在我面前，沉甸甸的羞愧使[thief_to_convert.GetHerHis]的肩膀耷拉下来，因为[thief_to_convert.GetSheHe]避免与我的目光对视。\n\n“这不是我的选择，这辈子，”[thief_to_convert.GetFirstNameNoTooltip]慢慢地说道，“我该怎么做才能忏悔我的罪孽呢？”"
+ pilgrimage.2021.a:0 "传播[ROOT.Char.GetFaith.GetReligion.GetNameNoTooltip]。"
+ pilgrimage.2021.b:0 "惩罚自己总能让#EMP 我#!感觉好些……"
+ pilgrimage.2021.c:0 "努力工作可以解决一切。"
+ pilgrimage.2021.c.flavor:0 "[thief_to_convert.GetSheHe|U]会为#EMP 我#!洗清[thief_to_convert.GetHerHis]的罪孽。"
+ #Sea: Encounter a massive rainbow
+ pilgrimage.2030.t:0 "$pilgrimage_header$天气现象"
+ pilgrimage.2030.desc:0 "穿越大海驶向我们在[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]的目的地时，它的浩瀚和喜怒无常总是让我心存敬畏。\n\n昨晚我们经历了一场风暴，今天早上，一道从地平线延伸到地平线的壮丽彩虹出现在我们面前。\n\n我无意中听到有些朝圣者也在思考着它的宏伟，称这一景象为#EMP 神圣#!和#EMP [ROOT.Char.GetFaith.HighGodName]的神迹#!。"
+ pilgrimage.2030.a:0 "#EMP 事实上……#!"
+ pilgrimage.2030.a.flavor:0 "神明或许创造了雨，但彩虹首先是一种天气现象。"
+ pilgrimage.2030.b:0 "没错！感受[ROOT.Char.GetFaith.HighGodName]的临在吧！"
+ pilgrimage.2030.b.flavor:0 "如此美丽的东西#EMP 必须#!是神明所造！"
+ pilgrimage.2030.c:0 "大自然和神明的合作真是让人着迷。"
+ pilgrimage.2030.d:0 "我想，它#EMP 真是#!让人印象深刻。"
+ #Sea: Go fish
+ pilgrimage.2040.t:0 "$pilgrimage_header$去钓鱼"
+ pilgrimage.2040.desc:0 "我们在这艘船上度过我们的日日夜夜，我试图用有趣的对话、祈祷、思考旅程或简单地计划我的未来旅行来填补我的时间。\n\n然而，最近我看到与我随行的一些朝圣者把时间花在了另一项相当平凡的事情上——钓鱼。\n\n他们看起来都很无忧无虑，活动本身也有舒缓的作用。"
+ pilgrimage.2040.a:0 "我要加入！"
+ pilgrimage.2040.a.flavor:0 "毕竟，当渔夫是一项高尚而质朴的行业。"
+ pilgrimage.2040.a.success.t:0 "大鱼"
+ pilgrimage.2040.a.success.desc:0 "你抓到了大鱼"
+ pilgrimage.2040.a.less_success.t:0 "小鱼"
+ pilgrimage.2040.a.less_success.desc:0 "你抓到了小鱼"
+ pilgrimage.2040.b:0 "#EMP 市侩。#!我应该花时间祈祷。"
+ pilgrimage.2040.c:0 "小睡一下怎么样？"
+ pilgrimage.2040.d:0 "不，让我们做点别的吧。"
+ #Sea: Shipwrecked pilgrims
+ pilgrimage.2050.t:0 "$pilgrimage_header$随波逐流"
+ pilgrimage.2050.desc:0 "就在黄昏降临之前，我们听到了呼救声，我越过栏杆向广阔的水域望去，我注意到一艘小船上有三个人形。\n\n他们似乎在海上漂流，漫无目的地去往海浪带他们去的地方。\n\n我试图弄清楚他们可能是谁，根据我有限的知识，他们看起来像是遭遇船难的……[first_pilgrim.GetCulture.GetCollectiveNounNoTooltip]？他们在这里能干什么？"
+ pilgrimage.2050.a:0 "上船！"
+ pilgrimage.2050.a.tt:0 "你把这些朝圣者送到最近的岸边"
+ pilgrimage.2050.b:0 "你听说过[ROOT.Char.GetFaith.HighGodName]的恩典吗？"
+ pilgrimage.2050.b.success.t:0 "改信"
+ pilgrimage.2050.b.success.desc:0 "你让朝圣者改信[ROOT.Char.GetFaith.GetNameNoTooltip]"
+ pilgrimage.2050.b.failure.t:0 "未被说服"
+ pilgrimage.2050.b.failure.desc:0 "你要帮助朝圣者上岸，却未能说服他们"
+ pilgrimage.2050.c:0 "让我们……走吧。"
 
+ ###BP1 Events
+ #Sneaking off to a tavern with your pal
+ pilgrimage.6001.t:0 "人多力量大"
+ pilgrimage.6001.desc:1 "我跟随着这漫长的队伍，缓缓向[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]前进，正怀念着在[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]时的舒适，突然听到有人在后面喊我的名字。\n\n我的[friend.GetFirstNameNoTooltip]跑到我身边解释道，“[ROOT.Char.GetTitledFirstNameNoTooltip]！运气真好，我们要去的是同一个圣地！在这前往[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]的漫长而孤独的路上，你愿意有一些陪伴吗？”"
+ pilgrimage.6001.a:0 "我的耳朵一直为朋友打开。"
+ pilgrimage.6001.b:0 "我想我宁愿独自一人，谢了。"
+ pilgrimage.6001.c:0 "真可耻。我们来这里是为了专注于我们的信仰！"
+ #Tavern, Suggestion
+ pilgrimage.6002.desc:0 "[friend.GetFirstNameNoTooltip|U]和我在今天剩余的旅程中聊这个聊那个，阴谋和笑话，战争和恋人，老朋友和新朋友。我们正在进行一场引人入胜的谈话，这时队伍的领头人发出疲倦的喊声：“我们在这里扎营！”\n\n[friend.GetFirstNameNoTooltip|U]转头看着我，脸上露出狡黠的笑容，说道：“终于！不过，在扎营之前绕一圈怎么样？长途跋涉会让[friend.GetWomanMan]口渴……”"
+ pilgrimage.6002.a:0 "液体点心听上去很神圣！"
+ pilgrimage.6002.a_tt:0 "去当地酒馆"
+ pilgrimage.6002.b:1 "你继续前进……"
+ pilgrimage.6002.b_tt:0 "你继续旅程"
+ pilgrimage.6002.c:1 "哪个异教徒会在朝圣时光顾小酒馆？"
+ #Tavern, beginning
+ pilgrimage.6003.desc:0 "我们走进拥挤的酒馆，[friend.GetFirstNameNoTooltip]立马为我们点了两杯[ROOT.Char.Custom('RegionalDrink')]。我们坐下来，一边听吟游诗人的故事一边喝酒，时不时地谈论人生的悲欢。\n\n[ROOT.Char.GetFaith.HighGodName]啊，在路上挥汗跋涉一整天后，这真是让人精神振奋。我举起酒杯大声说道：“为我的朋友[friend.GetFirstNamePossessiveNoTooltip]的健康干杯，感谢我的朋友在今天的旅途后建议我们来放松，这真是太棒了！”\n\n整个酒馆都举起他们的酒杯向我的好朋友致敬，大家都喝得醉醺醺的。"
+ pilgrimage.6003.a:0 "“下一轮我请！”"
+ pilgrimage.6003.a_tt:0 "继续与[friend.GetShortUIName]一起狂欢"
+ pilgrimage.6003.b:0 "我们该回营地了，免得被发现。"
+ pilgrimage.6003.b.tt:1 "你和[friend.GetFirstNameNoTooltip]结束夜生活，回到营地"
+ #Tavern, crash
+ pilgrimage.6004.desc:0 "不知道多少轮[ROOT.Char.Custom('RegionalDrink')]过后，[friend.GetFirstNameNoTooltip]和我用桌子拍着节拍，激励酒馆里的顾客一起唱起了酒歌。\n\n随着一声#EMP 巨响#!，以及更多我数不过来的碎裂声，我们从地板上摔进了酒窖里，勇敢地去了之前少有[ROOT.Char.GetWomenMen]去过的地方冒险。\n\n所有和我们一起狂欢的人都从一楼往下盯着我们，既担心又幸灾乐祸。他们显然是在盼望酒窖里的报告。"
+ pilgrimage.6004.a:0 "“人人有[ROOT.Char.Custom('RegionalDrink')|U]！”"
+ pilgrimage.6004.a.tt:1 "你拍了拍新找到的酒桶，与人们分享你的战利品"
+ pilgrimage.6004.b:0 "“我想我们待得有点久了……”"
+ #Returning to camp
+ pilgrimage.6005.desc:0 "我们不那么安静地回到营地，诚挚地祈祷大家早就上床睡觉了。来到我们的帐篷前，我们可以看到火还在燃烧， "
+ pilgrimage.6005.desc.bad:1 "，朝圣队伍中的每个人都转过头来盯着我们。\n\n我们很难保持镇静，因为我们的肚子装着大量[ROOT.Char.Custom('RegionalDrink')]。\n\n他们严厉地问我们去了哪里，我们打着嗝，断断续续地讲述了晚上的冒险。他们坚持要我们赔偿附近那座酒馆的损失。"
+ pilgrimage.6005.desc.good:1 "，但没有任何动静。\n\n营火似乎是睡前直接点燃的，以驱走我们床上的寒气。"
+ pilgrimage.6005.a:0 "我们的这些旅伴真是善良体贴！"
+ pilgrimage.6005.b:0 "“我们应该为我们闯的祸赔偿！”"
+ pilgrimage.6005.c:0 "“过得愉快也是罪？”"
+ #You find out your friend is a Non-Believer
+ pilgrimage.6006.desc:0 "[friend.GetFirstName]和我今天的旅程即将结束。我们缓缓迈向预定的终点，突然前面有人喊了起来，“看！多么#EMP 壮美#!的落日啊！”\n\n所有人都憋着最后一口气向前冲去，想一睹这雄伟之地的风采。“我们有幸在这尘世中看到如此奇迹！这是冥想我们信仰的最佳时机。”我对[friend.GetFirstNameNoTooltip]说道，但[friend.GetSheHe]似乎一点也不感兴趣，一丝刺眼的嘲笑在[friend.GetHerHis]嘴角浮现。\n\n“不过是落日罢了！”[friend.GetSheHe]喊道，“我们在旅途中所做的每一件事都必须与[ROOT.Char.GetFaith.HighGodName]有关吗？我只是想到处走走看看这个世界——我甚至#EMP 根本#!不相信[ROOT.Char.GetFaith.HighGodName]存在！”"
+ pilgrimage.6006.a:0 "“我会为你保守秘密的，朋友。”"
+ pilgrimage.6006.b:0 "“我不会容忍一位不信神的朋友。”"
+ pilgrimage.6006.c:0 "“你说的有些道理……”"
+ #You and a friend are on a pilgrimage and your friend is healed in a miracle performed by a wandering priest
+ pilgrimage.6007.t:0 "靠祈祷过活"
+ pilgrimage.6007.desc:1 "在朝圣路途上，我的[ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('friend'))][friend.GetFirstName]承受着[friend.GetHerHis]伤病的折磨，挣扎着跟上我们。所以，我走在[friend.GetHerHim]身边陪着[friend.GetHerHim]。一名流浪[ROOT.Char.GetFaith.PriestNeuter]和我们一起走了一段时间，注意到了[friend.GetFirstNamePossessiveNoTooltip]的挣扎。\n\n“可怜的灵魂。[ROOT.Char.GetFaith.HighGodName]的孩子在前往[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]的路上不应如此辛苦，”他说道，“也许[ROOT.Char.GetFaith.HealthGodName]能赐予我力量，让我治愈你的伤病。你愿意让我试一试吗？”\n\n我的[ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('friend'))]看向我，寻求我的阴道。“[ROOT.Char.GetFirstName]，你怎么看？”"
+ pilgrimage.6007.a:0 "[ROOT.Char.GetFaith.HighGodName]真的在守护我们。"
+ pilgrimage.6007.a.success:0 "[friend.GetFirstNameNoTooltip]被治愈了"
+ pilgrimage.6007.a.failure:0 "[friend.GetFirstNamePossessiveNoTooltip]的情况变糟了"
+ pilgrimage.6007.b:0 "这个[6007_healer.GetWomanMan]不值得我们信任。"
+ 
+ ###'Temptation/Virtue' Journey Events
+ #Rakish or Lustful character considers making a pit stop, or perhaps, a detour to the local brothels
  pilgrimage.2101.t:0 "$pilgrimage_header$对亲密的渴望"
- pilgrimage.2101.desc:0 "我有多久没有通过肌肤感觉到另一个人的温存了？这段朝圣之旅让我远离了家乡，也远离了自己的慰藉。\n\n哦，我多么渴望肉欲，渴望耳鬓厮磨，被翻红浪，低吟浅唱让双方达到人生的大圆满。这些幻想不停在我脑海中泛滥，我觉得自己要忍不住屈服于欲望了，这样我才能集中精力。"
+ pilgrimage.2101.desc:1 "我有多久没有通过肌肤感觉到另一个人的温存了？这段朝圣之旅让我远离了家乡，也远离了自己的慰藉。\n\n哦，我是多么渴望肉欲啊。这些幻想不停在我脑海中泛滥，我觉得自己快要忍不住屈从于欲望了，这样我才能集中精力。"
  pilgrimage.2101.desc.lust_vice:0 "\n\n[ROOT.Char.GetFaith.HighGodName]啊，我知道这种感觉是罪！为什么你要如此严厉地考验我？难道朝圣还不足以证明我的虔诚吗？"
  pilgrimage.2101.desc.lust_virtue:0 "\n\n这一定是[ROOT.Char.GetFaith.HighGodNamePossessive]试炼的一部分！在朝圣之旅中，我能保持美德而不成为信仰之敌的牺牲品吗？"
  pilgrimage.2101.desc.lust_neutral:0 "这种烦人的感觉是我必须摆脱的烦恼！当然，这也不是没有风险的。这些地方和我的家园不一样，我可能会在这脆弱的时刻被利用。"
  pilgrimage.2101.a:0 "也就爽一晚上……"
  pilgrimage.2101.b:0 "为何我要局限在一家妓院呢？咱们要尽可能多逛几家！"
  pilgrimage.2101.c:0 "我必须保持坚强并专注于我的朝圣之旅！"
-
- # 'Temptation/Virtue' Journey Events
+ #Persistent Beggar
  pilgrimage.2501.t:0 "$pilgrimage_header$可怜的乞丐"
- pilgrimage.2501.desc.opening:0 "我们一行人穿过一个小镇时，我感觉到有人拉了拉我的衣服。转身一看，我发现一个肮脏瘦弱的[beggar.GetWomanMan]，正抬头看着我。\n\n“哦，伟大的大人，我求求您，施舍给我这样一个可怜的乞丐一些钱吧？我快饿死了，没一个本地人会帮我的。”"
+ pilgrimage.2501.desc.opening:1 "我们一行人正穿过一个小镇，突然我感觉到有人拉了拉我的衣服。转身一看，我发现一个肮脏瘦弱的[beggar.GetWomanMan]，正抬头看着我。\n\n“哦，伟大的[ROOT.Char.GetLadyLord]，我求求您，施舍给我这样一个可怜的乞丐一些钱吧？我快饿死了，却没有一个本地人会帮我的。”"
  pilgrimage.2501.desc.virtue.generous:0 "\n\n虽然慷慨不是我的天性，但朝圣之旅让我想起，所有虔诚的[ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]都应乐善好施……"
  pilgrimage.2501.desc.virtue.compassionate:0 "\n\n虽然我一点也不在乎[beggar.GetHerHis]的苦境，但朝圣之旅让我想起，所有虔诚的[ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]都应怜悯那些不幸的人……"
  pilgrimage.2501.desc.sin.generous:0 "\n\n尽管这家伙看上去很可怜，但我没忘记[ROOT.Char.GetFaith.PantheonTerm]认为施舍是重罪……"
@@ -155,7 +526,7 @@
  pilgrimage.2501.a.sin:0 "我无法让自己说不！"
  pilgrimage.2501.b:0 "呸！去找份真正的工作，赚取你的生活费！"
  pilgrimage.2501.c.arrogant:0 "你竟敢碰到我的衣裳，泥腿子？！"
-
+ #Beggar wants another favor for their sister
  pilgrimage.2502.t:0 "$pilgrimage.2501.t$"
  pilgrimage.2502.desc.gave:0 "“太好了！感谢您，[ROOT.Char.Custom('LadyLordWomanMan')]，感谢……[ROOT.Char.GetFaith.HighGodName]，对吗？也感谢他们！但是，唉，慷慨的[ROOT.Char.Custom('LadyLordWomanMan')]，您能再帮我一次吗？"
  pilgrimage.2502.desc.refused:0 "“不要！不要啊，[ROOT.Char.Custom('LadyLordWomanMan')]，求求您大发慈悲！"
@@ -164,12 +535,12 @@
  pilgrimage.2502.b:0 "不行，我不能这么做！这样不#EMP 对#!！"
  pilgrimage.2502.c.gave:0 "不行，我已经尽了我的本分！"
  pilgrimage.2502.c.refused:0 "我说了#EMP 不行#!！现在滚吧！"
-
+ #Beggar wants favor for sisters children
  pilgrimage.2503.t:0 "$pilgrimage.2501.t$"
  pilgrimage.2503.desc:0 "“太好了！愿她能早日康复。但是我能否请您再帮我一个忙？我的姐妹，她有许多孩子，您知道孩子是什么样的。他们吃的太多了！要是您能再给他们提供一些食物……？”"
  pilgrimage.2503.a:0 "好嘛。行。孩子都不该挨饿。"
  pilgrimage.2503.b:0 "我觉得我已经给够了。"
-
+ #Happy beggar
  pilgrimage.2504.t:0 "$pilgrimage.2501.t$"
  pilgrimage.2504.desc:0 "非常非常感谢您，[ROOT.Char.Custom('LadyLordWomanMan')]！我会永远记得您的恩情，我就算作牛作马都偿还不了！\n\n[ROOT.Char.GetFaith.HighGodNamePossessive]真是慷慨，我会歌颂[ROOT.Char.GetFaith.HighGodHerHis]直到我生命的尽头！"
  pilgrimage.2504.a:0 "你忘了，我也给了那些。"
@@ -177,9 +548,9 @@
  pilgrimage.2504.b:0 "你说作牛作马？嗯……"
  pilgrimage.2504.c.virtue:0 "不用客气。现在带着[ROOT.Char.GetFaith.HighGodNamePossessive]的祝福走吧。"
  pilgrimage.2504.c.sin:0 "好吧，好吧，请你……走吧。"
-
+ #Cocky Lordling
  pilgrimage.2511.t:0 "$pilgrimage_header$自大的小贵族"
- pilgrimage.2511.desc.start:0 "[destination_title.GetNameNoTierNoTooltip]吸引了来自[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]世界各地的朝圣者，所以我在旅途中遇到[lordling.Custom2('MyCharacterIntroduction', ROOT.Char)]并不奇怪。\n\n不可思议的#EMP 是#![lordling.GetSheHe]对待我的傲慢方式，骑在[lordling.GetHerHis]的马上拦住我的随从，还喊我[ROOT.Char.Custom('InsultNoun')]……竟然#EMP 当着我的面#!！"
+ pilgrimage.2511.desc.start:1 "[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]吸引了来自[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]世界各地的朝圣者，所以我在旅途中遇到[lordling.Custom2('MyCharacterIntroduction', ROOT.Char)]并不奇怪。\n\n不可思议的#EMP 是#![lordling.GetSheHe]对待我的傲慢方式，骑在[lordling.GetHerHis]的马上拦住我的随从，还喊我[ROOT.Char.Custom('InsultNoun')]……竟然#EMP 当着我的面#!！"
  pilgrimage.2511.desc.wrathful:0 "\n\n我的血液沸腾了，只是想起[ROOT.Char.GetFaith.PriestNeuterPlural]告诉我们，要保持克制，不要让情绪控制自己，才把火气压了下去。"
  pilgrimage.2511.desc.vengeful:0 "\n\n这样的时刻让我想起[ROOT.Char.GetFaith.PantheonTerm]教导我们，原谅那些伤害过我们的人。"
  pilgrimage.2511.desc.vengeful.christian:0 "\n\n这样的时刻让我想起耶稣教导我们，也把另一面脸颊转过来……"
@@ -187,48 +558,52 @@
  pilgrimage.2511.b:0 "吸气……呼气……"
  pilgrimage.2511.c:0 "#EMP 一定#!有更好的方式来平息这样的怒火。"
 
- # Christian Pilgrimage Journey Events
-
+ ###Christian Pilgrimage Journey Events
+ #Zealous priest giving sermon in freezing rains
  pilgrimage.3001.t:0 "$pilgrimage_header$[ROOT.Char.GetFaith.WaterGodName]之泪"
  pilgrimage.3001.desc:0 "即便是在朝圣中，司铎们依然每周日举行弥撒。当附近没有教堂时，他们就在露天举行，但是今天一大早，一场暴风雨袭来，并且一直不曾停歇。\n\n但是一位狂热的[ROOT.Char.Custom('DefaultPriestTitle')]没有退缩，依然站在倾盆大雨中进行布道，宣扬在逆境中不屈不挠的精神。尽管如此，由于气馁的信徒纷纷躲避暴雨，[zealous_priest.GetHerHis]听众的规模迅速减少。"
  pilgrimage.3001.a:0 "对虔诚的[ROOT.Char.GetFaith.GetAdherentNameNoTooltip]来说，一点小雨算什么？"
  pilgrimage.3001.a.tt:0 "$pilgrimage.2008.a.tt$"
  pilgrimage.3001.b:0 "别这么疯狂，我会待在我的帐篷里。"
-
+ #Naked preacher claiming to have reclaimed the lost innocence of Adam & Eve
  pilgrimage.3002.t:0 "$pilgrimage_header$亚当的纯真"
  pilgrimage.3002.desc:0 "当我的队伍准备拔营时，我注意到附近起了骚动——一个赤身裸体的[naked_preacher.GetWomanMan]爬到一块大石头上，正在向聚集的人群布道。\n\n“朋友们，原罪依然在玷污我们的灵魂，但也不尽然！只有脱去衣服，我们才能找回亚当和厄娃失去的纯真……那时，也#EMP 只有#!那时，圣灵才会触碰我们，向我们显示神的真爱！”"
  pilgrimage.3002.a:0 "[naked_preacher.GetSheHe|U]的想法是对的！我从未感受过自己与[ROOT.Char.GetFaith.HighGodName]是如此的亲近！"
  pilgrimage.3002.b:0 "异端！把[naked_preacher.GetHerHim]从上面抓下来！"
  pilgrimage.3002.c:0 "与[naked_preacher.GetHerHim]展开神学辩论。"
  pilgrimage.3002.c.success:0 "你说服这位传教士[naked_preacher.GetHerHis]这样很愚蠢"
+ pilgrimage.3002.c.success.tt:0 "你决定接下来发生什么"
  pilgrimage.3002.c.failure:0 "你无法反驳传教士的论点"
  pilgrimage.3002.d:0 "无视[naked_preacher.GetHerHim]，继续我的旅程。"
+ #You convinced the naked preacher
+ pilgrimage.3003.t:1 "$pilgrimage_header$亚当之罪"
+ pilgrimage.3003.desc:1 "在神学辩论中被击败后，这位[naked_preacher.GetWomanMan]从岩石上爬下来，现在站在我面前，对眼前的情况猝不及防。\n\n“……我真的相信关键在于服装，”[naked_preacher.GetSheHe]忧郁地低声说。“但你的观点确实很有启发性。”\n\n[naked_preacher.GetSheHe|U]眨了眨眼，忽然想起了周围的人群和自己的赤身裸体的样子，依然一脸勇敢，“不过我现在应该有所长进了……”"
+ pilgrimage.3003.a:1 "你可以穿上这些和我们一起前往[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]。"
+ pilgrimage.3003.a.flavor:1 "你递给那个裸体[naked_preacher.GetWomanMan]一些衣服。"
+ pilgrimage.3003.b:1 "去传扬这#EMP 正确的#!言论吧。"
+ #Doomsayer claiming the end is nigh!
+ pilgrimage.3004.t:0 "$pilgrimage_header$末日将临"
+ pilgrimage.3004.desc:0 "当我的队伍行经一座小镇时，我看到一大群人聚集在集市广场上。在广场中央，一个[doomsayer.GetWomanMan]站在一辆翻倒的运鱼车上，大声地对着听众呼喊。\n\n“审判日近了！改悔罢！改悔罢！不然你们将永受地狱的煎熬！”\n\n镇上的居民害怕末日预言者的话，他们都看起来忧心忡忡，在紧张地窃窃私语着。"
+ pilgrimage.3004.a:0 "“至于那日子和那时刻，谁也不知道！”"
+ pilgrimage.3004.a.flavor:0 "《圣经》说得很清楚；没人知道那一天何时到来！"
+ pilgrimage.3004.b:0 "我真的很高兴这次朝圣带来了大赦！"
+ pilgrimage.3004.c:0 "那个[doomsayer.GetWomanMan]#EMP 不#!是神父！把[doomsayer.GetHerHim]弄下来！"
 
- pilgrimage.3003.t:0 "$pilgrimage_header$末日临近"
- pilgrimage.3003.desc:0 "当我的队伍行经一座小镇时，我看到一大群人聚集在集市广场上。在广场中央，一个[doomsayer.GetWomanMan]站在一辆翻倒的运鱼车上，大声地对着听众呼喊。\n\n“审判日近了！改悔罢！改悔罢！不然你们将永受地狱的煎熬！”\n\n镇上的居民害怕末日预言者的话，他们都看起来忧心忡忡，在紧张地窃窃私语着。"
- pilgrimage.3003.a:0 "“至于那日子和那时刻，谁也不知道！”"
- pilgrimage.3003.a.flavor:0 "《圣经》说得很清楚；没人知道那一天何时到来！"
- pilgrimage.3003.b:0 "真高兴我这次朝圣能有个放纵的机会！"
- pilgrimage.3003.c:0 "那个[doomsayer.GetWomanMan]#EMP 不#!是神父！把[doomsayer.GetHerHim]弄下来！"
-
- # Muslim Pilgrimage Journey Events
- pilgrimage.3101.t:0 "$pilgrimage_header$受戒"
- pilgrimage.3101.desc:1 "当我快到麦加时，我发觉自己正站在戒关之前，这里是麦加禁地和外界的分界点。\n\n从这个点开始，我必须进入受戒的状态，举行沐浴净身，更换戒衣的仪式。我也必须戒房事，戒咒骂，戒傲慢无礼之想。"
- pilgrimage.3101.a:0 "我会全心全意、至诚至敬地完成受戒仪式。"
- pilgrimage.3101.b:0 "呃……貌似没人会清楚我有没有掉链子吧。"
-
+ ###Muslim Pilgrimage Journey Events
+ #Ziyarat - Why am I taking this pilgrimage?
  pilgrimage.3102.t:0 "$pilgrimage_header$拜谒"
- pilgrimage.3102.desc:0 "虽然朝觐是每一位穆斯林的义务，但去其他地点朝圣就远没有这么常见了。由于拜谒并不是伊斯兰教义要求必须要做的，穆斯林选择拜谒可能各有各的动机。\n\n当我们沿着前往[destination_title.GetNameNoTierNoTooltip]的大道行进时，我发觉自己在思考到底是什么让我对这次旅行格外上心的……"
+ pilgrimage.3102.desc:1 "虽然朝觐是每一位穆斯林的义务，但去其他地点朝圣就远没有这么常见了。由于拜谒并不是伊斯兰教义要求必须要做的，穆斯林选择拜谒可能各有各的动机。\n\n当我们沿着通往[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]的大道行进时，我发觉自己在思考到底是什么让我对这次旅行格外上心……"
  pilgrimage.3102.a:0 "我想见识下安拉辉煌创造的全貌。"
  pilgrimage.3102.b:0 "我的热情炽烈如火，我想做的也不仅仅是朝觐而已。"
  pilgrimage.3102.c:0 "我萌生的怀疑驱使我在这片遥远的土地上寻找答案。"
 
- # Hindu Pilgrimage Journey Events
+ ###Hindu Pilgrimage Journey Events
+ #Ritual purification in a river
  pilgrimage.3201.t:0 "$pilgrimage_header$洁净仪式"
  pilgrimage.3201.desc:0 "净化仪式是所有印度教朝圣之旅的关键步骤。通常形式是在圣河渡口处用水清洗自身。\n\n前方不远就有这样一个渡口，但我很难不注意到那里#EMP 挤满了#!同样来朝圣的平民……"
  pilgrimage.3201.a:0 "进入圣河加入其他信徒。"
  pilgrimage.3201.b:0 "我不会和#EMP 农民#!一起沐浴！"
-
+ #Contemplating the universe
  pilgrimage.3202.t:0 "$pilgrimage_header$圣洁森林"
  pilgrimage.3202.desc.hinduism:0 "虽然七圣城是至圣之地，但荒山野岭也自有其神圣之处。 "
  pilgrimage.3202.desc.buddhism:0 "佛陀释迦牟尼教导我们生命都是神圣的。虽然有情众生是生命中最高等的形式，但即使是最渺小的草叶也依然值得尊重。"
@@ -236,153 +611,386 @@
  pilgrimage.3202.desc.nature:0 "人类的傲慢令许多人相信自己凌驾于自然之上，但他们错了。自然世界才是存在于至真至纯的状态中的。"
  pilgrimage.3202.desc.end:0 "\n\n当我们穿过一片林间的空地时，那里的幽静安谧深深地打动了我。没有争斗，没有冲突……只是单纯地享受这一草一木所带来的平和。"
  pilgrimage.3202.a:0 "让我们在此处逗留片刻，参悟宇宙之道。"
- pilgrimage.3202.a.tt:0 "你的朝圣之旅将会#N 延迟几个月#!"
+ pilgrimage.3202.a.tt:1 "你的[THIS.Char.GetInvolvedActivity.GetName]将会#N 延迟几个月#!"
  pilgrimage.3202.b:0 "搞快点，让我们继续朝圣之旅！"
  pilgrimage.3202.b.tt:0 "你会#P 提前几周#!到达目的地"
 
- # Buddhist Pilgrimage Journey Events
+ ###Buddhist Pilgrimage Journey Events
+ #Critical Wanderer
  pilgrimage.3301.t:0 "$pilgrimage_header$挑剔的比丘"
  pilgrimage.3301.desc:0 "在朝圣之路的沿途，我看到许多漂泊流浪的人，他们已经出家遁世，摆脱了一切凡尘俗务的束缚。\n\n今天一位年长的流浪者正盯着我的随从看，[wanderer.GetSheHe]走到我边上。“你带的东西太多了。想要证道觉悟，你就必须像我一样丢弃身外之物，两手空空，布衣出行。”"
  pilgrimage.3301.a:0 "我能设法做到，起码在这趟旅途中能。"
  pilgrimage.3301.b:0 "那我的帐篷，我的毯子呢？太多了。我压根没准备好！"
  pilgrimage.3301.c:0 "啊，但是一个[ROOT.Char.GetTitleAsNameNoTooltip]简装出行是有违天则的。"
 
- # Generic Pilgrimage Destination Events
- # Standard arrival
- pilgrimage.4001.t:0 "$pilgrimage_header$抵达"
- pilgrimage.4001.desc:0 "我终于来到了这里，身心都达到了[destination_title.GetNameNoTierNoTooltip]的大[ROOT.Char.GetFaith.HouseOfWorship]。\n\n[ROOT.Char.GetFaith.BishopNeuter]向我赐福，我思考着[ROOT.Char.GetFaith.PantheonTerm]此时此刻为了把我带到这里，需要发生怎样的事情。"
+ ###Hajj Arrival Event
+ #Entering state of Ihram
+ pilgrimage.3101.t:1 "受戒"
+ pilgrimage.3101.desc:1 "当我快到麦加时，我发觉自己正立于戒关之前，这里是麦加禁地和外界的分界点。\n\n从这一地点开始，我必须进入受戒的状态，举行沐浴净身、更换戒衣的仪式。我也必须戒房事，戒咒骂，戒傲慢无礼之想。"
+ pilgrimage.3101.a:0 "我会全心全意、至诚至敬地完成受戒仪式。"
+ pilgrimage.3101.b:0 "呃……貌似没人会清楚我有没有掉链子吧。"
+
+ ###Generic Pilgrimage Destination Events
+ #Standard arrival
+ pilgrimage.4001.t:0 "抵达"
+ pilgrimage.4001.desc:1 "我终于来到了这里，身心都达到了[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]的大[ROOT.Char.GetFaith.HouseOfWorship]。\n\n[ROOT.Char.GetFaith.BishopNeuter]向我赐福，我思考着[ROOT.Char.GetFaith.PantheonTerm]此时此刻为了把我带到这里，需要发生怎样的事情。"
  pilgrimage.4001.cynical_end:0 "\n\n走了很多路。"
  pilgrimage.4001.a:0 "我走过了神圣的道路。"
- pilgrimage.4001.b:0 "重要的是我在这里看见和听到了什么。"
-
- # The Mystic is there!
- pilgrimage.4002.desc:0 "在我伟大朝圣的终点，我终于身心都来到了这里。除了[mystic.GetTitledFirstName]，神圣真知的探求者，谁更适合与我见面呢？\n\n“环顾四周吧，[ROOT.Char.GetFirstNameNoTooltip]！”[mystic.GetSheHe]说。“这份荣光是否正如我从前所说？”"
+ pilgrimage.4001.a_dead:0 "我们走过了神圣的道路。"
+ pilgrimage.4001.a_cynical:0 "重要的是人们知道我来过这里。"
+ #The Mystic is there!
+ pilgrimage.4002.desc:1 "在我伟大朝圣的终点，我终于身心都来到了这里。除了[2010_mystic.GetTitledFirstName]，神圣真知的探求者，谁更适合与我见面呢？\n\n“环顾四周吧，[ROOT.Char.GetFirstNameNoTooltip]！”[2010_mystic.GetSheHe]说。“这份荣光是否正如我从前所说？”"
  pilgrimage.4002.a:0 "确实如此，朋友！"
- pilgrimage.4002.b:0 "这……差强人意。"
- pilgrimage.4002.c:0 "哦没错，我确实喜欢我看到的这些。"
+ pilgrimage.4002.a_cynical:0 "这……还行吧。"
+ pilgrimage.4002.b:1 "嗯没错，我确实喜欢我所看到的。"
+ #Obligatory Pilgrimage Skip Destination Event
+ pilgrimage.4010.t:0 "身临其境"
+ pilgrimage.4010.desc:0 "我们不断抄近路，一路催促随从们，终于到了[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]。\n\n我不想磨蹭，[ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName]的神圣职责一完成，仆人们就通知我，已经做好旅行准备，我们可以启程回去了。"
+ pilgrimage.4010.a:0 "我……我改变主意了。这样感觉不好。"
+ pilgrimage.4010.a.flavor:0 "现在就回去是亵渎神明！"
+ pilgrimage.4010.a.tt:0 "你将探索[THIS.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]，在这里待上一段时间\n$EFFECT_LIST_BULLET$你的[THIS.Char.GetInvolvedActivity.GetName]结束，奖励仍会受到负面影响"
+ pilgrimage.4010.b:0 "就这样吧。我们动身前往[ROOT.Char.GetTravelPlan.GetData.GetFinalDestination.GetProvince.GetNameNoTooltip]。"
+ pilgrimage.4010.b.flavor:0 "走吧……"
+ pilgrimage.4010.b.tt:0 "你的[THIS.Char.GetInvolvedActivity.GetName]会结束，你将立即开始返乡"
+ #Bury old host at Destination
+ pilgrimage.4020.t:0 "勿忘人固有一死"
+ pilgrimage.4020.desc.intro:0 "我们一到[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]，我就开始为"
+ pilgrimage.4020.desc.relation_family_liked:0 "我过世的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('old_pilgrimage_host'))]筹备仪式。\n\n"
+ pilgrimage.4020.desc.relation_liked:0 "我亲爱的[old_pilgrimage_host.GetFirstName]筹备仪式。\n\n"
+ pilgrimage.4020.desc.relation_family:0 "我过世的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('old_pilgrimage_host'))]筹备仪式。\n\n"
+ pilgrimage.4020.desc.relation_neutral:0 "[old_pilgrimage_host.GetTitledFirstName]筹备仪式。\n\n"
+ pilgrimage.4020.desc.liked:0 "我努力保持镇定，同时寻找一位[ROOT.Char.GetFaith.AltPriestTermPlural]，这人能帮助我们举行最后的告别。\n\n我们抵达[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]后，我平复了一些心情，这个神圣的地方更接近[ROOT.Char.GetFaith.HighGodNameAlternate]，[old_pilgrimage_host.GetFirstName]将在这里永远安息。"
+ pilgrimage.4020.desc.neutral:0 "送葬的队伍平静而庄重，当地的[ROOT.Char.GetFaith.AltPriestTermPlural]向我保证，[old_pilgrimage_host.GetSheHe]现在在[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]安息，这里更接近[ROOT.Char.GetFaith.HighGodName]，所以[old_pilgrimage_host.GetSheHe]的处境还不错。"
+ pilgrimage.4020.a:0 "这是正确的决定。"
+ pilgrimage.4020.a.flavor:0 "愿[old_pilgrimage_host.GetSheHe]现在获得了安息。"
 
- # Specific Pilgrimage Destination Events
-
-   # Christian
- pilgrimage.5001.t:0 "$pilgrimage_header$条条大路通罗马"
- pilgrimage.5001.desc:0 "朝圣者从基督教世界各处蜂拥至罗马。有些人走的是法兰契杰纳之路，有些人走的是较不知名的路线。最终，我们都汇聚于此，圣伯多禄宗座圣殿，伟人安息之处。\n\n我与其他朝圣者站在一起，感受到了聚集起来的众人之间庄重的合一与团结，所有人都旅途中克服了各种试炼和磨难。"
- pilgrimage.5001.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5001.b:0 "$pilgrimage.4001.b$"
-
- pilgrimage.5011.t:0 "$pilgrimage_header$耶路撒冷！耶路撒冷！"
+ ###Specific Pilgrimage Destination Events
+ ###Christian
+ #Rome
+ pilgrimage.5001.t:0 "条条大路通罗马"
+ pilgrimage.5001.desc:0 "朝圣者从基督教世界各处蜂拥至罗马。有些人走的是法兰契杰纳之路，有些人走的是较不知名的路线。最终，我们都汇聚于此，圣伯多禄大殿，伟人安息之处。\n\n我与其他朝圣者站在一起，感受到了聚集起来的众人之间庄重的合一与团结，所有人都旅途中克服了各种试炼和磨难。"
+ #Jerusalem
+ pilgrimage.5011.t:0 "哦，耶路撒冷，耶路撒冷！"
  pilgrimage.5011.desc.beginning:0 "世界上没有其他城市拥有耶路撒冷这般的历史。除了众多其他宗教圣地之外，这座城市还有着 "
  pilgrimage.5011.desc.christian:0 "圣墓大教堂，矗立于耶稣受难、安葬和复活之地。"
  pilgrimage.5011.desc.muslim:0 "“尊贵禁地”，穆罕默德在地上的时日结束后的登霄之所。"
  pilgrimage.5011.desc.jewish:0 "圣殿山，至圣所之所在，预言中第三圣殿将要建立的地方。"
  pilgrimage.5011.desc.end:0 "\n\n站在圣殿山之外，手触西墙，我反思着自己一路来到这座传奇之城的旅途上发生的事情。"
- pilgrimage.5011.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5011.b:0 "$pilgrimage.4001.b$"
-
- pilgrimage.5021.t:0 "$pilgrimage_header$世界渴望之城！"
+ #Constantinople
+ pilgrimage.5021.t:0 "世界渴望之城！"
  pilgrimage.5021.desc:0 "我终于站在了君士坦丁堡外的山丘上，这颗人类文明的璀璨宝石与罗马帝国的荣光交相辉映。真是必须一看的地方！\n\n在城市中心附近，我看见了圣索菲亚大教堂，伟大的敬拜中心，常被认为是拜占庭建筑的典范。\n\n不过这远不是此处唯一的奇观，我眺望城市，惊叹于[ROOT.Char.GetFaith.CreatorNamePossessive]造物的荣光。"
- pilgrimage.5021.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5021.b:0 "$pilgrimage.4001.b$"
-
- pilgrimage.5031.t:0 "$pilgrimage_header$亚历山大！"
+ #Alexandria
+ pilgrimage.5031.t:0 "亚历山大！"
  pilgrimage.5031.desc:0 "我终于抵达了亚历山大城，这里是基督教隐修制度的诞生地。那时候，在这座城市附近的沙漠洞穴里，第一批隐修修士开始了他们的使命，那些地方至今依然在用。\n\n亚历山大城不如耶路撒冷或罗马那么出名，但它作为神学与知识的中心，却拥有着一段漫长的历史。即使在伊斯兰势力占领此地的几个世纪后，生活在城市中的基督徒小团体依旧坚贞地保持着自己的信仰。"
- pilgrimage.5031.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5031.b:0 "$pilgrimage.4001.b$"
-
-   # Jewish
- pilgrimage.5101.t:0 "$pilgrimage_header$西奈山和何烈山"
+ ###Jewish
+ #Mount Sinai
+ pilgrimage.5101.t:0 "西奈山与何烈山"
  pilgrimage.5101.desc:1 "[ROOT.Char.GetFaith.HighGodName]在西奈山上以燃烧的荆棘的形态，第一次对摩西说话。后来，在同一座山上，[ROOT.Char.GetFaith.HighGodNameSheHe|U]又将十诫示现给他，这十条诫命构成了所有亚伯拉罕教义的基础。\n\n无疑这里是[ROOT.Char.GetFaith.HighGodName]喜爱的地方，我想着当我站在这片神圣的山坡上时，[ROOT.Char.GetFaith.HighGodNameSheHe|U]会不会正在俯视我……"
- pilgrimage.5101.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5101.b:0 "$pilgrimage.4001.b$"
-
-   # Muslim
- pilgrimage.5201.t:0 "$pilgrimage_header$希吉拉"
+ ###Muslim
+ #Medina
+ pilgrimage.5201.t:0 "希吉拉"
  pilgrimage.5201.desc:0 "在穆斯林信仰最初的日子里，穆罕默德并不总受人爱戴，许多人拒绝接受他和他的圣训。\n\n他得到关于刺杀的警告后，便离开了麦加前往叶斯里卜，在那儿，不断壮大的穆斯林集体张开双臂欢迎了他。此次迁徙被称为“希吉拉”，穆罕默德在他的新家得以集结侍奉安拉的善战部落。\n\n后来，叶斯里卜更名为麦地那，意为“先知之城”，以示纪念。现在我在此地，亲自纪念他的这段迁徙。"
- pilgrimage.5201.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5201.b:0 "$pilgrimage.4001.b$"
-
-   # Hindu
- pilgrimage.5301.t:0 "$pilgrimage_header$波罗奈"
+ ###Hindu
+ #Varanasi
+ pilgrimage.5301.t:0 "波罗奈"
  pilgrimage.5301.desc:0 "我终于抵达了波罗奈。在遥远的太古，湿婆神建立了这座伟大的城市，这里从古至今吸引了无数来自远方的朝圣者光临。\n\n来到这里的不仅仅只有印度教朝圣者，因为释迦牟尼佛也曾在此地附近首次度化弟子。\n\n当我亲眼见证了信仰的交融，以及由此产生的知识与探讨，对于我们是如何共同生活在此世间，我产生了全新的认识。"
- pilgrimage.5301.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5301.b:0 "$pilgrimage.4001.b$"
-
- pilgrimage.5311.t:0 "$pilgrimage_header$阿踰陀"
+ #Ayodhya
+ pilgrimage.5311.t:0 "阿踰陀"
  pilgrimage.5311.desc:1 "我终于抵达了阿踰陀，神明罗摩的诞生地，伟大的史诗《罗摩衍那》上演的地方。作为毗湿奴的一个化身，罗摩的降诞与人生被视为是正法行世的光辉体现。\n\n《罗摩衍那》的故事激励了无数代印度教徒，身处此地，让我畅想起我自己的遗产会在历史中留下怎样的印记……"
- pilgrimage.5311.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5311.b:0 "$pilgrimage.4001.b$"
-
- pilgrimage.5321.t:0 "$pilgrimage_header$秣菟罗"
+ #Mathura
+ pilgrimage.5321.t:0 "秣菟罗"
  pilgrimage.5321.desc:0 "我终于抵达了我的终点——秣菟罗。慈悲、博爱与温情之神奎师那就诞生于此。\n\n环顾四周，我可以看见所有这些特质都体现在蜂拥至此的朝圣者们身上。他们来到奎师那诞生地的神庙群朝拜，这是迄今所建造过的最宏伟壮丽的宗教建筑之一。"
- pilgrimage.5321.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5321.b:0 "$pilgrimage.4001.b$"
-
- pilgrimage.5331.t:0 "$pilgrimage_header$诃梨堕罗"
+ #Haridwar
+ pilgrimage.5331.t:0 "诃梨堕罗"
  pilgrimage.5331.desc:0 "我终于来到了神圣的恒河之源——诃梨堕罗。\n\n这座城市建立在恒河女神降世之地，湿婆神当时用自己的发束承受住了这汹涌的河水。\n\n此地以能洗刷罪孽而知名，来自世界各处的朝圣者蜂拥而至，在河水中沐浴。现在，我也是其中一员。"
- pilgrimage.5331.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5331.b:0 "$pilgrimage.4001.b$"
-
- pilgrimage.5341.t:0 "$pilgrimage_header$建志补罗"
- pilgrimage.5341.desc:1 "我终于抵达了建志补罗，迦莫崎母神庙坐落于此。\n\n这座神庙被奉献给母亲神，还以其和平与繁荣而闻名于世，至今仍是印度教七圣城之一。 "
- pilgrimage.5341.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5341.b:0 "$pilgrimage.4001.b$"
-
- pilgrimage.5351.t:0 "$pilgrimage_header$邬阇衍那"
+ #Kanchipuram
+ pilgrimage.5341.t:0 "建志补罗"
+ pilgrimage.5341.desc:1 "我终于抵达了建志补罗，爱目母神庙坐落于此。\n\n这座神庙被奉献给母亲神，还以其和平与繁荣而闻名于世，至今仍是印度教七圣城之一。 "
+ #Ujjayini
+ pilgrimage.5351.t:0 "邬阇衍那"
  pilgrimage.5351.desc:0 "抵达邬阇衍那古城，我开始前往摩诃迦丽湿伐罗·殊窒陵伽神庙。\n\n这座城市专献给化身为摩诃迦丽湿伐罗的湿婆神，长久以来这里一直都是朝圣和行政的中心，产生出一座伟大繁华的都市，信众充盈其间。\n\n到达大神庙后，我寻求[ROOT.Char.GetFaith.BishopNeuter]的祝福，洗清我灵魂的罪孽。"
- pilgrimage.5351.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5351.b:0 "$pilgrimage.4001.b$"
-
- pilgrimage.5361.t:0 "$pilgrimage_header$堕罗迦"
+ #Dwarka
+ pilgrimage.5361.t:0 "堕罗迦"
  pilgrimage.5361.desc:0 "我终于站在了“门之城”堕罗迦的门口，这里是印度教最伟大的圣地之一。\n\n根据传说，毗湿奴的化身奎师那从海中重夺了大片土地，使得城市得以建立。自那以后，这座城市大大发展，成为了宗教和经济中心，吸引了各处的朝圣者……我也是其中一员。"
- pilgrimage.5361.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5361.b:0 "$pilgrimage.4001.b$"
-
-   # Buddhism
- pilgrimage.5401.t:0 "$pilgrimage_header$菩提伽耶"
+ ###Buddhism
+ #Bodh Gaya
+ pilgrimage.5401.t:0 "菩提伽耶"
  pilgrimage.5401.desc:0 "我来到了菩提伽耶，佛教世界最神圣的地方，[ROOT.Char.GetFaith.HighGodName][ROOT.Char.GetFaith.HighGodHerselfHimself]就是在这里的菩提树下悟道的。\n\n从那时起，摩诃菩提寺就开始环绕这棵圣树修建，来自世界各地的朝圣者聚集在这里，学习更多关于[ROOT.Char.GetFaith.HighGodNameAlternatePossessive]的故事，并纪念[ROOT.Char.GetFaith.HighGodHerHis]的一生。"
- pilgrimage.5401.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5401.b:0 "$pilgrimage.4001.b$"
-
- pilgrimage.5411.t:0 "$pilgrimage_header$拘尸那揭罗"
+ #Kushinagar
+ pilgrimage.5411.t:0 "拘尸那揭罗"
  pilgrimage.5411.desc:0 "终于，我抵达了拘尸那揭罗，据说这里是[ROOT.Char.GetFaith.HighGodName]入灭之地。\n\n[ROOT.Char.GetFaith.HighGodHerHis]生前已证得涅槃，其死亡也受人敬仰，因为[ROOT.Char.GetFaith.HighGodNameSheHe]在死后达成了般涅槃，挣脱轮回的枷锁。这种解脱，是一个虔诚佛教徒的终极目标。"
- pilgrimage.5411.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5411.b:0 "$pilgrimage.4001.b$"
-
- pilgrimage.5421.t:0 "$pilgrimage_header$鹿野苑"
+ #Sarnath
+ pilgrimage.5421.t:0 "鹿野苑"
  pilgrimage.5421.desc:0 "我的这趟旅途终于将我带至鹿野苑，[ROOT.Char.GetFaith.HighGodName]初转法轮，向[ROOT.Char.GetFaith.HighGodHerHis]的追随者讲授四圣谛及其他法门的地方。\n\n正是在此，第一座佛学院建立了，时至今日依然吸引着来自世界各地的朝圣者。"
- pilgrimage.5421.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5421.b:0 "$pilgrimage.4001.b$"
-
-   # Jainism
- pilgrimage.5501.t:0 "$pilgrimage_header$尸佉罗时"
+ ###Jainism
+ #Shikharj
+ pilgrimage.5501.t:0 "尸佉罗时"
  pilgrimage.5501.desc:1 "《涅槃章》记载，耆那教二十四位渡津者中有二十位在此处的尸佉罗时山上获得解脱。这段广为流传的历史使得此地成为耆那教教团中最为重要的朝圣地，当我的目光从上到下地打量着这座山时，我发觉自己正在审视这段旅途，思索其对人生的意义。"
- pilgrimage.5501.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5501.b:0 "$pilgrimage.4001.b$"
-  
- # Zoroastrian
- pilgrimage.5601.t:0 "$pilgrimage_header$圣识"
+ ###Zoroastrian
+ #Ushi-darena
+ pilgrimage.5601.t:0 "圣识"
  pilgrimage.5601.desc:0 "我站在乌希达雷纳山的山坡上，山下的景色在我面前铺展开来。面对着这激起人敬畏之心的景色，我不禁想到琐罗亚斯德是如何在此获得启迪，得到了阿胡拉·马兹达的智慧，以传播给下面的世界。正如大多数到此地的朝圣者，我没有感觉到预言的神圣火花，但即便如此，我依然忍不住惊叹于面前的景象。"
- pilgrimage.5601.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5601.b:0 "$pilgrimage.4001.b$"
-
-   # Norse Germanic
- pilgrimage.5901.t:0 "$pilgrimage_header$帕德博恩！"
+ ###Norse Germanic
+ #Paderborn
+ pilgrimage.5901.t:0 "帕德博恩！"
  pilgrimage.5901.desc:0 "帕德博恩的密林深处曾经屹立着巨柱伊尔明苏尔。这座为荣耀奥丁而建的纪念碑在萨克森战争期间被查理曼摧毁，但是我们的人民依然涌向它曾经矗立的地方去纪念它。现在，我可以说我也曾前往这神圣之地进行过朝圣。"
- pilgrimage.5901.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5901.b:0 "$pilgrimage.4001.b$"
+ ###Tengri
+ #Open Blue Skies
+ pilgrimage.5911.t:0 "苍天之下"
+ pilgrimage.5911.desc:1 "整个世界就是[ROOT.Char.GetFaith.HighGodNamePossessive]的庙宇，伟大的苍天比任何清真寺或是教堂的屋顶都要伟大。在[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]的大草原上，我感觉距离[ROOT.Char.GetFaith.PantheonTerm]非常近，并开始反思自己到达这处圣地的旅途。"
+ ###Sanctity of Nature
+ #Sacred Groves
+ pilgrimage.5921.t:0 "圣林"
+ pilgrimage.5921.desc:1 "我终于抵达了[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]。别的一些人在教堂或清真寺里敬拜，但我知道最神圣的地方在开阔的森林中，赤足涉入能感受到柔软而滋养的土壤的抚摸。\n\n古老的树林尤其可敬，我站在巨树之间，畅想着自己在大自然中所处的位置。"
 
-   # Tengri
- pilgrimage.5911.t:0 "$pilgrimage_header$苍天之下"
- pilgrimage.5911.desc:0 "整个世界就是[ROOT.Char.GetFaith.HighGodNamePossessive]的庙宇，伟大的苍天比任何清真寺或是教堂的屋顶都要伟大。在[destination_title.GetNameNoTierNoTooltip]的大草原上，我感觉距离[ROOT.Char.GetFaith.PantheonTerm]非常近，并开始反思自己到达这处圣地的旅途。"
- pilgrimage.5911.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5911.b:0 "$pilgrimage.4001.b$"
+ ###Remaining at a Holy Site events
+ #Appreciation
+ pilgrimage.6500.t:1 "谢恩"
+ pilgrimage.6500.desc:1 "我们穿过人群，我的[ROOT.Char.Custom2('RelationToMe', pilgrimage_member)][pilgrimage_member.GetTitledFirstName]凝视着广阔的[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTier]圣地：\n\n“[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]真是值得一看的地方！这里文化交汇、信仰相聚。能体验到这些，还有熟悉的人相伴，我们难道不是蒙受了祝福吗？”\n\n[pilgrimage_member.GetSheHe|U]期待地看着我。"
+ pilgrimage.6500.a:1 "我#EMP 知道#!！让我们尽情享受吧！"
+ pilgrimage.6500.a.tt:0 "你的文化没有[GetCultureTradition('tradition_xenophilic').GetName]传统"
+ pilgrimage.6500.b:0 "属神的人才能达到的壮举！"
+ pilgrimage.6500.c:0 "人建造了这个地方，不是神灵。"
+ #Lost in Translation
+ pilgrimage.6510.t:1 "词不达意"
+ pilgrimage.6510.desc:1 "我漫步在[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]的街道上时，在一座小[ROOT.Char.GetFaith.HouseOfWorship]前停下了脚步。这座建筑比较朴素和简陋，但它前面聚集了一小群朝圣者。\n\n我走上前看到，他们正在抓挠自己的脑袋，试图弄明白门口一尊雕像旁用异国文字写的牌匾。\n\n这可能是为我的朝圣者同胞服务的一个机会！"
+ pilgrimage.6510.a:1 "#EMP 我#!会为你们翻译它！"
+ pilgrimage.6510.a.flavor:0 "真不敢相信这碑文居然#EMP 写错了字！#!"
+ pilgrimage.6510.b:0 "这碑文写了什么……？"
+ pilgrimage.6510.b_success.t:0 "碑文被破译"
+ pilgrimage.6510.b_success.desc:0 "破译了碑文"
+ pilgrimage.6510.b_failure.t:0 "碑文无人能解"
+ pilgrimage.6510.b_failure.desc:0 "碑文内容仍是个谜"
+ pilgrimage.6510.c:0 "嗯，这似乎不太值得。"
+ #Time To Go Home Soon?
+ pilgrimage.6520.t:0 "该回家了？"
+ pilgrimage.6520.desc:1 "[impatient_pilgrim.GetTitledFirstName]跟着我们的朝圣队伍四处小跑，大声叹气，脚步拖沓。“感觉我们在这里已经很久了，是不是快要开始回家了？”[impatient_pilgrim.GetSheHe]不耐烦地嘀咕道。\n\n我瞥了[impatient_pilgrim.GetHerHim]一眼，"
+ pilgrimage.6520.desc_forgiving:0 "还有点同情[impatient_pilgrim.GetHerHim]。被拖着走可不好玩。"
+ pilgrimage.6520.desc_nonforgiving:0 "简直不敢相信[impatient_pilgrim.GetHerHim]有如此#EMP 胆量#!。我握紧拳头。"
+ pilgrimage.6520.a:1 "你#EMP 竟敢#!如此无礼！"
+ pilgrimage.6520.b:0 "喂，我带你看看那边的非凡雕像。"
+ pilgrimage.6520.c:0 "我明白你的意思。"
+ #Fishy local guide?
+ pilgrimage.6530.t:0 "新鲜体验"
+ pilgrimage.6530.desc_intro:0 "我们漫步经过[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]市场的摊位，"
+ pilgrimage.6530.desc_adult:0 "一个奇怪的[local_guide.GetWomanMan]接近了我们。[local_guide.GetSheHe|U]直截了当地对我们说：\n\n“[ROOT.Char.GetLadyLord]，你看起来像一位优雅的尊贵[ROOT.Char.GetWomanMan]！我知道在离[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]不远的地方有一种#EMP 神圣#!的体验，任何虔诚的朝圣者肯定会对它感兴趣！”"
+ pilgrimage.6530.desc_child:0 "一个眼睛又大又亮的小孩子走近了我们。[local_guide.GetSheHe|U]抬头看着我们，惊呼道：\n\n“我知道有一处[ROOT.Char.GetFaith.HighGodName]居住的秘境！”[local_guide.GetSheHe]一脸坚定的说道，“你们有兴趣的话，我可以带你去看看？”"
+ pilgrimage.6530.desc_warning:0 "\n\n在我的右边的[warning_character.GetTitledFirstName]，皱着眉头，微妙地摇了摇头。是警告吗？"
+ pilgrimage.6530.desc_learned:0 "\n\n我研究过地图，碰巧知道[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]的那一边除了危险的荒地外什么也没有。"
+ pilgrimage.6530.a:0 "让我感兴趣。"
+ pilgrimage.6530.a_child.tt:0 "你跟上那孩子"
+ pilgrimage.6530.divinity.desc:0 "[local_guide.GetShortUIName]向你展示真正的神圣体验"
+ pilgrimage.6530.dangerous.desc:0 "你被骗入了危险的境地"
+ pilgrimage.6530.b:0 "[ROOT.Char.GetFaith.HighGodName]也会对骗子微笑。"
+ pilgrimage.6530.b_child:0 "说谎不适合你，我的孩子。"
+ pilgrimage.6530.b.flavor:0 "[local_guide.GetShortUIName]溜走了。"
+ pilgrimage.6530.c:0 "给我一个不告发你的理由。"
+ pilgrimage.6530.c.flavor:0 "我们都要为自己的罪付出代价。"
+ pilgrimage.6530.d:0 "你是想骗#EMP 我#!，农民？！"
+ pilgrimage.6530.d.flavor:0 "我会用鞭子给[local_guide.GetHerHim]注入一些诚实！"
+ pilgrimage.6530.e:0 "算了。"
+ #Fishy guide not so fishy actually
+ pilgrimage.6531.t:0 "隐秘圣所"
+ pilgrimage.6531.desc_wellspring:0 "我们在离[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]很远的地方突然停了下来。我们的向导[local_guide.GetTitledFirstName]向我们展示了一条隐蔽的通道，我们最终进入了一个小洞穴，日光从顶上的一个洞里射进来照亮了我们。\n\n通过同一个洞，真正非凡的泉水平静地倾泻而出。流水散发着神圣的光彩，淡淡的雾气彩虹为周围的空气增添了色彩。"
+ pilgrimage.6531.desc_crystal_cavern:0 "我开始怀疑我们是否会到达时，我们的向导[local_guide.GetTitledFirstName]突然向左急转，在我们意识到之前我们进入了一个隐藏于荒野的洞穴。\n\n我们跌跌撞撞地走进一个覆盖着数百颗水晶的大洞穴，一道微弱的光芒逐渐增强，开始反射在我们的装备上。水晶从洞顶上的孔中捕捉光线，我们一行人都对这一景象惊叹不已。"
+ pilgrimage.6531.desc_non_cynical:0 "\n\n我感到此处[ROOT.Char.GetFaith.HighGodNamePossessive]的临在胜过任何地方。"
+ pilgrimage.6531.desc_cynical:0 "\n\n这是令人叹为观止的自然奇景，我只能认同至此。"
+ pilgrimage.6531.a:0 "多么非凡！"
+ #Fishy guide _was_ fishy!
+ pilgrimage.6532.t:0 "朝圣者猎物！"
+ pilgrimage.6532.desc:0 "我们的向导[local_guide.GetTitledFirstNamePossessive]无忧无虑的口哨声，是暴徒接近我们之前，我们听到的最后的声音。这伙歹徒不知从哪里来的，似乎是离[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]很远的地方。这是一个圈套，现在我们孤立无援。\n\n我拼命想办法该怎么办，我的心跳加快。他们怎么敢掠夺朝圣者？"
+ pilgrimage.6532.a:0 "[6532_protector.GetTitledFirstNameNoTooltip]！解决他们！"
+ pilgrimage.6532.a_success.t:0 "坏蛋们被吓跑了"
+ pilgrimage.6532.a_success.desc:0 "[6532_protector.GetShortUIName]成功吓跑了这些恶棍"
+ pilgrimage.6532.a_failure.t:0 "受伤"
+ pilgrimage.6532.a_failure.desc:0 "[6532_protector.GetShortUIName]在战斗中受伤"
+ pilgrimage.6532.b:0 "#EMP 以[ROOT.Char.GetFaith.HighGodNameAlternate]的神能命令你们屈服！#!"
+ pilgrimage.6532.c:0 "这是神圣的地方！你们不怕神明吗？！"
+ pilgrimage.6532.c_success.t:0 "赶走了恶徒"
+ pilgrimage.6532.c_success.desc:0 "你成功驱散了恶徒"
+ pilgrimage.6532.c_failure.t:0 "被抢劫"
+ pilgrimage.6532.c_failure.desc:0 "你被抢劫了！"
+ #Fishy child breaks down
+ pilgrimage.6533.t:0 "绝望时刻"
+ pilgrimage.6533.desc:0 "[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]之外的某处，我们转过另一个拐角时，我们的儿童向导[local_guide.GetTitledFirstName]停在原地不动了。小小的身体开始颤抖，我能听到[local_guide.GetSheHe]压抑的抽泣声，[local_guide.GetSheHe]努力掩饰[local_guide.GetHerHis]在哭泣的事实。\n\n“我……对不起，[ROOT.Char.GetLadyLord]，他们逼我这么做的。我的小妹妹病了，我们好几天没吃东西了……”[local_guide.GetSheHe]看着那边，明亮的大眼睛突然充满了恐惧。“我们应该回去，”[local_guide.GetSheHe]小心翼翼地低声说。"
+ pilgrimage.6533.a:0 "亲爱的孩子，你的诚实温暖了我的心。"
+ pilgrimage.6533.a.flavor:0 "让我们帮助这个可怜的孩子。"
+ pilgrimage.6533.b:0 "真#EMP 卑鄙#!。"
+ pilgrimage.6533.b.flavor:0 "团伙犯罪！"
+ #Find some exotic wares
+ pilgrimage.6540.t:0 "你是否想要来点……"
+ pilgrimage.6540.desc:0 "我们去[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]朝圣期间，我忍不住回到当地市场，细品这里的商品。一个展台尤为吸引我。\n\n商人对我咧嘴一笑，宣称：“如果这位[ROOT.Char.GetLadyLord]手里有钱，我这儿的商品应有尽有！”\n\n这些珍奇的商品带回去肯定能大赚一笔，或者我还可以将它们留作礼物……"
+ pilgrimage.6540.a:0 "这批货似乎是一项明智的投资！"
+ pilgrimage.6540.a.flavor:0 "我应该很容易就能赚翻倍。"
+ pilgrimage.6540.a.tt:0 "你买下了这些异域商品"
+ pilgrimage.6540.b:0 "这里的这些看起来很有意思。"
+ pilgrimage.6540.b.flavor:0 "我应该很容易就能赚三倍。"
+ pilgrimage.6540.c:0 "尘世的财物？太世俗了。"
+ #Repentance
+ pilgrimage.6750.t:0 "[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]之忏悔"
+ pilgrimage.6750.desc.intro:0 "我走进[ROOT.Char.GetFaith.HouseOfWorship]，一种可怕的罪恶感感涌上心头。光——就像一个阳光明媚的夏日照亮祭坛——宛若实质，让我觉得触手可及。\n\n我过着什么样的生活？我能成为什么样的[ROOT.Char.GetTitleAsNameNoTooltip]、什么样的[ROOT.Char.GetMotherFather]、什么样的[ROOT.Char.Custom('GetDaughterSon')]？\n\n如果我不改变我的"
+ pilgrimage.6750.desc.secret:0 "[repent_trait.GetNameNoTooltip]"
+ pilgrimage.6750.desc.drunkard:0 "[GetTrait('drunkard').GetName( ROOT.Char )]"
+ pilgrimage.6750.desc.hashishiyah:0 "[GetTrait('hashishiyah').GetName( ROOT.Char )]"
+ pilgrimage.6750.desc.rakish:0 "[GetTrait('rakish').GetName( ROOT.Char )]"
+ pilgrimage.6750.desc.irritable:0 "[GetTrait('irritable').GetName( ROOT.Char )]"
+ pilgrimage.6750.desc.flagellant:0 "[GetTrait('flagellant').GetName( ROOT.Char )]"
+ pilgrimage.6750.desc.contrite:0 "[GetTrait('contrite').GetName( ROOT.Char )]"
+ pilgrimage.6750.desc.profligate:0 "[GetTrait('profligate').GetName( ROOT.Char )]"
+ pilgrimage.6750.desc.comfort_eater:0 "[GetTrait('comfort_eater').GetName( ROOT.Char )]"
+ pilgrimage.6750.desc.inappetetic:0 "[GetTrait('inappetetic').GetName( ROOT.Char )]"
+ pilgrimage.6750.desc.outro:0 "本性，我唯一能看到的光将是[ROOT.Char.GetFaith.NegativeAfterLife]之火。"
+ pilgrimage.6750.a:0 "“在这里，我作为一个全新的[ROOT.Char.GetWomanMan]诞生了。”"
+ pilgrimage.6750.b:0 "“嗯，那我就暂时享受一下吧。”"
+ #Theological Debate
+ pilgrimage.6760.t:0 "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]之争"
+ pilgrimage.6760.desc.intro:0 "我们聆听晨祷时，[bishop_pilgrim.GetTitledFirstName]和我进行了热烈的讨论，很快就谈及神学问题。\n\n"
+ pilgrimage.6760.desc.christian:0 "“如果说‘成为肉身’意味着基督莫名其妙地从圣言中成为人，天主的性体与人的性体基于位格结合，那就太愚蠢了。”\n\n“但是，正如聂斯脱里自己所说，”[bishop_pilgrim.GetTitledFirstName]反驳道，“基督也是由天主的性体所生，是生于恩典，而非生于人的性体。”"
+ pilgrimage.6760.a:0 "“这种亵渎神明的鬼话，我才不会听！”"
+ pilgrimage.6760.b:1 "“你知道厄弗所大公会议是如何驳斥#EMP 他#!的。”"
+ pilgrimage.6760.b.success:0 "[bishop_pilgrim.GetShortUIName]被说服了"
+ pilgrimage.6760.b.failure:0 "[bishop_pilgrim.GetShortUIName]保持[bishop_pilgrim.GetHerHis]的立场"
+ pilgrimage.6760.c:0 "“说得好，朋友。我们现在出去走走吧。”"
+ #Do you wanna buy a cool relic?
+ pilgrimage.6770.t:0 "真正的圣物"
+ pilgrimage.6770.desc.intro:0 "我在市场上闲逛摊位，尽可能多地避开当地吃食，一波又一波店家向我推销。我注意到有个特别的商人周围聚集了很多人。\n\n“来瞧瞧，花些能让[ROOT.Char.GetFaith.WealthGodName]笑几十年的价格，买一件真正的圣物。"
+ pilgrimage.6770.desc.christian:0 "[SCOPE.Custom('ChristianRelicName')|U]！"
+ pilgrimage.6770.desc.islam:0 "[SCOPE.Custom('IslamRelic')|U]！"
+ pilgrimage.6770.desc.buddhist:0 "[SCOPE.Custom('BuddhismRelicName')|U]！"
+ pilgrimage.6770.desc.judaism:0 "[SCOPE.Custom('JudaismRelicName')|U]！"
+ pilgrimage.6770.desc.fallback:0 "[merchant_relic.GetName|U]！"
+ pilgrimage.6770.desc.outro:0 "是几天前在这个非常神圣的神殿里发现的！”"
+ pilgrimage.6770.a:0 "它#EMP 必须#!是我的。"
+ pilgrimage.6770.b:0 "“我敢肯定你不会想以贪婪的价格出售一件圣物……”"
+ pilgrimage.6770.b.success:0 "[relic_merchant.GetShortUIName]降价了"
+ pilgrimage.6770.b.failure:0 "[relic_merchant.GetShortUIName]被你的提议侮辱了"
+ pilgrimage.6770.c:0 "“我要把钱花在更有意义的事情上。”"
+ pilgrimage.6770.d:0 "“这看起来不太正宗……”"
+ #Recruit skillful local
+ pilgrimage.6780.t:0 "干练的廷臣"
+ pilgrimage.6780.desc:0 "如果一个[ROOT.Char.GetWomanMan]不寻找其他同样重要的消磨时间的方式，也只能祈祷了。[current_employer.GetTitledFirstName]有一个可爱的住所，[current_employer.GetSheHe]非常友好，允许我去参观。\n\n我听到其中一个房间里传来声音，“……在这样做的过程中，你们将学会最伟大的技术。”我往里看，见到[stolen_courtier.GetTitledFirstName]正在向一群感兴趣的廷臣阐述[stolen_courtier.GetHerHis]的技艺，他们热切地听从[stolen_courtier.GetHerHis]的教导。"
+ pilgrimage.6780.a:0 "多么有才华的大师，也许我应该雇用[stolen_courtier.GetHerHim]。"
+ pilgrimage.6780.b:0 "“这样的大师，在这样的宫廷里，都觉得自己浪费了……”"
+ pilgrimage.6780.b.success.t:0 "招募廷臣"
+ pilgrimage.6780.b.success.desc:0 "[stolen_courtier.GetShortUIName]加入你的宫廷"
+ pilgrimage.6780.b.failure.t:0 "提议被拒绝"
+ pilgrimage.6780.b.failure.desc:0 "[stolen_courtier.GetShortUIName]拒绝你的提议"
+ pilgrimage.6780.c:0 "不足以为一个人惹恼[current_employer.GetTitledFirstNameNoTooltip]。"
+ obligation_hook_salary:0 "义务薪水"
+ obligation_hook_tt:0 "雇佣有#EMP 义务#!牵制的角色更加便宜"
+ #Meet local guru - trait flipping event
+ pilgrimage.6790.t:0 "在[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]唤醒神魂"
+ pilgrimage.6790.desc:0 "“[spiritual_mentor.GetSheHe|U]是世上最好的[spiritual_mentor.GetWomanMan]。[spiritual_mentor.GetSheHe|U]每天都在看守圣地，每个子夜[spiritual_mentor.GetSheHe]都会回到[spiritual_mentor.GetHerHis]在城外的营地，祈祷至黎明来临，月亮离开。”\n\n听说了[spiritual_mentor.GetHerHis]的奇事，我深吸了一口气，走向在篝火旁休息的[spiritual_mentor.GetSheHe]。\n\n“我一直在等你，”[spiritual_mentor.GetSheHe]直视着我说，“[spiritual_mentor.GetFaith.HighGodName]也在等你。你准备好弃绝你的[ROOT.Char.Custom('SinfulTrait')|l]了吗？”"
+ pilgrimage.6790.a:0 "“是的。我#EMP 准备好了#!。”"
+ pilgrimage.6790.b:0 "“我对你的教导更感兴趣。”"
+ pilgrimage.6790.c:0 "“我不需要改变我自己的#EMP 任何东西#!。”"
+ #Entourage member feels The Calling
+ pilgrimage.6800.t:0 "圣召"
+ pilgrimage.6800.desc:0 "当我进入圣地时，我发现[called_member.GetTitledFirstName]正出神地盯着祭坛。“[called_member.GetFirstNameNoTooltip]……”我叫[called_member.GetHerHim]。\n\n“[ROOT.Char.GetLadyLord]，”[called_member.GetSheHe]平静地说，“我有件事要问你，希望你能原谅我。这个地方以我认为不可思议的方式触动了我的灵魂，激荡了我的心神。\n\n[called_member.GetFaith.HighGodName]对我说话，[called_member.GetFaith.HighGodHerHis]的声音清晰、严厉、准确，不停地说啊说啊——这是我现在唯一能听到的声音；整个世界都安静了。\n\n如果我能留下来，我愿意为之奉献一生。”"
+ pilgrimage.6800.a:0 "“我明白了，你该做你必须做的。”"
+ pilgrimage.6800.b:0 "“我们老家不也有[ROOT.Char.GetFaith.HouseOfWorshipPlural]吗？”"
+ pilgrimage.6800.c:0 "“立刻停止这种胡说八道。”"
+ pilgrimage.6800.d:0 "“留下来？准备#EMP 暗算#!我？绝无可能！”"
+ pilgrimage.6800.e:0 "“好样的！我也要捐款！”"
+ pilgrimage.6800.e.tt:0 "当地的神职人员会非常感激这一举动。"
+ #Do you wanna buy an indulgence?
+ pilgrimage.6810.t:0 "放纵"
+ pilgrimage.6810.desc:0 "“……现在你可以走了，孩子。”我进入[ROOT.Char.GetFaith.HouseOfWorship]，听到[bishop_pilgrim.GetTitledFirstName]低声说道。朝圣者鞠躬离开，我可以看到这位神职人员的手里闪闪发光。\n\n“啊，亲爱的[ROOT.Char.GetTitleAsNameNoTooltip]，你也想免除自己的罪吗？[religious_head_scope.GetTitledFirstName]已经下令，将大赦颁赐给任何到访[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]的朝圣者——价格合理，就是这样。”"
+ pilgrimage.6810.a:0 "“请为我缓颊于[ROOT.Char.GetFaith.HighGodName]。”"
+ pilgrimage.6810.b:0 "给[my_heir.GetFirstNameNoTooltip]买一个会很有用。"
+ pilgrimage.6810.c:0 "“怎么可以买卖[ROOT.Char.GetFaith.DivineRealm]的门票？”"
+ #Do you wanna buy a pilgrim's guide?
+ pilgrimage.6820.t:0 "朝圣者指南"
+ pilgrimage.6820.desc:0 "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]的市场熙熙攘攘，商人用我从未听过的语言大喊大叫，出售我从未尝过的香料。\n\n“朝圣者的指南！来了解最安全的路线，探寻[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]的奇事奇景！”一个商人喊道，朝我的方向挥舞着一本小书。"
+ pilgrimage.6820.a:0 "“我来一本！”"
+ pilgrimage.6820.b:0 "“让我看看——啊！如果你在这里转弯……”"
+ pilgrim.6820.b.flavor:0 "我确定我以前看过这本书……"
+ pilgrimage.6820.c:0 "[ROOT.Char.GetFaith.HighGodName]会引导我。"
+ pilgrim_guide_artifact:0 "《朝圣者指南》"
+ pilgrim_guide_artifact_desc:0 "一本描述朝圣者最安全路线以及圣地景点的书。"
+ #Admire the holy site in a religious way
+ pilgrimage.6830.t:0 "安静"
+ pilgrimage.6830.desc:0 "我脚步的回音是[ROOT.Char.GetFaith.HouseOfWorship]里唯一的声音。我独自一人。至于外面的世界，我最后记得的是那些靠近大门的乞丐的脸，还有湛蓝、湛蓝的天空。现在那么遥远。\n\n我走向祭坛，明知这里只我一人，但我感到自己受到了严厉的审视——[ROOT.Char.GetFaith.HighGodName]庄严的眼睛总是睁得大大的。"
+ pilgrimage.6830.a:0 "祈祷的时间到了。"
+ pilgrimage.6830.b:0 "看看那些拱门……真漂亮。"
+ pilgrimage.6830.c:0 "我应该进行奉献。"
+ pilgrimage.6830.c.tt:0 "你会失去[votive_artifact.GetName]"
+ #Ask a local priest to bless your artifact
+ pilgrimage.6840.t:0 "降福物品"
+ pilgrimage.6840.desc:0 "一位朝圣者在祭坛前放下一个还愿玩偶，低下了头。我看到[blessed_bishop.GetTitledFirstName]在降福于她，并在她耳边低语些什么，我只听到了“……神圣的”。\n\n[blessed_bishop.GetFaith.BishopNeuter]示意道，“亲爱的[ROOT.Char.GetTitleAsNameNoTooltip]，你是否也带来了需要降福的东西？”"
+ pilgrimage.6840.a:0 "“请让我的[blessed_artifact.GetNameNoTooltip]更加神圣！”"
+ pilgrimage.6840.b:0 "“让所有人见识一下我的[blessed_artifact.GetNameNoTooltip]的威名！”"
+ pilgrimage.6840.c:0 "我的金钱有更好的用途。"
+ pilgrimage.6840.a.tt:0 "获得[piety_i|E]#positive_value +2%#!月度[piety|E]"
+ pilgrimage.6840.b.tt:0 "获得[prestige_i|E]#positive_value +0.5%#!月度[prestige|E]"
+ blessed_artifact_desc:0 "[blessed_artifact.GetDesc]\n\n在[holy_site_scope.GetNameNoTooltip]圣地得到降福后闪耀着纯朴的光环"
 
-   # Sanctity of Nature
- pilgrimage.5921.t:0 "$pilgrimage_header$圣林"
- pilgrimage.5921.desc:0 "我终于抵达了[destination_title.GetNameNoTierNoTooltip]。别的有些人在教堂或清真寺里敬拜，但我知道最神圣的地方在开阔的森林中，赤足涉入能感受到柔软而滋养的土壤的抚摩。\n\n古老的树林尤其可敬，我站在巨树之间，畅想着自己在大自然中所处的位置。"
- pilgrimage.5921.a:0 "$pilgrimage.4001.a$"
- pilgrimage.5921.b:0 "$pilgrimage.4001.b$"
+ ###Conclusion events
+ #Summarizing our activity
+ pilgrimage.7000.t:0 "结束"
+ pilgrimage.7000.t_hajj:0 "$pilgrimage_header$辞朝绕行"
+ pilgrimage.7000.t_obligatory:0 "[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]：……完成了"
+ pilgrimage.7000.desc_obligatory:0 "匆匆结束了我们在这里的访问，我主要关心的是赶紧回家，这样我就可以继续处理日常事务了。\n\n希望[ROOT.Char.GetFaith.HighGodNameAlternate]能理解我时间紧迫，但因着我的[ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName]，我仍然可以领受到[ROOT.Char.GetFaith.HighGodHerHis]为补赎我们的罪所做的赔偿。\n\n无论如何，我的[ROOT.Char.GetFaith.AltPriestTermPlural]应该没有怨言。"
+ pilgrimage.7000.intro:0 "我们在这个圣地的旅程接近尾声时，"
+ pilgrimage.7000.intro_hajj:0 "今年朝觐的尾声临近了。在为期两天的“射石”（亦称“投石驱鬼”）之后，我已准备好完成最后的辞朝绕行仪式，向麦加道别。\n\n"
+ pilgrimage.7000.desc_perfect_pious:0 "我很兴奋，毫无疑问，这次朝圣是有史以来最虔诚的朝圣之一，甚至可能没有之一#EMP #!。[ROOT.Char.GetFaith.HighGodNameAlternate]在对我微笑。"
+ pilgrimage.7000.desc_high_pious:0 "我知道在我们为期[activity.Custom('PilgrimageLength')]的旅程中，我的大部分（如果不是全部）决定都是为了证明我对[ROOT.Char.GetFaith.HighGodNameAlternate]和[ROOT.Char.GetFaith.GetReligion.GetNameNoTooltip]的虔敬，我很满意。"
+ pilgrimage.7000.desc_mid_pious:0 "我感到很安心，虽然我可能不是那里最虔诚的朝圣者，但我已经通过多种方式证明了我对[ROOT.Char.GetFaith.HighGodNameAlternate]的虔敬。"
+ pilgrimage.7000.desc_low_pious:0 "我有点担心我没有机会像我希望的那样证明我对[ROOT.Char.GetFaith.HighGodName]的虔敬。"
+ pilgrimage.7000.desc_perfect_worldly:0 "我对这次朝圣的成果感到欣喜若狂；我得到的所见所闻，真的很成功！"
+ pilgrimage.7000.desc_high_worldly:0 "我很高兴知道我们为期[activity.Custom('PilgrimageLength')]的旅程已经满足了[ROOT.Char.GetFaith.GetReligion.GetNameNoTooltip]的世俗方面，进而满足了我自己。"
+ pilgrimage.7000.desc_mid_worldly:0 "我可能错过了世俗的机会，但我对这次经历总体上很满意。"
+ pilgrimage.7000.desc_low_worldly:0 "我有点担心我没有像我希望的那样体验其他的文化和景点。"
+ pilgrimage.7000.outro_buried_predecessor_here:0 "\n\n不幸的事件导致我的前任[old_pilgrimage_host.GetTitledFirstNamePossessive]去世，为这次旅程抹上明显的哀思色彩，但朝圣本身却是一次有趣的经历，我将深深珍惜。"
+ pilgrimage.7000.outro_bury_predecessor_home:0 "\n\n现在我们做成了光荣的事情，完成[old_pilgrimage_host.GetTitledFirstNamePossessive]到这里的朝圣之旅，剩下的就是安全回家，让[old_pilgrimage_host.GetHerHim]安息。"
+ pilgrimage.7000.outro_first:0 "\n\n这是我的第一次朝圣之旅——虽然没有两次朝圣之旅是完全相同的——但我相信，未来对这种神恩之旅该期待什么，我已了然于胸。"
+ pilgrimage.7000.outro_second:0 "\n\n这是我的第二次朝圣之旅，我忍不住将它与我之前造访[first_pilgrimage_memory.MakeScope.Var('pilgrimage_destination').GetProvince.GetNameNoTooltip]的圣洁之旅进行比较。"
+ pilgrimage.7000.outro_second_revisit:0 "\n\n这次朝圣是我第二次，也是再次造访[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]圣地，我毫不后悔再次来到这里，惊叹它的圣洁和辉煌。"
+ pilgrimage.7000.outro_multi:0 "\n\n在我所有的[ROOT.Char.Custom('PilgrimageAmount')]次朝圣中，这是迄今为止最有启迪性的一回。"
+ pilgrimage.7000.outro_first_hajj:0 "\n\n这是我的第一次朝觐，我很高兴踏上了来到这里的旅程，参加了仪式并结识了志趣相投的人。真的，我觉得我的灵魂得到了升华，而且比以往任何时候更接近[ROOT.Char.GetFaith.HighGodName]。"
+ pilgrimage.7000.outro_second_hajj:0 "\n\n这是我的第二次朝觐，我结识了新朋友，并重新认识了上次来访时熟悉的面孔。"
+ pilgrimage.7000.outro_multi_hajj:0 "\n\n以前来过这里很多次，朝觐总是一种真正的乐趣。我们在我们的信仰下团结在一起，我们是[ROOT.Char.GetFaith.HighGodNamePossessive]真正的子民。"
+ pilgrimage.7000.outro_new_holy_site:0 "\n\n我也为新参观一处圣地感到兴奋！"
+ pilgrimage.7000.a:0 "来到[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]是一种荣幸。"
+ pilgrimage.7000.a_cynical:0 "虽然有趣，我仍希望能在我自己的床上睡觉。"
+ pilgrimage.7000.a_hajj:0 "愿我能再次看到你的城墙！"
+ pilgrimage.7000.a_hajj_cynical:0 "虽然持怀疑态度，但它#EMP 非常#!宏伟。"
+ pilgrimage.7000.a.tt:0 "是时候启程回家了"
+ cultural_acceptance_gain_worldly_pilgrimage:0 "世俗的朝圣改变了文化接受度。"
 
- # Generic Pilgrimage Return Events
+ ###Generic Pilgrimage Return Events
+ #Nice spiritual journey
  pilgrimage.9001.t:0 "$pilgrimage_header$返回"
- pilgrimage.9001.desc:0 "我的旅途很漫长，但我终于要回家了。虽然回去的路也很长，但[ROOT.Char.GetFaith.PriestNeuterPlural]和[ROOT.Char.GetFaith.BishopNeuterPlural]对待我的方式却改变了。\n\n他们坚称这旅途改变了我，不论我本人有没有察觉，因为我走过了圣洁[ROOT.Char.GetWomanMan]的路途。"
+ pilgrimage.9001.desc_intro:0 "我的旅程很长，但我终于又回到了家。 "
+ pilgrimage.9001.desc_invalidated:0 "\n\n由于一些不幸的事件，我的朝圣之旅被缩短了，很遗憾我没有去[missed_holy_site.GetNameNoTooltip]。这让我很困扰，但每过一天都会好一些。\n\n我只能假设这都是[ROOT.Char.GetFaith.HighGodNameAlternatePossessive]计划的一部分。"
+ pilgrimage.9001.desc_buried_there:0 "完成了[old_pilgrimage_host.GetTitledFirstNamePossessive]朝圣之旅的决定，我现在非常安心，因为我知道[old_pilgrimage_host.GetSheHe]在[burial_location.GetNameNoTierNoTooltip]的神圣之地有了最后的安息之所。\n\n虽然很多东西都没有变，但我的[ROOT.Char.GetFaith.AltPriestTermPlural]坚持认为这次神圣的旅程改变了我，无论我是否能亲眼见证。"
+ pilgrimage.9001.desc:1 "一切大体照旧，[ROOT.Char.GetFaith.PriestNeuterPlural]和[ROOT.Char.GetFaith.BishopNeuterPlural]对待我的方式却改变了。\n\n我走过了一条圣洁[ROOT.Char.GetWomanMan]的旅途，他们坚称这改变了我，不论我自己是否察觉。"
  pilgrimage.9001.a:0 "回家真好。"
+ pilgrimage.9001.a_invalidated:0 "随遇而安吧。"
+ pilgrimage.9001.a.tt:0 "你的旅程结束了"
+ #Bury old host back home
+ pilgrimage.9010.t:0 "$pilgrimage_header$归乡"
+ pilgrimage.9010.desc.relation_family:0 "我们在下午晚些时候抵达[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]，仆人们，现在他们是#EMP 我的#!仆人们，立即着手进行必要的安排，以便让我的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('old_pilgrimage_host'))]安息。\n\n"
+ pilgrimage.9010.desc.relation_liked:0 "我们在下午晚些时候抵达[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]，仆人们，现在他们是#EMP 我的#!仆人们，立即着手进行必要的安排，以便让我亲爱的[old_pilgrimage_host.GetFirstName]安息。\n\n"
+ pilgrimage.9010.desc.relation_neutral:0 "我们在下午晚些时候抵达[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]，仆人们，现在他们是#EMP 我的#!仆人们，立即着手进行必要的安排，以便让[old_pilgrimage_host.GetTitledFirstName]安息。\n\n"
+ pilgrimage.9010.desc.turned_back_liked:0 "我怀着沉重的心情照管这场仪式，并试图从中找到一些安慰，因为当[old_pilgrimage_host.GetSheHe]去世时，正在我们前往[previous_holy_site.GetNameNoTierNoTooltip]圣地的路上，[ROOT.Char.GetFaith.HighGodName]确实与[old_pilgrimage_host.GetHerHim]同在。\n\n毕竟，如果不是朝圣者，[ROOT.Char.GetFaith.HighGodNameAlternate]应该保护谁？"
+ pilgrimage.9010.desc.turned_back_neutral:0 "我还在适应我的新领地，廷臣们纷纷涌向我身边，争取我的垂青，带回[old_pilgrimage_host.GetTitledFirstName]的尸体有助于巩固一个事实：[old_pilgrimage_host.GetSheHe]不会回来，#EMP 我#!是新的统治者。"
+ pilgrimage.9010.desc.there_and_back_liked:0 "哀悼[old_pilgrimage_host.GetHerHis]去世的同时，让我欣慰的是，我实现了[old_pilgrimage_host.GetHerHis]的愿望，我们完成了[previous_holy_site.GetNameNoTierNoTooltip]的朝圣之旅。\n\n现实就是，无论[old_pilgrimage_host.GetSheHe]现在身在何处，[old_pilgrimage_host.GetSheHe]都肯定会感到满足，这让我的脸上暂时露出了笑容。"
+ pilgrimage.9010.desc.there_and_back_neutral:0 "为了履行[old_pilgrimage_host.GetTitledFirstNamePossessive]的意愿，我前往[previous_holy_site.GetNameNoTierNoTooltip]并返回，这让我在[old_pilgrimage_host.GetHerHis]的臣民和我的臣民中赢得了信任，#EMP 我#!开始习惯成为这里的新统治者。"
+ pilgrimage.9010.desc.invalidated_pilgrimage_liked:0 "我哀悼[old_pilgrimage_host.GetHerHis]的逝世，并为我未能让[old_pilgrimage_host.GetHerHim]安息在[previous_holy_site.GetNameNoTierNoTooltip]而深感懊悔。"
+ pilgrimage.9010.desc.invalidated_pilgrimage_neutral:0 "我有点恼怒，因为我没有机会让[old_pilgrimage_host.GetHerHim]在[previous_holy_site.GetNameNoTierNoTooltip]安息，但无论出于何种意图和目的，[old_pilgrimage_host.GetSheHe]现在终于安息了。"
+ pilgrimage.9010.a:0 "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]，一颗心，一个家。"
+ pilgrimage.9010.a_interrupted:0 "至少我们回家了，而且安然无恙。"
+ pilgrimage.9010.a.flavor:0 "$pilgrimage.4020.a.flavor$"
+ #Follow-up to exotic wares event
+ pilgrimage.9100.t:0 "$pilgrimage_header$异域商品"
+ pilgrimage.9100.desc_intro:0 "带着我的异域商品从[ROOT.Var('6540_exotic_wares_location').GetProvince.GetName]一路赶了回来，"
+ pilgrimage.9100.desc:0 "我现在需要决定该如何处理它们。\n\n我应该将它们卖掉赚取利润，还是应该留着它们等下一次个人计谋时用作礼物……？"
+ pilgrimage.9100.desc_has_gift:0 "是时候收获回报，出售它们赚取利润了。"
+ pilgrimage.9100.a:0 "钱币对我说话。"
+ pilgrimage.9100.a_double.tt:0 "你以双倍价格出售商品"
+ pilgrimage.9100.a_triple.tt:0 "你以三倍价格出售商品"
+ pilgrimage.9100.a_has_gift:0 "别介意我怎么做！"
+ pilgrimage.9100.b:0 "明智的话应该保留这些东西。"
+ pilgrimage.9100.b.tt:0 "你将有机会使用这些商品来提高下一个[personal_scheme|E]的计谋强度和成功率"
+ 

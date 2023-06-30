@@ -17,7 +17,7 @@
  adultery.0002.d.concubine_or_soulmate:0 "[lover_spouse.GetSheHe|U] ne me manquerait jamais ainsi de respect !"
 
  adultery.0003.t:0 "Accusations"
- adultery.0003.desc:0 "[spouse.Custom2('MyCharacterIntroduction', ROOT.Char)|U] était tendu[spouse.Custom('FR_E')] ces derniers temps, et alors que nous nous retrouvons seuls, je comprends enfin pourquoi.\n\n« Je vous en prie, soyez honnête avec moi », dit-[spouse.Custom('FR_IlElle')] d’un ton grave. « Y a-t-il quelqu’un d’autre ? Avez-vous pris un[spouse.Custom('FR_E')] amant[spouse.Custom('FR_E')] ? » "
+ adultery.0003.desc:0 "[spouse.Custom2('MyCharacterIntroduction', ROOT.Char)|U] était tendu[spouse.Custom('FR_E')] ces derniers temps, et alors que nous nous retrouvons seuls, je comprends enfin pourquoi.\n\n« Je vous en prie, soyez honnête avec moi », dit-[spouse.Custom('FR_IlElle')] d’un ton grave. « Y a-t-il quelqu’un d’autre ? Avez-vous pris un[spouse.Custom('FR_E')] amant[spouse.Custom('FR_E')] ? »"
  adultery.0003.a:0 "Bien sûr que non !"
  adultery.0003.a.tt_lie:0 "J’espère qu’[spouse.Custom('FR_IlElle')] y croit..."
  adultery.0003.a.tt_truth:0 "Qu’[spouse.Custom('FR_IlElle')] soupçonne une telle chose..."
@@ -140,9 +140,9 @@
  adultery.2001.a:0 "Je dois en être sûr[ROOT.Char.Custom('FR_E')] !"
  adultery.2001.b:0 "Bien sûr qu’[adultery_child.Custom('FR_IlElle')] est m[adultery_child.Custom('FR_OnA')] [adultery_child.Custom('GetDaughterSon')]."
  adultery.2001.a.tt:0 "Si [adultery_child.GetFirstNameNoTooltip] n’est pas mon véritable enfant :"
- adultery.2001.a.duel_success:0 "Je réussis à espionner ma famille" # [LocEditor:AwaitingBatchUpdate]
+ adultery.2001.a.duel_success:1 "Je réussis à espionner ma famille"
  adultery.2001.a.duel_success.tooltip:0 "Vous découvrez la vérité, quelle qu’elle soit"
- adultery.2001.a.duel_failure:0 "Je me fais prendre en essayant de découvrir la vérité." # [LocEditor:AwaitingBatchUpdate]
+ adultery.2001.a.duel_failure:1 "Je me fais prendre en essayant de découvrir la vérité."
 
  adultery.2002.t_a:0 "Notre enfant"
  adultery.2002.desc_no_child:0 "Je fais signe à m[ROOT.Char.Custom2('FR_RelationToMe_OnA', SCOPE.sC('adultery_spouse'))] [adultery_spouse.Custom('FR_le_Char_Pi')][adultery_spouse.GetTitledFirstName] alors qu’elle traverse le jardin, mais elle se détourne de manière démonstrative.\n\nMes préoccupations initiales au sujet de sa fidélité semblent avoir été des craintes infondées. Toutefois, [adultery_spouse.GetFirstNameNoTooltip] ne les oubliera pas de sitôt."

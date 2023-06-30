@@ -5,6 +5,7 @@
  death_management.1000.like:0 "Как сердце может не разорваться от такой боли? Это невозможно! Но вот я здесь, и мое сердце бьется, хотя твое затихло. О [dead_character.GetFirstName], [Select_CString(dead_character.IsFemale, 'моя', 'мой' )] [dead_character.Custom('LoverPetName')]. Жизнь не будет прежней без тебя."
  death_management.1000.neutral:0 "[Select_CString(dead_character.IsFemale, 'Моя дорогая', 'Мой дорогой' )] [dead_character.GetFirstName]. Быть может, между нами и не было любви, но горечь утраты сильнее, чем можно было вообразить. Вы всегда были подле меня, мне же казалось, что это совершенно естественно и будет продолжаться всегда. Столько всего так и осталось невысказанным..."
  death_management.1000.dislike:0 "[Select_CString(dead_character.IsFemale, 'Жена моя', 'Муж мой' )], с вашим последним вздохом я испытываю облегчение. Возможно, этого нужно стыдиться, но между нами и впрямь не было любви. Наконец я могу начать новую жизнь!"
+ death_management.1000.murder_wedding:0 "Какая неожиданная смерть. Совершенно незапланированная. Никто и подумать не мог!"
  death_management.1000.a:0 "По крайней мере воспоминания останутся со мной."
  death_management.1000.b:0 "Надеюсь, вы обретете мир, [dead_character.GetFirstNameNoTooltip]."
  death_management.1000.c:0 "И ни днем раньше!"
@@ -50,7 +51,7 @@
 
  death_management.parent.desc:2 "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [dead_character.Custom('MotherFather')] [dead_character.GetTitledFirstName] [dead_character.GetDeathReason]."
 
- death_management.sibling.desc:2 "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [dead_character.Custom('SisterBrother')] [dead_character.GetTitledFirstNameNoTooltip] [dead_character.GetDeathReason]."
+ death_management.sibling.desc:2 "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [dead_character.Custom('SisterBrother')|l] [dead_character.GetTitledFirstNameNoTooltip] [dead_character.GetDeathReason]."
 
  death_management.betrothed.desc:2 "[Select_CString(dead_character.IsFemale, 'Ваша невеста', 'Ваш жених' )] [dead_character.GetFirstNameNoTooltip] [dead_character.GetDeathReason]."
 
@@ -114,7 +115,7 @@
  death_management.2007.a.new_heir.tt:1 "Теперь вам наследует [new_heir.GetTitledFirstName]"
 
  death_management.2001.t:0 "Пережить свое дитя"
- death_management.2001.opening:1 "[Select_CString(feast_owner.IsFemale, 'Моя', 'Мой' )] [dead_character.GetTitledFirstName] [Select_CString(feast_owner.IsFemale, 'умерла', 'умер' )]!\n\n"
+ death_management.2001.opening:1 "[Select_CString(dead_character.IsFemale, 'Моя', 'Мой' )] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'умерла', 'умер' )]!\n\n"
  death_management.2001.child:0 "Сколько же на тебя возлагалось надежд, милое дитя. Тебе предстояло столькому научиться, столько всего пережить и сделать. Жизнь, полная возможностей, ждала тебя. Возможно, однажды у тебя были бы собственные дети... Нет, этому не бывать, и во всем [Select_CString(prison_holder.IsFemale, 'виновата', 'виноват' )] [prison_holder.GetTitledFirstName]..."
  death_management.2001.like:0 "О [ROOT.Char.GetFaith.HighGodName], чем [dead_character.GetFirstName] [Select_CString(dead_character.IsFemale, 'заслужила', 'заслужил' )] смерть! Почему [prison_holder.GetTitledFirstName] не [Select_CString(prison_holder.IsFemale, 'понесла', 'понес' )] твоего наказания?!"
  death_management.2001.like_end_killer:0 "Я молюсь, чтобы [prison_holder.Custom('InsultAdjective')] [prison_holder.Custom('InsultNoun')] [prison_holder.GetFirstName] не [Select_CString(prison_holder.IsFemale, 'знала', 'знал' )] ни покоя, ни мира, ни #EMP  любви#! за убийство [Select_CString(dead_character.IsFemale, 'моей дочери', 'моего сына' )]."
@@ -191,7 +192,7 @@
  death_management.3006.t:0 "Пережить соперника"
  death_management.3006.desc:1 "Когда мой тюремщик принес радостные вести, мне нелегко было в это поверить! [Select_CString(dead_character.IsFemale, 'Моя соперница', 'Мой соперник' )] [dead_character.GetTitledFirstName] наконец-то [Select_CString(dead_character.IsFemale, 'умерла', 'умер' )] в моей темнице.\n\nТолько подумать, [Select_CString(dead_character.IsFemale, 'эта', 'этот' )] [dead_character.Custom('InsultNoun')] больше не оскверняет мир своим присутствием, и благодарить за это нужно меня. Я еле сдерживаюсь, чтобы не пуститься в пляс!"
  death_management.3006.a:0 "На [dead_character.GetHerHis] неглубокой могиле!"
- death_management.3006.a.tt:2 "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [Concept( 'rival', Select_CString(dead_character.IsFemale, 'соперница' 'соперник' ))|E] [dead_character.GetFirstNameNoTooltip] [Select_CString(dead_character.IsFemale, 'умерла', 'умер' )]!"
+ death_management.3006.a.tt:2 "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [Concept( 'rival', Select_CString(dead_character.IsFemale, 'соперница', 'соперник' ))|E] [dead_character.GetFirstNameNoTooltip] [Select_CString(dead_character.IsFemale, 'умерла', 'умер' )]!"
 
  death_management.3008.t:0 "Что могло бы быть"
  death_management.3008.desc.like:0 "В моей голове возникали образы из той жизни, что могли бы прожить я и [SCOPE.sC('dead_character').GetTitledFirstName]: чего мы могли бы достичь, какую семью бы создали. Из-за меня эти мечты пошли прахом, ведь именно я [Select_CString(dead_character.IsFemale, 'позволил моей нареченной', 'позволила моему нареченному' )] умереть в моей темнице."
@@ -201,7 +202,7 @@
  death_management.3008.a:0 "Покойся с миром, [dead_character.GetFirstNameNoTooltip]."
  death_management.3008.b:0 "Мы сразу перешли к #EMP «Пока смерть не разлучит нас»#!."
 
- death_management.prisoner.desc:0 "[Select_CString(dead_character.IsFemale, 'Моя узница' 'Мой узник' )] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'умерла' 'умер' )] в моей темнице."
+ death_management.prisoner.desc:0 "[Select_CString(dead_character.IsFemale, 'Моя узница', 'Мой узник' )] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'умерла', 'умер' )] в моей темнице."
 
  death_management.4000.t:0 "Пока смерть не разлучит нас"
  death_management.4000.like_opening:0 "Как сердце может не разорваться от такой боли? Это невозможно! Но вот я здесь, и мое сердце бьется, хотя твое затихло.\n\n"
@@ -339,7 +340,7 @@
  death_management.1206.desc:0 "\n\nЯ едва сдерживаю смех. Подумать только, [dead_character.GetFirstNameNoTooltip] [Select_CString(dead_character.IsFemale, 'погибла', 'погиб' )], сражаясь на #EMP моей#! войне! Вот это поворот!"
  death_management.1206.a:0 "Скатертью дорога."
  death_management.1206.b:0 "[dead_character.GetFirstNameNoTooltip] [Select_CString(dead_character.IsFemale, 'должна была', 'должен был' )] умереть от моей руки!"
- death_management.1206.c:1 "О, #EMP [Select_CString(dead_character.IsFemale, 'моя героиня', 'мой герой' )]#!! Надо проследить, чтобы [battle_death_killer.GetFirstNameNoTooltip] [Select_CString(battle_death_killer.IsFemale, 'получила', 'получил' )] букет посимпатичнее."
+ death_management.1206.c:2 "О, #EMP [Select_CString(dead_character.IsFemale, 'моя героиня', 'мой герой' )]#!! Надо проследить, чтобы [battle_death_killer.GetFirstNameNoTooltip] [Select_CString(battle_death_killer.IsFemale, 'получила', 'получил' )] букет посимпатичнее!"
  # Heir
  death_management.1207.t:0 "Гибель [Select_CString(dead_character.IsFemale, 'наследницы', 'наследника' )]"
  death_management.1207.desc:0 "\n\nВопрос наследования во владении [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] будет значительно усложнен…"

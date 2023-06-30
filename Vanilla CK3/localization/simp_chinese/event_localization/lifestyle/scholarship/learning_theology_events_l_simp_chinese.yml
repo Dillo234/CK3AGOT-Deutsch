@@ -121,7 +121,7 @@
  learning_theology.3046.desc:0 "我寻求神秘知识和经历以及这么久了，然而……一无所获！现在唯一的答案就是重回开端，完美重现我所有的实验条件。\n\n我需要与神灵沟通。我是被故意无视了吗？！"
  learning_theology.3046.a:0 "我必须找到答案！"
  learning_theology.3046.a.success:0 "一次成功的实验"
- learning_theology.3046.a.success.tt:0 "你可能获得[GetTrait('mystic_1').GetName( GetPlayer )]"
+ learning_theology.3046.a.success.tt:1 "你可能获得[GetTrait('lifestyle_mystic').GetName( GetPlayer )]"
  learning_theology.3046.a.failure:0 "还是什么都没有！"
  learning_theology.3046.a.failure.tt:0 "你的追求让你疯狂"
  learning_theology.3046.b:0 "我在干什么……是时候停止这愚蠢的行为了。"
@@ -131,7 +131,7 @@
 
 # Passion Play fanfiction drama, by James Beaumont
  learning_theology.3051.t:0 "[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]的[ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip]演出"
- learning_theology.3051.desc.intro:0 "我注意到一位著名的[ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip]剧作家[passion_playwright.GetName]，打算为[passion_playwright.GetHerHis]的作品举办一场演出，该作品题为：" # [LocEditor:AwaitingBatchUpdate]
+ learning_theology.3051.desc.intro:1 "我注意到一位著名的[ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip]剧作家[passion_playwright.GetName]，打算为[passion_playwright.GetHerHis]的作品举办一场演出，该作品题为："
  learning_theology.3051.passion:0 "《[ROOT.Char.GetFaith.random_GoodGodNames]受难记》"
  learning_theology.3051.arabian_nights:0 "《[ROOT.Char.GetPrimaryTitle.GetAdjective]两千夜》"
  learning_theology.3051.inferno:0 "《[ROOT.Char.GetFaith.random_EvilGodNames]地狱篇》"
@@ -146,7 +146,7 @@
  learning_theology.3052.desc:0 "当这场演出在我面前逐渐展开时，我很快明白了为什么说[passion_playwright.GetName]是一位众所周知的文学天才。那散文，那表演，这一切的一切都让我感觉到，仿佛[ROOT.Char.GetFaith.ReligiousText]中的事件就展现在我面前——好似我在现场亲眼目睹了[ROOT.Char.GetFaith.CreatorName]的创造一般！\n\n当表演接近尾声时，我发现自己正与[passion_playwright.GetNameNoTooltip]独处一处。"
  learning_theology.3052.a:0 "你一定要教我像你一样演绎[ROOT.Char.GetFaith.ReligiousText]！"
  learning_theology.3052.b:0 "我能写得更好！"
- learning_theology.3053.desc:0 "演出在我面前逐渐展开，毫无疑问，这是一场彻头彻尾的闹剧。我刚才看到的根本称不上文学。\n\n故事以[ROOT.GetRandomRegionalWood|U]间[ROOT.GetRandomRegionalBird|U]的口吻，讲述了一位年轻学者，研究着[ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip]神秘主义和巫术，还在[passion_playwright.GetHerHis]的学术圈中追求了一个又一个的情人。\n\n这场演出与[ROOT.Char.GetFaith.ReligiousText]几乎没有任何关系，我的观众朋友们已经开始嘲讽奚落起[passion_playwright.GetNamePossessive]拙劣的写作来了。"
+ learning_theology.3053.desc:1 "演出在我面前逐渐展开，毫无疑问，这是一场彻头彻尾的闹剧。我刚才看到的根本称不上文学。\n\n故事以[ROOT.Char.GetCapitalLocation.Custom('GetRandomRegionalWood')|U]间[ROOT.GetRandomRegionalBird|U]的口吻，讲述了一位年轻学者，研究着[ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip]神秘主义和巫术，还在[passion_playwright.GetHerHis]的学术圈中追求了一个又一个的情人。\n\n这场演出与[ROOT.Char.GetFaith.ReligiousText]几乎没有任何关系，我的观众朋友们已经开始嘲讽奚落起[passion_playwright.GetNamePossessive]拙劣的写作来了。"
  learning_theology.3053.a:0 "嘘！"
  learning_theology.3053.b:0 "我要写我自己的剧本！"
  learning_theology.3053.c:0 "这些蠢货就是欣赏不来[passion_playwright.GetFirstNamePossessiveNoTooltip]的天才！"

@@ -212,7 +212,7 @@
  seduce_ongoing.1802.b.bad:0 "Какой позор..."
  seduce_ongoing.1802.c:0 "Мне претит такое внимание!"
 
- seduce_ongoing.1601.t:0 "[location.GetNameNoTierNoTooltip] — обитель историй"
+ seduce_ongoing.1601.t:1 "[location.GetNameNoTooltip] — обитель историй"
  seduce_ongoing.1601.t_no_location:0 "Чтение"
  seduce_ongoing.1601.desc:0 "Празднество заканчивается, и шумное веселье утихает. [target.GetTitledFirstName] предлагает заняться чтением.\n\nВскоре появляется писарь и спрашивает, что угодно послушать гостям. Вот мой шанс! [target.GetFirstName] будет [Select_CString(target.IsFemale, 'впечатлена', 'впечатлен' )]."
  seduce_ongoing.1601.a:0 "Что-нибудь благочестивое, например «[SCOPE.Custom('RandomReligiousTextName')]»."
@@ -339,7 +339,7 @@
  seduce_ongoing.3004.a:0 "Что же мне еще сделать?"
 
  seduce_ongoing.4001.t:0 "[target.Custom('MusicalPerformerPossessive')|U] играет ради вас"
- seduce_ongoing.4001.desc:0 "Пока [ROOT.Char.Custom('MusicalPerformer')] горячо вещает о любви и страсти, я изо всех сил стараюсь не показывать, насколько это мне льстит.\n\nИ хотя метафоры и аллегории скрывают лицо не хуже вуали, я знаю, что признание предназначено мне, а его автор — [owner.ze]."
+ seduce_ongoing.4001.desc:0 "[court_location.GetNameNoTier] готовится к прекрасному представлению: вскоре здесь выступит [target.Custom('MusicalPerformer')]. Думаю, [dummy_musician_gender.GetHerHim] не составит труда слегка изменить программу и заявить, что [target.GetTitledFirstName], объект моего влечения, — главное украшение вечера."
  seduce_ongoing.4001.desc.court_musician:0 "[court_location.GetNameNoTier] готовится к прекрасному представлению: вскоре здесь выступит [target.Custom('MusicalPerformer')]. Думаю, если как следует попросить, [dummy_musician_gender.GetSheHe] не откажется слегка изменить программу и заявить, что [target.GetTitledFirstName], объект моего влечения, — главное украшение вечера.\n\nВ то же время, быть может, $court_musician_court_position$ согласится воспеть меня перед слушателями."
  seduce_ongoing.4001.a:0 "Это весьма откровенно!"
  seduce_ongoing.4001.b:0 "Я предпочту заявить о моем влечении к н[target.GetHerHim] завуалированно."
@@ -349,11 +349,11 @@
 
  seduce_ongoing.4002.desc.opening:0 "Ко двору часто прибывают разные артисты, но в этот раз обещают нечто грандиозное, и только во время выступления я понимаю насколько."
  seduce_ongoing.4002.desc:1 "\n\nКогда [ROOT.Char.Custom('MusicalPerformer')] начинает очередной куплет, я пытаюсь не показывать, как лестно было слышать, да еще и перед всем двором, что он посвящен мне."
- seduce_ongoing.4002.desc.court_musician:0 "\n\nКогда [ROOT.Char.Custom('MusicalPerformer')] и $court_musician_court_position$, [Select_CString(court_musician_court_position.IsFemale, 'которую', 'которого' )] [Select_CString(owner.IsFemale, 'представила', 'представил' )] слушателям [owner.GetTitledFirstName], начинают очередной куплет о том, какой прекрасный человек [owner.GetFirstNameNoTooltip], я стараюсь не выдать восхищения."
+ seduce_ongoing.4002.desc.court_musician:0 "\n\nКогда [ROOT.Char.Custom('MusicalPerformer')] и придворный музыкант, которого [Select_CString(owner.IsFemale, 'представила', 'представил' )] слушателям [owner.GetTitledFirstName], начинают очередной куплет о том, какой прекрасный человек [owner.GetFirstNameNoTooltip], я стараюсь не выдать восхищения."
  seduce_ongoing.4002.a:0 "Воистину, [owner.GetTitledFirstNameNoTooltip] [Select_CString(target.IsFemale, 'превзошла', 'превзошел' )] [owner.GetHerselfHimself]."
 
  seduce_ongoing.4003.desc:1 "\n\nКогда [ROOT.Char.Custom('MusicalPerformer')] начинает очередной куплет, я в раздражении покидаю залу: все канцоны [owner.GetTitledFirstName] посвящает мне!"
- seduce_ongoing.4003.desc.court_musician:0 "\n\nКогда [ROOT.Char.Custom('MusicalPerformer')] и $court_musician_court_position$, [Select_CString(court_musician_court_position.IsFemale, 'которую', 'которого' )] [Select_CString(owner.IsFemale, 'представила', 'представил' )] слушателям [owner.GetTitledFirstName], начинают очередной куплет, я выхожу из залы в полном смятении. Неужели [owner.GetFirstNameNoTooltip] так себя любит, что [owner.GetHerHis] собственный $court_musician_court_position$ поет только о [Select_CString(owner.IsFemale, 'ней', 'нем' )]?!"
+ seduce_ongoing.4003.desc.court_musician:0 "\n\nКогда [ROOT.Char.Custom('MusicalPerformer')] и придворный музыкант, которого [Select_CString(owner.IsFemale, 'представила', 'представил' )] слушателям [owner.GetTitledFirstName], начинают очередной куплет, я выхожу из залы в полном смятении. Неужели [owner.GetFirstNameNoTooltip] так себя любит, что [owner.GetHerHis] собственный музыкант поет только о [Select_CString(owner.IsFemale, 'ней', 'нем' )]?!"
  seduce_ongoing.4003.a:0 "Какая наглость!"
 
  seduce_ongoing.4004.desc:1 "Спасибо вам за музыкальный подарок. [target.Custom('MusicalPerformerPossessive')] — настоящий виртуоз! Впрочем, у меня никогда не было сомнений в безупречности вашего вкуса."
@@ -676,4 +676,4 @@
  seduce_ongoing.7102.a:0 "Возможно, стоит выбрать иной подход..."
  seduce_ongoing.7201.desc:0 "«Я хочу лучше узнать тебя».\nСначала [target.GetTitledFirstName] заметно стесняется, но вскоре понимает, что у моих слов нет двойного дна, и напряжение начинает спадать.\n\nПеред прощанием я благодарю [target.GetHerHis] за прекрасно проведенное время, и [target.GetFirstNameNoTooltip] отвечает мне неуверенной улыбкой. И пусть наше времяпровождение никак не назовешь захватывающим, несомненно одно: никогда прежде мне не доводилось видеть, чтобы [target.GetFirstNameNoTooltip] [Select_CString(target.IsFemale, 'улыбалась', 'улыбался' )] так часто. Да, [target.GetSheHe] еще долго будет думать обо мне."
  seduce_ongoing.7202.desc:1 "Остаться наедине было несложно, но главное препятствие ждало впереди. [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'оказалась', 'оказался' )] ужасным собеседником. На каждый мой вопрос [target.GetSheHe] [Select_CString(target.IsFemale, 'отвечала', 'отвечал' )] максимально кратко и всеми силами [Select_CString(target.IsFemale, 'пыталась', 'пытался' )] прекратить разговор. Это напоминало бесконечное выдергивание зубов!"
- seduce_ongoing.7202.desc_animal:0 "\n\nДо сих пор думаю, что даже [ROOT.Char.Custom('LocalAnimal')]... да что там, даже труп был бы лучшим собеседником, чем [target.GetFirstNameNoTooltip]."
+ seduce_ongoing.7202.desc_animal:0 "\n\nДо сих пор думаю, что даже [ROOT.Char.Custom('GetAnimalType')]... да что там, даже труп был бы лучшим собеседником, чем [target.GetFirstNameNoTooltip]."

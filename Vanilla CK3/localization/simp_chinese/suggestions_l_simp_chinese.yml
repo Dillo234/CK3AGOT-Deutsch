@@ -18,7 +18,7 @@
 
  suggestion_fabricate_claim_label:0 "伪造宣称"
  suggestion_fabricate_claim:0 "建议：伪造对[landed_title.GetNameNoTierNoTooltip]的宣称"
- suggestion_fabricate_claim_desc:1 "邻国的[landed_title.GetName]富裕又繁荣，但你没有[casus_belli|E]就无法征服之。\n\n派出你的[court_chaplain|E]或[realm_priest|E]伪造[claim|E]能给予你所需的正当理由去发动[war|E]并将这头衔纳为己有！"
+ suggestion_fabricate_claim_desc:1 "邻国的[landed_title.GetName]富裕又繁荣，但你没有[casus_belli|E]就无法将之征服。\n\n派出你的[court_chaplain|E]或[realm_priest|E]伪造[claim|E]能给予你所需的正当理由去发动[war|E]并将这头衔纳为己有！"
  suggestion_fabricate_claim_click:1 "#I 点击查看头衔#!"
 
  suggestion_create_title_label:0 "创建头衔"
@@ -65,5 +65,5 @@
 
  suggestion_create_nation_fracturing_faction:0 "创建$nation_fracturing_faction$"
  suggestion_create_nation_fracturing_faction_label:0 "建议：$suggestion_create_nation_fracturing_faction$"
- suggestion_create_nation_fracturing_faction_desc:0 "你可以挑战你的[liege|E]并尝试解散国家以使得你和其所有[vassals|E]获得独立"
- suggestion_create_nation_fracturing_faction_click:0 "#I 点击查看针对你[liege]的派系#!"
+ suggestion_create_nation_fracturing_faction_desc:1 "你可以挑战你的[liege|E]，尝试让领地解体，使你和所有[vassals|E]同僚获得独立。"
+ suggestion_create_nation_fracturing_faction_click:1 "#I 点击查看针对你[liege]的派系#!"

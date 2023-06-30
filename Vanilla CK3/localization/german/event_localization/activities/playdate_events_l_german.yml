@@ -1,4 +1,12 @@
 ﻿l_german:
+
+ ### PHASES
+ playdate_phase:0 "Treffen"
+
+ ### OPTIONS
+
+ ### INTENTS
+
  child_return_from_playdate_title:0 "Heimkehr eines Kindes"
  child_return_from_playdate_desc:0 "[child_scope.GetShortUIName] ist vom Spieltreffen mit Gleichgestellten am Hof von [host.GetShortUIName] zurückgekehrt"
 
@@ -20,7 +28,7 @@
  playdate.1002.a:0 "Natürlich wird [child_scope.Custom('DE_PRO_PER_S_3P_N')] da sein."
  playdate.1002.b:0 "Ich muss ablehnen."
 
- playdate.2001.t:0 "$playdate_header$ Versammlung"
+ playdate.2001.t:1 "Versammlung"
  playdate.2001.desc_opening:0 "Alle sind hier!\n\nAls all die kleinen Fürsten und Damen in den Raum geführt werden, werde ich immer ausgelassener und fröhlicher."
  playdate.2001.desc_guest_of_interest_1_2_3:0 "Ich bin begeistert, dass [guest_of_interest_1.Custom2('MyCharacterIntroduction', ROOT.Char)] und [guest_of_interest_2.Custom2('MyCharacterIntroduction', ROOT.Char)] beide gekommen sind. Ganz zu schweigen davon, dass [guest_of_interest_3.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] es auch geschafft hat!"
  playdate.2001.desc_guest_of_interest_1_and_2:0 "Ich bin begeistert, dass sowohl [guest_of_interest_1.Custom2('MyCharacterIntroduction', ROOT.Char)] als auch [guest_of_interest_2.Custom2('MyCharacterIntroduction', ROOT.Char)] gekommen sind!"
@@ -34,9 +42,9 @@
  playdate.2003.desc:0 "Ich fasse es nicht. Trotz meiner Einladungen und Vorbereitungen tauchte kein einziger Gast bei meinem Spieltreffen auf.\n\nSei’s drum! Es kümmert mich nicht. Dann genieße ich all die Leckereien eben ganz allein. Und diese Spielzeuge. Und … Und … Warum ist denn niemand gekommen?"
  playdate.2003.a:0 "Warum ist denn niemand gekommen?"
  
- playdate.2501.t:0 "$playdate_header$ Eine herzliche Begrüßung"
- playdate.2501.likes_host:0 "Alle haben sich in der großen Halle versammelt, und [activity.GetOwner.GetTitledFirstName] begrüßt uns alle beim Spieltreffen!"
- playdate.2501.dislikes_host:0 "Alle haben sich in der großen Halle versammelt, und [activity.GetOwner.Custom('DE_ART_DEF_S_N')] [activity.GetOwner.Custom('InsultAdjective')]e [activity.GetOwner.GetTitledFirstName] begrüßt uns alle beim Spieltreffen."
+ playdate.2501.t:1 "Eine herzliche Begrüßung"
+ playdate.2501.likes_host:1 "Alle haben sich in der großen Halle versammelt, und [host.GetTitledFirstNameNoTooltip] begrüßt uns alle beim Spieltreffen!"
+ playdate.2501.dislikes_host:1 "Alle haben sich in der großen Halle versammelt, und [host.Custom('DE_ART_DEF_S_N')] [host.Custom('InsultAdjective')|l]e [host.GetTitledFirstNameNoTooltip] begrüßt uns alle beim Spieltreffen!"
  playdate.2501.a:0 "Ich freue mich darauf!"
  playdate.2501.a_dislike:0 "Bringen wir es hinter uns."
 
@@ -50,20 +58,20 @@
 
  playdate.0022.desc:0 "[host.Custom2('MyCharacterIntroduction', ROOT.Char)|U] wurde eingekerkert, und [host.Custom('DE_PRO_POS_S_3P')] prächtiges Spieltreffen ist Geschichte. Was für ein unglücklicher Verlauf der Ereignisse!"
 
- playdate.3001.t:0 "$playdate_header$ Grobes Spiel"
+ playdate.3001.t:1 "Aus Spiel wird Ernst"
  playdate.3001.desc:0 "Ich dachte, [guest.Custom2('MyCharacterIntroduction', ROOT.Char)] und das Bauerskind täten nur so, als würden sie kämpfen, doch plötzlich war da Blut auf dem Boden.\n\n[guest.GetFirstNameNoTooltip] sackte mit einem Grunzen zusammen und der Bauer über [guest.Custom('DE_PRO_PER_S_3P_D')] setzt zu einem neuen Angriff an."
  playdate.3001.a:0 "Ich werde [guest.Custom('DE_PRO_PER_S_3P_A')] retten!"
  playdate.3001.a_injured:0 "Ihr seid verletzt"
  playdate.3001.b:0 "„Bitte. Ich brauche Hilfe …“"
  playdate.3001.c:0 "Das sieht lustig aus. Lasst es mich mal versuchen!"
 
- playdate.3002.t:0 "$playdate_header$ Geheimnisse"
+ playdate.3002.t:1 "Geheimnisse"
  playdate.3002.desc:0 "[secret_holder.Custom2('MyCharacterIntroduction', ROOT.Char)|U] verbirgt ganz offensichtlich etwas.\n\nDoch gerade als [secret_holder.Custom('DE_PRO_PER_S_3P_N')] einwilligt, es mir zu verraten, tritt [close_participant.Custom2('MyCharacterIntroduction', ROOT.Char)] an uns heran und besteht darauf, dass ich mit [close_participant.Custom('DE_PRO_PER_S_3P_D')] eine Partie Schach spiele."
  playdate.3002.a:0 "Sicher. Mir sind kleinliche Geheimnisse einerlei."
  playdate.3002.b:0 "Ruhe! Ich will das Geheimnis wissen!"
 
- playdate.3003.t:0 "$playdate_header$ [ROOT.Char.Custom('CatStoryName')]"
- playdate.3003.desc_opening:0 "Ich bringe meine Katze [Root.Char.Custom('CatStoryName')] mit, damit alle sehen können, was für ein tolles Kätzchen ich habe.\n\n"
+ playdate.3003.t:1 "[ROOT.Char.Custom('CatStoryName')]"
+ playdate.3003.desc_opening:0 "Ich bringe meine Katze [ROOT.Char.Custom('CatStoryName')] mit, damit alle sehen können, was für ein tolles Kätzchen ich habe.\n\n"
  playdate.3003.desc_bonding_cat_opening:0 "„Was für eine niedliche Katze Ihr habt! Wollt Ihr meine auch sehen?“"
  playdate.3003.desc_bonding_cat:0 "[guest.Custom2('MyCharacterIntroduction', ROOT.Char)|U] hält mir eine [guest.Custom('CatFurColor')]e Katze entgegen: „Sie heißt [guest.Custom('CatStoryName')]!“"
  playdate.3003.desc_bonding_dog_opening:0 "„Was für eine niedliche Katze Ihr habt! Wollt Ihr meinen Hund sehen?“"
@@ -73,14 +81,14 @@
  playdate.3003.b:0 "Oh, vielen Dank! Hierher, [guest.Custom('DogStoryName')]!"
  playdate.3003.c:0 "Igitt. Was für eine Flohschleuder. Ganz anders als meine Katze!"
 
- playdate.3004.t:0 "$playdate_header$ [ROOT.Char.Custom('DogStoryName')]"
- playdate.3004.desc_opening:0 "Ich bringe meinen Hund [Root.Char.Custom('DogStoryName')] mit, damit alle sehen können, was für einen tollen Welpen ich habe.\n\n"
+ playdate.3004.t:1 "[ROOT.Char.Custom('DogStoryName')]"
+ playdate.3004.desc_opening:0 "Ich bringe meinen Hund [ROOT.Char.Custom('DogStoryName')] mit, damit alle sehen können, was für einen tollen Welpen ich habe.\n\n"
  playdate.3004.desc_bonding_cat_opening:0 "„Was für einen niedlichen Hund Ihr habt! Wollt Ihr meine Katze sehen?“"
  playdate.3004.desc_bonding_dog_opening:0 "„Was für einen niedlichen Hund Ihr habt! Wollt Ihr meinen sehen?“"
  playdate.3004.b:0 "Oh, vielen Dank! Komm her, [guest.Custom('CatStoryName')]!"
  playdate.3004.c:0 "Igitt. Was für eine Flohschleuder. Ganz anders als mein Hund!"
 
- playdate.3005.t:0 "$playdate_header$ Das Geheimnis "
+ playdate.3005.t:1 "Das Geheimnis "
  playdate.3005.desc:0 "[guest.Custom2('MyCharacterIntroduction', ROOT.Char)|U] und ich unterhalten uns über das Leben am Hof und die jüngsten Gerüchte.\n\n„Und ich habe Folgendes gehört: [secret_owner.GetTitledFirstName] [secret.Custom('SecretDescriptionThirdPerson')] …“\n\nIch will mich gerade noch im Zaum halten, doch es ist zu spät: [guest.GetFirstNameNoTooltip] hat alles gehört."
  playdate.3005.a:0 "Äh … Ups."
  playdate.3005.b:0 "Bitte vergesst, was ich gesagt habe! Ich werde alles tun!"
@@ -89,19 +97,19 @@
  playdate.3005.d.success:0 "[guest.GetFirstNameNoTooltip] hat versprochen, den Mund zu halten"
  playdate.3005.d.failure:0 "[guest.GetFirstNameNoTooltip] hat keine Angst von Euch"
 
- playdate.3006.t:0 "$playdate_header$ Gemeinsames Lesen"
+ playdate.3006.t:1 "Lesepate"
  playdate.3006.desc:0 "Ich habe ein kleines Buch mitgebracht – wie ich es meistens tue –, und [fellow_nerd.Custom2('MyCharacterIntroduction', ROOT.Char)] findet mich, gerade als ich mich hinsetze, um ein paar Seiten darin zu lesen.\n\n„Oh, ist das #EMP [SCOPE.Custom('RandomInformativeTextName')|U]#!? Ich habe das gerade vor Kurzem gelesen. Was haltet Ihr vom Stil?“"
  playdate.3006.a:0 "Das wird eine spannende Diskussion!"
  playdate.3006.b:0 "Geht weg. Ich lese."
 
- playdate.3007.t:0 "$playdate_header$ Klettern"
+ playdate.3007.t:1 "Klettergang"
  playdate.3007.desc:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ist auf den höchsten [ROOT.Char.Custom('ObjectToClimb')] in der Gegend geklettert und versucht, mir mit Gesten zu verstehen zu geben, dass ich nachfolgen soll.\n\nEs wäre nicht der erste Klettergang dieser Art, aber das sieht schon ziemlich hoch aus …"
  playdate.3007.a:0 "Ich werde nicht klein beigeben!"
  playdate.3007.a.success:0 "Ihr schafft es, hochzuklettern"
  playdate.3007.a.failure:0 "Ihr stürzt böse ab"
  playdate.3007.b:0 "Nein, ich glaube, ich bleibe lieber hier unten."
 
- playdate.3008.t:0 "$playdate_header$ Ein wenig Schwimmen"
+ playdate.3008.t:1 "Wasserratte"
  playdate.3008.desc:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ist geradewegs zum Wasser gelaufen und hat sich ohne Zögern hineingestürzt.\n\nWas als spielerisches Planschen beginnt, wird bald wesentlich panischer und plötzlich verschwindet [participant.Custom('DE_PRO_PER_S_3P_N')] unter der Oberfläche. Als sich der Augenblick in die Länge zieht, wird mir klar, dass [participant.Custom('DE_PRO_PER_S_3P_N')] nicht wieder auftauchen wird – zumindest nicht ohne Hilfe."
  playdate.3008.a:0 "Haltet durch! Ich komme!"
  playdate.3008.a.success:0 "Ihr rettet [participant.GetFirstNameNoTooltip]"
@@ -112,7 +120,7 @@
  playdate.3008.b.failure:0 "Niemand kommt zur Rettung"
  playdate.3008.c:0 "[participant.Custom('DE_PRO_PER_S_3P_N')] ist wohl schon nach Hause gegangen …"
 
- playdate.3009.t:0 "$playdate_header$ Ein Tag im Schnee"
+ playdate.3009.t:1 "Schneetag"
  playdate.3009.desc_two:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] und [to_blame.Custom2('MyCharacterIntroduction', ROOT.Char)] ahnen nichts, während ich mich von hinten mit Händen voller Schnee an sie anschleiche, und gerade als [participant.GetFirstNameNoTooltip] sich umdrehen will, schlage ich zu!"
  playdate.3009.desc_opening:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ahnt nichts, während ich mich von hinten mit Händen voller Schnee anschleiche, und gerade als [participant.Custom('DE_PRO_PER_S_3P_N')] sich umdrehen will, schlage ich zu!"
  playdate.3009.desc:0 "\n\n[participant.GetSheHe|U] kreischt, schlägt aber rasch zurück: Allzu bald muss ich mich zurückziehen und [participant.Custom('DE_PRO_PER_S_3P_N')] stürmt aus vollem Lauf und mit einem riesigen Schneeball in der Hand auf mich zu!"
@@ -124,8 +132,8 @@
  playdate.3009.c.success:0 "[participant.GetFirstNameNoTooltip] glaubt Euch"
  playdate.3009.c.failure:0 "[participant.Custom('DE_PRO_PER_S_3P_N')] merkt, dass Ihr lügt"
 
- playdate.3010.t:0 "$playdate_header$ Markttag"
- playdate.3010.desc:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] und ich sind der Meinung, dass das Handeltreiben eine wichtige Fertigkeit ist, die Adlige erlernen sollten. Daher haben wir beschlossen, den örtlichen Markt in [ROOT.Char.GetCurrentActivity.GetLocation.GetName] zu besuchen.\n\nWir haben zwar nur ein paar Kiesel zum Bezahlen, aber sie glänzen #EMP ganz#! toll!"
+ playdate.3010.t:1 "Markttag"
+ playdate.3010.desc:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] und ich sind der Meinung, dass das Handeltreiben eine wichtige Fertigkeit ist, die Adlige erlernen sollten. Daher haben wir beschlossen, den örtlichen Markt in [ROOT.Char.GetCurrentLocation.GetName] zu besuchen.\n\nWir haben zwar nur ein paar Kiesel zum Bezahlen, doch sie glänzen #EMP ganz#! toll!"
  playdate.3010.a:0 "Ähem, ich würde gern ein paar Waren erstehen."
  playdate.3010.a.success:0 "Ihr überzeugt den Händler von dem Handel"
  playdate.3010.a.failure:0 "Der Händler scheucht Euch davon"
@@ -133,14 +141,14 @@
  playdate.3010.c:0 "Bauen wir unseren eigenen Stand auf!"
  playdate.3010.c.tt:0 "Einige der Händler gehen auf Euch ein und „kaufen“ Euch Eure Kiesel mit Blättern ab"
 
- playdate.3011.t:0 "$playdate_header$ Vater, Mutter, Kind spielen"
+ playdate.3011.t:1 "Vater, Mutter, Kind"
  playdate.3011.desc:1 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] tritt mit einem Haufen Tuch in den Armen an mich heran. Als [participant.Custom('DE_PRO_PER_S_3P_N')] ihn vor mir auf den Boden fallen lässt, merke ich, dass es Gewandungen sind: für Erwachsene!\n\n„Lasst uns Vater, Mutter, Kind spielen!“"
  playdate.3011.a:0 "Nur wenn wir die Eltern sind!"
  playdate.3011.b:0 "Na sicher. Und [disliked_participant.GetFirstNameNoTooltip] ist der Hund!"
  playdate.3011.c:0 "Nein, das ist doch kindisch. Spielen wir lieber Schach."
  playdate.3011.c.tt:1 "Ihr treibt Eure Studien in Sachen [THIS.Char.Custom('education_focus_child')] voran"
 
- playdate.3012.t:0 "$playdate_header$ Tapfere $knight_culture_player_plural_no_tooltip$"
+ playdate.3012.t:1 "Tapfere $knight_culture_player_plural_no_tooltip$"
  playdate.3012.desc_knight:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] und ich sehen zu, wie die $knight_culture_player_plural_no_tooltip$ im Hof üben, als [knight.Custom2('MyCharacterIntroduction', ROOT.Char)] mit einem Lächeln an uns herantritt."
  playdate.3012.desc_no_knight:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] und ich sehen den Bauern beim Üben im Hof zu, als einer von ihnen mit einem Lächeln an uns herantritt."
  playdate.3012.desc:0 "\n\n„Was sagt Ihr, Ihr [participant.Custom('GirlsBoysChildren')]? Meint Ihr, Ihr könnt Euch die Grundlagen aneignen?“"
@@ -150,7 +158,7 @@
  playdate.3012.a.failure:0 "Ihr bekommt einen Schlag auf den Kopf – #EMP einen harten#!!"
  playdate.3012.b:0 "Ich würde lieber Euch beim Üben zusehen."
 
- playdate.3013.t:0 "$playdate_header$ Weisheit des Waldes"
+ playdate.3013.t:1 "Weis[witch.Custom('DE_END_ADJ_NUL_S_N')] [witch.GetWomanMan|U]"
  playdate.3013.desc:0 "Wir spielen gemeinsam im Wald, doch plötzlich bin ich ganz allein – ich hätte schwören können, dass die anderen gleich hinter mir sind!\n\nAls ich gerade rufen will – natürlich nur, damit man mich findet, und nicht etwa, weil ich #EMP Angst#! habe –, stolpere ich über jemanden: [witch.Custom2('MyCharacterIntroduction', ROOT.Char)] in einem schwarzen Umhang. [witch.Custom('DE_PRO_PER_S_3P_N')|U] hockt am Boden und untersucht eine seltsam aussehende Pflanze. [witch.Custom('DE_PRO_PER_S_3P_N')|U] gleicht sie mit der Abbildung in einem schwarzen Folianten ab, der aufgeschlagen neben [witch.Custom('DE_PRO_PER_S_3P_D')] auf dem Boden liegt.\n\n„Hallo, Euer Hochwohlgeboren. Hat Euch der Ruf des Wissens hier herausgeführt?“"
  playdate.3013.a:0 "Ich will nur wissen, was für eine Pflanze Ihr da in der Hand habt."
  playdate.3013.a.success:0 "Ihr lernt viel über Kräuter und Pflanzen"
@@ -158,7 +166,7 @@
  playdate.3013.b:0 "Ja, bringt mir alles bei, was Ihr wisst!"
  playdate.3013.c:0 "Ihr … Ihr seid doch eine Hexe! Ihr seid ein böser Mensch."
 
- playdate.3014.t:0 "$playdate_header$ Der [priest.GetCouncilTitle|U]"
+ playdate.3014.t:1 "Der [priest.GetCouncilTitle|U]"
  playdate.3014.desc_participant:0 "Wir erforschen das örtliche Gotteshaus, als [participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] und ich jemandem auf jemanden stoßen: Es ist [priest.Custom2('MyCharacterIntroduction', ROOT.Char)], umgeben von Schriftrollen.\n\n„Das sind Tagebücher aus lange vergangenen Zeiten. Habt Ihr Interesse an derlei Dingen?“"
  playdate.3014.desc:0 "Ich erforsche das örtliche Gotteshaus, als ich auf jemanden stoße: Es ist mein [priest.Custom2('MyCharacterIntroduction', ROOT.Char)], umgeben von Schriftrollen.\n\n„Das sind Tagebücher aus lange vergangenen Zeiten. Habt Ihr Interesse an derlei Dingen?“"
  playdate.3014.a:0 "Ja! Bringt mir mehr über sie bei."
@@ -169,7 +177,7 @@
  playdate.3014.a.failure:0 "Ihr lernt gar nichts"
  playdate.3014.b:0 "Nein, ich habe Interesse daran, dass Ihr uns Abenteuergeschichten erzählt!"
 
- playdate.4001.t:0 "$playdate_header$ Die Sprachbarriere"
+ playdate.4001.t:1 "Die Sprachbarriere"
  playdate.4001.desc.rowdy:0 "„Ich habe #EMP ‚Puppe‘#! gesagt. nicht #EMP ‚Pope‘#!. Vermaledeit!“ [participant.GetTitledFirstName] ist eindeutig verärgert über die Sprachbarriere zwischen uns. Bei all dem wilden Gestikulieren ist es nur eine Frage der Zeit, bis es einen Wutanfall gibt."
  playdate.4001.desc.pensive:0 "„Verzeiht … #EMP Hütte#!. Sie kehrt in ihre bescheidene Hütte zurück, nicht in ihre verscheidende Schütte.“ Trotz [participant.Custom('DE_PRO_POS_S_3P')]er guten Manieren zieht [participant.GetTitledFirstName] vor lauter Verdruss die Augenbrauen zusammen."
  playdate.4001.desc:0 "\n\nDie [ROOT.Char.GetCulture.GetLanguage.GetName|l]e und die [participant.GetCulture.GetLanguage.GetName|l]e Sprache scheinen mehr Unterschiede als Gemeinsamkeiten aufzuweisen, weswegen wir so damit zu kämpfen, uns zu verständigen.\n\nVielleicht kann ich ja etwas tun, damit wir ohne Streit miteinander spielen können? Oder soll ich einfach hoffen, dass sich das von allein klärt?"
@@ -177,11 +185,11 @@
  playdate.4001.b:0 "Vielleicht kann ich [participant.GetFirstNameNoTooltip] bitten, mir etwas [participant.GetCulture.GetLanguage.GetName|U] beizubringen?"
  playdate.4001.c:0 "Pah! Warum soll ich mir die Mühe machen? Ich will nur Spaß!"
 
- playdate.9001.t:0 "$playdate_header$ Der Spaß geht zu Ende"
+ playdate.9001.t:1 "Jedes Vergnügen ist einmal zu Ende"
  playdate.9001.desc:0 "Es tat gut, eine Weile lang alle Verantwortungen zu vergessen und Zeit mit anderen Kindern zu verbringen, doch mir wurde gesagt, dass ich jetzt zu meinen Pflichten zurückkehren muss …\n\nWir hatten alle so viel Spaß! Hoffentlich können wir das bald wieder einmal machen."
  playdate.9001.a:0 "Bis zum nächsten Mal!"
 
- playdate.9002.t:0 "$playdate_header$ Heimkehr"
+ playdate.9002.t:1 "Heimkehr"
  playdate.9002.desc:0 "Was für einen Spaß wir hatten! Ich werde mich noch lange Zeit an die Tage erinnern, die wir bei [host.GetTitledFirstName] verbracht haben.\n\nNun wurde mir gesagt, dass ich zusammenpacken und nach Hause zu meinen Pflichten zurückkehren muss, doch hoffentlich machen wir das bald einmal wieder."
  playdate.9002.a:0 "Lebt wohl, [host.GetFirstNameNoTooltip]!"
 

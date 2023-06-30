@@ -4,7 +4,7 @@
  childhood.0002.loud:0 "[crush.GetSheHe|U]通常非常要求被关注，但是我并不介意。每次我看到[crush.GetHerHim]时，我的一整天会变得更好！"
  childhood.0002.quiet:0 "大多时间，[crush.GetSheHe|U]都会有点害羞，然而我每次见到[crush.GetHerHim]时，[crush.GetSheHe]都会让我觉得很特别！"
  childhood.0002.fallback:0 "每次我见到[crush.GetHerHim]，我的一整天就会变得更好，我希望我们能一直一起玩耍。"
- childhood.0002.end:0 "\n\n每当我们目光相遇，我的心就开始怦怦乱跳……啊，不知道[crush.GetSheHe]是否会喜欢我找到的这支[ROOT.Char.Custom('get_region_flower_type')]？"
+ childhood.0002.end:1 "\n\n每当我们目光相遇，我的心就开始怦怦乱跳……啊，不知道[crush.GetSheHe]是否会喜欢我找到的这支[ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')]？"
  childhood.0002.a:1 "这支花是给你的，[crush.GetFirstNameNoTooltip]！"
  childhood.0002.b:0 "不行……我们应该只做朋友。"
  crush_returned:0 "[crush.GetFirstNameNoTooltip]也喜欢你！"
@@ -342,7 +342,7 @@
  childhood.2300.t:0 "家族语言"
  childhood.2300.desc:0 "我的[ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('parent'))]说话时偶尔会插入一些[parent.GetCulture.GetLanguage.GetName]词汇，而且我发现我越来越擅长理解这种语言。我确信只要我付出努力，我就能逐渐熟练到用一种全新的方式和[ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('parent'))]交谈！"
  childhood.2300.a:0 "我能像[parent.Custom('GetMamaPapa')]一样说话！"
- childhood.2300.b:0 "这真无聊！为什么要学[parent.GetCulture.GetLanguage.GetNameNoTooltip]！？"
+ childhood.2300.b:0 "这真无聊！为什么要学[parent.GetCulture.GetLanguage.GetNameNoTooltip]？！"
  childhood.2300.a.success_parent_desc:2 "[ward.GetFirstName]通过观察学会了[language|E]：[parent.GetCulture.GetLanguage.GetName]"
 
  childhood.2400.t:0 "理性的年岁"

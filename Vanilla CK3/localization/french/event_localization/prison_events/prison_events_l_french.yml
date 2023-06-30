@@ -13,7 +13,7 @@
 
  prison.1002.rack.desc:0 "Pourquoi faire compliqué quand on peut faire simple ? Rien ne vaut le bon vieux chevalet. Quand le geôlier traîne [recipient.Custom('FR_le_Char_Pi')][recipient.GetTitledFirstName] dans la pièce, ses yeux sont immédiatement attirés par le grand cadre en bois."
  prison.1002.whip.desc:0 "Oh, le doux baiser du fouet ! Il a l’air assez inoffensif, mais il peut séparer la chair des os aussi bien qu’un couteau. À en juger par le regard [recipient.Custom('FR_du_Char_Pi')][recipient.GetTitledFirstName], [recipient.Custom('FR_IlElle')] le sait aussi."
- prison.1002.rats.desc:0 "Les rats dans le seau peuvent sembler timides au début, mais ils rongeront avec bonheur la poitrine d’une personne lorsque de la chaleur y aura été ajoutée. Alors que j’explique le concept [recipient.Custom('FR_au_Char_Pi')][recipient.GetTitledFirstName], sa résolution disparaît sous mes yeux."
+ prison.1002.rats.desc:1 "Les rats dans le seau peuvent sembler timides au début, mais ils rongeront avec bonheur la poitrine d’un supplicié, lorsque de la chaleur y aura été ajoutée. Alors que j’explique le concept [recipient.Custom('FR_au_Char_Pi')][recipient.GetTitledFirstName], sa résolution disparaît sous mes yeux."
  prison.1002.poetry.desc:0 "Quand on peut manier les mots pour faire plaisir aussi bien que moi, les manier pour faire du mal est facile.\n\nJe retire le long volume de poésie de sous mon bras, le déploie, et laisse le rouleau tomber jusqu’au sol et rouler doucement au-delà du seuil de la porte."
  prison.1002.anothers_secret.desc:0 "\n\n« Non, non, Je... J’ai des informations ! [reveal_secret_owner.Custom('FR_le_Char_Pi')|U][reveal_secret_owner.GetTitledFirstName] [secret_to_reveal.Custom('SecretDescriptionThirdPerson')] ! Je vais tout vous dire ! »"
  prison.1002.my_secret.desc:0 "\n\n« Pitié, non ! #EMP Pitié !#! Je vais vous dire tout ce que vous voulez savoir ! Je... [secret_to_reveal.Custom('SecretDescriptionFirstPerson')|U] ! »"
@@ -99,7 +99,7 @@
  prison.9502.desc_stone:0 "Elle rebondit avec fracas sur le casque du garde, mais il se retourne d’un air surpris. Repérant la pierre, il la jette par la fenêtre et ricane."
  prison.9502.desc_spoon:0 "Il rebondit sur le casque du garde et il semble à peine le remarquer. En se retournant et en repérant la cuillère égarée, il la ramasse et la glisse dans sa propre ceinture."
  prison.9502.desc_cockroach:0 "Elle essaye de s’agripper, mais il a levé sa main et a impitoyablement jeté ma blatte bien-aimée au sol et la piétine avec un ricanement dégoûté."
- prison.9502.a:0 "Non !! Ma [ROOT.Char.Custom('prison_pet')] !"
+ prison.9502.a:0 "Non ! ! Ma [ROOT.Char.Custom('prison_pet')] !"
 
  prison.9503.t:0 "Trahison"
  prison.9503.desc:0 "M[prison_friend.Custom('FR_OnA')] codétenu[prison_friend.Custom('FR_E')] [prison_friend.Custom('FR_le_Char_Pi')][prison_friend.GetTitledFirstName] et moi avons passé de nombreuses nuits à préparer notre évasion. Tandis que je fais du bruit pour attirer l’attention, [prison_friend.GetSheHe] se tient prêt[prison_friend.Custom('FR_E')] à côté de la porte. Le garde l’ouvre et je souris. [prison_friend.GetFirstNameNoTooltip] va maintenant l’attaquer par derrière et... la porte se ferme derrière le garde. [prison_friend.Custom('FR_le_Char_Pi')|U][prison_friend.GetTitledFirstNameNoTooltip] disparaît dans la nuit, sans être inquiété[prison_friend.Custom('FR_E')], tandis que tous les gardiens convergent vers moi."

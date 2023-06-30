@@ -80,7 +80,7 @@
  succession_rights_default:0 "$succession_rights$ por defecto"
  succession_rights_default_short:0 "Por defecto"
  succession_rights_forced_partition:0 "Reparto forzado"
- succession_rights_forced_partition_desc:0 "#emphasis #bold Restricciones de [vassal|lE]:#!#!\nEl [vassal|lE] no puede tener ninguna [succession_law|lE] más que el reparto\nEl [vassal|lE] cambia su [succession_law|lE] a Reparto\nEl [vassal|lE] paga un #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')0] %#! de [prestige|lE] para cambiar las [laws|lE]\n\n#flavor Se obliga al [vassal|lE] a no tener otra forma de sucesión que el Reparto para sus [Concept( 'realm', 'señoríos' )|E]. Las trabas administrativas de esto también aumentan los costes de [law|lE] del [vassal|lE] en un #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')0] %.#!#!"
+ succession_rights_forced_partition_desc:0 "#emphasis #bold Restricciones de [vassal|lE]:#!#!\nEl [vassal|lE] no puede tener ninguna [succession_law|lE] más que el reparto\nEl [vassal|lE] cambia su [succession_law|lE] a Reparto\nEl [vassal|lE] paga un #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0] %#! de [prestige|lE] para cambiar las [laws|lE]\n\n#flavor Se obliga al [vassal|lE] a no tener otra forma de sucesión que el Reparto para su [realm|lE]. Las trabas administrativas de esto también aumentan los costes de [law|lE] del [vassal|lE] en un #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0] %.#!#!"
  succession_rights_forced_partition_short:0 "Reparto forzado"
  
  coinage_rights:0 "Derechos de acuñación"
@@ -94,7 +94,7 @@
  war_declaration_rights_default:0 "$war_declaration_rights$ por defecto"
  war_declaration_rights_default_short:0 "Por defecto"
  war_declaration_rights_allowed:0 "$war_declaration_rights$ aprobada"
- war_declaration_rights_allowed_desc:1 "#emphasis #bold Privilegios de [vassal|lE]#!#!\nEl [vassal|lE] puede declarar [Concept( 'war', 'guerras' )|lE] independientemente de la [crown_authority|lE] del [liege|lE]\nEl [vassal|lE] paga un #high [EmptyScope.ScriptValue('war_declaration_rights_allowed_cost_reduction_tooltip')|0] %#! menos por [casus_bellis|lE] dentro del [realm|lE]\n\n#flavor El [vassal|lE] no tiene que gastar un [hook|lE] si la [crown_authority|l] del [liegel|lE] le impide librar guerras. Este tratamiento especial también hace más fácil que el [vassal|lE] declare guerras dentro del [realm|lE], reduciendo su coste en #high [EmptyScope.ScriptValue('war_declaration_rights_allowed_cost_reduction_tooltip')|0] %#!.#!"
+ war_declaration_rights_allowed_desc:1 "#emphasis #bold Privilegios de [vassal|lE]#!#!\nEl [vassal|lE] puede declarar [Concept( 'war', 'guerras' )|lE] independientemente de la [crown_authority|lE] del [liege|lE]\nEl [vassal|lE] paga un #high [EmptyScope.ScriptValue('war_declaration_rights_allowed_cost_reduction_tooltip')|0] %#! menos por [casus_bellis|lE] dentro del [realm|lE]\n\n#flavor El [vassal|lE] no tiene que gastar un [hook|lE] si la [crown_authority|l] del [liege|lE] le impide librar guerras. Este tratamiento especial también facilita que el [vassal|lE] declare guerras dentro del [realm|lE], reduciendo su coste en #high [EmptyScope.ScriptValue('war_declaration_rights_allowed_cost_reduction_tooltip')|0] %#!.#!"
  war_declaration_rights_allowed_short:0 "Aprobados"
  
  council_rights:0 "Derechos de consejo"
@@ -167,12 +167,19 @@
  GOVERNMENT_HOLDING_INFO:0 "- Puede tener [holdings|lE] [HOLDING_TYPE.GetName|V]"
  GOVERNMENT_CLAN_NOT_ALLIED:0 "Sin [alliance|lE] como [vassal|lE] de clan"
  GOVERNMENT_CLAN_NOT_ALLIED_POWERFUL:0 "Sin [alliance|lE] como [vassal|lE] de clan poderoso"
- government_can_raid_rule:0 "Permite [Concept( 'raiding', 'asaltar' )|E] [counties|lE] extranjeros para conseguir botín"
+ government_can_raid_rule:1 "El [government|El] permite [Concept( 'raiding', 'asaltar' )|E] [counties|lE] extranjeros para conseguir [raid_loot|El]"
+ government_is_feudal:0 "El tipo de [government|El] es un [GetGovernment( 'feudal_government' ).GetName|l]"
+ government_is_republic:0 "El tipo de [government|El] es un [GetGovernment( 'republic_government' ).GetName|l]"
+ government_is_theocracy:0 "El tipo de [government|El] es un [GetGovernment( 'theocracy_government' ).GetName|l]"
+ government_is_clan:0 "El tipo de [government|El] es un [GetGovernment( 'clan_government' ).GetName|l]"
+ government_is_tribal:0 "El tipo de [government|El] es un [GetGovernment( 'tribal_government' ).GetName|l]"
+ government_is_mercenary:0 "El tipo de [government|El] es un [GetGovernment( 'mercenary_government' ).GetName|l]"
+ government_is_holy_order:0 "El tipo de [government|El] es un [GetGovernment( 'holy_order_government' ).GetName|l]"
 
  SUPPLY_MULT_DIFERENT_GOVERNMENT:0 "Tierras de tipo [GOVERNMENT_TYPE.GetAdjective]"
  
- CONTRACT_LIEGE_SIGNATURE:0 "El señor,\n[VassalContract.GetLiege.GetTitledFirstNameNoTooltip]\nde Casa [VassalContract.GetLiege.GetHouse.GetBaseNameNoTooltip]"
- CONTRACT_VASSAL_SIGNATURE:0 "El vasallo,\n[VassalContract.GetVassal.GetTitledFirstNameNoTooltip]\nde Casa [VassalContract.GetVassal.GetHouse.GetBaseNameNoTooltip]"
+ CONTRACT_LIEGE_SIGNATURE:0 "El señor,\n[VassalContract.GetLiege.GetTitledFirstNameNoTooltip|l]\nde Casa [VassalContract.GetLiege.GetHouse.GetBaseNameNoTooltip]"
+ CONTRACT_VASSAL_SIGNATURE:0 "El vasallo,\n[VassalContract.GetVassal.GetTitledFirstNameNoTooltip|l]\nde Casa [VassalContract.GetVassal.GetHouse.GetBaseNameNoTooltip]"
 
 
  jizya_special_rights:0 "Estatuto de yizia"

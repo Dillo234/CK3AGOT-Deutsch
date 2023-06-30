@@ -37,7 +37,7 @@
  RULER_DESIGNER_POINTS_LIMIT_VALUE:0 "[GetDefine('NRulerDesigner', 'IRONMAN_POINT_MAX')|V]"
  RULER_DESIGNER_POINTS_LIMIT_LABEL:0 "Erfolgeschwelle: $RULER_DESIGNER_POINTS_LIMIT_VALUE$"
  RULER_DESIGNER_AGE_LABEL:0 "Alter"
- RULER_DESIGNER_AGE:1 "#high [RulerDesignerWindow.GetAge]#! [Select_CString(GreaterThan_int32(RulerDesignerWindow.GetAge, '(int32)1'), 'Jahre', 'Jahr') )]"
+ RULER_DESIGNER_AGE:1 "#high [RulerDesignerWindow.GetAge]#! [Select_CString(GreaterThan_int32( RulerDesignerWindow.GetAge, '(int32)1'), 'Jahre', 'Jahr' )]"
  RULER_DESIGNER_BIRTH_YEAR:0 "Geboren: [RulerDesignerWindow.GetBirthYear] AD"
  RULER_DESIGNER_WEIGHT_LABEL:0 "Gewicht"
  RULER_DESIGNER_TRAITS_LABEL:1 "[traits|E]"
@@ -51,7 +51,7 @@
  RULER_DESIGNER_CULTURE_LIST_LABEL:0 "Kulturen"
  RULER_DESIGNER_LIST_ENTRY_EXPAND:0 "Ausweiten"
  RULER_DESIGNER_LIST_ENTRY_COLLAPSE:0 "Einklappen"
- RULER_DESIGNER_LIST_CULTURE_ENTRY_TOOLTIP:3 "#T [SelectLocalization(CollapsibleReligionListGroup.AreChildrenVisible, 'RULER_DESIGNER_LIST_ENTRY_COLLAPSE', 'RULER_DESIGNER_LIST_ENTRY_EXPAND')] [CulturePillar.GetAdjectiveNoTooltip]e Herkunft#!"
+ RULER_DESIGNER_LIST_CULTURE_ENTRY_TOOLTIP:3 "#T [SelectLocalization(CollapsibleCultureListGroup.AreChildrenVisible, 'RULER_DESIGNER_LIST_ENTRY_COLLAPSE', 'RULER_DESIGNER_LIST_ENTRY_EXPAND')] [CulturePillar.GetNameNoTooltip]e Herkunft#!"
  RULER_DESIGNER_LIST_FAITH_ENTRY_TOOLTIP:1 "#T [SelectLocalization(CollapsibleReligionListGroup.AreChildrenVisible, 'RULER_DESIGNER_LIST_ENTRY_COLLAPSE', 'RULER_DESIGNER_LIST_ENTRY_EXPAND')] [Religion.GetNameNoTooltip]e Religion#!"
  RULER_DESIGNER_LIST_CULTURE_ENTRY_SELECT_TOOLTIP:1 "#I Klicken, um [CultureTemplate.GetName]e [culture|E] auszuwählen#!"
  RULER_DESIGNER_LIST_FAITH_ENTRY_SELECT_TOOLTIP:1 "#I Klicken, um [Faith.GetNameNoTooltip] auszuwählen#!"
@@ -302,7 +302,7 @@
  beards:0 "Bärte"
  chin_def:0 "Ausgeprägtes Kinn"
  chin_def_neg:0 "Glattes Kinn"
- # TODO [CD]: Check this
+
  RULER_DESIGNER_SAVE_WINDOW_TITLE:0 "Herrscher speichern"
  RULER_DESIGNER_SAVE_WINDOW_SAVE:0 "[SelectLocalization(RulerDesignerSaveWindow.IsOverwrite, 'SAVE_WINDOW_OVERWRITE', 'SAVE')]"
  RULER_DESIGNER_SAVE_OVERWRITE_RULER:0 "Herrscher überschreiben"

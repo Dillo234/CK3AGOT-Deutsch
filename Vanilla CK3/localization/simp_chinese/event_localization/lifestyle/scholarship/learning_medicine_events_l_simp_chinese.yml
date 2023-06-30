@@ -35,7 +35,7 @@
 
 # Improve the skills of your court physician, by Mathilda Bjarnehed
  learning_medicine.2010.t:0 "糟糕的翻译"
- learning_medicine.2010.start.desc:0 "我踏进我[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('court_physician'))][court_physician.GetFirstNamePossessive]的办公室､ 发现[court_physician.GetHerHim]正埋首于一本书中｡ \n\n“这份"
+ learning_medicine.2010.start.desc:0 "我踏进我[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('court_physician'))][court_physician.GetFirstNamePossessive]的办公室，发现[court_physician.GetHerHim]正埋首于一本书中。\n\n“这份"
  learning_medicine.2010.galen.desc:0 "盖伦"
  learning_medicine.2010.hippocrates.desc:0 "希波克拉底"
  learning_medicine.2010.herophilus.desc:0 "希罗菲卢斯"
@@ -44,7 +44,7 @@
  learning_medicine.2010.avicenna.desc:0 "阿维森纳"
  learning_medicine.2010.trota.desc:0 "萨莱诺的特罗塔"
  learning_medicine.2010.fallback.desc:0 "解剖报告"
- learning_medicine.2010.end.desc:0 "的译本实在糟糕透顶，”[court_physician.GetSheHe]叹息道｡ “如果我要遵循这些指引，我治好和直接杀死病人的概率怕不是得五五开。”"
+ learning_medicine.2010.end.desc:0 "的译本实在糟糕透顶，”[court_physician.GetSheHe]叹息道。“如果我要遵循这些指引，我治好和直接杀死病人的概率怕不是得五五开。”"
 
  learning_medicine.2010.a:0 "让我看看……"
  learning_medicine.2010.a.success.desc:0 "我帮助[court_physician.GetFirstNameNoTooltip]翻译了文稿"
@@ -165,9 +165,9 @@
  #A vassal (or your liege) wants to eat some hashish while visiting your capital, by Ewan Cowhig Croft.
  learning_medicine.2110.t:0 "糕点密语"
  learning_medicine.2110.desc:0 "我的随从与我在短暂出访后漫步回[capital.GetNameNoTooltip]，我们意外碰上了[hashish_vassal_or_liege.Custom2('MyCharacterIntroduction', ROOT.Char)]与[hashish_vassal_or_liege.GetHerHis]的近卫，他们在我的首府附近偷偷摸摸，谋划见不得人的勾当。\n\n"
- learning_medicine.2110.desc_good_terms:0 "“啊，[ROOT.Char.GetFirstNameNoTooltip]！我正要找你呢。说来，离这儿不远的地方，我找到了个最棒的小餐馆。你愿不愿跟我一起整上几杯[ROOT.Char.Custom('GetExpensiveDrink')]，再来点大麻陷的蛋糕？”"
+ learning_medicine.2110.desc_good_terms:0 "“啊，[ROOT.Char.GetFirstNameNoTooltip]！我正要找你呢。说来，离这儿不远的地方，我找到了个最棒的小餐馆。你愿不愿跟我一起整上几杯[ROOT.Char.Custom('GetExpensiveDrink')]，再来点大麻馅儿的蛋糕？”"
  learning_medicine.2110.desc_bad_terms:0 "气氛紧张，一触即发，双方可敬的卫兵气势汹汹，准备开打。“大人，”我身后的一名年轻士兵嘁嘁道，“或许我们应该冷静下来，去那个小餐馆享用些大麻蛋糕？”\n\n双方静了下来，[hashish_vassal_or_liege.GetFirstNameNoTooltip]等着我的回答。"
- learning_medicine.2110.desc_neutral_terms:0 "[hashish_vassal_or_liege.GetFirstNamePossessiveNoTooltip]意外被抓了现行，在难受的片刻之后，眼睛盯着我的身后。\n\n“啊，我的[hashish_vassal_or_liege.Custom2('RelationToMe', ROOT.Char)]，或许你愿意跟我一块儿，忘记这份尴尬，去整几杯[ROOT.Char.Custom('GetExpensiveDrink')]，再来点大麻陷的蛋糕？”"
+ learning_medicine.2110.desc_neutral_terms:0 "[hashish_vassal_or_liege.GetFirstNamePossessiveNoTooltip]意外被抓了现行，在难受的片刻之后，眼睛盯着我的身后。\n\n“啊，我的[hashish_vassal_or_liege.Custom2('RelationToMe', ROOT.Char)]，或许你愿意跟我一块儿，忘记这份尴尬，去整几杯[ROOT.Char.Custom('GetExpensiveDrink')]，再来点大麻馅儿的蛋糕？”"
  learning_medicine.2110.a.good_terms:0 "抱歉，但是我得走了。"
  learning_medicine.2110.a.bad_terms:0 "和这个狗杂种一起？决不！"
  learning_medicine.2110.a.neutral_terms:0 "恐怕我还要去其他地方。"
@@ -193,7 +193,7 @@
  learning_medicine_special.1001.a:0 "我会研究疾病对尸体的破坏。"
  learning_medicine_special.1001.b:0 "死者遗体应当得到我们的尊重！"
 
- learning_medicine_special.1002.desc:0 "从尸体的肚子里涌出的内脏纠缠成一团乱，粘滑又肿胀，我努力屏住呼吸在其中筛查，但这完全没用。腐烂的恶臭缓慢进入我的肺，让我想吐。\n\n接着，有什么东西裂开了，一股粘稠、微黄的浓水流得整个手术台都是。\n\n“#EMP 那#!是什么？”"
+ learning_medicine_special.1002.desc:0 "从尸体的肚子里涌出的内脏纠缠成一团乱，粘滑又肿胀，我努力屏住呼吸在其中筛查，但这完全没用。腐烂的恶臭缓慢进入我的肺，让我想吐。\n\n接着，有什么东西裂开了，一股粘稠、微黄的体液洒得整个手术台都是。\n\n“#EMP 那#!是什么？”"
  learning_medicine_special.1002.a:0 "也许[scoped_physician.GetTitledFirstNameNoTooltip]能帮助我？"
  learning_medicine_special.1002.a.good:0 "[scoped_physician.GetTitledFirstName]协助我做了研究"
  learning_medicine_special.1002.a.bad:0 "[scoped_physician.GetTitledFirstName]被我的实验吓坏了"

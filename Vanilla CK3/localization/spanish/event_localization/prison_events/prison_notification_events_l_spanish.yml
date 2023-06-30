@@ -4,7 +4,7 @@
  prison_notification.0001.a:0 "Espero que no dure mucho."
 
  prison_notification.0002.t:0 "¡A la cárcel!"
- prison_notification.0002.desc:0 "[imprisoner.GetTitledFirstName] tiene retenid[prisoner.Custom('ES_OA')] en contra de su voluntad a [prisoner.GetTitledFirstName], mi [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))]."
+ prison_notification.0002.desc:0 "[imprisoner.GetTitledFirstName] tiene retenid[prisoner.Custom('ES_OA')] en contra de su voluntad a [prisoner.GetTitledFirstName|l], mi [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))]."
  prison_notification.0002.a:0 "¿Qué se puede hacer por [prisoner.Custom('ES_ElElla')]?"
 
  prison_notification.0003.message:0 "¡[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|U] encarcelad[prisoner.Custom('ES_OA')]!"
@@ -24,7 +24,7 @@
  prison_notification.2001.a:0 "Creí que no volvería a ver mis tierras."
 
  prison_notification.2002.t:0 "Libre de nuevo"
- prison_notification.2002.desc:0 "¡Mi [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))], [prisoner.GetTitledFirstName], ha sido liberad[prisoner.Custom('ES_OA')] de su encarcelamiento a manos de [imprisoner.GetTitledFirstName] y vuelve a ser libre!"
+ prison_notification.2002.desc:0 "¡Mi [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))], [prisoner.GetTitledFirstName|l], ha sido liberad[prisoner.Custom('ES_OA')] de su encarcelamiento a manos de [imprisoner.GetTitledFirstName|l] y vuelve a ser libre!"
  prison_notification.2002.a:0 "El encarcelamiento es una crueldad."
 
  prison_notification.2003.message:0 "¡[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|U] liberad[prisoner.Custom('ES_OA')]!"

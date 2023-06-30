@@ -52,6 +52,7 @@
  NOT_CHARACTER_FAITH_EQUAL_FIRST:1 "你#bold 不#!信奉[FAITH.GetAdjective]"
  CHARACTER_FAITH_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U]信奉[FAITH.GetAdjective]"
  NOT_CHARACTER_FAITH_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U]#bold 不#!信奉[FAITH.GetAdjective]"
+ CHARACTER_FAITH_NONE:0 "是相同[faith|e]的信徒"
  CHARACTER_RELIGION_EQUAL_FIRST:1 "你信奉[RELIGION.GetAdjective]"
  NOT_CHARACTER_RELIGION_EQUAL_FIRST:1 "你#bold 不#!信奉[RELIGION.GetAdjective]"
  CHARACTER_RELIGION_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U]信奉[RELIGION.GetAdjective]"
@@ -69,6 +70,7 @@
  NOT_CHARACTER_DYNASTY_EQUAL_FIRST:1 "你#bold 不是#![DYNASTY.GetName][dynasty|E]的一分子"
  CHARACTER_DYNASTY_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U]是[DYNASTY.GetName][dynasty|E]的一分子"
  NOT_CHARACTER_DYNASTY_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U]#bold 不是#![DYNASTY.GetName][dynasty|E]的一分子"
+ CHARACTER_HOUSE_EQUAL_NONE:0 "是同[house|E]成员"
 
  # Title Attribute Triggers
  LANDED_TITLE_FAITH_EQUAL_THIRD:0 "[TITLE.GetName]信奉[FAITH.GetAdjective]"
@@ -97,9 +99,18 @@
  NOT_PROVINCE_CULTURE_EQUAL_THIRD:1 "[PROVINCE.GetName]#bold 不是#![TARGET_CULTURE.GetName]文化地区"
  PROVINCE_CULTURE_EQUAL_GLOBAL:1 "是[TARGET_CULTURE.GetName]文化地区"
  NOT_PROVINCE_CULTURE_EQUAL_GLOBAL:1 "#bold 不#!是[TARGET_CULTURE.GetName]文化地区"
+ PROVINCE_CAPITAL_EQUAL_GLOBAL:0 "是[CHARACTER.GetShortUINamePossessive]的[realm_capital]"
+ NOT_PROVINCE_CAPITAL_EQUAL_GLOBAL:0 "#bold 不是#![CHARACTER.GetShortUINamePossessive]的[realm_capital]"
+ PROVINCE_CAPITAL_EQUAL_THIRD:0 "[CHARACTER.GetShortUINamePossessive]的[realm_capital]是[PROVINCE.GetBaronyNameExplicitly]"
+ NOT_PROVINCE_CAPITAL_EQUAL_THIRD:0 "[CHARACTER.GetShortUINamePossessive]的[realm_capital]#bold 不是#![PROVINCE.GetBaronyNameExplicitly]"
+ PROVINCE_CAPITAL_EQUAL_FIRST:0 "你的[realm_capital]是[PROVINCE.GetBaronyNameExplicitly]"
+ NOT_PROVINCE_CAPITAL_EQUAL_FIRST:0 "你的[realm_capital]#bold 不是#![PROVINCE.GetBaronyNameExplicitly]"
 
  # Faith Triggers
  FAITH_RELIGION_EQUAL_THIRD:0 "[FAITH.GetName]属于[RELIGION.GetAdjective][faith|E]"
  NOT_FAITH_RELIGION_EQUAL_THIRD:0 "[FAITH.GetName]#bold 不属于#![RELIGION.GetAdjective][faith|E]"
  FAITH_RELIGION_EQUAL_GLOBAL:0 "属于[RELIGION.GetAdjective][faith|E]"
  NOT_FAITH_RELIGION_EQUAL_GLOBAL:0 "#bold 不属于#![RELIGION.GetAdjective][faith|E]"
+
+ ACCOLADE_TYPE_EQUAL_GLOBAL:0 "该[accolade_type|e]无效"
+ ACCOLADE_TYPE_EQUAL_NONE:0 "该[accolade_type|e]无效"

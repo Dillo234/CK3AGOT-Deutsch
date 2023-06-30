@@ -8,8 +8,8 @@
  judaism_high_god_name_2:0 "$judaism_high_god_name$" # Optional translation alt
  judaism_high_god_name_3:0 "$judaism_high_god_name$" # Optional translation alt
  judaism_high_god_name_possessive:0 "하나님의"
- judaism_high_god_alternate:0 "신성한 자"
- judaism_high_god_alternate_possessive:0 "신성한 자의"
+ judaism_high_god_alternate:1 "아도나이"
+ judaism_high_god_alternate_possessive:1 "아도나이의"
  judaism_good_god_hashem:0 "하셈"
  judaism_good_god_el_shaddai:0 "아도나이"
  judaism_devil_name:0 "바알"
@@ -63,8 +63,8 @@
  judaism_knowledge_god_name_possessive:0 "$judaism_high_god_name_possessive$"
  judaism_war_god_name:0 "$judaism_high_god_name$"
  judaism_war_god_name_possessive:0 "$judaism_high_god_name_possessive$"
- judaism_trickster_god_name:0 "$christianity_trickster_god_name$"
- judaism_trickster_god_name_possessive:0 "$christianity_trickster_god_name_possessive$"
+ judaism_trickster_god_name:1 "아인 하라" # The Evil Eye, not a god per-se but a personification of bad fortune
+ judaism_trickster_god_name_possessive:1 "아인 하라의"
  judaism_night_god_name:0 "$judaism_high_god_name$"
  judaism_night_god_name_possessive:0 "$judaism_high_god_name_possessive$"
  judaism_water_god_name:0 "$judaism_high_god_name$"
@@ -75,7 +75,7 @@
  rabbinism_adj:0 "랍비파"
  rabbinism_adherent:0 "랍비파 신도"
  rabbinism_adherent_plural:0 "랍비파 신도"
- rabbinism_desc:0 "랍비파는 랍비의 역할, 특히 종교 율법인 할라카 해석가의 역할을 강조합니다. 법과 전통은 신과의 약속을 지키게 하며, 랍비는 그 법들을 지켜야만 합니다."
+ rabbinism_desc:1 "랍비파는 랍비의 역할, 특히 종교 율법인 할라카 해석가의 역할을 강조합니다. 법과 전통은 신과의 약속을 지키게 하며, 랍비는 그 법들을 지켜야만 합니다."
 
  #Karaite
  karaism:0 "카라이트파"
@@ -120,4 +120,30 @@
  kabarism_adj:1 "카바르파"
  kabarism_adherent:1 "카바르 신도"
  kabarism_adherent_plural:1 "카바르 신도"
- kabarism_desc:1 "카바르파는 카자르 전통 및 지역 설화와 궤를 같이하면서도 할라카를 일반적이고 정확하게 해석해야 한다고 강조합니다."
+ kabarism_desc:2 "개종자로 구성된 공동체 카바르파는 랍비파의 할라카 해석을 따릅니다. 이들은 개종한 지 오랜 시간이 지났음에도 몇몇 토착 신앙과 전통을 경건하게 이어 나가고 있습니다."
+ 
+ #Merkabah
+ merkabah:0 "메르카바"
+ merkabah_adj:0 "메르카바"
+ merkabah_adherent:0 "메르카바 신도"
+ merkabah_adherent_plural:0 "메르카바 신도"
+ merkabah_desc:0 "메르카바 신비주의는 유대교 신비주의 종파의 한 갈래로 영지주의식 가르침에 어느 정도 영향을 받았습니다. 이 신앙은 환영을 중시하며, 금욕적인 생활 방식을 통해 하느님의 보좌에 합류하는 걸 추구합니다."
+
+ doctrine_temple_authority_name:0 "할라카 종교법"
+ doctrine_temple_authority_desc:0 "할라카는 유대인이 반드시 지켜야 할 율법과 규칙을 아우릅니다. 장장 수백 년에 걸친 디아스포라 이후, 유대인 집단은 수많은 분파로 나뉘었고 할라카를 해석하는 관점 또한 저마다 다릅니다."
+ temple_authority_rabbinic_doctrine_name:0 "랍비파"
+ temple_authority_rabbinic_doctrine_desc:0 "랍비파 유대인은 오직 랍비만이 할라카를 해석할 능력이 있다고 믿습니다. 그렇기에 랍비를 통해 전해지는 성문 토라와 구전 토라를 따릅니다. 모든 랍비파 신앙은 바빌로니아 탈무드에 성문화되어 있으며, 할라카를 해석하거나 배포하는 주요 출처로 활용합니다."
+ temple_authority_toric_doctrine_name:0 "토라파"
+ temple_authority_toric_doctrine_desc:0 "토라파 유대교는 탈무드와 구전 토라를 거부하고 오직 성문 토라의 권위만을 인정합니다. 랍비가 할라카를 바꾸거나 응용하는 것은 허용되지 않습니다. 즉, 랍비의 의무는 단 하나입니다. 바로 토라를 문자 그대로 해석하는 것이죠."
+ temple_authority_kohanim_doctrine_name:0 "코헨파"
+ temple_authority_kohanim_doctrine_desc:0 "코헨파 유대교는 할라카를 포함한 모든 종교적 사안에서 코헨이 우월한 권위를 가진다고 주장합니다. 코헨은 모세의 형제인 아론의 부계 혈통만이 될 수 있습니다."
+ temple_authority_samaritan_torah_doctrine_name:0 "사마리아파"
+ temple_authority_samaritan_torah_doctrine_desc:0 "사마리아파는 토라의 권위를 전면 부정하고 사마리아파 토라의 권위를 인정합니다. 다만 토라를 부정하다 보니 다른 종파들은 보통 사마리아파를 이단자로 간주합니다."
+ doctrine_parameter_hostility_override_temple_authority_samaritan_torah_doctrine:0 "[GetFaithDoctrine('temple_authority_samaritan_torah_doctrine').GetBaseName] [faiths|E]을 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V](으)로 간주함"
+ doctrine_parameter_hostility_override_temple_authority_rabbinic_doctrine:0 "[GetFaithDoctrine('temple_authority_rabbinic_doctrine').GetBaseName] [faiths|E]을 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V](으)로 간주함"
+ doctrine_parameter_hostility_override_temple_authority_toric_doctrine:0 "[GetFaithDoctrine('temple_authority_toric_doctrine').GetBaseName] [faiths|E]을 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V](으)로 간주함"
+ doctrine_parameter_hostility_override_temple_authority_kohanim_doctrine:0 "[GetFaithDoctrine('temple_authority_kohanim_doctrine').GetBaseName] [faiths|E]을 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V](으)로 간주함"
+ doctrine_parameter_enables_temporal_head_parameter:0 "속세 교주 종교 [doctrine|E] 선택 가능"
+
+ tenet_communal_identity_chosen_people_name:0 "선민사상"
+ tenet_communal_identity_chosen_people_desc:0 "우린 성약을 통해 [ROOT.Faith.HighGodName]께 선택받았다. 하나의 목적 아래 민족의 단결을 이루는 데는 큰 도움이 되지만, 개종자에게는 장벽으로 작용할 우려가 있다."

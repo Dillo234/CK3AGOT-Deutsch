@@ -84,7 +84,7 @@
  negotiate_the_danelaw_each_way_effect.accepted:0 "Если предложение принято"
  negotiate_the_danelaw_each-way_effect.rejected:0 "Если предложение отвергнуто"
  negotiate_the_danelaw_accept_effect.partition_active.tt:0 "$k_england$ и $k_danelaw_article$$k_danelaw$ будут [Concept( 'de_jure', 'де-юре' )|E] разделены"
- negotiate_the_danelaw_accept_effect.de_jure_holdings_recognised.tt:0 "$k_danelaw_article$$k_danelaw$ [Concept( 'de_jure', 'де-юре' )|E] получает все $k_england_adj$ие [Concept( 'duchies', 'герцогства' )|E], где [ntd_nord.GetTitledFirstName] владеет хотя бы одним [concept( 'county', 'графством' )]"
+ negotiate_the_danelaw_accept_effect.de_jure_holdings_recognised.tt:0 "$k_danelaw_article$$k_danelaw$ [Concept( 'de_jure', 'де-юре' )|E] получает все $k_england_adj$ие [Concept( 'duchies', 'герцогства' )|E], где [ntd_nord.GetTitledFirstName] владеет хотя бы одним [Concept( 'county', 'графством' )|E]"
  negotiate_the_danelaw_accept_effect.independent_holdings_recognised.tt:0 "$k_danelaw_article$$k_danelaw$ [Concept( 'de_jure', 'де-юре' )|E] получает все независимые $k_england_adj$ие [Concept( 'duchies', 'герцогства' )|E], где правитель принадлежит $north_germanic_group_collective_noun$ой [Concept( 'culture', 'культуре' )|E] или исповедует религию $germanic_religion$"
  negotiate_the_danelaw_accept_effect.riled_independents_list:0 "Все независимые правители в державе $k_england$"
  TRUCE_SIGNED_PARTITION:1 "\nПри разделении королевства заключено перемирие"
@@ -118,7 +118,7 @@
  british_isles.1053.a.tt:0 "$british_isles.1051.a.tt$"
 
  british_isles.1061.t:0 "Земельное право"
- british_isles.1061.desc:0 "С тех пор как скандинавы обосновались на этом богатом побережье, прошли годы — полные крови, насилия и напряжённых конфликтов. Но в те же годы начался культурный обмен, развитие и, наконец, объединение.\n\nВ жилах потомков тех переселенцев северная кровь давно уже смешалась с местной, да и $anglo_saxon_collective_noun$ заметно изменились со времён появления скандинавов.\n\nПожалуй, трудно сказать, кто мы теперь.\n\nЯсно одно: мы — это история всех наших предков, их взлёты и падения, и отныне эту историю творит $k_daneland_adj$ий народ."
+ british_isles.1061.desc:0 "С тех пор как скандинавы обосновались на этом богатом побережье, прошли годы — полные крови, насилия и напряженных конфликтов. Но в те же годы начался культурный обмен, развитие и, наконец, объединение.\n\nВ жилах потомков тех переселенцев северная кровь давно уже смешалась с местной, да и $anglo_saxon$ заметно изменились со времен появления скандинавов.\n\nПожалуй, трудно сказать, кто мы теперь.\n\nЯсно одно: мы — это история всех наших предков, их взлеты и падения, и отныне эту историю творит $k_daneland_adj$ий народ."
  british_isles.1061.a:0 "Мы будем творить её вместе."
 
  british_isles.1062.t:0 "$british_isles.1061.t$"

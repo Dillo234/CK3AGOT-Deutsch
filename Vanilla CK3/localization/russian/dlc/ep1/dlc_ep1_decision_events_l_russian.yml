@@ -28,6 +28,7 @@
 
  ep1_decision.0201.t:0 "Лингвисты при дворе"
  ep1_decision.0201.desc:1 "Наконец-то поиски лингвиста, знающего [target_court_language.GetCourtLanguage.GetName|l], принесли плоды. Передо мной стоит несколько кандидатов, каждый со своими познаниями в иностранных языках."
+ ep1_decision.0201.tt.aptitude:0 "[aptitude|E] [Select_CString(selected_linguist.IsLocalPlayer, '', 'персонажа ' )][selected_linguist.GetNamePossessiveOrMy][Select_CString(selected_linguist.IsLocalPlayer, 'его персонажа', '' )] составляет [selected_linguist.GetCourtPositionAptitude( GetCourtPositionType( 'court_tutor_court_position' ) )]"
  ep1_decision.0201.a:2 "[good_linguist.GetNameNoTooltip] славится тем, что знает [target_court_language.GetCourtLanguage.GetNameNoTooltip|l]!"
  ep1_decision.0201.b:0 "[medium_linguist.GetNameNoTooltip] подходит для этой работы."
  ep1_decision.0201.c:1 "[scholarly_linguist.GetNameNoTooltip] как говорят, знает [target_court_language.GetCourtLanguage.GetNameNoTooltip|l]!"

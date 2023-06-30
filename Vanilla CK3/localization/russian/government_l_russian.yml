@@ -80,7 +80,7 @@
  succession_rights_default:0 "$succession_rights$ по умолчанию"
  succession_rights_default_short:0 "По умолчанию"
  succession_rights_forced_partition:0 "Только раздел"
- succession_rights_forced_partition_desc:0 "#emphasis #bold Ограничения [Concept( 'vassal', 'вассала' )|El]:#!#!\n[vassal|E] имеет только одно право на наследование — «Разделение»\n[vassal|E] меняет [succession_law|El] на «Разделение»\n[vassal|E] платит на #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%#! больше [Concept( 'prestige', 'престижа' )|El] за смену [Concept( 'laws', 'законов' )|El]\n\n#flavor Вассалу запрещается применять в своей [Concept( 'realm', 'державе' )|El] любые формы наследования, кроме разделения. В качестве административной меры стоимость законов для вассалов повышается на #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%.#!#!"
+ succession_rights_forced_partition_desc:0 "#emphasis #bold Ограничения [Concept( 'vassal', 'вассала' )|E]:#!#!\n[vassal|E] имеет только одно право на наследование — «Разделение»\n[vassal|E] меняет [succession_law|E] на «Разделение»\n[vassal|E] платит на #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%#! больше [Concept( 'prestige', 'престижа' )|E] за смену [Concept( 'laws', 'законов' )|E]\n\n#flavor Вассалу запрещается применять в своей [Concept( 'realm', 'державе' )|E] любые формы наследования, кроме разделения. В качестве административной меры стоимость законов для вассалов повышается на #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%.#!#!"
  succession_rights_forced_partition_short:0 "Только раздел"
  
  coinage_rights:0 "Право чеканки монет"
@@ -167,7 +167,14 @@
  GOVERNMENT_HOLDING_INFO:0 "— Можно включать [holding|El]: [HOLDING_TYPE.GetName|V]"
  GOVERNMENT_CLAN_NOT_ALLIED:0 "Не заключен [alliance|El] с клановым #E [vassal|l]ом#!"
  GOVERNMENT_CLAN_NOT_ALLIED_POWERFUL:0 "Нет [Concept( 'alliance', 'союза' )|E] с могущественным клановым [Concept( 'vassal', 'вассалом' )|E]"
- government_can_raid_rule:0 "Разрешено [Concept( 'raiding', 'совершать налеты' )|E] на чужеземные [counties|El] ради грабежа"
+ government_can_raid_rule:1 "[Concept( 'government', 'Форма правления' )|E] разрешает [Concept( 'raiding', 'совершать налеты' )|E] на чужеземные [counties|El] ради [Concept( 'raid_loot', 'добычи' )|E]"
+ government_is_feudal:0 "Форма [Concept( 'government', 'правления' )|E] — [GetGovernment( 'feudal_government' ).GetName|l]"
+ government_is_republic:0 "Форма [Concept( 'government', 'правления' )|E] — [GetGovernment( 'republic_government' ).GetName|l]"
+ government_is_theocracy:0 "Форма [Concept( 'government', 'правления' )|E] — [GetGovernment( 'theocracy_government' ).GetName|l]"
+ government_is_clan:0 "Форма [Concept( 'government', 'правления' )|E] — [GetGovernment( 'clan_government' ).GetName|l]"
+ government_is_tribal:0 "Форма [Concept( 'government', 'правления' )|E] — [GetGovernment( 'tribal_government' ).GetName|l]"
+ government_is_mercenary:0 "Форма [Concept( 'government', 'правления' )|E] — [GetGovernment( 'mercenary_government' ).GetName|l]"
+ government_is_holy_order:0 "Форма [Concept( 'government', 'правления' )|E] — [GetGovernment( 'holy_order_government' ).GetName|l]"
 
  SUPPLY_MULT_DIFERENT_GOVERNMENT:0 "[GOVERNMENT_TYPE.GetAdjective]ие земли"
  

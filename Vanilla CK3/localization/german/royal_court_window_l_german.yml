@@ -29,7 +29,7 @@
  INVALID_COURT_LANGUAGE:0 "@warning_icon!#X Unzulässige [court_language|E]#!"
  CANNOT_SET_SAME_COURT_LANGUAGE:1 "@warning_icon!#X [CULTURE_PILLAR.GetNameNoTooltip] ist bereits [court_language|E] von [CHARACTER.GetShortUINameNoTooltip]#!"
  COURT_LANGUAGE_COOLDOWN:0 "@warning_icon!#X Kann bis [DATE.GetStringLong] keine neue [court_language|E] annehmen#!"
- OUT_OF_RANGE_COURT_LANGUAGE:0 "@warning_icon!#X [CULTURE_PILLAR.GetNameNoTooltip] muss Mutter-[language|E] von [Character.GetShortUINameNoTooltip] oder [court_language|E] eines [Concept('ruler', 'Herrschers')|E] in [Concept('diplomatic_range', 'Diplomatischer Reichweite')|E] sein#!"
+ OUT_OF_RANGE_COURT_LANGUAGE:0 "@warning_icon!#X [CULTURE_PILLAR.GetNameNoTooltip] muss Mutter-[language|E] von [CHARACTER.GetShortUINameNoTooltip] oder [court_language|E] eines [Concept('ruler', 'Herrschers')|E] in [Concept('diplomatic_range', 'diplomatischer Reichweite')|E] sein#!"
  ADOPT_COURT_LANGUAGE:0 "Als neue Hofsprache annehmen"
  ADOPT_COURT_LANGUAGE_INFO:0 "Kosten: #high [Character.GetAdoptCourtLanguageCost]#!\nNach Annahme einer neuen [court_language] könnt Ihr für [GetTimeDifferenceWithDays(GetDefine('NRoyalCourt','COURT_LANGUAGE_ADOPTION_COOLDOWN'))] keine andere annehmen"
  LANGUAGE_ADOPTED_ON:0 "Angenommen am [Character.GetCourtLanguageAdoptionDate.GetStringLong]"

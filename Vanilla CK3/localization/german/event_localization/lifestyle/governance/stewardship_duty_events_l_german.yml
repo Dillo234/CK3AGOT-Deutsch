@@ -78,7 +78,7 @@
  stewardship_duty.1072.desc.rival:0 "Ich weiß, dass Ihr mir meine Leibeigenen gestohlen habt. Mir mag zwar die Möglichkeit fehlen, sie mir zurückzuholen, aber denkt nicht, dass ich diesen Affront vergessen werde. Ihr habt Euch meine Feindschaft zugezogen. Hoffentlich war es das wert."
  stewardship_duty.1072.desc.relationship:0 "Warum bitte stehlt Ihr mir meine Leibeigenen?! Ich bin schockiert und zutiefst verletzt ob dieses Verrats … Ich weiß nicht, ob ich Euch in Zukunft noch mit denselben Augen sehen kann."
  stewardship_duty.1072.desc.vassal:0 "Ich weiß, dass Ihr meine Leibeigenen in Eure Lande umgesiedelt habt. Warum tut Ihr das Eurem eigenen Vasallen an? Habe ich Euch denn nicht immer pflichtbewusst die geschuldeten Steuern bezahlt?\n\nWenn ich niemanden habe, der meine Felder bestellt, kann ich nichts anbauen. Ihr hättet mir ebenso gut das Land stehlen können! Diesen Affront werde ich so schnell nicht vergessen."
- stewardship_duty.1072.desc.subvassal:0 "Ich weiß, dass Ihr meine Leibeigenen in Eure Lande umgesiedelt habt. Eine derartige Tat untergräbt die Grundfesten unserer Gesellschaft!\n\nObwohl ich in dieser Sache fürs Erste nichts unternehmen kann, könnt Ihr Euch sicher sein, dass [origin_county_owner_liege.GetTitledFirstName] erfahren wird, warum ich dieses Jahr an [origin_county_onwer_liege.Custom('DE_PRO_PER_S_3P_A')] weniger Steuern abführen kann."
+ stewardship_duty.1072.desc.subvassal:0 "Ich weiß, dass Ihr meine Leibeigenen in Eure Lande umgesiedelt habt. Eine derartige Tat untergräbt die Grundfesten unserer Gesellschaft!\n\nObwohl ich in dieser Sache fürs Erste nichts unternehmen kann, könnt Ihr Euch sicher sein, dass [origin_county_owner_liege.GetTitledFirstName] erfahren wird, warum ich dieses Jahr an [origin_county_owner_liege.Custom('DE_PRO_PER_S_3P_A')] weniger Steuern abführen kann."
  stewardship_duty.1072.a:0 "Das waren Eure Leibeigenen? Verzeiht, ich werde sie Euch zurückschicken."
  stewardship_duty.1072.b:0 "Grummelt, so viel Ihr wollt, das wird nichts ändern."
  stewardship_duty.1072.b.compassionate:0 "Das ist Euer eigener Fehler. Ihr hättet sie nicht so schlecht behandeln sollen."
@@ -215,7 +215,7 @@
  stewardship_duty.7023.c:0 "[hook_holder.Custom('DE_PRO_PER_S_3P_N')|U] sollte die Sache lieber vergessen, wenn [hook_holder.Custom('DE_PRO_PER_S_3P_N')] weiß, was gut für [hook_holder.Custom('DE_PRO_PER_S_3P_A')] ist!"
  stewardship_duty.7023.d:0 "Ein [ROOT.Char.GetHouse.GetBaseNameNoTooltip] begleicht immer seine Schulden!"
  stewardship_duty.7023.d.tt:0 "Ich schulde [hook_holder.GetTitledFirstName] nach wie vor einen Gefallen."
- stewardship_duty.7023.player:0 "#weak Andere Spieler können grundsätzlich ablehnen, obwohl dies [stress|e] verursachen könnte.#!"
+ stewardship_duty.7023.player:0 "#weak Andere Spieler können grundsätzlich ablehnen, obwohl dies [stress|E] verursachen könnte.#!"
 
  stewardship_duty.7023.invalidated.hooked_ruler:0 "Da ich [hook_holder.GetTitledFirstName] keinen Gefallen mehr schulde, ist meine Bitte, dass [hook_holder.Custom('DE_PRO_PER_S_3P_N')] ihn mir erlassen möge, hinfällig."
  stewardship_duty.7023.invalidated.hook_holder:0 "Da [hooked_ruler.GetTitledFirstName] mir keinen Gefallen mehr schuldet, ist [hooked_ruler.Custom('DE_PRO_POS_S_3P')]e Bitte, dass ich ihn erlassen möge, hinfällig."
@@ -251,7 +251,7 @@
 
  #  Map Painting Journey, by Petter Vilberg
  stewardship_duty_special.1201.t:0 "Erkundung"
- stewardship_duty_special.1201.desc:0 "Mein [steward.GetCouncilTitle], [steward.GetTitledFirstName], schlägt eine Queste vor, die [steward.Custom('DE_PRO_POS_S_3P')]er Meinung nach dem Reich nutzen könnte.\n\n[steward.Custom('DE_PRO_PER_S_3P_N')|U] meint, dass ich mit meinem Gefolge ausziehen und die Gebiete von [painting_land_owner.GetTitledFirstName] erkunden sollte. Dann würde ich meine Ländereien besser kennen, und [steward.GetFirstNameNoTooltip] zufolge auch besser verstehen, wie mein[painting_land_owner.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('painting_land_owner'))] denkt."
+ stewardship_duty_special.1201.desc:0 "Mein [steward.GetCouncilTitle] [steward.GetTitledFirstName] schlägt eine Queste vor, die [steward.Custom('DE_PRO_POS_S_3P')]er Meinung nach dem Reich nutzen könnte.\n\n[steward.Custom('DE_PRO_PER_S_3P_N')|U] meint, dass ich mit meinem Gefolge ausziehen und die Gebiete von [painting_land_owner.GetTitledFirstName] erkunden sollte. Dann würde ich meine Ländereien besser kennen, und [steward.GetFirstNameNoTooltip] zufolge auch besser verstehen, wie mein[painting_land_owner.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('painting_land_owner'))] denkt."
  stewardship_duty_special.1201.a:0 "Ein nutzbringendes Unterfangen."
  stewardship_duty_special.1201.a.tt:0 "Ihr beginnt auf der Stelle mit den Vorbereitungen!"
  stewardship_duty_special.1201.b:0 "Im Augenblick ist keine Zeit für eine derartige Reise."

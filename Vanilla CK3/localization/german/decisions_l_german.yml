@@ -1,8 +1,17 @@
 ﻿l_german:
  DECISION_ON_COOLDOWN:0 "@warning_icon!#X $DECISION_NAME$ bis zum [DATE.GetStringLong] nicht verfügbar#!"
  ALREADY_PLANNING_ACTIVITY:0 "Ihr plant bereits eine andere [activity|E]"
+ ALREADY_IN_ACTIVITY_FIRST_NOT:0 "Ihr seid derzeit beschäftigt ([CHARACTER.Custom('GetActivityName')])"
+ ALREADY_IN_ACTIVITY_THIRD_NOT:0 "[CHARACTER.Custom('DE_PRO_PER_S_3P_N')|U] ist derzeit beschäftigt ([CHARACTER.Custom('GetActivityName')])"
+ unavailable_activity:0 "nimmt an einer Aktivität „[ROOT.Char.GetInvolvedActivity.GetName]“ teil"
+ unavailable_pay_homage:0 "huldigt Eurem Lehnsherren"
+ unavailable_meditation:0 "meditiert"
+ unavailable_petition_liege:0 "richtet eine Petition an Euren Lehnsherrn"
+ unavailable_hold_court:0 "haltet Hof"
+ unavailable_tour_stop:0 "bereitet Euch auf die [tour|E] Eures Lehnsherrn vor"
+
  start_hunt_decision:0 "Jagd veranstalten"
- start_hunt_decision_tooltip:1 "Eine [hunt|E] wird veranstaltet"
+ start_hunt_decision_tooltip:2 "Die Aktivität „[GetActivityType('activity_hunt').GetName]“ wird abgehalten"
  start_hunt_decision_desc:0 "#F Die ungezähmte Wildnis ruft, und Tiere aller Art warten auf meinen Speer und meinen Bogen!#!"
  start_hunt_decision_go_on_hunt:1 "Ihr geht auf eine #V Jagd#! in einer der Baronien Eures Reiches"
  start_hunt_decision_prestige:1 "Ihr bekommt vielleicht Gelegenheiten, Euer [prestige|E] zu erhöhen"
@@ -17,7 +26,7 @@
  host_lavish_feast_decision:0 "Ein verschwenderisches Festmahl geben"
  host_grand_feast_decision:0 "Ein großes Festmahl geben"
  host_modest_feast_decision:0 "Ein bescheidenes Festmahl geben"
- host_feast_decision_tooltip:0 "Ein [feast|E] wird abgehalten"
+ host_feast_decision_tooltip:0 "Die Aktivität „[GetActivityType('activity_feast').GetName]“ wird abgehalten"
  host_feast_decision_opening_desc:0 "#F Die Fässer anzuzapfen und Ehrengäste einzuladen, ist nicht nur eine Pflicht, sondern auch eine Gelegenheit, die Bande der Loyalität zu stärken, und oft bereitet es auch große Freude!#!"
  host_feast_decision_desc_vassals:1 "Könnte die [opinion|E] Eurer Vasallen von Euch verbessern"
  host_feast_decision_desc_court_musician_opinion:1 "#P Da Ihr einen $court_musician_court_position$ an Eurem Hof habt, wird der Meinungszugewinn bedeutender sein#!"
@@ -42,7 +51,7 @@
  escape_from_prison_decision_failure.tt:0 "Euer Fluchtversuch scheitert"
  escape_from_prison_decision_failure_outcome.tt:0 "[imprisoner.GetTitledFirstName] könnte … verärgert sein"
  escape_from_prison_decision_confirm:0 "Mich können keine Mauern halten!"
- escape_from_prison_decision_effect_tooltip:0 "@warning_icon! Der Erfolg Eures Versuchs hängt von Eurem [prowess|E] und Euren [traits|E] ab"
+ escape_from_prison_decision_effect_tooltip:1 "@warning_icon! Die Erfolgschancen hängen von Eurem [prowess|E] und Euren [traits|E] ab und davon, ob Ihr Euch im [dungeon|E] befindet"
 
  tribal_challenge_ruler_decision:0 "[ROOT.Char.GetLiege.GetTitleAsNameNoTooltip|U] herausfordern"
  tribal_challenge_ruler_decision_desc:0 "[ROOT.Char.GetLiege.GetFirstName] trägt den Titel als [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip], als ob es gar nicht anders sein könnte. Als ob nicht Können und Stärke allein darüber entscheiden würden, wer uns anführt.\n\nIch, [ROOT.Char.GetFullNameNoTooltip], stelle [ROOT.Char.GetLiege.Custom('DE_PRO_POS_S_3P')] Anrecht auf den Titel, auf ganz [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier], infrage. Und ich werde nicht mehr schweigen!"
@@ -102,7 +111,7 @@
  pet_dog_decision_confirm:0 "Euren Hund streicheln"
  pet_decision_effect_tooltip:0 "Ihr werdet etwas [stress|E] verlieren"
 
- pet_cat_decision:0 "[Root.Char.Custom('CatStoryName')] streicheln"
+ pet_cat_decision:0 "[ROOT.Char.Custom('CatStoryName')] streicheln"
  pet_cat_decision_desc:0 "Es wird Zeit, tief durchzuatmen und nach meinem vierbeinigen Gefährten [ROOT.Char.Custom('CatStoryName')] zu suchen. Manche Leute meinen, Katzen wären böse und selbstsüchtige Kreaturen, doch ganz gleich, wie schwer das Leben auch sein mag: Ich weiß, dass [ROOT.Char.Custom('CatStoryName')] immer für mich da sein wird!"
  pet_cat_decision_tooltip:0 "Eure Katze streicheln"
  pet_cat_decision_confirm:0 "Eure Katze streicheln"
@@ -111,7 +120,7 @@
  playdate_decision_desc:0 "#F Alle kleinen Damen und Herren im Reich einzuladen, damit sie die Gesellschaft anderer Kinder genießen können, ist eine befreiende und spaßige Erfahrung!#!"
  host_playdate_decision_desc_vassal_and_courtiers:0 "Könnte die [opinion|E] von Euch unter Euren Vasallen und Höflingen verbessern"
  start_playdate_decision:0 "Ihr trefft Eure Gleichgestellten in [capital_province.GetName]"
- playdate_decision_tooltip:0 "Ihr werdet Kinder zu einem [playdate|E] einladen"
+ playdate_decision_tooltip:0 "Ihr werdet Kinder zu einer Aktivität „[GetActivityType('activity_playdate').GetName]“ einladen"
  playdate_decision_confirm:0 "Verschickt Einladungen!"
 
  repay_loan_decision:0 "Darlehen zurückzahlen"
@@ -190,7 +199,7 @@
  raise_runestone_decision:0 "Einen Runenstein errichten"
  raise_runestone_decision_desc:0 "[ROOT.Var('ancestor_to_bury').Char.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ist verstorben. Ich werde einen Runenstein errichten, um [ROOT.Var('ancestor_to_bury').Char.Custom('DE_PRO_POS_S_3P')] Leben zu ehren und all jenen Ruhm zu bringen, die den Namen [ROOT.Var('ancestor_to_bury').Char.GetDynasty.GetName] tragen. Zukünftige Generationen werden niemals vergessen, wie bedeutend [ROOT.Var('ancestor_to_bury').Char.GetFullNameNicknamedNoTooltip] war!"
  raise_runestone_decision_tooltip:0 "Einen Runenstein errichten, der [ROOT.Char.Custom2('RelationToMeShort', ROOT.Var('ancestor_to_bury').Char)] in Ehren halten soll"
- raise_runestone_decision_warning:1 "@warning_icon!#X Der Runenstein wird vernichtet werden, falls Eure [county|e] an jemanden von außerhalb Eurer [dynasty|E] fällt#!"
+ raise_runestone_decision_warning:1 "@warning_icon!#X Der Runenstein wird vernichtet werden, falls Eure [county|E] an jemanden von außerhalb Eurer [dynasty|E] fällt#!"
  raise_runestone_decision_confirm:0 "Runenstein errichten"
  raise_runestone_decision_toast:0 "Runenstein errichtet"
  raise_runestone_vassals:0 "Jeder Vasall Eures [Concept('faith', 'Glaubens')|E]"
@@ -222,11 +231,11 @@
 
  commission_artifact_decision:0 "Artefakt in Auftrag geben"
  commission_artifact_decision_effect:0 "Ein örtlicher Kunsthandwerker mit einem zu finanzierenden [project|E] kommt an Euren Hof"
- commission_artifact_decision_warning_effect:0 "#weak Örtliche Kunsthandwerker stellen Artefakte von niederer Qualität her als [Concept('inspired', 'Inspirierte')|E] Gäste am [royal_court|E]#!"
+ commission_artifact_decision_warning_effect:0 "#weak Örtliche Kunsthandwerker stellen Artefakte von niederer Qualität her als [Concept('inspired', 'inspirierte')|E] Gäste am [royal_court|E]#!"
  commission_artifact_decision_tooltip:0 "Einen örtlichen Kunsthandwerker anwerben, um ein [artifact|E] für Euch herzustellen"
  commission_artifact_decision_desc:0 "Was bringt es schon, [ROOT.Char.GetTitleAsNameNoTooltip] zu sein, wenn ich nichts Schönes zum Zeigen haben? Ein neues Schwert wäre doch nett oder vielleicht eine Brosche …"
  commission_artifact_decision_confirm:0 "Örtlichen Kunsthandwerker anwerben"
- commission_artifact_decision_effect_message:0 "„Artefakt in Auftrag geben“-Effektnachricht"
+ commission_artifact_decision_effect_message:0 ""
  COMMISSION_ARTIFACT_DECISION_NEXT_STEP_BUTTON:0 "Artefakt auswählen"
  COMMISSION_ARTIFACT_DECISION_SELECT_ARTIFACT_TITLE:0 "Wählt eine Art von [artifact|E] aus"
 
@@ -322,7 +331,7 @@
  mend_the_great_schism_decision_confirm:0 "Ein Gott, eine Kirche!"
  mend_the_great_schism_decision_desc:1 "Das Große Schisma sah die christliche Kirche gespalten, doch wenn alle fünf episkopalen Arme der Pentarchie wieder unter der Herrschaft eines einzigen Großreiches stehen, das von einem frommen Herrscher regiert wird, besteht eine Chance, das Christentum wieder zu vereinen."
  mend_the_great_schism_decision_tooltip:0 "Ich werde das Christentum wiedervereinen"
- mend_the_great_schism_decision_effect_tooltip:0 "Die [THIS.Char.GetFaith.GetAdjective]e Kirche wird das Schisma heilen und sich als einzig legitime Form des Christentums etablieren."
+ mend_the_great_schism_decision_effect_tooltip:0 "Die [THIS.Char.GetFaith.GetAdjective|l]e Kirche wird das Schisma heilen und sich als einzig legitime Form des Christentums etablieren."
  every_ecumenical_christian_faith.tt:0 "$EFFECT_LIST_BULLET$ Jeder christliche [faith|E] mit der Doktrin [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName]"
  
  set_capital_constantinople_decision:0 "Konstantinopel zurückerobern"
@@ -363,16 +372,16 @@
  form_switzerland_kingdom_decision_confirm:0 "Niemand kann unsere Ansprüche leugnen!"
  form_switzerland_kingdom_decision_desc:0 "Wenn wir alle alpinen Kantone vereinen, muss das Großreich ihren Anspruch als vereinigte Eidgenossenschaft anerkennen."
  form_switzerland_kingdom_decision_tooltip:0 "Die Schweizerische Eidgenossenschaft wird gegründet."
- form_switzerland_kingdom_decision_effect_tooltip:1 "Wenn Ihr [savoy.GetName] [Concept('completely_control', 'Ganz Kontrolliert')|E], wird es Teil von [switzerland.GetName]"
+ form_switzerland_kingdom_decision_effect_tooltip:1 "Wenn Ihr [savoy.GetName] [Concept('completely_control', 'ganz Kontrolliert')|E], wird es Teil von [switzerland.GetName]"
 
  form_austria_kingdom_decision:0 "Erzherzogtum von Österreich gründen"
  form_austria_kingdom_decision_confirm:0 "Das Erzherzogtum von Österreich gründen"
  form_austria_kingdom_decision_desc:0 "Wenn es genug Einfluss im Großreich gewinnt, könnte das Herzogtum Österreich mehr Würden erlangen als die anderen Kurfürsten."
  form_austria_kingdom_decision_tooltip:0 "Das Erzherzogtum von Österreich wird gegründet."
- form_austria_kingdom_decision_effect_stretch_goals_tt:0 "Wenn Ihr [carinthia.GetName] [Concept('completely_control', 'Ganz Kontrolliert')|E], wird es Teil von [austria.GetName]"
- form_austria_kingdom_decision_effect_stretch_fail_both_tt:0 "Da sie abgeschnitten, aber nicht [Concept('completely_control', 'Ganz Kontrolliert')|E] sind, laufen [krain.GetName] und [istria.GetName] [de_jure|E] zu [new_controller.GetName] über"
- form_austria_kingdom_decision_effect_stretch_fail_krain_tt:0 "Da es abgeschnitten, aber nicht [Concept('completely_control', 'Ganz Kontrolliert')|E] ist, läuft [krain.GetName] [de_jure|E] zu [new_controller.GetName] über"
- form_austria_kingdom_decision_effect_stretch_fail_istria_tt:0 "Da es abgeschnitten, aber nicht [Concept('completely_control', 'Ganz Kontrolliert')|E] ist, läuft [istria.GetName] [de_jure|E] zu [new_controller.GetName] über"
+ form_austria_kingdom_decision_effect_stretch_goals_tt:0 "Wenn Ihr [carinthia.GetName] [Concept('completely_control', 'ganz Kontrolliert')|E], wird es Teil von [austria.GetName]"
+ form_austria_kingdom_decision_effect_stretch_fail_both_tt:0 "Da sie abgeschnitten, aber nicht [Concept('completely_control', 'ganz Kontrolliert')|E] sind, laufen [krain.GetName] und [istria.GetName] [de_jure|E] zu [new_controller.GetName] über"
+ form_austria_kingdom_decision_effect_stretch_fail_krain_tt:0 "Da es abgeschnitten, aber nicht [Concept('completely_control', 'ganz Kontrolliert')|E] ist, läuft [krain.GetName] [de_jure|E] zu [new_controller.GetName] über"
+ form_austria_kingdom_decision_effect_stretch_fail_istria_tt:0 "Da es abgeschnitten, aber nicht [Concept('completely_control', 'ganz Kontrolliert')|E] ist, läuft [istria.GetName] [de_jure|E] zu [new_controller.GetName] über"
 
  dismantle_papacy_decision:0 "Das Pontifikat vernichten"
  dismantle_papacy_decision_confirm:0 "Der Vatikan soll brennen!"
@@ -402,7 +411,7 @@
  convert_to_feudalism_decision_tooltip:0 "Ändert die [Concept('government', 'Regierungsform')|E], indem Ihr den [feudalism|E] oder [clan|E] annehmt"
 
  convert_to_feudalism_liege_converted_decision:0 "[ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip]-Lebensart über den Lehnsherrn annehmen"
- convert_to_feudalism_liege_converted_decision_desc:1 "So wie mein Reich wächst, wachsen auch die Herausforderungen beim Regieren. Mein Lehnsherr hat bereits ein [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip]-System: Ich sollte um [ROOT.Char.GetLiege.Custom('DE_PRO_POS_S_3')]e Hilfe bei der Umstrukturierung meines Reichs nach ähnlichem Muster bitten."
+ convert_to_feudalism_liege_converted_decision_desc:1 "So wie mein Reich wächst, wachsen auch die Herausforderungen beim Regieren. Mein Lehnsherr hat bereits ein [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip]-System: Ich sollte um [ROOT.Char.GetLiege.Custom('DE_PRO_POS_S_3P')]e Hilfe bei der Umstrukturierung meines Reichs nach ähnlichem Muster bitten."
  convert_to_feudalism_liege_converted_decision_confirm:1 "[ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip]-Lebensart annehmen"
  convert_to_feudalism_liege_converted_decision_tooltip:0 "Ändert die [Concept('government', 'Regierungsform')|E], indem Ihr den [feudalism|E] oder [clan|E] annehmt"
 
@@ -500,16 +509,16 @@
  jewish_restore_high_priesthood_decision:0 "Die [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]e Hohepriesterschaft wiederherstellen"
  jewish_restore_high_priesthood_decision_confirm:0 "Ein neues Religionsoberhaupt etablieren"
  jewish_restore_high_priesthood_decision_desc:0 "Das Amt als [ROOT.Char.GetFaith.ReligiousHeadName], des Hohepriesters des Judentums, ist seit der Zerstörung des Zweiten Tempels durch die Römer unbesetzt. Wenn wir jedoch die Kontrolle über genug heilige Stätten unserer Ahnen erlangen, könnten wir eine neue Priesterschaft etablieren."
- jewish_restore_high_priesthood_decision_tooltip:0 "Die [ROOT.Char.GetFaith.GetAdjective]e Priesterschaft wird wieder etabliert."
+ jewish_restore_high_priesthood_decision_tooltip:0 "Die [ROOT.Char.GetFaith.GetAdjective|l]e Priesterschaft wird wieder etabliert."
 
- restore_high_priesthood_decision_tooltip:0 "Die [ROOT.Char.GetFaith.GetAdjective]e Priesterschaft wird wieder etabliert."
- restore_high_priesthood_decision_effect_tooltip:0 "Die [THIS.Char.GetFaith.GetAdjective]e Priesterschaft wird wieder etabliert"
+ restore_high_priesthood_decision_tooltip:0 "Die [ROOT.Char.GetFaith.GetAdjective|l]e Priesterschaft wird wieder etabliert."
+ restore_high_priesthood_decision_effect_tooltip:0 "Die [THIS.Char.GetFaith.GetAdjective|l]e Priesterschaft wird wieder etabliert"
 
  zoroastrian_restore_high_priesthood_decision:0 "Die [ROOT.Char.GetFaith.GetNameNoTooltip]e Hohepriesterschaft wiederherstellen"
  zoroastrian_restore_high_priesthood_decision_confirm:0 "Ein neues Religionsoberhaupt etablieren"
- zoroastrian_restore_high_priesthood_decision_desc:0 "Wenn der [ROOT.Char.GetFaith.GetAdjective]e Glaube in Persien Fuß fassen kann, ist die Zeit gekommen für eine Wiedereinführung der wahren zoroastrischen Priesterschaft."
- zoroastrian_restore_high_priesthood_decision_tooltip:0 "Die [ROOT.Char.GetFaith.GetAdjective]e Priesterschaft wird etabliert."
- zoroastrian_restore_high_priesthood_decision_effect_tooltip:0 "Die [THIS.Char.GetFaith.GetAdjective]e Priesterschaft wird etabliert"
+ zoroastrian_restore_high_priesthood_decision_desc:0 "Wenn der [ROOT.Char.GetFaith.GetAdjective|l]e Glaube in Persien Fuß fassen kann, ist die Zeit gekommen für eine Wiedereinführung der wahren zoroastrischen Priesterschaft."
+ zoroastrian_restore_high_priesthood_decision_tooltip:0 "Die [ROOT.Char.GetFaith.GetAdjective|l]e Priesterschaft wird etabliert."
+ zoroastrian_restore_high_priesthood_decision_effect_tooltip:0 "Die [THIS.Char.GetFaith.GetAdjective|l]e Priesterschaft wird etabliert"
 
  become_saoshyant_decision:0 "Saoschjant werden"
  become_saoshyant_decision_confirm:0 "Ich bin auserwählt!"
@@ -537,7 +546,7 @@
 
  form_rum_sultanate_decision:0 "Das Sultanat der Rum-Seldschuken gründen"
  form_rum_sultanate_decision_confirm:0 "Ein neues, [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]es Rom!"
- form_rum_sultanate_decision_desc:0 "Wir werden das römische Kernland von Kleinasien unter [ROOT.Char.GetFaith.GetAdjective]e Kontrolle bringen und ein neues, besseres Rom unter der Führung einer strahlenden Macht schaffen: [ROOT.Char.GetFaith.HighGodName]!"
+ form_rum_sultanate_decision_desc:0 "Wir werden das römische Kernland von Kleinasien unter [ROOT.Char.GetFaith.GetAdjective|l]e Kontrolle bringen und ein neues, besseres Rom unter der Führung einer strahlenden Macht schaffen: [ROOT.Char.GetFaith.HighGodName]!"
  form_rum_sultanate_decision_tooltip:0 "Gründet das Sultanat der Rum-Seldschuken."
  form_rum_sultanate_decision_effect_tooltip:0 "Gründet das Sultanat der Rum-Seldschuken"
 
@@ -561,7 +570,7 @@
  accept_cannibalism_decision:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip|U]er Kannibalismus"
  accept_cannibalism_decision_desc:1 "Unser Schöpfer – [ROOT.Char.GetFaith.CreatorName] – hat uns nach seinem Bild erschaffen. Wenn wir das Spiegelbild des Göttlichen verzehren, kommen wir [ROOT.Char.GetFaith.HighGodName] einen Schritt näher."
  all_my_family_members:1 "All Eure [close_family_members|E]"
- all_my_intimidated_vassals:1 "All Eure [Concept('intimidated', 'Eingeschüchterten')|E] Vasallen"
+ all_my_intimidated_vassals:1 "All Eure [Concept('intimidated', 'eingeschüchterten')|E] Vasallen"
  accept_cannibalism_decision_confirm:0 "Wir werden ein Festmahl veranstalten!"
  accept_cannibalism_decision_tooltip:1 "Die Kosten zur Annahme von kannibalenfreundlichen Doktrinen werden deutlich gesenkt"
  faith_accept_cannibalism:0 "Die Kosten zur Annahme von kannibalenfreundlichen Doktrinen werden deutlich gesenkt"
@@ -573,8 +582,8 @@
  found_university_decision_tooltip:1 "[special_building|E]-Platz: [GetBuilding('generic_university').GetName] wird verfügbar werden"
  found_university_decision_confirm:1 "Legt den Grundstein!"
  found_university_decision_custom:0 "In einer passenden Baronie"
- no_built_university:0 "Die Provinz hat kein [special_building|E]"
- no_special_building_slot:0 "Die Provinz hat noch kein [special_building|E]"
+ no_built_university:1 "Das [holding|E] hat kein [special_building|E]"
+ no_special_building_slot:1 "Das [holding|E] hat noch keinen [special_building|E]-Platz"
  decision_found_university_custom:0 "Alle Gemeindesitze ohne [GetBuilding('generic_university').GetName]"
  
  empower_sicilian_parliament_decision:0 "Sizilianisches Parlament ermächtigen"
@@ -631,7 +640,7 @@
  found_witch_coven_decision_tooltip:0 "Eine neue Familientradition beginnen"
  found_witch_coven_decision_effects.children.tt:0 "Alle Kinder des [founder.GetHouse.GetBaseName]-Hexenzirkels, die von einer [GetTrait('witch').GetName(GetPlayer)] erzogen werden, werden Hexen"
  found_witch_coven_decision_effects.convert.tt:0 "Alle Hexen des [founder.GetHouse.GetBaseName]-Hexenzirkels haben mehr Erfolg dabei, andere zur Hexerei zu bekehren"
- found_witch_coven_decision_effects.grand_rite.tt:0 "Das [house_head|E] des [founder.GetHouse.GetBaseName]-Hexenzirkels kann die [activity|E] „Großes Ritual“ durchführen"
+ found_witch_coven_decision_effects.grand_rite.tt:1 "Das [house_head|E] des [founder.GetHouse.GetBaseName]-Hexenzirkels kann eine [activity|E] „[GetActivityType('activity_witch_ritual').GetName]“ durchführen"
 
  strengthen_bloodline_decision:0 "Blutlinie stärken"
  strengthen_bloodline_decision_desc:0 "Lebenskraft, Schönheit und Verstand beweisen allesamt, wie stark eine Blutlinie ist. Eine gesegnete Dynastie wird diese Gaben von Generation zu Generation weitergeben."
@@ -687,8 +696,8 @@
  unite_africa_decision_ancestors_desc:0 "Schon zu lange wird unsere wunderschöne Heimat von fremdländischen Invasoren gepeinigt. Es ist an der Zeit, die Völker Afrikas zu vereinen und auf den Weg unserer Ahnen zurückzukehren."
  unite_africa_decision_spirits_desc:0 "Schon zu lange werden die Geister unserer wunderschönen Heimat von fremdländischen Ungläubigen verspottet. Es ist an der Zeit, die Völker Afrikas zu vereinen unter [ROOT.Char.GetFaith.HighGodName]."
  unite_africa_decision_generic_desc:0 "Die Völker Afrikas sind stolz, tapfer und stark, doch so viele von ihnen sind fehlgeleitet und beten falsche Götter an. Es ist an der Zeit, sie alle unter einer Macht zu vereinen: [ROOT.Char.GetFaith.HighGodName]."
- every_non_root_faith_vassal_africa:0 "Jeder nicht [THIS.Char.GetFaith.GetAdjective]e [vassal|E] oder niedriger in Afrika"
- every_non_root_faith_county_africa:0 "Jede nicht [THIS.Char.GetFaith.GetAdjective]e Grafschaft in Afrika"
+ every_non_root_faith_vassal_africa:0 "Jeder nicht [THIS.Char.GetFaith.GetAdjective|l]e [vassal|E] oder niedriger in Afrika"
+ every_non_root_faith_county_africa:0 "Jede nicht [THIS.Char.GetFaith.GetAdjective|l]e Grafschaft in Afrika"
  every_non_africa_uniter_faith_convert:1 "Konvertiert zu [africa_uniter.GetFaith.GetName|V]"
 
  #AVENGE THE BATTLE OF TOURS
@@ -697,7 +706,7 @@
  avenge_the_battle_of_tours_decision_confirm:0 "Nehmt Rache für die Schlacht von Tours"
  avenge_the_battle_of_tours_decision_tooltip:0 "Marschiert die Straße der Märtyrer hinauf und sühnt das alte Unrecht"
  every_non_avenger_faith_convert:1 "Konvertiert zu [avenger.GetFaith.GetName|V]"
- every_non_root_faith_vassal_west_europe:0 "Jeder nicht [THIS.Char.GetFaith.GetAdjective]e [vassal|E] oder niedriger in Westeuropa"
+ every_non_root_faith_vassal_west_europe:0 "Jeder nicht [THIS.Char.GetFaith.GetAdjective|l]e [vassal|E] oder niedriger in Westeuropa"
  every_non_root_faith_county_west_europe:1 "Alle nicht-[THIS.Char.GetFaith.GetAdjective|l]e Grafschaften in meinem Reich in Westeuropa"
 
  #FORM PORTUGAL
@@ -730,10 +739,10 @@
  found_empire_decision_confirm:0 "Das Reich versammeln"
  found_empire_decision_tooltip:0 "Gründet einen völlig neuen Großreich-Titel"
  create_new_kingdom:1 "Ihr erschafft ein neues Königreich"
- create_title_every_held_duchy:2 "Alle Herzogtum-Titel, die Ihr [Concept('hold', 'Haltet')|E] oder [Concept('completely_controlled', 'Vollständig Kontrolliert')|E]"
+ create_title_every_held_duchy:2 "Alle Herzogtum-Titel, die Ihr [Concept('hold', 'haltet')|E] oder [Concept('completely_controlled', 'vollständig kontrolliert')|E]"
  create_custom_kingdom_de_jure_changes:1 "Werden [de_jure|E]-[duchies|E] Eures neuen Königreichs"
  create_new_empire:1 "Ihr erschafft ein neues Großreich"
- create_title_every_held_kingdom:2 "Alle Königreich-Titel, die Ihr [Concept('hold', 'Haltet')|E] oder [Concept('completely_controlled', 'Vollständig Kontrolliert')|E]"
+ create_title_every_held_kingdom:2 "Alle Königreich-Titel, die Ihr [Concept('hold', 'haltet')|E] oder [Concept('completely_controlled', 'vollständig kontrolliert')|E]"
  create_custom_empire_de_jure_changes:1 "Werden [de_jure|E]-[kingdoms|E] Eures neuen Großreichs"
  NEW_CREATED_TITLE_NAME:0 "[old_title.GetBaseNameNoTierNoTooltip]"
  SPECIAL_CREATED_TITLE_NAME:0 "[special_duchy.GetBaseNameNoTierNoTooltip]"
@@ -741,9 +750,9 @@
  #Guest decisions
  invite_knights_decision:1 "$knight_culture_player_plural_no_tooltip$ einladen"
  invite_knights_decision_desc:1 "Als [ROOT.Char.GetTitleAsNameNoTooltip] von [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] brauche ich tapfere $knight_culture_player_plural_no_tooltip_lowercase$, die das Reich verteidigen und neue Lande erobern. Ich werde einen Herold entsenden und meine Untertanen wissen lassen, dass ich auf der Suche nach fähigen Rittern bin."
- invite_knights_decision.men.tt:0 "In den kommenden Monaten kommen mindestens #P 3#! fähige Männer mit #V 12#! oder mehr [prowess|E] als [guests|E] an den Hof"
- invite_knights_decision.women.tt:0 "In den kommenden Monaten kommen mindestens #P 3#! fähige Frauen mit #V 12#! oder mehr [prowess|E] als [guests|E] an den Hof"
- invite_knights_decision.warriors.tt:1 "In den kommenden Monaten kommen mindestens #P 3#! Krieger mit #V 12#! oder mehr [prowess|E] als [guests|E] an den Hof"
+ invite_knights_decision.men.tt:1 "In den kommenden Monaten kommen mindestens #P 3#! fähige Männer mit #V [EmptyScope.ScriptValue('invite_knights_decision_standard_value')|0]#! oder mehr [prowess|E] als [guests|E] an den Hof"
+ invite_knights_decision.women.tt:2 "In den kommenden Monaten kommen mindestens #P 3#! fähige Frauen mit #V [EmptyScope.ScriptValue('invite_knights_decision_standard_value')|0]#! oder mehr [prowess|E] als [guests|E] an den Hof"
+ invite_knights_decision.warriors.tt:2 "In den kommenden Monaten kommen mindestens #P 3#! Krieger mit #V [EmptyScope.ScriptValue('invite_knights_decision_standard_value')|0]#! oder mehr [prowess|E] als [guests|E] an den Hof"
  invite_knights_decision_confirm:0 "Den Herold entsenden"
  minor_decisions.0001.t:1 "$knight_culture_player_no_tooltip$ ist eingetroffen"
  minor_decisions.0001.desc:1 "[knight.GetTitledFirstName] ist meiner Einladung gefolgt und nun als Gast an meinem Hof"
@@ -761,7 +770,7 @@
 
  scrape_the_barrel_decision:0 "Der Bodensatz"
  scrape_the_barrel_decision_desc:0 "Meinem Königshof fehlt es an fähigen Personen, die die vielen Hofämter ausfüllen können, die ein Reich lebendig halten!\n\nMeinem Hof fehlt es an der Pracht, die er verdient hat, aber vielleicht findet sich hier die Lösung am ungewöhnlichsten aller Orte …"
- scrape_the_barrel_decision_tooltip:0 "Wir werden jemanden von [Concept('lowborn', 'Niedriger Geburt')|E] anwerben, um ein zufälliges [court_position|E] zu füllen"
+ scrape_the_barrel_decision_tooltip:0 "Wir werden jemanden von [Concept('lowborn', 'niedriger Geburt')|E] anwerben, um ein zufälliges [court_position|E] zu füllen"
  scrape_the_barrel_decision.tt:0 "$scrape_the_barrel_decision_tooltip$"
  scrape_the_barrel_decision_confirm:0 "Beginnt mit der Suche!"
  minor_decisions.0003.t:0 "Den Bodensatz durchwühlen"
@@ -775,7 +784,7 @@
  minor_decisions.0003.desc.bridge_1:0 "\n\nTrotz [barrel_character.Custom('DE_PRO_POS_S_3P')]er Leiden"
  minor_decisions.0003.desc.bride_2:0 "ist mir zu Ohren gekommen, dass [barrel_character.Custom('DE_PRO_PER_S_3P_N')]"
  minor_decisions.0003.desc.educated:0 "recht gelehrt sein soll: Man hat [barrel_character.Custom('DE_PRO_PER_S_3P_A')] trotz des niederen Standes in der Schriftsprache unterwiesen. Ich habe das Gefühl, dass [barrel_character.GetNameNoTooltip] gut in Sachen Religion, Gelehrsamkeit oder Gesundheit dienen könnte."
- minor_decisions.0003.desc.cunning:0 "geschickt bei Betrügereien sein soll: [barrel_character.Custom('DE_PRO_PER_S_3P_N|U')] hat den Einheimischen wohl jeden Heller, den sie hatten, abgeluchst. Gerissenheit und Fingerfertigkeit könnten an meiner Seite nützlich sein, wenn es darum geht, dem Geflüster am Hof zu lauschen und jene zur Strecke zu bringen, die der Krone Unrecht tun."
+ minor_decisions.0003.desc.cunning:0 "geschickt bei Betrügereien sein soll: [barrel_character.Custom('DE_PRO_PER_S_3P_N')|U] hat den Einheimischen wohl jeden Heller, den sie hatten, abgeluchst. Gerissenheit und Fingerfertigkeit könnten an meiner Seite nützlich sein, wenn es darum geht, dem Geflüster am Hof zu lauschen und jene zur Strecke zu bringen, die der Krone Unrecht tun."
  minor_decisions.0003.desc.charismatic:1 "diplomatisch ist und die [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip]e Sprache beherrscht, wie es sonst nur Adlige können! [barrel_character.Custom('DE_PRO_POS_S_3P')|U]e trügerische Ausstrahlung und ungewöhnliche Erscheinung werden zweifelsohne die Aufmerksamkeit aller fremden Adligen erregen, die meinen Hof besuchen."
  minor_decisions.0003.desc.organised:0 "geschäftstüchtig ist und sich mit Finanzen und Organisation weit besser auskennt, als man es von niederem Bauersvolk erwarten würde. Zweifelsohne ist [barrel_character.Custom('DE_PRO_PER_S_3P_N')] an das gemeine Leben verschwendet und wurde von [ROOT.Char.GetFaith.HighGodName] auserwählt, um in den Adelsstand erhoben zu werden und an meinem Hof zu dienen."
  minor_decisions.0003.desc.strong:0 "[barrel_character.Custom('DE_ART_IND_N')] geboren[barrel_character.Custom('DE_END_ADJ_IND_S_N')] Anführer[barrel_character.Custom('DE_END_NOU_S_GS_N')] ist und [barrel_character.Custom('DE_PRO_POS_S_3P')]e Bande von Schurken von Überfall zu Überfall geführt hat. Ohne Zweifel ist [barrel_character.Custom('DE_PRO_PER_S_3P_N')] daran verschwendet, sich in Schlamm und Blut zu suhlen, um kleine Gaunereien in der Gegend zu begehen. Stattdessen soll [barrel_character.Custom('DE_PRO_PER_S_3P_N')] königliche Insignien tragen und sich meinem schönen Hof anschließen."
@@ -795,7 +804,7 @@
  encourage_confession_of_false_conversions_decision:0 "Amnestie für Scheinbekehrungen"
  encourage_confession_of_false_conversions_decision.tt:0 "Krypto-Gläubige könnten ihren versteckten [Concept('faith', 'Glauben')|E] offenbaren"
  encourage_confession_of_false_conversions_decision.desc:0 "#F Es ist ein offenes Geheimnis, dass es Krypto-Gläubige in meinem Reich gibt, die ihrem Glauben insgeheim nachgehen. Vielleicht kann eine offizielle Amnestie sie überzeugen, diese Fassade fallen zu lassen?#!"
- encourage_confession_of_false_conversions_decision.desc.tt_pluralist:0 "Krypto-Gläubige in Eurem Reich könnten sich offenbaren, wenn Euer [faith|E] ihren geheimen Glauben besser [Concept('tolerated', 'Toleriert')|E] als ihren öffentlichen"
+ encourage_confession_of_false_conversions_decision.desc.tt_pluralist:0 "Krypto-Gläubige in Eurem Reich könnten sich offenbaren, wenn Euer [faith|E] ihren geheimen Glauben besser [Concept('tolerate', 'toleriert')|E] als ihren öffentlichen"
  encourage_confession_of_false_conversions_decision.desc.tt_paranoia:0 "[characters|E], die [GetTrait('deceitful').GetName(GetNullCharacter)] oder [GetTrait('paranoid').GetName(GetNullCharacter)] sind, werden ihren geheimen [Concept('faith', 'Glauben')|E] nur offenbaren, wenn er zu Eurem passt"
  encourage_confession_of_false_conversions_decision.desc.tt_pluralist_counties:0 "Wenn Ihr [independent|E] seid, könnten [counties|E] in Eurem [realm|E], die [GetModifier('false_convert_modifier').GetNameWithTooltip] haben, öffentlich mit Euch konvertieren, je nachdem, wie feindlich Ihr ihrem neuen [Concept('faith', 'Glauben')|E] gegenüber wärt"
  encourage_confession_of_false_conversions_decision.desc.tt_coreligionist:0 "Krypto-Gläubige in Eurem Reich könnten sich offenbaren, wenn ihr heimlicher [faith|E] Eurem öffentlichen Glauben entspricht"
@@ -839,7 +848,7 @@
  form_the_kingdom_of_aragon_decision.tt.form_aragonese:0 "Ihr könnt Euch entscheiden, ob Ihr [culture_pillars|E] von [founder_culture.GetName|l] zu [aragonese_culture.GetName|l] kopieren wollt."
  form_the_kingdom_of_aragon_decision.tt.drift.d_valencia:0 "[Concept('completely_control', 'Kontrolliert')|E] Ihr [d_valencia.GetDefinitiveName] vollständig, geht es per [de_jure_drift|E] an [k_aragon.GetDefinitiveName]."
  form_the_kingdom_of_aragon_decision.tt.drift.d_barcelona:0 "[Concept('completely_control', 'Kontrolliert')|E] Ihr [d_barcelona.GetDefinitiveName] vollständig, geht es per [de_jure_drift|E] an [k_aragon.GetDefinitiveName]."
- form_the_kingdom_of_aragon_decision.tt.drift.d_navarra:0 "[Concept('completely_control', 'Kontrolliert')|E] [Ihr d_navarra.GetDefinitiveName] vollständig, geht es per [de_jure_drift|E] an [k_aragon.GetDefinitiveName]."
+ form_the_kingdom_of_aragon_decision.tt.drift.d_navarra:0 "[Concept('completely_control', 'Kontrolliert')|E] Ihr [d_navarra.GetDefinitiveName] vollständig, geht es per [de_jure_drift|E] an [k_aragon.GetDefinitiveName]."
 
  # Culture Conversion
  convert_to_local_culture_decision:0 "Zur örtlichen Kultur konvertieren"
@@ -947,9 +956,9 @@
  stress_loss_athletic_decision_tooltip:0 "Ein gesunder Körper sorgt für einen gesunden Geist"
  stress_loss_athletic_decision_confirm:0 "Los geht’s!"
 
- DECISION_COOLDOWN_WARNING:0 "@warning_icon!#X $DECISION_NAME$ wird $COOLDOWN$ nicht verfügbar sein#!"
+ DECISION_COOLDOWN_WARNING:1 "@alert_icon! #alert_trial $DECISION_NAME$ wird $COOLDOWN$ nicht verfügbar sein#!"
  
- SHOW_DECISION_TOOLTIP:1 "#T [Decision.GetTitleForPlayer]#!\n[Decision.GetCommandDescForPlayer][Select_CString(StringIsEmpty(Decision.GetCommandDescForPlayer),'','\n')][Decision.GetShortDescForPlayer]"
+ SHOW_DECISION_TOOLTIP:3 "#T [Decision.GetTitleForPlayer]#!\n[Decision.GetCommandDescForPlayer][Select_CString(StringIsEmpty(Decision.GetCommandDescForPlayer),'','\n')][Decision.GetShortDescForPlayer]\n\n#I Zum Auswählen klicken#!"
 
  all_courtiers_except_confidant:0 "Alle [courtiers|E] außer Vertrautem"
 
@@ -1037,7 +1046,6 @@
  introduce_a_new_fashion_at_court_decision_confirm:0 "Für einen neuen Stil und Klasse!"
  court_already_has_a_fashion_tend_tt:0 "Der Hof hat bereits eine laufende Mode."
 
- #TODO_CD_JB, move over to a separate event file
  court_amenities_interactions.0010.b_turned_down:0 "Alle lieben den neuen Stil!"
  court_amenities_interactions.0010.t:0 "Eine neue Mode am Hof"
  court_amenities_interactions.0010.desc_intro:0 "[actor.GetNameNoTooltip|U] hat am Hof Eindruck hinterlassen und die Blicke aller Edelmänner und Edeldamen des Reiches mit [actor.Custom('DE_PRO_POS_S_3P')]en ganz besonderen Gewandungen auf sich gezogen."
@@ -1081,8 +1089,8 @@
  convert_to_tribalism_decision_confirm:0 "Dem Weg meines Volks folgen"
  convert_to_tribalism_decision_tooltip:0 "Eure derzeitige [government|E] aufgeben und [Concept('tribal', 'tribalistisch')|E] werden"
  recent_conversion_to_tribalism:0 "Ihr habt Eure Regierung in den letzten 5 Jahren nicht zu [tribal|E] geändert"
- found_witch_coven_house_member_count_tt:0 "[SCOPE.ScriptValue('found_witch_coven_member_count_value')|0] [adult|E]e Mitglieder Eures [Concept('house', 'Hauses')E] sind Hexen"
- found_witch_coven_house_member_percent_tt:0 "[SCOPE.ScriptValue('found_witch_coven_member_percent_display_value')|2] % [adult|E]e Mitglieder Eures [Concept('house', 'Hauses')E] sind Hexen"
+ found_witch_coven_house_member_count_tt:0 "[SCOPE.ScriptValue('found_witch_coven_member_count_value')|0] [Concept('adult', 'erwachsene')|E] Mitglieder Eures [Concept('house', 'Hauses')|E] sind Hexen"
+ found_witch_coven_house_member_percent_tt:0 "[SCOPE.ScriptValue('found_witch_coven_member_percent_display_value')|2] % [Concept('adult', 'erwachsene')|E] Mitglieder Eures [Concept('house', 'Hauses')|E] sind Hexen"
 
  convert_whole_realm_to_feudalism_west_african_pagan_decision:0 "$convert_whole_realm_to_feudalism_decision$ #weak (Westafrikanische Heiden)#!"
  convert_whole_realm_to_feudalism_west_african_pagan_decision_desc:0 "Gute Regierungskunst ist eine Frage des Maßstabs. Ein Dorf braucht vielleicht nur die Ältesten, doch ein Großreich braucht Verwalter – unser Volk weiß das, und wir können die gelehrten Leute in seinen Reihen nutzen, um uns mit welchen zu versorgen."
@@ -1099,11 +1107,11 @@
  appoint_a_righteous_caliph_decision.tt.you_become_caliph:0 "[THIS.Char.GetShortUIName|U] ist das neue [THIS.Char.GetFaith.GetAdjective|l]e [head_of_faith|E]"
  appoint_a_righteous_caliph_decision.need_at_least_ten_same_faith_counties:0 "Ihr müsst mindestens [EmptyScope.ScriptValue('appoint_a_righteous_caliph_decision_same_faith_county_count')|0] [CHARACTER.GetFaith.GetAdjective|l]e [counties|E] haben"
  appoint_a_righteous_caliph_decision.cant_be_caliphal_controller:0 "Ihr seid nicht das [head_of_faith|E] Eures [Concept('liege', 'Lehnsherrn')|E]"
- appoint_a_righteous_caliph_decision.no_more_than_x_sinful_traits:0 "Ihr habt mehr als [EmptyScope.ScriptValue('appoint_a_righteous_caliph_decision_own_max_sins')|0] [Concept('sinful', 'Sündhafte')|E] [traits|E]"
+ appoint_a_righteous_caliph_decision.no_more_than_x_sinful_traits:0 "Ihr habt mehr als [EmptyScope.ScriptValue('appoint_a_righteous_caliph_decision_own_max_sins')|0] [Concept('sinful', 'sündhafte')|E] [traits|E]"
  appoint_a_righteous_caliph_decision.caliph_not_in_diplo_range:0 "Euer [head_of_faith|E] ist außerhalb der [Concept('diplomatic_range', 'diplomatischen Reichweite')|E]"
  appoint_a_righteous_caliph_decision.control_one_holy_site:0 "Ihr kontrolliert mindestens 1 [holy_site|E]"
  appoint_a_righteous_caliph_decision.control_two_holy_sites:0 "Ihr kontrolliert mindestens 2 [holy_sites|E]"
- appoint_a_righteous_caliph_decision.caliph_has_x_or_more_traits_sinful_to_your_faith:0 "Euer [head_of_faith|E] hat [EmptyScope.ScriptValue('appoint_a_righteous_caliph_decision_hof_min_sins')|0] oder mehr [Concept('sinful', 'Sündhafte')|E] [traits|E]"
+ appoint_a_righteous_caliph_decision.caliph_has_x_or_more_traits_sinful_to_your_faith:0 "Euer [head_of_faith|E] hat [EmptyScope.ScriptValue('appoint_a_righteous_caliph_decision_hof_min_sins')|0] oder mehr [Concept('sinful', 'sündhafte')|E] [traits|E]"
  appoint_a_righteous_caliph_decision.has_wishes_to_schism_caliphate_flag:0 "Ihr hattet vor, Euch abzuspalten, als Euer [faith|E] gegründet wurde"
 
  mozarabic_bind_the_faith_to_rome_decision:0 "Den Glauben an Rom binden"
@@ -1168,9 +1176,36 @@
  build_holy_pilgrim_roads_decision_confirm:0 "Bau finanzieren"
  build_holy_pilgrim_roads_decision_hardcoded_trigger_text.a:0 "Es gibt eine [holy_site|E] in Eurem [realm|E] ohne Pilgerstraßen-[modifier|E]."
  build_holy_pilgrim_roads_decision_construction_notif.t:0 "Pilgerstraße in [chosen_location_for_pilgrim_roads.GetNameNoTierNoTooltip] gebaut."
- build_holy_pilgrim_roads_decision_construction_notif.desc:1 "Überall in [chosen_location_for_pilgrim_roads.GetName] wurden Straßen gebaut, die zur Provinz [chosen_holy_site_for_pilgrim_roads.GetNameNoTier] führen, wo es eine [ROOT.Char.GetFaith.GetAdjective|l]e [holy_site|E] gibt, die zukünftige Pilger erwartet."
+ build_holy_pilgrim_roads_decision_construction_notif.desc:2 "Überall in [chosen_location_for_pilgrim_roads.GetName] wurden Straßen gebaut, die nach [chosen_holy_site_for_pilgrim_roads.GetNameNoTier] führen, wo es eine [ROOT.Char.GetFaith.GetAdjective|l]e [holy_site|E] gibt, die zukünftige Pilger erwartet."
 
  not_can_execute_decision:0 "Ihr könnte diese [decision|E] derzeit nicht treffen."
  can_execute_decision:0 "Ihr könnt diese [decision|E] derzeit treffen."
  NO_DECISION_OPTIONS_SELECTED:0 "@warning_icon!#X Wählt eine Option aus#!"
  revive_taltoism_decision_before_last_date:0 "Das Datum ist der 1.1.1100 oder früher"
+
+ call_for_acclaimed_knight_candidates_decision:0 "Auszeichnungen wiederherstellen"
+ call_for_acclaimed_knight_candidates_decision_desc:0 "Die kriegerischen Würden meines Gefolges ruhen. Verbreitet die Kunde an die $knight_culture_player_plural_no_tooltip_lowercase$ des Landes: [ROOT.Char.Custom('DE_ART_DEF_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip] von [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] ruft!\n\nWürdige Sprösslinge für meine altehrwürdigen Ehrenplätze sollen herzlich willkommen sein."
+ call_for_acclaimed_knight_candidates_decision_tooltip:0 "Mögliche [acclaimed_knights|E] erscheinen für jede [inactive_accolade|E]"
+ call_for_acclaimed_knight_candidates_decision_confirm:0 "Den Herold entsenden"
+ call_for_acclaimed_knight_candidates_decision.tt:0 "Zulässige Kandidaten für jede [inactive_accolade|E] erscheinen innerhalb des nächsten Jahrs und werden [knights|E]"
+
+ accolade.0013.notification:1 "Ein Kandidat für einen ausgezeichneten $knight_culture_player_no_tooltip$ trifft ein"
+ accolade_call_acclaimed_knight_tooltip:0 "[chosen_knight.Custom('DE_ART_DEF_S_N')|U] würdig[chosen_knight.Custom('DE_END_ADJ_IND_S_N')] [chosen_knight.GetUIName] kann eine Auszeichnung ([accolade_in_need.GetName]) erhalten"
+ accolade.0013.notification_fail:0 "Keine würdigen Kandidaten für die Auszeichnung"
+ accolade_call_acclaimed_knight_fail_notification_tooltip:0 "Eine Eurer Auszeichnungen bleibt inaktiv, da sich kein würdiger $knight_culture_player_no_tooltip_lowercase$ ergeben hat"
+ you_have_empty_accolades:0 "Ihr habt mindestens eine [inactive_accolade|E] und keine [knights|E], die sie erhalten könnten"
+ break_with_the_old_ways_decision:0 "Bruch mit den alten Wegen"
+ break_with_the_old_ways_decision_desc:0 "$kabarism_adj$e Überzeugungen wurde lange Zeit neben örtlichen Traditionen praktiziert, doch das ist vorbei. Wir müssen die alten Wege ablehnen und uns in vollem Umfang zum Judentum bekennen."
+ break_with_the_old_ways_decision_tooltip:0 "Wir sind kein Volksglaube mehr!"
+ break_with_the_old_ways_decision_confirm:0 "Wir bekennen uns zum Judentum!"
+ break_with_the_old_ways_decision.path_fundamentalist:0 "$mozarabic_bind_the_faith_to_rome_decision.path_fundamentalist$"
+ break_with_the_old_ways_decision.path_righteous:0 "$mozarabic_bind_the_faith_to_rome_decision.path_righteous$"
+
+ embrace_hebrew_language_decision:0 "Die hebräische Sprache annehmen"
+ embrace_hebrew_language_decision_desc:0 "Hebräisch ist seit Jahrtausenden die liturgische Sprache des jüdischen Glaubens, doch die Diaspora hat uns dazu gebracht, zahllose Sprachen zu entwickeln, die von unseren Nachbarn beeinflusst sind. Nun haben wir hier eine ausreichend große Gemeinschaft aufgebaut, dass wir Hebräisch als die Gemeinsprache unseres Volks annehmen können."
+ embrace_hebrew_language_decision_tooltip:0 "Wir werden die hebräische Sprache annehmen."
+ embrace_hebrew_language_decision_confirm:0 "Das Ende der Diaspora!"
+ switch_to_israelite_language_tt:0 "Die [GetPlayer.GetCulture.GetName|l]e Kultur wird $language_israelite_name$ als [language|E] annehmen"
+ switch_to_original_language_tt:0 "Eure neue Kultur wird [target_other_culture.GetLanguage.GetNameNoTooltip|U] sprechen."
+ at_least_10_jewish_counties_tt:0 "Ihr müsst mindestens 10 jüdische [counties|E] Eurer [culture|E] halten."
+ 

@@ -1,7 +1,7 @@
 ﻿l_spanish:
  # Jomsvikings offer a Retainer
  fp1_jomsvikings.0001.t:0 "Una mano amiga de [leader.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
- fp1_jomsvikings.0001.desc.intro:0 "Acuartelados en su fortaleza de [leader.GetCapitalLocation.GetTitle.GetNameNoTier], los [leader.GetPrimaryTitle.GetNameNoTier] son una orden militar dedicada a la defensa de las antiguas tradiciones de la fe [leader.GetFaith.GetAdjective] contra cambios, deshonor y religiones extranjeras.\n\nPor mi piedad y virtud, [leader.GetTitledFirstName] me ha enviado dos servidores para elegir: [retainer_a.GetFirstName],"
+ fp1_jomsvikings.0001.desc.intro:0 "Acuartelados en su fortaleza de [leader.GetCapitalLocation.GetTitle.GetNameNoTier], los [leader.GetPrimaryTitle.GetNameNoTier] son una orden militar dedicada a la defensa de las antiguas tradiciones de la fe [leader.GetFaith.GetAdjective] contra cambios, deshonor y religiones extranjeras.\n\nPor mi piedad y virtud, [leader.GetTitledFirstName|l] me ha enviado dos servidores para elegir: [retainer_a.GetFirstName],"
  fp1_jomsvikings.0001.desc.zealous:0 "que ha saqueado un centenar de iglesias,"
  fp1_jomsvikings.0001.desc.wrathful:0 "que una vez partió un oso en dos,"
  fp1_jomsvikings.0001.desc.impatient:0 "que es más veloz que el rayo,"
@@ -24,15 +24,15 @@
  fp1_jomsvikings.0011.t.reformed_norse:0 "La ira de las viejas costumbres"
  fp1_jomsvikings.0011.t.reformed_other:0 "La ira de los antiguos dioses"
  fp1_jomsvikings.0011.t.fallback:0 "Piratas de [leader.GetPrimaryTitle.GetNameNoTierNoTooltip]"
- fp1_jomsvikings.0011.desc.intro:0 "¡Qué desastre! ¡Un asalto sorpresa [leader.Custom('ES_DelDela')] [leader.GetTitledFirstName] de [leader.GetPrimaryTitle.GetNameNoTier] contra [target_county.GetNameNoTier] amenaza con incendiar el condado entero!\n\n"
+ fp1_jomsvikings.0011.desc.intro:0 "¡Qué desastre! ¡Un asalto sorpresa [leader.Custom('ES_DelDela')] [leader.GetTitledFirstName|l] de [leader.GetPrimaryTitle.GetNameNoTier] contra [target_county.GetNameNoTier] amenaza con incendiar el condado entero!\n\n"
  fp1_jomsvikings.0011.desc.ideological_reformist:0 "Calificando el [ROOT.Char.GetFaith.GetName] como una infecta perversión de la fe de nuestros antepasados, estos malditos piratas masacran en masa a nuestros [ROOT.Char.GetFaith.PriestNeuterPlural], incendian [ROOT.Char.GetFaith.HouseOfWorshipPlural] ¡y afirman que todo lo hacen en nombre de [leader.GetFaith.HighGodName]!"
  fp1_jomsvikings.0011.desc.ideological_other:0 "[leader.GetFaith.GetAdherentNamePlural] integristas, estos piratas consideran el [ROOT.Char.GetFaith.GetReligion.GetName] una amenaza para su modo de vida. En lugar de reunir botín, estos saqueadores masacran [ROOT.Char.GetFaith.PriestNeuterPlural], queman [ROOT.Char.GetFaith.HouseOfWorshipPlural] y vocean a grito pelado sus falsos dioses."
- fp1_jomsvikings.0011.desc.economic:0 "Aunque [leader.GetPrimaryTitle.GetNameNoTierNoTooltip] no guarda ningún rencor en particular contra un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.Custom('ES_FaithGenderedAdj')] como yo, sigue dependiendo del saqueo y el botín para sobrevivir, y mis tierras son un objetivo tentador. A lo mejor… ¿A lo mejor si les pago un gran tributo podrían perdonar a mis súbditos?"
+ fp1_jomsvikings.0011.desc.economic:0 "Aunque [leader.GetPrimaryTitle.GetNameNoTierNoTooltip] no guarda ningún rencor en particular contra un[ROOT.Char.Custom('ES_XA')] miembro del pueblo [ROOT.Char.GetFaith.GetAdherentName] como yo, sigue dependiendo del saqueo y el botín para sobrevivir, y mis tierras son un objetivo tentador. A lo mejor… ¿A lo mejor si les pago un gran tributo podrían perdonar a mis súbditos?"
  fp1_jomsvikings.0011.desc.outro:0 "\n\nNo hay tiempo para reclutar un ejército. Puedo atacar con las fuerzas que tenga disponibles o apretar los dientes hasta que se marchen."
  fp1_jomsvikings.0011.a:0 "Reclutad a todos los que tengamos, ¡a las armas!"
  fp1_jomsvikings.0011.a.tt_success:0 "Los piratas son aislados y destruidos"
- fp1_jomsvikings.0011.a.tt_failure:0 "[leader.GetTitledFirstNameNoTooltip] siembra el caos en su retirada"
- fp1_jomsvikings.0011.b.benefactor:0 "¿Y [benefactor.GetTitledFirstNameNoTooltip] no podría enviarnos nuevos [ROOT.Char.GetFaith.PriestNeuterPlural]?"
+ fp1_jomsvikings.0011.a.tt_failure:0 "[leader.GetTitledFirstNameNoTooltip|l] siembra el caos en su retirada"
+ fp1_jomsvikings.0011.b.benefactor:0 "¿Y [benefactor.GetTitledFirstNameNoTooltip|l] no podría enviarnos nuevos [ROOT.Char.GetFaith.PriestNeuterPlural]?"
  fp1_jomsvikings.0011.b.fallback:0 "Lamentable, pero podríamos importar [ROOT.Char.GetFaith.PriestNeuterPlural] de repuesto…"
  fp1_jomsvikings.0011.c:0 "Reunid el tributo; a la larga es más barato."
  fp1_jomsvikings.0011.c.tt:0 "[leader.GetTitledFirstName] se retira sin incidentes"
@@ -41,7 +41,7 @@
 
  # Jomsvikings send Event Troops
  fp1_jomsvikings.0021.t:0 "Negociando con piratas"
- fp1_jomsvikings.0021.desc:0 "Con cierto recelo recibo a una delegación de matones indisciplinados del [leader.GetPrimaryTitle.GetNameNoTier], que me presentan una carta de [leader.GetTitledFirstName].\n\nEstos integristas religiosos, fieros salteadores y saqueadores tanto en mar como en tierra, son de los piratas más conocidos y mortales del mundo.\n\nComo buen[ROOT.Char.Custom('ES_XA')] [ROOT.Char.Custom('ES_FaithGenderedAdj')], he escuchado las historias de su piedad y proeza con una mezcla de asombro y temor. Ahora parece que su [leader.GetTitleAsNameNoTooltip] me ofrece el mando de este grupo de voluntarios, siempre que los utilice para asaltar y saquear en nombre del [ROOT.Char.GetFaith.PantheonTerm]."
+ fp1_jomsvikings.0021.desc:0 "Con cierto recelo recibo a una delegación de matones indisciplinados del [leader.GetPrimaryTitle.GetNameNoTier], que me presentan una carta de [leader.GetTitledFirstName|l].\n\nEstos integristas religiosos, fieros salteadores y saqueadores tanto en mar como en tierra, son de los piratas más conocidos y mortales del mundo.\n\nComo buen[ROOT.Char.Custom('ES_XA')] miembro del pueblo [ROOT.Char.GetFaith.GetAdherentName], he escuchado las historias de su piedad y proeza con una mezcla de asombro y temor. Ahora parece que su [leader.GetTitleAsNameNoTooltip] me ofrece el mando de este grupo de voluntarios, siempre que los utilice para asaltar y saquear en nombre de [ROOT.Char.GetFaith.PantheonTerm]."
  fp1_jomsvikings.0021.a:0 "¿Piratas que reciben órdenes? Intrigante…"
  fp1_jomsvikings.0021.a.tt:0 "El [army|lE] incluirá [men_at_arms|lE] $jomsviking_pirates$, difíciles de matar"
  fp1_jomsvikings.0021.b:0 "Solo los marineros de renombre, creo."
@@ -50,7 +50,7 @@
 
  # Jomsvikings challenge a Dishonourable Norse Pagan Ruler to Holmgang
  fp1_jomsvikings.0041.t:0 "Una deshonra para los dioses"
- fp1_jomsvikings.0041.desc:0 "«¡#EMP [ROOT.Char.GetFirstNameNoTooltip]#!!» Aúlla [leader.GetTitledFirstName] al entrar en mi sala del trono a medio vestir.\n\n«Tus acciones pecaminosas y tu deshonor flagrante son una vergüenza para los [leader.GetFaith.GetAdherentNamePlural] de todo el mundo y [leader.GetPrimaryTitle.GetNameNoTier] no lo tolerará más. ¡Sin excusas, ni trucos, celebraremos un holmgang, #EMP aquí#! y #EMP ahora!»#!\n\nDesconcertados, mis guardias aferran sus armas, listos para actuar contra el intruso al instante.\n\nHaga lo que haga, no cabe duda que la noticia de mis acciones correrá por todo el mundo."
+ fp1_jomsvikings.0041.desc:0 "«¡#EMP [ROOT.Char.GetFirstNameNoTooltip]#!!» Aúlla [leader.GetTitledFirstName|l] al entrar en mi sala del trono a medio vestir.\n\n«Tus acciones pecaminosas y tu deshonor flagrante son una vergüenza para los [leader.GetFaith.GetAdherentNamePlural] de todo el mundo y [leader.GetPrimaryTitle.GetNameNoTier] no lo tolerará más. ¡Sin excusas, ni trucos, celebraremos un holmgang, #EMP aquí#! y #EMP ahora!»#!\n\nDesconcertados, mis guardias aferran sus armas, listos para actuar contra el intruso al instante.\n\nHaga lo que haga, no cabe duda que la noticia de mis acciones correrá por todo el mundo."
  fp1_jomsvikings.0041.a:0 "¡Te mandaré al Valhöll con una sonrisa!"
  fp1_jomsvikings.0041.a.tt:0 "Entablas al instante un [single_combat_fight|lE]"
  fp1_jomsvikings.0041.a.tt_success:0 "Ganas el combate"
@@ -60,10 +60,10 @@
  fp1_jomsvikings.0041.b.tt_failure:0 "[leader.GetTitledFirstName] protagoniza una fuga audaz."
  fp1_jomsvikings.0041.c:0 "Sabes que no eres más que un[leader.Custom('ES_XA')] pirata con aires de grandeza, ¿verdad? Ya puedes correr."
 
- fp1_jomsvikings.0042.trigger_failure:0 "Tu duelo contra [leader.GetTitledFirstNameNoTooltip] queda invalidado."
+ fp1_jomsvikings.0042.trigger_failure:0 "Tu duelo contra [leader.GetTitledFirstNameNoTooltip|l] queda invalidado."
 
  fp1_jomsvikings.0044.t:0 "$fp1_jomsvikings.0041.t$: Reivindicación"
- fp1_jomsvikings.0044.desc:0 "Con [leader.GetTitledFirstName] desplomad[leader.Custom('ES_OA')] a mis pies, sin vida, el salón del trono queda en un silencio sepulcral. No se oye ni un suspiro, ni una respiración salvo mis propios jadeos irregulares.\n\nTranquilamente me arreglo las ropas.\n\nMiro a los ojos a todas las personas que siguen aquí, una a una."
+ fp1_jomsvikings.0044.desc:0 "Con [leader.GetTitledFirstName|l] desplomad[leader.Custom('ES_OA')] a mis pies, sin vida, el salón del trono queda en un silencio sepulcral. No se oye ni un suspiro, ni una respiración salvo mis propios jadeos irregulares.\n\nTranquilamente me arreglo las ropas.\n\nMiro a los ojos a todas las personas que siguen aquí, una a una."
  fp1_jomsvikings.0044.a:0 "¿Alguien #EMP más#! quiere probar?"
  fp1_jomsvikings.0044.b:0 "¡La rectitud de mi reinado ha vuelto a quedar demostrada!"
  fp1_jomsvikings.0044.c:0 "Esto solo demuestra lo indigna que es la fe [leader.GetFaith.GetNameNoTooltip]…"

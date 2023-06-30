@@ -11,8 +11,8 @@
  action_can_offer_assistance_unimportant:0 "@warning_icon!#X Vous êtes déjà en [war|El]#!"
  action_can_offer_assistance_HELP:1 "\n\n#help En tant que [ruler|El], vous pourriez aussi être envahi, donc il peut être bénéfique d’attendre d’être en position de sécurité pour rejoindre une [war|El].#!"
 
- action_can_bargain_fealty:0 "Peut proposer la vassalité pour obtenir de l’aide"
- action_can_bargain_fealty_label:0 "Vous pouvez proposer [recipient.Custom('FR_au_Char_U_Pi')][recipient.GetShortUINameNoTooltip] votre vassalisation en échange de sa protection"
+ action_can_bargain_fealty:1 "@liege_icon! Peut proposer la vassalité pour obtenir de l’aide"
+ action_can_bargain_fealty_label:1 "@liege_icon! Vous pouvez proposer [recipient.Custom('FR_au_Char_U_Pi')][recipient.GetShortUINameNoTooltip] votre vassalisation en échange de sa protection"
  action_can_bargain_fealty_combined_label:0 "[recipient.GetShortUINameNoTooltip]"
  action_can_bargain_fealty_desc:0 "[recipient.Custom('FR_le_Char_U_P')|U][recipient.GetUIName] est un [ruler|El] [struggle_interloper|El] voisin d’un plus haut [title_rank|El], ce qui vous permet de lui proposer votre vassalisation en échange de sa participation à votre [war|El].$action_can_bargain_fealty_HELP$"
  action_can_bargain_fealty_click:0 "#I Cliquez pour négocier avec [recipient.Custom('FR_LuiElle')]#!"

@@ -5,7 +5,7 @@
  designate_gruesome_festivals_sacrifice_interaction.recipient.notification.tt:0 "Казнь состоится через три месяца"
 
  remove_designated_gruesome_festivals_sacrifice_interaction:0 "Отказаться от жертвоприношения"
- remove_designated_gruesome_festivals_sacrifice_interaction_desc:0 "[recipient.GetNamePossessiveOrMy|U][Select_CString(recipient.IsPlayer, ' персонаж', '' )] больше не будет [Concept( 'designate_chief_sacrifice_chief_sacrifice', 'главной жертвой' )|E]"
+ remove_designated_gruesome_festivals_sacrifice_interaction_desc:0 "[recipient.GetNamePossessiveOrMy|U][Select_CString(recipient.IsLocalPlayer, ' персонаж', '' )] больше не будет [Concept( 'designate_chief_sacrifice_chief_sacrifice', 'главной жертвой' )|E]"
  designate_gruesome_festivals_sacrifice_modifier_removed_effect.t:0 "Больше не $designate_gruesome_festivals_sacrifice_interaction.recipient.notification.t$"
  designate_gruesome_festivals_sacrifice_modifier_removed_effect.manual.tt:0 "[actor.GetFirstNameNoTooltip] [Select_CString(actor.IsFemale, 'проявила', 'проявил' )] милосердие"
  designate_gruesome_festivals_sacrifice_modifier_removed_effect.override.tt:0 "[actor.GetFirstNameNoTooltip] [Select_CString(actor.IsFemale, 'выбрала', 'выбрал' )] другую жертву"
@@ -24,8 +24,8 @@
  TBC_GOLD:0 "Золото"
  TBC_WEAK_HOOK:0 "Слабое влияние"
  TBC_HUMILIATION:0 "Унижение"
- TBC_PROWESS_ACTOR:0 "[prowess|E] [Select_CString(actor.IsPlayer, '', 'персонажа ' )][actor.GetNamePossessiveOrMy][Select_CString(actor.IsPlayer, 'его персонажа', '' )]: $VALUE|=+0$"
- TBC_PROWESS_RECIPIENT:0 "[prowess|E] [Select_CString(recipient.IsPlayer, '', 'персонажа ' )][recipient.GetNamePossessiveOrMy][Select_CString(recipient.IsPlayer, 'его персонажа', '' )]: $VALUE|=+0$"
+ TBC_PROWESS_ACTOR:0 "[prowess|E] [Select_CString(actor.IsLocalPlayer, '', 'персонажа ' )][actor.GetNamePossessiveOrMy][Select_CString(actor.IsLocalPlayer, 'его персонажа', '' )]: $VALUE|=+0$"
+ TBC_PROWESS_RECIPIENT:0 "[prowess|E] [Select_CString(recipient.IsLocalPlayer, '', 'персонажа ' )][recipient.GetNamePossessiveOrMy][Select_CString(recipient.IsLocalPlayer, 'его персонажа', '' )]: $VALUE|=+0$"
 
  TBC_OPINION_DEATH:0 "[single_combat_duel_plural|E] до [Concept( 'character_death_death', 'смерти' )|E]"
  TBC_OPINION_GOLD:0 "[single_combat_duel_plural|E] за [gold|El]"
@@ -55,5 +55,5 @@
  
  designate_shieldmaiden_interaction_extra_icon:0 "$hook_extra_icon$"
  designate_shieldmaiden_interaction:0 "Сделать воительницей"
- designate_shieldmaiden_interaction_desc:1 "Сообщите персонажу [recipient.GetFirstNameNoTooltip], что [recipient.GetSheHe] может присоединиться к вашему войску в качестве [Select_CString(recipient.IsFemale, 'воительницы', 'воителя' )].\n\n#weak [recipient.Custom('ShieldPersonFemaleMale')|U] — это [actor.Custom('KnightCulture')|l] или [commander|El], [Select_CString(recipient.IsFemale, 'которая', 'который' )] к тому же может при случае спасти вас от [Concept( 'murder', 'убийства' )|E]. Предлагать место [Select_CString(recipient.IsFemale, 'воительницы', 'воителя' )] можно только [Concept( 'close_family', 'близким родственникам' )|E].#!"
+ designate_shieldmaiden_interaction_desc:1 "Сообщите персонажу [recipient.GetFirstNameNoTooltip], что [recipient.GetSheHe] может присоединиться к вашему войску в качестве [Select_CString(recipient.IsFemale, 'воительницы', 'воителя' )].\n\n#weak [recipient.Custom('ShieldPersonFemaleMale')|U] — это [actor.Custom('KnightCulture')|l] или [commander|El], [Select_CString(recipient.IsFemale, 'которая', 'который' )] к тому же может при случае спасти вас от убийства. Предлагать место [Select_CString(recipient.IsFemale, 'воительницы', 'воителя' )] можно только [Concept( 'close_family', 'близким родственникам' )|E].#!"
  designate_shieldmaiden_interaction_notification:0 "[recipient.GetShortUIName] теперь [recipient.Custom('ShieldPersonFemaleMale')|l]!"

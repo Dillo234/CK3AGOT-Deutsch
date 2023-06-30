@@ -1,17 +1,17 @@
 ﻿l_simp_chinese:
- cb_discount_prestige_10:0 "[casus_belli|E][prestige|E]花费：#P -10%#!"
- cb_discount_piety_10:0 "[casus_belli|E][piety|E]花费：#P -10%#!"
+ cb_discount_prestige_10:1 "[casus_belli|E][prestige|E]花费：[prestige_i]#P -10%#!"
+ cb_discount_piety_10:1 "[casus_belli|E][piety|E]花费：[piety_i]#P -10%#!"
  individual_county_de_jure_cb:0 "[de_jure|E][county|E]"
  individual_duchy_de_jure_cb:0 "[de_jure|E][duchy|E]"
  multiple_claim_wars:1 "可以在单场战争中为自己索取多个[claims|E]"
  multiple_claim_wars_others:0 "可以在单场战争中为另一角色声索多个[claims|E]"
- fabricate_claim_speed:0 "[councillor_task|E]“伪造伯爵领宣称”速度：#P +50%#!"
- promote_culture_speed:0 "[councillor_task|E]“推广文化”速度：#P +15%#!"
+ fabricate_claim_speed:1 "#V $task_fabricate_claim$#![councillor_task|E]速度：#P +50%#!"
+ promote_culture_speed:1 "#V $task_promote_culture$#![councillor_task|E]速度：#P +15%#!"
  same_culture_group_reduced_factionalism:1 "与你拥有相同[culture|E][heritage|E]的[vassals|E]较少可能加入[independence_factions|E]"
- reduce_develop_county_penalty_01:0 "现在伯爵领[existing_development|E]到达20时才会触发[development|E]惩罚"
- reduce_develop_county_penalty_02:0 "现在伯爵领[existing_development|E]到达35时才会触发[development|E]惩罚"
- reduce_develop_county_penalty_03:0 "现在伯爵领[existing_development|E]到达55时才会触发[development|E]惩罚"
- reduce_develop_county_penalty_04:0 "现在伯爵领[existing_development|E]到达90时才会触发[development|E]惩罚"
+ reduce_develop_county_penalty_01:0 "现在伯爵领[development|E]达到20时[existing_development|E]惩罚才会达到最大"
+ reduce_develop_county_penalty_02:0 "现在伯爵领[development|E]达到35时[existing_development|E]惩罚才会达到最大"
+ reduce_develop_county_penalty_03:0 "现在伯爵领[development|E]达到55时[existing_development|E]惩罚才会达到最大"
+ reduce_develop_county_penalty_04:0 "现在伯爵领[development|E]达到90时[existing_development|E]惩罚才会达到最大"
 
 
 
@@ -56,6 +56,8 @@
 
  innovation_bannus:0 "军队征召令"
  innovation_bannus_desc:0 "军队征召令基于在战场上指挥士兵的权力，赋予统治者驱使领内的自由民为其战斗的权力，是建立一支庞大征召军队的法律上的基础。"
+ eligible_accolade_vanguard_attribute_ACCOLADES_DLC:0 "该[culture|E]的[knights|E]有资格获得[GetAccoladeType('vanguard_attribute').GetName][accolades|E]"
+ eligible_accolade_vanguard_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_vanguard_attribute_ACCOLADES_DLC')]"
 
  innovation_quilted_armor:0 "棉甲"
  innovation_quilted_armor_desc:0 "将一打或更多层棉质纤维缝制在一起，这些棉质夹克甚至能够阻挡重型箭矢，其低成本造价可使我们用这样的护甲武装一整个军团投入作战。"
@@ -94,9 +96,13 @@
 
  innovation_war_camels:0 "军用骆驼"
  innovation_war_camels_desc:0 "骆驼天生适应沙漠地形的生活，但他们不是天生的战斗物种。我们的养育官与驯驼人可以改变这一点，提供给我们适宜沙漠地形的骑兵部队，让我们主宰沙漠。"
+ eligible_accolade_camelry_attribute_ACCOLADES_DLC:0 "该[culture|E]的[knights|E]有资格获得[GetAccoladeType('camelry_attribute').GetName][accolades|E]"
+ eligible_accolade_camelry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_camelry_attribute_ACCOLADES_DLC')]"
 
  innovation_elephantry:0 "象兵"
  innovation_elephantry_desc:0 "大象很难在捕获状态中养大，因此每名驯象师都需要亲自捕获他们的野象并训练。这意味着在战斗中运用这些大型生物是一门精致的技艺，但我们决意掌握这门技艺。"
+ eligible_accolade_elephantry_attribute_ACCOLADES_DLC:0 "该[culture|E]的[knights|E]有资格获得[GetAccoladeType('elephantry_attribute').GetName][accolades|E]"
+ eligible_accolade_elephantry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_elephantry_attribute_ACCOLADES_DLC')]"
  
  innovation_wootz_steel:0 "乌兹钢"
  innovation_wootz_steel_desc:0 "这种高碳金属也被称为印度钢或赛里斯钢，十分适合用来制造武器。乌兹钢被广泛交易，被认为是世界上最好的钢。贯穿历史，它吸引了阿拉伯、埃及、中国甚至罗马等地商人的目光。"
@@ -105,14 +111,14 @@
  innovation_african_canoes_desc:0 "西非的大独木舟非常适合在河流中航行，能让我们迅速将部队运送到需要的地方。"
  
  innovation_table_of_princes:0 "诸侯之桌"
- innovation_table_of_princes_desc:0 "诸侯之桌是波西米亚领主的御用之座，坐在桌上的人被认为是法理统治者。在家族年长者继承制中，头衔会被统治宗族在世成员中最年长的那位继承。"
+ innovation_table_of_princes_desc:0 "诸侯之桌是波希米亚领主的御用之座，坐在桌上的人被认为是合法统治者。在家族年长者继承制中，头衔会被统治宗族在世成员中最年长的那位继承。"
  unlock_single_heir_dynasty_house_changing:0 "可以在任何[crown_authority|E]下通过法案$single_heir_dynasty_house$"
 
 
  tradition_visigothic_codes_name:0 "$innovation_visigothic_codes$"
  tradition_visigothic_codes_desc:0 "$innovation_visigothic_codes_desc$"
  innovation_visigothic_codes:0 "西哥特法典"
- innovation_visigothic_codes_desc:0 "尽管西哥特人的许多古老传统都已从世上抹去，比利牛斯的子孙牢记古道，并记得土地要如何在子女中务实而公平地分配。"
+ innovation_visigothic_codes_desc:0 "尽管西哥特人的许多古老传统都已从世上抹去，比利牛斯山的子孙牢记古道，并记得土地要如何在子女中务实而公平地分配。"
  unlock_equal_succession_changing:0 "可以在任何[crown_authority|E]下通过$equal_law$[law|E]"
 
 ######################
@@ -125,6 +131,8 @@
 
  innovation_mangonel:0 "射石机"
  innovation_mangonel_desc:0 "对我们已有的弹射机械的伟大改良，比起扭力驱动的机械，牵引驱动的射石机能更快地装载和发射。"
+ eligible_accolade_besieger_attribute_ACCOLADES_DLC:0 "该[culture|E]的[knights|E]有资格获得[GetAccoladeType('besieger_attribute').GetName][accolades|E]"
+ eligible_accolade_besieger_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_besieger_attribute_ACCOLADES_DLC')]"
 
  innovation_burhs:0 "乡堡"
  innovation_burhs_desc:0 "散落在乡野间的乡堡是重要的带防卫工事的定居点，我们可以用其集结部队，也可以用来作为行政节点。"
@@ -137,6 +145,8 @@
 
  innovation_arched_saddle:0 "拱形马鞍"
  innovation_arched_saddle_desc:0 "轻骑兵是不可小觑的战力，但是他们并未完全开发出战马的潜力。拱形马鞍让我们能给重甲战士配备骑枪，使他们在冲击敌方阵线时完全发挥动量优势。"
+ eligible_accolade_lancer_attribute_ACCOLADES_DLC:0 "该[culture|E]的[knights|E]有资格获得[GetAccoladeType('lancer_attribute').GetName][accolades|E]"
+ eligible_accolade_lancer_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_lancer_attribute_ACCOLADES_DLC')]"
 
  #Civic
  innovation_hereditary_rule:0 "世袭统治"
@@ -165,7 +175,7 @@
 
  #Regional
 
- innovation_reconquista:0 "宗教扩张" # [LocEditor:AwaitingBatchUpdate]
+ innovation_reconquista:1 "宗教扩张"
  innovation_reconquista_desc:0 "因被内斗拖累，我们容忍这群异教徒在伊比利亚待了太长时间了。现在是时候让我们集结军队将他们永远赶出这片土地了！"
 
  innovation_stem_duchies:0 "部落公国"
@@ -196,6 +206,8 @@
 
  innovation_advanced_bowmaking:0 "高级造弓术"
  innovation_advanced_bowmaking_desc:0 "虽然弓箭手传统上自行制造维护自己的弓，工匠们开始制造新型的弓，它们比之前的更厉害更复杂。通过接纳这些新设计，我们可以让这些制弓大师成为无价的军事资产。"
+ eligible_accolade_crossbower_attribute_ACCOLADES_DLC:0 "该[culture|E]的[knights|E]有资格获得[GetAccoladeType('crossbowmen_attribute').GetName][accolades|E]"
+ eligible_accolade_crossbower_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_crossbower_attribute_ACCOLADES_DLC')]"
 
  #Civic
 
@@ -297,4 +309,4 @@
  innovation_deccan_unity:0 "达嚫统一"
  innovation_deccan_unity_desc:0 "新的信仰与宗教涌入我们的社会，显然这表明了我们过去专注于地区主义是错误的。我们应该联合我们信仰的其他人，建立长治久安的强大国家，在外部压力中安然屹立。"
 
- students_of_knighthood:0 "以[martial|E][education_focus|E]结束学业的儿童获得一个$trait_education_martial_prowess$[trait|E]。"
+ students_of_knighthood:1 "以[martial|E][education_focus|E]结束[education|E]的儿童获得一个$trait_education_martial_prowess$[trait|E]"

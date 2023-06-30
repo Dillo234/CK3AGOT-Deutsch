@@ -27,7 +27,7 @@
  hold_court.4100.disability_prejudice_fallback:0 "«Из-за неполноценного существования, подобного жизни срезанного ростка, [ROOT.Char.GetTitledFirstNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'превратилась', 'превратился' )] в животное."
  hold_court.4100.disability_insult:0 "Жизнь с клеймом «демон-[ROOT.Char.Custom('GetDisability')|l]»"
  hold_court.4100.disability_prejudice_ending:0 "настолько извратила [ROOT.Char.GetHerHis] разум, что трудно представить, [Select_CString(ROOT.Char.IsFemale, 'способна', 'способен' )] ли [ROOT.Char.GetSheHe] вообще воспринимать проблемы окружающих. [ROOT.Char.GetSheHe|U] делает все, что захочет, отвергая законы человеческие»."
- hold_court.4100.a:0 "И даже закон [ROOT.GetCharacter.GetFaith.HighGodNamePossessive] не властен над тем, кого [ROOT.Char.GetFaith.HighGodNameSheHe|U] [ROOT.Char.GetFaith.HighGodName.IsFemale, 'оставила', 'оставил' )]."
+ hold_court.4100.a:0 "И даже закон [ROOT.GetCharacter.GetFaith.HighGodNamePossessive] не властен над тем, кого [ROOT.GetCharacter.GetFaith.HighGodName] оставляет."
  hold_court.4100.b:0 "Благодаря ежедневным страданиям я сильнее, чем любой [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')]."
  hold_court.4100.c:0 "Я прикажу изготовить более красивую маску и стану #EMP гораздо#! красивее тебя!"
  hold_court.4100.d:0 "Когда трудно говорить, начинаешь точнее подбирать слова."
@@ -98,7 +98,7 @@
  hold_court.4500.c.titles.tt:0 "[demanding_poet.GetTitledFirstName] получает все земли и вассалов персонажа [secondary_character.GetTitledFirstName]"
 
 ### Peasants are convinced you're a literal monster by Isabella Welch 
- hold_court.4600.t:0 "[ROOT.GetCharacter.IsFemale, 'Та', 'Тот' )], кто превращается в зверя..."
+ hold_court.4600.t:0 "[Select_CString(ROOT.Char.IsFemale, 'Та', 'Тот' )], кто превращается в зверя..."
  hold_court.4600.desc:0 "У моего трона — толпа разгневанных крестьян. В руках их пламенеющие и очень зловещие предметы, в которых с трудом узнаются фермерские орудия. Мне доводилось подавлять мятежи, но такие жуткие вилы я вижу впервые.\n\nОдин из крестьян тычет ими в мою любимую подушечку для трона.\n\n«Эта тварь, что нами правит, — истинный демон во плоти. Не может живой человек творить такие бесчинства. К оружию! Помогите убить чудовище, пока оно не приняло истинный облик!»"
  hold_court.4600.a:0 "Я не демон, я — [ROOT.Char.GetTitleAsNameNoTooltip|l], и это гораздо, #EMP гораздо#! хуже."
  hold_court.4600.b:0 "Прекрасная идея! [chancellor.GetCouncilTitle]! Распространите слухи, что я — демон."

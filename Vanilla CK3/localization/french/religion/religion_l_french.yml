@@ -113,11 +113,14 @@
  faith_conversion_cost_conversion_blocked_till_decision_taken:0 "Cette [faith|El] doit être déverrouillée via une [decision|El]"
  faith_conversion_cost_conversion_blocked_till_nebulous_circumstances:0 "Cette [faith|El] doit être déverrouillée par des circonstances mystérieuses"
  faith_conversion_cost_unreformed_to_organized:0 "Conversion d’une [faith|El] [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName|l] en une foi [organized|El]"
+ faith_reformation_via_decision:0 "Cette [faith|El] ne peut être réformée que par une [decision|El]"
 
  MINIMUM_FAITH_CONVERSION_PIETY_COST:0 "Coût minimum : $VALUE|V$[GetLocalPlayerPietyTextIcon]"
 
  faith_conversion_cost_fervor_difference:0 "Différence de [fervor|El]"
  faith_creation_cost_fervor_impact:0 "De la [fervor|El] actuelle"
+
+ faith_conversion_cost_witch_event:0 "Vous avez étudié la sorcellerie de cette [faith|El]"
 
  #Holy Sites: Christian
  holy_site_jerusalem_name:0 "Jérusalem"
@@ -240,6 +243,10 @@
  holy_site_kochi_effect_name:0 "Du [holy_site|El] #weak ($holy_site_kochi_name$)#!"
  holy_site_manipur_name:0 "Manipur"
  holy_site_manipur_effect_name:0 "Du [holy_site|El] #weak ($holy_site_manipur_name$)#!"
+ holy_site_hamadan_name:0 "Hamadan"
+ holy_site_hamadan_effect_name:0 "Du [holy_site|El] #weak ($holy_site_hamadan_name$)#!"
+ holy_site_babylon_name:0 "Babylone"
+ holy_site_babylon_effect_name:0 "Du [holy_site|El] #weak ($holy_site_babylon_name$)#!"
 
  #Holy Sites: Dualism
  holy_site_khozistan_name:0 "Khouzistan"
@@ -257,7 +264,7 @@
 
 
  #Holy Sites: Buddhism
- holy_site_bodh_gaya_name:0 "Bodh Gaya"
+ holy_site_bodh_gaya_name:0 "Bodhgaya"
  holy_site_bodh_gaya_effect_name:0 "Du [holy_site|El] #weak ($holy_site_bodh_gaya_name$)#!"
  holy_site_kusinagara_name:1 "Lumbini"
  holy_site_kusinagara_effect_name:0 "Du [holy_site|El] #weak ($holy_site_kusinagara_name$)#!"
@@ -620,6 +627,8 @@
  doctrine_deviancy_shunned_desc:0 "Certaines pratiques sexuelles sont simplement anormales et étranges. Il va de soi que les personnes ayant ces désirs sont également anormales et étranges."
  doctrine_deviancy_accepted_name:0 "Acceptée"
  doctrine_deviancy_accepted_desc:0 "L’amour est beau et sacré, peu importe la forme qu’il prend. Tout le monde devrait être autorisé à aimer comme il l’entend."
+ doctrine_deviancy_virtuous_name:0 "Vertueux"
+ doctrine_deviancy_virtuous_desc:0 "Les plaisirs de la chair nous rapprochent du divin, et donc ceux qui sont libérés des désirs conventionnels sont le summum de la vertu dans notre foi."
  doctrine_parameter_deviancy_illegal:0 "Les personnages avec le [trait|El] [GetTrait('deviant').GetName( GetPlayer )|l] sont des [Concept( 'crime', 'criminels' )|E]"
  doctrine_parameter_deviancy_shunned:0 "Les personnages avec le [trait|El] [GetTrait('deviant').GetName( GetPlayer )|l] sont [Concept( 'shunned', 'mal vus' )|E]"
  doctrine_parameter_deviancy_accepted:0 "Les personnages avec le [trait|El] [GetTrait('deviant').GetName( GetPlayer )|l] sont pleinement acceptés"
@@ -631,9 +640,13 @@
  doctrine_witchcraft_shunned_desc:0 "Le divin ayant légitimement juridiction sur les forces surnaturelles de ce monde, toute tentative visant à contraindre ces forces à obéir à la volonté d’un mortel est intrinsèquement erronée."
  doctrine_witchcraft_accepted_name:0 "Acceptée"
  doctrine_witchcraft_accepted_desc:0 "La magie emplit le monde qui nous entoure et nous avons le droit et le privilège de nous y adonner comme le faisait nos ancêtres."
+ doctrine_witchcraft_virtuous_name:0 "Vertueux"
+ doctrine_witchcraft_virtuous_desc:0 "Pratiquer la sorcellerie, c’est mettre son âme en danger face aux mauvais esprits. Les sorcières doivent donc être vénérées pour leur bravoure."
  doctrine_parameter_witchcraft_illegal:0 "Les personnages avec le [trait|El] [GetTrait('witch').GetName( GetPlayer )|l] sont des [Concept( 'crime', 'criminels' )|E]"
  doctrine_parameter_witchcraft_shunned:0 "Les personnages avec le [trait|El] [GetTrait('witch').GetName( GetPlayer )|l] sont [Concept( 'shunned', 'mal vus' )|E]"
  doctrine_parameter_witchcraft_accepted:0 "Les personnages avec le [trait|El] [GetTrait('witch').GetName( GetPlayer )|l] sont pleinement acceptés"
+ witchcraft_illegal_name: "Doctrine de la sorcellerie criminelle"
+ witchcraft_shunned_name: "Doctrine de la sorcellerie mal vue"
  
  doctrine_head_of_faith_name:0 "Chef de la foi"
  doctrine_head_of_faith_desc:0 "Le [head_of_faith|El] est le chef d’une [faith|El]."
@@ -811,7 +824,7 @@
  doctrine_clerical_function_alms_and_pacification_desc:0 "Nos [ROOT.Faith.PriestNeuterPlural] sont chargés de veiller à ce que les pauvres et les opprimés disposent de suffisamment de nourriture et d’un abri lorsqu’ils ne peuvent s’en procurer."
  doctrine_clerical_function_recruitment_name:0 "Recrutement"
  doctrine_clerical_function_recruitment_desc:1 "Nos [ROOT.Faith.PriestNeuterPlural] peuvent prendre les armes et de défendre notre foi. Devoir donner l’exemple leur donne de la force au combat."
- doctrine_parameter_clergy_can_fight:0 "Les membres du [clergy|El] peuvent devenir [commander|El] ou [GetPlayer.Custom('KnightCulture')|l]"
+ doctrine_parameter_clergy_can_fight:0 "Les membres du [clergy|El] peuvent devenir [commander|El] ou [knight|El]"
  
  doctrine_clerical_gender_name:0 "Sexe des religieux"
  doctrine_clerical_gender_male_only_name:0 "Hommes seulement"
@@ -886,6 +899,13 @@
  is_jewish_faith_name:0 "$special_doctrine_is_jewish_faith_name$"
  special_doctrine_is_jewish_faith_desc:0 "Tous les Gentils ne vivent pas dans le péché. Certains respectent le peuple élu de Dieu et méritent dans une certaine mesure notre respect."
  doctrine_parameter_hostility_override_tenet_jewish_syncretism:3 "Les [faiths|El] non juives avec le $tenet_jewish_syncretism_name$ comme [core_tenet|El] sont considérées comme [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|Vl]#L #V s#!#! au lieu de $hostility_evil_tooltippable$#L #V s#!#!"
+
+ prophecy_of_malachi_name:0 "Prophétie de saint Malachie"
+ special_doctrine_not_allowed_to_hof_name:0 "Prêtrise démantelée"
+ not_allowed_to_hof_name:0 "$special_doctrine_not_allowed_to_hof_name$"
+ prophecy_of_malachi_desc:0 "Selon la doctrine juive traditionnelle, un grand prêtre ne peut être nommé qu’avec la venue du prophète ou si un descendant d’Aaron apte à exercer la fonction de prêtre est trouvé."
+ special_doctrine_not_allowed_to_hof_desc:0 "La grande prêtrise de cette foi a été complètement démantelée. Toute tentative de nommer un grand prêtre nécessiterait d’abord une reconstruction complète de la structure traditionnelle de l’Église."
+ doctrine_parameter_block_from_create_hof_parameter:0 "Cette foi ne peut pas recréer son [Concept('head_of_faith','chef')|E] dans des circonstances normales."
 
  special_doctrine_is_eastern_faith_name:0 "Brassage religieux"
  is_eastern_faith_name:0 "$special_doctrine_is_eastern_faith_name$"
@@ -984,3 +1004,24 @@
  hostility_astray_tooltippable:0 "[GetHostilityLevelName( '(int32)1' )|Vl]"
  hostility_hostile_tooltippable:0 "[GetHostilityLevelName( '(int32)2' )|Vl]"
  hostility_evil_tooltippable:0 "[GetHostilityLevelName( '(int32)3' )|Vl]"
+
+
+ doctrine_pilgrimage_name:0 "Attitude par rapport au pèlerinage"
+ doctrine_pilgrimage_forbidden_name:0 "Interdit"
+ doctrine_pilgrimage_forbidden_desc:0 "La présence [ROOT.Faith.HighGodNamePossessive] peut être ressentie partout et l’idée que certains lieux sont plus divins que d’autres n’est rien de moins qu’une hérésie."
+ doctrine_pilgrimage_encouraged_name:0 "Encouragé"
+ doctrine_pilgrimage_encouraged_desc:0 "Cette foi encourage ses membres à visiter des lieux terrestres considérés comme ayant une signification spirituelle afin de démontrer leur respect pour [ROOT.Faith.PantheonTerm]."
+ doctrine_pilgrimage_mandatory_name:0 "Obligatoire"
+ doctrine_pilgrimage_mandatory_desc:0 "Tous les [ROOT.Faith.GetAdherentNamePlural] valides doivent faire un voyage spirituel vers un lieu saint dès qu’ils le peuvent et ne pas le faire représente un manquement envers [ROOT.Faith.HighGodName]."
+ doctrine_pilgrimage_mandatory_hajj_name:0 "Hadj"
+ doctrine_pilgrimage_mandatory_hajj_desc:0 "On s’attend à ce que tous les musulmans valides accomplissent un hadj à La Mecque au cours de leur vie. Bien que des exemptions spéciales soient souvent accordées, tout [ROOT.Faith.GetAdherentNameNoTooltip] qui ne le fait pas est considéré avec scepticisme."
+ forbidden_from_pilgrimage_name:0 "$doctrine_pilgrimage_name$ : $doctrine_pilgrimage_forbidden_name$"
+ doctrine_parameter_forbidden_from_pilgrimage:0 "N’a pas accès à l’[activity|El] [pilgrimage|El]"
+ can_go_on_pilgrimage_name:0 "$doctrine_pilgrimage_name$ : $doctrine_pilgrimage_encouraged_name$"
+ doctrine_parameter_can_go_on_pilgrimage:0 "A accès à l’[activity|El] [pilgrimage|El]"
+ mandatory_pilgrimage_name:0 "$doctrine_pilgrimage_name$ : $doctrine_pilgrimage_mandatory_name$"
+ doctrine_parameter_mandatory_pilgrimage:1 "Le [trait|El] [GetTrait('pilgrim').GetName( GetNullCharacter )|l] accorde des bonus supplémentaires et l’[activity|El] [pilgrimage|El] accorde de la [piety|El] supplémentaire lors de l’achèvement"
+ mandatory_hajj_name:0 "$doctrine_pilgrimage_name$ : $doctrine_pilgrimage_mandatory_name$"
+ doctrine_parameter_mandatory_hajj:1 "Le [trait|El] [GetTrait('hajjaj').GetName( GetNullCharacter )|l] accorde des bonus supplémentaires et l’[activity|El] [hajj|El] accorde de la [piety|El] supplémentaire lors de l’achèvement"
+ doctrine_parameter_basic_pilgrimage_rewards:0 ""
+

@@ -4,7 +4,7 @@
 
  # Activity Start: Liege decides whether or not to hear petition
  petition_liege.0001.opening:1 "[petition_vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
- petition_liege.0001.desc:1 "Mon entourage et moi-même venons d’arriver à [petition_liege.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] après un voyage épuisant. Il y a des questions importantes concernant le bien-être de [petition_vassal.GetPrimaryTitle.GetNameNoTier] dont je souhaiterais discuter avec vous. Je demande une audience à votre meilleure convenance."
+ petition_liege.0001.desc:1 "Nous arrivons, moi et ma suite, à [petition_liege.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] après un voyage épuisant. Il y a des questions importantes concernant le bien-être de [petition_vassal.GetPrimaryTitle.GetNameNoTier] dont je souhaiterais discuter avec vous. Je demande une audience à votre meilleure convenance."
  petition_liege.0001.a:1 "Allez chercher [petition_vassal.Custom('FR_le_Char_Pi')][petition_vassal.GetTitledFirstNameNoTooltip] !"
  petition_liege.0001.a.tt:1 "Vous recevez [petition_vassal.Custom('FR_le_Char_Pi')][petition_vassal.GetTitledFirstName] à votre [royal_court|E]"
  petition_liege.0001.b:1 "Je suis trop occupé[ROOT.Char.Custom('FR_E')] pour le moment pour m’occuper d[petition_vassal.Custom('FR_EluiElle')]."
@@ -35,7 +35,7 @@
  petition_liege.0101.t.development:0 "$petition_liege_header$ développer la capitale"
  # Desc
  petition_liege.0101.desc:1 "[petition_vassal.Custom('FR_le_Char_Pi')|U][petition_vassal.GetTitledFirstName] entre dans ma grande salle et ne perd pas de temps avant de s’approcher de mon trône et de s’incliner solennellement.\n\n« Merci de me recevoir, [ROOT.Char.Custom('FR_MonseigneurMadame')|U]. Je viens vous voir aujourd’hui avec une requête urgente :"
- petition_liege.0101.desc.council_seat:0 "[petition_liege.Custom('FR_MonseigneurMadame')|U], me laisseriez-vous siéger au Conseil ? »\n\n« Mes talents sont négligés alors que des gens de moindre importance sont entendus au plus haut niveau ; je partagerais les fardeaux du pays en étant votre [petition_vassal.Custom('GetCouncilPositionRequest')]. »"
+ petition_liege.0101.desc.council_seat:0 "[petition_liege.Custom('FR_MonseigneurMadame')|U], me laisseriez-vous siéger au Conseil ? »\n\n« Mes talents sont négligés alors que des gens de moindre importance sont entendus au plus haut niveau ; je partagerais les fardeaux du pays en étant votre [petition_vassal.Custom('GetCouncilPositionRequest')]. »"
  petition_liege.0101.desc.pay_debt:0 "j’ai rencontré quelques... difficultés financières, dues à des événements totalement indépendants de ma volonté. »\n\n« Pour le bien du pays, pourriez-vous m’aider à régulariser mes comptes ? »"
  petition_liege.0101.desc.war_aid:0 "la [petition_war.GetName|l] se passe mal, [second_party.Custom('FR_le_Char_Pi')][second_party.GetTitledFirstNameNoTooltip] a l’avantage. \n\n[petition_liege.Custom('FR_MonseigneurMadame')|U], mes défaites sont aussi les vôtres. Accordez-moi votre soutien, pour le bien du pays."
  petition_liege.0101.desc.end_war:1 "[second_party.Custom('FR_le_Char_Pi')][second_party.GetTitledFirstNameNoTooltip] nous fait la guerre, à moi et à vos loyaux sujets de [petition_vassal.GetPrimaryTitle.GetName] ! Ces querelles intestines ne font que nous affaiblir tous, alors ne devraient-elles pas être stoppées net ?"
@@ -230,7 +230,7 @@
  petition_liege.0501.desc:0 "Loyal[second_party.Custom('FR_E')] [second_party.GetTitledFirstName], c’est profondément regrettable de devoir vous mettre dans cette position.\n\nJe dois vous demander de renoncer au [petition_claim.GetName] en faveur [petition_vassal.Custom('FR_du_Char_Pi')][petition_vassal.GetTitledFirstName], qui revendique également le titre. J’espère que vous respecterez mes souhaits en la matière."
  petition_liege.0501.a:0 "Ai-je le choix ?"
  petition_liege.0501.b:0 "Je ne peux pas l’accepter !"
- petition_liege.0501.refuse_tt:0 "[second_party.Custom('FR_le_Char_Pi')|U][second_party.GetTitledFirstName] a refusé de céder: [petition_claim.GetName]"
+ petition_liege.0501.refuse_tt:0 "[second_party.Custom('FR_le_Char_Pi')|U][second_party.GetTitledFirstName] a refusé de céder : [petition_claim.GetName]"
  # Invalidated event
  petition_liege.0601.t:0 "$petition_liege_header$ invalidée"
  petition_liege.0601.desc.court:0 "Puisque je suis devenu[ROOT.Char.Custom('FR_E')] [ROOT.Char.GetTitleAsNameNoTooltip|l], ma requête n’est plus nécessaire..."
@@ -254,7 +254,26 @@
  petition_liege.9999.arrogant:0 "It is good to let my subjects bask in awe of of my presence."
  petition_liege.9999.shy:0 "I can’t wait to get back to my chambers..."
  petition_liege.9999.gregarious:0 "This seems like a good opportunity to mingle with my court."
- petition_liege.9999.every_guest_and_courtier:0 "Every Guest and Courtier:"
+ petition_liege.9999.every_guest_and_courtier:0 "Every Guest and Courtier :"
+
+ petition_liege.9001.t:0 "$petition_liege_header$ changement de tactique"
+ petition_liege.9001.desc:0 "Je ne peux plus demander [petition_liege.Custom('FR_au_Char_Pi')][petition_liege.GetTitledFirstName] de [ROOT.Char.Custom('GetPetitionType' )|l]. J’ai toutefois fait tout ce chemin jusqu’à [petition_liege.GetCapitalLocation.GetName] pour obtenir audience et je compte bien en profiter. Je pourrais lui demander de..."
+ petition_liege.9001.council_seat:0 "Me nommer à son conseil."
+ petition_liege.9001.pay_debt:0 "Régler mes dettes."
+ petition_liege.9001.war_aid:0 "M’aider militairement."
+ petition_liege.9001.vassal_war:0 "Imposer la paix avec mes pairs vassaux."
+ petition_liege.9001.faction_war:0 "Démanteler une faction puissante."
+ petition_liege.9001.county_control:0 "Envoyer des baillis pour m’aider à reprendre en main des comtés indisciplinés."
+ petition_liege.9001.county_convert:0 "Soutenir des prêtres pour m’aider à convertir les comtés de mon pays."
+ petition_liege.9001.county_opinion:0 "Effectuer une visite royale pour améliorer l’opinion publique dans mon pays."
+ petition_liege.9001.fortify_border:0 "Fortifier mes frontières."
+ petition_liege.9001.title_liege:0 "Satisfaire à l’une de mes revendications."
+ petition_liege.9001.title_vassal:0 "Transférer une revendication"
+ petition_liege.9001.construct_city:0 "Fonder une ville dans mon pays."
+ petition_liege.9001.construct_temple:0 "Fonder un temple dans mon pays."
+ petition_liege.9001.development:0 "Installer certains de ses sujets dans mon pays."
+ petition_liege.9001.fallback:0 "De remplir mes coffres."
+ petition_liege.0101.accept.fallback:0 "Fort bien, vos coffres seront remplis."
 
  petition_liege_block_firing_councillor_effect_tt:0 "[petition_vassal.Custom('FR_le_Char_U_Pi')|U][petition_vassal.GetShortUIName|U] ne peut pas être retiré du [council|E] pendant 5 ans"
 
@@ -275,7 +294,7 @@
  petition_liege_county_opinion_modifier_desc:0 "Le détenteur de ce comté a demandé à son seigneur lige de venir se montrer au peuple."
  # Fortify
  petition_liege_0101_fortify_border_effect_tt:0 "Toutes les [holdings|El] [petition_vassal.Custom('FR_du_Char_U_Pi')][petition_vassal.GetShortUIName] bordant d’autres pays"
- petition_liege_fortify_border_modifier:0 "Marcher Fortifications"
+ petition_liege_fortify_border_modifier:0 "Marches fortifiées"
  petition_liege_fortify_border_modifier_desc:0 "Le détenteur de ce comté a demandé à son seigneur lige de fortifier les marches du pays."
  # Development
  petition_liege_development_modifier:0 "Afflux de colons"
@@ -286,4 +305,6 @@
  petition_liege_title_landed:0 "[ROOT.Char.GetTitleAsNameNoTooltip|l]"
  petition_liege_title_courtier:0 "courtisan[ROOT.Char.Custom('FR_E')]"
 
- petition_liege_second_if_tt:0 "#bold Si [TARGET_CHARACTER.Custom('FR_le_Char_Pi')][TARGET_CHARACTER.GetTitledFirstName] accepte:#!"
+ petition_liege_second_if_tt:0 "#bold Si [TARGET_CHARACTER.Custom('FR_le_Char_Pi')][TARGET_CHARACTER.GetTitledFirstName] accepte :#!"
+ 
+ petition_liege_costs_refunded:0 "Frais remboursés de la demande d’audience au seigneur lige"

@@ -57,11 +57,11 @@
 
  witch.2006.t:0 "$convert_to_witch$: тайное становится явным"
  witch.2006.desc:0 "Когда я влезаю в окно, как приказывает мне [owner.GetFaith.WitchGodName], [target.Custom2('MyCharacterIntroduction', ROOT.Char)] оказывается не в своей постели. Куда же...\n\n«Кто здесь?!»\n\nЯ оборачиваюсь, и вижу, что [target.GetTitledFirstName] сидит на полу рядом с начерченной пентаграммой."
- witch.2006.a:0 "А, так вы уже!.. Приветствую, [target.Custom('SisterBrother')|U]!"
+ witch.2006.a:0 "А, так вы уже!.. Приветствую, [target.Custom('SisterBrother')]!"
 
  witch.2007.t:0 "Тайный союзник"
  witch.2007.desc:0 "Ночной ритуал в честь бога [owner.GetFaith.WitchGodName] в самом разгаре, когда я слышу за спиной шум. Грабитель? Посетитель? Убийца?!\n\nОбернувшись, я вижу, что передо мной стоит [owner.Custom2('MyCharacterIntroduction', ROOT.Char)] в темных одеждах со знаком бога [owner.GetFaith.WitchGodName] — обычный наряд для инициации."
- witch.2007.a:1 "Со мной вам это не понадобится, #EMP [owner.Custom('SisterBrother')|U]#!!"
+ witch.2007.a:1 "Со мной вам это не понадобится, #EMP [owner.Custom('SisterBrother')]#!!"
 
  witch.2010.t:1 "$convert_to_witchcraft_key$: подслушано"
  witch.talk.2010:1 "[target.GetFirstName] и я беседуем много часов напролет. Основная наша тема — [owner.GetFaith.WitchGodName] и [owner.GetFaith.WitchGodHerHis] воля. Когда небо на горизонте начинает светлеть, мы прощаемся."
@@ -92,7 +92,7 @@
  witch.2900.a:0 "Наши ряды крепнут!"
 
  witch.2901.t:0 "[recipient.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
- witch.2901.desc:0 "Приятно слышать, что и для вас [Select_CString( ROOT.Char.GetFaith.WitchGod.IsFemale, 'наша хитроумная', 'наш хитроумный' )] [ROOT.Char.GetFaith.WitchGodMistressMaster] превыше всего! Да благословит [ROOT.Char.GetFaith.WitchGodSheHe|U] вас и наставит на путь истины."
+ witch.2901.desc:0 "Приятно слышать, что и для вас наша хитроумная [ROOT.Char.GetFaith.WitchGodMistressMaster] превыше всего! Да благословит [ROOT.Char.GetFaith.WitchGodSheHe|U] вас и наставит на путь истины."
  witch.2901.a:0 "И да хранит [ROOT.Char.GetFaith.WitchGodSheHe|U] вас!"
 
  ####GRAND RITE####
@@ -103,11 +103,28 @@
  host_witch_ritual_decision_tooltip:0 "Провести ритуал"
  host_witch_ritual_decision_confirm:0 "Да начнется ритуал!"
  activity_witch_ritual:0 "Великий ритуал"
- activity_witch_ritual_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] [Select_CString(ACTIVITY.GetOwner.IsPlayer, 'великий ритуал', 'проводит великий ритуал')]"
+ activity_witch_ritual_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] [Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, 'великий ритуал', 'проводит великий ритуал')]"
  activity_witch_ritual_owner:0 "Организатор"
- activity_witch_ritual_desc:1 "Все, следующие по пути, что указывает [ACTIVITY.GetOwner.GetFaith.WitchGodName], собрались, чтобы восславить [ACTIVITY.GetOwner.GetFaith.GetWitchHerHis] могущество и прикоснуться к [ACTIVITY.GetOwner.GetFaith.GetWitchHerHis] тайнам."
+ activity_witch_ritual_desc:3 "Истинные последователи со [Concept( 'trait', 'свойством' )|E] [GetTrait('witch').GetName( GetNullCharacter )] приглашены отпраздновать мощь божества. [GetPlayer.GetFaith.WitchGodName], явит им свои таинства."
+ activity_witch_ritual_destination_selection:0 "$activity_witch_ritual$ можно устроить только в [Concept( 'capital', 'столице' )|E]."
+ activity_witch_ritual_selection_tooltip:0 "Поклониться божеству по имени [GetPlayer.GetFaith.WitchGodName] и принять [GetPlayer.GetFaith.WitchGodHerHis|U] темный дар\n\nОжидаемые награды:\n$BULLET_WITH_TAB$[opinion_i] [Concept( 'opinion', 'Мнение' )|E]\n$BULLET_WITH_TAB$Потеря [stress_loss_i] [Concept( 'stress', 'стресса' )|E]"
+ activity_witch_ritual_province_desc:1 "Это ваша [Concept( 'capital', 'столица' )|E]"
+ activity_witch_ritual_host_desc:1 "$BULLET_WITH_TAB$Может получить жизненный опыт\n$BULLET_WITH_TAB$[Concept( 'opinion', 'Мнение' )|E] гостей об участниках может улучшиться\n$BULLET_WITH_TAB$Участники могут снять [Concept( 'stress', 'стресс' )|E]"
+ activity_witch_ritual_conclusion_desc:1 "Мероприятие «[GetActivityType( 'activity_witch_ritual' ).GetName]» завершилось"
+ activity_witch_ritual_guest_desc:1 "$BULLET_WITH_TAB$[Concept( 'opinion', 'Мнение' )|E] гостей об участниках может улучшиться\n$BULLET_WITH_TAB$Участники могут снять [Concept( 'stress', 'стресс' )|E]"
+ activity_witch_ritual_guest_help_text:0 "$activity_witch_ritual_desc$"
+ witch_ritual_phase_desc:0 "Посвятить себя божеству по имени [GetPlayer.GetFaith.WitchGodName]"
+ host_witch_ritual_title:0 "Великий ритуал"
+ host_witch_ritual:0 "Почтили божество по имени [GetPlayer.GetFaith.WitchGodName]"
 
  host_witch_ritual_decision_cooldown:0 "Я не смогу устроить новый великий ритуал в течение #N  10 лет#!"
+
+ ### PHASES
+ witch_ritual_phase:0 "Черный ритуал"
+
+ ### INTENTS
+ worship_devil_intent:2 "Поклоняться божеству по имени [GetPlayer.GetFaith.WitchGodName]"
+ worship_devil_intent_desc:1 "Посвятите себя тому, кто скрыт. Телом. Духом."
 
  #Invitation
  witch.3001.t:0 "[Select_CString(ROOT.Char.IsFemale, 'Дорогая', 'Дорогой' )] [ROOT.Char.Custom('SisterBrother')] [ROOT.Char.GetFirstNameNoTooltip],"
@@ -116,20 +133,20 @@
  witch.3001.b:0 "Да я лучше съем миску слизней."
 
  #Uninvited guest
- witch.3003.t:1 "$activity_witch_ritual$: незваный гость"
- witch.3003.desc:0 "Мои собратья по ведовству стекаются в город [capital.GetNameNoTooltip], и я замечаю незнакомое лицо.\n\nКогда я подхожу поздороваться, [inviter.Custom2('MyCharacterIntroduction', ROOT.Char)] представляет мне [Select_CString(new_guest.IsFemale, 'незнакомую женщину', 'незнакомого мужчину' )] именем [new_guest.GetFirstName]. Как оказалось, они старые знакомые, и [inviter.GetFirstNameNoTooltip] спрашивает, может ли [new_guest.GetFirstNameNoTooltip] присоединиться к ритуалу."
+ witch.3003.t:2 "Незваный гость"
+ witch.3003.desc:1 "Мои собратья по ведовству стекаются в город [capital.GetNameNoTooltip], и я замечаю незнакомое лицо.\n\nКогда я подхожу поздороваться, [inviter.Custom2('MyCharacterIntroduction', ROOT.Char)] представляет мне [Select_CString(new_guest.IsFemale, 'незнакомую женщину', 'незнакомого мужчину' )] по имени [new_guest.GetFirstName]. Оказывается, они старые знакомые, и [inviter.GetFirstNameNoTooltip] спрашивает, может ли [new_guest.GetFirstNameNoTooltip] присоединиться к ритуалу."
  witch.3003.a:0 "Чем больше, тем веселее!"
  witch.3003.b:0 "Вы станете почетным гостем, [new_guest.GetFirstNameNoTooltip]."
  witch.3003.c:0 "$activity_witch_ritual$ — закрытое мероприятие."
 
  #No one attended
- witch.3002.t:0 "$activity_witch_ritual$: недостаточно набожности"
+ witch.3002.t:1 "Нехватка набожности"
  witch.3002.desc:0 "Ни одна живая душа не приняла приглашения. [ROOT.Char.GetFaith.WitchGodName] их не благословит!"
  witch.3002.a:0 "Они почувствуют [ROOT.Char.GetFaith.WitchGodHerHis|U] гнев!"
 
  #Starting event
  every_grand_rite_participant:0 "Каждый гость, пришедший на $activity_witch_ritual$"
- witch.3010.t:1 "$activity_witch_ritual$: восходит полная луна"
+ witch.3010.t:2 "Восходит полная луна"
  witch.3010.desc:0 "Когда луна восходит на небе, знаменуя [ROOT.Char.GetFaith.WitchGodHerHis] прибытие, я чувствую, как мое тело откликается на потоки странной энергии, что разлита в воздухе. Силуэты вокруг огромного костра молчат и не двигаются: все ждут того, что сейчас случится.\n\nМне как устроителю следует начать ритуал. Я..."
  witch.3010.a:0 "Зачитаю древний гримуар."
  witch.3010.a.great:0 "Мой перевод впечатляет"
@@ -178,7 +195,7 @@
  witch.3014.f:1 "Смейтесь, пейте, танцуйте — наслаждайтесь [ROOT.Char.GetFaith.WitchGodHerHis|U] благами!"
 
  #Regular seduction event
- witch.3015.t:0 "$activity_witch_ritual$: у пруда"
+ witch.3015.t:1 "У пруда"
  witch.3015.start.desc:0 "[ROOT.Char.GetFaith.WitchGodName] Своей силой заставляет кровь стучать в моих венах, когда я углубляюсь в лес. Меня встречает хор вздохов и стонов: не только я ищу спутников этой ночью.\n\n"
  witch.3015.new_guest.desc:0 "У залитого луной пруда мне встречается [Select_CString(sex_partner.IsFemale, 'новая знакомая', 'новый знакомый' )], [sex_partner.GetFirstName]."
  witch.3015.regular.desc:0 "[sex_partner.Custom2('MyCharacterIntroduction', ROOT.Char)] стоит у залитого луной пруда."
@@ -188,7 +205,7 @@
  witch.3015.b.tt:1 "Вы проводите ночь в одиночестве"
 
  #Lover/spouse seduction event
- witch.3016.t:0 "$activity_witch_ritual$: звезды сошлись"
+ witch.3016.t:1 "Звезды встали"
  witch.3016.end.desc:0 "Я слышу знакомый голос — это [sex_partner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]. Поворачиваюсь, встречаю [sex_partner.GetHerHis] взгляд — и все становится на места. Мы двое... Такова [ROOT.Char.GetFaith.WitchGodHerHis|U] воля: мы предназначены друг для друга."
  witch.3016.a:0 "Навсегда."
  witch.3016.b:0 "Я... не могу."
@@ -199,7 +216,7 @@
  witch.3017.b:0 "Ой... у меня же дела! Прости!"
 
  #End events
- witch.3098.t:0 "$activity_witch_ritual$: до новых встреч"
+ witch.3098.t:1 "До новых встреч!"
  witch.3098.start.desc:0 "Мы с гостями"
  witch.3098.end.desc:0 "вознесли почести, обменялись священными знаниями и стали больше чем семьей. Мы — союз, которому покровительствует [ROOT.Char.GetFaith.WitchGodName]. Моя голова кипит новыми идеями, но телу срочно нужен отдых. Никогда еще теплая кровать не казалась столь привлекательной."
  witch.3098.a:0 "Да хранит [ROOT.Char.GetFaith.WitchGodSheHe|U] нас, пока вновь не начнется $activity_witch_ritual$."
@@ -213,7 +230,7 @@
 
  ### Court chaplain / other clergy is an idiot ###
  witch.4001.t:0 "Божественное правосудие"
- witch.4001.start.desc:0 "[annoying_clergy.Custom2('MyCharacterIntroduction', ROOT.Char)|U] у меня уже в печенках сидит! [annoying_clergy.GetSheHe|U] постоянно нудит об одном и том же: как [Select_CString( annoying_clergy.GetFaith.HighGod.IsFemale, 'велика', 'велик' )] [annoying_clergy.GetFaith.HighGodName] и абсолютна [annoying_clergy.GetFaith.HighGodHerHis|U] воля.\n\nОсобенно [annoying_clergy.GetSheHe] любит рассказывать, что [annoying_clergy.GetFaith.HighGodNameAlternate]"
+ witch.4001.start.desc:0 "[annoying_clergy.Custom2('MyCharacterIntroduction', ROOT.Char)|U] у меня уже в печенках сидит! [annoying_clergy.GetSheHe|U] постоянно нудит об одном и том же: о величии и непререкаемости воли [annoying_clergy.GetFaith.HighGodNamePossessive].\n\nОсобенно [annoying_clergy.GetSheHe] любит рассказывать, что [annoying_clergy.GetFaith.HighGodNameAlternate]"
  witch.4001.forgiving.desc:0 "не любит прощения и считает его слабостью."
  witch.4001.deceitful.desc:0 "наказывает лжецов."
  witch.4001.gluttonous.desc:0 "карает тех, кто получает удовольствие от еды и питья."
@@ -283,13 +300,13 @@
  witch.4020.equinox.desc:0 "обряд равноденствия"
  witch.4020.solstice.desc:0 "обряд равноденствия"
  witch.4020.end.desc:0 "во славу нашего божества. Мне как организатору предстоит возглавить моление. «О [ROOT.Char.GetFaith.WitchGodName]!..»"
- witch.4020.a:0 "[Select_CString( ROOT.Char.GetFaith.WitchGodIsFemale, 'Мудрая', 'Мудрый' )] [ROOT.Char.GetFaith.WitchGodMistressMaster|U], да обретет [prayer_witch_1.GetFirstNameNoTooltip] мир и прозрение!"
+ witch.4020.a:0 "Мудрая [ROOT.Char.GetFaith.WitchGodMistressMaster|U], да обретет [prayer_witch_1.GetFirstNameNoTooltip] мир и прозрение!"
  witch.4020.b:0 "Пусть [prayer_witch_2.GetFirstNameNoTooltip] обретет твое благословение!"
  witch.4020.c:0 "[ROOT.Char.GetFaith.WitchGodMotherFather|U] всех тайн, надели меня твоей силой!"
 
  witch.4030.t:0 "Тайны в кожаном переплете"
- witch.4030.no_friend.desc:1 "Мне прислали книгу, все страницы которой зашифрованы, а кожаный переплет покрыт символами, что [ROOT.Char.GetFaith.WitchGodIsFemale, 'даровала', 'даровал' )] нам [ROOT.Char.GetFaith.WitchGodMistressMaster|U].\n\nМне удалось расшифровать лишь первые несколько страниц, но даже они поражают воображение."
- witch.4030.friend.desc:1 "[Select_CString(witch_friend.IsFemale, 'Моя дорогая', 'Мой дорогой' )] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('witch_friend'))] [witch_friend.GetTitledFirstName] [Select_CString(witch_friend.IsFemale, 'дала', 'дал' )] мне книгу, все страницы которой зашифрованы, а кожаный переплет покрыт символами, что [ROOT.Char.GetFaith.WitchGodIsFemale, 'даровала', 'даровал' )] нам [ROOT.Char.GetFaith.WitchGodMistressMaster|U].\n\n[witch_friend.GetSheHe|U] [Select_CString(witch_friend.IsFemale, 'сумела', 'сумел' )] расшифровать лишь несколько страниц, но даже столь немногое поражает воображение."
+ witch.4030.no_friend.desc:1 "Мне прислали книгу, все страницы которой зашифрованы, а кожаный переплет покрыт символами, что даровала нам [ROOT.Char.GetFaith.WitchGodMistressMaster|U].\n\nМне удалось расшифровать лишь первые несколько страниц, но даже они поражают воображение."
+ witch.4030.friend.desc:1 "[Select_CString(witch_friend.IsFemale, 'Моя дорогая', 'Мой дорогой' )] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('witch_friend'))] [witch_friend.GetTitledFirstName] [Select_CString(witch_friend.IsFemale, 'дала', 'дал' )] мне книгу, все страницы которой зашифрованы, а кожаный переплет покрыт символами, что даровала нам [ROOT.Char.GetFaith.WitchGodMistressMaster|U].\n\n[witch_friend.GetSheHe|U] [Select_CString(witch_friend.IsFemale, 'сумела', 'сумел' )] расшифровать лишь несколько страниц, но даже столь немногое поражает воображение."
 
  witch.4030.friend.a:0 "Мы вместе доберемся до сокрытых в книге тайн."
  witch.4030.no_friend.a:0 "Я доберусь до ее секретов, и время не имеет значения!"

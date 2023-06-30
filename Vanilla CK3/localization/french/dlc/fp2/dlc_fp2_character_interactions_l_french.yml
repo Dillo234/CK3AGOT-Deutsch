@@ -37,7 +37,7 @@
  at_least_one_county_with_neutral_negative_opinion:0 "Au moins un [county|El] a une [county_opinion|El] négative"
  incite_revolts_interaction_result.tt:0 "Révolte financée en [chosen_county.GetName]"
  incite_revolts_interaction_result.desc:0 "Le mécontentement grandit, et on espère qu’une révolte va bientôt éclater."
- incite_revolts_interaction_notif_failure:0 "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUINameNoTooltip] m'associe à la révolte"
+ incite_revolts_interaction_notif_failure:0 "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUINameNoTooltip] m’associe à la révolte"
  incite_revolts_interaction_notif_success:0 "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUINameNoTooltip] ne remarque pas mon implication"
 
  # Enforce Truce
@@ -68,7 +68,7 @@
  bargain_fealty_interaction_desc:1 "$game_concept_bargain_fealty_desc$"
  bargain_fealty_interaction_notification:0 "Vous apprécierez l’apport de mes soldats à vos forces !"
  bargain_fealty_border_raid_tt:0 "Impossible de [bargain_fealty|El] dans un [border_raid|El]"
- bargain_fealty_struggle_clash_tt:1 "Impossible de [bargain_fealty|E] dans un [struggle_conquest|El]"
+ bargain_fealty_struggle_clash_tt:1 "Impossible de [bargain_fealty|El] dans un [struggle_conquest|El]"
  bargain_fealty:0 "$bargain_fealty_interaction$"
 
  BF_AI_OUTNUMBERED_REASON:0 "L’armée [actor.Custom('FR_du_Char_U_Pi')][actor.GetShortUIName] est grandement en infériorité numérique : $VALUE|=+0$"
@@ -95,20 +95,20 @@
  OA_AI_DEFENSIVE_WAR_REASON:0 "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUIName|U] se défend : $VALUE|=+0$"
  OA_AI_FAILURE_REASON:0 "Les échecs passés [actor.Custom('FR_du_Char_U_Pi')][actor.GetShortUIName] en tant que contractant : $VALUE|=+0$"
  OA_AI_LOYALTY_TOWARDS_ALLIES_REASON:0 "Loyauté envers un [ally|El] : $VALUE|=+0$"
- contract_assistance_interaction_condition_tt:0 "Si la [war_contribution|El] [actor.Custom('FR_du_Char_U_Pi')][actor.GetShortUIName] est au moins de [SCOPE.ScriptValue('saved_contribution_value')|Z0] quand la [war|El] prend fin :" # [LocEditor:AwaitingBatchUpdate]
+ contract_assistance_interaction_condition_tt:1 "Si la [war_contribution|El] [actor.Custom('FR_du_Char_U_Pi')][actor.GetShortUIName] est au moins de [SCOPE.ScriptValue('saved_contribution_value')|Z0] quand la [war|El] prend fin :"
  contract_assistance_war_msg_title:0 "$contract_assistance_interaction$ : fin de la guerre"
- contract_assistance_war_msg_hirer_paid_desc:0 "Vous avez payé [contract_assistance_helper.Custom('FR_le_Char_U_Pi')][contract_assistance_helper.GetShortUIName] pour une [contract_assistance|El], puisque sa [war_contribution|El] était au moins [SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
- contract_assistance_war_msg_helper_paid_desc:0 "Vous avez été payé par [contract_assistance_hirer.Custom('FR_le_Char_U_Pi')][contract_assistance_hirer.GetShortUIName] pour une [contract_assistance|El], puisque votre [war_contribution|El] était au moins [SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
- contract_assistance_war_msg_hirer_kept_desc:0 "Vous n’avez pas payé [contract_assistance_helper.Custom('FR_le_Char_U_Pi')][contract_assistance_helper.GetShortUIName] pour une [contract_assistance|El], puisque son [war_contribution|El] était inférieure à [SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
- contract_assistance_war_msg_helper_kept_desc:0 "Vous n’avez pas été payé par [contract_assistance_hirer.Custom('FR_le_Char_U_Pi')][contract_assistance_hirer.GetShortUIName] pour une [contract_assistance|El], puisque votre [war_contribution|El] était inférieure à [SCOPE.ScriptValue('saved_contribution_value')|Z0]" # [LocEditor:AwaitingBatchUpdate]
+ contract_assistance_war_msg_hirer_paid_desc:1 "Vous avez payé [contract_assistance_helper.Custom('FR_le_Char_U_Pi')][contract_assistance_helper.GetShortUIName] pour une [contract_assistance|El], puisque sa [war_contribution|El] était au moins [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
+ contract_assistance_war_msg_helper_paid_desc:1 "Vous avez été payé par [contract_assistance_hirer.Custom('FR_le_Char_U_Pi')][contract_assistance_hirer.GetShortUIName] pour une [contract_assistance|El], puisque votre [war_contribution|El] était au moins [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
+ contract_assistance_war_msg_hirer_kept_desc:1 "Vous n’avez pas payé [contract_assistance_helper.Custom('FR_le_Char_U_Pi')][contract_assistance_helper.GetShortUIName] pour une [contract_assistance|El], puisque son [war_contribution|El] était inférieure à [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
+ contract_assistance_war_msg_helper_kept_desc:1 "Vous n’avez pas été payé par [contract_assistance_hirer.Custom('FR_le_Char_U_Pi')][contract_assistance_hirer.GetShortUIName] pour une [contract_assistance|El], puisque votre [war_contribution|El] était inférieure à [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
  contract_assistance_war_msg_hirer_invalidated_desc:0 "Vous n’avez pas payé [contract_assistance_helper.Custom('FR_le_Char_U_Pi')][contract_assistance_helper.GetShortUIName] pour une [contract_assistance|El], parce que la guerre a été invalidée"
  contract_assistance_war_msg_helper_invalidated_desc:0 "Vous n’avez pas été payé par[contract_assistance_hirer.GetShortUIName] pour une [contract_assistance|El], parce que la guerre a été invalidée"
  contract_assistance_war_already_contracted_tt:0 "Vous avez déjà une [contracting_assistance|El] dans une guerre"
 
  invite_foreign_ruler_to:0 "Inviter à une activité"
  invite_foreign_ruler_to_desc:1 "Inviter un [ruler|El] d’un autre [realm|El] de se joindre à vous pour un festin ou une chasse"
- invite_foreign_ruler_to.feast.tooltip:0 "Vous organisez un [feast|El] avec [recipient.Custom('FR_le_Char_Pi')][recipient.GetTitledFirstName] en tant qu’invité spécial"
- invite_foreign_ruler_to.hunt.tooltip:0 "Vous allez à la [hunt|El] avec [recipient.Custom('FR_le_Char_Pi')][recipient.GetTitledFirstName] en tant qu’invité spécial"
+ invite_foreign_ruler_to.feast.tooltip:0 "Vous organisez un [GetActivityType('activity_feast').GetName|l] avec [recipient.Custom('FR_le_Char_Pi')][recipient.GetTitledFirstName] en tant qu’invité spécial"
+ invite_foreign_ruler_to.hunt.tooltip:1 "Vous allez à la [GetActivityType('activity_hunt').GetName|l] avec [recipient.Custom('FR_le_Char_Pi')][recipient.GetTitledFirstName] en tant qu’invité spécial"
  INVITE_FOREIGN_RULER_TO_NOTIFICATION:0 "Vous et moi devrions forger une amitié ! S’il vous plaît, acceptez mon invitation à participer à une activité de détente."
  invited_to_hunt.accept.actor.tt:0 "[recipient.Custom('FR_le_Char_Pi')|U][recipient.GetTitledFirstName] a accepté votre invitation à se joindre à votre chasse"
  invited_to_feast.accept.actor.tt:0 "[recipient.Custom('FR_le_Char_Pi')|U][recipient.GetTitledFirstName] a accepté votre invitation à se joindre à votre fête"
@@ -126,7 +126,7 @@
  request_contract_assistance_interaction:0 "Demander une aide contractuelle"
  request_contract_assistance_interaction_desc:0 "Proposez à ce [ruler|El] [struggle_involved|El] de rejoindre l’une de vos [wars|El] en échange d’[gold|El]."
  request_contract_assistance_interaction_notification:0 "Vos troupes pourraient être très utiles dans mon conflit ; nous devons seulement convenir d’un prix."
- request_contract_assistance_interaction_condition_tt:0 "Si la [war_contribution|El] [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUIName] est d’au moins [SCOPE.ScriptValue('saved_contribution_value')|Z0] à la fin de la [war|El] :" # [LocEditor:AwaitingBatchUpdate]
+ request_contract_assistance_interaction_condition_tt:1 "Si la [war_contribution|El] [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUIName] est d’au moins [SCOPE.ScriptValue('saved_contribution_value')|Z0] à la fin de la [war|El] :"
 
  share_known_secrets_interaction_extra_icon:0 "$hook_extra_icon$"
  no_activity_available:0 "Il n’y a pas d’[activity|El] disponible"

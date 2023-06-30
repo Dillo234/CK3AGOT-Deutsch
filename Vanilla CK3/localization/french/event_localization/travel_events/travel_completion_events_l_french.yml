@@ -1,0 +1,17 @@
+﻿l_french:
+#Travel Completion Events
+#Generic completion
+ travel_completion_event.1000.t:1 "$travel_event_prefix$ arrivé[ROOT.Char.Custom('FR_E')] à destination"
+ travel_completion_event.1000.desc.home:0 "Je suis enfin rentré[ROOT.Char.Custom('FR_E')] chez moi ! Il n’y a rien de tel que d’arriver en [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] après un long voyage. J’ai hâte de me reposer un peu, "
+ travel_completion_event.1000.desc.abroad:0 "Après un long voyage, j’arrive enfin à [final_destination_province.GetName] ! Je n’aurai plus à me soucier des sentiers poussiéreux et des plaies dues à la selle pendant un certain temps, "
+ travel_completion_event.1000.desc.activity:0 "puisque le moment est venu de participer [ROOT.Char.GetInvolvedActivity.Custom('FR_Au_ActivityFull')][ROOT.Char.GetInvolvedActivity.GetName|l].\n\n"
+ travel_completion_event.1000.desc.no_activity:0 "mais l’appel de la route nous pousse toujours plus loin.\n\n"
+ travel_completion_event.1000.stats:2 "Ma suite me signale que nous voyageons depuis [travel_plan_scope.MakeScope.Var('travel_plan_elapsed_days').GetValue] jours et avons parcouru [travel_plan_scope.MakeScope.Var('travel_plan_provinces_traversed').GetValue] baronnies.\n\n"
+ travel_completion_event.1000.stats.travel_leader:0 "Mon [GetCourtPositionType('travel_leader_court_position').GetNameNoTooltip()|l], [travel_leader_scope.Custom('FR_le_Char_Pi')][travel_leader_scope.GetTitledFirstName], me signale que nous voyageons depuis [travel_plan_scope.MakeScope.Var('travel_plan_elapsed_days').GetValue] jours et avons traversé [travel_plan_scope.MakeScope.Var('travel_plan_provinces_traversed').GetValue] baronnies.\n\n"
+ travel_completion_event.1000.desc.memory:0 "Je n’oublierai jamais quand [travel_conc_memory.GetDescription]."
+ travel_completion_event.1000.desc.cultural_ambassador:0 "Mon ambassadeur culturel a eu une chance de propager l’acceptation de la culture [ROOT.Char.GetCulture.GetName] !\n\n"
+ travel_completion_event.1000.a:1 "Grâce [ROOT.Char.GetFaith.HighGodName2], je peux rentrer..."
+ travel_completion_event.1000.b:1 "Voyager est merveilleux, mais rentrer chez soi est encore mieux."
+ cultural_ambassador_cultural_acceptance_gain_desc:0 "Voyage avec un ambassadeur culturel"
+ cultural_ambassador_toast.t:0 "[cultural_ambassador.GetFirstNameNoTooltip] augmente l’acceptation culturelle"
+ cultural_ambassador_option.tt:0 "Effets de votre ambassadeur culturel :\n$EFFECT_LIST_BULLET$L’[cultural_acceptance|El] entre chaque [culture|El] que vous avez visitée et la [SCOPE.GetRootScope.GetCharacter.GetCulture.GetName] a augmenté de #positive_value +1%#!"

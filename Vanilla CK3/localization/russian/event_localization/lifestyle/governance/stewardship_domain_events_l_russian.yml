@@ -92,7 +92,7 @@
  stewardship_domain.6014.a:0 "«Я прекрасно это понимаю»."
  stewardship_domain.6014.b:1 "[county.GetTierAsNameNoTooltip] служит мне, и гильдии тоже будут служить!"
 
- stewardship_domain.6015.desc:1 "Должно быть, старший каменщик и [Select_CString(steward.Char.IsFemale, 'моя', 'мой' )] [steward.GetCouncilTitle|l] [steward.GetTitledFirstName] поладили, поскольку [Select_CString(steward.IsFemale, 'последняя вернулась', 'последний вернулся' )] с предложением от каменщиков, даже превосходящим мои изначальные требования."
+ stewardship_domain.6015.desc:1 "Должно быть, старший каменщик и [Select_CString(steward.IsFemale, 'моя', 'мой' )] [steward.GetCouncilTitle|l] [steward.GetTitledFirstName] поладили, поскольку [Select_CString(steward.IsFemale, 'последняя вернулась', 'последний вернулся' )] с предложением от каменщиков, даже превосходящим мои изначальные требования."
  stewardship_domain.6015.a:0 "Вряд ли мне удалось бы провести переговоры лучше!"
 
  stewardship_domain.6016.desc:0 "[steward.GetTitledFirstName] [Select_CString(steward.IsFemale, 'вернулась', 'вернулся' )] ко мне с предложением от гильдии каменщиков.\n\n«Мне удалось проверить их записи, [ROOT.Char.GetLadyLord]. Не думаю, что мы найдем более выгодное предложение»."

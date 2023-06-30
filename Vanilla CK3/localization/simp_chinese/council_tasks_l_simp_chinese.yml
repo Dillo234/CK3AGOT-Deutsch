@@ -37,6 +37,8 @@
  task_intrigue_good_skilled_notification_tooltip:0 "这笔意外收获归功于你的[active_councillor.GetCouncilTitlePossessive][active_councillor.Custom('intrigue_skill_level')]的谋略能力。"
  task_learning_good_skilled_notification_tooltip:0 "这笔意外收获归功于你的[active_councillor.GetCouncilTitlePossessive][active_councillor.Custom('learning_skill_level')]的学识能力。"
 
+ task_martial_good_acclaimed_knight_notification_tooltip:0 "这种情况发生是因为一位辉煌的[acclaimed_knight]。"
+
 
 #spouse
  spouse_task_diplomacy_good_skilled_notification_tooltip:0 "这笔意外收获归功于你的配偶[councillor.Custom('diplomacy_skill_level')]的外交能力。"
@@ -75,7 +77,7 @@
  task_foreign_affairs_notification_tooltip:0 "$task_foreign_affairs$产生"
 
  task_domestic_affairs:0 "处理国内事务"
- task_domestic_affairs_effect_desc:4 "[direct_vassal|E]好感：#P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_scale')|1]#!\n（增加#P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_monthly_increase')|2P]/月，最大值为#P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_max')|1P]）\n$TAB$内阁成员的[diplomacy_skill|E]：#P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_base')|2]#!"
+ task_domestic_affairs_effect_desc:5 "[direct_vassal|E]好感：#P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_scale')|1]#!\n（增加#P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_monthly_increase')|2P]/月，最大值为#P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_max')|0P]）\n$TAB$内阁成员的[diplomacy_skill|E]：#P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_base')|2]#!\n[GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName][vassal|E]好感：#P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_scale')|1]#!\n（增加#P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_monthly_increase')|2P]/月，最大值为#P +#![SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_max')|0P]）\n$TAB$内阁成员的[diplomacy_skill|E]：#P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_base')|2]#!"
  task_domestic_affairs_bureaucrats_bonus_desc:2 "\n$TAB$$tradition_family_entrepreneurship_name$：#P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_family_business_bonus')|2]#!"
  task_domestic_affairs_family_business_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]：#P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_erudition_bonus')|2]#!"
  task_domestic_affairs_chains_of_loyalty_bonus_desc:0 "\n$TAB$[GetPerk('chains_of_loyalty_perk').GetName(GetPlayer)]：#P +[SCOPE.ScriptValue('chancellor_domestic_affairs_opinion_chains_of_loyalty_bonus')|2]#!"
@@ -108,12 +110,13 @@
 #marshal
  task_organize_levies:1 "组织军队"
  task_organize_levies_maintenance_modifier:0 "$task_organize_levies$"
- task_organize_levies_effect_desc:4 "[garrison|E]规模、[levy|E]规模及补员速度：#P +[SCOPE.ScriptValue('marshal_organize_levies_modifier_value')]%#!\n$TAB$基础：#P +[SCOPE.ScriptValue('marshal_organize_levies_base')]%#!\n$TAB$内阁成员的[martial_skill|E]：#P +[SCOPE.ScriptValue('marshal_organize_levies_skill_base')]%#!"
+ task_organize_levies_effect_desc:5 "[garrison|E]规模和[levy|E]补员速度：#P +[SCOPE.ScriptValue('marshal_organize_levies_modifier_value')]%#!\n$TAB$基础：#P +[SCOPE.ScriptValue('marshal_organize_levies_base')]%#!\n$TAB$内阁成员的[martial_skill|E]：#P +[SCOPE.ScriptValue('marshal_organize_levies_skill_base')]%#!"
  task_organize_levies_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]：#P +[SCOPE.ScriptValue('marshal_organize_levies_erudition_bonus')]%#!"
  task_organize_levies_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$：#P -[SCOPE.ScriptValue('marshal_organize_levies_family_business_bonus')|1]%#!"
- task_organize_levies_maintenance_effect_desc:0 "\n\n军队维护费：#P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_total')|1P]%#!\n$TAB$基础：#P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_base')|1P]%#!\n$TAB$内阁成员的[martial_skill|E]：#P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_skill_base')|1P]%#!"
+ task_organize_levies_maintenance_effect_desc:1 "\n\n已集结[army|E]的维护费：[gold_i]#P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_total')|1P]%#!\n$TAB$基础：#P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_base')|1P]%#!\n$TAB$内阁成员的[martial_skill|E]：#P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_skill_base')|1P]%#!"
  task_organize_levies_maintenance_erudition_bonus_desc:1 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]：#P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_erudition_bonus')|1]%#!"
  task_organize_levies_maintenance_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$：#P -[SCOPE.ScriptValue('marshal_organize_levies_maintenance_family_business_bonus')|1]%#!"
+ task_train_commanders_acclaimed_knight_levy_captaincy:0 "\n$EFFECT_LIST_BULLET$#P [acclaimed_knight]准备征召兵#!"
  task_organize_levies_well_organized_service:0 "\n$EFFECT_LIST_BULLET$#P 井然有序的服役#!"
  task_organize_levies_increased_military_presence:0 "\n$EFFECT_LIST_BULLET$#P 军事存在提升#!"
  task_organize_levies_levy_desertion:0 "\n$EFFECT_LIST_BULLET$#N 征召兵逃逸#!"
@@ -135,6 +138,7 @@
  task_train_commanders_maa_boost_effect_desc:0 "[knight_effectiveness|E]、[men_at_arms|E]的[damage|E]和[toughness|E]：\n$TAB$增加#P +[SCOPE.ScriptValue('marshal_maa_overtime_boost_monthly_increase')|1]%#!/月，最多增加#P +[SCOPE.ScriptValue('marshal_maa_overtime_boost_max')|1]%#!（目前：#P +[SCOPE.ScriptValue('marshal_maa_overtime_boost_scale')|1]%#!）\n$TAB$内阁成员的[martial_skill|E]：#P +[SCOPE.ScriptValue('marshal_maa_overtime_boost_base')|1]%#!"
  task_train_commanders_commander_erudition_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]：#P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_erudition_bonus')|P]%#!"
  task_train_commanders_commander_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$：#P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_family_business_bonus')|P]%#!"
+ task_train_commanders_acclaimed_knight_drills_hastiludes:0 "\n$EFFECT_LIST_BULLET$#P [acclaimed_knight]操练[GetTrait('tourney_participant').GetNameNoTooltip( GetNullCharacter )]#!"
  task_train_commanders_commander_learns_from_commander:1 "\n$EFFECT_LIST_BULLET$#P 将领获得[commander_trait]#!"
  task_train_commanders_knight_improved:0 "\n$EFFECT_LIST_BULLET$#P [knight]取得进步#!"
  task_train_commanders_commander_wounded:0 "\n$EFFECT_LIST_BULLET$#N 将领受伤#!"
@@ -155,6 +159,7 @@
  marshal_increase_control_nemesis_bonus_modifier:0 "[nemesis|E]正在$task_increase_control$"
  marshal_increase_control_perk_bonus_modifier:0 "$strict_organization_perk_name$"
  marshal_increase_control_erudition_bonus_modifier:1 "[GetDynastyPerk('erudition_legacy_5').GetName]"
+ task_increase_control_acclaimed_knight_subdues_peasantry:0 "\n$EFFECT_LIST_BULLET$#P [acclaimed_knight]制服当地农民#!"
  task_increase_control_increase_opinion:0 "\n$EFFECT_LIST_BULLET$#P 提升伯爵领好感#!"
  task_increase_control_baron_opinion_increase:0 "\n$EFFECT_LIST_BULLET$#P 提升男爵好感#!"
  task_increase_control_lose_opinion:0 "\n$EFFECT_LIST_BULLET$#N 失去伯爵领好感#!"
@@ -173,7 +178,7 @@
 
  task_manage_guards:0 "管理禁卫"
  task_manage_guards_knights_desc:0 "[knight_effectiveness|E]：\n$TAB$提升#P +[SCOPE.ScriptValue('marshal_knight_overtime_boost_monthly_increase')]%#!/月，上限为#P +[SCOPE.ScriptValue('marshal_knight_overtime_boost_max')]%#!（目前：#P +[SCOPE.ScriptValue('marshal_knights_overtime_boost_scale')]%#!）"
- task_manage_guards_scheme_desc:0 "\n\n敌对[hostile_scheme|E][success_chance|E]：\n$TAB$降低#P [SCOPE.ScriptValue('marshal_scheme_overtime_boost_monthly_increase')]%#!/月，最多降低#P [SCOPE.ScriptValue('marshal_scheme_overtime_boost_max')]%#!（当前：#P +[SCOPE.ScriptValue('marshal_scheme_overtime_boost_scale')]%#!）"
+ task_manage_guards_scheme_desc:1 "\n\n敌对[hostile_scheme|E][success_chance|E]：\n$TAB$降低#P [SCOPE.ScriptValue('marshal_scheme_overtime_boost_monthly_increase')]%#!/月，最多降低#P [SCOPE.ScriptValue('marshal_scheme_overtime_boost_max')]%#!（当前：#P [SCOPE.ScriptValue('marshal_scheme_overtime_boost_scale')]%#!）"
  task_manage_guards_erudition_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]：#P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_erudition_bonus')|P]%#!"
  task_manage_guards_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$：#P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_family_business_bonus')|P]%#!"
  task_manage_guards_knight_modifier:0 "管理禁卫：骑士战斗力"
@@ -201,22 +206,22 @@
  task_disrupt_schemes_court_of_shadows_modifier:0 "宫廷诡影"
  task_disrupt_schemes_court_of_shadows_modifier_desc:0 "该角色正在指导其间谍首脑如何在宫廷中挫败敌人的歹毒行动。"
  task_disrupt_schemes_notification_tooltip:0 "来自$task_disrupt_schemes$"
- task_disrupt_schemes_hostile_scheme_resistance_base:1 "[hostile_scheme_resistance|E]：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_modifier_final_scale')|1]#!\n$TAB$基础：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_hostile_scheme_resistance_base')|1]#!\n$TAB$[councillor.GetCouncilTitle][councillor.GetShortUINamePossessive]的[intrigue_skill|E]：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_modifier_base_scale')|1]#!"
+ task_disrupt_schemes_hostile_scheme_resistance_base:2 "[hostile_scheme_resistance|E]：@scheme_power_icon!#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_modifier_final_scale')|1]#!\n$TAB$基础：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_hostile_scheme_resistance_base')|1]#!\n$TAB$[councillor.GetCouncilTitle][councillor.GetShortUINamePossessive]的[intrigue_skill|E]：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_modifier_base_scale')|1]#!"
  task_disrupt_schemes_hostile_scheme_resistance_perk_bonus:0 "\n$TAB$[GetPerk('court_of_shadows_perk').GetName(GetPlayer)]：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_court_of_shadows_modifier_scale')|1]#!"
  task_disrupt_schemes_hostile_scheme_resistance_legacy_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_erudition_legacy_5_modifier_scale')|P1]#!"
  task_disrupt_schemes_hostile_scheme_resistance_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_family_business_modifier_scale')|P1]#!"
- task_disrupt_schemes_discovery_chance_base:1 "\n[scheme_discovery_chance|E]：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_total_modifier')|1]#!\n$TAB$基础：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_scheme_discovery_base')|1]#!\n$TAB$[councillor.GetCouncilTitle][councillor.GetShortUINamePossessive]的[intrigue_skill|E]：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_scheme_discovery_modifier')|1]#!"
+ task_disrupt_schemes_discovery_chance_base:2 "\n[scheme_discovery_chance|E]：@exposed_icon!#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_total_modifier')|1]#!\n$TAB$基础：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_scheme_discovery_base')|1]#!\n$TAB$[councillor.GetCouncilTitle][councillor.GetShortUINamePossessive]的[intrigue_skill|E]：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_scheme_discovery_modifier')|1]#!"
  task_disrupt_schemes_discovery_chance_perk_bonus:0 "\n$TAB$[GetPerk('court_of_shadows_perk').GetName(GetPlayer)]：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_court_of_shadows_scheme_discovery_modifier_scale')|1]#!"
  task_disrupt_schemes_discovery_chance_legacy_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_erudition_legacy_5_discovery_modifier_scale')|P1]#!"
  task_disrupt_schemes_discovery_chance_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$：#P +[SCOPE.ScriptValue('spymaster_disrupt_schemes_family_business_discovery_modifier_scale')|P1]#!"
 
  task_support_schemes:0 "支持计谋"
  task_support_schemes_effect_desc:0 "[councillor.GetModifierDescForTask('task_support_schemes')]"
- task_support_schemes_base_desc:1 "[hostile_scheme|E]强度：#P +[SCOPE.ScriptValue('spymaster_espionage_modifier_final_scale')|1]#!\n$TAB$基础：#P +[SCOPE.ScriptValue('spymaster_espionage_scheme_power_base')|P1]#!\n$TAB$[councillor.GetCouncilTitle][councillor.GetShortUINamePossessive]的[intrigue_skill|E]：#P +[SCOPE.ScriptValue('spymaster_espionage_modifier_base_scale')|P1]#!"
+ task_support_schemes_base_desc:2 "[hostile_scheme|E][scheme_power_single|E]：@scheme_power_icon!#P +[SCOPE.ScriptValue('spymaster_espionage_modifier_final_scale')|1]#!\n$TAB$基础：#P +[SCOPE.ScriptValue('spymaster_espionage_scheme_power_base')|P1]#!\n$TAB$[councillor.GetCouncilTitle][councillor.GetShortUINamePossessive]的[intrigue_skill|E]：#P +[SCOPE.ScriptValue('spymaster_espionage_modifier_base_scale')|P1]#!"
  task_support_schemes_legacy_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]：#P +[SCOPE.ScriptValue('spymaster_espionage_legacy_bonus')|P1]#!"
  task_support_schemes_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$：#P +[SCOPE.ScriptValue('spymaster_espionage_family_business_bonus')|P1]#!"
  spymaster_espionage_court_type_bonus_desc:0 "\n$TAB$$court_intrigue$：#P +[SCOPE.ScriptValue('spymaster_espionage_court_type_bonus')|P1]%#!"
- task_support_schemes_success_chance_base_desc:1 "\n[hostile_scheme|E][success_chance|E]：#P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_total')|P1]#!\n$TAB$基础：#P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_base')|P1]#!\n$TAB$[councillor.GetCouncilTitle][councillor.GetShortUINamePossessive]的[intrigue_skill|E]：#P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_modifier_base_scale')|P1]#!"
+ task_support_schemes_success_chance_base_desc:2 "\n[hostile_scheme|E][success_chance|E]：@scheme_success_icon!#P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_total')|P1]#!\n$TAB$基础：#P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_base')|P1]#!\n$TAB$[councillor.GetCouncilTitle][councillor.GetShortUINamePossessive]的[intrigue_skill|E]：#P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_modifier_base_scale')|P1]#!"
  task_support_schemes_success_chance_legacy_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]：#P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_legacy_bonus')|P1]#!"
  task_support_schemes_success_chance_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$：#P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_family_business_bonus')|P1]#!"
  spymaster_espionage_success_chance_court_type_bonus_desc:0 "\n$TAB$$court_intrigue$：#P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_court_type_bonus')|P1]#!"
@@ -229,7 +234,7 @@
  task_support_schemes_notification_tooltip:0 "来自$task_support_schemes$"
  
  task_find_secrets:0 "查找秘密"
- task_find_secrets_effect_desc:0 "如果宫廷中存在任何秘密：\n$TAB$发现秘密的概率为[SCOPE.ScriptValue('spymaster_find_secrets_secret_discovery_chance')|P]#P %#!"
+ task_find_secrets_effect_desc:1 "如果宫廷中存在任何[secrets|E]：\n$TAB$发现[secret|E]的概率为[SCOPE.ScriptValue('spymaster_find_secrets_secret_discovery_chance')|P]#P %#!"
  task_find_secrets_vassal_intimidation:0 "\n胁迫封臣的概率"
  task_find_secrets_opinion_loss:0 "\n$EFFECT_LIST_BULLET$#N $task_find_secrets$被察觉#!"
  task_find_secrets_notification_tooltip:0 "来自$task_find_secrets$"
@@ -243,7 +248,7 @@
 
 #steward
  task_collect_taxes:0 "收税"
- task_collect_taxes_effect_desc:2 "[domain|E]税收：#P +[SCOPE.ScriptValue('steward_collect_taxes_scale_tooltip_total')|2]%#!\n$TAB$[councillor.GetCouncilTitle][councillor.GetShortUIName]的[stewardship_skill|E]：#P +[SCOPE.ScriptValue('steward_collect_taxes_scale_base')|1]%#!"
+ task_collect_taxes_effect_desc:3 "[domain|E]税收：[gold_i]#P +[SCOPE.ScriptValue('steward_collect_taxes_scale_tooltip_total')|2]%#!\n$TAB$[councillor.GetCouncilTitle][councillor.GetShortUIName]的[stewardship_skill|E]：#P +[SCOPE.ScriptValue('steward_collect_taxes_scale_base')|1]%#!"
  task_collect_taxes_tax_man_bonus_desc:2 "\n$TAB$[GetPerk('tax_man_perk').GetName(GetPlayer)]：#P +[SCOPE.ScriptValue('steward_collect_taxes_perk_bonus_scale')|2]%#!"
  task_collect_taxes_erudition_bonus_desc:2 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]：#P +[SCOPE.ScriptValue('steward_collect_taxes_erudition_bonus_scale')|2]%#!"
  task_collect_taxes_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$：#P +[SCOPE.ScriptValue('steward_collect_taxes_family_business_bonus_scale')|2]%#!"
@@ -315,6 +320,7 @@
  STEWARD_PROMOTE_CULTURE_RECLAIMING_BRITANNIA:0 "收复不列颠尼亚"
  STEWARD_PROMOTE_CULTURE_ALLOWED_NOMAD_SETTLEMENT:0 "游牧民在此定居"
  STEWARD_PROMOTE_CULTURE_HYBRID_VS_PARENTS_BONUS_MODIFIER:1 "新形成的[hybrid_culture|E]转化其父母[culture|E]"
+ STEWARD_PROMOTE_CULTURE_DIVERGENT_VS_PARENTS_BONUS_MODIFIER:0 "新形成的[divergent_culture|E]转化其父母[culture|E]"
  STEWARD_PROMOTE_CULTURE_LOCAL_COUNTY_MODIFIERS:0 "当地[county|E][modifiers|E]"
  COUNCILLOR_SAME_CULTURE_AS_TARGET:0 "同一[culture|E]"
 

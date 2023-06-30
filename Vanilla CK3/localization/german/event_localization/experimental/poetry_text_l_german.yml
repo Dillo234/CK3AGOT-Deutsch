@@ -43,10 +43,10 @@
 
 # Lines from the Song of Roland for now
 
- poetry.0003.t:0 "Gedicht über [ROOT.GetCharacter.Custom('theme_announcement')UD]"
+ poetry.0003.t:0 "Gedicht über [ROOT.GetCharacter.Custom('theme_announcement')|UD]"
  # First line
  0003.line_1_A:0 "[ROOT.GetCharacter.Custom('noun_specific_singular_one')|D] schon manch Land zerrüttet hat,"
- 0003.line_1_B:0 "In einer langen Zeit voll [ROOT.GetCharacter.Custom('noun_abstract_plural_one')D]"
+ 0003.line_1_B:0 "In einer langen Zeit voll [ROOT.GetCharacter.Custom('noun_abstract_plural_one')|D]"
  0003.line_1_C:0 "[ROOT.GetCharacter.Custom('noun_specific_singular_two')|D]: Keinen Mangel hieran kannte Karl der König, unser Fürst und Herrscher,"
  0003.line_1_D:0 "[ROOT.GetCharacter.Custom('noun_abstract_singular_two')|D] zum Trotze: Heiter und kühn ist dieser Kaiser nun,"
  # Second line
@@ -55,14 +55,14 @@
  0003.line_2_C:0 "[ROOT.GetCharacter.Custom('noun_abstract_singular_two')|D]: Und doch verweilte er in Spanien sieben Jahre an der Zahl,"
  0003.line_2_D:0 "[ROOT.GetCharacter.Custom('noun_abstract_singular_two')|D]: Nichtsdestominder hält er Cordoba, und die Mauern stürzen ein,"
  # Third line
- 0003.line_3_A:0 "[ROOT.GetCharacter.Custom('noun_specific_singular_two')D]: Sollte ich scheitern an diesem Ziel,"
+ 0003.line_3_A:0 "[ROOT.GetCharacter.Custom('noun_specific_singular_two')|D]: Sollte ich scheitern an diesem Ziel,"
  0003.line_3_B:0 "[ROOT.GetCharacter.Custom('noun_abstract_plural_two')|D], ganze [ROOT.GetCharacter.Custom('two_syllable_number')|D] Jahre,"
  0003.line_3_C:0 "O [ROOT.GetCharacter.Custom('noun_specific_singular_two')|D]! Das Land im Westen ward nun gewonnen,"
  0003.line_3_D:0 "[ROOT.GetCharacter.Custom('noun_abstract_singular_two')|D] ungezähmt: Stadt und Turm zerschlagen von seinen Katapulten."
  # Fourth line
  0003.line_4_A:0 "So mögen sie mir eines dennoch niemals rauben: [ROOT.GetCharacter.Custom('noun_abstract_singular_two')|D]!"
- 0003.line_4_B:0 "Die [ROOT.GetCharacter.Custom('noun_specific_plural_two')D] bald schon ganz vergessen sind."
- 0003.line_4_C:0 "[ROOT.GetCharacter.Custom('noun_specific_singular_two')D]: Keine Feste mehr noch gegen ihn steht."
+ 0003.line_4_B:0 "Die [ROOT.GetCharacter.Custom('noun_specific_plural_two')|D] bald schon ganz vergessen sind."
+ 0003.line_4_C:0 "[ROOT.GetCharacter.Custom('noun_specific_singular_two')|D]: Keine Feste mehr noch gegen ihn steht."
  0003.line_4_D:0 "[ROOT.GetCharacter.Custom('noun_abstract_singular_two')|D]: kostbarer als Silber, Gold und Mantel voll Geschmeide."
  0003.poetry_from:0 "[actor.GetTitledFirstName] hat Euch ein Gedicht geschrieben\n\n"
 
@@ -131,4 +131,12 @@
  number_ten:0 "zehn"
  number_eleven:0 "elf"
  number_twelve:0 "zwölf"
+ number_thirteen:0 "dreizehn"
+ number_fourteen:0 "vierzehn"
+ number_fifteen:0 "fünfzehn"
+ number_sixteen:0 "sechzehn"
+ number_seventeen:0 "siebzehn"
+ number_eighteen:0 "achtzehn"
+ number_nineteen:0 "neunzehn"
  number_twenty:0 "zwanzig"
+ number_countless:0 "unzählige"

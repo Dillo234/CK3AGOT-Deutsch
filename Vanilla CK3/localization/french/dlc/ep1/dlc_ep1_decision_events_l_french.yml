@@ -28,6 +28,7 @@
 
  ep1_decision.0201.t:0 "Linguistes à la Cour"
  ep1_decision.0201.desc:1 "La recherche d’un linguiste de langue [target_court_language.GetCourtLanguage.GetName] a enfin abouti. Les candidats sont présentés devant moi. Chacun d’entre eux possède sa propre expertise en matière de langues étrangères."
+ ep1_decision.0201.tt.aptitude:0 "La [aptitude|El] [selected_linguist.Custom('FR_du_Char_U_P')][selected_linguist.GetUIName] est [selected_linguist.GetCourtPositionAptitude( GetCourtPositionType( 'court_tutor_court_position' ) )]"
  ep1_decision.0201.a:2 "[good_linguist.Custom('FR_le_Char')|U][good_linguist.GetNameNoTooltip] est un[good_linguist.Custom('FR_E')] linguiste renommé[good_linguist.Custom('FR_E')] de langue [target_court_language.GetCourtLanguage.GetNameNoTooltip] !"
  ep1_decision.0201.b:0 "[medium_linguist.Custom('FR_le_Char')|U][medium_linguist.GetNameNoTooltip] fera l’affaire."
  ep1_decision.0201.c:1 "[scholarly_linguist.Custom('FR_le_Char')|U][scholarly_linguist.GetNameNoTooltip] est un[scholarly_linguist.Custom('FR_E')] réputé[scholarly_linguist.Custom('FR_E')] de la langue [target_court_language.GetCourtLanguage.GetNameNoTooltip] !"

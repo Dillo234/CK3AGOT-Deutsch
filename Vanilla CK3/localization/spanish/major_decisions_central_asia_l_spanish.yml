@@ -1,12 +1,12 @@
 ﻿l_spanish:
  #Become Greatest of Khans
  become_greatest_of_khans_decision:0 "Convertirse en el mayor de los kanes"
- become_greatest_of_khans_decision_desc:0 "#F Estoy list[ROOT.Custom('ES_OA')] para convocar a una asamblea a todos los líderes de clan de todo mi extenso señorío. Me proclamarán Kan de Kanes, [ROOT.Char.GetLadyLord|U] de todo bajo el cielo.\nDesde ahí, conquistaremos.#!"
+ become_greatest_of_khans_decision_desc:0 "#F Estoy list[ROOT.Char.Custom('ES_OA')] para convocar a una asamblea a todos los líderes de clan de todo mi extenso señorío. Me proclamarán kan de kanes, [ROOT.Char.GetLadyLord|U] de todo lo que hay bajo el cielo.\nDesde ahí, conquistaremos.#!"
  become_greatest_of_khans_decision_tooltip:0 "Forma el Imperio mongol y conviértete en Gengis Kan, el gobernante universal"
  become_greatest_of_khans_decision_confirm:0 "Convoca el Gran kurultai"
  become_greatest_of_khans_decision_gain_mongol_empire:1 "Mi señorío se convierte en el [mongol_empire|lE]"
  become_greatest_of_khans_decision_enable_mongol_invasion_cb:1 "Accedo al [mongol_invasion_casus_belli|llE]"
- GREATEST_OF_KHANS_TITLE_REQUIREMENT:1 "Debo tener rango de [Concept( 'king', '' )|E][ROOT.Custom('ES_ReyReina')] o [Concept( 'emperor', 'empera' )|E][ROOT.Custom('DorTriz')]"
+ GREATEST_OF_KHANS_TITLE_REQUIREMENT:1 "Debo tener rango de [Concept( 'king', '' )|E][ROOT.Char.Custom('ES_ReyReina')] o [Concept( 'emperor', 'empera' )|E][ROOT.Char.Custom('ES_DorTriz')]"
 
  #Establish Bactrian Supremacy
  establish_bactrian_supremacy_decision:0 "Impón la supremacía de Bactria"

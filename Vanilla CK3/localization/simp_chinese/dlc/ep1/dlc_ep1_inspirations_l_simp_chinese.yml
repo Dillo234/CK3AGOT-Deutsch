@@ -25,7 +25,7 @@
 
  INSPIRATION_GENERAL_TOOLTIP_SPONSOR:0 "[Inspiration.GetSponsor.GetUIName|U]"
  INSPIRATION_GENERAL_TOOLTIP_NO_SPONSOR:0 "无"
- INSPIRATION_GENERAL_TOOLTIP:2 "[SelectLocalization( StringIsEmpty( Inspiration.GetCompletionEffect ), '', 'INSPIRATION_GENERAL_TOOLTIP_EFFECT' )]#S 进度：#![Inspiration.GetProgress|V]/[GetDefine( 'NInspiration', 'MAX_PROGRESS' )|V]\n#S 已投资[gold|E]：#!@gold_icon![Inspiration.GetInvestedGold|V]\n#S 拥有者：#![Inspiration.GetOwner.GetUIName]\n#S 赞助者：#![SelectLocalization( Inspiration.GetSponsor.IsValid, 'INSPIRATION_GENERAL_TOOLTIP_SPONSOR', 'INSPIRATION_GENERAL_TOOLTIP_NO_SPONSOR' )]\n\n#F [Inspiration.GetDescription]#!"
+ INSPIRATION_GENERAL_TOOLTIP:2 "[SelectLocalization( StringIsEmpty( Inspiration.GetCompletionEffect ), '', 'INSPIRATION_GENERAL_TOOLTIP_EFFECT' )]#S 进度：#![Inspiration.GetProgress|V]/[GetDefine( 'NInspiration', 'MAX_PROGRESS' )|V]\n#S 已投资[gold|E]：#!@gold_icon![Inspiration.GetInvestedGold]\n#S 拥有者：#![Inspiration.GetOwner.GetUIName]\n#S 赞助者：#![SelectLocalization( Inspiration.GetSponsor.IsValid, 'INSPIRATION_GENERAL_TOOLTIP_SPONSOR', 'INSPIRATION_GENERAL_TOOLTIP_NO_SPONSOR' )]\n\n#F [Inspiration.GetDescription]#!"
  INSPIRATION_GENERAL_TOOLTIP_EFFECT:0 "#S 效果：#!\n[Inspiration.GetCompletionEffect]\n\n"
  CHARACTER_HAS_INSPIRATION_TOOLTIP:1 "#T 灵感#!\n[Character.GetUIName]有[Character.GetCurrentInspiration.GetName]——[Character.Custom('InspirationTypeDescriptionFuturePresent')]。\n\n[Character.Custom('InspiredPersonQuality')]"
  inspiration_type_desc_present:0 "[ROOT.Char.GetSheHe]正在[ROOT.Char.Custom('InspirationTypeDescription')]"

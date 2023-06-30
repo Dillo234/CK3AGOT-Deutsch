@@ -3,7 +3,7 @@
  court.3000.t:0 "Desconfianza de la amistad"
  court.3000.desc.opening:0 "La ansiedad me hace un nudo en el estómago cuando los celos asoman su fea cabeza. Suspiro y fulmino con la mirada a la causa de mi sufrimiento.\n\n"
  court.3000.desc.opening.trustful:0 "Siento una punzada de celos en el pecho mientras miro hacia la fuente de la risa. Conozco esta sensación, pero es normal que me sienta así.\n\n"
- court.3000.desc:0 "Sé que debería agradecer que nuestr[foreign_guest.Custom('ES_OA')] invitad[foreign_guest.Custom('ES_OA')], [foreign_guest.GetTitledFirstName], parezca llevarse bien con [family_member.GetName], pero hay algo en la forma en que interactúan que me preocupa.\n\nSe sonríen como amistades de toda la vida… o amantes ardientes. Actúan descaradamente como si no hubiera nadie más en la habitación y me dejan alegremente fuera de sus conversaciones. ¿Cuál es su relación, y, debo hacer algo al respecto?"
+ court.3000.desc:0 "Sé que debería agradecer que nuestr[foreign_guest.Custom('ES_OA')] invitad[foreign_guest.Custom('ES_OA')], [foreign_guest.GetTitledFirstName|l], parezca llevarse bien con [family_member.GetName], pero hay algo en la forma en que interactúan que me preocupa.\n\nSe sonríen como amistades de toda la vida… o amantes ardientes. Actúan descaradamente como si no hubiera nadie más en la habitación y me dejan alegremente fuera de sus conversaciones. ¿Cuál es su relación, y, debo hacer algo al respecto?"
  court.3000.a:0 "#EMP Tengo#! que poner fin a lo que sea que se esté brotando entre esa pareja."
  court.3000.a.tt.success:0 "La relación entre [foreign_guest.GetFirstNameNoTooltip] y [family_member.GetFirstNameNoTooltip] permanece igual"
  court.3000.a.tt.failure:0 "[foreign_guest.GetFirstNameNoTooltip] y [family_member.GetFirstNameNoTooltip] me hacen caso omiso y siguen adelante con su relación"
@@ -20,7 +20,7 @@
 
  # A courtier shows you their written work after being inspired by other writers
  court.3010.t:0 "Obra inspirada"
- court.3010.desc.opening:1 "«¡[ROOT.Char.Custom2('RelationToMeAddress', inspired_writer)|U]!». [inspired_writer.GetTitledFirstName] se me acerca, agarrando con fuerza un manuscrito. «He escrito una obra de ficción tras leer la literatura más popular de vuestra corte. ¡Por favor, aceptad el honor de ser primer[ROOT.Char.Custom('ES_OA')] en leer mis palabras!». Tomo el manuscrito y ojeo algunas de las líneas.\n\n"
+ court.3010.desc.opening:1 "«¡[ROOT.Char.Custom2('RelationToMeAddress', inspired_writer)|U]!». [inspired_writer.GetTitledFirstName|l] se me acerca, agarrando con fuerza un manuscrito. «He escrito una obra de ficción tras leer la literatura más popular de vuestra corte. ¡Por favor, aceptad el honor de ser primer[ROOT.Char.Custom('ES_OA')] en leer mis palabras!». Tomo el manuscrito y ojeo algunas de las líneas.\n\n"
  court.3010.desc.low_learning:0 "En todas las descripciones del protagonista se mencionan sus «hermosos y enormes orbes azules» y [inspired_writer.GetFirstNameNoTooltip] hace hincapié en ello incluso en situaciones inapropiadas."
  court.3010.desc.shy_or_chaste:0 "Mis ojos se posan en la descripción de una escena nocturna. Dos amantes enlazan tiernamente los meñiques, ya que son demasiado tímidos para tomarse de la mano. Susurran palabras dulces mientras caminan bajo un mar de estrellas infinitas."
  court.3010.desc.lustful:0 "Cada frase en la que se describe a una mujer es extremadamente detallista y siempre incluye palabras como «rebotan» o «bambolean». No es solo cosa de las mujeres, también de los hombres: sus descripciones se centran en sus abultados músculos y sus cinceladas barbillas."
@@ -36,7 +36,7 @@
  court.3010.c.stress:0 "Lo que [inspired_writer.GetSheHe] quería, o más bien necesitaba, eran más ánimos que opiniones"
  court.3010.c.depression:0 "Tus palabras calan hondo en su alma"
 
- court.3011.desc.opening:0 "Oigo acercarse a alguien por detrás y me doy la vuelta para ver a [inspired_writer.GetTitledFirstName] muy emocionad[inspired_writer.Custom('ES_OA')]. «¡[ROOT.Char.Custom2('RelationToMeAddress', inspired_writer)|U]!», me llama mientras reduce la distancia que nos separa. «¡He terminado! ¡Ya tengo lista la siguiente parte de mi historia!».\n\nMe planta el manuscrito en las manos antes de que pueda decir nada. De un vistazo rápido descubro más"
+ court.3011.desc.opening:0 "Oigo acercarse a alguien por detrás y me doy la vuelta para ver a [inspired_writer.GetTitledFirstName|l] muy emocionad[inspired_writer.Custom('ES_OA')]. «¡[ROOT.Char.Custom2('RelationToMeAddress', inspired_writer)|U]!», me llama mientras reduce la distancia que nos separa. «¡He terminado! ¡Ya tengo lista la siguiente parte de mi historia!».\n\nMe planta el manuscrito en las manos antes de que pueda decir nada. De un vistazo rápido descubro más"
  court.3011.desc.low_learning:1 "descripciones de los «hermosos y enormes orbes azules» del protagonista en situaciones inapropiadas."
  court.3011.desc.shy_or_chaste:1 "escenas románticas tiernas, pero poco realistas, entre dos amantes."
  court.3011.desc.lustful:2 "partes corporales que rebotan, se bambolean y se abultan, enredándose entre las sábanas."
@@ -54,7 +54,7 @@
 
  #Latrine disaster events
  court.3020.t:0 "Un olor fétido"
- court.3020.desc.opening:1 "«[ROOT.Char.Custom2('RelationToMeAddress', latrine_chancellor)|U]. Solo una cosa».\n\nMi [latrine_chancellor.GetCouncilTitle], [latrine_chancellor.GetTitledFirstName], se me acerca durante una breve pausa mientras atiendo asuntos de la corte. Me señala un lugar menos concurrido del salón y [latrine_chancellor.GetHerHim] sigo hasta allí.\n\n«Me preocupa el estado "
+ court.3020.desc.opening:1 "«[ROOT.Char.Custom2('RelationToMeAddress', latrine_chancellor)|U]. Solo una cosa».\n\nMi [latrine_chancellor.GetCouncilTitle], [latrine_chancellor.GetTitledFirstName|l], se me acerca durante una breve pausa mientras atiendo asuntos de la corte. Me señala un lugar menos concurrido del salón y [latrine_chancellor.GetHerHim] sigo hasta allí.\n\n«Me preocupa el estado "
  court.3020.desc.castle:0 "del castillo de [capital.GetNameNoTooltip]."
  court.3020.desc.city:0 "del ayuntamiento de [capital.GetNameNoTooltip]."
  court.3020.desc.temple:0 "de la casa de culto de [capital.GetNameNoTooltip]."
@@ -69,7 +69,7 @@
  court.3020.d:0 "¡Taponad el agujero del suelo y punto!"
 
  court.3021.t:0 "¡Cuidado con lo que pasa ahí abajo!"
- court.3021.desc:0 "Se solicitó mi presencia para mediar en una disputa entre [courtier1.GetTitledFirstName] y [courtier2.GetTitledFirstName]. Hoy mis cortesanos deben de estar #EMP terriblemente#! aburridos, pues muchos han venido a observar.\n\nMientras los dos discuten sobre [courtier1.Custom('subject_of_interest')], un crujido ensordecedor nos interrumpe. Todos los presentes, excepto yo, se tambalean mientras el suelo de madera se comba visiblemente. [ROOT.Char.GetFaith.HighGodName] debe de estar protegiéndome, pues estoy sentad[ROOT.Char.Custom('ES_OA')] en un rincón que no se ha visto afectado por el desastre.\n\nLos que están más cerca de la puerta se apresuran a salir, mientras otros solo aciertan a gritar mientras se hunde el suelo. Mi mirada se fija en los dos que están más cerca de mí."
+ court.3021.desc:0 "Se solicitó mi presencia para mediar en una disputa entre [courtier1.GetTitledFirstName|l] y [courtier2.GetTitledFirstName|l]. Hoy mis cortesanos deben de estar #EMP terriblemente#! aburridos, pues muchos han venido a observar.\n\nMientras los dos discuten sobre [courtier1.Custom('subject_of_interest')], un crujido ensordecedor nos interrumpe. Todos los presentes, excepto yo, se tambalean mientras el suelo de madera se comba visiblemente. [ROOT.Char.GetFaith.HighGodName] debe de estar protegiéndome, pues estoy sentad[ROOT.Char.Custom('ES_OA')] en un rincón que no se ha visto afectado por el desastre.\n\nLos que están más cerca de la puerta se apresuran a salir, mientras otros solo aciertan a gritar mientras se hunde el suelo. Mi mirada se fija en los dos que están más cerca de mí."
  court.3021.a:0 "Por instinto, alargo la mano hacia [courtier1.GetFirstNameNoTooltip]."
  court.3021.b:0 "Traigo [courtier2.Custom('ES_AlAla')] aterrorizad[courtier2.Custom('ES_OA')] [courtier2.GetFirstNameNoTooltip] al hueco estable."
  court.3021.c:0 "Retrocedo con horror mientras veo caer a todos a las letrinas de abajo."
@@ -95,7 +95,7 @@
 
  #Homesickness
  court.3040.t:0 "La morriña de mi [homesick_parent.GetMotherFather]"
- court.3040.desc:0 "Estoy de ronda de visitas sociales por la corte cuando oigo un gran suspiro que proviene de mi [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('homesick_parent'))]. Ya sea intencional o no, la presencia solemne de [homesick_parent.GetTitledFirstName] no pasa desapercibida.\n\n«Hola, hij[ROOT.GetCharacter.Custom('ES_OA')] mí[ROOT.GetCharacter.Custom('ES_OA')]», dice una vez superada su sorpresa inicial. No sé si [homesick_parent.GetTitledFirstNameNoTooltip] es melodramátic[homesick_parent.Custom('ES_OA')] o sincer[homesick_parent.Custom('ES_OA')]. «No me hagas caso, no es más que un poco de morriña…».\n\nAntes de que me dé tiempo a responder, [homesick_parent.GetFirstNameNoTooltip] vuelve a suspirar con melancolía. Irme sin musitar palabra no cambiará nada, así que decido hablar."
+ court.3040.desc:0 "Estoy de ronda de visitas sociales por la corte cuando oigo un gran suspiro que proviene de mi [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('homesick_parent'))]. Ya sea intencional o no, la presencia solemne de [homesick_parent.GetTitledFirstName|l] no pasa desapercibida.\n\n«Hola, hij[ROOT.GetCharacter.Custom('ES_OA')] mí[ROOT.GetCharacter.Custom('ES_OA')]», dice una vez superada su sorpresa inicial. No sé si [homesick_parent.GetTitledFirstNameNoTooltip|l] es melodramátic[homesick_parent.Custom('ES_OA')] o sincer[homesick_parent.Custom('ES_OA')]. «No me hagas caso, no es más que un poco de morriña…».\n\nAntes de que me dé tiempo a responder, [homesick_parent.GetFirstNameNoTooltip] vuelve a suspirar con melancolía. Irme sin musitar palabra no cambiará nada, así que decido hablar."
  court.3040.a:0 "¡Pues vete, sanguijuela desagradecida!"
  court.3040.b:1 "¿A lo mejor me puedes enseñar algo de [homesick_parent.GetCulture.GetLanguage.GetNameNoTooltip]?"
  court.3040.c:0 "¿Y si importamos algunos manjares de la cocina [homesick_parent.GetCulture.GetNameNoTooltip]?"
@@ -103,15 +103,15 @@
 
  #Chief Eunuch
  court.3050.t:0 "Carta de difamación"
- court.3050.desc:0 "«Tengo una sugerencia maravillosa para mi [ROOT.Char.GetLadyLord]», dice mi $chief_eunuch_court_position$ en tono conspiratorio.\n\n«Uno de vuestros detractores, [target.GetTitledFirstName], está hoy aquí. Si lo deseáis, puedo redactar una carta comprometedora hacia su persona para ridiculizar[target.GetHerHim] en público».\n\n[chief_eunuch.GetFirstNameNoTooltip] sonríe de forma [chief_eunuch.Custom('quirk_neg_adjective')] mientras se aguanta la risa. «¿Qué queréis que ponga en la carta?»."
+ court.3050.desc:0 "«Tengo una sugerencia maravillosa para mi [ROOT.Char.GetLadyLord]», dice mi $chief_eunuch_court_position$ en tono conspiratorio.\n\n«Uno de vuestros detractores, [target.GetTitledFirstName|l], está hoy aquí. Si lo deseáis, puedo redactar una carta comprometedora hacia su persona para ridiculizar[target.GetHerHim] en público».\n\n[chief_eunuch.GetFirstNameNoTooltip] sonríe de forma [chief_eunuch.Custom('quirk_neg_adjective')] mientras se aguanta la risa. «¿Qué queréis que ponga en la carta?»."
  court.3050.a:0 "Recordar a es[target.Custom('ES_EA')] idiota que conozco su secreto bastará para hacer[target.GetHerHim] sudar."
- court.3050.b:0 "Falsificar una carta de rechazo que se burle de [target.GetTitledFirstNameNoTooltip] por indeseable."
+ court.3050.b:0 "Falsificar una carta de rechazo que se burle de [target.GetTitledFirstNameNoTooltip|l] por indeseable."
  court.3050.c:0 "Colocar pruebas de que [target.GetFirstNameNoTooltip] difama a otra persona."
  court.3050.d:0 "Mejor no echar leña al fuego"
 
  #Cat
  court.3060.t:0 "Un cazador felino"
- court.3060.desc:0 "«¡Creo que he descubierto el motivo de por qué unos días hay menos ratas que otros!», proclama alegremente mi [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('cat_finder'))], [cat_finder.GetTitledFirstName], mientras se aparta para mostrar a un sirviente que lleva a un gato #EMP muy#! disgustado.\n\nSe retuerce en un intento de liberarse de los brazos arañados del sirviente, mientras maúlla de un modo bastante atrayente.\n\n«Diría que es un excelente cazador de ratas. De hecho, ¡estaba en medio de un combate con una bien gorda cuando lo encontramos! Qué me decís, ¿debemos adoptar a este gato?»."
+ court.3060.desc:0 "«¡Creo que he descubierto el motivo de por qué unos días hay menos ratas que otros!», proclama alegremente mi [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('cat_finder'))], [cat_finder.GetTitledFirstName|l], mientras se aparta para mostrar a un sirviente que lleva a un gato #EMP muy#! disgustado.\n\nSe retuerce en un intento de liberarse de los brazos arañados del sirviente, mientras maúlla de un modo bastante atrayente.\n\n«Diría que es un excelente cazador de ratas. De hecho, ¡estaba en medio de un combate con una bien gorda cuando lo encontramos! Qué me decís, ¿debemos adoptar a este gato?»."
  court.3060.a:0 "¡Me encantaría tener un acompañante felino!"
  court.3060.b:0 "¿Por qué no te quedas el gato, ya que lo encontraste tú?"
  court.3060.c:0 "¿Y no puedes adiestrar a uno de los perros para que cace ratas?"
@@ -119,7 +119,7 @@
  
  #Royal Court
  court.3070.t:0 "[ROOT.Char.GetTitleTierName] desconocid[ROOT.Char.Custom('ES_OA')]"
- court.3070.desc.opening:0 "«¡Y ni te imaginas qué pasó después!». Mi invitad[court_enjoyer.Custom('ES_OA')], [court_enjoyer.GetTitledFirstName], no deja de hablar sobre sí mism[court_enjoyer.Custom('ES_OA')] y todas las cosas que [court_enjoyer.GetHerHim] han pasado. Además de su parloteo incesante, no me siento a gusto con que un[court_enjoyer.Custom('ES_XA')] extrañ[court_enjoyer.Custom('ES_OA')] me hable de un modo tan informal.\n\nIntento excusarme con tal invitad[court_enjoyer.Custom('ES_OA')] diciendo que tengo otros asuntos y personas a las que atender, pero me interrumpe para preguntarme a qué me dedico o si estoy aquí para "
+ court.3070.desc.opening:0 "«¡Y ni te imaginas qué pasó después!». Mi invitad[court_enjoyer.Custom('ES_OA')], [court_enjoyer.GetTitledFirstName|l], no deja de hablar sobre sí mism[court_enjoyer.Custom('ES_OA')] y todas las cosas que [court_enjoyer.GetHerHim] han pasado. Además de su parloteo incesante, no me siento a gusto con que un[court_enjoyer.Custom('ES_XA')] extrañ[court_enjoyer.Custom('ES_OA')] me hable de un modo tan informal.\n\nIntento excusarme con tal invitad[court_enjoyer.Custom('ES_OA')] diciendo que tengo otros asuntos y personas a las que atender, pero me interrumpe para preguntarme a qué me dedico o si estoy aquí para "
  court.3070.desc.opening_food:0 "disfrutar de la buena comida como el resto de invitados."
  court.3070.desc.opening_lodging:0 "disfrutar de los buenos lechos como el resto de invitados."
  court.3070.desc.opening_fashion:0 "vestir como [ROOT.Char.GetTitleAsNameNoTooltip] por un día como el resto de invitados."

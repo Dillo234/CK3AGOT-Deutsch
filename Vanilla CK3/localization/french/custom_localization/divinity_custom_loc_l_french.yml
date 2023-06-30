@@ -72,6 +72,8 @@
  unbeliever_foreign_believer:0 "étranger"
  unbeliever_heathen_plural:0 "païens"
  unbeliever_infidel_plural:0 "infidèles"
+ unbeliever_heretic_plural:0 "hérétiques"
+ unbeliever_unbeliever_plural:0 "mécréants"
  character_afterlife_positive:0 "va rejoindre [ROOT.Char.GetFaith.PositiveAfterLife]"
  character_afterlife_negative:0 "va sûrement souffrir [ROOT.Char.GetFaith.NegativeAfterLife2] pour ses péchés"
  character_afterlife_reincarnation:0 "sera bientôt réincarné[ROOT.Char.Custom('FR_E')] sous une nouvelle forme"
@@ -89,11 +91,28 @@
  rite_prayer:0 "la prière"
  rite_worship:0 "le culte"
 
- # Pilgrimage Name
- pilgrimage_default_header:1 "Le pèlerinage:"
- pilgrimage_hajj_header:1 "Le hadj:"
+ #Pilgrimage name
+ pilgrimage_default:0 "pèlerinage"
+ pilgrimage_hajj:1 "hadj"
+ 
+ #PilgrimageHeader
+ pilgrimage_default_header:1 "Le pèlerinage :"
+ pilgrimage_hajj_header:1 "Le hadj :"
+
+ #PilgrimageLength
+ pilgrimage_short_distance:0 "bref mais intense"
+ pilgrimage_medium_distance:0 "respectable et bien rythmé"
+ pilgrimage_long_distance:0 "long et remarquable"
+ pilgrimage_very_long_distance:0 "très long et périlleux"
+
+ #GetPilgrimSingularPlural
+ pilgrim_singular:0 "pèlerin"
+ pilgrim_plural:0 "pèlerins"
 
  # GHWs given by which tenet?
  ghw_from_which_tenet_armed_pilgrimages:0 "$tenet_armed_pilgrimages_name$"
  ghw_from_which_tenet_struggle_submission:0 "$tenet_struggle_submission_name$"
  ghw_from_which_tenet_warmonger:0 "$tenet_warmonger_name$"
+
+ faithtaxexemption_the_church:0 "l’Église"
+ faithtaxexemption_charities:0 "les bonnes œuvres"

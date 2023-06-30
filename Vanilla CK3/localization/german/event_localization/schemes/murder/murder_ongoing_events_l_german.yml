@@ -12,3 +12,7 @@
  murder_ongoing.3301.t:0 "$murder_event_title$ Schlamperei"
  murder_ongoing.3301.desc:0 "Wo ist meine Zeremonienklinge? Dieses Messer wollte ich [target.GetTitledFirstName] in die Brust rammen! Ich wetze es seit Tagen!\n\nIch habe meine Gemächer schon auf den Kopf gestellt, aber es ist nirgends zu finden!"
  murder_ongoing.3301.a:0 "Ich könnte schwören, dass ich sie hierhin gelegt habe!"
+ #Apply poisonous herbs to the scheme that you found while travelling
+ murder_ongoing.3302.t:0 "$murder_event_title$ Eine Prise hiervon, ein Hauch davon …"
+ murder_ongoing.3302.desc:0 "Plötzlich fallen mir die Kräuter ein, die ich auf der Reise durch die besonderen Lande ([herb_location.GetTerrain.GetNameNoTooltip|l]) von [herb_location.GetNameNoTooltip] beschafft habe.\n\nSie würden sicher dabei #EMP helfen#!, voranzukommen, wenn es darum geht, [target.GetTitledFirstName] von [target.Custom('DE_PRO_POS_S_3P')]er irdischen Existenz zu befreien."
+ murder_ongoing.3302.a:0 "Das sollte mir gute Dienste leisten."

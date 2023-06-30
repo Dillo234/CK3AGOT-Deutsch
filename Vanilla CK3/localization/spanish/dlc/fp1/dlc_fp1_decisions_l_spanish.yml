@@ -22,8 +22,8 @@
  hold_gruesome_festival_decision_desc.gf_humsac_practitioner:0 "Ya va siendo hora de que todo [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] se reúna para hacer sacrificios a [ROOT.Char.GetFaith.PantheonTerm]. Estos rituales no solo unen a los fieles, sino que confirman mi lugar como [ROOT.Char.GetTitleAsNameNoTooltip] de todas las tierras."
  hold_gruesome_festival_decision_desc.non_gf_practioner:0 "Hay entre mis súbditos quienes celebran ritos de grandes sacrificios con la bendición de sus [GetPlayer.GetTitleAsNameNoTooltip]. No me cabe duda de que si acepto que se celebre aunque sea una variante limitada me ganaría su aprobación, si bien adoptar sus costumbres más… bárbaras traería sobre mí el desdén de aquellos que rechazan sus tradiciones."
  hold_gruesome_festival_decision_tt:1 "Organizas un gran [GetPlayer.Custom('GruesomeFestivalName')], lo que implica:\n#indent_newline:0 $EFFECT_LIST_BULLET$ Decidir el alcance del festival\n#indent_newline:0 $EFFECT_LIST_BULLET$ Elegir qué sacrificar, incuso elegir uno de tus [prisoners|lE] como [designate_chief_sacrifice_chief_sacrifice|lE]\n#indent_newline:0 $EFFECT_LIST_BULLET$ Se ganará o perderá [county_opinion|lE] y [opinion|lE] de [character|lE] dependiendo de los [core_tenets|lE] de la [faith|lE] de tus súbditos"
- hold_gruesome_festival_decision_tt.piety_gain:0 "#indent_newline:0 Ganas [piety|lE], porque eres [GetPlayer.Custom('ES_FaithGenderedAdj')]"
- hold_gruesome_festival_decision_tt.piety_lose:0 "#indent_newline:0 #EMP Pierdes#! [piety|lE] porque eres [GetPlayer.Custom('ES_FaithGenderedAdj')]"
+ hold_gruesome_festival_decision_tt.piety_gain:0 "#indent_newline:0 Ganas [piety|lE], porque eres de credo [GetPlayer.GetFaith.GetAdherentName]"
+ hold_gruesome_festival_decision_tt.piety_lose:0 "#indent_newline:0 #EMP Pierdes#! [piety|lE] porque eres de credo [GetPlayer.GetFaith.GetAdherentName]"
  hold_gruesome_festival_decision_tooltip:0 "Invitas a tus súbditos a participar en un ritual sagrado (y costoso)"
  hold_gruesome_festival_decision_confirm:0 "En la muerte, renacimiento."
 
