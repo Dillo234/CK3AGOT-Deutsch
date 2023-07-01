@@ -3,7 +3,7 @@
  murder_child_really_tooltip:1 "Ein Kind ermorden. Möchtet Ihr das wirklich tun?"
  murder_outcome_murdered_rival_tt:1 "Weil Ihr Euren [Concept('rival', 'Rivalen')|E] überlebt habt:"
  murder_unknown_murder_against_you_was_successful:0 "#X Ihr wurdet von einem unbekannten Angreifer ermordet!#!"
- murder_unknown_murder_against_you_was_successful_other:0 "#X [THIS.Char.GetShortUIName] was murdered by an unknown assailant!#!"
+ murder_unknown_murder_against_you_was_successful_other:0 "#X [THIS.Char.GetShortUIName] wurde von einem unbekannten Angreifer ermordet!#!"
 
  murder_outcome.1001.t:0 "Meuchler!"
  murder_outcome.1001.d:0 "Die Zeit ist gekommen. Meine Agenten sind in Stellung. Einer von ihnen wird den Meuchler am Abend der Tat auszahlen. Ein weiterer sorgt dafür, dass die Mauer unbewacht ist. Ein dritter hinterlässt eine unauffällige Spur von Kerzen, die in [target.Custom('DE_PRO_POS_S_3P')] Gemach führen.\n\nAlles ist vorbereitet."
@@ -11,10 +11,10 @@
  murder_outcome.1001.b:0 "Wartet. Ich bin noch nicht bereit."
 
  murder_outcome.1002.t:0 "Behelligt"
- murder_outcome.1002.opening:0 "My agents have scheduled a journey for [target.GetTitledFirstName] which will take them through dark woods. $murder_outcome.1002.d$"
- murder_outcome.1002.opening_travel:0 "My agents have learned that [target.GetTitledFirstName] is currently undertaking a journey to [province.GetName] which will take [target.GetHerHim] through several patches of wilderness.\n\n$murder_outcome.1002.d$"
- murder_outcome.1002.d:0 "Meine Agenten haben eine Reise für [target.GetTitledFirstName] geplant, die durch finstere Wälder führt. $murder_outcome.1002.d$"
- murder_outcome.1002.a:0 "O wie gefährlich die Wildnis doch sein können."
+ murder_outcome.1002.opening:0 "Meine Agenten haben eine Reise für [target.GetTitledFirstName] geplant, die durch finstere Wälder führt. $murder_outcome.1002.d$"
+ murder_outcome.1002.opening_travel:0 "Meine Agenten haben erfahren, dass [target.GetTitledFirstName] derzeit eine Reise nach [province.GetName] unternimmt, die [target.Custom('DE_PRO_PER_S_3P_A')] durch mehrere wilde Landstriche führen wird.\n\n$murder_outcome.1002.d$"
+ murder_outcome.1002.d:1 "Fehlt nur noch eine Bande von Schlägern, die [target.Custom('DE_PRO_PER_S_3P_A')] auf tragische Weise während eines eskalierten Raubüberfalls erschlagen wird.\n\nIch sehe schon das Blut in den dunklen Boden sickern …"
+ murder_outcome.1002.a:1 "O wie gefährlich die Wildnis doch sein kann."
  murder_outcome.1002.b:0 "Wartet. Das ist nicht der richtige Augenblick."
 
  murder_outcome.1003.t:0 "Ein Essen zum Sterben"
@@ -37,11 +37,11 @@
  murder_outcome.1006.a:0 "Das wird leicht!"
 
  murder_outcome.1007.t:0 "Aufgewühlte Wogen"
- murder_outcome.1007.travel:0 "[target.GetTitledFirstName] is currently aboard a ship somewhere in the [province.GetName]."
+ murder_outcome.1007.travel:0 "[target.GetTitledFirstName] befindet sich derzeit an Bord eines Schiffs irgendwo in [province.GetName]."
  murder_outcome.1007.desc_not_inspection:0 "[target.GetTitledFirstName] wird ein Schiff besuchen, das im Lauf der Woche in einem der Häfen von [province.GetNameNoTier] anlegen wird."
  murder_outcome.1007.desc:0 "[target.GetTitledFirstName] wird ein Schiff inspizieren, das im Lauf der Woche in einem der Häfen von [province.GetNameNoTier] anlegen wird."
  murder_outcome.1007.desc_ending:0 "\n\nEs wäre ein Leichtes für einen meiner Agenten, das Ruderboot, mit dem [target.Custom('DE_PRO_PER_S_3P_N')] übergesetzt werden soll, mit brennbarer Flüssigkeit zu tränken. Dann wartet man ab, bis es mitten im Hafen ist, schießt einen brennenden Pfeil ab … und danach soll das Wasser [target.Custom('DE_PRO_PER_S_3P_A')] sich holen."
- murder_outcome.1007.desc_ending_travel:0 "\n\nIt would be a tragedy if my agents were to drench the timbers in flammable liquid, escape on the only rowboat, and set the ship alight as they make their safe escape... thus ensuring [target.GetFirstNamePossessiveNoTooltip] death along with [target.GetHerHis] entourage."
+ murder_outcome.1007.desc_ending_travel:0 "\n\nEs wäre eine Tragödie, wenn meine Agenten das Holz mit einer brennbaren Flüssigkeit tränkten, mit dem einzigen Ruderboot entkämen und das Schiff auf ihrer gelungenen Flucht in Brand steckten … und damit den Tod von [target.GetFirstNameNoTooltip] und [target.Custom('DE_PRO_POS_S_3P')]es Gefolges gewährleisteten."
  murder_outcome.1007.a:0 "Setzt den Plan in Gang."
 
  murder_outcome.1008.t:0 "Getränk des Lebens"
@@ -168,7 +168,7 @@
  murder_outcome.2007.scheme_unknown:0 "\n\n#EMP Leider#! wurde der Bogenschütze nie gefunden."
  murder_outcome.2007.a.discovered:0 "Ich … Ich dachte, [target.Custom('DE_PRO_PER_S_3P_N)] könnte schwimmen!"
  murder_outcome.2007.a:0 "Was für eine Tragödie!"
- every_entourage_member:0 "Every member of [target.GetTitledFirstNamePossessiveNoTooltip] entourage:"
+ every_entourage_member:0 "Jedes Mitglied des Gefolges von [target.GetTitledFirstNameNoTooltip]"
 
  murder_outcome.2008.desc_drunkard:0 "[target.GetTitledFirstName] ist tot, getötet von dem [target.Custom('RegionalAlcoholicDrink')], den [target.Custom('DE_PRO_PER_S_3P_N')] so sehr liebte!"
  murder_outcome.2008.desc_not_drunkard:0 "[target.GetTitledFirstName] ist tot, getötet von einem tiefen Schluck [target.Custom('RegionalDrink')]!"
