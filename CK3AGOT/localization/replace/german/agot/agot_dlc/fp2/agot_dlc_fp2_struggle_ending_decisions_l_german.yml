@@ -1,6 +1,5 @@
 ﻿l_german:
  ##### Hostility #####
- ##### Hostility #####
  struggle_btw_ending_hostility_decision:1 "[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]e Vorherrschaft"
  struggle_btw_ending_hostility_decision_desc:0 "Es wird Zeit, dass ein starker Anführer diese Wildlingsstämme aus dem Sumpf aus Krieg und Teilung zieht. [ROOT.Char.Custom('DE_ART_IND_N')|U] [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|l][ROOT.Char.Custom('DE_END_ADJ_IND_S_N')] König[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] wird den wahren Norden unter dem [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l]en Banner einen!"
  struggle_btw_ending_hostility_decision_tooltip:0 "Beendet den [btw_struggle|E]"
@@ -15,11 +14,8 @@
  fp2_struggle_hostility_opinion_tt:1 "[opinion|E] von [Concept('characters', 'Charakteren')|E] desselben [Concept('faith', 'Glaubens')|E] und/oder derselben [culture|E]: #positive_value +[SCOPE.ScriptValue('fp2_struggle_hostility_opinion_value')]#!"
  fp2_struggle_hostility_opinion_negative_tt:0 "[opinion|E] von [Concept('characters', 'Charakteren')|E] anderer am [Concept('struggle_involved', 'Konflikt beteiligter')|E] [Concept('faith', 'Glauben')|E] und/oder [cultures|E]: #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_opinion_value')]#!"
  fp2_struggle_hostility_conversion_tt:1 "Tempo der [councillor_tasks|E] „$task_conversion$“ und/oder „$task_promote_culture$“ in der [region|E] „[GetGeographicalRegion('world_westeros_beyond_the_wall').GetName]“: #P +50 %#!"
- fp2_struggle_hostility_conversion_holy_tt:0 "Tempo der [councillor_task|E] „$task_conversion$“ in der [region|E] „[GetGeographicalRegion('world_westeros_beyond_the_wall').GetName]“: #P +50 %#!"
  fp2_struggle_hostility_conversion_culture_tt:0 "Tempo der [councillor_task|E] „$task_promote_culture$“ in der [region|E] „[GetGeographicalRegion('world_westeros_beyond_the_wall').GetName]“: #P +50 %#!"
- fp2_struggle_hostility_list_tt:1 "Eines oder beide der folgenden Dinge:\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_faith_modifier').GetNameWithTooltip|L]. Zusätzlich werden einige [holy_wars|E] leichter zu führen sein.\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_culture_modifier').GetNameWithTooltip|L]. Zusätzlich werden einige Eroberungs-[wars|E] leichter zu führen sein.\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_combined_modifier').GetNameWithTooltip|L].Zusätzlich werden einige [holy_war|E] and Eroberungs-[wars|E] leichter zu führen sein."
- fp2_struggle_hostility_holy_cb_tt:0 "[casus_bellis|E] gegen andere am [Concept('struggle_involved', 'Konflikt beteiligte')|E] [Concept('faith', 'Glauben')|E] ($HOLY_WAR_DUCHY_NAME$): #positive_value - 50%#!"
- fp2_struggle_hostility_holy_cb_joint_tt:0 "[casus_belli|E] $HOLY_WAR_DUCHY_NAME$ gegen andere am [Concept('struggle_involved', 'Konflikt beteiligte')|E] [Concept('faith', 'Glauben')|E]: #positive_value - 50%#!\n$culture_parameter_cb_lower_piety_level_requirement$"
+ fp2_struggle_hostility_list_tt:1 "$EFFECT_LIST_BULLET$Euer Haus wird den Modifikator [GetModifier('fp2_struggle_hostility_house_culture_modifier').GetNameWithTooltip|L] erhalten. Außerdem werden einige Eroberungs-[wars|E] leichter zu führen sein."
  fp2_struggle_hostility_culture_cb_tt:0 "[casus_bellis|E] gegen andere am [Concept('struggle_involved', 'Konflikt beteiligte')|E] [cultures|E] ($CONQUEST_DUCHY_CB_NAME$): #positive_value - 50%#!"
  fp2_struggle_hostility_culture_tt:0 "Alle am [Concept('struggle_involved', 'Konflikt beteiligten')|E] [cultures|E] verlieren #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_culture_acceptance_value')] %#! [cultural_acceptance|E] zueinander."
  fp2_struggle_hostility_culture_large_tt:0 "Alle am [Concept('struggle_involved', 'Konflikt beteiligten')|E] [cultures|E] verlieren #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_culture_acceptance_value')] %#! [cultural_acceptance|E] zueinander"
@@ -68,7 +64,6 @@
  struggle_btw_ending_conciliation_decision_alliance_tt:0 "Alle anderen [ruler|E], die [Concept('independent', 'unabhängig')|E] und am [Concept('struggle_involved', 'Konflikt beteiligt')|E] sind, haben ein [alliance|E] mit Euch ([SCOPE.ScriptValue('struggle_btw_ending_conciliation_decision_alliance_counter_value')|0]/[SCOPE.ScriptValue('struggle_btw_ending_ending_decision_foreign_realm_total_value')|0])"
  #Effects
  fp2_struggle_conciliation_marriage_unlocked_tt:1 "#positive_value Erlaubt#! dauerhaft das [marriage|E] über Glaubensgrenzen hinweg zwischen allen [cultures|E], die [struggle_involved|E] sind"
- fp2_struggle_conciliation_holy_war_disabled_tt:1 "#negative_value Verhindert#! dauerhaft Offensiv-[holy_wars|E] zwischen allen [cultures|E], die [struggle_involved|E] sind"
  fp2_struggle_conciliation_acceptance_tt:0 "Aussöhnung jenseits der Mauer"
  fp2_struggle_conciliation_culture_tt:0 "Alle [cultures|E], die am [Concept('struggle_involved', 'Konflikt beteiligt')|E] sind, erhalten #positive_value [SCOPE.ScriptValue('fp2_struggle_hostility_culture_acceptance_value')|0] %#! [cultural_acceptance|E] zueinander"
  fp2_struggle_conciliation_join_war_tt:1 "Erlaubt dauerhaft [Concept('rulers', 'Herrschern')|E] mit am [Concept('struggle_involved', 'Konflikt beteiligter')|E] [culture|E] und ebensolchem [Concept('faith', 'Glauben')|E], sich einander bei Defensiv-[wars|E] gegen Invasoren in der Region „[GetGeographicalRegion('world_westeros_beyond_the_wall').GetName]“ anzuschließen"
@@ -85,7 +80,7 @@
  struggle_btw_ending_compromise_decision_correct_phase_tt:1 "Die derzeitige [struggle_phase|E] ist die [struggle_phase_btw_compromise|E]"
  struggle_btw_ending_conciliation_decision_correct_phase_tt:1 "Die derzeitige [struggle_phase|E] ist die [struggle_phase_btw_conciliation|E]"
  fp2_struggle_house_tt:1 "Alle [house|E]-Mitglieder:"
- fp2_struggle_compromise_war_cost_tt:0 "[casus_bellis|E] gegen andere am [Concept('struggle_involved', 'Konflikt beteiligte')|E] [cultures|E] ($HOLY_WAR_DUCHY_NAME$ und $CONQUEST_DUCHY_CB_NAME$): #negative_value -50 %#!"
+ fp2_struggle_compromise_war_cost_tt:0 "$HOLY_WAR_DUCHY_NAME$ [casus_bellis|E] gegen andere am [Concept('struggle_involved', 'Konflikt beteiligte')|E] [cultures|E]: #negative_value -50 %#!"
  CB_COST_FP2_STRUGGLE_COMPROMISE_MULTIPLIER:0 "Kompromiss"
  struggle_compromise_duchy_transfer_tt:0 "Verbundene und [Concept('completely_controlled', 'Vollständig kontrollierte')|E] [duchies|E] übertragen ihr [de_jure|E] an das Haupt-[kingdom|E] ihres [Concept('top_liege', 'Reichsherrschers')|E]"
  fp2_struggle_can_keep_using_struggle_clash_tt:0 "[struggle_conquest|E] bleibt verfügbar"
