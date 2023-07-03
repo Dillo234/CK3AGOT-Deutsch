@@ -1,20 +1,20 @@
 ﻿l_german:
  #Übersetzt von Dillo
  councillor_personal_steward_diplomacy.1001.desc:0 "Familiärer Ruf"
- councillor_personal_steward_diplomacy.1004.desc:0 "Diplomatische Ausbildung"
+ councillor_personal_steward_diplomacy.1004.desc:0 "Diplomatische Theorie"
  councillor_personal_steward_diplomacy.1004.desc_diplo_councillor:0 "Unterrichtet vom [councillor.GetTitleAsName]"
  councillor_personal_steward_diplomacy.1005.desc:0 "Diplomatische Erfahrung"
- councillor_personal_steward_diplomacy.1006.desc:0 "Durch die harte Arbeit von [councillor.GetTitledFirstName] ist [councillor.GetSheHe] besser darin geworden, mit anderen zu kommunizieren."
+ councillor_personal_steward_diplomacy.1006.desc:0 "Dank der harten Arbeit von [councillor.GetTitledFirstName] ist [councillor.Custom('DE_PRO_PER_S_3P_N')] nun besser darin, mit anderen zu sprechen."
 
  councillor_personal_steward_diplomacy.2002.t:1 "Persönlicher Kämmerer: Zukünftige Verbindungen"
- councillor_personal_steward_diplomacy.2002.desc:0 ""Die Beziehungen zwischen der nächsten Herrschergeneration zu pflegen, ist eine Pflicht, die wir nicht vernachlässigen sollten", sagt [councillor.GetTitledFirstName].\n\n"Einige Eurer einflussreicheren Vasallen haben Kinder, von denen ich sicher bin, dass [child_heir.GetTitledFirstName] davon profitieren würde, sie zu kennen.""
+ councillor_personal_steward_diplomacy.2002.desc:0 "„Es ist unsere Pflicht, die Beziehungen zwischen der nächsten Generation von Herrschenden zu pflegen“, meint [councillor.GetTitledFirstName].\n\n„Einige Eurer einflussreichsten Vasallen haben Kinder, die [child_heir.GetTitledFirstName] unbedingt kennenlernen sollte.“"
  councillor_personal_steward_diplomacy.2002.a:0 "[vassal_heir_1.GetTitledFirstNameNoTooltip] scheint ein [vassal_heir_1.Custom('WomanManGirlBoy')] mit gutem Leumund zu sein."
  councillor_personal_steward_diplomacy.2002.b:0 "[vassal_heir_2.GetTitledFirstNameNoTooltip] wäre wahrscheinlich ein guter Einfluss!"
  councillor_personal_steward_diplomacy.2002.c:0 "Ich habe viel Gutes über [vassal_heir_3.GetTitledFirstNameNoTooltip] gehört.."
  councillor_personal_steward_diplomacy.2002.d:0 "Mein [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child_heir'))] kommt gut alleine zurecht."
 
- councillor_personal_steward_diplomacy.2003.t:1 "Persönlicher Kämmerer: Gelegenheit zum Frieden"
- councillor_personal_steward_diplomacy.2003.desc:0 "Als ich meinen [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival'))] [rival.GetTitledFirstName] auf der anderen Seite der [ROOT.Char.GetFaith.HouseOfWorship] sehe, will ich mich umdrehen, aber zu meiner Überraschung winkt [councillor. GetTitledFirstName] den [rival.Custom('InsultNoun')] [councillor.Custom('quirk_pos_adverb')] an uns heran.\n\n"[rival.GetShe|U] hat zugestimmt, sich mit Euch auf neutralem Boden zu treffen. Es ist bedauerlich, dass zwei [SCOPE.Custom('PersonalityGetSharedTraitDescriptionFromFlag')]e [ROOT.Char.Custom2('WomenMenPeople', SCOPE.sC('rival'))] wie Ihr Euch streitet. Meint Ihr nicht, dass es an der Zeit ist, sich zu versöhnen?""
- councillor_personal_steward_diplomacy.2003.a:0 "Vielleicht habt Ihr ja Recht... "
- councillor_personal_steward_diplomacy.2003.b:0 "Ich werde [rival.Custom('DE_PRO_POS_S_3P')] Gesicht zu Brei schlagen!"
- councillor_personal_steward_diplomacy.2003.c:0 "Ihr ruft [rival.GetHerHim] [SCOPE.Custom('PersonalityGetSharedTraitDescriptionFromFlag')] auf?! Lasst mich [rival.Custom('DE_PRO_POS_S_3P')] wahren Charakter enthüllen..."
+ councillor_personal_steward_diplomacy.2003.t:1 "Persönlicher Kämmerer: Den Frieden fördern"
+ councillor_personal_steward_diplomacy.2003.desc:0 "Ich sehe, wie mein[rival.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival'))] [rival.GetTitledFirstName] am anderen Ende des Gotteshauses steht, und wende mich rasch ab, doch zu meiner Überraschung winkt [councillor.GetTitledFirstName] diese widerliche Kröte zu uns herüber.\n\n„[rival.Custom('DE_PRO_PER_S_3P_N')|U] hat sich zu einem Treffen auf neutralem Boden bereit erklärt. Es bricht mir das Herz, dass zwei so gute Menschen wie Ihr in einer Fehde miteinander leben. Meint Ihr nicht, es wäre an der Zeit, dem ein Ende zu setzen?“"
+ councillor_personal_steward_diplomacy.2003.a:0 Da könntet Ihr recht haben …"
+ councillor_personal_steward_diplomacy.2003.b:0 "[rival.Custom('DE_PRO_PER_S_3P_D')|U] werde ich ein Ende setzen!"
+ councillor_personal_steward_diplomacy.2003.c:0 "Ihr nennt [rival.Custom('DE_PRO_PER_S_3P_A')] einen guten Menschen?! Lasst mich Euch etwas über [rival.Custom('DE_PRO_POS_S_3P')] wahres Wesen erzählen …"
