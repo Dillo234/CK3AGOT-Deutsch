@@ -2,6 +2,12 @@
 	color = { 207 164 136  }
 	definite_form = yes
 	capital = c_slurry_shore
+	can_create = {
+		custom_description = {
+			text = form_btw_must_end_struggle_trigger
+			NOT = { exists = struggle:btw_struggle }
+		}
+	}
 	k_first_forest = {
 		color = { 207 164 136  }
 		definite_form = yes
