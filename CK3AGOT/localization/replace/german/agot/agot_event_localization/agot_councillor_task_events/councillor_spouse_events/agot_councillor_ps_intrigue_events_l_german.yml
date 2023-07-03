@@ -1,47 +1,47 @@
 ﻿l_german:
- councillor_personal_steward_intrigue.0001.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] and [spymaster.GetCouncilTitle] Cooperate"
+ councillor_personal_steward_intrigue.0001.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] und [spymaster.GetCouncilTitle] kooperieren"
 
- councillor_personal_steward_intrigue.0002.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Exposes Scheme"
+ councillor_personal_steward_intrigue.0002.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] deckt Komplott auf"
 
- councillor_personal_steward_intrigue.0003.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Discovers Secret"
+ councillor_personal_steward_intrigue.0003.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] entdeckt Geheimnis"
 
- councillor_personal_steward_intrigue.0004.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Aids Scheme"
+ councillor_personal_steward_intrigue.0004.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] untestützt Komplott"
 
- councillor_personal_steward_intrigue.0005.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Manipulates Subject"
+ councillor_personal_steward_intrigue.0005.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] beeinflusst Zielperson"
 
- councillor_personal_steward_intrigue.0006.message:0 "Naivety Lost"
+ councillor_personal_steward_intrigue.0006.message:0 "Naivität verloren" #testen
 
- councillor_personal_steward_intrigue.0007.message:0 "Devious Practice"
+ councillor_personal_steward_intrigue.0007.message:0 "Täuschungsmanäver" #testen
 
- councillor_personal_steward_intrigue.1001.t:1 "Personal Steward: Trust No One"
- councillor_personal_steward_intrigue.1001.desc:0 ""You have to be careful about the people you surround yourself with." The expression in my [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('councillor'))] eyes is deathly serious. "I have discovered that even as we speak, [spymaster.GetTitledFirstName] is scheming against you!"\n\nCould it really be? My own [spymaster.GetCouncilTitle]?!"
- councillor_personal_steward_intrigue.1001.a:0 "I have been had for a fool!"
+ councillor_personal_steward_intrigue.1001.t:1 "Persönlicher Kämmerer: Vertraut niemandem"
+ councillor_personal_steward_intrigue.1001.desc:0 ""Ihr müsst vorsichtig sein, mit wem ihr Euch umgebt." Der Ausdruck in den Augen meines [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('councillor'))] ist todernst. "Ich habe herausgefunden, dass [spymaster.GetTitledFirstName] in diesem Moment eine Intrige gegen Euch schmiedet!"\n\nKann das wirklich sein? Mein eigener [spymaster.GetCouncilTitle]?!"
+ councillor_personal_steward_intrigue.1001.a:0 "Man hat mich zum Narren gehalten!"
 
- councillor_personal_steward_intrigue.1002.t:1 "Personal Steward: Rumor and Speculation"
- councillor_personal_steward_intrigue.1002.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.Custom('quirk_pos_present')] in the way [councillor.GetSheHe] so often does when [councillor.GetSheHe] has something to share. "You know the rumors about [target.GetTitledFirstName], that [target.GetSheHe] is hiding something terrible?" I lean in closer as [councillor.GetSheHe] lowers [councillor.GetHerHis] voice. "They are all true. All we need is proof.""
- councillor_personal_steward_intrigue.1002.a:0 "It is time for some espionage, my [councillor.Custom('LoverPetName')]!"
- councillor_personal_steward_intrigue.1002.b:0 "I must discover what it is!"
- councillor_personal_steward_intrigue.1002.c:0 "I protect my secrets better than [target.GetFirstNameNoTooltip] does."
+ councillor_personal_steward_intrigue.1002.t:1 "Persönlicher Kämmerer: Gerüchte und Spekulationen"
+ councillor_personal_steward_intrigue.1002.desc:0 "Mein [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.Custom('quirk_pos_present')] auf die Art und Weise, wie [councillor.GetSheHe] es so oft tut, wenn [councillor.GetSheHe] etwas loswerden will. "Ihr kennt die Gerüchte über [target.GetTitledFirstName], dass [target.GetSheHe] etwas Schreckliches verbirgt?" Ich lehne mich näher heran, während [councillor.GetSheHe] die Stimme senkt. "Sie sind alle wahr. Wir brauchen nur noch einen Beweis.""
+ councillor_personal_steward_intrigue.1002.a:0 "Es ist Zeit für ein wenig Spionage, [councillor.Custom('LoverPetName')]!"
+ councillor_personal_steward_intrigue.1002.b:0 "Ich muss herausfinden, was es ist!"
+ councillor_personal_steward_intrigue.1002.c:0 "Ich hüte meine Geheimnisse besser als [target.GetFirstNameNoTooltip]."
 
- councillor_personal_steward_intrigue.1003.t:1 "Personal Steward: Revealed"
- councillor_personal_steward_intrigue.1003.desc:0 "I can tell from the way [councillor.GetSheHe] approaches me that [councillor.GetTitledFirstName] has come across another secret at court.\n\n"[agent.GetTitledFirstName] is participating in a conspiracy," [councillor.GetSheHe] says. "[agent.GetSheHe|U] does not yet know that I know, but I suggest you offer [agent.GetHerHim] amnesty, in exchange for absolute loyalty...""
- councillor_personal_steward_intrigue.1003.a:0 "Make [agent.GetHerHim] understand how much is at stake."
- councillor_personal_steward_intrigue.1003.b:0 "Use [agent.GetHerHim] to find the real mastermind!"
- councillor_personal_steward_intrigue.1003.c:0 "Track [agent.GetHerHis] every move, and keep me safe from harm!"
+ councillor_personal_steward_intrigue.1003.t:1 "Persönlicher Kämmerer: Enthüllt"
+ councillor_personal_steward_intrigue.1003.desc:0 "An der Art und Weise, wie [Ratsmitglied.GetSheHe] an mich herantritt, erkenne ich, dass [councillor.GetTitledFirstName] am Hof auf ein weiteres Geheimnis gestoßen ist.\n\n"[agent.GetTitledFirstName] ist an einer Verschwörung beteiligt", sagt [councillor.GetSheHe]. "[Agent.GetSheHe|U] weiß noch nicht, dass ich Kenntnis davon habe, aber ich schlage vor, dass Ihr [Agent.Custom('DE_PRO_PER_S_3P_D')] Amnestie anbietet, im Austausch für bedingungslose Loyalität...""
+ councillor_personal_steward_intrigue.1003.a:0 "Macht [agent.Custom('DE_PRO_PER_S_3P_D')] klar, wie viel auf dem Spiel steht."
+ councillor_personal_steward_intrigue.1003.b:0 "Benutzt [agent.Custom('DE_PRO_PER_S_3P_A')], um den wahren Drahtzieher zu finden!"
+ councillor_personal_steward_intrigue.1003.c:0 "Beobachtet jede [agent.Custom('DE_PRO_POS_S_3P')]er Bewegungen und bewahrt mich vor Unheil!"
 
- councillor_personal_steward_intrigue.1004.t:1 "Personal Steward: Opposition Research"
- councillor_personal_steward_intrigue.1004.desc:1 "[secret_holder.GetTitledFirstName] has been a pain, vocally supporting the [faction.GetName]. Thankfully, I seem about to get the upper hand.\n\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] has discovered a closely guarded secret of [secret_holder.GetHerHis], [councillor.GetSheHe] tells me with a clever smile.\n\n"I thought you might find it interesting, my dear...""
- councillor_personal_steward_intrigue.1004.a:0 "A little blackmail will keep [secret_holder.GetHerHim] in line."
- councillor_personal_steward_intrigue.1004.b:0 "This is scandalous! The realm must know!"
- councillor_personal_steward_intrigue.1004.c:0 "Sometimes it is best to wait with a winning hand."
- councillor_personal_steward_intrigue.1004.c.tt:1 "You do not yet reveal [secret_holder.GetFirstNamePossessiveNoTooltip] Secret"
+ councillor_personal_steward_intrigue.1004.t:1 "Persönlicher Kämmerer: Wider den Widerstand"
+ councillor_personal_steward_intrigue.1004.desc:1 "[secret_holder.GetTitledFirstName] war eine echte Plage und hat die [faction.GetName] vehement unterstützt. Zum Glück scheine ich bald die Oberhand zu gewinnen.\n\nMein [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] hat ein streng gehütetes Geheimnis von [secret_holder.GetHerHis] entdeckt, erzählt mir [councillor.GetSheHe] mit einem verschmitzten Lächeln.\n\n "Ich dachte mir, dass es Euch interessieren könnte, mein[ROOT.Char.Custom('DE_END_PRO_S_N')] Teuerst[ROOT.Char.Custom('DE_END_ADJ_NUL_S_N')]...""
+ councillor_personal_steward_intrigue.1004.a:0 "Ein wenig Erpressung wird [secret_holder.Custom('DE_PRO_PER_S_3P_A')] bei der Stange halten."
+ councillor_personal_steward_intrigue.1004.b:0 "Das ist skandalös! Das Reich muss davon erfahren!"
+ councillor_personal_steward_intrigue.1004.c:0 "Manchmal ist es besser, mit einem Siegblatt zu warten."
+ councillor_personal_steward_intrigue.1004.c.tt:1 "Ihr enthüllt noch nicht das Geheimnis von [secret_holder.GetFirstNameNoTooltip]"
 
- councillor_personal_steward_intrigue.1005.t:1 "Personal Steward: Divide and Conquer"
- councillor_personal_steward_intrigue.1005.desc:0 "[faction_member.GetTitledFirstName] has been actively supporting [leader.GetTitledFirstName] and [leader.GetHerHis] [faction.GetName]. However, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] has a plan to change that.\n\n"Trust me, the things I could tell [faction_member.GetTitledFirstName] would make [faction_member.GetHerHim] disavow [leader.GetFirstNameNoTooltip] in an instant.""
- councillor_personal_steward_intrigue.1005.a:0 "Make sure [faction_member.GetFirstNameNoTooltip] never supports [leader.GetFirstNameNoTooltip] again!"
- councillor_personal_steward_intrigue.1005.b:0 "Could you make #EMP me#! look like a better choice?"
+ councillor_personal_steward_intrigue.1005.t:1 "Persönlicher Kämmerer: Teile und herrsche"
+ councillor_personal_steward_intrigue.1005.desc:0 "[faction_member.GetTitledFirstName] hat [leader.GetTitledFirstName] und [leader.Custom('DE_PRO_POS_S_3P')]e [faction.GetName] tatkräftig unterstützt. Aber mein [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] hat einen Plan, das zu ändern.\n\n "Glaubt mir, die Dinge, die ich [faction_member.GetTitledFirstName] erzählen könnte, würden [faction_member.Custom('DE_PRO_PER_S_3P_A')] dazu bringen, [leader.GetFirstNameNoTooltip] im Nu abzuschwören.""
+ councillor_personal_steward_intrigue.1005.a:0 "Sorgt dafür, dass [faction_member.GetFirstNameNoTooltip] nie wieder [leader.GetFirstNameNoTooltip] unterstützt!"
+ councillor_personal_steward_intrigue.1005.b:0 "Könntet Ihr nicht #EMP mich#! als die bessere Wahl erscheinen lassen?"
 
- councillor_personal_steward_intrigue.1006.t:1 "Personal Steward: An Appropriate Representative"
- councillor_personal_steward_intrigue.1006.desc:0 "Being well aware of my plans in regards to [target.GetTitledFirstName], my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.GetFirstName] has come to me with a proposal.\n\n"I have friends at [court_owner.GetTitledFirstNamePossessive] court. I could request that they house a guest for some time. With a small token of loyalty and all the support I can offer, [plant.GetTitledFirstName] could do wonders on your behalf...""
- councillor_personal_steward_intrigue.1006.a:0 "A brilliant idea, my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]!"
- councillor_personal_steward_intrigue.1006.b:0 "I think we might need [plant.GetFirstNameNoTooltip] here."
+ councillor_personal_steward_intrigue.1006.t:1 "Persönlicher Kämmerer: An Appropriate Representative"
+ councillor_personal_steward_intrigue.1006.desc:0 "Da mein [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.GetFirstName] von meinen Plänen in Bezug auf [target.GetTitledFirstName] weiß, ist er mit einem Vorschlag zu mir gekommen.\n\n"Ich habe Freunde am Hof von [court_owner.GetTitledFirstName]. Ich könnte darum bitten, dass sie einen Gast für einige Zeit beherbergen. Mit einem kleinen Zeichen der Loyalität und all der Unterstützung, die ich bieten kann, könnte [plant.GetTitledFirstName] in Eurem Namen Großes bewirken...""
+ councillor_personal_steward_intrigue.1006.a:0 "Eine brilliante Idee, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]!"
+ councillor_personal_steward_intrigue.1006.b:0 "Ich glaube, wir brauchen [plant.GetFirstNameNoTooltip] hier."
