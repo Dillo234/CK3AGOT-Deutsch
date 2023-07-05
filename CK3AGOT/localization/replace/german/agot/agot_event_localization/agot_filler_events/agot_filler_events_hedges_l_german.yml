@@ -7,23 +7,23 @@
 #       0001 - 0004           #
 ###############################
 
- agot_filler_hedges.0001.t:0 "The Puppeteer"
- agot_filler_hedges.0001.desc:0 "A Braavosi puppeteer has arrived at my court; my [ROOT.Char.GetCouncillorPosition( 'councillor_steward' ).GetPositionName], having heard talk of his talent among the local smallfolk, decided to invite him to put on a show for my household. "
- agot_filler_hedges.0001.a:0 "I look forward to seeing the show!"
- agot_filler_hedges.0001.b:0 "I look forward to seeing the show!"
+ agot_filler_hedges.0001.t:0 "Das versteckte Talent"
+ agot_filler_hedges.0001.desc:0 "Ein Braavosischer Puppenspieler ist an meinem Hof angekommen. Nachdem mein [ROOT.Char.GetCouncillorPosition( 'councillor_steward' ).GetPositionName] vom gemeinen Volk von dessen Talent mitbekommen hat, entschied er, ihn an meinen Hof einzuladen. Nun soll er mir und meinen Höflingen eine Schau vorspielen."
+ agot_filler_hedges.0001.a:0 "Ich bin so gespannt, was er uns zu zeigen hat!"
+ agot_filler_hedges.0001.b:0 "Eine willkommene Ablenkung! Ich bin gespannt!"
 
- agot_filler_hedges.0002.t:0 "The Puppeteer"
- agot_filler_hedges.0002.desc:0 "The puppet show was entertaining! The puppeteer put on several performances for my household; some were light and comical, while others had a darker tone. All in all, I greatly enjoyed myself!"
- agot_filler_hedges.0002.a:0 "I should let my [ROOT.Char.GetCouncillorPosition( 'councillor_steward' ).GetPositionName] invite performers more often!"
- agot_filler_hedges.0002.b:0 "I felt a sincere connection to one of his characters!"
+ agot_filler_hedges.0002.t:0 "Die Schau: Erstklassige Komödien und Tragödien"
+ agot_filler_hedges.0002.desc:0 "Der Puppenspieler spielte uns einige gute Schaus vor. Während uns manche zum Lachen brachten, kamen uns bei anderen die Tränen. Alles in allem war es ein karthatischer Abend."
+ agot_filler_hedges.0002.a:0 "Ich sollte [ROOT.Char.GetCouncillorPosition( 'councillor_steward' ).GetPositionName] auftragen, mir mehr von solchen Talenten an den Hof zu bringen."
+ agot_filler_hedges.0002.b:0 "Ich fühlte mich dem Schmerz eines seiner Figuren zutiefst verbunden."
 
- agot_filler_hedges.0003.t:0 "The Puppeteer"
- agot_filler_hedges.0003.desc:0 "The puppet show was disturbing… The puppeteer put on several performances for the audience; one of the comical ones, however, felt like they were mocking myself and House [GetPlayer.GetHouse.GetBaseName]!"
- agot_filler_hedges.0003.a:0 "I hope he didn't mock me like this in front of the peasantry..."
+ agot_filler_hedges.0003.t:0 "Die Schau: Bin das ich?"
+ agot_filler_hedges.0003.desc:0 "Das Schauspiel des Puppenspielers war verstörend. Eins der Spiele wirkte so, als würde er sich über mich und Haus [GetPlayer.GetHouse.GetBaseName] lustig machen."
+ agot_filler_hedges.0003.a:0 "Ich hoffe nur, dass der primitive Pöbel das nicht versteht..."
 
- agot_filler_hedges.0004.t:0 "The Puppeteer"
- agot_filler_hedges.0004.desc:0 "The puppet show was terrifying! Even though they were only puppets, the story and the way the man changed his voice chilled me to the bone…"
- agot_filler_hedges.0004.a:0 "I'll be sleeping by candlelight tonight..."
+ agot_filler_hedges.0004.t:0 "Die Schau: Monster im Dunklen"
+ agot_filler_hedges.0004.desc:0 "Die Schau war grauenerregend. Er mag zwar Talent haben, jedoch nicht auf eine gute Art. Eins der Spiele war so überzeugend und seine verschiedenen Stimmen so furchterregend, dass ich mich fast einpisste."
+ agot_filler_hedges.0004.a:0 "Heute Nacht werd ich wohl mit Kerzenlicht schlafen..."
 
 ###############################
 #     Wandering Hedgeknight   #
@@ -31,49 +31,49 @@
 #       0005 - 0013           #
 ###############################
 
- agot_filler_hedges.0005.t:0 "Wandering Hedge Knight"
- agot_filler_hedges.0005.desc:0 "[wandering_hedgeknight.GetTitledFirstName], a hedge knight, has arrived at my court. He has requested permission to rest at my keep for a short while before he resumes his travels. In return, he has offered me his service for the duration of his stay."
- agot_filler_hedges.0005.a:0 "An extra pair of hands would surely be useful"
- agot_filler_hedges.0005.a.tt:0 "#bold This Hedge Knight will have no traits, as the event progresses they will gain traits# "
- agot_filler_hedges.0005.b:0 "Return to the hedges and rest there, vagrant!"
+ agot_filler_hedges.0005.t:0 "Der Heckenritter: Die Ankunft"
+ agot_filler_hedges.0005.desc:0 "Ser [wandering_hedgeknight.GetFirstName] hat meinen Hof erreicht. [wandering_hedgeknight.GetSheHe|U] bittet mich um Erlaubnis, an meinem Hof zu bleiben und sich auszuruhen, bevor [wandering_hedgeknight.GetSheHe] weiterreist. Als Gegenleistung bietet [wandering_hedgeknight.GetSheHe] mir [wandering_hedgeknight.Custom('DE_PRO_POS_S_3P')]en Dienst während [wandering_hedgeknight.Custom('DE_PRO_POS_S_3P')]es Aufenthalts an."
+ agot_filler_hedges.0005.a:0 "Euer Schwert wird mir von Nutzen sein."
+ agot_filler_hedges.0005.a.tt:0 "#bold Dieser Heckenritter hat noch keine [Concept('trait', 'Eigenschaften')|E], wird jedoch in der folgenden Ereigniskette welche erhalten#!"
+ agot_filler_hedges.0005.b:0 "Geht dorthin zurück wo Ihr herkommt, Ihr Landstreicher!"
 
- agot_filler_hedges.0006.t:0 "Wandering Hedge Knight"
- agot_filler_hedges.0006.desc:0 "As I walk through my courtyard, I spot [wandering_hedgeknight.GetTitledFirstName] resting beneath an awning, too busy sleeping to conduct the service he’d offered me during his stay…"
- agot_filler_hedges.0006.a:0 "So this is the type of knight you are..."
- agot_filler_hedges.0006.b:0 "I wish to be like him!"
+ agot_filler_hedges.0006.t:0 "Der Heckenritter: Ser Faulpelz"
+ agot_filler_hedges.0006.desc:0 "Während ich gemächlich durch meine Gärten spaziere, sehe ich, wie Ser [wandering_hedgeknight.GetFirstName] unter einem Sonnendach ruht. Scheinbar ist [wandering_hedgeknight.GetSheHe] mit dem Schlafen zu beschäftigt, um mir [wandering_hedgeknight.Custom('DE_PRO_POS_S_3P')]en angebotenen Dienst zu leisten."
+ agot_filler_hedges.0006.a:0 "So ein[wandering_hedgeknight.Custom('DE_END_ADJ_NUL_S_N')] seid Ihr also."
+ agot_filler_hedges.0006.b:0 "Ich will so sein wie Ihr!"
 
- agot_filler_hedges.0007.t:0 "Wandering Hedge Knight"
- agot_filler_hedges.0007.desc:0 "In exchange for my hospitality, I tasked [wandering_hedgeknight.GetTitledFirstName] with inspecting my armory to ensure its quality. Much to my delight, he seems to have taken this job to heart; the swords, axes, and maces alike are all polished to a mirror finish."
- agot_filler_hedges.0007.a:0 "So this is the type of knight you are!"
- agot_filler_hedges.0007.b:0 "I wish to be like him!"
+ agot_filler_hedges.0007.t:0 "Der Heckenritter: Fleiß wird belohnt"
+ agot_filler_hedges.0007.desc:0 "Als Gegenleistung für meine Gastfreundlichkeit trug ich Ser [wandering_hedgeknight.GetFirstName] auf, meine Waffenkammer zu inspizieren und die Schärfe aller Klingen und Funktionalität aller Bögen sicherzustellen. Wie es scheint, nahm [wandering_hedgeknight.GetSheHe] sich diesen Auftrag zu Herzen: Die Schwerter sind geschärft, die Äxte poliert, die Keulen gesäubert und die Bogensehnen ausgetauscht."
+ agot_filler_hedges.0007.a:0 "So ein[wandering_hedgeknight.Custom('DE_END_ADJ_NUL_S_N')] seid Ihr also."
+ agot_filler_hedges.0007.b:0 "Ich will so sein wie Ihr!"
 
- agot_filler_hedges.0008.t:0 "Wandering Hedge Knight"
- agot_filler_hedges.0008.desc:0 "[wandering_hedgeknight.GetTitledFirstName] was working in the courtyard, but his progress was going slowly. All of the children in my household buzzed about him like flies, pestering him with questions about life on the road. He did his best to strike a balance between his work and keeping the children entertained."
- agot_filler_hedges.0008.a:0 "So this is the type of knight you are!"
- agot_filler_hedges.0008.b:0 "I wish to be like him"
+ agot_filler_hedges.0008.t:0 "Der Heckenritter: Gut mit Kindern"
+ agot_filler_hedges.0008.desc:0 "Ser [wandering_hedgeknight.GetFirstName] kommt seinen Aufgaben nur langsam hinterher. Dies ist jedoch nicht [wandering_hedgeknight.Custom('DE_PRO_POS_S_3P')]e Schuld: Die Kinder an meinem Hof schwirren um [wandering_hedgeknight.Custom('DE_PRO_PER_S_3P_A')], wie Fliegen um einen Haufen Scheiße. Sie durchlöchern [wandering_hedgeknight.Custom('DE_PRO_PER_S_3P_A')] mit Fragen über das Rittertum und dem Leben als Wanderer. Es ist sichtbar, dass [wandering_hedgeknight.GetSheHe] sein Bestes gibt, eine Balance zwischen seiner Arbeit und der Unterhaltung der Kinder zu finden."
+ agot_filler_hedges.0008.a:0 "So ein[wandering_hedgeknight.Custom('DE_END_ADJ_NUL_S_N')] seid Ihr also."
+ agot_filler_hedges.0008.b:0 "Ich will so sein wie Ihr!"
 
- agot_filler_hedges.0009.t:0 "Wandering Hedge Knight"
- agot_filler_hedges.0009.desc:0 "I came across [wandering_hedgeknight.GetTitledFirstName] with a few of my men-at-arms. In their off-time, the lot had been playing dice, something that [wandering_hedgeknight.GetTitledFirstNameNoTooltip] was seemingly exceptionally skilled at. A few of the men-at-arms, however, later said that his rolls may have been just a bit too good…"
- agot_filler_hedges.0009.a:0 "So this is the type of knight you are.."
- agot_filler_hedges.0009.b:0 "I wish to be like him!"
+ agot_filler_hedges.0009.t:0 "Der Heckenritter: Glückspilz oder fauler Apfel"
+ agot_filler_hedges.0009.desc:0 "Beim Spazieren traf ich auf Ser [wandering_hedgeknight.GetFirstName] und ein paar meiner Soldaten. Während Ihrer Pause spielen sie scheinbar viel mit dem Würfel. Ser [wandering_hedgeknight.GetTitledFirstNameNoTooltip] ist äußerst talentiert, was das Glücksspiel angeht. Jedoch munkeln ein paar meiner Soldaten hinter [wandering_hedgeknight.Custom('DE_PRO_POS_S_3P')]em Rücken, dass da etwas Faul sein muss."
+ agot_filler_hedges.0009.a:0 "So ein[wandering_hedgeknight.Custom('DE_END_ADJ_NUL_S_N')] seid Ihr also."
+ agot_filler_hedges.0009.b:0 "Ich will so sein wie Ihr!"
 
- agot_filler_hedges.0010.t:0 "Wandering Hedge Knight"
- agot_filler_hedges.0010.desc:0 "I tasked [wandering_hedgeknight.GetTitledFirstName] with a rather simple matter; overseeing some of my smallfolk while they completed some manual labor I had levied them for. [wandering_hedgeknight.GetTitledFirstNameNoTooltip] did indeed oversee them, but with a heavier hand than might have been necessary…"
- agot_filler_hedges.0010.a:0 "So this is the time of knight you are.."
- agot_filler_hedges.0010.b:0 "I wish to be like him!"
+ agot_filler_hedges.0010.t:0 "Der Heckenritter: Unterdrücker der Arbeiter"
+ agot_filler_hedges.0010.desc:0 "Ich trug Ser [wandering_hedgeknight.GetTitledFirstName] auf, die Aufsicht über die Arbeit von Gemeinen zu übernehmen. [wandering_hedgeknight.GetSheHe|U] versteht wohl unter Aufsicht etwas anderes wie ich. einige meiner Untergebenen baten mich darum, weniger harsch mit ihnen vorzugehen. Ich, zu dem Zeitpunkt noch ahnungslos, schickte sie fort. Nun da ich von der Wahrheit weiß, dreht sich mir der Magen um. [wandering_hedgeknight.GetSheHe|U] scheut vor keiner Grausamkeit und kennt keine Grenzen."
+ agot_filler_hedges.0010.a:0 "So ein[wandering_hedgeknight.Custom('DE_END_ADJ_NUL_S_N')] seid Ihr also."
+ agot_filler_hedges.0010.b:0 "Ich will so sein wie Ihr!"
 
- agot_filler_hedges.0011.t:0 "Wandering Hedge Knight"
- agot_filler_hedges.0011.desc:0 "[wandering_hedgeknight.GetTitledFirstNameNoTooltip] has spent the day training in the courtyard, sparring with a few of my household guards. "
- agot_filler_hedges.0011.a:0 "It seems he knows how to wield a blade"
+ agot_filler_hedges.0011.t:0 "Der Heckenritter: Fähiger Krieger"
+ agot_filler_hedges.0011.desc:0 "Ser [wandering_hedgeknight.GetTitledFirstNameNoTooltip] verbrachte seinen heutigen Tag damit, mit meiner Hausgarde zu üben."
+ agot_filler_hedges.0011.a:0 "Wie es scheint ist Ser [wandering_hedgeknight.GetTitledFirstNameNoTooltip] ein geschickter Kämpfer."
 
- agot_filler_hedges.0012.t:0 "Wandering Hedge Knight"
- agot_filler_hedges.0012.desc:0 "[wandering_hedgeknight.GetTitledFirstName] and [active_councillor.GetTitledFirstName] have spent the day in deep conversation with one another, discussing the finer points of strategy and analyzing historical battles."
- agot_filler_hedges.0012.a:0 "It seems [wandering_hedgeknight.GetTitledFirstNameNoTooltip] is quite the tactician"
+ agot_filler_hedges.0012.t:0 "Der Heckenritter: Fähiger Befehlshaber"
+ agot_filler_hedges.0012.desc:0 "Ser [wandering_hedgeknight.GetTitledFirstName] und [active_councillor.GetTitledFirstName] verbrachten den Tag damit, sich über vergangene Schlachten zu unterhalten und diese zu analysieren."
+ agot_filler_hedges.0012.a:0 "Wie es scheint ist Ser [wandering_hedgeknight.GetTitledFirstNameNoTooltip] ein Fähiger Stratege."
 
- agot_filler_hedges.0013.t:0 "Wandering Hedge Knight"
- agot_filler_hedges.0013.desc:0 "The time has come at last for [wandering_hedgeknight.GetTitledFirstName] to return to the hedges from whence he came. Before leaving, he comes before you and offers his sincere thanks for your hospitality, asking if he can be of any further service prior to his departure."
- agot_filler_hedges.0013.a:0 "You're wasted on the road, join my court"
- agot_filler_hedges.0013.b:0 "I simply wished him safe travels"
+ agot_filler_hedges.0013.t:0 "Der Heckenritter: Die Abreise"
+ agot_filler_hedges.0013.desc:0 ""Meine Zeit hier ist vorbei.", trägt mir Ser [wandering_hedgeknight.GetTitledFirstName] vor "Ich will Eure großzügige Gastfreundlichkeit nicht länder beanspruchen. Ich bedanke mich für das Dach und das Essen das Ihr mir gabt, jedoch ist es jetzt an der Zeit, dasss ich mich für den Aufbruch bereit mache.""
+ agot_filler_hedges.0013.a:0 "Euer Talent ist da draußen verschwendet. Bleibt und dient mir!"
+ agot_filler_hedges.0013.b:0 "Ich wünsche Euch eine gute Abreise."
 
 ###############################
 #     Wandering Sellsword   #
