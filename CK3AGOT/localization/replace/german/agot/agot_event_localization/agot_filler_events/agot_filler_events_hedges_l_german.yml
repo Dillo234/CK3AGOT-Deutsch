@@ -35,7 +35,7 @@
  agot_filler_hedges.0005.desc:0 "Ser [wandering_hedgeknight.GetFirstName] hat meinen Hof erreicht. [wandering_hedgeknight.GetSheHe|U] bittet mich um Erlaubnis, an meinem Hof zu bleiben und sich auszuruhen, bevor [wandering_hedgeknight.GetSheHe] weiterreist. Als Gegenleistung bietet [wandering_hedgeknight.GetSheHe] mir [wandering_hedgeknight.Custom('DE_PRO_POS_S_3P')]en Dienst während [wandering_hedgeknight.Custom('DE_PRO_POS_S_3P')]es Aufenthalts an."
  agot_filler_hedges.0005.a:0 "Euer Schwert wird mir von Nutzen sein."
  agot_filler_hedges.0005.a.tt:0 "#bold Dieser Heckenritter hat noch keine [Concept('trait', 'Eigenschaften')|E], wird jedoch in der folgenden Ereigniskette welche erhalten#!"
- agot_filler_hedges.0005.b:0 "Geht dorthin zurück wo Ihr herkommt, Ihr Landstreicher!"
+ agot_filler_hedges.0005.b:0 "Geh dorthin zurück wo du herkommst, du Landstreicher!"
 
  agot_filler_hedges.0006.t:0 "Der Heckenritter: Ser Faulpelz"
  agot_filler_hedges.0006.desc:0 "Während ich gemächlich durch meine Gärten spaziere, sehe ich, wie Ser [wandering_hedgeknight.GetFirstName] unter einem Sonnendach ruht. Scheinbar ist [wandering_hedgeknight.GetSheHe] mit dem Schlafen zu beschäftigt, um mir [wandering_hedgeknight.Custom('DE_PRO_POS_S_3P')]en angebotenen Dienst zu leisten."
@@ -175,7 +175,7 @@
  agot_filler_hedges.0029.a:0 "Unfassbar... Der Volltrottel hatte Recht!"
 
  agot_filler_hedges.0030.t:0 "Der Heckenzauberer: Ich bin eine Lachfigur"
- agot_filler_hedges.0030.desc:0 "Wie konnte ich nur so dumm sein und einem errückten Landstreicher vertrauen. Als meine Schiffe an meinem Hafen einliefen, waren die Vorratskammern noch voll. Der Kapitän berichtete, dass es vor Ort nicht einen Interessenten gegeben hat. Was jedoch fast noch schlimmer ist, ist dass meine Torheit sich im Reich umherspricht."
+ agot_filler_hedges.0030.desc:0 "Wie konnte ich nur so dumm sein und einem errückten Landstreicher vertrauen. Als meine Schiffe an meinem Hafen einliefen, waren die Vorratskammern noch voll. Der Kapitän berichtete, dass es vor Ort nicht einen Interessenten gegeben hat. Was jedoch fast noch schlimmer ist, ist dass meine Torheit sich im Reich umherspricht. Von den eisigsten Feldern des Nordens, bis in die trockensten Wüsten von Dorne wird über mich geredet und gelacht."
  agot_filler_hedges.0030.a:0 "Verflucht soll dieser Mann sein."
  agot_filler_hedges.0030.b:0 "Wachen! Findet diesen Mann!"
 
@@ -185,17 +185,17 @@
 #       0031 - 0032           #
 ###############################
 
- agot_filler_hedges.0031.t:0 "The Traveling Bard"
- agot_filler_hedges.0031.desc:0 "[traveling_bard.GetTitledFirstName], an itinerant bard popular with the common folk, has arrived at my court. A local landowner encouraged him to seek me out so that he might perform for myself and my household.\n\nPrior to the performance, he came to me to ask what sort of music would be most pleasing to my ears."
- agot_filler_hedges.0031.a:0 "A simple, pious ballad"
- agot_filler_hedges.0031.b:0 "Perhaps a ballad about me?"
- agot_filler_hedges.0031.c:0 "Sing of the valour of House [GetPlayer.GetHouse.GetBaseName]!"
- agot_filler_hedges.0031.d:0 "Take your music elsewhere, vagrant!"
+ agot_filler_hedges.0031.t:0 "Reisender Barde"
+ agot_filler_hedges.0031.desc:0 "Ein Barde namens [traveling_bard.GetTitledFirstName] ist heute an meinem Hof angekommen. Beliebt beim gemeinen Volk, wurde er von einem meiner Höflinge dazu ermutigt, für mich und meine Hofgesellschaft ein paar Melodien vorzuspielen und ein paar Verse vorzusingen."
+ agot_filler_hedges.0031.a:0 "Eine einfache, beliebte Ballade."
+ agot_filler_hedges.0031.b:0 "Vielleicht eine Ballade über mich?"
+ agot_filler_hedges.0031.c:0 "Eine Ballade über Haus [GetPlayer.GetHouse.GetBaseName]!"
+ agot_filler_hedges.0031.d:0 "Hinfort mit eurem Geklimpere, Ihr Landstreicher!"
 
- agot_filler_hedges.0032.t:0 "The Traveling Bard"
- agot_filler_hedges.0032.desc:0 "[traveling_bard.GetTitledFirstName]’s performance went over swimmingly, with not a single member of my household left unimpressed! Beyond the specific ballad I’d requested, [traveling_bard.GetTitledFirstNameNoTooltip] played many more gorgeous tunes, much to everyone’s delight."
- agot_filler_hedges.0032.a:0 "Your talents are wasted on the road!"
- agot_filler_hedges.0032.b:0 "A splendid evening, indeed"
+ agot_filler_hedges.0032.t:0 "Reisender Barde: Ein schönes Vorspiel"
+ agot_filler_hedges.0032.desc:0 "Der Auftritt von [traveling_bard.GetTitledFirstName] war packend! Er vereinte Töne zu Melodien, die ich in meinem Leben noch nie gehört habe. Er hat ein Talent, ganze Geschichten in wenigen Wörtern zu erzählen, ohne auch nur ein Detail auszulassen."
+ agot_filler_hedges.0032.a:0 "Euer Talent ist da draußen verschwendet. Bleibt und spielt für mich!"
+ agot_filler_hedges.0032.b:0 "Ein wahrlich schöner Abend."
 
 ###############################
 #  The Artist Inspiration     #
@@ -203,31 +203,31 @@
 #       0033 - 0038           #
 ###############################
 
- agot_filler_hedges.0033.t:0 "The Artist's Inspiration"
- agot_filler_hedges.0033.desc:0 "A man arrived at my court today claiming to be an artist. He states to have been struck by the beauty of my land and wishes to stay for inspiration. He promises to dedicate a painting to me in return for my hospitality."
- agot_filler_hedges.0033.a:0 "By all means!"
- agot_filler_hedges.0033.b:0 "Begone, beggar"
+ agot_filler_hedges.0033.t:0 "Des Künstlers Meisterwerk"
+ agot_filler_hedges.0033.desc:0 "Heute erschien ein Mann an meinem Hof, welcher von sich behauptet, ein Künstler zu sein. Er erklärte mir, dass er von der Umgebung meiner Domäne so gerührt sei, dass er diese auf Leinwand festhalten will. Dieses soll ich als Gegenzug für meine Gastfreundlichkeit erhalten."
+ agot_filler_hedges.0033.a:0 "Fühlt Euch herzlichst willkommen!"
+ agot_filler_hedges.0033.b:0 "Hinfort mit dir, du Hundsfott"
 
- agot_filler_hedges.0034.t:0 "The Artist's Inspiration"
- agot_filler_hedges.0034.desc:0 "The Artist was gone this morning; he did not let anyone know he had left. I walked into the room he had used as his studio for the first time and was struck by a beautiful painting of my Castle. Such a painting speaks volumes to my dynasty’s legacy!"
- agot_filler_hedges.0034.a:0 "I will display this painting!"
- agot_filler_hedges.0034.b:0 "Perhaps it would fetch a decent price!"
+ agot_filler_hedges.0034.t:0 "Des Künstlers Meisterwerk: #itlalic Das Himmelsschloss#!"
+ agot_filler_hedges.0034.desc:0 "Heute wollte ich dem Künstler besuchen, um nachzusehen, wie er vorankommt. Zu meiner Überraschung ist seine Schlafkammer leer, weder er noch sein Gepäck in Sicht. Wie es scheint, ist er in aller Früh abgereist und hat niemandem Bescheid gegeben. Als ich das Hinterzimmer, das er als Atelier nutzte, betrete, fällt mir sofort die riesige Leinwand ins Auge: Ein wunderschönes Gemälde meiner Burg und der direkten Umgebung. Unfassbar, dass jemand so begabt mit dem Pinsel ist. Jeder Strich, jeder Klecks scheint bewusst platziert. Die Farben stehen in Harmonie zueinander. Dieses Gemälde ist wahrlich ein Meisterwerk!"
+ agot_filler_hedges.0034.a:0 "Es wird die Wand im Thronsaal zieren!"
+ agot_filler_hedges.0034.b:0 "Eine solche Handwerkskunst muss einen guten Preis erzielen."
 
- agot_filler_hedges.0035.t:0 "The Artist's Inspiration"
- agot_filler_hedges.0035.desc:0 "The Artist was gone this morning; he did not let anyone know he had left. I walked into the room he had used as his studio for the first time and was humbled by a painting dedicated to the gods. I was stunned for a few seconds before I realized it was a painting of the temple to the gods in my hold!"
- agot_filler_hedges.0035.a:0 "I will display this painting!"
- agot_filler_hedges.0035.b:0 "Prehaps it would fetch a decent price!"
+ agot_filler_hedges.0035.t:0 "Des Künstlers Meisterwerk: #italic Das Götterhaus#!"
+ agot_filler_hedges.0035.desc:0 "Heute wollte ich dem Künstler besuchen, um nachzusehen, wie er vorankommt. Zu meiner Überraschung ist seine Schlafkammer leer, weder er noch sein Gepäck in Sicht. Wie es scheint, ist er in aller Früh abgereist und hat niemandem Bescheid gegeben. Als ich das Hinterzimmer, das er als Atelier nutzte, betrete, fällt mir sofort die riesige Leinwand ins Auge: Mich überkommt ein Gefühl der Vertrautheit... Es ist nicht nur irgendein Tempel, sondern einer meiner Tempel! Und wie schön er gemalt ist! Es wirkt, als wären die Götter selbst für dieses Gemälde verantwortlich. Die Farben sind... fast zu gut! Unglaublich, dass ein Mensch so etwas malen kann! Dieses Gemälde ist wahrlich ein Meisterwerk!"
+ agot_filler_hedges.0035.a:0 "Es wird die Wand im Thronsaal zieren!"
+ agot_filler_hedges.0035.b:0 "Eine solche Handwerkskunst muss einen guten Preis erzielen."
 
- agot_filler_hedges.0036.t:0 "The Artist's Inspiration"
- agot_filler_hedges.0036.desc:0 "The Artist was gone this morning; he did not let anyone know he had left. I walked into the room he had used as his studio for the first time and was greeted by a painting of a fierce warrior on mount! My pride swelled when I saw that the mighty warrior was, in fact, a portrait of myself!"
- agot_filler_hedges.0036.a:0 "I will display this painting!"
- agot_filler_hedges.0036.b:0 "Perhaps it would fetch a decent price!"
+ agot_filler_hedges.0036.t:0 "Des Künstlers Meisterwerk: #italic Der Kriegerkönig#!"
+ agot_filler_hedges.0036.desc:0 "Heute wollte ich dem Künstler besuchen, um nachzusehen, wie er vorankommt. Zu meiner Überraschung ist seine Schlafkammer leer, weder er noch sein Gepäck in Sicht. Wie es scheint, ist er in aller Früh abgereist und hat niemandem Bescheid gegeben. Als ich das Hinterzimmer, das er als Atelier nutzte, betrete, fällt mir sofort die riesige Leinwand ins Auge: Jeder Pinselstrich voller Zorn, jeder Klecks voller Wut. Das Handwerk ebenso furios, wie das, was es darstellt. Ein mächtiger Krieger, auf seinem kräftigen Streitross. Das Gesicht ist im dunkeln des Helmes versteckt, dennoch sind Gesichtszüge erkennbar - Meine Gesichtszüge! Das Schwert wirkt, als könnte es gerade aus dem Bild herausfallen und mir den Schädel spalten. Dieses Gemälde ist wahrlich ein Meisterwerk!"
+ agot_filler_hedges.0036.a:0 "Es wird die Wand im Thronsaal zieren!"
+ agot_filler_hedges.0036.b:0 "Eine solche Handwerkskunst muss einen guten Preis erzielen."
 
- agot_filler_hedges.0037.t:0 "The Artist's Inspiration"
- agot_filler_hedges.0037.desc:0 "The Artist was gone this morning; he did not let anyone know he had left. I was struck by the mess when I walked into the room he had used as his studio for the first time. The room smelled of untouched rotten food, and the walls were carved with nonsensical scribbles. In the center of the room was a painter's canvas covered by cloth; as I removed the fabric, I gasped. The painting was horrific! I do not know what the "thing" displayed in the image was, but it inspired fear and discomfort!"
- agot_filler_hedges.0037.a:0 "I will display this painting..."
- agot_filler_hedges.0037.b:0 "This should be burned..."
+ agot_filler_hedges.0037.t:0 "Des Künstlers Meisterwerk: #italic Das Monster aus der Nacht!"
+ agot_filler_hedges.0037.desc:0 "Heute wollte ich dem Künstler besuchen, um nachzusehen, wie er vorankommt. Zu meiner Überraschung ist seine Schlafkammer leer, weder er noch sein Gepäck in Sicht. Wie es scheint, ist er in aller Früh abgereist und hat niemandem Bescheid gegeben. Als ich das Hinterzimmer, das er als Atelier nutzte, betrete, fällt mir sofort die riesige Leinwand ins Auge: Eine bizarre Kreatur... Fast vollständig in Dunkel gehüllt, kaum erkennbar und dennoch löst sie in mir tiefste Furcht aus! Sie hat eine menschenartige Gestalt, jedoch scheint sie riesig zu sein und hat Klauen statt Hände. Sie hat zwei Köpfe und Messer als Zähne. Auf der Rückseite steht etwas gekritzelt: "Flieht, solange ihr noch könnt. Diese Kreatur lauert in die Tiefen Eurer Feste!""
+ agot_filler_hedges.0037.a:0 "Es hat eine abstrakte Bedeutung! Es wird die Wand im Thronsaal zieren!"
+ agot_filler_hedges.0037.b:0 "Dieses Teufelswerk gehört verbrannt..."
 
- agot_filler_hedges.0038.t:0 "The Artist's Inspiration"
- agot_filler_hedges.0038.desc:0 "The painting is gone now; I do not know if it was a courtier who removed it or if something else did. I no longer need it; the "thing" it displayed is still with me. I see it when I hold court, watching me from the dark corners. When my vassals speak to me, it whispers in my ear. It is everywhere and nowhere at once... "
- agot_filler_hedges.0038.a:0 "Will I ever be free from it?"
+ agot_filler_hedges.0038.t:0 "Des Künstlers Meisterwerk: #italic Das Monster aus der Nacht!"
+ agot_filler_hedges.0038.desc:0 "Einer meiner Diener, dem ich den Befehl gab, das Gemälde zu verbrennen, kam mit verstörenden Nachrichten zu mir. Scheinbar gab es keine Spuren auf ein Gemälde. Ich bin wohl der Einzige, der es je zu Gesicht bekommen hat... #italic Wie#! ist dieses Gemälde nun also verschwunden? Sagte er etwa die Wahrheit?\n\nÜberall sehe ich es. In den dunklen Ecken meines Thronsaals und in den Schatten meiner Gärten. In jedem unbelichteten Korridor und auch nachts in meinem Zimmer. Ich weiß nicht mehr, was sich tatsächlich zuträgt und was nur in meinem Kopf geschieht. Die Grenzen, verschwommen.\n\nEs ist, als würde die Angst vor dem Monster, dieses überhaupt erst erschaffen und dadurch wiederum, würde in mir diese Angst ausgelöst werden - ein schrecklicher Teufelskreis. Ich traue mich schon gar nicht mehr, alleine umher zu laufen. Ob mich das Gemälde oder das Monster verfolgt, weiß ich nicht. Ich weiß nur eins:"
+ agot_filler_hedges.0038.a:0 "Ich habe Angst"
