@@ -1633,8 +1633,8 @@
  rival_removed_mayor:0 "[TARGET_CHARACTER.GetShortUIName|U] entfernte [CHARACTER.GetShortUIName] aus [CHARACTER.Custom('DE_PRO_POS_S_3P')]em politischen Amt und ersetzte [CHARACTER.Custom('DE_PRO_PER_S_3P_A')] durch jemand anderes."
  rival_removed_mayor_corresponding:0 "[CHARACTER.GetShortUIName|U] entfernte [TARGET_CHARACTER.GetShortUIName] aus [TARGET_CHARACTER.Custom('DE_PRO_POS_S_3P')]em politischen Amt und ersetzte [TARGET_CHARACTER.Custom('DE_PRO_PER_S_3P_A')] durch jemand anderes."
 
- rival_replaced_steward:0 "[TARGET_CHARACTER.GetShortUIName|U] ersetzte [CHARACTER.GetShortUIName] durch einen anderen Ratsverwalter."
- rival_replaced_steward_corresponding:0 "[CHARACTER.GetShortUIName|U] ersetzte [TARGET_CHARACTER.GetShortUIName] durch einen anderen Ratsverwalter."
+ rival_replaced_steward:0 "[TARGET_CHARACTER.GetShortUIName|U] ersetzte [CHARACTER.GetShortUIName] durch einen anderen Ratskämmerer."
+ rival_replaced_steward_corresponding:0 "[CHARACTER.GetShortUIName|U] ersetzte [TARGET_CHARACTER.GetShortUIName] durch einen anderen Ratskämmerer."
 
  rival_reprimanded_child:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'wurdet', 'wurde')] nach einem Gespräch mit einem kleinen Kind über eine Hinrichtung von [CHARACTER.GetShortUIName] zurechtgewiesen."
  rival_reprimanded_child_corresponding:1 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'wurdet', 'wurde')] nach einem Gespräch mit einem kleinen Kind über eine Hinrichtung von [TARGET_CHARACTER.GetShortUIName] zurechtgewiesen."
