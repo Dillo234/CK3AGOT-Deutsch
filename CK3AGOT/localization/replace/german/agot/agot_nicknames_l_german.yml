@@ -33,17 +33,17 @@
  nick_brightflame:0 "Leuchtflamme" #Aerion Brightflame
  nick_brown:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Braune"
  nick_browntooth:0 "Braunzahn"
- nick_buckets:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Eimer"
+ nick_buckets:0 "der Eimer"
  nick_cleftjaw:0 "Spaltkinn"
  nick_cornburner:0 "Kornbrenner" #Flavour - nc - Luthor II Largent
  nick_crowfood:0 "Krähenfresser[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nickname_the_coward:0 "die Memme"
+ nickname_the_coward:0 "[Select_CString( CHARACTER.IsFemale, 'die Memme', 'der Feigling' )]"
  nick_the_lionslayer:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Löwentöter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" 
  nick_crows_eye:0 "Krähenauge"
  nick_damphair:0 "Feuchthaar"
  nick_dance_for_me:0 "Tanz-für-mich"
- nick_darkrobin:0 "Finster[CHARACTER.Custom('DE_END_ADJ_NUL_S_N')] Robin"
- nick_drunken_giant:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Trunkene Riese"
+ nick_darkrobin:0 "Finsterer Robin"
+ nick_drunken_giant:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Trunkene Ries[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
  nick_fair:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schöne" #Fair Walda
  nick_fat:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Fette" #Fat Walda
  nick_fireball:0 "Feuerball"
@@ -70,7 +70,7 @@
  nick_little_liddle:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Kleine Kleyn" #Rickard Kleyn
  nick_long:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Lange"
  nick_lophand:0 "Handab"
- nick_lord_of_daughters:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] [CHARACTER.GetLadyLord] der Töchter" #Flavour - nc - Gowen Groves
+ nick_lord_of_daughters:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Herr[CHARACTER.Custom('DE_END_NOU_S_GS_N')] der Töchter" #Flavour - nc - Gowen Groves
  nick_mad:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Irre"
  nick_maidensbane:0 "Jungfrauentod"
  nick_merry:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Fröhliche" #Merry Megette
@@ -86,7 +86,7 @@
  nick_priestkiller:0 "Priestermörder[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Horgan Priestkiller
  nick_raven_feeder:0 "Rabenfütterer[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_red:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Rote"
- nick_red_oarsman:0 "der Rote Ruderer"
+ nick_red_oarsman:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Rote Ruderer"
  nick_redarm:0 "Rotarm"
  nick_redsteel:0 "Rotstahl"
  nick_reek:0 "Stinker"
@@ -109,13 +109,13 @@
  nick_stormdrunk:0 "Sturmtrinker[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Rymolf Stormdrunk
  nick_stump_hand:0 "Stummelhand" #Harras Stump-Hand
  nick_tanner:0 "Gerber[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_anvil:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Amboss[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
+ nick_the_anvil:0 "der Amboss"
  nick_the_bad:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schlechte" #Brandon der Schlechte
  nick_the_barber:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Barbier[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_bard:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Barde"
+ nick_the_bard:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Bard[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
  nick_the_barren:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Unfruchtbare" 
  nick_the_beggar_king:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Bettlerkönig[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Viserys the Beggar King
- nick_the_belly:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Wanst"
+ nick_the_belly:0 "der Wanst"
  nick_the_beloved:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Geliebte" #Baelor the Beloved
  nick_the_big_bucket:0 "der Große Eimer"
  nick_the_bitter:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Bittere"
@@ -139,7 +139,7 @@
  nick_the_brown_dragon:0 "der Braune Drache" #Daemon the Brown Dragon
  nick_the_burner:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Verbrenner[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #von Brandon der Verbrenner
  nick_the_champion:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Streiter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_child:0 "das Kind" #8 year old High Septon
+ nick_the_child:0 "Das Kind" #8 year old High Septon
  nick_the_conciliator:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schlichter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Jaehaerys the Conciliator
  nick_the_conqueror:0 "der Eroberer" #Aegon the Conqueror
  nick_the_cruel:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Grausame" #Maegor the Cruel
@@ -151,7 +151,7 @@
  nick_the_demon_of_darry:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Dämon[CHARACTER.Custom('DE_END_NOU_S_GS_N')] von Darry" #Rico: Unbekannter Vorname - quelle:https://eisundfeuer.fandom.com/de/wiki/D%C3%A4mon_von_Darry
  nick_the_demonlover:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Dämonenfreund[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Othgar the Demonlover - Rico: Es geht um Othgar Hoffartt
  nick_the_dragon_prince:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Drachen[CHARACTER.Custom('GetPrincessPrince')|l]" #Rhaegar the Dragon Prince
- nick_the_dragon_queen:0 "Drachenkönig[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Daenerys the Dragon Queen
+ nick_the_dragon_queen:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Drachenkönig[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Daenerys the Dragon Queen
  nick_the_dragonbane:0 "der Drachentod" #Aegon the Dragonbane
  nick_the_dragonknight:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Drachenritter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Aemon the Dragonknight
  nick_the_dragonless:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Drachenlose" #Vaegon the Dragonless
@@ -167,7 +167,7 @@
  nick_the_falcon_knight:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Falkenritter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Artys the Falcon Knight
  nick_the_fat:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Fette" #Hugh the Fat
  nick_the_fierce:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Fürchterliche" #Fergon the Fierce - Rico: Fergon Hoffartt
- nick_the_flower_of_the_mountain:0 "Die Blumes des Berges" #Sharra the Flower of the Mountain - Rico: Sharra Arryn
+ nick_the_flower_of_the_mountain:0 "die Blumes des Berges" #Sharra the Flower of the Mountain - Rico: Sharra Arryn
  nick_the_fortunate:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Unwahrscheinliche" #Aegon the Fortunate - Rico: Aegon V. Targaryen
  nick_the_giantslayer:0 "Riesentöter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Rico - Godry Riesentöter
  nick_the_glorious:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Glorreiche" #Gaemon the Glorious
@@ -185,7 +185,7 @@
  nick_the_host:0 " [CHARACTER.Custom('DE_ART_DEF_S_N')] Gastfreundliche" #Harmund the Host -Rico Harmund I. Hoffartt
  nick_the_humpback:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Buckelige"
  nick_the_hungry:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Hungrige"
- nick_the_hungry_wolf:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Hungrige Wolf[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
+ nick_the_hungry_wolf:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Hungrige W[Select_CString( CHARACTER.IsFemale, 'ö', 'o' )]lf[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_huntsman:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Jägers[CHARACTER.GetWomanMan]" #Rico: Harle the Huntsman
  nick_the_implacable:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Unversöhnliche" #Rico: Artos Stark
  nickname_the_inkeeper:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Gastwirt[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
@@ -197,13 +197,13 @@
  nick_the_kingmaker:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Königsmacher[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Rico: Kriston Kraut
  nick_the_kinslayer:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Sippenmörder[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Jonos the Kinslayer
  nick_the_knight:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Ritter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_knott:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Knotten" #Vom Haus Knotten
+ nick_the_knott:0 "der Knotten" #Vom Haus Knotten
  nick_the_krakens_daughter:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] [CHARACTER.Custom('GetDaughterSon')] des Kraken"
  nick_the_lace_serpent:0 "die Spitzenschlange" #Rico: Serala von Myr
  nick_the_lame:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Lahme" #Lothar the Lame
  nick_the_last_dragon:0 "der Letzte Drache" #Rhaegar the Last Dragon
  nick_the_last_reaver:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Letzte Räuber[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_laughing_wolf:0 "der Lachende Wolf"
+ nick_the_laughing_wolf:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Lachende W[Select_CString( CHARACTER.IsFemale, 'ö', 'o' )]lf[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_leech_lord:0 "[CHARACTER.GetLadyLord] Egel" #Rico: Roose Bolton
  nick_the_liddle:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Kleyne" 
  nick_the_limper:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Hinker[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Rico: vermutlich Ralf der Hinker
@@ -280,7 +280,7 @@
  nick_the_wicked:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Verruchte" #Rico: Kein Charakter gefunden
  nick_the_widowmaker:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Witwenmacher[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Wulfgar the Widowmaker
  nick_the_winged_knight:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Geflügelte Ritter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" 
- nick_the_winter_child:0 "das Winter Kind" #Gael the Winter Child
+ nick_the_winter_child:0 "das Winterkind" #Gael the Winter Child
  nick_the_winterfast:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Winterfeste" #Rico: Kein Charakter gefunden
  nick_the_wise:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Weise" #Jaehaerys the Wise
  nick_the_wull:0 "der Eimer"
@@ -325,7 +325,7 @@
  nick_the_black_lion:0 "der Schwarze Löwe"
  nick_the_black_prefix:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schwarze"
  nick_the_bully:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Tyrann[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_cannibal:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Menschenfresser[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
+ nick_the_cannibal:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Kannibal[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
  nick_the_chronicler:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Chronist[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_crow:0 "die Krähe"
  nick_the_devourer:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Verschlinger[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
@@ -447,7 +447,7 @@
  nick_redbeard:0 "Rotbart"
  nick_redhand:0 "Rothand"
  nick_redraven:0 "Roter Rabe"
- nick_redtusk:0 "Rothaue[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
+ nick_redtusk:0 "Rothauer[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_seaspray:0 "Gischt"
  nick_silveraxe:0 "Silberaxt"
  nick_sixskins:0 "Sechshaut"
@@ -456,7 +456,7 @@
  nick_strongboar:0 "der Starke Eber"
  nick_swiftspur:0 "Mauersegler[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_acolyte:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Akolyth[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_archer:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Bogenschütze"
+ nick_the_archer:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Bogenschütz[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
  nick_the_avenger:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Rächer[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_bald:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Kahle"
  nick_the_bastard:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Bastard[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
@@ -467,10 +467,10 @@
  nick_the_black_lightning:0 "der Schwarze Blitz"
  nick_the_black_swan:0 "der Schwarze Schwan"
  nick_the_blackmane:0 "die Schwarzmähne"
- nick_the_blind_bowman:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Blinde Bogenschütze"
+ nick_the_blind_bowman:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Blinde Bogenschütz[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
  nick_the_blind_king:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Blinde König[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_bloody:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Blutige"
- nick_the_blue_bard:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Blaue Bard[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
+ nick_the_blue_bard:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Blaue Bard[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
  nick_the_boarkiller:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Ebertöter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Rall der Ebertöter
  nick_the_brute:0 "die Bestie" #Otho Bracken
  nick_the_bull:0 "der Bulle"
@@ -512,22 +512,22 @@
  nick_the_lackwit:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Dämlack" #Lo Doq
  nick_the_last_valyrian:0 "der letzte Valyrer"
  nick_the_latecomer:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Nachzügler[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Torgon Graueisen
- nick_the_laughing_lion:0 "der Lachende Löwe"
+ nick_the_laughing_lion:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Lachende Löw[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
  nick_the_laughing_storm:0 "der Lachende Sturm"
  nick_the_lazy:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Faule"
  nick_the_learned:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Gelehrte"
- nick_the_lion:0 "der Löwe"
+ nick_the_lion:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Löw[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
  nick_the_lion_king:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Löwenkönig[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Tommen II
  #nick_the_lionslayer0:0 "der Löwentöter" #Pat der Löwentöter
  nick_the_little_bear:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Kleine Bär[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_little_lion:0 "der Kleine Löwe"
+ nick_the_little_lion:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Kleine Löw[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
  nick_the_long_prefix:0 "Lang"
  nick_the_lusty:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Lüsterne" #Übernommen von 'the Lusty Lad' -> 'der Lustige Bursche'
  nick_the_mad_bard:0 "der Irre Barde"
  nick_the_mad_mouse:0 "die Irre Maus"
- nick_the_madling:0 "de[CHARACTER.Custom('DE_ART_DEF_S_N')]r Verrückte" #Mern III. Gärtner
+ nick_the_madling:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Verrückte" #Mern III. Gärtner
  nick_the_mage:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Magier[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Marwyn der Magier
- nick_the_mason:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Steinmetz" #Mern der Steinmetz
+ nick_the_mason:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Steinmetz[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Mern der Steinmetz
  nick_the_meek:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Sanftmütige" #Merle der Sanftmütige
  nick_the_morningstar:0 "der Morgenstern"
  nick_the_mountain_that_rides:0 "der Reitende Berg" #Gregor Clegane 
@@ -553,7 +553,7 @@
  nick_the_scaly_prefix:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schuppige" #Keinen Charakter gefunden
  nick_the_scrapesword:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schwertschleifer[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Timon der Schwertschleifer
  nick_the_scribe:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schreiber[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Keinen Charakter gefunden
- nick_the_sea_lion:0 "der Seelöwe"
+ nick_the_sea_lion:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Seelöw[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
  nick_the_shieldsmasher:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schildbrecher[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Urrathon Peake
  nick_the_silver_prefix:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Silberne"
  nick_the_smiling_knight:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Lächelnde Ritter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
@@ -566,7 +566,7 @@
  nick_the_tangletongue:0 "Wirrzunge" #Tim Wirrzunge
  nick_the_thrice_widowed:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Dreifach Verwitwete"
  nick_the_tiger:0 "der Tiger"
- nick_the_toothless_lion:0 "der Zahnlose Löwe"
+ nick_the_toothless_lion:0 "[CHARACTER.Custom('DE_END_NOU_S_GS_N')] Zahnlose Löw[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]" #Tytos Lennister
  nick_the_tormentor:0 "der Peiniger" #Tyrion II
  nick_the_trader:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Händler[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_twisted:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Krumme" #Warscheinlich Peremor Hohenturm
@@ -595,7 +595,7 @@
  nick_the_bad_apple:0 "der Faule Apfel" #Derrick Fossowey
  nick_of_the_brown_shield:0 "das Braune Schild" 
  nick_the_red_widow:0 "die Rote Witwe" 
- nick_the_black_centaur:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schwarze Zentaure"
+ nick_the_black_centaur:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schwarze Zentaur[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_long:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Lange" 
  nick_blackshield:0 "Schwarzschild" 
  nick_the_old_ox:0 "der Alte Ochse" 
@@ -614,11 +614,11 @@
  nick_the_crab:0 "die Krabbe"
  nick_crabfeeder:0 "Krabbenspeiser[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Craghas Krabbenspeiser
  nick_brightmane:0 "Hellmähne"
- nick_the_green_lion:0 "der Grüne Löwe"
- nick_the_silver_lion:0 "der Silberne Löwe"
+ nick_the_green_lion:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Grüne Löw[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
+ nick_the_silver_lion:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Silberne Löw[Select_CString( CHARACTER.IsFemale, 'in', 'e' )]"
  nick_the_jewel_of_the_eyrie:0 "das Juwel von Hohenehr"
  nick_the_addlepate:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Benebelte" #Keinen Charakter gefunden
- nick_blackbolt:0 "Der Schwarze Blitz"
+ nick_blackbolt:0 "der Schwarze Blitz"
  nick_the_knight_of_the_twilight:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Ritter[CHARACTER.Custom('DE_END_NOU_S_GS_N')] des Zwielichts"
  nick_the_crackclaw:0 "die Klaue" #Habe nur 'the Crackclaw Point' gefunden das mit 'Klauenhorn' übersetzt wurde
  nick_pretty_prefix:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Hübsche"
