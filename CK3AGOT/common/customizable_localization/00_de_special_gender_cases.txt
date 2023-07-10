@@ -73,16 +73,30 @@ DE_ART_IND_A_Opp = {
 ###           BY Maester Niklas          ###
 ############################################
 
-DE_MylordMylady = { 
+DE_Anrede = { 
 	type = character
 	log_loc_errors = no
 	text = {
 		localization_key = CustomLoc_DE_Mylord
-		trigger = { is_female = no }
+		trigger = { 
+			AND ={
+				is_female = no
+				primary_title.tier < tier_empire
+			}
+		}
 	}
 	text = {
 		localization_key = CustomLoc_DE_Mylady
-		trigger = { is_female = yes }
+		trigger = { 
+			AND ={
+				is_female = yes
+				primary_title.tier < tier_empire
+			}
+		}
+	}
+	text = {
+		localization_key = CustomLoc_DE_Euer_Gnaden
+		trigger = { primary_title.tier >= tier_empire }  
 	}
 }
 DE_SeptonSepta = { 
