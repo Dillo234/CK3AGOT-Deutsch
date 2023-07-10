@@ -132,7 +132,7 @@
  nick_the_brave:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Mutige" #Baelon the Brave
  nick_the_breaker:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Brecher[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_breaker_of_chains:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Sprenger[CHARACTER.Custom('DE_END_NOU_S_GS_N')] der Ketten" #Daenerys the Breaker of Chains
- nick_the_bridegroom:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] [CHARACTER.GetBrideGroom]"
+ nick_the_bridegroom:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] [CHARACTER.Custom('GetBrideGroom')|U]"
  nick_the_bright_prince:0 "Leuchtflamme" #Aerion the Bright Prince - Rico:Fallback auf den anderen Nickname "der Leuchtende Prinz" existiert in den deutschen Roman nicht und klingt imho dämlich. 
  nick_the_broken_king:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Gebrochene König[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Aegon the Broken King 
  nick_the_bronzeman:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Bronze[CHARACTER.GetWomanMan|l]" #ttrpg
@@ -150,7 +150,7 @@
  nick_the_defiant:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Trotzige" #Daena the Defiant - Rico: Es geht um Daena Targaryen
  nick_the_demon_of_darry:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Dämon[CHARACTER.Custom('DE_END_NOU_S_GS_N')] von Darry" #Rico: Unbekannter Vorname - quelle:https://eisundfeuer.fandom.com/de/wiki/D%C3%A4mon_von_Darry
  nick_the_demonlover:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Dämonenfreund[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Othgar the Demonlover - Rico: Es geht um Othgar Hoffartt
- nick_the_dragon_prince:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Drachen[CHARACTER.GetPrincessPrince|l]" #Rhaegar the Dragon Prince
+ nick_the_dragon_prince:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Drachen[CHARACTER.Custom('GetPrincessPrince')|l]" #Rhaegar the Dragon Prince
  nick_the_dragon_queen:0 "Drachenkönig[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Daenerys the Dragon Queen
  nick_the_dragonbane:0 "der Drachentod" #Aegon the Dragonbane
  nick_the_dragonknight:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Drachenritter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Aemon the Dragonknight
@@ -162,7 +162,7 @@
  nick_the_drunken:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Säufer[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Daeron the Drunken Rico: Daeron Targaryen
  nick_the_eagle:0 "der Adler" #Erich the Eagle
  nick_the_elder:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Ältere" #Aegon the Elder
- nick_the_even_younger_prince:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Noch Jüngere [CHARACTER.GetPrincessPrince]" #Matarys the Even Younger Prince
+ nick_the_even_younger_prince:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Noch Jüngere [CHARACTER.Custom('GetPrincessPrince')]" #Matarys the Even Younger Prince
  nick_the_exile:0 "der Auswanderer" #Aenar the Exile - Aenar Targaryen
  nick_the_falcon_knight:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Falkenritter[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Artys the Falcon Knight
  nick_the_fat:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Fette" #Hugh the Fat
@@ -232,9 +232,9 @@
  nick_the_old_king:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Alte König[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #Jaehaerys the Old
  nick_the_oldfather:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Alt[CHARACTER.GetMotherFather|l]" #Gormond Drumm
  nick_the_penniless:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Mittellose" #Ser Illifer
- nick_the_prince_of_dragonflies:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] [CHARACTER.GetPrincessPrince] der Drachenfliegen" #Duncan the Prince of Dragonflies
- nick_the_prince_who_thought_he_was_a_dragon:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] [CHARACTER.GetPrincessPrince], [CHARACTER.Custom('DE_ART_DEF_S_N')] dachte, [CHARACTER.Custom('DE_PRO_PER_S_3P_N')] sei ein Drache" #Aerion the Prince Who Thought He Was a Dragon
- nick_the_prince_who_was_an_egg:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] [CHARACTER.GetPrincessPrince], [CHARACTER.Custom('DE_ART_DEF_S_N')] dachte, [CHARACTER.Custom('DE_PRO_PER_S_3P_N')] sei ein Ei" #Aegon the Prince Who Thought He Was an Egg
+ nick_the_prince_of_dragonflies:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] [CHARACTER.Custom('GetPrincessPrince')] der Drachenfliegen" #Duncan the Prince of Dragonflies
+ nick_the_prince_who_thought_he_was_a_dragon:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] [CHARACTER.Custom('GetPrincessPrince')], [CHARACTER.Custom('DE_ART_DEF_S_N')] dachte, [CHARACTER.Custom('DE_PRO_PER_S_3P_N')] sei ein Drache" #Aerion the Prince Who Thought He Was a Dragon
+ nick_the_prince_who_was_an_egg:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] [CHARACTER.Custom('GetPrincessPrince')], [CHARACTER.Custom('DE_ART_DEF_S_N')] dachte, [CHARACTER.Custom('DE_PRO_PER_S_3P_N')] sei ein Ei" #Aegon the Prince Who Thought He Was an Egg
  nick_the_queen_who_never_was:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] König[CHARACTER.Custom('DE_END_NOU_S_GS_N')] der Herzen" #Raenys the Queen Who Never Was
  nick_the_queer:0 "der Sonderling"
  nick_the_quick:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schnelle"
@@ -249,14 +249,14 @@
  nick_the_shebear:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Bär[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_shepherd:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schafhirt[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_shipwright:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schiffsbauer[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_silver_prince:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Silberne [CHARACTER.GetPrincessPrince]" #Rhaegar the Silver Prince
+ nick_the_silver_prince:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Silberne [CHARACTER.Custom('GetPrincessPrince')]" #Rhaegar the Silver Prince
  nick_the_simple:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Einfältige" #Vaella the Simple
  nick_the_small:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Kleine" #Duncan the Small
  nick_the_smith:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Schmied[CHARACTER.Custom('DE_END_NOU_S_GS_N')]" #ttrpg
  nick_the_soulless:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Seelenlose" #Othgar the Soulless
  nick_the_sour:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Saure" #vermutlich Alyn - Soldat der Boltons
  nick_the_spring_king:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Frühlingskönig[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_spring_prince:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Frühlings[CHARACTER.GetPrincessPrince|l]" #Baelon the Spring Prince
+ nick_the_spring_prince:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Frühlings[CHARACTER.Custom('GetPrincessPrince')|l]" #Baelon the Spring Prince
  nick_the_stonemason:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Steinmetz" #The Stonemason High Septon
  nick_the_strong:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Starke"
  nick_the_tall:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Große" #Duncan the Tall - Rico: Duncan der Große
@@ -285,7 +285,7 @@
  nick_the_wise:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Weise" #Jaehaerys the Wise
  nick_the_wull:0 "der Eimer"
  nick_the_young_dragon:0 "der Junge Drache" #Daeron the Young Dragon
- nick_the_young_prince:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Junge [CHARACTER.GetPrincessPrince]" #Valarr the Young Prince
+ nick_the_young_prince:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Junge [CHARACTER.Custom('GetPrincessPrince')]" #Valarr the Young Prince
  nick_the_young_wolf:0 "der Junge Wolf"
  nick_the_young_prefix:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Junge"
  nick_the_youngest:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Jüngste" #Flavour, non-canon
@@ -522,7 +522,7 @@
  nick_the_little_bear:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Kleine Bär[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_little_lion:0 "der Kleine Löwe"
  nick_the_long_prefix:0 "Lang"
- nick_the_lusty:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Lustige" #Übernommen von 'the Lusty Lad' -> 'der Lustige Bursche'
+ nick_the_lusty:0 "[CHARACTER.Custom('DE_ART_DEF_S_N')] Lüsterne" #Übernommen von 'the Lusty Lad' -> 'der Lustige Bursche'
  nick_the_mad_bard:0 "der Irre Barde"
  nick_the_mad_mouse:0 "die Irre Maus"
  nick_the_madling:0 "de[CHARACTER.Custom('DE_ART_DEF_S_N')]r Verrückte" #Mern III. Gärtner
