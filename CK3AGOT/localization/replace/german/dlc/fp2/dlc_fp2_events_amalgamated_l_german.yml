@@ -1077,19 +1077,19 @@
  fp2_yearly.4003.tt:0 "Der örtliche [holy_order|E] wird die Straße in seiner Grafschaft patrouillieren."
  fp2_yearly.4004.t:0 "[mozarab_wanderer.Custom('DE_ART_DEF_S_N')|U] wandernde Meister[mozarab_wanderer.Custom('DE_END_NOU_S_GS_N')]"
  #AGOT Modified
- fp2_yearly.4004.desc:0 "Ich bin gerade auf dem Weg durch meinen Thronsaal, als ein Tumult auf der anderen Seite des Raums meine Aufmerksamkeit auf sich zieht. [red_wanderer.Custom('DE_ART_IND_N')|U] [red_wanderer.GetWomanMan] von kräftigem Wuchs wird von meinen Wachen bedrängt - doch binnen eines einzigen Wimpernschlags landen plötzlich ihre sämtlichen Waffen klappernd auf dem Boden. [red_wanderer.Custom('DE_ART_DEF_S_N')|U] Fremde hebt grüßend das Schwert.\n\n"Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]", spricht [red_wanderer.Custom('DE_PRO_PER_S_3P_N')|U] mich an, während ich weiteren Wachen mit einem Wink bedeute, Abstand zu halten. "Ich habe keinen Herren, dem ich dienen kann, und Euren Wachen nach zu urteilen, könntet Ihr meinen Schutz gebrauchen."\n\nAnhand des roten Umhangs, das diese forsche Person trägt, lässt sich darauf schließen, dass sie ein [red_wanderer.GetFaith.GetAdherentName] ist."  #Selbst geschrieben/abgetippt
+ fp2_yearly.4004.desc:0 "Ich bin gerade auf dem Weg durch meinen Thronsaal, als ein Tumult auf der anderen Seite des Raumes meine Aufmerksamkeit auf sich zieht. [mozarab_wanderer.Custom('DE_ART_IND_N')|U] [mozarab_wanderer.GetWomanMan] von kräftigem Wuchs wird von meinen Wachen bedrängt - doch binnen eines einzigen Wimpernschlags landen plötzlich [mozarab_wanderer.Custom('DE_PRO_POS_S_3P')]e sämtlichen Waffen klappernd auf dem Boden. \n[mozarab_wanderer.Custom('DE_ART_DEF_S_N')|U] Fremde hebt grüßend das Schwert.\n„[ROOT.Char.Custom('DE_Anrede')]“, spricht [mozarab_wanderer.Custom('DE_PRO_PER_S_3P_N')] mich an, während ich weiteren Wachen deute, Abstand zu halten. „Ich habe kein[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] [ROOT.Char.GetLadyLord], [ROOT.Char.Custom('DE_ART_DEF_S_D')] ich dienen kann, und Euren Wachen nach zu urteilen, könntet Ihr meinen Schutz gut gebrauchen.“\n\nAnhand des roten Umhangs, den dies[mozarab_wanderer.Custom('DE_END_ADJ_IND_S_N')] forsche [mozarab_wanderer.GetWomanMan] trägt, lässt sich darauf schließen, dass [mozarab_wanderer.Custom('DE_PRO_PER_S_3P_N')] ein [mozarab_wanderer.GetFaith.GetAdherentName] ist."  #Selbst geschrieben/abgetippt
  #AGOT Modified
- fp2_yearly.4004.a:0 "Von [red_wanderer.Custom('DE_ART_IND_D')] [red_wanderer.GetWomanMan] mit Euren Talenten? Auf jeden Fall!"  #Selbst geschrieben/abgetippt
+ fp2_yearly.4004.a:0 "[mozarab_wanderer.Custom('DE_ART_IND_N')|U] [mozarab_wanderer.GetWomanMan] von Euren Talenten? Auf jeden Fall!"  #Selbst geschrieben/abgetippt
  fp2_yearly.4004.b:0 "Ich sehe es lieber, wenn meine $knight_culture_player_no_tooltip_lowercase$ [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] sind."
  fp2_yearly.4004.c:0 "Schafft Euch fort, Heidenbrut!"
  #AGOT Modified
- fp2_yearly.4004.tt:0 "[red_wanderer.GetName] verweigert sich einer Bekehrung und nimmt seine Wanderschaft wieder auf"  #Selbst geschrieben/abgetippt
+ fp2_yearly.4004.tt:0 "[mozarab_wanderer.GetName] verweigert sich einer Bekehrung und nimmt [mozarab_wanderer.Custom('DE_PRO_POS_S_3P')]e Wanderschaft wieder auf"  #Selbst geschrieben/abgetippt
  #AGOT Modified
- fp2_yearly.4004.b.succ:0 "[red_wanderer.GetName] schließt sich Eurem Hof an"  #Selbst geschrieben/abgetippt
+ fp2_yearly.4004.b.succ:0 "[mozarab_wanderer.GetName] schließt sich Eurem Hof an"  #Selbst geschrieben/abgetippt
  #AGOT Modified
- fp2_yearly.4004.b.fail:0 "[red_wanderer.GetName] verweigert eine Bekehrung und nimmt verlässt euren Hof"  #Selbst geschrieben/abgetippt
+ fp2_yearly.4004.b.fail:0 "[mozarab_wanderer.GetName] verweigert eine Bekehrung und verlässt euren Hof"  #Selbst geschrieben/abgetippt
  #AGOT Modified
- fp2_yearly.4004.c.tt:0 "[red_wanderer.GetName] nimmt seine Wanderschaft wieder auf"  #Selbst geschrieben/abgetippt
+ fp2_yearly.4004.c.tt:0 "[mozarab_wanderer.GetName] nimmt [mozarab_wanderer.Custom('DE_PRO_POS_S_3P')]e Wanderschaft wieder auf"  #Selbst geschrieben/abgetippt
 
  fp2_yearly.4005.t:0 "Enklavenetablierung"
  fp2_yearly.4005.desc.christian:0 "Die [mozarab_merchant.GetFaith.GetAdherentNamePlural] nehmen eine einzigartige Position in der iberischen Gesellschaft ein. "
