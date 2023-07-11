@@ -1,5 +1,5 @@
 ﻿l_german:
-
+#Übersetzt vom LySchiller, durchgesehen von Dillo
 
 ###############################
 #     The Puppeteer           #
@@ -7,23 +7,23 @@
 #       0001 - 0004           #
 ###############################
 
- agot_filler_hedges.0001.t:0 "Das versteckte Talent"
- agot_filler_hedges.0001.desc:0 "Ein Braavosischer Puppenspieler ist an meinem Hof angekommen. Nachdem mein [ROOT.Char.GetCouncillorPosition( 'councillor_steward' ).GetPositionName] vom gemeinen Volk von dessen Talent mitbekommen hat, entschied er, ihn an meinen Hof einzuladen. Nun soll er mir und meinen Höflingen eine Schau vorspielen."
- agot_filler_hedges.0001.a:0 "Ich bin so gespannt, was er uns zu zeigen hat!"
+ agot_filler_hedges.0001.t:0 "Der Puppenspieler"
+ agot_filler_hedges.0001.desc:0 "Ein Braavosischer Puppenspieler ist an meinem Hof angekommen. Nachdem mein [ROOT.Char.GetCouncillorPosition( 'councillor_steward' ).GetPositionName] vom gemeinen Volk von dessen Talent mitbekommen hat, entschied er, ihn an meinen Hof einzuladen. Nun soll er mir und meinen Höflingen eines seiner Stücke vorspielen."
+ agot_filler_hedges.0001.a:0 "Ich bin gespannt, was er uns zu zeigen hat!"
  agot_filler_hedges.0001.b:0 "Eine willkommene Ablenkung! Ich bin gespannt!"
 
- agot_filler_hedges.0002.t:0 "Die Schau: Erstklassige Komödien und Tragödien"
- agot_filler_hedges.0002.desc:0 "Der Puppenspieler spielte uns einige gute Schaus vor. Während uns manche zum Lachen brachten, kamen uns bei anderen die Tränen. Alles in allem war es ein karthatischer Abend."
- agot_filler_hedges.0002.a:0 "Ich sollte [ROOT.Char.GetCouncillorPosition( 'councillor_steward' ).GetPositionName] auftragen, mir mehr von solchen Talenten an den Hof zu bringen."
+ agot_filler_hedges.0002.t:0 "Der Puppenspieler: Erstklassige Komödien und Tragödien"
+ agot_filler_hedges.0002.desc:0 "Der Puppenspieler spielte uns einige gute Stücke vor. Während uns manche zum Lachen brachten, kamen uns bei anderen die Tränen. Alles in allem war es ein unterhaltsamer Abend."
+ agot_filler_hedges.0002.a:0 "Ich sollte [ROOT.Char.GetCouncillorPosition( 'councillor_steward' ).GetPositionName] auftragen, mir mehr solcher Talente zu bringen."
  agot_filler_hedges.0002.b:0 "Ich fühlte mich dem Schmerz einer seiner Figuren zutiefst verbunden."
 
- agot_filler_hedges.0003.t:0 "Die Schau: Bin das ich?"
- agot_filler_hedges.0003.desc:0 "Das Schauspiel des Puppenspielers war kränkend. Eins der Spiele wirkte so, als würde er sich über mich und Haus [GetPlayer.GetHouse.GetBaseName] lustig machen."
+ agot_filler_hedges.0003.t:0 "Der Puppenspieler: Bin das ich?"
+ agot_filler_hedges.0003.desc:0 "Das Schauspiel des Puppenspielers war kränkend. Eines der Stücke wirkte so, als machte er sich über mich und Haus [GetPlayer.GetHouse.GetBaseName] lustig."
  agot_filler_hedges.0003.a:0 "Ich hoffe nur, dass der primitive Pöbel das nicht versteht..."
 
- agot_filler_hedges.0004.t:0 "Die Schau: Monster im Dunklen"
- agot_filler_hedges.0004.desc:0 "Die Schau war grauenerregend. Er mag zwar Talent haben, jedoch nicht auf eine gute Art. Eins der Spiele war so überzeugend und seine Stimmen so furchterregend, dass ich mich fast einpisste."
- agot_filler_hedges.0004.a:0 "Heute Nacht werd ich wohl mit Kerzenlicht schlafen..."
+ agot_filler_hedges.0004.t:0 "Der Puppenspieler: Monster im Dunklen"
+ agot_filler_hedges.0004.desc:0 "Der Puppenspieler war grauenerregend. Er mag zwar Talent haben, jedoch nutzt er jenes nicht zum Guten. Eines der Stücke war so überzeugend und seine Stimmen so furchterregend, dass ich mich fast einnässte."
+ agot_filler_hedges.0004.a:0 "Heute Nacht werde ich wohl mit Kerzenlicht schlafen..."
 
 ###############################
 #     Wandering Hedgeknight   #
@@ -31,47 +31,47 @@
 #       0005 - 0013           #
 ###############################
 
- agot_filler_hedges.0005.t:0 "Der Heckenritter"
+ agot_filler_hedges.0005.t:0 "Der wandernde Heckenritter"
  agot_filler_hedges.0005.desc:0 "Ser [wandering_hedgeknight.GetFirstName] hat meinen Hof erreicht. [wandering_hedgeknight.GetSheHe|U] bittet mich um Erlaubnis, an meinem Hof zu bleiben und sich auszuruhen, bevor [wandering_hedgeknight.GetSheHe] weiterreist. Als Gegenleistung bietet [wandering_hedgeknight.GetSheHe] mir [wandering_hedgeknight.Custom('DE_PRO_POS_S_3P')]en Dienst während [wandering_hedgeknight.Custom('DE_PRO_POS_S_3P')]es Aufenthalts an."
  agot_filler_hedges.0005.a:0 "Euer Schwert wird mir von Nutzen sein."
  agot_filler_hedges.0005.a.tt:0 "#bold Dieser Heckenritter hat noch keine [Concept('trait', 'Eigenschaften')|E], wird jedoch in der folgenden Ereigniskette welche erhalten#!"
- agot_filler_hedges.0005.b:0 "Geh dorthin zurück wo du herkommst, du Landstreicher!"
+ agot_filler_hedges.0005.b:0 "Geh dahin zurück wo du herkommst, du Landstreicher!"
 
- agot_filler_hedges.0006.t:0 "Der Heckenritter: Ser Faulpelz"
- agot_filler_hedges.0006.desc:0 "Während ich gemächlich durch meine Gärten spaziere, sehe ich, wie Ser [wandering_hedgeknight.GetFirstName] unter einem Sonnendach ruht. Scheinbar ist [wandering_hedgeknight.GetSheHe] mit dem Schlafen zu beschäftigt, um mir [wandering_hedgeknight.Custom('DE_PRO_POS_S_3P')]en angebotenen Dienst zu leisten."
+ agot_filler_hedges.0006.t:0 "Der wandernde Heckenritter: Ser Faulpelz"
+ agot_filler_hedges.0006.desc:0 "Während ich müßig durch meine Gärten spaziere, sehe ich, wie Ser [wandering_hedgeknight.GetFirstName] unter einem Sonnendach ruht. Scheinbar ist [wandering_hedgeknight.GetSheHe] mit dem Schlafen zu beschäftigt, um mir [wandering_hedgeknight.Custom('DE_PRO_POS_S_3P')]en angebotenen Dienst zu leisten."
  agot_filler_hedges.0006.a:0 "So ein[wandering_hedgeknight.Custom('DE_END_ADJ_NUL_S_N')] seid Ihr also."
- agot_filler_hedges.0006.b:0 "Ich will so sein wie Ihr!"
+ agot_filler_hedges.0006.b:0 "Er ist mein Vorbild!"
 
- agot_filler_hedges.0007.t:0 "Der Heckenritter: Fleiß wird belohnt"
- agot_filler_hedges.0007.desc:0 "Als Gegenleistung für meine Gastfreundlichkeit trug ich Ser [wandering_hedgeknight.GetFirstName] auf, meine Waffenkammer zu inspizieren und die Schärfe aller Klingen und Funktionalität aller Bögen sicherzustellen. Wie es scheint, nahm [wandering_hedgeknight.GetSheHe] sich diesen Auftrag zu Herzen: Die Schwerter sind geschärft, die Äxte poliert, die Keulen gesäubert und die Bogensehnen ausgetauscht."
+ agot_filler_hedges.0007.t:0 "Der wandernde Heckenritter: Fleiß wird belohnt"
+ agot_filler_hedges.0007.desc:0 "Als Gegenleistung für meine Gastfreundlichkeit trug ich Ser [wandering_hedgeknight.GetFirstName] auf, meine Waffenkammer zu inspizieren und die Schärfe aller Klingen und die Funktionalität aller Bögen sicherzustellen. Wie es scheint, nahm [wandering_hedgeknight.GetSheHe] sich diesen Auftrag zu Herzen: Die Schwerter sind geschärft, die Äxte poliert, die Keulen gesäubert und die Bogensehnen ausgetauscht."
  agot_filler_hedges.0007.a:0 "So ein[wandering_hedgeknight.Custom('DE_END_ADJ_NUL_S_N')] seid Ihr also."
- agot_filler_hedges.0007.b:0 "Ich will so sein wie Ihr!"
+ agot_filler_hedges.0007.b:0 "Er ist ein wahres Vorbild!"
 
- agot_filler_hedges.0008.t:0 "Der Heckenritter: Gut mit Kindern"
- agot_filler_hedges.0008.desc:0 "Ser [wandering_hedgeknight.GetFirstName] kommt seinen Aufgaben nur langsam hinterher. Dies ist jedoch nicht [wandering_hedgeknight.Custom('DE_PRO_POS_S_3P')]e Schuld: Die Kinder an meinem Hof schwirren um [wandering_hedgeknight.Custom('DE_PRO_PER_S_3P_A')], wie Fliegen um einen Haufen Scheiße. Sie durchlöchern [wandering_hedgeknight.Custom('DE_PRO_PER_S_3P_A')] mit Fragen über das Rittertum und dem Leben als Wanderer. Es ist sichtbar, dass [wandering_hedgeknight.GetSheHe] sein Bestes gibt, eine Balance zwischen seiner Arbeit und der Unterhaltung der Kinder zu finden."
+ agot_filler_hedges.0008.t:0 "Der wandernde Heckenritter: Ser Onkel"
+ agot_filler_hedges.0008.desc:0 "Ser [wandering_hedgeknight.GetFirstName] kommt seinen Aufgaben nur langsam hinterher. Dies ist jedoch nicht [wandering_hedgeknight.Custom('DE_PRO_POS_S_3P')]e Schuld: Die Kinder an meinem Hof schwirren um [wandering_hedgeknight.Custom('DE_PRO_PER_S_3P_A')], wie Fliegen um einen Haufen Mist. Sie durchlöchern [wandering_hedgeknight.Custom('DE_PRO_PER_S_3P_A')] mit Fragen über das Rittertum und dem Leben als Wanderer. Es ist offensichtlich, dass [wandering_hedgeknight.GetSheHe] sein Bestes gibt, eine Balance zwischen seiner Arbeit und der Unterhaltung der Kinder zu finden."
  agot_filler_hedges.0008.a:0 "So ein[wandering_hedgeknight.Custom('DE_END_ADJ_NUL_S_N')] seid Ihr also."
  agot_filler_hedges.0008.b:0 "Ich will so sein wie Ihr!"
 
- agot_filler_hedges.0009.t:0 "Der Heckenritter: Glückspilz oder fauler Apfel"
+ agot_filler_hedges.0009.t:0 "Der wandernde Heckenritter: Glückspilz oder fauler Apfel"
  agot_filler_hedges.0009.desc:0 "Beim Spazieren traf ich auf Ser [wandering_hedgeknight.GetFirstName] und ein paar meiner Soldaten. Während Ihrer Pause spielen sie scheinbar viel mit dem Würfel. Ser [wandering_hedgeknight.GetFirstNameNoTooltip] ist äußerst talentiert, was das Glücksspiel angeht. Jedoch munkeln ein paar meiner Soldaten hinter [wandering_hedgeknight.Custom('DE_PRO_POS_S_3P')]em Rücken, dass da etwas faul sein muss."
  agot_filler_hedges.0009.a:0 "So ein[wandering_hedgeknight.Custom('DE_END_ADJ_NUL_S_N')] seid Ihr also."
- agot_filler_hedges.0009.b:0 "Ich will so sein wie Ihr!"
+ agot_filler_hedges.0009.b:0 "Ich will auch so geheimnisvoll sein!"
 
- agot_filler_hedges.0010.t:0 "Der Heckenritter: Unterdrücker der Arbeiter"
- agot_filler_hedges.0010.desc:0 "Ich trug Ser [wandering_hedgeknight.GetFirstName] auf, die Aufsicht über die Arbeit von Gemeinen zu übernehmen. [wandering_hedgeknight.GetSheHe|U] versteht wohl unter Aufsicht etwas anderes wie ich. Einige meiner Untergebenen baten mich darum, weniger harsch mit ihnen vorzugehen. Ich, zu dem Zeitpunkt noch ahnungslos, schickte sie fort. Nun, da ich von der Wahrheit weiß, dreht sich mir der Magen um. [wandering_hedgeknight.GetSheHe|U] scheut vor keiner Grausamkeit und kennt keine Grenzen."
+ agot_filler_hedges.0010.t:0 "Der wandernde Heckenritter: Geißel der Arbeiter"
+ agot_filler_hedges.0010.desc:0 "Ich trug Ser [wandering_hedgeknight.GetFirstName] auf, die Aufsicht über die Arbeit von Gemeinen zu übernehmen. [wandering_hedgeknight.GetSheHe|U] versteht wohl unter Aufsicht etwas anderes als ich. Einige meiner Untergebenen baten mich darum, weniger harsch mit ihnen vorzugehen. Ich, der ich zu dem Zeitpunkt noch ahnungslos war, schickte sie irritiert fort. Nun, da ich von den wahren Umständen weiß, dreht sich mir der Magen um. Ser [wandering_hedgeknight.GetFirstName] scheut vor keiner Grausamkeit und kennt keine Grenzen."
  agot_filler_hedges.0010.a:0 "So ein[wandering_hedgeknight.Custom('DE_END_ADJ_NUL_S_N')] seid Ihr also."
- agot_filler_hedges.0010.b:0 "Ich will so sein wie Ihr!"
+ agot_filler_hedges.0010.b:0 "Vielleicht hatte er seine Gründe?"
 
- agot_filler_hedges.0011.t:0 "Der Heckenritter: Fähiger Krieger"
+ agot_filler_hedges.0011.t:0 "Der wandernde Heckenritter: Fähiger Krieger"
  agot_filler_hedges.0011.desc:0 "Ser [wandering_hedgeknight.GetFirstNameNoTooltip] verbrachte seinen heutigen Tag damit, mit meiner Hausgarde zu üben."
- agot_filler_hedges.0011.a:0 "Wie es scheint ist Ser [wandering_hedgeknight.GetFirstNameNoTooltip] ein geschickter Kämpfer."
+ agot_filler_hedges.0011.a:0 "Offenbar ist Ser [wandering_hedgeknight.GetFirstNameNoTooltip] ein geschickter Kämpfer."
 
- agot_filler_hedges.0012.t:0 "Der Heckenritter: Fähiger Befehlshaber"
- agot_filler_hedges.0012.desc:0 "Ser [wandering_hedgeknight.GetFirstName] und [active_councillor.GetFirstName] verbrachten den Tag damit, sich über vergangene Schlachten zu unterhalten und diese zu analysieren."
- agot_filler_hedges.0012.a:0 "Wie es scheint ist Ser [wandering_hedgeknight.GetFirstNameNoTooltip] ein Fähiger Stratege."
+ agot_filler_hedges.0012.t:0 "Der wandernde Heckenritter: Fähiger Befehlshaber"
+ agot_filler_hedges.0012.desc:0 "Ser [wandering_hedgeknight.GetFirstName] und [active_councillor.GetTitledFirstName] verbrachten den Tag damit, sich über vergangene Schlachten zu unterhalten und diese zu analysieren."
+ agot_filler_hedges.0012.a:0 "Offenbar ist Ser [wandering_hedgeknight.GetFirstNameNoTooltip] ein scharfsinniger Stratege."
 
- agot_filler_hedges.0013.t:0 "Der Heckenritter: Die Abreise"
- agot_filler_hedges.0013.desc:0 ""Meine Zeit hier ist vorbei.", trägt mir Ser [wandering_hedgeknight.GetFirstName] vor "Ich will Eure großzügige Gastfreundlichkeit nicht länger beanspruchen. Ich bedanke mich für das Dach und das Essen das Ihr mir gabt, jedoch ist es jetzt an der Zeit, dass ich mich für den Aufbruch bereit mache.""
+ agot_filler_hedges.0013.t:0 "Der wandernde Heckenritter: Die Abreise"
+ agot_filler_hedges.0013.desc:0 ""Meine Zeit hier ist vorbei.", trägt mir Ser [wandering_hedgeknight.GetFirstName] vor, "Ich will Eure großzügige Gastfreundlichkeit nicht länger beanspruchen. Ich bedanke mich für Speis und Obdach, das Ihr mir gabt, jedoch ist es jetzt an der Zeit, dass ich mich für den Aufbruch bereit mache.""
  agot_filler_hedges.0013.a:0 "Euer Talent ist da draußen verschwendet. Bleibt und dient mir!"
  agot_filler_hedges.0013.b:0 "Ich wünsche Euch eine gute Abreise."
 
@@ -99,41 +99,41 @@
  agot_filler_hedges.0015.b:0 "Wir haben keinen Platz. Tut mir Leid."
 
  agot_filler_hedges.0016.t:0 "Reisender Maester: Gelehrter der Rabenzucht"
- agot_filler_hedges.0016.desc:0 "Ich schlenderte durch die Korridore meiner Festung, als ich auf meinen Gast [traveling_maester.GetName] stieß. Während unserer Unterhaltung, fiel mir auf, dass eines seiner Kettenglieder aus schwarzem Eisen ist. Als ich das aufbrachte, begann ein langes, ausgedehntes Gespräch über die Rabenzucht."
+ agot_filler_hedges.0016.desc:0 "Ich schlenderte durch die Korridore meiner Festung, als ich auf meinen Gast [traveling_maester.GetName] stieß. Während unserer Unterhaltung fiel mir auf, dass eines seiner Kettenglieder aus schwarzem Eisen ist. Als ich das aufbrachte, begann ein langes, ausgedehntes Gespräch über die Rabenzucht."
  agot_filler_hedges.0016.a:0 "Fürwahr eine lehrreiche Unterhaltung."
- agot_filler_hedges.0016.b:0 "Fürwahr eine Diskussion auf Augenhöhe."
+ agot_filler_hedges.0016.b:0 "Wahrlich eine Diskussion auf Augenhöhe."
  agot_filler_hedges.0016.c:0 "Dieses Gespräch war sehr unterhaltsam."
 
  agot_filler_hedges.0017.t:0 "Reisender Maester: Gelehrter der Kriegskunst"
- agot_filler_hedges.0017.desc:0 "Ich schlenderte durch die Korridore meiner Festung, als ich auf meinen Gast [traveling_maester.GetName] stieß. Während unserer Unterhaltung, fiel mir auf, dass eines seiner Kettenglieder aus Eisen ist. Als ich das aufbrachte, begann ein langes, ausgedehntes Gespräch über die Kriegskunst."
+ agot_filler_hedges.0017.desc:0 "Ich schlenderte durch die Korridore meiner Festung, als ich auf meinen Gast [traveling_maester.GetName] stieß. Während unserer Unterhaltung fiel mir auf, dass eines seiner Kettenglieder aus Eisen ist. Als ich das aufbrachte, begann ein langes, ausgedehntes Gespräch über die Kriegskunst."
  agot_filler_hedges.0017.a:0 "Fürwahr eine lehrreiche Unterhaltung."
  agot_filler_hedges.0017.b:0 "Fürwahr eine Diskussion auf Augenhöhe."
  agot_filler_hedges.0017.c:0 "Ich werden mir diese Strategien merken."
 
  agot_filler_hedges.0018.t:0 "Reisender Maester: Gelehrter der Verwaltung"
- agot_filler_hedges.0018.desc:0 "Ich schlenderte durch die Korridore meiner Festung, als ich auf meinen Gast [traveling_maester.GetName] stieß. Während unserer Unterhaltung, fiel mir auf, dass eines seiner Kettenglieder aus Gold ist. Als ich das aufbrachte, begann ein langes, ausgedehntes Gespräch über das Geld, das Rechnungswesen und die Buchhaltung."
+ agot_filler_hedges.0018.desc:0 "Ich schlenderte durch die Korridore meiner Festung, als ich auf meinen Gast [traveling_maester.GetName] stieß. Während unserer Unterhaltung fiel mir auf, dass eines seiner Kettenglieder aus Gold ist. Als ich das aufbrachte, begann ein langes, ausgedehntes Gespräch über das Geld, das Rechnungswesen und die Buchhaltung."
  agot_filler_hedges.0018.a:0 "Fürwahr eine lehrreiche Unterhaltung."
  agot_filler_hedges.0018.b:0 "Fürwahr eine Diskussion auf Augenhöhe."
  agot_filler_hedges.0018.c:0 "Diese Rechenweise muss ich mir aneignen."
 
  agot_filler_hedges.0019.t:0 "Reisender Maester: Gelehrter der Gifte"
- agot_filler_hedges.0019.desc:0 "Ich schlenderte durch die Korridore meiner Festung, als ich auf meinen Gast [traveling_maester.GetName] stieß. Während unserer Unterhaltung, fiel mir auf, dass eines seiner Kettenglieder aus mattem Blei ist. Als ich das aufbrachte, begann ein langes, ausgedehntes Gespräch über Gifte und Gegengifte."
+ agot_filler_hedges.0019.desc:0 "Ich schlenderte durch die Korridore meiner Festung, als ich auf meinen Gast [traveling_maester.GetName] stieß. Während unserer Unterhaltung fiel mir auf, dass eines seiner Kettenglieder aus mattem Blei ist. Als ich das aufbrachte, begann ein langes, ausgedehntes Gespräch über Gifte und Gegengifte."
  agot_filler_hedges.0019.a:0 "Fürwahr eine... #italic lehrreiche Unterhaltung#!."
  agot_filler_hedges.0019.b:0 "Fürwahr eine... #italic Diskussion auf Augenhöhe#!."
  agot_filler_hedges.0019.c:0 "Mein Maester sollte auch solche Gifte haben..."
 
  agot_filler_hedges.0020.t:0 "Reisender Maester: Gelehrter der Geschichte"
- agot_filler_hedges.0020.desc:0 "Ich schlenderte durch die Korridore meiner Festung, als ich auf meinen Gast [traveling_maester.GetName] stieß. Während unserer Unterhaltung, fiel mir auf, dass eines seiner Kettenglieder aus Kupfer ist. Als ich das aufbrachte, begann ein langes, ausgedehntes Gespräch über die Geschichte von Westeros."
+ agot_filler_hedges.0020.desc:0 "Ich schlenderte durch die Korridore meiner Festung, als ich auf meinen Gast [traveling_maester.GetName] stieß. Während unserer Unterhaltung fiel mir auf, dass eines seiner Kettenglieder aus Kupfer ist. Als ich das aufbrachte, begann ein langes, ausgedehntes Gespräch über die Geschichte von Westeros."
  agot_filler_hedges.0020.a:0 "Fürwahr eine lehrreiche Unterhaltung!"
  agot_filler_hedges.0020.b:0 "Fürwahr eine Diskussion auf Augenhöhe!"
  agot_filler_hedges.0020.c:0 "Wer die Zukunft sehen will, muss in die Vergangenheit blicken!"
 
- agot_filler_hedges.0021.t:0 "Abreisender Maester" 
- agot_filler_hedges.0021.desc:0 "[traveling_maester.GetTitledFirstName] trat vor mich, um seine Abreise zu verkünden. Er bedankt sich für meine Gastfreundlichkeit und sagt mir, dass er seinem neuen Lord und auch seinen Kollegen in der Zitadelle von meinem umfangreichen Verstand und Scharfsinn berichten will."
+ agot_filler_hedges.0021.t:0 "#italic Ab#!-reisender Maester" 
+ agot_filler_hedges.0021.desc:0 "[traveling_maester.GetTitledFirstName] trat vor mich, um seine Abreise zu verkünden. Er bedankt sich für meine Gastfreundlichkeit und sagt mir, dass er seinem neuen Lord und auch seinesgleichen in der Zitadelle von meinem umfangreichen Verstand und Scharfsinn berichten will."
  agot_filler_hedges.0021.a:0 "Ich hinterließ wohl einen guten Eindruck!"
 
- agot_filler_hedges.0022.t:0 "Abreisender Maester" 
- agot_filler_hedges.0022.desc:0 "[traveling_maester.GetTitledFirstName] trat vor mich, um seine Abreise zu verkünden. Er bedankt sich für meine Gastfreundlichkeit. "Ich werde meinem neuen Lord und auch sicherlich meinen Kollegen in der Zitadelle von Eurem... #italic klugen Verstand#! berichten!" sagte er, wobei er zum Schluss schon fast lachte."
+ agot_filler_hedges.0022.t:0 "#italic Ab#!-reisender Maester" 
+ agot_filler_hedges.0022.desc:0 "[traveling_maester.GetTitledFirstName] trat vor mich, um seine Abreise zu verkünden. Er bedankt sich für meine Gastfreundlichkeit. "Ich werde meinem neuen Lord und auch sicherlich meinen Kollegen in der Zitadelle von Eurem... #italic scharfen Verstand#! berichten!" sagte er, wobei er zum Schluss schon fast lachte."
  agot_filler_hedges.0022.a:0 "Scheinbar denkt er, dass ich dumm bin."
 
 ###############################
@@ -143,27 +143,27 @@
 ###############################
 
  agot_filler_hedges.0023.t:0 "Der Heckenzauberer"
- agot_filler_hedges.0023.desc:0 "Ein merkwürdiger Mann kam heute an meinem Hof an. Er verkündete, er sei ein Heckenzauberer und könne mir von Nutzen sein. Meine Wachen treten vor, und packen den Mann um ihn rauszuwerfen."
+ agot_filler_hedges.0023.desc:0 "Ein merkwürdiger Mann kam heute an meinem Hof an. Er verkündete, er sei ein Heckenzauberer und könne mir von Nutzen sein. Meine Wachen treten vor und packen den Mann um ihn rauszuwerfen."
  agot_filler_hedges.0023.a:0 "Haltet ein. Lasst ihn sprechen."
  agot_filler_hedges.0023.b:0 "Der hat doch einen an der Klatsche."
 
  agot_filler_hedges.0024.t:0 "Der Heckenzauberer: Ein gewagtes Geschäft..."
- agot_filler_hedges.0024.desc:0 "Der Heckenzauberer leerte eine Tasche auf den Boden und aus ihr fielen Tierknochen. Er fing an Worte zu murmeln. Nach einiger Zeit stand er auf und sagte, dass Weißwasserhafen schon bald in einen Fellengpass geraten würde."
+ agot_filler_hedges.0024.desc:0 "Der Heckenzauberer leerte eine Tasche voller Tierknochen auf den Boden aus. Er fing an, vor sich hin zu murmeln. Nach einiger Zeit stand er auf und sagte, dass Weißwasserhafen schon bald in eine Fellknappheit geraten würde."
  agot_filler_hedges.0024.a:0 "Der Norden... braucht Felle? Ich nehme an, ich könnte ein paar schicken."
- agot_filler_hedges.0024.b:0 "Verschwinde, sonst mache ich es den Boltons gleich und nehm mir dein #italic Fell#!!"
+ agot_filler_hedges.0024.b:0 "Verschwinde, sonst mache ich es den Boltons gleich und zieh dir #italic dein#! Fell ab!"
 
  agot_filler_hedges.0025.t:0 "Der Heckenzauberer: Ein gewagtes Geschäft..."
- agot_filler_hedges.0025.desc:0 "Der Heckenzauberer leerte eine Tasche auf den Boden und aus ihr fielen Tierknochen. Er fing an Worte zu murmeln. Nach einiger Zeit stand er auf und sagte, dass die Eisenmänner neue Langschiffe bauen wollen und deswegen Holz brauchen."
+ agot_filler_hedges.0025.desc:0 "Der Heckenzauberer leerte eine Tasche voller Tierknochen auf den Boden aus. Er fing an, vor sich hin zu murmeln. Nach einiger Zeit stand er auf und sagte, dass die Eisenmänner neue Langschiffe bauen wollten und daher Holz bräuchten."
  agot_filler_hedges.0025.a:0 "Holz nach Peik schicken? Schließlich müssen sie irgendwo Holz auftreiben."
  agot_filler_hedges.0025.b:0 "Holz? Schmeißt diesen Holzkopf raus!"
 
  agot_filler_hedges.0026.t:0 "Der Heckenzauberer: Ein gewagtes Geschäft..."
- agot_filler_hedges.0026.desc:0 "Der Heckenzauberer leerte eine Tasche auf den Boden und aus ihr fielen Tierknochen. Er fing an Worte zu murmeln. Nach einiger Zeit stand er auf und sagte, dass bald in Sturmkap ein Hunger ausbräche, den nur Zwiebeln stillen könnten!"
+ agot_filler_hedges.0026.desc:0 "Der Heckenzauberer leerte eine Tasche voller Tierknochen auf den Boden aus. Er fing an, vor sich hin zu murmeln. Nach einiger Zeit stand er auf und sagte, dass bald in Sturmkap eine Hungersnot ausbräche, den nur Zwiebeln stillen könnten!"
  agot_filler_hedges.0026.a:0 "Irgendwie kommt mir das bekannt vor? Naja, was soll's."
  agot_filler_hedges.0026.b:0 "Hinaus mit diesem Zwiebelzauberer."
 
  agot_filler_hedges.0027.t:0 "Der Heckenzauberer: Ein lukratives Geschäft!"
- agot_filler_hedges.0027.desc:0 "Ich erhielt gerade die Nachricht, dass die Felle, die ich mit Schiffen nach Weißwasserhafen gesendet habe, wie warme Semmel gekauft wurden! Scheinbar sind kurz vor der Ankunft meiner Schiffe hunderte von Lagerhäuser gefüllt mit Fellen niedergebrannt!"
+ agot_filler_hedges.0027.desc:0 "Ich erhielt gerade die Nachricht, dass die Felle, die ich mit Schiffen nach Weißwasserhafen gesendet habe, wie warme Semmel gekauft wurden! Scheinbar sind kurz vor der Ankunft meiner Schiffe hunderte Lagerhäuser gefüllt mit Fellen niedergebrannt!"
  agot_filler_hedges.0027.a:0 "Unfassbar... Der Volltrottel hatte Recht!"
 
  agot_filler_hedges.0028.t:0 "Der Heckenzauberer: Ein lukratives Geschäft!"
@@ -175,7 +175,7 @@
  agot_filler_hedges.0029.a:0 "Unfassbar... Der Volltrottel hatte Recht!"
 
  agot_filler_hedges.0030.t:0 "Der Heckenzauberer: Ich bin eine Lachfigur"
- agot_filler_hedges.0030.desc:0 "Wie konnte ich nur so dumm sein und einem verrückten Landstreicher vertrauen. Mein Beauftragter berichtete, dass es vor Ort nicht einen Interessenten gegeben hat. Was jedoch fast noch schlimmer ist, ist dass sihc meine Torheit im Reich umherspricht. Von den eisigsten Feldern des Nordens, bis in die trockensten Wüsten von Dorne wird über mich geredet und gelacht."
+ agot_filler_hedges.0030.desc:0 "Wie konnte ich nur so dumm sein und einem gestörten Landstreicher vertrauen. Mein Beauftragter berichtete, dass es vor Ort nicht einen Interessenten gegeben hat. Was jedoch fast noch schlimmer ist, ist dass sich meine Torheit im Reich umherspricht. Von den eisigsten Feldern des Nordens bis in die trockensten Wüsten von Dorne wird über mich geschmäht und gelacht."
  agot_filler_hedges.0030.a:0 "Verflucht soll dieser Mann sein."
  agot_filler_hedges.0030.b:0 "Wachen! Findet diesen Mann!"
 
@@ -190,10 +190,10 @@
  agot_filler_hedges.0031.a:0 "Eine einfache, beliebte Ballade."
  agot_filler_hedges.0031.b:0 "Vielleicht eine Ballade über mich?"
  agot_filler_hedges.0031.c:0 "Eine Ballade über Haus [GetPlayer.GetHouse.GetBaseName]!"
- agot_filler_hedges.0031.d:0 "Hinfort mit eurem Geklimpere, Ihr Landstreicher!"
+ agot_filler_hedges.0031.d:0 "Hinfort mit Eurem Geklimpere, Ihr Landstreicher!"
 
- agot_filler_hedges.0032.t:0 "Reisender Barde: Ein schönes Vorspiel"
- agot_filler_hedges.0032.desc:0 "Der Auftritt von [traveling_bard.GetTitledFirstName] war packend! Er vereinte Töne zu Melodien, die ich in meinem Leben noch nie gehört habe. Er hat ein Talent, ganze Geschichten in wenigen Wörtern zu erzählen, ohne auch nur ein Detail auszulassen."
+ agot_filler_hedges.0032.t:0 "Reisender Barde: Schöner Gesang"
+ agot_filler_hedges.0032.desc:0 "Der Auftritt von [traveling_bard.GetTitledFirstName] war packend! Er vereinte Töne zu Melodien, die ich in meinem Leben noch nie gehört habe. Er hat ein Talent, ganze Geschichten in wenigen Worten zu erzählen, ohne auch nur ein Detail auszulassen."
  agot_filler_hedges.0032.a:0 "Euer Talent ist da draußen verschwendet. Bleibt und spielt für mich!"
  agot_filler_hedges.0032.b:0 "Ein wahrlich schöner Abend."
 
@@ -204,7 +204,7 @@
 ###############################
 
  agot_filler_hedges.0033.t:0 "Des Künstlers Meisterwerk"
- agot_filler_hedges.0033.desc:0 "Heute erschien ein Mann an meinem Hof, welcher von sich behauptet, ein Künstler zu sein. Er erklärte mir, dass er von der Umgebung meiner Domäne so gerührt sei, dass er diese auf Leinwand festhalten will. Diese soll ich als Gegenzug für meine Gastfreundlichkeit erhalten."
+ agot_filler_hedges.0033.desc:0 "Heute erschien ein Mann an meinem Hof, welcher von sich behauptet, ein Künstler zu sein. Er erklärte mir, dass er von der Umgebung meines Sitzes so gerührt sei, dass er diese auf Leinwand festhalten will. Diese soll ich als Gegenzug für meine Gastfreundlichkeit erhalten."
  agot_filler_hedges.0033.a:0 "Fühlt Euch herzlichst willkommen!"
  agot_filler_hedges.0033.b:0 "Hinfort mit dir, du Hundsfott"
 
@@ -214,12 +214,12 @@
  agot_filler_hedges.0034.b:0 "Eine solche Handwerkskunst muss einen guten Preis erzielen."
 
  agot_filler_hedges.0035.t:0 "Des Künstlers Meisterwerk: #italic Das Götterhaus#!"
- agot_filler_hedges.0035.desc:0 "Heute wollte ich den Künstler besuchen, um nachzusehen, wie er vorankommt. Zu meiner Überraschung ist seine Schlafkammer leer, weder er noch sein Gepäck in Sicht. Wie es scheint, ist er in aller Früh abgereist und hat niemandem Bescheid gegeben. Als ich das Hinterzimmer, das er als Atelier nutzte, betrete, fällt mir sofort die riesige Leinwand ins Auge: Mich überkommt ein Gefühl der Vertrautheit... Es ist nicht nur irgendein Tempel, sondern einer meiner Tempel! Und wie schön er gemalt ist! Es wirkt, als wären die Götter selbst für dieses Gemälde verantwortlich. Die Farben sind... fast zu gut! Unglaublich, dass ein Mensch so etwas malen kann! Dieses Gemälde ist wahrlich ein Meisterwerk!"
+ agot_filler_hedges.0035.desc:0 "Heute wollte ich den Künstler besuchen, um nachzusehen, wie er vorankommt. Zu meiner Überraschung ist seine Schlafkammer leer, weder er noch sein Gepäck in Sicht. Wie es scheint, ist er in aller Früh abgereist und hat niemandem Bescheid gegeben. Als ich das Hinterzimmer, das er als Atelier nutzte, betrete, fällt mir sofort die riesige Leinwand ins Auge: Mich überkommt ein Gefühl der Vertrautheit... Es ist nicht nur irgendein Tempel, sondern einer meiner Tempel! Und wie schön er gemalt ist! Es wirkt, als sei das Gemälde durch [ROOT.Char.[ROOT.Char.GetFaith.PantheonTerm] höschstselbst geschaffen worden. Die Farben sind... fast zu gut! Unglaublich, dass ein Mensch so etwas malen kann! Dieses Gemälde ist wahrlich ein Meisterwerk!"
  agot_filler_hedges.0035.a:0 "Es wird die Wand im Thronsaal zieren!"
  agot_filler_hedges.0035.b:0 "Eine solche Handwerkskunst muss einen guten Preis erzielen."
 
  agot_filler_hedges.0036.t:0 "Des Künstlers Meisterwerk: #italic Der Kriegerkönig#!"
- agot_filler_hedges.0036.desc:0 "Heute wollte ich den Künstler besuchen, um nachzusehen, wie er vorankommt. Zu meiner Überraschung ist seine Schlafkammer leer, weder er noch sein Gepäck in Sicht. Wie es scheint, ist er in aller Früh abgereist und hat niemandem Bescheid gegeben. Als ich das Hinterzimmer, das er als Atelier nutzte, betrete, fällt mir sofort die riesige Leinwand ins Auge: Jeder Pinselstrich voller Zorn, jeder Klecks voller Wut. Das Handwerk ebenso furios, wie das, was es darstellt: Einen mächtigen Krieger auf seinem kräftigen Streitross. Das Gesicht ist im dunkeln des Helmes versteckt, dennoch sind Gesichtszüge erkennbar - Meine Gesichtszüge! Das Schwert wirkt, als könnte es gerade aus dem Bild herausfallen und mir den Schädel spalten. Dieses Gemälde ist wahrlich ein Meisterwerk!"
+ agot_filler_hedges.0036.desc:0 "Heute wollte ich den Künstler besuchen, um nachzusehen, wie er vorankommt. Zu meiner Überraschung ist seine Schlafkammer leer, weder er noch sein Gepäck in Sicht. Wie es scheint, ist er in aller Früh abgereist und hat niemandem Bescheid gegeben. Als ich das Hinterzimmer, das er als Atelier nutzte, betrete, fällt mir sofort die riesige Leinwand ins Auge: Jeder Pinselstrich voller Zorn, jeder Klecks voller Wut. Das Handwerk ebenso furios, wie das, was es darstellt: Einen mächtigen Krieger auf seinem kräftigen Streitross. Das Gesicht ist im Dunkel des Helmes versteckt, dennoch sind Gesichtszüge erkennbar - Meine Gesichtszüge! Das Schwert wirkt, als könnte es gerade aus dem Bild herausfallen und mir den Schädel spalten. Dieses Gemälde ist wahrlich ein Meisterwerk!"
  agot_filler_hedges.0036.a:0 "Es wird die Wand im Thronsaal zieren!"
  agot_filler_hedges.0036.b:0 "Eine solche Handwerkskunst muss einen guten Preis erzielen."
 
@@ -229,5 +229,5 @@
  agot_filler_hedges.0037.b:0 "Dieses Teufelswerk gehört verbrannt..."
 
  agot_filler_hedges.0038.t:0 "Des Künstlers Meisterwerk: #italic Das Monster aus der Nacht!"
- agot_filler_hedges.0038.desc:0 "Einer meiner Diener, dem ich den Befehl gab, das Gemälde zu verbrennen, kam mit verstörenden Nachrichten zu mir: Scheinbar gab es keine Spuren auf ein Gemälde. Ich bin wohl der Einzige, der es je zu Gesicht bekommen hat... #italic Wie#! ist dieses Gemälde verschwunden? Sagte der Künstler etwa die Wahrheit?\n\nÜberall sehe ich es. In den dunklen Ecken meines Thronsaals und in den Schatten meiner Gärten. In jedem unbelichteten Korridor und auch nachts in meinem Zimmer. Ich weiß nicht mehr, was sich tatsächlich zuträgt und was nur in meinem Kopf geschieht. Die Grenzen zwischen Realität und Fantasie sind verschwommen.\n\nEs ist, als würde die Angst vor dem Monster, dieses überhaupt erst erschaffen und dadurch wiederum, würde in mir diese Angst ausgelöst werden - ein schrecklicher Teufelskreis. Ich traue mich schon gar nicht mehr, alleine umher zu laufen. Ob mich das Gemälde oder das Monster verfolgt, weiß ich nicht. Ich weiß nur eins:"
+ agot_filler_hedges.0038.desc:0 "Einer meiner Diener, dem ich den Befehl gab, das Gemälde zu verbrennen, kam mit verstörenden Nachrichten zu mir: Scheinbar gab es keine Spuren auf ein Gemälde. Ich bin wohl der Einzige, der es je zu Gesicht bekommen hat... #italic Wie#! ist dieses Gemälde verschwunden? Sagte der Künstler etwa die Wahrheit?\n\nÜberall sehe ich es. In den dunklen Ecken meines Thronsaals und in den Schatten meiner Gärten. In jedem unbelichteten Korridor und auch nachts in meinem Zimmer. Ich weiß nicht mehr, was sich tatsächlich zuträgt und was nur in meinem Kopf geschieht. Die Grenzen zwischen Realität und Fantasie sind verschwommen.\n\nEs ist, als würde die Angst vor dem Monster, dieses überhaupt erst erschaffen und dadurch wiederum, würde in mir diese Angst ausgelöst werden - ein schrecklicher Teufelskreis. Ich traue mich schon gar nicht mehr, alleine umherzulaufen. Ob mich das Gemälde oder das Monster verfolgt, weiß ich nicht. Ich weiß nur eins:"
  agot_filler_hedges.0038.a:0 "Ich habe Angst."

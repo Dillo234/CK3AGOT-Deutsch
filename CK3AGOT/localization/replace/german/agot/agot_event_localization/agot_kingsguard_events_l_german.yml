@@ -147,8 +147,8 @@
  agot_kingsguard.3002.b:0 "Ich würde lieber über mein Lieblingsthema sprechen: mich."
 
  agot_kingsguard.3003.t:0 "[ROOT.Char.Custom('KingsguardName')]: In flagranti"
- agot_kingsguard.3003.desc_bedroom:0 "[ROOT.Char.Custom('DE_MylordMylady')], Ein Mitglied Eurer [ROOT.Char.Custom('KingsguardName')], [lusty_kingsguard.GetName], wurde in seinen Gemächern entdeckt, wo er sich mit [lusty_lover.GetFullName] vergnügte."
- agot_kingsguard.3003.desc_brothel:0 "[ROOT.Char.Custom('DE_MylordMylady')], Ein Mitglied Eurer [ROOT.Char.Custom('KingsguardName')], [lusty_kingsguard.GetName], wurde in einem Bordell bei einem feuchten Stelldichein mit der bekannten Hure [lusty_lover.GetName] entdeckt."
+ agot_kingsguard.3003.desc_bedroom:0 "[ROOT.Char.Custom('DE_Anrede')], Ein Mitglied Eurer [ROOT.Char.Custom('KingsguardName')], [lusty_kingsguard.GetName], wurde in seinen Gemächern entdeckt, wo er sich mit [lusty_lover.GetFullName] vergnügte."
+ agot_kingsguard.3003.desc_brothel:0 "[ROOT.Char.Custom('DE_Anrede')], Ein Mitglied Eurer [ROOT.Char.Custom('KingsguardName')], [lusty_kingsguard.GetName], wurde in einem Bordell bei einem feuchten Stelldichein mit der bekannten Hure [lusty_lover.GetName] entdeckt."
  agot_kingsguard.3003.a:0 "Werft [lusty_kingsguard.GetHerHim] in den Kerker, dann schaue ich weiter."
  agot_kingsguard.3003.b:0 "Schneidet ihm sein Glied ab und gebt es den Hunden."
  agot_kingsguard.3003.c:0 "Nehmt [lusty_kingsguard.GetHerHim] ihm seinen weißen Mantel."
@@ -166,7 +166,7 @@
  agot_kingsguard.3004.toast_desc:0 "[obstructing_brat.GetName] bleibt verwundet."
 
  agot_kingsguard.3005.t:0 "Mit besten Empfehlungen"
- agot_kingsguard.3005.desc:0 "[sponser.GetTitledFirstName] betritt den Thronsaal, begleitet von [essosi_warrior.Custom('DE_ART_IND_D')] Euch fremden [essosi_warrior.GetWomanMan].\n\n"[ROOT.Char.Custom('DE_MylordMylady')]," [sponser.GetFirstNameNoTooltip] räuspert sich, mit einem stolzen Gesichtsausdruck. "Es ist mir eine Ehre, Euch den größten Krieger vorzustellen, den Essos je gesehen hat. [essosi_warrior.GetFirstNameNoTooltip] ist von Braavos bis Asshai bekannt, und [essosi_warrior.GetSheHe] wäre eine hervorragende Ergänzung für Eure [ROOT.Char.Custom('KingsguardName')].""
+ agot_kingsguard.3005.desc:0 "[sponser.GetTitledFirstName] betritt den Thronsaal, begleitet von [essosi_warrior.Custom('DE_ART_IND_D')] Euch fremden [essosi_warrior.GetWomanMan].\n\n"[ROOT.Char.Custom('DE_Anrede')]," [sponser.GetFirstNameNoTooltip] räuspert sich, mit einem stolzen Gesichtsausdruck. "Es ist mir eine Ehre, Euch den größten Krieger vorzustellen, den Essos je gesehen hat. [essosi_warrior.GetFirstNameNoTooltip] ist von Braavos bis Asshai bekannt, und [essosi_warrior.GetSheHe] wäre eine hervorragende Ergänzung für Eure [ROOT.Char.Custom('KingsguardName')].""
  agot_kingsguard.3005.a:0 "Willkommen in der [ROOT.Char.Custom('KingsguardName')]!"
  agot_kingsguard.3005.agot_kingsguard.tt:0 "[essosi_warrior.GetName] wird Eurer [GetPlayer.Custom('KingsguardName')] beitreten"
  agot_kingsguard.3005.b:0 "Möglicherweise würdet Ihr einen anderen Posten annehmen?"
@@ -183,7 +183,7 @@
  agot_kingsguard.3007.desc:0 "[improved_kingsguard.GetNamePossessive] stundenlanger Einsatz auf dem Übungsgelände und die Eingabe für [improved_kingsguard.Custom('DE_PRO_POS_S_3P')] Gelübde haben zu dieser Entwicklung geführt."
 
  agot_kingsguard.3008.t:0 "Mit besten Empfehlungen"
- agot_kingsguard.3008.desc:0 "[sponser.GetTitledFirstName] betritt den Thronsaal, begleitet von [candidate.Custom('DE_ART_IND_D')] Euch fremden [candidate.GetWomanMan].\n\n"[ROOT.Char.Custom('DE_MylordMylady')]," [sponser.GetFirstNameNoTooltip] räuspert sich, mit einem stolzen Gesichtsausdruck. "Es ist mir eine Ehre, Euch [candidate.GetFullNameNoTooltip] vorzustellen. [candidate.GetSheHe|U] ist ein[candidate.Custom('DE_END_PRO_S_N')] höchst stattlich[candidate.Custom('DE_END_ADJ_IND_S_N')] [candidate.GetWomanMan] von beträchtlichem kriegerischem Talent und hat auf Heirat und Titel verzichtet in der Hoffnung, eines Tages Eurer [ROOT.Char.Custom('KingsguardName')] beizutreten.""
+ agot_kingsguard.3008.desc:0 "[sponser.GetTitledFirstName] betritt den Thronsaal, begleitet von [candidate.Custom('DE_ART_IND_D')] Euch fremden [candidate.GetWomanMan].\n\n"[ROOT.Char.Custom('DE_Anrede')]," [sponser.GetFirstNameNoTooltip] räuspert sich, mit einem stolzen Gesichtsausdruck. "Es ist mir eine Ehre, Euch [candidate.GetFullNameNoTooltip] vorzustellen. [candidate.GetSheHe|U] ist ein[candidate.Custom('DE_END_PRO_S_N')] höchst stattlich[candidate.Custom('DE_END_ADJ_IND_S_N')] [candidate.GetWomanMan] von beträchtlichem kriegerischem Talent und hat auf Heirat und Titel verzichtet in der Hoffnung, eines Tages Eurer [ROOT.Char.Custom('KingsguardName')] beizutreten.""
  agot_kingsguard.3008.a:0 "Willkommen in der [ROOT.Char.Custom('KingsguardName')]!"
  agot_kingsguard.3008.agot_kingsguard.tt:0 "[candidate.GetName] wird Eurer [GetPlayer.Custom('KingsguardName')] beitreten"
  agot_kingsguard.3008.b:0 "Möglicherweise würdet Ihr einen anderen Posten annehmen?"
