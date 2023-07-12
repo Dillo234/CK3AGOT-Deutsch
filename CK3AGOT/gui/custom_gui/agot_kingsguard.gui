@@ -2,7 +2,7 @@ types Kingsguard {
 	type agot_kingsguard_tab_button = button_tab {
 		visible = "[GetScriptedGui('kingsguard_tab').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 		layoutpolicy_horizontal = expanding
-		raw_text = "Your [GetPlayer.Custom('KingsguardName')]"
+		raw_text = "Eure [GetPlayer.Custom('KingsguardName')]"
 		down = "[GetVariableSystem.HasValue('council_tabs','kingsguard')]"
 		onclick = "[GetVariableSystem.Set('council_tabs','kingsguard')]"
 		onclick = "[GetVariableSystem.Clear('my_council')]"
