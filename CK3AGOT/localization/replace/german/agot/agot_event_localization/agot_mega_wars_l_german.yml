@@ -66,10 +66,10 @@
 # Mega War Aftermath
  agot_mega_wars.0500.t:0 "Der leere Thron"
  agot_mega_wars.0500.desc.a:0 "Aus dem langen Krieg gegen das verbrecherische Haus [defender_house_scope.GetName] sind meine Verbündeten und ich als Sieger hervorgegangen."
- agot_mega_wars.0500.desc.ba:0 "Meine Gefolgsmänner wollen #italic mich#! zu ihr[ROOT.Char.Custom('DE_END_PRO_S_D')] König[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] machen. Sie behaupten, mein Anspruch leite sich von mein[claim_ancestor.Custom('DE_END_PRO_S_D')] [ROOT.Char.Custom2('RelationToMe', claim_ancestor)] [claim_ancestor.GetFullName] ab..."
- agot_mega_wars.0500.desc.bb:0 "\n\nJedoch frage ich mich, ob ich wirklich König[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] sein will. [chosen_LP.GetFullName] ist doch besser geeignet, auf dem Thron zu sitzen und das Reich zu regieren... Nicht?"
- agot_mega_wars.0500.desc.bc:0 "\n\nJedoch frage ich mich, ob ich wirklich König[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] sein will. [option_LP_1.GetFullName] und [option_LP_2.GetNameOrMe] sind doch besser geeignet, auf dem Thron zu sitzen und das Reich zu regieren... Nicht?"
- agot_mega_wars.0500.desc.bd:0 "\n\nJedoch frage ich mich, ob ich wirklich König[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] sein will. Lords wie [option_LP_1.GetFullName] und [option_LP_2.GetFullName] sind doch besser geeignet, auf dem Thron zu sitzen und zu das Reich regieren... Nicht?"
+ agot_mega_wars.0500.desc.ba:0 "Meine Gefolgsmänner wollen #italic mich#! zu ihr[ROOT.Char.Custom('DE_END_PRO_S_D')] König[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] machen. Sie behaupten, mein Anspruch leite sich von [claim_ancestor.GetFirstName] [claim_ancestor.GetDynastyName] mein[claim_ancestor.Custom('DE_END_PRO_S_D')] [ROOT.Char.Custom2('RelationToMe', claim_ancestor)]  ab..."
+ agot_mega_wars.0500.desc.bb:0 "\n\nJedoch frage ich mich, ob ich wirklich König[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] sein will. [option_LP.GetFirstName] [option_LP.GetDynastyName] ist doch besser geeignet, auf dem Thron zu sitzen und das Reich zu regieren... Nicht?"
+ agot_mega_wars.0500.desc.bc:0 "\n\nJedoch frage ich mich, ob ich wirklich König[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] sein will. [option_LP_1.GetFirstName] [option_LP_1.GetDynastyName] und [option_LP_2.GetFirstName] [option_LP_2.GetDynastyName] sind doch besser geeignet, auf dem Thron zu sitzen und das Reich zu regieren... Nicht?"
+ agot_mega_wars.0500.desc.bd:0 "\n\nJedoch frage ich mich, ob ich wirklich König[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] sein will. Lords wie [option_LP_1.GetFirstName] [option_LP_1.GetDynastyName] und [option_LP_2.GetFirstName] [option_LP_2.GetDynastyName] sind doch besser geeignet, auf dem Thron zu sitzen und zu das Reich regieren... Nicht?"
  agot_mega_wars.0500.desc.c:0 "Niemand wird meine Entscheidung anfechten, einen dieser großen Männer zum König zu machen, wenn ich es so will..."
  agot_mega_wars.0500.desc.d:0 "Leider hat [ROOT.Var('si_selected_character').Char.GetTitledFirstName] abgelehnt, [ROOT.Var('si_selected_character').Char.GetSheHe] wird nicht das Reich regieren. Ich muss nochmals entscheiden..."
  agot_mega_wars.0500.a:0 "[defender.GetTitledFirstName] abzusetzen, sollte genügen."
@@ -178,13 +178,13 @@
  POST_REBEL_JOINS_TOOLTIP:0 "[post_rebel_scope.GetName] könnte sich Eurem Vorhaben anschließen."
 
  agot_mega_wars.0605.t:0 "Die Verräter bestrafen"
- agot_mega_wars.0605.desc:0 "Der Krieg ist vorbei und ich bin siegreich! Jetzt muss ich mich um die Verräter kümmern."
+ agot_mega_wars.0605.desc:0 "Der Krieg ist vorbei und ich bin siegreich! Jetzt muss ich mich um die Verräter kümmern.\nVerräter: [selected_traitor.GetName]"
  agot_mega_wars.0605.a:0 "Die Strafe soll gütig sein."
  agot_mega_wars.0605.b:0 "Die Strafe soll gerecht sein."
  agot_mega_wars.0605.c:0 "Die Strafe soll hart sein."
  agot_mega_wars.0605.d:0 "Niemand soll sich #italic je#! wieder trauen, mich falsch anzusehen."
  agot_mega_wars.0605.e:0 "Sollen sie an die Mauer gebracht werden nützlich sein."
- agot_mega_wars.0605.f:0 "Sein Lehnsherr soll urteilen."
+ agot_mega_wars.0605.f:0 "Sein Oberster Lehnsherr soll urteilen."
 
  agot_mega_wars.9999.t:0 "Scheiß Event"
  agot_mega_wars.9999.desc:0 "Scheiß Beschreibung"
@@ -192,13 +192,16 @@
  agot_mega_wars.9999.b:0 "Kackoption"
  agot_mega_wars.9999.c:0 "Drecksoption"
 
+ MW_TRAITORS_SEND_TO_WALL_TT:0 "[selected_traitor.GetName] wird zur Mauer geschickt,\und alle Titel werden an [selected_traitor.Custom('DE_PRO_POS_S_3P')]en Erben gehen"
+
 # Scripted GUI
  MW_TRAITORS_HOSTAGES_TT:0 "Es gibt keine verfügbaren Geiseln."
  MW_TRAITORS_SEC_TITLES_TT:0 "Es gibt keine verfügbaren Nebentitel."
  MW_TRAITORS_SPEC_TITLES_TT:0 "Es gibt keine verfügbaren Titel."
  MW_TRAITORS_ARTIFACT_TT:0 "Es gibt keine verfügbaren Artefakte."
+ MW_TRAITORS_EXECUTION_WALL_TT:0 "Ihr schickt diesen Charakter bereits zur Mauer."
  MW_TRAITORS_EXECUTION_TT:0 "Es gibt keine verfügbaren Charaktere."
- MW_TRAITORS_SEND_TO_WALL_TT:0 "Ihr könnt diesen Charakter an die Mauer schicken."
+ MW_TRAITORS_CAN_SEND_TO_WALL_TT:0 "Ihr könnt diesen Charakter an die Mauer schicken."
 
  mw_tab_name_header:0 "Reichskrieg"
  MEGA_WARS_VIEW_GUI_LOYALIST:0 "Königstreue"

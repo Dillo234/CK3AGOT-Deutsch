@@ -26,6 +26,8 @@
  king_lp_feudal_female:0 "[CHARACTER.Custom('LP_FEUDAL_FEMALE')]"
  king_lp_feudal_male_default:0 "Lord"
  king_lp_feudal_female_default:0 "Lady"
+ king_lp_feudal_male_targ:0 "Prinz"
+ king_lp_feudal_female_targ:0 "Prinzessin"
  king_lp_feudal_independent_rhoynish:0 "Prinz"
  queen_lp_feudal_independent_rhoynish:0 "Prinzessin"
 
@@ -43,8 +45,12 @@
  principality_lp_feudal_male:0 "Fürst" 
  principality_lp_feudal_female:0 "Fürstin" 
 
- prince_lp_kingdom_male:0 "Lord"    
- prince_lp_kingdom_female:0 "Lady"
+ prince_lp_kingdom_male:0 "[CHARACTER.Custom('PRINCE_LP_FEUDAL_KINGDOM_MALE')]"
+ prince_lp_kingdom_female:0 "[CHARACTER.Custom('PRINCE_LP_FEUDAL_KINGDOM_FEMALE')]"
+ prince_lp_kingdom_male_default:0 "Lord"
+ prince_lp_kingdom_female_default:0 "Lady"
+ prince_lp_kingdom_male_targ:0 "Prinz"
+ prince_lp_kingdom_female_targ:0 "Prinzessin"
  prince_lp_feudal_male_dorne:0 "Prinz" 
  prince_lp_feudal_female_dorne:0 "Prinzessin" 
 
