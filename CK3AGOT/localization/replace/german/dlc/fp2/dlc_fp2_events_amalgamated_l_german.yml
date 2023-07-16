@@ -1,6 +1,5 @@
-﻿l_german:
-# This file contains every loose fp2 event loc in one place, makes directories cleaner and changes easier to track.
-# This file contains every loose fp2 event loc in one place, makes directories cleaner and changes easier to track.
+﻿# This file contains every loose fp2 event loc in one place, makes directories cleaner and changes easier to track.
+l_german:
  # dlc_fp2_flavor_events_oltner
  rice_fields_modifier:0 "Reisfelder"
  rice_fields_modifier_desc:0 "Bauern in dieser Region bauen nahrhaften Reis an, der ihre Mägen füllt und eine neue Küche hervorbringt."  #Selbst geschrieben/abgetippt
@@ -98,80 +97,112 @@
 
 	##### Intro #####
  #AGOT Modified
+ #fp2_struggle.0501.t:1 "The $iberian_struggle$"
  fp2_btw_struggle.0501.t:1 "Der $btw_struggle$"
  #AGOT Modified
+ #fp2_struggle.0501.desc:1 "The Iberian peninsula is in turmoil, a conflict born of its storied past. Outsiders covet the land and the great Muslim and Christian powers seek to sway its people. But those who live and die on its soil will ultimately determine its fate.\n\n"
  fp2_btw_struggle.0501.desc:1 "Die Menschen jenseits der Mauer nennen sich selbst das Freie Volk. Jedoch sind sie kein vereintes Volk, sondern eine Sammlung vieler Stämme, die in ständigem Konflikt zueinander stehen, was aus der jahrtausendelangen Geschichte herrührt. Deswegen und aufgrund ihrer Lebensweise, werden sie von den Menschen südlich der Mauer Wildlinge genannt. Neben der Kälte, den Snarks und Grumkins und den Anderen, muss sich das Freie Volk mit der Nachtwache auseinandersetzen. Die Männer in Schwarz, die sie #italic liebevoll#! als Krähen bezeichnen, ist, was sie davon abhält, in den Süden zu wandern. Auch wenn es ein Paar über die Mauer schaffen, sind es dennoch die Verbleibenden, die das Schicksal des Freien Volkes bestimmen.\n\n"
  #AGOT Modified
+ #fp2_struggle.0501.desc.involved:0 "I will not let slip my vision for my homeland. By [ROOT.Char.GetFaith.HighGodName], House [ROOT.Char.GetHouse.GetNameNoTooltip] will weather the storm and see my will fulfilled.\n\n"
  fp2_btw_struggle.0501.desc.involved:0 "Auf welcher Seite des Konflikts werdet Ihr Euch befinden?\n\nSchließt Ihr Euch dem Freien Volk an? Dann schlichtet die Konflikte und versammelt die Menschen unter Eurer Herrschaft. Beendet die Unterdrückung der Nachtwache und überquert mit Eurem Volk die Mauer!\n\nOder schließt Ihr Euch der Nachtwache an? Dann verhelft der Nachtwache zu altem Glanz! Seid der Wächter auf den Mauern. Seid der Schild, der die Reiche der Menschen schützt! Seid das Schwert in der Dunkelheit!\n\n"
  #AGOT Modified
+ #fp2_struggle.0501.desc.interloper:0 "The time has come for me to take hold of the situation and my destiny. I see all the pieces laid out on the board. I know the way forward, and there will be no stopping House [ROOT.Char.GetHouse.GetNameNoTooltip].\n\n"
+ fp2_btw_struggle.0501.desc.interloper:0 "The wildlings north of the Wall have languished in conflict amongst themselves for thousands of years. They call themselves the \"free folk,\" but they are nothing more than savages.\n\nThe Night's Watch is the last hope against the hordes of wildlings beyond the Wall. I am the sword in the darkness. I am the watcher on the Wall. I am the shield that guards the realms of men.\n\n"
  fp2_btw_struggle.0501.desc.mottocall:0 "[ROOT.Char.GetHouse.GetMotto]!"
- #AGOT Modified
  fp2_btw_struggle.0501.a:0 "Nehmt das Schicksal in die Hand!"
 
 	##### Hostility #####
 	# Struggle Ender
  #AGOT Modified
+ #fp2_struggle.0900.t:0 "$struggle_iberia_ending_hostility_decision$"
  fp2_struggle.0900.t:0 "$struggle_btw_ending_hostility_decision$"
  #AGOT Modified
+ #fp2_struggle.0900.opening.basque:0 "We [ROOT.Char.GetCulture.GetNameNoTooltip] have endured centuries of encroachment: Visigoths, Gauls, Moors... but, with time, each of their strengths faltered. Today, the fate of Iberia is in #EMP our#! hands once more."
  fp2_struggle.0900.opening.basque:0 "Unsere [ROOT.Char.GetCulture.GetNameNoTooltip|l]e Kultur sah sich Jahrhunderten der Bedrängung ausgesetzt: Andalen, Krähen, Kniende...  doch mit der Zeit ließen ihre Kräfte nach. Heute liegt das Schicksal des Freien Volkes wieder in #EMP unseren#! Händen."  #Selbst geschrieben/abgetippt
  #AGOT Modified
+ #fp2_struggle.0900.opening.andalusian:0 "The history of our people is as complex as we are diverse, and as fraught as we are strong. The future of Iberia will once again be decided by the heirs of the Umayyads."
  fp2_struggle.0900.opening.andalusian:0 "Die Geschichte unseres Volkes ist so vielschichtig, wie wir vielfältig sind, und trotz aller Spannungen ist sie von unserer Stärke gekennzeichnet. Die Zukunft der Länder jenseits der Mauer werden nun wieder von den Nachfahren der [ROOT.Char.GetCulture.GetNameNoTooltip] entschieden."  #Selbst geschrieben/abgetippt
  #AGOT Modified
+ #fp2_struggle.0900.opening.iberian:0 "For too long the Iberian peoples have suffered at the hands of the Moorish invaders; today we will restore the hope that the rightful heirs of Rome lost centuries ago."
  fp2_struggle.0900.opening.iberian:0 "Viel zu lange litt das Freie Volk unter der Nachtwache: Heute werden wir jener Hoffnung neues Leben einhauchen, die die Nachfahren der Ersten Menschen vor Jahrtausenden verloren."  #Selbst geschrieben/abgetippt
  #AGOT Modified
+ #fp2_struggle.0900.opening:0 "The chaos that Iberia suffered in the preceding centuries has left a stain in the hearts of all its inhabitants. Today begins this peninsula's next chapter..."
  fp2_struggle.0900.opening:0 "Das Chaos, unter dem die Ländereien jenseits der Mauer in den vorangegangenen Jahrhunderten litten, hat einen Makel in den Herzen all seiner Bewohner hinterlassen. Heute beginnt das nächste Kapitel in der Geschichte dieser Lande..."  #Selbst geschrieben/abgetippt
  #AGOT Modified
+ #fp2_struggle.0900.desc:0 "\n\nThere is now no other realm that can truly contest [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] dominance in Iberia, or the priests and settlers who bring the word of [ROOT.Char.GetFaith.HighGodName] and [ROOT.Char.GetCulture.GetName] civilization to its villages.\n\nAll that remains is to declare this victory, having decided how to proceed with our rule."
  fp2_struggle.0900.desc:0 "\n\nEs gibt nun kein anderes Reich mehr, das die [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l]e Vorherrschaft in den Ländereien jenseits der Mauer ernsthaft anfechten oder es mit jenen Priestern und Siedlern aufnehmen könnte, die die Lehren von [ROOT.Char.GetFaith.HighGodName] und die [ROOT.Char.GetCulture.GetName|l]e Zivilisation in die Dörfer unserer Heimat tragen.\n\nEs bleibt nur noch, diesen Triumph zu verkünden, nachdem wir beschlossen haben, wie wir mit unserer Herrschaft weiter verfahren sollen."  #Selbst geschrieben/abgetippt
  fp2_struggle.0900.a:0 "Dieses Land soll [ROOT.Char.GetFaith.HighGodNameAlternate] gehören!"
  #AGOT Modified
+ #fp2_struggle.0900.b:0 "The settlement of this peninsula will be our focus."
  fp2_struggle.0900.b:0 "Wir werden uns ganz der Besiedlung dieser eisigen Lande widmen."  #Selbst geschrieben/abgetippt
  #AGOT Modified
+ #fp2_struggle.0900.c:1 "[ROOT.Char.GetFaith.HighGodName] has given Iberia to the [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]!"
  fp2_struggle.0900.c:1 "Die [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] haben die Länderein jenseits der Mauer von [ROOT.Char.GetFaith.HighGodName] als Geschenk erhalten!"  #Selbst geschrieben/abgetippt
 	# Other Players
  fp2_struggle.0910.opening.involved:0 "Auch wenn sie durch ein anderes Reich erfolgen mag, könnte uns die Erlösung aus einer Ungewissheit, die diese Region seit Jahrhunderten fest in ihrem Griff hatte, unmittelbar bevorstehen …"
  #AGOT Modified
+ #fp2_struggle.0910.opening:0 "Word of recent developments on the Iberian peninsula has reached our court, promising an end to the conflicts that have plagued the region."
  fp2_struggle.0910.opening:0 "Die Kunde von den jüngsten Entwicklungen jenseits der Mauer hat unseren Hof erreicht. Sie verheißt ein Ende jener Spannungen, die die Wildlingsstämme schon lange plagen."  #Selbst geschrieben/abgetippt
  #AGOT Modified
+ #fp2_struggle.0910.desc:0 "\n\n[struggle_ender.GetName], who now controls the majority of the peninsula, has proclaimed [struggle_ender.GetHerselfHimself] the ultimate victor of the struggles set in motion long ago by the Moorish invasion.\n\n"
  fp2_struggle.0910.desc:0 "\n\n[struggle_ender.GetName] kontrolliert nun den Großteil der Ländereien jenseits der Mauer und hat sich zum endgültigen Sieger in jenem Konflikt ausgerufen, der vor so langer Zeit durch die Andalen Invasion begonnen wurde.\n\n"  #Selbst geschrieben/abgetippt
  #AGOT Modified
+ #fp2_struggle.0910.closing.faith:0 "[struggle_ender.GetSheHe|U] has proclaimed Iberia to be a [struggle_ender.GetFaith.GetAdjective] land, and that, [struggle_ender.GetFaith.HighGodName] willing, all heretics and infidels will be driven from [struggle_ender.GetHerHis] domain."
  fp2_struggle.0910.closing.faith:0 "[struggle_ender.Custom('DE_PRO_PER_S_3P_N')|U] ließ verlautbaren, dass die Gebiete jenseits der Mauer ein [struggle_ender.GetFaith.GetAdjective|l]es Land sein sollen und - so [struggle_ender.GetFaith.HighGodName] will - alle Ketzer und Ungläubigen aus [struggle_ender.Custom('DE_PRO_POS_S_3P')]en Gebiete vertrieben werden."  #Selbst geschrieben/abgetippt
  #AGOT Modified
+ #fp2_struggle.0910.closing.culture:0 "[struggle_ender.GetSheHe|U] has proclaimed Iberia belongs to the [struggle_ender.GetCulture.GetName], and that all foreign invaders and subjugated peoples accept this reality."
  fp2_struggle.0910.closing.culture:0 "[struggle_ender.Custom('DE_PRO_PER_S_3P_N')|U] ließ verlautbaren, dass die Gebiete jenseits der Mauer Teil der [struggle_ender.GetCulture.GetName|l]en Kultur ist und dass alle fremden Invasoren und unterworfenen Völker diese Tatsache begreifen sollten."  #Selbst geschrieben/abgetippt
  #AGOT Modified
+ #fp2_struggle.0910.closing.combined:0 "[struggle_ender.GetSheHe|U] has proclaimed Iberia and [struggle_ender.GetPrimaryTitle.GetNameNoTier] to be one and the same, now delivered to the hands of the [struggle_ender.GetFaith.GetAdjective] [struggle_ender.GetCulture.GetName] by [struggle_ender.GetFaith.HighGodName]..."
  fp2_struggle.0910.closing.combined:0 "[struggle_ender.Custom('DE_PRO_PER_S_3P_N')|U] ließ verlautbaren, dass die Gebiete jenseits der Mauer und [struggle_ender.GetPrimaryTitle.GetNameNoTier] ein und dasselbe sind und nun durch [struggle_ender.GetFaith.HighGodName] als Teil der [struggle_ender.GetCulture.GetName|l]en Kultur in die Hände der [struggle_ender.GetFaith.GetAdjective|l]en Gläubigen gegeben wurde."  #Selbst geschrieben/abgetippt
  fp2_struggle.0910.a:0 "Das ist noch nicht vorbei."
  fp2_struggle.0910.b:0 "Höchst interessant."
 	##### Compromise #####
 	# Struggle Ender
  #AGOT Modified
+ #fp2_struggle.0901.t:0 "$struggle_iberia_ending_compromise_decision$"
  fp2_struggle.0901.t:0 "$struggle_btw_ending_compromise_decision$"
  #AGOT Modified
+ #fp2_struggle.0901.desc:1 "\n\nIt is now clear there will be no end to this cycle of bloodshed if things continue; this peninsula will not bear unification.\n\nWe must be satisfied with [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], and leave the other potentates of Iberia to their own devices - for now..."
  fp2_struggle.0901.desc:1 "\n\nEs ist nun klar, dass dieser Teufelskreis des Blutvergießens niemals ein Ende nehmen wird, wenn die Dinge so weitergehen. Das Freie Volk wird sich nicht vereinen.\n\nWir müssen mit [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] zufrieden sein und die anderen Potentaten der Ländereien jenseits der Mauer ihrem eigenen Treiben überlassen - fürs Erste..."  #Selbst geschrieben/abgetippt
  fp2_struggle.0901.a:0 "So ist es am besten."
  fp2_struggle.0901.tt:0 "[THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier] ist [de_jure|E] ein [empire|E] geworden"
 	# Other Players
  #AGOT Modified
+ #fp2_struggle.0911.desc:0 "\n\n[struggle_ender.GetTitledFirstName] has officialy renounced any intentions to unite the peninsula under a common crown, and declared any who would that title illegitimate.\n\nThe disparate realms molded by centuries of invasion and reconquest are now too entrenched to be united."
  fp2_struggle.0911.desc:0 "\n\n[struggle_ender.GetTitledFirstName] hat offiziell sämtlichen Absichten abgeschworen, die Wildlingsstämme unter einer gemeinsamen Krone zu vereinigen, und jeden als illegitim erklärt, der versuchen sollte, diesen Titel zu tragen.\n\nDie einzelnen Reiche, die durch Jahrhunderte der Isolation vom Süden und durch die zahlreichen Machtkämpfe geformt wurden, sind nun zu fest verankert, als dass man sie noch vereinen könnte."  #Selbst geschrieben/abgetippt
  #AGOT Modified
+ #fp2_struggle.0911.a:0 "We will not forget the dream of Hispania..."
  fp2_struggle.0911.a:0 "Wir werden den Traum von einem König-jenseits-der-Mauer nicht aufgeben..."  #Selbst geschrieben/abgetippt
 	##### Conciliation #####
 	# Struggle Ender
  #AGOT Modified
+ #fp2_struggle.0902.t:0 "$struggle_iberia_ending_conciliation_decision$"
  fp2_struggle.0902.t:0 "$struggle_btw_ending_conciliation_decision$"
  #AGOT Modified
+ #fp2_struggle.0902.desc:0 "\n\nA sworn guarantee of protection, which only I am now in a position to enforce, will ensure the diverse peoples of the region may live and worship freely.\n\n[ROOT.Char.GetFaith.HighGodName] willing, the wars of the past will remain there, and the other Iberian princes will see the benefits of co-existence."
  fp2_struggle.0902.desc:0 "\n\nEin Schutzeid, den nur allein ich durchzusetzen vermag, wird dafür Sorge tragen, dass die verschiedenen Stämme der Region ihrem täglichen Leben und ihrem Glauben frei nachgehen können.\n\nSo [ROOT.Char.GetFaith.HighGodName] will, liegen die Kriege der Vergangenheit nun endgültig hinter uns und die anderen Anführer werden die Vorzüge der Koexistenz begreifen."  #Selbst geschrieben/abgetippt
  fp2_struggle.0902.a:0 "Entsendet die Herolde."
 	# Other Players
  #AGOT Modified
+ #fp2_struggle.0912.desc:0 "\n\n[struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip] heralds have proclaimed guarantees of free passage and worship for all, enforced by [struggle_ender.GetTitledFirstName], to the wide acclamation of the common people.\n\nMany have longed for an end to the bloodshed in Iberia; perhaps #EMP this#! peace will be a lasting one."
  fp2_struggle.0912.desc:0 "\n\nUnter großer Zustimmung des Freien Volkes verkündeten [struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip|l]e Herolde allgemeine Garantien für Freizügigkeit und freie Religionsausbündung, die [struggle_ender.GetTitledFirstName] durchzusetzen gedenkt.\n\nViele sehnten sich nach einem Ende des Blutvergießens jenseits der Mauer. Vielleicht wird #EMP dieser#! Friede nun von Dauer sein."  #Selbst geschrieben/abgetippt
  fp2_struggle.0912.a:0 "Auf jeden Fall eine Überraschung."
 
  # fp2_event_dan
- fp2_yearly.1001.t:0 "Schach II"
- fp2_yearly.1001.desc:0 "Nachdem ich eine weitere Partie Schach gegen mich selbst gewonnen habe, drängt sich mir der Gedanke auf, dass mein überragender Intellekt dieses Spiel vielleicht noch verbessern könnte.\n\nDoch welche Änderungen würden Sinn ergeben?"
+ #AGOT Modified
+ #fp2_yearly.1001.t:0 "Chess Two"
+ fp2_yearly.1001.t:0 "Cyvasse II"
+ #AGOT Modified
+ #fp2_yearly.1001.desc:0 "After winning another game of chess against myself, I can't help but think that perhaps my towering intellect could improve this game somewhat. \n\nBut what change would make the most sense?"
+ fp2_yearly.1001.desc:0 "Nachdem ich eine weitere Partie Cyvasse gegen mich selbst gewonnen habe, drängt sich mir der Gedanke auf, dass mein überragender Intellekt dieses Spiel vielleicht noch verbessern könnte.\n\nDoch welche Änderungen würden Sinn ergeben?"
  fp2_yearly.1001.a:0 "Der König ist eindeutig zu schwach."
- fp2_yearly.1001.b:0 "Der Läufer sollte stärker werden."
- fp2_yearly.1001.c:0 "Warum kann ich nicht einfach nur die Bauern foltern?"
+ #AGOT Modified
+ #fp2_yearly.1001.b:0 "The Bishop should be stronger."
+ fp2_yearly.1001.b:0 "Der Drache sollte stärker werden."
+ #AGOT Modified
+ #fp2_yearly.1001.c:0 "Why can't I torture the pawns?"
+ fp2_yearly.1001.c:0 "Warum kann ich nicht einfach nur den Pöbel foltern?"
 
 
  fp2_yearly.1002.t:0 "Eine kompromittierende Lage"
@@ -203,8 +234,10 @@
  fp2_hawk_of_quarysh_diplomacy_modifier_desc:0 "Dieser Charakter hat sich diplomatisch vom Falken der Quraisch inspirieren lassen."
 
  #AGOT Modified
+ #fp2_yearly.1005.t:0 "Lost Viking"
  fp2_yearly.1005.t:0 "Verirrt[hidden_viking.Custom('DE_END_ADJ_IND_S_N')] Plünder[hidden_viking.Custom('DE_END_NOU_S_GS_N')]"  #Selbst geschrieben/abgetippt
  #AGOT Modified
+ #fp2_yearly.1005.desc:0 "Struggling and shouting, a large [hidden_viking.GetWomanMan] is dragged before me. [hidden_viking.GetSheHe|U] is clearly a viking raider, the type who has sown chaos in our realm for decades.\n\n"Please have mercy. My name is [hidden_viking.GetName] and I've been living in [viking_county.GetNameNoTooltip] for years. I was left behind because I was injured. The villagers saved me; they're my family now."\n\nThe viking falls to his knees, hoping I'll spare [hidden_viking.GetHerHis] life. Several peasants confirm [hidden_viking.GetHerHis] story."
  fp2_yearly.1005.desc:0 "[hidden_viking.Custom('DE_ART_IND_N')|U] riesig[hidden_viking.Custom('DE_END_ADJ_IND_S_N')] Plünder[hidden_viking.Custom('DE_END_NOU_S_GS_N')], von den Eiseninseln, wird schreiend und sich im Griff meiner Wachen windend vor mich geschleift. [hidden_viking.Custom('DE_PRO_PER_S_3P_N')|U] ist eindeutig [hidden_viking.Custom('DE_ART_IND_N')] Plünder[hidden_viking.Custom('DE_END_NOU_S_GS_N')] von jener Sorte, die seit Jahrzehnten Chaos in unserem Reich stiftet.\n\n"Bitte habt Gnade. Mein Name ist [hidden_viking.GetName], und ich lebe schon seit Jahren in [viking_county.GetNameNoTooltip]. Man ließ mich zurück, weil ich verwundet war. Die Dörfler haben mir das Leben gerettet. Sie sind jetzt meine Familie."\n\n[hidden_viking.Custom('DE_ART_DEF_S_N')|U] Eisengeborene fällt auf die Knie und hofft, dass ich [hidden_viking.Custom('DE_PRO_POS_S_3P')] Leben verschone. Mehrere Bauern bestätigen die Geschichte."  #Selbst geschrieben/abgetippt
  fp2_yearly.1005.a:1 "Ihr dürft meine Höflinge mit Eurer einzigartigen Geschichte unterhalten."
  fp2_yearly.1005.b:0 "Eine gute Tat kann all die schlechten nicht wettmachen – Ihr sterbt."
@@ -212,19 +245,24 @@
 
 
  #AGOT Modified
+ #fp2_yearly.1006.t:0 "Viking Cheese?"
  fp2_yearly.1006.t:0 "Pentosischer Käse?"  #Selbst geschrieben/abgetippt
  #AGOT Modified
+ #fp2_yearly.1006.desc:0 "I stop at a roadside stall selling some simple foods. The trader, [cheese_trader.GetName], plies me with different wares before reaching below the stall and bringing out a carved wooden box.\n\n"For you my liege, this is the finest cheese in all the realm. [cheese_trader.GetSheHe|U] pushes the small block into my hand, leans in and whispers conspiratorially, "It was crafted by cheese-making Vikings here in Iberia."\n\nDespite the bizarre comment, the cheese is incredibly good."
  fp2_yearly.1006.desc:0 "Ich halte an einem Straßenstand an, der einfache Speisen verkauft. [cheese_trader.GetName], [cheese_trader.Custom('DE_ART_DEF_S_N')] Händler[cheese_trader.Custom('DE_END_NOU_S_GS_N')], bietet mir verschiedene Waren an, bis [cheese_trader.Custom('DE_PRO_PER_S_3P_N')] schließlich in den Stand hineingreift und eine geschnitzte Holzkiste hervorholt.\n\n"Für Euch, mein[cheese_trader.Custom('DE_END_PRO_S_A')] Lehnsherr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')], habe ich hier den besten Käse im ganzen Reich." [cheese_trader.Custom('DE_PRO_PER_S_3P_N')|U] drückt mir den kleinen Laib in die Hand und beugt sich vor, um mir verschwörerisch zuzuflüstern: "Er wurde von einem Käse herstellenden Pentosi aus Pentos hergestellt."\n\nTrotz dieser bizarren Anmerkung ist der Käse unglaublich lecker."  #Selbst geschrieben/abgetippt
  fp2_yearly.1006.a:0 "Euren Käse nehme ich, aber nicht diese lächerliche Geschichte."
  #AGOT Modified
- fp2_yearly.1006.b:0 "Ich muss diesen "Käse-Pentosi" finden..."  #Selbst geschrieben/abgetippt
+ #fp2_yearly.1006.b:0 "I must find these "Cheese Vikings"..."
+ fp2_yearly.1006.b:0 "Ich muss diese "Käse-Pentosi" finden..."
  #AGOT Modified
- fp2.1006.b.tt:0 "Ihr entsendet Eure Spione, um diese "Käse-Pentosi" zu finden."  #Selbst geschrieben/abgetippt
+ #fp2.1006.b.tt:0 "You send your agents out to find the "Cheese Vikings""
+ fp2.1006.b.tt:0 "Ihr entsendet Eure Spione, um die "Käse-Pentosi" zu finden"  #Selbst geschrieben/abgetippt
  fp2_yearly.1006.c:0 "Was für ein Stuss."
 
 
  fp2_yearly.1007.t:0 "$fp2_yearly.1006.t$"
  #AGOT Modified
+ #fp2_yearly.1007.desc:0 "A scrawny looking [fake_cheese_viking.GetWomanMan] is brought before me. However, the pathetic [fake_cheese_viking.GetWomanMan] in front of me barely looks like a cheese maker — let alone a Viking.\n\n"I'm truly sorry, but I'm not really a Viking. It's just a lie to help with selling the cheese," [fake_cheese_viking.GetSheHe] sputters."
  fp2_yearly.1007.desc:0 "[fake_cheese_viking.Custom('DE_ART_IND_N')|U] abgemagert aussehend[fake_cheese_viking.Custom('DE_END_ADJ_NUL_S_N')] [fake_cheese_viking.GetWomanMan] wird mir vorgeführt. Doch diese lächerliche Gestalt vor mir sieht nicht einmal ansatzweise wie ein Käsemacher aus - geschweige denn wie ein Pentosi.\n\n"Es tut mir aufrichtig leid, doch ich bin gar k[fake_cheese_viking.Custom('DE_ART_IND_N')] Pentosi. Das ist nur eine Lüge, um den Käse zu verkaufen", murmelt [fake_cheese_viking.Custom('DE_PRO_PER_S_3P_N')]."  #Selbst geschrieben/abgetippt
  fp2_yearly.1007.a:0 "Nun ja, wenigstens haben wir dieses Rätsel gelöst."
  fp2_yearly.1007.b:0 "Ich will die Hälfte Eurer Einnahmen und die Hälfte Eures Käses."
@@ -234,6 +272,7 @@
 
  fp2_cheese_artifact:0 "Gereifter Käse"
  #AGOT Modified
+ #fp2_cheese_artifact_desc:0 "Despite the rumors, this cheese was not made by Vikings. However it is extremely good."
  fp2_cheese_artifact_desc:0 "Trotz der Gerüchte wurde dieser Käse nicht von einem Pentosi gemacht. Doch er ist trotzdem außerordentlich lecker."  #Selbst geschrieben/abgetippt
 
 
@@ -522,7 +561,11 @@
  comforting_spouse_visionary.failure:0 "Ihr schafft es nicht, [visionary_spouse.GetTitledFirstName] zu trösten"
 
  fp2_yearly.8004.t:0 "Die Übersetzerschule von [translation_capital.GetNameNoTierNoTooltip]"
- fp2_yearly.8004.desc_opening:0 "Da derzeit der Geist der Versöhnung in Iberien herrscht, verbringen Gelehrte aus der ganzen Region ihre Zeit in den Bibliotheken meiner Domäne. Vielleicht könnte ich ihre Tatkraft Früchte tragen lassen …\n\n"
+ #AGOT Modified
+ #fp2_yearly.8004.desc_opening:0 "With the spirit of conciliation reigning in Iberia, scholars from all the region have been dawdling in the libraries of my domain. Perhaps I could direct their energy into something fruitful...\n\n"
+ fp2_yearly.8004.desc_opening:0 "Da derzeit der Geist der Versöhnung im Reich herrscht, verbringen Gelehrte aus der ganzen Region ihre Zeit in den Bibliotheken meiner Domäne. Vielleicht könnte ich ihre Tatkraft Früchte tragen lassen …\n\n"
+ #AGOT Modified
+ #fp2_yearly.8004.desc_chaplain:0 "My [translation_enthusiast.GetCouncilTitle] [translation_enthusiast.GetTitledFirstName] has an idea. "We should organize a translation team", [translation_enthusiast.GetSheHe] says, "and I could lead it. Let us scour the land for skilled translators, even heathens, and put them at work under your auspices. [translation_capital.GetNameNoTierNoTooltip] has the potential to be a beacon of enlightenment, if you will fund it!""
  fp2_yearly.8004.desc_chaplain:0 "Mein [translation_enthusiast.GetCouncilTitle] [translation_enthusiast.GetTitledFirstName] hat einen Einfall. „Wir sollten eine Gruppe aus Übersetzern zusammenstellen“, meint [translation_enthusiast.Custom('DE_PRO_PER_S_3P_N')], „und ich könnte sie leiten. Lasst uns das Land nach fähigen Übersetzern durchkämmen – sogar unter den Heiden – und sie unter Eurer Obhut ans Werk schicken. [translation_capital.GetNameNoTierNoTooltip] hat das Potenzial, ein Leuchtfeuer der Aufklärung zu werden, wenn Ihr die nötigen Geldmittel dafür bereitstellt!“"
  fp2_yearly.8004.desc_wanderer:0 "[translation_enthusiast.Custom('DE_ART_DEF_S_N')|U] weit gereiste Gelehrte [translation_enthusiast.GetTitledFirstName] macht mich auf eine Gelegenheit aufmerksam. „Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]“, sagt [translation_enthusiast.Custom('DE_PRO_PER_S_3P_N')], „ich habe ein Dutzend Sprachen gemeistert und könnte Euch dabei helfen, eine Gruppe von Übersetzern zusammenzustellen. Lasst uns das Land nach fähigen Übersetzern durchkämmen und sie unter Eurer Obhut ans Werk schicken. [translation_capital.GetNameNoTierNoTooltip] könnte ein strahlendes Leuchtfeuer der Aufklärung werden.“"
  fp2_yearly.8004.a:0 "Ich werde #italic keine#! Kosten scheuen, um die besten Leute zu finden."
@@ -531,13 +574,17 @@
  recruiting_brilliance_toast.success:0 "Ihr habt großartige Übersetzer gefunden"
  recruiting_mediocrity_toast.failure:0 "Ihr habt mittelmäßige Übersetzer angestellt"
 
- fp2_yearly.8005.t:0 "Unter der Schirmkiefer"
+#AGOT Modified
+ #fp2_yearly.8005.t:0 "Under the Stone Pine"
+ fp2_yearly.8005.t:0 "Unter der Soldatenkiefer"
  fp2_yearly.8005.desc_opening:0 "In der brütenden Mittagshitze sitzen sie im Schatten einer großen Schirmkiefer und spielen auf Lauten und Flöten."
  fp2_yearly.8005.desc_iberian:0 "Sie singen auf Galizisch-Portugiesisch und auf Katalanisch vom Leben, von Verlusten und von bittersüßer Liebe."
  fp2_yearly.8005.desc_arabic:0 "Sie singen auf Arabisch über Schönheit, Ruhm und Liebe, die verloren und zurückgewonnen wird."
  fp2_yearly.8005.desc_language_neutral:0 "Sie singen in vielen Sprachen, doch mein Herz versteht jedes Wort."
  fp2_yearly.8005.desc_middle_part:0 "Ich höre sie von meinem Balkon aus, und sie rühren etwas in meiner Seele an.\n\nUnd doch weiß ich nicht, wer diese Musikanten sind, und als ich meine hohen Hallen verlasse, um mich dem Baum zu nähern, sind sie verschwunden."
- fp2_yearly.8005.desc_post_troubadours:0 "Ich dachte, nur die Troubadoure Okzitaniens besäßen so viel Talent und Esprit, doch vielleicht habe ich mich getäuscht …\n\nWas soll ich nur mit diesen verdammten #italic Gefühlen#! anfangen?"
+ #AGOT Modified
+ #fp2_yearly.8005.desc_post_troubadours:0 "I thought only the troubadours of Occitania possessed such talent and wit, but perhaps I was mistaken...\n\nWhat am I to do with these damned #italic feelings#!?"
+ fp2_yearly.8005.desc_post_troubadours:0 "Ich dachte, nur die Sänger vonAltsass besäßen so viel Talent und Esprit, doch vielleicht habe ich mich getäuscht …\n\nWas soll ich nur mit diesen verdammten #italic Gefühlen#! anfangen?"
  fp2_yearly.8005.desc_pre_troubadours:0 "\n\nHat der Himmel sie geschickt? Oder sind sie Phantome, ersonnen von [ROOT.Char.GetFaith.DevilName], um mich in Bosheit zu verstricken? Vielleicht nicht … doch was soll ich nur mit diesen verdammten #italic Gefühlen#! anfangen?"
  fp2_yearly.8005.a:0 "Meine Liebe zu [courtly_lover.GetFirstNameNoTooltip] lässt mein Herz singen."
  fp2_yearly.8005.b:0 "So schön..."
@@ -700,7 +747,9 @@
  fp2_struggle.2002.t.a:0 "Befreites Dorf"
  fp2_struggle.2002.t.b:0 "Unerfüllte Pflichten"
  fp2_struggle.2003.t:0 "Eine Bande Zugvögel"
- fp2_struggle.2003.desc:1 "Eine verwundete und desillusionierte Söldnertruppe ist in [fp2_2003_county_town.GetName] angekommen. Die Einheimischen werden nervös, weil sie gehört haben wollen, die Söldner trachteten danach, sich niederzulassen, sobald sie ein leichtes Ziel gebrandschatzt haben.\n\nEs wird immer mehr Spannungen und Zwiste geben, wenn ich in dieser Sache nicht eingreife."
+ #AGOT Modified
+ #fp2_struggle.2003.desc:1 "A wounded and disillusioned mercenary group has arrived at the [fp2_2003_county_town.GetName]. The locals claim to have overheard talk of "settling down after pillaging an easy target" and have begun to grow anxious.\n\nTensions are high and conflict is likely to arise if I do not intervene in the matter."
+ fp2_struggle.2003.desc:1 "Eine verwundete und desillusionierte Söldnerkompanie ist in [fp2_2003_county_town.GetName] angekommen. Die Einheimischen werden nervös, weil sie gehört haben wollen, die Söldner trachteten danach, sich niederzulassen, sobald sie ein leichtes Ziel gebrandschatzt haben.\n\nEs wird immer mehr Spannungen und Zwiste geben, wenn ich in dieser Sache nicht eingreife."
  fp2_struggle.2003.a:0 "Bittet sie inständig zu gehen."
  fp2_struggle.2003.a.a.notif:0 "Die Briganten ignorieren die Bitte"
  fp2_struggle.2003.a.b.notif:0 "Friedliche Lösung"
@@ -708,17 +757,31 @@
  fp2_struggle.2003.b.desc:0 "Die Garnison könnte Veteranentruppen gebrauchen, und der beste Weg, eine verwundete Bestie zu zähmen, besteht darin, sie zu füttern"
  fp2_struggle.2003.c:0 "Treibt sie aus der Stadt!"
  fp2_struggle.2003.c.desc:0 "Ihr organisiert einen Präventivschlag und setzt die örtliche Garnison für einen Überraschungsangriff ein, um die Vandalen zu vertreiben\n"
+ #AGOT Modified
+ #fp2_struggle.2003.c.a:0 "The mercenaries slaughter the soldiers"
  fp2_struggle.2003.c.a:0 "Die Söldner schlachten die Soldaten ab"
+ #AGOT Modified
+ #fp2_struggle.2003.c.b:0 "The soldiers subdue the mercenaries"
  fp2_struggle.2003.c.b:0 "Die Söldner bändigen die Söldner"
+ #AGOT Modified
+ #fp2_struggle.2003.c.b.notif:0 "Mercenary Threat Subdued"
  fp2_struggle.2003.c.b.notif:0 "Söldnerbedrohung gebändigt"
  fp2_struggle.2003.d:0 "„Ihr seht mir aus wie gute Bauern!“"
+ #AGOT Modified
+ #fp2_struggle.2003.d.desc:0 "You offer to buy farmland and equipment from the locals and give it to the mercenaries"
  fp2_struggle.2003.d.desc:0 "Ihr bietet an, Ackerland und Ausrüstung von den Einheimischen zu kaufen, um beides den Söldnern zu schenken"
  fp2_struggle.2003.e:0 "Sollen die Einheimischen sich darum kümmern."
  fp2_struggle.2003.e.desc:0 "Die Spannungen sind schon groß genug. Es wäre nur noch riskanter, die Söldner zu reizen"
+ #AGOT Modified
+ #fp2_struggle.2003.e.notif.a:0 "Mercenaries Pillage Countryside"
  fp2_struggle.2003.e.notif.a:0 "Söldner plündern Landstrich"
  fp2_struggle.2003.e.notif.b:0 "Provokation der Bauern endet dramatisch"
  fp2_struggle.2003.e.notif.b.desc:0 "Die Einheimischen verlangten, dass die Söldner gehen, doch mehr Provokation brauchte es nicht, um die Söldner zum Angriff zu bewegen."
+ #AGOT Modified
+ #fp2_struggle.2003.e.notif.c:0 "Mercenaries Settle Down"
  fp2_struggle.2003.e.notif.c:0 "Söldner lassen sich nieder"
+ #AGOT Modified
+ #fp2_struggle.2003.e.notif.c.desc:0 "The mercenaries have taken a liking to the [fp2_2003_county_town.GetName] and have settled down to farm the land, bringing in a flow of unexpected revenue and a reserve of qualified men to the region."
  fp2_struggle.2003.e.notif.c.desc:0 "Den Söldnern gefällt [fp2_2003_county_town.GetName] und sie haben sich dort als Bauern niedergelassen, was der Region unerwartete Einnahmen und eine Reserve an geübten Leuten einbringt."
  fp2_struggle.2007.t:0 "Eine Burg, die Iberiens würdig ist"
  fp2_struggle.2007.desc.main:1 "sind reif für die Entwicklung“, sagt mein [fp2_2007_scoped_steward.GetCouncilTitleFirstName]. „Mit Euren Mitteln können wir [fp2_2007_free_real_estate.GetCounty.GetTitle.GetNameNoTier] mit #emphasis deutlich#! verringerten Kosten gegen unsere lauernden Feinde sichern – [2007_vassal_sponsor.GetTitledFirstName] hat um eine Befestigung im [fp2_2007_foreign_faith.GetAdjective|l]en Stil gebeten und bietet sogar eigenes Geld an, um Euch zu überzeugen. Eure anderen Vasallen verlangen indes, dass Ihr Euch an örtliche [ROOT.Char.GetFaith.GetAdjective|l]e Architekten haltet. Schlussendlich liegt die Entscheidung bei Euch, Lehnsherr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]. Unabhängig dessen, wie Ihr Euch entscheidet: Dies ist eine goldene Gelegenheit, das Reich als Ganzes zu stärken.“ Die einzige Frage ist nur, #EMP wer#! für diese goldene Gelegenheit auserkoren wird …"
@@ -829,8 +892,10 @@
  fp2_struggle.2018.b:0 "Wir wurden zwar keine richtigen Freunde, doch wir hatten viel Spaß!"
  fp2_struggle.2018.c:0 "Äh, das lief nicht gut …"
  #AGOT Modified
+ #fp2_struggle.2020.t:1 "Açò és or, xata!"
  fp2_struggle.2020.t:1 "Milch von der Mandel!"  #Selbst geschrieben/abgetippt
  #AGOT Modified
+ #fp2_struggle.2020.desc:0 "Passing through [fp2_2020_valencia.GetName], a peasant woman offers me a refreshing mug of milk with a taste sweeter than anything I've tasted before. "What is this marvelous drink you've offered me?" I ask, to which she responds "milk from an earth almond."\n\nThere is no person who could resist the allure of this concoction on a hot summer day, no child who could avoid smiling when offered a mug, and no Valencian without a sweet tooth for it. #EMP This beverage isn't milk, it's gold!#!"
  fp2_struggle.2020.desc:0 "Auf meinem Weg durch [fp2_2020_valencia.GetName] bietet mir eine Bäuerin einen Krug mit kühler Milch an, die süßer schmeckt als alles, was ich je gekostet habe. "Was ist das für ein wunderbares Getränk, das Ihr mir da angeboten habt?", frage ich, worauf sie antwortet: "Milch aus einer Erdmandel."\n\nEs gibt niemanden, der der Verlockung dieses Trunks an einem heißen Sommertag widerstehen könnte, kein Kind, das nicht lächeln würde, wenn man ihm einen Becher davon reicht, und keinen Dornischen, der nicht darauf versessen wäre. #EMP Dieses Getränk ist keine Milch. Es ist Gold!#!"  #Selbst geschrieben/abgetippt
  fp2_struggle.2020.a:0 "„Von nun an sollen in [fp2_2020_valencia.GetNameNoTooltip] nur noch Erdmandeln angebaut werden!“"
  fp2_struggle.2020.a.desc:0 "Ihr zwingt die Bauern, ausschließlich Erdmandeln anzubauen, um Luxusgüter für Euren Hauptsitz herzustellen."
@@ -1069,27 +1134,37 @@
  fp2_yearly.4002.a:0 "Lasst sie in Frieden leben, [realm_priest.GetFirstNameNoTooltip]."
  fp2_yearly.4002.b:0 "Ihr habt recht. Das darf so nicht weitergehen."
 
- fp2_yearly.4003.t:0 "O Camiño de Santiago"
- fp2_yearly.4003.desc:0 "Die heilige Stadt Santiago de Compostela ist ein Anziehungspunk für die Gläubigen und lockt Pilger aus nahen wie fernen Landen an. Die gewundene Route, über die man sie vom Vorgebirge der Pyrenäen aus erreicht, ist entsprechend viel bereist. Wo es Menschen gibt, die reich genug sind, um sich zu dieser heiligen Stätte aufzumachen, gibt es natürlich auch jene, die versuchen, Gewinn aus dem Vertrauen anderer in den Allmächtigen zu ziehen.\n\nEs ist nun schon der fünfte Bericht über einen Raubüberfall in ebenso vielen Tagen in den entsprechenden Landstrichen meines Reichs. Daher sieht sich mein [steward.GetCouncilTitle] [steward.GetFirstName] nun endlich gezwungen, sich mit mir darüber zu beraten, wie wir uns in dieser Sache verhalten sollen."
+ #AGOT Modified
+ #fp2_yearly.4003.t:0 "O Camiño de Santiago"
+ fp2_yearly.4003.t:0 "Die Sternensepte"
+ #AGOT Modified
+ #fp2_yearly.4003.desc:0 "The holy city of Santiago de Compostela is a magnet for the faithful, drawing pilgrims from lands local and distant. The route to it is accordingly well-travelled, wending its way to the site from the foothills of the Pyrenees. Of course, where people rich enough to travel to the holy site exist, so too do those looking to profit from their trust in the almighty.\n\nIt is the fifth report of a violent robbery by bandits in as many days on the stretches of land that run through my territory that finally drives my [steward.GetCouncilTitle] [steward.GetFirstName] to consult with me on how to deal with this issue."
+ fp2_yearly.4003.desc:0 "Die heilige Stadt von Altsass ist ein Anziehungspunk für die Gläubigen und lockt Pilger aus nahen wie fernen Landen an. Die gewundene Route, die dem Lauf des Mander folgt, ist entsprechend viel bereist. Wo es Menschen gibt, die reich genug sind, um sich zu dieser heiligen Stätte aufzumachen, gibt es natürlich auch jene, die versuchen, Gewinn aus dem Vertrauen anderer in den Allmächtigen zu ziehen.\n\nEs ist nun schon der fünfte Bericht über einen Raubüberfall in ebenso vielen Tagen in den entsprechenden Landstrichen meines Reichs. Daher sieht sich mein [steward.GetCouncilTitle] [steward.GetFirstName] nun endlich gezwungen, sich mit mir darüber zu beraten, wie wir uns in dieser Sache verhalten sollen."
  fp2_yearly.4003.a:0 "Ich werde mich mit den heiligen Streitern in [ho_province.GetProvince.GetCounty.GetName] ins Benehmen setzen!"
  fp2_yearly.4003.b:0 "Zahlt für Wachen, die einen Abschnitt der Straße patrouillieren sollen."
  fp2_yearly.4003.c:0 "Der Himmel hilft denen, die sich selbst helfen …"
  fp2_yearly.4003.tt:0 "Der örtliche [holy_order|E] wird die Straße in seiner Grafschaft patrouillieren."
  fp2_yearly.4004.t:0 "[mozarab_wanderer.Custom('DE_ART_DEF_S_N')|U] wandernde Meister[mozarab_wanderer.Custom('DE_END_NOU_S_GS_N')]"
  #AGOT Modified
+ #fp2_yearly.4004.desc:0 "I'm on my way through my courtroom when a scuffle at its far end draws my attention. A strapping [mozarab_wanderer.GetWomanMan] is being advanced upon by my guards, only for their weapons to clatter to the floor in the blink of an eye. The stranger flourishes [mozarab_wanderer.GetHerHis] sword in salute towards me.\n\n"My [ROOT.Char.GetLadyLord]", [mozarab_wanderer.GetSheHe] begins as I wave away more guards, "I find myself without a liege to serve, and judging from your protection here you could do with my help."\n\nFrom the cross [mozarab_wanderer.GetSheHe] wears around [mozarab_wanderer.GetHerHis] neck, I deduce [mozarab_wanderer.GetSheHe] is a [mozarab_wanderer.GetFaith.GetAdherentName]."
  fp2_yearly.4004.desc:0 "Ich bin gerade auf dem Weg durch meinen Thronsaal, als ein Tumult auf der anderen Seite des Raumes meine Aufmerksamkeit auf sich zieht. [mozarab_wanderer.Custom('DE_ART_IND_N')|U] [mozarab_wanderer.GetWomanMan] von kräftigem Wuchs wird von meinen Wachen bedrängt - doch binnen eines einzigen Wimpernschlags landen plötzlich [mozarab_wanderer.Custom('DE_PRO_POS_S_3P')]e sämtlichen Waffen klappernd auf dem Boden. \n[mozarab_wanderer.Custom('DE_ART_DEF_S_N')|U] Fremde hebt grüßend das Schwert.\n„[ROOT.Char.Custom('DE_Anrede')]“, spricht [mozarab_wanderer.Custom('DE_PRO_PER_S_3P_N')] mich an, während ich weiteren Wachen deute, Abstand zu halten. „Ich habe kein[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] [ROOT.Char.GetLadyLord], [ROOT.Char.Custom('DE_ART_DEF_S_D')] ich dienen kann, und Euren Wachen nach zu urteilen, könntet Ihr meinen Schutz gut gebrauchen.“\n\nAnhand des roten Umhangs, den dies[mozarab_wanderer.Custom('DE_END_ADJ_IND_S_N')] forsche [mozarab_wanderer.GetWomanMan] trägt, lässt sich darauf schließen, dass [mozarab_wanderer.Custom('DE_PRO_PER_S_3P_N')] ein [mozarab_wanderer.GetFaith.GetAdherentName] ist."  #Selbst geschrieben/abgetippt
  #AGOT Modified
- fp2_yearly.4004.a:0 "[mozarab_wanderer.Custom('DE_ART_IND_N')|U] [mozarab_wanderer.GetWomanMan] von Euren Talenten? Auf jeden Fall!"  #Selbst geschrieben/abgetippt
+ #fp2_yearly.4004.a:0 "For a [mozarab_wanderer.GetWomanMan] of your talents? Absolutely!"
+ fp2_yearly.4004.a:0 "[red_wanderer.Custom('DE_ART_IND_N')|U] [red_wanderer.GetWomanMan] von Euren Talenten? Auf jeden Fall!"  #Selbst geschrieben/abgetippt
  fp2_yearly.4004.b:0 "Ich sehe es lieber, wenn meine $knight_culture_player_no_tooltip_lowercase$ [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] sind."
  fp2_yearly.4004.c:0 "Schafft Euch fort, Heidenbrut!"
  #AGOT Modified
- fp2_yearly.4004.tt:0 "[mozarab_wanderer.GetName] verweigert sich einer Bekehrung und nimmt [mozarab_wanderer.Custom('DE_PRO_POS_S_3P')]e Wanderschaft wieder auf"  #Selbst geschrieben/abgetippt
+ #fp2_yearly.4004.tt:0 "[mozarab_wanderer.GetName] refuses to convert and returns to wandering"
+ fp2_yearly.4004.tt:0 "[red_wanderer.GetName] verweigert sich einer Bekehrung und nimmt [red_wanderer.Custom('DE_PRO_POS_S_3P')]e Wanderschaft wieder auf"  #Selbst geschrieben/abgetippt
  #AGOT Modified
- fp2_yearly.4004.b.succ:0 "[mozarab_wanderer.GetName] schließt sich Eurem Hof an"  #Selbst geschrieben/abgetippt
+ #fp2_yearly.4004.b.succ:0 "[mozarab_wanderer.GetName] joins your court"
+ fp2_yearly.4004.b.succ:0 "[red_wanderer.GetName] schließt sich Eurem Hof an"  #Selbst geschrieben/abgetippt
  #AGOT Modified
- fp2_yearly.4004.b.fail:0 "[mozarab_wanderer.GetName] verweigert eine Bekehrung und verlässt euren Hof"  #Selbst geschrieben/abgetippt
+ #fp2_yearly.4004.b.fail:0 "[mozarab_wanderer.GetName] refuses to convert and returns to wandering"
+ fp2_yearly.4004.b.fail:0 "[red_wanderer.GetName] verweigert eine Bekehrung und verlässt euren Hof"  #Selbst geschrieben/abgetippt
  #AGOT Modified
- fp2_yearly.4004.c.tt:0 "[mozarab_wanderer.GetName] nimmt [mozarab_wanderer.Custom('DE_PRO_POS_S_3P')]e Wanderschaft wieder auf"  #Selbst geschrieben/abgetippt
+ #fp2_yearly.4004.c.tt:0 "[mozarab_wanderer.GetName] returns to wandering"
+ fp2_yearly.4004.c.tt:0 "[red_wanderer.GetName] nimmt [red_wanderer.Custom('DE_PRO_POS_S_3P')]e Wanderschaft wieder auf"  #Selbst geschrieben/abgetippt
 
  fp2_yearly.4005.t:0 "Enklavenetablierung"
  fp2_yearly.4005.desc.christian:0 "Die [mozarab_merchant.GetFaith.GetAdherentNamePlural] nehmen eine einzigartige Position in der iberischen Gesellschaft ein. "
@@ -1113,19 +1188,20 @@
 
  fp2_yearly.4008.t:0 "Geschichten am Feuer"
  fp2_yearly.4008.desc.intro:0 "Das Feuer knistert und wirft lange Schatten an die Wand der Gesindekammer. Eine runzelige Greisin hält die Kinder im Raum mit ihren Geschichten in Bann.\n\n"
- fp2_yearly.4008.desc.basque.a:0 "„ … der Aatxe ist ein Höhlengeist, den man am häufigsten in der tierhaften Gestalt eines roten Bullen sieht. Er schützt die Leute vor schädlichen Einflüssen und greift Diebe an.“"
- fp2_yearly.4008.desc.basque.b:0 "„ … der Gaueko ist ein Geist der Nacht. Er will nicht zulassen, dass Menschen nach Anbruch der Dämmerung noch draußen arbeiten, und jede Zurschaustellung nächtlichen Übermuts – wie etwa damit zu prahlen, dass man die Dunkelheit nicht fürchtet – wird seinen Zorn auf sich ziehen.“"
- fp2_yearly.4008.desc.galician.a:0 "„ … die Ojáncanu sind blutrünstige, haarige Riesen mit doppelt so vielen Zähnen wie ein Mensch. Ihre entscheidende Schwäche ist ein einzelnes weißes Haar: Reißt man es ihnen aus, sterben sie auf der Stelle.“"
- fp2_yearly.4008.desc.galician.b:0 "„ … die Estadea sind die wandernden Toten, die um Mitternacht Dörfer heimsuchen. Schlurfend folgen sie einem verzauberten Menschen, der von ihnen dazu gebracht wird, sie bis zum Tagesanbruch anzuführen. Falls es dieser armen Seele nicht gelingt, diesen geisterhaften Zug an jemand anderen Unglückseliges abzutreten, wird sie binnen weniger Wochen dahingerafft.“"
- fp2_yearly.4008.desc.castilian.a:0 "„… die Teufelspferde erscheinen, wenn Menschen große Feuer entzünden, um ihre Seelen zu läutern. Mit nachtschwarzen Mähnen, Libellenflügeln und Schaum vorm Maul tauchen sie mit einem Donnerschlag aus der Asche auf. Jedes von ihnen ist die Seele eines Sünders, die ihre ganz eigene Geschichte zu erzählen hat.“"
- fp2_yearly.4008.desc.castilian.b:0 "„… die Ventolines sind Luftgeister, die Seeleuten helfen. Sie sind von engelsgleicher Erscheinung. Ihre Augen haben die Farbe von Gischt, und ihre Schwingen sehen aus wie brechende Wellen. Sie leben in den Wolken des Abendrots. Findet sich ein Seemann in einer Flaute wieder, blasen ihm die Ventolines Wind in die Segel, damit er zurück ans Ufer kommt.“"
- fp2_yearly.4008.desc.catalan.a:0 "„ … die Cocollona ist ein Flussungeheuer. Sie war ursprünglich eine treulose Nonne, die man für ihre Sünden strafte und einsperrte. Ihre Wärter ließen sie nur nach draußen, um den Fluss Onyar zu besuchen. Irgendwann wuchsen ihr Schuppen, und nun treibt sie sich unter Brücken herum, wo sie auf ihre nichts ahnende Beute lauert.“"
- fp2_yearly.4008.desc.catalan.b:0 "„ … der berühmte Dip ist der Höllenhund und der Unterhändler des Teufels. Diese wolfsartige Kreatur ist ein bluttrinkender Mörder und durchstreift des Nachts die Felder und Weiden, um Kühe und nichts ahnende Menschen zu töten. Er lahmt auf einem Bein, doch seine leuchtenden roten Augen sind das Letzte, was viele Trunkenbolde sehen, wenn sie nach Hause schwanken.“"
- fp2_yearly.4008.desc.aragonese.a:0 "„ … die Omes Hails sind Riesen, die mit den Bergen selbst verwandt sind. Wenn diese Geister sichtbar werden, verwandeln sie sich in jene mächtigen Massive, die uns vor unseren Feinden abschirmen. Da ihre Mühsal sie in Zorn versetzt, schreien die Geister und schicken Felsbrocken die Hänge hinunter in die Dörfer drunten.“"
- fp2_yearly.4008.desc.aragonese.b:0 "„ … der friedliche und wohlmeinende Basajaun ist ein gewaltiger Mann mit einem Bart, der ihm bis zu den Füßen reicht. Er ist doppelt so groß wie ein gewöhnlicher Mensch und patrouilliert die Wälder mit einem Baumstamm als Gehstock. Mit einem kehligen Pfiff warnt er Schäfer vor nahenden Stürmen oder sogar Wolfsrudeln.“"
- fp2_yearly.4008.desc.spain.a:0 "„ … die Cuélebre ist eine unermesslich riesige Schlange. Auch wenn sie im Grunde unsterblich ist, ist sie faul und bewegt sich kaum aus ihrem Unterschlupf, der tief in einer Höhle liegt. Ihre Schätze sollen angeblich schier unvorstellbar kostbar sein, und ihr Speichel kann Krankheiten heilen.“"
- fp2_yearly.4008.desc.spain.b:0 "„ … Mouros sind uralte Wesenheiten von großer Macht, die hier schon seit Anbeginn unserer Welt leben. Die Mouros sind begabte Schmiede und man sieht sie kaum an der Erdoberfläche. Ihre Maiden sind verzauberte Gestaltwandlerinnen von großer Schönheit, die die Tunnel in die Unterwelt bewachen.“"
- fp2_yearly.4008.desc.spain.c:0 "„ … die Anjana sind gute und freundliche Feen, die sich um Wälder kümmern. Sie haben schwarze Augen und feine Flügelchen. Sie helfen verwundeten Tieren und verirrten Menschen. Sie schreiten so leicht durch die Welt, dass kein Zweiglein unter ihren Sohlen bricht. Wenn man eines ihrer bunten Rosenblütenblätter findet, ist man bis an sein Lebensende glücklich.“"
+ #AGOT Disabled, New Desc in agot_ file
+ #fp2_yearly.4008.desc.basque.a:0 "„ … der Aatxe ist ein Höhlengeist, den man am häufigsten in der tierhaften Gestalt eines roten Bullen sieht. Er schützt die Leute vor schädlichen Einflüssen und greift Diebe an.“"
+ #fp2_yearly.4008.desc.basque.b:0 "„ … der Gaueko ist ein Geist der Nacht. Er will nicht zulassen, dass Menschen nach Anbruch der Dämmerung noch draußen arbeiten, und jede Zurschaustellung nächtlichen Übermuts – wie etwa damit zu prahlen, dass man die Dunkelheit nicht fürchtet – wird seinen Zorn auf sich ziehen.“"
+ #fp2_yearly.4008.desc.galician.a:0 "„ … die Ojáncanu sind blutrünstige, haarige Riesen mit doppelt so vielen Zähnen wie ein Mensch. Ihre entscheidende Schwäche ist ein einzelnes weißes Haar: Reißt man es ihnen aus, sterben sie auf der Stelle.“"
+ #fp2_yearly.4008.desc.galician.b:0 "„ … die Estadea sind die wandernden Toten, die um Mitternacht Dörfer heimsuchen. Schlurfend folgen sie einem verzauberten Menschen, der von ihnen dazu gebracht wird, sie bis zum Tagesanbruch anzuführen. Falls es dieser armen Seele nicht gelingt, diesen geisterhaften Zug an jemand anderen Unglückseliges abzutreten, wird sie binnen weniger Wochen dahingerafft.“"
+ #fp2_yearly.4008.desc.castilian.a:0 "„… die Teufelspferde erscheinen, wenn Menschen große Feuer entzünden, um ihre Seelen zu läutern. Mit nachtschwarzen Mähnen, Libellenflügeln und Schaum vorm Maul tauchen sie mit einem Donnerschlag aus der Asche auf. Jedes von ihnen ist die Seele eines Sünders, die ihre ganz eigene Geschichte zu erzählen hat.“"
+ #fp2_yearly.4008.desc.castilian.b:0 "„… die Ventolines sind Luftgeister, die Seeleuten helfen. Sie sind von engelsgleicher Erscheinung. Ihre Augen haben die Farbe von Gischt, und ihre Schwingen sehen aus wie brechende Wellen. Sie leben in den Wolken des Abendrots. Findet sich ein Seemann in einer Flaute wieder, blasen ihm die Ventolines Wind in die Segel, damit er zurück ans Ufer kommt.“"
+ #fp2_yearly.4008.desc.catalan.a:0 "„ … die Cocollona ist ein Flussungeheuer. Sie war ursprünglich eine treulose Nonne, die man für ihre Sünden strafte und einsperrte. Ihre Wärter ließen sie nur nach draußen, um den Fluss Onyar zu besuchen. Irgendwann wuchsen ihr Schuppen, und nun treibt sie sich unter Brücken herum, wo sie auf ihre nichts ahnende Beute lauert.“"
+ #fp2_yearly.4008.desc.catalan.b:0 "„ … der berühmte Dip ist der Höllenhund und der Unterhändler des Teufels. Diese wolfsartige Kreatur ist ein bluttrinkender Mörder und durchstreift des Nachts die Felder und Weiden, um Kühe und nichts ahnende Menschen zu töten. Er lahmt auf einem Bein, doch seine leuchtenden roten Augen sind das Letzte, was viele Trunkenbolde sehen, wenn sie nach Hause schwanken.“"
+ #fp2_yearly.4008.desc.aragonese.a:0 "„ … die Omes Hails sind Riesen, die mit den Bergen selbst verwandt sind. Wenn diese Geister sichtbar werden, verwandeln sie sich in jene mächtigen Massive, die uns vor unseren Feinden abschirmen. Da ihre Mühsal sie in Zorn versetzt, schreien die Geister und schicken Felsbrocken die Hänge hinunter in die Dörfer drunten.“"
+ #fp2_yearly.4008.desc.aragonese.b:0 "„ … der friedliche und wohlmeinende Basajaun ist ein gewaltiger Mann mit einem Bart, der ihm bis zu den Füßen reicht. Er ist doppelt so groß wie ein gewöhnlicher Mensch und patrouilliert die Wälder mit einem Baumstamm als Gehstock. Mit einem kehligen Pfiff warnt er Schäfer vor nahenden Stürmen oder sogar Wolfsrudeln.“"
+ #fp2_yearly.4008.desc.spain.a:0 "„ … die Cuélebre ist eine unermesslich riesige Schlange. Auch wenn sie im Grunde unsterblich ist, ist sie faul und bewegt sich kaum aus ihrem Unterschlupf, der tief in einer Höhle liegt. Ihre Schätze sollen angeblich schier unvorstellbar kostbar sein, und ihr Speichel kann Krankheiten heilen.“"
+ #fp2_yearly.4008.desc.spain.b:0 "„ … Mouros sind uralte Wesenheiten von großer Macht, die hier schon seit Anbeginn unserer Welt leben. Die Mouros sind begabte Schmiede und man sieht sie kaum an der Erdoberfläche. Ihre Maiden sind verzauberte Gestaltwandlerinnen von großer Schönheit, die die Tunnel in die Unterwelt bewachen.“"
+ #fp2_yearly.4008.desc.spain.c:0 "„ … die Anjana sind gute und freundliche Feen, die sich um Wälder kümmern. Sie haben schwarze Augen und feine Flügelchen. Sie helfen verwundeten Tieren und verirrten Menschen. Sie schreiten so leicht durch die Welt, dass kein Zweiglein unter ihren Sohlen bricht. Wenn man eines ihrer bunten Rosenblütenblätter findet, ist man bis an sein Lebensende glücklich.“"
  fp2_yearly.4008.desc.ending:0 "\n\nDas Feuer flackert und erlischt, als die Greisin ihre Geschichte beendet und die Kinder dazu anhält, sich bettfertig zu machen."
  fp2_yearly.4008.a:0 "Was für eine lustige Sage!"
  fp2_yearly.4008.b:0 "Ha! Unsinnige Geistergeschichten!"
@@ -1139,7 +1215,9 @@
 
  fp2_yearly.4010.t:0 "Schweine aus Stein"
  fp2_yearly.4010.desc:0 "Es hätte nur ein kleiner Abstecher nach [verraco_county.GetName] werden sollen, doch ich bin auf etwas Seltenes und Ungewöhnliches gestoßen.\n\nGewaltige steinerne Tiere in Form von Keilern stehen vor mir in der Landschaft. So verwittert, wie sie sind, würde ich schätzen, dass sie wirklich uralt sind. Doch wenn das stimmt, was könnte dann die Leute damals dazu getrieben haben, sich die Mühe zu machen, riesige Schweine zu erschaffen?"
- fp2_yearly.4010.a:0 "Vielleicht waren das Grabstätten … für Heilige?"
+ #AGOT Modified
+ #fp2_yearly.4010.a:0 "Perhaps these were tombs... for saints?"
+ fp2_yearly.4010.a:0 "Vielleicht waren das Grabstätten … der alten Könige?"
  fp2_yearly.4010.a.success:0 "Die Leute kaufen dir deine Vermutung ab"
  fp2_yearly.4010.a.fail:0 "Die Leute weisen darauf hin, dass sich diese Auffassung auf nichts gründet"
  fp2_yearly.4010.b:0 "Sie dienen keinem Zweck. Beseitigt sie."
