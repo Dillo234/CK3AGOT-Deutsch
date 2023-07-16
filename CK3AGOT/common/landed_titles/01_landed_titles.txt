@@ -526,7 +526,7 @@
 			}
 		}
 		d_antler_river = {
-			color = { 153 85 67  }
+			color = { 153 85 67 }
 			definite_form = yes
 			capital = c_corpse_cove
 			c_corpse_cove = {
@@ -995,7 +995,7 @@
 			}
 		}
 		d_haunted_forest = {
-			color = { 155 117 90  }
+			color = { 155 117 90 }
 			definite_form = yes
 			capital = c_yarrow
 			c_yarrow = {
@@ -2012,6 +2012,8 @@
 		d_wintermouth = {
 			color = { 91 54 50  }
 			definite_form = yes
+			d_wintermouth = {
+			color = { 91 54 50 }
 			capital = c_maulnock_gap
 			c_maulnock_gap = {
 				color = { 91 54 50 }
@@ -9594,6 +9596,19 @@ e_the_iron_throne = {
 				}
 			}
 		}
+	}
+	k_dragonstone = {
+		color = { 153 73 134 }
+		definite_form = yes
+		capital = c_dragonstone
+		can_create = {
+			trigger_if = {
+				limit = {
+					is_ai = yes
+				}
+				NOT = { has_title = title:e_the_iron_throne }
+			}
+		}
 		d_dragonstone = {
 			color = { 171 87 185  }
 			definite_form = yes
@@ -9624,6 +9639,22 @@ e_the_iron_throne = {
 					color = { 199 135 227 }
 					definite_form = yes
 				}
+			}
+			c_longbar = {
+				color = { 186 116 200 }
+				b_waycastle = {
+					province = 4431
+					color = { 199 132 228 }
+					definite_form = yes
+				}
+			}
+		}
+		d_driftmark = {
+			color = { 219 81 202 }
+			definite_form = yes
+			capital = c_driftmark
+			can_create = {
+				has_title = title:d_driftmark.title_capital_county
 			}
 			c_driftmark = {
 				color = { 219 81 202 }
@@ -9682,6 +9713,58 @@ e_the_iron_throne = {
 					definite_form = yes
 				}
 			}
+			c_gullet_isle = {
+				color = { 150 63 169 }
+				definite_form = yes
+				b_gullet_tower = {
+					province = 4432
+					color = { 199 138 201 }
+					definite_form = yes
+				}
+			}
+		}
+		d_claw_isle = {
+			color = { 152 99 191 }
+			definite_form = yes
+			capital = c_claw_isle
+			can_create = {
+				has_title = title:c_claw_isle.title_capital_county
+			}
+			c_claw_isle = {
+				color = { 152 99 191 }
+				b_crabs_return = {
+					province = 4436
+					color = { 175 152 190 }
+					definite_form = yes
+				}
+				b_brackyore = {
+					province = 4437
+					color = { 183 142 219 }
+					definite_form = yes
+				}
+				b_gryphonrock = {
+					province = 4438
+					color = { 190 143 196 }
+					definite_form = yes
+				}
+			}
+			c_the_scales = {
+				color = { 190 106 224 }
+				b_vallscale = {
+					province = 4435
+					color = { 204 133 212 }
+					definite_form = yes
+				}
+				definite_form = yes
+			}
+		}
+		d_sharp_point = {
+			color = { 151 61 191 }
+			definite_form = yes
+			capital = c_sharp_point
+			can_create = {
+				has_title = title:c_sharp_point.title_capital_county
+			}
 			c_sharp_point = {
 				color = { 151 61 191 }
 				definite_form = yes
@@ -9701,24 +9784,6 @@ e_the_iron_throne = {
 					definite_form = yes
 				}
 			}
-			c_longbar = {
-				color = { 186 116 200 }
-				definite_form = yes
-				b_waycastle = {
-					province = 4431
-					color = { 199 132 228 }
-					definite_form = yes
-				}
-			}
-			c_gullet_isle = {
-				color = { 150 63 169 }
-				definite_form = yes
-				b_gullet_tower = {
-					province = 4432
-					color = { 199 138 201 }
-					definite_form = yes
-				}
-			}
 			c_sweetport_sound = {
 				color = { 151 69 162 }
 				definite_form = yes
@@ -9730,34 +9795,6 @@ e_the_iron_throne = {
 				b_tally_hill = {
 					province = 4434
 					color = { 177 148 208 }
-					definite_form = yes
-				}
-			}
-			c_the_scales = {
-				color = { 190 106 224 }
-				b_vallscale = {
-					province = 4435
-					color = { 204 133 212 }
-					definite_form = yes
-				}
-				definite_form = yes
-			}
-			c_claw_isle = {
-				color = { 152 99 191 }
-				definite_form = yes
-				b_crabs_return = {
-					province = 4436
-					color = { 175 152 190 }
-					definite_form = yes
-				}
-				b_brackyore = {
-					province = 4437
-					color = { 183 142 219 }
-					definite_form = yes
-				}
-				b_gryphonrock = {
-					province = 4438
-					color = { 190 143 196 }
 					definite_form = yes
 				}
 			}
