@@ -483,7 +483,9 @@
  ep2_locale_events.3010.a.failure:0 "[alerted_physician.GetShortUIName] ist nicht erfolgreich"
  
  ep2_locale_events.3011.t:0 "$ep2_locale_events.3010.t$: Miasma"
- ep2_locale_events.3011.desc:0 "[alerted_physician.GetFirstName] kommt mit einem zufriedenen Lächeln im Gesicht zu mir zurück. „Ich habe die Ursache gefunden, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]“, verkündet [alerted_physician.Custom('DE_PRO_PER_S_3P_N')] und versucht, ein Grinsen zu unterdrücken.\n\n„Die Gäste fanden keinen Ort, um ihre … Notdurft zu entsorgen. Daher wurde sie einfach in den Fluss gekippt. Die schlechte Luft führt Krankheiten mit sich, wie Hippokrates schon sagte.“"
+ #AGOT Modified
+ #ep2_locale_events.3011.desc:0 "[alerted_physician.GetFirstName] comes back to me with a content smile on [alerted_physician.GetHerHis] face. "I've found the source, my [ROOT.Char.GetLadyLord]," [alerted_physician.GetSheHe] announces, trying to contain [alerted_physician.GetHerHis] laughter.\n\n"The guests couldn't find a place to dispose of their... waste, so they've resorted to dumping it into the river. The bad air carries illnesses, as Hippocrates so announced.""
+ ep2_locale_events.3011.desc:0 "[alerted_physician.GetFirstName] kommt mit einem zufriedenen Lächeln im Gesicht zu mir zurück. „Ich habe die Ursache gefunden, Herr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]“, verkündet [alerted_physician.Custom('DE_PRO_PER_S_3P_N')] und versucht, ein Grinsen zu unterdrücken.\n\n„Die Gäste fanden keinen Ort, um ihre … Notdurft zu entsorgen. Daher wurde sie einfach in den Fluss gekippt. Die schlechte Luft führt Krankheiten mit sich, wie Harmon schon sagte.“"
  ep2_locale_events.3011.a:0 "Ich muss sie warnen!"
  ep2_locale_events.3011.b.contestant:0 "Das behalte ich fürs Erste für mich."
  ep2_locale_events.3011.b.champion:0 "Ich werde nur [Select_CString(champion.IsFemale, 'meine Streiterin', 'meinen Streiter')] [contest_champion.GetFirstNameNoTooltip] warnen."
