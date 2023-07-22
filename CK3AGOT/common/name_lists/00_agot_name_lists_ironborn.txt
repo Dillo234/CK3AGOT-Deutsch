@@ -1,0 +1,87 @@
+﻿name_list_ironborn = {
+
+	dynasty_names = {
+		{ "dynn_Ironfoot" } { "dynn_Reaver" } { "dynn_Darken" } { "dynn_Firestone" } { "dynn_Blackiron" }
+		{ "dynn_Breston" } { "dynn_Greatiron" } { "dynn_Yalman" } { "dynn_Grimmins" } { "dynn_Rothbone" }
+		{ "dynn_Mastley" } { "dynn_Farlyn" } { "dynn_Setbone" } { "dynn_Mottingly" } { "dynn_Tilden" }
+		{ "dynn_Gargrave" } { "dynn_Seaman" } { "dynn_Blackram" } { "dynn_Stonekyme" } { "dynn_Barrows" }
+		{ "dynn_Staves" } { "dynn_Stayr" } { "dynn_Folwynd" } { "dynn_Flagg" } { "dynn_Vyx" }
+		{ "dynn_Shields" } { "dynn_Mistwater" } { "dynn_Seabury" } { "dynn_Lynch" } { "dynn_Hake" }
+		{ "dynn_Pews" } { "dynn_Burrows" } { "dynn_Sharpley" } { "dynn_Meade" } { "dynn_Grix" }
+		{ "dynn_Irondale" } { "dynn_Tidebreaker" } { "dynn_Breakwater" } { "dynn_Breakiron" } { "dynn_Ironbreaker" }
+		{ "dynn_Seadrinker" } { "dynn_Thralltaker" } { "dynn_Farwater" } { "dynn_Ironwater" } { "dynn_Pisswater" }
+	}
+
+	male_names = {
+		Adrack Aeron Aggar Aladale Alester Alton Alvyn Alyn Ambrode Andrik Artag Arthur Audrik
+		Balon Bennarion Bennick Beron Boremund Burton
+		Cadwyl Cerrick Cotter Craghorn Cragorn Cromm
+		Daegon Dagbert Dagmer Dagon Dagur Dale Dalton Denys Donel Donnel Donnor Drennan Dunstan Dykk
+		Earl Eldiss Eldred Emmond Endehar Erich Erik Eurik Euron
+		Fergon Fradwyr Fralegg
+		Galon Garmon Gelmarr Germund Gevin Goren Gormond Gorold Gran Greydon Gunnar Gunthor Gylbert Gyles Gynir
+		Haereg Hagen Hagon Hake Halleck Harl Harlan Harlon Harmund Harrag Harrald Harras Harren Harwyn Herrock Hilmar Horgan Hotho Hrothgar
+		Jon Jorl Joron
+		Kell Kemmett Kenned Kromm
+		Lenwood Lodos Loron Lorren Lucas Lucimore
+		Manfryd Marlon Maron Meldred Meldrik
+		Norfryd Norjen Norne Nute
+		Othgar
+		Qalen Qarl Qhored Qhorin Qhorwyn Quellon Quenton
+		Rafe Ragnor Ralf Ravos Regnar Robin Rodmar Rodrik Roggon Rogin Rognar Rolfe Romny Rook Roryn Rurik Rus Rymolf
+		Sam Sargon Sauron Sawane Sigfry Sigfryd Sigmund Sigrik Sigrin Skyte Stavryn Steffar Steffarion Stygg Sylas Symond
+		Tarle Theomore Theon Theron Thormor Thoryn Todric Tom Torgon Tormund Toron Torwold Torwyn Tristifer Triston Tymor
+		Ulf Uller Urek Urragon Urras Urrathon Urrigon Urron Urzen
+		Vickon Victarion
+		Waldon Werlag Wex Will Wulfe Wulfgar
+		Ygon Yohn
+	}
+	female_names = {
+		Addila Alannys Alla Alrya Arwyn Asha Astrid
+		Belona Beony Brella
+		Carys
+		Dacey Dags Disa Dyssa
+		Erika Esgred Estred
+		Falia Frenya Frida Frynne
+		Gertrud Gretchel Grisella Gudrun Gwin Gwynesse Gysella
+		Hanna Harra Hegga Helya Herrika Hilda Hilde
+		Inga Ingrid
+		Jonna Jonnela Jorelle Jyanna
+		Katla Keryn
+		Maeva Malora Margot Megga Mera Meredyth Morissa Morna Myrna
+		Nessa
+		Oshara
+		Perra
+		Ranni Rhiannyn Rhonda Riga Rina Rosalynd Ryella
+		Sallei Shaella Shera Shierle Sif Siglind Siglynd Sigrid Snela Sona Steffaria
+		Talla Tanda
+		Ulfara Ulfhild Unella Urriga Ursila
+		Victaria
+		Wylla Wynafryd
+		Yara Ynys
+		Zia
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_border_reavers_band" }
+		{ name = "mercenary_company_thrall_takers" }
+		{ name = "mercenary_company_red_reavers" }
+		{ name = "mercenary_company_lorons_legion" }
+		{ name = "mercenary_company_company_of_the_cruel" }
+		{ name = "mercenary_company_black_blooded_pirates" }
+		{ name = "mercenary_company_drowned_gods_vengeance" }
+	}
+}

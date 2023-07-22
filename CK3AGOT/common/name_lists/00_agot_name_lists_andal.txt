@@ -1,0 +1,932 @@
+﻿name_list_crownlander = {
+
+	dynasty_names = {
+		{ "dynn_Buckshorn" } { "dynn_Redwyck" } { "dynn_Fishwell" } { "dynn_Newhall" } { "dynn_Hendy" }
+		{ "dynn_Pickwood" } { "dynn_Lychfield" } { "dynn_Grindell" } { "dynn_Knollwood" } { "dynn_Hagtree" }
+		{ "dynn_Gorland" } { "dynn_Merion" } { "dynn_Blakyston" } { "dynn_Brindlewood" } { "dynn_Crower" }
+		{ "dynn_Claughton" } { "dynn_Glenshaw" } { "dynn_Gotwyck" } { "dynn_Hallamore" } { "dynn_Shearer" }
+		{ "dynn_Kingwood" } { "dynn_Gullet" } { "dynn_Emmerwyck" } { "dynn_Whitrose" } { "dynn_Brock" }
+		{ "dynn_Tascer" } { "dynn_Farrest" } { "dynn_Brewlan" } { "dynn_Smithe" } { "dynn_Malver" }
+	}
+
+	male_names = {
+		## name weighting experiment
+		10 = { # most common
+			Jon
+		}
+		5 = { # second most common
+			Alyn
+		}
+		35 = { # other common names
+			Addam Davos Denys Donnel Gwayne Harrold Humfrey Joffrey Lothar Robert Robin Steffon Symon Triston Willam
+		}
+		50 = { # everything else
+			Adrian Aegon Aemon Albin Allar Alliser Alton Ammon Arneld Arryk Arthor Aurane
+			Baelor Balman Balon Barros Bartimos Belard Belion Belis Benethon Beron Bolen Boros Bramm Brannad Bryen Byron
+			Clarence Clayton Clement Coland Corwyn Courtenay Crispian
+			Daemon Daeron Dale Daltis Damond Danos Daryn Devon Dontos Duncan Duram Durance
+			Edmund Edwell Edwyn Elwood Elyas Erryk
+			Galfrid Gallister Garett Garigus Garrick Garth Gendry Gerren Gilbert Glendon Godry Gormon Gregor Gueren Gulian Guncer Gunthor Gyles
+			Haric Harmon Harys Herman Holtyn Howard Hubard Hugh
+			Irwen
+			Jacelyn Jaehaerys Janos Jaremy Jarion Jarman Jarwen Jate Jerome Joron Josua Jothos Justin
+			Kendel Kennet Kevan
+			Laren Lewys Lomas Lucas Lucos Luthor Lymond
+			Maeron Malcolm Maldon Malleon Malliard Manfrey Manly Maric Marston Maslan Matthar Matthos Merrell Monford Morgan Morros Moslander
+			Ollidor Omer Ormory Orryn Osmund Oswyn Owain
+			Patrek Perkin Pylos
+			Qarlton Quenton Qyle
+			Rance Raston Rayford Raymund Raynard Regis Renfred Rennifer Rhogar Rickard Roger Rolland Rossart Rufus
+			Samwell Sefton Sherett Symond
+			Tallad Talyon Tarell Thoron Togarion Tommen Tristimun Trystane
+			Ulmer
+			Vaellyn Victor Viserys Voris
+			Wallace Warrick Whalon Willas
+		}
+	}
+	female_names = {
+		#namey weighty
+		10 = { # most common
+			Jeyne
+		}
+		5 = { # second most common
+			Alys
+		}
+		35 = { # other common names
+			Alanna Alysanne Alyssa Bethany Elinor Jonquil Meredyth
+		}
+		50 = { # everything else
+			Adrienne Adya Alarra Alerie Alona Alonne Alora Amarei Amarys Amyana Annara Anyse Ashaella Aurana
+			Barra Belaria Belarra Brella
+			Calla Carol Cassella Cerise Colianne Cynthea Cyrenna
+			Dalera Dalla Daria Donyse Dorcas Dorea Doryssa Dulessa Dyana Dylla
+			Eilene Elenora Elinda Elissa Elrone Endra Ermesande
+			Falena Falyse
+			Glenna
+			Hazel Helaine Hemona Hollyse
+			Idane Imeona Ismyra
+			Jaimena Jalona Janora Janylla Jarella Jathany Jayde Jendella Jenette Jenna Jomylla
+			Kerene
+			Laressa Larra Lene Lenylla Leria Lianna Lily Lollys Lyra Lyse
+			Maia Malene Malia Marei Marilda Marya Matrice Melianne Melicent Mella Mhaegen Myrcella
+			Nerys
+			Obany Olianne Onna Oriya
+			Pella Priscella Prudence Prunella
+			Raella Rhaenys Rona Roncianne Ryssa
+			Salanna Sallei Samantha Sara Sarena Saryanna Scolera Selyse Semella Senelle Shaella Sharla Sylvie Symona Syrella
+			Talia Tanda Tansy Tarianne
+			Unella
+			Vaella Valena Vilessa Visenya
+			Wella Wenda
+			Ysabel
+		}
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_company_of_the_blackwater" }
+	}
+}
+
+name_list_andal = {
+
+	dynasty_names = {
+		{ "dynn_Sunderchane" } { "dynn_Capalde" } { "dynn_Mondagne" } { "dynn_Bridmanys" } { "dynn_Higborne" }
+		{ "dynn_Hopeo" } { "dynn_Josso" } { "dynn_Eudane" } { "dynn_Pagane" } { "dynn_Panetyn" }
+		{ "dynn_Nestoren" } { "dynn_Goranis" } { "dynn_Baringo" } { "dynn_Cravane" } { "dynn_Egertonis" }
+		{ "dynn_Ivaniro" } { "dynn_Syenwaris" } { "dynn_Lamberis" } { "dynn_Lorassyon" } { "dynn_Sevenstar" }
+		{ "dynn_Hornsby" } { "dynn_Thorpe" } { "dynn_Jaswell" } { "dynn_Carlet" } { "dynn_Folman" }
+		{ "dynn_Carnaby" } { "dynn_Laxley" } { "dynn_Rutland" } { "dynn_Egelston" } { "dynn_Ysley" }
+		{ "dynn_Chamberlyng" } { "dynn_Mackelsworth" } { "dynn_Chacewell" } { "dynn_Cynders" } { "dynn_Felton" }
+		{ "dynn_Dedwyck" } { "dynn_Stockwayn" } { "dynn_Burdyck" } { "dynn_Paston" } { "dynn_Clint" }
+		{ "dynn_Layton" } { "dynn_Mendham" } { "dynn_Wyckling" } { "dynn_Rumbold" } { "dynn_Morholt" }
+		{ "dynn_Bradgood" } { "dynn_Pendric" } { "dynn_Brakenell" } { "dynn_Lindingham" } { "dynn_Ashwick" }
+		{ "dynn_Overdam" } { "dynn_Rockson" } { "dynn_Rockemar" } { "dynn_Maeson" } { "dynn_Seltar" }
+		{ "dynn_Lanser" } { "dynn_Merchin" } { "dynn_Campiron" } { "dynn_Linster" } { "dynn_Crooke" }
+		{ "dynn_Farheart" } { "dynn_Hearock" } { "dynn_Cinderton" } { "dynn_Redwyck" } { "dynn_Hendy" }
+		{ "dynn_Lychfield" } { "dynn_Grindell" } { "dynn_Merion" } { "dynn_Hallamore" } { "dynn_Shearer" }
+		{ "dynn_Emmerwyck" } { "dynn_Landsdale" } { "dynn_Bentley" } { "dynn_Tydwell" } { "dynn_Cadmond" }
+		{ "dynn_Clovering" } { "dynn_Harwell" } { "dynn_Werrell" } { "dynn_Tavott" } { "dynn_Endicott" }
+		{ "dynn_Kolten" } { "dynn_Gallister" } { "dynn_Pelgrin" } { "dynn_Stewarr" } { "dynn_Hayard" } { "dynn_Andal" }
+	}
+
+	male_names = {
+		Alester Argos Armistead Artys
+		Corwyn
+		Drox
+		Erreg
+		Gerold
+		Jaime Joffrey
+		Hugo Hugor
+		Morgan
+		Oswell
+		Robeson Rolland
+		Togarion
+		Qarlon Qyle
+		Vorian
+	}
+	female_names = {
+		Alyssa
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		#{ name = "mercenary_company_teutonic_brotherhood" }
+	}
+}
+
+name_list_marcher = {
+
+	dynasty_names = {
+		{ "dynn_Sunderchane" } { "dynn_Capalde" } { "dynn_Mondagne" } { "dynn_Bridmanys" } { "dynn_Higborne" }
+		{ "dynn_Hopeo" } { "dynn_Josso" } { "dynn_Eudane" } { "dynn_Pagane" } { "dynn_Panetyn" }
+		{ "dynn_Nestoren" } { "dynn_Goranis" } { "dynn_Baringo" } { "dynn_Cravane" } { "dynn_Egertonis" }
+		{ "dynn_Ivaniro" } { "dynn_Syenwaris" } { "dynn_Lamberis" } { "dynn_Lorassyon" } { "dynn_Sevenstar" }
+		{ "dynn_Hornsby" } { "dynn_Thorpe" } { "dynn_Jaswell" } { "dynn_Carlet" } { "dynn_Folman" }
+		{ "dynn_Carnaby" } { "dynn_Laxley" } { "dynn_Rutland" } { "dynn_Egelston" } { "dynn_Ysley" }
+		{ "dynn_Chamberlyng" } { "dynn_Mackelsworth" } { "dynn_Chacewell" } { "dynn_Cynders" } { "dynn_Felton" }
+		{ "dynn_Dedwyck" } { "dynn_Stockwayn" } { "dynn_Burdyck" } { "dynn_Paston" } { "dynn_Clint" }
+		{ "dynn_Layton" } { "dynn_Mendham" } { "dynn_Wyckling" } { "dynn_Rumbold" } { "dynn_Morholt" }
+		{ "dynn_Bradgood" } { "dynn_Pendric" } { "dynn_Brakenell" } { "dynn_Lindingham" } { "dynn_Ashwick" }
+		{ "dynn_Overdam" } { "dynn_Rockson" } { "dynn_Rockemar" } { "dynn_Maeson" } { "dynn_Seltar" }
+		{ "dynn_Lanser" } { "dynn_Merchin" } { "dynn_Campiron" } { "dynn_Linster" } { "dynn_Crooke" }
+		{ "dynn_Farheart" } { "dynn_Hearock" } { "dynn_Cinderton" } { "dynn_Redwyck" } { "dynn_Hendy" }
+		{ "dynn_Lychfield" } { "dynn_Grindell" } { "dynn_Merion" } { "dynn_Hallamore" } { "dynn_Shearer" }
+		{ "dynn_Emmerwyck" } { "dynn_Landsdale" } { "dynn_Bentley" } { "dynn_Tydwell" } { "dynn_Cadmond" }
+		{ "dynn_Clovering" } { "dynn_Harwell" } { "dynn_Werrell" } { "dynn_Tavott" } { "dynn_Endicott" }
+		{ "dynn_Kolten" } { "dynn_Gallister" } { "dynn_Pelgrin" } { "dynn_Stewarr" } { "dynn_Hayard" } { "dynn_Andal" }
+	}
+
+	male_names = {
+		Addam Aegon Aemon Agrivane Alan Alaric Albar Alesander Alester Allos Alyn Amaury Andar Anders Andrew Andric Andron Anguy Aric Arlan Armen Arstan Arthur Arys Athan Athell Aubrey Axel
+		Baldric Balon Barquen Barristan Benedict Beram Beren Beric Bernard Borys Bryce Bryen Byron
+		Casper Cassander Clayton Clifford Colin Cortnay Corwin Creon Criston
+		Damon Darran Denys Desmond Devyn Dickon Donald Donnel Doran
+		Ector Eddison Edgar Edmund Edric Edwyn Eldon Ellos Elys Emerick Errence Estyn
+		Faron
+		Garbert Gareth Garon Garse Garth Gaston Gawen Gedmund Gerald Gormon Grance Gregor Greydon Gulian Gunthor Gwayne Gyles
+		Halbert Haldon Halwin Halyard Harbert Harlan Harmon Harrold Harys Herndon Hugh Humfrey Hyle
+		Jareth Jason Jasper Joffrey Jon Josua
+		Kedry
+		Laswell Leomar Leslyn Lorence Lorimar Lucamore Lucas Luceon Luthor Lymond Lyonel
+		Maldon Malon Manfred Maron Marq Mathis Mervyn Meryn Morton Mychel Myles
+		Narbert
+		Oren Ormund Osmund Owen
+		Palmen Pearse Pykewood
+		Quentyn
+		Ralph Randyll Raymont Renly Reynard Richard Robert Robin Rogar Rolland Ronald Ronnel Royce Russell Ryles Ryman
+		Samgood Samson Samwell Samwyle Sarmion Serwyn Simon Steffon
+		Tancred Terrence Thurgood Titus Tommard Torgen Torman Triston Tymos
+		Unwin Urrathon Uther
+		Walter Willem Willis
+	}
+	female_names = {
+		Alanna Alarra Aliona Alynne Alys Alysanne Amanda Andria Argalia Arianne Arrana Arwen Arya Audrey Ayleth
+		Belissa Bella Beonelle Beony Berena Bonessa Brella Brienne
+		Cara Carella Carmella Carolei Caronne Cassana Cassandra Celessa Corenna Coryanne Cyrenna
+		Dalia
+		Elayne Eleanor Elenda Elenei Elenna Elinor Ellyn Elmeria Elvyra Elyanna Elyssa Emma
+		Falena Floris
+		Hanna Helicent
+		Idorea
+		Jena Jeyne Jocelyn Johanna
+		Kelyce Kerena
+		Leona Leralla Lollys Lucelle Lucinda Lysanne
+		Marenda Maris Mary Melora Moraine Mordane Mylenda Mylessa Myrena Myrene Myrielle Myrren
+		Osmera
+		Palla Patrice
+		Ravella Rolanna Rosalei
+		Samantha Sansara Sarissa Sebara Sharon Shireen Shyra Simona
+		Talenna Talla Thea Tysane
+		Venessa
+		Yrma
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_vulture_hunters" }
+		{ name = "mercenary_company_red_runners" }
+		{ name = "mercenary_company_black_company" }
+		{ name = "mercenary_company_company_of_the_hunt" }
+		{ name = "mercenary_company_march_watch" }
+	}
+}
+
+name_list_reachman = {
+
+	dynasty_names = {
+		{ "dynn_Bloom" } { "dynn_Stakely" } { "dynn_Kenwick" } { "dynn_Tackerton" }
+		{ "dynn_Newbridge" } { "dynn_Chetwood" } { "dynn_Tydwell" } { "dynn_Campester" } { "dynn_Meadowgard" }
+		{ "dynn_Cadmond" } { "dynn_Caskwell" } { "dynn_Toddard" } { "dynn_Clovering" } { "dynn_Hedgeway" }
+		{ "dynn_Seyforth" } { "dynn_Willows" } { "dynn_Glennon" } { "dynn_Hammersmyth" } { "dynn_Werrell" }
+		{ "dynn_Sugdale" } { "dynn_Groswell" } { "dynn_Duntower" } { "dynn_Tavott" } { "dynn_Appledore" }
+		{ "dynn_Endicott" } { "dynn_Wynthorpe" } { "dynn_Lonshaw" } { "dynn_Roseworth" } { "dynn_Kolten" }
+		{ "dynn_Sweetblood" } { "dynn_Crabtree" } { "dynn_Gallister" } { "dynn_Pelgrin" } { "dynn_Watford" }
+		{ "dynn_Gilford" } { "dynn_Grandidge" } { "dynn_Greenley" } { "dynn_Barlow" } { "dynn_Honeytree" }
+		{ "dynn_Bowyer" } { "dynn_Norgate" } { "dynn_Lychbury" } { "dynn_Goodland" } { "dynn_Stewarr" }
+		{ "dynn_Oatwright" } { "dynn_Tarbor" } { "dynn_Goldflowers" } { "dynn_Cartwell" } { "dynn_Kidwell" }
+		{ "dynn_Barner" } { "dynn_Hutter" } { "dynn_Hayard" } { "dynn_Furrows" } { "dynn_Greenroot" }
+		{ "dynn_Summerstride" } { "dynn_Highmantle" } { "dynn_Highoak" } { "dynn_Redwynd" } { "dynn_Barleyrot" }
+		{ "dynn_Summerbeam" } { "dynn_Highbow" } { "dynn_Roseheart" } { "dynn_Roseridge" } { "dynn_Goldengrain" }
+		{ "dynn_Havenscribe" } { "dynn_Goodhaven" } { "dynn_Grainhaven" } { "dynn_Springhaven" }
+	}
+
+	male_names = {
+		Abelar Aberyn Addam Aegon Aemon Agramore Aladore Alan Albyn Alekandrys Alekyne Alester Alfryd Alyn Amaury Andris Androw Anselm Ansen Ardon Argoth Argrave Arkyn Armond Arnell Arros Arryk Arthor Arwood Arys Aubrey Axell Aymer
+		Baelor Barris Barth Bayard Ben Bennis Bernard Bertram Bertrand Bors Bradwell Branston Braxton Brus Bryan Bryndon Buford Byren
+		Clement Cleyton Clifford Colin Colton Corren Costyn
+		Damon Danton Dareon Daryl Daven Denys Dermett Derrick Desmond Dickon Donnel Dorian
+		Ebrose Eddison Eden Edgar Edgerran Edmund Edric Edwyd Edwyn Ellard Ellison Elwood Elyas Emmon Endran Engered Erren Erryk Erton Erwell Eustace
+		Falon Ferris Forley Franklyn
+		Gallard Galyeon Ganwell Gareth Garlan Garland Garmon Garmund Garrett Garse Garth Gawen George Gerold Geryn Gilbert Glendon Gordan Gormon Gregor Greydon Griffith Gunthor Guy Gwayne Gyles
+		Halbert Harlen Harrison Harrold Harys Haston Hathis Haydon Henly Hobber Hobert Horas Hosman Hugh Humfrey Humphrey
+		Igon Imry
+		Jafer Jaime Jason Jeffory Jeremy Joffrey Jon Jonah Jonen Jonnel Jorin Joryan Joslon Josua Jothan
+		Lambert Leo Lester Leyton Loras Lorcas Lorent Lucantine Lucas Luthor Lyman Lymond Lyndon Lyonel Lywen
+		Mace Malan Malegorn Mallon Malwyn Mandon Manfred Manfryd Mark Marq Martyn Mason Mathis Mattheus Matthew Matthos Maynard Medwick Merle Mern Meros Merrell Mervyn Meryn Morald Morgan Morgarth Morgil Moribald Moryn Myles
+		Norman Normund Nyles
+		Obyn Olymer Olyvar Omer Orbert Orland Ormond Ormund Orton Osbert Osmund Otho Otto Ottyn Owen
+		Parmen Paxter Perceon Peremore Perwyn Philip Portifer
+		Quentin Quenton Quentyn
+		Randyll Raymun Raymund Renly Reynard Richard Rickard Robert Robin Robyn Roland Rolland Ronald Ronnel Runceford Runcel Russell Ryam Rycherd
+		Samgood Samson Samwell Sanyard Serwyn Simon Steffon Stevron
+		Talbert Tancred Tanton Thaddeus Theo Theodore Thomas Titus Tommard Tommen Torgen Torquil Triston Turquin Tyler
+		Unwin Urlon Urrigon Uthor
+		Victor Vortimer
+		Waldemar Walgrave Walys Warryn Wendell Wilbert Wilfryd Willam Willas Wolmer Wyland Wyman
+	}
+	female_names = {
+		Aglantine Alera Alerie Alette Aleyne Alicent Alinor Alison Alla Alyce Alyna Alys Alysanne Amyria Annet Annys Arana Ariela Armoria Arrene Arwyn
+		Beliona Beony Bethany
+		Calla Callista Carellen Casene Celessa Cerenna Ceryse Clarice
+		Daella Daena Dalla Deanna Delena Denyse Desmera Dyna
+		Edrene Elara Eldara Eldene Elia Elinor Elissa Ella Ellyn Elorra Elsabeth Elvyra Elwene Elyn Elyse Emma Estelle Evelyne
+		Falia Florence Florys Fruella
+		Gallisa Gelenna Glenna
+		Heather Helicent Helyna
+		Irena
+		Jancia Janna Janyra Jeona Jeyne Jomylla Jonquil Josella Joselyn
+		Kara Karen Kenella
+		Lanette Lena Leona Leonette Leora Lerra Leyla Leyna Lia Liera Lucelle Lydia Lyessa Lynesse Lynett Lyrissa Lysa
+		Maggei Malora Malyssa Marenda Margaery Maris Martyna Mathany Maylenna Megga Melara Melessa Melina Mellony Meraya Meredyth Merissa Mesella Mina Miranda Mora Mya Myleria Mylessa Myrielle
+		Nalia Nella Nemony
+		Olanne Olene Olenna Onna Oraney Ormana Ormaria
+		Patrice Patricia
+		Reyna Rhea Rhonda Rohanne Rosamund Rose Rowena Rylene Rylla Rymella
+		Salene Samantha Sanesa Sansara Sara Selyse Sera Sharis Syldia
+		Talla Tanera Tanya Tenda Tylarra Tynara
+		Vanera Victaria Violet
+		Willow
+		Yrma Ysalaine
+		Zoe
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_company_of_the_thorn" }
+		{ name = "mercenary_company_brown_thumbs" }
+		{ name = "mercenary_company_mander_sails" }
+		{ name = "mercenary_company_company_of_the_bloody_blade" }
+		{ name = "mercenary_company_company_of_the_apple" }
+	}
+}
+
+name_list_riverlander = {
+
+	dynasty_names = {
+		{ "dynn_Coldwell" } { "dynn_Ellester" } { "dynn_Taylor" } { "dynn_Blandish" } { "dynn_Walbridge" }
+		{ "dynn_Bardsley" } { "dynn_Weybridge" } { "dynn_Eames" } { "dynn_Ottwell" } { "dynn_Sherwell" }
+		{ "dynn_Sagramore" } { "dynn_Carnley" } { "dynn_Umpney" } { "dynn_Berwyck" } { "dynn_Beckwyth" }
+		{ "dynn_Chandler" } { "dynn_Harper" } { "dynn_Uxley" } { "dynn_Hawcett" } { "dynn_Harbaugh" }
+		{ "dynn_Fenwyck" } { "dynn_Pollard" } { "dynn_Darwood" } { "dynn_Suffork" } { "dynn_Woodworth" }
+		{ "dynn_Pellam" } { "dynn_Harwell" } { "dynn_Tisdale" } { "dynn_Ullenby" } { "dynn_Oakes" }
+		{ "dynn_Hatcham" } { "dynn_Woolsbury" } { "dynn_Etheridge" } { "dynn_Stonemill" } { "dynn_Bruston" }
+		{ "dynn_Tressell" } { "dynn_Bagley" } { "dynn_Fernhollow" } { "dynn_Anhurst" } { "dynn_Safford" }
+		{ "dynn_Primrose" } { "dynn_Krey" } { "dynn_Morrass" } { "dynn_Maller" } { "dynn_Wullton" }
+		{ "dynn_Brooke" } { "dynn_Chafferly" } { "dynn_Lormer" } { "dynn_Worner" } { "dynn_Cherrane" }
+		{ "dynn_Sawler" } { "dynn_Softwillow" } { "dynn_Meadowpike" } { "dynn_Ravenfall" } { "dynn_Tallbrook" }
+		{ "dynn_Bronzecreek" } { "dynn_Willowbrak" } { "dynn_Pikeglen" } { "dynn_Hardtree" } { "dynn_Springfallow" }
+		{ "dynn_Sternwillow" } { "dynn_Rushes" } { "dynn_Redpyke" } { "dynn_Bluepyke" }
+	}
+
+	male_names = {
+		Abros Addam Adron Aegon Aemon Aenys Aethelmure Alard Alastor Alesander Alfador Alford Alfric Alfyn Alton Alvyn Alyn Ambrose Amos Andahar Andram Andrey Andrian Androw Anson Anton Arbert Ardros Arlan Armistead Arstyn Artos Arwood Athos Axel
+		Balder Balian Barion Baryard Bastion Bellos Bendamure Benedict Benfrey Benjicot Bennet Bennifer Beric Bernarr Beron Beros Beslon Bonifer Borick Bradamar Brendel Brenett Brock Bryan Bryar Brynden Bywin
+		Cetheres Clarence Clement Cleyson Clyve Colmar Conwy Corliss Cormond Cosgrove Coston Creighton
+		Dafyn Damon Danwell Darmen Darnold Darren Davin Davos Dennet Denys Deremond Derrick Deryn Desmond Devon Dickon Dommen Donnel Dorant Dudley Dunstan Dylan
+		Eddyn Edgar Edmund Edmure Edmyn Edric Edwyn Ellery Elmar Elmo Elroy Elston Elton Elwood Emmon Enger Erick Ermen Erron Estion Euson Eustace
+		Florian Forrest Franklyn
+		Galbar Garibald Garrett Garse Garwen Garyn Gaston Gerald Gerardys Geremy Gillam Glendon Grover Guy Gyles
+		Halard Halder Halmon Harbert Hareth Harmon Harry Harsley Harstyn Harwin Harys Hendry Herman Hewrey Hibald Hollis Horas Hosteen Hoster Hothor Hubert Hugo Humfrey
+		Igon Illifer Illister
+		Jaime Jammos Jared Jarman Jarmond Jason Jeffory Jeron Jerrel Jon Jonah Jonos Jonothor Jorah Jordan Jorin Joseran Joseth Josmon Jostyn Josua
+		Karyl Kavan Kendel Kendron Kendros Kennoth Kenric Kenron Kermit Kerwin Kirby Kirth Kyle
+		Larys Lennocks Leoman Leon Leslyn Lewys Lister Lorence Lorgen Lorimas Lothar Lucamore Lucan Lucas Luceon Lucias Lucifer Lucos Luthor Lyle Lyman Lymond Lyonel
+		Madden Maegor Malwyn Manfred Manfryd Marq Marrell Martyn Masart Maslyn Mathis Medgar Melwys Meribald Merrett Merriman Morgan Morlan Morys Murenmure Mychel Myles
+		Nolan Norbert
+		Olyvar Olyver Orin Orland Ormer Ormond Orrald Orstos Oscar Osfryd Osmund Oswald Oswell Othan Otho Ottomore Owain Owen
+		Patrek Perwyn Petyr Poul Prentys Preston Pyron
+		Quentyn Quincy
+		Raylon Raymar Raymond Raymun Raymund Rhaegar Rhys Richard Robb Robert Robin Roderick Roger Roland Ronald Ronel Ronnel Rormund Rorran Royce Ryan Ryger Ryman Rymund
+		Samwell Sandor Sefton Seth Simon Sorin Stanton Steffon Stevron Symond
+		Terin Theo Theobald Theomar Thoren Tomas Tommard Tommen Torrence Tothmure Tristan Tristifer Tylbert Tyler Tymon Tytos
+		Utherydes
+		Vorian Vyman
+		Walder Walter Walton Waltyr Walys Warren Wendel Whalen Wilbert Willam Willamen Willard Willem William Willifer Willis Wyl
+		Zachery
+	}
+	female_names = {
+		Aglantine Agnes Alanna Alaria Alarra Alenna Aleona Aleone Alessa Alette Alianna Alyce Alynne Alys Alysanne Alyssa Alyx Amabel Amane Amera Amerei Ammara Ammena Amya Amyra Andacey Andorea Andrya Anwyn Anyse Arona Arwaya Arwyn
+		Balissa Barba Barbara Bea Beatrice Becca Belanna Belarra Bella Belle Bellena Beryl Bess Bessa Betha Bethany Brenna Bria Brianna Byra
+		Calera Caralla Carellan Carene Cassella Catelyn Celia Cerena Cerise Ceryne Crynna Cynthea
+		Dalla Damina Danelle Darianne Darla Darna Delanei Della Delmiona Desmona Dian Dianessa Doreth Doryssa
+		Edmaria Elarra Eldacey Eldorea Eleanor Eleyne Ellenei Ellera Elona Elonne Elsie Elyana Elyria Emberlei Emphyria Esmene
+		Flora Freya
+		Galrya Granna Gwenys
+		Halanna Halorra Hanna Harra Hasella Hawys Hazel Helly Helmiona Helya Hildy Hostella
+		Idera Ilyse Iris
+		Janei Janeya Jannia Jathany Jayne Jenna Jenny Jeyne Jirelle Joanna Jonara Jonquil Josella Joyeuse Jyanna Jyzene
+		Karya Kelarra Keleria Kelis Kerene Kerryn Kyra
+		Lacey Lanna Lansia Laria Leana Lena Leonylla Liane Lily Lyalla Lysa Lythene
+		Macella Maegelle Maerie Marianne Marina Marissa Mariya Marla Marta Masha Mathany Megan Megette Melantha Melene Melissa Mellara Melly Melony Meredyth Merianne Meriel Merild Minisa Molianne Morya Mya Myra
+		Nendrei Neria Neyela Nolla
+		Olanei Olyria Orissa Osmeria
+		Perra Perriane Pia
+		Randa Rhialta Riona Rolyria Ronessa Rosamund Rosey Roslin Ryella
+		Sabitha Sabrina Sallei Saranna Sarra Sarya Selerra Sella Serra Shaella Sharna Sharra Shella Shiera Shirei Siane Sylwa Syrella
+		Tansy Taria Tessa Tilly Tinessa Tynara Tyressa Tyriah Tysane Tyta
+		Violet
+		Walda Waldra Wenella Willow Wynafrei Wynafryd
+		Zhoe Zia
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_fools_men" }
+		{ name = "mercenary_company_fishermen" }
+		{ name = "mercenary_company_blue_company" }
+		{ name = "mercenary_company_toll_collectors" }
+		{ name = "mercenary_company_boat_hooks" }
+	}
+}
+
+name_list_shieldman = {
+
+	dynasty_names = {
+		{ "dynn_Bloom" } { "dynn_Stakely" } { "dynn_Kenwick" } { "dynn_Tackerton" }
+		{ "dynn_Newbridge" } { "dynn_Chetwood" } { "dynn_Tydwell" } { "dynn_Campester" } { "dynn_Meadowgard" }
+		{ "dynn_Cadmond" } { "dynn_Caskwell" } { "dynn_Toddard" } { "dynn_Clovering" } { "dynn_Hedgeway" }
+		{ "dynn_Seyforth" } { "dynn_Willows" } { "dynn_Glennon" } { "dynn_Hammersmyth" } { "dynn_Werrell" }
+		{ "dynn_Sugdale" } { "dynn_Groswell" } { "dynn_Duntower" } { "dynn_Tavott" } { "dynn_Appledore" }
+		{ "dynn_Endicott" } { "dynn_Wynthorpe" } { "dynn_Lonshaw" } { "dynn_Roseworth" } { "dynn_Kolten" }
+		{ "dynn_Sweetblood" } { "dynn_Crabtree" } { "dynn_Gallister" } { "dynn_Pelgrin" } { "dynn_Watford" }
+		{ "dynn_Gilford" } { "dynn_Grandidge" } { "dynn_Greenley" } { "dynn_Barlow" } { "dynn_Honeytree" }
+		{ "dynn_Bowyer" } { "dynn_Norgate" } { "dynn_Lychbury" } { "dynn_Goodland" } { "dynn_Stewarr" }
+		{ "dynn_Oatwright" } { "dynn_Tarbor" } { "dynn_Goldflowers" } { "dynn_Cartwell" } { "dynn_Kidwell" }
+		{ "dynn_Barner" } { "dynn_Hutter" } { "dynn_Hayard" } { "dynn_Furrows" } { "dynn_Greenroot" }
+		{ "dynn_Summerstride" } { "dynn_Highmantle" } { "dynn_Highoak" } { "dynn_Redwynd" } { "dynn_Barleyrot" }
+		{ "dynn_Summerbeam" } { "dynn_Highbow" } { "dynn_Roseheart" } { "dynn_Roseridge" } { "dynn_Goldengrain" }
+		{ "dynn_Havenscribe" } { "dynn_Goodhaven" } { "dynn_Grainhaven" } { "dynn_Springhaven" }
+	}
+
+	male_names = {
+		Abelon Addam Adren Adwin Aegon Aemon Aladale Aladore Albard Alester Alfryd Alton Alvyn Alyn Ambrode Andry Andryn Ardric Armond Arros Arryk Arthur Arwood Audrick Axell
+		Bayard Boremund Buford Burton
+		Cleyton Conen Corett Cristyn
+		Darell Denys Derrick Desmond Donnel
+		Edgar Edmund Edric Edwyn Elwood Emmon Erryk
+		Franklyn
+		Gareth Garlan Garmund Garse Garth Gawen Gedmund Gerold Glendon Gormon Gorold Grance Grannor Gregor Greydon Griffith Guthor Gwayne Gylbert Gyles
+		Halyn Harlon Harrold Hendry Henly Hewyn Hobber Horas Hugh Humfrey
+		Jason Jeffory Jeremy Joffrey Jon Jonen Joros Justyn
+		Lenwood Leo Lorcas Lorren Lucamore Lucantine Lucas Luthor Lymond Lyonel
+		Malegorn Manfryd Marlon Marq Martyn Merle Meros Meryn Morgan Morgarth Morgil Moribald Moryn Myles
+		Normund
+		Olymer Olyvar Orbert Ormund Orton Osbald Osbert Osmund Othan Otto Owen
+		Paxter Pykewood
+		Quenton
+		Ralph Raymund Renly Richard Robin Roger Roland Rollo Russell Ryam Ryben
+		Samgood Samson Samwell Serwyn Simon Stallos Steffon Stevron Symond
+		Talbert Talwyn Tanton Theobald Theomore Thorald Thoryn Tommen Torgen Torman Torwin Triston
+		Unwin Urlon Urrathon Urrigon Uthor
+		Vanyon Victor Vortimer
+		Waldemar Waldon Wallace Westyn Wilbert Wilfryd Willam Willas Wilmore Wyman
+		Ygon
+	}
+	female_names = {
+		Alannys Alena Allene Ameria Annia Arwyn Asta
+		Beony Bera Bethany Brella Bressa
+		Calla Callista Carys Casene Cella Ceryse Clarice
+		Delena Denyse Desmera Dyna
+		Elara Eldara Elissa Ella Elsabeth Elwene Ereyna Estelle
+		Falia Florence Frynne
+		Glenna Gysella
+		Helicent
+		Irena
+		Janna Jayne Jeyne Jonna Jonnela Jorella
+		Kara Kerella
+		Leona Leonette Leora Leyla Lia Lissa Lorianne Lucelle Lysa
+		Maeva Malora Marella Maris Megga Melessa Meredyth Mina Mora Myria
+		Nyrise
+		Olenna
+		Patricia
+		Rhea Rhonda Rohanne Rosamund Rose Roslin Rylene Rylla
+		Samantha Sanesa Sansara Selyse Sera Sheralla Sylvina
+		Talla Tenda Tyrane
+		Victaria Violet
+		Wylla Wynafryd Wynella
+		Ynys
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_misty_shields" }
+		{ name = "mercenary_company_grey_oars" }
+		{ name = "mercenary_company_lonely_men" }
+		{ name = "mercenary_company_rusted_helms" }
+		{ name = "mercenary_company_iron_feet" }
+	}
+}
+
+name_list_stone_dornish = {
+
+	dynasty_names = {
+		{ "dynn_Marstyne" } { "dynn_Valatar" } { "dynn_Mantollen" } { "dynn_Ynoralt" } { "dynn_Golstand" }
+		{ "dynn_Watell" } { "dynn_Floryons" } { "dynn_Brimlion" } { "dynn_Allayen" } { "dynn_Sixhill" }
+		{ "dynn_Southmere" } { "dynn_Vorley" } { "dynn_Groswell" } { "dynn_Woodyard" } { "dynn_Brightsmith" }
+		{ "dynn_Furshaw" } { "dynn_Penhollow" } { "dynn_Septwood" } { "dynn_Ullstar" } { "dynn_Trowbridge" }
+		{ "dynn_Yrongate" } { "dynn_Fairhollow" } { "dynn_Cassimer" } { "dynn_Wendayne" } { "dynn_Solayne" }
+		{ "dynn_Dewdane" } { "dynn_Catell" } { "dynn_Telmar" } { "dynn_Prann" }
+	}
+
+	male_names = {
+		Abelard Addam Ademar Aidan Aimery Alaric Albin Allard Allory Alroy Ambrose Anders Andrey Anton Archibald Arnolf Aros Arran Arrant Arron Arthur Artos Aryard Astin Athis Avelyn
+		Balan Barrett Bastian Bayard Baylon Bedard Bedwyck Benedict Berec Bernard Blane Bors Branden
+		Cadan Cael Casimir Cassiel Caston Castor Caswald Caswyn Cedric Claren Clarien Clayton Cleon Cletus Conary Conlan Connor Conran Coran Corbyn Corentyn Cullen Cyrus
+		Dagos Darien Darius Darren Daven Davos Davyd Derrick Derryn Desmond Devin Dickon Domeric Dominic Dunstan Dylan
+		Edgar Edgerran Edmore Edmund Edmyn Edric Elfred Elrick Elyas Emeric Emery Eric
+		Fallon Farien Farrell Felix Ferris Finias Finnian Franklyn
+		Galbert Galwell Galwyn Gareth Garibald Garmond Garrison Gavyn Gedry Gerold Gerris Gesmund Gilbert Godric Griffith Guerin Gulian Gyles
+		Halbert Hugh
+		Ivor
+		Jarmond Jarreth Jarvis Jasper Jeffory Jerome Joffrey Jon Jordan Joreth Joris Joss Josua
+		Kay Kedry
+		Lambert Lancelyn Landon Lewyn Lorrent Lucimore
+		Madoc Mallor Manfrey Manfryd Meribald Merion Merrick Michael Milo Morgan Moribald Morris Mors Morys Mycah Myles Myron Myros
+		Nigel
+		Ocley Olymer Olyvar Orivel Ormond Owen
+		Perrin Perros
+		Qhoryn Quentyn Quincy Quinlan Qyle
+		Raymun Raynald Rhodry Rhys Rickard Robin Roldan Roryn Royce Rufus Russell Ryon
+		Samwell Simon Sylas
+		Tamlyn Theobard Theodan Timeon Timoth Torren Trevor
+		Ulrick Ulwyck Ulwyn Urros Uthor
+		Valerin Vorian
+		Walter Warren Wendel Willam Wyland
+		Yoren Yorick Yormwell Yorwin
+	}
+	female_names = {
+		Adeline Adella Adrienne Ailys Aisling Alanna Alara Alays Alba Alia Alienor Alis Allyria Alma Alyna Amya Arabella Arenne Arlette Ashara Aslia
+		Barbrey Briony Bryanna
+		Caitrin Carolei Cassana Cassella Cedra Clarissa Clarisse Cordelia Cyrene Cyrissa
+		Dacey Danelle Delicia Delonne Denisa Denyse Deria Deridre Dinah Doncella Dorea Dyanna
+		Elianne Elicia Elinora Elysa Emilia Enora Erin Evelyn Evona
+		Falyce Fiona Fionalla Frynne
+		Galenna Gilda Giselle Glynis Gwendolyn Gwylla Gwyn Gwyneth
+		Helen
+		Ivalla Ivanna
+		Janyce Jaryse Jasmylla Jennelyn Jessa Jeyne Jocasta Jyalla Jynessa
+		Katrin Keira
+		Lanei Lanessa Larra Leonette Leyne Lia Liane Liera Linnet Loreza Lorinda Lyanna Lyra Lyrella
+		Mabel Malessa Malia Mara Marcia Marella Margaid Marietta Marise Mariya Martina Marylla Maryssa Matilda Melanna Moryssa Muriel Myria
+		Narelle Nella Nera Nerissa Nicolette
+		Perriane
+		Ranna Rhialta Rhona Robyna Rosarya
+		Sarella Sariah Serena Serene Sylva Sylvenna
+		Tamara Tanselle Tara Tavia Teora Tereza Tilda
+		Una Ursula
+		Valena Valeria Verona
+		Wylla Wynafryd Wynora
+		Ynessa Ynys Yolande Ysilla
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_hand_takers" }
+		{ name = "mercenary_company_red_raptors" }
+		{ name = "mercenary_company_company_of_the_vulture" }
+		{ name = "mercenary_company_carrion_pickers" }
+		{ name = "mercenary_company_tendon_biters" }
+	}
+}
+
+name_list_stormlander = {
+
+	dynasty_names = {
+		{ "dynn_Ashenhearth" } { "dynn_Butler" } { "dynn_Foghurst" } { "dynn_Knightwick" } { "dynn_Lyngrave" }
+		{ "dynn_Tuckwell" } { "dynn_Clary" } { "dynn_Greenacre" } { "dynn_Chulmond" } { "dynn_Codar" }
+		{ "dynn_Trumbull" } { "dynn_Carpenter" } { "dynn_Hawkett" } { "dynn_Shoemaker" } { "dynn_Withers" }
+		{ "dynn_Bullworth" } { "dynn_Inkwood" } { "dynn_Ereham" } { "dynn_Tairy" } { "dynn_Blackburn" }
+		{ "dynn_Pearley" } { "dynn_Cogswell" } { "dynn_Spevins" } { "dynn_Congrave" } { "dynn_Estwyck" }
+		{ "dynn_Youncey" } { "dynn_Lanthorn" } { "dynn_Wheeler" } { "dynn_Fall" } { "dynn_Milbank" }
+		{ "dynn_Daltrey" } { "dynn_Petridge" } { "dynn_Waterford" } { "dynn_Evenheart" } { "dynn_Stonehelm" }
+		{ "dynn_Evenfall" } { "dynn_Rainwood" } { "dynn_Greenstone" } { "dynn_Rainey" } { "dynn_Malwood" }
+		{ "dynn_Pettysmith" } { "dynn_Mendham" } { "dynn_Slatbridge" } { "dynn_Broyce" } { "dynn_Rainborn" }
+		{ "dynn_Amberhall" } { "dynn_Sturm" } { "dynn_Perle" } { "dynn_Pyren" } { "dynn_Bailer" }
+		{ "dynn_Shylde" } { "dynn_Parsin" } { "dynn_Carner" } { "dynn_Warrin" } { "dynn_Dragen" }
+		{ "dynn_Seashade" } { "dynn_Seaswift" } { "dynn_Rainwarde" } { "dynn_Eventide" } { "dynn_Stagwoode" }
+		{ "dynn_Stagtree" } { "dynn_Seagem" } { "dynn_Greybow" } { "dynn_Greyglen" } { "dynn_Rainhelme" } { "dynn_Stormayne" }
+	}
+
+	male_names = {
+		Ackard Addam Adon Aemon Aimery Albin Alesander Alfros Allard Alyn Ammon Andren Andrew Andric Andros Anfred Argilac Arion Arlan Armond Arrec Arstan Athan Athell Axel
+		Balon Barristan Barron Benther Beren Beric Bonifer Boremund Borros Borys Bowen Brus Bryce Bryen Bryndemere Byron
+		Cameron Carsten Casper Cedrik Clayton Cleoden Cleomar Clifford Colton Conen Cortnay Corwin Criston
+		Damon Danos Daryn Daved Davos Denald Denys Dermot Devan Dickon Donal Donnel Dorian Dormen Duram Durran Durwald
+		Ector Edric Edwyn Elbyn Eldon Eldric Ellard Ellos Elys Emmett Endrew Endron Endros Enfren Erich Esmond
+		Galladon Gallard Gannos Garon Garwyn Gawen Gerald Gilard Gilroy Gladden Glaive Glendon Godry Goodwin Gormon Gowen Gramion Grance Gunthor Guyard Gyles
+		Halbert Haldon Halion Harbert Harlan Harmon Harrold Harwood Harys Herbert Howard Hubard Hugh Humfrey
+		Jacelyn Jared Jarmyn Jasper Jerion Joffrey Jon Jonald Jonlon Josua Julian Justin
+		Kelbin Kyle
+		Leobald Leofric Lester Lomas Lorent Lormon Loros Luceon Lucifer Ludwin Lundram Luthor Lymond Lyonel
+		Malcolm Maldon Mandon Maric Martyn Maslan Matthos Meryn Michael Monfryd Morden Morgan Moros Morton Mycah Myles
+		Narbert Nolan
+		Ogden Olyver Ondryn Orment Ormund Orryn Orson Orys Oswyn
+		Patrik Pearse Peregrin Petyr
+		Qarlton Quentyn
+		Ralph Raymont Raymund Raynard Redmond Reginald Renly Richard Rickard Robert Robin Rogar Rolland Ronald Ronard Rondon Ronnal Ronnel Ronnet Roy Royce
+		Sarmion Sebastion Selwyn Serwyn Shadrich Silas Simon Stannis Steffon Stevron Symeon
+		Talbard Tallard Tarwen Terrence Theo Theodor Thurgood Thurston Timon Triston
+		Urmen Urston
+		Wallace Walter Wellard Willem Willis
+	}
+	female_names = {
+		Addia Adena Aelinor Alanei Alanna Alarra Alenne Aleyna Alora Alynne Alys Alysanne Alyssa Amanda Amber Ambrya Ammina Andria Annis Argella Arianne Arlaine Arlana Arrana Arrene Aryanna Ashaella Aurana
+		Bariya Benara Benyssa Beony Berena Bonessa Brienne
+		Cara Carella Carolei Caronne Cassana Cassandra Cecily Celessa Corenna Coryanne Cynthea Cyrenna
+		Dalera Dalla Damella Daria Demerei Donyse Doryssa
+		Eddane Edmyria Eglantine Elaena Elane Elanna Eldera Elenda Elenei Elinda Ella Ellyn Elyana Emma Emmara Ethelide
+		Falena Flora Floris
+		Genna Glenna
+		Hanna Helane Hollyse
+		Ibera Idena Imeona Ismane
+		Jaimena Jeyne Jocelyn Johanna Joy Jynna
+		Lanna Laressa Larra Lenna Leona Leyne Lollys Lucinda Lyllian Lynella Lynera Lynett Lyria Lysena
+		Maella Malarra Malia Malin Malla Marena Margred Maris Mary Melianne Melicent Mella Meona Merei Milerra Miriam Mylenda Mylla Myrcella Myrena
+		Nerra
+		Olyssa Onna Onora
+		Patrice Pelyne Pennei
+		Raella Raena Rella Roelle Rosamund Ryssa
+		Salanna Sarella Sarena Sarya Scolera Semiona Senelle Serenei Shalenna Shireen Shyra Simona Sirawen Symalla Syrene
+		Talla Tanda Tarianne Tasene Theresa Tyana Tynalla
+		Valena
+		Walessa
+		Ysme
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_stormbreakers" }
+		{ name = "mercenary_company_bastards_hands" }
+		{ name = "mercenary_company_shipbreakers" }
+		{ name = "mercenary_company_galladons_men" }
+		{ name = "mercenary_company_rain_company" }
+	}
+}
+
+name_list_valeman = {
+
+	dynasty_names = {
+		{ "dynn_Spurr" } { "dynn_Slumberwood" } { "dynn_Armenter" } { "dynn_Garnett" } { "dynn_Hewrey" }
+		{ "dynn_Correll" } { "dynn_Eastyng" } { "dynn_Gladmore" } { "dynn_Minwell" } { "dynn_Rodsford" }
+		{ "dynn_Walding" } { "dynn_Mobrey" } { "dynn_Wollard" } { "dynn_Lightwood" } { "dynn_Dogwell" }
+		{ "dynn_Sheffingham" } { "dynn_Foxhall" } { "dynn_Peybridge" } { "dynn_Gadiffer" } { "dynn_Updyke" }
+		{ "dynn_Lindhorn" } { "dynn_Lymondly" } { "dynn_Renwyck" } { "dynn_Septley" } { "dynn_Cocklesbury" }
+		{ "dynn_Herryng" } { "dynn_Charrington" } { "dynn_Dalham" } { "dynn_Waddingham" } { "dynn_Ayleswood" }
+		{ "dynn_Tyndale" } { "dynn_Bladeholt" } { "dynn_Cheyne" } { "dynn_Tabbett" } { "dynn_Moontower" }
+		{ "dynn_Lakewood" } { "dynn_Wickenden" } { "dynn_Greyfair" } { "dynn_Mallin" } { "dynn_Moulton" }
+		{ "dynn_Bushnell" } { "dynn_Orcastle" } { "dynn_Summerby" } { "dynn_Crewett" } { "dynn_Blaise" }
+		{ "dynn_Glovelyn" } { "dynn_Ryser" } { "dynn_Thaller" } { "dynn_Perke" } { "dynn_Slaite" }
+		{ "dynn_Slayte" } { "dynn_Mullyn" } { "dynn_Skyfall" } { "dynn_Lowvale" } { "dynn_Highvale" }
+		{ "dynn_Skybreaker" } { "dynn_Runebrace" } { "dynn_Stonefall" } { "dynn_Runeston" } { "dynn_Hardmantle" }
+		{ "dynn_Greatarm" } { "dynn_Rumblestone" } { "dynn_Silvervale" } { "dynn_Bronzebrooke" } 
+		{ "dynn_Strongstone" } { "dynn_Glorystone" } { "dynn_Hammerstar" } { "dynn_Greatstar" }
+	}
+
+	male_names = {
+		Adrian Aelwyn Albar Albett Aldric Alec Aleryn Alester Alladar Allard Allory Alyard Alyn Andar Andran Andred Andrew Arett Argos Arlan Arlyn Armond Arnel Arnold Arran Arston Artys Astos
+		Bedryn Bellard Ben Bendon Benedar Benedict Benett Benfrey Beomar Berdys Bowen Bradwyn Brendan Bryen
+		Chayle Colemon Colin Conrad Corben Cortnay Corwyn Creighton Creon Crispin
+		Dalwyn Damon Danner Dareon Darnold Darren Dennard Denys Deremond Dermett Deros Derren Derrett Desmond Domas Donnel Dunstan
+		Ector Eddison Edmore Edmund Edryn Elbert Elbyn Eldred Eldric Elias Elmond Elwood Elys Emond Eon Estin Eustace
+		Galbin Garben Garence Garett Garlan Gawen Gedry Gerold Gerrick Gilwood Goodwyn Guncer Gunthor Gwayne Gylbert Gyles
+		Hanlon Harlan Harrold Harwyn Haryn Horas Horton Hubert Hugh Hugo Humfrey
+		Isembard
+		Jaime Janden Jarell Jarret Jasper Jaymar Jaymond Jerion Joffrey Jon Jonos Jonothor Jorence Joryn Josten
+		Kelon Kelvyn Kennard Kerwick Kyle
+		Larmyn Leobar Leorald Leowyn Lewin Leynard Lucas Luceon Lymond Lyn Lyonel
+		Maladon Mandon Marq Martyn Marwyn Mathos Maynard Meric Merton Morrick Morton Mychel
+		Nestor Noel
+		Ober Odron Odwell Olwyn Ondred Ondros Ormyn Orren Orson Ortengryn Orton Orwell Osgood Osric Ossifer Oswell Oswin Otho Owen
+		Paxter Pearse Pelion Peron Petyr Preston
+		Qarl Qarlton Quenton Qyle
+		Raymar Rence Renly Robar Robert Robin Rodrik Roland Rollyn Ronnel Rorick Royce Roymar Rymond
+		Samwell Sarion Sarmon Selard Simon Symond
+		Terrance Theomar Thurstan Torgold Triston
+		Ulbert Umfred Urlon Urston Uther Uthor
+		Vance Vardis Victor Vyren
+		Wallace Waltyr Wayland Waymar Wayrick Whalon Willam Wyl
+		Yohn Yorbert Yorwyck
+	}
+	female_names = {
+		Aemma Alanna Alannys Alayne Albetha Alera Alianne Alina Allona Allyne Alora Alys Alyssa Amanda Andara Annara Anya Arelle Arrana Arria Arwen Aryse
+		Barbara Becca Belissa Bellara Bellena Benfria Berenda Bessa Beth Brianne Bronwyn
+		Cariah Carina Carissa Carolei Celianne Cersei Cissy Clara Colianne Corrine Cynthea
+		Damana Danisa Daria Deana Delana Delanne Della Demerei Desmona Diana
+		Eddyne Edmera Edmerei Edmyne Edwina Elanei Eldrane Elena Elene Elenei Elesa Elina Ellyn Else Elyra Ethel
+		Falora Fiona
+		Galene Ganna Grenna Gretchel Grisel Gwenda Gwenna Gwyneth
+		Hamaria Henrietta
+		Idona Isabel
+		Jacene Jane Janesa Janna Janyce Janyra Jennis Jerane Jessamyn Jeyne Jonella Jorena Junia Jyana Jyrenna
+		Kalyra Karella Karene Karolyn Karyn Kayla Kelarra Kella Kerelle
+		Lanalla Lara Leonella Liona Lorenna Lorra Luna Lymaria Lyra Lyseria Lyssa
+		Maery Mara Marelle Maris Marissa Marlena Marsella Mavis Mela Mena Merisa Meryne Millicent Moryssa Mya Mynalla Myra Myranda Myrren Mysanna
+		Nessa Norella Nynia
+		Obyra Odette Olana Olyra Oryne Oryssa Osmerei
+		Paege Parella Parra Perianne Perra Phillipa Polianne Priscilla
+		Qyrene
+		Rianne Rienne Rolenna Rolessa Ronella Roslin Rowena Ryella Rylene
+		Salanne Sanora Saryanna Serella Serena Serina Sharei Sharra Sherene Sherlyse Simona Sylana Syrona
+		Tarissa Teora Theona Tynissa
+		Unella Ursula
+		Wylera Wylla
+		Yolanda Yorena Ysilla Yve
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		#{ name = "mercenary_company_teutonic_brotherhood" }
+	}
+}
+
+name_list_westerman = {
+
+	dynasty_names = {
+		{ "dynn_Hornsby" } { "dynn_Thorpe" } { "dynn_Jaswell" } { "dynn_Carlet" } { "dynn_Folman" }
+		{ "dynn_Carnaby" } { "dynn_Laxley" } { "dynn_Rutland" } { "dynn_Brightmyre" } { "dynn_Yellowbrook" }
+		{ "dynn_Moatwell" } { "dynn_Egelston" } { "dynn_Ysley" } { "dynn_Chamberlyng" } { "dynn_Mackelsworth" }
+		{ "dynn_Upton" } { "dynn_Chacewell" } { "dynn_Cynders" } { "dynn_Felton" } { "dynn_Evenhart" }
+		{ "dynn_Turner" } { "dynn_Dedwyck" } { "dynn_Stockwayn" } { "dynn_Burdyck" } { "dynn_Paston" }
+		{ "dynn_Hillcroft" } { "dynn_Clint" } { "dynn_Layton" } { "dynn_Mendham" } { "dynn_Wyckling" }
+		{ "dynn_Rumbold" } { "dynn_Morholt" } { "dynn_Bradgood" } { "dynn_Pendric" } { "dynn_Brakenell" }
+		{ "dynn_Goldmere" } { "dynn_Lindingham" } { "dynn_Ashwick" } { "dynn_Westfield" } { "dynn_Overdam" }
+		{ "dynn_Rockson" } { "dynn_Goldfallow" } { "dynn_Rockemar" } { "dynn_Maeson" } { "dynn_Seltar" }
+		{ "dynn_Lanser" } { "dynn_Merchin" } { "dynn_Campiron" } { "dynn_Rocke" } { "dynn_Linster" }
+		{ "dynn_Crooke" } { "dynn_Farheart" } { "dynn_Hearock" } { "dynn_Cinderton" } { "dynn_Gloryridge" }
+		{ "dynn_Silverfall" } { "dynn_Stoutspear" } { "dynn_Silverfist" } { "dynn_Goldhammer" } { "dynn_Leadbetter" }
+		{ "dynn_Smythe" } { "dynn_Goldhyl" }
+	}
+
+	male_names = {
+		Addam Addison Adrian Alan Alaric Alastor Albert Albin Alek Alfred Alfryn Alloren Alton Alyn Amory Andren Andron Andros Androw Ansell Anson Antario Arden Ardrick Argett Arlan Armond Arram Arron Arryk Atheon Aubrey Axell
+		Baldrick Balos Baros Benedict Benjamin Berion Bertram Bertrand Bryon Burton Byron
+		Cadwyn Carson Caspor Caster Cedric Cerion Chiswyck Clarent Clemon Cleos Conen Conrad Corlos Corson Creston Cyril
+		Damion Damon Daric Daslen Daven Dennis Dermett Derrick Donnel Dormund Doryn Dunaver Dunsen
+		Eddon Edmar Edwell Egbert Egon Eldon Eldren Eldrick Elmer Elys Emory Emrick Ermond Ernest Erren Erryk Erwin Esmer Eston Everard Ewan
+		Farin Farryl Fenton Finley Flement Forley Franklyn
+		Galan Garbert Gareth Garren Garrett Garrison Garth Gawen Geremy Gerion Gerold Godwyn Gregor Gylbert
+		Haros Harrold Harwyn Harys Hathis Hathur Haywood Hector Horton Horys Hugh Humfrey
+		Ilyn Ingram
+		Jaime Jaron Jason Jaynard Joffrey Jon Jonas Joran Jorian Joshua Joslan Josmyn Joss Jothor
+		Kelvyn Kennet Kennos Kevan
+		Lambert Lancel Landon Landyll Leo Leslyn Lester Lewys Loren Lorent Loreon Loreth Lorimer Lucan Lucion Lyle Lyman Lymond Lymos Lyndon Lyonel
+		Manfryd Marq Martyn Marwen Mathin Matthis Maynard Meldrick Melwyn Merlon Mern Montfroy Morgon Morrec Mors Morwyn Myles
+		Norton Norwin
+		Ondram Orbert Ormond Orson Orten Osbert Ossifer Othell
+		Pascal Perros Peter Petyr Philip Pilman Podrick Pol Polliver Presford Preston
+		Quenten Quillion Quincy Qyle
+		Rafford Raymun Raynald Raynard Regenard Reginald Reylon Reynard Robb Robert Robin Rodmund Roger Roland Rolder Rollam Rolph Romond Rupert Russell Ryckon Rylar Ryman Rynos Ryon
+		Samwell Sandor Sanford Sebaston Seldon Selmond Sheldon Silas Stafford Steffon Sumner Symeon Symond
+		Talard Taran Terrence Theomore Tion Tobbot Tommard Tommen Tregar Tybald Tybert Tybolt Tyburn Tygett Tyland Tyler Tymond Tymos Tyrek Tyrion Tytos Tywald Tywell Tywin
+		Valarr Victor Viserys Vylarr
+		Walder Walderan Walgram Watkyn Wendel Wilfred Willam Willas Willem Willit
+	}
+	female_names = {
+		Adela Alayne Aleona Alette Aliera Alise Alleria Alys Alysandra Alysanne Amaena Amarya Amella Amena Amerei Amfrya Amyra Andra Annera Antaria Anya Arane Aressa Arnessa Arrena Arwen
+		Beatrice Bella Benera Beranda Berenda Beryssa Bethany Bonessa Briony Bryssa
+		Calenne Calynne Carellan Carinda Carrina Ceira Celessa Celyria Cenlia Cerana Cerelle Cerenna Cerissa Cersei Cindria Clarena Coranne Corianne Cynna Cyralei Cyrelle
+		Damia Damylla Daniella Darlessa Delena Dolessa Domella Dorcas Dorene Dorna Dosana
+		Edella Edmarei Edrina Edyth Elana Elene Elenna Elessa Eleyna Elinor Elissa Ella Ellaene Elle Ellyn Elona Elspeth Elwenne Elyana Elyne Emma Erena Evelyn
+		Falyse Farena Fiona
+		Gallisa Genna Gisella Gwendolyn Gwyn
+		Hamina Helen Hemena Hemona
+		Ibera Ilenna Irena Isidora
+		Jaimera Jamylla Janei Jeane Jenna Jeselle Jeyne Joanna Joanne Jocasta Jocelyn Johanna Jonalla Jorelle Josei Joy
+		Kathryn Kellyn Kirsta Kyra
+		Landra Lanette Lanna Larella Laryssa Layna Leana Lelia Lenora Leomella Leona Leonella Lessa Liesa Lilith Lira Lobelia Lucia Lucinda Lyene Lynora Lyrene Lysa
+		Maelane Malanna Malanne Manysa Margot Marina Marissa Marita Marla Maya Melara Melesa Melissa Meredyth Merys Milerra Mina Molianne Moranne Myerna Mylana Myrcella Myrielle
+		Nalla Nesella Nora
+		Olenei Olyvia Orena Orene
+		Parena Perra Philena
+		Ramera Ravella Renna Reona Richela Robella Rohanne Rosalind Rosamund Roslyn Rya Ryalla Rylene Ryllena Ryone
+		Salya Samalla Samantha Sandria Sanisa Serelle Serra Serylla Shalla Sharra Shella Sherei Shiera Shierle Shirenna Sirona Sybell Sylla Sylvia Sylvina Syranne
+		Tamena Tarina Teora Teressa Tiona Tya Tyanne Tyrianne Tysane Tysha Tyshara Tyta
+		Victoria
+		Willemina Wynda
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_company_of_the_lion" }
+		{ name = "mercenary_company_yellow_coats" }
+		{ name = "mercenary_company_gilded_men" }
+		{ name = "mercenary_company_company_of_the_boar" }
+		{ name = "mercenary_company_pudding_kings" }
+	}
+}
+
+name_list_harborman = {
+
+	dynasty_names = {
+		{ "dynn_Whiteforest" } { "dynn_Whitesteel" } { "dynn_Whitewhisk" } { "dynn_Winterless" } { "dynn_Coldflow" }
+		{ "dynn_Tymber" } { "dynn_Bowman" } { "dynn_Bander" } { "dynn_Crander" } { "dynn_Mandersnow" }
+		{ "dynn_Snowrivers" } { "dynn_Sanderly" } { "dynn_Dirgewoode" } { "dynn_Loneleaf" } { "dynn_Manderborne" }
+	}
+
+	male_names = {
+		Abelon Albett Alfador Allister Alton Alyn Aron Arthor
+		Baldrick Bannen Barneby Barth Bartimus Belthasar Benton Benys Beren Boras Boren Borian Bowen Brandon
+		Chayle Cleomar Cregan
+		Damon Daryn Denys Desmond Deston Donnel Dorin
+		Ebbert Eddard Edderion Edmund Edrick Edwyn Elfram Ellard Emmett
+		Farlen Finmore
+		Galbart Gareth Garth Gawen Gerren Gery Gilbert
+		Halys Hamish Hanos Harlon Harrion Harys Hugo
+		Jarett Jeorald Jon Jorah Jossart
+		Karlon Kyle
+		Larence Lucan Lyman
+		Maric Mark Marlon Martyn Mathell Maynard Medrick Medwyck Merald Merion Mern Merrell Morgan
+		Owen
+		Quelion
+		Raymun Raynard Rickard Rickon Robett Roderick Ryam Rylen
+		Stevyn
+		Thaddeus Theo Theodar Theomore Theonald Tommard Torrhen
+		Uthor
+		Vylion
+		Walder Walton Walys Warrick Warryn Waymar Wayn Wendel Willam Wydron Wyland Wyldon Wylis Wyman Wynton
+	}
+	female_names = {
+		Alys Alysanne Aregelle Arra Arrana Arya
+		Barbrey Berena Betha Bethany Branda
+		Cyrelle
+		Dalonne Delena Denyse Derissa Desmera Donella
+		Eddara Ellyn
+		Faye Floris Frenelle
+		Gilliane Girane Grisella Gwyn Gwynette
+		Jessamyn Jeyne Jonella Joranna Jorelle Joslena
+		Kella Kera Kerona Kyra
+		Leona Leonette Liane Lunella Lyessa Lynara Lynesse Lyra Lysa
+		Malene Mara Mariah Maris Marna Meghan Melara Melene Mellesa Menisa Merissa Mina Moryne Myriame
+		Olaria Orenna Owella
+		Raya Rosalei Rosamund
+		Sarra Sheryse Sybelle Sylene Syrona
+		Tyalla Tyrene
+		Wylla Wynafryd Wynella
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+
+	mercenary_names = {
+		#{ name = "mercenary_company_teutonic_brotherhood" }
+	}
+}

@@ -1,0 +1,524 @@
+﻿name_list_eastern_valyrian = {
+
+	dynasty_names = {
+		{ "dynn_Anogaryen" } { "dynn_Atroksiarys" } { "dynn_Daomiorys" } { "dynn_Embaryen" } { "dynn_Gelenkys" }
+		{ "dynn_Gelionar" } { "dynn_Gryvetheon" } { "dynn_Hoskagys" } { "dynn_Haedaryen" } { "dynn_Ilirigys" }
+		{ "dynn_Jelmazeon" } { "dynn_Jentys" } { "dynn_Kastaryen" } { "dynn_Kostagar" } { "dynn_Mazigonys" }
+		{ "dynn_Namorghulilaryen" } { "dynn_Ondoryen" } { "dynn_Perzys" } { "dynn_Qogrorys" } { "dynn_Syzeon" }
+		{ "dynn_Tresys" } { "dynn_Belaerys" } { "dynn_Zaldrizyen" } { "dynn_Manaereon" } { "dynn_Urnebar" }
+		{ "dynn_Sonaryen" } { "dynn_Kessatheon" } { "dynn_Bevilar" } { "dynn_Ezimatheon" } { "dynn_Laeseon" }
+		{ "dynn_Jenqeleon" } { "dynn_Pirtiryen" } { "dynn_Sytivilar" } { "dynn_Tistaleon" } { "dynn_Qupteneon" }
+		{ "dynn_Nuqiryen" } { "dynn_Orbareon" } { "dynn_Quvyar" } { "dynn_Valzyren" } { "dynn_Ilontheon" }
+		{ "dynn_Boniryen" } { "dynn_Jorraezys" } { "dynn_Quptys" } { "dynn_Tyvar" } { "dynn_Jomozar" }
+		{ "dynn_Huretheon" } { "dynn_Ruakys" } { "dynn_Celereon" } { "dynn_Jaeganyon" } { "dynn_Arranion" }
+		{ "dynn_Vezenkar" } { "dynn_Unendia" } { "dynn_Voksia" } { "dynn_Galgaeron" } { "dynn_Laergyr" }
+		{ "dynn_Enreos" } { "dynn_Merntys" } { "dynn_Maznareon" } { "dynn_Henaeris" } { "dynn_Ronnon" }
+		{ "dynn_Haeteros" } { "dynn_Gevgarys" } { "dynn_Hurys" } { "dynn_Pyllyr" } { "dynn_Raegaros" }
+	}
+
+	male_names = {
+		Abo
+	}
+	female_names = {
+		Addila
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		#{ name = "mercenary_company_teutonic_brotherhood" }
+	}
+}
+
+name_list_elyrian = {
+
+	dynasty_names = {
+		{ "dynn_Anogaryen" } { "dynn_Atroksiarys" } { "dynn_Daomiorys" } { "dynn_Embaryen" } { "dynn_Gelenkys" }
+		{ "dynn_Gelionar" } { "dynn_Gryvetheon" } { "dynn_Hoskagys" } { "dynn_Haedaryen" } { "dynn_Ilirigys" }
+		{ "dynn_Jelmazeon" } { "dynn_Jentys" } { "dynn_Kastaryen" } { "dynn_Kostagar" } { "dynn_Mazigonys" }
+		{ "dynn_Namorghulilaryen" } { "dynn_Ondoryen" } { "dynn_Perzys" } { "dynn_Qogrorys" } { "dynn_Syzeon" }
+		{ "dynn_Tresys" } { "dynn_Belaerys" } { "dynn_Zaldrizyen" } { "dynn_Manaereon" } { "dynn_Urnebar" }
+		{ "dynn_Sonaryen" } { "dynn_Kessatheon" } { "dynn_Bevilar" } { "dynn_Ezimatheon" } { "dynn_Laeseon" }
+		{ "dynn_Jenqeleon" } { "dynn_Pirtiryen" } { "dynn_Sytivilar" } { "dynn_Tistaleon" } { "dynn_Qupteneon" }
+		{ "dynn_Nuqiryen" } { "dynn_Orbareon" } { "dynn_Quvyar" } { "dynn_Valzyren" } { "dynn_Ilontheon" }
+		{ "dynn_Boniryen" } { "dynn_Jorraezys" } { "dynn_Quptys" } { "dynn_Tyvar" } { "dynn_Jomozar" }
+		{ "dynn_Huretheon" } { "dynn_Ruakys" } { "dynn_Celereon" } { "dynn_Jaeganyon" } { "dynn_Arranion" }
+		{ "dynn_Vezenkar" } { "dynn_Unendia" } { "dynn_Voksia" } { "dynn_Galgaeron" } { "dynn_Laergyr" }
+		{ "dynn_Enreos" } { "dynn_Merntys" } { "dynn_Maznareon" } { "dynn_Henaeris" } { "dynn_Ronnon" }
+		{ "dynn_Haeteros" } { "dynn_Gevgarys" } { "dynn_Hurys" } { "dynn_Pyllyr" } { "dynn_Raegaros" }
+	}
+
+	male_names = {
+		Abo
+	}
+	female_names = {
+		Addila
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		#{ name = "mercenary_company_teutonic_brotherhood" }
+	}
+}
+
+name_list_essarian = {
+
+	dynasty_names = {
+		{ "dynn_Anogaryen" } { "dynn_Atroksiarys" } { "dynn_Daomiorys" } { "dynn_Embaryen" } { "dynn_Gelenkys" }
+		{ "dynn_Gelionar" } { "dynn_Gryvetheon" } { "dynn_Hoskagys" } { "dynn_Haedaryen" } { "dynn_Ilirigys" }
+		{ "dynn_Jelmazeon" } { "dynn_Jentys" } { "dynn_Kastaryen" } { "dynn_Kostagar" } { "dynn_Mazigonys" }
+		{ "dynn_Namorghulilaryen" } { "dynn_Ondoryen" } { "dynn_Perzys" } { "dynn_Qogrorys" } { "dynn_Syzeon" }
+		{ "dynn_Tresys" } { "dynn_Belaerys" } { "dynn_Zaldrizyen" } { "dynn_Manaereon" } { "dynn_Urnebar" }
+		{ "dynn_Sonaryen" } { "dynn_Kessatheon" } { "dynn_Bevilar" } { "dynn_Ezimatheon" } { "dynn_Laeseon" }
+		{ "dynn_Jenqeleon" } { "dynn_Pirtiryen" } { "dynn_Sytivilar" } { "dynn_Tistaleon" } { "dynn_Qupteneon" }
+		{ "dynn_Nuqiryen" } { "dynn_Orbareon" } { "dynn_Quvyar" } { "dynn_Valzyren" } { "dynn_Ilontheon" }
+		{ "dynn_Boniryen" } { "dynn_Jorraezys" } { "dynn_Quptys" } { "dynn_Tyvar" } { "dynn_Jomozar" }
+		{ "dynn_Huretheon" } { "dynn_Ruakys" } { "dynn_Celereon" } { "dynn_Jaeganyon" } { "dynn_Arranion" }
+		{ "dynn_Vezenkar" } { "dynn_Unendia" } { "dynn_Voksia" } { "dynn_Galgaeron" } { "dynn_Laergyr" }
+		{ "dynn_Enreos" } { "dynn_Merntys" } { "dynn_Maznareon" } { "dynn_Henaeris" } { "dynn_Ronnon" }
+		{ "dynn_Haeteros" } { "dynn_Gevgarys" } { "dynn_Hurys" } { "dynn_Pyllyr" } { "dynn_Raegaros" }
+	}
+
+	male_names = {
+		Abo
+	}
+	female_names = {
+		Addila
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		#{ name = "mercenary_company_teutonic_brotherhood" }
+	}
+}
+
+name_list_high_valyrian = {
+
+	dynasty_names = {
+		{ "dynn_Anogaryen" } { "dynn_Atroksiarys" } { "dynn_Daomiorys" } { "dynn_Embaryen" } { "dynn_Gelenkys" }
+		{ "dynn_Gelionar" } { "dynn_Gryvetheon" } { "dynn_Hoskagys" } { "dynn_Haedaryen" } { "dynn_Ilirigys" }
+		{ "dynn_Jelmazeon" } { "dynn_Jentys" } { "dynn_Kastaryen" } { "dynn_Kostagar" } { "dynn_Mazigonys" }
+		{ "dynn_Namorghulilaryen" } { "dynn_Ondoryen" } { "dynn_Perzys" } { "dynn_Qogrorys" } { "dynn_Syzeon" }
+		{ "dynn_Tresys" } { "dynn_Belaerys" } { "dynn_Zaldrizyen" } { "dynn_Manaereon" } { "dynn_Urnebar" }
+		{ "dynn_Sonaryen" } { "dynn_Kessatheon" } { "dynn_Bevilar" } { "dynn_Ezimatheon" } { "dynn_Laeseon" }
+		{ "dynn_Jenqeleon" } { "dynn_Pirtiryen" } { "dynn_Sytivilar" } { "dynn_Tistaleon" } { "dynn_Qupteneon" }
+		{ "dynn_Nuqiryen" } { "dynn_Orbareon" } { "dynn_Quvyar" } { "dynn_Valzyren" } { "dynn_Ilontheon" }
+		{ "dynn_Boniryen" } { "dynn_Jorraezys" } { "dynn_Quptys" } { "dynn_Tyvar" } { "dynn_Jomozar" }
+		{ "dynn_Huretheon" } { "dynn_Ruakys" } { "dynn_Celereon" } { "dynn_Jaeganyon" } { "dynn_Arranion" }
+		{ "dynn_Vezenkar" } { "dynn_Unendia" } { "dynn_Voksia" } { "dynn_Galgaeron" } { "dynn_Laergyr" }
+		{ "dynn_Enreos" } { "dynn_Merntys" } { "dynn_Maznareon" } { "dynn_Henaeris" } { "dynn_Ronnon" }
+		{ "dynn_Haeteros" } { "dynn_Gevgarys" } { "dynn_Hurys" } { "dynn_Pyllyr" } { "dynn_Raegaros" }
+	}
+
+	male_names = {
+		15 = { # most common
+			Aegon
+		}
+		15 = {
+			Aemon Daeron Jaehaerys Viserys
+		}
+		65 = {
+			Aegor Aelor Aelyx Aenar Aenys Aerion Aeryn Aerys Aethan
+			Baelon Baelor
+			Daemion Daemon
+			Gaemon
+			Haegon
+			Maegon Maekar Maelor Maelys Matarys
+			Rhaegar Rhaegel
+			Vaegon Valarr Valerion
+		}
+		5 = {
+			Aemond Maegor
+		}
+	}
+	female_names = {
+		20 = { # most common
+			Daenerys Rhaena Rhaenys
+		}
+		80 = { # most common
+			Aelinor Aelora Aemma Aerea Alysanne Alyssa Alaerys
+			Baela
+			Daella Daena Daenaera Daenys Daeryssa
+			Elaena
+			Gael
+			Helaena
+			Jaehaera Jaenara
+			Maegelle
+			Naerys
+			Rhae Rhaella Rhaelle Rhaenyra
+			Saera Shaena Shaera
+			Vaella Valaena Visenya Viserra
+		}
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 10
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 5
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		#{ name = "mercenary_company_teutonic_brotherhood" }
+	}
+}
+
+name_list_gogossosi = {
+
+	dynasty_names = {
+		{ "dynn_Anogaryen" } { "dynn_Atroksiarys" } { "dynn_Daomiorys" } { "dynn_Embaryen" } { "dynn_Gelenkys" }
+		{ "dynn_Gelionar" } { "dynn_Gryvetheon" } { "dynn_Hoskagys" } { "dynn_Haedaryen" } { "dynn_Ilirigys" }
+		{ "dynn_Jelmazeon" } { "dynn_Jentys" } { "dynn_Kastaryen" } { "dynn_Kostagar" } { "dynn_Mazigonys" }
+		{ "dynn_Namorghulilaryen" } { "dynn_Ondoryen" } { "dynn_Perzys" } { "dynn_Qogrorys" } { "dynn_Syzeon" }
+		{ "dynn_Tresys" } { "dynn_Belaerys" } { "dynn_Zaldrizyen" } { "dynn_Manaereon" } { "dynn_Urnebar" }
+		{ "dynn_Sonaryen" } { "dynn_Kessatheon" } { "dynn_Bevilar" } { "dynn_Ezimatheon" } { "dynn_Laeseon" }
+		{ "dynn_Jenqeleon" } { "dynn_Pirtiryen" } { "dynn_Sytivilar" } { "dynn_Tistaleon" } { "dynn_Qupteneon" }
+		{ "dynn_Nuqiryen" } { "dynn_Orbareon" } { "dynn_Quvyar" } { "dynn_Valzyren" } { "dynn_Ilontheon" }
+		{ "dynn_Boniryen" } { "dynn_Jorraezys" } { "dynn_Quptys" } { "dynn_Tyvar" } { "dynn_Jomozar" }
+		{ "dynn_Huretheon" } { "dynn_Ruakys" } { "dynn_Celereon" } { "dynn_Jaeganyon" } { "dynn_Arranion" }
+		{ "dynn_Vezenkar" } { "dynn_Unendia" } { "dynn_Voksia" } { "dynn_Galgaeron" } { "dynn_Laergyr" }
+		{ "dynn_Enreos" } { "dynn_Merntys" } { "dynn_Maznareon" } { "dynn_Henaeris" } { "dynn_Ronnon" }
+		{ "dynn_Haeteros" } { "dynn_Gevgarys" } { "dynn_Hurys" } { "dynn_Pyllyr" } { "dynn_Raegaros" }
+	}
+
+	male_names = {
+		Abo
+	}
+	female_names = {
+		Addila
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		#{ name = "mercenary_company_teutonic_brotherhood" }
+	}
+}
+
+name_list_mantaryan = {
+
+	dynasty_names = {
+		{ "dynn_Anogaryen" } { "dynn_Atroksiarys" } { "dynn_Daomiorys" } { "dynn_Embaryen" } { "dynn_Gelenkys" }
+		{ "dynn_Gelionar" } { "dynn_Gryvetheon" } { "dynn_Hoskagys" } { "dynn_Haedaryen" } { "dynn_Ilirigys" }
+		{ "dynn_Jelmazeon" } { "dynn_Jentys" } { "dynn_Kastaryen" } { "dynn_Kostagar" } { "dynn_Mazigonys" }
+		{ "dynn_Namorghulilaryen" } { "dynn_Ondoryen" } { "dynn_Perzys" } { "dynn_Qogrorys" } { "dynn_Syzeon" }
+		{ "dynn_Tresys" } { "dynn_Belaerys" } { "dynn_Zaldrizyen" } { "dynn_Manaereon" } { "dynn_Urnebar" }
+		{ "dynn_Sonaryen" } { "dynn_Kessatheon" } { "dynn_Bevilar" } { "dynn_Ezimatheon" } { "dynn_Laeseon" }
+		{ "dynn_Jenqeleon" } { "dynn_Pirtiryen" } { "dynn_Sytivilar" } { "dynn_Tistaleon" } { "dynn_Qupteneon" }
+		{ "dynn_Nuqiryen" } { "dynn_Orbareon" } { "dynn_Quvyar" } { "dynn_Valzyren" } { "dynn_Ilontheon" }
+		{ "dynn_Boniryen" } { "dynn_Jorraezys" } { "dynn_Quptys" } { "dynn_Tyvar" } { "dynn_Jomozar" }
+		{ "dynn_Huretheon" } { "dynn_Ruakys" } { "dynn_Celereon" } { "dynn_Jaeganyon" } { "dynn_Arranion" }
+		{ "dynn_Vezenkar" } { "dynn_Unendia" } { "dynn_Voksia" } { "dynn_Galgaeron" } { "dynn_Laergyr" }
+		{ "dynn_Enreos" } { "dynn_Merntys" } { "dynn_Maznareon" } { "dynn_Henaeris" } { "dynn_Ronnon" }
+		{ "dynn_Haeteros" } { "dynn_Gevgarys" } { "dynn_Hurys" } { "dynn_Pyllyr" } { "dynn_Raegaros" }
+	}
+
+	male_names = {
+		Abo
+	}
+	female_names = {
+		Addila
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		#{ name = "mercenary_company_teutonic_brotherhood" }
+	}
+}
+
+name_list_tolosi = {
+
+	dynasty_names = {
+		{ "dynn_Anogaryen" } { "dynn_Atroksiarys" } { "dynn_Daomiorys" } { "dynn_Embaryen" } { "dynn_Gelenkys" }
+		{ "dynn_Gelionar" } { "dynn_Gryvetheon" } { "dynn_Hoskagys" } { "dynn_Haedaryen" } { "dynn_Ilirigys" }
+		{ "dynn_Jelmazeon" } { "dynn_Jentys" } { "dynn_Kastaryen" } { "dynn_Kostagar" } { "dynn_Mazigonys" }
+		{ "dynn_Namorghulilaryen" } { "dynn_Ondoryen" } { "dynn_Perzys" } { "dynn_Qogrorys" } { "dynn_Syzeon" }
+		{ "dynn_Tresys" } { "dynn_Belaerys" } { "dynn_Zaldrizyen" } { "dynn_Manaereon" } { "dynn_Urnebar" }
+		{ "dynn_Sonaryen" } { "dynn_Kessatheon" } { "dynn_Bevilar" } { "dynn_Ezimatheon" } { "dynn_Laeseon" }
+		{ "dynn_Jenqeleon" } { "dynn_Pirtiryen" } { "dynn_Sytivilar" } { "dynn_Tistaleon" } { "dynn_Qupteneon" }
+		{ "dynn_Nuqiryen" } { "dynn_Orbareon" } { "dynn_Quvyar" } { "dynn_Valzyren" } { "dynn_Ilontheon" }
+		{ "dynn_Boniryen" } { "dynn_Jorraezys" } { "dynn_Quptys" } { "dynn_Tyvar" } { "dynn_Jomozar" }
+		{ "dynn_Huretheon" } { "dynn_Ruakys" } { "dynn_Celereon" } { "dynn_Jaeganyon" } { "dynn_Arranion" }
+		{ "dynn_Vezenkar" } { "dynn_Unendia" } { "dynn_Voksia" } { "dynn_Galgaeron" } { "dynn_Laergyr" }
+		{ "dynn_Enreos" } { "dynn_Merntys" } { "dynn_Maznareon" } { "dynn_Henaeris" } { "dynn_Ronnon" }
+		{ "dynn_Haeteros" } { "dynn_Gevgarys" } { "dynn_Hurys" } { "dynn_Pyllyr" } { "dynn_Raegaros" }
+	}
+
+	male_names = {
+		Abo
+	}
+	female_names = {
+		Addila
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		#{ name = "mercenary_company_teutonic_brotherhood" }
+	}
+}
+
+name_list_valyrian_gogossosi = {
+
+	dynasty_names = {
+		{ "dynn_Anogaryen" } { "dynn_Atroksiarys" } { "dynn_Daomiorys" } { "dynn_Embaryen" } { "dynn_Gelenkys" }
+		{ "dynn_Gelionar" } { "dynn_Gryvetheon" } { "dynn_Hoskagys" } { "dynn_Haedaryen" } { "dynn_Ilirigys" }
+		{ "dynn_Jelmazeon" } { "dynn_Jentys" } { "dynn_Kastaryen" } { "dynn_Kostagar" } { "dynn_Mazigonys" }
+		{ "dynn_Namorghulilaryen" } { "dynn_Ondoryen" } { "dynn_Perzys" } { "dynn_Qogrorys" } { "dynn_Syzeon" }
+		{ "dynn_Tresys" } { "dynn_Belaerys" } { "dynn_Zaldrizyen" } { "dynn_Manaereon" } { "dynn_Urnebar" }
+		{ "dynn_Sonaryen" } { "dynn_Kessatheon" } { "dynn_Bevilar" } { "dynn_Ezimatheon" } { "dynn_Laeseon" }
+		{ "dynn_Jenqeleon" } { "dynn_Pirtiryen" } { "dynn_Sytivilar" } { "dynn_Tistaleon" } { "dynn_Qupteneon" }
+		{ "dynn_Nuqiryen" } { "dynn_Orbareon" } { "dynn_Quvyar" } { "dynn_Valzyren" } { "dynn_Ilontheon" }
+		{ "dynn_Boniryen" } { "dynn_Jorraezys" } { "dynn_Quptys" } { "dynn_Tyvar" } { "dynn_Jomozar" }
+		{ "dynn_Huretheon" } { "dynn_Ruakys" } { "dynn_Celereon" } { "dynn_Jaeganyon" } { "dynn_Arranion" }
+		{ "dynn_Vezenkar" } { "dynn_Unendia" } { "dynn_Voksia" } { "dynn_Galgaeron" } { "dynn_Laergyr" }
+		{ "dynn_Enreos" } { "dynn_Merntys" } { "dynn_Maznareon" } { "dynn_Henaeris" } { "dynn_Ronnon" }
+		{ "dynn_Haeteros" } { "dynn_Gevgarys" } { "dynn_Hurys" } { "dynn_Pyllyr" } { "dynn_Raegaros" }
+	}
+
+	male_names = {
+		Abo
+	}
+	female_names = {
+		Addila
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		#{ name = "mercenary_company_teutonic_brotherhood" }
+	}
+}
+
+name_list_velosi = {
+
+	dynasty_names = {
+		{ "dynn_Anogaryen" } { "dynn_Atroksiarys" } { "dynn_Daomiorys" } { "dynn_Embaryen" } { "dynn_Gelenkys" }
+		{ "dynn_Gelionar" } { "dynn_Gryvetheon" } { "dynn_Hoskagys" } { "dynn_Haedaryen" } { "dynn_Ilirigys" }
+		{ "dynn_Jelmazeon" } { "dynn_Jentys" } { "dynn_Kastaryen" } { "dynn_Kostagar" } { "dynn_Mazigonys" }
+		{ "dynn_Namorghulilaryen" } { "dynn_Ondoryen" } { "dynn_Perzys" } { "dynn_Qogrorys" } { "dynn_Syzeon" }
+		{ "dynn_Tresys" } { "dynn_Belaerys" } { "dynn_Zaldrizyen" } { "dynn_Manaereon" } { "dynn_Urnebar" }
+		{ "dynn_Sonaryen" } { "dynn_Kessatheon" } { "dynn_Bevilar" } { "dynn_Ezimatheon" } { "dynn_Laeseon" }
+		{ "dynn_Jenqeleon" } { "dynn_Pirtiryen" } { "dynn_Sytivilar" } { "dynn_Tistaleon" } { "dynn_Qupteneon" }
+		{ "dynn_Nuqiryen" } { "dynn_Orbareon" } { "dynn_Quvyar" } { "dynn_Valzyren" } { "dynn_Ilontheon" }
+		{ "dynn_Boniryen" } { "dynn_Jorraezys" } { "dynn_Quptys" } { "dynn_Tyvar" } { "dynn_Jomozar" }
+		{ "dynn_Huretheon" } { "dynn_Ruakys" } { "dynn_Celereon" } { "dynn_Jaeganyon" } { "dynn_Arranion" }
+		{ "dynn_Vezenkar" } { "dynn_Unendia" } { "dynn_Voksia" } { "dynn_Galgaeron" } { "dynn_Laergyr" }
+		{ "dynn_Enreos" } { "dynn_Merntys" } { "dynn_Maznareon" } { "dynn_Henaeris" } { "dynn_Ronnon" }
+		{ "dynn_Haeteros" } { "dynn_Gevgarys" } { "dynn_Hurys" } { "dynn_Pyllyr" } { "dynn_Raegaros" }
+	}
+
+	male_names = {
+		Abo
+	}
+	female_names = {
+		Addila
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		#{ name = "mercenary_company_teutonic_brotherhood" }
+	}
+}
+
+name_list_westerosi_valyrian = {
+
+	dynasty_names = {
+		{ "dynn_Azantys" } { "dynn_Jentys" } { "dynn_Qelbar" } { "dynn_Lentorys" } { "dynn_Pyghageon" }
+		{ "dynn_Drace" } { "dynn_Zygar" } { "dynn_Correy" } { "dynn_Tolvys" } { "dynn_Tembyre" }
+		{ "dynn_Sparosyon" } { "dynn_Rinatheon" } { "dynn_Kios" } { "dynn_Jaedar" } { "dynn_Geronys" }
+		{ "dynn_Edrugonar" } { "dynn_Daomio" } { "dynn_Qohlarys" } { "dynn_Tartigar" } { "dynn_Naeltheon" }
+		{ "dynn_Raheris" } { "dynn_Naryreos" } { "dynn_Callarys" } { "dynn_Agaeris" } { "dynn_Lennalys" }
+		{ "dynn_Agtalos" } { "dynn_Calanyon" } { "dynn_Raeniar" } { "dynn_Ellaryon" } { "dynn_Vorreon" }
+		{ "dynn_Codarrion" } { "dynn_Almarrion" } { "dynn_Vytalion" } { "dynn_Byssar" } { "dynn_Berlaeris" }
+		{ "dynn_Eghon" } { "dynn_Naqabrar" } { "dynn_Gitigar" } { "dynn_Barrtir" } { "dynn_Maldeks" }
+		{ "dynn_Ozakses" } { "dynn_Morghraenos" } { "dynn_Onrepsa" } { "dynn_Kymion" } { "dynn_Mitheos" }
+		{ "dynn_Samtheon" } { "dynn_Taentar" } { "dynn_Kotion" } { "dynn_Erdrizes" } { "dynn_Kaegaris" }
+		{ "dynn_Menitheos" } { "dynn_Doraez" } { "dynn_Qhaenalys" } { "dynn_Iliurdon" } { "dynn_Eriareon" }
+		{ "dynn_Baeleris" } { "dynn_Dornir" } { "dynn_Gargarys" } { "dynn_Malnebion" } { "dynn_Myreneos" }
+		{ "dynn_Onnon" } { "dynn_Barennis" } { "dynn_Gevros" } { "dynn_Ovaleos" } { "dynn_Nohmion" }
+	}
+
+	male_names = {
+		Addam Aethan Aloran Alton Alyn Amrell Annos Ardrian Arthor Aurane Aurion
+		Banfrey Bartimos Benethon
+		Clement Corlys Corwyn Crispian Crispin
+		Daemion Daemon Daeron Denys
+		Edmyn Edwell Elyas
+		Gaemon Galfrid Gargon
+		Hugh
+		Jacaerys Joffrey Jon Jorgen Jothos
+		Kaelon Kaeron
+		Laenor Lucerys
+		Maeron Malentine Malion Marell Matarys Monford Monterys Morland
+		Orys
+		Philbert
+		Qarl Quenton
+		Rennifer Rhogar Rolland
+		Tasmund Terrence Trystane
+		Vaemond Valarr Valerion Veran Victor
+		Wynton
+	}
+	female_names = {
+		Aelinor Aemira Aemma Alyssa Amaena Amyana Ashera Aurana Alaerys
+		Calla
+		Daenaera
+		Elaena Elleria
+		Jarella Jenette Jeyn Jeyne Jyana
+		Laena Larissa Lianna
+		Maelane Maella Maenylla Monica
+		Nerys
+		Oreyne
+		Prudence Prunella
+		Rhalla
+		Semella Shiera Syrella
+		Valaena
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		#{ name = "mercenary_company_teutonic_brotherhood" }
+	}
+}
+
+name_list_placeholder_culture = {
+
+	dynasty_names = {
+		{ "dynn_Hoare" }
+		{ "dynn_Merion" }
+	}
+
+	male_names = {
+		Harren
+	}
+	female_names = {
+		Hilly
+	}
+	dynasty_of_location_prefix = "dynn_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		#{ name = "mercenary_company_teutonic_brotherhood" }
+	}
+}
