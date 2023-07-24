@@ -90,8 +90,8 @@
  agot_sailing_at_sea.0013.pirateattackervictory.t:0 "Während ich das andere Schiff zu entern versuche, gelingt es mir [sc_loser.GetFirstNameNoTooltip] im Kampf zu erschlagen!"
  agot_sailing_at_sea.0013.friendlydefenderloser.t:0 "Während ich den Enterversuch abwehre, sticht mich der Pirat [sc_victor.GetFirstNameNoTooltip] in den Bauch!"
  agot_sailing_at_sea.0013.pirateattackerloser.t:0 "Während ich das andere Schiff zu entern versuche, werde ich von [sc_victor.GetFirstNameNoTooltip] niedergeschlagen!"
- agot_sailing_at_sea.0013.friendlyoutcome_toast.t:0 "Während des Kampfes sehe ich mit einem flüchtigen Blick, wie mein [knight|E] [sc_victor.GetFirstNameNicknamed] den Piraten [sc_loser.GetFirstNameNoTooltip] nierderschlägt!"
- agot_sailing_at_sea.0013.piratewinoutcome_toast.t:0 "Während des Kampfes sehe ich mit einem flüchtigen Blick, wie der Pirat [sc_victor.GetFirstNameNicknamed] meinen [knight|E] [sc_loser.GetFirstNameNoTooltip] nierderschlägt!"
+ agot_sailing_at_sea.0013.friendlyoutcome_toast.t:0 "Während des Kampfes sehe ich mit einem flüchtigen Blick, wie mein [agot_knight|E] [sc_victor.GetFirstNameNicknamed] den Piraten [sc_loser.GetFirstNameNoTooltip] nierderschlägt!"
+ agot_sailing_at_sea.0013.piratewinoutcome_toast.t:0 "Während des Kampfes sehe ich mit einem flüchtigen Blick, wie der Pirat [sc_victor.GetFirstNameNicknamed] meinen [agot_knight|E] [sc_loser.GetFirstNameNoTooltip] nierderschlägt!"
 #Interface Notifcation
  agot_sailing_at_sea.0013.piratewinoutcome_message:2 "Unser $knight_culture_player_no_tooltip_lowercase$ [sc_loser.GetFirstNameNoTooltip] wurde von [sc_victor.GetFirstNameNicknamed] erschlagen!"
 
@@ -102,7 +102,7 @@
  agot_sailing_at_sea.0015.toast_tooltip:0 "Wir sind den Piraten entkommen! Es ist Nach und wir können uns ohne Sorgen ausruhen."
  agot_sailing_at_sea.0015.toast1:0 "Erwischt!"
  agot_sailing_at_sea.0015.toast_tooltip1:0 "Die Piraten haben uns eingeholt und bereiten sich aufs Entern vor!"
- agot_sailing_at_sea.0015.b.option_tooltip:0 "Ihr nehmt den Kampf gegen die Piraten an\n\nWährend Ihr Euch dem Kapitän des gegnerischen Schiffs im Duell stellen werdet, wird auch eine Gruppe Eurer [knight|E] Duelle gegen jeweils einen anderen Angreifer ausfechten"
+ agot_sailing_at_sea.0015.b.option_tooltip:0 "Ihr nehmt den Kampf gegen die Piraten an\n\nWährend Ihr Euch dem Kapitän des gegnerischen Schiffs im Duell stellen werdet, wird auch eine Gruppe Eurer [Concept('knight', 'Hauptmänner')|E] Duelle gegen jeweils einen anderen Angreifer ausfechten"
  agot_sailing_at_sea.0015.option_tooltip:0 "Die Piraten haben Euch eingeholt und bereiten sich aufs Entern vor"
  agot_sailing_at_sea.0015.b:0 "Wo wir stehen, da weichen wir nicht! Männer, macht euch bereit zum Kampf!"
 
