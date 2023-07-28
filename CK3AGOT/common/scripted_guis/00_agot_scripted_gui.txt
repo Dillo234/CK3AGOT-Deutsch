@@ -19,7 +19,25 @@ agot_name = {
 		}
 		OR = {
 			NOT = { #Covering all other Flavour here
-				has_trait = knight
+				OR = {
+					has_trait = knight
+					AND = {
+						has_trait_xp = { 
+							trait = squire
+							track = knight
+							value >= 100
+						}
+						OR = {
+							age >= 16 #You are at least 16
+							AND = { #You are 12 or older and either: your prowess is >= 20; or, your prowess is >=15 and you are a formiddable fighter
+								age < 16
+								age >= 12
+								#Youngest knight was Daemon Blackfyre
+								prowess >= extremely_high_skill_rating
+							}
+						}
+					}
+				}
 				has_trait = maester
 				has_trait = bastard
 				has_trait = septon
@@ -51,7 +69,26 @@ agot_ser_knight = {
 	scope = character
 
 	is_shown = {
-		has_trait = knight
+		OR = {
+			has_trait = knight
+			AND = {
+				has_trait_xp = { 
+					trait = squire
+					track = knight
+					value >= 100
+				}
+				OR = {
+					age >= 16 #You are at least 16
+					AND = { #You are 12 or older and either: your prowess is >= 20; or, your prowess is >=15 and you are a formiddable fighter
+						age < 16
+						age >= 12
+						#Youngest knight was Daemon Blackfyre
+						prowess >= extremely_high_skill_rating
+					}
+				}
+			}
+		}
+
 		NOT = { has_trait = maester } #you shouldn't be able to knight maesters anyway but just in case
 		NOT = { has_council_position = kingsguard_lord_commander }
 		NOT = { any_spouse = { is_landed = yes } }
@@ -85,7 +122,25 @@ agot_name_bastard = {
 		NOT = { has_council_position = kingsguard_lord_commander}
 		NOT = { any_spouse = { is_landed = yes } }
 		NOT = {
-			has_trait = knight
+			OR = {
+				has_trait = knight
+				AND = {
+					has_trait_xp = { 
+						trait = squire
+						track = knight
+						value >= 100
+					}
+					OR = {
+						age >= 16 #You are at least 16
+						AND = { #You are 12 or older and either: your prowess is >= 20; or, your prowess is >=15 and you are a formiddable fighter
+							age < 16
+							age >= 12
+							#Youngest knight was Daemon Blackfyre
+							prowess >= extremely_high_skill_rating
+						}
+					}
+				}
+			}
 			has_trait = maester
 			has_trait = septon
 		}
@@ -98,7 +153,25 @@ agot_ser_knight_bastard = {
 	is_shown = {
 		is_alive = yes
 		has_trait = bastard
-		has_trait = knight
+		OR = {
+			has_trait = knight
+			AND = {
+				has_trait_xp = { 
+					trait = squire
+					track = knight
+					value >= 100
+				}
+				OR = {
+					age >= 16 #You are at least 16
+					AND = { #You are 12 or older and either: your prowess is >= 20; or, your prowess is >=15 and you are a formiddable fighter
+						age < 16
+						age >= 12
+						#Youngest knight was Daemon Blackfyre
+						prowess >= extremely_high_skill_rating
+					}
+				}
+			}
+		}
 		NOT = { has_trait = maester } #you shouldn't be able to knight maesters anyway but just in case
 		NOT = { has_council_position = kingsguard_lord_commander}
 		NOT = { any_spouse = { is_landed = yes } }
@@ -241,7 +314,14 @@ agot_can_have_squire = {
 	scope = character
 
 	is_shown = {
-		has_trait = knight
+		OR = {
+			has_trait = knight
+			has_trait_xp = { 
+				trait = squire
+				track = knight
+				value >= 100
+			}
+		}
 	}
 }
 
