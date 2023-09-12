@@ -1,118 +1,80 @@
 ﻿l_german:
- spouse_skill_diplomacy_improves_title:0 "$activity_pulse_action_spouse_skill_diplomacy_improves$"
- activity_pulse_action_spouse_skill_diplomacy_improves:0 "Das diplomatische Geschick des Ehepartners von [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] verbessert sich"
- 
- spouse_gives_host_prestige_title:0 "$activity_pulse_action_spouse_gives_host_prestige$"
- activity_pulse_action_spouse_gives_host_prestige:0 "Das diplomatische Geschick des Ehepartners von [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] beeindruckt [second.GetShortUINameNoTooltip]"
- 
- spouse_manages_feast_splendidly_title:0 "$activity_pulse_action_spouse_manages_feast_splendidly$"
- activity_pulse_action_spouse_manages_feast_splendidly:0 "Die Verwaltung des Ehepartners von [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] erstaunt Gäste"
- 
- spouse_impresses_clergy_title:0 "$activity_pulse_action_spouse_impresses_clergy$"
- activity_pulse_action_spouse_impresses_clergy:0 "Die Bildung des Ehepartners von [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] beeindruckt [second.GetShortUINameNoTooltip]"
- 
- spouse_gives_hook_title:0 "$activity_pulse_action_spouse_gives_hook$"
- activity_pulse_action_spouse_gives_hook:0 "Der Ehepartner von [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] beschwatzt [second.GetShortUINameNoTooltip]"
- 
- relation_gains_friend_title:0 "$activity_pulse_action_relation_gains_friend$"
- activity_pulse_action_relation_gains_friend:0 "[root_scope.Custom2('RelationToMeShort', SCOPE.sC('first'))|U] von [root_scope.GetShortUINameNoTooltip|U] freundet sich mit [second.GetShortUINameNoTooltip] an"
- 
- children_bonding_title:0 "$activity_pulse_action_relation_gains_friend$"
- activity_pulse_action_children_bonding:0 "[root_scope.Custom2('RelationToMeShort', SCOPE.sC('first'))|U] von [root_scope.GetShortUINameNoTooltip|U] ist beim Spielen mit dem Lieblingsspielzeug von [second.GetShortUINameNoTooltip] ([first.Custom('child_favorite_toy')]) dem Spielkameraden nähergekommen"
- 
- lauded_food_title:0 "$activity_pulse_action_lauded_food$"
- activity_pulse_action_lauded_food:1 "[first.GetShortUINameNoTooltip] lobt [root_scope.Custom('GetExpensiveMeal')|U]"
- 
- guest_of_honor_impressed_title:0 "$activity_pulse_action_guest_of_honor_impressed$"
- activity_pulse_action_guest_of_honor_impressed:1 "Ehrengast [first.GetShortUINameNoTooltip] genießt [root_scope.Custom('GetExpensiveMealAlt')|U]"
- 
- guest_of_honor_praised_title:0 "$activity_pulse_action_guest_of_honor_praised$"
- activity_pulse_action_guest_of_honor_praised:0 "Ehrengast [first.GetShortUINameNoTooltip] wurde als [first.Custom('FormalComplimentAdjective')] gelobt"
- 
- guest_impressed_by_court_artifact_title:0 "$activity_pulse_action_guest_impressed_by_court_artifact$"
- activity_pulse_action_guest_impressed_by_court_artifact:0 "[first.GetShortUINameNoTooltip] beeindruckt von [second.GetName]"
- 
- guest_chokes_on_bone_title:0 "$activity_pulse_action_guest_chokes_on_bone$"
- activity_pulse_action_guest_chokes_on_bone:1 "[first.GetShortUINameNoTooltip] bleibt der Knochen eines Vogels ([first.Custom('GetFoodBird')|U]) im Rachen stecken"
- 
- guest_brawl_title:0 "$activity_pulse_action_guest_brawl$"
- activity_pulse_action_guest_brawl:1 "[first.GetShortUINameNoTooltip] prügelt sich mit [first.Custom('DE_PRO_POS_S_3P')][Select_CString(second.IsFemale, 'er Rivalin', 'em Rivalen')] [second.GetShortUINameNoTooltip]"
- 
- friend_lauds_efforts_title:0 "$activity_pulse_action_friend_lauds_efforts$"
- activity_pulse_action_friend_lauds_efforts:1 "[first.GetShortUINameNoTooltip] lobt Bemühungen von [root_scope.GetShortUINameNoTooltip|U]"
- 
- courtly_vassals_appeased_title:0 "$activity_pulse_action_courtly_vassals_appeased$"
- activity_pulse_action_courtly_vassals_appeased:0 "Höfische Vasallen bewundern die Vorbereitungen von [root_scope.GetShortUINameNoTooltip|U]"
- 
- spouse_insults_host_title:0 "$activity_pulse_action_spouse_insults_host$"
- activity_pulse_action_spouse_insults_host:0 "Der Ehepartner von [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] nennt [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] öffentlich „[first.GetPrimarySpouse.Custom('InsultNoun')|U]“"
- 
- host_gains_diplo_xp_title:0 "$activity_pulse_action_host_gains_diplo_xp$"
- activity_pulse_action_host_gains_diplo_xp:0 "[first.GetShortUINameNoTooltip|U] verhandelt mit [second.GetShortUINameNoTooltip|U]"
- 
- host_gains_steward_xp_title:0 "$activity_pulse_action_host_gains_steward_xp$"
- activity_pulse_action_host_gains_steward_xp:0 "[first.Custom('RegionalDrink')|U]-Verkäufer preisen [first.GetShortUINameNoTooltip|U]"
- 
- host_gains_intrigue_xp_title:0 "$activity_pulse_action_host_gains_intrigue_xp$"
- activity_pulse_action_host_gains_intrigue_xp:1 "[first.GetShortUINameNoTooltip|U] schmeichelt [second.GetShortUINameNoTooltip|U]"
- 
- ridiculed_food_title:0 "$activity_pulse_action_ridiculed_food$"
- activity_pulse_action_ridiculed_food:1 "[first.GetShortUINameNoTooltip|U] schimpft über die mangelnde Güte von [root_scope.Custom('GetExpensiveMeal')|U]"
- 
- guest_tells_fantastic_joke_title:0 "$activity_pulse_action_guest_tells_fantastic_joke$"
- activity_pulse_action_guest_tells_fantastic_joke:1 "[first.GetShortUINameNoTooltip|U] erzählt einen #EMP fantastischen#! Witz über [first.Custom('RandomObjectPlural')|U]"
- every_attending_guest:0 "Jeder teilnehmende Gast"
- 
- local_mayor_tax_title:0 "$activity_pulse_action_local_mayor_tax$"
- activity_pulse_action_local_mayor_tax:0 "Zusätzlich erhobene Steuer in [city.GetNameNoTooltip]"
- 
- tax_rich_local_title:0 "$activity_pulse_action_tax_rich_local$"
- activity_pulse_action_tax_rich_local:0 "Reiche Einheimische besteuert"
- 
- church_tax_title:0 "$activity_pulse_action_church_tax$"
- activity_pulse_action_church_tax:0 "Zusätzliche Klerussteuer"
- 
- increased_control_title:0 "$activity_pulse_action_increased_control$"
- activity_pulse_action_increased_control:0 "Kontrolle wiederhergestellt in [second.GetNameNoTooltip]"
- 
- courtier_friendship_title:0 "$activity_pulse_action_courtier_friendship$"
- activity_pulse_action_courtier_friendship:1 "[first.GetShortUIName|U] freundet sich mit [second.GetShortUIName|U] an"
- 
- courtiers_became_lovers_title:0 "$activity_pulse_action_courtiers_became_lovers$"
- activity_pulse_action_courtiers_became_lovers:0 "[first.GetShortUINameNoTooltip|U] und [second.GetShortUINameNoTooltip|U] begannen eine Affäre"
- 
- courtiers_became_rivals_title:0 "$activity_pulse_action_courtiers_became_rivals$"
- activity_pulse_action_courtiers_became_rivals:0 "[first.GetShortUINameNoTooltip|U] und [second.GetShortUINameNoTooltip|U] wurden Rivalen"
- 
- courtiers_got_into_fight_title:0 "$activity_pulse_action_courtiers_got_into_fight$"
- activity_pulse_action_courtiers_got_into_fight:0 "[first.GetShortUIName|U] prügelte sich mit [second.GetShortUIName]"
- 
- courtier_improved_skill_title:0 "$activity_pulse_action_courtier_improved_skill$"
- activity_pulse_action_courtier_improved_skill:1 "[first.GetShortUIName|U] verbessert Wert"
- 
- courtier_theological_debate_title:0 "$activity_pulse_action_courtier_theological_debate$"
- activity_pulse_action_courtier_theological_debate:0 "[first.GetShortUIName|U] diskutierte über Theologie mit [second.GetShortUIName]"
- 
- courtier_got_sick_title:0 "$activity_pulse_action_courtier_got_sick$"
- activity_pulse_action_courtier_got_sick:0 "[target.GetShortUIName|U] wurde krank"
- 
- courtier_learned_language_title:0 "$activity_pulse_action_courtier_learned_language$"
- activity_pulse_action_courtier_learned_language:0 "[first.GetShortUIName|U] erlernte [second.GetCulture.GetLanguage.GetName|U]"
- 
- liege_local_tax_title:0 "$activity_pulse_action_liege_local_tax$"
- activity_pulse_action_liege_local_tax:0 "„[first.Custom('GetObjectToBalanceOnNose')|U]-Steuer“ in [second.GetBaseNameNoTooltip] eingeführt"
- 
- local_baron_tax_title:0 "$activity_pulse_action_local_baron_tax$"
- activity_pulse_action_local_baron_tax:0 "[first.GetBaseNameNoTooltip] zur Zahlung von Steuern gezwungen"
- 
- liege_local_benevolence_title:0 "$activity_pulse_action_liege_local_benevolence$"
- activity_pulse_action_liege_local_benevolence:0 "Wohlmeinende Präsenz"
- 
- liege_intimidated_courtier_title:0 "$activity_pulse_action_liege_intimidated_courtier$"
- activity_pulse_action_liege_intimidated_courtier:0 "Höflinge eingeschüchtert"
- 
- liege_visited_benevolence_title:0 "$activity_pulse_action_liege_visited_benevolence$"
- activity_pulse_action_liege_visited_benevolence:0 "Entwicklung verbessert in [second.GetBaseNameNoTooltip]"
- 
- levied_tax_title:0 "$activity_pulse_action_levied_tax$"
- activity_pulse_action_levied_tax:0 "Höflingssteuer erhoben"
+ spouse_skill_diplomacy_improves_title: "$activity_pulse_action_spouse_skill_diplomacy_improves$"
+ activity_pulse_action_spouse_skill_diplomacy_improves: "Das diplomatische Geschick des Ehepartners von [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] verbessert sich"
+ spouse_gives_host_prestige_title: "$activity_pulse_action_spouse_gives_host_prestige$"
+ activity_pulse_action_spouse_gives_host_prestige: "Das diplomatische Geschick des Ehepartners von [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] beeindruckt [second.GetShortUINameNoTooltip]"
+ spouse_manages_feast_splendidly_title: "$activity_pulse_action_spouse_manages_feast_splendidly$"
+ activity_pulse_action_spouse_manages_feast_splendidly: "Die Verwaltung des Ehepartners von [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] erstaunt Gäste"
+ spouse_impresses_clergy_title: "$activity_pulse_action_spouse_impresses_clergy$"
+ activity_pulse_action_spouse_impresses_clergy: "Die Bildung des Ehepartners von [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] beeindruckt [second.GetShortUINameNoTooltip]"
+ spouse_gives_hook_title: "$activity_pulse_action_spouse_gives_hook$"
+ activity_pulse_action_spouse_gives_hook: "Der Ehepartner von [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] beschwatzt [second.GetShortUINameNoTooltip]"
+ relation_gains_friend_title: "$activity_pulse_action_relation_gains_friend$"
+ activity_pulse_action_relation_gains_friend: "[root_scope.Custom2('RelationToMeShort', SCOPE.sC('first'))|U] von [root_scope.GetShortUINameNoTooltip|U] freundet sich mit [second.GetShortUINameNoTooltip] an"
+ children_bonding_title: "$activity_pulse_action_relation_gains_friend$"
+ activity_pulse_action_children_bonding: "[root_scope.Custom2('RelationToMeShort', SCOPE.sC('first'))|U] von [root_scope.GetShortUINameNoTooltip|U] ist beim Spielen mit dem Lieblingsspielzeug von [second.GetShortUINameNoTooltip] ([first.Custom('child_favorite_toy')]) dem Spielkameraden nähergekommen"
+ lauded_food_title: "$activity_pulse_action_lauded_food$"
+ activity_pulse_action_lauded_food: "[first.GetShortUINameNoTooltip] lobt [root_scope.Custom('GetExpensiveMeal')|U]"
+ guest_of_honor_impressed_title: "$activity_pulse_action_guest_of_honor_impressed$"
+ activity_pulse_action_guest_of_honor_impressed: "Ehrengast [first.GetShortUINameNoTooltip] genießt [root_scope.Custom('GetExpensiveMealAlt')|U]"
+ guest_of_honor_praised_title: "$activity_pulse_action_guest_of_honor_praised$"
+ activity_pulse_action_guest_of_honor_praised: "Ehrengast [first.GetShortUINameNoTooltip] wurde als [first.Custom('FormalComplimentAdjective')] gelobt"
+ guest_impressed_by_court_artifact_title: "$activity_pulse_action_guest_impressed_by_court_artifact$"
+ activity_pulse_action_guest_impressed_by_court_artifact: "[first.GetShortUINameNoTooltip] ist beeindruckt von den [Concept('court_artifacts', 'Hofartefakten')|E] von [second.GetShortUINameNoTooltip]"
+ guest_chokes_on_bone_title: "$activity_pulse_action_guest_chokes_on_bone$"
+ activity_pulse_action_guest_chokes_on_bone: "[first.GetShortUINameNoTooltip] bleibt der Knochen eines Vogels ([first.Custom('GetFoodBird')|U]) im Rachen stecken"
+ guest_brawl_title: "$activity_pulse_action_guest_brawl$"
+ activity_pulse_action_guest_brawl: "[first.GetShortUINameNoTooltip] prügelt sich mit [first.Custom('DE_PRO_POS_S_3P')][Select_CString(second.IsFemale, 'er Rivalin', 'em Rivalen')] [second.GetShortUINameNoTooltip]"
+ friend_lauds_efforts_title: "$activity_pulse_action_friend_lauds_efforts$"
+ activity_pulse_action_friend_lauds_efforts: "[first.GetShortUINameNoTooltip] lobt Bemühungen von [root_scope.GetShortUINameNoTooltip|U]"
+ courtly_vassals_appeased_title: "$activity_pulse_action_courtly_vassals_appeased$"
+ activity_pulse_action_courtly_vassals_appeased: "Höfische Vasallen bewundern die Vorbereitungen von [root_scope.GetShortUINameNoTooltip|U]"
+ spouse_insults_host_title: "$activity_pulse_action_spouse_insults_host$"
+ activity_pulse_action_spouse_insults_host: "Der Ehepartner von [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] nennt [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] öffentlich „[first.GetPrimarySpouse.Custom('InsultNoun')|U]“"
+ host_gains_diplo_xp_title: "$activity_pulse_action_host_gains_diplo_xp$"
+ activity_pulse_action_host_gains_diplo_xp: "[first.GetShortUINameNoTooltip|U] verhandelt mit [second.GetShortUINameNoTooltip|U]"
+ host_gains_steward_xp_title: "$activity_pulse_action_host_gains_steward_xp$"
+ activity_pulse_action_host_gains_steward_xp: "[first.Custom('RegionalDrink')|U]-Verkäufer preisen [first.GetShortUINameNoTooltip|U]"
+ host_gains_intrigue_xp_title: "$activity_pulse_action_host_gains_intrigue_xp$"
+ activity_pulse_action_host_gains_intrigue_xp: "[first.GetShortUINameNoTooltip|U] schmeichelt [second.GetShortUINameNoTooltip|U]"
+ ridiculed_food_title: "$activity_pulse_action_ridiculed_food$"
+ activity_pulse_action_ridiculed_food: "[first.GetShortUINameNoTooltip|U] schimpft über die mangelnde Güte von [root_scope.Custom('GetExpensiveMeal')|U]"
+ guest_tells_fantastic_joke_title: "$activity_pulse_action_guest_tells_fantastic_joke$"
+ activity_pulse_action_guest_tells_fantastic_joke: "[first.GetShortUINameNoTooltip|U] erzählt einen #EMP fantastischen#! Witz über [first.Custom('RandomObjectPlural')|U]"
+ every_attending_guest: "Jeder teilnehmende Gast"
+ local_mayor_tax_title: "$activity_pulse_action_local_mayor_tax$"
+ activity_pulse_action_local_mayor_tax: "Zusätzlich erhobene Steuer in [city.GetNameNoTooltip]"
+ tax_rich_local_title: "$activity_pulse_action_tax_rich_local$"
+ activity_pulse_action_tax_rich_local: "Reiche Einheimische besteuert"
+ church_tax_title: "$activity_pulse_action_church_tax$"
+ activity_pulse_action_church_tax: "Zusätzliche Klerussteuer"
+ increased_control_title: "$activity_pulse_action_increased_control$"
+ activity_pulse_action_increased_control: "Kontrolle wiederhergestellt in [second.GetNameNoTooltip]"
+ courtier_friendship_title: "$activity_pulse_action_courtier_friendship$"
+ activity_pulse_action_courtier_friendship: "[first.GetShortUIName|U] freundet sich mit [second.GetShortUIName|U] an"
+ courtiers_became_lovers_title: "$activity_pulse_action_courtiers_became_lovers$"
+ activity_pulse_action_courtiers_became_lovers: "[first.GetShortUINameNoTooltip|U] und [second.GetShortUINameNoTooltip|U] begannen eine Affäre"
+ courtiers_became_rivals_title: "$activity_pulse_action_courtiers_became_rivals$"
+ activity_pulse_action_courtiers_became_rivals: "[first.GetShortUINameNoTooltip|U] und [second.GetShortUINameNoTooltip|U] wurden Rivalen"
+ courtiers_got_into_fight_title: "$activity_pulse_action_courtiers_got_into_fight$"
+ activity_pulse_action_courtiers_got_into_fight: "[first.GetShortUIName|U] prügelte sich mit [second.GetShortUIName]"
+ courtier_improved_skill_title: "$activity_pulse_action_courtier_improved_skill$"
+ activity_pulse_action_courtier_improved_skill: "[first.GetShortUIName|U] verbessert Wert"
+ courtier_theological_debate_title: "$activity_pulse_action_courtier_theological_debate$"
+ activity_pulse_action_courtier_theological_debate: "[first.GetShortUIName|U] diskutierte über Theologie mit [second.GetShortUIName]"
+ courtier_got_sick_title: "$activity_pulse_action_courtier_got_sick$"
+ activity_pulse_action_courtier_got_sick: "[target.GetShortUIName|U] wurde krank"
+ courtier_learned_language_title: "$activity_pulse_action_courtier_learned_language$"
+ activity_pulse_action_courtier_learned_language: "[first.GetShortUIName|U] erlernte [second.GetCulture.GetLanguage.GetName|U]"
+ liege_local_tax_title: "$activity_pulse_action_liege_local_tax$"
+ activity_pulse_action_liege_local_tax: "„[first.Custom('GetObjectToBalanceOnNose')|U]-Steuer“ in [second.GetBaseNameNoTooltip] eingeführt"
+ local_baron_tax_title: "$activity_pulse_action_local_baron_tax$"
+ activity_pulse_action_local_baron_tax: "[first.GetBaseNameNoTooltip] zur Zahlung von Steuern gezwungen"
+ liege_local_benevolence_title: "$activity_pulse_action_liege_local_benevolence$"
+ activity_pulse_action_liege_local_benevolence: "Wohlmeinende Präsenz"
+ liege_intimidated_courtier_title: "$activity_pulse_action_liege_intimidated_courtier$"
+ activity_pulse_action_liege_intimidated_courtier: "Höflinge eingeschüchtert"
+ liege_visited_benevolence_title: "$activity_pulse_action_liege_visited_benevolence$"
+ activity_pulse_action_liege_visited_benevolence: "Entwicklung verbessert in [second.GetBaseNameNoTooltip]"
+ levied_tax_title: "$activity_pulse_action_levied_tax$"
+ activity_pulse_action_levied_tax: "Höflingssteuer erhoben"
