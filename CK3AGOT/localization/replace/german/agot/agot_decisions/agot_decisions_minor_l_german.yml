@@ -1,6 +1,5 @@
 ﻿l_german:
  ## TODO This decision does not seem to exist anywhere, commenting out for now.
- ## TODO This decision does not seem to exist anywhere, commenting out for now.
  # btw_go_on_trophy_hunt_decision:0 "Go on a Trophy Hunt"
  # btw_go_on_trophy_hunt_decision_desc:0 "Beyond the wall there are ample beasts for the hunt: snow bears, shadowcats, direwolves, oh my!"
  # btw_go_on_trophy_hunt_decision_tooltip:0 "You will call a great hunt."
@@ -79,7 +78,7 @@
  allow_petitioners_decision:0 "Bittgesuche zulassen"
  allow_petitioners_decision_tooltip:0 "Ermöglicht, dass Vasallen bei Euch Bittgesuche stellen können."
  allow_petitioners_decision_desc:0 "Meine Vasallen dürfen Bittgesuche an mich richten."
- allow_petitioners_decision_confirm:0 "Lasst sie hinein!"  
+ allow_petitioners_decision_confirm:0 "Lasst sie hinein!"
 
  disallow_hommage_decision:0 "Huldigungen verweigern"
  disallow_hommage_decision_tooltip:0 "Verhindert, dass Eure Vasallen Euch ihre Ehrerbietung erweisen."
@@ -87,10 +86,32 @@
  disallow_hommage_decision_confirm:0 "Für den Moment empfange ich niemanden."
  allow_hommage_decision:0 "Huldigungen zulassen"
  allow_hommage_decision_tooltip:0 "Ermöglicht, dass Eure Vasallen Euch ihre Ehrerbietung erweisen."
- allow_hommage_decision_desc:0 "Meine Vasallen mögen mir "
- allow_hommage_decision_confirm:0 "Lasst sie hinein!" 
+ allow_hommage_decision_desc:0 "Meine Vasallen sollen mir huldigen."
+ allow_hommage_decision_confirm:0 "Lasst sie hinein!"
 
  recruit_forder_specialist_decision:0 "Rekrutiert einen Furtner"
  recruit_forder_specialist_decision_desc:0 "Rekrutiert einen Befehlshaber, der nicht nur weiß, wie man effektiv Flüsse überquert, sondern auch ein geschickter Krieger ist, wenn er dies tut."
  recruit_forder_specialist_decision_tooltip:0 "Ein Befehlshaber mit der Furtner-Eigenschaft wird sich Eurem Hof anschließen."
  recruit_forder_specialist_decision_confirm:0 "Ich hoffe, es findet sich jemand"
+
+ stress_loss_uncouth_decision:0 "Sich gehen lassen"
+ stress_loss_uncouth_decision_desc:0 "Die Belastungen in dieser Welt sind viel zu groß geworden. Wenn die Welt mich als Scheusal sehen will, dann sollen sie ein Scheusal sehen."
+ stress_loss_uncouth_decision_tooltip:0 "Ihr gebt es auf, den Schein zu wahren und lasst eure Haare und Nägel wild wachsen."
+ stress_loss_uncouth_decision_confirm:0 "Wer braucht schon ein Bad?"
+ uncouth_stopped_cutting:0 "Ungepflegtes Haar"
+ uncouth_stopped_cutting_desc:0 "Dieser Charakter hat aufgehört, sich die Haare zu schneiden, was ein ungepflegtes Aussehen zur Folge hat."
+
+ agot_commission_crown_decision:0 "Eine neue Krone in Auftrag geben"
+ agot_commission_crown_decision_effects_tooltip:0 "Ihr werdet eine neue Krone anfertigen lassen."
+ agot_commission_crown_decision_tooltip:0 "Ihr werdet eine neue Krone in Auftrag geben."
+ agot_commission_crown_decision_desc:0 "Nur wenigen in Westeros ist es vergönnt, eine Krone zu besitzen. Noch weniger haben das Recht, sie zu tragen. Es ist an der Zeit, ein neues Symbol der Macht zu schaffen, das meine Herrschaft verkörpert und legitimiert."
+ agot_commission_crown_decision_confirm:0 "Ruft den Schmied herbei!"
+ agot_commission_crown_button:0 "Krone wählen"
+ agot_commission_crown_dynasty_choice_loc:0 "Passend zu meiner Abstammung"
+ agot_commission_crown_dynasty_choice_tooltip:0 "Fertigt Sie eine Kronean, die meine Blutlinie repräsentiert."
+ agot_commission_crown_seat_choice_loc:0 "Passend zu meinen Ländereien"
+ agot_commission_crown_seat_choice_tooltip:0 "Fertigt Sie eine Krone an, die meine Ländereien widerspiegelt."
+ agot_commission_crown_faith_choice_loc:0 "Passend zu meinen Glauben"
+ agot_commission_crown_faith_choice_tooltip:0 "Fertigt Sie eine Krone an, die meinen Glauben ehrt."
+ agot_commission_crown_character_choice_loc:0 "Einzigartige Krone"
+ agot_commission_crown_character_choice_tooltip:0 "Fertigt eine einzigartige Krone an."
